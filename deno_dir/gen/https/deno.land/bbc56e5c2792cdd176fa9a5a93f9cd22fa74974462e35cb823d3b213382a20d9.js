@@ -1,0 +1,7 @@
+export class TimeoutError extends Error {
+    isTimeout = true;
+}
+export function isTimeoutError(error) {
+    return error.isTimeout === true;
+}
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoidGltZW91dEVycm9yLmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsidGltZW91dEVycm9yLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUNBLE1BQU0sT0FBTyxZQUFhLFNBQVEsS0FBSztJQUNyQyxTQUFTLEdBQUcsSUFBSSxDQUFDO0NBQ2xCO0FBR0QsTUFBTSxVQUFVLGNBQWMsQ0FBQyxLQUFZO0lBQ3pDLE9BQVEsS0FBc0IsQ0FBQyxTQUFTLEtBQUssSUFBSSxDQUFDO0FBQ3BELENBQUMifQ==

@@ -1,0 +1,8 @@
+export let defaultDuration = 60 * 1000;
+export function setDefaultDuration(duration) {
+    defaultDuration = duration;
+}
+export function getDefaultDuration() {
+    return defaultDuration;
+}
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoib3B0aW9ucy5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIm9wdGlvbnMudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQ0EsTUFBTSxDQUFDLElBQUksZUFBZSxHQUFHLEVBQUUsR0FBRyxJQUFJLENBQUM7QUFFdkMsTUFBTSxVQUFVLGtCQUFrQixDQUFDLFFBQWdCO0lBQ2pELGVBQWUsR0FBRyxRQUFRLENBQUM7QUFDN0IsQ0FBQztBQUVELE1BQU0sVUFBVSxrQkFBa0I7SUFDaEMsT0FBTyxlQUFlLENBQUM7QUFDekIsQ0FBQyJ9

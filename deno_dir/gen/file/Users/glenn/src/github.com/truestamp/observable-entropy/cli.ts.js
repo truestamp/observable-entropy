@@ -1,0 +1,314 @@
+import { parse } from "https://deno.land/std@0.98.0/flags/mod.ts";
+import { ensureDirSync, existsSync, } from "https://deno.land/std@0.98.0/fs/mod.ts";
+import { createHash } from "https://deno.land/std@0.98.0/hash/mod.ts";
+import { assertObjectMatch } from "https://deno.land/std@0.98.0/testing/asserts.ts";
+import { retryAsync } from "https://deno.land/x/retry@v2.0.0/mod.ts";
+import * as ed from "https://deno.land/x/ed25519@1.0.1/mod.ts";
+import Client, { HTTP, } from "https://cdn.jsdelivr.net/npm/drand-client@0.2.0/drand.js";
+const DENO_LOCK_FILE = "lock.json";
+const ENTROPY_FILE = "entropy.json";
+const ENTROPY_DIR = "./entropy";
+const PREV_ENTROPY_FILE = `${ENTROPY_DIR}/entropy_previous.json`;
+const INDEX_DIR = "index/by/entropy_hash";
+const HASH_TYPE = "sha256";
+const HASH_ITERATIONS = 500000;
+const SHA1_REGEX = /^(?:(0x)*([A-Fa-f0-9]{2}){20})$/i;
+const SHA256_REGEX = /^(?:(0x)*([A-Fa-f0-9]{2}){32})$/i;
+const NOW = new Date();
+async function readJSON(path) {
+    const text = await Deno.readTextFile(path);
+    return JSON.parse(text);
+}
+async function readJSONFromURL(url) {
+    const response = await fetch(url);
+    const json = await response.json();
+    return json;
+}
+async function writeJSON(path, data) {
+    await Deno.writeTextFile(path, JSON.stringify(data, null, 2));
+}
+function getPrivateKey() {
+    const privKey = Deno.env.get("ED25519_PRIVATE_KEY") || "";
+    if (!privKey || privKey === "") {
+        throw new Error("missing required environment variable ED25519_PRIVATE_KEY");
+    }
+    return privKey;
+}
+async function getPublicKey() {
+    const publicKey = await retryAsync(async () => {
+        console.log("verify : retrieve public key");
+        const publicKeyObj = await readJSONFromURL("https://entropy.truestamp.com/pubkey");
+        const publicKey = publicKeyObj?.key;
+        if (!publicKey || publicKey === "") {
+            throw new Error("failed to retrieve required ed25519 public key from https://entropy.truestamp.com/pubkey");
+        }
+        return publicKey;
+    }, { delay: 1000, maxTry: 5 });
+    return publicKey;
+}
+const getFiles = () => {
+    const files = [];
+    for (const dirEntry of Deno.readDirSync(ENTROPY_DIR)) {
+        if (dirEntry.isFile && dirEntry.name.endsWith(".json")) {
+            files.push({ name: dirEntry.name });
+        }
+    }
+    files.map((file) => {
+        const data = Deno.readFileSync(`${ENTROPY_DIR}/${file.name}`);
+        const hash = createHash(HASH_TYPE);
+        hash.update(data);
+        file.hash = hash.toString();
+        file.hashType = HASH_TYPE;
+        return file;
+    });
+    const sortedFiles = files.sort(function (a, b) {
+        var nameA = a.name.toUpperCase();
+        var nameB = b.name.toUpperCase();
+        if (nameA < nameB) {
+            return -1;
+        }
+        if (nameA > nameB) {
+            return 1;
+        }
+        return 0;
+    });
+    return sortedFiles;
+};
+const concatenateFileHashes = (files) => {
+    const hashes = [];
+    for (const file of files) {
+        hashes.push(file.hash);
+    }
+    return hashes.join("");
+};
+const genSlowHash = (hash) => {
+    let newHash = hash;
+    for (let i = 0; i < HASH_ITERATIONS; i++) {
+        const hash = createHash(HASH_TYPE);
+        hash.update(newHash);
+        newHash = hash.toString();
+    }
+    return newHash;
+};
+const genEntropy = async () => {
+    const files = getFiles();
+    const concatenatedFileHashes = concatenateFileHashes(files);
+    const slowHash = genSlowHash(concatenatedFileHashes);
+    const entropy = {
+        files: files,
+        hashType: HASH_TYPE,
+        hashIterations: HASH_ITERATIONS,
+        hash: slowHash,
+        createdAt: NOW.toISOString(),
+    };
+    let hashSig;
+    if (parsedArgs["entropy-generate"]) {
+        hashSig = await ed.sign(entropy.hash, getPrivateKey());
+        entropy.signature = hashSig;
+    }
+    let prevEntropy;
+    if (existsSync(PREV_ENTROPY_FILE)) {
+        prevEntropy = await readJSON(PREV_ENTROPY_FILE);
+        entropy.prevHash = prevEntropy?.hash;
+    }
+    console.log(JSON.stringify(entropy, null, 2));
+    return entropy;
+};
+const parsedArgs = parse(Deno.args, {
+    boolean: [
+        "clean",
+        "collect",
+        "collect-timestamp",
+        "collect-bitcoin",
+        "collect-ethereum",
+        "collect-stellar",
+        "collect-drand",
+        "collect-hn",
+        "collect-nist",
+        "collect-user-entropy",
+        "entropy-generate",
+        "entropy-verify",
+        "entropy-index",
+    ],
+});
+if (parsedArgs["clean"]) {
+    console.log("clean");
+    for (const dirEntry of Deno.readDirSync(".")) {
+        if (dirEntry.isFile && dirEntry.name.endsWith(".json") &&
+            dirEntry.name !== ENTROPY_FILE &&
+            dirEntry.name !== DENO_LOCK_FILE) {
+            Deno.removeSync(dirEntry.name);
+        }
+    }
+}
+if (parsedArgs["collect"] || parsedArgs["collect-timestamp"]) {
+    await retryAsync(async () => {
+        console.log("collect attempt : timestamp");
+        ensureDirSync(ENTROPY_DIR);
+        await writeJSON(`${ENTROPY_DIR}/timestamp.json`, {
+            timestamp: NOW.toISOString(),
+        });
+    }, { delay: 1000, maxTry: 5 });
+}
+if (parsedArgs["collect"] || parsedArgs["collect-bitcoin"]) {
+    try {
+        await retryAsync(async () => {
+            console.log("collect attempt : bitcoin");
+            const latestBlock = await readJSONFromURL("https://blockchain.info/latestblock");
+            const { height, hash, time, block_index: blockIndex } = latestBlock;
+            ensureDirSync(ENTROPY_DIR);
+            await writeJSON(`${ENTROPY_DIR}/bitcoin.json`, {
+                height,
+                hash,
+                time,
+                blockIndex,
+            });
+        }, { delay: 1000, maxTry: 5 });
+    }
+    catch (error) {
+        console.error(`collect failed : ${error.message}`);
+    }
+}
+if (parsedArgs["collect"] || parsedArgs["collect-ethereum"]) {
+    try {
+        await retryAsync(async () => {
+            console.log("collect attempt : ethereum");
+            const latestBlock = await readJSONFromURL("https://api.blockcypher.com/v1/eth/main");
+            ensureDirSync(ENTROPY_DIR);
+            await writeJSON(`${ENTROPY_DIR}/ethereum.json`, latestBlock);
+        }, { delay: 1000, maxTry: 5 });
+    }
+    catch (error) {
+        console.error(`collect failed : ${error.message}`);
+    }
+}
+if (parsedArgs["collect"] || parsedArgs["collect-nist"]) {
+    try {
+        await retryAsync(async () => {
+            console.log("collect attempt : nist-beacon");
+            const latestPulse = await readJSONFromURL("https://beacon.nist.gov/beacon/2.0/pulse/last");
+            ensureDirSync(ENTROPY_DIR);
+            await writeJSON(`${ENTROPY_DIR}/nist-beacon.json`, latestPulse);
+        }, { delay: 1000, maxTry: 5 });
+    }
+    catch (error) {
+        console.error(`collect failed : ${error.message}`);
+    }
+}
+if (parsedArgs["collect"] || parsedArgs["collect-user-entropy"]) {
+    try {
+        await retryAsync(async () => {
+            console.log("collect attempt : user-entropy");
+            const entries = await readJSONFromURL("https://entropy.truestamp.com/entries");
+            if (!Array.isArray(entries)) {
+                throw new Error(`collect attempt : user-entropy : expected Array, got ${entries}`);
+            }
+            ensureDirSync(ENTROPY_DIR);
+            await writeJSON(`${ENTROPY_DIR}/user-entropy.json`, { entries });
+        }, { delay: 1000, maxTry: 5 });
+    }
+    catch (error) {
+        console.error(`collect failed : ${error.message}`);
+    }
+}
+if (parsedArgs["collect"] || parsedArgs["collect-stellar"]) {
+    try {
+        await retryAsync(async () => {
+            console.log("collect attempt : stellar");
+            const feeStats = await readJSONFromURL("https://horizon.stellar.org/fee_stats");
+            const latestLedger = await readJSONFromURL(`https://horizon.stellar.org/ledgers/${feeStats.last_ledger}`);
+            ensureDirSync(ENTROPY_DIR);
+            await writeJSON(`${ENTROPY_DIR}/stellar.json`, latestLedger);
+        }, { delay: 1000, maxTry: 5 });
+    }
+    catch (error) {
+        console.error(`collect failed : ${error.message}`);
+    }
+}
+if (parsedArgs["collect"] || parsedArgs["collect-drand"]) {
+    try {
+        await retryAsync(async () => {
+            console.log("collect attempt : drand-beacon");
+            const urls = [
+                "https://drand.cloudflare.com",
+            ];
+            const chainInfo = await readJSONFromURL("https://drand.cloudflare.com/info");
+            const options = { chainInfo };
+            const client = await Client.wrap(HTTP.forURLs(urls, chainInfo.hash), options);
+            const randomness = await client.get();
+            await client.close();
+            ensureDirSync(ENTROPY_DIR);
+            await writeJSON(`${ENTROPY_DIR}/drand-beacon.json`, {
+                chainInfo,
+                randomness,
+            });
+        }, { delay: 1000, maxTry: 5 });
+    }
+    catch (error) {
+        console.error(`collect failed : ${error.message}`);
+    }
+}
+if (parsedArgs["collect"] || parsedArgs["collect-hn"]) {
+    try {
+        await retryAsync(async () => {
+            console.log("collect attempt : hacker-news");
+            const newsStories = await readJSONFromURL("https://hacker-news.firebaseio.com/v0/newstories.json");
+            const stories = [];
+            for (let i = 0; i < 10; i++) {
+                const story = await readJSONFromURL(`https://hacker-news.firebaseio.com/v0/item/${newsStories[i]}.json`);
+                stories.push(story);
+            }
+            ensureDirSync(ENTROPY_DIR);
+            await writeJSON(`${ENTROPY_DIR}/hacker-news.json`, { stories });
+        }, { delay: 1000, maxTry: 5 });
+    }
+    catch (error) {
+        console.error(`collect failed : ${error.message}`);
+    }
+}
+if (parsedArgs["entropy-generate"]) {
+    if (existsSync(ENTROPY_FILE)) {
+        Deno.copyFileSync(ENTROPY_FILE, PREV_ENTROPY_FILE);
+        console.log(`entropy : copied to '${PREV_ENTROPY_FILE}'`);
+    }
+    const entropy = await genEntropy();
+    await writeJSON(ENTROPY_FILE, entropy);
+    console.log("entropy : generated");
+}
+if (parsedArgs["entropy-verify"]) {
+    if (!existsSync(ENTROPY_FILE)) {
+        throw new Error(`required file '${ENTROPY_FILE}' not found`);
+    }
+    const currentEntropy = await readJSON(ENTROPY_FILE);
+    const publicKey = await getPublicKey();
+    if (!publicKey) {
+        throw new Error("unable to retrieve public key for verification");
+    }
+    if (!await ed.verify(currentEntropy.signature, currentEntropy.hash, publicKey)) {
+        throw new Error("invalid hash signature");
+    }
+    const entropy = await genEntropy();
+    delete currentEntropy.createdAt;
+    delete entropy.createdAt;
+    assertObjectMatch(currentEntropy, entropy);
+    console.log("entropy : verified");
+}
+if (parsedArgs["entropy-index"]) {
+    const parentCommitId = Deno.env.get("PARENT_COMMIT_ID") || "";
+    if (!SHA1_REGEX.test(parentCommitId)) {
+        throw new Error("invalid PARENT_COMMIT_ID environment variable, must be SHA1 commit ID");
+    }
+    if (existsSync(PREV_ENTROPY_FILE)) {
+        const prevEntropy = await readJSON(PREV_ENTROPY_FILE);
+        const prevEntropyHash = prevEntropy?.hash;
+        if (!prevEntropyHash || !SHA256_REGEX.test(prevEntropyHash)) {
+            throw new Error("missing or invalid entropy hash in file");
+        }
+        Deno.mkdirSync(INDEX_DIR, { recursive: true });
+        await writeJSON(`${INDEX_DIR}/${prevEntropyHash}.json`, {
+            id: parentCommitId,
+        });
+        console.log(`entropy-index : index file written : '${INDEX_DIR}/${prevEntropyHash}.json' : ${parentCommitId}`);
+    }
+}
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiY2xpLmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsiY2xpLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBLE9BQU8sRUFBRSxLQUFLLEVBQUUsTUFBTSwyQ0FBMkMsQ0FBQztBQUNsRSxPQUFPLEVBQ0wsYUFBYSxFQUNiLFVBQVUsR0FDWCxNQUFNLHdDQUF3QyxDQUFDO0FBQ2hELE9BQU8sRUFBRSxVQUFVLEVBQUUsTUFBTSwwQ0FBMEMsQ0FBQztBQUN0RSxPQUFPLEVBQUUsaUJBQWlCLEVBQUUsTUFBTSxpREFBaUQsQ0FBQztBQUVwRixPQUFPLEVBQUUsVUFBVSxFQUFFLE1BQU0seUNBQXlDLENBQUM7QUFFckUsT0FBTyxLQUFLLEVBQUUsTUFBTSwwQ0FBMEMsQ0FBQztBQUUvRCxPQUFPLE1BQU0sRUFBRSxFQUNiLElBQUksR0FDTCxNQUFNLDBEQUEwRCxDQUFDO0FBRWxFLE1BQU0sY0FBYyxHQUFHLFdBQVcsQ0FBQztBQUNuQyxNQUFNLFlBQVksR0FBRyxjQUFjLENBQUM7QUFDcEMsTUFBTSxXQUFXLEdBQUcsV0FBVyxDQUFDO0FBQ2hDLE1BQU0saUJBQWlCLEdBQUcsR0FBRyxXQUFXLHdCQUF3QixDQUFDO0FBQ2pFLE1BQU0sU0FBUyxHQUFHLHVCQUF1QixDQUFDO0FBQzFDLE1BQU0sU0FBUyxHQUFHLFFBQVEsQ0FBQztBQUMzQixNQUFNLGVBQWUsR0FBRyxNQUFNLENBQUM7QUFDL0IsTUFBTSxVQUFVLEdBQUcsa0NBQWtDLENBQUM7QUFDdEQsTUFBTSxZQUFZLEdBQUcsa0NBQWtDLENBQUM7QUFDeEQsTUFBTSxHQUFHLEdBQUcsSUFBSSxJQUFJLEVBQUUsQ0FBQztBQW9CdkIsS0FBSyxVQUFVLFFBQVEsQ0FBQyxJQUFZO0lBQ2xDLE1BQU0sSUFBSSxHQUFHLE1BQU0sSUFBSSxDQUFDLFlBQVksQ0FBQyxJQUFJLENBQUMsQ0FBQztJQUMzQyxPQUFPLElBQUksQ0FBQyxLQUFLLENBQUMsSUFBSSxDQUFDLENBQUM7QUFDMUIsQ0FBQztBQUVE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

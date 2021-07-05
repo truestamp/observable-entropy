@@ -1,0 +1,39 @@
+name: Collect Entropy
+on:
+  repository_dispatch:
+    types: [trigger_generate]
+  workflow_dispatch: {}
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    outputs:
+      parentCommitId: ${{ steps.generate.outputs.parentID }}
+    steps:
+      - name: Setup deno
+        uses: denoland/setup-deno@main
+        with:
+          deno-version: v1.x
+      - name: Check out repo
+        uses: actions/checkout@v2
+      - name: Get parent commit ID
+        id: vars
+        shell: bash
+        run: |
+          echo "::set-output name=parentCommitId::$(git rev-parse HEAD)"
+      - name: Collect, generate, verify, and index new entropy
+        env:
+          ED25519_PRIVATE_KEY: ${{ secrets.ED25519_PRIVATE_KEY }}
+          PARENT_COMMIT_ID: ${{ steps.vars.outputs.parentCommitId }}
+        run: make collect && make generate && make verify && make index
+      - name: Commit entropy
+        uses: EndBug/add-and-commit@v7.2.1
+        with:
+          author_name: Truestamp
+          author_email: support@truestamp.com
+          branch: main
+          message: "Entropy"
+          add: '.'
+      - name: Clear User Submitted Entropy
+        env:
+          X_TRUESTAMP_PSK: ${{ secrets.X_TRUESTAMP_PSK }}
+        run: 'curl --location --request DELETE "https://entropy.truestamp.com/entries" --header "X-Truestamp-PSK: $X_TRUESTAMP_PSK"'

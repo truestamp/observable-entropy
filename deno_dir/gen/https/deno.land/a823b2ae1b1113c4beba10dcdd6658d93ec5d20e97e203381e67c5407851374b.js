@@ -1,0 +1,2 @@
+export { deferred, delay as denoDelay, } from "https://deno.land/std@0.98.0/async/mod.ts";
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiZGVwcy5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbImRlcHMudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQ0EsT0FBTyxFQUNMLFFBQVEsRUFDUixLQUFLLElBQUksU0FBUyxHQUNuQixNQUFNLDJDQUEyQyxDQUFDIn0=

@@ -1,0 +1,12 @@
+export const osType = (() => {
+    if (globalThis.Deno != null) {
+        return Deno.build.os;
+    }
+    const navigator = globalThis.navigator;
+    if (navigator?.appVersion?.includes?.("Win") ?? false) {
+        return "windows";
+    }
+    return "linux";
+})();
+export const isWindows = osType === "windows";
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoib3MuanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyJvcy50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFHQSxNQUFNLENBQUMsTUFBTSxNQUFNLEdBQUcsQ0FBQyxHQUFHLEVBQUU7SUFDMUIsSUFBSSxVQUFVLENBQUMsSUFBSSxJQUFJLElBQUksRUFBRTtRQUMzQixPQUFPLElBQUksQ0FBQyxLQUFLLENBQUMsRUFBRSxDQUFDO0tBQ3RCO0lBR0QsTUFBTSxTQUFTLEdBQUksVUFBa0IsQ0FBQyxTQUFTLENBQUM7SUFDaEQsSUFBSSxTQUFTLEVBQUUsVUFBVSxFQUFFLFFBQVEsRUFBRSxDQUFDLEtBQUssQ0FBQyxJQUFJLEtBQUssRUFBRTtRQUNyRCxPQUFPLFNBQVMsQ0FBQztLQUNsQjtJQUVELE9BQU8sT0FBTyxDQUFDO0FBQ2pCLENBQUMsQ0FBQyxFQUFFLENBQUM7QUFFTCxNQUFNLENBQUMsTUFBTSxTQUFTLEdBQUcsTUFBTSxLQUFLLFNBQVMsQ0FBQyJ9
