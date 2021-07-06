@@ -1,6 +1,45 @@
 {
   "stories": [
-    null,
+    {
+      "by": "trylfthsk",
+      "descendants": 0,
+      "id": 27748778,
+      "score": 1,
+      "time": 1625580507,
+      "title": "A Preview of Bi-Partisan Compromise on Infrastructure (Sorry, It's Not Good)",
+      "type": "story",
+      "url": "https://www.strongtowns.org/journal/2021/7/6/a-preview-of-bi-partisan-compromise-on-infrastructure-sorry-its-not-good"
+    },
+    {
+      "by": "wdanilo",
+      "descendants": 0,
+      "id": 27748738,
+      "score": 1,
+      "text": "Hi HN, We are Wojciech and Sylwia, the co-founders of Enso (<a href=\"https:&#x2F;&#x2F;enso.org\" rel=\"nofollow\">https:&#x2F;&#x2F;enso.org</a>). On the tech side, Enso is a visual and textual programming language (you can switch from graph to code and back). On the business side, it&#x27;s a workflow builder that makes it easy for analysts without a programming background to automate data-driven processes simply by connecting visual components together. Our GUI is like an IDE, but with a graph editor alongside the code. Currently, we’re focused on data analysis—data preparation, blending, and analytics (both in-memory and SQL). You can see a video of how it works here: <a href=\"https:&#x2F;&#x2F;youtu.be&#x2F;fQvWMoOjmQk\" rel=\"nofollow\">https:&#x2F;&#x2F;youtu.be&#x2F;fQvWMoOjmQk</a>.<p>We used to be called Luna and were lucky to have a few big threads on HN over the years [1][2][3][4][5]. Eventually we went into heads-down mode to make a production version based on customer and user feedback. Since then, we&#x27;ve drastically improved the product. It is still rough around the edges, but works much better now. We have also made a few tutorials (<a href=\"https:&#x2F;&#x2F;www.youtube.com&#x2F;channel&#x2F;UC4oMK7cL1ElfNR_OhS-YQAw\" rel=\"nofollow\">https:&#x2F;&#x2F;www.youtube.com&#x2F;channel&#x2F;UC4oMK7cL1ElfNR_OhS-YQAw</a>), and\ndocs (<a href=\"https:&#x2F;&#x2F;enso.org&#x2F;docs&#x2F;syntax\" rel=\"nofollow\">https:&#x2F;&#x2F;enso.org&#x2F;docs&#x2F;syntax</a>). We&#x27;ve added many new libraries, so you can do many more things with it now. Oh, and we changed the name to Enso and got accepted to YC! :)<p>The problem we address is that data analysts still waste up to half of their time on repetitive manual work that can be automated [6]. To give one example, a company we&#x27;re working with hires business users who use Excel to define data quality rules. These get manually translated to SQL, then manually translated to Python. This is not only error prone, it’s so slow that it takes them 90 days to introduce a single new rule. There’s 60 days’ worth of overhead in this process—it’s insane!<p>Years ago I (Wojciech) led the in-house development of visual effects (VFX) tools at a motion picture studio. We made tools like cloud renderers and smoke simulation engines. The artists using these tools did not have any programming background, yet they were designing complex algorithms for forces between particles, light subsurface scattering, things like that. Earlier generations of these tools had hundreds of config options, buttons, etc., for masses of different use cases, but this approach got way too complex and people eventually realized that it falls short when you need to do anything that the vendor did not think of. Nowadays they use node-based software (like the Houdini FX) which lets users draw algorithms as a sequence of data processing steps (these steps are often referred to as “nodes”). Later, when I was working in other industries and encountered the same rats’ nests of complex GUIs for solving data processing problems, I realized that the data analytics&#x2F;science space was in need of the same breakthrough that we had already gone through in the VFX space.<p>Most visual programming languages &#x2F; workflow-builders do not scale well because they don&#x27;t let users express abstractions. Try to build a complex pipeline and you&#x27;ll end with an unreadable spaghetti of connections—it&#x27;s like coding a web app in the assembler. Enso is different because we allow you to build abstractions to manage the complexity. As a result, you never have more than 10-20 nodes on the stage in Enso (nodes are hierarchical). You can create custom data types, custom components (functions), catch errors, etc. All this works because under the hood, Enso is a real programming language. However, naive implementations of such systems are super slow. Each component may be built of hundreds, sometimes thousands of lower-level ones. The real trick is making these hierarchical components run fast. For that you need a dedicated compiler and a runtime system, and this is a hard technical space. Our system involves a dedicated JIT compiler based on GraalVM. For details, see <a href=\"https:&#x2F;&#x2F;enso.org&#x2F;language#compiler\" rel=\"nofollow\">https:&#x2F;&#x2F;enso.org&#x2F;language#compiler</a>. In case this is interesting for you, here is our podcast about how the compiler works under the hood: <a href=\"https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=BibjcUjdkO4\" rel=\"nofollow\">https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=BibjcUjdkO4</a>.<p>Enso is interactive, meaning that we recompute the relevant parts of graphs as parameters change, which shortens feedback loops dramatically. Like a lot of people on HN, we were inspired by Bret Victor&#x27;s classic talk on instant feedback: <a href=\"https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=8QiPFmIMxFc\" rel=\"nofollow\">https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=8QiPFmIMxFc</a>.  We’ve also put a lot of effort into extensibility. You can add Java, JavaScript, R, and Python (soon also Ruby, Scala, Kotlin, Rust, and C) directly into Enso nodes without the need to write any wrappers and with a close-to-zero performance overhead.<p>Enso is open source. Our compiler code is at <a href=\"https:&#x2F;&#x2F;github.com&#x2F;enso-org&#x2F;enso\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;enso-org&#x2F;enso</a> and our GUI code at <a href=\"https:&#x2F;&#x2F;github.com&#x2F;enso-org&#x2F;ide\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;enso-org&#x2F;ide</a>. Our business model is based on selling domain specific libraries, on-premise installations with enhanced user permission management, and coming soon, a hosted solution called Enso Cloud, which will be our only non-open-source codebase. Since this is Hacker News, I should add that all our alpha releases collect anonymous usage statistics which we use to improve Enso and prepare it for a stable release. Full details about that are always in our release notes (<a href=\"https:&#x2F;&#x2F;github.com&#x2F;enso-org&#x2F;ide&#x2F;releases&#x2F;latest\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;enso-org&#x2F;ide&#x2F;releases&#x2F;latest</a>).<p>Dear HN Family, we are super excited to show Enso to you. Please, share with us your thoughts, experiences, ideas and feedback. It is insanely important to us, as our dream is to make Enso the most useful data processing platform in your toolbox! Also, in case you’d like to build your projects on top of Enso, we would love to help you do it – describe what you have in mind here, and we will reach out to you: <a href=\"https:&#x2F;&#x2F;airtable.com&#x2F;shrsnx2mJuRn0MxIS\" rel=\"nofollow\">https:&#x2F;&#x2F;airtable.com&#x2F;shrsnx2mJuRn0MxIS</a> :)<p>=== Links ===<p>[1] Luna: Visual and textual functional programming language* - <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=11144828\" rel=\"nofollow\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=11144828</a> - Feb 2016 (100 comments)<p>[2] Luna – Visual and textual functional programming language* - <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=14612680\" rel=\"nofollow\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=14612680</a> - June 2017 (310 comments)<p>[3] Luna 1.0 Beta is out* - <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=16163769\" rel=\"nofollow\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=16163769</a> - Jan 2018 (167 comments)<p>[4] Luna Studio – Visual and textual functional programming language* - <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=17704989\" rel=\"nofollow\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=17704989</a> - Aug 2018 (64 comments)<p>[5] Luna – A WYSIWYG language for data processing* - <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=20182090\" rel=\"nofollow\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=20182090</a> - June 2019 (86 comments)<p>[6] <a href=\"https:&#x2F;&#x2F;www.alteryx.com&#x2F;e-book&#x2F;idc-study-the-state-of-self-service-data-preparation-and-analysis-using-spreadsheets\" rel=\"nofollow\">https:&#x2F;&#x2F;www.alteryx.com&#x2F;e-book&#x2F;idc-study-the-state-of-self-s...</a>",
+      "time": 1625580346,
+      "title": "Launch HN: Enso (YC S21) – Visual programming and workflow tool for data science",
+      "type": "story"
+    },
+    {
+      "by": "aroccoli",
+      "descendants": 0,
+      "id": 27748734,
+      "score": 2,
+      "time": 1625580331,
+      "title": "Metaprogramming in Haskell",
+      "type": "story",
+      "url": "https://serokell.io/blog/introduction-to-template-haskell"
+    },
+    {
+      "by": "_joel",
+      "descendants": 0,
+      "id": 27748726,
+      "score": 2,
+      "time": 1625580309,
+      "title": "Kids Using Soft Drinks to Fake Positive Results on Covid-19 Tests",
+      "type": "story",
+      "url": "https://www.sciencealert.com/here-s-how-kids-are-using-soft-drinks-to-create-fake-positives-on-covid-19-tests"
+    },
     {
       "by": "jwmhjwmh",
       "descendants": 0,
@@ -63,42 +102,6 @@
       "title": "A free REST API to fetch hand-curated remote jobs",
       "type": "story",
       "url": "https://remotewx.com/api"
-    },
-    {
-      "by": "youaskwebuild",
-      "descendants": 1,
-      "id": 27748563,
-      "kids": [
-        27748564
-      ],
-      "score": 1,
-      "time": 1625579689,
-      "title": "Show HN: MyLinx – A developer alternative to Bio Link products",
-      "type": "story",
-      "url": "https://github.com/YouAskWeBuild"
-    },
-    {
-      "by": "iafrikan",
-      "descendants": 0,
-      "id": 27748558,
-      "score": 1,
-      "time": 1625579682,
-      "title": "Future of artistic expression in Africa lies in non-fungible tokens",
-      "type": "story",
-      "url": "https://www.iafrikan.com/2021/07/06/nft-africa-crypto-art-explained/"
-    },
-    {
-      "by": "g3electricalso",
-      "descendants": 1,
-      "id": 27748506,
-      "kids": [
-        27748507
-      ],
-      "score": 1,
-      "time": 1625579467,
-      "title": "Safety Standards and Policies That All Electricians Should Follow",
-      "type": "story",
-      "url": "https://g3electricalsolution.gumroad.com/p/safety-standards-and-policies-that-all-electricians-should-follow"
     }
   ]
 }
