@@ -1,9 +1,72 @@
 {
   "stories": [
     {
-      "by": "kristianpaul",
+      "by": "oedmarap",
       "descendants": 0,
+      "id": 27754079,
+      "score": 1,
+      "time": 1625604763,
+      "title": "Cloudflare customers can now use Microsoft Azure Data Transfer Routing",
+      "type": "story",
+      "url": "https://blog.cloudflare.com/discounted-egress-for-cloudflare-customers-from-microsoft-azure-is-now-available/"
+    },
+    {
+      "by": "jmsflknr",
+      "descendants": 0,
+      "id": 27754078,
+      "score": 1,
+      "time": 1625604759,
+      "title": "Russian State Hackers Breached Republican National Committee",
+      "type": "story",
+      "url": "https://www.bloomberg.com/news/articles/2021-07-06/russian-state-hackers-breached-republican-national-committee"
+    },
+    {
+      "by": "samizdis",
+      "descendants": 0,
+      "id": 27754064,
+      "score": 1,
+      "time": 1625604674,
+      "title": "The Anatomical Machines of Naples’ Alchemist Prince",
+      "type": "story",
+      "url": "https://daily.jstor.org/the-anatomical-machines-of-naples-alchemist-prince/"
+    },
+    {
+      "by": "jameslk",
+      "descendants": 0,
+      "id": 27754061,
+      "score": 1,
+      "time": 1625604667,
+      "title": "Janice McAfee's statement on John's death",
+      "type": "story",
+      "url": "https://twitter.com/theemrsmcafee/status/1412464049338658818/photo/1"
+    },
+    {
+      "by": "yagizdegirmenci",
+      "descendants": 0,
+      "id": 27754057,
+      "score": 1,
+      "time": 1625604655,
+      "title": "Angle Grinder: Slice and dice logs on the command line",
+      "type": "story",
+      "url": "https://github.com/rcoh/angle-grinder"
+    },
+    {
+      "by": "nomoreplease",
+      "descendants": 0,
+      "id": 27754053,
+      "score": 1,
+      "time": 1625604633,
+      "title": "Literally Billions (2013)",
+      "type": "story",
+      "url": "http://www.datapointed.net/2013/04/literally-billions/"
+    },
+    {
+      "by": "kristianpaul",
+      "descendants": 1,
       "id": 27754043,
+      "kids": [
+        27754055
+      ],
       "score": 1,
       "time": 1625604602,
       "title": "Biden seeks to lift limits on farmer deals with meat processors, tractor makers",
@@ -39,66 +102,6 @@
       "title": "Sneedacity is a poster child for what can be achieved with telemetry",
       "type": "story",
       "url": "https://github.com/Sneeds-Feed-and-Seed/sneedacity"
-    },
-    {
-      "by": "antcas",
-      "descendants": 0,
-      "id": 27754013,
-      "score": 1,
-      "time": 1625604402,
-      "title": "How to Sell a Side Project – Q&A with Helen Ryles",
-      "type": "story",
-      "url": "https://www.youtube.com/watch?v=bYE1WHmEBzg"
-    },
-    {
-      "by": "rich_sasha",
-      "descendants": 0,
-      "id": 27753984,
-      "score": 1,
-      "text": "When not using an ORM: how do you marry SQL with the main programming language of the application (be it web, or data science etc.)?<p>On the one hand, it feels right to abstract the SQL database access into some kind of centralised API - but that feels like reinventing an ORM. Of course the difference remains that the hand-written queries are more specific than what the ORM can produce, but still.<p>The alternative seems messy - there is one shared database, and different parts of the application manage their own little slice of it. If you then want to, say, join tables from different logical domains, are you at risk of your queries getting out of date as different parts of the application evolve?<p>What about creating tables and indices - do you do that as a centralised, &quot;format&quot; process, or do different parts of the application create them as and when? Or do you even do it by hand? Where do any such creation scripts live - a centralised bootstrap script, or again, dispersed throughout the application?<p>Do you hard-code queries as strings in the application, or do they live as separate files? How do you keep table creation and insert&#x2F;update queries in sync?<p>The context is, I&#x27;m setting up some SQL for a data-science-y project, that might lead to something bigger. I&#x27;m scraping various data sources and sticking them into a DB (SQLite for now), and I&#x27;m trying to think ahead, so as not to create one big ball of spaghetti.I&#x27;m trying to avoid using an ORM, to both better learn SQL, and after some critical comments found on the good old t&#x27;Internet.<p>All thoughts and ideas welcome - and thanks!",
-      "time": 1625604252,
-      "title": "Ask HN: How do you manage SQL code alongside application code?",
-      "type": "story"
-    },
-    {
-      "by": "filippofinke",
-      "descendants": 0,
-      "id": 27753978,
-      "score": 1,
-      "time": 1625604214,
-      "title": "Show HN: Is the mcdonald's ice cream machine broken in Switzerland?",
-      "type": "story",
-      "url": "https://mcbroken.filippofinke.ch/"
-    },
-    {
-      "by": "todsacerdoti",
-      "descendants": 0,
-      "id": 27753957,
-      "score": 1,
-      "time": 1625604103,
-      "title": "Improving I/O efficiency and resilience",
-      "type": "story",
-      "url": "https://lists.dragonflybsd.org/pipermail/users/2021-June/404763.html"
-    },
-    {
-      "by": "CRConrad",
-      "descendants": 0,
-      "id": 27753951,
-      "score": 1,
-      "time": 1625604043,
-      "title": "Microsoft is working on game upscaling technology powered by AI",
-      "type": "story",
-      "url": "https://www.pcgamer.com/au/microsoft-is-working-on-game-upscaling-technology-powered-by-ai/"
-    },
-    {
-      "by": "rbanffy",
-      "descendants": 0,
-      "id": 27753933,
-      "score": 1,
-      "time": 1625603976,
-      "title": "Eviation Alice Electric Airplane to Make First Flight This Year",
-      "type": "story",
-      "url": "https://www.bloomberg.com/news/articles/2021-07-01/eviation-s-electric-alice-plane-to-make-first-flight-this-year"
     }
   ]
 }
