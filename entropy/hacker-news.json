@@ -1,6 +1,46 @@
 {
   "stories": [
     {
+      "by": "rich_sasha",
+      "descendants": 0,
+      "id": 27753984,
+      "score": 1,
+      "text": "When not using an ORM: how do you marry SQL with the main programming language of the application (be it web, or data science etc.)?<p>On the one hand, it feels right to abstract the SQL database access into some kind of centralised API - but that feels like reinventing an ORM. Of course the difference remains that the hand-written queries are more specific than what the ORM can produce, but still.<p>The alternative seems messy - there is one shared database, and different parts of the application manage their own little slice of it. If you then want to, say, join tables from different logical domains, are you at risk of your queries getting out of date as different parts of the application evolve?<p>What about creating tables and indices - do you do that as a centralised, &quot;format&quot; process, or do different parts of the application create them as and when? Or do you even do it by hand? Where do any such creation scripts live - a centralised bootstrap script, or again, dispersed throughout the application?<p>Do you hard-code queries as strings in the application, or do they live as separate files? How do you keep table creation and insert&#x2F;update queries in sync?<p>The context is, I&#x27;m setting up some SQL for a data-science-y project, that might lead to something bigger. I&#x27;m scraping various data sources and sticking them into a DB (SQLite for now), and I&#x27;m trying to think ahead, so as not to create one big ball of spaghetti.I&#x27;m trying to avoid using an ORM, to both better learn SQL, and after some critical comments found on the good old t&#x27;Internet.<p>All thoughts and ideas welcome - and thanks!",
+      "time": 1625604252,
+      "title": "Ask HN: How do you manage SQL code alongside application code?",
+      "type": "story"
+    },
+    {
+      "by": "filippofinke",
+      "descendants": 0,
+      "id": 27753978,
+      "score": 1,
+      "time": 1625604214,
+      "title": "Show HN: Is the mcdonald's ice cream machine broken in Switzerland?",
+      "type": "story",
+      "url": "https://mcbroken.filippofinke.ch/"
+    },
+    {
+      "by": "todsacerdoti",
+      "descendants": 0,
+      "id": 27753957,
+      "score": 1,
+      "time": 1625604103,
+      "title": "Improving I/O efficiency and resilience",
+      "type": "story",
+      "url": "https://lists.dragonflybsd.org/pipermail/users/2021-June/404763.html"
+    },
+    {
+      "by": "CRConrad",
+      "descendants": 0,
+      "id": 27753951,
+      "score": 1,
+      "time": 1625604043,
+      "title": "Microsoft is working on game upscaling technology powered by AI",
+      "type": "story",
+      "url": "https://www.pcgamer.com/au/microsoft-is-working-on-game-upscaling-technology-powered-by-ai/"
+    },
+    {
       "by": "rbanffy",
       "descendants": 0,
       "id": 27753933,
@@ -41,46 +81,6 @@
       "title": "Jam and Lewis Shaped Pop History. They’re Working on Its Future, Too",
       "type": "story",
       "url": "https://www.nytimes.com/2021/07/06/arts/music/jimmy-jam-terry-lewis.html"
-    },
-    {
-      "by": "peppas",
-      "descendants": 0,
-      "id": 27753889,
-      "score": 1,
-      "time": 1625603701,
-      "title": "Why I Love Harold and Kumar Go to White Castle",
-      "type": "story",
-      "url": "https://casuallyspiraling.substack.com/p/harold-and-kumar-go-to-white-castle"
-    },
-    {
-      "by": "nf__85",
-      "descendants": 0,
-      "id": 27753886,
-      "score": 1,
-      "time": 1625603682,
-      "title": "How to Design Confidently Without Ever Being the Expert",
-      "type": "story",
-      "url": "https://sixzero.co/2021/06/02/how-to-design-confidently-without-ever-being-the-expert/"
-    },
-    {
-      "by": "tlochhead",
-      "descendants": 0,
-      "id": 27753883,
-      "score": 1,
-      "time": 1625603666,
-      "title": "Bumble is opening a restaurant to help people date IRL again",
-      "type": "story",
-      "url": "https://www.engadget.com/bumble-brew-dating-app-cafe-restaurant-wine-bar-new-york-city-030044380.html"
-    },
-    {
-      "by": "diodorus",
-      "descendants": 0,
-      "id": 27753870,
-      "score": 1,
-      "time": 1625603593,
-      "title": "Reading Like a Roman",
-      "type": "story",
-      "url": "https://publicdomainreview.org/essay/reading-like-a-roman"
     }
   ]
 }
