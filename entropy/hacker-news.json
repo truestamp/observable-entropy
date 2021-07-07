@@ -1,6 +1,30 @@
 {
   "stories": [
     {
+      "by": "JoachimS",
+      "descendants": 0,
+      "id": 27758962,
+      "score": 1,
+      "time": 1625648593,
+      "title": "First new vax in 30 years?:-)",
+      "type": "story",
+      "url": "http://mail-index.netbsd.org/port-vax/2021/07/03/msg003899.html"
+    },
+    {
+      "by": "tapper",
+      "descendants": 2,
+      "id": 27758943,
+      "kids": [
+        27758971,
+        27758961
+      ],
+      "score": 1,
+      "text": "&#x2F;&#x2F; My GTA V &#x27;Optimal Configuration&#x27; 2021\n&#x2F;&#x2F;\n&#x2F;&#x2F; This configuration is suited to a more recent GPU, and aims to provide the smoothest\n&#x2F;&#x2F; possible graphics while enhancing detail. It runs quite well on my RTX 3070 (~60-70FPS).\n&#x2F;&#x2F; * Note 1: I rely on several features found in the Nvidia Control Panel, for which I don&#x27;t\n&#x2F;&#x2F; know the AMD equivalents (if any). Should still look OK without these, but there will be \n&#x2F;&#x2F; noticeable aliasing, especially without TXAA, MFAA + the LOD Bias tweaks.\n&#x2F;&#x2F; * Note 2: I haven&#x27;t tried this in GTA 5 online; this is aimed at single-player only.\n&#x2F;&#x2F;\n&#x2F;&#x2F;\n&#x2F;&#x2F; Find your settings.xml file, typically under c:\\Users\\[username]\\Documents\\Rockstar Games\\GTA V\n&#x2F;&#x2F; Make a copy of settings.xml as a backup. Open the original settings file, and copy and paste the \n&#x2F;&#x2F; text further below over the existing text between the &lt;graphics&gt; &lt;&#x2F;graphics&gt; tags. Save and close\n&#x2F;&#x2F; when done, then right-click on settings.xml and under Properties, tick &#x27;read only&#x27;, otherwise the\n&#x2F;&#x2F; game will change the settings when next you run it.\n&#x2F;&#x2F;\n&#x2F;&#x2F; Lastly, before launching GTA V, go to the Nvidia Control Panel, and under Manage 3D Settings &gt;\n&#x2F;&#x2F; Program Settings, find (or add) a profile for GTA5.exe, and make the following changes:\n&#x2F;&#x2F;\n&#x2F;&#x2F; Image Sharpening: Select On, set Sharpen to 0.01 and Ignore Film Grain to 1.00\n&#x2F;&#x2F; Anisotropic Filtering: 16x\n&#x2F;&#x2F; Multi-Frame Sampled AA: On\n&#x2F;&#x2F; Texture Filtering - Negative LOD Bias: Allow\n&#x2F;&#x2F; click Apply, then launch the game.\n&#x2F;&#x2F;\n&#x2F;&#x2F; Cheers,\n&#x2F;&#x2F; Koroush<p><pre><code>    &lt;Tessellation value=&quot;3&quot; &#x2F;&gt;\n    &lt;LodScale value=&quot;1.000000&quot; &#x2F;&gt;\n    &lt;PedLodBias value=&quot;0.200000&quot; &#x2F;&gt;\n    &lt;VehicleLodBias value=&quot;0.000000&quot; &#x2F;&gt;\n    &lt;ShadowQuality value=&quot;3&quot; &#x2F;&gt;\n    &lt;ReflectionQuality value=&quot;3&quot; &#x2F;&gt;\n    &lt;ReflectionMSAA value=&quot;4&quot; &#x2F;&gt;\n    &lt;SSAO value=&quot;2&quot; &#x2F;&gt;\n    &lt;AnisotropicFiltering value=&quot;0&quot; &#x2F;&gt;\n    &lt;MSAA value=&quot;2&quot; &#x2F;&gt;\n    &lt;MSAAFragments value=&quot;0&quot; &#x2F;&gt;\n    &lt;MSAAQuality value=&quot;0&quot; &#x2F;&gt;\n    &lt;SamplingMode value=&quot;6&quot; &#x2F;&gt;\n    &lt;TextureQuality value=&quot;2&quot; &#x2F;&gt;\n    &lt;ParticleQuality value=&quot;2&quot; &#x2F;&gt;\n    &lt;WaterQuality value=&quot;2&quot; &#x2F;&gt;\n    &lt;GrassQuality value=&quot;2&quot; &#x2F;&gt;\n    &lt;ShaderQuality value=&quot;2&quot; &#x2F;&gt;\n    &lt;Shadow_SoftShadows value=&quot;3&quot; &#x2F;&gt;\n    &lt;UltraShadows_Enabled value=&quot;true&quot; &#x2F;&gt;\n    &lt;Shadow_ParticleShadows value=&quot;true&quot; &#x2F;&gt;\n    &lt;Shadow_Distance value=&quot;2.000000&quot; &#x2F;&gt;\n    &lt;Shadow_LongShadows value=&quot;true&quot; &#x2F;&gt;\n    &lt;Shadow_SplitZStart value=&quot;1.000000&quot; &#x2F;&gt;\n    &lt;Shadow_SplitZEnd value=&quot;0.999900&quot; &#x2F;&gt;\n    &lt;Shadow_aircraftExpWeight value=&quot;0.990000&quot; &#x2F;&gt;\n    &lt;Shadow_DisableScreenSizeCheck value=&quot;false&quot; &#x2F;&gt;\n    &lt;Reflection_MipBlur value=&quot;true&quot; &#x2F;&gt;\n    &lt;FXAA_Enabled value=&quot;true&quot; &#x2F;&gt;\n    &lt;TXAA_Enabled value=&quot;true&quot; &#x2F;&gt;\n    &lt;Lighting_FogVolumes value=&quot;true&quot; &#x2F;&gt;\n    &lt;Shader_SSA value=&quot;true&quot; &#x2F;&gt;\n    &lt;DX_Version value=&quot;2&quot; &#x2F;&gt;\n    &lt;CityDensity value=&quot;1.000000&quot; &#x2F;&gt;\n    &lt;PedVarietyMultiplier value=&quot;1.000000&quot; &#x2F;&gt;\n    &lt;VehicleVarietyMultiplier value=&quot;1.000000&quot; &#x2F;&gt;\n    &lt;PostFX value=&quot;3&quot; &#x2F;&gt;\n    &lt;DoF value=&quot;true&quot; &#x2F;&gt;\n    &lt;HdStreamingInFlight value=&quot;true&quot; &#x2F;&gt;\n    &lt;MaxLodScale value=&quot;1.000000&quot; &#x2F;&gt;\n    &lt;MotionBlurStrength value=&quot;0.200000&quot; &#x2F;&gt;\n</code></pre>\n&#x2F;&#x2F; END<p>By KOROUSHGHAZI\n@KoroushGhazi",
+      "time": 1625648482,
+      "title": "GTA V 'Optimal Configuration' 2021",
+      "type": "story"
+    },
+    {
       "by": "brokebroadbeat",
       "descendants": 0,
       "id": 27758932,
@@ -14,7 +38,7 @@
       "by": "Liriel",
       "descendants": 0,
       "id": 27758925,
-      "score": 1,
+      "score": 2,
       "time": 1625648345,
       "title": "YouTube’s recommender AI still a horrorshow, finds major crowdsourced study",
       "type": "story",
@@ -22,8 +46,11 @@
     },
     {
       "by": "rpastuszak",
-      "descendants": 0,
+      "descendants": 1,
       "id": 27758910,
+      "kids": [
+        27758946
+      ],
       "score": 1,
       "time": 1625648254,
       "title": "Show HN: I make cursed retrospective templates",
@@ -72,33 +99,16 @@
     },
     {
       "by": "cies",
-      "descendants": 0,
+      "descendants": 1,
       "id": 27758793,
+      "kids": [
+        27758938
+      ],
       "score": 1,
       "text": "I&#x27;s like to see Zig and Koka.",
       "time": 1625647038,
       "title": "Ask HN: What languages should the Linux kernel accept next?",
       "type": "story"
-    },
-    {
-      "by": "clouddrover",
-      "descendants": 0,
-      "id": 27758765,
-      "score": 1,
-      "time": 1625646764,
-      "title": "Covid-dormant cars with dead batteries spark lead price hike",
-      "type": "story",
-      "url": "https://www.cnet.com/roadshow/news/covid-19-car-battery-shortage-lead-price-spike/"
-    },
-    {
-      "by": "sohkamyung",
-      "descendants": 0,
-      "id": 27758764,
-      "score": 1,
-      "time": 1625646753,
-      "title": "Growing Urban Bicycle Networks",
-      "type": "story",
-      "url": "https://arxiv.org/abs/2107.02185"
     }
   ]
 }
