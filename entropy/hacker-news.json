@@ -1,10 +1,76 @@
 {
   "stories": [
     {
-      "by": "hubraumhugo",
+      "by": "gnremre",
       "descendants": 0,
-      "id": 27760591,
+      "id": 27760647,
       "score": 1,
+      "time": 1625663068,
+      "title": "Need feedback for our privacy-focused iOS app Snapter",
+      "type": "story",
+      "url": "https://apps.apple.com/app/snapter/id1568506693"
+    },
+    {
+      "by": "_Microft",
+      "descendants": 0,
+      "id": 27760639,
+      "score": 1,
+      "time": 1625663031,
+      "title": "Energized Neutral Effects on Corrugated Gas Supply Lines (2017) [pdf]",
+      "type": "story",
+      "url": "https://goodsonengineering.com/wp-content/uploads/2017/10/ISFI-ENERGIZED-NEUTRAL-EFFECTS-ON-CORRUGATED-GAS-SUPPLY-LINES.pdf"
+    },
+    {
+      "by": "johndcook",
+      "descendants": 0,
+      "id": 27760632,
+      "score": 1,
+      "time": 1625662981,
+      "title": "Predictive probability can help address the replication crisis",
+      "type": "story",
+      "url": "https://wmbriggs.com/post/36507/"
+    },
+    {
+      "by": "elenasamuylova",
+      "descendants": 0,
+      "id": 27760627,
+      "score": 1,
+      "text": "Hi HN, we are Evidently AI <a href=\"http:&#x2F;&#x2F;evidentlyai.com\" rel=\"nofollow\">http:&#x2F;&#x2F;evidentlyai.com</a>. We&#x27;re building monitoring for machine learning models in production. The tool is open source and available on GitHub: <a href=\"https:&#x2F;&#x2F;github.com&#x2F;evidentlyai&#x2F;evidently\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;evidentlyai&#x2F;evidently</a>. You can use it locally in a Jupyter notebook or in a Bash shell. There’s a video showing how it works in Jupyter here: <a href=\"https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=NPtTKYxm524\" rel=\"nofollow\">https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=NPtTKYxm524</a>.<p>Machine learning models can stop working as expected, often for non-obvious reasons. If this happens to a marketing personalization model, you might spam your customers by mistake. If this happens to credit scoring models, you might face legal and reputational risks. And so on. To catch issues with the model, it is not enough to just look at service metrics like latency. You have to track data quality, data drift (did the inputs change too much?), underperforming segments (does the model fail only for users in a certain region?), model metrics (accuracy, ROC AUC, mean error, etc.), etc.<p>Emeli and I have been friends for many years. We first met when we both worked at Yandex (the company behind CatBoost and ClickHouse). We worked on creating ML systems for large enterprises. We then co-founded a startup focused on ML for manufacturing. Overall we&#x27;ve worked on more than 50 real-world ML projects, from e-commerce recommendations to steel production optimization. We faced the monitoring problem on our own when we put models in production and had to create and build custom dashboards. Emeli is also an ML instructor on Coursera (co-author of the most popular ML course in Russian) and a number of offline courses. She knows first-hand how many data scientists try to repeatedly implement the same things over and over. There is no reason why everyone should have to build their own version of something like drift detection.<p>We spent a couple of months talking to ML teams from different industries. We learned that there are no good, standard solutions for model monitoring. Some quoted us horror stories about broken models left unnoticed which led to $100K+ in losses. Others showed us home-grown dashboards and complained they are hard to maintain. Some said they simply have a recurring task to look at the logs once per month, and often catch the issues late. It is surprising how often models are not monitored until the first failure. We spoke to many teams who said that only after the first breakdown they started to think about monitoring. Some never do, and failures go undetected.<p>If you want to calculate a couple of performance metrics on top of your data, it is easy to do ad hoc. But if you want to have stable visibility into different models, you need to consider edge cases, choose the right statistical tests and implement them, design visuals, define thresholds for alerts etc. That is a harder problem that combines statistics and engineering. Beyond that, monitoring often involves sharing the results with different teams: from domain experts to developers. In practice, data scientists often end up sharing screenshots of their plots and sending files here and there. Building a maintainable software system that supports these workflows is a project in itself, and machine learning teams usually do not have time or resources for it.<p>Since there is no standard open-source solution, we decided to build one. We want to automate as much as possible to help people focus on the modeling work that matters, not boilerplate code.<p>Our main tool is an open-source Python library that generates interactive reports on ML model performance. To get it, you need to provide the model logs (input features, prediction, and ground truth if available) and reference data (usually from training). Then you choose the report type and we generate a set of dashboards. We have pre-built several reports to detect things like data drift, prediction drift, visualize performance metrics, and help understand where the model makes errors. We can display these in a Jupyter notebook or HTML. We can also generate a JSON profile instead of a report. You can then integrate this output with any external tool (like Grafana) and build a workflow you want to trigger retraining or alerts.<p>Under the hood, we perform the needed calculations (e.g. Kolmogorov Smirnov or Chi-Squared test to detect drift) and generate multiple interactive tables and plots (using Plotly on the backend). Right now it works with tabular data only. In the future, we plan to add more data types, reports and make it easier to customize metrics. Our goal is to make it dead easy to understand all aspects of model performance and monitor them.<p>We differ from other approaches in a couple of ways. There are end-to-end ML platforms on the market that include monitoring features. These work for teams who are ready to trade flexibility in order to have an all-in-one tool. But most teams we spoke to have custom needs and prefer to build their own platform from open components. We want to create a tool that does one thing well and is easy to integrate with whatever stack you use. There are also some proprietary ML monitoring solutions on the market, but we believe that tools like these should be open, transparent, and available for self-hosting. That is why we are building it as open source.<p>We launched under Apache 2.0 license so that everyone can use the tool. For now, our focus is to get adoption for the open-source project. We don’t plan to charge individual users or small teams. We believe that the open-source project should remain open and be highly valuable. Later on, we plan to make money by providing a hosted cloud version for teams that do not want to run it themselves. We&#x27;re also considering an open-core business model where we charge for features that large companies care about like single sign-on, security and audits.<p>If you work in tech companies, you might think that many ML infra problems are already solved. But in more traditional industries like manufacturing, retail, finance, etc., ML is just hitting adoption. Their ML needs and environment are often very different due to legacy IT systems, regulations, and types of use cases they work with. Now that many move from ML proof-of-concept projects to production, they will need the tools to help run the models reliably.<p>We are super excited to share this early release, and we’d love if you could give it a try: <a href=\"https:&#x2F;&#x2F;github.com&#x2F;evidentlyai&#x2F;evidently\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;evidentlyai&#x2F;evidently</a>. If you run models in production - let us know how you monitor them and if anything is missing. If you need some help to test the tool - happy to chat! We want to build this open-source project together with the community, and it is very important for us to hear your thoughts and feedback.",
+      "time": 1625662946,
+      "title": "Launch HN: Evidently AI (YC S21) – Track and Debug ML Models in Production",
+      "type": "story"
+    },
+    {
+      "by": "ohmyblock",
+      "descendants": 0,
+      "id": 27760621,
+      "score": 1,
+      "time": 1625662930,
+      "title": "Wise valued at $11B in record London direct listing",
+      "type": "story",
+      "url": "https://www.reuters.com/business/wise-shares-indicated-open-10-bln-valuation-auction-2021-07-07/"
+    },
+    {
+      "by": "trg1379",
+      "descendants": 1,
+      "id": 27760608,
+      "kids": [
+        27760615
+      ],
+      "score": 3,
+      "time": 1625662839,
+      "title": "Show HN: Sourcery – It's not magic, just powerful instant refactoring for Python",
+      "type": "story",
+      "url": "https://sourcery.ai/"
+    },
+    {
+      "by": "hubraumhugo",
+      "descendants": 1,
+      "id": 27760591,
+      "kids": [
+        27760610
+      ],
+      "score": 2,
       "time": 1625662754,
       "title": "Show HN: Backpacks Reviewed by GPT-3",
       "type": "story",
@@ -39,66 +105,6 @@
       "title": "The Downtown Office District Was Vulnerable. Even Before Covid",
       "type": "story",
       "url": "https://www.nytimes.com/interactive/2021/07/07/upshot/downtown-office-vulnerable-even-before-covid.html"
-    },
-    {
-      "by": "jospoortvliet",
-      "descendants": 0,
-      "id": 27760550,
-      "score": 2,
-      "time": 1625662518,
-      "title": "Nextcloud Hub 22: user-defined groups, wiki, approval workflow, PDF signatures",
-      "type": "story",
-      "url": "https://nextcloud.com/blog/nextcloud-hub-22-introduces-approval-workflows-integrated-knowledge-management-and-decentralized-group-administration/"
-    },
-    {
-      "by": "Anon84",
-      "descendants": 0,
-      "id": 27760549,
-      "score": 1,
-      "time": 1625662510,
-      "title": "UK court has ruled Craig Wright is Satoshi Nakamoto",
-      "type": "story",
-      "url": "https://markets.businessinsider.com/currencies/news/bitcoin-creator-satoshi-nakamoto-uk-court-cobra-copyright-craig-wright-2021-6"
-    },
-    {
-      "by": "wolverine876",
-      "descendants": 0,
-      "id": 27760530,
-      "score": 1,
-      "time": 1625662422,
-      "title": "Biden Sets Up Tech Debate with ‘Right-to-Repair’ Rules for FTC",
-      "type": "story",
-      "url": "https://www.bloomberg.com/news/articles/2021-07-06/biden-wants-farmers-to-have-right-to-repair-own-equipment-kqs66nov"
-    },
-    {
-      "by": "rossdavidh",
-      "descendants": 0,
-      "id": 27760527,
-      "score": 1,
-      "time": 1625662389,
-      "title": "Study ties milder Covid-19 symptoms to prior run-ins with other coronaviruses",
-      "type": "story",
-      "url": "https://www.sciencedaily.com/releases/2021/07/210701140959.htm"
-    },
-    {
-      "by": "todsacerdoti",
-      "descendants": 0,
-      "id": 27760519,
-      "score": 1,
-      "time": 1625662304,
-      "title": "Cloning and changing readonly properties in PHP 8.1",
-      "type": "story",
-      "url": "https://stitcher.io/blog/cloning-readonly-properties-in-php-81"
-    },
-    {
-      "by": "omosubi",
-      "descendants": 0,
-      "id": 27760511,
-      "score": 1,
-      "text": "Have you become more ambitious over time? What do you think helped?",
-      "time": 1625662253,
-      "title": "Ask HN: How to Become More Ambitious?",
-      "type": "story"
     }
   ]
 }
