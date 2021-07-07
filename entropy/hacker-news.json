@@ -1,5 +1,46 @@
 {
   "stories": [
+    null,
+    {
+      "by": "monkeypilot",
+      "descendants": 0,
+      "id": 27762301,
+      "score": 2,
+      "time": 1625672266,
+      "title": "Open Source Satirical Social Network where anyone can be a Thought Leader",
+      "type": "story",
+      "url": "https://www.shlinkedin.com/join"
+    },
+    {
+      "by": "clessg",
+      "descendants": 0,
+      "id": 27762290,
+      "score": 1,
+      "time": 1625672191,
+      "title": "Backblaze Computer Backup 8.0",
+      "type": "story",
+      "url": "https://www.backblaze.com/blog/announcing-backblaze-computer-backup-8-0/"
+    },
+    {
+      "by": "gmays",
+      "descendants": 0,
+      "id": 27762287,
+      "score": 1,
+      "time": 1625672178,
+      "title": "More filling? Tastes great? How flies, and maybe people, choose their food",
+      "type": "story",
+      "url": "https://news.yale.edu/2021/07/05/more-filling-tastes-great-how-flies-and-maybe-people-choose-their-food"
+    },
+    {
+      "by": "sickeythecat",
+      "descendants": 0,
+      "id": 27762279,
+      "score": 1,
+      "time": 1625672104,
+      "title": "Kubeflow's KFServing 0.6 is Released",
+      "type": "story",
+      "url": "https://www.arrikto.com/blog/kubeflow-kfserving-0-6-is-out/"
+    },
     {
       "by": "feross",
       "descendants": 0,
@@ -42,63 +83,16 @@
     },
     {
       "by": "s_kilk",
-      "descendants": 0,
+      "descendants": 1,
       "id": 27762233,
-      "score": 1,
+      "kids": [
+        27762302
+      ],
+      "score": 2,
       "time": 1625671826,
       "title": "“All public GitHub code was used in training, we don't distinguish license type”",
       "type": "story",
       "url": "https://twitter.com/NoraDotCodes/status/1412741339771461635"
-    },
-    {
-      "by": "nishantmodak",
-      "descendants": 0,
-      "id": 27762219,
-      "score": 1,
-      "time": 1625671765,
-      "title": "Need for Systems Observability",
-      "type": "story",
-      "url": "https://blog.last9.io/need-for-systems-observability/"
-    },
-    {
-      "by": "belter",
-      "descendants": 0,
-      "id": 27762217,
-      "score": 1,
-      "time": 1625671754,
-      "title": "China Considers Closing Loophole Used by Tech Giants for U.S. IPOs",
-      "type": "story",
-      "url": "https://www.bloomberg.com/news/articles/2021-07-07/china-mulls-closing-loophole-used-by-tech-giants-for-u-s-ipos"
-    },
-    {
-      "by": "radus",
-      "descendants": 0,
-      "id": 27762216,
-      "score": 1,
-      "time": 1625671745,
-      "title": "Pinia vs. Vuex: Is Pinia a Good Replacement for Vuex?",
-      "type": "story",
-      "url": "https://blog.logrocket.com/pinia-vs-vuex/"
-    },
-    {
-      "by": "chmaynard",
-      "descendants": 0,
-      "id": 27762201,
-      "score": 2,
-      "text": "Part of the workflow for building my website is the generation of a table in\ntab-separated column format (.tsv). The source data is found in four other .tsv\nfiles. I use an SQLite query to perform a 4-way join and write out the new table. For\nconvenience, I wrote a script that encapsulates the query inside a Bash function.<p>The example below illustrates this technique.<p><pre><code>    repertoire() {\n      pushd $CMM_SOURCES&#x2F;_data\n      sqlite3 &lt;&lt;EOS\n\n    .headers on\n    .mode tabs\n    .import category.tsv category\n    .import composition.tsv composition\n    .import concert.tsv concert\n    .import program.tsv program\n    .once repertoire.tsv\n\n    SELECT \n      category.name AS category, \n      composition.key, \n      composition.composer, \n      composition.name AS composition, \n      concert.name AS concert\n    FROM \n      category, \n      concert, \n      composition, \n      program\n    WHERE \n      julianday(concert.date) &lt; julianday(&#x27;now&#x27;)\n      AND composition.category = category.name\n      AND program.key = composition.key\n      AND program.date = concert.date\n    ORDER BY \n      category.sequence, \n      composition.key\n    ;\n\n    EOS\n      popd\n    }</code></pre>",
-      "time": 1625671703,
-      "title": "Show HN: SQLite query inside a Bash function",
-      "type": "story"
-    },
-    {
-      "by": "helsinkiandrew",
-      "descendants": 0,
-      "id": 27762200,
-      "score": 2,
-      "time": 1625671694,
-      "title": "Gates Foundation makes contingency plans for break-up",
-      "type": "story",
-      "url": "https://www.ft.com/content/6bd52f7e-f8bb-4de6-800c-0112c035da3c"
     }
   ]
 }
