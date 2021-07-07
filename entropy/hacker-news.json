@@ -1,6 +1,26 @@
 {
   "stories": [
     {
+      "by": "gluegadget",
+      "descendants": 0,
+      "id": 27765843,
+      "score": 1,
+      "time": 1625692789,
+      "title": "The Well",
+      "type": "story",
+      "url": "https://en.wikipedia.org/wiki/The_WELL"
+    },
+    {
+      "by": "vampirical",
+      "descendants": 0,
+      "id": 27765829,
+      "score": 1,
+      "text": "Last month the us-east-2 RDS region had a major outage which took our multi-AZ primary database cluster down for 4-5 hours. We spend the entire outage online with a support agent but basically had to just wait on their team restoring full service as there was no way to stand up a new cluster or transfer a snapshot out of the region due to the outage.<p>Even though the RDS SLA makes this severe outage a very small 10% credit we went through the motion and followed their instructions for requesting an SLA credit with documentation of our affected cluster. We&#x27;re now at 15 days since our request and they&#x27;ve come back twice in that time, the first requesting the information already included in the original request, and the second requesting that we attach a spreadsheet calculating what we think our SLA payout should be.<p>This process has left a pretty bad taste in our mouth regarding AWS service and their treatments of outages and SLAs. 5 years ago I would have said AWS was pretty good at this stuff and recommended them. I&#x27;m just wondering if anyone else has recent anecdotes either way. Is AWS slipping or becoming scummy in general or is this an isolated incident?",
+      "time": 1625692673,
+      "title": "Ask HN: Has AWS become an SLA dodger?",
+      "type": "story"
+    },
+    {
       "by": "Ftuuky",
       "descendants": 0,
       "id": 27765741,
@@ -52,9 +72,12 @@
     },
     {
       "by": "DocFeind",
-      "descendants": 0,
+      "descendants": 1,
       "id": 27765667,
-      "score": 4,
+      "kids": [
+        27765836
+      ],
+      "score": 5,
       "time": 1625691579,
       "title": "There Are Growing Calls to Finally Tax the Catholic Church",
       "type": "story",
@@ -79,29 +102,6 @@
       "title": "Hitler reacts to functional programming (YouTube)",
       "type": "story",
       "url": "https://www.youtube.com/watch?v=ADqLBc1vFwI"
-    },
-    {
-      "by": "kylebarron",
-      "descendants": 0,
-      "id": 27765609,
-      "score": 2,
-      "time": 1625691109,
-      "title": "Startups Aim Beyond Earth",
-      "type": "story",
-      "url": "https://www.nytimes.com/2021/07/07/technology/space-start-ups.html"
-    },
-    {
-      "by": "a3n",
-      "descendants": 1,
-      "id": 27765576,
-      "kids": [
-        27765591
-      ],
-      "score": 3,
-      "text": "Inspired by https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=27762922",
-      "time": 1625690826,
-      "title": "What's the weirdest/best thing you've done?",
-      "type": "story"
     }
   ]
 }
