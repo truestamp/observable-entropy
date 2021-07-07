@@ -1,6 +1,56 @@
 {
   "stories": [
     {
+      "by": "feross",
+      "descendants": 0,
+      "id": 27762261,
+      "score": 1,
+      "time": 1625671960,
+      "title": "Typeclasses in Python",
+      "type": "story",
+      "url": "https://sobolevn.me/2021/06/typeclasses-in-python"
+    },
+    {
+      "by": "jonbaer",
+      "descendants": 0,
+      "id": 27762249,
+      "score": 1,
+      "time": 1625671913,
+      "title": "China conducts third orbital launch inside four days",
+      "type": "story",
+      "url": "https://spacenews.com/china-conducts-third-orbital-launch-inside-four-days/"
+    },
+    {
+      "by": "alleycat5000",
+      "descendants": 0,
+      "id": 27762237,
+      "score": 1,
+      "time": 1625671851,
+      "title": "Planet to Become Publicly Traded Company Through Merger with DMY IV",
+      "type": "story",
+      "url": "https://planet.com/investors/press-releases/2021/planet-to-become-publicly-traded-company-through-merger-with-dmy-iv/"
+    },
+    {
+      "by": "bdragon",
+      "descendants": 0,
+      "id": 27762236,
+      "score": 1,
+      "time": 1625671840,
+      "title": "Naming Languages",
+      "type": "story",
+      "url": "https://bryandragon.com/writing/naming-languages/"
+    },
+    {
+      "by": "s_kilk",
+      "descendants": 0,
+      "id": 27762233,
+      "score": 1,
+      "time": 1625671826,
+      "title": "“All public GitHub code was used in training, we don't distinguish license type”",
+      "type": "story",
+      "url": "https://twitter.com/NoraDotCodes/status/1412741339771461635"
+    },
+    {
       "by": "nishantmodak",
       "descendants": 0,
       "id": 27762219,
@@ -34,8 +84,8 @@
       "by": "chmaynard",
       "descendants": 0,
       "id": 27762201,
-      "score": 1,
-      "text": "Part of the workflow for building my website is the generation of a table in\ntab-separated column format (.tsv). The source data is found in four other .tsv\nfiles. I use an SQLite query to perform the join and write out the new table. For\nconvenience, I wrote a script encapsulate the query inside a Bash function.<p>The example below illustrates this technique.<p><pre><code>    repertoire() {\n      pushd $CMM_SOURCES&#x2F;_data\n      sqlite3 &lt;&lt;EOS\n\n    .headers on\n    .mode tabs\n    .import category.tsv category\n    .import composition.tsv composition\n    .import concert.tsv concert\n    .import program.tsv program\n    .once repertoire.tsv\n\n    SELECT \n      category.name AS category, \n      composition.key, \n      composition.composer, \n      composition.name AS composition, \n      concert.name AS concert\n    FROM \n      category, \n      concert, \n      composition, \n      program\n    WHERE \n      julianday(concert.date) &lt; julianday(&#x27;now&#x27;)\n      AND composition.category = category.name\n      AND program.key = composition.key\n      AND program.date = concert.date\n    ORDER BY \n      category.sequence, \n      composition.key\n    ;\n\n    EOS\n      popd\n    }</code></pre>",
+      "score": 2,
+      "text": "Part of the workflow for building my website is the generation of a table in\ntab-separated column format (.tsv). The source data is found in four other .tsv\nfiles. I use an SQLite query to perform a 4-way join and write out the new table. For\nconvenience, I wrote a script that encapsulates the query inside a Bash function.<p>The example below illustrates this technique.<p><pre><code>    repertoire() {\n      pushd $CMM_SOURCES&#x2F;_data\n      sqlite3 &lt;&lt;EOS\n\n    .headers on\n    .mode tabs\n    .import category.tsv category\n    .import composition.tsv composition\n    .import concert.tsv concert\n    .import program.tsv program\n    .once repertoire.tsv\n\n    SELECT \n      category.name AS category, \n      composition.key, \n      composition.composer, \n      composition.name AS composition, \n      concert.name AS concert\n    FROM \n      category, \n      concert, \n      composition, \n      program\n    WHERE \n      julianday(concert.date) &lt; julianday(&#x27;now&#x27;)\n      AND composition.category = category.name\n      AND program.key = composition.key\n      AND program.date = concert.date\n    ORDER BY \n      category.sequence, \n      composition.key\n    ;\n\n    EOS\n      popd\n    }</code></pre>",
       "time": 1625671703,
       "title": "Show HN: SQLite query inside a Bash function",
       "type": "story"
@@ -49,56 +99,6 @@
       "title": "Gates Foundation makes contingency plans for break-up",
       "type": "story",
       "url": "https://www.ft.com/content/6bd52f7e-f8bb-4de6-800c-0112c035da3c"
-    },
-    {
-      "by": "EamonnMR",
-      "descendants": 0,
-      "id": 27762185,
-      "score": 1,
-      "time": 1625671641,
-      "title": "Macros to make C resemble Algol68 (1979)",
-      "type": "story",
-      "url": "https://minnie.tuhs.org/cgi-bin/utree.pl?file=V7/usr/src/cmd/sh/mac.h"
-    },
-    {
-      "by": "xaner4",
-      "descendants": 0,
-      "id": 27762183,
-      "score": 1,
-      "time": 1625671623,
-      "title": "Pentagon cancels $10B cloud contract given to Microsoft over Amazon",
-      "type": "story",
-      "url": "https://edition.cnn.com/2021/07/06/tech/defense-department-cancels-jedi-contract-amazon-microsoft/index.html"
-    },
-    {
-      "by": "ecliptik",
-      "descendants": 0,
-      "id": 27762176,
-      "score": 1,
-      "time": 1625671595,
-      "title": "The Lessons of AWS Infinidash",
-      "type": "story",
-      "url": "https://www.lastweekinaws.com/blog/the-lessons-of-aws-infinidash/"
-    },
-    {
-      "by": "amadeuspagel",
-      "descendants": 0,
-      "id": 27762145,
-      "score": 1,
-      "time": 1625671394,
-      "title": "Social Media Platforms as Common Carriers [pdf]",
-      "type": "story",
-      "url": "https://www2.law.ucla.edu/volokh/carrier.pdf"
-    },
-    {
-      "by": "brlnwest",
-      "descendants": 0,
-      "id": 27762132,
-      "score": 1,
-      "time": 1625671326,
-      "title": "Finding the best text editor for you",
-      "type": "story",
-      "url": "https://www.git-tower.com/blog/the-best-text-editor-for-you/"
     }
   ]
 }
