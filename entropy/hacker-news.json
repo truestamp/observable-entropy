@@ -1,6 +1,86 @@
 {
   "stories": [
     {
+      "by": "nishantmodak",
+      "descendants": 0,
+      "id": 27762219,
+      "score": 1,
+      "time": 1625671765,
+      "title": "Need for Systems Observability",
+      "type": "story",
+      "url": "https://blog.last9.io/need-for-systems-observability/"
+    },
+    {
+      "by": "belter",
+      "descendants": 0,
+      "id": 27762217,
+      "score": 1,
+      "time": 1625671754,
+      "title": "China Considers Closing Loophole Used by Tech Giants for U.S. IPOs",
+      "type": "story",
+      "url": "https://www.bloomberg.com/news/articles/2021-07-07/china-mulls-closing-loophole-used-by-tech-giants-for-u-s-ipos"
+    },
+    {
+      "by": "radus",
+      "descendants": 0,
+      "id": 27762216,
+      "score": 1,
+      "time": 1625671745,
+      "title": "Pinia vs. Vuex: Is Pinia a Good Replacement for Vuex?",
+      "type": "story",
+      "url": "https://blog.logrocket.com/pinia-vs-vuex/"
+    },
+    {
+      "by": "chmaynard",
+      "descendants": 0,
+      "id": 27762201,
+      "score": 1,
+      "text": "Part of the workflow for building my website is the generation of a table in\ntab-separated column format (.tsv). The source data is found in four other .tsv\nfiles. I use an SQLite query to perform the join and write out the new table. For\nconvenience, I wrote a script encapsulate the query inside a Bash function.<p>The example below illustrates this technique.<p><pre><code>    repertoire() {\n      pushd $CMM_SOURCES&#x2F;_data\n      sqlite3 &lt;&lt;EOS\n\n    .headers on\n    .mode tabs\n    .import category.tsv category\n    .import composition.tsv composition\n    .import concert.tsv concert\n    .import program.tsv program\n    .once repertoire.tsv\n\n    SELECT \n      category.name AS category, \n      composition.key, \n      composition.composer, \n      composition.name AS composition, \n      concert.name AS concert\n    FROM \n      category, \n      concert, \n      composition, \n      program\n    WHERE \n      julianday(concert.date) &lt; julianday(&#x27;now&#x27;)\n      AND composition.category = category.name\n      AND program.key = composition.key\n      AND program.date = concert.date\n    ORDER BY \n      category.sequence, \n      composition.key\n    ;\n\n    EOS\n      popd\n    }</code></pre>",
+      "time": 1625671703,
+      "title": "Show HN: SQLite query inside a Bash function",
+      "type": "story"
+    },
+    {
+      "by": "helsinkiandrew",
+      "descendants": 0,
+      "id": 27762200,
+      "score": 2,
+      "time": 1625671694,
+      "title": "Gates Foundation makes contingency plans for break-up",
+      "type": "story",
+      "url": "https://www.ft.com/content/6bd52f7e-f8bb-4de6-800c-0112c035da3c"
+    },
+    {
+      "by": "EamonnMR",
+      "descendants": 0,
+      "id": 27762185,
+      "score": 1,
+      "time": 1625671641,
+      "title": "Macros to make C resemble Algol68 (1979)",
+      "type": "story",
+      "url": "https://minnie.tuhs.org/cgi-bin/utree.pl?file=V7/usr/src/cmd/sh/mac.h"
+    },
+    {
+      "by": "xaner4",
+      "descendants": 0,
+      "id": 27762183,
+      "score": 1,
+      "time": 1625671623,
+      "title": "Pentagon cancels $10B cloud contract given to Microsoft over Amazon",
+      "type": "story",
+      "url": "https://edition.cnn.com/2021/07/06/tech/defense-department-cancels-jedi-contract-amazon-microsoft/index.html"
+    },
+    {
+      "by": "ecliptik",
+      "descendants": 0,
+      "id": 27762176,
+      "score": 1,
+      "time": 1625671595,
+      "title": "The Lessons of AWS Infinidash",
+      "type": "story",
+      "url": "https://www.lastweekinaws.com/blog/the-lessons-of-aws-infinidash/"
+    },
+    {
       "by": "amadeuspagel",
       "descendants": 0,
       "id": 27762145,
@@ -19,92 +99,6 @@
       "title": "Finding the best text editor for you",
       "type": "story",
       "url": "https://www.git-tower.com/blog/the-best-text-editor-for-you/"
-    },
-    {
-      "by": "afrcnc",
-      "descendants": 0,
-      "id": 27762120,
-      "score": 1,
-      "time": 1625671273,
-      "title": "Assassin's Creed Infinity reportedly pivoting to live service",
-      "type": "story",
-      "url": "https://www.windowscentral.com/assassins-creed-infinity-live-service-leadership-concerns"
-    },
-    {
-      "by": "patternexon",
-      "descendants": 0,
-      "id": 27762109,
-      "score": 2,
-      "time": 1625671197,
-      "title": "JanusGraph – Distributed, open source, scalable graph database",
-      "type": "story",
-      "url": "https://janusgraph.org/"
-    },
-    {
-      "by": "italosayan",
-      "descendants": 1,
-      "id": 27762085,
-      "kids": [
-        27762086
-      ],
-      "score": 2,
-      "time": 1625671070,
-      "title": "Train vision transformers using Google images",
-      "type": "story",
-      "url": "https://github.com/nateraw/huggingpics"
-    },
-    {
-      "by": "Wolfr_",
-      "descendants": 0,
-      "id": 27762072,
-      "score": 1,
-      "time": 1625671004,
-      "title": "Coming to Terms with Tailwind",
-      "type": "story",
-      "url": "https://johanronsse.be/2021/07/07/coming-to-terms-with-tailwind/"
-    },
-    {
-      "by": "simonmales",
-      "descendants": 1,
-      "id": 27762062,
-      "kids": [
-        27762066
-      ],
-      "score": 2,
-      "time": 1625670955,
-      "title": "Show HN: Morsecode.tools Transmit Morse code from the browser",
-      "type": "story",
-      "url": "https://morsecode.tools/"
-    },
-    {
-      "by": "Liriel",
-      "descendants": 0,
-      "id": 27762048,
-      "score": 1,
-      "time": 1625670882,
-      "title": "General Ruby on Rails Problems and Takeaways",
-      "type": "story",
-      "url": "https://blog.appsignal.com/2021/07/07/general-ruby-on-rails-problems-and-takeaways.html"
-    },
-    {
-      "by": "shivbhatt",
-      "descendants": 0,
-      "id": 27762033,
-      "score": 1,
-      "time": 1625670787,
-      "title": "Microsoft fixes critical PrintNightmare bug",
-      "type": "story",
-      "url": "https://www.bbc.com/news/technology-57750138"
-    },
-    {
-      "by": "hidden-spyder",
-      "descendants": 0,
-      "id": 27762027,
-      "score": 2,
-      "time": 1625670720,
-      "title": "100 Days of Writing",
-      "type": "story",
-      "url": "https://matthiasott.com/notes/100-days-of-writing"
     }
   ]
 }
