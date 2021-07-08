@@ -1,6 +1,36 @@
 {
   "stories": [
     {
+      "by": "ulyssebn",
+      "descendants": 0,
+      "id": 27769711,
+      "score": 1,
+      "time": 1625735297,
+      "title": "Tracking a Ruby memory leak in 2021",
+      "type": "story",
+      "url": "https://medium.com/klaxit-techblog/tracking-a-ruby-memory-leak-in-2021-9eb56575f731"
+    },
+    {
+      "by": "helsinkiandrew",
+      "descendants": 0,
+      "id": 27769708,
+      "score": 1,
+      "time": 1625735267,
+      "title": "The Secret Life of the Electric Light – Remastered",
+      "type": "story",
+      "url": "https://www.youtube.com/watch?v=W79s0PsHhDc"
+    },
+    {
+      "by": "textmode",
+      "descendants": 0,
+      "id": 27769701,
+      "score": 1,
+      "text": "A simple demonstration of HTTP&#x2F;1.1 pipelining with netcat.<p>Retrieving 100s of small JPEG files with a single TCP connection. (curl cannot do this.)<p>Splitting the output into image files and making a PDF from the images.<p>yy025 can be found here:<p>https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=27178484<p>https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=27180125<p>yy056 can be found here:<p>https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=27769305<p><pre><code>    # std utils: split, seq, od, tr, sed, flex\n    # common utils: nc, xxd, imagemagick\n    # simple utils made with flex: yy025, yy056\n\n    (export Connection=keep-alive\n    x1=http:&#x2F;&#x2F;www.minimizedistraction.com&#x2F;img&#x2F;vrg_google_doc_final_vrs03-\n    x2(){ seq -f &quot;$x1%g.jpg&quot; $1 $2;};\n    x3(){ yy025|nc -vvn 173.236.175.199 80;};\n    x2   1 100|x3;\n    x2 101 200|x3;\n    )|yy056|exec od -An -tx1 -vw99999|exec tr -d &#x27;\\40&#x27;|exec sed &#x27;s&#x2F;ffd9ffd8&#x2F;ffd9\\\n    ffd8&#x2F;g&#x27;|exec sed -n &#x2F;ffd8&#x2F;p|exec split -l1;\n    for x in x??;do xxd -p -r &lt; $x &gt; $x.jpg;rm $x;done;\n    convert x??.jpg 1.pdf 2&gt;&#x2F;dev&#x2F;null;rm x??.jpg\n\n    firefox .&#x2F;1.pdf\n</code></pre>\nNote: The 82nd image is apparently corrupted which you will notice on page 82 the PDF.  However, this has no effect on readability of the slide.<p>The output from netcat should be as follows:<p><pre><code>    (UNKNOWN) [173.236.175.199] 80 (?) open\n     sent 11468, rcvd 3711626\n    (UNKNOWN) [173.236.175.199] 80 (?) open\n     sent 11576, rcvd 1297422</code></pre>",
+      "time": 1625735197,
+      "title": "HTTP/1.1 pipelining example: retrieving 100s of small files",
+      "type": "story"
+    },
+    {
       "by": "giuliomagnifico",
       "descendants": 0,
       "id": 27769687,
@@ -72,39 +102,6 @@
       "time": 1625734709,
       "title": "Ask HN: Do you still recommend Fastmail?",
       "type": "story"
-    },
-    {
-      "by": "alex-polymath",
-      "descendants": 1,
-      "id": 27769646,
-      "kids": [
-        27769647
-      ],
-      "score": 1,
-      "time": 1625734682,
-      "title": "GPT2 Sex Stories Generator",
-      "type": "story",
-      "url": "https://textporn.io/"
-    },
-    {
-      "by": "rbanffy",
-      "descendants": 0,
-      "id": 27769642,
-      "score": 1,
-      "time": 1625734622,
-      "title": "Cluster full of black holes may be spitting out stars",
-      "type": "story",
-      "url": "https://arstechnica.com/science/2021/07/cluster-full-of-black-holes-may-be-spitting-out-stars/"
-    },
-    {
-      "by": "rbanffy",
-      "descendants": 0,
-      "id": 27769640,
-      "score": 1,
-      "time": 1625734611,
-      "title": "Intel Hybrid CPU Starts 'End of Life' Process",
-      "type": "story",
-      "url": "https://www.anandtech.com/show/16808/intel-hybrid-cpu-starts-end-of-life-process"
     }
   ]
 }
