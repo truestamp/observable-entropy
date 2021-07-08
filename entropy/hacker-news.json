@@ -1,9 +1,32 @@
 {
   "stories": [
     {
+      "by": "elsewhen",
+      "descendants": 0,
+      "id": 27778617,
+      "score": 1,
+      "time": 1625784845,
+      "title": "Samsung Washing Machine App Requires Access to Your Contacts and Location",
+      "type": "story",
+      "url": "https://www.vice.com/en/article/z3xqdw/samsung-washing-machine-app-requires-access-to-your-contacts-and-location"
+    },
+    {
+      "by": "elsewhen",
+      "descendants": 0,
+      "id": 27778613,
+      "score": 1,
+      "time": 1625784819,
+      "title": "Mark Zuckerberg and Sheryl Sandberg’s Partnership Did Not Survive Trump",
+      "type": "story",
+      "url": "https://www.nytimes.com/2021/07/08/business/mark-zuckerberg-sheryl-sandberg-facebook.html"
+    },
+    {
       "by": "herodoturtle",
       "descendants": 0,
       "id": 27778564,
+      "kids": [
+        27778623
+      ],
       "score": 1,
       "text": "We&#x27;ve got decent (albeit old school) full stack in-house dev experience, so re-inventing the wheel is optional given our tailored needs.<p>Some solutions we&#x27;ve come up with:<p>1. Store the files as MEDIUMBLOBs in our MySQL database - but we&#x27;re not sure how responsive this database would be once we hit 100TB+ of files.<p>2. Store the files on a standard Linux file system, and limit the MySQL database to tracking values linked to each file (but not storing the actual files themselves). The data tracked in this database would thus be limited, and therefore scale better. In said data, we&#x27;d track things such as the date the was file created, a customer&#x27;s name, and around 100 other variable text fields.<p>What are your thoughts on the above two options?<p>And are there other good&#x2F;better options?<p>Please note: we&#x27;re a bunch of old guys that still tinker in LAMP, so kindly take it easy on us if you&#x27;re responding with modern framework solutions. But we&#x27;re open to learning new things!<p>Cheers from South Africa.",
       "time": 1625784429,
@@ -67,7 +90,7 @@
       "kids": [
         27778529
       ],
-      "score": 6,
+      "score": 9,
       "time": 1625783856,
       "title": "Surface air temperature for June 2021",
       "type": "story",
@@ -82,26 +105,6 @@
       "title": "Burn the Ships - Constraints breed creativity, focus, and life",
       "type": "story",
       "url": "https://www.tiagosada.com/notes/burn"
-    },
-    {
-      "by": "parsecs",
-      "descendants": 0,
-      "id": 27778461,
-      "score": 1,
-      "time": 1625783717,
-      "title": "Reverse-engineering and analysis of SanDisk High Endurance microSDXC card",
-      "type": "story",
-      "url": "https://ripitapart.com/2020/07/16/reverse-engineering-and-analysis-of-sandisk-high-endurance-microsdxc-card/"
-    },
-    {
-      "by": "walterbell",
-      "descendants": 0,
-      "id": 27778458,
-      "score": 2,
-      "time": 1625783708,
-      "title": "Ivermectin: ‘wonder’ drug continues to surprise and exceed expectations (2017)",
-      "type": "story",
-      "url": "https://www.nature.com/articles/ja201711"
     }
   ]
 }
