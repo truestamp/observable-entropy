@@ -1,6 +1,16 @@
 {
   "stories": [
     {
+      "by": "tonyjstark",
+      "descendants": 0,
+      "id": 27769382,
+      "score": 1,
+      "time": 1625731548,
+      "title": "Show HN: Loqbooq – A Decision Log with Slack Integration",
+      "type": "story",
+      "url": "https://loqbooq.app"
+    },
+    {
       "by": "isaacfrond",
       "descendants": 0,
       "id": 27769376,
@@ -42,14 +52,14 @@
     },
     {
       "by": "rani08",
-      "descendants": 1,
+      "descendants": 2,
       "id": 27769361,
       "kids": [
         27769374
       ],
-      "score": 3,
+      "score": 6,
       "time": 1625731241,
-      "title": "PancakeSwap Cake auto staking for 104%",
+      "title": "PancakeSwap Cake auto staking for 104% APY",
       "type": "story",
       "url": "https://twitter.com/income_dividend/status/1412887508090646531"
     },
@@ -78,12 +88,12 @@
       "descendants": 3,
       "id": 27769318,
       "kids": [
-        27769373,
         27769340,
         27769319,
+        27769373,
         27769358
       ],
-      "score": 3,
+      "score": 4,
       "time": 1625730651,
       "title": "Test Automation Weekly",
       "type": "story",
@@ -101,16 +111,6 @@
       "title": "Edinburgh's skyline 'defaced' by controversial development",
       "type": "story",
       "url": "https://www.theguardian.com/artanddesign/2021/jul/08/a-great-city-has-been-defaced-why-has-a-poo-emoji-arrived-on-edinburghs-skyline"
-    },
-    {
-      "by": "textmode",
-      "descendants": 0,
-      "id": 27769305,
-      "score": 1,
-      "text": "<p><pre><code>      cat &gt; 056.l\n \n        &#x2F;* JPEG file carver *&#x2F;\n    \n     #define echo ECHO\n     #define jmp BEGIN\n     int fileno(FILE *);\n    \n    xa &quot;\\xFF\\xD8&quot;\n    xb &quot;\\xFF\\xD9&quot; \n    \n    %s xa \n    %option noyywrap nounput noinput\n    %%\n    \n    {xa} echo;jmp xa;\n    &lt;xa&gt;{xb} echo;jmp 0;\n    &lt;xa&gt;.|\\n|\\r echo;\n    .|\\n\n    \n    %%\n    int main(){ yylex();exit(0) ;}\n    \n    ^D\n\n    flex 056.l\n    cc -static -o yy056 lex.yy.c</code></pre>",
-      "time": 1625730548,
-      "title": "JPEG File Extraction from stdin",
-      "type": "story"
     }
   ]
 }
