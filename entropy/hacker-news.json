@@ -1,6 +1,46 @@
 {
   "stories": [
     {
+      "by": "herodoturtle",
+      "descendants": 0,
+      "id": 27778564,
+      "score": 1,
+      "text": "We&#x27;ve got decent (albeit old school) full stack in-house dev experience, so re-inventing the wheel is optional given our tailored needs.<p>Some solutions we&#x27;ve come up with:<p>1. Store the files as MEDIUMBLOBs in our MySQL database - but we&#x27;re not sure how responsive this database would be once we hit 100TB+ of files.<p>2. Store the files on a standard Linux file system, and limit the MySQL database to tracking values linked to each file (but not storing the actual files themselves). The data tracked in this database would thus be limited, and therefore scale better. In said data, we&#x27;d track things such as the date the was file created, a customer&#x27;s name, and around 100 other variable text fields.<p>What are your thoughts on the above two options?<p>And are there other good&#x2F;better options?<p>Please note: we&#x27;re a bunch of old guys that still tinker in LAMP, so kindly take it easy on us if you&#x27;re responding with modern framework solutions. But we&#x27;re open to learning new things!<p>Cheers from South Africa.",
+      "time": 1625784429,
+      "title": "Ask HN: Best way to store thousands of ~10mb files via browser upload interface?",
+      "type": "story"
+    },
+    {
+      "by": "pseudolus",
+      "descendants": 0,
+      "id": 27778559,
+      "score": 1,
+      "time": 1625784378,
+      "title": "The Story of Songbirds Is a Story of Sugar",
+      "type": "story",
+      "url": "https://www.theatlantic.com/science/archive/2021/07/origin-of-birdsong-sugar/619387/"
+    },
+    {
+      "by": "carride",
+      "descendants": 0,
+      "id": 27778557,
+      "score": 1,
+      "time": 1625784363,
+      "title": "What fractals, Fibonacci, and the golden ratio have to do with cauliflower",
+      "type": "story",
+      "url": "https://arstechnica.com/science/2021/07/what-fractals-fibonacci-and-the-golden-ratio-have-to-do-with-cauliflower/"
+    },
+    {
+      "by": "ogennadi",
+      "descendants": 0,
+      "id": 27778550,
+      "score": 1,
+      "time": 1625784324,
+      "title": "Ask for a third-party audit of your cryopreservation",
+      "type": "story",
+      "url": "https://www.lesswrong.com/posts/aMrX9LzaxtMsm4uza/you-should-ask-for-a-third-party-audit-of-your"
+    },
+    {
       "by": "pseudolus",
       "descendants": 0,
       "id": 27778534,
@@ -27,7 +67,7 @@
       "kids": [
         27778529
       ],
-      "score": 5,
+      "score": 6,
       "time": 1625783856,
       "title": "Surface air temperature for June 2021",
       "type": "story",
@@ -62,46 +102,6 @@
       "title": "Ivermectin: ‘wonder’ drug continues to surprise and exceed expectations (2017)",
       "type": "story",
       "url": "https://www.nature.com/articles/ja201711"
-    },
-    {
-      "by": "walterbell",
-      "descendants": 0,
-      "id": 27778427,
-      "score": 1,
-      "time": 1625783530,
-      "title": "How central bank digital currencies might operate and what they might mean",
-      "type": "story",
-      "url": "https://www.interest.co.nz/banking/110538/cbdcs"
-    },
-    {
-      "by": "wombatmobile",
-      "descendants": 0,
-      "id": 27778404,
-      "score": 1,
-      "time": 1625783388,
-      "title": "How to Turn Awkwardness into Attraction",
-      "type": "story",
-      "url": "https://www.youtube.com/watch?v=rh5NFxIrFlE"
-    },
-    {
-      "by": "AndrewBissell",
-      "descendants": 0,
-      "id": 27778378,
-      "score": 1,
-      "time": 1625783208,
-      "title": "Pfizer Plans to Request FDA Nod for Covid Booster in August",
-      "type": "story",
-      "url": "https://www.bloomberg.com/news/articles/2021-07-08/pfizer-plans-to-request-fda-nod-for-covid-booster-in-august"
-    },
-    {
-      "by": "voisin",
-      "descendants": 0,
-      "id": 27778375,
-      "score": 2,
-      "time": 1625783197,
-      "title": "Pfizer sees waning immunity from its Covid-19 vaccine",
-      "type": "story",
-      "url": "https://edition.cnn.com/2021/07/08/health/pfizer-waning-immunity-bn/index.html"
     }
   ]
 }
