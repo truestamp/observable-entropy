@@ -1,6 +1,36 @@
 {
   "stories": [
     {
+      "by": "dibbee",
+      "descendants": 0,
+      "id": 27778796,
+      "score": 1,
+      "time": 1625786377,
+      "title": "Research Engineer",
+      "type": "story",
+      "url": "https://generally-intelligent.breezy.hr/p/ed6849c074fb-ml-research-engineer"
+    },
+    {
+      "by": "interlocutor",
+      "descendants": 0,
+      "id": 27778774,
+      "score": 1,
+      "time": 1625786194,
+      "title": "Google Internal Comics",
+      "type": "story",
+      "url": "https://goomics.net/"
+    },
+    {
+      "by": "dfsegoat",
+      "descendants": 0,
+      "id": 27778770,
+      "score": 1,
+      "time": 1625786166,
+      "title": "Pentagon Watchdog Warns US About Cyber Threat in 3D Printing",
+      "type": "story",
+      "url": "https://breakingdefense.com/2021/07/pentagon-watchdog-warns-services-about-cyber-threat-in-3d-printing/"
+    },
+    {
       "by": "dgs_sgd",
       "descendants": 0,
       "id": 27778732,
@@ -24,7 +54,7 @@
       "by": "dzonga",
       "descendants": 0,
       "id": 27778701,
-      "score": 1,
+      "score": 2,
       "time": 1625785556,
       "title": "Don't Trust Google (2002)",
       "type": "story",
@@ -69,42 +99,6 @@
       "title": "Mark Zuckerberg and Sheryl Sandberg’s Partnership Did Not Survive Trump",
       "type": "story",
       "url": "https://www.nytimes.com/2021/07/08/business/mark-zuckerberg-sheryl-sandberg-facebook.html"
-    },
-    {
-      "by": "herodoturtle",
-      "descendants": 2,
-      "id": 27778564,
-      "kids": [
-        27778623
-      ],
-      "score": 2,
-      "text": "We&#x27;ve got decent (albeit old school) full stack in-house dev experience, so re-inventing the wheel is optional given our tailored needs.<p>Some solutions we&#x27;ve come up with:<p>1. Store the files as MEDIUMBLOBs in our MySQL database - but we&#x27;re not sure how responsive this database would be once we hit 100TB+ of files.<p>2. Store the files on a standard Linux file system, and limit the MySQL database to tracking values linked to each file (but not storing the actual files themselves). The data tracked in this database would thus be limited, and therefore scale better. In said data, we&#x27;d track things such as the date the was file created, a customer&#x27;s name, and around 100 other variable text fields.<p>What are your thoughts on the above two options?<p>And are there other good&#x2F;better options?<p>Please note: we&#x27;re a bunch of old guys that still tinker in LAMP, so kindly take it easy on us if you&#x27;re responding with modern framework solutions. But we&#x27;re open to learning new things!<p>Cheers from South Africa.",
-      "time": 1625784429,
-      "title": "Ask HN: Best way to store thousands of ~10mb files via browser upload interface?",
-      "type": "story"
-    },
-    {
-      "by": "pseudolus",
-      "descendants": 0,
-      "id": 27778559,
-      "score": 1,
-      "time": 1625784378,
-      "title": "The Story of Songbirds Is a Story of Sugar",
-      "type": "story",
-      "url": "https://www.theatlantic.com/science/archive/2021/07/origin-of-birdsong-sugar/619387/"
-    },
-    {
-      "by": "carride",
-      "descendants": 1,
-      "id": 27778557,
-      "kids": [
-        27778730
-      ],
-      "score": 2,
-      "time": 1625784363,
-      "title": "What fractals, Fibonacci, and the golden ratio have to do with cauliflower",
-      "type": "story",
-      "url": "https://arstechnica.com/science/2021/07/what-fractals-fibonacci-and-the-golden-ratio-have-to-do-with-cauliflower/"
     }
   ]
 }
