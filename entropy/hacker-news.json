@@ -1,6 +1,16 @@
 {
   "stories": [
     {
+      "by": "dzonga",
+      "descendants": 0,
+      "id": 27778701,
+      "score": 1,
+      "time": 1625785556,
+      "title": "Don't Trust Google (2002)",
+      "type": "story",
+      "url": "https://idlewords.com/2002/12/don_t_trust_google.htm"
+    },
+    {
       "by": "bars",
       "descendants": 0,
       "id": 27778691,
@@ -47,7 +57,7 @@
       "kids": [
         27778623
       ],
-      "score": 1,
+      "score": 2,
       "text": "We&#x27;ve got decent (albeit old school) full stack in-house dev experience, so re-inventing the wheel is optional given our tailored needs.<p>Some solutions we&#x27;ve come up with:<p>1. Store the files as MEDIUMBLOBs in our MySQL database - but we&#x27;re not sure how responsive this database would be once we hit 100TB+ of files.<p>2. Store the files on a standard Linux file system, and limit the MySQL database to tracking values linked to each file (but not storing the actual files themselves). The data tracked in this database would thus be limited, and therefore scale better. In said data, we&#x27;d track things such as the date the was file created, a customer&#x27;s name, and around 100 other variable text fields.<p>What are your thoughts on the above two options?<p>And are there other good&#x2F;better options?<p>Please note: we&#x27;re a bunch of old guys that still tinker in LAMP, so kindly take it easy on us if you&#x27;re responding with modern framework solutions. But we&#x27;re open to learning new things!<p>Cheers from South Africa.",
       "time": 1625784429,
       "title": "Ask HN: Best way to store thousands of ~10mb files via browser upload interface?",
@@ -92,16 +102,6 @@
       "title": "Curiosity rover finds patches of rock record erased, revealing clues",
       "type": "story",
       "url": "https://phys.org/news/2021-07-curiosity-rover-patches-erased-revealing.html"
-    },
-    {
-      "by": "CalRobert",
-      "descendants": 0,
-      "id": 27778517,
-      "score": 2,
-      "time": 1625784002,
-      "title": "131F (55C) forecast for Sunday. Possible global record",
-      "type": "story",
-      "url": "https://twitter.com/ScottDuncanWX/status/1413247581111599107"
     }
   ]
 }
