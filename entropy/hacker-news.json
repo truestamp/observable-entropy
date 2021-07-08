@@ -1,6 +1,66 @@
 {
   "stories": [
     {
+      "by": "katiemcculloch",
+      "descendants": 0,
+      "id": 27772203,
+      "score": 1,
+      "text": "We, DoltHub, have posted a $10,000 data bounty to collect menu items, nutritional information and prices for US restaurants.<p>Dolt is a MySQL database that can also branch, diff and merge. DoltHub hosts those databases on the internet and lets you fork and create pull requests.<p>Link to database: https:&#x2F;&#x2F;www.dolthub.com&#x2F;repositories&#x2F;dolthub&#x2F;menus<p>Link to bounty: https:&#x2F;&#x2F;www.dolthub.com&#x2F;repositories&#x2F;dolthub&#x2F;menus&#x2F;bounties&#x2F;35b2996b-3e28-4423-bbee-4c5f0dbb678c<p>Here is the schema of the table that participants will contribute to:<p>$ dolt schema show menu_items;\nmenu_items @ working\nCREATE TABLE `menu_items` (\n  `name` varchar(255) NOT NULL,\n  `restaurant_name` varchar(100) NOT NULL,\n  `identifier` varchar(255) NOT NULL,\n  `calories` int DEFAULT NULL,\n  `fat_g` decimal(6,2) DEFAULT NULL,\n  `carbohydrates_g` int DEFAULT NULL,\n  `protein_g` int DEFAULT NULL,\n  `sodium_mg` int DEFAULT NULL,\n  `price_usd` decimal(10,2),\n  `cholesterol_mg` int DEFAULT NULL,\n  `fiber_g` int DEFAULT NULL,\n  `sugars_g` int DEFAULT NULL,\n  PRIMARY KEY (`name`,`restaurant_name`,`identifier`)\n) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;<p>I&#x27;ve also created data validation scripts on GitHub that users can clone to verify data submissions to Dolt: https:&#x2F;&#x2F;github.com&#x2F;dolthub&#x2F;menus&#x2F;tree&#x2F;main&#x2F;validation. You can read more about the validation script through the bounty link. We imagine scripts like this being the basis of DoltHub continuous integration testing, and are focused on releasing an initial version of that feature in the coming months.",
+      "time": 1625753674,
+      "title": "$10k data bounty to build open source US menus database",
+      "type": "story"
+    },
+    {
+      "by": "phkahler",
+      "descendants": 0,
+      "id": 27772183,
+      "score": 1,
+      "time": 1625753597,
+      "title": "Removed video tutorials from YouTube because I increasingly lost sovereignty",
+      "type": "story",
+      "url": "https://solvespace.com/forum.pl?action=viewthread&parent=3756&tt=1625649760"
+    },
+    {
+      "by": "thunderbong",
+      "descendants": 0,
+      "id": 27772181,
+      "score": 1,
+      "time": 1625753594,
+      "title": "Appwrite is a secure end-to-end back end server for Web, Mobile",
+      "type": "story",
+      "url": "https://github.com/appwrite/appwrite"
+    },
+    {
+      "by": "erikhoel",
+      "descendants": 0,
+      "id": 27772170,
+      "score": 4,
+      "time": 1625753517,
+      "title": "Culture is downstream of money (how nerds rose)",
+      "type": "story",
+      "url": "https://erikhoel.substack.com/p/culture-is-downstream-of-money"
+    },
+    {
+      "by": "nceqs3",
+      "descendants": 0,
+      "id": 27772166,
+      "score": 1,
+      "time": 1625753503,
+      "title": "15 States Reach a $4.5B Settlement with Oxycontin Maker Purdue Pharma",
+      "type": "story",
+      "url": "https://www.nytimes.com/2021/07/08/health/purdue-pharma-opioids-settlement.html"
+    },
+    {
+      "by": "okl",
+      "descendants": 0,
+      "id": 27772152,
+      "score": 2,
+      "time": 1625753451,
+      "title": "Fallen Astronaut",
+      "type": "story",
+      "url": "https://en.wikipedia.org/wiki/Fallen_Astronaut"
+    },
+    {
       "by": "simonebrunozzi",
       "descendants": 0,
       "id": 27772142,
@@ -14,7 +74,7 @@
       "by": "aliskandermegas",
       "descendants": 0,
       "id": 27772140,
-      "score": 1,
+      "score": 2,
       "time": 1625753377,
       "title": "The value of ancient biographies of philosophers",
       "type": "story",
@@ -34,71 +94,11 @@
       "by": "schmudde",
       "descendants": 0,
       "id": 27772091,
-      "score": 1,
+      "score": 2,
       "text": "We are a small team with a growing number of *-as-a-service dependencies. What do you use to keep track of the administrative aspects? I’m talking about payment plans and information, access rights, usage, licenses, etc….",
       "time": 1625753147,
       "title": "Ask HN: What do you use to keep track of the administration of services?",
       "type": "story"
-    },
-    {
-      "by": "jafioti",
-      "descendants": 0,
-      "id": 27772080,
-      "score": 1,
-      "time": 1625753070,
-      "title": "Show HN: GPT-3 Powered Customer Service",
-      "type": "story",
-      "url": "https://www.sidekickai.co"
-    },
-    {
-      "by": "leephillips",
-      "descendants": 0,
-      "id": 27772078,
-      "score": 1,
-      "time": 1625753046,
-      "title": "French court convicts 11 of harassing teenager who posted anti-Islam videos",
-      "type": "story",
-      "url": "https://www.theguardian.com/world/2021/jul/07/french-court-convicts-11-of-harassing-teenager-who-posted-anti-islam-videos"
-    },
-    {
-      "by": "laurex",
-      "descendants": 0,
-      "id": 27772076,
-      "score": 1,
-      "time": 1625753041,
-      "title": "Science Moved Beyond Peer Review During the Pandemic",
-      "type": "story",
-      "url": "https://fivethirtyeight.com/features/how-science-moved-beyond-peer-review-during-the-pandemic/"
-    },
-    {
-      "by": "ssully",
-      "descendants": 0,
-      "id": 27772070,
-      "score": 1,
-      "time": 1625753020,
-      "title": "A Battle Between a Great City and a Great Lake",
-      "type": "story",
-      "url": "https://www.nytimes.com/interactive/2021/07/07/climate/chicago-river-lake-michigan.html"
-    },
-    {
-      "by": "lkcl",
-      "descendants": 0,
-      "id": 27772066,
-      "score": 1,
-      "time": 1625752997,
-      "title": "Libre-SoC 180nm Power ISA v3.0 ASIC Submitted to IMEC MPW",
-      "type": "story",
-      "url": "https://openpowerfoundation.org/libre-soc-180nm-power-isa-asic-submitted-to-imec-for-fabrication/"
-    },
-    {
-      "by": "laurex",
-      "descendants": 0,
-      "id": 27772047,
-      "score": 1,
-      "time": 1625752881,
-      "title": "Nightmare scenario: alarm as advertisers seek to plug into our dreams",
-      "type": "story",
-      "url": "https://www.theguardian.com/media/2021/jul/05/advertisers-targeted-dream-incubation"
     }
   ]
 }
