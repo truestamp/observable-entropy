@@ -1,13 +1,83 @@
 {
   "stories": [
     {
+      "by": "smusamashah",
+      "descendants": 0,
+      "id": 27784198,
+      "score": 1,
+      "time": 1625841881,
+      "title": "OS13k – A Tiny JavaScript OS",
+      "type": "story",
+      "url": "https://os13k.app.runonflux.io/"
+    },
+    {
+      "by": "delgaudm",
+      "descendants": 0,
+      "id": 27784186,
+      "score": 1,
+      "text": "I&#x27;ve recently acquired a NAS (QNAP, if that matters) to help manage the data my business generates -  primarily video and audio files and projects. What strategies should I consider at the outset to make offsite backups reliably, affordably, and hopefully automated for this new device?",
+      "time": 1625841839,
+      "title": "Ask HN: What strategies should I consider for backing up my home NAS",
+      "type": "story"
+    },
+    {
+      "by": "hidden-spyder",
+      "descendants": 0,
+      "id": 27784184,
+      "score": 1,
+      "time": 1625841831,
+      "title": "Khan Academy",
+      "type": "story",
+      "url": "https://www.khanacademy.org/"
+    },
+    {
+      "by": "jtsymonds",
+      "descendants": 0,
+      "id": 27784158,
+      "score": 1,
+      "time": 1625841725,
+      "title": "Create S3 compatible machine learning pipelines on Azure with Kubeflow and MinIO",
+      "type": "story",
+      "url": "https://blog.min.io/kubeflow-minio-azure/"
+    },
+    {
+      "by": "Hard_Space",
+      "descendants": 0,
+      "id": 27784157,
+      "score": 1,
+      "time": 1625841725,
+      "title": "The Failings of the Draft EU Artificial Intelligence Act",
+      "type": "story",
+      "url": "https://www.unite.ai/the-failings-of-the-draft-eu-artificial-intelligence-act/"
+    },
+    {
+      "by": "erikhoel",
+      "descendants": 0,
+      "id": 27784150,
+      "score": 4,
+      "time": 1625841692,
+      "title": "Enter the Supersensorium",
+      "type": "story",
+      "url": "https://thebaffler.com/salvos/enter-the-supersensorium-hoel"
+    },
+    {
+      "by": "fortran77",
+      "descendants": 0,
+      "id": 27784146,
+      "score": 1,
+      "time": 1625841673,
+      "title": "The DEC Mini",
+      "type": "story",
+      "url": "https://decmini.com/"
+    },
+    {
       "by": "cimnine",
       "descendants": 0,
       "id": 27784128,
       "score": 1,
       "text": "We&#x27;re a small company. We have several servers that we access through SSH. We like to centralize SSH access.<p>Current solutions we are aware of:<p>- Share the SSH keys, e.g. on a shared filesystem.\n- Distribute SSH public keys of users with Puppet, Ansible, etc.\n- https:&#x2F;&#x2F;goteleport.com&#x2F; (a fancy bastion host)<p>What I&#x27;m looking for:<p>A tool, with which an employee requests access to a server and automatically gets a signed ssh key in return which has limited validity. This key is automatically loaded into the ssh-agent. Ideally, the &#x27;~&#x2F;.ssh&#x2F;config&#x27; is adjusted, so that the correct username is used, and &#x27;~&#x2F;.ssh&#x2F;known_hosts&#x27; is updated with the server&#x27;s public key digest.<p>What I imagine from the perspective of the user:<p>- &#x27;tool auth&#x27;\n  &gt; Check if authenticated with the central key management server\n  &gt; Otherwise OAuth with my regular SSO (e.g. Google Workspace)\n- &#x27;tool ssh server0.corp.com&#x27;\n  &gt; Check with the central key management server if the user has permission to access server0.corp.com\n  &gt; If yes, issue a time-constrained certificate (or sign the user&#x27;s local public key, whatever)\n  &gt; Ensure that the server is configured correctly in &#x27;~&#x2F;.ssh&#x2F;config&#x27;\n  &gt; Ensure that the server public key digest is in &#x27;~&#x2F;.ssh&#x2F;known_hosts&#x27;\n  &gt; Add the certificate to ssh-agent\n- Run the ssh-based command, e.g. &#x27;ssh server0.corp.com&#x27;, &#x27;scp local_file server0.corp.com:remote_file&#x27;, &#x27;ansible-playbook ...&#x27;, &#x27;git pull -pr&#x27; or whatever<p>Does such a system exist? Ideally something that is easy to deploy to a cloud if it would be self-hosted (and in the best case makes use of Azure KV, Google KMS, AWS KMS, Vault, ...) or that is hosted (i.e. offered as a service).<p>From the operator perspective, it should not take more than configuring the PKI in OpenSSH and&#x2F;or maybe install an agent on the server. (But it&#x27;d be great if that would not be necessary (as OpenSSH afaik can already handle PKI) and if the PKI-related tasks were handled through Ansible&#x2F;Puppet&#x2F;etc. or the &#x27;tool&#x27;.)",
       "time": 1625841574,
-      "title": "Ask HN: Automated SSH PKI",
+      "title": "Ask HN: Automated SSH PKI Solution",
       "type": "story"
     },
     {
@@ -24,84 +94,11 @@
       "by": "edward",
       "descendants": 0,
       "id": 27784115,
-      "score": 1,
+      "score": 2,
       "time": 1625841506,
       "title": "Automating programming: AI is transforming the coding of computer programs",
       "type": "story",
       "url": "https://www.economist.com/science-and-technology/2021/07/07/ai-is-transforming-the-coding-of-computer-programs"
-    },
-    {
-      "by": "wyldfire",
-      "descendants": 0,
-      "id": 27784110,
-      "score": 1,
-      "time": 1625841488,
-      "title": "The Amazon Personal Games Policy Is Ridiculous",
-      "type": "story",
-      "url": "https://techraptor.net/gaming/news/amazon-games-personal-game-policy"
-    },
-    {
-      "by": "edward",
-      "descendants": 0,
-      "id": 27784102,
-      "score": 1,
-      "time": 1625841469,
-      "title": "Alcohol-free beer is fizzing",
-      "type": "story",
-      "url": "https://www.economist.com/business/2021/07/07/alcohol-free-beer-is-fizzing"
-    },
-    {
-      "by": "mrfusion",
-      "descendants": 0,
-      "id": 27784101,
-      "score": 1,
-      "time": 1625841465,
-      "title": "In Children, Risk of Covid-19 Death or Serious Illness Remains Extremely Low",
-      "type": "story",
-      "url": "https://www.wsj.com/articles/in-children-risk-of-covid-19-death-or-serious-illness-remain-extremely-low-new-studies-find-11625785260"
-    },
-    {
-      "by": "node-bayarea",
-      "descendants": 1,
-      "id": 27784100,
-      "kids": [
-        27784107
-      ],
-      "score": 1,
-      "text": "I&#x27;m looking for technical debate and I know what MySQL&#x2F;PG and Redis are capable of. What I&#x27;m looking for is a debate where you *disagree* that following. I want to start with an analogy.<p>Gasoline cars vs. Electric cars\nWe all know that you can use an electric battery to run a car.<p>But the thing is, when it comes to a gasoline car, even though it does literally have a battery, it’s not used for running the car. It uses batteries for starting the cars (generating an electric spark to light up the gas), A&#x2F;C, audio systems, lights, sensors, locks, and so on but not for running the car. Instead, it relies on an internal combustion engine (ICE) to run the car.<p>It turns out, ICE cars are highly inefficient. Only 16% to 25% of the power that’s generated actually makes it into the wheels. On the other hand, electric vehicles provide about 90% power to the wheels! Further, EVs also have major and additional advantages when it comes to the environment, repair costs, and so on.<p>If you are looking from the First Principles, even though virtually most cars that are built even today are gasoline cars, the fundamental truth is that they use an inefficient system.<p>Now if you look at an electric car, it takes advantage of this inefficiency to build a new type of car. In this case, it simply gets rid of the complex and highly inefficient engine and replaces it with a large battery and a motor to directly spin the wheels.<p>-------------\nNow coming to the Databases...<p>In the traditional architecture, you have a primary database (Postgres, Mongo, etc.)  and a secondary database, a.k.a, cache (e.g. Redis or Memcache). The primary DB is used to store all the data and support CRUD operations. The caching DB is used for caching, session storage, rate-limiting, IP-whitelisting, Pub&#x2F;Sub, queuing, and many other things.<p>And if you think about it, when there is a cache-hit, we are practically using the secondary DB for part of the CRUD operations, but still not fully utilizing it as a primary database.<p>Does this remind you of the issue with gasoline cars? Just like they literally carry a battery to power numerous things except moving the car, the traditional architectures use things like Redis for everything else except as the main DB.<p>Do you see the similarities?<p>What if we use the First Principles thinking to do what the electric car did? Similar to how EVs got rid of the engine, what if we get rid of the slow and inefficient primary database and simply use the cache DB as the main database?<p>https:&#x2F;&#x2F;redislabs.com&#x2F;blog&#x2F;dbless-architecture-and-why-its-the-future&#x2F;",
-      "time": 1625841462,
-      "title": "Looking for a technical debate: Why MOT use Redis as a primary DB?",
-      "type": "story"
-    },
-    {
-      "by": "boynamedsue",
-      "descendants": 0,
-      "id": 27784092,
-      "score": 1,
-      "time": 1625841421,
-      "title": "Cauliflower and Chaos, Fractals in Every Floret",
-      "type": "story",
-      "url": "https://www.nytimes.com/2021/07/08/science/cauliflower-fractals.html"
-    },
-    {
-      "by": "WillDaSilva",
-      "descendants": 0,
-      "id": 27784083,
-      "score": 1,
-      "time": 1625841359,
-      "title": "Time-series data: Why to use a relational database instead of NoSQL",
-      "type": "story",
-      "url": "https://blog.timescale.com/blog/time-series-data-why-and-how-to-use-a-relational-database-instead-of-nosql-d0cd6975e87c/"
-    },
-    {
-      "by": "notoriousarun",
-      "descendants": 0,
-      "id": 27784055,
-      "score": 1,
-      "time": 1625841240,
-      "title": "“Shipping beats perfection” explained",
-      "type": "story",
-      "url": "https://bjk5.com/post/60760280107/shipping-beats-perfection-explained"
     }
   ]
 }
