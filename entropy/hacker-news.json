@@ -1,6 +1,99 @@
 {
   "stories": [
     {
+      "by": "cimnine",
+      "descendants": 0,
+      "id": 27784128,
+      "score": 1,
+      "text": "We&#x27;re a small company. We have several servers that we access through SSH. We like to centralize SSH access.<p>Current solutions we are aware of:<p>- Share the SSH keys, e.g. on a shared filesystem.\n- Distribute SSH public keys of users with Puppet, Ansible, etc.\n- https:&#x2F;&#x2F;goteleport.com&#x2F; (a fancy bastion host)<p>What I&#x27;m looking for:<p>A tool, with which an employee requests access to a server and automatically gets a signed ssh key in return which has limited validity. This key is automatically loaded into the ssh-agent. Ideally, the &#x27;~&#x2F;.ssh&#x2F;config&#x27; is adjusted, so that the correct username is used, and &#x27;~&#x2F;.ssh&#x2F;known_hosts&#x27; is updated with the server&#x27;s public key digest.<p>What I imagine from the perspective of the user:<p>- &#x27;tool auth&#x27;\n  &gt; Check if authenticated with the central key management server\n  &gt; Otherwise OAuth with my regular SSO (e.g. Google Workspace)\n- &#x27;tool ssh server0.corp.com&#x27;\n  &gt; Check with the central key management server if the user has permission to access server0.corp.com\n  &gt; If yes, issue a time-constrained certificate (or sign the user&#x27;s local public key, whatever)\n  &gt; Ensure that the server is configured correctly in &#x27;~&#x2F;.ssh&#x2F;config&#x27;\n  &gt; Ensure that the server public key digest is in &#x27;~&#x2F;.ssh&#x2F;known_hosts&#x27;\n  &gt; Add the certificate to ssh-agent\n- Run the ssh-based command, e.g. &#x27;ssh server0.corp.com&#x27;, &#x27;scp local_file server0.corp.com:remote_file&#x27;, &#x27;ansible-playbook ...&#x27;, &#x27;git pull -pr&#x27; or whatever<p>Does such a system exist? Ideally something that is easy to deploy to a cloud if it would be self-hosted (and in the best case makes use of Azure KV, Google KMS, AWS KMS, Vault, ...) or that is hosted (i.e. offered as a service).<p>From the operator perspective, it should not take more than configuring the PKI in OpenSSH and&#x2F;or maybe install an agent on the server. (But it&#x27;d be great if that would not be necessary (as OpenSSH afaik can already handle PKI) and if the PKI-related tasks were handled through Ansible&#x2F;Puppet&#x2F;etc. or the &#x27;tool&#x27;.)",
+      "time": 1625841574,
+      "title": "Ask HN: Automated SSH PKI",
+      "type": "story"
+    },
+    {
+      "by": "open-source-ux",
+      "descendants": 0,
+      "id": 27784125,
+      "score": 1,
+      "time": 1625841564,
+      "title": "Some farmers are looking back to older practices to improve farming",
+      "type": "story",
+      "url": "https://www.bbc.co.uk/news/science-environment-57686365"
+    },
+    {
+      "by": "edward",
+      "descendants": 0,
+      "id": 27784115,
+      "score": 1,
+      "time": 1625841506,
+      "title": "Automating programming: AI is transforming the coding of computer programs",
+      "type": "story",
+      "url": "https://www.economist.com/science-and-technology/2021/07/07/ai-is-transforming-the-coding-of-computer-programs"
+    },
+    {
+      "by": "wyldfire",
+      "descendants": 0,
+      "id": 27784110,
+      "score": 1,
+      "time": 1625841488,
+      "title": "The Amazon Personal Games Policy Is Ridiculous",
+      "type": "story",
+      "url": "https://techraptor.net/gaming/news/amazon-games-personal-game-policy"
+    },
+    {
+      "by": "edward",
+      "descendants": 0,
+      "id": 27784102,
+      "score": 1,
+      "time": 1625841469,
+      "title": "Alcohol-free beer is fizzing",
+      "type": "story",
+      "url": "https://www.economist.com/business/2021/07/07/alcohol-free-beer-is-fizzing"
+    },
+    {
+      "by": "mrfusion",
+      "descendants": 0,
+      "id": 27784101,
+      "score": 1,
+      "time": 1625841465,
+      "title": "In Children, Risk of Covid-19 Death or Serious Illness Remains Extremely Low",
+      "type": "story",
+      "url": "https://www.wsj.com/articles/in-children-risk-of-covid-19-death-or-serious-illness-remain-extremely-low-new-studies-find-11625785260"
+    },
+    {
+      "by": "node-bayarea",
+      "descendants": 1,
+      "id": 27784100,
+      "kids": [
+        27784107
+      ],
+      "score": 1,
+      "text": "I&#x27;m looking for technical debate and I know what MySQL&#x2F;PG and Redis are capable of. What I&#x27;m looking for is a debate where you *disagree* that following. I want to start with an analogy.<p>Gasoline cars vs. Electric cars\nWe all know that you can use an electric battery to run a car.<p>But the thing is, when it comes to a gasoline car, even though it does literally have a battery, it’s not used for running the car. It uses batteries for starting the cars (generating an electric spark to light up the gas), A&#x2F;C, audio systems, lights, sensors, locks, and so on but not for running the car. Instead, it relies on an internal combustion engine (ICE) to run the car.<p>It turns out, ICE cars are highly inefficient. Only 16% to 25% of the power that’s generated actually makes it into the wheels. On the other hand, electric vehicles provide about 90% power to the wheels! Further, EVs also have major and additional advantages when it comes to the environment, repair costs, and so on.<p>If you are looking from the First Principles, even though virtually most cars that are built even today are gasoline cars, the fundamental truth is that they use an inefficient system.<p>Now if you look at an electric car, it takes advantage of this inefficiency to build a new type of car. In this case, it simply gets rid of the complex and highly inefficient engine and replaces it with a large battery and a motor to directly spin the wheels.<p>-------------\nNow coming to the Databases...<p>In the traditional architecture, you have a primary database (Postgres, Mongo, etc.)  and a secondary database, a.k.a, cache (e.g. Redis or Memcache). The primary DB is used to store all the data and support CRUD operations. The caching DB is used for caching, session storage, rate-limiting, IP-whitelisting, Pub&#x2F;Sub, queuing, and many other things.<p>And if you think about it, when there is a cache-hit, we are practically using the secondary DB for part of the CRUD operations, but still not fully utilizing it as a primary database.<p>Does this remind you of the issue with gasoline cars? Just like they literally carry a battery to power numerous things except moving the car, the traditional architectures use things like Redis for everything else except as the main DB.<p>Do you see the similarities?<p>What if we use the First Principles thinking to do what the electric car did? Similar to how EVs got rid of the engine, what if we get rid of the slow and inefficient primary database and simply use the cache DB as the main database?<p>https:&#x2F;&#x2F;redislabs.com&#x2F;blog&#x2F;dbless-architecture-and-why-its-the-future&#x2F;",
+      "time": 1625841462,
+      "title": "Looking for a technical debate: Why MOT use Redis as a primary DB?",
+      "type": "story"
+    },
+    {
+      "by": "boynamedsue",
+      "descendants": 0,
+      "id": 27784092,
+      "score": 1,
+      "time": 1625841421,
+      "title": "Cauliflower and Chaos, Fractals in Every Floret",
+      "type": "story",
+      "url": "https://www.nytimes.com/2021/07/08/science/cauliflower-fractals.html"
+    },
+    {
+      "by": "WillDaSilva",
+      "descendants": 0,
+      "id": 27784083,
+      "score": 1,
+      "time": 1625841359,
+      "title": "Time-series data: Why to use a relational database instead of NoSQL",
+      "type": "story",
+      "url": "https://blog.timescale.com/blog/time-series-data-why-and-how-to-use-a-relational-database-instead-of-nosql-d0cd6975e87c/"
+    },
+    {
       "by": "notoriousarun",
       "descendants": 0,
       "id": 27784055,
@@ -9,99 +102,6 @@
       "title": "“Shipping beats perfection” explained",
       "type": "story",
       "url": "https://bjk5.com/post/60760280107/shipping-beats-perfection-explained"
-    },
-    {
-      "by": "sonograph",
-      "descendants": 0,
-      "id": 27784051,
-      "score": 1,
-      "time": 1625841211,
-      "title": "ELI5: Captum – Easily Interpret AI Models",
-      "type": "story",
-      "url": "https://developers.facebook.com/blog/post/2021/07/06/eli5-captum-easily-interpret-ai-models/"
-    },
-    {
-      "by": "todsacerdoti",
-      "descendants": 0,
-      "id": 27784037,
-      "score": 1,
-      "time": 1625841099,
-      "title": "Measuring cognitive complexity with elm-review",
-      "type": "story",
-      "url": "https://jfmengels.net/cognitive-complexity/"
-    },
-    {
-      "by": "csomar",
-      "descendants": 0,
-      "id": 27784028,
-      "score": 1,
-      "time": 1625841077,
-      "title": "Are we due for another ice age? (2016)",
-      "type": "story",
-      "url": "https://www.abc.net.au/news/science/2016-06-15/what-is-an-ice-age-explainer/7185002"
-    },
-    {
-      "by": "thunderbong",
-      "descendants": 0,
-      "id": 27784023,
-      "score": 1,
-      "time": 1625841060,
-      "title": "Landgrid – United States Parcel Data",
-      "type": "story",
-      "url": "https://landgrid.com/us/#b=admin"
-    },
-    {
-      "by": "atelliotf",
-      "descendants": 0,
-      "id": 27784022,
-      "score": 1,
-      "time": 1625841048,
-      "title": "Physics of Covid-19 Transmission",
-      "type": "story",
-      "url": "https://ocw.mit.edu/resources/res-10-s95-physics-of-covid-19-transmission-fall-2020/index.htm"
-    },
-    {
-      "by": "andyjih_",
-      "descendants": 0,
-      "id": 27784001,
-      "score": 1,
-      "time": 1625840909,
-      "title": "Stripe takes first step toward blockbuster listing",
-      "type": "story",
-      "url": "https://www.reuters.com/technology/exclusive-online-payments-firm-stripe-takes-first-step-toward-blockbuster-2021-07-08/"
-    },
-    {
-      "by": "gok",
-      "descendants": 0,
-      "id": 27783980,
-      "score": 1,
-      "time": 1625840779,
-      "title": "How the American South is paying the price for Europe's 'green' energy",
-      "type": "story",
-      "url": "https://www.cnn.com/interactive/2021/07/us/american-south-biomass-energy-invs/"
-    },
-    {
-      "by": "thetwentyone",
-      "descendants": 1,
-      "id": 27783961,
-      "kids": [
-        27784019
-      ],
-      "score": 2,
-      "time": 1625840663,
-      "title": "Beautifulalgorithms.jl",
-      "type": "story",
-      "url": "https://github.com/mossr/BeautifulAlgorithms.jl"
-    },
-    {
-      "by": "anandchowdhary",
-      "descendants": 0,
-      "id": 27783939,
-      "score": 6,
-      "text": "Hi HN! We’re Carlo and Anand, and for the past few months, we’ve been building Pabio (<a href=\"https:&#x2F;&#x2F;pabio.com\" rel=\"nofollow\">https:&#x2F;&#x2F;pabio.com</a>). With Pabio, you can get your apartment fully furnished by a professional interior designer and rent high-quality furniture on a monthly subscription.<p>After exiting our previous startups, we got some time on our hands and started visiting many friends at their homes for a coffee to talk about anything and everything. One thing stood out: In most cases, their apartment interior was awful — it was almost always crammed with cheap furniture that didn’t match with each other or the apartment. So, we asked our friends why they wouldn’t hire an interior designer and purchase nicer furniture that fits better, and most of them gave us two reasons: first, interior design seems elitist and expensive; and second, buying full apartment interior is (a) too expensive, and (b) doesn’t make sense if you rent an apartment and don’t know who long you’re going to stay in it.<p>We figured that if we combine both things — interior design and furniture rental — we can create an affordable package for tenants that’s still very high-quality.<p>Here’s how it works:<p>The user uploads a floor plan of their apartment and takes some photos for our reference. Using these, we generate a 3D model of the apartment and one of our interior designers furnishes it. We send the user a fully rendered, photorealistic view of what their apartment will look like [1]. If they like it, they sign up, we deliver and install all furniture, and the user pays a monthly subscription fee. We also fully insure all items and offer optional add-on services like electricians and bi-weekly cleaning. Once they move out, we take all the furniture back, renovate it, and place it in a new apartment at a discounted price.<p>For the whole process to work smoothly, we developed a semi-automated rendering workflow. We built a web-based drawing tool that allows us to easily draw a floor plan, drag-and-drop furniture items on it, and convert it to structured data [2]. We send this JSON instruction file to a Blender instance where we run a Python script to generate renders using our custom Blender plugins. This process is not fully finalized yet, so we usually have to manually adjust some parameters like the camera placement or applying filters, but give it a few more months (or years... heh), and we’ll be able to end-to-end automate the floor plan-to-render process.<p>Although a lot of our core tech is internal tooling such as the rendering service [2], Pabio.com serves as the web app where users can plan their furniture deliveries, file insurance claims, manage billing, etc. You can test out Pabio at <a href=\"https:&#x2F;&#x2F;pabio.com\" rel=\"nofollow\">https:&#x2F;&#x2F;pabio.com</a>, or check out a sample proposal that we send to customers [1].<p>We’re very excited (and a bit nervous) to hear what you think! Please leave us your feedback and share your ideas about how we can improve our offering.<p>Thank you so much!<p>Carlo &amp; Anand<p>[1] Sample proposal: <a href=\"https:&#x2F;&#x2F;pabio.com&#x2F;sample-interior-design-concept\" rel=\"nofollow\">https:&#x2F;&#x2F;pabio.com&#x2F;sample-interior-design-concept</a><p>[2] 30-second demo of our internal interior design tool that generates renders: <a href=\"https:&#x2F;&#x2F;pabiousercontent.com&#x2F;marketing-assets&#x2F;launch-hn&#x2F;designer-demo.mp4\" rel=\"nofollow\">https:&#x2F;&#x2F;pabiousercontent.com&#x2F;marketing-assets&#x2F;launch-hn&#x2F;desi...</a>",
-      "time": 1625840524,
-      "title": "Launch HN: Pabio (YC S21) – Interior design and furniture rental as a service",
-      "type": "story"
     }
   ]
 }
