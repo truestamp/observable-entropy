@@ -1,10 +1,60 @@
 {
   "stories": [
     {
+      "by": "headalgorithm",
+      "descendants": 0,
+      "id": 27784253,
+      "score": 1,
+      "time": 1625842178,
+      "title": "Do App Store Rules Matter?",
+      "type": "story",
+      "url": "https://www.ben-evans.com/benedictevans/2021/7/8/app-store"
+    },
+    {
+      "by": "manikandarajs",
+      "descendants": 0,
+      "id": 27784251,
+      "score": 1,
+      "time": 1625842167,
+      "title": "US Cities Where the Most Tech Workers Are Moving Now",
+      "type": "story",
+      "url": "https://www.businessinsider.com/where-to-move-tech-engineers-jobs-austin-pittsburgh-raleigh-madison-2021-6"
+    },
+    {
+      "by": "seism",
+      "descendants": 0,
+      "id": 27784226,
+      "score": 1,
+      "time": 1625842039,
+      "title": "Minimalist Program (Chomsky 1993)",
+      "type": "story",
+      "url": "https://en.wikipedia.org/wiki/Minimalist_program"
+    },
+    {
+      "by": "AndrewBissell",
+      "descendants": 0,
+      "id": 27784210,
+      "score": 1,
+      "time": 1625841942,
+      "title": "Zombies and doomsday viruses: What is Hollywood telling us? (2015)",
+      "type": "story",
+      "url": "http://truthandshadows.com/2015/08/02/doomsday-viruses-in-movies-tv/"
+    },
+    {
+      "by": "smiley1437",
+      "descendants": 0,
+      "id": 27784201,
+      "score": 1,
+      "time": 1625841892,
+      "title": "Telsa patents new method of lithium extraction using NaCl",
+      "type": "story",
+      "url": "https://electrek.co/2021/07/09/tesla-patent-reveals-elon-musk-table-salt-lithium-extraction-process/"
+    },
+    {
       "by": "smusamashah",
       "descendants": 0,
       "id": 27784198,
-      "score": 1,
+      "score": 2,
       "time": 1625841881,
       "title": "OS13k – A Tiny JavaScript OS",
       "type": "story",
@@ -24,7 +74,7 @@
       "by": "hidden-spyder",
       "descendants": 0,
       "id": 27784184,
-      "score": 1,
+      "score": 2,
       "time": 1625841831,
       "title": "Khan Academy",
       "type": "story",
@@ -44,61 +94,11 @@
       "by": "Hard_Space",
       "descendants": 0,
       "id": 27784157,
-      "score": 1,
+      "score": 2,
       "time": 1625841725,
       "title": "The Failings of the Draft EU Artificial Intelligence Act",
       "type": "story",
       "url": "https://www.unite.ai/the-failings-of-the-draft-eu-artificial-intelligence-act/"
-    },
-    {
-      "by": "erikhoel",
-      "descendants": 0,
-      "id": 27784150,
-      "score": 4,
-      "time": 1625841692,
-      "title": "Enter the Supersensorium",
-      "type": "story",
-      "url": "https://thebaffler.com/salvos/enter-the-supersensorium-hoel"
-    },
-    {
-      "by": "fortran77",
-      "descendants": 0,
-      "id": 27784146,
-      "score": 1,
-      "time": 1625841673,
-      "title": "The DEC Mini",
-      "type": "story",
-      "url": "https://decmini.com/"
-    },
-    {
-      "by": "cimnine",
-      "descendants": 0,
-      "id": 27784128,
-      "score": 1,
-      "text": "We&#x27;re a small company. We have several servers that we access through SSH. We like to centralize SSH access.<p>Current solutions we are aware of:<p>- Share the SSH keys, e.g. on a shared filesystem.\n- Distribute SSH public keys of users with Puppet, Ansible, etc.\n- https:&#x2F;&#x2F;goteleport.com&#x2F; (a fancy bastion host)<p>What I&#x27;m looking for:<p>A tool, with which an employee requests access to a server and automatically gets a signed ssh key in return which has limited validity. This key is automatically loaded into the ssh-agent. Ideally, the &#x27;~&#x2F;.ssh&#x2F;config&#x27; is adjusted, so that the correct username is used, and &#x27;~&#x2F;.ssh&#x2F;known_hosts&#x27; is updated with the server&#x27;s public key digest.<p>What I imagine from the perspective of the user:<p>- &#x27;tool auth&#x27;\n  &gt; Check if authenticated with the central key management server\n  &gt; Otherwise OAuth with my regular SSO (e.g. Google Workspace)\n- &#x27;tool ssh server0.corp.com&#x27;\n  &gt; Check with the central key management server if the user has permission to access server0.corp.com\n  &gt; If yes, issue a time-constrained certificate (or sign the user&#x27;s local public key, whatever)\n  &gt; Ensure that the server is configured correctly in &#x27;~&#x2F;.ssh&#x2F;config&#x27;\n  &gt; Ensure that the server public key digest is in &#x27;~&#x2F;.ssh&#x2F;known_hosts&#x27;\n  &gt; Add the certificate to ssh-agent\n- Run the ssh-based command, e.g. &#x27;ssh server0.corp.com&#x27;, &#x27;scp local_file server0.corp.com:remote_file&#x27;, &#x27;ansible-playbook ...&#x27;, &#x27;git pull -pr&#x27; or whatever<p>Does such a system exist? Ideally something that is easy to deploy to a cloud if it would be self-hosted (and in the best case makes use of Azure KV, Google KMS, AWS KMS, Vault, ...) or that is hosted (i.e. offered as a service).<p>From the operator perspective, it should not take more than configuring the PKI in OpenSSH and&#x2F;or maybe install an agent on the server. (But it&#x27;d be great if that would not be necessary (as OpenSSH afaik can already handle PKI) and if the PKI-related tasks were handled through Ansible&#x2F;Puppet&#x2F;etc. or the &#x27;tool&#x27;.)",
-      "time": 1625841574,
-      "title": "Ask HN: Automated SSH PKI Solution",
-      "type": "story"
-    },
-    {
-      "by": "open-source-ux",
-      "descendants": 0,
-      "id": 27784125,
-      "score": 1,
-      "time": 1625841564,
-      "title": "Some farmers are looking back to older practices to improve farming",
-      "type": "story",
-      "url": "https://www.bbc.co.uk/news/science-environment-57686365"
-    },
-    {
-      "by": "edward",
-      "descendants": 0,
-      "id": 27784115,
-      "score": 2,
-      "time": 1625841506,
-      "title": "Automating programming: AI is transforming the coding of computer programs",
-      "type": "story",
-      "url": "https://www.economist.com/science-and-technology/2021/07/07/ai-is-transforming-the-coding-of-computer-programs"
     }
   ]
 }
