@@ -1,6 +1,69 @@
 {
   "stories": [
     {
+      "by": "thetwentyone",
+      "descendants": 0,
+      "id": 27783961,
+      "score": 1,
+      "time": 1625840663,
+      "title": "Beautifulalgorithms.jl",
+      "type": "story",
+      "url": "https://github.com/mossr/BeautifulAlgorithms.jl"
+    },
+    {
+      "by": "anandchowdhary",
+      "descendants": 0,
+      "id": 27783939,
+      "score": 2,
+      "text": "Hi HN! We’re Carlo and Anand, and for the past few months, we’ve been building Pabio (<a href=\"https:&#x2F;&#x2F;pabio.com\" rel=\"nofollow\">https:&#x2F;&#x2F;pabio.com</a>). With Pabio, you can get your apartment fully furnished by a professional interior designer and rent high-quality furniture on a monthly subscription.<p>After exiting our previous startups, we got some time on our hands started visiting many friends at their homes for a coffee to talk about anything and everything. One thing stood out: In most cases, their apartment interior was awful — it was almost always crammed with cheap furniture that didn’t match with each other or the apartment. So, we asked our friends why they wouldn’t hire an interior designer and purchase nicer furniture that fits better, and most of them gave us two reasons: first, interior design seems elitist and expensive; and second, buying full apartment interior is (a) too expensive, and (b) doesn’t make sense if you rent an apartment and don’t know who long you’re going to stay in it.<p>We figured that if we combine both things — interior design and furniture rental — we can create an affordable package for tenants that’s still very high-quality.<p>Here’s how it works:<p>The user uploads a floor plan of their apartment and takes some photos for our reference. Using these, we generate a 3D model of the apartment and one of our interior designers furnishes it. We send the user a fully rendered, photorealistic view of what their apartment will look like [1]. If they like it, they sign up, we deliver and install all furniture, and the user pays a monthly subscription fee. We also fully insure all items and offer optional add-on services like electricians and bi-weekly cleaning. Once they move out, we take all the furniture back, renovate it, and place it in a new apartment at a discounted price.<p>For the whole process to work smoothly, we developed a semi-automated rendering workflow. We built a web-based drawing tool that allows us to easily draw a floor plan, drag-and-drop furniture items on it, and convert it to structured data [2]. We send this JSON instruction file to a Blender instance where we run a Python script to generate renders using our custom Blender plugins. This process is not fully finalized yet, so we usually have to manually adjust some parameters like the camera placement or applying filters, but give it a few more months (or years... heh), and we’ll be able to end-to-end automate the floor plan-to-render process.<p>Although a lot of our core tech is internal tooling such as the rendering service [2], Pabio.com serves as the web app where users can plan their furniture deliveries, file insurance claims, manage billing, etc. You can test out Pabio at <a href=\"https:&#x2F;&#x2F;pabio.com\" rel=\"nofollow\">https:&#x2F;&#x2F;pabio.com</a>, or check out a sample proposal that we send to customers [1].<p>We’re very excited (and a bit nervous) to hear what you think! Please leave us your feedback and share your ideas about how we can improve our offering.<p>Thank you so much!<p>Carlo &amp; Anand<p>[1] Sample proposal: <a href=\"https:&#x2F;&#x2F;pabio.com&#x2F;sample-interior-design-concept\" rel=\"nofollow\">https:&#x2F;&#x2F;pabio.com&#x2F;sample-interior-design-concept</a><p>[2] 30-second demo of our internal interior design tool that generates renders: <a href=\"https:&#x2F;&#x2F;pabiousercontent.com&#x2F;marketing-assets&#x2F;launch-hn&#x2F;designer-demo.mp4\" rel=\"nofollow\">https:&#x2F;&#x2F;pabiousercontent.com&#x2F;marketing-assets&#x2F;launch-hn&#x2F;desi...</a>",
+      "time": 1625840524,
+      "title": "Launch HN: Pabio (YC S21) – Interior design and furniture rental as a service",
+      "type": "story"
+    },
+    {
+      "by": "fortran77",
+      "descendants": 0,
+      "id": 27783933,
+      "score": 1,
+      "time": 1625840495,
+      "title": "My Late Night with David Letterman History",
+      "type": "story",
+      "url": "https://donzblog.home.blog/2019/01/16/the-journey-begins/"
+    },
+    {
+      "by": "anarbadalov",
+      "descendants": 1,
+      "id": 27783927,
+      "kids": [
+        27783946
+      ],
+      "score": 2,
+      "time": 1625840461,
+      "title": "Hitler's Noxious Plan to 'Restructure' Berlin",
+      "type": "story",
+      "url": "https://thereader.mitpress.mit.edu/hitlers-noxious-plan-to-restructure-berlin/"
+    },
+    {
+      "by": "atlasunshrugged",
+      "descendants": 0,
+      "id": 27783924,
+      "score": 1,
+      "time": 1625840443,
+      "title": "Crypto for people who don't follow crypto",
+      "type": "story",
+      "url": "https://1729.com/crypto-for-people-who-dont-follow-crypto"
+    },
+    {
+      "by": "cs702",
+      "descendants": 0,
+      "id": 27783922,
+      "score": 1,
+      "time": 1625840429,
+      "title": "The Missing Chips: How to Protect the Semiconductor Supply Chain",
+      "type": "story",
+      "url": "https://www.foreignaffairs.com/articles/2021-07-06/missing-chips"
+    },
+    {
       "by": "ecliptik",
       "descendants": 0,
       "id": 27783914,
@@ -24,7 +87,7 @@
       "by": "herbertl",
       "descendants": 0,
       "id": 27783869,
-      "score": 2,
+      "score": 3,
       "time": 1625840103,
       "title": "The Silences Between: On the Perils and Pitfalls of Translation",
       "type": "story",
@@ -39,66 +102,6 @@
       "title": "Arti, a pure-Rust Tor implementation",
       "type": "story",
       "url": "https://blog.torproject.org/announcing-arti"
-    },
-    {
-      "by": "pseudolus",
-      "descendants": 0,
-      "id": 27783864,
-      "score": 2,
-      "time": 1625840049,
-      "title": "The Anatomy of a Ransomware Attack",
-      "type": "story",
-      "url": "https://www.washingtonpost.com/technology/2021/07/09/how-ransomware-attack-works/"
-    },
-    {
-      "by": "whatinside",
-      "descendants": 0,
-      "id": 27783862,
-      "score": 1,
-      "time": 1625840045,
-      "title": "Show HN: I made calendar app with template",
-      "type": "story",
-      "url": "https://apps.apple.com/id/app/sepnia-calendar-todo/id1514936395"
-    },
-    {
-      "by": "tchalla",
-      "descendants": 0,
-      "id": 27783858,
-      "score": 2,
-      "time": 1625840018,
-      "title": "Measuring Algorithmically Infused Societies",
-      "type": "story",
-      "url": "https://www.nature.com/articles/s41586-021-03666-1"
-    },
-    {
-      "by": "just_nerdy",
-      "descendants": 0,
-      "id": 27783850,
-      "score": 3,
-      "time": 1625839967,
-      "title": "Understanding GraphQL for Beginners – Part 2",
-      "type": "story",
-      "url": "https://shopify.engineering/understanding-graphql-beginner-part-two"
-    },
-    {
-      "by": "just_nerdy",
-      "descendants": 0,
-      "id": 27783846,
-      "score": 3,
-      "time": 1625839948,
-      "title": "Understanding GraphQL for Beginners – Part 1",
-      "type": "story",
-      "url": "https://shopify.engineering/understanding-graphql-beginner-part-one"
-    },
-    {
-      "by": "trustable",
-      "descendants": 0,
-      "id": 27783829,
-      "score": 1,
-      "time": 1625839861,
-      "title": "Show HN: I collected electric car (BEV) registration numbers (interactive chart)",
-      "type": "story",
-      "url": "https://open-ev-charts.org/"
     }
   ]
 }
