@@ -1,10 +1,50 @@
 {
   "stories": [
     {
+      "by": "wrycoder",
+      "descendants": 0,
+      "id": 27795370,
+      "score": 1,
+      "time": 1625941477,
+      "title": "Kaseya: The ransomware behind the attack avoided Russian-speaking systems",
+      "type": "story",
+      "url": "https://swacash.com/2021/07/10/kaseya-the-ransomware-behind-the-attack-was-programmed-to-avoid-russian-speaking-systems/"
+    },
+    {
+      "by": "intellaughs",
+      "descendants": 0,
+      "id": 27795364,
+      "score": 1,
+      "time": 1625941448,
+      "title": "Psychedelics promote growth of neural connections lost due to depression",
+      "type": "story",
+      "url": "https://medlifestyle.news/2021/07/05/psychedelics-promote-growth-of-neural-connections-that-have-been-lost-due-to-depression/"
+    },
+    {
+      "by": "burlesona",
+      "descendants": 0,
+      "id": 27795348,
+      "score": 1,
+      "text": "I’ve been working on an application which has “social network” shaped data. I’ve been using Postgres to get started because I know it inside and out, but the queries are getting increasingly complicated and difficult to reason about as the data model grows.<p>I’ve heard about graph databases but never used one in prod before. I recently grabbed a book on Neo4j and then tested migrating my data into it. I have to say, I’m impressed by how much easier and faster it is to construct many of the queries I’m interested in using Cypher.<p>I have no experience operationalizing Neo4j, and a lot of questions…<p>Are there any pitfalls I should be wary of? If anyone has experience with both running Neo and Postgres in prod, what are the trade offs? Does it make sense to convert all the application data into Neo, or try to run it side by side with Postgres? if you go with two data stores, where should you draw the line between them?<p>Thanks for any experience or input anyone can share. I’ve been googling on this for a while and haven’t found many good resources.",
+      "time": 1625941329,
+      "title": "Ask HN: Experience Running Neo4j in Production?",
+      "type": "story"
+    },
+    {
+      "by": "intellaughs",
+      "descendants": 0,
+      "id": 27795341,
+      "score": 1,
+      "time": 1625941290,
+      "title": "Researchers have taught a drone to recognize, hunt down meteorites autonomously",
+      "type": "story",
+      "url": "https://phys.org/news/2021-07-taught-drone-meteorites-autonomously.html"
+    },
+    {
       "by": "ItsTotallyOn",
       "descendants": 0,
       "id": 27795309,
-      "score": 1,
+      "score": 2,
       "time": 1625940931,
       "title": "PS5 CPU Inside? AMD Says Eighty 4700S Desktops Coming",
       "type": "story",
@@ -34,7 +74,7 @@
       "by": "sashabondar",
       "descendants": 0,
       "id": 27795255,
-      "score": 1,
+      "score": 2,
       "time": 1625940464,
       "title": "How to Build a Booking Search Engine with Ruby on Rails 6 and Elasticsearch 7",
       "type": "story",
@@ -62,46 +102,6 @@
       "title": "Rare Sightings of a Glass Octopus Captured on Camera",
       "type": "story",
       "url": "https://schmidtocean.org/scientists-explore-seamounts-in-phoenix-islands-archipelago-gaining-new-insights-into-deep-water-diversity-and-ecology/"
-    },
-    {
-      "by": "akbarnama",
-      "descendants": 0,
-      "id": 27795229,
-      "score": 1,
-      "time": 1625940209,
-      "title": "Firecracker: Lightweight Virtualization for Serverless Applications",
-      "type": "story",
-      "url": "https://www.micahlerner.com/2021/06/17/firecracker-lightweight-virtualization-for-serverless-applications.html"
-    },
-    {
-      "by": "olvy0",
-      "descendants": 0,
-      "id": 27795224,
-      "score": 1,
-      "time": 1625940160,
-      "title": "Frida Instrumentation Kit 14.0 – QuickJS with Hacked-On Multithreading (2020)",
-      "type": "story",
-      "url": "https://frida.re/news/2020/10/28/frida-14-0-released/"
-    },
-    {
-      "by": "pmcollins",
-      "descendants": 0,
-      "id": 27795215,
-      "score": 3,
-      "time": 1625940048,
-      "title": "Kaseya Failed to Address Security Before Hack, Ex-Employees Say",
-      "type": "story",
-      "url": "https://www.bloomberg.com/news/articles/2021-07-10/kaseya-failed-to-address-security-before-hack-ex-employees-say"
-    },
-    {
-      "by": "simonw",
-      "descendants": 0,
-      "id": 27795200,
-      "score": 1,
-      "text": "I&#x27;d love to see some examples of GitHub Actions workflows that deploy AWS lambda functions, ideally with as few additional moving parts as possible.<p>I&#x27;ve done this myself via Vercel, but I want to learn how to deploy directly to AWS lambda from an automated CI&#x2F;CD pipeline running on GitHub.",
-      "time": 1625939847,
-      "title": "Ask HN: GitHub Actions that deploy AWS lambdas?",
-      "type": "story"
     }
   ]
 }
