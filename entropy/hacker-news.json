@@ -32,8 +32,11 @@
     },
     {
       "by": "daly",
-      "descendants": 0,
+      "descendants": 1,
       "id": 27790745,
+      "kids": [
+        27790785
+      ],
       "score": 1,
       "text": "Is there a good write-only backup solution?<p>The best case would be incremental backups to DVDs since they don&#x27;t allow modification.<p>Layered on top of that would be a git-like difference algorithm that stored changes rather than whole files.<p>Truly ideal would be a &quot;write through&quot; backup solution so that the &quot;backup&quot; sits between the computer and the hard drive, writing journal-like changes &quot;on the fly&quot;.<p>Such a solution would make ransomware useless. Even if you encrypt the whole filesystem the backup device could do a git restore.<p>Does such a solution exist?<p>If so, is there a better medium write-only medium than DVDs?",
       "time": 1625885603,
@@ -62,9 +65,10 @@
     },
     {
       "by": "tarunupaday",
-      "descendants": 1,
+      "descendants": 2,
       "id": 27790723,
       "kids": [
+        27790794,
         27790768,
         27790755
       ],
@@ -86,8 +90,11 @@
     },
     {
       "by": "ruckfool",
-      "descendants": 0,
+      "descendants": 1,
       "id": 27790691,
+      "kids": [
+        27790791
+      ],
       "score": 3,
       "time": 1625884759,
       "title": "Manage Your Energy, Not Your Time",
