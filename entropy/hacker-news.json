@@ -1,6 +1,26 @@
 {
   "stories": [
     {
+      "by": "belter",
+      "descendants": 0,
+      "id": 27795509,
+      "score": 1,
+      "time": 1625942656,
+      "title": "Where Are All the Cheap x86 Single Board PCs?",
+      "type": "story",
+      "url": "https://hackaday.com/2021/06/17/where-are-all-the-cheap-x86-single-board-pcs/"
+    },
+    {
+      "by": "walterbell",
+      "descendants": 0,
+      "id": 27795494,
+      "score": 1,
+      "time": 1625942509,
+      "title": "How to Promote Enlightened Debate Online (2018)",
+      "type": "story",
+      "url": "https://www.chronicle.com/article/how-to-promote-enlightened-debate-online/"
+    },
+    {
       "by": "d_e_solomon",
       "descendants": 0,
       "id": 27795428,
@@ -78,33 +98,16 @@
     },
     {
       "by": "intellaughs",
-      "descendants": 0,
+      "descendants": 1,
       "id": 27795364,
+      "kids": [
+        27795504
+      ],
       "score": 2,
       "time": 1625941448,
       "title": "Psychedelics promote growth of neural connections lost due to depression",
       "type": "story",
       "url": "https://medlifestyle.news/2021/07/05/psychedelics-promote-growth-of-neural-connections-that-have-been-lost-due-to-depression/"
-    },
-    {
-      "by": "burlesona",
-      "descendants": 0,
-      "id": 27795348,
-      "score": 2,
-      "text": "I’ve been working on an application which has “social network” shaped data. I’ve been using Postgres to get started because I know it inside and out, but the queries are getting increasingly complicated and difficult to reason about as the data model grows.<p>I’ve heard about graph databases but never used one in prod before. I recently grabbed a book on Neo4j and then tested migrating my data into it. I have to say, I’m impressed by how much easier and faster it is to construct many of the queries I’m interested in using Cypher.<p>I have no experience operationalizing Neo4j, and a lot of questions…<p>Are there any pitfalls I should be wary of? If anyone has experience with both running Neo and Postgres in prod, what are the trade offs? Does it make sense to convert all the application data into Neo, or try to run it side by side with Postgres? if you go with two data stores, where should you draw the line between them?<p>Thanks for any experience or input anyone can share. I’ve been googling on this for a while and haven’t found many good resources.",
-      "time": 1625941329,
-      "title": "Ask HN: Experience Running Neo4j in Production?",
-      "type": "story"
-    },
-    {
-      "by": "intellaughs",
-      "descendants": 0,
-      "id": 27795341,
-      "score": 1,
-      "time": 1625941290,
-      "title": "Researchers have taught a drone to recognize, hunt down meteorites autonomously",
-      "type": "story",
-      "url": "https://phys.org/news/2021-07-taught-drone-meteorites-autonomously.html"
     }
   ]
 }
