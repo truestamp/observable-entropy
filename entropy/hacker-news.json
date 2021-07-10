@@ -1,6 +1,19 @@
 {
   "stories": [
     {
+      "by": "bedirhan",
+      "descendants": 1,
+      "id": 27793055,
+      "kids": [
+        27793056
+      ],
+      "score": 1,
+      "time": 1625921793,
+      "title": "Voteflix: Watchlists and Reviews for Netflix",
+      "type": "story",
+      "url": "https://play.google.com/store/apps/details?id=com.voteflixmobileapp"
+    },
+    {
       "by": "ykat7",
       "descendants": 0,
       "id": 27793036,
@@ -34,7 +47,7 @@
       "by": "homarp",
       "descendants": 0,
       "id": 27793013,
-      "score": 1,
+      "score": 2,
       "time": 1625921287,
       "title": "The Microsoft Z80 SoftCard",
       "type": "story",
@@ -57,7 +70,7 @@
       "kids": [
         27793044
       ],
-      "score": 1,
+      "score": 2,
       "text": "As noted by others [1], a very common case for joins is to follow foreign keys.<p>I suggest using the fact foreign keys are constraints with unique names,\nand using these names to explicitly specify what column(s) to join\nbetween the two foreing key tables.<p>In PostgreSQL [2], foreign key contraint names only need to be unique\nper table, which allows using the foreign table &quot;as is&quot; as the\nconstraint name, which allows for nice short names.\nIn other databases, the names will just need to be a little longer, since they need to be unique per schema according to the SQL spec.<p>Given this schema:<p><pre><code>  CREATE TABLE baz (\n  id integer NOT NULL,\n  PRIMARY KEY (id)\n  );\n  \n  CREATE TABLE bar (\n  id integer NOT NULL,\n  baz_id integer,\n  PRIMARY KEY (id),\n  CONSTRAINT baz FOREIGN KEY (baz_id) REFERENCES baz\n  );\n  \n  CREATE TABLE foo (\n  id integer NOT NULL,\n  bar_id integer,\n  PRIMARY KEY (id),\n  CONSTRAINT bar FOREIGN KEY (bar_id) REFERENCES bar\n  );\n</code></pre>\nWe could write a normal SQL query like this:<p><pre><code>  SELECT\n    bar.id AS bar_id,\n    baz.id AS baz_id\n  FROM foo\n  JOIN bar ON bar.id = foo.bar_id\n  LEFT JOIN baz ON baz.id = bar.baz_id\n  WHERE foo.id = 123\n</code></pre>\nI suggest adding a new binary operator,\ntaking the table alias to join from as left operand,\nand the name of the foreign kery contraint to follow as the right operand.<p>Perhaps &quot;-&gt;&quot; could be used for this purpose,\nsince it&#x27;s currently not used by the SQL spec in the FROM clause.<p>This would allow rewriting the above query into this:<p><pre><code>  SELECT\n    bar.id AS bar_id,\n    baz.id AS baz_id\n  FROM foo\n  JOIN foo-&gt;bar\n  LEFT JOIN bar-&gt;baz\n  WHERE foo.id = 123\n</code></pre>\nWhere e.g. &quot;foo-&gt;bar&quot; means:<p><pre><code>  follow the foreign key constraint named &quot;bar&quot; on the table&#x2F;alias &quot;foo&quot;\n</code></pre>\nIf the same join type is desired for multiple joins,\nanother idea is to allow chaining the operator:<p><pre><code>  SELECT\n    bar.id AS bar_id,\n    baz.id AS baz_id\n  FROM foo\n  LEFT JOIN foo-&gt;bar-&gt;baz\n  WHERE foo.id = 123\n</code></pre>\nWhich would cause both joins to be left joins.<p>[1] https:&#x2F;&#x2F;scattered-thoughts.net&#x2F;writing&#x2F;against-sql&#x2F;\n[2] https:&#x2F;&#x2F;www.postgresql.org&#x2F;",
       "time": 1625920801,
       "title": "In Favor of SQL: Add Follow Foreign Key Syntax",
@@ -90,21 +103,11 @@
       "by": "garblegarble",
       "descendants": 0,
       "id": 27792951,
-      "score": 1,
+      "score": 2,
       "time": 1625920410,
       "title": "AWS Lambda Behind the Scenes",
       "type": "story",
       "url": "https://www.bschaatsbergen.com/behind-the-scenes-lambda"
-    },
-    {
-      "by": "Tomte",
-      "descendants": 0,
-      "id": 27792930,
-      "score": 1,
-      "time": 1625920172,
-      "title": "Thai Cave Rescue: “One Day Longer and Those 13 Boys Would Be Dead”",
-      "type": "story",
-      "url": "https://www.zeit.de/wissen/2021-07/thai-cave-rescue-thailand-tham-luang-2018-diver-mikko-paasi"
     }
   ]
 }
