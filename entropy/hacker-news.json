@@ -1,6 +1,26 @@
 {
   "stories": [
     {
+      "by": "shaicoleman",
+      "descendants": 0,
+      "id": 27790191,
+      "score": 1,
+      "time": 1625878885,
+      "title": "Biden signs executive order for net neutrality, antitrust and right to repair",
+      "type": "story",
+      "url": "https://www.theregister.com/2021/07/09/biden_executive_order/"
+    },
+    {
+      "by": "parsecs",
+      "descendants": 0,
+      "id": 27790190,
+      "score": 1,
+      "time": 1625878853,
+      "title": "Easy 6502",
+      "type": "story",
+      "url": "https://skilldrick.github.io/easy6502/"
+    },
+    {
       "by": "felipap",
       "descendants": 0,
       "id": 27790175,
@@ -79,29 +99,6 @@
       "title": "Channel 4 pulls abuse film after police fears (2004)",
       "type": "story",
       "url": "https://www.theguardian.com/media/2004/may/20/channel4.broadcasting1"
-    },
-    {
-      "by": "node-bayarea",
-      "descendants": 1,
-      "id": 27790024,
-      "kids": [
-        27790030
-      ],
-      "score": 1,
-      "text": "Hi there, I&#x27;m looking for a technical discussion. I&#x27;m looking for technical debate and I know what MySQL&#x2F;PG and Redis are capable of. What I&#x27;m looking for is a debate where you <i>disagree</i> that following. I want to start with an analogy.\nGasoline cars vs. Electric cars We all know that you can use an electric battery to run a car.<p>But the thing is, when it comes to a gasoline car, even though it does literally have a battery, it’s not used for running the car. It uses batteries for starting the cars (generating an electric spark to light up the gas), A&#x2F;C, audio systems, lights, sensors, locks, and so on but not for running the car. Instead, it relies on an internal combustion engine (ICE) to run the car.<p>It turns out, ICE cars are highly inefficient. Only 16% to 25% of the power that’s generated actually makes it into the wheels. On the other hand, electric vehicles provide about 90% power to the wheels! Further, EVs also have major and additional advantages when it comes to the environment, repair costs, and so on.<p>If you are looking from the First Principles, even though virtually most cars that are built even today are gasoline cars, the fundamental truth is that they use an inefficient system.<p>Now if you look at an electric car, it takes advantage of this inefficiency to build a new type of car. In this case, it simply gets rid of the complex and highly inefficient engine and replaces it with a large battery and a motor to directly spin the wheels.<p>------------- Now coming to the Databases...<p>In the traditional architecture, you have a primary database (Postgres, Mongo, etc.) and a secondary database, a.k.a, cache (e.g. Redis or Memcache). The primary DB is used to store all the data and support CRUD operations. The caching DB is used for caching, session storage, rate-limiting, IP-whitelisting, Pub&#x2F;Sub, queuing, and many other things.<p>And if you think about it, when there is a cache-hit, we are practically using the secondary DB for part of the CRUD operations, but still not fully utilizing it as a primary database.<p>Does this remind you of the issue with gasoline cars? Just like they literally carry a battery to power numerous things except moving the car, the traditional architectures use things like Redis for everything else except as the main DB.<p>Do you see the similarities?<p>What if we use the First Principles thinking to do what the electric car did? Similar to how EVs got rid of the engine, what if we get rid of the slow and inefficient primary database and simply use the cache DB as the main database?<p>https:&#x2F;&#x2F;redislabs.com&#x2F;blog&#x2F;dbless-architecture-and-why-its-the-future&#x2F;",
-      "time": 1625877242,
-      "title": "Can you replace Postgres with Redis (for some usecases)?",
-      "type": "story"
-    },
-    {
-      "by": "caymanjim",
-      "descendants": 0,
-      "id": 27790005,
-      "score": 1,
-      "time": 1625877083,
-      "title": "C64 Demo, No C64",
-      "type": "story",
-      "url": "https://hackaday.com/2021/07/08/c64-demo-no-c64/"
     }
   ]
 }
