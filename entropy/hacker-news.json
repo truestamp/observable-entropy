@@ -4,7 +4,7 @@
       "by": "punnerud",
       "descendants": 0,
       "id": 27805099,
-      "score": 1,
+      "score": 2,
       "time": 1626043654,
       "title": "Programming for kids – Examples, explanation, visualization",
       "type": "story",
@@ -14,8 +14,8 @@
       "by": "the_only_law",
       "descendants": 0,
       "id": 27805098,
-      "score": 2,
-      "text": "It all seems like information overload. I mean x86 seems like a massive pile of legacy build up with all sorts of strange instructions with weird, niche usages and the advice given is to read a series of multiple massive manuals and understand them?<p>As far as languages go, C seems like a mess because you have to know offhand how your particular compiler and target architecture will react to all sorts of unspecified things. Then there’s all sorts of seemingly trivial things that either have to managed manually or outsourced to some library. I’ve probably seen dozens of C functions and macros across both the Windows Kernel and Userspace APIs for creating variations of string, many of which seem redundant. C++ seems pretty bad too, with it being a massive pile up of C legacy and modern features and I’ve even seen experienced C++ developers mention the language is often a complete mystery to them. Unfortunately these seem like the only two languages used in the sort of domains you’d classify under “systems programming”.<p>The the operating systems themselves seem as bad too. The Linux kernel documentation seems horrendous, with a lot of things getting nothing more than a brief overview. I recall looking at a particular feature for working with a standard platform hardware device and the documentation basically said “there are two API’s for working with this”. Without giving any more information on those API’s. Sometimes the source code might give you a better understanding, but that seems rare in the cases I’ve tried. Man pages seem decent on occasion, but some operating systems are sparse with them. Most notably I recall NetBSD not having a man page documenting the kernel interfaces for network adapters and having to ask around in random places for help. Windows kernel documentation seemed ok for a while, but some parts are still very rough, linking to obsolete versions of things (NDIS, particularly CoNDIS was bad about this. But Windows Userspace APIs seem to be collapsed. I was trying to look into WMI stuff the other day and it felt like every other link was broken or linked to some obsolete docs.<p>All the sort of things I mentioned above make it seem like learning this stuff is damn near impossible without a decade of work and&#x2F;or handholding. I can’t tell if what I’m seeing is real or if my learning abilities have severely atrophied over the years.",
+      "score": 3,
+      "text": "It all seems like information overload. I mean x86 seems like a massive pile of legacy build up with all sorts of strange instructions with weird, niche usages and the advice given is to read a series of multiple massive manuals and understand them?<p>As far as languages go, C seems like a mess because you have to know offhand how your particular compiler and target architecture will react to all sorts of unspecified things. Then there’s all sorts of seemingly trivial things that either have to managed manually or outsourced to some library. I’ve probably seen dozens of C functions and macros across both the Windows Kernel and Userspace APIs for creating variations of string, many of which seem redundant. C++ seems pretty bad too, with it being a massive pile up of C legacy and modern features and I’ve even seen experienced C++ developers mention the language is often a complete mystery to them. Unfortunately these seem like the only two languages used in the sort of domains you’d classify under “systems programming”.<p>The the operating systems themselves seem as bad too. The Linux kernel documentation seems horrendous, with a lot of things getting nothing more than a brief overview. I recall looking at a particular feature for working with a standard platform hardware device and the documentation basically said “there are two API’s for working with this”. Without giving any more information on those API’s. Sometimes the source code might give you a better understanding, but that seems rare in the cases I’ve tried. Man pages seem decent on occasion, but some operating systems are sparse with them. Most notably I recall NetBSD not having a man page documenting the kernel interfaces for network adapters and having to ask around in random places for help. Windows kernel documentation seemed ok for a while, but some parts are still very rough, linking to obsolete versions of things (NDIS, particularly CoNDIS was bad about this and there were important, but trivial dteials I leanred that I couldn&#x27;t find anywhere in the docs. Windows Userspace APIs seem to be bad though. I was trying to look into WMI stuff the other day and it felt like every other link was broken or linked to some obsolete docs.<p>All the sort of things I mentioned above make it seem like learning this stuff is damn near impossible without a decade of work and&#x2F;or handholding. I can’t tell if what I’m seeing is real or if my learning abilities have severely atrophied over the years.",
       "time": 1626043652,
       "title": "Ask HN: How do you learn systems programming?",
       "type": "story"
@@ -34,7 +34,7 @@
       "by": "behnamoh",
       "descendants": 0,
       "id": 27805059,
-      "score": 1,
+      "score": 3,
       "time": 1626043267,
       "title": "Julia and the Reincarnation of Lisp",
       "type": "story",
@@ -42,9 +42,12 @@
     },
     {
       "by": "wglb",
-      "descendants": 0,
+      "descendants": 1,
       "id": 27805058,
-      "score": 1,
+      "kids": [
+        27805148
+      ],
+      "score": 2,
       "time": 1626043266,
       "title": "Verizon wasn't responding, so an angry customer found a brilliant solution",
       "type": "story",
@@ -72,9 +75,12 @@
     },
     {
       "by": "dynamic_sausage",
-      "descendants": 0,
+      "descendants": 1,
       "id": 27804991,
-      "score": 1,
+      "kids": [
+        27805130
+      ],
+      "score": 2,
       "time": 1626042743,
       "title": "The Web Is Eating the Desktop",
       "type": "story",
