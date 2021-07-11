@@ -1,10 +1,50 @@
 {
   "stories": [
     {
+      "by": "parsecs",
+      "descendants": 0,
+      "id": 27805220,
+      "score": 1,
+      "time": 1626044625,
+      "title": "Spispy: Open-Source Flash Emulation",
+      "type": "story",
+      "url": "https://trmm.net/Spispy/"
+    },
+    {
+      "by": "JetSpiegel",
+      "descendants": 0,
+      "id": 27805217,
+      "score": 1,
+      "time": 1626044597,
+      "title": "Toomics Reports Its Own Website for Copyright Infringements",
+      "type": "story",
+      "url": "https://torrentfreak.com/toomics-reports-its-own-website-for-copyright-infringements/"
+    },
+    {
+      "by": "edward",
+      "descendants": 0,
+      "id": 27805215,
+      "score": 1,
+      "time": 1626044577,
+      "title": "A first look at Wikidata through GitHub Copilot",
+      "type": "story",
+      "url": "https://addshore.com/2021/07/a-first-look-at-wikidata-through-github-copilot/"
+    },
+    {
+      "by": "expnkx",
+      "descendants": 0,
+      "id": 27805210,
+      "score": 1,
+      "time": 1626044532,
+      "title": "Unsafe Hell Code review of “Rust for Linux” GitHub project",
+      "type": "story",
+      "url": "https://www.youtube.com/watch?v=5FOtPZVEddU"
+    },
+    {
       "by": "intunderflow",
       "descendants": 0,
       "id": 27805186,
-      "score": 1,
+      "score": 2,
       "time": 1626044354,
       "title": "Google Campus closes in the end of an era for London tech startups",
       "type": "story",
@@ -24,7 +64,7 @@
       "by": "the_only_law",
       "descendants": 0,
       "id": 27805098,
-      "score": 3,
+      "score": 4,
       "text": "It all seems like information overload. I mean x86 seems like a massive pile of legacy build up with all sorts of strange instructions with weird, niche usages and the advice given is to read a series of multiple massive manuals and understand them?<p>As far as languages go, C seems like a mess because you have to know offhand how your particular compiler and target architecture will react to all sorts of unspecified things. Then there’s all sorts of seemingly trivial things that either have to managed manually or outsourced to some library. I’ve probably seen dozens of C functions and macros across both the Windows Kernel and Userspace APIs for creating variations of string, many of which seem redundant. C++ seems pretty bad too, with it being a massive pile up of C legacy and modern features and I’ve even seen experienced C++ developers mention the language is often a complete mystery to them. Unfortunately these seem like the only two languages used in the sort of domains you’d classify under “systems programming”.<p>The the operating systems themselves seem as bad too. The Linux kernel documentation seems horrendous, with a lot of things getting nothing more than a brief overview. I recall looking at a particular feature for working with a standard platform hardware device and the documentation basically said “there are two API’s for working with this”. Without giving any more information on those API’s. Sometimes the source code might give you a better understanding, but that seems rare in the cases I’ve tried. Man pages seem decent on occasion, but some operating systems are sparse with them. Most notably I recall NetBSD not having a man page documenting the kernel interfaces for network adapters and having to ask around in random places for help. Windows kernel documentation seemed ok for a while, but some parts are still very rough, linking to obsolete versions of things (NDIS, particularly CoNDIS was bad about this and there were important, but trivial dteials I leanred that I couldn&#x27;t find anywhere in the docs. Windows Userspace APIs seem to be bad though. I was trying to look into WMI stuff the other day and it felt like every other link was broken or linked to some obsolete docs.<p>All the sort of things I mentioned above make it seem like learning this stuff is damn near impossible without a decade of work and&#x2F;or handholding. I can’t tell if what I’m seeing is real or if my learning abilities have severely atrophied over the years.",
       "time": 1626043652,
       "title": "Ask HN: How do you learn systems programming?",
@@ -42,9 +82,12 @@
     },
     {
       "by": "behnamoh",
-      "descendants": 0,
+      "descendants": 1,
       "id": 27805059,
-      "score": 5,
+      "kids": [
+        27805214
+      ],
+      "score": 6,
       "time": 1626043267,
       "title": "Julia and the Reincarnation of Lisp",
       "type": "story",
@@ -62,49 +105,6 @@
       "title": "Verizon wasn't responding, so an angry customer found a brilliant solution",
       "type": "story",
       "url": "https://www.zdnet.com/article/verizon-wasnt-responding-so-an-angry-customer-found-a-brilliant-solution/"
-    },
-    {
-      "by": "vegetablepotpie",
-      "descendants": 0,
-      "id": 27805015,
-      "score": 2,
-      "time": 1626042895,
-      "title": "Study Projects a Surge in Coastal Flooding, Starting in 2030s",
-      "type": "story",
-      "url": "https://www.jpl.nasa.gov/news/study-projects-a-surge-in-coastal-flooding-starting-in-2030s"
-    },
-    {
-      "by": "tosh",
-      "descendants": 0,
-      "id": 27805006,
-      "score": 1,
-      "time": 1626042851,
-      "title": "Data Matrix",
-      "type": "story",
-      "url": "https://en.wikipedia.org/wiki/Data_Matrix"
-    },
-    {
-      "by": "dynamic_sausage",
-      "descendants": 1,
-      "id": 27804991,
-      "kids": [
-        27805130
-      ],
-      "score": 4,
-      "time": 1626042743,
-      "title": "The Web Is Eating the Desktop",
-      "type": "story",
-      "url": "http://adamierymenko.com/web_eating_desktop.html"
-    },
-    {
-      "by": "davidgerard",
-      "descendants": 0,
-      "id": 27804979,
-      "score": 1,
-      "time": 1626042588,
-      "title": "El Salvador Bitcoin: Bukele scrambles to get something into place by 7 September",
-      "type": "story",
-      "url": "https://davidgerard.co.uk/blockchain/2021/07/11/el-salvador-bitcoin-bukele-scrambles-to-get-something-anything-into-place-by-7-september/"
     }
   ]
 }
