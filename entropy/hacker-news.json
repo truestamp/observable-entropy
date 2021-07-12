@@ -1,10 +1,70 @@
 {
   "stories": [
     {
+      "by": "Bostonian",
+      "descendants": 0,
+      "id": 27810947,
+      "score": 1,
+      "time": 1626101982,
+      "title": "Unreliable renewables are forcing California to scramble for electricity",
+      "type": "story",
+      "url": "https://www.wsj.com/articles/californias-power-jam-11626042040"
+    },
+    {
+      "by": "41209",
+      "descendants": 0,
+      "id": 27810932,
+      "score": 1,
+      "text": "It&#x27;s obviously won&#x27;t work for everyone, but after being thoroughly frustrated with Strapi CMS last night, I realized I could write a few lambdas. With API gateway you can serve the lambda response directly, so I basically upload assets to S3, and have my first lambda return a list of those assets, and provide secondary links to access them. Then I have a couple of lambdas which will either return json data or binary assets ( signed urls so the objects aren&#x27;t public ) depending on what type of asset I&#x27;m trying to get back.<p>It was like an eureka moment when I realized I could vastly simplify my workflow by doing this, my only concern right now is this simply won&#x27;t scale. Listing hundreds of AWS bucket items does not sound like a fun time, but before I get to that I can always add something like a dynamodb table which keeps track of the items for me.<p>I highly recommend this approach if you&#x27;re developing something like a video game and you need a quick and dirty backend for prototyping. For my project I should be the only user who actually needs to upload data, so just dropping the files directly on S3 works extremely well. I can also add a basic front end to upload the files to S3 if needed.",
+      "time": 1626101892,
+      "title": "Tell HN: Maybe you don't need a CMS",
+      "type": "story"
+    },
+    {
+      "by": "amrrs",
+      "descendants": 0,
+      "id": 27810931,
+      "score": 1,
+      "time": 1626101888,
+      "title": "A New Tool Shows How Google Results Vary Around the World",
+      "type": "story",
+      "url": "https://www.wired.com/story/tool-shows-google-results-vary-world/"
+    },
+    {
+      "by": "alex_c",
+      "descendants": 0,
+      "id": 27810920,
+      "score": 1,
+      "time": 1626101826,
+      "title": "What if marmosets lived on the Moon?",
+      "type": "story",
+      "url": "https://www.economist.com/what-if/2021/07/03/what-if-marmosets-lived-on-the-moon"
+    },
+    {
+      "by": "Tomte",
+      "descendants": 0,
+      "id": 27810903,
+      "score": 1,
+      "time": 1626101731,
+      "title": "Should I Get a Standing Desk?",
+      "type": "story",
+      "url": "https://www.ryanandalex.com/standing-desk/"
+    },
+    {
+      "by": "andyjohnson0",
+      "descendants": 0,
+      "id": 27810902,
+      "score": 1,
+      "time": 1626101722,
+      "title": "Blue Boat",
+      "type": "story",
+      "url": "https://buttondown.email/designfiction/archive/blue-boat/"
+    },
+    {
       "by": "Tomte",
       "descendants": 0,
       "id": 27810900,
-      "score": 1,
+      "score": 2,
       "time": 1626101709,
       "title": "Gone – Thoughts on Infosuicide (2011)",
       "type": "story",
@@ -14,7 +74,7 @@
       "by": "dv_dt",
       "descendants": 0,
       "id": 27810895,
-      "score": 1,
+      "score": 2,
       "time": 1626101684,
       "title": "'Wither away and die:' U.S. Pacific Northwest heat wave bakes wheat, fruit crops",
       "type": "story",
@@ -24,7 +84,7 @@
       "by": "adventured",
       "descendants": 0,
       "id": 27810887,
-      "score": 1,
+      "score": 2,
       "time": 1626101638,
       "title": "ByteDance Shelved IPO After Chinese Regulators Warned About Data Security",
       "type": "story",
@@ -39,66 +99,6 @@
       "title": "ByteDance offers recommendation engine behind TikTok as a product",
       "type": "story",
       "url": "https://www.theverge.com/2021/7/4/22562962/tiktok-parent-bytedance-video-app-ai-byteplus-china"
-    },
-    {
-      "by": "monort",
-      "descendants": 0,
-      "id": 27810877,
-      "score": 1,
-      "time": 1626101596,
-      "title": "The Narrowing Circle",
-      "type": "story",
-      "url": "https://www.gwern.net/The-Narrowing-Circle"
-    },
-    {
-      "by": "carlosap",
-      "descendants": 0,
-      "id": 27810844,
-      "score": 1,
-      "time": 1626101448,
-      "title": "From Postgres to ClickHouse",
-      "type": "story",
-      "url": "https://guides.tinybird.co/guide/postgres-to-clickhouse"
-    },
-    {
-      "by": "FridayoLeary",
-      "descendants": 0,
-      "id": 27810840,
-      "score": 1,
-      "time": 1626101429,
-      "title": "World record for most expensive video game auction is now $1.56M",
-      "type": "story",
-      "url": "https://arstechnica.com/gaming/2021/07/world-record-for-most-expensive-video-game-auction-is-now-870000/"
-    },
-    {
-      "by": "mooreds",
-      "descendants": 0,
-      "id": 27810790,
-      "score": 2,
-      "time": 1626101167,
-      "title": "Heirloom",
-      "type": "story",
-      "url": "https://silashouseblog.blogspot.com/2021/06/heirloom.html"
-    },
-    {
-      "by": "gmays",
-      "descendants": 0,
-      "id": 27810789,
-      "score": 1,
-      "time": 1626101156,
-      "title": "Cells undergoing cell death protect their neighbors to maintain tissue integrity",
-      "type": "story",
-      "url": "https://www.pasteur.fr/en/press-area/press-documents/cells-undergoing-cell-death-protect-their-neighbors-maintain-tissue-integrity"
-    },
-    {
-      "by": "mooreds",
-      "descendants": 0,
-      "id": 27810785,
-      "score": 1,
-      "time": 1626101139,
-      "title": "We Work in 6-Week Cycles",
-      "type": "story",
-      "url": "https://www.pathwright.com/blog/5-reasons-why-we-work-in-6-week-cycles/"
     }
   ]
 }
