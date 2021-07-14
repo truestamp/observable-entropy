@@ -1,6 +1,59 @@
 {
   "stories": [
     {
+      "by": "scrubs",
+      "descendants": 0,
+      "id": 27835109,
+      "score": 1,
+      "text": "Hello, Belatedly getting into Kubernetes at a large corp ... for which there is support for K8s. However, it&#x27;s often sprinkled with Ansible, Terraform too. Now according to the books I&#x27;ve been reading, K8 does not need help from other deployment&#x2F;orchestration to tools to move in container images. This brings me to my question:<p>I want to stay lean and mean. To that end,<p>(1) True&#x2F;false: kubeadmn is sufficient to deploy new images and otherwise bring containers through their life cycle.<p>(2) If false --- I see the K8 REST&#x2F;HTTP API is very large --- is there a GO library that helps me make calls into K8 to take containers through their life-cycle.<p>I believe, in our case, Ansible and Terraform were sprinkled in to a certain task&#x2F;library set for reasons pre-dating K8. K8 was added later as an alternative, now preferred way to deal with CDCI. By answering those questions above I will be able able to assess whether I should or should not be distracted by this other noise.",
+      "time": 1626281048,
+      "title": "Ask HN: Kubernetes API?",
+      "type": "story"
+    },
+    {
+      "by": "grappler",
+      "descendants": 0,
+      "id": 27835104,
+      "score": 1,
+      "time": 1626281024,
+      "title": "ShapeShift to Decentralize Entire Company",
+      "type": "story",
+      "url": "https://shapeshift.com/shapeshift-decentralize-airdrop"
+    },
+    {
+      "by": "danielwbean",
+      "descendants": 0,
+      "id": 27835095,
+      "score": 1,
+      "time": 1626280971,
+      "title": "Using product analytics to find operations efficiencies at startups",
+      "type": "story",
+      "url": "https://mixpanel.com/blog/ive-helped-build-5-startups-heres-how-i-use-product-analytics-to-cut-costs-and-headaches/"
+    },
+    {
+      "by": "graton",
+      "descendants": 0,
+      "id": 27835093,
+      "score": 1,
+      "time": 1626280949,
+      "title": "Intel Financialized and Lost Leadership in Semiconductor Fabrication",
+      "type": "story",
+      "url": "https://www.ineteconomics.org/perspectives/blog/how-intel-financialized-and-lost-leadership-in-semiconductor-fabrication"
+    },
+    {
+      "by": "clearchoice",
+      "descendants": 1,
+      "id": 27835072,
+      "kids": [
+        27835073
+      ],
+      "score": 1,
+      "time": 1626280857,
+      "title": "Tips for Flawless Cleaning That You Might Not Know Before",
+      "type": "story",
+      "url": "https://sites.google.com/view/rightcleaningforyou/"
+    },
+    {
       "by": "thecellardoor",
       "descendants": 0,
       "id": 27835064,
@@ -22,9 +75,12 @@
     },
     {
       "by": "garrettdimon",
-      "descendants": 0,
+      "descendants": 1,
       "id": 27835057,
-      "score": 3,
+      "kids": [
+        27835097
+      ],
+      "score": 31,
       "time": 1626280766,
       "title": "Warp: The fast, Rust-based termnal",
       "type": "story",
@@ -34,7 +90,7 @@
       "by": "Tomte",
       "descendants": 0,
       "id": 27835047,
-      "score": 1,
+      "score": 2,
       "time": 1626280704,
       "title": "Teenage Engineering’s OP-1 gets USB audio support a decade after it was released",
       "type": "story",
@@ -49,59 +105,6 @@
       "title": "What Is Congress' Plan to Crackdown on Big Tech?",
       "type": "story",
       "url": "https://themarkup.org/ask-the-markup/2021/07/13/what-is-congresss-plan-to-crack-down-on-big-tech"
-    },
-    {
-      "by": "theafh",
-      "descendants": 0,
-      "id": 27834997,
-      "score": 1,
-      "time": 1626280489,
-      "title": "The Computer Scientist Training AI to Think with Analogies",
-      "type": "story",
-      "url": "https://www.quantamagazine.org/melanie-mitchell-trains-ai-to-think-with-analogies-20210714/"
-    },
-    {
-      "by": "tosh",
-      "descendants": 0,
-      "id": 27834996,
-      "score": 1,
-      "time": 1626280489,
-      "title": "Edgemesh Performance Talks – Bryan Cantrill – Part 2",
-      "type": "story",
-      "url": "https://www.youtube.com/watch?v=ySOaKN8jiUs"
-    },
-    {
-      "by": "tnorthcutt",
-      "descendants": 0,
-      "id": 27834984,
-      "score": 1,
-      "time": 1626280440,
-      "title": "Characterization Testing",
-      "type": "story",
-      "url": "https://michaelfeathers.silvrback.com/characterization-testing"
-    },
-    {
-      "by": "iafrikan",
-      "descendants": 0,
-      "id": 27834956,
-      "score": 1,
-      "time": 1626280270,
-      "title": "Lessons from Development Failures",
-      "type": "story",
-      "url": "https://www.iafrikan.com/2021/07/13/leaning-from-development-failures/"
-    },
-    {
-      "by": "samizdis",
-      "descendants": 1,
-      "id": 27834948,
-      "kids": [
-        27835039
-      ],
-      "score": 4,
-      "time": 1626280245,
-      "title": "Photoshopped Nissan Titan Used to Aim for $20M in EV Startup Funding",
-      "type": "story",
-      "url": "https://www.thedrive.com/news/41527/photoshopped-nissan-titan-used-to-aim-for-20m-in-ev-startup-funding"
     }
   ]
 }
