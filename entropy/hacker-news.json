@@ -1,12 +1,32 @@
 {
   "stories": [
     {
+      "by": "kdig2412",
+      "descendants": 0,
+      "id": 27847015,
+      "score": 1,
+      "time": 1626368865,
+      "title": "NASA’s Apollo program kicked off Silicon Valley’s tech revolution",
+      "type": "story",
+      "url": "https://www.cnn.com/2019/08/04/tech/nasa-management-apollo-silicon-valley-scn/index.html"
+    },
+    {
+      "by": "terafo",
+      "descendants": 0,
+      "id": 27847007,
+      "score": 1,
+      "time": 1626368827,
+      "title": "Valve announces portable console – 4/8 CPU, 16GB RAM, 1.6TFlop GPU, starting 399",
+      "type": "story",
+      "url": "https://www.steamdeck.com"
+    },
+    {
       "by": "strogonoff",
       "descendants": 0,
       "id": 27846986,
       "score": 1,
       "time": 1626368711,
-      "title": "IKEA’s House of Terrors",
+      "title": "IKEA’s House of Terrors: Greenwashing Siberian forests",
       "type": "story",
       "url": "https://earthsight.org.uk/ikeahouseofhorrors"
     },
@@ -37,7 +57,7 @@
       "by": "homarp",
       "descendants": 0,
       "id": 27846969,
-      "score": 1,
+      "score": 3,
       "time": 1626368625,
       "title": "Valve Steam Deck",
       "type": "story",
@@ -68,7 +88,7 @@
       "descendants": 0,
       "id": 27846961,
       "score": 1,
-      "text": "In the Rust OSS embedded community, Async is a popular approach, most notably with Embassy: https:&#x2F;&#x2F;github.com&#x2F;embassy-rs&#x2F;embassy<p>In embedded, it&#x27;s common to use interrupts, DMA, and leverage multiple cores to handle concurrent events without blocking the main program loop. These are traditionally handled with deliberate register writes. Eg send a command to a peripheral to start a task. Continue running the program. When the task is complete, an interrupt fires, and code to handle the completion is immediately run.<p>Async&#x2F;Await functionality is used to abstract over these processes, using Futures. In my own programs, the abstraction doesn&#x27;t provide enough value over natively handling interrupts, and DMA, to be worth the added complexity and cognitive overhead. Eg, framework code you need to account for, and coloring issues, which I&#x27;d argue still apply to Rust.<p>I&#x27;m deliberately asking here, to get an outside perspective from the Rust community (They love embedded and RTIC), and the more general embedded community (Rust is Foreign, and new patterns are viewed with caution). Of note, RTOS is popular in C embedded, which perhaps handles some of the same abstraction issues handled by Async and RTIC in rust.",
+      "text": "In the Rust OSS embedded community, Async is a popular approach, most notably with Embassy: https:&#x2F;&#x2F;github.com&#x2F;embassy-rs&#x2F;embassy<p>In embedded, it&#x27;s common to use interrupts, DMA, and leverage multiple cores to handle concurrent events without blocking the main loop. These are traditionally handled with deliberate register writes. Eg send a command to a peripheral to start a task. Continue running the program. When the task is complete, an interrupt fires, and code to handle the completion is immediately run.<p>Async&#x2F;Await functionality is used to abstract over these processes, using Futures. In my own programs, the abstraction doesn&#x27;t provide enough value over natively handling interrupts, and DMA, to be worth the added complexity and cognitive overhead. Eg, framework code you need to account for, and coloring issues, which I&#x27;d argue still apply to Rust.<p>I&#x27;m deliberately asking here, to get an outside perspective from the Rust community (They love async and RTIC), and the more general embedded community (Rust is foreign, and new patterns are viewed with caution). Of note, RTOS is popular in C embedded, which perhaps handles some of the same abstraction issues handled by Async and RTIC in rust.",
       "time": 1626368589,
       "title": "Ask HN: Thoughts on Async in Embedded?",
       "type": "story"
@@ -82,26 +102,6 @@
       "title": "No cults, no politics, no ghouls: how China censors the video game world",
       "type": "story",
       "url": "https://www.theguardian.com/news/2021/jul/15/china-video-game-censorship-tencent-netease-blizzard"
-    },
-    {
-      "by": "boulos",
-      "descendants": 0,
-      "id": 27846947,
-      "score": 1,
-      "time": 1626368529,
-      "title": "Self-Driving Startup Aurora in Agreement with Reinvent SPAC",
-      "type": "story",
-      "url": "https://www.bloomberg.com/news/articles/2021-07-14/self-driving-startup-aurora-said-in-agreement-with-reinvent-spac"
-    },
-    {
-      "by": "infodocket",
-      "descendants": 0,
-      "id": 27846946,
-      "score": 1,
-      "time": 1626368525,
-      "title": "U.S. Government Launches First One-Stop Ransomware Resource: StopRansomware.gov",
-      "type": "story",
-      "url": "https://www.justice.gov/opa/pr/us-government-launches-first-one-stop-ransomware-resource-stopransomwaregov"
     }
   ]
 }
