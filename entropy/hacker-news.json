@@ -1,104 +1,107 @@
 {
   "stories": [
     {
-      "by": "CrankyBear",
+      "by": "strogonoff",
       "descendants": 0,
-      "id": 27846926,
+      "id": 27846986,
       "score": 1,
-      "time": 1626368387,
-      "title": "Microsoft just blew up the only reason you can't use a Linux desktop",
+      "time": 1626368711,
+      "title": "IKEA’s House of Terrors",
       "type": "story",
-      "url": "https://www.zdnet.com/article/microsoft-just-blew-up-the-only-reason-you-cant-use-a-linux-desktop/"
+      "url": "https://earthsight.org.uk/ikeahouseofhorrors"
+    },
+    {
+      "by": "jelambs",
+      "descendants": 1,
+      "id": 27846984,
+      "kids": [
+        27846985
+      ],
+      "score": 1,
+      "time": 1626368705,
+      "title": "Show HN: APIs for Passwordless Authentication",
+      "type": "story",
+      "url": "https://stytch.com/"
+    },
+    {
+      "by": "homarp",
+      "descendants": 0,
+      "id": 27846976,
+      "score": 1,
+      "time": 1626368671,
+      "title": "Valve has formally announced the Steam Deck, SteamOS portable handheld console",
+      "type": "story",
+      "url": "https://www.gamingonlinux.com/2021/07/valve-has-formally-announced-the-steam-deck-a-portable-handheld-console-with-steamos"
+    },
+    {
+      "by": "homarp",
+      "descendants": 0,
+      "id": 27846969,
+      "score": 1,
+      "time": 1626368625,
+      "title": "Valve Steam Deck",
+      "type": "story",
+      "url": "https://www.steamdeck.com/en/"
+    },
+    {
+      "by": "TangerineDream",
+      "descendants": 0,
+      "id": 27846967,
+      "score": 1,
+      "time": 1626368612,
+      "title": "How to Build a Hard Drive: A Factory Tour",
+      "type": "story",
+      "url": "https://www.backblaze.com/blog/how-to-build-a-hard-drive-a-factory-tour/"
+    },
+    {
+      "by": "rav",
+      "descendants": 0,
+      "id": 27846964,
+      "score": 1,
+      "time": 1626368599,
+      "title": "GitHub Is My Copilot",
+      "type": "story",
+      "url": "https://lwn.net/SubscriberLink/862769/0e853badce6c1d7b/"
+    },
+    {
+      "by": "the__alchemist",
+      "descendants": 0,
+      "id": 27846961,
+      "score": 1,
+      "text": "In the Rust OSS embedded community, Async is a popular approach, most notably with Embassy: https:&#x2F;&#x2F;github.com&#x2F;embassy-rs&#x2F;embassy<p>In embedded, it&#x27;s common to use interrupts, DMA, and leverage multiple cores to handle concurrent events without blocking the main program loop. These are traditionally handled with deliberate register writes. Eg send a command to a peripheral to start a task. Continue running the program. When the task is complete, an interrupt fires, and code to handle the completion is immediately run.<p>Async&#x2F;Await functionality is used to abstract over these processes, using Futures. In my own programs, the abstraction doesn&#x27;t provide enough value over natively handling interrupts, and DMA, to be worth the added complexity and cognitive overhead. Eg, framework code you need to account for, and coloring issues, which I&#x27;d argue still apply to Rust.<p>I&#x27;m deliberately asking here, to get an outside perspective from the Rust community (They love embedded and RTIC), and the more general embedded community (Rust is Foreign, and new patterns are viewed with caution). Of note, RTOS is popular in C embedded, which perhaps handles some of the same abstraction issues handled by Async and RTIC in rust.",
+      "time": 1626368589,
+      "title": "Ask HN: Thoughts on Async in Embedded?",
+      "type": "story"
+    },
+    {
+      "by": "giuliomagnifico",
+      "descendants": 0,
+      "id": 27846955,
+      "score": 2,
+      "time": 1626368559,
+      "title": "No cults, no politics, no ghouls: how China censors the video game world",
+      "type": "story",
+      "url": "https://www.theguardian.com/news/2021/jul/15/china-video-game-censorship-tencent-netease-blizzard"
+    },
+    {
+      "by": "boulos",
+      "descendants": 0,
+      "id": 27846947,
+      "score": 1,
+      "time": 1626368529,
+      "title": "Self-Driving Startup Aurora in Agreement with Reinvent SPAC",
+      "type": "story",
+      "url": "https://www.bloomberg.com/news/articles/2021-07-14/self-driving-startup-aurora-said-in-agreement-with-reinvent-spac"
     },
     {
       "by": "infodocket",
       "descendants": 0,
-      "id": 27846916,
+      "id": 27846946,
       "score": 1,
-      "time": 1626368343,
-      "title": "Data Privacy – Are You Sure You Want a Cookie?",
+      "time": 1626368525,
+      "title": "U.S. Government Launches First One-Stop Ransomware Resource: StopRansomware.gov",
       "type": "story",
-      "url": "https://www.cbs.dk/en/the-press/news/data-privacy-are-you-sure-you-want-a-cookie"
-    },
-    {
-      "by": "sizzle",
-      "descendants": 0,
-      "id": 27846911,
-      "score": 1,
-      "time": 1626368324,
-      "title": "Georgia Tech’s Online MS in CS Thrives. Why It's Important for Future of MOOCs",
-      "type": "story",
-      "url": "https://www.forbes.com/sites/michaeltnietzel/2021/07/01/georgia-techs-online-ms-in-computer-science-continues-to-thrive-what-that-could-mean-for-the-future-of-moocs/"
-    },
-    {
-      "by": "mooreds",
-      "descendants": 0,
-      "id": 27846910,
-      "score": 1,
-      "time": 1626368323,
-      "title": "The Storage First Pattern (2020)",
-      "type": "story",
-      "url": "https://www.jeremydaly.com/the-storage-first-pattern/"
-    },
-    {
-      "by": "edward",
-      "descendants": 0,
-      "id": 27846909,
-      "score": 1,
-      "time": 1626368322,
-      "title": "America, China and the Race to the Moon",
-      "type": "story",
-      "url": "https://www.economist.com/international/2021/07/17/america-china-and-the-race-to-the-moon"
-    },
-    {
-      "by": "markmandel",
-      "descendants": 0,
-      "id": 27846903,
-      "score": 1,
-      "time": 1626368315,
-      "title": "Quilkin: open-source UDP proxies built for game server communication",
-      "type": "story",
-      "url": "https://cloud.google.com/blog/products/gaming/introducing-quilkin"
-    },
-    {
-      "by": "jaytaylor",
-      "descendants": 0,
-      "id": 27846902,
-      "score": 1,
-      "time": 1626368296,
-      "title": "1972 prediction of the collapse of society is on track to happen by 2040",
-      "type": "story",
-      "url": "https://www.dailymail.co.uk/sciencetech/article-9788957/MITs-1972-prediction-collapse-society-track-happen-2040-study-reveals.html"
-    },
-    {
-      "by": "akshaybhalotia",
-      "descendants": 0,
-      "id": 27846895,
-      "score": 1,
-      "time": 1626368260,
-      "title": "The mystery of Meesho's (Indian's social commerce unicorn) ghost orders",
-      "type": "story",
-      "url": "https://entrackr.com/2021/07/the-mystery-of-meesho-ghost-orders/"
-    },
-    {
-      "by": "_Microft",
-      "descendants": 0,
-      "id": 27846892,
-      "score": 1,
-      "time": 1626368251,
-      "title": "Blue Origin reveals runner up in auction will fly with Jeff Bezos to space",
-      "type": "story",
-      "url": "https://www.cnbc.com/2021/07/15/blue-origin-reveals-oliver-daemen-flying-to-space-with-jeff-bezos.html"
-    },
-    {
-      "by": "shawiz",
-      "descendants": 0,
-      "id": 27846866,
-      "score": 1,
-      "time": 1626368139,
-      "title": "A Fundamental Explanation of UAPs",
-      "type": "story",
-      "url": "https://www.uaptheory.com/"
+      "url": "https://www.justice.gov/opa/pr/us-government-launches-first-one-stop-ransomware-resource-stopransomwaregov"
     }
   ]
 }
