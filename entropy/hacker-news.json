@@ -1,10 +1,30 @@
 {
   "stories": [
     {
+      "by": "harambae",
+      "descendants": 0,
+      "id": 27858112,
+      "score": 3,
+      "time": 1626453681,
+      "title": "They helped create California's high housing market. Now they can't afford it",
+      "type": "story",
+      "url": "https://news.yahoo.com/bidding-wars-meaningless-list-prices-095906544.html"
+    },
+    {
+      "by": "neom",
+      "descendants": 0,
+      "id": 27858096,
+      "score": 1,
+      "time": 1626453615,
+      "title": "'God help the country': Hariri abandons bid to form Lebanese government",
+      "type": "story",
+      "url": "https://nationalpost.com/pmn/news-pmn/god-help-the-country-hariri-abandons-bid-to-form-lebanese-government-2"
+    },
+    {
       "by": "throwaway158497",
       "descendants": 0,
       "id": 27858084,
-      "score": 1,
+      "score": 3,
       "time": 1626453562,
       "title": "Tech Workers Swore Off the Bay Area. Now They're Coming Back",
       "type": "story",
@@ -14,7 +34,7 @@
       "by": "kjeetgill",
       "descendants": 0,
       "id": 27858067,
-      "score": 1,
+      "score": 4,
       "time": 1626453452,
       "title": "Japan Shatters Internet Speed Record at 319 tb/s",
       "type": "story",
@@ -55,12 +75,13 @@
     },
     {
       "by": "temp8964",
-      "descendants": 1,
+      "descendants": 2,
       "id": 27858032,
       "kids": [
+        27858155,
         27858045
       ],
-      "score": 2,
+      "score": 7,
       "time": 1626453277,
       "title": "Google Drive Bans “Misleading Content”",
       "type": "story",
@@ -84,26 +105,6 @@
       "text": "I have some family members and friends that are interested in getting into software development and were asking me what the best way to do so.<p>In case the context around the individuals is helpful: one of them is in their early 20s while the other is late 30s (with family and all).<p>Not sure if there happen to be better bootcamps depending on what stage of life you&#x27;re in.<p>Would love to hear what experiences HN users have had.",
       "time": 1626453208,
       "title": "Ask HN: What are the best coding bootcamps?",
-      "type": "story"
-    },
-    {
-      "by": "meoth",
-      "descendants": 0,
-      "id": 27858018,
-      "score": 1,
-      "time": 1626453173,
-      "title": "Google executive steps down after offensive manifesto about antisemitic past",
-      "type": "story",
-      "url": "https://www.theverge.com/2021/7/16/22580042/google-amr-awadallah-anti-semitism-cloud-cloudera-leaves-manifesto"
-    },
-    {
-      "by": "spriha",
-      "descendants": 0,
-      "id": 27858013,
-      "score": 6,
-      "text": "Hi HN, we’re Spriha and Ankit, founders of MergeQueue (<a href=\"https:&#x2F;&#x2F;mergequeue.com&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;mergequeue.com&#x2F;</a>). We enable automatic merges for your Github Pull Requests, based on configurable rules you can set for each repo. These automated merges ensure you never have failing builds on master&#x2F;main and save time on rebasing your feature branches.<p>If you have a monorepo where a big engineering team is regularly merging changes, the stability of the main branch degrades considerably. This happens because more engineers working on the same codebase introduce incompatible changes, causing builds to break even though their commits pass independently. Here’s an example [1].<p>Github has a setting to restrict branches to be up to date before merging, but turning on that setting ends up forcing a rebase-athon within the team. This results in wasted time, and all too often, a stressful scramble to figure out what changes broke the build.<p>We had this problem in our previous company where we looked for a solution to automate the process. We found this paper [2] published by Uber to manage monorepos at scale and we built a lightweight version of that internally. It immediately eliminated the overhead of keeping builds healthy. After that, we decided to build a public version to save others from re-inventing the wheel.<p>We spoke to engineers at Airbnb, Stripe, Uber, Shopify, Quora and other large companies who have internally built similar tools, but teams who need such tools the most often don’t have the bandwidth to dedicate developers to building and maintaining them.<p>MergeQueue (MQ) is a FIFO queue of Pull Requests (PRs) that works as a Github app. To use MQ as a developer, instead of merging manually, you just add a Github Label “mergequeue” to the PR. MQ then takes care of the rest: it sequentially updates or rebases the branch, monitors the configured CI checks and eventually merges the changes. If the checks fail, it will dequeue the PR, add comments describing the reason and move to the next one. For high output teams, MQ also offers batch mode to run CI in parallel batches.\nIf you’d like to learn more, there’s a lot more here: [3]<p>Currently, we are also piloting a way to manage “flaky” (i.e. unreliable) tests through MQ. This integrates with your CI provider (we currently support CircleCI), analyses test results and flags the tests that fail inconsistently. When flaky tests are identified, MQ reruns the test depending on the configuration set.<p>We charge by usage in an organization, so for instance if your organization has 100 developers but only 20 of them use MQ, only those 20 will be billed. You can sign up for a free 14 day trial without a credit card. We also support single tenant or on-prem deployments, have webhooks to connect to your other apps, offer multi-queue support, and are SOC2 certified!<p>We’d love for you to try MergeQueue and give us any feedback you have. If you&#x27;ve used something similar in the past, we&#x27;re also curious to learn what problems you faced so we&#x27;re better prepared for them ourselves :)<p>[1] <a href=\"https:&#x2F;&#x2F;blog.mergequeue.com&#x2F;managing-github-merges-for-high-output-engineering&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;blog.mergequeue.com&#x2F;managing-github-merges-for-high-...</a>\n[2] <a href=\"https:&#x2F;&#x2F;eng.uber.com&#x2F;research&#x2F;keeping-master-green-at-scale&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;eng.uber.com&#x2F;research&#x2F;keeping-master-green-at-scale&#x2F;</a>\n[3] <a href=\"https:&#x2F;&#x2F;mergequeue.com&#x2F;documentation\" rel=\"nofollow\">https:&#x2F;&#x2F;mergequeue.com&#x2F;documentation</a>",
-      "time": 1626453152,
-      "title": "Launch HN: MergeQueue (YC S21) – Automate rebasing and merging for your codebase",
       "type": "story"
     }
   ]
