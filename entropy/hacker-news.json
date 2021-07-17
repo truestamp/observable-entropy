@@ -1,6 +1,40 @@
 {
   "stories": [
     {
+      "by": "LinuxBender",
+      "descendants": 0,
+      "id": 27867342,
+      "score": 2,
+      "time": 1626542957,
+      "title": "U.S. Government Offers $10M for Info on Hackers Targeting Infrastructure",
+      "type": "story",
+      "url": "https://www.vice.com/en/article/5dbkqb/us-government-offers-dollar10-million-for-info-on-hackers-targeting-critical-infrastructure"
+    },
+    {
+      "by": "Jellyspice",
+      "descendants": 0,
+      "id": 27867330,
+      "score": 1,
+      "time": 1626542876,
+      "title": "A Fair Comparison of Message Queuing Systems [pdf]",
+      "type": "story",
+      "url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9303425"
+    },
+    {
+      "by": "dumindaxsb",
+      "descendants": 2,
+      "id": 27867317,
+      "kids": [
+        27867344,
+        27867318
+      ],
+      "score": 2,
+      "time": 1626542754,
+      "title": "An agnostic, reactive and minimalist (3kb) JavaScript UI library",
+      "type": "story",
+      "url": "https://caldom.org"
+    },
+    {
       "by": "Ozzie_osman",
       "descendants": 0,
       "id": 27867298,
@@ -14,7 +48,7 @@
       "by": "oblib",
       "descendants": 0,
       "id": 27867291,
-      "score": 1,
+      "score": 2,
       "time": 1626542578,
       "title": "Just 7% of our DNA is unique to modern humans, study shows",
       "type": "story",
@@ -34,7 +68,7 @@
       "by": "manikandarajs",
       "descendants": 0,
       "id": 27867265,
-      "score": 1,
+      "score": 2,
       "time": 1626542384,
       "title": "How Does a Quantum Computer Work?",
       "type": "story",
@@ -44,7 +78,7 @@
       "by": "fairytale",
       "descendants": 0,
       "id": 27867264,
-      "score": 1,
+      "score": 2,
       "time": 1626542383,
       "title": "Mintodo: A neat and simplistic to-do list in your web browser",
       "type": "story",
@@ -69,36 +103,6 @@
       "title": "Storywrangler: A visual comparison of phrase popularity in 150B tweets",
       "type": "story",
       "url": "https://storywrangling.org/"
-    },
-    {
-      "by": "whenlambo",
-      "descendants": 0,
-      "id": 27867215,
-      "score": 1,
-      "time": 1626542015,
-      "title": "Show HN: CryptoSoots – NFT Collectibles Preview",
-      "type": "story",
-      "url": "https://cryptosoots.green/"
-    },
-    {
-      "by": "atombender",
-      "descendants": 0,
-      "id": 27867210,
-      "score": 1,
-      "text": "We run big integration tests that stand up multiple services (Postgres, etc.) plus our own code in a Kubernetes cluster, then run lots of tests on them. Some of tests are stress tests that put a bunch of load on them, some are benchmarks, and some are pure integration tests.<p>We currently use Argo Workflows (to express the pipelines) plus Argo Events (to start automatic tests on GitHub webhooks), which allows us control over the Kubernetes aspect, but it is a mess of YAML, and it requires us to first put the workflows into Kubernetes as &quot;workflow templates&quot; that are then executed to generate the running &quot;workflows&quot;. Argo is also quite flaky and buggy. I&#x27;ve been thinking of using Jsonnet to make this less of a mess, but that doesn&#x27;t solve all the complaints.<p>We also use CircleCI for some stuff, but it&#x27;s much too limited; no support for running multiple nodes, for example. We&#x27;ve decided to just use it for normal building, unit tests, and linting.",
-      "time": 1626541965,
-      "title": "Ask HN: What do you use to run complicated, multi-node integration tests?",
-      "type": "story"
-    },
-    {
-      "by": "tosh",
-      "descendants": 0,
-      "id": 27867206,
-      "score": 2,
-      "time": 1626541946,
-      "title": "Every Super Nintendo Port on the Game Boy Advance Compared",
-      "type": "story",
-      "url": "https://captrobau.blogspot.com/2020/05/as-i-mentioned-in-my-previous-post-im.html"
     }
   ]
 }
