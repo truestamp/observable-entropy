@@ -1,6 +1,26 @@
 {
   "stories": [
     {
+      "by": "fortran77",
+      "descendants": 0,
+      "id": 27876473,
+      "score": 1,
+      "time": 1626640745,
+      "title": "An ER Doctor in Arkansas Told Us What Its Like to Work in Unvaccinated America",
+      "type": "story",
+      "url": "https://www.esquire.com/news-politics/politics/a37051698/er-doctor-missouri-arkansas-covid-surge-unvaccinated/"
+    },
+    {
+      "by": "actually_a_dog",
+      "descendants": 0,
+      "id": 27876451,
+      "score": 1,
+      "time": 1626640541,
+      "title": "I had 5 minutes to evacuate from a California wildfire. Here's what I learned",
+      "type": "story",
+      "url": "https://www.sfgate.com/california-wildfires/article/fire-evacuation-orders-what-to-take-preparation-16309505.php?IPID=SFGate-HP-CP-Spotlight"
+    },
+    {
       "by": "hker",
       "descendants": 0,
       "id": 27876427,
@@ -34,10 +54,10 @@
       "by": "stikit",
       "descendants": 0,
       "id": 27876390,
-      "score": 1,
-      "text": "I use Bash scripts quite a bit for short term &#x27;throw-away&#x27; type projects that may or may not be re-used once a project is over. These projects are mostly automating server and cloud environments.  The re-usable code library has grown and although I&#x27;ve considered re-writing to Python or even Node.js, its hard to justify the investment of resources for the conversion given the flexibility and ubiquity of Bash.<p>I&#x27;ve grown to really like Bash as I can do things in one line using builtins vs a multiple line Python script requiring external libraries. I can also have exact parity with cloud command line interface ( e.g. aws, az, gcloud) features (vs the cloud API libraries).<p>Assuming I stick with Bash for at least the short term, what Bash frameworks have you used and recommend? I&#x27;ve taken a look at Bash infinity but it doesn&#x27;t appear be an active project judging by lack of recent releases. I&#x27;m primarily interested in code-reuse . I&#x27;m already well on my way to building a framework with a node feel, creating an &#x27;app generator&#x27; and pulling in modules from an external privately shared repository.<p>Am I re-inventing the wheel? Does anyone else have any use for something similar?",
+      "score": 2,
+      "text": "I use Bash scripts quite a bit for short term &#x27;throw-away&#x27; type projects that may or may not be re-used once a project is over. These projects are mostly automating server and cloud environments. While each project may not be used again, I&#x27;ve organized the code into modules that I  re-use between projects. I&#x27;ve considered re-writing to Python or even Node.js,  but its hard to justify the investment of resources for the conversion given the flexibility and ubiquity of Bash.<p>I&#x27;ve grown to really like Bash as I can do things in one line using builtins vs a multiple line Python script requiring external libraries. I can also have exact parity with cloud command line interface ( e.g. aws, az, gcloud) features (vs the cloud API libraries).<p>Assuming I stick with Bash for at least the short term, what Bash frameworks have you used and recommend? I&#x27;ve taken a look at Bash infinity but it doesn&#x27;t appear be an active project judging by lack of recent releases. I&#x27;m primarily interested in code-reuse and best practices. I&#x27;m already well on my way to building a framework with a node feel, incorporating shellcheck, creating an &#x27;app generator&#x27; and pulling in modules from an external privately shared repository.<p>Am I re-inventing the wheel? Does anyone else have any use for something similar?",
       "time": 1626640080,
-      "title": "Ask HN: What Bash frameworks do you use?",
+      "title": "Ask HN: How do you build your Bash scripts? Do you use frameworks?",
       "type": "story"
     },
     {
@@ -79,26 +99,6 @@
       "title": "NOAA: Plant growth surging as CO2 increases",
       "type": "story",
       "url": "https://www.noaa.gov/news/study-global-plant-growth-surging-alongside-carbon-dioxide"
-    },
-    {
-      "by": "DLay",
-      "descendants": 0,
-      "id": 27876323,
-      "score": 2,
-      "time": 1626639610,
-      "title": "Modern Porn Education Is Unprepared for Modern Porn",
-      "type": "story",
-      "url": "https://www.theatlantic.com/ideas/archive/2021/07/porn-education-totally-unprepared-modern-porn/619464/"
-    },
-    {
-      "by": "fallat",
-      "descendants": 0,
-      "id": 27876311,
-      "score": 1,
-      "time": 1626639545,
-      "title": "Show HN: I made an e-ink wrist terminal",
-      "type": "story",
-      "url": "https://www.youtube.com/watch?v=PZVoSlmPeIg"
     }
   ]
 }
