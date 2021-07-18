@@ -1,12 +1,45 @@
 {
   "stories": [
     {
+      "by": "SerCe",
+      "descendants": 0,
+      "id": 27871867,
+      "score": 1,
+      "time": 1626603564,
+      "title": "Old pattern powering modern tech",
+      "type": "story",
+      "url": "https://softwarebits.substack.com/p/old-pattern-powering-modern-tech"
+    },
+    {
+      "by": "Tomte",
+      "descendants": 0,
+      "id": 27871863,
+      "score": 1,
+      "time": 1626603468,
+      "title": "Why aren't you making math videos?",
+      "type": "story",
+      "url": "https://www.youtube.com/watch?v=ojjzXyQCzso"
+    },
+    {
+      "by": "nomilk",
+      "descendants": 1,
+      "id": 27871859,
+      "kids": [
+        27871862
+      ],
+      "score": 1,
+      "text": "All of my heroku apps return &quot;This site can’t be reached&quot; messages atm. Anyone else?",
+      "time": 1626603409,
+      "title": "Heroku Apps Are Down",
+      "type": "story"
+    },
+    {
       "by": "privatdozent",
       "descendants": 0,
       "id": 27871850,
       "score": 1,
       "time": 1626603236,
-      "title": "When Norbert Wiener met Albert Einstein on a train (1925)",
+      "title": "When Norbert Wiener met Albert Einstein on a Train to Geneva (1925)",
       "type": "story",
       "url": "https://www.privatdozent.co/p/when-wiener-met-einstein"
     },
@@ -35,7 +68,7 @@
       "descendants": 0,
       "id": 27871832,
       "score": 1,
-      "text": "We have a webpage that queries a list of items from an API gateway which in turn calls an API that calls another API. The operation just retrieves items from the DB so the operation is independent.<p>Webpage -&gt; API Gateway -&gt; API 1 -&gt; API 2 -&gt; DB<p>How should we implement retries?<p>We could add the retry mechanism somewhere in the back-end (API Gateway, API 1, or API 2) and I&#x27;m aware that it should implement exponential back-off and jittering but:<p>- how do I determine the correct exponential and jittering values? (500ms, 1s, etc)?<p>- If the retry mechanism takes too long, the user will get bored and refresh the webpage which could have a negative impact. How should we handle this? Should we not implement retries in the back-end at all? Or should we just make sure that the retry mechanism doesn&#x27;t take too long? In your experience, how long is too long for the user?<p>Thanks",
+      "text": "We have a webpage that queries a list of items from an API gateway which in turn calls an API that calls another API. The operation is independent.<p>Webpage -&gt; API Gateway -&gt; API 1 -&gt; API 2 -&gt; DB<p>How should we implement retries?<p>We could add the retry mechanism somewhere in the back-end (API Gateway, API 1, or API 2) and I&#x27;m aware that it should implement exponential back-off and jittering but:<p>- how do I determine the correct exponential and jittering values? (500ms, 1s, etc)?<p>- If the retry mechanism takes too long, the user will get bored and refresh the webpage which could have a negative impact. How should we handle this? Should we not implement retries in the back-end at all? Or should we just make sure that the retry mechanism doesn&#x27;t take too long? In your experience, how long is too long for the user?<p>Thanks",
       "time": 1626602903,
       "title": "Ask HN: How to get the safe retry exponential and jitter values? [Microservices]",
       "type": "story"
@@ -73,39 +106,6 @@
       "title": "Initial Draft for PASETO v3/v4 specifications",
       "type": "story",
       "url": "https://github.com/paragonie/paseto/pull/127"
-    },
-    {
-      "by": "sametozkale",
-      "descendants": 0,
-      "id": 27871802,
-      "score": 1,
-      "time": 1626602383,
-      "title": "What about your company's product vision?",
-      "type": "story",
-      "url": "https://blog.producter.co/producter-glossary-product-vision-f319c2679461"
-    },
-    {
-      "by": "helsinkiandrew",
-      "descendants": 0,
-      "id": 27871797,
-      "score": 1,
-      "time": 1626602276,
-      "title": "Climate change is affecting wine flavours",
-      "type": "story",
-      "url": "https://www.economist.com/europe/2021/07/17/climate-change-is-affecting-wine-flavours"
-    },
-    {
-      "by": "Swalden123",
-      "descendants": 1,
-      "id": 27871790,
-      "kids": [
-        27871812
-      ],
-      "score": 2,
-      "time": 1626602232,
-      "title": "Show HN: I built an app to create repeatable checklists to help with ADHD",
-      "type": "story",
-      "url": "https://checkyourlist.app/"
     }
   ]
 }
