@@ -1,6 +1,49 @@
 {
   "stories": [
     {
+      "by": "adlrocha",
+      "descendants": 0,
+      "id": 27871834,
+      "score": 1,
+      "time": 1626602912,
+      "title": "The State of DEXes",
+      "type": "story",
+      "url": "https://adlrocha.substack.com/p/adlrocha-the-state-of-dexes"
+    },
+    {
+      "by": "ForeverAPadawan",
+      "descendants": 0,
+      "id": 27871832,
+      "score": 1,
+      "text": "We have a webpage that queries a list of items from an API gateway which in turn calls an API that calls another API. The operation just retrieves items from the DB so the operation is independent.<p>+-------+      +-------------+    +-----+        +-----+<p>| JS UI |      | API_Gateway |    |API 1|        |API 2|<p>+-------       +-------------+    +-----+        +-----+<p><pre><code>   | get items        |              |              |\n\n   |-----------------&gt;|              |              |\n\n   |                  |-------------&gt;|              |\n\n   |                  |              |-------------&gt;|\n</code></pre>\nHow do we implement retries?<p>We could add the retry mechanism somewhere in the back-end (API Gateway, API 1, or API 2) and I&#x27;m aware that it should implement exponential back-off and jittering but:<p>- how do I determine the correct exponential and jittering values? (500ms, 1s, etc)?\n- If the retry mechanism takes too long, the user will get bored and refresh the webpage which could have a negative impact. How should we handle this? Should we not implement retries in the back-end at all? Or should we just make sure that the retry mechanism doesn&#x27;t take too long? In your experience, how long is too long for the user?<p>Thanks",
+      "time": 1626602903,
+      "title": "Ask HN: How to get the safe retry exponential and jitter values? [Microservices]",
+      "type": "story"
+    },
+    {
+      "by": "db48x",
+      "descendants": 0,
+      "id": 27871828,
+      "score": 1,
+      "time": 1626602829,
+      "title": "Making Rust Float Parsing Fast: Libcore Edition",
+      "type": "story",
+      "url": "https://www.reddit.com/r/rust/comments/omelz4/making_rust_float_parsing_fast_libcore_edition/"
+    },
+    {
+      "by": "sorokod",
+      "descendants": 1,
+      "id": 27871821,
+      "kids": [
+        27871838
+      ],
+      "score": 1,
+      "time": 1626602716,
+      "title": "Technological Determinism",
+      "type": "story",
+      "url": "https://en.wikipedia.org/wiki/Technological_determinism"
+    },
+    {
       "by": "rdpintqogeogsaa",
       "descendants": 0,
       "id": 27871818,
@@ -37,7 +80,7 @@
       "kids": [
         27871812
       ],
-      "score": 1,
+      "score": 2,
       "time": 1626602232,
       "title": "Show HN: I built an app to create repeatable checklists to help with ADHD",
       "type": "story",
@@ -62,46 +105,6 @@
       "title": "Get Off Your Island",
       "type": "story",
       "url": "https://www.kelvinobazz.com/blog/get-off-your-island"
-    },
-    {
-      "by": "Tomte",
-      "descendants": 0,
-      "id": 27871750,
-      "score": 1,
-      "time": 1626601586,
-      "title": "An Interview with UN Special Rapporteur David Kaye (2018)",
-      "type": "story",
-      "url": "http://digitalrightsmonitor.pk/an-interview-with-un-special-rapporteur-david-kaye/"
-    },
-    {
-      "by": "prox",
-      "descendants": 0,
-      "id": 27871746,
-      "score": 2,
-      "time": 1626601579,
-      "title": "Belgiums Democratic Experiment (2018)",
-      "type": "story",
-      "url": "https://www.politico.eu/article/belgium-democratic-experiment-citizens-assembly/"
-    },
-    {
-      "by": "Tomte",
-      "descendants": 0,
-      "id": 27871745,
-      "score": 1,
-      "time": 1626601572,
-      "title": "A Bad Lip Reading of an Apple Product Launch",
-      "type": "story",
-      "url": "https://uncrate.com/video/a-bad-lip-reading-of-an-apple-product-launch/"
-    },
-    {
-      "by": "_ttg",
-      "descendants": 0,
-      "id": 27871730,
-      "score": 1,
-      "time": 1626601276,
-      "title": "Read Playing to Win by David Sirlin",
-      "type": "story",
-      "url": "https://robertheaton.com/2014/11/03/why-you-should-read-playing-to-win-by-david-sirlin/"
     }
   ]
 }
