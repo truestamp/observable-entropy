@@ -1,6 +1,26 @@
 {
   "stories": [
     {
+      "by": "privatdozent",
+      "descendants": 0,
+      "id": 27871850,
+      "score": 1,
+      "time": 1626603236,
+      "title": "When Norbert Wiener met Albert Einstein on a train (1925)",
+      "type": "story",
+      "url": "https://www.privatdozent.co/p/when-wiener-met-einstein"
+    },
+    {
+      "by": "hughie",
+      "descendants": 0,
+      "id": 27871849,
+      "score": 1,
+      "time": 1626603221,
+      "title": "How to Lose Belly FatVidzio Embed",
+      "type": "story",
+      "url": "https://cbtapp.co/videos/page/76f3766d578d039db316a6b9552bcb22"
+    },
+    {
       "by": "adlrocha",
       "descendants": 0,
       "id": 27871834,
@@ -15,7 +35,7 @@
       "descendants": 0,
       "id": 27871832,
       "score": 1,
-      "text": "We have a webpage that queries a list of items from an API gateway which in turn calls an API that calls another API. The operation just retrieves items from the DB so the operation is independent.<p>+-------+      +-------------+    +-----+        +-----+<p>| JS UI |      | API_Gateway |    |API 1|        |API 2|<p>+-------       +-------------+    +-----+        +-----+<p><pre><code>   | get items        |              |              |\n\n   |-----------------&gt;|              |              |\n\n   |                  |-------------&gt;|              |\n\n   |                  |              |-------------&gt;|\n</code></pre>\nHow do we implement retries?<p>We could add the retry mechanism somewhere in the back-end (API Gateway, API 1, or API 2) and I&#x27;m aware that it should implement exponential back-off and jittering but:<p>- how do I determine the correct exponential and jittering values? (500ms, 1s, etc)?\n- If the retry mechanism takes too long, the user will get bored and refresh the webpage which could have a negative impact. How should we handle this? Should we not implement retries in the back-end at all? Or should we just make sure that the retry mechanism doesn&#x27;t take too long? In your experience, how long is too long for the user?<p>Thanks",
+      "text": "We have a webpage that queries a list of items from an API gateway which in turn calls an API that calls another API. The operation just retrieves items from the DB so the operation is independent.<p>Webpage -&gt; API Gateway -&gt; API 1 -&gt; API 2 -&gt; DB<p>How should we implement retries?<p>We could add the retry mechanism somewhere in the back-end (API Gateway, API 1, or API 2) and I&#x27;m aware that it should implement exponential back-off and jittering but:<p>- how do I determine the correct exponential and jittering values? (500ms, 1s, etc)?<p>- If the retry mechanism takes too long, the user will get bored and refresh the webpage which could have a negative impact. How should we handle this? Should we not implement retries in the back-end at all? Or should we just make sure that the retry mechanism doesn&#x27;t take too long? In your experience, how long is too long for the user?<p>Thanks",
       "time": 1626602903,
       "title": "Ask HN: How to get the safe retry exponential and jitter values? [Microservices]",
       "type": "story"
@@ -24,7 +44,7 @@
       "by": "db48x",
       "descendants": 0,
       "id": 27871828,
-      "score": 1,
+      "score": 2,
       "time": 1626602829,
       "title": "Making Rust Float Parsing Fast: Libcore Edition",
       "type": "story",
@@ -35,9 +55,10 @@
       "descendants": 1,
       "id": 27871821,
       "kids": [
-        27871838
+        27871838,
+        27871851
       ],
-      "score": 1,
+      "score": 2,
       "time": 1626602716,
       "title": "Technological Determinism",
       "type": "story",
@@ -85,26 +106,6 @@
       "title": "Show HN: I built an app to create repeatable checklists to help with ADHD",
       "type": "story",
       "url": "https://checkyourlist.app/"
-    },
-    {
-      "by": "gHeadphone",
-      "descendants": 0,
-      "id": 27871782,
-      "score": 1,
-      "time": 1626602101,
-      "title": "Wisdom That Is Woe – On finding a place for philosophy",
-      "type": "story",
-      "url": "https://thepointmag.com/examined-life/wisdom-that-is-woe/"
-    },
-    {
-      "by": "Kelvinobazz",
-      "descendants": 0,
-      "id": 27871754,
-      "score": 1,
-      "time": 1626601656,
-      "title": "Get Off Your Island",
-      "type": "story",
-      "url": "https://www.kelvinobazz.com/blog/get-off-your-island"
     }
   ]
 }
