@@ -1,6 +1,16 @@
 {
   "stories": [
     {
+      "by": "awwstn",
+      "descendants": 0,
+      "id": 27878061,
+      "score": 1,
+      "time": 1626654977,
+      "title": "The next big social network trend? Shortform audio",
+      "type": "story",
+      "url": "https://www.theverge.com/2021/7/16/22570683/audio-short-form-podcast-app-racket-beams"
+    },
+    {
       "by": "ArtWomb",
       "descendants": 1,
       "id": 27878044,
@@ -25,8 +35,11 @@
     },
     {
       "by": "forgotmypw17",
-      "descendants": 0,
+      "descendants": 1,
       "id": 27878026,
+      "kids": [
+        27878075
+      ],
       "score": 1,
       "text": "I&#x27;m working on several pages with &quot;items&quot;, and each item has a &quot;voting button&quot;. When the button is pressed, it adds one vote to the item&#x27;s score, and reflects this to the user by incrementing the counter by one. So &quot;like(1)&quot; becomes &quot;like(2)&quot; and then &quot;like(2)&quot;.<p>However, it seems to me like to someone using a screen-reader, it may not be accessible, meaning they won&#x27;t understand what happened.<p>Does anyone know the proper way to handle this? Should I insert an aria alert element to the page, next to the voting button?",
       "time": 1626654601,
@@ -98,16 +111,6 @@
       "time": 1626653581,
       "title": "Ask HN: ADHD and Aging",
       "type": "story"
-    },
-    {
-      "by": "aurenh",
-      "descendants": 0,
-      "id": 27877928,
-      "score": 1,
-      "time": 1626653556,
-      "title": "Five Links for July 2021",
-      "type": "story",
-      "url": "https://auren.substack.com/p/five-links-for-july-2021"
     }
   ]
 }
