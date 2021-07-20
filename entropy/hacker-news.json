@@ -1,6 +1,66 @@
 {
   "stories": [
     {
+      "by": "jamilabreu",
+      "descendants": 0,
+      "id": 27896864,
+      "score": 1,
+      "time": 1626803319,
+      "title": "Harlequin",
+      "type": "story",
+      "url": "https://randomwalk.substack.com/p/harlequin"
+    },
+    {
+      "by": "vicjicama",
+      "descendants": 0,
+      "id": 27896856,
+      "score": 1,
+      "text": "Hi all!<p>Yesterday I saw a very strange behavior while working with some tags, I thought this was a bug!<p>Can you spot the difference? (https:&#x2F;&#x2F;jsfiddle.net&#x2F;vbjtcf3d&#x2F;)<p>&lt;div pagews-snapshot=&quot;true&quot; referenceid=&quot;remotemkt.listws.app&quot; snapshotid=&quot;snapshot&#x2F;board-companies&quot; &gt;&lt;&#x2F;div&gt;<p>the other ( https:&#x2F;&#x2F;jsfiddle.net&#x2F;q9d08xp1&#x2F; )<p>&lt;div pagews-snapshot=&quot;true&quot; referenceid=&quot;remotemkt.listws.app&quot; snapshotid=&quot;snapshot&#x2F;board-companies&quot; &gt;&lt;&#x2F;div&gt;<p>Both looks exactly the same!, but only one is working....<p>It turn out that it was an unicode character issue, the spacing between the non working tag was using the unicode non-breaking space (0xC2 0xA0), when I replaced the spaces with the regular space character (0x20) everything worked again.<p>I think that I copied this tag from an email, I will be extra careful in the future for this kind of issues.<p>It took me a while to find out this, I hope this could help anyone, if your attributes are null and you are sure that they are present check you html with a hex editor.<p>Let me know your thoughts",
+      "time": 1626803298,
+      "title": "Beware of the Unicode no-break space (0xC2 0xA0)",
+      "type": "story"
+    },
+    {
+      "by": "grobie",
+      "descendants": 0,
+      "id": 27896845,
+      "score": 1,
+      "time": 1626803265,
+      "title": "Open Source API Documentation Building Blocks",
+      "type": "story",
+      "url": "https://stoplight.io/open-source/elements/"
+    },
+    {
+      "by": "feross",
+      "descendants": 0,
+      "id": 27896829,
+      "score": 1,
+      "time": 1626803188,
+      "title": "Mature teams ship better code faster and you can too",
+      "type": "story",
+      "url": "https://www.youtube.com/watch?v=W3UU2lsQDoo"
+    },
+    {
+      "by": "tjalfi",
+      "descendants": 0,
+      "id": 27896827,
+      "score": 1,
+      "time": 1626803187,
+      "title": "Cryptanalysis of Meow Hash",
+      "type": "story",
+      "url": "https://peter.website/meow-hash-cryptanalysis"
+    },
+    {
+      "by": "SoylentOrange",
+      "descendants": 0,
+      "id": 27896817,
+      "score": 1,
+      "time": 1626803161,
+      "title": "Send+more=money and how to use forward-checking in search",
+      "type": "story",
+      "url": "https://kats.coffee/blog/send-more-money"
+    },
+    {
       "by": "Uhthrowaway",
       "descendants": 0,
       "id": 27896804,
@@ -39,51 +99,6 @@
       "title": "New Spring-Loaded Screw Turns Drywall into Sound-Absorbing Panels",
       "type": "story",
       "url": "https://gizmodo.com/new-spring-loaded-screw-turns-drywall-into-sound-absorb-1847280616"
-    },
-    {
-      "by": "samizdis",
-      "descendants": 1,
-      "id": 27896696,
-      "kids": [
-        27896777
-      ],
-      "score": 1,
-      "time": 1626802560,
-      "title": "Seychelles sells 'digital' endangered bird",
-      "type": "story",
-      "url": "https://phys.org/news/2021-07-seychelles-digital-endangered-bird.html"
-    },
-    null,
-    null,
-    {
-      "by": "ksec",
-      "descendants": 0,
-      "id": 27896675,
-      "score": 2,
-      "time": 1626802442,
-      "title": "Cassandra 4.0 release held back after Apple engineer discovers last-minute bug",
-      "type": "story",
-      "url": "https://www.theregister.com/2021/07/19/cassandra_40_delay/"
-    },
-    {
-      "by": "jseliger",
-      "descendants": 0,
-      "id": 27896672,
-      "score": 1,
-      "time": 1626802421,
-      "title": "Don't Take It Personally",
-      "type": "story",
-      "url": "https://www.thereadingexperience.net/tre/2021/07/personally.html"
-    },
-    {
-      "by": "feross",
-      "descendants": 0,
-      "id": 27896659,
-      "score": 2,
-      "time": 1626802360,
-      "title": "A Visual History of Rickrolling",
-      "type": "story",
-      "url": "https://pudding.cool/2021/07/rickrolling"
     }
   ]
 }
