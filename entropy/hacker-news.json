@@ -1,9 +1,72 @@
 {
   "stories": [
     {
-      "by": "azhenley",
+      "by": "CrankyBear",
       "descendants": 0,
+      "id": 27897016,
+      "score": 1,
+      "time": 1626803986,
+      "title": "How to achieve code quality with DevOps",
+      "type": "story",
+      "url": "https://www.hpe.com/us/en/insights/articles/how-to-achieve-extreme-quality-with-devops-2107.html"
+    },
+    {
+      "by": "Tomte",
+      "descendants": 0,
+      "id": 27896989,
+      "score": 1,
+      "time": 1626803866,
+      "title": "How to be uncertain with dates (2020)",
+      "type": "story",
+      "url": "https://www.datafix.com.au/BASHing/2020-02-12.html"
+    },
+    {
+      "by": "belltaco",
+      "descendants": 0,
+      "id": 27896985,
+      "score": 1,
+      "time": 1626803860,
+      "title": "Majority of Unvaccinated Americans Believe Microchips Are in Vaccines",
+      "type": "story",
+      "url": "https://www.newsweek.com/survey-shows-majority-unvaccinated-americans-believe-microchips-are-vaccines-1611134"
+    },
+    {
+      "by": "ErikVandeWater",
+      "descendants": 0,
+      "id": 27896984,
+      "score": 1,
+      "time": 1626803854,
+      "title": "Politicized Language",
+      "type": "story",
+      "url": "https://www.youtube.com/watch?v=metw9-cdf3U"
+    },
+    {
+      "by": "meredydd",
+      "descendants": 0,
+      "id": 27896974,
+      "score": 1,
+      "time": 1626803806,
+      "title": "Why Python in the Browser Isn't Enough",
+      "type": "story",
+      "url": "https://anvil.works/blog/why-python-in-the-browser-isnt-enough"
+    },
+    {
+      "by": "japaget",
+      "descendants": 0,
+      "id": 27896959,
+      "score": 1,
+      "time": 1626803716,
+      "title": "Google shutting down Google Bookmarks on September 30",
+      "type": "story",
+      "url": "https://9to5google.com/2021/07/20/google-bookmarks-closure-maps-starred-places/"
+    },
+    {
+      "by": "azhenley",
+      "descendants": 1,
       "id": 27896948,
+      "kids": [
+        27897006
+      ],
       "score": 1,
       "time": 1626803659,
       "title": "Mercator: A spherical persistence-of-vision display",
@@ -34,71 +97,11 @@
       "by": "montalbano",
       "descendants": 0,
       "id": 27896904,
-      "score": 1,
+      "score": 3,
       "time": 1626803497,
       "title": "‘Everything is on fire’: Siberia hit by unprecedented burning",
       "type": "story",
       "url": "https://www.theguardian.com/world/2021/jul/20/everything-is-on-fire-siberia-hit-by-unprecedented-burning"
-    },
-    {
-      "by": "latchkey",
-      "descendants": 0,
-      "id": 27896902,
-      "score": 1,
-      "time": 1626803495,
-      "title": "Ethereum Reorgs After the Merge",
-      "type": "story",
-      "url": "https://www.paradigm.xyz/2021/07/ethereum-reorgs-after-the-merge/"
-    },
-    {
-      "by": "lxhrstn",
-      "descendants": 0,
-      "id": 27896891,
-      "score": 1,
-      "time": 1626803438,
-      "title": "Biden to Name Google Foe Jonathan Kanter as DOJ Antitrust Chief",
-      "type": "story",
-      "url": "https://www.bloomberg.com/news/articles/2021-07-20/biden-to-name-google-foe-jonathan-kanter-as-doj-antitrust-chief"
-    },
-    {
-      "by": "pepperberg",
-      "descendants": 0,
-      "id": 27896887,
-      "score": 1,
-      "time": 1626803420,
-      "title": "Nobody should trust Wikipedia, says man who invented Wikipedia",
-      "type": "story",
-      "url": "https://www.independent.co.uk/news/world/americas/us-politics/wikipedia-founder-larry-sanger-democrats-b1885138.html"
-    },
-    {
-      "by": "jamilabreu",
-      "descendants": 0,
-      "id": 27896864,
-      "score": 1,
-      "time": 1626803319,
-      "title": "Harlequin",
-      "type": "story",
-      "url": "https://randomwalk.substack.com/p/harlequin"
-    },
-    {
-      "by": "vicjicama",
-      "descendants": 0,
-      "id": 27896856,
-      "score": 1,
-      "text": "Hi all!<p>Yesterday I saw a very strange behavior while working with some tags, I thought this was a bug!<p>Can you spot the difference? (https:&#x2F;&#x2F;jsfiddle.net&#x2F;vbjtcf3d&#x2F;)<p>&lt;div pagews-snapshot=&quot;true&quot; referenceid=&quot;remotemkt.listws.app&quot; snapshotid=&quot;snapshot&#x2F;board-companies&quot; &gt;&lt;&#x2F;div&gt;<p>the other ( https:&#x2F;&#x2F;jsfiddle.net&#x2F;q9d08xp1&#x2F; )<p>&lt;div pagews-snapshot=&quot;true&quot; referenceid=&quot;remotemkt.listws.app&quot; snapshotid=&quot;snapshot&#x2F;board-companies&quot; &gt;&lt;&#x2F;div&gt;<p>Both looks exactly the same!, but only one is working....<p>It turn out that it was an unicode character issue, the spacing between the non working tag was using the unicode non-breaking space (0xC2 0xA0), when I replaced the spaces with the regular space character (0x20) everything worked again.<p>I think that I copied this tag from an email, I will be extra careful in the future for this kind of issues.<p>It took me a while to find out this, I hope this could help anyone, if your attributes are null and you are sure that they are present check you html with a hex editor.<p>Let me know your thoughts",
-      "time": 1626803298,
-      "title": "Beware of the Unicode no-break space (0xC2 0xA0)",
-      "type": "story"
-    },
-    {
-      "by": "grobie",
-      "descendants": 0,
-      "id": 27896845,
-      "score": 1,
-      "time": 1626803265,
-      "title": "Open Source API Documentation Building Blocks",
-      "type": "story",
-      "url": "https://stoplight.io/open-source/elements/"
     }
   ]
 }
