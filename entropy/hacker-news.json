@@ -1,6 +1,16 @@
 {
   "stories": [
     {
+      "by": "fswwi",
+      "descendants": 0,
+      "id": 27891364,
+      "score": 1,
+      "text": "It seems nobody pays attention to 1 point news here and news from the main page are initially upvoted by bots (to get to there).\nSo I&#x27;ve written a short userscript for this site to highlight all &quot;1 point&quot; entries:<p><pre><code>    [...document.querySelectorAll(&quot;.score&quot;)].filter(x =&gt; x.innerText == &quot;1 point&quot;).map(x =&gt; x.closest(&quot;tr&quot;).previousSibling.querySelector(&quot;.storylink&quot;)).forEach(x =&gt; x.style.backgroundColor = &quot;#FF9&quot;)</code></pre>",
+      "time": 1626770801,
+      "title": "Show HN: Highlight all “1 point” news",
+      "type": "story"
+    },
+    {
       "by": "r_singh",
       "descendants": 0,
       "id": 27891314,
@@ -92,16 +102,6 @@
       "title": "Getting help with autopkgtest for your package",
       "type": "story",
       "url": "https://terceiro.xyz/2021/07/19/getting-help-with-autopkgtest-for-your-package/"
-    },
-    {
-      "by": "ahmedfromtunis",
-      "descendants": 0,
-      "id": 27891153,
-      "score": 1,
-      "time": 1626768792,
-      "title": "The End of Open Source?",
-      "type": "story",
-      "url": "https://techcrunch.com/2021/07/18/the-end-of-open-source/"
     }
   ]
 }
