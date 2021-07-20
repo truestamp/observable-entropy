@@ -1,10 +1,40 @@
 {
   "stories": [
     {
+      "by": "underscore_ku",
+      "descendants": 0,
+      "id": 27891409,
+      "score": 1,
+      "time": 1626771285,
+      "title": "First ever Extreme Weather warning isued in UK as temperatures seen reaching 33C",
+      "type": "story",
+      "url": "https://www.euronews.com/2021/07/20/first-ever-extreme-weather-warning-issued-in-uk-as-temperatures-seen-reaching-33-c"
+    },
+    {
+      "by": "fbnlsr",
+      "descendants": 0,
+      "id": 27891400,
+      "score": 1,
+      "time": 1626771221,
+      "title": "Ultralist – open-source task management system for the command line",
+      "type": "story",
+      "url": "https://ultralist.io/"
+    },
+    {
+      "by": "brobdingnagians",
+      "descendants": 0,
+      "id": 27891385,
+      "score": 1,
+      "time": 1626771077,
+      "title": "Turtle: Shell Programming, Haskell-Style",
+      "type": "story",
+      "url": "https://hackage.haskell.org/package/turtle-1.5.22/docs/Turtle-Tutorial.html"
+    },
+    {
       "by": "fswwi",
       "descendants": 0,
       "id": 27891364,
-      "score": 1,
+      "score": 2,
       "text": "It seems nobody pays attention to 1 point news here and news from the main page are initially upvoted by bots (to get to there).\nSo I&#x27;ve written a short userscript for this site to highlight all &quot;1 point&quot; entries:<p><pre><code>    [...document.querySelectorAll(&quot;.score&quot;)].filter(x =&gt; x.innerText == &quot;1 point&quot;).map(x =&gt; x.closest(&quot;tr&quot;).previousSibling.querySelector(&quot;.storylink&quot;)).forEach(x =&gt; x.style.backgroundColor = &quot;#FF9&quot;)</code></pre>",
       "time": 1626770801,
       "title": "Show HN: Highlight all “1 point” news",
@@ -34,7 +64,7 @@
       "by": "doener",
       "descendants": 0,
       "id": 27891286,
-      "score": 1,
+      "score": 3,
       "time": 1626770010,
       "title": "RISC-V Open Source Supervisor Binary Interface",
       "type": "story",
@@ -72,36 +102,6 @@
       "title": "BharatPe offers work-from-Dubai, BMW Superbike and iPads to lure tech talent",
       "type": "story",
       "url": "https://www.moneycontrol.com/news/business/startup/bharatpe-offers-work-from-dubai-bmw-superbike-apple-ipads-to-lure-tech-talent-7193221.html"
-    },
-    {
-      "by": "rcarmo",
-      "descendants": 0,
-      "id": 27891236,
-      "score": 2,
-      "time": 1626769664,
-      "title": "Orbital Combat (Steam)",
-      "type": "story",
-      "url": "https://store.steampowered.com/app/1693780/Orbital_Combat/"
-    },
-    {
-      "by": "Applemoi",
-      "descendants": 0,
-      "id": 27891228,
-      "score": 1,
-      "time": 1626769526,
-      "title": "Add neumorphic designs to buttons in your next iOS app",
-      "type": "story",
-      "url": "https://cocoapods.org/pods/SoftButton"
-    },
-    {
-      "by": "edward",
-      "descendants": 0,
-      "id": 27891184,
-      "score": 1,
-      "time": 1626769100,
-      "title": "Getting help with autopkgtest for your package",
-      "type": "story",
-      "url": "https://terceiro.xyz/2021/07/19/getting-help-with-autopkgtest-for-your-package/"
     }
   ]
 }
