@@ -1,6 +1,56 @@
 {
   "stories": [
     {
+      "by": "brokenmachine",
+      "descendants": 0,
+      "id": 27901671,
+      "score": 2,
+      "text": "I&#x27;ve read that current CPUs have more than a hundred million transistors per square millimeter. I can&#x27;t imagine that every single one of those works perfectly and will stay working perfectly.<p>How do we design CPUs that don&#x27;t die or stop working properly when one out of a hundred million transistors fails?",
+      "time": 1626834261,
+      "title": "Ask HN: How do CPUs handle bad transistors?",
+      "type": "story"
+    },
+    {
+      "by": "elsewhen",
+      "descendants": 0,
+      "id": 27901670,
+      "score": 1,
+      "time": 1626834258,
+      "title": "Peloton to launch an in-app game where you pedal to control a rolling wheel",
+      "type": "story",
+      "url": "https://www.theverge.com/2021/7/19/22580340/peloton-lanebreak-in-app-game-launch"
+    },
+    {
+      "by": "elsewhen",
+      "descendants": 0,
+      "id": 27901663,
+      "score": 1,
+      "time": 1626834205,
+      "title": "Amazon endorsed legal weed. Will it now fight to make it happen?",
+      "type": "story",
+      "url": "https://www.politico.com/news/2021/07/20/amazon-legal-weed-500263"
+    },
+    {
+      "by": "Lammy",
+      "descendants": 0,
+      "id": 27901654,
+      "score": 1,
+      "time": 1626834089,
+      "title": "What is a reduction and why Fibers are the answer for Ruby concurrency (2021)",
+      "type": "story",
+      "url": "http://live.julik.nl/2021/02/why-reductions-are-important"
+    },
+    {
+      "by": "throwaway888abc",
+      "descendants": 0,
+      "id": 27901653,
+      "score": 1,
+      "time": 1626834084,
+      "title": "Walmart, IKEA, and Amazon have a dirty shipping problem",
+      "type": "story",
+      "url": "https://www.theverge.com/2021/7/20/22584335/ikea-amazon-walmart-shipping-emissions-climate-change"
+    },
+    {
       "by": "elsewhen",
       "descendants": 0,
       "id": 27901633,
@@ -32,8 +82,11 @@
     },
     {
       "by": "cs702",
-      "descendants": 0,
+      "descendants": 1,
       "id": 27901624,
+      "kids": [
+        27901680
+      ],
       "score": 1,
       "text": "If we try this with PyTorch:<p><pre><code>  import torch\n  x = torch.randn(4000, 4000, device=&#x27;cuda:0&#x27;)\n  y = torch.randn(4000, 4000, device=&#x27;cuda:0&#x27;)\n  z = torch.einsum(&#x27;ij,jk-&gt;ijk&#x27;, x, y).relu().sum(dim=1)\n</code></pre>\nwe will likely run out of memory, because the tensor product of x and y consists of 4000 x 4000 x 4000 = 64 billion floating-point values, and we must evaluate the relu() function on each of them before summing them over index j (dim 1).<p>And we can&#x27;t solve this problem with a nice for-loop that iterates over 64 billion elements in Python -- it would be waaaaay too slow. Python and PyTorch force us to drop down to a fast, low-level, compiled language.<p>The same is true for TensorFlow and other similar &quot;vectorized&quot; frameworks. Our choices are to store 64 billion floating-point values simultaneously in memory, or drop down to a low-level language. No fun.<p>But solving this in Julia is trivial: We just write the loops.",
       "time": 1626833849,
@@ -49,56 +102,6 @@
       "title": "WikiGraphs: A Wikipedia Text – Knowledge Graph Paired Dataset",
       "type": "story",
       "url": "https://arxiv.org/abs/2107.09556"
-    },
-    {
-      "by": "riespandi",
-      "descendants": 0,
-      "id": 27901586,
-      "score": 1,
-      "time": 1626833554,
-      "title": "Twitter rolling out preview of all-new TweetDeck app",
-      "type": "story",
-      "url": "https://9to5mac.com/2021/07/20/twitter-rolling-out-preview-of-all-new-tweetdeck-app/"
-    },
-    {
-      "by": "sharjeelsayed",
-      "descendants": 0,
-      "id": 27901570,
-      "score": 1,
-      "time": 1626833456,
-      "title": "Excerpt from the Long Game: China’s Grand Strategy to Displace American Order",
-      "type": "story",
-      "url": "https://sinocism.com/p/excerpt-from-the-long-game-chinas"
-    },
-    {
-      "by": "chadcmulligan",
-      "descendants": 0,
-      "id": 27901536,
-      "score": 1,
-      "time": 1626833184,
-      "title": "New Delphi and C++Builder Community Editions 10.4 Available",
-      "type": "story",
-      "url": "https://blogs.embarcadero.com/new-delphi-and-cbuilder-community-editions-10-4-available/"
-    },
-    {
-      "by": "walterbell",
-      "descendants": 0,
-      "id": 27901527,
-      "score": 1,
-      "time": 1626833089,
-      "title": "Garcia Exploration 52 test: The sailing equivalent of a 4x4 off-roader (2019)",
-      "type": "story",
-      "url": "https://www.yachtingworld.com/reviews/boat-tests/garcia-exploration-52-jimmy-cornell"
-    },
-    {
-      "by": "bwidlar",
-      "descendants": 0,
-      "id": 27901503,
-      "score": 1,
-      "time": 1626832928,
-      "title": "Writing C code in Java/Clojure: GraalVM specific programming",
-      "type": "story",
-      "url": "https://yyhh.org/blog/2021/02/writing-c-code-in-javaclojure-graalvm-specific-programming/"
     }
   ]
 }
