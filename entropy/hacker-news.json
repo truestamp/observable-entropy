@@ -1,6 +1,56 @@
 {
   "stories": [
     {
+      "by": "elsewhen",
+      "descendants": 0,
+      "id": 27901633,
+      "score": 1,
+      "time": 1626833928,
+      "title": "Meet China’s New Gaming Underclass",
+      "type": "story",
+      "url": "https://www.protocol.com/china/chinas-gaming-underclass-peiwan"
+    },
+    {
+      "by": "holidaygoose",
+      "descendants": 0,
+      "id": 27901631,
+      "score": 1,
+      "time": 1626833917,
+      "title": "1986's Super Mario Bros. Movie Is Being Painstakingly Restored, Now in 4K",
+      "type": "story",
+      "url": "https://kotaku.com/1986s-super-mario-bros-movie-is-being-painstakingly-re-1847332770"
+    },
+    {
+      "by": "pabs3",
+      "descendants": 0,
+      "id": 27901625,
+      "score": 1,
+      "time": 1626833851,
+      "title": "Notfallwarnung Im Mobilfunknetz and Cell Broadcast",
+      "type": "story",
+      "url": "https://laforge.gnumonks.org/blog/20210719-smscb/"
+    },
+    {
+      "by": "cs702",
+      "descendants": 0,
+      "id": 27901624,
+      "score": 1,
+      "text": "If we try this with PyTorch:<p><pre><code>  import torch\n  x = torch.randn(4000, 4000, device=&#x27;cuda:0&#x27;)\n  y = torch.randn(4000, 4000, device=&#x27;cuda:0&#x27;)\n  z = torch.einsum(&#x27;ij,jk-&gt;ijk&#x27;, x, y).relu().sum(dim=1)\n</code></pre>\nwe will likely run out of memory, because the tensor product of x and y consists of 4000 x 4000 x 4000 = 64 billion floating-point values, and we must evaluate the relu() function on each of them before summing them over index j (dim 1).<p>And we can&#x27;t solve this problem with a nice for-loop that iterates over 64 billion elements in Python -- it would be waaaaay too slow. Python and PyTorch force us to drop down to a fast, low-level, compiled language.<p>The same is true for TensorFlow and other similar &quot;vectorized&quot; frameworks. Our choices are to store 64 billion floating-point values simultaneously in memory, or drop down to a low-level language. No fun.<p>But solving this in Julia is trivial: We just write the loops.",
+      "time": 1626833849,
+      "title": "A simple problem for which Julia is a better choice than Python",
+      "type": "story"
+    },
+    {
+      "by": "lnyan",
+      "descendants": 0,
+      "id": 27901607,
+      "score": 2,
+      "time": 1626833773,
+      "title": "WikiGraphs: A Wikipedia Text – Knowledge Graph Paired Dataset",
+      "type": "story",
+      "url": "https://arxiv.org/abs/2107.09556"
+    },
+    {
       "by": "riespandi",
       "descendants": 0,
       "id": 27901586,
@@ -49,59 +99,6 @@
       "title": "Writing C code in Java/Clojure: GraalVM specific programming",
       "type": "story",
       "url": "https://yyhh.org/blog/2021/02/writing-c-code-in-javaclojure-graalvm-specific-programming/"
-    },
-    {
-      "by": "brendanfalk",
-      "descendants": 1,
-      "id": 27901496,
-      "kids": [
-        27901592
-      ],
-      "score": 16,
-      "time": 1626832845,
-      "title": "A surprisingly common error users make when installing brew",
-      "type": "story",
-      "url": "https://github.com/withfig/fig/discussions/300"
-    },
-    {
-      "by": "gkop",
-      "descendants": 0,
-      "id": 27901467,
-      "score": 1,
-      "time": 1626832620,
-      "title": "The Handshake Deal Protocol (2016)",
-      "type": "story",
-      "url": "https://www.ycombinator.com/handshake"
-    },
-    {
-      "by": "Ariarule",
-      "descendants": 0,
-      "id": 27901466,
-      "score": 1,
-      "time": 1626832604,
-      "title": "A significant development in the Circle/USDC/stablecoin drama",
-      "type": "story",
-      "url": "https://doomberg.substack.com/p/credit-where-credit-is-due"
-    },
-    {
-      "by": "beermonster",
-      "descendants": 0,
-      "id": 27901399,
-      "score": 1,
-      "time": 1626832060,
-      "title": "Diamonds swapped for pebbles in London gem heist",
-      "type": "story",
-      "url": "https://www.bbc.co.uk/news/uk-england-london-57906031"
-    },
-    {
-      "by": "starkd",
-      "descendants": 0,
-      "id": 27901382,
-      "score": 1,
-      "time": 1626831886,
-      "title": "AlphaCT1 may repair skin's collagen by altering how scar-forming cells behave",
-      "type": "story",
-      "url": "https://medicalxpress.com/news/2021-07-alphact1-molecule-skin-collagen-matrix.html"
     }
   ]
 }
