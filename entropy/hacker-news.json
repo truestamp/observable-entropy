@@ -1,6 +1,16 @@
 {
   "stories": [
     {
+      "by": "Hedgemaster",
+      "descendants": 0,
+      "id": 27918988,
+      "score": 1,
+      "time": 1626962598,
+      "title": "Fear Trumps Greed",
+      "type": "story",
+      "url": "https://money.cnn.com/data/fear-and-greed/"
+    },
+    {
       "by": "Brajeshwar",
       "descendants": 0,
       "id": 27918916,
@@ -14,7 +24,7 @@
       "by": "hsyyid",
       "descendants": 0,
       "id": 27918900,
-      "score": 3,
+      "score": 9,
       "text": "Hi HN, we’re Hassan and David from hotglue [<a href=\"https:&#x2F;&#x2F;hotglue.xyz\" rel=\"nofollow\">https:&#x2F;&#x2F;hotglue.xyz</a>]. We make it easier for developers to build user-facing integrations. In this context, an integration is a way for users to sync their data from their business apps, like Salesforce and Quickbooks, to another. For example, if I wanted to use an app like Mailchimp, I’d use their Salesforce integration to sync all my contacts over automatically.<p>We came across this problem while working for a startup that was struggling to scale the Salesforce integration they built in house. We needed a tool that would sync the customer data from Salesforce directly to our backend, but there were very few solutions available. After talking to other engineers who had dealt with user-facing integrations, we found many teams were frustrated by building their own integration solutions from scratch (not to mention maintaining them). This inspired us to build a tool that helps engineering teams add integrations to their products without taking on more tech debt.<p>Often people are surprised this isn’t solved yet – what about all the data movement tools like Meltano, Airbyte, Fivetran, Stitch, etc.? The difference here is that the integrations we&#x27;re talking about are not back-end things like pulling your own Google Analytics data to BigQuery so that in-house analysts can work on it. Rather, it’s things like importing a user’s Quickbooks or Salesforce data into your product so that your product becomes more useful to <i>them</i>. That’s what we mean by “user-facing”.<p>There are a few reasons why building such integrations in-house is tricky. SaaS platforms and their APIs vary widely—while products like Stripe offer stellar APIs and resources, other platforms run on legacy software requiring more involved integrations (such as closed-access APIs or legacy SOAP&#x2F;XML systems). Second, reliability while syncing at scale can be a challenging task when onboarding users with higher volumes of data – no engineer wants to spend their weekend debugging why their infra crapped out. Lastly, building auth flows and handling API tokens can be cumbersome: catching permission errors and expired tokens can take hours of debugging when dealing with the more &quot;enterprisey&quot; business products.<p>In short: it’s a pain to have to build one of these for several different apps, and not the sort of thing anybody wants to specialize in. Projects to build these usually end up on the back burner, frustrating customers who expect your product to integrate cleanly with all their other business apps.<p>We make it easier to build user-facing integrations by providing a scalable framework that minimizes maintenance. Our integrations are built on open source Singer.io connectors that eliminate the need for you to directly interface with APIs (saving you from dealing with breaking API changes, rate limits, authorization, and more). We provide a catalog of all the data each source provides and allow you to pick the data you need without having to grok long API docs. This also means you aren&#x27;t locked in to our library of connectors – you can write your own connectors in Python. From there, we orchestrate syncing data for you. Just set a schedule, or kick off a job via our API – we provide the infrastructure, so you don&#x27;t need to worry about building a data pipeline from scratch.\nAlthough we are minimizing the dev work to build an integration, we are *not* a no-code solution. In our experience, no-code tools can be powerful for simple use cases, but are often too restrictive to handle custom logic. hotglue features a Python transformation layer to enable you to manipulate the raw data from third-party apps before it gets to your backend, cherry-pick the data you need, and implement more complex logic. For example, you can join multiple tables, filter out data based on a complex expression, make API requests, write custom logic for specific users, and more.\nWe are super excited to share hotglue with the HN community. We’ve created a quick demo for you to see what a hotglue-powered integration looks like:<p>Video: <a href=\"https:&#x2F;&#x2F;youtu.be&#x2F;ZzSsL66fSUE\" rel=\"nofollow\">https:&#x2F;&#x2F;youtu.be&#x2F;ZzSsL66fSUE</a>         \nInteractive demo: <a href=\"https:&#x2F;&#x2F;bit.ly&#x2F;3rsLR0G\" rel=\"nofollow\">https:&#x2F;&#x2F;bit.ly&#x2F;3rsLR0G</a><p>We’d really appreciate hearing your thoughts, experiences, ideas and feedback. Your feedback is vital, as it is our dream to make hotglue the standard for building user-facing integrations. Also, in case you’re thinking of adding new integrations to your product, we would love to help – sign up for a free trial at <a href=\"https:&#x2F;&#x2F;hotglue.xyz\" rel=\"nofollow\">https:&#x2F;&#x2F;hotglue.xyz</a> (we have a startup plan)<p>Thanks for reading this far, and happy Thursday! :)",
       "time": 1626962220,
       "title": "Launch HN: Hotglue (YC S21) – Easy user-facing SaaS integrations",
@@ -92,16 +102,6 @@
       "title": "Show HN: Created Cloud Based Loan Management Software",
       "type": "story",
       "url": "https://lendbox.io"
-    },
-    {
-      "by": "cheeseblubber",
-      "descendants": 0,
-      "id": 27918798,
-      "score": 1,
-      "time": 1626961736,
-      "title": "Show HN: Open-source live customer chat",
-      "type": "story",
-      "url": "https://app.papercups.io/demo"
     }
   ]
 }
