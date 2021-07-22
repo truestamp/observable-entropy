@@ -1,6 +1,16 @@
 {
   "stories": [
     {
+      "by": "smharris65",
+      "descendants": 0,
+      "id": 27924469,
+      "score": 2,
+      "time": 1626988650,
+      "title": "Google pushed a one-character typo to production, bricking Chrome OS devices",
+      "type": "story",
+      "url": "https://arstechnica.com/gadgets/2021/07/google-pushed-a-one-character-typo-to-production-bricking-chrome-os-devices/?comments=1"
+    },
+    {
       "by": "octopoc",
       "descendants": 0,
       "id": 27924340,
@@ -58,7 +68,7 @@
       "descendants": 0,
       "id": 27924282,
       "score": 2,
-      "text": "While reading about the OpenAPI spec, I found these examples for &quot;good&quot; APIs:\n- https:&#x2F;&#x2F;petstore.swagger.io&#x2F; (older version)\n- https:&#x2F;&#x2F;petstore3.swagger.io&#x2F;\nHowever, imho they are really bad examples as they do not follow basic principles of good API design.\nHere are some examples:\n1. They use &quot;&#x2F;pet&quot; instead of &quot;&#x2F;pets&quot; for the pet collection (Besides the fact that &quot;&#x2F;pets&quot; isn&#x27;t even an endpoint and you can not get a list of all pets ^^). \n2. The login &amp; logout endpoints are under &#x2F;user (i.e. &#x2F;user&#x2F;login, &#x2F;user&#x2F;logout)\n3. You do not use PUT on a collection as they did with PUT &#x2F;pet\n4. You do not use POST as they did with &#x2F;pet&#x2F;{pet_id} to update a single resource.\n5. You do not use POST to create a resource and PUT to update a resource as they did with PUT &#x2F;pet and POST &#x2F;pet<p>Some might argue that it is a matter of opinion that these examples are bad. You may be right, but at minimum an API should be self-consistent. But even that is not the case here.<p>That&#x27;s why I&#x27;m wondering what this is all about. Do I not know the latest API design principles yet or why are the examples for a de facto industry standard so lousy?<p>And btw what is your opinion on the API design of the examples?",
+      "text": "While reading about the OpenAPI spec, I found these examples for &quot;good&quot; APIs:<p>- https:&#x2F;&#x2F;petstore.swagger.io&#x2F; (older version)<p>- https:&#x2F;&#x2F;petstore3.swagger.io&#x2F;<p>However, imho they are really bad examples as they do not follow basic principles of good API design.\nHere are some reasons:<p>1. They use &quot;&#x2F;pet&quot; instead of &quot;&#x2F;pets&quot; for the pet collection (Besides the fact that &quot;&#x2F;pets&quot; isn&#x27;t even an endpoint and you can not get a list of all pets ^^).<p>2. The login &amp; logout endpoints are under &#x2F;user (i.e. &#x2F;user&#x2F;login, &#x2F;user&#x2F;logout)<p>3. You do not use PUT on a collection as they did with PUT &#x2F;pet<p>4. You do not use POST as they did with &#x2F;pet&#x2F;{pet_id} to update a single resource.<p>5. You do not use POST to create a resource and PUT to update the same resource as they did with PUT &#x2F;pet and POST &#x2F;pet<p>Some might argue that it is a matter of opinion that these examples are bad. You may be right, but at minimum an API should be self-consistent. But even that is not the case here.<p>That&#x27;s why I&#x27;m wondering what this is all about. Do I not know the latest API design principles yet or why are the examples for a de facto industry standard so lousy?<p>And btw what is your opinion on the API design of the examples?",
       "time": 1626987703,
       "title": "Swagger/OpenAPI examples are bad, like reaaalllyy bad",
       "type": "story"
@@ -92,16 +102,6 @@
       "title": "Preventing Data Exfiltration with eBPF",
       "type": "story",
       "url": "https://goteleport.com/blog/preventing-data-exfiltration-with-ebpf/"
-    },
-    {
-      "by": "taxyovio",
-      "descendants": 0,
-      "id": 27924207,
-      "score": 3,
-      "time": 1626987358,
-      "title": "Apple is removing DOS emulator iDOS because it runs executable codes",
-      "type": "story",
-      "url": "https://litchie.com/2021/07/idos2-will-be-gone"
     }
   ]
 }
