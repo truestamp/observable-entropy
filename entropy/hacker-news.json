@@ -1,6 +1,76 @@
 {
   "stories": [
     {
+      "by": "tosh",
+      "descendants": 0,
+      "id": 27924312,
+      "score": 1,
+      "time": 1626987834,
+      "title": "Mitchell Hashimoto takes on a new individual contributor role at HashiCorp",
+      "type": "story",
+      "url": "https://www.hashicorp.com/blog/mitchell-s-new-role-at-hashicorp"
+    },
+    {
+      "by": "nikatyet",
+      "descendants": 0,
+      "id": 27924310,
+      "score": 1,
+      "time": 1626987825,
+      "title": "Show HN: Online Catalog of Salesforce Integrations",
+      "type": "story",
+      "url": "https://to-salesforce.com/"
+    },
+    {
+      "by": "dredmorbius",
+      "descendants": 0,
+      "id": 27924293,
+      "score": 1,
+      "time": 1626987762,
+      "title": "Dating the Earliest Solids in Our Solar System (2002)",
+      "type": "story",
+      "url": "http://www.psrd.hawaii.edu/Sept02/isotopicAges.html"
+    },
+    {
+      "by": "d3nigma",
+      "descendants": 0,
+      "id": 27924282,
+      "score": 1,
+      "text": "While reading about the OpenAPI spec, I found these examples for &quot;good&quot; APIs:\n- https:&#x2F;&#x2F;petstore.swagger.io&#x2F; (older version)\n- https:&#x2F;&#x2F;petstore3.swagger.io&#x2F;\nHowever, imho they are really bad examples as they do not follow basic principles of good API design.\nHere are some examples:\n1. They use &quot;&#x2F;pet&quot; instead of &quot;&#x2F;pets&quot; for the pet collection (Besides the fact that &quot;&#x2F;pets&quot; isn&#x27;t even an endpoint and you can not get a list of all pets ^^). \n2. The login &amp; logout endpoints are under &#x2F;user (i.e. &#x2F;user&#x2F;login, &#x2F;user&#x2F;logout)\n3. You do not use PUT on a collection as they did with PUT &#x2F;pet\n4. You do not use POST as they did with &#x2F;pet&#x2F;{pet_id} to update a single resource.\n5. You do not use POST to create a resource and PUT to update a resource as they did with PUT &#x2F;pet and POST &#x2F;pet<p>Some might argue that it is a matter of opinion that these examples are bad. You may be right, but at minimum an API should be self-consistent. But even that is not the case here.<p>That&#x27;s why I&#x27;m wondering what this is all about. Do I not know the latest API design principles yet or why are the examples for a de facto industry standard so lousy?<p>And btw what is your opinion on the API design of the examples?",
+      "time": 1626987703,
+      "title": "Swagger/OpenAPI examples are bad, like reaaalllyy bad",
+      "type": "story"
+    },
+    {
+      "by": "todsacerdoti",
+      "descendants": 0,
+      "id": 27924280,
+      "score": 1,
+      "time": 1626987698,
+      "title": "Theses on Techno-Optimism",
+      "type": "story",
+      "url": "https://web.archive.org/web/20210722205358/https://librarianshipwreck.wordpress.com/2021/06/10/theses-on-techno-optimism/"
+    },
+    {
+      "by": "mastabadtomm",
+      "descendants": 0,
+      "id": 27924279,
+      "score": 1,
+      "time": 1626987686,
+      "title": "XAP: Distributed, highly-scalable, In Memory Data Grid",
+      "type": "story",
+      "url": "https://github.com/xap/xap"
+    },
+    {
+      "by": "eyakubovich",
+      "descendants": 0,
+      "id": 27924274,
+      "score": 1,
+      "time": 1626987670,
+      "title": "Preventing Data Exfiltration with eBPF",
+      "type": "story",
+      "url": "https://goteleport.com/blog/preventing-data-exfiltration-with-ebpf/"
+    },
+    {
       "by": "taxyovio",
       "descendants": 0,
       "id": 27924207,
@@ -24,87 +94,11 @@
       "by": "swamp40",
       "descendants": 0,
       "id": 27924172,
-      "score": 1,
+      "score": 2,
       "time": 1626987121,
       "title": "Crypto Volumes: Something May Be Rotten in China",
       "type": "story",
       "url": "https://seekingalpha.com/article/4440402-crypto-volumes-something-may-be-rotten-in-china"
-    },
-    {
-      "by": "_Microft",
-      "descendants": 0,
-      "id": 27924158,
-      "score": 1,
-      "time": 1626987068,
-      "title": "InSight Lander Makes Best-Yet Maps of Martian Depths",
-      "type": "story",
-      "url": "https://www.scientificamerican.com/article/insight-lander-makes-best-yet-maps-of-martian-depths/"
-    },
-    {
-      "by": "MilnerRoute",
-      "descendants": 0,
-      "id": 27924142,
-      "score": 2,
-      "time": 1626986988,
-      "title": "Pulitzer-winning LA Times writer: Ivermectin 'bogus', cites 'conspiracy-mongers'",
-      "type": "story",
-      "url": "https://www.msn.com/en-us/health/medical/column-ivermectin-another-bogus-covid-treatment-becomes-a-darling-of-conspiracy-mongers/ar-AAMr54U?ocid=BingNewsSearch"
-    },
-    {
-      "by": "aaiyer",
-      "descendants": 1,
-      "id": 27924123,
-      "kids": [
-        27924124
-      ],
-      "score": 1,
-      "time": 1626986913,
-      "title": "Lead Engineer Fyllo, Series B Startup – Chicago – OnSite – Full-Time",
-      "type": "story",
-      "url": "https://fyllo.breezy.hr/p/49c067ccef5d-lead-software-engineer"
-    },
-    {
-      "by": "amar-laksh",
-      "descendants": 0,
-      "id": 27924107,
-      "score": 1,
-      "time": 1626986828,
-      "title": "Journey to the Microcosmos",
-      "type": "story",
-      "url": "https://www.youtube.com/c/microcosmos/videos"
-    },
-    {
-      "by": "aledalgrande",
-      "descendants": 0,
-      "id": 27924100,
-      "score": 2,
-      "time": 1626986808,
-      "title": "NHS is going to sell patient data to private companies",
-      "type": "story",
-      "url": "https://fullfact.org/health/nhs-data/"
-    },
-    {
-      "by": "riboflavin",
-      "descendants": 0,
-      "id": 27924079,
-      "score": 2,
-      "time": 1626986704,
-      "title": "Translating Jabberwocky into Japanese",
-      "type": "story",
-      "url": "https://j-entranslations.com/two-japanese-jabberwocky-poems/"
-    },
-    {
-      "by": "whack",
-      "descendants": 1,
-      "id": 27924077,
-      "kids": [
-        27924216
-      ],
-      "score": 3,
-      "time": 1626986697,
-      "title": "The top% of Americans have about 16 times more wealth than the bottom 50%",
-      "type": "story",
-      "url": "https://www.cnbc.com/2021/06/23/how-much-wealth-top-1percent-of-americans-have.html"
     }
   ]
 }
