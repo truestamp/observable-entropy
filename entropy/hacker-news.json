@@ -22,9 +22,12 @@
     },
     {
       "by": "tosh",
-      "descendants": 0,
+      "descendants": 1,
       "id": 27924312,
-      "score": 5,
+      "kids": [
+        27924424
+      ],
+      "score": 6,
       "time": 1626987834,
       "title": "Mitchell Hashimoto takes on a new individual contributor role at HashiCorp",
       "type": "story",
@@ -54,7 +57,7 @@
       "by": "d3nigma",
       "descendants": 0,
       "id": 27924282,
-      "score": 1,
+      "score": 2,
       "text": "While reading about the OpenAPI spec, I found these examples for &quot;good&quot; APIs:\n- https:&#x2F;&#x2F;petstore.swagger.io&#x2F; (older version)\n- https:&#x2F;&#x2F;petstore3.swagger.io&#x2F;\nHowever, imho they are really bad examples as they do not follow basic principles of good API design.\nHere are some examples:\n1. They use &quot;&#x2F;pet&quot; instead of &quot;&#x2F;pets&quot; for the pet collection (Besides the fact that &quot;&#x2F;pets&quot; isn&#x27;t even an endpoint and you can not get a list of all pets ^^). \n2. The login &amp; logout endpoints are under &#x2F;user (i.e. &#x2F;user&#x2F;login, &#x2F;user&#x2F;logout)\n3. You do not use PUT on a collection as they did with PUT &#x2F;pet\n4. You do not use POST as they did with &#x2F;pet&#x2F;{pet_id} to update a single resource.\n5. You do not use POST to create a resource and PUT to update a resource as they did with PUT &#x2F;pet and POST &#x2F;pet<p>Some might argue that it is a matter of opinion that these examples are bad. You may be right, but at minimum an API should be self-consistent. But even that is not the case here.<p>That&#x27;s why I&#x27;m wondering what this is all about. Do I not know the latest API design principles yet or why are the examples for a de facto industry standard so lousy?<p>And btw what is your opinion on the API design of the examples?",
       "time": 1626987703,
       "title": "Swagger/OpenAPI examples are bad, like reaaalllyy bad",
@@ -84,7 +87,7 @@
       "by": "eyakubovich",
       "descendants": 0,
       "id": 27924274,
-      "score": 2,
+      "score": 3,
       "time": 1626987670,
       "title": "Preventing Data Exfiltration with eBPF",
       "type": "story",
