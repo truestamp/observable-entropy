@@ -1,10 +1,50 @@
 {
   "stories": [
     {
+      "by": "JayQP",
+      "descendants": 0,
+      "id": 27924520,
+      "score": 1,
+      "time": 1626989045,
+      "title": "FBI: Cybercriminals Eyeing Broadcast Disruption at Tokyo Olympics",
+      "type": "story",
+      "url": "https://threatpost.com/fbi-cybercriminals-broadcast-disruption-tokyo-olympics/168063/"
+    },
+    {
+      "by": "vulkd",
+      "descendants": 0,
+      "id": 27924515,
+      "score": 1,
+      "time": 1626989001,
+      "title": "Mapbox Horizon – Anticipating the Road Ahead",
+      "type": "story",
+      "url": "https://www.mapbox.com/blog/electronic-horizon-launches"
+    },
+    {
+      "by": "Hedgemaster",
+      "descendants": 0,
+      "id": 27924512,
+      "score": 1,
+      "time": 1626988992,
+      "title": "Inflation is REAL, the Fed is DEAF",
+      "type": "story",
+      "url": "https://www.reuters.com/business/retail-consumer/unilever-second-quarter-underlying-sales-rise-5-beats-estimates-2021-07-22/"
+    },
+    {
+      "by": "danso",
+      "descendants": 0,
+      "id": 27924507,
+      "score": 1,
+      "time": 1626988972,
+      "title": "Only 2.3% of Twitter users had any MFA method enabled from July to December 2020",
+      "type": "story",
+      "url": "https://twitter.com/RachelTobac/status/1417984118810238976"
+    },
+    {
       "by": "smharris65",
       "descendants": 0,
       "id": 27924469,
-      "score": 2,
+      "score": 4,
       "time": 1626988650,
       "title": "Google pushed a one-character typo to production, bricking Chrome OS devices",
       "type": "story",
@@ -37,7 +77,7 @@
       "kids": [
         27924424
       ],
-      "score": 6,
+      "score": 12,
       "time": 1626987834,
       "title": "Mitchell Hashimoto takes on a new individual contributor role at HashiCorp",
       "type": "story",
@@ -62,46 +102,6 @@
       "title": "Dating the Earliest Solids in Our Solar System (2002)",
       "type": "story",
       "url": "http://www.psrd.hawaii.edu/Sept02/isotopicAges.html"
-    },
-    {
-      "by": "d3nigma",
-      "descendants": 0,
-      "id": 27924282,
-      "score": 2,
-      "text": "While reading about the OpenAPI spec, I found these examples for &quot;good&quot; APIs:<p>- https:&#x2F;&#x2F;petstore.swagger.io&#x2F; (older version)<p>- https:&#x2F;&#x2F;petstore3.swagger.io&#x2F;<p>However, imho they are really bad examples as they do not follow basic principles of good API design.\nHere are some reasons:<p>1. They use &quot;&#x2F;pet&quot; instead of &quot;&#x2F;pets&quot; for the pet collection (Besides the fact that &quot;&#x2F;pets&quot; isn&#x27;t even an endpoint and you can not get a list of all pets ^^).<p>2. The login &amp; logout endpoints are under &#x2F;user (i.e. &#x2F;user&#x2F;login, &#x2F;user&#x2F;logout)<p>3. You do not use PUT on a collection as they did with PUT &#x2F;pet<p>4. You do not use POST as they did with &#x2F;pet&#x2F;{pet_id} to update a single resource.<p>5. You do not use POST to create a resource and PUT to update the same resource as they did with PUT &#x2F;pet and POST &#x2F;pet<p>Some might argue that it is a matter of opinion that these examples are bad. You may be right, but at minimum an API should be self-consistent. But even that is not the case here.<p>That&#x27;s why I&#x27;m wondering what this is all about. Do I not know the latest API design principles yet or why are the examples for a de facto industry standard so lousy?<p>And btw what is your opinion on the API design of the examples?",
-      "time": 1626987703,
-      "title": "Swagger/OpenAPI examples are bad, like reaaalllyy bad",
-      "type": "story"
-    },
-    {
-      "by": "todsacerdoti",
-      "descendants": 0,
-      "id": 27924280,
-      "score": 1,
-      "time": 1626987698,
-      "title": "Theses on Techno-Optimism",
-      "type": "story",
-      "url": "https://web.archive.org/web/20210722205358/https://librarianshipwreck.wordpress.com/2021/06/10/theses-on-techno-optimism/"
-    },
-    {
-      "by": "mastabadtomm",
-      "descendants": 0,
-      "id": 27924279,
-      "score": 1,
-      "time": 1626987686,
-      "title": "XAP: Distributed, highly-scalable, In Memory Data Grid",
-      "type": "story",
-      "url": "https://github.com/xap/xap"
-    },
-    {
-      "by": "eyakubovich",
-      "descendants": 0,
-      "id": 27924274,
-      "score": 3,
-      "time": 1626987670,
-      "title": "Preventing Data Exfiltration with eBPF",
-      "type": "story",
-      "url": "https://goteleport.com/blog/preventing-data-exfiltration-with-ebpf/"
     }
   ]
 }
