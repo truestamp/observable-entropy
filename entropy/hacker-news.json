@@ -1,6 +1,56 @@
 {
   "stories": [
     {
+      "by": "dmm",
+      "descendants": 0,
+      "id": 27940430,
+      "score": 1,
+      "time": 1627130589,
+      "title": "Society is on track for collapse, new study of infamous 1970s report finds",
+      "type": "story",
+      "url": "https://www.livescience.com/collapse-human-society-limits-to-growth.html"
+    },
+    {
+      "by": "mardiyah",
+      "descendants": 0,
+      "id": 27940429,
+      "score": 1,
+      "time": 1627130575,
+      "title": "Microsoft went from door to door to take malware-infected routers offline",
+      "type": "story",
+      "url": "https://www.notebookcheck.net/Microsoft-went-from-door-to-door-to-take-malware-infected-routers-offline.551492.0.html"
+    },
+    {
+      "by": "NateEag",
+      "descendants": 0,
+      "id": 27940428,
+      "score": 1,
+      "time": 1627130562,
+      "title": "Forget privacy: you're terrible at targeting anyway",
+      "type": "story",
+      "url": "https://apenwarr.ca/log/?m=201902"
+    },
+    {
+      "by": "rednafi",
+      "descendants": 0,
+      "id": 27940417,
+      "score": 1,
+      "text": "At my workplace, I was working on a Django monolith, where managing the nitty-gritty of sending, monitoring, and managing event-triggered POST requests quickly became cumbersome. The requests were failing due to client-side issues and we were plagued by different observability problems as well. So, I was looking for a generic OSS solution for managing and monitoring webhooks and ended up making one.<p>This leverages Redis, RQ, RQMonitor, Fastapi, Uvicorn &amp; Rich. It just takes a payload, sends that asynchronously to the destination URL, handles exceptions gracefully, and exposes a GUI that lets you monitor the system and retry the failed jobs manually. The entire orchestra can be launched and horizontally scaled up by a single docker-compose command.<p>This standalone service is built for simplicity and it helped me to decouple the webhook management logic from the primary monolith I was working on. You might find it useful. Suggestions and pull requests are always welcome.<p>https:&#x2F;&#x2F;github.com&#x2F;rednafi&#x2F;hook-slinger",
+      "time": 1627130508,
+      "title": "A generic service to send, retry, and manage webhooks",
+      "type": "story"
+    },
+    {
+      "by": "kiyanwang",
+      "descendants": 0,
+      "id": 27940412,
+      "score": 1,
+      "time": 1627130469,
+      "title": "Guiding critical projects without micromanaging",
+      "type": "story",
+      "url": "https://skamille.medium.com/guiding-critical-projects-without-micromanaging-2391ba83f955"
+    },
+    {
       "by": "driver8_",
       "descendants": 0,
       "id": 27940371,
@@ -49,62 +99,6 @@
       "title": "FreeBSD Quarterly Status Report 2021 Q2",
       "type": "story",
       "url": "https://www.freebsd.org/status/report-2021-04-2021-06/"
-    },
-    {
-      "by": "NilsIRL",
-      "descendants": 0,
-      "id": 27940281,
-      "score": 2,
-      "time": 1627129300,
-      "title": "Show HN: FlocBloc – Obfuscate/Spoof your FLoC cohort id",
-      "type": "story",
-      "url": "https://github.com/NilsIrl/FlocBloc"
-    },
-    {
-      "by": "shankysingh",
-      "descendants": 0,
-      "id": 27940259,
-      "kids": [
-        27940280
-      ],
-      "score": 1,
-      "time": 1627129059,
-      "title": "Neural Materials Are Amazing",
-      "type": "story",
-      "url": "https://www.youtube.com/watch?v=1F-WnarzkX8"
-    },
-    {
-      "by": "giansegato",
-      "descendants": 0,
-      "id": 27940258,
-      "score": 2,
-      "time": 1627129058,
-      "title": "A philosophical intuition behind the blockchain",
-      "type": "story",
-      "url": "https://giansegato.com/essays/a-philosophical-intuition-behind-the-blockchain/"
-    },
-    {
-      "by": "detaro",
-      "descendants": 1,
-      "id": 27940254,
-      "kids": [
-        27940262
-      ],
-      "score": 1,
-      "time": 1627129016,
-      "title": "Some problems in the dataset of a large study of Ivermectin for Covid-19",
-      "type": "story",
-      "url": "https://steamtraen.blogspot.com/2021/07/Some-problems-with-the-data-from-a-Covid-study.html"
-    },
-    {
-      "by": "shankysingh",
-      "descendants": 0,
-      "id": 27940242,
-      "score": 1,
-      "time": 1627128918,
-      "title": "Want Driverless Cars on Roads Now",
-      "type": "story",
-      "url": "https://www.youtube.com/watch?v=yjztvddhZmI"
     }
   ]
 }
