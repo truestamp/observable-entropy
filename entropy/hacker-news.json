@@ -1,6 +1,65 @@
 {
   "stories": [
     {
+      "by": "ingve",
+      "descendants": 0,
+      "id": 27940537,
+      "score": 1,
+      "time": 1627131529,
+      "title": "Is Norway the New East India Company?",
+      "type": "story",
+      "url": "https://branko2f7.substack.com/p/is-norway-the-new-east-india-company"
+    },
+    {
+      "by": "Tomte",
+      "descendants": 0,
+      "id": 27940536,
+      "score": 1,
+      "time": 1627131520,
+      "title": "US Secret Service Hands Ready (2008)",
+      "type": "story",
+      "url": "https://cryptome.org/info/usss-hands/usss-hands.htm"
+    },
+    {
+      "by": "Tomte",
+      "descendants": 0,
+      "id": 27940535,
+      "score": 1,
+      "time": 1627131513,
+      "title": "Oranges and lemons–the FX scandal in perspective (2014)",
+      "type": "story",
+      "url": "https://medium.com/bull-market/oranges-and-lemons-the-fx-scandal-in-perspective-cd3456089ce4"
+    },
+    {
+      "by": "d4rkp4ttern",
+      "descendants": 0,
+      "id": 27940526,
+      "score": 1,
+      "time": 1627131410,
+      "title": "Explainable medical AI is easier said",
+      "type": "story"
+    },
+    {
+      "by": "rbanffy",
+      "descendants": 0,
+      "id": 27940525,
+      "score": 1,
+      "time": 1627131400,
+      "title": "“Heal Hitler”: a new video game where you stop genocide with psychotherapy",
+      "type": "story",
+      "url": "https://store.steampowered.com/app/1612480/Heal_Hitler/"
+    },
+    {
+      "by": "d4rkp4ttern",
+      "descendants": 0,
+      "id": 27940523,
+      "score": 2,
+      "time": 1627131390,
+      "title": "Explainable",
+      "type": "story",
+      "url": "https://www.statnews.com/2021/07/21/explainable-medical-ai-easier-said-than-done/"
+    },
+    {
       "by": "kiyanwang",
       "descendants": 0,
       "id": 27940501,
@@ -24,7 +83,7 @@
       "by": "kiyanwang",
       "descendants": 0,
       "id": 27940475,
-      "score": 1,
+      "score": 2,
       "time": 1627130954,
       "title": "Mind the Platform Execution Gap",
       "type": "story",
@@ -32,76 +91,16 @@
     },
     {
       "by": "mardiyah",
-      "descendants": 0,
+      "descendants": 1,
       "id": 27940470,
+      "kids": [
+        27940530
+      ],
       "score": 1,
       "time": 1627130931,
       "title": "Arm’s cheap and flexible plastic microchip could create ‘internet of everything’",
       "type": "story",
       "url": "https://www.theverge.com/2021/7/23/22590001/arm-plasticarm-cheap-flexible-plastic-microchip-internet-of-everything"
-    },
-    {
-      "by": "sheldor",
-      "descendants": 1,
-      "id": 27940457,
-      "kids": [
-        27940465
-      ],
-      "score": 1,
-      "time": 1627130858,
-      "title": "Object-oriented programming is dead. Wait, really?",
-      "type": "story",
-      "url": "https://thenextweb.com/news/object-oriented-programming-is-dead-syndication"
-    },
-    {
-      "by": "dmm",
-      "descendants": 0,
-      "id": 27940430,
-      "score": 1,
-      "time": 1627130589,
-      "title": "Society is on track for collapse, new study of infamous 1970s report finds",
-      "type": "story",
-      "url": "https://www.livescience.com/collapse-human-society-limits-to-growth.html"
-    },
-    {
-      "by": "mardiyah",
-      "descendants": 0,
-      "id": 27940429,
-      "score": 1,
-      "time": 1627130575,
-      "title": "Microsoft went from door to door to take malware-infected routers offline",
-      "type": "story",
-      "url": "https://www.notebookcheck.net/Microsoft-went-from-door-to-door-to-take-malware-infected-routers-offline.551492.0.html"
-    },
-    {
-      "by": "NateEag",
-      "descendants": 0,
-      "id": 27940428,
-      "score": 2,
-      "time": 1627130562,
-      "title": "Forget privacy: you're terrible at targeting anyway",
-      "type": "story",
-      "url": "https://apenwarr.ca/log/?m=201902"
-    },
-    {
-      "by": "rednafi",
-      "descendants": 0,
-      "id": 27940417,
-      "score": 1,
-      "text": "At my workplace, I was working on a Django monolith, where managing the nitty-gritty of sending, monitoring, and managing event-triggered POST requests quickly became cumbersome. The requests were failing due to client-side issues and we were plagued by different observability problems as well. So, I was looking for a generic OSS solution for managing and monitoring webhooks and ended up making one.<p>This leverages Redis, RQ, RQMonitor, Fastapi, Uvicorn &amp; Rich. It just takes a payload, sends that asynchronously to the destination URL, handles exceptions gracefully, and exposes a GUI that lets you monitor the system and retry the failed jobs manually. The entire orchestra can be launched and horizontally scaled up by a single docker-compose command.<p>This standalone service is built for simplicity and it helped me to decouple the webhook management logic from the primary monolith I was working on. You might find it useful. Suggestions and pull requests are always welcome.<p>https:&#x2F;&#x2F;github.com&#x2F;rednafi&#x2F;hook-slinger",
-      "time": 1627130508,
-      "title": "A generic service to send, retry, and manage webhooks",
-      "type": "story"
-    },
-    {
-      "by": "kiyanwang",
-      "descendants": 0,
-      "id": 27940412,
-      "score": 1,
-      "time": 1627130469,
-      "title": "Guiding critical projects without micromanaging",
-      "type": "story",
-      "url": "https://skamille.medium.com/guiding-critical-projects-without-micromanaging-2391ba83f955"
     }
   ]
 }
