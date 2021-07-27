@@ -1,6 +1,99 @@
 {
   "stories": [
     {
+      "by": "ttsiodras",
+      "descendants": 0,
+      "id": 27974599,
+      "score": 1,
+      "time": 1627404583,
+      "title": "Huffman-compressing Monkey Island PC-speaker music to fit it into an ATtiny85",
+      "type": "story",
+      "url": "https://www.thanassis.space/monkeyislandmusic.html"
+    },
+    {
+      "by": "Tomte",
+      "descendants": 0,
+      "id": 27974589,
+      "score": 1,
+      "time": 1627404521,
+      "title": "Nicaraguan Sign Language is a sign language largely spontaneously developed",
+      "type": "story",
+      "url": "https://en.wikipedia.org/wiki/Nicaraguan_Sign_Language"
+    },
+    {
+      "by": "Tomte",
+      "descendants": 0,
+      "id": 27974587,
+      "score": 1,
+      "time": 1627404512,
+      "title": "Catholic Judges in Capital Cases (1998)",
+      "type": "story",
+      "url": "https://scholarship.law.nd.edu/cgi/viewcontent.cgi?article=1523&context=law_faculty_scholarship"
+    },
+    {
+      "by": "vinipolicena",
+      "descendants": 0,
+      "id": 27974582,
+      "score": 1,
+      "time": 1627404494,
+      "title": "Bertrand Meyer: A Standard Plan for Modern Requirements – The PEGS Approach",
+      "type": "story",
+      "url": "https://cacm.acm.org/blogs/blog-cacm/254142-a-standard-plan-for-modern-requirements/fulltext"
+    },
+    {
+      "by": "astlouis44",
+      "descendants": 0,
+      "id": 27974581,
+      "score": 1,
+      "time": 1627404488,
+      "title": "1password raises an extra $100M at a $2B valuation",
+      "type": "story",
+      "url": "https://techcrunch.com/2021/07/27/1password-raises-100m-at-a-2b-valuation/"
+    },
+    {
+      "by": "detkin",
+      "descendants": 1,
+      "id": 27974573,
+      "kids": [
+        27974574
+      ],
+      "score": 4,
+      "time": 1627404456,
+      "title": "Show HN: Finding DORA with Sleuth – the most accurate Accelerate metrics tracker",
+      "type": "story",
+      "url": "https://www.sleuth.io"
+    },
+    {
+      "by": "sahin",
+      "descendants": 0,
+      "id": 27974571,
+      "score": 1,
+      "time": 1627404432,
+      "title": "Government considering 100 points of ID to get Facebook, Tinder account",
+      "type": "story",
+      "url": "https://www.news.com.au/technology/online/security/government-considering-100-points-of-id-to-get-facebook-tinder-account/news-story/624550c621d662da7d3bd98ff3f0e888"
+    },
+    {
+      "by": "Alexisjones",
+      "descendants": 0,
+      "id": 27974557,
+      "score": 1,
+      "time": 1627404365,
+      "title": "MyEtherWallet adds BSC and Binance Bridge in their new Android update",
+      "type": "story",
+      "url": "https://medium.com/myetherwallet/binance-smart-chain-and-binance-bridge-now-available-in-mew-wallet-app-on-android-a7c52e9c21b7"
+    },
+    {
+      "by": "pramodbiligiri",
+      "descendants": 0,
+      "id": 27974555,
+      "score": 1,
+      "time": 1627404358,
+      "title": "Performance vs programming effort between Rust and C on multicore architectures",
+      "type": "story",
+      "url": "https://arxiv.org/abs/2107.11912"
+    },
+    {
       "by": "hunglee2",
       "descendants": 0,
       "id": 27974526,
@@ -9,96 +102,6 @@
       "title": "New Tech Talent May Not Be Where You Think",
       "type": "story",
       "url": "https://blog.hackerrank.com/the-best-new-tech-talent-may-not-be-where-you-think-a-guide-to-hiring-from-universities-in-2021/"
-    },
-    {
-      "by": "ctalledo",
-      "descendants": 0,
-      "id": 27974521,
-      "score": 1,
-      "text": "Hi HN, this is Cesar and Rodny, developers of an open-source container runtime called Sysbox, and co-founders of a startup called Nestybox (YC S20).<p>We launched on HN almost a year ago and got excellent feedback then (https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=24084758).<p>Happy to say that over the past year, Sysbox has continued to gain traction, particularly for securing containers in production, CI&#x2F;CD, and containerized dev environments.<p>We wanted to announce an important new feature: integration between Sysbox and Kubernetes.<p>As a quick refresher, Sysbox is a &quot;runc&quot; that enhances containers in two key ways:<p>1) Hardens container isolation (Linux user-namespace on all containers, partial procfs &amp; sysfs virtualization, initial mount locking, and more).<p>2) Enables containers to run not just microservices, but also system software such as systemd, Docker, K8s, K3s, and more. This enables containers to replace slower&#x2F;less-efficient VMs in many scenarios.<p>Prior to Sysbox this required insecure privileged containers, custom images, and special host mounts, or specialized tools like LXD, KinD and Minikube. With Sysbox, the container runtime sets up the container such that it can run the software securely and seamlessly, increasing security and reducing complexity.<p>Up to recently Sysbox only worked under Docker, but the latest release (v0.4.0) now works under Kubernetes too.<p>This means you can use Kubernetes to orchestrate pods that are rootless (i.e., root in the container maps to an unprivileged user on the host) and can run not just microservices, but full &quot;VM-like&quot; environments.<p>For example, you can create a pod that acts as a well isolated dev environment and inside of it run systemd, your favorite editor, plus Docker. Or create several pods that together form another K8s cluster for testing. Or run the K8s.io KinD inside a pod to create an entire K8s cluster inside one pod. Many interesting and powerful combinations are possible.<p>Sysbox has taken 2-years of very hard work, as it pushes the limits of OS virtualization (uid-shifting, syscall trapping, procfs virtualization, etc.) It was forked from the OCI runc in 2019, so we stand on the shoulders of the developers of that excellent project.<p>Would love to hear your feedback, if you think this new feature is useful, and for which use-cases. Would also encourage you to try it, we think you&#x27;ll find it useful.<p>Thanks!\n- Cesar &amp; Rodny<p>Sysbox: https:&#x2F;&#x2F;github.com&#x2F;nestybox&#x2F;sysbox\nNestybox: https:&#x2F;&#x2F;www.nestybox.com&#x2F;",
-      "time": 1627404184,
-      "title": "Show HN: Rootless Containers/Pods that run systemd, Docker, and even Kubernetes",
-      "type": "story"
-    },
-    {
-      "by": "jpomykala",
-      "descendants": 0,
-      "id": 27974516,
-      "score": 1,
-      "time": 1627404171,
-      "title": "List of Curated i18n Resources",
-      "type": "story",
-      "url": "https://github.com/jpomykala/awesome-i18n"
-    },
-    {
-      "by": "paulcarroty",
-      "descendants": 0,
-      "id": 27974510,
-      "score": 1,
-      "time": 1627404152,
-      "title": "Cease and Desist from Facebook to Barinsta, a FOSS Instagram Client",
-      "type": "story",
-      "url": "https://github.com/austinhuang0131/austinhuang0131/issues/2"
-    },
-    {
-      "by": "todsacerdoti",
-      "descendants": 0,
-      "id": 27974492,
-      "score": 1,
-      "time": 1627404090,
-      "title": "Building a GraphQL Server with Next.js",
-      "type": "story",
-      "url": "https://lyonwj.com/blog/graphql-server-next-js-neo4j-aura-vercel"
-    },
-    {
-      "by": "zanmat0",
-      "descendants": 0,
-      "id": 27974485,
-      "score": 1,
-      "time": 1627404053,
-      "title": "French city of Nice gains UNESCO world heritage status",
-      "type": "story",
-      "url": "https://www.france24.com/en/france/20210727-french-city-of-nice-gains-unesco-world-heritage-status"
-    },
-    {
-      "by": "johnymontana",
-      "descendants": 0,
-      "id": 27974478,
-      "score": 1,
-      "time": 1627404015,
-      "title": "Building a GraphQL Server with Next.js",
-      "type": "story",
-      "url": "https://www.lyonwj.com/blog/graphql-server-next-js-neo4j-aura-vercel"
-    },
-    {
-      "by": "laurex",
-      "descendants": 0,
-      "id": 27974470,
-      "score": 1,
-      "time": 1627403990,
-      "title": "Virtual contact worse than no contact for over-60s in lockdown, says study",
-      "type": "story",
-      "url": "https://www.theguardian.com/world/2021/jul/26/virtual-contact-worse-than-no-contact-for-over-60s-in-lockdown-says-study"
-    },
-    {
-      "by": "theafh",
-      "descendants": 0,
-      "id": 27974448,
-      "score": 2,
-      "time": 1627403866,
-      "title": "A Soil-Science Revolution Upends Plans to Fight Climate Change",
-      "type": "story",
-      "url": "https://www.quantamagazine.org/a-soil-science-revolution-upends-plans-to-fight-climate-change-20210727/"
-    },
-    {
-      "by": "infodocket",
-      "descendants": 0,
-      "id": 27974438,
-      "score": 1,
-      "time": 1627403808,
-      "title": "Pizza Hut Drops First-Ever Streetwear Collection",
-      "type": "story",
-      "url": "https://www.prnewswire.com/news-releases/pizza-hut-drops-first-ever-streetwear-collection-301342101.html"
     }
   ]
 }
