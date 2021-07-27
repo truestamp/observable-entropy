@@ -1,6 +1,76 @@
 {
   "stories": [
     {
+      "by": "hunglee2",
+      "descendants": 0,
+      "id": 27974526,
+      "score": 1,
+      "time": 1627404192,
+      "title": "New Tech Talent May Not Be Where You Think",
+      "type": "story",
+      "url": "https://blog.hackerrank.com/the-best-new-tech-talent-may-not-be-where-you-think-a-guide-to-hiring-from-universities-in-2021/"
+    },
+    {
+      "by": "ctalledo",
+      "descendants": 0,
+      "id": 27974521,
+      "score": 1,
+      "text": "Hi HN, this is Cesar and Rodny, developers of an open-source container runtime called Sysbox, and co-founders of a startup called Nestybox (YC S20).<p>We launched on HN almost a year ago and got excellent feedback then (https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=24084758).<p>Happy to say that over the past year, Sysbox has continued to gain traction, particularly for securing containers in production, CI&#x2F;CD, and containerized dev environments.<p>We wanted to announce an important new feature: integration between Sysbox and Kubernetes.<p>As a quick refresher, Sysbox is a &quot;runc&quot; that enhances containers in two key ways:<p>1) Hardens container isolation (Linux user-namespace on all containers, partial procfs &amp; sysfs virtualization, initial mount locking, and more).<p>2) Enables containers to run not just microservices, but also system software such as systemd, Docker, K8s, K3s, and more. This enables containers to replace slower&#x2F;less-efficient VMs in many scenarios.<p>Prior to Sysbox this required insecure privileged containers, custom images, and special host mounts, or specialized tools like LXD, KinD and Minikube. With Sysbox, the container runtime sets up the container such that it can run the software securely and seamlessly, increasing security and reducing complexity.<p>Up to recently Sysbox only worked under Docker, but the latest release (v0.4.0) now works under Kubernetes too.<p>This means you can use Kubernetes to orchestrate pods that are rootless (i.e., root in the container maps to an unprivileged user on the host) and can run not just microservices, but full &quot;VM-like&quot; environments.<p>For example, you can create a pod that acts as a well isolated dev environment and inside of it run systemd, your favorite editor, plus Docker. Or create several pods that together form another K8s cluster for testing. Or run the K8s.io KinD inside a pod to create an entire K8s cluster inside one pod. Many interesting and powerful combinations are possible.<p>Sysbox has taken 2-years of very hard work, as it pushes the limits of OS virtualization (uid-shifting, syscall trapping, procfs virtualization, etc.) It was forked from the OCI runc in 2019, so we stand on the shoulders of the developers of that excellent project.<p>Would love to hear your feedback, if you think this new feature is useful, and for which use-cases. Would also encourage you to try it, we think you&#x27;ll find it useful.<p>Thanks!\n- Cesar &amp; Rodny<p>Sysbox: https:&#x2F;&#x2F;github.com&#x2F;nestybox&#x2F;sysbox\nNestybox: https:&#x2F;&#x2F;www.nestybox.com&#x2F;",
+      "time": 1627404184,
+      "title": "Show HN: Rootless Containers/Pods that run systemd, Docker, and even Kubernetes",
+      "type": "story"
+    },
+    {
+      "by": "jpomykala",
+      "descendants": 0,
+      "id": 27974516,
+      "score": 1,
+      "time": 1627404171,
+      "title": "List of Curated i18n Resources",
+      "type": "story",
+      "url": "https://github.com/jpomykala/awesome-i18n"
+    },
+    {
+      "by": "paulcarroty",
+      "descendants": 0,
+      "id": 27974510,
+      "score": 1,
+      "time": 1627404152,
+      "title": "Cease and Desist from Facebook to Barinsta, a FOSS Instagram Client",
+      "type": "story",
+      "url": "https://github.com/austinhuang0131/austinhuang0131/issues/2"
+    },
+    {
+      "by": "todsacerdoti",
+      "descendants": 0,
+      "id": 27974492,
+      "score": 1,
+      "time": 1627404090,
+      "title": "Building a GraphQL Server with Next.js",
+      "type": "story",
+      "url": "https://lyonwj.com/blog/graphql-server-next-js-neo4j-aura-vercel"
+    },
+    {
+      "by": "zanmat0",
+      "descendants": 0,
+      "id": 27974485,
+      "score": 1,
+      "time": 1627404053,
+      "title": "French city of Nice gains UNESCO world heritage status",
+      "type": "story",
+      "url": "https://www.france24.com/en/france/20210727-french-city-of-nice-gains-unesco-world-heritage-status"
+    },
+    {
+      "by": "johnymontana",
+      "descendants": 0,
+      "id": 27974478,
+      "score": 1,
+      "time": 1627404015,
+      "title": "Building a GraphQL Server with Next.js",
+      "type": "story",
+      "url": "https://www.lyonwj.com/blog/graphql-server-next-js-neo4j-aura-vercel"
+    },
+    {
       "by": "laurex",
       "descendants": 0,
       "id": 27974470,
@@ -29,79 +99,6 @@
       "title": "Pizza Hut Drops First-Ever Streetwear Collection",
       "type": "story",
       "url": "https://www.prnewswire.com/news-releases/pizza-hut-drops-first-ever-streetwear-collection-301342101.html"
-    },
-    {
-      "by": "ctoth",
-      "descendants": 0,
-      "id": 27974436,
-      "score": 1,
-      "time": 1627403801,
-      "title": "We’re Kidding Ourselves That Workers Perform Well from Home",
-      "type": "story",
-      "url": "https://www.nytimes.com/2021/07/26/opinion/covid-return-to-office-work-houston.html"
-    },
-    {
-      "by": "ingve",
-      "descendants": 0,
-      "id": 27974430,
-      "score": 1,
-      "time": 1627403780,
-      "title": "Virtual Analog Synthesizer: Bandlimited Waveforms",
-      "type": "story",
-      "url": "http://peter.mcevoy.se/blog/synth2-bl-osc.html"
-    },
-    {
-      "by": "Jarlakxen",
-      "descendants": 0,
-      "id": 27974380,
-      "score": 1,
-      "time": 1627403557,
-      "title": "Chilean plant-based food company, NotCo, valued at 1.5b",
-      "type": "story",
-      "url": "https://techcrunch.com/2021/07/26/notco-gets-its-horn-following-235m-round-to-expand-plant-based-food-products/"
-    },
-    {
-      "by": "formalsystem",
-      "descendants": 0,
-      "id": 27974375,
-      "score": 3,
-      "time": 1627403537,
-      "title": "Dell is cancelling Alienware gaming PC shipments to several US states",
-      "type": "story",
-      "url": "https://www.pcgamer.com/dell-is-cancelling-alienware-gaming-pc-shipments-to-several-us-states/"
-    },
-    {
-      "by": "ctoth",
-      "descendants": 0,
-      "id": 27974359,
-      "score": 3,
-      "time": 1627403442,
-      "title": "Misterhouse: An open source home automation program written in Perl",
-      "type": "story",
-      "url": "http://misterhouse.sourceforge.net/"
-    },
-    {
-      "by": "jeffbee",
-      "descendants": 1,
-      "id": 27974350,
-      "kids": [
-        27974453
-      ],
-      "score": 8,
-      "time": 1627403402,
-      "title": "Large cars kill US pedestrians, don't make drivers safer",
-      "type": "story",
-      "url": "https://twitter.com/justin_tyndall/status/1419790491076288516"
-    },
-    {
-      "by": "liotier",
-      "descendants": 0,
-      "id": 27974332,
-      "score": 1,
-      "time": 1627403344,
-      "title": "How to set up Tegola vector tile server on Ubuntu 20.04 for OpenStreetMap",
-      "type": "story",
-      "url": "https://www.linuxbabe.com/ubuntu/set-up-tegola-vector-tile-server-ubuntu-20-04"
     }
   ]
 }
