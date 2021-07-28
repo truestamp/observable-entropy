@@ -1,10 +1,74 @@
 {
   "stories": [
+    null,
+    {
+      "by": "graderjs",
+      "descendants": 0,
+      "id": 27983261,
+      "score": 1,
+      "time": 1627477784,
+      "title": "1979 Solar Eclipse Coverage [video]",
+      "type": "story",
+      "url": "https://www.youtube.com/watch?v=gAacZoIJUN0"
+    },
+    {
+      "by": "gzer0",
+      "descendants": 0,
+      "id": 27983253,
+      "score": 1,
+      "time": 1627477727,
+      "title": "Supabase: Open-Source Firebase Alternative",
+      "type": "story",
+      "url": "https://github.com/supabase/supabase"
+    },
+    {
+      "by": "gregbrimble",
+      "descendants": 0,
+      "id": 27983246,
+      "score": 1,
+      "time": 1627477699,
+      "title": "Crawler Hints: How Cloudflare Is Reducing the Environmental Impact of Web Search",
+      "type": "story",
+      "url": "https://blog.cloudflare.com/crawler-hints-how-cloudflare-is-reducing-the-environmental-impact-of-web-searches/"
+    },
+    {
+      "by": "makerofspoons",
+      "descendants": 0,
+      "id": 27983244,
+      "score": 1,
+      "time": 1627477679,
+      "title": "Scientists who declared climate emergency say Earth’s vital signs have worsened",
+      "type": "story",
+      "url": "https://www.independent.co.uk/climate-change/news/climate-emergency-earth-vital-signs-b1891724.html"
+    },
+    {
+      "by": "openquery",
+      "descendants": 1,
+      "id": 27983227,
+      "kids": [
+        27983269
+      ],
+      "score": 1,
+      "time": 1627477553,
+      "title": "Show HN: Gather",
+      "type": "story",
+      "url": "https://www.gather.town/"
+    },
+    {
+      "by": "sohkamyung",
+      "descendants": 0,
+      "id": 27983226,
+      "score": 1,
+      "time": 1627477552,
+      "title": "How the coronavirus infects cells – and why Delta is so dangerous",
+      "type": "story",
+      "url": "https://www.nature.com/articles/d41586-021-02039-y"
+    },
     {
       "by": "ympatel",
       "descendants": 0,
       "id": 27983197,
-      "score": 1,
+      "score": 3,
       "text": "Hi HN! We’re Yash, Arthur, and Daniel, the founders of Legion Health (<a href=\"https:&#x2F;&#x2F;legion.health\" rel=\"nofollow\">https:&#x2F;&#x2F;legion.health</a>). We&#x27;re an online marketplace for health care professionals, starting in mental health. Basically, we sell psychiatrists&#x27; and therapists’ time to telehealth companies by the hour. Professionals sign up for shifts that fit their schedule, and telehealth companies can scale more quickly by not needing to hire them full time.<p>Telehealth companies and other health care organizations (hospitals, medical groups, home health, etc.) face huge problems around recruiting, managing, and scheduling clinicians to meet patient demand. This is getting worse because of a large (230,000+) shortage of mental health professionals in the US. Staffing companies exist, but they solve only one piece of that problem, are expensive, and don’t mitigate risk for their customers.<p>We heard how bad things were during a 2-hour call with the Director of Business Operations at a large telehealth company last December. She told us in amazing detail how difficult it is to recruit doctors to her platform and how much gets spent on that sole task. In addition, she talked about the weekly fluctuation in patient demand and the pain felt when scaling her physician workforce up and down. Independently, over the next week, Arthur started thinking about &quot;Uber for doctors&quot; and Daniel conceived &quot;AWS for doctor time,&quot; and then we realized they were two sides of the same marketplace.<p>While honing our idea, we found that it is most applicable to mental health. In the US, mental health has undergone a boom in demand in recent years (whether at hospitals or telehealth companies, like Modern Health, Daybreak, and Ophelia—all funded by YC). However, supply has not kept up—there just aren’t enough professionals. Mental health is also a field that is quite suited to care delivery via telehealth. So we started there.<p>Our product solves problems on both sides of the market. On the supply side, many mental health professionals are looking for additional work to supplement their existing part- or full-time jobs at a hospital, the VA, etc. On the demand side, health care organizations are looking for a more affordable and flexible solution for their staffing problem. We find out what time is available from our network of clinicians, divide it into hour-long chunks, then sell those hours to our customers (the health care organizations) who only pay for the time that they use—that is, the hours when the clinicians are actually working with their patients.<p>Unlike staffing companies and in-house recruiters, we turn health care companies&#x27; fixed costs into variable costs, significantly reduce hiring risk, and have no upfront fees. Compared to other telepsychiatry solutions, we are much less expensive because our network consists mostly of psychiatric nurse practitioners and social workers who, in many states, do almost everything that psychiatrists do but (for historical reasons) charge lower rates. Unlike other telehealth staffing solutions, we are obsessed with quality (in regard to both clinician performance and building our product to facilitate long-term clinician-patient relationships), ease of integration, and not having minimum usage amounts.<p>Our product doesn’t exist in a public form. Rather, health companies white-label our network to better meet their patient demand. We currently have a network of 131 mental health professionals whom we match with our customers manually (“do things that don’t scale”). We are building software for scheduling, clinician-customer-patient matching, clinician onboarding, notifications, etc.<p>COVID-19 has made telehealth normal for patients, clinicians, and institutions, so the opportunity here is huge. Even traditional institutions (hospitals, rural clinics, home health, assisted living, hospice, etc.) need a smarter staffing solution because hiring health care professionals is incredibly hard for them as well. At present, we are figuring out where to show traction first as we scale. So far, we’re seeing that the organizations with the shortest sales cycles tend to be smaller, more agile, more tech-friendly companies.<p>If I could end on a personal note: although all this marketplace talk sounds cold and fungible, all three of us first encountered this problem from the patient side. My father had brain cancer last year, and getting ahold of his hospice nurses to do simple tasks like refilling his meds was a pain. The nurses wanted to help; there just weren&#x27;t enough of them. For Arthur, when he was a child in rural Colorado, his brother had a nasty string of epileptic seizures brought on by inadvertent exposure to chemicals from a meth dealer down the street. It took 2 months (after over 150 seizures) for his brother to see a specialist in Denver who could treat him. For Daniel, it was when a close friend in crisis tried to schedule an appointment with her psychiatrist and found that the earliest she could see him was in 3 months. The latter experience hits closest to what we’re tackling first at Legion Health, but the fact that we all know how desperate it feels when care is needed, but not available, gives us motivation to keep going, even when running into the notorious intractability of the US health care system.<p>We&#x27;d love to hear what you think, even if it’s constructive criticism on our approach. If you or a friend hires health care professionals (especially in mental health), we&#x27;d love to talk to you to figure out what parts of our tech product you find most valuable, so we can figure out where to build next. If you or a friend is a mental health professional, thank you for doing such important and necessary work during these difficult times. Excited to answer any questions and hear your ideas, feedback, and experiences in the comments!",
       "time": 1627477346,
       "title": "Launch HN: Legion Health (YC S21) – Smarter Staffing for Mental Health",
@@ -29,67 +93,6 @@
       "title": "Walmart to License Its Digital Tech",
       "type": "story",
       "url": "https://www.pymnts.com/walmart/2021/walmart-to-license-its-digital-tech/"
-    },
-    {
-      "by": "manjana",
-      "descendants": 0,
-      "id": 27983156,
-      "score": 2,
-      "time": 1627477039,
-      "title": "Facebook creates exec team to work on metaverse",
-      "type": "story",
-      "url": "https://www.cnbc.com/2021/07/26/facebook-creates-exec-team-to-work-on-metaverse.html"
-    },
-    {
-      "by": "nickthegreek",
-      "descendants": 0,
-      "id": 27983154,
-      "score": 1,
-      "time": 1627477012,
-      "title": "Julian Assange stripped of citizenship by Ecuador",
-      "type": "story",
-      "url": "https://www.theguardian.com/media/2021/jul/28/julian-assange-stripped-of-citizenship-by-ecuador"
-    },
-    {
-      "by": "watchdogtimer",
-      "descendants": 0,
-      "id": 27983152,
-      "score": 1,
-      "time": 1627476979,
-      "title": "Emulating the IBM PC on an ESP32",
-      "type": "story",
-      "url": "https://hackaday.com/2021/07/28/emulating-the-ibm-pc-on-an-esp32/"
-    },
-    null,
-    {
-      "by": "jonbaer",
-      "descendants": 0,
-      "id": 27983138,
-      "score": 1,
-      "time": 1627476865,
-      "title": "Mesa: Agent-Based Modeling in Python",
-      "type": "story",
-      "url": "https://mesa.readthedocs.io/en/master/"
-    },
-    {
-      "by": "skadamat",
-      "descendants": 0,
-      "id": 27983129,
-      "score": 1,
-      "time": 1627476789,
-      "title": "Apache Superset as a Chart.io Alternative",
-      "type": "story",
-      "url": "https://preset.io/blog/2021-7-22-superset-vs-chartio/"
-    },
-    {
-      "by": "ta988",
-      "descendants": 0,
-      "id": 27983090,
-      "score": 1,
-      "text": "Or at least without people only in charge of project management. If you know one, how did it come to that? Was it started that way? If this has been running for a while what&#x27;s your experience?",
-      "time": 1627476465,
-      "title": "Ask HN: Are there medium-sized software companies without project managers",
-      "type": "story"
     }
   ]
 }
