@@ -1,6 +1,36 @@
 {
   "stories": [
     {
+      "by": "vmception",
+      "descendants": 0,
+      "id": 27991205,
+      "score": 1,
+      "text": "Hello, I have a static website that I want to do a couple asnychronous requests for data, used to render some data visualizations.<p>I could do it on the website&#x27;s javascript itself, except for the API keys needed to access the third party. So instead I&#x27;ll put the API keys on the server and get the data and serve the result to the website.<p>Heroku cost $25&#x2F;month. I can think of an AWS lambda + database that would theoretically be cheaper, or theoretically more expensive. But what would you guys use?",
+      "time": 1627516399,
+      "title": "Ask HN: Cheap back end for static website",
+      "type": "story"
+    },
+    {
+      "by": "room505",
+      "descendants": 0,
+      "id": 27991199,
+      "score": 1,
+      "time": 1627516338,
+      "title": "Infectivity and immune escape of the new SARS-CoV-2 variant of interest Lambda",
+      "type": "story",
+      "url": "https://www.medrxiv.org/content/10.1101/2021.06.28.21259673v1"
+    },
+    {
+      "by": "pjfin123",
+      "descendants": 0,
+      "id": 27991195,
+      "score": 1,
+      "time": 1627516288,
+      "title": "Machine Translation in Argos Translate",
+      "type": "story",
+      "url": "https://odysee.com/@argosopentech:7/Machine-Translation-in-Argos-Translate-2021:5"
+    },
+    {
       "by": "toomuchtodo",
       "descendants": 0,
       "id": 27991178,
@@ -22,9 +52,12 @@
     },
     {
       "by": "i0exception",
-      "descendants": 0,
+      "descendants": 1,
       "id": 27991164,
-      "score": 2,
+      "kids": [
+        27991204
+      ],
+      "score": 3,
       "time": 1627516042,
       "title": "Joe Biden is overseeing one of the largest cuts in legal immigration in history",
       "type": "story",
@@ -44,7 +77,7 @@
       "by": "AndrewBissell",
       "descendants": 0,
       "id": 27991137,
-      "score": 3,
+      "score": 4,
       "time": 1627515778,
       "title": "Coronavirus lockdowns have worsened hunger around the world",
       "type": "story",
@@ -64,44 +97,11 @@
       "by": "inet6",
       "descendants": 0,
       "id": 27991123,
-      "score": 2,
+      "score": 3,
       "time": 1627515655,
       "title": "GCC regression breaks nested for loop generation since 2018",
       "type": "story",
       "url": "https://gcc.gnu.org/bugzilla/show_bug.cgi?id=101653"
-    },
-    {
-      "by": "fortran77",
-      "descendants": 0,
-      "id": 27991120,
-      "score": 3,
-      "time": 1627515646,
-      "title": "Calculus Made Easy",
-      "type": "story",
-      "url": "https://calculusmadeeasy.org/"
-    },
-    {
-      "by": "lmmx",
-      "descendants": 1,
-      "id": 27991118,
-      "kids": [
-        27991132
-      ],
-      "score": 2,
-      "time": 1627515611,
-      "title": "Show HN: range-streams — Streaming via Range Requests in Python",
-      "type": "story",
-      "url": "https://github.com/lmmx/range-streams"
-    },
-    {
-      "by": "toomuchtodo",
-      "descendants": 0,
-      "id": 27991096,
-      "score": 1,
-      "time": 1627515460,
-      "title": "The Wu-Tang Deal Had So Much Potential",
-      "type": "story",
-      "url": "https://www.bloomberg.com/opinion/articles/2021-07-28/wu-tang-album-owned-by-martin-shkreli-had-so-much-potential"
     }
   ]
 }
