@@ -1,6 +1,36 @@
 {
   "stories": [
     {
+      "by": "mkl95",
+      "descendants": 0,
+      "id": 28009321,
+      "score": 1,
+      "time": 1627660426,
+      "title": "Deliveroo eyes leaving Spain as riders become staff",
+      "type": "story",
+      "url": "https://www.thelocal.es/20210730/deliveroo-eyes-leaving-spain-as-riders-become-staff/"
+    },
+    {
+      "by": "dlor",
+      "descendants": 0,
+      "id": 28009302,
+      "score": 1,
+      "time": 1627660362,
+      "title": "In Defense of Package Managers",
+      "type": "story",
+      "url": "https://dlorenc.medium.com/in-defense-of-package-managers-31792111d7b1"
+    },
+    {
+      "by": "hatselfie",
+      "descendants": 0,
+      "id": 28009270,
+      "score": 1,
+      "time": 1627660219,
+      "title": "Should you start a side hustle?",
+      "type": "story",
+      "url": "https://adamjwalker.substack.com/p/should-you-start-a-side-hustle"
+    },
+    {
       "by": "timthorn",
       "descendants": 0,
       "id": 28009254,
@@ -24,7 +54,7 @@
       "by": "geekylife",
       "descendants": 0,
       "id": 28009230,
-      "score": 1,
+      "score": 2,
       "time": 1627659973,
       "title": "Swift Protocol Oriented Programming and Testing",
       "type": "story",
@@ -45,8 +75,11 @@
     },
     {
       "by": "username90",
-      "descendants": 0,
+      "descendants": 1,
       "id": 28009218,
+      "kids": [
+        28009295
+      ],
       "score": 1,
       "text": "I feel the main problem delivering value is that codebases are too big and complex. If we made a business logic language intentionally made to be sandboxed which doesn&#x27;t let you refer to code in other files or include libraries that would help a lot separating business logic from infrastructure code.<p>The way it would be used is that programmers writes some interface in their language, and then that interface becomes a compiler that can verify and compile a business logic script file. The script would run in a sandboxed environment with resource restrictions so it can&#x27;t run too long or crash the server.<p>Such a language wouldn&#x27;t just help people write code files for apps, but could also enable just having a textbox field where you could add programs to filter or sort results to your liking etc. I guess you could view it in the same way as the popular regular expression language that is embedded in so many apps and programs, but with enough power that it would cover most business logic needs.<p>Since it was designed from the start to be sandboxed like this it wont be hard to make it safe, and as it gets wider appeal more people would get interested in programming. That is the theory at least, is anyone aware of attempts to do this? The requirement that it can&#x27;t depend on external code is absolutely necessary though, that is the main advantage of regular expressions and why you can easily embed those in API&#x27;s.",
       "time": 1627659931,
@@ -72,36 +105,6 @@
       "title": "A Conversation Between Bob Coecke and Stephen Wolfram",
       "type": "story",
       "url": "https://www.youtube.com/watch?v=8CUTXaGqvSQ"
-    },
-    {
-      "by": "jonbaer",
-      "descendants": 0,
-      "id": 28009170,
-      "score": 1,
-      "time": 1627659726,
-      "title": "Building Japan's Quantum Future with IBM Quantum System One",
-      "type": "story",
-      "url": "https://www.research.ibm.com/blog/japan-quantum-system-one"
-    },
-    {
-      "by": "amscotti",
-      "descendants": 0,
-      "id": 28009165,
-      "score": 1,
-      "time": 1627659700,
-      "title": ".NET Conf: Focus on F#",
-      "type": "story",
-      "url": "https://www.youtube.com/watch?v=i3qEhwcG7ps"
-    },
-    {
-      "by": "chmaynard",
-      "descendants": 0,
-      "id": 28009158,
-      "score": 2,
-      "time": 1627659653,
-      "title": "Strict memcpy() bounds checking for the Linux kernel",
-      "type": "story",
-      "url": "https://lwn.net/SubscriberLink/864521/543ac739d6cf71b3/"
     }
   ]
 }
