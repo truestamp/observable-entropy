@@ -1,6 +1,16 @@
 {
   "stories": [
     {
+      "by": "samizdis",
+      "descendants": 0,
+      "id": 28003960,
+      "score": 1,
+      "time": 1627613767,
+      "title": "The British shipwreck that changed the world, by the establishment of longitude",
+      "type": "story",
+      "url": "https://www.bbc.com/travel/article/20210729-the-british-shipwreck-that-changed-the-world"
+    },
+    {
       "by": "jdmark",
       "descendants": 0,
       "id": 28003927,
@@ -15,7 +25,7 @@
       "descendants": 0,
       "id": 28003914,
       "score": 1,
-      "text": "Hello HN ,\nA bit of Friday morning &quot;productivity&quot;. I decided I needed to track how I am feeling at different times of the day and wrote a 4 line bash function. The idea is to meet the following requirements : \n1. Easy to use and readily accessible\n2. Store in a CSV and push to git so that I can create nice looking graphs later on\n3. Make good use of time on a day I woke up at 5:30AM :)<p>```\n score=$1<p>message=$2<p>echo &quot;$score,$message,`date`&quot; &gt;&gt;mood.csv<p>git commit -am &quot;Mood@`date`&quot; &amp;&amp; git push origin main<p>```",
+      "text": "Hello HN ,\nA bit of Friday morning &quot;productivity&quot;. I decided I needed to track how I am feeling at different times of the day and wrote a 4 line bash function. The idea is to meet the following requirements : \n1. Easy to use and readily accessible\n2. Store in a CSV and push to git so that I can create nice looking graphs later on\n3. Make good use of time on a day I woke up at 5:30AM :)<p>Function is stored in ~&#x2F;.bashrc and I use the terminal . Scale is from 0 to 10 with 0 being the worst<p>`mt 10 &quot;Show HN first submission&quot;`<p>```\nfunction mt() {<p>score=$1<p>message=$2<p>echo &quot;$score,$message,`date`&quot; &gt;&gt;mood.csv<p>git commit -am &quot;Mood@`date`&quot; &amp;&amp; git push origin main<p>}\n```",
       "time": 1627613172,
       "title": "Show HN: CLI Mood Tracker",
       "type": "story"
@@ -95,16 +105,6 @@
       "title": "Microsoft Escapes Antitrust Scrutiny",
       "type": "story",
       "url": "https://www.theatlantic.com/ideas/archive/2021/07/microsofts-antitrust/619599/"
-    },
-    {
-      "by": "BigBalli",
-      "descendants": 0,
-      "id": 28003776,
-      "score": 2,
-      "time": 1627611910,
-      "title": "China: Hotels,banks,business need consent for facial recognition",
-      "type": "story",
-      "url": "https://news.bloomberglaw.com/tech-and-telecom-law/chinas-top-court-sets-detailed-rules-for-facial-recognition"
     }
   ]
 }
