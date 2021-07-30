@@ -1,6 +1,36 @@
 {
   "stories": [
     {
+      "by": "bemmu",
+      "descendants": 0,
+      "id": 28003981,
+      "score": 1,
+      "time": 1627614088,
+      "title": "Squid Giant Axon",
+      "type": "story",
+      "url": "https://en.wikipedia.org/wiki/Squid_giant_axon"
+    },
+    {
+      "by": "rodrigo975",
+      "descendants": 0,
+      "id": 28003978,
+      "score": 1,
+      "time": 1627614045,
+      "title": "Act-pot: Scripts to use pot to manage GitHub-act-runner in a FreeBSD jail",
+      "type": "story",
+      "url": "https://github.com/davidchisnall/act-pot"
+    },
+    {
+      "by": "doppp",
+      "descendants": 0,
+      "id": 28003976,
+      "score": 1,
+      "time": 1627614010,
+      "title": "Why Robinhood Stock Fell 8% in Its Trading Debut–and What It Means",
+      "type": "story",
+      "url": "https://www.barrons.com/articles/robinhood-ipo-stock-price-51627518793"
+    },
+    {
       "by": "samizdis",
       "descendants": 0,
       "id": 28003960,
@@ -24,7 +54,7 @@
       "by": "vmurthy",
       "descendants": 0,
       "id": 28003914,
-      "score": 1,
+      "score": 2,
       "text": "Hello HN ,\nA bit of Friday morning &quot;productivity&quot;. I decided I needed to track how I am feeling at different times of the day and wrote a 4 line bash function. The idea is to meet the following requirements : \n1. Easy to use and readily accessible\n2. Store in a CSV and push to git so that I can create nice looking graphs later on\n3. Make good use of time on a day I woke up at 5:30AM :)<p>Function is stored in ~&#x2F;.bashrc and I use the terminal . Scale is from 0 to 10 with 0 being the worst<p>`mt 10 &quot;Show HN first submission&quot;`<p>```\nfunction mt() {<p>score=$1<p>message=$2<p>echo &quot;$score,$message,`date`&quot; &gt;&gt;mood.csv<p>git commit -am &quot;Mood@`date`&quot; &amp;&amp; git push origin main<p>}\n```",
       "time": 1627613172,
       "title": "Show HN: CLI Mood Tracker",
@@ -69,42 +99,6 @@
       "title": "TikTok and the Future of Social Media",
       "type": "story",
       "url": "https://atthis.link/blog/2021/tiktok.html"
-    },
-    {
-      "by": "lnyan",
-      "descendants": 1,
-      "id": 28003818,
-      "kids": [
-        28003929
-      ],
-      "score": 3,
-      "time": 1627612259,
-      "title": "The Cost of a Prison Phone Call",
-      "type": "story",
-      "url": "https://www.theatlantic.com/ideas/archive/2021/07/phoning-home-connecticut-state-prison/619586/"
-    },
-    {
-      "by": "agnosticmantis",
-      "descendants": 1,
-      "id": 28003791,
-      "kids": [
-        28003915
-      ],
-      "score": 4,
-      "time": 1627612058,
-      "title": "Our politicians are in thrall to a cabal of AI cheerleaders",
-      "type": "story",
-      "url": "https://www.telegraph.co.uk/business/2021/07/26/politicians-thrall-cabal-ai-cheerleaders/"
-    },
-    {
-      "by": "lnyan",
-      "descendants": 0,
-      "id": 28003789,
-      "score": 1,
-      "time": 1627612052,
-      "title": "Microsoft Escapes Antitrust Scrutiny",
-      "type": "story",
-      "url": "https://www.theatlantic.com/ideas/archive/2021/07/microsofts-antitrust/619599/"
     }
   ]
 }
