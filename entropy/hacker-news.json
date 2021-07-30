@@ -1,6 +1,59 @@
 {
   "stories": [
     {
+      "by": "timthorn",
+      "descendants": 0,
+      "id": 28009254,
+      "score": 1,
+      "time": 1627660133,
+      "title": "Happy 60th, Sinclair Radionics",
+      "type": "story",
+      "url": "https://www.theregister.com/2021/07/30/sinclair_radionics_60/"
+    },
+    {
+      "by": "uptown",
+      "descendants": 0,
+      "id": 28009241,
+      "score": 1,
+      "time": 1627660048,
+      "title": "Apple’s New Map, Expansion #12: Italian Peninsula–Now in Testing",
+      "type": "story",
+      "url": "https://www.justinobeirne.com/new-apple-maps-italy-testing"
+    },
+    {
+      "by": "geekylife",
+      "descendants": 0,
+      "id": 28009230,
+      "score": 1,
+      "time": 1627659973,
+      "title": "Swift Protocol Oriented Programming and Testing",
+      "type": "story",
+      "url": "https://arturgruchala.com/protocol-oriented-programming-unit-testing/"
+    },
+    {
+      "by": "jmath",
+      "descendants": 1,
+      "id": 28009219,
+      "kids": [
+        28009255
+      ],
+      "score": 1,
+      "time": 1627659941,
+      "title": "Show HN: Math and Color",
+      "type": "story",
+      "url": "https://jmath.dev"
+    },
+    {
+      "by": "username90",
+      "descendants": 0,
+      "id": 28009218,
+      "score": 1,
+      "text": "I feel the main problem delivering value is that codebases are too big and complex. If we made a business logic language intentionally made to be sandboxed which doesn&#x27;t let you refer to code in other files or include libraries that would help a lot separating business logic from infrastructure code.<p>The way it would be used is that programmers writes some interface in their language, and then that interface becomes a compiler that can verify and compile a business logic script file. The script would run in a sandboxed environment with resource restrictions so it can&#x27;t run too long or crash the server.<p>Such a language wouldn&#x27;t just help people write code files for apps, but could also enable just having a textbox field where you could add programs to filter or sort results to your liking etc. I guess you could view it in the same way as the popular regular expression language that is embedded in so many apps and programs, but with enough power that it would cover most business logic needs.<p>Since it was designed from the start to be sandboxed like this it wont be hard to make it safe, and as it gets wider appeal more people would get interested in programming. That is the theory at least, is anyone aware of attempts to do this? The requirement that it can&#x27;t depend on external code is absolutely necessary though, that is the main advantage of regular expressions and why you can easily embed those in API&#x27;s.",
+      "time": 1627659931,
+      "title": "Ask HN: Is there a dedicated programming language for business logic?",
+      "type": "story"
+    },
+    {
       "by": "rbanffy",
       "descendants": 0,
       "id": 28009192,
@@ -49,56 +102,6 @@
       "title": "Strict memcpy() bounds checking for the Linux kernel",
       "type": "story",
       "url": "https://lwn.net/SubscriberLink/864521/543ac739d6cf71b3/"
-    },
-    {
-      "by": "ggrelet",
-      "descendants": 0,
-      "id": 28009149,
-      "score": 1,
-      "time": 1627659603,
-      "title": "A Visual History of Rickrolling",
-      "type": "story",
-      "url": "https://pudding.cool/2021/07/rickrolling/"
-    },
-    {
-      "by": "WaitWaitWha",
-      "descendants": 0,
-      "id": 28009145,
-      "score": 1,
-      "time": 1627659583,
-      "title": "Student designs compact lifesaving drone for beach rescue teams",
-      "type": "story",
-      "url": "https://techxplore.com/news/2021-07-student-compact-lifesaving-drone-beach.html"
-    },
-    {
-      "by": "uptown",
-      "descendants": 0,
-      "id": 28009119,
-      "score": 2,
-      "time": 1627659426,
-      "title": "Why New Yorkers pay $15 for 'sad desk salads'",
-      "type": "story",
-      "url": "https://www.bbc.com/worklife/article/20210728-why-new-yorkers-pay-15-for-sad-desk-salads"
-    },
-    {
-      "by": "soumyadeb",
-      "descendants": 0,
-      "id": 28009104,
-      "score": 1,
-      "time": 1627659343,
-      "title": "Dogfooding at RudderStack: Our Data Stack",
-      "type": "story",
-      "url": "https://rudderstack.com/blog/dogfooding-at-rudderstack-our-data-stack"
-    },
-    {
-      "by": "TeacahbeMoments",
-      "descendants": 0,
-      "id": 28009095,
-      "score": 1,
-      "time": 1627659317,
-      "title": "Activision Blizzard's Lesson in Ownership",
-      "type": "story",
-      "url": "https://www.joinmgmt.com/newsletter/activision-blizzards-lesson-in-ownership"
     }
   ]
 }
