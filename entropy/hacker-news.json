@@ -1,6 +1,56 @@
 {
   "stories": [
     {
+      "by": "xrayarx",
+      "descendants": 0,
+      "id": 28039306,
+      "score": 2,
+      "time": 1627923547,
+      "title": "A curated list of Go Projects",
+      "type": "story",
+      "url": "https://github.com/avelino/awesome-go"
+    },
+    {
+      "by": "pdkl95",
+      "descendants": 0,
+      "id": 28039299,
+      "score": 1,
+      "time": 1627923530,
+      "title": "Class Breaks",
+      "type": "story",
+      "url": "https://www.schneier.com/blog/archives/2017/01/class_breaks.html"
+    },
+    {
+      "by": "garyjob",
+      "descendants": 0,
+      "id": 28039282,
+      "score": 1,
+      "text": "I have always been fascinated with how news and sentiment could drive markets. This has lead me to build an engine that attempts at predicting US stock market sell offs. So far it has been really successfully at doing so.<p>In our most recent example, on 16th July 2021 we predicted that there was going to be a major sell off on. The sell off actually happened on 19th July 2021.<p>In a more extreme example our engine successfully identified as early as 9th Jan 2020 that increased mentions of &quot;coronavirus&quot; in the world news was going to cause the sell off that occurred in 2020.\nhttps:&#x2F;&#x2F;truesight.me&#x2F;overview&#x2F;2020-01-09&#x2F;14<p>Unfortunately, that correlation panned really nicely for the next 365 days.\nhttps:&#x2F;&#x2F;truesight.me&#x2F;compare&#x2F;SPY,452970-coronavirus&#x2F;2021-06-25&#x2F;720<p>Here is how we built this engine. \nWe pull in news headlines from around the world on an hourly basis.\nThen we apply NLTK to extract the nouns that are associated with each news headline.<p>Next we pull in the stock prices of all the publicly listed companies on the US stock market to calculate the actual sell off levels for each day.<p>The final step is to apply Pearson&#x27;s Coefficient at scale to identify nouns that have the highest correlation with sell off levels within defined periods we are examining.<p>These final set of nouns are then shortlisted as trends will be driving US market sell offs.<p>Here is the full story of how I went around the world curating that list of data sources to train my model.<p>https:&#x2F;&#x2F;www.ricemedia.co&#x2F;features-the-singaporean-arrested-in-xinjiang&#x2F;",
+      "time": 1627923468,
+      "title": "I predicted the stock market sell off that occurred on 19th July 2021",
+      "type": "story"
+    },
+    {
+      "by": "my123",
+      "descendants": 0,
+      "id": 28039273,
+      "score": 1,
+      "time": 1627923452,
+      "title": "Windows 365 Business Cloud PC pricing",
+      "type": "story",
+      "url": "https://www.microsoft.com/en-us/windows-365/business/compare-plans-pricing"
+    },
+    {
+      "by": "AnonymousOne",
+      "descendants": 0,
+      "id": 28039271,
+      "score": 1,
+      "time": 1627923450,
+      "title": "Navigating Digital Information",
+      "type": "story",
+      "url": "https://www.youtube.com/watch?v=L4aNmdL3Hr0&list=PL8dPuuaLjXtN07XYqqWSKpPrtNDiCHTzU"
+    },
+    {
       "by": "rbjorklin",
       "descendants": 0,
       "id": 28039219,
@@ -49,56 +99,6 @@
       "title": "How the Bobos Broke America",
       "type": "story",
       "url": "https://www.theatlantic.com/magazine/archive/2021/09/blame-the-bobos-creative-class/619492/"
-    },
-    {
-      "by": "Tomte",
-      "descendants": 0,
-      "id": 28039104,
-      "score": 2,
-      "time": 1627922747,
-      "title": "Tetris 99 isn’t just a great twist on a classic–it’s a gameplay revolution(2019)",
-      "type": "story",
-      "url": "https://arstechnica.com/gaming/2019/02/tetris-99-isnt-just-a-great-twist-on-a-classic-its-a-gameplay-revolution/"
-    },
-    {
-      "by": "edward",
-      "descendants": 0,
-      "id": 28039090,
-      "score": 4,
-      "time": 1627922705,
-      "title": "Wall Street is buying up family homes. The rent checks are too juicy to ignore",
-      "type": "story",
-      "url": "http://lite.cnn.com/en/article/h_f613fef87adc1033f43b8d4145c11fcb"
-    },
-    {
-      "by": "Tomte",
-      "descendants": 0,
-      "id": 28039078,
-      "score": 2,
-      "time": 1627922675,
-      "title": "Astronomy Photographer of the Year 2021 shortlist images",
-      "type": "story",
-      "url": "https://www.rmg.co.uk/national-maritime-museum/astronomy-photographer-year-2021-shortlist-images"
-    },
-    {
-      "by": "ricardo81",
-      "descendants": 0,
-      "id": 28039044,
-      "score": 1,
-      "text": "Due to COVID, a consultation on the location of a secondary school campus was held entirely online by my local Council in the UK. It has been contentious because there were five options and the Council&#x27;s preferred one involved sacrificing a local greenspace&#x2F;park.<p>They concluded that the silent majority preferred their option because the site received 1500 visits and 70 objections (preferring an alternative) versus 20 non-negative comments.<p>They are using this 1500 number to justify their position. I&#x27;d noted accessibility issues (the site says certain user agents are incompatible and you can&#x27;t view the site at all)<p>That in context, the site itself had a cookie splash screen asking to accept or reject cookies for analytics. Upon viewing the source code I noticed that the buttons were the wrong way round, i.e. those who rejected cookies were being tracked those who clicked accept were not being tracked.<p>Is this a clear cut case of a GDPR breach and the information collected should be thrown away? I have sent relevant information to ICO but wondered if the wisdom of the HN crowd could offer further info.",
-      "time": 1627922543,
-      "title": "Ask HN: UK Local Council GDPR Breach Advice?",
-      "type": "story"
-    },
-    {
-      "by": "Repreneur101",
-      "descendants": 0,
-      "id": 28039040,
-      "score": 1,
-      "time": 1627922526,
-      "title": "Why are NFT’s So valuable?",
-      "type": "story",
-      "url": "https://www.nfthunt.fun/why-are-nft-s-so-valuable-"
     }
   ]
 }
