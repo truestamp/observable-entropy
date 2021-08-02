@@ -24,14 +24,13 @@ jobs:
         env:
           ED25519_PRIVATE_KEY: ${{ secrets.ED25519_PRIVATE_KEY }}
           PARENT_COMMIT_ID: ${{ steps.vars.outputs.parentCommitId }}
-        run: make collect && make generate && make verify && make index
+        run: make collect && make generate && make verify && make index && git stash && git pull --rebase && git apply
       - name: Commit entropy
         uses: EndBug/add-and-commit@v7.2.1
         with:
           author_name: Truestamp
           author_email: support@truestamp.com
           branch: main
-          pull_strategy: '--rebase'
           message: "Entropy"
           add: '.'
       - name: Clear User Submitted Entropy
