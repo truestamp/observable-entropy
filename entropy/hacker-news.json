@@ -1,5 +1,69 @@
 {
   "stories": [
+    null,
+    {
+      "by": "robot_jackie",
+      "descendants": 0,
+      "id": 28051684,
+      "score": 1,
+      "text": "Every warehouse around the world has to do inventory counts. We used to do this job ourselves, with paper and pencil. It sucks. Warehouses lose inventory all the time.<p>We built full Level 4 autonomy for drones so they fly in big warehouse aisles by themselves. It’s built on a ROS and PX4-based stack we built ourselves using a visual-inertial system for real-time motion planning and controls.<p>What we mean by Level 4 autonomy is, our UAVs fly without any human involvement at all, repeatedly, for weeks. Fully automated scheduling, takeoff, landing, data transfer. They autonomously fly closer to look at inventory labels of interest.<p>Full autonomy is the only way this will work, removing friction for traditional industries to adopt. Putting up thousands of localization stickers and beacons sucks. Manual pilot is even worse.<p>This only works for single-deep pallet or carton level items. I don’t know how to solve for items behind other items. Folks mention RFID, but then inevitably say they’ll adopt RFID “in two or three years.”<p>One cofounder was a founding contributor of PX4, the popular drone autopilot that many commercial UAVs are based on. Another cofounder used to work a warehouse inventory job, before building autonomous aircraft for the DoD. A third wrote an ERP from scratch in college and integrated it to legacy systems. They’re much smarter than me. I’m lucky to be working with them.<p>What motivates me is, I think one pillar of future economic development will come from the dock to dock automation of supply chain. Companies in rich and poor countries will be free to focus on growth, instead of the mundane tasks of moving things around and tracking where they are. In addition to inventory drones, we’re working on automating other key warehouse functions in the future.<p>Check out the demo video! We’re live on ProductHunt. https:&#x2F;&#x2F;www.producthunt.com&#x2F;posts&#x2F;corvus-one&#x2F;<p>HN friends: Have you worked in a warehouse or factory? What’s been your experience with robot automation, and what automation impressed you the most? I’d love to hear your thoughts on supply chain automation, robotic autonomy, and economic development!",
+      "time": 1628010862,
+      "title": "Show HN: Corvus Robotics (YC S18): Level 4 autonomy, warehouse inventory UAVs",
+      "type": "story"
+    },
+    {
+      "by": "vanilla-almond",
+      "descendants": 0,
+      "id": 28051672,
+      "score": 1,
+      "time": 1628010781,
+      "title": "'Why I'm ending my life, while I can' [video]",
+      "type": "story",
+      "url": "https://www.bbc.co.uk/news/av/uk-england-london-58014609"
+    },
+    {
+      "by": "todsacerdoti",
+      "descendants": 0,
+      "id": 28051661,
+      "score": 1,
+      "time": 1628010723,
+      "title": "How to Create a Standalone ConsoleLoggerProvider",
+      "type": "story",
+      "url": "https://mikehadlow.com/posts/standalone-consoleloggerprovider/"
+    },
+    {
+      "by": "robot_jackie",
+      "descendants": 1,
+      "id": 28051647,
+      "kids": [
+        28051648
+      ],
+      "score": 1,
+      "time": 1628010671,
+      "title": "Show HN: Corvus Robotics (YC S18) – Level 4 autonomy, warehouse inventory UAVs",
+      "type": "story",
+      "url": "http://spectrum.ieee.org/drone-warehouse-corvus-robotics"
+    },
+    {
+      "by": "rbanffy",
+      "descendants": 0,
+      "id": 28051645,
+      "score": 1,
+      "time": 1628010665,
+      "title": "As Cyberattacks Surge, Security Startups Reap the Rewards",
+      "type": "story",
+      "url": "https://www.nytimes.com/2021/07/26/technology/cyberattacks-security-investors.html"
+    },
+    {
+      "by": "PatrolX",
+      "descendants": 0,
+      "id": 28051644,
+      "score": 1,
+      "time": 1628010660,
+      "title": "API Security and Traceable AI Announcement Livestream (Now)",
+      "type": "story",
+      "url": "https://www.youtube.com/watch?v=4O_CM2HtmI4"
+    },
     {
       "by": "chmaynard",
       "descendants": 0,
@@ -17,7 +81,7 @@
       "kids": [
         28051631
       ],
-      "score": 1,
+      "score": 2,
       "time": 1628010526,
       "title": "Show HN: The Cloud Cost Handbook",
       "type": "story",
@@ -32,76 +96,6 @@
       "title": "Information Batteries: Storing opportunity power with speculative execution",
       "type": "story",
       "url": "https://arxiv.org/abs/2108.01035"
-    },
-    {
-      "by": "mvolfik",
-      "descendants": 0,
-      "id": 28051608,
-      "score": 1,
-      "time": 1628010460,
-      "title": "Preventing a CSS Grid Blowout",
-      "type": "story",
-      "url": "https://css-tricks.com/preventing-a-grid-blowout/"
-    },
-    {
-      "by": "khartig",
-      "descendants": 0,
-      "id": 28051599,
-      "score": 1,
-      "time": 1628010415,
-      "title": "Cycloidal Rotor Drone",
-      "type": "story",
-      "url": "https://www.youtube.com/watch?v=JoVmejDsMrM"
-    },
-    {
-      "by": "z0mbie42",
-      "descendants": 0,
-      "id": 28051598,
-      "score": 2,
-      "time": 1628010411,
-      "title": "How to Deploy Rust on Heroku (With Docker)",
-      "type": "story",
-      "url": "https://kerkour.com/blog/deploy-rust-on-heroku-with-docker/"
-    },
-    {
-      "by": "superasn",
-      "descendants": 0,
-      "id": 28051595,
-      "score": 1,
-      "time": 1628010403,
-      "title": "Man and Superman",
-      "type": "story",
-      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1126178/"
-    },
-    {
-      "by": "samspenc",
-      "descendants": 0,
-      "id": 28051587,
-      "score": 1,
-      "time": 1628010370,
-      "title": "Microsoft delays office opening until October, will require vaccination",
-      "type": "story",
-      "url": "https://www.seattletimes.com/business/microsoft/microsoft-requires-vaccination-pushes-back-office-opening-date-to-october/"
-    },
-    {
-      "by": "_Microft",
-      "descendants": 0,
-      "id": 28051583,
-      "score": 1,
-      "time": 1628010334,
-      "title": "Architectural Endoscopy",
-      "type": "story",
-      "url": "https://en.wikipedia.org/wiki/Architectural_endoscopy"
-    },
-    {
-      "by": "hauxir",
-      "descendants": 0,
-      "id": 28051563,
-      "score": 3,
-      "time": 1628010267,
-      "title": "Show HN: Tomatotree.tv – Find your next series to watch using Rotten Tomatoes",
-      "type": "story",
-      "url": "https://tomatotree.tv/"
     }
   ]
 }
