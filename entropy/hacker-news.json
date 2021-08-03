@@ -1,6 +1,46 @@
 {
   "stories": [
     {
+      "by": "jashkenas",
+      "descendants": 0,
+      "id": 28051420,
+      "score": 1,
+      "time": 1628009538,
+      "title": "1. create a component standard 2. oops, it doesn't work without JS...",
+      "type": "story",
+      "url": "https://twitter.com/Rich_Harris/status/1422596305973567495"
+    },
+    {
+      "by": "MetalMatze",
+      "descendants": 0,
+      "id": 28051416,
+      "score": 1,
+      "time": 1628009531,
+      "title": "DIY pprof profiles using Go",
+      "type": "story",
+      "url": "https://www.polarsignals.com/blog/posts/2021/08/03/diy-pprof-profiles-using-go/"
+    },
+    {
+      "by": "adrian_mrd",
+      "descendants": 0,
+      "id": 28051412,
+      "score": 3,
+      "time": 1628009502,
+      "title": "More difficult to set default apps in Windows 11 than Win7-10",
+      "type": "story",
+      "url": "https://www.thurrott.com/windows/windows-11/254002/windows-11-tip-change-default-apps"
+    },
+    {
+      "by": "throwamon",
+      "descendants": 0,
+      "id": 28051406,
+      "score": 1,
+      "time": 1628009485,
+      "title": "AceWiki: A semantic wiki based on controlled natural language",
+      "type": "story",
+      "url": "https://github.com/AceWiki/AceWiki"
+    },
+    {
       "by": "belter",
       "descendants": 0,
       "id": 28051378,
@@ -12,9 +52,12 @@
     },
     {
       "by": "kens",
-      "descendants": 0,
+      "descendants": 1,
       "id": 28051377,
-      "score": 1,
+      "kids": [
+        28051421
+      ],
+      "score": 2,
       "time": 1628009391,
       "title": "Repulsive Curves",
       "type": "story",
@@ -62,46 +105,6 @@
       "title": "Javis.jl – Julia Animations and Visualizations",
       "type": "story",
       "url": "https://github.com/Wikunia/Javis.jl"
-    },
-    {
-      "by": "Tomte",
-      "descendants": 0,
-      "id": 28051327,
-      "score": 1,
-      "time": 1628009176,
-      "title": "Launchpad now runs on Python 3",
-      "type": "story",
-      "url": "https://www.chiark.greenend.org.uk/~cjwatson/blog/lp-python3.html"
-    },
-    {
-      "by": "belter",
-      "descendants": 0,
-      "id": 28051310,
-      "score": 1,
-      "time": 1628009101,
-      "title": "Windows 10 blocks Potentially Unwanted Apps by default now",
-      "type": "story",
-      "url": "https://www.ghacks.net/2021/08/03/windows-10-blocks-potentially-unwanted-apps-by-default-now/"
-    },
-    {
-      "by": "isitabot",
-      "descendants": 0,
-      "id": 28051309,
-      "score": 1,
-      "text": "I&#x27;m a solo entrepreneur with a ~3-year old electron app that makes over $100,000&#x2F;year, that is ever-so-slightly disrupting an entrenched software market with incumbents in the $20-30,000,000&#x2F;year revenue range.<p>I offer a 14-day free trial of my app and sell&#x2F;license it using a mixture of node-machine-id to register computers and JWT as the actual license signing. Users often register multiple email addresses to effectively get multiple 14-day free trials.<p>I don&#x27;t currently enforce a number of times a computer can be &quot;registered&quot; in my system, and because of these lax rules I am seeing a lot of really interesting patterns. And by interesting I mean I suspect my competitors are somehow funding click fraud against my ads.<p>For example, I can see the same computer registered 27 times over the last year (every 14 days) to 27 different email addresses and widely differing IPs. However, when I run the IPs through online tools to analyze where they&#x27;re coming from, it&#x27;s almost always some kind of VPN via Amazon.<p>I fear that if I clamp down on how many times a user can register a computer for a free trial that the click fraud folks might know that I know... When I first saw these patterns I emailed about 30 of the addresses thinking that it could be a real user and offered them a free license - no reply.<p>Another thought I had was to build in a much more intrusive analytics feature that would only activate when the computer was registered &gt;X times, offering me the ability to actually see if the software is being used. I even thought of adding something like Intercom so I could message these users real-time and offer them $X,000 USD for divulging who is paying them... something, anything.<p>I currently use ClickCease and the &quot;detection rate&quot; is about 10% of all ad clicks bounce or are VPN traffic, but it seems very concentrated on just two of my ad campaigns that are likely bid on by my competitors.<p>If anyone here specializes in this kind of work, I&#x27;d be happy to chat and compare notes, try out different services, etc.",
-      "time": 1628009097,
-      "title": "Detecting Click Fraud, Analyzing Usage?",
-      "type": "story"
-    },
-    {
-      "by": "jordyzomer",
-      "descendants": 0,
-      "id": 28051307,
-      "score": 2,
-      "time": 1628009091,
-      "title": "Variant Analysis of the ‘Sequoia’ Bug",
-      "type": "story",
-      "url": "https://pwning.systems/posts/sequoia-variant-analysis/"
     }
   ]
 }
