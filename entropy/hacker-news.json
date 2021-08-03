@@ -1,6 +1,49 @@
 {
   "stories": [
     {
+      "by": "isitabot",
+      "descendants": 0,
+      "id": 28051309,
+      "score": 1,
+      "text": "I&#x27;m a solo entrepreneur with a ~3-year old electron app that makes over $100,000&#x2F;year, that is ever-so-slightly disrupting an entrenched software market with incumbents in the $20-30,000,000&#x2F;year revenue range. I offer a 14-day free trial of my app and sell&#x2F;license it using a mixture of node-machine-id to register computers and JWT as the actual license signing. Users often register multiple email addresses to effectively get multiple 14-day free trials. I don&#x27;t currently enforce a number of times a computer can be &quot;registered&quot; in my system, and because of this lax rules I can see a lot of really interesting patterns. And by interesting I mean I suspect my competitors are somehow funding click fraud against my ads. For example, I can see the same computer registered 27 times over the last year (every 14 days) to 27 different email addresses and widely differing IPs. However, when I run the IPs through online tools to analyze where they&#x27;re coming from, it&#x27;s almost always some kind of VPN via Amazon. I fear that if I clamp down on how many times a user can register a computer for a free trial that the click fraud folks might know that I know... When I first saw these patterns I emailed about 30 of the addresses thinking that it could be a real user and offered them a free license - no reply. Another thought I had was to build in a much more intrusive analytics feature that would only activate when the computer was registered &gt;X times, offering me the ability to actually see if the software is being used. I even thought of adding something like Intercom so I could message these users real-time and offer them $1,000 USD for divulging who is paying them... something, anything. I currently use ClickCease and the &quot;detection rate&quot; is about 10% of all ad clicks bounce or are VPN traffic, but it seems very concentrated on just two of my ad campaigns that are likely bid on by my competitors.<p>If anyone here specializes in this kind of work, I&#x27;d be happy to chat and compare notes, try out different services, etc.",
+      "time": 1628009097,
+      "title": "Detecting Click Fraud, Analyzing Usage?",
+      "type": "story"
+    },
+    {
+      "by": "jordyzomer",
+      "descendants": 0,
+      "id": 28051307,
+      "score": 1,
+      "time": 1628009091,
+      "title": "Variant Analysis of the ‘Sequoia’ Bug",
+      "type": "story",
+      "url": "https://pwning.systems/posts/sequoia-variant-analysis/"
+    },
+    {
+      "by": "belter",
+      "descendants": 1,
+      "id": 28051282,
+      "kids": [
+        28051283
+      ],
+      "score": 1,
+      "time": 1628008936,
+      "title": "Autonomous racing drone claims landmark victory against human pilots",
+      "type": "story",
+      "url": "https://newatlas.com/drones/autonomous-racing-drone-landmark-victory-human-pilots/"
+    },
+    {
+      "by": "anjanduttacom",
+      "descendants": 0,
+      "id": 28051279,
+      "score": 1,
+      "time": 1628008920,
+      "title": "Here Comes the ES 2020 Feature Series You will learn new features, I promise",
+      "type": "story",
+      "url": "https://www.reddit.com/r/learnjavascript/comments/owysdc/here_comes_the_es_2020_feature_series_you_will/"
+    },
+    {
       "by": "hncurious",
       "descendants": 0,
       "id": 28051237,
@@ -24,7 +67,7 @@
       "by": "ndren",
       "descendants": 0,
       "id": 28051222,
-      "score": 1,
+      "score": 2,
       "time": 1628008658,
       "title": "Show HN: OnionShare with Just Tor and Redbean",
       "type": "story",
@@ -59,45 +102,6 @@
       "title": "Awful transaction and timing: AT&T finally ditches DirecTV",
       "type": "story",
       "url": "https://arstechnica.com/information-technology/2021/08/att-completes-directv-spinoff-after-6-years-of-utter-failure-and-ineptitude/"
-    },
-    {
-      "by": "febin",
-      "descendants": 0,
-      "id": 28051193,
-      "score": 1,
-      "time": 1628008500,
-      "title": "Which creators do you follow on Instagram?",
-      "type": "story"
-    },
-    {
-      "by": "jonbaer",
-      "descendants": 0,
-      "id": 28051187,
-      "score": 4,
-      "time": 1628008410,
-      "title": "Pixel 6 will have new processor designed by Google",
-      "type": "story",
-      "url": "https://www.cnbc.com/2021/08/02/pixel-6-will-have-processor-designed-by-google.html"
-    },
-    {
-      "by": "dabinat",
-      "descendants": 0,
-      "id": 28051183,
-      "score": 1,
-      "time": 1628008395,
-      "title": "Mozilla Common Voice Mid-Year Dataset Release",
-      "type": "story",
-      "url": "https://commonvoice.mozilla.org/en/datasets"
-    },
-    {
-      "by": "grawprog",
-      "descendants": 0,
-      "id": 28051180,
-      "score": 1,
-      "time": 1628008382,
-      "title": "Bayer to Pull Glyphosate Products, from U.S. Home and Garden Market",
-      "type": "story",
-      "url": "https://www.ecowatch.com/bayer-ending-glyphosate-sales-us-market-2654298339.html"
     }
   ]
 }
