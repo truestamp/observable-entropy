@@ -1,11 +1,94 @@
 {
   "stories": [
     {
+      "by": "belter",
+      "descendants": 0,
+      "id": 28051378,
+      "score": 1,
+      "time": 1628009391,
+      "title": "The Many Faces of Awk",
+      "type": "story",
+      "url": "https://www.networkworld.com/article/3454979/the-many-faces-of-awk.html"
+    },
+    {
+      "by": "kens",
+      "descendants": 0,
+      "id": 28051377,
+      "score": 1,
+      "time": 1628009391,
+      "title": "Repulsive Curves",
+      "type": "story",
+      "url": "http://www.cs.cmu.edu/~kmcrane/Projects/RepulsiveCurves/index.html"
+    },
+    {
+      "by": "baybal2",
+      "descendants": 0,
+      "id": 28051373,
+      "score": 1,
+      "text": "Hello Hackernewsers,<p>I had from chronic sleep problems since my childhood. The earliest I remember myself being unable to sleep for 2-3 hours was at the age of 8 or 9 I believe.<p>I am passing my thirty now, and I only remember it was really few times in my adult life when I had good sleep for more than a few month in a row.<p>Anybody else here having lifelong sleep issues?",
+      "time": 1628009376,
+      "title": "Ask HN: Severe sleep problems since childhood. Anybody else with such problem?",
+      "type": "story"
+    },
+    {
+      "by": "GamerSEO",
+      "descendants": 1,
+      "id": 28051356,
+      "kids": [
+        28051357
+      ],
+      "score": 1,
+      "time": 1628009304,
+      "title": "SEO Optimization for Game Developers",
+      "type": "story",
+      "url": "https://www.gamasutra.com/blogs/RafalPietraszek/20210803/386092/SEO_Optimization_for_Game_Developers.php"
+    },
+    {
+      "by": "usercentric",
+      "descendants": 0,
+      "id": 28051342,
+      "score": 1,
+      "time": 1628009229,
+      "title": "Designing a Scalable Design Organization",
+      "type": "story",
+      "url": "https://www.mynameisjehad.com/designing-a-scalable-design-organization/"
+    },
+    {
+      "by": "feross",
+      "descendants": 0,
+      "id": 28051340,
+      "score": 1,
+      "time": 1628009223,
+      "title": "Javis.jl – Julia Animations and Visualizations",
+      "type": "story",
+      "url": "https://github.com/Wikunia/Javis.jl"
+    },
+    {
+      "by": "Tomte",
+      "descendants": 0,
+      "id": 28051327,
+      "score": 1,
+      "time": 1628009176,
+      "title": "Launchpad now runs on Python 3",
+      "type": "story",
+      "url": "https://www.chiark.greenend.org.uk/~cjwatson/blog/lp-python3.html"
+    },
+    {
+      "by": "belter",
+      "descendants": 0,
+      "id": 28051310,
+      "score": 1,
+      "time": 1628009101,
+      "title": "Windows 10 blocks Potentially Unwanted Apps by default now",
+      "type": "story",
+      "url": "https://www.ghacks.net/2021/08/03/windows-10-blocks-potentially-unwanted-apps-by-default-now/"
+    },
+    {
       "by": "isitabot",
       "descendants": 0,
       "id": 28051309,
       "score": 1,
-      "text": "I&#x27;m a solo entrepreneur with a ~3-year old electron app that makes over $100,000&#x2F;year, that is ever-so-slightly disrupting an entrenched software market with incumbents in the $20-30,000,000&#x2F;year revenue range. I offer a 14-day free trial of my app and sell&#x2F;license it using a mixture of node-machine-id to register computers and JWT as the actual license signing. Users often register multiple email addresses to effectively get multiple 14-day free trials. I don&#x27;t currently enforce a number of times a computer can be &quot;registered&quot; in my system, and because of this lax rules I can see a lot of really interesting patterns. And by interesting I mean I suspect my competitors are somehow funding click fraud against my ads. For example, I can see the same computer registered 27 times over the last year (every 14 days) to 27 different email addresses and widely differing IPs. However, when I run the IPs through online tools to analyze where they&#x27;re coming from, it&#x27;s almost always some kind of VPN via Amazon. I fear that if I clamp down on how many times a user can register a computer for a free trial that the click fraud folks might know that I know... When I first saw these patterns I emailed about 30 of the addresses thinking that it could be a real user and offered them a free license - no reply. Another thought I had was to build in a much more intrusive analytics feature that would only activate when the computer was registered &gt;X times, offering me the ability to actually see if the software is being used. I even thought of adding something like Intercom so I could message these users real-time and offer them $1,000 USD for divulging who is paying them... something, anything. I currently use ClickCease and the &quot;detection rate&quot; is about 10% of all ad clicks bounce or are VPN traffic, but it seems very concentrated on just two of my ad campaigns that are likely bid on by my competitors.<p>If anyone here specializes in this kind of work, I&#x27;d be happy to chat and compare notes, try out different services, etc.",
+      "text": "I&#x27;m a solo entrepreneur with a ~3-year old electron app that makes over $100,000&#x2F;year, that is ever-so-slightly disrupting an entrenched software market with incumbents in the $20-30,000,000&#x2F;year revenue range.<p>I offer a 14-day free trial of my app and sell&#x2F;license it using a mixture of node-machine-id to register computers and JWT as the actual license signing. Users often register multiple email addresses to effectively get multiple 14-day free trials.<p>I don&#x27;t currently enforce a number of times a computer can be &quot;registered&quot; in my system, and because of these lax rules I am seeing a lot of really interesting patterns. And by interesting I mean I suspect my competitors are somehow funding click fraud against my ads.<p>For example, I can see the same computer registered 27 times over the last year (every 14 days) to 27 different email addresses and widely differing IPs. However, when I run the IPs through online tools to analyze where they&#x27;re coming from, it&#x27;s almost always some kind of VPN via Amazon.<p>I fear that if I clamp down on how many times a user can register a computer for a free trial that the click fraud folks might know that I know... When I first saw these patterns I emailed about 30 of the addresses thinking that it could be a real user and offered them a free license - no reply.<p>Another thought I had was to build in a much more intrusive analytics feature that would only activate when the computer was registered &gt;X times, offering me the ability to actually see if the software is being used. I even thought of adding something like Intercom so I could message these users real-time and offer them $X,000 USD for divulging who is paying them... something, anything.<p>I currently use ClickCease and the &quot;detection rate&quot; is about 10% of all ad clicks bounce or are VPN traffic, but it seems very concentrated on just two of my ad campaigns that are likely bid on by my competitors.<p>If anyone here specializes in this kind of work, I&#x27;d be happy to chat and compare notes, try out different services, etc.",
       "time": 1628009097,
       "title": "Detecting Click Fraud, Analyzing Usage?",
       "type": "story"
@@ -14,94 +97,11 @@
       "by": "jordyzomer",
       "descendants": 0,
       "id": 28051307,
-      "score": 1,
+      "score": 2,
       "time": 1628009091,
       "title": "Variant Analysis of the ‘Sequoia’ Bug",
       "type": "story",
       "url": "https://pwning.systems/posts/sequoia-variant-analysis/"
-    },
-    {
-      "by": "belter",
-      "descendants": 1,
-      "id": 28051282,
-      "kids": [
-        28051283
-      ],
-      "score": 1,
-      "time": 1628008936,
-      "title": "Autonomous racing drone claims landmark victory against human pilots",
-      "type": "story",
-      "url": "https://newatlas.com/drones/autonomous-racing-drone-landmark-victory-human-pilots/"
-    },
-    {
-      "by": "anjanduttacom",
-      "descendants": 0,
-      "id": 28051279,
-      "score": 1,
-      "time": 1628008920,
-      "title": "Here Comes the ES 2020 Feature Series You will learn new features, I promise",
-      "type": "story",
-      "url": "https://www.reddit.com/r/learnjavascript/comments/owysdc/here_comes_the_es_2020_feature_series_you_will/"
-    },
-    {
-      "by": "hncurious",
-      "descendants": 0,
-      "id": 28051237,
-      "score": 1,
-      "time": 1628008721,
-      "title": "Great Leap Forward",
-      "type": "story",
-      "url": "https://en.wikipedia.org/wiki/Great_Leap_Forward"
-    },
-    {
-      "by": "nickthegreek",
-      "descendants": 0,
-      "id": 28051225,
-      "score": 1,
-      "time": 1628008677,
-      "title": "Exxon Invaded My Roku",
-      "type": "story",
-      "url": "https://gizmodo.com/exxon-invaded-my-roku-1847413047"
-    },
-    {
-      "by": "ndren",
-      "descendants": 0,
-      "id": 28051222,
-      "score": 2,
-      "time": 1628008658,
-      "title": "Show HN: OnionShare with Just Tor and Redbean",
-      "type": "story",
-      "url": "https://github.com/ndren/redbean-onionshare"
-    },
-    {
-      "by": "adamnemecek",
-      "descendants": 0,
-      "id": 28051209,
-      "score": 1,
-      "time": 1628008588,
-      "title": "Game On: Addressing Security Challenges in the E-Sports Industry",
-      "type": "story",
-      "url": "https://www.bakerdatacounsel.com/e-sports/game-on-addressing-security-challenges-in-the-e-sports-industry/"
-    },
-    {
-      "by": "andyxor",
-      "descendants": 0,
-      "id": 28051206,
-      "score": 1,
-      "time": 1628008580,
-      "title": "How Netflix Reinvented HR",
-      "type": "story",
-      "url": "https://hbr.org/2014/01/how-netflix-reinvented-hr"
-    },
-    {
-      "by": "smbv",
-      "descendants": 0,
-      "id": 28051196,
-      "score": 1,
-      "time": 1628008518,
-      "title": "Awful transaction and timing: AT&T finally ditches DirecTV",
-      "type": "story",
-      "url": "https://arstechnica.com/information-technology/2021/08/att-completes-directv-spinoff-after-6-years-of-utter-failure-and-ineptitude/"
     }
   ]
 }
