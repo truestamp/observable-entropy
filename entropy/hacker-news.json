@@ -1,6 +1,36 @@
 {
   "stories": [
     {
+      "by": "lazyfreelancer",
+      "descendants": 0,
+      "id": 28057969,
+      "score": 1,
+      "text": "I have a billion client calls and hate taking notes. Anyone got a good workaround or tool?",
+      "time": 1628059427,
+      "title": "Way to save Google meet chat/transcription?",
+      "type": "story"
+    },
+    {
+      "by": "Borlands",
+      "descendants": 0,
+      "id": 28057953,
+      "score": 1,
+      "time": 1628059289,
+      "title": "Blush, illustrations for your product page",
+      "type": "story",
+      "url": "https://blush.design/"
+    },
+    {
+      "by": "noduerme",
+      "descendants": 0,
+      "id": 28057950,
+      "score": 1,
+      "text": "This is probably the third time in 10 years I&#x27;ve noticed job listings clamoring for React, and went and submerged myself again in what exactly React and JSX look like, in case I&#x27;d ever want or need to take a job involving that framework. And again I just can&#x27;t believe this method of writing an interface is popular. It&#x27;s like turning your socks inside out and claiming you&#x27;re wearing magic shoes. On one hand, I&#x27;m permanently offended at the removal of the ever-elegant `${}` as a way to concatenate strings and JS. I was one of those coders who used to write PHP and never, ever, inlined it in a mainly HTML doc. I&#x27;d never touch inline javascript in HTML tags. It&#x27;s just unreadable. I&#x27;d much rather have a pure piece of HTML as a template, with all the properties and roles and id&#x27;s, and then a pure piece of code that modifies it or updates it. In some rare cases I&#x27;ll inline templates with &gt;&gt;&gt;EOT or `` syntax. The other thing is, Facebook started as a company doing PHP inline in HTML, and raced to find a way to compile PHP and then raced to find a way to turn Javascript inside out like a sock; <i>they are not good hierarchical thinkers</i>.<p>I think the promise of a virtual DOM is fun, but ultimately once you&#x27;ve dispensed with IDs and everything is an object, you still need keys; which means you need to bring back IDs in the model; which means you still have to go back to interacting with the DOM where you started, there&#x27;s just a further layer of abstraction, one which you can&#x27;t control the lifecycle of. And a hard-to-read abstraction! Now you can&#x27;t just check the properties of a tag to see what hooks into it; it&#x27;s instantiating something beyond your control, on its own.<p>Why does every new front-end developer job now ask for React as a core competency? Do people think it&#x27;s going to still be a dominant framework in a few years? I really hope coders are able to think outside this paradigm and create their own element &#x2F; component hierarchies without relying on this extremely hinky observational system to run the DOM for them. For instance (as an alternative) in big web apps I register components with my own MVC pattern, giving them unique Class.struct.IDs and assign them broad (global), narrow (within a parent component) or specific (just this component) listeners, to cause DOM redraws &#x2F; updates; and these refreshes can be triggered by setting off events anywhere else in the app when a specific piece of data changes, and only when it changes, regardless of whether one or many related components are on-screen at the time. So refreshes aren&#x27;t based on which DOM component happens to be on screen and whether its key matches some state, and consequently, you don&#x27;t have to hunt for every component that might need that state. Encapsulating states in component-level architecture is <i>stupid</i> if you&#x27;re dealing with apps that have hundreds of components and need to abstract model changes to any or all of them. Looking at React code and trying to figure out how to turn off specific listeners, or only target certain elements in sub-components when big models update seems like a recipe for hell.<p>And I also don&#x27;t get why something that came out of Facebook has gained such popularity. Have you looked at Facebook&#x27;s website since 2011? Is that a framework you would use to build an app?",
+      "time": 1628059244,
+      "title": "React Strikes Me as Ridiculous",
+      "type": "story"
+    },
+    {
       "by": "slyall",
       "descendants": 0,
       "id": 28057913,
@@ -72,36 +102,6 @@
       "title": "The Sample: Add some variety to your information diet",
       "type": "story",
       "url": "https://sample.findka.com/?ref=bwf"
-    },
-    {
-      "by": "aedithtello",
-      "descendants": 0,
-      "id": 28057721,
-      "score": 1,
-      "text": "Joint Guard 360 Reviews Another reason to take Joint Guard 360 Thrive Formula predominantly others is that it least complex incorporates normal concentrates. There aren&#x27;t any parts internal those containers. Thusly, we comprehend that there aren&#x27;t anyt any peculiar angle results that would come roughly; excepting any natural unfavorably susceptible response, obviously. The utilization of most straightforward normal concentrates also strategy that the ones following a veggie lover, vegan, or greatest various eating regimens can utilize the Joint Guard 360 with out horrendous around it. The equivalent is going for people who might perhaps avoid sure components for profound reasons; they may inconsistently find something questionable withinside the strategy here.<p>https:&#x2F;&#x2F;www.bignewsnetwork.com&#x2F;news&#x2F;270562125&#x2F;joint-guard-360-reviews---get-free-trial-is-joint-guard-really-work<p>https:&#x2F;&#x2F;groups.google.com&#x2F;g&#x2F;joint-guard-360-reviews&#x2F;c&#x2F;F5yQ8eDcaJI<p>https:&#x2F;&#x2F;promosimple.com&#x2F;giveaways&#x2F;joint-guard-360-reviews-thrive-health-labs-supplement-worth-it&#x2F;",
-      "time": 1628057025,
-      "title": "We Should Use Joint Guard 360 Thrive?",
-      "type": "story"
-    },
-    {
-      "by": "BRedSox",
-      "descendants": 0,
-      "id": 28057699,
-      "score": 1,
-      "time": 1628056791,
-      "title": "Three must listen adventure audiobooks",
-      "type": "story",
-      "url": "https://buderflys.com/blogs/blog/must-listen-adventure-audiobooks"
-    },
-    {
-      "by": "ar2808",
-      "descendants": 0,
-      "id": 28057693,
-      "score": 1,
-      "time": 1628056751,
-      "title": "Love robots and UI: The role of AI in the design industry",
-      "type": "story",
-      "url": "https://uxdesign.cc/love-robots-ui-the-role-of-ai-in-the-design-industry-2e87bd8b25c2"
     }
   ]
 }
