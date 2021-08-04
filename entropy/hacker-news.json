@@ -1,13 +1,62 @@
 {
   "stories": [
     {
+      "by": "pseudolus",
+      "descendants": 0,
+      "id": 28059414,
+      "score": 1,
+      "time": 1628073274,
+      "title": "Future Space Travel Might Require Mushrooms",
+      "type": "story",
+      "url": "https://www.scientificamerican.com/article/space-travels-most-surprising-future-ingredient-mushrooms/"
+    },
+    {
+      "by": "hidden-spyder",
+      "descendants": 0,
+      "id": 28059406,
+      "score": 1,
+      "time": 1628073197,
+      "title": "Ask HN: How would you improve YouTube comments?",
+      "type": "story"
+    },
+    {
+      "by": "dragonsh",
+      "descendants": 0,
+      "id": 28059405,
+      "score": 1,
+      "time": 1628073195,
+      "title": "Camelot: PDF Table Extraction for Humans",
+      "type": "story",
+      "url": "https://github.com/camelot-dev/camelot"
+    },
+    {
+      "by": "pseudolus",
+      "descendants": 0,
+      "id": 28059403,
+      "score": 1,
+      "time": 1628073191,
+      "title": "People living in dense parts of UK cities found to be more lonely",
+      "type": "story",
+      "url": "https://phys.org/news/2021-08-people-dense-uk-cities-lonely.html"
+    },
+    {
+      "by": "feross",
+      "descendants": 0,
+      "id": 28059402,
+      "score": 1,
+      "time": 1628073189,
+      "title": "V8 Release v9.2",
+      "type": "story",
+      "url": "https://v8.dev/blog/v8-release-92"
+    },
+    {
       "by": "jamesknelson",
       "descendants": 0,
       "id": 28059371,
-      "score": 2,
-      "text": "While looking for an NPM package to handle keyboard input, I ran across the package `@fluentui&#x2F;keyboard-key` from Microsoft&#x27;s fluentui repository - but when going to install it, I noticed that their README asked me to install a slightly different package: `keyboard-key` – without the namespace.<p>Curious, I went to take a look at the package that Microsoft&#x27;s README recommended I install, and found out that said package had an <i>identical</i> README, but a different author, and a different LICENSE:<p><pre><code>    Copyright (c) 2018 Levi Thomason\n</code></pre>\nAs opposed to Microsoft&#x27;s copy, which reads:<p><pre><code>    Copyright (c) Microsoft Corporation\n</code></pre>\nIf you take a look at the source of these two packages, they&#x27;re obviously related. The exported API is the same, the comments are mostly the same, and if you take a look at the commit history of fluentui, it turns out that Microsoft was <i>originally</i> using Levi Thomason&#x27;s keyboard-key package. The commit where they forked it is here:<p>https:&#x2F;&#x2F;github.com&#x2F;microsoft&#x2F;fluentui&#x2F;pull&#x2F;13264&#x2F;files<p>My question: is this kind of blatant copying and then reassigning of copyrights by megacorps legal? And if not, is there anything we can do it?",
+      "score": 5,
+      "text": "While looking for an NPM package to handle keyboard input, I ran across the package `@fluentui&#x2F;keyboard-key` from Microsoft&#x27;s fluentui repository - but when going to install it, I noticed that their README asked me to install a slightly different package: `keyboard-key` – without the namespace.<p>Curious, I went to take a look at the package that Microsoft&#x27;s README recommended I install, and found out that said package had an <i>identical</i> README, but a different author, and a different LICENSE:<p><pre><code>    Copyright (c) 2018 Levi Thomason\n</code></pre>\nAs opposed to Microsoft&#x27;s copy, which reads:<p><pre><code>    Copyright (c) Microsoft Corporation\n</code></pre>\nIf you take a look at the source of these two packages, they&#x27;re obviously related. The exported API is the same, the comments are mostly the same, and if you take a look at the commit history of fluentui, it turns out that Microsoft was <i>originally</i> using Levi Thomason&#x27;s keyboard-key package. The commit where they forked it is here:<p>https:&#x2F;&#x2F;github.com&#x2F;microsoft&#x2F;fluentui&#x2F;pull&#x2F;13264&#x2F;files<p>My question: is this kind of blatant copying and then reassigning of copyrights by megacorps legal? And if not, is there anything we can do about it?",
       "time": 1628072946,
-      "title": "Ask HN: Microsoft copied this MIT-licensed package. Is it legal?",
+      "title": "Ask HN: Microsoft claims copyright on others' MIT-licensed code - is this legal?",
       "type": "story"
     },
     {
@@ -34,7 +83,7 @@
       "by": "williamsharris",
       "descendants": 0,
       "id": 28059339,
-      "score": 1,
+      "score": 2,
       "time": 1628072647,
       "title": "Sony posts record Q1 profit on pandemic demand for devices and content",
       "type": "story",
@@ -44,61 +93,11 @@
       "by": "scopio918",
       "descendants": 0,
       "id": 28059332,
-      "score": 1,
+      "score": 2,
       "time": 1628072597,
       "title": "Democrats Seek $500B in Climate Damages from Big Polluting Companies",
       "type": "story",
       "url": "https://www.nytimes.com/2021/08/04/climate/tax-polluting-companies-climate.html"
-    },
-    {
-      "by": "paramaw",
-      "descendants": 0,
-      "id": 28059291,
-      "score": 2,
-      "time": 1628072212,
-      "title": "Show HN: Till – Unblock and scale your web scrapers, with minimal code changes",
-      "type": "story",
-      "url": "https://github.com/DataHenHQ/till"
-    },
-    {
-      "by": "rbanffy",
-      "descendants": 0,
-      "id": 28059290,
-      "score": 1,
-      "time": 1628072204,
-      "title": "NASA science chief says it’s OK to be “worried” or “terrified” about Webb",
-      "type": "story",
-      "url": "https://arstechnica.com/science/2021/08/nasa-science-chief-says-its-ok-to-be-worried-or-terrified-about-webb/"
-    },
-    {
-      "by": "feross",
-      "descendants": 0,
-      "id": 28059289,
-      "score": 1,
-      "time": 1628072178,
-      "title": "Metaverses",
-      "type": "story",
-      "url": "https://stratechery.com/2021/metaverses/"
-    },
-    {
-      "by": "oj002",
-      "descendants": 0,
-      "id": 28059276,
-      "score": 2,
-      "time": 1628072124,
-      "title": "Show HN: Talk about modern pseudo random number generation",
-      "type": "story",
-      "url": "https://www.youtube.com/watch?v=VHJUlRiRDCY"
-    },
-    {
-      "by": "rbanffy",
-      "descendants": 0,
-      "id": 28059262,
-      "score": 1,
-      "time": 1628072021,
-      "title": "After nearly 20 months, Boeing and Starliner have a shot at redemption",
-      "type": "story",
-      "url": "https://arstechnica.com/science/2021/08/after-nearly-20-months-boeing-and-starliner-have-a-shot-at-redemption/"
     }
   ]
 }
