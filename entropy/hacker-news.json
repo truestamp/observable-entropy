@@ -1,12 +1,22 @@
 {
   "stories": [
     {
+      "by": "rbanffy",
+      "descendants": 0,
+      "id": 28059426,
+      "score": 1,
+      "time": 1628073416,
+      "title": "Apple Begins Selling Touch ID-Equipped Magic Keyboard, New Mac Pro GPUs",
+      "type": "story",
+      "url": "https://arstechnica.com/gadgets/2021/08/apple-begins-selling-touch-id-equipped-magic-keyboard-new-mac-pro-gpus/"
+    },
+    {
       "by": "pseudolus",
       "descendants": 0,
       "id": 28059414,
       "score": 1,
       "time": 1628073274,
-      "title": "Future Space Travel Might Require Mushrooms",
+      "title": "Paul Stamets - Future Space Travel Might Require Mushrooms",
       "type": "story",
       "url": "https://www.scientificamerican.com/article/space-travels-most-surprising-future-ingredient-mushrooms/"
     },
@@ -48,16 +58,6 @@
       "title": "V8 Release v9.2",
       "type": "story",
       "url": "https://v8.dev/blog/v8-release-92"
-    },
-    {
-      "by": "jamesknelson",
-      "descendants": 0,
-      "id": 28059371,
-      "score": 5,
-      "text": "While looking for an NPM package to handle keyboard input, I ran across the package `@fluentui&#x2F;keyboard-key` from Microsoft&#x27;s fluentui repository - but when going to install it, I noticed that their README asked me to install a slightly different package: `keyboard-key` – without the namespace.<p>Curious, I went to take a look at the package that Microsoft&#x27;s README recommended I install, and found out that said package had an <i>identical</i> README, but a different author, and a different LICENSE:<p><pre><code>    Copyright (c) 2018 Levi Thomason\n</code></pre>\nAs opposed to Microsoft&#x27;s copy, which reads:<p><pre><code>    Copyright (c) Microsoft Corporation\n</code></pre>\nIf you take a look at the source of these two packages, they&#x27;re obviously related. The exported API is the same, the comments are mostly the same, and if you take a look at the commit history of fluentui, it turns out that Microsoft was <i>originally</i> using Levi Thomason&#x27;s keyboard-key package. The commit where they forked it is here:<p>https:&#x2F;&#x2F;github.com&#x2F;microsoft&#x2F;fluentui&#x2F;pull&#x2F;13264&#x2F;files<p>My question: is this kind of blatant copying and then reassigning of copyrights by megacorps legal? And if not, is there anything we can do about it?",
-      "time": 1628072946,
-      "title": "Ask HN: Microsoft claims copyright on others' MIT-licensed code - is this legal?",
-      "type": "story"
     },
     {
       "by": "donatzsky",
