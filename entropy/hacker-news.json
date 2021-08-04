@@ -1,104 +1,104 @@
 {
   "stories": [
     {
-      "by": "beefman",
+      "by": "ofou",
       "descendants": 0,
-      "id": 28063253,
+      "id": 28063344,
       "score": 1,
-      "time": 1628095746,
-      "title": "Letters to my Sons on the 50th Anniversary of Apollo 11 (2019)",
+      "time": 1628096102,
+      "title": "Samsung is making the Google Tensor chip that could kill its phones",
       "type": "story",
-      "url": "https://gist.github.com/clumma/ea4063011b2f2544c456359032d0e9e5"
+      "url": "https://www.sammobile.com/news/samsung-making-google-tensor-chip-kill-its-phones/"
     },
     {
-      "by": "ducktective",
+      "by": "thekeyper",
       "descendants": 0,
-      "id": 28063251,
+      "id": 28063339,
       "score": 1,
-      "time": 1628095743,
-      "title": "Suckless programs list, stuff that rocks",
-      "type": "story",
-      "url": "http://suckless.org/rocks/"
-    },
-    {
-      "by": "joeyespo",
-      "descendants": 0,
-      "id": 28063241,
-      "score": 1,
-      "time": 1628095704,
-      "title": "2021 Django Developers Survey",
-      "type": "story",
-      "url": "https://www.djangoproject.com/weblog/2021/aug/04/2021-django-developers-survey/"
-    },
-    {
-      "by": "plutusInvest",
-      "descendants": 0,
-      "id": 28063234,
-      "score": 1,
-      "text": "Hi HN people<p>I&#x27;m the founder of a Techstars backed startup and I &#x27;m looking to chat with 18-35 year olds currently investing in the U.S. stock market as part of the beta program, in hopes to co-create with a handful of retail investors. Send me an email at helloplutus.co@gmail.com if you&#x27;re interested.<p>Thanks!",
-      "time": 1628095685,
-      "title": "Be part of the Beta program for a Techstars backed company",
+      "text": "Hi HN, we&#x27;re Zain and Grant at Keyri. We make a white label passwordless authentication SDK that companies can embed into their mobile apps for instant biometrics-based registration and login on any device. Keyri can be used for (1) authentication by itself, (2) an auth option in addition to passwords and OpenID, (3) step-up identity verification in high risk-score scenarios.<p>Passwords suck - they&#x27;re terrible for security and terrible for ease of use. 2FA solutions are clunky and still insecure - for example, SMS-based 2FA doesn&#x27;t work when you travel abroad, and it can be defeated with phishing and SIM swapping. They also allow users to share their subscription accounts with others, robbing companies of revenue. Password-based auth also enables the sort of bot activity that renders sites like Ticketmaster and StockX unusable for real customers.<p>2FA methods currently in the market represent a tradeoff between security and ease of use. Secure 2FA methods like USB keys are a pain to use, while easy 2FA methods like SMS passcodes are unsecure. Keyri essentially takes the USB key concept and puts it in users&#x27; phones. This is hard to do in a secure way while maintaining a seamless UX due to the need for two-way communication to prevent phishing. Some enterprise-focused smartphone-based passwordless solutions require a Bluetooth or WiFi connection between users’ phones and their other devices to ensure security, which is obviously untenable for rollout to mass audiences. Our system works securely 100% over HTTPS and computer vision (beyond just reading QR codes). An additional difficulty is that companies don&#x27;t want to force their users to download a third-party app. We solve this with our SDK that allows companies to bake our passwordless auth capability into their apps.<p>Keyri replaces passwords with public key cryptography plus biometrics. Instead of remembering and typing in your credentials, authentication happens by just scanning a QR code (on desktop web) or tapping a button (on mobile web and mobile native apps). Thanks to biometrics and cryptographic functions happening in the background, multi-factor authentication happens in one step that takes less than a second.<p>At registration, the Keyri SDK generates a key pair, stores the private key in the phone&#x27;s secure enclave, and sends the public key to the relying party&#x27;s (our customer’s) credential server. At login, the SDK first verifies the user&#x27;s identity via biometrics (Face ID etc.), then generates a signed authentication request using the stored private key, then sends that request to the relying party&#x27;s auth server, which authenticates the user by verifying the signature using the public key it received during registration. The user&#x27;s private keys never leave their phone. There&#x27;s a lot more cryptography, handshakes, secret sauce, etc. that happen during the auth flow, but those are incidental to the core concept outlined above.<p>What&#x27;s different about us? 1. Keyri is available as a mobile SDK, allowing any company to offer passwordless onboarding and WhatsApp-like QR code login entirely within their own app without a long and tricky dev cycle. 2. Keyri doesn&#x27;t require any typing or setup &#x2F; opt in. Other passwordless solutions require typing out a username&#x2F;email address and&#x2F;or connecting by bluetooth, specialized onboarding, etc. 3. Key backup and recovery is handled automatically via the cloud (iCloud &#x2F; Google Drive). Additional backup&#x2F;restore options are available in our SDK. 4. Privacy: unlike OpenID and some other passwordless solutions, Keyri’s server does not store or see any private keys or any personal information. Our API simply facilitates the transmission of public keys and encrypted signed authentication requests.<p>We charge companies based on how many unique users use Keyri to log in to their web services in a given month. We can provide our API in a self-hostable format for companies in heavily regulated industries. Our auth endpoint code is open source, but our API and mobile SDK are not.<p>If you want to try the experience, check out our live demo here: <a href=\"https:&#x2F;&#x2F;keyri.co&#x2F;demo\" rel=\"nofollow\">https:&#x2F;&#x2F;keyri.co&#x2F;demo</a>. Note that this demo uses our standalone authenticator app, which is available for companies that don’t have their own mobile app, but our main product is the white label SDK that incorporates the authenticator app’s full functionality (and then some) into our customers’ apps.<p>As a long-time HN lurker, I know the community has expertise and strong opinions on authentication. It would be great to get your feedback, and I’d be happy to answer any questions. We’re very actively building out the system, so any ideas for bolstering our system are welcome.",
+      "time": 1628096083,
+      "title": "Launch HN: Keyri (YC S21) – Secure smartphone-based passwordless authentication",
       "type": "story"
     },
     {
-      "by": "atg_abhishek",
+      "by": "belter",
       "descendants": 0,
-      "id": 28063228,
-      "score": 2,
-      "time": 1628095671,
-      "title": "Uber's Finance Computation Platform",
-      "type": "story",
-      "url": "https://eng.uber.com/ubers-finance-computation-platform/"
-    },
-    {
-      "by": "ethanpailes",
-      "descendants": 0,
-      "id": 28063202,
-      "score": 2,
-      "time": 1628095598,
-      "title": "Pggen: A Golang ORM Alternative",
-      "type": "story",
-      "url": "https://medium.com/opendoor-labs/announcing-pggen-a-golang-orm-alternative-a34191f614c8"
-    },
-    {
-      "by": "atg_abhishek",
-      "descendants": 0,
-      "id": 28063192,
+      "id": 28063337,
       "score": 1,
-      "time": 1628095559,
-      "title": "Building architectures that can handle the world's data",
+      "time": 1628096075,
+      "title": "Netflix announces Space X documentary on civilian mission into orbit",
       "type": "story",
-      "url": "https://deepmind.com/blog/article/building-architectures-that-can-handle-the-worlds-data"
+      "url": "https://news.sky.com/story/netflix-announces-space-x-documentary-on-civilian-mission-into-orbit-12372247"
     },
     {
-      "by": "kiyanwang",
+      "by": "danielyefet",
       "descendants": 0,
-      "id": 28063185,
+      "id": 28063331,
       "score": 1,
-      "time": 1628095535,
-      "title": "Kubectl plugin for blue/green deployment strategy",
+      "time": 1628096069,
+      "title": "Developers – Don’t Fall for These Traps",
       "type": "story",
-      "url": "https://itnext.io/kubectl-plugin-for-blue-green-deployment-strategy-cc5b40a87817"
+      "url": "https://jsamkay.medium.com/developers-dont-fall-for-these-traps-8523bbfee5d5"
     },
     {
-      "by": "WizardofLeads",
+      "by": "zuhayeer",
       "descendants": 0,
-      "id": 28063174,
+      "id": 28063323,
       "score": 1,
-      "time": 1628095490,
-      "title": "Tools You Need to Automate Your Lead Generation Agency",
+      "time": 1628096020,
+      "title": "Speed as a Habit",
       "type": "story",
-      "url": "https://www.lyne.ai/post/12-tools-you-need-to-automate-your-lead-generation-agency"
+      "url": "https://review.firstround.com/speed-as-a-habit"
     },
     {
-      "by": "Apocryphon",
+      "by": "kpetermeni",
       "descendants": 0,
-      "id": 28063168,
-      "score": 3,
-      "time": 1628095478,
-      "title": "The Nonmachinables",
+      "id": 28063316,
+      "score": 1,
+      "time": 1628096001,
+      "title": "Bank account of Africa's Internet Registry, Afrinic, frozen by courts",
       "type": "story",
-      "url": "https://logicmag.io/distribution/the-nonmachinables/"
+      "url": "https://afrinic.net/20210727-ceo-addresses-freezing-of-afrinic-financial-accounts"
+    },
+    {
+      "by": "parentheses",
+      "descendants": 0,
+      "id": 28063312,
+      "score": 1,
+      "text": "I&#x27;ve noticed some start ups call themselves &quot;stealth mode&quot; and get to &gt;20 engineers and keep it that way. I see a lot of reasons why stealth mode is bad and good.<p>Building in public:<p><pre><code>  - tests your idea (+)\n  - allows for feedback (+)\n  - forces you to ship (+)\n  - turns revenue into a usable metric (+)\n  - opens you to copy-cats immediately (-)\n  - opens you to incumbent challenges (-)\n</code></pre>\nOn the other hand, building in private:<p><pre><code>  - keeps your idea secret (+)\n  - no customers = no pressure and vision focused (+&#x2F;-)\n  - no iteration&#x2F;testing of vision (-)\n  - admits that existential threats are real (-)\n</code></pre>\nI&#x27;m sure there are a lot more.. What are your thoughts?",
+      "time": 1628095994,
+      "title": "Ask HN: Stealth mode seems like a weakness; why would anyone?",
+      "type": "story"
+    },
+    {
+      "by": "ofou",
+      "descendants": 0,
+      "id": 28063308,
+      "score": 1,
+      "time": 1628095990,
+      "title": "The Faangs and the Foundries",
+      "type": "story",
+      "url": "https://www.eetimes.eu/the-faangs-and-the-foundries/"
+    },
+    {
+      "by": "paulpauper",
+      "descendants": 0,
+      "id": 28063303,
+      "score": 1,
+      "time": 1628095969,
+      "title": "How the rich got richer: Reddit trading frenzy benefited Wall Street elite",
+      "type": "story",
+      "url": "https://www.washingtonpost.com/business/2021/02/08/gamestop-wallstreet-wealth/"
+    },
+    {
+      "by": "paulpauper",
+      "descendants": 0,
+      "id": 28063280,
+      "score": 1,
+      "time": 1628095896,
+      "title": "Binance Froze When Bitcoin Crashed. Now Users Want Their Money Back",
+      "type": "story",
+      "url": "https://www.wsj.com/articles/binance-froze-when-bitcoin-crashed-now-users-want-their-money-back-11626001202"
     }
   ]
 }
