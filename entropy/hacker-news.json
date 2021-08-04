@@ -1,6 +1,36 @@
 {
   "stories": [
     {
+      "by": "jamesknelson",
+      "descendants": 0,
+      "id": 28059371,
+      "score": 2,
+      "text": "While looking for an NPM package to handle keyboard input, I ran across the package `@fluentui&#x2F;keyboard-key` from Microsoft&#x27;s fluentui repository - but when going to install it, I noticed that their README asked me to install a slightly different package: `keyboard-key` – without the namespace.<p>Curious, I went to take a look at the package that Microsoft&#x27;s README recommended I install, and found out that said package had an <i>identical</i> README, but a different author, and a different LICENSE:<p><pre><code>    Copyright (c) 2018 Levi Thomason\n</code></pre>\nAs opposed to Microsoft&#x27;s copy, which reads:<p><pre><code>    Copyright (c) Microsoft Corporation\n</code></pre>\nIf you take a look at the source of these two packages, they&#x27;re obviously related. The exported API is the same, the comments are mostly the same, and if you take a look at the commit history of fluentui, it turns out that Microsoft was <i>originally</i> using Levi Thomason&#x27;s keyboard-key package. The commit where they forked it is here:<p>https:&#x2F;&#x2F;github.com&#x2F;microsoft&#x2F;fluentui&#x2F;pull&#x2F;13264&#x2F;files<p>My question: is this kind of blatant copying and then reassigning of copyrights by megacorps legal? And if not, is there anything we can do it?",
+      "time": 1628072946,
+      "title": "Ask HN: Microsoft copied this MIT-licensed package. Is it legal?",
+      "type": "story"
+    },
+    {
+      "by": "donatzsky",
+      "descendants": 0,
+      "id": 28059368,
+      "score": 1,
+      "time": 1628072904,
+      "title": "Locust: Scalable user load testing tool written in Python",
+      "type": "story",
+      "url": "https://github.com/locustio/locust"
+    },
+    {
+      "by": "csabakissi",
+      "descendants": 0,
+      "id": 28059365,
+      "score": 1,
+      "time": 1628072890,
+      "title": "My story of $3mil+ earned on the internet",
+      "type": "story",
+      "url": "https://twitter.com/csaba_kissi/status/1422859903484317698"
+    },
+    {
       "by": "williamsharris",
       "descendants": 0,
       "id": 28059339,
@@ -69,39 +99,6 @@
       "title": "After nearly 20 months, Boeing and Starliner have a shot at redemption",
       "type": "story",
       "url": "https://arstechnica.com/science/2021/08/after-nearly-20-months-boeing-and-starliner-have-a-shot-at-redemption/"
-    },
-    {
-      "by": "AlbertCory",
-      "descendants": 1,
-      "id": 28059246,
-      "kids": [
-        28059272
-      ],
-      "score": 2,
-      "time": 1628071856,
-      "title": "Show HN: I wrote a novel about my work developing the Xerox Star",
-      "type": "story",
-      "url": "http://www.albertcory.io"
-    },
-    {
-      "by": "onig90",
-      "descendants": 0,
-      "id": 28059228,
-      "score": 1,
-      "time": 1628071678,
-      "title": "Deploying Smart Contracts to Binance Smart Chain with Truffle",
-      "type": "story",
-      "url": "https://percybolmer1.medium.com/deploying-smart-contracts-to-binance-smart-chain-with-truffle-c57a7d1eb6ed"
-    },
-    {
-      "by": "adrian_mrd",
-      "descendants": 0,
-      "id": 28059225,
-      "score": 1,
-      "time": 1628071653,
-      "title": "Has Technology Made Global Cooperation Impossible?",
-      "type": "story",
-      "url": "https://www.nytimes.com/2021/08/04/opinion/technology-internet-cooperation.html"
     }
   ]
 }
