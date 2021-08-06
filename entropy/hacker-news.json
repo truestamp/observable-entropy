@@ -1,6 +1,46 @@
 {
   "stories": [
     {
+      "by": "ievans",
+      "descendants": 0,
+      "id": 28091124,
+      "score": 1,
+      "time": 1628274556,
+      "title": "A Practical Introduction to Semgrep",
+      "type": "story",
+      "url": "https://bernardoamc.com/semgrep-introduction/"
+    },
+    {
+      "by": "jrepinc",
+      "descendants": 0,
+      "id": 28091105,
+      "score": 1,
+      "time": 1628274459,
+      "title": "Porting your code to C++17 with GCC 11",
+      "type": "story",
+      "url": "https://developers.redhat.com/articles/2021/08/06/porting-your-code-c17-gcc-11"
+    },
+    {
+      "by": "ashton314",
+      "descendants": 0,
+      "id": 28091100,
+      "score": 1,
+      "time": 1628274435,
+      "title": "KMonad – An Advanced Keyboard Manager",
+      "type": "story",
+      "url": "https://github.com/kmonad/kmonad"
+    },
+    {
+      "by": "gmays",
+      "descendants": 0,
+      "id": 28091087,
+      "score": 1,
+      "time": 1628274362,
+      "title": "Atlantic Ocean currents weaken, signalling big weather changes",
+      "type": "story",
+      "url": "https://www.reuters.com/business/environment/atlantic-ocean-currents-weaken-signalling-big-weather-changes-study-2021-08-05/"
+    },
+    {
       "by": "altras",
       "descendants": 0,
       "id": 28091079,
@@ -22,9 +62,12 @@
     },
     {
       "by": "mathewsanders",
-      "descendants": 0,
+      "descendants": 1,
       "id": 28091028,
-      "score": 1,
+      "kids": [
+        28091114
+      ],
+      "score": 2,
       "text": "I’m recently joined a new team where we are tasked with building out a website with around 15-20 unique pages. There are 3 main types of pages, and the majority of them are lists of links to external PDF documents.<p>We’re using a headless CMS with content in the page broken into hundreds of individual elements, where a React client app renders the data from the CMS API to our users.<p>In addition we seem to be grabbing the PDFs from the server, converting to Base64 and then rendering as an object in the react app (rather than just linking to the pdf file directly).<p>The team (4 developers, 1 automation&#x2F;QA, 3 designers, scrum expert, product owner and product manager) is in their second quarter working on the site, and aiming to release this MVP next quarter so around 9 months to build 15-to-20 page site.<p>When I started my career 20 years ago, this is the type of project where maybe 2-3 people would build out over a few weeks.<p>When Content Management Systems were first introduced, one of their selling points was that it reduced reliance on developers for ongoing BAU content updates as ‘business people’ could make content updates and potentially even some sort of workflow to have reviewed or signed off (perhaps by compliance etc) with our set up the CMS is so complex that we’ll have any requests for changes submitted to team and have a developer make the update.<p>What benefit do we get from this complexity compared to just having static HTML pages that someone would update manually?<p>There are no concerns from our project sponsors around how long this is taking or the costs involved.<p>How on earth did we get to this stage where such bizarre complexity is accepted as normal?!",
       "time": 1628274006,
       "title": "Ask HN: How did web development become so bizarrely complex?",
@@ -59,49 +102,6 @@
       "title": "Avoiding the software delivery Death Spiral[video]",
       "type": "story",
       "url": "https://devinterrupted.com/video/avoiding-the-software-delivery-death-spiral/"
-    },
-    {
-      "by": "Tomte",
-      "descendants": 0,
-      "id": 28090963,
-      "score": 1,
-      "time": 1628273661,
-      "title": "Refactoring You’ve Never Heard of (2019)",
-      "type": "story",
-      "url": "https://www.youtube.com/watch?v=vNwukfhsOME"
-    },
-    {
-      "by": "BlackVanilla",
-      "descendants": 1,
-      "id": 28090930,
-      "kids": [
-        28090933
-      ],
-      "score": 1,
-      "time": 1628273507,
-      "title": "Was it ‘crazy’ to re-create a flu virus that killed 50M people? (2014)",
-      "type": "story",
-      "url": "https://www.washingtonpost.com/news/morning-mix/wp/2014/06/12/good-idea-or-crazy-re-creating-a-bird-flu-virus-that-once-killed-50-million-people/"
-    },
-    {
-      "by": "Tomte",
-      "descendants": 0,
-      "id": 28090915,
-      "score": 1,
-      "time": 1628273458,
-      "title": "Tea and Consent (2015)",
-      "type": "story",
-      "url": "https://www.youtube.com/watch?v=pZwvrxVavnQ"
-    },
-    {
-      "by": "node-bayarea",
-      "descendants": 0,
-      "id": 28090897,
-      "score": 1,
-      "time": 1628273400,
-      "title": "The “Impedance Mismatch Test” for your data layer",
-      "type": "story",
-      "url": "https://redislabs.com/blog/the-impedance-mismatch-test/"
     }
   ]
 }
