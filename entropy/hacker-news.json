@@ -1,9 +1,32 @@
 {
   "stories": [
     {
+      "by": "teleforce",
+      "descendants": 0,
+      "id": 28084642,
+      "score": 1,
+      "time": 1628239177,
+      "title": "Attest computer secure boot state to phone via time-based OTP and TPM",
+      "type": "story",
+      "url": "https://github.com/tpm2-software/tpm2-totp"
+    },
+    {
+      "by": "hogaur",
+      "descendants": 0,
+      "id": 28084618,
+      "score": 1,
+      "time": 1628238951,
+      "title": "Meet-Up: Event Streaming in Action with Clojure – Evolution of Ziggurat at Gojek",
+      "type": "story",
+      "url": "https://www.meetup.com/Bangalore-Clojure-User-Group/events/279717837/"
+    },
+    {
       "by": "nuker",
       "descendants": 0,
       "id": 28084609,
+      "kids": [
+        28084638
+      ],
       "score": 1,
       "time": 1628238887,
       "title": "Why is the kernel community replacing iptables with BPF? (2018)",
@@ -47,7 +70,7 @@
       "by": "feross",
       "descendants": 0,
       "id": 28084539,
-      "score": 3,
+      "score": 5,
       "time": 1628238189,
       "title": "Apple's “1984” Macintosh Commercial",
       "type": "story",
@@ -55,9 +78,13 @@
     },
     {
       "by": "zevv",
-      "descendants": 0,
+      "descendants": 1,
       "id": 28084538,
-      "score": 1,
+      "kids": [
+        28084626,
+        28084648
+      ],
+      "score": 2,
       "text": "Recently I had a nice meetup with some old friends and colleges (for the first time in more then a year!), where we each ended up sharing one single piece of simple, good and practical advice or habit from our professional career and experiences.<p>Two gems I&#x27;d like to share here:<p>- From the manager in our group: He plans and extra 10 minutes for all his meetings, and starts the meeting with all the participants silently reading the required documents that will be discussed. This change made him and his team pretty happy: everybody now knows what they are talking about, no one has to be uncomfortable joining a meeting without having found or taken the time to prepare.<p>- The sysadmin&#x2F;ops guy: This is one lazy dude, your average BOFH. He has this nice trick that saved him a lot of work in evenings or weekends: for every machine or container he builds and installs, he puts a large empty file in every partition on every disk, taking up about 10% or so. `dd if=&#x2F;dev&#x2F;zero of=bigfile bs=1M count=1024`. This file just sits there until he gets this emergency call from a user about disks being full, usually at the most inconvenient time. Instead of frantically having to spend hours in the weekend migrating databases, expanding file systems, mounting new volumes and what not, he simply SSHs into the box, removes the file, and goes back to barbecuing and drinking his whiskey, and will properly solve the problem in office hours come monday morning.<p>I find both of those excellent pieces of practical advice: so simple that it makes you wonder why you never came up with these things yourself.<p>I bet the people of HN have more like these?",
       "time": 1628238186,
       "title": "Ask HN: Single best practical advice from your expertise?",
@@ -82,26 +109,6 @@
       "title": "Algorithms Look at X-Rays–and Somehow Detect Your Race",
       "type": "story",
       "url": "https://www.wired.com/story/these-algorithms-look-x-rays-detect-your-race/"
-    },
-    {
-      "by": "tylorr",
-      "descendants": 0,
-      "id": 28084497,
-      "score": 2,
-      "time": 1628237720,
-      "title": "DIY Energy Recovery Heat Exchanger",
-      "type": "story",
-      "url": "https://greenwayerv.blogspot.com/2020/10/the-heat-exchanger.html"
-    },
-    {
-      "by": "olvy0",
-      "descendants": 0,
-      "id": 28084490,
-      "score": 1,
-      "time": 1628237679,
-      "title": "Virtual Tech Talk TU Berlin with Jeff Dean (April 2021)",
-      "type": "story",
-      "url": "https://www.youtube.com/watch?v=3aJ-qCPFbho"
     }
   ]
 }
