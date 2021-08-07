@@ -1,6 +1,59 @@
 {
   "stories": [
     {
+      "by": "helsinkiandrew",
+      "descendants": 0,
+      "id": 28096380,
+      "score": 1,
+      "time": 1628318995,
+      "title": "How do horses travel to international competitions?",
+      "type": "story",
+      "url": "https://www.economist.com/the-economist-explains/2021/08/06/how-do-horses-travel-to-international-competitions"
+    },
+    {
+      "by": "LucCogZest",
+      "descendants": 0,
+      "id": 28096378,
+      "score": 1,
+      "text": "Hook is an information retrieval tool for macOS that supplies &amp; resolves links &amp; bookmarks to all kinds of info, to minimize what Seth Godin recently called &quot;Mode Switching&quot;.<p>This week, we @ CogSci Apps Corp. released Hook 3.2 for Mac, adding<p>- support for Instapaper + GoodLinks (Hook already supported Pinboard); \n- simultaneous deep linking and quoting of PDF text; \n- new integrations with Merlin Project, Notion and Zoom; \n- etc.<p>See https:&#x2F;&#x2F;hookproductivity.com&#x2F;<p>Hook has a free 30-day trial and a free its Lite mode.<p># Product description<p>Hook features a nimble keyboarder-friendly popup window resembling Spotlight® and launchers (Alfred, LaunchBar). In contrast, however, Hook is context-aware ; it generates and leverages information networks.<p>How? Bring Hook&#x27;s context window up on a selected or open file, email, task, or almost any item in almost any Mac app, and it will allow you to `Copy Link` to the item (⌘C).<p>This provides a uniform gesture that works not only across browsers (no plugin&#x2F;extension required) but in any app that is truly linkable ( https:&#x2F;&#x2F;hookproductivity.com&#x2F;help&#x2F;integration&#x2F;data-linkability-and-why-it-matters&#x2F;)<p>The scheme of the URL  returned by Hook&#x27;s `Copy Link` (⌘C) command for the given foreground app is determined a priori as follows.  When possible, the scheme is standard (eg, https). Otherwise if the app has its own URL scheme, Hook will normally use it (e.g., `x-devonthink-item:` URL or omnifocus:); otherwise, if possible Hook will supply a link with its own scheme + subscheme. Eg, Hook provides a `hook:&#x2F;&#x2F;file&#x2F;` URL for the open or selected Finder file, which unlike `file:&#x2F;&#x2F;` URL works even if you move the file (eg, offload a Git or Dropbox folder &amp; remount it elsewhere).  `hook:&#x2F;&#x2F;file&#x2F;` links can be shared between users (assuming the recipient has the same file). Hook&#x27;s `hook:&#x2F;&#x2F;email&#x2F;` URLs include the RFC-5322 compliant email ID; so they work across compliant email apps, determined by the Hook mail preference set by whoever activates the link.<p>Hook also can generate bidirectional links (&quot;hooks&quot;) to&#x2F;from the foreground app&#x27;s current item (the &quot;context&quot;). Hook&#x27;s solution predates and is much more general &amp; versatile than macOS 12 Quick Note.<p>Hook also enables one to create `.hook` files for the currently open item. More general and robust than aliases and .weblocs, and they are plain text (markdown).<p>Because `Copy Link` is a highly discriminative signal of future information relevance, Hook internally bookmarks what you link, optionally to Pinboard, Instapaper &amp;&#x2F;or GoodLinks.<p>Hook also enables deep PDF linking across multiple apps. Select text in a &quot;linkable&quot; PDF app, use Hook&#x27;s context-sensitive `Copy Link`: get a link to the specific location in that file. You or your recipient can open it with any compliant PDF app.<p>See [our notes on interoperability](https:&#x2F;&#x2F;hookproductivity.com&#x2F;about&#x2F;openness&#x2F;). Eg Hook has an API. And you can view and edit its &quot;integration scripts&quot;.<p>Hook can&#x27;t adequately be pigeon-holed in terms of current products. So it takes a few minutes of focused attention to get one&#x27;s head wrapped around it. To a first approximation, you can think of Hook as _privately_ and nimbly provisioning the &quot;last mile&quot; beyond the web, bidirectionally linking your Mac&#x27;s local resources to each other, to the cloud and the web (you can also webpages, of course). Hook overcomes the silo-ness of apps (e.g., connecting e-mail messages to tasks and files) without forcing you to use a particular multi-function suite (like Evernote or Notion).<p>Long ago, I was an at-founding employee of Tundra Semiconductors, which made hardware bus bridges between disparate CPUs&#x2F;buses. That gave me the idea for Hook, a connector of user-facing software resources.<p>And yes, a companion for iPhone&amp;iPad is coming (not a replacement).<p>CogSci Apps Corp. is a privately held Canadian company of which I am co-founder. I&#x27;m co-inventor of Hook.",
+      "time": 1628318960,
+      "title": "Show HN: Hook, supplying the missing links to macOS",
+      "type": "story"
+    },
+    {
+      "by": "nedp",
+      "descendants": 0,
+      "id": 28096377,
+      "score": 1,
+      "time": 1628318931,
+      "title": "JSONCrush – Compress JSON into URL friendly strings",
+      "type": "story",
+      "url": "https://github.com/KilledByAPixel/JSONCrush"
+    },
+    {
+      "by": "dredmorbius",
+      "descendants": 0,
+      "id": 28096374,
+      "kids": [
+        28096375
+      ],
+      "score": 1,
+      "time": 1628318914,
+      "title": "Test of FB moderation using 200 fake accounts posting pro/anti vaccine messages",
+      "type": "story",
+      "url": "https://old.reddit.com/r/dataisbeautiful/comments/oyoved/oc_i_created_200_fake_facebook_accounts_half_to/"
+    },
+    {
+      "by": "Vosporos",
+      "descendants": 0,
+      "id": 28096362,
+      "score": 1,
+      "time": 1628318822,
+      "title": "Cultivating an Engineering Dialect (George Wilson, YOW Lambda Jam 2021)",
+      "type": "story",
+      "url": "https://www.youtube.com/watch?v=HCuCKeK1l6g"
+    },
+    {
       "by": "fogihujy",
       "descendants": 0,
       "id": 28096343,
@@ -33,7 +86,7 @@
       "by": "shivbhatt",
       "descendants": 0,
       "id": 28096300,
-      "score": 1,
+      "score": 3,
       "time": 1628318094,
       "title": "Families of 9/11 victims tell Biden not to attend memorial events",
       "type": "story",
@@ -48,61 +101,6 @@
       "time": 1628317502,
       "title": "Ask HN: Will Open-Source Survive?",
       "type": "story"
-    },
-    {
-      "by": "readonthegoapp",
-      "descendants": 1,
-      "id": 28096250,
-      "kids": [
-        28096264
-      ],
-      "score": 1,
-      "time": 1628317446,
-      "title": "Ask HN: Did a bunch of your accounts get hacked at the same time?",
-      "type": "story"
-    },
-    {
-      "by": "AndrewBissell",
-      "descendants": 0,
-      "id": 28096217,
-      "score": 1,
-      "time": 1628317047,
-      "title": "On Pfizer's Sloppy Consent Form for Its Booster Clinical Trial",
-      "type": "story",
-      "url": "https://www.nakedcapitalism.com/2021/08/sloppy-pfizer-booster-clinical-trial-consent-form-provides-way-to-exclude-reactions-that-require-emergency-care.html"
-    },
-    {
-      "by": "vijayr02",
-      "descendants": 1,
-      "id": 28096193,
-      "kids": [
-        28096208
-      ],
-      "score": 1,
-      "time": 1628316832,
-      "title": "WhatsApp attacks Apple’s child safety ‘surveillance’ despite government acclaim",
-      "type": "story",
-      "url": "https://on.ft.com/3Ajo1aR"
-    },
-    {
-      "by": "graderjs",
-      "descendants": 0,
-      "id": 28096180,
-      "score": 1,
-      "time": 1628316697,
-      "title": "Sequoyah",
-      "type": "story",
-      "url": "https://en.wikipedia.org/wiki/Sequoyah"
-    },
-    {
-      "by": "NiceWayToDoIT",
-      "descendants": 0,
-      "id": 28096163,
-      "score": 1,
-      "time": 1628316504,
-      "title": "Hacking Satellites with $300 Worth of TV Gear",
-      "type": "story",
-      "url": "https://www.youtube.com/watch?v=8IGsQoL1AgQ"
     }
   ]
 }
