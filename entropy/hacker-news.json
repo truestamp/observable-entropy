@@ -1,6 +1,86 @@
 {
   "stories": [
     {
+      "by": "ecliptik",
+      "descendants": 0,
+      "id": 28108005,
+      "score": 1,
+      "time": 1628440765,
+      "title": "Gallery of CSS Descramblers",
+      "type": "story",
+      "url": "https://www.cs.cmu.edu/~dst/DeCSS/Gallery/"
+    },
+    {
+      "by": "ithkuil",
+      "descendants": 0,
+      "id": 28107996,
+      "score": 1,
+      "time": 1628440719,
+      "title": "The Non-Radiating Antenna",
+      "type": "story",
+      "url": "https://physicsworld.com/a/introducing-the-non-radiating-antenna/"
+    },
+    {
+      "by": "visviva",
+      "descendants": 0,
+      "id": 28107991,
+      "score": 1,
+      "time": 1628440695,
+      "title": "Big Tech call center workers face pressure to accept home surveillance",
+      "type": "story",
+      "url": "https://www.nbcnews.com/news/ncna1276227"
+    },
+    {
+      "by": "amargautam",
+      "descendants": 0,
+      "id": 28107989,
+      "score": 3,
+      "text": "Hi HN, my name is Amar, and I am the founder and CEO at HyperLinq (<a href=\"https:&#x2F;&#x2F;hyperlinq.io&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;hyperlinq.io&#x2F;</a>). We are building HyperTrader, a simple yet powerful native desktop trading terminal. Our app currently supports cryptocurrency trading, but we will soon expand into other asset classes like US stocks. We make it easy for traders to track multiple portfolios, discover the best prices, execute orders faster and analyze their trades.<p>Between my co-founders Karamvir and Kunal and myself, we have over 30 years of experience building trading systems. Karamvir and I worked at an inter-dealer broker in NYC and built many trading systems together. We also used to trade cryptocurrency. Back then there was a huge price disparity between exchanges, so we were able to do arbitrages.<p>We looked around and couldn&#x27;t settle on a tool that could help us simplify the workflow, so we set out to build our own, not because we wanted to start a business but because we simply wanted to spend less time. In early 2018, we hacked out a small app that did no more than price aggregation and comparison. Price discovery was the main focus rather than managing portfolios or orders.<p>Soon we had many friends using the app. By mid-2018, we realized there was a business potential, but we found out that people did not want the new features we had been building. So we threw away our roadmap and started interviewing users. What they told us boiled down to two significant asks: (1) A blazingly fast app; (2) Efficient ways to execute orders. None of our users cared about multiple exchanges. They just wanted an app better than the exchange they were trading on. So we decided to build that.<p>As we always wanted to build a desktop app instead of a web app, we decided to go with Node.js, C++, React, Redux, and Electron. We are aware that Electron is not ideal in terms of CPU and memory usage and also the build sizes are huge. But to begin with, we wanted to use something that can work cross platform with a single source code. Eventually we have to move to better options for a true native experience - a goal for 3.0. For the most part, our team has done a decent job at managing CPU and memory so that our app is fast and reliable even when built with Electron. Majority of the processing happens directly on the users&#x27; machines—only a small portion of data&#x2F;processing happens on our servers. The app connects directly to the exchanges. Unlike many other aggregators, we chose not to pick an open-source project for connectivity. Instead, we wrote our own connectors in C++ and deployed them as Node.js add-ons. On the server-side, we chose to remain 100% serverless. We wrote our lambdas in either Python or Node.js.<p>Building a desktop app gave us many advantages in terms of performance. Also, the peer-to-peer connectivity with the exchanges made sure that we do not hit issues related to API rate limits or network delays. It also helped us keep our costs low.<p>We plan to introduce stocks and forex trading in 2022. We want to keep building it further and add as many asset classes as possible. Our goal is to create a terminal that caters to all kinds of traders.<p>If you’re interested, please try out the app and send us your feedback. What do you think of our product? How can we make it better? Happy to answer any comments or questions!",
+      "time": 1628440684,
+      "title": "Launch HN: HyperLinq (YC S21) – Desktop trading terminal",
+      "type": "story"
+    },
+    {
+      "by": "amadeuspagel",
+      "descendants": 0,
+      "id": 28107981,
+      "score": 1,
+      "time": 1628440643,
+      "title": "Linklog",
+      "type": "story",
+      "url": "https://en.wikipedia.org/wiki/Linklog"
+    },
+    {
+      "by": "brudgers",
+      "descendants": 0,
+      "id": 28107970,
+      "score": 1,
+      "time": 1628440607,
+      "title": "New York Public Library to Remove Picture Collection from Circulation",
+      "type": "story",
+      "url": "https://www.nytimes.com/2021/08/03/arts/design/new-york-public-library-picture-collection.html"
+    },
+    {
+      "by": "LinuxBender",
+      "descendants": 0,
+      "id": 28107963,
+      "score": 1,
+      "time": 1628440568,
+      "title": "macOS Flaw in Telegram Retrieves Deleted Messages",
+      "type": "story",
+      "url": "https://threatpost.com/macos-flaw-in-telegram-retrieves-deleted-messages/168412/"
+    },
+    {
+      "by": "LinuxBender",
+      "descendants": 0,
+      "id": 28107951,
+      "score": 1,
+      "time": 1628440517,
+      "title": "South Korea to test grenade-launching drones",
+      "type": "story",
+      "url": "https://www.theregister.com/2021/08/06/south_korea_grenade_toting_drones/"
+    },
+    {
       "by": "akvadrako",
       "descendants": 0,
       "id": 28107943,
@@ -19,86 +99,6 @@
       "title": "Facebook blocks research into political ads, falsely blames FTC privacy order",
       "type": "story",
       "url": "https://arstechnica.com/tech-policy/2021/08/facebook-falsely-claims-ftc-forced-it-to-disable-nyu-researchers-accounts/"
-    },
-    {
-      "by": "LinuxBender",
-      "descendants": 0,
-      "id": 28107939,
-      "score": 1,
-      "time": 1628440432,
-      "title": "Researchers announce the smallest exoplanet discovered yet",
-      "type": "story",
-      "url": "https://arstechnica.com/science/2021/08/researchers-announce-the-smallest-exoplanet-discovered-yet/"
-    },
-    {
-      "by": "abc_tkys",
-      "descendants": 0,
-      "id": 28107917,
-      "score": 1,
-      "time": 1628440250,
-      "title": "Why WebAssembly is innovative even outside the browser",
-      "type": "story",
-      "url": "https://www.tetrate.io/blog/wasm-outside-the-browser/"
-    },
-    {
-      "by": "minimaxir",
-      "descendants": 0,
-      "id": 28107902,
-      "score": 1,
-      "time": 1628440156,
-      "title": "Show HN: Create Realistic AI-Generated Images with VQGAN + CLIP",
-      "type": "story",
-      "url": "https://colab.research.google.com/drive/1wkF67ThUz37T2_oPIuSwuO4e_-0vjaLs?usp=sharing"
-    },
-    {
-      "by": "Laudanum",
-      "descendants": 0,
-      "id": 28107877,
-      "score": 2,
-      "time": 1628440014,
-      "title": "We’re on Earth for 4k weeks – so why do we lose time to online distraction?",
-      "type": "story",
-      "url": "https://www.theguardian.com/books/2021/aug/07/on-earth-4000-weeks-so-why-lose-time-online-distraction-oliver-burkeman"
-    },
-    {
-      "by": "liotier",
-      "descendants": 0,
-      "id": 28107848,
-      "score": 2,
-      "time": 1628439839,
-      "title": "European Innovation and Technical Capabilities",
-      "type": "story",
-      "url": "https://berthub.eu/articles/posts/european-innovation-and-capabilities/"
-    },
-    {
-      "by": "softwaredoug",
-      "descendants": 0,
-      "id": 28107834,
-      "score": 3,
-      "time": 1628439739,
-      "title": "Is it bad to reuse plastic water bottles?",
-      "type": "story",
-      "url": "https://spoonuniversity.com/lifestyle/reuse-water-bottles-not-bad-for-you"
-    },
-    {
-      "by": "hhs",
-      "descendants": 0,
-      "id": 28107832,
-      "score": 1,
-      "time": 1628439719,
-      "title": "Travis Kalanick is building a secretive dark kitchen empire in Europe",
-      "type": "story",
-      "url": "https://sifted.eu/articles/kalanick-dark-kitchens/"
-    },
-    {
-      "by": "SubiculumCode",
-      "descendants": 0,
-      "id": 28107829,
-      "score": 2,
-      "time": 1628439707,
-      "title": "NASA Assembling a Response Team After Perseverance First Sampling Comes Up Empty",
-      "type": "story",
-      "url": "https://scitechdaily.com/nasa-assembling-a-response-team-after-perseverance-rovers-first-mars-sampling-attempt-comes-up-empty/"
     }
   ]
 }
