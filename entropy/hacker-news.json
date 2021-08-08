@@ -1,10 +1,30 @@
 {
   "stories": [
     {
+      "by": "helsinkiandrew",
+      "descendants": 0,
+      "id": 28104817,
+      "score": 1,
+      "time": 1628406801,
+      "title": "Semiconductors pose an unwelcome roadblock for carmakers",
+      "type": "story",
+      "url": "https://www.economist.com/business/semiconductors-pose-an-unwelcome-roadblock-for-carmakers/21803287"
+    },
+    {
+      "by": "OzandEinat",
+      "descendants": 0,
+      "id": 28104811,
+      "score": 1,
+      "text": "Hello HN!<p>We&#x27;re Oz and Einat, co-founders of lakeFS (https:&#x2F;&#x2F;lakefs.io&#x2F;), an open-source project that allows the creation of performant git-like repositories over an object store (i.e. S3).<p>Prior to starting lakeFS we were VP of R&amp;D and CTO at SimilarWeb, a (now-public) Israeli web analytics company whose business model is based on the collection and analysis of the internet&#x27;s activity.\nThat equals A LOT of data. Our S3 data lake held nearly 10 Petabytes of data. [As a reminder, 1PB = 1 Million GBs]. At this scale, the workflows and technologies used by other data teams start to break down.<p>Want to use a Data Warehouse like Snowflake to store and analyze the data? The bill from that could bankrupt the company.<p>Want to duplicate one of your datasets temporarily to test a schema or feature change? When over a million S3 copy operations are involved, there&#x27;s a significant non-zero chance some of those operations will fail.<p>Your ability to perform analysis and innovate starts to slow considerably, which is fatal for an analytics org.<p>Being able to do these operations without thought is something many analytics folk are able to take for granted… for now. But the trend is that data volumes will only keep growing (along with the expectations of what companies can do with their data).<p>An elegant solution, we realized, to the obstacles above would be to introduce git-enabled workflows like those used in application development. \nRecovering from a pernicious error in a million S3 files shouldn&#x27;t require a full day or even week of work to fix… instead let&#x27;s make it an instantaneous revert operation to a previous commit.<p>The challenge to implement this type of functionality is a technical one, one we took it upon ourselves to solve. It&#x27;s been 1 year since the first public commit on lakeFS and we&#x27;ve now raised a $15M Series A to continue building and improving our vision.<p>We&#x27;ve evolved a ton in the past year, completely refactoring the data model to remove dependency on Postgres. Fittingly, we now use rocksDB on the object store to persist the metadata lakeFS manages (with the added benefit of simplifying the installation process). Check out the roadmap to follow our progress on building out native integrations with other important technologies in the open data stack such as Spark, Hive Metastore, and Delta Lake.<p>We encourage you to check out our Github repo: (https:&#x2F;&#x2F;github.com&#x2F;treeverse&#x2F;lakeFS) and documentation pages: (https:&#x2F;&#x2F;docs.lakefs.io&#x2F;).<p>We&#x27;re proud of how far we&#x27;ve come, but know there&#x27;s lots more work to do. Please do let us know your thoughts!",
+      "time": 1628406679,
+      "title": "LakeFS Turns 1 and Raises 15M in a Week: (Enable Git for Large-Scale Data Lakes)",
+      "type": "story"
+    },
+    {
       "by": "jayp1418",
       "descendants": 0,
       "id": 28104807,
-      "score": 1,
+      "score": 2,
       "time": 1628406605,
       "title": "Bringing NetBSD to Zig's Continuous Integration",
       "type": "story",
@@ -14,7 +34,7 @@
       "by": "tontonius",
       "descendants": 0,
       "id": 28104801,
-      "score": 1,
+      "score": 2,
       "time": 1628406532,
       "title": "A look at a prototype of Apple’s cancelled AirPower mat",
       "type": "story",
@@ -82,26 +102,6 @@
       "title": "Using a Makefile with Your Web App",
       "type": "story",
       "url": "https://willdvlpr.substack.com/p/makefile"
-    },
-    {
-      "by": "danfritz",
-      "descendants": 0,
-      "id": 28104700,
-      "score": 2,
-      "time": 1628405102,
-      "title": "Multics Gets a New Release 52 Years After Launch",
-      "type": "story",
-      "url": "https://hackaday.com/2021/08/07/multics-gets-a-new-release-52-years-after-launch/"
-    },
-    {
-      "by": "xrayarx",
-      "descendants": 0,
-      "id": 28104684,
-      "score": 1,
-      "time": 1628404840,
-      "title": "Inside the War on Apple and Google App Stores",
-      "type": "story",
-      "url": "https://variety.com/2021/digital/features/apple-google-app-stores-fees-lawsuit-1235034679/"
     }
   ]
 }
