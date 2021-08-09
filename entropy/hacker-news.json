@@ -1,6 +1,16 @@
 {
   "stories": [
     {
+      "by": "jonathanehrlich",
+      "descendants": 0,
+      "id": 28116508,
+      "score": 1,
+      "time": 1628515722,
+      "title": "A Hotter Future Is Certain, Climate Panel Finds",
+      "type": "story",
+      "url": "https://www.nytimes.com/2021/08/09/climate/climate-change-report-ipcc-un.html"
+    },
+    {
       "by": "joshuajebaraj",
       "descendants": 0,
       "id": 28116475,
@@ -14,7 +24,7 @@
       "by": "x14km2d",
       "descendants": 0,
       "id": 28116456,
-      "score": 1,
+      "score": 2,
       "time": 1628515494,
       "title": "Firms Live Fire Map",
       "type": "story",
@@ -22,8 +32,11 @@
     },
     {
       "by": "optimalsolver",
-      "descendants": 0,
+      "descendants": 1,
       "id": 28116449,
+      "kids": [
+        28116519
+      ],
       "score": 2,
       "time": 1628515469,
       "title": "Applied Time Series Analysis",
@@ -54,7 +67,7 @@
       "by": "youngtaff",
       "descendants": 0,
       "id": 28116415,
-      "score": 1,
+      "score": 2,
       "time": 1628515252,
       "title": "HTTP/3 From A To Z: Core Concepts (Part 1)",
       "type": "story",
@@ -89,16 +102,6 @@
       "title": "Scientists unveil brain wiring diagram with 200K cells, half-billion connections",
       "type": "story",
       "url": "https://medicalxpress.com/news/2021-08-scientists-unveil-brain-wiring-diagram.html"
-    },
-    {
-      "by": "isusmelj",
-      "descendants": 0,
-      "id": 28116371,
-      "score": 4,
-      "text": "Hi HackerNews! We’re Matt and Igor from Lightly (<a href=\"https:&#x2F;&#x2F;www.lightly.ai&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;www.lightly.ai&#x2F;</a>). Most companies that do machine learning at scale label only 1% of their data because it&#x27;s too expensive to label all of it. We built Lightly to help companies pick the most valuable 1% to be labeled.<p>If you wonder what data labeling looks like for images then think about these captchas that want you to tag images in the web containing objects such as a bus or person. When we were working on training machine learning (ML) models from scratch, we often had to do this labeling ourselves. But there was always far too much data for us to be able to label all of it. We talked with more than 250 ML teams ranging from small groups of 2-3 people to large teams at Apple and Google, and they all face the same problem: they have too much data to label.<p>Not only that, but there wouldn’t be a lot of value in labeling everything. For example, if you have billions of images, it&#x27;s a waste of time to get humans to label every one of them, because most of those labels wouldn&#x27;t add useful information to the model you’re hoping to train. Most of the images are probably similar enough to other images that have already been labeled and they have nothing new to tell your model. Spending more labeling effort on those would be a bit like labeling the same image over and over again—quite wasteful.<p>As soon as your ML model surpasses the initial prototype stage, you’re most interested in the edge cases in your dataset — the ones that represent rare events. For example, a few days ago, there was a Twitter thread about failure cases for Tesla vehicles. One Tesla has mistaken a yellow moon for a yellow traffic light: <a href=\"https:&#x2F;&#x2F;twitter.com&#x2F;JordanTeslaTech&#x2F;status&#x2F;1418413307862585344\" rel=\"nofollow\">https:&#x2F;&#x2F;twitter.com&#x2F;JordanTeslaTech&#x2F;status&#x2F;14184133078625853...</a>. Another edge case is a truck full of traffic lights: <a href=\"https:&#x2F;&#x2F;twitter.com&#x2F;haltakov&#x2F;status&#x2F;1400797882891091970\" rel=\"nofollow\">https:&#x2F;&#x2F;twitter.com&#x2F;haltakov&#x2F;status&#x2F;1400797882891091970</a>. Finding and labeling such rare cases is key to having a robust system that will work in difficult situations.<p>Rather than labeling everything, a better approach is to first discard all the redundant images and keep only the ones that it&#x27;s worth spending time&#x2F;money to label. Let&#x27;s call those &quot;interesting&quot; images. If you could spend labeling effort only on the &quot;interesting&quot; images, you&#x27;d get the same value for a fraction of the cost.<p>Many ML companies in a more advanced stage have had to tackle this problem. One approach is to pay people to go through the images and discard the &quot;boring&quot; (nothing-new-to-tell-me) images, leaving the &quot;interesting&quot; (worth-spending-resources-to-label) ones. That can save you money if it&#x27;s on average cheaper to answer the question &quot;boring or interesting?&quot; about an image than it is to label it. This solution scales as long as you have an increasing human labeling workforce every year. However, ML data doubles every year on average, and therefore the labeling capacity would need to double too.<p>Much better than that — the holy grail — would be for a computer to do the work of discarding the &quot;boring&quot; images. Compared to paying humans to do it, you&#x27;d get the &quot;interesting&quot; subset of your billion images almost for free. You would have much less work to do (or money to spend) on labeling, and you&#x27;d get just as good a model after training. You could split the savings with whoever knew how to make a computer do this for you, and you&#x27;d both come out ahead. That’s basically our intention with Lightly.<p>My co-founder Matt and I worked on many machine learning projects ourselves, where we also had to manage tooling and annotation budgets. Dealing with data in a production environment is different from academia. In academia, we have well-balanced and manually curated datasets. It is, as some of you know, a huge pain. The solution of the problem boils down to working with unlabeled data.<p>Luckily, in recent years, a new subfield of deep learning has emerged called self-supervised learning. It’s a technique to train models to understand data without any labels. In natural language processing (NLP), modern models like BERT or GPT all rely on it. In computer vision, we have had a similar breakthrough in the last year with models such as SimCLR or MoCo. Back in 2020, we started experimenting with self-supervised learning to better understand unlabeled data and improve our software. However, there was no easy-to-use framework available to work with the latest models. To solve that problem, we built our own framework to make the power of self-supervised learning easily accessible. Since we want to foster research in this domain and grow a bigger community around this topic we decided to open-source the framework in fall 2020 (<a href=\"https:&#x2F;&#x2F;github.com&#x2F;lightly-ai&#x2F;lightly\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;lightly-ai&#x2F;lightly</a>). It is now used by universities and research labs all over the world.\nWe realized that the ability to understand and visualize unlabeled data is also valuable to other ML teams and decided to offer our solution as a SaaS platform. The platform builds on the open-source framework and helps you work with the most valuable data.<p>Here are some examples where Lightly can help you:<p>Analyze the quality and diversity of your datasets. Our platform can also use metadata or labels if available. Uncover class distributions, dataset gaps, and representation biases before labeling to save time and money. You can do it manually or automated through our data selection algorithms which ensure the most diverse subset of your dataset is chosen. (<a href=\"https:&#x2F;&#x2F;docs.lightly.ai&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;docs.lightly.ai&#x2F;</a>).<p>Once you have a labeled dataset and trained your model, our active-learning algorithms allow you to gradually select the next data to be added to your training set. Only label the best data for model training until you reach your target accuracy. <a href=\"https:&#x2F;&#x2F;docs.lightly.ai&#x2F;getting_started&#x2F;active_learning.html\" rel=\"nofollow\">https:&#x2F;&#x2F;docs.lightly.ai&#x2F;getting_started&#x2F;active_learning.html</a><p>Check it out yourself with this quick demo video <a href=\"https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=38kwv0xEIz4\" rel=\"nofollow\">https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=38kwv0xEIz4</a><p>Lightly integrates with an API directly into your pipeline, is available on-prem, and can process up to 100M samples within hours.<p>We&#x27;re excited we get to show Lightly to you all. Thank you for reading! Please let us know your thoughts and questions in the comments.",
-      "time": 1628515037,
-      "title": "Launch HN: Lightly (YC S21): Label only the data which improves your ML model",
-      "type": "story"
     }
   ]
 }
