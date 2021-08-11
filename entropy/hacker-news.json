@@ -1,10 +1,43 @@
 {
   "stories": [
     {
-      "by": "DocFeind",
+      "by": "nile-crocodile",
       "descendants": 0,
-      "id": 28142498,
+      "id": 28142528,
       "score": 1,
+      "text": "Mozilla offers no changelog RSS feed(s) I&#x27;m aware of and I don&#x27;t know if there&#x27;s a fitting mailing list. On desktop I update Firefox via my distro&#x27;s package manager and don&#x27;t see any obvious  &quot;what&#x27;s new&quot; notification (a forced new tab opened in the Mozilla builds?), on Android the message appears to only reside under the hamburger menu after updates (not necessarily consistently).<p>Is the only option to generate or create your own RSS feed or email notification setup (preferably separating Windows, OS X and Linux)?<p>---<p>redirecting links for reference:<p>* https:&#x2F;&#x2F;www.mozilla.org&#x2F;en-US&#x2F;firefox&#x2F;notes&#x2F;\n* https:&#x2F;&#x2F;www.mozilla.org&#x2F;en-US&#x2F;firefox&#x2F;android&#x2F;notes&#x2F;\n* https:&#x2F;&#x2F;www.mozilla.org&#x2F;en-US&#x2F;firefox&#x2F;beta&#x2F;notes&#x2F;\n* https:&#x2F;&#x2F;www.mozilla.org&#x2F;en-US&#x2F;firefox&#x2F;nightly&#x2F;notes&#x2F;",
+      "time": 1628692633,
+      "title": "How to follow Mozilla's software release notes (i.e. changelogs)?",
+      "type": "story"
+    },
+    {
+      "by": "thisisbrians",
+      "descendants": 0,
+      "id": 28142522,
+      "score": 1,
+      "text": "Hi HN,<p>As I&#x27;ve matured as a software engineer, I&#x27;ve focused more and more on taking full advantage of the database to alleviate burdens at the application layer, which has paid massive dividends thus far. The features available in Postgres continue to astonish me, especially when paired with PostgREST [1] (which I can <i>highly</i> recommend). Constraints, triggers, stored procedures, permissions, materialized views [2], and other features have saved my team and I thousands of lines of application code (and the inevitable bugs therein), and even allowed us to forgo standing up and managing entire services (cache, queue, timeseries db [3] etc.). SQL (and especially PLSQL [4]) can be annoying&#x2F;obtuse (and need much better tooling, IMO), but so far the benefits have far outweighed the costs.<p>In that spirit, what books or other resources would you folks recommend to level up my team&#x27;s knowledge of Postgres features and administration? Or any cool tips&#x2F;tricks you have put into place that you want to share? There was some discussion in a thread [5] on the front page a few days ago, but I wanted to take the opportunity to resurface this part of conversation directly.<p>Thanks!\n— Brian<p>1. https:&#x2F;&#x2F;postgrest.org&#x2F;\n2. https:&#x2F;&#x2F;spin.atomicobject.com&#x2F;2018&#x2F;04&#x2F;09&#x2F;postgres-materialized-views&#x2F;\n3. https:&#x2F;&#x2F;www.timescale.com&#x2F;\n4. https:&#x2F;&#x2F;www.postgresql.org&#x2F;docs&#x2F;12&#x2F;plpgsql-overview.html\n5. https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=28077434",
+      "time": 1628692606,
+      "title": "Ask HN: Good Postgres Book(s)?",
+      "type": "story"
+    },
+    {
+      "by": "bruno-366",
+      "descendants": 0,
+      "id": 28142520,
+      "score": 1,
+      "time": 1628692584,
+      "title": "Fully auditable high performance microprocessors",
+      "type": "story",
+      "url": "https://www.redsemiconductor.com/team-build"
+    },
+    {
+      "by": "DocFeind",
+      "descendants": 1,
+      "id": 28142498,
+      "kids": [
+        28142553
+      ],
+      "score": 2,
       "time": 1628692498,
       "title": "Ultraprocessed Foods Now Comprise 2/3 of Calories in Children and Teen Diets",
       "type": "story",
@@ -42,8 +75,11 @@
     },
     {
       "by": "_Microft",
-      "descendants": 0,
+      "descendants": 1,
       "id": 28142465,
+      "kids": [
+        28142539
+      ],
       "score": 1,
       "time": 1628692330,
       "title": "Still Unsure About Getting the Covid-19 Vaccine? Start Here",
@@ -69,39 +105,6 @@
       "title": "Kaseya's universal REvil decryption key leaked on a hacking forum",
       "type": "story",
       "url": "https://www.bleepingcomputer.com/news/security/kaseyas-universal-revil-decryption-key-leaked-on-a-hacking-forum/"
-    },
-    {
-      "by": "w4llstr33t",
-      "descendants": 0,
-      "id": 28142437,
-      "score": 2,
-      "time": 1628692199,
-      "title": "Technical Analysis of Poly Network Hack",
-      "type": "story",
-      "url": "https://rekt.news/polynetwork-rekt/"
-    },
-    {
-      "by": "prgrls",
-      "descendants": 1,
-      "id": 28142425,
-      "kids": [
-        28142426
-      ],
-      "score": 1,
-      "time": 1628692129,
-      "title": "Phoenix uptime monitor: Authorization and authentication",
-      "type": "story",
-      "url": "https://prograils.com/elixir-phoenix-authorization-authentication"
-    },
-    {
-      "by": "pseudolus",
-      "descendants": 0,
-      "id": 28142415,
-      "score": 2,
-      "time": 1628692093,
-      "title": "Artificial Intelligence may diagnose dementia in a day",
-      "type": "story",
-      "url": "https://www.bbc.com/news/health-57934589"
     }
   ]
 }
