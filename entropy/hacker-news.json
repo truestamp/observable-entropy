@@ -1,6 +1,16 @@
 {
   "stories": [
     {
+      "by": "alexwg",
+      "descendants": 0,
+      "id": 28137113,
+      "score": 1,
+      "time": 1628647617,
+      "title": "Private school owners forced to hand institutions over to Chinese state",
+      "type": "story",
+      "url": "https://www.ft.com/content/56a18391-2fbc-4d33-aae8-591cf233b6a7"
+    },
+    {
       "by": "camwoodsum",
       "descendants": 0,
       "id": 28137095,
@@ -24,7 +34,7 @@
       "by": "robbiet480",
       "descendants": 0,
       "id": 28136997,
-      "score": 5,
+      "score": 7,
       "time": 1628646490,
       "title": "Apple settles its lawsuit against Corellium",
       "type": "story",
@@ -72,8 +82,11 @@
     },
     {
       "by": "no_wizard",
-      "descendants": 0,
+      "descendants": 1,
       "id": 28136915,
+      "kids": [
+        28137110
+      ],
       "score": 1,
       "text": "Hi HN!<p>I am in the midst of doing some deep research on Vue (specifically Vue 3) and I&#x27;m trying to understand what parts of the Vue ecosystem need improvement or are missing entirely. Specifically around things like :<p>- Data Validation<p>- UI &#x2F; UX ergonomics<p>- Developer Experience<p>Thanks!",
       "time": 1628645735,
@@ -89,19 +102,6 @@
       "title": "The Walrus Operator: Python 3.8 Assignment Expressions",
       "type": "story",
       "url": "https://realpython.com/python-walrus-operator/"
-    },
-    {
-      "by": "promisebyte",
-      "descendants": 2,
-      "id": 28136881,
-      "kids": [
-        28136996
-      ],
-      "score": 2,
-      "text": "New technologies like GitHub Copilot or OpenAI Codex use public code to train their models to generate code.<p>Is there a license to enforce open source upon output trained from public code? Is there a new license in the works? I don&#x27;t want to prohibit training.<p>I previously thought that current GPL compatible licensed code was enough but I&#x27;ve seen some cases of it being violated under the guise of fair use, with models outputting code without any attribution and relicensed in non-compatible ways.<p>AGPL added a requirement to close the server-side loophole, is there a license that covers the new &quot;AI scraping&#x2F;training loophole&quot; or a new clause perhaps be added to account for AI-training? (i.e. if you train a model using the given code, your model must also allow others to download the source code&#x2F;training set&#x2F;model corresponding to the output)",
-      "time": 1628645485,
-      "title": "Ask HN: License to enforce open source on models trained from public code?",
-      "type": "story"
     }
   ]
 }
