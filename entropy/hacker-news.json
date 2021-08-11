@@ -1,6 +1,46 @@
 {
   "stories": [
     {
+      "by": "DaniB",
+      "descendants": 0,
+      "id": 28148079,
+      "score": 1,
+      "text": "My Masters Thesis in 1972 was “Rational Points on Elliptic Curves”. It’s been sitting on my shelf for 50 years. A month ago, I discovered that EC’s are now the basis for encryption. Been fun exploring what’s been done since 1972. However, based on what I know, Cryptocurrencies are a dangerous scam. Way too many ways to cheat people who don’t have a clue what they are paying for.",
+      "time": 1628717556,
+      "title": "Elliptic Curves",
+      "type": "story"
+    },
+    {
+      "by": "salgernon",
+      "descendants": 0,
+      "id": 28148059,
+      "score": 1,
+      "time": 1628717508,
+      "title": "Master Weaver's Thesis Book, Systeme DE LA Mecanique a LA Jacquard, 1848",
+      "type": "story",
+      "url": "https://collection.cooperhewitt.org/objects/18556803/"
+    },
+    {
+      "by": "montalbano",
+      "descendants": 0,
+      "id": 28148054,
+      "score": 1,
+      "time": 1628717486,
+      "title": "Oregon declares state of emergency as another ‘extreme heatwave’ looms",
+      "type": "story",
+      "url": "https://www.theguardian.com/us-news/2021/aug/11/oregon-heatwave-pacific-northwest-state-emergency"
+    },
+    {
+      "by": "stefanhoelzl",
+      "descendants": 0,
+      "id": 28148037,
+      "score": 1,
+      "text": "I was thinking about a concept lately I would refer to as type coverage.<p>The idea behind it is to measure how well a python function is tested by recording all inputs&#x2F;outputs during a complete test run and comparing the values with the annotated types.<p>e.g. a function `foo(a: Optional[float])` which is only tested with `foo(5)` gets a low coverage because `foo(None)` is not being tested. Or it could be hinted that a more feasible type annotation would be `foo(a: int)`.<p>As a use case I was thinking of testing APIs, to make sure you covered all use cases of your API which you advertise by the annotated types.<p>An extension of this concept could be that you check how extensive you tested a type. Like did you test `foo(a: int)` with negative, positive and zero values? \nIf not it could be a hint that your test coverage is too low or you have a wrong type, maybe a enum would be suited better.<p>I am curious to hear about your thoughts about this concept.",
+      "time": 1628717419,
+      "title": "Ask HN: What do you think about type coverage in Python?",
+      "type": "story"
+    },
+    {
       "by": "in9",
       "descendants": 0,
       "id": 28148017,
@@ -59,46 +99,6 @@
       "title": "Family bet everything on Bitcoin now storing it in secret vaults around globe",
       "type": "story",
       "url": "https://www.cnbc.com/2021/08/11/bitcoin-family-hides-bitcoin-ethereum-and-litecoin-in-secret-vaults.html"
-    },
-    {
-      "by": "danielam",
-      "descendants": 0,
-      "id": 28147905,
-      "score": 1,
-      "time": 1628716728,
-      "title": "Thrasymachus",
-      "type": "story",
-      "url": "https://iep.utm.edu/thrasymachus/"
-    },
-    {
-      "by": "deegles",
-      "descendants": 0,
-      "id": 28147902,
-      "score": 1,
-      "time": 1628716718,
-      "title": "Botched CIA Communications System Helped Blow Cover of Chinese Agents (2018)",
-      "type": "story",
-      "url": "https://foreignpolicy.com/2018/08/15/botched-cia-communications-system-helped-blow-cover-chinese-agents-intelligence/"
-    },
-    {
-      "by": "celue",
-      "descendants": 0,
-      "id": 28147859,
-      "score": 1,
-      "time": 1628716556,
-      "title": "Calling asynchronous endpoints in Redux with the help of tiny Redux Thunk helper",
-      "type": "story",
-      "url": "https://morsewall.com/random-quote-part-5-redux-thunk-using-various-front-end-stacks/"
-    },
-    {
-      "by": "brudgers",
-      "descendants": 0,
-      "id": 28147846,
-      "score": 1,
-      "text": "A+ certification seems to be a long running program and there&#x27;s a fair bit of vocational education built around it.<p>Wondering if people actually get employment with it.",
-      "time": 1628716476,
-      "title": "Ask HN: Do people hire for A+ certification",
-      "type": "story"
     }
   ]
 }
