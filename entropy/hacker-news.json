@@ -1,6 +1,16 @@
 {
   "stories": [
     {
+      "by": "poletopole",
+      "descendants": 0,
+      "id": 28161743,
+      "score": 1,
+      "text": "I&#x27;m still somewhat new to Rust and low level programming but understand the language, theory, and as well as C. However, I have no idea if porting Tokio&#x27;s ecosystem to WASI&#x2F;WASM at this point in time is even possible or practical (I know threads are relatively new).<p>Why do this? I&#x27;ve been planning a distributed, asynchronous, multiplexed protocol (called IOTAP) that you could say is L8+ (but is semantically just HTTP on each level after the base level), but tunnels over H3 and interoperates generically with any lower level transport in theory. The state transfer and representation system is beyond the scope of this question but basically requests are inverted in a sense but not RPC. So the client peer makes a request and the response is procedurally generated and compiled into WASM packet layers (for each protocol level) using differential data flow among other technologies--but it&#x27;s all sandboxed with WASM; at first thought this sounds really slow, but think of it as more lazy evaluation perhaps. I was thinking about using Wasmer as the runtime but that&#x27;s still up in the air.<p>Anyways, I really like Tokio and its ecosystem, but obviously the I&#x2F;O will need to be ported, and that&#x27;s no small task. Perhaps there&#x27;s a better way to go about doing all this?",
+      "time": 1628803726,
+      "title": "Ask HN: Can Tokio's Ecosystem Be Ported to Was(M/I)?",
+      "type": "story"
+    },
+    {
       "by": "indianpianist",
       "descendants": 0,
       "id": 28161696,
@@ -34,7 +44,7 @@
       "by": "arcatek",
       "descendants": 0,
       "id": 28161596,
-      "score": 2,
+      "score": 3,
       "time": 1628803035,
       "title": "C++ Exceptions: Under the Hood",
       "type": "story",
@@ -89,16 +99,6 @@
       "title": "Honus Wagner, Long Baseball’s Most Valuable Card, Is Poised to Reclaim Record",
       "type": "story",
       "url": "https://www.forbes.com/sites/brettknight/2021/08/06/honus-wagner-long-baseballs-most-valuable-card-is-poised-to-reclaim-record-by-soaring-past-52-million/"
-    },
-    {
-      "by": "AndrewBissell",
-      "descendants": 0,
-      "id": 28161347,
-      "score": 2,
-      "time": 1628801776,
-      "title": "What will it be like when Covid-19 becomes endemic?",
-      "type": "story",
-      "url": "https://www.hsph.harvard.edu/news/features/what-will-it-be-like-when-covid-19-becomes-endemic/"
     }
   ]
 }
