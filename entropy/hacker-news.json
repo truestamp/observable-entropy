@@ -1,6 +1,66 @@
 {
   "stories": [
     {
+      "by": "jonbaer",
+      "descendants": 0,
+      "id": 28161929,
+      "score": 1,
+      "time": 1628804678,
+      "title": "South Africa grants patent to an AI system known as DABUS",
+      "type": "story",
+      "url": "https://qz.com/africa/2044477/south-africa-grants-patent-to-an-ai-system-known-as-dabus/"
+    },
+    {
+      "by": "elsewhen",
+      "descendants": 0,
+      "id": 28161920,
+      "score": 1,
+      "time": 1628804638,
+      "title": "What we thought about metabolism may be all wrong, new study suggests",
+      "type": "story",
+      "url": "https://news.yahoo.com/thought-metabolism-may-wrong-study-180034320.html"
+    },
+    {
+      "by": "b13n1u",
+      "descendants": 0,
+      "id": 28161919,
+      "score": 1,
+      "time": 1628804633,
+      "title": "A Century in Stanislaw Lem’s Cosmos",
+      "type": "story",
+      "url": "https://www.nytimes.com/2021/08/11/books/stanislaw-lem.html"
+    },
+    {
+      "by": "jonbaer",
+      "descendants": 0,
+      "id": 28161915,
+      "score": 1,
+      "time": 1628804615,
+      "title": "Artificial intelligence can now be recognised as an inventor in Australia",
+      "type": "story",
+      "url": "https://www.abc.net.au/news/2021-08-01/historic-decision-allows-ai-to-be-recognised-as-an-inventor/100339264"
+    },
+    {
+      "by": "asimjalis",
+      "descendants": 0,
+      "id": 28161899,
+      "score": 1,
+      "time": 1628804506,
+      "title": "Matt Mochary’s four zones of competence",
+      "type": "story",
+      "url": "https://twitter.com/asimjalis/status/1424624391824936960"
+    },
+    {
+      "by": "zetalyrae",
+      "descendants": 0,
+      "id": 28161888,
+      "score": 1,
+      "time": 1628804450,
+      "title": "Farallon Plate",
+      "type": "story",
+      "url": "https://en.wikipedia.org/wiki/Farallon_Plate"
+    },
+    {
       "by": "guardiangod",
       "descendants": 0,
       "id": 28161882,
@@ -12,8 +72,11 @@
     },
     {
       "by": "pseudolus",
-      "descendants": 0,
+      "descendants": 1,
       "id": 28161864,
+      "kids": [
+        28161912
+      ],
       "score": 1,
       "time": 1628804357,
       "title": "Children born during pandemic have lower IQs, US study finds",
@@ -39,66 +102,6 @@
       "title": "Mount Etna is 100 feet taller than it was 6 months ago",
       "type": "story",
       "url": "https://www.livescience.com/mount-etna-grows-100-feet.html"
-    },
-    {
-      "by": "flowerlad",
-      "descendants": 0,
-      "id": 28161826,
-      "score": 1,
-      "time": 1628804168,
-      "title": "Facebook Delays Return to Offices Until 2022",
-      "type": "story",
-      "url": "https://www.bloomberg.com/news/articles/2021-08-12/facebook-delays-return-to-offices-until-2022-for-u-s-employees"
-    },
-    {
-      "by": "dmitriid",
-      "descendants": 0,
-      "id": 28161774,
-      "score": 1,
-      "time": 1628803908,
-      "title": "New Twitter font is an ephemeral, proprietary experience",
-      "type": "story",
-      "url": "https://twitter.com/FakeUnicode/status/1425632884312793088"
-    },
-    {
-      "by": "poletopole",
-      "descendants": 0,
-      "id": 28161743,
-      "score": 2,
-      "text": "I&#x27;m still somewhat new to Rust and low level programming but understand the language, theory, and as well as C. However, I have no idea if porting Tokio&#x27;s ecosystem to WASI&#x2F;WASM at this point in time is even possible or practical (I know threads are relatively new).<p>Why do this? I&#x27;ve been planning a distributed, asynchronous, multiplexed protocol (called IOTAP) that you could say is L8+ (but is semantically just HTTP on each level after the base level), but tunnels over H3 and interoperates generically with any lower level transport in theory. The state transfer and representation system is beyond the scope of this question but basically requests are inverted in a sense but not RPC. So the client peer makes a request and the response is procedurally generated and compiled into WASM packet layers (for each protocol level) using differential data flow among other technologies--but it&#x27;s all sandboxed with WASM; at first thought this sounds really slow, but think of it as more lazy evaluation perhaps. I was thinking about using Wasmer as the runtime but that&#x27;s still up in the air.<p>Anyways, I really like Tokio and its ecosystem, but obviously the I&#x2F;O will need to be ported, and that&#x27;s no small task. Perhaps there&#x27;s a better way to go about doing all this?",
-      "time": 1628803726,
-      "title": "Ask HN: Can Tokio's Ecosystem Be Ported to Was(M/I)?",
-      "type": "story"
-    },
-    {
-      "by": "indianpianist",
-      "descendants": 0,
-      "id": 28161696,
-      "score": 1,
-      "time": 1628803503,
-      "title": "The price of your morning cup of coffee keeps on rising – The Age, 13 Aug 2021",
-      "type": "story",
-      "url": "https://www.theage.com.au/business/markets/the-price-of-your-morning-cup-of-coffee-keeps-on-rising-20210810-p58hcz.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
-    },
-    {
-      "by": "prismatic",
-      "descendants": 0,
-      "id": 28161618,
-      "score": 1,
-      "time": 1628803128,
-      "title": "Paint by Numbers: How Roger de Piles tabulated artistic merit",
-      "type": "story",
-      "url": "https://www.laphamsquarterly.org/roundtable/paint-numbers"
-    },
-    {
-      "by": "parsecs",
-      "descendants": 0,
-      "id": 28161602,
-      "score": 1,
-      "time": 1628803073,
-      "title": "Forgotten Italian CPU – The Genesys B52 MMX",
-      "type": "story",
-      "url": "https://www.cpushack.com/2021/08/12/forgotten-italian-cpu-the-genesys-b52-mmx/"
     }
   ]
 }
