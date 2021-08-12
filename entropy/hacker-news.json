@@ -1,10 +1,80 @@
 {
   "stories": [
     {
+      "by": "evanelias",
+      "descendants": 0,
+      "id": 28157680,
+      "score": 1,
+      "time": 1628782769,
+      "title": "Safely switching MySQL charsets using Skeema",
+      "type": "story",
+      "url": "https://www.skeema.io/blog/2021/08/12/alter-charset/"
+    },
+    {
+      "by": "robdoherty2",
+      "descendants": 0,
+      "id": 28157679,
+      "score": 1,
+      "time": 1628782768,
+      "title": "US subsidizes oil and gas so investors never lose",
+      "type": "story",
+      "url": "https://grist.org/accountability/follow-the-money-us-subsidizes-oil-and-gas-so-investors-never-lose/"
+    },
+    {
+      "by": "kylegill",
+      "descendants": 0,
+      "id": 28157670,
+      "score": 1,
+      "text": "I&#x27;ve been involved in hiring decisions at my current role and have interacted with quite a few engineers who&#x27;ve been at startups for short stints like 3-6 months. I&#x27;m a little worried we might onboard someone who won&#x27;t stick around. We grant a competitive amount of stock, though I think the best way to get people to stay is a good environment for work, and meaningful work to do that feels rewarding.<p>How much would you weigh brief time at a company on a resume, would it differ if the brief stints were with larger companies?",
+      "time": 1628782735,
+      "title": "Ask HN: How short is too short for brief job stints on a resume to you?",
+      "type": "story"
+    },
+    {
+      "by": "RyJones",
+      "descendants": 0,
+      "id": 28157661,
+      "score": 1,
+      "text": "If you&#x27;re authenticated with GitHub, visit a repo&#x27;s page and press &quot;.&quot;. A web version of Visual Studio Code will spin up in your browser. This is distinct from the Codespaces launch yesterday.",
+      "time": 1628782666,
+      "title": "GitHub.Dev is now available on any GitHub repo",
+      "type": "story"
+    },
+    {
+      "by": "sigil",
+      "descendants": 0,
+      "id": 28157657,
+      "score": 2,
+      "time": 1628782636,
+      "title": "Fishdraw: Procedurally Generated Fish Drawings",
+      "type": "story",
+      "url": "https://fishdraw.glitch.me/"
+    },
+    {
+      "by": "tablet",
+      "descendants": 0,
+      "id": 28157648,
+      "score": 1,
+      "time": 1628782613,
+      "title": "How to start your own product (if you’re a programmer)",
+      "type": "story",
+      "url": "https://twitter.com/mdubakov/status/1425834983105589253"
+    },
+    {
+      "by": "karsinkk",
+      "descendants": 0,
+      "id": 28157643,
+      "score": 1,
+      "time": 1628782561,
+      "title": "Oracle Whips Snowflake, Amazon Redshift and Aurora with HeatWave for MySQL",
+      "type": "story",
+      "url": "https://cloudwars.co/oracle/oracle-enhanced-heatwave-mysql-whips-snowflake-amazon-redshift-aurora/"
+    },
+    {
       "by": "ezekg",
       "descendants": 0,
       "id": 28157629,
-      "score": 2,
+      "score": 3,
       "text": "Earlier this year I added HTTP response signatures to my business&#x27;s API, per the HTTP draft spec [0]. These signatures utilize the standard Date response header to help prevent replay attacks among other attack vectors. But to my dismay, Cloudflare rewrites the Date response header at the edge. Meaning, if a particularly unlucky request leaves my servers at 14:01:26.999 with a Date header &quot;Thu, 12 Aug 2021 14:01:26 GMT&quot; and takes ~1ms to process at the edge, the Date header from Cloudflare ends up being &quot;Thu, 12 Aug 2021 14:01:27 GMT&quot;. This is problematic when it comes to HTTP response signatures, since the signature is now invalidated. This ends up causing intermittent response signature verification failures.<p>Cloudflare&#x27;s support previously suggested that I use (and pay for) an unbound Cloudflare Worker to manually set the Date header to the value of some other internal, unmodified X-Date header. I tried this, but that&#x27;s actually a noop! So not only are they rewriting the Date response header, but there is no way to stop this behavior. Looking at the HTTP spec, this seems in violation of it for a proxy to rewrite the Date after it has already been set [1] [2], but I can&#x27;t be certain (keyword: &quot;date and time at which the message <i>originated</i>&quot;). Either way, this is unexpected behavior -- I&#x27;d expect every header I send in a response to actually make it, unmodified, to the client. But it seems that&#x27;s not the case with CF. Honestly, I find this to be unacceptable behavior, but perhaps I&#x27;m out of line?<p>As you could imagine, this issue has been frustrating and was incredibly hard to debug. I spent days digging into and stepping through Puma and Rails internals, thinking they were somehow overriding my Date header before sending the response.<p>CF support has made it clear that this is a &#x27;will not fix.&#x27; Thus, here we are. Perhaps there are a few CF engineers on HN that can help here.<p>[0]: https:&#x2F;&#x2F;tools.ietf.org&#x2F;id&#x2F;draft-cavage-http-signatures-08.html<p>[1]: https:&#x2F;&#x2F;datatracker.ietf.org&#x2F;doc&#x2F;html&#x2F;rfc7231#section-7.1.1.2<p>[2]: https:&#x2F;&#x2F;www.w3.org&#x2F;Protocols&#x2F;rfc2616&#x2F;rfc2616-sec14.html#sec14.18<p>p.s. anybody have a good Cloudflare alternative for WAF?",
       "time": 1628782476,
       "title": "Tell HN: Cloudflare is rewriting my Date response headers",
@@ -14,7 +84,7 @@
       "by": "grinich",
       "descendants": 0,
       "id": 28157607,
-      "score": 1,
+      "score": 3,
       "time": 1628782377,
       "title": "Lessons We Learned Adding Dark Mode to WorkOS",
       "type": "story",
@@ -29,83 +99,6 @@
       "title": "Color-Changing Robo-Chameleon Is Cool Because Now Robots Can Hide from Us",
       "type": "story",
       "url": "https://gizmodo.com/this-color-changing-robo-chameleon-is-cool-because-now-1847464465"
-    },
-    {
-      "by": "benchtobedside",
-      "descendants": 0,
-      "id": 28157595,
-      "score": 1,
-      "time": 1628782348,
-      "title": "Don't mess with Texans (The Afghanistan war was a smashing success)",
-      "type": "story",
-      "url": "https://www.econlib.org/dont-mess-with-texans-the-afghanistan-war-was-a-smashing-success/"
-    },
-    {
-      "by": "todsacerdoti",
-      "descendants": 0,
-      "id": 28157591,
-      "score": 1,
-      "time": 1628782327,
-      "title": "Predicting fuel efficiency with Elixir, Nx, and Axon: a gentle introduction to",
-      "type": "story",
-      "url": "https://bitfield.co/posts/machine-learning-in-elixir-with-nx-and-axon/"
-    },
-    {
-      "by": "boling11",
-      "descendants": 0,
-      "id": 28157577,
-      "score": 2,
-      "time": 1628782262,
-      "title": "Lithic's New Customer: Making issuing cards as easy as accepting payments",
-      "type": "story",
-      "url": "https://www.notboring.co/p/lithics-new-customer"
-    },
-    {
-      "by": "mychele",
-      "descendants": 0,
-      "id": 28157542,
-      "score": 1,
-      "time": 1628782114,
-      "title": "Qualcomm and Spoke will bring C-V2X connectivity to bikes",
-      "type": "story",
-      "url": "https://www.fiercewireless.com/tech/qualcomm-teams-spoke-c-v2x-for-bicycle-scooter-road-safety"
-    },
-    {
-      "by": "alfiealfiealfie",
-      "descendants": 0,
-      "id": 28157516,
-      "score": 2,
-      "time": 1628781979,
-      "title": "I paid for Instagram adverts for my band's music to see what would happen",
-      "type": "story",
-      "url": "https://najinsan.wordpress.com/2021/08/12/i-paid-for-instagram-advertising-so-you-dont-have-to/"
-    },
-    {
-      "by": "AlbertCory",
-      "descendants": 1,
-      "id": 28157504,
-      "kids": [
-        28157505
-      ],
-      "score": 1,
-      "time": 1628781917,
-      "title": "IBM won, then lost, the PC market",
-      "type": "story",
-      "url": "https://spectrum.ieee.org/how-the-ibm-pc-won-then-lost-the-personal-computer-market"
-    },
-    {
-      "by": "chewz",
-      "descendants": 1,
-      "id": 28157488,
-      "kids": [
-        28157519,
-        28157489
-      ],
-      "score": 1,
-      "time": 1628781827,
-      "title": "The Fictitious World of ‘Carbon Neutral’ Fossil Fuel",
-      "type": "story",
-      "url": "https://www.bloomberg.com/news/features/2021-08-11/the-fictitious-world-of-carbon-neutral-fossil-fuel"
     }
   ]
 }
