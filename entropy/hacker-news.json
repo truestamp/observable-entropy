@@ -1,6 +1,46 @@
 {
   "stories": [
     {
+      "by": "Tomte",
+      "descendants": 0,
+      "id": 28157756,
+      "score": 1,
+      "time": 1628783126,
+      "title": "Damn Cool Algorithms: Log structured storage (2009)",
+      "type": "story",
+      "url": "http://blog.notdot.net/2009/12/Damn-Cool-Algorithms-Log-structured-storage"
+    },
+    {
+      "by": "harleyk",
+      "descendants": 0,
+      "id": 28157754,
+      "score": 1,
+      "time": 1628783115,
+      "title": "Acrobatic squirrels learn to leap and land on tree branches without falling",
+      "type": "story",
+      "url": "https://science.sciencemag.org/content/373/6555/697"
+    },
+    {
+      "by": "dlau1",
+      "descendants": 0,
+      "id": 28157724,
+      "score": 2,
+      "time": 1628782951,
+      "title": "China releases a five-year regulation blueprint for broader crackdown",
+      "type": "story",
+      "url": "https://www.bloombergquint.com/global-economics/china-signals-regulatory-crackdown-will-deepen-in-long-push"
+    },
+    {
+      "by": "returningfory2",
+      "descendants": 0,
+      "id": 28157710,
+      "score": 1,
+      "time": 1628782884,
+      "title": "New Typesetting System (2001 Java Reimplementation of TeX)",
+      "type": "story",
+      "url": "https://github.com/jamespfennell/new-typesetting-system"
+    },
+    {
       "by": "evanelias",
       "descendants": 0,
       "id": 28157680,
@@ -14,7 +54,7 @@
       "by": "robdoherty2",
       "descendants": 0,
       "id": 28157679,
-      "score": 1,
+      "score": 2,
       "time": 1628782768,
       "title": "US subsidizes oil and gas so investors never lose",
       "type": "story",
@@ -22,8 +62,12 @@
     },
     {
       "by": "kylegill",
-      "descendants": 0,
+      "descendants": 2,
       "id": 28157670,
+      "kids": [
+        28157726,
+        28157700
+      ],
       "score": 1,
       "text": "I&#x27;ve been involved in hiring decisions at my current role and have interacted with quite a few engineers who&#x27;ve been at startups for short stints like 3-6 months. I&#x27;m a little worried we might onboard someone who won&#x27;t stick around. We grant a competitive amount of stock, though I think the best way to get people to stay is a good environment for work, and meaningful work to do that feels rewarding.<p>How much would you weigh brief time at a company on a resume, would it differ if the brief stints were with larger companies?",
       "time": 1628782735,
@@ -59,46 +103,6 @@
       "title": "How to start your own product (if you’re a programmer)",
       "type": "story",
       "url": "https://twitter.com/mdubakov/status/1425834983105589253"
-    },
-    {
-      "by": "karsinkk",
-      "descendants": 0,
-      "id": 28157643,
-      "score": 1,
-      "time": 1628782561,
-      "title": "Oracle Whips Snowflake, Amazon Redshift and Aurora with HeatWave for MySQL",
-      "type": "story",
-      "url": "https://cloudwars.co/oracle/oracle-enhanced-heatwave-mysql-whips-snowflake-amazon-redshift-aurora/"
-    },
-    {
-      "by": "ezekg",
-      "descendants": 0,
-      "id": 28157629,
-      "score": 3,
-      "text": "Earlier this year I added HTTP response signatures to my business&#x27;s API, per the HTTP draft spec [0]. These signatures utilize the standard Date response header to help prevent replay attacks among other attack vectors. But to my dismay, Cloudflare rewrites the Date response header at the edge. Meaning, if a particularly unlucky request leaves my servers at 14:01:26.999 with a Date header &quot;Thu, 12 Aug 2021 14:01:26 GMT&quot; and takes ~1ms to process at the edge, the Date header from Cloudflare ends up being &quot;Thu, 12 Aug 2021 14:01:27 GMT&quot;. This is problematic when it comes to HTTP response signatures, since the signature is now invalidated. This ends up causing intermittent response signature verification failures.<p>Cloudflare&#x27;s support previously suggested that I use (and pay for) an unbound Cloudflare Worker to manually set the Date header to the value of some other internal, unmodified X-Date header. I tried this, but that&#x27;s actually a noop! So not only are they rewriting the Date response header, but there is no way to stop this behavior. Looking at the HTTP spec, this seems in violation of it for a proxy to rewrite the Date after it has already been set [1] [2], but I can&#x27;t be certain (keyword: &quot;date and time at which the message <i>originated</i>&quot;). Either way, this is unexpected behavior -- I&#x27;d expect every header I send in a response to actually make it, unmodified, to the client. But it seems that&#x27;s not the case with CF. Honestly, I find this to be unacceptable behavior, but perhaps I&#x27;m out of line?<p>As you could imagine, this issue has been frustrating and was incredibly hard to debug. I spent days digging into and stepping through Puma and Rails internals, thinking they were somehow overriding my Date header before sending the response.<p>CF support has made it clear that this is a &#x27;will not fix.&#x27; Thus, here we are. Perhaps there are a few CF engineers on HN that can help here.<p>[0]: https:&#x2F;&#x2F;tools.ietf.org&#x2F;id&#x2F;draft-cavage-http-signatures-08.html<p>[1]: https:&#x2F;&#x2F;datatracker.ietf.org&#x2F;doc&#x2F;html&#x2F;rfc7231#section-7.1.1.2<p>[2]: https:&#x2F;&#x2F;www.w3.org&#x2F;Protocols&#x2F;rfc2616&#x2F;rfc2616-sec14.html#sec14.18<p>p.s. anybody have a good Cloudflare alternative for WAF?",
-      "time": 1628782476,
-      "title": "Tell HN: Cloudflare is rewriting my Date response headers",
-      "type": "story"
-    },
-    {
-      "by": "grinich",
-      "descendants": 0,
-      "id": 28157607,
-      "score": 3,
-      "time": 1628782377,
-      "title": "Lessons We Learned Adding Dark Mode to WorkOS",
-      "type": "story",
-      "url": "https://workos.com/blog/5-lessons-we-learned-adding-dark-mode-to-our-platform"
-    },
-    {
-      "by": "mukwevhom",
-      "descendants": 0,
-      "id": 28157599,
-      "score": 1,
-      "time": 1628782357,
-      "title": "Color-Changing Robo-Chameleon Is Cool Because Now Robots Can Hide from Us",
-      "type": "story",
-      "url": "https://gizmodo.com/this-color-changing-robo-chameleon-is-cool-because-now-1847464465"
     }
   ]
 }
