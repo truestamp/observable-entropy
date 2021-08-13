@@ -1,6 +1,45 @@
 {
   "stories": [
     {
+      "by": "sebiw",
+      "descendants": 0,
+      "id": 28168110,
+      "score": 1,
+      "time": 1628858120,
+      "title": "Modern web apps without JavaScript bundling or transpiling",
+      "type": "story",
+      "url": "https://world.hey.com/dhh/modern-web-apps-without-javascript-bundling-or-transpiling-a20f2755"
+    },
+    {
+      "by": "convolutionart",
+      "descendants": 0,
+      "id": 28168091,
+      "score": 1,
+      "time": 1628858015,
+      "title": "Ask HN: Where do you ask your questions?",
+      "type": "story"
+    },
+    {
+      "by": "todsacerdoti",
+      "descendants": 0,
+      "id": 28168079,
+      "score": 1,
+      "time": 1628857920,
+      "title": "The Meaning of Dbg Function Names",
+      "type": "story",
+      "url": "https://stratus3d.com/blog/2021/08/11/the-meaning-of-dbg-function-names"
+    },
+    {
+      "by": "Tomte",
+      "descendants": 0,
+      "id": 28168073,
+      "score": 1,
+      "time": 1628857905,
+      "title": "News Sites: Readers need to “buy back” their own data at an exorbitant price?",
+      "type": "story",
+      "url": "https://noyb.eu/en/news-sites-readers-need-buy-back-their-own-data-exorbitant-price"
+    },
+    {
       "by": "Borkdude",
       "descendants": 0,
       "id": 28168065,
@@ -15,7 +54,7 @@
       "descendants": 0,
       "id": 28168059,
       "score": 1,
-      "text": "EXAMPLE<p>1) Agents receive historical visual information (X, eg., photo) of chairs (T) and facts about those rooms (Y, eg., their color).<p>2) They produce functions which take visual information (eg., a photo) of an unknown chair, and can produce descriptions of the unknown chair which are accurate if the visual information is accurate. (Eg., it is red if the photo accurately depicts its redness)<p>(3) ML systems must receive the same type and amount of visual information when learning and when inferring; and produce the same type of descriptions. Eg., an ML system cannot take a b&#x2F;w photo, if it has only seen color photos, and conclude a color accurately; even if the b&#x2F;w photo is accurate. Nor can it draw a color version.<p>3) Humans are able to receive visual information in a form they haven&#x27;t seen before (eg., a child sees a b&#x2F;w photo for the first time), which contains less information than what they have seen before (eg., no color), and produce accurate descriptions in many forms -- eg., paint, draw, spoken, ... -- (if the b&#x2F;w photo is accurate).<p>NB.<p>If the &quot;child&#x27;s first b&#x2F;w photo&quot; isnt convincing, consider a language case: we read entirely new sentences and still produce accurate facts based on our reading them. Eg., &quot;new york is loved by the gleebals of phefar prime aliens&quot; -&gt; &quot;Gleebals are a lot like tourists, they should visit Manhattan&quot;; A painting of the planet phefar-prime with a &quot;I &lt;3 NY&quot; logo on it.<p>You might say that an ensemble of ML systems with all possible types of measurement and types of description would &quot;perform as well&quot; as a human -- narrowly, here, this is the case.<p>The point is that humans do not need all possible &quot;versions&quot; of everything. If you have learnt to draw you can take entirely new drawings (with less info that you have had before) to entirely new sentences (with more info).<p>---<p>A semi-formal proof,<p>1) Agents receive an encoding (E) of measurements (X) of target objects (T), and relevant descriptions of those objects (DY).<p>2) They produce functions which takes an E&#x27;-encoding of a new measurement (E&#x27;(X&#x27;)) of an unknown target U, and produces, a description D&#x27;O about a possible target O. Accuracy: O is D&#x27;-similar to U iff E&#x27;(O) similar to E&#x27;(U).<p>(3) ML Systems produce only one such function where E=E&#x27;.<p>3) GI Agents (eg., Humans) produce a <i>set of functions</i> where E&#x27;=E <i>and</i> E&#x27; in C1..n (a big set of compressive encodings) <i>without</i> prior experience of eg., C1(X&#x27;). And which produce multiple modes of description D=D&#x27; and D=M1..Mn without having prior M1(Y&#x27;).",
+      "text": "EXAMPLE<p>1) Agents receive historical visual information (X, eg., photo) of chairs (T) and facts about those rooms (Y, eg., their color).<p>2) They produce functions which take visual information (eg., a photo) of an unknown chair, and can produce descriptions of the unknown chair which are accurate if the visual information is accurate. (Eg., it is red if the photo accurately depicts its redness)<p>(3) ML systems must receive the same type and amount of visual information when learning and when inferring; and produce the same type of descriptions. Eg., an ML system cannot take a b&#x2F;w photo, if it has only seen color photos, and conclude a color accurately; even if the b&#x2F;w photo is accurate. Nor can it draw a color version.<p>4) Humans are able to receive visual information in a form they haven&#x27;t seen before (eg., a child sees a b&#x2F;w photo for the first time), which contains less information than what they have seen before (eg., no color), and produce accurate descriptions in many forms -- eg., paint, draw, spoken, ... -- (if the b&#x2F;w photo is accurate).<p>(4) is required for general intelligence, and (3 =&#x2F;= 4).<p>NB.<p>If the &quot;child&#x27;s first b&#x2F;w photo&quot; isnt convincing, consider a language case: we read entirely new sentences and still produce accurate facts based on our reading them. Eg., &quot;new york is loved by the gleebals of phefar prime aliens&quot; -&gt; &quot;Gleebals are a lot like tourists, they should visit Manhattan&quot;; A painting of the planet phefar-prime with a &quot;I &lt;3 NY&quot; logo on it.<p>You might say that an ensemble of ML systems with all possible types of measurement and types of description would &quot;perform as well&quot; as a human -- narrowly, here, this is the case.<p>The point is that humans do not need all possible &quot;versions&quot; of everything. If you have learnt to draw you can take entirely new drawings (with less info that you have had before) to entirely new sentences (with more info).<p>---<p>A semi-formal proof,<p>1) Agents receive an encoding (E) of measurements (X) of target objects (T), and relevant descriptions of those objects (DY).<p>2) They produce functions which takes an E&#x27;-encoding of a new measurement (E&#x27;(X&#x27;)) of an unknown target U, and produces, a description D&#x27;O about a possible target O. Accuracy: O is D&#x27;-similar to U iff E&#x27;(O) similar to E&#x27;(U).<p>3) ML Systems produce only one such function, h, where E=E&#x27;.<p>4) GI Agents (eg., Humans) produce a <i>set of functions</i>, g1..n, where E&#x27;=E <i>and</i> E&#x27; in C1..n (a big set of compressive encodings) <i>without</i> prior experience of eg., Cn(X&#x27;). And which produce multiple modes of description D=D&#x27; and D=M1..Mn without having prior Mn(Y&#x27;).<p>General intelligence requires (at least) generating g1..n from (EX,DY) and (2) fails.",
       "time": 1628857783,
       "title": "Ask HN: Any problems with a proof that ML is insufficient for AI?",
       "type": "story"
@@ -59,46 +98,6 @@
       "title": "The age of the à la carte internet",
       "type": "story",
       "url": "https://www.axios.com/internet-subscription-paywall-streaming-d4b7e708-14f4-4677-813b-a8dbcbe3c7ae.html"
-    },
-    {
-      "by": "geox",
-      "descendants": 0,
-      "id": 28167976,
-      "score": 4,
-      "time": 1628856979,
-      "title": "Illinois Is the First State to Have High Schools Teach News Literacy",
-      "type": "story",
-      "url": "https://www.npr.org/2021/08/12/1026993142/illinois-is-the-first-state-to-have-high-schools-teach-news-literacy"
-    },
-    {
-      "by": "sidcool",
-      "descendants": 0,
-      "id": 28167956,
-      "score": 1,
-      "time": 1628856834,
-      "title": "Amazon Drops ‘Draconian’ Policy on Making Games After Work Hours",
-      "type": "story",
-      "url": "https://www.bloomberg.com/news/articles/2021-08-12/amazon-drops-company-policies-on-game-development-after-backlash"
-    },
-    {
-      "by": "peytoncasper",
-      "descendants": 0,
-      "id": 28167940,
-      "score": 1,
-      "time": 1628856718,
-      "title": "7 Days of Bootstraps: Day 4",
-      "type": "story",
-      "url": "https://medium.com/@peytoncasper/7-days-of-bootstraps-day-4-75a93f0dfceb"
-    },
-    {
-      "by": "chompas",
-      "descendants": 0,
-      "id": 28167908,
-      "score": 1,
-      "time": 1628856476,
-      "title": "Writing a relevant resume in the engineering world",
-      "type": "story",
-      "url": "https://techeria.co/blog/writing-a-relevant-resume-in-the-engineering-world"
     }
   ]
 }
