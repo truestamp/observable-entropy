@@ -1,6 +1,16 @@
 {
   "stories": [
     {
+      "by": "pranoy",
+      "descendants": 0,
+      "id": 28180386,
+      "score": 1,
+      "text": "I am tired of looking into metrics such as Accuracy, Recall, Precision, F1 score and much more only. \nI am more interested in analysing what the Neural Net has learned. Visualising the gradient using techniques such as guided backpop, gradCAM etc. and projecting its outputs&#x2F;features to vectors in R2 or R3 using TSNE&#x2F; PCA. \nI find model debugging by visualising along with Metrics Analysing helps me get more intuition into  what is going wrong!<p>What are the the most efficient tools, githubs etc. used by you for doing the same which helps \nyou get into crux of &quot;what is going wrong in your model?&quot;",
+      "time": 1628947193,
+      "title": "Ask HN: What tools you use for Neural Network Debugging?",
+      "type": "story"
+    },
+    {
       "by": "pabs3",
       "descendants": 0,
       "id": 28180352,
@@ -22,9 +32,14 @@
     },
     {
       "by": "chmaynard",
-      "descendants": 0,
+      "descendants": 3,
       "id": 28180333,
-      "score": 7,
+      "kids": [
+        28180368,
+        28180367,
+        28180363
+      ],
+      "score": 15,
       "time": 1628946644,
       "title": "M 7.2 Earthquake 12 km NE of Saint-Louis du Sud, Haiti",
       "type": "story",
@@ -89,19 +104,6 @@
       "title": "S and C functions in orbital mechanics",
       "type": "story",
       "url": "https://www.johndcook.com/blog/2021/08/14/s-and-c-functions/"
-    },
-    {
-      "by": "ingvul",
-      "descendants": 1,
-      "id": 28180283,
-      "kids": [
-        28180322
-      ],
-      "score": 1,
-      "text": "As a solo developer of a tiny Saas, I find Vagrant indispensable in my day-to-day tasks. I use it mainly as a tool to reproduce cloud infrastructure locally. As you can imagine, my cloud infrastructure is really tiny and so it&#x27;s feasible to reproduce it locally on my laptop. I also use Docker extensively, but I don&#x27;t think Docker replaces Vagrant at all (at least for my use cases).<p>While I could use a separate private cloud just for development purposes (and effectively use my laptop as a &quot;dumb&quot; terminal), I find it irritating because:<p>- It&#x27;s not free. I have to pay for it<p>- My laptop is powerful enough to emulate my production infra<p>- It just feels wrong to me. I like the idea of using my own machine to develop my application and my infrastructure, and spin up&#x2F;tear down VMs as many times as needed without having to worry about price<p>Do you still use Vagrant or similar tools to spin up VMs locally?",
-      "time": 1628946165,
-      "title": "Ask HN: Is Vagrant Dead?",
-      "type": "story"
     }
   ]
 }
