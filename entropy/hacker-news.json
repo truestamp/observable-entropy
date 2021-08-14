@@ -1,6 +1,29 @@
 {
   "stories": [
     {
+      "by": "hheikinh",
+      "descendants": 1,
+      "id": 28181826,
+      "kids": [
+        28181827
+      ],
+      "score": 1,
+      "time": 1628957920,
+      "title": "Well-preserved 28,000-year-old cave lion cub found in Siberian permafrost",
+      "type": "story",
+      "url": "https://www.theguardian.com/science/2021/aug/13/well-preserved-28000-year-old-lion-cub-found-in-siberian-permafrost"
+    },
+    {
+      "by": "tosh",
+      "descendants": 0,
+      "id": 28181821,
+      "score": 1,
+      "time": 1628957875,
+      "title": "The Great Wave (making the woodblock print) (2015)",
+      "type": "story",
+      "url": "https://www.youtube.com/playlist?list=PLK-Wicsj5rAasS2g7e-Z9eFUdG6I7ZqED"
+    },
+    {
       "by": "thematija",
       "descendants": 1,
       "id": 28181784,
@@ -47,8 +70,8 @@
       "by": "mattrighetti",
       "descendants": 0,
       "id": 28181726,
-      "score": 2,
-      "text": "I want to develop a game that will let user pin objects to the world map with a timeout value after which that object will not be visible anymore (user can also set an infinite timeout that will leave the object visible on the map forever). Each user that is playing will see these objects coming and going, particularly they will see objects that are located on the visible map.<p>Right now the only query that I would like to serve FAST is (I don&#x27;t care about super precise results):\n&quot;Given a rectangle of the user&#x27;s map visible area, return all the objects that are inside it&quot;<p>OR something similar:\n&quot;Given a user location, return all the objects that are within a certain radius specified by the user&quot;<p>It&#x27;s the first time that I am dealing with geospatial data and geospatial indexes. I have seen that Elasticsearch is a good starting point for giant data and little queries. I have also taken a look at PostGIS which I liked a lot and seemed to be a good DBMS for the geospatial task above. What I am concerned about right now is scaling this service (which probabily is not the priority right now but I want to be prepared in case this is going to work).<p>I&#x27;ve never tried to benchmark these kind of queries but this seems to be a very read-intensive task, I imagine that 500 queries per seconds is going to be very hard to keep up with, but this are just my unproven thoughts. Also keep in mind that I will probably need to remove rows that have their timeout value expired (maybe every 10-5 minutes?) so triggers will need to be fired over the giant database.<p>Again, I have no experience with this and this is probabily a very bad implementation of the game, but I am here to ask you for advice on this.<p>What DBMS would you recommend for this task?\nWhat kind of optimizations would you apply to this problem?",
+      "score": 3,
+      "text": "I want to develop a game that will let user pin objects to the world map with a timeout value after which that object will not be visible anymore (user can also set an infinite timeout that will leave the object visible on the map forever). Each user that is playing will see these objects coming and going, particularly they will see objects that are located on the visible map.<p>Right now the only query that I would like to serve FAST is (I don&#x27;t care about super precise results):\n&quot;Given a rectangle of the user&#x27;s map visible area, return all the objects that are inside it&quot;<p>OR something similar:\n&quot;Given a user location, return all the objects that are within a certain radius specified by the user&quot;<p>It&#x27;s the first time I am dealing with geospatial data and geospatial indexes. I have seen that Elasticsearch is a good starting point for giant data and little queries. I have also taken a look at PostGIS which I liked a lot and seemed to be a good DBMS for the geospatial task above. What I am concerned about right now is scaling this service (which probably is not the priority right now but I want to be prepared in case this is going to work).<p>I&#x27;ve never tried to benchmark these kind of queries but this seems to be a very read-intensive task, I imagine that 500 queries per seconds is going to be very hard to keep up with, but this are just my unproven thoughts. Also keep in mind that I will probably need to remove rows that have their timeout value expired (maybe every 10-5 minutes?) so triggers will need to be fired over the giant database.<p>Again, I have no experience with this and this is probably a very bad implementation of the game, but I am here to ask you for advice on this.<p>What DBMS would you recommend for this task?\nWhat kind of optimizations would you apply to this problem?",
       "time": 1628957211,
       "title": "Ask HN: What DBMS would you recommend for read-intensive geospatial queries?",
       "type": "story"
@@ -85,26 +108,6 @@
       "title": "I turned down a pretty big publishing contract today",
       "type": "story",
       "url": "https://threadreaderapp.com/thread/1426227560057298952.html"
-    },
-    {
-      "by": "charles_f",
-      "descendants": 0,
-      "id": 28181694,
-      "score": 1,
-      "time": 1628956942,
-      "title": "China’s Port Shutdown Raises Fears of Closures Worldwide",
-      "type": "story",
-      "url": "https://finance.yahoo.com/news/massive-china-port-shutdown-raises-210441619.html"
-    },
-    {
-      "by": "wuliwong",
-      "descendants": 0,
-      "id": 28181657,
-      "score": 1,
-      "text": "I am a full stack dev, lots of javascript and rails experience as well as some Golang. I have very little mobile development experience. I&#x27;ve toyed with react native locally but never released anything functional. I am looking to build a prototype for mobile and release an MVP to the app stores.<p>What do you use to build prototypes and MVPs for mobile? I would like to target iOS and Android from the start. I would like to user experience to feel &quot;native&quot; as well. Other than that, looking for suggestions of approaches that are somewhat easy to pick up. Would love to hear pros and cons of the framework you use.<p>Thanks!",
-      "time": 1628956660,
-      "title": "Ask HN: I am a web dev who wants to build a mobile MVP",
-      "type": "story"
     }
   ]
 }
