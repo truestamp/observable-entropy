@@ -1,6 +1,16 @@
 {
   "stories": [
     {
+      "by": "brundolf",
+      "descendants": 0,
+      "id": 28184662,
+      "score": 1,
+      "text": "Every parser&#x2F;interpreter&#x2F;compiler tutorial has you start with a tokenizer. Intuitively it makes sense that you would slice off this piece of work up front.<p>But in practice, in my hobby projects, I&#x27;ve found it&#x27;s trivially easy to skip this step and just operate directly on characters in the recursive-descent pass. And by doing so your code is simpler, and you avoid repeating a bit of work (for example: identifying the bounds of a number literal in one pass and then fully parsing it in another pass).<p>Is it more necessary in full-scale compilers? Is it an old-fashioned practice that people don&#x27;t really do anymore? Or am I missing something?",
+      "time": 1628981881,
+      "title": "Ask HN: Do you really need a lexer/tokenizer?",
+      "type": "story"
+    },
+    {
       "by": "AdminBTA",
       "descendants": 0,
       "id": 28184629,
@@ -93,21 +103,11 @@
       "kids": [
         28184643
       ],
-      "score": 5,
+      "score": 7,
       "time": 1628980356,
       "title": "High heat: Spain clocks prelim record of 47.2 C (116.96 F)",
       "type": "story",
       "url": "https://abcnews.go.com/Health/wireStory/europe-heat-wave-brings-concern-older-adults-homeless-79455026"
-    },
-    {
-      "by": "luu",
-      "descendants": 0,
-      "id": 28184500,
-      "score": 2,
-      "time": 1628980290,
-      "title": "Imperative Thinking and the Making of Sandwiches",
-      "type": "story",
-      "url": "https://scattered-thoughts.net/writing/imperative-thinking-and-the-making-of-sandwiches/"
     }
   ]
 }
