@@ -1,6 +1,46 @@
 {
   "stories": [
     {
+      "by": "volinthius",
+      "descendants": 0,
+      "id": 28180327,
+      "score": 1,
+      "time": 1628946609,
+      "title": "NASA Spacecraft Provides Insight into Asteroid Bennu’s Future Orbit",
+      "type": "story",
+      "url": "https://www.jpl.nasa.gov/news/nasa-spacecraft-provides-insight-into-asteroid-bennus-future-orbit"
+    },
+    {
+      "by": "Tomte",
+      "descendants": 0,
+      "id": 28180325,
+      "score": 1,
+      "time": 1628946570,
+      "title": "Datasette on Codespaces",
+      "type": "story",
+      "url": "https://simonwillison.net/2021/Aug/14/datasette-on-codespaces/"
+    },
+    {
+      "by": "scrollaway",
+      "descendants": 0,
+      "id": 28180305,
+      "score": 2,
+      "time": 1628946368,
+      "title": "GitHub seems to be enabling IPv6 for GitHub Pages",
+      "type": "story",
+      "url": "https://github.com/isaacs/github/issues/354"
+    },
+    {
+      "by": "edent",
+      "descendants": 0,
+      "id": 28180303,
+      "score": 1,
+      "time": 1628946351,
+      "title": "Should browsers remember 2FA codes?",
+      "type": "story",
+      "url": "https://shkspr.mobi/blog/2021/08/should-browsers-remember-2fa-codes/"
+    },
+    {
       "by": "chmaynard",
       "descendants": 0,
       "id": 28180291,
@@ -11,19 +51,18 @@
       "url": "https://www.johndcook.com/blog/2021/08/14/s-and-c-functions/"
     },
     {
-      "by": "volinthius",
-      "descendants": 0,
+      "deleted": true,
       "id": 28180289,
-      "score": 1,
       "time": 1628946221,
-      "title": "NASA just raised the odds of this meteor striking Earth",
-      "type": "story",
-      "url": "https://www.euronews.com/next/2021/08/13/nasa-s-raised-the-odds-of-this-meteor-striking-earth-but-don-t-prepare-for-armageddon-just"
+      "type": "story"
     },
     {
       "by": "ingvul",
-      "descendants": 0,
+      "descendants": 1,
       "id": 28180283,
+      "kids": [
+        28180322
+      ],
       "score": 1,
       "text": "As a solo developer of a tiny Saas, I find Vagrant indispensable in my day-to-day tasks. I use it mainly as a tool to reproduce cloud infrastructure locally. As you can imagine, my cloud infrastructure is really tiny and so it&#x27;s feasible to reproduce it locally on my laptop. I also use Docker extensively, but I don&#x27;t think Docker replaces Vagrant at all (at least for my use cases).<p>While I could use a separate private cloud just for development purposes (and effectively use my laptop as a &quot;dumb&quot; terminal), I find it irritating because:<p>- It&#x27;s not free. I have to pay for it<p>- My laptop is powerful enough to emulate my production infra<p>- It just feels wrong to me. I like the idea of using my own machine to develop my application and my infrastructure, and spin up&#x2F;tear down VMs as many times as needed without having to worry about price<p>Do you still use Vagrant or similar tools to spin up VMs locally?",
       "time": 1628946165,
@@ -58,46 +97,6 @@
       "title": "CryptoHack – A fun free platform for learning cryptography",
       "type": "story",
       "url": "https://cryptohack.org/"
-    },
-    {
-      "by": "rdli",
-      "descendants": 0,
-      "id": 28180244,
-      "score": 1,
-      "time": 1628945709,
-      "title": "Monday.com’s Multi-Regional Architecture: A Deep Dive",
-      "type": "story",
-      "url": "https://engineering.monday.com/monday-coms-multi-regional-architecture-a-deep-dive/"
-    },
-    {
-      "by": "OJFord",
-      "descendants": 0,
-      "id": 28180239,
-      "score": 1,
-      "time": 1628945674,
-      "title": "Republic of Rose Island",
-      "type": "story",
-      "url": "https://en.wikipedia.org/wiki/Republic_of_Rose_Island"
-    },
-    {
-      "by": "legrande",
-      "descendants": 0,
-      "id": 28180237,
-      "score": 1,
-      "time": 1628945650,
-      "title": "We answered the most popular questions about Ethereum's EIP-1559",
-      "type": "story",
-      "url": "https://uncommoncore.co/eip-1559/"
-    },
-    {
-      "by": "todsacerdoti",
-      "descendants": 0,
-      "id": 28180226,
-      "score": 1,
-      "time": 1628945518,
-      "title": "Debian 11 is being released",
-      "type": "story",
-      "url": "https://twitter.com/debian/status/1426446755109900293"
     }
   ]
 }
