@@ -1,6 +1,66 @@
 {
   "stories": [
     {
+      "by": "kiyanwang",
+      "descendants": 0,
+      "id": 28181879,
+      "score": 1,
+      "time": 1628958287,
+      "title": "The Netflix Cosmos Platform",
+      "type": "story",
+      "url": "https://netflixtechblog.com/the-netflix-cosmos-platform-35c14d9351ad"
+    },
+    {
+      "by": "gmays",
+      "descendants": 0,
+      "id": 28181861,
+      "score": 1,
+      "time": 1628958150,
+      "title": "Nail Your Startup Pitch: Use Pixar's Story Formula to Win over Investors",
+      "type": "story",
+      "url": "https://startuppitch.substack.com/p/nail-your-startup-pitch-use-pixars"
+    },
+    {
+      "by": "bookofjoe",
+      "descendants": 0,
+      "id": 28181859,
+      "score": 1,
+      "time": 1628958134,
+      "title": "Identify the birds you see or hear with Merlin Bird ID",
+      "type": "story",
+      "url": "https://merlin.allaboutbirds.org/"
+    },
+    {
+      "by": "Tomte",
+      "descendants": 0,
+      "id": 28181844,
+      "score": 1,
+      "time": 1628958053,
+      "title": "Judge in Meng Wanzhou’s extradition case says U.S. allegation is unclear",
+      "type": "story",
+      "url": "https://www.theglobeandmail.com/canada/article-judge-in-mengs-extradition-case-questions-us-allegation/"
+    },
+    {
+      "by": "Tomte",
+      "descendants": 0,
+      "id": 28181842,
+      "score": 1,
+      "time": 1628958040,
+      "title": "Amazon Drops ‘Draconian’ Policy on Making Games After Work Hours",
+      "type": "story",
+      "url": "https://www.bloomberg.com/news/articles/2021-08-12/amazon-drops-company-policies-on-game-development-after-backlash"
+    },
+    {
+      "by": "miles",
+      "descendants": 0,
+      "id": 28181839,
+      "score": 1,
+      "time": 1628958023,
+      "title": "Is Apple keeping its promises over online OCSP certificate checks?",
+      "type": "story",
+      "url": "https://eclecticlight.co/2021/08/12/is-apple-keeping-its-promises-over-online-ocsp-certificate-checks/"
+    },
+    {
       "by": "hheikinh",
       "descendants": 1,
       "id": 28181826,
@@ -45,69 +105,6 @@
       "title": "Salesforce wants Salesforce+ to be the Netflix of biz content",
       "type": "story",
       "url": "https://techcrunch.com/2021/08/10/salesforce-wants-salesforce-to-be-the-netflix-of-biz-content/"
-    },
-    {
-      "by": "rbanffy",
-      "descendants": 0,
-      "id": 28181763,
-      "score": 1,
-      "time": 1628957449,
-      "title": "Evidence of Cosmic Impact at Abu Hureyra, Syria, 12500 Years Ago",
-      "type": "story",
-      "url": "https://www.nature.com/articles/s41598-020-60867-w"
-    },
-    {
-      "by": "cf100clunk",
-      "descendants": 0,
-      "id": 28181730,
-      "score": 1,
-      "time": 1628957240,
-      "title": "Wildfire Incident Commander Responds to Social Media Criticism",
-      "type": "story",
-      "url": "https://twitter.com/BCGovFireInfo/status/1426361376394592260"
-    },
-    {
-      "by": "mattrighetti",
-      "descendants": 0,
-      "id": 28181726,
-      "score": 3,
-      "text": "I want to develop a game that will let user pin objects to the world map with a timeout value after which that object will not be visible anymore (user can also set an infinite timeout that will leave the object visible on the map forever). Each user that is playing will see these objects coming and going, particularly they will see objects that are located on the visible map.<p>Right now the only query that I would like to serve FAST is (I don&#x27;t care about super precise results):\n&quot;Given a rectangle of the user&#x27;s map visible area, return all the objects that are inside it&quot;<p>OR something similar:\n&quot;Given a user location, return all the objects that are within a certain radius specified by the user&quot;<p>It&#x27;s the first time I am dealing with geospatial data and geospatial indexes. I have seen that Elasticsearch is a good starting point for giant data and little queries. I have also taken a look at PostGIS which I liked a lot and seemed to be a good DBMS for the geospatial task above. What I am concerned about right now is scaling this service (which probably is not the priority right now but I want to be prepared in case this is going to work).<p>I&#x27;ve never tried to benchmark these kind of queries but this seems to be a very read-intensive task, I imagine that 500 queries per seconds is going to be very hard to keep up with, but this are just my unproven thoughts. Also keep in mind that I will probably need to remove rows that have their timeout value expired (maybe every 10-5 minutes?) so triggers will need to be fired over the giant database.<p>Again, I have no experience with this and this is probably a very bad implementation of the game, but I am here to ask you for advice on this.<p>What DBMS would you recommend for this task?\nWhat kind of optimizations would you apply to this problem?",
-      "time": 1628957211,
-      "title": "Ask HN: What DBMS would you recommend for read-intensive geospatial queries?",
-      "type": "story"
-    },
-    {
-      "by": "maxwell",
-      "descendants": 0,
-      "id": 28181724,
-      "score": 1,
-      "time": 1628957206,
-      "title": "Wood Pellets: Green Energy or New Source of CO2 Emissions? (2015)",
-      "type": "story",
-      "url": "https://e360.yale.edu/features/wood_pellets_green_energy_or_new_source_of_co2_emissions"
-    },
-    {
-      "by": "thunderbong",
-      "descendants": 1,
-      "id": 28181716,
-      "kids": [
-        28181719
-      ],
-      "score": 1,
-      "time": 1628957153,
-      "title": "The Access Guides and the Contradictions of Design",
-      "type": "story",
-      "url": "https://pages.gseis.ucla.edu/faculty/agre/access.html"
-    },
-    {
-      "by": "dredmorbius",
-      "descendants": 0,
-      "id": 28181702,
-      "score": 1,
-      "time": 1628957027,
-      "title": "I turned down a pretty big publishing contract today",
-      "type": "story",
-      "url": "https://threadreaderapp.com/thread/1426227560057298952.html"
     }
   ]
 }
