@@ -1,6 +1,16 @@
 {
   "stories": [
     {
+      "by": "indigodaddy",
+      "descendants": 0,
+      "id": 28183015,
+      "score": 1,
+      "text": "All, two or three years ago, I found an incredible deal for a used very high spec HP Chromebook and I jumped on it for my now 9 year old.<p>So it’s still working great, and she uses it all the time for online school and Roblox (via android app capability).  However, I feel like it might be holding her back from learning how actual computers and traditional OS’es work.  I feel like she can’t really “explore” and do other things on it that she might otherwise do with a Windows or Linux laptop.<p>Do I need to get her a Windows(&#x2F;Linux) laptop asap to widen her technical horizons?  Not interested in a Mac for cost and other reasons..",
+      "time": 1628966814,
+      "title": "Ask HN: Is my child’s Chromebook crippling her computer learning/literacy?",
+      "type": "story"
+    },
+    {
       "by": "__m",
       "descendants": 0,
       "id": 28182984,
@@ -52,8 +62,11 @@
     },
     {
       "by": "JumpCrisscross",
-      "descendants": 0,
+      "descendants": 1,
       "id": 28182917,
+      "kids": [
+        28183031
+      ],
       "score": 1,
       "time": 1628965989,
       "title": "Huawei Accused in Suit of Installing Data ‘Back Door’ in Pakistan Project",
@@ -93,16 +106,6 @@
       "title": "What tech does China want?",
       "type": "story",
       "url": "https://www.economist.com/business/what-tech-does-china-want/21803410"
-    },
-    {
-      "by": "hq6",
-      "descendants": 0,
-      "id": 28182867,
-      "score": 3,
-      "text": "In OSDI 2016, Google published a paper describing Slicer, a system to make it\neasy to build stateful applications by solving the distributed problems\nassociated with sharding applications.<p>https:&#x2F;&#x2F;www.usenix.org&#x2F;system&#x2F;files&#x2F;conference&#x2F;osdi16&#x2F;osdi16-adya.pdf<p>My current team at Square is building a (simplified) clone of Slicer to\nsimplify feature development, improve load balancing, and reduce latency by\nrelying on soft local state. Examples of our use cases include replacing Redis\n(for Rpc response caching) with application memory and allowing chunked image\nuploads to be coalesced in application memory. Since Square&#x27;s tech stack is\nbuilt on gRPC, HTTP, and Envoy, our clone will be built on these open source\ntechnologies.<p>We hypothesize that such a clone might be useful outside of Square.  However,\nwe want to validate this hypothesis and understand the use cases, so that we\ncan build a system that might be useful to the open source community.<p>I ask the Hacker News community:\n1. Would the systems you are building be able to take advantage of an open\n   source clone of Slicer built on Envoy with support for gRPC and HTTP?\n2. If so, please name your company, a brief description of your system and use\n   cases. Additionally, what minimal subset of Slicer&#x27;s features are sufficient\n   for your use case?",
-      "time": 1628965520,
-      "title": "Ask HN: Do you have use cases for an open source clone of Google Slicer?",
-      "type": "story"
     }
   ]
 }
