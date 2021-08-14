@@ -1,9 +1,22 @@
 {
   "stories": [
     {
+      "by": "BayAreaEscapee",
+      "descendants": 0,
+      "id": 28184796,
+      "score": 1,
+      "time": 1628983379,
+      "title": "Work with UK’s biggest plant came to screeching halt after Chinese takeover",
+      "type": "story",
+      "url": "https://www.cnbc.com/2021/08/13/nexperia-takeover-of-newport-wafer-hurt-us-firm-ideal-semiconductor.html"
+    },
+    {
       "by": "mardiyah",
       "descendants": 0,
       "id": 28184758,
+      "kids": [
+        28184806
+      ],
       "score": 2,
       "time": 1628983126,
       "title": "MIT Researchers Make Hydrogen Fuel from Aluminum and Water",
@@ -22,8 +35,11 @@
     },
     {
       "by": "thcipriani",
-      "descendants": 0,
+      "descendants": 1,
       "id": 28184749,
+      "kids": [
+        28184788
+      ],
       "score": 1,
       "time": 1628983018,
       "title": "Treat code review like work",
@@ -91,16 +107,6 @@
       "text": "Every parser&#x2F;interpreter&#x2F;compiler tutorial has you start with a tokenizer. Intuitively it makes sense that you would slice off this piece of work up front.<p>But in practice, in my hobby projects, I&#x27;ve found it&#x27;s trivially easy to skip this step and just operate directly on characters in the recursive-descent pass. And by doing so your code is simpler, and you avoid repeating a bit of work (for example: identifying the bounds of a number literal in one pass and then fully parsing it in another pass).<p>Is it more necessary in full-scale compilers? Is it an old-fashioned practice that people don&#x27;t really do anymore? Or am I missing something?",
       "time": 1628981881,
       "title": "Ask HN: Do you really need a lexer/tokenizer?",
-      "type": "story"
-    },
-    {
-      "by": "AdminBTA",
-      "descendants": 0,
-      "id": 28184629,
-      "score": 1,
-      "text": "hi I am a beginner and would love to see sample code",
-      "time": 1628981606,
-      "title": "Hi I want to know how to be able to use multiple events in C#",
       "type": "story"
     }
   ]
