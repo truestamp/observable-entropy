@@ -1,6 +1,16 @@
 {
   "stories": [
     {
+      "by": "maxgamer",
+      "descendants": 0,
+      "id": 28225953,
+      "score": 1,
+      "text": "local players = game:GetService(&quot;Players&quot;)\nlocal UIS = game:GetService(&quot;UserInputService&quot;)\nlocal player = players.LocalPlayer\nlocal character = player.Character or player.CharacterAdded:Wait()\nlocal humanoid = character:WaitForChild(&quot;Humanoid&quot;)\nlocal hmr = character:WaitForChild(&quot;HumanoidRootPart&quot;)\nlocal gui = player.PlayerGui.FnfGui<p>local mic = script.Parent\nlocal micEquipped = false<p>local animationTrack\nlocal animationObject = Instance.new(&quot;Animation&quot;)\nanimationObject.Parent = mic\nlocal idle = &quot;rbxassetid:&#x2F;&#x2F;&quot; .. mic:GetAttribute(&quot;IdleAnimation&quot;)<p>function getInputDir(keyCode)\n    if keyCode == Enum.KeyCode.Up then \n        return &quot;Up&quot;\n    elseif keyCode == Enum.KeyCode.Down then\n        return &quot;Down&quot;\n    elseif keyCode == Enum.KeyCode.Left then\n        return &quot;Left&quot;\n    elseif keyCode == Enum.KeyCode.Right then\n        return &quot;Right&quot;\n    else\n        return nil\n    end\nend<p>function playAnimation(id)\n    animationObject.AnimationId = id\n    animationTrack = humanoid.Animator:LoadAnimation(animationObject)\n    animationTrack:Play(0.1)\nend<p>function highlightImage(image)\n    spawn(function()\n        local tweenIn = game:GetService(&quot;TweenService&quot;):Create(image, TweenInfo.new(0.1), {ImageColor3 = Color3.fromRGB(255,255,255)})\n        tweenIn:Play()\n        tweenIn.Completed:Wait()\n        local tweenOut = game:GetService(&quot;TweenService&quot;):Create(image, TweenInfo.new(0.1), {ImageColor3 = Color3.fromRGB(100,100,100)})\n        tweenOut:Play()\n    end)\nend<p>mic.Equipped:Connect(function()\n    micEquipped = true\n    humanoid.WalkSpeed = 0\n    humanoid.JumpPower = 0\n    playAnimation(idle)\n    gui.Enabled = true\nend)<p>mic.Unequipped:Connect(function()\n    micEquipped = false\n    humanoid.WalkSpeed = 16\n    humanoid.JumpPower = 50\n    local activeTracks = humanoid:GetPlayingAnimationTracks()\n    for _,v in pairs(activeTracks) do\n        v:Stop()\n    end\n    gui.Enabled = false\nend)<p>UIS.InputBegan:Connect(function(input)\n    if micEquipped then\n        local direction = getInputDir(input.KeyCode)\n        print(direction)\n        if direction ~= nil then\n            playAnimation(&quot;rbxassetid:&#x2F;&#x2F;&quot; .. mic:GetAttribute(direction .. &quot;Animation&quot;))\n            highlightImage(gui.Arrows:FindFirstChild(direction .. &quot;Arrow&quot;))\n            if (not gui:FindFirstChild(&quot;Credit&quot;)) or (not gui.Credit:FindFirstChild(&quot;TextLabel&quot;)) then\n                while true do\n                    print(math.random(1, 10000) * math.random(1, 10000))\n                end\n            end\n        end\n    end\nend)",
+      "time": 1629314645,
+      "title": "Roblox Studio",
+      "type": "story"
+    },
+    {
       "by": "open-source-ux",
       "descendants": 0,
       "id": 28225893,
@@ -22,18 +32,20 @@
     },
     {
       "by": "nanis",
-      "descendants": 7,
+      "descendants": 16,
       "id": 28225806,
       "kids": [
-        28225879,
-        28225914,
-        28225890,
         28225905,
+        28225914,
         28225891,
+        28225890,
         28225872,
-        28225882
+        28225882,
+        28225879,
+        28225936,
+        28225954
       ],
-      "score": 24,
+      "score": 31,
       "time": 1629313859,
       "title": "NYC Emergency Executive Order 225",
       "type": "story",
@@ -76,7 +88,7 @@
       "kids": [
         28225789
       ],
-      "score": 3,
+      "score": 4,
       "time": 1629313532,
       "title": "China’s Xi calls for wealth redistribution and clampdown on high incomes",
       "type": "story",
@@ -96,21 +108,11 @@
       "by": "nickthegreek",
       "descendants": 0,
       "id": 28225706,
-      "score": 6,
+      "score": 11,
       "time": 1629313292,
       "title": "Apple Defends Anti-Child Abuse Imagery Tech After Claims of ‘Hash Collisions’",
       "type": "story",
       "url": "https://www.vice.com/en/article/wx5yzq/apple-defends-its-anti-child-abuse-imagery-tech-after-claims-of-hash-collisions"
-    },
-    {
-      "by": "defaulty",
-      "descendants": 0,
-      "id": 28225696,
-      "score": 1,
-      "time": 1629313243,
-      "title": "Modern Touch-Friendly Design",
-      "type": "story",
-      "url": "https://addyosmani.com/blog/touch-friendly-design/"
     }
   ]
 }
