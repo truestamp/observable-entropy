@@ -1,6 +1,66 @@
 {
   "stories": [
     {
+      "by": "optimalsolver",
+      "descendants": 0,
+      "id": 28216541,
+      "score": 1,
+      "time": 1629247816,
+      "title": "Valve Tried to Trick Half Life 2 Hacker into Fake Job Interview (2008)",
+      "type": "story",
+      "url": "https://www.wired.com/2008/11/valve-tricked-h/"
+    },
+    {
+      "by": "DocFeind",
+      "descendants": 0,
+      "id": 28216540,
+      "score": 1,
+      "time": 1629247805,
+      "title": "Crypto Is a National Security Asset, Not a Liability",
+      "type": "story",
+      "url": "https://www.forbes.com/sites/seansteinsmith/2021/08/17/crypto-is-a-national-security-asset-not-a-liability/"
+    },
+    {
+      "by": "PatrolX",
+      "descendants": 0,
+      "id": 28216497,
+      "score": 1,
+      "time": 1629247371,
+      "title": "VPN Scanner Is Now Available for Android in the Google Play Store",
+      "type": "story",
+      "url": "https://arador.com/vpn-scanner-is-now-available-for-android-in-the-google-play-store/"
+    },
+    {
+      "by": "drannex",
+      "descendants": 0,
+      "id": 28216484,
+      "score": 2,
+      "time": 1629247288,
+      "title": "Scientists Grew Stem Cell 'Mini Brains'. Then, the Brains Sort-Of Developed Eyes",
+      "type": "story",
+      "url": "https://www.sciencealert.com/scientists-used-stem-cells-to-make-mini-brains-they-grew-rudimentary-eyes/"
+    },
+    {
+      "by": "defaulty",
+      "descendants": 0,
+      "id": 28216481,
+      "score": 2,
+      "time": 1629247284,
+      "title": "Rive",
+      "type": "story",
+      "url": "https://rive.app/"
+    },
+    {
+      "by": "reteltech",
+      "descendants": 0,
+      "id": 28216480,
+      "score": 1,
+      "time": 1629247278,
+      "title": "Say goodbye to Intel’s RealSense tech by remembering its demos",
+      "type": "story",
+      "url": "https://www.theverge.com/2021/8/17/22629528/intel-realsense-3d-camera-tech-wind-down-business-product-demos"
+    },
+    {
       "by": "rognjen",
       "descendants": 0,
       "id": 28216474,
@@ -24,10 +84,10 @@
       "by": "jrcplus",
       "descendants": 0,
       "id": 28216470,
-      "score": 1,
-      "text": "We have IoT sensor data currently flowing Raspberry Pi → Telegraf → InfluxDB → Grafana (TIG stack). This is fine for simple queries and visualization. I&#x27;d like to move to a more proper data infrastructure for 1) SQL-based analytics, 2) pub-sub e.g. MQTT (to decouple sources from sinks), and 3) long-term storage. But we want to keep using Grafana.<p>We&#x27;re talking on the order of tens&#x2F;hundreds of devices posting data every 1 min or so, not petabytes.<p>Should I be following a data lake architecture and doing MQTT → S3 &#x2F; Redshift → ??? → PostgreSQL → Grafana? That seems like a lot of work &#x2F; maintenance &#x2F; overkill (?).<p>Or skip S3 &#x2F; Redshift and just write a custom MQTT → PostgreSQL bridge? (Why isn&#x27;t there an off-the-shelf solution, or am I missing something? I feel like this must be a common problem?)<p>Or should I be looking more at enterprise services e.g. Snowflake?<p>Known constraints:\n• Grafana supports PostgreSQL as a data source (but not Amazon Redshift).\n• Kinesis Firehose supports S3 and Redshift as destinations (but not RDS &#x2F; PostgreSQL).\n• Telegraf doesn&#x27;t (officially) support PostgreSQL as an output.<p>I am not a data engineer and want to avoid being one :)",
+      "score": 2,
+      "text": "We have IoT sensor data currently flowing Device → Telegraf → InfluxDB → Grafana (TIG stack). This is fine for simple queries and visualization. We want to keep using Grafana, but I&#x27;m looking to move to a more proper data infrastructure for 1) SQL-based analytics and ML applications, 2) pub-sub e.g. MQTT (to decouple sources from sinks), 3) long-term storage.<p>We&#x27;re talking on the order of dozens&#x2F;hundreds of devices posting data every min or so, not petabytes.<p>Should I be following a data lake architecture and doing MQTT → S3 &#x2F; Redshift → ??? → PostgreSQL → Grafana? That seems like a lot of work &#x2F; maintenance cost &#x2F; overkill (?).<p>Or just write a MQTT → PostgreSQL bridge? Why isn&#x27;t there an off-the-shelf solution, or am I missing something? I feel like this must be a common scenario?<p>Or should I be looking more closely at enterprise solutions e.g. Snowflake?<p>Known constraints:\n• Grafana supports PostgreSQL as a data source (but not Amazon Redshift).\n• Kinesis Firehose supports S3 and Redshift as destinations (but not RDS &#x2F; PostgreSQL).\n• Telegraf doesn&#x27;t (officially) support PostgreSQL as an output.<p>Bottom line: I am not a data engineer and want to avoid being one :)",
       "time": 1629247163,
-      "title": "Ask HN: Data infrastructure for IoT data",
+      "title": "Ask HN: Transitioning from Telegraf/InfluxDB for IoT data",
       "type": "story"
     },
     {
@@ -39,66 +99,6 @@
       "title": "Taliban deflect censorship questions citing Facebook's censorship",
       "type": "story",
       "url": "https://twitter.com/therecount/status/1427670638966165506"
-    },
-    {
-      "by": "goindeep",
-      "descendants": 0,
-      "id": 28216461,
-      "score": 1,
-      "time": 1629247101,
-      "title": "A Small German Business Began Accepting Cryptocurrency",
-      "type": "story",
-      "url": "https://hackernoon.com/how-a-small-german-business-began-accepting-bitcoin-cash"
-    },
-    {
-      "by": "m3at",
-      "descendants": 0,
-      "id": 28216431,
-      "score": 1,
-      "time": 1629246845,
-      "title": "Advantage in Life: Rich Parents",
-      "type": "story",
-      "url": "https://ofdollarsanddata.com/the-best-advantage-in-life/"
-    },
-    {
-      "by": "dwohnitmok",
-      "descendants": 0,
-      "id": 28216429,
-      "score": 2,
-      "time": 1629246822,
-      "title": "A language agnostic introduction to dependent types",
-      "type": "story",
-      "url": "https://www.shuangrimu.com/posts/language-agnostic-intro-to-dependent-types.html"
-    },
-    {
-      "by": "drdee",
-      "descendants": 0,
-      "id": 28216425,
-      "score": 1,
-      "time": 1629246799,
-      "title": "At Shul, We Drink Single Malt: On “A Fortress in Brooklyn”",
-      "type": "story",
-      "url": "https://lareviewofbooks.org/article/at-shul-we-drink-single-malt-on-a-fortress-in-brooklyn/"
-    },
-    {
-      "by": "drewmate",
-      "descendants": 0,
-      "id": 28216422,
-      "score": 1,
-      "time": 1629246775,
-      "title": "Hotels Try Out Fees for Using the Pool and Checking in Early",
-      "type": "story",
-      "url": "https://www.wsj.com/articles/hotels-try-out-fees-for-using-the-pool-and-checking-in-early-11629192602"
-    },
-    {
-      "by": "marcodiego",
-      "descendants": 0,
-      "id": 28216421,
-      "score": 1,
-      "time": 1629246768,
-      "title": "Script to redirect all traffic through Tor network",
-      "type": "story",
-      "url": "https://github.com/BlackArch/torctl"
     }
   ]
 }
