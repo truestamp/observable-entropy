@@ -1,12 +1,32 @@
 {
   "stories": [
     {
+      "by": "disabled",
+      "descendants": 0,
+      "id": 28216562,
+      "score": 1,
+      "time": 1629248073,
+      "title": "The Coming AI Hackers",
+      "type": "story",
+      "url": "https://www.belfercenter.org/publication/coming-ai-hackers"
+    },
+    {
+      "by": "beatthatflight",
+      "descendants": 0,
+      "id": 28216553,
+      "score": 1,
+      "time": 1629247941,
+      "title": "New Zealand announces it's locking down the entire country over 1 Covid case",
+      "type": "story",
+      "url": "https://edition.cnn.com/2021/08/17/asia/new-zealand-lockdown-one-case-intl-hnk/index.html"
+    },
+    {
       "by": "optimalsolver",
       "descendants": 0,
       "id": 28216541,
       "score": 1,
       "time": 1629247816,
-      "title": "Valve Tried to Trick Half Life 2 Hacker into Fake Job Interview (2008)",
+      "title": "Valve Tried To Trick Half Life 2 Hacker Into Fake Job Interview (2008)",
       "type": "story",
       "url": "https://www.wired.com/2008/11/valve-tricked-h/"
     },
@@ -79,26 +99,6 @@
       "title": "What is it like to have a photographic memory?",
       "type": "story",
       "url": "https://www.quora.com/What-is-it-like-to-have-a-photographic-memory-1?share=1"
-    },
-    {
-      "by": "jrcplus",
-      "descendants": 0,
-      "id": 28216470,
-      "score": 2,
-      "text": "We have IoT sensor data currently flowing Device → Telegraf → InfluxDB → Grafana (TIG stack). This is fine for simple queries and visualization. We want to keep using Grafana, but I&#x27;m looking to move to a more proper data infrastructure for 1) SQL-based analytics and ML applications, 2) pub-sub e.g. MQTT (to decouple sources from sinks), 3) long-term storage.<p>We&#x27;re talking on the order of dozens&#x2F;hundreds of devices posting data every min or so, not petabytes.<p>Should I be following a data lake architecture and doing MQTT → S3 &#x2F; Redshift → ??? → PostgreSQL → Grafana? That seems like a lot of work &#x2F; maintenance cost &#x2F; overkill (?).<p>Or just write a MQTT → PostgreSQL bridge? Why isn&#x27;t there an off-the-shelf solution, or am I missing something? I feel like this must be a common scenario?<p>Or should I be looking more closely at enterprise solutions e.g. Snowflake?<p>Known constraints:\n• Grafana supports PostgreSQL as a data source (but not Amazon Redshift).\n• Kinesis Firehose supports S3 and Redshift as destinations (but not RDS &#x2F; PostgreSQL).\n• Telegraf doesn&#x27;t (officially) support PostgreSQL as an output.<p>Bottom line: I am not a data engineer and want to avoid being one :)",
-      "time": 1629247163,
-      "title": "Ask HN: Transitioning from Telegraf/InfluxDB for IoT data",
-      "type": "story"
-    },
-    {
-      "by": "alokrai",
-      "descendants": 0,
-      "id": 28216468,
-      "score": 1,
-      "time": 1629247151,
-      "title": "Taliban deflect censorship questions citing Facebook's censorship",
-      "type": "story",
-      "url": "https://twitter.com/therecount/status/1427670638966165506"
     }
   ]
 }
