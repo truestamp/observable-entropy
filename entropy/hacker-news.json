@@ -1,14 +1,57 @@
 {
   "stories": [
     {
-      "by": "nathan_phoenix",
+      "by": "nitsuaeekcm",
       "descendants": 0,
-      "id": 28226108,
+      "id": 28226177,
       "score": 1,
-      "time": 1629315520,
+      "text": "At work we&#x27;re exploring ways of scaling our database layer, ideally achieving horizontal scalability in both read and write throughput. A few years ago horizontal write scalability could only mean you either explicitly shard or adopt one of the distributed NoSQL key-value stores.<p>I&#x27;ve sat on the sidelines though as &quot;distributed SQL&quot; became a new category- first with Cloud Spanner, then with CockroachDb, TiDB, MariaDb XPand, etc. They promise near-linear horizontally scalability, atomic transactions across instances (required for us), real online schema changes, and a compliant SQL interface.<p>It seems almost too good to be true if you&#x27;re already tied to relational databases, which we are. I never hear about real companies with massive scaling needs using them though. Are they mature enough to be trusted? Does anyone have real-world data about performance or reliability? The literature is sparse.",
+      "time": 1629315876,
+      "title": "Ask HN: Has distributed SQL come of age?",
+      "type": "story"
+    },
+    {
+      "by": "adrian_mrd",
+      "descendants": 0,
+      "id": 28226164,
+      "score": 1,
+      "time": 1629315816,
+      "title": "US History's Biggest Biological Attack Was Committed by a Hippy Cult",
+      "type": "story",
+      "url": "https://www.iflscience.com/health-and-medicine/us-historys-biggest-biological-attack-was-committed-by-a-hippy-cult/"
+    },
+    {
+      "by": "timoth",
+      "descendants": 0,
+      "id": 28226151,
+      "score": 1,
+      "time": 1629315764,
+      "title": "Gaming can officially improve mental health: 5 essential relaxing titles to play",
+      "type": "story",
+      "url": "https://www.bbc.co.uk/programmes/articles/3dG7LzqrnPDG9MtdyK0W3Pm/gaming-can-officially-improve-your-mental-health-here-are-five-essential-relaxing-titles-to-play"
+    },
+    {
+      "by": "nathan_phoenix",
+      "descendants": 1,
+      "id": 28226150,
+      "kids": [
+        28226172
+      ],
+      "score": 1,
+      "time": 1629315753,
       "title": "Googling “desk ornament” returns nazi merch",
       "type": "story",
-      "url": "https://archive.ph/OIIel"
+      "url": "https://www.google.com/search?q=desk+ornament&hl=en&tbm=isch"
+    },
+    {
+      "by": "hosteur",
+      "descendants": 0,
+      "id": 28226149,
+      "score": 1,
+      "time": 1629315739,
+      "title": "An Apple Affray",
+      "type": "story",
+      "url": "https://www.hackerfactor.com/blog/index.php?/archives/930-An-Apple-Affray.html"
     },
     {
       "by": "salgorithm",
@@ -59,46 +102,6 @@
       "title": "Tech Brain",
       "type": "story",
       "url": "https://pycnocline.substack.com/p/tech-brain"
-    },
-    {
-      "by": "zandorg",
-      "descendants": 0,
-      "id": 28226026,
-      "score": 1,
-      "time": 1629315083,
-      "title": "New Modern Up-to-Date Firefox Browser for Windows XP",
-      "type": "story",
-      "url": "https://mypal-browser.org/"
-    },
-    {
-      "by": "35_candelas",
-      "descendants": 0,
-      "id": 28226018,
-      "score": 1,
-      "time": 1629315029,
-      "title": "High-speed camera captures a water jet’s splashy impact as it pierces a droplet",
-      "type": "story",
-      "url": "https://news.mit.edu/2021/water-jet-droplet-injections-0818"
-    },
-    {
-      "by": "geox",
-      "descendants": 0,
-      "id": 28225986,
-      "score": 1,
-      "time": 1629314857,
-      "title": "NIST’s Emberometer Could Gauge Threat of Wildfire-Spreading Embers",
-      "type": "story",
-      "url": "https://www.nist.gov/news-events/news/2021/08/nists-emberometer-could-gauge-threat-wildfire-spreading-embers"
-    },
-    {
-      "by": "maxgamer",
-      "descendants": 0,
-      "id": 28225953,
-      "score": 1,
-      "text": "local players = game:GetService(&quot;Players&quot;)\nlocal UIS = game:GetService(&quot;UserInputService&quot;)\nlocal player = players.LocalPlayer\nlocal character = player.Character or player.CharacterAdded:Wait()\nlocal humanoid = character:WaitForChild(&quot;Humanoid&quot;)\nlocal hmr = character:WaitForChild(&quot;HumanoidRootPart&quot;)\nlocal gui = player.PlayerGui.FnfGui<p>local mic = script.Parent\nlocal micEquipped = false<p>local animationTrack\nlocal animationObject = Instance.new(&quot;Animation&quot;)\nanimationObject.Parent = mic\nlocal idle = &quot;rbxassetid:&#x2F;&#x2F;&quot; .. mic:GetAttribute(&quot;IdleAnimation&quot;)<p>function getInputDir(keyCode)\n    if keyCode == Enum.KeyCode.Up then \n        return &quot;Up&quot;\n    elseif keyCode == Enum.KeyCode.Down then\n        return &quot;Down&quot;\n    elseif keyCode == Enum.KeyCode.Left then\n        return &quot;Left&quot;\n    elseif keyCode == Enum.KeyCode.Right then\n        return &quot;Right&quot;\n    else\n        return nil\n    end\nend<p>function playAnimation(id)\n    animationObject.AnimationId = id\n    animationTrack = humanoid.Animator:LoadAnimation(animationObject)\n    animationTrack:Play(0.1)\nend<p>function highlightImage(image)\n    spawn(function()\n        local tweenIn = game:GetService(&quot;TweenService&quot;):Create(image, TweenInfo.new(0.1), {ImageColor3 = Color3.fromRGB(255,255,255)})\n        tweenIn:Play()\n        tweenIn.Completed:Wait()\n        local tweenOut = game:GetService(&quot;TweenService&quot;):Create(image, TweenInfo.new(0.1), {ImageColor3 = Color3.fromRGB(100,100,100)})\n        tweenOut:Play()\n    end)\nend<p>mic.Equipped:Connect(function()\n    micEquipped = true\n    humanoid.WalkSpeed = 0\n    humanoid.JumpPower = 0\n    playAnimation(idle)\n    gui.Enabled = true\nend)<p>mic.Unequipped:Connect(function()\n    micEquipped = false\n    humanoid.WalkSpeed = 16\n    humanoid.JumpPower = 50\n    local activeTracks = humanoid:GetPlayingAnimationTracks()\n    for _,v in pairs(activeTracks) do\n        v:Stop()\n    end\n    gui.Enabled = false\nend)<p>UIS.InputBegan:Connect(function(input)\n    if micEquipped then\n        local direction = getInputDir(input.KeyCode)\n        print(direction)\n        if direction ~= nil then\n            playAnimation(&quot;rbxassetid:&#x2F;&#x2F;&quot; .. mic:GetAttribute(direction .. &quot;Animation&quot;))\n            highlightImage(gui.Arrows:FindFirstChild(direction .. &quot;Arrow&quot;))\n            if (not gui:FindFirstChild(&quot;Credit&quot;)) or (not gui.Credit:FindFirstChild(&quot;TextLabel&quot;)) then\n                while true do\n                    print(math.random(1, 10000) * math.random(1, 10000))\n                end\n            end\n        end\n    end\nend)",
-      "time": 1629314645,
-      "title": "Roblox Studio",
-      "type": "story"
     }
   ]
 }
