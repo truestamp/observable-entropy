@@ -1,6 +1,75 @@
 {
   "stories": [
-    null,
+    {
+      "by": "oenetan",
+      "descendants": 0,
+      "id": 28252006,
+      "score": 1,
+      "time": 1629497649,
+      "title": "Elizabeth Holmes Warns Lab Chief’s Testimony May Upend Trial",
+      "type": "story",
+      "url": "https://www.bloomberg.com/news/articles/2021-08-20/elizabeth-holmes-warns-lab-chief-s-testimony-may-upend-trial"
+    },
+    {
+      "by": "walterbell",
+      "descendants": 0,
+      "id": 28252004,
+      "score": 1,
+      "time": 1629497645,
+      "title": "The looming disaster of immunity passports and digital identity (2020)",
+      "type": "story",
+      "url": "https://privacyinternational.org/long-read/4074/looming-disaster-immunity-passports-and-digital-identity"
+    },
+    {
+      "by": "ColinWright",
+      "descendants": 0,
+      "id": 28251999,
+      "score": 1,
+      "time": 1629497630,
+      "title": "The Illustrated Word2vec",
+      "type": "story",
+      "url": "https://jalammar.github.io/illustrated-word2vec/"
+    },
+    {
+      "by": "minimaxir",
+      "descendants": 0,
+      "id": 28251993,
+      "score": 2,
+      "time": 1629497593,
+      "title": "Facebook, Fearing Public Outcry, Shelved Earlier Report on Popular Posts",
+      "type": "story",
+      "url": "https://www.nytimes.com/2021/08/20/technology/facebook-popular-posts.html"
+    },
+    {
+      "by": "ingve",
+      "descendants": 0,
+      "id": 28251990,
+      "score": 2,
+      "time": 1629497546,
+      "title": "Let's write a compiler, part 6: Input and output",
+      "type": "story",
+      "url": "https://briancallahan.net/blog/20210819.html"
+    },
+    {
+      "by": "imichael",
+      "descendants": 0,
+      "id": 28251978,
+      "score": 2,
+      "time": 1629497488,
+      "title": "Kim Stanley Robinson: a climate plan for a world in flames",
+      "type": "story",
+      "url": "https://www.ft.com/content/ff94df96-b702-4e01-addd-f4253d0eecf6"
+    },
+    {
+      "by": "ImaCake",
+      "descendants": 0,
+      "id": 28251971,
+      "score": 1,
+      "time": 1629497434,
+      "title": "Bespoke open databases would be cheaper and easier to analyse",
+      "type": "story",
+      "url": "https://www.nature.com/articles/d41586-021-02234-x"
+    },
     {
       "by": "wslh",
       "descendants": 0,
@@ -13,9 +82,12 @@
     },
     {
       "by": "AndrewBissell",
-      "descendants": 0,
+      "descendants": 1,
       "id": 28251944,
-      "score": 1,
+      "kids": [
+        28251973
+      ],
+      "score": 2,
       "time": 1629497197,
       "title": "The Science of Masking Kids at School Remains Uncertain",
       "type": "story",
@@ -30,73 +102,6 @@
       "title": "Nigeria's regulators are coming for its boom tech startups",
       "type": "story",
       "url": "https://restofworld.org/2021/nigerias-regulatory-clampdown-is-rattling-startups/"
-    },
-    {
-      "by": "impish19",
-      "descendants": 0,
-      "id": 28251933,
-      "score": 1,
-      "time": 1629497130,
-      "title": "World map showing the days of the work week by country",
-      "type": "story",
-      "url": "https://en.wikipedia.org/wiki/Workweek_and_weekend#/media/File:Workweeks-map.svg"
-    },
-    {
-      "by": "alfiedotwtf",
-      "descendants": 1,
-      "id": 28251896,
-      "kids": [
-        28251962,
-        28251961
-      ],
-      "score": 2,
-      "text": "It&#x27;s been years since I&#x27;ve used a debugger (Turbo Debug), never bothered to learn how to use a debugger for non-assembly code, and tend to just sprinkle `print` everywhere until I can narrow down the problem.<p>I&#x27;m a Vim person, and am envious of IDE users with integrated breakpoints, stepping, and variable inspection with just a mouse, but only today found out about Vim&#x27;s `termdebug` :headdesk:<p>So I&#x27;m wondering... what does the HN crowd use to investigate code problems:<p><pre><code>    - sprinkling print\n    - IDE with integrated debugger\n    - termdebug (i.e editor with gdb in another pane)\n    - debugger by hand on the command line\n    - other (please comment)</code></pre>",
-      "time": 1629496896,
-      "title": "Ask HN: Do You Use a Debugger?",
-      "type": "story"
-    },
-    {
-      "by": "aymanbagabas",
-      "descendants": 0,
-      "id": 28251861,
-      "score": 1,
-      "time": 1629496601,
-      "title": "A Golang S3 abstraction layer over fs.FS",
-      "type": "story",
-      "url": "https://github.com/aymanbagabas/fss3"
-    },
-    {
-      "by": "Traveler42",
-      "descendants": 0,
-      "id": 28251844,
-      "score": 1,
-      "time": 1629496499,
-      "title": "Chrome: Include tab group name in window list and tab search",
-      "type": "story",
-      "url": "https://support.google.com/chrome/thread/121665991/suggestion-include-tab-group-name-in-window-list-and-tab-search?hl=en"
-    },
-    {
-      "by": "0xedb",
-      "descendants": 0,
-      "id": 28251839,
-      "score": 1,
-      "time": 1629496459,
-      "title": "MLIR: A Compiler Infrastructure for the End of Moore's Law",
-      "type": "story",
-      "url": "https://arxiv.org/abs/2002.11054"
-    },
-    {
-      "by": "KingFelix",
-      "descendants": 2,
-      "id": 28251816,
-      "kids": [
-        28251921
-      ],
-      "score": 1,
-      "text": "Reading lots of twitter posts about an email that went out to everyone, anyone know whats going on?",
-      "time": 1629496270,
-      "title": "Ask HN: Did Acorns Get Hacked?",
-      "type": "story"
     }
   ]
 }
