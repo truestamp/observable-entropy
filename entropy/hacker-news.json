@@ -1,9 +1,32 @@
 {
   "stories": [
     {
-      "by": "tweetle_beetle",
+      "by": "miikavonbell",
       "descendants": 0,
+      "id": 28245634,
+      "score": 1,
+      "time": 1629465857,
+      "title": "The End of Social Media",
+      "type": "story",
+      "url": "https://miikavonbell.com/posts/end-of-social-media/"
+    },
+    {
+      "by": "agomez314",
+      "descendants": 0,
+      "id": 28245618,
+      "score": 1,
+      "time": 1629465764,
+      "title": "Who Needs a Real-Time Operating System? (Not You)",
+      "type": "story",
+      "url": "https://www.youtube.com/watch?v=4UY7hQjEW34&list=PLQ8PmP_dnN7L5OVT95uXJAE78qcGCcDVm"
+    },
+    {
+      "by": "tweetle_beetle",
+      "descendants": 1,
       "id": 28245576,
+      "kids": [
+        28245645
+      ],
       "score": 2,
       "text": "I&#x27;m thinking about how to manage best practice consent with web analytics. This is specifically for sites without hardcore data-driven conversion optimisation, etc., where absolute accuracy is not crucial.<p>My assumptions are that:<p>- client-side will under report, because  users opt out or block JS and cookies<p>- server-side will over report, because of bots, crawlers, etc.<p>I was thinking that combining both in a dashboard can give clients a sense that the reality will be somewhere in the middle. Obviously there&#x27;s a limit to how many metrics can be measured by both systems to enable this comparison, but I&#x27;m thinking the basics should be possible. Are my assumptions about over- and under-reporting right?<p>Does anyone do anything like this and how do you do it?<p>And are there any metrics that help us understand how much traffic is being missed by, for example, Google Analytics these days? Many clients still assume that it gives a 100% gospel representation.",
       "time": 1629465446,
@@ -79,26 +102,6 @@
       "title": "The shipping supply chain is stressed from Covid. That makes it ripe for hackers",
       "type": "story",
       "url": "https://www.nbcnews.com/tech/security/ransomware-hackers-hit-us-supply-chain-experts-warn-rcna1718"
-    },
-    {
-      "by": "perfunctory",
-      "descendants": 0,
-      "id": 28245506,
-      "score": 3,
-      "time": 1629464835,
-      "title": "Rain falls on peak of Greenland ice cap for first time on record",
-      "type": "story",
-      "url": "https://www.theguardian.com/world/2021/aug/20/rain-falls-peak-greenland-ice-cap-first-time-on-record-climate-crisis"
-    },
-    {
-      "by": "_Microft",
-      "descendants": 0,
-      "id": 28245502,
-      "score": 2,
-      "time": 1629464805,
-      "title": "WA ‘counter-terrorism police’ raid climate activists’ homes over chalk graffiti",
-      "type": "story",
-      "url": "https://www.theage.com.au/national/western-australia/wa-counter-terrorism-police-raid-climate-activists-homes-over-chalk-graffiti-20210820-p58kn0.html"
     }
   ]
 }
