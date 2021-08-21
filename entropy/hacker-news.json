@@ -1,6 +1,46 @@
 {
   "stories": [
     {
+      "by": "axiomdata316",
+      "descendants": 0,
+      "id": 28259786,
+      "score": 1,
+      "time": 1629574034,
+      "title": "The rise of 3D-printed houses",
+      "type": "story",
+      "url": "https://www.economist.com/science-and-technologythe-rise-of-3d-printed-houses/21803667"
+    },
+    {
+      "by": "ozten",
+      "descendants": 0,
+      "id": 28259782,
+      "score": 1,
+      "time": 1629574001,
+      "title": "RabbitHole – Earn crypto through using the latest crypto applications",
+      "type": "story",
+      "url": "https://rabbithole.gg/"
+    },
+    {
+      "by": "axiomdata316",
+      "descendants": 0,
+      "id": 28259772,
+      "score": 1,
+      "time": 1629573968,
+      "title": "Can neobanks’ popularity outlast the pandemic?",
+      "type": "story",
+      "url": "https://www.economist.com/finance-and-economics/2021/08/21/can-neobanks-popularity-outlast-the-pandemic"
+    },
+    {
+      "by": "camillomiller",
+      "descendants": 0,
+      "id": 28259771,
+      "score": 1,
+      "text": "I have a piede of python code and I would like to know how this would be written in Pascal (it’s for historical research reasons).\nI tried to look it up but I couldn’t figure it out for the life of me.<p>Here’s the python code:<p>for i in range(116000):\n  x = i\n  y = (x*4)&#x2F;2.71\n  print(x, y)<p>Thanks (and sorry for the weird Ask HN :) )",
+      "time": 1629573962,
+      "title": "Ask HN: Anyone knows how to write this code in Pascal?",
+      "type": "story"
+    },
+    {
       "by": "animanoir",
       "descendants": 0,
       "id": 28259749,
@@ -59,48 +99,6 @@
       "title": "Should You Get a Booster Shot? Here’s What We Know",
       "type": "story",
       "url": "https://www.scientificamerican.com/article/should-you-get-a-booster-shot-heres-what-we-know/"
-    },
-    {
-      "by": "rammy1234",
-      "descendants": 0,
-      "id": 28259676,
-      "score": 1,
-      "time": 1629573320,
-      "title": "Ask HN: Why Multi-region failover not in all components in Public Cloud",
-      "type": "story"
-    },
-    {
-      "by": "NotSwift",
-      "descendants": 0,
-      "id": 28259644,
-      "score": 2,
-      "time": 1629573042,
-      "title": "Ozone Hole Would Have Killed Plants and Raised Global Temperatures",
-      "type": "story",
-      "url": "https://www.scientificamerican.com/article/ozone-hole-would-have-killed-plants-and-raised-global-temperatures/"
-    },
-    {
-      "by": "goblinmen",
-      "descendants": 0,
-      "id": 28259632,
-      "score": 2,
-      "text": "Sometimes you want to create something to share with the world, be that a page, an app, whatever. Perhaps it&#x27;s not commercial, but is publicly available. What&#x27;s your starter kit for satisfying legal&#x2F;compliance obligations that are now incumbent on basically anything available to the public?<p>There are naturally several levels that different projects may need. Consider:<p>- a static site, on your own server, which has access logs including IP addresses<p>- a static site to which you&#x27;ve added google analytics or similar  js+cookie-based analytics<p>- an app where users can create accounts and create&#x2F;keep content, but not share&#x2F;publish<p>- an app where users can create accounts, create&#x2F;keep and share content with other signed-in users<p>- an app where users can create accounts, create and publish content<p># applicability<p>My understanding (and IANAL), for example, is that CCPA applies only to businesses, but GDPR only exempts &quot;purely personal or household activity&quot; which doesn&#x27;t cover basically anything published to the world. My understanding is, not being exempted, an &quot;organization&quot; (even if just a person?) must have and designate a Data Protection Officer.<p># expanded technical scope<p>Do legal and compliance needs make a range of &quot;minimal&quot; sites or apps infeasible? E.g. consider a static site with js+cookie based analytics. Now you need a cookie consent widget, and based on that must have the ability to enable&#x2F;disable functionality. So much for dropping a js-snippet into a hugo template.<p>In some cases, it&#x27;s not clear if one can really build out the means to be compliant without adding _more_ functionality to collect user info (e.g. if one has only IPs or cookie ids, one cannot satisfy Subject Access Requests because you cannot know if the requester is really the subject in records).<p>I think a minimal system which allows users to share content basically needs to consider SESTA-FOSTA issues which may require tooling to examine, classify, and remove messages related to sex work, for example.<p># chilling effects<p>Do you just not build anything that touches user data unless you can form a company around it first, if for no other reason than limited liability if you&#x27;re found to be in violation?<p>E.g. the top response on this question on law stackexchange ends by discouraging students or hobbyists from publishing anything.\nhttps:&#x2F;&#x2F;law.stackexchange.com&#x2F;questions&#x2F;28812&#x2F;are-hobby-projects-exempt-from-gdpr<p># disclaimer<p>I agree that privacy and data subject rights are important. I&#x27;m not trying to sell anyone&#x27;s data, or even hold anything sensitive.\nI&#x27;m not trying to create a platform for sex work.<p>I just wish there was a streamlined path for a small project to be in compliance with these laws. The materials out there seem to be designed solely for companies with staff.",
-      "time": 1629572944,
-      "title": "Legal/compliance baseline for public-facing hobby projects?",
-      "type": "story"
-    },
-    {
-      "by": "firebaze",
-      "descendants": 1,
-      "id": 28259622,
-      "kids": [
-        28259635
-      ],
-      "score": 2,
-      "time": 1629572860,
-      "title": "Apple Exec: ‘We Are the Greatest Platform for Distributing Child Porn’",
-      "type": "story",
-      "url": "https://www.forbes.com/sites/johnkoetsier/2021/08/19/apple-exec-we-are-the-greatest-platform-for-distributing-child-porn/"
     }
   ]
 }
