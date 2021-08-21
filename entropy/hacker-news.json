@@ -1,6 +1,29 @@
 {
   "stories": [
     {
+      "by": "lucgommans",
+      "descendants": 1,
+      "id": 28261373,
+      "kids": [
+        28261380
+      ],
+      "score": 1,
+      "time": 1629587268,
+      "title": "Keystroke-level model: predict how long a task takes with different UX designs",
+      "type": "story",
+      "url": "https://en.wikipedia.org/wiki/Keystroke-level_model"
+    },
+    {
+      "by": "rubslopes",
+      "descendants": 0,
+      "id": 28261371,
+      "score": 1,
+      "time": 1629587229,
+      "title": "The Curse of More, Or, Does Anybody Have Any Time Left to Do Research?",
+      "type": "story",
+      "url": "https://scholarlykitchen.sspnet.org/2021/08/19/the-curse-of-more-or-does-anybody-have-any-time-left-to-do-research/"
+    },
+    {
       "by": "egfx",
       "descendants": 0,
       "id": 28261325,
@@ -82,26 +105,6 @@
       "title": "Hackers hit Japanese crypto exchange, steal nearly $100M",
       "type": "story",
       "url": "https://fortune.com/2021/08/19/hackers-liquid-crypto-exchange-japan-100-million-ethereum/"
-    },
-    {
-      "by": "ipnon",
-      "descendants": 0,
-      "id": 28261182,
-      "score": 1,
-      "time": 1629585342,
-      "title": "Bill's Face Blindness Pages (1997)",
-      "type": "story",
-      "url": "http://www.choisser.com/faceblind/"
-    },
-    {
-      "by": "nullc",
-      "descendants": 0,
-      "id": 28261147,
-      "score": 51,
-      "text": "I&#x27;ve created and posted on github a number of visually high quality preimages against Apple&#x27;s &#x27;neuralhash&#x27; [1][2] in recent days.<p>I won&#x27;t be posting any more preimages for the moment. I&#x27;ve come to learn that Apple has begun responding to this issue by telling journalists that they will deploy a different version of the hash function[3].<p>Given Apple&#x27;s consistent dishonest[4] conduct on the subject I&#x27;m concerned that they&#x27;ll simply add the examples here to their training set to make sure they fix those, without resolving the fundamental weaknesses of the approach,  or that they&#x27;ll use improvements in the hashing function to obscure the gross recklessness of their whole proposal. I don&#x27;t want to be complicit in improving a system with such a potential for human rights abuses.<p>I&#x27;d like to encourage people to read some of my posts on the Apple proposal to scan user&#x27;s data which were made prior to the hash function being available.  I&#x27;m doubtful they&#x27;ll meaningfully fix the hash function-- this entire approach is flawed-- but even if they do, it hardly improves the ethics of the system at all.  In my view the gross vulnerability of the hash function is mostly relevant because it speaks to a pattern of incompetence and a failure to adequately consider attacks and their consequences.<p>- https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=28111959 Your device scanning and reporting you violates its ethical duty as your trusted agent.<p>- https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=28111908 Apple&#x27;s human review exists for the express purpose of quashing your fourth amendment right against warrantless search.<p>- https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=28121695 Apple is not being coerced to perform these searches and if they were that would make their actions less ethical, not more.<p>- https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=28097304 Apple uses complex crypto to protect themselves from accountability.<p>- https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=28124716 A simplified explanation of a private set intersection.<p>- https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=28101009 Perceptual hashes at best slightly improve resistance to false negatives at the expense of destroying any kind of cryptographic protection against false positives (as this thread has shown!). Smart perverts can evade any perceptual hash, dumb ones won&#x27;t alter the images.<p>- https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=28097508 Apple&#x27;s system and ones like it likely create an incentive to abuse more children<p>And these posts written after:<p>- https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=28260264 A second &quot;secret&quot; hash function cannot be secret from the state actors that produce the database for Apple.<p>- https:&#x2F;&#x2F;github.com&#x2F;AsuharietYgvar&#x2F;AppleNeuralHash2ONNX&#x2F;&#x2F;issues&#x2F;1#issuecomment-903181678 fuzzy hashes with resistance against false positives tracable to sha256 are possible, but require you to value privacy over avoiding false negatives.<p>[1] https:&#x2F;&#x2F;github.com&#x2F;AsuharietYgvar&#x2F;AppleNeuralHash2ONNX&#x2F;&#x2F;issues&#x2F;1#issuecomment-903094036<p>[2] https:&#x2F;&#x2F;github.com&#x2F;AsuharietYgvar&#x2F;AppleNeuralHash2ONNX&#x2F;&#x2F;issues&#x2F;1#issuecomment-902977931<p>[3] &quot;Apple however told Motherboard in an email that that version analyzed by users on GitHub is a generic version, and not the one final version that will be used for iCloud Photos CSAM detection.&quot; https:&#x2F;&#x2F;www.vice.com&#x2F;en&#x2F;article&#x2F;wx5yzq&#x2F;apple-defends-its-anti-child-abuse-imagery-tech-after-claims-of-hash-collisions<p>[4] https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=28221538",
-      "time": 1629584892,
-      "title": "I won't be posting any more preimages against neuralhash for now",
-      "type": "story"
     }
   ]
 }
