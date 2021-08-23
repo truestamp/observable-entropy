@@ -1,6 +1,26 @@
 {
   "stories": [
     {
+      "by": "iio7",
+      "descendants": 0,
+      "id": 28282991,
+      "score": 1,
+      "text": "I am wondering whether YouTube is storing the hashid as the primary key in the database or if they are hashing the key to obfuscate it. If they do store it, how do they generate it across so many different machines?<p>A simple solution would be to create a counter, however I would think that would cause a lot of locking?<p>I would like to use hashids across multiple machines as PK and not UUID, ULID, etc., but I want to actually store the hashid as the PK, but hashids are normally generated from a regular auto incremented ID.<p>So how do they do it?",
+      "time": 1629758713,
+      "title": "Ask HN: Does YouTube store the hashid in the database?",
+      "type": "story"
+    },
+    {
+      "by": "drexlspivey",
+      "descendants": 0,
+      "id": 28282962,
+      "score": 1,
+      "time": 1629758514,
+      "title": "Bitclouds.sh A programmable VPS platform. Rent an instance for 66 sats per hour",
+      "type": "story",
+      "url": "https://www.bitclouds.sh/"
+    },
+    {
       "by": "jaytaylor",
       "descendants": 0,
       "id": 28282939,
@@ -34,7 +54,7 @@
       "by": "ozdave",
       "descendants": 0,
       "id": 28282864,
-      "score": 2,
+      "score": 3,
       "time": 1629757940,
       "title": "Moms on Facebook built island of good-faith vaccine debate in sea of misinfo",
       "type": "story",
@@ -79,29 +99,6 @@
       "title": "Substack begins accepting Bitcoin Payments",
       "type": "story",
       "url": "https://www.theblockcrypto.com/linked/115377/substack-begins-accepting-bitcoin-payments"
-    },
-    {
-      "by": "avoidaccess",
-      "descendants": 1,
-      "id": 28282843,
-      "kids": [
-        28282844
-      ],
-      "score": 1,
-      "time": 1629757869,
-      "title": "Fund Causes with Everyday Purcahses",
-      "type": "story",
-      "url": "https://fundapp.us"
-    },
-    {
-      "by": "penneyd",
-      "descendants": 0,
-      "id": 28282794,
-      "score": 2,
-      "time": 1629757581,
-      "title": "The Death of Behavioral Economics",
-      "type": "story",
-      "url": "https://www.thebehavioralscientist.com/articles/the-death-of-behavioral-economics"
     }
   ]
 }
