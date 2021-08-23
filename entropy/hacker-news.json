@@ -1,12 +1,22 @@
 {
   "stories": [
     {
+      "by": "keleftheriou",
+      "descendants": 0,
+      "id": 28280666,
+      "score": 2,
+      "time": 1629746383,
+      "title": "Apple employees are organizing, now under the banner AppleToo",
+      "type": "story",
+      "url": "https://www.theverge.com/2021/8/23/22638150/apple-appletoo-employee-harassment-discord"
+    },
+    {
       "by": "4444",
       "descendants": 0,
       "id": 28280607,
       "score": 1,
       "time": 1629746103,
-      "title": "I started an Ecommerce store to support Indian Small business",
+      "title": "Need Advice on Next steps:started a marketplace to support Indian Small business",
       "type": "story",
       "url": "http://indicbrands.com/"
     },
@@ -45,7 +55,7 @@
       "descendants": 0,
       "id": 28280571,
       "score": 1,
-      "text": "I&#x27;m generally a C, Rust, C++ programmer with a focus on embedded systems and robotics.<p>I&#x27;m quite familiar with Robot Operating System (ROS). Its sweet spot as middleware is a single system with many processes and peripheral sensors attached. DDS seems at home here (ros2 ~= DDS). Connecting multiple robots, infrastructure, and sensors requires kludgy bridges.<p>I&#x27;ve read much about inter&#x2F;intra data center&#x2F;web middlewares for distributed systems, and played with some. It seems the options here are varied and diverse. From ZMQ to ActiveMQ (and alternatives) to gRPC to AMPQ implementations to NSQ and many others. The broker assumption is less desireable, and GO&#x2F;Python are less desirable for embedded (but still good)<p>I&#x27;ve enjoyed playing with smaller IoT like applications, which seem to rely on MQTT, AMQP or other systems that require static brokers.<p>Specifically:<p>I&#x27;d love to use ZMQ or NanoMsg, given their simplicity for new projects. Are these dead &#x2F; obsolete?<p>What is the &#x27;right&#x27; toolkit to learn for these domains?<p>What do you use (and in what language &#x2F; application)?",
+      "text": "I&#x27;m generally a C, Rust, C++ programmer with a focus on embedded systems and robotics.<p>I&#x27;m quite familiar with Robot Operating System (ROS). Its sweet spot as middleware is a single system with many processes and peripheral sensors attached. DDS seems at home here (ros2 ~= DDS). Connecting multiple robots, infrastructure, and sensors requires kludgy bridges.<p>I&#x27;ve read much about inter&#x2F;intra data center&#x2F;web middlewares for distributed systems, and played with some. It seems the options here are varied and diverse. From ZMQ to ActiveMQ (and alternatives) to gRPC to AMPQ implementations to NSQ and many others. Any broker assumption is less desireable, and GO&#x2F;Python are less desirable for embedded (but still good)<p>I&#x27;ve enjoyed playing with smaller IoT like applications, which seem to rely on MQTT, AMQP or other systems that require static brokers, and favor a small footprint, possibly even without TCP stacks.<p>Specifically:<p>I&#x27;d love to use ZMQ or NanoMsg, given their simplicity for new projects. Are these dead &#x2F; obsolete?<p>What is the &#x27;right&#x27; toolkit to learn for these domains?<p>What do you use (and in what language &#x2F; application)?",
       "time": 1629745882,
       "title": "Ask HN: State of art distributed message-oriented middleware?",
       "type": "story"
@@ -74,7 +84,7 @@
       "by": "sharkweek",
       "descendants": 0,
       "id": 28280496,
-      "score": 1,
+      "score": 2,
       "time": 1629745572,
       "title": "Tell Your Co-Workers How Much Money You Make",
       "type": "story",
@@ -82,23 +92,16 @@
     },
     {
       "by": "todsacerdoti",
-      "descendants": 0,
+      "descendants": 1,
       "id": 28280493,
-      "score": 2,
+      "kids": [
+        28280627
+      ],
+      "score": 3,
       "time": 1629745561,
       "title": "The NPM registry is deprecating TLS 1.0 and TLS 1.1",
       "type": "story",
       "url": "https://github.blog/2021-08-23-npm-registry-deprecating-tls-1-0-tls-1-1/"
-    },
-    {
-      "by": "DanBC",
-      "descendants": 0,
-      "id": 28280457,
-      "score": 1,
-      "time": 1629745367,
-      "title": "We Exist – Internet Watch Foundation",
-      "type": "story",
-      "url": "https://www.iwf.org.uk/what-we-do/why-we-exist"
     }
   ]
 }
