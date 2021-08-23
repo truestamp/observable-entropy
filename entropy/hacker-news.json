@@ -1,6 +1,46 @@
 {
   "stories": [
     {
+      "by": "WolfOliver",
+      "descendants": 0,
+      "id": 28276128,
+      "score": 1,
+      "time": 1629728406,
+      "title": "Mathpix and MonsterWriter for Scientific Writing",
+      "type": "story",
+      "url": "https://www.youtube.com/watch?v=sypBruIWzb8"
+    },
+    {
+      "by": "mocko",
+      "descendants": 0,
+      "id": 28276121,
+      "score": 1,
+      "time": 1629728391,
+      "title": "New Post Office EasyID app to replace documents for proof of identification",
+      "type": "story",
+      "url": "https://www.pocket-lint.com/apps/news/158108-new-post-office-easyid-app-to-replace-documents-for-proof-of-identification"
+    },
+    {
+      "by": "elsewhen",
+      "descendants": 0,
+      "id": 28276107,
+      "score": 1,
+      "time": 1629728338,
+      "title": "YouTube boasts $30B in payments as creator wars heat up",
+      "type": "story",
+      "url": "https://www.bloomberg.com/news/articles/2021-08-23/youtube-boasts-30-billion-in-payments-as-creator-wars-heat-up"
+    },
+    {
+      "by": "markdog12",
+      "descendants": 0,
+      "id": 28276060,
+      "score": 1,
+      "time": 1629728179,
+      "title": "HTTP/3: Performance Improvements (Part 2)",
+      "type": "story",
+      "url": "https://www.smashingmagazine.com/2021/08/http3-performance-improvements-part2/"
+    },
+    {
       "by": "dsego",
       "descendants": 0,
       "id": 28276043,
@@ -59,50 +99,6 @@
       "title": "Improving Snikket's usability in collaboration with Simply Secure",
       "type": "story",
       "url": "https://snikket.org/blog/simply-secure-collaboration/"
-    },
-    {
-      "by": "WA9ACE",
-      "descendants": 0,
-      "id": 28275877,
-      "score": 1,
-      "time": 1629727427,
-      "title": "Pbs.org Supports Dark Mode",
-      "type": "story",
-      "url": "https://pbs.org"
-    },
-    {
-      "by": "davzie",
-      "descendants": 1,
-      "id": 28275873,
-      "kids": [
-        28275983,
-        28275943
-      ],
-      "score": 5,
-      "text": "I&#x27;ve been working in web development coding mostly in PHP &#x2F; Laravel since 2008. I enjoyed my time at the beginning when everything was procedural code and things started changing (for the better).<p>At the digital agency I worked at, we moved to frameworks like Laravel and the frontend side of things was pretty static with custom CSS and some custom Javascript. Everything was hosted on a big dedicated server that would eventually become a VPS per client. The web was really simple then but understandly so were users&#x27; expectations of what the web could do and so there wasn&#x27;t this mismatch that I feel I&#x27;m finding now.<p>Fast forward to today and I&#x27;m doing primarily product development for early stage startups.<p>CSS is a problem that is solved with Tailwind (for me at least anyway, I know it&#x27;s a contentious topic).\nBackend is a problem solved with Laravel which truly does provide everything I&#x27;ve ever needed and in cases where it hasn&#x27;t (for compute heavy services), I&#x27;ve pulled those areas out into a mini Go service and whacked it on a separate server.\nJavascript is just a problem...<p>Anecdote 1: I&#x27;ve worked at startups that had Laravel Monoliths where they tried to decouple it into microservices of their own, but this failed; it introduced so much complexity, mental concentration overhead of switching between code-bases and reduced developer autonomy: unless you knew how to deploy these new things and how code libraries should be shared amongst the new services you might as well pack up your toys and go home; you&#x27;re not smart enough for this. Anyway, the services were bought back into the main repository because it was getting out-of-hand and frustrating to work with.<p>Anecdote 2: I recently deployed a Laravel app for a startup on an EC2 server. It worked great. I used Laravel Forge to do it and it took me half a day at most (once the dependancies I needed in PHP extensions were sorted). The startup wanted to move to Docker and have a CI &#x2F; CD system. Previously I could just push changes to `master` and it would deploy using Forge. I watched as a CI &#x2F; CD system was built that when production moved to it, it kept falling over and not really working very well. Additionally my autonomy to fix things was then taken away because there are layers or technologies stacks some of which I know but some of which I don&#x27;t in the way. The whole thing became so frustrating to see. What was a perfectly working server that took me half a day to setup has now taken over 3 - 4 engineers full time work to end up with something that gives 0 benefit (except the idea that the server can never die, but that doesn&#x27;t seem to be the case because it kept dying on any deployment and ended up with more downtime than the EC2 server ever had).<p>So why are companies with technology stacks that really arne&#x27;t getting huge amounts of traffic or require huge amounts of complexity, choosing to use microservices based architectures or build their entire application in something like next.js which requires wiring together so much stuff (Prisma, Auth0) etc. Why do we introduce so much complexity that needn&#x27;t be to this entire thing?<p>At some point, even though my speed of delivery with my framework and stack setup is frankly very fast and I can provide real value to people, it seems the perceived value of the above shennanigans is greater than the value of actually shipping stuff that matters if you look at the job boards, technologies used and pay given. I would love to be Bilbo Baggins in The Shire minding his own business, but I worry that if I don&#x27;t jump on the bandwagon of overengineering everything to make myself feel smart then I&#x27;ll quickly become irellevant in the job market. Am I completely missing the point of why these things are being done or is modern web development choices with regards to language and architecture just certifiably insane?",
-      "time": 1629727418,
-      "title": "Ask HN: Has Web Development Become Insane or Am I Stuck in My Ways?",
-      "type": "story"
-    },
-    {
-      "by": "PaulHoule",
-      "descendants": 0,
-      "id": 28275842,
-      "score": 1,
-      "time": 1629727282,
-      "title": "Facial recognition AI helps save multibillion dollar grape crop",
-      "type": "story",
-      "url": "https://news.cornell.edu/stories/2021/08/facial-recognition-ai-helps-save-multibillion-dollar-grape-crop"
-    },
-    {
-      "by": "throwawaysea",
-      "descendants": 0,
-      "id": 28275807,
-      "score": 4,
-      "time": 1629727169,
-      "title": "FDA Approves Pfizer-BioNTech Covid-19 Vaccine for People 16 and Older",
-      "type": "story",
-      "url": "https://www.wsj.com/articles/fda-approves-pfizer-biontech-covid-19-vaccine-for-people-16-and-older-11629726322"
     }
   ]
 }
