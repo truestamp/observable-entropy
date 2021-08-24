@@ -1,13 +1,83 @@
 {
   "stories": [
     {
+      "by": "f311a",
+      "descendants": 0,
+      "id": 28286267,
+      "score": 1,
+      "time": 1629793167,
+      "title": "Citrix has removed CVE acknowledgements of Positive Technologies researchers",
+      "type": "story",
+      "url": "https://twitter.com/ptswarm/status/1429797465499316229"
+    },
+    {
+      "by": "midnightcity",
+      "descendants": 0,
+      "id": 28286260,
+      "score": 1,
+      "time": 1629793109,
+      "title": "The reason most super apps are not super great",
+      "type": "story",
+      "url": "https://www.ft.com/content/9ab775cc-d596-4e0b-aa3e-34e9111ec431"
+    },
+    {
+      "by": "kevinsimper",
+      "descendants": 0,
+      "id": 28286255,
+      "score": 1,
+      "text": "I am using Google Cloud and others and I am amazed by how many graphs there are everywhere, showcasing you all kind of metrics. And the crazy part is that you can define any time periode and it is equally fast.<p>Does somebody know how they designed that?<p>It is not bigquery, because bigquery is fast but multiple seconds to respond to queries.<p>It could be bigtable, but it just seems expensive and keeping this many timeseries up to date all the time and few of them are looked at that often. Bigtable starts at $500 usd for a single node and you need multiple.<p>I understand that there is a lot of money in Cloud. I also tried to search and could not find any resources on how this is done on large scale.<p>How can I do something like that in my own applications?<p>I have looked at Postgres TimescaleDB and other timeseries databases, Prometheus, but you quickly end up with a lot of timeseries that takes a lot of memory to compute (Prometheus running out of memory).<p>They have made an article here talking about OpenTSDB https:&#x2F;&#x2F;cloud.google.com&#x2F;architecture&#x2F;monitoring-time-series-data-opentsdb",
+      "time": 1629793050,
+      "title": "Ask HN: How does Google Cloud keep so many timeseries/graphs quick?",
+      "type": "story"
+    },
+    {
+      "by": "idpsystems",
+      "descendants": 0,
+      "id": 28286254,
+      "score": 1,
+      "time": 1629793037,
+      "title": "How to Fly Under the Radar of Mass Internet Scanners",
+      "type": "story",
+      "url": "https://idpsystems.org/blog/how_to_fly_under_the_radar_of_internet_mass_scanners"
+    },
+    {
+      "by": "polm23",
+      "descendants": 0,
+      "id": 28286250,
+      "score": 1,
+      "time": 1629793004,
+      "title": "Daicon III’s 40th Anniversary",
+      "type": "story",
+      "url": "https://www.zimmerit.moe/daicon-iii-gainax/"
+    },
+    {
+      "by": "Hard_Space",
+      "descendants": 0,
+      "id": 28286241,
+      "score": 1,
+      "time": 1629792961,
+      "title": "A Recommender System for Scientific Datasets and Analysis Pipelines",
+      "type": "story",
+      "url": "https://arxiv.org/abs/2108.09275"
+    },
+    {
+      "by": "asim",
+      "descendants": 0,
+      "id": 28286238,
+      "score": 1,
+      "time": 1629792934,
+      "title": "Discord has won over gamers. Now it wants everybody else",
+      "type": "story",
+      "url": "https://www.ft.com/content/7e878e72-38b2-427a-a325-6a419d9f1c88"
+    },
+    {
       "by": "Yenrabbit",
       "descendants": 1,
       "id": 28286199,
       "kids": [
         28286200
       ],
-      "score": 1,
+      "score": 2,
       "time": 1629792619,
       "title": "Show HN: AI-Generated Illustrations of Plants",
       "type": "story",
@@ -32,76 +102,6 @@
       "title": "Work Is a False Idol",
       "type": "story",
       "url": "https://www.nytimes.com/2021/08/22/opinion/lying-flat-work-rest.html"
-    },
-    {
-      "by": "loosetypes",
-      "descendants": 0,
-      "id": 28286174,
-      "score": 1,
-      "time": 1629792344,
-      "title": "Magit-Section",
-      "type": "story",
-      "url": "https://magit.vc/manual/magit-section.html"
-    },
-    {
-      "by": "tommatsuda",
-      "descendants": 0,
-      "id": 28286169,
-      "score": 2,
-      "time": 1629792328,
-      "title": "Will QR codes become mainstream in Europe?",
-      "type": "story",
-      "url": "https://sifted.eu/articles/qr-codes-mainstream-europe/"
-    },
-    {
-      "by": "nabla9",
-      "descendants": 0,
-      "id": 28286146,
-      "score": 1,
-      "time": 1629792113,
-      "title": "A Century in Stanislaw Lem’s Cosmos",
-      "type": "story",
-      "url": "https://www.nytimes.com/2021/08/11/books/stanislaw-lem.html"
-    },
-    {
-      "by": "noch",
-      "descendants": 0,
-      "id": 28286131,
-      "score": 1,
-      "time": 1629791932,
-      "title": "Go's garbage collector chokes if we store too many plain objects in memory",
-      "type": "story",
-      "url": "https://twitter.com/peter_szilagyi/status/1429878870694584322"
-    },
-    {
-      "by": "laangregor",
-      "descendants": 0,
-      "id": 28286129,
-      "score": 1,
-      "time": 1629791897,
-      "title": "High-End 'M1X' Mac Mini with New Design and Additional Ports",
-      "type": "story",
-      "url": "https://www.macrumors.com/2021/08/22/gurman-high-end-mac-mini-this-fall/"
-    },
-    {
-      "by": "wrnr",
-      "descendants": 0,
-      "id": 28286112,
-      "score": 2,
-      "time": 1629791655,
-      "title": "A 2D Vector Graphics Library in WebGL",
-      "type": "story",
-      "url": "https://www.shadertoy.com/view/lslXW8"
-    },
-    {
-      "by": "ezconnect",
-      "descendants": 0,
-      "id": 28286107,
-      "score": 1,
-      "time": 1629791575,
-      "title": "Samsung Can Brick Your TV Remotely",
-      "type": "story",
-      "url": "https://www.zerohedge.com/technology/bad-news-south-african-looters-samsung-moves-block-their-stolen-tvs"
     }
   ]
 }
