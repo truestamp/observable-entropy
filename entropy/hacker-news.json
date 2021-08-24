@@ -1,6 +1,36 @@
 {
   "stories": [
     {
+      "by": "nickbild",
+      "descendants": 0,
+      "id": 28289506,
+      "score": 1,
+      "time": 1629816297,
+      "title": "Pi64 – A Raspberry Pi 400 that thinks it's a Commodore 64",
+      "type": "story",
+      "url": "https://www.hackster.io/nickbild/pi64-ea53a1"
+    },
+    {
+      "by": "mahami",
+      "descendants": 0,
+      "id": 28289499,
+      "score": 1,
+      "time": 1629816267,
+      "title": "Ralf Brown's x86 Interrupt List",
+      "type": "story",
+      "url": "http://www.cs.cmu.edu/~ralf/files.html"
+    },
+    {
+      "by": "mzs",
+      "descendants": 0,
+      "id": 28289489,
+      "score": 2,
+      "time": 1629816225,
+      "title": "Default Permissions on Microsoft Power Apps Exposed Millions",
+      "type": "story",
+      "url": "https://www.upguard.com/breaches/power-apps"
+    },
+    {
       "by": "MikeAshley178",
       "descendants": 0,
       "id": 28289438,
@@ -24,7 +54,7 @@
       "by": "ingve",
       "descendants": 0,
       "id": 28289416,
-      "score": 1,
+      "score": 3,
       "time": 1629815841,
       "title": "How to sneak the Windows 95 credits screen into build without anybody noticing",
       "type": "story",
@@ -45,7 +75,7 @@
       "descendants": 0,
       "id": 28289389,
       "score": 1,
-      "text": "I&#x27;m a developer at GRID [1]. GRID turns spreadsheets into interactive web documents, and we recently built a system which allows our users to effectively turn their spreadsheets into a web service and query it via a JSON API.<p>I recently tweeted [2], asking if some of my friends had ever re-implemented spreadsheet logic in code or otherwise wished they could&#x27;ve accessed spreadsheet values through an API. A few reached out and now I want to get a broader look at the problem we&#x27;re solving.<p>To clarify what I mean by turning a spreadsheet into an API, let&#x27;s take for example this Dog age calculator [3]. There&#x27;s an underlying spreadsheet behind this web page with all the formulas for the calculator. Here&#x27;s an example of how we can use our API to find out the dog age of a large 8 year old dog:<p><pre><code>  $ curl &#x27;https:&#x2F;&#x2F;thesystem.grid.is&#x2F;@grid_examples&#x2F;dog-age-calculator-Yjk:Fsm0Rj2mtJVcKqzr7g&#x27; -d &#x27;{\n    &quot;read&quot;: [ &quot;J3&quot; ],\n    &quot;override&quot;: {\n      &quot;G3&quot;: 8\n    }\n  }&#x27;\n\n  {\n    &quot;data&quot;: {\n      &quot;J3&quot;: {&quot;value&quot;: 55}\n    }\n  }\n</code></pre>\nThe API is not live yet – this is just an example but it shows the request and the response. The request is doing a few things: changing the value of cell G3 (the age input cell) to 8, and then reading cell J3 which is the computed dog age for large dogs. The underlying Excel file is downloadable if anyone wants to look at it [3].<p>So my ask is this: Does HN relate? Do you ever wish you were able to turn a spreadsheet into an API instead of re-implementing it in code – and then query it from your server (or JS in browser)? Does the API make sense to you and do you think it would be useful? If not, how could we improve it?<p>Would love to hear your thoughts. Also, let me know if you’d like to try it out – we’re looking for a few users to give us feedback on the API itself.<p>[1]: https:&#x2F;&#x2F;grid.is\n[2]: https:&#x2F;&#x2F;twitter.com&#x2F;arnihermann&#x2F;status&#x2F;1425116225986834435\n[3]: https:&#x2F;&#x2F;grid.is&#x2F;@grid_examples&#x2F;dog-age-calculator-Yjk:Fsm0Rj2mtJVcKqzr7g",
+      "text": "I&#x27;m a developer at GRID [1]. GRID turns spreadsheets into interactive web documents, and we recently built a system which allows our users to effectively turn their spreadsheets into a web service and query it via a JSON API.<p>I recently tweeted [2], asking if some of my friends had ever re-implemented spreadsheet logic in code or otherwise wished they could&#x27;ve accessed spreadsheet values through an API. A few reached out and now I want to get a broader look at the problem we&#x27;re solving.<p>To clarify what I mean by turning a spreadsheet into an API, let&#x27;s take for example this Dog age calculator [3]. There&#x27;s an underlying spreadsheet behind this web page with all the formulas for the calculator. Here&#x27;s an example of how we can use our API to find out the dog age of a large 8 year old dog:<p><pre><code>  $ curl &#x27;https:&#x2F;&#x2F;thesystem.grid.is&#x2F;@grid_examples&#x2F;dog-age-calculator-Yjk:Fsm0Rj2mtJVcKqzr7g&#x27; -d &#x27;{\n    &quot;read&quot;: [ &quot;J3&quot; ],\n    &quot;override&quot;: {\n      &quot;G3&quot;: 8\n    }\n  }&#x27;\n\n  {\n    &quot;data&quot;: {\n      &quot;J3&quot;: {&quot;value&quot;: 55}\n    }\n  }\n</code></pre>\nThe API is not live yet – this is just an example but it shows the request and the response. The request is doing a few things: changing the value of cell G3 (the age input cell) to 8, and then reading cell J3 which is the computed dog age for large dogs. The underlying Excel file is downloadable if anyone wants to look at it [3].<p>So my ask is this: Does HN relate? Do you ever wish you were able to turn a spreadsheet into an API instead of re-implementing it in code – and then query it from your server (or JS in browser)? Does the API make sense to you and do you think it would be useful? If not, how could we improve it?<p>Would love to hear your thoughts. Also, let me know if you’d like to try it out – we’re looking for a few users to give us feedback on the API itself.<p>[1]: https:&#x2F;&#x2F;grid.is<p>[2]: https:&#x2F;&#x2F;twitter.com&#x2F;arnihermann&#x2F;status&#x2F;1425116225986834435<p>[3]: https:&#x2F;&#x2F;grid.is&#x2F;@grid_examples&#x2F;dog-age-calculator-Yjk:Fsm0Rj2mtJVcKqzr7g",
       "time": 1629815679,
       "title": "Ask HN: Slap Excel in a Server?",
       "type": "story"
@@ -69,36 +99,6 @@
       "title": "Control room at Iran's most notorious prison being shut down by hackers is",
       "type": "story",
       "url": "https://twitter.com/edclowes/status/1430083273015840776"
-    },
-    {
-      "by": "retox",
-      "descendants": 0,
-      "id": 28289376,
-      "score": 1,
-      "time": 1629815632,
-      "title": "The Graphing Calculator Story",
-      "type": "story",
-      "url": "http://www.pacifict.com/Story/?q=1"
-    },
-    {
-      "by": "oelder",
-      "descendants": 0,
-      "id": 28289367,
-      "score": 1,
-      "time": 1629815599,
-      "title": "Welcome Cocoon",
-      "type": "story",
-      "url": "https://on.substack.com/p/welcome-cocoon"
-    },
-    {
-      "by": "elvis70",
-      "descendants": 0,
-      "id": 28289360,
-      "score": 1,
-      "time": 1629815588,
-      "title": "The Hello World Collection",
-      "type": "story",
-      "url": "http://helloworldcollection.de/"
     }
   ]
 }
