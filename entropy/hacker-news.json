@@ -1,6 +1,36 @@
 {
   "stories": [
     {
+      "by": "zug_zug",
+      "descendants": 0,
+      "id": 28295037,
+      "score": 1,
+      "text": "One of the core things about HN sorting is penalizing articles that generate more comments than upvotes. IMO this is wildly successful.<p>To my mind the logical extension of this would be prioritizing comments that get more upvotes than responses. Those that fall below the threshhold would be sorted lower or default collapsed.<p>One cool thing about this is it could be a per-user setting, giving users a chance to explore how it would shift the conversation.<p>I suppose the way to evaluate this proposal would be to query messages from the last day that have 2x more comments than upvotes (for example) and observing their quality.<p>The second-order effect of this (server side) could be that suppose an article has 100 likes, and 100 comments, but 99 of those are sub-comments are arguing over a egregious 1-comment on the article itself. This 1-comment could be default-collapsed and the article could be treated as 100 likes, 0-comments. This would have the effect of deincentivizing irrelevant hot-button tangents themselves without killing the pieces of the discussion that are more fruitful. This evaluation would work from conversational leaf up to trunk, as soon as a score falls below threshhold that branch is &quot;pruned&quot; from the score.",
+      "time": 1629839335,
+      "title": "HN Idea",
+      "type": "story"
+    },
+    {
+      "by": "breck",
+      "descendants": 0,
+      "id": 28295026,
+      "score": 1,
+      "time": 1629839285,
+      "title": "He Blew the Whistle on the Catholic Church in 1985. Why Didn’t We Listen?",
+      "type": "story",
+      "url": "https://www.nytimes.com/2021/08/24/opinion/catholic-church-abuse-jason-berry-first-report.html"
+    },
+    {
+      "by": "2bitlobster",
+      "descendants": 0,
+      "id": 28295017,
+      "score": 1,
+      "text": "Is there any research about the security-effectiveness of using password managers to share passwords in companies?<p>I will also appreciate anecdotes regarding people&#x27;s experience using these kinds of platforms in the enterprise.",
+      "time": 1629839213,
+      "title": "Ask HN: Research regarding password manager effectiveness at companies",
+      "type": "story"
+    },
+    {
       "by": "icyfox",
       "descendants": 0,
       "id": 28294996,
@@ -69,40 +99,6 @@
       "title": "Tim Cook’s Apple, Ten Years Later",
       "type": "story",
       "url": "https://www.theverge.com/22639629/tim-cook-apple-ten-years-decade-steve-jobs-legacy"
-    },
-    {
-      "by": "Chrisww",
-      "descendants": 0,
-      "id": 28294932,
-      "score": 2,
-      "time": 1629838733,
-      "title": "Eight Questions I Had Every Day as a Dev Team Lead",
-      "type": "story",
-      "url": "https://linearb.io/blog/eight-questions-about-metrics/"
-    },
-    {
-      "by": "pessimizer",
-      "descendants": 0,
-      "id": 28294901,
-      "score": 2,
-      "time": 1629838589,
-      "title": "Sundown Towns Are Still a Problem for Black Drivers",
-      "type": "story",
-      "url": "https://www.buzzfeednews.com/article/adeonibada/sundown-towns-racism-black-drivers-tiktok"
-    },
-    {
-      "by": "radicaldreamer",
-      "descendants": 1,
-      "id": 28294885,
-      "kids": [
-        28294967,
-        28294980
-      ],
-      "score": 4,
-      "time": 1629838488,
-      "title": "Man steals 620k photos from iCloud accounts from home without Apple noticing",
-      "type": "story",
-      "url": "https://www.latimes.com/california/story/2021-08-23/icloud-photo-theft-nude-women"
     }
   ]
 }
