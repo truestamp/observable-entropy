@@ -1,95 +1,104 @@
 {
   "stories": [
-    null,
     {
-      "by": "shivbhatt",
+      "by": "arnihermann",
       "descendants": 0,
-      "id": 28289329,
+      "id": 28289389,
       "score": 1,
-      "time": 1629815400,
-      "title": "Airbnb to help house up to 20k Afghan refugees – Airbnb",
-      "type": "story",
-      "url": "https://www.theguardian.com/technology/2021/aug/24/airbnb-help-house-afghan-refugees"
+      "text": "I&#x27;m a developer at GRID [1]. GRID turns spreadsheets into interactive web documents, and we recently built a system which allows our users to effectively turn their spreadsheets into a web service and query it via a JSON API.<p>I recently tweeted [2], asking if some of my friends had ever re-implemented spreadsheet logic in code or otherwise wished they could&#x27;ve accessed spreadsheet values through an API. A few reached out and now I want to get a broader look at the problem we&#x27;re solving.<p>To clarify what I mean by turning a spreadsheet into an API, let&#x27;s take for example this Dog age calculator [3]. There&#x27;s an underlying spreadsheet behind this web page with all the formulas for the calculator. Here&#x27;s an example of how we can use our API to find out the dog age of a large 8 year old dog:<p><pre><code>  $ curl &#x27;https:&#x2F;&#x2F;thesystem.grid.is&#x2F;@grid_examples&#x2F;dog-age-calculator-Yjk:Fsm0Rj2mtJVcKqzr7g&#x27; -d &#x27;{\n    &quot;read&quot;: [ &quot;J3&quot; ],\n    &quot;override&quot;: {\n      &quot;G3&quot;: 8\n    }\n  }&#x27;\n\n  {\n    &quot;data&quot;: {\n      &quot;J3&quot;: {&quot;value&quot;: 55}\n    }\n  }\n</code></pre>\nThe API is not live yet – this is just an example but it shows the request and the response. The request is doing a few things: changing the value of cell G3 (the age input cell) to 8, and then reading cell J3 which is the computed dog age for large dogs. The underlying Excel file is downloadable if anyone wants to look at it [3].<p>So my ask is this: Does HN relate? Do you ever wish you were able to turn a spreadsheet into an API instead of re-implementing it in code – and then query it from your server (or JS in browser)? Does the API make sense to you and do you think it would be useful? If not, how could we improve it?<p>Would love to hear your thoughts. Also, let me know if you’d like to try it out – we’re looking for a few users to give us feedback on the API itself.<p>[1]: https:&#x2F;&#x2F;grid.is\n[2]: https:&#x2F;&#x2F;twitter.com&#x2F;arnihermann&#x2F;status&#x2F;1425116225986834435\n[3]: https:&#x2F;&#x2F;grid.is&#x2F;@grid_examples&#x2F;dog-age-calculator-Yjk:Fsm0Rj2mtJVcKqzr7g",
+      "time": 1629815679,
+      "title": "Ask HN: Slap Excel in a Server?",
+      "type": "story"
     },
     {
-      "by": "deegles",
+      "by": "altdataseller",
       "descendants": 0,
-      "id": 28289323,
+      "id": 28289385,
       "score": 1,
-      "time": 1629815365,
-      "title": "State of Urbit • Blog • Urbit.org",
-      "type": "story",
-      "url": "https://urbit.org/blog/state-of-urbit"
+      "text": "does anyone have experience with this tool? Interested in hearing what others think.",
+      "time": 1629815666,
+      "title": "Ask HN: Has anyone used Optimove for CRM journey mapping?",
+      "type": "story"
     },
     {
-      "by": "defaulty",
+      "by": "weinzierl",
       "descendants": 0,
-      "id": 28289322,
+      "id": 28289378,
       "score": 1,
-      "time": 1629815360,
-      "title": "I could do that in a weekend",
+      "time": 1629815642,
+      "title": "Control room at Iran's most notorious prison being shut down by hackers is",
       "type": "story",
-      "url": "https://danluu.com/sounds-easy/"
+      "url": "https://twitter.com/edclowes/status/1430083273015840776"
     },
     {
-      "by": "shivbhatt",
+      "by": "retox",
       "descendants": 0,
-      "id": 28289320,
+      "id": 28289376,
       "score": 1,
-      "time": 1629815349,
-      "title": "Sensors and AI to watch Dorset social care patients",
+      "time": 1629815632,
+      "title": "The Graphing Calculator Story",
       "type": "story",
-      "url": "https://www.bbc.com/news/technology-58317106"
+      "url": "http://www.pacifict.com/Story/?q=1"
+    },
+    {
+      "by": "oelder",
+      "descendants": 0,
+      "id": 28289367,
+      "score": 1,
+      "time": 1629815599,
+      "title": "Welcome Cocoon",
+      "type": "story",
+      "url": "https://on.substack.com/p/welcome-cocoon"
+    },
+    {
+      "by": "elvis70",
+      "descendants": 0,
+      "id": 28289360,
+      "score": 1,
+      "time": 1629815588,
+      "title": "The Hello World Collection",
+      "type": "story",
+      "url": "http://helloworldcollection.de/"
+    },
+    {
+      "by": "clarkmoody",
+      "descendants": 0,
+      "id": 28289359,
+      "score": 1,
+      "time": 1629815586,
+      "title": "The Bitcoin Energy Debate Is a Modern Reprise of the Gold Resource Cost Debate",
+      "type": "story",
+      "url": "https://bitcoinmagazine.com/culture/bitcoin-and-gold-energy-debate"
+    },
+    {
+      "by": "saranshk",
+      "descendants": 0,
+      "id": 28289347,
+      "score": 1,
+      "time": 1629815524,
+      "title": "Microfront ends: what, why and how?",
+      "type": "story",
+      "url": "https://www.youtube.com/watch?v=klDry3LciD8"
+    },
+    {
+      "by": "rytrix",
+      "descendants": 0,
+      "id": 28289344,
+      "score": 1,
+      "time": 1629815502,
+      "title": "AWS Backup Audit Manager: Monitor, Evaluate, and Demonstrate Backup Compliance",
+      "type": "story",
+      "url": "https://aws.amazon.com/blogs/aws/monitor-evaluate-and-demonstrate-backup-compliance-with-aws-backup-audit-manager/"
     },
     {
       "by": "lancengym",
       "descendants": 0,
-      "id": 28289300,
+      "id": 28289336,
       "score": 2,
-      "time": 1629815280,
-      "title": "The Mad Story",
+      "time": 1629815453,
+      "title": "The Internet Needs Fungi",
       "type": "story",
-      "url": "https://lancengym.medium.com/the-mad-story-fc32bca41c29"
-    },
-    {
-      "by": "sagunsh",
-      "descendants": 0,
-      "id": 28289280,
-      "score": 1,
-      "time": 1629815169,
-      "title": "Hacker returns all $610M in cryptocurrency stolen in cyberattack",
-      "type": "story",
-      "url": "https://www.cnet.com/tech/services-and-software/hacker-returns-all-610-million-in-cryptocurrency-stolen-in-cyberattack/"
-    },
-    {
-      "by": "oenetan",
-      "descendants": 0,
-      "id": 28289263,
-      "score": 3,
-      "time": 1629815098,
-      "title": "Twitter now requiring login to view tweets",
-      "type": "story",
-      "url": "https://www.reddit.com/r/DataHoarder/comments/pa6dra/twitter_starts_to_require_login_to_view_tweets/"
-    },
-    {
-      "by": "robertwiblin",
-      "descendants": 0,
-      "id": 28289243,
-      "score": 1,
-      "time": 1629814972,
-      "title": "One Cheer for Social Conformity",
-      "type": "story",
-      "url": "https://fakenous.net/?p=2479"
-    },
-    {
-      "by": "ca98am79",
-      "descendants": 0,
-      "id": 28289220,
-      "score": 2,
-      "time": 1629814904,
-      "title": "Bitcoin’s Energy Usage Isn’t a Problem. Here’s Why",
-      "type": "story",
-      "url": "https://www.lynalden.com/bitcoin-energy/"
+      "url": "https://lancengym.medium.com/why-the-internet-needs-fungi-2a63c486fe70"
     }
   ]
 }
