@@ -1,6 +1,46 @@
 {
   "stories": [
     {
+      "by": "geocrasher",
+      "descendants": 0,
+      "id": 28290961,
+      "score": 1,
+      "time": 1629822224,
+      "title": "A Static Electricity Disease?",
+      "type": "story",
+      "url": "http://amasci.com/static/e-disease.html"
+    },
+    {
+      "by": "Tomte",
+      "descendants": 0,
+      "id": 28290942,
+      "score": 1,
+      "time": 1629822161,
+      "title": "A man third in presidential succession has been in five 'Batman' movies",
+      "type": "story",
+      "url": "https://edition.cnn.com/2021/01/23/us/senator-patrick-leahy-batman-trnd/index.html"
+    },
+    {
+      "by": "Tomte",
+      "descendants": 0,
+      "id": 28290935,
+      "score": 1,
+      "time": 1629822140,
+      "title": "Wok Racing",
+      "type": "story",
+      "url": "https://en.wikipedia.org/wiki/Wok_racing"
+    },
+    {
+      "by": "todsacerdoti",
+      "descendants": 0,
+      "id": 28290931,
+      "score": 2,
+      "time": 1629822127,
+      "title": "Apache Arrow Ballista 0.5.0 release with support for complex distributed queries",
+      "type": "story",
+      "url": "https://arrow.apache.org/blog/2021/08/18/ballista-0.5.0/"
+    },
+    {
       "by": "samstave",
       "descendants": 0,
       "id": 28290874,
@@ -14,8 +54,8 @@
       "by": "shtubi",
       "descendants": 0,
       "id": 28290862,
-      "score": 2,
-      "text": "Hey, I am a DevOps engineer at a medium-sized company. \nOur team is super busy and we have a lot on our plate. Recently we decided to see where we can improve our productivity.<p>One of our main responsibilities is to provide dev teams with different services they require (usually they open a ticket, sending a slack msg, etc…).\nAs part of our efforts to improve productivity, we recently decided to assemble the most common popular “services” provided to devs and automate them using Jenkins. \nIn addition, we allow devs to access Jenkin’s UI to spin up all kinds of jobs.<p>On one hand, it does allow devs to act on their own, on the other hand, I get a lot of backfires from different personas...<p>Devs\nWhy did this job fail?\nDevs send me messages on slack that they got lost between all the Jenkins jobs, and they don&#x27;t know which Jenkins Job is relevant for them. &quot;I forgot the identifier of the machine I created&quot;\nDevs make mistakes and deploy to the wrong environment.\nWhy did my dev environment get terminated?\n&quot;Update me if you modify parameters&quot;\netc...\nTeam lead\nLet’s add a manual approval for these jobs\nMake sure we have an audit log for every dev operation\nMake sure we are not hogging cloud resources thus going beyond the budget\nThe developer team leader asked BI about these Jenkins Jobs because it became critical for developers&#x27; day-to-day.\netc…<p>Jenkins seems pretty limited to allow these capabilities and I am afraid to create a tech debt and put too much pressure on Jenkins :)<p>Do you have any suggestions? How do you manage it within your company?<p>Thanks!",
+      "score": 4,
+      "text": "Hey, I am a DevOps engineer at a medium-sized company.<p>Our team is super busy and we have a lot on our plate. \nRecently we decided to see where we can improve our productivity.<p>One of our main responsibilities is to provide dev teams with different services they require (usually they open a ticket, sending a slack msg, etc…).<p>As part of our efforts to improve productivity, we recently decided to assemble the most common popular “services” provided to devs and automate them using Jenkins.<p>In addition, we allow devs to access Jenkin’s UI to spin up all kinds of jobs.<p>On one hand, it does allow devs to act on their own, on the other hand, I get a lot of backfires from different personas...<p>*Devs<p>* Why did this job fail?<p>* Devs send me messages on slack that they got lost between all the Jenkins jobs, and they don&#x27;t know which Jenkins Job is relevant for them. \n&quot;I forgot the identifier of the machine I created&quot;<p>* Devs make mistakes and deploy to the wrong environment.\n* Why did my dev environment get terminated?\n* &quot;Update me if you modify parameters&quot;\n* etc...<p>*Team lead<p>* Let’s add a manual approval for these jobs\n* Make sure we have an audit log for every dev operation\n* Make sure we are not hogging cloud resources thus going beyond the budget\n* The developer team leader asked BI about these Jenkins Jobs because it became critical for developers&#x27; day-to-day.\n* etc…<p>Jenkins seems pretty limited to allow these capabilities and I am afraid to create a tech debt and put too much pressure on Jenkins :)<p>Do you have any suggestions? How do you manage it within your company?<p>Thanks!",
       "time": 1629821867,
       "title": "What challenges did you face once you gave devs access to Jenkins jobs?",
       "type": "story"
@@ -59,46 +99,6 @@
       "title": "Top Vulnerabilities Exploited to Hack Linux Systems",
       "type": "story",
       "url": "https://voiceofciso.com/top-vulnerabilities-exploited-to-hack-linux-systems/"
-    },
-    {
-      "by": "RababYousuf",
-      "descendants": 0,
-      "id": 28290814,
-      "score": 2,
-      "time": 1629821665,
-      "title": "Singapore and the US to jointly expand their cooperation on cybersecurity",
-      "type": "story",
-      "url": "https://voiceofciso.com/singapore-and-the-us-to-jointly-expand-their-cooperation-on-cybersecurity/"
-    },
-    {
-      "by": "adamnemecek",
-      "descendants": 0,
-      "id": 28290807,
-      "score": 1,
-      "time": 1629821625,
-      "title": "Rust Cryptography: Showcase of notable cryptography libraries in Rust",
-      "type": "story",
-      "url": "https://cryptography.rs/"
-    },
-    {
-      "by": "infodocket",
-      "descendants": 0,
-      "id": 28290786,
-      "score": 1,
-      "time": 1629821572,
-      "title": "Study Takes Unprecedented Peek into Life of 17,000-Year-Old Mammoth",
-      "type": "story",
-      "url": "https://www.nsf.gov/discoveries/disc_summ.jsp?cntn_id=303320&WT.mc_id=USNSF_1"
-    },
-    {
-      "by": "vanpelt",
-      "descendants": 0,
-      "id": 28290785,
-      "score": 1,
-      "time": 1629821565,
-      "title": "A Public Dissection of a PyTorch Training Step",
-      "type": "story",
-      "url": "https://wandb.ai/wandb/trace/reports/A-Public-Dissection-of-a-PyTorch-Training-Step--Vmlldzo5MDE3NjU"
     }
   ]
 }
