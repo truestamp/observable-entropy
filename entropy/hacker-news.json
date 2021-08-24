@@ -1,6 +1,68 @@
 {
   "stories": [
     {
+      "by": "marvindanig",
+      "descendants": 0,
+      "id": 28289568,
+      "score": 1,
+      "time": 1629816579,
+      "title": "State Sponsored Civil Unrest",
+      "type": "story",
+      "url": "https://prolifewhistleblower.com/"
+    },
+    {
+      "by": "lnyan",
+      "descendants": 0,
+      "id": 28289564,
+      "score": 1,
+      "time": 1629816573,
+      "title": "Towards Photorealistic Colorization by Imagination",
+      "type": "story",
+      "url": "https://arxiv.org/abs/2108.09195"
+    },
+    {
+      "by": "lnyan",
+      "descendants": 0,
+      "id": 28289552,
+      "score": 1,
+      "time": 1629816493,
+      "title": "Transferring Manipulation from GPU Simulation to a Remote Real-World TriFinger",
+      "type": "story",
+      "url": "https://arxiv.org/abs/2108.09507"
+    },
+    {
+      "by": "2bor-2n",
+      "descendants": 0,
+      "id": 28289540,
+      "score": 1,
+      "time": 1629816444,
+      "title": "Ask HN: What Things Separates a Senior Front End Engineer from a Mid or Junior",
+      "type": "story"
+    },
+    {
+      "by": "mahami",
+      "descendants": 0,
+      "id": 28289527,
+      "score": 1,
+      "time": 1629816371,
+      "title": "IBM PC (Original)Post Beep Codes List",
+      "type": "story",
+      "url": "https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwjHlujn8snyAhUBxTgGHRrdAaAQFnoECBYQAQ&url=http%3A%2F%2Fphysical.uobabylon.edu.iq%2Ffileshare%2Farticles%2Fsound%2520pc.pdf&usg=AOvVaw17zbvIBon5UEZMFRScn7X3"
+    },
+    {
+      "by": "abbassi",
+      "descendants": 1,
+      "id": 28289516,
+      "kids": [
+        28289517
+      ],
+      "score": 1,
+      "time": 1629816332,
+      "title": "Unearthing Manchester's Victorian slums (2009)",
+      "type": "story",
+      "url": "https://www.theguardian.com/science/2009/aug/28/archaeology-manchester-victorian-slums"
+    },
+    {
       "by": "nickbild",
       "descendants": 0,
       "id": 28289506,
@@ -32,73 +94,16 @@
     },
     {
       "by": "MikeAshley178",
-      "descendants": 0,
+      "descendants": 1,
       "id": 28289438,
+      "kids": [
+        28289577
+      ],
       "score": 1,
       "time": 1629815985,
       "title": "Trading Operations of the Binance Insurance Fund",
       "type": "story",
       "url": "https://www.coalexander.com/post/trading-operations-of-the-binance-insurance-fund"
-    },
-    {
-      "by": "theFak",
-      "descendants": 0,
-      "id": 28289426,
-      "score": 1,
-      "time": 1629815880,
-      "title": "Arguing with an Anti-Vaxxer",
-      "type": "story",
-      "url": "https://docs.google.com/drawings/d/1wVbr7xpdZInyof_cGmpEcciHkq0YlMZfAdjtvV_vTRA/edit?usp=sharing"
-    },
-    {
-      "by": "ingve",
-      "descendants": 0,
-      "id": 28289416,
-      "score": 3,
-      "time": 1629815841,
-      "title": "How to sneak the Windows 95 credits screen into build without anybody noticing",
-      "type": "story",
-      "url": "https://devblogs.microsoft.com/oldnewthing/20210824-00/?p=105602"
-    },
-    {
-      "by": "altdataseller",
-      "descendants": 0,
-      "id": 28289411,
-      "score": 1,
-      "text": "reviews on optimove?",
-      "time": 1629815797,
-      "title": "Ask HN: Reviews on Optimove?",
-      "type": "story"
-    },
-    {
-      "by": "arnihermann",
-      "descendants": 0,
-      "id": 28289389,
-      "score": 1,
-      "text": "I&#x27;m a developer at GRID [1]. GRID turns spreadsheets into interactive web documents, and we recently built a system which allows our users to effectively turn their spreadsheets into a web service and query it via a JSON API.<p>I recently tweeted [2], asking if some of my friends had ever re-implemented spreadsheet logic in code or otherwise wished they could&#x27;ve accessed spreadsheet values through an API. A few reached out and now I want to get a broader look at the problem we&#x27;re solving.<p>To clarify what I mean by turning a spreadsheet into an API, let&#x27;s take for example this Dog age calculator [3]. There&#x27;s an underlying spreadsheet behind this web page with all the formulas for the calculator. Here&#x27;s an example of how we can use our API to find out the dog age of a large 8 year old dog:<p><pre><code>  $ curl &#x27;https:&#x2F;&#x2F;thesystem.grid.is&#x2F;@grid_examples&#x2F;dog-age-calculator-Yjk:Fsm0Rj2mtJVcKqzr7g&#x27; -d &#x27;{\n    &quot;read&quot;: [ &quot;J3&quot; ],\n    &quot;override&quot;: {\n      &quot;G3&quot;: 8\n    }\n  }&#x27;\n\n  {\n    &quot;data&quot;: {\n      &quot;J3&quot;: {&quot;value&quot;: 55}\n    }\n  }\n</code></pre>\nThe API is not live yet – this is just an example but it shows the request and the response. The request is doing a few things: changing the value of cell G3 (the age input cell) to 8, and then reading cell J3 which is the computed dog age for large dogs. The underlying Excel file is downloadable if anyone wants to look at it [3].<p>So my ask is this: Does HN relate? Do you ever wish you were able to turn a spreadsheet into an API instead of re-implementing it in code – and then query it from your server (or JS in browser)? Does the API make sense to you and do you think it would be useful? If not, how could we improve it?<p>Would love to hear your thoughts. Also, let me know if you’d like to try it out – we’re looking for a few users to give us feedback on the API itself.<p>[1]: https:&#x2F;&#x2F;grid.is<p>[2]: https:&#x2F;&#x2F;twitter.com&#x2F;arnihermann&#x2F;status&#x2F;1425116225986834435<p>[3]: https:&#x2F;&#x2F;grid.is&#x2F;@grid_examples&#x2F;dog-age-calculator-Yjk:Fsm0Rj2mtJVcKqzr7g",
-      "time": 1629815679,
-      "title": "Ask HN: Slap Excel in a Server?",
-      "type": "story"
-    },
-    {
-      "by": "altdataseller",
-      "descendants": 0,
-      "id": 28289385,
-      "score": 1,
-      "text": "does anyone have experience with this tool? Interested in hearing what others think.",
-      "time": 1629815666,
-      "title": "Ask HN: Has anyone used Optimove for CRM journey mapping?",
-      "type": "story"
-    },
-    {
-      "by": "weinzierl",
-      "descendants": 0,
-      "id": 28289378,
-      "score": 1,
-      "time": 1629815642,
-      "title": "Control room at Iran's most notorious prison being shut down by hackers is",
-      "type": "story",
-      "url": "https://twitter.com/edclowes/status/1430083273015840776"
     }
   ]
 }
