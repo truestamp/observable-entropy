@@ -1,6 +1,26 @@
 {
   "stories": [
     {
+      "by": "z0mbie42",
+      "descendants": 0,
+      "id": 28304944,
+      "score": 1,
+      "time": 1629915290,
+      "title": "Overview of Rust's Cryptography Ecosystem",
+      "type": "story",
+      "url": "https://kerkour.com/blog/rust-cryptography-ecosystem/"
+    },
+    {
+      "by": "rocky1138",
+      "descendants": 0,
+      "id": 28304922,
+      "score": 1,
+      "time": 1629915186,
+      "title": "Incident Storage Outage at Kolab Now",
+      "type": "story",
+      "url": "https://blogs.kolabnow.com/2021/08/25/incident-report-storage-outage-at-kolab-now"
+    },
+    {
       "by": "wanghq",
       "descendants": 0,
       "id": 28304881,
@@ -44,7 +64,7 @@
       "by": "amcaskill",
       "descendants": 0,
       "id": 28304781,
-      "score": 4,
+      "score": 6,
       "text": "Hi HN!<p>We’re Adam and Sean from Evidence (<a href=\"https:&#x2F;&#x2F;evidence.dev\" rel=\"nofollow\">https:&#x2F;&#x2F;evidence.dev</a>). We’re building a static site generator for data analysts.<p>It&#x27;s like Jekyll or Hugo for SQL analysts.<p>In Evidence, pages are markdown documents. When you write SQL inside that markdown, the SQL runs against your database (we support BigQuery, Snowflake, and Postgres - with more to come). You can reference the results of those queries using a simple templating syntax, which you can use to inline query results into text or to generate report sections from a query. Evidence also includes a component library that lets you do things like add charts and graphs (driven by your queries) by writing declarative tags like: &lt;LineChart &#x2F;&gt;<p>How is it different? Most BI tools use a no-code drag-and-drop interface. Analysts click around to build their queries, set up their charts etc. and then they drag them into place onto a dashboard. To stick with the analogy, if Evidence is Hugo, most BI tools are Squarespace. BI tools are built that way because they assume that data analysts are fundamentally non-technical. In our experience, that assumption is no longer correct. Data analysts increasingly want tools that let them adopt software engineering practices like version control, testing, and abstraction.<p>When everything is under version control, you are less likely to ship an incorrect report. When you can write a for loop, you can show sections for each region, product-line etc., instead of asking your users to engage with a filter interface. When you can abstract a piece of analysis into a reusable component, you don’t have to maintain the same content in multiple places. Basically, we’re providing the fundamentals of programming in a way that analysts can easily make use of.<p>Reporting tools have been around since COBOL, and have gone through many iterations as tech and markets have evolved. Our view is that it’s time for the next major iteration. We worked together for five years building the data science group at a private equity firm in Canada. We set up ‘the modern data stack’ (Fivetran, dbt, BigQuery etc.) at many of the firm’s portfolio companies and we were in the room during a lot of key corporate decisions.<p>In our experience, the BI layer is the weakest part of the modern data stack. The BI layer has a poor developer experience, and decision makers don’t really like the outputs they get. It turns out, these two issues are closely related. The drag and drop experience is so slow and low-leverage that the only way to get all the content on the page is to push a lot of cognitive load onto the end user: global filters, drill down modals, grids of charts without context. Like most users, business people hate that shit. And because the production process isn’t in code, the outputs are hard to version control and test—so dashboards break, results are internally inconsistent, and so on, in just the way that software would suck if you didn’t version control and test it.<p>As early adopters of the modern data stack, we saw the value in treating analytics more like software development, but we were consistently disappointed with the workflow and the quality of the outputs our team could deliver using BI tools and notebook products. Graphics teams that we admire at newspapers like the New York Times don’t use BI tools or Jupyter notebooks to present their work. They code their data products by hand, and the results are dramatically better than what you see in a typical BI deployment. That’s too much of an engineering lift for most data teams, but with a framework designed for their needs and their range of expertise, we think data teams could build products that come much closer to those high standards.<p>Evidence is built on Svelte and Svelte Kit. This is the JS framework that the NYT has used to build some of their more recent data products, like their Covid risk maps. Sean and I fell in love with Svelte, and we owe a huge debt to that project. In this early stage,Evidence is really just a set of convenience features wrapped around SvelteKit to make it accessible to data analysts (the markdown preprocessor, db connections, chart library). The core framework will always be open source, and eventually we plan to launch a paid cloud version of our product, including hosting, granular access control, and other features that enterprises might pay for.<p>We would love to hear your thoughts, questions, concerns, or ideas about what we’re building - or about your experiences with business intelligence in general. We appreciate all feedback and suggestions!",
       "time": 1629914605,
       "title": "Launch HN: Evidence (YC S21) – Web framework for data analysts",
@@ -79,26 +99,6 @@
       "title": "Performant String Parsing in C++",
       "type": "story",
       "url": "https://thecodepad.com/cpp/performant-string-parsing-in-cpp/"
-    },
-    {
-      "by": "MzHN",
-      "descendants": 0,
-      "id": 28304760,
-      "score": 1,
-      "time": 1629914510,
-      "title": "OpenShot 2.6.0 Released – AI and Computer Vision and Audio Effects",
-      "type": "story",
-      "url": "https://www.openshot.org/blog/2021/08/15/new_openshot_release_260/"
-    },
-    {
-      "by": "LinuxBender",
-      "descendants": 0,
-      "id": 28304759,
-      "score": 1,
-      "time": 1629914500,
-      "title": "Everyone from Texas to Florida on alert for possible Gulf Coast hurricane",
-      "type": "story",
-      "url": "https://lite.cnn.com/en/article/h_f9f7618dc82c09a720c3ae85b2018aea"
     }
   ]
 }
