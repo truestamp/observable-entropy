@@ -1,6 +1,46 @@
 {
   "stories": [
     {
+      "by": "vinceleo",
+      "descendants": 0,
+      "id": 28314043,
+      "score": 1,
+      "time": 1629980652,
+      "title": "Transifex Is Down",
+      "type": "story",
+      "url": "https://www.transifex.com/"
+    },
+    {
+      "by": "georgecmu",
+      "descendants": 0,
+      "id": 28314011,
+      "score": 1,
+      "time": 1629980496,
+      "title": "The New Chief Chaplain at Harvard? An Atheist",
+      "type": "story",
+      "url": "https://www.nytimes.com/2021/08/26/us/harvard-chaplain-greg-epstein.html"
+    },
+    {
+      "by": "mathgenius",
+      "descendants": 0,
+      "id": 28314009,
+      "score": 1,
+      "time": 1629980487,
+      "title": "How a Private Network Is Using a Messaging App to Rescue Afghans",
+      "type": "story",
+      "url": "https://www.politico.com/news/magazine/2021/08/25/afghanistan-rescue-volunteers-signal-evacuation-506886"
+    },
+    {
+      "by": "VSerge",
+      "descendants": 0,
+      "id": 28314007,
+      "score": 1,
+      "time": 1629980484,
+      "title": "China cuts trade ties with EU country Lithuania over Taiwan",
+      "type": "story",
+      "url": "https://www.theguardian.com/world/2021/aug/26/chinas-trade-halt-with-lithuania-over-taiwan-ties-sends-warning-to-europe"
+    },
+    {
       "by": "yodon",
       "descendants": 1,
       "id": 28313971,
@@ -65,50 +105,6 @@
       "title": "Why ROS and Docker are not a good fit",
       "type": "story",
       "url": "https://ubuntu.com/blog/ros-docker"
-    },
-    {
-      "by": "gphilip",
-      "descendants": 1,
-      "id": 28313830,
-      "kids": [
-        28313954,
-        28313907
-      ],
-      "score": 2,
-      "text": "I have set up Fastmail to read (IMAP over SSL) and send (SMTP over SSL) work emails. Over the last couple of weeks my Fastmail Calendar reminder emails started turning up in my Fastmail inbox as attachments to &quot;Undelivered Mail Returned to Sender&quot; instead of their usual avatar as &quot;Reminder: Do XYZ&quot; emails.<p>On raising a support ticket over this issue I learnt that Fastmail uses my <i>work</i> SMTP server to send these reminders (to my Fastmail email address!). I checked some recent reminders, and indeed, they have my work email address as the &quot;From:&quot; address, and they have been sent via my work SMTP server.<p>That is: Fastmail Calendar logs in to my work SMTP server as the &quot;work me&quot;, whenever it wants to send me a reminder to my Fastmail email address.<p>If you have been---like me---working under the assumption that your personal Fastmail Calendar and your work email don&#x27;t mix, it may be time to update that mental model. All your Calendar reminders may have been first sent to your workplace, before they come to you.",
-      "time": 1629979528,
-      "title": "Tell HN: Fastmail may be routing Calendar reminders via your work SMTP server",
-      "type": "story"
-    },
-    {
-      "by": "Tomte",
-      "descendants": 0,
-      "id": 28313777,
-      "score": 1,
-      "time": 1629979135,
-      "title": "Making graphics in 4 kilobytes (2008) [pdf]",
-      "type": "story",
-      "url": "http://iquilezles.org/www/articles/proceduralgfx/inspire2008.pdf"
-    },
-    {
-      "by": "fanf2",
-      "descendants": 0,
-      "id": 28313776,
-      "score": 1,
-      "time": 1629979131,
-      "title": "Flexible Microprocessor Could Enable an 'Internet of Everything'",
-      "type": "story",
-      "url": "https://www.scientificamerican.com/podcast/episode/flexible-microprocessor-could-enable-an-internet-of-everything/"
-    },
-    {
-      "by": "Tomte",
-      "descendants": 0,
-      "id": 28313774,
-      "score": 1,
-      "time": 1629979127,
-      "title": "Makefile hacks: print the value of any variable (2010)",
-      "type": "story",
-      "url": "https://blog.melski.net/2010/11/30/makefile-hacks-print-the-value-of-any-variable/"
     }
   ]
 }
