@@ -1,6 +1,26 @@
 {
   "stories": [
     {
+      "by": "underscore_ku",
+      "descendants": 0,
+      "id": 28313906,
+      "score": 1,
+      "time": 1629979913,
+      "title": "Facebook used facial recognition without consent 200k times, says SK watchdog",
+      "type": "story",
+      "url": "https://www.theregister.com/2021/08/26/facebook_fined_by_south_korea/"
+    },
+    {
+      "by": "vorticalbox",
+      "descendants": 0,
+      "id": 28313899,
+      "score": 1,
+      "time": 1629979876,
+      "title": "‘Mini-Neptunes’ beyond solar system may soon yield signs of life",
+      "type": "story",
+      "url": "https://www.theguardian.com/science/2021/aug/26/mini-neptune-beyond-solar-system-may-soon-yield-sign-life-hycean-exoplanet-cambridge-astronomer"
+    },
+    {
       "by": "imartin2k",
       "descendants": 0,
       "id": 28313888,
@@ -37,6 +57,9 @@
       "by": "gphilip",
       "descendants": 0,
       "id": 28313830,
+      "kids": [
+        28313907
+      ],
       "score": 2,
       "text": "I have set up Fastmail to read (IMAP over SSL) and send (SMTP over SSL) work emails. Over the last couple of weeks my Fastmail Calendar reminder emails started turning up in my Fastmail inbox as attachments to &quot;Undelivered Mail Returned to Sender&quot; instead of their usual avatar as &quot;Reminder: Do XYZ&quot; emails.<p>On raising a support ticket over this issue I learnt that Fastmail uses my <i>work</i> SMTP server to send these reminders (to my Fastmail email address!). I checked some recent reminders, and indeed, they have my work email address as the &quot;From:&quot; address, and they have been sent via my work SMTP server.<p>That is: Fastmail Calendar logs in to my work SMTP server as the &quot;work me&quot;, whenever it wants to send me a reminder to my Fastmail email address.<p>If you have been---like me---working under the assumption that your personal Fastmail Calendar and your work email don&#x27;t mix, it may be time to update that mental model. All your Calendar reminders may have been first sent to your workplace, before they come to you.",
       "time": 1629979528,
@@ -82,26 +105,6 @@
       "title": "Perspective: Tackling Misinformation on YouTube",
       "type": "story",
       "url": "https://blog.youtube/inside-youtube/tackling-misinfo/"
-    },
-    {
-      "by": "nabla9",
-      "descendants": 0,
-      "id": 28313750,
-      "score": 2,
-      "time": 1629978990,
-      "title": "Sailfish 4",
-      "type": "story",
-      "url": "https://sailfishos.org/"
-    },
-    {
-      "by": "diplodocusaur",
-      "descendants": 0,
-      "id": 28313745,
-      "score": 1,
-      "time": 1629978959,
-      "title": "The AI Hardware Problem",
-      "type": "story",
-      "url": "https://www.youtube.com/watch?v=owe9cPEdm7k"
     }
   ]
 }
