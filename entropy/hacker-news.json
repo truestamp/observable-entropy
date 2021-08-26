@@ -1,6 +1,45 @@
 {
   "stories": [
-    null,
+    {
+      "by": "enigmatic02",
+      "descendants": 0,
+      "id": 28322012,
+      "score": 1,
+      "time": 1630017923,
+      "title": "Grand Migration",
+      "type": "story",
+      "url": "https://lethain.com/grand-migration/"
+    },
+    {
+      "by": "jcs87",
+      "descendants": 0,
+      "id": 28321999,
+      "score": 1,
+      "time": 1630017864,
+      "title": "Product frameworks for the challenges every founder faces",
+      "type": "story",
+      "url": "https://review.firstround.com/8-product-hurdles-every-founder-must-clear-this-pm-turned-founder-shares-his-playbooks"
+    },
+    {
+      "by": "barathr",
+      "descendants": 0,
+      "id": 28321970,
+      "score": 3,
+      "time": 1630017685,
+      "title": "A Bad Solar Storm Could Cause an 'Internet Apocalypse'",
+      "type": "story",
+      "url": "https://www.wired.com/story/solar-storm-internet-apocalypse-undersea-cables/"
+    },
+    {
+      "by": "dijereedan",
+      "descendants": 0,
+      "id": 28321966,
+      "score": 2,
+      "time": 1630017656,
+      "title": "PayPal to add $20 inactivity fee in Canada",
+      "type": "story",
+      "url": "https://mobilesyrup.com/2021/08/24/paypal-20-dollar-inactivity-fee-canada/"
+    },
     {
       "by": "Ceiling",
       "descendants": 0,
@@ -15,7 +54,7 @@
       "by": "enigmatic02",
       "descendants": 0,
       "id": 28321944,
-      "score": 1,
+      "score": 2,
       "time": 1630017522,
       "title": "Codex",
       "type": "story",
@@ -60,36 +99,6 @@
       "title": "Is There a Nuclear Option for Stopping Climate Change?",
       "type": "story",
       "url": "https://www.nytimes.com/2021/08/26/opinion/climate-change-nuclear.html"
-    },
-    {
-      "by": "jparise",
-      "descendants": 0,
-      "id": 28321881,
-      "score": 1,
-      "time": 1630017152,
-      "title": "So it seems the first major game made in Godot is now confirmed",
-      "type": "story",
-      "url": "https://twitter.com/reduzio/status/1430971004776505348"
-    },
-    {
-      "by": "enigmatic02",
-      "descendants": 0,
-      "id": 28321815,
-      "score": 1,
-      "time": 1630016845,
-      "title": "Micro-Levers",
-      "type": "story",
-      "url": "https://angelajiang.com/essays/levers"
-    },
-    {
-      "by": "melezhik",
-      "descendants": 0,
-      "id": 28321812,
-      "score": 1,
-      "text": "Hi! I&#x27;ve recently added 2 new plugins to validate k8s resources:<p>deployments\nstatefull sets\nconfig maps\nsecrets\nThey are written on Raku and have Raku API.<p>For example, to verify k8s deployment and access it&#x27;s entries:<p><pre><code>  my %data = task-run &quot;dpl check&quot;, &quot;k8s-deployment-check&quot; %(\n    name =&gt; &quot;animals&quot;,\n    namespace =&gt; &quot;pets&quot;,\n    cat =&gt; %(\n      command =&gt; &quot;&#x2F;usr&#x2F;bin&#x2F;cat&quot;,\n      args =&gt; [\n        &quot;eat&quot;, &quot;milk&quot;, &quot;fish&quot;\n      ],\n      env =&gt; [\n        &quot;ENABLE_LOGGING&quot;\n      ]\n      volume-mounts =&gt; {\n        foo-bar =&gt; &quot;&#x2F;opt&#x2F;foo&#x2F;bar&quot;,\n      }\n    )\n  );\n\n  # Access k8s resource\n\n  say %data.keys.perl;\n\n  # (&quot;env&quot;, &quot;image&quot;, &quot;imagePullPolicy&quot;, &quot;command&quot;,\n  # &quot;terminationMessagePolicy&quot;, &quot;name&quot;, &quot;envFrom&quot;, &quot;ports&quot;,\n  # &quot;__data__&quot;,\n  # &quot;args&quot;,\n  # &quot;terminationMessagePath&quot;, &quot;livenessProbe&quot;, &quot;resources&quot;, &quot;volumeMounts&quot;).Seq\n\n  say %data.command;</code></pre>\nFind more information here:<p>https:&#x2F;&#x2F;github.com&#x2F;melezhik&#x2F;sparrow-plugins&#x2F;tree&#x2F;master&#x2F;k8s-config-check<p>https:&#x2F;&#x2F;github.com&#x2F;melezhik&#x2F;sparrow-plugins&#x2F;tree&#x2F;master&#x2F;k8s-deployment-check<p>I&#x27;d like to hear if this useful for others.<p>Thanks",
-      "time": 1630016836,
-      "title": "Testing of K8s resources using Raku and Sparrow",
-      "type": "story"
     }
   ]
 }
