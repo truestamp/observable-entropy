@@ -3,6 +3,36 @@
     {
       "by": "enigmatic02",
       "descendants": 0,
+      "id": 28321815,
+      "score": 1,
+      "time": 1630016845,
+      "title": "Micro-Levers",
+      "type": "story",
+      "url": "https://angelajiang.com/essays/levers"
+    },
+    {
+      "by": "melezhik",
+      "descendants": 0,
+      "id": 28321812,
+      "score": 1,
+      "text": "Hi! I&#x27;ve recently added 2 new plugins to validate k8s resources:<p>deployments\nstatefull sets\nconfig maps\nsecrets\nThey are written on Raku and have Raku API.<p>For example, to verify k8s deployment and access it&#x27;s entries:<p><pre><code>  my %data = task-run &quot;dpl check&quot;, &quot;k8s-deployment-check&quot; %(\n    name =&gt; &quot;animals&quot;,\n    namespace =&gt; &quot;pets&quot;,\n    cat =&gt; %(\n      command =&gt; &quot;&#x2F;usr&#x2F;bin&#x2F;cat&quot;,\n      args =&gt; [\n        &quot;eat&quot;, &quot;milk&quot;, &quot;fish&quot;\n      ],\n      env =&gt; [\n        &quot;ENABLE_LOGGING&quot;\n      ]\n      volume-mounts =&gt; {\n        foo-bar =&gt; &quot;&#x2F;opt&#x2F;foo&#x2F;bar&quot;,\n      }\n    )\n  );\n\n  # Access k8s resource\n\n  say %data.keys.perl;\n\n  # (&quot;env&quot;, &quot;image&quot;, &quot;imagePullPolicy&quot;, &quot;command&quot;,\n  # &quot;terminationMessagePolicy&quot;, &quot;name&quot;, &quot;envFrom&quot;, &quot;ports&quot;,\n  # &quot;__data__&quot;,\n  # &quot;args&quot;,\n  # &quot;terminationMessagePath&quot;, &quot;livenessProbe&quot;, &quot;resources&quot;, &quot;volumeMounts&quot;).Seq\n\n  say %data.command;</code></pre>\nFind more information here:<p>https:&#x2F;&#x2F;github.com&#x2F;melezhik&#x2F;sparrow-plugins&#x2F;tree&#x2F;master&#x2F;k8s-config-check<p>https:&#x2F;&#x2F;github.com&#x2F;melezhik&#x2F;sparrow-plugins&#x2F;tree&#x2F;master&#x2F;k8s-deployment-check<p>I&#x27;d like to hear if this useful for others.<p>Thanks",
+      "time": 1630016836,
+      "title": "Testing of K8s resources using Raku and Sparrow",
+      "type": "story"
+    },
+    {
+      "by": "dredmorbius",
+      "descendants": 0,
+      "id": 28321810,
+      "score": 1,
+      "time": 1630016820,
+      "title": "I'm Sorry, Which Policy?",
+      "type": "story",
+      "url": "https://nitter.eu/InnuendoStudios/status/1429132814549753861"
+    },
+    {
+      "by": "enigmatic02",
+      "descendants": 0,
       "id": 28321787,
       "score": 1,
       "time": 1630016701,
@@ -69,36 +99,6 @@
       "title": "Talk DeFi to Me: What It Is and Where It Is Going",
       "type": "story",
       "url": "https://www.mewtopia.com/talk-defi-to-me/"
-    },
-    {
-      "by": "mgh2",
-      "descendants": 0,
-      "id": 28321714,
-      "score": 2,
-      "time": 1630016336,
-      "title": "ISIS Afghanistan airport attacks: 60 civilians and 12 US service members killed",
-      "type": "story",
-      "url": "https://www.theguardian.com/world/live/2021/aug/26/afghanistan-live-news-updates-evacuation-refugees-taliban-kabul-airport-latest"
-    },
-    {
-      "by": "robertwiblin",
-      "descendants": 0,
-      "id": 28321708,
-      "score": 1,
-      "time": 1630016312,
-      "title": "The Death Toll of Delay",
-      "type": "story",
-      "url": "https://www.theatlantic.com/ideas/archive/2021/08/fda-delays-carry-death-toll/619871/"
-    },
-    {
-      "by": "cnuss",
-      "descendants": 0,
-      "id": 28321701,
-      "score": 1,
-      "text": "Hey everyone!<p>I recently came across ngx-rocket (https:&#x2F;&#x2F;ngx-rocket.github.io&#x2F;home) which does a pretty good job at creating a fully functional Angular app with a a lot of the bootstrapping done for you.<p>Does anyone know if there is something similar for React and widely used like create-react-app (CRA)?<p>I&#x27;ve seen a --template option on CRA, but I&#x27;ve been unable to find a template gallery&#x2F;library.<p>From what I gather, redux, redux-saga, axios, bootstrap, etc (to name a few) would be pretty standard frameworks to add.<p>Let me know what you&#x27;ve found!",
-      "time": 1630016281,
-      "title": "Ask HN: Is there a create-react-app option that does as much as ngx-rocket?",
-      "type": "story"
     }
   ]
 }
