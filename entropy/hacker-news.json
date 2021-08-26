@@ -1,10 +1,20 @@
 {
   "stories": [
     {
+      "by": "tinkerdaemon",
+      "descendants": 0,
+      "id": 28318270,
+      "score": 1,
+      "text": "Hi there,<p>I searched around but could not find any documentation how to port software to Apple M1 systems.<p>For example: How did Golang got ported? As far as I know Golang is implemented in Golang and just until some months ago it could not create M1 executables. If Golang would be language implemented in C or C++ I could somewhat guess that you need &quot;just&quot; run the sources through the Apple M1 clang&#x2F;llvm compiler and patch the errors&#x2F;warnings until it works.<p>Or another example: How do they port Linux to M1? I mean you need binutils-glibc-gcc to get Linux and other neccessary tools like grub running. Does binutils have a port to M1? Does gcc create M1 executables? Or does this project not only port the kernel but also the toolchain?<p>On one hand I look forward to the possibility to start one of the very long discussions you can find in the HN community - these are fun to read -.  \nOn the other hand I would also be thankful to get a link to a document I was not able to find.",
+      "time": 1630000754,
+      "title": "Ask HN: What is the process to port system software or languages to Apple's M1?",
+      "type": "story"
+    },
+    {
       "by": "theafh",
       "descendants": 0,
       "id": 28318205,
-      "score": 1,
+      "score": 2,
       "time": 1630000430,
       "title": "Updates on our continued collaboration with NIST to secure the Software Supply",
       "type": "story",
@@ -24,7 +34,7 @@
       "by": "aroccoli",
       "descendants": 0,
       "id": 28318190,
-      "score": 2,
+      "score": 3,
       "time": 1630000346,
       "title": "Haskell Foundation: Interview with Andrew Boardman",
       "type": "story",
@@ -82,23 +92,16 @@
     },
     {
       "by": "_448",
-      "descendants": 0,
+      "descendants": 1,
       "id": 28318124,
+      "kids": [
+        28318250
+      ],
       "score": 1,
       "text": "By &quot;maintainer&quot; I mean someone who has to maintain a project written in a systems programming language.",
       "time": 1630000048,
       "title": "Ask HN: Which systems programming language is maintainer-friendly?",
       "type": "story"
-    },
-    {
-      "by": "msie",
-      "descendants": 0,
-      "id": 28318097,
-      "score": 1,
-      "time": 1629999922,
-      "title": "12-year-old is set to earn over $400K after about 2 months selling NFTs",
-      "type": "story",
-      "url": "https://www.cnbc.com/2021/08/25/12-year-old-coder-made-6-figures-selling-weird-whales-nfts.html"
     }
   ]
 }
