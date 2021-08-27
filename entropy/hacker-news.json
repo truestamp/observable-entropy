@@ -1,6 +1,29 @@
 {
   "stories": [
     {
+      "by": "notabanker",
+      "descendants": 1,
+      "id": 28334076,
+      "kids": [
+        28334088
+      ],
+      "score": 1,
+      "text": "Will this affect TikTok?<p>More generally, are there other ways for startups to exit other than through IPO or acquisition (which could also be hampered by the new policy I&#x27;d think)?",
+      "time": 1630106509,
+      "title": "Ask HN: Is China's IPO ban for data-heavy tech firms going to impact VCs?",
+      "type": "story"
+    },
+    {
+      "by": "oenetan",
+      "descendants": 0,
+      "id": 28334073,
+      "score": 1,
+      "time": 1630106474,
+      "title": "China Plans to Ban U.S. IPOs for Data-Heavy Tech Firms",
+      "type": "story",
+      "url": "https://www.wsj.com/articles/china-plans-to-ban-u-s-ipos-for-data-heavy-tech-firms-11630045061"
+    },
+    {
       "by": "dredmorbius",
       "descendants": 0,
       "id": 28334067,
@@ -30,7 +53,7 @@
       "by": "sohkamyung",
       "descendants": 0,
       "id": 28334056,
-      "score": 1,
+      "score": 2,
       "time": 1630106334,
       "title": "200 Years Ago, Faraday Invented the Electric Motor",
       "type": "story",
@@ -43,7 +66,7 @@
       "score": 1,
       "text": "I am looking for good simulation&#x2F;games to help undergrads learn about entrepreneurship. Any suggestions? Thank you.",
       "time": 1630106327,
-      "title": "Games for entrepreneurship",
+      "title": "Ask HN: Games for entrepreneurship",
       "type": "story"
     },
     {
@@ -79,35 +102,11 @@
       "by": "throwawayfear",
       "descendants": 0,
       "id": 28334002,
-      "score": 4,
+      "score": 6,
       "time": 1630105902,
       "title": "Previous Covid Prevents Delta Infection Better Than Pfizer Shot",
       "type": "story",
       "url": "https://www.bloomberg.com/news/articles/2021-08-27/previous-covid-prevents-delta-infection-better-than-pfizer-shot"
-    },
-    {
-      "by": "morpheos137",
-      "descendants": 0,
-      "id": 28333985,
-      "score": 1,
-      "time": 1630105810,
-      "title": "Can cell phone usage lead to male infertility?",
-      "type": "story",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/17854521/"
-    },
-    {
-      "by": "andrewstuart",
-      "descendants": 1,
-      "id": 28333975,
-      "kids": [
-        28333998,
-        28333979
-      ],
-      "score": 1,
-      "text": "source: https:&#x2F;&#x2F;codesandbox.io&#x2F;s&#x2F;dikoh?file=&#x2F;index.html<p><pre><code>  &lt;!DOCTYPE html&gt;\n  &lt;html lang=&quot;en&quot;&gt;\n    &lt;head&gt;\n      &lt;meta charset=&quot;UTF-8&quot; &#x2F;&gt;\n      &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot; &#x2F;&gt;\n      &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;ie=edge&quot; &#x2F;&gt;\n      &lt;title&gt;Static Template&lt;&#x2F;title&gt;\n    &lt;&#x2F;head&gt;\n    &lt;body&gt;\n      &lt;div id=&quot;main&quot;&gt;&lt;&#x2F;div&gt;\n  \n      &lt;script src=&quot;https:&#x2F;&#x2F;unpkg.com&#x2F;@babel&#x2F;standalone&#x2F;babel.min.js&quot;&gt;&lt;&#x2F;script&gt;\n      &lt;script type=&quot;text&#x2F;babel&quot; data-presets=&quot;react&quot; data-type=&quot;module&quot;&gt;\n        import {\n          ChakraProvider,\n          Box,\n          Text\n        } from &quot;https:&#x2F;&#x2F;cdn.skypack.dev&#x2F;@chakra-ui&#x2F;react&quot;;\n        import React, { useRef } from &quot;https:&#x2F;&#x2F;cdn.skypack.dev&#x2F;react&quot;;\n        import ReactDOM from &quot;https:&#x2F;&#x2F;cdn.skypack.dev&#x2F;react-dom&quot;;\n  \n        const MyText = ({ color, ...props }) =&gt; {\n          return &lt;Text fontWeight=&quot;bold&quot; as=&quot;span&quot; {...props} &#x2F;&gt;;\n        };\n  \n        function Foo() {\n          return (\n            &lt;div&gt;\n              Foo\n            &lt;&#x2F;div&gt;\n          );\n        }\n  \n        function App() {\n          return (\n            &lt;Box&gt;\n              Hello &lt;MyText&gt;Skypack&lt;&#x2F;MyText&gt;\n              &lt;Foo&#x2F;&gt;\n            &lt;&#x2F;Box&gt;\n          );\n        }\n  \n        ReactDOM.render(\n          &lt;ChakraProvider&gt;\n            &lt;App &#x2F;&gt;\n          &lt;&#x2F;ChakraProvider&gt;,\n          document.getElementById(&quot;main&quot;)\n        );\n      &lt;&#x2F;script&gt;\n    &lt;&#x2F;body&gt;\n  &lt;&#x2F;html&gt;</code></pre>",
-      "time": 1630105728,
-      "title": "Show HN: ReactJS with JSX without bundling or transpiling",
-      "type": "story"
     }
   ]
 }
