@@ -1,6 +1,16 @@
 {
   "stories": [
     {
+      "by": "igetspam",
+      "descendants": 0,
+      "id": 28338060,
+      "score": 1,
+      "text": "After reading a HN thread about Ansible tricks and the expected debate about whether or not Ansible is actually good, I felt like a discussion around that specific topic was useful. Here&#x27;s my current case:<p>I have a field deployed appliance that needs to be able to update automatically. Today, since we&#x27;re still in an early phase, the fee I have deployed are accessible over SSH. This won&#x27;t be the future case though. While in the current mode, I use Ansible over SSH to push changes. It works well enough but we&#x27;re doing a bit of a pivot and now feels like the right time to do the rearch and move to a pull based model.<p>I&#x27;ve used Puppet, Chef and Ansible over the years and I could make this work with any one of them. I have not use Salt and my experience with cfengine is about 20 years ago. I&#x27;m curious to see if there&#x27;s some compelling reason to get away from the devil I know right now (Ansible) that I&#x27;m missing. Salt gets brought up a lot but I rarely see arguments for or against and many of the articles I&#x27;ve read make it all seem like a coin toss.<p>Any have strong feelings backed by data?",
+      "time": 1630158879,
+      "title": "What's your favorite config management tool these days and why?",
+      "type": "story"
+    },
+    {
       "by": "optimalsolver",
       "descendants": 1,
       "id": 28338014,
@@ -95,16 +105,6 @@
       "title": "Internet Information Service Algorithmic Recommendation Management Provisions",
       "type": "story",
       "url": "https://digichina.stanford.edu/news/translation-internet-information-service-algorithmic-recommendation-management-provisions"
-    },
-    {
-      "by": "jonbaer",
-      "descendants": 0,
-      "id": 28337836,
-      "score": 2,
-      "time": 1630157016,
-      "title": "Next-Gen Chips Will Be Powered from Below",
-      "type": "story",
-      "url": "https://spectrum.ieee.org/next-gen-chips-will-be-powered-from-below"
     }
   ]
 }
