@@ -1,6 +1,16 @@
 {
   "stories": [
     {
+      "by": "thunderbong",
+      "descendants": 0,
+      "id": 28338226,
+      "score": 1,
+      "time": 1630159965,
+      "title": "Study finds 579 genetic locations for anti-social behavior, opioid addiction",
+      "type": "story",
+      "url": "https://www.news.vcu.edu/article/2021/08/study-identifies-579-genetic-locations-linked-to"
+    },
+    {
       "by": "markrobin",
       "descendants": 0,
       "id": 28338152,
@@ -32,8 +42,11 @@
     },
     {
       "by": "igetspam",
-      "descendants": 0,
+      "descendants": 1,
       "id": 28338060,
+      "kids": [
+        28338250
+      ],
       "score": 1,
       "text": "After reading a HN thread about Ansible tricks and the expected debate about whether or not Ansible is actually good, I felt like a discussion around that specific topic was useful. Here&#x27;s my current case:<p>I have a field deployed appliance that needs to be able to update automatically. Today, since we&#x27;re still in an early phase, the fee I have deployed are accessible over SSH. This won&#x27;t be the future case though. While in the current mode, I use Ansible over SSH to push changes. It works well enough but we&#x27;re doing a bit of a pivot and now feels like the right time to do the rearch and move to a pull based model.<p>I&#x27;ve used Puppet, Chef and Ansible over the years and I could make this work with any one of them. I have not use Salt and my experience with cfengine is about 20 years ago. I&#x27;m curious to see if there&#x27;s some compelling reason to get away from the devil I know right now (Ansible) that I&#x27;m missing. Salt gets brought up a lot but I rarely see arguments for or against and many of the articles I&#x27;ve read make it all seem like a coin toss.<p>Any have strong feelings backed by data?",
       "time": 1630158879,
@@ -92,16 +105,6 @@
       "title": "Repairs of San Francisco Skyscraper on Hold; Engineering Expert Blasts Plan",
       "type": "story",
       "url": "https://sanfrancisco.cbslocal.com/2021/08/27/repairs-sinking-san-francisco-skyscraper-on-hold-engineering-expert-blasts-plan/"
-    },
-    {
-      "by": "jimgordon",
-      "descendants": 0,
-      "id": 28337904,
-      "score": 1,
-      "time": 1630157592,
-      "title": "Parents Sued over the Bitcoin Their Children Stole",
-      "type": "story",
-      "url": "https://www.pcmag.com/news/parents-sued-over-the-bitcoin-their-children-stole"
     }
   ]
 }
