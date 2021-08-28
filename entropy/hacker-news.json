@@ -1,6 +1,56 @@
 {
   "stories": [
     {
+      "by": "pbourke",
+      "descendants": 0,
+      "id": 28338318,
+      "score": 1,
+      "time": 1630160614,
+      "title": "SARS-CoV-2 RBD antibodies that maximize breadth and resistance to escape",
+      "type": "story",
+      "url": "https://www.nature.com/articles/s41586-021-03807-6"
+    },
+    {
+      "by": "parsecs",
+      "descendants": 0,
+      "id": 28338316,
+      "score": 1,
+      "time": 1630160597,
+      "title": "Plugins in Go",
+      "type": "story",
+      "url": "https://eli.thegreenplace.net/2021/plugins-in-go/"
+    },
+    {
+      "by": "kiyanwang",
+      "descendants": 0,
+      "id": 28338314,
+      "score": 1,
+      "time": 1630160581,
+      "title": "The Gatekeeper Shrugged",
+      "type": "story",
+      "url": "https://islandofsignal.com/shrugged/"
+    },
+    {
+      "by": "lnyan",
+      "descendants": 0,
+      "id": 28338310,
+      "score": 1,
+      "time": 1630160575,
+      "title": "Unethical? Unnecessary? The Covid-19 vaccine booster debate intensifies",
+      "type": "story",
+      "url": "https://www.sciencemag.org/news/2021/08/unethical-unnecessary-covid-19-vaccine-booster-debate-intensifies"
+    },
+    {
+      "by": "kiyanwang",
+      "descendants": 0,
+      "id": 28338302,
+      "score": 1,
+      "time": 1630160479,
+      "title": "Why Agile Will Continue to Fail",
+      "type": "story",
+      "url": "https://sredmond.medium.com/why-agile-will-continue-to-fail-37b2624a9c27"
+    },
+    {
       "by": "kiyanwang",
       "descendants": 0,
       "id": 28338283,
@@ -49,62 +99,6 @@
       "title": "Productive",
       "type": "story",
       "url": "https://dailyflynn.com/how-to-be-productive/"
-    },
-    {
-      "by": "jbverschoor",
-      "descendants": 0,
-      "id": 28338100,
-      "score": 1,
-      "time": 1630159125,
-      "title": "The circle has come full circle (it's a headphone jack)",
-      "type": "story",
-      "url": "https://www.youtube.com/watch?v=oJZuSVl5wjM"
-    },
-    {
-      "by": "johnnyApplePRNG",
-      "descendants": 0,
-      "id": 28338091,
-      "score": 1,
-      "text": "I don&#x27;t need to create a full blown email implementation.<p>I don&#x27;t need to receive emails from anybody.<p>I just want to be able to to send emails from no-reply@mydomain.com for password resets, email address verifications, things like that.<p>And I would like to at least make an attempt to have the emails I send pass through a basic spam filter. So I assume at the very least I need to setup DKIM and SPF records.<p>Is it as simple as following https:&#x2F;&#x2F;wiki.debian.org&#x2F;Postfix and https:&#x2F;&#x2F;wiki.debian.org&#x2F;opendkim ?<p>(That is the route I am taking right now, will report back here what I find out in a few hours!)",
-      "time": 1630159059,
-      "title": "Ask HN: How to send dkim/spf compliant email from Debian?",
-      "type": "story"
-    },
-    {
-      "by": "igetspam",
-      "descendants": 1,
-      "id": 28338060,
-      "kids": [
-        28338250
-      ],
-      "score": 1,
-      "text": "After reading a HN thread about Ansible tricks and the expected debate about whether or not Ansible is actually good, I felt like a discussion around that specific topic was useful. Here&#x27;s my current case:<p>I have a field deployed appliance that needs to be able to update automatically. Today, since we&#x27;re still in an early phase, the fee I have deployed are accessible over SSH. This won&#x27;t be the future case though. While in the current mode, I use Ansible over SSH to push changes. It works well enough but we&#x27;re doing a bit of a pivot and now feels like the right time to do the rearch and move to a pull based model.<p>I&#x27;ve used Puppet, Chef and Ansible over the years and I could make this work with any one of them. I have not use Salt and my experience with cfengine is about 20 years ago. I&#x27;m curious to see if there&#x27;s some compelling reason to get away from the devil I know right now (Ansible) that I&#x27;m missing. Salt gets brought up a lot but I rarely see arguments for or against and many of the articles I&#x27;ve read make it all seem like a coin toss.<p>Any have strong feelings backed by data?",
-      "time": 1630158879,
-      "title": "What's your favorite config management tool these days and why?",
-      "type": "story"
-    },
-    {
-      "by": "optimalsolver",
-      "descendants": 1,
-      "id": 28338014,
-      "kids": [
-        28338028
-      ],
-      "score": 2,
-      "time": 1630158521,
-      "title": "I Just Lost 1,400 BTC (2020)",
-      "type": "story",
-      "url": "https://github.com/spesmilo/electrum/issues/5072"
-    },
-    {
-      "by": "fspacef",
-      "descendants": 0,
-      "id": 28338009,
-      "score": 1,
-      "time": 1630158482,
-      "title": "Little Snitch – Network Monitor",
-      "type": "story",
-      "url": "https://www.obdev.at/products/littlesnitch/index.html"
     }
   ]
 }
