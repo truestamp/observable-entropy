@@ -1,6 +1,46 @@
 {
   "stories": [
     {
+      "by": "gruuya",
+      "descendants": 0,
+      "id": 28349965,
+      "score": 1,
+      "text": "In particular, with some OSS solution, like Ory Keto (https:&#x2F;&#x2F;www.ory.sh&#x2F;keto) or Authorizer (https:&#x2F;&#x2F;www.authorizer.tech&#x2F;docs&#x2F;overview&#x2F;introduction), both of which look promising for our use case.<p>Even though Ory Keto is more well known, Authorizer seems to be a step ahead by already supporting subject set rewrites, one of the key core concepts from the original Zanzibar paper (the lack of which being a major handicap).<p>Also, how do you manage cascade relation tuple deletion upon deleting the corresponding object&#x2F;subject resource (e.g. user&#x2F;group&#x2F;etc)?",
+      "time": 1630267217,
+      "title": "Ask HN: Experience using Zanzibar-styled authorization in production?",
+      "type": "story"
+    },
+    {
+      "by": "mvolfik",
+      "descendants": 0,
+      "id": 28349944,
+      "score": 1,
+      "time": 1630267098,
+      "title": "OpenAI Codex can understand an made up language",
+      "type": "story",
+      "url": "https://twitter.com/scottinallcaps/status/1432022724025720842"
+    },
+    {
+      "by": "Tomte",
+      "descendants": 0,
+      "id": 28349928,
+      "score": 2,
+      "time": 1630266957,
+      "title": "Own Your Identity (2011)",
+      "type": "story",
+      "url": "http://www.marco.org/2011/07/11/own-your-identity"
+    },
+    {
+      "by": "Tomte",
+      "descendants": 0,
+      "id": 28349925,
+      "score": 1,
+      "time": 1630266949,
+      "title": "Overwriting Hard Drive Data: The Great Wiping Controversy (2008) [pdf]",
+      "type": "story",
+      "url": "http://www.vidarholen.net/~vidar/overwriting_hard_drive_data.pdf"
+    },
+    {
       "by": "mapt",
       "descendants": 0,
       "id": 28349841,
@@ -34,6 +74,9 @@
       "by": "ingve",
       "descendants": 0,
       "id": 28349784,
+      "kids": [
+        28349927
+      ],
       "score": 5,
       "time": 1630265949,
       "title": "What Is a “Now Page”?",
@@ -62,46 +105,6 @@
       "title": "Physicists Debate Hawking’s Idea That the Universe Had No Beginning",
       "type": "story",
       "url": "https://www.quantamagazine.org/physicists-debate-hawkings-idea-that-the-universe-had-no-beginning-20190606/"
-    },
-    {
-      "by": "Rochus",
-      "descendants": 0,
-      "id": 28349745,
-      "score": 1,
-      "text": "I am aware of the various published test results where CoreCLR shows fantastic speed-ups compared to Mono, e.g. when calculating MD5 or SHA hash sums.<p>But my measurements based on the Are-we-fast-yet benchmark suite (see https:&#x2F;&#x2F;github.com&#x2F;smarr&#x2F;are-we-fast-yet and https:&#x2F;&#x2F;github.com&#x2F;rochus-keller&#x2F;Oberon&#x2F;tree&#x2F;master&#x2F;testcases&#x2F;Are-we-fast-yet) show a completely different picture. Here the difference between Mono and CoreCLR (both versions 3 and 5) is within +&#x2F;- 10%, so nothing earth shattering.<p>Here are my measurement results:<p>https:&#x2F;&#x2F;github.com&#x2F;rochus-keller&#x2F;Oberon&#x2F;blob&#x2F;master&#x2F;testcases&#x2F;Are-we-fast-yet&#x2F;Are-we-fast-yet_results_linux.pdf comparing the same benchmark on the same machine run under LuaJIT, Mono, Node.js and Crystal.<p>https:&#x2F;&#x2F;github.com&#x2F;rochus-keller&#x2F;Oberon&#x2F;blob&#x2F;master&#x2F;testcases&#x2F;Are-we-fast-yet&#x2F;Are-we-fast-yet_results_windows.pdf comparing Mono, .Net 4 and CoreCLR 3 and 5 on the same machine.<p>Here are the assemblies of the Are-we-fast-yet benchmark suite used for the measurements, in case you want to reproduce my results: http:&#x2F;&#x2F;software.rochus-keller.ch&#x2F;Are-we-fast-yet_CLI_2021-08-28.zip.<p>I was very surprised by the results. Perhaps it has to do with the fact that I measured on x86, or that the benchmark suite in use includes somewhat larger (i.e. more representative) applications than just micro benchmarks.<p>What are your opinions? Do others have similar results?",
-      "time": 1630265661,
-      "title": "Ask HN: Is it true that CoreCLR is that much faster than Mono?",
-      "type": "story"
-    },
-    {
-      "by": "damir",
-      "descendants": 0,
-      "id": 28349738,
-      "score": 3,
-      "time": 1630265637,
-      "title": "Open Source Illustrations Kit",
-      "type": "story",
-      "url": "https://illlustrations.co"
-    },
-    {
-      "by": "bryanrasmussen",
-      "descendants": 0,
-      "id": 28349721,
-      "score": 1,
-      "time": 1630265513,
-      "title": "The Sad, Sad Story of Laika, the Space Dog, and Her One-Way Trip into Orbit",
-      "type": "story",
-      "url": "https://www.smithsonianmag.com/smithsonian-institution/sad-story-laika-space-dog-and-her-one-way-trip-orbit-1-180968728/"
-    },
-    {
-      "by": "timdaub",
-      "descendants": 0,
-      "id": 28349706,
-      "score": 2,
-      "time": 1630265408,
-      "title": "Tokenizing Sustainability",
-      "type": "story",
-      "url": "https://harm.work/news/tokenizing-sustainability"
     }
   ]
 }
