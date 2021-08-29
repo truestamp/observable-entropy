@@ -1,10 +1,20 @@
 {
   "stories": [
     {
+      "by": "Rochus",
+      "descendants": 0,
+      "id": 28349627,
+      "score": 1,
+      "text": "I am aware of the various published test results where CoreCLR shows fantastic speed-ups compared to Mono, e.g. when calculating MD5 or SHA hash sums.<p>But my measurements based on the Are-we-fast-yet benchmark suite (see https:&#x2F;&#x2F;github.com&#x2F;smarr&#x2F;are-we-fast-yet and https:&#x2F;&#x2F;github.com&#x2F;rochus-keller&#x2F;Oberon&#x2F;tree&#x2F;master&#x2F;testcases&#x2F;Are-we-fast-yet) show a completely different picture. Here the difference between Mono and CoreCLR (both versions 3 and 5) is within +&#x2F;- 10%, so nothing earth shattering.<p>Here are my measurement results:<p>https:&#x2F;&#x2F;github.com&#x2F;rochus-keller&#x2F;Oberon&#x2F;blob&#x2F;master&#x2F;testcases&#x2F;Are-we-fast-yet&#x2F;Are-we-fast-yet_results_linux.pdf comparing the same benchmark on the same machine run under LuaJIT, Mono, Node.js and Crystal.<p>https:&#x2F;&#x2F;github.com&#x2F;rochus-keller&#x2F;Oberon&#x2F;blob&#x2F;master&#x2F;testcases&#x2F;Are-we-fast-yet&#x2F;Are-we-fast-yet_results_windows.pdf comparing Mono, .Net 4 and CoreCLR 3 and 5 on the same machine.<p>Here are the assemblies of the Are-we-fast-yet benchmark suite used for the measurements, in case you want to reproduce my results: http:&#x2F;&#x2F;software.rochus-keller.ch&#x2F;Are-we-fast-yet_CLI_2021-08-28.zip.<p>I was very surprised by the results. Perhaps it has to do with the fact that I measured on x86, or that the benchmark suite used includes somewhat larger (i.e. more representative) applications than just micro benchmarks.<p>What are your opinions? Do others have similar results?",
+      "time": 1630264743,
+      "title": "Is it true that CoreCLR is that much faster than Mono?",
+      "type": "story"
+    },
+    {
       "by": "acdanger",
       "descendants": 0,
       "id": 28349594,
-      "score": 1,
+      "score": 2,
       "time": 1630264509,
       "title": "Lee “Scratch” Perry Has Died",
       "type": "story",
@@ -92,16 +102,6 @@
       "title": "“If California were to offer that choice, it wouldn’t have its housing crisis”",
       "type": "story",
       "url": "https://www.nytimes.com/2021/08/27/opinion/California-housing-price-economy.html"
-    },
-    {
-      "by": "Tomte",
-      "descendants": 0,
-      "id": 28349483,
-      "score": 1,
-      "time": 1630263584,
-      "title": "One Tiny German Town, Seven Big Michelin Stars (2013)",
-      "type": "story",
-      "url": "http://www.nytimes.com/2013/04/07/magazine/one-tiny-german-town-seven-big-michelin-stars.html"
     }
   ]
 }
