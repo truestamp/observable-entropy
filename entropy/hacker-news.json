@@ -1,6 +1,66 @@
 {
   "stories": [
     {
+      "by": "thomasjbevan",
+      "descendants": 0,
+      "id": 28347622,
+      "score": 1,
+      "time": 1630251948,
+      "title": "Non-Fungible Talent",
+      "type": "story",
+      "url": "https://hyperionmagazine.com/featured/non-fungible-talent/"
+    },
+    {
+      "by": "DerekBickerton",
+      "descendants": 0,
+      "id": 28347620,
+      "score": 1,
+      "time": 1630251931,
+      "title": "Hera – Get back control of your meetings",
+      "type": "story",
+      "url": "https://hera.so/"
+    },
+    {
+      "by": "jollygood",
+      "descendants": 0,
+      "id": 28347619,
+      "score": 1,
+      "time": 1630251923,
+      "title": "Show HN: When Zone Converter for the Terminal",
+      "type": "story",
+      "url": "https://github.com/jupj/when/"
+    },
+    {
+      "by": "whack",
+      "descendants": 0,
+      "id": 28347586,
+      "score": 1,
+      "time": 1630251735,
+      "title": "Should a Married Man Get Paid More Than a Single Woman?",
+      "type": "story",
+      "url": "https://outlookzen.com/2021/08/29/should-a-married-man-get-paid-more-than-a-single-woman/"
+    },
+    {
+      "by": "ent101",
+      "descendants": 0,
+      "id": 28347583,
+      "score": 1,
+      "time": 1630251710,
+      "title": "Parsing anything in JavaScript using Earley algorithm",
+      "type": "story",
+      "url": "https://gajus.medium.com/parsing-absolutely-anything-in-javascript-using-earley-algorithm-886edcc31e5e"
+    },
+    {
+      "by": "saku007",
+      "descendants": 0,
+      "id": 28347516,
+      "score": 1,
+      "text": "I&#x27;ve read that a few companies here and there have experimented with shorter workweeks (like Microsoft Japan) and with great results. \nCan you recommend any (tech) companies who regularly hire PM&#x27;s&#x2F;engineers&#x2F;designers&#x2F;QA to work 4 days a week or less?",
+      "time": 1630251150,
+      "title": "Companies offering 4 day workweek",
+      "type": "story"
+    },
+    {
       "by": "baron816",
       "descendants": 0,
       "id": 28347454,
@@ -12,10 +72,15 @@
     },
     {
       "by": "vishnumohandas",
-      "descendants": 0,
+      "descendants": 3,
       "id": 28347439,
-      "score": 19,
-      "text": "Hello HN,<p>Over the last year we&#x27;ve been building ente[1], a privacy-friendly, easy-to-use alternative to Google Photos. We&#x27;ve so far built Android[2][3], iOS[4], web[5] apps that encrypt your files and back them up in the background. You can access these across your devices, and share them with other ente users, end-to-end encrypted. You can also use our electron app[6] to maintain a local copy of your backed up files.<p>We&#x27;ve built a fault-tolerant data replication layer that replicates your data to two different storage providers in the EU. We will be providing additional replicas as an addon in the future.<p>We&#x27;re relying on libsodium[7] for performing all cryptographic operations. Under the hood it uses XChaCha20 and XSalsa20 for encryption and Argon2 for key derivation.<p>We have documented our architecture[8] and open-sourced our clients[9].<p>We did a soft-launch on r&#x2F;degoogle[10] sometime ago, and have since then ironed out issues and polished the product.<p>But we are far from where we want to be in terms of features (object and face detection, location clustering, image filters, ...) and user experience. We are hoping to use this post as an opportunity to collect feedback from fellow hackers.<p>If there&#x27;s anything we can do better, please let us know, we would like to.<p>Best,<p>- Vishnu, Neeraj, Abhinav<p>[1]: https:&#x2F;&#x2F;ente.io<p>[2]: https:&#x2F;&#x2F;ente.io&#x2F;apk<p>[3]: https:&#x2F;&#x2F;play.google.com&#x2F;store\n&#x2F;apps&#x2F;details?id=io.ente.photos<p>[4]: https:&#x2F;&#x2F;apps.apple.com&#x2F;in&#x2F;app&#x2F;ente-photos&#x2F;id1542026904<p>[5]: https:&#x2F;&#x2F;web.ente.io<p>[6]: https:&#x2F;&#x2F;github.com&#x2F;ente-io&#x2F;bhari-frame&#x2F;releases&#x2F;latest<p>[7]: https:&#x2F;&#x2F;libsodium.gitbook.io<p>[8]: https:&#x2F;&#x2F;ente.io&#x2F;architecture<p>[9]: https:&#x2F;&#x2F;github.com&#x2F;ente-io<p>[10]: https:&#x2F;&#x2F;www.reddit.com&#x2F;r&#x2F;degoogle&#x2F;comments&#x2F;njatok&#x2F;we_built_an_endtoend_encrypted_alternative_to&#x2F;",
+      "kids": [
+        28347581,
+        28347600,
+        28347623
+      ],
+      "score": 48,
+      "text": "Hello HN,<p>Over the last year we&#x27;ve been building ente[1], a privacy-friendly, easy-to-use alternative to Google Photos. We&#x27;ve so far built Android[2][3], iOS[4], web[5] apps that encrypt your files and back them up in the background. You can access these across your devices, and share them with other ente users, end-to-end encrypted. You can also use our electron app[6] to maintain a local copy of your backed up files.<p>We&#x27;ve built a fault-tolerant data replication layer that replicates your data to two different storage providers in the EU. We will be providing additional replicas as an addon in the future.<p>We&#x27;re relying on libsodium[7] for performing all cryptographic operations. Under the hood it uses XChaCha20 and XSalsa20 for encryption and Argon2 for key derivation.<p>We have documented our architecture[8] and open-sourced our clients[9].<p>We did a soft-launch on r&#x2F;degoogle[10] sometime ago, and have since then ironed out issues and polished the product.<p>But we are far from where we want to be in terms of features (object and face detection, location clustering, image filters, ...) and user experience. We are hoping to use this post as an opportunity to collect feedback from fellow hackers.<p>If there&#x27;s anything we can do better, please let us know, we would like to.<p>Best,<p>- Vishnu, Neeraj, Abhinav<p>[1]: https:&#x2F;&#x2F;ente.io<p>[2]: https:&#x2F;&#x2F;ente.io&#x2F;apk<p>[3]: https:&#x2F;&#x2F;play.google.com&#x2F;store&#x2F;apps&#x2F;details?id=io.ente.photos<p>[4]: https:&#x2F;&#x2F;apps.apple.com&#x2F;in&#x2F;app&#x2F;ente-photos&#x2F;id1542026904<p>[5]: https:&#x2F;&#x2F;web.ente.io<p>[6]: https:&#x2F;&#x2F;github.com&#x2F;ente-io&#x2F;bhari-frame&#x2F;releases&#x2F;latest<p>[7]: https:&#x2F;&#x2F;libsodium.gitbook.io<p>[8]: https:&#x2F;&#x2F;ente.io&#x2F;architecture<p>[9]: https:&#x2F;&#x2F;github.com&#x2F;ente-io<p>[10]: https:&#x2F;&#x2F;www.reddit.com&#x2F;r&#x2F;degoogle&#x2F;comments&#x2F;njatok&#x2F;we_built_an_endtoend_encrypted_alternative_to&#x2F;",
       "time": 1630250630,
       "title": "Show HN: We built an end-to-end encrypted alternative to Google Photos",
       "type": "story"
@@ -39,76 +104,6 @@
       "title": "Invasive earthworms are remaking our forests, and climate scientists are worried",
       "type": "story",
       "url": "https://www.cbc.ca/news/science/invasive-earthworms-threat-forests-climate-change-1.6154164"
-    },
-    {
-      "by": "Link-",
-      "descendants": 1,
-      "id": 28347357,
-      "kids": [
-        28347440
-      ],
-      "score": 1,
-      "time": 1630250053,
-      "title": "How will we write software 10 years from today? [video]",
-      "type": "story",
-      "url": "https://www.youtube.com/watch?v=axJ_rfzU_7I"
-    },
-    {
-      "by": "IdoRA",
-      "descendants": 0,
-      "id": 28347353,
-      "score": 2,
-      "time": 1630250019,
-      "title": "Is Ginkgo’s synthetic-biology story worth $15B?",
-      "type": "story",
-      "url": "https://www.technologyreview.com/2021/08/24/1032308/is-ginkgos-synthetic-biology-story-worth-15-billion/"
-    },
-    {
-      "by": "zhte415",
-      "descendants": 0,
-      "id": 28347329,
-      "score": 1,
-      "time": 1630249896,
-      "title": "The PRC Personal Information Protection Law (Final): A Full Translation",
-      "type": "story",
-      "url": "https://www.china-briefing.com/news/the-prc-personal-information-protection-law-final-a-full-translation/"
-    },
-    {
-      "by": "fjdicuebsj",
-      "descendants": 0,
-      "id": 28347323,
-      "score": 5,
-      "time": 1630249849,
-      "title": "How Computer Science Became a Boy's Club",
-      "type": "story",
-      "url": "https://www.jstor.org/stable/10.1086/682955?mag=how-computer-science-became-a-boys-club"
-    },
-    {
-      "by": "jrwan",
-      "descendants": 0,
-      "id": 28347321,
-      "score": 2,
-      "time": 1630249836,
-      "title": "All Personal Finance Experts Are Liars",
-      "type": "story",
-      "url": "https://larryludwig.com/all-personal-finance-experts-are-liars/"
-    },
-    {
-      "by": "buron",
-      "descendants": 6,
-      "id": 28347298,
-      "kids": [
-        28347552,
-        28347511,
-        28347558,
-        28347508,
-        28347525
-      ],
-      "score": 15,
-      "time": 1630249602,
-      "title": "iPhone 13 to support LEO satellite communication",
-      "type": "story",
-      "url": "https://9to5mac.com/2021/08/29/kuo-iphone-13-to-support-leo-satellite-communication-allowing-users-to-make-phone-calls-and-send-texts-without-cell-signal/"
     }
   ]
 }
