@@ -1,6 +1,46 @@
 {
   "stories": [
     {
+      "by": "BitwiseFool",
+      "descendants": 0,
+      "id": 28359470,
+      "score": 1,
+      "time": 1630349726,
+      "title": "Pokémon Go's Reddit Goes Dark in Protest Against Site Inaction",
+      "type": "story",
+      "url": "https://kotaku.com/pokemon-gos-reddit-goes-dark-in-protest-against-site-in-1847583078"
+    },
+    {
+      "by": "laurex",
+      "descendants": 0,
+      "id": 28359446,
+      "score": 2,
+      "time": 1630349611,
+      "title": "A (possibly fake?) high school apparently duped its way into playing on ESPN",
+      "type": "story",
+      "url": "https://footballscoop.com/news/bishop-sycamore-online-only-prep-school-espn-img-academy"
+    },
+    {
+      "by": "fspacef",
+      "descendants": 0,
+      "id": 28359442,
+      "score": 1,
+      "time": 1630349598,
+      "title": "Pile of raw chicken on airport luggage carousel prompts warning from TSA",
+      "type": "story",
+      "url": "https://www.foxnews.com/travel/pile-raw-chicken-airport-luggage-carousel-warning-tsa.html"
+    },
+    {
+      "by": "pozzy",
+      "descendants": 0,
+      "id": 28359437,
+      "score": 1,
+      "text": "I took a look today at a domain that is expiring soon. We shut down everything associated with the domain a few months ago (the DO droplet and the cloudflare record).<p>However, we left the DNS pointing to cloudflare at our registrar.<p>When accessing the domain today, I noticed that it was redirected to various spam sites. Upon further inspection it looks like the DNS records were changed. There was a CNAME entry that was causing this redirect.<p>Is this some sort of security vulnerability? I can&#x27;t imagine Cloudflare or our registrar would change the records to this spam domain themselves. I&#x27;m at a loss for how this could possibly occur.",
+      "time": 1630349564,
+      "title": "Mysterious Spam Cname Record Appearing on Cloudflare",
+      "type": "story"
+    },
+    {
       "by": "joeyespo",
       "descendants": 0,
       "id": 28359410,
@@ -14,7 +54,7 @@
       "by": "Tomte",
       "descendants": 0,
       "id": 28359405,
-      "score": 1,
+      "score": 2,
       "time": 1630349379,
       "title": "Rainbow Warrior on shipbreaking beach in Bangladesh (2018)",
       "type": "story",
@@ -42,9 +82,12 @@
     },
     {
       "by": "hncurious",
-      "descendants": 0,
+      "descendants": 1,
       "id": 28359376,
-      "score": 1,
+      "kids": [
+        28359435
+      ],
+      "score": 2,
       "time": 1630349249,
       "title": "Hostile Takeover of L.A.’s Public Schools",
       "type": "story",
@@ -59,46 +102,6 @@
       "title": "How are we going to do this",
       "type": "story",
       "url": "https://www.youtube.com/watch?v=9T98VsMe3oo"
-    },
-    {
-      "by": "ColinWright",
-      "descendants": 0,
-      "id": 28359321,
-      "score": 2,
-      "time": 1630349009,
-      "title": "Facebook’s Secret War on Switching Costs",
-      "type": "story",
-      "url": "https://www.eff.org/deeplinks/2021/08/facebooks-secret-war-switching-costs"
-    },
-    {
-      "by": "wensley",
-      "descendants": 0,
-      "id": 28359316,
-      "score": 1,
-      "time": 1630348997,
-      "title": "Plan to use ozone to disinfect classrooms in Wales",
-      "type": "story",
-      "url": "https://www.theguardian.com/uk-news/2021/aug/30/concerns-over-plan-to-disinfect-classrooms-in-wales-with-ozone"
-    },
-    {
-      "by": "rmason",
-      "descendants": 0,
-      "id": 28359297,
-      "score": 1,
-      "time": 1630348908,
-      "title": "Why your first customer is worth $10M",
-      "type": "story",
-      "url": "https://www.ejorgenson.com/blog/why-your-first-customer-is-worth-10000000"
-    },
-    {
-      "by": "arturi",
-      "descendants": 0,
-      "id": 28359287,
-      "score": 1,
-      "time": 1630348830,
-      "title": "Uppy File Uploader 2.0: smaller and faster, Preact X, stricter TypeScript types",
-      "type": "story",
-      "url": "https://uppy.io/blog/2021/08/2.0/"
     }
   ]
 }
