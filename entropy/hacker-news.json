@@ -1,6 +1,49 @@
 {
   "stories": [
     {
+      "by": "spchampion2",
+      "descendants": 0,
+      "id": 28360258,
+      "score": 1,
+      "time": 1630353897,
+      "title": "Where Online Services Go When They Die (2014)",
+      "type": "story",
+      "url": "https://www.theatlantic.com/technology/archive/2014/07/where-online-services-go-when-they-die/374099/"
+    },
+    {
+      "by": "Tomte",
+      "descendants": 0,
+      "id": 28360236,
+      "score": 2,
+      "time": 1630353756,
+      "title": "Randomness Requirements for Security (2005)",
+      "type": "story",
+      "url": "http://tools.ietf.org/html/rfc4086"
+    },
+    {
+      "by": "Tomte",
+      "descendants": 0,
+      "id": 28360235,
+      "score": 1,
+      "time": 1630353749,
+      "title": "Raising the Dead (2005)",
+      "type": "story",
+      "url": "http://www.outsideonline.com/1922711/raising-dead"
+    },
+    {
+      "by": "samjgorman",
+      "descendants": 1,
+      "id": 28360220,
+      "kids": [
+        28360243
+      ],
+      "score": 3,
+      "text": "Hello HN!  We&#x27;re Sam and Kanyes. We&#x27;re building an extension to help you remember what you read online.   We&#x27;re calling it Ferret [1].<p>When you open Ferret on an HTML page, it generates recall-based questions + answers to reinforce key concepts with NLP.  Consider the following toy example where we open Ferret on an explanation of Bayesian statistics. [2]<p>Q:  What does the frequentist interpretation view probability as?\nA:  the limit of the relative frequency of an event after many trials<p>Q: What is often computed in Bayesian statistics using mathematical optimization methods?\nA:The maximum a posteriori<p>We do this by (1)  Parsing the DOM tree of an HTML page for &lt;p&gt; tags on the client, and segmenting these into preprocessed chunks (2) Performing inference on question-generation with a T5-base model pretrained on SQuAD (3) Extractive question-answering with the chunk &amp; question we&#x27;ve generated with RoBERTa, also pretrained on SQuAD.<p>No GPT-3 here— where&#x27;s the fun in an API call when you can do it yourself.  Ferret is built as a React.JS app deployed as a chrome extension, with models hosted on AWS Sagemaker.<p>Finally, why could this be helpful?\nHuman memory is lossy. Psychologists have shown for forever that your memory can be modeled with a forgetting curve.  If you don&#x27;t attempt to retain knowledge, you&#x27;ll likely lose it.  But most of the content we read online (technical blog posts, documentation, course notes, articles) gets ingested and quickly forgotten.  We&#x27;re interested in low-friction approaches to helping people better remember this content , starting with fellow engineers who depend on their ability to remember key concepts to do the best job.<p>We&#x27;ve open-sourced the full repo and are actively responding to PRs + issues. [3].  You can read more about the technical + product challenges we faced if that interests you as well. [4]<p>We appreciate all feedback and suggestions!<p>[1]https:&#x2F;&#x2F;chrome.google.com&#x2F;webstore&#x2F;detail&#x2F;ferret&#x2F;mjnmolplinickaigofdpejfgfoehnlbh\n[2] https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Bayesian_statistics<p>[3] https:&#x2F;&#x2F;github.com&#x2F;kanyesthaker&#x2F;qgqa-flashcards<p>[4] https:&#x2F;&#x2F;samgorman.notion.site&#x2F;Ferret-c7508ec65df841859d1f84e518fcf21d",
+      "time": 1630353656,
+      "title": "Show HN: NLP Flashcards for Most of the Internet",
+      "type": "story"
+    },
+    {
       "by": "YKreator",
       "descendants": 0,
       "id": 28360211,
@@ -24,7 +67,7 @@
       "by": "mooreds",
       "descendants": 0,
       "id": 28360139,
-      "score": 1,
+      "score": 2,
       "time": 1630353204,
       "title": "The quick and simple editor for cron schedule expressions",
       "type": "story",
@@ -42,8 +85,11 @@
     },
     {
       "by": "bigdom1023",
-      "descendants": 0,
+      "descendants": 1,
       "id": 28360110,
+      "kids": [
+        28360257
+      ],
       "score": 1,
       "time": 1630353018,
       "title": "Show HN: A website to build and host a form that writes to your Google Sheet",
@@ -52,56 +98,16 @@
     },
     {
       "by": "GordonS",
-      "descendants": 0,
+      "descendants": 1,
       "id": 28360087,
       "kids": [
         28360133
       ],
-      "score": 1,
+      "score": 2,
       "time": 1630352923,
       "title": "eBPF: A curated list of projects related to eBPF",
       "type": "story",
       "url": "https://github.com/zoidbergwill/awesome-ebpf"
-    },
-    {
-      "by": "ianvorbach",
-      "descendants": 0,
-      "id": 28360085,
-      "score": 2,
-      "time": 1630352912,
-      "title": "Space SPACs: How Sustainable Are Public Space Companies?",
-      "type": "story",
-      "url": "https://spacedotbiz.substack.com/p/spacs"
-    },
-    {
-      "by": "pmandedev",
-      "descendants": 0,
-      "id": 28360081,
-      "score": 4,
-      "text": "Recently, I have been trying to build something of value, maybe offer a service or a product and it seems am out of ideas.<p>So, what are some products and services used in every day living in the US&#x2F;developed countries that are not yet available in other countries(Nigeria)?",
-      "time": 1630352896,
-      "title": "What are some products and services in the US that are not in Nigeria?",
-      "type": "story"
-    },
-    {
-      "by": "hhs",
-      "descendants": 0,
-      "id": 28360072,
-      "score": 2,
-      "time": 1630352846,
-      "title": "Struggling to learn a new language? Blame it on your stable brain",
-      "type": "story",
-      "url": "https://www.ucsf.edu/news/2021/08/421316/struggling-learn-new-language-blame-it-your-stable-brain"
-    },
-    {
-      "by": "bpierre",
-      "descendants": 0,
-      "id": 28360069,
-      "score": 2,
-      "time": 1630352823,
-      "title": "Playdate Pulp: Zero to video game in 60 Seconds",
-      "type": "story",
-      "url": "https://www.gamedeveloper.com/console/playdate-pulp-zero-to-video-game-in-60-seconds"
     }
   ]
 }
