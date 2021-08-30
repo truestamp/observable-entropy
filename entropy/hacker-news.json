@@ -1,6 +1,26 @@
 {
   "stories": [
     {
+      "by": "hacky_engineer",
+      "descendants": 0,
+      "id": 28359550,
+      "score": 1,
+      "time": 1630350150,
+      "title": "Show HN: Computer Engineering for Babies (Book)",
+      "type": "story",
+      "url": "https://computerengineeringforbabies.com"
+    },
+    {
+      "by": "pseudolus",
+      "descendants": 0,
+      "id": 28359546,
+      "score": 2,
+      "time": 1630350116,
+      "title": "The end of phone calls: why young people have silenced their ringtones",
+      "type": "story",
+      "url": "https://www.theguardian.com/technology/2021/aug/30/the-end-of-phone-calls-why-young-people-have-silenced-their-ringtones"
+    },
+    {
       "by": "doener",
       "descendants": 0,
       "id": 28359519,
@@ -14,7 +34,7 @@
       "by": "ta988",
       "descendants": 0,
       "id": 28359518,
-      "score": 1,
+      "score": 2,
       "time": 1630349966,
       "title": "A combination of failures: why 3.6m lb of nuclear waste is buried on a CA beach",
       "type": "story",
@@ -44,7 +64,7 @@
       "by": "BitwiseFool",
       "descendants": 0,
       "id": 28359470,
-      "score": 2,
+      "score": 3,
       "time": 1630349726,
       "title": "Pokémon Go's Reddit Goes Dark in Protest Against Site Inaction",
       "type": "story",
@@ -64,6 +84,9 @@
       "by": "fspacef",
       "descendants": 0,
       "id": 28359442,
+      "kids": [
+        28359533
+      ],
       "score": 1,
       "time": 1630349598,
       "title": "Pile of raw chicken on airport luggage carousel prompts warning from TSA",
@@ -75,30 +98,10 @@
       "descendants": 0,
       "id": 28359437,
       "score": 1,
-      "text": "I took a look today at a domain that is expiring soon. We shut down everything associated with the domain a few months ago (the DO droplet and the cloudflare record).<p>However, we left the DNS pointing to cloudflare at our registrar.<p>When accessing the domain today, I noticed that it was redirected to various spam sites. Upon further inspection it looks like the DNS records were changed. There was a CNAME entry that was causing this redirect.<p>Is this some sort of security vulnerability? I can&#x27;t imagine Cloudflare or our registrar would change the records to this spam domain themselves. I&#x27;m at a loss for how this could possibly occur.",
+      "text": "I took a look today at a domain that is expiring soon. We shut down everything associated with the domain a few months ago (the DO droplet and the cloudflare record).<p>However, we left the name servers pointing to cloudflare at our registrar.<p>When accessing the domain today, I noticed that it was redirected to various spam sites. Upon further inspection it looks like the DNS records were changed. There was a CNAME entry that was causing this redirect.<p>Is this some sort of security vulnerability? I can&#x27;t imagine Cloudflare or our registrar would change the records to this spam domain themselves. I&#x27;m at a loss for how this could possibly occur.",
       "time": 1630349564,
       "title": "Mysterious Spam Cname Record Appearing on Cloudflare",
       "type": "story"
-    },
-    {
-      "by": "joeyespo",
-      "descendants": 0,
-      "id": 28359410,
-      "score": 2,
-      "time": 1630349406,
-      "title": "The Multi-Monorepo",
-      "type": "story",
-      "url": "https://vjpr.medium.com/the-multi-monorepo-209041932fbf"
-    },
-    {
-      "by": "Tomte",
-      "descendants": 0,
-      "id": 28359405,
-      "score": 2,
-      "time": 1630349379,
-      "title": "Rainbow Warrior on shipbreaking beach in Bangladesh (2018)",
-      "type": "story",
-      "url": "https://www.mo.be/en/news/rainbow-warrior-shipbreaking-beach-bangladesh"
     }
   ]
 }
