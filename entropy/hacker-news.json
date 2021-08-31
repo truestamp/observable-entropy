@@ -1,11 +1,71 @@
 {
   "stories": [
     {
+      "by": "Tomte",
+      "descendants": 0,
+      "id": 28370336,
+      "score": 1,
+      "time": 1630428322,
+      "title": "Small Colleges Can Save Towns in Middle America (2017)",
+      "type": "story",
+      "url": "https://www.bloomberg.com/view/articles/2017-11-14/small-colleges-can-save-towns-in-middle-america"
+    },
+    {
+      "by": "Tomte",
+      "descendants": 0,
+      "id": 28370328,
+      "score": 1,
+      "time": 1630428285,
+      "title": "Zeynep Tufekci on the Sociology of the Moment (Ep. 130)",
+      "type": "story",
+      "url": "https://conversationswithtyler.com/episodes/zeynep-tufekci/"
+    },
+    {
+      "by": "zekrioca",
+      "descendants": 0,
+      "id": 28370323,
+      "score": 1,
+      "time": 1630428264,
+      "title": "Intel's Lidar, face recognition, and tracking cameras will be discontinued",
+      "type": "story",
+      "url": "https://spectrum.ieee.org/intel-realsense"
+    },
+    {
+      "by": "rbanffy",
+      "descendants": 0,
+      "id": 28370318,
+      "score": 1,
+      "time": 1630428243,
+      "title": "The Curious Case of the Radio Amateur and the Insulin Pump",
+      "type": "story",
+      "url": "https://hackaday.com/2021/08/29/the-curious-case-of-the-radio-amateur-and-the-insulin-pump/"
+    },
+    {
+      "by": "georgecmu",
+      "descendants": 0,
+      "id": 28370309,
+      "score": 2,
+      "time": 1630428205,
+      "title": "Zoom court hearing postponed after accused found in same location as witness",
+      "type": "story",
+      "url": "https://www.sturgisjournal.com/story/news/crime/2021/03/05/court-hearing-postponed-after-accused-found-same-house-witness/4587600001/"
+    },
+    {
+      "by": "jkestner",
+      "descendants": 0,
+      "id": 28370277,
+      "score": 1,
+      "time": 1630428104,
+      "title": "A story about Hopscotch going through App Store review",
+      "type": "story",
+      "url": "https://twitter.com/SamJ0hn/status/1431001795904561160"
+    },
+    {
       "by": "marcdro",
       "descendants": 0,
       "id": 28370263,
       "score": 1,
-      "text": "So this idea has been on my mind for a while...<p>I absolutely hate writing Open API documents in yaml by hand. GUI tools like StopLight Studio are a bit better, but still don&#x27;t really cut it for me.<p>I don&#x27;t like generating it from code either because it tends to clutter everything and devs usually get too much confident and don&#x27;t bother to make sure that the output is good enough.<p>So, ever since I saw the aws-cdk I can&#x27;t stop thinking that this approach would be a perfect solution for generating Open API docs in a much more dev-friendly way.<p>There&#x27;s a list of features that we would get out of the box:<p>- Language bindings for popular languages through jsii (https:&#x2F;&#x2F;github.com&#x2F;aws&#x2F;jsii) (same tech behind aws-cdk).\n- Type checks and autocomplete.\n- I18n.\n- Support for js modules and npm packages.\n- Easy CICD integration.\n- Git-friendly.\n- Live-reload preview though webpack-dev-server or similar.<p>I&#x27;ve been working on a very rough and unfinished POC here:<p>https:&#x2F;&#x2F;github.com&#x2F;marcmarcet&#x2F;openapi-cdk&#x2F;blob&#x2F;main&#x2F;packages&#x2F;demo&#x2F;bin&#x2F;app.ts<p>Do you guys think this could get any interest from the community?",
+      "text": "So this idea has been on my mind for a while...<p>I absolutely hate writing Open API documents in yaml by hand. GUI tools like StopLight Studio are a bit better, but still don&#x27;t really cut it for me.<p>I don&#x27;t like generating it from code either because it tends to clutter everything and devs usually get too much confident and don&#x27;t bother to make sure that the output is good enough.<p>So, ever since I saw the aws-cdk I can&#x27;t stop thinking that this approach would be a perfect solution for generating Open API docs in a much more dev-friendly way.<p>There&#x27;s a list of features that we would get out of the box:<p>- Language bindings for popular languages through jsii (https:&#x2F;&#x2F;github.com&#x2F;aws&#x2F;jsii) (same tech behind aws-cdk).<p>- Type checks and autocomplete.<p>- I18n.<p>- Support for js modules and npm packages.<p>- Easy CICD integration.<p>- Git-friendly.<p>- Live-reload preview though webpack-dev-server or similar.<p>I&#x27;ve been working on a very rough and unfinished POC. This is how it could look like:<p>https:&#x2F;&#x2F;github.com&#x2F;marcmarcet&#x2F;openapi-cdk&#x2F;blob&#x2F;main&#x2F;packages&#x2F;demo&#x2F;bin&#x2F;app.ts<p>Do you guys think this makes sense? do you see it getting any interest from the community?",
       "time": 1630428045,
       "title": "OpenAPI as code. What do you think?",
       "type": "story"
@@ -19,16 +79,6 @@
       "title": "Nightclub in Glasgow will harness energy from dancers",
       "type": "story",
       "url": "https://www.optimistdaily.com/2021/08/this-nightclub-in-glasgow-will-harness-energy-from-the-body-heat-of-dancers/"
-    },
-    {
-      "by": "swyx",
-      "descendants": 0,
-      "id": 28370222,
-      "score": 1,
-      "time": 1630427885,
-      "title": "Glean – Code source analyzer from Facebook",
-      "type": "story",
-      "url": "https://glean.software/docs/introduction"
     },
     {
       "by": "Brajeshwar",
@@ -49,59 +99,6 @@
       "title": "Look over my shoulder as I translate ideas into apps",
       "type": "story",
       "url": "https://abitgamey.substack.com/p/coming-soon"
-    },
-    {
-      "by": "lnwlebjel",
-      "descendants": 1,
-      "id": 28370181,
-      "kids": [
-        28370244
-      ],
-      "score": 1,
-      "time": 1630427738,
-      "title": "Long-Term Orbit Stability of the Apollo 11 “Eagle” Lunar Module Ascent Stage",
-      "type": "story",
-      "url": "https://arxiv.org/abs/2105.10088"
-    },
-    {
-      "by": "jmovs",
-      "descendants": 0,
-      "id": 28370164,
-      "score": 1,
-      "time": 1630427694,
-      "title": "Don't Do This: Install ZFS Ubuntu Root from Debian Live-CD",
-      "type": "story",
-      "url": "https://justinscholz.de/2021/08/30/install-ubuntu-20-04-with-zfs-root-from-debian-live-c/"
-    },
-    {
-      "by": "alonmower",
-      "descendants": 0,
-      "id": 28370130,
-      "score": 3,
-      "time": 1630427573,
-      "title": "Amplitude (YC W12) IPO S1",
-      "type": "story",
-      "url": "https://www.sec.gov/Archives/edgar/data/1866692/000119312521260696/d143868ds1.htm"
-    },
-    {
-      "by": "cowpig",
-      "descendants": 0,
-      "id": 28370119,
-      "score": 1,
-      "time": 1630427527,
-      "title": "The biggest metropolitan areas are now the most unequal",
-      "type": "story",
-      "url": "https://www.nytimes.com/2019/12/02/upshot/wealth-poverty-divide-american-cities.html"
-    },
-    {
-      "by": "doublerebel",
-      "descendants": 0,
-      "id": 28370090,
-      "score": 1,
-      "time": 1630427424,
-      "title": "When bug bounties went boom, Part Two",
-      "type": "story",
-      "url": "https://duo.com/decipher/uprising-in-the-valley-when-bug-bounties-went-boom-part-two"
     }
   ]
 }
