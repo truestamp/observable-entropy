@@ -1,6 +1,69 @@
 {
   "stories": [
     {
+      "by": "marcdro",
+      "descendants": 0,
+      "id": 28370263,
+      "score": 1,
+      "text": "So this idea has been on my mind for a while...<p>I absolutely hate writing Open API documents in yaml by hand. GUI tools like StopLight Studio are a bit better, but still don&#x27;t really cut it for me.<p>I don&#x27;t like generating it from code either because it tends to clutter everything and devs usually get too much confident and don&#x27;t bother to make sure that the output is good enough.<p>So, ever since I saw the aws-cdk I can&#x27;t stop thinking that this approach would be a perfect solution for generating Open API docs in a much more dev-friendly way.<p>There&#x27;s a list of features that we would get out of the box:<p>- Language bindings for popular languages through jsii (https:&#x2F;&#x2F;github.com&#x2F;aws&#x2F;jsii) (same tech behind aws-cdk).\n- Type checks and autocomplete.\n- I18n.\n- Support for js modules and npm packages.\n- Easy CICD integration.\n- Git-friendly.\n- Live-reload preview though webpack-dev-server or similar.<p>I&#x27;ve been working on a very rough and unfinished POC here:<p>https:&#x2F;&#x2F;github.com&#x2F;marcmarcet&#x2F;openapi-cdk&#x2F;blob&#x2F;main&#x2F;packages&#x2F;demo&#x2F;bin&#x2F;app.ts<p>Do you guys think this could get any interest from the community?",
+      "time": 1630428045,
+      "title": "OpenAPI as code. What do you think?",
+      "type": "story"
+    },
+    {
+      "by": "hassanahmad",
+      "descendants": 0,
+      "id": 28370238,
+      "score": 1,
+      "time": 1630427945,
+      "title": "Nightclub in Glasgow will harness energy from dancers",
+      "type": "story",
+      "url": "https://www.optimistdaily.com/2021/08/this-nightclub-in-glasgow-will-harness-energy-from-the-body-heat-of-dancers/"
+    },
+    {
+      "by": "swyx",
+      "descendants": 0,
+      "id": 28370222,
+      "score": 1,
+      "time": 1630427885,
+      "title": "Glean – Code source analyzer from Facebook",
+      "type": "story",
+      "url": "https://glean.software/docs/introduction"
+    },
+    {
+      "by": "Brajeshwar",
+      "descendants": 0,
+      "id": 28370192,
+      "score": 1,
+      "time": 1630427760,
+      "title": "Artificial intelligence just located new craters on Mars in 5 seconds",
+      "type": "story",
+      "url": "https://www.tweaktown.com/news/81376/artificial-intelligence-just-located-new-craters-on-mars-in-5-seconds/index.html"
+    },
+    {
+      "by": "plamartin",
+      "descendants": 0,
+      "id": 28370190,
+      "score": 1,
+      "time": 1630427758,
+      "title": "Look over my shoulder as I translate ideas into apps",
+      "type": "story",
+      "url": "https://abitgamey.substack.com/p/coming-soon"
+    },
+    {
+      "by": "lnwlebjel",
+      "descendants": 1,
+      "id": 28370181,
+      "kids": [
+        28370244
+      ],
+      "score": 1,
+      "time": 1630427738,
+      "title": "Long-Term Orbit Stability of the Apollo 11 “Eagle” Lunar Module Ascent Stage",
+      "type": "story",
+      "url": "https://arxiv.org/abs/2105.10088"
+    },
+    {
       "by": "jmovs",
       "descendants": 0,
       "id": 28370164,
@@ -14,7 +77,7 @@
       "by": "alonmower",
       "descendants": 0,
       "id": 28370130,
-      "score": 2,
+      "score": 3,
       "time": 1630427573,
       "title": "Amplitude (YC W12) IPO S1",
       "type": "story",
@@ -39,66 +102,6 @@
       "title": "When bug bounties went boom, Part Two",
       "type": "story",
       "url": "https://duo.com/decipher/uprising-in-the-valley-when-bug-bounties-went-boom-part-two"
-    },
-    {
-      "by": "quyleanh",
-      "descendants": 0,
-      "id": 28370089,
-      "score": 1,
-      "time": 1630427422,
-      "title": "Windows 11 won’t include Android app support at launch",
-      "type": "story",
-      "url": "https://www.theverge.com/2021/8/31/22650000/microsoft-windows-11-android-apps-support"
-    },
-    {
-      "by": "vivekmgeorge",
-      "descendants": 0,
-      "id": 28370063,
-      "score": 1,
-      "time": 1630427325,
-      "title": "New School's Platform Cooperative Course",
-      "type": "story",
-      "url": "https://cpe.newschool.edu/search/publicCourseSearchDetails.do?method=load&courseId=2941618"
-    },
-    {
-      "by": "edp",
-      "descendants": 0,
-      "id": 28370025,
-      "score": 1,
-      "time": 1630427221,
-      "title": "Docker Business/Docker Desktop FAQs",
-      "type": "story",
-      "url": "https://www.docker.com/pricing/faq"
-    },
-    {
-      "by": "lukicdarkoo",
-      "descendants": 0,
-      "id": 28370012,
-      "score": 1,
-      "time": 1630427172,
-      "title": "Coworker ported a C++ rendering engine to WebAssembly",
-      "type": "story",
-      "url": "https://medium.com/cyberbotics/porting-a-c-rendering-engine-to-webassembly-9c32d76c31f1"
-    },
-    {
-      "by": "air7",
-      "descendants": 0,
-      "id": 28369964,
-      "score": 1,
-      "time": 1630426999,
-      "title": "Personalized P-Values for Social/Personality Psychologists",
-      "type": "story",
-      "url": "https://replicationindex.com/2021/01/19/personalized-p-values/"
-    },
-    {
-      "by": "jiannengli",
-      "descendants": 0,
-      "id": 28369948,
-      "score": 1,
-      "time": 1630426924,
-      "title": "Why is my JVM's max heap size less than -Xmx?",
-      "type": "story",
-      "url": "https://swordandsignals.com/2021/08/31/jvm-xmx.html"
     }
   ]
 }
