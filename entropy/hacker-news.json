@@ -1,6 +1,56 @@
 {
   "stories": [
     {
+      "by": "CaliforniaKarl",
+      "descendants": 0,
+      "id": 28385549,
+      "score": 2,
+      "time": 1630530613,
+      "title": "Don't Touch: The Story of the U-Force (Gaming Historian) [video]",
+      "type": "story",
+      "url": "https://www.youtube.com/watch?v=EVszKSeSE-0"
+    },
+    {
+      "by": "rizwanj",
+      "descendants": 0,
+      "id": 28385544,
+      "score": 1,
+      "time": 1630530603,
+      "title": "An exercise to improve your visual perception",
+      "type": "story",
+      "url": "https://lowfidelity.substack.com/p/wednesday-exercise-visual-perception"
+    },
+    {
+      "by": "belter",
+      "descendants": 0,
+      "id": 28385534,
+      "score": 1,
+      "time": 1630530523,
+      "title": "Judge rescinds order stripping unvaccinated Pilsen woman of child custody rights",
+      "type": "story",
+      "url": "https://www.chicagotribune.com/coronavirus/vaccine/ct-covid-child-custody-vaccine-judge-20210830-pcgg4sznzzfd7mqadk4yztzisa-story.html"
+    },
+    {
+      "by": "infodocket",
+      "descendants": 0,
+      "id": 28385521,
+      "score": 1,
+      "time": 1630530398,
+      "title": "IUCN to Boost Open Access to Conservation Knowledge",
+      "type": "story",
+      "url": "https://www.iucn.org/news/science-and-economics/202108/iucn-boost-open-access-conservation-knowledge"
+    },
+    {
+      "by": "Atlas",
+      "descendants": 0,
+      "id": 28385517,
+      "score": 2,
+      "time": 1630530381,
+      "title": "Fired NY credit union employee nukes data in revenge",
+      "type": "story",
+      "url": "https://www.bleepingcomputer.com/news/security/fired-ny-credit-union-employee-nukes-21gb-of-data-in-revenge/"
+    },
+    {
       "by": "belter",
       "descendants": 1,
       "id": 28385508,
@@ -17,7 +67,7 @@
       "by": "psoto",
       "descendants": 0,
       "id": 28385506,
-      "score": 1,
+      "score": 2,
       "time": 1630530314,
       "title": "Structuring your Python machine learning projects: an opinionated review (2021)",
       "type": "story",
@@ -27,7 +77,7 @@
       "by": "glitcher",
       "descendants": 0,
       "id": 28385496,
-      "score": 1,
+      "score": 2,
       "time": 1630530242,
       "title": "Court Ruling Against Locast Gets the Law Wrong",
       "type": "story",
@@ -37,7 +87,7 @@
       "by": "infodocket",
       "descendants": 0,
       "id": 28385494,
-      "score": 1,
+      "score": 2,
       "time": 1630530241,
       "title": "Library of Congress Releases Data for Free Download and Discovery",
       "type": "story",
@@ -45,65 +95,16 @@
     },
     {
       "by": "mattmarcus",
-      "descendants": 0,
+      "descendants": 1,
       "id": 28385466,
+      "kids": [
+        28385528
+      ],
       "score": 1,
       "text": "We&#x27;ve been asked by a number of our customers to add endpoints in our API that would allow them to create, update, or delete objects in bulk. Today, we try to keep our endpoints pretty simple, like this:<p><pre><code>  POST &#x2F;resource\n  PATCH &#x2F;resource&#x2F;:id\n  GET &#x2F;resource&#x2F;:id\n  DELETE &#x2F;resource&#x2F;:id\n</code></pre>\nThe reason for the ask comes when someone needs to operate on thousands (or more) records at a time, and it&#x27;s more efficient to just do it at once rather than be at the whims of request latencies and rate limits. So I understand the reason behind it. Yet, I don&#x27;t see a lot of great APIs offer endpoints like this.<p>Does anyone have thoughts on if this is an ok pattern (or anti-pattern)? I would be curious to see example API docs of any companies that do this particularly well.<p>(For reference, this is our API: https:&#x2F;&#x2F;docs.moderntreasury.com&#x2F;)",
       "time": 1630530028,
       "title": "Ask HN: Are batch endpoints a good pattern in REST APIs?",
       "type": "story"
-    },
-    {
-      "by": "Lammy",
-      "descendants": 1,
-      "id": 28385463,
-      "kids": [
-        28385465
-      ],
-      "score": 1,
-      "time": 1630530015,
-      "title": "Larry Ellison Is a Billionaire Today Thanks to the CIA (2014)",
-      "type": "story",
-      "url": "https://www.businessinsider.com/the-cia-made-larry-ellison-a-billionaire-2014-9"
-    },
-    {
-      "by": "tosh",
-      "descendants": 0,
-      "id": 28385446,
-      "score": 1,
-      "time": 1630529913,
-      "title": "How Much Range?",
-      "type": "story",
-      "url": "https://www.tbray.org/ongoing/When/202x/2021/09/01/How-Much-Range"
-    },
-    {
-      "by": "johnny313",
-      "descendants": 0,
-      "id": 28385436,
-      "score": 1,
-      "time": 1630529877,
-      "title": "I Helped Destroy People: disillusioned FBI agent leaked documents",
-      "type": "story",
-      "url": "https://www.nytimes.com/2021/09/01/magazine/fbi-terrorism-terry-albury.html"
-    },
-    {
-      "by": "astro-codes",
-      "descendants": 0,
-      "id": 28385427,
-      "score": 1,
-      "time": 1630529831,
-      "title": "Ask HN: If you could build an OS for software dev, what would it look like?",
-      "type": "story"
-    },
-    {
-      "by": "a11r",
-      "descendants": 0,
-      "id": 28385421,
-      "score": 1,
-      "time": 1630529775,
-      "title": "Retry and Session Affinity Support for gRPC",
-      "type": "story",
-      "url": "https://cloud.google.com/blog/products/application-development/new-service-mesh-features-with-proxyless-grpc-services-and-traffic-director"
     }
   ]
 }
