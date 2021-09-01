@@ -1,10 +1,60 @@
 {
   "stories": [
     {
+      "by": "bcaulfield",
+      "descendants": 0,
+      "id": 28384746,
+      "score": 1,
+      "time": 1630525715,
+      "title": "Raised from the deep, Rome’s deadly weapon",
+      "type": "story",
+      "url": "https://www.thetimes.co.uk/article/raised-from-the-deep-romes-deadly-weapon-c09rz6r68"
+    },
+    {
+      "by": "BlackVanilla",
+      "descendants": 0,
+      "id": 28384737,
+      "score": 2,
+      "time": 1630525673,
+      "title": "International Space Station facing irreparable failures, Russia warns",
+      "type": "story",
+      "url": "https://www.bbc.co.uk/news/world-europe-58408911"
+    },
+    {
+      "by": "pier25",
+      "descendants": 0,
+      "id": 28384731,
+      "score": 1,
+      "text": "We&#x27;re dealing with two major issues.<p>1) Data transfers outside the EU<p>We&#x27;re using Fauna which is a distributed database, and it seems we won&#x27;t be able to use the distributed features. To be able to transfer EU data outside the EU, the US would need to have deemed adequate in terms of data protection by the EU and this hasn&#x27;t happened.<p>https:&#x2F;&#x2F;ec.europa.eu&#x2F;info&#x2F;law&#x2F;law-topic&#x2F;data-protection&#x2F;international-dimension-data-protection&#x2F;adequacy-decisions_en<p>So far, it seems the most sensible option for us having users worldwide is to just store everything in the EU and be done with it.<p>The alternative is of course having 2 databases, with the complexity that this brings.<p>2) Analytics data<p>We initially wanted to offer visitor analytics to our users which included the country. To do this we planned to get the location using the IPs from the NginX logs, but under the GDPR IPs can be considered personal information.<p>Also, retrieving the country for a particular IP is also considered personal information.<p>Under the GDPR law, users have to opt in for this collection which results in a terrible UX for our users&#x27; visitors and, again, complicates everything.<p>This is all very confusing to be honest. I&#x27;ve seen some sources that say IPs can only be considered personal information if you&#x27;re an ISP and can tie an IP with a person. But then I&#x27;ve also seen sources claiming it doesn&#x27;t matter.",
+      "time": 1630525665,
+      "title": "Ask HN: How are you dealing with GDPR?",
+      "type": "story"
+    },
+    {
+      "by": "spieswl",
+      "descendants": 0,
+      "id": 28384720,
+      "score": 1,
+      "time": 1630525596,
+      "title": "Trucking automation is here (but not as sexy as you think)",
+      "type": "story",
+      "url": "https://www.zdnet.com/article/trucking-automation-is-here-but-not-as-sexy-as-you-think/"
+    },
+    {
+      "by": "harisb2012",
+      "descendants": 0,
+      "id": 28384711,
+      "score": 1,
+      "time": 1630525555,
+      "title": "Customer Happiness: What It Is and Why It's Important?",
+      "type": "story",
+      "url": "https://producthoop.com/posts/customer-happiness-what-it-is?ref=hackernews"
+    },
+    {
       "by": "anigbrowl",
       "descendants": 0,
       "id": 28384695,
-      "score": 1,
+      "score": 3,
       "time": 1630525479,
       "title": "UK national extradited to US for film/TV piracy",
       "type": "story",
@@ -34,7 +84,7 @@
       "by": "CrankyBear",
       "descendants": 0,
       "id": 28384670,
-      "score": 1,
+      "score": 3,
       "time": 1630525380,
       "title": "CloudLinux offers CentOS 8 users a support lifeline",
       "type": "story",
@@ -52,62 +102,6 @@
       "title": "The story of an Afghan man who fell from the sky",
       "type": "story",
       "url": "https://www.washingtonpost.com/world/2021/08/26/story-an-afghan-man-who-fell-sky/"
-    },
-    {
-      "by": "uptown",
-      "descendants": 0,
-      "id": 28384634,
-      "score": 1,
-      "time": 1630525182,
-      "title": "Apple Self-Driving Cars Involved in Minor Collisions for First Time in 2 Years",
-      "type": "story",
-      "url": "https://www.macrumors.com/2021/09/01/apple-self-driving-cars-minor-collisions/"
-    },
-    {
-      "by": "arunbahl",
-      "descendants": 0,
-      "id": 28384581,
-      "score": 3,
-      "time": 1630524869,
-      "title": "The Thoughts the Civilized Keep",
-      "type": "story",
-      "url": "https://www.noemamag.com/the-thoughts-the-civilized-keep/"
-    },
-    {
-      "by": "_Microft",
-      "descendants": 0,
-      "id": 28384568,
-      "score": 1,
-      "time": 1630524797,
-      "title": "What If the Coronavirus Crisis Is Just a Trial Run?",
-      "type": "story",
-      "url": "https://www.nytimes.com/2021/09/01/opinion/covid-pandemic-global-economy-politics.html"
-    },
-    {
-      "by": "toomuchtodo",
-      "descendants": 3,
-      "id": 28384557,
-      "kids": [
-        28384683,
-        28384638,
-        28384573,
-        28384658
-      ],
-      "score": 4,
-      "time": 1630524723,
-      "title": "Reddit Admins: Covid denialism and policy clarifications",
-      "type": "story",
-      "url": "https://www.reddit.com/r/announcements/comments/pg006s/covid_denialism_and_policy_clarifications/"
-    },
-    {
-      "by": "todsacerdoti",
-      "descendants": 0,
-      "id": 28384556,
-      "score": 1,
-      "time": 1630524721,
-      "title": "Timefind: Search a Website's History",
-      "type": "story",
-      "url": "https://github.com/Cykelero/timefind"
     }
   ]
 }
