@@ -1,6 +1,68 @@
 {
   "stories": [
     {
+      "by": "mattmarcus",
+      "descendants": 0,
+      "id": 28385466,
+      "score": 1,
+      "text": "We&#x27;ve been asked by a number of our customers to add endpoints in our API that would allow them to create, update, or delete objects in bulk. Today, we try to keep our endpoints pretty simple, like this:<p><pre><code>  POST &#x2F;resource\n  PATCH &#x2F;resource&#x2F;:id\n  GET &#x2F;resource&#x2F;:id\n  DELETE &#x2F;resource&#x2F;:id\n</code></pre>\nThe reason for the ask comes when someone needs to operate on thousands (or more) records at a time, and it&#x27;s more efficient to just do it at once rather than be at the whims of request latencies and rate limits. So I understand the reason behind it. Yet, I don&#x27;t see a lot of great APIs offer endpoints like this.<p>Does anyone have thoughts on if this is an ok pattern (or anti-pattern)? I would be curious to see example API docs of any companies that do this particularly well.<p>(For reference, this is our API: https:&#x2F;&#x2F;docs.moderntreasury.com&#x2F;)",
+      "time": 1630530028,
+      "title": "Ask HN: Are batch endpoints a good pattern in REST APIs?",
+      "type": "story"
+    },
+    {
+      "by": "Lammy",
+      "descendants": 1,
+      "id": 28385463,
+      "kids": [
+        28385465
+      ],
+      "score": 1,
+      "time": 1630530015,
+      "title": "Larry Ellison Is a Billionaire Today Thanks to the CIA (2014)",
+      "type": "story",
+      "url": "https://www.businessinsider.com/the-cia-made-larry-ellison-a-billionaire-2014-9"
+    },
+    {
+      "by": "tosh",
+      "descendants": 0,
+      "id": 28385446,
+      "score": 1,
+      "time": 1630529913,
+      "title": "How Much Range?",
+      "type": "story",
+      "url": "https://www.tbray.org/ongoing/When/202x/2021/09/01/How-Much-Range"
+    },
+    {
+      "by": "johnny313",
+      "descendants": 0,
+      "id": 28385436,
+      "score": 1,
+      "time": 1630529877,
+      "title": "I Helped Destroy People: disillusioned FBI agent leaked documents",
+      "type": "story",
+      "url": "https://www.nytimes.com/2021/09/01/magazine/fbi-terrorism-terry-albury.html"
+    },
+    {
+      "by": "astro-codes",
+      "descendants": 0,
+      "id": 28385427,
+      "score": 1,
+      "time": 1630529831,
+      "title": "Ask HN: If you could build an OS for software dev, what would it look like?",
+      "type": "story"
+    },
+    {
+      "by": "a11r",
+      "descendants": 0,
+      "id": 28385421,
+      "score": 1,
+      "time": 1630529775,
+      "title": "Retry and Session Affinity Support for gRPC",
+      "type": "story",
+      "url": "https://cloud.google.com/blog/products/application-development/new-service-mesh-features-with-proxyless-grpc-services-and-traffic-director"
+    },
+    {
       "by": "nobody9999",
       "descendants": 0,
       "id": 28385411,
@@ -39,66 +101,6 @@
       "title": "FTC bans 'stalkerware' company from operating in surveillance industry",
       "type": "story",
       "url": "https://thehill.com/policy/cybersecurity/570427-ftc-bans-stalkerware-company-from-operating-in-surveillance-industry"
-    },
-    {
-      "by": "WisNorCan",
-      "descendants": 0,
-      "id": 28385267,
-      "score": 1,
-      "time": 1630528827,
-      "title": "Andy Jassy overruled recommendation a senior exec be fired for discrimination",
-      "type": "story",
-      "url": "https://www.protocol.com/enterprise/aws-jassy-bell-discrimination"
-    },
-    {
-      "by": "PaulHoule",
-      "descendants": 0,
-      "id": 28385246,
-      "score": 2,
-      "time": 1630528671,
-      "title": "Beekeper on Cash Flow: 'I was making money but had no money'",
-      "type": "story",
-      "url": "https://www.bbc.com/news/business-58319314"
-    },
-    {
-      "by": "ericdanielski",
-      "descendants": 0,
-      "id": 28385227,
-      "score": 2,
-      "time": 1630528559,
-      "title": "The World’s Safest Source of Energy Will Surprise You (2018)",
-      "type": "story",
-      "url": "https://cambridgehouse.com/news/7971/energy-metals-the-worlds-safest-source-of-energy-will-surprise-you"
-    },
-    {
-      "by": "DanBC",
-      "descendants": 0,
-      "id": 28385221,
-      "score": 1,
-      "time": 1630528512,
-      "title": "Will S&Box be in direct competition with Garry's Mod?",
-      "type": "story",
-      "url": "https://play.jumpcutonline.co.uk/2021/09/01/sbox-in-direct-competition-with-garrys-mod/"
-    },
-    {
-      "by": "felixbraun",
-      "descendants": 0,
-      "id": 28385183,
-      "score": 2,
-      "time": 1630528275,
-      "title": "Beating 1 Sievert: Optimal Radiation Shielding of Astronauts on Mission to Mars",
-      "type": "story",
-      "url": "https://agupubs.onlinelibrary.wiley.com/doi/epdf/10.1029/2021SW002749"
-    },
-    {
-      "by": "doener",
-      "descendants": 0,
-      "id": 28385174,
-      "score": 1,
-      "time": 1630528215,
-      "title": "Linux Kernel 5.14 Released Right After the 30th Anniversary of Linux",
-      "type": "story",
-      "url": "https://news.itsfoss.com/kernel-5-14-release/"
     }
   ]
 }
