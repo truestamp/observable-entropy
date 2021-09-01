@@ -1,6 +1,26 @@
 {
   "stories": [
     {
+      "by": "ecliptik",
+      "descendants": 0,
+      "id": 28376287,
+      "score": 1,
+      "time": 1630468728,
+      "title": "Playing games on my ancient TV connects me to the present",
+      "type": "story",
+      "url": "https://www.polygon.com/22640172/crt-monitors-flat-screens-retro-games-better-worse-old-tvs"
+    },
+    {
+      "by": "guiambros",
+      "descendants": 0,
+      "id": 28376282,
+      "score": 1,
+      "time": 1630468610,
+      "title": "Mirrors Could Solve Our Energy Problem [video]",
+      "type": "story",
+      "url": "https://www.youtube.com/watch?v=ccO0_hSXMyM"
+    },
+    {
       "by": "Khelavaster",
       "descendants": 0,
       "id": 28376270,
@@ -34,7 +54,7 @@
       "by": "_448",
       "descendants": 0,
       "id": 28376255,
-      "score": 1,
+      "score": 2,
       "text": "I am developing a responsive web app that has a commenting system. And I want to provide similar experience both to mobile and desktop users. So I was thinking of developing a commenting system where next level of comments are reached by clicking on a comment at current level. Something like the following:<p>[content]\n&lt;comments at top level (level 0)&gt;\n[comment #0]\n[comment #1]\n:\n:\n[comment #N]<p>When a user clicks on one of the comments, say &quot;comment #1&quot; then the next level of comments(i.e child comments of comment #1) are displayed as follows:<p>[content]\n[comment #1]\n&lt;child comments(level 1) for comment #1&gt;\n[comment #10]\n[comment #11]\n:\n:\n[comment #1N]<p>Do you see any problem with this approach? Is there a better way to display nested comments in a responsive web app that works both on desktop and mobile?",
       "time": 1630468215,
       "title": "Ask HN: What is the best way to display nested comments on mobile devices?",
@@ -42,8 +62,11 @@
     },
     {
       "by": "omarfarooq",
-      "descendants": 0,
+      "descendants": 1,
       "id": 28376233,
+      "kids": [
+        28376285
+      ],
       "score": 2,
       "time": 1630467943,
       "title": "Contrast: A macOS app for quick access to WCAG color contrast ratios",
@@ -79,26 +102,6 @@
       "title": "Enabling Seamless Kafka Async Queuing with Consumer Proxy",
       "type": "story",
       "url": "https://ubr.to/3Bxx8p7"
-    },
-    {
-      "by": "nanxiao",
-      "descendants": 0,
-      "id": 28376125,
-      "score": 1,
-      "time": 1630466300,
-      "title": "Enhance Libunwind on Illumos",
-      "type": "story",
-      "url": "https://nanxiao.me/en/enhance-libunwind-on-illumos/"
-    },
-    {
-      "by": "lnyan",
-      "descendants": 0,
-      "id": 28376123,
-      "score": 1,
-      "time": 1630466296,
-      "title": "SemIE: Semantically-Aware Image Extrapolation",
-      "type": "story",
-      "url": "https://semie-iccv.github.io/"
     }
   ]
 }
