@@ -1,6 +1,26 @@
 {
   "stories": [
     {
+      "by": "jinqueeny",
+      "descendants": 0,
+      "id": 28377272,
+      "score": 1,
+      "time": 1630481666,
+      "title": "Engula, a unit orchestration system that provides storage services as a whole",
+      "type": "story",
+      "url": "https://github.com/engula/engula"
+    },
+    {
+      "by": "TriNetra",
+      "descendants": 0,
+      "id": 28377259,
+      "score": 1,
+      "text": "Hi all,<p>We&#x27;ve built an alternative way to track consumption of the cloud. It’s in beta, and we’ve just made it public: https:&#x2F;&#x2F;cloudalarm.in&#x2F;. Right now, we support Azure and plan to support AWS and other cloud providers gradually in near future.<p>I&#x27;ve been Azure customer for years and have found the built-in budget alerting not useful. I wanted to get notified as soon as my current consumption rate would be estimated to exceed my budget, but budget alerts only notify you when you&#x27;ve consumed the specified percentage (threshold) of your budget. Setting a lower percentage means that I&#x27;d receive the email every month and I&#x27;d start ignoring it, while a higher percentage means I&#x27;d get alert very late by which time the damage is done.<p>On multiple occasions, I had a database got created in a much expensive tier (thanks to Azure defaults) and I&#x27;d find out about it after a month or so. A round of emails for refund would then be initiated. A colleague of mine also faced the same problem and upon research we found many other people were in the same boat.<p>I checked and discovered that AWS cloud watch also requires a similar threshold value.<p>As we started building it, we&#x27;ve also learnt that there&#x27;s no near real-time usage information made available regarding your consumption by the cloud providers, so we came up with a concept of resource alerts to alert whenever a new resource is created higher than the specified tier. Resources list is available in real-time so we can cache and compare to find out new resources just added.<p>ON top of this, we&#x27;ve added a few more things to make it even more usable:<p>- Email subject with enough info about the alert so you don&#x27;t have to read the body if you are already aware about the cause.<p>- email reminders for budget alerts so you don&#x27;t miss it.<p>- Embedded actions in budget alerts to ignore alert or update your budget without having to login<p>- Track accidental deletion of critical resources like databases.<p>It ended up taking us over 4 months to build this into a scalable solution that can work efficiently with a cloud subscription having a few resources to the one having thousands of them - we faced multiple consistency issues in the APIs around getting this info reliably from Azure, not to mention the covid and other diseases that engulfed the family of very small team of ours.<p>We’d love your feedback, experience and thoughts!",
+      "time": 1630481469,
+      "title": "Show HN: Get timely alerts for your cloud resources and costs",
+      "type": "story"
+    },
+    {
       "by": "randomperson_24",
       "descendants": 0,
       "id": 28377244,
@@ -17,7 +37,7 @@
       "kids": [
         28377243
       ],
-      "score": 1,
+      "score": 2,
       "time": 1630481083,
       "title": "Show HN: SnipRSS – Straight to RSS web clipper for content curators",
       "type": "story",
@@ -82,25 +102,6 @@
       "title": "Docker no longer free for large businesses",
       "type": "story",
       "url": "https://www.docker.com/products/docker-desktop"
-    },
-    {
-      "by": "dtx1",
-      "descendants": 0,
-      "id": 28377109,
-      "score": 1,
-      "time": 1630479466,
-      "title": "Building a no-compromises 'TRANSFORMER' PC",
-      "type": "story",
-      "url": "https://www.youtube.com/watch?v=dSJZ7MtKe1w"
-    },
-    {
-      "by": "templarchamp",
-      "descendants": 0,
-      "id": 28377106,
-      "score": 1,
-      "time": 1630479432,
-      "title": "Ask HN: Why not have “search” next to “submit” in this portal?",
-      "type": "story"
     }
   ]
 }
