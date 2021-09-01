@@ -1,6 +1,46 @@
 {
   "stories": [
     {
+      "by": "gmays",
+      "descendants": 0,
+      "id": 28385597,
+      "score": 1,
+      "time": 1630530920,
+      "title": "Facebook's new moves to lower News Feed's political volume",
+      "type": "story",
+      "url": "https://www.axios.com/facebook-news-feeds-politics-b4a32c93-3dab-42cd-b761-039363ebdb7c.html"
+    },
+    {
+      "by": "todsacerdoti",
+      "descendants": 0,
+      "id": 28385566,
+      "score": 1,
+      "time": 1630530723,
+      "title": "Genode OS Framework 21.08",
+      "type": "story",
+      "url": "https://genode.org/documentation/release-notes/21.08"
+    },
+    {
+      "by": "fspacef",
+      "descendants": 0,
+      "id": 28385560,
+      "score": 1,
+      "time": 1630530688,
+      "title": "You Can Finally Buy Le Diplomate’s Bread in an Alley Bakery Near Union Market",
+      "type": "story",
+      "url": "https://www.washingtonian.com/2021/09/01/you-can-finally-buy-le-diplomates-bread-in-an-alley-bakery-near-union-market/"
+    },
+    {
+      "by": "privatdozent",
+      "descendants": 0,
+      "id": 28385559,
+      "score": 1,
+      "time": 1630530683,
+      "title": "Oskar Morgenstern's Transformation (1925-38)",
+      "type": "story",
+      "url": "https://www.privatdozent.co/p/oskar-morgensterns-transformation"
+    },
+    {
       "by": "CaliforniaKarl",
       "descendants": 0,
       "id": 28385549,
@@ -62,49 +102,6 @@
       "title": "Amazon now running 164 flights a day to deliver stock in US",
       "type": "story",
       "url": "https://www.ft.com/content/ec355eb5-8dbd-4293-9a21-46fc09d2ed2d"
-    },
-    {
-      "by": "psoto",
-      "descendants": 0,
-      "id": 28385506,
-      "score": 2,
-      "time": 1630530314,
-      "title": "Structuring your Python machine learning projects: an opinionated review (2021)",
-      "type": "story",
-      "url": "https://pento.ai/blog/machine-learning-projects-structure"
-    },
-    {
-      "by": "glitcher",
-      "descendants": 0,
-      "id": 28385496,
-      "score": 2,
-      "time": 1630530242,
-      "title": "Court Ruling Against Locast Gets the Law Wrong",
-      "type": "story",
-      "url": "https://www.eff.org/deeplinks/2021/09/court-ruling-against-locast-gets-law-wrong-lets-giant-broadcast-networks-control"
-    },
-    {
-      "by": "infodocket",
-      "descendants": 0,
-      "id": 28385494,
-      "score": 2,
-      "time": 1630530241,
-      "title": "Library of Congress Releases Data for Free Download and Discovery",
-      "type": "story",
-      "url": "https://www.loc.gov/item/prn-21-047/library-of-congress-releases-data-for-free-download-and-discovery/2021-09-01/"
-    },
-    {
-      "by": "mattmarcus",
-      "descendants": 1,
-      "id": 28385466,
-      "kids": [
-        28385528
-      ],
-      "score": 1,
-      "text": "We&#x27;ve been asked by a number of our customers to add endpoints in our API that would allow them to create, update, or delete objects in bulk. Today, we try to keep our endpoints pretty simple, like this:<p><pre><code>  POST &#x2F;resource\n  PATCH &#x2F;resource&#x2F;:id\n  GET &#x2F;resource&#x2F;:id\n  DELETE &#x2F;resource&#x2F;:id\n</code></pre>\nThe reason for the ask comes when someone needs to operate on thousands (or more) records at a time, and it&#x27;s more efficient to just do it at once rather than be at the whims of request latencies and rate limits. So I understand the reason behind it. Yet, I don&#x27;t see a lot of great APIs offer endpoints like this.<p>Does anyone have thoughts on if this is an ok pattern (or anti-pattern)? I would be curious to see example API docs of any companies that do this particularly well.<p>(For reference, this is our API: https:&#x2F;&#x2F;docs.moderntreasury.com&#x2F;)",
-      "time": 1630530028,
-      "title": "Ask HN: Are batch endpoints a good pattern in REST APIs?",
-      "type": "story"
     }
   ]
 }
