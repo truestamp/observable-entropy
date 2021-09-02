@@ -1,6 +1,36 @@
 {
   "stories": [
     {
+      "by": "fabcomm",
+      "descendants": 0,
+      "id": 28387214,
+      "score": 1,
+      "time": 1630541966,
+      "title": "Making E-Commerce More Accessible",
+      "type": "story",
+      "url": "https://resources.fabric.inc/blog/making-ecommerce-accessible"
+    },
+    {
+      "by": "kloch",
+      "descendants": 0,
+      "id": 28387212,
+      "score": 1,
+      "text": "A side project i&#x27;m working on is maxing out memory bandwidth well before cpu.   It reads data from a 43GB binary data file (cached in ram by OS), does some processing and generates an output file. On an AWS r6gd.16xlarge instance (64 cpu, 512GB ram) it takes 14 seconds to run with 64 threads.  I can reduce the number of threads down to 32 before it starts taking longer so it seems to be memory bandwidth limited.  The application is interactive so shorter run times are highly desirable.  I want to buy&#x2F;build a server to maximize performance, what are my options?<p>For the sake of discussion let&#x27;s assume the program is optimally written (Ha!).  Porting to GPU is also out of the question because some settings require 300GB of ram or more during processing.",
+      "time": 1630541963,
+      "title": "Ask HN: What server or CPU/motherboard combo offers maximum memory bandwidth?",
+      "type": "story"
+    },
+    {
+      "by": "kaczordon",
+      "descendants": 0,
+      "id": 28387202,
+      "score": 2,
+      "time": 1630541894,
+      "title": "Surgical masks lower spread among elderly, but cloth masks don’t",
+      "type": "story",
+      "url": "https://www.poverty-action.org/study/impact-mask-distribution-and-promotion-mask-uptake-and-covid-19-bangladesh"
+    },
+    {
       "by": "bb88",
       "descendants": 0,
       "id": 28387178,
@@ -24,7 +54,7 @@
       "by": "supermatou",
       "descendants": 0,
       "id": 28387166,
-      "score": 1,
+      "score": 2,
       "text": "Ask HN: Anyone using f2fs in real-life scenarios?<p>I&#x27;ve test-run f2fs (https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;F2FS) on several laptops and various devices booting from external USB&#x2F;MMC devices in the past month. The subjective perception of the change in performance (from standard ext4) is evident. I was thinking very seriously about changing all my non-HDD-based devices to f2fs when I stumbled upon this:<p>https:&#x2F;&#x2F;www.usenix.org&#x2F;system&#x2F;files&#x2F;atc19-jaffer.pdf<p>Basicaly, it says that f2f2s doesn&#x27;t do as much checking for hardware errors as ext4 and tends to fail silently when there&#x27;s a problem with the physical medium. This worries me and makes me want to stop using it - but the paper in question is more than a couple of years old and f2fs has continued to evolve, patches have been submitted to the Linux kernel and so on.<p>Anyone using f2fs care to share his&#x2F;her experience with it?",
       "time": 1630541538,
       "title": "Ask HN: Anyone using f2fs in real-life scenarios?",
@@ -69,36 +99,6 @@
       "title": "Why hard disks were called winchester",
       "type": "story",
       "url": "https://www.pcmag.com/encyclopedia/term/winchester-disk"
-    },
-    {
-      "by": "19h",
-      "descendants": 0,
-      "id": 28387127,
-      "score": 1,
-      "time": 1630541239,
-      "title": "Wrapper Types in Rust: Choosing Your Guarantees",
-      "type": "story",
-      "url": "https://manishearth.github.io/blog/2015/05/27/wrapper-types-in-rust-choosing-your-guarantees/"
-    },
-    {
-      "by": "LifeIntel",
-      "descendants": 0,
-      "id": 28387124,
-      "score": 1,
-      "time": 1630541228,
-      "title": "Vaccines, boosters, masks, mandates, madness",
-      "type": "story",
-      "url": "https://www.vpetrova.com/p/vaccines-boosters-masks-mandates?r=mxyh7&utm_campaign=post&utm_medium=web&utm_source=hackernews"
-    },
-    {
-      "by": "kordlessagain",
-      "descendants": 0,
-      "id": 28387122,
-      "score": 1,
-      "time": 1630541214,
-      "title": "Killing Time [pdf]",
-      "type": "story",
-      "url": "https://physics.fullerton.edu/~jimw/killing-time.pdf"
     }
   ]
 }
