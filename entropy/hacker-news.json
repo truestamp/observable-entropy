@@ -1,10 +1,63 @@
 {
   "stories": [
     {
+      "by": "MajorKetos",
+      "descendants": 0,
+      "id": 28402080,
+      "kids": [
+        28402081
+      ],
+      "score": 1,
+      "time": 1630661361,
+      "title": "Major Keto – What Is Major Keto? Read Now",
+      "type": "story",
+      "url": "https://www.facebook.com/Major-Keto-216345437037669"
+    },
+    {
+      "by": "pjmlp",
+      "descendants": 0,
+      "id": 28402077,
+      "score": 1,
+      "time": 1630661332,
+      "title": "Bungie C++ Guidelines",
+      "type": "story",
+      "url": "https://www.bungie.net/en/News/Article/50666"
+    },
+    {
+      "by": "1cvmask",
+      "descendants": 0,
+      "id": 28402075,
+      "score": 2,
+      "time": 1630661291,
+      "title": "GM temporarily shuts down North American factories because of chip shortage",
+      "type": "story",
+      "url": "https://www.theverge.com/2021/9/2/22654357/gm-factory-shutdown-chip-shortage-truck-suv"
+    },
+    {
+      "by": "geox",
+      "descendants": 0,
+      "id": 28402071,
+      "score": 2,
+      "time": 1630661257,
+      "title": "Hydrofoil board uses flight computer for on-water stability",
+      "type": "story",
+      "url": "https://newatlas.com/marine/world-first-hydrofoil-level-board-flight-computer-stability/"
+    },
+    {
+      "by": "brunoluiz",
+      "descendants": 0,
+      "id": 28402059,
+      "score": 2,
+      "time": 1630661154,
+      "title": "Ain: A terminal HTTP client alternative to Postman",
+      "type": "story",
+      "url": "https://github.com/jonaslu/ain"
+    },
+    {
       "by": "rklaehn",
       "descendants": 0,
       "id": 28402051,
-      "score": 1,
+      "score": 2,
       "time": 1630661045,
       "title": "Use lenses to maintain forwards and backwards compatibility with your software",
       "type": "story",
@@ -34,7 +87,7 @@
       "by": "pjmlp",
       "descendants": 0,
       "id": 28402009,
-      "score": 2,
+      "score": 4,
       "time": 1630660498,
       "title": "Visual Studio Code now available as Web based editor for GitHub repos",
       "type": "story",
@@ -44,67 +97,11 @@
       "by": "jonathanbgn",
       "descendants": 0,
       "id": 28401999,
-      "score": 2,
+      "score": 3,
       "time": 1630660426,
       "title": "Simple Audio Augmentation with PyTorch",
       "type": "story",
       "url": "https://jonathanbgn.com/2021/08/30/audio-augmentation.html"
-    },
-    {
-      "by": "mikevm",
-      "descendants": 0,
-      "id": 28401971,
-      "score": 4,
-      "time": 1630660206,
-      "title": "Apple Exploring RISC-V, Hiring RISC-V 'High Performance' Programmers",
-      "type": "story",
-      "url": "https://www.tomshardware.com/news/apple-looking-for-risc-v-programmers"
-    },
-    {
-      "by": "scoofy",
-      "descendants": 0,
-      "id": 28401961,
-      "score": 1,
-      "time": 1630660074,
-      "title": "Reply All: I Am Not a Bot, an episode about the bot crisis in TF2",
-      "type": "story",
-      "url": "https://gimletmedia.com/shows/reply-all/emh36dn/178-i-am-not-a-bot"
-    },
-    {
-      "by": "pjmlp",
-      "descendants": 0,
-      "id": 28401896,
-      "score": 1,
-      "time": 1630659462,
-      "title": "MSVC C++20 and the /std:C++20 Switch",
-      "type": "story",
-      "url": "https://devblogs.microsoft.com/cppblog/msvc-cpp20-and-the-std-cpp20-switch/"
-    },
-    {
-      "by": "KronisLV",
-      "descendants": 1,
-      "id": 28401885,
-      "kids": [
-        28401915
-      ],
-      "score": 1,
-      "text": "Back in the old days of SOAP being commonplace, it was pretty usual to run into services exposing descriptions of what functionality they provide in the form of WSDL (Web Service Definition Language) files: https:&#x2F;&#x2F;www.w3.org&#x2F;TR&#x2F;wsdl.html<p>Even though SOAP itself was oftentimes unwieldy to work with, i&#x27;ve always found the fact that every API has a clear definition that can be fed into a tool of some sort to either generate client code in my language of choice, or to allow programmatically testing it to be a wonderful time saver. For example, tools like SoapUI can import WSDL and allow you to be up and running with an external service in a matter of minutes, making testing and discovering such services really easy: https:&#x2F;&#x2F;www.soapui.org&#x2F;docs&#x2F;soap-and-wsdl&#x2F;<p>Now, when it comes to REST, it feels like for a while there was nothing like that, at least before Swagger became popular. In my eyes, it essentially attempted to do the same, but with JSON&#x2F;YAML definitions. Eventually we ended up with OpenAPI: https:&#x2F;&#x2F;spec.openapis.org&#x2F;oas&#x2F;latest.html<p>However, at the same time, it feels like the people behind Swagger and OpenAPI tried reinventing the wheel, since WADL already existed (published in 2009 vs Swagger 1.0 in 2011) and seemed to be the equivalent to WSDL: https:&#x2F;&#x2F;www.w3.org&#x2F;Submission&#x2F;wadl&#x2F;<p>So here&#x27;s my question: why didn&#x27;t WADL become popular and why is OpenAPI more popular instead?<p>To gauge OpenAPIs popularity, just look at: https:&#x2F;&#x2F;openapi.tools&#x2F;<p>WADL has nothing of the sort. Why?<p>As a counterpoint, some people might claim that REST in of itself is enough and that neither WADL, nor OpenAPI are strictly necessary: https:&#x2F;&#x2F;stackoverflow.com&#x2F;questions&#x2F;1312087&#x2F;what-is-the-reason-for-using-wadl<p>With that, however, i disagree. When i develop a web API or integrate with an existing one, i want the tooling to do a lot of the work for me - to pull the service definitions from the source, generate all of the code that i need to interface with it and also alert me of any breaking changes, should these auto generated pieces of code no longer fit with the rest of my solution after an update (say, a method has been removed&#x2F;deprecated). Feel free to share your views on this as well!",
-      "time": 1630659345,
-      "title": "Ask HN: Why did OpenAPI become more popular than WADL?",
-      "type": "story"
-    },
-    {
-      "by": "burn_cycle",
-      "descendants": 1,
-      "id": 28401864,
-      "kids": [
-        28401980
-      ],
-      "score": 2,
-      "text": "I&#x27;ve been having issues with it for the past couple of days, however, to my surprise no one else has brought this up. Is it just me?",
-      "time": 1630659114,
-      "title": "Ask HN: Is the HN Algolia API Down?",
-      "type": "story"
     }
   ]
 }
