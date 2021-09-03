@@ -1,16 +1,38 @@
 {
   "stories": [
     {
-      "by": "KronisLV",
+      "by": "pjmlp",
       "descendants": 0,
-      "id": 28401885,
+      "id": 28401896,
       "score": 1,
-      "text": "Back in the old days of SOAP being commonplace, it was pretty usual to run into services exposing descriptions of what functionality they provide in the form of WSDL (Web Service Definition Language) files: https:&#x2F;&#x2F;www.w3.org&#x2F;TR&#x2F;wsdl.html<p>Even though SOAP itself was oftentimes unwieldy to work with, i&#x27;ve always found the fact that every API has a clear definition that can be fed into a tool of some sort to either generate client code in my language of choice, or to allow programmatically testing it to be a wonderful time saver.<p>For example, tools like SoapUI can import WSDL and allow you to be up and running with an external service in a matter of minutes, making testing and discovering such services really easy: https:&#x2F;&#x2F;www.soapui.org&#x2F;docs&#x2F;soap-and-wsdl&#x2F;<p>Now, when it comes to REST, it feels like for a while there was nothing like that, at least before Swagger became popular. In my eyes, it essentially attempted to do the same, but with JSON&#x2F;YAML definitions. Eventually we ended up with OpenAPI: https:&#x2F;&#x2F;spec.openapis.org&#x2F;oas&#x2F;latest.html<p>However, at the same time, it feels like the people behind Swagger and OpenAPI tried reinventing the wheel, since WADL already existed (published in 2009 vs Swagger 1.0 in 2011) and seemed to be the equivalent to WSDL: https:&#x2F;&#x2F;www.w3.org&#x2F;Submission&#x2F;wadl&#x2F;<p>So here&#x27;s my question: why didn&#x27;t WADL become popular and why is OpenAPI more popular instead?<p>To gauge OpenAPIs popularity, just look at: https:&#x2F;&#x2F;openapi.tools&#x2F;<p>WADL has nothing of the sort. Why?<p>As a counterpoint, some people might claim that REST in of itself is enough and that neither WADL, nor OpenAPI are strictly necessary: https:&#x2F;&#x2F;stackoverflow.com&#x2F;questions&#x2F;1312087&#x2F;what-is-the-reason-for-using-wadl<p>With that, however, i disagree. When i develop a web API or integrate with an existing one, i want the tooling to do a lot of the work for me - to pull the service definitions from the source, generate all of the code that i need to interface with it and also alert me of any breaking changes, should these auto generated pieces of code no longer fit with the rest of my solution after an update (say, a method has been removed&#x2F;deprecated). Feel free to share your views on this as well!",
+      "time": 1630659462,
+      "title": "MSVC C++20 and the /std:C++20 Switch",
+      "type": "story",
+      "url": "https://devblogs.microsoft.com/cppblog/msvc-cpp20-and-the-std-cpp20-switch/"
+    },
+    {
+      "by": "KronisLV",
+      "descendants": 1,
+      "id": 28401885,
+      "kids": [
+        28401915
+      ],
+      "score": 1,
+      "text": "Back in the old days of SOAP being commonplace, it was pretty usual to run into services exposing descriptions of what functionality they provide in the form of WSDL (Web Service Definition Language) files: https:&#x2F;&#x2F;www.w3.org&#x2F;TR&#x2F;wsdl.html<p>Even though SOAP itself was oftentimes unwieldy to work with, i&#x27;ve always found the fact that every API has a clear definition that can be fed into a tool of some sort to either generate client code in my language of choice, or to allow programmatically testing it to be a wonderful time saver. For example, tools like SoapUI can import WSDL and allow you to be up and running with an external service in a matter of minutes, making testing and discovering such services really easy: https:&#x2F;&#x2F;www.soapui.org&#x2F;docs&#x2F;soap-and-wsdl&#x2F;<p>Now, when it comes to REST, it feels like for a while there was nothing like that, at least before Swagger became popular. In my eyes, it essentially attempted to do the same, but with JSON&#x2F;YAML definitions. Eventually we ended up with OpenAPI: https:&#x2F;&#x2F;spec.openapis.org&#x2F;oas&#x2F;latest.html<p>However, at the same time, it feels like the people behind Swagger and OpenAPI tried reinventing the wheel, since WADL already existed (published in 2009 vs Swagger 1.0 in 2011) and seemed to be the equivalent to WSDL: https:&#x2F;&#x2F;www.w3.org&#x2F;Submission&#x2F;wadl&#x2F;<p>So here&#x27;s my question: why didn&#x27;t WADL become popular and why is OpenAPI more popular instead?<p>To gauge OpenAPIs popularity, just look at: https:&#x2F;&#x2F;openapi.tools&#x2F;<p>WADL has nothing of the sort. Why?<p>As a counterpoint, some people might claim that REST in of itself is enough and that neither WADL, nor OpenAPI are strictly necessary: https:&#x2F;&#x2F;stackoverflow.com&#x2F;questions&#x2F;1312087&#x2F;what-is-the-reason-for-using-wadl<p>With that, however, i disagree. When i develop a web API or integrate with an existing one, i want the tooling to do a lot of the work for me - to pull the service definitions from the source, generate all of the code that i need to interface with it and also alert me of any breaking changes, should these auto generated pieces of code no longer fit with the rest of my solution after an update (say, a method has been removed&#x2F;deprecated). Feel free to share your views on this as well!",
       "time": 1630659345,
       "title": "Ask HN: Why did OpenAPI become more popular than WADL?",
       "type": "story"
     },
-    null,
+    {
+      "by": "burn_cycle",
+      "descendants": 0,
+      "id": 28401864,
+      "score": 2,
+      "text": "I&#x27;ve been having issues with it for the past couple of days, however, to my surprise no one else has brought this up. Is it just me?",
+      "time": 1630659114,
+      "title": "Ask HN: Is the HN Algolia API Down?",
+      "type": "story"
+    },
     {
       "by": "nandaja",
       "descendants": 0,
@@ -66,8 +88,11 @@
     },
     {
       "by": "Sebastian_09",
-      "descendants": 0,
+      "descendants": 1,
       "id": 28401750,
+      "kids": [
+        28401904
+      ],
       "score": 1,
       "time": 1630657942,
       "title": "Damien Hirst melds art and NFT to mess with blockchain investors",
@@ -83,16 +108,6 @@
       "title": "Read Philosophy Backwards",
       "type": "story",
       "url": "https://slatestarcodex.com/2013/04/11/read-history-of-philosophy-backwards/"
-    },
-    {
-      "by": "thibaut_barrere",
-      "descendants": 0,
-      "id": 28401742,
-      "score": 1,
-      "time": 1630657852,
-      "title": "De-risking custom technology projects (18F)",
-      "type": "story",
-      "url": "https://github.com/18F/technology-budgeting/blob/master/handbook.md"
     }
   ]
 }
