@@ -1,13 +1,63 @@
 {
   "stories": [
     {
+      "by": "luu",
+      "descendants": 0,
+      "id": 28400488,
+      "score": 1,
+      "time": 1630644198,
+      "title": "Can IT Happen Here? Improving the Prospect for Managed Retreat by US Cities [pdf]",
+      "type": "story",
+      "url": "http://lifeaftercarbon.net/wp-content/uploads/2019/03/Managed-Retreat-Report-March-2019.pdf"
+    },
+    {
+      "by": "Tomte",
+      "descendants": 0,
+      "id": 28400482,
+      "score": 1,
+      "time": 1630644128,
+      "title": "Per-Project Postgres (2019)",
+      "type": "story",
+      "url": "https://jamey.thesharps.us/2019/05/29/per-project-postgres/"
+    },
+    {
+      "by": "koolba",
+      "descendants": 0,
+      "id": 28400478,
+      "score": 1,
+      "time": 1630644100,
+      "title": "The Downsides of Masking Young Students Are Real",
+      "type": "story",
+      "url": "https://www.theatlantic.com/ideas/archive/2021/09/school-mask-mandates-downside/619952/"
+    },
+    {
+      "by": "Tomte",
+      "descendants": 0,
+      "id": 28400475,
+      "score": 1,
+      "time": 1630644074,
+      "title": "How networks of consent can fix social platforms",
+      "type": "story",
+      "url": "https://ariadne.space/2021/09/03/how-networks-of-consent-can-fix-social-platforms/"
+    },
+    {
+      "by": "omarfarooq",
+      "descendants": 0,
+      "id": 28400473,
+      "score": 1,
+      "time": 1630644048,
+      "title": "Cryptopunks",
+      "type": "story",
+      "url": "https://www.larvalabs.com/cryptopunks"
+    },
+    {
       "by": "SunghoYahng",
       "descendants": 1,
       "id": 28400446,
       "kids": [
         28400455
       ],
-      "score": 1,
+      "score": 2,
       "time": 1630643660,
       "title": "Show HN: A tool for your learning, like Anki and Notion in one",
       "type": "story",
@@ -35,8 +85,11 @@
     },
     {
       "by": "okaydeveloper",
-      "descendants": 0,
+      "descendants": 1,
       "id": 28400400,
+      "kids": [
+        28400483
+      ],
       "score": 1,
       "time": 1630643222,
       "title": "Show HN: AI powered meme search, open-source",
@@ -52,56 +105,6 @@
       "title": "Show HN: Understanding Convolutions on Graphs",
       "type": "story",
       "url": "https://distill.pub/2021/understanding-gnns/"
-    },
-    {
-      "by": "__warlord__",
-      "descendants": 0,
-      "id": 28400391,
-      "score": 1,
-      "text": "I&#x27;m deploying a set of applications on top of Kubernetes like GitLab and Argo suite (Workflows, CD, Rollouts), Harbor, Prometheus, and more and I need to have an active-active solution distributed across two data centers for all (if possible) of these tools.<p>One approach I&#x27;m investigating having Kafka queueing the commits (and other requests) and one consumer on each data center writing the commit into GitLab to execute CI&#x2F;CD pipelines and deploy applications based on that commit. (CI&#x2F;CD will only execute once)<p>This way I don&#x27;t have to worry about replicating each application data from one data center to another and worry about where data is being written and so on.<p>I want to ask HN, are there best practices or documentation on how to do this kind of architecture that you can point me at?<p>Or is there a better way to work on this solution?",
-      "time": 1630643106,
-      "title": "Ask HN: Best practices for multi-datacenter infrastructure?",
-      "type": "story"
-    },
-    {
-      "by": "utterlyconfused",
-      "descendants": 0,
-      "id": 28400380,
-      "score": 1,
-      "text": "Sorry for the throw-away...<p>We hired Cognition IP to file both a trademark and a patent.  While we need to do more work on the patent, the trademark application was files and all seemed to be going well.  The USPTO is waiting for us to respond to some of their feedback in order to continue.<p>After having a meeting with Edward Steakley to discuss details and strategy, all seemed well.<p>Weeks have gone by and no news from anyone.<p>I have had no response to multiple emails and phone calls.<p>I tried connecting to Andrew Tjang on LinkedIn...nothing.<p>At this point I am a little rattled and bordering on desperate.  We have to file replies to the USPTO on a timely manner.  Not being able to even get a sign of life from your IP attorneys simply isn&#x27;t acceptable.<p>What is going on?<p>I need a contact number or email for someone who will actually answer the fucking phone or email!  Please.",
-      "time": 1630642837,
-      "title": "Is CognitionIP (YC company) out of business?",
-      "type": "story"
-    },
-    {
-      "by": "omarfarooq",
-      "descendants": 0,
-      "id": 28400365,
-      "score": 1,
-      "time": 1630642643,
-      "title": "Rama Works",
-      "type": "story",
-      "url": "https://rama.works/"
-    },
-    {
-      "by": "leksak",
-      "descendants": 0,
-      "id": 28400363,
-      "score": 1,
-      "time": 1630642625,
-      "title": "Sense of smell may be the key to a balanced diet",
-      "type": "story",
-      "url": "https://news.northwestern.edu/stories/2021/08/smell-perception-food-choices/"
-    },
-    {
-      "by": "todsacerdoti",
-      "descendants": 0,
-      "id": 28400341,
-      "score": 2,
-      "time": 1630642325,
-      "title": "The Little Things: Comparing Floating Point Numbers",
-      "type": "story",
-      "url": "https://codingnest.com/the-little-things-comparing-floating-point-numbers/"
     }
   ]
 }
