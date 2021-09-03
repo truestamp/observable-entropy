@@ -1,6 +1,16 @@
 {
   "stories": [
     {
+      "by": "__warlord__",
+      "descendants": 0,
+      "id": 28400391,
+      "score": 1,
+      "text": "I&#x27;m deploying a set of applications on top of Kubernetes like GitLab and Argo suite (Workflows, CD, Rollouts), Harbor, Prometheus, and more and I need to have an active-active solution distributed across two data centers for all (if possible) of these tools.<p>One approach I&#x27;m investigating having Kafka queueing the commits (and other requests) and one consumer on each data center writing the commit into GitLab to execute CI&#x2F;CD pipelines and deploy applications based on that commit. (CI&#x2F;CD will only execute once)<p>This way I don&#x27;t have to worry about replicating each application data from one data center to another and worry about where data is being written and so on.<p>I want to ask HN, are there best practices or documentation on how to do this kind of architecture that you can point me at?<p>Or is there a better way to work on this solution?",
+      "time": 1630643106,
+      "title": "Ask HN: Best practices for multi-datacenter infrastructure?",
+      "type": "story"
+    },
+    {
       "by": "utterlyconfused",
       "descendants": 0,
       "id": 28400380,
@@ -89,16 +99,6 @@
       "title": "Google's VR Studio Reveals Bright and Bubbly Game Coming to Quest and PC VR",
       "type": "story",
       "url": "https://www.roadtovr.com/google-vr-pc-vr-steam-release-cosmonious-high/"
-    },
-    {
-      "by": "trothamel",
-      "descendants": 0,
-      "id": 28400253,
-      "score": 2,
-      "time": 1630641278,
-      "title": "Firefly Alpha rocket experiences anomaly on first flight",
-      "type": "story",
-      "url": "https://twitter.com/Firefly_Space/status/1433611679170850833"
     }
   ]
 }
