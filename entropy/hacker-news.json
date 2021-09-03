@@ -1,10 +1,73 @@
 {
   "stories": [
     {
+      "by": "kqito",
+      "descendants": 0,
+      "id": 28404385,
+      "score": 1,
+      "time": 1630677892,
+      "title": "SWR 1.0",
+      "type": "story",
+      "url": "https://swr.vercel.app/blog/swr-v1"
+    },
+    {
+      "by": "laangregor",
+      "descendants": 0,
+      "id": 28404381,
+      "score": 1,
+      "text": "Hello everyone,<p>I&#x27;m having a challenging task. Angular application needs to show the date from the database object. It needs to stay the same, no matter where you are visiting the application. The only exceptions are the comments. I was testing this using Web Browser plugin.<p>I did a lot of research, but did not find a best practice. How would you solve this?<p>Currently I have created the following snippet:<p>``` ts\n&#x2F;&#x2F; To-Do: Needs to account summertime\npublic dateToUTCDate(date: string | Date): Date {\n  const time = date instanceof Date ? date.getTime() : Date.parse(date.substring(0, 10));\n  return new Date(time + new Date(time).getTimezoneOffset() * 60000);\n}\n```",
+      "time": 1630677872,
+      "title": "Ask HN: How do you solve timezone offset problem in Front end",
+      "type": "story"
+    },
+    {
+      "by": "edent",
+      "descendants": 0,
+      "id": 28404375,
+      "score": 1,
+      "time": 1630677853,
+      "title": "Outdated Advice for Job Applicants",
+      "type": "story",
+      "url": "https://shkspr.mobi/blog/2021/09/outdated-advice-for-job-applicants/"
+    },
+    {
+      "by": "valprop1",
+      "descendants": 0,
+      "id": 28404359,
+      "score": 1,
+      "time": 1630677751,
+      "title": "Why Ransomware Hackers Love a Holiday Weekend",
+      "type": "story",
+      "url": "https://www.wired.com/story/ransomware-hacks-holidays-weekends/"
+    },
+    {
+      "by": "Blurbeepl",
+      "descendants": 1,
+      "id": 28404357,
+      "kids": [
+        28404362
+      ],
+      "score": 1,
+      "time": 1630677741,
+      "title": "Show HN: Will it rain on your wedding day? I built a site that lets you find out",
+      "type": "story",
+      "url": "https://weddingrainchecker.com"
+    },
+    {
+      "by": "eevilspock",
+      "descendants": 0,
+      "id": 28404355,
+      "score": 1,
+      "time": 1630677725,
+      "title": "Let Physics Be the Dream It Used to Be",
+      "type": "story",
+      "url": "https://medium.com/@chanda/let-astro-physics-be-the-dream-it-used-to-be-d4fb44268a8d"
+    },
+    {
       "by": "MBCook",
       "descendants": 0,
       "id": 28404332,
-      "score": 1,
+      "score": 2,
       "time": 1630677620,
       "title": "Why can an ad break the Windows 11 desktop and taskbar?",
       "type": "story",
@@ -39,69 +102,6 @@
       "title": "The Miracle Apple (2015)",
       "type": "story",
       "url": "http://www.npr.org/sections/money/2015/05/27/410085320/episode-627-the-miracle-apple"
-    },
-    {
-      "by": "sixhobbits",
-      "descendants": 0,
-      "id": 28404299,
-      "score": 2,
-      "time": 1630677435,
-      "title": "Apple Delays iPhone Child Sexual Abuse Scanning After Uproar",
-      "type": "story",
-      "url": "https://www.forbes.com/sites/thomasbrewster/2021/09/03/apple-delays-iphone-child-sexual-abuse-scanning-after-uproar/"
-    },
-    {
-      "by": "andrewl",
-      "descendants": 0,
-      "id": 28404277,
-      "score": 1,
-      "time": 1630677311,
-      "title": "Minxin Pei on Why China Will Not Surpass the United States",
-      "type": "story",
-      "url": "https://www.economist.com/by-invitation/2021/08/30/minxin-pei-on-why-china-will-not-surpass-the-united-states"
-    },
-    {
-      "by": "david_obrien",
-      "descendants": 0,
-      "id": 28404239,
-      "score": 1,
-      "time": 1630677100,
-      "title": "Azure CosmosDB Vulnerability – What do I need to do?",
-      "type": "story",
-      "url": "https://www.argos-security.io/2021/09/02/azure-cosmosdb-vulnerability-what-do-i-need-to-do/"
-    },
-    {
-      "by": "jger15",
-      "descendants": 0,
-      "id": 28404228,
-      "score": 1,
-      "time": 1630677040,
-      "title": "Little Flaws",
-      "type": "story",
-      "url": "https://www.collaborativefund.com/blog/flaws/"
-    },
-    {
-      "by": "GordonS",
-      "descendants": 0,
-      "id": 28404219,
-      "score": 2,
-      "time": 1630677011,
-      "title": "The NSA's Backdoor in Dual EC",
-      "type": "story",
-      "url": "https://twitter.com/matthew_d_green/status/1433470109742518273"
-    },
-    {
-      "by": "dempsey",
-      "descendants": 1,
-      "id": 28404207,
-      "kids": [
-        28404257
-      ],
-      "score": 2,
-      "time": 1630676965,
-      "title": "Show HN: Open-source database and summary data of forced arbitration cases",
-      "type": "story",
-      "url": "https://levelplayingfield.io/"
     }
   ]
 }
