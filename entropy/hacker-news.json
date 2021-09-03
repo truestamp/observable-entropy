@@ -1,6 +1,45 @@
 {
   "stories": [
     {
+      "by": "rbanffy",
+      "descendants": 0,
+      "id": 28404504,
+      "score": 1,
+      "time": 1630678507,
+      "title": "Aspect 128 AVR-based ZX Spectrum Personal computer",
+      "type": "story",
+      "url": "http://radio-hobby.org/modules/news/article.php?storyid=1247"
+    },
+    {
+      "by": "topaztee",
+      "descendants": 0,
+      "id": 28404498,
+      "score": 1,
+      "time": 1630678473,
+      "title": "Ask HN: What do you wish more programmers cared about?",
+      "type": "story"
+    },
+    {
+      "by": "OJFord",
+      "descendants": 0,
+      "id": 28404485,
+      "score": 1,
+      "time": 1630678395,
+      "title": "Apple concedes on 'anticompetitive' restrictions in App Store",
+      "type": "story",
+      "url": "https://www.theguardian.com/technology/2021/sep/02/apple-concedes-on-anticompetitive-restrictions-in-app-store"
+    },
+    {
+      "by": "jpkoning",
+      "descendants": 0,
+      "id": 28404456,
+      "score": 1,
+      "time": 1630678268,
+      "title": "Uniswap Labs Under Investigation by SEC",
+      "type": "story",
+      "url": "https://decrypt.co/80130/uniswap-labs-under-investigation-sec-report"
+    },
+    {
       "by": "Vinnl",
       "descendants": 0,
       "id": 28404449,
@@ -14,7 +53,7 @@
       "by": "patrickk",
       "descendants": 0,
       "id": 28404447,
-      "score": 1,
+      "score": 2,
       "time": 1630678214,
       "title": "Mushroom Cultivation Automation, Full DIY from Foraging to Fruiting",
       "type": "story",
@@ -35,7 +74,7 @@
       "descendants": 0,
       "id": 28404381,
       "score": 1,
-      "text": "Hello everyone,<p>I&#x27;m having a challenging task. Angular application needs to show the date from the database object. It needs to stay the same, no matter where you are visiting the application. The only exceptions are the comments. I was testing this using Web Browser plugin.<p>I did a lot of research, but did not find a best practice. How would you solve this?<p>Currently I have created the following snippet:<p><pre><code>  &#x2F;&#x2F; To-Do: Needs to account summertime\n  public dateToUTCDate(date: string | Date): Date {\n    const time = date instanceof Date ? date.getTime() : Date.parse(date.substring(0, 10));\n    return new Date(time + new Date(time).getTimezoneOffset() \\* 60000);\n  }</code></pre>\n```",
+      "text": "Hello everyone,<p>I&#x27;m having a challenging task. Angular application needs to show the date from the database object. It needs to stay the same, no matter where you are visiting the application. The only exceptions are the comments. I was testing this using Web Browser plugin.<p>I did a lot of research, but did not find a best practice. How would you solve this?<p>Currently I have created the following snippet:<p><pre><code>  &#x2F;&#x2F; To-Do: Needs to account summertime\n  public dateToUTCDate(date: string | Date): Date {\n    const time = date instanceof Date ? date.getTime() : Date.parse(date.substring(0, 10));\n    return new Date(time + new Date(time).getTimezoneOffset() \\* 60000);\n  }</code></pre>",
       "time": 1630677872,
       "title": "Ask HN: How do you solve timezone offset problem in Front end",
       "type": "story"
@@ -54,57 +93,11 @@
       "by": "valprop1",
       "descendants": 0,
       "id": 28404359,
-      "score": 2,
+      "score": 3,
       "time": 1630677751,
       "title": "Why Ransomware Hackers Love a Holiday Weekend",
       "type": "story",
       "url": "https://www.wired.com/story/ransomware-hacks-holidays-weekends/"
-    },
-    {
-      "by": "Blurbeepl",
-      "descendants": 1,
-      "id": 28404357,
-      "kids": [
-        28404362
-      ],
-      "score": 3,
-      "time": 1630677741,
-      "title": "Show HN: Will it rain on your wedding day? I built a site that lets you find out",
-      "type": "story",
-      "url": "https://weddingrainchecker.com"
-    },
-    {
-      "by": "eevilspock",
-      "descendants": 0,
-      "id": 28404355,
-      "score": 1,
-      "time": 1630677725,
-      "title": "Let Physics Be the Dream It Used to Be",
-      "type": "story",
-      "url": "https://medium.com/@chanda/let-astro-physics-be-the-dream-it-used-to-be-d4fb44268a8d"
-    },
-    {
-      "by": "MBCook",
-      "descendants": 0,
-      "id": 28404332,
-      "score": 2,
-      "time": 1630677620,
-      "title": "Why can an ad break the Windows 11 desktop and taskbar?",
-      "type": "story",
-      "url": "https://www.ctrl.blog/entry/windows11-empty-taskbar.html"
-    },
-    {
-      "by": "fulfillmentQ",
-      "descendants": 1,
-      "id": 28404313,
-      "kids": [
-        28404441
-      ],
-      "score": 1,
-      "text": "I have worked in the same general field, for the same general customer set, for my entire career. I’m comfortable, paid well, and work relatively stress free.<p>The issue is that over my career I have built many different tools to accomplish various “required” tasks. Yet, if I’m being honest, only 2 of them have ever actually been put to minor use. The rest were shelved for reasons out of my control (but not for a lack of capability, completeness, etc..)<p>I’m 10 - 15 years out from retirement and I’m annoyed that I can’t point to anything tangible that has had any impact on anyone.<p>I am trying to figure out if I’m lying to myself, by thinking I’ll find the proverbial greener grass somewhere else.<p>With that, do you find your job fulfilling?",
-      "time": 1630677525,
-      "title": "Ask HN: Do you find your job fulfilling?",
-      "type": "story"
     }
   ]
 }
