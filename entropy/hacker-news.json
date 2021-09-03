@@ -1,10 +1,30 @@
 {
   "stories": [
     {
+      "by": "Vinnl",
+      "descendants": 0,
+      "id": 28404449,
+      "score": 1,
+      "time": 1630678220,
+      "title": "Proof of Work is the only viable mechanism for decentralized state",
+      "type": "story",
+      "url": "https://lists.w3.org/Archives/Public/public-new-work/2021Sep/0001.html"
+    },
+    {
+      "by": "patrickk",
+      "descendants": 0,
+      "id": 28404447,
+      "score": 1,
+      "time": 1630678214,
+      "title": "Mushroom Cultivation Automation, Full DIY from Foraging to Fruiting",
+      "type": "story",
+      "url": "https://www.youtube.com/watch?v=z41Wy5ZF4O8"
+    },
+    {
       "by": "kqito",
       "descendants": 0,
       "id": 28404385,
-      "score": 1,
+      "score": 2,
       "time": 1630677892,
       "title": "SWR 1.0",
       "type": "story",
@@ -15,7 +35,7 @@
       "descendants": 0,
       "id": 28404381,
       "score": 1,
-      "text": "Hello everyone,<p>I&#x27;m having a challenging task. Angular application needs to show the date from the database object. It needs to stay the same, no matter where you are visiting the application. The only exceptions are the comments. I was testing this using Web Browser plugin.<p>I did a lot of research, but did not find a best practice. How would you solve this?<p>Currently I have created the following snippet:<p>``` ts\n&#x2F;&#x2F; To-Do: Needs to account summertime\npublic dateToUTCDate(date: string | Date): Date {\n  const time = date instanceof Date ? date.getTime() : Date.parse(date.substring(0, 10));\n  return new Date(time + new Date(time).getTimezoneOffset() * 60000);\n}\n```",
+      "text": "Hello everyone,<p>I&#x27;m having a challenging task. Angular application needs to show the date from the database object. It needs to stay the same, no matter where you are visiting the application. The only exceptions are the comments. I was testing this using Web Browser plugin.<p>I did a lot of research, but did not find a best practice. How would you solve this?<p>Currently I have created the following snippet:<p><pre><code>  &#x2F;&#x2F; To-Do: Needs to account summertime\n  public dateToUTCDate(date: string | Date): Date {\n    const time = date instanceof Date ? date.getTime() : Date.parse(date.substring(0, 10));\n    return new Date(time + new Date(time).getTimezoneOffset() \\* 60000);\n  }</code></pre>\n```",
       "time": 1630677872,
       "title": "Ask HN: How do you solve timezone offset problem in Front end",
       "type": "story"
@@ -34,7 +54,7 @@
       "by": "valprop1",
       "descendants": 0,
       "id": 28404359,
-      "score": 1,
+      "score": 2,
       "time": 1630677751,
       "title": "Why Ransomware Hackers Love a Holiday Weekend",
       "type": "story",
@@ -47,7 +67,7 @@
       "kids": [
         28404362
       ],
-      "score": 1,
+      "score": 3,
       "time": 1630677741,
       "title": "Show HN: Will it rain on your wedding day? I built a site that lets you find out",
       "type": "story",
@@ -75,33 +95,16 @@
     },
     {
       "by": "fulfillmentQ",
-      "descendants": 0,
+      "descendants": 1,
       "id": 28404313,
+      "kids": [
+        28404441
+      ],
       "score": 1,
       "text": "I have worked in the same general field, for the same general customer set, for my entire career. I’m comfortable, paid well, and work relatively stress free.<p>The issue is that over my career I have built many different tools to accomplish various “required” tasks. Yet, if I’m being honest, only 2 of them have ever actually been put to minor use. The rest were shelved for reasons out of my control (but not for a lack of capability, completeness, etc..)<p>I’m 10 - 15 years out from retirement and I’m annoyed that I can’t point to anything tangible that has had any impact on anyone.<p>I am trying to figure out if I’m lying to myself, by thinking I’ll find the proverbial greener grass somewhere else.<p>With that, do you find your job fulfilling?",
       "time": 1630677525,
       "title": "Ask HN: Do you find your job fulfilling?",
       "type": "story"
-    },
-    {
-      "by": "Tomte",
-      "descendants": 0,
-      "id": 28404309,
-      "score": 1,
-      "time": 1630677501,
-      "title": "The Most Widely Read Magazine in the World (2010)",
-      "type": "story",
-      "url": "http://web.archive.org/archives.jrn.columbia.edu/2010/nyrm.org/2010/05/13/the-most-widely-read-magazine-in-the-world/index.html"
-    },
-    {
-      "by": "Tomte",
-      "descendants": 0,
-      "id": 28404308,
-      "score": 1,
-      "time": 1630677494,
-      "title": "The Miracle Apple (2015)",
-      "type": "story",
-      "url": "http://www.npr.org/sections/money/2015/05/27/410085320/episode-627-the-miracle-apple"
     }
   ]
 }
