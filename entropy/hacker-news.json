@@ -1,12 +1,44 @@
 {
   "stories": [
     {
+      "by": "rbanffy",
+      "descendants": 0,
+      "id": 28404806,
+      "score": 1,
+      "time": 1630680017,
+      "title": "The New Science of Clocks Prompts Questions About the Nature of Time",
+      "type": "story",
+      "url": "https://www.quantamagazine.org/the-new-science-of-clocks-prompts-questions-about-the-nature-of-time-20210831/"
+    },
+    {
+      "by": "hncurious",
+      "descendants": 0,
+      "id": 28404792,
+      "score": 1,
+      "time": 1630679944,
+      "title": "Princeton diversity office’s ‘nihilistic’ attack on university’s history",
+      "type": "story",
+      "url": "https://nypost.com/2021/09/01/profs-princeton-diversity-offices-attack-on-universitys-history-and-the-anti-woke/"
+    },
+    null,
+    null,
+    {
+      "by": "woliveirajr",
+      "descendants": 0,
+      "id": 28404752,
+      "score": 1,
+      "time": 1630679769,
+      "title": "WhatsApp: About View Once",
+      "type": "story",
+      "url": "https://faq.whatsapp.com/general/chats/about-view-once/"
+    },
+    {
       "by": "Ocha",
       "descendants": 0,
       "id": 28404733,
       "score": 1,
       "time": 1630679691,
-      "title": "Major outage at Joe’s Data wnter",
+      "title": "Major outage at Joe’s Datacenter",
       "type": "story",
       "url": "https://status.joesdatacenter.com"
     },
@@ -49,59 +81,6 @@
       "title": "Monkey: The satirical Go package used unwittingly by Arduino and SalesForce",
       "type": "story",
       "url": "https://esoteric.codes/blog/bouk-monkey-satirical-code-used-by-people-who-dont-get-the-joke"
-    },
-    {
-      "by": "samizdis",
-      "descendants": 0,
-      "id": 28404664,
-      "score": 1,
-      "time": 1630679344,
-      "title": "Shredded Banksy artwork goes back under the hammer",
-      "type": "story",
-      "url": "https://www.theguardian.com/artanddesign/2021/sep/03/shredded-banksy-artwork-goes-back-under-hammer"
-    },
-    {
-      "by": "teleforce",
-      "descendants": 0,
-      "id": 28404655,
-      "score": 1,
-      "time": 1630679296,
-      "title": "Intel Xeon W-3300 Workstations",
-      "type": "story",
-      "url": "https://www.velocitymicro.com/blog/intel-xeon-w-3300-workstations/"
-    },
-    {
-      "by": "lonk11",
-      "descendants": 0,
-      "id": 28404650,
-      "score": 1,
-      "text": "I built https:&#x2F;&#x2F;linklonk.com - an information discovery system. It’s an experiment to try address the issues with the three ways we typically discover information:<p>1. We follow individual sources and it gives us a high signal-to-noise ratio, but we have to discover these sources in the first place. Once we accumulate a lot of sources to follow (e.g, subscribing to many RSS feeds, following too many Twitter accounts) it is hard to prioritize or keep up.<p>2. We follow groups of people (HN&#x2F;Reddit&#x2F;forums) and it helps us connect to people that we wouldn’t otherwise be able to discover. But you get a mix of high signal-to-noise members and the more-noise-than-signal members. The bigger a group becomes the worse this mix usually gets.<p>3. We use algorithmic systems to bring us useful information. But these systems, powered by deep neural net models, do not truly understand what is useful to us. Instead they are optimizing for “time-spent” (ie, ads shown) by showing you more shallow content that will keep you clicking and yet never satisfied. They are opaque by design and are not something that we can control with our actions. Instead of offering explicit control to the users they are focusing on implicit signals such as what we clicked on before - a poor signal.<p>Can we get help discovering sources to follow?<p>Can we take only the good parts of a group and not the bad parts?<p>Can we have agency in an algorithmic system?<p>With LinkLonk I am building a system that combines the best parts of the three systems and addresses their weak points.<p>To start, LinkLonk is an algorithmic system, but the algorithm is transparent to the user and the algorithm’s output directly depends on what content you upvote and downvote.<p>When you upvote a piece of content, LinkLonk strengthens your connection to other users that upvoted that same item.<p>When you downvote something, LinkLonk weakens your connection to users who upvoted it.<p>How strongly you are connected to a user determines how high their next upvoted items will rank in your list of recommendations. It means that at the top of your recommendations you will see content from users who have been good at finding useful content for you in the past.<p>This creates a feedback loop with you in control.<p>Initially, when you have not rated any content yet, LinkLonk connects you to all users with a very weak connection. As a result, your initial set of recommendations is based on popularity. It behaves like a group-based system at the start. But as you rate content you get connected to specific users - the ones that have the highest signal-to-noise ratio for you. This makes it more similar to the “following individual sources&#x27;&#x27; type of system yet it solves the problem of discovering the sources to follow.<p>When you downvote something, not only does LinkLonk weakens your connection to those who upvoted that content, LinkLonk also strengthens your connection to the users who also downvoted that content. It means that their other downvotes will have more weight for you. The idea is that if they were able to recognize bad content in the past then they could be trusted to flag bad content in the future.<p>LinkLonk creates a new system of incentives. In order to get your attention, other users need to prove to be good curators of content. And to hide content, they need to prove to be good moderators. It’s these new incentives that excite me about this project.<p>Now we need a few users to test out this system. Give it a try, submit a link you found useful.<p>P.S. This is my hobby project that I am building in my spare time. My stack is: PostgreSQL + Golang server (sqlc, gorilla&#x2F;mux) + Angular client + Firebase for auth. It runs on a small VPS instance on OVH that costs ~$12&#x2F;month. I’m intending to run it for years. That’s the nice part about being a hobby project - there is no time&#x2F;financial pressure to “succeed”.",
-      "time": 1630679252,
-      "title": "Show HN: LinkLonk – information discovery with aligned incentives",
-      "type": "story"
-    },
-    {
-      "by": "perihelions",
-      "descendants": 0,
-      "id": 28404630,
-      "score": 2,
-      "time": 1630679151,
-      "title": "NHS England's release of 'details' on access to Palantir Covid-19 data store",
-      "type": "story",
-      "url": "https://www.theregister.com/2021/08/31/nhs_england_palantir_covid_19_dataset/"
-    },
-    {
-      "by": "crytozonew",
-      "descendants": 1,
-      "id": 28404615,
-      "kids": [
-        28404616
-      ],
-      "score": 3,
-      "time": 1630679084,
-      "title": "Uniswap Labs Under Investigation by SEC: Report",
-      "type": "story",
-      "url": "https://insidermag.net/uniswap-labs-under-investigation-by-sec-report/"
     }
   ]
 }
