@@ -1,11 +1,42 @@
 {
   "stories": [
     {
+      "by": "feross",
+      "descendants": 0,
+      "id": 28428421,
+      "score": 1,
+      "time": 1630881214,
+      "title": "No Ultimate Meaning",
+      "type": "story",
+      "url": "https://meaningness.com/no-ultimate-meaning"
+    },
+    {
+      "by": "dmitriy_ko",
+      "descendants": 0,
+      "id": 28428409,
+      "score": 1,
+      "time": 1630881138,
+      "title": "PFAS in indoor air linked to cancer",
+      "type": "story",
+      "url": "https://www.independent.co.uk/climate-change/news/forever-chemicals-pfas-air-cancer-b1911705.html"
+    },
+    {
+      "by": "akent111",
+      "descendants": 0,
+      "id": 28428405,
+      "score": 1,
+      "time": 1630881118,
+      "title": "What do you think of this new audio content format that's interactive?",
+      "type": "story",
+      "url": "https://www.giide.com/"
+    },
+    {
       "by": "asimjalis",
       "descendants": 1,
       "id": 28428385,
       "kids": [
         28428396,
+        28428429,
         28428397
       ],
       "score": 1,
@@ -68,41 +99,11 @@
       "by": "todsacerdoti",
       "descendants": 0,
       "id": 28428286,
-      "score": 1,
+      "score": 2,
       "time": 1630879934,
       "title": "A deep-dive into the SolarWinds Serv-U SSH vulnerability",
       "type": "story",
       "url": "http://www.microsoft.com/security/blog/2021/09/02/a-deep-dive-into-the-solarwinds-serv-u-ssh-vulnerability/"
-    },
-    {
-      "by": "yazr",
-      "descendants": 0,
-      "id": 28428259,
-      "score": 1,
-      "time": 1630879639,
-      "title": "Notes from Sam Altman Q&A on GPT and AGI",
-      "type": "story",
-      "url": "https://www.lesswrong.com/posts/aihztgJrknBdLHjd2/sam-altman-q-and-a-gpt-and-agi"
-    },
-    {
-      "by": "ThinkBeat",
-      "descendants": 0,
-      "id": 28428252,
-      "score": 2,
-      "text": "Right off my knowledge of current enterprise sysadmin stuff it quite out of date.\nLooking forward to learning :)<p>What is RW? \n--\nMy understanding it is a form of malware that encrypts your data \nand the only way to unlock it is to pay a ransom.<p>The newer version attempts to extracts sensitive files prior to encryption,\nso there will be a double threat.<p>Not only is your data encrypted and unavailable, it is also in the hands of \nnefarious criminals who could publish the files or do something else \nevil with the files.<p>Mitigation\n--<p>I dont know much about the extraction of files, I will leave that alone.<p>Firewalls, endpoint protection, active analysis of data streams for unusual activities. \nI presume this is done and done correctly.<p>Would backup save you?\n..<p>I am not sure of current practice, so this may be too old.<p>A company should have a solid, maintained, well funded and staffed backup\nstrategy that is tested often to ensure it works.<p>Then they have a backup system of the backup system off site entirely locked down.<p>All files on fileservers are backup incrementally every 10 mins (or whatever)\nas a continuous cycle.<p>Fileservers databases, mailservers, another data silos are backup up in the same way.<p>No end users PCs and extremely few in total have any access to the backup system.<p>All PCs, servers, etc run premade images (is Ghost still a thing?).<p>When shit hits the fan\n---\na)\nDestroy all data from the past 30 mins &#x2F; 1 hour, restore.<p>b)\nDestroy all data from the past 30 mins &#x2F; 1 hour.\nReformat all computers, via standard images, \nrestore backup.<p>c)\nDestroy all data from the past 30 mins &#x2F; 1 hour.\nKeep a set of pristine unused brand new computers in easy to reach storage. \nFormat using images, restore data from before the files got encrypted,<p>Unplug and junk existing PCs.<p>-<p>It seems to me that if a company has a well working backup strategy and executions then downtime for a ransomware attack can be timeboxed.   \nIf it needs done faster, then invest more into the system to make it happen.<p>Maybe the reserve computers are already imaged as needed, and those images are\nupdated at the same time as the production PCs (end user for instance).<p>Perhaps there are many datastores these days that are hard to backup?<p>If that is the case, it might be a good reason not to use them?<p>I am sure I am missing a lot and I look forward to learning more<p>If the company has a solid, maintained, backup of files and data they can shut everything down, reformat the computers and servers, restore",
-      "time": 1630879552,
-      "title": "Ask HN: Ransomware preparedness how difficult is it?",
-      "type": "story"
-    },
-    {
-      "by": "omarfarooq",
-      "descendants": 0,
-      "id": 28428176,
-      "score": 2,
-      "time": 1630878804,
-      "title": "CALA: Platform to design, produce, and deliver fully-custom fashion products",
-      "type": "story",
-      "url": "https://www.ca.la/"
     }
   ]
 }
