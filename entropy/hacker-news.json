@@ -1,6 +1,66 @@
 {
   "stories": [
     {
+      "by": "goodmind",
+      "descendants": 0,
+      "id": 28443686,
+      "score": 1,
+      "time": 1631016523,
+      "title": "Hiring Mistakes Startups Can Easily Avoid",
+      "type": "story",
+      "url": "https://goodmind.io/blog/hiring-mistakes/"
+    },
+    {
+      "by": "mooreds",
+      "descendants": 0,
+      "id": 28443685,
+      "score": 1,
+      "time": 1631016521,
+      "title": "Computer glitch led to false reports about earthquake in B.C., says seismologist",
+      "type": "story",
+      "url": "https://www.cbc.ca/news/canada/british-columbia/computer-glitch-led-to-false-reports-about-earthquake-in-b-c-1.6166417?cmp=rss&utm_source=dlvr.it&utm_medium=twitter"
+    },
+    {
+      "by": "mooreds",
+      "descendants": 0,
+      "id": 28443662,
+      "score": 1,
+      "time": 1631016401,
+      "title": "CoreLogic: House Prices Up 18.0% YoY in July, All-Time High YoY Increase",
+      "type": "story",
+      "url": "https://www.calculatedriskblog.com/2021/09/corelogic-house-prices-up-180-yoy-in.html"
+    },
+    {
+      "by": "jimgordon",
+      "descendants": 0,
+      "id": 28443658,
+      "score": 1,
+      "time": 1631016389,
+      "title": "Toyota to spend $13.5 bln to develop electric vehicle battery tech by 2030",
+      "type": "story",
+      "url": "https://www.reuters.com/business/autos-transportation/toyota-spend-over-135-bln-ev-batteries-by-2030-2021-09-07/"
+    },
+    {
+      "by": "gmaster1440",
+      "descendants": 0,
+      "id": 28443654,
+      "score": 1,
+      "time": 1631016366,
+      "title": "Node.js Corepack",
+      "type": "story",
+      "url": "https://nodejs.org/dist/latest-v16.x/docs/api/corepack.html"
+    },
+    {
+      "by": "susam",
+      "descendants": 0,
+      "id": 28443652,
+      "score": 1,
+      "time": 1631016364,
+      "title": "Microsoft IIS 3.0 “%2e” Asp Source Disclosure Vulnerability (1997)",
+      "type": "story",
+      "url": "http://web.archive.org/web/20010309183310/http://www.securityfocus.com/bid/1814"
+    },
+    {
       "by": "politelemon",
       "descendants": 0,
       "id": 28443625,
@@ -22,9 +82,12 @@
     },
     {
       "by": "gethigher",
-      "descendants": 0,
+      "descendants": 1,
       "id": 28443610,
-      "score": 1,
+      "kids": [
+        28443675
+      ],
+      "score": 2,
       "time": 1631015911,
       "title": "Show HN: Peer to Peer Recruiting?",
       "type": "story",
@@ -34,70 +97,13 @@
       "by": "Choc13",
       "descendants": 0,
       "id": 28443587,
+      "kids": [
+        28443672
+      ],
       "score": 4,
       "text": "We&#x27;re a couple of software engineers who believe that to build great software you need to write good tests, but we also sympathise when engineers say things like:<p>- &quot;Writing tests was too time consuming on my tight schedule&quot;, or<p>- &quot;Unit tests don&#x27;t catch enough bugs, so they&#x27;re useless&quot;, or<p>- &quot;I&#x27;ve inherited a legacy code base without tests and have no idea where to start&quot;<p>To tackle this we&#x27;re building Symbolica (https:&#x2F;&#x2F;www.symbolica.dev), a symbolic code executor [1], that lets you run your code for all possible inputs. This means you can do things like:<p>- Assert properties about your code and check that they hold for every conceivable input.<p>- Check that two implementations of the same function&#x2F;method&#x2F;program are equivalent, which is really useful if you&#x27;re refactoring a legacy codebase without tests.<p>- Find out if your code will hit any undefined behaviours, e.g. divide by zero or out of bounds array access.<p>We&#x27;re still really early in the development of this product, but we&#x27;re excited to have built a working prototype of the symbolic executor for C programs. We wanted to get some feedback from potential early adopters so we&#x27;ve put up a code playground (https:&#x2F;&#x2F;www.symbolica.dev&#x2F;playground) where you can try out Symbolica on C programs in the browser for free. We&#x27;d love people to give it a go and give us their thoughts.<p>Our plan is to build this out into a hosted cloud service that you can integrate into your DevOps pipeline (e.g. GitHub actions) so that you can run these powerful tests on every CI build.<p>Further down the line we plan to add support for other languages too. We&#x27;ve currently got proof of concept implementations for Lisp and Python and will be looking into C++, Rust and .NET after. Of course we&#x27;re always willing to prioritise a particular language if there&#x27;s strong demand.<p>If you&#x27;re interested in what we&#x27;re building then please either message us at dev@symbolica.dev or join the alpha waiting list if you want to get first access to our full offering once we launch that.<p>[1] https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Symbolic\\_execution",
       "time": 1631015738,
       "title": "Show HN: Symbolica – Try our symbolic code executor in the browser",
-      "type": "story"
-    },
-    {
-      "by": "kieckerjan",
-      "descendants": 0,
-      "id": 28443575,
-      "score": 1,
-      "time": 1631015640,
-      "title": "Steven Pinker Thinks Your Sense of Imminent Doom Is Wrong",
-      "type": "story",
-      "url": "https://www.nytimes.com/interactive/2021/09/06/magazine/steven-pinker-interview.html"
-    },
-    {
-      "by": "RickJWagner",
-      "descendants": 0,
-      "id": 28443564,
-      "score": 2,
-      "time": 1631015571,
-      "title": "Over 1k migrant children are missing in the U.S.",
-      "type": "story",
-      "url": "https://www.axios.com/1475-migrant-children-missing-f046e010-7a5b-44cf-864a-7bf2e535d327.html"
-    },
-    {
-      "by": "RickJWagner",
-      "descendants": 0,
-      "id": 28443560,
-      "score": 1,
-      "time": 1631015547,
-      "title": "What You Can Learn from the AWS Tokyo Outage",
-      "type": "story",
-      "url": "https://thenewstack.io/what-you-can-learn-from-the-aws-tokyo-outage/"
-    },
-    {
-      "by": "trowngon",
-      "descendants": 0,
-      "id": 28443552,
-      "score": 2,
-      "time": 1631015437,
-      "title": "Google Assistant’s upcoming 'Quick phrases' will let you skip 'Hey Google'",
-      "type": "story",
-      "url": "https://9to5google.com/2021/09/01/google-assistant-quick-phrases/"
-    },
-    {
-      "by": "jnord",
-      "descendants": 0,
-      "id": 28443550,
-      "score": 1,
-      "time": 1631015419,
-      "title": "Why coders love the AI that could put them out of a job",
-      "type": "story",
-      "url": "https://www.bbc.com/news/business-57914432"
-    },
-    {
-      "by": "rehabemam",
-      "descendants": 0,
-      "id": 28443537,
-      "score": 1,
-      "text": "A full guide to Geospatial data and Satellite imagery.<p>Starting from how to download satellite images, what best Python packages to use, images processing, indices needed for applications like agriculture, improving the image&#x27;s quality, and labeling, to a complete real-world application pipeline.<p>-Start by downloading raster&#x2F;tif files, how to load shapefiles, and how to visualize satellite images in a friendly Guide to Folium and Rasterio (all code needed is included). \nhttps:&#x2F;&#x2F;omdena.com&#x2F;blog&#x2F;geospatial-data-analytics&#x2F;<p>- Then how to build a satellite imagery dataset with these 7 steps for a quality dataset. Learn satellite imagery sources, how to decide on the best source, different distribution, indices, and image quality needed.\nhttps:&#x2F;&#x2F;omdena.com&#x2F;blog&#x2F;satellite-imagery-dataset&#x2F;<p>- Now it&#x27;s time to enhance the quality of the images, learn how and what tools to use by going through exploring different ways to enhancing satellite imagery to get the best quality images using Deep Learning.\nhttps:&#x2F;&#x2F;omdena.com&#x2F;blog&#x2F;enhancing-satellite-imagery&#x2F;<p>- Apply what you learned on a real-world case study, learn how to detect rooftops, and give understandable rooftops classification by following a complete pipeline of an ML problem from data pre-processing and labeling to applying different neural networks models to detect rooftops. \nhttps:&#x2F;&#x2F;omdena.com&#x2F;blog&#x2F;rooftops-classification&#x2F;",
-      "time": 1631015248,
-      "title": "Geospatial Data from Scratch to Advanced",
       "type": "story"
     }
   ]
