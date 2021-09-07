@@ -1,6 +1,26 @@
 {
   "stories": [
     {
+      "by": "alanwreath",
+      "descendants": 0,
+      "id": 28449795,
+      "score": 1,
+      "time": 1631047980,
+      "title": "Apple Augmented Reality Event September 14th 10a.m. PDT",
+      "type": "story",
+      "url": "https://www.theverge.com/2021/9/7/22648593/apple-fall-event-2021-date-iphone-macbook-watch"
+    },
+    {
+      "by": "aaronbrindle",
+      "descendants": 0,
+      "id": 28449779,
+      "score": 2,
+      "time": 1631047879,
+      "title": "Ex-Googlers raise $40M to democratize natural-language AI",
+      "type": "story",
+      "url": "https://www.fastcompany.com/90670635/ex-googlers-raise-40-million-to-democratize-natural-language-ai"
+    },
+    {
       "by": "jordigh",
       "descendants": 0,
       "id": 28449772,
@@ -29,16 +49,6 @@
       "title": "ExportIGES Addon for Blender Released",
       "type": "story",
       "url": "https://twitter.com/DSculptors/status/1434484649049395201"
-    },
-    {
-      "by": "tonyhb",
-      "descendants": 0,
-      "id": 28449742,
-      "score": 1,
-      "time": 1631047641,
-      "title": "UK orders national security review of graphene takeover by Chinese scientist",
-      "type": "story",
-      "url": "https://www.theguardian.com/business/2021/sep/07/uk-government-orders-national-security-review-of-graphene-firms-takeover"
     },
     {
       "by": "readonthegoapp",
@@ -76,7 +86,7 @@
       "by": "hazzamanic",
       "descendants": 0,
       "id": 28449607,
-      "score": 2,
+      "score": 3,
       "time": 1631046927,
       "title": "Misbehaving Microsoft Teams ad brings down the entire Windows 11 desktop",
       "type": "story",
@@ -84,26 +94,17 @@
     },
     {
       "by": "_wldu",
-      "descendants": 1,
+      "descendants": 2,
       "id": 28449598,
       "kids": [
-        28449770
+        28449770,
+        28449799
       ],
-      "score": 1,
+      "score": 3,
       "text": "I am experimenting with using Ed25519 keys in a side hobby project. It&#x27;s just a toy webapp (nothing serious).<p>Users may register for accounts and provide their public Ed25519 keys. Later, when they wish to login, they sign the string &quot;login&quot; (with their private key), base64 encode the result of that and provide it to the server. The server then verifies the signature using their public key. If it verifies, then the user gets a session.<p>While I find this approach interesting, I&#x27;m not convinced it&#x27;s secure. The signatures are deterministic. So, if an attacker somehow obtained the signed message, then they could use that to login without having access to the user&#x27;s private key. In that way, the signature of a constant message seems very similar to a static password.<p>I was hoping to get ideas and suggestions from the HN community on this approach. Is there a better way to use Ed25519 keys for user auth? I would like to prevent replay type attacks. I could have users sign the current epoch time (in seconds) or something similar.<p>I appreciate any and all feedback. I&#x27;m an old PGP guy trying to learn more modern crypto techniques. Filippo Valsorda has convinced me it&#x27;s worthwhile.<p>Here&#x27;s the registration page and the login page for those who may like to try it:<p>https:&#x2F;&#x2F;gen.go350.com&#x2F;register-ed25519<p>https:&#x2F;&#x2F;gen.go350.com&#x2F;login-ed25519",
       "time": 1631046882,
       "title": "Ask HN: Using Ed25519 Keys for user authentication",
       "type": "story"
-    },
-    {
-      "by": "dredmorbius",
-      "descendants": 0,
-      "id": 28449586,
-      "score": 1,
-      "time": 1631046820,
-      "title": "A Day at the Park (2013)",
-      "type": "story",
-      "url": "http://kiriakakis.net/comics/mused/a-day-at-the-park"
     }
   ]
 }
