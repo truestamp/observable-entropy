@@ -1,6 +1,49 @@
 {
   "stories": [
     {
+      "by": "5faulker",
+      "descendants": 0,
+      "id": 28449891,
+      "score": 1,
+      "time": 1631048427,
+      "title": "Third person dies in Japan after taking contaminated Moderna vaccine",
+      "type": "story",
+      "url": "https://www.theguardian.com/world/2021/sep/07/third-person-dies-in-japan-after-taking-contaminated-moderna-coronavirus-vaccine"
+    },
+    {
+      "by": "starkd",
+      "descendants": 0,
+      "id": 28449876,
+      "score": 1,
+      "time": 1631048354,
+      "title": "Baltimore student passes 3 classes in 4 yrs, top half of class with 0.13 GPA",
+      "type": "story",
+      "url": "https://wjla.com/news/local/city-student-passes-3-classes-in-four-years-ranks-near-top-half-of-class-with-013-gpa"
+    },
+    {
+      "by": "Katydid",
+      "descendants": 0,
+      "id": 28449870,
+      "score": 1,
+      "time": 1631048333,
+      "title": "AWS EC2 Pioneer on Early Days, Next Wave of Hardware",
+      "type": "story",
+      "url": "https://www.nextplatform.com/2021/09/07/aws-ec2-pioneer-on-early-days-next-wave/"
+    },
+    {
+      "by": "ijidak",
+      "descendants": 1,
+      "id": 28449850,
+      "kids": [
+        28449886
+      ],
+      "score": 1,
+      "time": 1631048252,
+      "title": "Steve Jobs helped launch her career; Now, her startup brings in millions",
+      "type": "story",
+      "url": "https://www.cnbc.com/2021/09/07/steve-jobs-helped-launch-her-career-her-start-up-brings-in-millions.html"
+    },
+    {
       "by": "alanwreath",
       "descendants": 0,
       "id": 28449795,
@@ -24,7 +67,7 @@
       "by": "jordigh",
       "descendants": 0,
       "id": 28449772,
-      "score": 1,
+      "score": 2,
       "time": 1631047821,
       "title": "Computer Science and Deep Learning Humble Bundle",
       "type": "story",
@@ -57,53 +100,6 @@
       "score": 1,
       "time": 1631047454,
       "title": "Ask HN: Is there a list of tech orgs with unions?",
-      "type": "story"
-    },
-    {
-      "by": "gmays",
-      "descendants": 0,
-      "id": 28449703,
-      "score": 1,
-      "time": 1631047427,
-      "title": "How Genetically Similar Are Humans to Other Life Forms?",
-      "type": "story",
-      "url": "https://www.visualcapitalist.com/comparing-genetic-similarities-of-various-life-forms/"
-    },
-    {
-      "by": "jenn_v",
-      "descendants": 1,
-      "id": 28449608,
-      "kids": [
-        28449610
-      ],
-      "score": 1,
-      "time": 1631046928,
-      "title": "US Cybersecurity Agency urges users to patch Confluence",
-      "type": "story",
-      "url": "https://jexo.io/blog/atlassian-news-jexo-6-9-2021/"
-    },
-    {
-      "by": "hazzamanic",
-      "descendants": 0,
-      "id": 28449607,
-      "score": 3,
-      "time": 1631046927,
-      "title": "Misbehaving Microsoft Teams ad brings down the entire Windows 11 desktop",
-      "type": "story",
-      "url": "https://arstechnica.com/gadgets/2021/09/misbehaving-microsoft-teams-ad-brings-down-the-entire-windows-11-desktop"
-    },
-    {
-      "by": "_wldu",
-      "descendants": 2,
-      "id": 28449598,
-      "kids": [
-        28449770,
-        28449799
-      ],
-      "score": 3,
-      "text": "I am experimenting with using Ed25519 keys in a side hobby project. It&#x27;s just a toy webapp (nothing serious).<p>Users may register for accounts and provide their public Ed25519 keys. Later, when they wish to login, they sign the string &quot;login&quot; (with their private key), base64 encode the result of that and provide it to the server. The server then verifies the signature using their public key. If it verifies, then the user gets a session.<p>While I find this approach interesting, I&#x27;m not convinced it&#x27;s secure. The signatures are deterministic. So, if an attacker somehow obtained the signed message, then they could use that to login without having access to the user&#x27;s private key. In that way, the signature of a constant message seems very similar to a static password.<p>I was hoping to get ideas and suggestions from the HN community on this approach. Is there a better way to use Ed25519 keys for user auth? I would like to prevent replay type attacks. I could have users sign the current epoch time (in seconds) or something similar.<p>I appreciate any and all feedback. I&#x27;m an old PGP guy trying to learn more modern crypto techniques. Filippo Valsorda has convinced me it&#x27;s worthwhile.<p>Here&#x27;s the registration page and the login page for those who may like to try it:<p>https:&#x2F;&#x2F;gen.go350.com&#x2F;register-ed25519<p>https:&#x2F;&#x2F;gen.go350.com&#x2F;login-ed25519",
-      "time": 1631046882,
-      "title": "Ask HN: Using Ed25519 Keys for user authentication",
       "type": "story"
     }
   ]
