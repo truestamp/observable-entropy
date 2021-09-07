@@ -1,6 +1,26 @@
 {
   "stories": [
     {
+      "by": "MrPowers",
+      "descendants": 0,
+      "id": 28443617,
+      "score": 1,
+      "time": 1631015999,
+      "title": "Flush with billions, Databricks has momentum and big plans",
+      "type": "story",
+      "url": "https://www.economist.com/business/2021/09/04/flush-with-billions-databricks-has-momentum-and-big-plans"
+    },
+    {
+      "by": "Choc13",
+      "descendants": 0,
+      "id": 28443587,
+      "score": 2,
+      "text": "We&#x27;re a couple of software engineers who believe that to build great software you need to write good tests, but we also sympathise when engineers say things like:<p>- &quot;Writing tests was too time consuming on my tight schedule&quot;, or<p>- &quot;Unit tests don&#x27;t catch enough bugs, so they&#x27;re useless&quot;, or<p>- &quot;I&#x27;ve inherited a legacy code base without tests and have no idea where to start&quot;<p>To tackle this we&#x27;re building Symbolica (https:&#x2F;&#x2F;www.symbolica.dev), a symbolic code executor [1], that lets you run your code for all possible inputs. This means you can do things like:<p>- Assert properties about your code and check that they hold for every conceivable input.<p>- Check that two implementations of the same function&#x2F;method&#x2F;program are equivalent, which is really useful if you&#x27;re refactoring a legacy codebase without tests.<p>- Find out if your code will hit any undefined behaviours, e.g. divide by zero or out of bounds array access.<p>We&#x27;re still really early in the development of this product, but we&#x27;re excited to have built a working prototype of the symbolic executor for C programs. We wanted to get some feedback from potential early adopters so we&#x27;ve put up a code playground (https:&#x2F;&#x2F;www.symbolica.dev&#x2F;playground) where you can try out Symbolica on C programs in the browser for free. We&#x27;d love people to give it a go and give us their thoughts.<p>Our plan is to build this out into a hosted cloud service that you can integrate into your DevOps pipeline (e.g. GitHub actions) so that you can run these powerful tests on every CI build.<p>Further down the line we plan to add support for other languages too. We&#x27;ve currently got proof of concept implementations for Lisp and Python and will be looking into C++, Rust and .NET after. Of course we&#x27;re always willing to prioritise a particular language if there&#x27;s strong demand.<p>If you&#x27;re interested in what we&#x27;re building then please either message us at dev@symbolica.dev or join the alpha waiting list if you want to get first access to our full offering once we launch that.<p>[1] https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Symbolic\\_execution",
+      "time": 1631015738,
+      "title": "Show HN: Symbolica – Try our symbolic code executor in the browser",
+      "type": "story"
+    },
+    {
       "by": "kieckerjan",
       "descendants": 0,
       "id": 28443575,
@@ -62,9 +82,10 @@
     },
     {
       "by": "OJFord",
-      "descendants": 1,
+      "descendants": 2,
       "id": 28443521,
       "kids": [
+        28443595,
         28443530
       ],
       "score": 1,
@@ -82,26 +103,6 @@
       "title": "Israel’s Covid Surge Shows the World What’s Coming Next",
       "type": "story",
       "url": "https://www.bloomberg.com/news/articles/2021-09-07/israel-s-covid-surge-shows-the-world-what-s-coming-next"
-    },
-    {
-      "by": "holymay",
-      "descendants": 0,
-      "id": 28443485,
-      "score": 10,
-      "time": 1631014802,
-      "title": "Real-time stress: AnyCable, k6, WebSockets, and Yabeda",
-      "type": "story",
-      "url": "https://evilmartians.com/chronicles/real-time-stress-anycable-k6-websockets-and-yabeda"
-    },
-    {
-      "by": "elsewhen",
-      "descendants": 0,
-      "id": 28443461,
-      "score": 1,
-      "time": 1631014627,
-      "title": "Singapore deploys street robots to check bad behavior of people",
-      "type": "story",
-      "url": "https://investvine.com/singapore-deploys-street-robots-to-check-bad-behaviour-of-people/"
     }
   ]
 }
