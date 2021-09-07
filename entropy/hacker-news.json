@@ -1,6 +1,25 @@
 {
   "stories": [
     {
+      "by": "readonthegoapp",
+      "descendants": 0,
+      "id": 28449712,
+      "score": 1,
+      "time": 1631047454,
+      "title": "Ask HN: Is there a list of tech orgs with unions?",
+      "type": "story"
+    },
+    {
+      "by": "gmays",
+      "descendants": 0,
+      "id": 28449703,
+      "score": 1,
+      "time": 1631047427,
+      "title": "How Genetically Similar Are Humans to Other Life Forms?",
+      "type": "story",
+      "url": "https://www.visualcapitalist.com/comparing-genetic-similarities-of-various-life-forms/"
+    },
+    {
       "by": "jenn_v",
       "descendants": 1,
       "id": 28449608,
@@ -17,7 +36,7 @@
       "by": "hazzamanic",
       "descendants": 0,
       "id": 28449607,
-      "score": 1,
+      "score": 2,
       "time": 1631046927,
       "title": "Misbehaving Microsoft Teams ad brings down the entire Windows 11 desktop",
       "type": "story",
@@ -28,7 +47,7 @@
       "descendants": 0,
       "id": 28449598,
       "score": 1,
-      "text": "I am experimenting with using Ed25519 keys in a side hobby project. It&#x27;s just a toy webapp (nothing serious).<p>Users may register for accounts and provide their public Ed25519 keys. Later, when they wish to login, they sign the string &quot;login&quot; (with their private key), base64 encode the result of that and provide it to the server. The server then verifies the signature using their public key. If it verifies, then the user gets a session.<p>While I find this approach interesting, I&#x27;m not convinced it&#x27;s secure. The signatures are deterministic. So, if an attacker somehow obtained the signed message, then they could use that to login without having access to the user&#x27;s private key. In that way, the signature seems very similar to a static password.<p>I was hoping to get ideas and suggestions from the HN community on this approach. Is there a better way to use Ed25519 keys for user auth? I would like to prevent replay type attacks. I could have users sign the current epoch time (in seconds) or something similar.<p>I appreciate any and all feedback. I&#x27;m an old PGP guy trying to learn more modern crypto techniques. Filippo Valsorda has convinced me it&#x27;s worthwhile.<p>Here&#x27;s the registration page and the login page:<p>https:&#x2F;&#x2F;gen.go350.com&#x2F;register-ed25519<p>https:&#x2F;&#x2F;gen.go350.com&#x2F;login-ed25519",
+      "text": "I am experimenting with using Ed25519 keys in a side hobby project. It&#x27;s just a toy webapp (nothing serious).<p>Users may register for accounts and provide their public Ed25519 keys. Later, when they wish to login, they sign the string &quot;login&quot; (with their private key), base64 encode the result of that and provide it to the server. The server then verifies the signature using their public key. If it verifies, then the user gets a session.<p>While I find this approach interesting, I&#x27;m not convinced it&#x27;s secure. The signatures are deterministic. So, if an attacker somehow obtained the signed message, then they could use that to login without having access to the user&#x27;s private key. In that way, the signature of a constant message seems very similar to a static password.<p>I was hoping to get ideas and suggestions from the HN community on this approach. Is there a better way to use Ed25519 keys for user auth? I would like to prevent replay type attacks. I could have users sign the current epoch time (in seconds) or something similar.<p>I appreciate any and all feedback. I&#x27;m an old PGP guy trying to learn more modern crypto techniques. Filippo Valsorda has convinced me it&#x27;s worthwhile.<p>Here&#x27;s the registration page and the login page for those who may like to try it:<p>https:&#x2F;&#x2F;gen.go350.com&#x2F;register-ed25519<p>https:&#x2F;&#x2F;gen.go350.com&#x2F;login-ed25519",
       "time": 1631046882,
       "title": "Ask HN: Using Ed25519 Keys for user authentication",
       "type": "story"
@@ -57,7 +76,7 @@
       "by": "salemh",
       "descendants": 0,
       "id": 28449511,
-      "score": 3,
+      "score": 4,
       "time": 1631046558,
       "title": "Ivermectin: Efficacy against a new global scourge, Covid-19 Aug 2021",
       "type": "story",
@@ -67,7 +86,7 @@
       "by": "boyter",
       "descendants": 0,
       "id": 28449465,
-      "score": 1,
+      "score": 2,
       "time": 1631046395,
       "title": "Make Your Program Slower with Threads",
       "type": "story",
@@ -75,33 +94,16 @@
     },
     {
       "by": "mv9",
-      "descendants": 0,
+      "descendants": 1,
       "id": 28449461,
+      "kids": [
+        28449727
+      ],
       "score": 1,
       "time": 1631046356,
       "title": "What Every C Programmer Should Know About Undefined Behavior",
       "type": "story",
       "url": "https://blog.llvm.org/2011/05/what-every-c-programmer-should-know.html"
-    },
-    {
-      "by": "samizdis",
-      "descendants": 0,
-      "id": 28449457,
-      "score": 1,
-      "time": 1631046338,
-      "title": "Betting on Horses with No-Code AI",
-      "type": "story",
-      "url": "https://spectrum.ieee.org/betting-with-no-code-ai"
-    },
-    {
-      "by": "revicon",
-      "descendants": 0,
-      "id": 28449419,
-      "score": 1,
-      "text": "I&#x27;m doing development work that is maxing out my macbook air laptop, it&#x27;s time to buy a desktop machine as my daily driver (when I&#x27;m at my desk).  I need to drive multiple monitors and handle normal CPU and memory intensive tasks, and it needs to be linux compatible out of the box.  Where do I go these days?",
-      "time": 1631046159,
-      "title": "Ask HN: It's 2021, where do I go to buy a prebuilt Linux compatible desktop?",
-      "type": "story"
     }
   ]
 }
