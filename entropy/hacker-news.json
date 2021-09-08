@@ -1,6 +1,69 @@
 {
   "stories": [
     {
+      "by": "throwmemoney",
+      "descendants": 0,
+      "id": 28462514,
+      "score": 2,
+      "time": 1631132412,
+      "title": "AI Weiwei: Credit Suisse closed bank account over China",
+      "type": "story",
+      "url": "https://www.bbc.co.uk/news/business-58484447"
+    },
+    {
+      "by": "ogogmad",
+      "descendants": 0,
+      "id": 28462508,
+      "score": 1,
+      "time": 1631132392,
+      "title": "Think Jacques Derrida was a charlatan? Look again",
+      "type": "story",
+      "url": "https://www.prospectmagazine.co.uk/magazine/jacques-derrida-philosopher-not-overrated"
+    },
+    {
+      "by": "molecule",
+      "descendants": 0,
+      "id": 28462495,
+      "score": 1,
+      "time": 1631132338,
+      "title": "How to Replace Docker with Podman on a Mac",
+      "type": "story",
+      "url": "https://www.redhat.com/sysadmin/replace-docker-podman-macos"
+    },
+    {
+      "by": "omarfarooq",
+      "descendants": 0,
+      "id": 28462488,
+      "score": 1,
+      "time": 1631132308,
+      "title": "Vitalik proposes solutions to relieve Ethereum of NFT congestion",
+      "type": "story",
+      "url": "https://ethresear.ch/t/cross-rollup-nft-wrapper-and-migration-ideas/10507"
+    },
+    {
+      "by": "CrankyBear",
+      "descendants": 0,
+      "id": 28462477,
+      "score": 1,
+      "time": 1631132273,
+      "title": "The Open Source Initiative Names Stefano Maffulli Its First Executive Director",
+      "type": "story",
+      "url": "https://www.zdnet.com/article/the-open-source-initiative-names-stefano-maffulli-its-first-executive-director/"
+    },
+    {
+      "by": "ilamont",
+      "descendants": 1,
+      "id": 28462461,
+      "kids": [
+        28462468
+      ],
+      "score": 2,
+      "time": 1631132166,
+      "title": "Australian ruling makes publishers liable for every idiot Facebook commenter",
+      "type": "story",
+      "url": "https://www.niemanlab.org/2021/09/an-australian-court-ruling-makes-publishers-legally-responsible-for-every-idiot-facebook-user-who-leaves-a-comment/"
+    },
+    {
       "by": "gmays",
       "descendants": 0,
       "id": 28462448,
@@ -39,69 +102,6 @@
       "title": "Show HN: Url Checker (for Android) updated with Clear Url module",
       "type": "story",
       "url": "https://play.google.com/store/apps/details?id=com.trianguloy.urlchecker"
-    },
-    {
-      "by": "ewagsjr",
-      "descendants": 1,
-      "id": 28462391,
-      "kids": [
-        28462415
-      ],
-      "score": 1,
-      "time": 1631131789,
-      "title": "Runescape devs shut down HD fan mod just before release sparking in-game protest",
-      "type": "story",
-      "url": "https://www.pcgamer.com/runelite-hd-shut-down/"
-    },
-    {
-      "by": "orthecreedence",
-      "descendants": 0,
-      "id": 28462369,
-      "score": 1,
-      "text": "Hi, everyone. Been playing around with this recently as a sort of PGP successor. It&#x27;s not all there yet, and I know it&#x27;s missing some things from PGP, but I figured why not get a start and see what kind of interest&#x2F;support it might get.<p>https:&#x2F;&#x2F;stamp-protocol.github.io&#x2F;<p>Effectively, this is a key management system that allows building and signing (&quot;stamping&quot;) various claims about yourself and about others. The eventual goal is to create easy-to-use implementations of the protocol that allow logging in to websites or managing cryptographic keys for various security-conscious applications. Secure, simple distributed key management for cryptography and identity management.<p>Currently Stamp uses crypto primitives found in libsodium, but is also built such that different algorithms can be added as needed.<p>The identity itself is set up as a DAG which is appended to by signing transactions with an opinionated set of keys. A DAG was chosen so parallel offline updates could be made and merged later. One of Stamp&#x27;s main features is it allows recovery of the identity via a pre-determined recovery policy, using signatures from trusted keys (friends, family, institutional providers). Think of it as sort of a multisig recovery mechanism.<p>A few things I&#x27;m actively exploring:<p>- A storage network (https:&#x2F;&#x2F;stamp-protocol.github.io&#x2F;#arch-stampnet). This would necessarily need to be some sort of p2p system, and hopefully not blockchain-based as I believe the consensus&#x2F;validation used in blockchain systems are superfluous to identity storage and retrieval.<p>- Putting stamp on USB keys&#x2F;embedded devices (ARM TrustZone, RISC-V PMP, etc) so it can be used in more trusted environments.<p>- Some sort of FIDO2 interop would be great so Stamp could act as a login system without having to re-tool a bunch of stuff.<p>There&#x27;s also a somewhat-incomplete CLI implementation of the protocol here: https:&#x2F;&#x2F;github.com&#x2F;stamp-protocol&#x2F;cli. This allows creation of identities, creating and stamping claims, automatic verification of certain claims (www&#x2F;DNS), as well as cryptographic messaging&#x2F;signing tools.<p>Let me know what you think! What&#x27;s good, what&#x27;s bad, what&#x27;s missing, etc. Obviously it&#x27;s early days so more feedback is better.",
-      "time": 1631131667,
-      "title": "Show HN: Stamp – A Cryptographic Identity System",
-      "type": "story"
-    },
-    {
-      "by": "drummer",
-      "descendants": 0,
-      "id": 28462328,
-      "score": 1,
-      "time": 1631131431,
-      "title": "OpenSSL 3.0 Has Been Released",
-      "type": "story",
-      "url": "https://www.openssl.org/blog/blog/2021/09/07/OpenSSL3.Final/"
-    },
-    {
-      "by": "shankarro",
-      "descendants": 0,
-      "id": 28462305,
-      "score": 1,
-      "time": 1631131308,
-      "title": "Tangerang Prison Fire",
-      "type": "story",
-      "url": "https://en.wikipedia.org/wiki/Tangerang_prison_fire"
-    },
-    {
-      "by": "amrrs",
-      "descendants": 0,
-      "id": 28462302,
-      "score": 1,
-      "time": 1631131277,
-      "title": "Signing and notarizing an Electron app for distribution using GitHub Actions",
-      "type": "story",
-      "url": "https://til.simonwillison.net/electron/sign-notarize-electron-macos"
-    },
-    {
-      "by": "spullara",
-      "descendants": 0,
-      "id": 28462298,
-      "score": 5,
-      "time": 1631131258,
-      "title": "Silanano launches the first new commercial battery chemistry since 1991",
-      "type": "story",
-      "url": "https://silanano.com/news/one-small-new-battery-one-giant-leap-for-our-energy-future/?referrer"
     }
   ]
 }
