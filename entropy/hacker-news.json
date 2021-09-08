@@ -1,6 +1,36 @@
 {
   "stories": [
     {
+      "by": "TrianguloY",
+      "descendants": 0,
+      "id": 28462395,
+      "score": 1,
+      "time": 1631131804,
+      "title": "Show HN: Url Checker (for Android) updated with Clear Url module",
+      "type": "story",
+      "url": "https://play.google.com/store/apps/details?id=com.trianguloy.urlchecker"
+    },
+    {
+      "by": "ewagsjr",
+      "descendants": 0,
+      "id": 28462391,
+      "score": 1,
+      "time": 1631131789,
+      "title": "Runescape devs shut down HD fan mod just before release sparking in-game protest",
+      "type": "story",
+      "url": "https://www.pcgamer.com/runelite-hd-shut-down/"
+    },
+    {
+      "by": "orthecreedence",
+      "descendants": 0,
+      "id": 28462369,
+      "score": 1,
+      "text": "Hi, everyone. Been playing around with this recently as a sort of PGP successor. It&#x27;s not all there yet, and I know it&#x27;s missing some things from PGP, but I figured why not get a start and see what kind of interest&#x2F;support it might get.<p>https:&#x2F;&#x2F;stamp-protocol.github.io&#x2F;<p>Effectively, this is a key management system that allows building and signing (&quot;stamping&quot;) various claims about yourself and about others. The eventual goal is to create easy-to-use implementations of the protocol that allow logging in to websites or managing cryptographic keys for various security-conscious applications. Secure, simple distributed key management for cryptography and identity management.<p>Currently Stamp uses crypto primitives found in libsodium, but is also built such that different algorithms can be added as needed.<p>The identity itself is set up as a DAG which is appended to by signing transactions with an opinionated set of keys. A DAG was chosen so parallel offline updates could be made and merged later. One of Stamp&#x27;s main features is it allows recovery of the identity via a pre-determined recovery policy, using signatures from trusted keys (friends, family, institutional providers). Think of it as sort of a multisig recovery mechanism.<p>A few things I&#x27;m actively exploring:<p>- A storage network (https:&#x2F;&#x2F;stamp-protocol.github.io&#x2F;#arch-stampnet). This would necessarily need to be some sort of p2p system, and hopefully not blockchain-based as I believe the consensus&#x2F;validation used in blockchain systems are superfluous to identity storage and retrieval.<p>- Putting stamp on USB keys&#x2F;embedded devices (ARM TrustZone, RISC-V PMP, etc) so it can be used in more trusted environments.<p>- Some sort of FIDO2 interop would be great so Stamp could act as a login system without having to re-tool a bunch of stuff.<p>There&#x27;s also a somewhat-incomplete CLI implementation of the protocol here: https:&#x2F;&#x2F;github.com&#x2F;stamp-protocol&#x2F;cli. This allows creation of identities, creating and stamping claims, automatic verification of certain claims (www&#x2F;DNS), as well as cryptographic messaging&#x2F;signing tools.<p>Let me know what you think! What&#x27;s good, what&#x27;s bad, what&#x27;s missing, etc. Obviously it&#x27;s early days so more feedback is better.",
+      "time": 1631131667,
+      "title": "Show HN: Stamp – A Cryptographic Identity System",
+      "type": "story"
+    },
+    {
       "by": "drummer",
       "descendants": 0,
       "id": 28462328,
@@ -34,7 +64,7 @@
       "by": "spullara",
       "descendants": 0,
       "id": 28462298,
-      "score": 1,
+      "score": 3,
       "time": 1631131258,
       "title": "Silanano launches the first new commercial battery chemistry since 1991",
       "type": "story",
@@ -67,41 +97,11 @@
       "by": "hhs",
       "descendants": 0,
       "id": 28462182,
-      "score": 1,
+      "score": 2,
       "time": 1631130762,
       "title": "Massive animal species discovered in half-billion-year-old Burgess Shale",
       "type": "story",
       "url": "https://www.rom.on.ca/en/about-us/newsroom/press-releases/massive-new-animal-species-discovered-in-half-billion-year-old"
-    },
-    {
-      "by": "todsacerdoti",
-      "descendants": 0,
-      "id": 28462172,
-      "score": 2,
-      "time": 1631130722,
-      "title": "Test-driven development in three easy steps",
-      "type": "story",
-      "url": "https://monospacedmonologues.com/2021/08/tdd-in-3-easy-steps/"
-    },
-    {
-      "by": "soapboxrocket",
-      "descendants": 0,
-      "id": 28462170,
-      "score": 2,
-      "time": 1631130703,
-      "title": "USGS Take of Olumpus Mons",
-      "type": "story",
-      "url": "https://pubs.er.usgs.gov/publication/sim3470"
-    },
-    {
-      "by": "conroy",
-      "descendants": 0,
-      "id": 28462162,
-      "score": 1,
-      "time": 1631130670,
-      "title": "How We Went All In on sqlc/pgx for Postgres and Go",
-      "type": "story",
-      "url": "https://brandur.org/sqlc"
     }
   ]
 }
