@@ -1,6 +1,26 @@
 {
   "stories": [
     {
+      "by": "benbreen",
+      "descendants": 0,
+      "id": 28466455,
+      "score": 1,
+      "time": 1631164118,
+      "title": "In the Memory Ward: Britain's most eccentric and original library (2015)",
+      "type": "story",
+      "url": "https://www.newyorker.com/magazine/2015/03/16/in-the-memory-ward"
+    },
+    {
+      "by": "bryan0",
+      "descendants": 0,
+      "id": 28466441,
+      "score": 1,
+      "time": 1631163991,
+      "title": "Effectiveness of Covid-19 Vaccines in Ambulatory and Inpatient Care Settings",
+      "type": "story",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2110362"
+    },
+    {
       "by": "asplake",
       "descendants": 0,
       "id": 28466436,
@@ -32,8 +52,11 @@
     },
     {
       "by": "figassis",
-      "descendants": 0,
+      "descendants": 1,
       "id": 28466363,
+      "kids": [
+        28466466
+      ],
       "score": 2,
       "text": "I&#x27;ve setup several k8s clusters on bare metal in the last few years, and by far the biggest challenges are storage and control plane corruption.<p>The last one is usually due to multiple etcd failure modes (corruption, daemon&#x2F;pod not starting, network&#x2F;port issues, ...) to the point where even with backups (restic, velero, etc) the cluster needs to be rebuilt.<p>So I&#x27;m considering using an RDBMS outside the cluster. Assuming I can guarantee availability and performance, what are the downsides of swapping etcd with a relational DB?<p>Thanks in advance.",
       "time": 1631163217,
@@ -52,9 +75,12 @@
     },
     {
       "by": "hyperrail",
-      "descendants": 0,
+      "descendants": 1,
       "id": 28466349,
-      "score": 1,
+      "kids": [
+        28466451
+      ],
+      "score": 2,
       "time": 1631163049,
       "title": "Sellers Deliberately Underprice Homes to Spur Bidding Wars in San Francisco BA",
       "type": "story",
@@ -74,31 +100,11 @@
       "by": "Lammy",
       "descendants": 0,
       "id": 28466328,
-      "score": 1,
+      "score": 3,
       "time": 1631162903,
       "title": "The US Government Tried to Kill Weed Smokers with a Toxic Chemical in the 1980s",
       "type": "story",
       "url": "https://thoughtcatalog.com/jeremy-london/2018/08/paraquat-pot/"
-    },
-    {
-      "by": "tuatoru",
-      "descendants": 0,
-      "id": 28466326,
-      "score": 1,
-      "time": 1631162894,
-      "title": "Are we becoming less ambitious?",
-      "type": "story",
-      "url": "https://www.bbc.com/worklife/article/20210906-are-we-becoming-less-ambitious"
-    },
-    {
-      "by": "qwertyuiop_",
-      "descendants": 0,
-      "id": 28466319,
-      "score": 1,
-      "time": 1631162874,
-      "title": "Proton welcomes Sir Tim Berners-Lee to its advisory board",
-      "type": "story",
-      "url": "https://www.theregister.com/2021/09/08/proton_welcomes_sir_tim_bernerslee/"
     }
   ]
 }
