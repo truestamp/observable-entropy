@@ -1,6 +1,36 @@
 {
   "stories": [
     {
+      "by": "sussyamogus",
+      "descendants": 0,
+      "id": 28466377,
+      "score": 1,
+      "time": 1631163364,
+      "title": "Bigsussy",
+      "type": "story",
+      "url": "https://pbs.twimg.com/profile_images/1364920241265012743/Y__158zv.png"
+    },
+    {
+      "by": "figassis",
+      "descendants": 0,
+      "id": 28466363,
+      "score": 2,
+      "text": "I&#x27;ve setup several k8s clusters on bare metal in the last few years, and by far the biggest challenges are storage and control plane corruption.<p>The last one is usually due to multiple etcd failure modes (corruption, daemon&#x2F;pod not starting, network&#x2F;port issues, ...) to the point where even with backups (restic, velero, etc) the cluster needs to be rebuilt.<p>So I&#x27;m considering using an RDBMS outside the cluster. Assuming I can guarantee availability and performance, what are the downsides of swapping etcd with a relational DB?<p>Thanks in advance.",
+      "time": 1631163217,
+      "title": "Ask HN: What are the downsides of using Postgres or MySQL for K8s control plane?",
+      "type": "story"
+    },
+    {
+      "by": "mh_",
+      "descendants": 0,
+      "id": 28466350,
+      "score": 1,
+      "time": 1631163096,
+      "title": "Good attacks make good detections make good attacks (a MySQL booby-trap)",
+      "type": "story",
+      "url": "https://blog.thinkst.com/2021/09/a-mysql-canarytoken.html"
+    },
+    {
       "by": "hyperrail",
       "descendants": 0,
       "id": 28466349,
@@ -69,39 +99,6 @@
       "title": "AWS EKS Anywhere Now in GA",
       "type": "story",
       "url": "https://aws.amazon.com/blogs/aws/amazon-eks-anywhere-now-generally-available-to-create-and-manage-kubernetes-clusters-on-premises/"
-    },
-    {
-      "by": "kimi",
-      "descendants": 0,
-      "id": 28466271,
-      "score": 1,
-      "time": 1631162490,
-      "title": "Open source, industrial-grade portable air quality monitoring",
-      "type": "story",
-      "url": "https://airsenseur.org/website/airsenseur-air-quality-monitoring-open-framework/"
-    },
-    {
-      "by": "8bitsrule",
-      "descendants": 1,
-      "id": 28466251,
-      "kids": [
-        28466342
-      ],
-      "score": 2,
-      "time": 1631162309,
-      "title": "Guam court clears the way for ‘tele-abortion’",
-      "type": "story",
-      "url": "https://www.theguardian.com/world/2021/sep/08/guam-court-clears-the-way-for-tele-abortion-in-boost-for-reproductive-rights"
-    },
-    {
-      "by": "walterbell",
-      "descendants": 0,
-      "id": 28466247,
-      "score": 1,
-      "time": 1631162268,
-      "title": "How the Pandemic Is Changing the Norms of Science",
-      "type": "story",
-      "url": "https://www.tabletmag.com/sections/science/articles/pandemic-science"
     }
   ]
 }
