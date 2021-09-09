@@ -1,6 +1,29 @@
 {
   "stories": [
     {
+      "by": "om154",
+      "descendants": 1,
+      "id": 28466544,
+      "kids": [
+        28466545
+      ],
+      "score": 2,
+      "time": 1631165020,
+      "title": "Australia's COVID-19 Vaccine Claims Scheme",
+      "type": "story",
+      "url": "https://www.health.gov.au/initiatives-and-programs/covid-19-vaccines/covid-19-vaccine-claims-scheme"
+    },
+    {
+      "by": "kxrm",
+      "descendants": 0,
+      "id": 28466543,
+      "score": 1,
+      "time": 1631165017,
+      "title": "Internet Explorer vulnerability threatens Microsoft Office users",
+      "type": "story",
+      "url": "https://www.kaspersky.com/blog/cve-2021-40444-vulnerability-mshtml/41728/"
+    },
+    {
       "by": "bb88",
       "descendants": 0,
       "id": 28466503,
@@ -34,7 +57,7 @@
       "by": "benbreen",
       "descendants": 0,
       "id": 28466455,
-      "score": 1,
+      "score": 2,
       "time": 1631164118,
       "title": "In the Memory Ward: Britain's most eccentric and original library (2015)",
       "type": "story",
@@ -79,29 +102,6 @@
       "title": "Bigsussy",
       "type": "story",
       "url": "https://pbs.twimg.com/profile_images/1364920241265012743/Y__158zv.png"
-    },
-    {
-      "by": "figassis",
-      "descendants": 1,
-      "id": 28466363,
-      "kids": [
-        28466466
-      ],
-      "score": 2,
-      "text": "I&#x27;ve setup several k8s clusters on bare metal in the last few years, and by far the biggest challenges are storage and control plane corruption.<p>The last one is usually due to multiple etcd failure modes (corruption, daemon&#x2F;pod not starting, network&#x2F;port issues, ...) to the point where even with backups (restic, velero, etc) the cluster needs to be rebuilt.<p>So I&#x27;m considering using an RDBMS outside the cluster. Assuming I can guarantee availability and performance, what are the downsides of swapping etcd with a relational DB?<p>Thanks in advance.",
-      "time": 1631163217,
-      "title": "Ask HN: What are the downsides of using Postgres or MySQL for K8s control plane?",
-      "type": "story"
-    },
-    {
-      "by": "mh_",
-      "descendants": 0,
-      "id": 28466350,
-      "score": 1,
-      "time": 1631163096,
-      "title": "Good attacks make good detections make good attacks (a MySQL booby-trap)",
-      "type": "story",
-      "url": "https://blog.thinkst.com/2021/09/a-mysql-canarytoken.html"
     }
   ]
 }
