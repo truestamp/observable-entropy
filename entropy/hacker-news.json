@@ -1,6 +1,79 @@
 {
   "stories": [
     {
+      "by": "aor215",
+      "descendants": 0,
+      "id": 28472266,
+      "score": 1,
+      "time": 1631208599,
+      "title": "Error Handling in Go REST APIs",
+      "type": "story",
+      "url": "https://linksort.com/blog/error-handling-in-go-rest-apis/"
+    },
+    {
+      "by": "matbatt38",
+      "descendants": 0,
+      "id": 28472256,
+      "score": 1,
+      "text": "Hey HN!<p>Recently, I&#x27;m thinking a lot about &quot;practical software freedom&quot; as branded by GNU Guile (aka. &quot;customize and extend while running&quot; + self documenting&#x2F;live introspection).<p>I really understands how cool that can be when it&#x27;s done well, and I see many successful project doing it this way (Guix, and Emacs obviously, but also outside of LISP world there is awesomewm and many others).<p>I&#x27;ve already tried integrating Guile in some hobby projects written in other languages, so I understand how it works, although I don&#x27;t use it on a daily basis.<p>On the other hand, most of the time I&#x27;m using (and tweaking) programs that are extended and configured externally through IPC (e.g. sockets, d-bus), like i3 or NetworkManager. I&#x27;m  more familiar with running helper programs (or a front-end) that I wrote in the language of my choice with a library, using d-bus discoverability features when available or after reading some documentation.<p>I often hear that this second way is &quot;only almost as powerful as having a real programming langage built-in&quot;, but I&#x27;m not sure I understand why. I realised I don&#x27;t really know the practical pro and cons of each way.<p>From where I stand, I see three main advantage of the IPC&#x27;s way and none for Extension Language (sorry) :\n- It&#x27;s language-agnostic, at the reasonable cost of writing libraries (vs the cost writing and maintaining e.g. a Lua-&gt;Scheme compiler like Guile&#x27;s folks are doing)\n- It can be extended remotely through network\n- When using d-bus almost everything is standardised and runtime cost is <i>never</i> an issue (at least from what I&#x27;ve seen so far in 10+ years).<p>Obviously the reason why I&#x27;m seeing things like this is because I never had the opportunity to learn the advantages of the Guile&#x27;s way, so... I&#x27;d like to learn some bits from you :)<p>I know there&#x27;s a lot of enthusiasm here for LISP-related tech here, so if you feel like proving me wrong and explaining me why the extension language path is better, I&#x27;m all yours!<p>PS: I really don&#x27;t want to start a flame war lisp vs not-lisp or d-bus vs not-d-bus, I&#x27;d like the conversation to stick mainly to IPC vs Extension Language. Thx!",
+      "time": 1631208556,
+      "title": "Ask HN: Pro and Cons of external control via IPC vs. Guile",
+      "type": "story"
+    },
+    {
+      "by": "mikhael",
+      "descendants": 0,
+      "id": 28472252,
+      "score": 1,
+      "time": 1631208544,
+      "title": "SoftBank Eyeing Battery-Maker 3DOM for 6G and Mobile Base Stations",
+      "type": "story",
+      "url": "https://thenewsmotion.com/softbank-eyeing-battery-maker-3dom-for-6g-and-mobile-base-stations/"
+    },
+    {
+      "by": "bookofjoe",
+      "descendants": 1,
+      "id": 28472235,
+      "kids": [
+        28472238
+      ],
+      "score": 2,
+      "time": 1631208474,
+      "title": "Don’t tell students if classmates get coronavirus, U of Delaware warns faculty",
+      "type": "story",
+      "url": "https://www.washingtonpost.com/education/2021/09/09/university-delaware-coronavirus/"
+    },
+    {
+      "by": "amrrs",
+      "descendants": 0,
+      "id": 28472226,
+      "score": 1,
+      "time": 1631208436,
+      "title": "Cog: Containers for Machine Learning",
+      "type": "story",
+      "url": "https://github.com/replicate/cog"
+    },
+    {
+      "by": "todsacerdoti",
+      "descendants": 0,
+      "id": 28472225,
+      "score": 1,
+      "time": 1631208433,
+      "title": "GitHub Enterprise Server 3.2 brings new color modes and added security capabili",
+      "type": "story",
+      "url": "https://github.blog/2021-09-09-github-enterprise-server-3-2-color-modes-security/"
+    },
+    {
+      "by": "ChrisHardman29",
+      "descendants": 0,
+      "id": 28472213,
+      "score": 1,
+      "time": 1631208385,
+      "title": "Video fake news believed more, shared more than text and audio versions",
+      "type": "story",
+      "url": "https://news.psu.edu/story/668403/2021/09/08/research/video-fake-news-believed-more-shared-more-text-and-audio-versions"
+    },
+    {
       "by": "0xferruccio",
       "descendants": 0,
       "id": 28472195,
@@ -29,76 +102,6 @@
       "title": "Show HN: I made a fake VS Code so you can browse remote jobs in your office",
       "type": "story",
       "url": "https://remoteok.io/vscode"
-    },
-    {
-      "by": "bhaile",
-      "descendants": 0,
-      "id": 28472158,
-      "score": 1,
-      "time": 1631208069,
-      "title": "Facebook Canvas: $126k worth of bugs that lead to Facebook Account Takeovers",
-      "type": "story",
-      "url": "https://ysamm.com/?p=708"
-    },
-    {
-      "by": "jonbaer",
-      "descendants": 0,
-      "id": 28472153,
-      "score": 1,
-      "time": 1631208029,
-      "title": "NLOS Keyhole Imaging Can See Inside a Closed Room",
-      "type": "story",
-      "url": "https://gizmodo.com/a-single-laser-fired-through-a-keyhole-can-expose-every-1847638281"
-    },
-    {
-      "by": "ingve",
-      "descendants": 0,
-      "id": 28472149,
-      "score": 1,
-      "time": 1631207997,
-      "title": "Corepack: Experimental tool to help managing versions of your package managers",
-      "type": "story",
-      "url": "https://nodejs.org/dist/latest-v16.x/docs/api/corepack.html#corepack_corepack"
-    },
-    {
-      "by": "dagmx",
-      "descendants": 0,
-      "id": 28472146,
-      "score": 1,
-      "time": 1631207973,
-      "title": "Safer Usage of C++ (Chromium)",
-      "type": "story",
-      "url": "https://docs.google.com/document/d/e/2PACX-1vRZr-HJcYmf2Y76DhewaiJOhRNpjGHCxliAQTBhFxzv1QTae9o8mhBmDl32CRIuaWZLt5kVeH9e9jXv/pub"
-    },
-    {
-      "by": "feross",
-      "descendants": 0,
-      "id": 28472107,
-      "score": 2,
-      "time": 1631207826,
-      "title": "Twenty Percent of a Picture of a Dog",
-      "type": "story",
-      "url": "https://www.bloomberg.com/opinion/articles/2021-09-09/twenty-percent-of-a-picture-of-a-dog"
-    },
-    {
-      "by": "soheilpro",
-      "descendants": 0,
-      "id": 28472101,
-      "score": 1,
-      "time": 1631207809,
-      "title": "SingleFileZ",
-      "type": "story",
-      "url": "https://github.com/gildas-lormeau/SingleFileZ"
-    },
-    {
-      "by": "kstirman",
-      "descendants": 0,
-      "id": 28472092,
-      "score": 2,
-      "time": 1631207763,
-      "title": "Sqlcommenter now extending the vision of OpenTelemetry to databases",
-      "type": "story",
-      "url": "https://cloud.google.com/blog/products/databases/sqlcommenter-merges-with-opentelemetry"
     }
   ]
 }
