@@ -1,10 +1,30 @@
 {
   "stories": [
     {
+      "by": "cinquemb",
+      "descendants": 0,
+      "id": 28494386,
+      "score": 1,
+      "time": 1631384388,
+      "title": "The Insular Fertile Future",
+      "type": "story",
+      "url": "https://www.overcomingbias.com/2021/09/the-insular-fertile-future.html"
+    },
+    {
+      "by": "fspacef",
+      "descendants": 0,
+      "id": 28494377,
+      "score": 1,
+      "time": 1631384341,
+      "title": "‘Jeopardy!' Fans Are Rejoicing over the Show's Announcement",
+      "type": "story",
+      "url": "https://www.yahoo.com/lifestyle/jeopardy-fans-rejoicing-over-shows-224500356.html"
+    },
+    {
       "by": "zdw",
       "descendants": 0,
       "id": 28494326,
-      "score": 1,
+      "score": 2,
       "time": 1631383988,
       "title": "Further testing shows new PS5’s smaller, lighter heatsink keeps console cooler",
       "type": "story",
@@ -34,7 +54,7 @@
       "by": "croes",
       "descendants": 0,
       "id": 28494228,
-      "score": 1,
+      "score": 2,
       "time": 1631383489,
       "title": "One Woman’s Mission to Rewrite Nazi History on Wikipedia",
       "type": "story",
@@ -58,7 +78,7 @@
         28494348,
         28494223
       ],
-      "score": 2,
+      "score": 3,
       "time": 1631383198,
       "title": "Why Flask will teach you more about software engineering than Django",
       "type": "story",
@@ -83,26 +103,6 @@
       "title": "Counting the lives lost as a result of 9/11",
       "type": "story",
       "url": "https://www.usnews.com/news/national-news/articles/2021-09-10/counting-the-lives-lost-as-a-result-of-9-11"
-    },
-    {
-      "by": "cyanic",
-      "descendants": 0,
-      "id": 28494143,
-      "score": 1,
-      "text": "Hi HN,<p>I am looking for a standard or at least widely used way to encrypt data at rest on VMs running in the cloud. I am also interested in reasons why this isn&#x27;t the standard way of doing things.<p>I recently started working on a project where I potentially need to cache customer data on disk. At this point, the simplest and the most portable option for me is to run services on cloud VMs. I have experience setting up full disk encryption on dedicated servers, but my methods are not scalable enough for me to take full advantage of the cloud.<p>As the cloud provider has full control of the instance, I don&#x27;t consider them a threat in this context. I&#x27;m well aware that they would be able to extract keys from memory or perform a man in the middle attack on the initial connection used to unlock the encrypted partition. What I am concerned about is that data might be accessible if I delete the instance or if the SSD storing the data gets stolen or is sent to be recycled.<p>My attempts to find a good solution revolved around modifying a debian cloud image and writing to disk from initramfs, but there are many ways to approach the problem and I&#x27;m not sure which one is the least hackish. What I hope to achieve is to be able to handle everything using a script with minimal user interaction, through SSH. Although I think that I would be able to do write the script myself, I&#x27;d like to avoid reinventing the wheel.<p>What is your advice on encrypting cloud VMs?",
-      "time": 1631383051,
-      "title": "Ask HN: How do you encrypt data on virtual machines in the cloud?",
-      "type": "story"
-    },
-    {
-      "by": "zirak",
-      "descendants": 0,
-      "id": 28494142,
-      "score": 1,
-      "time": 1631383044,
-      "title": "Markets, Discrimination, and “Lowering the Bar”",
-      "type": "story",
-      "url": "https://danluu.com/tech-discrimination/"
     }
   ]
 }
