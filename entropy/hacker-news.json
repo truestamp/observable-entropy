@@ -1,6 +1,56 @@
 {
   "stories": [
     {
+      "by": "olzhasar",
+      "descendants": 0,
+      "id": 28494172,
+      "score": 1,
+      "time": 1631383198,
+      "title": "Why Flask will teach you more about software engineering than Django",
+      "type": "story",
+      "url": "https://olzhasar.github.io/articles/why-flask-will-teach-you-more-than-django"
+    },
+    {
+      "by": "ohjeez",
+      "descendants": 0,
+      "id": 28494169,
+      "score": 1,
+      "time": 1631383184,
+      "title": "Senator Wyden reflects on 9/11's legacy of mass surveillance",
+      "type": "story",
+      "url": "https://www.fastcompany.com/90675207/ron-wyden-9-11-mass-surveillance-legacy"
+    },
+    {
+      "by": "RyanShook",
+      "descendants": 0,
+      "id": 28494153,
+      "score": 1,
+      "time": 1631383070,
+      "title": "Counting the lives lost as a result of 9/11",
+      "type": "story",
+      "url": "https://www.usnews.com/news/national-news/articles/2021-09-10/counting-the-lives-lost-as-a-result-of-9-11"
+    },
+    {
+      "by": "cyanic",
+      "descendants": 0,
+      "id": 28494143,
+      "score": 1,
+      "text": "Hi HN,<p>I am looking for a standard or at least widely used way to encrypt data at rest on VMs running in the cloud. I am also interested in reasons why this isn&#x27;t the standard way of doing things.<p>I recently started working on a project where I potentially need to cache customer data on disk. At this point, the simplest and the most portable option for me is to run services on cloud VMs. I have experience setting up full disk encryption on dedicated servers, but my methods are not scalable enough for me to take full advantage of the cloud.<p>As the cloud provider has full control of the instance, I don&#x27;t consider them a threat in this context. I&#x27;m well aware that they would be able to extract keys from memory or perform a man in the middle attack on the initial connection used to unlock the encrypted partition. What I am concerned about is that data might be accessible if I delete the instance or if the SSD storing the data gets stolen or is sent to be recycled.<p>My attempts to find a good solution revolved around modifying a debian cloud image and writing to disk from initramfs, but there are many ways to approach the problem and I&#x27;m not sure which one is the least hackish. What I hope to achieve is to be able to handle everything using a script with minimal user interaction, through SSH. Although I think that I would be able to do write the script myself, I&#x27;d like to avoid reinventing the wheel.<p>What is your advice on encrypting cloud VMs?",
+      "time": 1631383051,
+      "title": "Ask HN: How do you encrypt data on virtual machines in the cloud?",
+      "type": "story"
+    },
+    {
+      "by": "zirak",
+      "descendants": 0,
+      "id": 28494142,
+      "score": 1,
+      "time": 1631383044,
+      "title": "Markets, Discrimination, and “Lowering the Bar”",
+      "type": "story",
+      "url": "https://danluu.com/tech-discrimination/"
+    },
+    {
       "by": "Element_",
       "descendants": 0,
       "id": 28494123,
@@ -12,23 +62,16 @@
     },
     {
       "by": "mitchbob",
-      "descendants": 0,
+      "descendants": 1,
       "id": 28494119,
+      "kids": [
+        28494129
+      ],
       "score": 1,
       "time": 1631382945,
-      "title": "The Heroes Are Dead",
+      "title": "The Real Heroes Are Dead",
       "type": "story",
       "url": "https://www.newyorker.com/magazine/2002/02/11/the-real-heroes-are-dead"
-    },
-    {
-      "by": "nahuel0x",
-      "descendants": 0,
-      "id": 28494117,
-      "score": 1,
-      "time": 1631382943,
-      "title": "The downsides of type-level programming by F# creator",
-      "type": "story",
-      "url": "https://github.com/fsharp/fslang-suggestions/issues/243"
     },
     {
       "by": "zdw",
@@ -59,46 +102,6 @@
       "title": "Optimising pointer subtraction with 2-adic integers (2010)",
       "type": "story",
       "url": "http://blog.sigfpe.com/2010/05/optimising-pointer-subtraction-with-2.html?m=1"
-    },
-    {
-      "by": "nailer",
-      "descendants": 0,
-      "id": 28494087,
-      "score": 1,
-      "time": 1631382776,
-      "title": "The Benghazi Attack on September 11 2012",
-      "type": "story",
-      "url": "https://en.wikipedia.org/wiki/2012_Benghazi_attack"
-    },
-    {
-      "by": "elenaturner",
-      "descendants": 0,
-      "id": 28494085,
-      "score": 1,
-      "time": 1631382776,
-      "title": "How to keep your phone charged and useful in a natural disaster",
-      "type": "story",
-      "url": "https://www.washingtonpost.com/technology/2021/08/31/tips-phone-disasters/"
-    },
-    {
-      "by": "aazaa",
-      "descendants": 0,
-      "id": 28494055,
-      "score": 1,
-      "time": 1631382576,
-      "title": "The Matrix was a metaphor for transgender identity, director confirms (2020)",
-      "type": "story",
-      "url": "https://www.independent.co.uk/arts-entertainment/films/news/matrix-trans-metaphor-lana-lilly-wachowski-red-pill-switch-sequels-a9654956.html"
-    },
-    {
-      "by": "baby",
-      "descendants": 0,
-      "id": 28494018,
-      "score": 1,
-      "time": 1631382387,
-      "title": "What the CIA did not tell about its War on Terror",
-      "type": "story",
-      "url": "https://www.youtube.com/watch?v=E5UXSJ5_tm0"
     }
   ]
 }
