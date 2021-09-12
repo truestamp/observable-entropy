@@ -1,6 +1,26 @@
 {
   "stories": [
     {
+      "by": "QuadrupleA",
+      "descendants": 0,
+      "id": 28498841,
+      "score": 1,
+      "text": "One of the hassles of C&#x2F;C++ programming is maintaining header files; including the right ones to resolve missing symbols, keeping declarations and definitions in sync, preventing circular dependencies with pragmas or include guards, etc.<p>In the past on large codebases I&#x27;ve used IDE plugins - Visual Assist X [1] lets you change function signatures, create declarations from definitions and vise versa, and add the include for a missing symbol. I&#x27;m no longer using Visual Studio proper though for C stuff so that&#x27;s no longer available to me.<p>I recently stumbled on makeheaders [2] by sqlite&#x27;s creator, used for the fossil version control codebase - it let&#x27;s you write just the C files, and generates corresponding header files during build, with help from some macro keywords. Seems like a promising approach.<p>Curious what other solutions people have used to eliminate the unnecessary busywork of header files?<p>[1] https:&#x2F;&#x2F;www.wholetomato.com\n[2] https:&#x2F;&#x2F;www.hwaci.com&#x2F;sw&#x2F;mkhdr&#x2F;",
+      "time": 1631424927,
+      "title": "Ask HN: C programmers, how do you manage header files?",
+      "type": "story"
+    },
+    {
+      "by": "kevingoldsmith",
+      "descendants": 0,
+      "id": 28498836,
+      "score": 1,
+      "time": 1631424856,
+      "title": "The P-Word",
+      "type": "story",
+      "url": "https://blog.kevingoldsmith.com/2021/09/09/the-p-word/"
+    },
+    {
       "by": "omarfarooq",
       "descendants": 0,
       "id": 28498822,
@@ -82,26 +102,6 @@
       "title": "The Busy Developers's Guide to Go Profiling, Tracing and Observability",
       "type": "story",
       "url": "https://github.com/DataDog/go-profiler-notes/blob/main/guide/README.md"
-    },
-    {
-      "by": "marcodiego",
-      "descendants": 0,
-      "id": 28498669,
-      "score": 1,
-      "time": 1631421625,
-      "title": "Starring the Computer",
-      "type": "story",
-      "url": "http://www.starringthecomputer.com/"
-    },
-    {
-      "by": "tartoran",
-      "descendants": 0,
-      "id": 28498628,
-      "score": 1,
-      "time": 1631420913,
-      "title": "The LaGuardia AirTrain is likely to be the worlds most expensive transit project",
-      "type": "story",
-      "url": "https://ridgewoodpost.com/laguardia-airtrain-set-to-be-worlds-most-expensive-transit-project-report"
     }
   ]
 }
