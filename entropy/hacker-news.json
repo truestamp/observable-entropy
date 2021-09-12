@@ -1,6 +1,16 @@
 {
   "stories": [
     {
+      "by": "HeavyCheese",
+      "descendants": 0,
+      "id": 28498455,
+      "score": 1,
+      "time": 1631418117,
+      "title": "CES 2021: This app transforms your iPhone into an eye-tracker",
+      "type": "story",
+      "url": "https://www.nextpit.com/ces-2021-eyeware-beam-iphone-app"
+    },
+    {
       "by": "throwaway888abc",
       "descendants": 0,
       "id": 28498437,
@@ -87,21 +97,11 @@
       "by": "bumbledraven",
       "descendants": 0,
       "id": 28498362,
-      "score": 2,
+      "score": 3,
       "time": 1631416925,
       "title": "Elon Musk drives through loophole by launching Tesla on tribal land",
       "type": "story",
       "url": "https://thehill.com/changing-america/sustainability/infrastructure/571707-elon-musk-drives-through-loophole-by-launching"
-    },
-    {
-      "by": "dmak",
-      "descendants": 0,
-      "id": 28498324,
-      "score": 1,
-      "text": "I&#x27;m curious to know the best practices or how everyone manages their process and CI pipelines for CloudFormation.<p>Some common problems I struggle with in AWS CloudFormation:<p>- Only 1 set of changes for a stack can be run at once. This means if multiple devs are deploying changes then they have to wait and incorporate previous changes before they can provision their templates.<p>- Not more than 1 person can be testing on staging at once. If Dev A successfully provisions resources and Dev B didn&#x27;t pull new changes then Dev B may undo Dev A&#x27;s work. This commonly happens in staging.<p>- There&#x27;s so much iterative work required to test if a template provisions everything successfully. What may work in a sandbox may not work in staging. Testing in staging seems necessary, but leads to the previous problems.<p>- Some rollbacks around ECS may hang for hours before timing out. Thankfully, this has only happened in staging, but I don&#x27;t believe there was a kill switch? I think there was a way to stop the update from the AWS console, but granting access to that defeats the purposes of having a CI to manage your provisioning.<p>Thoughts and suggestions?",
-      "time": 1631416490,
-      "title": "How do you manage your CloudFormation processes?",
-      "type": "story"
     }
   ]
 }
