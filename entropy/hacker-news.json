@@ -1,6 +1,36 @@
 {
   "stories": [
     {
+      "by": "dmak",
+      "descendants": 0,
+      "id": 28498324,
+      "score": 1,
+      "text": "I&#x27;m curious to know the best practices or how everyone manages their process and CI pipelines for CloudFormation.<p>Some common problems I struggle with in AWS CloudFormation:<p>- Only 1 set of changes for a stack can be run at once. This means if multiple devs are deploying changes then they have to wait and incorporate previous changes before they can provision their templates.<p>- Not more than 1 person can be testing on staging at once. If Dev A successfully provisions resources and Dev B didn&#x27;t pull new changes then Dev B may undo Dev A&#x27;s work. This commonly happens in staging.<p>- There&#x27;s so much iterative work required to test if a template provisions everything successfully. What may work in a sandbox may not work in staging. Testing in staging seems necessary, but leads to the previous problems.<p>- Some rollbacks around ECS may hang for hours before timing out. Thankfully, this has only happened in staging, but I don&#x27;t believe there was a kill switch? I think there was a way to stop the update from the AWS console, but granting access to that defeats the purposes of having a CI to manage your provisioning.<p>Thoughts and suggestions?",
+      "time": 1631416490,
+      "title": "How do you manage your CloudFormation processes?",
+      "type": "story"
+    },
+    {
+      "by": "geox",
+      "descendants": 0,
+      "id": 28498317,
+      "score": 1,
+      "time": 1631416367,
+      "title": "FBI releases newly declassified record on Sept. 11 attacks",
+      "type": "story",
+      "url": "https://apnews.com/article/joe-biden-jamal-khashoggi-terrorist-attacks-86eec32f1b5b2ad7c9ba6bfbb98a4adb"
+    },
+    {
+      "by": "throwawayjobs",
+      "descendants": 0,
+      "id": 28498305,
+      "score": 2,
+      "text": "Like the title says I am graduating with a CS degree soon. As I am in my final year, I am getting a bit worried that my resume is kind of uninteresting.<p>I&#x27;ve applied at probably 3-4 dozen places through my school&#x27;s job board over the past month and have received zero responses. These are applications for entry level and internship positions. I&#x27;m worried my resume just doesn&#x27;t standout. I only have a couple projects under my belt and no other professional experience.<p>How can I stand out to recruiters and employers? What can I do to improve my resume? I&#x27;ve worked with many different technologies but I&#x27;m afraid because I haven&#x27;t bothered to work on mastering any of them that an employer wouldn&#x27;t wanna take the risk on me being able to learn their stack.",
+      "time": 1631416253,
+      "title": "Ask HN: Graduating CS soon, how do I find a job?",
+      "type": "story"
+    },
+    {
       "by": "quyleanh",
       "descendants": 0,
       "id": 28498294,
@@ -72,39 +102,6 @@
       "title": "Climeworks plant in Iceland will capture CO2 at big new scale",
       "type": "story",
       "url": "https://www.washingtonpost.com/climate-solutions/2021/09/08/co2-capture-plan-iceland-climeworks/"
-    },
-    {
-      "by": "pcr910303",
-      "descendants": 0,
-      "id": 28498177,
-      "score": 2,
-      "time": 1631414739,
-      "title": "What I’d like to see done in Emacs",
-      "type": "story",
-      "url": "https://ruzkuku.com/texts/emacs-hopes.html"
-    },
-    {
-      "by": "fspacef",
-      "descendants": 1,
-      "id": 28498160,
-      "kids": [
-        28498280
-      ],
-      "score": 4,
-      "time": 1631414463,
-      "title": "FBI releases first 9/11 document after Biden order",
-      "type": "story",
-      "url": "https://www.cnn.com/2021/09/11/politics/fbi-releases-first-9-11-document-after-biden-order/index.html"
-    },
-    {
-      "by": "ystad",
-      "descendants": 0,
-      "id": 28498142,
-      "score": 2,
-      "time": 1631414250,
-      "title": "Forget rockets – a lunar elevator is the future of Moon travel",
-      "type": "story",
-      "url": "https://www.sciencefocus.com/space/lunar-elevator/"
     }
   ]
 }
