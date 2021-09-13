@@ -1,6 +1,66 @@
 {
   "stories": [
     {
+      "by": "monroewalker",
+      "descendants": 0,
+      "id": 28516865,
+      "score": 1,
+      "text": "I&#x27;m currently just relying on cloud services to backup data but I&#x27;m thinking it&#x27;s time to start using some offline solution both to avoid the risk of account lockout and to avoid having to trust third parties with sensitive data.<p>I often see comments on HN which favor self-hosting and personal data management over use of cloud services, so I&#x27;m curious what approach people here take.<p>I&#x27;ve only just started doing the research for this, but my plan so far is just to buy a couple high capacity hard disk drives which would be mirrors of each other. Occasionally I&#x27;d copy files over from my computer to one of the drives and occasionally I&#x27;d mirror the data on one drive to the other. Also wondering if I should just re-use some existing 2.5&quot; drives I have from old laptops or if it&#x27;s more prudent to purchase a new drive that might be manufactured with long-term durability &#x2F; stability in mind.",
+      "time": 1631567120,
+      "title": "Ask HN: What's your approach to personal data archiving and backups?",
+      "type": "story"
+    },
+    {
+      "by": "bb88",
+      "descendants": 0,
+      "id": 28516864,
+      "score": 1,
+      "time": 1631567107,
+      "title": "Ivermectin Facebook groups warning people to stay away from the ER",
+      "type": "story",
+      "url": "https://twitter.com/oneunderscore__/status/1437462941100646405"
+    },
+    {
+      "by": "rcthompson",
+      "descendants": 0,
+      "id": 28516851,
+      "score": 1,
+      "time": 1631567043,
+      "title": "All-Purpose Hashing",
+      "type": "story",
+      "url": "https://arxiv.org/abs/2109.04548"
+    },
+    {
+      "by": "simonjgreen",
+      "descendants": 0,
+      "id": 28516844,
+      "score": 1,
+      "time": 1631567013,
+      "title": "Tiny Petting Zoo",
+      "type": "story",
+      "url": "https://twitter.com/TinyPettingZoo"
+    },
+    {
+      "by": "uptown",
+      "descendants": 0,
+      "id": 28516836,
+      "score": 1,
+      "time": 1631566954,
+      "title": "Intuit to Acquire Mailchimp",
+      "type": "story",
+      "url": "https://www.intuit.com/blog/news-social/intuit-to-acquire-mailchimp/"
+    },
+    {
+      "by": "tootie",
+      "descendants": 0,
+      "id": 28516826,
+      "score": 1,
+      "time": 1631566899,
+      "title": "Restaurant Website The Infatuation Has Been Bought by JPMorgan Chase",
+      "type": "story",
+      "url": "https://www.eater.com/22665350/the-infatuation-zagat-acquired-by-jp-morgan-chase-bank"
+    },
+    {
       "by": "bklaasen",
       "descendants": 0,
       "id": 28516813,
@@ -24,7 +84,7 @@
       "by": "Qub3d",
       "descendants": 0,
       "id": 28516793,
-      "score": 1,
+      "score": 2,
       "time": 1631566700,
       "title": "Imaginging how a National Vaccine Passport implementation could go wrong",
       "type": "story",
@@ -39,70 +99,6 @@
       "title": "Hackers allegedly gained access to a large dataset belonging to Epik",
       "type": "story",
       "url": "https://twitter.com/stevanzetti/status/1437482759241469958"
-    },
-    {
-      "by": "hammock",
-      "descendants": 2,
-      "id": 28516756,
-      "kids": [
-        28516763,
-        28516787
-      ],
-      "score": 1,
-      "time": 1631566518,
-      "title": "Our Most Reliable Pandemic Number Is Losing Meaning",
-      "type": "story",
-      "url": "https://www.theatlantic.com/health/archive/2021/09/covid-hospitalization-numbers-can-be-misleading/620062/"
-    },
-    {
-      "by": "rurp",
-      "descendants": 0,
-      "id": 28516719,
-      "score": 1,
-      "time": 1631566332,
-      "title": "Intuit to Buy Mailchimp for $12B",
-      "type": "story",
-      "url": "https://www.axios.com/intuit-buy-mailchimp-12-billion-85feba65-e142-4756-8fa6-b8af63988902.html"
-    },
-    {
-      "by": "nixass",
-      "descendants": 0,
-      "id": 28516701,
-      "score": 2,
-      "time": 1631566256,
-      "title": "Leaked documents reveal the special rules Facebook uses for 5.8M VIPs",
-      "type": "story",
-      "url": "https://arstechnica.com/tech-policy/2021/09/leaked-documents-reveal-the-special-rules-facebook-uses-for-5-8m-vips/"
-    },
-    {
-      "by": "wsc981",
-      "descendants": 0,
-      "id": 28516681,
-      "score": 2,
-      "time": 1631566141,
-      "title": "Lawsuit against US Department of Health regarding Covid vaccines [pdf]",
-      "type": "story",
-      "url": "https://fossaorg.files.wordpress.com/2021/07/m-for-pi-file-stamped.pdf"
-    },
-    {
-      "by": "yashap",
-      "descendants": 0,
-      "id": 28516672,
-      "score": 1,
-      "text": "Would love to hear about people&#x27;s favourite, <i>affordable</i> log analysis platform!<p>At my current company we use GCP Logging - it&#x27;s cheap, but ad-hoc log analysis is very awkward. i.e. you can filter to logs easily, but doing &quot;group by&#x2F;count&quot; type things is painful, not something you can easily do ad-hoc. You basically have to export the logs to BigQuery, or create metrics from the logs (which helps going-forwards, but isn&#x27;t good for analyzing past logs where you lack existing metrics). Overall, doesn&#x27;t really fit our needs for flexible, ad-hoc log analysis.<p>At my past company, we used Sumo Logic. It was amazing - they have their own query language that&#x27;s similar to SQL, with incredible text processing capabilities, so good at ad-hoc log analysis. However ... it&#x27;s VERY expensive. My current company is a smaller startup, with a lot of logs, and it&#x27;s simply not in our price range.<p>Would love to find something similar to Sumo Logic, but much cheaper.",
-      "time": 1631566075,
-      "title": "Ask HN: Favourite affordable log analysis platform?",
-      "type": "story"
-    },
-    {
-      "by": "BrianGards1040",
-      "descendants": 0,
-      "id": 28516667,
-      "score": 2,
-      "time": 1631566037,
-      "title": "House Democrat's New Tax Plan Could Provide $2.9T in New Revenue – The Mountain",
-      "type": "story",
-      "url": "https://themountain.news/news/house-democrats-new-tax-plan-could-provide-29-trillion-in-new-revenue"
     }
   ]
 }
