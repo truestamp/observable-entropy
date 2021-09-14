@@ -1,6 +1,16 @@
 {
   "stories": [
     {
+      "by": "fspacef",
+      "descendants": 0,
+      "id": 28518900,
+      "score": 1,
+      "time": 1631581239,
+      "title": "Churchill Club",
+      "type": "story",
+      "url": "https://en.wikipedia.org/wiki/Churchill_Club"
+    },
+    {
       "by": "pabs3",
       "descendants": 0,
       "id": 28518871,
@@ -14,7 +24,7 @@
       "by": "hhs",
       "descendants": 0,
       "id": 28518858,
-      "score": 1,
+      "score": 2,
       "time": 1631580761,
       "title": "Facebook is part of the polarization problem, but not all of it: report",
       "type": "story",
@@ -42,8 +52,11 @@
     },
     {
       "by": "desertraven",
-      "descendants": 0,
+      "descendants": 1,
       "id": 28518833,
+      "kids": [
+        28518899
+      ],
       "score": 1,
       "text": "Exercise, eating healthy, good sleep, meditation etc. All things which are obviously beneficial after the act, yet difficult to bring about. Why is there any resistance at all?",
       "time": 1631580501,
@@ -74,7 +87,7 @@
       "by": "stat_throwaway",
       "descendants": 0,
       "id": 28518795,
-      "score": 4,
+      "score": 5,
       "text": "I work at a middling SV company, and I see people taking averages of percentiles (or, even crazier, percentiles of percentiles) every day - that is, each server computes its own &quot;50%&#x2F;90%&#x2F;95% latency&quot; of all requests, sends it to a central time-series database, and the Grafana console averages them all to show a &quot;nice&quot; graph.  They are used for everything from alerts to launch decisions.<p>It&#x27;s driving me crazy because that makes no sense: you can&#x27;t average percentiles, you will get bogus numbers that randomly jumps up and down based on aggregation (how many servers you have, which tag sets you use, and so on).  And I&#x27;m apparently the only one who is seriously bothered.  Everyone else is somewhere between &quot;Eh, that&#x27;s the best data we have.&quot; and &quot;What do you mean the numbers are wrong?&quot;<p>Is this normal?",
       "time": 1631580174,
       "title": "Ask HN: Anyone else seeing people averaging percentiles?",
@@ -89,16 +102,6 @@
       "title": "Computer issue causes voters to be informed they already voted",
       "type": "story",
       "url": "https://ktla.com/news/local-news/san-fernando-valley-residents-have-trouble-casting-recall-ballots/"
-    },
-    {
-      "by": "nextos",
-      "descendants": 0,
-      "id": 28518717,
-      "score": 2,
-      "time": 1631579629,
-      "title": "Formal Reasoning About Programs",
-      "type": "story",
-      "url": "http://adam.chlipala.net/frap/"
     }
   ]
 }
