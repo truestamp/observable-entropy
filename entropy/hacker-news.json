@@ -22,8 +22,11 @@
     },
     {
       "by": "hhs",
-      "descendants": 0,
+      "descendants": 1,
       "id": 28518858,
+      "kids": [
+        28518934
+      ],
       "score": 2,
       "time": 1631580761,
       "title": "Facebook is part of the polarization problem, but not all of it: report",
@@ -34,7 +37,7 @@
       "by": "marcodiego",
       "descendants": 0,
       "id": 28518854,
-      "score": 1,
+      "score": 2,
       "time": 1631580719,
       "title": "User Interrupts: 9x faster than other IPC for event signaling",
       "type": "story",
@@ -44,7 +47,7 @@
       "by": "defaulty",
       "descendants": 0,
       "id": 28518837,
-      "score": 1,
+      "score": 2,
       "time": 1631580538,
       "title": "Payment Required and why micropayments are doomed",
       "type": "story",
@@ -85,9 +88,12 @@
     },
     {
       "by": "stat_throwaway",
-      "descendants": 0,
+      "descendants": 1,
       "id": 28518795,
-      "score": 5,
+      "kids": [
+        28518938
+      ],
+      "score": 6,
       "text": "I work at a middling SV company, and I see people taking averages of percentiles (or, even crazier, percentiles of percentiles) every day - that is, each server computes its own &quot;50%&#x2F;90%&#x2F;95% latency&quot; of all requests, sends it to a central time-series database, and the Grafana console averages them all to show a &quot;nice&quot; graph.  They are used for everything from alerts to launch decisions.<p>It&#x27;s driving me crazy because that makes no sense: you can&#x27;t average percentiles, you will get bogus numbers that randomly jumps up and down based on aggregation (how many servers you have, which tag sets you use, and so on).  And I&#x27;m apparently the only one who is seriously bothered.  Everyone else is somewhere between &quot;Eh, that&#x27;s the best data we have.&quot; and &quot;What do you mean the numbers are wrong?&quot;<p>Is this normal?",
       "time": 1631580174,
       "title": "Ask HN: Anyone else seeing people averaging percentiles?",
