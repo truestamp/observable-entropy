@@ -1,6 +1,26 @@
 {
   "stories": [
     {
+      "by": "anonymousiam",
+      "descendants": 0,
+      "id": 28519597,
+      "score": 1,
+      "text": "TL;DR: Don&#x27;t try to BYOD to T-Mobile if your device does not support 5G or 4G-LTE. They will let you do it, but then your nightmare begins.<p>I wanted to re-activate a 4G (non-LTE) mobile hotspot (ZTE 64) I bought from TM in 2015 and used until 2019. I needed backup Internet for a small project, so I called TM and asked if the ZTE was still supported. They said it was (and did again a dozen different times until today). The guy in the TM shop put in a new SIM and the hotspot worked.<p>Two hours after getting home, the hotspot died. No bars where five had been, and the display alternating between &quot;No Service&quot; and &quot;Limited Service.&quot; After two hours on the phone with TM Support (and re-confirming that the device was still supported on their network), they concluded that the device must be defective. The device was out of warranty, but they offered me a &quot;courtesy&quot; warranty exchange.<p>Before picking up the replacement, I decided to fiddle with the hotspot. I put the SIM from the hotspot into my iPad and it worked fine. I put the SIM from my iPad into the hotspot and it worked fine too. After swapping them back, everything still worked.<p>I exchanged my (working) device for a replacement. The technician at the store put the SIM from my old device into the new device and it did not work. He tried a new SIM and that didn&#x27;t work either. He spent about 45 minutes trying to it working, but couldn&#x27;t. He now claimed that the ZTE hotspot was not supported on the TM network. I asked him for my old device back, but he said that he could not return it to me because the exchange had been completed. Frustrated, I purchased a new (Alcatel) 4G hotspot from the store.<p>The Alcatel hotspot did not play well with the Raspberry Pi target, and being frustrated with my overall experience, I placed the SIM from the Alcatel hotspot into the warranty replacement ZTE (which had not worked at all up to that point). The replacement ZTE hotspot powered up and worked just fine with the SIM that had been in the Alcatel hotspot. I called TM to complain about the bogus service from the store, and to confirm what the technician had said about the device being unsupported. TM again told me that the ZTE was still supported and that the store employee was incorrect. With the ZTE hotspot now working fine, I returned the Alcatel hotspot the next day.<p>The ZTE hotspot worked for a week, but this morning was back to being dead. I needed backup Internet so I phoned TM Technical Support again. I spent another frustrating 2.5 hours on the phone with them and we were off their troubleshooting chart. They claimed a weak signal, but it had five bars when working. They claimed the device was broken, but it was behaving exactly as the old one had. I tried swapping the SIM with a new one, but no change. Manually scanning available networks showed it could see the network, but attempts to connect resulted in a &quot;Failure&quot; message with no explanation. The &quot;Failure&quot; message was an affirmative response from their network, and not a timeout or link problem. I pressed the issue and the technician finally came up with a &quot;Service Bulletin&quot; that he had not seen before. It said; After August 1, 2021 TM will not allow adding a non-5G or LTE device to their network. Devices added before 8&#x2F;1&#x2F;2021 will continue to work, but older devices were no longer to be added to the network. If I had added my device a week earlier, none of these problems would have occurred.<p>It really sucks that a business decision (implemented with a poor background checker&#x2F;dumper task) prevented me from using a perfectly good device (that TM itself had provided to me only days before) on their network, which is perfectly capable of supporting it. It also sucks that the device was exluded from the network without any explanation. It seems that TM wants to require customers to buy new equipment for no good reason other than for them to make some extra cash. I wonder about the legality of this.",
+      "time": 1631587525,
+      "title": "T-Mobile not allowing older devices on their network",
+      "type": "story"
+    },
+    {
+      "by": "JumpCrisscross",
+      "descendants": 0,
+      "id": 28519581,
+      "score": 1,
+      "time": 1631587361,
+      "title": "China uses anti-fraud app to track access to overseas financial news sites",
+      "type": "story",
+      "url": "https://www.ft.com/content/84b6b889-ae03-47f7-9cd0-bd604b21d5de"
+    },
+    {
       "by": "lnyan",
       "descendants": 0,
       "id": 28519560,
@@ -79,26 +99,6 @@
       "title": "A guide to home row mods",
       "type": "story",
       "url": "https://precondition.github.io/home-row-mods"
-    },
-    {
-      "by": "jkuria",
-      "descendants": 0,
-      "id": 28519459,
-      "score": 1,
-      "time": 1631586160,
-      "title": "Beware of Bounties: The 'Cobra Effect'",
-      "type": "story",
-      "url": "https://capitalandgrowth.org/answers/Article/3738594/Beware-of-Bounties-The-Cobra-Effect"
-    },
-    {
-      "by": "allenleein",
-      "descendants": 0,
-      "id": 28519433,
-      "score": 2,
-      "time": 1631585955,
-      "title": "M1 Exploration",
-      "type": "story",
-      "url": "https://drive.google.com/file/d/1WrMYCZMnhsGP4o3H33ioAUKL_bjuJSPt/view"
     }
   ]
 }
