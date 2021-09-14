@@ -1,6 +1,29 @@
 {
   "stories": [
     {
+      "by": "ra7",
+      "descendants": 0,
+      "id": 28519001,
+      "score": 1,
+      "time": 1631582077,
+      "title": "A decade of the Tim Cook machine",
+      "type": "story",
+      "url": "https://www.ben-evans.com/benedictevans/2021/9/13/a-decade-of-the-tim-cook-machine"
+    },
+    {
+      "by": "tjalfi",
+      "descendants": 1,
+      "id": 28518988,
+      "kids": [
+        28518991
+      ],
+      "score": 1,
+      "time": 1631581951,
+      "title": "Succinct Dynamic Data Structures (2001) [pdf]",
+      "type": "story",
+      "url": "https://www.imsc.res.in/~vraman/pub/wads_01.pdf"
+    },
+    {
       "by": "charlysl",
       "descendants": 0,
       "id": 28518975,
@@ -12,9 +35,12 @@
     },
     {
       "by": "fspacef",
-      "descendants": 0,
+      "descendants": 1,
       "id": 28518900,
-      "score": 1,
+      "kids": [
+        28518982
+      ],
+      "score": 2,
       "time": 1631581239,
       "title": "Churchill Club",
       "type": "story",
@@ -65,9 +91,10 @@
     },
     {
       "by": "desertraven",
-      "descendants": 1,
+      "descendants": 2,
       "id": 28518833,
       "kids": [
+        28518993,
         28518899
       ],
       "score": 1,
@@ -85,29 +112,6 @@
       "title": "Across the Multiverse",
       "type": "story",
       "url": "https://across-multiverse.com/"
-    },
-    {
-      "by": "adlha",
-      "descendants": 0,
-      "id": 28518796,
-      "score": 3,
-      "time": 1631580199,
-      "title": "I made the front page of a newspaper with a simple analysis for my friends",
-      "type": "story",
-      "url": "https://deepnote.com/@milanleonard/Going-from-Exploratory-Data-Analysis-Notebook-to-Interactive-Web-App-Article-Streamlit-odUU3xjoQW2Tv2c0TGJYcg"
-    },
-    {
-      "by": "stat_throwaway",
-      "descendants": 1,
-      "id": 28518795,
-      "kids": [
-        28518938
-      ],
-      "score": 6,
-      "text": "I work at a middling SV company, and I see people taking averages of percentiles (or, even crazier, percentiles of percentiles) every day - that is, each server computes its own &quot;50%&#x2F;90%&#x2F;95% latency&quot; of all requests, sends it to a central time-series database, and the Grafana console averages them all to show a &quot;nice&quot; graph.  They are used for everything from alerts to launch decisions.<p>It&#x27;s driving me crazy because that makes no sense: you can&#x27;t average percentiles, you will get bogus numbers that randomly jumps up and down based on aggregation (how many servers you have, which tag sets you use, and so on).  And I&#x27;m apparently the only one who is seriously bothered.  Everyone else is somewhere between &quot;Eh, that&#x27;s the best data we have.&quot; and &quot;What do you mean the numbers are wrong?&quot;<p>Is this normal?",
-      "time": 1631580174,
-      "title": "Ask HN: Anyone else seeing people averaging percentiles?",
-      "type": "story"
     }
   ]
 }
