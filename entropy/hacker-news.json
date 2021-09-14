@@ -1,6 +1,66 @@
 {
   "stories": [
     {
+      "by": "giuliomagnifico",
+      "descendants": 0,
+      "id": 28523659,
+      "score": 1,
+      "time": 1631622327,
+      "title": "ITimed: Cache Attacks on the Apple A10 Fusion SoC [pdf]",
+      "type": "story",
+      "url": "https://eprint.iacr.org/2021/464.pdf"
+    },
+    {
+      "by": "ibobev",
+      "descendants": 0,
+      "id": 28523641,
+      "score": 1,
+      "time": 1631622260,
+      "title": "Scene Graph",
+      "type": "story",
+      "url": "https://learnopengl.com/Guest-Articles/2021/Scene/Scene-Graph"
+    },
+    {
+      "by": "Tomte",
+      "descendants": 0,
+      "id": 28523629,
+      "score": 1,
+      "time": 1631622213,
+      "title": "Nikon’s Small World",
+      "type": "story",
+      "url": "https://www.nikonsmallworld.com/"
+    },
+    {
+      "by": "digitcatphd",
+      "descendants": 0,
+      "id": 28523621,
+      "score": 1,
+      "text": "I&#x27;ve been researching a new payment system designed to compete with credit cards designed to do two things:<p>(1) Remove the &#x27;deadweight loss&#x27; in credit card fees\n(2) Outperform the incentive structure of all credit cards for their users<p>Venmo solves (1), but fails to address (2) because it doesn&#x27;t properly incentivize users like credit cards offering cash back, and isn&#x27;t perceived to be a legitimate form of payment for business.<p>My researched approach is to charge the same processing fee as credit card companies of around 3%, but rather offer an instant discount of the order at the merchant, rather than a points system. What this does is:<p>(1) Outperforms the reward system of any other payment system \n(2) Incentivizes consumers to spend more at SMB because they are getting a discount\n(3) Allows SMBs to pass on their fees to save the customer money\n(4) Creates instant gratification to the consumer<p>Because mobile pay is such a nominal percent of transactions, merchants would be given a small RFID sticker that could be appended to their existing POS or elsewhere and consumers would be given tap to pay embedded fabs synced to a mobile app to process transactions like credit cards. Fabs would not have numbers to avoid theft and would just have RFID embedded chips and be able to be stored on a keychain like YubiKey.<p>One potential solution is an enterprise Venmo system, that uses the fee-less transaction technology in the way that payments are processed.<p>If anyone has ideas, open to hearing them below, or anyone interested in pursuing this research.<p>--\nNotes:<p>There are of course other incentives with credit cards such as the chargeback capability and financing. However, it&#x27;s been cited 86% of chargebacks are &#x27;friendly fraud&#x27;, which further incentivizes SMBs and disincentivizes at-risk users. Financing may be outsourced and points charged for the rights to do so.",
+      "time": 1631622171,
+      "title": "Ask HN: Alternative Payment System for SMBs",
+      "type": "story"
+    },
+    {
+      "by": "rwestergren",
+      "descendants": 0,
+      "id": 28523608,
+      "score": 1,
+      "time": 1631622118,
+      "title": "Unauthenticated Remote Code Execution in Motorola Baby Monitors",
+      "type": "story",
+      "url": "https://randywestergren.com/unauthenticated-remote-code-execution-in-motorola-baby-monitors/"
+    },
+    {
+      "by": "KoftaBob",
+      "descendants": 0,
+      "id": 28523594,
+      "score": 1,
+      "time": 1631622055,
+      "title": "Questions to Ask About Covid and Air Quality at Work",
+      "type": "story",
+      "url": "https://www.nytimes.com/2021/09/13/well/covid-indoor-air-quality.html"
+    },
+    {
       "by": "ibobev",
       "descendants": 0,
       "id": 28523570,
@@ -39,69 +99,6 @@
       "title": "List of Static Site Generators",
       "type": "story",
       "url": "https://jamstack.org/generators/"
-    },
-    {
-      "by": "sdevonoes",
-      "descendants": 0,
-      "id": 28523529,
-      "score": 2,
-      "text": "It&#x27;s crazy, but this seems to be accurate from my limited experience:<p>1. Senior backend developer (~10 years of experience) trying to find a 100K Euro&#x2F;year job in Western Europe: quite hard if all you want to be is a simple &quot;individual contributor&quot; (employee, not contractor) writing $PROGRAMMING_LANG code without having to deal with k8s, the cloud, mentoring, or on-call paging. Besides, I&#x27;m not specially bright, just average, so I cannot pass tricky tech interviews. I&#x27;m currently making 85K Euro&#x2F;year (around 4600 Euro&#x2F;month after taxes) which is nice, but I cannot deal with the stress my current role (tech lead?) implies: I&#x27;m supposed to be on-call, to mentor junior engineers, to &quot;own&quot; our products, to learn more about devops&#x2F;infra topics, to bring and introduce new topics to my team, to be an example to engineers with less experience. All I want to do is to be part of a team pushing useful features for our customers: I don&#x27;t want to be on-call; I like to teach and learn from others but I don&#x27;t want to be a mentor; I want to write $PROGRAMMING_LANG code, I don&#x27;t want to setup the infra of our services... I want the job I had in 2010!\nNow, that&#x27;s for positions that pay ~85K euro&#x2F;year. Imagine the stress for positions that pay 100K. I don&#x27;t even think such positions (plain IC) exist in WE (excluding top companies ofc: I&#x27;m just the average Joe). It seems that this ~17% salary increase I&#x27;m looking for implies a 100% increase in stress. Nuts.<p>2. Getting a 50K euro&#x2F;year job in Western Europe is easy for someone like me with ~10 years of experience. I can pass the interviews just fine (I guess I would just have to hide some previous experience of mine so that I look like a junior to the companies). 50K euro&#x2F;year is around 3K&#x2F;month after taxes. Not bad. Now, the stress of a 50K euro&#x2F;year job is close to zero for someone with years of dev experience. Besides, you&#x27;ll get ton of free time because you know exactly how to do &quot;junior&quot; tasks! No on-call, no mentoring, no cloud, no k8s... just coding like it&#x27;s 2010!<p>Now, the big IF: what if I quit my current job and get 2x50K euro&#x2F;year jobs? That would mean (oversimplifying taxes) around 6K euro&#x2F;month after taxes (more than I would make earning 100K euro&#x2F;year!). I think I could do it just fine (perhaps I would have trouble with meetings at the same time). Low stress (because I would be a senior doing junior tasks), more money. Bingo. From an ethical point of view: I would be a junior (earning junior money) producing senior-level coding. That&#x27;s a big win for any company, no?<p>Now, coming back to reality: this is probably never going to happen.",
-      "time": 1631621745,
-      "title": "Ask HN: 2x50K Jobs vs. 1x100K",
-      "type": "story"
-    },
-    {
-      "by": "sahin",
-      "descendants": 0,
-      "id": 28523528,
-      "score": 1,
-      "time": 1631621733,
-      "title": "Stanford professors urge US to end program looking for Chinese spies in academia",
-      "type": "story",
-      "url": "https://www.reuters.com/world/us/stanford-professors-urge-us-end-program-looking-chinese-spies-academia-2021-09-13/"
-    },
-    {
-      "by": "neocortex666",
-      "descendants": 1,
-      "id": 28523517,
-      "kids": [
-        28523518
-      ],
-      "score": 1,
-      "time": 1631621684,
-      "title": "Financial Management for Technology Entrepreneurs",
-      "type": "story",
-      "url": "https://saurabhsaha.substack.com/p/financial-management-for-technology"
-    },
-    {
-      "by": "el_duderino",
-      "descendants": 0,
-      "id": 28523514,
-      "score": 2,
-      "time": 1631621680,
-      "title": "Engineers create 3D-printed objects that sense how users interact with them",
-      "type": "story",
-      "url": "https://news.mit.edu/2021/3d-printed-objects-sense-interaction-0914"
-    },
-    {
-      "by": "fogus",
-      "descendants": 0,
-      "id": 28523506,
-      "score": 1,
-      "time": 1631621635,
-      "title": "Stevey's Tech Talk Videos",
-      "type": "story",
-      "url": "https://www.youtube.com/user/SteveYegge/videos"
-    },
-    {
-      "by": "monkeydust",
-      "descendants": 0,
-      "id": 28523505,
-      "score": 1,
-      "time": 1631621635,
-      "title": "Creative AI: On the Democratisation and Escalation of Creativity (2016)",
-      "type": "story",
-      "url": "https://medium.com/@creativeai/creativeai-9d4b2346faf3"
     }
   ]
 }
