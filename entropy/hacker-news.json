@@ -1,6 +1,56 @@
 {
   "stories": [
     {
+      "by": "ngcazz",
+      "descendants": 0,
+      "id": 28523314,
+      "score": 1,
+      "time": 1631620436,
+      "title": "Conversion of PS2 into Handheld",
+      "type": "story",
+      "url": "https://www.youtube.com/watch?v=LQ7x2b6BlHk"
+    },
+    {
+      "by": "benjamaan",
+      "descendants": 0,
+      "id": 28523313,
+      "score": 1,
+      "time": 1631620434,
+      "title": "MindJoy: Where kids have hard fun",
+      "type": "story",
+      "url": "https://mindjoy.com/"
+    },
+    {
+      "by": "benjamaan",
+      "descendants": 0,
+      "id": 28523307,
+      "score": 1,
+      "time": 1631620399,
+      "title": "Educating Kids for the Future of Work",
+      "type": "story",
+      "url": "https://mindjoy.ghost.io/educating-kids-for-the-future-of-work/"
+    },
+    {
+      "by": "cemerick",
+      "descendants": 0,
+      "id": 28523305,
+      "score": 1,
+      "time": 1631620379,
+      "title": "Cloud Run gets “Always On” CPU allocation feature",
+      "type": "story",
+      "url": "https://cloud.google.com/blog/products/serverless/cloud-run-gets-always-on-cpu-allocation"
+    },
+    {
+      "by": "nhourcard",
+      "descendants": 0,
+      "id": 28523287,
+      "score": 2,
+      "time": 1631620300,
+      "title": "QuestDB 6.0.5 introduces geospatial support",
+      "type": "story",
+      "url": "https://questdb.io/blog/2021/09/13/release-6-0-5"
+    },
+    {
       "by": "omgbobbyg",
       "descendants": 0,
       "id": 28523264,
@@ -14,7 +64,7 @@
       "by": "detaro",
       "descendants": 0,
       "id": 28523259,
-      "score": 1,
+      "score": 2,
       "time": 1631620101,
       "title": "Superpack: Pushing the limits of compression in Facebook’s mobile apps",
       "type": "story",
@@ -52,56 +102,6 @@
       "title": "Steve Yegge has a YouTube talk show",
       "type": "story",
       "url": "https://www.linkedin.com/posts/steveyegge_hi-folks-ive-been-working-for-the-past-activity-6843384951266779136-2zn5"
-    },
-    {
-      "by": "sovushka",
-      "descendants": 0,
-      "id": 28523214,
-      "score": 4,
-      "time": 1631619820,
-      "title": "Filling the Gap Left by China, Taiwan Defense Industry Eyes the US Drone Market",
-      "type": "story",
-      "url": "https://l.facebook.com/l.php?u=https%3A%2F%2Ftechtaiwan.com%2F20210914%2Ftaiwan-drone%2F%3Ffbclid%3DIwAR1bfSQba_2U94oyosjz-uRTS9jgCqRuO9VLgWOGkS-ZmzqZav-IeTC3244&h=AT24OTnGybPwNfnRBmG4qxPy0I8KeZw_i3Vyki4qvlfksOc5jLQPjhOu1IVzOhBddjI0uOmRNG3R1jgtXOcnekuIDN0PdXIE8D0kcINaQIxK4yPx0d4Z0G-5DNzsAkdEws5hQj6-pg&__tn__=%2CmH-R&c[0]=AT3zh282GKQswZ6eR3NRpqKWdO3LVkqJLkjnOJSnwRGjE_Hn0wpbRdek4oYdHfkv8WTSPWaj2696SXQJvlktjy9zix4AF5jIqVrSUIV8Js7nmc4jEvBgmQEyieZmvpg55KuGgIm4h-SPsddlePADnkMc"
-    },
-    {
-      "by": "ngram",
-      "descendants": 0,
-      "id": 28523197,
-      "score": 1,
-      "time": 1631619669,
-      "title": "Midpoint Circle Algorithm",
-      "type": "story",
-      "url": "https://en.wikipedia.org/wiki/Midpoint_circle_algorithm"
-    },
-    {
-      "by": "geiser",
-      "descendants": 0,
-      "id": 28523175,
-      "score": 1,
-      "text": "End-to-end testing in software engineering is something really useful, when accompanied with tons of unit and integration tests. But is it that helpful when it comes to systems and networks?<p>Context: My company has a complex system of proxies interconnecting to other companies in other cloud environments. We were lately discussing about end-to-end testing. (e.g from our company A in cluster A in cloud A, to external company B cluster B in cloud B. Just uni-directional, because we would not even like to extract the monitoring from company B into cloud A, whatever they have set).<p>The most senior engineer was against end-to-end testing, while the rest were in favor of it. Of course we are having tons of monitoring on http status codes, latency, etc. So to say, &quot;unit tests&quot;, as in the software engineering counterpart.<p>Why was he saying so? Because for sure we would be &quot;pinging&quot;(or whatever kind of ping is it) to another &quot;demo&quot; service at the other end, which in the end it is not part of a production environment, and the production environment may change, leaving this demo service unattended and prone to errors. \nAnd I understand that we would not like to affect production traffic by &quot;pinging&quot; production services.<p>He is arguing that with sufficient &quot;unit&quot; tests we can disclose an issue better than with the unreliable end-to-end tests. Other colleague argued that with end-to-end tests we can check everything in case we forgot to monitor some part of it. The system has several series of reverse proxies, backends and load balancers in a rather complex way with HTTPS in every step so I also understand that.<p>So what would your take be here in this situation? I believe in the SRE books from Google something was suggested in similar scenarios, but I can not find it.",
-      "time": 1631619534,
-      "title": "Ask HN: Would end-to-end systems testing be the right way in this scenario?",
-      "type": "story"
-    },
-    {
-      "by": "gwillem",
-      "descendants": 0,
-      "id": 28523141,
-      "score": 2,
-      "time": 1631619316,
-      "title": "Iconic Bugtraq mailinglist now used for spam",
-      "type": "story",
-      "url": "https://bugtraq.securityfocus.com/detail/wV8dW5V4QjdO83TI_X55o"
-    },
-    {
-      "by": "lumannnn",
-      "descendants": 0,
-      "id": 28523137,
-      "score": 1,
-      "text": "I&#x27;m curious of the current sentiment regarding Bitcoin.<p>Did you change your opinion about Bitcoin, blockchain and e.g. its energy consumption?<p>By changing your opinion I mean in any direction. From &quot;I was pro to I&#x27;m now against Bitcoin&quot; or &quot;I was against to I&#x27;m now pro Bitcoin&quot;.<p>What changed your mind?",
-      "time": 1631619298,
-      "title": "Ask HN: How many of you changed your mind about Bitcoin?",
-      "type": "story"
     }
   ]
 }
