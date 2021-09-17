@@ -1,10 +1,46 @@
 {
   "stories": [
     {
+      "by": "axiomdata316",
+      "descendants": 0,
+      "id": 28571591,
+      "score": 1,
+      "time": 1631917511,
+      "title": "Why Do We Work Too Much?",
+      "type": "story",
+      "url": "https://www.newyorker.com/culture/office-space/why-do-we-work-too-much"
+    },
+    {
+      "by": "gamechangr",
+      "descendants": 1,
+      "id": 28571583,
+      "kids": [
+        28571601
+      ],
+      "score": 1,
+      "time": 1631917458,
+      "title": "Looking for affordable housing? The mayor of Monesen has a special offer for you",
+      "type": "story",
+      "url": "https://nextpittsburgh.com/features/looking-for-affordable-housing-the-mayor-of-monessen-has-a-special-offer-for-you/"
+    },
+    {
+      "by": "nigerian1981",
+      "descendants": 1,
+      "id": 28571580,
+      "kids": [
+        28571598
+      ],
+      "score": 1,
+      "time": 1631917419,
+      "title": "Industry UK carbon dioxide shortage could force farmers to cull pigs",
+      "type": "story",
+      "url": "https://www.theguardian.com/environment/2021/sep/17/warnings-carbon-dioxide-shortage-could-force-farmers-to-cull-pigs"
+    },
+    {
       "by": "bobkrusty",
       "descendants": 0,
       "id": 28571538,
-      "score": 1,
+      "score": 2,
       "time": 1631917106,
       "title": "Barium Sulphate Paint",
       "type": "story",
@@ -24,7 +60,7 @@
       "by": "albertgoeswoof",
       "descendants": 0,
       "id": 28571528,
-      "score": 1,
+      "score": 2,
       "time": 1631916998,
       "title": "Subscribe to RSS Feeds over Email",
       "type": "story",
@@ -69,39 +105,6 @@
       "title": "Building a RISC-V PC (2019)",
       "type": "story",
       "url": "https://vimeo.com/315869857"
-    },
-    {
-      "by": "elevaet",
-      "descendants": 0,
-      "id": 28571474,
-      "score": 2,
-      "text": "My wife and I are embarking on a year of the nomad lifestyle, and homeschooling our kids aged 7 and 9. They are both interested in learning about programming computers. There is a plethora of options, so I wanted to draw on the wisdom and experience of HN to highlight the best of what&#x27;s out there.<p>What courses, apps, methods, have you found most worthwhile for introducing your kids to programming?",
-      "time": 1631916691,
-      "title": "Ask HN: Vetted homeschooling resources for kids (5-10) to learn coding?",
-      "type": "story"
-    },
-    {
-      "by": "dctoedt",
-      "descendants": 0,
-      "id": 28571457,
-      "score": 1,
-      "time": 1631916501,
-      "title": "One Hiker’s Peak of Desperation",
-      "type": "story",
-      "url": "https://www.sfchronicle.com/projects/2021/hiker-peak-of-desperation"
-    },
-    {
-      "by": "codesmith-fi",
-      "descendants": 0,
-      "id": 28571417,
-      "kids": [
-        28571430
-      ],
-      "score": 1,
-      "text": "Security problem: Linux version of the NordVPN client does not enforce 2FA (Two factor authentication) even it is enabled in user settings.<p>After installation there the Linux NordVPN does not <i>EVER</i> verify the 2FA code. This is what happens:<p>--- snip ---<p>memyself@mylinux ~&gt; sudo su<p>root@mylinux:&#x2F;home&#x2F;homeuser# nordvpn status<p>Status: Disconnected<p>root@mylinux:&#x2F;home&#x2F;homeuser# nordvpn login<p>Please enter your login details.<p>Email: homeuser@mailservice.org<p>Password: *******<p>Welcome to NordVPN!<p>You can now connect to VPN by using &#x27;nordvpn connect&#x27;.<p>root@mylinux:&#x2F;home&#x2F;homeuser# nordvpn connect France<p>Connecting to France #742 (fr742.nordvpn.com)<p>You are connected to France #742 (fr742.nordvpn.com)!<p>root@mylinux:&#x2F;home&#x2F;homeuser#<p>--- snip ---<p>That log is from Linux Mint 20.2 with all the latest patches, kernel and latest version of NordVPN Linux (3.10.0)  (normal apt upgrade process done for everything). Username, hostname etc. have been just modified for privacy purposes.<p>Also note note, this happened on the first run on that Linux computer so 2FA should&#x27;ve been enforced. But at in any point does the NordVPN client call for 2FA token. :(<p>Now, a honest question:<p>Who does not see this as a potential security hole here?\nIt&#x27;s the NordVPN server who should ensure that not <i>ANY</i> client can log in without correct 2FA token if it&#x27;s enabled. \nNow a Linux client can any time login if correct credentials are known.<p>It seems that the the 2FA is implemented on the client side completely. Which is not the correct way to do it. Fake spoofing NordVPN clients start to arrive which can bypass 2FA on any account.<p>Windows and Mobile NordVPN clients seem to enforce it, but if the 2FA verification is done on client side then the whole meaning is nullified.<p>Btw, this happened when I posted the above msg in r&#x2F;nordvpn<p>FeedbackSorry, this post has been removed by the moderators of r&#x2F;nordvpn.Moderators remove posts from feeds for a variety of reasons, including keeping communities safe, civil, and true to their purpose.<p>Mopping a serious problem under the carpet?",
-      "time": 1631916211,
-      "title": "NordVPN Linux does not enforce 2FA even it's enabled in user settings",
-      "type": "story"
     }
   ]
 }
