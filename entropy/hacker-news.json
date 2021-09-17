@@ -1,6 +1,16 @@
 {
   "stories": [
     {
+      "by": "dctoedt",
+      "descendants": 0,
+      "id": 28571457,
+      "score": 1,
+      "time": 1631916501,
+      "title": "One Hiker’s Peak of Desperation",
+      "type": "story",
+      "url": "https://www.sfchronicle.com/projects/2021/hiker-peak-of-desperation"
+    },
+    {
       "by": "codesmith-fi",
       "descendants": 1,
       "id": 28571417,
@@ -8,7 +18,7 @@
         28571430
       ],
       "score": 1,
-      "text": "My original post: https:&#x2F;&#x2F;www.reddit.com&#x2F;r&#x2F;linux&#x2F;comments&#x2F;pq9u2e&#x2F;security_alert_nordvpn_linux_does_not_enforce_2fa&#x2F;<p>Security problem: Linux version of the NordVPN client does not enforce 2FA (Two factor authentication) even it is enabled in user settings.<p>After installation there the Linux NordVPN does not <i>EVER</i> verify the 2FA code. This is what happens:<p>memyself@mylinux ~&gt; sudo su\nroot@mylinux:&#x2F;home&#x2F;homeuser# nordvpn status \nStatus: Disconnected \nroot@mylinux:&#x2F;home&#x2F;homeuser# nordvpn login\nPlease enter your login details. \nEmail: homeuser@mailservice.org \nPassword: ******* \nWelcome to NordVPN! \nYou can now connect to VPN by using &#x27;nordvpn connect&#x27;. root@mylinux:&#x2F;home&#x2F;homeuser# nordvpn connect France Connecting to France #742 (fr742.nordvpn.com) You are connected to France #742 (fr742.nordvpn.com)!\nroot@mylinux:&#x2F;home&#x2F;homeuser#<p>That log is from Linux Mint 20.2 with all the latest patches, kernel and latest version of NordVPN Linux (3.10.0)  (normal apt upgrade process done for everything). Username, hostname etc. have been just modified for privacy purposes.<p>Also note note, this happened on the first run on that Linux computer so 2FA should&#x27;ve been enforced. But at in any point does the NordVPN client call for 2FA token. :(<p>Now, a honest question:<p>Who does not see this as a potential security hole here?\nIt&#x27;s the NordVPN server who should ensure that not <i>ANY</i> client can log in without correct 2FA token if it&#x27;s enabled. \nNow a Linux client can any time login if correct credentials are known.<p>It seems that the the 2FA is implemented on the client side completely. Which is not the correct way to do it. Fake spoofing NordVPN clients start to arrive which can bypass 2FA on any account.<p>Windows and Mobile NordVPN clients seem to enforce it, but if the 2FA verification is done on client side then the whole meaning is nullified.<p>Btw, this happened when I posted the above msg in r&#x2F;nordvpn<p>FeedbackSorry, this post has been removed by the moderators of r&#x2F;nordvpn.Moderators remove posts from feeds for a variety of reasons, including keeping communities safe, civil, and true to their purpose.<p>Mopping a serious problem under the carpet?",
+      "text": "Security problem: Linux version of the NordVPN client does not enforce 2FA (Two factor authentication) even it is enabled in user settings.<p>After installation there the Linux NordVPN does not <i>EVER</i> verify the 2FA code. This is what happens:<p>--- snip ---<p>memyself@mylinux ~&gt; sudo su<p>root@mylinux:&#x2F;home&#x2F;homeuser# nordvpn status<p>Status: Disconnected<p>root@mylinux:&#x2F;home&#x2F;homeuser# nordvpn login<p>Please enter your login details.<p>Email: homeuser@mailservice.org<p>Password: *******<p>Welcome to NordVPN!<p>You can now connect to VPN by using &#x27;nordvpn connect&#x27;.<p>root@mylinux:&#x2F;home&#x2F;homeuser# nordvpn connect France<p>Connecting to France #742 (fr742.nordvpn.com)<p>You are connected to France #742 (fr742.nordvpn.com)!<p>root@mylinux:&#x2F;home&#x2F;homeuser#<p>--- snip ---<p>That log is from Linux Mint 20.2 with all the latest patches, kernel and latest version of NordVPN Linux (3.10.0)  (normal apt upgrade process done for everything). Username, hostname etc. have been just modified for privacy purposes.<p>Also note note, this happened on the first run on that Linux computer so 2FA should&#x27;ve been enforced. But at in any point does the NordVPN client call for 2FA token. :(<p>Now, a honest question:<p>Who does not see this as a potential security hole here?\nIt&#x27;s the NordVPN server who should ensure that not <i>ANY</i> client can log in without correct 2FA token if it&#x27;s enabled. \nNow a Linux client can any time login if correct credentials are known.<p>It seems that the the 2FA is implemented on the client side completely. Which is not the correct way to do it. Fake spoofing NordVPN clients start to arrive which can bypass 2FA on any account.<p>Windows and Mobile NordVPN clients seem to enforce it, but if the 2FA verification is done on client side then the whole meaning is nullified.<p>Btw, this happened when I posted the above msg in r&#x2F;nordvpn<p>FeedbackSorry, this post has been removed by the moderators of r&#x2F;nordvpn.Moderators remove posts from feeds for a variety of reasons, including keeping communities safe, civil, and true to their purpose.<p>Mopping a serious problem under the carpet?",
       "time": 1631916211,
       "title": "NordVPN Linux does not enforce 2FA even it's enabled in user settings",
       "type": "story"
@@ -57,7 +67,7 @@
       "by": "axiomdata316",
       "descendants": 0,
       "id": 28571383,
-      "score": 1,
+      "score": 2,
       "time": 1631915987,
       "title": "Why the Empire State Building, and New York, May Never Be the Same",
       "type": "story",
@@ -67,7 +77,7 @@
       "by": "_red",
       "descendants": 0,
       "id": 28571369,
-      "score": 1,
+      "score": 2,
       "time": 1631915930,
       "title": "The Meaning of the FDA Resignations",
       "type": "story",
@@ -92,16 +102,6 @@
       "time": 1631915731,
       "title": "Before Building a Connector App on Shopify You Should Know",
       "type": "story"
-    },
-    {
-      "by": "bryanrasmussen",
-      "descendants": 0,
-      "id": 28571327,
-      "score": 2,
-      "time": 1631915639,
-      "title": "Weaponizing economics: Big Oil, economic consultants, and climate policy delay",
-      "type": "story",
-      "url": "https://www.tandfonline.com/doi/full/10.1080/09644016.2021.1947636"
     }
   ]
 }
