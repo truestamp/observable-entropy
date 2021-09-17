@@ -1,6 +1,39 @@
 {
   "stories": [
     {
+      "by": "codesmith-fi",
+      "descendants": 1,
+      "id": 28571417,
+      "kids": [
+        28571430
+      ],
+      "score": 1,
+      "text": "My original post: https:&#x2F;&#x2F;www.reddit.com&#x2F;r&#x2F;linux&#x2F;comments&#x2F;pq9u2e&#x2F;security_alert_nordvpn_linux_does_not_enforce_2fa&#x2F;<p>Security problem: Linux version of the NordVPN client does not enforce 2FA (Two factor authentication) even it is enabled in user settings.<p>After installation there the Linux NordVPN does not <i>EVER</i> verify the 2FA code. This is what happens:<p>memyself@mylinux ~&gt; sudo su\nroot@mylinux:&#x2F;home&#x2F;homeuser# nordvpn status \nStatus: Disconnected \nroot@mylinux:&#x2F;home&#x2F;homeuser# nordvpn login\nPlease enter your login details. \nEmail: homeuser@mailservice.org \nPassword: ******* \nWelcome to NordVPN! \nYou can now connect to VPN by using &#x27;nordvpn connect&#x27;. root@mylinux:&#x2F;home&#x2F;homeuser# nordvpn connect France Connecting to France #742 (fr742.nordvpn.com) You are connected to France #742 (fr742.nordvpn.com)!\nroot@mylinux:&#x2F;home&#x2F;homeuser#<p>That log is from Linux Mint 20.2 with all the latest patches, kernel and latest version of NordVPN Linux (3.10.0)  (normal apt upgrade process done for everything). Username, hostname etc. have been just modified for privacy purposes.<p>Also note note, this happened on the first run on that Linux computer so 2FA should&#x27;ve been enforced. But at in any point does the NordVPN client call for 2FA token. :(<p>Now, a honest question:<p>Who does not see this as a potential security hole here?\nIt&#x27;s the NordVPN server who should ensure that not <i>ANY</i> client can log in without correct 2FA token if it&#x27;s enabled. \nNow a Linux client can any time login if correct credentials are known.<p>It seems that the the 2FA is implemented on the client side completely. Which is not the correct way to do it. Fake spoofing NordVPN clients start to arrive which can bypass 2FA on any account.<p>Windows and Mobile NordVPN clients seem to enforce it, but if the 2FA verification is done on client side then the whole meaning is nullified.<p>Btw, this happened when I posted the above msg in r&#x2F;nordvpn<p>FeedbackSorry, this post has been removed by the moderators of r&#x2F;nordvpn.Moderators remove posts from feeds for a variety of reasons, including keeping communities safe, civil, and true to their purpose.<p>Mopping a serious problem under the carpet?",
+      "time": 1631916211,
+      "title": "NordVPN Linux does not enforce 2FA even it's enabled in user settings",
+      "type": "story"
+    },
+    {
+      "by": "plaur782",
+      "descendants": 0,
+      "id": 28571409,
+      "score": 1,
+      "time": 1631916154,
+      "title": "PostgreSQL on the Move",
+      "type": "story",
+      "url": "https://www.sanjmo.com/postgresql-on-the-move/"
+    },
+    {
+      "by": "saadalem",
+      "descendants": 0,
+      "id": 28571399,
+      "score": 1,
+      "time": 1631916106,
+      "title": "BTC Challenge (2018)",
+      "type": "story",
+      "url": "https://www.reddit.com/r/Bitcoin/comments/9kq7it/introducing_the_310_btc_bitcoin_challenge/"
+    },
+    {
       "by": "doener",
       "descendants": 0,
       "id": 28571388,
@@ -14,7 +47,7 @@
       "by": "adenner",
       "descendants": 0,
       "id": 28571386,
-      "score": 1,
+      "score": 2,
       "time": 1631916002,
       "title": "Health US panel backs Covid-19 boosters only for elderly, high-risk",
       "type": "story",
@@ -54,7 +87,7 @@
       "by": "lemon234",
       "descendants": 0,
       "id": 28571335,
-      "score": 2,
+      "score": 5,
       "text": "If you are planning on building a Connector App on Shopify, you should know you must have the company you are connecting Shopify with also agree to Shopify’s API terms and conditions.<p>For example, if you are building an app to connect Shopify to Google Merchant, you will need to get Google to agree to Shopify’s API terms (https:&#x2F;&#x2F;www.shopify.com&#x2F;legal&#x2F;api-terms). As you can imagine, this is next to impossible.<p>Surprisingly, Connector Apps already approved and in the Shopify store have not yet had to abide by this requirements (only new submissions). We recently had ours rejected for this reason, so just want to give everyone a heads-up.<p>Unfortunately, it is becoming ever more difficult to develop for the Shopify App Store.",
       "time": 1631915731,
       "title": "Before Building a Connector App on Shopify You Should Know",
@@ -69,42 +102,6 @@
       "title": "Weaponizing economics: Big Oil, economic consultants, and climate policy delay",
       "type": "story",
       "url": "https://www.tandfonline.com/doi/full/10.1080/09644016.2021.1947636"
-    },
-    {
-      "by": "goler",
-      "descendants": 1,
-      "id": 28571314,
-      "kids": [
-        28571338
-      ],
-      "score": 1,
-      "time": 1631915570,
-      "title": "Tesla will open FSD beta software to owners with a good driving record",
-      "type": "story",
-      "url": "https://techcrunch.com/2021/09/17/tesla-will-open-controversial-fsd-beta-software-to-owners-with-a-good-driving-record/"
-    },
-    {
-      "by": "gozeloglu",
-      "descendants": 1,
-      "id": 28571295,
-      "kids": [
-        28571296
-      ],
-      "score": 1,
-      "time": 1631915465,
-      "title": "Show HN: POP3 Client Pkg for Go",
-      "type": "story",
-      "url": "https://github.com/gozeloglu/gop-3"
-    },
-    {
-      "by": "rastafang",
-      "descendants": 0,
-      "id": 28571287,
-      "score": 3,
-      "time": 1631915420,
-      "title": "France Recalls Its Ambassadors to the U.S. and Australia over a Submarine Deal",
-      "type": "story",
-      "url": "https://www.npr.org/2021/09/17/1038395237/france-recalls-ambassadors-us-australia-nuclear-submarine-deal"
     }
   ]
 }
