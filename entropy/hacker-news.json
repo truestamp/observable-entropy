@@ -1,6 +1,26 @@
 {
   "stories": [
     {
+      "by": "timsehn",
+      "descendants": 0,
+      "id": 28567018,
+      "score": 2,
+      "text": "Hi HackerNews,<p>We did a short survey of your options for database version control. Our intent is to help database aficionados like yourself distinguish between &quot;database migration tools&quot; and &quot;version controlled databases&quot;.<p>The blog goes into depth on Liquibase, Redgate Deploy, Planetscale, TerminusDB, and Dolt. It also touches on SCD (slowly changing dimension) and Temporal tables.<p>https:&#x2F;&#x2F;www.dolthub.com&#x2F;blog&#x2F;2021-09-17-database-version-control&#x2F;<p>Link to it if you like it. The search results for &quot;database version control&quot; are not great.",
+      "time": 1631894417,
+      "title": "So you want database Version Control?",
+      "type": "story"
+    },
+    {
+      "by": "zwieback",
+      "descendants": 0,
+      "id": 28567013,
+      "score": 1,
+      "time": 1631894386,
+      "title": "Nintendo 64 over S-Video",
+      "type": "story",
+      "url": "https://www.nayuki.io/page/nintendo-64-over-svideo"
+    },
+    {
       "by": "LewisVerstappen",
       "descendants": 0,
       "id": 28566975,
@@ -14,7 +34,7 @@
       "by": "lotusmars",
       "descendants": 0,
       "id": 28566963,
-      "score": 1,
+      "score": 2,
       "time": 1631894160,
       "title": "Apple drops iOS Private Relay feature for users in Russia",
       "type": "story",
@@ -25,7 +45,7 @@
       "descendants": 0,
       "id": 28566962,
       "score": 1,
-      "text": "Hi, long time Linux user here. I&#x27;ve been using Firejail for years to isolate apps from my ~&#x2F;Documents and web browser data, so that there&#x27;s a smaller risk of downloaded binaries like Signal and Steam accessing my private data.<p>Now I&#x27;m thinking of getting a Macbook for the nicer creature comforts. I notice that MacOS apps installed outside the app store have full access to ~&#x2F;Library, which means things like Signal and Steam can freely poke around my web browser cookie files. This seems bad to me.<p>I think these are the options, and none of them work very. Wonder if anyone has better suggestions:<p>1. sandbox-exec [1]: Poorly documented and deprecated. Might go away in upcoming releases of MacOS.<p>2. Create separate user accounts and `sudo su` as them, then execute the binary. This kind of works but some apps give strange results. Firefox seems to lanuch OK, but I can&#x27;t run steam this way. I can download the dmg, run `xattr -d com.apple.quarantine &#x2F;path&#x2F;Steam.dmg` then run it, the auto updater shows up, and then it closes itself without launching the store UI. If I double click as the `sudo`ed account normally, it runs fine.<p>Also apps launched with `sudo` don&#x27;t show up when I run the app switcher with Command-Tab, not sure why.<p>[1] https:&#x2F;&#x2F;jmmv.dev&#x2F;2019&#x2F;11&#x2F;macos-sandbox-exec.html",
+      "text": "Hi, long time Linux user here. I&#x27;ve been using Firejail for years to isolate apps from my ~&#x2F;Documents and web browser data, so that there&#x27;s a smaller risk of downloaded binaries like Signal and Steam accessing my private data.<p>Now I&#x27;m thinking of getting a Macbook for the nicer creature comforts. I notice that MacOS apps installed outside the app store have full access to ~&#x2F;Library, which means things like Signal and Steam can freely poke around my Firefox&#x2F;Chrome browser bookmarks, cookie files, etc. This seems bad to me.<p>I think these are the options, and none of them work very. Wonder if anyone has better suggestions:<p>1. sandbox-exec [1]: Poorly documented and deprecated. Might go away in upcoming releases of MacOS.<p>2. Create separate user accounts and `sudo su` as them, then execute the binary. This kind of works but some apps give strange results. Firefox seems to lanuch OK, but I can&#x27;t run steam this way. I can download the dmg, run `xattr -d com.apple.quarantine &#x2F;path&#x2F;Steam.dmg` then run it, the auto updater shows up, and then it closes itself without launching the store UI. If I double click as the `sudo`ed account normally, it runs fine.<p>Also apps launched with `sudo` don&#x27;t show up when I run the app switcher with Command-Tab, not sure why.<p>[1] https:&#x2F;&#x2F;jmmv.dev&#x2F;2019&#x2F;11&#x2F;macos-sandbox-exec.html",
       "time": 1631894144,
       "title": "How to isolate apps from private data in macOS?",
       "type": "story"
@@ -47,7 +67,7 @@
       "kids": [
         28566945
       ],
-      "score": 1,
+      "score": 2,
       "time": 1631894061,
       "title": "2x a Week Newsletter for Devs",
       "type": "story",
@@ -82,26 +102,6 @@
       "title": "Child abuse: Apple urged to roll out image-scanning tool swiftly",
       "type": "story",
       "url": "https://www.theguardian.com/global-development/2021/sep/17/child-abuse-apple-urged-to-roll-out-image-scanning-tool-swiftly"
-    },
-    {
-      "by": "wodow",
-      "descendants": 0,
-      "id": 28566883,
-      "score": 1,
-      "time": 1631893769,
-      "title": "RFC 7686: The .onion Special-Use Domain Name",
-      "type": "story",
-      "url": "https://www.rfc-editor.org/rfc/rfc7686.html"
-    },
-    {
-      "by": "gummy_bears",
-      "descendants": 0,
-      "id": 28566864,
-      "score": 1,
-      "time": 1631893678,
-      "title": "Memory Managers – General considerations on memory and memory managers",
-      "type": "story",
-      "url": "https://medium.com/@raphael.outhier/memory-managers-part-0-4f2acc9d5e28"
     }
   ]
 }
