@@ -1,6 +1,29 @@
 {
   "stories": [
     {
+      "by": "jesuswr",
+      "descendants": 0,
+      "id": 28589001,
+      "score": 1,
+      "text": "Hello!<p>I am working on a text classifier but at the moment im quite lost on what to do.<p>The classes form a tree with three levels, for example: class A (level 1), class A.1 (level 2, subclass of A) and class A.1.a (level 3, subclass of A.1).<p>I have a lot of texts but without labels, also its hard to create a set of labeled data because of the big number of classes.<p>I&#x27;ve looked at word embeddings, clustering algorithms, topic modeling, keyword extraction algorithms and other approaches but im not sure whats would be a good way to proceed.<p>Also im not sure how to evaluate the success of the classifier, maybe i could build a small dataset but i wanted to know if there was any other option<p>At the moment the idea that i like most is classifying by the level of the class, for example: given a text t, get the first level class of t, lets say B, then get the second level class of t (only taking the subclasses of B), lets say B.4, and finally get the third level class of t (only taking the subclasses of B.4), lets say B.4.c, and finally we could say that the class of t is B.4.c.<p>So i wanted to ask here for advices to continue on this classifier and evaluate its success, thanks! :)",
+      "time": 1632095044,
+      "title": "Question about text classification without labeled data",
+      "type": "story"
+    },
+    {
+      "by": "RyTheGuy",
+      "descendants": 2,
+      "id": 28588983,
+      "kids": [
+        28588984
+      ],
+      "score": 2,
+      "time": 1632094922,
+      "title": "Show HN: An extension to gather leads from anywhere",
+      "type": "story",
+      "url": "https://drive.google.com/file/d/1rTVUi9JFCnvNGzmw1JzQ97N1BpTWyOei/view"
+    },
+    {
       "by": "momentum_j",
       "descendants": 0,
       "id": 28588958,
@@ -65,13 +88,15 @@
     },
     {
       "by": "curiousgeorgio",
-      "descendants": 2,
+      "descendants": 4,
       "id": 28588896,
       "kids": [
+        28589009,
+        28589010,
         28588915,
         28588906
       ],
-      "score": 7,
+      "score": 9,
       "text": "I&#x27;ve noticed a ton of crypto scams on YouTube recently, many of which are using the names of legitimate channels (like SpaceX), re-posting content from those channels and promoting scams – usually in the form of &quot;send me [Elon Musk, Jeff Bezoz, etc] BTC, and I&#x27;ll send you 2x back&quot;.<p>It seems reasonable to expect one or two of these to slip through the cracks now and then, but over the past few months, I&#x27;ve had YouTube &quot;recommend&quot; these to me, again and again, multiple times per day. I&#x27;ve often reported them as spam, only to have YouTube <i>recommend the exact same video to me a few minutes later</i>. I don&#x27;t know anyone who would fall for the scams in the videos, but they&#x27;ve become so common now that it&#x27;s getting <i>really</i> annoying.<p>You can&#x27;t tell me that they&#x27;re too difficult to distinguish from legitimate content. Any human being or half-decent algorithm would be able to catch these with no trouble at all (heck, I could write a couple of regular expressions that would do the trick and have 0 false positives), which leads me to wonder: why is YouTube promoting these videos? At this point, it feels like they must have some incentive <i>not</i> to shut them down, because it would require deliberate effort to have <i>any</i> form of spam control while also somehow letting these through.<p>Am I the only one noticing this?",
       "time": 1632093992,
       "title": "YouTube has a spam problem, and it's getting worse",
@@ -89,26 +114,6 @@
       "title": "Show HN: CRM for Social Consumer Apps",
       "type": "story",
       "url": "https://drive.google.com/file/d/1rTVUi9JFCnvNGzmw1JzQ97N1BpTWyOei/view?usp=sharing"
-    },
-    {
-      "by": "zachguo",
-      "descendants": 0,
-      "id": 28588828,
-      "score": 2,
-      "time": 1632093205,
-      "title": "China’s TikTok Limits Young Users to 40 Minutes a Day",
-      "type": "story",
-      "url": "https://www.sixthtone.com/news/1008549/douyin%2C-chinas-tiktok%2C-limits-young-users-to-40-minutes-a-day"
-    },
-    {
-      "by": "pseudolus",
-      "descendants": 0,
-      "id": 28588825,
-      "score": 1,
-      "time": 1632093146,
-      "title": "Some birds learn to recognize calls while still in their eggs",
-      "type": "story",
-      "url": "https://www.sciencenews.org/article/birds-learn-recognize-calls-mom-eggs-nest-sound-song"
     }
   ]
 }
