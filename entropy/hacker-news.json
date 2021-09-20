@@ -1,11 +1,51 @@
 {
   "stories": [
     {
+      "by": "sofixa",
+      "descendants": 0,
+      "id": 28598145,
+      "score": 1,
+      "time": 1632167775,
+      "title": "Poland vows to keep coalmine open despite €500k-a-day ECJ fine",
+      "type": "story",
+      "url": "https://www.theguardian.com/world/2021/sep/20/poland-vows-to-keep-coalmine-open-despite-500000-a-day-ecj-fine"
+    },
+    {
+      "by": "amrrs",
+      "descendants": 0,
+      "id": 28598104,
+      "score": 1,
+      "time": 1632167603,
+      "title": "OpenAI Codex Coding AI Product – Gradio UI on Hugging Face Spaces Deployment",
+      "type": "story",
+      "url": "https://www.youtube.com/watch?v=8FEIPnX4IGo"
+    },
+    {
+      "by": "infodocket",
+      "descendants": 0,
+      "id": 28598082,
+      "score": 2,
+      "time": 1632167507,
+      "title": "News Consumption Across Social Media in 2021",
+      "type": "story",
+      "url": "https://www.pewresearch.org/journalism/2021/09/20/news-consumption-across-social-media-in-2021/"
+    },
+    {
+      "by": "mzs",
+      "descendants": 0,
+      "id": 28598073,
+      "score": 1,
+      "time": 1632167496,
+      "title": "Police Announce Bust of Mafia’s Cyber Crime Operations",
+      "type": "story",
+      "url": "https://www.vice.com/en/article/5dbvx3/police-announce-huge-bust-of-mafias-cyber-crime-operations"
+    },
+    {
       "by": "katakatana",
       "descendants": 0,
       "id": 28598066,
-      "score": 1,
-      "text": "#!&#x2F;usr&#x2F;bin&#x2F;env2 punkif <i>!type=text&#x2F;plain* </i>!encoding=utf-8&#x2F;unicode*<p>io = load! {[_punkif]&#x2F;lang&#x2F;base}<p>io.say {Hello world!} *<p>user.name: {Jack R. Hacker}\nio.say {Welcome [user.name], nice to meet you.} *<p>while not [user.callsign] -&gt; ! {\n    user.callsign = io.ask {What&#x27;s your callsign? &gt; }<p><pre><code>    if not [user.callsign] -&gt; ! {\n        io.say {Please enter thy callsign, lol!}\n    }</code></pre>\n}<p>user.dir = {&#x2F;home&#x2F;[user.callsign]}<p>ret = ! mkdir -p [user.dir]<p>if [ret] not {0} -&gt; io.say {\n        mkdir -p [user.dir] FAILED!\n    } *<p>else -&gt; io.say {\n        SUCCESS, [user.callsign]! your home dir was created at [user.dir]\n    } *<p># objects&#x2F;dicts (&quot;a&quot; is created automagically)\na.thing = {<p>}<p>name = class ! [type] {\n    first: {default first name}\n    last:  {default last name}<p><pre><code>    full = $ -&gt; {[$.last], [$.first]}\n\n    __init__ = $ (first, last) -&gt; {\n        $.first: [first]\n        $.last: [last]\n    }</code></pre>\n}<p>person = class ! [name] {\n    age: ` -1<p><pre><code>    __init__ = $ (first, last, age) -&gt; {\n        $.super [first] [last]\n        $.age: [age]\n    }\n\n    breathe = $ -&gt; io.say {[full] breathes...} *</code></pre>\n}<p>john = person {John} {Lennon} ` 40<p>john.breathe *",
+      "score": 2,
+      "text": "<p><pre><code>  #!&#x2F;usr&#x2F;bin&#x2F;env2 punkif *!type=text&#x2F;plain* *!encoding=utf-8&#x2F;unicode*\n\n  io = load! {[_punkif]&#x2F;lang&#x2F;base}\n\n  io.say {Hello world!} *\n\n  user.name: {Jack R. Hacker}\n  io.say {Welcome [user.name], nice to meet you.} *\n\n  while not [user.callsign] -&gt; ! {\n      user.callsign = io.ask {What&#x27;s your callsign? &gt; }\n\n      if not [user.callsign] -&gt; ! {\n          io.say {Please enter thy callsign, lol!}\n      }\n  }\n\n  user.dir = {&#x2F;home&#x2F;[user.callsign]}\n\n  ret = ! mkdir -p [user.dir]\n\n  if [ret] not {0} -&gt; io.say {\n          mkdir -p [user.dir] FAILED!\n      } *\n\n  else -&gt; io.say {\n          SUCCESS, [user.callsign]! your home dir was created at [user.dir]\n       } *\n\n  # objects&#x2F;dicts (&quot;a&quot; is created automagically)\n  a.thing = {\n\n  } \n\n  name = class ! [type] {\n    first: {default first name}\n    last:  {default last name}\n\n    full = $ -&gt; {[$.last], [$.first]}\n\n    __init__ = $ (first, last) -&gt; {\n        $.first: [first]\n        $.last: [last]\n    }\n  }\n\n  person = class ! [name] {\n    age: ` -1\n\n    __init__ = $ (first, last, age) -&gt; {\n        $.super [first] [last]\n        $.age: [age]\n    }\n\n    breathe = $ -&gt; io.say {[full] breathes...} *\n  }\n\n  john = person {John} {Lennon} ` 40\n\n  john.breathe *\n</code></pre>\nBasically I want to make for python what typescript made for javascript",
       "time": 1632167470,
       "title": "Syntax Obsession",
       "type": "story"
@@ -62,46 +102,6 @@
       "title": "Hiring for Systems Engineers",
       "type": "story",
       "url": "https://tryfractal.notion.site/Fractal-Job-Board-a39b64712f094c7785f588053fc283a9"
-    },
-    {
-      "by": "wrycoder",
-      "descendants": 0,
-      "id": 28597975,
-      "score": 2,
-      "time": 1632167114,
-      "title": "“A calorie is a calorie” violates the second law of thermodynamics (2004)",
-      "type": "story",
-      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC506782/"
-    },
-    {
-      "by": "olvy0",
-      "descendants": 0,
-      "id": 28597944,
-      "score": 2,
-      "time": 1632166955,
-      "title": "A 12-year-old achieved nuclear fusion (2020)",
-      "type": "story",
-      "url": "https://www.youtube.com/watch?v=Wh5TUlzBwLw"
-    },
-    {
-      "by": "Anon84",
-      "descendants": 0,
-      "id": 28597940,
-      "score": 3,
-      "time": 1632166949,
-      "title": "A Mathematician's Guided Tour Through Higher Dimensions",
-      "type": "story",
-      "url": "https://www.quantamagazine.org/a-mathematicians-guided-tour-through-high-dimensions-20210913/"
-    },
-    {
-      "by": "borodust",
-      "descendants": 0,
-      "id": 28597935,
-      "score": 1,
-      "time": 1632166910,
-      "title": "Autumn Lisp Game Jam 2021",
-      "type": "story",
-      "url": "https://itch.io/jam/autumn-lisp-game-jam-2021"
     }
   ]
 }
