@@ -1,6 +1,56 @@
 {
   "stories": [
     {
+      "by": "katakatana",
+      "descendants": 0,
+      "id": 28598066,
+      "score": 1,
+      "text": "#!&#x2F;usr&#x2F;bin&#x2F;env2 punkif <i>!type=text&#x2F;plain* </i>!encoding=utf-8&#x2F;unicode*<p>io = load! {[_punkif]&#x2F;lang&#x2F;base}<p>io.say {Hello world!} *<p>user.name: {Jack R. Hacker}\nio.say {Welcome [user.name], nice to meet you.} *<p>while not [user.callsign] -&gt; ! {\n    user.callsign = io.ask {What&#x27;s your callsign? &gt; }<p><pre><code>    if not [user.callsign] -&gt; ! {\n        io.say {Please enter thy callsign, lol!}\n    }</code></pre>\n}<p>user.dir = {&#x2F;home&#x2F;[user.callsign]}<p>ret = ! mkdir -p [user.dir]<p>if [ret] not {0} -&gt; io.say {\n        mkdir -p [user.dir] FAILED!\n    } *<p>else -&gt; io.say {\n        SUCCESS, [user.callsign]! your home dir was created at [user.dir]\n    } *<p># objects&#x2F;dicts (&quot;a&quot; is created automagically)\na.thing = {<p>}<p>name = class ! [type] {\n    first: {default first name}\n    last:  {default last name}<p><pre><code>    full = $ -&gt; {[$.last], [$.first]}\n\n    __init__ = $ (first, last) -&gt; {\n        $.first: [first]\n        $.last: [last]\n    }</code></pre>\n}<p>person = class ! [name] {\n    age: ` -1<p><pre><code>    __init__ = $ (first, last, age) -&gt; {\n        $.super [first] [last]\n        $.age: [age]\n    }\n\n    breathe = $ -&gt; io.say {[full] breathes...} *</code></pre>\n}<p>john = person {John} {Lennon} ` 40<p>john.breathe *",
+      "time": 1632167470,
+      "title": "Syntax Obsession",
+      "type": "story"
+    },
+    {
+      "by": "andyxor",
+      "descendants": 0,
+      "id": 28598043,
+      "score": 1,
+      "time": 1632167377,
+      "title": "Elon Musk mocks Biden after SpaceX completes first all-civilian mission",
+      "type": "story",
+      "url": "https://www.cnbc.com/2021/09/19/elon-musk-mocks-president-biden-after-spacex-completes-first-all-civilian-mission.html"
+    },
+    {
+      "by": "nitramm",
+      "descendants": 0,
+      "id": 28598041,
+      "score": 1,
+      "time": 1632167365,
+      "title": "Researchers Find Malware Hiding in Windows Subsystem for Linux",
+      "type": "story",
+      "url": "https://www.tomshardware.com/news/researchers-find-windows-subsystem-linux-malware"
+    },
+    {
+      "by": "type0",
+      "descendants": 0,
+      "id": 28598003,
+      "score": 2,
+      "time": 1632167210,
+      "title": "This implanted microchip may one day control your sleep",
+      "type": "story",
+      "url": "https://www.freethink.com/technology/a-microchip-may-revolutionize-how-we-treat-diseases"
+    },
+    {
+      "by": "sea6ear",
+      "descendants": 0,
+      "id": 28597994,
+      "score": 2,
+      "time": 1632167184,
+      "title": "Emacs Typing Tutor",
+      "type": "story",
+      "url": "https://connorberry.com/2021/08/20/emacs-typing-tutor/"
+    },
+    {
       "by": "pnoel",
       "descendants": 1,
       "id": 28597988,
@@ -17,7 +67,7 @@
       "by": "wrycoder",
       "descendants": 0,
       "id": 28597975,
-      "score": 1,
+      "score": 2,
       "time": 1632167114,
       "title": "“A calorie is a calorie” violates the second law of thermodynamics (2004)",
       "type": "story",
@@ -27,7 +77,7 @@
       "by": "olvy0",
       "descendants": 0,
       "id": 28597944,
-      "score": 1,
+      "score": 2,
       "time": 1632166955,
       "title": "A 12-year-old achieved nuclear fusion (2020)",
       "type": "story",
@@ -52,62 +102,6 @@
       "title": "Autumn Lisp Game Jam 2021",
       "type": "story",
       "url": "https://itch.io/jam/autumn-lisp-game-jam-2021"
-    },
-    {
-      "by": "jaredwiener",
-      "descendants": 1,
-      "id": 28597926,
-      "kids": [
-        28597951
-      ],
-      "score": 2,
-      "time": 1632166867,
-      "title": "OkCupid users now have the option to add a “pro-choice” badge to their profiles",
-      "type": "story",
-      "url": "https://www.nytimes.com/2021/09/20/style/okcupid-abortion-rights-badge.html"
-    },
-    {
-      "by": "nicktorba",
-      "descendants": 0,
-      "id": 28597895,
-      "score": 3,
-      "text": "The title says it all. To me, the most important component of a wiki is search. With that said, why is confluence wiki search basically unusable?<p>(by unusable, I mean I can never find the page I am looking for when I search. Basically, I have to maintain my own wiki of important links I may need to reference in the future)",
-      "time": 1632166763,
-      "title": "Why is Confluence Wiki Search so bad?",
-      "type": "story"
-    },
-    {
-      "by": "exolymph",
-      "descendants": 0,
-      "id": 28597892,
-      "score": 1,
-      "time": 1632166742,
-      "title": "Entropy Notes",
-      "type": "story",
-      "url": "https://www.sonyasupposedly.com/entropy-notes/"
-    },
-    {
-      "by": "todsacerdoti",
-      "descendants": 0,
-      "id": 28597870,
-      "score": 1,
-      "time": 1632166642,
-      "title": "Expose any Qt5 program via VNC",
-      "type": "story",
-      "url": "https://raymii.org/s/articles/Expose_any_QT_program_via_VNC.html"
-    },
-    {
-      "by": "mcrittenden",
-      "descendants": 1,
-      "id": 28597785,
-      "kids": [
-        28597992
-      ],
-      "score": 1,
-      "time": 1632166184,
-      "title": "Reconstruction of a Train Wreck: How Priming Research Went Off the Rails",
-      "type": "story",
-      "url": "https://replicationindex.com/2017/02/02/reconstruction-of-a-train-wreck-how-priming-research-went-of-the-rails/"
     }
   ]
 }
