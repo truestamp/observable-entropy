@@ -1,6 +1,46 @@
 {
   "stories": [
     {
+      "by": "NmAmDa",
+      "descendants": 0,
+      "id": 28598262,
+      "score": 1,
+      "time": 1632168322,
+      "title": "Adguard Letter of Support to Quad9",
+      "type": "story",
+      "url": "https://adguard.com/en/blog/adguard-quad9-statement.html"
+    },
+    {
+      "by": "l9i",
+      "descendants": 0,
+      "id": 28598254,
+      "score": 2,
+      "time": 1632168255,
+      "title": "Host Identity Based Authorization for SSH",
+      "type": "story",
+      "url": "https://opensource.googleblog.com/2021/09/announcing-hiba-host-identity-based-authorization-for-SSH.html"
+    },
+    {
+      "by": "walterbell",
+      "descendants": 0,
+      "id": 28598246,
+      "score": 1,
+      "time": 1632168223,
+      "title": "A15 in iPad Mini 6 Has Underclocked CPU; Beaten by A14 in Several Tests",
+      "type": "story",
+      "url": "https://wccftech.com/ipad-mini-6-features-slower-a15-bionic-cpu-beaten-by-a14-bionic/"
+    },
+    {
+      "by": "SubiculumCode",
+      "descendants": 0,
+      "id": 28598229,
+      "score": 2,
+      "time": 1632168130,
+      "title": "High genetic barrier to SARS-CoV-2 polyclonal neutralizing antibody escape",
+      "type": "story",
+      "url": "https://www.nature.com/articles/s41586-021-04005-0?error=cookies_not_supported&code=fea21ae7-088a-4c14-ae48-45adad4ef0e9"
+    },
+    {
       "by": "underscore_ku",
       "descendants": 0,
       "id": 28598171,
@@ -14,7 +54,7 @@
       "by": "cs702",
       "descendants": 0,
       "id": 28598170,
-      "score": 2,
+      "score": 3,
       "time": 1632167872,
       "title": "World shares tumble as China Evergrande contagion fears spread",
       "type": "story",
@@ -34,7 +74,7 @@
       "by": "darthvoldemort",
       "descendants": 0,
       "id": 28598159,
-      "score": 1,
+      "score": 2,
       "time": 1632167839,
       "title": "Tesla agrees to finally honor solar roof prices on signed contracts",
       "type": "story",
@@ -59,46 +99,6 @@
       "title": "Poland vows to keep coalmine open despite €500k-a-day ECJ fine",
       "type": "story",
       "url": "https://www.theguardian.com/world/2021/sep/20/poland-vows-to-keep-coalmine-open-despite-500000-a-day-ecj-fine"
-    },
-    {
-      "by": "amrrs",
-      "descendants": 0,
-      "id": 28598104,
-      "score": 2,
-      "time": 1632167603,
-      "title": "OpenAI Codex Coding AI Product – Gradio UI on Hugging Face Spaces Deployment",
-      "type": "story",
-      "url": "https://www.youtube.com/watch?v=8FEIPnX4IGo"
-    },
-    {
-      "by": "infodocket",
-      "descendants": 0,
-      "id": 28598082,
-      "score": 2,
-      "time": 1632167507,
-      "title": "News Consumption Across Social Media in 2021",
-      "type": "story",
-      "url": "https://www.pewresearch.org/journalism/2021/09/20/news-consumption-across-social-media-in-2021/"
-    },
-    {
-      "by": "mzs",
-      "descendants": 0,
-      "id": 28598073,
-      "score": 1,
-      "time": 1632167496,
-      "title": "Police Announce Bust of Mafia’s Cyber Crime Operations",
-      "type": "story",
-      "url": "https://www.vice.com/en/article/5dbvx3/police-announce-huge-bust-of-mafias-cyber-crime-operations"
-    },
-    {
-      "by": "katakatana",
-      "descendants": 0,
-      "id": 28598066,
-      "score": 4,
-      "text": "<p><pre><code>  #!&#x2F;usr&#x2F;bin&#x2F;env2 punkif *!type=text&#x2F;plain* *!encoding=utf-8&#x2F;unicode*\n\n  io = load! {[_punkif]&#x2F;lang&#x2F;base}\n\n  io.say {Hello world!} *\n\n  user.name: {Jack R. Hacker}\n  io.say {Welcome [user.name], nice to meet you.} *\n\n  while not [user.callsign] -&gt; ! {\n      user.callsign = io.ask {What&#x27;s your callsign? &gt; }\n\n      if not [user.callsign] -&gt; ! {\n          io.say {Please enter thy callsign, lol!}\n      }\n  }\n\n  user.dir = {&#x2F;home&#x2F;[user.callsign]}\n\n  ret = ! mkdir -p [user.dir]\n\n  if [ret] not {0} -&gt; io.say {\n          mkdir -p [user.dir] FAILED!\n      } *\n\n  else -&gt; io.say {\n          SUCCESS, [user.callsign]! your home dir was created at [user.dir]\n       } *\n\n  # objects&#x2F;dicts (&quot;a&quot; is created automagically)\n  a.thing = {\n\n  } \n\n  name = class ! [type] {\n    first: {default first name}\n    last:  {default last name}\n\n    full = $ -&gt; {[$.last], [$.first]}\n\n    __init__ = $ (first, last) -&gt; {\n        $.first: [first]\n        $.last: [last]\n    }\n  }\n\n  person = class ! [name] {\n    age: ` -1\n\n    __init__ = $ (first, last, age) -&gt; {\n        $.super [first] [last]\n        $.age: [age]\n    }\n\n    breathe = $ -&gt; io.say {[full] breathes...} *\n  }\n\n  john = person {John} {Lennon} ` 40\n\n  john.breathe *\n</code></pre>\nBasically I want to make for python what typescript made for javascript",
-      "time": 1632167470,
-      "title": "Syntax Obsession",
-      "type": "story"
     }
   ]
 }
