@@ -1,6 +1,56 @@
 {
   "stories": [
     {
+      "by": "underscore_ku",
+      "descendants": 0,
+      "id": 28598171,
+      "score": 1,
+      "time": 1632167873,
+      "title": "British energy firms fear collapse as Europe’s gas crisis sees prices surge 250%",
+      "type": "story",
+      "url": "https://www.cnbc.com/2021/09/20/british-energy-firms-fear-collapse-as-european-gas-prices-surge-250percent.html"
+    },
+    {
+      "by": "cs702",
+      "descendants": 0,
+      "id": 28598170,
+      "score": 2,
+      "time": 1632167872,
+      "title": "World shares tumble as China Evergrande contagion fears spread",
+      "type": "story",
+      "url": "https://www.reuters.com/business/global-markets-wrapup-7-2021-09-20/"
+    },
+    {
+      "by": "theTyrant",
+      "descendants": 0,
+      "id": 28598162,
+      "score": 1,
+      "time": 1632167843,
+      "title": "A Cry from Below",
+      "type": "story",
+      "url": "https://unstable.substack.com/p/a-cry-from-below"
+    },
+    {
+      "by": "darthvoldemort",
+      "descendants": 0,
+      "id": 28598159,
+      "score": 1,
+      "time": 1632167839,
+      "title": "Tesla agrees to finally honor solar roof prices on signed contracts",
+      "type": "story",
+      "url": "https://electrek.co/2021/09/20/tesla-agrees-finally-honor-solar-roof-prices-signed-contracts/"
+    },
+    {
+      "by": "Phileosopher",
+      "descendants": 0,
+      "id": 28598146,
+      "score": 1,
+      "time": 1632167786,
+      "title": "Anatomy of Trends",
+      "type": "story",
+      "url": "https://gainedin.site/trends/"
+    },
+    {
       "by": "sofixa",
       "descendants": 0,
       "id": 28598145,
@@ -14,7 +64,7 @@
       "by": "amrrs",
       "descendants": 0,
       "id": 28598104,
-      "score": 1,
+      "score": 2,
       "time": 1632167603,
       "title": "OpenAI Codex Coding AI Product – Gradio UI on Hugging Face Spaces Deployment",
       "type": "story",
@@ -44,64 +94,11 @@
       "by": "katakatana",
       "descendants": 0,
       "id": 28598066,
-      "score": 2,
+      "score": 4,
       "text": "<p><pre><code>  #!&#x2F;usr&#x2F;bin&#x2F;env2 punkif *!type=text&#x2F;plain* *!encoding=utf-8&#x2F;unicode*\n\n  io = load! {[_punkif]&#x2F;lang&#x2F;base}\n\n  io.say {Hello world!} *\n\n  user.name: {Jack R. Hacker}\n  io.say {Welcome [user.name], nice to meet you.} *\n\n  while not [user.callsign] -&gt; ! {\n      user.callsign = io.ask {What&#x27;s your callsign? &gt; }\n\n      if not [user.callsign] -&gt; ! {\n          io.say {Please enter thy callsign, lol!}\n      }\n  }\n\n  user.dir = {&#x2F;home&#x2F;[user.callsign]}\n\n  ret = ! mkdir -p [user.dir]\n\n  if [ret] not {0} -&gt; io.say {\n          mkdir -p [user.dir] FAILED!\n      } *\n\n  else -&gt; io.say {\n          SUCCESS, [user.callsign]! your home dir was created at [user.dir]\n       } *\n\n  # objects&#x2F;dicts (&quot;a&quot; is created automagically)\n  a.thing = {\n\n  } \n\n  name = class ! [type] {\n    first: {default first name}\n    last:  {default last name}\n\n    full = $ -&gt; {[$.last], [$.first]}\n\n    __init__ = $ (first, last) -&gt; {\n        $.first: [first]\n        $.last: [last]\n    }\n  }\n\n  person = class ! [name] {\n    age: ` -1\n\n    __init__ = $ (first, last, age) -&gt; {\n        $.super [first] [last]\n        $.age: [age]\n    }\n\n    breathe = $ -&gt; io.say {[full] breathes...} *\n  }\n\n  john = person {John} {Lennon} ` 40\n\n  john.breathe *\n</code></pre>\nBasically I want to make for python what typescript made for javascript",
       "time": 1632167470,
       "title": "Syntax Obsession",
       "type": "story"
-    },
-    {
-      "by": "andyxor",
-      "descendants": 0,
-      "id": 28598043,
-      "score": 1,
-      "time": 1632167377,
-      "title": "Elon Musk mocks Biden after SpaceX completes first all-civilian mission",
-      "type": "story",
-      "url": "https://www.cnbc.com/2021/09/19/elon-musk-mocks-president-biden-after-spacex-completes-first-all-civilian-mission.html"
-    },
-    {
-      "by": "nitramm",
-      "descendants": 0,
-      "id": 28598041,
-      "score": 1,
-      "time": 1632167365,
-      "title": "Researchers Find Malware Hiding in Windows Subsystem for Linux",
-      "type": "story",
-      "url": "https://www.tomshardware.com/news/researchers-find-windows-subsystem-linux-malware"
-    },
-    {
-      "by": "type0",
-      "descendants": 0,
-      "id": 28598003,
-      "score": 2,
-      "time": 1632167210,
-      "title": "This implanted microchip may one day control your sleep",
-      "type": "story",
-      "url": "https://www.freethink.com/technology/a-microchip-may-revolutionize-how-we-treat-diseases"
-    },
-    {
-      "by": "sea6ear",
-      "descendants": 0,
-      "id": 28597994,
-      "score": 2,
-      "time": 1632167184,
-      "title": "Emacs Typing Tutor",
-      "type": "story",
-      "url": "https://connorberry.com/2021/08/20/emacs-typing-tutor/"
-    },
-    {
-      "by": "pnoel",
-      "descendants": 1,
-      "id": 28597988,
-      "kids": [
-        28597989
-      ],
-      "score": 1,
-      "time": 1632167167,
-      "title": "Hiring for Systems Engineers",
-      "type": "story",
-      "url": "https://tryfractal.notion.site/Fractal-Job-Board-a39b64712f094c7785f588053fc283a9"
     }
   ]
 }
