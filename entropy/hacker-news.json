@@ -1,6 +1,16 @@
 {
   "stories": [
     {
+      "by": "hhs",
+      "descendants": 0,
+      "id": 28612222,
+      "score": 1,
+      "time": 1632274699,
+      "title": "Daniel Kahneman: How companies can improve their hiring process",
+      "type": "story",
+      "url": "https://www.wsj.com/articles/daniel-kahneman-how-companies-can-improve-their-hiring-process-11632225600"
+    },
+    {
       "by": "leptoniscool",
       "descendants": 0,
       "id": 28612203,
@@ -32,10 +42,13 @@
     },
     {
       "by": "m_baranowski",
-      "descendants": 0,
+      "descendants": 1,
       "id": 28612189,
+      "kids": [
+        28612252
+      ],
       "score": 1,
-      "text": "DraftJS, Slate, ProseMirror, Quill and more - they all use their model for abstracting DOM (unfortunately I don&#x27;t rememeber what was the exact reasoning; Quill has some article on that &lt;https:&#x2F;&#x2F;quilljs.com&#x2F;docs&#x2F;delta&gt;)<p>I can see now the surge of new RTEs that simply use contenteditable and dom. Is it that isssue from the past that led those libs above to use abstractions - are not valid anymore?<p>Examples:\n&lt;https:&#x2F;&#x2F;atata.io&#x2F;examples&#x2F;custom-rich-text-editor-based-on-contenteditable&#x2F;&gt;;\n&lt;http:&#x2F;&#x2F;suneditor.com&#x2F;sample&#x2F;index.html&gt;;\n&lt;https:&#x2F;&#x2F;alex-d.github.io&#x2F;Trumbowyg&gt;;\n&lt;https:&#x2F;&#x2F;zenpen.io&gt;",
+      "text": "DraftJS, Slate, ProseMirror, Quill and more - they all use their model for abstracting DOM (unfortunately I don&#x27;t rememeber what was the exact reasoning; Quill has some article on that https:&#x2F;&#x2F;quilljs.com&#x2F;docs&#x2F;delta)<p>I can see now the surge of new RTEs that simply use contenteditable and dom. Is it that isssue from the past that led those libs above to use abstractions - are not valid anymore?<p>Examples:\nhttps:&#x2F;&#x2F;atata.io&#x2F;examples&#x2F;custom-rich-text-editor-based-on-contenteditable&#x2F;;\nhttp:&#x2F;&#x2F;suneditor.com&#x2F;sample&#x2F;index.html;\nhttps:&#x2F;&#x2F;alex-d.github.io&#x2F;Trumbowyg;\nhttps:&#x2F;&#x2F;zenpen.io;",
       "time": 1632274311,
       "title": "New rich text editors use native contenteditable without abstractions over DOM",
       "type": "story"
@@ -65,8 +78,11 @@
     },
     {
       "by": "infodocket",
-      "descendants": 0,
+      "descendants": 1,
       "id": 28612148,
+      "kids": [
+        28612230
+      ],
       "score": 1,
       "time": 1632273908,
       "title": "McDonald's Happy Meal Toys to Go Green Globally by 2025",
@@ -92,16 +108,6 @@
       "title": "Lithuania says throw away Chinese phones due to censorship concerns",
       "type": "story",
       "url": "https://www.reuters.com/business/media-telecom/lithuania-says-throw-away-chinese-phones-due-censorship-concerns-2021-09-21/"
-    },
-    {
-      "by": "mediawatch",
-      "descendants": 0,
-      "id": 28612082,
-      "score": 1,
-      "time": 1632273410,
-      "title": "Attackers use old Windows ColdFusion server to spread Cring ransomware",
-      "type": "story",
-      "url": "https://itwire.com/security/attackers-use-old-windows-coldfusion-server-to-spread-cring-ransomware.html"
     }
   ]
 }
