@@ -1,10 +1,93 @@
 {
   "stories": [
     {
+      "by": "rpgbr",
+      "descendants": 0,
+      "id": 28628268,
+      "score": 1,
+      "time": 1632400665,
+      "title": "Brazilian streaming doesn't pay a dime to artists – and they are fine with this",
+      "type": "story",
+      "url": "https://labsnews.com/en/articles/business/brazilian-half-streaming-half-record-label-platform-sua-musica/"
+    },
+    {
+      "by": "staccatomeasure",
+      "descendants": 0,
+      "id": 28628265,
+      "score": 1,
+      "time": 1632400628,
+      "title": "Lynyrd Skynyrd Plane Crash",
+      "type": "story",
+      "url": "https://en.wikipedia.org/wiki/Lynyrd_Skynyrd_plane_crash"
+    },
+    {
+      "by": "binarymax",
+      "descendants": 0,
+      "id": 28628260,
+      "score": 1,
+      "time": 1632400583,
+      "title": "Nrtsearch: Yelp’s Fast, Scalable and Cost Effective Search Engine",
+      "type": "story",
+      "url": "https://engineeringblog.yelp.com/2021/09/nrtsearch-yelps-fast-scalable-and-cost-effective-search-engine.html"
+    },
+    {
+      "by": "perfunctory",
+      "descendants": 0,
+      "id": 28628242,
+      "score": 1,
+      "time": 1632400455,
+      "title": "Russia forest fire damage worst since records began",
+      "type": "story",
+      "url": "https://www.theguardian.com/world/2021/sep/22/russia-forest-fire-damage-worst-since-records-began-says-greenpeace"
+    },
+    {
+      "by": "Tomte",
+      "descendants": 0,
+      "id": 28628228,
+      "score": 1,
+      "time": 1632400385,
+      "title": "Bond Director Cary Fukunaga on Filming Daniel Craig’s ‘No Time to Die’",
+      "type": "story",
+      "url": "https://www.hollywoodreporter.com/movies/movie-features/bond-director-cary-fukunaga-no-time-to-die-1235017724/"
+    },
+    {
+      "by": "gmays",
+      "descendants": 0,
+      "id": 28628223,
+      "score": 1,
+      "time": 1632400357,
+      "title": "Johnson and Johnson says additional dose boosts Covid vaccine efficacy",
+      "type": "story",
+      "url": "https://www.statnews.com/2021/09/21/johnson-johnson-says-additional-dose-boosts-covid-vaccine-efficacy/"
+    },
+    {
+      "by": "ecmascript",
+      "descendants": 0,
+      "id": 28628217,
+      "score": 1,
+      "time": 1632400314,
+      "title": "Company Towns Are Back Now They're “Innovation Zones”",
+      "type": "story",
+      "url": "https://odysee.com/@joshuafluke:5/company-towns-are-back!-now-they%27re:b"
+    },
+    {
+      "by": "juliensalinas",
+      "descendants": 0,
+      "id": 28628216,
+      "kids": [
+        28628231
+      ],
+      "score": 1,
+      "text": "Hello all,<p>We&#x27;ve spent quite some time benchmarking the best fine-tuning techniques for GPT-J at NLP Cloud (https:&#x2F;&#x2F;nlpcloud.io). Finding the best solution was not straightforward and we had to look at things like speed, server costs, ease of development, accuracy of the fine-tuned model... It took time but we ended up with a nice setup (and we are now officially proposing GPT-J fine-tuning + automatic deployment on our platform).<p>Here are our key takeaways:<p>- The best methodology seems to be the one from the Mesh Transformer Jax team: https:&#x2F;&#x2F;github.com&#x2F;kingoflolz&#x2F;mesh-transformer-jax&#x2F;blob&#x2F;master&#x2F;howto_finetune.md\n- Fine-tuning on GPU is not ideal. Even several GPUs used in parallel with Deepspeed can be very slow. We used 4 GPUs Tesla T4 in parallel, and it took 1h30 to only compute our first checkpoint (+ 80GB of RAM used...), for a training dataset made up of 20k examples. Maybe a GPU A100 would be worth a try.\n- Fine-tuning on TPU is very efficient but it takes a TPU v3 because TPUs v2 are running out of memory. It takes around 15mns, for a training dataset made up of 20k examples, which is really awesome.\n- The overall process is not straightforward as it takes several kind of conversions (converting the datasets to the right format, making a slim version of the model, converting the weights to Transformers...)<p>In the end this is worth the effort, because combining fine-tuning and few-shot learning makes GPT-J very impressive and suited for all sorts of use cases.<p>If you guys have different feedbacks about GPT-J fine-tuning, please don&#x27;t hesitate to comment, I would love to have your opinion.<p>Hope you found the above useful!",
+      "time": 1632400312,
+      "title": "Fine-tuning GPT-J: key takeaways",
+      "type": "story"
+    },
+    {
       "by": "mustyman",
       "descendants": 0,
       "id": 28628212,
-      "score": 1,
+      "score": 2,
       "time": 1632400272,
       "title": "Reinforcement learning used in Covid-19 border testing – new Nature paper",
       "type": "story",
@@ -19,89 +102,6 @@
       "title": "The Chukudu is a cargo scooter built from wood",
       "type": "story",
       "url": "https://www.notechmagazine.com/2021/07/the-chukudu-cargo-scooter-wood.html"
-    },
-    {
-      "by": "giuliomagnifico",
-      "descendants": 0,
-      "id": 28628196,
-      "score": 1,
-      "time": 1632400099,
-      "title": "EU to impose universal phone charger, in blow to Apple",
-      "type": "story",
-      "url": "https://news.yahoo.com/eu-impose-universal-phone-charger-113142754.html"
-    },
-    {
-      "by": "recvonline",
-      "descendants": 0,
-      "id": 28628194,
-      "score": 2,
-      "time": 1632400091,
-      "title": "Pulling the Plug on E-Waste",
-      "type": "story",
-      "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_21_4613"
-    },
-    {
-      "by": "recvonline",
-      "descendants": 0,
-      "id": 28628186,
-      "score": 1,
-      "time": 1632400045,
-      "title": "EU about to pass USB-C law",
-      "type": "story",
-      "url": "https://www.theverge.com/2021/9/23/22626723/eu-commission-universal-charger-usb-c-micro-lightning-connector-smartphones"
-    },
-    {
-      "by": "ar2808",
-      "descendants": 0,
-      "id": 28628175,
-      "score": 2,
-      "time": 1632399960,
-      "title": "Mistakes to avoid before a product launch",
-      "type": "story",
-      "url": "https://uxdesign.cc/mistakes-to-avoid-before-a-product-launch-feff447a1f0"
-    },
-    {
-      "by": "SirLJ",
-      "descendants": 0,
-      "id": 28628171,
-      "score": 1,
-      "time": 1632399947,
-      "title": "Lucy’s wild ride to Jupiter’s orbit but not to Jupiter",
-      "type": "story",
-      "url": "https://www.syfy.com/syfywire/lucys-wild-ride-to-jupiters-orbit-but-not-to-jupiter"
-    },
-    {
-      "by": "_wldu",
-      "descendants": 0,
-      "id": 28628167,
-      "score": 1,
-      "time": 1632399904,
-      "title": "There Are No Secrets (James Mickens)",
-      "type": "story",
-      "url": "https://www.youtube.com/watch?v=mDwUJa4_IJE"
-    },
-    {
-      "by": "nradov",
-      "descendants": 0,
-      "id": 28628160,
-      "score": 1,
-      "time": 1632399862,
-      "title": "Covid-19 will just end up causing a cold, says vaccine creator Sarah Gilbert",
-      "type": "story",
-      "url": "https://www.thetimes.co.uk/article/covid-19-will-just-end-up-causing-a-cold-says-oxford-vaccine-creator-sarah-gilbert-npkds93zd"
-    },
-    {
-      "by": "iamAy0",
-      "descendants": 1,
-      "id": 28628156,
-      "kids": [
-        28628164
-      ],
-      "score": 1,
-      "text": "This question showed up while debating whether a configuration file with public application settings and secret values should be stored in Hashicorp&#x27;s Vault as a secret.",
-      "time": 1632399845,
-      "title": "Ask HN: Is a file with both public and secret content a secret or not?",
-      "type": "story"
     }
   ]
 }
