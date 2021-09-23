@@ -1,9 +1,45 @@
 {
   "stories": [
     {
-      "by": "overwatch02",
+      "by": "1penny42cents",
       "descendants": 0,
+      "id": 28626158,
+      "score": 1,
+      "text": "In a previous project we went with SNS&#x2F;SQS for our event bus, because of simplicity. I wondered towards the end if Kinesis would have been better.<p>The main reason in my mind being one less API&#x2F;component, ordered streams, and replayability. SNS&#x2F;SQS made it a bit painful to replay events. The counterpoint seems that Kinesis has some complexity around scalability that you might not need to worry about, depending on the usage.<p>But I&#x27;ve never used Kafka&#x2F;Kinesis so I can&#x27;t say. What are your thoughts?",
+      "time": 1632381595,
+      "title": "Ask HN: When would you go with Kinesis over SNS/SQS and why?",
+      "type": "story"
+    },
+    {
+      "by": "pehta",
+      "descendants": 1,
+      "id": 28626150,
+      "kids": [
+        28626152
+      ],
+      "score": 1,
+      "time": 1632381499,
+      "title": "Summarization of Longer Documents",
+      "type": "story",
+      "url": "https://xeno.report/"
+    },
+    {
+      "by": "Hard_Space",
+      "descendants": 0,
+      "id": 28626137,
+      "score": 1,
+      "time": 1632381440,
+      "title": "TranslateLocally: Blazing-fast translation running on the local CPU",
+      "type": "story",
+      "url": "https://arxiv.org/abs/2109.10194"
+    },
+    {
+      "by": "overwatch02",
+      "descendants": 1,
       "id": 28626065,
+      "kids": [
+        28626131
+      ],
       "score": 1,
       "time": 1632380876,
       "title": "Show HN: A Tool to Rapidly Prototype and Build Webpages Using Tailwind CSS",
@@ -70,44 +106,11 @@
       "kids": [
         28625983
       ],
-      "score": 2,
+      "score": 3,
       "time": 1632380117,
       "title": "Do cells use passwords in state transitions, or signaling sometimes encrypted?",
       "type": "story",
       "url": "https://pubmed.ncbi.nlm.nih.gov/31175621/"
-    },
-    {
-      "by": "d3nj4l",
-      "descendants": 1,
-      "id": 28625969,
-      "kids": [
-        28625978
-      ],
-      "score": 1,
-      "time": 1632380103,
-      "title": "The Google Drive Slack returns results into documents you don’t have access to",
-      "type": "story",
-      "url": "https://twitter.com/_saagarjha/status/1440878916755857412"
-    },
-    {
-      "by": "panic",
-      "descendants": 0,
-      "id": 28625968,
-      "score": 1,
-      "time": 1632380093,
-      "title": "V6 pwd – deciphering old code",
-      "type": "story",
-      "url": "https://text.causal.agency/025-v6-pwd.txt"
-    },
-    {
-      "by": "martinlaz",
-      "descendants": 0,
-      "id": 28625963,
-      "score": 1,
-      "time": 1632380075,
-      "title": "Bitcoin's growing e-waste problem",
-      "type": "story",
-      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0921344921005103"
     }
   ]
 }
