@@ -1,6 +1,92 @@
 {
   "stories": [
     {
+      "by": "niklasbuschmann",
+      "descendants": 0,
+      "id": 28636032,
+      "score": 1,
+      "text": "I recently asked myself whether the argument behind the Kelly criterion - that optimising the geometric rather than the arithmetic mean is more appropriate for repeated bets - can be applied to the St. Petersburg paradox.<p>Assuming one only has enough money to pay for one round of St. Petersburg with a fee $X, the highest price one should be willing to pay would then be the highest $X still giving a &gt; 1 geometric mean:<p>(2&#x2F;X)^0.5 * (4&#x2F;X)^0.25 * (8&#x2F;X)^0.125 * (16&#x2F;X)^0.0625 * ...<p>Resulting in a max fee of $4. Now if one had enough money to play two rounds one can again take the probabilities for the possible outcomes ($2+$2, $2+$4, $2+$8, $4+$4, etc.) and calculate the geometric mean. The same applies for any number of rounds, one just needs to swap the geometric distribution with a negative binomial distribution, giving a different max fee $X depending on the money available to one.<p>Of course, when playing sequentially, the money paid out by the game can be used to fund more rounds, but this should only prolong the times one can play before going bankrupt by a constant factor, leaving the argument intact.<p>Any thoughts on this?",
+      "time": 1632433920,
+      "title": "Ask HN: The St. Petersburg paradox and optimising the geometric mean",
+      "type": "story"
+    },
+    {
+      "by": "bkohlmann",
+      "descendants": 0,
+      "id": 28636010,
+      "score": 1,
+      "time": 1632433853,
+      "title": "When the Son of Man comes, will he find faith on earth?",
+      "type": "story",
+      "url": "https://www.amazon.com/gp/customer-reviews/R3PSWXNTHIHYNB/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=1984878530"
+    },
+    {
+      "by": "type0",
+      "descendants": 0,
+      "id": 28636002,
+      "score": 1,
+      "time": 1632433823,
+      "title": "IMF report suggests credit scores could soon be based on web browsing history",
+      "type": "story",
+      "url": "https://reclaimthenet.org/imf-report-suggests-credit-score-browsing-history/"
+    },
+    {
+      "by": "amanjaincorp",
+      "descendants": 1,
+      "id": 28635987,
+      "kids": [
+        28635988
+      ],
+      "score": 1,
+      "time": 1632433758,
+      "title": "Recess: Cultivate more genuine connections at work",
+      "type": "story",
+      "url": "https://www.teamrecess.com/our_story/"
+    },
+    {
+      "by": "vanilla-almond",
+      "descendants": 0,
+      "id": 28635976,
+      "score": 1,
+      "time": 1632433710,
+      "title": "Survey of 1000 children aged 5-16 reveals 8% are vegan, 13% vegetarian",
+      "type": "story",
+      "url": "https://www.bbc.co.uk/newsround/58653757"
+    },
+    {
+      "by": "bryanrasmussen",
+      "descendants": 0,
+      "id": 28635974,
+      "score": 1,
+      "time": 1632433706,
+      "title": "DeleteInstacart: A Message from Instacart Workers",
+      "type": "story",
+      "url": "https://gigworkerscollective.medium.com/deleteinstacart-b1e138ed88f3"
+    },
+    {
+      "by": "ilamont",
+      "descendants": 0,
+      "id": 28635973,
+      "score": 1,
+      "time": 1632433705,
+      "title": "Facebook recommends spending your way through its measurement problems",
+      "type": "story",
+      "url": "https://digiday.com/marketing/the-rundown-facebook-recommends-spending-your-way-through-its-measurement-problems/"
+    },
+    {
+      "by": "tomohawk",
+      "descendants": 1,
+      "id": 28635966,
+      "kids": [
+        28636011
+      ],
+      "score": 3,
+      "time": 1632433651,
+      "title": "ACLU Celebrates Ginsburg’s Legacy by Editing Out Her Actual Words as Offensive",
+      "type": "story",
+      "url": "https://jonathanturley.org/2021/09/23/aclu-celebrates-ginsburgs-legacy-by-editing-out-her-actual-words-as-offensive/"
+    },
+    {
       "by": "escot",
       "descendants": 0,
       "id": 28635929,
@@ -14,94 +100,11 @@
       "by": "oa2727",
       "descendants": 0,
       "id": 28635914,
-      "score": 1,
+      "score": 2,
       "time": 1632433421,
       "title": "I'll curate a reading list for you, based on the topic you'll give me. For FREE",
       "type": "story",
       "url": "https://zinc-anorak-a5f.notion.site/Curated-reading-list-especially-for-you-174d07f359394459bc2219218e8c5248"
-    },
-    {
-      "by": "jzachj",
-      "descendants": 0,
-      "id": 28635890,
-      "score": 1,
-      "text": "I am currently using Node-Red for automating a large number of processes at work. It&#x27;s basically a quickly prototyped BE that has proved to be very effective at what we want it to do. The one thing it doesn&#x27;t do - automated testing.<p>Without testing, we are seeing silly issues caused by forgetting simple things like re-enabling nodes, accidentally deploying things that are broken, etc. \nWe would like to create a CI pipeline in the future, but without this testing piece of the puzzle, I don&#x27;t think it is a possibility.<p>Node-Red does have a test option (https:&#x2F;&#x2F;github.com&#x2F;node-red&#x2F;node-red-node-test-helper), but it is not very robust, and it&#x27;s currently in beta. It is very frustrating to develop tests using this package add-on. The tests are also subject to breaking very easily if the id of a node that you are testing ever changes (say someone deleted and replaced the node with the same node).<p>Are there any other low code solutions that we can use to manage these internal processes that have robust testing for developing a CI pipeline?",
-      "time": 1632433336,
-      "title": "ISO Low Code solutions with decent testing options",
-      "type": "story"
-    },
-    {
-      "by": "radiance",
-      "descendants": 0,
-      "id": 28635877,
-      "score": 1,
-      "time": 1632433284,
-      "title": "Server-Side WASM: Today and Tomorrow [video]",
-      "type": "story",
-      "url": "https://www.youtube.com/watch?v=V41x3Tv6BWY"
-    },
-    {
-      "by": "haxor7",
-      "descendants": 0,
-      "id": 28635869,
-      "score": 1,
-      "time": 1632433250,
-      "title": "The indie maker guide to validating product ideas",
-      "type": "story",
-      "url": "https://gummysearch.com/insights/idea-validation/"
-    },
-    {
-      "by": "S_kirsch",
-      "descendants": 0,
-      "id": 28635847,
-      "score": 1,
-      "time": 1632433148,
-      "title": "Snykz – First social trading app",
-      "type": "story",
-      "url": "https://www.snykz.com/"
-    },
-    {
-      "by": "ChrisArchitect",
-      "descendants": 0,
-      "id": 28635843,
-      "score": 1,
-      "time": 1632433136,
-      "title": "The September 11, 2001 Web Archive: Twenty Years Later",
-      "type": "story",
-      "url": "http:////blogs.loc.gov/thesignal/2021/09/9-11-web-archive-20/"
-    },
-    {
-      "by": "BeetleB",
-      "descendants": 0,
-      "id": 28635813,
-      "score": 2,
-      "time": 1632432988,
-      "title": "Fossil footprints show humans in North America more than 21,000 years ago",
-      "type": "story",
-      "url": "https://www.nbcnews.com/science/science-news/fossil-footprints-show-humans-north-america-21000-years-ago-rcna2169"
-    },
-    {
-      "by": "benryon",
-      "descendants": 0,
-      "id": 28635790,
-      "score": 2,
-      "time": 1632432878,
-      "title": "Microsoft and an Army of Tiny Telecoms Are Part of a Plan to Wire Rural America",
-      "type": "story",
-      "url": "https://www.bloomberg.com/news/features/2021-09-22/microsoft-google-part-of-plan-to-get-rural-america-high-speed-internet"
-    },
-    {
-      "by": "ewhanley",
-      "descendants": 1,
-      "id": 28635760,
-      "kids": [
-        28635861
-      ],
-      "score": 6,
-      "time": 1632432736,
-      "title": "Tesla Fans Troll Repair Pro for Fixing Model S for $15,000 Less Than Tesla",
-      "type": "story",
-      "url": "https://www.vice.com/en/article/3aqgzn/tesla-fans-troll-repair-pro-for-fixing-model-s-for-dollar15000-less-than-tesla"
     }
   ]
 }
