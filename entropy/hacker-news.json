@@ -1,5 +1,70 @@
 {
   "stories": [
+    null,
+    null,
+    {
+      "by": "gmays",
+      "descendants": 0,
+      "id": 28644658,
+      "score": 1,
+      "time": 1632501076,
+      "title": "UC reactor converts carbon dioxide to fuel to address climate change",
+      "type": "story",
+      "url": "https://www.uc.edu/news/articles/2021/09/uc-reactor-converts-carbon-dioxide-to-fuel-to-address-climate-change.html"
+    },
+    {
+      "by": "readams",
+      "descendants": 0,
+      "id": 28644655,
+      "score": 1,
+      "time": 1632501057,
+      "title": "Bitcoin outlawed in China as country bans all cryptocurrency transactions",
+      "type": "story",
+      "url": "https://arstechnica.com/tech-policy/2021/09/bitcoin-outlawed-in-china-as-country-bans-all-cryptocurrency-transactions/"
+    },
+    {
+      "by": "medtner",
+      "descendants": 0,
+      "id": 28644653,
+      "score": 1,
+      "time": 1632501046,
+      "title": "Understanding Startup Offers",
+      "type": "story",
+      "url": "https://withcompound.com/manual-company-equity/understanding-startup-offers"
+    },
+    {
+      "by": "mfilion",
+      "descendants": 0,
+      "id": 28644649,
+      "score": 1,
+      "time": 1632501033,
+      "title": "Panfrost achieves OpenGL ES 3.1 conformance on Mali-G52",
+      "type": "story",
+      "url": "https://www.collabora.com/news-and-blog/news-and-events/panfrost-achieves-opengl-es-3.1-conformance-on-mali-g52.html"
+    },
+    {
+      "by": "tosh",
+      "descendants": 0,
+      "id": 28644610,
+      "score": 1,
+      "time": 1632500887,
+      "title": "Robots replace humans as labour shortages bite",
+      "type": "story",
+      "url": "https://www.ft.com/content/34b831a5-f6d9-4438-924d-b2999a714663"
+    },
+    {
+      "by": "thomgo",
+      "descendants": 1,
+      "id": 28644592,
+      "kids": [
+        28644642
+      ],
+      "score": 1,
+      "text": "It seems that every software development job these days is remote. I&#x27;m early in my career and I&#x27;m finding it very difficult to connect with my colleagues. Do you have any recommendations for someone looking for more in person interactions?",
+      "time": 1632500809,
+      "title": "Ask HN: Where should I work if I want to work in person",
+      "type": "story"
+    },
     {
       "by": "DocFeind",
       "descendants": 0,
@@ -19,86 +84,6 @@
       "title": "L.A. County sheriff’s unit accused of targeting political enemies, vocal critics",
       "type": "story",
       "url": "https://www.latimes.com/california/story/2021-09-23/sheriff-alex-villanueva-secret-police"
-    },
-    {
-      "by": "evanhuang8",
-      "descendants": 0,
-      "id": 28644527,
-      "score": 1,
-      "time": 1632500515,
-      "title": "A technique to convert CO2 to Starch without photosynthesis has been discovered",
-      "type": "story",
-      "url": "https://www.eurekalert.org/news-releases/929369"
-    },
-    {
-      "by": "pixelbeat__",
-      "descendants": 0,
-      "id": 28644525,
-      "score": 2,
-      "text": "A new major release, with these significant changes:<p><pre><code>  - cp has changed how it handles data\n    - enables CoW by default (through FICLONE ioctl),\n    - uses copy offload where available (through copy_file_range),\n    - detects holes differently (though SEEK_HOLE)\n    - This also applies to mv and install.\n\n  - utilities are more tuned to the hardware available\n    - wc uses avx2 instructions to count lines\n    - cksum uses pclmul instructions for --algorithm=crc\n      - Other digest tunings remain delegated to libcrypto\n\n  - More amalgamation of utilities\n    - cksum now supports the -a option to select any digest.\n    - This is the preferred interface, rather than sha*sum etc.\n    - This is similar to the amalgamation of encoding utilities\n      introduced in the basenc command in v8.31.\n</code></pre>\nDetails at\nhttps:&#x2F;&#x2F;lists.gnu.org&#x2F;archive&#x2F;html&#x2F;coreutils-announce&#x2F;2021-09&#x2F;msg00000.html",
-      "time": 1632500512,
-      "title": "GNU coreutils 9 is released",
-      "type": "story"
-    },
-    {
-      "by": "LinuxBender",
-      "descendants": 0,
-      "id": 28644521,
-      "score": 1,
-      "time": 1632500495,
-      "title": "NASA's Got a New, Big Telescope. It Could Find Hints of Life on FarFlung Planets",
-      "type": "story",
-      "url": "https://text.npr.org/1039915145"
-    },
-    {
-      "by": "have_faith",
-      "descendants": 0,
-      "id": 28644470,
-      "score": 3,
-      "time": 1632500285,
-      "title": "History of The Atlantic Cable and Undersea Communications",
-      "type": "story",
-      "url": "https://atlantic-cable.com/"
-    },
-    {
-      "by": "todsacerdoti",
-      "descendants": 0,
-      "id": 28644463,
-      "score": 1,
-      "time": 1632500242,
-      "title": "OpenBSD on the Vortex86DX CPU",
-      "type": "story",
-      "url": "https://www.cambus.net/openbsd-on-the-vortex86dx-cpu/"
-    },
-    {
-      "by": "mooreds",
-      "descendants": 0,
-      "id": 28644448,
-      "score": 1,
-      "time": 1632500193,
-      "title": "Why DevSecOps Is Just a Fancy Acronym for Kubernetes Service Ownership",
-      "type": "story",
-      "url": "https://www.fairwinds.com/blog/devsecops-fancy-acronym-kubernetes-service-ownership"
-    },
-    {
-      "by": "cookingoils",
-      "descendants": 0,
-      "id": 28644446,
-      "score": 1,
-      "time": 1632500185,
-      "title": "Every website I've created from 2016-2021 [video]",
-      "type": "story",
-      "url": "https://www.youtube.com/watch?v=pnXBV5eM3dQ"
-    },
-    {
-      "by": "slowhand09",
-      "descendants": 0,
-      "id": 28644432,
-      "score": 2,
-      "time": 1632500124,
-      "title": "How vivid is your mind's eye?",
-      "type": "story",
-      "url": "https://aphantasia.com/vviq/"
     }
   ]
 }
