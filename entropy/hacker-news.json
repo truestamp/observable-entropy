@@ -1,6 +1,16 @@
 {
   "stories": [
     {
+      "by": "ed1ted",
+      "descendants": 0,
+      "id": 28659312,
+      "score": 1,
+      "text": "I have a need for calling a function hosted on aws lambda based on dynamic interval. The function usually needs to be called for few hours a day to do some data processing. Because I’m calling external services, sometimes I would call this function on 5 minute interval or could be longer if I run into rate limit issues. So I’m thinking of writing a service which would allow the endpoints to pass back the time (eg 5m or 1h) as a response header to define when to call the function again.<p>I know it’s very specific use case but is this something that can be extended for other uses cases? Trying to figure out if it’s worth building a micro SaaS",
+      "time": 1632645053,
+      "title": "Ask HN: Dynamic Interval Cron",
+      "type": "story"
+    },
+    {
       "by": "doppp",
       "descendants": 0,
       "id": 28659281,
@@ -95,16 +105,6 @@
       "title": "Edge.org's Annual Questions",
       "type": "story",
       "url": "https://www.edge.org/annual-questions"
-    },
-    {
-      "by": "kesor",
-      "descendants": 0,
-      "id": 28659076,
-      "score": 3,
-      "time": 1632641238,
-      "title": "Pgloader: A High-Speed PostgreSQL Swiss Army Knife, Written in Lisp",
-      "type": "story",
-      "url": "https://pgloader.io/"
     }
   ]
 }
