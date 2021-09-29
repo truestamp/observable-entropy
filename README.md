@@ -292,12 +292,24 @@ independently verifiable after the fact.
 
 One of the most interesting aspects of this system is the ability for anyone to
 submit their own random entropy right up to the point when entropy is collected.
-Any user, with a simple post request, can submit one or more 32 byte hex strings
-(64 characters) to a list of user provided entropy. This list will be stored in
-the `user-entropy.json` file when it is collected and will contain each of the
-random values submitted for this run. At the end of each entropy collection run,
-the list will be automatically emptied of all values and you can feel free to
-submit again.
+Any user, with a simple `POST` request, can append one or more 32 byte hex
+strings (64 characters) to a list of user provided entropy. This list will be
+stored in the `user-entropy.json` file when it is collected and will contain
+each of the random values submitted for this run.
+
+Each entry submitted will auto-expire at a random time interval between 10 and
+60 minutes and may be included in multiple collection runs.
+
+To assuage concerns about user-provided entropy being used to 'game' the system
+and achieve a specific outcome (likely impossible, unless SHA-256 is broken)
+there is a system in place to mitigate this. Each entry is assigned a
+[ULID](https://github.com/ulid/spec) which is used as a storage key. When you
+submit an entropy hash it is concatenated with that ULID and the random
+expiration time value and hashed with SHA-256. This hash is then also added to
+the list of entropy entries. So this means that every hash submitted is
+accompanied by a new hash of a millisecond accurate timestamp and a
+cryptographically random 128 bit value. This mixes in completely unpredictable
+values which counters any attempt to guide the output entropy hash.
 
 This capability was used when the `Genesis` commit was made for this repository.
 The user provided entropy fields were seeded with the current value of the
@@ -332,14 +344,25 @@ next entropy collection run when you can confirm it has been included in the
 `user-entropy.json` file.
 
 ```sh
-http -v POST https://entropy.truestamp.com/entries entropy=bdd1d11b1ab7569c40e07a61b5b6071d80efcf5db176d8ab172e15d5566cb342
+$ http -v POST https://entropy.truestamp.com/entries entropy=bdd1d11b1ab7569c40e07a61b5b6071d80efcf5db176d8ab172e15d5566cb342
+
+{
+    "entropy": "bdd1d11b1ab7569c40e07a61b5b6071d80efcf5db176d8ab172e15d5566cb342",
+    "expiration": 1632931916,
+    "key": "entry::01FGS4A0YQNT5YGX9HPX0H352C"
+}
 ```
 
 You can confirm the list of entropy values prepared for the next entropy
 collection with a `GET` request:
 
 ```sh
-http https://entropy.truestamp.com/entries
+$ http https://entropy.truestamp.com/entries
+
+[
+    "bdd1d11b1ab7569c40e07a61b5b6071d80efcf5db176d8ab172e15d5566cb342",
+    "7fc69e49897a6a4e7ce8d7de9158c3a9ae8aa413516facf1f504703c739cdcf8"
+]
 ```
 
 ## Observable Entropy Protocol
