@@ -1,6 +1,66 @@
 {
   "stories": [
     {
+      "by": "mooreds",
+      "descendants": 0,
+      "id": 28694885,
+      "score": 1,
+      "text": "I was looking at writing a guide to migrate to another identity provider from AWS Cognito and was surprised to learn that there is no bulk export functionality containing passwords.<p>I found this doc, which might be helpful for a user by user migration: https:&#x2F;&#x2F;docs.aws.amazon.com&#x2F;cognito&#x2F;latest&#x2F;developerguide&#x2F;user-pool-lambda-migrate-user.html You could run this and create users in the new IdP.<p>I found this: https:&#x2F;&#x2F;docs.aws.amazon.com&#x2F;solutions&#x2F;latest&#x2F;cognito-user-profiles-export-reference-architecture&#x2F;cognito-user-profiles-export-reference-architecture.pdf which is good for profile data, but explicitly excludes passwords. I suppose you could bulk migrate everyone using this approach and then require everyone to reset their password?<p>How do people migrate their user data off of AWS Cognito?<p>Full disclosure, I work for a Cognito competitor (link in my profile) and the doc I&#x27;m working on will be published on their site.",
+      "time": 1632928795,
+      "title": "Ask HN: How do you migrate off of Cognito?",
+      "type": "story"
+    },
+    {
+      "by": "nappy-doo",
+      "descendants": 0,
+      "id": 28694877,
+      "score": 1,
+      "time": 1632928771,
+      "title": "Neural Networks for Chess",
+      "type": "story",
+      "url": "https://github.com/asdfjkl/neural_network_chess"
+    },
+    {
+      "by": "1cvmask",
+      "descendants": 0,
+      "id": 28694876,
+      "score": 1,
+      "time": 1632928771,
+      "title": "The most dangerous man in the world",
+      "type": "story",
+      "url": "https://www.theguardian.com/lifeandstyle/1999/nov/06/weekend.kevintoolis"
+    },
+    {
+      "by": "jose_zap",
+      "descendants": 0,
+      "id": 28694864,
+      "score": 1,
+      "time": 1632928712,
+      "title": "Fall-from-Grace: A ready-to-fork functional programming language",
+      "type": "story",
+      "url": "https://www.haskellforall.com/2021/09/fall-from-grace-ready-to-fork.html"
+    },
+    {
+      "by": "NelsonMinar",
+      "descendants": 0,
+      "id": 28694850,
+      "score": 1,
+      "time": 1632928646,
+      "title": "A 23.7M dollar Ethereum transaction fee post mortem",
+      "type": "story",
+      "url": "https://blog.deversifi.com/23-7-million-dollar-ethereum-transaction-fee-post-mortem/"
+    },
+    {
+      "by": "kierantie",
+      "descendants": 0,
+      "id": 28694841,
+      "score": 1,
+      "time": 1632928604,
+      "title": "Chatty – Get expert writing help, on demand",
+      "type": "story",
+      "url": "https://chatty.so"
+    },
+    {
       "by": "PaulHoule",
       "descendants": 0,
       "id": 28694828,
@@ -37,74 +97,11 @@
       "kids": [
         28694777
       ],
-      "score": 1,
+      "score": 2,
       "time": 1632928421,
       "title": "Cheri Software Release for Summer 2021",
       "type": "story",
       "url": "https://www.lightbluetouchpaper.org/2021/09/29/cheri-software-release-for-summer-2021/"
-    },
-    {
-      "by": "yarapavan",
-      "descendants": 0,
-      "id": 28694768,
-      "score": 2,
-      "time": 1632928380,
-      "title": "Crashproofing the Original NoSQL Key-Value Store: An Upgrade for Gdbm Database",
-      "type": "story",
-      "url": "https://queue.acm.org/detail.cfm?id=3487353"
-    },
-    {
-      "by": "rsync",
-      "descendants": 1,
-      "id": 28694750,
-      "kids": [
-        28694836
-      ],
-      "score": 2,
-      "time": 1632928326,
-      "title": "Rsync.net Technical Notes – Q3 2021",
-      "type": "story",
-      "url": "https://www.rsync.net/resources/notes/2021-q3-rsync.net_technotes.html"
-    },
-    {
-      "by": "ColinWright",
-      "descendants": 0,
-      "id": 28694732,
-      "score": 1,
-      "time": 1632928251,
-      "title": "Association Rule Learning",
-      "type": "story",
-      "url": "https://en.wikipedia.org/wiki/Association_rule_learning"
-    },
-    {
-      "by": "iamflimflam1",
-      "descendants": 0,
-      "id": 28694675,
-      "score": 1,
-      "time": 1632928029,
-      "title": "Show HN: DIY ePub Reader",
-      "type": "story",
-      "url": "https://github.com/atomic14/diy-esp32-epub-reader"
-    },
-    {
-      "by": "hackingforfun",
-      "descendants": 0,
-      "id": 28694668,
-      "score": 2,
-      "time": 1632927989,
-      "title": "Mastering the Lightning Network",
-      "type": "story",
-      "url": "https://github.com/lnbook/lnbook"
-    },
-    {
-      "by": "pavanyara",
-      "descendants": 0,
-      "id": 28694630,
-      "score": 1,
-      "time": 1632927868,
-      "title": "Qwik, a Resumable JavaScript Framework",
-      "type": "story",
-      "url": "https://www.infoq.com/news/2021/09/qwik-javascript-framework/"
     }
   ]
 }
