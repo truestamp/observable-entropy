@@ -47,8 +47,8 @@ You have been warned!
 ## TL;DR : Give me the data
 
 If you came here seeking an easy way to use verifiably random data, the public
-API (which is just a Cloudflare worker HTTP proxy into the raw contents of this
-repository) makes it easy.
+API (which is a Cloudflare worker + Workers KV HTTP proxy that gets its data
+from this repo) makes it easy.
 
 ### Latest
 
