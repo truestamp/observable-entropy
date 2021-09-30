@@ -1,9 +1,22 @@
 {
   "stories": [
     {
-      "by": "bradgessler",
+      "by": "not-now",
       "descendants": 0,
+      "id": 28703170,
+      "score": 2,
+      "time": 1632975926,
+      "title": "What the Robot Saw",
+      "type": "story",
+      "url": "https://what-the-robot-saw.com/"
+    },
+    {
+      "by": "bradgessler",
+      "descendants": 1,
       "id": 28703148,
+      "kids": [
+        28703171
+      ],
       "score": 1,
       "text": "What’s the best domain registrar that best fits the follow criteria?<p>- No crazy upsells when buying a domain: GoDaddy is out\n- No bloated domain management UI: I’ve seen some terrible over-engineered JS heavy management UIs)\n- Prices in the cheaper side: I don’t need rock bottom prices, but I’d like to have competitively priced domains\n- Secure: must support MFA via OTP or YubiKey. Sadly iwantmyname doesn’t make the cut because they are still using Authy instead of OTP<p>Bonus would be a domain registrar with a CLI. I’d get payment and everything setup in a browser and check availability and make reservations in a CLI.<p>What are your top picks and recommendations?",
       "time": 1632975633,
@@ -88,19 +101,6 @@
       "text": "I read the popular article a few days ago about the person who works in VR using the Quest2. I was so inspired I bought one to try it out. My initial reaction is that it is SO BLURRY that it is unusable. If you google &quot;oculus quest 2 blurry&quot; you will find thousands of other people saying the same thing. How is this possible? How are some people able to use this and other people find it unusable?<p>Basically there is an incredibly tiny &quot;sweet spot&quot; in the very middle of your view, and everything else is painfully blurry. (note: I&#x27;ve used other VR, never had this issue)",
       "time": 1632974639,
       "title": "Ask HN: Oculus Quest 2",
-      "type": "story"
-    },
-    {
-      "by": "Daegalus",
-      "descendants": 1,
-      "id": 28703045,
-      "kids": [
-        28703151
-      ],
-      "score": 1,
-      "text": "So this comes from the recent Release of New World from Amazon. They have a hard cap of 2k players and 2-3x that per server I&#x27;m queues. They are adding more servers often but usually not enough.<p>Now, I love the MMO genre and have been through many MMO launches, and this isn&#x27;t new to me. But as a DevOps engineer, I wonder how we haven&#x27;t improved server tech to minimize or remove this?<p>I don&#x27;t know much about MMO servers out outside of the one I&#x27;m building for an old MMO, but I feel like a new modern MMO should have some innovations to solve server capacities or so many servers.<p>Why does it feel we have made no progress towards limitless servers, or single world games where you have fleets of servers handling 1 world? Why are we still separating players by servers and not employing phasing to help with clutter of people seen.<p>Or move characters to be disconnected from the world they play on. So I can freely choose the server I play on regardless of my character. Server choice can be more easily changed without starting over.<p>I understand the complexities of latency, server to server syncing, database capacity limits, etc. But I feel like those actually making MMO servers for a living have the expertise to make this better.<p>And then there is Amazon, they have the entire power of AWS to add servers quickly. I don&#x27;t get how they can&#x27;t have scaled extra servers on day 1 and day 2 with some cloudformation, terraform, docker, kubernetes, or whatever is the right tool for quick provisioning. They are adding 20 servers at a time. There are more people queued than playing atm.<p>Just want to start a discussion to see more view points, maybe some expertise of those working on MMO game servers, etc. There is obviously things I&#x27;m not aware of or not taking into account, but I would like to know.",
-      "time": 1632974620,
-      "title": "Ask HN: Why does it feel like MMO server tech hasn't changed?",
       "type": "story"
     }
   ]
