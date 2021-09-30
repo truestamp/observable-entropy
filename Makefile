@@ -39,3 +39,6 @@ verify:
 index:
 	export DENO_DIR=${DENO_DIR} && deno run ${ARGS} ${SRC} --entropy-index
 
+.PHONY: upload
+upload:
+	export DENO_DIR=${DENO_DIR} && deno run ${ARGS} ${SRC} --entropy-upload-kv

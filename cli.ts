@@ -196,6 +196,7 @@ const parsedArgs = parse(Deno.args, {
     "entropy-generate",
     "entropy-verify",
     "entropy-index",
+    "entropy-upload-kv"
   ],
 });
 
@@ -507,6 +508,44 @@ if (parsedArgs["entropy-index"]) {
     });
     console.log(
       `entropy-index : index file written : '${INDEX_DIR}/${prevEntropyHash}.json' : ${parentCommitId}`,
+    );
+  }
+}
+
+// --entropy-upload-kv
+if (parsedArgs["entropy-upload-kv"]) {
+  const accountIdentifier = Deno.env.get('CF_ACCOUNT_ID')
+  const namespaceIdentifier = Deno.env.get('CF_NAMESPACE_ID')
+  const keyName = "latest"
+  const expirationTtl = 60 * 6
+  const authEmail = Deno.env.get('CF_AUTH_EMAIL') || ''
+  const authKey = Deno.env.get('CF_AUTH_KEY') || ''
+  const url = `https://api.cloudflare.com/client/v4/accounts/${accountIdentifier}/storage/kv/namespaces/${namespaceIdentifier}/values/${keyName}?expiration_ttl=${expirationTtl}`
+  const entropyFile = await readJSON(ENTROPY_FILE)
+
+  let json
+  try {
+    const response = await fetch(url, {
+      method: "PUT",
+      headers: {
+        "X-Auth-Email": authEmail,
+        "X-Auth-Key": authKey,
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(entropyFile),
+    });
+    json = await response.json();
+  } catch (error) {
+    console.error(`entropy-upload-kv : ${error.message}`);
+  }
+
+  if (json.success) {
+    console.log(
+      `entropy-upload-kv : success : latest entropy.json file written to Cloudflare KV : ${JSON.stringify(json)}`,
+    );
+  } else {
+    console.log(
+      `entropy-upload-kv : failed : latest entropy.json file was NOT written to Cloudflare KV : ${JSON.stringify(json)}`,
     );
   }
 }

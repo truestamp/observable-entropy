@@ -35,3 +35,10 @@ jobs:
           branch: main
           message: "Entropy"
           add: '.'
+      - name: Upload new entropy to Cloudflare KV
+        env:
+          CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
+          CF_NAMESPACE_ID: ${{ secrets.CF_NAMESPACE_ID }}
+          CF_AUTH_EMAIL: ${{ secrets.CF_AUTH_EMAIL }}
+          CF_AUTH_KEY: ${{ secrets.CF_AUTH_KEY }}
+        run: make upload
