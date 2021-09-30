@@ -16,7 +16,7 @@ jobs:
       - name: Check out repo
         uses: actions/checkout@v2
         with:
-          fetch-depth: 0
+          fetch-depth: 5
       - name: Get parent commit ID
         id: vars
         shell: bash
