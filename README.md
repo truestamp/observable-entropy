@@ -379,7 +379,7 @@ repository to their local system and run the verification.
 ### Collection and Generation Schedule
 
 An attempt is made to collect data from all sources on a five minute interval.
-Once the random data is collected a hash of the contents of each file is
+Once the random data is collected, a hash of the contents of each file is
 generated and committed.
 
 The status of recent job runs can be viewed in the
