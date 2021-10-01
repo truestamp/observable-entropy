@@ -337,7 +337,7 @@ An example method for generating the random hex string is:
 node -e 'console.log(crypto.randomBytes(32).toString("hex"))'
 ```
 
-The value generated can by submitted with any tool capable of generating a
+The value generated can be submitted with any tool capable of generating a
 simple HTTP `POST` request as demonstrated here with the
 [HTTPie](https://httpie.io/) tool. You will want to store this value until the
 next entropy collection run when you can confirm it has been included in the
