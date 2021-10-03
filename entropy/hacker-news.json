@@ -1,6 +1,36 @@
 {
   "stories": [
     {
+      "by": "pseudolus",
+      "descendants": 0,
+      "id": 28736485,
+      "score": 1,
+      "time": 1633262291,
+      "title": "Electric Jet Engines Could Mean Carbon-Neutral Air Travel",
+      "type": "story",
+      "url": "https://interestingengineering.com/this-electric-jet-engine-could-lead-to-carbon-neutral-air-travel"
+    },
+    {
+      "by": "manikandarajs",
+      "descendants": 0,
+      "id": 28736481,
+      "score": 1,
+      "time": 1633262264,
+      "title": "Built-In Functions – Python",
+      "type": "story",
+      "url": "https://docs.python.org/3/library/functions.html"
+    },
+    {
+      "by": "SQL2219",
+      "descendants": 0,
+      "id": 28736478,
+      "score": 1,
+      "time": 1633262244,
+      "title": "Senator speaking from his yacht: “we need to tax the rich”",
+      "type": "story",
+      "url": "https://twitter.com/EoinHiggins_/status/1443750386066731014"
+    },
+    {
       "by": "_hilro",
       "descendants": 0,
       "id": 28736454,
@@ -54,7 +84,7 @@
       "by": "kiyanwang",
       "descendants": 0,
       "id": 28736413,
-      "score": 1,
+      "score": 2,
       "time": 1633261414,
       "title": "Async Stack Traces in Folly",
       "type": "story",
@@ -62,43 +92,16 @@
     },
     {
       "by": "kirillrogovoy",
-      "descendants": 0,
+      "descendants": 1,
       "id": 28736405,
+      "kids": [
+        28736470
+      ],
       "score": 2,
       "text": "Hi,<p>I&#x27;ve been recently exposed to some informational systems where all the domain data was modeled as one graph instead of a set of inter-related tables.<p>I worked with RDBs (primarily Postgres) for 5+ years and I cannot say that it ever felt wrong, but the more I think about modeling data as graphs, the more it makes me confused why it&#x27;s not the default way.<p>Graphs seemed to be:\n(1) Easier to scale (both storage-wise and complexity-wise).\n(2) Closer to how we model the world in our minds, hence easier to reason about.\n(3) Easier to query (felt more like GraphQL than SQL if it makes any sense).<p>The way I see it, there are two major ways to connect singular entities in a data model:\n1. Lists (aka tables) that allow you to sort, filter, and aggregate within a set of entities of the same kind.\n2. Relations (aka graph edges or foreign keys) to connect singular entities of different kinds.<p>... And I can imagine relational DBs being List-first Relation-second, and graph DBs being the opposite. But maybe that&#x27;s too much of a simplification.<p>Anyway, looking back at different domains I worked with, it felt like I had spent much more time working with relations than with lists.<p>Another signal: I have an intern developer, and it took him 1 minute to understand the basics of how graphs work, but then I spent two hours explaining why we needed extra tables for many-to-many relations and how they worked.<p>Any thoughts? What am I missing? Are RDBs the default way mostly due to historical reasons?<p>Discussion on this topic that I could find: https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=27541453",
       "time": 1633261334,
       "title": "Ask HN: Why are relational DBs are the standard instead of graph-based DBs?",
       "type": "story"
-    },
-    {
-      "by": "mooreds",
-      "descendants": 0,
-      "id": 28736385,
-      "score": 1,
-      "time": 1633261126,
-      "title": "A walk in the park, 3000 feet up",
-      "type": "story",
-      "url": "https://www.nytimes.com/2021/08/20/travel/slackline-breannah-yeh.html"
-    },
-    {
-      "by": "rcarmo",
-      "descendants": 0,
-      "id": 28736383,
-      "score": 2,
-      "time": 1633261112,
-      "title": "Things That Turbo Pascal Is Smaller Than",
-      "type": "story",
-      "url": "https://prog21.dadgum.com/116.html"
-    },
-    {
-      "by": "kiyanwang",
-      "descendants": 0,
-      "id": 28736380,
-      "score": 1,
-      "time": 1633261095,
-      "title": "Maintenance Windows Are a Mistake",
-      "type": "story",
-      "url": "https://www.infoworld.com/article/3632987/maintenance-windows-are-a-mistake.html"
     }
   ]
 }
