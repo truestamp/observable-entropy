@@ -1,6 +1,26 @@
 {
   "stories": [
     {
+      "by": "kiyanwang",
+      "descendants": 0,
+      "id": 28736413,
+      "score": 1,
+      "time": 1633261414,
+      "title": "Async Stack Traces in Folly",
+      "type": "story",
+      "url": "https://developers.facebook.com/blog/post/2021/09/16/async-stack-traces-folly-Introduction/"
+    },
+    {
+      "by": "kirillrogovoy",
+      "descendants": 0,
+      "id": 28736405,
+      "score": 1,
+      "text": "Hi,<p>I&#x27;ve been recently exposed to some informational systems where all the domain data was modeled as one graph instead of a set of inter-related tables.<p>I worked with RDBs (primarily Postgres) for 5+ years and I cannot say that it ever felt wrong, but the more I think about modeling data as graphs, the more it makes me confused why it&#x27;s not the default way.<p>Graphs seemed to be:\n- Easier to scale (both storage-wise and complexity-wise).\n- Closer to how we model the world in our minds, hence easier to reason about.\n- Easier to query (felt more like GraphQL than SQL if it makes any sense).<p>The way I see it, there are two major ways to connect singular entities in a data model:\n1. Lists (aka tables) that allow you to sort, filter, and aggregate within a set of entities of the same kind.\n2. Relations (aka graph edges or foreign keys) to connect singular entities of different kinds.<p>... And I can imagine relational DBs being List-first Relation-second, and graph DBs being the opposite. But maybe that&#x27;s too much of a simplification.<p>Anyway, looking back at different domains I worked with, it felt like I had spent much more time working with relations than with lists.<p>Another signal: I have an intern developer, and it took him 1 minute to understand the basics of how graphs work, but then I spent two hours explaining why we needed extra tables for many-to-many relations and how they worked.<p>Any thoughts? What am I missing? Are RDBs the default way mostly due to historical reasons?",
+      "time": 1633261334,
+      "title": "Ask HN: Why are relational DBs are the standard instead of graph-based DBs?",
+      "type": "story"
+    },
+    {
       "by": "mooreds",
       "descendants": 0,
       "id": 28736385,
@@ -79,26 +99,6 @@
       "title": "Natural language processing: the bigger they are, the bigger liars they are",
       "type": "story",
       "url": "https://www.theguardian.com/commentisfree/2021/oct/02/the-truth-about-artificial-intelligence-it-isnt-that-honest"
-    },
-    {
-      "by": "Tomte",
-      "descendants": 0,
-      "id": 28736315,
-      "score": 1,
-      "time": 1633260510,
-      "title": "When I Ran for President, It Messed with My Head",
-      "type": "story",
-      "url": "https://www.politico.com/news/magazine/2021/10/03/andrew-yang-book-excerpt-campaigning-514967"
-    },
-    {
-      "by": "ingve",
-      "descendants": 0,
-      "id": 28736286,
-      "score": 1,
-      "time": 1633260239,
-      "title": "Bubblewrap: Unprivileged Sandboxing Tool",
-      "type": "story",
-      "url": "https://github.com/containers/bubblewrap"
     }
   ]
 }
