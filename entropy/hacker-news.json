@@ -1,6 +1,26 @@
 {
   "stories": [
     {
+      "by": "_hilro",
+      "descendants": 0,
+      "id": 28736454,
+      "score": 1,
+      "time": 1633261983,
+      "title": "Housing Boss Earns $1M to Run Shelters Despite a Troubled Past",
+      "type": "story",
+      "url": "https://www.nytimes.com/2021/10/03/nyregion/jack-brown-homeless-nyc-core-services.html"
+    },
+    {
+      "by": "baybal2",
+      "descendants": 0,
+      "id": 28736453,
+      "score": 1,
+      "time": 1633261954,
+      "title": "“Killing informants is cool”: how a Myanmar hipster became a guerrilla fighter",
+      "type": "story",
+      "url": "https://www.economist.com/1843/2021/09/27/killing-informants-is-cool-how-a-myanmar-hipster-became-a-guerrilla-fighter"
+    },
+    {
       "by": "dnetesn",
       "descendants": 0,
       "id": 28736441,
@@ -45,7 +65,7 @@
       "descendants": 0,
       "id": 28736405,
       "score": 2,
-      "text": "Hi,<p>I&#x27;ve been recently exposed to some informational systems where all the domain data was modeled as one graph instead of a set of inter-related tables.<p>I worked with RDBs (primarily Postgres) for 5+ years and I cannot say that it ever felt wrong, but the more I think about modeling data as graphs, the more it makes me confused why it&#x27;s not the default way.<p>Graphs seemed to be:\n- Easier to scale (both storage-wise and complexity-wise).\n- Closer to how we model the world in our minds, hence easier to reason about.\n- Easier to query (felt more like GraphQL than SQL if it makes any sense).<p>The way I see it, there are two major ways to connect singular entities in a data model:\n1. Lists (aka tables) that allow you to sort, filter, and aggregate within a set of entities of the same kind.\n2. Relations (aka graph edges or foreign keys) to connect singular entities of different kinds.<p>... And I can imagine relational DBs being List-first Relation-second, and graph DBs being the opposite. But maybe that&#x27;s too much of a simplification.<p>Anyway, looking back at different domains I worked with, it felt like I had spent much more time working with relations than with lists.<p>Another signal: I have an intern developer, and it took him 1 minute to understand the basics of how graphs work, but then I spent two hours explaining why we needed extra tables for many-to-many relations and how they worked.<p>Any thoughts? What am I missing? Are RDBs the default way mostly due to historical reasons?",
+      "text": "Hi,<p>I&#x27;ve been recently exposed to some informational systems where all the domain data was modeled as one graph instead of a set of inter-related tables.<p>I worked with RDBs (primarily Postgres) for 5+ years and I cannot say that it ever felt wrong, but the more I think about modeling data as graphs, the more it makes me confused why it&#x27;s not the default way.<p>Graphs seemed to be:\n(1) Easier to scale (both storage-wise and complexity-wise).\n(2) Closer to how we model the world in our minds, hence easier to reason about.\n(3) Easier to query (felt more like GraphQL than SQL if it makes any sense).<p>The way I see it, there are two major ways to connect singular entities in a data model:\n1. Lists (aka tables) that allow you to sort, filter, and aggregate within a set of entities of the same kind.\n2. Relations (aka graph edges or foreign keys) to connect singular entities of different kinds.<p>... And I can imagine relational DBs being List-first Relation-second, and graph DBs being the opposite. But maybe that&#x27;s too much of a simplification.<p>Anyway, looking back at different domains I worked with, it felt like I had spent much more time working with relations than with lists.<p>Another signal: I have an intern developer, and it took him 1 minute to understand the basics of how graphs work, but then I spent two hours explaining why we needed extra tables for many-to-many relations and how they worked.<p>Any thoughts? What am I missing? Are RDBs the default way mostly due to historical reasons?<p>Discussion on this topic that I could find: https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=27541453",
       "time": 1633261334,
       "title": "Ask HN: Why are relational DBs are the standard instead of graph-based DBs?",
       "type": "story"
@@ -79,26 +99,6 @@
       "title": "Maintenance Windows Are a Mistake",
       "type": "story",
       "url": "https://www.infoworld.com/article/3632987/maintenance-windows-are-a-mistake.html"
-    },
-    {
-      "by": "herbertl",
-      "descendants": 0,
-      "id": 28736377,
-      "score": 1,
-      "time": 1633261065,
-      "title": "Hello (Bonjour) from Your Friendly TV Translator",
-      "type": "story",
-      "url": "https://www.zocalopublicsquare.org/2021/09/29/hello-friendly-tv-translator/ideas/essay/"
-    },
-    {
-      "by": "ryancol",
-      "descendants": 0,
-      "id": 28736373,
-      "score": 1,
-      "time": 1633261052,
-      "title": "Three Things Go Needs More Than Generics",
-      "type": "story",
-      "url": "https://ryanc118.medium.com/three-things-go-needs-right-now-more-than-generics-a6225d62f76b"
     }
   ]
 }
