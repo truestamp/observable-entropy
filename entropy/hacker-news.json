@@ -1,6 +1,46 @@
 {
   "stories": [
     {
+      "by": "lasj",
+      "descendants": 0,
+      "id": 28755577,
+      "score": 1,
+      "text": "I mean, we will now have data for what happens when WhatsApp&#x2F;FBmessenger (2 top messanging apps) go down for hours. What did people do, did they switch apps, and to which apps? Did they websearch alternatives?<p>But besides that, other things went down as a result of people trying alternatives (they flooded Twitter and brought it down ddos style), and flooded gmail and brought it down.<p>Basically kind of giant reroute of internet traffic and activity.<p>Corporate meetings on the affected platforms went down. How was business affected?<p>IoT devices went down. What vulnerabilities were shown?<p>Other countries, not using FB et all, were probably not affected. What did we learn?",
+      "time": 1633409085,
+      "title": "The FB-down-event was like a giant internet traffic test. What was learned?",
+      "type": "story"
+    },
+    {
+      "by": "desertraven",
+      "descendants": 0,
+      "id": 28755572,
+      "score": 1,
+      "text": "It seems like there&#x27;s a lot of complexity required to move things forward nowadays. Increasingly, knowledge is being siloed in corporations and academia. Not to mention, there&#x27;s a financial barrier to many fields (quantum computers, BCI, supercomputing, AI, etc)<p>Is it still possible to create cutting-edge technology with a small group, a tight budget and a garage?",
+      "time": 1633409012,
+      "title": "Ask HN: Can world-changing industries still emerge from garages?",
+      "type": "story"
+    },
+    {
+      "by": "amin",
+      "descendants": 0,
+      "id": 28755567,
+      "score": 1,
+      "time": 1633408989,
+      "title": "2021 Facebook Outage",
+      "type": "story",
+      "url": "https://en.wikipedia.org/wiki/2021_Facebook_outage"
+    },
+    {
+      "by": "chmaynard",
+      "descendants": 0,
+      "id": 28755563,
+      "score": 1,
+      "time": 1633408965,
+      "title": "Apple A15 Die Shot and Annotation – IP Block Area Analysis",
+      "type": "story",
+      "url": "https://semianalysis.com/apple-a15-die-shot-and-annotation-ip-block-area-analysis/"
+    },
+    {
       "by": "tomcam",
       "descendants": 0,
       "id": 28755524,
@@ -62,49 +102,6 @@
       "title": "New York Public Library: No More Late Fines, Ever",
       "type": "story",
       "url": "https://www.nypl.org/spotlight/fines"
-    },
-    {
-      "by": "AndrewBissell",
-      "descendants": 0,
-      "id": 28755443,
-      "score": 2,
-      "time": 1633407326,
-      "title": "Predominance of antibody-resistant Covid variants in Bay Area breakthrough cases",
-      "type": "story",
-      "url": "https://www.medrxiv.org/content/10.1101/2021.08.19.21262139v1.full"
-    },
-    {
-      "by": "judell",
-      "descendants": 2,
-      "id": 28755422,
-      "kids": [
-        28755475
-      ],
-      "score": 7,
-      "time": 1633407096,
-      "title": "My own personal AWS S3 bucket",
-      "type": "story",
-      "url": "https://blog.jonudell.net/2021/10/04/my-own-personal-aws-s3-bucket/"
-    },
-    {
-      "by": "alexmacarthur",
-      "descendants": 0,
-      "id": 28755406,
-      "score": 1,
-      "time": 1633406973,
-      "title": "When a JavaScript WeakMap() Came in Handy",
-      "type": "story",
-      "url": "https://macarthur.me/posts/when-a-weakmap-came-in-handy"
-    },
-    {
-      "by": "gigel82",
-      "descendants": 0,
-      "id": 28755355,
-      "score": 3,
-      "text": "I found the recent paper &#x2F; article about data collection by iOS &#x2F; Android very interesting ( https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=28741262 ) and I was trying to find something similar for Windows 10 &#x2F; 11.<p>Aside from anecdotal evidence and lots of scare-mongering &#x2F; click-baity post I failed to find an actual 3rd party privacy audit &#x2F; research paper that goes in-depth in a similar way (do a standard setup of Windows 10 &#x2F; 11, disable any <i>available</i> checkbox for data collection during setup, and MITM all traffic).<p>Yes, I know Microsoft documents the data fields ( https:&#x2F;&#x2F;docs.microsoft.com&#x2F;en-us&#x2F;windows&#x2F;privacy&#x2F;required-windows-diagnostic-data-events-and-fields-2004 ), but we all know documentation trails actual code by quite a bit. The research documentation also includes URLs which are very nice if one would want to &quot;disable&quot; some of the &quot;required diagnostic data&quot; using DNS filters (AdGuard, Pi-Hole) or firewalls. Again, I know Microsoft documents the endpoints ( https:&#x2F;&#x2F;docs.microsoft.com&#x2F;en-us&#x2F;windows&#x2F;privacy&#x2F;manage-windows-11-endpoints ) but the description is overly broad.<p>My goal is to get a general idea of how Windows compares to iOS &#x2F; Android in terms of data collection as well as come up with an updated DNS filter for my home network that preserves functionality I want (Windows Update, Xbox GamePass, OneDrive and Office) while blocking functionality I don&#x27;t want (gratuitous data collection).<p>If such a thing doesn&#x27;t exist, any tips for how to go about DIY-ing would be welcome (I presume a VirtualBox installation with pcap or MITM with pre-installed certificates - I&#x27;m a software engineer with barebones network &#x2F; security knowledge, so more accessible is better).",
-      "time": 1633406338,
-      "title": "Ask HN: Privacy audit for Windows 10 / 11?",
-      "type": "story"
     }
   ]
 }
