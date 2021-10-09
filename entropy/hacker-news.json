@@ -1,6 +1,36 @@
 {
   "stories": [
     {
+      "by": "awinter-py",
+      "descendants": 0,
+      "id": 28812409,
+      "score": 1,
+      "text": "Like when you capture an oauth key, or some other &#x27;password-like thing&#x27; that you need to store per-user and need to retrieve in plaintext so you can access an external service. Are you just putting this in a DB? AES-ing it?<p>My goal is to not leak oauth access when my DB inevitably gets stolen.",
+      "time": 1633806804,
+      "title": "Ask HN: How are people storing user-scale secrets?",
+      "type": "story"
+    },
+    {
+      "by": "galapago",
+      "descendants": 0,
+      "id": 28812403,
+      "score": 1,
+      "time": 1633806764,
+      "title": "ScummVM 2.5.0 “Twenty years ago today ” brings tons of new games to play",
+      "type": "story",
+      "url": "https://www.scummvm.org/news/20211009/"
+    },
+    {
+      "by": "aj3",
+      "descendants": 0,
+      "id": 28812390,
+      "score": 1,
+      "time": 1633806694,
+      "title": "Ads are now able to bypass Google Play to install apps WITHOUT user consent",
+      "type": "story",
+      "url": "https://www.reddit.com/r/androiddev/comments/q4nltn/ads_are_now_able_to_bypass_google_play_to_install/"
+    },
+    {
       "by": "johnnyApplePRNG",
       "descendants": 0,
       "id": 28812363,
@@ -12,8 +42,11 @@
     },
     {
       "by": "panabee",
-      "descendants": 0,
+      "descendants": 1,
       "id": 28812362,
+      "kids": [
+        28812407
+      ],
       "score": 1,
       "time": 1633806450,
       "title": "Mussels make a powerful underwater glue",
@@ -68,36 +101,6 @@
       "title": "For Teen Girls, Instagram Is a Cesspool",
       "type": "story",
       "url": "https://www.nytimes.com/2021/10/08/opinion/instagram-teen-girls-mental-health.html"
-    },
-    {
-      "by": "pjmlp",
-      "descendants": 0,
-      "id": 28812305,
-      "score": 1,
-      "time": 1633805981,
-      "title": "OSv Unikernel – Optimizing Guest OS to Run Stateless and Serverless Apps",
-      "type": "story",
-      "url": "https://www.p99conf.io/session/osv-unikernel-optimizing-guest-os-to-run-stateless-and-serverless-apps-in-the-cloud/"
-    },
-    {
-      "by": "adrian_mrd",
-      "descendants": 0,
-      "id": 28812294,
-      "score": 1,
-      "time": 1633805917,
-      "title": "What Makes a Game a Good Metroidvania Anyway?",
-      "type": "story",
-      "url": "https://www.nintendolife.com/news/2021/10/soapbox-what-makes-a-game-a-good-metroidvania-anyway"
-    },
-    {
-      "by": "capableweb",
-      "descendants": 0,
-      "id": 28812290,
-      "score": 2,
-      "time": 1633805902,
-      "title": "Bernal Heights Man Says Apple Impersonating Police Searched His Home (2011)",
-      "type": "story",
-      "url": "https://archives.sfweekly.com/thesnitch/2011/09/02/lost-iphone-5-bernal-heights-man-says-visitors-impersonating-police-searched-his-home-exclusive"
     }
   ]
 }
