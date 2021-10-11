@@ -1,6 +1,36 @@
 {
   "stories": [
     {
+      "by": "vaughan",
+      "descendants": 0,
+      "id": 28833887,
+      "score": 1,
+      "text": "I feel like we need a database that is more integrated with the frontend. Typical web apps have client-side state management, then a graphql&#x2F;rest layer with caching implemented on the frontend and backend, then some ORM, and then a big old SQL database on the backend.<p>The modern app simply wants to query&#x2F;update data, show real-time updates to this data, and then have a nice normalized cache so one piece of data is the same everywhere it&#x27;s rendered.<p>I&#x27;ve been fixated for a while on the thought that any solution needs to be built on top of an existing db like Postgres or SQLite, with SQL as the primary interface (like every other DB has these days), but I feel like this is holding progress back.<p>Data schemas these days are less fixed, they change often, and involve interacting with third-party data sources (usually large nested and unstructured JSON), as well as being more graph-like, and tree-like. SQL becomes unwieldy under these conditions. For example, try figuring out the best way to store a tree in SQL, or querying 2 or more M-M joins, or storing a json response from a thirty-party service in a normalized way, or trying to implement materialized view maintenance.<p>We need more flexibility than SQL and the relational model offers.<p>I also think apps should be built such that they can run entirely in the browser, and then the backend is just a thin interface to the data. Most apps end up implementing the entirety of the backend in the client anyway in order to have a snappy experience.<p>I feel perhaps there is liberation in a more hackable&#x2F;modular database that can run on the frontend and backend.<p>On the frontend, the focus would be optimizing the amount of data we need to pull from the backend to be able to run as many queries as possible without fetching, and then efficiently checking for freshness of the local dataset.<p>On the backend, with AssemblyScript (TS syntax -&gt; WASM), we could provide an accessible and efficient way to implement the underlying layers of the database engine and could also expose the query planner and executors to the user.",
+      "time": 1633991920,
+      "title": "Ask HN: Thoughts on a TypeScript Database?",
+      "type": "story"
+    },
+    {
+      "by": "bradstreet",
+      "descendants": 0,
+      "id": 28833885,
+      "score": 1,
+      "time": 1633991912,
+      "title": "Pity, Power, and Presence",
+      "type": "story",
+      "url": "https://theconvivialsociety.substack.com/p/pity-power-and-presence"
+    },
+    {
+      "by": "pseudolus",
+      "descendants": 0,
+      "id": 28833866,
+      "score": 3,
+      "time": 1633991777,
+      "title": "Instagram has largely replaced TikTok in India and erased working-class creators",
+      "type": "story",
+      "url": "https://restofworld.org/2021/instagram-and-class-in-india/"
+    },
+    {
       "by": "ofou",
       "descendants": 0,
       "id": 28833824,
@@ -69,36 +99,6 @@
       "title": "The Boxer – An Extra Verse",
       "type": "story",
       "url": "https://www.youtube.com/watch?v=UQrpV05XeDI"
-    },
-    {
-      "by": "baal80spam",
-      "descendants": 0,
-      "id": 28833741,
-      "score": 1,
-      "time": 1633990789,
-      "title": "China AI China Has Won AI Battle with US, Pentagon's Ex-Software Chief Says",
-      "type": "story",
-      "url": "https://www.reuters.com/technology/united-states-has-lost-ai-battle-china-pentagons-ex-software-chief-says-2021-10-11/"
-    },
-    {
-      "by": "latchkey",
-      "descendants": 0,
-      "id": 28833739,
-      "score": 1,
-      "time": 1633990775,
-      "title": "Have a domain name? “Beg bounty” hunters may be on their way",
-      "type": "story",
-      "url": "https://news.sophos.com/en-us/2021/02/08/have-a-domain-name-beg-bounty-hunters-may-be-on-their-way/"
-    },
-    {
-      "by": "galeos",
-      "descendants": 0,
-      "id": 28833736,
-      "score": 1,
-      "time": 1633990746,
-      "title": "Turning off Bitcoin’s inflation funded security model: wishful thinking?",
-      "type": "story",
-      "url": "https://www.onionfutures.com/turning-off-bitcoins-inflation"
     }
   ]
 }
