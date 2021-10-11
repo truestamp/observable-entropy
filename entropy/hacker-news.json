@@ -1,6 +1,56 @@
 {
   "stories": [
     {
+      "by": "gjf",
+      "descendants": 0,
+      "id": 28833985,
+      "score": 1,
+      "time": 1633992514,
+      "title": "A Tale of Two Optimisations",
+      "type": "story",
+      "url": "https://articles.foletta.org/post/a-tale-of-two-optimisations/"
+    },
+    {
+      "by": "osivertsson",
+      "descendants": 0,
+      "id": 28833978,
+      "score": 1,
+      "time": 1633992478,
+      "title": "Decolonizing Sexualities: Transnational Perspectives, Critical Intervention",
+      "type": "story",
+      "url": "https://counterpress.org.uk/publications/decolonizing-sexualities/"
+    },
+    {
+      "by": "samizdis",
+      "descendants": 0,
+      "id": 28833977,
+      "score": 1,
+      "time": 1633992469,
+      "title": "Google's Privacy Budget doesn't add up, says Mozilla CTO",
+      "type": "story",
+      "url": "https://www.theregister.com/2021/10/11/googles_privacy_budge/"
+    },
+    {
+      "by": "version_five",
+      "descendants": 0,
+      "id": 28833974,
+      "score": 1,
+      "time": 1633992450,
+      "title": "Why do cover letters still exist?",
+      "type": "story",
+      "url": "https://www.bbc.com/worklife/article/20211005-why-do-cover-letters-still-exist"
+    },
+    {
+      "by": "frutiger",
+      "descendants": 0,
+      "id": 28833960,
+      "score": 2,
+      "time": 1633992352,
+      "title": "Let's Encrypt Active Incident",
+      "type": "story",
+      "url": "https://letsencrypt.status.io/?20211011"
+    },
+    {
       "by": "js2",
       "descendants": 0,
       "id": 28833949,
@@ -14,7 +64,7 @@
       "by": "azhenley",
       "descendants": 0,
       "id": 28833933,
-      "score": 1,
+      "score": 3,
       "time": 1633992180,
       "title": "Peter Norvig Leaves Google to Join Stanford HAI",
       "type": "story",
@@ -49,56 +99,6 @@
       "title": "Humans Had Advanced Fishing Technology 12,000 Years Ago in Israel",
       "type": "story",
       "url": "https://www.realclearscience.com/articles/2021/10/08/humans_had_advanced_fishing_technology_12000_years_ago_in_israel_797959.html"
-    },
-    {
-      "by": "vaughan",
-      "descendants": 0,
-      "id": 28833887,
-      "score": 1,
-      "text": "I feel like we need a database that is more integrated with the frontend. Typical web apps have client-side state management, then a graphql&#x2F;rest layer with caching implemented on the frontend and backend, then some ORM, and then a big old SQL database on the backend.<p>The modern app simply wants to query&#x2F;update data, show real-time updates to this data, and then have a nice normalized cache so one piece of data is the same everywhere it&#x27;s rendered.<p>I&#x27;ve been fixated for a while on the thought that any solution needs to be built on top of an existing db like Postgres or SQLite, with SQL as the primary interface (like every other DB has these days), but I feel like this is holding progress back.<p>Data schemas these days are less fixed, they change often, and involve interacting with third-party data sources (usually large nested and unstructured JSON), as well as being more graph-like, and tree-like. SQL becomes unwieldy under these conditions. For example, try figuring out the best way to store a tree in SQL, or querying 2 or more M-M joins, or storing a json response from a thirty-party service in a normalized way, or trying to implement materialized view maintenance.<p>We need more flexibility than SQL and the relational model offers.<p>I also think apps should be built such that they can run entirely in the browser, and then the backend is just a thin interface to the data. Most apps end up implementing the entirety of the backend in the client anyway in order to have a snappy experience.<p>I feel perhaps there is liberation in a more hackable&#x2F;modular database that can run on the frontend and backend.<p>On the frontend, the focus would be optimizing the amount of data we need to pull from the backend to be able to run as many queries as possible without fetching, and then efficiently checking for freshness of the local dataset.<p>On the backend, with AssemblyScript (TS syntax -&gt; WASM), we could provide an accessible and efficient way to implement the underlying layers of the database engine and could also expose the query planner and executors to the user.",
-      "time": 1633991920,
-      "title": "Ask HN: Thoughts on a TypeScript Database?",
-      "type": "story"
-    },
-    {
-      "by": "bradstreet",
-      "descendants": 0,
-      "id": 28833885,
-      "score": 1,
-      "time": 1633991912,
-      "title": "Pity, Power, and Presence",
-      "type": "story",
-      "url": "https://theconvivialsociety.substack.com/p/pity-power-and-presence"
-    },
-    {
-      "by": "pseudolus",
-      "descendants": 0,
-      "id": 28833866,
-      "score": 3,
-      "time": 1633991777,
-      "title": "Instagram has largely replaced TikTok in India and erased working-class creators",
-      "type": "story",
-      "url": "https://restofworld.org/2021/instagram-and-class-in-india/"
-    },
-    {
-      "by": "ofou",
-      "descendants": 0,
-      "id": 28833824,
-      "score": 2,
-      "time": 1633991453,
-      "title": "Charts show how much the world depends on Taiwan for semiconductors",
-      "type": "story",
-      "url": "https://www.cnbc.com/2021/03/16/2-charts-show-how-much-the-world-depends-on-taiwan-for-semiconductors.html"
-    },
-    {
-      "by": "codetrotter",
-      "descendants": 0,
-      "id": 28833821,
-      "score": 1,
-      "time": 1633991445,
-      "title": "Kitasanriku Project: Model railway station dispatcher",
-      "type": "story",
-      "url": "https://github.com/katemihalikova/kitasanriku-project"
     }
   ]
 }
