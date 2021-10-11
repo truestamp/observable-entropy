@@ -1,9 +1,32 @@
 {
   "stories": [
     {
-      "by": "kirillrogovoy",
+      "by": "todsacerdoti",
       "descendants": 0,
+      "id": 28826600,
+      "score": 1,
+      "time": 1633946240,
+      "title": "Parsing JSON Is a Minefield",
+      "type": "story",
+      "url": "http://seriot.ch/projects/parsing_json.html"
+    },
+    {
+      "by": "Sami_Lehtinen",
+      "descendants": 0,
+      "id": 28826593,
+      "score": 1,
+      "time": 1633946134,
+      "title": "ENaira – Same Naira – More Possibilities – Easier Financial Transactions",
+      "type": "story",
+      "url": "https://enaira.com"
+    },
+    {
+      "by": "kirillrogovoy",
+      "descendants": 1,
       "id": 28826571,
+      "kids": [
+        28826592
+      ],
       "score": 1,
       "text": "I got a crazy idea this morning.<p>What if there was middle-man (CDN, proxy, etc) that sits between the browser and the target service and, for each page request, it would act as a headless browser, visiting the target page, running all the JS and doing the rendering, and then dumping the DOM tree to HTML and serving it to the client (with zero JS)?<p>So the target app could be 100% JS-rendered but it&#x27;d look to the browser as though it&#x27;s just a static HTML page.<p>(I know that the question then is &quot;doesn&#x27;t it mean that the website would end up not being interactive because the JS doesn&#x27;t get delivered to the browser?&quot;, but I imagine use cases when it&#x27;s not really a concern)<p>Is there any project on the Web that does anything remotely similar to this idea? The core thing is using a headless browser to do all the JS-initiated rendering on the server before the content hits the browser.",
       "time": 1633945891,
@@ -82,26 +105,6 @@
       "title": "Show HN: Design resources platform for web designers and developers",
       "type": "story",
       "url": "https://uikit.to/"
-    },
-    {
-      "by": "coolandsmartrr",
-      "descendants": 0,
-      "id": 28826437,
-      "score": 2,
-      "time": 1633944685,
-      "title": "One painful meeting with Steve Jobs",
-      "type": "story",
-      "url": "https://twitter.com/apartovi/status/1447251334814523392"
-    },
-    {
-      "by": "earthisnotmine",
-      "descendants": 0,
-      "id": 28826407,
-      "score": 1,
-      "time": 1633944403,
-      "title": "Pixel 6 is coming soon, but should you buy Google's Pixel 3, 4, 5 or 5A instead?",
-      "type": "story",
-      "url": "https://www.cnet.com/tech/mobile/pixel-6-is-coming-soon-but-should-you-buy-googles-pixel-3-4-5-or-5a-instead/"
     }
   ]
 }
