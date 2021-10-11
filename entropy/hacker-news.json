@@ -1,6 +1,59 @@
 {
   "stories": [
     {
+      "by": "Hooke",
+      "descendants": 0,
+      "id": 28831319,
+      "score": 1,
+      "time": 1633976932,
+      "title": "Evidence of people on the Azores archipelago 700 years earlier than thought",
+      "type": "story",
+      "url": "https://phys.org/news/2021-10-evidence-people-azores-archipelago-years.html"
+    },
+    {
+      "by": "bperson",
+      "descendants": 1,
+      "id": 28831305,
+      "kids": [
+        28831306
+      ],
+      "score": 1,
+      "time": 1633976842,
+      "title": "No Results for “ScotusPick”",
+      "type": "story",
+      "url": "https://twitter.com/search"
+    },
+    {
+      "by": "fbueno",
+      "descendants": 0,
+      "id": 28831295,
+      "score": 2,
+      "text": "I&#x27;ve been looking for a set of tools that would detect wrong&#x2F;missing configuration on k8s API, running workloads and unapplied manifests.<p>So far I&#x27;ve found a set of tools like for example:<p>Snyk iac, datree, Kube-bench, Kube-score, Kubeaudit, Kube-scan, Kubescape, Krane<p>Each of them has it&#x27;s own speciality but often they overlap some features.<p>The idea is to have 3 steps of checking config:<p>1. github workflow that builds the kustomize manifest and use a scanner that will fail in case of bad practice was detected<p>2. Once a day run checks against the workloads applied on the cluster<p>3. Once a day run checks against the API configuration<p>The problem is that there are some many tools out there that I have no idea which one I should use for each step.<p>Better approaches are also welcome.",
+      "time": 1633976776,
+      "title": "Ask HN: Which K8s manifests/workload/API scanner do you use?",
+      "type": "story"
+    },
+    {
+      "by": "marcodiego",
+      "descendants": 0,
+      "id": 28831294,
+      "score": 1,
+      "time": 1633976774,
+      "title": "Second Beta for Krita 5.0",
+      "type": "story",
+      "url": "https://krita.org/en/item/second-beta-for-krita-5-0/"
+    },
+    {
+      "by": "dsr12",
+      "descendants": 0,
+      "id": 28831287,
+      "score": 1,
+      "time": 1633976738,
+      "title": "Automatically give thanks to PyPI packages you use in your project",
+      "type": "story",
+      "url": "https://github.com/WardPearce/thanker"
+    },
+    {
       "by": "cobaltintel",
       "descendants": 0,
       "id": 28831278,
@@ -12,9 +65,10 @@
     },
     {
       "by": "pseudolus",
-      "descendants": 1,
+      "descendants": 2,
       "id": 28831231,
       "kids": [
+        28831283,
         28831266
       ],
       "score": 3,
@@ -47,61 +101,11 @@
       "by": "Cwizard",
       "descendants": 0,
       "id": 28831214,
-      "score": 1,
+      "score": 2,
       "time": 1633976270,
       "title": "The Complete Guide to Deep Work",
       "type": "story",
       "url": "https://blog.doist.com/deep-work/"
-    },
-    {
-      "by": "adrian_mrd",
-      "descendants": 0,
-      "id": 28831203,
-      "score": 1,
-      "time": 1633976174,
-      "title": "Don't read what everyone else reads",
-      "type": "story",
-      "url": "https://www.productlessons.xyz//article/dont-read-what-everyone-else-reads"
-    },
-    {
-      "by": "miles",
-      "descendants": 0,
-      "id": 28831190,
-      "score": 1,
-      "time": 1633976103,
-      "title": "Why a 19th-century Russian anarchist is relevant to the mask and vaccine debate",
-      "type": "story",
-      "url": "https://theconversation.com/why-a-19th-century-russian-anarchist-is-relevant-to-the-mask-and-vaccine-debate-163618"
-    },
-    {
-      "by": "pseudolus",
-      "descendants": 0,
-      "id": 28831185,
-      "score": 2,
-      "time": 1633976084,
-      "title": "Star Trek's William Shatner on his plan to boldly go into space",
-      "type": "story",
-      "url": "https://www.bbc.com/news/av/world-58867726"
-    },
-    {
-      "by": "samrohn777",
-      "descendants": 0,
-      "id": 28831136,
-      "score": 2,
-      "text": "As companies are planning to return their employees to office, 3 days a week work from office seems to be the dominant option provided to the employees. Do you feel you will be more productive with this approach ? What are the other options provided by your company other than fully remote ?",
-      "time": 1633975832,
-      "title": "Ask HN: What do you think about 3 days a week work from office?",
-      "type": "story"
-    },
-    {
-      "by": "airoftime",
-      "descendants": 0,
-      "id": 28831135,
-      "score": 2,
-      "time": 1633975831,
-      "title": "Reasons to Buy Air for $1000",
-      "type": "story",
-      "url": "https://blog.airoftime.com/why-buy/"
     }
   ]
 }
