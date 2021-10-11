@@ -1,6 +1,16 @@
 {
   "stories": [
     {
+      "by": "kirillrogovoy",
+      "descendants": 0,
+      "id": 28826571,
+      "score": 1,
+      "text": "I got a crazy idea this morning.<p>What if there was middle-man (CDN, proxy, etc) that sits between the browser and the target service and, for each page request, it would act as a headless browser, visiting the target page, running all the JS and doing the rendering, and then dumping the DOM tree to HTML and serving it to the client (with zero JS)?<p>So the target app could be 100% JS-rendered but it&#x27;d look to the browser as though it&#x27;s just a static HTML page.<p>(I know that the question then is &quot;doesn&#x27;t it mean that the website would end up not being interactive because the JS doesn&#x27;t get delivered to the browser?&quot;, but I imagine use cases when it&#x27;s not really a concern)<p>Is there any project on the Web that does anything remotely similar to this idea? The core thing is using a headless browser to do all the JS-initiated rendering on the server before the content hits the browser.",
+      "time": 1633945891,
+      "title": "Ask HN: Is there a CDN that pre-renders the app on the server?",
+      "type": "story"
+    },
+    {
       "by": "e2e4",
       "descendants": 0,
       "id": 28826565,
@@ -92,16 +102,6 @@
       "title": "Pixel 6 is coming soon, but should you buy Google's Pixel 3, 4, 5 or 5A instead?",
       "type": "story",
       "url": "https://www.cnet.com/tech/mobile/pixel-6-is-coming-soon-but-should-you-buy-googles-pixel-3-4-5-or-5a-instead/"
-    },
-    {
-      "by": "rohithkp",
-      "descendants": 0,
-      "id": 28826397,
-      "score": 2,
-      "time": 1633944213,
-      "title": "YubiKey C Bio",
-      "type": "story",
-      "url": "https://www.yubico.com/gb/product/yubikey-c-bio/"
     }
   ]
 }
