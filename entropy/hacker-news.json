@@ -1,6 +1,69 @@
 {
   "stories": [
     {
+      "by": "ericdanielski",
+      "descendants": 0,
+      "id": 28855538,
+      "score": 1,
+      "time": 1634149178,
+      "title": "Belgium’s nuclear feud threatens to split ruling coalition",
+      "type": "story",
+      "url": "https://www.politico.eu/article/belgium-nuclear-power-government-climate-greens/"
+    },
+    {
+      "by": "vo2maxer",
+      "descendants": 0,
+      "id": 28855535,
+      "score": 1,
+      "time": 1634149159,
+      "title": "F. Herbert visited Oregon to report on sand dunes, instead it inspired the novel",
+      "type": "story",
+      "url": "https://twitter.com/ferrisjabr/status/1447988135657295874"
+    },
+    {
+      "by": "graderjs",
+      "descendants": 0,
+      "id": 28855529,
+      "score": 1,
+      "time": 1634149143,
+      "title": "Pentagon’s Top Science Official Adds to Tech-Breakthrough Wishlist",
+      "type": "story",
+      "url": "https://www.defenseone.com/technology/2021/10/exclusive-pentagons-top-science-official-how-dod-will-pursue-breakthrough-technology/186008/"
+    },
+    {
+      "by": "ivome",
+      "descendants": 1,
+      "id": 28855526,
+      "kids": [
+        28855530
+      ],
+      "score": 1,
+      "time": 1634149113,
+      "title": "Show HN: Slicknode, Open-Source GraphQL Framework and Headless CMS",
+      "type": "story",
+      "url": "https://github.com/slicknode/slicknode"
+    },
+    {
+      "by": "walterbell",
+      "descendants": 0,
+      "id": 28855525,
+      "score": 1,
+      "time": 1634149094,
+      "title": "EU legislation introduced to ban anonymous domain registration",
+      "type": "story",
+      "url": "https://www.bleepingcomputer.com/news/government/eu-legislation-introduced-to-ban-anonymous-domain-registration/"
+    },
+    {
+      "by": "feross",
+      "descendants": 0,
+      "id": 28855519,
+      "score": 1,
+      "time": 1634149057,
+      "title": "Surface Laptop Studio review: One well-built, weird convertible PC",
+      "type": "story",
+      "url": "https://arstechnica.com/gadgets/2021/10/surface-laptop-studio-review-one-well-built-weird-convertible-pc/"
+    },
+    {
       "by": "CrankyBear",
       "descendants": 0,
       "id": 28855498,
@@ -14,7 +77,7 @@
       "by": "steveyi",
       "descendants": 0,
       "id": 28855484,
-      "score": 1,
+      "score": 3,
       "time": 1634148828,
       "title": "Show HN: Serverless Cloud – By the Creators of the Serverless Framework",
       "type": "story",
@@ -39,65 +102,6 @@
       "title": "T-Mobile Introduces Home Internet",
       "type": "story",
       "url": "https://www.t-mobile.com/isp/plan"
-    },
-    {
-      "by": "ericdanielski",
-      "descendants": 0,
-      "id": 28855464,
-      "score": 2,
-      "time": 1634148719,
-      "title": "Intellectuals urge Germany to keep nuclear plants online",
-      "type": "story",
-      "url": "https://www.euractiv.com/section/electricity/news/german-intellectuals-urge-state-to-keep-nuclear-plants-online/"
-    },
-    {
-      "by": "WarOnPrivacy",
-      "descendants": 0,
-      "id": 28855456,
-      "score": 1,
-      "time": 1634148674,
-      "title": "Google, Amazon, Microsoft Use 3rd Parties to Sell Surveillance Tech to ICE, CBP",
-      "type": "story",
-      "url": "https://www.techdirt.com/articles/20211009/10260647722/google-amazon-microsoft-are-using-third-party-companies-to-sell-surveillance-tech-to-ice-cbp.shtml"
-    },
-    {
-      "by": "alexklwong",
-      "descendants": 0,
-      "id": 28855455,
-      "score": 1,
-      "text": "Our work &quot;Unsupervised Depth Completion with Calibrated Backprojection Layers&quot; has been accepted as an oral paper at ICCV 2021! We will be giving our talk during Session 10 (10&#x2F;13 2-3 pm PST &#x2F; 5-6 pm EST and 10&#x2F;15 7-8 am PST &#x2F; 10-11 am EST, https:&#x2F;&#x2F;www.eventscribe.net&#x2F;2021&#x2F;ICCV&#x2F;fsPopup.asp?efp=WlJFS0tHTEMxNTgzMA%20&amp;PosterID=428697%20&amp;rnd=0.4100732&amp;mode=posterinfo). This is joint work with Stefano Soatto at the UCLA Vision Lab.<p>In a nutshell: we propose a method for point cloud densification (from camera, IMU, range sensor) that can generalize well across different sensor platforms. The figure in this link illustrates our improvement over existing works: https:&#x2F;&#x2F;github.com&#x2F;alexklwong&#x2F;calibrated-backprojection-network&#x2F;blob&#x2F;master&#x2F;figures&#x2F;overview_teaser.gif<p>The slightly longer version: previous methods, when trained on one sensor platform, have problem generalizing to different ones when deployed to the wild. This is because they are overfitted to the sensors used to collect the training set. Our method takes image, sparse point cloud and camera calibration as input, which allows us to use a different calibration at test time. This significantly improves generalization to novel scenes captured by sensors different than those used during training. Amongst our innovations is a &quot;calibrated backprojection layer&quot; that imposes strong inductive bias on the network (as opposed trying to learn everything from the data). This design allows our method to achieve the state of the art on both indoor and outdoor scenarios while using a smaller model size and boasting a faster inference time.<p>For those interested, here are the links to<p>paper: https:&#x2F;&#x2F;arxiv.org&#x2F;pdf&#x2F;2108.10531.pdf<p>code (pytorch): https:&#x2F;&#x2F;github.com&#x2F;alexklwong&#x2F;calibrated-backprojection-network",
-      "time": 1634148672,
-      "title": "ICCV2021 oral paper improves generalization across sensor platforms",
-      "type": "story"
-    },
-    {
-      "by": "sgt",
-      "descendants": 0,
-      "id": 28855445,
-      "score": 1,
-      "time": 1634148622,
-      "title": "Ask HN: Reputable code signing service? For arbitrary payloads",
-      "type": "story"
-    },
-    {
-      "by": "gordonhw",
-      "descendants": 0,
-      "id": 28855441,
-      "score": 1,
-      "time": 1634148591,
-      "title": "Rain Neuromorphics Tapes Out Demo Chip for Analog AI",
-      "type": "story",
-      "url": "https://www.eetimes.com/rain-neuromorphics-tapes-out-demo-chip-for-analog-ai/"
-    },
-    {
-      "by": "s1291",
-      "descendants": 0,
-      "id": 28855438,
-      "score": 1,
-      "time": 1634148581,
-      "title": "Ć: A programming language that translates automatically to many languages",
-      "type": "story",
-      "url": "https://github.com/pfusik/cito"
     }
   ]
 }
