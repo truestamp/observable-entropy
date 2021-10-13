@@ -1,6 +1,89 @@
 {
   "stories": [
     {
+      "by": "graderjs",
+      "descendants": 0,
+      "id": 28853662,
+      "score": 1,
+      "time": 1634139899,
+      "title": "Tour of a B-52 Stratofortress",
+      "type": "story",
+      "url": "https://www.thedrive.com/the-war-zone/42703/this-is-the-most-incredible-tour-of-a-b-52-stratofortress-we-have-ever-seen"
+    },
+    {
+      "by": "AndrewBissell",
+      "descendants": 0,
+      "id": 28853653,
+      "score": 1,
+      "time": 1634139862,
+      "title": "NYSE’s new investment vehicle –‘natural asset companies’– tap into ESG fever",
+      "type": "story",
+      "url": "https://fortune.com/2021/09/14/nyse-natural-asset-company-ieg-esg-investment-vehicle/"
+    },
+    {
+      "by": "recov",
+      "descendants": 0,
+      "id": 28853650,
+      "score": 1,
+      "time": 1634139846,
+      "title": "Lakes of Wada",
+      "type": "story",
+      "url": "https://en.wikipedia.org/wiki/Lakes_of_Wada"
+    },
+    {
+      "by": "danielam",
+      "descendants": 0,
+      "id": 28853637,
+      "score": 1,
+      "time": 1634139799,
+      "title": "Intellectualization",
+      "type": "story",
+      "url": "https://en.wikipedia.org/wiki/Intellectualization"
+    },
+    {
+      "by": "kelseyfrog",
+      "descendants": 0,
+      "id": 28853636,
+      "score": 1,
+      "time": 1634139797,
+      "title": "Circular Harmonics",
+      "type": "story",
+      "url": "https://valdes.cc/articles/ch.html"
+    },
+    {
+      "by": "KoftaBob",
+      "descendants": 1,
+      "id": 28853628,
+      "kids": [
+        28853649
+      ],
+      "score": 1,
+      "time": 1634139768,
+      "title": "Biden works to expand Port of L.A. to 24/7 operations",
+      "type": "story",
+      "url": "https://www.axios.com/biden-los-angeles-port-operations-expand-28fd72ef-0d28-4bd8-a154-6ada93a478b3.html"
+    },
+    {
+      "by": "7402",
+      "descendants": 0,
+      "id": 28853614,
+      "score": 1,
+      "time": 1634139732,
+      "title": "Climate change contrarian gives us important reminder about science in general",
+      "type": "story",
+      "url": "https://www.washingtonpost.com/opinions/2021/10/12/steven-koonin-climate-change-theory-reminder-science/"
+    },
+    {
+      "by": "stabbles",
+      "descendants": 0,
+      "id": 28853601,
+      "score": 1,
+      "text": "See https:&#x2F;&#x2F;about.codecov.io&#x2F;blog&#x2F;introducing-codecovs-new-uploader&#x2F;<p>I&#x27;m just stumped by the stupidity of Codecov.<p>Codecov&#x27;s security breach involved someone gaining access to their repo, modifying the bash uploader script to -- apart from uploading code coverage reports -- also upload all (secret) environment variables set by the CI pipeline. This affected many people.<p>Apart from discovering this months too late, their initial &quot;mitigation&quot; was to do checksum validation on the bash upload script. However, they failed to understand how that works, as they downloaded the checksum from the same URL the bash script was downloaded from. [1]<p>Now they released a new &quot;uploader&quot; where the blog post mentions:<p>&gt; A compiled binary makes it more difficult for code to be modified by a middle man.<p>which only proves their stupidity. Clearly you can replace the binary with a binary that calls the original binary and steals CI secrets too.<p>And their installation instructions from the blog post are as follows:<p><pre><code>    curl -Os https:&#x2F;&#x2F;uploader.codecov.io&#x2F;latest&#x2F;linux&#x2F;codecov \n    chmod +x codecov\n    .&#x2F;codecov -t ${CODECOV_TOKEN}\n</code></pre>\nThat is: a non-versioned URL, and no checksum verification. No lessons learned.<p>How is this company still in business?<p>[1] https:&#x2F;&#x2F;github.com&#x2F;codecov&#x2F;codecov-action&#x2F;pull&#x2F;282#issuecomment-823195201",
+      "time": 1634139679,
+      "title": "Tell HN: Codecov learned nothing from their security breach",
+      "type": "story"
+    },
+    {
       "by": "cloudyglider",
       "descendants": 0,
       "id": 28853549,
@@ -19,86 +102,6 @@
       "title": "Simple Code, High Performance",
       "type": "story",
       "url": "https://www.youtube.com/watch?v=Ge3aKEmZcqY"
-    },
-    {
-      "by": "jaredwiener",
-      "descendants": 0,
-      "id": 28853482,
-      "score": 1,
-      "time": 1634139210,
-      "title": "William Shatner and crew blast to the edge of space",
-      "type": "story",
-      "url": "https://abcnews.go.com/US/live-updates/blue-origin-space-launch/?id=80536694"
-    },
-    {
-      "by": "HiroProtagonist",
-      "descendants": 0,
-      "id": 28853461,
-      "score": 1,
-      "time": 1634139103,
-      "title": "The Origin of Scorpion's “Get over Here ”",
-      "type": "story",
-      "url": "https://www.youtube.com/watch?v=OIZP6peZUQU"
-    },
-    {
-      "by": "SuboptimalEng",
-      "descendants": 0,
-      "id": 28853457,
-      "score": 1,
-      "text": "I started browsing HN in 2018 but only recently found out about BrandonM[0]. I&#x27;m curious to see if anyone had a BrandonM moment in their life.<p>For example, maybe you were choosing between working at two startups and made the &quot;wrong&quot; choice. Maybe you had the opportunity to invest in Bitcoin early but didn&#x27;t take the chance. Maybe you had the opportunity to decide which tech stack to use at a company and made the suboptimal call.<p>Have you ever held a strong opinion which turned out to be completely wrong.<p>1. What was it?<p>2. What was the result?<p>3. Does it haunt you to this day?<p>[0] https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=9224",
-      "time": 1634139085,
-      "title": "Ask HN: What was your BrandonM moment?",
-      "type": "story"
-    },
-    {
-      "by": "dredmorbius",
-      "descendants": 0,
-      "id": 28853424,
-      "score": 1,
-      "time": 1634138957,
-      "title": "Blowout in Oklahoma (2019) [video]",
-      "type": "story",
-      "url": "https://www.youtube.com/watch?v=1zDcsjHyxr8"
-    },
-    {
-      "by": "melvinmt",
-      "descendants": 0,
-      "id": 28853414,
-      "score": 1,
-      "time": 1634138921,
-      "title": "BoldVoice – Speak English more clearly and confidently",
-      "type": "story",
-      "url": "https://yetanotherstartup.com/p/boldvoice"
-    },
-    {
-      "by": "vpj",
-      "descendants": 0,
-      "id": 28853405,
-      "score": 1,
-      "time": 1634138880,
-      "title": "ICLR 2022 Submissions",
-      "type": "story",
-      "url": "https://papers.labml.ai/papers/iclr_2022"
-    },
-    {
-      "by": "colinprince",
-      "descendants": 0,
-      "id": 28853401,
-      "score": 1,
-      "time": 1634138869,
-      "title": "Van Gogh considered this his most important painting",
-      "type": "story",
-      "url": "https://www.cbc.ca/radio/asithappens/as-it-happens-the-tuesday-edition-1.6207895/van-gogh-considered-this-his-most-important-painting-everyone-else-thought-it-was-trash-1.6207404"
-    },
-    {
-      "by": "unglaublich",
-      "descendants": 0,
-      "id": 28853396,
-      "score": 1,
-      "time": 1634138853,
-      "title": "Optimal Control for Switched Systems",
-      "type": "story",
-      "url": "https://github.com/leggedrobotics/ocs2"
     }
   ]
 }
