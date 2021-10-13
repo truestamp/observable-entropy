@@ -1,6 +1,85 @@
 {
   "stories": [
     {
+      "by": "CrankyBear",
+      "descendants": 0,
+      "id": 28855498,
+      "score": 1,
+      "time": 1634148905,
+      "title": "Apache Web Server Bitten by Path Traversal Security Bug",
+      "type": "story",
+      "url": "https://thenewstack.io/apache-web-server-bitten-by-path-traversal-security-bug/"
+    },
+    {
+      "by": "steveyi",
+      "descendants": 0,
+      "id": 28855484,
+      "score": 1,
+      "time": 1634148828,
+      "title": "Show HN: Serverless Cloud – By the Creators of the Serverless Framework",
+      "type": "story",
+      "url": "https://www.serverless.com//cloud"
+    },
+    {
+      "by": "ilamont",
+      "descendants": 0,
+      "id": 28855480,
+      "score": 1,
+      "time": 1634148812,
+      "title": "How Amazon's Algorithms Changed Fiction",
+      "type": "story",
+      "url": "https://newrepublic.com/article/163531/amazon-changed-novel-fiction"
+    },
+    {
+      "by": "sksk",
+      "descendants": 0,
+      "id": 28855479,
+      "score": 2,
+      "time": 1634148811,
+      "title": "T-Mobile Introduces Home Internet",
+      "type": "story",
+      "url": "https://www.t-mobile.com/isp/plan"
+    },
+    {
+      "by": "ericdanielski",
+      "descendants": 0,
+      "id": 28855464,
+      "score": 2,
+      "time": 1634148719,
+      "title": "Intellectuals urge Germany to keep nuclear plants online",
+      "type": "story",
+      "url": "https://www.euractiv.com/section/electricity/news/german-intellectuals-urge-state-to-keep-nuclear-plants-online/"
+    },
+    {
+      "by": "WarOnPrivacy",
+      "descendants": 0,
+      "id": 28855456,
+      "score": 1,
+      "time": 1634148674,
+      "title": "Google, Amazon, Microsoft Use 3rd Parties to Sell Surveillance Tech to ICE, CBP",
+      "type": "story",
+      "url": "https://www.techdirt.com/articles/20211009/10260647722/google-amazon-microsoft-are-using-third-party-companies-to-sell-surveillance-tech-to-ice-cbp.shtml"
+    },
+    {
+      "by": "alexklwong",
+      "descendants": 0,
+      "id": 28855455,
+      "score": 1,
+      "text": "Our work &quot;Unsupervised Depth Completion with Calibrated Backprojection Layers&quot; has been accepted as an oral paper at ICCV 2021! We will be giving our talk during Session 10 (10&#x2F;13 2-3 pm PST &#x2F; 5-6 pm EST and 10&#x2F;15 7-8 am PST &#x2F; 10-11 am EST, https:&#x2F;&#x2F;www.eventscribe.net&#x2F;2021&#x2F;ICCV&#x2F;fsPopup.asp?efp=WlJFS0tHTEMxNTgzMA%20&amp;PosterID=428697%20&amp;rnd=0.4100732&amp;mode=posterinfo). This is joint work with Stefano Soatto at the UCLA Vision Lab.<p>In a nutshell: we propose a method for point cloud densification (from camera, IMU, range sensor) that can generalize well across different sensor platforms. The figure in this link illustrates our improvement over existing works: https:&#x2F;&#x2F;github.com&#x2F;alexklwong&#x2F;calibrated-backprojection-network&#x2F;blob&#x2F;master&#x2F;figures&#x2F;overview_teaser.gif<p>The slightly longer version: previous methods, when trained on one sensor platform, have problem generalizing to different ones when deployed to the wild. This is because they are overfitted to the sensors used to collect the training set. Our method takes image, sparse point cloud and camera calibration as input, which allows us to use a different calibration at test time. This significantly improves generalization to novel scenes captured by sensors different than those used during training. Amongst our innovations is a &quot;calibrated backprojection layer&quot; that imposes strong inductive bias on the network (as opposed trying to learn everything from the data). This design allows our method to achieve the state of the art on both indoor and outdoor scenarios while using a smaller model size and boasting a faster inference time.<p>For those interested, here are the links to<p>paper: https:&#x2F;&#x2F;arxiv.org&#x2F;pdf&#x2F;2108.10531.pdf<p>code (pytorch): https:&#x2F;&#x2F;github.com&#x2F;alexklwong&#x2F;calibrated-backprojection-network",
+      "time": 1634148672,
+      "title": "ICCV2021 oral paper improves generalization across sensor platforms",
+      "type": "story"
+    },
+    {
+      "by": "sgt",
+      "descendants": 0,
+      "id": 28855445,
+      "score": 1,
+      "time": 1634148622,
+      "title": "Ask HN: Reputable code signing service? For arbitrary payloads",
+      "type": "story"
+    },
+    {
       "by": "gordonhw",
       "descendants": 0,
       "id": 28855441,
@@ -19,89 +98,6 @@
       "title": "Ć: A programming language that translates automatically to many languages",
       "type": "story",
       "url": "https://github.com/pfusik/cito"
-    },
-    {
-      "by": "pauloxnet",
-      "descendants": 0,
-      "id": 28855419,
-      "score": 1,
-      "time": 1634148429,
-      "title": "Psycopg 3.0 Released",
-      "type": "story",
-      "url": "https://www.psycopg.org/articles/2021/10/13/psycopg-30-released/"
-    },
-    {
-      "by": "crakenzak",
-      "descendants": 0,
-      "id": 28855408,
-      "score": 1,
-      "time": 1634148342,
-      "title": "Cirq: Open-source framework for programming quantum computers",
-      "type": "story",
-      "url": "https://quantumai.google/cirq"
-    },
-    {
-      "by": "edward",
-      "descendants": 0,
-      "id": 28855399,
-      "score": 1,
-      "time": 1634148302,
-      "title": "Southwest new CEO denies walk-off rumors, defends pilots amid schedule meltdown",
-      "type": "story",
-      "url": "https://thepointsguy.com/news/southwest-airlines-new-ceo-pilots-cancellations/"
-    },
-    {
-      "by": "andrenth",
-      "descendants": 0,
-      "id": 28855392,
-      "score": 2,
-      "time": 1634148229,
-      "title": "China launches app to report people with ‘mistaken opinions’",
-      "type": "story",
-      "url": "https://www.independent.co.uk/asia/china/china-app-mistaken-opinions-report-b1834298.html"
-    },
-    {
-      "by": "hhs",
-      "descendants": 0,
-      "id": 28855383,
-      "score": 1,
-      "time": 1634148147,
-      "title": "Kellogg’s cereal strike is latest sign of pushback from US snack makers",
-      "type": "story",
-      "url": "https://www.ft.com/content/98e17738-e523-4ad5-baa8-6d65eb5495f3"
-    },
-    {
-      "by": "_Microft",
-      "descendants": 0,
-      "id": 28855379,
-      "score": 1,
-      "time": 1634148103,
-      "title": "Next time, we can close the vaccine gap much faster",
-      "type": "story",
-      "url": "https://www.gatesnotes.com/Health/Closing-the-vaccine-gap"
-    },
-    {
-      "by": "bryan0",
-      "descendants": 0,
-      "id": 28855360,
-      "score": 1,
-      "time": 1634147997,
-      "title": "Social Security COLA largest in decades as inflation jumps",
-      "type": "story",
-      "url": "https://www.politico.com/news/2021/10/13/social-security-cola-boost-515878"
-    },
-    {
-      "by": "rmason",
-      "descendants": 1,
-      "id": 28855353,
-      "kids": [
-        28855382
-      ],
-      "score": 1,
-      "time": 1634147963,
-      "title": "Facebook to Pay $40M Under Proposed Settlement in Video Metrics Suit",
-      "type": "story",
-      "url": "https://www.hollywoodreporter.com/business/business-news/facebook-pay-40-million-under-proposed-settlement-video-metrics-suit-1245807/"
     }
   ]
 }
