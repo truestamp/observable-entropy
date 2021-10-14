@@ -1,6 +1,26 @@
 {
   "stories": [
     {
+      "by": "tosh",
+      "descendants": 0,
+      "id": 28868004,
+      "score": 1,
+      "time": 1634235878,
+      "title": "Coinbase Digital Asset Policy Proposal",
+      "type": "story",
+      "url": "https://github.com/coinbase/digital-asset-policy-proposal"
+    },
+    {
+      "by": "envy2",
+      "descendants": 0,
+      "id": 28867999,
+      "score": 1,
+      "time": 1634235854,
+      "title": "WhatsApp launches end-to-end encrypted chat backups",
+      "type": "story",
+      "url": "https://about.fb.com/news/2021/10/end-to-end-encrypted-backups-on-whatsapp/"
+    },
+    {
       "by": "alexrustic",
       "descendants": 0,
       "id": 28867935,
@@ -42,8 +62,11 @@
     },
     {
       "by": "_Understated_",
-      "descendants": 0,
+      "descendants": 1,
       "id": 28867906,
+      "kids": [
+        28867981
+      ],
       "score": 1,
       "text": "As the title says, I&#x27;m trying to do some analysis on web data and I need a list of IP ranges and their corresponding geo locations. Doesn&#x27;t matter if they are integers, CIDR notation, ranges or whatever.<p>I&#x27;ve looked for ages and all I can find are API&#x27;s, not downloads.<p>I only need something as close as mapping an IP to a country and region&#x2F;state, I don&#x27;t need anything that maps to Postal Codes or streets or anything that granular. So as an example an IP would show that a user came from Texas, USA or UK, England or UK, Scotland, not the street where they live or anything. I&#x27;d even take mapping IP&#x27;s to cities if that&#x27;s all I can get but no closer than that, however, I can always remove any data that is closer to the ground if needed.<p>This is a hobby project, so I can&#x27;t afford much if I have to pay, which I&#x27;m happy to do.<p>Any ideas where I can get such a thing?",
       "time": 1634235404,
@@ -79,29 +102,6 @@
       "title": "Facebook Teaching AI to View the World Through Human Eyes",
       "type": "story",
       "url": "https://about.fb.com/news/2021/10/teaching-ai-to-view-the-world-through-your-eyes/"
-    },
-    {
-      "by": "endtwist",
-      "descendants": 0,
-      "id": 28867874,
-      "score": 1,
-      "time": 1634235288,
-      "title": "How the pandemic changed employee perks",
-      "type": "story",
-      "url": "https://www.washingtonpost.com/technology/2021/10/13/coronavirus-pandemic-remote-employee-benefits/"
-    },
-    {
-      "by": "_ndianabasi",
-      "descendants": 1,
-      "id": 28867872,
-      "kids": [
-        28867873
-      ],
-      "score": 2,
-      "time": 1634235280,
-      "title": "How to Avoid SQL Injections, XSS Attacks, and File Upload Attacks in Web Apps",
-      "type": "story",
-      "url": "https://tech.ndianabasi.com/how-to-avoid-sql-injections-xss-attacks-and-file-upload-attacks-in-your-web-application"
     }
   ]
 }
