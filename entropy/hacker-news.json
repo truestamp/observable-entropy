@@ -1,6 +1,36 @@
 {
   "stories": [
     {
+      "by": "miguelmurca",
+      "descendants": 0,
+      "id": 28877031,
+      "score": 1,
+      "time": 1634301242,
+      "title": "Wikipedia: Bauhaus",
+      "type": "story",
+      "url": "https://en.wikipedia.org/wiki/Bauhaus"
+    },
+    {
+      "by": "steve_g",
+      "descendants": 0,
+      "id": 28877028,
+      "score": 1,
+      "text": "I&#x27;m asking here because I know there are some smart optimization experts on HN.  I tried Reddit, but no joy.<p>In my production planning problem, I want to select around 1000 items from a set of 15000 items to process in a given day.  There are multiple constraints to satisfy and new items come in every day.  It’s very much like a multi-dimensional knapsack problem with some extra constraints.<p>Each item has its own identifier and they are truly unique items.  But they can be grouped for practical purposes so that (let’s say) 10 items could be represented by a single value and set of multi-dimensional costs.<p>I’d like to know whether it’s generally better for a MIP solver to represent selection of items by ten 0&#x2F;1 decision variables or one integer decision variable that must be &lt; 11 for ten items in a group.  I know if I use the ten variables I’d also need to do something to break symmetry of solutions – like maybe add a term to minimize items IDs in the objective function.<p>I’d appreciate any thoughts or pointers to good resources on this.  Thanks.",
+      "time": 1634301219,
+      "title": "Ask HN: 0/1 Decision variables vs. bounded integers for selection problem",
+      "type": "story"
+    },
+    {
+      "by": "nigerian1981",
+      "descendants": 0,
+      "id": 28877024,
+      "score": 1,
+      "time": 1634301193,
+      "title": "The case for minting a $1tn coin to deal with America’s debt ceiling",
+      "type": "story",
+      "url": "https://www.theguardian.com/commentisfree/2021/oct/15/the-case-for-minting-a-1tn-coin-to-deal-with-americas-debt-ceiling"
+    },
+    {
       "by": "sebisaacsinflow",
       "descendants": 0,
       "id": 28877003,
@@ -17,7 +47,7 @@
       "kids": [
         28876996
       ],
-      "score": 1,
+      "score": 2,
       "time": 1634300830,
       "title": "Reddit crowd's new tactic in war with Wall Street:cutting brokers out altogether",
       "type": "story",
@@ -75,39 +105,6 @@
       "title": "Don't assume anything when sharing health data",
       "type": "story",
       "url": "https://www.theregister.com/2021/10/15/health_data_debate_conclusion/"
-    },
-    {
-      "by": "TheMonarchist",
-      "descendants": 1,
-      "id": 28876947,
-      "kids": [
-        28876949
-      ],
-      "score": 3,
-      "time": 1634300443,
-      "title": "C++ most popular programming language in open source",
-      "type": "story",
-      "url": "https://www.openhub.net/languages/compare?utf8=%E2%9C%93&measure=contributors&language_name%5B%5D=c&language_name%5B%5D=cpp&language_name%5B%5D=java&language_name%5B%5D=javascript&language_name%5B%5D=shell&language_name%5B%5D=python&language_name%5B%5D=-1&commit=Update"
-    },
-    {
-      "by": "aazaa",
-      "descendants": 0,
-      "id": 28876942,
-      "score": 1,
-      "time": 1634300425,
-      "title": "SEC Set to Allow Bitcoin Futures ETFs as Deadline Looms",
-      "type": "story",
-      "url": "https://www.bloomberg.com/news/articles/2021-10-15/bitcoin-futures-etf-said-not-to-face-sec-opposition-at-deadline"
-    },
-    {
-      "by": "dntbrsnbl",
-      "descendants": 0,
-      "id": 28876939,
-      "score": 1,
-      "time": 1634300384,
-      "title": "A Minimalistic Wrapper for IndexedDB",
-      "type": "story",
-      "url": "https://dexie.org/"
     }
   ]
 }
