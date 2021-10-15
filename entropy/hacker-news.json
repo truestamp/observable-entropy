@@ -1,10 +1,66 @@
 {
   "stories": [
     {
+      "by": "phgn",
+      "descendants": 1,
+      "id": 28877107,
+      "kids": [
+        28877115
+      ],
+      "score": 1,
+      "time": 1634301833,
+      "title": "Show HN: A search engine for forgotten blog posts",
+      "type": "story",
+      "url": "https://lindylearn.io/blogs"
+    },
+    {
+      "by": "jbegley",
+      "descendants": 0,
+      "id": 28877095,
+      "score": 1,
+      "time": 1634301768,
+      "title": "The Unvaccinated May Not Be Who You Think",
+      "type": "story",
+      "url": "https://www.nytimes.com/2021/10/15/opinion/covid-vaccines-unvaccinated.html"
+    },
+    {
+      "by": "stewx",
+      "descendants": 0,
+      "id": 28877086,
+      "score": 1,
+      "time": 1634301728,
+      "title": "Real estate agents caught on camera steering buyers from low-commission homes",
+      "type": "story",
+      "url": "https://www.cbc.ca/news/canada/marketplace-real-estate-agents-1.6209706"
+    },
+    {
+      "by": "hasheddan",
+      "descendants": 0,
+      "id": 28877076,
+      "score": 1,
+      "time": 1634301692,
+      "title": "eBPF Syscall Recorder",
+      "type": "story",
+      "url": "https://github.com/saschagrunert/syscall-recorder"
+    },
+    {
+      "by": "luke2m",
+      "descendants": 1,
+      "id": 28877075,
+      "kids": [
+        28877101
+      ],
+      "score": 1,
+      "text": "My primary computer was 32 bit x86 until last year. I still use it often, but more and more software is dropping support.",
+      "time": 1634301679,
+      "title": "Ask HN: Does anyone else use a 32 bit computer regularly?",
+      "type": "story"
+    },
+    {
       "by": "giuliomagnifico",
       "descendants": 0,
       "id": 28877058,
-      "score": 1,
+      "score": 2,
       "time": 1634301524,
       "title": "Bitcoin: Who owns it, who mines it, who’s breaking the law",
       "type": "story",
@@ -14,6 +70,9 @@
       "by": "miguelmurca",
       "descendants": 0,
       "id": 28877031,
+      "kids": [
+        28877073
+      ],
       "score": 1,
       "time": 1634301242,
       "title": "Wikipedia: Bauhaus",
@@ -24,7 +83,7 @@
       "by": "steve_g",
       "descendants": 0,
       "id": 28877028,
-      "score": 1,
+      "score": 2,
       "text": "I&#x27;m asking here because I know there are some smart optimization experts on HN.  I tried Reddit, but no joy.<p>In my production planning problem, I want to select around 1000 items from a set of 15000 items to process in a given day.  There are multiple constraints to satisfy and new items come in every day.  It’s very much like a multi-dimensional knapsack problem with some extra constraints.<p>Each item has its own identifier and they are truly unique items.  But they can be grouped for practical purposes so that (let’s say) 10 items could be represented by a single value and set of multi-dimensional costs.<p>I’d like to know whether it’s generally better for a MIP solver to represent selection of items by ten 0&#x2F;1 decision variables or one integer decision variable that must be &lt; 11 for ten items in a group.  I know if I use the ten variables I’d also need to do something to break symmetry of solutions – like maybe add a term to minimize items IDs in the objective function.<p>I’d appreciate any thoughts or pointers to good resources on this.  Thanks.",
       "time": 1634301219,
       "title": "Ask HN: 0/1 Decision variables vs. bounded integers for selection problem",
@@ -34,7 +93,7 @@
       "by": "nigerian1981",
       "descendants": 0,
       "id": 28877024,
-      "score": 1,
+      "score": 2,
       "time": 1634301193,
       "title": "The case for minting a $1tn coin to deal with America’s debt ceiling",
       "type": "story",
@@ -49,59 +108,6 @@
       "time": 1634300938,
       "title": "Launch HN: Inflow (YC S21) – Self-help app for ADHD people",
       "type": "story"
-    },
-    {
-      "by": "bookofjoe",
-      "descendants": 1,
-      "id": 28876992,
-      "kids": [
-        28876996
-      ],
-      "score": 2,
-      "time": 1634300830,
-      "title": "Reddit crowd's new tactic in war with Wall Street:cutting brokers out altogether",
-      "type": "story",
-      "url": "https://www.marketwatch.com/story/the-reddit-crowd-has-found-a-new-tactic-in-the-war-against-wall-street-cutting-brokers-out-altogether-11634250783"
-    },
-    {
-      "by": "andras_gerlits",
-      "descendants": 0,
-      "id": 28876986,
-      "score": 1,
-      "text": "I&#x27;ve built software which can provide distributed global ordering and mutexes over even geographically distributed kafka topics.<p>I believe I can bring together the monolith-people with the microservice-people by reconciling the benefits of both approaches.<p>This is an &quot;easy to access&quot; article on my project:<p>https:&#x2F;&#x2F;medium.com&#x2F;me&#x2F;stats&#x2F;post&#x2F;6a1d11edc1cd<p>This is one on CAP Theorem and how it applies to us<p>https:&#x2F;&#x2F;andrasgerlits.medium.com&#x2F;cap-and-us-9e0734cbfe1e<p>AMA",
-      "time": 1634300771,
-      "title": "I automated my work as a distributed systems consultant by inventing new theory",
-      "type": "story"
-    },
-    {
-      "by": "CapitalistCartr",
-      "descendants": 0,
-      "id": 28876976,
-      "score": 1,
-      "time": 1634300678,
-      "title": "Uber Freight boss says 'We're living in shipping Armageddon'",
-      "type": "story",
-      "url": "https://www.businessinsider.com/shipping-crisis-supply-chain-uber-logistics-boss-armageddon-2021-10"
-    },
-    {
-      "by": "graderjs",
-      "descendants": 0,
-      "id": 28876970,
-      "score": 1,
-      "time": 1634300636,
-      "title": "Petition for Naturalization for Antonio Rudolfo Quinn",
-      "type": "story",
-      "url": "https://catalog.archives.gov/id/595184"
-    },
-    {
-      "by": "kjhughes",
-      "descendants": 0,
-      "id": 28876951,
-      "score": 1,
-      "time": 1634300459,
-      "title": "Work with PDF files right in the browser",
-      "type": "story",
-      "url": "https://blog.adobe.com/en/publish/2021/10/12/work-with-pdf-files-right-in-your-browser.html"
     }
   ]
 }
