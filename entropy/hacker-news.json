@@ -1,6 +1,56 @@
 {
   "stories": [
     {
+      "by": "tate",
+      "descendants": 0,
+      "id": 28879142,
+      "score": 1,
+      "time": 1634313305,
+      "title": "Microsoft reduced Windows 11 update size by 40%",
+      "type": "story",
+      "url": "https://techcommunity.microsoft.com/t5/windows-it-pro-blog/how-microsoft-reduced-windows-11-update-size-by-40/ba-p/2839794"
+    },
+    {
+      "by": "feross",
+      "descendants": 0,
+      "id": 28879140,
+      "score": 1,
+      "time": 1634313296,
+      "title": "Custom properties with defaults: 3+1 strategies",
+      "type": "story",
+      "url": "https://lea.verou.me/2021/10/custom-properties-with-defaults/"
+    },
+    {
+      "by": "jseliger",
+      "descendants": 0,
+      "id": 28879133,
+      "score": 1,
+      "time": 1634313279,
+      "title": "Open Source Is Finally Coming to Financial Services",
+      "type": "story",
+      "url": "https://future.a16z.com/open-source-financial-services/"
+    },
+    {
+      "by": "tate",
+      "descendants": 0,
+      "id": 28879132,
+      "score": 1,
+      "time": 1634313275,
+      "title": "Navigating Remote Work",
+      "type": "story",
+      "url": "https://blog.davidtate.org/navigating-remote-work/"
+    },
+    {
+      "by": "virtualwhys",
+      "descendants": 0,
+      "id": 28879115,
+      "score": 3,
+      "time": 1634313211,
+      "title": "Tether Fined $41M for Lying About Fiat Currency Backing",
+      "type": "story",
+      "url": "https://www.bloomberg.com/news/articles/2021-10-15/tether-bitfinex-to-pay-fines-totaling-42-5-million-cftc-says"
+    },
+    {
       "by": "CoolCandace",
       "descendants": 0,
       "id": 28879068,
@@ -15,7 +65,7 @@
       "descendants": 0,
       "id": 28879061,
       "score": 1,
-      "text": "Use case: I create a new &quot;Project&quot;, where I can add multiple .mp4 files, texts, audio .aac&#x2F;.ogg files - anything from gallery or from some textarea of the app and organize these items as a &quot;list&quot; of &quot;resources&quot;. That files are not sending anywhere - the project only keep their filenames (if item is a file, not a piece of text) in specific order.<p>Then there is &quot;send&quot; part.<p>When I press &quot;Send&quot;, the app POST the project as a json with list of the resources to my server (url specified in settings). Then app send all the resources (files) to the same server using rsync or maybe HTTP and able to resume uploading any file from any point where previous uploading is died due to wifi switching.<p>Server gets 2 things: (1) a json with list of items and (2) the resources (files). What server do is up to developer of server or depends of a field &quot;command&quot; in project&#x27;s settings (the .json (1)).<p>For example, the server could implement a simple video editing service: concatenate all the .mp4 files passed to it in list. Or maybe glue .jpg to .ogg sound, get short video from each pair of (.jpg&#x2F;.ogg) and concatenate all the parts.<p>Or maybe server see the project as a Twitter&#x2F;FB&#x2F;Medium&#x2F;Blogger post: all text and images goes to their places, videos get uploaded to youtube and links inserted to corresponding places of the post. Depends on my fantasy and Python coding skills.<p>So, I am looking for such a Project Creator, that can let me edit my project and then posts the project to my custom URL or IP.<p>Also can discuss this topic in a disposable chat: https:&#x2F;&#x2F;nanochat.ru&#x2F;proproject",
+      "text": "Use case: I create a new &quot;Project&quot;, where I can add multiple .mp4 files, texts, audio .aac&#x2F;.ogg files - anything from gallery or from some textarea of the app and organize these items as a &quot;list&quot; of &quot;resources&quot;. That files are not sending anywhere - the project only keep their filenames (if item is a file, not a piece of text) in specific order.<p>Imagine this as a messenger, where i send files&#x2F;texts&#x2F;voice msgs to a &quot;Project&quot; chat and can reorder items in that chat. And can have multiple project-chats in my contact list.<p>Then there is &quot;send&quot; part.<p>When I press &quot;Send Project&quot;, the app POST the project as a json with list of the resources to my server (url specified in settings). Then app send all the resources (files) to the same server using rsync or maybe HTTP and able to resume uploading any file from any point where previous uploading is died due to wifi switching.<p>Server gets 2 things: (1) a json with list of items and (2) the resources (files). What server do is up to developer of server or depends of a field &quot;command&quot; in project&#x27;s settings (the .json (1)).<p>For example, the server could implement a simple video editing service: concatenate all the .mp4 files passed to it in list. Or maybe glue .jpg to .ogg sound, get short video from each pair of (.jpg&#x2F;.ogg) and concatenate all the parts.<p>Or maybe server see the project as a Twitter&#x2F;FB&#x2F;Medium&#x2F;Blogger post: all text and images goes to their places, videos get uploaded to youtube and links inserted to corresponding places of the post. Depends on my fantasy and Python coding skills.<p>So, I am looking for such a Project Creator, that can let me edit my project and then posts the project to my custom URL or IP.<p>Also can discuss this topic in a disposable chat: https:&#x2F;&#x2F;nanochat.ru&#x2F;proproject",
       "time": 1634312965,
       "title": "Ask HN: Looking for Android app for making “projects of files”",
       "type": "story"
@@ -34,7 +84,7 @@
       "by": "mrfusion",
       "descendants": 0,
       "id": 28879034,
-      "score": 1,
+      "score": 2,
       "time": 1634312829,
       "title": "Covid, lockdown and the retreat of scientific debate – The Spectator",
       "type": "story",
@@ -49,56 +99,6 @@
       "title": "Apple pushing back against South Korea's App Store payment law",
       "type": "story",
       "url": "https://appleinsider.com/articles/21/10/15/apple-pushing-back-against-south-koreas-app-store-payment-law"
-    },
-    {
-      "by": "elorant",
-      "descendants": 0,
-      "id": 28878991,
-      "score": 2,
-      "time": 1634312614,
-      "title": "Most Canadians believe Facebook harms their mental health",
-      "type": "story",
-      "url": "https://www.theglobeandmail.com/canada/article-most-canadians-believe-facebook-harms-their-mental-health-survey-2/"
-    },
-    {
-      "by": "paulshen",
-      "descendants": 0,
-      "id": 28878990,
-      "score": 1,
-      "time": 1634312608,
-      "title": "Freeform editors like Natto are the future of programming",
-      "type": "story",
-      "url": "https://www.youtube.com/watch?v=jEdG2iHcD9Y"
-    },
-    {
-      "by": "sodimel",
-      "descendants": 0,
-      "id": 28878980,
-      "score": 1,
-      "time": 1634312537,
-      "title": "I tested some domains, and there's 30× more JavaScript than HTML on average",
-      "type": "story",
-      "url": "https://misc.l3m.in/txt/js_ratio.txt"
-    },
-    {
-      "by": "vpj",
-      "descendants": 0,
-      "id": 28878959,
-      "score": 1,
-      "time": 1634312432,
-      "title": "Breakthrough SARS-CoV-2 infections in 620k U.S. Veterans",
-      "type": "story",
-      "url": "https://med.papers.bar/paper/ebd9678a2d4011ec9e9dcba33be64600"
-    },
-    {
-      "by": "avi_vallarapu",
-      "descendants": 0,
-      "id": 28878918,
-      "score": 2,
-      "time": 1634312219,
-      "title": "PostgreSQL adds support for OUT parameters in Procedures",
-      "type": "story",
-      "url": "https://www.migops.com/blog/2021/10/14/stored-procedure-out-parameters-in-postgresql-14/"
     }
   ]
 }
