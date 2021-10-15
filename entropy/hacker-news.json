@@ -1,9 +1,32 @@
 {
   "stories": [
     {
-      "by": "codegeek",
+      "by": "johnmaguire",
       "descendants": 0,
+      "id": 28877671,
+      "score": 1,
+      "text": "If you&#x27;re implementing GraphQL on the backend or querying a GraphQL API for data on the frontend of a reactive single-page application, what&#x27;s your overall impression of it?<p>Has the extra complexity been worth it over building a RESTful or RESTless (e.g. RPC) API?<p>The strong typing on the client and server, well-defined protocol with introspection built-in, and flexibility of the query language seem like a boon for quick frontend development.<p>However, it seems to come with some complexities - reworking middleware into something compatible with resolvers (authentication, rate limiting, etc.), concerns about queries being used in ways you don&#x27;t expect (N+1 problems, solvable via data loaders or query complexity limits), and common methods for viewing metrics (e.g. tracking stats by URI, status code, and verb) need to be reconsidered.<p>How&#x27;s it working out for you?",
+      "time": 1634305884,
+      "title": "Ask HN: GraphQL users for single-page applications, what are your experiencies?",
+      "type": "story"
+    },
+    {
+      "by": "lnyan",
+      "descendants": 0,
+      "id": 28877661,
+      "score": 1,
+      "time": 1634305808,
+      "title": "Relighting Humans in the Wild: Full-Body Human Relighting with Domain Adaptation",
+      "type": "story",
+      "url": "http://www.cgg.cs.tsukuba.ac.jp/~tajima/pub/relighting_in_the_wild/"
+    },
+    {
+      "by": "codegeek",
+      "descendants": 1,
       "id": 28877660,
+      "kids": [
+        28877693
+      ],
       "score": 1,
       "text": "Not trying to start a flamewar. I love Nginx and just started tinkering with Caddy. Blew my mind since https is built-in.<p>I am considering using caddy in Production for a new project I am starting. Would love to hear Pros and Cons. For example, does Caddy have similar level of features like nginx.",
       "time": 1634305798,
@@ -24,7 +47,7 @@
       "by": "PhilipWee",
       "descendants": 0,
       "id": 28877653,
-      "score": 1,
+      "score": 5,
       "time": 1634305717,
       "title": "Show HN: EzBackend – Node Package for building your MVP Faster",
       "type": "story",
@@ -54,7 +77,7 @@
       "by": "stuartbman",
       "descendants": 0,
       "id": 28877620,
-      "score": 3,
+      "score": 5,
       "time": 1634305555,
       "title": "Why Can't AI Detect Sepsis?",
       "type": "story",
@@ -82,26 +105,6 @@
       "time": 1634305258,
       "title": "Ask HN: Archive a large directory while excluding a subdirectory",
       "type": "story"
-    },
-    {
-      "by": "pseudolus",
-      "descendants": 0,
-      "id": 28877553,
-      "score": 2,
-      "time": 1634305102,
-      "title": "‘I hope you die’: how the Covid pandemic unleashed attacks on scientists",
-      "type": "story",
-      "url": "https://www.nature.com/articles/d41586-021-02741-x"
-    },
-    {
-      "by": "picture",
-      "descendants": 0,
-      "id": 28877548,
-      "score": 1,
-      "time": 1634305086,
-      "title": "Acoup: Fireside Friday October 15, 2021",
-      "type": "story",
-      "url": "https://acoup.blog/2021/10/15/fireside-friday-october-15-2021/"
     }
   ]
 }
