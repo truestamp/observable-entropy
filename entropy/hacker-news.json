@@ -1,13 +1,87 @@
 {
   "stories": [
     {
-      "by": "twothumbsup",
+      "by": "throwawaysea",
+      "descendants": 0,
+      "id": 28881931,
+      "score": 1,
+      "time": 1634325570,
+      "title": "How much money YouTubers with 1M subscribers make",
+      "type": "story",
+      "url": "https://www.businessinsider.com/how-much-money-youtubers-with-1-million-subscribers-make-2021-10"
+    },
+    {
+      "by": "CarCooler",
+      "descendants": 0,
+      "id": 28881927,
+      "score": 1,
+      "time": 1634325543,
+      "title": "Tesla starts offering insurance in Texas, based on real-time driving behavior",
+      "type": "story",
+      "url": "https://www.teslaoracle.com/2021/10/14/tesla-starts-offering-insurance-in-texas-based-on-real-time-driving-behavior/"
+    },
+    {
+      "by": "nradov",
+      "descendants": 0,
+      "id": 28881923,
+      "score": 1,
+      "time": 1634325538,
+      "title": "mRNA vaccines induce durable immune memory to SARS-CoV-2 and variants of concern",
+      "type": "story",
+      "url": "https://www.science.org/doi/10.1126/science.abm0829"
+    },
+    {
+      "by": "archagon",
+      "descendants": 0,
+      "id": 28881911,
+      "score": 1,
+      "time": 1634325468,
+      "title": "Peter Thiel bets on far right, spending millions to bankroll “Trump wing” of GOP",
+      "type": "story",
+      "url": "https://www.salon.com/2021/10/15/peter-thiel-bets-on-the-far-right-tech-tycoon-spending-millions-to-bankroll-trump-wing-of/"
+    },
+    {
+      "by": "jonsen",
+      "descendants": 0,
+      "id": 28881902,
+      "score": 1,
+      "time": 1634325446,
+      "title": "Fear Not",
+      "type": "story",
+      "url": "https://aeon.co/essays/fear-not-horror-movies-build-community-and-emotional-resilience"
+    },
+    {
+      "by": "denton-scratch",
       "descendants": 1,
+      "id": 28881890,
+      "kids": [
+        28881930
+      ],
+      "score": 2,
+      "text": "I&#x27;m pretty sure I have used a search UI. Also, I understand it&#x27;s considered polite to search before submitting.<p>But now I can&#x27;t find it.",
+      "time": 1634325398,
+      "title": "Ask HN: How does one search HN?",
+      "type": "story"
+    },
+    {
+      "by": "dash2",
+      "descendants": 0,
+      "id": 28881872,
+      "score": 1,
+      "time": 1634325316,
+      "title": "Li Bai and the Doorways of Night",
+      "type": "story",
+      "url": "https://wyclif.substack.com/p/li-bai-and-the-doorways-of-night"
+    },
+    {
+      "by": "twothumbsup",
+      "descendants": 2,
       "id": 28881843,
       "kids": [
+        28881883,
         28881862
       ],
-      "score": 1,
+      "score": 2,
       "text": "As the title says, how do you all host your small personal projects with an eye towards cost? I&#x27;ve ruled out hosting them locally in my home lab.<p>I&#x27;m putting together a small personal project related to one of my hobbies, basically a tiny web app. It will have a small Postgres DB, a basic Flask API, and then eventually a TypeScript frontend. The MVP is essentially creating a query-able backend for contest results, though eventually I&#x27;d like to expand it to a whole management platform for these contests. The events happen infrequently (~3 times a year at most) so the data grows in (small) bursts and is otherwise static. At this point it&#x27;s entirely text and number data as its currently managed through spreadsheets.<p>For deployment, I&#x27;m considering:<p>* AWS RDS + EC2 (or the GCP equivalent) for the db + API\n* Fly.io (or another provider in this space (Heroku?)) because deploying at the edge is appealing and their DB pricing seems reasonable\n* Fully manual via VPS &#x2F; dedi hosts like OVH&#x2F;Vultr&#x2F;Scaleway&#x2F;etc<p>AWS&#x2F;GCP is appealing because of familiarity through work and it offloads having to manage the databases myself and the data centers are closer to our user base. EC2+RDS works out to ~$20&#x2F;mo for EC2 (t4g.small) + ~$25 for RDS (db.t4g.micro), GCP is about half that (~$25) for an e2-small and db-f1-micro.<p>Fly.io is similarly appealing with the benefit of edge deployments, not that my application is particularly latency sensitive. Fly.io would be between ~$7 (free tier compute + basic postgres) and ~$20. Heroku would be between free and $16&#x2F;mo (for the $7 hobby dyno and $9 hobby basic psql)<p>OVH et. al are appealing on a cost basis, but feel like they would require a lot more work to ensure similar reliability to the other options. Kimsufi would be between $10 - $40&#x2F;mo depending on the data center location (Canada or France), Vultr (VPS) would be $10-15&#x2F;mo, Scaleway Dev (VPS) instances would be $10-$20&#x2F;mo, Hetzner (VPS) would be $10-$15 (though the downside being their data centers are in Germany and Finland while the majority of our users are in the USA). Specs seem better for the money for these but at the cost of having to manage all of the infrastructure myself.",
       "time": 1634325184,
       "title": "Ask HN: How do you cost-efficiently host your small personal projects?",
@@ -32,76 +106,6 @@
       "title": "Two Key Focuses (and a Checklist) for New Engineering Managers",
       "type": "story",
       "url": "https://devinterrupted.com/two-key-focuses-and-a-checklist-for-new-engineering-managers/"
-    },
-    {
-      "by": "CarCooler",
-      "descendants": 0,
-      "id": 28881788,
-      "score": 2,
-      "time": 1634324874,
-      "title": "Tesla Is Up $1B on Its Bitcoin Investment",
-      "type": "story",
-      "url": "https://futurism.com/the-byte/tesla-billion-bitcoin-investment"
-    },
-    {
-      "by": "amrrs",
-      "descendants": 0,
-      "id": 28881769,
-      "score": 1,
-      "time": 1634324796,
-      "title": "How my company is winning the war for engineering talent",
-      "type": "story",
-      "url": "https://techcrunch.com/2021/10/12/how-my-company-is-winning-the-war-for-engineering-talent/"
-    },
-    {
-      "by": "benzible",
-      "descendants": 0,
-      "id": 28881760,
-      "score": 1,
-      "time": 1634324769,
-      "title": "Analysis of Walgreens' stated reasoning for closing SF stores",
-      "type": "story",
-      "url": "https://www.sfgate.com/bay-area-politics/article/San-Francisco-Walgreens-closure-retail-theft-16533142.php"
-    },
-    {
-      "by": "Terretta",
-      "descendants": 0,
-      "id": 28881759,
-      "score": 1,
-      "time": 1634324767,
-      "title": "Twitch downplays this month's hack, says it had minimal impact",
-      "type": "story",
-      "url": "https://www.bleepingcomputer.com/news/security/twitch-downplays-this-months-hack-says-it-had-minimal-impact/"
-    },
-    {
-      "by": "nradov",
-      "descendants": 0,
-      "id": 28881749,
-      "score": 1,
-      "time": 1634324716,
-      "title": "Moderna Vaccine for Adolescents Delayed as FDA Reviews Side Effect",
-      "type": "story",
-      "url": "https://www.wsj.com/articles/fda-delays-moderna-covid-19-vaccine-for-adolescents-to-review-rare-myocarditis-side-effect-11634315159"
-    },
-    {
-      "by": "jonathan-adly",
-      "descendants": 0,
-      "id": 28881715,
-      "score": 1,
-      "time": 1634324577,
-      "title": "My Minimalistic Django Boilerplate",
-      "type": "story",
-      "url": "https://htmx-django.com/blog/a-minimalistic-modern-django-boilerplate"
-    },
-    {
-      "by": "dev_tty01",
-      "descendants": 0,
-      "id": 28881707,
-      "score": 1,
-      "time": 1634324539,
-      "title": "U.S. Treasury puts crypto industry on notice over rising ransomware attacks",
-      "type": "story",
-      "url": "https://www.reuters.com/business/finance/us-treasury-warns-crypto-industry-preventing-sanctions-violations-2021-10-15/"
     }
   ]
 }
