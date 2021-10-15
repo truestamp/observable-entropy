@@ -1,6 +1,36 @@
 {
   "stories": [
     {
+      "by": "2a0c40",
+      "descendants": 0,
+      "id": 28881972,
+      "score": 1,
+      "time": 1634325800,
+      "title": "The Betty Crocker Effect",
+      "type": "story",
+      "url": "https://sketchplanations.com/the-betty-crocker-effect"
+    },
+    {
+      "by": "qwertyuiop_",
+      "descendants": 0,
+      "id": 28881950,
+      "score": 1,
+      "time": 1634325666,
+      "title": "Apple takes down Koran app in China",
+      "type": "story",
+      "url": "https://www.bbc.com/news/technology-58921230"
+    },
+    {
+      "by": "theafh",
+      "descendants": 0,
+      "id": 28881946,
+      "score": 1,
+      "time": 1634325659,
+      "title": "SimVLM: Simple Visual Language Model Pre-Training with Weak Supervision",
+      "type": "story",
+      "url": "https://ai.googleblog.com/2021/10/simvlm-simple-visual-language-model-pre.html"
+    },
+    {
       "by": "throwawaysea",
       "descendants": 0,
       "id": 28881931,
@@ -32,9 +62,12 @@
     },
     {
       "by": "archagon",
-      "descendants": 0,
+      "descendants": 1,
       "id": 28881911,
-      "score": 1,
+      "kids": [
+        28881940
+      ],
+      "score": 2,
       "time": 1634325468,
       "title": "Peter Thiel bets on far right, spending millions to bankroll “Trump wing” of GOP",
       "type": "story",
@@ -44,7 +77,7 @@
       "by": "jonsen",
       "descendants": 0,
       "id": 28881902,
-      "score": 1,
+      "score": 2,
       "time": 1634325446,
       "title": "Fear Not",
       "type": "story",
@@ -52,9 +85,11 @@
     },
     {
       "by": "denton-scratch",
-      "descendants": 1,
+      "descendants": 3,
       "id": 28881890,
       "kids": [
+        28881992,
+        28881939,
         28881930
       ],
       "score": 2,
@@ -72,40 +107,6 @@
       "title": "Li Bai and the Doorways of Night",
       "type": "story",
       "url": "https://wyclif.substack.com/p/li-bai-and-the-doorways-of-night"
-    },
-    {
-      "by": "twothumbsup",
-      "descendants": 2,
-      "id": 28881843,
-      "kids": [
-        28881883,
-        28881862
-      ],
-      "score": 2,
-      "text": "As the title says, how do you all host your small personal projects with an eye towards cost? I&#x27;ve ruled out hosting them locally in my home lab.<p>I&#x27;m putting together a small personal project related to one of my hobbies, basically a tiny web app. It will have a small Postgres DB, a basic Flask API, and then eventually a TypeScript frontend. The MVP is essentially creating a query-able backend for contest results, though eventually I&#x27;d like to expand it to a whole management platform for these contests. The events happen infrequently (~3 times a year at most) so the data grows in (small) bursts and is otherwise static. At this point it&#x27;s entirely text and number data as its currently managed through spreadsheets.<p>For deployment, I&#x27;m considering:<p>* AWS RDS + EC2 (or the GCP equivalent) for the db + API\n* Fly.io (or another provider in this space (Heroku?)) because deploying at the edge is appealing and their DB pricing seems reasonable\n* Fully manual via VPS &#x2F; dedi hosts like OVH&#x2F;Vultr&#x2F;Scaleway&#x2F;etc<p>AWS&#x2F;GCP is appealing because of familiarity through work and it offloads having to manage the databases myself and the data centers are closer to our user base. EC2+RDS works out to ~$20&#x2F;mo for EC2 (t4g.small) + ~$25 for RDS (db.t4g.micro), GCP is about half that (~$25) for an e2-small and db-f1-micro.<p>Fly.io is similarly appealing with the benefit of edge deployments, not that my application is particularly latency sensitive. Fly.io would be between ~$7 (free tier compute + basic postgres) and ~$20. Heroku would be between free and $16&#x2F;mo (for the $7 hobby dyno and $9 hobby basic psql)<p>OVH et. al are appealing on a cost basis, but feel like they would require a lot more work to ensure similar reliability to the other options. Kimsufi would be between $10 - $40&#x2F;mo depending on the data center location (Canada or France), Vultr (VPS) would be $10-15&#x2F;mo, Scaleway Dev (VPS) instances would be $10-$20&#x2F;mo, Hetzner (VPS) would be $10-$15 (though the downside being their data centers are in Germany and Finland while the majority of our users are in the USA). Specs seem better for the money for these but at the cost of having to manage all of the infrastructure myself.",
-      "time": 1634325184,
-      "title": "Ask HN: How do you cost-efficiently host your small personal projects?",
-      "type": "story"
-    },
-    {
-      "by": "planokay",
-      "descendants": 0,
-      "id": 28881832,
-      "score": 1,
-      "time": 1634325071,
-      "title": "Show HN: Create real-time banner/dp on Twitter and increase engagement",
-      "type": "story",
-      "url": "https://plugmebot.com"
-    },
-    {
-      "by": "seattleiteite",
-      "descendants": 0,
-      "id": 28881826,
-      "score": 2,
-      "time": 1634325044,
-      "title": "Two Key Focuses (and a Checklist) for New Engineering Managers",
-      "type": "story",
-      "url": "https://devinterrupted.com/two-key-focuses-and-a-checklist-for-new-engineering-managers/"
     }
   ]
 }
