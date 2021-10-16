@@ -1,6 +1,66 @@
 {
   "stories": [
     {
+      "by": "sahin",
+      "descendants": 0,
+      "id": 28884846,
+      "score": 1,
+      "time": 1634347481,
+      "title": "79% of companies say they will raise DEI budget in 2022",
+      "type": "story",
+      "url": "https://venturebeat.com/2021/10/15/report-79-of-companies-say-they-will-raise-dei-budget-in-2022/"
+    },
+    {
+      "by": "matthberg",
+      "descendants": 0,
+      "id": 28884841,
+      "score": 1,
+      "time": 1634347439,
+      "title": "Saving copies of everything is like low-budget P2P",
+      "type": "story",
+      "url": "https://subconscious.substack.com/p/saving-copies-of-everything-is-like"
+    },
+    {
+      "by": "sidedishes",
+      "descendants": 0,
+      "id": 28884838,
+      "score": 1,
+      "text": "Hi HN, types-ish &#x2F; FP-ish question. I&#x27;ve asked around and not found a good answer so I wanted to ask here.<p>When I represent a system&#x27;s state, I am often searching for a type that neatly bijects to it. A dumb example is maybe, with a stoplight I might use a tagged union with 3 states (Red | Yellow | Green) over a struct with 3 booleans isRed, isYellow, isGreen, because the latter admits invalid states. A more realistic example is say, in a platformer when I see a boolean isJumping (in the air) and isFalling (in the air and also falling) when a union of (Grounded | Rising | Falling) might be more compact.<p>Likewise I might want to avoid a type having multiple values representing the same state. If I have a time series for temperature from a thermometer that&#x27;s only sometimes on, I might prefer a list&lt;optional&lt;int&gt;&gt; over a list&lt;pair&lt;bool,int&gt;&gt; where the bool is the on state, since the int doesn&#x27;t matter if when it&#x27;s off.<p>I&#x27;m not saying that the compact representation is always better but there&#x27;s certainly some utility or at least aesthetic quality. Is there a word for this? The words I&#x27;ve been using here have just been pulled out of the air.",
+      "time": 1634347394,
+      "title": "Ask HN: What's the word for when your type 'compactly' represents your state?",
+      "type": "story"
+    },
+    {
+      "by": "larsiusprime",
+      "descendants": 0,
+      "id": 28884837,
+      "score": 1,
+      "time": 1634347362,
+      "title": "1500 Archers on a 28.8: Network Programming in Age of Empires and Beyond",
+      "type": "story",
+      "url": "https://www.gamedeveloper.com/programming/1500-archers-on-a-28-8-network-programming-in-age-of-empires-and-beyond"
+    },
+    {
+      "by": "aaronbrethorst",
+      "descendants": 0,
+      "id": 28884828,
+      "score": 2,
+      "time": 1634347249,
+      "title": "Key to Biden's Climate Agenda Like to Be Cut Because of Manchin",
+      "type": "story",
+      "url": "https://www.nytimes.com/2021/10/15/climate/biden-clean-energy-manchin.html"
+    },
+    {
+      "by": "hhs",
+      "descendants": 0,
+      "id": 28884827,
+      "score": 1,
+      "time": 1634347248,
+      "title": "Times change: Oliver Wendell Holmes Jr. tracks the arc of justice (1897)",
+      "type": "story",
+      "url": "https://www.laphamsquarterly.org/rule-law/times-change"
+    },
+    {
       "by": "bane",
       "descendants": 0,
       "id": 28884820,
@@ -34,77 +94,11 @@
       "by": "todsacerdoti",
       "descendants": 0,
       "id": 28884768,
-      "score": 3,
+      "score": 6,
       "time": 1634346438,
       "title": "Minias – A mini x86-64 assembler for fun and learning",
       "type": "story",
       "url": "https://github.com/andrewchambers/minias"
-    },
-    {
-      "by": "Hotdicknews",
-      "descendants": 1,
-      "id": 28884764,
-      "kids": [
-        28884788
-      ],
-      "score": 2,
-      "time": 1634346368,
-      "title": "NCAC Condemns Takedown of Trump Cartoon",
-      "type": "story",
-      "url": "https://pingofive.com/blogs/2401/NCAC-CONDEMNS-TAKEDOWN-OF-TRUMP-CARTOON"
-    },
-    {
-      "by": "ghuntley",
-      "descendants": 0,
-      "id": 28884730,
-      "score": 1,
-      "time": 1634345876,
-      "title": "Teams and Projects at Gitpod",
-      "type": "story",
-      "url": "https://www.gitpod.io/blog/teams-and-projects"
-    },
-    {
-      "by": "indigodaddy",
-      "descendants": 0,
-      "id": 28884699,
-      "score": 1,
-      "time": 1634345377,
-      "title": "DX-Ball",
-      "type": "story",
-      "url": "https://dx-ball.ru/"
-    },
-    {
-      "by": "dwmbt",
-      "descendants": 0,
-      "id": 28884661,
-      "score": 1,
-      "time": 1634344966,
-      "title": "Ani-CLI (a CLI to browse and watch anime)",
-      "type": "story",
-      "url": "https://github.com/pystardust/ani-cli"
-    },
-    {
-      "by": "pseudolus",
-      "descendants": 1,
-      "id": 28884660,
-      "kids": [
-        28884728
-      ],
-      "score": 2,
-      "time": 1634344941,
-      "title": "Apple worker says she was fired after leading movement against harassment",
-      "type": "story",
-      "url": "https://www.reuters.com/technology/apple-worker-says-she-was-fired-after-leading-movement-against-harassment-2021-10-15/"
-    },
-    {
-      "by": "pseudolus",
-      "descendants": 0,
-      "id": 28884652,
-      "score": 2,
-      "time": 1634344826,
-      "title": "China launches second crewed mission to build space station",
-      "type": "story",
-      "url": "https://www.reuters.com/lifestyle/science/china-launches-second-crewed-mission-build-space-station-2021-10-15/"
     }
   ]
 }
