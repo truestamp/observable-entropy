@@ -86,8 +86,13 @@
     },
     {
       "by": "vaughan",
-      "descendants": 0,
+      "descendants": 2,
       "id": 28885144,
+      "kids": [
+        28885266,
+        28885255,
+        28885257
+      ],
       "score": 3,
       "text": "Microsoft owns Github. Github maintains Electron. Microsoft are moving Teams to use WebView2, sharing a single Chromium instance for all apps, reducing memory usage, which is the most common complaint for Electron.<p>This architecture has been obvious to everyone for a long time. Every Electron app could essentially be a webpage but with enhanced native API access.<p>Electron&#x27;s future seems bleak. ESM support hasn&#x27;t materialized (https:&#x2F;&#x2F;github.com&#x2F;electron&#x2F;electron&#x2F;issues&#x2F;21457). WebView2 will not be available on macOS until late 2022 [it seems](https:&#x2F;&#x2F;github.com&#x2F;MicrosoftEdge&#x2F;WebView2Feedback&#x2F;issues&#x2F;645#issuecomment-921551618).<p>Seems we are in one of these awkward transition periods, where you are forced to start a project on technology that you know will be deprecated in the near future <i>sigh</i>.<p>Anyone have insight&#x2F;predictions?",
       "time": 1634352677,
