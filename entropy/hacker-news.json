@@ -1,6 +1,59 @@
 {
   "stories": [
     {
+      "by": "WriterGuy2021",
+      "descendants": 0,
+      "id": 28884893,
+      "score": 1,
+      "time": 1634348048,
+      "title": "Reviewing 1984 in 2021",
+      "type": "story",
+      "url": "https://psydef.substack.com/p/reviewing-1984-in-2021"
+    },
+    {
+      "by": "edschef",
+      "descendants": 1,
+      "id": 28884892,
+      "kids": [
+        28884894
+      ],
+      "score": 1,
+      "text": "We help ordinary users to avoid account activation-related limitations and protect their privacy by providing them virtual mobile numbers for social networks registration.",
+      "time": 1634348040,
+      "title": "Online Virtual Numbers",
+      "type": "story"
+    },
+    {
+      "by": "Caiero",
+      "descendants": 0,
+      "id": 28884891,
+      "score": 1,
+      "time": 1634348020,
+      "title": "When Paper Was Fashion’s Favorite Material",
+      "type": "story",
+      "url": "https://daily.jstor.org/when-paper-was-fashions-favorite-material/"
+    },
+    {
+      "by": "MaysonL",
+      "descendants": 0,
+      "id": 28884887,
+      "score": 1,
+      "time": 1634347954,
+      "title": "Louisville sawmill challenges perception about wages",
+      "type": "story",
+      "url": "https://cdispatch.com/opinions/2021-10-13/slimantics-louisville-sawmill-challenges-perception-about-wages/"
+    },
+    {
+      "by": "marc__1",
+      "descendants": 0,
+      "id": 28884879,
+      "score": 1,
+      "time": 1634347808,
+      "title": "Expensify S-1 IPO",
+      "type": "story",
+      "url": "https://www.sec.gov/Archives/edgar/data/1476840/000162828021020115/expensifys-1.htm"
+    },
+    {
       "by": "doppp",
       "descendants": 0,
       "id": 28884860,
@@ -34,7 +87,7 @@
       "by": "sahin",
       "descendants": 0,
       "id": 28884846,
-      "score": 1,
+      "score": 2,
       "time": 1634347481,
       "title": "79% of companies say they will raise DEI budget in 2022",
       "type": "story",
@@ -49,56 +102,6 @@
       "title": "Saving copies of everything is like low-budget P2P",
       "type": "story",
       "url": "https://subconscious.substack.com/p/saving-copies-of-everything-is-like"
-    },
-    {
-      "by": "sidedishes",
-      "descendants": 0,
-      "id": 28884838,
-      "score": 2,
-      "text": "Hi HN, types-ish &#x2F; FP-ish question. I&#x27;ve asked around and not found a good answer so I wanted to ask here.<p>When I represent a system&#x27;s state, I am often searching for a type that neatly bijects to it. A dumb example is maybe, with a stoplight I might use a tagged union with 3 states (Red | Yellow | Green) over a struct with 3 booleans isRed, isYellow, isGreen, because the latter admits invalid states. A more realistic example is say, in a platformer when I see a boolean isJumping (in the air) and isFalling (in the air and also falling) when a union of (Grounded | Rising | Falling) might be more compact.<p>Likewise I might want to avoid a type having multiple values representing the same state. If I have a time series for temperature from a thermometer that&#x27;s only sometimes on, I might prefer a list&lt;optional&lt;int&gt;&gt; over a list&lt;pair&lt;bool,int&gt;&gt; where the bool is the on state, since the int doesn&#x27;t matter if when it&#x27;s off.<p>I&#x27;m not saying that the compact representation is always better but there&#x27;s certainly some utility or at least aesthetic quality. Is there a word for this? The words I&#x27;ve been using here have just been pulled out of the air.",
-      "time": 1634347394,
-      "title": "Ask HN: What's the word for when your type 'compactly' represents your state?",
-      "type": "story"
-    },
-    {
-      "by": "larsiusprime",
-      "descendants": 0,
-      "id": 28884837,
-      "score": 1,
-      "time": 1634347362,
-      "title": "1500 Archers on a 28.8: Network Programming in Age of Empires and Beyond",
-      "type": "story",
-      "url": "https://www.gamedeveloper.com/programming/1500-archers-on-a-28-8-network-programming-in-age-of-empires-and-beyond"
-    },
-    {
-      "by": "aaronbrethorst",
-      "descendants": 0,
-      "id": 28884828,
-      "score": 3,
-      "time": 1634347249,
-      "title": "Key to Biden's Climate Agenda Like to Be Cut Because of Manchin",
-      "type": "story",
-      "url": "https://www.nytimes.com/2021/10/15/climate/biden-clean-energy-manchin.html"
-    },
-    {
-      "by": "hhs",
-      "descendants": 0,
-      "id": 28884827,
-      "score": 1,
-      "time": 1634347248,
-      "title": "Times change: Oliver Wendell Holmes Jr. tracks the arc of justice (1897)",
-      "type": "story",
-      "url": "https://www.laphamsquarterly.org/rule-law/times-change"
-    },
-    {
-      "by": "bane",
-      "descendants": 0,
-      "id": 28884820,
-      "score": 1,
-      "time": 1634347118,
-      "title": "OLPC XO-1: The $100 Laptop (That Wasn't)",
-      "type": "story",
-      "url": "https://www.youtube.com/watch?v=fLJYWc6NZt0"
     }
   ]
 }
