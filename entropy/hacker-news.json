@@ -1,6 +1,26 @@
 {
   "stories": [
     {
+      "by": "1penny42cents",
+      "descendants": 0,
+      "id": 28887375,
+      "score": 1,
+      "text": "Let&#x27;s say we have a table which saves immutable events. This table does not support any UPDATE statements, just INSERT and SELECT.<p>I can imagine that there are some optimizations we can make for such tables, since there will never be a case where a row is being updated while another query reads it. Is there a looser transaction isolation we can set? Are there any other optimizations we can do?<p>I understand that the optimizations may depend on the specific database. In that case, I would suggest focusing on Postgres and&#x2F;or MySQL as they are the most common in my experience.",
+      "time": 1634387299,
+      "title": "Ask HN: What RDBMS optimizations can we do for append-only tables?",
+      "type": "story"
+    },
+    {
+      "by": "ddb",
+      "descendants": 0,
+      "id": 28887368,
+      "score": 2,
+      "time": 1634387167,
+      "title": "ThreatMapper Is Now 100% Open Source",
+      "type": "story",
+      "url": "https://deepfence.io/threatmapper-is-now-100-open-source/"
+    },
+    {
       "by": "schleck8",
       "descendants": 0,
       "id": 28887347,
@@ -58,6 +78,7 @@
       "descendants": 1,
       "id": 28887234,
       "kids": [
+        28887367,
         28887298
       ],
       "score": 2,
@@ -85,26 +106,6 @@
       "title": "Remote Working Manifesto",
       "type": "story",
       "url": "https://remoteworkingmanifesto.com/"
-    },
-    {
-      "by": "clouddrover",
-      "descendants": 0,
-      "id": 28887217,
-      "score": 1,
-      "time": 1634385309,
-      "title": "Volkswagen Group BEV delivery numbers still a year behind Tesla but gaining fast",
-      "type": "story",
-      "url": "https://electrek.co/2021/10/15/volkswagen-group-bev-delivery-numbers-still-a-year-behind-tesla-but-gaining-fast-at-138-yoy/"
-    },
-    {
-      "by": "gjvc",
-      "descendants": 0,
-      "id": 28887209,
-      "score": 1,
-      "time": 1634385250,
-      "title": "Scribble: The Racket Documentation Tool",
-      "type": "story",
-      "url": "https://docs.racket-lang.org/scribble/"
     }
   ]
 }
