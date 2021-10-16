@@ -1,10 +1,33 @@
 {
   "stories": [
     {
+      "by": "Kinrany",
+      "descendants": 0,
+      "id": 28890164,
+      "score": 1,
+      "time": 1634408886,
+      "title": "Roguelike Celebration 2021",
+      "type": "story",
+      "url": "https://roguelike.club/event2021.html"
+    },
+    {
+      "by": "bdz",
+      "descendants": 1,
+      "id": 28890161,
+      "kids": [
+        28890167
+      ],
+      "score": 1,
+      "time": 1634408856,
+      "title": "Minecraft boasts over 141M monthly active users",
+      "type": "story",
+      "url": "https://www.windowscentral.com/minecraft-live-2021-numbers-update"
+    },
+    {
       "by": "PaulHoule",
       "descendants": 0,
       "id": 28890106,
-      "score": 1,
+      "score": 2,
       "time": 1634408562,
       "title": "Rambus 2nd Gen RCD chip for DDR5",
       "type": "story",
@@ -34,7 +57,7 @@
       "by": "brrt",
       "descendants": 0,
       "id": 28890086,
-      "score": 1,
+      "score": 2,
       "time": 1634408440,
       "title": "Vaccination reduces transmission to unvaccinated household members by 63% (RIVM)",
       "type": "story",
@@ -64,7 +87,7 @@
       "by": "rmason",
       "descendants": 0,
       "id": 28890050,
-      "score": 1,
+      "score": 2,
       "time": 1634408194,
       "title": "Ten Steps to Find the Magic in Your Startup",
       "type": "story",
@@ -74,34 +97,11 @@
       "by": "jacquesm",
       "descendants": 0,
       "id": 28890043,
-      "score": 2,
+      "score": 4,
       "time": 1634408158,
       "title": "Wall Street Could Get Four Bitcoin Futures ETFs by Month-End",
       "type": "story",
       "url": "https://www.bloomberg.com/news/articles/2021-10-08/wall-street-could-get-four-bitcoin-futures-etfs-by-end-of-month"
-    },
-    {
-      "by": "graderjs",
-      "descendants": 0,
-      "id": 28890006,
-      "score": 1,
-      "time": 1634407952,
-      "title": "Wild new paper claims Earth may be surrounded by gigantic magnetic tunnel",
-      "type": "story",
-      "url": "https://www.sciencealert.com/earth-may-be-surrounded-by-a-giant-magnetic-tunnel"
-    },
-    {
-      "by": "jameshiew",
-      "descendants": 2,
-      "id": 28890002,
-      "kids": [
-        28890067
-      ],
-      "score": 3,
-      "text": "Something I&#x27;ve tried recently is changing from the default Java 11 JetBrains runtime to Amazon Corretto 15. Start up is blazingly fast now and overall the IDE feels faster once running as well, though I haven&#x27;t profiled so that may just be an impression. There is a message when you go to change the runtime warning that you shouldn&#x27;t do it unless asked to do so by JetBrains support, but that seems overly conservative and this has been (I think) the biggest improvement in performance for my set up so far. Font rendering was much worse initially but after some tweaking of font settings it&#x27;s more than acceptable.<p>I&#x27;m also trying out using the Z garbage collector and setting the ratio of young to old generation to 1, as suggested here[1], as I often have multiple projects open at once. I&#x27;m not sure how much of an impact this is having though as I&#x27;m trying this all together, but the heap memory indicator does seem to fill up substantially more when indexing before a garbage collection happens.<p>[1]: https:&#x2F;&#x2F;www.jetbrains.com&#x2F;help&#x2F;idea&#x2F;tuning-the-ide.html#common-jvm-options",
-      "time": 1634407905,
-      "title": "Ask HN: How do you improve the performance of IntelliJ IDEs?",
-      "type": "story"
     }
   ]
 }
