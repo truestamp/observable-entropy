@@ -1,6 +1,36 @@
 {
   "stories": [
     {
+      "by": "graderjs",
+      "descendants": 0,
+      "id": 28890006,
+      "score": 1,
+      "time": 1634407952,
+      "title": "Wild new paper claims Earth may be surrounded by gigantic magnetic tunnel",
+      "type": "story",
+      "url": "https://www.sciencealert.com/earth-may-be-surrounded-by-a-giant-magnetic-tunnel"
+    },
+    {
+      "by": "jameshiew",
+      "descendants": 0,
+      "id": 28890002,
+      "score": 2,
+      "text": "Something I&#x27;ve tried recently is changing from the default Java 11 JetBrains runtime to Amazon Corretto 15. Start up is blazingly fast now and overall the IDE feels faster once running as well, though I haven&#x27;t profiled so that may just be an impression. There is a message when you go to change the runtime warning that you shouldn&#x27;t do it unless asked to do so by JetBrains support, but that seems overly conservative and this has been (I think) the biggest improvement in performance for my set up so far. Font rendering was much worse initially but after some tweaking of font settings it&#x27;s more than acceptable.<p>I&#x27;m also trying out using the Z garbage collector and setting the ratio of young to old generation to 1, as suggested here[1], as I often have multiple projects open at once. I&#x27;m not sure how much of an impact this is having though as I&#x27;m trying this all together, but the heap memory indicator does seem to fill up substantially more when indexing before a garbage collection happens.<p>[1]: https:&#x2F;&#x2F;www.jetbrains.com&#x2F;help&#x2F;idea&#x2F;tuning-the-ide.html#common-jvm-options",
+      "time": 1634407905,
+      "title": "Ask HN: How do you improve the performance of IntelliJ IDEs?",
+      "type": "story"
+    },
+    {
+      "by": "maxwell",
+      "descendants": 0,
+      "id": 28890000,
+      "score": 1,
+      "time": 1634407867,
+      "title": "SV Angel recently contributed over $10k to Senator Joe Manchin",
+      "type": "story",
+      "url": "https://www.opensecrets.org/members-of-congress/joe-manchin/contributors?cid=N00032838&cycle=2022&type=I"
+    },
+    {
       "by": "Tomte",
       "descendants": 0,
       "id": 28889974,
@@ -24,7 +54,7 @@
       "by": "moviewise",
       "descendants": 0,
       "id": 28889941,
-      "score": 1,
+      "score": 2,
       "time": 1634407436,
       "title": "Great Movies Each Written and Directed by the Same Person",
       "type": "story",
@@ -72,39 +102,6 @@
       "title": "Against All Odds: Story of a Founder Who Built a $30B Fitness Giant",
       "type": "story",
       "url": "https://twitter.com/austinschless/status/1449408361225670656"
-    },
-    {
-      "by": "_wldu",
-      "descendants": 0,
-      "id": 28889819,
-      "score": 3,
-      "time": 1634406694,
-      "title": "It's OK to Speed",
-      "type": "story",
-      "url": "https://www.go350.com/posts/its-ok-to-speed/"
-    },
-    {
-      "by": "geox",
-      "descendants": 1,
-      "id": 28889792,
-      "kids": [
-        28889930
-      ],
-      "score": 3,
-      "time": 1634406557,
-      "title": "The first fully electric Porsche model outsells flagship 911 sports car",
-      "type": "story",
-      "url": "https://www.cnbc.com/2021/10/15/porsche-taycan-ev-outsells-flagship-911-sports-car.html"
-    },
-    {
-      "by": "sedeki",
-      "descendants": 0,
-      "id": 28889788,
-      "score": 1,
-      "time": 1634406533,
-      "title": "Math Quants Could Disrupt Process That Sways Power in Washington",
-      "type": "story",
-      "url": "https://www.bloomberg.com/news/articles/2021-10-16/math-quants-could-disrupt-process-that-sways-power-in-washington"
     }
   ]
 }
