@@ -1,6 +1,36 @@
 {
   "stories": [
     {
+      "by": "doppp",
+      "descendants": 0,
+      "id": 28884860,
+      "score": 1,
+      "time": 1634347612,
+      "title": "Microsoft shuts LinkedIn in China, citing 'challenging' climate",
+      "type": "story",
+      "url": "https://www.straitstimes.com/tech/tech-news/microsoft-shuts-linkedin-in-china-citing-challenging-climate"
+    },
+    {
+      "by": "AndrewBissell",
+      "descendants": 0,
+      "id": 28884855,
+      "score": 1,
+      "time": 1634347580,
+      "title": "The Visible Hand of the Market: Economic Warfare in Venezuela (2017) [pdf]",
+      "type": "story",
+      "url": "https://bibliotecadaluta.files.wordpress.com/2017/08/the-visible-hand-of-the-market-economic-warfare-in-venezuela-pasqualina-curcio-c.pdf"
+    },
+    {
+      "by": "ckcheng",
+      "descendants": 0,
+      "id": 28884854,
+      "score": 1,
+      "time": 1634347580,
+      "title": "Fortune’s Algorithm and Implementation",
+      "type": "story",
+      "url": "http://blog.ivank.net/fortunes-algorithm-and-implementation.html"
+    },
+    {
       "by": "sahin",
       "descendants": 0,
       "id": 28884846,
@@ -24,7 +54,7 @@
       "by": "sidedishes",
       "descendants": 0,
       "id": 28884838,
-      "score": 1,
+      "score": 2,
       "text": "Hi HN, types-ish &#x2F; FP-ish question. I&#x27;ve asked around and not found a good answer so I wanted to ask here.<p>When I represent a system&#x27;s state, I am often searching for a type that neatly bijects to it. A dumb example is maybe, with a stoplight I might use a tagged union with 3 states (Red | Yellow | Green) over a struct with 3 booleans isRed, isYellow, isGreen, because the latter admits invalid states. A more realistic example is say, in a platformer when I see a boolean isJumping (in the air) and isFalling (in the air and also falling) when a union of (Grounded | Rising | Falling) might be more compact.<p>Likewise I might want to avoid a type having multiple values representing the same state. If I have a time series for temperature from a thermometer that&#x27;s only sometimes on, I might prefer a list&lt;optional&lt;int&gt;&gt; over a list&lt;pair&lt;bool,int&gt;&gt; where the bool is the on state, since the int doesn&#x27;t matter if when it&#x27;s off.<p>I&#x27;m not saying that the compact representation is always better but there&#x27;s certainly some utility or at least aesthetic quality. Is there a word for this? The words I&#x27;ve been using here have just been pulled out of the air.",
       "time": 1634347394,
       "title": "Ask HN: What's the word for when your type 'compactly' represents your state?",
@@ -44,7 +74,7 @@
       "by": "aaronbrethorst",
       "descendants": 0,
       "id": 28884828,
-      "score": 2,
+      "score": 3,
       "time": 1634347249,
       "title": "Key to Biden's Climate Agenda Like to Be Cut Because of Manchin",
       "type": "story",
@@ -69,36 +99,6 @@
       "title": "OLPC XO-1: The $100 Laptop (That Wasn't)",
       "type": "story",
       "url": "https://www.youtube.com/watch?v=fLJYWc6NZt0"
-    },
-    {
-      "by": "graderjs",
-      "descendants": 0,
-      "id": 28884781,
-      "score": 1,
-      "time": 1634346608,
-      "title": "List of assassinated serving British MPs",
-      "type": "story",
-      "url": "https://en.wikipedia.org/wiki/List_of_assassinated_serving_British_MPs"
-    },
-    {
-      "by": "graderjs",
-      "descendants": 0,
-      "id": 28884774,
-      "score": 1,
-      "time": 1634346528,
-      "title": "Ardern: British MP's Assassination 'Devastating'",
-      "type": "story",
-      "url": "https://www.rnz.co.nz/news/world/453640/ardern-british-mp-s-assassination-devastating"
-    },
-    {
-      "by": "todsacerdoti",
-      "descendants": 0,
-      "id": 28884768,
-      "score": 6,
-      "time": 1634346438,
-      "title": "Minias – A mini x86-64 assembler for fun and learning",
-      "type": "story",
-      "url": "https://github.com/andrewchambers/minias"
     }
   ]
 }
