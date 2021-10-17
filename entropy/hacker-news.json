@@ -1,6 +1,16 @@
 {
   "stories": [
     {
+      "by": "doener",
+      "descendants": 0,
+      "id": 28894481,
+      "score": 1,
+      "time": 1634452918,
+      "title": "A second brain, for you, forever",
+      "type": "story",
+      "url": "https://obsidian.md/"
+    },
+    {
       "by": "imartin2k",
       "descendants": 0,
       "id": 28894461,
@@ -55,7 +65,8 @@
       "descendants": 1,
       "id": 28894345,
       "kids": [
-        28894467
+        28894467,
+        28894489
       ],
       "score": 4,
       "text": "I want to start a hobby project which needs to have as less development time as possible. I would want social media login (sign up via email, fb, google accounts, etc.), user management, connecting to a posgres (or even sqlite) db, deployments (perhaps to a paas like cloudrun, heroku, aws beanstalk etc.), db migrations etc. all already automated. If there is some automation for the API body and parameter validation from a openapi spec that would be even better.<p>I just want to write the core business logic for the API handlers and leave everything else to the framework. I do not mind (and actually would prefer) if the framework is opinionated and works well for its intended goals.<p>I prefer Typescript&#x2F;JS, Golang, Kotlin in that order. If no other option, then python3 would be an acceptable choice.<p>Any recommendations ?<p>tldr: I want a batteries-included API framework with users management, session management, db management, openapi integration. Help ?",
@@ -92,19 +103,6 @@
       "title": "ElevenClock - Taskbar clock for Win11's 2nd taskbar they didn't have time for!",
       "type": "story",
       "url": "https://github.com/martinet101/ElevenClock"
-    },
-    {
-      "by": "bryanrasmussen",
-      "descendants": 1,
-      "id": 28894292,
-      "kids": [
-        28894422
-      ],
-      "score": 11,
-      "time": 1634450044,
-      "title": "Joe Manchin's Dirty Empire",
-      "type": "story",
-      "url": "https://theintercept.com/2021/09/03/joe-manchin-coal-fossil-fuels-pollution/"
     }
   ]
 }
