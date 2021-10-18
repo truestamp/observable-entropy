@@ -1,6 +1,16 @@
 {
   "stories": [
     {
+      "by": "testermelon",
+      "descendants": 0,
+      "id": 28902456,
+      "score": 1,
+      "time": 1634534433,
+      "title": "LilyPond: Essay on automated music engraving [pdf]",
+      "type": "story",
+      "url": "http://lilypond.org/doc/v2.22/Documentation/essay.pdf"
+    },
+    {
       "by": "spzx",
       "descendants": 0,
       "id": 28902447,
@@ -64,8 +74,11 @@
     },
     {
       "by": "disqard",
-      "descendants": 0,
+      "descendants": 1,
       "id": 28902237,
+      "kids": [
+        28902464
+      ],
       "score": 2,
       "time": 1634531427,
       "title": "Samsung Cloud Terminating Image and Folder Sync in November",
@@ -90,20 +103,10 @@
         28902439,
         28902410
       ],
-      "score": 23,
+      "score": 24,
       "text": "At BEE we develop visual builders for emails, landing pages, and more. We recorded over 5,214,407 sessions of our builders in hundreds of software applications last month. As a company, we recently passed $7m in annual recurring revenue. And it all started with this post on HN exactly seven years ago:<p>https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=8474744<p>The Hacker News community took time to look at what we were doing, and provided honest and useful feedback that got us going on the right track. And we want to say THANK YOU!!<p>Our website looked very different back then, but the &#x27;core&#x27; was there: a visual builder to let anyone design an email, easily, quickly, with no signup, nothing to fill out, just the product. That experience remains the same today, and we stuck with it because of comments like this one we received that October 18, 2014, right here on HN:<p>&quot;Massive props for letting me play around with it without having to sign up or enter any data.&quot;<p>Now there are more features, more things you can do with our products, thousands of customers that have chosen BEE, but the core remains the same. You can still go to beefree.io (https:&#x2F;&#x2F;beefree.io), click on &#x27;Start designing&#x27;, and get into the product with 2 clicks.<p>And today there are over 600 SaaS applications that have embedded our visual builders into their product because we took to heart some other feedback we received that very day on HN:<p>&quot;I&#x27;ve been looking for a good email editor for a while now. Any chance of BeeFree being embeddable, either as a service or open source?&quot;<p>We could keep going, but you get the idea: we&#x27;re truly, deeply grateful that many of you, on October 18, 2014, took time out of your day to check out what we were doing, and share your thoughts.<p>We never forgot.<p>From all of us at BEE, thank you so much!!!<p>Massimo Arrigoni\nCEO\nBEE Content Design, Inc.",
       "time": 1634531035,
       "title": "Thank HN: 7 years and $7M later, it all started right here",
-      "type": "story"
-    },
-    {
-      "by": "a_square_peg",
-      "descendants": 0,
-      "id": 28902214,
-      "score": 1,
-      "text": "I run a weather service that allows REST API access to time-series weather data (historical &amp; forecast).<p>I&#x27;ve tried to make it as intuitive as possible without too much abstraction, where the query basically answers the questions where you&#x27;d like the data for (location), for what time period (start, end dates), and what weather parameters (temperature? wind speed? etc.) they might be looking for:<p>https:&#x2F;&#x2F;oikolab.com&#x2F;api-details#api=weather&amp;operation=weather-data<p>General feedback is that the API is easy to use. However, I do have developers who go silent during multi-day email conversations when I ask them to try it out, rather than me having to go into in-depth explanation or provide sample data.<p>Wondering the what the recommended practice is to create say a Python wrapper&#x2F;client to make it even simpler to use for such service. I remember there being many wrappers for Dark Sky API and wondering if this was one of the things that made it easy-to-use&#x2F;popular.",
-      "time": 1634531027,
-      "title": "Ask HN: When is client module needed for a REST API service?",
       "type": "story"
     }
   ]
