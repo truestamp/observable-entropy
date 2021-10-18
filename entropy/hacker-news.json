@@ -1,11 +1,50 @@
 {
   "stories": [
     {
+      "by": "eatonphil",
+      "descendants": 0,
+      "id": 28910092,
+      "score": 1,
+      "time": 1634584197,
+      "title": "Experimenting with column- and row-oriented datastructures",
+      "type": "story",
+      "url": "https://datastation.multiprocess.io/blog/2021-10-18-experimenting-with-column-and-row-oriented-datastructures.html"
+    },
+    {
+      "by": "genericlemon24",
+      "descendants": 0,
+      "id": 28910080,
+      "score": 1,
+      "time": 1634584147,
+      "title": "Join the Python Developers Survey 2021: Share and learn about the community",
+      "type": "story",
+      "url": "https://pyfound.blogspot.com/2021/10/join-python-developers-survey-2021.html"
+    },
+    {
+      "by": "madjam002",
+      "descendants": 0,
+      "id": 28910069,
+      "score": 1,
+      "time": 1634584092,
+      "title": "Netflix Is Down",
+      "type": "story"
+    },
+    {
+      "by": "marcodiego",
+      "descendants": 0,
+      "id": 28910053,
+      "score": 1,
+      "time": 1634584018,
+      "title": "Asahi Linux on M1 Pro bring-up stream ~next week",
+      "type": "story",
+      "url": "https://twitter.com/marcan42/status/1450163929993269249"
+    },
+    {
       "by": "andrewstuart",
       "descendants": 0,
       "id": 28910021,
       "score": 1,
-      "text": "Here&#x27;s the 100 lines of code:<p>https:&#x2F;&#x2F;github.com&#x2F;bootrino&#x2F;arniesmtpbufferserver&#x2F;blob&#x2F;master&#x2F;arniesmtpbufferserver.py<p>Here&#x27;s the github repo:<p>https:&#x2F;&#x2F;github.com&#x2F;bootrino&#x2F;arniesmtpbufferserver<p>It&#x27;s MIT licensed.<p>Arnie is a server that has the single purpose of buffering outbound SMTP emails.<p>A typical web SAAS needs to send emails such as signup&#x2F;signin&#x2F;forgot password etc.<p>The web page code itself should not directly write this to an SMTP server. Instead they should be decoupled. There&#x27;s a few reasons for this. One is, if there is an error in sending the email, then the whole thing simply falls over if that send was executed by the web page code - there&#x27;s no chance to resend because the web request has completed. Also, execution of an SMTP request by a web page slows the response time down of that page, whilst the code goes through the process of connecting to the server and sending the email. So when you send SMTP email from your web application, the most performant and safest way to do it is to buffer them for sending. The buffering server will then queue them and send them and handle things like retries if the target SMTP server is down or throttled.<p>There&#x27;s a few ways to solve this problem - you can set up a local email server and configure it for relaying. Or in the Python world people often use Celery. Complexity is the down side of using either Celery or an email server configured for relaying - both of these solutions have many more features than needed and can be complex to configure&#x2F;run&#x2F;troubleshoot.<p>Arnie is intended for small scale usage - for example a typical web server for a simple SAAS application. Large scale email traffic would require parallel sends to the SMTP server.<p>Arnie sequentially sends emails - it does not attempt to send email to the SMTP server in parallel. It probably could do fairly easily by spawning email send tasks, but SMTP parallelisation was not the goal in writing Arnie.",
+      "text": "Here&#x27;s the 100 lines of code:<p>https:&#x2F;&#x2F;github.com&#x2F;bootrino&#x2F;arniesmtpbufferserver&#x2F;blob&#x2F;master&#x2F;arniesmtpbufferserver.py<p>Here&#x27;s the github repo:<p>https:&#x2F;&#x2F;github.com&#x2F;bootrino&#x2F;arniesmtpbufferserver<p>It&#x27;s MIT licensed.<p>Arnie is a server that has the single purpose of buffering outbound SMTP emails.<p>I wrote Arnie because I got frustrated using complex queueing systems simply to buffer outbound SMTP emails. I&#x27;d rather spend time writing this than spend the same time debugging Celery configuration.<p>A typical web SAAS needs to send emails such as signup&#x2F;signin&#x2F;forgot password etc.<p>The web page code itself should not directly write this to an SMTP server. Instead they should be decoupled. There&#x27;s a few reasons for this. One is, if there is an error in sending the email, then the whole thing simply falls over if that send was executed by the web page code - there&#x27;s no chance to resend because the web request has completed. Also, execution of an SMTP request by a web page slows the response time down of that page, whilst the code goes through the process of connecting to the server and sending the email. So when you send SMTP email from your web application, the most performant and safest way to do it is to buffer them for sending. The buffering server will then queue them and send them and handle things like retries if the target SMTP server is down or throttled.",
       "time": 1634583865,
       "title": "Show HN: Arnie SMTP buffer server in 100 lines of async Python",
       "type": "story"
@@ -44,7 +83,7 @@
       "by": "jonbaer",
       "descendants": 0,
       "id": 28909866,
-      "score": 2,
+      "score": 3,
       "time": 1634583356,
       "title": "5D Chess with Multiverse Time Travel",
       "type": "story",
@@ -59,46 +98,6 @@
       "title": "Show HN: Colab – Log and visualize StyleGAN3 training runs",
       "type": "story",
       "url": "https://colab.research.google.com/drive/1_Mk_pP8H9lkLLvAs_ae8X4ji8N253caC#scrollTo=HEaeYEdWiKPY"
-    },
-    {
-      "by": "adrian_mrd",
-      "descendants": 0,
-      "id": 28909844,
-      "score": 2,
-      "time": 1634583313,
-      "title": "Energy flexibility can save us money and cut carbon",
-      "type": "story",
-      "url": "https://www.bbc.com/news/science-environment-58898999"
-    },
-    {
-      "by": "RobSpectre",
-      "descendants": 0,
-      "id": 28909815,
-      "score": 4,
-      "time": 1634583222,
-      "title": "The eruption of Vesuvius was so hot it turned one Roman's brain into glass",
-      "type": "story",
-      "url": "https://arstechnica.com/science/2020/10/archaeologists-find-evidence-of-neurons-in-glassy-brain-of-vesuvius-victim/"
-    },
-    {
-      "by": "ArtWomb",
-      "descendants": 0,
-      "id": 28909786,
-      "score": 2,
-      "time": 1634583117,
-      "title": "Mach Engine: The Future of Graphics (With Zig)",
-      "type": "story",
-      "url": "https://devlog.hexops.com/2021/mach-engine-the-future-of-graphics-with-zig"
-    },
-    {
-      "by": "asdev",
-      "descendants": 0,
-      "id": 28909785,
-      "score": 2,
-      "time": 1634583117,
-      "title": "Career progression of FAANG engineer vs. crypto engineer",
-      "type": "story",
-      "url": "https://twitter.com/cryptofishx/status/1450164137053487104"
     }
   ]
 }
