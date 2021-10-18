@@ -1,6 +1,52 @@
 {
   "stories": [
     {
+      "by": "amir",
+      "descendants": 0,
+      "id": 28910304,
+      "score": 1,
+      "time": 1634585070,
+      "title": "Economics Nobel Prize winners work used to solve tough problems at Twitter",
+      "type": "story",
+      "url": "https://twitter.com/TwitterEng/status/1450179475426066433"
+    },
+    {
+      "by": "ivraatiems",
+      "descendants": 1,
+      "id": 28910274,
+      "kids": [
+        28910290
+      ],
+      "score": 1,
+      "time": 1634584969,
+      "title": "Microsoft Executives Told Bill Gates to Stop Emailing a Female Staffer Years Ago",
+      "type": "story",
+      "url": "https://www.wsj.com/articles/microsoft-executives-told-bill-gates-to-stop-emailing-a-female-staffer-years-ago-11634559950"
+    },
+    {
+      "by": "VitalyAnkh",
+      "descendants": 0,
+      "id": 28910257,
+      "score": 1,
+      "time": 1634584894,
+      "title": "Gnome doesn't allow other applications to access its private API",
+      "type": "story",
+      "url": "https://gitlab.gnome.org/GNOME/gnome-shell/-/merge_requests/1970"
+    },
+    {
+      "by": "Bostonian",
+      "descendants": 1,
+      "id": 28910248,
+      "kids": [
+        28910252
+      ],
+      "score": 1,
+      "time": 1634584859,
+      "title": "To Strike a Climate Deal, Poor Nations Say They Need Trillions from Rich Ones",
+      "type": "story",
+      "url": "https://www.wsj.com/articles/to-strike-a-climate-deal-poor-nations-say-they-need-trillions-from-rich-ones-11634568010"
+    },
+    {
       "by": "adrian_mrd",
       "descendants": 0,
       "id": 28910187,
@@ -62,45 +108,6 @@
       "title": "Join the Python Developers Survey 2021: Share and learn about the community",
       "type": "story",
       "url": "https://pyfound.blogspot.com/2021/10/join-python-developers-survey-2021.html"
-    },
-    {
-      "by": "madjam002",
-      "descendants": 0,
-      "id": 28910069,
-      "score": 2,
-      "time": 1634584092,
-      "title": "Netflix Is Down",
-      "type": "story"
-    },
-    {
-      "by": "marcodiego",
-      "descendants": 0,
-      "id": 28910053,
-      "score": 1,
-      "time": 1634584018,
-      "title": "Asahi Linux on M1 Pro bring-up stream ~next week",
-      "type": "story",
-      "url": "https://twitter.com/marcan42/status/1450163929993269249"
-    },
-    {
-      "by": "andrewstuart",
-      "descendants": 0,
-      "id": 28910021,
-      "score": 1,
-      "text": "Here&#x27;s the 100 lines of code:<p>https:&#x2F;&#x2F;github.com&#x2F;bootrino&#x2F;arniesmtpbufferserver&#x2F;blob&#x2F;master&#x2F;arniesmtpbufferserver.py<p>Here&#x27;s the github repo:<p>https:&#x2F;&#x2F;github.com&#x2F;bootrino&#x2F;arniesmtpbufferserver<p>It&#x27;s MIT licensed.<p>Arnie is a server that has the single purpose of buffering outbound SMTP emails.<p>I wrote Arnie because I got frustrated using complex queueing systems simply to buffer outbound SMTP emails. I&#x27;d rather spend time writing this than spend the same time debugging Celery configuration.<p>A typical web SAAS needs to send emails such as signup&#x2F;signin&#x2F;forgot password etc.<p>The web page code itself should not directly write this to an SMTP server. Instead they should be decoupled. There&#x27;s a few reasons for this. One is, if there is an error in sending the email, then the whole thing simply falls over if that send was executed by the web page code - there&#x27;s no chance to resend because the web request has completed. Also, execution of an SMTP request by a web page slows the response time down of that page, whilst the code goes through the process of connecting to the server and sending the email. So when you send SMTP email from your web application, the most performant and safest way to do it is to buffer them for sending. The buffering server will then queue them and send them and handle things like retries if the target SMTP server is down or throttled.",
-      "time": 1634583865,
-      "title": "Show HN: Arnie SMTP buffer server in 100 lines of async Python",
-      "type": "story"
-    },
-    {
-      "by": "fnmendez",
-      "descendants": 0,
-      "id": 28909946,
-      "score": 3,
-      "time": 1634583619,
-      "title": "I recovered my funds, integrated Bitcoin and Lightning payments with BTCPay",
-      "type": "story",
-      "url": "https://www.flyyer.io/blog/posts/bitcoin-payments"
     }
   ]
 }
