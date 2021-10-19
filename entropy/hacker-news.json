@@ -1,6 +1,66 @@
 {
   "stories": [
     {
+      "by": "jaakkoj",
+      "dead": true,
+      "id": 28918859,
+      "score": 1,
+      "time": 1634655881,
+      "title": "Marketing tips I've ever seen",
+      "type": "story",
+      "url": "https://www.jaakkoj.com/blog/marketing"
+    },
+    {
+      "by": "shimont",
+      "descendants": 0,
+      "id": 28918850,
+      "score": 1,
+      "text": "When I was an Engineering Manager of Infrastructure at ironSource (NASDAQ:IS) for 400 developers, a developer made a mistake, causing a misconfiguration to reach production, which caused major problems for the company&#x27;s infrastructure.<p>Mistakes happen all the time - you learn from them and hope to never make them again. But how can we prevent a production issue from recurring, or, how about a bigger challenge — how can you prevent the next one from the get-go?<p>In our case, we tried sending emails to our devs, writing Wikis, and hosting meetups and live sessions to educate our developers, but I felt that it just wasn’t driving the message home. How can developers be expected to remember to configure a liveness probe or to put a memory limit in place for their Kubernetes workload when there are so many things that a dev must remember? Infra just isn’t their primary focus.<p>Today, organizations want to delegate infra-as-code responsibilities to developers, but face a dilemma — even a small misconfiguration can cause major production issues. Some companies lock up infra changes and require ops teams to review all changes, which frustrates both sides. \nDevelopers want to ship features without waiting for infra. And infra teams don&#x27;t want to “babysit” developers by reviewing config files all day long, essentially acting as human debuggers for misconfigurations.<p>That’s why I teamed up with Eyar Zilberman to found Datree. Our mission is to help engineering teams prevent Kubernetes misconfigurations from reaching production. We believe that providing guardrails to developers protects their infra changes and frees up DevOps teams to focus on what matters most.<p>Datree provides a CLI tool (https:&#x2F;&#x2F;github.com&#x2F;datreeio&#x2F;datree) that runs automated policy checks against your Kubernetes manifests and Helm charts, identifies any misconfigurations within, and suggests how to fix them. The tool comes with dozens of preset, best-practice rules covering the most common mistakes that could affect your production. In addition, you can write custom rules for your policy.<p>Our built-in rules are based on hundreds of Kubernetes post-mortems to ensure the prevention of issues such as resource limits&#x2F;requests (MEM&#x2F;CPU), liveness and readiness probes, labels on resources, Kubernetes schema validation, API version deprecation, and more.<p>Datree comes with a centralized policy dashboard enabling the infra team to dynamically configure rules that run on dev computers during the development phase, as well as within the CI&#x2F;CD process. This central control point propagates policy checks automatically to all developers&#x2F;machines in your company.<p>We initially launched Datree as a general purpose policy engine (see our YC Launch https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=22536228) in which you could configure all sorts of rules, but the market drove our focus toward infrastructure-as-code and, more specifically, Kubernetes, one of the most painful points of friction between developers and infrastructure teams.<p>When we adjusted to a Kubernetes-focused product, we pivoted our top-down sales-driven model to a wholly new bottom-up adoption-driven model focused on the user.<p>Our new dev tool is self-served and open-source. Hundreds of companies are using it to prevent Kubernetes misconfigurations and, in turn, are helping the tool improve by opening issues and submitting pull requests on GitHub.<p>Today we are a “product-led growth” company, which is a relatively new business methodology centered on user adoption driving product demand toward monetization. Our product is well suited for self-evaluation and immediate value delivery. No more demo calls — just 2 quick steps to try the product yourself!<p>TechWorld with Nana did a deep technical review of our product, which can be viewed at https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=hgUfH9Ab258.<p>We look forward to hearing your feedback and answering any questions you may have.<p>Thank you :)",
+      "time": 1634655848,
+      "title": "Show HN: Datree (YC W20): Prevent K8s misconfigurations from reaching production",
+      "type": "story"
+    },
+    {
+      "by": "ohad1282",
+      "descendants": 0,
+      "id": 28918833,
+      "score": 1,
+      "time": 1634655749,
+      "title": "CLI tool for tags/labels to be applied across an entire set of Terraform files",
+      "type": "story",
+      "url": "https://www.terratag.io/"
+    },
+    {
+      "by": "hackingforfun",
+      "descendants": 0,
+      "id": 28918819,
+      "score": 1,
+      "time": 1634655680,
+      "title": "First Bitcoin Futures ETF Begins Trading",
+      "type": "story",
+      "url": "https://www.investors.com/news/bitcoin-stocks-pop-ahead-of-bitcoin-futures-etf-launch/"
+    },
+    {
+      "by": "ugwigr",
+      "descendants": 0,
+      "id": 28918805,
+      "score": 1,
+      "time": 1634655627,
+      "title": "Former Netflix exec facing 7 years in prison is a cautionary tale for startups",
+      "type": "story",
+      "url": "https://www.businessofbusiness.com/articles/why-a-former-netflix-exec-facing-7-years-in-prison-for-bribery-is-a-cautionary-tale-for-startups/"
+    },
+    {
+      "by": "bpierre",
+      "descendants": 0,
+      "id": 28918792,
+      "score": 1,
+      "time": 1634655604,
+      "title": "Elm Playground",
+      "type": "story",
+      "url": "https://elm-lang.org/try"
+    },
+    {
       "by": "tusslewake",
       "descendants": 0,
       "id": 28918791,
@@ -39,69 +99,6 @@
       "title": "How Does Nyxt Make Money? Towards Open Source Sustainability",
       "type": "story",
       "url": "https://nyxt.atlas.engineer/article/sustainable-open-source.org"
-    },
-    {
-      "by": "ChefboyOG",
-      "descendants": 0,
-      "id": 28918769,
-      "score": 1,
-      "time": 1634655501,
-      "title": "Neuron Bursts Can Mimic Famous AI Learning Strategy",
-      "type": "story",
-      "url": "https://www.quantamagazine.org/brain-bursts-can-mimic-famous-ai-learning-strategy-20211018/"
-    },
-    {
-      "by": "PaulHoule",
-      "descendants": 0,
-      "id": 28918768,
-      "score": 1,
-      "time": 1634655496,
-      "title": "Synchrotron Light and the Lyncean Compact Light Source",
-      "type": "story",
-      "url": "https://lynceantech.com/technology/"
-    },
-    {
-      "by": "mattparcens",
-      "descendants": 1,
-      "id": 28918764,
-      "kids": [
-        28918765
-      ],
-      "score": 1,
-      "time": 1634655493,
-      "title": "Some Workers Want Covid-19 Recovery Accepted as Evidence of Immunity",
-      "type": "story",
-      "url": "https://www.wsj.com/articles/some-workers-want-covid-19-recovery-accepted-as-evidence-of-immunity-11634648215"
-    },
-    {
-      "by": "zamiang_brennan",
-      "descendants": 0,
-      "id": 28918761,
-      "score": 1,
-      "time": 1634655434,
-      "title": "Cityblock Health is hiring to build a more equitable healthcare system",
-      "type": "story",
-      "url": "https://technology.cityblock.com/"
-    },
-    {
-      "by": "ohjeez",
-      "descendants": 0,
-      "id": 28918758,
-      "score": 1,
-      "time": 1634655409,
-      "title": "Insecure standards we can't easily abandon",
-      "type": "story",
-      "url": "https://www.hpe.com/us/en/insights/articles/top-4-insecure-standards-we-cant-easily-abandon-2110.html"
-    },
-    {
-      "by": "VieEnCode",
-      "descendants": 0,
-      "id": 28918756,
-      "score": 1,
-      "time": 1634655391,
-      "title": "The Cognition Crisis",
-      "type": "story",
-      "url": "https://elemental.medium.com/the-cognition-crisis-a1482e889fcb"
     }
   ]
 }
