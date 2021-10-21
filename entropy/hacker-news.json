@@ -1,10 +1,63 @@
 {
   "stories": [
     {
-      "by": "rajup",
+      "by": "hdubugras",
       "descendants": 0,
-      "id": 28947777,
+      "id": 28947850,
       "score": 1,
+      "text": "Brex builds software and financial products for growing businesses. For a long time, we’ve been trying to balance UI simplicity while serving an increasingly diverse client base, including those who are more technical. We think our new API helps Brex solve both needs and puts our clients in control of their financial data. We wrote this blog to share how we shifted our technical and cultural architectures along the way (https:&#x2F;&#x2F;building.brex.com&#x2F;building-the-brex-api-52dcb26cacc8).  Happy to answer your questions and hear your learnings as well.",
+      "time": 1634837048,
+      "title": "Building the Brex API",
+      "type": "story"
+    },
+    {
+      "by": "olalonde",
+      "descendants": 0,
+      "id": 28947845,
+      "score": 1,
+      "time": 1634837040,
+      "title": "More than 100k people have had their eyes scanned for free cryptocurrency",
+      "type": "story",
+      "url": "https://www.ft.com/content/0f873676-26c8-4b57-b369-23a2b30f11a5"
+    },
+    {
+      "by": "ingve",
+      "descendants": 0,
+      "id": 28947836,
+      "score": 1,
+      "time": 1634837021,
+      "title": "Specialized extensions using generic type constraints",
+      "type": "story",
+      "url": "https://www.swiftbysundell.com/articles/specialized-extensions-using-generic-type-constraints/"
+    },
+    {
+      "by": "evo_9",
+      "descendants": 0,
+      "id": 28947810,
+      "score": 1,
+      "time": 1634836924,
+      "title": "ES10 Adds Encapsulation with JavaScript",
+      "type": "story",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/Private_class_fields"
+    },
+    {
+      "by": "thunderbong",
+      "descendants": 0,
+      "id": 28947784,
+      "score": 1,
+      "time": 1634836811,
+      "title": "Could we drop Symbols from Ruby?",
+      "type": "story",
+      "url": "https://blog.arkency.com/could-we-drop-symbols-from-ruby/"
+    },
+    {
+      "by": "rajup",
+      "descendants": 1,
+      "id": 28947777,
+      "kids": [
+        28947804
+      ],
+      "score": 2,
       "time": 1634836798,
       "title": "Donald Trump's social media SPAC shares surge 200%",
       "type": "story",
@@ -34,7 +87,7 @@
       "by": "ingve",
       "descendants": 0,
       "id": 28947730,
-      "score": 1,
+      "score": 2,
       "time": 1634836655,
       "title": "Line length revisited: following the research",
       "type": "story",
@@ -49,56 +102,6 @@
       "title": "Southwest Airlines lost $75M amid mass flight cancellation",
       "type": "story",
       "url": "https://www.axios.com/southwest-airlines-lost-75-million-amid-mass-flight-cancellation-35ab8226-8210-484a-bcd0-ee3179cec381.html"
-    },
-    {
-      "by": "cwwc",
-      "descendants": 0,
-      "id": 28947722,
-      "score": 4,
-      "time": 1634836614,
-      "title": "Tesla is outrunning the supply chain crunch",
-      "type": "story",
-      "url": "https://www.axios.com/tesla-income-supply-chain-chip-shortage-13de2644-704d-426f-a510-f667de93f1da.html"
-    },
-    {
-      "by": "xrd",
-      "descendants": 0,
-      "id": 28947713,
-      "score": 2,
-      "time": 1634836573,
-      "title": "Donald Trump does a SPAC",
-      "type": "story",
-      "url": "https://www.bloomberg.com/opinion/articles/2021-10-21/matt-levine-s-money-stuff-donald-trump-does-a-spac"
-    },
-    {
-      "by": "sebg",
-      "descendants": 0,
-      "id": 28947712,
-      "score": 1,
-      "time": 1634836569,
-      "title": "Comprehensive List of Kaggle Solutions and Ideas",
-      "type": "story",
-      "url": "https://farid.one/kaggle-solutions/"
-    },
-    {
-      "by": "ukd1",
-      "descendants": 0,
-      "id": 28947689,
-      "score": 8,
-      "text": "Russ, here, CTO and cofounder of Rainforest QA (<a href=\"https:&#x2F;&#x2F;www.rainforestqa.com\" rel=\"nofollow\">https:&#x2F;&#x2F;www.rainforestqa.com</a>). Way back in 2012, my cofounder Fred (@ fredsters_s) and I got into YC with one idea in mind, but soon pivoted once we saw a pattern among most of the other companies in our cohort.<p>These startups were trying to push code through CI&#x2F;CD pipelines as frequently as possible, but were stymied by quality assurance. Labor-intensive QA (specifically, smoke, regression, and other UI tests) tended to be the bottleneck preventing CI&#x2F;CD from delivering on its promise of speed and efficiency. That left a frustrating dilemma for these teams: slow down or pause the release process to do QA, or move faster at the expense of product quality. Given that we were sure CI&#x2F;CD would be the future of software development, we decided to dedicate our startup to solving this challenge.<p>For us, inspired at the time by Amazon Mechanical Turk, the question was: could we organize and train crowdsourced testers to do manual UI testing quickly, affordably, and accurately enough for CI&#x2F;CD?<p>In the following years, we optimized crowd testing to be as fast as it could possibly be, including parallelization of work and 24&#x2F;7, on-demand availability. (Our human-powered test suites complete in under 17 minutes, on average!) But, the fact is, for many rote tasks (like regression tests), humans will never be as fast or as affordable as the processing power of computers.<p>The logical conclusion is that teams should simply automate as much UI testing as possible. But we found that UI test automation is out of reach for many startups—it’s expensive to hire an engineer who has the skills to create and maintain such automated tests in one of the popular frameworks like Selenium. Plus, those tests tend to be quite brittle, further inflating maintenance costs.<p>With the rise of no-code, we saw an opportunity to make automated UI testing truly accessible to all companies and product contributors. So two years ago, we made a big decision to pivot the company and got to work building a no-code test automation framework from scratch. We’re excited to have launched our new platform this summer.<p>On our platform, anyone on your team can write, maintain, and run automated UI tests using a WYSIWYG test editor. Unlike other “no-code” test solutions which still require coding for test maintenance, our proprietary automation framework isn’t a front-end for Selenium. Unlike most test automation frameworks that test the DOM, our automation service interacts with and evaluates the UI of your app or website via machine-vision, to give you the confidence you’re testing exactly what your users and customers will experience. Minor, behind-the-scenes code changes that don’t affect the UI often break Selenium tests (i.e., create false positives), but not Rainforest tests.<p>Our automated tests return detailed results in under four minutes on average, providing regression steps, video recordings, and HTTP logs of every test. You don’t have to set up or pay extra for testing infrastructure, because it’s all included in the plans on our platform. Tests run on virtual machines in our cloud, including 40+ combinations of platforms and browsers. We build everything with CI&#x2F;CD pipelines in mind, so most of our customers kick off tests using our API, CLI, or CircleCI Orb.<p>Of course, not all tests can or should be automated; e.g. when a feature UI is changing frequently or when you need subjective feedback like, “Is this image clear?”. Today, computers are nowhere near able to replace the ingenuity and judgement of people; that’s why our crowd testing community isn’t going anywhere. We can now say that Rainforest is the only QA platform that provides on-demand access to both no-code automated testing and manual testing by QA specialists.<p>We’ve also created a free plan that provides five free hours of test automation every month, because we don’t think cost should make test automation inaccessible, either. (If you&#x27;re in YC, we have a new deal - check bookface.)<p>I’m looking forward to your questions and feedback!",
-      "time": 1634836464,
-      "title": "Launch HN: Rainforest QA (YC S21) – No-Code UI Test Automation",
-      "type": "story"
-    },
-    {
-      "by": "bryan0",
-      "descendants": 0,
-      "id": 28947673,
-      "score": 1,
-      "time": 1634836394,
-      "title": "100M-year old crab trapped in amber rewrites ancient crustacean history",
-      "type": "story",
-      "url": "https://www.cnet.com/news/100-million-year-old-crab-trapped-in-amber-rewrites-ancient-crustacean-history/"
     }
   ]
 }
