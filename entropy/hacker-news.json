@@ -1,6 +1,66 @@
 {
   "stories": [
     {
+      "by": "underyx",
+      "descendants": 0,
+      "id": 28959174,
+      "score": 1,
+      "text": "tl;dr: https:&#x2F;&#x2F;semgrep.dev&#x2F;products&#x2F;semgrep-app<p>Hi! I work on Semgrep, an open-source project (discussed on HN previously [0][1)]. We’re one of those companies that maintain an OSS tool and a web app, and then monetize by selling enterprise features on said web app. Our free web app just went through a major revamp (sort of like a v1.0 release) so this feels like the perfect time to share and hear what the HN crowd thinks!<p>Let me start with some backstory on Semgrep. Our team, r2c, has been experimenting with various ways to help organizations step up their application security game. One of our earliest experiments was Bento, a wrapper around multiple existing linters to help people configure various tools like ESLint and Bandit in one go. The bottleneck with a tool like this was, of course, interfacing with more and more tools. I had previously worked on a similar project called coala[2] which got all the way up to 78 analyzers covering 54 languages, until the project ground to a halt over the maintenance burden of all that. One of our team members at r2c came up with a novel approach to this problem: he suggested reusing some of his old work on Coccinelle[3] and later Sgrep[4], which were tools to search parsed syntax trees of various languages. Conceptually this meant that while Bento and coala could standardize the command-line interface, the configuration syntax, and file targeting logic of linters, now we could also standardize the core linting logic. Extending Bento with linting rules using this pattern language proved to be so easy that we rather just reimplemented the existing linters with it. And thus, Semgrep was born specifically to scan code with these pattern definitions, and there was no longer a need for Bento. Our rule registry[5] now contains over 1,500 rule definitions in this standardized linter rule definition language, across 20 languages.<p>And this leads us to our web app. Early adopters of Semgrep encountered problems rolling out the CLI tool across their organization. Their key needs: scanning hundreds of repos, reviewing all their scan results, deploying custom organization-internal rules across them, and avoiding backlash from developers during all that. We also made the unorthodox decision to start with a ground rule that we never ever want to have access to the source code of our customers. These needs and rules guided our web app’s feature set, which ended up being: provisioning CI jobs on repositories, centrally configuring which rules should block builds or notify people, sending notifications via PR comments&#x2F;Slack&#x2F;email, and displaying the list of all findings, along with some analytics.<p>As for today, we just launched a major release of Semgrep App, which cuts down on the complexity that built up in our original implementation, and we also tried to expand the problem space our app tackles all the way through remediating issues on the web UI. You can read more about these recent changes at https:&#x2F;&#x2F;r2c.dev&#x2F;blog&#x2F;2021&#x2F;semgrep-app-fall-2021-updates&#x2F;<p>And as for the future, two main areas of interest are 1) intelligently selecting all the right Semgrep Registry rules for a given project and 2) creating a smooth workflow for organizations to collaboratively maintain their own set of internal Semgrep rules.<p>Please check out the app we built at https:&#x2F;&#x2F;semgrep.dev&#x2F;products&#x2F;semgrep-app, and let us know what you think! I’ll be hanging out in the comments as one of the engineers who built the app, but our CEO (ievans) is also ready to answer questions, and the rest of the team will surely be lurking here as well.<p>[0]: https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=24931985<p>[1]: https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=26904951<p>[2]: https:&#x2F;&#x2F;github.com&#x2F;coala&#x2F;coala&#x2F;<p>[3]: https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Coccinelle_(software)<p>[4]: https:&#x2F;&#x2F;github.com&#x2F;facebookarchive&#x2F;pfff&#x2F;wiki&#x2F;Sgrep<p>[5]: https:&#x2F;&#x2F;semgrep.dev&#x2F;r&#x2F;",
+      "time": 1634919870,
+      "title": "Show HN: Semgrep App",
+      "type": "story"
+    },
+    {
+      "by": "eldridgea",
+      "descendants": 0,
+      "id": 28959164,
+      "score": 1,
+      "time": 1634919834,
+      "title": "Cloudflare for SaaS for All, Now Generally Available",
+      "type": "story",
+      "url": "https://blog.cloudflare.com/cloudflare-for-saas-for-all-now-generally-available/"
+    },
+    {
+      "by": "Fervicus",
+      "descendants": 0,
+      "id": 28959133,
+      "score": 1,
+      "time": 1634919735,
+      "title": "Jetson – Personal Electric Aerial Vehicle",
+      "type": "story",
+      "url": "https://www.jetsonaero.com/"
+    },
+    {
+      "by": "related",
+      "descendants": 0,
+      "id": 28959128,
+      "score": 2,
+      "time": 1634919717,
+      "title": "Hackernews.com",
+      "type": "story",
+      "url": "https://hackernews.com/"
+    },
+    {
+      "by": "donohoe",
+      "descendants": 0,
+      "id": 28959118,
+      "score": 1,
+      "time": 1634919691,
+      "title": "Reverse engineering 1,600 electrical bikes from Uber’s fail in Mexico",
+      "type": "story",
+      "url": "https://restofworld.org/2021/mechanic-jump-bikes-uber-jump-mexico/"
+    },
+    {
+      "by": "bryanrasmussen",
+      "descendants": 0,
+      "id": 28959111,
+      "score": 1,
+      "time": 1634919654,
+      "title": "Breaking Britain",
+      "type": "story",
+      "url": "https://novaramedia.com/focus/breaking-britain/"
+    },
+    {
       "by": "AniketP1",
       "descendants": 0,
       "id": 28959089,
@@ -14,7 +74,7 @@
       "by": "wdaher",
       "descendants": 0,
       "id": 28959084,
-      "score": 1,
+      "score": 2,
       "time": 1634919535,
       "title": "Founding three companies together without killing each other",
       "type": "story",
@@ -39,66 +99,6 @@
       "title": "Microsoft’s open source program office",
       "type": "story",
       "url": "https://venturebeat.com/2021/10/22/inside-microsofts-open-source-program-office/"
-    },
-    {
-      "by": "Gigamouse",
-      "descendants": 0,
-      "id": 28958996,
-      "score": 1,
-      "time": 1634919146,
-      "title": "The Art of Drawing Money for Aliens",
-      "type": "story",
-      "url": "https://brettscott.substack.com/p/drawing-money-for-aliens"
-    },
-    {
-      "by": "camjohnson26",
-      "descendants": 0,
-      "id": 28958963,
-      "score": 2,
-      "time": 1634919024,
-      "title": "Video Comparing Elon Musk’s Full Self Driving Statements with the Reality",
-      "type": "story",
-      "url": "https://twitter.com/BS__Exposed/status/1451578597261647872"
-    },
-    {
-      "by": "edward",
-      "descendants": 0,
-      "id": 28958951,
-      "score": 1,
-      "time": 1634918996,
-      "title": "Google uses Pixel 6 to talk about race and photography",
-      "type": "story",
-      "url": "https://www.fastcompany.com/90689180/google-pixel-6-race-photography"
-    },
-    {
-      "by": "beefman",
-      "descendants": 0,
-      "id": 28958919,
-      "score": 1,
-      "time": 1634918867,
-      "title": "DWAC, the Trump Social-Media SPAC, Quadruples",
-      "type": "story",
-      "url": "https://www.wsj.com/articles/dwac-the-trump-social-media-spac-quadruples-on-first-day-11634843253"
-    },
-    {
-      "by": "DerWOK",
-      "descendants": 0,
-      "id": 28958916,
-      "score": 1,
-      "time": 1634918857,
-      "title": "Shinobi: Open-Source CCTV Network Video Recorder",
-      "type": "story",
-      "url": "https://shinobi.video/"
-    },
-    {
-      "by": "Brajeshwar",
-      "descendants": 0,
-      "id": 28958907,
-      "score": 1,
-      "time": 1634918807,
-      "title": "ODX, a $100M accelerator to back the next generation of founders",
-      "type": "story",
-      "url": "https://twitter.com/beondeck/status/1451234241216454677"
     }
   ]
 }
