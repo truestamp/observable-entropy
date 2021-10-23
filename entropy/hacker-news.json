@@ -1,6 +1,36 @@
 {
   "stories": [
     {
+      "by": "pax",
+      "descendants": 0,
+      "id": 28971896,
+      "score": 1,
+      "time": 1635020642,
+      "title": "People vaccinated against Covid less likely to die from any cause, study finds",
+      "type": "story",
+      "url": "https://www.cnn.com/2021/10/22/health/covid-vaccines-death-rates/index.html"
+    },
+    {
+      "by": "piker",
+      "descendants": 0,
+      "id": 28971882,
+      "score": 1,
+      "time": 1635020516,
+      "title": "Analysis of Joe Rogan/Sanjay Gupta Interview by Zvi Mowshowitz",
+      "type": "story",
+      "url": "https://thezvi.wordpress.com/2021/10/21/covid-10-21-rogan-vs-gupta/"
+    },
+    {
+      "by": "andrevoget",
+      "descendants": 0,
+      "id": 28971869,
+      "score": 1,
+      "time": 1635020414,
+      "title": "Blunder, a chess engine written in Go",
+      "type": "story",
+      "url": "https://github.com/algerbrex/blunder"
+    },
+    {
       "by": "rapnie",
       "descendants": 0,
       "id": 28971836,
@@ -72,39 +102,6 @@
       "title": "Virus Gonna Virus",
       "type": "story",
       "url": "https://alexberenson.substack.com/p/virus-gonna-virus"
-    },
-    {
-      "by": "axiolite",
-      "descendants": 0,
-      "id": 28971734,
-      "score": 1,
-      "text": "I noticed when I go to Spectrum&#x27;s opt-out page (https:&#x2F;&#x2F;www.spectrum.com&#x2F;policies&#x2F;your-privacy-rights-opt-out) it fetches my exact address in the background (down to the apartment number) before I&#x27;ve filled anything in.  In Chrome or Firefox you can just hit F12 and choose the &quot;Network&quot; tab before loading the site, scroll halfway down to click on the &#x27;tnt.js?userProfile=&#x27; request, and look at the &quot;Response&quot; data to see your address.<p>Inconveniently, it doesn&#x27;t fill in the form to save customers&#x27; some unnecessary typing.  I would like to turn this into a more general lookup service, making a few requests in a command-line python program instead of opening a browser, but I&#x27;m having trouble figuring out what sequence of requests, headers, and post data is needed to get it to work in isolation.  Nothing malicious here, it would just help to know when remote employees have moved and forgotten to update HR.<p>It seems it first does a basic GeoIP request to (https:&#x2F;&#x2F;www.spectrum.com&#x2F;bin&#x2F;spectrum&#x2F;residential&#x2F;akamaiheaderloader), then uses those values (like approximate city, zip code, etc.) as arguments in the request to (https:&#x2F;&#x2F;www.spectrum.com&#x2F;bin&#x2F;spectrum&#x2F;tnt.js?userProfile=...) which returns everything from the date the service was started, zip+4, apartment, whether you subscribe to voice or mobile service, business or residential service, and it appears it even hints at billing.  But it balks at curl requests so it seems to be checking for some very specific order of requests.  Anyone interested in figuring it out?",
-      "time": 1635019360,
-      "title": "Ask HN: Help extract address lookup call from Spectrum's website?",
-      "type": "story"
-    },
-    {
-      "by": "behnamoh",
-      "descendants": 2,
-      "id": 28971715,
-      "kids": [
-        28971842,
-        28971750
-      ],
-      "score": 2,
-      "time": 1635019189,
-      "title": "Ask HN: Is it ethical to bypass paywalls because I believe in free internet?",
-      "type": "story"
-    },
-    {
-      "by": "zitterbewegung",
-      "descendants": 0,
-      "id": 28971710,
-      "score": 1,
-      "time": 1635019150,
-      "title": "1Password Signup Email Strange Activity",
-      "type": "story",
-      "url": "https://imgur.com/a/gP5xIrx"
     }
   ]
 }
