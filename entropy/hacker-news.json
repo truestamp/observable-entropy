@@ -1,10 +1,43 @@
 {
   "stories": [
     {
-      "by": "behnamoh",
+      "by": "didibus",
       "descendants": 0,
-      "id": 28971715,
+      "id": 28971742,
       "score": 1,
+      "time": 1635019462,
+      "title": "Is Clojure the right tool for the job?",
+      "type": "story",
+      "url": "https://gist.github.com/didibus/6e5ff960b25fdc1a5f8f97acede614b0"
+    },
+    {
+      "by": "vadfa",
+      "descendants": 0,
+      "id": 28971741,
+      "score": 1,
+      "time": 1635019454,
+      "title": "Virus Gonna Virus",
+      "type": "story",
+      "url": "https://alexberenson.substack.com/p/virus-gonna-virus"
+    },
+    {
+      "by": "axiolite",
+      "descendants": 0,
+      "id": 28971734,
+      "score": 1,
+      "text": "I noticed when I go to Spectrum&#x27;s opt-out page (https:&#x2F;&#x2F;www.spectrum.com&#x2F;policies&#x2F;your-privacy-rights-opt-out) it fetches my exact address in the background (down to the apartment number) before I&#x27;ve filled anything in.  In Chrome or Firefox you can just hit F12 and choose the &quot;Network&quot; tab before loading the site, scroll halfway down to click on the &#x27;tnt.js?userProfile=&#x27; request, and look at the &quot;Response&quot; data to see your address.<p>Inconveniently, it doesn&#x27;t fill in the form to save customers&#x27; some unnecessary typing.  I would like to turn this into a more general lookup service, making a few requests in a command-line python program instead of opening a browser, but I&#x27;m having trouble figuring out what sequence of requests, headers, and post data is needed to get it to work in isolation.  Nothing malicious here, it would just help to know when remote employees have moved and forgotten to update HR.<p>It seems it first does a basic GeoIP request to (https:&#x2F;&#x2F;www.spectrum.com&#x2F;bin&#x2F;spectrum&#x2F;residential&#x2F;akamaiheaderloader), then uses those values (like approximate city, zip code, etc.) as arguments in the request to (https:&#x2F;&#x2F;www.spectrum.com&#x2F;bin&#x2F;spectrum&#x2F;tnt.js?userProfile=...) which returns everything from the date the service was started, zip+4, apartment, whether you subscribe to voice or mobile service, business or residential service, and it appears it even hints at billing.  But it balks at curl requests so it seems to be checking for some very specific order of requests.  Anyone interested in figuring it out?",
+      "time": 1635019360,
+      "title": "Ask HN: Help extract address lookup call from Spectrum's website?",
+      "type": "story"
+    },
+    {
+      "by": "behnamoh",
+      "descendants": 1,
+      "id": 28971715,
+      "kids": [
+        28971750
+      ],
+      "score": 2,
       "time": 1635019189,
       "title": "Ask HN: Is it ethical to bypass paywalls because I believe in free internet?",
       "type": "story"
@@ -68,36 +101,6 @@
       "title": "US govt to ban export of hacking tools to authoritarian regimes",
       "type": "story",
       "url": "https://www.bleepingcomputer.com/news/security/us-govt-to-ban-export-of-hacking-tools-to-authoritarian-regimes/"
-    },
-    {
-      "by": "jedgardyson",
-      "descendants": 0,
-      "id": 28971596,
-      "score": 1,
-      "time": 1635018242,
-      "title": "SpaceX #13 – I found the exact modular Gas Plant Elon Musk ordered",
-      "type": "story",
-      "url": "https://esghound.substack.com/p/spacex-13-i-found-the-exact-modular"
-    },
-    {
-      "by": "adunk",
-      "descendants": 0,
-      "id": 28971586,
-      "score": 2,
-      "time": 1635018152,
-      "title": "Don't validate your ideas, invalidate them",
-      "type": "story",
-      "url": "https://www.indiehackers.com/post/dont-validate-your-ideas-invalidate-them-a4372529c9"
-    },
-    {
-      "by": "23B1",
-      "descendants": 0,
-      "id": 28971572,
-      "score": 1,
-      "text": "I just completed a rollup for one of my clients and one of the key components to their success will be a recruiter that can create a talent pipeline for them - without it, they will be up the creek.<p>Beyond the usual &quot;ask for referrals&#x2F;make a job post and share it around&quot; does HN have any pro tips for finding a quality recruiter? Is there a place that recruiters - especially tech recruiters - congregate or otherwise share information?",
-      "time": 1635018051,
-      "title": "Ask HN: How do you recruit a recruiter?",
-      "type": "story"
     }
   ]
 }
