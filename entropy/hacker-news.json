@@ -3,6 +3,46 @@
     {
       "by": "intunderflow",
       "descendants": 0,
+      "id": 28971460,
+      "score": 1,
+      "time": 1635017324,
+      "title": "Using recycled cathodes makes better lithium batteries, study finds",
+      "type": "story",
+      "url": "https://arstechnica.com/cars/2021/10/using-recycled-cathodes-makes-better-lithium-batteries-study-finds/"
+    },
+    {
+      "by": "bdcravens",
+      "descendants": 0,
+      "id": 28971458,
+      "score": 1,
+      "time": 1635017319,
+      "title": "Amazon.com: Introducing Amazon Astro, Household Robot for Home Monitoring",
+      "type": "story",
+      "url": "https://www.amazon.com/Introducing-Amazon-Astro/dp/B078NSDFSB"
+    },
+    {
+      "by": "pessimizer",
+      "descendants": 0,
+      "id": 28971443,
+      "score": 1,
+      "time": 1635017189,
+      "title": "Trump’s new social media SPAC is soaring. Also, what is a SPAC?",
+      "type": "story",
+      "url": "https://www.washingtonpost.com/business/2021/10/22/donald-trump-spac-truth-social/"
+    },
+    {
+      "by": "danfrost",
+      "descendants": 0,
+      "id": 28971439,
+      "score": 1,
+      "text": "Tech debt is often a taboo. Talking about it can be bad and arguing for addressing it can be worse.<p>But I&#x27;m not sure everyone talks about &quot;tech debt&quot; in the same way. I&#x27;ve seen people use it as excuses for &quot;time on what I want to do&quot; and definitely seen management refuse it for that reason. But I&#x27;ve also seen management refuse addressing it to the detriment of the product&#x2F;project.<p>So what, actually, is it? And how do you explain it?",
+      "time": 1635017166,
+      "title": "Ask HN: How do you explain tech debt (to non-techs)?",
+      "type": "story"
+    },
+    {
+      "by": "intunderflow",
+      "descendants": 0,
       "id": 28971427,
       "score": 1,
       "time": 1635017087,
@@ -52,53 +92,16 @@
     },
     {
       "by": "app4soft",
-      "descendants": 0,
+      "descendants": 1,
       "id": 28971373,
+      "kids": [
+        28971442
+      ],
       "score": 1,
       "time": 1635016761,
       "title": "Build 3D Bricks and Mortar Wall using Seamless3d [video]",
       "type": "story",
       "url": "https://www.youtube.com/watch?v=5Zc8PiEA0QM"
-    },
-    {
-      "by": "daly",
-      "descendants": 0,
-      "id": 28971297,
-      "score": 1,
-      "text": "I&#x27;ve spent most of my professional life in computers, mathematics, and computer algebra.\n(Disclaimer, I&#x27;m the lead maintainer on Axiom, developed by a team at IBM Research, that I maintain as\nan open source computer algebra system so\nI&#x27;m not a disinterested party. That said, I&#x27;m certainly qualified in the subject area.)<p>I&#x27;ve listened to Wolfram&#x27;s &quot;Celebrating a Third of a Century of Mathematica&quot;.<p>It starts out with a walk through history, backwards, not forward. It&#x27;s not a well-connected story.\nIt involves a lot of unconnected references. It seems to ignore a lot of prior work, including\nwork in computational physics, like Reduce.<p>He seems to claim that Mathematica is the essential language of human thinking.<p>Then he seems to turn to a &quot;word salad&quot; of words like &quot;multi-computation&quot;. Despite replaying\nthis section I have no idea what he&#x27;s talking about.<p>Finally he seems to claim Mathematica as the central pillar of the future.<p>&quot;... the core Wolfram Language that is intended to last forever.&quot;<p>&quot;We are building things which\ninexorably will be the way that people think about things.&quot;...<p>&quot;This idea of computational language...\nthere isn&#x27;t really a question about whether that&#x27;s going to be the way \nthat everybody ends up thinking about things in terms\nin terms of the computational paradigm&quot;<p>&quot;The question of &#x27;What will we see as we build the tower&#x27;... the things that\nare inexorable, there are things where we are just working through. We are\ngetting this bigger and bigger area that are covering these bigger and\nbigger areas of knowledge. We have bitten into pretty much every conceivable \narea that we are now just &#x27;chewing further&#x27;, so to speak, to get all the pieces&quot;<p>There seems to be a theme of &quot;the tower&quot;, rooted in the Wolfram Language\nthat is a base for building intellectual development within this century.\nA tower of Babel if you will.<p>&quot;There are more things in heaven and earth, Stephen, than are dreamt of in your philosophy&quot;",
-      "time": 1635016021,
-      "title": "Review: Celebrating a Third of a Century of Mathematica",
-      "type": "story"
-    },
-    {
-      "by": "maraoz",
-      "descendants": 0,
-      "id": 28971264,
-      "score": 1,
-      "time": 1635015759,
-      "title": "Dark Tech Backpack: Tools to Reduce Information Leakage",
-      "type": "story",
-      "url": "https://maraoz.com/2021/10/23/dark-tech/"
-    },
-    {
-      "by": "homarp",
-      "descendants": 0,
-      "id": 28971260,
-      "score": 2,
-      "time": 1635015745,
-      "title": "Bash Line Editor (ble.sh) – a full-featured line editor written in pure Bash",
-      "type": "story",
-      "url": "https://github.com/akinomyoga/ble.sh"
-    },
-    {
-      "by": "tomjuggler",
-      "descendants": 0,
-      "id": 28971227,
-      "score": 3,
-      "text": "Recently while looking for coding work I connected an LED to my resume site so that I would have instant feedback in the form of a visual notification whenever anyone visited.<p>People seemed to like the idea when I wrote about it on my blog, so I have made this into a free service. Using ESP8266, my own hosted MQTT broker and WordPress plugin. If you want to try it out, I have the instructions over at https:&#x2F;&#x2F;ledindicator.devsoft.co.za - see the &quot;learn&quot; page.<p>All you need is a spare ESP8266 module and a WordPress site. I&#x27;m concentrating on WordPress for now, but it should be relatively simple to send MQTT messages from other types of websites.<p>If there is enough interest I plan to do this as a pre-programmed product, with an RGB LED and support for multiple websites. I know you can set this up yourself with Node-Red or Adafruit but I&#x27;m going for a very focused product which does one thing well, and is super simple to set up.",
-      "time": 1635015468,
-      "title": "Show HN: LED Website Indicator – an LED lights up when someone visits your site",
-      "type": "story"
     }
   ]
 }
