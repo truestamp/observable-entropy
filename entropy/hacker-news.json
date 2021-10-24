@@ -3,10 +3,60 @@
     {
       "by": "thunderbong",
       "descendants": 0,
+      "id": 28980591,
+      "score": 1,
+      "time": 1635099864,
+      "title": "South Korea’s street lights up as road safety for those on their phones",
+      "type": "story",
+      "url": "https://www.independent.co.uk/tv/lifestyle/south-korea-pedestrian-lights-crossing-vf6032e7b"
+    },
+    {
+      "by": "edward",
+      "descendants": 0,
+      "id": 28980582,
+      "score": 1,
+      "time": 1635099792,
+      "title": "Russian mercenaries leave trail of destruction in the Central African Republic",
+      "type": "story",
+      "url": "https://www.ft.com/content/020de965-429e-4fb9-9eed-f7e4370514b3"
+    },
+    {
+      "by": "samizdis",
+      "descendants": 0,
+      "id": 28980569,
+      "score": 3,
+      "time": 1635099681,
+      "title": "Plastic industry pollution to overtake coal in US by 2030, report says",
+      "type": "story",
+      "url": "https://arstechnica.com/tech-policy/2021/10/plastic-industry-pollution-to-overtake-coal-in-us-by-2030-report-says/"
+    },
+    {
+      "by": "pacaro",
+      "descendants": 0,
+      "id": 28980565,
+      "score": 2,
+      "time": 1635099661,
+      "title": "Slo-mo footage of running engine with acrylic cylinder",
+      "type": "story",
+      "url": "https://uk.motor1.com/news/542634/running-engine-clear-cylinder-video/"
+    },
+    {
+      "by": "eatonphil",
+      "descendants": 0,
+      "id": 28980564,
+      "score": 2,
+      "time": 1635099651,
+      "title": "Strings, arrays, recursion, and parsing JSON: Exploring PL/pgSQL",
+      "type": "story",
+      "url": "https://notes.eatonphil.com/exploring-plpgsql.html"
+    },
+    {
+      "by": "thunderbong",
+      "descendants": 0,
       "id": 28980553,
       "score": 1,
       "time": 1635099575,
-      "title": "Google Pixel 6 cases work with MagSafe – charge your phone, use the wallet",
+      "title": "Moment Pixel 6 cases work with MagSafe – charge your phone, use the wallet",
       "type": "story",
       "url": "https://twitter.com/DurvidImel/status/1450859795267964935"
     },
@@ -48,56 +98,6 @@
       "title": "Comics: Old-School Distance-Learning Tools",
       "type": "story",
       "url": "https://www.sciencehistory.org/distillations/comics-old-school-distance-learning-tool"
-    },
-    {
-      "by": "audiothrowaway",
-      "descendants": 0,
-      "id": 28980525,
-      "score": 1,
-      "time": 1635099436,
-      "title": "States that cutoff of jobless aid see no surge of job seekers",
-      "type": "story",
-      "url": "https://www.pbs.org/newshour/economy/states-that-cutoff-of-jobless-aid-see-no-surge-of-job-seekers"
-    },
-    {
-      "by": "backslash_16",
-      "descendants": 0,
-      "id": 28980514,
-      "score": 1,
-      "text": "I&#x27;m working through the excellent Crafting Interpreters book and learning Rust at the same time by writing the interpreter in the first part of the book in Rust. For anyone who hasn&#x27;t read the book, you totally should!, you implement an interpreter for a made up dynamically typed language called Lox.<p>The scanner was relatively straightforward and now I&#x27;m having a hard time figuring out how I can implement a data structure to contain the AST for Lox. I&#x27;m pretty sure the core question is &quot;How do I represent a tree of heterogeneous objects in Rust?&quot;<p>In the book he uses polymorphism. There is a base class of Expression, with subclasses for each expression type.<p>At this point I think I&#x27;m holding Rust wrong and approaching the problem the wrong way. Potentially because I&#x27;ve used OOP for must of my life, with any functional-ish programming being pure functions, C#&#x27;s LINQ, and emulating concepts like free functions that act on data in C# or Java.<p>This is the specific part of the book where I&#x27;m having trouble. http:&#x2F;&#x2F;craftinginterpreters.com&#x2F;representing-code.html#implementing-syntax-trees<p>I have the sense that I need to use a struct with an enum of expression type as the data field but I can&#x27;t figure out to tie the data into it in a nice way. Is it as simple as having each variant of the enum contain the &quot;complex&quot; data structure that represents that expression kind?<p>Can someone poke or prod me in the right direction? I&#x27;m doing this for the sole purpose of learning so I don&#x27;t necessarily want to be given the answer.",
-      "time": 1635099381,
-      "title": "Ask HN: What data structure do I use for Lox AST in Rust?",
-      "type": "story"
-    },
-    {
-      "by": "hamiltonians",
-      "descendants": 0,
-      "id": 28980482,
-      "score": 1,
-      "time": 1635099193,
-      "title": "Crypto scams live-streamed as YouTube channels face phishing attacks",
-      "type": "story",
-      "url": "https://ambcrypto.com/crypto-scams-live-streamed-as-youtube-channels-face-phishing-attacks/"
-    },
-    {
-      "by": "hamiltonians",
-      "descendants": 0,
-      "id": 28980477,
-      "score": 1,
-      "time": 1635099136,
-      "title": "YouTube channels hacked and rebranded for live-streaming crypto scams",
-      "type": "story",
-      "url": "https://cointelegraph.com/news/youtube-channels-hacked-and-rebranded-for-live-streaming-crypto-scams"
-    },
-    {
-      "by": "tiagoparra",
-      "descendants": 0,
-      "id": 28980476,
-      "score": 1,
-      "time": 1635099135,
-      "title": "Crontask.io – Simple Cron Node/Python scripts without a server",
-      "type": "story",
-      "url": "https://crontask.io/"
     }
   ]
 }
