@@ -1,6 +1,75 @@
 {
   "stories": [
     {
+      "by": "thunderbong",
+      "descendants": 0,
+      "id": 28980553,
+      "score": 1,
+      "time": 1635099575,
+      "title": "Google Pixel 6 cases work with MagSafe – charge your phone, use the wallet",
+      "type": "story",
+      "url": "https://twitter.com/DurvidImel/status/1450859795267964935"
+    },
+    {
+      "by": "arberavdullahu",
+      "descendants": 0,
+      "id": 28980549,
+      "score": 1,
+      "time": 1635099553,
+      "title": "Satoshi Nakamoto’s Bitcoin (BTC) stash is now worth over $60B",
+      "type": "story",
+      "url": "https://cryptoslate.com/satoshi-nakamotos-bitcoin-btc-stash-is-now-worth-over-60-billion/"
+    },
+    {
+      "by": "hamiltonians",
+      "descendants": 0,
+      "id": 28980535,
+      "score": 1,
+      "time": 1635099486,
+      "title": "Massive Shibu Inu YouTube LiveStream Scam Network, $320k Stolen",
+      "type": "story",
+      "url": "https://scaminvestigations.substack.com/p/massive-shibu-inu-youtube-livestrem"
+    },
+    {
+      "by": "alephnan",
+      "descendants": 0,
+      "id": 28980534,
+      "score": 1,
+      "time": 1635099485,
+      "title": "Ask HN: What would you change about the AWS, Azure or GCP Web UI?",
+      "type": "story"
+    },
+    {
+      "by": "ohjeez",
+      "descendants": 0,
+      "id": 28980528,
+      "score": 1,
+      "time": 1635099464,
+      "title": "Comics: Old-School Distance-Learning Tools",
+      "type": "story",
+      "url": "https://www.sciencehistory.org/distillations/comics-old-school-distance-learning-tool"
+    },
+    {
+      "by": "audiothrowaway",
+      "descendants": 0,
+      "id": 28980525,
+      "score": 1,
+      "time": 1635099436,
+      "title": "States that cutoff of jobless aid see no surge of job seekers",
+      "type": "story",
+      "url": "https://www.pbs.org/newshour/economy/states-that-cutoff-of-jobless-aid-see-no-surge-of-job-seekers"
+    },
+    {
+      "by": "backslash_16",
+      "descendants": 0,
+      "id": 28980514,
+      "score": 1,
+      "text": "I&#x27;m working through the excellent Crafting Interpreters book and learning Rust at the same time by writing the interpreter in the first part of the book in Rust. For anyone who hasn&#x27;t read the book, you totally should!, you implement an interpreter for a made up dynamically typed language called Lox.<p>The scanner was relatively straightforward and now I&#x27;m having a hard time figuring out how I can implement a data structure to contain the AST for Lox. I&#x27;m pretty sure the core question is &quot;How do I represent a tree of heterogeneous objects in Rust?&quot;<p>In the book he uses polymorphism. There is a base class of Expression, with subclasses for each expression type.<p>At this point I think I&#x27;m holding Rust wrong and approaching the problem the wrong way. Potentially because I&#x27;ve used OOP for must of my life, with any functional-ish programming being pure functions, C#&#x27;s LINQ, and emulating concepts like free functions that act on data in C# or Java.<p>This is the specific part of the book where I&#x27;m having trouble. http:&#x2F;&#x2F;craftinginterpreters.com&#x2F;representing-code.html#implementing-syntax-trees<p>I have the sense that I need to use a struct with an enum of expression type as the data field but I can&#x27;t figure out to tie the data into it in a nice way. Is it as simple as having each variant of the enum contain the &quot;complex&quot; data structure that represents that expression kind?<p>Can someone poke or prod me in the right direction? I&#x27;m doing this for the sole purpose of learning so I don&#x27;t necessarily want to be given the answer.",
+      "time": 1635099381,
+      "title": "Ask HN: What data structure do I use for Lox AST in Rust?",
+      "type": "story"
+    },
+    {
       "by": "hamiltonians",
       "descendants": 0,
       "id": 28980482,
@@ -29,76 +98,6 @@
       "title": "Crontask.io – Simple Cron Node/Python scripts without a server",
       "type": "story",
       "url": "https://crontask.io/"
-    },
-    {
-      "by": "jerheinze",
-      "descendants": 0,
-      "id": 28980464,
-      "score": 1,
-      "time": 1635099042,
-      "title": "LocalCDN: Browser Addon that locally emulates Content Delivery Networks",
-      "type": "story",
-      "url": "https://codeberg.org/nobody/LocalCDN"
-    },
-    {
-      "by": "rchaves",
-      "descendants": 0,
-      "id": 28980435,
-      "score": 1,
-      "time": 1635098860,
-      "title": "Why Agile Works",
-      "type": "story",
-      "url": "https://rchaves.app/why-agile-works/"
-    },
-    {
-      "by": "maddynator",
-      "descendants": 0,
-      "id": 28980389,
-      "score": 1,
-      "time": 1635098511,
-      "title": "How to Catch a Cheating Candidate in an Interview",
-      "type": "story",
-      "url": "https://thinkingthrough.substack.com/p/how-to-catch-a-cheating-candidate"
-    },
-    {
-      "by": "giuliomagnifico",
-      "descendants": 0,
-      "id": 28980382,
-      "score": 22,
-      "time": 1635098476,
-      "title": "NYT Ben Hubbard Hacked with Pegasus After Reporting on Previous Hacking Attempts",
-      "type": "story",
-      "url": "https://citizenlab.ca/2021/10/breaking-news-new-york-times-journalist-ben-hubbard-pegasus/"
-    },
-    {
-      "by": "mrfusion",
-      "descendants": 0,
-      "id": 28980344,
-      "score": 2,
-      "time": 1635098288,
-      "title": "Alaskan Air Base Will Host an Experimental Mini Nuclear Reactor",
-      "type": "story",
-      "url": "https://www.thedrive.com/the-war-zone/42818/this-alaskan-air-base-will-host-an-experimental-mini-nuclear-reactor"
-    },
-    {
-      "by": "LinuxBender",
-      "descendants": 0,
-      "id": 28980307,
-      "score": 1,
-      "time": 1635098045,
-      "title": "Lucy Could Reveal Solar System Origins",
-      "type": "story",
-      "url": "https://www.nature.com/articles/d41586-021-02807-w"
-    },
-    {
-      "by": "LinuxBender",
-      "descendants": 0,
-      "id": 28980256,
-      "score": 1,
-      "time": 1635097745,
-      "title": "Simple Experiment Could Challenge Standard Quantum Theory",
-      "type": "story",
-      "url": "https://www.scientificamerican.com/article/this-simple-experiment-could-challenge-standard-quantum-theory/"
     }
   ]
 }
