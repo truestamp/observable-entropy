@@ -1,6 +1,46 @@
 {
   "stories": [
     {
+      "by": "drasticactions",
+      "descendants": 0,
+      "id": 28988926,
+      "score": 1,
+      "time": 1635175777,
+      "title": "Open Letter to MSFT DevDiv Leadership regarding dotnet watch",
+      "type": "story",
+      "url": "https://rentry.co/wz9qw"
+    },
+    {
+      "by": "furkansahin",
+      "descendants": 0,
+      "id": 28988919,
+      "score": 1,
+      "time": 1635175723,
+      "title": "How to scale Postgres for time series data with Citus",
+      "type": "story",
+      "url": "https://www.citusdata.com/blog/2021/10/22/how-to-scale-postgres-for-time-series-data-with-citus/"
+    },
+    {
+      "by": "tamar_gal",
+      "descendants": 0,
+      "id": 28988880,
+      "score": 1,
+      "time": 1635175578,
+      "title": "Cloud Data Warehouse Comparison: Snowflake, Redshift, BigQuery, Firebolt",
+      "type": "story",
+      "url": "https://www.firebolt.io/resources/cloud-data-warehouse-comparison"
+    },
+    {
+      "by": "lapalmian",
+      "descendants": 0,
+      "id": 28988868,
+      "score": 1,
+      "time": 1635175522,
+      "title": "How we implemented the 4 day work-week",
+      "type": "story",
+      "url": "https://blog.meilisearch.com/how-we-implemented-the-4-day-work-week/"
+    },
+    {
       "by": "atombender",
       "descendants": 0,
       "id": 28988848,
@@ -19,16 +59,6 @@
       "title": "Explainer: Guns on movie sets: How does that work?",
       "type": "story",
       "url": "https://apnews.com/article/entertainment-business-arts-and-entertainment-new-mexico-movies-2079a865611116a7301f5d755ac4ca0c"
-    },
-    {
-      "by": "yarapavan",
-      "descendants": 0,
-      "id": 28988843,
-      "score": 1,
-      "time": 1635175406,
-      "title": "What's in a Hostname?",
-      "type": "story",
-      "url": "https://www.netmeister.org/blog/hostnames.html"
     },
     {
       "by": "GautamAhuja",
@@ -69,39 +99,6 @@
       "title": "Dr. Ugur Sahin: “The virus is starting to escape immune responses”",
       "type": "story",
       "url": "https://twitter.com/camanpour/status/1447986528513372162"
-    },
-    {
-      "by": "mdp2021",
-      "descendants": 1,
-      "id": 28988778,
-      "kids": [
-        28988856
-      ],
-      "score": 1,
-      "time": 1635175113,
-      "title": "MenuetOS [last update: 12 Oct 2021]",
-      "type": "story",
-      "url": "http://menuetos.net/"
-    },
-    {
-      "by": "swordsmith8",
-      "descendants": 0,
-      "id": 28988765,
-      "score": 3,
-      "time": 1635175066,
-      "title": "The Data Mash (Monster Mash Parody)",
-      "type": "story",
-      "url": "https://www.youtube.com/watch?v=2wLJS2TwLZk"
-    },
-    {
-      "by": "SebastianFish",
-      "descendants": 0,
-      "id": 28988755,
-      "score": 1,
-      "text": "Question: Hacker News, if someone were designing a new programming language (or library system within an existing language) to mitigate supply chain attacks, what features would be most important to you?<p>Background: Open-source code has been an amazing boon for software productivity. However, I believe that most of the code that companies run isn&#x27;t written by their own developers, it is from various packages and frameworks written by outside individuals and groups. My main focus is writing data intensive software where malicious actors, or just poorly written code, could compromise the confidentiality and&#x2F;or integrity of customer data via a popular package&#x2F;dependency. Better sandboxing of relatively untrusted code could be a huge boon for applications that have lots of plugins (think Chrome of VS code).<p>A few thoughts I have had on this front is limiting access of untrusted code to system calls that control file and network access is critical. Also, there would be a need to ensure that dependencies can&#x27;t &quot;takeover&quot; a process by overwriting the call-stack to run their own code or spawning a new thread &#x2F; process. Interested in your thoughts.",
-      "time": 1635175001,
-      "title": "Ask HN: Language design to mitigate supply chain attacks?",
-      "type": "story"
     }
   ]
 }
