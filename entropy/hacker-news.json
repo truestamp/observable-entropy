@@ -1,6 +1,16 @@
 {
   "stories": [
     {
+      "by": "kryptogeist",
+      "descendants": 0,
+      "id": 28984480,
+      "score": 1,
+      "text": "I&#x27;m currenctly picking up Java at my current job. Looking for some current state of the art open source Java(8+) projects to serve as a basis for my learnig. Thanks in advance.",
+      "time": 1635135621,
+      "title": "Ask HN: State of the Art Java Projects",
+      "type": "story"
+    },
+    {
       "by": "peterhunt",
       "descendants": 0,
       "id": 28984478,
@@ -92,20 +102,6 @@
       "title": "The brief history of San Francisco's most dangerous (and absurd) secret society",
       "type": "story",
       "url": "https://www.sfgate.com/sf-culture/article/history-of-san-francisco-suicide-club-16554773.php"
-    },
-    {
-      "by": "tytrdev",
-      "descendants": 2,
-      "id": 28984271,
-      "kids": [
-        28984428,
-        28984408
-      ],
-      "score": 3,
-      "text": "Hey, folks. Looking for some insight on distributed systems setups but not exactly sure how to phrase it. Here goes:<p>Does anyone know of any decent approaches to building organic systems of services that can be arbitrarily distributed? The two things that come to mind immediately are the BEAM and something like Kubernetes. I have no experience with Kubernetes, but it does seem a bit heavy handed. With the BEAM my concern would be platform buy-in for everything. I&#x27;m exploring ideas for a new system I&#x27;m planning, and I&#x27;d like to be able to mix and match different languages&#x2F;platforms as time goes on, with a focus on building really small services that are composable and reusable. Is Kubernetes the best way to do this these days?<p>Things I&#x27;m looking for:<p>- No platform&#x2F;language buy-in (each service&#x2F;unit can do things however it needs to)<p>- Hot reload of services<p>- Ability to deploy multiple instances of a service<p>- Ability to deploy different versions of a service (e.g. version 1, version 1.1, version 2, etc.)<p>- Ability to manage&#x2F;monitor all of said services<p>- Some sort of first class&#x2F;idiomatic way to communicate between them (even if that&#x27;s just http)<p>- Low operational overhead&#x2F;complexity<p>Seems to me like the BEAM hits all of these except the first.\nAnd Kubernetes hits all of these except the last xD<p>Thoughts?<p>P.S. Additionally I guess it would be nice to have some sort of super simple and versionable configuration that governs the current state of deployment. No idea what it would look like. Maybe something like terraform?",
-      "time": 1635133126,
-      "title": "Ask HN: Best modern approaches to building composable distributed systems?",
-      "type": "story"
     }
   ]
 }
