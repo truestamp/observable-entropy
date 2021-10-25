@@ -1,19 +1,82 @@
 {
   "stories": [
     {
-      "by": "jrsutterfield",
+      "by": "atombender",
       "descendants": 0,
-      "id": 28988781,
+      "id": 28988848,
       "score": 1,
-      "text": "At the start of the pandemic, my girlfriend and I decided to work on a side project to keep ourselves busy. We ended up creating https:&#x2F;&#x2F;www.mynamefairy.com&#x2F;. It&#x27;s like a tinder for names. It&#x27;s been a fun project to work on, and its accomplished the technical growth goals that I wanted to get out of it (I learned how to do more modern css, how to setup a FE build with webpack, some vue.js, how to dockerize and deploy a django application, how to use postgres instead of MySQL), but at this point it&#x27;s been released for over a year and gets maybe 1-2 people a day. Those people are spending time on the site (avg time is 4 minutes, some spend up to 30-40 mins per session), but there just aren&#x27;t very many of them.<p>I&#x27;m not so much interested in trying to monetize it (although that would certainly be nice), but it&#x27;d be great if we could get more people using it. I&#x27;ve shared it on a few of subreddits. (r&#x2F;django[1], r&#x2F;python[2], and r&#x2F;webdev[3]). When doing so, I tried to balance the self promotion aspect with information about which classes I took and found useful, tools I worked with, and various lessons along the way. Those posts did provide a nice little bump for about a week or so, but traffic dropped again aftewards. At this point we&#x27;re trying to brainstorm what would be the best use of our energies to try and get more people using the site.<p>Some ideas we&#x27;ve had:\n* Focus more on SEO. If I google &quot;tinder for names&quot;, we don&#x27;t even show up. A lighthouse test gives us 100%, but clearly that&#x27;s not a good enough benchmark for how discoverable we are. We&#x27;ve even thought about paying some SEO expert to help, but so many of the services we find seem scammy.\n* Try and find more parenting&#x2F;expecting mom forums online and posting there.\n* Trying to find places around town we could leave flyers (we&#x27;re based in Amsterdam).\n* Just keep on hammering away at features to try and make the site more useful&#x2F;compelling.<p>Has anyone else faced a similar quandry and, if so, how did you go about getting more exposure for your project? It&#x27;s still just a hobby, but we&#x27;re willing to pay a bit of money if it helped us get some traffic and momentum on it again.<p>1: https:&#x2F;&#x2F;www.reddit.com&#x2F;r&#x2F;django&#x2F;comments&#x2F;kync31&#x2F;side_project_i_built_using_django_and_what_i&#x2F;\n2: https:&#x2F;&#x2F;www.reddit.com&#x2F;r&#x2F;Python&#x2F;comments&#x2F;kz8uxu&#x2F;side_project_i_built_using_django_a_tinder_for&#x2F;\n3: https:&#x2F;&#x2F;www.reddit.com&#x2F;r&#x2F;webdev&#x2F;comments&#x2F;l3dior&#x2F;side_project_i_built_using_django_a_tinder_for&#x2F;",
-      "time": 1635175124,
-      "title": "Ask HN: I built a side project. How do I get people to use it?",
+      "text": "Background: We currently use Argo Workflows to orchestrate end-to-end integration tests.<p>Basically, a set of workflow definitions define containers for all the apps that the tests need (typically 7-8 microservice apps, plus services like databases, caches, etc.). Then the last step of the workflow runs test.<p>The downside is that the workflow needs to duplicate the Kubernetes config that we already deploy with ArgoCD. We keep apps, tests, and ArgoCD definitions in separate repos, and this stuff gets out of sync.<p>Plus, Argo Workflows is not so great. Poor UI, very flaky, relatively slow, and of course everything is YAML, which is horrible to work with.<p>Is there anything better?",
+      "time": 1635175413,
+      "title": "Ask HN: Is there a good way to run integration tests on Kubernetes?",
       "type": "story"
     },
     {
-      "by": "mdp2021",
+      "by": "gmays",
       "descendants": 0,
+      "id": 28988846,
+      "score": 1,
+      "time": 1635175410,
+      "title": "Explainer: Guns on movie sets: How does that work?",
+      "type": "story",
+      "url": "https://apnews.com/article/entertainment-business-arts-and-entertainment-new-mexico-movies-2079a865611116a7301f5d755ac4ca0c"
+    },
+    {
+      "by": "yarapavan",
+      "descendants": 0,
+      "id": 28988843,
+      "score": 1,
+      "time": 1635175406,
+      "title": "What's in a Hostname?",
+      "type": "story",
+      "url": "https://www.netmeister.org/blog/hostnames.html"
+    },
+    {
+      "by": "GautamAhuja",
+      "descendants": 0,
+      "id": 28988841,
+      "score": 1,
+      "time": 1635175402,
+      "title": "Show HN: I built a newsletter sponsorship marketplace with 0% platform fees",
+      "type": "story",
+      "url": "https://microsponsor.co/"
+    },
+    {
+      "by": "CapitalistCartr",
+      "descendants": 0,
+      "id": 28988827,
+      "score": 1,
+      "time": 1635175343,
+      "title": "Nanosystems Are Poorly Abstracted",
+      "type": "story",
+      "url": "https://www.lesswrong.com/posts/HzhoMvcKncFqgwsd7/nanosystems-are-poorly-abstracted"
+    },
+    {
+      "by": "simonebrunozzi",
+      "descendants": 0,
+      "id": 28988812,
+      "score": 1,
+      "time": 1635175262,
+      "title": "What Is Alternating Current (AC)?",
+      "type": "story",
+      "url": "https://www.allaboutcircuits.com/textbook/alternating-current/chpt-1/what-is-alternating-current-ac/"
+    },
+    {
+      "by": "doener",
+      "descendants": 0,
+      "id": 28988802,
+      "score": 1,
+      "time": 1635175215,
+      "title": "Dr. Ugur Sahin: “The virus is starting to escape immune responses”",
+      "type": "story",
+      "url": "https://twitter.com/camanpour/status/1447986528513372162"
+    },
+    {
+      "by": "mdp2021",
+      "descendants": 1,
       "id": 28988778,
+      "kids": [
+        28988856
+      ],
       "score": 1,
       "time": 1635175113,
       "title": "MenuetOS [last update: 12 Oct 2021]",
@@ -24,7 +87,7 @@
       "by": "swordsmith8",
       "descendants": 0,
       "id": 28988765,
-      "score": 2,
+      "score": 3,
       "time": 1635175066,
       "title": "The Data Mash (Monster Mash Parody)",
       "type": "story",
@@ -39,66 +102,6 @@
       "time": 1635175001,
       "title": "Ask HN: Language design to mitigate supply chain attacks?",
       "type": "story"
-    },
-    {
-      "by": "doener",
-      "descendants": 0,
-      "id": 28988723,
-      "score": 1,
-      "time": 1635174866,
-      "title": "Explore interactive 3-D anatomical brain atlases",
-      "type": "story",
-      "url": "https://www.humanbrainproject.eu/en/explore-the-brain/"
-    },
-    {
-      "by": "simonebrunozzi",
-      "descendants": 0,
-      "id": 28988720,
-      "score": 1,
-      "time": 1635174853,
-      "title": "Wind vs. Solar [pdf]",
-      "type": "story",
-      "url": "https://icap.sustainability.illinois.edu/files/projectupdate/4045/wind%20vs%20solar.pdf"
-    },
-    {
-      "by": "Brajeshwar",
-      "descendants": 0,
-      "id": 28988713,
-      "score": 1,
-      "time": 1635174804,
-      "title": "Artificial Intelligence Has Found an Unknown 'Ghost' Ancestor in the Human Genom",
-      "type": "story",
-      "url": "https://www.sciencealert.com/artificial-intelligence-finds-an-unknown-ghost-ancestor-in-the-human-genome"
-    },
-    {
-      "by": "pseudolus",
-      "descendants": 0,
-      "id": 28988710,
-      "score": 1,
-      "time": 1635174794,
-      "title": "Scientists unravel 50-year medical mystery behind deaths from RSV vaccine",
-      "type": "story",
-      "url": "https://medicalxpress.com/news/2021-10-scientists-unravel-year-old-medical-mystery.html"
-    },
-    {
-      "by": "emdashcomma",
-      "descendants": 0,
-      "id": 28988709,
-      "score": 1,
-      "time": 1635174790,
-      "title": "MacBook Pro with M1 Pro and M1 Max Impressions: Giving the People What They Want",
-      "type": "story",
-      "url": "https://www.theverge.com/22744023/macbook-pro-2021-m1-pro-m1-max-impressions"
-    },
-    {
-      "by": "logie17",
-      "descendants": 0,
-      "id": 28988702,
-      "score": 1,
-      "time": 1635174738,
-      "title": "Yes, Free Will Exists",
-      "type": "story",
-      "url": "https://blogs.scientificamerican.com/observations/yes-free-will-exists/"
     }
   ]
 }
