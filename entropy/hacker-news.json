@@ -1,6 +1,46 @@
 {
   "stories": [
     {
+      "by": "jrsutterfield",
+      "descendants": 0,
+      "id": 28988781,
+      "score": 1,
+      "text": "At the start of the pandemic, my girlfriend and I decided to work on a side project to keep ourselves busy. We ended up creating https:&#x2F;&#x2F;www.mynamefairy.com&#x2F;. It&#x27;s like a tinder for names. It&#x27;s been a fun project to work on, and its accomplished the technical growth goals that I wanted to get out of it (I learned how to do more modern css, how to setup a FE build with webpack, some vue.js, how to dockerize and deploy a django application, how to use postgres instead of MySQL), but at this point it&#x27;s been released for over a year and gets maybe 1-2 people a day. Those people are spending time on the site (avg time is 4 minutes, some spend up to 30-40 mins per session), but there just aren&#x27;t very many of them.<p>I&#x27;m not so much interested in trying to monetize it (although that would certainly be nice), but it&#x27;d be great if we could get more people using it. I&#x27;ve shared it on a few of subreddits. (r&#x2F;django[1], r&#x2F;python[2], and r&#x2F;webdev[3]). When doing so, I tried to balance the self promotion aspect with information about which classes I took and found useful, tools I worked with, and various lessons along the way. Those posts did provide a nice little bump for about a week or so, but traffic dropped again aftewards. At this point we&#x27;re trying to brainstorm what would be the best use of our energies to try and get more people using the site.<p>Some ideas we&#x27;ve had:\n* Focus more on SEO. If I google &quot;tinder for names&quot;, we don&#x27;t even show up. A lighthouse test gives us 100%, but clearly that&#x27;s not a good enough benchmark for how discoverable we are. We&#x27;ve even thought about paying some SEO expert to help, but so many of the services we find seem scammy.\n* Try and find more parenting&#x2F;expecting mom forums online and posting there.\n* Trying to find places around town we could leave flyers (we&#x27;re based in Amsterdam).\n* Just keep on hammering away at features to try and make the site more useful&#x2F;compelling.<p>Has anyone else faced a similar quandry and, if so, how did you go about getting more exposure for your project? It&#x27;s still just a hobby, but we&#x27;re willing to pay a bit of money if it helped us get some traffic and momentum on it again.<p>1: https:&#x2F;&#x2F;www.reddit.com&#x2F;r&#x2F;django&#x2F;comments&#x2F;kync31&#x2F;side_project_i_built_using_django_and_what_i&#x2F;\n2: https:&#x2F;&#x2F;www.reddit.com&#x2F;r&#x2F;Python&#x2F;comments&#x2F;kz8uxu&#x2F;side_project_i_built_using_django_a_tinder_for&#x2F;\n3: https:&#x2F;&#x2F;www.reddit.com&#x2F;r&#x2F;webdev&#x2F;comments&#x2F;l3dior&#x2F;side_project_i_built_using_django_a_tinder_for&#x2F;",
+      "time": 1635175124,
+      "title": "Ask HN: I built a side project. How do I get people to use it?",
+      "type": "story"
+    },
+    {
+      "by": "mdp2021",
+      "descendants": 0,
+      "id": 28988778,
+      "score": 1,
+      "time": 1635175113,
+      "title": "MenuetOS [last update: 12 Oct 2021]",
+      "type": "story",
+      "url": "http://menuetos.net/"
+    },
+    {
+      "by": "swordsmith8",
+      "descendants": 0,
+      "id": 28988765,
+      "score": 2,
+      "time": 1635175066,
+      "title": "The Data Mash (Monster Mash Parody)",
+      "type": "story",
+      "url": "https://www.youtube.com/watch?v=2wLJS2TwLZk"
+    },
+    {
+      "by": "SebastianFish",
+      "descendants": 0,
+      "id": 28988755,
+      "score": 1,
+      "text": "Question: Hacker News, if someone were designing a new programming language (or library system within an existing language) to mitigate supply chain attacks, what features would be most important to you?<p>Background: Open-source code has been an amazing boon for software productivity. However, I believe that most of the code that companies run isn&#x27;t written by their own developers, it is from various packages and frameworks written by outside individuals and groups. My main focus is writing data intensive software where malicious actors, or just poorly written code, could compromise the confidentiality and&#x2F;or integrity of customer data via a popular package&#x2F;dependency. Better sandboxing of relatively untrusted code could be a huge boon for applications that have lots of plugins (think Chrome of VS code).<p>A few thoughts I have had on this front is limiting access of untrusted code to system calls that control file and network access is critical. Also, there would be a need to ensure that dependencies can&#x27;t &quot;takeover&quot; a process by overwriting the call-stack to run their own code or spawning a new thread &#x2F; process. Interested in your thoughts.",
+      "time": 1635175001,
+      "title": "Ask HN: Language design to mitigate supply chain attacks?",
+      "type": "story"
+    },
+    {
       "by": "doener",
       "descendants": 0,
       "id": 28988723,
@@ -59,49 +99,6 @@
       "title": "Yes, Free Will Exists",
       "type": "story",
       "url": "https://blogs.scientificamerican.com/observations/yes-free-will-exists/"
-    },
-    {
-      "by": "alxjsn",
-      "descendants": 0,
-      "id": 28988699,
-      "score": 1,
-      "time": 1635174737,
-      "title": "A Primer for Testing the Security of GraphQL APIs",
-      "type": "story",
-      "url": "https://blog.forcesunseen.com/a-primer-for-testing-the-security-of-graphql-apis"
-    },
-    {
-      "by": "woodruffw",
-      "descendants": 0,
-      "id": 28988693,
-      "score": 1,
-      "time": 1635174711,
-      "title": "A small Documerica Twitter bot",
-      "type": "story",
-      "url": "https://blog.yossarian.net/2021/10/25/A-small-documerica-twitter-bot"
-    },
-    {
-      "by": "helsinkiandrew",
-      "descendants": 0,
-      "id": 28988692,
-      "score": 1,
-      "time": 1635174708,
-      "title": "The highway where trucks work like electric trains [video]",
-      "type": "story",
-      "url": "https://www.youtube.com/watch?v=_3P_S7pL7Yg"
-    },
-    {
-      "by": "consumer451",
-      "descendants": 0,
-      "id": 28988690,
-      "kids": [
-        28988691
-      ],
-      "score": 1,
-      "time": 1635174706,
-      "title": "Field Test eHighway – Overhead electric supply for trucks on highways",
-      "type": "story",
-      "url": "https://www.ehighway-sh.de/de/ehighway.html"
     }
   ]
 }
