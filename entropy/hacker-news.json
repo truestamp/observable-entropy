@@ -1,6 +1,46 @@
 {
   "stories": [
     {
+      "by": "awb",
+      "descendants": 0,
+      "id": 28989056,
+      "score": 2,
+      "time": 1635176353,
+      "title": "Hertz Orders 100k Teslas",
+      "type": "story",
+      "url": "https://www.bloomberg.com/news/articles/2021-10-25/hertz-said-to-order-100-000-teslas-in-car-rental-market-shake-up"
+    },
+    {
+      "by": "Kiloneie",
+      "descendants": 0,
+      "id": 28989044,
+      "score": 1,
+      "time": 1635176328,
+      "title": "Metaprogramming in Nim #1 Introduction",
+      "type": "story",
+      "url": "https://www.youtube.com/watch?v=2EWLE-IFgGM"
+    },
+    {
+      "by": "jdorfman",
+      "descendants": 0,
+      "id": 28989039,
+      "score": 1,
+      "time": 1635176300,
+      "title": "The future of code search [audio]",
+      "type": "story",
+      "url": "https://changelog.com/founderstalk/81"
+    },
+    {
+      "by": "aliabd",
+      "descendants": 0,
+      "id": 28989038,
+      "score": 1,
+      "time": 1635176293,
+      "title": "Demucs: Music Source Separation in the Waveform Domain",
+      "type": "story",
+      "url": "https://huggingface.co/spaces/akhaliq/demucs"
+    },
+    {
       "by": "hidden-spyder",
       "descendants": 0,
       "id": 28988993,
@@ -22,8 +62,11 @@
     },
     {
       "by": "aghilmort",
-      "descendants": 0,
+      "descendants": 1,
       "id": 28988961,
+      "kids": [
+        28989018
+      ],
       "score": 2,
       "time": 1635175920,
       "title": "Breeze – topic search engine for Halloween costumes",
@@ -62,46 +105,6 @@
       "title": "Open Letter to MSFT DevDiv Leadership regarding dotnet watch",
       "type": "story",
       "url": "https://rentry.co/wz9qw"
-    },
-    {
-      "by": "furkansahin",
-      "descendants": 0,
-      "id": 28988919,
-      "score": 3,
-      "time": 1635175723,
-      "title": "How to scale Postgres for time series data with Citus",
-      "type": "story",
-      "url": "https://www.citusdata.com/blog/2021/10/22/how-to-scale-postgres-for-time-series-data-with-citus/"
-    },
-    {
-      "by": "tamar_gal",
-      "descendants": 0,
-      "id": 28988880,
-      "score": 2,
-      "time": 1635175578,
-      "title": "Cloud Data Warehouse Comparison: Snowflake, Redshift, BigQuery, Firebolt",
-      "type": "story",
-      "url": "https://www.firebolt.io/resources/cloud-data-warehouse-comparison"
-    },
-    {
-      "by": "lapalmian",
-      "descendants": 0,
-      "id": 28988868,
-      "score": 2,
-      "time": 1635175522,
-      "title": "How we implemented the 4 day work-week",
-      "type": "story",
-      "url": "https://blog.meilisearch.com/how-we-implemented-the-4-day-work-week/"
-    },
-    {
-      "by": "atombender",
-      "descendants": 0,
-      "id": 28988848,
-      "score": 1,
-      "text": "Background: We currently use Argo Workflows to orchestrate end-to-end integration tests.<p>Basically, a set of workflow definitions define containers for all the apps that the tests need (typically 7-8 microservice apps, plus services like databases, caches, etc.). Then the last step of the workflow runs test.<p>The downside is that the workflow needs to duplicate the Kubernetes config that we already deploy with ArgoCD. We keep apps, tests, and ArgoCD definitions in separate repos, and this stuff gets out of sync.<p>Plus, Argo Workflows is not so great. Poor UI, very flaky, relatively slow, and of course everything is YAML, which is horrible to work with.<p>Is there anything better?",
-      "time": 1635175413,
-      "title": "Ask HN: Is there a good way to run integration tests on Kubernetes?",
-      "type": "story"
     }
   ]
 }
