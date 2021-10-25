@@ -1,6 +1,56 @@
 {
   "stories": [
     {
+      "by": "tytrdev",
+      "descendants": 0,
+      "id": 28984271,
+      "score": 2,
+      "text": "Hey, folks. Looking for some insight on distributed systems setups but not exactly sure how to phrase it. Here goes:<p>Does anyone know of any decent approaches to building organic systems of services that can be arbitrarily distributed? The two things that come to mind immediately are the BEAM and something like Kubernetes. I have no experience with Kubernetes, but it does seem a bit heavy handed. With the BEAM my concern would be platform buy-in for everything. I&#x27;m exploring ideas for a new system I&#x27;m planning, and I&#x27;d like to be able to mix and match different languages&#x2F;platforms as time goes on, with a focus on building really small services that are composable and reusable. Is Kubernetes the best way to do this these days?<p>Things I&#x27;m looking for:<p>- No platform&#x2F;language buy-in (each service&#x2F;unit can do things however it needs to)\n- Hot reload of services\n- Ability to deploy multiple instances of a service\n- Ability to deploy different versions of a service (e.g. version 1, version 1.1, version 2, etc.)\n- Ability to manage&#x2F;monitor all of said services\n- Some sort of first class&#x2F;idiomatic way to communicate between them (even if that&#x27;s just http)\n- Low operational overhead&#x2F;complexity<p>Seems to me like the BEAM hits all of these except the first.\nAnd Kubernetes hits all of these except the last xD<p>Thoughts?<p>P.S. Additionally I guess it would be nice to have some sort of super simple and versionable configuration that governs the current state of deployment. No idea what it would look like. Maybe something like terraform?",
+      "time": 1635133126,
+      "title": "Ask HN: Best modern approaches to building composable distributed systems?",
+      "type": "story"
+    },
+    {
+      "by": "dane-pgp",
+      "descendants": 0,
+      "id": 28984269,
+      "score": 2,
+      "time": 1635133101,
+      "title": "Australian Online Privacy Bill to make social media age verification mandatory",
+      "type": "story",
+      "url": "https://www.zdnet.com/article/australian-online-privacy-bill-to-make-social-media-age-verification-mandatory-for-tech-giants-reddit-zoom-gaming-platforms/"
+    },
+    {
+      "by": "lukestevens",
+      "descendants": 0,
+      "id": 28984268,
+      "score": 2,
+      "time": 1635133092,
+      "title": "He wanted make his revolutionary code free. But Ali Ghodsi is now a billionaire",
+      "type": "story",
+      "url": "https://www.forbesindia.com/article/cross-border/he-wanted-make-his-revolutionary-code-free-but-ali-ghodsi-is-now-a-billionaire-with-a-28-billion-startup/71153/1"
+    },
+    {
+      "by": "SquibblesRedux",
+      "descendants": 0,
+      "id": 28984251,
+      "score": 2,
+      "time": 1635132963,
+      "title": "When it comes to solar farms, sheep are great groundskeepers",
+      "type": "story",
+      "url": "https://arstechnica.com/science/2021/10/shepherds-can-cash-in-on-their-sheep-grazing-around-solar-panels/"
+    },
+    {
+      "by": "lifez",
+      "descendants": 0,
+      "id": 28984249,
+      "score": 1,
+      "text": "I like how Kent C. Dodds teach react. I would like to know if there is any distributed system course like this?",
+      "time": 1635132953,
+      "title": "Ask HN: Any recommendation course like Kent C. Dodds but in Distributed System",
+      "type": "story"
+    },
+    {
       "by": "Hooke",
       "descendants": 0,
       "id": 28984239,
@@ -32,8 +82,11 @@
     },
     {
       "by": "turtlegrids",
-      "descendants": 0,
+      "descendants": 1,
       "id": 28984200,
+      "kids": [
+        28984260
+      ],
       "score": 1,
       "time": 1635132299,
       "title": "Remembering the halcyon days of Sizzler, the cheapest steakhouse in California",
@@ -49,56 +102,6 @@
       "title": "Hamilton, a Microframework for Dataframe Generation",
       "type": "story",
       "url": "https://multithreaded.stitchfix.com/blog/2021/10/14/functions-dags-hamilton/"
-    },
-    {
-      "by": "Brajeshwar",
-      "descendants": 0,
-      "id": 28984191,
-      "score": 1,
-      "time": 1635132159,
-      "title": "How Long Can the Taliban 2.0 Last",
-      "type": "story",
-      "url": "https://chanakyaforum.com/how-long-can-the-taliban-2-0-last/"
-    },
-    {
-      "by": "taytus",
-      "descendants": 0,
-      "id": 28984186,
-      "score": 1,
-      "time": 1635132052,
-      "title": "Google Digital Ad Antitrust [pdf]",
-      "type": "story",
-      "url": "https://storage.courtlistener.com/recap/gov.uscourts.nysd.564903/gov.uscourts.nysd.564903.152.0.pdf"
-    },
-    {
-      "by": "Stratoscope",
-      "descendants": 0,
-      "id": 28984185,
-      "score": 2,
-      "time": 1635132030,
-      "title": "The jaw-clenching world of cricket fighting in China",
-      "type": "story",
-      "url": "https://www.npr.org/2021/10/23/1045988512/china-cricket-fighting"
-    },
-    {
-      "by": "joeyespo",
-      "descendants": 0,
-      "id": 28984171,
-      "score": 1,
-      "time": 1635131780,
-      "title": "Smarter Every Day: Is Your Privacy an Illusion? (Taking on Big Tech)",
-      "type": "story",
-      "url": "https://www.youtube.com/watch?v=KMtrY6lbjcY"
-    },
-    {
-      "by": "dredmorbius",
-      "descendants": 0,
-      "id": 28984153,
-      "score": 2,
-      "time": 1635131482,
-      "title": "Keyboard Shortcuts (2019)",
-      "type": "story",
-      "url": "https://github.com/mozilla-mobile/fenix/issues/3729"
     }
   ]
 }
