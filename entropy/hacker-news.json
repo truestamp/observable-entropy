@@ -1,10 +1,60 @@
 {
   "stories": [
     {
+      "by": "hubraumhugo",
+      "descendants": 0,
+      "id": 29002630,
+      "score": 1,
+      "time": 1635266455,
+      "title": "How bad is the supply chain crisis?",
+      "type": "story",
+      "url": "https://twitter.com/krebs_adrian/status/1452328242359250948"
+    },
+    {
+      "by": "double_slack",
+      "descendants": 0,
+      "id": 29002618,
+      "score": 1,
+      "time": 1635266415,
+      "title": "The Value of Providing Options",
+      "type": "story",
+      "url": "https://creatingvalue.substack.com/p/the-value-of-providing-options"
+    },
+    {
+      "by": "beefman",
+      "descendants": 0,
+      "id": 29002570,
+      "score": 2,
+      "time": 1635266243,
+      "title": "Tesla Dojo Technology [pdf]",
+      "type": "story",
+      "url": "https://tesla-cdn.thron.com/static/SBY4B9_tesla-dojo-technology_OPNZ0M.pdf"
+    },
+    {
+      "by": "sixhobbits",
+      "descendants": 0,
+      "id": 29002569,
+      "score": 1,
+      "time": 1635266242,
+      "title": "Crypto Investors Are Bidding to Touch a 1,784-Pound Tungsten Cube Once a Year",
+      "type": "story",
+      "url": "https://www.vice.com/en/article/n7njgd/crypto-investors-are-bidding-to-touch-a-1784-pound-tungsten-cube-once-a-year"
+    },
+    {
+      "by": "linkdd",
+      "descendants": 0,
+      "id": 29002564,
+      "score": 1,
+      "text": "Kubernetes has been around for 7 years now.<p>I often think about Kubernetes as a Cloud Operating System (an interface to operate a cloud infrastructure).<p>Coming from the Linux ecosystem, where every distribution has a package manager (be it apt for debs, dnf for rpms, etc...), it seems weird to me that no such solution exists (AFAIK) for Kubernetes.<p>So far, we&#x27;ve seen Helm&#x2F;Tanka which looks a lot like the tar.gz archives you&#x27;d deploy on a Slackware and wish for the lack of conflicts. In other words: no true dependency management (even with subcharts).<p>Same with FluxCD and ArgoCD, you need to write yourself the source and wire the dependencies together yourself. This is like giving you APT without a repository (dpkg?).<p>I just wish I could say &quot;I have this package, it relies on cert-manager to generate certificates, install it if it&#x27;s not already&quot;.<p>I wish I could have a `PackageRepository` resource that would act like a line in your APT&#x27;s sources.list and deploy `PackageDefinition` resources in my cluster.<p>I wish I could have a `Package` resource that would deploy my application and its dependencies if not already installed.<p>You would get the following commands out of the box:<p><pre><code>  - kubectl get repositories -&gt; list the repositories configured in your cluster\n  - kubectl get pkgdefs -&gt; list available packages in your cluster\n  - kubectl get packages -&gt; list installed packages in your cluster\n</code></pre>\nThe underlying package could be an Helm chart, a kapp-controller manifest, or ArgoCD applications. It does not really matter (it would be like tar.gz vs tar.xz vs ... for your Linux package manager).<p>Is there work on this subject going on? Is it worth putting time into it (seems a lot of work)?<p>What do you think HN?",
+      "time": 1635266223,
+      "title": "Ask HN: Package Management for Kubernetes",
+      "type": "story"
+    },
+    {
       "by": "dougsillars",
       "descendants": 0,
       "id": 29002539,
-      "score": 1,
+      "score": 3,
       "time": 1635266134,
       "title": "History of live streaming (how a bunch of nerds opened for the Rolling Stones)",
       "type": "story",
@@ -14,7 +64,7 @@
       "by": "alanfranz",
       "descendants": 0,
       "id": 29002505,
-      "score": 2,
+      "score": 6,
       "time": 1635266001,
       "title": "Julian Assange’s High Court fight against extradition",
       "type": "story",
@@ -34,7 +84,7 @@
       "by": "bsid",
       "descendants": 0,
       "id": 29002458,
-      "score": 4,
+      "score": 8,
       "time": 1635265847,
       "title": "NextJS and Clerk – Secure Authentication at the Edge",
       "type": "story",
@@ -42,66 +92,16 @@
     },
     {
       "by": "mdp2021",
-      "descendants": 0,
+      "descendants": 1,
       "id": 29002441,
+      "kids": [
+        29002559
+      ],
       "score": 1,
       "time": 1635265797,
       "title": "Billionaires [Hoffman, Soros] back new media firm to combat disinformation",
       "type": "story",
       "url": "https://www.axios.com/soros-hoffman-disinformation-tara-mcgowan-b1e7cb89-a4f7-4281-8e0a-3877fe8a3944.html-b1e7cb89-a4f7-4281-8e0a-3877fe8a3944.html"
-    },
-    {
-      "by": "luke2m",
-      "descendants": 0,
-      "id": 29002415,
-      "score": 1,
-      "time": 1635265689,
-      "title": "Biden makes FCC nominations that will give Democrats a 3-2 majority",
-      "type": "story",
-      "url": "https://arstechnica.com/tech-policy/2021/10/biden-finally-makes-fcc-picks-rosenworcel-as-chair-gigi-sohn-as-commissioner/"
-    },
-    {
-      "by": "vchain-dz",
-      "descendants": 0,
-      "id": 29002414,
-      "score": 1,
-      "time": 1635265685,
-      "title": "Open source and free software and SBOM attestation service for the community",
-      "type": "story",
-      "url": "https://community.codenotary.com"
-    },
-    {
-      "by": "mlac",
-      "descendants": 1,
-      "id": 29002412,
-      "kids": [
-        29002520
-      ],
-      "score": 1,
-      "text": "I can see how one&#x27;s attention is valuable but hits a point of diminishing returns. At the extreme, one&#x27;s attention is not valuable if that person spends his or her entire day consuming apps and not creating value (or working). His or her ad revenue will be worth less than someone with a job, if it is worth anything at all. This person will also use a lot of the organization&#x27;s resources and have a high amount of &quot;engagement&quot; with the application.<p>This makes Facebook&#x27;s shift to young adults [1] seem more clear - that group can spend as much time as they want on Facebook and consumption, and they can then spend their parents&#x27; income. It&#x27;s a constant fresh source of income with buying power.<p>I roughly equate attention to time and energy - once it is spent, it is gone. On the whole, as billions of people spend their time and energy scrolling through ad-supported applications, their attention becomes less valuable over time. Do you think that the time and energy spent on ad-supported applications is pulling from users&#x27; productivity? Or just transferring it from other forms of recreation?<p>I don&#x27;t quite think I&#x27;m hitting the mark here, but I&#x27;d like to know your thoughts on if the attention economy is sustainable in its current state. Have we hit peak &quot;attention&quot; and the only new users left are kids in middle school and high school? I think this would make for interesting discussion with recent headlines and revelations about the major companies in the space [2].<p>[1] https:&#x2F;&#x2F;www.theverge.com&#x2F;2021&#x2F;10&#x2F;25&#x2F;22745622&#x2F;facebook-young-adults-refocusing-teams<p>[2] Impact from Apple on SNAP, Facebook revelations, HN headlines recently involving Google... it goes on.",
-      "time": 1635265679,
-      "title": "Ask HN: Where does the attention economy end?",
-      "type": "story"
-    },
-    {
-      "by": "rgbrgb",
-      "descendants": 0,
-      "id": 29002394,
-      "score": 3,
-      "time": 1635265574,
-      "title": "Ditto: Cross Platform P2P Database",
-      "type": "story",
-      "url": "https://docs.ditto.live/"
-    },
-    {
-      "by": "Tomte",
-      "descendants": 0,
-      "id": 29002350,
-      "score": 1,
-      "time": 1635265403,
-      "title": "A plot to kill Kim Il Sung ended in mutiny and murder (2018)",
-      "type": "story",
-      "url": "https://www.cnn.com/2018/02/18/asia/south-korea-failed-assassination-squad-unit-684-intl/index.html"
     }
   ]
 }
