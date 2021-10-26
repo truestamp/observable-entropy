@@ -1,6 +1,16 @@
 {
   "stories": [
     {
+      "by": "devj",
+      "descendants": 0,
+      "id": 28997698,
+      "score": 1,
+      "text": "We are on the process of creating an SDK for our thin(API) client.<p>Saw an  article by TemproalIO - https:&#x2F;&#x2F;docs.temporal.io&#x2F;blog&#x2F;why-rust-powers-core-sdk&#x2F; which states the following:<p>&quot;When it comes to connecting multiple languages to a shared library, the traditional choice is often C, but Rust makes for a safer and more modern alternative. Having language SDKs directly link to the Rust core meets our end-user-ease goal and keeps overhead low. There are other ways we could&#x27;ve tackled the problem (for example by running another process that communicates with the language-specific SDK over some kind of IPC), but those options probably fail our ease-of-use goal. If desirable, we can always run out-of-process later because we use Protobufs to represent data passed between the Core and language-specific SDKs. This technique also reduces the amount of duplicate code we would have to write for each new language. Rust also very easily compiles to WASM, which unlocks some very interesting possibilities...&quot;<p>If you have already worked on a similar use-case, please share your experience.",
+      "time": 1635236000,
+      "title": "Ask HN: Is it better to use Rust for SDK's core?",
+      "type": "story"
+    },
+    {
       "by": "nigerian1981",
       "descendants": 0,
       "id": 28997685,
@@ -24,7 +34,7 @@
       "by": "signa11",
       "descendants": 0,
       "id": 28997668,
-      "score": 1,
+      "score": 2,
       "time": 1635235763,
       "title": "Writing a Linux-compatible kernel in Rust",
       "type": "story",
@@ -87,21 +97,11 @@
       "by": "devev",
       "descendants": 0,
       "id": 28997622,
-      "score": 2,
+      "score": 3,
       "time": 1635235428,
       "title": "Dijkstra’s Most Powerful Lessons",
       "type": "story",
       "url": "https://www.cantorsparadise.com/dijkstras-most-powerful-lessons-165bd5360237?gi=9c39284290d5"
-    },
-    {
-      "by": "itronitron",
-      "descendants": 0,
-      "id": 28997612,
-      "score": 1,
-      "time": 1635235370,
-      "title": "A Postal Treasure Trove",
-      "type": "story",
-      "url": "http://brienne.org/unlockedbriennearchive"
     }
   ]
 }
