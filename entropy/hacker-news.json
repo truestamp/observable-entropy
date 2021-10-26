@@ -1,6 +1,16 @@
 {
   "stories": [
     {
+      "by": "lambdaprime",
+      "descendants": 0,
+      "id": 28996573,
+      "score": 1,
+      "text": "With new version of jeval we added support for shebag (#!) directive which is available in Unix-like operating systems.<p>It allows to run scripts written in Java without calling jeval. Instead of:<p>jeval script.java<p>You can run it directly as ordinary executable file:<p>.&#x2F;script.java<p>For that to work you need to put following line as a first line of script.java:<p>#!&#x2F;usr&#x2F;bin&#x2F;env jeval<p>And make file executable:<p>chmod u+x script.java<p>https:&#x2F;&#x2F;github.com&#x2F;lambdaprime&#x2F;jeval",
+      "time": 1635224409,
+      "title": "Show HN: Jeval allows to run Java scripts as ordinary executable files",
+      "type": "story"
+    },
+    {
       "by": "jonbaer",
       "descendants": 0,
       "id": 28996530,
@@ -54,7 +64,7 @@
       "by": "stong1",
       "descendants": 0,
       "id": 28996500,
-      "score": 1,
+      "score": 2,
       "time": 1635223632,
       "title": "A bug that doesn’t exist on x86: Exploiting an ARM-only race condition",
       "type": "story",
@@ -92,16 +102,6 @@
       "title": "Looking for beta listeners for my customer discovery podcast",
       "type": "story",
       "url": "https://drive.google.com/file/d/1Dpq2TI58X5nifQokk74gI-HnRhXniUZk/view"
-    },
-    {
-      "by": "1cvmask",
-      "descendants": 0,
-      "id": 28996377,
-      "score": 1,
-      "time": 1635222242,
-      "title": "Jackie Calmes has an assignment for failing political reporters",
-      "type": "story",
-      "url": "https://presswatchers.org/2021/10/jackie-calmes-proposes-a-baby-step-for-political-reporters/"
     }
   ]
 }
