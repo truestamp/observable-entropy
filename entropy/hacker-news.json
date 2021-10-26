@@ -1,10 +1,83 @@
 {
   "stories": [
     {
+      "by": "giuliomagnifico",
+      "descendants": 0,
+      "id": 29002704,
+      "score": 1,
+      "time": 1635266772,
+      "title": "Photoshop to add 'Prepare as NFT' to save options",
+      "type": "story",
+      "url": "https://petapixel.com/2021/10/26/photoshop-to-add-prepare-as-nft-to-save-options/"
+    },
+    {
+      "by": "flowck",
+      "descendants": 0,
+      "id": 29002699,
+      "score": 1,
+      "time": 1635266755,
+      "title": "Simple, Decorated, dependency-injection framework for TypeScript applications",
+      "type": "story",
+      "url": "https://www.injex.dev/"
+    },
+    {
+      "by": "jstrieb",
+      "descendants": 1,
+      "id": 29002694,
+      "kids": [
+        29002709
+      ],
+      "score": 1,
+      "time": 1635266708,
+      "title": "Show HN: QuickServ • Dangerously user-friendly web server",
+      "type": "story",
+      "url": "https://github.com/jstrieb/quickserv"
+    },
+    {
+      "by": "devquixote",
+      "descendants": 0,
+      "id": 29002681,
+      "score": 1,
+      "time": 1635266662,
+      "title": "Getting agile with cloud-native infrastructure",
+      "type": "story",
+      "url": "https://www.devquixote.net/post/cloud-native-message-routing"
+    },
+    {
+      "by": "bricss",
+      "descendants": 0,
+      "id": 29002675,
+      "score": 1,
+      "time": 1635266633,
+      "title": "Node.js – v16.13.0 LTS",
+      "type": "story",
+      "url": "https://nodejs.org/en/blog/release/v16.13.0/"
+    },
+    {
+      "by": "eranation",
+      "descendants": 0,
+      "id": 29002669,
+      "score": 1,
+      "time": 1635266607,
+      "title": "Hacking Hacker News for Fun and Profit – Part 1",
+      "type": "story",
+      "url": "https://blog.arnica.io/hacking-hacker-news-for-fun-and-profit-part-1-41bd6a48a2c2?gi=60c4e82c053c"
+    },
+    {
+      "by": "kjhughes",
+      "descendants": 0,
+      "id": 29002649,
+      "score": 1,
+      "time": 1635266515,
+      "title": "New computer modelling could boost drug discovery",
+      "type": "story",
+      "url": "https://phys.org/news/2021-10-boost-drug-discovery.html"
+    },
+    {
       "by": "hubraumhugo",
       "descendants": 0,
       "id": 29002630,
-      "score": 1,
+      "score": 2,
       "time": 1635266455,
       "title": "How bad is the supply chain crisis?",
       "type": "story",
@@ -29,79 +102,6 @@
       "title": "Tesla Dojo Technology [pdf]",
       "type": "story",
       "url": "https://tesla-cdn.thron.com/static/SBY4B9_tesla-dojo-technology_OPNZ0M.pdf"
-    },
-    {
-      "by": "sixhobbits",
-      "descendants": 0,
-      "id": 29002569,
-      "score": 1,
-      "time": 1635266242,
-      "title": "Crypto Investors Are Bidding to Touch a 1,784-Pound Tungsten Cube Once a Year",
-      "type": "story",
-      "url": "https://www.vice.com/en/article/n7njgd/crypto-investors-are-bidding-to-touch-a-1784-pound-tungsten-cube-once-a-year"
-    },
-    {
-      "by": "linkdd",
-      "descendants": 0,
-      "id": 29002564,
-      "score": 1,
-      "text": "Kubernetes has been around for 7 years now.<p>I often think about Kubernetes as a Cloud Operating System (an interface to operate a cloud infrastructure).<p>Coming from the Linux ecosystem, where every distribution has a package manager (be it apt for debs, dnf for rpms, etc...), it seems weird to me that no such solution exists (AFAIK) for Kubernetes.<p>So far, we&#x27;ve seen Helm&#x2F;Tanka which looks a lot like the tar.gz archives you&#x27;d deploy on a Slackware and wish for the lack of conflicts. In other words: no true dependency management (even with subcharts).<p>Same with FluxCD and ArgoCD, you need to write yourself the source and wire the dependencies together yourself. This is like giving you APT without a repository (dpkg?).<p>I just wish I could say &quot;I have this package, it relies on cert-manager to generate certificates, install it if it&#x27;s not already&quot;.<p>I wish I could have a `PackageRepository` resource that would act like a line in your APT&#x27;s sources.list and deploy `PackageDefinition` resources in my cluster.<p>I wish I could have a `Package` resource that would deploy my application and its dependencies if not already installed.<p>You would get the following commands out of the box:<p><pre><code>  - kubectl get repositories -&gt; list the repositories configured in your cluster\n  - kubectl get pkgdefs -&gt; list available packages in your cluster\n  - kubectl get packages -&gt; list installed packages in your cluster\n</code></pre>\nThe underlying package could be an Helm chart, a kapp-controller manifest, or ArgoCD applications. It does not really matter (it would be like tar.gz vs tar.xz vs ... for your Linux package manager).<p>Is there work on this subject going on? Is it worth putting time into it (seems a lot of work)?<p>What do you think HN?",
-      "time": 1635266223,
-      "title": "Ask HN: Package Management for Kubernetes",
-      "type": "story"
-    },
-    {
-      "by": "dougsillars",
-      "descendants": 0,
-      "id": 29002539,
-      "score": 3,
-      "time": 1635266134,
-      "title": "History of live streaming (how a bunch of nerds opened for the Rolling Stones)",
-      "type": "story",
-      "url": "https://api.video/blog/video-trends/the-history-of-live-streaming-and-how-a-bunch-of-nerds-opened-for-the-rolling-sto/"
-    },
-    {
-      "by": "alanfranz",
-      "descendants": 0,
-      "id": 29002505,
-      "score": 6,
-      "time": 1635266001,
-      "title": "Julian Assange’s High Court fight against extradition",
-      "type": "story",
-      "url": "https://www.crowdjustice.com/case/assangeappeal/"
-    },
-    {
-      "by": "notRobot",
-      "descendants": 0,
-      "id": 29002499,
-      "score": 1,
-      "time": 1635265981,
-      "title": "Injecting Heroin and Living on the Streets",
-      "type": "story",
-      "url": "https://old.reddit.com/r/Drugs/comments/qg0ifu/injecting_heroin_and_living_on_the_streets/"
-    },
-    {
-      "by": "bsid",
-      "descendants": 0,
-      "id": 29002458,
-      "score": 8,
-      "time": 1635265847,
-      "title": "NextJS and Clerk – Secure Authentication at the Edge",
-      "type": "story",
-      "url": "https://edge.clerk.app"
-    },
-    {
-      "by": "mdp2021",
-      "descendants": 1,
-      "id": 29002441,
-      "kids": [
-        29002559
-      ],
-      "score": 1,
-      "time": 1635265797,
-      "title": "Billionaires [Hoffman, Soros] back new media firm to combat disinformation",
-      "type": "story",
-      "url": "https://www.axios.com/soros-hoffman-disinformation-tara-mcgowan-b1e7cb89-a4f7-4281-8e0a-3877fe8a3944.html-b1e7cb89-a4f7-4281-8e0a-3877fe8a3944.html"
     }
   ]
 }
