@@ -1,11 +1,31 @@
 {
   "stories": [
     {
+      "by": "captain_price7",
+      "descendants": 0,
+      "id": 29008233,
+      "score": 1,
+      "time": 1635294579,
+      "title": "Phoolan Devi",
+      "type": "story",
+      "url": "https://en.wikipedia.org/wiki/Phoolan_Devi"
+    },
+    {
+      "by": "arduinomancer",
+      "descendants": 0,
+      "id": 29008232,
+      "score": 1,
+      "time": 1635294578,
+      "title": "When Random Numbers Are Too Random: Low Discrepancy Sequences",
+      "type": "story",
+      "url": "https://blog.demofox.org/2017/05/29/when-random-numbers-are-too-random-low-discrepancy-sequences/"
+    },
+    {
       "by": "scrubs",
       "descendants": 0,
       "id": 29008194,
       "score": 1,
-      "text": "As per:<p>Section 17.9:\nhttps:&#x2F;&#x2F;doc.dpdk.org&#x2F;guides&#x2F;nics&#x2F;ena.html<p>and:<p>https:&#x2F;&#x2F;github.com&#x2F;amzn&#x2F;amzn-drivers&#x2F;tree&#x2F;master&#x2F;userspace&#x2F;dpdk&#x2F;enav2-vfio-patch<p>Enabling IOMMU on i3 or c5 metal instances is as easy as adding &quot;iommu=1 intel_iommu=on&quot; to &#x2F;etc&#x2F;default&#x2F;grub followed by update-grub, reboot.<p>I can&#x27;t get this to work. Everything I update grub and reboot I cannot re-connected via ssh. Also EC2 console fails to get good status.<p>My config:<p>Ubuntu 20.04 stock AWS AMI x86 64-bit\ni3.metal (spot)<p>Less importantly but also of interest on IOMMU:<p>If one is on bare metal is IOMMU really needed? Seems like not if one is not using HVM. Unsafe IOMMU mode could work<p>Is there any performance advantages to IOMMU? Again as far as I can see, no.",
+      "text": "As per: Section 17.9: https:&#x2F;&#x2F;doc.dpdk.org&#x2F;guides&#x2F;nics&#x2F;ena.html<p>and https:&#x2F;&#x2F;github.com&#x2F;amzn&#x2F;amzn-drivers&#x2F;tree&#x2F;master&#x2F;userspace&#x2F;dpdk&#x2F;enav2-vfio-patch<p>Enabling IOMMU on i3 or c5 metal instances is as easy as adding &quot;iommu=1 intel_iommu=on&quot; to &#x2F;etc&#x2F;default&#x2F;grub followed by update-grub, reboot.<p>I can&#x27;t get this to work. Every time I update grub and reboot I cannot reconnect via ssh. Also EC2 console fails to get good status.<p>My config:<p>* Ubuntu 20.04 stock AWS AMI x86 64-bit<p>* i3.metal (spot)<p>Less importantly but also of interest on IOMMU:<p>If one is on bare metal is IOMMU really needed? Seems like no if one is not using HVM. Unsafe IOMMU mode could work.<p>Are there any performance advantages to IOMMU? Again as far as I can see, no.<p>Thank you",
       "time": 1635294281,
       "title": "Ask HN: Anybody enabled IOMMU on AWS metal servers?",
       "type": "story"
@@ -55,9 +75,10 @@
       "descendants": 1,
       "id": 29008095,
       "kids": [
-        29008115
+        29008115,
+        29008223
       ],
-      "score": 1,
+      "score": 2,
       "time": 1635293605,
       "title": "Why did YouTube delete Novara Media’s channel?",
       "type": "story",
@@ -85,26 +106,6 @@
       "title": "Visit the Living Computer Museum in Seattle « Pete Warden's Blog",
       "type": "story",
       "url": "https://petewarden.com/2015/04/26/why-you-should-visit-the-living-computer-museum-in-seattle/"
-    },
-    {
-      "by": "krallja",
-      "descendants": 0,
-      "id": 29008023,
-      "score": 3,
-      "time": 1635292886,
-      "title": "Make Your Own ColecoVision at Home (Part 4 – Quadrature Controllers)",
-      "type": "story",
-      "url": "https://www.leadedsolder.com/2021/10/26/colecovision-diy-part-4.html"
-    },
-    {
-      "by": "mlindner",
-      "descendants": 0,
-      "id": 29008013,
-      "score": 2,
-      "time": 1635292848,
-      "title": "Leaky Space Toilets: SpaceX’s Latest Engineering Challenge",
-      "type": "story",
-      "url": "https://www.nytimes.com/2021/10/26/science/spacex-toilet-nasa.html"
     }
   ]
 }
