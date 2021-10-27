@@ -1,10 +1,43 @@
 {
   "stories": [
     {
+      "by": "ekianjo",
+      "descendants": 0,
+      "id": 29008394,
+      "score": 1,
+      "time": 1635296112,
+      "title": "Using FSR to Boost Any Game's Framerate on Linux",
+      "type": "story",
+      "url": "https://boilingsteam.com/using-fsr-to-boost-any-games-framerate-on-linux/"
+    },
+    {
+      "by": "pella",
+      "descendants": 1,
+      "id": 29008393,
+      "kids": [
+        29008399
+      ],
+      "score": 1,
+      "time": 1635296104,
+      "title": "You only live once:Epidemiologists analyze health risks in James Bond films",
+      "type": "story",
+      "url": "https://arstechnica.com/science/2021/10/you-only-live-once-epidemiologists-analyze-health-risks-in-all-the-james-bond-films/"
+    },
+    {
+      "by": "amir-h",
+      "descendants": 0,
+      "id": 29008390,
+      "score": 2,
+      "time": 1635296058,
+      "title": "Why Trader Joe's won't be offering an online store",
+      "type": "story",
+      "url": "https://www.today.com/food/real-reason-trader-joe-s-doesn-t-deliver-groceries-t179895"
+    },
+    {
       "by": "danboarder",
       "descendants": 0,
       "id": 29008369,
-      "score": 1,
+      "score": 2,
       "time": 1635295778,
       "title": "Affordable 70 MPH electric motorcycle is already here and no one noticed",
       "type": "story",
@@ -75,36 +108,6 @@
       "title": "Amazon joins race for quantum computer with new Caltech center",
       "type": "story",
       "url": "https://www.washingtonpost.com/technology/2021/10/26/amazon-quantum-computer-caltech/"
-    },
-    {
-      "by": "captain_price7",
-      "descendants": 0,
-      "id": 29008233,
-      "score": 1,
-      "time": 1635294579,
-      "title": "Phoolan Devi",
-      "type": "story",
-      "url": "https://en.wikipedia.org/wiki/Phoolan_Devi"
-    },
-    {
-      "by": "arduinomancer",
-      "descendants": 0,
-      "id": 29008232,
-      "score": 2,
-      "time": 1635294578,
-      "title": "When Random Numbers Are Too Random: Low Discrepancy Sequences",
-      "type": "story",
-      "url": "https://blog.demofox.org/2017/05/29/when-random-numbers-are-too-random-low-discrepancy-sequences/"
-    },
-    {
-      "by": "scrubs",
-      "descendants": 0,
-      "id": 29008194,
-      "score": 2,
-      "text": "As per: Section 17.9: https:&#x2F;&#x2F;doc.dpdk.org&#x2F;guides&#x2F;nics&#x2F;ena.html<p>and https:&#x2F;&#x2F;github.com&#x2F;amzn&#x2F;amzn-drivers&#x2F;tree&#x2F;master&#x2F;userspace&#x2F;dpdk&#x2F;enav2-vfio-patch<p>Enabling IOMMU on i3 or c5 metal instances is as easy as adding &quot;iommu=1 intel_iommu=on&quot; to &#x2F;etc&#x2F;default&#x2F;grub followed by update-grub, reboot.<p>I can&#x27;t get this to work. Every time I update grub and reboot I cannot reconnect via ssh. Also EC2 console fails to get good status.<p>My config:<p>* Ubuntu 20.04 stock AWS AMI x86 64-bit<p>* i3.metal (spot)<p>Less importantly but also of interest on IOMMU:<p>If one is on bare metal is IOMMU really needed? Seems like no if one is not using HVM. Unsafe IOMMU mode could work.<p>Are there any performance advantages to IOMMU? Again as far as I can see, no.<p>Thank you",
-      "time": 1635294281,
-      "title": "Ask HN: Anybody enabled IOMMU on AWS metal servers?",
-      "type": "story"
     }
   ]
 }
