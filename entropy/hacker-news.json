@@ -1,13 +1,53 @@
 {
   "stories": [
     {
+      "by": "scrubs",
+      "descendants": 0,
+      "id": 29008194,
+      "score": 1,
+      "text": "As per:<p>Section 17.9:\nhttps:&#x2F;&#x2F;doc.dpdk.org&#x2F;guides&#x2F;nics&#x2F;ena.html<p>and:<p>https:&#x2F;&#x2F;github.com&#x2F;amzn&#x2F;amzn-drivers&#x2F;tree&#x2F;master&#x2F;userspace&#x2F;dpdk&#x2F;enav2-vfio-patch<p>Enabling IOMMU on i3 or c5 metal instances is as easy as adding &quot;iommu=1 intel_iommu=on&quot; to &#x2F;etc&#x2F;default&#x2F;grub followed by update-grub, reboot.<p>I can&#x27;t get this to work. Everything I update grub and reboot I cannot re-connected via ssh. Also EC2 console fails to get good status.<p>My config:<p>Ubuntu 20.04 stock AWS AMI x86 64-bit\ni3.metal (spot)<p>Less importantly but also of interest on IOMMU:<p>If one is on bare metal is IOMMU really needed? Seems like not if one is not using HVM. Unsafe IOMMU mode could work<p>Is there any performance advantages to IOMMU? Again as far as I can see, no.",
+      "time": 1635294281,
+      "title": "Ask HN: Anybody enabled IOMMU on AWS metal servers?",
+      "type": "story"
+    },
+    {
+      "by": "nsdfg",
+      "descendants": 0,
+      "id": 29008189,
+      "score": 1,
+      "time": 1635294249,
+      "title": "Flock license plate readers spark controversy",
+      "type": "story",
+      "url": "https://www.seattletimes.com/business/technology/license-plate-scanners-were-supposed-to-bring-peace-of-mind-instead-they-tore-the-neighborhood-apart/"
+    },
+    {
+      "by": "arkadiyt",
+      "descendants": 0,
+      "id": 29008182,
+      "score": 1,
+      "time": 1635294179,
+      "title": "TikTok dodges questions about biometric data collection in Senate hearing",
+      "type": "story",
+      "url": "https://techcrunch.com/2021/10/26/tiktok-dodges-questions-about-biometric-data-collection-in-senate-hearing/"
+    },
+    {
+      "by": "borski",
+      "descendants": 0,
+      "id": 29008180,
+      "score": 1,
+      "time": 1635294175,
+      "title": "Burrito: Cross-Platform Elixir Deployments",
+      "type": "story",
+      "url": "https://github.com/burrito-elixir/burrito"
+    },
+    {
       "by": "green-eclipse",
       "descendants": 0,
       "id": 29008156,
-      "score": 1,
+      "score": 2,
       "text": "Something interesting I just noticed. Both Google and Microsoft released earnings today. I looked through the numbers and this caught my eye.<p>Google rev: $65.1B<p>Microsoft rev: $45.3B<p>Google made about ~$20B more than Microsoft. Looking at the earnings release, Google&#x27;s search &amp; display business alone made about $46B in revenue, which is more than the entirety of Microsoft.<p>Other biz units that are not included in Google&#x27;s core search &amp; display business:<p>Youtube: $7.2B<p>Cloud: $5B<p>Google &quot;Other&quot;: $6.7B<p>Other bets: $0.18B<p>Google release:\nhttps:&#x2F;&#x2F;abc.xyz&#x2F;investor&#x2F;static&#x2F;pdf&#x2F;2021Q3_alphabet_earnings_release.pdf?cache=f1ba3f6<p>Microsoft release:\nhttps:&#x2F;&#x2F;www.microsoft.com&#x2F;en-us&#x2F;investor&#x2F;earnings&#x2F;fy-2022-q1&#x2F;press-release-webcast",
       "time": 1635294013,
-      "title": "Show HN: Qtr, Google search+display revenue All of Microsoft's revenue",
+      "title": "Show HN: Google search+display revenue alone is more than all of Microsoft's rev",
       "type": "story"
     },
     {
@@ -65,49 +105,6 @@
       "title": "Leaky Space Toilets: SpaceX’s Latest Engineering Challenge",
       "type": "story",
       "url": "https://www.nytimes.com/2021/10/26/science/spacex-toilet-nasa.html"
-    },
-    {
-      "by": "pseudolus",
-      "descendants": 1,
-      "id": 29008006,
-      "kids": [
-        29008146
-      ],
-      "score": 2,
-      "time": 1635292781,
-      "title": "Almost 1m Tripadvisor reviews in 2020 found to be fraudulent",
-      "type": "story",
-      "url": "https://www.theguardian.com/travel/2021/oct/27/almost-1m-tripadvisor-reviews-in-2020-found-to-be-fraudulent"
-    },
-    {
-      "by": "perihelions",
-      "descendants": 0,
-      "id": 29007999,
-      "score": 3,
-      "time": 1635292716,
-      "title": "Google summary of measures to be carried out after a seizure left out “do not”",
-      "type": "story",
-      "url": "https://itwire.com/home-it/how-a-google-search-could-end-up-endangering-a-life.html"
-    },
-    {
-      "by": "Jugurtha",
-      "descendants": 0,
-      "id": 29007971,
-      "score": 3,
-      "time": 1635292480,
-      "title": "Microconf Recap",
-      "type": "story",
-      "url": "https://microconf.gen.co/"
-    },
-    {
-      "by": "Jugurtha",
-      "descendants": 0,
-      "id": 29007967,
-      "score": 1,
-      "time": 1635292433,
-      "title": "Christoph Engelhardt",
-      "type": "story",
-      "url": "http://www.christophengelhardt.com/"
     }
   ]
 }
