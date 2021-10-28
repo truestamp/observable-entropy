@@ -1,6 +1,36 @@
 {
   "stories": [
     {
+      "by": "tomcam",
+      "descendants": 0,
+      "id": 29023066,
+      "score": 1,
+      "text": "Working on yet another CMS and want to know best practice for YAML. Should my YAML tag names, some of which are several word,  use mixed case for readability, or all lowercase, or what? Surprisingly, the standard (https:&#x2F;&#x2F;yaml.org&#x2F;spec&#x2F;1.2.2&#x2F;) is silent on how to represent identifiers, although most of their examples are all lowercase.<p>One option is embedded caps with hyphens:<p><pre><code>    Exclude-Dirs:\n    - *.css\n    - *.go\n    - backup\n</code></pre>\nOr all lowercase, for consistency and ease of typing? It&#x27;s a bit harder to scan in a long listing.<p><pre><code>    exclude-dirs:\n    - *.css\n    - *.go\n    - backup\n</code></pre>\nI&#x27;m going to avoid the programmery compound words, like this, because I&#x27;m angling somewhat for the power user, as opposed to programmer, audience:<p><pre><code>    # Nope\n    excludedirs:\n    - *.css\n    - *.go\n    - backup</code></pre>",
+      "time": 1635402970,
+      "title": "Ask HN: Should my YAML tags start with caps? Use hyphens?",
+      "type": "story"
+    },
+    {
+      "by": "Hard_Space",
+      "descendants": 0,
+      "id": 29023060,
+      "score": 1,
+      "time": 1635402868,
+      "title": "Deep Learning Tools for Audacity",
+      "type": "story",
+      "url": "https://arxiv.org/abs/2110.13323"
+    },
+    {
+      "by": "danboarder",
+      "descendants": 0,
+      "id": 29023055,
+      "score": 1,
+      "time": 1635402761,
+      "title": "Who’s Building Facebook’s Metaverse? Meet CTO Andrew Bosworth",
+      "type": "story",
+      "url": "https://www.bloomberg.com/news/articles/2021-10-27/facebook-fb-new-cto-andrew-bosworth-is-the-man-building-the-metaverse"
+    },
+    {
       "by": "CIAvash",
       "descendants": 0,
       "id": 29023051,
@@ -14,7 +44,7 @@
       "by": "belter",
       "descendants": 0,
       "id": 29023035,
-      "score": 1,
+      "score": 2,
       "time": 1635402468,
       "title": "Programming the GPU in Java",
       "type": "story",
@@ -24,7 +54,7 @@
       "by": "danboarder",
       "descendants": 0,
       "id": 29023030,
-      "score": 1,
+      "score": 2,
       "time": 1635402398,
       "title": "Gravity-based energy storage tower developer notches a customer order",
       "type": "story",
@@ -69,39 +99,6 @@
       "time": 1635402203,
       "title": "Ask HN: When was the next/previous button on comments added?",
       "type": "story"
-    },
-    {
-      "by": "kodekracker",
-      "descendants": 0,
-      "id": 29022998,
-      "score": 1,
-      "time": 1635402169,
-      "title": "Awesome-Database-Learning",
-      "type": "story",
-      "url": "https://github.com/pingcap/awesome-database-learning"
-    },
-    {
-      "by": "archmaster",
-      "descendants": 1,
-      "id": 29022980,
-      "kids": [
-        29023006
-      ],
-      "score": 3,
-      "time": 1635401979,
-      "title": "The NFT to laud NFTs: price_tag_1.0",
-      "type": "story",
-      "url": "https://price-tag.dev/?"
-    },
-    {
-      "by": "teleforce",
-      "descendants": 0,
-      "id": 29022974,
-      "score": 1,
-      "time": 1635401932,
-      "title": "Radio Data System",
-      "type": "story",
-      "url": "https://en.wikipedia.org/wiki/Radio_Data_System"
     }
   ]
 }
