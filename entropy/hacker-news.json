@@ -1,6 +1,46 @@
 {
   "stories": [
     {
+      "by": "underscore_ku",
+      "descendants": 0,
+      "id": 29030666,
+      "score": 1,
+      "time": 1635449782,
+      "title": "European Parliament votes to strengthen EU-wide cybersecurity rules",
+      "type": "story",
+      "url": "https://www.euronews.com/2021/10/28/european-parliament-votes-to-strengthen-eu-wide-cybersecurity-rules"
+    },
+    {
+      "by": "cblconfederate",
+      "descendants": 0,
+      "id": 29030650,
+      "score": 1,
+      "time": 1635449729,
+      "title": "Linden Scripting Language",
+      "type": "story",
+      "url": "http://wiki.secondlife.com/wiki/LSL_Portal"
+    },
+    {
+      "by": "_Microft",
+      "descendants": 0,
+      "id": 29030644,
+      "score": 1,
+      "time": 1635449712,
+      "title": "Australia has had zero measles in 2021 due to Covid-19 border closure",
+      "type": "story",
+      "url": "https://www.newscientist.com/article/2294893-australia-has-had-zero-measles-in-2021-due-to-covid-19-border-closure/"
+    },
+    {
+      "by": "WarOnPrivacy",
+      "descendants": 0,
+      "id": 29030624,
+      "score": 1,
+      "text": "Issue: \nSome DNS servers fail to reverse lookup IPv6 addresses. Other servers return hostnames.<p>Tested with NSLOOKUP (&gt;server 2a09:: [line break] &gt;2620::fe::10)<p>host (host 2620::fe::10)<p>dig (missing ANSWER section) (dig @2a09:: -x 2620::fe::10)<p>Some of the servers I tested:<p>Quad9<p>2620:fe::10 No Blocklist, No DNSSEC, No EDNS Sent: Resolves!<p>2620:fe::fe:10 No Blocklist, No DNSSEC, No EDNS Sent: Resolves!<p>2620:fe::fe Blocklist, DNSSEC, No EDNS Sent: SERVFAIL<p>2620:fe::9 Blocklist, DNSSEC, No EDNS Sent: SERVFAIL<p>2620:fe::11 Blocklist, DNSSEC, EDNS Sent: SERVFAIL<p>2620:fe::fe:11 Blocklist, DNSSEC, EDNS Sent: SERVFAIL<p>DNS.SB<p>2a09:: DNSSEC: SERVFAIL<p>2a09:: DNSSEC: SERVFAIL<p>Cloudflare<p>2606:4700:4700::1111 DNSSEC: Resolves!<p>2606:4700:4700::1001 DNSSEC: Resolves!<p>Hurricane Electric<p>2001:470:20::2 Resolves!<p>Lightning Wire Labs .de (IP Fire)<p>2001:678:b28::54 DNSSEC: SERVFAIL<p>Does anyone know why some servers fail while others return results?",
+      "time": 1635449633,
+      "title": "Why do some DNS servers return SERVFAIL for IPv6 reverse lookups?",
+      "type": "story"
+    },
+    {
       "by": "Yuii",
       "descendants": 0,
       "id": 29030573,
@@ -59,46 +99,6 @@
       "title": "Babelfish, SQL Server compatibility for Postgres created by AWS, is open-sourced",
       "type": "story",
       "url": "https://github.com/babelfish-for-postgresql"
-    },
-    {
-      "by": "adrian_mrd",
-      "descendants": 0,
-      "id": 29030489,
-      "score": 4,
-      "time": 1635449091,
-      "title": "Facebook Renames Itself Meta",
-      "type": "story",
-      "url": "https://www.nytimes.com/2021/10/28/technology/facebook-rebrand-meta.html"
-    },
-    {
-      "by": "XoS-490",
-      "descendants": 0,
-      "id": 29030473,
-      "score": 1,
-      "time": 1635449025,
-      "title": "NASA’s Juno: First 3D View of Jupiter Atmosphere",
-      "type": "story",
-      "url": "https://www.nasa.gov/press-release/nasa-s-juno-science-results-offer-first-3d-view-of-jupiter-atmosphere/"
-    },
-    {
-      "by": "ph0rque",
-      "descendants": 0,
-      "id": 29030468,
-      "score": 1,
-      "time": 1635449016,
-      "title": "New Data Set Quantifies Energy Use Across All US Building Types and Climates",
-      "type": "story",
-      "url": "https://www.nrel.gov/news/press/2021/new-data-set-quantifies-how-when-energy-used-across-all-major-us-building-types-climate-regions.html"
-    },
-    {
-      "by": "bryanrasmussen",
-      "descendants": 0,
-      "id": 29030462,
-      "score": 1,
-      "time": 1635448996,
-      "title": "Tadayuki Watanabe Disproved a Major Conjecture About Spheres",
-      "type": "story",
-      "url": "https://www.quantamagazine.org/how-tadayuki-watanabe-solved-a-topological-mystery-about-spheres-20211026/"
     }
   ]
 }
