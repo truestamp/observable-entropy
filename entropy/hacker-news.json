@@ -1,6 +1,48 @@
 {
   "stories": [
-    null,
+    {
+      "by": "pseudolus",
+      "descendants": 0,
+      "id": 29030826,
+      "kids": [
+        29030833
+      ],
+      "score": 1,
+      "time": 1635450339,
+      "title": "Human species who lived 500k years ago named as Homo bodoensis",
+      "type": "story",
+      "url": "https://www.theguardian.com/science/2021/oct/28/human-species-homo-bodoensis-who-lived-500000-years-ago-is-named"
+    },
+    {
+      "by": "mandevil",
+      "descendants": 0,
+      "id": 29030801,
+      "score": 1,
+      "time": 1635450273,
+      "title": "Zuckerberg Announces Fantasy World Where Facebook Is Not a Horrible Company",
+      "type": "story",
+      "url": "https://www.vice.com/en/article/qjb485/zuckerberg-facebook-new-name-meta-metaverse-presentation"
+    },
+    {
+      "by": "fspacef",
+      "descendants": 0,
+      "id": 29030765,
+      "score": 1,
+      "time": 1635450129,
+      "title": "I am bored of life, what should I do?",
+      "type": "story",
+      "url": "https://www.quora.com/I-am-bored-of-life-What-should-I-do"
+    },
+    {
+      "by": "sea6ear",
+      "descendants": 0,
+      "id": 29030762,
+      "score": 1,
+      "time": 1635450121,
+      "title": "Yak shaving conditional compilation in Rust",
+      "type": "story",
+      "url": "https://bitshifter.github.io/2020/05/07/conditional-compilation-in-rust/"
+    },
     {
       "by": "based2",
       "descendants": 0,
@@ -28,14 +70,14 @@
       "score": 1,
       "text": "Longtime reader using a throwaway. Looking for thoughts on my design career in tech. (Sorry for how long this is and if any of this sounds self-pitying—I struggle with that attitude, but I also don&#x27;t think that&#x27;s the only factor in my situation.)<p>I started designing and building websites in 1999, when I was 11, and like some of you, I don&#x27;t entirely love the course the web and tech in general have taken since then. I feel things have become overdesigned, overcomplicated, overly precious, and bloated.<p>I like lightweight websites and fast native apps with OS GUIs and conventions. If I am going to design in the tech or tech-adjacent space, these are the things I want to work on. But instead every job opportunity I find is to work on a proprietary branded design system for a web app hell-bent on capturing and disempowering customers by dumbing things down as much as possible through obfuscation, abstraction, and infantilizing copy and aesthetics. I often find myself at odds with other designers and marketers and aligned with developers.<p>I&#x27;m passionate about good, meaningful design and performant, useful technology. That&#x27;s why I got into this biz. But anymore, that passion feels completely at odds with the work available to me. I believe I&#x27;m a good designer, but I know my portfolio doesn&#x27;t show it. It (and my résumé) shows a mix of brand and product design for a variety of failed and D-list startups solving nonexistent problems over about 12 years in lead, director, and contract roles. I&#x27;ve never worked for a company I felt had any reason to exist, and I&#x27;ve no doubt that has impeded my personal and professional development.<p>But that&#x27;s not because I haven&#x27;t tried to find better opportunities. I quit a creative director role in 2016 to go freelance in an attempt to sample all sorts of businesses and approaches to my craft. It didn&#x27;t go well—I got virtually no traction (despite my few clients expressing great satisfaction with me and my work) and had to give up and return to a full-time&#x2F;in-house job last year with my tail between my legs in a lower role at a company I&#x27;m frankly embarrassed to be associated with.<p>Am I not looking in the right place? Am I perhaps just too unremarkable a designer to access interesting gigs? Both? Something else entirely?<p>I&#x27;m burned out and feel every day I spend working on projects I hate with people I fundamentally disagree with in a move-fast-and-break-shit product culture is two days of my life lost. I&#x27;m seriously considering a complete career change out of sheer hopelessness and frustration, but you&#x27;ve heard this before: the pay in tech is generally decent and I&#x27;m pretty mired in the sunk-cost fallacy. I have a dream career I&#x27;d like to pursue, but it&#x27;s an impractical, pipe-dreamy thing that can really only be pursued independently in hope of getting lucky with a big break, so for now it&#x27;s something resigned to my evenings and weekends (theoretically, that is, as I&#x27;m currently too burned out to find any energy or drive to work toward it at all).<p>I&#x27;m considering a few options and would appreciate your thoughts on them any anything else I&#x27;m being too myopic or bratty to see:<p>1. Continue on in this path, at my current job or something like it, and hope that taking better care of myself physically will cure my burnout enough to pursue my other passions in my free time. Or hope I get lucky and one day find a project that excites me.<p>2. Try to make a small shift into potentially design-adjacent work, like project management, that will effectively distance me from the discipline I love and thereby, hopefully, alleviate some of the anxiety I have around how much I disagree with its current course.<p>3. Ditch the industry and find some generic office work that pays a fraction of what tech does but hopefully won&#x27;t leave me mentally wiped at the end of the day so I can more capably pursue my passions in my free time.<p>4. ???<p>Thanks for your time and consideration :].",
       "time": 1635450029,
-      "title": "Ask HN: Where to go as a Disillusioned Designer?",
+      "title": "Ask HN: Where to go as a disillusioned designer?",
       "type": "story"
     },
     {
       "by": "underscore_ku",
       "descendants": 0,
       "id": 29030666,
-      "score": 1,
+      "score": 2,
       "time": 1635449782,
       "title": "European Parliament votes to strengthen EU-wide cybersecurity rules",
       "type": "story",
@@ -60,36 +102,6 @@
       "title": "Australia has had zero measles in 2021 due to Covid-19 border closure",
       "type": "story",
       "url": "https://www.newscientist.com/article/2294893-australia-has-had-zero-measles-in-2021-due-to-covid-19-border-closure/"
-    },
-    {
-      "by": "WarOnPrivacy",
-      "descendants": 0,
-      "id": 29030624,
-      "score": 1,
-      "text": "Issue: \nSome DNS servers fail to reverse lookup IPv6 addresses. Other servers return hostnames.<p>Tested with NSLOOKUP (&gt;server 2a09:: [line break] &gt;2620::fe::10)<p>dig (missing ANSWER section) (dig @2a09:: -x 2620::fe::10)<p>Some of the servers I tested: (DNSSEC, etc are listed services)<p>Quad9<p>2620:fe::10 No Blocklist, No DNSSEC, No EDNS Sent: Resolves!<p>2620:fe::fe:10 No Blocklist, No DNSSEC, No EDNS Sent: Resolves!<p>2620:fe::fe Blocklist, DNSSEC, No EDNS Sent: SERVFAIL<p>2620:fe::9 Blocklist, DNSSEC, No EDNS Sent: SERVFAIL<p>2620:fe::11 Blocklist, DNSSEC, EDNS Sent: SERVFAIL<p>2620:fe::fe:11 Blocklist, DNSSEC, EDNS Sent: SERVFAIL<p>DNS.SB<p>2a09:: DNSSEC: SERVFAIL<p>2a09:: DNSSEC: SERVFAIL<p>Cloudflare<p>2606:4700:4700::1111 DNSSEC: Resolves!<p>2606:4700:4700::1001 DNSSEC: Resolves!<p>Hurricane Electric<p>2001:470:20::2 Resolves!<p>Lightning Wire Labs .de (IP Fire)<p>2001:678:b28::54 DNSSEC: SERVFAIL<p>Does anyone know why some servers fail while others return results?",
-      "time": 1635449633,
-      "title": "Ask HN: Why do some DNS servers return SERVFAIL for IPv6 reverse lookups?",
-      "type": "story"
-    },
-    {
-      "by": "Yuii",
-      "descendants": 0,
-      "id": 29030573,
-      "score": 1,
-      "time": 1635449462,
-      "title": "Check Out TokenHunt.club – Community-Driven Product Launch Hub Powered by Trood",
-      "type": "story",
-      "url": "https://tokenhunt.club"
-    },
-    {
-      "by": "thazework",
-      "descendants": 0,
-      "id": 29030566,
-      "score": 1,
-      "time": 1635449437,
-      "title": "A Postscript to “Into Thin Air\"",
-      "type": "story",
-      "url": "https://medium.com/galleys/a-postscript-to-into-thin-air-e238d464a256"
     }
   ]
 }
