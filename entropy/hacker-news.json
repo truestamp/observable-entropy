@@ -1,6 +1,16 @@
 {
   "stories": [
     {
+      "by": "boyter",
+      "descendants": 0,
+      "id": 29023592,
+      "score": 1,
+      "time": 1635408527,
+      "title": "Aussie++ The programming language from down under",
+      "type": "story",
+      "url": "https://aussieplusplus.vercel.app/"
+    },
+    {
       "by": "graderjs",
       "descendants": 0,
       "id": 29023575,
@@ -80,6 +90,9 @@
       "by": "korpen",
       "descendants": 0,
       "id": 29023516,
+      "kids": [
+        29023598
+      ],
       "score": 2,
       "text": "Hi Hackernews!<p>Longtime lurker here, and I finally have a question.<p>We have an existing product with a file archive as part of the feature set. Currently files are stored in MSSQL in the same database as the rest of the data. This isn&#x27;t ideal, since it leads to long backup&#x2F;restore cycles, not great performance, and expensive database SSD storage. The larger instances (single tenant) are ~2-3 TB of which 90% are files, but we predict file archive usage only going up.<p>Requirements:\n- On premise hosting\n- Search file contents (Word&#x2F;Excel&#x2F;PPT support)\n- Good backup support (differential backups would be great!)",
       "time": 1635407715,
@@ -98,16 +111,6 @@
       "title": "Deploy without credentials with GitHub Actions and OIDC",
       "type": "story",
       "url": "https://blog.alexellis.io/deploy-without-credentials-using-oidc-and-github-actions/"
-    },
-    {
-      "by": "nzach",
-      "descendants": 0,
-      "id": 29023482,
-      "score": 1,
-      "time": 1635407279,
-      "title": "How is the Go generic implemented?",
-      "type": "story",
-      "url": "https://www.sobyte.net/post/2021-08/how-is-go-generic-implemented/"
     }
   ]
 }
