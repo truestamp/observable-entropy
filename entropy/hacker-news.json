@@ -3,12 +3,32 @@
     {
       "by": "sylwester",
       "descendants": 0,
-      "id": 29037165,
+      "id": 29037181,
       "score": 1,
-      "text": "I&#x27;ve been spending the last days (while having the flu) on a new development board around the Raspberry RP2040 microcontroller and ESP32 with some interesting features and decided to open source it. Hope anyone might find this interesting.<p>What makes it special?\nThe RP2040 are interconnected via an UART with an additional pin which can be used as a handshake or interrupt pin. The RPC protocol between both microcontrollers is serialising the data using Google ProtoBuf.<p>The Display Option is connected to the ESP32, which can then offload the UI&#x2F;WiFi&#x2F;BLE component.<p>Features:\n- RP2040 Dual Core Cortex-M0+ Microcontroller with PIO (Programmable IO)\n- ESP32-WROVER Dual Core Microcontroller\n- 4x DIN MIDI Input\n- 4x DIN MIDI Output\n- 2 Rotary Encoders\n- 4 User Buttons + 1 Shift “Alt Function” Button\n- RP2040 PIO &quot;coprocessor&quot; utilised to scan Buttons and Encoders (Shift Register + PIO)\n- ILI9341 TFT 2.4&#x2F;2.8” Display Option (not included)\n- Separate 1A LDO for ESP32 Power Supply, because WiFi can be quite power hungry\n- High-Speed Serial Bus for RPC with Handshake between RP2040 and ESP32 (using Protobuf RPC) (Work in progress)\n- PMOD-ish Connector interfaced with RP2040 for expansions (universal, PIO can be used).\n- Heartbeat LED on ESP32\n- 4 Addressable RGB LEDs loaded at 4 User Buttons\n- Firmware Update via WiFi for ESP32, RP2040 firmware update via USB (UF2) (work in progress)\n- For future revision: additional RP2040 with PicoProbe fork (2x UART bridge, 1x SWD Debugger + SUMP 16ch login analyser built in)\n- USB Host + Device Mode on USB Type-C connector\n- RP2040 and ESP32 UART exposed\n- In-System debugging of RP2040 via SWD (with VS Code integration)\n- Touch Screen Interface (work in progress)\n- RP2040 running FreeRTOS\n- ESP32 running FreeRTOS<p>You can find some pictures and write up at: https:&#x2F;&#x2F;forums.raspberrypi.com&#x2F;viewtopic.php?f=147&amp;t=322135&amp;p=1928264#p1928264",
-      "time": 1635505002,
-      "title": "Show HN: I made an open RP2040+ESP32 dev board",
-      "type": "story"
+      "time": 1635505258,
+      "title": "Show HN: I made an open source RP2040+ESP32 dev board",
+      "type": "story",
+      "url": "https://forums.raspberrypi.com/viewtopic.php?f=147&t=322135&p=1928264#p1928264"
+    },
+    {
+      "by": "adrian_mrd",
+      "descendants": 0,
+      "id": 29037180,
+      "score": 1,
+      "time": 1635505251,
+      "title": "For a legally blind player, Far Cry 6’s accessibility options are empowering",
+      "type": "story",
+      "url": "https://www.polygon.com/22748526/far-cry-6-accessibility-pc-xbox-one-series-x-ps5-ps4"
+    },
+    {
+      "by": "retrac98",
+      "descendants": 0,
+      "id": 29037174,
+      "score": 1,
+      "time": 1635505161,
+      "title": "Mistakes from 6 Months of Freelancing",
+      "type": "story",
+      "url": "https://mcarter.me/posts/mistakes-from-6-months-of-freelancing"
     },
     {
       "by": "hasheddan",
@@ -82,26 +102,6 @@
       "title": "Troll A – The Tallest Structure Ever Moved by Mankind",
       "type": "story",
       "url": "https://twistedsifter.com/2015/09/troll-a-tallest-structure-ever-moved-by-mankind/"
-    },
-    {
-      "by": "galfarragem",
-      "descendants": 0,
-      "id": 29037063,
-      "score": 1,
-      "time": 1635503779,
-      "title": "When pitching an idea, should you focus on \"Why\" or \"How\"?",
-      "type": "story",
-      "url": "https://hbr.org/2021/10/when-pitching-an-idea-should-you-focus-on-why-or-how"
-    },
-    {
-      "by": "kristianp",
-      "descendants": 0,
-      "id": 29037058,
-      "score": 1,
-      "time": 1635503721,
-      "title": "Intel announces 12th-gen Alder Lake CPUs: Our long 14 nm nightmare is over",
-      "type": "story",
-      "url": "https://arstechnica.com/gadgets/2021/10/intels-12th-gen-alder-lake-cpus-will-try-to-make-up-for-rocket-lakes-stumbles/"
     }
   ]
 }
