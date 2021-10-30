@@ -1,6 +1,26 @@
 {
   "stories": [
     {
+      "by": "ClassicOldSong",
+      "descendants": 0,
+      "id": 29047246,
+      "score": 1,
+      "time": 1635584789,
+      "title": "SingUI – A modern front end UI library without the need of compilation",
+      "type": "story",
+      "url": "https://www.npmjs.com/package/singui"
+    },
+    {
+      "by": "nix23",
+      "descendants": 0,
+      "id": 29047242,
+      "score": 1,
+      "time": 1635584744,
+      "title": "Project Trident Sunset",
+      "type": "story",
+      "url": "https://project-trident.org/post/2021-10-29_sunset/"
+    },
+    {
       "by": "marthalaha",
       "descendants": 0,
       "id": 29047216,
@@ -12,8 +32,12 @@
     },
     {
       "by": "zeristor",
-      "descendants": 0,
+      "descendants": 2,
       "id": 29047193,
+      "kids": [
+        29047239,
+        29047224
+      ],
       "score": 1,
       "time": 1635584187,
       "title": "Submarine cable to connect 10.5 GW wind-solar complex in Morocco to the UK grid",
@@ -79,26 +103,6 @@
       "title": "Prague's Brutalist Buildings",
       "type": "story",
       "url": "https://www.calvertjournal.com/features/show/13210/best-brutalist-buildings-in-prague-czech-republic-socialist-modernist-architecture"
-    },
-    {
-      "by": "neslinesli93",
-      "descendants": 0,
-      "id": 29047067,
-      "score": 1,
-      "time": 1635582348,
-      "title": "Show HN: Interprether – Real time feed of human-readable Ethereum transactions",
-      "type": "story",
-      "url": "https://interprether.tommasopifferi.com/"
-    },
-    {
-      "by": "jcun4128",
-      "descendants": 0,
-      "id": 29047066,
-      "score": 1,
-      "text": "Might be simple, just trying to think of sane ways to do it. These are plain web sockets in Web JS to Node not using something like socket.io. It&#x27;s user A to server to user B and vice versa.<p>There would be some kind of db involved in the event of it going down&#x2F;can reconnect people by some ids.<p>My concern is do you keep say multiple domain options on the app (by env variables) or do you have a single url you hit (no?) and that branches off to different instances.<p>Scale is small now as in 10&#x2F;100s of users, performance is not like a video game but still real time&#x2F;more than text chat. The data rate is still low, mostly transferring meta data.",
-      "time": 1635582343,
-      "title": "Ask HN: Approaches to load balancing web sockets?",
-      "type": "story"
     }
   ]
 }
