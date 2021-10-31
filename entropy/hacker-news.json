@@ -1,5 +1,44 @@
 {
   "stories": [
+    null,
+    null,
+    null,
+    {
+      "by": "chipatama",
+      "descendants": 1,
+      "id": 29060156,
+      "kids": [
+        29060157
+      ],
+      "score": 1,
+      "time": 1635712506,
+      "title": "Show HN: Become a better Developer, one New Tab at a time",
+      "type": "story",
+      "url": "https://30secondsofknowledge.com/"
+    },
+    {
+      "by": "Frajedo",
+      "descendants": 0,
+      "id": 29060132,
+      "score": 1,
+      "text": "Hello there HN!<p>I just wanted to share with you a product I&#x27;ve been working on for a while. The product is called GetMyMfa and is accessible at https:&#x2F;&#x2F;get.mymfa.io. The objective of this project is to allow organizations to safely and easily share Multi-Factor Authentication codes for their Quality Assurance and Apple App Store review processes.<p>*Where the idea came from:*<p>I am currently working with multiple customers in the FSI domain (Financial Services Industry) and I am often required to perform tests in production and staging environments with multiple accounts. As production and staging accounts, these accounts are generally required to have at least an SMS 2FA system in place. When performing tests in such sensitive accounts, a single individual usually owns all phone numbers linked to these accounts and shares received MFA codes via a phone call with the various people performing tests in these accounts. I believe this represents a security concern and a bypass of the Multi-Factor Authentication principles.<p>In addition, when submitting iOS applications to the App Store, Apple performs a human review process in which they need to login to the application. When MFA is enforced for all production accounts, Apple rejects the application unless a way is implemented to allow them to login. This often leaves developers with two options: Develop a front-end only demonstration mode, or bypass the MFA mechanism for a specific account.<p>*Therefore, the project aims to:*<p>1. Allow organizations to rent virtual phone numbers and have their SMS MFA codes be displayed in a private web interface;\n2. Organizations have fine-grained access control allowing them to control who can access their virtual phone numbers MFA Codes;\n3. Access granting to virtual phone numbers can be time-based.<p>*On the security perspective, I aim to allow businesses to:*<p>1. Avoid spending time in building a security login &quot;bypass&quot; (and all the security issues that often come with it);\n2. Avoid building a &quot;demonstration&quot; mode exclusively for Apple on their mobile applications;\n3. Avoid using public websites with public phone numbers accessible to anyone.<p>What do you think? Would you use such product for your business in order to safely manage SMS Multi-Factor-Authentication sharing in production accounts? I would love hearing your feedback on the pros and cons you see about this product.<p>All the best",
+      "time": 1635712356,
+      "title": "Show HN: I built a platform to share SMS Multi-Factor Authentication codes",
+      "type": "story"
+    },
+    {
+      "by": "lowbloodsugar",
+      "descendants": 1,
+      "id": 29060128,
+      "kids": [
+        29060148
+      ],
+      "score": 1,
+      "time": 1635712312,
+      "title": "Apple's macOS Monterey causing problems with some USB-C hubs and docks",
+      "type": "story",
+      "url": "https://appleinsider.com/articles/21/10/29/apples-macos-monterey-causes-problems-with-some-usb-devices-hubs"
+    },
     {
       "by": "adunk",
       "descendants": 0,
@@ -42,66 +81,6 @@
       "title": "Show HN: Guriddo, a free and competitive number puzzle app with daily challenges",
       "type": "story",
       "url": "https://www.guriddo.app"
-    },
-    {
-      "by": "AndreyKarpov",
-      "descendants": 0,
-      "id": 29059939,
-      "score": 1,
-      "time": 1635710893,
-      "title": "Visual Studio 2022 ate up 100 GB of memory and what XML bomb is",
-      "type": "story",
-      "url": "https://pvs-studio.com/en/blog/posts/csharp/0865/"
-    },
-    {
-      "by": "gumby",
-      "descendants": 0,
-      "id": 29059927,
-      "score": 1,
-      "time": 1635710806,
-      "title": "VIPs expect special treatment. At Wikipedia, don’t even ask",
-      "type": "story",
-      "url": "https://www.washingtonpost.com/outlook/wikipedia-jimmy-wales-john-eastman-editing/2021/10/28/f2d61bea-35fd-11ec-9bc4-86107e7b0ab1_story.html"
-    },
-    {
-      "by": "abusyhippie",
-      "descendants": 0,
-      "id": 29059913,
-      "score": 2,
-      "time": 1635710709,
-      "title": "Why I Quit My Cushy Tech Job and Lived on the Road for 6 Months",
-      "type": "story",
-      "url": "https://medium.com/@barthofkin_17385/why-i-quit-my-tech-job-and-lived-on-the-road-for-6-months-92536fcee566"
-    },
-    {
-      "by": "midwestemo",
-      "descendants": 0,
-      "id": 29059905,
-      "score": 1,
-      "time": 1635710635,
-      "title": "Roblox is online in some regions after a 2 day outage",
-      "type": "story",
-      "url": "https://twitter.com/Roblox/status/1454900890180063238"
-    },
-    {
-      "by": "hirundo",
-      "descendants": 0,
-      "id": 29059884,
-      "score": 2,
-      "time": 1635710441,
-      "title": "Overcoming Bias: ‘The Profit’ Socialism Challenge",
-      "type": "story",
-      "url": "https://www.overcomingbias.com/2021/10/the-profit-socialism-challenge.html"
-    },
-    {
-      "by": "hammock",
-      "descendants": 0,
-      "id": 29059868,
-      "score": 1,
-      "time": 1635710264,
-      "title": "Top Ranked Comments on Hacker News",
-      "type": "story",
-      "url": "https://news.ycombinator.com/bestcomments"
     }
   ]
 }
