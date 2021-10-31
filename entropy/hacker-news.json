@@ -1,5 +1,46 @@
 {
   "stories": [
+    null,
+    {
+      "by": "jlturner",
+      "descendants": 0,
+      "id": 29060280,
+      "score": 1,
+      "time": 1635713354,
+      "title": "Sending and Receiving SMS via APRS (VHF Amateur Radio)",
+      "type": "story",
+      "url": "https://smsgte.org/ug-sending-messages/"
+    },
+    {
+      "by": "proszkinasenne2",
+      "descendants": 0,
+      "id": 29060272,
+      "score": 1,
+      "time": 1635713293,
+      "title": "Avoiding bot detection: How to scrape the web without getting blocked?",
+      "type": "story",
+      "url": "https://github.com/niespodd/browser-fingerprinting"
+    },
+    {
+      "by": "redwoolf",
+      "descendants": 0,
+      "id": 29060269,
+      "score": 1,
+      "time": 1635713280,
+      "title": "Why is baseball the most literary of sports?",
+      "type": "story",
+      "url": "https://lithub.com/why-is-baseball-the-most-literary-of-sports/"
+    },
+    {
+      "by": "tosh",
+      "descendants": 0,
+      "id": 29060260,
+      "score": 1,
+      "time": 1635713222,
+      "title": "Everyone is wrong about the Metaverse",
+      "type": "story",
+      "url": "https://twitter.com/ShaanVP/status/1454151237650112512"
+    },
     {
       "by": "wlib",
       "descendants": 0,
@@ -34,7 +75,7 @@
       "by": "todsacerdoti",
       "descendants": 0,
       "id": 29060200,
-      "score": 2,
+      "score": 3,
       "time": 1635712780,
       "title": "Perfecting GLFW for Zig, and finding lurking undefined behavior that went unnot",
       "type": "story",
@@ -49,59 +90,6 @@
       "title": "Show HN: DIY Home Voice Assistant with Privacy and Air Quality Display",
       "type": "story",
       "url": "https://7402.org/blog/2021/diy-home-voice-assistant-privacy-aqi-display.html"
-    },
-    {
-      "by": "belter",
-      "descendants": 0,
-      "id": 29060173,
-      "score": 1,
-      "time": 1635712603,
-      "title": "Oscar Peterson Piano Lesson [video]",
-      "type": "story",
-      "url": "https://www.youtube.com/watch?v=ec-FrnaU0rs"
-    },
-    {
-      "by": "droptablemain",
-      "descendants": 0,
-      "id": 29060171,
-      "score": 2,
-      "time": 1635712599,
-      "title": "Private Prison Operator Geo Group Must Pay Inmates Minimum Wage for Work",
-      "type": "story",
-      "url": "https://www.newsweek.com/private-prison-operator-geo-group-must-pay-inmates-minimum-wage-work-jury-rules-1643313"
-    },
-    {
-      "by": "prostoalex",
-      "descendants": 0,
-      "id": 29060170,
-      "score": 1,
-      "time": 1635712595,
-      "title": "Meta promise a metaverse that video game companies are already building",
-      "type": "story",
-      "url": "https://www.washingtonpost.com/video-games/2021/10/29/facebook-meta-rebrand-metaverse-video-games/"
-    },
-    {
-      "by": "chipatama",
-      "descendants": 1,
-      "id": 29060156,
-      "kids": [
-        29060157
-      ],
-      "score": 1,
-      "time": 1635712506,
-      "title": "Show HN: Become a better Developer, one New Tab at a time",
-      "type": "story",
-      "url": "https://30secondsofknowledge.com/"
-    },
-    {
-      "by": "Frajedo",
-      "descendants": 0,
-      "id": 29060132,
-      "score": 1,
-      "text": "Hello there HN!<p>I just wanted to share with you a product I&#x27;ve been working on for a while. The product is called GetMyMfa and is accessible at https:&#x2F;&#x2F;get.mymfa.io. The objective of this project is to allow organizations to safely and easily share Multi-Factor Authentication codes for their Quality Assurance and Apple App Store review processes.<p>*Where the idea came from:*<p>I am currently working with multiple customers in the FSI domain (Financial Services Industry) and I am often required to perform tests in production and staging environments with multiple accounts. As production and staging accounts, these accounts are generally required to have at least an SMS 2FA system in place. When performing tests in such sensitive accounts, a single individual usually owns all phone numbers linked to these accounts and shares received MFA codes via a phone call with the various people performing tests in these accounts. I believe this represents a security concern and a bypass of the Multi-Factor Authentication principles.<p>In addition, when submitting iOS applications to the App Store, Apple performs a human review process in which they need to login to the application. When MFA is enforced for all production accounts, Apple rejects the application unless a way is implemented to allow them to login. This often leaves developers with two options: Develop a front-end only demonstration mode, or bypass the MFA mechanism for a specific account.<p>*Therefore, the project aims to:*<p>1. Allow organizations to rent virtual phone numbers and have their SMS MFA codes be displayed in a private web interface;\n2. Organizations have fine-grained access control allowing them to control who can access their virtual phone numbers MFA Codes;\n3. Access granting to virtual phone numbers can be time-based.<p>*On the security perspective, I aim to allow businesses to:*<p>1. Avoid spending time in building a security login &quot;bypass&quot; (and all the security issues that often come with it);\n2. Avoid building a &quot;demonstration&quot; mode exclusively for Apple on their mobile applications;\n3. Avoid using public websites with public phone numbers accessible to anyone.<p>What do you think? Would you use such product for your business in order to safely manage SMS Multi-Factor-Authentication sharing in production accounts? I would love hearing your feedback on the pros and cons you see about this product.<p>All the best",
-      "time": 1635712356,
-      "title": "Show HN: I built a platform to share SMS Multi-Factor Authentication codes",
-      "type": "story"
     }
   ]
 }
