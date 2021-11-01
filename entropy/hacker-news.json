@@ -22,9 +22,12 @@
     },
     {
       "by": "fortran77",
-      "descendants": 0,
+      "descendants": 1,
       "id": 29062854,
-      "score": 2,
+      "kids": [
+        29062890
+      ],
+      "score": 3,
       "time": 1635738888,
       "title": "Most Covid-19 hospitalizations due to four conditions",
       "type": "story",
@@ -90,7 +93,7 @@
       "by": "graderjs",
       "descendants": 0,
       "id": 29062741,
-      "score": 1,
+      "score": 2,
       "text": "I&#x27;m interested in providing the full text search capability for product 22120 which has a web archive capability.<p>I&#x27;ve investigated a few such as those based on solr but my concern is that they do not handle multiple human languages with minimal configuration. Ideally something that has the stemming and tokenization for multiple languages including East Asian languages such as Chinese Japanese Korean and ideally South Asian languages like Hindi and Urdu as well.<p>Unfortunately a great many search engines out there seem to have a stemming and tokenization available for romance languages such as Latin derived or Germanic languages. People from everywhere like to archive web content that they browse and the content is in multiple human languages so to provide a good full text search I need something that can handle multiple human languages. I considered maybe writing something myself such as a simple Trie, but I think the rabbit hole of creating a good full text search is a very very long and convoluted one so preferable to plug in something that already exists.<p>I really love what flexsearch is doing especially how they are using signals from context I think that&#x27;s the future. But I&#x27;m concerned how basic their support for stemming and tokenization is for example: https:&#x2F;&#x2F;github.com&#x2F;nextapps-de&#x2F;flexsearch&#x2F;issues&#x2F;207",
       "time": 1635737120,
       "title": "Ask HN: Full text search engine in JavaScript for English and Chinese?",
