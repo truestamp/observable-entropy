@@ -1,6 +1,56 @@
 {
   "stories": [
     {
+      "by": "vwoolf",
+      "descendants": 0,
+      "id": 29071780,
+      "score": 1,
+      "time": 1635795036,
+      "title": "The Culprit in Our Supply-Chain Crisis: Inefficient Regulations",
+      "type": "story",
+      "url": "https://www.nationalreview.com/2021/10/the-real-culprit-in-our-supply-chain-crisis/"
+    },
+    {
+      "by": "skadamat",
+      "descendants": 0,
+      "id": 29071748,
+      "score": 1,
+      "time": 1635794908,
+      "title": "How the Modern Data Stack Is Reshaping Data Engineering",
+      "type": "story",
+      "url": "https://preset.io/blog/reshaping-data-engineering/"
+    },
+    {
+      "by": "camjohnson26",
+      "descendants": 0,
+      "id": 29071741,
+      "score": 1,
+      "text": "The hiring market is weird right now which makes it difficult for job seekers to know what their value is. Companies try to control the spread of salary information so they have more leverage when negotiating. So my question is where are you, what is your role, and how much do you make?<p>I’m in the midwest United States earning $150k as a senior frontend engineer with 7 years of experience.",
+      "time": 1635794883,
+      "title": "Ask HN: What Is Your Salary?",
+      "type": "story"
+    },
+    {
+      "by": "marcodiego",
+      "descendants": 0,
+      "id": 29071733,
+      "score": 1,
+      "time": 1635794839,
+      "title": "Jerrycan",
+      "type": "story",
+      "url": "https://en.wikipedia.org/wiki/Jerrycan"
+    },
+    {
+      "by": "pikseladam",
+      "descendants": 0,
+      "id": 29071718,
+      "score": 1,
+      "time": 1635794787,
+      "title": "Amazon-owned Twitch streamers accused of money laundering",
+      "type": "story",
+      "url": "https://www.digitaltveurope.com/2021/11/01/esports-scandal-sees-turkish-twitch-streamers-accused-of-money-laundering/"
+    },
+    {
       "by": "tybulewicz",
       "descendants": 0,
       "id": 29071700,
@@ -49,59 +99,6 @@
       "title": "Minimally Extractive Meta",
       "type": "story",
       "url": "https://www.notboring.co/p/minimally-extractive-meta"
-    },
-    {
-      "by": "folex",
-      "descendants": 0,
-      "id": 29071623,
-      "score": 5,
-      "time": 1635794387,
-      "title": "A truly open-source MongoDB alternative",
-      "type": "story",
-      "url": "https://www.mangodb.io/"
-    },
-    {
-      "by": "escot",
-      "descendants": 0,
-      "id": 29071622,
-      "score": 1,
-      "time": 1635794384,
-      "title": "Scientists’ fears of racial bias surge amid US crackdown on China ties",
-      "type": "story",
-      "url": "https://www.nature.com/articles/d41586-021-02976-8"
-    },
-    {
-      "by": "andrewyates2020",
-      "descendants": 0,
-      "id": 29071609,
-      "score": 9,
-      "text": "Hi HN, we’re Andrew and Dan, and we founded Promoted (<a href=\"http:&#x2F;&#x2F;promoted.ai\" rel=\"nofollow\">http:&#x2F;&#x2F;promoted.ai</a>). We produce better search results and feed ranking for marketplaces, matching buyers and sellers more efficiently. This includes listings when you open the app, product recommendations, and query or location-based search results.<p>For buyers, this is finding what you want quickly. For sellers, this is finding an audience despite competition. For marketplaces, this is increasing total conversion rates and new seller success rates. Matching buyers with sellers is the engine that drives marketplaces, and doing it better is how marketplaces grow.<p>Deciding who sees what in a list on an app is the core business of the biggest, most profitable companies in the world: Facebook, Google, Amazon. We have a decentralized, identity-free solution that’s more efficient for sellers and a better experience for users. Today, we optimize within marketplaces, but we believe that our approach can eventually match buyers and sellers across many apps and turn into a network between top marketplaces.  We aren&#x27;t an ad company. We use technology from ad tech to make marketplaces work better.<p>We met at Pinterest ads engineering. Previously, we helped build ad systems at Facebook and Google respectively. We learned that marketplace companies were all trying to build ads and hire ML engineers, but we knew from experience that most of these efforts would only have easy wins at first, then stall with huge costs and user loss. To build things right, we decided to form our own company. We started with just ads for marketplace, but quickly learned that our tech could produce much better marketplace search, so we expanded to that. It makes sense: every listing in a marketplace is something advertised for sale. They’re just not called ads.<p>Ironically, bad ad tech is easy. Anybody can sell a dumb banner, and this makes early money fast—but it’s bad money, because it’s a bad long-term strategy. Even with hiring awesome engineers from Facebook, Google, or Amazon (the current market strategy), you still need to build a system that kills the easy money, doesn’t drive away users, keeps sellers happy, and maximizes sales in the long run. To do that, you have to go the hard route. You have to generate all listings in real-time: no caching. You have to try to deliver everything, not just top content, and explain why to sellers. You need to solve for how much you want to show something, in other people’s dollars, and it has to be correct all the time. Your inventory is always changing, anything can be shown to anybody, and people game your system. Models must always be evolving and depend on external data and market dynamics, so quant SRE and DevOps are crucial. Measurement has to be correct or you could be sued, or at least produce poor results. You need a manager tool so that busy people can run their campaigns and test how they perform in real-time.<p>Our tech has three parts: (1) Metrics: We log impressions, clicks, and conversions in our web and mobile client SDK. In our backend, we attribute conversions to impressions and join and aggregate data in real-time to power delivery. (2) Delivery: We use machine learning to predict user behavior to decide what to show. This is the “The Algorithm” famously from social media applied to e-commerce. (3) Manager: Sellers can run their own listings like ads, even if they are not ads, with self-service real-time reporting and A&#x2F;B testing. This makes listings better by helping sellers improve themselves versus only sorting listings as they are today.<p>We like to say that we’ve built Paul Graham’s revenue loop, advanced twenty-five years (<a href=\"http:&#x2F;&#x2F;www.paulgraham.com&#x2F;6631327.html\" rel=\"nofollow\">http:&#x2F;&#x2F;www.paulgraham.com&#x2F;6631327.html</a>).<p>We run both “organic” commercial search and feed and ads. Our insight was that these are actually the same systems for commercial search. Existing recommendation and search systems don’t run ads, and ad systems don’t run your search and feed. We do both.<p>When we started, we were shocked at how little marketplace companies measure anything. We assumed that most top marketplaces would have reasonable click prediction systems, for example. We discovered that not only did they not, they didn’t even log things like impressions, and even the concept of a “click” wasn’t clear, especially for mobile-first marketplaces. We had to re-evaluate what we took for granted working in mature social media companies and rebuild what we wanted for ourselves. For example, we originally started as &quot;backend only.&quot; Now, we have a mobile SDK.<p>We collect and track a tremendous amount of data, but always as first-party within the app to power that app, not anything else. We don’t aggregate user data. That is Facebook’s and Google’s model. Instead, we rely on data volume and speed to deliver performance, more like TikTok video recommendations. This has the benefit of solving for new and anonymous users and cold start optimizations.<p>We are live and power marketplaces like Hipcamp and Snackpass. We have free, open-source SDKs for iOS, Android, React Native, and Web for logging impressions, dwell time, clicks, and attributed conversions in marketplace listings. <a href=\"https:&#x2F;&#x2F;www.promoted.ai&#x2F;client-metrics-libraries\" rel=\"nofollow\">https:&#x2F;&#x2F;www.promoted.ai&#x2F;client-metrics-libraries</a>. Unlike metrics services designed for A&#x2F;B testing like Amplitude, our logging is designed to power ads and ML systems. All our SDKs are open source: <a href=\"https:&#x2F;&#x2F;www.promoted.ai&#x2F;developers\" rel=\"nofollow\">https:&#x2F;&#x2F;www.promoted.ai&#x2F;developers</a><p>We’d love your feedback and your ideas! Thank you! We know that &quot;ads&quot; is a third rail topic full of &quot;what you can&#x27;t say,&quot; especially in the current media climate. My personal journey regarding understanding the attention economy is that I used to work at Interhack and had extreme ideas about data privacy and Big Tech. I lived that life for a few years, and it was both unrealistic and non-impactful. My personal feeling is that it&#x27;s better to understand that world as it is and make a better version of it gracefully versus rage against it on the Internet. Promoted.ai is that vision for me.<p>We&#x27;d also love to chat shop with any discovery or ads engineers out there! Ask me about GSP! ;)",
-      "time": 1635794343,
-      "title": "Launch HN: Promoted (YC W21) - Search and feed ranking for marketplaces",
-      "type": "story"
-    },
-    {
-      "by": "cptn_brittish",
-      "descendants": 0,
-      "id": 29071607,
-      "score": 1,
-      "time": 1635794335,
-      "title": "Bitburner: A programming and hacking idle game",
-      "type": "story",
-      "url": "https://danielyxie.github.io/bitburner/"
-    },
-    {
-      "by": "emilyreed",
-      "descendants": 1,
-      "id": 29071599,
-      "kids": [
-        29071600
-      ],
-      "score": 1,
-      "time": 1635794312,
-      "title": "Around – Hiring – Full-Time – 100% Remote US and EU and LATAM",
-      "type": "story",
-      "url": "https://www.around.co"
     }
   ]
 }
