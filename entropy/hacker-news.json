@@ -1,6 +1,16 @@
 {
   "stories": [
     {
+      "by": "badRNG",
+      "descendants": 0,
+      "id": 29079150,
+      "score": 1,
+      "time": 1635848033,
+      "title": "“We do not maintain databases”",
+      "type": "story",
+      "url": "https://blog.pompur.in/we-do-not-maintain-databases/"
+    },
+    {
       "by": "sidkh",
       "descendants": 0,
       "id": 29079130,
@@ -24,7 +34,7 @@
       "by": "Geekette",
       "descendants": 0,
       "id": 29079127,
-      "score": 1,
+      "score": 2,
       "time": 1635847815,
       "title": "Many more Africans are migrating within Africa than to Europe",
       "type": "story",
@@ -52,8 +62,11 @@
     },
     {
       "by": "pchm",
-      "descendants": 0,
+      "descendants": 1,
       "id": 29079096,
+      "kids": [
+        29079137
+      ],
       "score": 2,
       "text": "Yesterday I ran `brew install virtualenv` and homebrew decided to upgrade postgres, ruby, youtube-dl, vim, rust, wget and 50 other unrelated packages. The single command took 45min and broke all of my local postgres databases (and who knows what else).<p>At this point I should know better than to install postgres via homebrew, but unwanted&#x2F;unasked-for upgrades is not a feature I&#x27;m looking for in a package manager.<p>What&#x27;s your experience with other package managers for macOS? Currently looking into macports &amp; nix and not sure which one to choose...",
       "time": 1635847419,
@@ -89,16 +102,6 @@
       "title": "The reckless, infinite scope of web browsers",
       "type": "story",
       "url": "https://drewdevault.com/2020/03/18/Reckless-limitless-scope.html"
-    },
-    {
-      "by": "NeutralForest",
-      "descendants": 0,
-      "id": 29079050,
-      "score": 1,
-      "time": 1635846758,
-      "title": "Brown Interviews with Protesilaos Stavrou – Linux and Emacs Contributor",
-      "type": "story",
-      "url": "https://browninterviews.org/stand-up-and-tell-people-that-you-cannot-just-be-the-red-carpet-upon-which-others-will-parade-brown-interviews-protesilaos-stavrou/"
     }
   ]
 }
