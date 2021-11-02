@@ -1,10 +1,74 @@
 {
   "stories": [
     {
-      "by": "sinisterbun",
+      "by": "redwoolf",
       "descendants": 0,
-      "id": 29084330,
+      "id": 29084426,
       "score": 1,
+      "time": 1635873980,
+      "title": "The Toxic Effects of Branding Your Workplace a “Family”",
+      "type": "story",
+      "url": "https://hbr.org/2021/10/the-toxic-effects-of-branding-your-workplace-a-family"
+    },
+    {
+      "by": "infodocket",
+      "descendants": 0,
+      "id": 29084425,
+      "score": 1,
+      "time": 1635873970,
+      "title": "Risk of Potential Adverse Effects on Radio Altimeters [pdf]",
+      "type": "story",
+      "url": "https://rgl.faa.gov/Regulatory_and_Guidance_Library/rgSAIB.nsf/dc7bd4f27e5f107486257221005f069d/27ffcbb45e6157e9862587810044ad19/$FILE/AIR-21-18.pdf"
+    },
+    {
+      "by": "leephillips",
+      "descendants": 0,
+      "id": 29084423,
+      "score": 1,
+      "time": 1635873966,
+      "title": "Hiding Vulnerabilities in Source Code",
+      "type": "story",
+      "url": "https://www.schneier.com/blog/archives/2021/11/hiding-vulnerabilities-in-source-code.html"
+    },
+    {
+      "by": "samizdis",
+      "descendants": 0,
+      "id": 29084420,
+      "score": 1,
+      "time": 1635873957,
+      "title": "Stablecoins Might Have to Be Banks",
+      "type": "story",
+      "url": "https://www.bloomberg.com/opinion/articles/2021-11-02/stablecoins-might-have-to-be-banks"
+    },
+    {
+      "by": "Tomte",
+      "descendants": 0,
+      "id": 29084410,
+      "score": 1,
+      "time": 1635873911,
+      "title": "Unsteady on your feet? Why sleep deprivation is ruining your walk",
+      "type": "story",
+      "url": "https://www.theguardian.com/lifeandstyle/2021/nov/02/unsteady-on-your-feet-why-sleep-deprivation-is-ruining-your-walk"
+    },
+    {
+      "by": "enesakar",
+      "descendants": 0,
+      "id": 29084392,
+      "score": 1,
+      "time": 1635873859,
+      "title": "Waiting room for websites with Cloudflare Workers",
+      "type": "story",
+      "url": "https://blog.upstash.com/cloudflare-workers-waiting-room"
+    },
+    {
+      "by": "sinisterbun",
+      "descendants": 2,
+      "id": 29084330,
+      "kids": [
+        29084418,
+        29084403
+      ],
+      "score": 2,
       "text": "I don&#x27;t want to mince words here. There are people around you who cannot think at your level. And may be you are that person to someone else too. This does not include cases when we can say &quot;So what? They have their own things they are good at.&quot; No, these people are genuinely atleast a level below you intellectually. It is quite common in my circles due to very understandable reasons. It could be parents, partners, siblings etc. So how do you deal with them when discussing issues which need deep thinking?",
       "time": 1635873637,
       "title": "Ask HN: How do you deal with your not-so-intelligent family/friends?",
@@ -37,71 +101,11 @@
       "by": "putrikarunia",
       "descendants": 0,
       "id": 29084309,
-      "score": 6,
-      "text": "Hi HN, we are Putri, Anthony, Michelle, Kevin, and Albert from Typedream (<a href=\"https:&#x2F;&#x2F;typedream.com\" rel=\"nofollow\">https:&#x2F;&#x2F;typedream.com</a>). We make a website builder with a familiar text-editing interface that makes building websites fast and easy. You can see a bunch of examples here: <a href=\"https:&#x2F;&#x2F;typedream.com&#x2F;showcase\" rel=\"nofollow\">https:&#x2F;&#x2F;typedream.com&#x2F;showcase</a>.<p>We were building a passwordless authentication service [1] with tools and integrations for no-code website builders like Webflow, Bubble, etc. when people started asking us to integrate with Notion. We were surprised, as we didn&#x27;t expect people to build websites on Notion when there’s a lot of other website builders out there. We dug deeper and got the answer that people like Notion&#x27;s WYSIWYG interface in which they can type in the editor right away, and prefer it instead of selecting a block and making edits on the pop-up forms like you do on older website builders.<p>Since Notion is a note-taking app rather than a website builder, we started asking Notion-to-website users what it was missing as a website builder. We heard that several important aspects of websites are not intuitive. For example, there is no default way to make buttons. The workaround is to make them use callouts and edit the CSS. Another example is navbars: you have to make them manually using columns. We saw an opportunity to present our solution so we decided to make Typedream: a WYSIWYG editor with features catered specifically for building websites.<p>We adopt a text editing interface, something familiar like Google Docs. We realized most people have been exposed to text editors like Google Docs or MS Word, so they know the fundamentals on how to use it, how to type, make headings, change color, add images, etc. We then added beautiful default styles to allow their sites to look good with no effort. And then we take care of everything else, like responsiveness, paddings, margins, etc., so they don&#x27;t need to manually set different styles for different device sizes. We also decided to adopt the `&#x2F;` keyboard shortcut to add new blocks on the editor to make it faster for users who are familiar with it.<p>Most website builders are needlessly complicated, and most of them do not adopt the familiar text-editing interface. Our interface makes building sites incredibly fast, with a low learning curve. How we’re different from other options: (1) Code: great for people who know how to code, but it takes too long for non-technical teammates to make small edits; (2) Webflow: too complicated, CSS knowledge required; (3) Squarespace: constrained to templates and not easily customizable as it looks inconsistent with the theme when you edit the template; (4)\nWix, Softr: not only are you constrained to their template, it is not a WYSIWYG editor—you can only insert text on the pop-up form on the left of the editor.<p>Much like Notion and other block editing methods, site content is represented in a JSON format. Each block has a type, for example, a block of Paragraph would have the type “Paragraph” and would be represented by {“type”:”paragraph”, “text”: “Hello World”}, and an image would have the type “Image” represented by {“type”:”image”, “url”:”<a href=\"http:&#x2F;&#x2F;placekitten.com&#x2F;200&#x2F;300”\" rel=\"nofollow\">http:&#x2F;&#x2F;placekitten.com&#x2F;200&#x2F;300”</a>}. \nA page consists of an array of blocks representing the blocks in the page. A page that consists of a Heading, a Paragraph, and an Image would be represented by an array of maps with types “heading”, “paragraph”, and “image” respectively. A block can also have children. For example, a block of type “Container” may have 3 children of “Paragraph” blocks. It’s very similar to the DOM structure.<p>This JSON value is then transformed into React components based on their types. So a block of type &quot;Paragraph&quot; will be rendered into a &lt;p&gt;, and a block of type &quot;Image&quot; will be rendered as an &lt;img&gt;, etc. We then use Next.JS to generate static pages using their ISR feature.<p>Our users have built websites for landing pages, product showcases, blogs, portfolios, and supplementary pages like guides, job postings, and FAQs. A lot of them are founders looking to validate their ideas by putting the word out quickly. We charge a monthly or yearly subscription and we also have a free plan!<p>The next steps for us would be to add a CMS functionality that connects to Notion&#x2F;Airtable&#x2F;built-in database, improve our site performance, and enable code export.<p>We would love to hear more about your experiences with website builders! What are your biggest pain points and what services do you wish existed to solve those?<p>Please let us know if you have questions, comments, or feedback, we&#x27;ll be here all day to chat with you!<p>[1] We launched it here: <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=22538578\" rel=\"nofollow\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=22538578</a>.",
+      "score": 9,
+      "text": "Hi HN, we are Putri, Anthony, Michelle, Kevin, and Albert from Typedream (<a href=\"https:&#x2F;&#x2F;typedream.com\" rel=\"nofollow\">https:&#x2F;&#x2F;typedream.com</a>). We make a website builder with a familiar text-editing interface that makes building websites fast and easy. You can see a bunch of examples here: <a href=\"https:&#x2F;&#x2F;typedream.com&#x2F;showcase\" rel=\"nofollow\">https:&#x2F;&#x2F;typedream.com&#x2F;showcase</a>.<p>We were building a passwordless authentication service [1] with tools and integrations for no-code website builders like Webflow, Bubble, etc. when people started asking us to integrate with Notion. We were surprised, as we didn&#x27;t expect people to build websites on Notion when there’s a lot of other website builders out there. We dug deeper and got the answer that people like Notion&#x27;s WYSIWYG interface in which they can type in the editor right away, and prefer it instead of selecting a block and making edits on the pop-up forms like you do on older website builders.<p>Since Notion is a note-taking app rather than a website builder, we started asking Notion-to-website users what it was missing as a website builder. We heard that several important aspects of websites are not intuitive. For example, there is no default way to make buttons. The workaround is to make them use callouts and edit the CSS. Another example is navbars: you have to make them manually using columns. We saw an opportunity to present our solution so we decided to make Typedream: a WYSIWYG editor with features catered specifically for building websites.<p>We adopt a text editing interface, something familiar like Google Docs. We realized most people have been exposed to text editors like Google Docs or MS Word, so they know the fundamentals on how to use it, how to type, make headings, change color, add images, etc. We then added beautiful default styles to allow their sites to look good with no effort. And then we take care of everything else, like responsiveness, paddings, margins, etc., so they don&#x27;t need to manually set different styles for different device sizes. We also decided to adopt the `&#x2F;` keyboard shortcut to add new blocks on the editor to make it faster for users who are familiar with it.<p>Most website builders are needlessly complicated, and most of them do not adopt the familiar text-editing interface. Our interface makes building sites incredibly fast, with a low learning curve. How we’re different from other options: (1) Code: great for people who know how to code, but it takes too long for non-technical teammates to make small edits; (2) Webflow: too complicated, CSS knowledge required; (3) Squarespace: constrained to templates and not easily customizable as it looks inconsistent with the theme when you edit the template; (4)\nWix, Softr: not only are you constrained to their template, it is not a WYSIWYG editor—you can only insert text on the pop-up form on the left of the editor.<p>Much like Notion and other block editing methods, site content is represented in a JSON format. Each block has a type, for example, a block of Paragraph would have the type &quot;Paragraph&quot; and would be represented by {&quot;type&quot;:&quot;paragraph&quot;, &quot;text&quot;: &quot;Hello World&quot;}, and an image would have the type &quot;Image&quot; represented by {&quot;type&quot;:&quot;image&quot;, &quot;url&quot;:&quot;<a href=\"http:&#x2F;&#x2F;placekitten.com&#x2F;200&#x2F;300\" rel=\"nofollow\">http:&#x2F;&#x2F;placekitten.com&#x2F;200&#x2F;300</a>&quot;}. \nA page consists of an array of blocks representing the blocks in the page. A page that consists of a Heading, a Paragraph, and an Image would be represented by an array of maps with types “heading”, “paragraph”, and “image” respectively. A block can also have children. For example, a block of type “Container” may have 3 children of “Paragraph” blocks. It’s very similar to the DOM structure.<p>This JSON value is then transformed into React components based on their types. So a block of type &quot;Paragraph&quot; will be rendered into a &lt;p&gt;, and a block of type &quot;Image&quot; will be rendered as an &lt;img&gt;, etc. We then use Next.JS to generate static pages using their ISR feature.<p>Our users have built websites for landing pages, product showcases, blogs, portfolios, and supplementary pages like guides, job postings, and FAQs. A lot of them are founders looking to validate their ideas by putting the word out quickly. We charge a monthly or yearly subscription and we also have a free plan!<p>The next steps for us would be to add a CMS functionality that connects to Notion&#x2F;Airtable&#x2F;built-in database, improve our site performance, and enable code export.<p>We would love to hear more about your experiences with website builders! What are your biggest pain points and what services do you wish existed to solve those?<p>Please let us know if you have questions, comments, or feedback, we&#x27;ll be here all day to chat with you!<p>[1] We launched it here: <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=22538578\" rel=\"nofollow\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=22538578</a>.",
       "time": 1635873567,
       "title": "Launch HN: Typedream (YC W20) – WYSIWYG website builder",
       "type": "story"
-    },
-    {
-      "by": "feross",
-      "descendants": 0,
-      "id": 29084288,
-      "score": 1,
-      "time": 1635873467,
-      "title": "What could Go wrong with a mutex? (A Go profiling story)",
-      "type": "story",
-      "url": "https://evilmartians.com/chronicles/what-could-go-wrong-with-a-mutex-or-the-go-profiling-story"
-    },
-    {
-      "by": "georgecmu",
-      "descendants": 0,
-      "id": 29084284,
-      "score": 1,
-      "time": 1635873432,
-      "title": "Energy, and How to Get It",
-      "type": "story",
-      "url": "https://www.newyorker.com/magazine/2021/11/08/energy-and-how-to-get-it"
-    },
-    {
-      "by": "taf2",
-      "descendants": 0,
-      "id": 29084277,
-      "score": 1,
-      "time": 1635873405,
-      "title": "Toxiproxy is a framework for simulating network conditions",
-      "type": "story",
-      "url": "https://github.com/Shopify/toxiproxy"
-    },
-    {
-      "by": "ksec",
-      "descendants": 0,
-      "id": 29084267,
-      "score": 1,
-      "time": 1635873373,
-      "title": "Researchers develop 5D optical storage method that preserve up to 500TB per disc",
-      "type": "story",
-      "url": "https://www.dpreview.com/news/6930207183/researchers-develop-5d-optical-data-storage-method-that-can-preserve-up-to-5tb-per-disc"
-    },
-    {
-      "by": "sharemywin",
-      "descendants": 0,
-      "id": 29084266,
-      "score": 1,
-      "time": 1635873373,
-      "title": "Climate impacts agriculture emerge earlier in new climate and crop models",
-      "type": "story",
-      "url": "https://www.nature.com/articles/s43016-021-00400-y"
-    },
-    {
-      "by": "thedday",
-      "descendants": 0,
-      "id": 29084250,
-      "score": 2,
-      "time": 1635873329,
-      "title": "Two Chinese teams claim to have reached primacy with quantum computers",
-      "type": "story",
-      "url": "https://phys.org/news/2021-10-chinese-teams-primacy-quantum.html"
     }
   ]
 }
