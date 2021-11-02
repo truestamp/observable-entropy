@@ -1,6 +1,56 @@
 {
   "stories": [
     {
+      "by": "gojiberries",
+      "descendants": 0,
+      "id": 29084516,
+      "score": 1,
+      "time": 1635874287,
+      "title": "Sorting a Dependency Graph in Go",
+      "type": "story",
+      "url": "https://kendru.github.io/go/2021/10/26/sorting-a-dependency-graph-in-go/"
+    },
+    {
+      "by": "bryanrasmussen",
+      "descendants": 0,
+      "id": 29084492,
+      "score": 1,
+      "time": 1635874192,
+      "title": "Can Data Die?",
+      "type": "story",
+      "url": "https://pudding.cool/2021/10/lenna/"
+    },
+    {
+      "by": "rossdavidh",
+      "descendants": 0,
+      "id": 29084488,
+      "score": 1,
+      "time": 1635874183,
+      "title": "NASA astronauts harvest green chile on the ISS, make space tacos",
+      "type": "story",
+      "url": "https://www.cnet.com/news/nasa-astronauts-harvest-green-chile-on-the-iss-make-space-tacos/"
+    },
+    {
+      "by": "codazoda",
+      "descendants": 0,
+      "id": 29084474,
+      "score": 1,
+      "text": "I&#x27;m building a little side project (web app) but I really don&#x27;t want to roll my own login flow. I&#x27;m also not a fan of social login. What are you using for your little side projects?",
+      "time": 1635874148,
+      "title": "Ask HN: How do you do login for your side project?",
+      "type": "story"
+    },
+    {
+      "by": "coldrevengedish",
+      "descendants": 0,
+      "id": 29084442,
+      "score": 1,
+      "time": 1635874029,
+      "title": "Happy 30th Birthday, Vim",
+      "type": "story",
+      "url": "https://www.simplethread.com/vim-at-30-heres-why-its-still-relevant/"
+    },
+    {
       "by": "redwoolf",
       "descendants": 0,
       "id": 29084426,
@@ -24,7 +74,7 @@
       "by": "leephillips",
       "descendants": 0,
       "id": 29084423,
-      "score": 1,
+      "score": 2,
       "time": 1635873966,
       "title": "Hiding Vulnerabilities in Source Code",
       "type": "story",
@@ -49,63 +99,6 @@
       "title": "Unsteady on your feet? Why sleep deprivation is ruining your walk",
       "type": "story",
       "url": "https://www.theguardian.com/lifeandstyle/2021/nov/02/unsteady-on-your-feet-why-sleep-deprivation-is-ruining-your-walk"
-    },
-    {
-      "by": "enesakar",
-      "descendants": 0,
-      "id": 29084392,
-      "score": 1,
-      "time": 1635873859,
-      "title": "Waiting room for websites with Cloudflare Workers",
-      "type": "story",
-      "url": "https://blog.upstash.com/cloudflare-workers-waiting-room"
-    },
-    {
-      "by": "sinisterbun",
-      "descendants": 2,
-      "id": 29084330,
-      "kids": [
-        29084418,
-        29084403
-      ],
-      "score": 2,
-      "text": "I don&#x27;t want to mince words here. There are people around you who cannot think at your level. And may be you are that person to someone else too. This does not include cases when we can say &quot;So what? They have their own things they are good at.&quot; No, these people are genuinely atleast a level below you intellectually. It is quite common in my circles due to very understandable reasons. It could be parents, partners, siblings etc. So how do you deal with them when discussing issues which need deep thinking?",
-      "time": 1635873637,
-      "title": "Ask HN: How do you deal with your not-so-intelligent family/friends?",
-      "type": "story"
-    },
-    {
-      "by": "PaulHoule",
-      "descendants": 0,
-      "id": 29084329,
-      "score": 1,
-      "time": 1635873630,
-      "title": "Corruption Ruined Lebanon",
-      "type": "story",
-      "url": "https://www.nytimes.com/2021/10/28/magazine/corruption-lebanon.html"
-    },
-    {
-      "by": "oedmarap",
-      "descendants": 0,
-      "id": 29084317,
-      "kids": [
-        29084322
-      ],
-      "score": 1,
-      "time": 1635873593,
-      "title": "Netflix Video Quality at Scale with Cosmos Microservices",
-      "type": "story",
-      "url": "https://netflixtechblog.com/netflix-video-quality-at-scale-with-cosmos-microservices-552be631c113?gi=549c3e0631bb"
-    },
-    {
-      "by": "putrikarunia",
-      "descendants": 0,
-      "id": 29084309,
-      "score": 9,
-      "text": "Hi HN, we are Putri, Anthony, Michelle, Kevin, and Albert from Typedream (<a href=\"https:&#x2F;&#x2F;typedream.com\" rel=\"nofollow\">https:&#x2F;&#x2F;typedream.com</a>). We make a website builder with a familiar text-editing interface that makes building websites fast and easy. You can see a bunch of examples here: <a href=\"https:&#x2F;&#x2F;typedream.com&#x2F;showcase\" rel=\"nofollow\">https:&#x2F;&#x2F;typedream.com&#x2F;showcase</a>.<p>We were building a passwordless authentication service [1] with tools and integrations for no-code website builders like Webflow, Bubble, etc. when people started asking us to integrate with Notion. We were surprised, as we didn&#x27;t expect people to build websites on Notion when there’s a lot of other website builders out there. We dug deeper and got the answer that people like Notion&#x27;s WYSIWYG interface in which they can type in the editor right away, and prefer it instead of selecting a block and making edits on the pop-up forms like you do on older website builders.<p>Since Notion is a note-taking app rather than a website builder, we started asking Notion-to-website users what it was missing as a website builder. We heard that several important aspects of websites are not intuitive. For example, there is no default way to make buttons. The workaround is to make them use callouts and edit the CSS. Another example is navbars: you have to make them manually using columns. We saw an opportunity to present our solution so we decided to make Typedream: a WYSIWYG editor with features catered specifically for building websites.<p>We adopt a text editing interface, something familiar like Google Docs. We realized most people have been exposed to text editors like Google Docs or MS Word, so they know the fundamentals on how to use it, how to type, make headings, change color, add images, etc. We then added beautiful default styles to allow their sites to look good with no effort. And then we take care of everything else, like responsiveness, paddings, margins, etc., so they don&#x27;t need to manually set different styles for different device sizes. We also decided to adopt the `&#x2F;` keyboard shortcut to add new blocks on the editor to make it faster for users who are familiar with it.<p>Most website builders are needlessly complicated, and most of them do not adopt the familiar text-editing interface. Our interface makes building sites incredibly fast, with a low learning curve. How we’re different from other options: (1) Code: great for people who know how to code, but it takes too long for non-technical teammates to make small edits; (2) Webflow: too complicated, CSS knowledge required; (3) Squarespace: constrained to templates and not easily customizable as it looks inconsistent with the theme when you edit the template; (4)\nWix, Softr: not only are you constrained to their template, it is not a WYSIWYG editor—you can only insert text on the pop-up form on the left of the editor.<p>Much like Notion and other block editing methods, site content is represented in a JSON format. Each block has a type, for example, a block of Paragraph would have the type &quot;Paragraph&quot; and would be represented by {&quot;type&quot;:&quot;paragraph&quot;, &quot;text&quot;: &quot;Hello World&quot;}, and an image would have the type &quot;Image&quot; represented by {&quot;type&quot;:&quot;image&quot;, &quot;url&quot;:&quot;<a href=\"http:&#x2F;&#x2F;placekitten.com&#x2F;200&#x2F;300\" rel=\"nofollow\">http:&#x2F;&#x2F;placekitten.com&#x2F;200&#x2F;300</a>&quot;}. \nA page consists of an array of blocks representing the blocks in the page. A page that consists of a Heading, a Paragraph, and an Image would be represented by an array of maps with types “heading”, “paragraph”, and “image” respectively. A block can also have children. For example, a block of type “Container” may have 3 children of “Paragraph” blocks. It’s very similar to the DOM structure.<p>This JSON value is then transformed into React components based on their types. So a block of type &quot;Paragraph&quot; will be rendered into a &lt;p&gt;, and a block of type &quot;Image&quot; will be rendered as an &lt;img&gt;, etc. We then use Next.JS to generate static pages using their ISR feature.<p>Our users have built websites for landing pages, product showcases, blogs, portfolios, and supplementary pages like guides, job postings, and FAQs. A lot of them are founders looking to validate their ideas by putting the word out quickly. We charge a monthly or yearly subscription and we also have a free plan!<p>The next steps for us would be to add a CMS functionality that connects to Notion&#x2F;Airtable&#x2F;built-in database, improve our site performance, and enable code export.<p>We would love to hear more about your experiences with website builders! What are your biggest pain points and what services do you wish existed to solve those?<p>Please let us know if you have questions, comments, or feedback, we&#x27;ll be here all day to chat with you!<p>[1] We launched it here: <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=22538578\" rel=\"nofollow\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=22538578</a>.",
-      "time": 1635873567,
-      "title": "Launch HN: Typedream (YC W20) – WYSIWYG website builder",
-      "type": "story"
     }
   ]
 }
