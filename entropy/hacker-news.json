@@ -1,6 +1,28 @@
 {
   "stories": [
     {
+      "by": "cnvk",
+      "descendants": 0,
+      "id": 29085620,
+      "score": 1,
+      "text": "Hey HN, I&#x27;ve never posted here but I thought I would share. There&#x27;s a project that I built over the last year or two (2,300+ commits) and that I&#x27;m coming back to that I was hoping for some feedback on.<p>The idea behind it was to have something that end users could use to get to CRUD data across multiple databases and have good permissions control to keep the data protection&#x2F;GDPR etc and IT support gods happy. It kind of grew from there and I added the ability to see linked data and some other stuff.<p>It was really driven from working in startups in particular ones with a microservice architecture where they have quite a large number of those microservices each one having its one backend. Mostly built very quickly and with not much maintenance.<p>It took me quite a while to build it and I&#x27;m not really sure if there&#x27;s any market for it.<p>I&#x27;ve put up a website as well as some forms with some additonal features to see if anyone would enquire. No one has but then I haven&#x27;t really told anyone about it so not really surprised there.<p>Repo is on github, it&#x27;s built in Ruby, Rails, JS. Had some help from my partner and another dev. https:&#x2F;&#x2F;github.com&#x2F;Mission-Kontrol&#x2F;MissionKontrol<p>The next thing I was thinking about building was maybe DB updates via APIs. There&#x27;s some stuff on my other projects that can be updated to a database directly but others where an endpoint would be more suitable to keep validations etc.<p>Would love any feedback, thoughts. Should I keep working on this?",
+      "time": 1635878433,
+      "title": "Open source, self-hosted, admin tool. What next",
+      "type": "story"
+    },
+    {
+      "by": "minasmarios",
+      "descendants": 1,
+      "id": 29085572,
+      "kids": [
+        29085610
+      ],
+      "score": 1,
+      "time": 1635878269,
+      "title": "YC Creates the \"Orange\" DAO",
+      "type": "story"
+    },
+    {
       "by": "WoodenChair",
       "descendants": 0,
       "id": 29085504,
@@ -32,8 +54,11 @@
     },
     {
       "by": "sizzle",
-      "descendants": 0,
+      "descendants": 1,
       "id": 29085465,
+      "kids": [
+        29085635
+      ],
       "score": 3,
       "time": 1635877832,
       "title": "Are women worse than men at salary negotiation?",
@@ -82,26 +107,6 @@
       "title": "Netflix Games starts global rollout on Android, with iOS ‘on the way’",
       "type": "story",
       "url": "https://www.theverge.com/2021/11/2/22759628/netflix-games-global-rollout-mobile-android-devices"
-    },
-    {
-      "by": "diplodocusaur",
-      "descendants": 0,
-      "id": 29085412,
-      "score": 1,
-      "time": 1635877645,
-      "title": "Stephen Axford: How fungi changed my view of the world",
-      "type": "story",
-      "url": "https://www.youtube.com/watch?v=KYunPJQWZ1o"
-    },
-    {
-      "by": "fspacef",
-      "descendants": 0,
-      "id": 29085397,
-      "score": 1,
-      "time": 1635877564,
-      "title": "Facebook is shutting down its facial recognition software",
-      "type": "story",
-      "url": "https://www.cnn.com/2021/11/02/tech/facebook-shuts-down-facial-recognition/index.html"
     }
   ]
 }
