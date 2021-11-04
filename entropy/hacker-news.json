@@ -1,6 +1,36 @@
 {
   "stories": [
     {
+      "by": "Tomte",
+      "descendants": 0,
+      "id": 29106110,
+      "score": 1,
+      "time": 1636027877,
+      "title": "GoGodotJam 2",
+      "type": "story",
+      "url": "https://godotengine.org/article/announcing-gogodotjam-2"
+    },
+    {
+      "by": "tosh",
+      "descendants": 0,
+      "id": 29106109,
+      "score": 1,
+      "time": 1636027875,
+      "title": "APL Since 1978 (Roger Hui and Morten Kromberg)",
+      "type": "story",
+      "url": "https://www.pldi21.org/prerecorded_hopl.2.html"
+    },
+    {
+      "by": "vklmn",
+      "descendants": 0,
+      "id": 29106082,
+      "score": 3,
+      "text": "Hey HN! Vlad here with Sergey, Ildar, and Kirill. We are building Jitsu, an open-source Segment alternative (<a href=\"https:&#x2F;&#x2F;github.com&#x2F;jitsucom&#x2F;jitsu\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;jitsucom&#x2F;jitsu</a>, <a href=\"https:&#x2F;&#x2F;jitsu.com&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;jitsu.com&#x2F;</a>). We help companies collect events from their apps, websites, and APIs and send them to databases.<p>I&#x27;ve been doing data engineering for more than ten years (half of that time, I didn&#x27;t know that it&#x27;s called &quot;data engineering”). Before Jitsu, I was a co-founder and CTO of GetIntent, an ad-tech startup. Although it was ad-tech (I&#x27;m sorry for that!), we also built a quite fascinating technology platform. We processed up to 1 million events per second at peak, and all those events needed to be stored somewhere.<p>We churned through a few data warehouse platforms along the way. In 2013, we started with Hadoop&#x27;s HDFS and a bunch of map-reduce jobs on top of it. Then, when we decided to allow our customers to run ad-hoc reports, we switched to BigQuery. BigQuery was great, but expensive—especially with some customers obsessively clicking the refresh button. Finally, in 2017 we migrated to self-hosted ClickHouse which in my opinion is still the best analytics database in the world.<p>All that time, we spent a fair amount of effort to get data to the database. When you&#x27;re dealing with millions of events per minute, running an INSERT statement per event won&#x27;t work. What if the DB is down for maintenance? How can you be sure that all 50+ edge nodes are aware of recent DB schema changes? Also, did you know streaming data to BigQuery is costly while batching data is free?<p>We tried different approaches: first, we would write local log files, sync them to HDFS, and load data to BQ (or ClickHouse) with map-reduce jobs. To improve data freshness, we ditched HDFS and started to send data in batches to the DB directly from edge servers. We experimented with Kafka, but it felt too complex for that task at the time.<p>I always dreamed about a straightforward service, to which I&#x27;d throw JSON objects, and it would take care of the rest: queueing, retrying, updating database schema, etc.<p>Then I discovered Segment. I liked it at first. It seemed very developer-friendly with a nice API and excellent documentation. But the pricing model and data delays (the event gets to DB in 12 hours after it has been sent to Segment) killed the whole idea. And it was not open-sourced. In my opinion, being open-source and self-hostable is a must for such a fundamental part of the architecture as data collection.<p>I left GetIntent and got accepted to YC with a different idea for the Summer 2020 batch. The idea was to build a churn prevention and BI tool for online retailers. It didn&#x27;t take off, but in the process we made a component to collect customer&#x27;s app events and put it to DB. We tried to hack a solution on top of the ELK stack, but I was frustrated with ElasticSearch’s lack of SQL support.  Here I was back to square one: there&#x27;s no good open-source event collection service yet, and we needed to build one, once again.<p>So we decided to focus solely on that problem. We ditched all the previous code, which was in Java, rewrote the data collection server in Go and hacked together what we called EventNative [1]. It was received very well, and we started to get users.<p>Over the last 11 months, we&#x27;ve been busy building the UI, adding Connectors (to pull data from external APIs), polishing data warehouse support, adding javascript support to transform incoming data, and implementing dozens of other features.<p>Now we&#x27;re launching Jitsu, an open-source Segment alternative. With Jitsu, we make it easy to collect data and send it to databases (we support all major players: ClickHouse, Redshift, Snowflake, BigQuery and Postgres). We’re deployed in production, including into a large gaming publisher, eSignature service, and many other great companies.  We&#x27;re going for an open-core model. So far we don&#x27;t have paid features, but soon we&#x27;ll have some, presumably around things like authorization and data masking. Also we run Jitsu.Cloud[2] which you can buy if you don’t want to self-host<p>Give it a spin: <a href=\"https:&#x2F;&#x2F;github.com&#x2F;jitsucom&#x2F;jitsu\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;jitsucom&#x2F;jitsu</a>.<p>Thank you for reading this story - I hope it was interesting. I would love to read your feedback on Jitsu and answer questions!<p>[1] <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=24120325\" rel=\"nofollow\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=24120325</a>\n[2] <a href=\"https:&#x2F;&#x2F;cloud.jitsu.com\" rel=\"nofollow\">https:&#x2F;&#x2F;cloud.jitsu.com</a>",
+      "time": 1636027652,
+      "title": "Launch HN: Jitsu (YC S20) – Open-Source Segment Alternative",
+      "type": "story"
+    },
+    {
       "by": "finite_jest",
       "descendants": 0,
       "id": 29106064,
@@ -69,39 +99,6 @@
       "title": "Carpenter vs. United States: cell phone users retained Fourth Amendment rights",
       "type": "story",
       "url": "https://www.lawfareblog.com/impact-carpenter-v-united-states-lower-courts-and-emerging-carpenter-test"
-    },
-    {
-      "by": "jensneuse",
-      "descendants": 0,
-      "id": 29105962,
-      "score": 1,
-      "time": 1636026867,
-      "title": "API Management does too little, Back end as a Service does too much",
-      "type": "story",
-      "url": "https://wundergraph.com/blog/api_management_does_too_little_backend_as_a_service_does_too_much"
-    },
-    {
-      "by": "tima101",
-      "descendants": 0,
-      "id": 29105955,
-      "score": 1,
-      "time": 1636026812,
-      "title": "We're witnessing one of the biggest labor movements in recent history",
-      "type": "story",
-      "url": "https://old.reddit.com/r/antiwork/comments/qm1ztf/were_witnessing_one_of_the_biggest_labor/"
-    },
-    {
-      "by": "markusw",
-      "descendants": 1,
-      "id": 29105936,
-      "kids": [
-        29105937
-      ],
-      "score": 2,
-      "time": 1636026735,
-      "title": "Show HN: Build Cloud Apps in Go online course",
-      "type": "story",
-      "url": "https://www.golang.dk/courses/build-cloud-apps-in-go"
     }
   ]
 }
