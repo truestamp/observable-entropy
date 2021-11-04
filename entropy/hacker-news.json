@@ -1,10 +1,30 @@
 {
   "stories": [
     {
+      "by": "SimonLH",
+      "descendants": 0,
+      "id": 29104079,
+      "score": 1,
+      "time": 1636007338,
+      "title": "We trained an AI on 100K tweets and can now predict how your tweet will do",
+      "type": "story",
+      "url": "https://feedhive.io/"
+    },
+    {
+      "by": "Svip",
+      "descendants": 0,
+      "id": 29104078,
+      "score": 1,
+      "time": 1636007318,
+      "title": "Why Facebook Is More Worried About Europe Than the U.S.",
+      "type": "story",
+      "url": "https://www.politico.com/news/agenda/2021/11/02/facebook-europe-privacy-content-laws-518514"
+    },
+    {
       "by": "todsacerdoti",
       "descendants": 0,
       "id": 29104047,
-      "score": 4,
+      "score": 8,
       "time": 1636006898,
       "title": "An oral history of Bank Python",
       "type": "story",
@@ -21,16 +41,6 @@
       "url": "https://www.nature.com/articles/s41598-021-00285-8"
     },
     {
-      "by": "SimonLH",
-      "descendants": 0,
-      "id": 29104024,
-      "score": 1,
-      "text": "Hi here<p>I&#x27;m Simon, founder of FeedHive.<p>We launched our product in public beta 8 months ago. In this period, our users have used FeedHive to publish more than 100,000 posts to Twitter, LinkedIn, Instagram, and Facebook.<p>We&#x27;ve been using AI for idea generation for a while, but recently, we decided to up the game!<p>Sitting on more than 100,000 posts - including private metrics such as impressions, number of profile clicks, link clicks, details expands, etc we realized it was the perfect opportunity to start using this data to train an AI model.<p>The AI model that we ended up with, can predict how well your post will perform in terms of engagement rate, and - according to one of our users - &quot;out of 4 posts, 3 scores were stunningly correct&quot;.<p>So - let me share some insights into how we did this.<p>The AI Engine.\nFirst of all, I think it&#x27;s worth mentioning, that no members of our team are specialized Machine Learning experts.<p>We used OpenAIs popular GPT-3 to create this solution. Their platform allows to perform a so-called fine-tuning on some of their engines. This basically means, that you take one of their models, provide it with training data and specialize it.<p>We used their Curie engine to create our fine-tuned model. This is not their most powerful model, yet, the results were surprisingly good!<p>Preparing the data.\nOpenAI made the process of fine-tuning a model incredibly easy. Huge kudos to the team, they really did a great job!<p>The hard part is preparing the training data and account for biased.<p>Accounts with a large following get more engagement, and their posts tend to reach further. Does that mean that everything they post is just better? No - we can&#x27;t make any such assumption.<p>So in order to account for this, we chose to use engagement rate as our metric for performance. That is, the number of total engagements (likes, replies, retweets, link clicks, profile clicks, ...etc) divided by the number of impressions&#x2F;views of the post.<p>Yet - this introduces another bias. Very small accounts now have an advantage. Say a profile with 10 followers gets 5 views and 1 like. That&#x27;s a 20% engagement rate, which would be unheard of for big accounts.<p>Thankfully, OpenAI allows you to do 10 full training sessions per month - free of charge - and they will even extend this upon request.<p>Needless to say, it took us quite a few rounds of experimenting to find a good balance between penalizing the score of certain accounts and giving a bonus to certain others, in order to make the training data as non-biased as possible.<p>(We&#x27;re constantly improving this still!).<p>Classification vs. Completion.\nSo - this part gets a little technical.<p>OpenAI offers different ways to use their powerful engines. When you look at a problem like this, your first intuitive thought might be that you should use classification. It seems like that&#x27;s what we&#x27;re doing, right?<p>Actually, we didn&#x27;t get good results with classification at all. Instead, completion seemed to work very well.<p>In a simplified version, we trained the Curie model to complete a prompt on a structure similar to:<p>Post: &quot;This is my best tweet&quot;\nScore:<p>And then have the completion being a single number between 0-9 indicating the prediction. The training data then consisted of 100,000 of these, where we had given each post the score from 0-9 based on our ranking system.<p>Deploying the model.\nAfter each training session, you can use your model by simply referencing it in an API request, so again - deploying the fine-tuned model and using it to serve real-time outputs has been made ridiculously easy by OpenAI.<p>Do you want to try? \nJust head over to https:&#x2F;&#x2F;feedhive.io and create a user!<p>I hope this can help and inspire someone else to get into AI and GPT-3. It is truly a game-changer.\nIf you have any questions, please feel free to ask.",
-      "time": 1636006668,
-      "title": "We trained AI on 100K tweets and can now predict how well your tweet will do",
-      "type": "story"
-    },
-    {
       "by": "rohithkp",
       "descendants": 0,
       "id": 29104000,
@@ -45,7 +55,7 @@
     },
     {
       "by": "geox",
-      "descendants": 2,
+      "descendants": 3,
       "id": 29103999,
       "kids": [
         29104039
@@ -98,16 +108,6 @@
       "title": "Yubico Authenticator App for Desktop and Mobile – Yubico",
       "type": "story",
       "url": "https://www.yubico.com/products/yubico-authenticator/#h-download-yubico-authenticator"
-    },
-    {
-      "by": "tehjoker",
-      "descendants": 0,
-      "id": 29103960,
-      "score": 2,
-      "time": 1636005329,
-      "title": "Widespread Coronavirus Infection Found in Iowa Deer, New Study Says",
-      "type": "story",
-      "url": "https://www.nytimes.com/2021/11/02/science/deer-covid-infection.html"
     }
   ]
 }
