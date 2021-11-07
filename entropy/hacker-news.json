@@ -1,6 +1,16 @@
 {
   "stories": [
     {
+      "by": "nikoloza",
+      "descendants": 0,
+      "id": 29136096,
+      "score": 1,
+      "text": "Hello HN, it’s Nika. I want to introduce you to our new startup, Symbols - a platform to create and maintain Design System and UIkit. Imagine it as a marketplace of Legos, as if Legos were app components, and you’d have to stick them to each other to build an app.<p>We’re a small team from Georgia making libraries that create an ecosystem of rapid-development tools in Javascript. Our job is to contribute to DOM rendering framework, CSS methodology, Design System, and UIkit.<p>Our platform consists of 3 steps:<p>1. Design System - defining your brand guidelines<p>2. UIKit - a marketplace of reusable UI components adjusting your design system<p>3. The Platform - to manage, test, and modify everything in a shared space<p>It covers:<p>- Syncing design and code processes<p>- Guidelines of making scalable and accessible UI<p>- UI automation and integrations<p>- Low-code environment and no-code online editor<p>Usually, it’s handled by teams hired by large companies. Small and mid-sized enterprises can’t afford such specialized grouping. This process involves the design, code, and synchronization, but we try to unify it in a single flow. We understand the complexity of creating and maintaining a Design System, CSS, and UIkit - it is time-consuming, high cost, and still challenging to get the desired result. Adjusting current frameworks is usually complex and takes one more layer of a learning curve, lack of reusability, scalability, and personalization.<p>On the other hand, we think the design system can’t be a single source if we define it in two different places  - design and code. When the Design System does not consider coding approaches, it makes systematization impossible. Suppose design tools are the space for its definition - how can we calculate proper measurements across devices, especially computable units (em, vw, etc.) in the Sketch, Figma, or XD?<p>So, we decided to deep dive to make the system that would bring it to the surface. We discovered a new way of a Design System that gets synchronized with CSS structure. We approach that by defining the same structure to both sides. We created the intermediary library to talk to both - design files and the DOM in JSON language.<p>We default our system to `em` units to make it more dynamic and scalable, meaning we can transform any component in size and space without breaking proportions (https:&#x2F;&#x2F;cln.sh&#x2F;lnhpvy). It sets up some guidelines that do not really limit and still give us infinite variations per se (https:&#x2F;&#x2F;scaling.symbols.app&#x2F;).<p>It will be affordable for everyone, including individual entrepreneurs and professionals. For us, documentation is for ones who want to dig deeper; for others, let’s make the process simple. It provides a testing environment for components to check them in different users’ preferences, including dark and light modes and responsive breakpoints. The platform also provides GUI to customize the Design System and components.<p>We have a monorepo setup, and each component has its own versioning, which can be imported individually or selectively. Your changes and saved components will bundle up in a single NPM package.<p>Simply enjoy the process of editing!<p>We have the first demo at the end of November. We’ll open our design system and components for invited users when we launch. Later - to everyone. You can check it out on GitHub, use it, and engage in discussions.<p>Meanwhile, we launched the waitlist campaign to get early stats about your needs and preferences; we’ll also use them for your customized invitation.<p>To get an invitation, sign up for the waitlist at https:&#x2F;&#x2F;go.symbo.ls&#x2F;signup.<p>More in-depth post on Medium: https:&#x2F;&#x2F;medium.symbols.blog&#x2F;symbols-of-single-source-4a90c56e13d1",
+      "time": 1636253343,
+      "title": "Symbols of Single Source",
+      "type": "story"
+    },
+    {
       "by": "wslh",
       "descendants": 0,
       "id": 29136083,
@@ -89,16 +99,6 @@
       "title": "Microsoft and Amazon employees have dedicated check-in desks at Seattle Airport",
       "type": "story",
       "url": "https://www.linkedin.com/posts/makoto1118_microsoft-amazon-activity-6862553914290663425-_uhw"
-    },
-    {
-      "by": "rhabarba",
-      "descendants": 0,
-      "id": 29135960,
-      "score": 1,
-      "time": 1636251903,
-      "title": "Bias Monitor Chrome Extension",
-      "type": "story",
-      "url": "https://github.com/Alex0Blackwell/bias-monitor"
     }
   ]
 }
