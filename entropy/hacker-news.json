@@ -1,6 +1,55 @@
 {
   "stories": [
     {
+      "by": "rbanffy",
+      "descendants": 0,
+      "id": 29142887,
+      "score": 1,
+      "time": 1636314927,
+      "title": "Intel pays VIA $125M for Centaur employees, but not the company itself",
+      "type": "story",
+      "url": "https://www.techspot.com/news/92104-intel-pays-125-million-centaur-employees-but-not.html"
+    },
+    {
+      "by": "littlethrowaway",
+      "descendants": 0,
+      "id": 29142884,
+      "score": 1,
+      "text": "Hi HN,<p>We have a small site we&#x27;re hosting on Linode. It&#x27;s a single app box, and a single db box. Thanks to datadog I noticed some occasional (random) slow requests. Digging into it revealed it was slow responses from the (MySQL) database eventually working out that it correlated <i>exactly</i> with disk latency spikes.<p>I then ran `iostat` in a loop to catch the slowdowns when it happened, and I can see `w_await` times of up to 2seconds at times!!.  After contacting support they moved a few of our noisiest neighbours away which has reduced the issue a lot.<p>My question is: Is this just <i>normal</i> in cloud&#x2F;shared infrastructure? Would moving to AWS (or similar) help <i>at all</i>? Maybe I should just forget about a handful (10-30) slow requests per week which are impacted by this (we have maybe 800K requests served by the app server a week, so it&#x27;s a tiny percentage). I just find it annoying that for some people they get 5-10second requests when it ought to be 200-300ms.<p>Any insights most welcome!",
+      "time": 1636314917,
+      "title": "Ask HN: Is occasional 100ms disk latency normal in shared hosting?",
+      "type": "story"
+    },
+    {
+      "by": "slmjkdbtl",
+      "descendants": 0,
+      "id": 29142868,
+      "score": 1,
+      "time": 1636314845,
+      "title": "Ask HN: How to keep a straight face when being funny?",
+      "type": "story"
+    },
+    {
+      "by": "lerno",
+      "descendants": 0,
+      "id": 29142861,
+      "score": 1,
+      "time": 1636314802,
+      "title": "When “making things easy” is bad (in language design)",
+      "type": "story",
+      "url": "https://c3.handmade.network/blog/p/8208-when_making_things_easy_is_bad"
+    },
+    {
+      "by": "zora_goron",
+      "descendants": 0,
+      "id": 29142847,
+      "score": 1,
+      "time": 1636314732,
+      "title": "Apple Hires Tesla’s Autopilot Software Director for Car Effort",
+      "type": "story",
+      "url": "https://www.bloomberg.com/news/articles/2021-11-05/apple-hires-tesla-s-autopilot-software-director-for-car-effort"
+    },
+    {
       "by": "prostoalex",
       "descendants": 0,
       "id": 29142833,
@@ -34,7 +83,7 @@
       "by": "bkohlmann",
       "descendants": 0,
       "id": 29142811,
-      "score": 1,
+      "score": 2,
       "time": 1636314498,
       "title": "America's Lost Boys and Me",
       "type": "story",
@@ -49,56 +98,6 @@
       "title": "Iraq's Prime Minister al-Khadimi survives drone attack",
       "type": "story",
       "url": "https://www.youtube.com/watch?v=s1Aw0SOI-vY"
-    },
-    {
-      "by": "GiorgioG",
-      "descendants": 0,
-      "id": 29142793,
-      "score": 1,
-      "time": 1636314435,
-      "title": "Intel Core i9-12900K vs. Ryzen 9 5900X and 5950X",
-      "type": "story",
-      "url": "https://www.tomshardware.com/news/intel-core-i9-12900k-vs-ryzen-9-5900x-5950x"
-    },
-    {
-      "by": "acqbu",
-      "descendants": 0,
-      "id": 29142775,
-      "score": 2,
-      "time": 1636314357,
-      "title": "Step aside FAANG, there's MANGA, MAGMA, muppets, mountains and more",
-      "type": "story",
-      "url": "https://seekingalpha.com/news/3760938-step-aside-faang-theres-manga-magma-muppets-mountains-and-more"
-    },
-    {
-      "by": "willswire",
-      "descendants": 0,
-      "id": 29142774,
-      "score": 1,
-      "time": 1636314355,
-      "title": "Can coiling a Ethernet cable negatively impact the signal?",
-      "type": "story",
-      "url": "https://superuser.com/questions/475934/can-a-huge-coiled-lan-cable-have-some-trouble-for-transmitting-a-signal/475951#475951"
-    },
-    {
-      "by": "e12e",
-      "descendants": 0,
-      "id": 29142772,
-      "score": 1,
-      "time": 1636314333,
-      "title": "Denoflare – Develop, Test, and Deploy Cloudflare Workers with Deno",
-      "type": "story",
-      "url": "https://denoflare.dev/"
-    },
-    {
-      "by": "polalavik",
-      "descendants": 0,
-      "id": 29142769,
-      "score": 1,
-      "text": "A little background: I&#x27;m an electrical engineer, which is a field that doesn&#x27;t really have a lot of remote opportunities - all the remote opportunities are in software and I&#x27;d really like to be able to access more remote opportunities in the future.<p>However, post-school, I&#x27;m finding I&#x27;m a really terrible learner without formal structure (school&#x2F;mentorship&#x2F;a job that forces you to learn).  I can&#x27;t keep up the motivation to get past a certain level. That level seems to be around where I know enough to build simple system, but would need an actual job to learn (or force me) to do things more professionally, polished, abstracted, and structured. I&#x27;ve done a lot of school (up to masters), so I don&#x27;t want to go back to school. What I&#x27;d really like is to just be thrown in over my head with solid patient mentorship. Is there some sort of site to connect with people to help them build things? I essentially want to trade my time + eagerness to learn (and learn how to do it professionally and correct) for some mentorship.<p>Willing to learn anything that has a lot of remote opportunities, but for some reason I am drawn to react + node js since it seems like a simple set of frameworks to learn to build a full &quot;thing&quot;.",
-      "time": 1636314290,
-      "title": "Ask HN: How to learn without a formal structure",
-      "type": "story"
     }
   ]
 }
