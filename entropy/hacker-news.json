@@ -1,9 +1,62 @@
 {
   "stories": [
     {
-      "by": "guerrilla",
+      "by": "baybal2",
       "descendants": 0,
+      "id": 29142967,
+      "score": 1,
+      "time": 1636315416,
+      "title": "DW Interview with German Chancellor Angela Merkel",
+      "type": "story",
+      "url": "https://www.youtube.com/watch?v=WMvoxx7XFuc"
+    },
+    {
+      "by": "okl",
+      "descendants": 0,
+      "id": 29142965,
+      "score": 1,
+      "time": 1636315408,
+      "title": "A worldwide database of hydrogen projects",
+      "type": "story",
+      "url": "https://www.iea.org/data-and-statistics/data-product/hydrogen-projects-database"
+    },
+    {
+      "by": "mmazzarolo",
+      "descendants": 0,
+      "id": 29142961,
+      "score": 1,
+      "time": 1636315385,
+      "title": "Speed up your TypeScript monorepo with esbuild",
+      "type": "story",
+      "url": "https://mmazzarolo.com/blog/2021-11-06-speed-up-your-typescript-monorepo-with-esbuild/"
+    },
+    {
+      "by": "dane-pgp",
+      "descendants": 0,
+      "id": 29142957,
+      "score": 2,
+      "time": 1636315351,
+      "title": "Julian Assange and fiancee claim they are being blocked from marrying",
+      "type": "story",
+      "url": "https://www.theguardian.com/media/2021/nov/07/julian-assange-fiancee-stella-moris-claim-marriage-blocked"
+    },
+    {
+      "by": "ingve",
+      "descendants": 0,
+      "id": 29142951,
+      "score": 1,
+      "time": 1636315306,
+      "title": "Explainer: Chipsets and Fabric",
+      "type": "story",
+      "url": "https://eclecticlight.co/2021/11/06/explainer-chipsets-and-fabric/"
+    },
+    {
+      "by": "guerrilla",
+      "descendants": 1,
       "id": 29142925,
+      "kids": [
+        29142958
+      ],
       "score": 1,
       "time": 1636315168,
       "title": "Understanding CPU Microarchitecture to Increase Performance (2020) [video]",
@@ -48,55 +101,6 @@
       "time": 1636315050,
       "title": "Ask HN: What new name should we use instead of 'Metaverse'?",
       "type": "story"
-    },
-    {
-      "by": "Anon84",
-      "descendants": 0,
-      "id": 29142899,
-      "score": 1,
-      "time": 1636314999,
-      "title": "Explore John Pierpont Morgan College",
-      "type": "story",
-      "url": "https://www.newyorker.com/humor/daily-shouts/explore-john-pierpont-morgan-college"
-    },
-    {
-      "by": "rbanffy",
-      "descendants": 0,
-      "id": 29142887,
-      "score": 2,
-      "time": 1636314927,
-      "title": "Intel pays VIA $125M for Centaur employees, but not the company itself",
-      "type": "story",
-      "url": "https://www.techspot.com/news/92104-intel-pays-125-million-centaur-employees-but-not.html"
-    },
-    {
-      "by": "littlethrowaway",
-      "descendants": 0,
-      "id": 29142884,
-      "score": 1,
-      "text": "Hi HN,<p>We have a small site we&#x27;re hosting on Linode. It&#x27;s a single app box, and a single db box. Thanks to datadog I noticed some occasional (random) slow requests. Digging into it revealed it was slow responses from the (MySQL) database eventually working out that it correlated <i>exactly</i> with disk latency spikes.<p>I then ran `iostat` in a loop to catch the slowdowns when it happened, and I can see `w_await` times of up to 2seconds at times!!.  After contacting support they moved a few of our noisiest neighbours away which has reduced the issue a lot.<p>My question is: Is this just <i>normal</i> in cloud&#x2F;shared infrastructure? Would moving to AWS (or similar) help <i>at all</i>? Maybe I should just forget about a handful (10-30) slow requests per week which are impacted by this (we have maybe 800K requests served by the app server a week, so it&#x27;s a tiny percentage). I just find it annoying that for some people they get 5-10second requests when it ought to be 200-300ms.<p>Any insights most welcome!",
-      "time": 1636314917,
-      "title": "Ask HN: Is occasional 100ms disk latency normal in shared hosting?",
-      "type": "story"
-    },
-    {
-      "by": "slmjkdbtl",
-      "descendants": 0,
-      "id": 29142868,
-      "score": 1,
-      "time": 1636314845,
-      "title": "Ask HN: How to keep a straight face when being funny?",
-      "type": "story"
-    },
-    {
-      "by": "lerno",
-      "descendants": 0,
-      "id": 29142861,
-      "score": 1,
-      "time": 1636314802,
-      "title": "When “making things easy” is bad (in language design)",
-      "type": "story",
-      "url": "https://c3.handmade.network/blog/p/8208-when_making_things_easy_is_bad"
     }
   ]
 }
