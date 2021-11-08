@@ -1,6 +1,36 @@
 {
   "stories": [
     {
+      "by": "todsacerdoti",
+      "descendants": 0,
+      "id": 29153355,
+      "score": 1,
+      "time": 1636400626,
+      "title": "Alpine: Considering LibreSSL as default OpenSSL provider again",
+      "type": "story",
+      "url": "https://gitlab.alpinelinux.org/alpine/tsc/-/issues/28"
+    },
+    {
+      "by": "spriha",
+      "descendants": 0,
+      "id": 29153346,
+      "score": 1,
+      "time": 1636400568,
+      "title": "Common Causes of Flaky Tests",
+      "type": "story",
+      "url": "https://www.flakybot.com/blog/five-causes-for-flaky-tests"
+    },
+    {
+      "by": "zapt02",
+      "descendants": 0,
+      "id": 29153342,
+      "score": 1,
+      "time": 1636400549,
+      "title": "Hours and counting without access being restored to social media accounts",
+      "type": "story",
+      "url": "https://twitter.com/Scott_Helme/status/1457724340519178243"
+    },
+    {
       "by": "stelza26",
       "descendants": 0,
       "id": 29153331,
@@ -14,7 +44,7 @@
       "by": "t4h4",
       "descendants": 0,
       "id": 29153330,
-      "score": 1,
+      "score": 2,
       "time": 1636400492,
       "title": "AMD Milan-X Scaling to 0.75GB of L3 Cache per Chip",
       "type": "story",
@@ -32,9 +62,12 @@
     },
     {
       "by": "bihla",
-      "descendants": 0,
+      "descendants": 1,
       "id": 29153300,
-      "score": 2,
+      "kids": [
+        29153341
+      ],
+      "score": 4,
       "text": "I run engineering at a small company, and we use a CI&#x2F;CD service to perform deployments. Our deployments are relatively simple, deploying only two programs. However, we deploy constantly and outages in our deployment pipeline are among the most costly issues we can run into.<p>We migrated away from Github Actions due to repeated outages. Now we are on CircleCi which–you guessed it–is down right now.<p>Is there a more reliable service? Our pipelines have been pretty set-and-forget, so the top priority is just consistency and reliability. Trying to evaluate service reliability based solely on company status pages seems unreliable because it depends on the reliability of the company&#x27;s own reporting, so I am not sure how to find the most reliable option.<p>What do you all do? Is there a better service out there? Do you maintain some kind of backup solution?",
       "time": 1636400355,
       "title": "Ask HN: Most reliable CI/CD service?",
@@ -69,36 +102,6 @@
       "title": "Red Eclipse: A free arena shooter featuring parkour",
       "type": "story",
       "url": "https://www.redeclipse.net/"
-    },
-    {
-      "by": "paulcarroty",
-      "descendants": 0,
-      "id": 29153263,
-      "score": 1,
-      "time": 1636400165,
-      "title": "Microsoft will now snitch on you at work like never before",
-      "type": "story",
-      "url": "https://www.zdnet.com/article/microsoft-will-now-snitch-on-you-at-work-like-never-before/"
-    },
-    {
-      "by": "giuliomagnifico",
-      "descendants": 0,
-      "id": 29153249,
-      "score": 1,
-      "time": 1636400078,
-      "title": "History of St. Louis style pizza",
-      "type": "story",
-      "url": "https://dfarq.homeip.net/history-of-st-louis-style-pizza/"
-    },
-    {
-      "by": "panoramas4good",
-      "descendants": 0,
-      "id": 29153232,
-      "score": 2,
-      "time": 1636399971,
-      "title": "The Billion Dollar Airline Routes",
-      "type": "story",
-      "url": "https://www.travelstatsman.com/05112018/the-billion-dollar-airline-routes/"
     }
   ]
 }
