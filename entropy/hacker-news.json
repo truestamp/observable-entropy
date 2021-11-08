@@ -1,10 +1,20 @@
 {
   "stories": [
     {
+      "by": "harvie",
+      "descendants": 0,
+      "id": 29147223,
+      "score": 1,
+      "text": "I have Xiaomi Redmi 8 and i&#x27;ve noticed strange activity in files matching following pattern:\n&#x2F;storage&#x2F;emulated&#x2F;0&#x2F;MIUI&#x2F;debug_log&#x2F;common&#x2F;tcpdump.pcap*\n(MIUI is proprietary GUI that ships exclusively with Xiaomi phones)<p>These are unencrypted pcap files which seem to be regulary rotated. Can be opened in wireshark and contain actual dumps of my personal traffic. (luckily most of it is TLS encrypted, but RNG in their kernel might be compromised as well...)<p>Is your phone doing this too?",
+      "time": 1636360577,
+      "title": "Xiaomi smartphones create TCPDUMP.PCAP files. Why?",
+      "type": "story"
+    },
+    {
       "by": "piotrgrudzien",
       "descendants": 0,
       "id": 29147190,
-      "score": 1,
+      "score": 2,
       "time": 1636360249,
       "title": "Firouzja (18 yo) wins FIDE Grand Swiss and reaches 2022 Candidates with Caruana",
       "type": "story",
@@ -14,7 +24,7 @@
       "by": "vasanthv",
       "descendants": 0,
       "id": 29147186,
-      "score": 1,
+      "score": 2,
       "time": 1636360221,
       "title": "Show HN: Yosup – An app to share your current status",
       "type": "story",
@@ -34,7 +44,7 @@
       "by": "MayurJBhatt",
       "descendants": 0,
       "id": 29147161,
-      "score": 1,
+      "score": 2,
       "time": 1636359975,
       "title": "Tesla shares fall after Elon Musk’s Twitter poll backs sell-off plan – Tesla",
       "type": "story",
@@ -42,8 +52,11 @@
     },
     {
       "by": "dr_linux",
-      "descendants": 0,
+      "descendants": 1,
       "id": 29147151,
+      "kids": [
+        29147208
+      ],
       "score": 1,
       "time": 1636359923,
       "title": "System76 Is Building Its Own Desktop Environment",
@@ -52,9 +65,12 @@
     },
     {
       "by": "hardmaru",
-      "descendants": 0,
+      "descendants": 1,
       "id": 29147128,
-      "score": 2,
+      "kids": [
+        29147214
+      ],
+      "score": 3,
       "time": 1636359712,
       "title": "What if Xi Jinping just isn't that competent?",
       "type": "story",
@@ -74,7 +90,7 @@
       "by": "Sami_Lehtinen",
       "descendants": 0,
       "id": 29147117,
-      "score": 2,
+      "score": 5,
       "time": 1636359576,
       "title": "MLAT order from Luxembourg for Signal user data",
       "type": "story",
@@ -84,21 +100,11 @@
       "by": "pabs3",
       "descendants": 0,
       "id": 29147092,
-      "score": 2,
+      "score": 3,
       "time": 1636359376,
       "title": "Countries attempt to block Signal Private Messenger App around the world",
       "type": "story",
       "url": "https://ooni.org/post/2021-how-signal-private-messenger-blocked-around-the-world/"
-    },
-    {
-      "by": "teddyh",
-      "descendants": 0,
-      "id": 29147087,
-      "score": 2,
-      "time": 1636359351,
-      "title": "I just want to run this one Python script",
-      "type": "story",
-      "url": "https://www.die-welt.net/2021/11/i-just-want-to-run-this-one-python-script/"
     }
   ]
 }
