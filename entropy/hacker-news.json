@@ -1,9 +1,32 @@
 {
   "stories": [
     {
-      "by": "2bor-2n",
+      "by": "samizdis",
       "descendants": 0,
+      "id": 29147456,
+      "score": 1,
+      "time": 1636362840,
+      "title": "Parents who track their children",
+      "type": "story",
+      "url": "https://www.bbc.com/worklife/article/20211105-the-parents-who-track-their-children"
+    },
+    {
+      "by": "guerrilla",
+      "descendants": 0,
+      "id": 29147452,
+      "score": 2,
+      "time": 1636362834,
+      "title": "A look at the die of the 8086 processor",
+      "type": "story",
+      "url": "http://www.righto.com/2020/06/a-look-at-die-of-8086-processor.html"
+    },
+    {
+      "by": "2bor-2n",
+      "descendants": 1,
       "id": 29147423,
+      "kids": [
+        29147441
+      ],
       "score": 1,
       "text": "I want to start working on some OSS projects as a JS developer to improve my skills and build connections that might become valuable for me in the future. I see a lot of companies nowadays looks if you have worked in OSS or not so it will also help me improve my resume.<p>Not sure how to start with it and which projects to pick. I am particularly want to work on React JS ecosystem. Anyone who can guide me how should I go with it?",
       "time": 1636362561,
@@ -22,9 +45,12 @@
     },
     {
       "by": "BerislavLopac",
-      "descendants": 0,
+      "descendants": 1,
       "id": 29147391,
-      "score": 1,
+      "kids": [
+        29147476
+      ],
+      "score": 2,
       "time": 1636362297,
       "title": "So what is “the metaverse,” exactly?",
       "type": "story",
@@ -44,7 +70,7 @@
       "by": "jonbaer",
       "descendants": 0,
       "id": 29147366,
-      "score": 1,
+      "score": 2,
       "time": 1636362028,
       "title": "Two of World’s Biggest Quantum Computers Made in China",
       "type": "story",
@@ -79,29 +105,6 @@
       "title": "Efficient Solar-Powered Website Tutorial",
       "type": "story",
       "url": "https://slc.is/#Efficient%20Solar-Powered%20Website"
-    },
-    {
-      "by": "DoreenMichele",
-      "descendants": 0,
-      "id": 29147226,
-      "score": 2,
-      "time": 1636360595,
-      "title": "Prussian Blue",
-      "type": "story",
-      "url": "https://en.wikipedia.org/wiki/Prussian_blue"
-    },
-    {
-      "by": "harvie",
-      "descendants": 1,
-      "id": 29147223,
-      "kids": [
-        29147302
-      ],
-      "score": 2,
-      "text": "I have Xiaomi Redmi 8 and i&#x27;ve noticed strange activity in files matching following pattern:<p>&#x2F;storage&#x2F;emulated&#x2F;0&#x2F;MIUI&#x2F;debug_log&#x2F;common&#x2F;tcpdump.pcap*<p>(MIUI is proprietary GUI that ships exclusively with Xiaomi phones)<p>These are unencrypted pcap files which seem to be regulary rotated. Can be opened in wireshark and contain actual dumps of my personal traffic.<p>(luckily most of it is TLS encrypted, but RNG in their kernel might be compromised as well...)<p>Is your phone doing this too?",
-      "time": 1636360577,
-      "title": "Xiaomi smartphones create TCPDUMP.PCAP files. Why?",
-      "type": "story"
     }
   ]
 }
