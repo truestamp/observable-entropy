@@ -1,6 +1,16 @@
 {
   "stories": [
     {
+      "by": "kirillrogovoy",
+      "descendants": 0,
+      "id": 29159192,
+      "score": 1,
+      "text": "TL;DR: Why isn&#x27;t VSCode the new Emacs?<p>VSCode is clearly a code editor. Emacs is used by many as an operating system &#x2F; UI framework &#x2F; app platform.<p>Emacs&#x27;s adepts have been using it for email, calendars, process management, taking notes, terminal GUI, coding (dah), and some even browse the web without leaving it.<p>I&#x27;ve been using Orgmode (+ org-roam) for a couple of years already and no other software can replace it for me.<p>I have huge respect for this almost 40 years old piece of technology and all the people keeping it alive and active. I love the hacker community around it.<p>All that said, I mostly hate using Emacs. It&#x27;s slow (I have i7 with 4 cores and 32Gb of RAM). Emacs Lisp drives me crazy. I constantly mis-press some weird key chord and enter a state where I can&#x27;t do anything unless I restart the app. It&#x27;s hard for me to find docs on how to integrate with various parts of the UI, so I mostly rely on reading the source code of different extensions. Two years in, I still can&#x27;t read Emacs Lisp well.<p>I feel unproductive when changing how Emacs behaves. And I&#x27;ve been coding for 7+ years, including functional programming.<p>---<p>Now, I&#x27;ve been using VSCode for quite a while (after 4 years of Vim).<p>I&#x27;ve noticed that, on the surface, VSCode extensions can do everything Emacs does.<p>If you think about it, VSCode is a UI framework too — there&#x27;s an API for all the UI components such as the sidebar or the text editor area itself; and you can also add your custom commands that can be triggered in a number of ways.<p>Which means you can actually implement things like Orgmode in VSCode.<p>Also:\n- You are coding using the most popular ecosystem in the world (Web).\n- The community is larger than one of Emacs.\n- The docs are much friendlier.<p>---<p>From what I understand, the main difference is that with Emacs you can start hacking any part of the environment right from the start. It&#x27;s designed to be played with.<p>With VSCode, you just have a strictly defined JSON config file, and everything else requires you to work with &quot;extensions&quot; which sounds like something less accessible and &quot;oh, that sounds grand, I&#x27;m not sure how deep that rabbit hole is&quot;. You can&#x27;t just open a file, define a new hook or whatever and now your VSCode behaves differently.<p>But are there any other reasons, technical or otherwise, why people don&#x27;t seem to use VSCode for things beyond editing code?<p>If only you could open some special file, write some Typescript, and modify anything about VSCode in a dirty hacker manner, would you use it?",
+      "time": 1636447537,
+      "title": "Ask HN: Could VSCode be the new Emacs?",
+      "type": "story"
+    },
+    {
       "by": "sneak",
       "descendants": 0,
       "id": 29159146,
@@ -92,16 +102,6 @@
       "title": "Shin (Letter)",
       "type": "story",
       "url": "https://en.wikipedia.org/wiki/Shin_(letter)"
-    },
-    {
-      "by": "flyx",
-      "descendants": 0,
-      "id": 29158990,
-      "score": 9,
-      "time": 1636445235,
-      "title": "Audio Annotation by Datasaur",
-      "type": "story",
-      "url": "https://datasaur.ai/blog/posts/audio-launch"
     }
   ]
 }
