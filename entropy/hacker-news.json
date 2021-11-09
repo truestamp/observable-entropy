@@ -4,7 +4,7 @@
       "by": "dima55",
       "descendants": 0,
       "id": 29158746,
-      "score": 1,
+      "score": 2,
       "time": 1636442435,
       "title": "Mrcal 2.0: nicer dense stereo and uncertainty-aware triangulation",
       "type": "story",
@@ -25,7 +25,7 @@
       "descendants": 0,
       "id": 29158741,
       "score": 1,
-      "text": "I play (an old) &#x27;Mines&#x27; game from &#x27;SGT Puzzle Launcher&#x27; (https:&#x2F;&#x2F;launchpad.net&#x2F;sgt-launcher)<p>Often on exit it fails to exit all process, I have written a cleanup script which I launch from a launcher in my panel, I add;<p>kill -15 $(ps -ef |grep sgt-mines |head -n1 |awk &#x27;{print $2}&#x27;)<p>kill -15 $(ps -ef |grep sgt-launcher |head -n1 |awk &#x27;{print $2}&#x27;)<p>to my cleanup script, which also cleans up firefox, I added;<p>kill -15 $(ps -ef |grep firefox |head -n1 |awk &#x27;{print $2}&#x27;)<p>Which terminates the main firefox process, and all spawned child procs.<p>If the process is not running, it echoes; &#x27;bash: kill: (pid) - No such process&#x27; because the parsed &#x27;pid&#x27; is for the just exited grep.<p>Is there a better way?",
+      "text": "I play (an old) &#x27;Mines&#x27; game from &#x27;SGT Puzzle Launcher&#x27; (https:&#x2F;&#x2F;launchpad.net&#x2F;sgt-launcher)<p>Often on exit it fails to exit all process, I have written a bash cleanup script which I launch from a launcher in my panel, I add;<p>kill -15 $(ps -ef |grep sgt-mines |head -n1 |awk &#x27;{print $2}&#x27;)<p>kill -15 $(ps -ef |grep sgt-launcher |head -n1 |awk &#x27;{print $2}&#x27;)<p>to my cleanup script, which also cleans up firefox, I added;<p>kill -15 $(ps -ef |grep firefox |head -n1 |awk &#x27;{print $2}&#x27;)<p>Which terminates the main firefox process, and all spawned child procs.<p>If the process is not running, it echoes; &#x27;bash: kill: (pid) - No such process&#x27; because the parsed &#x27;pid&#x27; is for the just exited grep.<p>Is there a better way?",
       "time": 1636442409,
       "title": "Ask HN: Kill Process by Name – Scriptable",
       "type": "story"
