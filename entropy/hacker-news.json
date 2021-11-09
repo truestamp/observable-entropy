@@ -1,12 +1,65 @@
 {
   "stories": [
     {
-      "by": "guerrilla",
+      "by": "rognjen",
       "descendants": 0,
+      "id": 29166292,
+      "score": 1,
+      "time": 1636486259,
+      "title": "Two Ways of Doing Design",
+      "type": "story",
+      "url": "https://themarketplace.guide/two-ways-of-doing-design"
+    },
+    {
+      "by": "greatjack613",
+      "descendants": 0,
+      "id": 29166282,
+      "score": 1,
+      "time": 1636486224,
+      "title": "CMCSnipe – Crypto Sniper that buys tokens right before they are listed",
+      "type": "story",
+      "url": "https://cmcsnipe.com"
+    },
+    {
+      "by": "jayair",
+      "descendants": 0,
+      "id": 29166264,
+      "score": 1,
+      "time": 1636486129,
+      "title": "Build a full-stack serverless app with Vue.js and SST",
+      "type": "story",
+      "url": "https://serverless-stack.com/examples/how-to-create-a-vuejs-app-with-serverless.html"
+    },
+    {
+      "by": "alangibson",
+      "descendants": 0,
+      "id": 29166260,
+      "score": 2,
+      "time": 1636486108,
+      "title": "You.com Launches in Beta as a Privacy-Focused Search Alternative to Google",
+      "type": "story",
+      "url": "https://gizmodo.com/you-com-launches-in-beta-as-a-privacy-focused-search-al-1848023295"
+    },
+    {
+      "by": "ingve",
+      "descendants": 0,
+      "id": 29166243,
+      "score": 1,
+      "time": 1636486042,
+      "title": "Integer Comparison Macros",
+      "type": "story",
+      "url": "https://github.com/rcseacord/cmp_int"
+    },
+    {
+      "by": "guerrilla",
+      "descendants": 1,
       "id": 29166228,
+      "kids": [
+        29166251
+      ],
       "score": 1,
       "time": 1636485990,
-      "title": "Silicon Valley",
+      "title": "The Secret History of Silicon Valley [video] (2008)",
       "type": "story",
       "url": "https://www.youtube.com/watch?v=ZTC_RxWN_xo"
     },
@@ -34,7 +87,7 @@
       "by": "elorant",
       "descendants": 0,
       "id": 29166174,
-      "score": 1,
+      "score": 2,
       "time": 1636485716,
       "title": "Sodium Batteries May Power Your New Electric Car",
       "type": "story",
@@ -49,62 +102,6 @@
       "title": "Intel Hardware allows activation of test or debug logic at runtime",
       "type": "story",
       "url": "https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00528.html"
-    },
-    {
-      "by": "xo5vik",
-      "descendants": 0,
-      "id": 29166132,
-      "score": 1,
-      "time": 1636485533,
-      "title": "TransUNet: Transformers Make Strong Encoders for Medical Image Segmentation",
-      "type": "story",
-      "url": "https://arxiv.org/abs/2102.04306"
-    },
-    {
-      "by": "samizdis",
-      "descendants": 1,
-      "id": 29166116,
-      "kids": [
-        29166187
-      ],
-      "score": 2,
-      "time": 1636485463,
-      "title": "Stockholm's War on Interoperability",
-      "type": "story",
-      "url": "https://pluralistic.net/2021/11/09/skrota-skolplattformen/"
-    },
-    {
-      "by": "pkdpic",
-      "descendants": 1,
-      "id": 29166113,
-      "kids": [
-        29166231
-      ],
-      "score": 3,
-      "text": "I&#x27;m an artist &#x2F; dev, not sure what to make of NFT&#x27;s but after reading through a lot of this thread (https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=29159693) I feel like they&#x27;re problematic at best &#x2F; yet another boring pyramid scheme at worst.<p>In any case I&#x27;m just wondering if someone (hypothetically) hated NFT&#x27;s but wanted to make some art, what type of art would represent the polar opposite of an NFT?<p>Dumb question maybe but just a thought experiment.",
-      "time": 1636485451,
-      "title": "Ask HN: What's the Opposite of an NFT?",
-      "type": "story"
-    },
-    {
-      "by": "yuriizinets",
-      "descendants": 0,
-      "id": 29166064,
-      "score": 1,
-      "text": "Hello, community!  \nFirst of all, I&#x27;d like to mention that post is related to `kyoto` golang frontend library. You can find this project here: [https:&#x2F;&#x2F;github.com&#x2F;yuriizinets&#x2F;kyoto](https:&#x2F;&#x2F;github.com&#x2F;yuriizinets&#x2F;kyoto)<p>Not so long time ago, we&#x27;ve added feature to control UI while making server side action. As far as server side actions are making roundtrip to the server every time an action is triggered, there are cases when the page may not react immediately to a user event (like a click). So, we&#x27;ve provided a way to easily change `display` parameter during action call.<p>I&#x27;ll go straight to the demonstration, and then I&#x27;ll describe in details what&#x27;s going on.  \n[demo](https:&#x2F;&#x2F;user-images.githubusercontent.com&#x2F;17050536&#x2F;140986021-793d3a1e-6e1a-48e0-acc5-82080a4f1376.mp4)<p>First of all, we&#x27;re hiding loading element with `style=&quot;display: none;&quot;` (or with `hidden` class in case of Tailwind). It could be spinner, progress bar, whatever.  \nThen, we can control this display style while calling an action with `ssa:oncall.display`. Example:<p>```html\n&lt;div ssa:oncall.display=&quot;block&quot; style=&quot;display: none;&quot;&gt;\n...\n&lt;&#x2F;div&gt;\n```<p>Also, don&#x27;t forget that you can hide certain elements during action call with `ssa:oncall.dispay=&quot;none&quot;`.<p>That&#x27;s all!  \nOn action call ending display attribute will return to the initial state.",
-      "time": 1636485255,
-      "title": "Kyoto: Controlling component loading state using ssa:oncall.display attribute",
-      "type": "story"
-    },
-    {
-      "by": "RageoftheRobots",
-      "descendants": 0,
-      "id": 29166059,
-      "score": 1,
-      "time": 1636485226,
-      "title": "Sponge Cells Hint at Origins of Nervous System",
-      "type": "story",
-      "url": "https://www.scientificamerican.com/article/sponge-cells-hint-at-origins-of-nervous-system/"
     }
   ]
 }
