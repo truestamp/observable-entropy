@@ -1,10 +1,40 @@
 {
   "stories": [
     {
+      "by": "harambae",
+      "descendants": 0,
+      "id": 29164646,
+      "score": 1,
+      "time": 1636479381,
+      "title": "Fed Warns of Peril in Run-Up of Risky Asset Prices, Stablecoins",
+      "type": "story",
+      "url": "https://finance.yahoo.com/news/fed-warns-risky-asset-prices-210000547.html"
+    },
+    {
+      "by": "tosh",
+      "descendants": 0,
+      "id": 29164636,
+      "score": 1,
+      "time": 1636479310,
+      "title": "Influenza Virus Transmission Is Dependent on Humidity and Temperature (2007)",
+      "type": "story",
+      "url": "https://journals.plos.org/plospathogens/article?id=10.1371/journal.ppat.0030151"
+    },
+    {
+      "by": "CrankyBear",
+      "descendants": 0,
+      "id": 29164605,
+      "score": 2,
+      "time": 1636479122,
+      "title": "Thinking of upgrading your company’s tech gear? Now’s not the time",
+      "type": "story",
+      "url": "https://www.computerworld.com/article/3639830/thinking-of-upgrading-your-company-s-tech-gear-now-s-not-the-time.html"
+    },
+    {
       "by": "happy-go-lucky",
       "descendants": 0,
       "id": 29164586,
-      "score": 1,
+      "score": 3,
       "time": 1636479038,
       "title": "California is Planning to 'De-Mathematize Math'",
       "type": "story",
@@ -24,8 +54,8 @@
       "by": "jag729",
       "descendants": 0,
       "id": 29164556,
-      "score": 4,
-      "text": "Hi HN! We’re Jagath and Vignesh, co-founders of Gallery (usegallery.com). We provision on-demand pre-prod environments on your own cloud account so you can do manual QA, share feature previews with team members&#x2F;clients, and parallelize automated testing &amp; CI processes, all without bottlenecking on your staging environment.<p>Engineers typically have a fixed number of cloud environments, including production, staging, and maybe some additional pre-production environments. They use these to preview features, share work with other team members, do manual QA&#x2F;automated testing, and more. As the number of engineers grows, having a fixed number of cloud environments becomes a bottleneck. Teams end up queuing for access to staging and so on. Creating additional environments and keeping them in sync, though, is a major headache, especially when the environments are reasonably complex.<p>When this problem reaches a boiling point, there are only a few ways forward: teams either have to slow down feature development, test on production, or build out a more flexible environment management flow internally. That’s where we come in. We enable on-demand spinup of unlimited environments for quicker development. Engineers use these as environments-per-feature—in parallel—to share previews with QA&#x2F;other engineers&#x2F;product people, to create demo environments for clients with features that aren&#x27;t in production, to run automated testing on ephemeral environments as part of their CI processes, and more.<p>Vignesh and I are engineers with experience in infra&#x2F;research at Facebook&#x2F;Apple&#x2F;Microsoft. We met as roommates at Caltech. We got into YC with a very different idea (a way for stores to ask customers questions and offer instant recommendations&#x2F;promotions based on their responses) but soon abandoned it (it was more exciting to us as a technical challenge than to stores as a practical solution) and found ourselves testing out different ideas as quickly as we could.<p>During this period, right before every launch without fail, Vignesh and I would collide on staging: features that worked locally would break on prod infra. We tried to provision our own individual staging environments, but setting them up and keeping them in sync sucked up valuable bandwidth. The gold-standard workflow, in my mind, was the one-click “On-Demand” environment provisioning I’d had at Facebook, wherein I could click a button and instantiate a live feature preview. We found solutions that promised on-demand environment spin-up, but none of them worked for us; they were either incompatible with our stack (mostly built around App Engine), didn&#x27;t interface with our cloud provider, or required too much overhead and finessing to set up.<p>This was the seed for our idea. Talking to larger startups, we realized that the inconveniences we faced were just a few of the major pains faced by bigger engineering teams with nascent DevOps; they often had brittle, scattered workflows around managing their environments and growing queues for features. There seemed to be a need for a solution to flexibly create, destroy, and replicate environments, through both ad-hoc and developer triggers like PR’s and CI builds. While there are a number of existing services that aim to simplify devOps and&#x2F;or provide easier workflows around environments, engineering teams we spoke to were either unable or unwilling to use them due to incompatibility with their specific setups.<p>We realized that a better approach would be to abstract away the specifics of each environment by using infra-as-code as middleware. In a nutshell, infra-as-code solutions like Terraform, CloudFormation, etc. can represent infrastructure thoroughly in a standardized fashion. The majority of people we talked to were maintaining their infrastructure using Terraform or something similar, and it was easy to build out pipelines for those who didn&#x27;t by using Terraform under the hood. This was the key to what became Gallery.<p>Since every company manages their environments differently (cloud provider, use of K8s or infra-as-code, cloud-managed services, security&#x2F;privacy layers), creating a product that can work with them all out-of-the-box is a challenge. Unlike other solutions on the market, Gallery isn&#x27;t a Kubernetes orchestrator that replicates containerized environments; rather, we can represent entire cloud projects, including managed services (e.g. App Engine, Elastic Beanstalk, etc.), spin them up in sandboxed cloud projects, and automate their teardown as well.<p>To create cloud resources on your GCP&#x2F;AWS accounts, we use Terraform as a middleware. For select cloud services, we can understand an existing project, generate the Terraform corresponding to it, and use it to spin up your resources. We allow users to link their own Terraform code to allow spin-up of more complex environments as well. When you trigger the creation of a new environment, we spin up a worker that applies the Terraform template and performs any post-deploy actions to seed the newly generated infrastructure (for example, copying over initialization data into databases). We store your Terraform state file and manage tearing down environments when they outlive their TTL, or deletion is triggered by a specific action (e.g. merging a pull request).<p>Once we spin up infrastructure, we pull application code from your application repositories, and allow you to specify build and deployment commands that target the newly created environment. This lets you use your current deployment scripts on Gallery almost as-is, for fast and straightforward onboarding. We have integrations with Github&#x2F;Gitlab around the Pull Request&#x2F;Merge Request flow, letting you create environments that track a branch whenever a PR is created.<p>We&#x27;re a SaaS product, and we have pricing tiers based on the number of concurrent environments. We’ve prepared a live demo account that you can play around with as a read-only team member here: a.getgallery.co&#x2F;teams&#x2F;14. I&#x27;ve also prepared a demo video of how to set up ephemeral environments per-PR in just a couple of minutes (<a href=\"https:&#x2F;&#x2F;www.loom.com&#x2F;share&#x2F;26165ea69f0d4b7b974019bdf72e5d11\" rel=\"nofollow\">https:&#x2F;&#x2F;www.loom.com&#x2F;share&#x2F;26165ea69f0d4b7b974019bdf72e5d11</a>). You can see our docs here: docs.usegallery.com.<p>Thank you so much for reading! We’d love to hear your thoughts, ideas, and experiences around the problem we’re tackling and the solution we’re proposing.",
+      "score": 7,
+      "text": "Hi HN! We’re Jagath and Vignesh, co-founders of Gallery (usegallery.com). We provision on-demand pre-prod environments on your own cloud account so you can do manual QA, share feature previews with team members&#x2F;clients, and parallelize automated testing &amp; CI processes, all without bottlenecking on your staging environment.<p>Engineers typically have a fixed number of cloud environments, including production, staging, and maybe some additional pre-production environments. They use these to preview features, share work with other team members, do manual QA&#x2F;automated testing, and more. As the number of engineers grows, having a fixed number of cloud environments becomes a bottleneck. Teams end up queuing for access to staging and so on. Creating additional environments and keeping them in sync, though, is a major headache, especially when the environments are reasonably complex.<p>When this problem reaches a boiling point, teams either have to slow down feature development, test on production, or deal with building their own on-demand platform internally. That’s where we come in. We enable on-demand spinup of unlimited environments for quicker development. Engineers use these as environments-per-feature—in parallel—to share previews with QA&#x2F;other engineers&#x2F;product people, to create demo environments for clients with features that aren&#x27;t in production, to run automated testing on ephemeral environments as part of their CI processes, and more.<p>Vignesh and I are engineers with experience in infra&#x2F;research at Facebook&#x2F;Apple&#x2F;Microsoft. We met as roommates at Caltech. We got into YC with a very different idea (a way for stores to ask customers questions and offer instant recommendations&#x2F;promotions based on their responses) but soon abandoned it (it was more exciting to us as a technical challenge than to stores as a practical solution) and found ourselves testing out different ideas as quickly as we could.<p>During this period, right before every launch without fail, Vignesh and I would collide on staging: features that worked locally would break on prod infra. We tried to provision our own individual staging environments, but setting them up and keeping them in sync sucked up valuable bandwidth. The gold-standard workflow, in my mind, was the one-click “On-Demand” environment provisioning I’d had at Facebook, wherein I could click a button and instantiate a live feature preview. We found solutions that promised on-demand environment spin-up, but none of them worked for us; they were either incompatible with our stack (mostly built around App Engine), didn&#x27;t interface with our cloud provider, or required too much overhead and finessing to set up.<p>This was the seed for our idea. Talking to larger startups, we realized that the inconveniences we faced were just a few of the major pains faced by bigger engineering teams with nascent DevOps; they often had brittle, scattered workflows around managing their environments and growing queues for features. There seemed to be a need for a solution to flexibly create, destroy, and replicate environments, through both ad-hoc and developer triggers like PR’s and CI builds. While there are a number of existing services that aim to simplify devOps and&#x2F;or provide easier workflows around environments, engineering teams we spoke to were either unable or unwilling to use them due to incompatibility with their specific setups.<p>We realized that a better approach would be to abstract away the specifics of each environment by using infra-as-code as middleware. In a nutshell, infra-as-code solutions like Terraform, CloudFormation, etc. can represent infrastructure thoroughly in a standardized fashion. The majority of people we talked to were maintaining their infrastructure using Terraform or something similar, and it was easy to build out pipelines for those who didn&#x27;t by using Terraform under the hood. This was the key to what became Gallery.<p>Since every company manages their environments differently (cloud provider, use of K8s or infra-as-code, cloud-managed services, security&#x2F;privacy layers), creating a product that can work with them all out-of-the-box is a challenge. Unlike other solutions on the market, Gallery isn&#x27;t a Kubernetes orchestrator that replicates containerized environments; rather, we can represent entire cloud projects, including managed services (e.g. App Engine, Elastic Beanstalk, etc.), spin them up in sandboxed cloud projects, and automate their teardown as well.<p>To create cloud resources on your GCP&#x2F;AWS accounts, we use Terraform as a middleware. For select cloud services, we can understand an existing project, generate the Terraform corresponding to it, and use it to spin up your resources. We allow users to link their own Terraform code to allow spin-up of more complex environments as well. When you trigger the creation of a new environment, we spin up a worker that applies the Terraform template and performs any post-deploy actions to seed the newly generated infrastructure (for example, copying over initialization data into databases). We store your Terraform state file and manage tearing down environments when they outlive their TTL, or deletion is triggered by a specific action (e.g. merging a pull request).<p>Once we spin up infrastructure, we pull application code from your application repositories, and allow you to specify build and deployment commands that target the newly created environment. This lets you use your current deployment scripts on Gallery almost as-is, for fast and straightforward onboarding. We have integrations with Github&#x2F;Gitlab around the Pull Request&#x2F;Merge Request flow, letting you create environments that track a branch whenever a PR is created.<p>We&#x27;re a SaaS product, and we have pricing tiers based on the number of concurrent environments. We’ve prepared a live demo account that you can play around with as a read-only team member here: <a href=\"http:&#x2F;&#x2F;a.getgallery.co&#x2F;teams&#x2F;14\" rel=\"nofollow\">http:&#x2F;&#x2F;a.getgallery.co&#x2F;teams&#x2F;14</a>. I&#x27;ve also prepared a demo video of how to set up ephemeral environments per-PR in just a couple of minutes (<a href=\"https:&#x2F;&#x2F;www.loom.com&#x2F;share&#x2F;26165ea69f0d4b7b974019bdf72e5d11\" rel=\"nofollow\">https:&#x2F;&#x2F;www.loom.com&#x2F;share&#x2F;26165ea69f0d4b7b974019bdf72e5d11</a>). You can see our docs here: docs.usegallery.com.<p>Thank you so much for reading! We’d love to hear your thoughts, ideas, and experiences around the problem we’re tackling and the solution we’re proposing.",
       "time": 1636478904,
       "title": "Launch HN: Gallery (YC S21) – On-demand environments on any cloud provider",
       "type": "story"
@@ -44,7 +74,7 @@
       "by": "adamnemecek",
       "descendants": 0,
       "id": 29164516,
-      "score": 1,
+      "score": 2,
       "time": 1636478770,
       "title": "Nap Framework: Real-time control and visualization platform",
       "type": "story",
@@ -69,36 +99,6 @@
       "title": "What hardware powers GitHub Actions?",
       "type": "story",
       "url": "https://buildjet.com/for-github-actions/blog/what-hardware-powers-github-actions"
-    },
-    {
-      "by": "FarhadG",
-      "descendants": 0,
-      "id": 29164495,
-      "score": 1,
-      "time": 1636478674,
-      "title": "My Genius Roommate Changed My Perspective",
-      "type": "story",
-      "url": "https://www.farhadg.com/my-genius-roommate/"
-    },
-    {
-      "by": "batguano",
-      "descendants": 0,
-      "id": 29164476,
-      "score": 1,
-      "time": 1636478593,
-      "title": "Rolls-Royce plans to build small nuclear power plants in Britain",
-      "type": "story",
-      "url": "https://www.nytimes.com/2021/11/09/business/rolls-royce-nuclear-power-uk.html"
-    },
-    {
-      "by": "thebeardisred",
-      "descendants": 0,
-      "id": 29164460,
-      "score": 1,
-      "time": 1636478527,
-      "title": "International Blinking Pattern Interpretation (SFF-8489)",
-      "type": "story",
-      "url": "https://en.wikipedia.org/wiki/International_Blinking_Pattern_Interpretation"
     }
   ]
 }
