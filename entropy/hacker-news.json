@@ -1,6 +1,16 @@
 {
   "stories": [
     {
+      "by": "boyter",
+      "descendants": 0,
+      "id": 29157381,
+      "score": 2,
+      "time": 1636428515,
+      "title": "Quantum computers to run Sydney’s transport network",
+      "type": "story",
+      "url": "https://www.smh.com.au/national/nsw/quantum-computers-to-run-sydney-s-transport-network-20211107-p596r5.html"
+    },
+    {
       "by": "bane",
       "descendants": 0,
       "id": 29157364,
@@ -15,9 +25,9 @@
       "descendants": 0,
       "id": 29157358,
       "score": 1,
-      "text": "My system network DNS is set to 1.1.1.2,1.0.0.2  (cloudflare Malware filtered DNS)<p>I would like you thoughts on using a system hosts file (&#x2F;etc&#x2F;hosts) such as: https:&#x2F;&#x2F;github.com&#x2F;StevenBlack&#x2F;hosts<p>(Of course I append my existing hosts file to the head of the updated hosts file)<p>What are the pro &amp; cons?<p>I mainly use firefox with DNS over HTTPS enabled; (My ISP sells my DNS data to G00gle) and use:<p>https:&#x2F;&#x2F;security.cloudflare-dns.com&#x2F;dns-query (cloudflare Malware filtered DNS) for my DNS lookups<p>and &#x27;network.trr.bootstrapAddress&#x27; set to: 1.1.1.2 as fallback, with &#x27;network.trr.mode&#x27; set to &#x27;3&#x27; (only use DNS over HTTPS)<p>As using DNS over HTTPS negates system hosts lookup, I use uBlock-Origin: https:&#x2F;&#x2F;addons.mozilla.org&#x2F;en-US&#x2F;firefox&#x2F;addon&#x2F;ublock-origin&#x2F;<p>And import a host file combo from: https:&#x2F;&#x2F;github.com&#x2F;StevenBlack&#x2F;hosts into &#x27;Filter lists&#x27; of uBlock-Origin.<p>Thoughts?",
+      "text": "My system network DNS is set to 1.1.1.2,1.0.0.2  (cloudflare Malware filtered DNS)<p>I would like you thoughts on using a system hosts file (&#x2F;etc&#x2F;hosts) such as: https:&#x2F;&#x2F;github.com&#x2F;StevenBlack&#x2F;hosts<p>(Of course I append my existing hosts file to the head of the updated hosts file)<p>What are the pro &amp; cons?<p>I mainly use firefox with DNS over HTTPS enabled; (My ISP sells my DNS data to G00gle) and use:<p>https:&#x2F;&#x2F;security.cloudflare-dns.com&#x2F;dns-query (cloudflare Malware filtered DNS) for my DNS lookups<p>with &#x27;network.trr.bootstrapAddress&#x27; set to: 1.1.1.2 as fallback, and &#x27;network.trr.mode&#x27; set to &#x27;3&#x27; (only use DNS over HTTPS)<p>As using DNS over HTTPS negates system hosts lookup, I use uBlock-Origin: https:&#x2F;&#x2F;addons.mozilla.org&#x2F;en-US&#x2F;firefox&#x2F;addon&#x2F;ublock-origin&#x2F;<p>And import a host file combo from: https:&#x2F;&#x2F;github.com&#x2F;StevenBlack&#x2F;hosts into &#x27;Filter lists&#x27; of uBlock-Origin.<p>Thoughts?",
       "time": 1636428300,
-      "title": "Hosts File – Still Relevant?",
+      "title": "Ask HN: Hosts File – Still Relevant?",
       "type": "story"
     },
     {
@@ -34,7 +44,7 @@
       "by": "boyter",
       "descendants": 0,
       "id": 29157348,
-      "score": 2,
+      "score": 6,
       "time": 1636428173,
       "title": "AWS have added probably the worst CAPTCHA flow ever as a feature of AWS WAF",
       "type": "story",
@@ -42,8 +52,11 @@
     },
     {
       "by": "GaryTang",
-      "descendants": 0,
+      "descendants": 1,
       "id": 29157324,
+      "kids": [
+        29157371
+      ],
       "score": 2,
       "time": 1636427993,
       "title": "Biden's spending plan could cost up to $4T, Penn Wharton analysis shows",
@@ -93,16 +106,6 @@
       "time": 1636427282,
       "title": "Ask HN: Why do businesses need to find contractors/ freelancers?",
       "type": "story"
-    },
-    {
-      "by": "sohkamyung",
-      "descendants": 0,
-      "id": 29157259,
-      "score": 5,
-      "time": 1636427272,
-      "title": "Melbourne Train Control System is still running on a hardware “emulated” PDP11",
-      "type": "story",
-      "url": "https://mastodon.sdf.org/@dervishe/107242749336390295"
     }
   ]
 }
