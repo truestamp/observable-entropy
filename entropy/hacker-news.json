@@ -1,6 +1,45 @@
 {
   "stories": [
-    null,
+    {
+      "by": "EntICOnc",
+      "descendants": 0,
+      "id": 29158928,
+      "score": 1,
+      "time": 1636444525,
+      "title": "Building an Encyclopedia with React and Wikipedia Search API",
+      "type": "story",
+      "url": "https://blog.openreplay.com/building-an-encyclopedia-with-react-and-wikipedia-search-api/"
+    },
+    {
+      "by": "Pamar",
+      "descendants": 0,
+      "id": 29158926,
+      "score": 1,
+      "time": 1636444457,
+      "title": "Epic review of Magic Realm (1979 AH tabletop boardgame)",
+      "type": "story",
+      "url": "https://theanomaloushost.org/2018/03/23/magic-realm-1979-epic-review/"
+    },
+    {
+      "by": "jpalomaki",
+      "descendants": 0,
+      "id": 29158922,
+      "score": 2,
+      "time": 1636444387,
+      "title": "Rolls-Royce mini-nuclear power plant design gets UK state backing",
+      "type": "story",
+      "url": "https://www.ft.com/content/6592eb8e-92cb-4a22-84a9-85da81845d23"
+    },
+    {
+      "by": "rbanffy",
+      "descendants": 0,
+      "id": 29158914,
+      "score": 1,
+      "time": 1636444282,
+      "title": "The Ancient Origins of Consciousness",
+      "type": "story",
+      "url": "https://mitpress.mit.edu/books/ancient-origins-consciousness"
+    },
     {
       "by": "badafa",
       "descendants": 0,
@@ -58,41 +97,11 @@
       "by": "lifeofguenter",
       "descendants": 0,
       "id": 29158742,
-      "score": 2,
+      "score": 3,
       "time": 1636442422,
       "title": "AWS Global Accelerator is really fast and good",
       "type": "story",
       "url": "https://www.lifeofguenter.de/2021/11/fasters-dereferer-service-with-aws-global-accelerator.html"
-    },
-    {
-      "by": "News-Dog",
-      "descendants": 0,
-      "id": 29158741,
-      "score": 1,
-      "text": "I play (an old) &#x27;Mines&#x27; game from &#x27;SGT Puzzle Launcher&#x27; (https:&#x2F;&#x2F;launchpad.net&#x2F;sgt-launcher)<p>Often on exit it fails to exit all process, I have written a bash cleanup script which I launch from a launcher in my panel, I add;<p>kill -15 $(ps -ef |grep sgt-mines |head -n1 |awk &#x27;{print $2}&#x27;)<p>kill -15 $(ps -ef |grep sgt-launcher |head -n1 |awk &#x27;{print $2}&#x27;)<p>to my cleanup script, which also cleans up firefox, I added;<p>kill -15 $(ps -ef |grep firefox |head -n1 |awk &#x27;{print $2}&#x27;)<p>Which terminates the main firefox process, and all spawned child procs.<p>If the process is not running, it echoes; &#x27;bash: kill: (pid) - No such process&#x27; because the parsed &#x27;pid&#x27; is for the just exited grep.<p>Is there a better way?",
-      "time": 1636442409,
-      "title": "Ask HN: Kill Process by Name – Scriptable",
-      "type": "story"
-    },
-    {
-      "by": "kubagaj",
-      "descendants": 0,
-      "id": 29158710,
-      "score": 1,
-      "time": 1636442118,
-      "title": "Svelte vs. React: Ending the Debate",
-      "type": "story",
-      "url": "https://massivepixel.io/blog/svelte-vs-react/"
-    },
-    {
-      "by": "maguay",
-      "descendants": 0,
-      "id": 29158679,
-      "score": 1,
-      "time": 1636441869,
-      "title": "Write in Markdown. Use HTML for everything else",
-      "type": "story",
-      "url": "https://reproof.app/blog/when-html-over-markdown"
     }
   ]
 }
