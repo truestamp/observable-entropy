@@ -1,107 +1,113 @@
 {
   "stories": [
     {
+      "by": "_Microft",
+      "descendants": 0,
+      "id": 29165648,
+      "score": 1,
+      "time": 1636483586,
+      "title": "DIY Wunderwaffe",
+      "type": "story",
+      "url": "https://hackaday.com/2021/11/07/diy-wunderwaffe-and-others-make-up-this-open-source-arsenal/"
+    },
+    {
+      "by": "SkyMarshal",
+      "descendants": 0,
+      "id": 29165638,
+      "score": 1,
+      "time": 1636483537,
+      "title": "When industrial policy worked: The case of South Korea",
+      "type": "story",
+      "url": "https://voxeu.org/article/when-industrial-policy-worked-case-south-korea"
+    },
+    {
+      "by": "coscreen",
+      "descendants": 1,
+      "id": 29165630,
+      "kids": [
+        29165652
+      ],
+      "score": 1,
+      "time": 1636483492,
+      "title": "Coding interviews and how you are doing them wrong",
+      "type": "story",
+      "url": "https://www.coscreen.co/blog/you-are-interviewing-developers-all-wrong/"
+    },
+    {
+      "by": "KoftaBob",
+      "descendants": 0,
+      "id": 29165604,
+      "score": 2,
+      "time": 1636483414,
+      "title": "Amphetamines Used by a Physician to Lift Moods of Famous Patients (1972)",
+      "type": "story",
+      "url": "https://www.nytimes.com/1972/12/04/archives/amphetamines-used-by-a-physician-to-lift-moods-of-famous-patients.html"
+    },
+    {
+      "by": "richardsocher",
+      "descendants": 1,
+      "id": 29165601,
+      "kids": [
+        29165602
+      ],
+      "score": 1,
+      "time": 1636483399,
+      "title": "Show HN: You.com, private search engine that summarizes the web – built for devs",
+      "type": "story",
+      "url": "https://you.com/search?q=you.com&fromSearchBar=true"
+    },
+    {
+      "by": "throwawayapples",
+      "descendants": 0,
+      "id": 29165586,
+      "score": 1,
+      "text": "HN always seems pretty fast and is probably well designed from a data structure standpoint.<p>It seems that each comment and submissions are assigned a monotonically increasing number; do both submissions and comments share the same numeric space?<p>How is the content hierarchy stored? Is it a single large table with (for example) a structure that looks like <i>id</i>, <i>parentID</i>, <i>contenttype</i>, <i>content</i>?<p>Is data stored in an OLAP SQL database, on disk as flat files, in DBM files, etc?<p>What kind of performance is required? Is the database distributed across more than one machine?",
+      "time": 1636483355,
+      "title": "Ask HN: How is HN structured internally, especially database tables?",
+      "type": "story"
+    },
+    {
+      "by": "phillipcarter",
+      "descendants": 1,
+      "id": 29165577,
+      "kids": [
+        29165621
+      ],
+      "score": 3,
+      "time": 1636483329,
+      "title": "F# 6 is officially here",
+      "type": "story",
+      "url": "https://devblogs.microsoft.com/dotnet/fsharp-6-is-officially-here/"
+    },
+    {
+      "by": "giuliomagnifico",
+      "descendants": 0,
+      "id": 29165573,
+      "score": 2,
+      "time": 1636483304,
+      "title": "Whistleblower awarded $24M by NHTSA for exposing HyundaiKia engine security flaw",
+      "type": "story",
+      "url": "https://www.carscoops.com/2021/11/whistleblower-awarded-24-million-by-nhtsa-for-exposing-hyundai-and-kia-engine-flaw/"
+    },
+    {
+      "by": "deniswsrosa",
+      "descendants": 0,
+      "id": 29165572,
+      "score": 1,
+      "time": 1636483300,
+      "title": "The rise of Kubernetes and its impact on enterprise databases",
+      "type": "story",
+      "url": "https://venturebeat.com/2021/11/03/the-rise-of-kubernetes-and-its-impact-on-enterprise-databases/"
+    },
+    {
       "by": "_-david-_",
       "descendants": 0,
       "id": 29165565,
-      "score": 1,
+      "score": 2,
       "time": 1636483280,
       "title": "The U.S. Treasury is buying private app data to target and investigate people",
       "type": "story",
       "url": "https://theintercept.com/2021/11/04/treasury-surveillance-location-data-babel-street/"
-    },
-    {
-      "by": "guerrilla",
-      "descendants": 1,
-      "id": 29165536,
-      "kids": [
-        29165541
-      ],
-      "score": 2,
-      "time": 1636483087,
-      "title": "Historian Richard S. Tedlow on the Intel 386 (2009) [video]",
-      "type": "story",
-      "url": "https://www.youtube.com/watch?v=XFgFWdxHILc"
-    },
-    {
-      "by": "isaacimagine",
-      "descendants": 0,
-      "id": 29165519,
-      "score": 1,
-      "time": 1636483006,
-      "title": "The Waiting Time Paradox, Or, Why Is My Bus Always Late?",
-      "type": "story",
-      "url": "https://jakevdp.github.io/blog/2018/09/13/waiting-time-paradox/"
-    },
-    {
-      "by": "cyounkins",
-      "descendants": 0,
-      "id": 29165453,
-      "score": 14,
-      "time": 1636482740,
-      "title": "Jimmy Wales’ Final Email",
-      "type": "story",
-      "url": "https://cyounkins.medium.com/jimmy-wales-final-email-de36f39bfbbd"
-    },
-    {
-      "by": "ggoo",
-      "descendants": 0,
-      "id": 29165434,
-      "score": 1,
-      "time": 1636482682,
-      "title": "Vivian's TV Head Costume",
-      "type": "story",
-      "url": "https://rose.systems/tv_head/"
-    },
-    {
-      "by": "petermcneeley",
-      "descendants": 0,
-      "id": 29165416,
-      "score": 1,
-      "time": 1636482606,
-      "title": "Allegory of the Cave",
-      "type": "story",
-      "url": "https://en.wikipedia.org/wiki/Allegory_of_the_cave"
-    },
-    {
-      "by": "adrian_mrd",
-      "descendants": 0,
-      "id": 29165405,
-      "score": 1,
-      "time": 1636482568,
-      "title": "Justin Bieber to Perform Live Metaverse Concert on Wave",
-      "type": "story",
-      "url": "https://www.hollywoodreporter.com/business/digital/justin-bieber-virtual-concert-wave-1235044308/"
-    },
-    {
-      "by": "xo5vik",
-      "descendants": 0,
-      "id": 29165399,
-      "score": 1,
-      "time": 1636482544,
-      "title": "Vision Transformer",
-      "type": "story",
-      "url": "https://paperswithcode.com/method/vision-transformer"
-    },
-    {
-      "by": "wglb",
-      "descendants": 0,
-      "id": 29165388,
-      "score": 1,
-      "time": 1636482502,
-      "title": "A Canadian opens up about her secret wartime work",
-      "type": "story",
-      "url": "https://www.cbc.ca/news/politics/second-world-war-marjorie-stetson-japan-1.6239427"
-    },
-    {
-      "by": "azhenley",
-      "descendants": 0,
-      "id": 29165380,
-      "score": 1,
-      "time": 1636482480,
-      "title": "Paradox of the Perfect Code Editor",
-      "type": "story",
-      "url": "https://web.eecs.utk.edu/~azh/blog/perfecteditorparadox.html"
     }
   ]
 }
