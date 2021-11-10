@@ -1,6 +1,36 @@
 {
   "stories": [
     {
+      "by": "CrankyBear",
+      "descendants": 0,
+      "id": 29181181,
+      "score": 1,
+      "time": 1636580031,
+      "title": "Knative Serverless Kubernetes Is Off to a Bumpy Start",
+      "type": "story",
+      "url": "https://thenewstack.io/knative-serverless-kubernetes-is-off-to-a-bumpy-start/"
+    },
+    {
+      "by": "diamon",
+      "descendants": 0,
+      "id": 29181173,
+      "score": 1,
+      "text": "Helm uses [go templates](https:&#x2F;&#x2F;pkg.go.dev&#x2F;text&#x2F;template) to  render kubernetes manifests. Helm also provide [Sprig](http:&#x2F;&#x2F;masterminds.github.io&#x2F;sprig&#x2F;) libary for extends functionality.<p>In this blog post I&#x27;m going to show how you can use custom render. [Gomplate](https:&#x2F;&#x2F;gomplate.ca&#x2F;) is just example. You can use another tool if you would.<p>&gt; `gomplate` is a template renderer which supports a growing list of datasources, such as: JSON (_including EJSON - encrypted JSON_), YAML, AWS EC2 metadata, [BoltDB](https:&#x2F;&#x2F;pkg.go.dev&#x2F;go.etcd.io&#x2F;bbolt), [Hashicorp Consul](https:&#x2F;&#x2F;www.consul.io&#x2F;) and [Hashicorp Vault](https:&#x2F;&#x2F;www.vaultproject.io&#x2F;) secrets.<p>*Install tools*<p>I use helm v3.7.1 and gomplate v3.10.0 on macOS.<p>```console\n$ brew install helm\n$ brew install gomplate\n```<p>gomplate and helm use the same delimiters `{{` and `}}` for templating .<p>Of course you can use doble quotas. But I think this is a bad idea. Just reset delimeters for gomplate.<p>```console\nexport GOMPLATE_LEFT_DELIM=&quot;[[&quot;\nexport GOMPLATE_RIGHT_DELIM=&quot;]]&quot;\n```<p>*Testing*<p>```console\necho &#x27;Hello, [[ .Env.USER ]]&#x27; | gomplate\nHello, zhilyaev\n```<p>Looks great!<p>*Create helm chart*<p>```yaml\n# [[ defineDatasource &quot;foo&quot; &quot;https:&#x2F;&#x2F;httpbin.org&#x2F;get&quot; ]]  \n# [[ if not (datasourceReachable &quot;foo&quot;)]] unreachable [[end]]\n# [[ $d := ds &quot;foo&quot; ]]  \napiVersion: v1  \nkind: ConfigMap  \nmetadata:  \n  name: {{ include &quot;this.fullname&quot; . }}  \n  labels: {{ include &quot;this.labels&quot; . | nindent 4 }}  \ndata:  \n  random: &quot;[[ random.AlphaNum 32 ]]&quot;  \n  host: &quot;[[ $d.headers.Host ]]&quot;\n```<p>Helm has `--post-renderer` flag. It allows you pass manifest to another tool.<p>![how it works](https:&#x2F;&#x2F;habrastorage.org&#x2F;r&#x2F;w1560&#x2F;getpro&#x2F;habr&#x2F;upload_files&#x2F;719&#x2F;1f1&#x2F;2d5&#x2F;7191f12d53cfa88e6b639d0f5ba9fa76.png)<p>*Run*<p>```console\nhelm template this chart --post-renderer gomplate\n```<p>We will get it.<p>```yaml\n# Source: this&#x2F;templates&#x2F;configmap.yaml\n#\n# \n# \napiVersion: v1\nkind: ConfigMap\nmetadata:\n  name: this\n  labels:\n    helm.sh&#x2F;chart: this-0.1.0\n    app.kubernetes.io&#x2F;name: this\n    app.kubernetes.io&#x2F;instance: this\n    app.kubernetes.io&#x2F;version: &quot;1.16.0&quot;\n    app.kubernetes.io&#x2F;managed-by: Helm\ndata:\n  random: &quot;2tJyK9xSsg1gvEmunEokQf4lyGkvojiQ&quot;\n  host: &quot;httpbin.org&quot;\n```<p>*Deploy*<p>```\nhelm upgrade --install this chart --post-renderer gomplate\n```<p>*Profit*<p>*P.S.*<p>`--post-renderer` adds extra complexity to your work. Follow KISS you can try [helmwave](https:&#x2F;&#x2F;github.com&#x2F;helmwave&#x2F;helmwave). In it, we solve everyday problems when working with helm, without interfering with the functionality of charts.",
+      "time": 1636580000,
+      "title": "Helm and Gomplate",
+      "type": "story"
+    },
+    {
+      "by": "imaginationra",
+      "descendants": 0,
+      "id": 29181154,
+      "score": 1,
+      "time": 1636579917,
+      "title": "The interactive animated feature film- jump into a scene",
+      "type": "story",
+      "url": "https://mdotstrange.itch.io/m-doll"
+    },
+    {
       "by": "wiso",
       "descendants": 1,
       "id": 29181128,
@@ -75,36 +105,6 @@
       "title": "The first AI model that translates 100 languages without relying on English data",
       "type": "story",
       "url": "https://ai.facebook.com/blog/introducing-many-to-many-multilingual-machine-translation/"
-    },
-    {
-      "by": "damir",
-      "descendants": 0,
-      "id": 29181016,
-      "score": 1,
-      "time": 1636579330,
-      "title": "Tup – A file-based build system for Linux, OS X, and Windows",
-      "type": "story",
-      "url": "http://gittup.org/tup/"
-    },
-    {
-      "by": "hirundo",
-      "descendants": 0,
-      "id": 29181014,
-      "score": 1,
-      "time": 1636579325,
-      "title": "Why Is Inflation Bad?",
-      "type": "story",
-      "url": "https://www.econlib.org/why-is-inflation-bad/"
-    },
-    {
-      "by": "jakearmitage",
-      "descendants": 0,
-      "id": 29181002,
-      "score": 1,
-      "text": "Suddenly I had to deal with HTML and CSS and I was wondering what you guys are using in 2021. I could use Bootstrap, but I don&#x27;t need all that stuff. I just need a good grid.<p>Anything equivalent to 960.gs for 2021?",
-      "time": 1636579267,
-      "title": "Ask HN: What do you guys use for CSS grid in 2021?",
-      "type": "story"
     }
   ]
 }
