@@ -1,30 +1,66 @@
 {
   "stories": [
     {
+      "by": "perihelions",
+      "descendants": 0,
+      "id": 29176307,
+      "score": 1,
+      "time": 1636560655,
+      "title": "A Communist Leader Was Served Gold-Flecked Steak. The Video of It Has Vanished",
+      "type": "story",
+      "url": "https://www.nytimes.com/2021/11/10/world/asia/vietnam-communist-gold-steak-saltbae.html"
+    },
+    {
+      "by": "anarbadalov",
+      "descendants": 0,
+      "id": 29176298,
+      "score": 1,
+      "time": 1636560603,
+      "title": "Why Simplicity Works",
+      "type": "story",
+      "url": "https://aeon.co/essays/why-is-simplicity-so-unreasonably-effective-at-scientific-explanation"
+    },
+    {
+      "by": "InsideRoblox",
+      "descendants": 1,
+      "id": 29176295,
+      "kids": [
+        29176296
+      ],
+      "score": 2,
+      "time": 1636560574,
+      "title": "How Roblox Is Shaping the Forefront of Metaverse Research",
+      "type": "story",
+      "url": "https://corp.roblox.com/technology/"
+    },
+    {
+      "by": "rory_isAdonk",
+      "descendants": 1,
+      "id": 29176267,
+      "kids": [
+        29176290
+      ],
+      "score": 2,
+      "text": "If I build something can I show it off to them for additional funding?",
+      "time": 1636560448,
+      "title": "Ask HN: Does DARPA have a show and tell?",
+      "type": "story"
+    },
+    {
       "by": "TriNetra",
       "descendants": 0,
       "id": 29176235,
-      "score": 1,
+      "score": 2,
       "time": 1636560319,
       "title": "Show HN: Zero-Trust Security SDK for APIs on ASP.NET Core and ServiceStack",
       "type": "story",
       "url": "https://ASPSecurityKit.net/?v31"
     },
     {
-      "by": "kolsby",
-      "descendants": 0,
-      "id": 29176205,
-      "score": 1,
-      "time": 1636560226,
-      "title": "Show HN: I built a command line audio workstation",
-      "type": "story",
-      "url": "https://vimeo.com/642140307"
-    },
-    {
       "by": "kevinslin",
       "descendants": 0,
       "id": 29176158,
-      "score": 5,
+      "score": 7,
       "text": "Hi HN, I&#x27;m Kevin, the founder of Dendron (<a href=\"https:&#x2F;&#x2F;www.dendron.so\" rel=\"nofollow\">https:&#x2F;&#x2F;www.dendron.so</a>). Dendron is a local, open-source, markdown-based note-taking tool that helps developers work with notes like they do with code.<p>My background is in software engineering. Before Dendron, I worked at AWS for 5 years on systems that had grown more complicated than what any one person (or team) could hope to understand.\nAs someone who doesn&#x27;t have a great memory, I was always overwhelmed with technology and the constant flux in programming languages, frameworks, and techniques. I realized early on that I wouldn&#x27;t be able to keep everything in my head and so I wanted a better way of externalizing this information in a way that could help me find it again when needed.<p>The problem with externalizing information is that it becomes hard to find again later unless you&#x27;re diligent about maintaining a consistent structure. Search is a possible solution, but doesn&#x27;t work at the scale of personal data (too big to keep in one&#x27;s head but too small and too unstructured to effectively index). I tried all the note-taking tools and found that they too, to varying degrees, made it easy to get notes in, but hard to get specific information back out again—especially once the quantity of information grew beyond a certain threshold (eg. 1k notes).<p>Over a decade of experimenting, I found that the only times when I&#x27;ve been able to find information both consistently and quickly is when that information was well organized and well structured. Whether it&#x27;s a certain naming convention or a precise hierarchy, once information was indexed in a way that made sense in my head, I could find it again.  This led me to the structural approach that is now embedded in Dendron. I&#x27;ve been using it successfully myself to manage a personal corpus of over 30K notes.<p>Organizing notes doesn’t happen effortlessly or become unnecessary with note-taking tools. What’s different about Dendron is that we accept that organization is necessary and requires work — we give you the structure and the tooling to do it consistently.<p>Dendron is the combination of two things: (1) a structured superset of Markdown with a type system to map and enforce the consistency of your notes, and (2) tooling built on top of that structure - this is a growing set of commands and utilities that let users refactor, lookup, and share their knowledge. We borrow heavily from prior work in programming languages and developer tooling which help developers organize and reference millions of lines of code.<p>The main way that users interact with Dendron is as a VSCode plugin. When you start the plugin, Dendron starts a local server that indexes and processes commands from the plugin in a separate process. We have interactive graph views and a note preview which is powered by React and NextJS. These are the same components that go into our NextJS template which users can export to publish their notes.<p>Most of our users are developers. Their use cases include daily journals, keeping track of tasks, and implementing personal knowledge management systems. Many also take advantage of our publishing feature to share their notes on Github Pages and other platforms. Because notes are local, most of our users use Dendron for both personal notes and work. They keep their personal notes on a shared drive like Dropbox and work notes on their work computer. We also have enterprise customers that use Dendron to publish their content. For example, AWS uses Dendron to host a YC specific manual to new YC batches.<p>Currently, we have a Patreon-like model where supporters can contribute to get access to priority support, early builds and contributor-only chat. Next year, we are launching a teams offering, to give technical teams a better alternative to existing tools like Confluence and Notion.<p>Dendron is open source and self-hostable. The code is freely available in Github and can be installed on all VSCode compatible clients. You can get started by following the installation instructions here: <a href=\"https:&#x2F;&#x2F;wiki.dendron.so&#x2F;notes&#x2F;678c77d9-ef2c-4537-97b5-64556d6337f1&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;wiki.dendron.so&#x2F;notes&#x2F;678c77d9-ef2c-4537-97b5-64556d...</a>. We also offer a CLI that has a subset of the functionality available from the plugin, which is also open source.<p>Whether you&#x27;re just getting into note-taking or are a seasoned veteran who has tried all the tools, I would love to hear how you do knowledge management. If you do try Dendron, please let me know how we can make it better for you!  I&#x27;ll be responding to comments all day - you&#x27;re also free to email me directly at kevinlin@dendron.so or message me in our discord server (<a href=\"https:&#x2F;&#x2F;discord.gg&#x2F;AE3NRw9\" rel=\"nofollow\">https:&#x2F;&#x2F;discord.gg&#x2F;AE3NRw9</a>). Thanks for reading!",
       "time": 1636560034,
       "title": "Launch HN: Dendron (YC W21) – Structured note-taking for developers and teams",
@@ -54,7 +90,7 @@
       "by": "doener",
       "descendants": 0,
       "id": 29176128,
-      "score": 1,
+      "score": 2,
       "time": 1636559901,
       "title": "Potential security incident at Speedbone datacenter",
       "type": "story",
@@ -69,36 +105,6 @@
       "title": "Plant-based gummy candy helps vegans and vegetarians get their vitamins",
       "type": "story",
       "url": "https://phys.org/news/2021-11-plant-based-gummy-candy-vegans-vegetarians.html"
-    },
-    {
-      "by": "alexellisuk",
-      "descendants": 0,
-      "id": 29176110,
-      "score": 1,
-      "time": 1636559842,
-      "title": "Bullseye bonus: 1.5GHz to 1.8GHz Raspberry Pi 4",
-      "type": "story",
-      "url": "https://www.raspberrypi.com/news/bullseye-bonus-1-8ghz-raspberry-pi-4/"
-    },
-    {
-      "by": "alexellisuk",
-      "descendants": 0,
-      "id": 29176105,
-      "score": 1,
-      "time": 1636559825,
-      "title": "The Raspberry Pi Store Pops Up in London",
-      "type": "story",
-      "url": "https://www.raspberrypi.com/news/the-raspberry-pi-store-pops-up-in-london/"
-    },
-    {
-      "by": "j03b",
-      "descendants": 0,
-      "id": 29176082,
-      "score": 2,
-      "time": 1636559731,
-      "title": "Insights on the Meris Botnet (Cloudflare)",
-      "type": "story",
-      "url": "https://radar.cloudflare.com/notebooks/meris-botnet"
     }
   ]
 }
