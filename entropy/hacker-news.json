@@ -1,10 +1,30 @@
 {
   "stories": [
     {
+      "by": "rustoo",
+      "descendants": 0,
+      "id": 29186289,
+      "score": 1,
+      "time": 1636624451,
+      "title": "Scientists Optimize Intranasal Anti-Depressant Drug Delivery to the Brain",
+      "type": "story",
+      "url": "https://www.tus.ac.jp/en/mediarelations/archive/20211111_8305.html"
+    },
+    {
+      "by": "wk_end",
+      "descendants": 0,
+      "id": 29186283,
+      "score": 1,
+      "time": 1636624398,
+      "title": "Phantom Island",
+      "type": "story",
+      "url": "https://en.wikipedia.org/wiki/Phantom_island"
+    },
+    {
       "by": "Dentrax",
       "descendants": 0,
       "id": 29186252,
-      "score": 1,
+      "score": 2,
       "time": 1636623961,
       "title": "Hardening ELF Binaries Using Relocation Read-Only (Relro)",
       "type": "story",
@@ -79,29 +99,6 @@
       "title": "Chrome: Record, replay and measure user flows",
       "type": "story",
       "url": "https://developer.chrome.com/docs/devtools/recorder/"
-    },
-    {
-      "by": "daly",
-      "descendants": 0,
-      "id": 29186178,
-      "score": 1,
-      "text": "Transcendental numbers expand as a series of random, non-repeating digits (think Pi).<p>Assume Alice could find a new transcendental number between 0 and 1. (There are an infinite number of them).<p>Assume Alice and Bob know that number. This is their shared, private key. PRIVATE<p>To communicate, Alice creates a new transcendental number using the private key (for example by exponentiation, or some other offset method). This &quot;offset&quot; OFFSET is the public key.<p>To encode, Alice starts with the private key, creates a new transcendental number using some random offset. Call the new transcendental number PAD = f(PRIVATE, OFFSET). Alice uses PAD as a one-time pad to encrypt the message SECRET = (MESSAGE xor PAD)<p>Alice sends the pair (OFFSET,SECRET) to Bob.<p>Bob uses OFFSET to compute the PAD from PRIVATE. Then uses (SECRET xor PAD) to recover MESSAGE.<p>Transcendental numbers plus offset can generate an infinite set of one-time PADs.<p>Knowing (MESSAGE xor SECRET) recovers the PAD so this in insecure against a known plaintext attack. Knowing PAD then PRIVATE can be recovered. However, if Alice and Bob share a secret method of choosing a new PRIVATE after each communication then they can continue the scheme.<p>The key question is how to find transcendental numbers.",
-      "time": 1636623185,
-      "title": "Post-quantum crypto proposal using Transcendentals",
-      "type": "story"
-    },
-    {
-      "by": "greatgib",
-      "descendants": 1,
-      "id": 29186119,
-      "kids": [
-        29186127
-      ],
-      "score": 2,
-      "time": 1636622655,
-      "title": "Cargo cult programming is killing the software industry",
-      "type": "story",
-      "url": "https://hliyan.medium.com/cargo-cult-programming-is-killing-the-sri-lankan-software-industry-e5e9fc9a3ff9"
     }
   ]
 }
