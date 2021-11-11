@@ -1,110 +1,86 @@
 {
   "stories": [
+    null,
+    null,
     {
-      "by": "Amorymeltzer",
+      "by": "sebg",
       "descendants": 0,
-      "id": 29188476,
+      "id": 29188563,
       "score": 1,
-      "time": 1636642667,
-      "title": "Securing your digital life, part one: The basics",
+      "time": 1636643052,
+      "title": "An Introduction to Language Models in NLP (Part 1: Intuition)",
       "type": "story",
-      "url": "https://arstechnica.com/features/2021/10/securing-your-digital-life-part-1/"
+      "url": "https://www.surgehq.ai/blog/an-introduction-to-language-models-in-nlp-part-1-intuition"
     },
     {
-      "by": "koch",
+      "by": "gnufx",
       "descendants": 0,
-      "id": 29188474,
+      "id": 29188561,
       "score": 1,
-      "time": 1636642663,
-      "title": "Show HN: QR code designer – put arbitrary images in QR code pattern",
+      "time": 1636643041,
+      "title": "Assessing the Viability of an Open-Source Cheri Desktop Software Ecosystem",
       "type": "story",
-      "url": "https://sw.ink/create"
+      "url": "https://www.lightbluetouchpaper.org/2021/11/11/report-assessing-the-viability-of-an-open-source-cheri-desktop-software-ecosystem/"
     },
     {
-      "by": "morfly",
+      "by": "a_band",
       "descendants": 0,
-      "id": 29188450,
+      "id": 29188550,
       "score": 1,
-      "time": 1636642569,
-      "title": "Designing a scalable architecture of multi-module Jetpack Compose apps",
+      "time": 1636642988,
+      "title": "Show HN: I made a form builder that saves data in Google Sheets",
       "type": "story",
-      "url": "https://proandroiddev.com/navigating-through-multi-module-jetpack-compose-applications-6c9a31fa12b6?gi=c5336518cabe"
+      "url": "https://sheetmonkey.io/form-builder"
     },
     {
-      "by": "geerlingguy",
-      "descendants": 1,
-      "id": 29188428,
-      "kids": [
-        29188449
-      ],
-      "score": 2,
-      "time": 1636642441,
-      "title": "Starlink's new rectangular dish design [pdf]",
-      "type": "story",
-      "url": "https://api.starlink.com/public-files/StarlinkInstallGuide_Rectangular.pdf"
-    },
-    {
-      "by": "PretzelFisch",
+      "by": "kashishg",
       "descendants": 0,
-      "id": 29188418,
-      "score": 2,
-      "time": 1636642409,
-      "title": "How to build a second brain as a software developer",
-      "type": "story",
-      "url": "https://aseemthakar.com/how-to-build-a-second-brain-as-a-software-developer/"
-    },
-    {
-      "by": "dynm",
-      "descendants": 1,
-      "id": 29188407,
-      "kids": [
-        29188434
-      ],
+      "id": 29188544,
       "score": 1,
-      "time": 1636642364,
-      "title": "How Much Money Would You Need to Live on a Island for 1.5 Years and Kill Seals?",
-      "type": "story",
-      "url": "https://mattlakeman.org/2020/07/10/how-much-would-you-need-to-be-paid-to-live-on-a-deserted-island-for-1-5-years-and-do-nothing-but-kill-seals/"
-    },
-    {
-      "by": "arrayjumper",
-      "descendants": 0,
-      "id": 29188355,
-      "score": 2,
-      "text": "Hi HN, maybe it&#x27;s just the bubble I&#x27;m in but these days I see a lot of discussion around &quot;no-code&quot; and the &quot;no-code&quot; movement. There&#x27;s also a bunch of new no-code apps being launched every day - https:&#x2F;&#x2F;www.producthunt.com&#x2F;topics&#x2F;no-code#order=trending.<p>Some seem to supplement developers (eg: retool) and some empower non-engineers to be able to build websites&#x2F;apps&#x2F;integrations without necessarily having a developer in the loop (eg: shopify&#x2F;zapier&#x2F;airtable).<p>What do you think about this movement? Clearly these apps&#x2F;platforms enable non-developers to solve a bunch of problems which would otherwise need a software engineer. Is this a paradigm shift?",
-      "time": 1636642067,
-      "title": "Ask HN: What do you think about the no-code movement?",
+      "text": "Hey HN! Kashish, Tejas, and Josh here. We’re building Hightouch (<a href=\"https:&#x2F;&#x2F;www.hightouch.io&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;www.hightouch.io&#x2F;</a>), a reverse ETL platform— that is, software that gets your data back out of your data warehouse and into the SaaS tools that people at your company are familiar with (like Salesforce). We enable you to Bring Your Own (BYO) database so that all your SaaS tools run off of the same dataset. You specify what data you want and where, and we take care of the rest.<p>We were exposed to the data integration space as early engineers at Segment. Segment and other CDPs (Customer Data Platforms) were built on an older model that hits a wall once you reach a certain level of complexity. You don’t have access to your own data, there isn’t a great way to express business logic, and you don’t have flexibility to transform data to your needs.<p>Cloud-based data warehouses like Snowflake and tools like dbt solved part of this problem. Where Segment&#x2F;CDPs require you to store data in their format, warehouses let you store your data in any format. They let you store it in your own cloud for privacy and security. And where Segment&#x2F;CDPs only have event data, warehouses have all your data—things like a full replica of Salesforce data and a full replica of Postgres data.<p>The problem is, all this data tends to get stuck in the warehouse and only get used for reports and dashboards. In our experience, business teams don’t want another BI dashboard. They want their data in their primary tools—the SaaS applications where they spend their days—so they can use it to actually operate their business.<p>Because of this mismatch, a lot of engineers are doing busywork writing scripts to get data from warehouses into CRMs like Salesforce, Hubspot, Customer.io, and so on. Such scripts are brittle—they need changing when users request more columns, when an API changes, etc. And that’s only if the business people are lucky enough to get engineers’ time in the first place. There are also a lot of teams downloading CSVs and manually uploading them to various platforms because they can’t get their work in front of engineers who are busy with a hundred other priorities.<p>We decided to build something that would appeal to both sides: business people who know what they want from their data and just need access to it, and data engineers who want to help but can’t build and maintain every integration as the marketing team buys an endless number of SaaS tools. That’s how we came up with Hightouch.<p>Hightouch is a platform that makes it easy to take models and views from your warehouse and sync them into your SaaS apps, using only SQL to express your logic. Mapping between columns and application fields is done through a declarative UI. You write a SQL query to pull the data you need, map columns from that query to fields in your SaaS tool, and set how often you want data to sync. We handle the rest. See a demo here: <a href=\"https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=kDhHWG9hwj0\" rel=\"nofollow\">https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=kDhHWG9hwj0</a>.<p>No more hard-coding database columns to a Salesforce field in Python or Javascript, only to have a sales team ask for a ‘quick change’. We handle all the annoying complexities of moving data around: type-casting, error handling, authentication, retries, debugging, observability, notifications&#x2F;alerts, and changing APIs—freeing up your engineering time to work on problems specific to your business rather than syncing data into a CRM.<p>We’ve also built integrations we think data engineers will love. We integrate directly with dbt and dbt Cloud, we offer git sync for version control of your models and syncs, we have an Airflow operator, as well as a public API, and we’d love your ideas on what you think is missing.<p>Hightouch doesn’t store anything. We connect directly to your existing warehouse&#x2F;database and SaaS tools. As data changes in the warehouse, it changes in the SaaS tool. You get full control and your data is always owned by you.<p>Our customers use Hightouch to do things like: sending a feed of new leads and customers to Slack; syncing product usage data into CRMs like Hubspot and Salesforce; and\nsyncing user cohorts into marketing systems, such as all users who abandoned their shopping cart, or users with a high “churn risk” score.<p>We’ve grown from 4 people to almost 30 now, and work with amazing customers like CircleCI, Plaid, Retool, Ramp, Lucid Chart, Nando’s, Grafana, Kong, Autotrader, Blend, and Imperfect Foods. We’re also hiring—we have over 15 positions open at <a href=\"https:&#x2F;&#x2F;hightouch.io&#x2F;careers&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;hightouch.io&#x2F;careers&#x2F;</a>, and we would love to meet you and have you join the team.<p>We’d love to hear your thoughts, feedback and experiences on data warehouses, building integrations, ETL, workflow orchestration, and anything data related!",
+      "time": 1636642970,
+      "title": "Launch HN: Hightouch (YC S19) – Sync data from data warehouses to SaaS tools",
       "type": "story"
     },
     {
-      "by": "Ozzie_osman",
+      "by": "belter",
       "descendants": 0,
-      "id": 29188341,
+      "id": 29188540,
       "score": 1,
-      "time": 1636641968,
-      "title": "Fake Landlord Scam Destroys Lives in Detroit",
+      "time": 1636642961,
+      "title": "How to Tell If a Fender Stratocaster Is Real or Fake [video]",
       "type": "story",
-      "url": "https://www.nbcnews.com/news/us-news/fake-landlord-home-rental-scam-detroit-rcna4941"
+      "url": "https://www.youtube.com/watch?v=SnBxdbajP4w"
     },
     {
-      "by": "yankcrime",
+      "by": "saikatsg",
       "descendants": 0,
-      "id": 29188326,
-      "score": 2,
-      "time": 1636641910,
-      "title": "OpenBSD on the Framework Laptop",
+      "id": 29188517,
+      "score": 1,
+      "time": 1636642867,
+      "title": "Kotak Shiksha Nidhi Scholarship 2022",
       "type": "story",
-      "url": "https://jcs.org/2021/08/06/framework"
+      "url": "https://www.buddy4study.com/page/kotak-shiksha-nidhi"
     },
     {
-      "by": "pantuza",
+      "by": "robin_reala",
       "descendants": 0,
-      "id": 29188307,
+      "id": 29188516,
       "score": 1,
-      "time": 1636641799,
-      "title": "Kubernetes Universal Control Plane",
+      "time": 1636642858,
+      "title": "Sassy Mother Effing Text Shadow (2011)",
       "type": "story",
-      "url": "https://github.com/crossplane/crossplane"
+      "url": "https://sassymothereffingtextshadow.com/"
+    },
+    {
+      "by": "nojito",
+      "descendants": 0,
+      "id": 29188509,
+      "score": 1,
+      "time": 1636642847,
+      "title": "Bond ructions intensify risk of ‘downward spiral’ for Chinese property groups",
+      "type": "story",
+      "url": "https://www.ft.com/content/4dce1e1e-0517-4b96-8c62-65139401af31"
     }
   ]
 }
