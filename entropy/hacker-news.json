@@ -1,6 +1,36 @@
 {
   "stories": [
     {
+      "by": "_prx_",
+      "descendants": 0,
+      "id": 29197779,
+      "score": 1,
+      "time": 1636711173,
+      "title": "Issue 4 – OpenBSD Webzine",
+      "type": "story",
+      "url": "https://webzine.puffy.cafe/issue-4.html"
+    },
+    {
+      "by": "drimphgol",
+      "descendants": 0,
+      "id": 29197761,
+      "score": 2,
+      "time": 1636711012,
+      "title": "Incident Affecting Google Cloud Infrastructure Components",
+      "type": "story",
+      "url": "https://status.cloud.google.com/incidents/1xkAB1KmLrh5g3v9ZEZ7"
+    },
+    {
+      "by": "timdaub",
+      "descendants": 0,
+      "id": 29197752,
+      "score": 1,
+      "time": 1636710905,
+      "title": "On-Chain, the Emperor Wears No Clothes",
+      "type": "story",
+      "url": "https://timdaub.github.io/2021/10/21/on-chain-the-emperor-wears-no-clothes/"
+    },
+    {
       "by": "eccoses",
       "descendants": 0,
       "id": 29197747,
@@ -72,39 +102,6 @@
       "title": "Asp.net Minimal APIs Overview",
       "type": "story",
       "url": "https://docs.microsoft.com/en-us/aspnet/core/fundamentals/minimal-apis?view=aspnetcore-6.0"
-    },
-    {
-      "by": "dsego",
-      "descendants": 0,
-      "id": 29197693,
-      "score": 1,
-      "time": 1636710269,
-      "title": "Optical storage – the future of long term data preservation (2015) [pdf]",
-      "type": "story",
-      "url": "https://www.snia.org/sites/default/orig/DSI2015/presentations/ColdStorage/DougFerguson_Optical_Storage_Future%20Long_Term_Data.pdf"
-    },
-    {
-      "by": "wirecarder",
-      "descendants": 0,
-      "id": 29197668,
-      "score": 1,
-      "time": 1636709942,
-      "title": "Rödl and Partner – Wirecard-Untersuchungsausschuss [pdf]",
-      "type": "story",
-      "url": "https://www.handelsblatt.com/downloads/27790624/4/wambach-bericht-2021.pdf?ticket=ST-5333218-owiTlQPysaoXd54zFo79-cas01.example.org"
-    },
-    {
-      "by": "jbverschoor",
-      "descendants": 1,
-      "id": 29197667,
-      "kids": [
-        29197726
-      ],
-      "score": 1,
-      "text": "Lately I began noticing that sometimes I get really slow &#x2F; unsuable connections to google. When I change my DNS from cloudflare -&gt; google&#x27;s), it&#x27;s fast again. It seems that the IP<p>Has anybody experienced the same?<p>Right now I&#x27;m getting 142.250.102.113 vs 142.251.36.46<p>Also I get 142.250.102.147 as a response. Now, if I try out the IP addresses I sometimes get (using 3 different connections &#x2F; servers), I get:<p><pre><code>  curl -H &quot;Host: www.google.com&quot;  http:&#x2F;&#x2F;142.250.102.147\n  curl: (7) Failed to connect to 142.250.102.147 port 80: \n  Connection refused\n</code></pre>\nSame for https by the way.<p>Google seems to do evil things again...",
-      "time": 1636709940,
-      "title": "Google delaying Cloudflare DNS resolved requests?",
-      "type": "story"
     }
   ]
 }
