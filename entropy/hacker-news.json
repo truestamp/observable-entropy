@@ -1,6 +1,26 @@
 {
   "stories": [
     {
+      "by": "wirecarder",
+      "descendants": 0,
+      "id": 29197668,
+      "score": 1,
+      "time": 1636709942,
+      "title": "Rödl and Partner – Wirecard-Untersuchungsausschuss [pdf]",
+      "type": "story",
+      "url": "https://www.handelsblatt.com/downloads/27790624/4/wambach-bericht-2021.pdf?ticket=ST-5333218-owiTlQPysaoXd54zFo79-cas01.example.org"
+    },
+    {
+      "by": "jbverschoor",
+      "descendants": 0,
+      "id": 29197667,
+      "score": 1,
+      "text": "Lately I began noticing that sometimes I get really slow &#x2F; unsuable connections to google. When I change my DNS from cloudflare -&gt; google&#x27;s), it&#x27;s fast again. It seems that the IP<p>Has anybody experienced the same?<p>Right now I&#x27;m getting 142.250.102.113 vs 142.251.36.46<p>Also I get 142.250.102.147 as a response. Now, if I try out the IP addresses I sometimes get (using 3 different connections &#x2F; servers), I get:<p><pre><code>  curl -H &quot;Host: www.google.com&quot;  http:&#x2F;&#x2F;142.250.102.147\n  curl: (7) Failed to connect to 142.250.102.147 port 80: \n  Connection refused\n\n</code></pre>\nGoogle seems to do evil things again...",
+      "time": 1636709940,
+      "title": "Google delaying Cloudflare DNS resolved requests?",
+      "type": "story"
+    },
+    {
       "by": "mickelclark",
       "descendants": 0,
       "id": 29197637,
@@ -31,16 +51,6 @@
       "url": "https://ocistatus.oraclecloud.com"
     },
     {
-      "by": "wirecarder",
-      "descendants": 0,
-      "id": 29197615,
-      "score": 1,
-      "time": 1636709458,
-      "title": "Wirecard-Untersuchungsausschuss [pdf]",
-      "type": "story",
-      "url": "https://www.handelsblatt.com/downloads/27790624/4/wambach-bericht-2021.pdf?ticket=ST-5327450-Q3biGCZPqgb7Mmoi9FNQ-cas01.example.org"
-    },
-    {
       "by": "derlicht",
       "descendants": 1,
       "id": 29197608,
@@ -67,7 +77,7 @@
       "by": "TowerTall",
       "descendants": 0,
       "id": 29197598,
-      "score": 1,
+      "score": 2,
       "time": 1636709255,
       "title": "Chip shortage unlikely to ease until Texas Instruments ramps up output",
       "type": "story",
@@ -95,16 +105,6 @@
       "title": "Field-Programmable Gate Array",
       "type": "story",
       "url": "https://en.wikipedia.org/wiki/Field-programmable_gate_array"
-    },
-    {
-      "by": "ZeljkoS",
-      "descendants": 0,
-      "id": 29197541,
-      "score": 1,
-      "time": 1636708702,
-      "title": "Japanese giant Toshiba announces breakup plan",
-      "type": "story",
-      "url": "https://www.bbc.com/news/business-59229996"
     }
   ]
 }
