@@ -1,6 +1,16 @@
 {
   "stories": [
     {
+      "by": "dsego",
+      "descendants": 0,
+      "id": 29197693,
+      "score": 1,
+      "time": 1636710269,
+      "title": "Optical storage – the future of long term data preservation (2015) [pdf]",
+      "type": "story",
+      "url": "https://www.snia.org/sites/default/orig/DSI2015/presentations/ColdStorage/DougFerguson_Optical_Storage_Future%20Long_Term_Data.pdf"
+    },
+    {
       "by": "wirecarder",
       "descendants": 0,
       "id": 29197668,
@@ -15,7 +25,7 @@
       "descendants": 0,
       "id": 29197667,
       "score": 1,
-      "text": "Lately I began noticing that sometimes I get really slow &#x2F; unsuable connections to google. When I change my DNS from cloudflare -&gt; google&#x27;s), it&#x27;s fast again. It seems that the IP<p>Has anybody experienced the same?<p>Right now I&#x27;m getting 142.250.102.113 vs 142.251.36.46<p>Also I get 142.250.102.147 as a response. Now, if I try out the IP addresses I sometimes get (using 3 different connections &#x2F; servers), I get:<p><pre><code>  curl -H &quot;Host: www.google.com&quot;  http:&#x2F;&#x2F;142.250.102.147\n  curl: (7) Failed to connect to 142.250.102.147 port 80: \n  Connection refused\n\n</code></pre>\nGoogle seems to do evil things again...",
+      "text": "Lately I began noticing that sometimes I get really slow &#x2F; unsuable connections to google. When I change my DNS from cloudflare -&gt; google&#x27;s), it&#x27;s fast again. It seems that the IP<p>Has anybody experienced the same?<p>Right now I&#x27;m getting 142.250.102.113 vs 142.251.36.46<p>Also I get 142.250.102.147 as a response. Now, if I try out the IP addresses I sometimes get (using 3 different connections &#x2F; servers), I get:<p><pre><code>  curl -H &quot;Host: www.google.com&quot;  http:&#x2F;&#x2F;142.250.102.147\n  curl: (7) Failed to connect to 142.250.102.147 port 80: \n  Connection refused\n</code></pre>\nSame for https by the way.<p>Google seems to do evil things again...",
       "time": 1636709940,
       "title": "Google delaying Cloudflare DNS resolved requests?",
       "type": "story"
@@ -92,19 +102,6 @@
       "title": "Google Caught Hackers Using a Mac Zero-Day Against Hong Kong Users",
       "type": "story",
       "url": "https://www.vice.com/en/article/93bw8y/google-caught-hackers-using-a-mac-zero-day-against-hong-kong-users"
-    },
-    {
-      "by": "j03b",
-      "descendants": 0,
-      "id": 29197583,
-      "kids": [
-        29197589
-      ],
-      "score": 1,
-      "time": 1636709123,
-      "title": "Field-Programmable Gate Array",
-      "type": "story",
-      "url": "https://en.wikipedia.org/wiki/Field-programmable_gate_array"
     }
   ]
 }
