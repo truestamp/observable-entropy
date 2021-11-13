@@ -1,6 +1,16 @@
 {
   "stories": [
     {
+      "by": "benjaminwootton",
+      "descendants": 0,
+      "id": 29209730,
+      "score": 1,
+      "text": "We have been involved in a number of real time streaming projects using tools such as Flink, Spark Streams and Kafka Streams backed by &quot;real time&quot; databases such as Druid.<p>We always found these projects quite complex to develop and run, with stream processing in particular being a bit of a dark art.  A stream to stream join in Flink can get quite mind bending for instance.<p>In 2020 we had the idea of building a low code SaaS product for real time streaming analytics.  The first attempt failed due to being a little over-engineered and with too many changes of direction, but over the last few months we have been building this with a simpler architecture and leaning on Clickhouse more.<p>The SaaS is now live and we have a handful of customers in production and seeing the value.<p>I would love feedback on the idea from the HN community and suggestions where to take the product next from a community that are likely to understand the value proposition and be familiar with the alternatives.  Splunk is the main one that we get compared to so far.<p>Website - http:&#x2F;&#x2F;timeflow.systems\nWalkthrough - https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=x4-WEHPt5-E<p>A few blogs for our perspective and motivations:<p>Build Vs Buy - https:&#x2F;&#x2F;timeflow.systems&#x2F;build-vs-buy-for-real-time-event-streaming-platforms\nWhy Is Stream Processing Hard - https:&#x2F;&#x2F;timeflow.systems&#x2F;challenges-of-stream-processing-apps\nWhy Move To Real Time - https:&#x2F;&#x2F;timeflow.systems&#x2F;how-moving-from-batch-to-real-time-improves-the-customer-experience<p>Thanks!\nBen",
+      "time": 1636811888,
+      "title": "Show HN: Real Time Analytics SaaS",
+      "type": "story"
+    },
+    {
       "by": "max-m",
       "descendants": 0,
       "id": 29209707,
@@ -89,16 +99,6 @@
       "title": "File Persistence for Hosted Apps",
       "type": "story",
       "url": "https://blog.replit.com/replspace-filesystems"
-    },
-    {
-      "by": "manjana",
-      "descendants": 0,
-      "id": 29209653,
-      "score": 1,
-      "time": 1636811129,
-      "title": "Spring Initializr",
-      "type": "story",
-      "url": "https://start.spring.io/"
     }
   ]
 }
