@@ -1,6 +1,36 @@
 {
   "stories": [
     {
+      "by": "twobitshifter",
+      "descendants": 0,
+      "id": 29213796,
+      "score": 1,
+      "time": 1636843185,
+      "title": "Write Thin to Write Fast",
+      "type": "story",
+      "url": "https://breckyunits.com/"
+    },
+    {
+      "by": "abeam",
+      "descendants": 0,
+      "id": 29213794,
+      "score": 1,
+      "time": 1636843180,
+      "title": "A selfhosted communication app for your privacy",
+      "type": "story",
+      "url": "https://github.com/rolandosborne/IndiView"
+    },
+    {
+      "by": "defaultcompany",
+      "descendants": 0,
+      "id": 29213786,
+      "score": 1,
+      "text": "I would like a tool which takes code in a javascript project and generates markdown where the comments are taken as direct markdown and the code is wrapped in triple backticks. This would allow me to make a blog post from a javascript project without maintaining two separate files and updating the code in both.<p>For example if I have this in a javascript file:<p><pre><code>  &#x2F;*\n  # Tutorial Title\n\n  Welcome to the codebase tutorial.\n\n  ## Add Function\n\n  This function is used to add numbers. `1+2=3` is an example of some backquoted text.\n  *&#x2F;\n  function add(a,b) {\n    return a + b;\n  }\n\n  &#x2F;*\n  ## Subtract Function\n\n  This function is used to subtract! ***Use at your own risk***\n  *&#x2F;\n  function subtract(a,b) {\n    return a - b;\n  }\n</code></pre>\nI would like the resulting markdown to be:<p><pre><code>  # Tutorial Title\n\n  Welcome to the codebase tutorial.\n\n  ## Add Function\n\n  This function is used to add numbers. `1+2=3` is an example of some backquoted text.\n  ```\n  function add(a,b) {\n    return a + b;\n  }\n  ```\n\n  ## Subtract Function\n\n  This function is used to subtract! ***Use at your own risk***\n  ```\n  function subtract(a,b) {\n    return a - b;\n  }\n  ```\n</code></pre>\nDoes anyone know of a tool which will do this?",
+      "time": 1636843118,
+      "title": "Ask HN: Tool to convert JavaScript code comments into Markdown?",
+      "type": "story"
+    },
+    {
       "by": "tomohawk",
       "descendants": 0,
       "id": 29213751,
@@ -69,36 +99,6 @@
       "title": "Graphical Linear Algebra",
       "type": "story",
       "url": "https://graphicallinearalgebra.net/"
-    },
-    {
-      "by": "limbicsystem",
-      "descendants": 0,
-      "id": 29213698,
-      "score": 1,
-      "time": 1636842265,
-      "title": "Remotely Corrupt",
-      "type": "story",
-      "url": "https://backstory.substack.com/p/remotely-corrupt"
-    },
-    {
-      "by": "wheresvic4",
-      "descendants": 0,
-      "id": 29213666,
-      "score": 2,
-      "time": 1636841966,
-      "title": "Learn Anything Faster by Using the Feynman Technique",
-      "type": "story",
-      "url": "https://www.cantorsparadise.com/learn-anything-faster-by-using-the-feynman-technique-6565a9f7eda7?gi=fe17c51d7fca"
-    },
-    {
-      "by": "niedzielski",
-      "descendants": 0,
-      "id": 29213638,
-      "score": 4,
-      "time": 1636841568,
-      "title": "Git-Diff-Img with ImageMagick",
-      "type": "story",
-      "url": "https://github.com/niedzielski/git-diff-img"
     }
   ]
 }
