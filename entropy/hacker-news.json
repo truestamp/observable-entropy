@@ -3,6 +3,46 @@
     {
       "by": "pseudolus",
       "descendants": 0,
+      "id": 29206812,
+      "score": 1,
+      "time": 1636770228,
+      "title": "Inside The World of Foley Artists",
+      "type": "story",
+      "url": "https://www.theguardian.com/film/2021/nov/12/inside-the-world-of-foley-artists-watermelons-are-brilliant-for-the-sound-of-brains-hitting-the-floor"
+    },
+    {
+      "by": "gamechangr",
+      "descendants": 0,
+      "id": 29206805,
+      "score": 1,
+      "time": 1636770162,
+      "title": "Zillow could skew housing prices and push younger homebuyers out of market",
+      "type": "story",
+      "url": "https://www.usatoday.com/story/opinion/2021/11/03/house-prices-zillow-could-skew-market/6246437001/?gnt-cfr=1"
+    },
+    {
+      "by": "curmudgeon22",
+      "descendants": 0,
+      "id": 29206802,
+      "score": 1,
+      "time": 1636770138,
+      "title": "Snakebites and Covid-19: two crises, one research and development opportunity",
+      "type": "story",
+      "url": "https://gh.bmj.com/content/6/10/e006913"
+    },
+    {
+      "by": "gamechangr",
+      "descendants": 0,
+      "id": 29206796,
+      "score": 1,
+      "time": 1636770099,
+      "title": "Does Zillow's collapse signal the end of using algorithmic pricing?",
+      "type": "story",
+      "url": "https://www.thedenverchannel.com/news/local-news/does-zillows-collapse-signal-the-end-of-ibuying-or-a-lesson-for-others-using-algorithmic-pricing"
+    },
+    {
+      "by": "pseudolus",
+      "descendants": 0,
       "id": 29206783,
       "score": 1,
       "time": 1636769963,
@@ -59,46 +99,6 @@
       "title": "The truth about shoplifting in San Francisco",
       "type": "story",
       "url": "https://popular.info/p/the-truth-about-shoplifting-in-san"
-    },
-    {
-      "by": "throwawaysea",
-      "descendants": 0,
-      "id": 29206551,
-      "score": 1,
-      "time": 1636767771,
-      "title": "Amazon workers in New York withdraw petition to unionize",
-      "type": "story",
-      "url": "https://www.npr.org/2021/11/12/1055444780/amazon-workers-in-new-york-withdraw-petition-to-unionize"
-    },
-    {
-      "by": "01000101",
-      "descendants": 0,
-      "id": 29206547,
-      "score": 2,
-      "text": "Was looking for some feedback on a design for allowing user&#x27;s to bring their own &quot;data&quot;(storage):<p>Let&#x27;s assume I have a:<p>1. Static front end that displays a list of items, and also provides a detailed view of specific items.<p>2. OAuth Access Token Scoped for Read&#x2F;Write Access to Google Cloud Storage<p>3. A distributed CLI Agent(s):<p><pre><code>    3a. With Service Account Read&#x2F;Write Credentials of said User&#x27;s Google Cloud Storage \n\n    3b. Which generates detailed items a User would like to see in the Front End\n</code></pre>\nWithout getting into a crazy amount of details, I was wondering if it would be silly to try and use the distributed CLI Agent to roughly prepare the data and upload to Objects in the Google Cloud Storage account to match views in the front end, then have the front-end do some fine-tuning to ensure the items presented are properly sorted and de-duped?<p>If this is not that silly, because there could be multiple CLI agents running (and an agent should not run longer than a person watching would be able to tolerate), I&#x27;m wondering what could be some appropriate data structures to use, or processes to implement, if I did want to &quot;index&quot; or organize the data in GCP more formally, and not have the front end do it?<p>The data is not big data, and in total the whole list of items should not exceed the length of items a human would be able to reasonably process within a day of work. There may be duplicate items, the first time an item is recorded may be of note, and generally recent items are way more important than past items.",
-      "time": 1636767689,
-      "title": "Poor Man's NoSQL",
-      "type": "story"
-    },
-    {
-      "by": "solarkraft",
-      "descendants": 0,
-      "id": 29206543,
-      "score": 3,
-      "time": 1636767612,
-      "title": "Marques Brownlee (MKBHD) about YouTube's dislike count removal",
-      "type": "story",
-      "url": "https://www.youtube.com/watch?v=CaaJyRvvaq8"
-    },
-    {
-      "by": "baylearn",
-      "descendants": 0,
-      "id": 29206539,
-      "score": 3,
-      "time": 1636767599,
-      "title": "Chinese embassy lobbies U.S. business to oppose China bills",
-      "type": "story",
-      "url": "https://www.reuters.com/business/exclusive-chinese-embassy-lobbies-us-business-oppose-china-bills-sources-2021-11-12/"
     }
   ]
 }
