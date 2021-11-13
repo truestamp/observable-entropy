@@ -1,6 +1,16 @@
 {
   "stories": [
     {
+      "by": "easygenes",
+      "descendants": 0,
+      "id": 29208916,
+      "score": 1,
+      "text": "In the last week I have taken an interest in and done some research on the state of Single Board Computers (perhaps motivated by the release of the Raspberry Pi Zero 2 W).<p>It is striking to me that, while there are a plethora of different smartphone designs using ARM cores released in the last couple of years, the same cannot be said at all for SBCs.<p>The tendency there is for most designs to use SoCs which are based on Cortex A72 or Cortex A73 cores (or similar). These are now 5+ years old. What gives?<p>If you want an SBC with a recent ARM core there&#x27;s basically nothing out there. You can get the Snapdragon 888 developer kit for $1400, but that&#x27;s double what a base spec Snapdragon 888 based phone would cost! Or next year you might be able to get the Jetson AGX Orin with Cortex-A78 cores, but that one also packs a lot of GPU and NPU power and will surely be north of $1000 as well.<p>Why are there no SBCs using Cortex-A77 or newer and coming in below $400? The chips are out there and surely it is much easier to design an SBC than a smartphone. The closest thing I know of to what I am envisioning is the $400 Jetson Xavier NX, but it is on the very high end of the $200-400 price range I&#x27;m thinking of and is using an odd in-house-designed ARMv8.2A chip that is already a few years old.<p>I&#x27;m in the position where I think things like RasPi are great, but personally would like to play with something similar that has compute power close to a mid-range smartphone released the same year. I would be happy to pay around $300 and am sure there are plenty of people in a similar position.  So there is pent up demand, what is keeping this market hole empty?<p>I suppose, since Nvidia is getting closest to scratching this itch, my dream would be for them to finally properly open-source some mainline kernel graphics drivers (maybe contribute to Nouveau directly!) and to release a new Jetson board for about $250-350 based on Cortex-A78 next year. I suspect those would shock them with the sales figures.",
+      "time": 1636800590,
+      "title": "Ask HN: What Is Going on with SBCs?",
+      "type": "story"
+    },
+    {
       "by": "mfurkanyilmazzz",
       "descendants": 1,
       "id": 29208885,
@@ -47,7 +57,7 @@
       "by": "H8crilA",
       "descendants": 0,
       "id": 29208858,
-      "score": 2,
+      "score": 3,
       "time": 1636799600,
       "title": "John Lamping – The One Weird Trick for Analyzing Big Data (2016)",
       "type": "story",
@@ -57,7 +67,7 @@
       "by": "rustoo",
       "descendants": 0,
       "id": 29208807,
-      "score": 2,
+      "score": 3,
       "time": 1636798830,
       "title": "How the world’s militaries hide their huge carbon emissions",
       "type": "story",
@@ -92,16 +102,6 @@
       "time": 1636797908,
       "title": "Ask HN: Twitter accounts with the best signal/noise ratio?",
       "type": "story"
-    },
-    {
-      "by": "enigmatic02",
-      "descendants": 0,
-      "id": 29208723,
-      "score": 2,
-      "time": 1636797646,
-      "title": "Web3 Critiques, Analyzed",
-      "type": "story",
-      "url": "https://every.to/divinations/the-two-biggest-critiques-of-web3-analyzed"
     }
   ]
 }
