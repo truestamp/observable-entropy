@@ -1,6 +1,26 @@
 {
   "stories": [
     {
+      "by": "sewellstephens",
+      "descendants": 0,
+      "id": 29216873,
+      "score": 1,
+      "time": 1636893712,
+      "title": "Twayobiz is the most customizable file sharing service",
+      "type": "story",
+      "url": "https://www.twayobiz.com"
+    },
+    {
+      "by": "danieg",
+      "descendants": 0,
+      "id": 29216871,
+      "score": 1,
+      "time": 1636893690,
+      "title": "How a copier company invented modern computing; why you've never used a Xerox PC",
+      "type": "story",
+      "url": "https://dgross.ca/blog/xerox-parc/"
+    },
+    {
       "by": "jmsflknr",
       "descendants": 0,
       "id": 29216860,
@@ -34,8 +54,8 @@
       "by": "dankoncs",
       "descendants": 0,
       "id": 29216852,
-      "score": 1,
-      "text": "This would be my (possibly wrong) explanation:<p>So in Linux we have syscalls such as write, read, close, socket, ...\nThese syscalls are defined according to the POSIX standard. POSIX is basically a standard for operating systems. Linux&#x2F;Unix follow these standards.\nSo syscalls are an interface so that we can communicate with the OS. (Is it the application binary interface already?)<p>Now, we have the C standard library, so we don&#x27;t need to deal with syscalls (or specific OS stuff). The C standard library is basically an application programming interface (API).\nSo printf, fopen etc. map to write, open, etc. respectively:<p>printf ~ write<p>fopen ~ open<p>fclose ~ close<p>...<p>Then, apparently, we require a runtime environment (RTE). This runtime environment (is perhaps) the standard library that is a .so file (a shared object).\nShared objects are (perhaps) loaded by the OS to a specific memory location so that all C programs can access that .so file (which is now loaded in memory for all C executables to use.)\nSo that .so file is the &quot;RTE&quot; and the syscalls are the &quot;ABI&quot;?<p>If so, I find &quot;ABI&quot; and &quot;RTE&quot; confusing. Java has an RTE. You need the Java Virtual Machine (an abstract CPU essentially) to run your .class files within that virtual machine (JVM).<p>Again, I am unsure about this, so please go easy on me. Thank you!<p>PS: Why do people like Jason Turner say: &quot;break the ABI to save C++&quot;? So break the .so files for C++&#x27;s standard library? What for?",
+      "score": 2,
+      "text": "This would be my (possibly wrong) explanation:<p>So in Linux we have syscalls such as write, read, close, socket, ...\nThese syscalls are defined according to the POSIX standard. POSIX is basically a standard for operating systems. Linux&#x2F;Unix follow these standards.\nSo syscalls are an interface so that we can communicate with the OS. (Is it the application binary interface already?)<p>Now, we have the C standard library, so we don&#x27;t need to deal with syscalls (or specific OS stuff). The C standard library is basically an application programming interface (API).\nSo printf, fopen etc. map to write, open, etc. respectively:<p>printf ~ write<p>fopen ~ open<p>fclose ~ close<p>...<p>Then, apparently, we require a runtime environment (RTE). This runtime environment (is perhaps) the standard library that is a .so file (a shared object).\nShared objects are (perhaps) loaded by the OS to a specific memory location so that all C programs can access that .so file (which is now loaded in memory for all C executables to use.)\nSo that .so file is the &quot;RTE&quot; and the syscalls are the &quot;ABI&quot;?<p>If so, I find &quot;ABI&quot; and &quot;RTE&quot; confusing. Java has an RTE. You need the Java Virtual Machine (an abstract CPU essentially) to run your .class files within that virtual machine (JVM).<p>Again, I am unsure about this, so please go easy on me. Thank you!<p>PS: Why do people like Jason Turner say: &quot;break the ABI to save C++&quot;? So break the .so files for C++&#x27;s standard library? What for? (Shouldn&#x27;t it be: &quot;break C++&#x27;s RTE&quot;?)",
       "time": 1636893424,
       "title": "Ask HN: How would you explain an ABI?",
       "type": "story"
@@ -44,7 +64,7 @@
       "by": "hkc",
       "descendants": 0,
       "id": 29216835,
-      "score": 1,
+      "score": 2,
       "time": 1636893162,
       "title": "Red Herring",
       "type": "story",
@@ -82,26 +102,6 @@
       "title": "Cold and Warm Cultures",
       "type": "story",
       "url": "https://knowingless.com/2021/11/13/cold-and-warm-cultures/"
-    },
-    {
-      "by": "timdaub",
-      "descendants": 0,
-      "id": 29216825,
-      "score": 1,
-      "text": "I see Svelte and solidjs as two contenders in this field. But are there alternatives? Which frameworks directly compile code to the real DOM (as opposed to virtual DOM)?",
-      "time": 1636893013,
-      "title": "Ask HN: What SPA JavaScript frameworks exist that compile to real DOM?",
-      "type": "story"
-    },
-    {
-      "by": "wslh",
-      "descendants": 0,
-      "id": 29216821,
-      "score": 1,
-      "time": 1636892939,
-      "title": "101 Security findings from Ethereum smart contract audits",
-      "type": "story",
-      "url": "https://secureum.substack.com/p/audit-findings-101"
     }
   ]
 }
