@@ -1,6 +1,36 @@
 {
   "stories": [
     {
+      "by": "pseudolus",
+      "descendants": 0,
+      "id": 29216708,
+      "score": 1,
+      "time": 1636890897,
+      "title": "Low-frequency intermittent fasting prompts anti-inflammatory response",
+      "type": "story",
+      "url": "https://medicalxpress.com/news/2021-11-low-frequency-intermittent-fasting-prompts-anti-inflammatory.html"
+    },
+    {
+      "by": "plcancel",
+      "descendants": 0,
+      "id": 29216707,
+      "score": 1,
+      "time": 1636890818,
+      "title": "Unity just bought Weta Digital – yeah, the Lord of the Rings Peter Jackson one",
+      "type": "story",
+      "url": "https://cdm.link/2021/11/unity-just-bought-weta-digital-yeah-the-lord-of-the-rings-peter-jackson-one/"
+    },
+    {
+      "by": "seanbarry",
+      "descendants": 0,
+      "id": 29216701,
+      "score": 1,
+      "text": "Hi HN, looking for some advice please.<p>I currently work at a smallish scale-up. The company has ~100 ppl and the tech side of the company is ~40. There are 4 main teams within engineering with different responsibilities e.g. modelling, platforms, infrastructure etc<p>I&#x27;m frustrated that our shared infrastructure is a bit of a wild west. Things like S3 buckets, DB tables, ES indices, Kafka topics often have nonsense names that mean nothing to anyone other than the couple of engineers familiar with them.<p>This makes it really difficult to<p>- clean up deprecated resources<p>- quickly identify what processes are being used by which services<p>- identify who owns the resources<p>I&#x27;m trying to implement a shared methodology across all four teams to make this a bit better, but need advice.<p>My aim is to come up with a structure for resources that solves some of the above issues. My current thinking is to implement a naming template like:<p>&lt;team_name&gt;_&lt;repository&gt;_&lt;branch_name&gt;_&lt;unique_identifier&gt;<p>One of my concerns is that things like &lt;team_name&gt; can be transient, although it&#x27;s unlikely they will change in my org for at least a year.<p>I also want to ensure this methodology isn&#x27;t just a verbal agreement across engineers, and is instead automated as much as possible - e.g. everything other than the `unique_identifier` is created automatically. Should there be a centralised service that processes make requests to to create&#x2F;delete resources? Should this be config driven and handled in `initContainers` in K8 deployments?<p>I&#x27;ve never worked in a bigger engineering department than this so I don&#x27;t know how this problem has been solved elsewhere.<p>Would appreciate some feedback - perhaps my logic is fundamentally flawed.<p>Thanks",
+      "time": 1636890729,
+      "title": "Ask HN: How to name resources consistently across 4 engineering teams",
+      "type": "story"
+    },
+    {
       "by": "bookofjoe",
       "descendants": 1,
       "id": 29216686,
@@ -48,7 +78,8 @@
       "descendants": 0,
       "id": 29216663,
       "kids": [
-        29216688
+        29216688,
+        29216698
       ],
       "score": 2,
       "time": 1636889797,
@@ -74,36 +105,6 @@
       "text": "I’ve been recently approached by a small, innovative, industrial AI startup still in search of their best pipeline, in relation to TensorFlow vs PyTorch… or, better, Keras vs Lightning. There are a number of tutorials and blog articles explaining the differences, but we are here talking about the best bet for the next 1-3 years. This seems a good question for HNers then: what do you think about? For what I see, Lightning is really poised to become for PyTorch what Keras is for TensorFlow, that allowing that small, industrial AI startup to focus in full on their domain cases while using both high-level wrappers and both the underlying libraries. Exciting times ahead? Thanks.",
       "time": 1636889576,
       "title": "Ask HN: Is Lightning the PyTorch equivalent of Keras for TensorFlow?",
-      "type": "story"
-    },
-    {
-      "by": "RageoftheRobots",
-      "descendants": 0,
-      "id": 29216648,
-      "score": 1,
-      "time": 1636889491,
-      "title": "Not Saying It Was Aliens, but ‘Oumuamua Probably Wasn’t a Nitrogen Iceberg",
-      "type": "story",
-      "url": "https://www.universetoday.com/153255/not-saying-it-was-aliens-but-oumuamua-probably-wasnt-a-nitrogen-iceberg/"
-    },
-    {
-      "by": "dkobia",
-      "descendants": 0,
-      "id": 29216642,
-      "score": 2,
-      "time": 1636889452,
-      "title": "The Metaverse and (near-)infinite economic growth",
-      "type": "story",
-      "url": "https://noahpinion.substack.com/p/the-metaverse-and-near-infinite-economic"
-    },
-    {
-      "by": "Delphic",
-      "descendants": 0,
-      "id": 29216636,
-      "score": 1,
-      "text": "Replying to the requirements:\nIdea: \nThe DELPHEXION SYSTEMS is the brainchild of Mr Añummadu Obinna.\nThis is a research and a holistic experiment aimed at developing a security system that is decentralized and sophisticated by leveraging real time monitoring and end-to-end encryption.\nThis means that soon, data from people, corporation and government will not be seen in the wrong hands.<p>Problems: No doubt, we all know that phishing attacks, hacking and other kinds of cyber attack have really plagued so many people, government and institution at Large.\nThis is as a result of centralization and the possibility of having malicious insiders who could betray interests just for some personal gains.\nWe have come to gradually study how some security breaches occur and we noticed that weak security infrastructure, malicious insiders and other hackers seek vulnerability and use this opportunity to do the wrong thing.\nWe are therefore developing and researching an idea that is going to bypass all these vulnerability",
-      "time": 1636889397,
-      "title": "Delphexion Systems",
       "type": "story"
     }
   ]
