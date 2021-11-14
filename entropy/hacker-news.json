@@ -1,6 +1,56 @@
 {
   "stories": [
     {
+      "by": "bjourne",
+      "descendants": 0,
+      "id": 29216941,
+      "score": 1,
+      "time": 1636894734,
+      "title": "Operation Soda Steal",
+      "type": "story",
+      "url": "https://www.youtube.com/watch?v=fD7X9SCn0To"
+    },
+    {
+      "by": "bryanrasmussen",
+      "descendants": 0,
+      "id": 29216936,
+      "score": 1,
+      "time": 1636894664,
+      "title": "Radial analysis and scaling of urban land use",
+      "type": "story",
+      "url": "https://www.nature.com/articles/s41598-021-01477-y"
+    },
+    {
+      "by": "mrfusion",
+      "descendants": 0,
+      "id": 29216932,
+      "score": 2,
+      "time": 1636894572,
+      "title": "Sweden no longer stands out in pandemic, says architect of ‘no lockdown’ policy",
+      "type": "story",
+      "url": "https://www.ft.com/content/0c07de5f-e852-4c23-823b-5f8f7d18ebef"
+    },
+    {
+      "by": "bryanrasmussen",
+      "descendants": 0,
+      "id": 29216931,
+      "score": 1,
+      "time": 1636894550,
+      "title": "Exponential capability growth. Exponential potential",
+      "type": "story",
+      "url": "https://www.ericsson.com/en/blog/2021/10/exponential-capability-growth-exponential-potential"
+    },
+    {
+      "by": "predictand",
+      "descendants": 0,
+      "id": 29216930,
+      "score": 1,
+      "time": 1636894513,
+      "title": "A Philosophy of Software Design: It Is All About Complexity",
+      "type": "story",
+      "url": "https://www.enginarslan.com/posts/a-philosophy-of-software-design"
+    },
+    {
       "by": "CapitalistCartr",
       "descendants": 0,
       "id": 29216922,
@@ -14,7 +64,7 @@
       "by": "kobiguru",
       "descendants": 0,
       "id": 29216920,
-      "score": 2,
+      "score": 4,
       "time": 1636894387,
       "title": "No-Code for Product Managers – A Cohort Based Course",
       "type": "story",
@@ -52,62 +102,6 @@
       "title": "How a copier company invented modern computing; why you've never used a Xerox PC",
       "type": "story",
       "url": "https://dgross.ca/blog/xerox-parc/"
-    },
-    {
-      "by": "jmsflknr",
-      "descendants": 0,
-      "id": 29216860,
-      "score": 1,
-      "time": 1636893561,
-      "title": "India eyes prohibiting irresponsible crypto ads",
-      "type": "story",
-      "url": "https://techcrunch.com/2021/11/13/india-eyes-prohibiting-irresponsible-cryptocurrency-ads/"
-    },
-    {
-      "by": "vinnyglennon",
-      "descendants": 0,
-      "id": 29216858,
-      "score": 1,
-      "time": 1636893535,
-      "title": "We measure Backstage success at Spotify",
-      "type": "story",
-      "url": "https://backstage.spotify.com/blog/measuring-backstage-success-at-spotify/"
-    },
-    {
-      "by": "stdlib2",
-      "descendants": 0,
-      "id": 29216856,
-      "kids": [
-        29216919
-      ],
-      "score": 2,
-      "time": 1636893500,
-      "title": "We Are All Monsters",
-      "type": "story",
-      "url": "https://buddhism-for-vampires.com/we-are-all-monsters"
-    },
-    {
-      "by": "dankoncs",
-      "descendants": 1,
-      "id": 29216852,
-      "kids": [
-        29216910
-      ],
-      "score": 2,
-      "text": "This would be my (possibly wrong) explanation:<p>So in Linux we have syscalls such as write, read, close, socket, ...\nThese syscalls are defined according to the POSIX standard. POSIX is basically a standard for operating systems. Linux&#x2F;Unix follow these standards.\nSo syscalls are an interface so that we can communicate with the OS. (Is it the application binary interface already?)<p>Now, we have the C standard library, so we don&#x27;t need to deal with syscalls (or specific OS stuff). The C standard library is basically an application programming interface (API).\nSo printf, fopen etc. map to write, open, etc. respectively:<p>printf ~ write<p>fopen ~ open<p>fclose ~ close<p>...<p>Then, apparently, we require a runtime environment (RTE). This runtime environment (is perhaps) the standard library that is a .so file (a shared object).\nShared objects are (perhaps) loaded by the OS to a specific memory location so that all C programs can access that .so file (which is now loaded in memory for all C executables to use.)\nSo that .so file is the &quot;RTE&quot; and the syscalls are the &quot;ABI&quot;?<p>If so, I find &quot;ABI&quot; and &quot;RTE&quot; confusing. Java has an RTE. You need the Java Virtual Machine (an abstract CPU essentially) to run your .class files within that virtual machine (JVM).<p>Again, I am unsure about this, so please go easy on me. Thank you!<p>PS: Why do people like Jason Turner say: &quot;break the ABI to save C++&quot;? So break the .so files for C++&#x27;s standard library? What for? (Shouldn&#x27;t it be: &quot;break C++&#x27;s RTE&quot;?)",
-      "time": 1636893424,
-      "title": "Ask HN: How would you explain an ABI?",
-      "type": "story"
-    },
-    {
-      "by": "hkc",
-      "descendants": 0,
-      "id": 29216835,
-      "score": 2,
-      "time": 1636893162,
-      "title": "Red Herring",
-      "type": "story",
-      "url": "https://wikiless.org/wiki/Red_herring"
     }
   ]
 }
