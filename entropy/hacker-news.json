@@ -1,6 +1,36 @@
 {
   "stories": [
     {
+      "by": "pcr910303",
+      "descendants": 0,
+      "id": 29218603,
+      "score": 1,
+      "time": 1636910091,
+      "title": "Phone app has an email client",
+      "type": "story",
+      "url": "https://smitop.com/post/phone-email/"
+    },
+    {
+      "by": "ohjeez",
+      "descendants": 0,
+      "id": 29218592,
+      "score": 1,
+      "time": 1636910021,
+      "title": "Apple iPhone 3G vs. BlackBerry Storm: Reasons to Pick the iPhone (2008)",
+      "type": "story",
+      "url": "https://www.cio.com/article/2432260/apple-iphone-3g-vs--blackberry-storm--8-reasons-to-pick-the-iphone.html"
+    },
+    {
+      "by": "ingve",
+      "descendants": 0,
+      "id": 29218560,
+      "score": 1,
+      "time": 1636909791,
+      "title": "Shaded vertex reuse on modern GPUs",
+      "type": "story",
+      "url": "https://interplayoflight.wordpress.com/2021/11/14/shaded-vertex-reuse-on-modern-gpus/"
+    },
+    {
       "by": "dan-robertson",
       "descendants": 1,
       "id": 29218527,
@@ -25,8 +55,11 @@
     },
     {
       "by": "jv22222",
-      "descendants": 0,
+      "descendants": 1,
       "id": 29218482,
+      "kids": [
+        29218574
+      ],
       "score": 2,
       "text": "Hi, HN --<p>We&#x27;re two indie cofounders who bootstrapped a new product to scratch our own itch: there&#x27;s so much great content out there, but it&#x27;s hard to find it. Sites like HN serve us like-minded people, but there are many more topics in other non-HN niches.<p>Our idea is this: an email you get once a day, filled with only top articles (posted to HN, Reddit, etc) that match your specific interests. You can specify which interests, and how many links you want. Ranked by our signal score.<p>&lt;tech-info&gt;<p>To start, we built an ingestion engine. In the first few weeks we only processed HN posts (1k&#x2F;day) then we added Reddit posts (1m&#x2F;day) then we added some other sites like Indie Hackers and relevant Twitter accounts.<p>Then we added semantic tagging. To start we used a generalized tagging service, but then quickly realized we needed to build our own layer because they don&#x27;t understand many of the current trendy topics.<p>Next up we wanted to add thumbnails to worthy articles (about 10k&#x2F;day). It became apparent this was going to cost over $1k&#x2F;month using a commercial API. So we built our own service using headless chrome, Laravel &amp; puppeteer.<p>Our original plan was to just show headlines, HN-style. But after initial feedback users asked for article summaries. To start we used a 3rd party commercial summarizer. Aside from the cost (appx. $400&#x2F;month for our needs) we were not super happy with the 3rd party results so we built our a summarizer.<p>Here&#x27;s an example of a brief with summaries - https:&#x2F;&#x2F;morningbrief.ai&#x2F;sent&#x2F;24960b76-4d494be1-ae822280-14274649 - this example is crypto focused with no thumbnails (keep in mind every brief is 100% custom). Here is another example of a more eclectic brief without summaries - https:&#x2F;&#x2F;morningbrief.ai&#x2F;sent&#x2F;377f08da-18f04407-a655d594-b1b3043b<p>Our stack right now is Python for link processing and summaries, Laravel to grab screenshots, send emails, and be the web app. We use SaltStack to orchestrate infrastructure. We run 13 servers on AWS with a cost of approx. $300&#x2F;month.<p>&lt;&#x2F;tech-info&gt;<p>When we started out we thought this would be a weekend project! Turns out solving timely, personalized, summarized, quality controlled, content aggregation at scale (in a cost effective way) is quite a difficult problem. That&#x27;s how we managed to soak up 6+ months of our side project time just getting it ready for this Show HN!<p>Our early users have told us that we&#x27;ve sent them important articles that they missed -- which is exactly why we built this.<p>You can check out how the brief builder works (without registering): https:&#x2F;&#x2F;morningbrief.ai&#x2F;setup. We&#x27;re still experimenting with pricing, but we&#x27;re trying a 2-week free trial, then $5&#x2F;mo (annual).<p>Any feedback would be appreciated!<p>Justin &amp; Joe",
       "time": 1636909203,
@@ -65,49 +98,16 @@
     },
     {
       "by": "snake_case",
-      "descendants": 3,
+      "descendants": 4,
       "id": 29218401,
       "kids": [
         29218439
       ],
-      "score": 5,
+      "score": 6,
       "time": 1636908716,
       "title": "Show HN: I built a jigsaw puzzle website",
       "type": "story",
       "url": "https://puzzlepanda.com"
-    },
-    {
-      "by": "nickpelling",
-      "descendants": 1,
-      "id": 29218390,
-      "kids": [
-        29218481
-      ],
-      "score": 2,
-      "time": 1636908616,
-      "title": "Was the Roswell Incident a cipher mystery?",
-      "type": "story",
-      "url": "http://ciphermysteries.com/2021/11/14/was-the-1947-roswell-incident-a-cipher-mystery"
-    },
-    {
-      "by": "wiradikusuma",
-      "descendants": 0,
-      "id": 29218382,
-      "score": 1,
-      "time": 1636908581,
-      "title": "Pikmin Bloom from Niantic",
-      "type": "story",
-      "url": "https://pikminbloom.com/"
-    },
-    {
-      "by": "akaij",
-      "descendants": 0,
-      "id": 29218381,
-      "score": 4,
-      "time": 1636908579,
-      "title": "Vizio makes more money spying on people who buy TVs than TVs themselves",
-      "type": "story",
-      "url": "https://pluralistic.net/2021/11/14/still-the-product/"
     }
   ]
 }
