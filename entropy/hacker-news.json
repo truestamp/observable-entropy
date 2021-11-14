@@ -1,10 +1,20 @@
 {
   "stories": [
     {
+      "by": "MAXPOOL",
+      "descendants": 0,
+      "id": 29218520,
+      "score": 1,
+      "time": 1636909484,
+      "title": "Yann LeCun’s 2021 Deep Learning Course at CDs free and fully online",
+      "type": "story",
+      "url": "https://cds.nyu.edu/deep-learning/"
+    },
+    {
       "by": "jv22222",
       "descendants": 0,
       "id": 29218482,
-      "score": 1,
+      "score": 2,
       "text": "Hi, HN --<p>We&#x27;re two indie cofounders who bootstrapped a new product to scratch our own itch: there&#x27;s so much great content out there, but it&#x27;s hard to find it. Sites like HN serve us like-minded people, but there are many more topics in other non-HN niches.<p>Our idea is this: an email you get once a day, filled with only top articles (posted to HN, Reddit, etc) that match your specific interests. You can specify which interests, and how many links you want. Ranked by our signal score.<p>&lt;tech-info&gt;<p>To start, we built an ingestion engine. In the first few weeks we only processed HN posts (1k&#x2F;day) then we added Reddit posts (1m&#x2F;day) then we added some other sites like Indie Hackers and relevant Twitter accounts.<p>Then we added semantic tagging. To start we used a generalized tagging service, but then quickly realized we needed to build our own layer because they don&#x27;t understand many of the current trendy topics.<p>Next up we wanted to add thumbnails to worthy articles (about 10k&#x2F;day). It became apparent this was going to cost over $1k&#x2F;month using a commercial API. So we built our own service using headless chrome, Laravel &amp; puppeteer.<p>Our original plan was to just show headlines, HN-style. But after initial feedback users asked for article summaries. To start we used a 3rd party commercial summarizer. Aside from the cost (appx. $400&#x2F;month for our needs) we were not super happy with the 3rd party results so we built our a summarizer.<p>Here&#x27;s an example of a brief with summaries - https:&#x2F;&#x2F;morningbrief.ai&#x2F;sent&#x2F;24960b76-4d494be1-ae822280-14274649 - this example is crypto focused with no thumbnails (keep in mind every brief is 100% custom). Here is another example of a more eclectic brief without summaries - https:&#x2F;&#x2F;morningbrief.ai&#x2F;sent&#x2F;377f08da-18f04407-a655d594-b1b3043b<p>Our stack right now is Python for link processing and summaries, Laravel to grab screenshots, send emails, and be the web app. We use SaltStack to orchestrate infrastructure. We run 13 servers on AWS with a cost of approx. $300&#x2F;month.<p>&lt;&#x2F;tech-info&gt;<p>When we started out we thought this would be a weekend project! Turns out solving timely, personalized, summarized, quality controlled, content aggregation at scale (in a cost effective way) is quite a difficult problem. That&#x27;s how we managed to soak up 6+ months of our side project time just getting it ready for this Show HN!<p>Our early users have told us that we&#x27;ve sent them important articles that they missed -- which is exactly why we built this.<p>You can check out how the brief builder works (without registering): https:&#x2F;&#x2F;morningbrief.ai&#x2F;setup. We&#x27;re still experimenting with pricing, but we&#x27;re trying a 2-week free trial, then $5&#x2F;mo (annual).<p>Any feedback would be appreciated!<p>Justin &amp; Joe",
       "time": 1636909203,
       "title": "Show HN: Morning Brief – Track any topic on HN, Reddit and others",
@@ -42,7 +52,7 @@
     },
     {
       "by": "snake_case",
-      "descendants": 1,
+      "descendants": 3,
       "id": 29218401,
       "kids": [
         29218439
@@ -80,7 +90,7 @@
       "by": "akaij",
       "descendants": 0,
       "id": 29218381,
-      "score": 1,
+      "score": 2,
       "time": 1636908579,
       "title": "Vizio makes more money spying on people who buy TVs than TVs themselves",
       "type": "story",
@@ -95,16 +105,6 @@
       "title": "OpenTelemetry: Trace and instrument your application code",
       "type": "story",
       "url": "https://vincent.composieux.fr/article/opentelemetry-trace-and-instrument-your-application-code"
-    },
-    {
-      "by": "missinfo",
-      "descendants": 0,
-      "id": 29218307,
-      "score": 1,
-      "time": 1636908142,
-      "title": "Fran Unsworth tells BBC staff: Get used to hearing views you don’t like",
-      "type": "story",
-      "url": "https://www.thetimes.co.uk/article/fran-unsworth-tells-bbc-staff-get-used-to-hearing-views-you-dont-like-gz7f07cpk"
     }
   ]
 }
