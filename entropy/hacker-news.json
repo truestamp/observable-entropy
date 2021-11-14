@@ -1,6 +1,39 @@
 {
   "stories": [
     {
+      "by": "CapitalistCartr",
+      "descendants": 0,
+      "id": 29216922,
+      "score": 1,
+      "time": 1636894396,
+      "title": "Amazon Staten Island Workers Withdraw Request for Union Vote",
+      "type": "story",
+      "url": "https://www.nytimes.com/2021/11/12/technology/amazon-union-staten-island-withdraw.html"
+    },
+    {
+      "by": "kobiguru",
+      "descendants": 0,
+      "id": 29216920,
+      "score": 2,
+      "time": 1636894387,
+      "title": "No-Code for Product Managers – A Cohort Based Course",
+      "type": "story",
+      "url": "https://www.theproductfolks.com/no-code-for-product-managers"
+    },
+    {
+      "by": "Bostonian",
+      "descendants": 1,
+      "id": 29216907,
+      "kids": [
+        29216929
+      ],
+      "score": 1,
+      "time": 1636894207,
+      "title": "PyTorch Fortran Bindings",
+      "type": "story",
+      "url": "https://github.com/alexeedm/pytorch-fortran"
+    },
+    {
       "by": "sewellstephens",
       "descendants": 0,
       "id": 29216873,
@@ -44,7 +77,10 @@
       "by": "stdlib2",
       "descendants": 0,
       "id": 29216856,
-      "score": 1,
+      "kids": [
+        29216919
+      ],
+      "score": 2,
       "time": 1636893500,
       "title": "We Are All Monsters",
       "type": "story",
@@ -52,8 +88,11 @@
     },
     {
       "by": "dankoncs",
-      "descendants": 0,
+      "descendants": 1,
       "id": 29216852,
+      "kids": [
+        29216910
+      ],
       "score": 2,
       "text": "This would be my (possibly wrong) explanation:<p>So in Linux we have syscalls such as write, read, close, socket, ...\nThese syscalls are defined according to the POSIX standard. POSIX is basically a standard for operating systems. Linux&#x2F;Unix follow these standards.\nSo syscalls are an interface so that we can communicate with the OS. (Is it the application binary interface already?)<p>Now, we have the C standard library, so we don&#x27;t need to deal with syscalls (or specific OS stuff). The C standard library is basically an application programming interface (API).\nSo printf, fopen etc. map to write, open, etc. respectively:<p>printf ~ write<p>fopen ~ open<p>fclose ~ close<p>...<p>Then, apparently, we require a runtime environment (RTE). This runtime environment (is perhaps) the standard library that is a .so file (a shared object).\nShared objects are (perhaps) loaded by the OS to a specific memory location so that all C programs can access that .so file (which is now loaded in memory for all C executables to use.)\nSo that .so file is the &quot;RTE&quot; and the syscalls are the &quot;ABI&quot;?<p>If so, I find &quot;ABI&quot; and &quot;RTE&quot; confusing. Java has an RTE. You need the Java Virtual Machine (an abstract CPU essentially) to run your .class files within that virtual machine (JVM).<p>Again, I am unsure about this, so please go easy on me. Thank you!<p>PS: Why do people like Jason Turner say: &quot;break the ABI to save C++&quot;? So break the .so files for C++&#x27;s standard library? What for? (Shouldn&#x27;t it be: &quot;break C++&#x27;s RTE&quot;?)",
       "time": 1636893424,
@@ -69,39 +108,6 @@
       "title": "Red Herring",
       "type": "story",
       "url": "https://wikiless.org/wiki/Red_herring"
-    },
-    {
-      "by": "prakhargurunani",
-      "descendants": 1,
-      "id": 29216834,
-      "kids": [
-        29216836
-      ],
-      "score": 1,
-      "time": 1636893159,
-      "title": "Custom Spotify theme with external CSS",
-      "type": "story",
-      "url": "https://twitter.com/FirePing32/status/1459859721796481024"
-    },
-    {
-      "by": "jonbaer",
-      "descendants": 0,
-      "id": 29216830,
-      "score": 2,
-      "time": 1636893140,
-      "title": "Instrumental Convergence",
-      "type": "story",
-      "url": "https://en.wikipedia.org/wiki/Instrumental_convergence"
-    },
-    {
-      "by": "mrzool",
-      "descendants": 0,
-      "id": 29216829,
-      "score": 1,
-      "time": 1636893118,
-      "title": "Cold and Warm Cultures",
-      "type": "story",
-      "url": "https://knowingless.com/2021/11/13/cold-and-warm-cultures/"
     }
   ]
 }
