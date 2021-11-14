@@ -1,10 +1,43 @@
 {
   "stories": [
     {
+      "by": "davidkunz",
+      "descendants": 1,
+      "id": 29216760,
+      "kids": [
+        29216761
+      ],
+      "score": 1,
+      "time": 1636891788,
+      "title": "Lightspeed Neovim [video]",
+      "type": "story",
+      "url": "https://www.youtube.com/watch?v=ESyld9NCl1w"
+    },
+    {
+      "by": "geox",
+      "descendants": 0,
+      "id": 29216757,
+      "score": 1,
+      "time": 1636891757,
+      "title": "Do-It-Yourself artificial pancreas given approval by team of experts",
+      "type": "story",
+      "url": "https://www.kcl.ac.uk/news/do-it-yourself-artificial-pancreas-given-approval-by-team-of-experts"
+    },
+    {
+      "by": "softmodeling",
+      "descendants": 0,
+      "id": 29216756,
+      "score": 1,
+      "time": 1636891749,
+      "title": "Co-Authorship Distance Computation",
+      "type": "story",
+      "url": "https://www.csauthors.net"
+    },
+    {
       "by": "tosh",
       "descendants": 0,
       "id": 29216745,
-      "score": 1,
+      "score": 2,
       "time": 1636891497,
       "title": "Austrian Airlines: Bid Upgrade",
       "type": "story",
@@ -69,42 +102,6 @@
       "title": "Unity just bought Weta Digital – yeah, the Lord of the Rings Peter Jackson one",
       "type": "story",
       "url": "https://cdm.link/2021/11/unity-just-bought-weta-digital-yeah-the-lord-of-the-rings-peter-jackson-one/"
-    },
-    {
-      "by": "seanbarry",
-      "descendants": 1,
-      "id": 29216701,
-      "kids": [
-        29216725
-      ],
-      "score": 1,
-      "text": "Hi HN, looking for some advice please.<p>I currently work at a smallish scale-up. The company has ~100 ppl and the tech side of the company is ~40. There are 4 main teams within engineering with different responsibilities e.g. modelling, platforms, infrastructure etc<p>I&#x27;m frustrated that our shared infrastructure is a bit of a wild west. Things like S3 buckets, DB tables, ES indices, Kafka topics often have nonsense names that mean nothing to anyone other than the couple of engineers familiar with them.<p>This makes it really difficult to<p>- clean up deprecated resources<p>- quickly identify what processes are being used by which services<p>- identify who owns the resources<p>I&#x27;m trying to implement a shared methodology across all four teams to make this a bit better, but need advice.<p>My aim is to come up with a structure for resources that solves some of the above issues. My current thinking is to implement a naming template like:<p>&lt;team_name&gt;_&lt;repository&gt;_&lt;branch_name&gt;_&lt;unique_identifier&gt;<p>One of my concerns is that things like &lt;team_name&gt; can be transient, although it&#x27;s unlikely they will change in my org for at least a year.<p>I also want to ensure this methodology isn&#x27;t just a verbal agreement across engineers, and is instead automated as much as possible - e.g. everything other than the `unique_identifier` is created automatically. Should there be a centralised service that processes make requests to to create&#x2F;delete resources? Should this be config driven and handled in `initContainers` in K8 deployments?<p>I&#x27;ve never worked in a bigger engineering department than this so I don&#x27;t know how this problem has been solved elsewhere.<p>Would appreciate some feedback - perhaps my logic is fundamentally flawed.<p>Thanks",
-      "time": 1636890729,
-      "title": "Ask HN: How to name resources consistently across 4 engineering teams",
-      "type": "story"
-    },
-    {
-      "by": "bookofjoe",
-      "descendants": 1,
-      "id": 29216686,
-      "kids": [
-        29216687
-      ],
-      "score": 2,
-      "time": 1636890391,
-      "title": "Bitcoin Mining Noise Drives Neighbors Nuts–A Giant Dentist Drill That Won’t Stop",
-      "type": "story",
-      "url": "https://www.wsj.com/articles/bitcoin-mining-noise-drives-neighbors-nuts-giant-dentist-drill-that-wont-stop-11636730904"
-    },
-    {
-      "by": "DyslexicAtheist",
-      "descendants": 0,
-      "id": 29216682,
-      "score": 1,
-      "time": 1636890329,
-      "title": "Determine the Palo Alto PAN-OS software version of a remote GlobalProtect portal",
-      "type": "story",
-      "url": "https://github.com/noperator/panos-scanner"
     }
   ]
 }
