@@ -1,6 +1,46 @@
 {
   "stories": [
     {
+      "by": "tosh",
+      "descendants": 0,
+      "id": 29216745,
+      "score": 1,
+      "time": 1636891497,
+      "title": "Austrian Airlines: Bid Upgrade",
+      "type": "story",
+      "url": "https://twitter.com/PHuenermund/status/1455879086434291713"
+    },
+    {
+      "by": "ahmedfromtunis",
+      "descendants": 0,
+      "id": 29216737,
+      "score": 1,
+      "time": 1636891395,
+      "title": "A step saving kitchen (1949)[video]",
+      "type": "story",
+      "url": "https://www.youtube.com/watch?v=2N9RCQjPqh4"
+    },
+    {
+      "by": "Tomte",
+      "descendants": 0,
+      "id": 29216735,
+      "score": 1,
+      "time": 1636891351,
+      "title": "‘You can’t run a team on empty’: how the restaurant staff meal is changing",
+      "type": "story",
+      "url": "https://www.theguardian.com/food/2021/nov/14/you-cant-run-a-team-on-empty-how-the-restaurant-staff-meal-is-changing"
+    },
+    {
+      "by": "mg",
+      "descendants": 0,
+      "id": 29216728,
+      "score": 1,
+      "time": 1636891252,
+      "title": "Manual Until It Hurts",
+      "type": "story",
+      "url": "https://indieweb.org/manual_until_it_hurts"
+    },
+    {
       "by": "pseudolus",
       "descendants": 0,
       "id": 29216720,
@@ -14,7 +54,7 @@
       "by": "pseudolus",
       "descendants": 0,
       "id": 29216708,
-      "score": 1,
+      "score": 2,
       "time": 1636890897,
       "title": "Low-frequency intermittent fasting prompts anti-inflammatory response",
       "type": "story",
@@ -32,8 +72,11 @@
     },
     {
       "by": "seanbarry",
-      "descendants": 0,
+      "descendants": 1,
       "id": 29216701,
+      "kids": [
+        29216725
+      ],
       "score": 1,
       "text": "Hi HN, looking for some advice please.<p>I currently work at a smallish scale-up. The company has ~100 ppl and the tech side of the company is ~40. There are 4 main teams within engineering with different responsibilities e.g. modelling, platforms, infrastructure etc<p>I&#x27;m frustrated that our shared infrastructure is a bit of a wild west. Things like S3 buckets, DB tables, ES indices, Kafka topics often have nonsense names that mean nothing to anyone other than the couple of engineers familiar with them.<p>This makes it really difficult to<p>- clean up deprecated resources<p>- quickly identify what processes are being used by which services<p>- identify who owns the resources<p>I&#x27;m trying to implement a shared methodology across all four teams to make this a bit better, but need advice.<p>My aim is to come up with a structure for resources that solves some of the above issues. My current thinking is to implement a naming template like:<p>&lt;team_name&gt;_&lt;repository&gt;_&lt;branch_name&gt;_&lt;unique_identifier&gt;<p>One of my concerns is that things like &lt;team_name&gt; can be transient, although it&#x27;s unlikely they will change in my org for at least a year.<p>I also want to ensure this methodology isn&#x27;t just a verbal agreement across engineers, and is instead automated as much as possible - e.g. everything other than the `unique_identifier` is created automatically. Should there be a centralised service that processes make requests to to create&#x2F;delete resources? Should this be config driven and handled in `initContainers` in K8 deployments?<p>I&#x27;ve never worked in a bigger engineering department than this so I don&#x27;t know how this problem has been solved elsewhere.<p>Would appreciate some feedback - perhaps my logic is fundamentally flawed.<p>Thanks",
       "time": 1636890729,
@@ -47,7 +90,7 @@
       "kids": [
         29216687
       ],
-      "score": 1,
+      "score": 2,
       "time": 1636890391,
       "title": "Bitcoin Mining Noise Drives Neighbors Nuts–A Giant Dentist Drill That Won’t Stop",
       "type": "story",
@@ -62,53 +105,6 @@
       "title": "Determine the Palo Alto PAN-OS software version of a remote GlobalProtect portal",
       "type": "story",
       "url": "https://github.com/noperator/panos-scanner"
-    },
-    {
-      "by": "Delphic",
-      "descendants": 0,
-      "id": 29216673,
-      "score": 1,
-      "text": "Idea: \nThe DELPHEXION SYSTEMS is the brainchild of Mr Añummadu Obinna.\nThis is a project that is being research and a holistic experiment aimed at developing a security system that is built on a decentralized b\nand scalable blockchain and works \nwith a sophisticated real time monitoring and Edge computing simulation by leveraging real time monitoring and end-to-end encryption.\nThis project is aimed at becoming a security forces for the IoT network, Corporate network, smart connectivity networks and other Web 3.0 technologies.\nThis means that soon, data from people, corporation and government will not be seen in the wrong hands.<p>Problems: No doubt, we all know that phishing attacks, hacking and other kinds of cyber attack have really plagued so many people, government and institution at Large.\nThis is as a result of centralization and the possibility of having malicious insiders who could betray interests just for some personal gains.\nWe have come to gradually study how some security breaches occur and we noticed that weak security infrastructure, malicious insiders and other hackers seek vulnerability and use this opportunity to do the wrong thing.\nWe are therefore developing and researching an idea that is going to bypass all these vulnerability and<p>provide cutting edge security<p>The potential:\nThe major potential behind this project is that the traditional measures taken by institution now, will be changed to something new and advanced<p>If widely adopted, it could be one of the greatest innovation for Web 3.0<p>So, what do you think will be best way to sponsor this project? And how do we connect with the best Computer engineers and white hat hackers?\nIt will be built on block chain",
-      "time": 1636890089,
-      "title": "Delphexion Systems",
-      "type": "story"
-    },
-    {
-      "by": "bitigchi",
-      "descendants": 1,
-      "id": 29216666,
-      "kids": [
-        29216709
-      ],
-      "score": 2,
-      "time": 1636889909,
-      "title": "Windows File Manager",
-      "type": "story",
-      "url": "https://github.com/microsoft/winfile"
-    },
-    {
-      "by": "ubaldus",
-      "descendants": 2,
-      "id": 29216663,
-      "kids": [
-        29216688,
-        29216698
-      ],
-      "score": 2,
-      "time": 1636889797,
-      "title": "Show HN: iptv from around the world",
-      "type": "story",
-      "url": "https://eja.tv/"
-    },
-    {
-      "by": "ubolonton_",
-      "descendants": 0,
-      "id": 29216655,
-      "score": 1,
-      "time": 1636889606,
-      "title": "Apache BookKeeper Insights Part 1 – External Consensus and Dynamic Membership",
-      "type": "story",
-      "url": "https://medium.com/splunk-maas/apache-bookkeeper-insights-part-1-external-consensus-and-dynamic-membership-c259f388da21"
     }
   ]
 }
