@@ -1,6 +1,76 @@
 {
   "stories": [
     {
+      "by": "yuchi",
+      "descendants": 0,
+      "id": 29226890,
+      "score": 1,
+      "time": 1636981751,
+      "title": "The iOS App Icon Book: celebrating app icon design",
+      "type": "story",
+      "url": "https://www.kickstarter.com/projects/flarup/the-ios-app-icon-book"
+    },
+    {
+      "by": "rougier",
+      "descendants": 0,
+      "id": 29226884,
+      "score": 1,
+      "time": 1636981704,
+      "title": "Stunning figures from newly released book on matplotlib (open access)",
+      "type": "story",
+      "url": "https://www.labri.fr/perso/nrougier/perso/nrougier/scientific-visualization.html"
+    },
+    {
+      "by": "avraafro",
+      "descendants": 0,
+      "id": 29226871,
+      "score": 2,
+      "time": 1636981603,
+      "title": "It Costs $100 to deploy Solana’s “helloworld” Rust smart contract",
+      "type": "story",
+      "url": "https://twitter.com/alexgrinman/status/1460096654477078531"
+    },
+    {
+      "by": "psoto",
+      "descendants": 0,
+      "id": 29226869,
+      "score": 1,
+      "time": 1636981595,
+      "title": "Taking advantage of unlabeled data and image embeddings",
+      "type": "story",
+      "url": "https://www.pento.ai/blog/embeddings-overview"
+    },
+    {
+      "by": "kzh_",
+      "descendants": 0,
+      "id": 29226864,
+      "score": 3,
+      "text": "Hey HN! We’re Kevin, Guru, and Peter from Metaplane (<a href=\"https:&#x2F;&#x2F;metaplane.dev\" rel=\"nofollow\">https:&#x2F;&#x2F;metaplane.dev</a>). Metaplane is a data observability tool that continuously monitors your data stack, alerts you when something goes wrong, and provides relevant metadata to help you debug.<p>Data teams are often the last to know about data-related issues. They commonly find out only when an executive messages them about a broken dashboard. This is comparable to finding out about your servers being down only when your end users report it! In software engineering, this problem is solved with observability tools like Datadog and SignalFx. These monitor your system over time by tracking metrics (like CPU, memory usage or any arbitrary value), and sending alerts when they hit thresholds or are anomalous.<p>Metaplane solves this problem for data teams. We continuously monitor our users’ data warehouse tables and columns, testing for things like row counts, freshness, cardinality, uniqueness, nullness, and statistical properties like mean&#x2F;median&#x2F;min&#x2F;max, as well as schema changes. After we build up a baseline of data points for each of these tests, we send alerts on anomalies to the user&#x27;s Slack channel. Each alert includes metadata like upstream&#x2F;downstream tables and BI dashboards affected by the issue, so that the user can assess how important the issue is and how quickly it should be addressed.<p>We&#x27;re particularly careful about alert fatigue and false positives. Since we can&#x27;t ask users to set manual thresholds (they would be changing all the time), we have to make a reasonable prediction based on past data, which can result in false positives and false negatives. If we under-alert, we miss important issues, but if we over-alert, users become desensitized and start ignoring alerts. Our solution is to include &quot;Mark as anomaly&quot; and &quot;Mark as normal&quot; buttons with each alert, for users to provide feedback to the model.<p>To give a common example, Metaplane can tell you that a revenue metric in a Snowflake column has spiked from $100 to $10,000 in an unexpected way. The alert includes upstream dependencies in dbt and downstream Looker dashboards that are impacted. Another example is if a table in Redshift that is usually updated every day hasn’t been updated in over 48 hours. A third example is if a table in BigQuery that typically increments 10M rows every day suddenly adds only 1M rows because of an upstream vendor bug. These are all what we think of as “silent data bugs” — all systems are green, but your data is just wrong!<p>Over the last eight months, we&#x27;ve caught problems like these for data teams at dozens of companies including Imperfect Foods, Drift, Vendr, Reforge, Air Up, Teachable, and Appcues.<p>Today, we’re excited to launch our self-serve product and free plan with the HN community. Setting up monitoring for your data stack takes less than 10 minutes. Here&#x27;s a 4 minute demo video to see how it works: <a href=\"https:&#x2F;&#x2F;www.loom.com&#x2F;share&#x2F;1aa54eb8b45548e180f6ab3a4a580cc5\" rel=\"nofollow\">https:&#x2F;&#x2F;www.loom.com&#x2F;share&#x2F;1aa54eb8b45548e180f6ab3a4a580cc5</a>. We make money by charging for more tests and team&#x2F;enterprise features. You can use our new free plan or try out all of our features in a 30 day trial, no credit card required.<p>Our goal is to help data teams of any size be the first to know about data issues. We think observability will become as much of a no-brainer to data teams as it is to software engineers today. Starting on AWS?—get Datadog. Bringing on Snowflake?—get a data observability tool (hopefully ours!). Eventually we want to support more use cases that you’d expect from a Datadog for data, like log centralization and diagnostics, spend monitoring, performance insights, and deep integration with upstream applications. For now, we’re just starting where the pain is highest.<p>We&#x27;d love to hear your ideas, experiences, and feedback, and will be answering any questions in the comments!",
+      "time": 1636981556,
+      "title": "Launch HN: Metaplane (YC W20) – Datadog for Data",
+      "type": "story"
+    },
+    {
+      "by": "Tomte",
+      "descendants": 0,
+      "id": 29226856,
+      "score": 1,
+      "time": 1636981540,
+      "title": "GeekPreview: 2021 BoardGameGeek Holiday Gift Guide",
+      "type": "story",
+      "url": "https://www.boardgamegeek.com/geekpreview/53/2021-boardgamegeek-holiday-gift-guide"
+    },
+    {
+      "by": "donohoe",
+      "descendants": 0,
+      "id": 29226853,
+      "score": 1,
+      "time": 1636981517,
+      "title": "The future of Brazilian gaming: shopping",
+      "type": "story",
+      "url": "https://restofworld.org/2021/brazil-sea-shopee-free-fire/"
+    },
+    {
       "by": "SQL2219",
       "descendants": 0,
       "id": 29226838,
@@ -29,76 +99,6 @@
       "title": "Writing about Haskell is Hard",
       "type": "story",
       "url": "https://anthony.noided.media/blog/thoughts/haskell/languages/2021/11/05/writing-about-haskell-is-hard.html"
-    },
-    {
-      "by": "jonbaer",
-      "descendants": 0,
-      "id": 29226799,
-      "score": 1,
-      "time": 1636981166,
-      "title": "Learn from Machine Learning",
-      "type": "story",
-      "url": "https://aeon.co/essays/our-world-is-a-black-box-predictable-but-not-understandable"
-    },
-    {
-      "by": "DeathArrow",
-      "descendants": 0,
-      "id": 29226766,
-      "score": 1,
-      "time": 1636980935,
-      "title": "Yiannis Kouros – Greek Greatness",
-      "type": "story",
-      "url": "https://ultrarunninghistory.com/yiannis-kouros/"
-    },
-    {
-      "by": "Kaibeezy",
-      "descendants": 0,
-      "id": 29226765,
-      "score": 1,
-      "time": 1636980933,
-      "title": "Lucid Air Is the 2022 MotorTrend Car of the Year",
-      "type": "story",
-      "url": "https://www.motortrend.com/news/lucid-air-2022-car-of-the-year/"
-    },
-    {
-      "by": "maxwell",
-      "descendants": 0,
-      "id": 29226747,
-      "score": 1,
-      "time": 1636980860,
-      "title": "Nestle and Cargill beat former child slaves in U.S. Supreme Court",
-      "type": "story",
-      "url": "https://www.cnbc.com/2021/06/17/supreme-court-rules-in-favor-of-nestle-in-child-slavery-case.html"
-    },
-    {
-      "by": "garyclarke27",
-      "descendants": 0,
-      "id": 29226740,
-      "score": 2,
-      "time": 1636980799,
-      "title": "Audi Buys McLaren Automotive",
-      "type": "story",
-      "url": "https://carbuzz.com/news/breaking-audi-buys-mclaren-automotive"
-    },
-    {
-      "by": "radmuzom",
-      "descendants": 0,
-      "id": 29226738,
-      "score": 2,
-      "time": 1636980788,
-      "title": "My life without a smartphone is getting harder and harder",
-      "type": "story",
-      "url": "https://www.theguardian.com/commentisfree/2021/nov/04/my-life-without-a-smartphone-is-getting-harder-and-harder"
-    },
-    {
-      "by": "jonathanbgn",
-      "descendants": 0,
-      "id": 29226713,
-      "score": 1,
-      "time": 1636980654,
-      "title": "PyTorch to support Apple M1 GPU",
-      "type": "story",
-      "url": "https://github.com/pytorch/pytorch/issues/47702"
     }
   ]
 }
