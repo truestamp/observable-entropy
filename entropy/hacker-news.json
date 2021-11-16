@@ -1,6 +1,49 @@
 {
   "stories": [
     {
+      "by": "belter",
+      "descendants": 0,
+      "id": 29247622,
+      "score": 1,
+      "time": 1637105627,
+      "title": "Covid-19 Pandemic",
+      "type": "story",
+      "url": "https://en.wikipedia.org/wiki/COVID-19_pandemic"
+    },
+    {
+      "by": "holonomically",
+      "descendants": 0,
+      "id": 29247615,
+      "score": 1,
+      "time": 1637105569,
+      "title": "Could AI solve this puzzle?",
+      "type": "story",
+      "url": "https://www.youtube.com/watch?v=EB6H1yxeZyI"
+    },
+    {
+      "by": "melenaboija",
+      "descendants": 0,
+      "id": 29247599,
+      "score": 1,
+      "time": 1637105436,
+      "title": "The Lightest Climbing Ledge",
+      "type": "story",
+      "url": "https://g7equipment.com/pages/pod"
+    },
+    {
+      "by": "belter",
+      "descendants": 1,
+      "id": 29247594,
+      "kids": [
+        29247595
+      ],
+      "score": 1,
+      "time": 1637105410,
+      "title": "EV maker Rivian eclipses Volkswagen in value while Lucid overtakes Ford",
+      "type": "story",
+      "url": "https://www.ft.com/content/a0575122-404d-4d11-b54b-f1af77733a4e"
+    },
+    {
       "by": "benyeoh",
       "descendants": 0,
       "id": 29247589,
@@ -14,7 +57,7 @@
       "by": "ColinWright",
       "descendants": 0,
       "id": 29247547,
-      "score": 3,
+      "score": 4,
       "time": 1637105050,
       "title": "Considering a Sphere",
       "type": "story",
@@ -44,8 +87,8 @@
       "by": "1vuio0pswjnm7",
       "descendants": 0,
       "id": 29247530,
-      "score": 2,
-      "text": "<p><pre><code>   #!&#x2F;bin&#x2F;sh\n   # 1.sh: search&#x2F;dump\n   test $# -gt 1||exec echo &quot;usage: $0 cfg-file [section]&quot;;\n   x=$1;shift;y=$(echo &quot;$@&quot;|sed &#x27;s&#x2F; &#x2F;.&#x2F;g&#x27;);sed -En ]&#x2F;p;}&quot; $x \n   \n   #!&#x2F;bin&#x2F;sh\n   # 2.sh: delete&#x2F;remove\n   test $# -gt 2||exec echo &quot;usage: $0 cfg-file section&quot;;\n   x=$1;shift;y=$(echo &quot;$@&quot;|sed &#x27;s&#x2F; &#x2F;.&#x2F;g&#x27;);sed -iE ]&#x2F;d;}&quot; $x \n\n   #!&#x2F;bin&#x2F;sh\n   # 3.sh: add&#x2F;insert\n   test $# -eq 2||exec echo usage: $0 cfg-file line-no \\&lt; section-file\n   (echo $2;echo a;sed &#x27;1{&#x2F;^[1-9]*&#x2F;d;}&#x27;;echo .;echo wq)|ed $1\n</code></pre>\nObjective: Without needing non-standard programs or large scripting laguages, manage and edit long. relatively complex configuration files that are divided into sections.<p>Note: I wrote this for me, not anyone else.  It is shared here only because it demonstrates a stupid sed trick I have never seen anyone else use.  I have been using this sed technique for over 10 years.<p>Example:<p><pre><code>      # 1.cfg: indented config file\n      # sections are separated with a left-justified control character such as ^L and&#x2F;or ^K\n      # note for learners: ^L is inserted by typing Ctrl-V followed by Ctrl-L\n   ^L\n      # SECTION W-a1\n      foo\n   ^L\n      # SECTION X-b1\n      bar\n   ^L\n      # SECTION Y-c1\n      baz\n   ^L\n      # SECTION Z-d1\n      qux\n   \n</code></pre>\nDump all sections<p><pre><code>    1.sh 1.cfg \\# SECTION\n</code></pre>\nThe line numbers for all lines will be printed.  This can be useful for adding&#x2F;inserting sections.  The output can also be edited to work as an ed script.<p>Dump sections W-a1 and Y-c1<p><pre><code>    1.sh 1.cfg \\# SECTION [WY]-[ac]1\n</code></pre>\nThe line number for the section header will be printed.  This number, e.g., N-1, can be useful when adding&#x2F;inserting sections.<p>Dump section Y-c1 to a file for editing<p><pre><code>    1.sh 1.cfg \\# SECTION Y-ac1  &gt; edit.txt\n</code></pre>\nDelete section Y-c1<p><pre><code>    2.sh 1.cfg \\# SECTION Y-c1\n</code></pre>\nInsert edited&#x2F;new section into config file, in the location previsouly occupied by section Y-c1 we deleted earlier<p><pre><code>    3.sh 1.cfg 9 &lt; edit.txt \n</code></pre>\n9 is the line number where we want the section inserted",
+      "score": 3,
+      "text": "<p><pre><code>   #!&#x2F;bin&#x2F;sh\n   # 1.sh: search&#x2F;dump\n   test $# -gt 1||exec echo &quot;usage: $0 cfg-file [section]&quot;;\n   x=$1;shift;y=$(echo &quot;$@&quot;|sed &#x27;s&#x2F; &#x2F;.&#x2F;g&#x27;);sed -En ]&#x2F;p;}&quot; $x \n   \n   #!&#x2F;bin&#x2F;sh\n   # 2.sh: delete&#x2F;remove\n   test $# -gt 2||exec echo &quot;usage: $0 cfg-file section&quot;;\n   x=$1;shift;y=$(echo &quot;$@&quot;|sed &#x27;s&#x2F; &#x2F;.&#x2F;g&#x27;);sed -iE ]&#x2F;d;}&quot; $x \n\n   #!&#x2F;bin&#x2F;sh\n   # 3.sh: add&#x2F;insert\n   test $# -eq 2||exec echo usage: $0 cfg-file line-no \\&lt; section-file\n   (echo $2;echo a;sed &#x27;1{&#x2F;^[1-9]*&#x2F;d;}&#x27;;echo .;echo wq)|ed $1\n</code></pre>\nObjective: Without needing non-standard programs or large scripting laguages, manage and edit long. relatively complex configuration files that are divided into sections.<p>Note: I wrote this for me, not anyone else.  It is shared here only because it demonstrates a stupid sed trick I have never seen anyone else use.  I have been using this sed technique for over 10 years.<p>Example:<p><pre><code>      # 1.cfg: indented config file\n      # sections are separated with a left-justified control character such as ^L or ^K\n      # note for learners: ^L is inserted by typing Ctrl-V followed by Ctrl-L\n   ^L\n      # SECTION W-a1\n      foo\n   ^L\n      # SECTION X-b1\n      bar\n   ^L\n      # SECTION Y-c1\n      baz\n   ^L\n      # SECTION Z-d1\n      qux\n   \n</code></pre>\nDump all sections<p><pre><code>    1.sh 1.cfg \\# SECTION\n</code></pre>\nThe line numbers for all lines will be printed.  This can be useful for adding&#x2F;inserting sections.  The output can also be edited to work as an ed script.<p>Dump sections W-a1 and Y-c1<p><pre><code>    1.sh 1.cfg \\# SECTION [WY]-[ac]1\n</code></pre>\nThe line number for the section header will be printed.  This number, e.g., N-1, can be useful when adding&#x2F;inserting sections.<p>Dump section Y-c1 to a file for editing<p><pre><code>    1.sh 1.cfg \\# SECTION Y-c1  &gt; edit.txt\n</code></pre>\nDelete section Y-c1<p><pre><code>    2.sh 1.cfg \\# SECTION Y-c1\n</code></pre>\nInsert edited&#x2F;new section into config file, in the location previously occupied by section Y-c1 we deleted earlier<p><pre><code>    3.sh 1.cfg 9 &lt; edit.txt \n</code></pre>\n9 is the line number where we want the section inserted",
       "time": 1637104943,
       "title": "Manage/edit large, complex configuration files with sed and ed",
       "type": "story"
@@ -59,46 +102,6 @@
       "title": "Cutting Cloud Costs at Cloudflare with Matthew Prince",
       "type": "story",
       "url": "https://www.lastweekinaws.com/podcast/screaming-in-the-cloud/cutting-cloud-costs-at-cloudflare-with-matthew-prince/"
-    },
-    {
-      "by": "ColinWright",
-      "descendants": 0,
-      "id": 29247520,
-      "score": 1,
-      "time": 1637104875,
-      "title": "Proofs to Make You Go Wow",
-      "type": "story",
-      "url": "https://www.solipsys.co.uk/new/ProofsToMakeYouGoWOW.html?UK16HN"
-    },
-    {
-      "by": "davesailer",
-      "descendants": 0,
-      "id": 29247518,
-      "score": 1,
-      "time": 1637104864,
-      "title": "Twisted, 3k-horsepower Chaos Ultracar offers a glimpse of the future",
-      "type": "story",
-      "url": "https://newatlas.com/automotive/spyros-panopoulos-chaos-ultracar/"
-    },
-    {
-      "by": "ilamont",
-      "descendants": 0,
-      "id": 29247485,
-      "score": 1,
-      "time": 1637104608,
-      "title": "UFOs, cannon fire and 184-MPH winds: Life gets weird atop California volcano",
-      "type": "story",
-      "url": "https://www.latimes.com/environment/story/2021-11-16/he-lives-alone-atop-a-california-volcano"
-    },
-    {
-      "by": "1cvmask",
-      "descendants": 0,
-      "id": 29247477,
-      "score": 2,
-      "time": 1637104558,
-      "title": "Russia admits to anti-satellite missile test but denies ‘dangerous behavior’",
-      "type": "story",
-      "url": "https://www.theguardian.com/science/2021/nov/16/russia-defends-anti-satellite-missile-test"
     }
   ]
 }
