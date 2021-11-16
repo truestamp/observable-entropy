@@ -1,6 +1,76 @@
 {
   "stories": [
     {
+      "by": "ColinWright",
+      "descendants": 0,
+      "id": 29247547,
+      "score": 1,
+      "time": 1637105050,
+      "title": "Considering a Sphere",
+      "type": "story",
+      "url": "https://www.solipsys.co.uk/new/ConsideringASphere.html?UK16HN"
+    },
+    {
+      "by": "1cvmask",
+      "descendants": 0,
+      "id": 29247541,
+      "score": 1,
+      "time": 1637105032,
+      "title": "Tiger Global is venture capital's winning machine",
+      "type": "story",
+      "url": "https://www.readthegeneralist.com/briefing/tiger-global"
+    },
+    {
+      "by": "edavis",
+      "descendants": 0,
+      "id": 29247537,
+      "score": 1,
+      "time": 1637104993,
+      "title": "LimeWire: The Oral History of the App That Changed Music Forever",
+      "type": "story",
+      "url": "https://melmagazine.com/en-us/story/an-oral-history-of-limewire-the-little-app-that-changed-the-music-industry-forever"
+    },
+    {
+      "by": "1vuio0pswjnm7",
+      "descendants": 0,
+      "id": 29247530,
+      "score": 1,
+      "text": "<p><pre><code>   #!&#x2F;bin&#x2F;sh\n   # 1.sh: search&#x2F;dump\n   test $# -gt 1||exec echo &quot;usage: $0 cfg-file [section]&quot;;\n   x=$1;shift;y=$(echo &quot;$@&quot;|sed &#x27;s&#x2F; &#x2F;.&#x2F;g&#x27;);sed -En ]&#x2F;p;}&quot; $x \n   \n   #!&#x2F;bin&#x2F;sh\n   # 2.sh: delete&#x2F;remove\n   test $# -gt 2||exec echo &quot;usage: $0 cfg-file section-name&quot;;\n   x=$1;shift;y=$(echo &quot;$@&quot;|sed &#x27;s&#x2F; &#x2F;.&#x2F;g&#x27;);sed -iE ]&#x2F;d;}&quot; $x \n\n   #!&#x2F;bin&#x2F;sh\n   # 3.sh: add&#x2F;insert\n   test $# -eq 2||exec echo usage: $0 cfg-file line-no \\&lt; section-file\n   (echo $2;echo a;sed &#x27;1{&#x2F;^[1-9]*&#x2F;d;}&#x27;;echo .;echo wq)|ed $1\n</code></pre>\nObjective: Without needing non-standard programs or large scripting laguages, manage and edit long. relatively complex configuration files that are divided into sections<p>Example:<p><pre><code>      # 1.cfg: indented config file\n      # sections are separated with a left-justified control character such as ^L and&#x2F;or ^K\n      # note for learners: ^L is inserted by typing Ctrl-V followed by Ctrl-L\n   ^L\n      # SECTION W-a1\n      foo\n   ^L\n      # SECTION X-b1\n      bar\n   ^L\n      # SECTION Y-c1\n      baz\n   ^L\n      # SECTION Z-d1\n      qux\n   \n</code></pre>\nDump all sections<p><pre><code>    1.sh 1.cfg \\# SECTION\n</code></pre>\nThe line numbers for all lines will be printed.  This can be useful for adding&#x2F;inserting sections.  The output can also be edited to work as an ed script.<p>Dump sections W-a1 and Y-c1<p><pre><code>    1.sh 1.cfg \\# SECTION [WY]-[ac]1\n</code></pre>\nThe line number for the section header will be printed.  This number, e.g., N-1, can be useful for adding&#x2F;inserting sections.<p>Dump section Y-c1 to a file for editing<p><pre><code>    1.sh 1.cfg \\# SECTION Y-ac1  &gt; edit.txt\n</code></pre>\nDelete section Y-c1<p><pre><code>    2.sh 1.cfg \\# SECTION Y-c1\n</code></pre>\nInsert edited&#x2F;new section into config file<p><pre><code>    3.sh 1.cfg 9 &lt; edit.txt \n</code></pre>\n9 is the line number where we want the section inserted",
+      "time": 1637104943,
+      "title": "Manage/edit large, complex configuration files with sed and ed",
+      "type": "story"
+    },
+    {
+      "by": "prdonahue",
+      "descendants": 0,
+      "id": 29247524,
+      "score": 1,
+      "time": 1637104897,
+      "title": "Cutting Cloud Costs at Cloudflare with Matthew Prince",
+      "type": "story",
+      "url": "https://www.lastweekinaws.com/podcast/screaming-in-the-cloud/cutting-cloud-costs-at-cloudflare-with-matthew-prince/"
+    },
+    {
+      "by": "ColinWright",
+      "descendants": 0,
+      "id": 29247520,
+      "score": 1,
+      "time": 1637104875,
+      "title": "Proofs to Make You Go Wow",
+      "type": "story",
+      "url": "https://www.solipsys.co.uk/new/ProofsToMakeYouGoWOW.html?UK16HN"
+    },
+    {
+      "by": "davesailer",
+      "descendants": 0,
+      "id": 29247518,
+      "score": 1,
+      "time": 1637104864,
+      "title": "Twisted, 3k-horsepower Chaos Ultracar offers a glimpse of the future",
+      "type": "story",
+      "url": "https://newatlas.com/automotive/spyros-panopoulos-chaos-ultracar/"
+    },
+    {
       "by": "ilamont",
       "descendants": 0,
       "id": 29247485,
@@ -14,7 +84,7 @@
       "by": "1cvmask",
       "descendants": 0,
       "id": 29247477,
-      "score": 1,
+      "score": 2,
       "time": 1637104558,
       "title": "Russia admits to anti-satellite missile test but denies ‘dangerous behavior’",
       "type": "story",
@@ -29,76 +99,6 @@
       "title": "Four-Inch Scorpions Called Deathstalkers Descend on Egypt",
       "type": "story",
       "url": "https://www.nytimes.com/2021/11/15/world/middleeast/scorpions-egypt.html"
-    },
-    {
-      "by": "monav",
-      "descendants": 0,
-      "id": 29247445,
-      "score": 1,
-      "text": "Is there anyone taking ENGR108* at Stanford who can share the list of assigned homework problems?  The version on internet archive (http:&#x2F;&#x2F;web.archive.org&#x2F;web&#x2F;20201026085412&#x2F;https:&#x2F;&#x2F;web.stanford.edu&#x2F;class&#x2F;engr108&#x2F;homework.html) covers only through Homework 6 (or Chapter 12).  Would love to know the rest of the assigned problems posted this quarter.<p>*https:&#x2F;&#x2F;stanford.edu&#x2F;class&#x2F;engr108&#x2F;index.html",
-      "time": 1637104348,
-      "title": "Ask HN: Stanford ENGR108 Homework Assigned?",
-      "type": "story"
-    },
-    {
-      "by": "exotree",
-      "descendants": 0,
-      "id": 29247435,
-      "score": 1,
-      "time": 1637104263,
-      "title": "Plaid Introduces Open Finance Data Security Standard (Ofdss)",
-      "type": "story",
-      "url": "https://finledger.com/2021/11/16/plaid-fintech-coalition-establish-63-security-requirements-for-open-banking/"
-    },
-    {
-      "by": "Jugurtha",
-      "descendants": 0,
-      "id": 29247430,
-      "score": 1,
-      "time": 1637104237,
-      "title": "India Pakistan Wagah Attari Border Closing Ceremony [video][2m:36s]",
-      "type": "story",
-      "url": "https://www.youtube.com/watch?v=LZ0ue-XGl9c"
-    },
-    {
-      "by": "oldstrangers",
-      "descendants": 0,
-      "id": 29247427,
-      "score": 1,
-      "time": 1637104209,
-      "title": "Stop Using the Word “Digital”",
-      "type": "story",
-      "url": "https://zchry.org/stop-using-the-word-digital/"
-    },
-    {
-      "by": "radus",
-      "descendants": 0,
-      "id": 29247421,
-      "score": 1,
-      "time": 1637104154,
-      "title": "ಠ_ಠ Looks of Disapproval and More",
-      "type": "story",
-      "url": "https://looks.wtf/"
-    },
-    {
-      "by": "el_benhameen",
-      "descendants": 0,
-      "id": 29247413,
-      "score": 1,
-      "time": 1637104085,
-      "title": "Toronto is home to the world’s largest lake-powered cooling system",
-      "type": "story",
-      "url": "https://www.washingtonpost.com/climate-solutions/interactive/2021/toronto-deep-latke-water-cooling-raptors/"
-    },
-    {
-      "by": "awwstn",
-      "descendants": 0,
-      "id": 29247406,
-      "score": 1,
-      "time": 1637104029,
-      "title": "Show HN: An audio-only social network for iOS",
-      "type": "story",
-      "url": "https://racket.com"
     }
   ]
 }
