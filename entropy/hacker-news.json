@@ -1,5 +1,66 @@
 {
   "stories": [
+    null,
+    {
+      "by": "chirau",
+      "descendants": 0,
+      "id": 29257674,
+      "score": 1,
+      "text": "So I have been building a few trading bots for a while. Not super complex, but I get the gist of it. All of them have been in Python. I&#x27;d ingest both streaming and historical stock data from like an Alpaca or Polygon and do some transformations with pandas and some very basic technical analysis with Python libraries like ta and bta-lib then push trade signals with some combination of AWS lambda and&#x2F;or TradingView and so on. Up until now, I have managed to do this almost completely in Python (maybe some JS here and there, but nothing significant).<p>Now, recently, I have been thinking about partnering with a guy who is absolutely great at data science and analysis. He is an older well seasoned guy who only operates in Fortran as his background was engineering. We are now trying to see how we can work with each other. He has worked with both large data sets and streamed sensors data. However, he has no knowledge of internet protocols or these fancy APIs or how to ultimately implement his analysis into actual order execution. We are in the process of exploring if and how we can work together.<p>So as we are currently thinking through it. I would be setting up the ingest pipeline and the storage infrastructure. He would be doing the technical analysis. I don&#x27;t know if Fortran has some good http libraries for actual trade signaling and order execution, so I am guessing I would be taking care of that part as well. Also, I haven&#x27;t worked with compiled languages in my pipelines.<p>So my ask is advice on how to set this up.<p>How can I have the Fortran technical analysis part communicate with both the ingest (especially streaming data) and the signaling and trade execution parts?<p>What sort of things and libraries should I be looking out for?<p>Would introducing microservices into my otherwise monolothic architecture help?<p>Or does pub-sub work better? Doing pub-sub with Fortran, is that a thing?<p>I couldn&#x27;t find any documentation on working Fortran with AWS lambda, or exposing endpoints with Fortran, so does this mean I would have to introduce another intermediary store for generated signals and then work with those with Python?<p>Honestly, any criticism or advice would be greatly appreciated. I know I could try to learn Fortran, but I am trying to avoid that if possible. It takes a really long time to know the ins and outs of a language.<p>So even just a high level description like &quot;ingest with this, store like that, expose with this, analyze with that, push with this, execute with that&quot; would help greatly. I really want to understand how to work with different languages, especially compiled, at different parts of a pipeline. So I am guessing this question can also be applied to C++, GoLang or Java.<p>Thank you for taking time to read this.",
+      "time": 1637177070,
+      "title": "Ask HN: Integrating Fortran technical analysis stage in Python trading pipeline",
+      "type": "story"
+    },
+    {
+      "by": "leephillips",
+      "descendants": 0,
+      "id": 29257664,
+      "score": 1,
+      "time": 1637177026,
+      "title": "Comparing Julia to Performance Portable Parallel Programming Models for HPC [pdf]",
+      "type": "story",
+      "url": "https://scwpub21:conf21%2f%2f@conferences.computer.org/scwpub/pdfs/PMBS2021-vSqRXl4nJSV5KT4jWO5cW/111800a094/111800a094.pdf"
+    },
+    {
+      "by": "gmays",
+      "descendants": 0,
+      "id": 29257659,
+      "score": 1,
+      "time": 1637177012,
+      "title": "Carbon dioxide cold traps on the moon are confirmed for the first time",
+      "type": "story",
+      "url": "https://phys.org/news/2021-11-carbon-dioxide-cold-moon.html"
+    },
+    {
+      "by": "alexkehr",
+      "descendants": 0,
+      "id": 29257655,
+      "score": 1,
+      "time": 1637177006,
+      "title": "Show HN: We built something like OG Foursquare, but you earn when you post",
+      "type": "story",
+      "url": "https://pass.superlocal.com/"
+    },
+    {
+      "by": "lastofthemojito",
+      "descendants": 0,
+      "id": 29257653,
+      "score": 1,
+      "time": 1637176995,
+      "title": "Keep it chill this holiday with new tools from Google Maps",
+      "type": "story",
+      "url": "https://blog.google/products/maps/keep-it-chill-holiday-new-tools-google-maps/"
+    },
+    {
+      "by": "gknight",
+      "descendants": 0,
+      "id": 29257610,
+      "score": 1,
+      "time": 1637176801,
+      "title": "Did the Y2K Bug Cause Any Problems?",
+      "type": "story",
+      "url": "https://www.cs.swarthmore.edu/~eroberts/cs91/projects/y2k/Y2K_Errors.html"
+    },
     {
       "by": "jamgraham",
       "descendants": 0,
@@ -29,79 +90,6 @@
       "title": "Activision CEO Bobby Kotick Knew for Years About Sexual-Misconduct Allegations",
       "type": "story",
       "url": "https://www.wsj.com/articles/activision-videogames-bobby-kotick-sexual-misconduct-allegations-11637075680"
-    },
-    {
-      "by": "SQL2219",
-      "descendants": 0,
-      "id": 29257567,
-      "score": 3,
-      "time": 1637176603,
-      "title": "Biden: U.S. does not support 'Taiwan independence'",
-      "type": "story",
-      "url": "https://news.cgtn.com/news/2021-11-16/Biden-says-U-S-does-not-support-Taiwan-independence-forces--15ewd2B8rqU/index.html"
-    },
-    {
-      "by": "brianforde",
-      "descendants": 0,
-      "id": 29257552,
-      "score": 2,
-      "time": 1637176544,
-      "title": "Using deepfakes to 10x our investor's outreach to recruit our Sr Designer",
-      "type": "story",
-      "url": "https://numero.ai/how-we-used-deepfakes-to-10x-our-investors-alexis-ohanian-garry-tan-for-recruiting/"
-    },
-    {
-      "by": "thunderbong",
-      "descendants": 0,
-      "id": 29257526,
-      "score": 1,
-      "time": 1637176444,
-      "title": "With rollout of 21H2, Microsoft moves Windows 10 to annual updates",
-      "type": "story",
-      "url": "https://www.zdnet.com/article/with-rollout-of-21h2-microsoft-moves-windows-10-to-annual-updates/"
-    },
-    {
-      "by": "gk1",
-      "descendants": 0,
-      "id": 29257523,
-      "score": 1,
-      "time": 1637176423,
-      "title": "Search like you mean it: Semantic search with NLP and vector databases [video]",
-      "type": "story",
-      "url": "https://www.youtube.com/watch?v=7RF03_WQJpQ"
-    },
-    {
-      "by": "yessirwhatever",
-      "descendants": 0,
-      "id": 29257522,
-      "score": 1,
-      "time": 1637176420,
-      "title": "Building the world’s largest Raspberry Pi cluster (2020)",
-      "type": "story",
-      "url": "https://blogs.oracle.com/developers/post/building-the-worlds-largest-raspberry-pi-cluster"
-    },
-    {
-      "by": "kordlessagain",
-      "descendants": 1,
-      "id": 29257510,
-      "kids": [
-        29257521
-      ],
-      "score": 1,
-      "time": 1637176390,
-      "title": "To create AGI, we need a new theory of intelligence",
-      "type": "story",
-      "url": "https://venturebeat.com/2021/08/08/to-create-agi-we-need-a-new-theory-of-intelligence/"
-    },
-    {
-      "by": "IronicallySerio",
-      "descendants": 0,
-      "id": 29257505,
-      "score": 1,
-      "time": 1637176375,
-      "title": "P4 to Git converter written in C++ that runs 100x faster than Git-p4.py",
-      "type": "story",
-      "url": "https://github.com/salesforce/p4-fusion"
     }
   ]
 }
