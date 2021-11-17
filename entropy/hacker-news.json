@@ -1,6 +1,39 @@
 {
   "stories": [
     {
+      "by": "ruebenramirez",
+      "descendants": 1,
+      "id": 29257954,
+      "kids": [
+        29257955
+      ],
+      "score": 1,
+      "time": 1637178288,
+      "title": "Nebulaworks is hiring Senior Cloud Engineers",
+      "type": "story",
+      "url": "https://www.nebulaworks.com/careers/"
+    },
+    {
+      "by": "rmason",
+      "descendants": 0,
+      "id": 29257902,
+      "score": 2,
+      "time": 1637178111,
+      "title": "Ford, Purdue Cooling Patent Could Charge EVs as Fast as Gas Station Fill-Ups",
+      "type": "story",
+      "url": "https://www.thedrive.com/tech/43155/ford-purdue-cooling-patent-could-charge-evs-as-fast-as-gas-station-fill-ups"
+    },
+    {
+      "by": "thunderbong",
+      "descendants": 0,
+      "id": 29257882,
+      "score": 1,
+      "time": 1637178010,
+      "title": "Microsoft starts rolling out a new Media Player for Windows 11",
+      "type": "story",
+      "url": "https://www.techbard.in/2021/11/microsoft-starts-rolling-out-new-media-player-for-windows-11.html"
+    },
+    {
       "by": "xupianpian1",
       "descendants": 0,
       "id": 29257870,
@@ -19,7 +52,7 @@
       ],
       "score": 1,
       "time": 1637177951,
-      "title": "Show HN: Shellhook – turn any command into a HTTP API",
+      "title": "Show HN: Shellhook – turn any shell command into a HTTP API",
       "type": "story",
       "url": "https://shellhook.com"
     },
@@ -72,39 +105,6 @@
       "title": "Genetic “Dark Matter” – Is Critical to Survival in Mammals",
       "type": "story",
       "url": "https://scitechdaily.com/so-called-junk-dna-genetic-dark-matter-is-actually-critical-to-survival-in-mammals/"
-    },
-    {
-      "by": "Arathorn",
-      "descendants": 0,
-      "id": 29257685,
-      "score": 1,
-      "time": 1637177117,
-      "title": "A new list of public Matrix homeservers",
-      "type": "story",
-      "url": "https://austinhuang.me/matrix-homeservers.html"
-    },
-    {
-      "by": "chirau",
-      "descendants": 0,
-      "id": 29257674,
-      "score": 1,
-      "text": "So I have been building a few trading bots for a while. Not super complex, but I get the gist of it. All of them have been in Python. I&#x27;d ingest both streaming and historical stock data from like an Alpaca or Polygon and do some transformations with pandas and some very basic technical analysis with Python libraries like ta and bta-lib then push trade signals with some combination of AWS lambda and&#x2F;or TradingView and so on. Up until now, I have managed to do this almost completely in Python (maybe some JS here and there, but nothing significant).<p>Now, recently, I have been thinking about partnering with a guy who is absolutely great at data science and analysis. He is an older well seasoned guy who only operates in Fortran as his background was engineering. We are now trying to see how we can work with each other. He has worked with both large data sets and streamed sensors data. However, he has no knowledge of internet protocols or these fancy APIs or how to ultimately implement his analysis into actual order execution. We are in the process of exploring if and how we can work together.<p>So as we are currently thinking through it. I would be setting up the ingest pipeline and the storage infrastructure. He would be doing the technical analysis. I don&#x27;t know if Fortran has some good http libraries for actual trade signaling and order execution, so I am guessing I would be taking care of that part as well. Also, I haven&#x27;t worked with compiled languages in my pipelines.<p>So my ask is advice on how to set this up.<p>How can I have the Fortran technical analysis part communicate with both the ingest (especially streaming data) and the signaling and trade execution parts?<p>What sort of things and libraries should I be looking out for?<p>Would introducing microservices into my otherwise monolothic architecture help?<p>Or does pub-sub work better? Doing pub-sub with Fortran, is that a thing?<p>I couldn&#x27;t find any documentation on working Fortran with AWS lambda, or exposing endpoints with Fortran, so does this mean I would have to introduce another intermediary store for generated signals and then work with those with Python?<p>Honestly, any criticism or advice would be greatly appreciated. I know I could try to learn Fortran, but I am trying to avoid that if possible. It takes a really long time to know the ins and outs of a language.<p>So even just a high level description like &quot;ingest with this, store like that, expose with this, analyze with that, push with this, execute with that&quot; would help greatly. I really want to understand how to work with different languages, especially compiled, at different parts of a pipeline. So I am guessing this question can also be applied to C++, GoLang or Java.<p>Thank you for taking time to read this.",
-      "time": 1637177070,
-      "title": "Ask HN: Integrating Fortran technical analysis stage in Python trading pipeline",
-      "type": "story"
-    },
-    {
-      "by": "leephillips",
-      "descendants": 1,
-      "id": 29257664,
-      "kids": [
-        29257746
-      ],
-      "score": 3,
-      "time": 1637177026,
-      "title": "Comparing Julia to Performance Portable Parallel Programming Models for HPC [pdf]",
-      "type": "story",
-      "url": "https://scwpub21:conf21%2f%2f@conferences.computer.org/scwpub/pdfs/PMBS2021-vSqRXl4nJSV5KT4jWO5cW/111800a094/111800a094.pdf"
     }
   ]
 }
