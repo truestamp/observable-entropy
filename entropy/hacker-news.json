@@ -1,6 +1,76 @@
 {
   "stories": [
     {
+      "by": "firebaze",
+      "descendants": 0,
+      "id": 29269748,
+      "score": 1,
+      "time": 1637265805,
+      "title": "Could Mars be punched onto a collision course with Earth?",
+      "type": "story",
+      "url": "https://worldbuilding.stackexchange.com/questions/217685/could-mars-be-punched-onto-a-collision-course-with-earth/217700#217700"
+    },
+    {
+      "by": "vanilla-almond",
+      "descendants": 0,
+      "id": 29269746,
+      "score": 1,
+      "text": "Is anyone using SQLite for server&#x2F;client web apps?<p>SQLite was not designed for the server&#x2F;client model. However, the simplicity and speed of SQLite makes it appealing for small-to-medium dynamic websites.<p>True client&#x2F;server databases like PostgreSQL bring with them advanced capabilities but also complexity in installation and maintenance.<p>Below are some extracts are from the SQLite FAQ: https:&#x2F;&#x2F;sqlite.org&#x2F;whentouse.html<p>---<p><i>Websites</i><p>...The SQLite website uses SQLite itself, of course, and as of this writing (2015) it handles about 400K to 500K HTTP requests per day, about 15-20% of which are dynamic pages touching the database. Dynamic content uses about 200 SQL statements per webpage. This setup runs on a single VM that shares a physical server with 23 others and yet still keeps the load average below 0.1 most of the time.<p><i>Server-side database</i><p>...Developers report that SQLite is often faster than a client&#x2F;server SQL database engine in this scenario. Database requests are serialized by the server, so concurrency is not an issue. Concurrency is also improved by &quot;database sharding&quot;: using separate database files for different subdomains. For example, the server might have a separate SQLite database for each user, so that the server can handle hundreds or thousands of simultaneous connections, but each SQLite database is only used by one connection.<p>---<p>So, can SQLite work with dynamic sites that require writing to the database for many users at the same time?<p>- Has anyone had success doing this? How did you achieve it?<p>- Conversely, did anyone ditch SQLite and adopt a different client&#x2F;server database e.g. PostgreSQL, MySQL etc?",
+      "time": 1637265797,
+      "title": "Ask HN: Using SQLite for server/client web apps?",
+      "type": "story"
+    },
+    {
+      "by": "bookofjoe",
+      "descendants": 0,
+      "id": 29269738,
+      "score": 1,
+      "time": 1637265764,
+      "title": "In Dialogue",
+      "type": "story",
+      "url": "https://www.crummy.com/software/NaNoGenMo-2013/"
+    },
+    {
+      "by": "incanus77",
+      "descendants": 0,
+      "id": 29269720,
+      "score": 1,
+      "time": 1637265705,
+      "title": "Langterm",
+      "type": "story",
+      "url": "https://github.com/statico/langterm"
+    },
+    {
+      "by": "jacquesm",
+      "descendants": 0,
+      "id": 29269719,
+      "score": 1,
+      "time": 1637265700,
+      "title": "Vive La Révolution: Comparing U.S. Inequality with 1789 France",
+      "type": "story",
+      "url": "https://www.polljuice.com/vive-la-revolution-comparing-u-s-inequality-with-1789-france/"
+    },
+    {
+      "by": "winkywooster",
+      "descendants": 0,
+      "id": 29269716,
+      "score": 1,
+      "time": 1637265684,
+      "title": "Open English WordNet – 2021 Edition Released",
+      "type": "story",
+      "url": "https://linguistlist.org/issues/32/32-3626/"
+    },
+    {
+      "by": "lord_sudo",
+      "descendants": 0,
+      "id": 29269708,
+      "score": 5,
+      "time": 1637265630,
+      "title": "Sequoia Capital Consumer Privacy and Autonomy Thesis",
+      "type": "story",
+      "url": "https://app.skiff.org/docs/62565b38-a7e4-4afa-b615-d9e664db4507#Qzy8P7m1BU05fVa2nYOy1+CAs+9T8ZCmbp9sTZZjFqQ="
+    },
+    {
       "by": "rustoo",
       "descendants": 0,
       "id": 29269699,
@@ -14,7 +84,7 @@
       "by": "DocFeind",
       "descendants": 0,
       "id": 29269696,
-      "score": 1,
+      "score": 2,
       "time": 1637265557,
       "title": "Robinhood WalletsAlpha program has begun",
       "type": "story",
@@ -29,79 +99,6 @@
       "title": "Trade group charges Amazon is pulling the wool over consumers' eyes, sues",
       "type": "story",
       "url": "https://www.universalhub.com/2021/boston-based-trade-group-charges-amazon-pulling"
-    },
-    {
-      "by": "dangreenisrael",
-      "descendants": 1,
-      "id": 29269666,
-      "kids": [
-        29269667
-      ],
-      "score": 1,
-      "time": 1637265441,
-      "title": "The audiobooks that helped me succeed when I became a manager",
-      "type": "story",
-      "url": "https://medium.com/engineering-at-wave/top-audiobooks-for-new-managers-50c76a0bd851"
-    },
-    {
-      "by": "mooreds",
-      "descendants": 0,
-      "id": 29269663,
-      "score": 1,
-      "time": 1637265429,
-      "title": "The Angular Mini-Book 1.0 is now available",
-      "type": "story",
-      "url": "https://raibledesigns.com/rd/entry/the_angular_mini_book_1"
-    },
-    {
-      "by": "jger15",
-      "descendants": 0,
-      "id": 29269657,
-      "score": 1,
-      "time": 1637265392,
-      "title": "Sam Altman interviews Tyler Cowen about AI [audio]",
-      "type": "story",
-      "url": "https://soundcloud.com/sam-altman-543613753/tyleropenai"
-    },
-    {
-      "by": "tanelpoder",
-      "descendants": 0,
-      "id": 29269653,
-      "score": 1,
-      "time": 1637265347,
-      "title": "Achieving 10 GB/S Scanning Rate in a Single Cloud VM",
-      "type": "story",
-      "url": "https://tanelpoder.com/posts/achieving-over-10gbytes-scanning-rate-in-the-cloud/"
-    },
-    {
-      "by": "PaulHoule",
-      "descendants": 0,
-      "id": 29269642,
-      "score": 1,
-      "time": 1637265271,
-      "title": "Aerostat: Russia's new anti-missile and anti-space missile",
-      "type": "story",
-      "url": "https://www.thespacereview.com/article/4262/1"
-    },
-    {
-      "by": "lukastyrychtr",
-      "descendants": 0,
-      "id": 29269637,
-      "score": 1,
-      "time": 1637265257,
-      "title": "Customize Python dependency resolution with machine learning",
-      "type": "story",
-      "url": "https://developers.redhat.com/articles/2021/11/17/customize-python-dependency-resolution-machine-learning"
-    },
-    {
-      "by": "warrenm",
-      "descendants": 0,
-      "id": 29269633,
-      "score": 1,
-      "time": 1637265244,
-      "title": "Secure Quick Reliable Login",
-      "type": "story",
-      "url": "https://www.grc.com/sqrl/sqrl.htm"
     }
   ]
 }
