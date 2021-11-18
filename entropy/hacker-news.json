@@ -1,6 +1,35 @@
 {
   "stories": [
-    null,
+    {
+      "by": "aberoham",
+      "descendants": 0,
+      "id": 29263961,
+      "score": 1,
+      "time": 1637231046,
+      "title": "C Is the Greenest Programming Language",
+      "type": "story",
+      "url": "https://hackaday.com/2021/11/18/c-is-the-greenest-programming-language/"
+    },
+    {
+      "by": "mdp2021",
+      "descendants": 0,
+      "id": 29263945,
+      "score": 1,
+      "time": 1637230845,
+      "title": "Covid Can Cause Strange Eye and Ear Symptoms",
+      "type": "story",
+      "url": "https://www.scientificamerican.com/article/covid-can-cause-strange-eye-and-ear-symptoms/"
+    },
+    {
+      "by": "RageoftheRobots",
+      "descendants": 0,
+      "id": 29263941,
+      "score": 1,
+      "time": 1637230798,
+      "title": "It’s Not Irrational to Party Like It’s 1999",
+      "type": "story",
+      "url": "https://nautil.us/issue/108/change/its-not-irrational-to-party-like-its-1999"
+    },
     {
       "by": "nikivi",
       "descendants": 0,
@@ -63,33 +92,17 @@
     },
     {
       "by": "2bor-2n",
-      "descendants": 0,
+      "descendants": 1,
       "id": 29263875,
-      "score": 1,
+      "kids": [
+        29263960,
+        29263946
+      ],
+      "score": 2,
       "text": "I am working on a SPA for the last 6 months. The frontend stack is jQuery and vanilla JavaScript for the most part.<p>The product is actually good and the code base is huge. Most of my time goes into identifying and fixing bugs, I also get to work on new user stories but since I am new on the product I am mostly assigned bugs and doing testing so I can get familiar with the product. The good part is I got to learn core concepts of JavaScript like OOP in JS, how prototypes work in JS etc.<p>React and other frontend frameworks are all the rage nowadays and I am afraid if I keep working with the old stack and don&#x27;t update my technical knowledge in line with new industry trends then it&#x27;s going to hurt my career in the future.<p>I am confused about what to do, should I start looking for a job where react or some other framework is being used on the frontend or keep on the current job for now?",
       "time": 1637229965,
       "title": "Ask HN: Is working on an old front end stack going to hurt my career",
       "type": "story"
-    },
-    {
-      "by": "Avalaxy",
-      "descendants": 0,
-      "id": 29263856,
-      "score": 1,
-      "text": "Hi,<p>I&#x27;m working on an IoT platform that has to receive, transform, store and visualize IoT data in a user-friendly dashboard. I&#x27;m currently using the Azure stack (stream analytics, data lake, SQL server, Power BI) but I&#x27;m running into major limitations and bugs so I&#x27;m looking for new tools that will help me out.<p>We&#x27;re currently doing about 500M events per year, but this needs to scale WAY higher (the customer wants to retain detailed data for up to a year, but I question if that&#x27;s realistic and if that&#x27;s how others do it. Seems more sensible to me to aggregate data to compact it a bit). Whatever new setup I come up with has to be able to scale to at least 10B events per year, unless you all say it&#x27;s impossible and I should just not try to store&#x2F;visualize&#x2F;analyze so much data. But I don&#x27;t know what best-practices are.<p>I&#x27;m looking for ideas for what kind of tools I could use for storing the data, stream processing and for visualizing it all, and maybe some ideas for how they would work together.<p>Thanks a bunch in advance!",
-      "time": 1637229770,
-      "title": "Ask HN: What stack/architecture do you use for scalable IoT/stream processing?",
-      "type": "story"
-    },
-    {
-      "by": "ingve",
-      "descendants": 0,
-      "id": 29263855,
-      "score": 1,
-      "time": 1637229764,
-      "title": "Getting to Know ARM64EC: Defines and Intrinsic Functions",
-      "type": "story",
-      "url": "https://techcommunity.microsoft.com/t5/windows-kernel-internals/getting-to-know-arm64ec-defines-and-intrinsic-functions/ba-p/2957235"
     }
   ]
 }
