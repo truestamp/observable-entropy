@@ -1,9 +1,77 @@
 {
   "stories": [
     {
-      "by": "ChrisArchitect",
+      "by": "tobltobs",
       "descendants": 0,
+      "id": 29269864,
+      "score": 1,
+      "time": 1637266391,
+      "title": "Apple accelerating plans to make a fully self-driving car",
+      "type": "story",
+      "url": "https://www.macworld.com/article/553055/apple-car-self-driving-release.html"
+    },
+    {
+      "by": "samstave",
+      "descendants": 1,
+      "id": 29269863,
+      "kids": [
+        29269894
+      ],
+      "score": 2,
+      "time": 1637266388,
+      "title": "Ask HN: Theranos; Premeditated, or just rolled up in the mess?",
+      "type": "story"
+    },
+    {
+      "by": "rootforce",
+      "descendants": 0,
+      "id": 29269859,
+      "score": 1,
+      "time": 1637266376,
+      "title": "Cfplot – Waterfall plots for Cloudformation stacks",
+      "type": "story",
+      "url": "https://github.com/jaredtrog/cfplot"
+    },
+    {
+      "by": "curmudgeon22",
+      "descendants": 1,
+      "id": 29269851,
+      "kids": [
+        29269867
+      ],
+      "score": 1,
+      "time": 1637266362,
+      "title": "Is Microsoft Stealing People’s Bookmarks?",
+      "type": "story",
+      "url": "https://www.schneier.com/blog/archives/2021/11/is-microsoft-stealing-peoples-bookmarks.html"
+    },
+    {
+      "by": "erentz",
+      "descendants": 0,
+      "id": 29269841,
+      "score": 1,
+      "time": 1637266304,
+      "title": "Opinion: Closing California’s last nuclear power plant would be a mistake",
+      "type": "story",
+      "url": "https://www.washingtonpost.com/opinions/2021/11/16/closing-californias-last-nuclear-power-plant-would-be-mistake/"
+    },
+    {
+      "by": "herpderperator",
+      "descendants": 0,
+      "id": 29269827,
+      "score": 2,
+      "time": 1637266229,
+      "title": "Farming Software Maker Valued at $4B in Round",
+      "type": "story",
+      "url": "https://www.bloomberg.com/news/articles/2021-11-18/farming-software-maker-said-to-be-valued-at-4-billion-in-round"
+    },
+    {
+      "by": "ChrisArchitect",
+      "descendants": 1,
       "id": 29269807,
+      "kids": [
+        29269817
+      ],
       "score": 1,
       "time": 1637266147,
       "title": "The Ocean Cleanup Proves Viability of Technology with System 002",
@@ -39,66 +107,6 @@
       "title": "Show HN: Markus – iOS app to share and discuss email (Gmail) via chat",
       "type": "story",
       "url": "https://testflight.apple.com/join/oaxL6czG"
-    },
-    {
-      "by": "eatonphil",
-      "descendants": 0,
-      "id": 29269777,
-      "score": 1,
-      "text": "It&#x27;s common to see die photos on Wikipedia [0, for example] and tech twitter. I understand the basics of processors (I built a basic one in school using Logisim and I&#x27;ve made a few emulators since then). But die photos don&#x27;t really mean anything to me. I don&#x27;t know if they even mean anything to other hardware engineers who didn&#x27;t build the particular chip.<p>But for fear of missing out I&#x27;m wondering if it&#x27;s possible (and if there&#x27;s a good way) to learn to read die photos.<p>Any suggestions?<p>[0] https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;MOS_Technology_6502#Detailed_behavior",
-      "time": 1637265932,
-      "title": "Ask HN: How to learn to read processor die photos?",
-      "type": "story"
-    },
-    {
-      "by": "firebaze",
-      "descendants": 0,
-      "id": 29269748,
-      "score": 1,
-      "time": 1637265805,
-      "title": "Could Mars be punched onto a collision course with Earth?",
-      "type": "story",
-      "url": "https://worldbuilding.stackexchange.com/questions/217685/could-mars-be-punched-onto-a-collision-course-with-earth/217700#217700"
-    },
-    {
-      "by": "vanilla-almond",
-      "descendants": 0,
-      "id": 29269746,
-      "score": 1,
-      "text": "Is anyone using SQLite for server&#x2F;client web apps?<p>SQLite was not designed for the server&#x2F;client model. However, the simplicity and speed of SQLite makes it appealing for small-to-medium dynamic websites.<p>True client&#x2F;server databases like PostgreSQL bring with them advanced capabilities but also complexity in installation and maintenance.<p>Below are some extracts are from the SQLite FAQ: https:&#x2F;&#x2F;sqlite.org&#x2F;whentouse.html<p>---<p><i>Websites</i><p>...The SQLite website uses SQLite itself, of course, and as of this writing (2015) it handles about 400K to 500K HTTP requests per day, about 15-20% of which are dynamic pages touching the database. Dynamic content uses about 200 SQL statements per webpage. This setup runs on a single VM that shares a physical server with 23 others and yet still keeps the load average below 0.1 most of the time.<p><i>Server-side database</i><p>...Developers report that SQLite is often faster than a client&#x2F;server SQL database engine in this scenario. Database requests are serialized by the server, so concurrency is not an issue. Concurrency is also improved by &quot;database sharding&quot;: using separate database files for different subdomains. For example, the server might have a separate SQLite database for each user, so that the server can handle hundreds or thousands of simultaneous connections, but each SQLite database is only used by one connection.<p>---<p>So, can SQLite work with dynamic sites that require writing to the database for many users at the same time?<p>- Has anyone had success doing this? How did you achieve it?<p>- Conversely, did anyone ditch SQLite and adopt a different client&#x2F;server database e.g. PostgreSQL, MySQL etc?",
-      "time": 1637265797,
-      "title": "Ask HN: Using SQLite for server/client web apps?",
-      "type": "story"
-    },
-    {
-      "by": "bookofjoe",
-      "descendants": 0,
-      "id": 29269738,
-      "score": 1,
-      "time": 1637265764,
-      "title": "In Dialogue",
-      "type": "story",
-      "url": "https://www.crummy.com/software/NaNoGenMo-2013/"
-    },
-    {
-      "by": "incanus77",
-      "descendants": 0,
-      "id": 29269720,
-      "score": 1,
-      "time": 1637265705,
-      "title": "Langterm",
-      "type": "story",
-      "url": "https://github.com/statico/langterm"
-    },
-    {
-      "by": "jacquesm",
-      "descendants": 0,
-      "id": 29269719,
-      "score": 1,
-      "time": 1637265700,
-      "title": "Vive La Révolution: Comparing U.S. Inequality with 1789 France",
-      "type": "story",
-      "url": "https://www.polljuice.com/vive-la-revolution-comparing-u-s-inequality-with-1789-france/"
     }
   ]
 }
