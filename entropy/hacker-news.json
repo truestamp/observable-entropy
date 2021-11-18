@@ -1,11 +1,64 @@
 {
   "stories": [
     {
+      "by": "virgulino",
+      "descendants": 0,
+      "id": 29271164,
+      "score": 1,
+      "time": 1637272749,
+      "title": "HACKtheMACHINE Unmanned",
+      "type": "story",
+      "url": "https://www.hackthemachine.ai"
+    },
+    {
+      "by": "empressplay",
+      "descendants": 0,
+      "id": 29271160,
+      "score": 1,
+      "time": 1637272734,
+      "title": "The Art of the Turtle",
+      "type": "story",
+      "url": "https://turtlespaces.org/2021/11/18/the-art-of-the-turtle/"
+    },
+    {
+      "by": "Leary",
+      "descendants": 0,
+      "id": 29271138,
+      "score": 1,
+      "time": 1637272544,
+      "title": "Dissecting the early Covid-19 cases in Wuhan",
+      "type": "story",
+      "url": "https://www.science.org/doi/10.1126/science.abm4454"
+    },
+    {
+      "by": "anm89",
+      "descendants": 1,
+      "id": 29271134,
+      "kids": [
+        29271166
+      ],
+      "score": 1,
+      "text": "I&#x27;ve got a startup that a friend and I are interested in pursuing in the international hospitality space. A core part of this idea involves purchasing land and doing physical building construction, In this case in Colombia.<p>We really believe in this idea and are willing to put a substantial chunk of our own savings behind it, about 750k, but we still need to raise another $1.5 million.<p>I feel like this does not check a lot of the boxes of what a VC firm would want. We believe that this is an awesome investment compared to let&#x27;s say buying the S&amp;P but in reality it&#x27;s probably never going to be a billion dollar company.<p>Any thoughts on how to approach fund raising for something that involves a substantial investment in physical assets and a lower risk, lower reward profile than the moonshots VCs are looking for?",
+      "time": 1637272528,
+      "title": "Ask HN: How to Pitch Startup that purchases land and builds",
+      "type": "story"
+    },
+    {
+      "by": "deepakkarki",
+      "descendants": 0,
+      "id": 29271132,
+      "score": 1,
+      "time": 1637272516,
+      "title": "Reading Silicon: How to Reverse Engineer Integrated Circuits",
+      "type": "story",
+      "url": "https://www.youtube.com/watch?v=aHx-XUA6f9g"
+    },
+    {
       "by": "cphoover",
       "descendants": 0,
       "id": 29271111,
       "score": 2,
-      "text": "Is there a process manager with a permissions model similar to Deno (the node.js alternative)?<p>From Deno&#x27;s documentation:<p>&gt; Deno is secure by default. Therefore, unless you specifically enable it, a program run with Deno has no file, network, or environment access. Access to security sensitive functionality requires that permissions have been granted to an executing script through command line flags, or a runtime permission prompt.<p>I think Deno is interesting in how it locks down permissions by default and only enables access to certain features via startup flags. For Example:<p>&gt; --allow-env=&lt;allow-env&gt; Allow environment access for things like getting and setting of environment variables. Since Deno 1.9, you can specify an optional, comma-separated list of environment variables to provide an allow-list of allowed environment variables.<p>&gt; --allow-hrtime Allow high-resolution time measurement. High-resolution time can be used in timing attacks and fingerprinting.<p>&gt; --allow-net=&lt;allow-net&gt; Allow network access. You can specify an optional, comma-separated list of IP addresses or hostnames (optionally with ports) to provide an allow-list of allowed network addresses.\n...<p>My question is... Is there a process manager, that can run any process (not just deno&#x2F;javascript application) that has a similar permissions model, where everything is locked down by default and you have to explicitly grant permission to your application to be able to have access to these functions that could pose a security threat.",
+      "text": "Is there a process manager with a permissions model similar to Deno (the node.js alternative)?<p>From Deno&#x27;s documentation:<p>&gt; Deno is secure by default. Therefore, unless you specifically enable it, a program run with Deno has no file, network, or environment access. Access to security sensitive functionality requires that permissions have been granted to an executing script through command line flags, or a runtime permission prompt.<p>I think Deno is interesting in how it locks down permissions by default and only enables access to certain features via startup flags. For Example:<p>&gt; --allow-env=&lt;allow-env&gt; Allow environment access for things like getting and setting of environment variables. Since Deno 1.9, you can specify an optional, comma-separated list of environment variables to provide an allow-list of allowed environment variables.<p>--allow-hrtime Allow high-resolution time measurement. High-resolution time can be used in timing attacks and fingerprinting.<p>--allow-net=&lt;allow-net&gt; Allow network access. You can specify an optional, comma-separated list of IP addresses or hostnames (optionally with ports) to provide an allow-list of allowed network addresses.<p>--allow-ffi Allow loading of dynamic libraries. Be aware that dynamic libraries are not run in a sandbox and therefore do not have the same security restrictions as the Deno process. Therefore, use with caution. Please note that<p>--allow-read=&lt;allow-read&gt; Allow file system read access. You can specify an optional, comma-separated list of directories or files to provide an allow-list of allowed file system access.<p>--allow-run=&lt;allow-run&gt; Allow running subprocesses. Since Deno 1.9, You can specify an optional, comma-separated list of subprocesses to provide an allow-list of allowed subprocesses. Be aware that subprocesses are not run in a sandbox and therefore do not have the same security restrictions as the Deno process. Therefore, use with caution.<p>--allow-write=&lt;allow-write&gt; Allow file system write access. You can specify an optional, comma-separated list of directories or files to provide an allow-list of allowed file system access.<p>-A, --allow-all Allow all permissions. This enables all security sensitive functions.<p>My question is... Is there a process manager, that can run any process (not just deno&#x2F;javascript application) that has a similar permissions model, where everything is locked down by default and you have to explicitly grant permission to your application to be able to have access to these functions that could pose a security threat.",
       "time": 1637272403,
       "title": "Ask HN: Is there a process manager with a permissions model similar to Deno?",
       "type": "story"
@@ -49,59 +102,6 @@
       "title": "Millionaire dog selling Miami villa",
       "type": "story",
       "url": "https://www.nbcnews.com/pop-culture/pop-culture-news/millionaire-dog-selling-miami-villa-owned-madonna-rcna6014"
-    },
-    {
-      "by": "RageoftheRobots",
-      "descendants": 0,
-      "id": 29271075,
-      "score": 1,
-      "time": 1637272196,
-      "title": "The Rise of 'Antiwork'",
-      "type": "story",
-      "url": "https://www.businessinsider.com/what-is-antiwork-workers-quit-dont-work-strike-better-conditions-2021-11"
-    },
-    {
-      "by": "kwikiel",
-      "descendants": 0,
-      "id": 29271050,
-      "score": 1,
-      "time": 1637272047,
-      "title": "It must be worth it even if it doesn't work",
-      "type": "story",
-      "url": "https://world.hey.com/dhh/it-must-be-worth-it-even-if-it-doesn-t-work-1e7f49fc"
-    },
-    {
-      "by": "gdrift",
-      "descendants": 1,
-      "id": 29271040,
-      "kids": [
-        29271105
-      ],
-      "score": 1,
-      "time": 1637272027,
-      "title": "Save the planet Program in C, avoid Python, Perl",
-      "type": "story",
-      "url": "https://www.cnx-software.com/2021/11/18/save-the-planet-program-in-c-avoid-python-perl/"
-    },
-    {
-      "by": "gigama",
-      "descendants": 0,
-      "id": 29271007,
-      "score": 1,
-      "time": 1637271846,
-      "title": "Help me if you can: founding a business doesn't have to be lonely",
-      "type": "story",
-      "url": "https://physicsworld.com/a/help-me-if-you-can-founding-a-business-doesnt-have-to-be-lonely/"
-    },
-    {
-      "by": "RageoftheRobots",
-      "descendants": 0,
-      "id": 29271006,
-      "score": 1,
-      "time": 1637271846,
-      "title": "A First-Principles Theory of Neural Network Generalization",
-      "type": "story",
-      "url": "https://bair.berkeley.edu/blog/2021/10/25/eigenlearning/"
     }
   ]
 }
