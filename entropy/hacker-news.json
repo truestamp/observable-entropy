@@ -1,10 +1,33 @@
 {
   "stories": [
     {
+      "by": "ingve",
+      "descendants": 0,
+      "id": 29263415,
+      "score": 1,
+      "time": 1637224963,
+      "title": "Native Implementation of Mutable Value Semantics",
+      "type": "story",
+      "url": "https://arxiv.org/abs/2106.12678"
+    },
+    {
+      "by": "jocho12",
+      "descendants": 0,
+      "id": 29263407,
+      "kids": [
+        29263430
+      ],
+      "score": 1,
+      "time": 1637224883,
+      "title": "LG Releases the First and Only Rollable TV",
+      "type": "story",
+      "url": "https://www.lg.com/us/tvs/lg-oled65r1pua-signature-oled-4k-tv"
+    },
+    {
       "by": "schizopathch",
       "descendants": 0,
       "id": 29263387,
-      "score": 1,
+      "score": 3,
       "time": 1637224667,
       "title": "How I Made 3k Followers on Medium in (A Little over) a Week",
       "type": "story",
@@ -45,8 +68,11 @@
     },
     {
       "by": "jiscariot",
-      "descendants": 0,
+      "descendants": 1,
       "id": 29263365,
+      "kids": [
+        29263424
+      ],
       "score": 1,
       "text": "Anyone have an experience with a cloud provider deleting your instances, volumes, resources, etc?<p>I work for a small org that utilizes a cloud provider (not top 3, but top 10).  Yesterday we noticed that all our instances, attached volumes, sec groups, network resources, from our Test and PROD environments had disappeared.  After scrambling we found an audit trail, that showed all the deletes were from an SRE working for the provider.  Apparently they were doing &quot;cleanup&quot; and somehow our account number became part of that.<p>We were told we needed to recreate everything from scratch shortly after opening a ticket.  Luckily we host our Terraform and config management on-prem, and a few snapshots and volumes they weren&#x27;t successful in deleting.  Still a lot of manual rebuilding as not everything is automated.<p>Two of us have been working to recover things for many hours.  Lower environments will likely take a lot longer.<p>Just curious if anyone else has had something like this occur.  I have a hard time gauging if this because our provider is lacking, of if this stuff occurs in top three as well.  Any recourse with the provider?  We are small potatoes (probably 100-120 hosted resources) so don&#x27;t have a lot of institutional weight to use.<p>The nonchalance coming from the vendor (at least initially) was pretty infuriating.  After that it was putting bodies on a zoom call, which were not much help for the most part.",
       "time": 1637224441,
@@ -71,7 +97,7 @@
         29263398,
         29263350
       ],
-      "score": 5,
+      "score": 6,
       "time": 1637223979,
       "title": "Biomarker predicts severity of Covid-19 infection early on",
       "type": "story",
@@ -86,26 +112,6 @@
       "title": "How bad is the Pacific north-west flooding and what caused it?",
       "type": "story",
       "url": "https://www.theguardian.com/environment/2021/nov/17/pacific-north-west-flooding-british-columbia-washington-state-canada"
-    },
-    {
-      "by": "_Microft",
-      "descendants": 0,
-      "id": 29263297,
-      "score": 2,
-      "time": 1637223553,
-      "title": "Science Upside for Starship",
-      "type": "story",
-      "url": "https://caseyhandmer.wordpress.com/2021/11/17/science-upside-for-starship/"
-    },
-    {
-      "by": "xz18r",
-      "descendants": 0,
-      "id": 29263289,
-      "score": 1,
-      "time": 1637223488,
-      "title": "Troublesome hybrid cloud scenarios are a problem of the past",
-      "type": "story",
-      "url": "https://www.awingu.com/awingu-as-a-hybrid-cloud-enabler/"
     }
   ]
 }
