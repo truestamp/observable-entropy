@@ -1,6 +1,66 @@
 {
   "stories": [
     {
+      "by": "cphoover",
+      "descendants": 0,
+      "id": 29271111,
+      "score": 2,
+      "text": "Is there a process manager with a permissions model similar to Deno (the node.js alternative)?<p>From Deno&#x27;s documentation:<p>&gt; Deno is secure by default. Therefore, unless you specifically enable it, a program run with Deno has no file, network, or environment access. Access to security sensitive functionality requires that permissions have been granted to an executing script through command line flags, or a runtime permission prompt.<p>I think Deno is interesting in how it locks down permissions by default and only enables access to certain features via startup flags. For Example:<p>&gt; --allow-env=&lt;allow-env&gt; Allow environment access for things like getting and setting of environment variables. Since Deno 1.9, you can specify an optional, comma-separated list of environment variables to provide an allow-list of allowed environment variables.<p>&gt; --allow-hrtime Allow high-resolution time measurement. High-resolution time can be used in timing attacks and fingerprinting.<p>&gt; --allow-net=&lt;allow-net&gt; Allow network access. You can specify an optional, comma-separated list of IP addresses or hostnames (optionally with ports) to provide an allow-list of allowed network addresses.\n...<p>My question is... Is there a process manager, that can run any process (not just deno&#x2F;javascript application) that has a similar permissions model, where everything is locked down by default and you have to explicitly grant permission to your application to be able to have access to these functions that could pose a security threat.",
+      "time": 1637272403,
+      "title": "Ask HN: Is there a process manager with a permissions model similar to Deno?",
+      "type": "story"
+    },
+    {
+      "by": "hongzi",
+      "descendants": 0,
+      "id": 29271109,
+      "score": 1,
+      "time": 1637272382,
+      "title": "Constitution DAO",
+      "type": "story",
+      "url": "https://twitter.com/ConstitutionDAO"
+    },
+    {
+      "by": "hongzi",
+      "descendants": 0,
+      "id": 29271102,
+      "score": 1,
+      "time": 1637272358,
+      "title": "Constitution bidding chill stream on Sotheby's",
+      "type": "story",
+      "url": "https://www.youtube.com/watch?v=1TBa-9Lx3vc"
+    },
+    {
+      "by": "t8e56vd4ih",
+      "descendants": 0,
+      "id": 29271099,
+      "score": 1,
+      "time": 1637272343,
+      "title": "Upcoming German Government Coalition Agrees on Legalizing Cannabis",
+      "type": "story",
+      "url": "https://www.spiegel.de/politik/deutschland/ampel-parteien-einigen-sich-auf-legalisierung-von-cannabis-a-216b328b-5746-4eb8-afe6-034ea7a05269"
+    },
+    {
+      "by": "tantalor",
+      "descendants": 0,
+      "id": 29271082,
+      "score": 1,
+      "time": 1637272244,
+      "title": "Millionaire dog selling Miami villa",
+      "type": "story",
+      "url": "https://www.nbcnews.com/pop-culture/pop-culture-news/millionaire-dog-selling-miami-villa-owned-madonna-rcna6014"
+    },
+    {
+      "by": "RageoftheRobots",
+      "descendants": 0,
+      "id": 29271075,
+      "score": 1,
+      "time": 1637272196,
+      "title": "The Rise of 'Antiwork'",
+      "type": "story",
+      "url": "https://www.businessinsider.com/what-is-antiwork-workers-quit-dont-work-strike-better-conditions-2021-11"
+    },
+    {
       "by": "kwikiel",
       "descendants": 0,
       "id": 29271050,
@@ -12,8 +72,11 @@
     },
     {
       "by": "gdrift",
-      "descendants": 0,
+      "descendants": 1,
       "id": 29271040,
+      "kids": [
+        29271105
+      ],
       "score": 1,
       "time": 1637272027,
       "title": "Save the planet Program in C, avoid Python, Perl",
@@ -39,66 +102,6 @@
       "title": "A First-Principles Theory of Neural Network Generalization",
       "type": "story",
       "url": "https://bair.berkeley.edu/blog/2021/10/25/eigenlearning/"
-    },
-    {
-      "by": "nrsapt",
-      "descendants": 0,
-      "id": 29270990,
-      "score": 1,
-      "time": 1637271799,
-      "title": "What’s New for Visual Basic in Visual Studio 2022",
-      "type": "story",
-      "url": "https://devblogs.microsoft.com/dotnet/whats-new-for-visual-basic-in-visual-studio-2022/"
-    },
-    {
-      "by": "latchkey",
-      "descendants": 0,
-      "id": 29270984,
-      "score": 1,
-      "text": "Like everyone else it seems, I just got my covid rescue dog, woo!<p>Took him to the vet, they scanned him and gave me his tracking chip number. That led me down the rabbit hole. There are 50+ services out there. Some are free, some are not (where you have to pay to update your address!? so very scammy).<p>Some websites are well designed, some are a train wreck. Some are connected to the American Animal Hospital Association [1] (which seems to be a central database, which then searches some subset of the total number of databases).<p>There also seems to be a whole paranoia about these chips [2], which I find fascinating. It is right up there with the Bill Gates vaccine tracking chip.<p>All in all, this seems like a complete mess that is ripe for disruption. If my dog is lost, finding his tracking number might depend on what database is searched! Registering for a bunch of sites also seems like a weird thing to do. What is your experience with this HN?<p>[1] https:&#x2F;&#x2F;www.aaha.org&#x2F;your-pet&#x2F;pet-microchip-lookup&#x2F;microchip-search&#x2F;<p>[2] https:&#x2F;&#x2F;www.foundanimals.org&#x2F;microchip-register&#x2F;#microchip-and-register",
-      "time": 1637271764,
-      "title": "Ask HN: Why are animal microchip databases such a mess?",
-      "type": "story"
-    },
-    {
-      "by": "jdkee",
-      "descendants": 0,
-      "id": 29270972,
-      "score": 1,
-      "time": 1637271699,
-      "title": "AR is where the real metaverse is going to happen",
-      "type": "story",
-      "url": "https://www.wired.com/story/john-hanke-niantic-augmented-reality-real-metaverse/"
-    },
-    {
-      "by": "spekcular",
-      "descendants": 0,
-      "id": 29270963,
-      "score": 1,
-      "time": 1637271637,
-      "title": "Futurists have their heads in the clouds",
-      "type": "story",
-      "url": "https://erikhoel.substack.com/p/futurists-have-their-heads-in-the"
-    },
-    {
-      "by": "drydenwilliams",
-      "descendants": 0,
-      "id": 29270960,
-      "score": 1,
-      "time": 1637271625,
-      "title": "How to make a website carbon neutral",
-      "type": "story",
-      "url": "https://ecoping.earth"
-    },
-    {
-      "by": "Dotnaught",
-      "descendants": 0,
-      "id": 29270953,
-      "score": 3,
-      "time": 1637271564,
-      "title": "Thousands of Firefox users accidentally commit login cookies on GitHub",
-      "type": "story",
-      "url": "https://www.theregister.com/2021/11/18/firefox_cookies_github/"
     }
   ]
 }
