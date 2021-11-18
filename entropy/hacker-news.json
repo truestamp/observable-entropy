@@ -1,6 +1,36 @@
 {
   "stories": [
     {
+      "by": "Avalaxy",
+      "descendants": 0,
+      "id": 29263856,
+      "score": 1,
+      "text": "Hi,<p>I&#x27;m working on an IoT platform that has to receive, transform, store and visualize IoT data in a user-friendly dashboard. I&#x27;m currently using the Azure stack (stream analytics, data lake, SQL server, Power BI) but I&#x27;m running into major limitations and bugs so I&#x27;m looking for new tools that will help me out.<p>We&#x27;re currently doing about 500M events per year, but this needs to scale WAY higher (the customer wants to retain detailed data for up to a year, but I question if that&#x27;s realistic and if that&#x27;s how others do it. Seems more sensible to me to aggregate data to compact it a bit). Whatever new setup I come up with has to be able to scale to at least 10B events per year, unless you all say it&#x27;s impossible and I should just not try to store&#x2F;visualize&#x2F;analyze so much data. But I don&#x27;t know what best-practices are.<p>I&#x27;m looking for ideas for what kind of tools I could use for storing the data, stream processing and for visualizing it all, and maybe some ideas for how they would work together.<p>Thanks a bunch in advance!",
+      "time": 1637229770,
+      "title": "Ask HN: What stack/architecture do you use for scalable IoT/stream processing?",
+      "type": "story"
+    },
+    {
+      "by": "ingve",
+      "descendants": 0,
+      "id": 29263855,
+      "score": 1,
+      "time": 1637229764,
+      "title": "Getting to Know ARM64EC: Defines and Intrinsic Functions",
+      "type": "story",
+      "url": "https://techcommunity.microsoft.com/t5/windows-kernel-internals/getting-to-know-arm64ec-defines-and-intrinsic-functions/ba-p/2957235"
+    },
+    {
+      "by": "mkl",
+      "descendants": 0,
+      "id": 29263850,
+      "score": 1,
+      "time": 1637229671,
+      "title": "Manchester City sign deal with mysterious cryptocurrency startup",
+      "type": "story",
+      "url": "https://www.theguardian.com/football/2021/nov/17/manchester-city-sign-partnership-deal-with-cryptocurrency-start-up"
+    },
+    {
       "by": "webmaven",
       "descendants": 0,
       "id": 29263831,
@@ -32,9 +62,12 @@
     },
     {
       "by": "mgh2",
-      "descendants": 0,
+      "descendants": 1,
       "id": 29263795,
-      "score": 1,
+      "kids": [
+        29263861
+      ],
+      "score": 2,
       "time": 1637228983,
       "title": "Much of Bitcoin’s 2017 boom was market manipulation, research says (2018)",
       "type": "story",
@@ -69,36 +102,6 @@
       "title": "Labeling Interactive Maps [pdf]",
       "type": "story",
       "url": "https://elib.uni-stuttgart.de/bitstream/11682/11478/1/phd_thesis-filip_krumpe-final.pdf"
-    },
-    {
-      "by": "Tomte",
-      "descendants": 0,
-      "id": 29263761,
-      "score": 1,
-      "time": 1637228704,
-      "title": "Allegations of bigotry and calls for impeachment rock College Democrats",
-      "type": "story",
-      "url": "https://www.politico.com/news/2021/11/17/college-democrats-of-america-dnc-522864"
-    },
-    {
-      "by": "jorangreef",
-      "descendants": 0,
-      "id": 29263708,
-      "score": 3,
-      "time": 1637228102,
-      "title": "Connecting the Internet Economy",
-      "type": "story",
-      "url": "https://fynbos.dev/blog/connecting-the-internet-economy"
-    },
-    {
-      "by": "jorangreef",
-      "descendants": 0,
-      "id": 29263703,
-      "score": 3,
-      "time": 1637228062,
-      "title": "River, a Dynamic Tiling Wayland Compositor",
-      "type": "story",
-      "url": "https://isaacfreund.com/blog/river-intro/"
     }
   ]
 }
