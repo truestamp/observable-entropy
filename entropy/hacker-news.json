@@ -1,10 +1,50 @@
 {
   "stories": [
     {
+      "by": "loudthing",
+      "descendants": 0,
+      "id": 29272954,
+      "score": 1,
+      "text": "Forgive my ignorance on this subject but I&#x27;m curious what others on HN have to say. I&#x27;ll admit I&#x27;ve never been that familiar with advanced networking concepts like this, and I&#x27;m testing the waters on this site with regards to best practice discussion threads like this.<p>I&#x27;ve long had a fascination with the concept of easily establishing a TCP or UDP connection easily over the internet between two systems (Linux, Windows, Mac, iOS, Android, embedded Linux, embedded C, etc.) without having to resort to port forwarding.<p>For example, I&#x27;ve come to really like VNC Connect, which is a built in service installed on Raspberry Pi devices. In an attempt to help out my less-than-techsaavy parents, I&#x27;ve installed Raspberry Pi&#x27;s on their networks at two of their houses (snowbirds) so I can remotely assist with anything from internet issues to helping them set up surveillance cameras. Having the ability to VNC to a Raspberry Pi on any internet connected network from any other internet connected network without port forwarding, or even having to know the internet facing IP address is a god send.<p>I&#x27;ve also in the past served as an industrial controls engineer, where often after I would finish integrating a system at a site, I would install an internet hardware appliance that would allow me to establish a VPN connection to the remote control network over the internet from anywhere else in the world (e.g. https:&#x2F;&#x2F;www.ewon.biz&#x2F;products&#x2F;cosy). Doing so made troubleshooting with my customer&#x27;s controls engineers much easier since I had access to their local network without having to configure port forwarding or know their internet facing IP address.<p>My questions then are:\n1) is this concept something that has an actual name? I&#x27;ve heard of this ability referred to as a &quot;reverse proxy&quot; or a &quot;no config direction connection&quot;.\n2) is there an existing open source project or methodology that allows for this sort of connection that is agnostic of platform? For example, if I didn&#x27;t want to pay for RealVNC&#x27;s exorbitant pricing plans for more than 5 devices, could I configure some sort of setup with an AWS instance that automatically connects clients on separate networks together? (So I could have 100 Raspberry Pi&#x27;s out on different local networks that could be access by me through VNC on my laptop&#x2F;phone?)",
+      "time": 1637286871,
+      "title": "Ask HN: What is the easiest way to connect two systems behind firewalls?",
+      "type": "story"
+    },
+    {
+      "by": "signa11",
+      "descendants": 0,
+      "id": 29272953,
+      "score": 1,
+      "time": 1637286870,
+      "title": "Duff’s Device in 2021",
+      "type": "story",
+      "url": "https://belaycpp.com/2021/11/18/duffs-device-in-2021/"
+    },
+    {
+      "by": "todsacerdoti",
+      "descendants": 0,
+      "id": 29272948,
+      "score": 1,
+      "time": 1637286828,
+      "title": "Xeact 0.0.69: A Revolutionary Femtoframework for High Efficiency JavaScript Dev",
+      "type": "story",
+      "url": "https://christine.website/blog/xeact-0.0.69-2021-11-18"
+    },
+    {
+      "by": "baron816",
+      "descendants": 0,
+      "id": 29272940,
+      "score": 1,
+      "time": 1637286759,
+      "title": "The Business Phrasebook: A short guide to what your colleagues really mean",
+      "type": "story",
+      "url": "https://www.economist.com/business/2021/11/20/the-business-phrasebook"
+    },
+    {
       "by": "dsalzman",
       "descendants": 0,
       "id": 29272924,
-      "score": 1,
+      "score": 2,
       "time": 1637286580,
       "title": "Budget Office Determines Democrats’ Spending Bill Will Nudge Deficit Higher",
       "type": "story",
@@ -59,46 +99,6 @@
       "title": "Activision Blizzard forever stained if CEO stays",
       "type": "story",
       "url": "https://www.latimes.com/entertainment-arts/story/2021-11-18/activision-blizzard-reports-that-ceo-bobby-kotick-knew-of-harrassment"
-    },
-    {
-      "by": "dev_tty01",
-      "descendants": 0,
-      "id": 29272854,
-      "score": 1,
-      "time": 1637285984,
-      "title": "New Apple repair program allows independent repair shops",
-      "type": "story",
-      "url": "https://daringfireball.net/2021/11/self_service_repair_follow-up"
-    },
-    {
-      "by": "infodocket",
-      "descendants": 0,
-      "id": 29272836,
-      "score": 1,
-      "time": 1637285839,
-      "title": "Google's Next $1T Opportunity: Sundar Pichai Interview",
-      "type": "story",
-      "url": "https://www.bloomberg.com/news/videos/2021-11-17/google-s-next-1-trillion-opportunity-video"
-    },
-    {
-      "by": "elorant",
-      "descendants": 0,
-      "id": 29272824,
-      "score": 1,
-      "time": 1637285759,
-      "title": "Vaccinated vs. Unvaccinated: Europe’s Covid Culture War",
-      "type": "story",
-      "url": "https://www.nytimes.com/2021/11/17/world/europe/covid-vaccine-germany-europe.html"
-    },
-    {
-      "by": "thunderbong",
-      "descendants": 0,
-      "id": 29272807,
-      "score": 2,
-      "time": 1637285590,
-      "title": "Relearn CSS Layout: Every Layout",
-      "type": "story",
-      "url": "https://every-layout.dev/"
     }
   ]
 }
