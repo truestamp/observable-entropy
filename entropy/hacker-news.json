@@ -1,9 +1,51 @@
 {
   "stories": [
     {
-      "by": "loudthing",
+      "by": "1vuio0pswjnm7",
       "descendants": 0,
+      "id": 29272978,
+      "score": 1,
+      "time": 1637287144,
+      "title": "Lean ICT: Towards Digital Sobriety (2019)",
+      "type": "story",
+      "url": "https://theshiftproject.org/en/article/lean-ict-our-new-report/"
+    },
+    {
+      "by": "l0b0",
+      "descendants": 0,
+      "id": 29272976,
+      "score": 1,
+      "time": 1637287127,
+      "title": "New way to detect coronavirus through building ventilation systems",
+      "type": "story",
+      "url": "https://www.sciencedaily.com/releases/2021/11/211110131659.htm"
+    },
+    {
+      "by": "adawg4",
+      "descendants": 0,
+      "id": 29272973,
+      "score": 1,
+      "time": 1637287113,
+      "title": "Ask HN: What have you done to help with yearlong burnout?",
+      "type": "story"
+    },
+    {
+      "by": "dilap",
+      "descendants": 0,
+      "id": 29272963,
+      "score": 1,
+      "time": 1637286991,
+      "title": "Does Linoleic Acid Induce Obesity?",
+      "type": "story",
+      "url": "http://yelling-stop.blogspot.com/2021/11/does-linoleic-acid-induce-obesity.html"
+    },
+    {
+      "by": "loudthing",
+      "descendants": 1,
       "id": 29272954,
+      "kids": [
+        29272968
+      ],
       "score": 1,
       "text": "Forgive my ignorance on this subject but I&#x27;m curious what others on HN have to say. I&#x27;ll admit I&#x27;ve never been that familiar with advanced networking concepts like this, and I&#x27;m testing the waters on this site with regards to best practice discussion threads like this.<p>I&#x27;ve long had a fascination with the concept of easily establishing a TCP or UDP connection easily over the internet between two systems (Linux, Windows, Mac, iOS, Android, embedded Linux, embedded C, etc.) without having to resort to port forwarding.<p>For example, I&#x27;ve come to really like VNC Connect, which is a built in service installed on Raspberry Pi devices. In an attempt to help out my less-than-techsaavy parents, I&#x27;ve installed Raspberry Pi&#x27;s on their networks at two of their houses (snowbirds) so I can remotely assist with anything from internet issues to helping them set up surveillance cameras. Having the ability to VNC to a Raspberry Pi on any internet connected network from any other internet connected network without port forwarding, or even having to know the internet facing IP address is a god send.<p>I&#x27;ve also in the past served as an industrial controls engineer, where often after I would finish integrating a system at a site, I would install an internet hardware appliance that would allow me to establish a VPN connection to the remote control network over the internet from anywhere else in the world (e.g. https:&#x2F;&#x2F;www.ewon.biz&#x2F;products&#x2F;cosy). Doing so made troubleshooting with my customer&#x27;s controls engineers much easier since I had access to their local network without having to configure port forwarding or know their internet facing IP address.<p>My questions then are:\n1) is this concept something that has an actual name? I&#x27;ve heard of this ability referred to as a &quot;reverse proxy&quot; or a &quot;no config direction connection&quot;.\n2) is there an existing open source project or methodology that allows for this sort of connection that is agnostic of platform? For example, if I didn&#x27;t want to pay for RealVNC&#x27;s exorbitant pricing plans for more than 5 devices, could I configure some sort of setup with an AWS instance that automatically connects clients on separate networks together? (So I could have 100 Raspberry Pi&#x27;s out on different local networks that could be access by me through VNC on my laptop&#x2F;phone?)",
       "time": 1637286871,
@@ -14,7 +56,7 @@
       "by": "signa11",
       "descendants": 0,
       "id": 29272953,
-      "score": 1,
+      "score": 2,
       "time": 1637286870,
       "title": "Duff’s Device in 2021",
       "type": "story",
@@ -54,51 +96,11 @@
       "by": "cmdr2",
       "descendants": 0,
       "id": 29272923,
-      "score": 1,
+      "score": 2,
       "time": 1637286568,
       "title": "Google Play permitting alternative billing systems for users in South Korea",
       "type": "story",
       "url": "https://developers-kr.googleblog.com/2021/11/enabling-alternative-billing-in-korea-en.html"
-    },
-    {
-      "by": "latchkey",
-      "descendants": 0,
-      "id": 29272911,
-      "score": 1,
-      "time": 1637286480,
-      "title": "ConstitutionDAO fails to win Sotheby&#x27;s auction",
-      "type": "story",
-      "url": "https://cointelegraph.com/news/breaking-constitutiondao-fails-to-win-sotheby-s-auction"
-    },
-    {
-      "by": "furcyd",
-      "descendants": 0,
-      "id": 29272900,
-      "score": 1,
-      "time": 1637286380,
-      "title": "A Math Rave",
-      "type": "story",
-      "url": "https://terrytao.wordpress.com/2021/11/18/a-math-rave/"
-    },
-    {
-      "by": "Anon84",
-      "descendants": 0,
-      "id": 29272885,
-      "score": 4,
-      "time": 1637286250,
-      "title": "Copy of U.S. Constitution Sells for $43.2M as Crypto Group DAO Is Outbid",
-      "type": "story",
-      "url": "https://www.wsj.com/articles/copy-of-constitution-sells-for-43-2-million-as-crypto-group-is-outbid-11637285144"
-    },
-    {
-      "by": "DocFeind",
-      "descendants": 0,
-      "id": 29272862,
-      "score": 1,
-      "time": 1637286062,
-      "title": "Activision Blizzard forever stained if CEO stays",
-      "type": "story",
-      "url": "https://www.latimes.com/entertainment-arts/story/2021-11-18/activision-blizzard-reports-that-ceo-bobby-kotick-knew-of-harrassment"
     }
   ]
 }
