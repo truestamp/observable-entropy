@@ -1,6 +1,36 @@
 {
   "stories": [
     {
+      "by": "nkorai",
+      "descendants": 0,
+      "id": 29291265,
+      "score": 1,
+      "text": "Hey folks, I&#x27;ve been working on a hobby project, inspired by TwitchPlaysPokemon, called CommunityPlays. CommunityPlays allows you to click and interact with Twitch streams instead of typing in chat commands. I&#x27;m starting small with MS Paint as a demo to gather feedback, eventually I&#x27;d like to move this to games like CIV 5 that can be played with only your mouse and really the dream is to have this work with OldSchoolRuneScape which is where the original project idea came from.<p>Stream will be live for the next few hours for testing, unless something crashes: https:&#x2F;&#x2F;www.twitch.tv&#x2F;sadboifeverdreamz<p>Looking for feedback on next features&#x2F;bugs. My list 1) Add allow list for the extension instead of always on 2) Add mouse drag functionality&#x2F;other controls<p>Some more details&#x2F;FAQ:\n- Clicking the &quot;Community play: on&quot; button on the video turns the extension off and let&#x27;s you interact with the Twitch player again\n- Chrome extension: written in Typescript\n- Desktop receiver: written in Electron&#x2F;Typescript\n- Uses OBS for streaming\n- Running on Windows Server 2019\n- Powered by Twitch chat, desktop receiver has a chatbot that listens for commands\n- Chrome extension filters out all of the click commands from Twitch chat to remove the noise. Maybe in the future the chat bot will delete the messages from chat itself if that is a thing so you don&#x27;t have to install the extension\n- Runs on EC2 t3a.2xlarge instance. Might be overkill but other types were getting CPU pegged. Got frustrated and settled for this size. This will be the main budget constraint of this project. \n- Green square in the top left is to allow the extension to work with the Twitch video letterboxing&#x2F;black bars. Let me know if you have a better idea for this. \n- Even though its running on a VM I have to keep a remote desktop connection alive otherwise the Windows GUI doesn&#x27;t render and the stream turns to a black screen if I disconnect. Tried tsconn hacks to get around this but no luck.",
+      "time": 1637437763,
+      "title": "Show HN: CommunityPlays lets you click and interact with Twitch streams",
+      "type": "story"
+    },
+    {
+      "by": "siddharthgoel88",
+      "descendants": 0,
+      "id": 29291252,
+      "score": 1,
+      "text": "As Black Friday is round the corner, it would be really awesome if people here can share list of some promotions on dev tools and related software&#x2F;subscriptions which they might be aware are having promotions.<p>To start with I will a promo on one of my favourite one - Beyond Compare. Scooter Softwares are having black friday promotion with 25% on their licenses. Checkout https:&#x2F;&#x2F;twitter.com&#x2F;ScooterSoftware&#x2F;status&#x2F;1461435633973571588<p>Disclaimer: I am not associated with Scooter Software, just a fan of their product.",
+      "time": 1637437631,
+      "title": "Ask HN: Any good list of Black Friday offers of softwares for devs?",
+      "type": "story"
+    },
+    {
+      "by": "ridruejo",
+      "descendants": 0,
+      "id": 29291242,
+      "score": 1,
+      "time": 1637437506,
+      "title": "Tcl Distro for WebAssembly",
+      "type": "story",
+      "url": "https://github.com/ecky-l/wacl"
+    },
+    {
       "by": "bdcravens",
       "descendants": 0,
       "id": 29291236,
@@ -69,36 +99,6 @@
       "title": "Is Language a Technology?",
       "type": "story",
       "url": "https://landing.athabascau.ca/blog/view/20742/is-language-a-technology"
-    },
-    {
-      "by": "Asdrubalini",
-      "descendants": 0,
-      "id": 29291103,
-      "score": 1,
-      "time": 1637436701,
-      "title": "Visualising the 300M instructions of Hello World",
-      "type": "story",
-      "url": "https://ncatlin.github.io/rgatPages/tracing/2021/11/19/visualising-hello-world.html"
-    },
-    {
-      "by": "bpierre",
-      "descendants": 0,
-      "id": 29291062,
-      "score": 2,
-      "time": 1637436448,
-      "title": "Women in Type – Rediscovering women’s contribution to type history",
-      "type": "story",
-      "url": "https://www.women-in-type.com"
-    },
-    {
-      "by": "cjv",
-      "descendants": 0,
-      "id": 29291059,
-      "score": 3,
-      "time": 1637436418,
-      "title": "Building a professional design tool on the web (2015)",
-      "type": "story",
-      "url": "https://www.figma.com/blog/building-a-professional-design-tool-on-the-web/"
     }
   ]
 }
