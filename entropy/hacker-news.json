@@ -2,9 +2,22 @@
   "stories": [
     {
       "by": "1vuio0pswjnm7",
+      "descendants": 1,
+      "id": 29291408,
+      "kids": [
+        29291414
+      ],
+      "score": 1,
+      "time": 1637438733,
+      "title": "Unedited Transcript Biden 2019 Intvw on the Weekly: “Creeps” in Silicon Valley",
+      "type": "story",
+      "url": "https://www.nytimes.com/interactive/2020/01/17/opinion/joe-biden-nytimes-interview.html"
+    },
+    {
+      "by": "1vuio0pswjnm7",
       "descendants": 0,
       "id": 29291392,
-      "score": 1,
+      "score": 2,
       "time": 1637438597,
       "title": "Lagrange: A Beautiful Gemini Client",
       "type": "story",
@@ -24,7 +37,7 @@
       "by": "sandes",
       "descendants": 0,
       "id": 29291381,
-      "score": 3,
+      "score": 4,
       "time": 1637438546,
       "title": "Python – Writing large ZIP archives without memory inflation",
       "type": "story",
@@ -34,7 +47,7 @@
       "by": "xaviernosag",
       "descendants": 0,
       "id": 29291351,
-      "score": 1,
+      "score": 2,
       "time": 1637438357,
       "title": "Magic Eraser: Things You Should Know About Google Photo Editing Tool",
       "type": "story",
@@ -67,7 +80,7 @@
       "by": "Tomte",
       "descendants": 0,
       "id": 29291330,
-      "score": 3,
+      "score": 5,
       "time": 1637438232,
       "title": "JEdit – Programmer's Text Editor",
       "type": "story",
@@ -92,16 +105,6 @@
       "title": "Alien: Isolation Arrives on iOS and Android",
       "type": "story",
       "url": "https://www.gamespot.com/articles/alien-isolation-arrives-on-ios-and-android-on-december-16/1100-6498133/"
-    },
-    {
-      "by": "nkorai",
-      "descendants": 0,
-      "id": 29291265,
-      "score": 1,
-      "text": "Hey folks, I&#x27;ve been working on a hobby project Chrome extension, inspired by TwitchPlaysPokemon, called CommunityPlays. CommunityPlays allows you to click and interact with Twitch streams instead of typing in chat commands. I&#x27;m starting small with MS Paint as a demo to gather feedback, eventually I&#x27;d like to move this to games like CIV 5 that can be played with only your mouse and really the dream is to have this work with OldSchoolRuneScape which is where the original project idea came from.<p>Extension link: https:&#x2F;&#x2F;chrome.google.com&#x2F;webstore&#x2F;detail&#x2F;communityplays&#x2F;faamecjhgpbjhklklcilclifoieclmlo&#x2F;related<p>Stream will be live for the next few hours for testing, unless something crashes: https:&#x2F;&#x2F;www.twitch.tv&#x2F;sadboifeverdreamz<p>Looking for feedback on next features&#x2F;bugs. My list 1) Add allow list for the extension instead of always on 2) Add mouse drag functionality&#x2F;other controls<p>Some more details&#x2F;FAQ:\n- Clicking the &quot;Community play: on&quot; button on the video turns the extension off and let&#x27;s you interact with the Twitch player again<p>- Chrome extension: written in Typescript<p>- Desktop receiver: written in Electron&#x2F;Typescript<p>- Uses OBS for streaming<p>- Running on Windows Server 2019<p>- Powered by Twitch chat, desktop receiver has a chatbot that listens for commands<p>- Chrome extension filters out all of the click commands from Twitch chat to remove the noise. Maybe in the future the chat bot will delete the messages from chat itself if that is a thing so you don&#x27;t have to install the extension<p>- Runs on EC2 t3a.2xlarge instance. Might be overkill but other types were getting CPU pegged. Got frustrated and settled for this size. This will be the main budget constraint of this project.<p>- Green square in the top left is to allow the extension to work with the Twitch video letterboxing&#x2F;black bars. Let me know if you have a better idea for this.<p>- Even though its running on a VM I have to keep a remote desktop connection alive otherwise the Windows GUI doesn&#x27;t render and the stream turns to a black screen if I disconnect. Tried tsconn hacks to get around this but no luck.",
-      "time": 1637437763,
-      "title": "Show HN: CommunityPlays lets you click and interact with Twitch streams",
-      "type": "story"
     }
   ]
 }
