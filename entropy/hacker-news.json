@@ -1,6 +1,46 @@
 {
   "stories": [
     {
+      "by": "i_cannot_hack",
+      "descendants": 0,
+      "id": 29298426,
+      "score": 1,
+      "text": "Sorry for the incoming rant, but this feature from Chrome is so ridiculous and user-hostile that I just need to get it off my chest somewhere. I&#x27;m sure people at Google reads this forum as well, so if someone from the Chrome team happens to read this and take the complaint to heart it would be an added bonus.<p>I have a personal website, let&#x27;s call it www.myname.com, that is visited somewhat frequently by various people. However, when they are sent to my website, will Chrome correctly inform them they are currently viewing www.myname.com? No. It (incorrectly and baselessly) assumes the www must be meaningless, and lies to the user by showing the website address as simply &quot;myname.com&quot; instead.<p>The crux of the issue is that the root domain myname.com does NOT point to my website, and will simply time out without a response. There is nothing I can do to fix this. My domain host does not allow ALIAS records on the root domain, only A records. Conversely, my server host (Heroku) does not allow A records for routing, only ALIAS. As such, I&#x27;m stuck with the www solution.<p>Basically, if a visitor tries to revisit the address Chrome shows them on my website, they will simply be sent into the void, with no idea of what is happening.<p>There is no justification for hiding the subdomain from the url. The subdomain and the root domain point to DIFFERENT locations, and Chrome will NEVER know if the difference is significant or not. Redirecting www to the root domain is just a cultural norm. What&#x27;s next? Showing &quot;fruit.com&quot; when you visit &quot;apple.com&quot; because it&#x27;s linguistically similar and maybe could point to the same place? Apparently showing the correct address of the website doesn&#x27;t matter, so I see no reason not to.<p>And what&#x27;s the potential upside for the user? Saving 3 characters and a dot in the address bar. Is it really worth breaking the domain name system for that?<p>Stop it, please.<p>P.S. Everything I&#x27;ve mentioned above applies to Safari as well.<p>P.P.S. I suspect people will tell me to change domain host or server host. I&#x27;m looking into it, but it&#x27;s a hassle and it would be nice to know Chrome isn&#x27;t trying to actively trick my visitors in the meantime.",
+      "time": 1637519059,
+      "title": "Rant HN: Chrome breaks my website by hiding www in address bar. Stop it, please",
+      "type": "story"
+    },
+    {
+      "by": "simonebrunozzi",
+      "descendants": 0,
+      "id": 29298416,
+      "score": 1,
+      "time": 1637518993,
+      "title": "Controlling Your Dopamine for Motivation, Focus and Satisfaction",
+      "type": "story",
+      "url": "https://www.youtube.com/watch?v=QmOF0crdyRU"
+    },
+    {
+      "by": "rbanffy",
+      "descendants": 0,
+      "id": 29298412,
+      "score": 1,
+      "time": 1637518973,
+      "title": "Lawsuit: Tesla like a “frat house” with “frequent groping on the factory floor”",
+      "type": "story",
+      "url": "https://arstechnica.com/tech-policy/2021/11/lawsuit-tesla-is-like-a-frat-house-with-frequent-groping-on-the-factory-floor/"
+    },
+    {
+      "by": "mariojv",
+      "descendants": 0,
+      "id": 29298402,
+      "score": 1,
+      "time": 1637518909,
+      "title": "More Americans say they’re not planning to have a child, U.S. birthrate declines",
+      "type": "story",
+      "url": "https://www.washingtonpost.com/nation/2021/11/21/americans-childless-pew-us-population/"
+    },
+    {
       "by": "kim0",
       "descendants": 0,
       "id": 29298387,
@@ -59,46 +99,6 @@
       "title": "Hey, I want to buy your house: Homeowners besieged by unsolicited offers",
       "type": "story",
       "url": "https://text.npr.org/1056912546"
-    },
-    {
-      "by": "code4money",
-      "descendants": 0,
-      "id": 29298309,
-      "score": 2,
-      "time": 1637518243,
-      "title": "How to Write a Best-Selling Technical Book",
-      "type": "story",
-      "url": "https://www.youtube.com/watch?v=rozmSMqynrU"
-    },
-    {
-      "by": "rbanffy",
-      "descendants": 0,
-      "id": 29298289,
-      "score": 1,
-      "time": 1637518106,
-      "title": "Herpesviruses steal one cell’s protein, use it to infect another",
-      "type": "story",
-      "url": "https://arstechnica.com/science/2021/11/herpes-viruses-steal-one-cells-protein-use-it-to-infect-another/"
-    },
-    {
-      "by": "Sami_Lehtinen",
-      "descendants": 0,
-      "id": 29298288,
-      "score": 1,
-      "time": 1637518099,
-      "title": "Slash-128 – A 128 bit substitution permutation network block cipher",
-      "type": "story",
-      "url": "https://github.com/chris47368/SLASH-128bit"
-    },
-    {
-      "by": "sp332",
-      "descendants": 0,
-      "id": 29298270,
-      "score": 1,
-      "time": 1637518005,
-      "title": "Update on moving accounts between nodes on diaspora*",
-      "type": "story",
-      "url": "https://blog.diasporafoundation.org/70-a-big-hey-from-diaspora"
     }
   ]
 }
