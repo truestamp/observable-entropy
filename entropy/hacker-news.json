@@ -1,6 +1,49 @@
 {
   "stories": [
     {
+      "by": "marvel_boy",
+      "descendants": 0,
+      "id": 29298558,
+      "score": 1,
+      "time": 1637519898,
+      "title": "The Big Misconception About Electricity",
+      "type": "story",
+      "url": "https://www.youtube.com/watch?v=bHIhgxav9LY&amp;list=RDCMUCHnyfMqiRRG1u-2MsSQLbXA"
+    },
+    {
+      "by": "skwee357",
+      "descendants": 1,
+      "id": 29298546,
+      "kids": [
+        29298564
+      ],
+      "score": 1,
+      "text": "Hey HN!<p>I&#x27;m working on a personal finance desktop only application[1]. I&#x27;m a solo developer, doing it in my free time, with the intention to release a great product (and make money from it).<p>I personally dislike Electron Apps and try to avoid them if possible. However I understand the appeal behind them for developers.<p>With my current time, skills and funding - I&#x27;m either able to release an Electron application with decent support for all 3 major OSes with all the drawbacks of Electron (big binary, maybe-slow [my core logic is done in Rust, and JS is used primarily for the UI], alien-looking); or a native for 1 platform, MacOS in my case.<p>I believe in having clean UI and smooth experience, hence the choice of Electron bothers me a lot. On the other side, most of the drawbacks of Electron are expressed by (mainly) tech-savvy people.<p>So, dear HN - what would you pick: Electron or MacOS Only native?<p>[1] https:&#x2F;&#x2F;moneypin.app&#x2F;",
+      "time": 1637519790,
+      "title": "Ask HN: Would you rather have an Electron app or macOS Only Native?",
+      "type": "story"
+    },
+    {
+      "by": "L0in",
+      "descendants": 0,
+      "id": 29298541,
+      "score": 1,
+      "text": "A little context to come along with my question.<p>Since i graduated Greek high school i started reading books. I started wanting and needing to learn and read books. I discovered that history is not just a meaningless course that tortures you with details of the past: names, dates, locations, who f* who, who killed who etc. I discovered the beauty of books and more precises the beauty of words and the meaning behind them.<p>As a person who has dyslexia school didn&#x27;t provide me anything other than loathing for the subjects that i truly admire right now. It taught me how to fear learning and not how to learn. That fear, to this day, is still here with me. For instance, right now i want to study for my Digital Design course but every time i think about it my body fills with fear and then i&#x27;m searching for something else to procrastinate on (like writing this ASK HN thread).<p>A while ago, made the decision that, whatever i do with my life, i want learning, reading books and writing to be a fundamental part of my life, of my identity. I can&#x27;t think how my life would be without them. Like it used to be. I lament about the fact that i lost so many years not reading and learning, instead i&#x27;ve developing social media addiction and crippling fear of even trying anything i want.",
+      "time": 1637519764,
+      "title": "Ask HN: How can I improve my reading comprehension as a person who has dyslexia?",
+      "type": "story"
+    },
+    {
+      "by": "mooreds",
+      "descendants": 0,
+      "id": 29298533,
+      "score": 2,
+      "time": 1637519716,
+      "title": "Knowing When to Walk Away",
+      "type": "story",
+      "url": "https://www.stites.com/resources/creditors-sidebar/knowing-when-to-walk-away"
+    },
+    {
       "by": "tosh",
       "descendants": 0,
       "id": 29298525,
@@ -42,12 +85,12 @@
     },
     {
       "by": "i_cannot_hack",
-      "descendants": 1,
+      "descendants": 2,
       "id": 29298426,
       "kids": [
         29298488
       ],
-      "score": 1,
+      "score": 2,
       "text": "Sorry for the incoming rant, but this feature from Chrome is so ridiculous and user-hostile that I just need to get it off my chest somewhere. I&#x27;m sure people at Google read this forum as well, so if someone from the Chrome team happens to read this and take the complaint to heart it would be an added bonus.<p>I have a personal website, let&#x27;s call it &quot;www.myname.com&quot;, that is visited somewhat frequently by various people. However, when they are sent to my website, will Chrome correctly inform them they are currently viewing &quot;www.myname.com&quot;? No. It (incorrectly and baselessly) assumes the www must be meaningless, and lies to the user by showing the website address as simply &quot;myname.com&quot; instead.<p>The crux of the issue is that the root domain &quot;myname.com&quot; does NOT point to my website, and will simply time out without a response. There is nothing I can do to fix this. My domain host does not allow ALIAS records on the root domain, only A records. Conversely, my server host (Heroku) does not allow A records for routing, only ALIAS. As such, I&#x27;m stuck with the www solution.<p>Basically, if a visitor remembers the address Chrome shows them on my website and tries to revisit it, they will simply be sent into the void, with no idea of what is happening.<p>There is no justification for hiding the subdomain from the url. The subdomain and the root domain point to DIFFERENT locations, and Chrome will NEVER know if the difference is significant or not. Redirecting www to the root domain is just a cultural norm. What&#x27;s next? Showing &quot;fruit.com&quot; when you visit &quot;apple.com&quot; because it&#x27;s linguistically similar and maybe could point to the same place? Apparently showing the correct address of the website doesn&#x27;t matter, so I see no reason not to.<p>And what&#x27;s the potential upside for the user? Saving 3 characters and a dot in the address bar. Is it really worth breaking the domain name system for that?<p>Stop it, please.<p>P.S. Everything I&#x27;ve mentioned above applies to Safari as well.<p>P.P.S. I suspect people will tell me to change domain host or server host. I&#x27;m looking into it, but it&#x27;s a hassle and it would be nice to know Chrome isn&#x27;t trying to actively trick my visitors in the meantime.",
       "time": 1637519059,
       "title": "Rant HN: Chrome breaks my website by hiding www in address bar. Stop it, please",
@@ -62,52 +105,6 @@
       "title": "Controlling Your Dopamine for Motivation, Focus and Satisfaction",
       "type": "story",
       "url": "https://www.youtube.com/watch?v=QmOF0crdyRU"
-    },
-    {
-      "by": "rbanffy",
-      "descendants": 1,
-      "id": 29298412,
-      "kids": [
-        29298497
-      ],
-      "score": 1,
-      "time": 1637518973,
-      "title": "Lawsuit: Tesla like a “frat house” with “frequent groping on the factory floor”",
-      "type": "story",
-      "url": "https://arstechnica.com/tech-policy/2021/11/lawsuit-tesla-is-like-a-frat-house-with-frequent-groping-on-the-factory-floor/"
-    },
-    {
-      "by": "mariojv",
-      "descendants": 1,
-      "id": 29298402,
-      "kids": [
-        29298517
-      ],
-      "score": 2,
-      "time": 1637518909,
-      "title": "More Americans say they’re not planning to have a child, U.S. birthrate declines",
-      "type": "story",
-      "url": "https://www.washingtonpost.com/nation/2021/11/21/americans-childless-pew-us-population/"
-    },
-    {
-      "by": "kim0",
-      "descendants": 0,
-      "id": 29298387,
-      "score": 1,
-      "time": 1637518796,
-      "title": "ZFS on Object Storage",
-      "type": "story",
-      "url": "https://www.youtube.com/watch?v=opW9KhjOQ3Q"
-    },
-    {
-      "by": "batguano",
-      "descendants": 0,
-      "id": 29298344,
-      "score": 2,
-      "time": 1637518519,
-      "title": "Beaver Dams Mean No Love Lost for Canada’s Emblematic Animal",
-      "type": "story",
-      "url": "https://www.nytimes.com/2021/11/20/world/canada/canada-beaver-dams.html"
     }
   ]
 }
