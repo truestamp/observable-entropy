@@ -1,10 +1,30 @@
 {
   "stories": [
     {
+      "by": "HMH",
+      "descendants": 0,
+      "id": 29300710,
+      "score": 1,
+      "text": "Recently I helped a friend getting some scientific software running on an HPC system a little on the smaller side. The software is written in C++ and uses cmake for building. And to be honest, the experience was rather subpar.<p>All HPC systems I have worked on have been using Lmod [1] to manage the environment and enable building with say Intel&#x27;s compiler or some specific MPI version.<p>Now one of the concrete problems I hit was the following: Loading the latest version of cmake using Lmod pulls in the latest version of gcc&#x27;s libstdc++ as cmake is dynamically linked against that. But if you try to build said software with the Intel toolchain which pulls an older version of libstdc++ into the environment, suddenly cmake breaks with a rather cryptic symbol not found error.<p>This is what got me thinking: On HPC systems you typically need to have lots of libraries&#x2F;software with oftentimes many and conflicting versions installed, so your users can use what they need. I have not yet tried Nix(OS) myself, but what I described does very much sound like the problem it is intended to solve.<p>Thus my question: Has anyone tried Nix(OS) on an HPC system, how did it go? Otherwise, are there (better) alternatives to Lmod?<p>[1]: https:&#x2F;&#x2F;lmod.readthedocs.io",
+      "time": 1637536196,
+      "title": "Ask HN: Nix(OS) for HPC?",
+      "type": "story"
+    },
+    {
+      "by": "mooreds",
+      "descendants": 0,
+      "id": 29300685,
+      "score": 3,
+      "time": 1637535911,
+      "title": "Nuclear Power and Climate Change",
+      "type": "story",
+      "url": "https://www.wren.co/blog/posts/nuclear-power-and-climate-change"
+    },
+    {
       "by": "gjvc",
       "descendants": 0,
       "id": 29300653,
-      "score": 1,
+      "score": 2,
       "time": 1637535696,
       "title": "Library Athena",
       "type": "story",
@@ -14,7 +34,7 @@
       "by": "cgb223",
       "descendants": 0,
       "id": 29300638,
-      "score": 1,
+      "score": 3,
       "time": 1637535567,
       "title": "Ask HN: If you could work remote in any city in the US, where would live? Why?",
       "type": "story"
@@ -33,7 +53,7 @@
       "by": "obiefernandez",
       "descendants": 0,
       "id": 29300598,
-      "score": 1,
+      "score": 2,
       "time": 1637535321,
       "title": "Knockoff NFTs",
       "type": "story",
@@ -66,7 +86,7 @@
       "by": "PaulHoule",
       "descendants": 0,
       "id": 29300560,
-      "score": 1,
+      "score": 2,
       "time": 1637534966,
       "title": "The Culture",
       "type": "story",
@@ -78,29 +98,9 @@
       "id": 29300555,
       "score": 1,
       "time": 1637534917,
-      "title": "How to Hide Your House from Nosy People on Google Maps",
+      "title": "How to Hide Your House from Nosy People on Google Maps and others",
       "type": "story",
       "url": "https://lifehacker.com/how-to-hide-your-house-from-nosy-people-on-google-maps-1847606586"
-    },
-    {
-      "by": "thricegr8",
-      "descendants": 0,
-      "id": 29300554,
-      "score": 1,
-      "time": 1637534908,
-      "title": "Never trust a programmer who says they know C++",
-      "type": "story",
-      "url": "http://lbrandy.com/blog/2010/03/never-trust-a-programmer-who-says-he-knows-c/"
-    },
-    {
-      "by": "rococode",
-      "descendants": 0,
-      "id": 29300538,
-      "score": 1,
-      "time": 1637534802,
-      "title": "Alireza Firouzja has become the youngest chess player ever to reach 2800 elo",
-      "type": "story",
-      "url": "https://www.chess.com/news/view/alireza-firouzja-youngest-chess-player-ever-to-break-2800"
     }
   ]
 }
