@@ -1,11 +1,54 @@
 {
   "stories": [
     {
-      "by": "i_cannot_hack",
+      "by": "tosh",
       "descendants": 0,
-      "id": 29298426,
+      "id": 29298525,
       "score": 1,
-      "text": "Sorry for the incoming rant, but this feature from Chrome is so ridiculous and user-hostile that I just need to get it off my chest somewhere. I&#x27;m sure people at Google read this forum as well, so if someone from the Chrome team happens to read this and take the complaint to heart it would be an added bonus.<p>I have a personal website, let&#x27;s call it &quot;www.myname.com&quot;, that is visited somewhat frequently by various people. However, when they are sent to my website, will Chrome correctly inform them they are currently viewing &quot;www.myname.com&quot;? No. It (incorrectly and baselessly) assumes the www must be meaningless, and lies to the user by showing the website address as simply &quot;myname.com&quot; instead.<p>The crux of the issue is that the root domain &quot;myname.com&quot; does NOT point to my website, and will simply time out without a response. There is nothing I can do to fix this. My domain host does not allow ALIAS records on the root domain, only A records. Conversely, my server host (Heroku) does not allow A records for routing, only ALIAS. As such, I&#x27;m stuck with the www solution.<p>Basically, if a visitor tries to revisit the address Chrome shows them on my website, they will simply be sent into the void, with no idea of what is happening.<p>There is no justification for hiding the subdomain from the url. The subdomain and the root domain point to DIFFERENT locations, and Chrome will NEVER know if the difference is significant or not. Redirecting www to the root domain is just a cultural norm. What&#x27;s next? Showing &quot;fruit.com&quot; when you visit &quot;apple.com&quot; because it&#x27;s linguistically similar and maybe could point to the same place? Apparently showing the correct address of the website doesn&#x27;t matter, so I see no reason not to.<p>And what&#x27;s the potential upside for the user? Saving 3 characters and a dot in the address bar. Is it really worth breaking the domain name system for that?<p>Stop it, please.<p>P.S. Everything I&#x27;ve mentioned above applies to Safari as well.<p>P.P.S. I suspect people will tell me to change domain host or server host. I&#x27;m looking into it, but it&#x27;s a hassle and it would be nice to know Chrome isn&#x27;t trying to actively trick my visitors in the meantime.",
+      "time": 1637519670,
+      "title": "Behind the scenes of GitHub Token Scanning (2018)",
+      "type": "story",
+      "url": "https://github.blog/2018-10-17-behind-the-scenes-of-github-token-scanning/"
+    },
+    {
+      "by": "retskrad",
+      "descendants": 0,
+      "id": 29298518,
+      "score": 1,
+      "time": 1637519612,
+      "title": "Apple iMac Pro to have 20-core M1 Max Duo SoC that combines two M1 Max dies",
+      "type": "story",
+      "url": "https://www.notebookcheck.net/Apple-iMac-Pro-to-come-with-a-20-core-M1-Max-Duo-SoC-that-combines-two-M1-Max-dies.580275.0.html"
+    },
+    {
+      "by": "holonomically",
+      "descendants": 0,
+      "id": 29298492,
+      "score": 1,
+      "time": 1637519473,
+      "title": "Type Theory and Formal Proof: An Introduction",
+      "type": "story",
+      "url": "https://www.maa.org/press/maa-reviews/type-theory-and-formal-proof-an-introduction"
+    },
+    {
+      "by": "nobody9999",
+      "descendants": 0,
+      "id": 29298491,
+      "score": 1,
+      "text": "I&#x27;ve been wondering how the fragmentation of the streaming media market affects usage and spending.<p>As more content providers start their own streaming platforms (Disney+, Paramount+, etc.) and streaming platforms are increasing their content creation efforts (Netflix, Amazon, etc.), it seems like the fragmentation is going to get worse and if one has eclectic tastes they&#x27;ll need to subscribe to more and more streaming services to get everything they want.<p>Especially as these services hoard their libraries and don&#x27;t license them to other services.<p>At what point does that fragmentation hit a limit?  How many USD$10-$15&#x2F;month streaming subscriptions are too many?<p>In the past, cable TV subscriptions bundled so much stuff that folks didn&#x27;t want together with the stuff they did want, driving prices through the roof.<p>Then, getting Netflix&#x2F;Amazon Prime and (possibly) an OTA antenna was plenty for most people to &quot;cut the cord&quot; (or never connect that cord in the first place) because it was significantly less expensive and had extensive libraries licensed from the content providers.<p>Now, it seems like we&#x27;re heading in the opposite direction.  More and more streaming services with libraries they don&#x27;t license&#x2F;share are coming online, pushing folks to subscribe to additional services.<p>At some point, the costs may rival the old-time cable subscriptions.  Is it worth it, or should we just cut our losses and limit subscriptions to the stuff with the new&#x2F;shiny and all the older stuff just becomes obscure?<p>Or, perhaps, does this give folks more incentive to actually <i>buy</i> physical media so it can&#x27;t be taken away if&#x2F;when various streaming services&#x2F;content providers have a spat?<p>Or will more folks just torrent their media (with the same result) as some already do?",
+      "time": 1637519471,
+      "title": "Ask HN: To how many streaming services do you subscribe?",
+      "type": "story"
+    },
+    {
+      "by": "i_cannot_hack",
+      "descendants": 1,
+      "id": 29298426,
+      "kids": [
+        29298488
+      ],
+      "score": 1,
+      "text": "Sorry for the incoming rant, but this feature from Chrome is so ridiculous and user-hostile that I just need to get it off my chest somewhere. I&#x27;m sure people at Google read this forum as well, so if someone from the Chrome team happens to read this and take the complaint to heart it would be an added bonus.<p>I have a personal website, let&#x27;s call it &quot;www.myname.com&quot;, that is visited somewhat frequently by various people. However, when they are sent to my website, will Chrome correctly inform them they are currently viewing &quot;www.myname.com&quot;? No. It (incorrectly and baselessly) assumes the www must be meaningless, and lies to the user by showing the website address as simply &quot;myname.com&quot; instead.<p>The crux of the issue is that the root domain &quot;myname.com&quot; does NOT point to my website, and will simply time out without a response. There is nothing I can do to fix this. My domain host does not allow ALIAS records on the root domain, only A records. Conversely, my server host (Heroku) does not allow A records for routing, only ALIAS. As such, I&#x27;m stuck with the www solution.<p>Basically, if a visitor remembers the address Chrome shows them on my website and tries to revisit it, they will simply be sent into the void, with no idea of what is happening.<p>There is no justification for hiding the subdomain from the url. The subdomain and the root domain point to DIFFERENT locations, and Chrome will NEVER know if the difference is significant or not. Redirecting www to the root domain is just a cultural norm. What&#x27;s next? Showing &quot;fruit.com&quot; when you visit &quot;apple.com&quot; because it&#x27;s linguistically similar and maybe could point to the same place? Apparently showing the correct address of the website doesn&#x27;t matter, so I see no reason not to.<p>And what&#x27;s the potential upside for the user? Saving 3 characters and a dot in the address bar. Is it really worth breaking the domain name system for that?<p>Stop it, please.<p>P.S. Everything I&#x27;ve mentioned above applies to Safari as well.<p>P.P.S. I suspect people will tell me to change domain host or server host. I&#x27;m looking into it, but it&#x27;s a hassle and it would be nice to know Chrome isn&#x27;t trying to actively trick my visitors in the meantime.",
       "time": 1637519059,
       "title": "Rant HN: Chrome breaks my website by hiding www in address bar. Stop it, please",
       "type": "story"
@@ -22,8 +65,11 @@
     },
     {
       "by": "rbanffy",
-      "descendants": 0,
+      "descendants": 1,
       "id": 29298412,
+      "kids": [
+        29298497
+      ],
       "score": 1,
       "time": 1637518973,
       "title": "Lawsuit: Tesla like a “frat house” with “frequent groping on the factory floor”",
@@ -32,9 +78,12 @@
     },
     {
       "by": "mariojv",
-      "descendants": 0,
+      "descendants": 1,
       "id": 29298402,
-      "score": 1,
+      "kids": [
+        29298517
+      ],
+      "score": 2,
       "time": 1637518909,
       "title": "More Americans say they’re not planning to have a child, U.S. birthrate declines",
       "type": "story",
@@ -59,46 +108,6 @@
       "title": "Beaver Dams Mean No Love Lost for Canada’s Emblematic Animal",
       "type": "story",
       "url": "https://www.nytimes.com/2021/11/20/world/canada/canada-beaver-dams.html"
-    },
-    {
-      "by": "haakonhr",
-      "descendants": 0,
-      "id": 29298329,
-      "score": 1,
-      "time": 1637518373,
-      "title": "Best Selling Vehicles in the US by State",
-      "type": "story",
-      "url": "https://www.visualcapitalist.com/the-best-selling-vehicles-in-america-by-state/"
-    },
-    {
-      "by": "mooreds",
-      "descendants": 0,
-      "id": 29298315,
-      "score": 2,
-      "time": 1637518291,
-      "title": "What's your favorite weird CPU instruction? any architecture, any time period",
-      "type": "story",
-      "url": "https://twitter.com/NoraDotCodes/status/1461908818414157825"
-    },
-    {
-      "by": "ztc",
-      "descendants": 0,
-      "id": 29298313,
-      "score": 1,
-      "time": 1637518264,
-      "title": "A Robot Wrote This Book Review",
-      "type": "story",
-      "url": "https://www.nytimes.com/2021/11/21/books/review/the-age-of-ai-henry-kissinger-eric-schmidt-daniel-huttenlocher.html"
-    },
-    {
-      "by": "mooreds",
-      "descendants": 0,
-      "id": 29298312,
-      "score": 1,
-      "time": 1637518259,
-      "title": "Hey, I want to buy your house: Homeowners besieged by unsolicited offers",
-      "type": "story",
-      "url": "https://text.npr.org/1056912546"
     }
   ]
 }
