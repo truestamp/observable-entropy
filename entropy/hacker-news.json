@@ -1,6 +1,16 @@
 {
   "stories": [
     {
+      "by": "sohkamyung",
+      "descendants": 0,
+      "id": 29300881,
+      "score": 1,
+      "time": 1637537600,
+      "title": "Smart Artificial Pancreas Could Conquer Diabetes",
+      "type": "story",
+      "url": "https://spectrum.ieee.org/artificial-pancreas-could-conquer-diabetes/particle-2"
+    },
+    {
       "by": "ohjeez",
       "descendants": 0,
       "id": 29300821,
@@ -92,16 +102,6 @@
       "title": "Seventy Year history of Bikini Atoll resident relocations by the US Government",
       "type": "story",
       "url": "https://en.wikipedia.org/wiki/Bikini_Atoll"
-    },
-    {
-      "by": "HMH",
-      "descendants": 0,
-      "id": 29300710,
-      "score": 1,
-      "text": "Recently I helped a friend getting some scientific software running on an HPC system a little on the smaller side. The software is written in C++ and uses cmake for building. And to be honest, the experience was rather subpar.<p>All HPC systems I have worked on have been using Lmod [1] to manage the environment and enable building with say Intel&#x27;s compiler or some specific MPI version.<p>Now one of the concrete problems I hit was the following: Loading the latest version of cmake using Lmod pulls in the latest version of gcc&#x27;s libstdc++ as cmake is dynamically linked against that. But if you try to build said software with the Intel toolchain which pulls an older version of libstdc++ into the environment, suddenly cmake breaks with a rather cryptic symbol not found error.<p>This is what got me thinking: On HPC systems you typically need to have lots of libraries&#x2F;software with oftentimes many and conflicting versions installed, so your users can use what they need. I have not yet tried Nix(OS) myself, but what I described does very much sound like the problem it is intended to solve.<p>Thus my question: Has anyone tried Nix(OS) on an HPC system, how did it go? Otherwise, are there (better) alternatives to Lmod?<p>[1]: https:&#x2F;&#x2F;lmod.readthedocs.io",
-      "time": 1637536196,
-      "title": "Ask HN: Nix(OS) for HPC?",
-      "type": "story"
     }
   ]
 }
