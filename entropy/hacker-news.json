@@ -1,6 +1,48 @@
 {
   "stories": [
-    null,
+    {
+      "by": "teleforce",
+      "descendants": 0,
+      "id": 29305871,
+      "score": 1,
+      "time": 1637585972,
+      "title": "Cisco iOS Scripting with Tcl",
+      "type": "story",
+      "url": "https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/ios_tcl/configuration/xe-17/ios-tcl-xe-17-book/Cisco_IOS_XE_Scripting_with_Tcl.html"
+    },
+    {
+      "by": "mkeeter",
+      "descendants": 0,
+      "id": 29305867,
+      "score": 1,
+      "time": 1637585910,
+      "title": "The World's Deadliest Thing",
+      "type": "story",
+      "url": "https://www.the-angry-chef.com/blog/the-worlds-deadliest-thing"
+    },
+    {
+      "by": "mtasic",
+      "descendants": 1,
+      "id": 29305855,
+      "kids": [
+        29305856
+      ],
+      "score": 1,
+      "time": 1637585807,
+      "title": "Show HN: QuickJS Environment and Package Manager",
+      "type": "story",
+      "url": "https://www.youtube.com/watch?v=ubbgn84mW-M"
+    },
+    {
+      "by": "pimterry",
+      "descendants": 0,
+      "id": 29305840,
+      "score": 1,
+      "time": 1637585697,
+      "title": "Using real-world patterns to improve passenger/driver matching at Grab",
+      "type": "story",
+      "url": "https://engineering.grab.com/using-real-world-patterns-to-improve-matching"
+    },
     {
       "by": "RickJWagner",
       "descendants": 0,
@@ -25,7 +67,7 @@
       "by": "Trombone12",
       "descendants": 0,
       "id": 29305827,
-      "score": 1,
+      "score": 2,
       "time": 1637585576,
       "title": "Why are cross-country train tickets in EU still so complex?",
       "type": "story",
@@ -60,36 +102,6 @@
       "title": "WristMac – 1988 Legendary first Apple Watch",
       "type": "story",
       "url": "https://www.comicconnect.com/item/941004#description?tzf=1&tzf=1&tzf=1"
-    },
-    {
-      "by": "pimterry",
-      "descendants": 0,
-      "id": 29305726,
-      "score": 1,
-      "time": 1637584871,
-      "title": "Reverse engineering and modifying Android apps with JADX and Frida",
-      "type": "story",
-      "url": "https://httptoolkit.tech/blog/android-reverse-engineering/"
-    },
-    {
-      "by": "QMA_QMA",
-      "descendants": 0,
-      "id": 29305709,
-      "score": 1,
-      "text": "We have this Supply Chain software based on a SQL DB that runs on client&#x27;s premises (so 1 DB &#x2F; client), and we struggle to efficiently and thoroughly test and deploy new versions across the several clients.<p>The challenge is that the DB schema is the same for every client but we have a huge set of parameters to manage the client-specific config (some technical parameters to source the ERP data but mainly business logic parameters used as input for stored procedures used in daily jobs). Parameters are either not related to client&#x27;s data (stored in &quot;technical&quot; tables) or the are attributes of business data (stored as fields in the business data tables : must this Client Finish Goods be taken into account in the computation ? --&gt; bit column in the Material Master Table).<p>Does anybody know valuable resource on the topic ? As for now my quest hasn&#x27;t shown much results.<p>Thank you so much for your help\nQMA",
-      "time": 1637584729,
-      "title": "State of the art for Database CI/CD multi-customer with complex config",
-      "type": "story"
-    },
-    {
-      "by": "generichuman",
-      "descendants": 0,
-      "id": 29305698,
-      "score": 1,
-      "time": 1637584709,
-      "title": "Launching the 2021 Nim Community Survey",
-      "type": "story",
-      "url": "https://nim-lang.org/blog/2021/11/22/community-survey-2021.html"
     }
   ]
 }
