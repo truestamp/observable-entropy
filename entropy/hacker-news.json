@@ -1,6 +1,26 @@
 {
   "stories": [
     {
+      "by": "harambae",
+      "descendants": 0,
+      "id": 29344853,
+      "score": 1,
+      "time": 1637873374,
+      "title": "The End of Trust: Suspicion is undermining the American economy",
+      "type": "story",
+      "url": "https://www.theatlantic.com/magazine/archive/2021/12/trust-recession-economy/620522/"
+    },
+    {
+      "by": "harambae",
+      "descendants": 0,
+      "id": 29344842,
+      "score": 1,
+      "time": 1637873312,
+      "title": "New Botswana variant is the most evolved Covid strain EVER",
+      "type": "story",
+      "url": "https://www.dailymail.co.uk/news/article-10238113/New-Botswana-variant-32-horrific-mutations-evolved-Covid-strain-EVER.html"
+    },
+    {
       "by": "redbell",
       "descendants": 0,
       "id": 29344806,
@@ -79,26 +99,6 @@
       "title": "In less than 2 weeks B.1.1.529 dominates in South Africa: at 75% of last genomes",
       "type": "story",
       "url": "https://twitter.com/Tuliodna/status/1463911571176968194"
-    },
-    {
-      "by": "JZN666",
-      "descendants": 0,
-      "id": 29344655,
-      "score": 2,
-      "text": "1) parse_str in PHP, which extracts query parameters from request URL. This can have simple explanation: this is old relict which was designed at earliest versions of PHP. And PHP back then was designed as web templating language, not general programming one. So this name wasn&#x27;t much confusing in this context;<p>2) What about functions like getOurCityTimezone() ? This functions seems to be returning timezone of our city but what it really does is checking if current time is before certain deadline (determined by specific business rules). I can&#x27;t give simple explanation to this. \nThis looks like:\n* Programmer who wrote this function, is not fluent in English. Even with this statement the name is too divergent from real meaning of function to be just lexical mistake. And the programmer could translate it roughly with Google Translate;\n* This function would be initially called as &quot;isBeforeOurCityTimezone&quot;, but as programmer wasn&#x27;t such fluent in English, this was called &quot;getOurCityTimezone&quot;. AND it really determined if current time is before 00:00 (next day) in local time. And it was used to calculate date gap. But then business decided to shift border from 00:00 to earlier time like 23:00 . And for the sake of backwards compatibility, avoiding copypasta and not &quot;wasting&quot; time for refactoring only the body of function was changed. The name remained the same;<p>What are common reasons to misleading names of functions?",
-      "time": 1637871624,
-      "title": "Ask HN: What can lead to misleading names of functions?",
-      "type": "story"
-    },
-    {
-      "by": "adrian_mrd",
-      "descendants": 0,
-      "id": 29344605,
-      "score": 3,
-      "time": 1637871308,
-      "title": "What the world can learn from Britain’s humble hedge",
-      "type": "story",
-      "url": "https://knowablemagazine.org/article/food-environment/2021/what-world-can-learn-britains-humble-hedge"
     }
   ]
 }
