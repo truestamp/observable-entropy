@@ -1,6 +1,46 @@
 {
   "stories": [
     {
+      "by": "imartin2k",
+      "descendants": 0,
+      "id": 29344713,
+      "score": 1,
+      "time": 1637872141,
+      "title": "What I learned eating at 8k Chinese restaurants",
+      "type": "story",
+      "url": "https://www.bbc.com/news/world-us-canada-59356176"
+    },
+    {
+      "by": "belter",
+      "descendants": 0,
+      "id": 29344709,
+      "score": 2,
+      "time": 1637872124,
+      "title": "Last year 90% of Black Friday deals were cheaper six months before sales event",
+      "type": "story",
+      "url": "https://www.bbc.com/news/business-59380453"
+    },
+    {
+      "by": "AndrewBissell",
+      "descendants": 0,
+      "id": 29344696,
+      "score": 1,
+      "time": 1637871941,
+      "title": "Northern Territory authorities 'surge' into remote communities to give vaccines",
+      "type": "story",
+      "url": "https://www.abc.net.au/news/2021-11-24/nt-covid-binjari-rockhole-outbreak-vaccine-surge/100640078"
+    },
+    {
+      "by": "mikhael",
+      "descendants": 0,
+      "id": 29344693,
+      "score": 2,
+      "time": 1637871905,
+      "title": "WHO calls special meeting on new Covid variant with ‘large number of mutations’",
+      "type": "story",
+      "url": "https://www.cnbc.com/2021/11/25/who-calls-special-meeting-to-discuss-new-covid-variant-from-south-africa-with-large-number-of-mutations.html"
+    },
+    {
       "by": "spzx",
       "descendants": 0,
       "id": 29344659,
@@ -9,6 +49,16 @@
       "title": "In less than 2 weeks B.1.1.529 dominates in South Africa: at 75% of last genomes",
       "type": "story",
       "url": "https://twitter.com/Tuliodna/status/1463911571176968194"
+    },
+    {
+      "by": "JZN666",
+      "descendants": 0,
+      "id": 29344655,
+      "score": 2,
+      "text": "1) parse_str in PHP, which extracts query parameters from request URL. This can have simple explanation: this is old relict which was designed at earliest versions of PHP. And PHP back then was designed as web templating language, not general programming one. So this name wasn&#x27;t much confusing in this context;<p>2) What about functions like getOurCityTimezone() ? This functions seems to be returning timezone of our city but what it really does is checking if current time is before certain deadline (determined by specific business rules). I can&#x27;t give simple explanation to this. \nThis looks like:\n* Programmer who wrote this function, is not fluent in English. Even with this statement the name is too divergent from real meaning of function to be just lexical mistake. And the programmer could translate it roughly with Google Translate;\n* This function would be initially called as &quot;isBeforeOurCityTimezone&quot;, but as programmer wasn&#x27;t such fluent in English, this was called &quot;getOurCityTimezone&quot;. AND it really determined if current time is before 00:00 (next day) in local time. And it was used to calculate date gap. But then business decided to shift border from 00:00 to earlier time like 23:00 . And for the sake of backwards compatibility, avoiding copypasta and not &quot;wasting&quot; time for refactoring only the body of function was changed. The name remained the same;<p>What are common reasons to misleading names of functions?",
+      "time": 1637871624,
+      "title": "Ask HN: What can lead to misleading names of functions?",
+      "type": "story"
     },
     {
       "by": "adrian_mrd",
@@ -49,63 +99,6 @@
       "time": 1637871247,
       "title": "Ask HN: Whats a good IRC channel for Science Fiction?",
       "type": "story"
-    },
-    {
-      "by": "todsacerdoti",
-      "descendants": 0,
-      "id": 29344584,
-      "score": 1,
-      "time": 1637871215,
-      "title": "A prioritised micro-batch scheduler in rust",
-      "type": "story",
-      "url": "https://njk.onl/blog/gaffer.html"
-    },
-    {
-      "by": "1cvmask",
-      "descendants": 0,
-      "id": 29344548,
-      "score": 1,
-      "time": 1637870942,
-      "title": "Google Ireland agrees €345m tax settlement with Revenue",
-      "type": "story",
-      "url": "https://www.irishtimes.com/business/technology/google-ireland-agrees-345m-tax-settlement-with-revenue-1.4738798"
-    },
-    {
-      "by": "adrian_mrd",
-      "descendants": 0,
-      "id": 29344533,
-      "score": 2,
-      "time": 1637870776,
-      "title": "Martin Kleppmann’s Patreon support page",
-      "type": "story",
-      "url": "https://www.patreon.com/martinkl#no_universal_links"
-    },
-    {
-      "by": "Jaye_Pharrell",
-      "descendants": 1,
-      "id": 29344484,
-      "kids": [
-        29344509
-      ],
-      "score": 1,
-      "time": 1637870417,
-      "title": "Show HN: Dayblizz – Social Media App for sharing and monetizing content",
-      "type": "story",
-      "url": "https://dayblizz.com/download/"
-    },
-    {
-      "by": "Mike_Andreuzza",
-      "descendants": 2,
-      "id": 29344478,
-      "kids": [
-        29344482,
-        29344552
-      ],
-      "score": 1,
-      "time": 1637870367,
-      "title": "Sh: Serendipity Theme.Available for code editors, shells, UI's and more",
-      "type": "story",
-      "url": "https://marketplace.visualstudio.com/items?itemName=wicked-labs.wvsc-serendipity"
     }
   ]
 }
