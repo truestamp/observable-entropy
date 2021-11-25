@@ -1,6 +1,16 @@
 {
   "stories": [
     {
+      "by": "hepennypacker",
+      "descendants": 0,
+      "id": 29341859,
+      "score": 1,
+      "text": "I&#x27;m a solo developer building a consumer website in which users must log in to access the content. I&#x27;m curious what your preferences are for website log-ins.<p>Assumptions: \n- Security is important. It would be bad if a malicious party gained access to emails and passwords, since people often reuse passwords across sites\n- I am not highly-skilled in web security (not my background) \n- Companies, such as Google, can do security better than I can<p>Options I see: \n1. Do it all in-house. Users create an account with a log-in and password, which I store and secure. \n2. 3rd part log in, such as Google. Users log in with their Google account, and I don&#x27;t store any password data. \n3. &quot;Magic Link&quot;: when users want to log in, they receive an email with a link to log into the site. I also don&#x27;t store any passwords.<p>#2: It seems some people don&#x27;t like using these. Reasons could be: not trusting my site, wanting to create throwaway accounts, not having a Google or other 3rd party account at all.<p>#3: I like these, but it adds a step where users leave the site. It also seems that relatively few websites use this style of authentication?<p>#2 and #3 also reduce ease of use, since users won&#x27;t be able to use a password storage application such as LastPass. They&#x27;ll always have to go through additional steps (clicks) to log in.<p>I think the end result is some combination of these, but not all 3. It would be helpful to hear your perspective: if I&#x27;m overestimating the difficult of securing password data, what tradeoffs I should consider, personal preferences on the above, and any options I may have missed. Also wondering if 2FA is an absolute must for this type of site.<p>Also note: I do payment processing via Stripe, and don&#x27;t store credit card info in my databases. The most financial damage someone could do on my site would be to purchase a single monthly subscription. Of course, there is a greater risk if people use the same email and password log in as they do for their banking, for example.",
+      "time": 1637852236,
+      "title": "Ask HN: What is your online login/password preference?",
+      "type": "story"
+    },
+    {
       "by": "marianoguerra",
       "descendants": 0,
       "id": 29341816,
@@ -34,7 +44,7 @@
       "by": "Etai",
       "descendants": 0,
       "id": 29341764,
-      "score": 2,
+      "score": 4,
       "text": "Simple data cataloging starts with a great organization. A data catalog is a collection of metadata and documentation that helps make sense of the data sprawl that exists in most growing companies. Getting together and starting to use a data catalog is a simple process, but starting to get adoption and having the dictionary exist as part of your workflow is a little bit more difficult.<p>An example of the data catalog problems shared by one of the delivery companies we spoke with. At this company, it was difficult to get aligned on which tables were commonly used, joined, how they were used together and what columns meant. Similarly, it’s difficult to monitor the number of data assets that exist across different departments, especially when the number of resources grows at a faster rate than people. Why is this the case?<p>Data is becoming more decentralized through concepts like the data mesh. As more teams outside of the data function start to use data in their day-to-day, different tables, dashboards and definitions are being created at an almost exponential rate. Data catalogs are important because they help you organize your data whether you are working with structured or unstructured data.<p>Below are the steps that teams need to take when creating a data catalog:<p>1. Gather sources from across the organization<p>The first step data teams need to take is to collect the different resources that are scattered across different tools in the origination. This may require multiple meetings and stakeholders to come together and figure out which resources need to be in the catalog. Today, this collection could be done in a spreadsheet with an ongoing list of all resources and how they connect.<p>2. Give each resource an owner<p>After data teams have identified all the resources from across the company that they would like to include in their data catalog, we recommend assigning ownership to each resource. Teams that we’ve worked within the past have assigned ownership based on the source, schema or even domain. Teams that start assigning ownership should look for people who are familiar with the data knowledge they are responsible for managing and are willing to help others who want to learn how to use it.<p>3. Get support and sign off<p>Once these meetings conclude and owners are on the same page, have the owners sign off on their responsibilities. The owners should be in alignment with the documentation and feel like the data team worked collaboratively with them to come to this ownership structure. If the team leadership team sees the value of a data catalog, this can move at a much faster pace.<p>4. Integrate the catalog base into your workflow<p>After data teams have received support for their data documentation process, they should look for ways to integrate this tool into their workflow. This step is critical for maintenance and upkeep. Without a tool that allows teammates to receive notifications on Slack, it will likely be forgotten. By creating a process around the data catalog, teams can ensure that it is not left behind as the team grows<p>5. Upkeep the data catalog<p>Although the documentation should be stable, it may need to change over time. One instance that might require documentation to change is when a new revenue stream is introduced or when the pricing of an existing revenue line changes. These changes traditionally come from the business team and might require the data team to implement the changes into the data catalog.<p>Teams that invest the time to get alignment using a data catalog can see major benefits in the long term as they make faster decisions as a team. Creating a data catalog is not a small undertaking. You can read the full step-by-step guide here if you found this post useful: https:&#x2F;&#x2F;www.secoda.co&#x2F;blog&#x2F;how-to-create-a-data-catalog-a-step-by-step-guide",
       "time": 1637851639,
       "title": "How to create a data catalog, a step by step guide",
@@ -74,7 +84,7 @@
       "by": "akeck",
       "descendants": 0,
       "id": 29341708,
-      "score": 1,
+      "score": 2,
       "time": 1637851276,
       "title": "Permacomputing Update 2021",
       "type": "story",
@@ -89,16 +99,6 @@
       "title": "Hot Reloading Diagrams into Web Tutorials (Demo Video)",
       "type": "story",
       "url": "https://twitter.com/seflless/status/1463710140687949826"
-    },
-    {
-      "by": "scottbucks",
-      "descendants": 0,
-      "id": 29341689,
-      "score": 1,
-      "time": 1637851183,
-      "title": "macOS Monterey Features You Will Use",
-      "type": "story",
-      "url": "https://thedetechtor.com/macos-monterey-features-you-will-actually-use/"
     }
   ]
 }
