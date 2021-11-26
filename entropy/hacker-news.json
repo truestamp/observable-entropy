@@ -1,6 +1,16 @@
 {
   "stories": [
     {
+      "by": "dumbkidinsch",
+      "descendants": 0,
+      "id": 29351118,
+      "score": 1,
+      "text": "Hi All,<p>Does anyone know of any note taking&#x2F;study software that has the following features ?\n- search \n- notes\n- mind maps\n- flash cards",
+      "time": 1637940986,
+      "title": "Ask HN: Studying/Note Taking Software",
+      "type": "story"
+    },
+    {
       "by": "komnenovic",
       "descendants": 0,
       "id": 29351100,
@@ -35,9 +45,11 @@
     },
     {
       "by": "hbarton2020",
-      "descendants": 1,
+      "descendants": 4,
       "id": 29351062,
       "kids": [
+        29351129,
+        29351119,
         29351084
       ],
       "score": 1,
@@ -57,10 +69,20 @@
       "url": "https://www.bloomberg.com/news/articles/2021-08-20/why-inflation-is-scaring-latin-america-if-not-the-fed-quicktake"
     },
     {
+      "by": "roastedpeacock",
+      "descendants": 0,
+      "id": 29351020,
+      "score": 2,
+      "text": "Many online services (relative to the past) have reasonably secure login systems with two factor authentication using codes, hardware tokens, and so forth. However one aspect that doesn&#x27;t get as much attention is how things are handled in cases of failures. Some services err on the paranoid side and strongly incentivize you to have backup methods of recovery (Such as backup tokens) or have things become very tricky which could be considered good from a defense (Google APP)<p>In contrast, there have been other incidents such as the incident of the owner of the Twitter handle @N having one of his domains hijacked by social engineering of GoDaddy support to pivot to control of his Twitter account[1] Since then. GoDaddy has fallen victim to other incidents of this nature[2]. Not advocating the use of GoDaddy, but was just illustrating these as case studies.<p>GoDaddy isn&#x27;t alone with this, there have been other attempts at stealing domains with scans of falsified identity documents and similar fraud, as if verifying remote scans of passports from foreign countries is a trivial task[3]<p>What are some best practices from an OPSEC perspective to mitigate the above risks for higher risk individuals?<p>Note: Ignoring the issues of client-side cryptography in JavaScript, the fact that their SMTP gateway could be compromised logging plaintext, etcetera, would a hypothetical ProtonMail free account with 2FA enabled and password reset disabled fare well enough against some of the above mentioned attacks? As for the relevance email is used to &quot;bootstrap&quot; digital identities and unless services take further precautions to distrust unauthenticated email there is a fair amount of things that could be done by an attacker who can send and receive email at <i>your</i> address.<p>[1] https:&#x2F;&#x2F;medium.com&#x2F;@N&#x2F;how-i-lost-my-50-000-twitter-username-24eb09e026dd<p>[2] https:&#x2F;&#x2F;krebsonsecurity.com&#x2F;2020&#x2F;11&#x2F;godaddy-employees-used-in-attacks-on-multiple-cryptocurrency-services&#x2F;<p>[3] https:&#x2F;&#x2F;fastmail.blog&#x2F;historical&#x2F;when-two-factor-authentication-is-not-enough&#x2F;",
+      "time": 1637940303,
+      "title": "Ask HN: Account Hijacking Risk of Email Accounts and Other Digital Identities",
+      "type": "story"
+    },
+    {
       "by": "sahillavingia",
       "descendants": 0,
       "id": 29351012,
-      "score": 1,
+      "score": 4,
       "time": 1637940269,
       "title": "Betting on the New Gumroad",
       "type": "story",
@@ -85,26 +107,6 @@
       "title": "Researchers Defeat Randomness to Create Ideal Code",
       "type": "story",
       "url": "https://www.quantamagazine.org/researchers-defeat-randomness-to-create-ideal-code-20211124/"
-    },
-    {
-      "by": "piotrgrudzien",
-      "descendants": 0,
-      "id": 29350978,
-      "score": 2,
-      "time": 1637940054,
-      "title": "Live computer analysis of the Carlsen – Nepomniachtchi Chess Championship match",
-      "type": "story",
-      "url": "https://analysis.sesse.net/"
-    },
-    {
-      "by": "ValentineC",
-      "descendants": 0,
-      "id": 29350964,
-      "score": 1,
-      "time": 1637939991,
-      "title": "Thoughts on DBS Availability Incident",
-      "type": "story",
-      "url": "https://www.linkedin.com/pulse/thoughts-dbs-availability-incident-kevin-reed"
     }
   ]
 }
