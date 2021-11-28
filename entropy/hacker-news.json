@@ -3,6 +3,36 @@
     {
       "by": "News-Dog",
       "descendants": 0,
+      "id": 29368031,
+      "score": 1,
+      "time": 1638098656,
+      "title": "Adjuvants and Vaccines (CDC)",
+      "type": "story",
+      "url": "https://www.cdc.gov/vaccinesafety/concerns/adjuvants.html"
+    },
+    {
+      "by": "donutloop",
+      "descendants": 0,
+      "id": 29368020,
+      "score": 1,
+      "time": 1638098523,
+      "title": "How to Get Payouts for Ethereum Mining Without Fees",
+      "type": "story",
+      "url": "https://2miners.com/blog/how-to-get-payouts-for-ethereum-mining-without-fees/"
+    },
+    {
+      "by": "peanutcrisis",
+      "descendants": 0,
+      "id": 29368013,
+      "score": 1,
+      "time": 1638098401,
+      "title": "100 Lessons from 1 Year of AI Research",
+      "type": "story",
+      "url": "https://jetnew.notion.site/100-Lessons-from-1-Year-of-AI-Research-cf431d0f43764750acb83462de06979b"
+    },
+    {
+      "by": "News-Dog",
+      "descendants": 0,
       "id": 29368012,
       "score": 1,
       "time": 1638098381,
@@ -22,23 +52,16 @@
     },
     {
       "by": "frereubu",
-      "descendants": 0,
+      "descendants": 1,
       "id": 29368008,
+      "kids": [
+        29368019
+      ],
       "score": 1,
       "time": 1638098332,
       "title": "A new book explains the tragic failure of Boeing’s 737 Max",
       "type": "story",
       "url": "https://www.economist.com/books-and-arts/2021/11/27/a-new-book-explains-the-tragic-failure-of-boeings-737-max"
-    },
-    {
-      "by": "dsego",
-      "descendants": 0,
-      "id": 29368002,
-      "score": 1,
-      "time": 1638098242,
-      "title": "Tagged Template Strings in TypeScript",
-      "type": "story",
-      "url": "https://flaming.codes/posts/typescript-and-javascript-tagged-template-strings"
     },
     {
       "by": "apetresc",
@@ -62,8 +85,11 @@
     },
     {
       "by": "teleforce",
-      "descendants": 0,
+      "descendants": 1,
       "id": 29367956,
+      "kids": [
+        29368022
+      ],
       "score": 4,
       "time": 1638097415,
       "title": "The 20 best gadgets of 2021",
@@ -82,26 +108,6 @@
       "title": "Reaqtor – Reliable Rx at Scale for High-Performance Event Processing [video]",
       "type": "story",
       "url": "https://www.youtube.com/watch?v=K5A3uP75XNQ"
-    },
-    {
-      "by": "wcerfgba",
-      "descendants": 0,
-      "id": 29367918,
-      "score": 1,
-      "text": "Hi y&#x27;all,<p>I recently read Crypto.com&#x27;s original &quot;On-Chain Market Sizing&quot; publication [1] and I have a question about the methodology.<p>In order to determine the number of wallet-holders on the Bitcoin blockchain, they count the number of deposit addresses connected to various exchanges:<p><pre><code>    Most exchanges use an architecture called “deposit sweeping” to\n    handle crypto deposit inflows. By counting the deposit addresses via\n    on-chain data, we can approximate the number of users for that\n    exchange.\n</code></pre>\nHowever, I did not think that each exchange would use a single deposit address for each user. In the past when I have deposited funds in some exchanges I would get a different address each time. Therefore, wouldn&#x27;t this mean that rather than counting the number of users, this method is more likely counting the number of deposits? Since each user may have several deposits with a single exchange, this may be inflating the projected count of users by anywhere from 2 to 100+ times, depending on the average number of deposits made per user per exchange.<p>The methodology doesn&#x27;t make any attempt to correct for this, and actually goes on to further inflate this value by scaling it by the inverse of the &#x27;deposit rate&#x27;, calculated from one of Crypto.com&#x27;s surveys:<p><pre><code>    By assuming that the number of users on an exchange approximately\n    equals to the number of exchange addresses, we can state our first\n    formula [Formula 1]\n    However, on-chain addresses will only appear once people have\n    performed a deposit &#x2F; withdrawal action, to account for the fact that\n    some people have never deposited into &#x2F; withdrawn from the\n    exchange.\n    To estimate the true number of exchange users, we need to further\n    scale up the number in formula (1): it should be divided by the ratio\n    that people have deposited into an exchange.\n    We calculated the deposit ratio by blended metrics from our internal\n    data, survey data and industry benchmark.\n</code></pre>\nThis assumption that &quot;the number of users on an exchange approximately equals to the number of exchange addresses&quot; feels like a very strong assumption to me, doesn&#x27;t align with my own experience of using exchanges, and can potentially skew the results by an order of magnitude!<p>Can someone with a better understanding of the different exchanges included in this report, and the &#x27;deposit sweeping&#x27; methods and wallet structures used by these exchanges, provide their take on this assumption and the potential for error here?<p>[1] https:&#x2F;&#x2F;crypto.com&#x2F;research&#x2F;article?category=data&amp;page=on-chain-market-sizing<p>Thanks!",
-      "time": 1638096866,
-      "title": "Ask HN: Questions about Crypto.com's “On-Chain Market Sizing” Methodology",
-      "type": "story"
-    },
-    {
-      "by": "westedcrean",
-      "descendants": 0,
-      "id": 29367908,
-      "score": 1,
-      "time": 1638096732,
-      "title": "SelectKBest with Chi2 score returns incorrect results in scikit-learn",
-      "type": "story",
-      "url": "https://ondata.blog/articles/your-model-may-be-inaccurate/"
     }
   ]
 }
