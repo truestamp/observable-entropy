@@ -1,10 +1,53 @@
 {
   "stories": [
     {
+      "by": "wcerfgba",
+      "descendants": 0,
+      "id": 29367918,
+      "score": 1,
+      "text": "Hi y&#x27;all,<p>I recently read Crypto.com&#x27;s original &quot;On-Chain Market Sizing&quot; publication [1] and I have a question about the methodology.<p>In order to determine the number of wallet-holders on the Bitcoin blockchain, they count the number of deposit addresses connected to various exchanges:<p><pre><code>    Most exchanges use an architecture called “deposit sweeping” to\n    handle crypto deposit inflows. By counting the deposit addresses via\n    on-chain data, we can approximate the number of users for that\n    exchange.\n</code></pre>\nHowever, I did not think that each exchange would use a single deposit address for each user. In the past when I have deposited funds in some exchanges I would get a different address each time. Therefore, wouldn&#x27;t this mean that rather than counting the number of users, this method is more likely counting the number of deposits? Since each user may have several deposits with a single exchange, this may be inflating the projected count of users by anywhere from 2 to 100+ times, depending on the average number of deposits made per user per exchange.<p>The methodology doesn&#x27;t make any attempt to correct for this, and actually goes on to further inflate this value by scaling it by the inverse of the &#x27;deposit rate&#x27;, calculated from one of Crypto.com&#x27;s surveys:<p><pre><code>    By assuming that the number of users on an exchange approximately\n    equals to the number of exchange addresses, we can state our first\n    formula [Formula 1]\n    However, on-chain addresses will only appear once people have\n    performed a deposit &#x2F; withdrawal action, to account for the fact that\n    some people have never deposited into &#x2F; withdrawn from the\n    exchange.\n    To estimate the true number of exchange users, we need to further\n    scale up the number in formula (1): it should be divided by the ratio\n    that people have deposited into an exchange.\n    We calculated the deposit ratio by blended metrics from our internal\n    data, survey data and industry benchmark.\n</code></pre>\nThis assumption that &quot;the number of users on an exchange approximately equals to the number of exchange addresses&quot; feels like a very strong assumption to me, doesn&#x27;t align with my own experience of using exchanges, and can potentially skew the results by an order of magnitude!<p>Can someone with a better understanding of the different exchanges included in this report, and the &#x27;deposit sweeping&#x27; methods and wallet structures used by these exchanges, provide their take on this assumption and the potential for error here?<p>[1] https:&#x2F;&#x2F;crypto.com&#x2F;research&#x2F;article?category=data&amp;page=on-chain-market-sizing<p>Thanks!",
+      "time": 1638096866,
+      "title": "Ask HN: Questions about Crypto.com's “On-Chain Market Sizing” Methodology",
+      "type": "story"
+    },
+    {
+      "by": "westedcrean",
+      "descendants": 0,
+      "id": 29367908,
+      "score": 1,
+      "time": 1638096732,
+      "title": "SelectKBest with Chi2 score returns incorrect results in scikit-learn",
+      "type": "story",
+      "url": "https://ondata.blog/articles/your-model-may-be-inaccurate/"
+    },
+    {
+      "by": "throwawaybutwhy",
+      "descendants": 1,
+      "id": 29367902,
+      "kids": [
+        29367907
+      ],
+      "score": 2,
+      "time": 1638096630,
+      "title": "Martian Clock and Calendar (1991)",
+      "type": "story",
+      "url": "https://ops-alaska.com/time/forward/forward.htm"
+    },
+    {
+      "by": "zeristor",
+      "descendants": 0,
+      "id": 29367901,
+      "score": 1,
+      "time": 1638096629,
+      "title": "The oil ads that told us climate change was nothing",
+      "type": "story",
+      "url": "https://www.theguardian.com/environment/2021/nov/18/the-forgotten-oil-ads-that-told-us-climate-change-was-nothing"
+    },
+    {
       "by": "nothrowaways",
       "descendants": 0,
       "id": 29367894,
-      "score": 1,
+      "score": 3,
       "time": 1638096563,
       "title": "South Africa punished for scientific Discovery",
       "type": "story",
@@ -14,7 +57,7 @@
       "by": "dkobia",
       "descendants": 0,
       "id": 29367875,
-      "score": 1,
+      "score": 2,
       "time": 1638096365,
       "title": "Why Space Tourists Won’t Find the Awe They Seek",
       "type": "story",
@@ -24,7 +67,7 @@
       "by": "ash",
       "descendants": 0,
       "id": 29367863,
-      "score": 2,
+      "score": 3,
       "time": 1638096206,
       "title": "British Navy against slave trade",
       "type": "story",
@@ -59,46 +102,6 @@
       "title": "Homebase",
       "type": "story",
       "url": "https://homebase.io/"
-    },
-    {
-      "by": "mxstbr",
-      "descendants": 0,
-      "id": 29367818,
-      "score": 1,
-      "time": 1638095605,
-      "title": "Frame Control",
-      "type": "story",
-      "url": "https://knowingless.com/2021/11/27/frame-control/"
-    },
-    {
-      "by": "omarfarooq",
-      "descendants": 0,
-      "id": 29367805,
-      "score": 1,
-      "time": 1638095480,
-      "title": "Dark Mode Design",
-      "type": "story",
-      "url": "https://www.darkmodedesign.com/"
-    },
-    {
-      "by": "Tomte",
-      "descendants": 0,
-      "id": 29367796,
-      "score": 1,
-      "time": 1638095410,
-      "title": "At Same-Sex Dances, Anyone Can Lead (2018)",
-      "type": "story",
-      "url": "https://www.nytimes.com/2018/06/21/us/same-sex-social-dancing.html"
-    },
-    {
-      "by": "Tomte",
-      "descendants": 0,
-      "id": 29367763,
-      "score": 3,
-      "time": 1638094951,
-      "title": "The Ten Rules of Golden Age Detective Fiction",
-      "type": "story",
-      "url": "https://kottke.org/21/11/the-ten-rules-of-golden-age-detective-fiction"
     }
   ]
 }
