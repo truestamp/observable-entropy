@@ -1,6 +1,16 @@
 {
   "stories": [
     {
+      "by": "killHACKS",
+      "descendants": 0,
+      "id": 29369479,
+      "score": 1,
+      "time": 1638112492,
+      "title": "Dancing robots you can fling",
+      "type": "story",
+      "url": "http://robotics.ovh?1"
+    },
+    {
       "by": "mcguire",
       "descendants": 0,
       "id": 29369418,
@@ -12,8 +22,11 @@
     },
     {
       "by": "leonry",
-      "descendants": 0,
+      "descendants": 1,
       "id": 29369387,
+      "kids": [
+        29369464
+      ],
       "score": 1,
       "time": 1638111785,
       "title": "Quiet Mark of the Noise Abatement Society",
@@ -67,7 +80,7 @@
       "by": "revskill",
       "descendants": 0,
       "id": 29369328,
-      "score": 1,
+      "score": 2,
       "text": "I learnt that (from Alan Kay), OOP is about message passing, but in most of OOP supported language, the syntax is always<p>receiver.method(message).<p>While i think it should be<p>sender.message(receiver, params)<p>or<p>sender.send(receiver, message, params)<p>Am i missing anything ?",
       "time": 1638111176,
       "title": "Ask HN: If OOP is about message passing, why not sender.send(receiver, message)?",
@@ -92,16 +105,6 @@
       "title": "Three.js Journey – Learn WebGL with Three.js",
       "type": "story",
       "url": "https://threejs-journey.com/"
-    },
-    {
-      "by": "alusha",
-      "descendants": 0,
-      "id": 29369299,
-      "score": 1,
-      "time": 1638110879,
-      "title": "macOS menubar app that hides your dock on selected virtual desktops",
-      "type": "story",
-      "url": "https://github.com/a1usha/HideMyDock"
     }
   ]
 }
