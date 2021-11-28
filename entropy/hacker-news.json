@@ -1,9 +1,22 @@
 {
   "stories": [
     {
-      "by": "cf100clunk",
+      "by": "todsacerdoti",
       "descendants": 0,
+      "id": 29371161,
+      "score": 1,
+      "time": 1638122611,
+      "title": "Emacs Bends Again",
+      "type": "story",
+      "url": "https://xenodium.com/emacs-bends-again/"
+    },
+    {
+      "by": "cf100clunk",
+      "descendants": 1,
       "id": 29371132,
+      "kids": [
+        29371162
+      ],
       "score": 1,
       "time": 1638122379,
       "title": "Suppressed and forcibly assimilated Sami people of Sweden get church apology",
@@ -44,7 +57,7 @@
       "by": "bccdee",
       "descendants": 0,
       "id": 29371088,
-      "score": 1,
+      "score": 2,
       "text": "Here&#x27;s a very plausible threat: Some developer with a left-pad package, some dependency-of-a-dependency, injects malware into their library. A developer (who is broadly trustworthy) updates their package&#x27;s dependencies without auditing them properly, and the malware ends up in a VSCode plugin that you use. You open VSCode, your system is infected.<p>We know this sort of malware is making its way onto package repositories [1]. We know people are falling for these attacks. How do we protect ourselves against this family of threats?<p>[1]: https:&#x2F;&#x2F;www.theregister.com&#x2F;2021&#x2F;07&#x2F;21&#x2F;npm_malware_password&#x2F;<p>We could trust nothing beyond our base system and our browser, and refuse to use any code we don&#x27;t fully audit, but this would be an impossibly austere way to live. I expect most of us, when pressed, would admit that we&#x27;re trusting much more code than we would like to.<p>The alternative is sandboxing, using a lightweight option like firejail (which I use) or a totalizing system like QubesOS. But these systems are awkward to use, and have their own drawbacks.<p>What&#x27;s the bar for reasonable security, in your opinion? How do you secure your workstation without living like a monk? Is there some convenient solution that I haven&#x27;t considered?",
       "time": 1638122104,
       "title": "Ask HN: What's the best way to secure your workstation?",
@@ -89,16 +102,6 @@
       "title": "It’s time to stop demonizing “invasive” species",
       "type": "story",
       "url": "https://www.vox.com/down-to-earth/22796160/invasive-species-climate-change-range-shifting"
-    },
-    {
-      "by": "Winterflow3r",
-      "descendants": 0,
-      "id": 29370922,
-      "score": 2,
-      "text": "For however you choose to define &quot;worth&quot;.",
-      "time": 1638121113,
-      "title": "Ask HN: EU devs who moved to the States for work, has it been worth it?",
-      "type": "story"
     }
   ]
 }
