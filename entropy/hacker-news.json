@@ -1,6 +1,46 @@
 {
   "stories": [
     {
+      "by": "bccdee",
+      "descendants": 0,
+      "id": 29371088,
+      "score": 1,
+      "text": "Here&#x27;s a very plausible threat: Some developer with a left-pad package, some dependency-of-a-dependency, injects malware into their library. A developer (who is broadly trustworthy) updates their package&#x27;s dependencies without auditing them properly, and the malware ends up in a VSCode plugin that you use. You open VSCode, your system is infected.<p>We know this sort of malware is making its way onto package repositories [1]. We know people are falling for these attacks. How do we protect ourselves against this family of threats?<p>[1]: https:&#x2F;&#x2F;www.theregister.com&#x2F;2021&#x2F;07&#x2F;21&#x2F;npm_malware_password&#x2F;<p>We could trust nothing beyond our base system and our browser, and refuse to use any code we don&#x27;t fully audit, but this would be an impossibly austere way to live. I expect most of us, when pressed, would admit that we&#x27;re trusting much more code than we would like to.<p>The alternative is sandboxing, using a lightweight option like firejail (which I use) or a totalizing system like QubesOS. But these systems are awkward to use, and have their own drawbacks.<p>What&#x27;s the bar for reasonable security, in your opinion? How do you secure your workstation without living like a monk? Is there some convenient solution that I haven&#x27;t considered?",
+      "time": 1638122104,
+      "title": "Ask HN: What's the best way to secure your workstation?",
+      "type": "story"
+    },
+    {
+      "by": "Vigier",
+      "descendants": 0,
+      "id": 29371080,
+      "score": 1,
+      "time": 1638122073,
+      "title": "Life as We Made It by Beth Shapiro asks: is “natural” always best?",
+      "type": "story",
+      "url": "https://www.newstatesman.com/culture/2021/11/life-as-we-made-it-by-beth-shapiro-asks-is-natural-always-best"
+    },
+    {
+      "by": "kindalost",
+      "descendants": 0,
+      "id": 29371058,
+      "score": 1,
+      "text": "Long time lurker here. Just quit my job and thinking about how I should go about it.<p>Background: I have a degree in business administration, so not stem related at all. I have some money on side to live on for a around a year (more if I move back to my home 3rd world country). I consider myself tech-savvy (running Ubuntu then fedora for the last 10 years, build my own desktop).<p>The goal: finding a REMOTE job in IT&#x2F;software development as fast as possible. It does not have to pay much ($21k+ a year and I would sign), getting experience is the priority. Aiming for FAANG someday.<p>What I do know: Harvard CS50 10-15h a day. After that I will probably follow a Reddit thread suggesting CS61A&#x2F;CS61B&#x2F;CS61C from University of California, Berkeley. And finally Full Stack Open 2021 by University of Helsinki (gives certification).<p>As a hiring manager, would you hire me after all this if I have a mid-sized project matching your business?<p>Is there a database somewhere with a case study of digital startups? Wanting to create my own someday and that could really be handy.<p>Any advice would be appreciated, success or failure story also.<p>PS: If I have to go back to university, I will but prefer not to (cost is the real problem).",
+      "time": 1638121954,
+      "title": "Ask HN: Tips for a 30 year old trying to switch to IT/software development?",
+      "type": "story"
+    },
+    {
+      "by": "rbanffy",
+      "descendants": 0,
+      "id": 29371057,
+      "score": 1,
+      "time": 1638121947,
+      "title": "Samsung-Esperanto Concept AI-SSD Prototype",
+      "type": "story",
+      "url": "https://fuse.wikichip.org/news/6575/samsung-esperanto-concept-ai-ssd-prototype/"
+    },
+    {
       "by": "lgessler",
       "descendants": 0,
       "id": 29370957,
@@ -9,19 +49,6 @@
       "title": "It’s time to stop demonizing “invasive” species",
       "type": "story",
       "url": "https://www.vox.com/down-to-earth/22796160/invasive-species-climate-change-range-shifting"
-    },
-    {
-      "by": "canoebuilder",
-      "descendants": 1,
-      "id": 29370950,
-      "kids": [
-        29370992
-      ],
-      "score": 1,
-      "time": 1638121280,
-      "title": "The English data on vaccines and mortality, revisited",
-      "type": "story",
-      "url": "https://alexberenson.substack.com/p/the-english-data-on-vaccines-and/comments"
     },
     {
       "by": "Winterflow3r",
@@ -48,12 +75,13 @@
     },
     {
       "by": "legrande",
-      "descendants": 1,
+      "descendants": 2,
       "id": 29370894,
       "kids": [
+        29371071,
         29370986
       ],
-      "score": 7,
+      "score": 8,
       "text": "Are you jaded about The Internet? I&#x27;ve been online 20 years now and I feel like I&#x27;ve reached the pinnacle of what The Internet is about and have in a way <i>reached the end of The Internet</i>. I&#x27;ve seen just about everything you could want, and participated in many communities over the years, and I feel everything is just &#x27;samey&#x27; now and follows the same pattern. It&#x27;s hard for anything on The Internet to stand out and be unique (at least for me). YMMV on this.<p>Now with Web3&#x2F;NFTs&#x2F;cryptocurrency people are building an abstraction layer on top of the web and want to decentralize all the things, which is good to see, but I want to see all that fleshed out properly before I dive into it and leverage it. This is the <i>shiny thing</i> I look forward to on the web, but it&#x27;s still early days. Other than that, the web seems kinda boring lately.<p>Are you jaded about the web too? I&#x27;d like to hear your thoughts!",
       "time": 1638120899,
       "title": "Ask HN: Jaded about the Internet?",
@@ -63,7 +91,7 @@
       "by": "baryphonic",
       "descendants": 0,
       "id": 29370883,
-      "score": 1,
+      "score": 2,
       "time": 1638120858,
       "title": "IEEE-754 Visualization Tool (Half-/Single-/Double-Precision)",
       "type": "story",
@@ -76,41 +104,11 @@
       "kids": [
         29370936
       ],
-      "score": 2,
+      "score": 3,
       "time": 1638120817,
       "title": "Reverse-engineering the Yamaha DX7 synthesizer's clever exponential circuit",
       "type": "story",
       "url": "https://www.righto.com/2021/11/reverse-engineering-yamaha-dx7_28.html"
-    },
-    {
-      "by": "bookofjoe",
-      "descendants": 0,
-      "id": 29370866,
-      "score": 2,
-      "time": 1638120777,
-      "title": "3D ink made of living cells for creating living structures",
-      "type": "story",
-      "url": "https://phys.org/news/2021-11-3d-ink-cells.html"
-    },
-    {
-      "by": "CarCooler",
-      "descendants": 0,
-      "id": 29370838,
-      "score": 3,
-      "time": 1638120648,
-      "title": "SpaceX enthusiast designs a 1:110 scale Lego Starship",
-      "type": "story",
-      "url": "https://www.teslaoracle.com/2021/11/28/spacex-enthusiast-designs-a-1110-scale-lego-starship/"
-    },
-    {
-      "by": "1cvmask",
-      "descendants": 0,
-      "id": 29370785,
-      "score": 5,
-      "time": 1638120389,
-      "title": "EU companies issue formal complaint against Microsoft OneDrive integration",
-      "type": "story",
-      "url": "https://www.zdnet.com/article/eu-companies-sue-microsoft-onedrive-windows-integration/"
     }
   ]
 }
