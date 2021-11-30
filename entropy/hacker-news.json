@@ -1,6 +1,36 @@
 {
   "stories": [
     {
+      "by": "nanomonkey",
+      "descendants": 0,
+      "id": 29398284,
+      "score": 1,
+      "time": 1638311251,
+      "title": "Ether, antiradio, listen to the electromagnetic landscape around you",
+      "type": "story",
+      "url": "https://somasynths.com/ether/"
+    },
+    {
+      "by": "gmays",
+      "descendants": 0,
+      "id": 29398281,
+      "score": 1,
+      "time": 1638311240,
+      "title": "Artificial intelligence that understands object relationships",
+      "type": "story",
+      "url": "https://news.mit.edu/2021/ai-object-relationships-image-generation-1129"
+    },
+    {
+      "by": "ebzlo",
+      "descendants": 0,
+      "id": 29398267,
+      "score": 1,
+      "text": "Hi HN!<p>We&#x27;re Evan and Yinshi from Akia (https:&#x2F;&#x2F;akia.com). We&#x27;ve built a customer engagement platform that specializes in the building and distribution of Mini Apps-- apps (if you will) that don&#x27;t require download or login.<p>You can send one yourself (this is a relatively naive example):\nhttps:&#x2F;&#x2F;sys.akia.com&#x2F;demo&#x2F;textme<p>We&#x27;re looking to solve a problem local service businesses face around the fact that consumers are not very likely to discover and download a native app.<p>We initially built Akia to solve workflows using text-messaging and NLP, but quickly discovered that the last mile on NLP is very hard and consumers are happier using a mobile-optimized interface. We did a small pivot and have found a lot of success mitigating the challenges that businesses were initially looking at solving with native solutions.<p>By developing app-like experiences in the browser to be sent over text, Akia is building and distribution in one package.<p>We&#x27;re running up against our $1M milestone and are now expanding into other verticals. Would love thoughts and feedback, especially on use-cases that you think we&#x27;ve missed, or might be particularly interesting for this tech.",
+      "time": 1638311124,
+      "title": "Show HN: Akia allows businesses to build and send apps that don't need download",
+      "type": "story"
+    },
+    {
       "by": "wyrm",
       "descendants": 0,
       "id": 29398250,
@@ -69,36 +99,6 @@
       "title": "Cancer therapy from Princeton holds potential to switch off major cancer types",
       "type": "story",
       "url": "https://www.princeton.edu/news/2021/11/29/new-cancer-therapy-yibin-kangs-lab-holds-potential-switch-major-cancer-types"
-    },
-    {
-      "by": "armona",
-      "descendants": 0,
-      "id": 29398180,
-      "score": 2,
-      "text": "I am familiar with this one: https:&#x2F;&#x2F;www.math3ma.com&#x2F;.<p>Any other suggestions?",
-      "time": 1638310485,
-      "title": "Ask HN: Interesting mathematics blogs?",
-      "type": "story"
-    },
-    {
-      "by": "eezurr",
-      "descendants": 0,
-      "id": 29398147,
-      "score": 2,
-      "text": "Hello HN<p>TL;DR: I probably created the fastest &quot;find all K simple paths&quot; algorithm for a weighted or unweighted, directed or undirected graph. How would I, as an outsider, publish the results? If I&#x27;m right, I&#x27;d like to benefit from this discovery to open doors to more interesting work&#x2F;careers. (I fear, in my 30s, I am at a huge disadvantage for not having any big co. or university to list on my resume)<p>Background:<p>I am outside of the tech &quot;scene&quot; and have no tech&#x2F;academia connections (self taught, no time spent in university). That being said, I&#x27;ve been programming and managing operations (working as the sole dev at small co.) for 10+ years. I recently quit my job to reevaluate my career path and for fun, started working on a city builder video game. The first big problem I had to solve was &quot;how can I efficiently simulate people&#x2F;cars utilizing ALL the fastest paths available to them?&quot; (in case you aren&#x27;t aware, Dijkstra&#x27;s algorithm only returns one shortest path from start to destination).<p>Solution:<p>I created an algorithm that has a time complexity of around O((V+E)log V) and a space complexity of O(n) (for a single node to all other nodes, for all possible shortest paths from each possible destination node to the source node).<p>Now:<p>I tested the algorithm in my game world and watched my digital citizens utilize all the shortest paths available to them for various destinations around the map. For a heavy load test, I created a 100 x 100 grid (where each square is a node), and my code takes 1.75 times longer than Dijkstra&#x27;s. Since I can store the search tree I created, I can move tens of thousands of units around the map without any lag (using SFML vertex arrays for efficiently handling the screen draws).<p>I started researching other existing solutions and to my surprise, my solution is faster. Eppstein (1997) is the fastest solution I came across @ O(E + V log V + kV), where k can grow at some binomial coefficient (thus would be terribly inefficient with hundreds of nodes, let alone thousands, if many fastest paths existed, which is the reality of most cities if you walk).<p>Other notes (excuse my lack of traditional education here):<p>This does not prove P = NP (phew! I&#x27;m safe.). While the number of shortest paths can grow at some binomial coefficient, the classification of all possible paths does not. To explain by example: Going from node (A) to node (G) could possibly use nodes (B, C, D, E, F) along the way. So A--&gt;G is a classification. When we add a new node (H) to (G), that (A) can only get to via (G), the A--&gt;G classification is not changed. On the other hand, if every node connected to every other node, the amount of classifications would increase at an exponential rate (and devolve into all NP-Complete problems), and the possible amount of k paths (not necessarily shortest) would grow super-binomial coefficient-ly.",
-      "time": 1638310234,
-      "title": "Ask HN: As an outsider, how could I publish a white paper?",
-      "type": "story"
-    },
-    {
-      "by": "gigama",
-      "descendants": 0,
-      "id": 29398137,
-      "score": 1,
-      "time": 1638310191,
-      "title": "China Is Winning the Big Data War",
-      "type": "story",
-      "url": "https://www.nytimes.com/2021/11/30/opinion/xi-jinping-china-us-data-war.html"
     }
   ]
 }
