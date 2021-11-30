@@ -1,5 +1,46 @@
 {
   "stories": [
+    null,
+    {
+      "by": "todsacerdoti",
+      "descendants": 0,
+      "id": 29397538,
+      "score": 1,
+      "time": 1638306838,
+      "title": "On Relational Compilation",
+      "type": "story",
+      "url": "https://people.csail.mit.edu/cpitcla/thesis/relational-compilation.html"
+    },
+    {
+      "by": "stoicanalyst",
+      "descendants": 0,
+      "id": 29397534,
+      "score": 1,
+      "time": 1638306823,
+      "title": "What Is Latency?",
+      "type": "story",
+      "url": "https://pacgenesis.com/what-is-latency/"
+    },
+    {
+      "by": "leotravis10",
+      "descendants": 0,
+      "id": 29397529,
+      "score": 1,
+      "time": 1638306793,
+      "title": "Nextcloud Hub II",
+      "type": "story",
+      "url": "https://nextcloud.com/blog/nextcloud-hub-2-brings-major-overhaul-introducing-nextcloud-office-p2p-backup-and-more/"
+    },
+    {
+      "by": "joering2",
+      "descendants": 0,
+      "id": 29397502,
+      "score": 1,
+      "time": 1638306660,
+      "title": "Twitter bans sharing of private media without permission",
+      "type": "story",
+      "url": "https://seekingalpha.com/news/3775412-twitter-bans-sharing-of-private-media-without-permission"
+    },
     {
       "by": "todsacerdoti",
       "descendants": 0,
@@ -35,8 +76,11 @@
     },
     {
       "by": "wassenaar10",
-      "descendants": 0,
+      "descendants": 1,
       "id": 29397456,
+      "kids": [
+        29397528
+      ],
       "score": 1,
       "text": "Pretty much what the title says.<p>AST (abstract syntax tree) interpreters are about the easiest form of language implementation to write, but they typically result in pretty slow performance due to the amount of memory they take up, the additional instructions involved in evaluating an AST, and the difficulty in making them cache-efficient. For this reason, it seems that most interpreted (or traditionally interpreted, e.g. &quot;scripting languages&quot;) opt to use some combination of a bytecode interpreter or JIT-compilation for their most common implementations. Examples include Python , JavaScript, PHP, Lua, Perl, and so on.<p>I&#x27;m curious, however, what common (feel free to stretch the definition of &quot;common&quot;) programming languages or implementations use an AST interpreter instead. From what I can tell it&#x27;s not many - Matz&#x27;s Ruby Interpreter is one of them, but I&#x27;m not very deep into the Ruby world and I don&#x27;t know how common it is to use MRI vs another implementation. Besides that, I find it likely that many command line languages (bash, zsh, cmd.exe, powershell, etc.) and some Unix utils (like sed or awk, which are programming languages, albeit small ones) are implemented as simple AST interpreters since the most common usage patterns for these languages are short-running or IO-bound scripts and commands.<p>Curious to hear what everyone has to say and if any of my assumptions are incorrect.",
       "time": 1638306417,
@@ -47,64 +91,11 @@
       "by": "wintercarver",
       "descendants": 0,
       "id": 29397421,
-      "score": 1,
+      "score": 2,
       "time": 1638306217,
       "title": "Amazon's Redshift Serverless",
       "type": "story",
       "url": "https://aws.amazon.com/about-aws/whats-new/2021/11/amazon-redshift-serverless/"
-    },
-    {
-      "by": "lenoirapp",
-      "descendants": 1,
-      "id": 29397416,
-      "kids": [
-        29397417
-      ],
-      "score": 1,
-      "time": 1638306196,
-      "title": "Encryption, freedom and unrestricted access to the internet",
-      "type": "story",
-      "url": "https://www.microsoft.com/en-us/p/lenoir/9n7jphwjtbz3"
-    },
-    {
-      "by": "trypwire",
-      "descendants": 0,
-      "id": 29397414,
-      "score": 1,
-      "time": 1638306168,
-      "title": "Freeverb Implementation in CodePen",
-      "type": "story",
-      "url": "https://codepen.io/nick-thompson/pen/KKXwpqQ"
-    },
-    {
-      "by": "makerdiety",
-      "descendants": 0,
-      "id": 29397404,
-      "score": 1,
-      "time": 1638306117,
-      "title": "Node.js Event-Loop: How even quick Node.js async functions can block Event-Loop",
-      "type": "story",
-      "url": "https://snyk.io/blog/nodejs-how-even-quick-async-functions-can-block-the-event-loop-starve-io/"
-    },
-    {
-      "by": "fipar",
-      "descendants": 0,
-      "id": 29397391,
-      "score": 1,
-      "time": 1638306031,
-      "title": "An Interview with Michael Riesman",
-      "type": "story",
-      "url": "https://www.plogue.com/michael-riesman.html"
-    },
-    {
-      "by": "shosti",
-      "descendants": 0,
-      "id": 29397382,
-      "score": 2,
-      "time": 1638305987,
-      "title": "Show HN: WRaft, a WebAssembly Raft Implementation over WebRTC",
-      "type": "story",
-      "url": "https://wraft0.eevans.co/"
     }
   ]
 }
