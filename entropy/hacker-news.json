@@ -1,6 +1,49 @@
 {
   "stories": [
     {
+      "by": "todsacerdoti",
+      "descendants": 0,
+      "id": 29397476,
+      "score": 1,
+      "time": 1638306535,
+      "title": "OpenAI Residency",
+      "type": "story",
+      "url": "https://openai.com/blog/openai-residency/"
+    },
+    {
+      "by": "akzfowl",
+      "descendants": 0,
+      "id": 29397470,
+      "score": 2,
+      "text": "Or to elaborate: how does one make time for it all? I understand that this might sound trite and a &#x27;normal&#x27; existential crisis in a cliched way but I am genuinely interested in figuring out how people go about deciding what to do with their time? Is it all about one&#x27;s job or family? How does one balance the pleasures and stimulation of good art in the way of books, movies, tv, music, games, etc alongside more rigorous dives into subjects that might interest one (and potentially not be related much or altogether to one&#x27;s profession fortunately&#x2F;unfortunately) such as psychology, philosophy, anthropology, literary theory, etc as well as producing one&#x27;s own &#x27;art&#x27; whatever that might be? Add to this concerns such as volunteering, a social life, taking care of one&#x27;s physical and mental well being, fulfilling obligations to those around us, paying at least some attention to world events, etc. As a person with eclectic tastes&#x2F;interests, limited time to pursue them and a finite (atleast last time I checked) lifespan, I have found it increasingly difficult to figure out how to spend my time and seem to end up with an overall feeling of being overwhelmed and settling for the easiest activity at the time. Is it just a question of time management and prioritization?<p>As a person who is moving from the &#x27;conventional studies&#x27; portion of their life to that portion which consists more of &#x27;work&#x27; and when people increasingly enter into more serious relationships and make important life decisions such as marriage,children,etc, and is also increasingly aware of the paucity of time and what one can possibly do with it, I wanted to hear people&#x27;s take on how they manage it all or have learned to manage it over time. I understand that making the most of one&#x27;s life is a relatively common concern and that answers to this question can be wide ranging and often verge on the abstract but I am open to all manner of answers ranging from the practical to the philosophical. Keeping in mind the typical audience on here, it seemed like a question worth asking.",
+      "time": 1638306492,
+      "title": "Ask HN: How does one do it all?",
+      "type": "story"
+    },
+    {
+      "by": "detaro",
+      "descendants": 1,
+      "id": 29397467,
+      "kids": [
+        29397482
+      ],
+      "score": 1,
+      "time": 1638306473,
+      "title": "PC-MOS/386 v5.01",
+      "type": "story",
+      "url": "https://github.com/roelandjansen/pcmos386v501"
+    },
+    {
+      "by": "wassenaar10",
+      "descendants": 0,
+      "id": 29397456,
+      "score": 1,
+      "text": "Pretty much what the title says.<p>AST (abstract syntax tree) interpreters are about the easiest form of language implementation to write, but they typically result in pretty slow performance due to the amount of memory they take up, the additional instructions involved in evaluating an AST, and the difficulty in making them cache-efficient. For this reason, it seems that most interpreted (or traditionally interpreted, e.g. &quot;scripting languages&quot;) opt to use some combination of a bytecode interpreter or JIT-compilation for their most common implementations. Examples include Python , JavaScript, PHP, Lua, Perl, and so on.<p>I&#x27;m curious, however, what common (feel free to stretch the definition of &quot;common&quot;) programming languages or implementations use an AST interpreter instead. From what I can tell it&#x27;s not many - Matz&#x27;s Ruby Interpreter is one of them, but I&#x27;m not very deep into the Ruby world and I don&#x27;t know how common it is to use MRI vs another implementation. Besides that, I find it likely that many command line languages (bash, zsh, cmd.exe, powershell, etc.) and some Unix utils (like sed or awk, which are programming languages, albeit small ones) are implemented as simple AST interpreters since the most common usage patterns for these languages are short-running or IO-bound scripts and commands.<p>Curious to hear what everyone has to say and if any of my assumptions are incorrect.",
+      "time": 1638306417,
+      "title": "Ask HN: What current common languages use an AST interpreter?",
+      "type": "story"
+    },
+    {
       "by": "wintercarver",
       "descendants": 0,
       "id": 29397421,
@@ -57,51 +100,11 @@
       "by": "shosti",
       "descendants": 0,
       "id": 29397382,
-      "score": 1,
+      "score": 2,
       "time": 1638305987,
       "title": "Show HN: WRaft, a WebAssembly Raft Implementation over WebRTC",
       "type": "story",
       "url": "https://wraft0.eevans.co/"
-    },
-    {
-      "by": "tws",
-      "descendants": 0,
-      "id": 29397349,
-      "score": 2,
-      "time": 1638305734,
-      "title": "Writers on their day jobs",
-      "type": "story",
-      "url": "https://lithub.com/from-construction-to-teaching-seven-writers-on-their-day-jobs/"
-    },
-    {
-      "by": "how-about-this",
-      "descendants": 0,
-      "id": 29397345,
-      "score": 2,
-      "time": 1638305713,
-      "title": "The Art of Lost Sleep",
-      "type": "story",
-      "url": "https://www.thelondonmagazine.org/essay-the-art-of-lost-sleep-by-venetia-welby/"
-    },
-    {
-      "by": "evilsimon",
-      "descendants": 0,
-      "id": 29397339,
-      "score": 2,
-      "time": 1638305678,
-      "title": "Nature Is Becoming a Person",
-      "type": "story",
-      "url": "https://foreignpolicy.com/2021/11/24/nature-person-rights-environment-climate-philosophy-law/"
-    },
-    {
-      "by": "isallthings",
-      "descendants": 0,
-      "id": 29397328,
-      "score": 2,
-      "time": 1638305648,
-      "title": "Queen of Clean",
-      "type": "story",
-      "url": "https://www.afar.com/magazine/a-hotel-housekeeper-on-her-life-and-work"
     }
   ]
 }
