@@ -1,23 +1,30 @@
 {
   "stories": [
     {
-      "by": "joelrocha",
-      "descendants": 1,
-      "id": 29399030,
-      "kids": [
-        29399032
-      ],
+      "by": "deepfriedginger",
+      "descendants": 0,
+      "id": 29399068,
       "score": 1,
-      "text": "Escolha Digital designs and develops apps, websites, and e-commerce stores.",
-      "time": 1638316984,
-      "title": "Together we are always more",
-      "type": "story"
+      "time": 1638317358,
+      "title": "Starlink is reportedly testing its internet service for airplanes",
+      "type": "story",
+      "url": "https://www.cnet.com/home/internet/starlink-is-reportedly-testing-its-internet-service-for-airplanes/"
+    },
+    {
+      "by": "swernli",
+      "descendants": 0,
+      "id": 29399048,
+      "score": 1,
+      "time": 1638317234,
+      "title": "QIR Alliance: Using LLVM for Quantum Programs",
+      "type": "story",
+      "url": "https://www.linuxfoundation.org/press-release/new-quantum-intermediate-representation-alliance-serves-as-common-interface-for-quantum-computing-development/"
     },
     {
       "by": "geox",
       "descendants": 0,
       "id": 29399026,
-      "score": 1,
+      "score": 4,
       "time": 1638316926,
       "title": "Synthetic tissue can repair hearts, muscles, and vocal cords",
       "type": "story",
@@ -37,7 +44,7 @@
       "by": "breck",
       "descendants": 0,
       "id": 29398999,
-      "score": 2,
+      "score": 3,
       "time": 1638316667,
       "title": "Computing study refutes famous claim that 'information is physical' (2016)",
       "type": "story",
@@ -47,7 +54,7 @@
       "by": "MaxGanzII",
       "descendants": 0,
       "id": 29398974,
-      "score": 1,
+      "score": 2,
       "text": "Historically, RS has nodes and slices. One node made of a given number of slices (varies by node type). Data is distributed over slices, and only the slice holding a block can access that block.<p>These days, you have RA3. RA3 has data slices and compute slices. The “data slice” I think is a group of one or more network attached SSDs, and each compute slice is an EC2 instance. Data is still distributed over slices, but I empirically see now that any slice on a node can access any block which is on that node - that’s definitely not how it used to be.<p>So I think what happens now is SSD is on the network, which is now a notional “data slice”, but there’s only one data slice per “node” (you don’t really have nodes any more - it’s more of a legacy billing concept), and you have a cloud of EC2 instances, but they’re each tied to one of the network attached SSD groups.<p>So, server-less - now we have to think about how data is being handled by RA3.<p>The actual data is stored in S3.<p>S3 lets you read at any offset in any given file (file as in byte stream in S3 - you know the deal), but S3 does not allow you to modify existing files. You can write en entire new file, but that’s it.<p>Since RS does have to support reasonably small writes, my guess is each column is broken up into many pretty small files in S3.<p>Redshift historically thought of distribution as you pick a column and all the rows with the same values go to the “same place”, which was the SSDs in a node (they were physically in the node), and in particular a given slice (since slices maintained their own files).<p>The concept of distribution now though has a whole new meaning because primary store is S3, which is just a bunch of files in “one place” (the S3 key space) and each compute slices can access S3 concurrently (I would guess one connection at a time per slice, that seems to be how it’s done).<p>Now, remember though for a join to be performed, the rows involved must end up on the same compute slice.<p>What could be happening now (and I think - I’ll need to re-read the white paper) this was something like how Snowflake works - you keep track of how many values are in the table, and when a query comes along, you assign the same value range to each compute slice - and it’s S3, so they just go ahead and access the files with those values in.<p>Changing node counts historically has been a huge cost because redistribution is required.<p>You can avoid redistribution with S3, because all data is stored in the same place - instead of redistributing the data, you redistribute which compute slices process which values.<p>That allows you to change the number of compute nodes easily and rapidly.<p>My initial take on this is that cluster resize may have finally properly been solved - although at a cost, since everything is now in S3 and I suspect that’s going to make write performance rather variable.<p>Far as I see it, that’s it. That’s the entire consequence of server-less. You still need to know completely and fully how to operate Redshift correctly, and almost no one does, because AWS publish no information on how to do this.<p>The idea of “not managing infrastructure” is to my mind a complete white elephant. This is not repeat NOT the issue. Knowing how to operate sorted column-store correctly is the issue.<p>You can introduce functionality to automate this (a primary selling point for Snowflake), but that functionality isn’t great - it’s much better than if you don’t know what you’re doing, but worse than if you do (but with Snowflake, if you do know what you’re doing, it doesn’t help, because there are no user-operated controls - it’s automation and only automation, for better or for worse!)<p>If you don’t know what you’re doing, you shouldn’t be using Redshift in the first place - probably you just don’t know it - every client I’ve worked for has imagined Redshift as a “big Postgres”.",
       "time": 1638316435,
       "title": "Initial thoughts on internal design of server-less Redshift (announced today)",
@@ -70,7 +77,7 @@
       "kids": [
         29399002
       ],
-      "score": 1,
+      "score": 2,
       "text": "Since it&#x27;s Giving Tuesday, I&#x27;m curious what you all are donating to this year?",
       "time": 1638316136,
       "title": "Ask HN: What charities are you donating to this year?",
@@ -88,28 +95,20 @@
     },
     {
       "by": "misiti3780",
-      "descendants": 3,
+      "descendants": 8,
       "id": 29398891,
       "kids": [
+        29399076,
         29399039,
-        29399022,
-        29399020
+        29399041,
+        29399020,
+        29399022
       ],
-      "score": 23,
+      "score": 26,
       "time": 1638315671,
       "title": "The American Prison System’s War on Reading",
       "type": "story",
       "url": "https://proteanmag.com/2021/11/29/the-american-prison-systems-war-on-reading/"
-    },
-    {
-      "by": "kordlessagain",
-      "descendants": 0,
-      "id": 29398874,
-      "score": 1,
-      "time": 1638315545,
-      "title": "Researchers shrink camera to the size of a salt grain",
-      "type": "story",
-      "url": "https://phys.org/news/2021-11-camera-size-salt-grain.html"
     }
   ]
 }
