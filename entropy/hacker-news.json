@@ -1,6 +1,46 @@
 {
   "stories": [
     {
+      "by": "Tomte",
+      "descendants": 0,
+      "id": 29427921,
+      "score": 1,
+      "time": 1638520797,
+      "title": "The Carbon Footprint Sham",
+      "type": "story",
+      "url": "https://mashable.com/feature/carbon-footprint-pr-campaign-sham"
+    },
+    {
+      "by": "fsloth",
+      "descendants": 0,
+      "id": 29427920,
+      "score": 1,
+      "text": "Modern computing has several resources that are heterogenous considering the implementation language (databases, sockets, RPC protocols).<p>What&#x27;s the &quot;best&quot; method to implement cross platform complex algorithms in a way that allows you to run them as close to the metal on the target language as possible?<p>To make the question simpler, let&#x27;s expect that the input data can be expected to fit device memory (under 1 GB), the target device domain encompasses modern consumer class compute substrates - desktops, handhelds, and servers. CPU preferred but option to generate GPU shader is not a bad thing to have.<p>What approach would cover biggest subset of the target languages<p>Browser-runnable*, .Net, Java, C, Cuda&#x2F;Metal&#x2F;Vulkan.<p>The trivial answer in most cases is plain old C, but there are some cases where the deployment would be easiest to do in the target language and not over FFI.<p>Haxe seems to be quite close to a &quot;universal definition language&quot;. Are there better or others out there?",
+      "time": 1638520796,
+      "title": "Ask HN: Strategies for portable computation for non-trivial algorithms",
+      "type": "story"
+    },
+    {
+      "by": "Tomte",
+      "descendants": 0,
+      "id": 29427915,
+      "score": 1,
+      "time": 1638520738,
+      "title": "Quake 1 gets its first major co-op content update in 25 years",
+      "type": "story",
+      "url": "https://arstechnica.com/gaming/2021/12/quake-1-gets-its-first-major-co-op-content-update-in-25-years/"
+    },
+    {
+      "by": "bschne",
+      "descendants": 0,
+      "id": 29427914,
+      "score": 1,
+      "time": 1638520738,
+      "title": "Green ammonia electrolysis breakthrough could finally kill Haber-Bosch",
+      "type": "story",
+      "url": "https://newatlas.com/energy/green-ammonia-phosphonium-production/"
+    },
+    {
       "by": "revskill",
       "descendants": 0,
       "id": 29427883,
@@ -14,7 +54,7 @@
       "by": "choubeysahab",
       "descendants": 0,
       "id": 29427875,
-      "score": 1,
+      "score": 2,
       "time": 1638520266,
       "title": "Living and working outside of your inbox",
       "type": "story",
@@ -32,9 +72,12 @@
     },
     {
       "by": "afrcnc",
-      "descendants": 0,
+      "descendants": 1,
       "id": 29427838,
-      "score": 1,
+      "kids": [
+        29427895
+      ],
+      "score": 2,
       "time": 1638519894,
       "title": "Hackers Are Spamming Businesses’ Receipt Printers with ‘Antiwork’ Manifestos",
       "type": "story",
@@ -59,46 +102,6 @@
       "title": "Ride-Hailing Giant Didi to Delist from New York Stock Exchange",
       "type": "story",
       "url": "https://www.aljazeera.com/economy/2021/12/3/didi-desalts"
-    },
-    {
-      "by": "loige",
-      "descendants": 0,
-      "id": 29427821,
-      "score": 2,
-      "time": 1638519720,
-      "title": "Like TailwindCSS but only with CSS vars",
-      "type": "story",
-      "url": "https://open-props.style/"
-    },
-    {
-      "by": "shastnyy",
-      "descendants": 0,
-      "id": 29427807,
-      "score": 1,
-      "time": 1638519649,
-      "title": "How to Network as an Introvert at Conferences",
-      "type": "story",
-      "url": "https://www.youtube.com/watch?v=0e5PSW6oULo"
-    },
-    {
-      "by": "vincent_s",
-      "descendants": 0,
-      "id": 29427798,
-      "score": 1,
-      "time": 1638519573,
-      "title": "B2B SaaS Conversion Rates for 84 Countries",
-      "type": "story",
-      "url": "https://blog.testdome.com/b2b-saas-conversion-rates-for-84-countries/"
-    },
-    {
-      "by": "vania-pooh",
-      "descendants": 0,
-      "id": 29427781,
-      "score": 1,
-      "time": 1638519425,
-      "title": "Selenium: Lightning Fast Client Libraries",
-      "type": "story",
-      "url": "https://blog.aerokube.com/selenium-lightning-fast-client-libraries-bc6404414b13?gi=e35db7839950"
     }
   ]
 }
