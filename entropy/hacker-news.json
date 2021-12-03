@@ -1,6 +1,36 @@
 {
   "stories": [
     {
+      "by": "aritraghosh007",
+      "descendants": 0,
+      "id": 29428129,
+      "score": 1,
+      "time": 1638523039,
+      "title": "Meta and AWS Forge Partnership",
+      "type": "story",
+      "url": "https://www.businesswire.com/news/home/20211201005108/en/Meta-Selects-AWS-as-Key-Long-Term-Strategic-Cloud-Provider"
+    },
+    {
+      "by": "_Microft",
+      "descendants": 0,
+      "id": 29428099,
+      "score": 1,
+      "time": 1638522713,
+      "title": "Carbon in Context",
+      "type": "story",
+      "url": "https://www.duncangeere.com/carbonincontext/"
+    },
+    {
+      "by": "option_greek",
+      "descendants": 0,
+      "id": 29428094,
+      "score": 1,
+      "time": 1638522650,
+      "title": "Woman Breastfeeds Cat on Plane, Refuses to Stop When Asked",
+      "type": "story",
+      "url": "https://www.ndtv.com/offbeat/woman-breastfeeds-cat-on-plane-refuses-to-stop-when-asked-2635232"
+    },
+    {
       "by": "pierot",
       "descendants": 0,
       "id": 29428079,
@@ -22,8 +52,11 @@
     },
     {
       "by": "docuru",
-      "descendants": 0,
+      "descendants": 1,
       "id": 29428033,
+      "kids": [
+        29428095
+      ],
       "score": 1,
       "time": 1638522030,
       "title": "Show HN: Go-promise – Golang's style to handle promises/error in JavaScript",
@@ -72,36 +105,6 @@
       "title": "cljs-math",
       "type": "story",
       "url": "https://twitter.com/quoll/status/1466567819462643712"
-    },
-    {
-      "by": "Tomte",
-      "descendants": 0,
-      "id": 29427921,
-      "score": 4,
-      "time": 1638520797,
-      "title": "The Carbon Footprint Sham",
-      "type": "story",
-      "url": "https://mashable.com/feature/carbon-footprint-pr-campaign-sham"
-    },
-    {
-      "by": "fsloth",
-      "descendants": 0,
-      "id": 29427920,
-      "score": 1,
-      "text": "Modern computing has several resources that are heterogenous considering the implementation language (databases, sockets, RPC protocols).<p>What&#x27;s the &quot;best&quot; method to implement cross platform complex algorithms in a way that allows you to run them as close to the metal on the target language as possible?<p>To make the question simpler, let&#x27;s expect that the input data can be expected to fit device memory (under 1 GB), the target device domain encompasses modern consumer class compute substrates - desktops, handhelds, and servers. CPU preferred but option to generate GPU shader is not a bad thing to have.<p>The algorithm is non-trivial in intrinsic complexity and length (hence you want to implement it only once).<p>What approach would cover biggest subset of the target languages<p>Browser-runnable*, .Net, Java, C, Cuda&#x2F;Metal&#x2F;Vulkan.<p>The trivial answer in most cases is plain old C, but there are some cases where the deployment would be easiest to do in the target language and not over FFI.<p>Haxe seems to be quite close to a &quot;universal definition language&quot;. Are there better or others out there?<p>I recognize the problem is somewhat open ended and ill conditioned, but would enjoy discussion around the topic.",
-      "time": 1638520796,
-      "title": "Ask HN: Strategies for portable computation for non-trivial algorithms",
-      "type": "story"
-    },
-    {
-      "by": "Tomte",
-      "descendants": 0,
-      "id": 29427915,
-      "score": 3,
-      "time": 1638520738,
-      "title": "Quake 1 gets its first major co-op content update in 25 years",
-      "type": "story",
-      "url": "https://arstechnica.com/gaming/2021/12/quake-1-gets-its-first-major-co-op-content-update-in-25-years/"
     }
   ]
 }
