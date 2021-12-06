@@ -1,6 +1,36 @@
 {
   "stories": [
     {
+      "by": "leephillips",
+      "descendants": 0,
+      "id": 29459221,
+      "score": 1,
+      "time": 1638795895,
+      "title": "Interesting research, but no, we don’t have living, reproducing robots",
+      "type": "story",
+      "url": "https://arstechnica.com/science/2021/11/mobile-clusters-of-cells-can-help-assemble-a-mini-version-of-themselves/"
+    },
+    {
+      "by": "udanisaloni",
+      "descendants": 0,
+      "id": 29459196,
+      "score": 2,
+      "text": "We are designing Identity and Access management for our Application. \nWe have different org using our app. Each org may have some sub orgs. Users belong to one or more sub orgs.\nA user can have different roles in each sub org.\nE.g a user U1 belong to Org O1 &#x2F; Sub Org SB1 and Org O1 &#x2F; Sub Org SB2.\nNow user can have Admin role in SB1 and Non-Admin role in SB2.<p>Now when a U1 logins, user needs to select which sub org he wants to operate in and accordingly all roles will be fetched.<p>In standard RBAC, we can link user to multiple roles but that will give user all permissions in all those roles. In our case we want to ties user to multiple roles but those roles exist in different contexts SB1 and SB2. So we do not want combined evaluation of permissions from both roles.<p>Is there any proven extensible design to serve these kind of use cases?",
+      "time": 1638795772,
+      "title": "RBAC: Design for users belonging to multiple roles",
+      "type": "story"
+    },
+    {
+      "by": "pcr910303",
+      "descendants": 0,
+      "id": 29459185,
+      "score": 1,
+      "time": 1638795657,
+      "title": "How the GNU coreutils are tested",
+      "type": "story",
+      "url": "https://www.pixelbeat.org/docs/coreutils-testing.html"
+    },
+    {
       "by": "bookofjoe",
       "descendants": 0,
       "id": 29459176,
@@ -43,7 +73,7 @@
       "by": "conanxin",
       "descendants": 0,
       "id": 29459152,
-      "score": 1,
+      "score": 2,
       "time": 1638795454,
       "title": "Money, Blockchains, and Social Scalability",
       "type": "story",
@@ -63,41 +93,11 @@
       "by": "RickJWagner",
       "descendants": 0,
       "id": 29459090,
-      "score": 1,
+      "score": 2,
       "time": 1638795098,
       "title": "CEO tells about 900 employees they’ve been let go during pre-holiday Zoom call",
       "type": "story",
       "url": "https://www.foxbusiness.com/real-estate/better-com-ceo-tells-about-900-employees-theyve-been-let-go-during-pre-holiday-zoom-call-report"
-    },
-    {
-      "by": "Tomte",
-      "descendants": 0,
-      "id": 29459084,
-      "score": 1,
-      "time": 1638795042,
-      "title": "The Zimbabwean experts clearing landmines in the Falklands (2019)",
-      "type": "story",
-      "url": "https://www.theguardian.com/uk-news/gallery/2019/oct/24/zimbabwean-experts-clearing-mines-landmines-falklands-in-pictures"
-    },
-    {
-      "by": "erwinh",
-      "descendants": 0,
-      "id": 29459081,
-      "score": 1,
-      "time": 1638795031,
-      "title": "The Stack Report Announcement",
-      "type": "story",
-      "url": "https://www.thestackreport.xyz/blog/announcement"
-    },
-    {
-      "by": "mcenedella",
-      "descendants": 0,
-      "id": 29459058,
-      "score": 1,
-      "time": 1638794889,
-      "title": "Mark Zuckerberg's Midlife Crisis",
-      "type": "story",
-      "url": "https://cenedella.substack.com/p/mark-zuckerbergs-midlife-crisis"
     }
   ]
 }
