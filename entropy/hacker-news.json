@@ -1,6 +1,56 @@
 {
   "stories": [
     {
+      "by": "petecooper",
+      "descendants": 0,
+      "id": 29462420,
+      "score": 1,
+      "text": "I am involved with an open source CMS project. Part of my role is triaging incoming emails to our project inbox. A gradually increasing percentage of these emails come from security researchers, advising us of issues they&#x27;ve found. We&#x27;ve had an uptick in overall volume this year after a crypto-funded bug bounty site appeared, found us, and a slew of reports landed. The majority of these reports weren&#x27;t issues – rather, they can be summarised as &quot;an administrator can do administrator-level stuff&quot; within the CMS. We don&#x27;t consider these vulnerabilities, and we say as much in our security statement.<p>More recently, we have had an increase in researchers with fuzzers, toolkits and other rapid-fire stuff. Around 90% of these researchers are focussed on getting a CVE. With the reports we receive, it&#x27;s rare for a researcher to include a proof of concept, even after we politely request. It&#x27;s typical for this type of researcher to say there&#x27;s a problem with file X in directory Y, and btw please can I have a CVE now for my research project &#x2F; wall &#x2F; work promotion &#x2F; and so on.<p>I&#x27;m not sure how this sits with me. Researchers who provide info, PoC code, and sometimes even a resolution are very straightforward to deal with – and hugely appreciated. My gut feeling with the fuzzer-type researcher is that they&#x27;re taking the spray-and-pray approach as CVE or beg bounty hunters, and that&#x27;s less clear cut from a comms point of view. I don&#x27;t want to be getting into semantics with those researchers who have vague reports (minus the PoC) but are still adamant they want a CVE trophy, where essentially they&#x27;ve run a third-party tool that says &quot;there might be a problem here, not 100% sure&quot;.<p>I&#x27;d love to hear your advice on this. What could be done to make this situation more tenable?<p>Off the top of my head:<p>* bump up the security content on our website so it&#x27;s more obvious what we&#x27;re looking for (and by extension, what we&#x27;re not looking for)\n* learn how fuzzers work and do the fuzzing ourselves<p>What else might work?",
+      "time": 1638810563,
+      "title": "Ask HN: How to handle security researchers with fuzzers and other toolkits",
+      "type": "story"
+    },
+    {
+      "by": "hajimehoshi",
+      "descendants": 0,
+      "id": 29462411,
+      "score": 1,
+      "time": 1638810533,
+      "title": "Ebiten in 2021",
+      "type": "story",
+      "url": "https://ebiten.org/blog/2021.html"
+    },
+    {
+      "by": "mycodepedia",
+      "descendants": 0,
+      "id": 29462410,
+      "score": 1,
+      "time": 1638810523,
+      "title": "AWS is offering scholarships for AI/ML students",
+      "type": "story",
+      "url": "https://www.thecodepedia.com/aws-is-offering-scholarship-for-ai-ml-students"
+    },
+    {
+      "by": "mariojv",
+      "descendants": 0,
+      "id": 29462378,
+      "score": 1,
+      "time": 1638810362,
+      "title": "How the Supply Chain Crisis Unfolded",
+      "type": "story",
+      "url": "https://www.nytimes.com/interactive/2021/12/05/business/economy/supply-chain.html"
+    },
+    {
+      "by": "choxi",
+      "descendants": 0,
+      "id": 29462367,
+      "score": 1,
+      "time": 1638810322,
+      "title": "DARPA Funded Researchers Accidentally Create the World’s First Warp Bubble",
+      "type": "story",
+      "url": "https://thedebrief.org/darpa-funded-researchers-accidentally-create-the-worlds-first-warp-bubble/"
+    },
+    {
       "by": "jenn_v",
       "descendants": 0,
       "id": 29462356,
@@ -34,7 +84,7 @@
       "by": "gsdatta",
       "descendants": 0,
       "id": 29462330,
-      "score": 2,
+      "score": 3,
       "time": 1638810121,
       "title": "How we built a robust demo env using the Service Locator pattern in React",
       "type": "story",
@@ -49,56 +99,6 @@
       "title": "So, why is Facebook renaming itself to Meta?",
       "type": "story",
       "url": "https://raccoon.onyxbits.de/blog/why-is-facebook-renaming-itself-to-meta/"
-    },
-    {
-      "by": "karussell",
-      "descendants": 0,
-      "id": 29462277,
-      "score": 1,
-      "time": 1638809921,
-      "title": "Jsprit is an open source toolkit for solving TSP and vehicle routing problems",
-      "type": "story",
-      "url": "https://jsprit.github.io"
-    },
-    {
-      "by": "stoicjumbotron",
-      "descendants": 0,
-      "id": 29462248,
-      "score": 1,
-      "time": 1638809820,
-      "title": "Convert strings between camelCase, PascalCase, Capital Case, snake_case and more",
-      "type": "story",
-      "url": "https://github.com/blakeembrey/change-case"
-    },
-    {
-      "by": "jayair",
-      "descendants": 0,
-      "id": 29462220,
-      "score": 1,
-      "time": 1638809742,
-      "title": "How to debug Lambda functions with WebStorm",
-      "type": "story",
-      "url": "https://serverless-stack.com/examples/how-to-debug-lambda-functions-with-webstorm.html"
-    },
-    {
-      "by": "thewonderidiot",
-      "descendants": 0,
-      "id": 29462190,
-      "score": 1,
-      "time": 1638809643,
-      "title": "Core Rope Memory Visualizer",
-      "type": "story",
-      "url": "https://apolloguidance.computer/rope/"
-    },
-    {
-      "by": "rbanffy",
-      "descendants": 0,
-      "id": 29462183,
-      "score": 2,
-      "time": 1638809629,
-      "title": "‘It's misinformation at worst.’ Weak health studies can do more harm than good",
-      "type": "story",
-      "url": "https://www.science.org/content/article/it-s-misinformation-worst-weak-health-studies-can-do-more-harm-good-scientists-say"
     }
   ]
 }
