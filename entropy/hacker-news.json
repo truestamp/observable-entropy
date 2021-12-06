@@ -1,6 +1,26 @@
 {
   "stories": [
     {
+      "by": "CapitalistCartr",
+      "descendants": 0,
+      "id": 29459409,
+      "score": 1,
+      "time": 1638797111,
+      "title": "Plastic trash in the ocean is a global problem, and the US is the top source",
+      "type": "story",
+      "url": "https://theconversation.com/plastic-trash-in-the-ocean-is-a-global-problem-and-the-us-is-the-top-source-a-new-report-urges-action-172848"
+    },
+    {
+      "by": "rappatic",
+      "descendants": 0,
+      "id": 29459396,
+      "score": 1,
+      "time": 1638797064,
+      "title": "French Republican Calendar",
+      "type": "story",
+      "url": "https://en.wikipedia.org/wiki/French_Republican_calendar"
+    },
+    {
       "by": "sovietmudkipz",
       "descendants": 0,
       "id": 29459292,
@@ -55,8 +75,11 @@
     },
     {
       "by": "curiosone",
-      "descendants": 0,
+      "descendants": 1,
       "id": 29459234,
+      "kids": [
+        29459383
+      ],
       "score": 1,
       "text": "In my last three jobs I&#x27;ve been working amongst multiple teams supporting mainly AWS, Azure and GCP clouds.<p>I noticed that AWS teams usually like to mock other clouds when people ask about issues their encounter.<p>One of the examples would be that AWS experienced engineer has been tasked to perform something on Azure platform and when they don&#x27;t succeed they usually comment it with &quot;On AWS it just works&quot; or &quot;we don&#x27;t have the need to do THAT on AWS&quot;.<p>I&#x27;m starting to think most of AWS engineers would be so ego&#x2F;aws-centric they will not accept that other platforms are NOT AWS and things are being done differently there as well as they have their own pros&#x2F;cons.<p>I haven&#x27;t noticed this type of mockery&#x2F;commentary in GCP or Azure engineers so I was wondering if anyone else has experienced it.",
       "time": 1638795979,
@@ -82,26 +105,6 @@
       "title": "A Demonstration of Message Burning Through Encryption Using GnuPG",
       "type": "story",
       "url": "https://articles.59.ca/doku.php?id=pgpfan:gpgburn"
-    },
-    {
-      "by": "leephillips",
-      "descendants": 0,
-      "id": 29459221,
-      "score": 1,
-      "time": 1638795895,
-      "title": "Interesting research, but no, we don’t have living, reproducing robots",
-      "type": "story",
-      "url": "https://arstechnica.com/science/2021/11/mobile-clusters-of-cells-can-help-assemble-a-mini-version-of-themselves/"
-    },
-    {
-      "by": "udanisaloni",
-      "descendants": 0,
-      "id": 29459196,
-      "score": 2,
-      "text": "We are designing Identity and Access management for our Application. \nWe have different org using our app. Each org may have some sub orgs. Users belong to one or more sub orgs.\nA user can have different roles in each sub org.\nE.g a user U1 belong to Org O1 &#x2F; Sub Org SB1 and Org O1 &#x2F; Sub Org SB2.\nNow user can have Admin role in SB1 and Non-Admin role in SB2.<p>Now when a U1 logins, user needs to select which sub org he wants to operate in and accordingly all roles will be fetched.<p>In standard RBAC, we can link user to multiple roles but that will give user all permissions in all those roles. In our case we want to ties user to multiple roles but those roles exist in different contexts SB1 and SB2. So we do not want combined evaluation of permissions from both roles.\nAlso we want to define permissions assigned to each role at one place only.<p>Is there any proven extensible design to serve these kind of use cases?",
-      "time": 1638795772,
-      "title": "RBAC: Design for users belonging to multiple roles",
-      "type": "story"
     }
   ]
 }
