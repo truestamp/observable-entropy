@@ -1,10 +1,30 @@
 {
   "stories": [
     {
+      "by": "sovietmudkipz",
+      "descendants": 0,
+      "id": 29459292,
+      "score": 1,
+      "text": "I work at bigcorp working on applications built on top of kubernetes&#x2F;public cloud as the target platform. One thing I’ve been impressed by at work is how writing automated tests is paramount. The “Growing Software guided by Tests,” “Unit Testing: principles and practices,” and other media&#x2F;books are recommended by engineers to help others get up to speed writing good tests and good software. What is a good test, and what is a waste of time to test? This is a constant discussion and I love it.<p>As a hobby, I write video games because why not. One thing I’ve noticed is how different attitudes are on automated testing. It’s highly discouraged because ‘games don’t lend themselves to being tested’ apparently. It’s just as amazing to see how resistant this slice of the overall IT industry is to something the rest of the industry has considered very good.<p>This culminates for me in two anecdotes.<p>First, trying to find out what a good test looks like for video games is very, very, very challenging. There aren’t content creators noodling on or presenting findings on this subject. Not many articles, not many videos, not much content describing good tests. If there are industry veterans who do testing right, they seem to be keeping that information far, far away from the public. Perhaps even they see this as a market differentiator? My experience leads me to think this is something very few explore, and even fewer share.<p>Second: Unity put together a thing in Fall of 2020 called “open game project” where the idea was to create an open source game as a community. The game, now called “chop chop,” has a series of YouTube livestreams where the Unity devs discuss the project. The super interesting thing to me is that within 72 hours of project start, someone put together a PR to try and introduce tests. A Unity forum thread was referenced where discussion occurred. When I read through the discussion, I got the sense that the Unity devs did not want tests in the project. “Too early,” “too complex,” and other blockers existed at that time, apparently. Fast forward to the project end— still no tests.<p>Why is the gaming industry so resistant to automated tests, especially when compared with the overall IT industry?",
+      "time": 1638796339,
+      "title": "Ask HN: Why is the gaming industry resistant to automated tests?",
+      "type": "story"
+    },
+    {
+      "by": "arutar",
+      "descendants": 0,
+      "id": 29459285,
+      "score": 1,
+      "text": "What is the best way to resolve issues with AWS services that are not working properly?<p>I am asking this question in general, though I am motivated by my following (hopefully representative) problem.<p>I&#x27;ve been trying to obtain a domain authorization code from AWS in order to transfer to a new domain registrar. However, requesting such a code just returns the error<p><pre><code>   &quot;Sorry, but an unexpected error has occurred while getting your auth code. Please retry again...&quot;\n</code></pre>\nThis error has lasted for over a month. I&#x27;ve posted on the AWS forum [1], and there was no resolution though some other commenters expressed having the same issue.<p>Of course, since I am not paying for an AWS service plan, I don&#x27;t expect dedicated customer support. However, the service provided is not meeting the basic requirements. In fact, since I cannot obtain the authorization code, I cannot even transfer the domain to another registrar (which is the other response to an unsatisfactory product!)<p>[1] https:&#x2F;&#x2F;forums.aws.amazon.com&#x2F;thread.jspa?threadID=347652",
+      "time": 1638796275,
+      "title": "Ask HN: Obtaining support for (paid) AWS services that are not working?",
+      "type": "story"
+    },
+    {
       "by": "mfrw",
       "descendants": 0,
       "id": 29459263,
-      "score": 1,
+      "score": 2,
       "time": 1638796143,
       "title": "Firefox 95 Ready with RLBox Sandboxing Across All Platforms",
       "type": "story",
@@ -81,25 +101,6 @@
       "text": "We are designing Identity and Access management for our Application. \nWe have different org using our app. Each org may have some sub orgs. Users belong to one or more sub orgs.\nA user can have different roles in each sub org.\nE.g a user U1 belong to Org O1 &#x2F; Sub Org SB1 and Org O1 &#x2F; Sub Org SB2.\nNow user can have Admin role in SB1 and Non-Admin role in SB2.<p>Now when a U1 logins, user needs to select which sub org he wants to operate in and accordingly all roles will be fetched.<p>In standard RBAC, we can link user to multiple roles but that will give user all permissions in all those roles. In our case we want to ties user to multiple roles but those roles exist in different contexts SB1 and SB2. So we do not want combined evaluation of permissions from both roles.\nAlso we want to define permissions assigned to each role at one place only.<p>Is there any proven extensible design to serve these kind of use cases?",
       "time": 1638795772,
       "title": "RBAC: Design for users belonging to multiple roles",
-      "type": "story"
-    },
-    {
-      "by": "pcr910303",
-      "descendants": 0,
-      "id": 29459185,
-      "score": 2,
-      "time": 1638795657,
-      "title": "How the GNU coreutils are tested",
-      "type": "story",
-      "url": "https://www.pixelbeat.org/docs/coreutils-testing.html"
-    },
-    {
-      "by": "bookofjoe",
-      "descendants": 0,
-      "id": 29459176,
-      "score": 1,
-      "time": 1638795609,
-      "title": "Ask HN: Do today's best TVs benefit from professional calibration?",
       "type": "story"
     }
   ]
