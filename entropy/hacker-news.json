@@ -1,6 +1,69 @@
 {
   "stories": [
     {
+      "by": "mfrw",
+      "descendants": 0,
+      "id": 29459263,
+      "score": 1,
+      "time": 1638796143,
+      "title": "Firefox 95 Ready with RLBox Sandboxing Across All Platforms",
+      "type": "story",
+      "url": "https://www.phoronix.com/scan.php?page=news_item&px=Firefox-95.0-Available"
+    },
+    {
+      "by": "sndxr",
+      "descendants": 0,
+      "id": 29459256,
+      "score": 2,
+      "time": 1638796104,
+      "title": "Figma Continues to Skyrocket – 63% Report It's Their #1 UI Design Tool in 2021",
+      "type": "story",
+      "url": "https://seandexter1.medium.com/figma-continues-to-skyrocket-63-reported-it-was-their-primary-ui-design-tool-in-2021-bb9390a8b96b"
+    },
+    {
+      "by": "daniaal",
+      "descendants": 1,
+      "id": 29459246,
+      "kids": [
+        29459247
+      ],
+      "score": 1,
+      "time": 1638796047,
+      "title": "BitMart: Crypto-exchange loses $150m to hackers",
+      "type": "story",
+      "url": "https://www.bbc.co.uk/news/technology-59549606"
+    },
+    {
+      "by": "curiosone",
+      "descendants": 0,
+      "id": 29459234,
+      "score": 1,
+      "text": "In my last three jobs I&#x27;ve been working amongst multiple teams supporting mainly AWS, Azure and GCP clouds.<p>I noticed that AWS teams usually like to mock other clouds when people ask about issues their encounter.<p>One of the examples would be that AWS experienced engineer has been tasked to perform something on Azure platform and when they don&#x27;t succeed they usually comment it with &quot;On AWS it just works&quot; or &quot;we don&#x27;t have the need to do THAT on AWS&quot;.<p>I&#x27;m starting to think most of AWS engineers would be so ego&#x2F;aws-centric they will not accept that other platforms are NOT AWS and things are being done differently there as well as they have their own pros&#x2F;cons.<p>I was wondering if anyone else has experienced it.",
+      "time": 1638795979,
+      "title": "Ask HN: AWS Mocking culture amongst multi-cloud engineers",
+      "type": "story"
+    },
+    {
+      "by": "rbanffy",
+      "descendants": 0,
+      "id": 29459233,
+      "score": 1,
+      "time": 1638795974,
+      "title": "Pics of Apple M1 Max Die Hint at Future Chiplet Designs",
+      "type": "story",
+      "url": "https://www.tomshardware.com/news/pics-of-apple-m1-max-hint-at-incoming-chiplet-designs"
+    },
+    {
+      "by": "upofadown",
+      "descendants": 0,
+      "id": 29459232,
+      "score": 1,
+      "time": 1638795969,
+      "title": "A Demonstration of Message Burning Through Encryption Using GnuPG",
+      "type": "story",
+      "url": "https://articles.59.ca/doku.php?id=pgpfan:gpgburn"
+    },
+    {
       "by": "leephillips",
       "descendants": 0,
       "id": 29459221,
@@ -15,7 +78,7 @@
       "descendants": 0,
       "id": 29459196,
       "score": 2,
-      "text": "We are designing Identity and Access management for our Application. \nWe have different org using our app. Each org may have some sub orgs. Users belong to one or more sub orgs.\nA user can have different roles in each sub org.\nE.g a user U1 belong to Org O1 &#x2F; Sub Org SB1 and Org O1 &#x2F; Sub Org SB2.\nNow user can have Admin role in SB1 and Non-Admin role in SB2.<p>Now when a U1 logins, user needs to select which sub org he wants to operate in and accordingly all roles will be fetched.<p>In standard RBAC, we can link user to multiple roles but that will give user all permissions in all those roles. In our case we want to ties user to multiple roles but those roles exist in different contexts SB1 and SB2. So we do not want combined evaluation of permissions from both roles.<p>Is there any proven extensible design to serve these kind of use cases?",
+      "text": "We are designing Identity and Access management for our Application. \nWe have different org using our app. Each org may have some sub orgs. Users belong to one or more sub orgs.\nA user can have different roles in each sub org.\nE.g a user U1 belong to Org O1 &#x2F; Sub Org SB1 and Org O1 &#x2F; Sub Org SB2.\nNow user can have Admin role in SB1 and Non-Admin role in SB2.<p>Now when a U1 logins, user needs to select which sub org he wants to operate in and accordingly all roles will be fetched.<p>In standard RBAC, we can link user to multiple roles but that will give user all permissions in all those roles. In our case we want to ties user to multiple roles but those roles exist in different contexts SB1 and SB2. So we do not want combined evaluation of permissions from both roles.\nAlso we want to define permissions assigned to each role at one place only.<p>Is there any proven extensible design to serve these kind of use cases?",
       "time": 1638795772,
       "title": "RBAC: Design for users belonging to multiple roles",
       "type": "story"
@@ -24,7 +87,7 @@
       "by": "pcr910303",
       "descendants": 0,
       "id": 29459185,
-      "score": 1,
+      "score": 2,
       "time": 1638795657,
       "title": "How the GNU coreutils are tested",
       "type": "story",
@@ -38,66 +101,6 @@
       "time": 1638795609,
       "title": "Ask HN: Do today's best TVs benefit from professional calibration?",
       "type": "story"
-    },
-    {
-      "by": "matthewsinclair",
-      "descendants": 0,
-      "id": 29459168,
-      "score": 1,
-      "time": 1638795519,
-      "title": "Stacked raises $35M to bring passive investing tools to retail crypto traders",
-      "type": "story",
-      "url": "https://techcrunch.com/2021/12/05/stacked-raises-35m-to-bring-passive-investing-tools-to-retail-crypto-traders/"
-    },
-    {
-      "by": "chmaynard",
-      "descendants": 0,
-      "id": 29459166,
-      "score": 1,
-      "time": 1638795510,
-      "title": "Centrifuge: A reliable system for delivering billions of events per day",
-      "type": "story",
-      "url": "https://segment.com/blog/introducing-centrifuge/"
-    },
-    {
-      "by": "petercooper",
-      "descendants": 0,
-      "id": 29459153,
-      "score": 1,
-      "time": 1638795454,
-      "title": "Apple AirTag Linked to Increasing Number of Car Thefts, Canadian Police Report",
-      "type": "story",
-      "url": "https://www.macrumors.com/2021/12/03/airtag-linked-to-car-thefts/"
-    },
-    {
-      "by": "conanxin",
-      "descendants": 0,
-      "id": 29459152,
-      "score": 2,
-      "time": 1638795454,
-      "title": "Money, Blockchains, and Social Scalability",
-      "type": "story",
-      "url": "http://unenumerated.blogspot.com/2017/02/money-blockchains-and-social-scalability.html"
-    },
-    {
-      "by": "Tomte",
-      "descendants": 0,
-      "id": 29459095,
-      "score": 1,
-      "time": 1638795120,
-      "title": "The Pet Body-Shaming Industry Is So Much More Intense Than You Thought (2014)",
-      "type": "story",
-      "url": "https://www.fastcompany.com/3037477/the-pet-body-shaming-industry-is-so-much-more-intense-than-you-thought"
-    },
-    {
-      "by": "RickJWagner",
-      "descendants": 0,
-      "id": 29459090,
-      "score": 2,
-      "time": 1638795098,
-      "title": "CEO tells about 900 employees they’ve been let go during pre-holiday Zoom call",
-      "type": "story",
-      "url": "https://www.foxbusiness.com/real-estate/better-com-ceo-tells-about-900-employees-theyve-been-let-go-during-pre-holiday-zoom-call-report"
     }
   ]
 }
