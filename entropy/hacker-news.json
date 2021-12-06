@@ -15,7 +15,7 @@
       "descendants": 0,
       "id": 29456192,
       "score": 2,
-      "text": "I am contracted by a major financial services firm to refactor an analytical model used for revenue forecasting to PySpark executing on a AWS EMR cluster.<p>The project&#x27;s current status is documented[0].<p>The client&#x27;s team responsible for operationalization was successful in refactoring another analytical model into Python&#x2F;pandas.  The current model execution time for a 5 year scenario is ~17 hours.  Most of that time is\nspent executing poorly crafted Oracle SQL queries drawing millions of rows into the analytical run-time for, sorting, aggregation, discarding, merging, and spliting tasks.<p>In order to  constrain this exeuction time, final input is a sample of ~1.8M rows from  a loan portfolio of ~81M  records.<p>The client is concerned about performance and believes PySpark is the preferred target language.<p>I have been on this project for just one month, but I contracted previously at the same firm on a six months  to refactor another model into Python&#x2F;pandas.  That project was successful, mainly due to the team leader&#x27;s rigor for meeting milestones and ability to remove blockers for the team.<p>I recently discussed these projects with @Travis Oliphant who had some interesting ideas on Python-based frameworks to overcome issues for processing out-of-core dataframes.  We discussed the frameworks Dask[1], Coiled.io, commercial Dask support[2], Ray[3], Modin, commercial support for Ray[4].<p>Others discussed were, Databricks[5], bodo.ai[6], Voltron Data[7], and AtScale[8]. On Reddit, the \ncommentary for Snowflake was very positive[9].<p>Easing maintenence burdens to keep the model in production and devising new scenarios (e.g. Covid-19 effects on forebarance requests) are requirements.  Its shelf-life is years, making maintainability a major consideration.<p>What have others experienced in scaling out for teams familiar with Python&#x2F;pandas for feature engineering tasks?<p>Is PySpark a dead-end libray in the Python ecosystem?<p>[0] https:&#x2F;&#x2F;www.pythonforsasusers.com&#x2F;project_summary&#x2F;current_project_status.html\n[1] https:&#x2F;&#x2F;dask.org&#x2F;\n[2] https:&#x2F;&#x2F;coiled.io&#x2F;\n[3] https:&#x2F;&#x2F;docs.ray.io&#x2F;en&#x2F;ray-0.4.0&#x2F;pandas_on_ray.html\n[4] https:&#x2F;&#x2F;modin.readthedocs.io&#x2F;en&#x2F;stable&#x2F;\n[5] https:&#x2F;&#x2F;docs.databricks.com&#x2F;languages&#x2F;pandas-spark.html (which points to Apache&#x27;s Pandas API on Spark) \n[6] https:&#x2F;&#x2F;bodo.ai&#x2F;\n[7] https:&#x2F;&#x2F;wesmckinney.com&#x2F;blog&#x2F;from-ursa-to-voltrondata&#x2F;\n[8] https:&#x2F;&#x2F;www.atscale.com&#x2F;autonomous-data-engineering&#x2F;\n[9] https:&#x2F;&#x2F;www.reddit.com&#x2F;r&#x2F;dataengineering&#x2F;comments&#x2F;r893rw&#x2F;why_is_snowflake_so_popular&#x2F;",
+      "text": "I am contracted by a major financial services firm to refactor an analytical model used for revenue forecasting to PySpark executing on a AWS EMR cluster.<p>The project&#x27;s current status is documented[0].<p>The client&#x27;s team responsible for operationalization was successful in refactoring another analytical model into Python&#x2F;pandas.  The current model execution time for a 5 year scenario is ~17 hours.  Most of that time is\nspent executing poorly crafted Oracle SQL queries drawing millions of rows into the analytical run-time for, sorting, aggregation, discarding, merging, and spliting tasks.<p>In order to  constrain this exeuction time, final input is a sample of ~1.8M rows from  a loan portfolio of ~81M  records.<p>The client is concerned about performance and believes PySpark is the preferred target language.<p>I have been on this project for just one month, but I contracted previously at the same firm on a six months  to refactor another model into Python&#x2F;pandas.  That project was successful, mainly due to the team leader&#x27;s rigor for meeting milestones and ability to remove blockers for the team.<p>I recently discussed these projects with @Travis Oliphant who had some interesting ideas on Python-based frameworks to overcome issues for processing out-of-core dataframes.  We discussed the frameworks Dask[1], Coiled.io, commercial Dask support[2], Ray[3], Modin, commercial support for Ray[4].<p>Others discussed were, Databricks[5], bodo.ai[6], Voltron Data[7], and AtScale[8]. On Reddit, the \ncommentary for Snowflake was very positive[9].<p>Easing maintenence burdens to keep the model in production and devising new scenarios (e.g. Covid-19 effects on forebarance requests) are requirements.  Its shelf-life is years, making maintainability a major consideration.<p>What have others experienced in scaling out for teams familiar with Python&#x2F;pandas for feature engineering tasks?<p>Is PySpark a dead-end libray in the Python ecosystem?<p>[0] https:&#x2F;&#x2F;www.pythonforsasusers.com&#x2F;project_summary&#x2F;current_project_status.html<p>[1] https:&#x2F;&#x2F;dask.org&#x2F;<p>[2] https:&#x2F;&#x2F;coiled.io&#x2F;<p>[3] https:&#x2F;&#x2F;docs.ray.io&#x2F;en&#x2F;ray-0.4.0&#x2F;pandas_on_ray.html<p>[4] https:&#x2F;&#x2F;modin.readthedocs.io&#x2F;en&#x2F;stable&#x2F;<p>[5] https:&#x2F;&#x2F;docs.databricks.com&#x2F;languages&#x2F;pandas-spark.html (which points to Apache&#x27;s Pandas API on Spark)<p>[6] https:&#x2F;&#x2F;bodo.ai&#x2F;<p>[7] https:&#x2F;&#x2F;wesmckinney.com&#x2F;blog&#x2F;from-ursa-to-voltrondata&#x2F;<p>[8] https:&#x2F;&#x2F;www.atscale.com&#x2F;autonomous-data-engineering&#x2F;<p>[9] https:&#x2F;&#x2F;www.reddit.com&#x2F;r&#x2F;dataengineering&#x2F;comments&#x2F;r893rw&#x2F;why_is_snowflake_so_popular&#x2F;",
       "time": 1638765222,
       "title": "Ask HN: Is PySPark a Dead-End?",
       "type": "story"
@@ -67,7 +67,7 @@
       "by": "GhettoComputers",
       "descendants": 0,
       "id": 29456115,
-      "score": 2,
+      "score": 3,
       "time": 1638764512,
       "title": "Coreutils Rewritten in Rust",
       "type": "story",
@@ -85,7 +85,7 @@
     },
     {
       "by": "iwebdevfromhome",
-      "descendants": 8,
+      "descendants": 9,
       "id": 29456077,
       "kids": [
         29456193,
@@ -93,8 +93,8 @@
         29456099,
         29456108,
         29456156,
-        29456158,
         29456120,
+        29456158,
         29456131
       ],
       "score": 3,
