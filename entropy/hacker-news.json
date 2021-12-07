@@ -1,6 +1,16 @@
 {
   "stories": [
     {
+      "by": "matheist",
+      "descendants": 0,
+      "id": 29468924,
+      "score": 1,
+      "text": "Recently there was a spoiler for a World Chess Championship game on the front page of Hacker News. If you&#x27;re a uBlock Origin user and you don&#x27;t want to see spoilers for the remaining games between Magnus Carlsen and Ian Nepomniachtchi, the following filter will add a black background to any post title containing either of their names:<p><pre><code>    news.ycombinator.com##a.titlelink:has-text(&#x2F;\\b(Carlsen|Nepo|Nepomniachtchi)\\b&#x2F;):style(background: #000;)</code></pre>",
+      "time": 1638849295,
+      "title": "Show HN: Prevent Chess Spoilers in HN Titles with uBlock Origin",
+      "type": "story"
+    },
+    {
       "by": "picture",
       "descendants": 0,
       "id": 29468919,
@@ -44,7 +54,7 @@
       "by": "1cvmask",
       "descendants": 0,
       "id": 29468834,
-      "score": 2,
+      "score": 3,
       "time": 1638848055,
       "title": "Microsoft Office prices going up 20% for some business clients",
       "type": "story",
@@ -54,7 +64,7 @@
       "by": "thetwentyone",
       "descendants": 0,
       "id": 29468831,
-      "score": 1,
+      "score": 2,
       "text": "My partner was diagnosed with a rare condition&#x2F;disease with unclear cause&#x2F;pathology.<p>I feel like it would be impossible for a doctor to stay abreast of all of the possible links&#x2F;data unless they focused very narrowly on a patient.<p>We have the full genome in CRAM, CRAI, FASTQ, VCF, and TBI data - is there a way that me, a medical layman but well informed person could leverage this data to mine for possible matching genetic variants?<p>e.g. I have started finding genes associated with my partner&#x27;s condition in the NCBI website and the ClinVar Miner (https:&#x2F;&#x2F;clinvarminer.genetics.utah.edu&#x2F;variants-by-condition)<p>Is it sufficient to identify variants by searching for the SNP string (e.g. &quot;rsXXXXXX&quot;) in the VCF file?<p>Are there &quot;hacker&#x27;s guide to genomic analysis&quot; resources out there?",
       "time": 1638847985,
       "title": "Ask HN: How to be my own genetic disease researcher for my partner?",
@@ -64,7 +74,7 @@
       "by": "farmerbb",
       "descendants": 0,
       "id": 29468827,
-      "score": 1,
+      "score": 2,
       "time": 1638847934,
       "title": "Reddit on Windows 1.04 using a modem from 1964",
       "type": "story",
@@ -95,16 +105,6 @@
       "title": "Qualcomm’s new always-on smartphone camera is a potential privacy nightmare",
       "type": "story",
       "url": "https://www.theverge.com/22811740/qualcomm-snapdragon-8-gen-1-always-on-camera-privacy-security-concerns"
-    },
-    {
-      "by": "mbildner",
-      "descendants": 0,
-      "id": 29468796,
-      "score": 1,
-      "time": 1638847564,
-      "title": "The Science of Cooking Potatoes (2018)",
-      "type": "story",
-      "url": "https://www.finecooking.com/article/the-science-of-cooking-potatoes-2"
     }
   ]
 }
