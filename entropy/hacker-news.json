@@ -1,10 +1,30 @@
 {
   "stories": [
     {
+      "by": "CRConrad",
+      "descendants": 0,
+      "id": 29486964,
+      "score": 1,
+      "time": 1638981734,
+      "title": "‘We’re losing IQ points’: the lead poisoning crisis unfolding among US children",
+      "type": "story",
+      "url": "https://www.theguardian.com/us-news/2021/dec/08/lead-poisoning-crisis-us-children"
+    },
+    {
+      "by": "loh",
+      "descendants": 0,
+      "id": 29486959,
+      "score": 2,
+      "text": "I&#x27;m curious about what most professional developers are using these days, from languages to deployment, and what they&#x27;re building with it.<p>There&#x27;s a lot to choose from and it seems like a few are really taking the lead. Maybe I&#x27;m biased but I prefer TypeScript, React w&#x2F; Styled Components, and PostgreSQL, all of which seem to be pretty dominant. TypeDoc is also really nice for generating clean documentation from type definitions and comments, and Jest for both front-end and back-end unit tests. I usually deploy (static) progressive web apps to Netlify and APIs to Heroku, but I&#x27;ll probably try Render next.<p>If you&#x27;re like me, you probably like to keep things to a minimum, optimized for a specific purpose without any bloat or unnecessary loose ends. I&#x27;ve built many different apps over the years and found myself repeating the same core functionality for each of them, each with their own slightly different stack and implementation as tools and ecosystems have evolved. I&#x27;d imagine this is the case for most experienced developers who enjoy building things from the ground up, without becoming dependent on an elaborate framework.<p>Last Friday I launched a project called Molecule.dev which aims to provide developers (and professional teams especially) with the most solid foundation possible for full-stack apps, skipping all of the most common tedious core functionality. It was originally built for my own purposes, but I&#x27;ve decided to provide it as a sort of &quot;Foundation as a Service&quot;. Maybe there&#x27;s a better way to classify it, but it isn&#x27;t really a framework. It&#x27;s a highly specialized codebase designed for the task at hand, complete with thorough documentation, tests, and guides, something I wish I had readily available when building apps over the years, as it would have saved me thousands of hours and tens of thousands of dollars.<p>Sorry for the (not so) thinly veiled advertisement, but I absolutely need feedback to turn Molecule.dev into something people actually want, and HN is probably the best place to get it. I think there is a lot of potential here.",
+      "time": 1638981717,
+      "title": "Ask HN: What is your preferred stack and why?",
+      "type": "story"
+    },
+    {
       "by": "sbt567",
       "descendants": 0,
       "id": 29486902,
-      "score": 2,
+      "score": 4,
       "time": 1638981489,
       "title": "Bjarne Stroustrup: “I Did It for You All ”",
       "type": "story",
@@ -32,8 +52,11 @@
     },
     {
       "by": "nabi_nafio",
-      "descendants": 0,
+      "descendants": 1,
       "id": 29486886,
+      "kids": [
+        29486975
+      ],
       "score": 1,
       "time": 1638981424,
       "title": "Web 1.0-Beta",
@@ -79,26 +102,6 @@
       "title": "US Department of Homeland Security heeds calls for tougher transport",
       "type": "story",
       "url": "https://portswigger.net/daily-swig/us-department-of-homeland-security-heeds-calls-for-tougher-transport-cybersecurity-rules"
-    },
-    {
-      "by": "d3nit",
-      "descendants": 0,
-      "id": 29486808,
-      "score": 2,
-      "time": 1638981091,
-      "title": "Hungarian State sponsored “storage cleaning tool” shows malware like behaviour",
-      "type": "story",
-      "url": "https://telegra.ph/Reversing-NMHH-Vegleges-torles-app-12-05"
-    },
-    {
-      "by": "triptych",
-      "descendants": 0,
-      "id": 29486784,
-      "score": 3,
-      "time": 1638981013,
-      "title": "The Staging Dichotomy: Part One",
-      "type": "story",
-      "url": "https://tech.ebayinc.com/engineering/the-staging-dichotomy-part-one/"
     }
   ]
 }
