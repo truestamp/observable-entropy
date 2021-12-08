@@ -1,6 +1,16 @@
 {
   "stories": [
     {
+      "by": "y2so",
+      "descendants": 0,
+      "id": 29480837,
+      "score": 1,
+      "time": 1638932618,
+      "title": "Learn more about distributed databases with ShardingSphere",
+      "type": "story",
+      "url": "https://opensource.com/article/21/12/apache-shardingsphere"
+    },
+    {
       "by": "enigmatic02",
       "descendants": 0,
       "id": 29480808,
@@ -22,8 +32,12 @@
     },
     {
       "by": "ozb",
-      "descendants": 0,
+      "descendants": 2,
       "id": 29480775,
+      "kids": [
+        29480827,
+        29480829
+      ],
       "score": 2,
       "text": "Given:<p>- ~Most of the Fed&#x27;s balance sheet is government debt<p>- ~Most government debt is held by the Fed<p>- The Fed executes monetary policy by buying and selling (mostly) government debt; expansionary policy consists of buying Treasury debt, thereby raising its price &#x2F; lowering yields; this effect seems more direct than the effect on the Federal funds rate<p>Mathematically, I&#x27;d expect:<p>Nominal Yields on Treasury debt = (future dollar value of debt) &#x2F; (current dollar value of debt)<p>= ((future dollar value of debt) &#x2F; (future value of debt, measured against basket of goods)) * (future value of debt, measured against basket of goods) &#x2F; (current value of debt, measured against basket of goods )) * ((current value of debt, measured against basket of goods )&#x2F;(current dollar value of debt))<p>= (future CPI) * (real yields on Treasury debt) &#x2F; (current CPI)<p>Or, rearranging:<p>Inflation=(future CPI)&#x2F;(current CPI)=(nominal yield on Treasury debt)&#x2F;(real yield on Treasury debt)<p>In particular, I&#x27;d expect the &quot;real&quot; yield here to denote the &quot;natural&quot; yield you&#x27;d expect if the Fed was not buying debt for much more money.<p>So, the narrative becomes:<p>Government spends a lot of money, and market doesn&#x27;t believe it&#x27;s a good investment (in terms of effect on future taxable revenue base), therefore Treasury borrowing costs should go up; but Fed forces Treasury yields to stay around 0, so inflation goes up instead.<p>Does any of this make sense, or am I missing something obvious?<p>Is there a source that formulates the issue in this way?",
       "time": 1638932025,
@@ -89,16 +103,6 @@
       "title": "The 100 Year Well",
       "type": "story",
       "url": "https://wrathofgnon.substack.com/p/the-100-year-well"
-    },
-    {
-      "by": "paulpauper",
-      "descendants": 0,
-      "id": 29480699,
-      "score": 3,
-      "time": 1638931165,
-      "title": "China’s Internet Billionaires Suffer $73B Wipeout as Economy Slows",
-      "type": "story",
-      "url": "https://www.forbes.com/sites/ywang/2021/12/03/chinas-internet-billionaires-suffer-73-billion-wipeout-as-economy-slows-and-government-cracks-down/"
     }
   ]
 }
