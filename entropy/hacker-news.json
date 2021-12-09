@@ -1,6 +1,49 @@
 {
   "stories": [
     {
+      "by": "jadengis",
+      "descendants": 0,
+      "id": 29499475,
+      "score": 1,
+      "time": 1639067660,
+      "title": "Data Modeling Patterns for Cloud Firestore",
+      "type": "story",
+      "url": "https://ezfire.io/blog/data-modeling-patterns-for-cloud-firestore/"
+    },
+    {
+      "by": "xept",
+      "descendants": 0,
+      "id": 29499438,
+      "score": 1,
+      "time": 1639067528,
+      "title": "Random Good Article on Wikipedia",
+      "type": "story",
+      "url": "https://en.wikipedia.org/wiki/Hemp_in_Kentucky"
+    },
+    {
+      "by": "niros_valtos",
+      "descendants": 0,
+      "id": 29499425,
+      "kids": [
+        29499455
+      ],
+      "score": 1,
+      "text": "We had a fairly mature DevSecOps practice in the previous company I worked for. We had static and dynamic AppSec testing, software composition analysis and container security products integrated into the build and deployment pipelines.<p>We broke these pipelines when high severity vulnerabilities were identified, but the inability to release hot fixes to the product impeded the development velocity.<p>I decided to develop an aging threshold mechanism that allows developers to exclude specific vulnerabilities in a text file, but the caveat was that the pipeline always checked if the vulnerability is aged over 2 weeks. If it was the case, no more exceptions were allowed to deploy.<p>On top of it, we had a policy to re-deploy the containers every week, so when a deployment failed, it notified the relevant teams that the deployment failed (we didn&#x27;t have it in the build process though).<p>Which portions of these practices are adopted in your companies?",
+      "time": 1639067484,
+      "title": "Failing builds in the CI/CD pipelines due to security vulnerabilities?",
+      "type": "story"
+    },
+    {
+      "by": "a_w",
+      "descendants": 0,
+      "id": 29499413,
+      "score": 1,
+      "time": 1639067433,
+      "title": "Twitter Users Best at Resisting Conspiracy Theories",
+      "type": "story",
+      "url": "https://thedebrief.org/twitter-users-best-at-resisting-conspiracy-theories/"
+    },
+    {
       "by": "PaulHoule",
       "descendants": 0,
       "id": 29499383,
@@ -44,7 +87,7 @@
       "by": "tbdenney",
       "descendants": 0,
       "id": 29499350,
-      "score": 1,
+      "score": 2,
       "time": 1639067214,
       "title": "3X CPU Speedup with TensorFlow and ApacheTVM on Apple M1 Chips",
       "type": "story",
@@ -59,52 +102,6 @@
       "title": "Long hours make bad neighbors",
       "type": "story",
       "url": "https://www.vox.com/the-goods/22810409/work-hours-loneliness-volunteering-overwork-community"
-    },
-    {
-      "by": "koolba",
-      "descendants": 0,
-      "id": 29499292,
-      "kids": [
-        29499302
-      ],
-      "score": 2,
-      "time": 1639067000,
-      "title": "New Zealand to ban young people from ever being able to buy cigarettes",
-      "type": "story",
-      "url": "https://www.cnbc.com/2021/12/09/new-zealand-to-ban-young-people-from-ever-being-able-to-buy-cigarettes.html"
-    },
-    {
-      "by": "finite_jest",
-      "descendants": 0,
-      "id": 29499266,
-      "score": 1,
-      "time": 1639066917,
-      "title": "My Backup Plan",
-      "type": "story",
-      "url": "https://github.com/geerlingguy/my-backup-plan"
-    },
-    {
-      "by": "gok",
-      "descendants": 0,
-      "id": 29499234,
-      "score": 1,
-      "time": 1639066849,
-      "title": "Without Stem Immigration Reforms, the United States Will Not Stay Ahead of China",
-      "type": "story",
-      "url": "https://www.csis.org/analysis/winning-tech-talent-competition"
-    },
-    {
-      "by": "throwaway81523",
-      "descendants": 1,
-      "id": 29499231,
-      "kids": [
-        29499289
-      ],
-      "score": 2,
-      "time": 1639066836,
-      "title": "Where Are the Workers? Millions Are Sick with ‘Long Covid.’",
-      "type": "story",
-      "url": "https://www.barrons.com/articles/labor-shortage-workers-millions-sick-long-covid-51638923422"
     }
   ]
 }
