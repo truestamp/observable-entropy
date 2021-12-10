@@ -1,10 +1,43 @@
 {
   "stories": [
     {
+      "by": "BrS96bVxXBLzf5B",
+      "descendants": 0,
+      "id": 29516430,
+      "score": 1,
+      "text": "95% of the time I work is spent SSHing into a faster server than my laptop, working with a variety of git repos on there.<p>5% of the time, there are internet jitters that make this not feasible and I rsync the directory and continue working locally. Sometimes after this I&#x27;ll end up working again in the repo on the server and so end up with two directories that started at a common point but have diverged.<p>Ideally I want to do a kind of &#x27;rsync merge&#x27;, a git merge but just with two directory trees that are close-but-not-quite aligned. I don&#x27;t want to temporarily create separate parent git repos since the directories themselves already are git repos and that sounds like a confusing recipe for disaster.<p>Is there any kind of standalone &#x27;git merge&#x27;-esque tooling for independent directory trees?",
+      "time": 1639176530,
+      "title": "Ask HN: Merging tools without version control?",
+      "type": "story"
+    },
+    {
+      "by": "rmason",
+      "descendants": 0,
+      "id": 29516426,
+      "score": 1,
+      "time": 1639176498,
+      "title": "Tim O'Reilly: Checking Jeff Bezos Math",
+      "type": "story",
+      "url": "https://www.oreilly.com/radar/checking-jeff-bezoss-math/"
+    },
+    {
+      "by": "imichael",
+      "descendants": 0,
+      "id": 29516411,
+      "score": 1,
+      "time": 1639176423,
+      "title": "With Chips Act, US Risks Building a White Elephant",
+      "type": "story",
+      "url": "https://www.eetimes.com/with-chips-act-us-risks-building-a-white-elephant/"
+    },
+    {
       "by": "rvnx",
       "descendants": 0,
       "id": 29516367,
-      "score": 1,
+      "kids": [
+        29516402
+      ],
+      "score": 2,
       "time": 1639176166,
       "title": "Dutch man, 69, starts legal fight to identify as 20 years younger (2018)",
       "type": "story",
@@ -60,36 +93,6 @@
       "title": "Redesigned Cybertruck spotted at the Tesla Fremont test track [video]",
       "type": "story",
       "url": "https://www.teslaoracle.com/2021/12/10/redesigned-cybertruck-spotted-at-the-tesla-fremont-test-track-video/"
-    },
-    {
-      "by": "Thevet",
-      "descendants": 0,
-      "id": 29516272,
-      "score": 1,
-      "time": 1639175672,
-      "title": "The Invention of Chinese",
-      "type": "story",
-      "url": "https://www.historytoday.com/archive/feature/invention-chinese"
-    },
-    {
-      "by": "News-Dog",
-      "descendants": 0,
-      "id": 29516262,
-      "score": 1,
-      "time": 1639175643,
-      "title": "World Press Freedom Index: Reporters Without Borders",
-      "type": "story",
-      "url": "https://rsf.org/en/2021-world-press-freedom-index-journalism-vaccine-against-disinformation-blocked-more-130-countries"
-    },
-    {
-      "by": "rbanffy",
-      "descendants": 0,
-      "id": 29516257,
-      "score": 2,
-      "time": 1639175603,
-      "title": "COBOL and JCL: The Dynamic Duo",
-      "type": "story",
-      "url": "https://medium.com/modern-mainframe/cobol-jcl-the-dynamic-duo-c70484c20c22"
     }
   ]
 }
