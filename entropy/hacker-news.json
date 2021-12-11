@@ -1,23 +1,50 @@
 {
   "stories": [
     {
-      "by": "lucb1e",
+      "by": "mitchbob",
       "descendants": 0,
-      "id": 29524781,
-      "score": 2,
-      "text": "The HN homepage has about four ranks colored black rather than gray. Currently this is &quot;Learning how to ride a bike&quot;, &quot;Log4j: Between a rock and a hard place&quot;, &quot;How to train your decision-making AIs&quot;, &quot;Carolina Gold was once the most popular rice grown in America (2019)&quot;, and &quot;Packaging for instant coffee made out of seaweed&quot;. It seems to follow the story, e.g. the first one was #12 before and now it&#x27;s #13, and the numbers 12 and now 13 were colored darker. They do not have in common a recent&#x2F;old submission time, high&#x2F;low score, or high&#x2F;low comments.",
-      "time": 1639261170,
-      "title": "Ask HN: Why are a few rank numbers black on the homepage?",
-      "type": "story"
+      "id": 29524819,
+      "score": 1,
+      "time": 1639261475,
+      "title": "Creating a Better Leaf: Tinkering with Photosynthesis",
+      "type": "story",
+      "url": "https://www.newyorker.com/magazine/2021/12/13/creating-a-better-leaf"
     },
     {
-      "by": "roschdal",
+      "by": "_Microft",
       "descendants": 0,
-      "id": 29524765,
-      "score": 2,
-      "text": "What specifically makes western women hate men so much?<p>My research on this topic indicates a statistically significant difference between women from the western world, compared to women in non-western countries.",
-      "time": 1639261029,
-      "title": "Ask HN: Why do Western Women hate men?",
+      "id": 29524796,
+      "score": 1,
+      "time": 1639261311,
+      "title": "Traditional Chinese medicine origins: Mao invented it but didn’t believe in it",
+      "type": "story",
+      "url": "https://slate.com/technology/2013/10/traditional-chinese-medicine-origins-mao-invented-it-but-didnt-believe-in-it.html"
+    },
+    {
+      "by": "mitchbob",
+      "descendants": 1,
+      "id": 29524795,
+      "kids": [
+        29524797
+      ],
+      "score": 1,
+      "time": 1639261288,
+      "title": "Elon Musk's Latest Innovation: Troll Philanthropy",
+      "type": "story",
+      "url": "https://www.nytimes.com/2021/12/10/business/elon-musk-philanthropy.html"
+    },
+    {
+      "by": "lucb1e",
+      "descendants": 2,
+      "id": 29524781,
+      "kids": [
+        29524820,
+        29524805
+      ],
+      "score": 9,
+      "text": "The HN homepage has about four ranks colored black rather than gray. Currently this is &quot;Learning how to ride a bike&quot;, &quot;Log4j: Between a rock and a hard place&quot;, &quot;How to train your decision-making AIs&quot;, &quot;Carolina Gold was once the most popular rice grown in America (2019)&quot;, and &quot;Packaging for instant coffee made out of seaweed&quot;. It seems to follow the story, e.g. the first one was #12 before and now it&#x27;s #13, and the numbers 12 and now 13 were colored darker. They do not have in common a recent&#x2F;old submission time, high&#x2F;low score, or high&#x2F;low comments.<p>The HTML difference is `&lt;font color=&quot;black&quot;&gt;$rank&lt;&#x2F;font&gt;` being inserted around the rank.<p>(Some rambling follows, I&#x27;m not actually serious about a secret hidden meaning, just a toy idea. Most likely it&#x27;s something like low comment downvotes or whatever to attract attention to the story.)<p>My first thought was that the numbers had a hidden meaning, maybe someone died who invented the equivalent of a Fibonacci sequence. Looking in the OEIS, 1,4,6,12,18 did not mean anything obvious. Then I noticed the numbers changed... but not pseudorandomly, but with the stories, so it seems that the numbers are irrelevant. Is it about the title? If you read the first title character of each, you get LCHPL. If you read the 1st character of the first, the 2nd character of the 2nd, etc., you get LAWKN. Not yet seeing that hidden meaning.",
+      "time": 1639261170,
+      "title": "Ask HN: Why are a few rank numbers black on the homepage?",
       "type": "story"
     },
     {
@@ -78,29 +105,6 @@
       "title": "Japan’s Nintendo game console pioneer Masayuki Uemura dies at 78",
       "type": "story",
       "url": "https://nypost.com/2021/12/11/nintendo-creator-masayuki-uemura-dead-at-78/"
-    },
-    {
-      "by": "ohiovr",
-      "descendants": 0,
-      "id": 29524642,
-      "score": 2,
-      "time": 1639259850,
-      "title": "Free Dictionary API",
-      "type": "story",
-      "url": "https://dictionaryapi.dev/"
-    },
-    {
-      "by": "matonias",
-      "descendants": 1,
-      "id": 29524617,
-      "kids": [
-        29524686
-      ],
-      "score": 2,
-      "time": 1639259666,
-      "title": "Decapitation in Rats: Latency to Unconsciousness and the ‘Wave of Death’",
-      "type": "story",
-      "url": "https://www.researchgate.net/publication/49820630_Decapitation_in_Rats_Latency_to_Unconsciousness_and_the_%27Wave_of_Death%27"
     }
   ]
 }
