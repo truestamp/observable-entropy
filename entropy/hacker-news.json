@@ -1,12 +1,44 @@
 {
   "stories": [
-    null,
+    {
+      "by": "Brajeshwar",
+      "descendants": 0,
+      "id": 29518557,
+      "score": 2,
+      "time": 1639198728,
+      "title": "Don’t Overdose on VC: Lessons from 166 Startup IPOs",
+      "type": "story",
+      "url": "https://foundercollective.medium.com/dont-overdose-on-vc-lessons-from-166-startup-ipos-c94f3c178dfe"
+    },
+    {
+      "by": "ShobhitJ",
+      "descendants": 0,
+      "id": 29518549,
+      "score": 1,
+      "time": 1639198636,
+      "title": "Strategy newsletter analysing technology companies and ideas",
+      "type": "story",
+      "url": "https://techbreakdowns.substack.com/"
+    },
+    {
+      "by": "wahajdarr",
+      "descendants": 1,
+      "id": 29518543,
+      "kids": [
+        29518547
+      ],
+      "score": 1,
+      "text": "Livepush offers an end-to-end live streaming platform that supports multiple platforms at the same time.",
+      "time": 1639198515,
+      "title": "Professional live video streaming and scheduling platform",
+      "type": "story"
+    },
     {
       "by": "charlieyu1",
       "descendants": 0,
       "id": 29518541,
-      "score": 1,
-      "text": "I’ve never worked at a dev for a life, but I spent quite some of my spare time to do programming. I’m also going to write a math textbook, but the task is repetitive and I don’t know how to automate it.<p>There is one thing that I tried to build for years, and failed a few times: a system that generate math problems and their corresponding solutions for different problem types. I know a bit of Python and sympy, I may need to twerk sympy a bit to get the results I want, but probably manageable. The ability to export to MSWord&#x2F;Latex is a plus, but I’d say forgetting about it now because you need to write a lot of raw OOXML even if using python-docx and documentation is basically non-existent.<p>I start with writing small scripts a few times to try and make it happen. Every time after lots of hours spent, I know my code is a mess and I throw it away.<p>The ideal project would be to write code for about 20-50 math topics, each with 20-50 problem types. Writing a base class for each topic and inherit from it, may or may not work. There is a lot of repetition. Writing the case to create a problem and solution of quadratic equation of the form “ax^2+bx+c=0” is easy. 50 problem types where you run out of class names that you could imagine where you are trying to do “(ax+b)(cx+d)=e(fx+g)” and at most two parameters can be a fraction and the equation must have rational solutions and the solution differs whether cx+d and fx+g have a common factor, I don’t know what could I do about it. Maybe there is some pattern in software architecture I don’t know?",
+      "score": 2,
+      "text": "I’ve never worked as a dev for my life, but I spent quite some of my spare time to do programming. I’m also going to write a math textbook, but the task is repetitive and I don’t know how to automate it.<p>There is one thing that I tried to build for years, and failed a few times: a system that generate math problems and their corresponding solutions for different problem types. I know a bit of Python and sympy, I may need to twerk sympy a bit to get the results I want, but probably manageable. The ability to export to MSWord&#x2F;Latex is a plus, but I’d say forgetting about it now because you need to write a lot of raw OOXML even if using python-docx and documentation is basically non-existent.<p>I start with writing small scripts a few times to try and make it happen. Every time after lots of hours spent, I know my code is a mess and I throw it away.<p>The ideal project would be to write code for about 20-50 math topics, each with 20-50 problem types. Writing a base class for each topic and inherit from it, may or may not work. There is a lot of repetition. Writing the case to create a problem and solution of quadratic equation of the form “ax^2+bx+c=0” is easy. 50 problem types later where you run out of class names that you could imagine where you are trying to do “(ax+b)(cx+d)=e(fx+g)” and at most two parameters can be a fraction and the equation must have rational solutions and the solution differs whether cx+d and fx+g have a common factor, I don’t know what could I do about it. Maybe there is some pattern in software architecture I don’t know?",
       "time": 1639198484,
       "title": "Ask HN: Advise for an amateur programmer who is also a high school math teacher",
       "type": "story"
@@ -35,7 +67,7 @@
       "by": "lightlyused",
       "descendants": 0,
       "id": 29518504,
-      "score": 1,
+      "score": 2,
       "time": 1639197971,
       "title": "Debris from the Mayfield tornado has also lofted over 30k feet into the air",
       "type": "story",
@@ -70,26 +102,6 @@
       "title": "Jndi: An irresponsibly bad logging library",
       "type": "story",
       "url": "https://github.com/bradfitz/jndi"
-    },
-    {
-      "by": "bkohlmann",
-      "descendants": 0,
-      "id": 29518434,
-      "score": 2,
-      "time": 1639197064,
-      "title": "Anatomy of a Goat: What Makes Magnus Carlsen the Best Chess Player in the World",
-      "type": "story",
-      "url": "https://www.espn.com/chess/story/_/id/32840390/magnus-carlsen-world-champion-best-chess-player"
-    },
-    {
-      "by": "thesuperbigfrog",
-      "descendants": 0,
-      "id": 29518401,
-      "score": 1,
-      "time": 1639196585,
-      "title": "The new decentralized venture landscape is changing how we report startup data",
-      "type": "story",
-      "url": "https://techcrunch.com/2021/12/10/3-views-the-new-decentralized-venture-landscape-is-changing-how-we-report-startup-data/"
     }
   ]
 }
