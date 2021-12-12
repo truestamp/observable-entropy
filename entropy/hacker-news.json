@@ -1,6 +1,16 @@
 {
   "stories": [
     {
+      "by": "colinprince",
+      "descendants": 0,
+      "id": 29533356,
+      "score": 2,
+      "time": 1639341368,
+      "title": "Iran threatens sanctions against US over treatment of Black Americans",
+      "type": "story",
+      "url": "https://www.al-monitor.com/originals/2021/12/iran-threatens-sanctions-against-us-over-treatment-black-americans"
+    },
+    {
       "by": "weekendvampire",
       "descendants": 0,
       "id": 29533349,
@@ -37,7 +47,7 @@
       "by": "stunt",
       "descendants": 0,
       "id": 29533320,
-      "score": 1,
+      "score": 2,
       "time": 1639341163,
       "title": "Ask HN: Do you have a life hack or habit for which you use spreadsheets?",
       "type": "story"
@@ -77,9 +87,10 @@
     },
     {
       "by": "andrewstuart",
-      "descendants": 1,
+      "descendants": 3,
       "id": 29533251,
       "kids": [
+        29533390,
         29533311
       ],
       "score": 1,
@@ -90,23 +101,16 @@
     },
     {
       "by": "deweyair",
-      "descendants": 0,
+      "descendants": 1,
       "id": 29533242,
+      "kids": [
+        29533369
+      ],
       "score": 2,
-      "text": "Hello. I made Gear Slots. It&#x27;s a loot-inspired NFT, with tradable attributes. Deployed on Polygon.<p>I really liked the idea behind loot - to have game data stored on chain. However, not having solid randomness in the generation of the gear, as well as static bags of gear (not being able to trade for different gear) was a downside. So, I made Gear Slots.<p>Gear Slots is built completely on-chain - there is no data stored on IPFS, S3, or any other host. The metadata, attributes, and images for Gear Slots are all stored on-chain.<p>When minted, the contract uses randomness from ChainLink&#x27;s VRF to randomly generate 9 pieces of equipment. Once you&#x27;ve minted a token, you can set a price on a single piece of gear within the token, a few pieces of gear, or every piece of gear. Other token holders can buy that gear from you at the price you set. You can browse gear for sale from other token holders as well. There is no fee to set prices on gear - only gas.<p>With Gear Slots, you swap out individual pieces of gear with other token holders, without trading away your entire token.<p>Gear Slots brings a unique twist to gaming NFTs with tradable attributes. The mint price is 1 MATIC, plus some gas. When you trade gear with other token holders, the fee is whatever the owner set on that gear, plus some gas. If you&#x27;re not familiar with Polygon or how to setup your wallet, I&#x27;m happy to help.<p>The site is gearslots.com, and some tokens are listed for sale on OpenSea as well. If you want to try the contract and token, but not the site, the contract has been verified on Polygonscan, so you can interact over there as well.",
+      "text": "Hello. I made Gear Slots. It&#x27;s a loot-inspired NFT, with tradable attributes. Deployed on Polygon.<p>I really liked the idea behind loot - to have game data stored on chain. However, not having solid randomness in the generation of the gear, as well as static bags of gear (not being able to trade for different gear) was a downside. So, I made Gear Slots.<p>Gear Slots is built completely on-chain - there is no data stored on IPFS, S3, or any other host. The metadata, attributes, and images for Gear Slots are all stored on-chain.<p>When minted, the contract uses randomness from ChainLink&#x27;s VRF to randomly generate 9 pieces of equipment. Once you&#x27;ve minted a token, you can set a price on a single piece of gear within the token, a few pieces of gear, or every piece of gear. Other token holders can buy that gear from you at the price you set. You can browse gear for sale from other token holders as well. There is no fee to set prices on gear - only gas.<p>With Gear Slots, you swap out individual pieces of gear with other token holders, without trading away your entire token.<p>Gear Slots brings a unique twist to gaming NFTs with tradable attributes. The mint price is 1 MATIC, plus some gas. When you trade gear with other token holders, the fee is whatever the owner set on that gear, plus some gas. If you&#x27;re not familiar with Polygon or how to setup your wallet, I&#x27;m happy to help.<p>The site is https:&#x2F;&#x2F;gearslots.com, and after minting the tokens show on OpenSea as well. If you want to try the contract and token, but not the site, the contract has been verified on Polygonscan, so you can interact over there as well.",
       "time": 1639340585,
       "title": "Show HN: GearSlots, Polygon NFT with tradable attributes",
       "type": "story"
-    },
-    {
-      "by": "hncurious",
-      "descendants": 0,
-      "id": 29533218,
-      "score": 3,
-      "time": 1639340423,
-      "title": "It's a Ponzi Scheme",
-      "type": "story",
-      "url": "https://panteracapital.com/blockchain-letter/its-a-ponzi-scheme/"
     }
   ]
 }
