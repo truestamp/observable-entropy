@@ -1,9 +1,22 @@
 {
   "stories": [
     {
+      "by": "vblanco",
+      "descendants": 0,
+      "id": 29533685,
+      "score": 1,
+      "time": 1639343656,
+      "title": "The Matrix Is Unreal",
+      "type": "story",
+      "url": "https://www.fxguide.com/fxfeatured/the-matrix-is-unreal/"
+    },
+    {
       "by": "rbellon",
       "descendants": 0,
       "id": 29533625,
+      "kids": [
+        29533684
+      ],
       "score": 1,
       "time": 1639343262,
       "title": "Clean Architecture in ExpressJS Applications",
@@ -52,9 +65,12 @@
     },
     {
       "by": "welder",
-      "descendants": 0,
+      "descendants": 1,
       "id": 29533538,
-      "score": 1,
+      "kids": [
+        29533673
+      ],
+      "score": 2,
       "text": "It&#x27;s 2021 and we have extremely fast key-value lookups using LevelDB&#x2F;RocksDB, but we&#x27;re still using RAM-based caching tools [1] [2] [3]. It&#x27;s time to consider RAM-based caching harmful, and start caching with SSDs for larger datasets and lower costs. For ex: SSDB [4]<p>[1] https:&#x2F;&#x2F;redis.io&#x2F;<p>[2] https:&#x2F;&#x2F;memcached.org&#x2F;<p>[3] https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=29532552<p>[4] https:&#x2F;&#x2F;github.com&#x2F;ideawu&#x2F;ssdb#ssdb-vs-redis",
       "time": 1639342657,
       "title": "Tell HN: Memcached and Redis Considered Harmful",
@@ -89,16 +105,6 @@
       "title": "World3",
       "type": "story",
       "url": "https://en.wikipedia.org/wiki/World3"
-    },
-    {
-      "by": "Sandman",
-      "descendants": 0,
-      "id": 29533525,
-      "score": 1,
-      "time": 1639342578,
-      "title": "BlueTeam CheatSheet Log4Shell",
-      "type": "story",
-      "url": "https://gist.github.com/SwitHak/b66db3a06c2955a9cb71a8718970c592"
     }
   ]
 }
