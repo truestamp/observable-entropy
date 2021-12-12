@@ -1,10 +1,41 @@
 {
   "stories": [
+    null,
+    {
+      "by": "kehers",
+      "descendants": 0,
+      "id": 29533267,
+      "score": 1,
+      "text": "We currently run a marketing automation solution and charge by the number of unique users a message is sent to in the month irrespective of the number of profiles in the account. So a customer may have 5,000 profiles but they only pay for 50 if that’s the number of customers they send a campaign or automation to in the month.<p>The challenge with this is it makes price estimation difficult (we currently can’t even do annual pricing) and we incur costs on total number of profiles in the account and not only the ones engaged. (We have to do customer segmentation for every user profile).<p>We are considering profile-based charging (everyone does this) and the biggest challenge for us is the price difference this will cause for some existing customers. Some customers actively use us for just transactional email analytics and do not send messages so we charge them just for the data events. The new pricing model could mean charging  them up to 15x which is unreasonable. I am also trying to avoid creating a separate pricing for just the transactional email analytics. Products with multiple pricing models can be confusing.<p>I&#x27;d appreciate suggestions on how to deal with this? Also, what grace period should we be looking at for migrating customers?<p>(More context is available here: https:&#x2F;&#x2F;obem.be&#x2F;2021&#x2F;12&#x2F;12&#x2F;rethinking-our-pricing-model.html)",
+      "time": 1639340838,
+      "title": "Ask HN: Need Help with Pricing Model",
+      "type": "story"
+    },
+    {
+      "by": "dnet",
+      "descendants": 0,
+      "id": 29533252,
+      "score": 1,
+      "time": 1639340707,
+      "title": "Our new tool for enumerating hidden Log4Shell-affected hosts",
+      "type": "story",
+      "url": "https://blog.silentsignal.eu/2021/12/12/our-new-tool-for-enumerating-hidden-log4shell-affected-hosts/"
+    },
+    {
+      "by": "andrewstuart",
+      "descendants": 0,
+      "id": 29533251,
+      "score": 1,
+      "text": "HN: I am asking your advice on how to build a social movement to change society.  What can you suggest to help me?<p>I&#x27;m deeply angry about a particular social issue and feel helpless. So what can I do?  I&#x27;ve concluded the only thing I can do is try to create on online community and movement.<p>So I come here to my community Hacker News, where there is infinite skill and capability in building online community, campaigns and movements and I ask for help.<p>It seems to me that any social movement needs a catchy name, so I&#x27;ve created that (see below).<p>The next thing I have done is create a subreddit with the name of the social movement (again see below).<p>I also created a website a while back, although does not use the catchy name I created, so it needs updating (again, see below).<p>But really the things I&#x27;ve done above are just guesses. I have no idea how to create a social movement and change the world.<p>Thanks!<p>I have the subject matter below, to avoid this post being seen as HN spam:<p>****************************************<p>The subject of the social movement:<p>The catchy name &quot;Real Estate Rebellion&quot;.<p>The goal:\nI want to end housing as a financial investment in Australia.<p>The issue:\nI&#x27;m deeply angry about what has happened with house prices in Australia.<p>Ordinary people - teachers, nurses, public servants will <i>never</i> be able to buy a house in Australia.  In fact even well paid people who don&#x27;t currently own will never be able to buy a house.  It wasn&#x27;t like this before.  In Australia, some people own multiple houses, 1&#x2F;2&#x2F;3&#x2F;4 or more and others own none - society has been split into renters and landlords.  The politicians all own multiple houses and dare not say a single word against raging house prices.<p>I want to end housing as a financial investment in Australia.  I&#x27;m deeply angry about what has happened with house prices - ordinary people - teachers, nurses, public servants will <i>never</i> be able to buy a house in Australia.  In fact even well paid people who don&#x27;t currently own will never be able to buy a house.  It wasn&#x27;t like this before.  In Australia, some people own multiple houses, 1&#x2F;2&#x2F;3&#x2F;4 or more and others own none - society has been split into renters and landlords.  The politicians all own multiple houses and dare not say a single word against raging house prices.<p>The subreddit:\nhttps:&#x2F;&#x2F;www.reddit.com&#x2F;r&#x2F;realestaterebellion&#x2F;<p>The website:\nhttps:&#x2F;&#x2F;site-153316-2260-6863.mystrikingly.com&#x2F;",
+      "time": 1639340701,
+      "title": "Ask HN: How do I create a social movement to change the world?",
+      "type": "story"
+    },
     {
       "by": "deweyair",
       "descendants": 0,
       "id": 29533242,
-      "score": 1,
+      "score": 2,
       "text": "Hello. I made Gear Slots. It&#x27;s a loot-inspired NFT, with tradable attributes. Deployed on Polygon.<p>I really liked the idea behind loot - to have game data stored on chain. However, not having solid randomness in the generation of the gear, as well as static bags of gear (not being able to trade for different gear) was a downside. So, I made Gear Slots.<p>Gear Slots is built completely on-chain - there is no data stored on IPFS, S3, or any other host. The metadata, attributes, and images for Gear Slots are all stored on-chain.<p>When minted, the contract uses randomness from ChainLink&#x27;s VRF to randomly generate 9 pieces of equipment. Once you&#x27;ve minted a token, you can set a price on a single piece of gear within the token, a few pieces of gear, or every piece of gear. Other token holders can buy that gear from you at the price you set. You can browse gear for sale from other token holders as well. There is no fee to set prices on gear - only gas.<p>With Gear Slots, you swap out individual pieces of gear with other token holders, without trading away your entire token.<p>Gear Slots brings a unique twist to gaming NFTs with tradable attributes. The mint price is 1 MATIC, plus some gas. When you trade gear with other token holders, the fee is whatever the owner set on that gear, plus some gas. If you&#x27;re not familiar with Polygon or how to setup your wallet, I&#x27;m happy to help.<p>The site is gearslots.com, and some tokens are listed for sale on OpenSea as well. If you want to try the contract and token, but not the site, the contract has been verified on Polygonscan, so you can interact over there as well.",
       "time": 1639340585,
       "title": "Show HN: GearSlots, Polygon NFT with tradable attributes",
@@ -44,7 +75,7 @@
       "by": "doener",
       "descendants": 0,
       "id": 29533199,
-      "score": 2,
+      "score": 1,
       "time": 1639340305,
       "title": "Russian government has taken another step against internet freedom",
       "type": "story",
@@ -59,49 +90,6 @@
       "title": "WWI Fighter Planes Fired Through Their Propellers",
       "type": "story",
       "url": "https://www.popularmechanics.com/flight/a24004/machine-gun-through-propeller-fighters-ww1/"
-    },
-    {
-      "by": "mikehall314",
-      "descendants": 0,
-      "id": 29533173,
-      "score": 6,
-      "time": 1639340150,
-      "title": "Pfizer scientist turned anti-vaxxer Dr Mike Yeadon wins award for pseudoscience",
-      "type": "story",
-      "url": "https://www.skeptic.org.uk/2021/12/pfizer-scientist-turned-anti-vaxxer-dr-mike-yeadon-wins-2021-rusty-razor-award-for-pseudoscience/"
-    },
-    {
-      "by": "doener",
-      "descendants": 0,
-      "id": 29533168,
-      "score": 1,
-      "time": 1639340109,
-      "title": "Vulnerability in Apache Log4j Library Affecting Cisco Products: December 2021",
-      "type": "story",
-      "url": "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd"
-    },
-    {
-      "by": "doener",
-      "descendants": 0,
-      "id": 29533146,
-      "score": 1,
-      "time": 1639339979,
-      "title": "UniFi Network Application 6.5.54",
-      "type": "story",
-      "url": "https://community.ui.com/releases/UniFi-Network-Application-6-5-54/d717f241-48bb-4979-8b10-99db36ddabe1"
-    },
-    {
-      "by": "randycupertino",
-      "descendants": 1,
-      "id": 29533143,
-      "kids": [
-        29533172
-      ],
-      "score": 3,
-      "time": 1639339964,
-      "title": "Food is more expensive than it has been in decades",
-      "type": "story",
-      "url": "https://www.cnn.com/2021/12/11/business/grocery-restaurant-prices/index.html"
     }
   ]
 }
