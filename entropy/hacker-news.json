@@ -1,11 +1,21 @@
 {
   "stories": [
     {
+      "by": "ingve",
+      "descendants": 0,
+      "id": 29529463,
+      "score": 1,
+      "time": 1639315879,
+      "title": "Apple Park: first look at the design team shaping the future of tech",
+      "type": "story",
+      "url": "https://www.wallpaper.com/design/apple-park-behind-the-scenes-design-team-interview"
+    },
+    {
       "by": "samwillis",
       "descendants": 0,
       "id": 29529451,
       "score": 1,
-      "text": "With the Log4J vulnerability it got me thinking out how to secure my apps from similar problems in the future. I already use a WAF such as CloudFlare as an inbound firewall, but what I want is an outbound firewall, like Little Snitch.<p>Also, when building with un-curated package managers such as NPM and PyPi, it’s virtually impossible to audit all dependencies. We now regularly hear news of packages being replaced with backdoored versions makes me very nervous. These could make outbound connections to exfiltrate data with not outside input.<p>I would love it if PAASs (with I prefer) such as Heroku and Fly.io had configurable outbound firewalls. Being able to whitelist what outbound connections were aloud would help enormously, even though it would not solve all potential exploits.<p>Does anyone know of one? Why do PAAS (and to some extent IAAS) not have this functionality built in?",
+      "text": "With the Log4J vulnerability it got me thinking out how to secure my apps from similar problems in the future. I already use a WAF such as CloudFlare as an inbound firewall, but what I want is an outbound firewall, like Little Snitch.<p>Also, when building with un-curated package managers such as NPM and PyPi, it’s virtually impossible to audit all dependencies. We now regularly hear news of packages being replaced with backdoored versions makes me very nervous. These could make outbound connections to exfiltrate data with not outside input.<p>I would love it if PAASs (with I prefer) such as Heroku and Fly.io had configurable outbound firewalls. Being able to whitelist what outbound connections were aloud would help enormously, even though it would not solve all potential exploits.<p>Does anyone know of one? Why do PAAS (and to some extent IAAS) not have this functionality built in?<p>(Obviously with your own infrastructure this is possible with normal firewalls)",
       "time": 1639315773,
       "title": "Ask HN: Is there an outbound firewall for web apps, a bit like “Little Snitch”?",
       "type": "story"
@@ -34,7 +44,7 @@
       "by": "ingve",
       "descendants": 0,
       "id": 29529351,
-      "score": 1,
+      "score": 2,
       "time": 1639314816,
       "title": "Workers Are Using ‘Mouse Movers’ So They Can Use the Bathroom in Peace",
       "type": "story",
@@ -42,8 +52,11 @@
     },
     {
       "by": "vixalien",
-      "descendants": 0,
+      "descendants": 1,
       "id": 29529317,
+      "kids": [
+        29529456
+      ],
       "score": 1,
       "time": 1639314528,
       "title": "Rabbet",
@@ -57,7 +70,7 @@
       "kids": [
         29529321
       ],
-      "score": 3,
+      "score": 5,
       "text": "Post that got taken down for violating community guidelines was simply the following:<p>&quot;Det finns många bra alternativ förutom ubuntu. Kolla på distrowatch.com och titta runt lite, kolla på screenshots och besök hemsidorna se om det är något verkar passa dig. Många distros satsar just på att vara &quot;lightweight&quot; och vissa har ett &quot;live medium&quot; vilket innebär att installationsmediumet är så att du kan starta operativsystemet direkt från ett USB minne och testa det utan att ens installera det till en början.&quot;<p>in english:<p>&quot;There are many good options besides ubuntu. Check out distrowatch.com and look around a bit, look at the screenshots and visit the websites to see if there is something that seems to suit you. Many distros focus on being &quot;lightweight&quot; and some have a &quot;live medium&quot; which means that the installation medium is so that you can boot the operating system directly from a USB memory and test it without even installing it in the first place.&quot;",
       "time": 1639314469,
       "title": "Linking to distrowatch.com from Facebook is a community violation",
@@ -77,7 +90,7 @@
       "by": "vixalien",
       "descendants": 0,
       "id": 29529267,
-      "score": 3,
+      "score": 8,
       "text": "So I decide to build a windows 11 app. I already know some .NET and C&#x2F;family from school and look through the source of C# and it doesn&#x27;t seem too complicated.<p>However, building Windows apps is very complicated even when you know C++ or C#.<p>1. I wanted to build  Windows 11 apps and I had to choose between Windows Forms, WinUI3, Win32 and WPF I think. I don&#x27;t really know the difference between the 3 and no one really explains that (unless Win32 which is obvious).<p>2. Apparently, WUP is no longer recommended. A few years they were pushing it to the max. Bummer.<p>3. I installed Visual Studio overnight (it comes with all the tools that building apps need). It downloaded 6GB of data and used 20GB of storage. All i want to build is a hello world app.<p>4. I create a project following a guide from Microsoft.<p>5. The app is extremely resource heavy and way too over-featured. I build the boilerplate app and Run it and it takes minutes to build (most of the time is downloading dependencies so not such a big deal).<p>6. I open the newly created app in Sublime Text (my editor) and I can&#x27;t find a way to build the app anymore.<p>7. Because Visual Studio is so bloated, I download Visual Studio Code, which is far more simple but I can still not figure out how to build my app even with the various extensions VS code boasts.<p>8. After hours of googling, I formulate a script that can build the app from the command-line.<p>9. But I stil don&#x27;t know how to build the app as the .exe file created does not execute.<p>10. I&#x27;m very disappointed.<p>The worst of all is that there is not even one good guide on the whole clearnet on how to do develop a Hello World windows app from scratch.",
       "time": 1639314139,
       "title": "Ask HN: Why is building Windows apps so complicated",
@@ -92,16 +105,6 @@
       "title": "I was told the 12 steps would cure my addiction",
       "type": "story",
       "url": "https://www.theguardian.com/society/2021/dec/04/12-steps-addiction-cure-quasi-religious"
-    },
-    {
-      "by": "carmenapostu",
-      "descendants": 0,
-      "id": 29529265,
-      "score": 1,
-      "time": 1639314135,
-      "title": "Zanshin: Learning the Art of Attention and Focus from a Legendary Samurai Archer",
-      "type": "story",
-      "url": "https://jamesclear.com/zanshin"
     }
   ]
 }
