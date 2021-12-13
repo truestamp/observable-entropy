@@ -1,10 +1,90 @@
 {
   "stories": [
     {
+      "by": "flippyhead",
+      "descendants": 0,
+      "id": 29543511,
+      "score": 1,
+      "time": 1639424378,
+      "title": "PullRequest – Code Review as a Service",
+      "type": "story",
+      "url": "https://www.pullrequest.com/"
+    },
+    {
+      "by": "CapitalistCartr",
+      "descendants": 0,
+      "id": 29543509,
+      "score": 1,
+      "time": 1639424371,
+      "title": "Teaser: Hard-Coding Transformer Models",
+      "type": "story",
+      "url": "https://www.lesswrong.com/posts/Lq6jo5j9ty4sezT7r/teaser-hard-coding-transformer-models"
+    },
+    {
+      "by": "yurivish",
+      "descendants": 0,
+      "id": 29543506,
+      "score": 1,
+      "time": 1639424348,
+      "title": "How I think about writing",
+      "type": "story",
+      "url": "https://danluu.com/writing-non-advice/"
+    },
+    {
+      "by": "chmaynard",
+      "descendants": 0,
+      "id": 29543473,
+      "score": 1,
+      "time": 1639424224,
+      "title": "On Code Reviews",
+      "type": "story",
+      "url": "https://henrikwarne.com/2021/12/13/on-code-reviews/"
+    },
+    {
+      "by": "aficionado",
+      "descendants": 0,
+      "id": 29543472,
+      "score": 2,
+      "time": 1639424214,
+      "title": "Image Processing: The Simple and the Complex",
+      "type": "story",
+      "url": "https://blog.bigml.com/2021/12/13/image-processing-the-simple-and-the-complex/"
+    },
+    {
+      "by": "JoeOfTexas",
+      "descendants": 0,
+      "id": 29543467,
+      "score": 1,
+      "text": "I am working on a webapp, that needs this environment setup:<p>-------------------------------------<p>Public Routes:<p>- API (nodejs &#x2F; 1+ instances)<p>- WebSockets (nodejs &#x2F; 1+ instances)<p>- Object Storage (proxy)<p>Private Routes:<p>- Redis (docker &#x2F; cluster)<p>- RabbitMQ (docker &#x2F; cluster)<p>- MySQL (standalone &#x2F; cluster)<p>Hidden (connects to Public&#x2F;Private routes):<p>- worker1 (nodejs)<p>- worker2 (nodejs)<p>- worker3 (nodejs)<p>-------------------------------------<p>In researching environments for hosting, I found 3 options:<p>1) VPS&#x2F;Docker for each service<p>2) All services in a single Bare metal server<p>3) Kubernetes<p>There are downsides to each.  But, looking at costs, bare metal server would be the most economical, and Kubernetes is way outside my budget.<p>My budget is roughly $100, and my time is just as limited.<p>The webapp is scale ready, but that&#x27;s not very important if I have no users on launch day.<p>What environment recommendations do you have that would let me run such a  configuration for my webapp?",
+      "time": 1639424192,
+      "title": "Ask HN: Web App Environment Recommendation?",
+      "type": "story"
+    },
+    {
+      "by": "MrWiffles",
+      "descendants": 0,
+      "id": 29543464,
+      "score": 1,
+      "time": 1639424180,
+      "title": "Mac gets SharePlay in macOS 12.1 but Universal Control delayed again",
+      "type": "story",
+      "url": "https://www.cultofmac.com/761050/mac-gets-shareplay-in-macos-12-1-but-universal-control-still-missing/"
+    },
+    {
+      "by": "mikhael",
+      "descendants": 0,
+      "id": 29543457,
+      "score": 1,
+      "time": 1639424148,
+      "title": "Mister 101: A classic gaming device to rule them all",
+      "type": "story",
+      "url": "https://www.polygon.com/22640171/mister-project-classic-gaming-retro-fpga-board-chip-io-explainer-usb-hub"
+    },
+    {
       "by": "andydotxyz",
       "descendants": 0,
       "id": 29543448,
-      "score": 1,
+      "score": 4,
       "time": 1639424082,
       "title": "Build a GUI app in 7 mins from start to store (Lightning talk)",
       "type": "story",
@@ -19,86 +99,6 @@
       "title": "Analogue Pocket Review: Gameboy Games Have Never Looked So Good",
       "type": "story",
       "url": "https://www.theverge.com/22831589/analogue-pocket-review"
-    },
-    {
-      "by": "stickydink",
-      "descendants": 0,
-      "id": 29543365,
-      "score": 1,
-      "time": 1639423719,
-      "title": "Instagram disabled artist’s metaverse handle after Facebook rebranded to Meta",
-      "type": "story",
-      "url": "https://www.theguardian.com/technology/2021/dec/13/metaverse-facebook-instagram-handle-disabled-artist"
-    },
-    {
-      "by": "gmays",
-      "descendants": 0,
-      "id": 29543356,
-      "score": 1,
-      "time": 1639423685,
-      "title": "Experimental mRNA HIV Vaccine Safe, Shows Promise in Animals",
-      "type": "story",
-      "url": "https://www.niaid.nih.gov/news-events/experimental-mrna-hiv-vaccine-safe-shows-promise-animals"
-    },
-    {
-      "by": "spekcular",
-      "descendants": 0,
-      "id": 29543354,
-      "score": 1,
-      "time": 1639423665,
-      "title": "For and Against Lotteries in Elite University Admissions",
-      "type": "story",
-      "url": "https://samenright.com/2021/12/12/for-and-against-lotteries-in-elite-university-admissions/"
-    },
-    {
-      "by": "spekcular",
-      "descendants": 0,
-      "id": 29543334,
-      "score": 1,
-      "time": 1639423573,
-      "title": "Clinical trials that will shape medicine in 2022",
-      "type": "story",
-      "url": "https://www.nature.com/articles/s41591-021-01601-5"
-    },
-    {
-      "by": "msavara",
-      "descendants": 0,
-      "id": 29543330,
-      "score": 3,
-      "time": 1639423565,
-      "title": "C# Math.Sqrt is slow on 12 core AMD it was destroyed by mobile CPU Intel",
-      "type": "story",
-      "url": "https://old.reddit.com/r/csharp/comments/rerz1n/mathsqrt_is_fantastically_slow_on_amd_9_3900x_12/"
-    },
-    {
-      "by": "atg_abhishek",
-      "descendants": 0,
-      "id": 29543328,
-      "score": 1,
-      "time": 1639423557,
-      "title": "Designing Netflix",
-      "type": "story",
-      "url": "http://highscalability.com/blog/2021/12/13/designing-netflix.html"
-    },
-    {
-      "by": "weekendvampire",
-      "descendants": 0,
-      "id": 29543326,
-      "score": 2,
-      "time": 1639423546,
-      "title": "Dating Advice for Guys",
-      "type": "story",
-      "url": "https://geniesloki.wordpress.com/2020/02/04/dating-advice-for-guys/"
-    },
-    {
-      "by": "8589934591",
-      "descendants": 0,
-      "id": 29543307,
-      "score": 1,
-      "text": "https:&#x2F;&#x2F;bradfieldcs.com&#x2F;courses&#x2F; - has a list of courses<p>https:&#x2F;&#x2F;bradfieldcs.com&#x2F;courses&#x2F;ssba&#x2F; - recent offering of a combination of previously offered courses<p>https:&#x2F;&#x2F;bradfieldcs.com&#x2F;csi&#x2F; - this is their computer science intensive bootcamp<p>These are the makers of https:&#x2F;&#x2F;teachyourselfcs.com&#x2F;. I notice that their course (ssba) costs $3600 and their bootcamp costs $19500. USD conversion to local currency is pretty high for me so I am on the fence to invest that much money on their courses. Can anyone share any reviews about their courses &#x2F; bootcamp?",
-      "time": 1639423421,
-      "title": "Ask HN: Reviews on BradfieldCS courses and bootcamp (teachyourselfcs creators)",
-      "type": "story"
     }
   ]
 }
