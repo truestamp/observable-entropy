@@ -1,10 +1,33 @@
 {
   "stories": [
     {
+      "by": "throwawaybbqed",
+      "descendants": 0,
+      "id": 29565038,
+      "score": 1,
+      "text": "I&#x27;m looking for a tool that surely exists but I can&#x27;t seem to find it. I have thousands of small video files, and I&#x27;d like to process each one independently across a cluster. The processing can defn benefit from GPU for some parts of the workload (e.g. object detection); it is all pytorch code. Ideally, would like to use cloud computing for this (so EKS would be preferable but can also spin up machines and setup slurm, etc. if need be). I&#x27;ve looked into GNU Parallel, Dask and PySpark. I&#x27;m a bit frustrated that most examples assume you have numpy arrays&#x2F;csvs at the start .. surely there exists a tool that deals with this at the &quot;files&quot; and &quot;scripts&quot; level? I feel the closest match I have seen is Hadoop but again, one where I can chain scripts together.",
+      "time": 1639571205,
+      "title": "Ask HN: Tool for doing embarrassingly parallel processing on cluster",
+      "type": "story"
+    },
+    {
+      "by": "patrickyammouni",
+      "descendants": 1,
+      "id": 29565027,
+      "kids": [
+        29565028
+      ],
+      "score": 1,
+      "time": 1639571162,
+      "title": "Clanica",
+      "type": "story",
+      "url": "https://clanica.com/"
+    },
+    {
       "by": "b-man",
       "descendants": 0,
       "id": 29565008,
-      "score": 1,
+      "score": 5,
       "time": 1639571083,
       "title": "Functional Programming as a Competitive Advantage – A Real-World Use-Case",
       "type": "story",
@@ -82,26 +105,6 @@
       "title": "Preventing the Great Burnout",
       "type": "story",
       "url": "https://workforcefuturist.substack.com/p/preventing-the-great-burnout"
-    },
-    {
-      "by": "hasheddan",
-      "descendants": 0,
-      "id": 29564872,
-      "score": 1,
-      "time": 1639570269,
-      "title": "Videos and Slides from HotChips 33",
-      "type": "story",
-      "url": "https://hc33.hotchips.org/"
-    },
-    {
-      "by": "nothrowaways",
-      "descendants": 0,
-      "id": 29564853,
-      "score": 2,
-      "time": 1639570185,
-      "title": "Bug or Feature? Covert Impairments to Human Computer Interaction",
-      "type": "story",
-      "url": "https://dl.acm.org/doi/10.1145/3313831.3376832"
     }
   ]
 }
