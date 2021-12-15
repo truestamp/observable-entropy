@@ -1,6 +1,36 @@
 {
   "stories": [
     {
+      "by": "fasteddie31003",
+      "descendants": 0,
+      "id": 29567069,
+      "score": 1,
+      "time": 1639581530,
+      "title": "Net Neutrality Freakouts in 2018 Turned Out to Be Absolutely Nothing",
+      "type": "story",
+      "url": "https://www.youtube.com/watch?v=FcxFU1CUrII"
+    },
+    {
+      "by": "fmihaila",
+      "descendants": 0,
+      "id": 29567051,
+      "score": 1,
+      "time": 1639581445,
+      "title": "OneZoom Tree of Life Explorer",
+      "type": "story",
+      "url": "http://www.onezoom.org/"
+    },
+    {
+      "by": "julianlam",
+      "descendants": 0,
+      "id": 29567032,
+      "score": 1,
+      "text": "I&#x27;m currently refactoring my app away from websockets to a more traditional RESTful API (especially for things that should&#x27;ve been RESTful in the first place), and I wanted to know peoples&#x27; thoughts on whether response bodies should return just what you need (e.g. a need-to-know response), or return components that are common across different responses.<p>For example, given a hypothetical API, `GET &#x2F;widgets&#x2F;:id` would return a generic set of properties for the widget... the id, location, parts, etc.<p>Whereas `POST &#x2F;widgets` could return all of that, but in a scenario where it doesn&#x27;t matter (that is, all the other values are null or defaults), then returning just `{ id }` would be sufficient.<p>Especially in the case of large response payloads, it may save some data from going over the wire, but we may be waltzing into premature optimization territory here.<p>If you use reusable components in OpenAPI, then it indirectly pushes you towards having your API return common schemas across different routes. So both `POST &#x2F;widgets` and `GET &#x2F;widgets&#x2F;:id` would return the same kind of response (in terms of properties present, etc.)<p>I can also see the argument that for developer friendliness, it makes more sense to return the kitchen sink, so additional calls need not be made to retrieve additional information.<p>In the real world, Stripe&#x27;s API always returns a common object that you can rely on... creating an invoice returns an &quot;Invoice&quot; object, listing invoices returns an array of &quot;Invoice&quot; objects, updating an invoice returns an &quot;Invoice&quot; object, etc.<p>I ask this because I can see in the existing code that a lot of the calls were fairly minimalist in nature. For example, deleting a widget wouldn&#x27;t even _need_ a response body. A 200 would just mean I could remove the element from the DOM, but from a dev friendliness POV, it could be advantageous to return the output of `GET &#x2F;widgets` when you call `DELETE &#x2F;widgets&#x2F;:id` (or maybe the output of `GET &#x2F;widgets&#x2F;:id` with the deleted flag set)",
+      "time": 1639581356,
+      "title": "Ask HN: In API design; minimal responses or kitchen sink responses?",
+      "type": "story"
+    },
+    {
       "by": "vngzs",
       "descendants": 0,
       "id": 29567026,
@@ -57,7 +87,7 @@
       "by": "mattrighetti",
       "descendants": 0,
       "id": 29566960,
-      "score": 1,
+      "score": 2,
       "time": 1639580998,
       "title": "Zed: lightning-fast, collaborative code editor written in Rust",
       "type": "story",
@@ -72,42 +102,6 @@
       "title": "Why Compiler Function Inlining Matters",
       "type": "story",
       "url": "https://www.polarsignals.com/blog/posts/2021/12/15/why-compiler-function-inlining-matters/"
-    },
-    {
-      "by": "bjoveski",
-      "descendants": 0,
-      "id": 29566934,
-      "score": 1,
-      "time": 1639580869,
-      "title": "Samsara IPOs at $11.5B valuation",
-      "type": "story",
-      "url": "https://www.barrons.com/articles/samsara-ipo-stock-price-51639568684"
-    },
-    {
-      "by": "1cvmask",
-      "descendants": 1,
-      "id": 29566930,
-      "kids": [
-        29566944
-      ],
-      "score": 1,
-      "time": 1639580846,
-      "title": "The US is not responsible for China’s rise",
-      "type": "story",
-      "url": "https://www.ft.com/content/917596e5-66e1-4bd4-88da-42d4d3bf5b3a"
-    },
-    {
-      "by": "cinquemb",
-      "descendants": 1,
-      "id": 29566929,
-      "kids": [
-        29566951
-      ],
-      "score": 1,
-      "time": 1639580846,
-      "title": "The $7T Increase in New RFR Positions",
-      "type": "story",
-      "url": "https://www.clarusft.com/the-7-trillion-increase-in-new-rfr-positions/"
     }
   ]
 }
