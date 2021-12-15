@@ -1,6 +1,26 @@
 {
   "stories": [
     {
+      "by": "Hard_Space",
+      "descendants": 0,
+      "id": 29562445,
+      "score": 1,
+      "time": 1639546195,
+      "title": "Pool-Party: Exploiting Browser Resource Pools as Side-Channels for Web Tracking",
+      "type": "story",
+      "url": "https://arxiv.org/abs/2112.06324"
+    },
+    {
+      "by": "minimaxir",
+      "descendants": 0,
+      "id": 29562438,
+      "score": 1,
+      "time": 1639546095,
+      "title": "AI-Generated Pokemon made using a finetuned ruDALL-E model",
+      "type": "story",
+      "url": "https://twitter.com/minimaxir/status/1470913487085785089"
+    },
+    {
       "by": "feross",
       "descendants": 0,
       "id": 29562400,
@@ -12,9 +32,12 @@
     },
     {
       "by": "justinzollars",
-      "descendants": 0,
+      "descendants": 1,
       "id": 29562397,
-      "score": 1,
+      "kids": [
+        29562439
+      ],
+      "score": 2,
       "time": 1639545611,
       "title": "US to blacklist eight more Chinese companies including dronemaker DJI",
       "type": "story",
@@ -75,30 +98,10 @@
       "descendants": 0,
       "id": 29562360,
       "score": 1,
-      "text": "Everything I’ve being reading about the log4j shell vulnerability all have the assumption that process is a flavor of a ‘webserver’ (i.e. a long running process that listens on ports)<p>So my question isthe exploitability of log4j vulnerability <i>if</i> the application is one of the following short-lived JAVA code<p>1) Basic JAVA app that uses log4j for debug logging<p>2) SpringBoot application but with WebApplicationType.NONE[1]<p>[1] https:&#x2F;&#x2F;docs.spring.io&#x2F;spring-boot&#x2F;docs&#x2F;current&#x2F;api&#x2F;org&#x2F;springframework&#x2F;boot&#x2F;WebApplicationType.html<p>Not trying to avoid mitigation or remediation tasks but trying to prioritize my workload<p>Thanks",
+      "text": "Everything I’ve being reading about the log4j shell vulnerability all have the assumption that process is a flavor of a ‘webserver’ (i.e. a long running process that listens on ports)<p>So my question is the exploitability of log4j vulnerability <i>if</i> the application is one of the following short-lived JAVA code<p>1) Basic JAVA app that uses log4j for debug logging<p>2) SpringBoot application but with WebApplicationType.NONE[1]<p>[1] https:&#x2F;&#x2F;docs.spring.io&#x2F;spring-boot&#x2F;docs&#x2F;current&#x2F;api&#x2F;org&#x2F;springframework&#x2F;boot&#x2F;WebApplicationType.html<p>Not trying to avoid mitigation or remediation tasks but trying to prioritize my workload<p>Thanks",
       "time": 1639545264,
       "title": "Is Log4j exploitable outside of a webserver",
       "type": "story"
-    },
-    {
-      "by": "kevindeasis",
-      "descendants": 0,
-      "id": 29562349,
-      "score": 2,
-      "text": "Very frequently I notice bugs and vulnerabilities to different websites &#x2F; products &#x2F; saas.<p>Some of them are minor, and some are definitely very severe. From famous startups to really big companies.<p>I used to report these things, but half of the time, they usually don&#x27;t get it fixed. I did find some horror stories in the past about people reporting vulnerabilities<p>What would &#x2F; can you guys do ethically &amp; legally?<p>Is there a way to ethically make a decent living from this? IE: consulting, employed, self-employed, etc?",
-      "time": 1639545108,
-      "title": "Ask HN: How do I report vulnerabilities and bugs?",
-      "type": "story"
-    },
-    {
-      "by": "axiomdata316",
-      "descendants": 0,
-      "id": 29562339,
-      "score": 1,
-      "time": 1639545007,
-      "title": "Chickpeas, a neglected crop, may soon get a high-tech makeover",
-      "type": "story",
-      "url": "https://www.economist.com/science-and-technology/chickpeas-a-neglected-crop-may-soon-get-a-high-tech-makeover/21806678"
     }
   ]
 }
