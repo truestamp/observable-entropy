@@ -1,6 +1,39 @@
 {
   "stories": [
     {
+      "by": "brunosutic",
+      "descendants": 0,
+      "id": 29584772,
+      "score": 1,
+      "text": "I&#x27;m working on a custom stripe subscription integration for my SaaS web app for more than a month now. I implemented the same thing 5 years ago, and it somehow feels a lot harder now.<p>The biggest part of added complexity is &quot;SCA&quot; (like 2FA for payments) which was enforced to the whole industry by the EU regulation. Writing custom JavaScript is now required to get custom integration working :&#x2F;<p>But, despite this external complexity, I&#x27;m also constantly struggling with Stripe&#x27;s API and the overall approach. Their docs are terse and concise - written like manpages: you have to have an overall understanding of the system to use them effectively. I turned to their tutorials and videos, but they&#x27;re very simplistic: they explain only the most basic scenarios.<p>I find myself doing a lot of manual testing - using stripe&#x27;s API with a variety of scenarios just to figure out how things work. Then, once I understand a certain feature I have to figure how it works with the rest of the integration.<p>Example feature: &quot;only add product to the subscription once it&#x27;s paid for&quot;. Not even Stripe support developers knew how to handle this correctly - they did point me to the right direction, but I had to do a lot of manual API testing.<p>TL;DR I feel Stripe&#x27;s API became too complex, and too &quot;low-level&quot; to work with directly. I often wish there was a library that would handle all the communication with Stripe. Or at least an extensive video-course that would get you very familiar with all the scenarios.<p>Am I the only one that has this impression?",
+      "time": 1639693118,
+      "title": "Ask HN: Why is custom stripe integration so hard?",
+      "type": "story"
+    },
+    {
+      "by": "perihelions",
+      "descendants": 0,
+      "id": 29584759,
+      "score": 1,
+      "time": 1639692980,
+      "title": "Documents link Huawei to China’s surveillance programs",
+      "type": "story",
+      "url": "https://www.washingtonpost.com/world/2021/12/14/huawei-surveillance-china/"
+    },
+    {
+      "by": "iroh2727",
+      "descendants": 1,
+      "id": 29584750,
+      "kids": [
+        29584751
+      ],
+      "score": 1,
+      "time": 1639692952,
+      "title": "Why “Good” Research Ideas Fail",
+      "type": "story",
+      "url": "https://nathanieltravis.com/2021/12/16/why-good-research-ideas-fail/"
+    },
+    {
       "by": "lsllc",
       "descendants": 0,
       "id": 29584739,
@@ -32,8 +65,11 @@
     },
     {
       "by": "reTensor",
-      "descendants": 0,
+      "descendants": 1,
       "id": 29584716,
+      "kids": [
+        29584749
+      ],
       "score": 1,
       "time": 1639692766,
       "title": "Dan Ammann (CEO of Cruise) is leaving the company",
@@ -69,36 +105,6 @@
       "title": "Google – Year in Search 2021",
       "type": "story",
       "url": "https://www.youtube.com/watch?v=EqboAI-Vk-U"
-    },
-    {
-      "by": "daureg",
-      "descendants": 0,
-      "id": 29584698,
-      "score": 1,
-      "time": 1639692688,
-      "title": "Polars: Lightning-fast DataFrame library for Rust and Python",
-      "type": "story",
-      "url": "https://www.pola.rs/"
-    },
-    {
-      "by": "jasonhansel",
-      "descendants": 0,
-      "id": 29584671,
-      "score": 1,
-      "time": 1639692530,
-      "title": "Caffeine as a treatment for “paradoxical hyperactivity” caused by sedatives",
-      "type": "story",
-      "url": "https://link.springer.com/article/10.1007/s00247-004-1303-8"
-    },
-    {
-      "by": "adamrezich",
-      "descendants": 0,
-      "id": 29584667,
-      "score": 1,
-      "time": 1639692516,
-      "title": "Schools across US respond to vague shooting threat circulating on TikTok",
-      "type": "story",
-      "url": "https://thenationaldesk.com/news/americas-news-now/schools-across-us-respond-to-vague-shooting-threat-circulating-on-tiktok"
     }
   ]
 }
