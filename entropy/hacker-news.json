@@ -1,6 +1,16 @@
 {
   "stories": [
     {
+      "by": "sohkamyung",
+      "descendants": 0,
+      "id": 29577334,
+      "score": 1,
+      "time": 1639656048,
+      "title": "Darwin's lost microscope: the auction of a history-making 'box of brass'",
+      "type": "story",
+      "url": "https://www.theguardian.com/science/video/2021/dec/16/darwins-lost-microscope-the-auction-of-a-history-making-box-of-brass-video"
+    },
+    {
       "by": "hariswill",
       "descendants": 0,
       "id": 29577307,
@@ -42,9 +52,12 @@
     },
     {
       "by": "thinkloop",
-      "descendants": 0,
+      "descendants": 1,
       "id": 29577253,
-      "score": 1,
+      "kids": [
+        29577333
+      ],
+      "score": 2,
       "text": "I have a laptop with a humble amount of disk-space and a desktop with a massive amount of disk-space.<p>I would like for the desktop to be a logically infinite source of storage, while the laptop stores only what I am currently using.<p>For example, if I have a &quot;photos&quot; folder with 10tb of photos, I would like to see a list of all the photos when I open the folder on my laptop. If I then select a specific photo to open, my laptop checks if it already has it downloaded locally and if not, silently pulls it from the server. If I do that thousands of times and run out of space on my laptop, the laptop should automatically purge the LRU photo to load the new one.<p>From the laptop&#x27;s perspective, it has an unlimited amount of space - the only noticeable thing is that some files take longer to load than others.<p>A critical component of this is that both systems are automatically synched. If a folder is created on the laptop, it is also created on the desktop. If a file is created on the laptop it is automatically backed up to the desktop. If a file is added to the desktop, its metadata is automatically synched to the laptop. Etc.<p>The desktop stores a superset of the the laptop and nothing else. The laptop always knows all the files on the desktop.<p>What self-hosted, preferably FOSS, software does this?",
       "time": 1639655087,
       "title": "Self-hosted on-demand synched file storage",
@@ -87,21 +100,11 @@
       "by": "samrohn777",
       "descendants": 0,
       "id": 29577212,
-      "score": 1,
+      "score": 2,
       "time": 1639654541,
       "title": "The Greatest Counterfeiter",
       "type": "story",
       "url": "https://darknetdiaries.com/episode/102/"
-    },
-    {
-      "by": "Tomte",
-      "descendants": 0,
-      "id": 29577188,
-      "score": 1,
-      "time": 1639654178,
-      "title": "Vegetables Don’t Exist (2019)",
-      "type": "story",
-      "url": "https://popula.com/2019/02/20/vegetables-dont-exist/"
     }
   ]
 }
