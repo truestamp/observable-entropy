@@ -1,6 +1,66 @@
 {
   "stories": [
     {
+      "by": "sgt",
+      "descendants": 0,
+      "id": 29596449,
+      "score": 1,
+      "time": 1639766680,
+      "title": "Heap Sort in C (1985)",
+      "type": "story",
+      "url": "http://cd.textfiles.com/simtel/simtel20/MSDOS/C/HSORT.C"
+    },
+    {
+      "by": "ZeljkoS",
+      "descendants": 0,
+      "id": 29596420,
+      "score": 1,
+      "time": 1639766603,
+      "title": "Alzheimer's drug aducanumab not approved for use in EU",
+      "type": "story",
+      "url": "https://www.bbc.com/news/health-59699907"
+    },
+    {
+      "by": "anderspitman",
+      "descendants": 0,
+      "id": 29596399,
+      "score": 1,
+      "text": "And other DNS resolvers as well.",
+      "time": 1639766537,
+      "title": "Ask HN: Is there a “wall of shame” for ISPs that don't respect DNS TTLs?",
+      "type": "story"
+    },
+    {
+      "by": "attack-surface",
+      "descendants": 0,
+      "id": 29596377,
+      "score": 1,
+      "time": 1639766478,
+      "title": "USBeyes – An anti-forensic kill-switch",
+      "type": "story",
+      "url": "https://github.com/nikant/USBeyes"
+    },
+    {
+      "by": "giuliomagnifico",
+      "descendants": 0,
+      "id": 29596368,
+      "score": 1,
+      "time": 1639766435,
+      "title": "How Russia tries to censor Western social media",
+      "type": "story",
+      "url": "https://www.bbc.com/news/blogs-trending-59687496"
+    },
+    {
+      "by": "media_hacker",
+      "descendants": 0,
+      "id": 29596366,
+      "score": 2,
+      "time": 1639766428,
+      "title": "Why Log4j won’t go away: 5 key questions answered on the bombshell vulnerability",
+      "type": "story",
+      "url": "https://readme.security/why-log4j-wont-go-away-5-key-questions-on-the-bombshell-vulnerability-2810ac3f91f6?gi=69466dbf056a"
+    },
+    {
       "by": "rbanffy",
       "descendants": 0,
       "id": 29596345,
@@ -12,9 +72,12 @@
     },
     {
       "by": "finite_jest",
-      "descendants": 0,
+      "descendants": 1,
       "id": 29596253,
-      "score": 1,
+      "kids": [
+        29596363
+      ],
+      "score": 2,
       "time": 1639765999,
       "title": "We Don’t Have to Die",
       "type": "story",
@@ -39,72 +102,6 @@
       "title": "Pfizer and Biontech Provide Update on Ongoing Studies of Covid-19 Vaccine",
       "type": "story",
       "url": "https://www.pfizer.com/news/press-release/press-release-detail/pfizer-and-biontech-provide-update-ongoing-studies-covid-19"
-    },
-    {
-      "by": "onassar",
-      "descendants": 1,
-      "id": 29596243,
-      "kids": [
-        29596334
-      ],
-      "score": 1,
-      "time": 1639765964,
-      "title": "Show HN: Webhook after XX time or days",
-      "type": "story",
-      "url": "https://onassar.github.io/experiments/boomerang-webhooks"
-    },
-    {
-      "by": "Alex3917",
-      "descendants": 0,
-      "id": 29596220,
-      "score": 1,
-      "time": 1639765880,
-      "title": "Pfizer Trial of Low-Dose Shot Fails for 2- to 5-Year-Olds",
-      "type": "story",
-      "url": "https://www.nytimes.com/live/2021/12/17/world/covid-omicron-vaccines"
-    },
-    {
-      "by": "MoSattler",
-      "descendants": 0,
-      "id": 29596138,
-      "score": 4,
-      "text": "I just wanted to share my short cautionary tale about DO.<p>I am running an application on managed Kubernetes. From a tech perspective, I was quite happy until this happened.<p>I broke my production system by introducing a bug in the k8s infrastructure. So I went over to DO to login and fix it. \nSince it uses 2FA, it sends a 6 digit code to my email for me to enter in order to login. The only problem is, that the email never arrives in my Gmail inbox.<p>I made double and triple sure it&#x27;s not in spam, and checked that emails arrive normally in my inbox. But it&#x27;s just not there. I guess there is a bug on DO&#x27;s side.<p>So I open a ticket, as this is already quite urgent (production is down). But I get no answer. I waited a few hours and opened another ticket. With no success. \nBy now it&#x27;s be 24h, and I cannot get a hold of anybody at DO.<p>I guess I got what I paid for. Digital Ocean is nice for playing around, but for serious projects one should look elsewhere.",
-      "time": 1639765569,
-      "title": "Do not use Digital Ocean for production",
-      "type": "story"
-    },
-    {
-      "by": "ripvanwinkle",
-      "descendants": 0,
-      "id": 29596136,
-      "score": 1,
-      "time": 1639765565,
-      "title": "Ray Dalio warns Fed’s hands are tied and higher U.S. inflation is sticking",
-      "type": "story",
-      "url": "https://www.marketwatch.com/story/ray-dalio-warns-the-feds-hands-are-tied-and-that-higher-u-s-inflation-is-sticking-around-democracy-maybe-not-11639578847"
-    },
-    {
-      "by": "alexbakker",
-      "descendants": 0,
-      "id": 29596099,
-      "kids": [
-        29596114
-      ],
-      "score": 1,
-      "time": 1639765430,
-      "title": "Understanding the Impact of Apache Log4j Vulnerability",
-      "type": "story",
-      "url": "https://security.googleblog.com/2021/12/understanding-impact-of-apache-log4j.html"
-    },
-    {
-      "by": "gautamsomani",
-      "descendants": 0,
-      "id": 29596089,
-      "score": 1,
-      "time": 1639765395,
-      "title": "Bash-Snippets: A collection of small bash scripts for heavy terminal users",
-      "type": "story",
-      "url": "https://github.com/alexanderepstein/Bash-Snippets"
     }
   ]
 }
