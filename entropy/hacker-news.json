@@ -1,6 +1,26 @@
 {
   "stories": [
     {
+      "by": "parsifail",
+      "descendants": 0,
+      "id": 29599509,
+      "score": 1,
+      "text": "Hey HN!<p>The last months I am getting more and more into IT security. Partly my job but mostly it is due to my server which I rent for creating my self hosted services based on Docker (e.g. Nextcloud, Gitea, Mail,...). I am very familiar with Ubuntu and Debian based distributions so my server runs Ubuntu 20.04 LTS. Currently I am creating a CICD pipeline with Gitea, Jenkins, Harbor, Portainer. Harbor (trivy) scans my images and if a service doesn&#x27;t run on alpine it is red. So, if every docker service which is based on Ubuntu&#x2F;Debian has hundreds of unfixed vulnerabilities, so my server might have them as well. It came into my mind to resetup the server and use alpine as the host operating system. All I need is docker and nginx with letsencrypt. My question is, would it make sense to use alpine as host os? Does anyone uses a similar setup with alpine? Or would anyone recommended or not recommend this scenario?\nBest regards!",
+      "time": 1639783032,
+      "title": "Ask HN: Are you using alpine as main server os?",
+      "type": "story"
+    },
+    {
+      "by": "optimalsolver",
+      "descendants": 0,
+      "id": 29599485,
+      "score": 2,
+      "time": 1639782904,
+      "title": "Learn LaTeX In 30 Minutes",
+      "type": "story",
+      "url": "https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes"
+    },
+    {
       "by": "tima101",
       "descendants": 0,
       "id": 29599483,
@@ -79,26 +99,6 @@
       "title": "Moderna says it will pause vaccine patent fight with U.S. government",
       "type": "story",
       "url": "https://www.washingtonpost.com/nation/2021/12/17/covid-omicron-variant-live-updates/"
-    },
-    {
-      "by": "infodocket",
-      "descendants": 0,
-      "id": 29599382,
-      "score": 1,
-      "time": 1639781948,
-      "title": "2021 in Graphics",
-      "type": "story",
-      "url": "https://www.bloomberg.com/graphics/2021-in-graphics/"
-    },
-    {
-      "by": "enigmatic02",
-      "descendants": 0,
-      "id": 29599365,
-      "score": 2,
-      "time": 1639781843,
-      "title": "Beauty Is the Greatest Privilege",
-      "type": "story",
-      "url": "https://medium.com/@sfard/the-greatest-privilege-we-hardly-talk-about-beauty-7db3f70c1116"
     }
   ]
 }
