@@ -1,6 +1,26 @@
 {
   "stories": [
     {
+      "by": "mariarmestre",
+      "descendants": 0,
+      "id": 29595512,
+      "score": 2,
+      "text": "Hi HN! I am Maria, solo founder of DataQA (https:&#x2F;&#x2F;dataqa.ai&#x2F;), a tool to search and label documents for various NLP tasks (e.g. entity extraction, entity linking, etc).<p>I have worked as a data scientist and ML engineer for the better part of a decade, and over that time have specialised mainly in applications involving natural language processing (NLP). One of the key questions I have always had at the back of my mind is whether my time was well spent. Whenever I spent more time on feature engineering or trying different models, I always wondered whether I would get better return on investment by simply labelling more data. I have created DataQA to enhance exploration &amp; labelling of documents. It is open-source and ships with the elasticsearch text search engine which I have packaged as a python package (might be topic of a future technical post), as well as a rules-based engine to do pre-labelling of documents using NLP rules. It is very easy to install with a single pip command.<p>One of the key things I wanted to add to DataQA is an integration to Wikipedia. Even though wikipedia is the largest living repository of human knowledge in the world, I still always found it difficult to process it and create structured datasets for my specific applications. Since wiki pages are long-form articles, it is important to divide the text into smaller text chunks. A lot of the interesting data is also sometimes displayed in tables. With DataQA you can now upload a list of wikipedia page urls and the tool will extract the articles, process them and even parse the tables, so you can then label any entities you want. You can find a tutorial here: https:&#x2F;&#x2F;towardsdatascience.com&#x2F;a-labelling-tool-to-easily-extract-and-label-wikipedia-data-63f58e2e76ae?gi=13e9b7f5080c.<p>The open-source version of DataQA currently only supports csv, but I have an enterprise version with premium features such as labelling of pdfs (with understanding of tables). If you&#x27;re interested in a free trial, please contact me at contact@dataqa.ai :-).",
+      "time": 1639762965,
+      "title": "Show HN: A labelling tool to easily extract and label Wikipedia data",
+      "type": "story"
+    },
+    {
+      "by": "doener",
+      "descendants": 0,
+      "id": 29595506,
+      "score": 1,
+      "time": 1639762934,
+      "title": "Omicron largely evades immunity from past infection or two vaccine doses",
+      "type": "story",
+      "url": "https://www.imperial.ac.uk/news/232698/modelling-suggests-rapid-spread-omicron-england/"
+    },
+    {
       "by": "gmays",
       "descendants": 0,
       "id": 29595466,
@@ -24,7 +44,7 @@
       "by": "todsacerdoti",
       "descendants": 0,
       "id": 29595423,
-      "score": 1,
+      "score": 2,
       "time": 1639762583,
       "title": "Getting started with GitHub Actions just got easier",
       "type": "story",
@@ -79,26 +99,6 @@
       "title": "Get Sentry Reports from Nginx",
       "type": "story",
       "url": "https://github.com/mdgart/sentrylogs"
-    },
-    {
-      "by": "dfern",
-      "descendants": 0,
-      "id": 29595369,
-      "score": 1,
-      "time": 1639762353,
-      "title": "Show HN: Let's Encrypt 2021 Annual Report [pdf]",
-      "type": "story",
-      "url": "https://www.abetterinternet.org/documents/2021-ISRG-Annual-Report.pdf"
-    },
-    {
-      "by": "dennisy",
-      "descendants": 0,
-      "id": 29595358,
-      "score": 1,
-      "text": "This may well be a controversial question, but as a developer who hates doing UI work, but would like to be able to build UIs for my projects I often find myself wondering why not build and render everything on the server?<p>Thinking about the internet I assume this is how most stuff worked in the past, and clients had little logic. We now have Vue, React etc and really heavy websites.<p>So I would like to understand is there a level of complexity at which a UI framework is needed? Do people build UIs using for example Python? Why not have a Python lib to build a full UI?",
-      "time": 1639762312,
-      "title": "Ask HN: Do we need JavaScript web frameworks?",
-      "type": "story"
     }
   ]
 }
