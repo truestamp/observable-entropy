@@ -1,6 +1,36 @@
 {
   "stories": [
     {
+      "by": "sizzle",
+      "descendants": 0,
+      "id": 29595751,
+      "score": 1,
+      "time": 1639763999,
+      "title": "U.N. chief urges action on 'killer robots' as Geneva talks openn",
+      "type": "story",
+      "url": "https://www.reuters.com/world/un-chief-urges-action-killer-robots-geneva-talks-open-2021-12-13/"
+    },
+    {
+      "by": "logggg",
+      "descendants": 0,
+      "id": 29595735,
+      "score": 1,
+      "time": 1639763954,
+      "title": "Node-safe: Make using Node.js safe again with Deno-like permissions",
+      "type": "story",
+      "url": "https://github.com/berstend/node-safe"
+    },
+    {
+      "by": "TangerineDream",
+      "descendants": 0,
+      "id": 29595674,
+      "score": 1,
+      "time": 1639763704,
+      "title": "How Long Do Disk Drives Last?",
+      "type": "story",
+      "url": "https://www.backblaze.com/blog/how-long-do-disk-drives-last/"
+    },
+    {
       "by": "sjbrown",
       "descendants": 1,
       "id": 29595671,
@@ -47,7 +77,7 @@
       "by": "uptown",
       "descendants": 0,
       "id": 29595614,
-      "score": 2,
+      "score": 3,
       "time": 1639763436,
       "title": "The entire Bay Area has become a large declining tech company",
       "type": "story",
@@ -55,8 +85,11 @@
     },
     {
       "by": "DrHilarius",
-      "descendants": 0,
+      "descendants": 1,
       "id": 29595598,
+      "kids": [
+        29595675
+      ],
       "score": 2,
       "time": 1639763359,
       "title": "Open Letter from the BMJ to Mark Zuckerberg",
@@ -72,36 +105,6 @@
       "title": "Airline industry warns upcoming 5G deployment could cause hiccups for travelers",
       "type": "story",
       "url": "https://www.cnet.com/tech/mobile/airline-industry-warns-upcoming-5g-deployment-could-cause-hiccups-for-travelers/"
-    },
-    {
-      "by": "mariarmestre",
-      "descendants": 0,
-      "id": 29595512,
-      "score": 2,
-      "text": "Hi HN! I am Maria, solo founder of DataQA (https:&#x2F;&#x2F;dataqa.ai&#x2F;), a tool to search and label documents for various NLP tasks (e.g. entity extraction, entity linking, etc).<p>I have worked as a data scientist and ML engineer for the better part of a decade, and over that time have specialised mainly in applications involving natural language processing (NLP). One of the key questions I have always had at the back of my mind is whether my time was well spent. Whenever I spent more time on feature engineering or trying different models, I always wondered whether I would get better return on investment by simply labelling more data. I have created DataQA to enhance exploration &amp; labelling of documents. It is open-source and ships with the elasticsearch text search engine which I have packaged as a python package (might be topic of a future technical post), as well as a rules-based engine to do pre-labelling of documents using NLP rules. It is very easy to install with a single pip command.<p>One of the key things I wanted to add to DataQA is an integration to Wikipedia. Even though wikipedia is the largest living repository of human knowledge in the world, I still always found it difficult to process it and create structured datasets for my specific applications. Since wiki pages are long-form articles, it is important to divide the text into smaller text chunks. A lot of the interesting data is also sometimes displayed in tables. With DataQA you can now upload a list of wikipedia page urls and the tool will extract the articles, process them and even parse the tables, so you can then label any entities you want. You can find a tutorial here: https:&#x2F;&#x2F;towardsdatascience.com&#x2F;a-labelling-tool-to-easily-extract-and-label-wikipedia-data-63f58e2e76ae?gi=13e9b7f5080c.<p>The open-source version of DataQA currently only supports csv, but I have an enterprise version with premium features such as labelling of pdfs (with understanding of tables). If you&#x27;re interested in a free trial, please contact me at contact@dataqa.ai :-).",
-      "time": 1639762965,
-      "title": "Show HN: A labelling tool to easily extract and label Wikipedia data",
-      "type": "story"
-    },
-    {
-      "by": "doener",
-      "descendants": 0,
-      "id": 29595506,
-      "score": 3,
-      "time": 1639762934,
-      "title": "Omicron largely evades immunity from past infection or two vaccine doses",
-      "type": "story",
-      "url": "https://www.imperial.ac.uk/news/232698/modelling-suggests-rapid-spread-omicron-england/"
-    },
-    {
-      "by": "gmays",
-      "descendants": 0,
-      "id": 29595466,
-      "score": 1,
-      "time": 1639762776,
-      "title": "'Mini-brains' provide clues about early life origins of schizophrenia",
-      "type": "story",
-      "url": "https://medicalxpress.com/news/2021-12-mini-brains-clues-early-life-schizophrenia.html"
     }
   ]
 }
