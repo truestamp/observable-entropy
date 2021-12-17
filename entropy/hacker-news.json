@@ -1,6 +1,16 @@
 {
   "stories": [
     {
+      "by": "rbanffy",
+      "descendants": 0,
+      "id": 29596345,
+      "score": 1,
+      "time": 1639766333,
+      "title": "Polar Resources Ice Mining Experiment-1 (Prime-1)",
+      "type": "story",
+      "url": "https://www.nasa.gov/directorates/spacetech/game_changing_development/projects/PRIME-1/"
+    },
+    {
       "by": "finite_jest",
       "descendants": 0,
       "id": 29596253,
@@ -14,7 +24,7 @@
       "by": "feross",
       "descendants": 0,
       "id": 29596245,
-      "score": 1,
+      "score": 2,
       "time": 1639765979,
       "title": "Ukraine hosts large-scale simulation of cyber-attack against energy grid",
       "type": "story",
@@ -32,8 +42,11 @@
     },
     {
       "by": "onassar",
-      "descendants": 0,
+      "descendants": 1,
       "id": 29596243,
+      "kids": [
+        29596334
+      ],
       "score": 1,
       "time": 1639765964,
       "title": "Show HN: Webhook after XX time or days",
@@ -54,7 +67,7 @@
       "by": "MoSattler",
       "descendants": 0,
       "id": 29596138,
-      "score": 3,
+      "score": 4,
       "text": "I just wanted to share my short cautionary tale about DO.<p>I am running an application on managed Kubernetes. From a tech perspective, I was quite happy until this happened.<p>I broke my production system by introducing a bug in the k8s infrastructure. So I went over to DO to login and fix it. \nSince it uses 2FA, it sends a 6 digit code to my email for me to enter in order to login. The only problem is, that the email never arrives in my Gmail inbox.<p>I made double and triple sure it&#x27;s not in spam, and checked that emails arrive normally in my inbox. But it&#x27;s just not there. I guess there is a bug on DO&#x27;s side.<p>So I open a ticket, as this is already quite urgent (production is down). But I get no answer. I waited a few hours and opened another ticket. With no success. \nBy now it&#x27;s be 24h, and I cannot get a hold of anybody at DO.<p>I guess I got what I paid for. Digital Ocean is nice for playing around, but for serious projects one should look elsewhere.",
       "time": 1639765569,
       "title": "Do not use Digital Ocean for production",
@@ -92,16 +105,6 @@
       "title": "Bash-Snippets: A collection of small bash scripts for heavy terminal users",
       "type": "story",
       "url": "https://github.com/alexanderepstein/Bash-Snippets"
-    },
-    {
-      "by": "ColinWright",
-      "descendants": 0,
-      "id": 29596083,
-      "score": 1,
-      "time": 1639765376,
-      "title": "Best Illusion of the Year Contest – Final",
-      "type": "story",
-      "url": "https://aperiodical.com/2021/12/best-illusion-of-the-year-contest-final/"
     }
   ]
 }
