@@ -1,6 +1,46 @@
 {
   "stories": [
     {
+      "by": "alcover",
+      "descendants": 0,
+      "id": 29606275,
+      "score": 1,
+      "text": "I understand fuzzing is bombarding with malformed or corner-case inputs. But are there tools that, given target source and language model, will systematically pinpoint (at least some) logical vulnerabilities ?<p><pre><code>    User list[10];\n    int id = read(input);\n    print(list[id]); &#x2F;&#x2F; WARN unbounded user-controlled index !</code></pre>",
+      "time": 1639847933,
+      "title": "Ask HN: Logical Vulnerability Discovery?",
+      "type": "story"
+    },
+    {
+      "by": "dempedempe",
+      "descendants": 0,
+      "id": 29606273,
+      "score": 1,
+      "time": 1639847925,
+      "title": "Endal",
+      "type": "story",
+      "url": "https://en.wikipedia.org/wiki/Endal"
+    },
+    {
+      "by": "ojhughes",
+      "descendants": 0,
+      "id": 29606266,
+      "score": 1,
+      "time": 1639847858,
+      "title": "How cut-and-pasted programming is putting the internet and society at risk",
+      "type": "story",
+      "url": "https://www.theguardian.com/commentisfree/2021/dec/18/how-cut-and-pasted-programming-is-putting-the-internet-and-society-at-risk"
+    },
+    {
+      "by": "feross",
+      "descendants": 0,
+      "id": 29606257,
+      "score": 1,
+      "time": 1639847787,
+      "title": "Mask up The best face masks for use against Covid-19 [Updated]",
+      "type": "story",
+      "url": "https://arstechnica.com/science/2021/12/mask-up-how-to-choose-and-maintain-the-best-masks-for-use-against-covid-19/"
+    },
+    {
       "by": "trms",
       "descendants": 0,
       "id": 29606214,
@@ -55,56 +95,16 @@
     },
     {
       "by": "diego",
-      "descendants": 0,
+      "descendants": 1,
       "id": 29606090,
-      "score": 1,
+      "kids": [
+        29606271
+      ],
+      "score": 2,
       "time": 1639846765,
       "title": "NFTs, OpenSea and Conflicts of Interest",
       "type": "story",
       "url": "https://diegobasch.com/nfts-opensea-and-conflicts-of-interest"
-    },
-    {
-      "by": "ra7",
-      "descendants": 0,
-      "id": 29606063,
-      "score": 1,
-      "time": 1639846626,
-      "title": "The Hyundai Ioniq 5 is the best EV we drove in 2021",
-      "type": "story",
-      "url": "https://arstechnica.com/cars/2021/12/the-hyundai-ioniq-5-is-the-best-ev-weve-driven-in-2021/"
-    },
-    {
-      "by": "mwexler",
-      "descendants": 0,
-      "id": 29605999,
-      "score": 2,
-      "time": 1639846339,
-      "title": "Crime Prediction SW Promised to Be Free of Biases. It Perpetuates Them",
-      "type": "story",
-      "url": "https://themarkup.org/prediction-bias/2021/12/02/crime-prediction-software-promised-to-be-free-of-biases-new-data-shows-it-perpetuates-them"
-    },
-    {
-      "by": "ndemir",
-      "descendants": 0,
-      "id": 29605910,
-      "score": 1,
-      "time": 1639845860,
-      "title": "The Zapier for Machine Learning",
-      "type": "story",
-      "url": "https://www.datagran.io/"
-    },
-    {
-      "by": "dredmorbius",
-      "descendants": 1,
-      "id": 29605887,
-      "kids": [
-        29605911
-      ],
-      "score": 1,
-      "time": 1639845700,
-      "title": "The Three Laws of Personal Devices",
-      "type": "story",
-      "url": "https://ar.al/2021/12/18/the-three-laws-of-personal-devices/"
     }
   ]
 }
