@@ -1,6 +1,26 @@
 {
   "stories": [
     {
+      "by": "evo_9",
+      "descendants": 0,
+      "id": 29606137,
+      "score": 1,
+      "text": "I&#x27;m working on a new app and it will require some short video clips; I&#x27;m semi-set on using Vimeo over YouTube&#x2F;other options and wondering if others have run into any issues, or if this is generally not a good idea.  The app itself is more&#x2F;less a &#x27;workout app&#x27; though highly specialized, and will only need to show very short video clips around 10-20 seconds in most cases.  Long-term I could see offering students the ability to record&#x2F;upload their own videos for feedback from staff members, etc.<p>From what I&#x27;m seeing the Vimeo api looks like a really easy, clean and inexpensive option.<p>Thank you",
+      "time": 1639847030,
+      "title": "Ask HN: Vimeo for Your App?",
+      "type": "story"
+    },
+    {
+      "by": "SquibblesRedux",
+      "descendants": 0,
+      "id": 29606103,
+      "score": 1,
+      "time": 1639846840,
+      "title": "Yule Goat",
+      "type": "story",
+      "url": "https://en.wikipedia.org/wiki/Yule_goat"
+    },
+    {
       "by": "diego",
       "descendants": 0,
       "id": 29606090,
@@ -24,7 +44,7 @@
       "by": "mwexler",
       "descendants": 0,
       "id": 29605999,
-      "score": 1,
+      "score": 2,
       "time": 1639846339,
       "title": "Crime Prediction SW Promised to Be Free of Biases. It Perpetuates Them",
       "type": "story",
@@ -65,8 +85,11 @@
     },
     {
       "by": "nanna",
-      "descendants": 0,
+      "descendants": 1,
       "id": 29605840,
+      "kids": [
+        29606130
+      ],
       "score": 2,
       "text": "Hi HN,<p>A simple Wordpress website and server I manage has been suffering a DDOS recently, and my attempts to combat it via fail2ban failed, so I&#x27;ve ended up using Cloudflare. Putting a huge centralised service in between the website and its readers feels like a privacy failure to me.<p>It&#x27;s a simple website hosted on a physical server. The DDOS attack is trying to brute force &#x2F;xmlrpc.php and &#x2F;wp-login.php, so I&#x27;d blocked all access to xmlrpc.php in nginx, jailed any ips who requested it in fail2ban, and rate limited access to &#x2F;wp-login.php. But still endless requests to both are being made at numerous times a second from an endless series of ips, crashing the server on a daily basis. Now I&#x27;ve got Cloudflare in the way I&#x27;m hoping to turn away to buggers before they reach the server. But  is there no decentralised alternative?",
       "time": 1639845410,
@@ -85,29 +108,6 @@
       "time": 1639845342,
       "title": "Ask HN: Is it me or are we entering an ARM era?",
       "type": "story"
-    },
-    {
-      "by": "mmarq",
-      "descendants": 0,
-      "id": 29605818,
-      "score": 1,
-      "time": 1639845310,
-      "title": "It’s Time to Get Rid of the IT Department",
-      "type": "story",
-      "url": "https://www.wsj.com/articles/get-rid-of-the-it-department-11637605133"
-    },
-    {
-      "by": "lkrubner",
-      "descendants": 1,
-      "id": 29605794,
-      "kids": [
-        29605962
-      ],
-      "score": 1,
-      "time": 1639845175,
-      "title": "Simple math says a winning politician must advocate for unpopular policies",
-      "type": "story",
-      "url": "https://demodexio.substack.com/p/democracy-for-realists-part-4-of"
     }
   ]
 }
