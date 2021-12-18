@@ -1,6 +1,26 @@
 {
   "stories": [
     {
+      "by": "ermantrout",
+      "descendants": 0,
+      "id": 29609578,
+      "score": 1,
+      "time": 1639868932,
+      "title": "Log4j 2.17.0 released, for third CVE (CVE-20 21-45105)",
+      "type": "story",
+      "url": "https://logging.apache.org/log4j/2.x/index.html"
+    },
+    {
+      "by": "mooreds",
+      "descendants": 0,
+      "id": 29609542,
+      "score": 1,
+      "time": 1639868708,
+      "title": "The Light and Dark Side of the API Economy",
+      "type": "story",
+      "url": "https://www.swyx.io/api-economy/"
+    },
+    {
       "by": "mooreds",
       "descendants": 0,
       "id": 29609534,
@@ -42,9 +62,12 @@
     },
     {
       "by": "anderspitman",
-      "descendants": 0,
+      "descendants": 1,
       "id": 29609450,
-      "score": 2,
+      "kids": [
+        29609547
+      ],
+      "score": 3,
       "text": "As I understand it, the ACME protocol used by services like LetsEncrypt simply proves you control a domain. But to my rather security-naive self, it seems like you could just put a TLS public key directly in a domain record, and have browsers read that. I&#x27;m confident there are good reasons this won&#x27;t work, and I can even guess at a few, but I&#x27;m looking for good resources that explain the ins and outs of the security implications here.",
       "time": 1639868117,
       "title": "Ask HN: What does LetsEncrypt prove that a public key in a DNS record doesn't?",
@@ -79,26 +102,6 @@
       "title": "The Haskell School of Music (book) [pdf]",
       "type": "story",
       "url": "https://www.cs.yale.edu/homes/hudak/Papers/HSoM.pdf"
-    },
-    {
-      "by": "LeslieDewhurst",
-      "descendants": 0,
-      "id": 29609391,
-      "score": 1,
-      "text": "Not everyone can recall the crash of 2008 and how banks on both sides of the Atlantic crumbled like Pringles for want of spot cash; but if we’re in Europe we’ll surely be aware, right now, of how spot markets are affecting energy prices, as they did the price of money back in 2008.<p>Companies whose business model is based on spot markets can quickly build a business with a client base in the millions using a straightforward model: buy short, sell long with an apparently good margin. Everything works well - remember Enron? - until spot markets dry-up, fail or drastically re-price. Bereft of any kind of liquidity in energy or money, spot businesses just stop, as there’s little effective mitigation that can be put in place to lessen the business impact of spot market failure, be you Lehman Bros or Northern Rock. When your business is overly reliant on a spot market that fails, it dies.<p>Health Care providers use spot markets too. Their most important, bed spaces, is now the subject of intense allocation campaigns. To mitigate bed space market failure, the UK’s NHS has experimented with quick-build Nightingale Hospitals (Bivouacs for the poorly) and hiring bed spaces around the UK and beyond. Although heroic, these initiatives have not garnered the usual 5* rating for the NHS. Whilst bed spaces may be fungible (a bed space is a bed space no matter where it is), patients in these beds are not. They want to be near, or in, their own environment where they feel comfortable and at ease. These kinds of initiatives may be temporary mitigations but they’re not solutions because when the bed space market fails, patients die.<p>A better solution is to use digital technology to turn the bedroom into a bed space, replacing computerized bed space searches with the bed-at-home and avoiding markets altogether.  Health Tech Apps with Remote Patient Monitoring and patient supervised drug dosing are becoming more widely available, far more reliable and now much more acceptable as a part of the Covid-19 digital solution set; presaging increased treatment at home for many out-patients and far fewer overnight hospital stays. The hospital of 10 year’s hence will look and function very differently.<p>Digital Health Tech is still in its infancy. Health-AI is one of many Health Tech providers and in terms of maturity we’re all chronologically somewhere in the mid 90’s just before the .com boom and bust, leading to an interesting question: who will be the pets.com of the Health Tech, era?<p>That’s a subject for another post!\nMeantime: Happy Holidays, everyone and all.<p>@DewhurstLeslie",
-      "time": 1639867754,
-      "title": "Why Digital Health Care Needs to Learn Spot Markets’ Lessons",
-      "type": "story"
-    },
-    {
-      "by": "gilad",
-      "descendants": 0,
-      "id": 29609388,
-      "score": 1,
-      "time": 1639867736,
-      "title": "Exa - A Modern Replacement for ls",
-      "type": "story",
-      "url": "https://the.exa.website/"
     }
   ]
 }
