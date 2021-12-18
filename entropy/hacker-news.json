@@ -1,6 +1,36 @@
 {
   "stories": [
     {
+      "by": "nanna",
+      "descendants": 0,
+      "id": 29605840,
+      "score": 1,
+      "text": "Hi HN,<p>A simple Wordpress website and server I manage has been suffering a DDOS recently, and my attempts to combat it via fail2ban failed, so I&#x27;ve ended up using Cloudflare. Putting a huge centralised service in between the website and its readers feels like a privacy failure to me.<p>It&#x27;s a simple website hosted on a physical server. The DDOS attack is trying to brute force &#x2F;xmlrpc.php and &#x2F;wp-login.php, so I&#x27;d blocked all access to xmlrpc.php in nginx, jailed any ips who requested it in fail2ban, and rate limited access to &#x2F;wp-login.php. But still endless requests to both are being made at numerous times a second from an endless series of ips, crashing the server on a daily basis. Now I&#x27;ve got Cloudflare in the way I&#x27;m hoping to turn away to buggers before they reach the server. But  is there no decentralised alternative?",
+      "time": 1639845410,
+      "title": "Ask HN: A decentralised way to fight DDoS attacks?",
+      "type": "story"
+    },
+    {
+      "by": "twelvenmonkeys",
+      "descendants": 0,
+      "id": 29605828,
+      "score": 1,
+      "text": "With the Macbook M1, billions of smartphones running ARM and less and less sales of Intel chips, will we see the sudden rise of Linux and Windows desktops &#x2F; laptops also switching to ARM?<p>Is x86 dead?",
+      "time": 1639845342,
+      "title": "Ask HN: Is it me or are we entering an ARM era?",
+      "type": "story"
+    },
+    {
+      "by": "mmarq",
+      "descendants": 0,
+      "id": 29605818,
+      "score": 1,
+      "time": 1639845310,
+      "title": "It’s Time to Get Rid of the IT Department",
+      "type": "story",
+      "url": "https://www.wsj.com/articles/get-rid-of-the-it-department-11637605133"
+    },
+    {
       "by": "lkrubner",
       "descendants": 0,
       "id": 29605794,
@@ -69,36 +99,6 @@
       "title": "Telling the Time with Computer Vision",
       "type": "story",
       "url": "https://blog.jinay.dev/posts/timekeeper/"
-    },
-    {
-      "by": "dawkins",
-      "descendants": 0,
-      "id": 29605700,
-      "score": 1,
-      "time": 1639844703,
-      "title": "Sam Harris is hiring a Head of Web3 Projects",
-      "type": "story",
-      "url": "https://twitter.com/SamHarrisOrg/status/1471886801837064195"
-    },
-    {
-      "by": "DrHilarius",
-      "descendants": 0,
-      "id": 29605693,
-      "score": 1,
-      "time": 1639844669,
-      "title": "Spies may be storing data to decrypt with a future quantum computer",
-      "type": "story",
-      "url": "https://www.newscientist.com/article/2293341-spies-may-be-storing-data-to-decrypt-with-a-future-quantum-computer/"
-    },
-    {
-      "by": "AshleysBrain",
-      "descendants": 0,
-      "id": 29605674,
-      "score": 1,
-      "time": 1639844546,
-      "title": "Servefolder.dev",
-      "type": "story",
-      "url": "https://servefolder.dev/"
     }
   ]
 }
