@@ -1,14 +1,24 @@
 {
   "stories": [
     {
-      "by": "ForeverAPadawan",
+      "by": "TechBro8615",
       "descendants": 0,
-      "id": 29602201,
+      "id": 29602216,
       "score": 1,
-      "text": "I&#x27;m part of a 20-some group of developers who maintain around 7 components (websites and microservices) for a single domain in our company (e.g. delivery tracking domain).<p>In order to ensure quality, we have &quot;domain scoped end to end tests&quot;. The problem with our E2E tests though is the combination of microservice versions in our E2E tests may not be the same as production because each microservice is independently deployable.<p>Is E2E testing less important in a microservice world?<p>How do you handle this problem?<p>Do you:<p>- Run your full E2E suite after the component has been deployed to production? - I imagine that this can become a bottleneck and probably more flaky since nothing is mocked.<p>- Deploy your components together so that the versions that get deployed to prod are the same as what&#x27;s in E2E? - seems to be distributed monolith but I guess it could work if the domain only has a couple of components.<p>- Accepted the fact that CI and production will never have the identical components.",
-      "time": 1639808396,
-      "title": "Ask HN: Value of E2E testing when each component is deployed independently?",
-      "type": "story"
+      "time": 1639808667,
+      "title": "Possible systematic miscategorisation of vax status: concerns re: effectiveness",
+      "type": "story",
+      "url": "http://probabilityandlaw.blogspot.com/2021/12/possible-systematic-miscategorisation.html"
+    },
+    {
+      "by": "user32556",
+      "descendants": 0,
+      "id": 29602203,
+      "score": 2,
+      "time": 1639808458,
+      "title": "Protonmail was identified as spam in Gmail",
+      "type": "story",
+      "url": "https://i.imgur.com/rpJDQX2.png"
     },
     {
       "by": "chasil",
@@ -54,7 +64,7 @@
       "by": "skarz",
       "descendants": 0,
       "id": 29602135,
-      "score": 3,
+      "score": 4,
       "time": 1639807495,
       "title": "Amazon driver was warned she’d be fired for not delivering during a tornado",
       "type": "story",
@@ -95,16 +105,6 @@
       "time": 1639806695,
       "title": "Ask HN: How to get the default context menu in Chrome?",
       "type": "story"
-    },
-    {
-      "by": "1vuio0pswjnm7",
-      "descendants": 0,
-      "id": 29602066,
-      "score": 3,
-      "time": 1639806630,
-      "title": "Libmobi: C library for handling eBook formats",
-      "type": "story",
-      "url": "https://github.com/bfabiszewski/libmobi"
     }
   ]
 }
