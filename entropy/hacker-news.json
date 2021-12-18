@@ -1,9 +1,42 @@
 {
   "stories": [
     {
-      "by": "mcguire",
+      "by": "runningmike",
       "descendants": 0,
+      "id": 29608916,
+      "score": 1,
+      "time": 1639864441,
+      "title": "Highlights from State of the Word 2021",
+      "type": "story",
+      "url": "https://wordpress.org/news/2021/12/highlights-from-state-of-the-word-2021/"
+    },
+    {
+      "by": "htgb",
+      "descendants": 0,
+      "id": 29608885,
+      "score": 1,
+      "time": 1639864240,
+      "title": "Is Raft more modular than MultiPaxos?",
+      "type": "story",
+      "url": "https://maheshba.bitbucket.io/blog/2021/12/14/Modularity.html"
+    },
+    {
+      "by": "devadvance",
+      "descendants": 0,
+      "id": 29608882,
+      "score": 1,
+      "time": 1639864231,
+      "title": "Modding the $35 Redragon K552 TKL (80%) keyboard",
+      "type": "story",
+      "url": "https://mattj.io/posts/2021-12-18-redragon-k552-mod/"
+    },
+    {
+      "by": "mcguire",
+      "descendants": 1,
       "id": 29608877,
+      "kids": [
+        29608880
+      ],
       "score": 1,
       "time": 1639864211,
       "title": "How millions of jobless Americans can afford to ditch work",
@@ -24,7 +57,7 @@
       "by": "carbocation",
       "descendants": 0,
       "id": 29608855,
-      "score": 1,
+      "score": 2,
       "time": 1639864063,
       "title": "Building a Neural Network in Go",
       "type": "story",
@@ -34,7 +67,7 @@
       "by": "jbegley",
       "descendants": 0,
       "id": 29608845,
-      "score": 2,
+      "score": 3,
       "time": 1639863998,
       "title": "Hidden Pentagon Records Reveal Patterns of Failure in Deadly Airstrikes",
       "type": "story",
@@ -69,36 +102,6 @@
       "title": "Large deposits of water found on Mars below surface",
       "type": "story",
       "url": "https://www.newscientist.com/article/2302207-large-deposits-of-water-found-on-mars-below-the-surface-at-the-equator/"
-    },
-    {
-      "by": "occupy_paul_st",
-      "descendants": 0,
-      "id": 29608772,
-      "score": 1,
-      "time": 1639863449,
-      "title": "Cyberpunk (1980), a short story by Bruce Bethke",
-      "type": "story",
-      "url": "http://www.infinityplus.co.uk/stories/cpunk.htm"
-    },
-    {
-      "by": "ECOSE",
-      "descendants": 0,
-      "id": 29608761,
-      "score": 1,
-      "time": 1639863385,
-      "title": "WiMAX Powered Cities by 2030",
-      "type": "story",
-      "url": "https://xatii.com/"
-    },
-    {
-      "by": "eeegnu",
-      "descendants": 0,
-      "id": 29608754,
-      "score": 2,
-      "text": "I was creating a bucket on GCP and noticed what I thought was an odd restriction[0]:<p>&gt; Bucket names cannot begin with the &quot;goog&quot; prefix.<p>&gt; Bucket names cannot contain &quot;google&quot; or close misspellings, such as &quot;g00gle&quot;.<p>I&#x27;m mostly just curious about the motivation behind these restrictions. My guess is that it&#x27;s to avoid buckets that make it seem like they&#x27;re owned by google, but there doesn&#x27;t seem to be equivalent restrictions on azure[1] or aws[2] (they do disallow the prefix &quot;xn--&quot; and the suffix &quot;-s3alias&quot;, but these seem functional.) Is there some other reasoning?<p>[0] https:&#x2F;&#x2F;cloud.google.com&#x2F;storage&#x2F;docs&#x2F;naming-buckets<p>[1] https:&#x2F;&#x2F;docs.microsoft.com&#x2F;en-us&#x2F;rest&#x2F;api&#x2F;storageservices&#x2F;naming-and-referencing-containers--blobs--and-metadata<p>[2] https:&#x2F;&#x2F;docs.aws.amazon.com&#x2F;AmazonS3&#x2F;latest&#x2F;userguide&#x2F;bucketnamingrules.html",
-      "time": 1639863317,
-      "title": "GCP Bucket Name Restrictions",
-      "type": "story"
     }
   ]
 }
