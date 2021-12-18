@@ -1,6 +1,16 @@
 {
   "stories": [
     {
+      "by": "mwexler",
+      "descendants": 0,
+      "id": 29605999,
+      "score": 1,
+      "time": 1639846339,
+      "title": "Crime Prediction SW Promised to Be Free of Biases. It Perpetuates Them",
+      "type": "story",
+      "url": "https://themarkup.org/prediction-bias/2021/12/02/crime-prediction-software-promised-to-be-free-of-biases-new-data-shows-it-perpetuates-them"
+    },
+    {
       "by": "ndemir",
       "descendants": 0,
       "id": 29605910,
@@ -37,7 +47,7 @@
       "by": "nanna",
       "descendants": 0,
       "id": 29605840,
-      "score": 1,
+      "score": 2,
       "text": "Hi HN,<p>A simple Wordpress website and server I manage has been suffering a DDOS recently, and my attempts to combat it via fail2ban failed, so I&#x27;ve ended up using Cloudflare. Putting a huge centralised service in between the website and its readers feels like a privacy failure to me.<p>It&#x27;s a simple website hosted on a physical server. The DDOS attack is trying to brute force &#x2F;xmlrpc.php and &#x2F;wp-login.php, so I&#x27;d blocked all access to xmlrpc.php in nginx, jailed any ips who requested it in fail2ban, and rate limited access to &#x2F;wp-login.php. But still endless requests to both are being made at numerous times a second from an endless series of ips, crashing the server on a daily basis. Now I&#x27;ve got Cloudflare in the way I&#x27;m hoping to turn away to buggers before they reach the server. But  is there no decentralised alternative?",
       "time": 1639845410,
       "title": "Ask HN: A decentralised way to fight DDoS attacks?",
@@ -95,16 +105,6 @@
       "title": "Best of HN 2021",
       "type": "story",
       "url": "https://hn.algolia.com/?dateEnd=1609415804&dateRange=pastYear&dateStart=1577836800&page=0&prefix=false&query=&sort=byPopularity&type=story"
-    },
-    {
-      "by": "wrycoder",
-      "descendants": 0,
-      "id": 29605732,
-      "score": 1,
-      "time": 1639844856,
-      "title": "Size Doesn’t Matter: Composition Determines How Deadly a Meteorite Impact Is",
-      "type": "story",
-      "url": "https://www.enn.com/articles/69350-size-doesn-t-matter-rock-composition-determines-how-deadly-a-meteorite-impact-is"
     }
   ]
 }
