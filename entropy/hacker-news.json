@@ -1,6 +1,26 @@
 {
   "stories": [
     {
+      "by": "ForeverAPadawan",
+      "descendants": 0,
+      "id": 29602201,
+      "score": 1,
+      "text": "I&#x27;m part of a 20-some group of developers who maintain around 7 components (websites and microservices) for a single domain in our company (e.g. delivery tracking domain).<p>In order to ensure quality, we have &quot;domain scoped end to end tests&quot;. The problem with our E2E tests though is the combination of microservice versions in our E2E tests may not be the same as production because each microservice is independently deployable.<p>Is E2E testing less important in a microservice world?<p>How do you handle this problem?<p>Do you:<p>- Run your full E2E suite after the component has been deployed to production? - I imagine that this can become a bottleneck and probably more flaky since nothing is mocked.<p>- Deploy your components together so that the versions that get deployed to prod are the same as what&#x27;s in E2E? - seems to be distributed monolith but I guess it could work if the domain only has a couple of components.<p>- Accepted the fact that CI and production will never have the identical components.",
+      "time": 1639808396,
+      "title": "Ask HN: Value of E2E testing when each component is deployed independently?",
+      "type": "story"
+    },
+    {
+      "by": "chasil",
+      "descendants": 0,
+      "id": 29602197,
+      "score": 1,
+      "time": 1639808328,
+      "title": "The love you take is equal to the love you make",
+      "type": "story",
+      "url": "https://www.youtube.com/watch?v=5tvSvjpcBuo"
+    },
+    {
       "by": "Hard_Space",
       "descendants": 0,
       "id": 29602178,
@@ -34,7 +54,7 @@
       "by": "skarz",
       "descendants": 0,
       "id": 29602135,
-      "score": 2,
+      "score": 3,
       "time": 1639807495,
       "title": "Amazon driver was warned she’d be fired for not delivering during a tornado",
       "type": "story",
@@ -85,26 +105,6 @@
       "title": "Libmobi: C library for handling eBook formats",
       "type": "story",
       "url": "https://github.com/bfabiszewski/libmobi"
-    },
-    {
-      "by": "axiomdata316",
-      "descendants": 0,
-      "id": 29602064,
-      "score": 1,
-      "time": 1639806615,
-      "title": "YouTube TV loses ESPN, ABC and other Disney channels in fee dispute",
-      "type": "story",
-      "url": "https://www.latimes.com/entertainment-arts/business/story/2021-12-17/youtube-tv-loses-espn-abc-and-other-disney-channels-in-fee-dispute"
-    },
-    {
-      "by": "sgwizdak",
-      "descendants": 0,
-      "id": 29602038,
-      "score": 2,
-      "time": 1639806332,
-      "title": "My Bose QC-35 II headphones burst into flames and left me with chemical burns",
-      "type": "story",
-      "url": "https://recursive-public-rants.blogspot.com/2021/12/my-bose-qc-35-ii-headphones-suddenly.html"
     }
   ]
 }
