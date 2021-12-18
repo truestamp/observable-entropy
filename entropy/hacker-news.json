@@ -1,6 +1,26 @@
 {
   "stories": [
     {
+      "by": "Foxboron",
+      "descendants": 0,
+      "id": 29606180,
+      "score": 1,
+      "time": 1639847297,
+      "title": "Show HN: Release 0.8 of sbctl, Secure Boot key manager",
+      "type": "story",
+      "url": "https://github.com/Foxboron/sbctl/releases/tag/0.8"
+    },
+    {
+      "by": "tiziano88",
+      "descendants": 0,
+      "id": 29606175,
+      "score": 2,
+      "time": 1639847264,
+      "title": "How not to do security indicators",
+      "type": "story",
+      "url": "https://twitter.com/tiziano88/status/1472198786223157251"
+    },
+    {
       "by": "evo_9",
       "descendants": 0,
       "id": 29606137,
@@ -82,32 +102,6 @@
       "title": "Diloger",
       "type": "story",
       "url": "https://www.cryptomuseum.com/covert/rec/diloger/index.htm"
-    },
-    {
-      "by": "nanna",
-      "descendants": 1,
-      "id": 29605840,
-      "kids": [
-        29606130
-      ],
-      "score": 2,
-      "text": "Hi HN,<p>A simple Wordpress website and server I manage has been suffering a DDOS recently, and my attempts to combat it via fail2ban failed, so I&#x27;ve ended up using Cloudflare. Putting a huge centralised service in between the website and its readers feels like a privacy failure to me.<p>It&#x27;s a simple website hosted on a physical server. The DDOS attack is trying to brute force &#x2F;xmlrpc.php and &#x2F;wp-login.php, so I&#x27;d blocked all access to xmlrpc.php in nginx, jailed any ips who requested it in fail2ban, and rate limited access to &#x2F;wp-login.php. But still endless requests to both are being made at numerous times a second from an endless series of ips, crashing the server on a daily basis. Now I&#x27;ve got Cloudflare in the way I&#x27;m hoping to turn away to buggers before they reach the server. But  is there no decentralised alternative?",
-      "time": 1639845410,
-      "title": "Ask HN: A decentralised way to fight DDoS attacks?",
-      "type": "story"
-    },
-    {
-      "by": "twelvenmonkeys",
-      "descendants": 1,
-      "id": 29605828,
-      "kids": [
-        29606089
-      ],
-      "score": 2,
-      "text": "With the Macbook M1, billions of smartphones running ARM and less and less sales of Intel chips, will we see the sudden rise of Linux and Windows desktops &#x2F; laptops also switching to ARM?<p>Is x86 dead?",
-      "time": 1639845342,
-      "title": "Ask HN: Is it me or are we entering an ARM era?",
-      "type": "story"
     }
   ]
 }
