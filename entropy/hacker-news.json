@@ -1,6 +1,26 @@
 {
   "stories": [
     {
+      "by": "enigmatic02",
+      "descendants": 0,
+      "id": 29600395,
+      "score": 1,
+      "time": 1639789762,
+      "title": "Art of Not Having a Take",
+      "type": "story",
+      "url": "https://world.hey.com/dhh/the-art-of-not-having-a-take-7c1d9d1e"
+    },
+    {
+      "by": "perihelions",
+      "descendants": 0,
+      "id": 29600385,
+      "score": 1,
+      "time": 1639789700,
+      "title": "Amazon driver texts reveal chaos as Illinois tornado bore down",
+      "type": "story",
+      "url": "https://www.stltoday.com/business/local/amazon-driver-texts-reveal-chaos-as-illinois-tornado-bore-down/article_d17c5500-60db-58a4-8aca-490be3db6f7e.html"
+    },
+    {
       "by": "tbwriting",
       "descendants": 0,
       "id": 29600350,
@@ -22,9 +42,13 @@
     },
     {
       "by": "vfulco2",
-      "descendants": 0,
+      "descendants": 2,
       "id": 29600320,
-      "score": 5,
+      "kids": [
+        29600401,
+        29600390
+      ],
+      "score": 9,
       "text": "TLDR; account locked out suddenly without any follow-up to my inquiries from customer service over 48+ hours. Sadly, I used to love DO for their balanced pricing, range of services, docs, online written material. I <i>thought</i> they were among the best of the best.<p>Long story short, I&#x27;ve had an account with them for roughly 5+ years as I recall, <i>good</i> credit card on file, monthly bill around $20-50, US address.  I use a few droplets to run dokku&#x2F;docker containers for dev and 1 private Google Outline VPN endpoint, only for me.  I only ssh into these from non-root and root should be turned off completely (but I&#x27;m only a hacker and not a F&#x2F;T systems person).<p>Not sure if it matters but I don&#x27;t do anything nefarious on these droplets-- no webscraping, no botnet creation, no crypto mining.  I don&#x27;t know what else would be considered verboten!?!<p>Try to log in with github, won&#x27;t work and asks for email login.  Try to login from there, and it asks for credit card info for &quot;authorization&quot; although the card is the one on file and being charged for so many years.<p>No recourse, and what a crappy way to treat clients even if they are small potatoes in the grand scheme of things.  Thankfully I am building a new MVP all on AWS and have my company prod there too running for 5 years. So I don&#x27;t have to put up with unprofessional dealings and major risks of service interruption.<p>Assume through no fault of your own that you could be shut out of everything.  You have been warned.",
       "time": 1639789138,
       "title": "Don't use Digital Ocean (DO) for production",
@@ -79,29 +103,6 @@
       "title": "The Quiet Scandal of College Teaching",
       "type": "story",
       "url": "https://libertiesjournal.com/articles/the-quiet-scandal-of-college-teaching/"
-    },
-    {
-      "by": "krimbus",
-      "descendants": 0,
-      "id": 29600228,
-      "score": 1,
-      "text": "I work on a small software team that develops code for scientific instruments. Our team runs very efficiently, and the focus on code quality is a big part of our culture.<p>However, lately, I have noticed that I&#x27;m unhappy with the intense code review cycles. The features work, have test coverage, and good git history, but we end up with a lot of back and forth until everything is precisely how our architect wants it to be. My perception is that I reached a point where I spend 50% of the time developing a solution (since I have enough architectural and domain knowledge) and the other 50% figuring out what will fly on review and merging back.<p>I do have some conflicting points in mind:\n- My skills have evolved a lot in this process, and I take pride in delivering good-quality code. But now that the learning curve is flattening, I feel the weight of not having enough creative freedom to write something up quickly or try different designs.\n- I see a lot of value in the shared ownership from the lengthy reviews, and we usually end up with better code&#x2F;design as the suggestions are technically sound.\n- I&#x27;m starting to feel like code is implementation detail since our high code standard does not necessarily add more value to users.\n- The focus of reviews is not on correctness but stuff like naming, docstrings, and design. Whenever a colleague makes a suggestion that helps the code improve, I&#x27;m happy to oblige. But lately, I wish I could slip a docstring that explains what is done instead of the why.\n- In essence, we follow open-source library development standards while making a closed source application.\n- The nature of our projects requires big additions to the software, so it is very common to have chained PRs.<p>Have you ever found yourself in such a position? What do you think about code review? Can too much of it be wrong?",
-      "time": 1639788341,
-      "title": "Ask HN: I'm tired of intense code review cycles",
-      "type": "story"
-    },
-    {
-      "by": "joetl",
-      "descendants": 1,
-      "id": 29600225,
-      "kids": [
-        29600226
-      ],
-      "score": 1,
-      "time": 1639788330,
-      "title": "Show HN: CTF Challenges for Adversarial Machine Learning",
-      "type": "story",
-      "url": "https://github.com/JosephTLucas/HackThisAI"
     }
   ]
 }
