@@ -1,6 +1,29 @@
 {
   "stories": [
     {
+      "by": "krimbus",
+      "descendants": 0,
+      "id": 29600228,
+      "score": 1,
+      "text": "I work on a small software team that develops code for scientific instruments. Our team runs very efficiently, and the focus on code quality is a big part of our culture.<p>However, lately, I have noticed that I&#x27;m unhappy with the intense code review cycles. The features work, have test coverage, and good git history, but we end up with a lot of back and forth until everything is precisely how our architect wants it to be. My perception is that I reached a point where I spend 50% of the time developing a solution (since I have enough architectural and domain knowledge) and the other 50% figuring out what will fly on review and merging back.<p>I do have some conflicting points in mind:\n- My skills have evolved a lot in this process, and I take pride in delivering good-quality code. But now that the learning curve is flattening, I feel the weight of not having enough creative freedom to write something up quickly or try different designs.\n- I see a lot of value in the shared ownership from the lengthy reviews, and we usually end up with better code&#x2F;design as the suggestions are technically sound.\n- I&#x27;m starting to feel like code is implementation detail since our high code standard does not necessarily add more value to users.\n- The focus of reviews is not on correctness but stuff like naming, docstrings, and design. Whenever a colleague makes a suggestion that helps the code improve, I&#x27;m happy to oblige. But lately, I wish I could slip a docstring that explains what is done instead of the why.\n- In essence, we follow open-source library development standards while making a closed source application.\n- The nature of our projects requires big additions to the software, so it is very common to have chained PRs.<p>Have you ever found yourself in such a position? What do you think about code review? Can too much of it be wrong?",
+      "time": 1639788341,
+      "title": "Ask HN: I'm tired of intense code review cycles",
+      "type": "story"
+    },
+    {
+      "by": "joetl",
+      "descendants": 1,
+      "id": 29600225,
+      "kids": [
+        29600226
+      ],
+      "score": 1,
+      "time": 1639788330,
+      "title": "Show HN: CTF Challenges for Adversarial Machine Learning",
+      "type": "story",
+      "url": "https://github.com/JosephTLucas/HackThisAI"
+    },
+    {
       "by": "Xati",
       "descendants": 0,
       "id": 29600176,
@@ -14,7 +37,7 @@
       "by": "samch",
       "descendants": 0,
       "id": 29600163,
-      "score": 1,
+      "score": 2,
       "time": 1639787837,
       "title": "Drone Swarm's Harassment of Navy Destroyers Off California Went on for Weeks",
       "type": "story",
@@ -79,29 +102,6 @@
       "title": "Resolving error bursts from cosmic rays in arrays of superconducting qubits",
       "type": "story",
       "url": "https://arxiv.org/abs/2104.05219"
-    },
-    {
-      "by": "ko3us",
-      "descendants": 0,
-      "id": 29600095,
-      "kids": [
-        29600105
-      ],
-      "score": 1,
-      "time": 1639787375,
-      "title": "Airbyte $150M Series B",
-      "type": "story",
-      "url": "https://www.businesswire.com/news/home/20211217005648/en/Airbyte-Closes-150-Million-Series-B-Funding-Round-Led-by-Altimeter-Capital-and-Coatue-Management"
-    },
-    {
-      "by": "atan2",
-      "descendants": 0,
-      "id": 29600092,
-      "score": 2,
-      "time": 1639787356,
-      "title": "DOS/4GW and Protected Mode",
-      "type": "story",
-      "url": "https://pikuma.com/blog/what-is-dos4gw-protected-mode"
     }
   ]
 }
