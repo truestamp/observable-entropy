@@ -28,7 +28,7 @@
         29611389,
         29611376
       ],
-      "score": 2,
+      "score": 3,
       "text": "Is there a reason for so few single-letter command line utilities? On my macOS, running<p><pre><code>  for char in {A..z}; do type &quot;$char&quot; 2&gt;&#x2F;dev&#x2F;null; done\n</code></pre>\ngives the following<p>A not found\nB not found\nC not found\nD not found\nE not found\nF not found\nG not found\nH not found\nI not found\nJ not found\nK not found\nL not found\nM not found\nN not found\nO not found\nP not found\nQ not found\nR not found\nS not found\nT not found\nU not found\nV not found\nW is &#x2F;usr&#x2F;bin&#x2F;W\nX not found\nY not found\nZ not found\n[ is a shell builtin\n\\ not found\n] not found\n^ not found\n_ not found\n` not found\na not found\nb not found\nc not found\nd not found\ne not found\nf not found\ng not found\nh not found\ni not found\nj not found\nk not found\nl not found\nm not found\nn not found\no not found\np not found\nq not found\nr is a shell builtin\ns not found\nt not found\nu not found\nv not found\nw is &#x2F;usr&#x2F;bin&#x2F;w\nx not found\ny not found\nz not found<p>Single letters are so much easier to type than any other number of letters. Curious if perhaps this was not allowed or was not possible for some reason in the earlier unix &#x2F; linux days?",
       "time": 1639888092,
       "title": "Ask HN: Why are there so few single-letter command line utilities / tools?",
