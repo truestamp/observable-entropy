@@ -1,11 +1,21 @@
 {
   "stories": [
     {
+      "by": "mebr",
+      "descendants": 0,
+      "id": 29611333,
+      "score": 1,
+      "time": 1639888259,
+      "title": "Cut Spelling – simplifying English words",
+      "type": "story",
+      "url": "https://en.wikipedia.org/wiki/Cut_Spelling"
+    },
+    {
       "by": "booboofixer",
       "descendants": 0,
       "id": 29611317,
       "score": 1,
-      "text": "Is there a reason for so few single-letter command line utilities? On my macOS, running<p>for char in {A..z}; do type &quot;$char&quot; 2&gt;&#x2F;dev&#x2F;null; done<p>gives the following<p>A not found\nB not found\nC not found\nD not found\nE not found\nF not found\nG not found\nH not found\nI not found\nJ not found\nK not found\nL not found\nM not found\nN not found\nO not found\nP not found\nQ not found\nR not found\nS not found\nT not found\nU not found\nV not found\nW is &#x2F;usr&#x2F;bin&#x2F;W\nX not found\nY not found\nZ not found\n[ is a shell builtin\n\\ not found\n] not found\n^ not found\n_ not found\n` not found\na not found\nb not found\nc not found\nd not found\ne not found\nf not found\ng not found\nh not found\ni not found\nj not found\nk not found\nl not found\nm not found\nn not found\no not found\np not found\nq not found\nr is a shell builtin\ns not found\nt not found\nu not found\nv not found\nw is &#x2F;usr&#x2F;bin&#x2F;w\nx not found\ny not found\nz not found<p>Single letters are so much easier to type than any other number of letters. Curious if perhaps this was not allowed or was not possible for some reason in the earlier unix &#x2F; linux days?",
+      "text": "Is there a reason for so few single-letter command line utilities? On my macOS, running<p><pre><code>  for char in {A..z}; do type &quot;$char&quot; 2&gt;&#x2F;dev&#x2F;null; done\n</code></pre>\ngives the following<p>A not found\nB not found\nC not found\nD not found\nE not found\nF not found\nG not found\nH not found\nI not found\nJ not found\nK not found\nL not found\nM not found\nN not found\nO not found\nP not found\nQ not found\nR not found\nS not found\nT not found\nU not found\nV not found\nW is &#x2F;usr&#x2F;bin&#x2F;W\nX not found\nY not found\nZ not found\n[ is a shell builtin\n\\ not found\n] not found\n^ not found\n_ not found\n` not found\na not found\nb not found\nc not found\nd not found\ne not found\nf not found\ng not found\nh not found\ni not found\nj not found\nk not found\nl not found\nm not found\nn not found\no not found\np not found\nq not found\nr is a shell builtin\ns not found\nt not found\nu not found\nv not found\nw is &#x2F;usr&#x2F;bin&#x2F;w\nx not found\ny not found\nz not found<p>Single letters are so much easier to type than any other number of letters. Curious if perhaps this was not allowed or was not possible for some reason in the earlier unix &#x2F; linux days?",
       "time": 1639888092,
       "title": "Ask HN: Why are there so few single-letter command line utilities / tools?",
       "type": "story"
@@ -82,31 +92,25 @@
     },
     {
       "by": "42jd",
-      "descendants": 9,
+      "descendants": 20,
       "id": 29611139,
       "kids": [
+        29611359,
         29611306,
-        29611269,
         29611255,
+        29611269,
+        29611347,
         29611287,
         29611261,
-        29611265
+        29611265,
+        29611346,
+        29611340
       ],
-      "score": 48,
+      "score": 52,
       "time": 1639885846,
       "title": "I Was Part of a Human Subject Research Study Without My Consent",
       "type": "story",
       "url": "https://christine.website/blog/princeton-study-2021-12-17"
-    },
-    {
-      "by": "MilnerRoute",
-      "descendants": 0,
-      "id": 29611135,
-      "score": 3,
-      "time": 1639885773,
-      "title": "Tesla Model 3 fleet suspended by major Paris taxi firm after fatal accident",
-      "type": "story",
-      "url": "https://www.washingtonpost.com/world/2021/12/15/paris-taxi-g7-tesla-accident/"
     }
   ]
 }
