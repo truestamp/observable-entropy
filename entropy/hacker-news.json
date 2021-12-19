@@ -1,6 +1,56 @@
 {
   "stories": [
     {
+      "by": "zaik",
+      "descendants": 0,
+      "id": 29611646,
+      "score": 1,
+      "time": 1639892097,
+      "title": "Tether Is Now Official Currency for Myanmar’s Anti-Junta Groups",
+      "type": "story",
+      "url": "https://www.bloomberg.com/news/articles/2021-12-13/myanmar-s-shadow-government-uses-tether-amid-anti-junta-campaign"
+    },
+    {
+      "by": "walrus01",
+      "descendants": 0,
+      "id": 29611643,
+      "score": 1,
+      "time": 1639892075,
+      "title": "Long distance microwave networks in Austria (pre-fiber)",
+      "type": "story",
+      "url": "http://www.wabweb.net/radio/sender/rifu-1959.htm"
+    },
+    {
+      "by": "EvgeniyZh",
+      "descendants": 0,
+      "id": 29611638,
+      "score": 1,
+      "time": 1639891969,
+      "title": "USC student 'diversity' senator facing backlash for anti-Israel tweets",
+      "type": "story",
+      "url": "https://nypost.com/2021/12/18/usc-student-diversity-senator-facing-backlash-for-anti-israel-tweets/"
+    },
+    {
+      "by": "indigodaddy",
+      "descendants": 0,
+      "id": 29611637,
+      "score": 1,
+      "time": 1639891960,
+      "title": "iptux: LAN Communication Software",
+      "type": "story",
+      "url": "https://github.com/iptux-src/iptux"
+    },
+    {
+      "by": "niedzielski",
+      "descendants": 0,
+      "id": 29611629,
+      "score": 1,
+      "time": 1639891850,
+      "title": "Super Mario Land Hack",
+      "type": "story",
+      "url": "http://www.androidarts.com/sml/sml.htm"
+    },
+    {
       "by": "niedzielski",
       "descendants": 0,
       "id": 29611616,
@@ -59,73 +109,6 @@
       "title": "Breaking with the Faith That American Meritocracy Works",
       "type": "story",
       "url": "https://www.newyorker.com/news/annals-of-inquiry/a-political-philosopher-is-hopeful-about-the-democrats"
-    },
-    {
-      "by": "collectedparts",
-      "descendants": 0,
-      "id": 29611458,
-      "score": 1,
-      "text": "I&#x27;m looking for the right tool to use to track &quot;operational&quot; health, which in my context mostly the size of various queues (eg, how many pending withdrawals are there, and then this is split by type of withdrawal).<p>Maybe some other business KPIs, but the emphasis is on building &quot;graphs that the operational team should be looking at on ~hourly basis to prioritize fixes and spot systemic regressions.&quot;<p>Ideally it would integrate with Pagerduty, in that it&#x27;d be easy to express &quot;page me if if X is above Y.&quot;<p>My preference is that I have my own cron job that captures the metrics from our queues&#x2F;databases and pushes them to the tool via a ~REST API but I could be convinced of a different method.<p>So far the only thing I can think of is Datadog, specifically https:&#x2F;&#x2F;www.datadoghq.com&#x2F;solutions&#x2F;real-time-business-intelligence&#x2F;<p>Anything else I should be looking at?  Or any other tips?",
-      "time": 1639889719,
-      "title": "Ask HN: Tool for dashboards / alerting on operational health metrics?",
-      "type": "story"
-    },
-    {
-      "by": "skbohra123",
-      "descendants": 0,
-      "id": 29611431,
-      "score": 2,
-      "time": 1639889432,
-      "title": "Revengeful Monkeys Allegedly Kill 250 Dogs After Baby Monkey Killed by Pooches",
-      "type": "story",
-      "url": "https://www.indiatimes.com/trending/wtf/revengeful-monkeys-kill-250-dogs-after-puppy-kills-monkey-in-maharashtra-557102.html"
-    },
-    {
-      "by": "News-Dog",
-      "descendants": 0,
-      "id": 29611381,
-      "score": 1,
-      "time": 1639888805,
-      "title": "Hardware Backdoor",
-      "type": "story",
-      "url": "https://en.wikipedia.org/wiki/Hardware_backdoor"
-    },
-    {
-      "by": "mebr",
-      "descendants": 1,
-      "id": 29611333,
-      "kids": [
-        29611480
-      ],
-      "score": 1,
-      "time": 1639888259,
-      "title": "Cut Spelling – simplifying English words",
-      "type": "story",
-      "url": "https://en.wikipedia.org/wiki/Cut_Spelling"
-    },
-    {
-      "by": "booboofixer",
-      "descendants": 18,
-      "id": 29611317,
-      "kids": [
-        29611477,
-        29611533,
-        29611521,
-        29611557,
-        29611583,
-        29611556,
-        29611529,
-        29611569,
-        29611534,
-        29611389,
-        29611376,
-        29611469
-      ],
-      "score": 7,
-      "text": "Is there a reason for so few single-letter command line utilities? On my macOS, running<p><pre><code>  for char in {A..z}; do type &quot;$char&quot; 2&gt;&#x2F;dev&#x2F;null; done\n</code></pre>\ngives the following<p>A not found\nB not found\nC not found\nD not found\nE not found\nF not found\nG not found\nH not found\nI not found\nJ not found\nK not found\nL not found\nM not found\nN not found\nO not found\nP not found\nQ not found\nR not found\nS not found\nT not found\nU not found\nV not found\nW is &#x2F;usr&#x2F;bin&#x2F;W\nX not found\nY not found\nZ not found\n[ is a shell builtin\n\\ not found\n] not found\n^ not found\n_ not found\n` not found\na not found\nb not found\nc not found\nd not found\ne not found\nf not found\ng not found\nh not found\ni not found\nj not found\nk not found\nl not found\nm not found\nn not found\no not found\np not found\nq not found\nr is a shell builtin\ns not found\nt not found\nu not found\nv not found\nw is &#x2F;usr&#x2F;bin&#x2F;w\nx not found\ny not found\nz not found<p>Single letters are so much easier to type than any other number of letters. Curious if perhaps this was not allowed or was not possible for some reason in the earlier unix &#x2F; linux days?",
-      "time": 1639888092,
-      "title": "Ask HN: Why are there so few single-letter command line utilities / tools?",
-      "type": "story"
     }
   ]
 }
