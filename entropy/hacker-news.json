@@ -1,6 +1,16 @@
 {
   "stories": [
     {
+      "by": "collectedparts",
+      "descendants": 0,
+      "id": 29611458,
+      "score": 1,
+      "text": "I&#x27;m looking for the right tool to use to track &quot;operational&quot; health, which in my context mostly the size of various queues (eg, how many pending withdrawals are there, and then this is split by type of withdrawal).<p>Maybe some other business KPIs, but the emphasis is on building &quot;graphs that the operational team should be looking at on ~hourly basis to prioritize fixes and spot systemic regressions.&quot;<p>Ideally it would integrate with Pagerduty, in that it&#x27;d be easy to express &quot;page me if if X is above Y.&quot;<p>My preference is that I have my own cron job that captures the metrics from our queues&#x2F;databases and pushes them to the tool via a ~REST API but I could be convinced of a different method.<p>So far the only thing I can think of is Datadog, specifically https:&#x2F;&#x2F;www.datadoghq.com&#x2F;solutions&#x2F;real-time-business-intelligence&#x2F;<p>Anything else I should be looking at?  Or any other tips?",
+      "time": 1639889719,
+      "title": "Ask HN: Tool for dashboards / alerting on operational health metrics?",
+      "type": "story"
+    },
+    {
       "by": "skbohra123",
       "descendants": 0,
       "id": 29611431,
@@ -32,9 +42,10 @@
     },
     {
       "by": "booboofixer",
-      "descendants": 2,
+      "descendants": 3,
       "id": 29611317,
       "kids": [
+        29611469,
         29611376,
         29611389
       ],
@@ -93,16 +104,6 @@
       "title": "Bill Gates' Open Letter to Hobbyists (1976)",
       "type": "story",
       "url": "http://www.blinkenlights.com/classiccmp/gateswhine.html"
-    },
-    {
-      "by": "chmaynard",
-      "descendants": 0,
-      "id": 29611190,
-      "score": 4,
-      "time": 1639886462,
-      "title": "Work in the Cloud",
-      "type": "story",
-      "url": "https://byparker.com/blog/2021/work-in-the-cloud/"
     }
   ]
 }
