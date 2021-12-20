@@ -1,6 +1,46 @@
 {
   "stories": [
     {
+      "by": "donboscow",
+      "descendants": 0,
+      "id": 29628509,
+      "score": 1,
+      "text": "I have a scenario - a shop runs hundreds and thousands of queries every hour. Each transaction has values like merchant id client id, purchase id, item name, item type, price, time of purchase, etc.<p>Potentially, the database can have millions of such records, and that can pretty much scale upto billions as well. The web front end will support queries like &quot;find the records of transactions by that customer id brought on this date within the price range this to that&quot;, etc. The response must be near real time, say not slower than what time Google typically takes to return a search result.<p>Keeping in mind cost, and most importantly, performance, which is preferable - Redis, or a NoSQL DB like MondoDB or Cassandra? Will Redis offer significantly more performance benefits because it is in-memory, or will the difference be negligible in this situation?",
+      "time": 1640026457,
+      "title": "Redis vs. Cassandra for high volume database query",
+      "type": "story"
+    },
+    {
+      "by": "graecea",
+      "descendants": 0,
+      "id": 29628490,
+      "score": 1,
+      "time": 1640026402,
+      "title": "Pre-Columbian transoceanic contact theories",
+      "type": "story",
+      "url": "https://en.wikipedia.org/wiki/Pre-Columbian_transoceanic_contact_theories"
+    },
+    {
+      "by": "wellpast",
+      "descendants": 0,
+      "id": 29628479,
+      "score": 1,
+      "time": 1640026356,
+      "title": "Coupling and Estimation",
+      "type": "story",
+      "url": "https://www.chronos-desk.com/blog/chronos/2021/12/16/coupling-and-estimation.html"
+    },
+    {
+      "by": "readonthegoapp",
+      "descendants": 0,
+      "id": 29628450,
+      "score": 2,
+      "text": "I&#x27;ve had people just be not nice to the point of rudeness, people driving while interviewing, people walking on treadmills out of breath, etc.",
+      "time": 1640026234,
+      "title": "Ask HN: How are your interviewers being rude to you?",
+      "type": "story"
+    },
+    {
       "by": "notrab",
       "descendants": 0,
       "id": 29628413,
@@ -14,7 +54,7 @@
       "by": "Amorymeltzer",
       "descendants": 0,
       "id": 29628401,
-      "score": 1,
+      "score": 2,
       "time": 1640026016,
       "title": "The speed limit is America’s most broken law. Why can’t we fix it?",
       "type": "story",
@@ -22,8 +62,11 @@
     },
     {
       "by": "hodgesrm",
-      "descendants": 0,
+      "descendants": 1,
       "id": 29628395,
+      "kids": [
+        29628513
+      ],
       "score": 1,
       "time": 1640025990,
       "title": "Adobe, Cloudflare lead plunge in cloud stocks after JPMorgan issues downgrades",
@@ -59,46 +102,6 @@
       "title": "New CityCoins Accelerator",
       "type": "story",
       "url": "https://stacks.ac/citycoins"
-    },
-    {
-      "by": "nickdrozd",
-      "descendants": 0,
-      "id": 29628337,
-      "score": 1,
-      "time": 1640025771,
-      "title": "A Christmas Tautology",
-      "type": "story",
-      "url": "https://nickdrozd.github.io/2020/12/12/christmas-tautology.html"
-    },
-    {
-      "by": "ggoo",
-      "descendants": 0,
-      "id": 29628331,
-      "score": 1,
-      "time": 1640025757,
-      "title": "The Power of Defaults",
-      "type": "story",
-      "url": "https://julian.digital/2021/12/20/the-power-of-defaults/"
-    },
-    {
-      "by": "fnord77",
-      "descendants": 0,
-      "id": 29628330,
-      "score": 1,
-      "time": 1640025756,
-      "title": "Ukraine blames Germany for ‘blocking’ NATO weapons supply",
-      "type": "story",
-      "url": "https://www.ft.com/content/1336c9be-f1c9-4545-9f85-3b07fcb746d6"
-    },
-    {
-      "by": "mixedbit",
-      "descendants": 0,
-      "id": 29628258,
-      "score": 1,
-      "time": 1640025496,
-      "title": "How to create an online 3D gallery",
-      "type": "story",
-      "url": "https://medium.com/@shapespark/how-to-create-an-online-3d-gallery-ae624fd90adc"
     }
   ]
 }
