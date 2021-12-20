@@ -1,6 +1,56 @@
 {
   "stories": [
     {
+      "by": "boplicity",
+      "descendants": 0,
+      "id": 29624737,
+      "score": 1,
+      "time": 1640007263,
+      "title": "China Wants “Universal Suffrage” for Hong Kong After Sham Election's Low Turnout",
+      "type": "story",
+      "url": "https://www.scmp.com/news/hong-kong/politics/article/3160358/democracy-hong-kong-characteristics-best-model-citys-future"
+    },
+    {
+      "by": "bryanrasmussen",
+      "descendants": 0,
+      "id": 29624732,
+      "score": 1,
+      "time": 1640007236,
+      "title": "Ants Do Trigonometry: A Problem for Darwinism",
+      "type": "story",
+      "url": "https://evolutionnews.org/2021/11/ants-do-trigonometry-a-problem-for-darwinism/"
+    },
+    {
+      "by": "klowin",
+      "descendants": 0,
+      "id": 29624728,
+      "score": 1,
+      "time": 1640007227,
+      "title": "Folders: A text-free language encoded into the file system (2015)",
+      "type": "story",
+      "url": "https://danieltemkin.com/Esolangs/Folders/"
+    },
+    {
+      "by": "CapitalistCartr",
+      "descendants": 0,
+      "id": 29624722,
+      "score": 1,
+      "time": 1640007186,
+      "title": "Susceptible to fraud: Why it makes sense to regulate charitable crowdfunding",
+      "type": "story",
+      "url": "https://theconversation.com/convenient-but-susceptible-to-fraud-why-it-makes-sense-to-regulate-charitable-crowdfunding-172029"
+    },
+    {
+      "by": "yeahman",
+      "descendants": 0,
+      "id": 29624692,
+      "score": 1,
+      "text": "Hi,<p>We are 3 people (2 developers + 1 trader) who are making trading tools intended to trade our own capital.<p>So far we have a desktop application which is a UI for the trader to interact with. And a modular monolith for the backend with MongoDb as a database. We also have a number of jobs that need to be run on the regular (mostly to keep required data up to date in mongo). All the source is in C#.<p>We only have a local environment. We want to expand to have a development and a production environment. What is the best way to do this?<p>We have some CI, but how do we do CD? Where should we run the backend? How do we deploy the UI to the traders desktop?<p>We want to keep the costs low and we got burned by an unexpected bill when trying to run this on Azure (which Microsoft luckily waived). We considered having a script which the trader runs which will essentially do a git pull and then run the build and run scripts. But that way we lose control over the backend.<p>Any suggestions welcome,<p>Thanks",
+      "time": 1640007019,
+      "title": "Ask HN: Advice for running a trading side project",
+      "type": "story"
+    },
+    {
       "by": "sdiq",
       "descendants": 0,
       "id": 29624681,
@@ -32,8 +82,11 @@
     },
     {
       "by": "Schroedingers2c",
-      "descendants": 0,
+      "descendants": 1,
       "id": 29624652,
+      "kids": [
+        29624733
+      ],
       "score": 2,
       "text": "And has that changed over the years? If so, how and for which reasons?",
       "time": 1640006732,
@@ -44,64 +97,11 @@
       "by": "whalesalad",
       "descendants": 0,
       "id": 29624646,
-      "score": 1,
+      "score": 2,
       "time": 1640006705,
       "title": "Homebuilt pickups: How underage teens skirt the law to drive in Sweden",
       "type": "story",
       "url": "https://www.hemmings.com/stories/2016/07/05/homebuilt-pickups-and-trailer-hitches-how-underage-teens-skirt-the-law-to-drive-in-sweden"
-    },
-    {
-      "by": "Pyppe",
-      "descendants": 0,
-      "id": 29624638,
-      "score": 2,
-      "time": 1640006651,
-      "title": "Turning a static Next.js website into editable CMS",
-      "type": "story",
-      "url": "https://www.pyppe.fi/blog/2021/12/turning-static-next.js-website-into-editable-cms"
-    },
-    {
-      "by": "Bgatova",
-      "descendants": 0,
-      "id": 29624577,
-      "score": 1,
-      "text": "Now my team and I are creating a wellness app and looking for ways to have low or even free CPA (cost per acquisition). Is it possible currently?",
-      "time": 1640006274,
-      "title": "What are the best marketing hacks you know for apps?",
-      "type": "story"
-    },
-    {
-      "by": "andris9",
-      "descendants": 0,
-      "id": 29624573,
-      "score": 1,
-      "time": 1640006259,
-      "title": "Setting Up Gmail OAuth for IMAP and SMTP with EmailEngine",
-      "type": "story",
-      "url": "https://docs.emailengine.app/setting-up-gmail-oauth2-for-imap-api/"
-    },
-    {
-      "by": "top_sigrid",
-      "descendants": 1,
-      "id": 29624554,
-      "kids": [
-        29624555
-      ],
-      "score": 1,
-      "time": 1640006179,
-      "title": "OneZoom Tree of Life – Exploring evolutionary history for all life on Earth",
-      "type": "story",
-      "url": "https://www.onezoom.org/life/@biota=93302"
-    },
-    {
-      "by": "mpweiher",
-      "descendants": 0,
-      "id": 29624551,
-      "score": 1,
-      "time": 1640006165,
-      "title": "Why Is It Getting Harder to Apply Software Architecture?",
-      "type": "story",
-      "url": "https://www.computer.org/csdl/magazine/so/2021/04/09461037/1uCdDdrewzC"
     }
   ]
 }
