@@ -1,6 +1,16 @@
 {
   "stories": [
     {
+      "by": "1cvmask",
+      "descendants": 0,
+      "id": 29622697,
+      "score": 1,
+      "time": 1639990945,
+      "title": "Stalin Elevated the Chinese Communist Party to Power in Xinjiang in 1949",
+      "type": "story",
+      "url": "https://www.wilsoncenter.org/blog-post/how-stalin-elevated-the-chinese-communist-party-to-power-xinjiang-1949"
+    },
+    {
       "by": "loige",
       "descendants": 0,
       "id": 29622666,
@@ -32,9 +42,12 @@
     },
     {
       "by": "shetill",
-      "descendants": 0,
+      "descendants": 1,
       "id": 29622631,
-      "score": 2,
+      "kids": [
+        29622703
+      ],
+      "score": 3,
       "text": "There so many standard tools, workflows and cloud techs out there that custom code is becoming more and more useless. All these tools are usually open source, well tested and reliable so unlikely you will write anything custom that’s better than them.<p>You need some data engineering and analytics? → Databricks. You need some APIs → API Gateway. Mobile apps? → Firebase. Deploying applications and CI&#x2F;CD? Configure Git and have your apps build with a configured Jenkins to then have it all deployed by a configured Ansible&#x2F;Terraform onto a configured Kubernetes Cluster. Assuming you don’t use some cloud tool that does it all like Azure DevOps. Need monitoring and logs? → Graphana, Prometheus, ElasticSearch. Need backend services? → go serverless use Lambdas. Need workflows? → Airflow and your DAGs in Yaml hook it up with Redis and you got it. \nYou get the point. If you ever need to write code at this point it’s probably some glue code just to hook it all together.<p>I know some of you will say they have some special custom app with very custom logic that is so unique that can only be done in code. Honestly chances are it’s already a solved problem by a standard tool out there and your team leads are simply unaware of it or don’t have the skills to operate those tools.<p>I’m a backend dev and still write code but a lot of my time goes into configuring some of those tools and more and more of the code is being migrated into them.<p>In 10 years are we all going to be some sort of devops yaml configurers?",
       "time": 1639989970,
       "title": "Ask HN: Does modern software development need any coding?",
@@ -44,7 +57,7 @@
       "by": "stevefan1999",
       "descendants": 0,
       "id": 29622620,
-      "score": 1,
+      "score": 2,
       "time": 1639989770,
       "title": "The certificate of jsdelivr is hijacked in China and is inaccessible",
       "type": "story",
@@ -92,16 +105,6 @@
       "title": "Family Minister Spiegel: Paid leave after birth (Germany)",
       "type": "story",
       "url": "https://www.tellerreport.com/business/2021-12-20-family-minister-s-plans--paid-leave-for-fathers-after-birth.rJOsTPaqF.html"
-    },
-    {
-      "by": "lycopodiopsida",
-      "descendants": 0,
-      "id": 29622494,
-      "score": 2,
-      "time": 1639988162,
-      "title": "Reflecting on Wasted Effort",
-      "type": "story",
-      "url": "https://sachachua.com/blog/2021/12/reflecting-on-wasted-effort/"
     }
   ]
 }
