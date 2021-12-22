@@ -1,6 +1,76 @@
 {
   "stories": [
     {
+      "by": "Zealotux",
+      "descendants": 0,
+      "id": 29653938,
+      "score": 1,
+      "text": "2020: https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=25537230<p>2019: https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=21858866<p>2018: https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=18740939<p>2017: https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=16045859<p>2016: https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=12637239<p>Wishing everyone Happy New Year!",
+      "time": 1640201600,
+      "title": "Ask HN: Best Talks of 2021?",
+      "type": "story"
+    },
+    {
+      "by": "kyle_morris_",
+      "descendants": 0,
+      "id": 29653925,
+      "score": 4,
+      "time": 1640201539,
+      "title": "South Africa’s omicron wave appears to be subsiding just as quickly as it grew",
+      "type": "story",
+      "url": "https://www.washingtonpost.com/world/2021/12/22/south-africa-omicron-coronavirus-cases/"
+    },
+    {
+      "by": "infodocket",
+      "descendants": 0,
+      "id": 29653916,
+      "score": 1,
+      "time": 1640201498,
+      "title": "Regulation of Cryptocurrency Around the World [pdf]",
+      "type": "story",
+      "url": "https://tile.loc.gov/storage-services/service/ll/llglrd/2021687419/2021687419.pdf"
+    },
+    {
+      "by": "feross",
+      "descendants": 0,
+      "id": 29653913,
+      "score": 1,
+      "time": 1640201477,
+      "title": "Addendum to Luvox Post",
+      "type": "story",
+      "url": "https://astralcodexten.substack.com/p/addendum-to-luvox-post"
+    },
+    {
+      "by": "LinuxBender",
+      "descendants": 0,
+      "id": 29653909,
+      "score": 1,
+      "time": 1640201429,
+      "title": "Apache HTTPD 2.4.52 released: Changelog",
+      "type": "story",
+      "url": "https://downloads.apache.org/httpd/CHANGES_2.4.52"
+    },
+    {
+      "by": "ctoth",
+      "descendants": 0,
+      "id": 29653905,
+      "score": 1,
+      "time": 1640201413,
+      "title": "Burn the Programmer!",
+      "type": "story",
+      "url": "http://www.antipope.org/charlie/blog-static/2017/11/burn-the-programmer.html"
+    },
+    {
+      "by": "exabrial",
+      "descendants": 0,
+      "id": 29653903,
+      "score": 1,
+      "text": "We woke up to a very strange email from Google:<p>&gt; Dear Customer,\nWe have indications that your project Active Directory (id: xyzxyzxyz) might have been compromised by the Apache “Log4j 2” vulnerability<p>These servers do not run Java. I checked they don&#x27;t have a JVM installed. Some of them do handle encrypted LDAP requests. I replied to Google and ask for clarification on their cryptic email but did not get a response.<p>Anyone else get these?",
+      "time": 1640201399,
+      "title": "Ask HN: Did you get a strange warning from Google GCP about Log4j?",
+      "type": "story"
+    },
+    {
       "by": "tosh",
       "descendants": 0,
       "id": 29653896,
@@ -14,6 +84,9 @@
       "by": "adrian_mrd",
       "descendants": 0,
       "id": 29653862,
+      "kids": [
+        29653902
+      ],
       "score": 1,
       "time": 1640201176,
       "title": "James Webb Space Telescope finally set to launch on its mission",
@@ -24,87 +97,14 @@
       "by": "VieEnCode",
       "descendants": 0,
       "id": 29653850,
+      "kids": [
+        29653904
+      ],
       "score": 1,
       "time": 1640201129,
       "title": "Luxury homes, short lets and shacks: inside Lisbon’s housing crisis",
       "type": "story",
       "url": "https://www.theguardian.com/world/2021/dec/22/luxury-homes-short-lets-and-shacks-inside-lisbons-housing-crisis"
-    },
-    {
-      "by": "Decabytes",
-      "descendants": 0,
-      "id": 29653841,
-      "score": 1,
-      "time": 1640201088,
-      "title": "Sqlite3 being considered for persistent data in Emacs",
-      "type": "story",
-      "url": "https://lists.gnu.org/archive/html/emacs-devel/2021-12/msg00463.html"
-    },
-    {
-      "by": "the_black_hand",
-      "descendants": 0,
-      "id": 29653772,
-      "score": 1,
-      "time": 1640200690,
-      "title": "Show HN: Options Trading with NFTs on Solana",
-      "type": "story",
-      "url": "https://www.npmjs.com/package/solana-options"
-    },
-    {
-      "by": "andrewnc",
-      "descendants": 1,
-      "id": 29653765,
-      "kids": [
-        29653782
-      ],
-      "score": 1,
-      "time": 1640200659,
-      "title": "Ask HN: What are your book recommendations on drawing or animation software?",
-      "type": "story"
-    },
-    {
-      "by": "ctoth",
-      "descendants": 0,
-      "id": 29653757,
-      "score": 1,
-      "text": "So I&#x27;ve been getting into SDR and really enjoying it. My biggest problem so far is trying to rig up some sort of accessible waterfall display to help me find interesting signals since I&#x27;m blind and the typical software is deeply inaccessible. I think I&#x27;ve managed something using the rtl_power program and a Python script but that&#x27;s a discussion for another day.<p>What is the best hardware to purchase that&#x27;s a step above the RTL2832U USB stick which should have both greater bandwidth and transmit capabilities for under $500?<p>So far I have seen the HackRF One, but according to my research this is built on a fairly ancient DSP platform and there&#x27;s more modern stuff out there.<p>I&#x27;d prefer SoapySDR compatibility as that seems to be slowly becoming the standard library for accessing SDR hardware.<p>I&#x27;m not averse to ordering from aliexpress.<p>I&#x27;m actively working towards my  amateur radio license and would love to be able to use my computer for both sending and receiving interesting digital signals and also chatting with the old farts using FM voice.<p>Thank you for your suggestions.",
-      "time": 1640200635,
-      "title": "Ask HN: SDR that's a step above the RTL2832U?",
-      "type": "story"
-    },
-    {
-      "by": "danielam",
-      "descendants": 0,
-      "id": 29653752,
-      "score": 1,
-      "time": 1640200622,
-      "title": "US Army close to developing vaccine against all Covid variants and coronaviruses",
-      "type": "story",
-      "url": "https://www.independent.co.uk/news/world/americas/covid-vaccine-omicron-variants-us-army-b1980687.html"
-    },
-    {
-      "by": "cebert",
-      "descendants": 0,
-      "id": 29653737,
-      "score": 1,
-      "text": "As many firms with physical offices begin to implement return to office plans, what is your ideal working arrangement? Several of us have gotten their first experience the past two years as a remote employee. What would your ideal working arrangement be? Are you planning to go back to the office in a hybrid or full-time setting in the future?",
-      "time": 1640200545,
-      "title": "Ask HN: What is your ideal working arrangment?",
-      "type": "story"
-    },
-    {
-      "by": "deepak_sozial",
-      "descendants": 2,
-      "id": 29653735,
-      "kids": [
-        29653736,
-        29653787
-      ],
-      "score": 2,
-      "time": 1640200539,
-      "title": "Heroku is closing accounts with Indian Credit Cards",
-      "type": "story",
-      "url": "https://devcenter.heroku.com/changelog-items/2305"
     }
   ]
 }
