@@ -1,6 +1,66 @@
 {
   "stories": [
     {
+      "by": "FreeHugs",
+      "descendants": 0,
+      "id": 29648076,
+      "score": 1,
+      "text": "I have been trying to find freelancers for various tasks on fiverr for a few days now and it seems hopeless. I wonder if the whole platform is just fake.<p>The profiles and gigs all look like they are done by skilled people with hilariously bad English. Ok, maybe that is a thing. Virtual assistants, programmers etc who have expertise in their area but are not well versed in English? Maybe.<p>But as soon as I start communicating with them, everything breaks down. When I send them a long job description with details and questions, I get back a oneliner like:<p>&quot;Yes sir, can do!&quot;<p>And when I reply:<p>&quot;So how do we go about it? Have you looked through the documents? How would be start?&quot;.<p>I get something like:<p>&quot;I can do for $10!&quot;.<p>:)<p>What is going on?<p>How do you find real freelancers on the web?",
+      "time": 1640173765,
+      "title": "Ask HN: Have you ever found a capable freelancer on Fiverr?",
+      "type": "story"
+    },
+    {
+      "by": "JumpCrisscross",
+      "descendants": 0,
+      "id": 29648072,
+      "score": 1,
+      "time": 1640173716,
+      "title": "Polish opposition duo hacked with NSO spyware",
+      "type": "story",
+      "url": "https://apnews.com/article/technology-business-poland-hacking-warsaw-8b52e16d1af60f9c324cf9f5099b687e"
+    },
+    {
+      "by": "igammarays",
+      "descendants": 0,
+      "id": 29648068,
+      "score": 1,
+      "text": "As a solo bootstrapper, I wonder if hosting my own server on a beefed-up home internet connection and static IP-address might actually save me money and time in the long run. My app is Postgres-intensive, lots of external API calls, and some headless Chrome browser scraping.<p>- Having my server next to me is fun.<p>- I can buy dedicated hardware for the price of a 5 months of hosting on the cloud providers. A one-time investment of $1000 will buy me a 16 GB Mac Mini M1. Equivalent hardware would cost $200&#x2F;month on DigitalOcean with backups, and yet still wouldn&#x27;t have the same CPU performance as Apple Silicon.<p>- With the ability to connect a monitor and debug production workloads in more intimate detail, I might be able to optimize Postgres and the rest of my stack to really push the limits of performance. Instead of scaling horizontally, I can scale vertically, probably forever (my startup is unlikely to ever handle millions of reqs&#x2F;second or a petabyte of data).<p>- My service is non realtime. A few hours of downtime here and there won&#x27;t hurt. It&#x27;s a cron-job service which just needs to run &quot;eventually&quot; within a day.<p>- Since my service is heavily reliant on external APIs, I can maximize outgoing network redundancy with Speedify or other connection multiplier (over LTE, VPNs, etc.)<p>Main questions:<p>- How do I achieve redundancy on incoming requests with only 1 static IP address? Outgoing network is easy to multiplex with an LTE backup, etc., but I don&#x27;t know how to build redundancy for incoming requests.<p>- What else should I look for?",
+      "time": 1640173678,
+      "title": "Ask HN: Any bootstrappers hosting their own server from home?",
+      "type": "story"
+    },
+    {
+      "by": "jhylands",
+      "descendants": 0,
+      "id": 29648065,
+      "score": 1,
+      "time": 1640173661,
+      "title": "Bash: Looping over Find",
+      "type": "story",
+      "url": "https://askubuntu.com/questions/343727/filenames-with-spaces-breaking-for-loop-find-command/499240#499240"
+    },
+    {
+      "by": "cynthiabrewer",
+      "descendants": 0,
+      "id": 29648060,
+      "score": 1,
+      "time": 1640173626,
+      "title": "Buy Google Reviews – 100% secure and permanent 5-star",
+      "type": "story",
+      "url": "https://buyusasmm.com/product/buy-google-reviews/"
+    },
+    {
+      "by": "krigath",
+      "descendants": 0,
+      "id": 29648048,
+      "score": 1,
+      "time": 1640173514,
+      "title": "Is HTTP 451 suitable for GDPR blocking? (2018)",
+      "type": "story",
+      "url": "https://shkspr.mobi/blog/2018/06/is-http-451-suitable-for-gdpr-blocking/"
+    },
+    {
       "by": "krigath",
       "descendants": 0,
       "id": 29648046,
@@ -39,69 +99,6 @@
       "title": "0805 surface mount pyrotechnic igniters",
       "type": "story",
       "url": "https://twitter.com/TubeTimeUS/status/1473453350406418434"
-    },
-    {
-      "by": "koolba",
-      "descendants": 0,
-      "id": 29647976,
-      "score": 1,
-      "time": 1640172901,
-      "title": "Israel begins fourth Covid-19 dose vaccine for people 60+ as Omicron surges",
-      "type": "story",
-      "url": "https://www.cnn.com/2021/12/21/middleeast/israel-fourth-covid-vaccine-booster-intl/index.html"
-    },
-    {
-      "by": "niros_valtos",
-      "descendants": 0,
-      "id": 29647969,
-      "score": 3,
-      "time": 1640172837,
-      "title": "Two Active Directory Bugs Lead to Easy Windows Domain Takeover",
-      "type": "story",
-      "url": "https://threatpost.com/active-directory-bugs-windows-domain-takeover/177185/"
-    },
-    {
-      "by": "bruno-miguel",
-      "descendants": 0,
-      "id": 29647962,
-      "score": 2,
-      "time": 1640172743,
-      "title": "Fosshost's Year-End Update",
-      "type": "story",
-      "url": "https://fosshost.org/news/2021-year-end-update"
-    },
-    {
-      "by": "Amorymeltzer",
-      "descendants": 0,
-      "id": 29647953,
-      "score": 1,
-      "time": 1640172650,
-      "title": "The Photonic Age",
-      "type": "story",
-      "url": "https://kk.org/"
-    },
-    {
-      "by": "throwaway81523",
-      "descendants": 1,
-      "id": 29647941,
-      "kids": [
-        29648000
-      ],
-      "score": 1,
-      "time": 1640172519,
-      "title": "What Are Droplets and Aerosols and How Far Do They Go? Historical Perspective",
-      "type": "story",
-      "url": "https://royalsocietypublishing.org/doi/10.1098/rsfs.2021.0049"
-    },
-    {
-      "by": "pseudolus",
-      "descendants": 0,
-      "id": 29647936,
-      "score": 1,
-      "time": 1640172502,
-      "title": "Starlink's Speeds Are Declining in US, Ookla Finds",
-      "type": "story",
-      "url": "https://www.pcmag.com/news/starlinks-speeds-are-declining-in-us-ookla-finds"
     }
   ]
 }
