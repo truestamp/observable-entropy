@@ -1,6 +1,66 @@
 {
   "stories": [
     {
+      "by": "spekcular",
+      "descendants": 0,
+      "id": 29652687,
+      "score": 1,
+      "time": 1640195380,
+      "title": "Generalized Parser Combinators [pdf]",
+      "type": "story",
+      "url": "http://dinhe.net/~aredridel/.notmine/PDFs/Parsing/SPIEWAK,%20Daniel%20(2010)%20-%20Generalized%20Parser%20Combinators.pdf"
+    },
+    {
+      "by": "lordentropy",
+      "descendants": 0,
+      "id": 29652677,
+      "score": 1,
+      "time": 1640195347,
+      "title": "China disciplines Alibaba Cloud for not reporting Log4j bug immediately",
+      "type": "story",
+      "url": "https://www.scmp.com/tech/big-tech/article/3160670/apache-log4j-bug-chinas-industry-ministry-pulls-support-alibaba-cloud"
+    },
+    {
+      "by": "feross",
+      "descendants": 0,
+      "id": 29652671,
+      "score": 1,
+      "time": 1640195303,
+      "title": "Wall Street Is No Fun Anymore",
+      "type": "story",
+      "url": "https://www.bloomberg.com/opinion/articles/2021-12-22/wall-street-is-no-fun-anymore"
+    },
+    {
+      "by": "davikrr",
+      "descendants": 0,
+      "id": 29652670,
+      "score": 1,
+      "time": 1640195294,
+      "title": "Cyclone is a safe dialect of C",
+      "type": "story",
+      "url": "http://cyclone.thelanguage.org/"
+    },
+    {
+      "by": "lifeisstillgood",
+      "descendants": 0,
+      "id": 29652665,
+      "score": 1,
+      "time": 1640195266,
+      "title": "Software Engineering at Google – O'Reilly PDF",
+      "type": "story",
+      "url": "https://abseil.io/resources/swe_at_google.2.pdf"
+    },
+    {
+      "by": "gvb",
+      "descendants": 0,
+      "id": 29652655,
+      "score": 1,
+      "time": 1640195225,
+      "title": "No, 73% of US Covid-19 cases aren’t Omicron yet: how the press got it wrong",
+      "type": "story",
+      "url": "https://theprepared.com/blog/73-of-covid-cases-arent-omicron-yet/"
+    },
+    {
       "by": "dshipper",
       "descendants": 0,
       "id": 29652606,
@@ -12,8 +72,11 @@
     },
     {
       "by": "stevenhubertron",
-      "descendants": 0,
+      "descendants": 1,
       "id": 29652588,
+      "kids": [
+        29652686
+      ],
       "score": 1,
       "text": "I have been using handlebars for years now for small production projects. For example a single page of digital signage displaying the output of a JSON endpoint. It&#x27;s been great for that but I feel like I may want to experiment with something new that can optimize my images at build time, gzip etc... What else out there these days can be used for this purpose? React&#x2F;Next is overkill and to be frank not my skillset.",
       "time": 1640194931,
@@ -24,7 +87,7 @@
       "by": "jaredwiener",
       "descendants": 0,
       "id": 29652563,
-      "score": 1,
+      "score": 2,
       "time": 1640194841,
       "title": "NYC Subway countdown clocks down because of AWS outage",
       "type": "story",
@@ -39,66 +102,6 @@
       "title": "SK Hynix to Manufacture 48 GiB and 96 GiB DDR5 Modules",
       "type": "story",
       "url": "https://www.anandtech.com/show/17117/sk-hynix-to-manufacture-48-gib-and-96-gib-ddr5-modules"
-    },
-    {
-      "by": "sizzle",
-      "descendants": 0,
-      "id": 29652533,
-      "score": 1,
-      "time": 1640194710,
-      "title": "Home Router Might Be Intercepting Your Internet Traffic for Good Reason",
-      "type": "story",
-      "url": "https://ucsdnews.ucsd.edu/pressrelease/the-router-in-your-home-might-be-intercepting-some-of-your-internet-traffic-but-it-may-be-for-your"
-    },
-    {
-      "by": "ksec",
-      "descendants": 0,
-      "id": 29652512,
-      "score": 1,
-      "time": 1640194646,
-      "title": "Are we past peak “woke”?",
-      "type": "story",
-      "url": "https://world.hey.com/dhh/are-we-past-peak-woke-c313b7d1"
-    },
-    {
-      "by": "sizzle",
-      "descendants": 0,
-      "id": 29652498,
-      "score": 1,
-      "time": 1640194579,
-      "title": "Drone Wars: US, China Fight over Big Data Shifts from TikTok, WeChat to the Sky",
-      "type": "story",
-      "url": "https://www.bloomberg.com/news/articles/2021-12-19/drone-wars-us-china-fight-over-big-data-shifts-from-tiktok-wechat-to-the-sky"
-    },
-    {
-      "by": "nith3n",
-      "descendants": 0,
-      "id": 29652491,
-      "score": 2,
-      "time": 1640194555,
-      "title": "The Persecution of India's Christians",
-      "type": "story",
-      "url": "https://www.nytimes.com/2021/12/22/world/asia/india-christians-attacked.html"
-    },
-    {
-      "by": "Kyrio",
-      "descendants": 0,
-      "id": 29652489,
-      "score": 1,
-      "text": "It might come down to taste, but I feel like a lot of the &quot;features&quot; Twitch has been adding have cluttered the interface while offering little of value for someone like me who just watches streams occasionally and isn&#x27;t closely involved in community events.<p>But most importantly, I&#x27;m bothered by the non-dismissable popups that now appear over the video feed. They seem to be for extensions, but what features they provide evades me.<p>These two uBlock Origin rules (which you can add in the My Filters tab) will remove the main two modals that can pop up over the video:<p><pre><code>  www.twitch.tv##.extensions-dock-card\n  ext-twitch.tv##.prime-extension-root\n</code></pre>\nAdditionally, you may want to get back a chat frame without a leaderboard header:<p><pre><code>  www.twitch.tv##.channel-leaderboard\n</code></pre>\nTwitch generates random class names, possibly to prevent your blocking some elements, so I tried to find the topmost classes. I hope that&#x27;s useful to some.",
-      "time": 1640194549,
-      "title": "Show HN: Two uBlock Origin rules to improve your Twitch experience",
-      "type": "story"
-    },
-    {
-      "by": "andy_herbert",
-      "descendants": 0,
-      "id": 29652474,
-      "score": 1,
-      "time": 1640194488,
-      "title": "Show HN: Pipe stdin to a ANSI.SYS simulated display",
-      "type": "story",
-      "url": "https://github.com/andyherbert/ansiterm"
     }
   ]
 }
