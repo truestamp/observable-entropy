@@ -14,7 +14,7 @@
       "by": "godfreyho",
       "descendants": 0,
       "id": 29645269,
-      "score": 1,
+      "score": 2,
       "text": "I have made a web system that first sold to one customer. The system were built purely based on that customer’s requirements. After that, more and more customers are interested, and they also paid for it.Each customer has their own copy of the system and db, hosted on their machine or VM. Most of the functions are the same for all customers. However, each customer has slightly different requirements and logics. For example, customer B wants to check additional parameters when the users click the submit button, but not other customers.<p>Now my problem is, how can I manage the project version, as most of the functions and codes are the same, and some bug fixes and improvements should be applied to all customers, while individual customer may have their logic, requirement and improvement.<p>I tired made multiple projects, but applying improvements and bug fixes need duplicate efforts. I also tried manage it in one code base, but the logics become very big and complex to meet individual customer’s needs.\nI am now using Git and each customer has its own branch of code, but still applying bug fixes is a headache. I would like to ask is there any good and better approach? Thank you.",
       "time": 1640143469,
       "title": "Ask HN: How to manage a project that is deployed to multiple customers?",
@@ -42,8 +42,11 @@
     },
     {
       "by": "pkdpic",
-      "descendants": 0,
+      "descendants": 1,
       "id": 29645239,
+      "kids": [
+        29645274
+      ],
       "score": 1,
       "time": 1640143185,
       "title": "Ask HN: Best Way to 3D Scan?",
