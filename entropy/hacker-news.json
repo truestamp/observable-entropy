@@ -1,6 +1,26 @@
 {
   "stories": [
     {
+      "by": "Abishek_Muthian",
+      "descendants": 0,
+      "id": 29657782,
+      "score": 1,
+      "time": 1640224172,
+      "title": "TikTok surpassed Google as most popular site in 2021",
+      "type": "story",
+      "url": "https://www.axios.com/tiktok-surpassed-google-traffic-2021-05bdbe31-b559-4479-b7c8-6df560d2c00e.html"
+    },
+    {
+      "by": "sohkamyung",
+      "descendants": 0,
+      "id": 29657765,
+      "score": 1,
+      "time": 1640223984,
+      "title": "New Horizons's the PI’s Perspective: Looking Back, Looking Forward",
+      "type": "story",
+      "url": "http://pluto.jhuapl.edu/News-Center/PI-Perspectives.php?page=piPerspective_12_17_2021"
+    },
+    {
       "by": "sohkamyung",
       "descendants": 0,
       "id": 29657727,
@@ -79,29 +99,6 @@
       "title": "Escaping the Promotion Trap",
       "type": "story",
       "url": "https://www.productlessons.xyz//article/looking-good-vs-getting-good"
-    },
-    {
-      "by": "chandy_alex",
-      "descendants": 0,
-      "id": 29657617,
-      "score": 2,
-      "time": 1640222217,
-      "title": "Stanford engineers create perching bird-like robot",
-      "type": "story",
-      "url": "https://news.stanford.edu/2021/12/01/bird-like-robot-perches-grasps/"
-    },
-    {
-      "by": "houseinthewoods",
-      "descendants": 1,
-      "id": 29657599,
-      "kids": [
-        29657627
-      ],
-      "score": 2,
-      "text": "TLDR if you don&#x27;t want to stick around for my ramble: if you have experience inspecting JSON logs, what&#x27;s your workflow?<p>I&#x27;m working on a project of a very small scale where monitoring is important. I&#x27;m biased to just stick with text files and SSH rather than log software (such as ELK stack or Grafana Loki), so as to not have to learn&#x2F;install&#x2F;maintain a heavy tool for my toy needs. I&#x27;m also biased towards JSON as a format because I learned programming too late in life to be a Unixy regexy text wizard, though I admire people of that ilk from afar.<p>For improvised analysis, I&#x27;m using jq on the terminal. For less flexible human-readable text summaries, I wrote a Deno script. Ergonomically, jq on the terminal feels lacking. Whoever made jq is doing God&#x27;s work, to be clear, but I could possibly use a more intuitive language (with an emphasis on more tersely expressing groupings&#x2F;filters). And independently of using jq or not, the terminal is slow and ephemeral: I would love something sort of like the Acme text editor (where you can build yourself an interface on the fly with text), but without the three-button mouse dependency. Right now I just keep a cheatsheet of jq commands that have been useful. I&#x27;ve been daydreaming about making a local webapp to fulfill this need (that just eval()s Javascript, since it would only ever be local).",
-      "time": 1640222111,
-      "title": "Ask HN: How do you inspect JSON logs?",
-      "type": "story"
     }
   ]
 }
