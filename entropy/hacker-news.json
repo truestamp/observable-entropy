@@ -1,9 +1,22 @@
 {
   "stories": [
     {
-      "by": "vanusa",
+      "by": "johnnyApplePRNG",
       "descendants": 0,
+      "id": 29669354,
+      "score": 1,
+      "text": "I am attempting to create an poker tournament software and I am getting hung up on how exactly to keep track of hands, dealer&#x2F;action position, tables, and tournaments.<p>In my eyes there are three things that need to be tracked.<p>Hands, which are a subset of Tables, which are a subset or Tournaments.<p>I&#x27;ve created the idea of a *<i>tournament_registration*</i> table that simply stores the *<i>account_id*</i> of the eager player and the *<i>tournament_size*</i> of the size of tournament they&#x27;re after.<p>Whenever a new *<i>account_id*</i> is added to the *<i>tournament_registration*</i> table for a certain *<i>tournament_size*</i>, I query the table after the insert to determine if enough players have registered for a certain tournament size.<p>That setup seems fairly optimal.<p>But when it comes to seating players at a table... I am confusing myself (probably overthinking this) as to how exactly to keep track of hand progression at each table.<p>Any help&#x2F;direction would be greatly appreciated.<p>Cheers!<p>I did try researching this of course, but any search for &quot;poker database best practices&quot; only turns up countless poker tracking softwares.<p>And unfortunately not many private poker websites talk at length about their setups.",
+      "time": 1640313193,
+      "title": "Ask HN: How would you keep track of a live poker tournament's state?",
+      "type": "story"
+    },
+    {
+      "by": "vanusa",
+      "descendants": 1,
       "id": 29669340,
+      "kids": [
+        29669353
+      ],
       "score": 1,
       "time": 1640312970,
       "title": "The Absurdity of Renting a Car Will No Longer Be Tolerated",
@@ -24,7 +37,7 @@
       "by": "throwaway2474",
       "descendants": 0,
       "id": 29669290,
-      "score": 1,
+      "score": 3,
       "text": "I live in a part of the world where we haven’t had much Covid. At this point though Omicron seems to be evading vaccines and spreading rapidly.<p>I’m struggling to decide whether to treat it as something mild that I’m definitely going to get, or something really bad that I should be taking strong precautions against. Reading news isn’t overly helpful as it only shows extreme cases&#x2F;views.<p>Have you had Covid, and what was your experience like?",
       "time": 1640312589,
       "title": "Ask HN: Have you had Covid? How bad was it?",
@@ -95,16 +108,6 @@
       "title": "Droplet Dogma's Role in Misidentification of Airborne Infection Transmission",
       "type": "story",
       "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3904176"
-    },
-    {
-      "by": "enigmatic02",
-      "descendants": 0,
-      "id": 29669225,
-      "score": 2,
-      "time": 1640311989,
-      "title": "Kanye Story",
-      "type": "story",
-      "url": "https://thekanyestory.com"
     }
   ]
 }
