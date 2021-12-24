@@ -1,10 +1,23 @@
 {
   "stories": [
     {
+      "by": "walterbell",
+      "descendants": 1,
+      "id": 29669580,
+      "kids": [
+        29669596
+      ],
+      "score": 1,
+      "time": 1640315112,
+      "title": "The Risk of Vaccinated Covid Transmission Is Not Low",
+      "type": "story",
+      "url": "https://www.scientificamerican.com/article/the-risk-of-vaccinated-covid-transmission-is-not-low/"
+    },
+    {
       "by": "techolic",
       "descendants": 0,
       "id": 29669567,
-      "score": 1,
+      "score": 2,
       "time": 1640314996,
       "title": "Sneakernet",
       "type": "story",
@@ -74,7 +87,7 @@
       "by": "belated_tech",
       "descendants": 0,
       "id": 29669427,
-      "score": 1,
+      "score": 2,
       "time": 1640313827,
       "title": "Apple Media Services and Apple Platforms’ Locale Problem – A Tip and Its Iceberg",
       "type": "story",
@@ -82,7 +95,7 @@
     },
     {
       "by": "belter",
-      "descendants": 2,
+      "descendants": 3,
       "id": 29669418,
       "kids": [
         29669501,
@@ -93,20 +106,6 @@
       "title": "29 Days on the Edge",
       "type": "story",
       "url": "https://www.youtube.com/watch?v=uUAvXYW5bmI"
-    },
-    {
-      "by": "johnnyApplePRNG",
-      "descendants": 1,
-      "id": 29669354,
-      "kids": [
-        29669455,
-        29669368
-      ],
-      "score": 2,
-      "text": "I am attempting to create an poker tournament software and I am getting hung up on how exactly to keep track of hands, dealer&#x2F;action position, tables, and tournaments.<p>In my eyes there are three things that need to be tracked.<p>Hands, which are a subset of Tables, which are a subset or Tournaments.<p>I&#x27;ve created the idea of a *<i>tournament_registration*</i> table that simply stores the *<i>account_id*</i> of the eager player and the *<i>tournament_size*</i> of the size of tournament they&#x27;re after.<p>Whenever a new *<i>account_id*</i> is added to the *<i>tournament_registration*</i> table for a certain *<i>tournament_size*</i>, I query the table after the insert to determine if enough players have registered for a certain tournament size.<p>That setup seems fairly optimal.<p>But when it comes to seating players at a table... I am confusing myself (probably overthinking this) as to how exactly to keep track of hand progression at each table.<p>Any help&#x2F;direction would be greatly appreciated.<p>Cheers!<p>I did try researching this of course, but any search for &quot;poker database best practices&quot; only turns up countless poker tracking softwares.<p>And unfortunately not many private poker websites talk at length about their setups.",
-      "time": 1640313193,
-      "title": "Ask HN: How would you keep track of a live poker tournament's state?",
-      "type": "story"
     }
   ]
 }
