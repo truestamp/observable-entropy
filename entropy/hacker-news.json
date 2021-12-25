@@ -1,6 +1,36 @@
 {
   "stories": [
     {
+      "by": "galfarragem",
+      "descendants": 0,
+      "id": 29681915,
+      "score": 1,
+      "time": 1640426339,
+      "title": "The importance of price signals",
+      "type": "story",
+      "url": "https://www.lynalden.com/price-signals/"
+    },
+    {
+      "by": "acqbu",
+      "descendants": 0,
+      "id": 29681911,
+      "score": 1,
+      "time": 1640426243,
+      "title": "Live: Launch of NASA's James Webb Space Telescope",
+      "type": "story",
+      "url": "https://www.youtube.com/watch?v=5rARTOhbLDg"
+    },
+    {
+      "by": "lnyan",
+      "descendants": 0,
+      "id": 29681906,
+      "score": 1,
+      "time": 1640426173,
+      "title": "Cool, but obscure Unix tools (2011)",
+      "type": "story",
+      "url": "https://kkovacs.eu/cool-but-obscure-unix-tools"
+    },
+    {
       "by": "rmedaer",
       "descendants": 0,
       "id": 29681886,
@@ -22,10 +52,13 @@
     },
     {
       "by": "wg0",
-      "descendants": 0,
+      "descendants": 1,
       "id": 29681862,
+      "kids": [
+        29681921
+      ],
       "score": 2,
-      "text": "The proxies like Squid can do HTTPS intercepting so I was wondering what&#x27;s the point of TLS anyway? What if a nation state is determined intercept all traffic of its internet users or even a major ISP - can&#x27;t they get a trusted CA colluding with them in such a way that they can generate certificates on the fly and hence replacing the SSL certificate of every website that&#x27;s get visited, decrypt and encrypt back?<p>Cryptographically speaking, that&#x27;s possible? Wouldn&#x27;t it be possible for certain states hostile to their citizens to pay off some trusted CA to get a wide open arrangement of that sorts? Now someone thinking they&#x27;re talking to gmail could be first talking to a data collection island in the middle?<p>Similarly, other vectors of attack are the IP routing and DNS. I do not understand the Noise protocol but couldn&#x27;t an ISP or a government pretend to be man in the middle between let us say a Signal user and server?<p>EDIT: Added IP and DNS aspects",
+      "text": "The proxies like Squid can do HTTPS intercepting so I was wondering what&#x27;s the point of TLS anyway? What if a nation state is determined to intercept all traffic of its internet users or even a major ISP - can&#x27;t they get a trusted CA colluding with them in such a way that they can generate certificates on the fly and hence replacing the SSL certificate of every website that&#x27;s get visited, decrypt and encrypt back?<p>Cryptographically speaking, that&#x27;s possible? Wouldn&#x27;t it be possible for certain states hostile to their citizens to pay off some trusted CA to get a wide open arrangement of that sorts? Now someone thinking they&#x27;re talking to gmail could be first talking to a data collection island in the middle?<p>Similarly, other vectors of attack are the IP routing and DNS. I do not understand the Noise protocol but couldn&#x27;t an ISP or a government pretend to be man in the middle, between let us say a Signal user and its servers?<p>EDIT: Added IP and DNS aspects plus typos",
       "time": 1640425528,
       "title": "Ask HN: Intercepting HTTPS – How can we trust anything at all?",
       "type": "story"
@@ -69,36 +102,6 @@
       "title": "Future-Proofing the Raku Programming Language",
       "type": "story",
       "url": "https://raku-advent.blog/2021/12/25/future-proofing-the-raku-programming-language/"
-    },
-    {
-      "by": "Tomte",
-      "descendants": 0,
-      "id": 29681799,
-      "score": 1,
-      "time": 1640424728,
-      "title": "The Last Country in the World Where Divorce Is Illegal (2015)",
-      "type": "story",
-      "url": "https://foreignpolicy.com/2015/01/19/the-last-country-in-the-world-where-divorce-is-illegal-philippines-catholic-church/"
-    },
-    {
-      "by": "Tomte",
-      "descendants": 0,
-      "id": 29681797,
-      "score": 1,
-      "time": 1640424720,
-      "title": "The Construction of Medieval and Tudor Houses in London (1991) [pdf]",
-      "type": "story",
-      "url": "https://www.arct.cam.ac.uk/system/files/documents/article1_6.pdf"
-    },
-    {
-      "by": "g42gregory",
-      "descendants": 0,
-      "id": 29681779,
-      "score": 5,
-      "time": 1640424467,
-      "title": "Marc Andreessen Blocks Jack Dorsey on Twitter",
-      "type": "story",
-      "url": "https://twitter.com/jack/status/1473725424387694601"
     }
   ]
 }
