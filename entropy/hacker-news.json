@@ -1,10 +1,33 @@
 {
   "stories": [
     {
-      "by": "picture",
+      "by": "acqbu",
       "descendants": 0,
-      "id": 29685632,
+      "id": 29685723,
       "score": 1,
+      "time": 1640457533,
+      "title": "The James Webb Space Telescope Has Launched: Now Comes the Hard Part",
+      "type": "story",
+      "url": "https://www.scientificamerican.com/article/the-james-webb-space-telescope-has-launched-now-comes-the-hard-part1/"
+    },
+    {
+      "by": "thenaturalist",
+      "descendants": 0,
+      "id": 29685715,
+      "score": 1,
+      "time": 1640457481,
+      "title": "Marriage Requires Amnesia",
+      "type": "story",
+      "url": "https://www.nytimes.com/2021/12/24/style/marriage-heather-havrilesky-foreverland.html"
+    },
+    {
+      "by": "picture",
+      "descendants": 1,
+      "id": 29685632,
+      "kids": [
+        29685732
+      ],
+      "score": 3,
       "time": 1640457005,
       "title": "Reverse-engineering a tiny 1980s chip that plays Christmas tunes",
       "type": "story",
@@ -25,8 +48,11 @@
     },
     {
       "by": "adrianhoward",
-      "descendants": 0,
+      "descendants": 1,
       "id": 29685512,
+      "kids": [
+        29685710
+      ],
       "score": 1,
       "time": 1640456347,
       "title": "Use a Premortem to Predict the Future",
@@ -50,7 +76,7 @@
       "kids": [
         29685469
       ],
-      "score": 1,
+      "score": 2,
       "time": 1640455866,
       "title": "Web3 Is Self-Certifying",
       "type": "story",
@@ -61,8 +87,8 @@
       "descendants": 2,
       "id": 29685392,
       "kids": [
-        29685634,
-        29685608
+        29685608,
+        29685634
       ],
       "score": 6,
       "time": 1640455777,
@@ -93,29 +119,6 @@
       "title": "$SOS token for the largest NFT community, to pay tribute, protect and promote",
       "type": "story",
       "url": "https://www.theopendao.com/"
-    },
-    {
-      "by": "schleiss",
-      "descendants": 0,
-      "id": 29685311,
-      "score": 3,
-      "time": 1640455240,
-      "title": "Diseconomies of Scale",
-      "type": "story",
-      "url": "https://en.wikipedia.org/wiki/Diseconomies_of_scale"
-    },
-    {
-      "by": "scotty79",
-      "descendants": 1,
-      "id": 29685302,
-      "kids": [
-        29685465
-      ],
-      "score": 1,
-      "text": "In most languages creating array, list, set, mapping, usually requires different code to create them and to access them.<p>Do you know any language where you create generic collection and just specify what you require of it?<p>For example, you might specify that you require collection to be indexed with numbers, and have quick access to elements by their index. Or have ability to add element at the end quickly or have  the ability to find next element quickly. Or have elements with quick parent access, or quick children access, or quick arbitrary inserts or you want collection to be indexed multidimensionally.<p>Language itself would pick the right algorithms for your collection for example picking fixed length immutable array (for the purposes of iteration), but also set (for quickly checking presence of element).<p>Creation, access and writing should be kept as similar as possible with different algorithms.<p>This system should of course be extensible. So that you could implement fast access to elements by creating and updating various task specific indexes into your data and have them available though built in language syntax.<p>The only thing that comes to my mind that somewhat attempted this is C++ template library, which offers various collections and iterators while trying to keep the interface mostly algorithm agnostic.",
-      "time": 1640455210,
-      "title": "Ask HN: Do you know any computer language where collections are unified?",
-      "type": "story"
     }
   ]
 }
