@@ -1,6 +1,26 @@
 {
   "stories": [
     {
+      "by": "rolph",
+      "descendants": 0,
+      "id": 29686434,
+      "score": 1,
+      "time": 1640462389,
+      "title": "The Scorpion and the Frog",
+      "type": "story",
+      "url": "https://en.wikipedia.org/wiki/The_Scorpion_and_the_Frog"
+    },
+    {
+      "by": "tosh",
+      "descendants": 0,
+      "id": 29686398,
+      "score": 1,
+      "time": 1640462118,
+      "title": "January 1, 2022, is Public Domain Day",
+      "type": "story",
+      "url": "https://web.law.duke.edu/cspd/publicdomainday/2022/"
+    },
+    {
       "by": "alentred",
       "descendants": 0,
       "id": 29686380,
@@ -15,9 +35,9 @@
       "descendants": 0,
       "id": 29686373,
       "score": 1,
-      "text": "I would love something like a single text file spec&#x2F;yaml file where you specify the knowledge ‘services’ your team uses. Eg:<p>gdrive:\n  folders:\n    - eng\n    - notion-sync \n      - symlink: notion&#x2F;notion-sync<p>notion:\n  workspaces:\n    - notion-sync:\n      permissions: allow-all<p>slack:\n  integrations:\n    - gdrive<p>Something to that effect. Do docker-compose type configs exist to put all these things together? The real value-add would be being able to expose this information in a processible way, eg allowing documents that can retrieve information from within other sources of knowledge (as well as keeping copies of prev state)",
+      "text": "I would love something like a single text file spec&#x2F;yaml file where you specify the knowledge ‘services’ your team uses. Eg:<p>gdrive:\n  folders:\n    - eng\n    - notion-sync \n      - symlink: notion&#x2F;notion-sync<p>notion:\n  workspaces:\n    - notion-sync:\n      permissions: allow-all<p>slack:\n  integrations:\n    - gdrive<p>Something to that effect. Do docker-compose type configs exist to put all these things together?<p>The real value-add would be being able to expose this information in a processible way, eg allowing documents that can retrieve information from within other sources of knowledge (as well as keeping copies of prev state)<p>Why? Because what if today I have all these sketches of proofs or diagrams or things that don’t really map onto any feature that currently exists in these existing apps, but in a few years some awesome app just for this use-case emerges. I would like to continue sketching w the hope that in the future the work I’ve already done is likely to eventually become integrated into the existing meta-level system.<p>There may be a lot of forgotten&#x2F;lost&#x2F;never-pursued knowledge that could eventually become extremely useful to a different person; simply because the conduits to create that expectation of the eventual free-flow of any medium of knowledge didn&#x27;t exist at the time.",
       "time": 1640461921,
-      "title": "Ask HN: Equivalent of Docker-compose for managing team knowledge?",
+      "title": "Ask HN: Equivalent of Docker-compose for managing team knowledge services?",
       "type": "story"
     },
     {
@@ -34,7 +54,7 @@
       "by": "contidrift",
       "descendants": 0,
       "id": 29686310,
-      "score": 1,
+      "score": 2,
       "time": 1640461439,
       "title": "Amazon Promotion Extension",
       "type": "story",
@@ -52,8 +72,11 @@
     },
     {
       "by": "kungfudoi",
-      "descendants": 0,
+      "descendants": 1,
       "id": 29686306,
+      "kids": [
+        29686410
+      ],
       "score": 1,
       "time": 1640461407,
       "title": "Israel Found a Way to Make Soldiers Invisible",
@@ -79,31 +102,11 @@
       "kids": [
         29686256
       ],
-      "score": 1,
+      "score": 2,
       "time": 1640460815,
       "title": "Exposure to Traffic Noise Linked to Higher Dementia Risk",
       "type": "story",
       "url": "https://neurosciencenews.com/traffic-noise-dementia-19282/"
-    },
-    {
-      "by": "sagischwarz",
-      "descendants": 0,
-      "id": 29686230,
-      "score": 1,
-      "time": 1640460806,
-      "title": "Interstellar Probe: A Mission for the Generations",
-      "type": "story",
-      "url": "https://www.bbc.com/news/science-environment-59725597"
-    },
-    {
-      "by": "erwald",
-      "descendants": 0,
-      "id": 29686225,
-      "score": 1,
-      "time": 1640460778,
-      "title": "Against Octopus Farming",
-      "type": "story",
-      "url": "https://www.erichgrunewald.com/posts/against-octopus-farming/"
     }
   ]
 }
