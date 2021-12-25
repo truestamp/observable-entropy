@@ -1,6 +1,36 @@
 {
   "stories": [
     {
+      "by": "vo2maxer",
+      "descendants": 0,
+      "id": 29686554,
+      "score": 1,
+      "time": 1640463228,
+      "title": "Beyond Low Earth Orbit: Biomonitoring, AI, and Precision Space Health",
+      "type": "story",
+      "url": "https://deepai.org/publication/beyond-low-earth-orbit-biomonitoring-artificial-intelligence-and-precision-space-health"
+    },
+    {
+      "by": "gjvc",
+      "descendants": 0,
+      "id": 29686553,
+      "score": 1,
+      "time": 1640463222,
+      "title": "LaTeX2e unofficial reference manual (October 2021)",
+      "type": "story",
+      "url": "https://latexref.xyz/"
+    },
+    {
+      "by": "skywardavocado",
+      "descendants": 0,
+      "id": 29686551,
+      "score": 1,
+      "time": 1640463214,
+      "title": "Slices of Human Nature, via Books",
+      "type": "story",
+      "url": "https://twitter.com/robkhenderson/status/1474073521009545227"
+    },
+    {
       "by": "nouspo",
       "descendants": 0,
       "id": 29686492,
@@ -25,8 +55,11 @@
     },
     {
       "by": "mdp2021",
-      "descendants": 0,
+      "descendants": 1,
       "id": 29686462,
+      "kids": [
+        29686528
+      ],
       "score": 1,
       "time": 1640462596,
       "title": "Anton Balazh [a.k.a. “Antartis”: exaggerated relief world maps]",
@@ -72,40 +105,6 @@
       "title": "January 1, 2022, is Public Domain Day",
       "type": "story",
       "url": "https://web.law.duke.edu/cspd/publicdomainday/2022/"
-    },
-    {
-      "by": "alentred",
-      "descendants": 0,
-      "id": 29686380,
-      "score": 1,
-      "time": 1640461968,
-      "title": "Using Obsidian: Notion vs. Vimwiki is not a question anymore for me",
-      "type": "story",
-      "url": "https://alentred.medium.com/using-obsidian-notion-vs-vimwiki-is-not-a-question-anymore-2a1fdc5abba8"
-    },
-    {
-      "by": "pizza",
-      "descendants": 2,
-      "id": 29686373,
-      "kids": [
-        29686472,
-        29686476
-      ],
-      "score": 2,
-      "text": "I would love something like a single text file spec&#x2F;yaml file where you specify the knowledge ‘services’ your team uses. Eg:<p>gdrive:\n  folders:\n    - eng\n    - notion-sync \n      - symlink: notion&#x2F;notion-sync<p>notion:\n  workspaces:\n    - notion-sync:\n      permissions: allow-all<p>slack:\n  integrations:\n    - gdrive<p>Something to that effect. Do docker-compose type configs exist to put all these things together?<p>The real value-add would be being able to expose this information in a processible way, eg allowing documents that can retrieve information from within other sources of knowledge (as well as keeping copies of prev state)<p>Why? Because what if today I have all these sketches of proofs or diagrams or things that don’t really map onto any feature that currently exists in these existing apps, but in a few years some awesome app just for this use-case emerges. I would like to continue sketching w the hope that in the future the work I’ve already done is likely to eventually become integrated into the existing meta-level system.<p>There may be a lot of forgotten&#x2F;lost&#x2F;never-pursued knowledge that could eventually become extremely useful to a different person; simply because the conduits to create that expectation of the eventual free-flow of any medium of knowledge didn&#x27;t exist at the time.",
-      "time": 1640461921,
-      "title": "Ask HN: Equivalent of Docker-compose for managing team knowledge services?",
-      "type": "story"
-    },
-    {
-      "by": "giuliomagnifico",
-      "descendants": 0,
-      "id": 29686313,
-      "score": 2,
-      "time": 1640461449,
-      "title": "Out-of-sync brainwaves could be another reason videoconferencing is such a drag",
-      "type": "story",
-      "url": "https://theconversation.com/got-zoom-fatigue-out-of-sync-brainwaves-could-be-another-reason-videoconferencing-is-such-a-drag-172380"
     }
   ]
 }
