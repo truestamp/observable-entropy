@@ -1,6 +1,16 @@
 {
   "stories": [
     {
+      "by": "adrianhoward",
+      "descendants": 0,
+      "id": 29685512,
+      "score": 1,
+      "time": 1640456347,
+      "title": "Use a Premortem to Predict the Future",
+      "type": "story",
+      "url": "https://www.theadamthomas.com/use-a-premortem-to-predict-the-future/"
+    },
+    {
       "by": "mooreds",
       "descendants": 0,
       "id": 29685446,
@@ -12,8 +22,11 @@
     },
     {
       "by": "timdaub",
-      "descendants": 0,
+      "descendants": 1,
       "id": 29685406,
+      "kids": [
+        29685469
+      ],
       "score": 1,
       "time": 1640455866,
       "title": "Web3 Is Self-Certifying",
@@ -75,8 +88,11 @@
     },
     {
       "by": "scotty79",
-      "descendants": 0,
+      "descendants": 1,
       "id": 29685302,
+      "kids": [
+        29685465
+      ],
       "score": 1,
       "text": "In most languages creating array, list, set, mapping, usually requires different code to create them and to access them.<p>Do you know any language where you create generic collection and just specify what you require of it?<p>For example, you might specify that you require collection to be indexed with numbers, and have quick access to elements by their index. Or have ability to add element at the end quickly or have  the ability to find next element quickly. Or have elements with quick parent access, or quick children access, or quick arbitrary inserts or you want collection to be indexed multidimensionally.<p>Language itself would pick the right algorithms for your collection for example picking fixed length immutable array (for the purposes of iteration), but also set (for quickly checking presence of element).<p>Creation, access and writing should be kept as similar as possible with different algorithms.<p>This system should of course be extensible. So that you could implement fast access to elements by creating and updating various task specific indexes into your data and have them available though built in language syntax.<p>The only thing that comes to my mind that somewhat attempted this is C++ template library, which offers various collections and iterators while trying to keep the interface mostly algorithm agnostic.",
       "time": 1640455210,
@@ -95,16 +111,6 @@
       "title": "NewsTime",
       "type": "story",
       "url": "https://www.arabdown.org/"
-    },
-    {
-      "by": "simonebrunozzi",
-      "descendants": 0,
-      "id": 29685283,
-      "score": 2,
-      "time": 1640455136,
-      "title": "Drug harms in the UK: a multicriteria decision analysis",
-      "type": "story",
-      "url": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(10)61462-6/fulltext"
     }
   ]
 }
