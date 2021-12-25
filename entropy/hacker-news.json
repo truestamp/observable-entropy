@@ -1,10 +1,40 @@
 {
   "stories": [
     {
+      "by": "aftabh",
+      "descendants": 0,
+      "id": 29687145,
+      "score": 1,
+      "text": "From the lean startup perspective we have the principle of MVP, a really compelling and attractive idea for early stages SAAS-based businesses. On the other hand, for more mature stages of businesses, we have to be aware of the danger of &quot;second-system effect&quot; and have reasonable plans in place.<p>Now I come to my main question[1]: as a technical founder, how one can better prepare to avoid unnecessary and preventible (self-created) big technical problems while successfully transitioning from a (successful?) MVP to a good-enough (second but non-MVP) system, without endangering the whole SAAS business itself?<p>[1] - We know a new business faces myriad of challenges  that it needs to overcome; however, here, I focus on a single problem only for the sake of focused group discussion.",
+      "time": 1640467965,
+      "title": "Ask HN: Strategies for successfully transitioning from MVP to “second system”?",
+      "type": "story"
+    },
+    {
+      "by": "Skillstacker",
+      "descendants": 0,
+      "id": 29687135,
+      "score": 1,
+      "time": 1640467907,
+      "title": "Show HN: Object Validator for PHP 8",
+      "type": "story",
+      "url": "https://github.com/IvanGrigorov/VMValidator"
+    },
+    {
+      "by": "JoelJacobson",
+      "descendants": 0,
+      "id": 29687134,
+      "score": 1,
+      "text": "I think foreign keys could be valuable to improve how we write SQL joins,\nin the special but common case when joining on columns that exactly match a foreign key.<p>The idea is to add a new ternary operator, which would be allowed only in the FROM clause.<p>It would take three operands:<p>1) referencing_table_alias\n2) foreign_key_constraint_name\n3) referenced_table_alias<p>POSSIBLE BENEFITS<p>* Eliminate risk of joining on the wrong columns\nAlthough probably an uncommon class of bugs, a join can be made on the wrong columns, which could go undetected if the desired row is included by coincidence, such as if the test environment might only contain a single row in some table, and the join condition happened to be always true.<p>* Conciser syntax\nIn a traditional join, you have to explicitly state all columns for the referencing and referenced table.\nThis is somewhat addressed by the USING join form, but USING has other drawbacks, why I tend to avoid it except for one-off queries.\nWhen having to use fully-qualified table aliases, that adds even further to the verboseness.<p>* Makes abnormal joins stand out\nIf joining on something else than foreign key columns, or some inequality expression, such joins will continue to be written in the traditional way, and will therefore stand out and be more visible, if all other foreign key-based joins are written using the new syntax.\nWhen reading SQL queries, I think this would be a great improvement, since the boring normal joins on foreign keys could be given less attention, and focus could instead be made on making sure you understand the more complex joins.<p>SYNTAX<p>Syntax is hard, but here is a proposal to start the discussion:<p><pre><code>    from_item join_type from_item WITH [referencing_table_alias]-&gt;[foreign_key_constraint_name] = [referenced_table_alias] [ AS join_using_alias ]\n</code></pre>\nEXAMPLE<p>To experiment with the idea, I wanted to find some real-world queries written by others,\nto see how such SQL queries would look like, using traditional joins vs foreign key joins.<p>I came up with the idea of searching Github for &quot;LEFT JOIN&quot;, since just searching for &quot;JOIN&quot; would match a lot of non-SQL code as well.\nHere is one of the first examples I found, a query below from the Grafana project [1]\n[1] https:&#x2F;&#x2F;github.com&#x2F;grafana&#x2F;grafana&#x2F;blob&#x2F;main&#x2F;pkg&#x2F;services&#x2F;accesscontrol&#x2F;database&#x2F;resource_permissions.go<p><pre><code>    SELECT\n    p.*,\n    ? AS resource_id,\n    ur.user_id AS user_id,\n    u.login AS user_login,\n    u.email AS user_email,\n    tr.team_id AS team_id,\n    t.name AS team,\n    t.email AS team_email,\n    r.name as role_name\n    FROM permission p\n    LEFT JOIN role r ON p.role_id = r.id\n    LEFT JOIN team_role tr ON r.id = tr.role_id\n    LEFT JOIN team t ON tr.team_id = t.id\n    LEFT JOIN user_role ur ON r.id = ur.role_id\n    LEFT JOIN user u ON ur.user_id = u.id\n    WHERE p.id = ?\n</code></pre>\nHere is how the FROM clause could be rewritten:<p><pre><code>    FROM permission p\n    LEFT JOIN role r WITH p-&gt;permission_role_id_fkey = r\n    LEFT JOIN team_role tr WITH tr-&gt;team_role_role_id_fkey = r\n    LEFT JOIN team t WITH tr-&gt;team_role_team_id_fkey = t\n    LEFT JOIN user_role ur WITH ur-&gt;user_role_role_id_fkey = r\n    LEFT JOIN &quot;user&quot; u WITH ur-&gt;user_role_user_id_fkey = u\n    WHERE p.id = 1;\n</code></pre>\nIn PostgreSQL, the foreign keys could also be given shorter names, since they only need to be unique per table and not per namespace. I think a nice convention is to give the foreign keys the same name as the referenced table, except if the same table is referenced multiple times or is self-referenced.<p>Rewriting our example, using such naming convention for the foreign keys:<p><pre><code>    FROM permission p\n    LEFT JOIN role r WITH p-&gt;role = r\n    LEFT JOIN team_role tr WITH tr-&gt;role = r\n    LEFT JOIN team t WITH tr-&gt;team = t\n    LEFT JOIN user_role ur WITH ur-&gt;role = r\n    LEFT JOIN &quot;user&quot; u WITH ur-&gt;user = u\n    WHERE p.id = 1;</code></pre>",
+      "time": 1640467897,
+      "title": "Better SQL JOINs",
+      "type": "story"
+    },
+    {
       "by": "rammy1234",
       "descendants": 0,
       "id": 29687118,
-      "score": 1,
+      "score": 2,
       "time": 1640467791,
       "title": "James Webb Orbit",
       "type": "story",
@@ -73,36 +103,6 @@
       "title": "A dispatch from the end of travel’s brief, troubled golden age",
       "type": "story",
       "url": "https://aeon.co/essays/a-dispatch-from-the-end-of-travels-brief-troubled-golden-age"
-    },
-    {
-      "by": "antonpirker",
-      "descendants": 0,
-      "id": 29686971,
-      "score": 2,
-      "text": "Yesterday night when I was lying half awake in my bed I was thinking&#x2F;dreaming of a carbon neutral blockchain.<p>Question: has anyone seen one or knows of someone who is trying to build one?",
-      "time": 1640466540,
-      "title": "Ask HN: Is there a carbon neutral blockchain?",
-      "type": "story"
-    },
-    {
-      "by": "happy-go-lucky",
-      "descendants": 0,
-      "id": 29686963,
-      "score": 1,
-      "time": 1640466488,
-      "title": "The Indian 'germ murder' that gripped the world",
-      "type": "story",
-      "url": "https://www.bbc.com/news/world-asia-india-59760633"
-    },
-    {
-      "by": "pakonsy",
-      "descendants": 0,
-      "id": 29686931,
-      "score": 1,
-      "time": 1640466200,
-      "title": "Show HN: Watch/Download/Organize Public Video URLs",
-      "type": "story",
-      "url": "https://github.com/MohamedBakoush/WatchVideoByLink"
     }
   ]
 }
