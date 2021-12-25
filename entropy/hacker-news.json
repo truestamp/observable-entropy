@@ -1,6 +1,39 @@
 {
   "stories": [
     {
+      "by": "scotty79",
+      "descendants": 0,
+      "id": 29685302,
+      "score": 1,
+      "text": "In most languages creating array, list, set, mapping, usually requires different code to create them and to access them.<p>Do you know any language where you create generic collection and just specify what you require of it?<p>For example, you might specify that you require collection to be indexed with numbers, and have quick access to elements by their index. Or have ability to add element at the end quickly or have  the ability to find next element quickly. Or have elements with quick parent access, or quick children access, or quick arbitrary inserts or you want collection to be indexed multidimensionally.<p>Language itself would pick the right algorithms for your collection for example picking fixed length immutable array (for the purposes of iteration), but also set (for quickly checking presence of element).<p>Creation, access and writing should be kept as similar as possible with different algorithms.<p>This system should of course be extensible. So that you could implement fast access to elements by creating and updating various task specific indexes into your data and have them available though built in language syntax.<p>The only thing that comes to my mind that somewhat attempted this is C++ template library, which offers various collections and iterators while trying to keep the interface mostly algorithm agnostic.",
+      "time": 1640455210,
+      "title": "Ask HN: Do you know any computer language where collections are unified?",
+      "type": "story"
+    },
+    {
+      "by": "Newstime",
+      "descendants": 1,
+      "id": 29685288,
+      "kids": [
+        29685289
+      ],
+      "score": 1,
+      "time": 1640455162,
+      "title": "NewsTime",
+      "type": "story",
+      "url": "https://www.arabdown.org/"
+    },
+    {
+      "by": "simonebrunozzi",
+      "descendants": 0,
+      "id": 29685283,
+      "score": 1,
+      "time": 1640455136,
+      "title": "Drug harms in the UK: a multicriteria decision analysis",
+      "type": "story",
+      "url": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(10)61462-6/fulltext"
+    },
+    {
       "by": "simonebrunozzi",
       "descendants": 0,
       "id": 29685240,
@@ -42,14 +75,15 @@
     },
     {
       "by": "a4f00",
-      "descendants": 3,
+      "descendants": 4,
       "id": 29685115,
       "kids": [
-        29685177,
+        29685278,
         29685163,
+        29685177,
         29685149
       ],
-      "score": 3,
+      "score": 5,
       "text": "I want to help my elderly parents with their computer, but as I live far away, this needs to be done remotely (general stuff, paying bills, etc..)<p>I&#x27;ve seen some solutions, such as Team viewer. However I&#x27;m bit concerned about the security side.<p>If you have same situation, what is your solution?",
       "time": 1640454087,
       "title": "Ask HN: Remotely Helping Elderly Parents",
@@ -57,16 +91,18 @@
     },
     {
       "by": "vkkhare",
-      "descendants": 7,
+      "descendants": 12,
       "id": 29685086,
       "kids": [
-        29685239,
+        29685297,
         29685164,
-        29685188,
+        29685269,
+        29685239,
         29685180,
+        29685188,
         29685156
       ],
-      "score": 6,
+      "score": 8,
       "text": "Whenever I search and learn for web 3.0 people limit it to blockchain based solutions and apps. However, the core ethos of web 3.0 is about decentralisation, shouldn&#x27;t it also encompensate technologies like edge computing which are decentralising ownership of compute and data back to devices.",
       "time": 1640453834,
       "title": "Is Web 3.0 just crypto or something more?",
@@ -81,40 +117,6 @@
       "title": "Google has its cemetery, I have my one: end-of-life of some projects",
       "type": "story",
       "url": "https://codingadventures.netlify.app/google-has-its-cemetery-i-have-my-one-end-of-life-of-some-projects/"
-    },
-    {
-      "by": "tomasreimers",
-      "descendants": 0,
-      "id": 29685037,
-      "score": 1,
-      "time": 1640453498,
-      "title": "Euclidea: A game where you complete/unlock basic geometric proofs",
-      "type": "story",
-      "url": "https://www.euclidea.xyz/en/game/packs/Alpha/level/TEquilateral"
-    },
-    {
-      "by": "aj_nikhil",
-      "descendants": 2,
-      "id": 29685021,
-      "kids": [
-        29685241,
-        29685178
-      ],
-      "score": 8,
-      "text": "I have worked in many different fields(web dev, analytics, product management) but can&#x27;t seem to stick to one. Is it about the field or something about myself that I need to change? How do I go about solving this??",
-      "time": 1640453420,
-      "title": "Ask HN: Have you found something you love to do? If yes how?",
-      "type": "story"
-    },
-    {
-      "by": "qwertyuiop_",
-      "descendants": 0,
-      "id": 29685018,
-      "score": 1,
-      "time": 1640453405,
-      "title": "Lee Feinberg Biography Webb Telescope/NASA",
-      "type": "story",
-      "url": "https://jwst.nasa.gov/content/meetTheTeam/people/feinberg.html"
     }
   ]
 }
