@@ -24,8 +24,8 @@
       "by": "wg0",
       "descendants": 0,
       "id": 29681862,
-      "score": 1,
-      "text": "The proxies like Squid can do HTTPS intercepting so I was wondering what&#x27;s the point of TLS anyway? What if a nation state is determined intercept all traffic of its internet users or even a major ISP - can&#x27;t they get a trusted CA colluding with them in such a way that they can generate certificates on the fly and hence replacing the SSL certificate of every website that&#x27;s get visited, decrypt and encrypt back?<p>Cryptographically speaking, that&#x27;s possible? Wouldn&#x27;t it be possible for certain states hostile to their citizens to pay off some trusted CA to get a wide open arrangement of that sorts?",
+      "score": 2,
+      "text": "The proxies like Squid can do HTTPS intercepting so I was wondering what&#x27;s the point of TLS anyway? What if a nation state is determined intercept all traffic of its internet users or even a major ISP - can&#x27;t they get a trusted CA colluding with them in such a way that they can generate certificates on the fly and hence replacing the SSL certificate of every website that&#x27;s get visited, decrypt and encrypt back?<p>Cryptographically speaking, that&#x27;s possible? Wouldn&#x27;t it be possible for certain states hostile to their citizens to pay off some trusted CA to get a wide open arrangement of that sorts? Now someone thinking they&#x27;re talking to gmail could be first talking to a data collection island in the middle?<p>Similarly, other vectors of attack are the IP routing and DNS. I do not understand the Noise protocol but couldn&#x27;t an ISP or a government pretend to be man in the middle between let us say a Signal user and server?<p>EDIT: Added IP and DNS aspects",
       "time": 1640425528,
       "title": "Ask HN: Intercepting HTTPS – How can we trust anything at all?",
       "type": "story"
