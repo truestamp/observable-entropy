@@ -1,10 +1,50 @@
 {
   "stories": [
     {
+      "by": "tosh",
+      "descendants": 0,
+      "id": 29686468,
+      "score": 1,
+      "time": 1640462651,
+      "title": "I’m stuck in a COVID hotel (in Denmark) on Christmas Eve",
+      "type": "story",
+      "url": "https://twitter.com/roncohen/status/1474482928331677705"
+    },
+    {
+      "by": "mdp2021",
+      "descendants": 0,
+      "id": 29686462,
+      "score": 1,
+      "time": 1640462596,
+      "title": "Anton Balazh [a.k.a. “Antartis”: exhaggereted relief world maps]",
+      "type": "story",
+      "url": "https://www.shutterstock.com/g/antartis"
+    },
+    {
+      "by": "ricc",
+      "descendants": 0,
+      "id": 29686452,
+      "score": 1,
+      "time": 1640462506,
+      "title": "Microplastics found airborne in French Pyrenees, 2,877 metres above sea level",
+      "type": "story",
+      "url": "https://www.theguardian.com/environment/2021/dec/21/no-mountain-high-enough-study-finds-plastic-in-clean-air"
+    },
+    {
+      "by": "ColinWright",
+      "descendants": 0,
+      "id": 29686447,
+      "score": 1,
+      "time": 1640462465,
+      "title": "AITA for “perpetuating ethnic stereotypes” about Jorts?",
+      "type": "story",
+      "url": "https://old.reddit.com/r/AmItheAsshole/comments/rfwgmc/aita_for_perpetuating_ethnic_stereotypes_about/"
+    },
+    {
       "by": "rolph",
       "descendants": 0,
       "id": 29686434,
-      "score": 1,
+      "score": 2,
       "time": 1640462389,
       "title": "The Scorpion and the Frog",
       "type": "story",
@@ -14,7 +54,7 @@
       "by": "tosh",
       "descendants": 0,
       "id": 29686398,
-      "score": 1,
+      "score": 2,
       "time": 1640462118,
       "title": "January 1, 2022, is Public Domain Day",
       "type": "story",
@@ -32,8 +72,11 @@
     },
     {
       "by": "pizza",
-      "descendants": 0,
+      "descendants": 1,
       "id": 29686373,
+      "kids": [
+        29686472
+      ],
       "score": 1,
       "text": "I would love something like a single text file spec&#x2F;yaml file where you specify the knowledge ‘services’ your team uses. Eg:<p>gdrive:\n  folders:\n    - eng\n    - notion-sync \n      - symlink: notion&#x2F;notion-sync<p>notion:\n  workspaces:\n    - notion-sync:\n      permissions: allow-all<p>slack:\n  integrations:\n    - gdrive<p>Something to that effect. Do docker-compose type configs exist to put all these things together?<p>The real value-add would be being able to expose this information in a processible way, eg allowing documents that can retrieve information from within other sources of knowledge (as well as keeping copies of prev state)<p>Why? Because what if today I have all these sketches of proofs or diagrams or things that don’t really map onto any feature that currently exists in these existing apps, but in a few years some awesome app just for this use-case emerges. I would like to continue sketching w the hope that in the future the work I’ve already done is likely to eventually become integrated into the existing meta-level system.<p>There may be a lot of forgotten&#x2F;lost&#x2F;never-pursued knowledge that could eventually become extremely useful to a different person; simply because the conduits to create that expectation of the eventual free-flow of any medium of knowledge didn&#x27;t exist at the time.",
       "time": 1640461921,
@@ -59,54 +102,6 @@
       "title": "Amazon Promotion Extension",
       "type": "story",
       "url": "https://forums.opera.com/topic/46587/amazon-promotion-extension"
-    },
-    {
-      "by": "simonebrunozzi",
-      "descendants": 0,
-      "id": 29686307,
-      "score": 1,
-      "time": 1640461408,
-      "title": "Reginald Lewis: Bootstrapping Buyouts",
-      "type": "story",
-      "url": "https://neckar.substack.com/p/reginald-lewis-bootstrapping-buyouts"
-    },
-    {
-      "by": "kungfudoi",
-      "descendants": 1,
-      "id": 29686306,
-      "kids": [
-        29686410
-      ],
-      "score": 1,
-      "time": 1640461407,
-      "title": "Israel Found a Way to Make Soldiers Invisible",
-      "type": "story",
-      "url": "https://www.popularmechanics.com/military/weapons/a36878791/invisible-soldier-night-vision-tech/"
-    },
-    {
-      "by": "simonebrunozzi",
-      "descendants": 1,
-      "id": 29686264,
-      "kids": [
-        29686331
-      ],
-      "score": 1,
-      "time": 1640461036,
-      "title": "Ask HN: What's the biggest personal problem you're facing right now?",
-      "type": "story"
-    },
-    {
-      "by": "mdp2021",
-      "descendants": 1,
-      "id": 29686233,
-      "kids": [
-        29686256
-      ],
-      "score": 2,
-      "time": 1640460815,
-      "title": "Exposure to Traffic Noise Linked to Higher Dementia Risk",
-      "type": "story",
-      "url": "https://neurosciencenews.com/traffic-noise-dementia-19282/"
     }
   ]
 }
