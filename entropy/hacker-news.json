@@ -1,6 +1,46 @@
 {
   "stories": [
     {
+      "by": "harscoat",
+      "descendants": 0,
+      "id": 29701220,
+      "score": 1,
+      "time": 1640600573,
+      "title": "E.O. Wilson, a Pioneer of Evolutionary Biology, Dies at 92",
+      "type": "story",
+      "url": "https://www.nytimes.com/2021/12/27/science/eo-wilson-dead.html"
+    },
+    {
+      "by": "jukkakoskinen",
+      "descendants": 0,
+      "id": 29701215,
+      "score": 1,
+      "time": 1640600502,
+      "title": "Cubes Are Not Moving",
+      "type": "story",
+      "url": "https://twitter.com/gunsnrosesgirl3/status/1474810831867105284"
+    },
+    {
+      "by": "AheadOfTime295",
+      "descendants": 0,
+      "id": 29701207,
+      "score": 1,
+      "time": 1640600387,
+      "title": "Migrating Apache Kafka to Scala 3",
+      "type": "story",
+      "url": "https://aiven.io/blog/preparing-apache-kafka-for-scala-3"
+    },
+    {
+      "by": "wiradikusuma",
+      "descendants": 0,
+      "id": 29701199,
+      "score": 3,
+      "time": 1640600264,
+      "title": "Startup accelerator: Receive $20k, spend a month together in Silicon Valley",
+      "type": "story",
+      "url": "https://pioneer.app/"
+    },
+    {
       "by": "sagia",
       "descendants": 0,
       "id": 29701180,
@@ -32,12 +72,15 @@
     },
     {
       "by": "ddevault",
-      "descendants": 0,
+      "descendants": 1,
       "id": 29701059,
-      "score": 7,
-      "text": "Disclaimer: I represent a GitHub competitor.<p>I maintain a system which provides some integrations with GitHub, and since our system has monitoring, we effectively monitor GitHub transitively and often notice GitHub outages before anyone else does.<p>About 15 hours ago, we started noticing that user CI jobs which fetch GitHub repositories were hanging indefinitely during their git clones (a rather expensive failure mode for us since it wastes a lot of CI cycles), and we also started to see increased error rates from the GitHub API. I tried to file a support ticket but their support desk is also experiencing issues (and I would really prefer to go back to email support, come on GitHub). A number of Twitter users are also reporting similar issues. GitHub&#x27;s status page is silent on the matter.<p>Is anyone else having issues? Any GitHub employees around to investigate?",
+      "kids": [
+        29701214
+      ],
+      "score": 9,
+      "text": "Disclaimer: I represent a GitHub competitor.<p>I maintain a system which provides some integrations with GitHub, and since our system has monitoring, we effectively monitor GitHub transitively and often notice GitHub outages before anyone else does.<p>About 15 hours ago, we started noticing that user CI jobs which fetch GitHub repositories were hanging indefinitely during their git clones (a rather expensive failure mode for us since it wastes a lot of CI cycles), and we also started to see increased error rates from the GitHub API. I tried to file a support ticket but their support desk is also experiencing issues (and I would really prefer to go back to email support, come on GitHub). A number of Twitter users are also reporting similar issues with GitHub Actions. GitHub&#x27;s status page is silent on the matter.<p>Is anyone else having issues? Any GitHub employees around to investigate?",
       "time": 1640598650,
-      "title": "Tell HN: GitHub is experiencing a weird undeclared outage",
+      "title": "Tell HN: GitHub is experiencing an undeclared outage",
       "type": "story"
     },
     {
@@ -59,49 +102,6 @@
       "title": "Asymetric: Balaji Srinivasan",
       "type": "story",
       "url": "https://podcasts.apple.com/us/podcast/balaji-srinivasan/id1565557473?i=1000534155362"
-    },
-    {
-      "by": "alediaferia",
-      "descendants": 0,
-      "id": 29701046,
-      "score": 1,
-      "time": 1640598522,
-      "title": "What does software quality mean in Agile?",
-      "type": "story",
-      "url": "https://alediaferia.com/2021/12/27/what-does-software-quality-mean-in-agile/"
-    },
-    {
-      "by": "alexandramae",
-      "descendants": 0,
-      "id": 29701035,
-      "score": 1,
-      "text": "Which type of investment is most profitable? If you have good suggestions or you are also learning, you can add me whatsapp to communicate with each other to avoid being deceived:+353899878396",
-      "time": 1640598401,
-      "title": "Which type of investment is most profitable?",
-      "type": "story"
-    },
-    {
-      "by": "jdvala",
-      "descendants": 1,
-      "id": 29701033,
-      "kids": [
-        29701073
-      ],
-      "score": 1,
-      "time": 1640598394,
-      "title": "LazyText",
-      "type": "story",
-      "url": "https://github.com/jdvala/lazytext"
-    },
-    {
-      "by": "damir",
-      "descendants": 0,
-      "id": 29701012,
-      "score": 1,
-      "time": 1640598190,
-      "title": "UnicodePlot – Plot your data by Unicode characters",
-      "type": "story",
-      "url": "https://github.com/red-data-tools/unicode_plot.rb"
     }
   ]
 }
