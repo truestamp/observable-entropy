@@ -1,6 +1,16 @@
 {
   "stories": [
     {
+      "by": "rakejake",
+      "descendants": 0,
+      "id": 29706140,
+      "score": 1,
+      "text": "I recently read a fantastic book called &quot;The Code of Capital&quot; by Katharina Pistor(https:&#x2F;&#x2F;press.princeton.edu&#x2F;books&#x2F;hardcover&#x2F;9780691178974&#x2F;the-code-of-capital) that documents how lawyers use legal code to protect wealth. The author covers several types of assets, the financial instruments used to protect them, the role of the State as a coercive threat to enforce priority claims (who gets to claim the assets first during bankruptcy), and more importantly, the role of lawyers in coming up with ingenious schemes that take away the power of the state as the final arbiter of priority claims.<p>I especially loved the chapter on law firms and their role in perpetuating the status quo over the years, as well as the chapter on Cryptocurrencies. The author brings up most of the same points as the HN crowd, such as the deflationary aspects, the fact that smart contracts are prone to bugs and not a substitute for real-world contracts (which are more flexible), the problem of the &quot;genesis block&quot; and who determines the initial distribution of property rights on the chain etc.<p>But, the author is not all negative about blockchains and brings up some positive attributes worth discussing. Early on in the book, the author emphasizes the problem of the current global capital system without a global enforcer, i.e capital freely flows across borders and lawyers are free to figure out the best jurisdiction for their assets. She points fingers at top law firms in NYC&#x2F;London and their clients. They ensure that a lot of disputes end up in private arbitration and later claim that courts do not have the expertise to handle such cases, thus pushing for further privatization.\nOver the years, these law firms have amassed a huge amount of internal data, and companies pay these firms to get access this data. Rather than legal services, the author argues that this data is the cash cow for these law firms. She hints that blockchains, being decentralized, could have the effect of making a lot of this data public.<p>One other positive aspect of blockchain tech she hints at that I don&#x27;t see discussed very often is that it potentially makes contract language accessible to a much larger population by virtue of being coded in an actual programming language rather than in highly verbose English. Reading financial documents today is a skill in its own right, because different words can mean different things in different contexts and in different legal systems. And this context is changing all the time and open for interpretation. The author argues that this wiggle room afforded by the language allows lawyers to chip away at restrictions and has created the current global economy which is incredibly complex and not comprehensible to many. Standardizing the language used in these contracts and making it verifiable in a programmable way could go a long way in simplifying things. I can imagine a future where a much larger proportion of the population can at least program in Python or follow pseudo code. Considering the effect the financial system has on all of us, its language and methods should be far more accessible than it currently is.<p>Perhaps Blockchains could have some indirect benefits in the form of making contract language readable, and making private and historical data accessible to a larger population?",
+      "time": 1640635028,
+      "title": "Ask HN: Blockchains to simplify contract language and open source data?",
+      "type": "story"
+    },
+    {
       "by": "yawz",
       "descendants": 0,
       "id": 29706075,
@@ -19,6 +29,16 @@
       "title": "Five takeaways from looking for a new senior role in tech",
       "type": "story",
       "url": "https://philcalcado.com/2021/12/20/job_hunt.html"
+    },
+    {
+      "by": "formus",
+      "descendants": 0,
+      "id": 29706046,
+      "score": 1,
+      "time": 1640634409,
+      "title": "New Chilean President use deep learning for his proposals",
+      "type": "story",
+      "url": "https://blog.deep-talk.ai/use-of-nlp-in-the-analysis-of-presidential-proposals-f5a1988c6c9c?gi=340a7acc3481"
     },
     {
       "by": "amrrs",
@@ -75,7 +95,7 @@
     },
     {
       "by": "gregsadetsky",
-      "descendants": 7,
+      "descendants": 10,
       "id": 29705957,
       "kids": [
         29706108,
@@ -83,37 +103,11 @@
         29706047,
         29706057
       ],
-      "score": 5,
+      "score": 8,
       "text": "Hi,<p>I&#x27;ve just had a bizarre thing happen and wanted to see if the HN community could come up with some theories as to what happened.<p>LastPass blocked a login attempt from Brazil (it wasn&#x27;t me). According to an email I received from LastPass, this login was using the LastPass account&#x27;s master password. The email doesn&#x27;t look like it&#x27;s a phishing attempt.<p>What troubles me is that the master password was stored in a local encrypted KeePassX file.<p>I can imagine that someone has my KeePassX file and the (completely different) password to this file. If that&#x27;s the case, I&#x27;m in a world of hurt.<p>But are there any other possibilities? Is the email from LastPass accurate i.e. was the login attempt actually using my master password? Is there some LastPass extension installed on some computer still having a valid auth token allowing them to login as me to LastPass..?<p>I&#x27;m really confused, and scared.<p>Thanks for your help.<p>P.S. The LastPass account had 2FA set up, but I was able to simply remove it (since I didn&#x27;t have access to the token anymore). That&#x27;s scary too -- what&#x27;s the point of a 2FA you can remove...??",
       "time": 1640633798,
       "title": "Ask HN: How did my LastPass master password get leaked?",
       "type": "story"
-    },
-    {
-      "by": "whack",
-      "descendants": 1,
-      "id": 29705953,
-      "kids": [
-        29706000
-      ],
-      "score": 2,
-      "time": 1640633772,
-      "title": "A study of 264 people by Swedish researchers found narcissism and low int (cont)",
-      "type": "story",
-      "url": "https://www.psychologytoday.com/us/blog/finding-new-home/202112/surprising-link-between-narcissism-and-belief-in-astrology"
-    },
-    {
-      "by": "rbanffy",
-      "descendants": 0,
-      "id": 29705944,
-      "kids": [
-        29706065
-      ],
-      "score": 1,
-      "time": 1640633715,
-      "title": "PerryWerneck/pw3270: 3270 Emulator for GTK",
-      "type": "story",
-      "url": "https://github.com/PerryWerneck/pw3270"
     }
   ]
 }
