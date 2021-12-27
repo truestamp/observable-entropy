@@ -1,9 +1,42 @@
 {
   "stories": [
     {
-      "by": "carlycue",
+      "by": "gregsadetsky",
       "descendants": 0,
+      "id": 29705957,
+      "score": 2,
+      "text": "Hi,<p>I&#x27;ve just had a bizarre thing happen and wanted to see if the HN community could come up with some theories as to what happened.<p>LastPass blocked a login attempt from Brazil (it wasn&#x27;t me). According to an email I received from LastPass, this login was using the LastPass account&#x27;s master password. The email doesn&#x27;t look like it&#x27;s a phishing attempt.<p>What troubles me is that the master password was stored in a local encrypted KeePassX file.<p>I can imagine that someone has my KeePassX file and the (completely different) password to this file. If that&#x27;s the case, I&#x27;m in a world of hurt.<p>But are there any other possibilities? Is the email from LastPass accurate i.e. was the login attempt actually using my master password? Is there some LastPass extension installed on some computer still having a valid auth token allowing them to login as me to LastPass..?<p>I&#x27;m really confused, and scared.<p>Thanks for your help.<p>P.S. The LastPass account had 2FA set up, but I was able to simply remove it (since I didn&#x27;t have access to the token anymore). That&#x27;s scary too -- what&#x27;s the point of a 2FA you can remove...??",
+      "time": 1640633798,
+      "title": "Ask HN: How did my LastPass master password get leaked?",
+      "type": "story"
+    },
+    {
+      "by": "whack",
+      "descendants": 0,
+      "id": 29705953,
+      "score": 1,
+      "time": 1640633772,
+      "title": "A study of 264 people by Swedish researchers found narcissism and low int (cont)",
+      "type": "story",
+      "url": "https://www.psychologytoday.com/us/blog/finding-new-home/202112/surprising-link-between-narcissism-and-belief-in-astrology"
+    },
+    {
+      "by": "rbanffy",
+      "descendants": 0,
+      "id": 29705944,
+      "score": 1,
+      "time": 1640633715,
+      "title": "PerryWerneck/pw3270: 3270 Emulator for GTK",
+      "type": "story",
+      "url": "https://github.com/PerryWerneck/pw3270"
+    },
+    {
+      "by": "carlycue",
+      "descendants": 1,
       "id": 29705939,
+      "kids": [
+        29705975
+      ],
       "score": 1,
       "time": 1640633702,
       "title": "Reasons Apple Is Worth $3T",
@@ -72,36 +105,6 @@
       "title": "Financial Media Builds You Up and Tears You Down",
       "type": "story",
       "url": "https://finsquared.com/financial-media-builds-you-up-and-tears-you-down/"
-    },
-    {
-      "by": "riffic",
-      "descendants": 0,
-      "id": 29705840,
-      "score": 1,
-      "time": 1640633041,
-      "title": "Magic Alex",
-      "type": "story",
-      "url": "https://en.wikipedia.org/wiki/Magic_Alex"
-    },
-    {
-      "by": "riffic",
-      "descendants": 0,
-      "id": 29705826,
-      "score": 1,
-      "time": 1640632928,
-      "title": "The biggest tech Twitter trends of 2021",
-      "type": "story",
-      "url": "https://www.protocol.com/biggest-tech-twitter-trends-2021"
-    },
-    {
-      "by": "heymax054",
-      "descendants": 0,
-      "id": 29705825,
-      "score": 3,
-      "time": 1640632921,
-      "title": "TikTok is becoming Amazon for Gen Z",
-      "type": "story",
-      "url": "https://www.indiehackers.com/post/tiktok-is-becoming-amazon-for-gen-z-a2793897c9"
     }
   ]
 }
