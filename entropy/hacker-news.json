@@ -1,10 +1,40 @@
 {
   "stories": [
     {
+      "by": "jarl-ragnar",
+      "descendants": 0,
+      "id": 29706027,
+      "score": 1,
+      "text": "I’m contemplating the M1 mac mini as a ML machine and was wondering what experience others have had with it.",
+      "time": 1640634290,
+      "title": "What’s the M1 mac mini like for Machine Learning?",
+      "type": "story"
+    },
+    {
+      "by": "carride",
+      "descendants": 0,
+      "id": 29706022,
+      "score": 1,
+      "time": 1640634250,
+      "title": "Scientists draw inspiration from catchweed to create biodegradable Velcro",
+      "type": "story",
+      "url": "https://arstechnica.com/science/2021/12/scientists-draw-inspiration-from-catchweed-to-create-biodegradable-velcro/"
+    },
+    {
+      "by": "mevorah",
+      "descendants": 0,
+      "id": 29706004,
+      "score": 1,
+      "time": 1640634155,
+      "title": "Show HN: Give the disappointment of an NFT-gift without having to buy one",
+      "type": "story",
+      "url": "http://nftgift.info"
+    },
+    {
       "by": "gregsadetsky",
       "descendants": 0,
       "id": 29705957,
-      "score": 2,
+      "score": 3,
       "text": "Hi,<p>I&#x27;ve just had a bizarre thing happen and wanted to see if the HN community could come up with some theories as to what happened.<p>LastPass blocked a login attempt from Brazil (it wasn&#x27;t me). According to an email I received from LastPass, this login was using the LastPass account&#x27;s master password. The email doesn&#x27;t look like it&#x27;s a phishing attempt.<p>What troubles me is that the master password was stored in a local encrypted KeePassX file.<p>I can imagine that someone has my KeePassX file and the (completely different) password to this file. If that&#x27;s the case, I&#x27;m in a world of hurt.<p>But are there any other possibilities? Is the email from LastPass accurate i.e. was the login attempt actually using my master password? Is there some LastPass extension installed on some computer still having a valid auth token allowing them to login as me to LastPass..?<p>I&#x27;m really confused, and scared.<p>Thanks for your help.<p>P.S. The LastPass account had 2FA set up, but I was able to simply remove it (since I didn&#x27;t have access to the token anymore). That&#x27;s scary too -- what&#x27;s the point of a 2FA you can remove...??",
       "time": 1640633798,
       "title": "Ask HN: How did my LastPass master password get leaked?",
@@ -12,9 +42,12 @@
     },
     {
       "by": "whack",
-      "descendants": 0,
+      "descendants": 1,
       "id": 29705953,
-      "score": 1,
+      "kids": [
+        29706000
+      ],
+      "score": 2,
       "time": 1640633772,
       "title": "A study of 264 people by Swedish researchers found narcissism and low int (cont)",
       "type": "story",
@@ -72,39 +105,6 @@
       "title": "What Five Years of Ranking the Best-Managed Companies Reveals",
       "type": "story",
       "url": "https://www.wsj.com/articles/what-five-years-of-ranking-the-best-managed-companies-reveals-11639232165"
-    },
-    {
-      "by": "WIlliamLove",
-      "descendants": 0,
-      "id": 29705877,
-      "score": 1,
-      "text": "I&#x27;m asking for &#x2F;r&#x2F;startups, who would you like to see in our AMAs? We are taking suggestions as to well known or secret geniuses that you would like to see or ask questions to.",
-      "time": 1640633322,
-      "title": "Who would be your top AMA for Startups",
-      "type": "story"
-    },
-    {
-      "by": "marcodiego",
-      "descendants": 0,
-      "id": 29705868,
-      "score": 1,
-      "time": 1640633231,
-      "title": "MauiKit – UI Framework",
-      "type": "story",
-      "url": "https://mauikit.org/"
-    },
-    {
-      "by": "mwattsun",
-      "descendants": 1,
-      "id": 29705843,
-      "kids": [
-        29705860
-      ],
-      "score": 2,
-      "time": 1640633063,
-      "title": "Financial Media Builds You Up and Tears You Down",
-      "type": "story",
-      "url": "https://finsquared.com/financial-media-builds-you-up-and-tears-you-down/"
     }
   ]
 }
