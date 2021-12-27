@@ -1,6 +1,26 @@
 {
   "stories": [
     {
+      "by": "kiyanwang",
+      "descendants": 0,
+      "id": 29701074,
+      "score": 1,
+      "time": 1640598800,
+      "title": "Metrics-driven product development is hard",
+      "type": "story",
+      "url": "https://blog.doubleloop.app/metrics-driven-product-development-is-hard/"
+    },
+    {
+      "by": "ddevault",
+      "descendants": 0,
+      "id": 29701059,
+      "score": 2,
+      "text": "Disclaimer: I represent a GitHub competitor.<p>I maintain a system which provides some integrations with GitHub, and since our system has monitoring, we effectively monitor GitHub transitively and often notice GitHub outages before anyone else does.<p>About 15 hours ago, we started noticing that user CI jobs which fetch GitHub repositories were hanging indefinitely during their git clones (a rather expensive failure mode for us since it wastes a lot of CI cycles), and we also started to see increased error rates from the GitHub API. I tried to file a support ticket but their support desk is also experiencing issues (and I would really prefer to go back to email support, come on GitHub). A number of Twitter users are also reporting similar issues. GitHub&#x27;s status page is silent on the matter.<p>Is anyone else having issues? Any GitHub employees around to investigate?",
+      "time": 1640598650,
+      "title": "Tell HN: GitHub is experiencing a weird undeclared outage",
+      "type": "story"
+    },
+    {
       "by": "riktar",
       "descendants": 0,
       "id": 29701053,
@@ -42,8 +62,11 @@
     },
     {
       "by": "jdvala",
-      "descendants": 0,
+      "descendants": 1,
       "id": 29701033,
+      "kids": [
+        29701073
+      ],
       "score": 1,
       "time": 1640598394,
       "title": "LazyText",
@@ -79,26 +102,6 @@
       "time": 1640597633,
       "title": "MS Edge embedded game is now available on iPhone",
       "type": "story"
-    },
-    {
-      "by": "harscoat",
-      "descendants": 0,
-      "id": 29700961,
-      "score": 1,
-      "time": 1640597539,
-      "title": "E.O. Wilson, naturalist, dies at 92",
-      "type": "story",
-      "url": "https://www.reuters.com/lifestyle/science/obituary-modern-day-darwin-eo-wilson-dies-92-2021-12-27/"
-    },
-    {
-      "by": "fortran77",
-      "descendants": 0,
-      "id": 29700942,
-      "score": 1,
-      "time": 1640597316,
-      "title": "More than 1.2m attacks through Log4j flaw",
-      "type": "story",
-      "url": "https://www.ft.com/content/d3c244f2-eaba-4c46-9a51-b28fc13d9551"
     }
   ]
 }
