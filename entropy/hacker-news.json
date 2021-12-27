@@ -1,6 +1,16 @@
 {
   "stories": [
     {
+      "by": "yawz",
+      "descendants": 0,
+      "id": 29706075,
+      "score": 1,
+      "time": 1640634607,
+      "title": "Factfulness by Hans Rosling – Book Review and Summary",
+      "type": "story",
+      "url": "https://www.youtube.com/watch?v=L_H8tKIJJ-k"
+    },
+    {
       "by": "braza",
       "descendants": 0,
       "id": 29706073,
@@ -32,8 +42,11 @@
     },
     {
       "by": "jarl-ragnar",
-      "descendants": 0,
+      "descendants": 1,
       "id": 29706027,
+      "kids": [
+        29706105
+      ],
       "score": 1,
       "text": "I’m contemplating the M1 mac mini as a ML machine and was wondering what experience others have had with it.",
       "time": 1640634290,
@@ -62,14 +75,15 @@
     },
     {
       "by": "gregsadetsky",
-      "descendants": 4,
+      "descendants": 7,
       "id": 29705957,
       "kids": [
+        29706108,
         29706066,
-        29706057,
-        29706047
+        29706047,
+        29706057
       ],
-      "score": 4,
+      "score": 5,
       "text": "Hi,<p>I&#x27;ve just had a bizarre thing happen and wanted to see if the HN community could come up with some theories as to what happened.<p>LastPass blocked a login attempt from Brazil (it wasn&#x27;t me). According to an email I received from LastPass, this login was using the LastPass account&#x27;s master password. The email doesn&#x27;t look like it&#x27;s a phishing attempt.<p>What troubles me is that the master password was stored in a local encrypted KeePassX file.<p>I can imagine that someone has my KeePassX file and the (completely different) password to this file. If that&#x27;s the case, I&#x27;m in a world of hurt.<p>But are there any other possibilities? Is the email from LastPass accurate i.e. was the login attempt actually using my master password? Is there some LastPass extension installed on some computer still having a valid auth token allowing them to login as me to LastPass..?<p>I&#x27;m really confused, and scared.<p>Thanks for your help.<p>P.S. The LastPass account had 2FA set up, but I was able to simply remove it (since I didn&#x27;t have access to the token anymore). That&#x27;s scary too -- what&#x27;s the point of a 2FA you can remove...??",
       "time": 1640633798,
       "title": "Ask HN: How did my LastPass master password get leaked?",
@@ -100,19 +114,6 @@
       "title": "PerryWerneck/pw3270: 3270 Emulator for GTK",
       "type": "story",
       "url": "https://github.com/PerryWerneck/pw3270"
-    },
-    {
-      "by": "carlycue",
-      "descendants": 1,
-      "id": 29705939,
-      "kids": [
-        29705975
-      ],
-      "score": 1,
-      "time": 1640633702,
-      "title": "Reasons Apple Is Worth $3T",
-      "type": "story",
-      "url": "https://variety.com/vip/3-reasons-apple-is-worth-3-trillion-1235135344/"
     }
   ]
 }
