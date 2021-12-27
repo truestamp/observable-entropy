@@ -14,7 +14,7 @@
       "by": "ddevault",
       "descendants": 0,
       "id": 29701059,
-      "score": 4,
+      "score": 7,
       "text": "Disclaimer: I represent a GitHub competitor.<p>I maintain a system which provides some integrations with GitHub, and since our system has monitoring, we effectively monitor GitHub transitively and often notice GitHub outages before anyone else does.<p>About 15 hours ago, we started noticing that user CI jobs which fetch GitHub repositories were hanging indefinitely during their git clones (a rather expensive failure mode for us since it wastes a lot of CI cycles), and we also started to see increased error rates from the GitHub API. I tried to file a support ticket but their support desk is also experiencing issues (and I would really prefer to go back to email support, come on GitHub). A number of Twitter users are also reporting similar issues. GitHub&#x27;s status page is silent on the matter.<p>Is anyone else having issues? Any GitHub employees around to investigate?",
       "time": 1640598650,
       "title": "Tell HN: GitHub is experiencing a weird undeclared outage",
