@@ -1,6 +1,36 @@
 {
   "stories": [
     {
+      "by": "braza",
+      "descendants": 0,
+      "id": 29706073,
+      "score": 1,
+      "time": 1640634577,
+      "title": "Five takeaways from looking for a new senior role in tech",
+      "type": "story",
+      "url": "https://philcalcado.com/2021/12/20/job_hunt.html"
+    },
+    {
+      "by": "amrrs",
+      "descendants": 0,
+      "id": 29706041,
+      "score": 1,
+      "time": 1640634376,
+      "title": "The Impermanence of the Internet",
+      "type": "story",
+      "url": "https://abhiwrites.com/2021/12/28/the-impermanence-of-the-internet/"
+    },
+    {
+      "by": "sergioskar7",
+      "descendants": 0,
+      "id": 29706029,
+      "score": 1,
+      "time": 1640634307,
+      "title": "Best AI and Deep learning books to read in 2022",
+      "type": "story",
+      "url": "https://theaisummer.com/deep-learning-books-2022/"
+    },
+    {
       "by": "jarl-ragnar",
       "descendants": 0,
       "id": 29706027,
@@ -32,9 +62,14 @@
     },
     {
       "by": "gregsadetsky",
-      "descendants": 0,
+      "descendants": 4,
       "id": 29705957,
-      "score": 3,
+      "kids": [
+        29706066,
+        29706057,
+        29706047
+      ],
+      "score": 4,
       "text": "Hi,<p>I&#x27;ve just had a bizarre thing happen and wanted to see if the HN community could come up with some theories as to what happened.<p>LastPass blocked a login attempt from Brazil (it wasn&#x27;t me). According to an email I received from LastPass, this login was using the LastPass account&#x27;s master password. The email doesn&#x27;t look like it&#x27;s a phishing attempt.<p>What troubles me is that the master password was stored in a local encrypted KeePassX file.<p>I can imagine that someone has my KeePassX file and the (completely different) password to this file. If that&#x27;s the case, I&#x27;m in a world of hurt.<p>But are there any other possibilities? Is the email from LastPass accurate i.e. was the login attempt actually using my master password? Is there some LastPass extension installed on some computer still having a valid auth token allowing them to login as me to LastPass..?<p>I&#x27;m really confused, and scared.<p>Thanks for your help.<p>P.S. The LastPass account had 2FA set up, but I was able to simply remove it (since I didn&#x27;t have access to the token anymore). That&#x27;s scary too -- what&#x27;s the point of a 2FA you can remove...??",
       "time": 1640633798,
       "title": "Ask HN: How did my LastPass master password get leaked?",
@@ -57,6 +92,9 @@
       "by": "rbanffy",
       "descendants": 0,
       "id": 29705944,
+      "kids": [
+        29706065
+      ],
       "score": 1,
       "time": 1640633715,
       "title": "PerryWerneck/pw3270: 3270 Emulator for GTK",
@@ -75,36 +113,6 @@
       "title": "Reasons Apple Is Worth $3T",
       "type": "story",
       "url": "https://variety.com/vip/3-reasons-apple-is-worth-3-trillion-1235135344/"
-    },
-    {
-      "by": "barbe",
-      "descendants": 0,
-      "id": 29705895,
-      "score": 2,
-      "time": 1640633414,
-      "title": "Austin says it's innovative but it's just Business as usual",
-      "type": "story",
-      "url": "https://theaustinbulldog.org/riverside-tax-increment-zone/"
-    },
-    {
-      "by": "m3h",
-      "descendants": 0,
-      "id": 29705894,
-      "score": 2,
-      "time": 1640633413,
-      "title": "Netflix's HDR playback broken on Windows for almost an year",
-      "type": "story",
-      "url": "https://old.reddit.com/r/netflix/comments/lzmtx0/aspect_ratio_keeps_changing/"
-    },
-    {
-      "by": "mortonstreet",
-      "descendants": 0,
-      "id": 29705889,
-      "score": 1,
-      "time": 1640633373,
-      "title": "What Five Years of Ranking the Best-Managed Companies Reveals",
-      "type": "story",
-      "url": "https://www.wsj.com/articles/what-five-years-of-ranking-the-best-managed-companies-reveals-11639232165"
     }
   ]
 }
