@@ -1,10 +1,69 @@
 {
   "stories": [
     {
+      "by": "thunderbong",
+      "descendants": 0,
+      "id": 29715294,
+      "score": 1,
+      "time": 1640709606,
+      "title": "A Swiss solar company announces a new production facility in Arizona",
+      "type": "story",
+      "url": "https://electrek.co/2021/12/27/a-swiss-solar-company-announces-a-new-production-facility-in-arizona/"
+    },
+    {
+      "by": "whack",
+      "descendants": 0,
+      "id": 29715285,
+      "score": 1,
+      "time": 1640709556,
+      "title": "GOP-led states extend unemployment aid to workers who lose jobs over VA (cont)",
+      "type": "story",
+      "url": "https://www.washingtonpost.com/business/2021/12/27/5-gop-led-states-extend-unemployment-aid-workers-who-lose-jobs-over-vaccine-mandates/"
+    },
+    {
+      "by": "sasvari",
+      "descendants": 0,
+      "id": 29715278,
+      "score": 1,
+      "time": 1640709524,
+      "title": "The Fading Ways of Indigenous Arctic Hunters",
+      "type": "story",
+      "url": "https://www.newyorker.com/culture/photo-booth/the-fading-ways-of-indigenous-arctic-hunters"
+    },
+    {
+      "by": "zdw",
+      "descendants": 0,
+      "id": 29715274,
+      "score": 1,
+      "time": 1640709508,
+      "title": "The Pinouts Book",
+      "type": "story",
+      "url": "https://n-o-d-e.net/pinouts.html"
+    },
+    {
+      "by": "hidden-spyder",
+      "descendants": 0,
+      "id": 29715269,
+      "score": 1,
+      "time": 1640709480,
+      "title": "Ask HN: Why are smartphone keyboard keys not hexagonal to maximize touch area?",
+      "type": "story"
+    },
+    {
+      "by": "zolland",
+      "descendants": 0,
+      "id": 29715250,
+      "score": 1,
+      "time": 1640709387,
+      "title": "Lucian's True History as Science Fiction",
+      "type": "story",
+      "url": "https://www.depauw.edu/sfs/backissues/8/fredericks8art.htm"
+    },
+    {
       "by": "fath0m",
       "descendants": 0,
       "id": 29715237,
-      "score": 1,
+      "score": 2,
       "time": 1640709279,
       "title": "Ask HN: What is your favorite programming language and why?",
       "type": "story"
@@ -33,70 +92,11 @@
       "by": "o_nate",
       "descendants": 0,
       "id": 29715155,
-      "score": 1,
+      "score": 2,
       "time": 1640708840,
       "title": "Googlemaps, This is an abject failure",
       "type": "story",
       "url": "https://twitter.com/pyrogeog/status/1475620399463292928"
-    },
-    {
-      "by": "durmonski",
-      "descendants": 0,
-      "id": 29715145,
-      "score": 1,
-      "time": 1640708753,
-      "title": "Hugging the X-Axis",
-      "type": "story",
-      "url": "https://perell.com/essay/hugging-the-x-axis/"
-    },
-    {
-      "by": "gajananpp",
-      "descendants": 0,
-      "id": 29715142,
-      "score": 1,
-      "time": 1640708721,
-      "title": "Show HN: Puppeteer IDE – Extension to automate web page from browser's devtools",
-      "type": "story",
-      "url": "https://github.com/gajananpp/puppeteer-ide-extension"
-    },
-    {
-      "by": "hubraumhugo",
-      "descendants": 0,
-      "id": 29715137,
-      "score": 2,
-      "text": "Our Show HN post (https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=29330706) about a VPN review aggregator got so many negative comments that the HN pushed it down from the front page at some point.<p>Although we should take comments on HN with a grain of salt, we learned a lot from this failed launch post:<p># Astroturfed reviews<p>The VPN industry is full of false promises and shady businesses. It&#x27;s a highly commercialized market, and companies are bought up by less reputable and bigger ones, making it hard to know who to trust.<p>People had no reason not to believe that our review site was a shill for another company. Kape Technologies, a former malware distributor and owner of PrivateInternetAccess and ExpressVPN, is doing this (https:&#x2F;&#x2F;restoreprivacy.com&#x2F;vpn-review-websites-owned-by-vpns). VPN review sites Kape Technologies own include vpnMentor.com, Wizecase.com, and SafetyDetectives.com. It&#x27;s no surprise that these sites all rank VPNs owned by Kape as the best choices.<p>Learning:<p>The first step was to be fully transparent about our intentions and ownership. We did this by adding an about section (https:&#x2F;&#x2F;seekvpn.com&#x2F;about) and a writing a blog post about how our aggregation and ranking works (https:&#x2F;&#x2F;seekvpn.com&#x2F;blog&#x2F;best-vpn-ranking). The second step was to remove all untrusted review sources, which left us with Reddit and HN. Please note that these sources are not fool-proof, and we always recommend doing your due diligence before making a necessary purchase. These sources are also subject to change as trust issues emerge.<p># NordVPN security breach<p>NordVPN was ranked #1 based on our initial analysis. What we didn&#x27;t know:\nSome of their servers recently got hacked to root, and they then attempted to cover up the huge security breach rather than disclose it. In addition, they have a relationship with a shadowy data mining company called Tesonet.<p>Learning:<p>We changed our ranking algorithm:\nOnce we determined the most trusted sources, we worked on a ranking algorithm that we thought was as fair as possible. We ranked each VPN with their overall score on the r&#x2F;VPN comparison table, which scores VPNs based on their specs. We then adjusted those scores based on sentiment and volume of discussion on Reddit and Hacker News.<p># Annoying popup<p>To spread the word, we added a popup to collect email addresses. The idea was to keep people updated about what we&#x27;re working on. As it turned out, this was a bad idea.\nA popup doesn&#x27;t inspire great confidence in being a neutral, non-biased, not marketing-oriented informative site. Instead, it gives the feel like it&#x27;s just another place to siphon data to monetize. Doubly so when the field of VPN reviews is rife with scams and paid fake reviews.<p>Learning:<p>We disabled the popup for now and will instead add a dedicated signup button.",
-      "time": 1640708701,
-      "title": "Our Show HN post was strongly criticized, here are our lessons learned",
-      "type": "story"
-    },
-    {
-      "by": "Phileosopher",
-      "descendants": 0,
-      "id": 29715107,
-      "score": 1,
-      "time": 1640708527,
-      "title": "Ask HN: How do you learn best – reading, watching, or doing?",
-      "type": "story"
-    },
-    {
-      "by": "fero46",
-      "descendants": 0,
-      "id": 29715070,
-      "score": 1,
-      "time": 1640708361,
-      "title": "The Economy Behind Web3",
-      "type": "story",
-      "url": "https://www.linkedin.com/pulse/economy-behind-web3-melexsoft"
-    },
-    {
-      "by": "Brajeshwar",
-      "descendants": 0,
-      "id": 29715054,
-      "score": 2,
-      "time": 1640708235,
-      "title": "India Bars Foreign Donations to Christian Group Founded by Mother Teresa",
-      "type": "story",
-      "url": "https://www.wsj.com/articles/india-bars-foreign-donations-to-christian-group-founded-by-mother-teresa-11640642739"
     }
   ]
 }
