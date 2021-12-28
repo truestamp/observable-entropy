@@ -1,6 +1,46 @@
 {
   "stories": [
     {
+      "by": "rowanajmarshall",
+      "descendants": 0,
+      "id": 29709019,
+      "score": 1,
+      "time": 1640653144,
+      "title": "How to Think: The Skill You’ve Never Been Taught",
+      "type": "story",
+      "url": "https://fs.blog/how-to-think/"
+    },
+    {
+      "by": "rolandog",
+      "descendants": 0,
+      "id": 29708990,
+      "score": 1,
+      "text": "A bit of context: I hadn&#x27;t tested restoring my backups for more than a year, and by the end of my restoration test, I noticed a warning from Déjà Dup telling me that some files could not be restored, and to make sure that I am able to write to them.<p>Among the files listed were these two files (dated 2020-07-10) which had a rather eye-caching sub-folder called &#x27;_!(:!b!&quot;v!(@!cw&quot;f!$%!.g!4!$!=&#x27; (without single quotes):<p><pre><code>  ~&#x2F;.java&#x2F;.userPrefs&#x2F;net&#x2F;puppygames&#x2F;applet&#x2F;Revenge of the Titans&#x2F;_!(:!b!&quot;v!(@!cw&quot;f!$%!.g!4!$!=&#x2F;prefs.xml\n</code></pre>\nand:<p><pre><code>  ~&#x2F;.java&#x2F;.userPrefs&#x2F;net&#x2F;puppygames&#x2F;applet&#x2F;Revenge of the Titans&#x2F;_!(:!b!&quot;v!(@!cw&quot;f!$%!.g!4!$!=&#x2F;rolandog&#x2F;prefs.xml\n</code></pre>\nThe XML files do not seem out of this world:<p><pre><code>  &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;\n  &lt;!DOCTYPE map SYSTEM &quot;http:&#x2F;&#x2F;java.sun.com&#x2F;dtd&#x2F;preferences.dtd&quot;&gt;\n  &lt;map MAP_XML_VERSION=&quot;1.0&quot;&gt;\n    &lt;entry key=&quot;active&quot; value=&quot;true&quot;&#x2F;&gt;\n    &lt;entry key=&quot;attempts.0.8&quot; value=&quot;1&quot;&#x2F;&gt;\n    &lt;entry key=&quot;attempts.0.9&quot; value=&quot;2&quot;&#x2F;&gt;\n    &lt;entry key=&quot;familiar.advancedexplosives.0.1&quot; value=&quot;0&quot;&#x2F;&gt;\n    &lt;entry key=&quot;familiar.advancedexplosives.0.2&quot; value=&quot;0&quot;&#x2F;&gt;\n  ...\n</code></pre>\nFor additional context: I had installed the game a while ago through Steam, and recently I uninstalled my whole library to make some space for some work-related stuff, so I&#x27;m unable to run the game or make tests.<p>The folder name seems rather unusual to me, and I&#x27;m unsure what to make of it.<p>However, I just wanted to validate if this was also normal for other users.",
+      "time": 1640652990,
+      "title": "Ask HN: Is this weird folder name indication of attempted log4shell attack?",
+      "type": "story"
+    },
+    {
+      "by": "underscore_ku",
+      "descendants": 0,
+      "id": 29708986,
+      "score": 1,
+      "time": 1640652951,
+      "title": "2021's Biggest Breakthroughs in Tech",
+      "type": "story",
+      "url": "https://www.youtube.com/watch?v=0sUQkIyoF8M"
+    },
+    {
+      "by": "pseudolus",
+      "descendants": 0,
+      "id": 29708985,
+      "score": 1,
+      "time": 1640652950,
+      "title": "Nostalgic gaming:playing video games of your youth reconnects you to yourself",
+      "type": "story",
+      "url": "https://www.theguardian.com/games/2021/dec/26/nostalgic-gaming-how-playing-the-video-games-of-your-youth-reconnects-you-to-yourself"
+    },
+    {
       "by": "brandonlc",
       "descendants": 1,
       "id": 29708940,
@@ -65,52 +105,6 @@
       "title": "Came across troll – at least we know that/when it sleeps",
       "type": "story",
       "url": "https://twitter.com/efojs/status/1475610692308897795"
-    },
-    {
-      "by": "gralx",
-      "descendants": 1,
-      "id": 29708751,
-      "kids": [
-        29708752
-      ],
-      "score": 1,
-      "time": 1640651465,
-      "title": "Formal Verification of Multi-Paxos for Distributed Consensus, v4 (2016, 2019)",
-      "type": "story",
-      "url": "https://arxiv.org/abs/1606.01387"
-    },
-    {
-      "by": "kristianpaul",
-      "descendants": 1,
-      "id": 29708748,
-      "kids": [
-        29708771
-      ],
-      "score": 1,
-      "time": 1640651442,
-      "title": "AWSSupportServiceRolePolicy – inadvertently included S3:GetObject permissions",
-      "type": "story",
-      "url": "https://aws.amazon.com/security/security-bulletins/AWS-2021-007/"
-    },
-    {
-      "by": "mardiyah",
-      "descendants": 0,
-      "id": 29708724,
-      "score": 1,
-      "time": 1640651247,
-      "title": "Get Used to Chip Shortages: They Are Not Going Away Anytime Soon",
-      "type": "story",
-      "url": "https://interestingengineering.com/get-used-to-chip-shortages-they-are-not-going-away-yet"
-    },
-    {
-      "by": "feross",
-      "descendants": 0,
-      "id": 29708669,
-      "score": 1,
-      "time": 1640650877,
-      "title": "I/O Is Faster Than the CPU – Partition Resources and Eliminate OS Abstractions [pdf]",
-      "type": "story",
-      "url": "https://penberg.org/parakernel-hotos19.pdf"
     }
   ]
 }
