@@ -1,6 +1,56 @@
 {
   "stories": [
     {
+      "by": "eigenhombre",
+      "descendants": 0,
+      "id": 29714003,
+      "score": 1,
+      "time": 1640701169,
+      "title": "You Don’t Need a Spaceship to Grow ‘Weird Little’ Martian Radishes",
+      "type": "story",
+      "url": "https://www.nytimes.com/2021/12/28/science/moon-mars-titan-simulations.html"
+    },
+    {
+      "by": "Gravityloss",
+      "descendants": 0,
+      "id": 29713999,
+      "score": 1,
+      "time": 1640701136,
+      "title": "Solving matrix equations in one step with cross-point resistive arrays",
+      "type": "story",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6410822/"
+    },
+    {
+      "by": "hidden-spyder",
+      "descendants": 0,
+      "id": 29713985,
+      "score": 1,
+      "time": 1640701050,
+      "title": "How to Be Indistractable",
+      "type": "story",
+      "url": "https://psyche.co/guides/to-become-indistractable-recognise-that-it-starts-within-you"
+    },
+    {
+      "by": "nathan_phoenix",
+      "descendants": 0,
+      "id": 29713976,
+      "score": 1,
+      "time": 1640700983,
+      "title": "Should you contribute open data to OpenStreetMap for free?",
+      "type": "story",
+      "url": "https://www.ctrl.blog/entry/re-maps-public-service.html"
+    },
+    {
+      "by": "ystad",
+      "descendants": 0,
+      "id": 29713970,
+      "score": 1,
+      "time": 1640700962,
+      "title": "2021's Top Stories About AI",
+      "type": "story",
+      "url": "https://spectrum.ieee.org/artificial-intelligence-2021"
+    },
+    {
       "by": "pseudolus",
       "descendants": 0,
       "id": 29713948,
@@ -15,7 +65,7 @@
       "descendants": 0,
       "id": 29713937,
       "score": 1,
-      "text": "<i>tl;dr</i>: I&#x27;ve created a live-coding environment with Canvas, Web Audio and setTimeout, here&#x27;s a demo: https:&#x2F;&#x2F;lambda.quest&#x2F;?gist=8eb332073b3b29ace1e2855dfdbad98f<p><i>About the project</i><p>Lambda Quest is a live-coding environment in your browser.\nWhen building Lambda Quest, I decided to go with native in-browser ES6 modules, without any compilation. It&#x27;s really refreshing to just write modern JS and not have to deal with Webpack.<p><i>Scheme + Emscripten</i><p>The core of the app is a Scheme interpreter called Gambit. It&#x27;s originally a C program that was compiled to JavaScript via Emscripten. It runs in a WebWorker and communicates with the main thread via postMessage.<p>To interact with Scheme, I&#x27;ve added the Monaco Editor. It&#x27;s the same open-source editor that powers the VSCode. Whenever you edit the Scheme code, and it&#x27;s syntactically correct, it will re-evaluate it live. So the results will be immediately visible on a Canvas.<p><i>Canvas</i><p>Speaking of Canvas, the rendering is fully asynchronous. Scheme puts Canvas method calls into an async queue. There&#x27;s a requestAnimationFrame loop running in the background that picks up any pushes to the queue. This makes animations possible through things like `(sleep 0.5)`.\nWeb Audio support<p>In addition to Canvas, I&#x27;ve implemented Web Audio support. So you can live-code music now!<p>Adding Web Audio wasn&#x27;t trivial because the Gambit interpreter is running in a Web Worker. So I have to send messages between the worker and the main JS thread to access any browser APIs.<p>Canvas was easy to implement, because it&#x27;s mostly procedural calls like `fillRect`, `stroke` etc. So I&#x27;m just sending commands from Lisp to JS.<p>Web Audio, on the other hand, is about creating trees of audio nodes. E.g. you create an Oscillator node and connect it to a Gain node, and finally connect the Gain node to a Destination node (output). Also you can set parameters on each node (e.g. the frequency of an oscillator).<p>This all means that Scheme needs a way to reference created nodes. However, I cannot send a node directly in a message from JS. Only atomic values like strings and numbers. To circumvent this limitation, I&#x27;ve created a registry of nodes in JS which can be accessed by id.<p>Scheme, when calling a Web Audio method, provides an id to store the result in. Also if it passes an id in one of the arguments, JavaScript looks it up in the registry and makes the call on the corresponding node.<p><i>setTimeout as a Scheme macro</i><p>Web Audio is not fun if you can&#x27;t program timed events for it. E.g. a sequence of notes, or a volume envelope that changes over time. So I had to make the Scheme code asynchronous.<p>Scheme, just like JavaScript, is single-threaded and &quot;synchronous&quot;. It needs a second process to tell it when to run a delayed call to achieve asynchronous behavior.<p>I&#x27;ve implemented a macro – https:&#x2F;&#x2F;github.com&#x2F;katspaugh&#x2F;lambda.quest&#x2F;blob&#x2F;main&#x2F;scheme&#x2F;w... – (which is btw my first macro ever) to put a Scheme callback in a JS `setTimeout`.<p>Macros, for me, is such a mind-blowing thing. It was amazing to code one purposefully, to achieve a practical goal.<p><i>GitHub API and OAuth</i><p>You can save your Scheme creations as gists on GitHub. I&#x27;ve implemented GitHub OAuth with a serverless worker on CloudFlare. The worker, of course, is also written in JS. All my projects are hosted on CloudFlare btw, it&#x27;s amazing.<p><i>Preact</i><p>Finally, I&#x27;ve used Preact and HTM for a React-like UI rendering. HTM is basically JS template strings that look like JSX and spit out DOM trees. Pretty neat, although a bit hard to edit.<p><i>Github</i><p>All the code is open-source (MIT) and can be read on GitHub: https:&#x2F;&#x2F;github.com&#x2F;katspaugh&#x2F;lambda.quest<p>Pull requests and feedback are very welcome. Thanks for reading!",
+      "text": "<i>tl;dr</i>: I&#x27;ve created a live-coding environment with Canvas, Web Audio and setTimeout, here&#x27;s a demo: https:&#x2F;&#x2F;lambda.quest&#x2F;?gist=8eb332073b3b29ace1e2855dfdbad98f<p><i>About the project</i><p>Lambda Quest is a live-coding environment in your browser.\nWhen building Lambda Quest, I decided to go with native in-browser ES6 modules, without any compilation. It&#x27;s really refreshing to just write modern JS and not have to deal with Webpack.<p><i>Scheme + Emscripten</i><p>The core of the app is a Scheme interpreter called Gambit. It&#x27;s originally a C program that was compiled to JavaScript via Emscripten. It runs in a WebWorker and communicates with the main thread via postMessage.<p>To interact with Scheme, I&#x27;ve added the Monaco Editor. It&#x27;s the same open-source editor that powers the VSCode. Whenever you edit the Scheme code, and it&#x27;s syntactically correct, it will re-evaluate it live. So the results will be immediately visible on a Canvas.<p><i>Canvas</i><p>Speaking of Canvas, the rendering is fully asynchronous. Scheme puts Canvas method calls into an async queue. There&#x27;s a requestAnimationFrame loop running in the background that picks up any pushes to the queue. This makes animations possible through things like `(sleep 0.5)`.<p><i>Web Audio support</i><p>In addition to Canvas, I&#x27;ve implemented Web Audio support. So you can live-code music now!<p>Adding Web Audio wasn&#x27;t trivial because the Gambit interpreter is running in a Web Worker. So I have to send messages between the worker and the main JS thread to access any browser APIs.<p>Canvas was easy to implement, because it&#x27;s mostly procedural calls like `fillRect`, `stroke` etc. So I&#x27;m just sending commands from Lisp to JS.<p>Web Audio, on the other hand, is about creating trees of audio nodes. E.g. you create an Oscillator node and connect it to a Gain node, and finally connect the Gain node to a Destination node (output). Also you can set parameters on each node (e.g. the frequency of an oscillator).<p>This all means that Scheme needs a way to reference created nodes. However, I cannot send a node directly in a message from JS. Only atomic values like strings and numbers. To circumvent this limitation, I&#x27;ve created a registry of nodes in JS which can be accessed by id.<p>Scheme, when calling a Web Audio method, provides an id to store the result in. Also if it passes an id in one of the arguments, JavaScript looks it up in the registry and makes the call on the corresponding node.<p><i>setTimeout as a Scheme macro</i><p>Web Audio is not fun if you can&#x27;t program timed events for it. E.g. a sequence of notes, or a volume envelope that changes over time. So I had to make the Scheme code asynchronous.<p>Scheme, just like JavaScript, is single-threaded and &quot;synchronous&quot;. It needs a second process to tell it when to run a delayed call to achieve asynchronous behavior.<p>I&#x27;ve implemented a macro – https:&#x2F;&#x2F;github.com&#x2F;katspaugh&#x2F;lambda.quest&#x2F;blob&#x2F;main&#x2F;scheme&#x2F;w... – (which is btw my first macro ever) to put a Scheme callback in a JS `setTimeout`.<p>Macros, for me, is such a mind-blowing thing. It was amazing to code one purposefully, to achieve a practical goal.<p><i>GitHub API and OAuth</i><p>You can save your Scheme creations as gists on GitHub. I&#x27;ve implemented GitHub OAuth with a serverless worker on CloudFlare. The worker, of course, is also written in JS. All my projects are hosted on CloudFlare btw, it&#x27;s amazing.<p><i>Preact</i><p>Finally, I&#x27;ve used Preact and HTM for a React-like UI rendering. HTM is basically JS template strings that look like JSX and spit out DOM trees. Pretty neat, although a bit hard to edit.<p><i>Github</i><p>All the code is open-source (MIT) and can be read on GitHub: https:&#x2F;&#x2F;github.com&#x2F;katspaugh&#x2F;lambda.quest<p>Pull requests and feedback are very welcome. Thanks for reading!",
       "time": 1640700791,
       "title": "Show HN: Lambda Quest – Scheme live-coding",
       "type": "story"
@@ -49,55 +99,6 @@
       "title": "Challenging ‘rule breakers’ – children will confront their peers",
       "type": "story",
       "url": "https://www.plymouth.ac.uk/news/challenging-rule-breakers-children-will-confront-their-peers-but-how-they-do-so-varies-across-cultures"
-    },
-    {
-      "by": "nigerian1981",
-      "descendants": 0,
-      "id": 29713862,
-      "score": 1,
-      "time": 1640700326,
-      "title": "New York’s famed $1 street pizza under threat from rising costs",
-      "type": "story",
-      "url": "https://www.theguardian.com/us-news/2021/dec/25/new-york-pizza-dollar-slice-inflation"
-    },
-    {
-      "by": "marc__1",
-      "descendants": 0,
-      "id": 29713846,
-      "score": 1,
-      "time": 1640700220,
-      "title": "Crazy M&A Ideas for 2022",
-      "type": "story",
-      "url": "https://marcosbento.medium.com/crazy-m-a-ideas-for-2022-444f3738eddb"
-    },
-    {
-      "by": "eatonphil",
-      "descendants": 0,
-      "id": 29713829,
-      "score": 1,
-      "time": 1640700121,
-      "title": "Writing a minimal Lua implementation with a virtual machine from scratch in Rust",
-      "type": "story",
-      "url": "https://notes.eatonphil.com/lua-in-rust.html"
-    },
-    {
-      "by": "edward",
-      "descendants": 0,
-      "id": 29713796,
-      "score": 2,
-      "time": 1640699875,
-      "title": "Shhh I'm Sleeping",
-      "type": "story",
-      "url": "https://www.google.com/maps/@21.8732801,-159.4548938,3a,37.5y,103.21h,74.95t/data=!3m6!1e1!3m4!1sWoil8Y6DIoEb9LsdST16lw!2e0!7i13312!8i6656"
-    },
-    {
-      "by": "severine",
-      "descendants": 0,
-      "id": 29713793,
-      "score": 1,
-      "time": 1640699861,
-      "title": "Ask HN: Best Printable Calendars for 2022?",
-      "type": "story"
     }
   ]
 }
