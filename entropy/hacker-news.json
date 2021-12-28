@@ -1,6 +1,36 @@
 {
   "stories": [
     {
+      "by": "pseudolus",
+      "descendants": 0,
+      "id": 29719502,
+      "score": 1,
+      "time": 1640733260,
+      "title": "Nimble Chinese satellite grabs hi-res images of US city in seconds: researchers",
+      "type": "story",
+      "url": "https://www.scmp.com/news/china/science/article/3161178/nimble-chinese-satellite-grabs-hi-res-images-us-city-seconds"
+    },
+    {
+      "by": "carabiner",
+      "descendants": 0,
+      "id": 29719487,
+      "score": 2,
+      "time": 1640733194,
+      "title": "Is Our Society Manufacturing Depressed People?",
+      "type": "story",
+      "url": "https://www.psychologytoday.com/us/blog/shift-mind/201203/is-our-society-manufacturing-depressed-people"
+    },
+    {
+      "by": "progval",
+      "descendants": 0,
+      "id": 29719475,
+      "score": 1,
+      "text": "I maintain a bot that listens for URLs in a chat, fetches the first kB of the page to extract their &lt;title&gt; and post it in the chat.<p>A few years ago, it stopped working on Youtube. I increased the limit to 32kB, as I figured it would give a safe margin.<p>Well, it broke again some time this month:<p><pre><code>    &gt;&gt;&gt; import urllib.request\n    &gt;&gt;&gt; urllib.request.urlopen(&#x27;https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=dQw4w9WgXcQ&#x27;).read().index(b&#x27;&lt;title&#x27;)\n    192194\n</code></pre>\nThis seems to be mostly inlined minified Javascript. Why does Youtube do this instead of including scripts that could be cached?",
+      "time": 1640733101,
+      "title": "Ask HN: Why does YouTube have 200kB of JavaScript before the title tag?",
+      "type": "story"
+    },
+    {
       "by": "DyslexicAtheist",
       "descendants": 0,
       "id": 29719445,
@@ -54,7 +84,7 @@
       "by": "sandebert",
       "descendants": 0,
       "id": 29719352,
-      "score": 1,
+      "score": 2,
       "time": 1640732388,
       "title": "Best open source 3D printers 2021 (with links to designs)",
       "type": "story",
@@ -69,39 +99,6 @@
       "title": "Serverless Land",
       "type": "story",
       "url": "https://serverlessland.com/"
-    },
-    {
-      "by": "CarCooler",
-      "descendants": 1,
-      "id": 29719313,
-      "kids": [
-        29719358
-      ],
-      "score": 3,
-      "time": 1640732163,
-      "title": "Tesla Model Y outperforms Model 3 in IIHS crash safety tests",
-      "type": "story",
-      "url": "https://www.teslaoracle.com/2021/12/28/tesla-model-y-outperforms-model-3-in-iihs-crash-safety-tests/"
-    },
-    {
-      "by": "bookofjoe",
-      "descendants": 0,
-      "id": 29719305,
-      "score": 1,
-      "time": 1640732101,
-      "title": "Direct voluntary control of pupil constriction and dilation",
-      "type": "story",
-      "url": "https://www.sciencedirect.com/science/article/pii/S0167876021008448"
-    },
-    {
-      "by": "johnshades",
-      "descendants": 0,
-      "id": 29719287,
-      "score": 1,
-      "time": 1640731939,
-      "title": "Tokamak Energy makes breakthrough in efficient powering of nuclear fusion",
-      "type": "story",
-      "url": "https://www.eetimes.com/breakthrough-in-efficient-powering-of-fusion-energy/"
     }
   ]
 }
