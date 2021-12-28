@@ -1,6 +1,25 @@
 {
   "stories": [
     {
+      "by": "hubraumhugo",
+      "descendants": 0,
+      "id": 29715137,
+      "score": 1,
+      "text": "Our Show HN post (https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=29330706) about a VPN review aggregator got so many negative comments that the HN pushed it down from the front page at some point.<p>Although we should take comments on HN with a grain of salt, we learned a lot from this failed launch post:<p># Not trustworthy\nThe VPN industry is full of false promises and shady businesses. It&#x27;s a highly commercialized market, and companies are bought up by less reputable and bigger ones, making it hard to know who to trust.<p>People had no reason not to believe that our review site was a shill for another company. Kape Technologies, a former malware distributor and owner of PrivateInternetAccess and ExpressVPN, is doing this (https:&#x2F;&#x2F;restoreprivacy.com&#x2F;vpn-review-websites-owned-by-vpns). VPN review sites Kape Technologies own include vpnMentor.com, Wizecase.com, and SafetyDetectives.com. It&#x27;s no surprise that these sites all rank VPNs owned by Kape as the best choices.<p>## Learning:\nThe first step was to be fully transparent about our intentions and ownership. We did this by adding an about section (https:&#x2F;&#x2F;seekvpn.com&#x2F;about) and a writing a blog post about how our aggregation and ranking works (https:&#x2F;&#x2F;seekvpn.com&#x2F;blog&#x2F;best-vpn-ranking). The second step was to remove all untrusted review sources, which left us with Reddit and HN. Please note that these sources are not fool-proof, and we always recommend doing your due diligence before making a necessary purchase. These sources are also subject to change as trust issues emerge.<p># NordVPN\nNordVPN was ranked #1 based on our initial analysis. What we didn&#x27;t know:\nSome of their servers recently got hacked to root, and they then attempted to cover up the huge security breach rather than disclose it. In addition, they have a relationship with a shadowy data mining company called Tesonet.<p>## Learning:\nWe changed our ranking algorithm:\nOnce we determined the most trusted sources (Reddit and HN), we worked on a ranking algorithm that we thought was as fair as possible. We ranked each VPN with their overall score on the r&#x2F;VPN comparison table, which scores VPNs based on their specs. We then adjusted those scores based on sentiment and volume of discussion on Reddit and Hacker News.<p># Annoying popup\nTo spread the word, we added a popup to collect email addresses. The idea was to keep people updated about what we&#x27;re working on. As it turned out, this was a bad idea.\nA popup doesn&#x27;t inspire great confidence in being a neutral, non-biased, not marketing-oriented informative site. Instead, it gives the feel like it&#x27;s just another place to siphon data to monetize. Doubly so when the field of VPN reviews is rife with scams and paid fake reviews.<p>## Learning:\nWe disabled the popup for now and will instead add a dedicated signup button.",
+      "time": 1640708701,
+      "title": "Our Show HN post was strongly criticized, here are our lessons learned",
+      "type": "story"
+    },
+    {
+      "by": "Phileosopher",
+      "descendants": 0,
+      "id": 29715107,
+      "score": 1,
+      "time": 1640708527,
+      "title": "Ask HN: How do you learn best – reading, watching, or doing?",
+      "type": "story"
+    },
+    {
       "by": "fero46",
       "descendants": 0,
       "id": 29715070,
@@ -67,7 +86,7 @@
       "by": "nabla9",
       "descendants": 0,
       "id": 29714958,
-      "score": 1,
+      "score": 2,
       "time": 1640707472,
       "title": "‘Hard’ skills from our PhDs remain relevant beyond academia",
       "type": "story",
@@ -82,29 +101,6 @@
       "title": "Thunderbird alternative OpenPGP backend: Octopus 1.2 Released",
       "type": "story",
       "url": "https://sequoia-pgp.org/blog/2021/12/13/202112-octopus/"
-    },
-    {
-      "by": "xfr",
-      "descendants": 0,
-      "id": 29714937,
-      "score": 1,
-      "time": 1640707294,
-      "title": "Riot Games will pay $100M to settle class-action gender discrimination lawsuit",
-      "type": "story",
-      "url": "https://www.washingtonpost.com/video-games/2021/12/27/riot-discrimination-100-million-settlement/"
-    },
-    {
-      "by": "devops000",
-      "descendants": 1,
-      "id": 29714920,
-      "kids": [
-        29714964
-      ],
-      "score": 3,
-      "time": 1640707172,
-      "title": "Netflix for Documentaries for $15/Year",
-      "type": "story",
-      "url": "https://curiositystream.com/"
     }
   ]
 }
