@@ -1,6 +1,49 @@
 {
   "stories": [
     {
+      "by": "Austin_Conlon",
+      "descendants": 0,
+      "id": 29710445,
+      "score": 1,
+      "text": "Or potential applications.",
+      "time": 1640666006,
+      "title": "Ask HN: What are some compelling applications of computer vision pose detection?",
+      "type": "story"
+    },
+    {
+      "by": "holden_nelson",
+      "descendants": 0,
+      "id": 29710441,
+      "score": 1,
+      "text": "I&#x27;m building a simple crud app in Django which is basically enhanced reporting for commerce related software. So I pull information on behalf of a user from another software&#x27;s API, do a bunch of aggregation&#x2F;calculations on the data, and then display a report to the user.<p>I&#x27;m having a hard time figuring out how to make this all happen quickly. While I&#x27;m certain there are optimizations that can be made in my Python code, I&#x27;d like to find some way to be able to make multiple calculations on reasonably large sets of objects without making the user wait like 10 seconds.<p>The problem is that the data can change in a given moment. If the user makes changes to their data in the other software, there is no way for me to know that without hitting the API again for that info. So I don&#x27;t see a way that I can cache information or pre-fetch it without making a ridiculous number of requests to the API.<p>In a perfect world the API would have webhooks I could use to watch for data changes but that&#x27;s not an option.<p>Is my best bet to just optimize the factors I control to the best of my ability and hope my users can live with it?",
+      "time": 1640665998,
+      "title": "Ask HN: Is there a proper design pattern for this situation?",
+      "type": "story"
+    },
+    {
+      "by": "nerdbaggy",
+      "descendants": 1,
+      "id": 29710430,
+      "kids": [
+        29710436
+      ],
+      "score": 1,
+      "time": 1640665907,
+      "title": "A Plant That Sterilizes Medical Equipment Spews Cancer-Causing Pollution",
+      "type": "story",
+      "url": "https://www.propublica.org/article/a-plant-that-sterilizes-medical-equipment-spews-cancer-causing-pollution-on-tens-of-thousands-of-schoolchildren"
+    },
+    {
+      "by": "clouddrover",
+      "descendants": 0,
+      "id": 29710422,
+      "score": 1,
+      "time": 1640665862,
+      "title": "The African nation aiming to be a hydrogen superpower",
+      "type": "story",
+      "url": "https://www.bbc.com/news/business-59722297"
+    },
+    {
       "by": "jkuria",
       "descendants": 0,
       "id": 29710389,
@@ -55,7 +98,7 @@
     },
     {
       "by": "athinggoingon",
-      "descendants": 1,
+      "descendants": 3,
       "id": 29710314,
       "kids": [
         29710366
@@ -65,51 +108,6 @@
       "title": "It’s Madness What Is Happening to College Kids",
       "type": "story",
       "url": "https://brownstone.org/articles/its-madness-what-is-happening-to-college-kids/"
-    },
-    {
-      "by": "ceohockey60",
-      "descendants": 0,
-      "id": 29710311,
-      "score": 1,
-      "time": 1640664972,
-      "title": "Morris Chang's Last Speech",
-      "type": "story",
-      "url": "https://interconnected.blog/morris-changs-last-speech/"
-    },
-    {
-      "by": "sohkamyung",
-      "descendants": 0,
-      "id": 29710244,
-      "score": 1,
-      "time": 1640664456,
-      "title": "How to Create and Capture Ink Flow Photos",
-      "type": "story",
-      "url": "https://petapixel.com/2021/11/23/how-to-create-and-capture-stunning-ink-flow-photos/"
-    },
-    {
-      "by": "cardosof",
-      "descendants": 0,
-      "id": 29710222,
-      "score": 1,
-      "time": 1640664277,
-      "title": "US Doesn't Make the Top List for Internet Freedom",
-      "type": "story",
-      "url": "https://uk.pcmag.com/news/137633/us-doesnt-make-the-top-10-list-for-internet-freedom"
-    },
-    {
-      "by": "numberwan9",
-      "descendants": 3,
-      "id": 29710200,
-      "kids": [
-        29710363,
-        29710374,
-        29710201
-      ],
-      "score": 2,
-      "time": 1640664083,
-      "title": "Can we stop using HN as an obituary",
-      "type": "story",
-      "url": "https://hn.algolia.com/?q=has+died"
     }
   ]
 }
