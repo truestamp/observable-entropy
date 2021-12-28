@@ -4,7 +4,7 @@
       "by": "colinprince",
       "descendants": 0,
       "id": 29710538,
-      "score": 1,
+      "score": 2,
       "time": 1640666946,
       "title": "Prince of Persia JavaScript",
       "type": "story",
@@ -24,7 +24,7 @@
       "by": "Der_Einzige",
       "descendants": 0,
       "id": 29710470,
-      "score": 1,
+      "score": 2,
       "time": 1640666379,
       "title": "Show HN: A Reassuring Parables Generator (like from that Xkcd comic)",
       "type": "story",
@@ -42,8 +42,11 @@
     },
     {
       "by": "holden_nelson",
-      "descendants": 0,
+      "descendants": 1,
       "id": 29710441,
+      "kids": [
+        29710562
+      ],
       "score": 1,
       "text": "I&#x27;m building a simple crud app in Django which is basically enhanced reporting for commerce related software. So I pull information on behalf of a user from another software&#x27;s API, do a bunch of aggregation&#x2F;calculations on the data, and then display a report to the user.<p>I&#x27;m having a hard time figuring out how to make this all happen quickly. While I&#x27;m certain there are optimizations that can be made in my Python code, I&#x27;d like to find some way to be able to make multiple calculations on reasonably large sets of objects without making the user wait like 10 seconds.<p>The problem is that the data can change in a given moment. If the user makes changes to their data in the other software, there is no way for me to know that without hitting the API again for that info. So I don&#x27;t see a way that I can cache information or pre-fetch it without making a ridiculous number of requests to the API.<p>In a perfect world the API would have webhooks I could use to watch for data changes but that&#x27;s not an option.<p>Is my best bet to just optimize the factors I control to the best of my ability and hope my users can live with it?",
       "time": 1640665998,
