@@ -1,10 +1,49 @@
 {
   "stories": [
     {
+      "by": "Subsentient",
+      "descendants": 0,
+      "id": 29719604,
+      "score": 1,
+      "time": 1640733887,
+      "title": "Ask HN: What is a good joke that shows your personal sense of humor?",
+      "type": "story"
+    },
+    {
+      "by": "phh",
+      "descendants": 0,
+      "id": 29719602,
+      "score": 1,
+      "time": 1640733857,
+      "title": "Fun with GSIs: A retrospective on Project Treble’s impact on custom ROMs",
+      "type": "story",
+      "url": "https://old.reddit.com/r/Android/comments/rptcdq/fun_with_gsis_a_retrospective_on_project_trebles/"
+    },
+    {
+      "by": "enigmatic02",
+      "descendants": 0,
+      "id": 29719593,
+      "score": 1,
+      "time": 1640733818,
+      "title": "Favorite Books of 2021",
+      "type": "story",
+      "url": "https://www.productlessons.xyz//article/favorite-books-of-2021"
+    },
+    {
+      "by": "adamnemecek",
+      "descendants": 0,
+      "id": 29719565,
+      "score": 1,
+      "time": 1640733624,
+      "title": "Swift-bridge: Call Rust from Swift and vice versa",
+      "type": "story",
+      "url": "https://github.com/chinedufn/swift-bridge"
+    },
+    {
       "by": "Austin_Conlon",
       "descendants": 0,
       "id": 29719544,
-      "score": 1,
+      "score": 2,
       "time": 1640733502,
       "title": "Tuning Your Code’s Performance for Apple silicon",
       "type": "story",
@@ -59,46 +98,6 @@
       "title": "Nimble Chinese satellite grabs hi-res images of US city in seconds: researchers",
       "type": "story",
       "url": "https://www.scmp.com/news/china/science/article/3161178/nimble-chinese-satellite-grabs-hi-res-images-us-city-seconds"
-    },
-    {
-      "by": "carabiner",
-      "descendants": 0,
-      "id": 29719487,
-      "score": 2,
-      "time": 1640733194,
-      "title": "Is Our Society Manufacturing Depressed People?",
-      "type": "story",
-      "url": "https://www.psychologytoday.com/us/blog/shift-mind/201203/is-our-society-manufacturing-depressed-people"
-    },
-    {
-      "by": "progval",
-      "descendants": 0,
-      "id": 29719475,
-      "score": 1,
-      "text": "I maintain a bot that listens for URLs in a chat, fetches the first kB of the page to extract their &lt;title&gt; and post it in the chat.<p>A few years ago, it stopped working on Youtube. I increased the limit to 32kB, as I figured it would give a safe margin.<p>Well, it broke again some time this month:<p><pre><code>    &gt;&gt;&gt; import urllib.request\n    &gt;&gt;&gt; urllib.request.urlopen(&#x27;https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=dQw4w9WgXcQ&#x27;).read().index(b&#x27;&lt;title&#x27;)\n    192194\n</code></pre>\nThis seems to be mostly inlined minified Javascript. Why does Youtube do this instead of including scripts that could be cached?",
-      "time": 1640733101,
-      "title": "Ask HN: Why does YouTube have 200kB of JavaScript before the title tag?",
-      "type": "story"
-    },
-    {
-      "by": "DyslexicAtheist",
-      "descendants": 0,
-      "id": 29719445,
-      "score": 1,
-      "time": 1640732947,
-      "title": "How the U.S. Triggered a Massacre in Mexico (2017)",
-      "type": "story",
-      "url": "https://www.propublica.org/article/allende-zetas-cartel-massacre-and-the-us-dea"
-    },
-    {
-      "by": "infosecau",
-      "descendants": 0,
-      "id": 29719430,
-      "score": 2,
-      "time": 1640732856,
-      "title": "Turning Bad SSRF to Good SSRF: Websphere Portal",
-      "type": "story",
-      "url": "https://blog.assetnote.io/2021/12/26/chained-ssrf-websphere/"
     }
   ]
 }
