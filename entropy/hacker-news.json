@@ -1,6 +1,69 @@
 {
   "stories": [
     {
+      "by": "matthiaswh",
+      "descendants": 0,
+      "id": 29714042,
+      "score": 1,
+      "time": 1640701454,
+      "title": "Noncommercial site devoted to the collection of snow sleds",
+      "type": "story",
+      "url": "http://www.sledhill.com"
+    },
+    {
+      "by": "aww_dang",
+      "descendants": 0,
+      "id": 29714036,
+      "score": 1,
+      "time": 1640701427,
+      "title": "The Conflict of the Pygmies and Cranes",
+      "type": "story",
+      "url": "https://esoterx.com/2013/09/06/world-war-zero-the-forgotten-conflict-of-the-pygmies-and-crane/"
+    },
+    {
+      "by": "Tomte",
+      "descendants": 0,
+      "id": 29714033,
+      "score": 1,
+      "time": 1640701380,
+      "title": "Chinese scientists develop AI ‘prosecutor’ that can press its own charges",
+      "type": "story",
+      "url": "https://www.scmp.com/news/china/science/article/3160997/chinese-scientists-develop-ai-prosecutor-can-press-its-own"
+    },
+    {
+      "by": "neuralhealth",
+      "descendants": 1,
+      "id": 29714027,
+      "kids": [
+        29714028
+      ],
+      "score": 1,
+      "time": 1640701360,
+      "title": "Neural Health© Technology in Expo 2020 Dubai",
+      "type": "story",
+      "url": "https://www.linkedin.com/posts/expochile-dubai-2020_futureofhealthcare-futureofwork-creatingfuture-activity-6881554787242975233-Ejek"
+    },
+    {
+      "by": "ramimac",
+      "descendants": 0,
+      "id": 29714014,
+      "score": 1,
+      "time": 1640701263,
+      "title": "How bad are bad fundraising terms?",
+      "type": "story",
+      "url": "https://www.benkuhn.net/terms/"
+    },
+    {
+      "by": "myroon5",
+      "descendants": 0,
+      "id": 29714008,
+      "score": 1,
+      "time": 1640701203,
+      "title": "End of Year Pay Report 2021",
+      "type": "story",
+      "url": "https://www.levels.fyi/2021/"
+    },
+    {
       "by": "eigenhombre",
       "descendants": 0,
       "id": 29714003,
@@ -34,71 +97,11 @@
       "by": "nathan_phoenix",
       "descendants": 0,
       "id": 29713976,
-      "score": 1,
+      "score": 2,
       "time": 1640700983,
       "title": "Should you contribute open data to OpenStreetMap for free?",
       "type": "story",
       "url": "https://www.ctrl.blog/entry/re-maps-public-service.html"
-    },
-    {
-      "by": "ystad",
-      "descendants": 0,
-      "id": 29713970,
-      "score": 1,
-      "time": 1640700962,
-      "title": "2021's Top Stories About AI",
-      "type": "story",
-      "url": "https://spectrum.ieee.org/artificial-intelligence-2021"
-    },
-    {
-      "by": "pseudolus",
-      "descendants": 0,
-      "id": 29713948,
-      "score": 1,
-      "time": 1640700839,
-      "title": "The suspect science used to push aspiring Olympians to starve themselves",
-      "type": "story",
-      "url": "https://www.theglobeandmail.com/canada/article-the-suspect-science-used-to-push-aspiring-olympians-to-starve/"
-    },
-    {
-      "by": "katspaugh",
-      "descendants": 0,
-      "id": 29713937,
-      "score": 1,
-      "text": "<i>tl;dr</i>: I&#x27;ve created a live-coding environment with Canvas, Web Audio and setTimeout, here&#x27;s a demo: https:&#x2F;&#x2F;lambda.quest&#x2F;?gist=8eb332073b3b29ace1e2855dfdbad98f<p><i>About the project</i><p>Lambda Quest is a live-coding environment in your browser.\nWhen building Lambda Quest, I decided to go with native in-browser ES6 modules, without any compilation. It&#x27;s really refreshing to just write modern JS and not have to deal with Webpack.<p><i>Scheme + Emscripten</i><p>The core of the app is a Scheme interpreter called Gambit. It&#x27;s originally a C program that was compiled to JavaScript via Emscripten. It runs in a WebWorker and communicates with the main thread via postMessage.<p>To interact with Scheme, I&#x27;ve added the Monaco Editor. It&#x27;s the same open-source editor that powers the VSCode. Whenever you edit the Scheme code, and it&#x27;s syntactically correct, it will re-evaluate it live. So the results will be immediately visible on a Canvas.<p><i>Canvas</i><p>Speaking of Canvas, the rendering is fully asynchronous. Scheme puts Canvas method calls into an async queue. There&#x27;s a requestAnimationFrame loop running in the background that picks up any pushes to the queue. This makes animations possible through things like `(sleep 0.5)`.<p><i>Web Audio support</i><p>In addition to Canvas, I&#x27;ve implemented Web Audio support. So you can live-code music now!<p>Adding Web Audio wasn&#x27;t trivial because the Gambit interpreter is running in a Web Worker. So I have to send messages between the worker and the main JS thread to access any browser APIs.<p>Canvas was easy to implement, because it&#x27;s mostly procedural calls like `fillRect`, `stroke` etc. So I&#x27;m just sending commands from Lisp to JS.<p>Web Audio, on the other hand, is about creating trees of audio nodes. E.g. you create an Oscillator node and connect it to a Gain node, and finally connect the Gain node to a Destination node (output). Also you can set parameters on each node (e.g. the frequency of an oscillator).<p>This all means that Scheme needs a way to reference created nodes. However, I cannot send a node directly in a message from JS. Only atomic values like strings and numbers. To circumvent this limitation, I&#x27;ve created a registry of nodes in JS which can be accessed by id.<p>Scheme, when calling a Web Audio method, provides an id to store the result in. Also if it passes an id in one of the arguments, JavaScript looks it up in the registry and makes the call on the corresponding node.<p><i>setTimeout as a Scheme macro</i><p>Web Audio is not fun if you can&#x27;t program timed events for it. E.g. a sequence of notes, or a volume envelope that changes over time. So I had to make the Scheme code asynchronous.<p>Scheme, just like JavaScript, is single-threaded and &quot;synchronous&quot;. It needs a second process to tell it when to run a delayed call to achieve asynchronous behavior.<p>I&#x27;ve implemented a macro – https:&#x2F;&#x2F;github.com&#x2F;katspaugh&#x2F;lambda.quest&#x2F;blob&#x2F;main&#x2F;scheme&#x2F;w... – (which is btw my first macro ever) to put a Scheme callback in a JS `setTimeout`.<p>Macros, for me, is such a mind-blowing thing. It was amazing to code one purposefully, to achieve a practical goal.<p><i>GitHub API and OAuth</i><p>You can save your Scheme creations as gists on GitHub. I&#x27;ve implemented GitHub OAuth with a serverless worker on CloudFlare. The worker, of course, is also written in JS. All my projects are hosted on CloudFlare btw, it&#x27;s amazing.<p><i>Preact</i><p>Finally, I&#x27;ve used Preact and HTM for a React-like UI rendering. HTM is basically JS template strings that look like JSX and spit out DOM trees. Pretty neat, although a bit hard to edit.<p><i>Github</i><p>All the code is open-source (MIT) and can be read on GitHub: https:&#x2F;&#x2F;github.com&#x2F;katspaugh&#x2F;lambda.quest<p>Pull requests and feedback are very welcome. Thanks for reading!",
-      "time": 1640700791,
-      "title": "Show HN: Lambda Quest – Scheme live-coding",
-      "type": "story"
-    },
-    {
-      "by": "tosh",
-      "descendants": 0,
-      "id": 29713933,
-      "score": 1,
-      "time": 1640700771,
-      "title": "Turborepo",
-      "type": "story",
-      "url": "https://github.com/vercel/turborepo"
-    },
-    {
-      "by": "bartekrutkowski",
-      "descendants": 0,
-      "id": 29713878,
-      "score": 2,
-      "time": 1640700442,
-      "title": "Riot Games settles class-action gender discrimination lawsuit for $100M",
-      "type": "story",
-      "url": "https://www.engadget.com/riot-games-settles-class-action-gender-discrimination-lawsuit-100049078.html"
-    },
-    {
-      "by": "rustoo",
-      "descendants": 0,
-      "id": 29713866,
-      "score": 1,
-      "time": 1640700348,
-      "title": "Challenging ‘rule breakers’ – children will confront their peers",
-      "type": "story",
-      "url": "https://www.plymouth.ac.uk/news/challenging-rule-breakers-children-will-confront-their-peers-but-how-they-do-so-varies-across-cultures"
     }
   ]
 }
