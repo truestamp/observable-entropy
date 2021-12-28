@@ -1,10 +1,20 @@
 {
   "stories": [
     {
+      "by": "yakshaving_jgt",
+      "descendants": 0,
+      "id": 29709140,
+      "score": 1,
+      "time": 1640654110,
+      "title": "You Can Explain Functional Programming Using Emojis",
+      "type": "story",
+      "url": "https://ycombinator.chibicode.com/functional-programming-emojis"
+    },
+    {
       "by": "throwaway81523",
       "descendants": 0,
       "id": 29709112,
-      "score": 1,
+      "score": 2,
       "time": 1640653790,
       "title": "Long Covid – I have to choose between walking and talking",
       "type": "story",
@@ -22,9 +32,12 @@
     },
     {
       "by": "pseudolus",
-      "descendants": 0,
+      "descendants": 1,
       "id": 29709075,
-      "score": 1,
+      "kids": [
+        29709162
+      ],
+      "score": 3,
       "time": 1640653589,
       "title": "Tesla owner blew up Model S with dynamite rather than pay $22K to repair it",
       "type": "story",
@@ -67,7 +80,7 @@
       "by": "rolandog",
       "descendants": 0,
       "id": 29708990,
-      "score": 1,
+      "score": 2,
       "text": "A bit of context: I hadn&#x27;t tested restoring my backups for more than a year, and by the end of my restoration test, I noticed a warning from Déjà Dup telling me that some files could not be restored, and to make sure that I am able to write to them.<p>Among the files listed were these two files (dated 2020-07-10) which had a rather eye-caching sub-folder called &#x27;_!(:!b!&quot;v!(@!cw&quot;f!$%!.g!4!$!=&#x27; (without single quotes):<p><pre><code>  ~&#x2F;.java&#x2F;.userPrefs&#x2F;net&#x2F;puppygames&#x2F;applet&#x2F;Revenge of the Titans&#x2F;_!(:!b!&quot;v!(@!cw&quot;f!$%!.g!4!$!=&#x2F;prefs.xml\n</code></pre>\nand:<p><pre><code>  ~&#x2F;.java&#x2F;.userPrefs&#x2F;net&#x2F;puppygames&#x2F;applet&#x2F;Revenge of the Titans&#x2F;_!(:!b!&quot;v!(@!cw&quot;f!$%!.g!4!$!=&#x2F;rolandog&#x2F;prefs.xml\n</code></pre>\nThe XML files do not seem out of this world:<p><pre><code>  &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;\n  &lt;!DOCTYPE map SYSTEM &quot;http:&#x2F;&#x2F;java.sun.com&#x2F;dtd&#x2F;preferences.dtd&quot;&gt;\n  &lt;map MAP_XML_VERSION=&quot;1.0&quot;&gt;\n    &lt;entry key=&quot;active&quot; value=&quot;true&quot;&#x2F;&gt;\n    &lt;entry key=&quot;attempts.0.8&quot; value=&quot;1&quot;&#x2F;&gt;\n    &lt;entry key=&quot;attempts.0.9&quot; value=&quot;2&quot;&#x2F;&gt;\n    &lt;entry key=&quot;familiar.advancedexplosives.0.1&quot; value=&quot;0&quot;&#x2F;&gt;\n    &lt;entry key=&quot;familiar.advancedexplosives.0.2&quot; value=&quot;0&quot;&#x2F;&gt;\n  ...\n</code></pre>\nFor additional context: I had installed the game a while ago through Steam, and recently I uninstalled my whole library to make some space for some work-related stuff, so I&#x27;m unable to run the game or make tests.<p>The folder name seems rather unusual to me, and I&#x27;m unsure what to make of it.<p>However, I just wanted to validate if this was also normal for other users.",
       "time": 1640652990,
       "title": "Ask HN: Is this weird folder name indication of attempted log4shell attack?",
@@ -92,19 +105,6 @@
       "title": "Nostalgic gaming:playing video games of your youth reconnects you to yourself",
       "type": "story",
       "url": "https://www.theguardian.com/games/2021/dec/26/nostalgic-gaming-how-playing-the-video-games-of-your-youth-reconnects-you-to-yourself"
-    },
-    {
-      "by": "brandonlc",
-      "descendants": 1,
-      "id": 29708940,
-      "kids": [
-        29708954
-      ],
-      "score": 1,
-      "time": 1640652647,
-      "title": "The Young British Soldier",
-      "type": "story",
-      "url": "https://www.kiplingsociety.co.uk/poem/poems_youngbrit.htm"
     }
   ]
 }
