@@ -1,6 +1,26 @@
 {
   "stories": [
     {
+      "by": "etempleton",
+      "descendants": 0,
+      "id": 29722085,
+      "score": 1,
+      "time": 1640754186,
+      "title": "China – From Economic Miracle to Mirage",
+      "type": "story",
+      "url": "https://www.theguardian.com/business/2021/dec/28/from-economic-miracle-to-mirage-will-chinas-gdp-ever-overtake-the-us"
+    },
+    {
+      "by": "crowdswisdom",
+      "descendants": 0,
+      "id": 29722074,
+      "score": 1,
+      "text": "I&#x27;ve been learning a bit about Domain Driven Design, CQRS, and event sourcing. The domain I&#x27;m working with (at least parts of it) seems like an ideal use case of event sourcing.<p>But there&#x27;s a part of it I haven&#x27;t been able to wrap my head around: How to set up automated&#x2F;scheduled tasks.<p>I&#x27;m most familiar with Python and Node&#x2F;JavaScript, and that&#x27;s what I&#x27;m planning to use as a starting point for the back end of my system.<p>In the past I&#x27;ve set scripts running on a crontab, and scheduled tasks leveraging Celery, RabbitMQ, and Redis.. but I&#x27;ve never built something with scheduled data fetching that fed that data into an event sourced system. Using the tools I know don&#x27;t feel quite right.. like they&#x27;re the nail to my hammer and I&#x27;m missing something.<p>To simplify: Basically I have one service that&#x27;ll rely on an external data source (the data I need is available over a RESTful API), and another service that uses the resulting state of that data to create events in its own context.<p>Does anyone have experience with this sort of architecture? Could you offer any advice or point me at some resources?<p>Thank you in advance!",
+      "time": 1640754079,
+      "title": "Ask HN: Scheduled events in an event sourced system",
+      "type": "story"
+    },
+    {
       "by": "milkshakes",
       "descendants": 0,
       "id": 29722038,
@@ -82,26 +102,6 @@
       "title": "The Debian Logo",
       "type": "story",
       "url": "https://old.reddit.com/r/debianinrandomplaces/comments/ok5ui4/hi_all_i_am_the_guy_who_designed_the_debian_logo/"
-    },
-    {
-      "by": "lnyan",
-      "descendants": 0,
-      "id": 29721880,
-      "score": 1,
-      "time": 1640752225,
-      "title": "TPU: A Domain-Specific Supercomputer for Training Deep Neural Networks (2020)",
-      "type": "story",
-      "url": "https://cacm.acm.org/magazines/2020/7/245702-a-domain-specific-supercomputer-for-training-deep-neural-networks/fulltext"
-    },
-    {
-      "by": "presentation",
-      "descendants": 0,
-      "id": 29721878,
-      "score": 2,
-      "text": "My small, early-stage software startup would like to formalize and level up the rigor behind the quality of our releases. But all of the companies I&#x27;ve worked for in my career have either A) leaned on engineers to do QA (with mixed success), or B) didn&#x27;t have QA integrated into an engineering team, as a siloed function.<p>As a result I don&#x27;t really have a sharp instinct for what makes a &quot;great&quot; QA specialist stand out from the crowd, so: how do other companies here hire for that expertise?<p>As in, people who can embed in a product&#x2F;engineering team, take responsibility for release quality (but not absolve engineers of responsibility for it), and build a team culture around release excellence that is &quot;greater&quot; than what our engineers can achieve on their own. I&#x27;m curious how other startups approach this challenge, in 2022.<p>After reading through recent threads on HN on the subject [1][2], it seems like the crowd here believes that embedding QA in the development process as an equal collaborator with engineers is the right way to go; and also having had our engineers try out several automated test systems like Ghost Inspector, Rainforest QA, getting more in the habit of unit testing and so on, which certainly help—I&#x27;m thinking it still makes sense to actually have people embedded in our team, whose focus are on release quality.<p>[1] https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=27693744\n[2] https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=24546260",
-      "time": 1640752222,
-      "title": "Ask HN: How do you evaluate QA hires?",
-      "type": "story"
     }
   ]
 }
