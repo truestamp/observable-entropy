@@ -1,6 +1,59 @@
 {
   "stories": [
     {
+      "by": "rock3m",
+      "descendants": 0,
+      "id": 29730525,
+      "score": 1,
+      "time": 1640814658,
+      "title": "Code Reviews in Tech: The Missing Guide",
+      "type": "story",
+      "url": "https://gracehuang.gumroad.com/l/codereviews"
+    },
+    {
+      "by": "mhalle",
+      "descendants": 0,
+      "id": 29730523,
+      "score": 1,
+      "time": 1640814648,
+      "title": "Old Radiator Is a Pandemic-Fighting Weapon (2020)",
+      "type": "story",
+      "url": "https://www.bloomberg.com/news/articles/2020-08-05/the-curious-history-of-steam-heat-and-pandemics"
+    },
+    {
+      "by": "pierremenard",
+      "descendants": 0,
+      "id": 29730520,
+      "score": 2,
+      "time": 1640814639,
+      "title": "Show HN: \"Substack for RSS feeds”, built using Clojure and Datomic Ions",
+      "type": "story",
+      "url": "https://ab.xyz/posts/rss-to-email/"
+    },
+    {
+      "by": "j1elo",
+      "descendants": 1,
+      "id": 29730518,
+      "kids": [
+        29730544
+      ],
+      "score": 1,
+      "text": "There are lots of common misconceptions around ZFS, which I&#x27;ve been able to clarify during my learning to build a RaspberryPi-like NAS box (a ThinkCentre M910 Tiny). For example, a popular myth is that ZFS eats GBs of RAM to work properly, but it turns out that&#x27;s only true if deduplication is enabled.<p>But how about not using ECC RAM? (Which my box doesn&#x27;t support)<p>The most prominent writeup for this topic is a TrueNAS forums post called &quot;<i>ECC vs non-ECC RAM and ZFS</i>&quot; [1]. The author claims that bad non-ECC RAM will cause an explosion of corrupted files in ZFS systems, much much worse than what could happen on non-ZFS ones.<p>The post is 8 years old, but the problem still seems relevant today, as just 20 days ago I saw an HN user commenting about how they suffered a similar issue [2].<p>On the other hand, I&#x27;ve seen comments pointing out that ZFS without ECC RAM is not as bad as it has been implied [3]. Some commenter links to a couple places in HN ([4], [5]) where they debunk the logic behind the corruption scenario given in [1].<p>I guess a fair question would be: <i>What do you want from your NAS?</i>. What I want is to have a relatively unnattended NAS that I can use for weeks or months as my computer&#x27;s backup, without it silently corrupting my backup files. If a bad non-ECC RAM stick can cause whole file system corruption during a ZSF scrub, I might prefer running Ext4 with something like hashdeep [6], so I can detect the issue, change the bad RAM, and upload fresh backups to the box.<p>Comments and anecdotes are appreciated!<p>[1]: https:&#x2F;&#x2F;www.truenas.com&#x2F;community&#x2F;threads&#x2F;ecc-vs-non-ecc-ram-and-zfs.15449&#x2F; (Under <i>What happens when non-ECC RAM goes bad in a ZFS system?</i>)<p>[2]: https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=29492980<p>[3]: https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=27553356<p>[4]: https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=8293025<p>[5]: https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=14207520<p>[6]: http:&#x2F;&#x2F;md5deep.sourceforge.net&#x2F;",
+      "time": 1640814636,
+      "title": "Ask HN: ZFS without ECC RAM, how bad is it really?",
+      "type": "story"
+    },
+    {
+      "by": "sien",
+      "descendants": 0,
+      "id": 29730510,
+      "score": 1,
+      "time": 1640814607,
+      "title": "Are Video Games Addictive?",
+      "type": "story",
+      "url": "https://www.economist.com/international/2021/12/29/are-video-games-really-addictive"
+    },
+    {
       "by": "mymllnthaccount",
       "descendants": 0,
       "id": 29730499,
@@ -24,7 +77,7 @@
       "by": "enigmatic02",
       "descendants": 0,
       "id": 29730482,
-      "score": 2,
+      "score": 3,
       "time": 1640814446,
       "title": "You Can't Win",
       "type": "story",
@@ -49,56 +102,6 @@
       "title": "Secretive Expert Network Industry Sees Soaring Venture Capital Investment",
       "type": "story",
       "url": "https://expertopportunities.com/expert-networks-venture-capital/"
-    },
-    {
-      "by": "Erikun",
-      "descendants": 0,
-      "id": 29730452,
-      "score": 1,
-      "time": 1640814289,
-      "title": "Lessons I’ve learned from the Covid–19 pandemic",
-      "type": "story",
-      "url": "https://www.statnews.com/2021/12/28/10-lessons-ive-learned-from-the-covid-19-pandemic/"
-    },
-    {
-      "by": "arkadiyt",
-      "descendants": 0,
-      "id": 29730431,
-      "score": 1,
-      "time": 1640814175,
-      "title": "Parson says he believes prosecutor will bring charges in Post-Dispatch case",
-      "type": "story",
-      "url": "https://www.stltoday.com/news/local/govt-and-politics/parson-says-he-believes-prosecutor-will-bring-charges-in-post-dispatch-case/article_c4d88dae-fbf7-565f-a96c-e3589a626273.html"
-    },
-    {
-      "by": "enigmatic02",
-      "descendants": 0,
-      "id": 29730416,
-      "score": 1,
-      "time": 1640814122,
-      "title": "Productivity Frontier",
-      "type": "story",
-      "url": "https://www.scotthyoung.com/blog/2021/02/22/productivity-frontier/"
-    },
-    {
-      "by": "todsacerdoti",
-      "descendants": 0,
-      "id": 29730406,
-      "score": 1,
-      "time": 1640814072,
-      "title": "Happy 12th Birthday, Krebsonsecurity.com",
-      "type": "story",
-      "url": "https://krebsonsecurity.com/2021/12/happy-12th-birthday-krebsonsecurity-com/"
-    },
-    {
-      "by": "PaulHoule",
-      "descendants": 0,
-      "id": 29730399,
-      "score": 1,
-      "time": 1640814044,
-      "title": "Diabesity: An Overview of a Rising Epidemic",
-      "type": "story",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/21045078/"
     }
   ]
 }
