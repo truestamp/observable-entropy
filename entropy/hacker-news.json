@@ -1,6 +1,46 @@
 {
   "stories": [
     {
+      "by": "impendingchange",
+      "descendants": 0,
+      "id": 29730712,
+      "score": 1,
+      "time": 1640815720,
+      "title": "Covid Vaccines: Why They Cannot Work, Proof of Their Role in Deaths Post Vaccine [pdf]",
+      "type": "story",
+      "url": "https://doctors4covidethics.org/wp-content/uploads/2021/12/end-covax.pdf"
+    },
+    {
+      "by": "pezzana",
+      "descendants": 0,
+      "id": 29730695,
+      "score": 1,
+      "time": 1640815638,
+      "title": "Ukraine–NATO Relations",
+      "type": "story",
+      "url": "https://en.wikipedia.org/wiki/Ukraine%E2%80%93NATO_relations"
+    },
+    {
+      "by": "selimthegrim",
+      "descendants": 0,
+      "id": 29730683,
+      "score": 1,
+      "time": 1640815546,
+      "title": "Can This UT Professor Clean Up Outer Space?",
+      "type": "story",
+      "url": "https://www.texasmonthly.com/news-politics/moriba-jah-space-junk-privateer/"
+    },
+    {
+      "by": "chmaynard",
+      "descendants": 0,
+      "id": 29730678,
+      "score": 1,
+      "time": 1640815523,
+      "title": "How to Split Quoted Strings in Bash",
+      "type": "story",
+      "url": "https://blog.dnmfarrell.com/post/how-to-split-strings-in-bash/"
+    },
+    {
       "by": "medmondson",
       "descendants": 0,
       "id": 29730642,
@@ -68,52 +108,6 @@
       "title": "Show HN: \"Substack for RSS feeds”, built using Clojure and Datomic Ions",
       "type": "story",
       "url": "https://ab.xyz/posts/rss-to-email/"
-    },
-    {
-      "by": "j1elo",
-      "descendants": 1,
-      "id": 29730518,
-      "kids": [
-        29730544
-      ],
-      "score": 1,
-      "text": "There are lots of common misconceptions around ZFS, which I&#x27;ve been able to clarify during my learning to build a RaspberryPi-like NAS box (a ThinkCentre M910 Tiny). For example, a popular myth is that ZFS eats GBs of RAM to work properly, but it turns out that&#x27;s only true if deduplication is enabled.<p>But how about not using ECC RAM? (Which my box doesn&#x27;t support)<p>The most prominent writeup for this topic is a TrueNAS forums post called &quot;<i>ECC vs non-ECC RAM and ZFS</i>&quot; [1]. The author claims that bad non-ECC RAM will cause an explosion of corrupted files in ZFS systems, much much worse than what could happen on non-ZFS ones.<p>The post is 8 years old, but the problem still seems relevant today, as just 20 days ago I saw an HN user commenting about how they suffered a similar issue [2].<p>On the other hand, I&#x27;ve seen comments pointing out that ZFS without ECC RAM is not as bad as it has been implied [3]. Some commenter links to a couple places in HN ([4], [5]) where they debunk the logic behind the corruption scenario given in [1].<p>I guess a fair question would be: <i>What do you want from your NAS?</i>. What I want is to have a relatively unnattended NAS that I can use for weeks or months as my computer&#x27;s backup, without it silently corrupting my backup files. If a bad non-ECC RAM stick can cause whole file system corruption during a ZSF scrub, I might prefer running Ext4 with something like hashdeep [6], so I can detect the issue, change the bad RAM, and upload fresh backups to the box.<p>Comments and anecdotes are appreciated!<p>[1]: https:&#x2F;&#x2F;www.truenas.com&#x2F;community&#x2F;threads&#x2F;ecc-vs-non-ecc-ram-and-zfs.15449&#x2F; (Under <i>What happens when non-ECC RAM goes bad in a ZFS system?</i>)<p>[2]: https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=29492980<p>[3]: https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=27553356<p>[4]: https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=8293025<p>[5]: https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=14207520<p>[6]: http:&#x2F;&#x2F;md5deep.sourceforge.net&#x2F;",
-      "time": 1640814636,
-      "title": "Ask HN: ZFS without ECC RAM, how bad is it really?",
-      "type": "story"
-    },
-    {
-      "by": "sien",
-      "descendants": 1,
-      "id": 29730510,
-      "kids": [
-        29730629
-      ],
-      "score": 1,
-      "time": 1640814607,
-      "title": "Are Video Games Addictive?",
-      "type": "story",
-      "url": "https://www.economist.com/international/2021/12/29/are-video-games-really-addictive"
-    },
-    {
-      "by": "mymllnthaccount",
-      "descendants": 0,
-      "id": 29730499,
-      "score": 1,
-      "text": "I&#x27;ve managed a data science team now for about a year and I&#x27;m looking to explore new opportunities. My first step is to update my resume but I am struggling with how to talk about what I do as a leader. My first draft has a lot of &quot;led this project&quot;, &quot;orchestrated that effort&quot;, &quot;managed this system&quot;. I do not think my resume is coming off as being detailed. How should I be talking about projects that I am in charge of, but I am not the one doing the day to day work on?<p>For any given project, I meet with the business stakeholder and strategize on the goal and solution. I break the project out into milestones. Then I hand those off to an IC on my team. I give feedback on their implementation. I help them with code issues as they come up. I regularly meet with our partners and give status updates and timelines. I help the IC refine presentation materials. Finally I coordinate with other teams to get the solution put in a production environment.<p>Im struggling with how to write a resume that makes me look like a good management candidate and I&#x27;d appreciate any advice.<p>Thank you",
-      "time": 1640814551,
-      "title": "Ask HN: Can I get some advice for a new manager resume?",
-      "type": "story"
-    },
-    {
-      "by": "dukeofdoom",
-      "descendants": 0,
-      "id": 29730494,
-      "score": 2,
-      "time": 1640814527,
-      "title": "The Pfizer Inoculations for Covid-19 – More Harm Than Good – Video",
-      "type": "story",
-      "url": "https://www.canadiancovidcarealliance.org/media-resources/the-pfizer-inoculations-for-covid-19-more-harm-than-good-2/"
     }
   ]
 }
