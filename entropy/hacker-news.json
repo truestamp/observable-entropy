@@ -1,6 +1,36 @@
 {
   "stories": [
     {
+      "by": "tosh",
+      "descendants": 0,
+      "id": 29738115,
+      "score": 1,
+      "time": 1640882002,
+      "title": "Apple QuickTake",
+      "type": "story",
+      "url": "https://en.wikipedia.org/wiki/Apple_QuickTake"
+    },
+    {
+      "by": "sambucini",
+      "descendants": 0,
+      "id": 29738103,
+      "score": 1,
+      "text": "Hey all!\nlet&#x27;s say you have a lot data-sciency models in production (that for example forecast stuff) where each model relies on a bunch of hard-coded config parameters that you&#x27;ve found through some e.g. hyperparameter tuning etc. which you dont wanna rerun every time the production model runs. I end up hard-coding these values either directly in the production model code or put them in an enum&#x2F;json somewhere. \nHowever, I wish I had some &quot;config parameter management tool&quot; with a pretty GUI and API that allowed me to store the parameters in a central database which a few features:<p>- allow for programmatically writing new parameters<p>- allow the production models to programmatically query the parameters they&#x27;re supposed to use<p>- do versioning on the parameter sets, as it&#x27;s useful to keep the history of parameters for backtesting&#x2F;reporting<p>- have some logic of structuring the parameter sets thrugh grouping&#x2F;tagging and&#x2F;or a hierarchical model so all sets are not just one big mess<p>- finally allow of course for different parameter set structures, as different models have different parameters<p>- ideally a GUI<p>I didn&#x27;t manage to find anything like it online, are you aware of anything? How are you dealing with that topic if it&#x27;s an issue for you as well?<p>thanks a lot in advance!",
+      "time": 1640881944,
+      "title": "Ask HN: What is good open and flexible system for managing configs?",
+      "type": "story"
+    },
+    {
+      "by": "throwaway946513",
+      "descendants": 0,
+      "id": 29738082,
+      "score": 1,
+      "time": 1640881827,
+      "title": "The minute hand shows progress vs. digital time.[YouTube]",
+      "type": "story",
+      "url": "https://www.youtube.com/watch?v=NeopkvAP-ag"
+    },
+    {
       "by": "launchiterate",
       "descendants": 0,
       "id": 29738073,
@@ -69,43 +99,6 @@
       "title": "Algorithm knows about drugs that don’t exist yet",
       "type": "story",
       "url": "https://undark.org/undark-author/doug-johnson/"
-    },
-    {
-      "by": "andruby",
-      "descendants": 1,
-      "id": 29737973,
-      "kids": [
-        29738074,
-        29738006
-      ],
-      "score": 5,
-      "time": 1640881186,
-      "title": "LastPass blog: Unusual Login Activity was due to bug",
-      "type": "story",
-      "url": "https://blog.lastpass.com/2021/12/unusual-attempted-login-activity-how-lastpass-protects-you/"
-    },
-    {
-      "by": "JadoJodo",
-      "descendants": 1,
-      "id": 29737955,
-      "kids": [
-        29737984
-      ],
-      "score": 1,
-      "time": 1640881047,
-      "title": "How often do people copy and paste from Stack Overflow? Now we know",
-      "type": "story",
-      "url": "https://stackoverflow.blog/2021/12/30/how-often-do-people-actually-copy-and-paste-from-stack-overflow-now-we-know/"
-    },
-    {
-      "by": "xhfloz",
-      "descendants": 0,
-      "id": 29737943,
-      "score": 2,
-      "time": 1640880982,
-      "title": "Personal Websites in 2021: Year in Review",
-      "type": "story",
-      "url": "https://fyi.mmm.page/2021"
     }
   ]
 }
