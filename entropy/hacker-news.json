@@ -1,6 +1,52 @@
 {
   "stories": [
     {
+      "by": "pagecow",
+      "descendants": 1,
+      "id": 29750599,
+      "kids": [
+        29750601
+      ],
+      "score": 1,
+      "time": 1640973584,
+      "title": "Google Ads needs to be regulated over their account suspension practices",
+      "type": "story",
+      "url": "https://ads.google.com/intl/ja_jp/home/"
+    },
+    {
+      "by": "olvy0",
+      "descendants": 0,
+      "id": 29750582,
+      "score": 1,
+      "time": 1640973464,
+      "title": "Prepare your application for the Japanese era change",
+      "type": "story",
+      "url": "https://docs.microsoft.com/en-us/windows/apps/design/globalizing/japanese-era-change"
+    },
+    {
+      "by": "andreyk",
+      "descendants": 0,
+      "id": 29750563,
+      "score": 1,
+      "time": 1640973394,
+      "title": "AI News in 2021: A Digest",
+      "type": "story",
+      "url": "https://www.skynettoday.com/overviews/ai-news-2021"
+    },
+    {
+      "by": "neonate",
+      "descendants": 1,
+      "id": 29750552,
+      "kids": [
+        29750559
+      ],
+      "score": 2,
+      "time": 1640973334,
+      "title": "Shard Manager: A generic shard management framework for geo-distributed apps",
+      "type": "story",
+      "url": "https://research.facebook.com/publications/shard-manager-a-generic-shard-management-framework-for-geo-distributed-applications/"
+    },
+    {
       "by": "kadomony",
       "descendants": 0,
       "id": 29750531,
@@ -21,8 +67,11 @@
     },
     {
       "by": "amichail",
-      "descendants": 0,
+      "descendants": 1,
       "id": 29750500,
+      "kids": [
+        29750590
+      ],
       "score": 1,
       "text": "In other words, who would want no restrictions along with the risk of brain damage and&#x2F;or a heart attack?",
       "time": 1640973078,
@@ -31,9 +80,10 @@
     },
     {
       "by": "tr1ll10nb1ll",
-      "descendants": 1,
+      "descendants": 2,
       "id": 29750490,
       "kids": [
+        29750588,
         29750535
       ],
       "score": 1,
@@ -60,55 +110,6 @@
       "title": "Can You Sail from the Great Lakes to the Ocean?",
       "type": "story",
       "url": "http://sailoradvice.com/can-you-sail-from-the-great-lakes-to-the-ocean/"
-    },
-    {
-      "by": "gaze",
-      "descendants": 0,
-      "id": 29750377,
-      "score": 1,
-      "text": "I work in a small research group in a university where I&#x27;m the only one coming in with a background that leads one to care about maintenance and upkeep of infrastructure software. That means that whatever I set up should be trivially maintainable by those coming after. Ideally, it should be able to just be hands off for the next 10 years, but I know this is a bit unrealistic, unless the only application is a static site or the application is hosted on an air gapped machine.<p>That said, what&#x27;s the best way to reduce or offload the maintenance surface area in a way that&#x27;s most trivial to budget? I&#x27;ve been away from infrastructure myself for about 10-15 years now, and am just barely familiar with what Docker, k8s, and all this other stuff is.<p>Is there some way to box up the application code and libraries and let it run on a remote machine that someone else maintains? Amazon Fargate seems close but I&#x27;m terrified about misusing their services and ending up with a huge bill. Heroku might work too if I can slot everything I&#x27;m doing into their services. I really would like to have a timeseries DB like Influx or Timescale, but the load is so tiny that Sqlite or Postgres might do just fine. The cloud offerings from Influx and Timescale are just too expensive -- what we&#x27;re doing would run just fine on an Rpi4 with a USB3 attached drive, but now we&#x27;re back to a machine that needs to be maintained.<p>One thing I&#x27;m quite weary of is pay per request. I would much rather pay a fixed cost per month and make users wait, rather than having the price per month just be a question mark. Again it&#x27;s an internal app -- I&#x27;m not trying to hit any kind of latency target, and can build clients with some degree of robustness to services going down or timing out.<p>The most important things to me are hands-offness and fixed cost.<p>Any thoughts?",
-      "time": 1640972498,
-      "title": "Ask HN: Reducing the maintenance surface area of hosting a small internal app",
-      "type": "story"
-    },
-    {
-      "by": "starbist",
-      "descendants": 2,
-      "id": 29750355,
-      "kids": [
-        29750428,
-        29750460
-      ],
-      "score": 1,
-      "text": "I am starting fresh.\nLooking at the same reused posts finally did it for me.",
-      "time": 1640972415,
-      "title": "I just unfollowed everyone on Twitter",
-      "type": "story"
-    },
-    {
-      "by": "wallflower",
-      "descendants": 1,
-      "id": 29750353,
-      "kids": [
-        29750497,
-        29750419,
-        29750438
-      ],
-      "score": 2,
-      "text": "Given the removal of the need to move to a High-COL area to work for a FAANG-type or FAANG-aspiring company with the rise in intermediate-to-senior level remote work opportunities for some of them, I feel that it might be possible to FIRE for more of us.<p>I&#x27;ve always been fortunate enough to avoid grinding LeetCode, telling myself I don&#x27;t want to jump through those hoops (rotating a red-black tree on a whiteboard) and that I was happy enough at non-FAANG companies. I know that at almost all of these companies they will ask you LC medium (or even LC hard) questions. However, the death of a close friend has made me reevaluate whether I want to work until 65. Maybe retiring early or at least having the option to not work full time makes sense. I do know that you can still live a good life before you are retired, and I am guilty of &quot;Groundhog Day&quot; living like some of us are.<p>If you were not hired into FAANG out of college and were rusty on algorithms and data structures, what advice would you like to share on getting hired into FAANG? What did you have to do to prepare successfully for the interviews? How many &quot;practice&quot; interviews did you do? How much time did you spend every week? How did you maintain discipline during the grind Did you have a coach or some coach-type program? What books or courses would you recommend? Thanks for any input. Happy new year!",
-      "time": 1640972408,
-      "title": "Ask HN: If not fresh out of college, what did you do to join a FAANG?",
-      "type": "story"
-    },
-    {
-      "by": "nutshell89",
-      "descendants": 0,
-      "id": 29750335,
-      "score": 1,
-      "time": 1640972317,
-      "title": "Is it possible to react within 100 ms in a sprint start? (2018)",
-      "type": "story",
-      "url": "https://www.basvanhooren.com/is-it-possible-to-react-faster-than-100-ms-in-a-sprint-start/"
     }
   ]
 }
