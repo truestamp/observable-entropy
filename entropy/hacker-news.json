@@ -1,6 +1,49 @@
 {
   "stories": [
     {
+      "by": "ericmay",
+      "descendants": 0,
+      "id": 29750397,
+      "score": 1,
+      "time": 1640972581,
+      "title": "Can You Sail from the Great Lakes to the Ocean?",
+      "type": "story",
+      "url": "http://sailoradvice.com/can-you-sail-from-the-great-lakes-to-the-ocean/"
+    },
+    {
+      "by": "gaze",
+      "descendants": 0,
+      "id": 29750377,
+      "score": 1,
+      "text": "I work in a small research group in a university where I&#x27;m the only one coming in with a background that leads one to care about maintenance and upkeep of infrastructure software. That means that whatever I set up should be trivially maintainable by those coming after. Ideally, it should be able to just be hands off for the next 10 years, but I know this is a bit unrealistic, unless the only application is a static site or the application is hosted on an air gapped machine.<p>That said, what&#x27;s the best way to reduce or offload the maintenance surface area in a way that&#x27;s most trivial to budget? I&#x27;ve been away from infrastructure myself for about 10-15 years now, and am just barely familiar with what Docker, k8s, and all this other stuff is.<p>Is there some way to box up the application code and libraries and let it run on a remote machine that someone else maintains? Amazon Fargate seems close but I&#x27;m terrified about misusing their services and ending up with a huge bill. Heroku might work too if I can slot everything I&#x27;m doing into their services. I really would like to have a timeseries DB like Influx or Timescale, but the load is so tiny that Sqlite or Postgres might do just fine. The cloud offerings from Influx and Timescale are just too expensive -- what we&#x27;re doing would run just fine on an Rpi4 with a USB3 attached drive, but now we&#x27;re back to a machine that needs to be maintained.<p>Any thoughts?",
+      "time": 1640972498,
+      "title": "Ask HN: Reducing the maintenance surface area of hosting a small internal app",
+      "type": "story"
+    },
+    {
+      "by": "starbist",
+      "descendants": 0,
+      "id": 29750355,
+      "score": 1,
+      "text": "I am starting fresh.\nLooking at the same reused posts finally did it for me.",
+      "time": 1640972415,
+      "title": "I just unfollowed everyone on Twitter",
+      "type": "story"
+    },
+    {
+      "by": "wallflower",
+      "descendants": 1,
+      "id": 29750353,
+      "kids": [
+        29750419
+      ],
+      "score": 2,
+      "text": "Given the removal of the need to move to a High-COL area to work for a FAANG-type or FAANG-aspiring company with the rise in intermediate-to-senior level remote work opportunities for some of them, I feel that it might be possible to FIRE for more of us.<p>I&#x27;ve always been fortunate enough to avoid grinding LeetCode, telling myself I don&#x27;t want to jump through those hoops (rotating a red-black tree on a whiteboard) and that I was happy enough at non-FAANG companies. I know that at almost all of these companies they will ask you LC medium (or even LC hard) questions. However, the death of a close friend has made me reevaluate whether I want to work until 65. Maybe retiring early or at least having the option to not work full time makes sense. I do know that you can still live a good life before you are retired, and I am guilty of &quot;Groundhog Day&quot; living like some of us are.<p>If you were not hired into FAANG out of college and were rusty on algorithms and data structures, what advice would you like to share on getting hired into FAANG? What did you have to do to prepare successfully for the interviews? How many &quot;practice&quot; interviews did you do? How much time did you spend every week? How did you maintain discipline during the grind Did you have a coach or some coach-type program? What books or courses would you recommend? Thanks for any input. Happy new year!",
+      "time": 1640972408,
+      "title": "Ask HN: If not fresh out of college, what did you do to join a FAANG?",
+      "type": "story"
+    },
+    {
       "by": "nutshell89",
       "descendants": 0,
       "id": 29750335,
@@ -15,15 +58,19 @@
       "descendants": 0,
       "id": 29750318,
       "score": 1,
-      "text": "I can&#x27;t make a poll on HN, but I would like everyone to contribute with an opinion. Which languages are worth devote learning in 2022? Both for beginners and experts. And what about the new frameworks?<p>Please, be patient and open :)<p>Also: Check the 2017 post. https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=13161700",
+      "text": "I can&#x27;t make a poll on HN, but I would like everyone to contribute with an opinion. Which languages are worth devote learning in 2022? Both for beginners and experts. And what about the new frameworks?<p>Please, be patient and open :)<p>2015 post: https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=8803678<p>2017 post: https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=13161700",
       "time": 1640972229,
       "title": "Programming languages and frameworks to learn in 2022",
       "type": "story"
     },
     {
       "by": "gautamcgoel",
-      "descendants": 0,
+      "descendants": 2,
       "id": 29750308,
+      "kids": [
+        29750384,
+        29750378
+      ],
       "score": 1,
       "time": 1640972194,
       "title": "Ask HN: What are your predictions for 2022?",
@@ -58,46 +105,6 @@
       "title": "Our favorite two-player board games, 2019 edition",
       "type": "story",
       "url": "https://arstechnica.com/gaming/2019/02/our-favorite-two-player-board-games-2019-edition/"
-    },
-    {
-      "by": "Tomte",
-      "descendants": 0,
-      "id": 29750289,
-      "score": 1,
-      "time": 1640972130,
-      "title": "How a new species is named (2013)",
-      "type": "story",
-      "url": "https://www.theguardian.com/science/lost-worlds/2013/jun/21/dinosaurs-fossils"
-    },
-    {
-      "by": "miles",
-      "descendants": 0,
-      "id": 29750285,
-      "score": 2,
-      "time": 1640972118,
-      "title": "'I make a fortune buying up abandoned shipping containers'",
-      "type": "story",
-      "url": "https://www.telegraph.co.uk/money/consumer-affairs/make-millions-buying-abandoned-shipping-containers-selling-contents/"
-    },
-    {
-      "by": "danielpeach",
-      "descendants": 0,
-      "id": 29750238,
-      "score": 1,
-      "time": 1640971846,
-      "title": "Go Promises",
-      "type": "story",
-      "url": "https://github.com/danielpeach/promise"
-    },
-    {
-      "by": "ystad",
-      "descendants": 0,
-      "id": 29750218,
-      "score": 2,
-      "time": 1640971756,
-      "title": "Research is a self-correcting process, but that fact is often lost on the public",
-      "type": "story",
-      "url": "https://www.scientificamerican.com/article/sometimes-science-is-wrong/"
     }
   ]
 }
