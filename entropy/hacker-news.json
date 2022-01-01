@@ -1,6 +1,46 @@
 {
   "stories": [
     {
+      "by": "rascul",
+      "descendants": 0,
+      "id": 29754873,
+      "score": 1,
+      "text": "I noticed earlier that ping (mine is from iputils [0]) calls bind():<p><pre><code>    rascul@smarts:~&gt; strace -fe bind ping -c1 google.com &gt; &#x2F;dev&#x2F;null\n    bind(5, {sa_family=AF_NETLINK, nl_pid=0, nl_groups=00000000}, 12) = 0\n    +++ exited with 0 +++\n</code></pre>\nThis confused me, because I didn&#x27;t understand why ping needed to bind(). I understood ping to send an ICMP echo request and time the reply [1]. I wasn&#x27;t sure why ping needed to act as a server for this. This appears to be Netlink related, according to the sa_family in the bind() call.<p>I asked about this on IRC, the #linux [2] channel on Libera [3]. Several people helped do some digging, and it looks like it might come from a getaddrinfo() call, but we weren&#x27;t able to verify that. We noticed that bind() isn&#x27;t called for some hosts:<p><pre><code>    rascul@smarts:~&gt; strace -fe bind ping -c1 kernel.org &gt; &#x2F;dev&#x2F;null\n    +++ exited with 0 +++\n</code></pre>\nNor is bind() called for ip addresses:<p><pre><code>    rascul@smarts:~&gt; strace -fe bind ping -c1 9.9.9.9 &gt; &#x2F;dev&#x2F;null\n    +++ exited with 0 +++\n</code></pre>\nI wasn&#x27;t able to test it at the time, but I was informed that ping from busybox sometimes calls bind() also.<p>I don&#x27;t know that there&#x27;s any security implications involved, but mostly I&#x27;m just curious, why does ping call bind()? It would be great if anyone was able to help shed some light on this.<p>[0] https:&#x2F;&#x2F;github.com&#x2F;iputils&#x2F;iputils&#x2F;blob&#x2F;master&#x2F;ping&#x2F;ping.c<p>[1] https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Internet_Control_Message_Protocol<p>[2] https:&#x2F;&#x2F;linux.chat&#x2F;linux-on-libera&#x2F;<p>[3] https:&#x2F;&#x2F;libera.chat&#x2F;",
+      "time": 1641004363,
+      "title": "Why does ping on Linux call bind()?",
+      "type": "story"
+    },
+    {
+      "by": "vanusa",
+      "descendants": 0,
+      "id": 29754871,
+      "score": 1,
+      "time": 1641004346,
+      "title": "I Grew Up Celebrating New Year's Evce Like Frederick Douglass",
+      "type": "story",
+      "url": "https://www.nytimes.com/2021/12/30/opinion/watch-night-new-years-eve.html"
+    },
+    {
+      "by": "mrry",
+      "descendants": 0,
+      "id": 29754868,
+      "score": 2,
+      "time": 1641004327,
+      "title": "Writing New System Software",
+      "type": "story",
+      "url": "https://borud.no/notes/2021/system-software/"
+    },
+    {
+      "by": "behnamoh",
+      "descendants": 0,
+      "id": 29754866,
+      "score": 1,
+      "text": "Given that nothing is completely secure and immune to attack vectors, isn&#x27;t the whole idea of smart homes (e.g., turning off the lights using Siri) always going to be dangerous?",
+      "time": 1641004323,
+      "title": "Ask HN: Is “smart home” a good idea?",
+      "type": "story"
+    },
+    {
       "by": "shelfchair",
       "descendants": 0,
       "id": 29754834,
@@ -31,14 +71,14 @@
     },
     {
       "by": "type0",
-      "descendants": 3,
+      "descendants": 4,
       "id": 29754789,
       "kids": [
         29754847,
         29754824,
         29754842
       ],
-      "score": 10,
+      "score": 12,
       "time": 1641003537,
       "title": "TikTok trend that makes teens believe they have serious mental disorders",
       "type": "story",
@@ -63,49 +103,6 @@
       "title": "Peloton: From Pandemic Winner to HBO Punchline",
       "type": "story",
       "url": "https://www.wsj.com/articles/inside-a-year-at-peloton-from-pandemic-winner-to-hbo-punchline-11640952004"
-    },
-    {
-      "by": "vinhnx",
-      "descendants": 0,
-      "id": 29754757,
-      "score": 1,
-      "text": "Hello and Happy New Year HN! Hope all the bests in 2022. So I&#x27;ve been working on a minimal calendar app , named Clendar (Calendar without an &#x27;a&#x27;). I know, it&#x27;s not a good SEO name, but I will go with it :)<p>I&#x27;ve been building Clendar on my spare time. At first, it&#x27;s just a side weekend project so that I can learn new Apple technologies, but, the app came to the point of usability that I think I should publish on the App Store anyway for the world to know and use it. Besides, I have been trying to design the app for minimal and usability in mind. Also, the app is fully open-source, as a way for me to give back to the app developers community.<p>+ App Store: https:&#x2F;&#x2F;apps.apple.com&#x2F;app&#x2F;clendar-a-calendar-app&#x2F;id1548102041<p>+ Landing page: https:&#x2F;&#x2F;clendar.info<p>I&#x27;m happy to answer any questions, thanks!",
-      "time": 1641003170,
-      "title": "Show HN: Clendar, a Minimal Calendar App",
-      "type": "story"
-    },
-    {
-      "by": "jldugger",
-      "descendants": 0,
-      "id": 29754734,
-      "score": 1,
-      "time": 1641002952,
-      "title": "George Orwell's Critique of Rudyard Kipling",
-      "type": "story",
-      "url": "https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/rudyard-kipling/"
-    },
-    {
-      "by": "laumars",
-      "descendants": 1,
-      "id": 29754722,
-      "kids": [
-        29754791
-      ],
-      "score": 1,
-      "text": "I don’t give a damn about Christmas, family does so I partake for the sake of them. But NYE celebrations is my thing. So happy new year to all and I hope 2022 brings more joy and prosperousness than 2021.",
-      "time": 1641002805,
-      "title": "Happy New Year HN",
-      "type": "story"
-    },
-    {
-      "by": "geox",
-      "descendants": 0,
-      "id": 29754683,
-      "score": 3,
-      "time": 1641002377,
-      "title": "Sometimes Science Is Wrong",
-      "type": "story",
-      "url": "https://www.scientificamerican.com/article/sometimes-science-is-wrong/"
     }
   ]
 }
