@@ -1,6 +1,26 @@
 {
   "stories": [
     {
+      "by": "adamkl",
+      "descendants": 0,
+      "id": 29754974,
+      "score": 1,
+      "time": 1641005265,
+      "title": "EDN: Extensible Data Notation",
+      "type": "story",
+      "url": "https://github.com/edn-format/edn"
+    },
+    {
+      "by": "mezod",
+      "descendants": 0,
+      "id": 29754972,
+      "score": 1,
+      "text": "Not necessarily about tech&#x2F;code, anything is fair game.",
+      "time": 1641005233,
+      "title": "Ask HN: What are you learning about?",
+      "type": "story"
+    },
+    {
       "by": "mitchbob",
       "descendants": 1,
       "id": 29754930,
@@ -47,6 +67,9 @@
       "by": "mooreds",
       "descendants": 0,
       "id": 29754893,
+      "kids": [
+        29754964
+      ],
       "score": 1,
       "time": 1641004566,
       "title": "Do you need a database for that Ory stack?",
@@ -65,8 +88,11 @@
     },
     {
       "by": "rascul",
-      "descendants": 0,
+      "descendants": 1,
       "id": 29754873,
+      "kids": [
+        29754970
+      ],
       "score": 1,
       "text": "I noticed earlier that ping (mine is from iputils [0]) calls bind():<p><pre><code>    rascul@smarts:~&gt; strace -fe bind ping -c1 google.com &gt; &#x2F;dev&#x2F;null\n    bind(5, {sa_family=AF_NETLINK, nl_pid=0, nl_groups=00000000}, 12) = 0\n    +++ exited with 0 +++\n</code></pre>\nThis confused me, because I didn&#x27;t understand why ping needed to bind(). I understood ping to send an ICMP echo request and time the reply [1]. I wasn&#x27;t sure why ping needed to act as a server for this. This appears to be Netlink related, according to the sa_family in the bind() call.<p>I asked about this on IRC, the #linux [2] channel on Libera [3]. Several people helped do some digging, and it looks like it might come from a getaddrinfo() call, but we weren&#x27;t able to verify that. We noticed that bind() isn&#x27;t called for some hosts:<p><pre><code>    rascul@smarts:~&gt; strace -fe bind ping -c1 kernel.org &gt; &#x2F;dev&#x2F;null\n    +++ exited with 0 +++\n</code></pre>\nNor is bind() called for ip addresses:<p><pre><code>    rascul@smarts:~&gt; strace -fe bind ping -c1 9.9.9.9 &gt; &#x2F;dev&#x2F;null\n    +++ exited with 0 +++\n</code></pre>\nI wasn&#x27;t able to test it at the time, but I was informed that ping from busybox sometimes calls bind() also.<p>I don&#x27;t know that there&#x27;s any security implications involved, but mostly I&#x27;m just curious, why does ping call bind()? It would be great if anyone was able to help shed some light on this.<p>[0] https:&#x2F;&#x2F;github.com&#x2F;iputils&#x2F;iputils&#x2F;blob&#x2F;master&#x2F;ping&#x2F;ping.c<p>[1] https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Internet_Control_Message_Protocol<p>[2] https:&#x2F;&#x2F;linux.chat&#x2F;linux-on-libera&#x2F;<p>[3] https:&#x2F;&#x2F;libera.chat&#x2F;",
       "time": 1641004363,
@@ -82,26 +108,6 @@
       "title": "I Grew Up Celebrating New Year's Eve Like Frederick Douglass",
       "type": "story",
       "url": "https://www.nytimes.com/2021/12/30/opinion/watch-night-new-years-eve.html"
-    },
-    {
-      "by": "mrry",
-      "descendants": 0,
-      "id": 29754868,
-      "score": 2,
-      "time": 1641004327,
-      "title": "Writing New System Software",
-      "type": "story",
-      "url": "https://borud.no/notes/2021/system-software/"
-    },
-    {
-      "by": "behnamoh",
-      "descendants": 0,
-      "id": 29754866,
-      "score": 1,
-      "text": "Given that nothing is completely secure and immune to attack vectors, isn&#x27;t the whole idea of smart homes (e.g., turning off the lights using Siri) always going to be dangerous?",
-      "time": 1641004323,
-      "title": "Ask HN: Is “smart home” a good idea?",
-      "type": "story"
     }
   ]
 }
