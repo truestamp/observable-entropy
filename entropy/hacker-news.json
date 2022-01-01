@@ -1,6 +1,36 @@
 {
   "stories": [
     {
+      "by": "hochmartinez",
+      "descendants": 0,
+      "id": 29755052,
+      "score": 1,
+      "time": 1641005988,
+      "title": "How Chicago’s Poop Becomes Fertilizer",
+      "type": "story",
+      "url": "https://nextcity.org/urbanist-news/how-chicagos-poop-becomes-amazing-fertilizer"
+    },
+    {
+      "by": "ca98am79",
+      "descendants": 0,
+      "id": 29755046,
+      "score": 1,
+      "time": 1641005937,
+      "title": "New Year Resolutions – and My Big Goal in 2022",
+      "type": "story",
+      "url": "https://nextlevelchess.blog/new-year-resolutions-and-my-big-goal-in-2022/"
+    },
+    {
+      "by": "plibither8",
+      "descendants": 0,
+      "id": 29755025,
+      "score": 2,
+      "time": 1641005788,
+      "title": "Turboencabulator",
+      "type": "story",
+      "url": "https://en.wikipedia.org/wiki/Turboencabulator"
+    },
+    {
       "by": "elevaet",
       "descendants": 0,
       "id": 29754990,
@@ -75,39 +105,6 @@
       "title": "Do you need a database for that Ory stack?",
       "type": "story",
       "url": "https://gruchalski.com/posts/2021-05-23-do-you-really-need-a-database-for-that-ory-stack/"
-    },
-    {
-      "by": "wyldfire",
-      "descendants": 0,
-      "id": 29754884,
-      "score": 1,
-      "time": 1641004508,
-      "title": "Zephyr RTOS",
-      "type": "story",
-      "url": "https://docs.zephyrproject.org/latest/introduction/index.html"
-    },
-    {
-      "by": "rascul",
-      "descendants": 1,
-      "id": 29754873,
-      "kids": [
-        29754970
-      ],
-      "score": 1,
-      "text": "I noticed earlier that ping (mine is from iputils [0]) calls bind():<p><pre><code>    rascul@smarts:~&gt; strace -fe bind ping -c1 google.com &gt; &#x2F;dev&#x2F;null\n    bind(5, {sa_family=AF_NETLINK, nl_pid=0, nl_groups=00000000}, 12) = 0\n    +++ exited with 0 +++\n</code></pre>\nThis confused me, because I didn&#x27;t understand why ping needed to bind(). I understood ping to send an ICMP echo request and time the reply [1]. I wasn&#x27;t sure why ping needed to act as a server for this. This appears to be Netlink related, according to the sa_family in the bind() call.<p>I asked about this on IRC, the #linux [2] channel on Libera [3]. Several people helped do some digging, and it looks like it might come from a getaddrinfo() call, but we weren&#x27;t able to verify that. We noticed that bind() isn&#x27;t called for some hosts:<p><pre><code>    rascul@smarts:~&gt; strace -fe bind ping -c1 kernel.org &gt; &#x2F;dev&#x2F;null\n    +++ exited with 0 +++\n</code></pre>\nNor is bind() called for ip addresses:<p><pre><code>    rascul@smarts:~&gt; strace -fe bind ping -c1 9.9.9.9 &gt; &#x2F;dev&#x2F;null\n    +++ exited with 0 +++\n</code></pre>\nI wasn&#x27;t able to test it at the time, but I was informed that ping from busybox sometimes calls bind() also.<p>I don&#x27;t know that there&#x27;s any security implications involved, but mostly I&#x27;m just curious, why does ping call bind()? It would be great if anyone was able to help shed some light on this.<p>[0] https:&#x2F;&#x2F;github.com&#x2F;iputils&#x2F;iputils&#x2F;blob&#x2F;master&#x2F;ping&#x2F;ping.c<p>[1] https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Internet_Control_Message_Protocol<p>[2] https:&#x2F;&#x2F;linux.chat&#x2F;linux-on-libera&#x2F;<p>[3] https:&#x2F;&#x2F;libera.chat&#x2F;",
-      "time": 1641004363,
-      "title": "Why does ping on Linux call bind()?",
-      "type": "story"
-    },
-    {
-      "by": "vanusa",
-      "descendants": 0,
-      "id": 29754871,
-      "score": 1,
-      "time": 1641004346,
-      "title": "I Grew Up Celebrating New Year's Eve Like Frederick Douglass",
-      "type": "story",
-      "url": "https://www.nytimes.com/2021/12/30/opinion/watch-night-new-years-eve.html"
     }
   ]
 }
