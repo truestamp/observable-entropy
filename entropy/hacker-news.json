@@ -1,9 +1,32 @@
 {
   "stories": [
     {
-      "by": "jonathanlei",
+      "by": "nwatson",
       "descendants": 0,
+      "id": 29765975,
+      "score": 1,
+      "time": 1641099563,
+      "title": "Can French pharmacists advise on edible/poisonous mushrooms?",
+      "type": "story",
+      "url": "https://www.connexionfrance.com/Practical/Health/Can-French-pharmacists-advise-on-edible-poisonous-mushrooms"
+    },
+    {
+      "by": "dduugg",
+      "descendants": 0,
+      "id": 29765970,
+      "score": 1,
+      "time": 1641099507,
+      "title": "The Pandemic Might Have Redesigned Cities Forever",
+      "type": "story",
+      "url": "https://www.wired.com/story/the-pandemic-might-have-redesigned-cities-forever/"
+    },
+    {
+      "by": "jonathanlei",
+      "descendants": 1,
       "id": 29765954,
+      "kids": [
+        29765965
+      ],
       "score": 1,
       "time": 1641099285,
       "title": "Have I Been Pwned adds 441K accounts stolen by RedLine malware",
@@ -83,26 +106,6 @@
       "title": "Genuary 2022",
       "type": "story",
       "url": "https://genuary.art/"
-    },
-    {
-      "by": "user239",
-      "descendants": 0,
-      "id": 29765828,
-      "score": 1,
-      "text": "&lt;TL-DR&gt;\nI&#x27;ve created a prototype of a system serving the same purpose as email discussions, but working in a more structured and (hopefully) intuitive way.<p>A quick video demonstrating how it works: https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=5JgeAjwyJok<p>Do you think something like this can be useful? It does solve a problem for me (more details about my motivation below). But I&#x27;m curious if anyone else finds it helpful, so I don&#x27;t end up trying to solve a problem that only exists for me.\n&lt;&#x2F;TL-DR&gt;<p>At company where I work we use a chat-based tool for quick real-time discussions, but use email threads for more complex discussions on a specific topic involving multiple people. For example, coming up with a release plan, figuring out how to handle an issue etc.<p>Although in general our email communication does the job pretty well, there are a few issues with it that I find annoying:<p>- 2 people do &quot;reply all&quot; at the same time, &quot;crossing&quot; messages - last one wins and the other person&#x27;s reply is not included on future replies unless someone manually &quot;merges&quot; the 2 replies later.<p>- Some people intentionally &quot;reply all&quot;, but not to the latest message in the thread.<p>- &quot;Inline replies&quot; are done as a hack by manually adding replies to original message text in message history.<p>- Fixing typos and making other corrections requires a new message to be sent to everyone.<p>Sometimes, the result of these issues is a thread with multiple &quot;forks&quot; that are hard to follow and understand. In some cases, important information can even get missed, leading to other issues.<p>So I wanted to come up with a tool that would natively support things like inline&#x2F;non-latest message replies and editing existing messages. I have a working prototype as shown in the video, but wanted to get a feel of what others think about its value before committing to doing more work on this.",
-      "time": 1641097715,
-      "title": "Structured email-like discussions – need feedback",
-      "type": "story"
-    },
-    {
-      "by": "schappim",
-      "descendants": 0,
-      "id": 29765826,
-      "score": 1,
-      "time": 1641097681,
-      "title": "Scan objects",
-      "type": "story",
-      "url": "https://metascan.ai/"
     }
   ]
 }
