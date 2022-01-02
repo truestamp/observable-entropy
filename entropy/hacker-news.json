@@ -1,6 +1,29 @@
 {
   "stories": [
     {
+      "by": "chrisfrantz",
+      "descendants": 1,
+      "id": 29771694,
+      "kids": [
+        29771717
+      ],
+      "score": 1,
+      "time": 1641147427,
+      "title": "How to report a positive Covid-19 test result",
+      "type": "story",
+      "url": "https://www.cdc.gov/coronavirus/2019-ncov/php/reporting-pui.html"
+    },
+    {
+      "by": "prostoalex",
+      "descendants": 0,
+      "id": 29771689,
+      "score": 1,
+      "time": 1641147401,
+      "title": "The Genius Behind Nany Pelosi's Trades",
+      "type": "story",
+      "url": "https://old.reddit.com/r/options/comments/rtxxar/the_genius_behind_nany_pelosis_trades/"
+    },
+    {
       "by": "_-david-_",
       "descendants": 0,
       "id": 29771626,
@@ -73,7 +96,7 @@
       "by": "infodocket",
       "descendants": 0,
       "id": 29771542,
-      "score": 1,
+      "score": 2,
       "time": 1641146782,
       "title": "Measuring the Economic Value of Data [pdf]",
       "type": "story",
@@ -88,26 +111,6 @@
       "title": "How Basic Are Behavioral Biases? Evidence from Capuchin Monkey Trading Behavior",
       "type": "story",
       "url": "https://www.journals.uchicago.edu/doi/abs/10.1086/503550"
-    },
-    {
-      "by": "vsr_code",
-      "descendants": 0,
-      "id": 29771457,
-      "score": 2,
-      "text": "Does anyone know a previous implementation?<p>#include &lt;stdio.h&gt;\n#define bitoffsetof(t, f) \\\n    ({ union { unsigned long long raw; t typ; }; \\\n    raw = 0; ++typ.f; __builtin_ctzll(raw); })<p>#define bitsizeof(t, f) \\\n    ({ union { unsigned long long raw; t typ; }; \\\n    raw = 0; --typ.f; 8*sizeof(raw)-__builtin_clzll(raw)\\\n        -__builtin_ctzll(raw); })<p>struct RGB565 { unsigned short r:5, g:6, b:5; };\nint main()\n{\n  printf(&quot;offset(width): r=%d(%d) g=%d(%d) b=%d(%d)\\n&quot;,\n    bitoffsetof(RGB565, r), bitsizeof(RGB565, r),\n    bitoffsetof(RGB565, g), bitsizeof(RGB565, g),\n    bitoffsetof(RGB565, b), bitsizeof(RGB565, b));\n}<p>&#x2F;&#x2F;$ gcc bitfieldtest.cpp &amp;&amp; .&#x2F;a.out\n&#x2F;&#x2F;offset(width): r=0(5) g=5(6) b=11(5)\n&#x2F;&#x2F;<p>[1] https:&#x2F;&#x2F;twitter.com&#x2F;suarezvictor&#x2F;status&#x2F;1477697986243272706",
-      "time": 1641146439,
-      "title": "It seems I solved the “sizeof”/“offsetof” operator for C bitfields",
-      "type": "story"
-    },
-    {
-      "by": "pseudolus",
-      "descendants": 0,
-      "id": 29771445,
-      "score": 1,
-      "time": 1641146398,
-      "title": "Venice Gets a Grip on a Star Architect’s Slippery Bridge",
-      "type": "story",
-      "url": "https://www.nytimes.com/2022/01/02/world/europe/venice-calatrava-bridge.html"
     }
   ]
 }
