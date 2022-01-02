@@ -1,5 +1,36 @@
 {
   "stories": [
+    null,
+    {
+      "by": "kiyanwang",
+      "descendants": 0,
+      "id": 29772059,
+      "score": 1,
+      "time": 1641149067,
+      "title": "Group Dynamics: Norms and Emotion",
+      "type": "story",
+      "url": "https://www.edbatista.com/2021/12/group-dynamics-norms-and-emotion.html"
+    },
+    {
+      "by": "jscob",
+      "descendants": 0,
+      "id": 29772012,
+      "score": 1,
+      "time": 1641148866,
+      "title": "Hacking a VW Golf Power Steering ECU – Part 1",
+      "type": "story",
+      "url": "https://blog.willemmelching.nl/carhacking/2022/01/02/vw-part1/"
+    },
+    {
+      "by": "okl",
+      "descendants": 0,
+      "id": 29772011,
+      "score": 2,
+      "time": 1641148861,
+      "title": "Identify a Flag",
+      "type": "story",
+      "url": "https://flagid.org/"
+    },
     {
       "by": "sammycaution",
       "descendants": 0,
@@ -14,7 +45,7 @@
       "by": "susam",
       "descendants": 0,
       "id": 29771957,
-      "score": 1,
+      "score": 2,
       "time": 1641148593,
       "title": "Understanding the Power of Lisp (2020)",
       "type": "story",
@@ -24,7 +55,7 @@
       "by": "thunderbong",
       "descendants": 0,
       "id": 29771943,
-      "score": 1,
+      "score": 2,
       "time": 1641148554,
       "title": "Natural frequencies, chances, normalized frequencies, conditional probabilities",
       "type": "story",
@@ -52,59 +83,16 @@
     },
     {
       "by": "adroitboss",
-      "descendants": 0,
+      "descendants": 1,
       "id": 29771908,
+      "kids": [
+        29772055
+      ],
       "score": 1,
       "text": "NoSQL doesn&#x27;t mean non-relational, it just means the absence of the Structured Query Language. So why isn&#x27;t there a NoSQL relational database?",
       "time": 1641148362,
       "title": "Why do NoSQL databases not support joins?",
       "type": "story"
-    },
-    {
-      "by": "xqcgrek2",
-      "descendants": 0,
-      "id": 29771839,
-      "kids": [
-        29771960
-      ],
-      "score": 1,
-      "time": 1641148083,
-      "title": "Heterodox STEM: EDI in STEM Slides",
-      "type": "story",
-      "url": "https://hxstem.substack.com/p/edi-in-stem-time-for-an-open-discussion"
-    },
-    {
-      "by": "thunderbong",
-      "descendants": 0,
-      "id": 29771838,
-      "score": 3,
-      "time": 1641148081,
-      "title": "CyberChef",
-      "type": "story",
-      "url": "https://gchq.github.io/CyberChef/"
-    },
-    {
-      "by": "smbv",
-      "descendants": 0,
-      "id": 29771824,
-      "score": 1,
-      "text": "Hey HN,<p>I&#x27;ve created a frontend search engine to search through SMBC Comics[0]. There was no index, so I created a program that uses OpenCV EAST and Tesseract to extract text and other metadata from all 6000+ comics. A challenge that I came across is that the data that is being searched is imperfect (OCR isn&#x27;t the best with handwritten-esque text). Search is done in the frontend with Fuse.js[1].<p>The comics are available to search at https:&#x2F;&#x2F;sambhavsaggi.github.io&#x2F;comic-fulltext-search&#x2F;<p>Currently, it&#x27;s a little slow since it has to search through megabytes of text in the browser, but response times are all less than 1.5 seconds on my laptop (your mileage may vary).<p>Some things I could use assistance on include improved text extraction from comics and faster&#x2F;better search (maybe in WASM?)<p>---<p>The code for this project is available here:<p>Frontend: https:&#x2F;&#x2F;github.com&#x2F;sambhavsaggi&#x2F;comic-fulltext-search<p>Text extractor: https:&#x2F;&#x2F;github.com&#x2F;sambhavsaggi&#x2F;comic-ocr<p>[0] https:&#x2F;&#x2F;www.smbc-comics.com<p>[1] https:&#x2F;&#x2F;fusejs.io&#x2F;<p>---<p>Thanks!<p>ET",
-      "time": 1641147993,
-      "title": "Show HN: Saturday Morning Breakfast Cereal Search Engine",
-      "type": "story"
-    },
-    {
-      "by": "alex028502",
-      "descendants": 1,
-      "id": 29771781,
-      "kids": [
-        29771782
-      ],
-      "score": 1,
-      "time": 1641147767,
-      "title": "Show HN: Fully Automated Snakes and Ladders",
-      "type": "story",
-      "url": "https://github.com/alex028502/snakes-and-ladders"
     }
   ]
 }
