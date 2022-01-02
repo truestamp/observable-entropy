@@ -1,6 +1,56 @@
 {
   "stories": [
     {
+      "by": "rsp1984",
+      "descendants": 0,
+      "id": 29770620,
+      "score": 1,
+      "text": "Hello HN, I&#x27;d like to use my own server to host a new service, accessible through an API, for an application (Win&#x2F;Android&#x2F;iOS) that I wrote and that already has users. No web frontend is necessary. Just the service that my app calls through an API.<p>So far I have relied on Google Cloud (App Engine, Cloud functions, etc..) to run these kinds of things but for the new service I find that Google Cloud is too limited. It also requires Mac computers with M1, running Monterey.<p>My question is: how do I get started setting up my own server(s)? I found numerous tutorials for setting up web servers but I don&#x27;t need a website &#x2F; frontend. Just the service with an API. I would also like to have some amount of scalability and protection against DDoS and similar attacks. Is this possible?",
+      "time": 1641143367,
+      "title": "Ask HN: How to setup own server hosting a service with API (and no front end)?",
+      "type": "story"
+    },
+    {
+      "by": "tosh",
+      "descendants": 0,
+      "id": 29770615,
+      "score": 1,
+      "time": 1641143358,
+      "title": "XZ Utils",
+      "type": "story",
+      "url": "https://en.wikipedia.org/wiki/XZ_Utils"
+    },
+    {
+      "by": "robin_reala",
+      "descendants": 0,
+      "id": 29770582,
+      "score": 1,
+      "time": 1641143239,
+      "title": "What's Inside WD-40? Superlube's Secret Sauce (2009)",
+      "type": "story",
+      "url": "https://www.wired.com/2009/04/st-whatsinside-6/"
+    },
+    {
+      "by": "Jugurtha",
+      "descendants": 0,
+      "id": 29770562,
+      "score": 1,
+      "time": 1641143157,
+      "title": "The Ingenious Design of the Aluminum Beverage Can[video][11:39]",
+      "type": "story",
+      "url": "https://www.youtube.com/watch?v=hUhisi2FBuw"
+    },
+    {
+      "by": "poga",
+      "descendants": 0,
+      "id": 29770553,
+      "score": 1,
+      "time": 1641143121,
+      "title": "gRPC Status Codes",
+      "type": "story",
+      "url": "https://devpoga.org/post/2022-01-03_grpc_status_code/"
+    },
+    {
       "by": "mmettler",
       "descendants": 0,
       "id": 29770527,
@@ -12,8 +62,11 @@
     },
     {
       "by": "schleck8",
-      "descendants": 0,
+      "descendants": 1,
       "id": 29770505,
+      "kids": [
+        29770577
+      ],
       "score": 1,
       "text": "If you search for &quot;web3&quot; on HN, and sort by popularity for all time...<p>https:&#x2F;&#x2F;hn.algolia.com&#x2F;?dateRange=all&amp;page=0&amp;prefix=true&amp;query=Web3&amp;sort=byPopularity&amp;type=story<p>... you can see that all of the most popular posts have been submitted over the last two months, and the vast majority of those in the last 30 days.<p>Is this some sort of astroturfing attempt? Have I not used the search properly? Is writing and submitting blog posts about web3 a new trend?",
       "time": 1641142912,
@@ -49,56 +102,6 @@
       "title": "A Thorough Introduction to eBPF",
       "type": "story",
       "url": "https://lwn.net/Articles/740157/"
-    },
-    {
-      "by": "eigenhombre",
-      "descendants": 0,
-      "id": 29770377,
-      "score": 2,
-      "time": 1641142409,
-      "title": "Tesla Reports 87% Increase in 2021 Deliveries",
-      "type": "story",
-      "url": "https://www.nytimes.com/2022/01/02/business/tesla-sales.html"
-    },
-    {
-      "by": "SiempreViernes",
-      "descendants": 0,
-      "id": 29770371,
-      "score": 1,
-      "time": 1641142389,
-      "title": "Converging TO THE WRONG LIMIT IN FINITE PRECISION [for b64 but not b16, p.2] [pdf]",
-      "type": "story",
-      "url": "https://etna.math.kent.edu/vol.52.2020/pp358-369.dir/pp358-369.pdf"
-    },
-    {
-      "by": "TangerineDream",
-      "descendants": 0,
-      "id": 29770346,
-      "score": 1,
-      "time": 1641142295,
-      "title": "How the US census led to the first data processing company 125 years ago",
-      "type": "story",
-      "url": "https://arstechnica.com/science/2022/01/how-the-us-census-led-to-the-first-data-processing-company-125-years-ago/"
-    },
-    {
-      "by": "mwattsun",
-      "descendants": 0,
-      "id": 29770343,
-      "score": 1,
-      "time": 1641142279,
-      "title": "Who Owns the Future?",
-      "type": "story",
-      "url": "http://www.jaronlanier.com/futurewebresources.html"
-    },
-    {
-      "by": "ashtavakra",
-      "descendants": 0,
-      "id": 29770331,
-      "score": 1,
-      "time": 1641142211,
-      "title": "Deploying Kafka cluster with Zookeeper on GCP – the hard way!",
-      "type": "story",
-      "url": "https://gist.github.com/rk-cloudside/4333d8e5a8de29297c21c7dde0dded24"
     }
   ]
 }
