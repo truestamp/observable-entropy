@@ -1,6 +1,26 @@
 {
   "stories": [
     {
+      "by": "lifeisstillgood",
+      "descendants": 0,
+      "id": 29775290,
+      "score": 1,
+      "text": "I am trying to understand FIDO &#x2F; U2F and it&#x27;s implications.<p>But I am very dumb and need to walk through things in lots of different directions to understand them.<p>Anyway, the benefits of having a HSM in a users hand : that should be huge - and it looks to me that it should end the need for SAML and openId auth etc<p>But I am not 100% sure - and I don&#x27;t  know what to read or who to ask.  Google is not helping :-(<p>I <i>think</i>  a big win lies in the ability to avoid the (hacky) redirect at the heart of Federated protocols.<p>With the FIDO approach we get a simple challenge response - here is a nonce, I know your public key, hash it in some fashion against your public key. Now this response, from the client back to the authenticating server, this response could be held up on camera during the Super bowl half time and it still would be secure.<p>So why not ignore the whole SAML dance, and have the relying party site (myshop.com) simply pass through the nonce, grab the hashed response and send it off?  Basically what is wrong with MitM instead of federation? I can think of problems (Oracle, initial registration) but ...<p>My big question for HN is not &quot;am I inventing a security system I myself cannot break&quot; but where do I go look to find the discussions that other smarter people have already had on this subject<p>like I said I am catching up",
+      "time": 1641166158,
+      "title": "Ask HN: Where do I find the smart security discussions online?",
+      "type": "story"
+    },
+    {
+      "by": "dgudkov",
+      "descendants": 0,
+      "id": 29775289,
+      "score": 1,
+      "time": 1641166127,
+      "title": "The Mainstream Media Is Losing the Fight of Its Life All Thanks to Joe Rogan",
+      "type": "story",
+      "url": "https://quoththeraven.substack.com/p/the-mainstream-media-is-losing-the"
+    },
+    {
       "by": "type0",
       "descendants": 0,
       "id": 29775230,
@@ -77,31 +97,11 @@
       "by": "G3rn0ti",
       "descendants": 0,
       "id": 29775140,
-      "score": 1,
+      "score": 2,
       "time": 1641165015,
       "title": "Polygon bug put $24B in tokens at risk until recent hard fork",
       "type": "story",
       "url": "https://www.theblockcrypto.com/post/128784/polygon-critical-bug-24-billion-matic-tokens-at-risk-hard-fork"
-    },
-    {
-      "by": "raffihotter",
-      "descendants": 0,
-      "id": 29775136,
-      "score": 2,
-      "time": 1641164986,
-      "title": "Machine Learning for MRI Image Reconstruction",
-      "type": "story",
-      "url": "https://rhotter.github.io/posts/ml-for-mri/"
-    },
-    {
-      "by": "zaptheimpaler",
-      "descendants": 0,
-      "id": 29775130,
-      "score": 2,
-      "time": 1641164950,
-      "title": "Gapminder: The Worldview Upgrader",
-      "type": "story",
-      "url": "https://upgrader.gapminder.org/"
     }
   ]
 }
