@@ -1,6 +1,36 @@
 {
   "stories": [
     {
+      "by": "xqcgrek2",
+      "descendants": 0,
+      "id": 29771839,
+      "score": 1,
+      "time": 1641148083,
+      "title": "Heterodox STEM: EDI in STEM Slides",
+      "type": "story",
+      "url": "https://hxstem.substack.com/p/edi-in-stem-time-for-an-open-discussion"
+    },
+    {
+      "by": "thunderbong",
+      "descendants": 0,
+      "id": 29771838,
+      "score": 2,
+      "time": 1641148081,
+      "title": "CyberChef",
+      "type": "story",
+      "url": "https://gchq.github.io/CyberChef/"
+    },
+    {
+      "by": "smbv",
+      "descendants": 0,
+      "id": 29771824,
+      "score": 1,
+      "text": "Hey HN,<p>I&#x27;ve created a frontend search engine to search through SMBC Comics[0]. There was no index, so I created a program that uses OpenCV EAST and Tesseract to extract text and other metadata from all 6000+ comics. A challenge that I came across is that the data that is being searched is imperfect (OCR isn&#x27;t the best with handwritten-esque text). Search is done in the frontend with Fuse.js[1].<p>The comics are available to search at https:&#x2F;&#x2F;sambhavsaggi.github.io&#x2F;comic-fulltext-search&#x2F;<p>Currently, it&#x27;s a little slow since it has to search through megabytes of text in the browser, but response times are all less than 1.5 seconds on my laptop (your mileage may vary).<p>Some things I could use assistance on include improved text extraction from comics and faster&#x2F;better search (maybe in WASM?)<p>---<p>The code for this project is available here:<p>Frontend: https:&#x2F;&#x2F;github.com&#x2F;sambhavsaggi&#x2F;comic-fulltext-search<p>Text extractor: https:&#x2F;&#x2F;github.com&#x2F;sambhavsaggi&#x2F;comic-ocr<p>[0] https:&#x2F;&#x2F;www.smbc-comics.com<p>[1] https:&#x2F;&#x2F;fusejs.io&#x2F;<p>---<p>Thanks!<p>ET",
+      "time": 1641147993,
+      "title": "Show HN: Saturday Morning Breakfast Cereal Search Engine",
+      "type": "story"
+    },
+    {
       "by": "alex028502",
       "descendants": 1,
       "id": 29771781,
@@ -63,7 +93,7 @@
       "kids": [
         29771601
       ],
-      "score": 3,
+      "score": 4,
       "time": 1641146920,
       "title": "Y2K problem came back with vengeance in 2022",
       "type": "story",
@@ -81,42 +111,6 @@
       "title": "Tesla Is Recalling 500k Vehicles Due to Crash Risks",
       "type": "story",
       "url": "https://www.valuewalk.com/tesla-is-recalling-500000-vehicles-due-to-crash-risks/"
-    },
-    {
-      "by": "actfrench",
-      "descendants": 1,
-      "id": 29771581,
-      "kids": [
-        29771783
-      ],
-      "score": 2,
-      "time": 1641146886,
-      "title": "Ask HN: If money wasn’t an issue would you homeschool?",
-      "type": "story"
-    },
-    {
-      "by": "Tomte",
-      "descendants": 0,
-      "id": 29771558,
-      "kids": [
-        29771584,
-        29771606
-      ],
-      "score": 1,
-      "time": 1641146822,
-      "title": "Motley Fool is now formally recommending Bitcoin (2021)",
-      "type": "story",
-      "url": "https://old.reddit.com/r/CryptoCurrency/comments/lm1d70/motley_fool_is_now_formally_recommending_bitcoin/"
-    },
-    {
-      "by": "tosh",
-      "descendants": 0,
-      "id": 29771543,
-      "score": 1,
-      "time": 1641146784,
-      "title": "Tokei",
-      "type": "story",
-      "url": "https://github.com/XAMPPRocky/tokei"
     }
   ]
 }
