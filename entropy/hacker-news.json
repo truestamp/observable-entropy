@@ -1,10 +1,33 @@
 {
   "stories": [
     {
-      "by": "rawgabbit",
+      "by": "user239",
       "descendants": 0,
-      "id": 29765779,
+      "id": 29765828,
       "score": 1,
+      "text": "&lt;TL-DR&gt;\nI&#x27;ve created a prototype of a system serving the same purpose as email discussions, but working in a more structured and (hopefully) intuitive way.<p>A quick video demonstrating how it works: https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=5JgeAjwyJok<p>Do you think something like this can be useful? It does solve a problem for me (more details about my motivation below). But I&#x27;m curious if anyone else finds it helpful, so I don&#x27;t end up trying to solve a problem that only exists for me.\n&lt;&#x2F;TL-DR&gt;<p>At company where I work we use a chat-based tool for quick real-time discussions, but use email threads for more complex discussions on a specific topic involving multiple people. For example, coming up with a release plan, figuring out how to handle an issue etc.<p>Although in general our email communication does the job pretty well, there are a few issues with it that I find annoying:\n- 2 people do &quot;reply all&quot; at the same time, &quot;crossing&quot; messages - last one wins and the other person&#x27;s reply is not included on future replies unless someone manually &quot;merges&quot; the 2 replies later.\n- Some people intentionally &quot;reply all&quot;, but not to the latest message in the thread.\n- &quot;Inline replies&quot; are done as a hack by manually adding replies to original message text in message history.\n- Fixing typos and making other corrections requires a new message to be sent to everyone.<p>Sometimes, the result of these issues is a thread with multiple &quot;forks&quot; that are hard to follow and understand. In some cases, important information can even get missed, leading to other issues.<p>So I wanted to come up with a tool that would natively support things like inline&#x2F;non-latest message replies and editing existing messages. I have a working prototype as shown in the video, but wanted to get a feel of what others think about its value before committing to doing more work on this.",
+      "time": 1641097715,
+      "title": "Structured email-like discussions – need feedback",
+      "type": "story"
+    },
+    {
+      "by": "schappim",
+      "descendants": 0,
+      "id": 29765826,
+      "score": 1,
+      "time": 1641097681,
+      "title": "Scan objects",
+      "type": "story",
+      "url": "https://metascan.ai/"
+    },
+    {
+      "by": "rawgabbit",
+      "descendants": 1,
+      "id": 29765779,
+      "kids": [
+        29765827
+      ],
+      "score": 2,
       "time": 1641097085,
       "title": "Many surprise medical bills are now illegal",
       "type": "story",
@@ -82,26 +105,6 @@
       "title": "Your DNA Test Could Send a Relative to Jail",
       "type": "story",
       "url": "https://www.nytimes.com/2021/12/27/magazine/dna-test-crime-identification-genome.html"
-    },
-    {
-      "by": "olivermarks",
-      "descendants": 0,
-      "id": 29765634,
-      "score": 1,
-      "time": 1641095390,
-      "title": "Chinese Mars mission sends photos of the Red Planet",
-      "type": "story",
-      "url": "http://www.cnsa.gov.cn/english/n6465652/n6465653/c6813041/content.html"
-    },
-    {
-      "by": "rustoo",
-      "descendants": 0,
-      "id": 29765603,
-      "score": 1,
-      "time": 1641095115,
-      "title": "Curiosity Is Better Than Knowledge",
-      "type": "story",
-      "url": "https://isaacmorehouse.com/2017/05/09/curiosity-is-better-than-knowledge/"
     }
   ]
 }
