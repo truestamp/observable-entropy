@@ -92,8 +92,11 @@
     },
     {
       "by": "daly",
-      "descendants": 0,
+      "descendants": 1,
       "id": 29780109,
+      "kids": [
+        29780253
+      ],
       "score": 2,
       "text": "It seems to me that a Neural Network is essentially a distributed form of content addressable memory (CAM). (https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Content-addressable_memory)<p>It should be possible to extract the information in the Neural Network and collapse it into a flat content addressable memory. The Neural Network is basically a matrix of stored values. The input to the network is a vector. The output is a vector of weights.<p>Each input &#x2F; output pair recognized could be stored in a CAM, giving O(1) lookup.<p>You could &quot;invert&quot; it by using the output vector as the key, giving the input on lookup.<p>Of course, you are unlikely to find an exact match on the input vectors. Instead you&#x27;d like to be able to provide an &quot;interval&quot; for each input vector entry. Values that fall within the interval provide a fuzzy match, essentially a Fuzzy Content Addressable Memory (FCAM).<p>Such fuzzy matches are easier to implement in an analog fashion, such as a charge on a capacitor. An interesting question would be how to modify the circuit mentioned in the Wikipedia article above to provide analog matching.<p>FCAMs would make an interesting model of neurons if their &quot;match&quot; was dependent on their history of access as measured by the charge remaining on the capacitor, which would leak over time if not accessed.",
       "time": 1641213072,
