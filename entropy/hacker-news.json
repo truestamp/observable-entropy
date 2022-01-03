@@ -1,115 +1,104 @@
 {
   "stories": [
     {
-      "by": "elorant",
+      "by": "theafh",
       "descendants": 0,
-      "id": 29781861,
+      "id": 29781931,
       "score": 1,
-      "time": 1641224695,
-      "title": "Covid Will Become Endemic. The World Must Decide What That Means",
+      "time": 1641224989,
+      "title": "Mathematicians Outwit Hidden Number Conspiracy",
       "type": "story",
-      "url": "https://www.wired.com/story/covid-will-become-endemic-the-world-must-decide-what-that-means/"
+      "url": "https://www.quantamagazine.org/mathematicians-outwit-hidden-number-conspiracy-20220103/"
     },
     {
-      "by": "JoelJacobson",
+      "by": "marinesebastian",
       "descendants": 0,
-      "id": 29781847,
-      "parts": [
-        29781848,
-        29781849,
-        29781850,
-        29781851,
-        29781852,
-        29781853
-      ],
+      "id": 29781929,
       "score": 1,
-      "text": "This is a follow-up to &quot;SQL language proposal: JOIN FOREIGN&quot; [1] [2].<p>Thanks to the comments from HN and Github users, new syntax alternatives have been added to the proposal. Please vote on the syntax you prefer, feel free to leave any other comments, including other syntax ideas.<p>Note: Choice 1,2,3 use foreign key names in the syntax, while Choice 4 uses foreign key <i>column</i> names, similar to JOIN USING.<p>For details, see the &quot;Alternative syntax&quot; section of the Gist [2].<p>1) JOIN FOREIGN fk_alias.fk_name (original proposal)<p><pre><code>    SELECT f.title, f.did, d.name, f.date_prod, f.kind\n        FROM films f\n        JOIN FOREIGN f.films_did_fkey d\n\n    SELECT f.title, f.did, d.name, f.date_prod, f.kind\n        FROM distributors d\n        JOIN films f FOREIGN films_did_fkey REF d\n</code></pre>\n2) JOIN table FOREIGN fk_alias.fk_name REF pk_alias<p><pre><code>    SELECT f.title, f.did, d.name, f.date_prod, f.kind\n        FROM films f\n        JOIN distributors d FOREIGN f.films_did_fkey REF d\n    \n    SELECT f.title, f.did, d.name, f.date_prod, f.kind\n        FROM distributors d\n        JOIN films f FOREIGN f.films_did_fkey REF d\n</code></pre>\n3) JOIN table FOREIGN fk_name [ FROM | TO ] alias<p><pre><code>    SELECT f.title, f.did, d.name, f.date_prod, f.kind\n        FROM films f\n        JOIN distributors d FOREIGN films_did_fkey FROM f\n    \n    SELECT f.title, f.did, d.name, f.date_prod, f.kind\n        FROM distributors d\n        JOIN films f FOREIGN films_did_fkey TO d\n</code></pre>\n4) JOIN table FOREIGN (fk_col, ...) [ FROM | TO ] alias<p><pre><code>    SELECT f.title, f.did, d.name, f.date_prod, f.kind\n        FROM films f\n        JOIN distributors d FOREIGN (did) FROM f\n    \n    SELECT f.title, f.did, d.name, f.date_prod, f.kind\n        FROM distributors d\n        JOIN films f FOREIGN (did) TO d\n</code></pre>\n[1]: https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=29739147\n[2]: https:&#x2F;&#x2F;gist.github.com&#x2F;joelonsql&#x2F;15b50b65ec343dce94db6249cfea8aaa#sql-language-proposal-join-foreign",
-      "time": 1641224649,
-      "title": "Poll: SQL language proposal: JOIN FOREIGN",
-      "type": "poll"
+      "time": 1641224984,
+      "title": "Demystifying Containers",
+      "type": "story",
+      "url": "https://medium.com/@saschagrunert/demystifying-containers-part-i-kernel-space-2c53d6979504"
     },
     {
-      "by": "malchow",
+      "by": "eversowhatev",
       "descendants": 0,
-      "id": 29781844,
-      "score": 1,
-      "time": 1641224633,
-      "title": "Myopericarditis rates in young men after Covid-19 vaccine second dose [pdf]",
+      "id": 29781928,
+      "score": 2,
+      "time": 1641224975,
+      "title": "Choose-Your-Own-Adventure AI Dungeon Games",
       "type": "story",
-      "url": "https://www.medrxiv.org/content/10.1101/2021.12.21.21268209v1.full.pdf"
+      "url": "https://www.gwern.net/CYOA"
+    },
+    {
+      "by": "giuliomagnifico",
+      "descendants": 0,
+      "id": 29781910,
+      "score": 1,
+      "time": 1641224903,
+      "title": "In 1953 a telco executive predicts the rise of smartphones and video calls",
+      "type": "story",
+      "url": "https://www.openculture.com/2022/01/in-1953-a-telephone-company-executive-predicts-the-rise-of-modern-smartphones-and-video-calls.html"
+    },
+    {
+      "by": "Tau_Cygna_V",
+      "descendants": 0,
+      "id": 29781909,
+      "score": 1,
+      "time": 1641224902,
+      "title": "Speeding Up My Shell (Oh My Zsh)",
+      "type": "story",
+      "url": "https://blog.mattclemente.com/2020/06/26/oh-my-zsh-slow-to-load/"
+    },
+    {
+      "by": "servytor",
+      "descendants": 0,
+      "id": 29781905,
+      "score": 1,
+      "time": 1641224877,
+      "title": "Big Mechanism",
+      "type": "story",
+      "url": "https://en.wikipedia.org/wiki/Big_mechanism"
+    },
+    {
+      "by": "got-any-grapes",
+      "descendants": 0,
+      "id": 29781902,
+      "score": 2,
+      "time": 1641224871,
+      "title": "Interview with CEO of Flexport: Supply chain crunch, modern logistics",
+      "type": "story",
+      "url": "https://noahpinion.substack.com/p/interview-ryan-petersen-ceo-of-flexport"
+    },
+    {
+      "by": "rckrd",
+      "descendants": 0,
+      "id": 29781898,
+      "score": 1,
+      "time": 1641224855,
+      "title": "Against Pair Programming",
+      "type": "story",
+      "url": "https://matt-rickard.com/against-pair-programming/"
+    },
+    {
+      "by": "jb1991",
+      "descendants": 0,
+      "id": 29781882,
+      "score": 1,
+      "time": 1641224788,
+      "title": "AT&T and Verizon push forward on 5G expansion despite FAA concerns",
+      "type": "story",
+      "url": "https://9to5mac.com/2022/01/03/att-and-verizon-push-forward-on-5g-expansion-despite-faa-concerns-over-flight-safety/"
     },
     {
       "by": "ingve",
       "descendants": 0,
-      "id": 29781841,
+      "id": 29781876,
       "score": 1,
-      "time": 1641224614,
-      "title": "Favor real dependencies for unit testing",
+      "time": 1641224766,
+      "title": "2021 C++ Standardization Highlights",
       "type": "story",
-      "url": "https://stackoverflow.blog/2022/01/03/favor-real-dependencies-for-unit-testing/"
-    },
-    {
-      "by": "tagawa",
-      "descendants": 0,
-      "id": 29781827,
-      "score": 1,
-      "time": 1641224560,
-      "title": "Case study: Zapier’s long-tail SEO at scale",
-      "type": "story",
-      "url": "https://www.williejiang.com/blog/zapier-seo-strategy/"
-    },
-    {
-      "by": "Tim25659",
-      "descendants": 0,
-      "id": 29781825,
-      "score": 1,
-      "text": "I have a habit of overthinking for almost the things which happened and about to happen in the future. I am a bit sensitive and emotional because of this whenever i go through emotional feelings for example if someone asks me about something they need or wanted my opinion for further proceedings if i am not able to fulfil or by mistake if i deny them i feel guilt after that and this thought will be haunting me for a while in a loop. Recently i learnt to be in the moment and practising mindfulness that is to be in the present moment whenever these guilt thoughts come over in a loop i apply mindfulness strategy and i’m seeing progress in this and one more technique is to re-route the current thoughts by distracting yourself like going for a gym, talking to somebody you feel comfortable. One improvement i have seen is going for gym and doing workout really helps in the process of workout you will get tiered so excessive thinking or anxiety will settle down in no time. I have been in contact with my psychiatrist and therapist almost for year and this really helped me. psychiatrist gives courage and guide me how to handle obsessive thoughts and my therapist on weekly basis listen to me and re-route my negative thoughts to positive thoughts and i can open with him easily and discuss whatever fearful, nasty thoughts that i went through in that week which i am seeing as powerful positive change because earlier i was no clue what to do when these negative thoughts were bubbling and i used to go deep inside these thoughts due to which i was getting panic and anxiety attacks.Now it is in control i will change completely to a positive and confident person.",
-      "time": 1641224556,
-      "title": "In Control of Obsessive Thoughts",
-      "type": "story"
-    },
-    {
-      "by": "mmettler",
-      "descendants": 0,
-      "id": 29781815,
-      "score": 1,
-      "time": 1641224492,
-      "title": "The Atlantic’s vital currents could collapse",
-      "type": "story",
-      "url": "https://www.technologyreview.com/2021/12/14/1041321/climate-change-ocean-atlantic-circulation/"
-    },
-    {
-      "by": "danieloj",
-      "descendants": 0,
-      "id": 29781801,
-      "score": 2,
-      "time": 1641224434,
-      "title": "A how-to guide on dairy production",
-      "type": "story",
-      "url": "https://dairyprocessinghandbook.tetrapak.com/chapter/primary-production-milk"
-    },
-    {
-      "by": "steelstraw",
-      "descendants": 1,
-      "id": 29781788,
-      "kids": [
-        29781833
-      ],
-      "score": 2,
-      "time": 1641224362,
-      "title": "Can weight loss help protect against Covid-19?",
-      "type": "story",
-      "url": "https://www.cnn.com/2022/01/03/health/covid-weight-loss-wellness/index.html"
-    },
-    {
-      "by": "tekkertje",
-      "descendants": 0,
-      "id": 29781776,
-      "score": 2,
-      "time": 1641224291,
-      "title": "Vange-Rs: WebAssembly in Rust",
-      "type": "story",
-      "url": "https://habr.com/ru/post/594611/"
+      "url": "https://botondballo.wordpress.com/2022/01/03/2021-c-standardization-highlights/"
     }
   ]
 }
