@@ -1,6 +1,36 @@
 {
   "stories": [
     {
+      "by": "rbanffy",
+      "descendants": 0,
+      "id": 29796322,
+      "score": 1,
+      "time": 1641312447,
+      "title": "AMD CEO Teases Rembrandt 6nm APU Ahead of CES 2022",
+      "type": "story",
+      "url": "https://www.tomshardware.com/news/amd-ceo-rembrandt-6nm-apu-ces-2022"
+    },
+    {
+      "by": "rbanffy",
+      "descendants": 0,
+      "id": 29796317,
+      "score": 1,
+      "time": 1641312438,
+      "title": "Ford will build 150k F-150 Lightnings per year due to demand",
+      "type": "story",
+      "url": "https://arstechnica.com/cars/2022/01/ford-will-boost-electric-f-150-production-to-150000-trucks-per-year/"
+    },
+    {
+      "by": "mmwelt",
+      "descendants": 0,
+      "id": 29796314,
+      "score": 1,
+      "time": 1641312425,
+      "title": "Iceraven – Firefox for Android fork with more add-ons and configuration options",
+      "type": "story",
+      "url": "https://github.com/fork-maintainers/iceraven-browser"
+    },
+    {
       "by": "ingve",
       "descendants": 0,
       "id": 29796278,
@@ -12,9 +42,10 @@
     },
     {
       "by": "nsriv",
-      "descendants": 0,
+      "descendants": 1,
       "id": 29796274,
       "kids": [
+        29796292,
         29796277
       ],
       "score": 1,
@@ -27,7 +58,7 @@
       "by": "steelstraw",
       "descendants": 0,
       "id": 29796237,
-      "score": 1,
+      "score": 2,
       "time": 1641312101,
       "title": "List of Laboratory Biosecurity Incidents",
       "type": "story",
@@ -65,50 +96,19 @@
     },
     {
       "by": "tolstoyevsky",
-      "descendants": 2,
+      "descendants": 4,
       "id": 29796185,
       "kids": [
+        29796301,
+        29796339,
         29796243,
         29796258
       ],
-      "score": 17,
+      "score": 19,
       "text": "Hi HN, this is Guy and Dean from DAGsHub (https:&#x2F;&#x2F;www.dagshub.com). We help machine learning practitioners create a central repository for their projects, where they can leverage open-source tools to version datasets and models, track experiments, and starting today – label data, and comment on anything. Like GitHub for machine learning (you probably heard that one before, but we mean it).<p>Our vision is that anyone should be able to jump into an open-source data science project and contribute code, data, labeling, models, or experiments via pull request, just like you would with an open-source software project.<p>We combine awesome, popular, open-source tools, and connect them to the place you build data science projects. Lowering the barrier by doing the DevOps work for you and creating a coherent workflow that makes sense for production-oriented teams and our open-source community.<p>We did it with Git and DVC for code, data, model, and pipeline versioning, MLflow for experiment tracking, Jenkins for automation, and we’re doing it today with Label Studio.<p>How does it work?\n1. Version your code with Git (notebooks also work)\n2. Version your data, models, and pipeline with DVC\n3. Git push to your DagsHub repo\n4. DVC push to your free DVC compatible DagsHub storage, or to your preferred cloud storage which we support\n5. You get a zero-config, access-controlled MLFlow API endpoint to log experiments.<p>We saw that labeling was a big challenge for many community projects, as well as teams in the industry we spoke with. We wanted to make our community’s life a bit simpler, and since many of the challenges were around integrating labeling into the rest of the ML lifecycle, that’s exactly what we built with DagsHub Annotations and the Label Studio integration.<p>The main additions are:\n1. Zero setup labeling – we did all the work, so after you push data to DagsHub, just click a button to fire up a labeling instance\n2. Sync data from your Git&#x2F;DVC remote – after it’s up you can select what data you want to label, and it will be waiting in your workspace for you\n3. Commit back to Git – when you’re done with a version of labels, we created a “Commit” button that just adds the annotations to Git, making it easy to pull them for model training, or any other need you have while preserving the project history.\n4. Diff and discuss annotations – you can see annotations on the data itself (check out the example project below), and have discussions on them in a way that preserves context (even comment on bounding boxes on images.<p>Our platform is serving over 5000 members, hundreds of organizations, and has 3000 projects. They are using DagsHub to have all their project pieces in one place, contribute datasets, work on data for good projects, and build overall awesome things.<p>We created an example project that you can play with to see how it actually looks (https:&#x2F;&#x2F;www.dagshub.com&#x2F;DAGsHub-Official&#x2F;annotations-showcase), and of course, we’d love to hear your thoughts and feedback, and answer any questions you might have. Thank you :)",
       "time": 1641311918,
       "title": "Show HN: DagsHub – Git-integrated data labeling",
       "type": "story"
-    },
-    {
-      "by": "jger15",
-      "descendants": 0,
-      "id": 29796183,
-      "score": 1,
-      "time": 1641311911,
-      "title": "How to Watch Movies",
-      "type": "story",
-      "url": "https://marginalrevolution.com/marginalrevolution/2022/01/how-to-watch-movies.html"
-    },
-    {
-      "by": "andruby",
-      "descendants": 0,
-      "id": 29796171,
-      "score": 1,
-      "time": 1641311839,
-      "title": "AMD 2022 Product Premiere (At CES)",
-      "type": "story",
-      "url": "https://www.amd.com/en/events/ces"
-    },
-    {
-      "by": "ushakov",
-      "descendants": 1,
-      "id": 29796169,
-      "kids": [
-        29796219
-      ],
-      "score": 1,
-      "time": 1641311833,
-      "title": "Framework Available for Pre-Order in UK, Germany, and France",
-      "type": "story",
-      "url": "https://frame.work/blog/now-available-for-pre-order-in-uk-germany-and-france"
     }
   ]
 }
