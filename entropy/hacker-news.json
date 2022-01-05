@@ -1,13 +1,43 @@
 {
   "stories": [
     {
+      "by": "thatperson101",
+      "descendants": 0,
+      "id": 29809923,
+      "score": 1,
+      "time": 1641395654,
+      "title": "Working Backwards",
+      "type": "story",
+      "url": "https://irandom.substack.com/p/working-backwards"
+    },
+    {
+      "by": "patrickevans",
+      "descendants": 0,
+      "id": 29809919,
+      "score": 1,
+      "time": 1641395628,
+      "title": "Go-zero v1.2.5 – Go microservice framework, 13.7k stars for over a year",
+      "type": "story",
+      "url": "https://github.com/zeromicro/go-zero/releases/tag/v1.2.5"
+    },
+    {
+      "by": "laktak",
+      "descendants": 0,
+      "id": 29809905,
+      "score": 1,
+      "time": 1641395543,
+      "title": "BlackBerry: End of an era as company pulls plug on iconic handsets",
+      "type": "story",
+      "url": "https://news.sky.com/story/blackberry-end-of-an-era-as-company-pulls-plug-on-iconic-handsets-12508731"
+    },
+    {
       "by": "symkat",
       "descendants": 1,
       "id": 29809872,
       "kids": [
         29809873
       ],
-      "score": 1,
+      "score": 3,
       "time": 1641395351,
       "title": "Show HN: BlogDB – I built an open-source website to keep track of blogs online",
       "type": "story",
@@ -17,7 +47,7 @@
       "by": "peterkelly",
       "descendants": 0,
       "id": 29809848,
-      "score": 1,
+      "score": 2,
       "time": 1641395229,
       "title": "Usborne introduction to Machine code for beginners (1983)",
       "type": "story",
@@ -37,7 +67,7 @@
       "by": "afeiszli",
       "descendants": 0,
       "id": 29809830,
-      "score": 1,
+      "score": 4,
       "text": "Hi HN, this is Alex and Dillon from Gravitl, based in the mountains of Asheville, North Carolina. We built Netmaker (<a href=\"https:&#x2F;&#x2F;github.com&#x2F;gravitl&#x2F;netmaker\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;gravitl&#x2F;netmaker</a>), a virtual networking platform for cross-cloud computing and Kubernetes. It’s secure, automated, and extremely fast.<p>Networking across environments is hard and slow. WireGuard can solve this, but it’s tough to run at scale. WireGuard is a fast and efficient VPN protocol that is growing quickly in popularity. Linus Torvalds called it a “work of art,” and it was added to the Linux kernel in 2020. It now runs on most major operating systems.<p>We created Netmaker to automate WireGuard-based networks at scale. It opens up a bunch of use cases that are otherwise infeasible. With Netmaker, our users are managing edge networks, connecting fleets of unmanned aerial drones, and cloud-bursting k8s clusters for machine learning.<p>Alex got the idea for Netmaker while he was in New Mexico, staying in the desert to escape the pandemic. We were trying to run a distributed Kubernetes cluster. Our goal was to create a cloud provider with no infrastructure, using compute provided by users. To start, we bought a couple raspberry pis and some cloud VM&#x27;s, hooked them all together, and ran a k3s cluster across them using WireGuard.<p>We realized we needed a mesh VPN to do this at scale. None of the existing options gave us everything we needed, so we built Netmaker. We put it on GitHub, and it became so popular that we decided to work on Netmaker exclusively.<p>Netmaker works on a client-server model (<a href=\"https:&#x2F;&#x2F;docs.netmaker.org&#x2F;architecture.html\" rel=\"nofollow\">https:&#x2F;&#x2F;docs.netmaker.org&#x2F;architecture.html</a>). A central config server tells each machine where its peers are and how to reach them. The local client automates network settings and DNS on each machine. The result is a flexible virtual network that stays in sync whenever machines are added, removed, or there is a change in state.<p>Without Netmaker this is challenging, because WireGuard requires reconfiguration whenever any peer in the network changes. In addition, the network can be blocked by factors like NAT, firewalls, and port availability. Netmaker anticipates and solves for these factors, while being compatible across Mac, Linux, Windows, and FreeBSD.<p>There are other solutions out there with similarities, but we’ve got some key distinctions. After all, we created Netmaker out of necessity, because the other solutions didn’t meet our requirements.<p>First off, Netmaker is super fast because it can use kernel WireGuard. There are some other WireGuard-based solutions like Tailscale, but they use userspace WireGuard, which is much, much  slower.<p>Netmaker is also tailored towards the cloud and Kubernetes. Stuff like OpenVPN was built before the cloud became a go-to deployment strategy.<p>Finally, Netmaker is fully self-hostable. A lot of existing options are SaaS, but our users want control of any servers that are routing their traffic or managing their virtual networks.<p>As for what’s next, with Dillon at the lead, we’re putting in a lot of work to overhaul the code base, implement community-driven features, and pull Netmaker towards a “pure WireGuard” vision.<p>We&#x27;re planning an enterprise release in the coming months which will have a few features that businesses need at scale, without taking away from the free community version. In the meantime, we have a simple support subscription for the existing community edition: <a href=\"https:&#x2F;&#x2F;gravitl.com&#x2F;plans\" rel=\"nofollow\">https:&#x2F;&#x2F;gravitl.com&#x2F;plans</a>.<p>We’re always looking for ways to do things better. If you have thoughts, we’d love to hear them, and if you’re doing anything cool with WireGuard that could be relevant to our project, we’d love to hear that too. We’ve also got a community on Discord you’re welcome to join at any time: <a href=\"https:&#x2F;&#x2F;discord.gg&#x2F;zRb9Vfhk8A\" rel=\"nofollow\">https:&#x2F;&#x2F;discord.gg&#x2F;zRb9Vfhk8A</a><p>Thanks for reading, and Happy New Year!",
       "time": 1641395126,
       "title": "Launch HN: Gravitl (YC W22) – VPN Platform Based on WireGuard",
@@ -72,36 +102,6 @@
       "title": "Show HN: Automated API generation from data model (via Python/Ariadne/Postgres)",
       "type": "story",
       "url": "https://github.com/ironslob/rapid-api"
-    },
-    {
-      "by": "greenonions",
-      "descendants": 0,
-      "id": 29809808,
-      "score": 1,
-      "time": 1641395039,
-      "title": "Mariko Aoki Phenomenon",
-      "type": "story",
-      "url": "https://en.wikipedia.org/wiki/Mariko_Aoki_phenomenon"
-    },
-    {
-      "by": "camjohnson26",
-      "descendants": 0,
-      "id": 29809805,
-      "score": 1,
-      "time": 1641395028,
-      "title": "The Holmes verdict sends a mixed message to investors",
-      "type": "story",
-      "url": "https://www.chicagobusiness.com/opinion/holmes-verdict-sends-mixed-message-investors"
-    },
-    {
-      "by": "feross",
-      "descendants": 0,
-      "id": 29809797,
-      "score": 1,
-      "time": 1641394995,
-      "title": "Web skimming attacks on hundreds of real estate websites deployed via cloud",
-      "type": "story",
-      "url": "https://portswigger.net/daily-swig/web-skimming-attacks-on-hundreds-of-real-estate-websites-deployed-via-cloud-video-hosting-service"
     }
   ]
 }
