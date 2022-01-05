@@ -1,6 +1,56 @@
 {
   "stories": [
     {
+      "by": "cameronbrown",
+      "descendants": 0,
+      "id": 29811688,
+      "score": 1,
+      "time": 1641402596,
+      "title": "On Digital Gardens",
+      "type": "story",
+      "url": "https://www.cameronbrown.co.uk/~www/posts/digitalgarden.html"
+    },
+    {
+      "by": "vinnyglennon",
+      "descendants": 0,
+      "id": 29811683,
+      "score": 1,
+      "time": 1641402574,
+      "title": "The most important computer you’ve never heard of",
+      "type": "story",
+      "url": "https://arstechnica.com/science/2022/01/the-most-important-computer-youve-never-heard-of/"
+    },
+    {
+      "by": "kickdaddy",
+      "descendants": 0,
+      "id": 29811661,
+      "score": 1,
+      "time": 1641402470,
+      "title": "Cloud Deploy: kickstarting a Compute Edge project just got easier",
+      "type": "story",
+      "url": "https://www.fastly.com/blog/introducing-cloud-deploy-kickstarting-a-compute-edge-project-just-got-easier"
+    },
+    {
+      "by": "touchmarine",
+      "descendants": 0,
+      "id": 29811649,
+      "score": 1,
+      "text": "Looking for alpha users! See the last paragraph.<p>Yesterday I randomly found a person on Spotify whose playlists I love. It&#x27;s as if these playlists were made by me; I love them and now I have at least thee new good playlists to listen to. I immediately knew that I want to replicate this experience-finding people that love the same music as me. In the afternoon, I coded a simple web app.<p>The app is very simple and halway complete but ready for users. The currently implemented part works a bit like Tinder selection:<p><pre><code>  1. you are presented one song you recently listened to a lot\n  2. a 30 second preview of the song starts playing and you are shown the song&#x27;s cover, name, and artists\n  3. you must rate the song with either:\n     - NO:   I am sick of this song&#x2F;I hate it\n     - MEH:  it&#x27;s OK\n     - LOVE: I loveee this song, it gives me the chills\n  4. repeat-go to step 1 with the next song\n</code></pre>\nSee a screenshot here: https:&#x2F;&#x2F;twitter.com&#x2F;touch_marine&#x2F;status&#x2F;1478772993602080775<p>The rest of the app (the half not yet implemented) will take this ratings and match them with others. You will get a list of matches and you will be able to go to their Spotify&#x27;s profile and listen to their public playlists.<p>I am looking for any users that would like to give the app a go. Unfortunately, I have a limited API access which means only 20 people can register and I first need to enter their Spotify email into the Spotify Developer Dashboard. To register send me your Spotify email to scout at touchlabs.io or on twitter to @touch_marine (https:&#x2F;&#x2F;twitter.com&#x2F;touch_marine).",
+      "time": 1641402415,
+      "title": "Show HN: Birdsong-find people that love the same music (Spotify) (alpha users)",
+      "type": "story"
+    },
+    {
+      "by": "tylermauthe",
+      "descendants": 0,
+      "id": 29811637,
+      "score": 1,
+      "text": "Was thinking it would be interesting to see the sort of posts that get flagged. Does anyone know a way to view a list of posts that get flagged? Would love to mine the list for trends for curiosity sake.",
+      "time": 1641402370,
+      "title": "Ask HN: How to view list of flagged HN posts?",
+      "type": "story"
+    },
+    {
       "by": "patrickdevivo",
       "descendants": 0,
       "id": 29811622,
@@ -42,8 +92,11 @@
     },
     {
       "by": "capableweb",
-      "descendants": 0,
+      "descendants": 1,
       "id": 29811603,
+      "kids": [
+        29811646
+      ],
       "parts": [
         29811604,
         29811605,
@@ -54,56 +107,6 @@
       "time": 1641402223,
       "title": "Poll: What does “Full Stack” mean?",
       "type": "poll"
-    },
-    {
-      "by": "mooreds",
-      "descendants": 0,
-      "id": 29811599,
-      "score": 1,
-      "time": 1641402209,
-      "title": "Android Data and file storage overview",
-      "type": "story",
-      "url": "https://developer.android.com/training/data-storage"
-    },
-    {
-      "by": "pseudolus",
-      "descendants": 0,
-      "id": 29811593,
-      "score": 1,
-      "time": 1641402191,
-      "title": "Juror: Holmes was 'so likable, with such a positive dream' tough to convict",
-      "type": "story",
-      "url": "https://www.businessinsider.com/elizabeth-holmes-trial-juror-tough-convicting-likable-theranos-ceo-2022-1"
-    },
-    {
-      "by": "pietroppeter",
-      "descendants": 0,
-      "id": 29811590,
-      "score": 1,
-      "time": 1641402186,
-      "title": "What is the point of Computers? A question for Pure Mathematicians",
-      "type": "story",
-      "url": "https://arxiv.org/abs/2112.11598"
-    },
-    {
-      "by": "bit_nomad",
-      "descendants": 0,
-      "id": 29811589,
-      "score": 1,
-      "time": 1641402181,
-      "title": "Concept for reducing paper waste in product documentation with QR codes",
-      "type": "story",
-      "url": "https://vikborges.com/articles/reducing-paper-waste-in-product-documentation-with-qr-codes"
-    },
-    {
-      "by": "karl42",
-      "descendants": 0,
-      "id": 29811555,
-      "score": 2,
-      "time": 1641402045,
-      "title": "Neutralinojs: Lightweight cross-platform desktop apps with JavaScript, HTML, CSS",
-      "type": "story",
-      "url": "https://neutralino.js.org/"
     }
   ]
 }
