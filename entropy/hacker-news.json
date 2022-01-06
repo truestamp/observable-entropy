@@ -1,6 +1,68 @@
 {
   "stories": [
     {
+      "by": "quokkafriend",
+      "descendants": 0,
+      "id": 29826846,
+      "score": 1,
+      "text": "I&#x27;ve dabbled in programming on the side for a while and am considering a mid&#x2F;late-career switch to dev.<p>I am comfortable with self-study. Looking for advice from anyone who has experience hiring candidates:<p>---------<p>1. If optimizing for getting in the door at entry-level jobs, what should I prioritize learning and getting Github projects up for?<p>Have been thinking:<p>- React&#x2F;Typescript\n- NodeJS\n- 1 back-end framework (RoR or Django)<p>2. Alternatively, if I already have years of data analyst-level SQL experience, would that give me more leg up in landing an entry-level data engineering vs. a web dev role?<p>And is this a decision I should make upfront to better focus what I Iearn&#x2F;prep?<p>Feel like data eng would mean more emphasis on Python, scripting, Github projects with big data sets and ETL. Feels like a different prep path.<p>Any advice is much appreciated. You all are great and I&#x27;ve learned much from lurking on HN!",
+      "time": 1641491106,
+      "title": "Career switch advice (where to focus prep)",
+      "type": "story"
+    },
+    {
+      "by": "hampelm",
+      "descendants": 0,
+      "id": 29826839,
+      "score": 1,
+      "time": 1641491075,
+      "title": "The Surprising Anatomy of a One-Man Map Tech Stack",
+      "type": "story",
+      "url": "https://protomaps.com/blog/one-man-map-tech-stack/"
+    },
+    {
+      "by": "eggy",
+      "descendants": 0,
+      "id": 29826816,
+      "score": 1,
+      "time": 1641491012,
+      "title": "LisPi #0 – Lisp on bare metal [YouTube",
+      "type": "story"
+    },
+    {
+      "by": "megacorp",
+      "descendants": 0,
+      "id": 29826786,
+      "score": 1,
+      "time": 1641490918,
+      "title": "New York Times to Buy the Athletic in $550M Deal",
+      "type": "story",
+      "url": "https://www.bloomberg.com/news/articles/2022-01-06/n-y-times-is-said-to-buy-the-athletic-in-a-550-million-deal"
+    },
+    {
+      "by": "uncomputation",
+      "descendants": 0,
+      "id": 29826785,
+      "score": 1,
+      "time": 1641490915,
+      "title": "Signal's Cryptocurrency Feature Has Gone Worldwide",
+      "type": "story",
+      "url": "https://www.wired.com/story/signal-mobilecoin-cryptocurrency-payments/"
+    },
+    {
+      "by": "CreativeHacker",
+      "descendants": 1,
+      "id": 29826760,
+      "kids": [
+        29826761
+      ],
+      "score": 1,
+      "time": 1641490834,
+      "title": "Julius Caesar vs Salt Bae's Growth Stratagies",
+      "type": "story",
+      "url": "https://www.creativehackers.co/posts/julius-caesar-vs-salt-baes-disruptive-strategy"
+    },
+    {
       "by": "RRona",
       "descendants": 0,
       "id": 29826742,
@@ -24,7 +86,7 @@
       "by": "ChrisDutrow",
       "descendants": 0,
       "id": 29826725,
-      "score": 1,
+      "score": 3,
       "text": "I have a very weird problem with Twilio. It seems like they have gotten so big where they have started acting in bad faith.<p>I&#x27;m curious to find out what other entrepreneurs think of this situation, where a partner, once trusted, and for which technical foundation has been built upon, now has shown to be acting in bad faith.<p>Every once in a while, some scammer will send a phishing text message to one of our phone numbers. Here is an example:\n&quot;&quot;&quot;\nYour Facebook account has been placed on hold for verification. To avoid account suspension, Please visit: https:&#x2F;&#x2F;opensopstat.com&#x2F;\n&quot;&quot;&quot;<p>The message will be relayed to en employees cell phone as is what happens with all txt messages. Now Twilio thinks our account was hacked and someone is sending text phishing text messages from it.<p>The latest time this happened, the account was immediately suspended by an automated system. They did not communicate to us that this happened or why it happened. I had to fill out a support ticket and wait about 3 hours for a response before I even knew what the problem when was. This happened at night, so no one knew there was even a problem until the next morning when business operations resumed and the phones didn&#x27;t work.<p>Its bad enough that they shut down the phone system for my entire company because of their mistake, but in order to get the system back online, I have to go through their ticketing process that is only through e-mail, where it takes hours or days to receive a response. If I want to speak with someone on the phone, which probably would have gotten the problem resolved more immediately, I have to pay $1,500 per month for their phone tech support. Obviously this is an unreasonable amount to pay. I don&#x27;t need tech support, I just need someone to call, explain the situation to, and have them click a button.<p>We pay them about $600 a month and have been working with them for over 10 years. I understand their profit margins might be thin? But are they really that thin? And if so, there should be a more reasonable phone option. I don&#x27;t need to speak with an engineer, I just need to speak with someone who can click a button and unblock the account.<p>Temporarily, I will re-program the system so that it does not forward text message content to my employees phone numbers. Which is fine. But my bigger problem is what do I do now? If they&#x27;re willing to shut my system down without even giving me a number to call, what else are they going to do to me in the future?<p>The way in which they have been so cavalier with me is a red flag. And if I&#x27;m being honest, it does make me angry how they are willing to so readily damage my company in such a profound way AUTOMATICALLY without giving me a way to talk with them. I understand they may have a big phishing problem and will need to use automated software to help, but it is very reckless to not have this counter-balanced with a reasonable way for legitimate customers to even contact them after the suspension.<p>Are there other API-driven VOIP options that I should be considering bearing in mind that it would be expensive to re-write the software to work with another vendor? Or is there some way I should be looking to work things out with them?<p>What do you guys think?",
       "time": 1641490716,
       "title": "Twilio suspended account because someone sent us a fraud text",
@@ -39,69 +101,6 @@
       "title": "Confessions of an Intermediate Programmer",
       "type": "story",
       "url": "https://www.michaelbromley.co.uk/blog/confessions-of-an-intermediate-programmer/"
-    },
-    {
-      "by": "ksec",
-      "descendants": 0,
-      "id": 29826677,
-      "score": 1,
-      "time": 1641490528,
-      "title": "Crystal's interpreter – A special holiday present",
-      "type": "story",
-      "url": "https://crystal-lang.org/2021/12/29/crystal-i.html"
-    },
-    {
-      "by": "jelsisi",
-      "descendants": 1,
-      "id": 29826671,
-      "kids": [
-        29826720
-      ],
-      "score": 2,
-      "time": 1641490492,
-      "title": "Universities Need to Catch Up to the Post-Vaccine Reality",
-      "type": "story",
-      "url": "https://www.theatlantic.com/ideas/archive/2022/01/university-covid-policies-remote-learning-mental-health/621159/"
-    },
-    {
-      "by": "tecist",
-      "descendants": 0,
-      "id": 29826666,
-      "score": 1,
-      "time": 1641490468,
-      "title": "Open Circuitpython Keyboard USB HID",
-      "type": "story",
-      "url": "https://www.youtube.com/watch?v=V2ivH2PEoiA"
-    },
-    {
-      "by": "nafnlj",
-      "descendants": 0,
-      "id": 29826658,
-      "score": 2,
-      "time": 1641490400,
-      "title": "Photo of snowy Japanese temple wows people around the world",
-      "type": "story",
-      "url": "https://soranews24.com/2022/01/06/photo-of-snowy-japanese-temple-wows-people-around-the-world/"
-    },
-    {
-      "by": "TedDoesntTalk",
-      "descendants": 0,
-      "id": 29826641,
-      "score": 1,
-      "time": 1641490343,
-      "title": "Oldest US veteran of WWII dies at 112",
-      "type": "story",
-      "url": "https://apnews.com/article/new-orleans-race-and-ethnicity-racial-injustice-veterans-world-war-ii-7f524c95f9b3ac8f52ee487ed16a4cf1"
-    },
-    {
-      "by": "todsacerdoti",
-      "descendants": 0,
-      "id": 29826639,
-      "score": 2,
-      "time": 1641490337,
-      "title": "Norton 360 Now Comes with a Cryptominer",
-      "type": "story",
-      "url": "https://krebsonsecurity.com/2022/01/norton-360-now-comes-with-a-cryptominer/"
     }
   ]
 }
