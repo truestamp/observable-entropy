@@ -1,6 +1,86 @@
 {
   "stories": [
     {
+      "by": "hindsightbias",
+      "descendants": 0,
+      "id": 29830342,
+      "score": 1,
+      "time": 1641503945,
+      "title": "5th Gear Loop the Loop",
+      "type": "story",
+      "url": "https://www.wired.com/2009/08/5th-gear-loop-the-loop/"
+    },
+    {
+      "by": "rasengan",
+      "descendants": 0,
+      "id": 29830340,
+      "score": 1,
+      "time": 1641503939,
+      "title": "Wow Judge orders Canvas.com to stop using its domain name",
+      "type": "story",
+      "url": "https://domainnamewire.com/2022/01/05/wow-judge-orders-canvas-com-to-stop-using-its-domain-name/"
+    },
+    {
+      "by": "zoizoi",
+      "descendants": 0,
+      "id": 29830333,
+      "score": 1,
+      "time": 1641503900,
+      "title": "Introduction to Classical and Quantum Computing [pdf]",
+      "type": "story",
+      "url": "http://www.thomaswong.net/introduction-to-classical-and-quantum-computing.pdf"
+    },
+    {
+      "by": "skellertor",
+      "descendants": 0,
+      "id": 29830330,
+      "score": 1,
+      "time": 1641503890,
+      "title": "Brave Passes 50M Monthly Active User",
+      "type": "story",
+      "url": "https://brave.com/2021-recap/"
+    },
+    {
+      "by": "justinzollars",
+      "descendants": 0,
+      "id": 29830323,
+      "score": 1,
+      "time": 1641503875,
+      "title": "Charachorder",
+      "type": "story",
+      "url": "https://www.charachorder.com/"
+    },
+    {
+      "by": "purplesnowflake",
+      "descendants": 0,
+      "id": 29830321,
+      "score": 1,
+      "time": 1641503863,
+      "title": "Check out Waymo’s new electric, self-driving taxi design",
+      "type": "story",
+      "url": "https://www.popsci.com/technology/waymo-electric-self-driving-taxi/"
+    },
+    {
+      "by": "nafnlj",
+      "descendants": 0,
+      "id": 29830318,
+      "score": 1,
+      "time": 1641503847,
+      "title": "Automating the Little Things",
+      "type": "story",
+      "url": "https://tuxphones.com/draft-automating-the-little-things-might-actually-be-a-bad-idea/"
+    },
+    {
+      "by": "stuhlmueller",
+      "descendants": 0,
+      "id": 29830296,
+      "score": 1,
+      "time": 1641503798,
+      "title": "How to Quit Like a Boss",
+      "type": "story",
+      "url": "https://jmsbrdy.com/blog/leaving-spring/"
+    },
+    {
       "by": "geox",
       "descendants": 0,
       "id": 29830267,
@@ -19,86 +99,6 @@
       "title": "My Favorite 3 Books of 2021",
       "type": "story",
       "url": "https://www.linkedin.com/pulse/my-favorite-3-books-2021-jasper-kuria"
-    },
-    {
-      "by": "lisper",
-      "descendants": 0,
-      "id": 29830238,
-      "score": 1,
-      "time": 1641503573,
-      "title": "Adam Savage's Epiphany on the Science of Measurement [video]",
-      "type": "story",
-      "url": "https://www.youtube.com/watch?v=qE7dYhpI_bI"
-    },
-    {
-      "by": "marcobambini",
-      "descendants": 0,
-      "id": 29830214,
-      "score": 1,
-      "text": "From Dr. Richard Hipp:<p>There is a bug in versions 3.35.0 (2021-03-12) through\n3.37.1 (2021-12-30) which could potentially cause database\ncorruption.  Upgrading to version 3.37.2 (2022-01-06) or later is recommended.<p>## About the bug<p>In order to encounter this problem you must:<p>1.  Change SQLite&#x27;s default behavior so that it stores secondary journal\n     files in memory, rather than as temporary files on disk.  Secondary\n     journals are stored on disk by default.  To move to in-memory storage\n     you need to compile with [-DSQLITE_TEMP_STORE=2 or 3][1] or\n     set [PRAGMA journal_mode=MEMORY][2] at run-time.<p>2.  Use the [SAVEPOINT][3] SQL statement to create nested transactions and\n     sometimes roll back those transactions using ROLLBACK TO.<p>3.  You also need a measure of bad luck, as the problem is difficult to hit.<p>## Recommended fix.<p>The recommended fix for this problem is to upgrade to [version 3.37.2][4].\nIf that is not possible for you, you should at least consider applying\nthe [one-character patch][p1] to fix the problem.<p>## How this bug was created and how it was discovered<p>The bug arose from an enhancement that we installed in response to\n[forum post e78ffd751185a67e][5].  Repeated use of SAVEPOINT and\nROLLBACK TO with an in-memory journal was causing excess memory\nusage.  The fix was to &quot;truncate&quot; the in-memory journals following\na ROLLBACK TO, in order to contain the memory growth.<p>The bug was first discovered (and [reported on this forum][6])\n10 months later by researchers at the\nWingtecher Lab of Tsinghua University.  Using the AFL++ fuzzer with\na custom mutator, they managed to cause an [assert() statement][7]\nto fail.  It turns out that assert() statement existed to verify that\nthe statement journals were operating correctly, and so the failure\nof that assert() statement indicated a possible corruption bug.  Further\nanalysis showed that corruption was possible, though it is difficult\nto hit.<p>This bug is a sufficiently obscure corner case that it might have gone\nunnoticed for many years, had it not been for SQLite&#x27;s heavy use\nof assert() statement to verify internal consistency, and for\nWingtecher Lab&#x27;s ground-breaking analysis tools that found a way to \nget one of those assert() statements to fail.<p>[1]: https:&#x2F;&#x2F;www.sqlite.org&#x2F;compile.html#temp_store\n[2]: https:&#x2F;&#x2F;www.sqlite.org&#x2F;pragma.html#pragma_temp_store\n[3]: https:&#x2F;&#x2F;www.sqlite.org&#x2F;lang_savepoint.html\n[4]: https:&#x2F;&#x2F;www.sqlite.org&#x2F;releaselog&#x2F;3_37_2.html\n[p1]: https:&#x2F;&#x2F;sqlite.org&#x2F;src&#x2F;fdiff?v1=a85f0dc5c02a4245&amp;v2=ff4336a98b05ede2&amp;diff=1\n[5]: https:&#x2F;&#x2F;sqlite.org&#x2F;forum&#x2F;forumpost&#x2F;e78ffd751185a67e\n[6]: https:&#x2F;&#x2F;sqlite.org&#x2F;forum&#x2F;forumpost&#x2F;d7338bf4901f1151\n[7]: https:&#x2F;&#x2F;www.sqlite.org&#x2F;assert.html",
-      "time": 1641503477,
-      "title": "SQLite 3.37.2 fixes potentially database corruption bug",
-      "type": "story"
-    },
-    {
-      "by": "penguin_booze",
-      "descendants": 0,
-      "id": 29830212,
-      "score": 1,
-      "time": 1641503466,
-      "title": "How to slightly improve your life without trying",
-      "type": "story",
-      "url": "https://www.theguardian.com/lifeandstyle/2022/jan/01/marginal-gains-100-ways-to-improve-your-life-without-really-trying"
-    },
-    {
-      "by": "kasperni",
-      "descendants": 0,
-      "id": 29830204,
-      "score": 1,
-      "time": 1641503408,
-      "title": "Benchmarking CRuby, MJIT, YJIT, JRuby, and TruffleRuby",
-      "type": "story",
-      "url": "https://medium.com/graalvm/benchmarking-cruby-mjit-yjit-jruby-and-truffleruby-6a7178ca6906"
-    },
-    {
-      "by": "machinerychorus",
-      "descendants": 0,
-      "id": 29830160,
-      "score": 1,
-      "time": 1641503216,
-      "title": "VX Junkies Forum",
-      "type": "story",
-      "url": "https://old.reddit.com/r/VXJunkies/"
-    },
-    {
-      "by": "purplesnowflake",
-      "descendants": 0,
-      "id": 29830150,
-      "score": 1,
-      "time": 1641503165,
-      "title": "You Can Now Play Video Games Developed Behind the Iron Curtain",
-      "type": "story",
-      "url": "https://www.vice.com/en/article/n7n7z7/you-can-now-play-video-games-developed-behind-the-iron-curtain"
-    },
-    {
-      "by": "picdit",
-      "descendants": 0,
-      "id": 29830140,
-      "score": 1,
-      "time": 1641503106,
-      "title": "Pixel Noise Paintings",
-      "type": "story",
-      "url": "https://adamfuhrer.com/pixel-noise-paintings"
-    },
-    {
-      "by": "anigbrowl",
-      "descendants": 0,
-      "id": 29830128,
-      "score": 3,
-      "time": 1641503060,
-      "title": "Female patients of male surgeons experience worse health outcomes",
-      "type": "story",
-      "url": "https://jamanetwork.com/journals/jamasurgery/article-abstract/2786671"
     }
   ]
 }
