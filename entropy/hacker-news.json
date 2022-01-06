@@ -1,14 +1,47 @@
 {
   "stories": [
     {
-      "by": "Gigacore",
-      "descendants": 0,
-      "id": 29825808,
+      "by": "gwnicol",
+      "descendants": 1,
+      "id": 29825845,
+      "kids": [
+        29825846
+      ],
       "score": 1,
-      "time": 1641487176,
-      "title": "Ntrace – An open-source analytics service that does not use cookies",
+      "time": 1641487341,
+      "title": "NFT – Project Value",
       "type": "story",
-      "url": "https://github.com/subhendukundu/ntrace"
+      "url": "https://opensea.io/collection/collection-exponential"
+    },
+    {
+      "by": "onli",
+      "descendants": 0,
+      "id": 29825844,
+      "score": 2,
+      "text": "I would like to create a group that promotes RSS.<p>Regularly on HN we see threads about the apparent demise of the feed file as a technology and how sad it is. Despite the answers to those threads showing that RSS&#x2F;Atom is not dead at all, what is clear is that it is not in a great spot. Less sites support it, percent-wise a smaller amount of internet users knows what it is and how it might be of use, browsers dropped their integrations.<p>I have a plan on how to counteract this. It includes getting people together who feel that this technology is elemental for the open web and should be preserved. It then vaguely continues like this (not necessarily sorted by feasibility):<p>1. Open PRs for browsers with provided-by-us code to integrate RSS again, with UI elements that make existing feeds visible and supports subscribing via a feed reader<p>2. Run a site that can be used for this, that takes a &quot;I want to subscribe to a feed&quot;-request and presents RSS readers to do so.<p>3. Implement default feeds for CMS that are missing them.<p>4. Implement easy to use libraries for programming languages that might miss them.<p>5. Create a website that explains why this is important, that hosts or links to the specifications and that contains additional documentation.<p>It&#x27;s nothing I can do on my own, but I really think that if some people come together, that we could have a real influence on this development. Even if the browser integration step fails (which might be likely) there are alternative ways forward. And I&#x27;m sure there will be many more ideas on what could be done.<p>If this is of interest to you, consider joining https:&#x2F;&#x2F;gitter.im&#x2F;FosterRSS&#x2F;community.",
+      "time": 1641487328,
+      "title": "Ask HN: Who wants to help promote RSS?",
+      "type": "story"
+    },
+    {
+      "by": "rbanffy",
+      "descendants": 0,
+      "id": 29825843,
+      "score": 1,
+      "time": 1641487327,
+      "title": "Oracle Working on Multi-Threaded VFIO Page Pinning for ~10x Faster QEMU Startup",
+      "type": "story",
+      "url": "https://www.phoronix.com/scan.php?page=news_item&px=VFIO-Multi-Thread-Pinning"
+    },
+    {
+      "by": "MarkusWinand",
+      "descendants": 0,
+      "id": 29825842,
+      "score": 1,
+      "time": 1641487324,
+      "title": "Graph Pattern Matching in GQL and SQL/PGQ",
+      "type": "story",
+      "url": "https://arxiv.org/abs/2112.06217"
     },
     {
       "by": "andygcook",
@@ -72,36 +105,6 @@
       "title": "Chrome OS Could Become the Future Leader of Personal Computing",
       "type": "story",
       "url": "https://tdarb.org/future-os-google/"
-    },
-    {
-      "by": "rbanffy",
-      "descendants": 0,
-      "id": 29825721,
-      "score": 1,
-      "time": 1641486834,
-      "title": "Fedora 36 Looking to Move Users Away from Legacy “Ifcfg” Network Scripts",
-      "type": "story",
-      "url": "https://www.phoronix.com/scan.php?page=news_item&px=Fedora-36-Remove-ifcfg"
-    },
-    {
-      "by": "rbanffy",
-      "descendants": 0,
-      "id": 29825718,
-      "score": 1,
-      "time": 1641486815,
-      "title": "The most important computer you’ve never heard of",
-      "type": "story",
-      "url": "https://arstechnica.com/science/2022/01/the-most-important-computer-youve-never-heard-of/"
-    },
-    {
-      "by": "NWMatherson",
-      "descendants": 0,
-      "id": 29825681,
-      "score": 8,
-      "text": "Hi HN, I’m Nate, and here together with my co-founder Matt, we are the founders of ContainIQ (<a href=\"https:&#x2F;&#x2F;www.containiq.com&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;www.containiq.com&#x2F;</a>). ContainIQ is a complete K8s monitoring solution that is easy to set up and maintain and provides a comprehensive view of cluster health.<p>Over the last few years, we noticed a shift that more of our friends and other founders were using Kubernetes earlier on. (Whether or not they actually need it so early is not as clear, but that’s a point for another discussion.) From our past experience using open-source tooling and other platforms on the market, we knew that the existing tooling out there wasn’t built for this generation of companies building with Kubernetes.<p>Many early to middle-market tech companies don’t have the resources to manage and maintain a bunch of disparate monitoring tools, and most engineering teams don’t know how to use them. But when scaling, engineering teams do know that they need to monitor cluster health and core metrics, or else end users will suffer. Measuring HTTP response latency by URL path, in particular, is important for many companies, but can be time-consuming to install application packages for each individual microservice.<p>We decided to build a solution that was easy to set up and maintain. Our goal was to get users 95% of the way there almost instantly.<p>Today, our Kubernetes monitoring platform has four core features: \n(1) metrics: CPU and memory for pods&#x2F;nodes, view limits, capacity, and correlate to events, alert on changes; \n(2) events: K8s events dashboard, correlate to logs, alerts; \n(3) latency: monitor RPS, p95, and p99 latencies by microservices, including by URL path, alerts; and \n(4) logs: container level log storage and search.<p>Our latency feature set was built using a technology called eBPF. BPF, or the Berkeley Packet Filter, was developed from a need to filter network packets in order to minimize unnecessary packet copies from the kernel space to the user space. Since version 3.18, the Linux kernel provides extended BPF, or eBPF, which uses 64-bit registers and increases the number of registers from two to ten. We install the necessary kernel headers for users automatically.<p>With eBPF, we are monitoring from the kernel and OS level, and not at the application level. Our users can measure and monitor HTTP response latency across all of their microservices and URL paths, as long as their kernel version is supported. We are able to deliver this experience immediately by parsing the network packet from the socket directly. We then correlate the socket and sk_buff information to your Kubernetes pods to provide metrics like requests per second, p95, and p99 latency at the path and microservice level, without you having to instrument each microservice at the application level. For example with ContainIQ, you can track how long your node.js application is taking to respond to HTTP requests from your users, ultimately allowing you to see which parts of your web application are slowest and alerting you when users are experiencing slowdowns.<p>Users can correlate events to logs and metrics in one view. We knew how annoying it was to toggle between multiple tabs and then scroll endlessly through logs trying to match up timestamps. We fixed this. For example, a user can click from an event (ex a pod dying) to the logs at that point in time.<p>Users can set alerts across really all data points (ex. p95 latency, a K8s job failing, a pod eviction).<p>Installation is straightforward either using helm or with our YAML files.<p>Pricing is $20 per node &#x2F; month + $1 per GB of log data ingested. You can sign up on our website directly with the self-service flow. You can also book a demo if you would like to talk to us, but that isn’t required. Here are some videos (<a href=\"https:&#x2F;&#x2F;www.containiq.com&#x2F;kubernetes-monitoring\" rel=\"nofollow\">https:&#x2F;&#x2F;www.containiq.com&#x2F;kubernetes-monitoring</a>) if you are curious to see our UX before signing up.<p>We know that we have a lot of work left to do. And we welcome your suggestions, comments, and feedback. Thank you!",
-      "time": 1641486654,
-      "title": "Launch HN: ContainIQ (YC S21) – Kubernetes Native Monitoring with eBPF",
-      "type": "story"
     }
   ]
 }
