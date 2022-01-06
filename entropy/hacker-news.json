@@ -1,6 +1,56 @@
 {
   "stories": [
     {
+      "by": "geox",
+      "descendants": 0,
+      "id": 29830267,
+      "score": 1,
+      "time": 1641503694,
+      "title": "America doesn’t have enough teachers to keep schools open",
+      "type": "story",
+      "url": "https://www.vox.com/the-goods/22868641/chicago-school-closings-omicron-covid-remote-learning"
+    },
+    {
+      "by": "jkuria",
+      "descendants": 0,
+      "id": 29830266,
+      "score": 1,
+      "time": 1641503693,
+      "title": "My Favorite 3 Books of 2021",
+      "type": "story",
+      "url": "https://www.linkedin.com/pulse/my-favorite-3-books-2021-jasper-kuria"
+    },
+    {
+      "by": "lisper",
+      "descendants": 0,
+      "id": 29830238,
+      "score": 1,
+      "time": 1641503573,
+      "title": "Adam Savage's Epiphany on the Science of Measurement [video]",
+      "type": "story",
+      "url": "https://www.youtube.com/watch?v=qE7dYhpI_bI"
+    },
+    {
+      "by": "marcobambini",
+      "descendants": 0,
+      "id": 29830214,
+      "score": 1,
+      "text": "From Dr. Richard Hipp:<p>There is a bug in versions 3.35.0 (2021-03-12) through\n3.37.1 (2021-12-30) which could potentially cause database\ncorruption.  Upgrading to version 3.37.2 (2022-01-06) or later is recommended.<p>## About the bug<p>In order to encounter this problem you must:<p>1.  Change SQLite&#x27;s default behavior so that it stores secondary journal\n     files in memory, rather than as temporary files on disk.  Secondary\n     journals are stored on disk by default.  To move to in-memory storage\n     you need to compile with [-DSQLITE_TEMP_STORE=2 or 3][1] or\n     set [PRAGMA journal_mode=MEMORY][2] at run-time.<p>2.  Use the [SAVEPOINT][3] SQL statement to create nested transactions and\n     sometimes roll back those transactions using ROLLBACK TO.<p>3.  You also need a measure of bad luck, as the problem is difficult to hit.<p>## Recommended fix.<p>The recommended fix for this problem is to upgrade to [version 3.37.2][4].\nIf that is not possible for you, you should at least consider applying\nthe [one-character patch][p1] to fix the problem.<p>## How this bug was created and how it was discovered<p>The bug arose from an enhancement that we installed in response to\n[forum post e78ffd751185a67e][5].  Repeated use of SAVEPOINT and\nROLLBACK TO with an in-memory journal was causing excess memory\nusage.  The fix was to &quot;truncate&quot; the in-memory journals following\na ROLLBACK TO, in order to contain the memory growth.<p>The bug was first discovered (and [reported on this forum][6])\n10 months later by researchers at the\nWingtecher Lab of Tsinghua University.  Using the AFL++ fuzzer with\na custom mutator, they managed to cause an [assert() statement][7]\nto fail.  It turns out that assert() statement existed to verify that\nthe statement journals were operating correctly, and so the failure\nof that assert() statement indicated a possible corruption bug.  Further\nanalysis showed that corruption was possible, though it is difficult\nto hit.<p>This bug is a sufficiently obscure corner case that it might have gone\nunnoticed for many years, had it not been for SQLite&#x27;s heavy use\nof assert() statement to verify internal consistency, and for\nWingtecher Lab&#x27;s ground-breaking analysis tools that found a way to \nget one of those assert() statements to fail.<p>[1]: https:&#x2F;&#x2F;www.sqlite.org&#x2F;compile.html#temp_store\n[2]: https:&#x2F;&#x2F;www.sqlite.org&#x2F;pragma.html#pragma_temp_store\n[3]: https:&#x2F;&#x2F;www.sqlite.org&#x2F;lang_savepoint.html\n[4]: https:&#x2F;&#x2F;www.sqlite.org&#x2F;releaselog&#x2F;3_37_2.html\n[p1]: https:&#x2F;&#x2F;sqlite.org&#x2F;src&#x2F;fdiff?v1=a85f0dc5c02a4245&amp;v2=ff4336a98b05ede2&amp;diff=1\n[5]: https:&#x2F;&#x2F;sqlite.org&#x2F;forum&#x2F;forumpost&#x2F;e78ffd751185a67e\n[6]: https:&#x2F;&#x2F;sqlite.org&#x2F;forum&#x2F;forumpost&#x2F;d7338bf4901f1151\n[7]: https:&#x2F;&#x2F;www.sqlite.org&#x2F;assert.html",
+      "time": 1641503477,
+      "title": "SQLite 3.37.2 fixes potentially database corruption bug",
+      "type": "story"
+    },
+    {
+      "by": "penguin_booze",
+      "descendants": 0,
+      "id": 29830212,
+      "score": 1,
+      "time": 1641503466,
+      "title": "How to slightly improve your life without trying",
+      "type": "story",
+      "url": "https://www.theguardian.com/lifeandstyle/2022/jan/01/marginal-gains-100-ways-to-improve-your-life-without-really-trying"
+    },
+    {
       "by": "kasperni",
       "descendants": 0,
       "id": 29830204,
@@ -49,59 +99,6 @@
       "title": "Female patients of male surgeons experience worse health outcomes",
       "type": "story",
       "url": "https://jamanetwork.com/journals/jamasurgery/article-abstract/2786671"
-    },
-    {
-      "by": "purplesnowflake",
-      "descendants": 0,
-      "id": 29830078,
-      "score": 1,
-      "time": 1641502812,
-      "title": "‘All My Apes Gone’: NFT Theft Victims Beg for Centralized Saviors",
-      "type": "story",
-      "url": "https://www.vice.com/en/article/y3v3ny/all-my-apes-gone-nft-theft-victims-beg-for-centralized-saviors"
-    },
-    {
-      "by": "nafnlj",
-      "descendants": 0,
-      "id": 29830061,
-      "score": 2,
-      "time": 1641502743,
-      "title": "Gitea Is Joining the Fediverse",
-      "type": "story",
-      "url": "https://social.gitea.io/@gitea/107576791626052697"
-    },
-    {
-      "by": "purplesnowflake",
-      "descendants": 1,
-      "id": 29830060,
-      "kids": [
-        29830162
-      ],
-      "score": 4,
-      "time": 1641502741,
-      "title": "Bitcoin network power slumps as Kazakhstan crackdown hits crypto miners",
-      "type": "story",
-      "url": "https://www.reuters.com/markets/europe/bitcoin-network-power-slumps-kazakhstan-crackdown-hits-crypto-miners-2022-01-06/"
-    },
-    {
-      "by": "tomsonj",
-      "descendants": 0,
-      "id": 29830040,
-      "score": 1,
-      "time": 1641502622,
-      "title": "Automatic Prediction of Your Data",
-      "type": "story",
-      "url": "https://www.microprediction.com/get-predictions"
-    },
-    {
-      "by": "misotaur",
-      "descendants": 0,
-      "id": 29830037,
-      "score": 2,
-      "time": 1641502611,
-      "title": "Autistic people challenge preconceived ideas about rationality",
-      "type": "story",
-      "url": "https://psyche.co/ideas/autistic-people-challenge-preconceived-ideas-about-rationality"
     }
   ]
 }
