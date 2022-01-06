@@ -1,6 +1,49 @@
 {
   "stories": [
     {
+      "by": "rbanffy",
+      "descendants": 0,
+      "id": 29825721,
+      "score": 1,
+      "time": 1641486834,
+      "title": "Fedora 36 Looking to Move Users Away from Legacy “Ifcfg” Network Scripts",
+      "type": "story",
+      "url": "https://www.phoronix.com/scan.php?page=news_item&px=Fedora-36-Remove-ifcfg"
+    },
+    {
+      "by": "rbanffy",
+      "descendants": 0,
+      "id": 29825718,
+      "score": 1,
+      "time": 1641486815,
+      "title": "The most important computer you’ve never heard of",
+      "type": "story",
+      "url": "https://arstechnica.com/science/2022/01/the-most-important-computer-youve-never-heard-of/"
+    },
+    {
+      "by": "mpak_",
+      "descendants": 1,
+      "id": 29825714,
+      "kids": [
+        29825715
+      ],
+      "score": 1,
+      "time": 1641486804,
+      "title": "Cookbook App",
+      "type": "story",
+      "url": "https://cookbook.cards"
+    },
+    {
+      "by": "NWMatherson",
+      "descendants": 0,
+      "id": 29825681,
+      "score": 6,
+      "text": "Hi HN, I’m Nate, and here together with my co-founder Matt, we are the founders of ContainIQ (<a href=\"https:&#x2F;&#x2F;www.containiq.com&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;www.containiq.com&#x2F;</a>). ContainIQ is a complete K8s monitoring solution that is easy to set up and maintain and provides a comprehensive view of cluster health.<p>Over the last few years, we noticed a shift that more of our friends and other founders were using Kubernetes earlier on. (Whether or not they actually need it so early is not as clear, but that’s a point for another discussion.) From our past experience using open-source tooling and other platforms on the market, we knew that the existing tooling out there wasn’t built for this generation of companies building with Kubernetes.<p>Many early to middle-market tech companies don’t have the resources to manage and maintain a bunch of disparate monitoring tools, and most engineering teams don’t know how to use them. But when scaling, engineering teams do know that they need to monitor cluster health and core metrics, or else end users will suffer. Measuring HTTP response latency by URL path, in particular, is important for many companies, but can be time-consuming to install application packages for each individual microservice.<p>We decided to build a solution that was easy to set up and maintain. Our goal was to get users 95% of the way there almost instantly.<p>Today, our Kubernetes monitoring platform has four core features: \n(1) metrics: CPU and memory for pods&#x2F;nodes, view limits, capacity, and correlate to events, alert on changes; \n(2) events: K8s events dashboard, correlate to logs, alerts; \n(3) latency: monitor RPS, p95, and p99 latencies by microservices, including by URL path, alerts; and \n(4) logs: container level log storage and search.<p>Our latency feature set was built using a technology called eBPF. BPF, or the Berkeley Packet Filter, was developed from a need to filter network packets in order to minimize unnecessary packet copies from the kernel space to the user space. Since version 3.18, the Linux kernel provides extended BPF, or eBPF, which uses 64-bit registers and increases the number of registers from two to ten. We install the necessary kernel headers for users automatically.<p>With eBPF, we are monitoring from the kernel and OS level, and not at the application level. Our users can measure and monitor HTTP response latency across all of their microservices and URL paths, as long as their kernel version is supported. We are able to deliver this experience immediately by parsing the network packet from the socket directly. We then correlate the socket and sk_buff information to your Kubernetes pods to provide metrics like requests per second, p95, and p99 latency at the path and microservice level, without you having to instrument each microservice at the application level. For example with ContainIQ, you can track how long your node.js application is taking to respond to HTTP requests from your users, ultimately allowing you to see which parts of your web application are slowest and alerting you when users are experiencing slowdowns.<p>Users can correlate events to logs and metrics in one view. We knew how annoying it was to toggle between multiple tabs and then scroll endlessly through logs trying to match up timestamps. We fixed this. For example, a user can click from an event (ex a pod dying) to the logs at that point in time.<p>Users can set alerts across really all data points (ex. p95 latency, a K8s job failing, a pod eviction).<p>Installation is straightforward either using helm or with our YAML files.<p>Pricing is $20 per node &#x2F; month + $1 per GB of log data ingested. You can sign up on our website directly with the self-service flow. You can also book a demo if you would like to talk to us, but that isn’t required. Here are some videos (<a href=\"https:&#x2F;&#x2F;www.containiq.com&#x2F;kubernetes-monitoring\" rel=\"nofollow\">https:&#x2F;&#x2F;www.containiq.com&#x2F;kubernetes-monitoring</a>) if you are curious to see our UX before signing up.<p>We know that we have a lot of work left to do. And we welcome your suggestions, comments, and feedback. Thank you!",
+      "time": 1641486654,
+      "title": "Launch HN: ContainIQ (YC S21) – Kubernetes Native Monitoring with eBPF",
+      "type": "story"
+    },
+    {
       "by": "zdw",
       "descendants": 0,
       "id": 29825612,
@@ -22,9 +65,12 @@
     },
     {
       "by": "going_ham",
-      "descendants": 0,
+      "descendants": 1,
       "id": 29825579,
-      "score": 1,
+      "kids": [
+        29825713
+      ],
+      "score": 3,
       "text": "I lurk HN on daily basis, and I have started assuming that most of the people here have some kind of side project that makes them money.<p>If it is true, how are you guys managing it? How do you practice self-discipline? How do you forgive yourself for slacking off? And what happens when you aren&#x27;t able to perform and feel guilty about it? And finally, how to find balance between relaxing and working?",
       "time": 1641486296,
       "title": "Ask HN: Do most of the regulars have their own side projects that make money?",
@@ -59,49 +105,6 @@
       "title": "Was Nero cruel? British Museum offers hidden depths to Roman emperor",
       "type": "story",
       "url": "https://www.theguardian.com/culture/2021/apr/22/was-nero-cruel-british-museum-offers-hidden-depths-to-roman-emperor"
-    },
-    {
-      "by": "Tomte",
-      "descendants": 0,
-      "id": 29825550,
-      "score": 1,
-      "time": 1641486167,
-      "title": "RCA postgraduates create open navigation system inspired by insect eyes (2019)",
-      "type": "story",
-      "url": "https://www.dezeen.com/2019/04/23/rca-aweigh-navigation-system-design/"
-    },
-    {
-      "by": "ohjeez",
-      "descendants": 0,
-      "id": 29825525,
-      "score": 1,
-      "time": 1641486090,
-      "title": "BMW debuts its new color-changing paint technology at CES: E Ink",
-      "type": "story",
-      "url": "https://www.theverge.com/2022/1/5/22867090/bmw-color-changing-paint-electric-car-ces"
-    },
-    {
-      "by": "fabianlindfors",
-      "descendants": 0,
-      "id": 29825520,
-      "score": 1,
-      "time": 1641486066,
-      "title": "Zero-downtime schema migrations in Postgres using Reshape",
-      "type": "story",
-      "url": "https://fabianlindfors.se/blog/schema-migrations-in-postgres-using-reshape/"
-    },
-    {
-      "by": "ranch",
-      "descendants": 1,
-      "id": 29825490,
-      "kids": [
-        29825491
-      ],
-      "score": 1,
-      "time": 1641485983,
-      "title": "Opera Browser chose TiDB to address MySQL's scalability limit",
-      "type": "story",
-      "url": "https://en.pingcap.com/case-study/how-tidb-improves-operas-ads-business/"
     }
   ]
 }
