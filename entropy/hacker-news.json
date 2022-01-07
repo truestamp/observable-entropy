@@ -1,104 +1,107 @@
 {
   "stories": [
     {
+      "by": "tosh",
+      "descendants": 0,
+      "id": 29843362,
+      "score": 1,
+      "time": 1641582571,
+      "title": "TV Rewind: The Miraculous Existence of Crazy Ex-Girlfriend",
+      "type": "story",
+      "url": "https://www.pastemagazine.com/tv/the-cw/crazy-ex-girlfriend-streaming-legacy/"
+    },
+    {
+      "by": "leblowl",
+      "descendants": 0,
+      "id": 29843351,
+      "score": 1,
+      "time": 1641582539,
+      "title": "LF Energy",
+      "type": "story",
+      "url": "https://www.lfenergy.org/"
+    },
+    {
+      "by": "leblowl",
+      "descendants": 0,
+      "id": 29843311,
+      "score": 1,
+      "time": 1641582370,
+      "title": "Lars van Vianen – Future Nature – Studium Generale 2021",
+      "type": "story",
+      "url": "https://vimeo.com/660944442"
+    },
+    {
+      "by": "zecken",
+      "descendants": 0,
+      "id": 29843292,
+      "score": 1,
+      "time": 1641582303,
+      "title": "Sonos wins major patent infringement victory against Google",
+      "type": "story",
+      "url": "https://www.theverge.com/2022/1/6/22871121/sonos-google-patent-itc-ruling-decision-import-ban"
+    },
+    {
+      "by": "bookofjoe",
+      "descendants": 1,
+      "id": 29843276,
+      "kids": [
+        29843277
+      ],
+      "score": 1,
+      "time": 1641582219,
+      "title": "Twitter account known for finding Playstation 5s lends muscle to Covid fight",
+      "type": "story",
+      "url": "https://www.washingtonpost.com/video-games/2022/01/07/wario64-covid-home-tests-ps5/"
+    },
+    {
+      "by": "vegetablepotpie",
+      "descendants": 0,
+      "id": 29843273,
+      "score": 1,
+      "time": 1641582207,
+      "title": "The ESG Mirage",
+      "type": "story",
+      "url": "https://www.bloomberg.com/graphics/2021-what-is-esg-investing-msci-ratings-focus-on-corporate-bottom-line/"
+    },
+    {
       "by": "rbanffy",
       "descendants": 0,
-      "id": 29843155,
-      "score": 1,
-      "time": 1641581705,
-      "title": "Undefined Behavior deserves a better reputation – SIGPLAN Blog",
-      "type": "story",
-      "url": "https://blog.sigplan.org/2021/11/18/undefined-behavior-deserves-a-better-reputation/"
-    },
-    {
-      "by": "grogu88",
-      "descendants": 0,
-      "id": 29843153,
+      "id": 29843260,
       "score": 2,
-      "time": 1641581702,
-      "title": "Body-monitoring tech trend comes with concerns",
+      "time": 1641582157,
+      "title": "Chinese Rover Finds Moon Cube Is Just Rabbit-Like Rock",
       "type": "story",
-      "url": "https://techxplore.com/news/2022-01-body-monitoring-tech-trend.html"
+      "url": "https://www.nytimes.com/2022/01/07/science/moon-cube-china-rover.html"
     },
     {
-      "by": "everling",
+      "by": "mathgladiator",
       "descendants": 0,
-      "id": 29843141,
+      "id": 29843258,
       "score": 1,
-      "time": 1641581648,
-      "title": "Ghostwriter",
+      "time": 1641582148,
+      "title": "Gossip as a Failure Detector",
       "type": "story",
-      "url": "https://www.thisamericanlife.org/757/the-ghost-in-the-machine/act-one-12"
+      "url": "http://www.adama-lang.org/blog/gossip/"
     },
     {
-      "by": "luciferreeves",
+      "by": "prostoalex",
       "descendants": 0,
-      "id": 29843139,
+      "id": 29843254,
       "score": 1,
-      "text": "TLDR Warning!<p>What happened?<p>As you all might be aware that FakerJS&#x27; developer (Marak) decided to remove all the code and take down the repository. Soon enough, people started reviving FakerJS - however the code which was propagating was a code from 6 months ago – all test cases failed and a few parts were incomplete - seemed like the code was in progress. Everyone forked the same code and published on NPM. Packages like withshepherd&#x2F;faker and faker-community started getting traction.<p>What is Blaver? Why a new Fork?<p>Blaver has the same ideology of reviving and maintaining FakerJS. To be honest, I started working on Blaver before I could look at those community forks – there is no other reason to explain this. However, I noticed the incomplete code, so I detached the repository fork which I had and started fixing the library. I had to go through all (exaggerated - I meant “a lot”) of the contributors of Faker, looked at their latest fixes and fixed the code to a working state. I rolled out my own fixes too (Took me almost 100 commits, Never did so many commits in a day).<p>What makes it different from other community versions?<p>- Easy to remember unique short name.\n- Added bigInt() function (missing from other repos) and fixed bitcoinAddress() function (as found in contributor repos).\n- Fixed all linting errors.\n- Fixed all unit test cases (0 tests were passing at the time of the fork, all tests pass now).\n- Remove old public API from vendor&#x2F;mersenne.js.\n- Replaced jshint with eslint. Removed jshint specific files: jshintrc and jshintignore.\n- Updated all locales to include new random data and added a new Urdu (UR) locale.\n- FakerCloud (service used to generate random profile pictures) is also taken down. Replaced it with Pravatar. Also fixed test cases for the random pictures function.\n- Fixed coverage script with working coveralls code coverage.\n- Added GitHub Actions script to run lint and test scripts.\n- Update all faker instances to blaver.<p>Where to find it?<p>GitHub: https:&#x2F;&#x2F;github.com&#x2F;luciferreeves&#x2F;blaver\nNPM: https:&#x2F;&#x2F;npmjs.com&#x2F;package&#x2F;blaver<p>Hope you like this work. I am determined to maintain this repository from now on. If you have some time, consider adding yourself to the stargazers list on the GitHub page. If you like to see any extra functionality, consider raising an Issue.<p>Thanks for reading this much.",
-      "time": 1641581635,
-      "title": "Blaver – Maintaining FakerJS",
-      "type": "story"
+      "time": 1641582127,
+      "title": "Meme Coins Return to Earth as Gloom Overtakes Crypto Fanatics",
+      "type": "story",
+      "url": "https://www.bloomberg.com/news/articles/2022-01-06/meme-coins-return-to-earth-as-gloom-overtakes-crypto-fanatics"
     },
     {
-      "by": "wfsch",
+      "by": "ourmandave",
       "descendants": 0,
-      "id": 29843135,
+      "id": 29843235,
       "score": 2,
-      "time": 1641581626,
-      "title": "Why was Pinball removed from Windows Vista?",
+      "time": 1641582048,
+      "title": "Cyber Command Task Force Conducted Its First Offensive Operation",
       "type": "story",
-      "url": "https://devblogs.microsoft.com/oldnewthing/20121218-00/?p=5803"
-    },
-    {
-      "by": "vikrum",
-      "descendants": 0,
-      "id": 29843131,
-      "score": 2,
-      "time": 1641581612,
-      "title": "Real-time React apps using Watchables",
-      "type": "story",
-      "url": "https://www.shortwave.com/blog/watchables-realtime-react-without-redux/"
-    },
-    {
-      "by": "wfsch",
-      "descendants": 0,
-      "id": 29843120,
-      "score": 1,
-      "time": 1641581572,
-      "title": "Filling in some gaps in the story of Space Cadet Pinball on 64-bit Windows",
-      "type": "story",
-      "url": "https://devblogs.microsoft.com/oldnewthing/20220106-00/?p=106122"
-    },
-    {
-      "by": "samlaf",
-      "descendants": 0,
-      "id": 29843119,
-      "score": 1,
-      "time": 1641581571,
-      "title": "Graphical Depiction of Ethereum Scaling Solutions",
-      "type": "story",
-      "url": "https://samlaf.github.io/blockchain/graphical-depiction-of-ethereum-scaling-solutions.html"
-    },
-    {
-      "by": "mooreds",
-      "descendants": 0,
-      "id": 29843118,
-      "score": 1,
-      "time": 1641581571,
-      "title": "A customizable man-in-the-middle TCP proxy with support for HTTP and HTTPS",
-      "type": "story",
-      "url": "https://github.com/synchronizing/mitm"
-    },
-    {
-      "by": "gballan",
-      "descendants": 0,
-      "id": 29843112,
-      "score": 2,
-      "time": 1641581543,
-      "title": "List of Conjectures",
-      "type": "story",
-      "url": "https://en.wikipedia.org/wiki/List_of_conjectures"
+      "url": "https://www.thedrive.com/the-war-zone/43776/cyber-command-task-force-conducted-its-first-offensive-operation-as-defense-secretary-watched"
     }
   ]
 }
