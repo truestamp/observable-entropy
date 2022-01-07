@@ -1,104 +1,104 @@
 {
   "stories": [
     {
-      "by": "tomas789",
+      "by": "grogu88",
       "descendants": 0,
-      "id": 29843060,
+      "id": 29843153,
       "score": 1,
-      "time": 1641581343,
-      "title": "The Worst Computer Bugs in History: Losing $460m in 45 minutes (2017)",
+      "time": 1641581702,
+      "title": "Body-monitoring tech trend comes with concerns",
       "type": "story",
-      "url": "https://www.bugsnag.com/blog/bug-day-460m-loss"
+      "url": "https://techxplore.com/news/2022-01-body-monitoring-tech-trend.html"
     },
     {
-      "by": "tommoor",
+      "by": "everling",
       "descendants": 0,
-      "id": 29843045,
+      "id": 29843141,
       "score": 1,
-      "time": 1641581256,
-      "title": "Google Watchlist",
+      "time": 1641581648,
+      "title": "Ghostwriter",
       "type": "story",
-      "url": "https://www.google.com/search?q=my+watchlist"
+      "url": "https://www.thisamericanlife.org/757/the-ghost-in-the-machine/act-one-12"
     },
     {
-      "by": "forrestbrazeal",
+      "by": "luciferreeves",
       "descendants": 0,
-      "id": 29843043,
+      "id": 29843139,
       "score": 1,
-      "time": 1641581241,
-      "title": "The case for building skills on more than one cloud",
-      "type": "story",
-      "url": "https://cloud.google.com/blog/topics/hybrid-cloud/the-career-benefits-of-multicloud-fluency"
+      "text": "TLDR Warning!<p>What happened?<p>As you all might be aware that FakerJS&#x27; developer (Marak) decided to remove all the code and take down the repository. Soon enough, people started reviving FakerJS - however the code which was propagating was a code from 6 months ago – all test cases failed and a few parts were incomplete - seemed like the code was in progress. Everyone forked the same code and published on NPM. Packages like withshepherd&#x2F;faker and faker-community started getting traction.<p>What is Blaver? Why a new Fork?<p>Blaver has the same ideology of reviving and maintaining FakerJS. To be honest, I started working on Blaver before I could look at those community forks – there is no other reason to explain this. However, I noticed the incomplete code, so I detached the repository fork which I had and started fixing the library. I had to go through all (exaggerated - I meant “a lot”) of the contributors of Faker, looked at their latest fixes and fixed the code to a working state. I rolled out my own fixes too (Took me almost 100 commits, Never did so many commits in a day).<p>What makes it different from other community versions?<p>- Easy to remember unique short name.\n- Added bigInt() function (missing from other repos) and fixed bitcoinAddress() function (as found in contributor repos).\n- Fixed all linting errors.\n- Fixed all unit test cases (0 tests were passing at the time of the fork, all tests pass now).\n- Remove old public API from vendor&#x2F;mersenne.js.\n- Replaced jshint with eslint. Removed jshint specific files: jshintrc and jshintignore.\n- Updated all locales to include new random data and added a new Urdu (UR) locale.\n- FakerCloud (service used to generate random profile pictures) is also taken down. Replaced it with Pravatar. Also fixed test cases for the random pictures function.\n- Fixed coverage script with working coveralls code coverage.\n- Added GitHub Actions script to run lint and test scripts.\n- Update all faker instances to blaver.<p>Where to find it?<p>GitHub: https:&#x2F;&#x2F;github.com&#x2F;luciferreeves&#x2F;blaver\nNPM: https:&#x2F;&#x2F;npmjs.com&#x2F;package&#x2F;blaver<p>Hope you like this work. I am determined to maintain this repository from now on. If you have some time, consider adding yourself to the stargazers list on the GitHub page. If you like to see any extra functionality, consider raising an Issue.<p>Thanks for reading this much.",
+      "time": 1641581635,
+      "title": "Blaver – Maintaining FakerJS",
+      "type": "story"
     },
     {
-      "by": "danielbarter",
+      "by": "wfsch",
       "descendants": 0,
-      "id": 29843035,
+      "id": 29843135,
       "score": 1,
-      "time": 1641581218,
-      "title": "RNMC: A statistical mechanics Monte Carlo simulator",
+      "time": 1641581626,
+      "title": "Why was Pinball removed from Windows Vista?",
       "type": "story",
-      "url": "https://github.com/BlauGroup/RNMC"
+      "url": "https://devblogs.microsoft.com/oldnewthing/20121218-00/?p=5803"
     },
     {
-      "by": "prostoalex",
+      "by": "vikrum",
       "descendants": 0,
-      "id": 29843011,
+      "id": 29843131,
+      "score": 1,
+      "time": 1641581612,
+      "title": "Real-time React apps using Watchables",
+      "type": "story",
+      "url": "https://www.shortwave.com/blog/watchables-realtime-react-without-redux/"
+    },
+    {
+      "by": "wfsch",
+      "descendants": 0,
+      "id": 29843120,
+      "score": 1,
+      "time": 1641581572,
+      "title": "Filling in some gaps in the story of Space Cadet Pinball on 64-bit Windows",
+      "type": "story",
+      "url": "https://devblogs.microsoft.com/oldnewthing/20220106-00/?p=106122"
+    },
+    {
+      "by": "samlaf",
+      "descendants": 0,
+      "id": 29843119,
+      "score": 1,
+      "time": 1641581571,
+      "title": "Graphical Depiction of Ethereum Scaling Solutions",
+      "type": "story",
+      "url": "https://samlaf.github.io/blockchain/graphical-depiction-of-ethereum-scaling-solutions.html"
+    },
+    {
+      "by": "mooreds",
+      "descendants": 0,
+      "id": 29843118,
+      "score": 1,
+      "time": 1641581571,
+      "title": "A customizable man-in-the-middle TCP proxy with support for HTTP and HTTPS",
+      "type": "story",
+      "url": "https://github.com/synchronizing/mitm"
+    },
+    {
+      "by": "gballan",
+      "descendants": 0,
+      "id": 29843112,
       "score": 2,
-      "time": 1641581112,
-      "title": "Covid Treatments Are Rationed as Cases Spike",
+      "time": 1641581543,
+      "title": "List of Conjectures",
       "type": "story",
-      "url": "https://www.nytimes.com/2022/01/06/business/covid-paxlovid-antibodies-omicron.html"
+      "url": "https://en.wikipedia.org/wiki/List_of_conjectures"
     },
     {
-      "by": "oumua_don17",
+      "by": "mooreds",
       "descendants": 0,
-      "id": 29842993,
+      "id": 29843111,
       "score": 1,
-      "time": 1641581028,
-      "title": "Sidney Poiter’s Letter to US President Roosevelt",
+      "time": 1641581538,
+      "title": "An Afghan coding bootcamp becomes a lifeline under Taliban rule",
       "type": "story",
-      "url": "https://news.lettersofnote.com/p/my-name-is-sidney-poitier"
-    },
-    {
-      "by": "kencausey",
-      "descendants": 0,
-      "id": 29842982,
-      "score": 2,
-      "time": 1641580994,
-      "title": "Unidentified PC DOS 1.1 Boot Sector Junk Identified",
-      "type": "story",
-      "url": "https://www.os2museum.com/wp/unidentified-pc-dos-1-1-boot-sector-junk-identified/"
-    },
-    {
-      "by": "password1",
-      "descendants": 0,
-      "id": 29842973,
-      "score": 1,
-      "time": 1641580949,
-      "title": "1Password Security Design Whitepaper [pdf]",
-      "type": "story",
-      "url": "https://1passwordstatic.com/files/security/1password-white-paper.pdf"
-    },
-    {
-      "by": "chapulin",
-      "descendants": 0,
-      "id": 29842969,
-      "score": 1,
-      "time": 1641580936,
-      "title": "Not your ordinary houseplant: World’s tallest begonia found in Tibet",
-      "type": "story",
-      "url": "https://news.mongabay.com/2022/01/not-your-ordinary-houseplant-worlds-tallest-begonia-found-in-tibet/"
-    },
-    {
-      "by": "pseudolus",
-      "descendants": 0,
-      "id": 29842958,
-      "score": 1,
-      "time": 1641580888,
-      "title": "Poland's Kaczynski admits country bought Pegasus but denies spying on opponents",
-      "type": "story",
-      "url": "https://www.euronews.com/2022/01/07/poland-s-kaczynski-admits-country-bought-pegasus-but-denies-spying-on-opponents"
+      "url": "https://www.technologyreview.com/2021/12/30/1043133/afghanistan-coding-bootcamp/"
     }
   ]
 }
