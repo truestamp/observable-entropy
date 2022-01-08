@@ -1,6 +1,16 @@
 {
   "stories": [
     {
+      "by": "Seirdy",
+      "descendants": 0,
+      "id": 29847789,
+      "score": 1,
+      "time": 1641607358,
+      "title": "Falsehoods programmers believe about video",
+      "type": "story",
+      "url": "https://haasn.dev/posts/2016-12-25-falsehoods-programmers-believe-about-%5Bvideo-stuff%5D.html"
+    },
+    {
       "by": "raaxe",
       "descendants": 0,
       "id": 29847750,
@@ -32,8 +42,11 @@
     },
     {
       "by": "FinnKuhn",
-      "descendants": 0,
+      "descendants": 1,
       "id": 29847682,
+      "kids": [
+        29847791
+      ],
       "score": 1,
       "time": 1641606409,
       "title": "Dutch government to pay million Euro fine over racist data discrimination",
@@ -75,9 +88,10 @@
       "descendants": 1,
       "id": 29847624,
       "kids": [
+        29847799,
         29847751
       ],
-      "score": 2,
+      "score": 3,
       "text": "This takes the cake for the most damage any bug has ever caused me. You can find the full details here, https:&#x2F;&#x2F;letrosswrite.com&#x2F;, but that mostly focuses on the bureaucratic side of things. I thought it might be interesting to discuss the technical aspect of the problem.<p>For four months now, the UMN email system has sent most of my outgoing emails related to my honors thesis directly to spam, but somehow every email that I&#x27;ve sent to another student or to any of my instructors went through without a hitch. When I reported the lack of responses to the IT department, (I wasn&#x27;t sure if it was an email problem at the time), they told me that if my email was blocked as spam I would receive a bounce-back email notifying me of the issue. I had not. So far I&#x27;ve confirmed with three separate professors that me emails were being blocked the whole time.<p>That makes several layers of failure. The system failed to deliver my emails, it failed to notify me of the failed delivery, and it failed to notify anyone on the IT staff of the failed notification (which I would hope they have). Worse than that, students at the UMN are assigned emails which we are required to use, which means that the UMN email system knows that my email is attached to a specific student, and there are a limited number of emails in circulation. Google, Facebook, and and Twitter have to deal with open registration, but not UMN.<p>I&#x27;ve been a dedicated bug fixer for a large corp before, and I&#x27;ve never seen a bug this bad, but I might be too close to the situation to stay objective. What do ya&#x27;ll think?",
       "time": 1641606044,
       "title": "The University of Minnesota spam filter might have just cost me Summa Cum Laude",
@@ -92,16 +106,6 @@
       "title": "Ztype",
       "type": "story",
       "url": "https://zty.pe/"
-    },
-    {
-      "by": "jarbus",
-      "descendants": 0,
-      "id": 29847579,
-      "score": 1,
-      "time": 1641605665,
-      "title": "The Hacker's Diet",
-      "type": "story",
-      "url": "https://www.fourmilab.ch/hackdiet/"
     }
   ]
 }
