@@ -1,104 +1,104 @@
 {
   "stories": [
     {
-      "by": "Brajeshwar",
+      "by": "Tomte",
       "descendants": 0,
-      "id": 29877267,
+      "id": 29877356,
       "score": 1,
-      "time": 1641832180,
-      "title": "Take-Two Acquires Zynga",
+      "time": 1641832456,
+      "title": "The Big One (2015)",
       "type": "story",
-      "url": "https://www.gamesindustry.biz/articles/2022-01-10-take-two-acquires-zynga"
+      "url": "https://www.newyorker.com/magazine/2015/07/20/the-really-big-one"
+    },
+    {
+      "by": "Tomte",
+      "descendants": 0,
+      "id": 29877352,
+      "score": 1,
+      "time": 1641832447,
+      "title": "Chicago Undergraduate Physics Bibliography",
+      "type": "story",
+      "url": "https://www.ocf.berkeley.edu/~abhishek/chicphys.htm"
     },
     {
       "by": "jonbaer",
       "descendants": 0,
-      "id": 29877265,
+      "id": 29877344,
       "score": 1,
-      "time": 1641832159,
-      "title": "Nvidia Research Plots a Course to Multiple Multichip GPU Engines",
+      "time": 1641832423,
+      "title": "The Five Horsemen of the Data Apocalypse",
       "type": "story",
-      "url": "https://www.nextplatform.com/2022/01/06/nvidia-research-plots-a-course-to-multiple-multichip-gpu-engines/"
+      "url": "https://www.nextplatform.com/2022/01/04/the-five-horsemen-of-the-data-apocalypse/"
     },
     {
-      "by": "krossitalk",
+      "by": "ameliaibwne",
       "descendants": 0,
-      "id": 29877237,
+      "id": 29877343,
       "score": 1,
-      "time": 1641832050,
-      "title": "Hypergraphy",
+      "time": 1641832420,
+      "title": "Out for blood: The startups hoping to succeed where Theranos failed",
       "type": "story",
-      "url": "https://en.wikipedia.org/wiki/Hypergraphy"
+      "url": "https://sifted.eu/articles/blood-testing-theranos-elizabeth-holmes/"
     },
     {
-      "by": "yboris",
+      "by": "throwaway888abc",
       "descendants": 0,
-      "id": 29877234,
+      "id": 29877341,
       "score": 1,
-      "time": 1641832034,
-      "title": "Brits to quit jobs if not offered four-day week, say researchers",
+      "time": 1641832417,
+      "title": "TruffleHog – a browser extension for finding secret keys in JavaScript",
       "type": "story",
-      "url": "https://employernews.co.uk/news/brits-to-quit-jobs-if-not-offered-four-day-week-say-researchers/"
+      "url": "https://portswigger.net/daily-swig/meet-trufflehog-a-browser-extension-for-finding-secret-keys-in-javascript-code"
     },
     {
-      "by": "torginus",
+      "by": "ameliaibwne",
       "descendants": 0,
-      "id": 29877225,
+      "id": 29877335,
       "score": 1,
-      "text": "One of the big issues plaguing the blockchain is throughput - since all the transactions go into a single ledger AFAIK, the transactions need to be serialized.<p>But why does this need to be the case?<p>Imagine you had a blockchain you could fork at arbitrary points, let&#x27;s limit ourselves to 2 levels - a core level and a sub level.<p>On the core level the only thing you can do is create sub-chains, let&#x27;s say through a PoW algorithm.<p>On the sub-level, it would work like a regular blockchain, so you could write transactions into each chain with a PoW algorithm.<p>Let&#x27;s identify each user with, a letter, and each subchain with a number.<p>Now, the problem would be that wallets could be distributed between chains, so for A, you&#x27;d need to add up the balance of A0 and A3 if we presume that A has coins on these chains.<p>Now, if A wants to transfer money to B, let&#x27;s say she transfers from wallet A0 to B1, she just writes a transaction into subchain 0&#x27;s ledger to transfer coins from A0 to B1, with the usual PoW algorithm. Then let&#x27;s say the miners who manage chain 1 record this transaction into it out of charity - since A has PoW already invested, these sort of cross-chain transactions can&#x27;t be spammed.<p>Now I described the algorithm with 2 layers, but it could scale to an arbitrary number, to minimize the chain lengths, as long as the chain id&#x27;s are unique.<p>Now I&#x27;m pretty sure I missed something dumb, but I can&#x27;t see it :)",
-      "time": 1641832009,
-      "title": "Ask HN: Why does the blockchain need to be a single chain?",
-      "type": "story"
-    },
-    {
-      "by": "tmalsburg2",
-      "descendants": 0,
-      "id": 29877214,
-      "score": 1,
-      "time": 1641831969,
-      "title": "The downsides of Open Science that nobody talks about",
+      "time": 1641832400,
+      "title": "How to compensate remote workers fairly",
       "type": "story",
-      "url": "https://www.dalmaijer.org/2021/09/the-downsides-of-open-science-that-nobody-talks-about/"
+      "url": "https://sifted.eu/articles/how-to-compensate-remote-workers/"
     },
     {
-      "by": "spekcular",
+      "by": "feross",
       "descendants": 0,
-      "id": 29877196,
+      "id": 29877323,
       "score": 1,
-      "time": 1641831877,
-      "title": "Does Muscle Growth Increase Your Potential for Strength Gains?",
+      "time": 1641832353,
+      "title": "DDoS attacks increasing year on year as cybercriminals demand",
       "type": "story",
-      "url": "https://www.strongerbyscience.com/muscle-strength-gains/"
+      "url": "https://portswigger.net/daily-swig/report-ddos-attacks-increasing-year-on-year-as-cybercriminals-demand-extortionate-payouts"
     },
     {
-      "by": "zachterrell",
+      "by": "DocFeind",
       "descendants": 0,
-      "id": 29877189,
+      "id": 29877318,
       "score": 1,
-      "text": "Hey HN, I am a Machine Learning researcher with a deep interest in blockchain technology. I am looking to study a topic at the intersection of the two technologies, but am coming up empty handed as the two seem so disjoint (AI being extremely centralized with large datasets, blockchain obviously being decentralized). Has anyone run into any interesting topics or projects that incorporate the two technologies?",
-      "time": 1641831853,
-      "title": "Ask HN: AI/ML Applications on the Blockchain",
-      "type": "story"
-    },
-    {
-      "by": "jseliger",
-      "descendants": 0,
-      "id": 29877185,
-      "score": 2,
-      "time": 1641831829,
-      "title": "“As an E.R. Doctor, I Fear Health Care Collapse More Than Omicron”",
+      "time": 1641832342,
+      "title": "US DOT wants to fund research into crypto token incentives for drivers",
       "type": "story",
-      "url": "https://www.nytimes.com/2022/01/10/opinion/omicron-covid-er.html"
+      "url": "https://www.theblockcrypto.com/linked/129669/us-dot-wants-to-fund-research-into-crypto-token-incentives-for-drivers"
     },
     {
-      "by": "dsr_",
+      "by": "d--b",
       "descendants": 0,
-      "id": 29877148,
+      "id": 29877303,
       "score": 1,
-      "time": 1641831708,
-      "title": "Amazon KDP delayed royalties til Jan 1 then killed the account on Dec 31",
+      "time": 1641832284,
+      "title": "Interfaces are contracts between people",
       "type": "story",
-      "url": "https://twitter.com/Penprince_/status/1480478847485325313"
+      "url": "https://edeboursetty.substack.com/p/interfaces-are-contracts-between"
+    },
+    {
+      "by": "detaro",
+      "descendants": 0,
+      "id": 29877299,
+      "score": 1,
+      "time": 1641832270,
+      "title": "Null and void. All my NFTs on Nifty Gateway are now ‘null and void’. Here’s why",
+      "type": "story",
+      "url": "https://joanielemercier.com/null-and-void/"
     }
   ]
 }
