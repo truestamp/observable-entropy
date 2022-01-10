@@ -1,6 +1,56 @@
 {
   "stories": [
     {
+      "by": "smlavine",
+      "descendants": 0,
+      "id": 29875150,
+      "score": 1,
+      "time": 1641824393,
+      "title": "Sourcehut selected for NLNet NGI Zero funding",
+      "type": "story",
+      "url": "https://sourcehut.org/blog/2022-01-10-nlnet-graphql-funding/"
+    },
+    {
+      "by": "nradov",
+      "descendants": 0,
+      "id": 29875133,
+      "score": 1,
+      "time": 1641824344,
+      "title": "What will the US Space Force be able to do with its new GPS III variant?",
+      "type": "story",
+      "url": "https://www.c4isrnet.com/battlefield-tech/space/2022/01/09/what-will-the-us-space-force-be-able-to-do-with-its-new-gps-iii-variant/"
+    },
+    {
+      "by": "saintarian",
+      "descendants": 0,
+      "id": 29875132,
+      "score": 1,
+      "text": "Hi HN, we’re George, Oscar, and Dan, the founders of Nyckel (<a href=\"https:&#x2F;&#x2F;nyckel.com\" rel=\"nofollow\">https:&#x2F;&#x2F;nyckel.com</a>). Nyckel allows developers with no ML experience to train and deploy ML functions to classify images and text with very little training data. We let you go from a few labeled data points to a serverless machine-learned classifier in minutes.<p>The ML-as-a-Service space is dense, including some recent YC companies; so why did we create Nyckel? Our goal is to create a tool that is light, fast, fun, and accessible. Training only takes seconds, you only need 10s of annotations, we avoid ML-lingo and abstract away concepts that make developers feel like outsiders. Our pricing is transparent, signup is instant, and the platform is 100% self-serve.<p>Dan, an experienced engineer without any ML background, was building a social website that required manual curation of user-contributed content. He looked into automating this curation with ML and found offerings that required complicated setup and knowledge of ML concepts. He talked to his AI-researcher friend Oscar, and together they realized that the current solutions were unnecessarily complex and didn’t expose the right developer-friendly abstractions. We think there are many engineers like Dan who leave similar problems unsolved because of the effort required.<p>Using Nyckel, you upload a small (or large) amount of data, annotate a minimum of 2 examples per class, and have a trained model deployed in the cloud and callable via a REST API. All of this happens in seconds. As you use the model, you can continue to improve it by providing more data points as you encounter them. You can also explore and annotate your data in the UI.<p>The Nyckel AutoML engine is based on meta transfer learning. It’s “transfer” because it leverages a large set of pre-trained neural networks to represent your data, and it’s “meta” because we make informed decisions on which of the networks to try based on your particular problem. The design allows for a highly parallel execution where features are extracted and models trained by 100s of compute nodes in parallel requiring only 10s of seconds to train even with 1,000s of samples. We keep abreast of the latest deep-learning networks and add new networks to the system to improve existing and new models. Your trained model is immediately deployed on an elastic inference infrastructure.<p>Our customers are using us to do things like: tag and organize photos in a used-car marketplace; triage customer responses and support tickets for CRM (in multiple languages); determine fake vs real profile pictures to help with user verification; analyze blood sugar charts to suggest corrective actions; and build a barcode-less scanner for bulk foods.<p>Oscar has over 4k scientific citations of his AI research, as well as several industry applications behind him. Dan has designed multiple developer APIs throughout his career, most recently Square’s developer APIs. I led the Functions-as-a-Service team at Oracle Cloud and have extensive experience building large cloud systems. We think that ML, cloud, and API expertise is the right combination for this problem!<p>We have elastic pricing with an always-free tier. Beyond the free tier, we make money when you invoke your function to make a prediction.<p>We&#x27;re really happy we get to show this to you all. Thank you for reading it all! We’d love for you to check us out, and share your thoughts on Nyckel and your experiences in the ML tooling space in general.",
+      "time": 1641824339,
+      "title": "Launch HN: Nyckel (YC W22) – Train and deploy ML classifiers in minutes",
+      "type": "story"
+    },
+    {
+      "by": "doppp",
+      "descendants": 0,
+      "id": 29875109,
+      "score": 1,
+      "time": 1641824269,
+      "title": "Take-Two is acquiring mobile game giant Zynga for $12.7B",
+      "type": "story",
+      "url": "https://www.engadget.com/take-two-is-acquiring-mobile-game-giant-zynga-131758269.html"
+    },
+    {
+      "by": "throwoutway",
+      "descendants": 0,
+      "id": 29875074,
+      "score": 2,
+      "time": 1641824105,
+      "title": "Jq Play",
+      "type": "story",
+      "url": "https://jqplay.org/"
+    },
+    {
       "by": "rhedgeth",
       "descendants": 0,
       "id": 29875066,
@@ -24,7 +74,7 @@
       "by": "znpy",
       "descendants": 0,
       "id": 29875007,
-      "score": 3,
+      "score": 12,
       "time": 1641823766,
       "title": "City of Milan confirms new cycling network linking 80% of the city to bike paths",
       "type": "story",
@@ -34,7 +84,7 @@
       "by": "nabla9",
       "descendants": 0,
       "id": 29874992,
-      "score": 1,
+      "score": 2,
       "time": 1641823700,
       "title": "Jackpot watch (How the kleptocracy operates in Great Britain)",
       "type": "story",
@@ -49,56 +99,6 @@
       "title": "Lithuania wins microchip windfall from Taiwan in China clash",
       "type": "story",
       "url": "https://www.politico.eu/article/lithuania-taiwan-china-microchip-windfall-clash/"
-    },
-    {
-      "by": "LaSombra",
-      "descendants": 0,
-      "id": 29874942,
-      "score": 1,
-      "time": 1641823510,
-      "title": "How does Sourcehut's FOSS business model work?",
-      "type": "story",
-      "url": "https://sourcehut.org/blog/2022-01-09-how-does-our-business-work/"
-    },
-    {
-      "by": "ystad",
-      "descendants": 0,
-      "id": 29874941,
-      "score": 1,
-      "time": 1641823498,
-      "title": "Use the sniff test’: Morrisons to scrap ‘use-by’ dates from milk packaging",
-      "type": "story",
-      "url": "https://www.theguardian.com/business/2022/jan/09/use-the-sniff-test-morrisons-to-scrap-use-by-dates-from-milk-packaging"
-    },
-    {
-      "by": "haunter",
-      "descendants": 0,
-      "id": 29874940,
-      "score": 1,
-      "time": 1641823485,
-      "title": "Videogame Maker Take-Two Interactive to Buy Zynga in $12.7B Deal",
-      "type": "story",
-      "url": "https://www.wsj.com/articles/videogame-maker-take-two-interactive-to-buy-zynga-in-12-7-billion-deal-11641818298"
-    },
-    {
-      "by": "hereforphone",
-      "descendants": 0,
-      "id": 29874933,
-      "score": 1,
-      "time": 1641823453,
-      "title": "“Why do we make such big deal about the 'unsolvability' of the quintic?”",
-      "type": "story",
-      "url": "https://mathoverflow.net/questions/413468/why-do-we-make-such-big-deal-about-the-unsolvability-of-the-quintic"
-    },
-    {
-      "by": "chii",
-      "descendants": 0,
-      "id": 29874911,
-      "score": 1,
-      "time": 1641823377,
-      "title": "RPCS3 Playstation 3 emulation on the PC is seriously impressive – MVG",
-      "type": "story",
-      "url": "https://www.youtube.com/watch?v=ljJ8DKEy69c"
     }
   ]
 }
