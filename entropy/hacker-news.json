@@ -1,6 +1,46 @@
 {
   "stories": [
     {
+      "by": "_448",
+      "descendants": 0,
+      "id": 29870451,
+      "score": 1,
+      "text": "I am trying to develop a simple web and mobile native app as a learning exercise. To support both web and native mobile app I am thinking of this broad backend architecture:<p><pre><code>    DB &lt;--&gt; common internal api &lt;-----&gt; web request&#x2F;response handler &lt;---&gt; web client\n                             ^\n                             |\n                             +--------&gt; REST API &lt;----&gt; native mobile app\n\n</code></pre>\nMy questions are:<p>0. Is this design to support both web clients and native mobile apps okay? Is there a better approach? I am trying to develop simple old-fashioned GET&#x2F;POST and server-side rendered web app(i.e. not an SPA), but also want to support native mobile app.<p>1. When the browser sends a request to the backend, or receives a response from the backend, some of the important communication aspects such as TLS, cookie management, form data packing etc is handled by the browser on the client-side. How is this achieved on a native mobile app? Are there native libraries that handle this on behalf of the app? I do not want to use webview to wrap the web client on mobile devices.",
+      "time": 1641787185,
+      "title": "Ask HN: How to support both web and native mobile client?",
+      "type": "story"
+    },
+    {
+      "by": "daseong",
+      "descendants": 0,
+      "id": 29870445,
+      "score": 1,
+      "time": 1641787137,
+      "title": "Through the eyes of a VC – A naive approach",
+      "type": "story",
+      "url": "https://curiouseyes.substack.com/p/through-the-eyes-of-a-vc"
+    },
+    {
+      "by": "Naac",
+      "descendants": 0,
+      "id": 29870440,
+      "score": 1,
+      "time": 1641787106,
+      "title": "A Complete Guide to Tagging for Personal Knowledge Management",
+      "type": "story",
+      "url": "https://fortelabs.co/blog/a-complete-guide-to-tagging-for-personal-knowledge-management/"
+    },
+    {
+      "by": "zrkrlc",
+      "descendants": 0,
+      "id": 29870437,
+      "score": 1,
+      "time": 1641787098,
+      "title": "Chemical Computing with Clojure",
+      "type": "story",
+      "url": "https://gigasquidsoftware.com/chemical-computing/index.html"
+    },
+    {
       "by": "masaav",
       "descendants": 1,
       "id": 29870406,
@@ -35,12 +75,13 @@
     },
     {
       "by": "ali_sen",
-      "descendants": 1,
+      "descendants": 2,
       "id": 29870338,
       "kids": [
+        29870431,
         29870339
       ],
-      "score": 2,
+      "score": 3,
       "time": 1641786206,
       "title": "Turn a Raspberry Pi into a Brain-Computer-Interface to Measure Biosignals",
       "type": "story",
@@ -65,46 +106,6 @@
       "time": 1641785948,
       "title": "Ask HN: Potential for pay-as-you-go serverless scientific computing?",
       "type": "story"
-    },
-    {
-      "by": "cyounkins",
-      "descendants": 0,
-      "id": 29870309,
-      "score": 1,
-      "time": 1641785919,
-      "title": "First out-of-character interview with Birds Aren't Real creator",
-      "type": "story",
-      "url": "https://www.youtube.com/watch?v=JK1dXuMEpT0"
-    },
-    {
-      "by": "neom",
-      "descendants": 0,
-      "id": 29870278,
-      "score": 2,
-      "time": 1641785637,
-      "title": "Panel A320 Desktop Captain and First Officer",
-      "type": "story",
-      "url": "https://store.ncinformatique.ch/en/product/pre-order-panel-a320-desktop-captain-and-fo-full-version/"
-    },
-    {
-      "by": "ljoshua",
-      "descendants": 0,
-      "id": 29870247,
-      "score": 1,
-      "time": 1641785262,
-      "title": "Crypto Bros Are Building a Giant Elon Musk Goat Statue in Arizona",
-      "type": "story",
-      "url": "https://www.vice.com/en/article/88g8vx/crypto-bros-are-building-a-giant-elon-musk-goat-statue-in-arizona"
-    },
-    {
-      "by": "lnyan",
-      "descendants": 0,
-      "id": 29870235,
-      "score": 1,
-      "time": 1641785102,
-      "title": "NeROIC: Neural Object Capture and Rendering from Online Image Collections",
-      "type": "story",
-      "url": "https://formyfamily.github.io/NeROIC/"
     }
   ]
 }
