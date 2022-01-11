@@ -1,6 +1,86 @@
 {
   "stories": [
     {
+      "by": "jessaustin",
+      "descendants": 0,
+      "id": 29895794,
+      "score": 1,
+      "time": 1641926682,
+      "title": "Ivy League Cartel Sued for Price-Fixing",
+      "type": "story",
+      "url": "https://mattstoller.substack.com/p/ivy-league-cartel-sued-for-price"
+    },
+    {
+      "by": "gk1",
+      "descendants": 0,
+      "id": 29895793,
+      "score": 1,
+      "time": 1641926681,
+      "title": "Improving search and chatbots: Retrievers for Question-Answering",
+      "type": "story",
+      "url": "https://www.pinecone.io/learn/retriever-models/"
+    },
+    {
+      "by": "boxmonster",
+      "descendants": 0,
+      "id": 29895792,
+      "score": 1,
+      "text": "I&#x27;m posting my experience hoping someone will tell me I&#x27;m doing it wrong and tell me a better way. I&#x27;m aware that I could use Racket or Clojure but I really wanted to try Common Lisp as a historically important language.<p>2 days ago I posted a link that looked really interesting as a fun way to learn Common Lisp. See https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=29856110 or Sketch https:&#x2F;&#x2F;github.com&#x2F;vydd&#x2F;sketch<p>Turns out it was previously posted and got good feedback so I decided to try it. I use Windows. There were several Common Lisp installations to choose from. I choose Clozure because it appeared to be developed by Mac users, so I thought it might to have features I liked.<p>Clozure installation on Windows was fine. However, I ran into problems installing sketch because I had to build Simple Direct Media components https:&#x2F;&#x2F;www.libsdl.org&#x2F; and it wasn&#x27;t clear ahead of time which ones. I didn&#x27;t have MinGW, MSYS2 or Cygwin setup so instead I rooted around until I found SDL2.dll and libtiff.dll. Unfortunately, I couldn&#x27;t find libffi.dll so had to build it. I installed MSYS2 but failed. Cygwin same thing. This is my fault as I never learned how to do this.<p>I installed Steel Bank Common Lisp without problem hoping it might have what Sketch needs but it doesn&#x27;t<p>I gave up on Windows proper and installed WSL2 because I&#x27;m on a developers preview of Windows 11 and had read that it does graphics now. I installed Ubuntu 20 into it, but couldn&#x27;t get it to work.<p>I switched to my VMWare installation of Ubuntu 20 and failed there too, but I suspected there might be a conflict, so I installed a fresh copy of Ubuntu 20 in a new virtual machine.<p>It worked! Very nice. I can do graphics with Common Lisp.<p>I prefer not using VMWare so I am currently learning the difference between MSYS2, MinGW, Cygwin, and GnuMake32. I expect to have a Windows version working by the end of the day. I wondering if I should do a Docker image or maybe there is something better now? Last time I used Docker it seemed more difficult than it need to be.<p>&#x2F;&#x2F; These are the steps I took to make it work on Ubuntu. I don&#x27;t use Linux that often so I&#x27;m sure there is a better way like combining some of these commands<p>&#x2F;&#x2F; Install dev tools\nsudo apt-get update -y\nsudo apt install build-essential -y\nsudo apt-get install -y m4\nsudo apt-get install -y git\nsudo apt-get install -y libsdl2-dev\nsudo apt-get install -y libsdl2-image-dev\nsudo apt-get install -y libsdl2-ttf-dev\nsudo apt-get install -y curl<p>&#x2F;&#x2F; install Clozure\ngit clone https:&#x2F;&#x2F;github.com&#x2F;Clozure&#x2F;ccl.git ccl-dev\ncurl -L -O https:&#x2F;&#x2F;github.com&#x2F;Clozure&#x2F;ccl&#x2F;releases&#x2F;download&#x2F;v1.12.1&#x2F;linuxx86.tar.gz\ncd ccl-dev\ntar xf ..&#x2F;linuxx86.tar.gz\nsudo cp .&#x2F;scripts&#x2F;ccl64 &#x2F;usr&#x2F;local&#x2F;bin\ncd &#x2F;usr&#x2F;local&#x2F;bin\nsudo chmod +rwx ccl64\nsudo chown mike ccl64\nsudo chgrp mike ccl64\nsudo mv ccl64 ccl\ncode . &#x2F;&#x2F; start vscode\nput path to home ccl in var CCL_DEFAULT_DIRECTORY=&#x2F;home&#x2F;mike&#x2F;ccl-dev\ncd ~&#x2F;ccl-dev\nccl to start REPL\n(rebuild-ccl :full t)\n(quit)<p>&#x2F;&#x2F; install quicklisp into ccl-dev\ncurl -O https:&#x2F;&#x2F;beta.quicklisp.org&#x2F;quicklisp.lisp\nccl --load quicklisp.lisp      \n(quicklisp-quickstart:install)   \n(ql:add-to-init-file) \n(quit)<p>&#x2F;&#x2F; start sketch\ncd to ccl-dev directory\ntype &#x27;ccl&#x27; to start Clozure REPL\n(load &quot;quicklisp.lisp&quot;)       \n(ql:quickload :sketch)\n(ql:quickload :sketch-examples)\n(make-instance &#x27;sketch-examples:hello-world)\n(make-instance &#x27;sketch-examples:sinewave)\n(make-instance &#x27;sketch-examples:brownian)\n(make-instance &#x27;sketch-examples:life)",
+      "time": 1641926678,
+      "title": "Tell HN: My experience with Common Lisp as beginner",
+      "type": "story"
+    },
+    {
+      "by": "CynicusRex",
+      "descendants": 0,
+      "id": 29895762,
+      "score": 1,
+      "time": 1641926549,
+      "title": "Something",
+      "type": "story",
+      "url": "https://www.something.com"
+    },
+    {
+      "by": "neom",
+      "descendants": 0,
+      "id": 29895761,
+      "score": 1,
+      "time": 1641926549,
+      "title": "High-tech solutions to China’s care problem – DW Documentary [video]",
+      "type": "story",
+      "url": "https://www.youtube.com/watch?v=uc4zPS6dEM0"
+    },
+    {
+      "by": "giuliomagnifico",
+      "descendants": 0,
+      "id": 29895758,
+      "score": 1,
+      "time": 1641926537,
+      "title": "Humans are still 20 to 40% better at predicting the weather than AI",
+      "type": "story",
+      "url": "https://www.techspot.com/news/92936-humans-significantly-better-predicting-weather-than-ai.html"
+    },
+    {
+      "by": "agonz253",
+      "descendants": 0,
+      "id": 29895730,
+      "score": 1,
+      "time": 1641926443,
+      "title": "When art transports us, where do we actually go?",
+      "type": "story",
+      "url": "https://psyche.co/ideas/when-art-transports-us-where-do-we-actually-go"
+    },
+    {
+      "by": "manjana",
+      "descendants": 0,
+      "id": 29895728,
+      "score": 1,
+      "time": 1641926436,
+      "title": "YouTrack",
+      "type": "story",
+      "url": "https://www.jetbrains.com/youtrack/"
+    },
+    {
       "by": "kurthr",
       "descendants": 0,
       "id": 29895712,
@@ -14,91 +94,11 @@
       "by": "jelliclesfarm",
       "descendants": 0,
       "id": 29895703,
-      "score": 1,
+      "score": 3,
       "time": 1641926366,
       "title": "San Francisco Millennium Tower tilting 3 inches per year",
       "type": "story",
       "url": "https://www.sfgate.com/news/article/San-Francisco-luxury-high-rise-tilting-3-inches-16764701.php"
-    },
-    {
-      "by": "throwawaybbq1",
-      "descendants": 0,
-      "id": 29895698,
-      "score": 1,
-      "text": "Hi,<p>I&#x27;m a mid career technologist, and was thinking of picking up a coursera plus sub this year. I&#x27;m looking for good technical courses that will put some updated credentials on my cv. I am an autodidact (always learning new stuff anyways .. point of the coursera sub is mainly to help the CV). I do have a PhD in CS from 15 years ago from a top-20 school.<p>There was a specialization in Math for DL&#x2F;ML that I&#x27;m quite sure I&#x27;d like to do. Am generally interested in getting some creds around ML&#x2F;Datascience, Natural Language, Computer vision, other related AI things. Suggestions welcome!",
-      "time": 1641926356,
-      "title": "Ask HN: Good courses/specializations on coursera plus?",
-      "type": "story"
-    },
-    {
-      "by": "JoConneely",
-      "descendants": 0,
-      "id": 29895696,
-      "score": 1,
-      "time": 1641926345,
-      "title": "Soon we’ll all be Corporate Sims. 3 Predictions on the Future of Work",
-      "type": "story",
-      "url": "https://thinkingaboutcollection.substack.com/p/soon-well-all-be-corporate-sims-3"
-    },
-    {
-      "by": "annagold",
-      "descendants": 0,
-      "id": 29895656,
-      "score": 1,
-      "text": "Curious if anyone has any thoughts on what worked best for them when they were starting out, and what practical advice they’d give to someone interested in pursuing a job in the field?",
-      "time": 1641926172,
-      "title": "How to Be a Software Engineer",
-      "type": "story"
-    },
-    {
-      "by": "dgudkov",
-      "descendants": 0,
-      "id": 29895650,
-      "score": 1,
-      "time": 1641926134,
-      "title": "OpenSea, Web3, and Aggregation Theory",
-      "type": "story",
-      "url": "https://stratechery.com/2022/opensea-raises-money-bans-nfts-openseas-value-cryptos-aggregators/"
-    },
-    {
-      "by": "ilamont",
-      "descendants": 0,
-      "id": 29895626,
-      "score": 1,
-      "time": 1641926033,
-      "title": "Lawsuit filed against celebrities for promoting EMAX Tokens [pdf]",
-      "type": "story",
-      "url": "https://www.classaction.org/media/huegerich-v-gentile-et-al.pdf"
-    },
-    {
-      "by": "miohtama",
-      "descendants": 0,
-      "id": 29895618,
-      "score": 1,
-      "time": 1641925999,
-      "title": "Hotel chain migrates to ChromeOS after ransomware",
-      "type": "story",
-      "url": "https://therecord.media/hotel-chain-switches-to-chrome-os-to-recover-from-ransomware-attack/?s=09"
-    },
-    {
-      "by": "simonebrunozzi",
-      "descendants": 0,
-      "id": 29895605,
-      "score": 1,
-      "time": 1641925918,
-      "title": "Hong Kong’s Covid Strategy Has Failed",
-      "type": "story",
-      "url": "https://www.bloomberg.com/opinion/articles/2022-01-09/hong-kong-s-covid-zero-strategy-has-failed-it-s-time-for-a-policy-rethink"
-    },
-    {
-      "by": "feross",
-      "descendants": 0,
-      "id": 29895604,
-      "score": 1,
-      "time": 1641925910,
-      "title": "Who Can Resist the Crypto Boom?",
-      "type": "story",
-      "url": "https://www.bloomberg.com/opinion/articles/2022-01-11/who-can-resist-the-crypto-boom"
     }
   ]
 }
