@@ -1,107 +1,104 @@
 {
   "stories": [
     {
-      "by": "ingve",
+      "by": "ajay-d",
       "descendants": 0,
-      "id": 29911308,
+      "id": 29911429,
       "score": 1,
-      "time": 1642013923,
-      "title": "Using Git Commit Message Templates to Write Better Commit Messages",
+      "time": 1642014555,
+      "title": "The Joys (and Challenges) of Sex After 70",
       "type": "story",
-      "url": "https://gist.github.com/lisawolderiksen/a7b99d94c92c6671181611be1641c733"
+      "url": "https://www.nytimes.com/2022/01/12/magazine/sex-old-age.html"
     },
     {
-      "by": "aistormer",
+      "by": "merlinscholz",
       "descendants": 0,
-      "id": 29911288,
+      "id": 29911422,
+      "score": 1,
+      "time": 1642014523,
+      "title": "Oldest Registered .com Domains",
+      "type": "story",
+      "url": "https://sizeof.cat/post/oldest-10-dot-com-domains/"
+    },
+    {
+      "by": "merlinscholz",
+      "descendants": 0,
+      "id": 29911418,
+      "score": 1,
+      "time": 1642014479,
+      "title": "Nokia Booklet 3G",
+      "type": "story",
+      "url": "https://sizeof.cat/post/nokia-booklet-3g/"
+    },
+    {
+      "by": "LinuxBender",
+      "descendants": 0,
+      "id": 29911406,
+      "score": 1,
+      "time": 1642014428,
+      "title": "What is chronic wasting disease?",
+      "type": "story",
+      "url": "https://www.usgs.gov/faqs/what-chronic-wasting-disease"
+    },
+    {
+      "by": "CrankyBear",
+      "descendants": 0,
+      "id": 29911402,
+      "score": 1,
+      "time": 1642014404,
+      "title": "Why not a four-day workweek?",
+      "type": "story",
+      "url": "https://www.computerworld.com/article/3646592/why-not-a-four-day-work-week.html"
+    },
+    {
+      "by": "oogali",
+      "descendants": 0,
+      "id": 29911400,
+      "score": 1,
+      "time": 1642014373,
+      "title": "ConvertKit: 10 Ideas for Building Great Culture in a Distributed Team",
+      "type": "story",
+      "url": "https://twitter.com/nathanbarry/status/1480944048189980678"
+    },
+    {
+      "by": "ilamont",
+      "descendants": 0,
+      "id": 29911395,
+      "score": 1,
+      "time": 1642014357,
+      "title": "Clear Channel sues over construction blocking its advertisements",
+      "type": "story",
+      "url": "https://www.universalhub.com/2022/billboard-company-sues-over-south-station"
+    },
+    {
+      "by": "vasilvv",
+      "descendants": 0,
+      "id": 29911389,
+      "score": 1,
+      "time": 1642014334,
+      "title": "RFC 9170: Long-Term Viability of Protocol Extension Mechanisms",
+      "type": "story",
+      "url": "https://www.rfc-editor.org/rfc/rfc9170.html"
+    },
+    {
+      "by": "makerofspoons",
+      "descendants": 0,
+      "id": 29911364,
+      "score": 1,
+      "time": 1642014200,
+      "title": "They clean our rivers, but freshwater mussels are dying in droves",
+      "type": "story",
+      "url": "https://phys.org/news/2022-01-century-rivers-freshwater-mussels-dying.html"
+    },
+    {
+      "by": "andre-z",
+      "descendants": 0,
+      "id": 29911359,
       "score": 2,
-      "time": 1642013811,
-      "title": "From Chaos to Calm: Make Your Software Projects Run Smoother in 3 Steps",
+      "time": 1642014153,
+      "title": "Qdrant raises €2M to build open source vector search",
       "type": "story",
-      "url": "https://betterprogramming.pub/from-chaos-to-calm-make-your-software-projects-run-smoother-in-3-steps-7d252b024392?gi=9613b0a9d51f"
-    },
-    {
-      "by": "0xedb",
-      "descendants": 0,
-      "id": 29911279,
-      "score": 1,
-      "time": 1642013769,
-      "title": "Wordle copycat creator apologies for ripping off the popular free word game",
-      "type": "story",
-      "url": "https://www.theverge.com/2022/1/12/22880353/wordle-copycat-creator-apology-word-game-app-store-apple"
-    },
-    {
-      "by": "steelstraw",
-      "descendants": 0,
-      "id": 29911278,
-      "score": 1,
-      "time": 1642013762,
-      "title": "Cannabis Compounds Prevented Covid Infection in Laboratory Study",
-      "type": "story",
-      "url": "https://www.bloomberg.com/news/articles/2022-01-12/cannabis-compounds-prevented-covid-infection-in-laboratory-study"
-    },
-    {
-      "by": "kikki",
-      "descendants": 0,
-      "id": 29911260,
-      "score": 1,
-      "text": "Hi HN.<p>Some of my recent hobby projects have involved user&#x27;s uploading their own files, such as videos, images, and generally things that don&#x27;t belong in most databases. It&#x27;s important to me that if they were to trust me with their content that I&#x27;d have reliable storage - so I don&#x27;t want to spin up my own solution for this and looked around to find something that already exists.<p>The obvious first place was AWS S3, and while it doesn&#x27;t directly serve this need you can set it up to do so with presigned URLs and object permissions (https:&#x2F;&#x2F;docs.aws.amazon.com&#x2F;AmazonS3&#x2F;latest&#x2F;userguide&#x2F;ShareObjectPreSignedURL.html). This can work, but as far as object storage goes AWS is very expensive. I also looked into Google Storage through Firebase (https:&#x2F;&#x2F;firebase.google.com&#x2F;products&#x2F;storage) which with some configuration through Firebase authentication can also achieve (but locks you into their auth) - and again, very expensive.<p>My ideal would be an option like Backblaze B2, which is considerably cheaper - but isn&#x27;t designed with this use-case in mind. Depsite having an AWS compatible API, and supporting pre-signed URLs, I couldn&#x27;t find a reliable way to assign objects to users through metadata.<p>I was really hoping for some easy-to-use white label solution for this, but it just seems like it doesn&#x27;t exist.<p>So what do people do for things like this? My AC is:<p>- Allow specific users to upload any media<p>- Allow user &gt; object assignment<p>- Some auth around the above<p>- Reasonably priced (minimal egress costs)",
-      "time": 1642013701,
-      "title": "Ask HN: Private object hosting for users",
-      "type": "story"
-    },
-    {
-      "by": "georgecmu",
-      "descendants": 0,
-      "id": 29911248,
-      "score": 1,
-      "time": 1642013644,
-      "title": "Venetian Nicosia, the ideal Renaissance city",
-      "type": "story",
-      "url": "https://dom.com.cy/en/live/blog/venice-s-nicosia-the-perfect-renaissance-city/"
-    },
-    {
-      "by": "alpenbazi",
-      "descendants": 0,
-      "id": 29911243,
-      "score": 2,
-      "time": 1642013629,
-      "title": "GDPR vs. Recruiters (EU)",
-      "type": "story",
-      "url": "https://github.com/rainerknabenbauer/GDPR-Shield"
-    },
-    {
-      "by": "elliekelly",
-      "descendants": 0,
-      "id": 29911223,
-      "score": 2,
-      "time": 1642013531,
-      "title": "Is Gruyère Still Gruyère If It Doesn’t Come from Gruyères?",
-      "type": "story",
-      "url": "https://www.nytimes.com/2022/01/12/business/gruyere-cheese-us-court-ruling.html"
-    },
-    {
-      "by": "alebrega",
-      "descendants": 1,
-      "id": 29911221,
-      "kids": [
-        29911222
-      ],
-      "score": 1,
-      "time": 1642013525,
-      "title": "Generate Temporary Emails for Free",
-      "type": "story",
-      "url": "https://www.getmailet.com"
-    },
-    {
-      "by": "gnicholas",
-      "descendants": 0,
-      "id": 29911166,
-      "score": 2,
-      "time": 1642013258,
-      "title": "Wordle copycats have vanished from Apple’s App Store",
-      "type": "story",
-      "url": "https://www.polygon.com/22879940/wordle-copycats-app-store-removal-clones-apple"
+      "url": "https://www.ibbventures.de/en/news/qdrant-financing"
     }
   ]
 }
