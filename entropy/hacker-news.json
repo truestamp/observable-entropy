@@ -1,6 +1,26 @@
 {
   "stories": [
     {
+      "by": "colinprince",
+      "descendants": 0,
+      "id": 29915729,
+      "score": 1,
+      "time": 1642037967,
+      "title": "How to Destroy Surveillance Capitalism (2020)",
+      "type": "story",
+      "url": "https://onezero.medium.com/how-to-destroy-surveillance-capitalism-8135e6744d59"
+    },
+    {
+      "by": "Gary_TheSnail_",
+      "descendants": 0,
+      "id": 29915690,
+      "score": 1,
+      "text": "Hello :)<p>Just looking for community or experienced&#x2F;professional insight on how the industry currently handles recruiting, interviewing, and hiring processes. What are problems with the way these are currently handled in your opinion? How do you suggest we fix it?<p>Nothing is perfect and there is always room for improvement. So if you were in charge of your own company, how would you look for and interview people to hire?<p>Or if you don&#x27;t think there are any problems with the current systems, please share why!",
+      "time": 1642037714,
+      "title": "Ask HN: Problems with current hiring, interviewing, and recruiting processes?",
+      "type": "story"
+    },
+    {
       "by": "bloudermilk",
       "descendants": 1,
       "id": 29915615,
@@ -73,7 +93,7 @@
       "kids": [
         29915684
       ],
-      "score": 3,
+      "score": 5,
       "text": "Background: I am currently working at a company that was founded by a group of investors who have no active day to day role. I am the longest running active member by two pivots &#x2F;two years. The first two products were random ideas by one of the investors that i build as a developer&#x2F;architect with two developers from my own agency. The third&#x2F;current product seems like the one that will take off and customer feedback is extremely positive, so i put my agency and other projects on ice to focus on this as CTO and Product guy with a team of 5 developers and 6 non tech employees. The Product is a SAAS and 90% based on my ideas&#x2F; market knowledge and i am the only one with a background in saas, user interfaces and also the branch of industry that the product targets as well as the only one who works weekends or longer than 18:00 (not idealising this, just to paint the picture). I have extreme ADHD and hypersensitivity&#x2F; aversion to things like certain textures, materials, colors and shapes as well as sounds.<p>Situation: We built the initial software with tailwindUI (with the standard colors and styles) that everyone was happy with except it being a bit too generic to keep without modifications for a larger launch. When the CEO and BizDev Team kicked off the visual redesign with an external design agency I told them that i want to be involved in the design process and that the product should not feature the company brand color that i utterly hate, but was thus far nowhere featured except the company website. After all i am now not just CTO but also largely responsible for Product that i have to live and breathe for it to be the best it can be and I feel it to be kind of my baby for all the reasons stated above. When the meeting took place that i expected to be a presentation of a few concepts and directions to be discussed with the design agency, instead they presented only one nearly final redesign that i hated beyond words and also included colors that trigger me. When i asked why i was not involved as agreed, they said they wanted to keep me from investing time outside building features. Since then i have been trying for 6 months to initiate a change to the design by every means from giving neutral feedback to begging to throwing a public fit with no results except being ignored and at this point not being taken seriously anymore. No one understands the energy it costs me to have to see colors that trigger my disgust response or even that someone feels passionate at all about a UI design. No one wants to even consider a compromise i offered to just minimally change the two colors that trigger me and avoiding two shapes that i hate most. They completely change their story depending on my arguments. When i threaten to leave without a redesign they say that i know the company would be dead the minute i walk away and i have to stay to save my shares and invested time. If i say i should be heard for my role they change the story and say i cannot expect a veto on design with my lousy 10% shares and downplay my importance by making it sound like i am a random developer who could be easily replaced and just has ego problems. As i lead the dev team i can refuse to implement the design parts in question which creates tensions but was so far also ignored by everyone. The problem is that i am running out of energy as i am confronted everyday with aspects of the design in figma and other tools where they put colors as backgrounds or profile pictures etc. Of course i know i am extreme but i tried explaining this is similar to forcing a colleague with a dog allergy to sit next to a an office dog.<p>Question: Am i crazy for being this upset and hurt? Even ignoring my hypersensitivity i would have expected that given my role in the company my feedback to a redesign would be heard and that at least something i hate would be avoided, yet alone they would try creating something i like too. Bonus question: How would you react in this situation?",
       "time": 1642036717,
       "title": "Ask HN: Am I Crazy/ Unreasonable?",
@@ -91,26 +111,6 @@
       "title": "Biden administration announces major new initiatis to clean up the electric grid",
       "type": "story",
       "url": "https://www.theverge.com/2022/1/12/22879269/biden-climate-public-lands-water-renewable-energy-offshore-wind-solar-grid"
-    },
-    {
-      "by": "therockspush",
-      "descendants": 0,
-      "id": 29915503,
-      "score": 3,
-      "time": 1642036547,
-      "title": "The Dr screening residents for toxins in S.F.’s biggest development battle",
-      "type": "story",
-      "url": "https://www.sfchronicle.com/health/article/Is-Hunters-Point-sick-Meet-the-doctor-screening-16749502.php"
-    },
-    {
-      "by": "iam-TJ",
-      "descendants": 0,
-      "id": 29915480,
-      "score": 3,
-      "text": "I follow systemd-networkd development in order to utilise advanced functionality as it lands, as well as proposing or following other issues that provide desirable functionality.<p>Recently I was following issue #17380 [0] &quot;No router advertisements sent out over wireguard link&quot; which resulted in PR #21692 [1] &quot;network: wireguard: allow to start ndisc or radv&quot;.<p>Shortly after the issue was closed Jason Donenfeld (alias zx2c4 - author of Wireguard) added a comment [2]:<p>&quot;Please revert this. WireGuard does not work with LLv6 by design.&quot;<p>As a strong proponent and designer&#x2F;developer&#x2F;operator of IPv6-only networks and services I was unpleasantly surprised by this comment since we rely on IPv6 link-local functionality and also use Wireguard extensively including with link-local addresses and try to ensure everything we deploy is conformant with industry standards to ensure inter-operability.<p>I thought I may have misunderstood the IPv6 standards from RFC4291 &quot;IP Version 6 Addressing Architecture&quot; section 2.1 &quot;Addressing Model&quot; [3] which says:<p>&quot;All interfaces are required to have at least one Link-Local unicast address (see Section 2.8 for additional required addresses).&quot;<p>After mentioning this in the issue zx2c4 replied with:<p>&quot;I&#x27;m aware of that text. It doesn&#x27;t change the fact that this isn&#x27;t how WireGuard works.&quot;<p>In my mind point-to-point tunnels like Wireguard are closely aligned with link-local addressing so this was somewhat of a surprise!<p>Which leaves us with a dilemma - if we can&#x27;t rely on standard IPv6 link-local behaviour on Wireguard links what similar tunnelling options should we consider? I did recently reconsider IPSec since it was originally designed as part of IPv6 although ended up being an optional extra and can be much more complex to manage.<p>What alternatives would the Linux-focused network professionals recommend ?<p>[0] https:&#x2F;&#x2F;github.com&#x2F;systemd&#x2F;systemd&#x2F;issues&#x2F;17380<p>[1] https:&#x2F;&#x2F;github.com&#x2F;systemd&#x2F;systemd&#x2F;pull&#x2F;21692<p>[2] https:&#x2F;&#x2F;github.com&#x2F;systemd&#x2F;systemd&#x2F;issues&#x2F;17380#issuecomment-1008323004<p>[3] https:&#x2F;&#x2F;datatracker.ietf.org&#x2F;doc&#x2F;html&#x2F;rfc4291#section-2.1",
-      "time": 1642036448,
-      "title": "WireGuard does not work with LLv6 by design",
-      "type": "story"
     }
   ]
 }
