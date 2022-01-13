@@ -1,6 +1,49 @@
 {
   "stories": [
     {
+      "by": "arunbahl",
+      "descendants": 0,
+      "id": 29925294,
+      "score": 1,
+      "time": 1642101266,
+      "title": "Beer spiked with psychedelics helped forge an ancient Peruvian empire",
+      "type": "story",
+      "url": "https://arstechnica.com/science/2022/01/ancient-peruvians-partied-hard-spiked-their-beer-with-hallucinogens-to-win-friends/"
+    },
+    {
+      "by": "aowen",
+      "descendants": 0,
+      "id": 29925285,
+      "score": 1,
+      "text": "I&#x27;m working on a project that uses Java microservices.<p>The project has an &quot;edge server&quot;, except it does more than that. The ES will forward requests to downstream servers, as well as handle some of the requests itself. In order to handle those requests, it has access to an in-network database.<p>I had a concern that since the ES is accessible from the outside world, it was problematic that it had database credentials, but I don&#x27;t know how founded that is. There IS an LB in front of the ES, so only https&#x2F;443 traffic is allowed.<p>Client -&gt; LB -&gt; ES -&gt; Internal Server<p>My thinking was that since vulnerabilities like log4shell exist, which can go through 443, we should try to take out the DB creds from the ES and move all those operations into another internal service.<p>Does anyone have any insights into the topic?",
+      "time": 1642101232,
+      "title": "Ask HN: How vulnerable are edge servers wrt security",
+      "type": "story"
+    },
+    {
+      "by": "clickitongue",
+      "descendants": 1,
+      "id": 29925263,
+      "kids": [
+        29925275
+      ],
+      "score": 1,
+      "time": 1642101164,
+      "title": "Show HN: Clickitongue: assitive tool for RSI; mouse clicks with mouth sounds",
+      "type": "story",
+      "url": "https://farfetchd.github.io/clickitongue/"
+    },
+    {
+      "by": "j_walter",
+      "descendants": 0,
+      "id": 29925218,
+      "score": 1,
+      "time": 1642101014,
+      "title": "Green hydrogen production could benefit from Oregon State research",
+      "type": "story",
+      "url": "https://www.opb.org/article/2021/12/11/green-hydrogen-production-could-benefit-from-oregon-state-research/"
+    },
+    {
       "by": "CarCooler",
       "descendants": 0,
       "id": 29925155,
@@ -37,7 +80,7 @@
       "kids": [
         29925211
       ],
-      "score": 1,
+      "score": 2,
       "text": "The subreddit has been blowing up past few weeks. I want to understand what to people think of it. Do you perceive it as meme or do you beleive in the message they are trying to send.",
       "time": 1642100737,
       "title": "Ask HN: Thoughts on Reddit's R/Antiwork?",
@@ -60,51 +103,11 @@
       "kids": [
         29925130
       ],
-      "score": 1,
+      "score": 2,
       "time": 1642100681,
       "title": "Cirkit Designer",
       "type": "story",
       "url": "https://www.cirkitstudio.com/index.html"
-    },
-    {
-      "by": "Geekette",
-      "descendants": 0,
-      "id": 29925092,
-      "score": 1,
-      "time": 1642100524,
-      "title": "Guide to Making Friends as an Adult, According to Hades",
-      "type": "story",
-      "url": "https://www.mcsweeneys.net/articles/guide-to-making-friends-as-an-adult-according-to-hades-greek-god-of-the-underworld"
-    },
-    {
-      "by": "edogrider",
-      "descendants": 0,
-      "id": 29925080,
-      "score": 1,
-      "time": 1642100465,
-      "title": "An opinionated, YAML-driven way to run MinIO on AWS through Marketplace",
-      "type": "story",
-      "url": "https://blog.min.io/minio-multi-cloud-object-storage-available-on-aws-marketplace/"
-    },
-    {
-      "by": "tosh",
-      "descendants": 0,
-      "id": 29925071,
-      "score": 1,
-      "time": 1642100426,
-      "title": "What is the difference between a framework and a library?",
-      "type": "story",
-      "url": "https://stackoverflow.com/questions/148747/what-is-the-difference-between-a-framework-and-a-library"
-    },
-    {
-      "by": "dgellow",
-      "descendants": 0,
-      "id": 29925050,
-      "score": 2,
-      "time": 1642100345,
-      "title": "State of the Windows Forms Designer for .NET Applications",
-      "type": "story",
-      "url": "https://devblogs.microsoft.com/dotnet/state-of-the-windows-forms-designer-for-net-applications/"
     }
   ]
 }
