@@ -1,6 +1,26 @@
 {
   "stories": [
     {
+      "by": "rhedgeth",
+      "descendants": 0,
+      "id": 29919414,
+      "score": 1,
+      "time": 1642072421,
+      "title": "MariaDB Slack",
+      "type": "story",
+      "url": "https://mariadb-community.slack.com/join/shared_invite/zt-zsm8x5hi-rP2u53moQU04b00ZawZeDQ"
+    },
+    {
+      "by": "puttycat",
+      "descendants": 0,
+      "id": 29919399,
+      "score": 1,
+      "time": 1642072297,
+      "title": "Show HN: Hebrew Wordle",
+      "type": "story",
+      "url": "https://wordleheb.web.app/"
+    },
+    {
       "by": "tosh",
       "descendants": 0,
       "id": 29919380,
@@ -22,8 +42,11 @@
     },
     {
       "by": "ghoul2",
-      "descendants": 0,
+      "descendants": 1,
       "id": 29919307,
+      "kids": [
+        29919396
+      ],
       "score": 1,
       "text": "I am unable to ping HN ip (209.216.230.240) from my Airtel Fiber connection today. If I switch to Jio from the same device, I can access it normally.<p>This is what the traceroute looks like:<p><pre><code>  traceroute 209.216.230.240\n  traceroute to 209.216.230.240 (209.216.230.240), 30 hops max, 60 byte packets\n   1  192.168.x.x (192.168.x.x)  5.703 ms  5.675 ms  5.642 ms &lt;--- my LAN ip\n   2  117.99.111.255 (117.99.111.255)  6.579 ms  6.509 ms  6.505 ms &lt;--- Airtels&#x27; gateway\n   3  125.19.45.213 (125.19.45.213)  6.475 ms 125.18.249.21 (125.18.249.21)  6.444 ms  6.414 ms\n   4  182.79.243.31 (182.79.243.31)  235.655 ms 182.79.245.69 (182.79.245.69)  230.475 ms  230.412 ms\n   5  * * *\n   6  * * *\n   7  * * *\n   8  * * *\n   9  * * *\n  10  * * *\n  11  * * *\n  12  * * *\n  13  * * *\n  14  * * *\n  15  * * *\n  16  * * *\n  17  * * *\n  18  * * *\n  19  * * *\n  20  * * *\n  21  * * *\n  22  * * *\n  23  * * *\n  24  * * *\n  25  * * *\n  26  * * *\n  27  * * *\n  28  * * *\n  29  * * *\n  30  * * *\n</code></pre>\nEverything else seems to be working normally.",
       "time": 1642071347,
@@ -70,7 +93,7 @@
       "by": "drukenemo",
       "descendants": 0,
       "id": 29919257,
-      "score": 1,
+      "score": 2,
       "time": 1642070913,
       "title": "Sweden to launch ‘exceptional’ measures amid 300% rise in electricity price",
       "type": "story",
@@ -85,34 +108,6 @@
       "title": "Developments in the Arm A-Profile Architecture: Armv8.6-A",
       "type": "story",
       "url": "https://community.arm.com/arm-community-blogs/b/architectures-and-processors-blog/posts/arm-architecture-developments-armv8-6-a"
-    },
-    {
-      "by": "pkstn",
-      "descendants": 1,
-      "id": 29919248,
-      "kids": [
-        29919249
-      ],
-      "score": 1,
-      "time": 1642070876,
-      "title": "Added gamepad support for my web-based car game experiment",
-      "type": "story",
-      "url": "https://car.js.org"
-    },
-    {
-      "by": "imalerba",
-      "descendants": 7,
-      "id": 29919228,
-      "kids": [
-        29919382,
-        29919343,
-        29919298
-      ],
-      "score": 27,
-      "time": 1642070720,
-      "title": "Nintendo wants users to forward ports 1~65535 to the Switch console",
-      "type": "story",
-      "url": "https://en-americas-support.nintendo.com/app/answers/detail/a_id/22272/~/how-to-set-up-a-routers-port-forwarding-for-a-nintendo-switch-console"
     }
   ]
 }
