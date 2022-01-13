@@ -1,6 +1,46 @@
 {
   "stories": [
     {
+      "by": "ksec",
+      "descendants": 0,
+      "id": 29915574,
+      "score": 1,
+      "time": 1642037006,
+      "title": "PUBG Game maker says Apple, Google selling rip-offs in new lawsuit",
+      "type": "story",
+      "url": "https://www.reuters.com/legal/litigation/game-maker-says-apple-google-selling-rip-offs-new-lawsuit-2022-01-11/"
+    },
+    {
+      "by": "zaidqureshi",
+      "descendants": 0,
+      "id": 29915572,
+      "score": 1,
+      "time": 1642037003,
+      "title": "RTFM – The Single Most Important Bit of Advice for Engineers",
+      "type": "story",
+      "url": "https://hackernoon.com/rtfm-the-single-most-important-bit-of-advice-for-engineers"
+    },
+    {
+      "by": "nomilk",
+      "descendants": 0,
+      "id": 29915549,
+      "score": 1,
+      "time": 1642036867,
+      "title": "Churchill's Prescience",
+      "type": "story",
+      "url": "https://steve-condylios.medium.com/churchills-prescience-9bc2da13ef2c"
+    },
+    {
+      "by": "ksec",
+      "descendants": 0,
+      "id": 29915544,
+      "score": 1,
+      "time": 1642036850,
+      "title": "The Countries Best and Worst Prepared for a Pandemic ( 2019 )",
+      "type": "story",
+      "url": "https://twitter.com/baekdal/status/1332429533979566081"
+    },
+    {
       "by": "jFriedensreich",
       "descendants": 0,
       "id": 29915527,
@@ -12,9 +52,12 @@
     },
     {
       "by": "kratosthelord",
-      "descendants": 0,
+      "descendants": 1,
       "id": 29915513,
-      "score": 1,
+      "kids": [
+        29915562
+      ],
+      "score": 3,
       "time": 1642036594,
       "title": "Biden administration announces major new initiatis to clean up the electric grid",
       "type": "story",
@@ -24,7 +67,7 @@
       "by": "therockspush",
       "descendants": 0,
       "id": 29915503,
-      "score": 1,
+      "score": 3,
       "time": 1642036547,
       "title": "The Dr screening residents for toxins in S.F.’s biggest development battle",
       "type": "story",
@@ -34,7 +77,7 @@
       "by": "iam-TJ",
       "descendants": 0,
       "id": 29915480,
-      "score": 1,
+      "score": 3,
       "text": "I follow systemd-networkd development in order to utilise advanced functionality as it lands, as well as proposing or following other issues that provide desirable functionality.<p>Recently I was following issue #17380 [0] &quot;No router advertisements sent out over wireguard link&quot; which resulted in PR #21692 [1] &quot;network: wireguard: allow to start ndisc or radv&quot;.<p>Shortly after the issue was closed Jason Donenfeld (alias zx2c4 - author of Wireguard) added a comment [2]:<p>&quot;Please revert this. WireGuard does not work with LLv6 by design.&quot;<p>As a strong proponent and designer&#x2F;developer&#x2F;operator of IPv6-only networks and services I was unpleasantly surprised by this comment since we rely on IPv6 link-local functionality and also use Wireguard extensively including with link-local addresses and try to ensure everything we deploy is conformant with industry standards to ensure inter-operability.<p>I thought I may have misunderstood the IPv6 standards from RFC4291 &quot;IP Version 6 Addressing Architecture&quot; section 2.1 &quot;Addressing Model&quot; [3] which says:<p>&quot;All interfaces are required to have at least one Link-Local unicast address (see Section 2.8 for additional required addresses).&quot;<p>After mentioning this in the issue zx2c4 replied with:<p>&quot;I&#x27;m aware of that text. It doesn&#x27;t change the fact that this isn&#x27;t how WireGuard works.&quot;<p>In my mind point-to-point tunnels like Wireguard are closely aligned with link-local addressing so this was somewhat of a surprise!<p>Which leaves us with a dilemma - if we can&#x27;t rely on standard IPv6 link-local behaviour on Wireguard links what similar tunnelling options should we consider? I did recently reconsider IPSec since it was originally designed as part of IPv6 although ended up being an optional extra and can be much more complex to manage.<p>What alternatives would the Linux-focused network professionals recommend ?<p>[0] https:&#x2F;&#x2F;github.com&#x2F;systemd&#x2F;systemd&#x2F;issues&#x2F;17380<p>[1] https:&#x2F;&#x2F;github.com&#x2F;systemd&#x2F;systemd&#x2F;pull&#x2F;21692<p>[2] https:&#x2F;&#x2F;github.com&#x2F;systemd&#x2F;systemd&#x2F;issues&#x2F;17380#issuecomment-1008323004<p>[3] https:&#x2F;&#x2F;datatracker.ietf.org&#x2F;doc&#x2F;html&#x2F;rfc4291#section-2.1",
       "time": 1642036448,
       "title": "WireGuard does not work with LLv6 by design",
@@ -54,51 +97,11 @@
       "by": "keleftheriou",
       "descendants": 0,
       "id": 29915472,
-      "score": 2,
+      "score": 3,
       "time": 1642036415,
       "title": "PUBG Game Maker Says Apple, Google Sell Rip-Off 'Battlegrounds'",
       "type": "story",
       "url": "https://www.law360.com/articles/1454756"
-    },
-    {
-      "by": "themaineking",
-      "descendants": 0,
-      "id": 29915450,
-      "score": 1,
-      "time": 1642036293,
-      "title": "WTF are NFTs? And why are they currently so important? – The Drum",
-      "type": "story",
-      "url": "https://www.thedrum.com/opinion/2021/12/02/wtf-are-nfts-and-why-are-they-currently-so-important"
-    },
-    {
-      "by": "sohkamyung",
-      "descendants": 0,
-      "id": 29915447,
-      "score": 1,
-      "time": 1642036281,
-      "title": "Mapping where HIV hides its genes suggests cure strategy",
-      "type": "story",
-      "url": "https://www.science.org/content/article/mapping-where-hiv-hides-its-genes-suggests-cure-strategy"
-    },
-    {
-      "by": "sam100",
-      "descendants": 0,
-      "id": 29915444,
-      "score": 1,
-      "time": 1642036246,
-      "title": "Levels of Dunking: Easy to Complex",
-      "type": "story",
-      "url": "https://www.wired.com/video/watch/levels-21-levels-of-dunking-easy-to-complex-wired"
-    },
-    {
-      "by": "wsc981",
-      "descendants": 0,
-      "id": 29915440,
-      "score": 1,
-      "time": 1642036236,
-      "title": "European Digital Identity, CBDC, inflation and negative interest rates",
-      "type": "story",
-      "url": "https://www.youtube.com/watch?v=IlUoaV0VJBo"
     }
   ]
 }
