@@ -1,6 +1,26 @@
 {
   "stories": [
     {
+      "by": "ghoul2",
+      "descendants": 0,
+      "id": 29919307,
+      "score": 1,
+      "text": "I am unable to ping HN ip (209.216.230.240) from my Airtel Fiber connection today. If I switch to Jio from the same device, I can access it normally.<p>This is what the traceroute looks like:<p><pre><code>  traceroute 209.216.230.240\n  traceroute to 209.216.230.240 (209.216.230.240), 30 hops max, 60 byte packets\n   1  192.168.x.x (192.168.x.x)  5.703 ms  5.675 ms  5.642 ms &lt;--- my LAN ip\n   2  117.99.111.255 (117.99.111.255)  6.579 ms  6.509 ms  6.505 ms &lt;--- Airtels&#x27; gateway\n   3  125.19.45.213 (125.19.45.213)  6.475 ms 125.18.249.21 (125.18.249.21)  6.444 ms  6.414 ms\n   4  182.79.243.31 (182.79.243.31)  235.655 ms 182.79.245.69 (182.79.245.69)  230.475 ms  230.412 ms\n   5  \\* \\* \\*\n   6  \\* \\* \\*\n   7  \\* \\* \\*\n   8  \\* \\* \\*\n   9  \\* \\* \\*\n  10  \\* \\* \\*\n  11  \\* \\* \\*\n  12  \\* \\* \\*\n  13  \\* \\* \\*\n  14  \\* \\* \\*\n  15  \\* \\* \\*\n  16  \\* \\* \\*\n  17  \\* \\* \\*\n  18  \\* \\* \\*\n  19  \\* \\* \\*\n  20  \\* \\* \\*\n  21  \\* \\* \\*\n  22  \\* \\* \\*\n  23  \\* \\* \\*\n  24  \\* \\* \\*\n  25  \\* \\* \\*\n  26  \\* \\* \\*\n  27  \\* \\* \\*\n  28  \\* \\* \\*\n  29  \\* \\* \\*\n  30  \\* \\* \\*\n</code></pre>\nEverything else seems to be working normally.",
+      "time": 1642071347,
+      "title": "Ask HN: Anyone else having trouble reaching HN from Airtel (India)?",
+      "type": "story"
+    },
+    {
+      "by": "stanislavb",
+      "descendants": 0,
+      "id": 29919300,
+      "score": 1,
+      "time": 1642071311,
+      "title": "Scientists: Cannabis Can Prevent Covid-19 Infection",
+      "type": "story",
+      "url": "https://www.vice.com/en/article/y3v3ax/scientists-cannabis-can-prevent-covid-19-infection"
+    },
+    {
       "by": "kevincox",
       "descendants": 0,
       "id": 29919265,
@@ -63,7 +83,7 @@
       "kids": [
         29919298
       ],
-      "score": 6,
+      "score": 7,
       "time": 1642070720,
       "title": "Nintendo wants users to forward ports 1~65535 to the Switch console",
       "type": "story",
@@ -81,37 +101,17 @@
     },
     {
       "by": "WolfOliver",
-      "descendants": 2,
+      "descendants": 3,
       "id": 29919145,
       "kids": [
-        29919299,
-        29919224
+        29919224,
+        29919299
       ],
       "score": 2,
       "text": "In Java you can do something like this:<p>public boolean DoSomething() throws CustomEdgeCase {\n  ....\n}<p>The compile tells me what exceptions I need to handle and so makes sure I do not forget about some edge cases.<p>This is not possible in e.g. C# or TypeScript. \nI wonder why? I find it very helpful to ensure software quality??<p>Am I wrong or why is this not adapted elsewhere?<p>Best Regards,<p>Oliver\nworking on https:&#x2F;&#x2F;www.monsterwriter.app&#x2F;",
       "time": 1642070063,
       "title": "Does any other language than Java has the throws keyword to declare exceptions?",
       "type": "story"
-    },
-    {
-      "by": "doener",
-      "descendants": 0,
-      "id": 29919140,
-      "score": 1,
-      "time": 1642070028,
-      "title": "Futex2: Add wait on multiple futexes syscall",
-      "type": "story",
-      "url": "https://lore.kernel.org/all/20210805190405.59110-1-andrealmeid@collabora.com/"
-    },
-    {
-      "by": "baybal2",
-      "descendants": 0,
-      "id": 29919132,
-      "score": 1,
-      "time": 1642070005,
-      "title": "TSMC to make 3nm chips for Intel at new site in northern Taiwan",
-      "type": "story",
-      "url": "https://digitimes.com/news/a20220113PD204.html"
     }
   ]
 }
