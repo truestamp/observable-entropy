@@ -1,6 +1,76 @@
 {
   "stories": [
     {
+      "by": "uberdru",
+      "descendants": 0,
+      "id": 29925451,
+      "score": 1,
+      "time": 1642101915,
+      "title": "Oath Keepers Leader Charged with Seditious Conspiracy",
+      "type": "story",
+      "url": "https://www.nytimes.com/2022/01/13/us/politics/oath-keepers-stewart-rhodes.html"
+    },
+    {
+      "by": "1970-01-01",
+      "descendants": 0,
+      "id": 29925444,
+      "score": 1,
+      "time": 1642101896,
+      "title": "Hacker-Proof Code Confirmed (2016)",
+      "type": "story",
+      "url": "https://www.quantamagazine.org/formal-verification-creates-hacker-proof-code-20160920/"
+    },
+    {
+      "by": "CrankyBear",
+      "descendants": 0,
+      "id": 29925430,
+      "score": 1,
+      "time": 1642101827,
+      "title": "When open-source developers go bad",
+      "type": "story",
+      "url": "https://www.zdnet.com/article/when-open-source-developers-go-bad/"
+    },
+    {
+      "by": "thewarrior",
+      "descendants": 0,
+      "id": 29925429,
+      "score": 1,
+      "time": 1642101824,
+      "title": "What's the Optimal Strategy for Wordle?",
+      "type": "story",
+      "url": "https://www.quora.com/Whats-the-optimal-strategy-for-Wordle-word-strategy-algorithm-mastermind-puzzling"
+    },
+    {
+      "by": "neelc",
+      "descendants": 0,
+      "id": 29925420,
+      "score": 1,
+      "time": 1642101786,
+      "title": "“Christian” Anti-Apple Propaganda (2002, Scroll Down to Macintosh Section)",
+      "type": "story",
+      "url": "https://objectiveministries.org/creation/propaganda.html"
+    },
+    {
+      "by": "geox",
+      "descendants": 0,
+      "id": 29925410,
+      "score": 2,
+      "time": 1642101743,
+      "title": "The hottest eight years on record were the last eight years",
+      "type": "story",
+      "url": "https://www.theverge.com/2022/1/13/22880825/2021-extreme-heat-records-global-temperatures-nasa-noaa-climate-change"
+    },
+    {
+      "by": "belter",
+      "descendants": 0,
+      "id": 29925404,
+      "score": 1,
+      "time": 1642101727,
+      "title": "'Havana syndrome': US baffled after new cases in Europe",
+      "type": "story",
+      "url": "https://www.bbc.com/news/world-us-canada-59986297"
+    },
+    {
       "by": "conradfr",
       "descendants": 1,
       "id": 29925333,
@@ -17,7 +87,7 @@
       "by": "pueblito",
       "descendants": 0,
       "id": 29925317,
-      "score": 1,
+      "score": 2,
       "time": 1642101364,
       "title": "Microfibers Released into the Air from a Household Tumble Dryer",
       "type": "story",
@@ -27,87 +97,11 @@
       "by": "arunbahl",
       "descendants": 0,
       "id": 29925294,
-      "score": 1,
+      "score": 3,
       "time": 1642101266,
       "title": "Beer spiked with psychedelics helped forge an ancient Peruvian empire",
       "type": "story",
       "url": "https://arstechnica.com/science/2022/01/ancient-peruvians-partied-hard-spiked-their-beer-with-hallucinogens-to-win-friends/"
-    },
-    {
-      "by": "aowen",
-      "descendants": 0,
-      "id": 29925285,
-      "score": 1,
-      "text": "I&#x27;m working on a project that uses Java microservices.<p>The project has an &quot;edge server&quot;, except it does more than that. The ES will forward requests to downstream servers, as well as handle some of the requests itself. In order to handle those requests, it has access to an in-network database.<p>I had a concern that since the ES is accessible from the outside world, it was problematic that it had database credentials, but I don&#x27;t know how founded that is. There IS an LB in front of the ES, so only https&#x2F;443 traffic is allowed.<p>Client -&gt; LB -&gt; ES -&gt; Internal Server<p>My thinking was that since vulnerabilities like log4shell exist, which can go through 443, we should try to take out the DB creds from the ES and move all those operations into another internal service.<p>Does anyone have any insights into the topic?",
-      "time": 1642101232,
-      "title": "Ask HN: How vulnerable are edge servers wrt security",
-      "type": "story"
-    },
-    {
-      "by": "clickitongue",
-      "descendants": 1,
-      "id": 29925263,
-      "kids": [
-        29925275
-      ],
-      "score": 1,
-      "time": 1642101164,
-      "title": "Show HN: Clickitongue: assitive tool for RSI; mouse clicks with mouth sounds",
-      "type": "story",
-      "url": "https://farfetchd.github.io/clickitongue/"
-    },
-    {
-      "by": "j_walter",
-      "descendants": 0,
-      "id": 29925218,
-      "score": 1,
-      "time": 1642101014,
-      "title": "Green hydrogen production could benefit from Oregon State research",
-      "type": "story",
-      "url": "https://www.opb.org/article/2021/12/11/green-hydrogen-production-could-benefit-from-oregon-state-research/"
-    },
-    {
-      "by": "CarCooler",
-      "descendants": 0,
-      "id": 29925155,
-      "score": 1,
-      "time": 1642100784,
-      "title": "Giga Texas: Harold Green Officially Renamed to Tesla Road",
-      "type": "story",
-      "url": "https://www.teslaoracle.com/2022/01/13/giga-texas-harold-green-officially-renamed-to-tesla-road-idra-delivers-2-more-giga-presses/"
-    },
-    {
-      "by": "jzelinskie",
-      "descendants": 0,
-      "id": 29925154,
-      "score": 1,
-      "time": 1642100771,
-      "title": "Using GitHub to manage your first CVE",
-      "type": "story",
-      "url": "https://authzed.com/blog/using-github-to-manage-your-first-cve/"
-    },
-    {
-      "by": "otoolep",
-      "descendants": 0,
-      "id": 29925153,
-      "score": 1,
-      "time": 1642100763,
-      "title": "rqlite: running a distributed database on a 3-node microk8 cluster",
-      "type": "story",
-      "url": "https://medium.com/@mr.pauloferreira/how-to-setup-a-usable-rqlite-cluster-with-3-node-microk8-multi-architecture-cluster-7c27c1c1edf7"
-    },
-    {
-      "by": "kkcorps",
-      "descendants": 1,
-      "id": 29925143,
-      "kids": [
-        29925211
-      ],
-      "score": 2,
-      "text": "The subreddit has been blowing up past few weeks. I want to understand what to people think of it. Do you perceive it as meme or do you beleive in the message they are trying to send.",
-      "time": 1642100737,
-      "title": "Ask HN: Thoughts on Reddit's R/Antiwork?",
-      "type": "story"
     }
   ]
 }
