@@ -1,6 +1,26 @@
 {
   "stories": [
     {
+      "by": "pid-1",
+      "descendants": 0,
+      "id": 29941545,
+      "score": 1,
+      "time": 1642200276,
+      "title": "AWS Is Not a Dumb Pipe",
+      "type": "story",
+      "url": "https://matt-rickard.com/aws-is-not-a-dumb-pipe/"
+    },
+    {
+      "by": "faebi",
+      "descendants": 0,
+      "id": 29941538,
+      "score": 1,
+      "time": 1642200236,
+      "title": "Jamie Metzl: Lab Leak Theory – Lex Fridman Podcast #247",
+      "type": "story",
+      "url": "https://www.youtube.com/watch?v=K78jqx9fx2I"
+    },
+    {
       "by": "JaimeThompson",
       "descendants": 0,
       "id": 29941495,
@@ -52,8 +72,11 @@
     },
     {
       "by": "potench",
-      "descendants": 0,
+      "descendants": 1,
       "id": 29941425,
+      "kids": [
+        29941527
+      ],
       "score": 1,
       "time": 1642199582,
       "title": "Dutch DPA: Use of Google Analytics will soon likely not be allowed",
@@ -82,30 +105,6 @@
       "title": "All hospitalized omnicron cases are unvaccinated, none in ICU ( Dutch/Belgium)",
       "type": "story",
       "url": "https://myprivacy.dpgmedia.be/consent?siteKey=Uqxf9TXhjmaG4pbQ&callbackUrl=https%3A%2F%2Fwww.hln.be%2Fprivacy-gate%2Faccept-tcf2%3FredirectUri%3D%252Fnieuws%252Flive-alle-gehospitaliseerde-omikronpatienten-zijn-ongevaccineerd-bijna-26-000-5-tot-11-jarigen-kregen-al-coronaprik~ab09f514%252F"
-    },
-    {
-      "by": "sporkle-feet",
-      "descendants": 4,
-      "id": 29941332,
-      "kids": [
-        29941458,
-        29941434
-      ],
-      "score": 7,
-      "text": "I am an professional software developer, and have occasionally needed to work with dates and times, including applications that require a certain level of accuracy (e.g. processing pricing feeds from financial institutions)<p>Since 1970, there have been 27 leap seconds applied. But these don&#x27;t show up anywhere in any computer system I have ever used (OS, languages, applications, third party APIs). If I create a date object of 1970-01-01T00:00:00 and repeatedly add 86400 seconds, should I not end up with a date&#x2F;time that is no longer midnight?<p>I assume that we are collectively just ignoring leap seconds and hoping for the best. Is this OK?",
-      "time": 1642199089,
-      "title": "How is it that programmers can simply ignore leap seconds?",
-      "type": "story"
-    },
-    {
-      "by": "dopylitty",
-      "descendants": 0,
-      "id": 29941329,
-      "score": 1,
-      "time": 1642199079,
-      "title": "Test Prudently",
-      "type": "story",
-      "url": "https://www.virology.ws/2022/01/13/test-prudently/"
     }
   ]
 }
