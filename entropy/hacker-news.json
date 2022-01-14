@@ -1,6 +1,36 @@
 {
   "stories": [
     {
+      "by": "throw0101a",
+      "descendants": 0,
+      "id": 29939642,
+      "score": 1,
+      "time": 1642190902,
+      "title": "Metrication Matters (2007) [video]",
+      "type": "story",
+      "url": "https://www.youtube.com/watch?v=JjBWJbHtYHo"
+    },
+    {
+      "by": "ewwhite",
+      "descendants": 0,
+      "id": 29939634,
+      "score": 1,
+      "time": 1642190871,
+      "title": "Linktree Is Kicking Many Sex Workers Off Its Site",
+      "type": "story",
+      "url": "https://www.vice.com/en/article/jgmjpk/linktree-banned-removed-inappropriate-use-sex-work"
+    },
+    {
+      "by": "tentacleuno",
+      "descendants": 0,
+      "id": 29939604,
+      "score": 1,
+      "time": 1642190730,
+      "title": "How Telephone Phreaking Worked [video]",
+      "type": "story",
+      "url": "https://www.youtube.com/watch?v=4tHyZdtXULw"
+    },
+    {
       "by": "gmays",
       "descendants": 0,
       "id": 29939471,
@@ -27,7 +57,7 @@
       "kids": [
         29939508
       ],
-      "score": 1,
+      "score": 2,
       "text": "Even though the issue has been resolved now, I&#x27;d like to start a discussion where we can maybe try to figure out exactly what the hell went wrong.<p>User Agent spoofing did nothing to fix the issue, and there are several reports of people managing to make a cURL&#x2F;Postman request with the exact same headers Firefox used without any problems. HTTP3 also seemed like an easy suspect because of the recent bug, but AFAIK it&#x27;s not used for requests to Reddit and I also tried disabling it to no avail.<p>All I can think of at the moment is a problem between Reddit and Firefox&#x27;s Root Certificate Store, which is different from the one used by the OS. That could explain the 403 errors seen in the browser and also why requests worked fine via other programs. However, I&#x27;d like to see what the people here think, so... discuss?",
       "time": 1642190016,
       "title": "Ask HN: What the hell happened to Reddit on Firefox?",
@@ -35,13 +65,18 @@
     },
     {
       "by": "willcipriano",
-      "descendants": 3,
+      "descendants": 12,
       "id": 29939432,
       "kids": [
+        29939669,
+        29939660,
+        29939636,
         29939593,
+        29939611,
+        29939668,
         29939597,
-        29939592,
-        29939594
+        29939594,
+        29939592
       ],
       "parts": [
         29939433,
@@ -54,7 +89,7 @@
         29939440,
         29939441
       ],
-      "score": 18,
+      "score": 24,
       "text": "If you aren&#x27;t currently looking for new work, why are you staying at your current role?",
       "time": 1642189937,
       "title": "Poll: Why are you staying at your job?",
@@ -64,11 +99,21 @@
       "by": "graderjs",
       "descendants": 0,
       "id": 29939406,
-      "score": 3,
+      "score": 4,
       "time": 1642189777,
       "title": "History of Pepper",
       "type": "story",
       "url": "https://www.ipcnet.org/history-of-pepper/"
+    },
+    {
+      "by": "lukstei",
+      "descendants": 0,
+      "id": 29939405,
+      "score": 2,
+      "time": 1642189776,
+      "title": "Show HN: Yahoo Finance CLI Written in Rust",
+      "type": "story",
+      "url": "https://github.com/lukstei/yahoo-finance-rust-cli"
     },
     {
       "by": "steelstraw",
@@ -79,46 +124,6 @@
       "title": "What’s going on with Covid deaths data?",
       "type": "story",
       "url": "https://www.bbc.com/news/health-60000391"
-    },
-    {
-      "by": "afrcnc",
-      "descendants": 0,
-      "id": 29939393,
-      "score": 2,
-      "time": 1642189706,
-      "title": "Tesla expands Nevada factory solar array toward goal to become world’s biggest",
-      "type": "story",
-      "url": "https://electrek.co/2022/01/13/tesla-expands-gigafactory-nevada-solar-array-worlds-biggest/"
-    },
-    {
-      "by": "lakis",
-      "descendants": 0,
-      "id": 29939342,
-      "score": 2,
-      "time": 1642189489,
-      "title": "Tesla starts accepting once-joke cryptocurrency Dogecoin",
-      "type": "story",
-      "url": "https://www.bbc.com/news/business-60001144"
-    },
-    {
-      "by": "drocer88",
-      "descendants": 0,
-      "id": 29939340,
-      "score": 2,
-      "time": 1642189482,
-      "title": "Facebook and Google accused of ‘secret deal’ to carve up ad empire",
-      "type": "story",
-      "url": "https://nypost.com/2022/01/14/facebook-and-google-accused-of-secret-deal-to-carve-up-ad-empire/"
-    },
-    {
-      "by": "ksec",
-      "descendants": 0,
-      "id": 29939337,
-      "score": 1,
-      "time": 1642189475,
-      "title": "Yum Brands CMO on why brand purpose is not marketing",
-      "type": "story",
-      "url": "https://www.marketingweek.com/yum-cmo-purpose-bs/"
     }
   ]
 }
