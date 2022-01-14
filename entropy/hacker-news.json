@@ -4,7 +4,7 @@
       "by": "gmays",
       "descendants": 0,
       "id": 29939471,
-      "score": 1,
+      "score": 2,
       "time": 1642190063,
       "title": "The largest group of nesting fish ever found lives beneath Antarctic ice",
       "type": "story",
@@ -14,7 +14,7 @@
       "by": "doener",
       "descendants": 0,
       "id": 29939469,
-      "score": 1,
+      "score": 3,
       "time": 1642190056,
       "title": "Defense contractor Hensoldt confirms Lorenz ransomware attack",
       "type": "story",
@@ -22,8 +22,11 @@
     },
     {
       "by": "nicolas-siplis",
-      "descendants": 0,
+      "descendants": 1,
       "id": 29939465,
+      "kids": [
+        29939508
+      ],
       "score": 1,
       "text": "Even though the issue has been resolved now, I&#x27;d like to start a discussion where we can maybe try to figure out exactly what the hell went wrong.<p>User Agent spoofing did nothing to fix the issue, and there are several reports of people managing to make a cURL&#x2F;Postman request with the exact same headers Firefox used without any problems. HTTP3 also seemed like an easy suspect because of the recent bug, but AFAIK it&#x27;s not used for requests to Reddit and I also tried disabling it to no avail.<p>All I can think of at the moment is a problem between Reddit and Firefox&#x27;s Root Certificate Store, which is different from the one used by the OS. That could explain the 403 errors seen in the browser and also why requests worked fine via other programs. However, I&#x27;d like to see what the people here think, so... discuss?",
       "time": 1642190016,
@@ -45,7 +48,7 @@
         29939440,
         29939441
       ],
-      "score": 3,
+      "score": 4,
       "text": "If you aren&#x27;t currently looking for new work, why are you staying at your current role?",
       "time": 1642189937,
       "title": "Poll: Why are you staying at your job?",
@@ -75,7 +78,7 @@
       "by": "afrcnc",
       "descendants": 0,
       "id": 29939393,
-      "score": 1,
+      "score": 2,
       "time": 1642189706,
       "title": "Tesla expands Nevada factory solar array toward goal to become world’s biggest",
       "type": "story",
