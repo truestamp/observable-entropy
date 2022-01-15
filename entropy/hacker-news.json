@@ -1,6 +1,16 @@
 {
   "stories": [
     {
+      "by": "dbquest",
+      "descendants": 0,
+      "id": 29944562,
+      "score": 1,
+      "text": "Any suggestions of databases with the following Use cases:\n1. Database supporting 3 to 4 terabytes of data that has fast read, slow updates&#x2F;deletes (taking a couple of seconds to delete is fine).\n2. Sql queries are scheduled to run every 15 minutes which dumps data from delta lake to another database (this is the db this post is about) to update&#x2F;delete tables in that database.\n3. Those tables have heavy reads.\n4. While the tables are being updated some rows are being updated&#x2F;deleted(could also be no rows updated) and at the same time reads are being performed. \nAggregations are being performed on those rows. How do we ensure that the read performed on the tables only aggregate the data after the rows are updated i.e. no intermediate results?\nShould this be atomic?<p>----------                       -----------\n|delta lake|   ==sql queries==&gt;  | db we need|\n ----------                       -----------<p>We wanted to use Clickhouse (as &quot;db we need&quot; in above diagram) but its update&#x2F;delete is actually done with garbage collection (it&#x27;s done at some point but we don&#x27;t know when).<p>Any suggested databases? Given that we needed fast read speed we considered olap databases e.g. druid, pinot.",
+      "time": 1642232761,
+      "title": "Any suggested databases with fast read slow updates/deletes",
+      "type": "story"
+    },
+    {
       "by": "andrewstuart",
       "descendants": 0,
       "id": 29944545,
@@ -92,16 +102,6 @@
       "title": "Uncertainty Saves Lives (2018)",
       "type": "story",
       "url": "https://unintendedconsequenc.es/uncertainty-saves-lives-peltzman-effect/"
-    },
-    {
-      "by": "fallingfrog",
-      "descendants": 0,
-      "id": 29944412,
-      "score": 1,
-      "time": 1642231164,
-      "title": "Red, Blue and Yellow are not the primary colors",
-      "type": "story",
-      "url": "https://www.youtube.com/watch?v=NVhA18_dmg0&list=FLAteskXl_z0d0yCm25P9zUg&index=31"
     }
   ]
 }
