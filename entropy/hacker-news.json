@@ -1,6 +1,56 @@
 {
   "stories": [
     {
+      "by": "ploomber",
+      "descendants": 0,
+      "id": 29942345,
+      "score": 1,
+      "time": 1642206518,
+      "title": "From Jupyter to Production – Filip Jankovic – PyData Global 2021",
+      "type": "story",
+      "url": "https://www.youtube.com/watch?v=cFpUBiSgDwU"
+    },
+    {
+      "by": "lightlyused",
+      "descendants": 0,
+      "id": 29942335,
+      "score": 1,
+      "time": 1642206437,
+      "title": "Intel factory will be built on land to be annexed into New Albany",
+      "type": "story",
+      "url": "https://www.dispatch.com/story/business/2022/01/14/factory-built-land-annexed-into-new-albany/6524507001/"
+    },
+    {
+      "by": "retro_guy",
+      "descendants": 0,
+      "id": 29942326,
+      "score": 1,
+      "time": 1642206364,
+      "title": "Tomb Raider 1 Ported to Game Boy Advance",
+      "type": "story",
+      "url": "https://www.youtube.com/watch?v=igEUjEci-eg"
+    },
+    {
+      "by": "SkyMarshal",
+      "descendants": 0,
+      "id": 29942325,
+      "score": 1,
+      "time": 1642206351,
+      "title": "China harvests masses of data on Western targets, documents show",
+      "type": "story",
+      "url": "https://www.washingtonpost.com/national-security/china-harvests-masses-of-data-on-western-targets-documents-show/2021/12/31/3981ce9c-538e-11ec-8927-c396fa861a71_story.html"
+    },
+    {
+      "by": "Bostonian",
+      "descendants": 0,
+      "id": 29942324,
+      "score": 1,
+      "time": 1642206328,
+      "title": "Opioids and the Unattached Male",
+      "type": "story",
+      "url": "https://www.city-journal.org/opioids-and-the-unattached-male"
+    },
+    {
       "by": "ofou",
       "descendants": 0,
       "id": 29942313,
@@ -47,64 +97,11 @@
       "by": "prostoalex",
       "descendants": 0,
       "id": 29942250,
-      "score": 1,
+      "score": 2,
       "time": 1642205660,
       "title": "Navient to Cancel $1.7B of Debts",
       "type": "story",
       "url": "https://www.wsj.com/articles/student-loan-processor-navient-to-cancel-1-7-billion-of-debts-11642090311"
-    },
-    {
-      "by": "atg_abhishek",
-      "descendants": 0,
-      "id": 29942239,
-      "score": 1,
-      "time": 1642205531,
-      "title": "Auto-Diagnosis and Remediation in Netflix Data Platform",
-      "type": "story",
-      "url": "https://netflixtechblog.com/auto-diagnosis-and-remediation-in-netflix-data-platform-5bcc52d853d1?gi=323745b45450"
-    },
-    {
-      "by": "optimalsolver",
-      "descendants": 0,
-      "id": 29942222,
-      "score": 1,
-      "time": 1642205424,
-      "title": "Structure And Randomness In The Prime Numbers (2007) [pdf]",
-      "type": "story",
-      "url": "https://www.math.ucla.edu/~tao/preprints/Slides/primes.pdf"
-    },
-    {
-      "by": "rbanffy",
-      "descendants": 0,
-      "id": 29942220,
-      "score": 1,
-      "time": 1642205415,
-      "title": "I Optimized a Program by 5000x",
-      "type": "story",
-      "url": "https://emeryberger.medium.com/that-time-i-optimized-a-program-by-5000x-155cb8cfd9f9"
-    },
-    {
-      "by": "rbanffy",
-      "descendants": 0,
-      "id": 29942214,
-      "score": 1,
-      "time": 1642205374,
-      "title": "France opens access to quantum computing to researchers, startups",
-      "type": "story",
-      "url": "https://www.euractiv.com/section/digital/news/france-opens-access-to-quantum-computing-to-researchers-start-ups/"
-    },
-    {
-      "by": "m3047",
-      "descendants": 1,
-      "id": 29942212,
-      "kids": [
-        29942304
-      ],
-      "score": 1,
-      "text": "Company A offers a network software product which is ubiquitous on the internet (seriously, it has lost some market share over the years depending on how you measure it so maybe &quot;pervasive&quot; or &quot;endemic&quot; would be better characterizations). Company B was founded by Company A&#x27;s chief architect and tech leadership to do things with telemetry related to Company A&#x27;s product and eventually prevailed on Company A to implement a direct telemetry tap in the product, which I&#x27;m perfectly happy about in principle.<p>For whatever reasons company B chose to implement unix domain sockets as the only streaming protocol &#x2F; mechanism for the telemetry tap. The protocol uses a handshake initiated by the client at setup, the software is the &quot;client&quot; and whatever receives the telemetry is the &quot;server&quot;.<p>The tap is logging, not auditing: if messages can&#x27;t be received then they are dropped, instead of the application pausing processing. You might suspect that backpressure might make the application pause, but that is incorrect because the protocol client drops messages with no in-band indicator if backpressure occurs.<p>The C and Go language implementations of the protocol were both written by Company B; the only other implementation was written by me (pure Python).<p>Both the chief architect and myself have been writing networking and telemetry software for over 30 years. I&#x27;d really like the software application to send its telemetry directly to the network. I recently asked them: why not direct-to-network, and why not UDP (with a header containing a packet counter and a start&#x2F;continuation indicator)? Their answer was &quot;too easy to send the stream to somebody who&#x27;s not listening&quot;. I am puzzled by that answer.<p>Granted, there&#x27;s no positive connection indicator with UDP as opposed to TCP (where ACKs still have to be sent back to the client) but the answer as given still needs unpacking, because what kind of indicator exists in the unix socket when at the application layer the protocol client drops messages with no fanfare? Other than the initial handshake and the observable that the connection is blocked but still intact I can&#x27;t see any.<p>Why not use UDP and let the network drop packets for free? How is that worse than network drops a TCP packet and retries, so eventually backpressure develops and the stream is stalled by the client?<p>UDP is going to get an ICMP response to the client&#x2F;sender that the port, host or network is unreachable. I don&#x27;t think it&#x27;s so bad that servers can come and go and telemetry still occurs oblivious, maybe that&#x27;s all there is to it (plus there&#x27;s the option for multicast this way which kind of makes the point). In terms of security &quot;rings of hell&quot; you can restrict the traffic to localhost, a VPC, a LAN, a subnet (and you&#x27;d want to with this data). If you don&#x27;t want to offload that responsibility, you could do it from the client&#x2F;sender by limiting the number of hops the packet can make (IP datagram TTL).<p>Is there really any important difference TCP vs UDP other than those outlined above? Is the difference in operating dynamics between TCP and unix domain sockets sufficient that equivalency should even be entertained?",
-      "time": 1642205356,
-      "title": "Ask HN: How important is it for telemetry apps to have something listening?",
-      "type": "story"
     }
   ]
 }
