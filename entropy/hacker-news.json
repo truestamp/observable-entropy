@@ -1,6 +1,16 @@
 {
   "stories": [
     {
+      "by": "rustoo",
+      "descendants": 0,
+      "id": 29944614,
+      "score": 1,
+      "time": 1642233365,
+      "title": "Chewing to Stay Slim: How to Savor Your Food Better and Dodge Weight Gain, Too",
+      "type": "story",
+      "url": "https://www.waseda.jp/top/en/news/75184"
+    },
+    {
       "by": "pabs3",
       "descendants": 0,
       "id": 29944598,
@@ -15,14 +25,14 @@
       "descendants": 0,
       "id": 29944562,
       "score": 1,
-      "text": "Any suggestions of databases with the following Use cases:\n1. Database supporting 3 to 4 terabytes of data that has fast read, slow updates&#x2F;deletes (taking a couple of seconds to delete is fine).\n2. Sql queries are scheduled to run every 15 minutes which dumps data from delta lake to another database (this is the db this post is about) to update&#x2F;delete tables in that database.\n3. Those tables have heavy reads.\n4. While the tables are being updated some rows are being updated&#x2F;deleted(could also be no rows updated) and at the same time reads are being performed. \nAggregations are being performed on those rows. How do we ensure that the read performed on the tables only aggregate the data after the rows are updated i.e. no intermediate results?\nShould this be atomic?<p>----------                       -----------\n|delta lake|   ==sql queries==&gt;  | db we need|\n ----------                       -----------<p>We wanted to use Clickhouse (as &quot;db we need&quot; in above diagram) but its update&#x2F;delete is actually done with garbage collection (it&#x27;s done at some point but we don&#x27;t know when).<p>Any suggested databases? Given that we needed fast read speed we considered olap databases e.g. druid, pinot.",
+      "text": "Any suggestions of databases with the following Use cases:\n1. Database supporting 3 to 4 terabytes of data that has fast read, slow updates&#x2F;deletes (taking a couple of seconds to delete is fine).\n2. Sql queries are scheduled to run every 15 minutes which dumps data from delta lake to another database (this is the db this post is about) to update&#x2F;delete tables in that database.\n3. Those tables have heavy reads.\n4. While the tables are being updated some rows are being updated&#x2F;deleted(could also be no rows updated) and at the same time reads are being performed. \nAggregations are being performed on those rows. How do we ensure that the read performed on the tables only aggregate the data after the rows are updated i.e. no intermediate results?\nShould this be atomic?<p>|delta lake|   ==sql queries==&gt;  | db we need|<p>We wanted to use Clickhouse (as &quot;db we need&quot; in above diagram) but its update&#x2F;delete is actually done with garbage collection (it&#x27;s done at some point but we don&#x27;t know when).<p>Any suggested databases? Given that we needed fast read speed we considered olap databases e.g. druid, pinot.",
       "time": 1642232761,
       "title": "Any suggested databases with fast read slow updates/deletes",
       "type": "story"
     },
     {
       "by": "andrewstuart",
-      "descendants": 1,
+      "descendants": 2,
       "id": 29944545,
       "kids": [
         29944608
@@ -94,16 +104,6 @@
       "text": "Why doesn&#x27;t Hedera&#x27;s hashgraph DLT get more attention?<p>Though not a blockchain, its claims seem like the answer to the scalability trilemma.<p>Curious what you brilliant folks think of it.",
       "time": 1642231614,
       "title": "Thoughts on Hedera's Hashgraph DLT?",
-      "type": "story"
-    },
-    {
-      "by": "boppo1",
-      "descendants": 0,
-      "id": 29944450,
-      "score": 1,
-      "text": "My main computing device is a Lenovo x220 with xubuntu. It does 99% of what I need; I love it.<p>I also own a 2021 Ipad Pro. I bought it as a Nomad Sculpt and Procreate machine. However, I&#x27;ve really been getting into graphics programming lately and would love to start building my own custom tools and augmented reality graphics sketches. I&#x27;m specifically interested in getting some experience in with the Metal API.<p>Unfortunately, I don&#x27;t have $2k or even $500 to drop on an apple compute device. I have an old, very beat up 2010 MBP, but I don&#x27;t know how much use it would be. I certainly wouldn&#x27;t want to develop on it.<p>Are there any reasonably priced services that I could use to compile apps for IpadOS? It seems like in this day and age I ought to be able to write the whole thing on my preferred xubuntu machine, then send that over to something else for &quot;apple-compliant-compilation&quot; and so on and so forth.",
-      "time": 1642231591,
-      "title": "Can I make graphics-intensive IpadOS apps without a mac?",
       "type": "story"
     }
   ]
