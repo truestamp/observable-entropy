@@ -1,6 +1,36 @@
 {
   "stories": [
     {
+      "by": "rbanffy",
+      "descendants": 0,
+      "id": 29942214,
+      "score": 1,
+      "time": 1642205374,
+      "title": "France opens access to quantum computing to researchers, startups",
+      "type": "story",
+      "url": "https://www.euractiv.com/section/digital/news/france-opens-access-to-quantum-computing-to-researchers-start-ups/"
+    },
+    {
+      "by": "m3047",
+      "descendants": 0,
+      "id": 29942212,
+      "score": 1,
+      "text": "Company A offers a network software product which is ubiquitous on the internet (seriously, it has lost some market share over the years depending on how you measure it so maybe &quot;pervasive&quot; or &quot;endemic&quot; would be better characterizations). Company B was founded by Company A&#x27;s chief architect and tech leadership to do things with telemetry related to Company A&#x27;s product and eventually prevailed on Company A to implement a direct telemetry tap in the product, which I&#x27;m perfectly happy about in principle.<p>For whatever reasons company B chose to implement unix domain sockets as the only streaming protocol &#x2F; mechanism for the telemetry tap. The protocol uses a handshake initiated by the client at setup, the software is the &quot;client&quot; and whatever receives the telemetry is the &quot;server&quot;.<p>The tap is logging, not auditing: if messages can&#x27;t be received then they are dropped, instead of the application pausing processing. You might suspect that backpressure might make the application pause, but that is incorrect because the protocol client drops messages with no in-band indicator if backpressure occurs.<p>The C and Go language implementations of the protocol were both written by Company B; the only other implementation was written by me (pure Python).<p>Both the chief architect and myself have been writing networking and telemetry software for over 30 years. I&#x27;d really like the software application to send its telemetry directly to the network. I recently asked them: why not direct-to-network, and why not UDP (with a header containing a packet counter and a start&#x2F;continuation indicator)? Their answer was &quot;too easy to send the stream to somebody who&#x27;s not listening&quot;. I am puzzled by that answer.<p>Granted, there&#x27;s no positive connection indicator with UDP as opposed to TCP (where ACKs still have to be sent back to the client) but the answer as given still needs unpacking, because what kind of indicator exists in the unix socket when at the application layer the protocol client drops messages with no fanfare? Other than the initial handshake and the observable that the connection is blocked but still intact I can&#x27;t see any.<p>Why not use UDP and let the network drop packets for free? How is that worse than network drops a TCP packet and retries, so eventually backpressure develops and the stream is stalled by the client?<p>UDP is going to get an ICMP response to the client&#x2F;sender that the port, host or network is unreachable. I don&#x27;t think it&#x27;s so bad that servers can come and go and telemetry still occurs oblivious, maybe that&#x27;s all there is to it (plus there&#x27;s the option for multicast this way which kind of makes the point). In terms of security &quot;rings of hell&quot; you can restrict the traffic to localhost, a VPC, a LAN, a subnet (and you&#x27;d want to with this data). If you don&#x27;t want to offload that responsibility, you could do it from the client&#x2F;sender by limiting the number of hops the packet can make (IP datagram TTL).<p>Is there really any important difference TCP vs UDP other than those outlined above? Is the difference in operating dynamics between TCP and unix domain sockets sufficient that equivalency should even be entertained?",
+      "time": 1642205356,
+      "title": "Ask HN: How important is it for telemetry apps to have something listening?",
+      "type": "story"
+    },
+    {
+      "by": "rbanffy",
+      "descendants": 0,
+      "id": 29942207,
+      "score": 1,
+      "time": 1642205329,
+      "title": "Researchers develop first fully 3D-printed, flexible OLED display",
+      "type": "story",
+      "url": "https://cse.umn.edu/college/news/researchers-develop-first-fully-3d-printed-flexible-oled-display"
+    },
+    {
       "by": "prostoalex",
       "descendants": 0,
       "id": 29942186,
@@ -69,43 +99,6 @@
       "title": "Using time dilation to measure curvature of space-time",
       "type": "story",
       "url": "https://phys.org/news/2022-01-dilation-curvature-space-time.html"
-    },
-    {
-      "by": "inaccelbot",
-      "descendants": 0,
-      "id": 29942116,
-      "score": 2,
-      "time": 1642204576,
-      "title": "Show HN: Transform your GitHub profile into a fortune cookie",
-      "type": "story",
-      "url": "https://github.com/inaccelbot"
-    },
-    {
-      "by": "ahaucnx",
-      "descendants": 1,
-      "id": 29942063,
-      "kids": [
-        29942068
-      ],
-      "score": 2,
-      "time": 1642204069,
-      "title": "DIY CO2 Traffic Light",
-      "type": "story",
-      "url": "https://www.airgradient.com/diy-co2-traffic-light/"
-    },
-    {
-      "by": "mwattsun",
-      "descendants": 2,
-      "id": 29942060,
-      "kids": [
-        29942156,
-        29942087
-      ],
-      "score": 3,
-      "time": 1642204063,
-      "title": "Wikipedia Editors Have Voted Not to Classify NFTs as Art, Sparking Outrage",
-      "type": "story",
-      "url": "https://news.artnet.com/market/wikipedia-editors-nft-art-classification-2060018"
     }
   ]
 }
