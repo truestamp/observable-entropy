@@ -1,10 +1,43 @@
 {
   "stories": [
     {
-      "by": "scottc",
+      "by": "steelstraw",
       "descendants": 0,
-      "id": 29975429,
+      "id": 29975503,
       "score": 1,
+      "time": 1642484074,
+      "title": "Sex Differences in Friendship Preferences",
+      "type": "story",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S109051382100074X"
+    },
+    {
+      "by": "jonbaer",
+      "descendants": 0,
+      "id": 29975488,
+      "score": 1,
+      "time": 1642483891,
+      "title": "Markov Logic Networks in Python",
+      "type": "story",
+      "url": "http://www.pracmln.org/"
+    },
+    {
+      "by": "Phithagoras",
+      "descendants": 0,
+      "id": 29975477,
+      "score": 1,
+      "time": 1642483671,
+      "title": "What Sonic Black Holes Say About Real Ones",
+      "type": "story",
+      "url": "https://www.quantamagazine.org/what-sonic-black-holes-say-about-real-ones-20161108/"
+    },
+    {
+      "by": "scottc",
+      "descendants": 1,
+      "id": 29975429,
+      "kids": [
+        29975438
+      ],
+      "score": 2,
       "time": 1642483132,
       "title": "Top VS Code Extensions you need for Web Development in 2022",
       "type": "story",
@@ -14,7 +47,7 @@
       "by": "pseudolus",
       "descendants": 0,
       "id": 29975407,
-      "score": 1,
+      "score": 3,
       "time": 1642482915,
       "title": "Weird computer-generated phrases help researchers find scientific fraud",
       "type": "story",
@@ -37,7 +70,7 @@
       "kids": [
         29975381
       ],
-      "score": 1,
+      "score": 2,
       "time": 1642482626,
       "title": "Pfizer and Moderna expect seasonal booster shots after omicron wave",
       "type": "story",
@@ -65,46 +98,16 @@
     },
     {
       "by": "iamwil",
-      "descendants": 0,
+      "descendants": 1,
       "id": 29975334,
+      "kids": [
+        29975449
+      ],
       "score": 3,
       "text": "In the realm of pure functional programming, like Haskell, side effects are managed. Where the effect is described by the IO monad, and sent off to the runtime to actually execute. This is intended to limit the complexities of side-effects and keep the program purely functional.<p>How does Common Lisp deal with the side effects? My understanding is that it&#x27;s not pure functional, so you can mix and match. How come Common Lisp doesn&#x27;t get bogged down in a quagmire of complexity like managing state in other programming languages end up being? Is there a design pattern that&#x27;s common. Is there some power in Lisp that enables programmers to contain it well? Or is it that Lisp programmers are usually experienced enough to contain it on their own no matter which language they program in?",
       "time": 1642482154,
       "title": "Ask HN: How does Common Lisp deal with side effects?",
       "type": "story"
-    },
-    {
-      "by": "ghostmatt",
-      "descendants": 0,
-      "id": 29975317,
-      "score": 1,
-      "text": "I am building an online marketplace for service providers. The service provider will have the option of two profiles, basic vs. premium profile.<p>My current thoughts on pricing structure are as follows.<p>Basic Profile - Limited feature set - Free + transaction fee<p>Premium Profile - Full feature set - $25 a  month + smaller transaction fee<p>How large should transaction fees be in order to not have vendors move off platform &#x2F; be discouraged from working with us but still enough to make some money? What’s the sweet spot?<p>Should the transaction fee be taken from the vendor side or on the customer side as an additional charge at checkout?<p>Should there be a small flat fee put on transactions?<p>Any other things &#x2F; options to do?<p>Any advice on this would be greatly appreciated !!",
-      "time": 1642482027,
-      "title": "Need help with Pricing Structure on my Marketplace",
-      "type": "story"
-    },
-    {
-      "by": "jmole",
-      "descendants": 1,
-      "id": 29975306,
-      "kids": [
-        29975410
-      ],
-      "score": 4,
-      "time": 1642481908,
-      "title": "California should force parents to give away their children",
-      "type": "story",
-      "url": "https://www.sfchronicle.com/opinion/openforum/article/Want-true-equity-California-should-force-parents-16777540.php"
-    },
-    {
-      "by": "mrdmnd",
-      "descendants": 0,
-      "id": 29975297,
-      "score": 1,
-      "time": 1642481832,
-      "title": "A Particularly Sadistic MIT Mystery Hunt Puzzle",
-      "type": "story",
-      "url": "https://www.mitmh2022.com/login?next=https%3A//www.bookspace.world/auth/%3Fnext%3D/puzzle/lists-of-large-integers/solution/&auth=1"
     }
   ]
 }
