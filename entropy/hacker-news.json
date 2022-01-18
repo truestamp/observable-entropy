@@ -1,24 +1,78 @@
 {
   "stories": [
     {
+      "by": "Kaedon",
+      "descendants": 0,
+      "id": 29984791,
+      "score": 1,
+      "time": 1642535680,
+      "title": "Load Testing at Scale and Lessons Learned",
+      "type": "story",
+      "url": "https://www.kevinlondon.com/2022/01/14/load-testing-guide"
+    },
+    {
+      "by": "fran_ortiz",
+      "descendants": 0,
+      "id": 29984787,
+      "score": 1,
+      "time": 1642535664,
+      "title": "Using the DevOps second way to improve the product development process",
+      "type": "story",
+      "url": "https://productdeveloper.net/feedback-loops/"
+    },
+    {
+      "by": "distalx",
+      "descendants": 0,
+      "id": 29984785,
+      "score": 1,
+      "time": 1642535655,
+      "title": "Did Honda Fix the Clocks",
+      "type": "story",
+      "url": "https://didhondafixtheclocks.com/"
+    },
+    {
+      "by": "smartmic",
+      "descendants": 0,
+      "id": 29984760,
+      "score": 1,
+      "time": 1642535548,
+      "title": "Time Based Text – reproduces every single action during composition of a text",
+      "type": "story",
+      "url": "https://www.dyne.org/software/tbt/"
+    },
+    {
+      "by": "smashah",
+      "descendants": 1,
+      "id": 29984743,
+      "kids": [
+        29984768
+      ],
+      "score": 1,
+      "time": 1642535449,
+      "title": "Show HN: Payitfwd.dev – Redirect Donors to Dependencies",
+      "type": "story",
+      "url": "https://payitfwd.dev/"
+    },
+    {
+      "by": "cnuss",
+      "descendants": 0,
+      "id": 29984729,
+      "score": 1,
+      "text": "Greetings!<p>I&#x27;ve created a GitHub action that works that allows GitHub Actions to exchange a GitHub token for AWS Access Credentials.<p>I&#x27;ve cultivated a few examples of it in action:<p><a href=\"https:&#x2F;&#x2F;github.com&#x2F;saml-to&#x2F;aws-assume-role-action-examples\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;saml-to&#x2F;aws-assume-role-action-examples</a><p>I&#x27;ve always found management of AWS Credentials has been a pain. So this setting up this Action works like this:<p>1) A SAML Identity Provider is created in AWS<p>2) A Role in AWS is set up to trust that Identity Provider<p>3) A config file is added to the repository indicating which role can be assumed<p>4) The GitHub Action exchanges the Repo Secret for AWS Credentials using the SAML.to backend for the exchange<p>Let me know what you think! I&#x27;m Happy to take questions and comments here or on Gitter:<p><a href=\"https:&#x2F;&#x2F;gitter.im&#x2F;saml-to&#x2F;assume-aws-role-action\" rel=\"nofollow\">https:&#x2F;&#x2F;gitter.im&#x2F;saml-to&#x2F;assume-aws-role-action</a>",
+      "time": 1642535419,
+      "title": "Show HN: Stop Putting AWS Credentials in GitHub Secrets",
+      "type": "story",
+      "url": "https://github.com/saml-to/assume-aws-role-action"
+    },
+    {
       "by": "saimiam",
       "descendants": 0,
       "id": 29984721,
-      "score": 1,
+      "score": 2,
       "text": "Hi HN,<p>What can I do with my AWS certification? I know I could consult with companies but of there anything more interesting I could build fit the world to use?<p>I’m thinking that a jobs board just for ppl with certifications could be useful.",
       "time": 1642535391,
       "title": "Ask HN: What to do with my AWS Certification?",
       "type": "story"
-    },
-    {
-      "by": "smashah",
-      "descendants": 0,
-      "id": 29984716,
-      "score": 1,
-      "time": 1642535363,
-      "title": "Show HN: Payitfwd.dev – Redirect Donators to Dependencies",
-      "type": "story",
-      "url": "https://payitfwd.dev/"
     },
     {
       "by": "walterbell",
@@ -49,56 +103,6 @@
       "title": "The Obscenity List",
       "type": "story",
       "url": "https://www.surgehq.ai/blog/the-obscenity-list-surge"
-    },
-    {
-      "by": "sepiasaucer",
-      "descendants": 0,
-      "id": 29984680,
-      "score": 2,
-      "time": 1642535202,
-      "title": "Accelerate R Code with Intel OneAPI Math Kernel Library",
-      "type": "story",
-      "url": "https://www.intel.com/content/www/us/en/developer/articles/technical/accelerate-r-code-with-math-kernel-library.html"
-    },
-    {
-      "by": "WaitWaitWha",
-      "descendants": 0,
-      "id": 29984678,
-      "score": 2,
-      "time": 1642535197,
-      "title": "What Is TinyML?",
-      "type": "story",
-      "url": "https://www.allaboutcircuits.com/technical-articles/what-is-tinyml/"
-    },
-    {
-      "by": "medo-bear",
-      "descendants": 0,
-      "id": 29984674,
-      "score": 2,
-      "time": 1642535182,
-      "title": "GNU Emacs Telegram Client",
-      "type": "story",
-      "url": "https://github.com/zevlg/telega.el"
-    },
-    {
-      "by": "Tomte",
-      "descendants": 0,
-      "id": 29984663,
-      "score": 1,
-      "time": 1642535132,
-      "title": "The art of making simple but tough rhythm games (2021)",
-      "type": "story",
-      "url": "https://www.theverge.com/22417808/unbeatable-rhythm-doctor-accessible-games"
-    },
-    {
-      "by": "Tomte",
-      "descendants": 0,
-      "id": 29984659,
-      "score": 1,
-      "time": 1642535107,
-      "title": "The existence of biological sex is no constraint on human diversity (2020)",
-      "type": "story",
-      "url": "https://aeon.co/essays/the-existence-of-biological-sex-is-no-constraint-on-human-diversity"
     }
   ]
 }
