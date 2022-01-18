@@ -1,6 +1,36 @@
 {
   "stories": [
     {
+      "by": "brundolf",
+      "descendants": 0,
+      "id": 29981912,
+      "score": 1,
+      "text": "About a month ago I (attempted to?) transfer two domains from Hover to Cloudflare (both nameservers and registrar). These domains route my emails so they&#x27;re very important.<p>It <i>seemed</i> like everything worked fine, and I just confirmed that Cloudflare is all green for both (it even says &quot;Registrar: Cloudflare&quot; in one spot in the UI), but a couple things have shaken my confidence:<p>1) Hover is still sending me renewal emails about them. It shows a warning that one of them is about to expire, and in the dashboard it just says &quot;About to Expire&quot;, with nothing about it having been transferred or no longer being registered through Hover.<p>2) I&#x27;ve had a minor DNS issue for quite some time, where if I visit http:&#x2F;&#x2F;mywebsite.tld&#x2F; (with no www), it doesn&#x27;t route correctly to the server and instead shows a Hover &quot;site under construction&quot; page. This is not a new issue, it&#x27;s just something I need to fix, however it&#x27;s worrying that it still points to the Hover fallback page when I&#x27;m supposed to be fully moved off of Hover now.<p>Any advice or insight would be welcome. My knowledge of DNS is pretty basic so I&#x27;m feeling around in the dark right now, and one of the domains expires tomorrow according to Hover (Cloudflare says it&#x27;s good for another year?)",
+      "time": 1642524847,
+      "title": "Ask HN: Worried about Domain Transfer",
+      "type": "story"
+    },
+    {
+      "by": "huozhi",
+      "descendants": 0,
+      "id": 29981899,
+      "score": 1,
+      "time": 1642524803,
+      "title": "Fpoint – Make web interaction easier",
+      "type": "story",
+      "url": "https://fpoint.vercel.app"
+    },
+    {
+      "by": "rustoo",
+      "descendants": 0,
+      "id": 29981875,
+      "score": 1,
+      "time": 1642524715,
+      "title": "Improving reading skills through action video games",
+      "type": "story",
+      "url": "https://www.unige.ch/communication/communiques/en/2022/ameliorer-la-lecture-grace-aux-jeux-video-daction/"
+    },
+    {
       "by": "3000",
       "descendants": 0,
       "id": 29981838,
@@ -44,7 +74,7 @@
       "by": "leirbagarc",
       "descendants": 0,
       "id": 29981781,
-      "score": 1,
+      "score": 2,
       "time": 1642524345,
       "title": "Why some VCs are hopeful of a pullback in sky-high valuations",
       "type": "story",
@@ -69,39 +99,6 @@
       "title": "Decarbonization tech instantly converts CO2 to solid carbon",
       "type": "story",
       "url": "https://www.rmit.edu.au/news/media-releases-and-expert-comments/2022/jan/decarbonisation-tech"
-    },
-    {
-      "by": "chapulin",
-      "descendants": 0,
-      "id": 29981754,
-      "score": 1,
-      "time": 1642524200,
-      "title": "Intel to Unveil 'Ultra Low-Voltage Bitcoin Mining ASIC'",
-      "type": "story",
-      "url": "https://www.coindesk.com/tech/2022/01/18/intel-to-unveil-ultra-low-voltage-bitcoin-mining-asic-in-february/"
-    },
-    {
-      "by": "cube2222",
-      "descendants": 1,
-      "id": 29981737,
-      "kids": [
-        29981750
-      ],
-      "score": 1,
-      "time": 1642524144,
-      "title": "Tricking PostgreSQL into using an insane – but 200x faster – query plan",
-      "type": "story",
-      "url": "https://spacelift.io/blog/tricking-postgres-into-using-query-plan"
-    },
-    {
-      "by": "andreamaribel",
-      "descendants": 0,
-      "id": 29981735,
-      "score": 1,
-      "time": 1642524140,
-      "title": "How Web3 is being leveraged in food and beverage",
-      "type": "story",
-      "url": "https://snaxshot.substack.com/p/latest-on-web3-f-and-b"
     }
   ]
 }
