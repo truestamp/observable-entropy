@@ -1,9 +1,65 @@
 {
   "stories": [
     {
-      "by": "kawera",
+      "by": "huozhi",
       "descendants": 0,
+      "id": 30001799,
+      "score": 1,
+      "time": 1642633737,
+      "title": "Parse and transform HTML to the format you want",
+      "type": "story",
+      "url": "https://html2any.vercel.app"
+    },
+    {
+      "by": "punnerud",
+      "descendants": 0,
+      "id": 30001794,
+      "score": 1,
+      "text": "We just migrated from Freshdesk to SalesForce for our CRM and what take up 1GB in uncompressed CSV-files is eating about 5GB of table space in SalesForce.<p>Never seen this blowup GB in any other CRM database. This is for standard Case, Customer, Contract, Email (attachments not included).<p>Extending with 10GB have a very high cost compared to any other system I have seen, even after heavy discount.<p>I get this feeling that SalesForce is overcharging by calculating a higher database size, than what is actually used (including temp space?). Or is it any other explanations?",
+      "time": 1642633713,
+      "title": "Ask HN: Is SalesForce overcharging for database space?",
+      "type": "story"
+    },
+    {
+      "by": "drallison",
+      "descendants": 0,
+      "id": 30001781,
+      "score": 1,
+      "time": 1642633668,
+      "title": "Microcomputers at 50 (Roundtable 1/19 4PM Pacific livestream)",
+      "type": "story",
+      "url": "http://ee380.stanford.edu"
+    },
+    {
+      "by": "darwinjs",
+      "descendants": 0,
+      "id": 30001769,
+      "score": 1,
+      "text": "Several months back it was asked here: https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=28535016 if GitLab supported AWS Federation at the CI Job level (ID federation has been supported for a while)<p>In GitLab Alliances we struck up a customer success collaboration to see if our existing JWT token was already working and we would just need to provide enablement (instructions, working examples, videos, blogs, etc).<p>We learned that there was some product work to do so the collaboration eventually snowballed to be cross team and cross company to include participation from Customer Success, Product, Engineering, Sales and AWS through our mutual partnership.<p>As a result alpha support was released in 14.6 and will be fully released in 14.7.<p>For clarity - the AWS role you link to might be scoped to only give access to specific paths in Secrets Manager or it could give permissions to do changes to AWS environments.<p>We are seeking customer feedback here: https:&#x2F;&#x2F;gitlab.com&#x2F;gitlab-org&#x2F;gitlab&#x2F;-&#x2F;issues&#x2F;346737<p>Here is the enablement for this new functionality:\n- New ODIC Documentation: https:&#x2F;&#x2F;docs.gitlab.com&#x2F;ee&#x2F;ci&#x2F;cloud_services\n- New AWS Specific Documentation: https:&#x2F;&#x2F;docs.gitlab.com&#x2F;ee&#x2F;ci&#x2F;cloud_services&#x2F;aws&#x2F;\n- New Working Example: https:&#x2F;&#x2F;gitlab.com&#x2F;guided-explorations&#x2F;aws&#x2F;configure-openid-connect-in-aws<p>Huge thanks go out to Joe Randazzo, Brad Downey, Viktor Nagy and Krasimir Angelov for working the following issues and MRs to get this done:\n- https:&#x2F;&#x2F;gitlab.com&#x2F;gitlab-org&#x2F;gitlab&#x2F;-&#x2F;merge_requests&#x2F;72555\n- https:&#x2F;&#x2F;gitlab.com&#x2F;gitlab-org&#x2F;gitlab&#x2F;-&#x2F;issues&#x2F;216259\n- https:&#x2F;&#x2F;gitlab.com&#x2F;gitlab-com&#x2F;alliances&#x2F;aws&#x2F;public-tracker&#x2F;-&#x2F;issues&#x2F;17",
+      "time": 1642633610,
+      "title": "AWS Federation for Gitlab CI Jobs – Your Feedback Wanted",
+      "type": "story"
+    },
+    {
+      "by": "sshquack",
+      "descendants": 1,
+      "id": 30001751,
+      "kids": [
+        30001808
+      ],
+      "score": 1,
+      "time": 1642633527,
+      "title": "Framer Sites",
+      "type": "story",
+      "url": "https://www.framer.com/sites/"
+    },
+    {
+      "by": "kawera",
+      "descendants": 1,
       "id": 30001735,
+      "kids": [
+        30001790
+      ],
       "score": 1,
       "time": 1642633458,
       "title": "Are soundtracked books a stunt or the future of ebooks?",
@@ -45,63 +101,16 @@
     },
     {
       "by": "kossTKR",
-      "descendants": 0,
+      "descendants": 1,
       "id": 30001702,
-      "score": 1,
-      "text": "Optimism thread incoming!<p>Years ago before the concept of lifehacks waned and inflation, burnout and Corona hit, i remember learning quite a few tricks through the internet, that has followed me whenever i hit a slump.<p>What did you start to do, stopped doing, or became routine that really made a difference in your life in the past years?<p>Examples:<p>- Stop scrolling social media too much<p>- Have no-screen days<p>- Try new social settings<p>- Have a morning routine with meditation, yoga or gratitude-list<p>- Journal either in the morning or evening<p>- Meditate<p>- Become a mentor, parent or do charity<p>- Force yourself to read a bit everyday, also challenging stuff<p>- Eat better, and find out if you have deficiencies<p>- Get more light and get out and move<p>- Try different sleep schedules<p>- Take more time off idling<p>- Move city<p>So HN what what changed your life?",
+      "kids": [
+        30001774
+      ],
+      "score": 2,
+      "text": "Optimism thread incoming!<p>Years ago before the concept of lifehacks waned and inflation, burnout and Corona hit, i remember learning quite a few tricks through the internet, that has followed me whenever i hit a slump.<p>What did you start to do, stopped doing, or became routine that really made a difference in your life in the past years?<p>Examples:<p>- Stop scrolling social media<p>- Have no-screen days<p>- Try new social settings<p>- Have a morning routine with meditation, yoga or gratitude-list<p>- Journal either in the morning or evening<p>- Meditate<p>- Become a mentor, parent or do community work<p>- Force yourself to read a bit everyday, also challenging stuff<p>- Eat better, and find out if you have deficiencies<p>- Get more light and get out and move<p>- Try different sleep schedules<p>- Take more time off idling<p>- Move city<p>So HN what what changed your life?",
       "time": 1642633275,
-      "title": "Ask HN: What lifehacks changed your life?",
+      "title": "Ask HN: What lifehacks actually changed your life?",
       "type": "story"
-    },
-    {
-      "by": "onnyyonn",
-      "descendants": 0,
-      "id": 30001701,
-      "score": 1,
-      "time": 1642633274,
-      "title": "Help Chile write free software values and privacy into their constitution",
-      "type": "story",
-      "url": "https://drewdevault.com/2022/01/19/Help-Chile-promote-digital-freedoms.html"
-    },
-    {
-      "by": "JohnHammersley",
-      "descendants": 0,
-      "id": 30001683,
-      "score": 1,
-      "time": 1642633194,
-      "title": "How the UK high street was hit by the pandemic: look up your area",
-      "type": "story",
-      "url": "https://www.ft.com/content/9348c644-288f-42e7-9f4b-edea8b71be5b"
-    },
-    {
-      "by": "baal80spam",
-      "descendants": 0,
-      "id": 30001669,
-      "score": 1,
-      "time": 1642633088,
-      "title": "Blizzard misconduct fallout led to Microsoft sale, Kotick approached Meta first",
-      "type": "story",
-      "url": "https://wccftech.com/activision-blizzard-misconduct-led-to-microsoft-sale-meta-approached/"
-    },
-    {
-      "by": "naurupatel",
-      "descendants": 0,
-      "id": 30001643,
-      "score": 1,
-      "time": 1642633013,
-      "title": "Show HN: Orthofast: Keep track of Orthodox fasting days and get meal suggestions",
-      "type": "story",
-      "url": "https://www.orthofast.xyz/"
-    },
-    {
-      "by": "ph0rque",
-      "descendants": 0,
-      "id": 30001635,
-      "score": 1,
-      "time": 1642632972,
-      "title": "The global carbon sink potential can be increased by optimal land management",
-      "type": "story",
-      "url": "https://www.nature.com/articles/s43247-021-00333-1"
     }
   ]
 }
