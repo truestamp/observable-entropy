@@ -1,6 +1,56 @@
 {
   "stories": [
     {
+      "by": "antoinealb",
+      "descendants": 0,
+      "id": 30002340,
+      "score": 1,
+      "time": 1642637102,
+      "title": "Prodspec and Annealing: Intent-Based Actuation for Google Production",
+      "type": "story",
+      "url": "https://www.usenix.org/publications/loginonline/prodspec-and-annealing-intent-based-actuation-google-production"
+    },
+    {
+      "by": "bbatchelder",
+      "descendants": 0,
+      "id": 30002330,
+      "score": 1,
+      "text": "Before I build something myself, I wanted to check if there is anything already out there that does this.<p>Essentially want to build custom apps by designing them in a visual workflow builder to define the interactivity.<p>Imagine being able to drag a &quot;Prompt&quot; activity, define the content you want to display to the user, and the options for how the user can respond (ex: show Yes&#x2F;No buttons, or other choices), and then have a decision activity that can evaluate what the user chose and branch to some other UI - like another prompt dialog, or a file upload dialog, or a form, etc etc.<p>The more activities that you implement the richer the app you could build.<p>Right now I am leaning towards using &quot;node red&quot; as the workflow engine, and building a bunch of custom nodes that represent all the UI functionality I want - and then implementing an app host in Angular or React that will integrate with the workflow - probably via web socket messages.<p>So at the end of the day, this App Host UI is receiving commands from the workflow as far as what content to display to the user, and then sending back what the user is doing with the UI to the workflow so it can send follow up commands.",
+      "time": 1642637043,
+      "title": "Ask HN: Existing framework to build/control a UI from a workflow?",
+      "type": "story"
+    },
+    {
+      "by": "jeffbee",
+      "descendants": 0,
+      "id": 30002316,
+      "score": 1,
+      "time": 1642636888,
+      "title": "Before Wave of Train Thefts, Union Pacific Laid Off Police Force",
+      "type": "story",
+      "url": "https://www.lataco.com/union-pacific-theft-police-laid-off/"
+    },
+    {
+      "by": "maydemir",
+      "descendants": 0,
+      "id": 30002302,
+      "score": 1,
+      "time": 1642636825,
+      "title": "Fsnotify – File system notifications for Go",
+      "type": "story",
+      "url": "https://github.com/fsnotify/fsnotify"
+    },
+    {
+      "by": "tech_timc",
+      "descendants": 0,
+      "id": 30002299,
+      "score": 1,
+      "time": 1642636813,
+      "title": "RobustPhysical Adversarial Examples Against Traffic Sign Recognition Systems",
+      "type": "story",
+      "url": "https://arxiv.org/abs/2201.06192"
+    },
+    {
       "by": "tech_timc",
       "descendants": 0,
       "id": 30002273,
@@ -26,7 +76,7 @@
       "id": 30002201,
       "score": 2,
       "time": 1642636316,
-      "title": "Way to get ahead is now to lie",
+      "title": "The best way to get ahead is now to lie",
       "type": "story",
       "url": "https://unherd.com/thepost/the-best-way-to-get-ahead-is-now-to-lie/"
     },
@@ -34,7 +84,7 @@
       "by": "picture",
       "descendants": 0,
       "id": 30002185,
-      "score": 1,
+      "score": 2,
       "time": 1642636223,
       "title": "Political Compass Fetishes",
       "type": "story",
@@ -54,61 +104,11 @@
         30002189,
         30002276
       ],
-      "score": 2,
+      "score": 3,
       "text": "Feels like view on cannabis and even psychedelics like mushrooms are changing. But maybe I live in a bubble.",
       "time": 1642636141,
       "title": "Poll: Do you think cannabis should be legalized?",
       "type": "poll"
-    },
-    {
-      "by": "carbonatedmilk",
-      "descendants": 0,
-      "id": 30002172,
-      "score": 1,
-      "time": 1642636132,
-      "title": "Silicon-based qubits take a big leap forward",
-      "type": "story",
-      "url": "https://arstechnica.com/science/2022/01/silicon-based-qubits-take-a-big-leap-forward/"
-    },
-    {
-      "by": "30minAdayHN",
-      "descendants": 0,
-      "id": 30002171,
-      "score": 2,
-      "time": 1642636122,
-      "title": "How the Ballpoint Pen Killed Cursive",
-      "type": "story",
-      "url": "https://www.theatlantic.com/technology/archive/2015/08/ballpoint-pens-object-lesson-history-handwriting/402205/"
-    },
-    {
-      "by": "codezero",
-      "descendants": 0,
-      "id": 30002164,
-      "score": 1,
-      "time": 1642636086,
-      "title": "Using hidutil to map macOS keyboard keys",
-      "type": "story",
-      "url": "https://rakhesh.com/mac/using-hidutil-to-map-macos-keyboard-keys/"
-    },
-    {
-      "by": "CharlesW",
-      "descendants": 0,
-      "id": 30002146,
-      "score": 2,
-      "time": 1642635988,
-      "title": "Safari and iOS users: Your browsing activity is being leaked in real time",
-      "type": "story",
-      "url": "https://arstechnica.com/information-technology/2022/01/safari-and-ios-bug-reveals-your-browsing-activity-and-id-in-real-time/"
-    },
-    {
-      "by": "jmspring",
-      "descendants": 0,
-      "id": 30002142,
-      "score": 1,
-      "text": "I know there is Unity Bolt and Unreal Blueprints for generating node-based interactions within their given platforms.  I know there are things like Twine [1] for helping tell interactive&#x2F;non-linear stories.  Twine is actually close to what I am looking for, but I am wanting something that can be embedded rather than generating hypertext stories.<p>My phrasing could be off, but I hope that conveys what I am looking for.  Also, would prefer opensource.<p>[1] https:&#x2F;&#x2F;twinery.org",
-      "time": 1642635964,
-      "title": "Ask HN: Open-source Embeddable node based scripting",
-      "type": "story"
     }
   ]
 }
