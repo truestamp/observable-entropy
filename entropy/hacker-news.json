@@ -1,6 +1,16 @@
 {
   "stories": [
     {
+      "by": "enigmatic02",
+      "descendants": 0,
+      "id": 30003610,
+      "score": 2,
+      "time": 1642645537,
+      "title": "Unpacking the Web3 Sausage",
+      "type": "story",
+      "url": "https://www.drorpoleg.com/unpacking-the-web3-sausage/"
+    },
+    {
       "by": "physicsfox",
       "descendants": 0,
       "id": 30003599,
@@ -32,8 +42,11 @@
     },
     {
       "by": "throeawayDocs",
-      "descendants": 0,
+      "descendants": 1,
       "id": 30003513,
+      "kids": [
+        30003625
+      ],
       "score": 1,
       "text": "I’ve been hopping around a number of large non-FAANG enterprises for the past few years. In each, I keep observing a pattern - people seem uninterested in writing System Design &#x2F; Architecture documentation.<p>I struggle to grok a system if I can’t read about the context. What are the goals&#x2F;antigoals? What constraints was the system built under? What big architectural choices were evaluated? (e.g Serverless vs Containers)<p>Digging deeper I also see a lack of consideration for non-functional attributes like Performance, Capacity and High Availability.<p>Cloud paradigms can help to an extent with auto-scaling etc., but I feel there should still be a model for the expected Perf&#x2F;Capacity, given the selected SW+HW stack.<p>In the case of High Availability, I continully see teams running critical Prod services without clearly documenting the expected behaviour if an Instance, AZ&#x2F;Datacentre, Region or  an external dependency goes down.<p>All of these observations have been in highly regulated industries with significant tech budgets.<p>So HN:<p>Do you teams document these architectural designs?<p>Have I perhaps lost touch with modern practices?<p>How do you grow teams (or defend the design from Mgmt &#x2F; Auditors) if this information is held in peoples heads?<p>Appreciate your input and apologies as English is my second language.",
       "time": 1642644862,
@@ -89,16 +102,6 @@
       "title": "Understand Django: Go Fast with Django",
       "type": "story",
       "url": "https://www.mattlayman.com/understand-django/go-fast/"
-    },
-    {
-      "by": "PaulHoule",
-      "descendants": 0,
-      "id": 30003431,
-      "score": 2,
-      "time": 1642644404,
-      "title": "Fear of majority-minority changes perceptions of race",
-      "type": "story",
-      "url": "https://news.cornell.edu/stories/2022/01/fear-majority-minority-changes-perceptions-race"
     }
   ]
 }
