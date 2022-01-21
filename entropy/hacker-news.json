@@ -1,10 +1,21 @@
 {
   "stories": [
     {
+      "by": "abdusco",
+      "descendants": 0,
+      "id": 30030812,
+      "score": 1,
+      "text": "I keep needing a way to run long-running resource intensive tasks after one another. Normally, I&#x27;d write a script which loops over the items, but not knowing what needs to run (I pick files as I go through a folder), I knew it&#x27;s time I create something to scratch my own itch. So, I&#x27;ve created this utility to queue up commands.<p>It captures command, args, env and working directory and puts it in a queue, and runs it when it&#x27;s time. \nAt the same time, it spins up an RPC server to receive commands from other instances. If there&#x27;s no server available, it becomes a server itself and waits for commands or shuts itself down after idling for some time.<p>This is my first (published) Golang project, so guidance &amp; review would be appreciated.",
+      "time": 1642804302,
+      "title": "Show HN: qme: simple utility for queueing long-running commands",
+      "type": "story",
+      "url": "https://github.com/abdusco/qme"
+    },
+    {
       "by": "Multicomp",
       "descendants": 0,
       "id": 30030790,
-      "score": 1,
+      "score": 4,
       "time": 1642804139,
       "title": "I simulated being stuck in a 12 hour freezing traffic jam in an electic car",
       "type": "story",
@@ -14,7 +25,7 @@
       "by": "cure",
       "descendants": 0,
       "id": 30030770,
-      "score": 1,
+      "score": 2,
       "time": 1642804021,
       "title": "Systemd umounts manual mounts when it has a failed unit for that mount point",
       "type": "story",
@@ -32,8 +43,11 @@
     },
     {
       "by": "neom",
-      "descendants": 0,
+      "descendants": 1,
       "id": 30030753,
+      "kids": [
+        30030807
+      ],
       "score": 1,
       "time": 1642803878,
       "title": "Meat Loaf Explains His Most Misunderstood Lyric",
@@ -44,7 +58,7 @@
       "by": "erehweb",
       "descendants": 0,
       "id": 30030744,
-      "score": 1,
+      "score": 2,
       "time": 1642803837,
       "title": "How Much Are You Willing to Pay for a Burrito?",
       "type": "story",
@@ -89,16 +103,6 @@
       "title": "The debt problem with China’s high speed railways",
       "type": "story",
       "url": "https://www.youtube.com/watch?v=ITvXlax4ZXk"
-    },
-    {
-      "by": "type0",
-      "descendants": 0,
-      "id": 30030650,
-      "score": 3,
-      "time": 1642803249,
-      "title": "International flight turns around after passenger refuses to wear mask",
-      "type": "story",
-      "url": "https://abcnews.go.com/US/international-flight-turns-passenger-refuses-wear-mask-officials/story?id=82373501"
     }
   ]
 }
