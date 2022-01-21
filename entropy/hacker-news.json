@@ -1,6 +1,36 @@
 {
   "stories": [
     {
+      "by": "fricklers",
+      "descendants": 0,
+      "id": 30030613,
+      "score": 1,
+      "time": 1642803013,
+      "title": "Pmarca vs. Jack",
+      "type": "story",
+      "url": "https://twitter.com/pmarca/status/1484645949490094083/photo/1"
+    },
+    {
+      "by": "woranl",
+      "descendants": 0,
+      "id": 30030608,
+      "score": 1,
+      "time": 1642802991,
+      "title": "Google could face class action lawsuit over free G Suite legacy account shutdown",
+      "type": "story",
+      "url": "https://www.androidpolice.com/google-gsuite-free-legacy-class-action-investigation/"
+    },
+    {
+      "by": "estranhosidade",
+      "descendants": 0,
+      "id": 30030574,
+      "score": 1,
+      "time": 1642802753,
+      "title": "Brazil electoral court could ban Telegram app for not fighting fake news",
+      "type": "story",
+      "url": "https://www.reuters.com/technology/brazil-electoral-court-could-ban-telegram-app-not-fighting-fake-news-2022-01-20/"
+    },
+    {
       "by": "cgtyoder",
       "descendants": 0,
       "id": 30030570,
@@ -22,8 +52,11 @@
     },
     {
       "by": "indus",
-      "descendants": 0,
+      "descendants": 1,
       "id": 30030498,
+      "kids": [
+        30030599
+      ],
       "score": 2,
       "time": 1642802226,
       "title": "NYC Mayor Adams will convert his city paycheck to cryptocurrency via Coinbase",
@@ -54,7 +87,7 @@
       "by": "rowanajmarshall",
       "descendants": 0,
       "id": 30030454,
-      "score": 2,
+      "score": 4,
       "time": 1642801826,
       "title": "Thich Nhat Hanh, Vietnamese Zen Master, Dies at 95",
       "type": "story",
@@ -62,50 +95,16 @@
     },
     {
       "by": "DannyCasolaro",
-      "descendants": 1,
+      "descendants": 2,
       "id": 30030408,
       "kids": [
         30030546
       ],
-      "score": 3,
+      "score": 4,
       "time": 1642801533,
       "title": "Innate Immune Suppression by SARS-CoV-2 mRNA Vaccinations",
       "type": "story",
       "url": "https://www.researchgate.net/publication/357994624_Innate_Immune_Suppression_by_SARS-CoV-2_mRNA_Vaccinations_The_role_of_G-quadruplexes_exosomes_and_microRNAs"
-    },
-    {
-      "by": "l1am0",
-      "descendants": 0,
-      "id": 30030396,
-      "score": 2,
-      "text": "Buna draga,<p>traveling to another country, you might have faced it before: The anti-account-hijacking systems implemented by the various online providers. There is a wide range from entering your “secret” email address, double verifying via a code send to your cellphone number or if you are super-duper secure a two factor token from a time based OTP app.<p>This weeks paper evaluates the different methods used by Google to keep the hackers out of your account, regarding how effective they protect you and if they are influencing usability. (Google figured it is not a good idea to have a super secure system that valid users can’t pass anymore as well :D)<p>More of a field guide than super technical. On top, the paper gave me a few inspirations on how to design such a system myself.<p>Abstract:<p>In this paper, we study the efficacy of login challenges at preventing account takeover, as well as evaluate the amount of friction these challenges create for normal users. These secondary authentication factors—presently deployed at Google, Microsoft, and other major identity providers as part of risk-aware authentication—trigger in response to a suspicious login or account recovery attempt. Using Google as a case study, we evaluate the effectiveness of fourteen device-based, delegation-based, knowledge-based, and resource-based challenges at preventing over 350,000 real-world hijacking attempts stemming from automated bots, phishers, and targeted attackers. We show that knowledge-based challenges prevent as few as 10% of hijacking attempts rooted in phishing and 73% of automated hijacking attempts. Device-based challenges provide the best protection, blocking over 94% of hijacking attempts rooted in phishing and 100% of automated hijacking attempts. We evaluate the usability limitations of each challenge based on a sample of 1.2M legitimate users. Our results illustrate that login challenges act as an important barrier to hijacking, but that friction in the process leads to 52% of legitimate users failing to sign-in—though 97% of users eventually access their account in a short period.<p>Download Link:<p>https:&#x2F;&#x2F;storage.googleapis.com&#x2F;pub-tools-public-publication-data&#x2F;pdf&#x2F;ab2bedf04f6d4ff60c59b502809c2f151373de54.pdf [https:&#x2F;&#x2F;storage.googleapis.com&#x2F;pub-tools-public-publication-data&#x2F;pdf&#x2F;ab2bedf04f6d4ff60c59b502809c2f151373de54.pdf]<p>Read nice formated version via: https:&#x2F;&#x2F;simon-frey.com&#x2F;blog&#x2F;keeping-the-hackers-out-14-different-methods-to-prevent-account-hijacking&#x2F;",
-      "time": 1642801443,
-      "title": "Keeping the hackers out: 14 different methods to prevent account hijacking",
-      "type": "story"
-    },
-    {
-      "by": "davikrr",
-      "descendants": 1,
-      "id": 30030357,
-      "kids": [
-        30030523,
-        30030440
-      ],
-      "score": 3,
-      "time": 1642801228,
-      "title": "A Hardware Accelerator for Tracing Garbage Collection",
-      "type": "story",
-      "url": "https://ieeexplore.ieee.org/document/8416824"
-    },
-    {
-      "by": "dayofthedaleks",
-      "descendants": 0,
-      "id": 30030346,
-      "score": 1,
-      "time": 1642801190,
-      "title": "Soviet Military Maps of North America and UK",
-      "type": "story",
-      "url": "https://www.sovietmaps.com/node/2"
     }
   ]
 }
