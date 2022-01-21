@@ -1,6 +1,26 @@
 {
   "stories": [
     {
+      "by": "bane",
+      "descendants": 0,
+      "id": 30019465,
+      "score": 1,
+      "time": 1642742266,
+      "title": "IUMA (Internet Underground Music Archive) Collection",
+      "type": "story",
+      "url": "https://archive.org/details/iuma-archive"
+    },
+    {
+      "by": "caaqil",
+      "descendants": 0,
+      "id": 30019460,
+      "score": 1,
+      "time": 1642742240,
+      "title": "Intel plans $20B chip manufacturing site in Ohio – sources",
+      "type": "story",
+      "url": "https://www.reuters.com/technology/intel-plans-new-chip-manufacturing-site-ohio-report-2022-01-21/"
+    },
+    {
       "by": "CarrieLab",
       "descendants": 0,
       "id": 30019422,
@@ -45,12 +65,17 @@
     },
     {
       "by": "holigot",
-      "descendants": 0,
+      "descendants": 6,
       "id": 30019330,
       "kids": [
-        30019444
+        30019467,
+        30019477,
+        30019458,
+        30019455,
+        30019444,
+        30019479
       ],
-      "score": 10,
+      "score": 13,
       "text": "Hi,<p>I really like Fastmail. But as a privacy orientated company and mailprovider, why do you submit so much e-mail header information?<p>Your mail-header is really full with information not everyone else needs to have.<p>I just found out, that you&#x27;re stripping sender IP information when sending mails (in the past you had to choose an extra smtp &#x27;565&#x27; port for it).\nThat&#x27;s nice, as you internally know the IPs - but no one else (no receiver needs to know my sending IP!).<p>But why not also strip the X-Mailer entry AND \nalso delete information within the Mime Version entry?<p>No one needs to know the system I&#x27;m sending mails from - and also does not need to know which software version I&#x27;m running.<p>As it doesn&#x27;t have any impact on mail-delivery it would be a nice move from your side to protect user&#x27;s privacy a bit more as you already do.<p>Thx.",
       "time": 1642740833,
       "title": "Fastmail: As a privacy orientated company,why not strip more header information?",
@@ -88,30 +113,6 @@
       "title": "Crypto Is Eating the World",
       "type": "story",
       "url": "https://markets.businessinsider.com/news/currencies/andreessen-horowitz-4-5-billion-crypto-fund-a16z-investments-venture-2022-1"
-    },
-    {
-      "by": "alexmingoia",
-      "descendants": 0,
-      "id": 30019293,
-      "score": 2,
-      "time": 1642740496,
-      "title": "“It’s a bloodbath”: U.S. companies are pillaging Latin America’s tech talent",
-      "type": "story",
-      "url": "https://restofworld.org/2022/latin-america-startup-developer-scarcity/"
-    },
-    {
-      "by": "mostertoaster",
-      "descendants": 2,
-      "id": 30019291,
-      "kids": [
-        30019367,
-        30019303
-      ],
-      "score": 1,
-      "text": "For me, after HN, I just habitually have google news as my goto for news articles.<p>If they chose to sell it because of whatever reason, how much money would it cost to acquire?<p>It seems like a sure way to make money, if the news displayed was pay to show up, but if it is just an unbiased algorithm, then maybe it wouldn’t be so valuable?",
-      "time": 1642740457,
-      "title": "Ask HN: How valuable an asset is Google News?",
-      "type": "story"
     }
   ]
 }
