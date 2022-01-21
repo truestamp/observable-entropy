@@ -1,6 +1,26 @@
 {
   "stories": [
     {
+      "by": "cgtyoder",
+      "descendants": 0,
+      "id": 30030570,
+      "score": 1,
+      "time": 1642802701,
+      "title": "Apple Destroys Lightning",
+      "type": "story",
+      "url": "https://reneritchie.net/how-apple-destroys-lightning/"
+    },
+    {
+      "by": "dp-hackernews",
+      "descendants": 0,
+      "id": 30030569,
+      "score": 1,
+      "time": 1642802696,
+      "title": "OpenAPI.Tools",
+      "type": "story",
+      "url": "https://openapi.tools/"
+    },
+    {
       "by": "indus",
       "descendants": 0,
       "id": 30030498,
@@ -14,7 +34,7 @@
       "by": "amichail",
       "descendants": 0,
       "id": 30030469,
-      "score": 1,
+      "score": 2,
       "time": 1642801959,
       "title": "The Science of Slowing Down Aging",
       "type": "story",
@@ -42,8 +62,11 @@
     },
     {
       "by": "DannyCasolaro",
-      "descendants": 0,
+      "descendants": 1,
       "id": 30030408,
+      "kids": [
+        30030546
+      ],
       "score": 3,
       "time": 1642801533,
       "title": "Innate Immune Suppression by SARS-CoV-2 mRNA Vaccinations",
@@ -54,7 +77,7 @@
       "by": "l1am0",
       "descendants": 0,
       "id": 30030396,
-      "score": 1,
+      "score": 2,
       "text": "Buna draga,<p>traveling to another country, you might have faced it before: The anti-account-hijacking systems implemented by the various online providers. There is a wide range from entering your “secret” email address, double verifying via a code send to your cellphone number or if you are super-duper secure a two factor token from a time based OTP app.<p>This weeks paper evaluates the different methods used by Google to keep the hackers out of your account, regarding how effective they protect you and if they are influencing usability. (Google figured it is not a good idea to have a super secure system that valid users can’t pass anymore as well :D)<p>More of a field guide than super technical. On top, the paper gave me a few inspirations on how to design such a system myself.<p>Abstract:<p>In this paper, we study the efficacy of login challenges at preventing account takeover, as well as evaluate the amount of friction these challenges create for normal users. These secondary authentication factors—presently deployed at Google, Microsoft, and other major identity providers as part of risk-aware authentication—trigger in response to a suspicious login or account recovery attempt. Using Google as a case study, we evaluate the effectiveness of fourteen device-based, delegation-based, knowledge-based, and resource-based challenges at preventing over 350,000 real-world hijacking attempts stemming from automated bots, phishers, and targeted attackers. We show that knowledge-based challenges prevent as few as 10% of hijacking attempts rooted in phishing and 73% of automated hijacking attempts. Device-based challenges provide the best protection, blocking over 94% of hijacking attempts rooted in phishing and 100% of automated hijacking attempts. We evaluate the usability limitations of each challenge based on a sample of 1.2M legitimate users. Our results illustrate that login challenges act as an important barrier to hijacking, but that friction in the process leads to 52% of legitimate users failing to sign-in—though 97% of users eventually access their account in a short period.<p>Download Link:<p>https:&#x2F;&#x2F;storage.googleapis.com&#x2F;pub-tools-public-publication-data&#x2F;pdf&#x2F;ab2bedf04f6d4ff60c59b502809c2f151373de54.pdf [https:&#x2F;&#x2F;storage.googleapis.com&#x2F;pub-tools-public-publication-data&#x2F;pdf&#x2F;ab2bedf04f6d4ff60c59b502809c2f151373de54.pdf]<p>Read nice formated version via: https:&#x2F;&#x2F;simon-frey.com&#x2F;blog&#x2F;keeping-the-hackers-out-14-different-methods-to-prevent-account-hijacking&#x2F;",
       "time": 1642801443,
       "title": "Keeping the hackers out: 14 different methods to prevent account hijacking",
@@ -62,12 +85,13 @@
     },
     {
       "by": "davikrr",
-      "descendants": 0,
+      "descendants": 1,
       "id": 30030357,
       "kids": [
+        30030523,
         30030440
       ],
-      "score": 1,
+      "score": 3,
       "time": 1642801228,
       "title": "A Hardware Accelerator for Tracing Garbage Collection",
       "type": "story",
@@ -82,30 +106,6 @@
       "title": "Soviet Military Maps of North America and UK",
       "type": "story",
       "url": "https://www.sovietmaps.com/node/2"
-    },
-    {
-      "by": "bhartzer",
-      "descendants": 0,
-      "id": 30030306,
-      "score": 3,
-      "time": 1642800897,
-      "title": "A Thread About Wordle by Paul Haahr from Google",
-      "type": "story",
-      "url": "https://twitter.com/haahr/status/1484636427975475202"
-    },
-    {
-      "by": "zapstar",
-      "descendants": 2,
-      "id": 30030296,
-      "kids": [
-        30030386,
-        30030354
-      ],
-      "score": 4,
-      "text": "I’d love to read through a book on React, but I’m surprised at the poor reviews on Amazon. Perhaps I’m looking in the wrong place. Who can point me to a good one (that maybe isn’t sold from Amazon)?<p>Alternatively, why should I not be considering React? Is everybody using something else these days? Looking to build a front-end to interact with some REST APIs.",
-      "time": 1642800855,
-      "title": "Ask HN: Best (physical) book to learn React?",
-      "type": "story"
     }
   ]
 }
