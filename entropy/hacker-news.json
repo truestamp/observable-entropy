@@ -1,6 +1,26 @@
 {
   "stories": [
     {
+      "by": "perfunctory",
+      "descendants": 0,
+      "id": 30020473,
+      "score": 1,
+      "time": 1642751594,
+      "title": "Russian Central Bank Proposes Banning Crypto Mining, Trading",
+      "type": "story",
+      "url": "https://www.forbes.com/sites/lcarrel/2022/01/20/bank-of-russia-proposes-banning-mining-and-trading-of-cryptos/"
+    },
+    {
+      "by": "riwsky",
+      "descendants": 0,
+      "id": 30020466,
+      "score": 1,
+      "time": 1642751532,
+      "title": "Stepping down as the maintainer of Subtilevitatus",
+      "type": "story",
+      "url": "https://www.craft.do/s/jGKnYx4WquMXUn"
+    },
+    {
       "by": "EarthenSky",
       "descendants": 0,
       "id": 30020445,
@@ -12,8 +32,11 @@
     },
     {
       "by": "simonkafan",
-      "descendants": 0,
+      "descendants": 1,
       "id": 30020421,
+      "kids": [
+        30020468
+      ],
       "score": 1,
       "text": "This is not a rant rather than a serious question if I a) use the tool the wrong way or b) in case not, if it&#x27;s possible to change it.<p>Yesterday I searched for an article I read 2 or 3 days ago (this one: https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=30007856). I was 70% sure that the words &quot;home&quot; and &quot;network&quot; appeared in the post, so I searched in &quot;Stories&quot; in &quot;Past Week&quot; for these keywords and didn&#x27;t find it.<p>I had to switch to &quot;All&quot; and noticed that the search engine didn&#x27;t take the word &quot;networking&quot; into account which appeared in the title. I would argue that stemming and searching for root words is a basic feature of a modern search engine, if I type &quot;site:news.ycombinator.com home network&quot; into Google, I find the article without any problems.<p>So to sum up: What is the intention behind the way the search engine works? If I would type in &quot;home network&quot; in a full-text search engine, even that would give me the correct article but for some reason HN&#x27;s search engine is not capable of that.",
       "time": 1642751203,
@@ -44,7 +67,7 @@
       "by": "vanburen",
       "descendants": 0,
       "id": 30020401,
-      "score": 1,
+      "score": 2,
       "time": 1642750970,
       "title": "Intel is spending $20B to build a chip-making facility in Ohio",
       "type": "story",
@@ -79,29 +102,6 @@
       "title": "Snowflake Scripting",
       "type": "story",
       "url": "https://docs.snowflake.com/en/developer-guide/snowflake-scripting/"
-    },
-    {
-      "by": "wg0",
-      "descendants": 0,
-      "id": 30020288,
-      "score": 1,
-      "time": 1642749807,
-      "title": "Atlas – Terraform but for Database Migrations (golang)",
-      "type": "story",
-      "url": "https://atlasgo.io/"
-    },
-    {
-      "by": "riffraff",
-      "descendants": 1,
-      "id": 30020279,
-      "kids": [
-        30020438
-      ],
-      "score": 2,
-      "time": 1642749707,
-      "title": "EU Parliament bans targeted ads based on health, religion, sexual orientation",
-      "type": "story",
-      "url": "https://www.politico.eu/article/european-parliament-bans-use-of-sensitive-personal-data-for-targeted-ads/"
     }
   ]
 }
