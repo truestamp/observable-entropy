@@ -1,6 +1,66 @@
 {
   "stories": [
     {
+      "by": "pl0x",
+      "descendants": 0,
+      "id": 30033794,
+      "score": 1,
+      "time": 1642828098,
+      "title": "Cana secures $30m in funding for its beverage printer",
+      "type": "story",
+      "url": "https://techcrunch.com/2022/01/21/cana-technology-raises-glass-to-new-capital-as-it-readies-beverage-printer-for-market/"
+    },
+    {
+      "by": "houqp",
+      "descendants": 0,
+      "id": 30033774,
+      "score": 1,
+      "time": 1642827865,
+      "title": "How to efficiently load data to memory",
+      "type": "story",
+      "url": "https://jorgecarleitao.medium.com/how-to-efficiently-load-data-to-memory-d65ee359196c"
+    },
+    {
+      "by": "jkuria",
+      "descendants": 0,
+      "id": 30033724,
+      "score": 1,
+      "time": 1642827337,
+      "title": "AI2 releases demo of question-answering model it claims outperforms GPT-3",
+      "type": "story",
+      "url": "https://www.geekwire.com/2022/ai2-releases-demo-of-question-answering-model-it-claims-outperforms-gpt-3/"
+    },
+    {
+      "by": "l0b0",
+      "descendants": 0,
+      "id": 30033720,
+      "score": 1,
+      "time": 1642827296,
+      "title": "Consistent Fonts in Firefox",
+      "type": "story",
+      "url": "https://paperless.blog/consistent-fonts-in-firefox"
+    },
+    {
+      "by": "peatmonster",
+      "descendants": 0,
+      "id": 30033690,
+      "score": 3,
+      "text": "Windows Subsystem for Linux with CUDA support + TensorFlow<p>Let me save you many hours of pain and just give you the rundown.<p>* You <i>MUST</i> be on Windows 10 21H2. 21H2 cannot currently be updated to (yeah, it&#x27;s because they are pushing Windows 11) so you need to download it as an ISO + install with USB.<p>* Install the latest &quot;game ready driver&quot; for your card (you don&#x27;t need a special driver despite the nvidia documentation, I got mine here: https:&#x2F;&#x2F;www.nvidia.com&#x2F;Download&#x2F;index.aspx).<p>* In general you should ignore the nvidia documentation as they make it almost impossible to figure out what combination of cuda &amp; cudnn versions you need.<p>Steps to install:<p>1. Open CMD as administrator.<p>2. Run: wsl --install -d ubuntu<p>3. Open the Ubuntu WSL and enter the following commands:<p># Install CUDA<p>sudo apt-key adv --fetch-keys http:&#x2F;&#x2F;developer.download.nvidia.com&#x2F;compute&#x2F;cuda&#x2F;repos&#x2F;ubuntu1804&#x2F;x86_64&#x2F;7fa2af80.pub<p>sudo sh -c &#x27;echo &quot;deb http:&#x2F;&#x2F;developer.download.nvidia.com&#x2F;compute&#x2F;cuda&#x2F;repos&#x2F;ubuntu1804&#x2F;x86_64 &#x2F;&quot; &gt; &#x2F;etc&#x2F;apt&#x2F;sources.list.d&#x2F;cuda.list&#x27;<p>sudo apt-get update<p>sudo apt-get --yes install cuda-toolkit-11-2 cuda-toolkit-11-2<p>sudo sh -c &#x27;echo &quot;deb http:&#x2F;&#x2F;developer.download.nvidia.com&#x2F;compute&#x2F;machine-learning&#x2F;repos&#x2F;ubuntu1804&#x2F;x86_64 &#x2F;&quot; &gt; &#x2F;etc&#x2F;apt&#x2F;sources.list.d&#x2F;nvidia-machine-learning.list&#x27;<p>sudo apt-get update<p>sudo apt install cuda-11-2 libcudnn8 libcudnn8-dev<p>sudo apt install libnvinfer8 libnvinfer-dev libnvinfer-plugin8<p># Verify CUDA installation<p>cd &#x2F;usr&#x2F;local&#x2F;cuda-11.2&#x2F;samples&#x2F;4_Finance&#x2F;BlackScholes<p>sudo make<p>.&#x2F;BlackScholes<p># Install TensorFlow\npip3 install tensorflow-gpu<p>If you are reading this in the future I have some advice for you:<p>* Look at this page to get at least an idea of what combination of random versions of cuda and cudnn will work: https:&#x2F;&#x2F;www.tensorflow.org&#x2F;install&#x2F;source#gpu<p>* Use apt-cache search &lt;THING&gt; to see the possible versions, allowing you to <i>guess</i> what you need to install. Good luck.",
+      "time": 1642827005,
+      "title": "WSL with CUDA support",
+      "type": "story"
+    },
+    {
+      "by": "pabs3",
+      "descendants": 0,
+      "id": 30033689,
+      "score": 1,
+      "time": 1642827002,
+      "title": "Open Source Has a Funding Problem (2021)",
+      "type": "story",
+      "url": "https://stackoverflow.blog/2021/01/07/open-source-has-a-funding-problem/"
+    },
+    {
       "by": "GusRuss89",
       "descendants": 0,
       "id": 30033675,
@@ -24,6 +84,9 @@
       "by": "slategruen",
       "descendants": 0,
       "id": 30033645,
+      "kids": [
+        30033732
+      ],
       "score": 1,
       "time": 1642826563,
       "title": "Why a lot of programmers don't like using the IEC/SI standard for file sizes?",
@@ -38,66 +101,6 @@
       "title": "Cars Are Too Easy to Steal",
       "type": "story",
       "url": "https://www.wsj.com/articles/too-easy-to-steal-in-milwaukee-car-theft-kia-hyundai-city-council-11642720288"
-    },
-    {
-      "by": "rck",
-      "descendants": 0,
-      "id": 30033611,
-      "score": 1,
-      "time": 1642826173,
-      "title": "Practical Pigment Mixing for Digital Painting",
-      "type": "story",
-      "url": "https://scrtwpns.com/mixbox/"
-    },
-    {
-      "by": "atlasunshrugged",
-      "descendants": 0,
-      "id": 30033603,
-      "score": 1,
-      "time": 1642826042,
-      "title": "Twitter Rolled over to Get Unblocked in Nigeria",
-      "type": "story",
-      "url": "https://restofworld.org/2022/how-twitter-rolled-over-to-get-unblocked-in-nigeria/"
-    },
-    {
-      "by": "roeles",
-      "descendants": 0,
-      "id": 30033581,
-      "score": 1,
-      "time": 1642825861,
-      "title": "Thich Nhat Hanh: 'Father of mindfulness' Buddhist monk dies aged 95",
-      "type": "story",
-      "url": "https://www.bbc.com/news/world-asia-60092461"
-    },
-    {
-      "by": "tehnub",
-      "descendants": 0,
-      "id": 30033565,
-      "score": 1,
-      "time": 1642825752,
-      "title": "Biden Looks to Intel’s U.S. Investment to Buoy His China Agenda",
-      "type": "story",
-      "url": "https://www.nytimes.com/2022/01/21/us/politics/biden-intel-semiconductors-china.html"
-    },
-    {
-      "by": "lnyan",
-      "descendants": 0,
-      "id": 30033542,
-      "score": 1,
-      "time": 1642825566,
-      "title": "Sshfs-Win: Sshfs for Windows",
-      "type": "story",
-      "url": "https://github.com/billziss-gh/sshfs-win"
-    },
-    {
-      "by": "QuantumWasp",
-      "descendants": 0,
-      "id": 30033541,
-      "score": 1,
-      "time": 1642825563,
-      "title": "Canadian scientists may be on the verge of a reliable test for concussions",
-      "type": "story",
-      "url": "https://www.thestar.com/sports/2022/01/21/canadian-scientists-may-be-on-the-verge-of-a-reliable-test-for-concussions.html"
     }
   ]
 }
