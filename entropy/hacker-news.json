@@ -1,10 +1,20 @@
 {
   "stories": [
     {
+      "by": "_448",
+      "descendants": 0,
+      "id": 30033277,
+      "score": 1,
+      "text": "I am working on a side-project to learn web-development. The app is simple, with following features: account creation, creation of &quot;content&quot;(e.g. a blog post), commenting, reporting, up&#x2F;down voting, bookmarking and tagging. So during the development I thought what if I treat everything in the app as &quot;content&quot; and create hierarchy of the content, and then create every entity relation in the DB as many-to-many. Naturally, lot of tables were created in the DB. But that got me thinking, that this design opens up lots of interesting use-cases such as sub-accounts, group accounts, sub-posts, multi-commenting, multi-reporting, comment-threading, group-posting etc.<p>This was a very interesting exercise. I think there will be DB performance as well as storage size issues with this design. Not sure though, never tried anything like this in practice.",
+      "time": 1642823472,
+      "title": "Tell HN: I created a complex DB design as an experiment",
+      "type": "story"
+    },
+    {
       "by": "simonebrunozzi",
       "descendants": 0,
       "id": 30033233,
-      "score": 1,
+      "score": 2,
       "time": 1642823109,
       "title": "Using Atomic Transactions to Power an Idempotent API",
       "type": "story",
@@ -54,7 +64,7 @@
       "by": "colinprince",
       "descendants": 0,
       "id": 30033169,
-      "score": 1,
+      "score": 2,
       "time": 1642822598,
       "title": "Covid: Did Pfizer's boss cast doubt on his own vaccine?",
       "type": "story",
@@ -87,21 +97,11 @@
       "by": "prostoalex",
       "descendants": 0,
       "id": 30033063,
-      "score": 2,
+      "score": 3,
       "time": 1642821745,
       "title": "Belarusian Officials Charged with Aircraft Piracy in Diversion of Ryanair Flight",
       "type": "story",
       "url": "https://www.wsj.com/articles/belarusian-officials-charged-with-aircraft-piracy-for-diversion-of-ryanair-flight-11642723692"
-    },
-    {
-      "by": "terrycody",
-      "descendants": 0,
-      "id": 30033053,
-      "score": 1,
-      "time": 1642821681,
-      "title": "Video Games Already Do What the Metaverse Just Promises",
-      "type": "story",
-      "url": "https://www.wired.com/story/video-games-ahead-of-metaverse/"
     }
   ]
 }
