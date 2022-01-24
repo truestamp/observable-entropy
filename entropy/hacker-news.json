@@ -1,6 +1,36 @@
 {
   "stories": [
     {
+      "by": "vmayoral",
+      "descendants": 0,
+      "id": 30055122,
+      "score": 1,
+      "time": 1643015682,
+      "title": "How ROS 2 is easing hardware acceleration for robotics",
+      "type": "story",
+      "url": "https://www.linkedin.com/posts/vmayoral_how-ros-2-is-easing-hardware-acceleration-activity-6891304050202415104-hPUr"
+    },
+    {
+      "by": "happy-go-lucky",
+      "descendants": 0,
+      "id": 30055116,
+      "score": 1,
+      "time": 1643015628,
+      "title": "The jobseekers boosting their applications with video CVs",
+      "type": "story",
+      "url": "https://www.bbc.com/worklife/article/20220121-the-jobseekers-boosting-their-applications-with-video-cvs"
+    },
+    {
+      "by": "moks",
+      "descendants": 0,
+      "id": 30055115,
+      "score": 1,
+      "time": 1643015598,
+      "title": "The Gift of It's Your Problem Now(2021-12-29)",
+      "type": "story",
+      "url": "https://apenwarr.ca/log/"
+    },
+    {
       "by": "giuliomagnifico",
       "descendants": 1,
       "id": 30055062,
@@ -17,7 +47,7 @@
       "by": "dannyw",
       "descendants": 0,
       "id": 30055061,
-      "score": 1,
+      "score": 2,
       "time": 1643015086,
       "title": "Border Force asks to search your phone arriving in Australia – what can you do?",
       "type": "story",
@@ -72,43 +102,6 @@
       "title": "Zlib – a spiffy yet delicately unobtrusive compression library",
       "type": "story",
       "url": "https://github.com/madler/zlib"
-    },
-    {
-      "by": "dennis-tra",
-      "descendants": 0,
-      "id": 30055031,
-      "parts": [
-        30055032,
-        30055033,
-        30055034
-      ],
-      "score": 1,
-      "time": 1643014797,
-      "title": "Poll: What OS do you primarily develop on?",
-      "type": "poll"
-    },
-    {
-      "by": "_under_scores_",
-      "descendants": 0,
-      "id": 30055030,
-      "kids": [
-        30055083
-      ],
-      "score": 2,
-      "text": "I’ve been working from home for the past 18 months now and at present there’s no indication from my employer that I’ll be going back to full time work any time soon.<p>Before the pandemic I used to cycle to work and also practiced yoga at a studio close to my office which kept me feeling fit and active through the week. Since working from home though my weekly physical activity has gradually decreased - partly due to no longer needing to cycle to work and I’m no longer feeling so motivated by the yoga classes I’ve been following on YouTube compared to the routine I had with the physical studio. Cycling for me was also primarily transport so filling that gap with plain exercise has been a struggle.<p>Is anyone in a similar position that has made a new routine work for them?",
-      "time": 1643014782,
-      "title": "Ask HN: Staying fit whilst working from home?",
-      "type": "story"
-    },
-    {
-      "by": "asimpletune",
-      "descendants": 0,
-      "id": 30055020,
-      "score": 1,
-      "text": "Note: let&#x27;s just say that the normal way of doing things, I.e. through git porcelain, are not an option. \n<i>FWIW, yes, I&#x27;ve read the git internals documentation, and they were helpful but very brief. They explained blobs, trees, and working directories, but I think for me to figure out on my own how to do what I want to do I would have to read some of the code for how git porcelain is implemented, which is fine.</i><p><i>My question:</i><p>Let&#x27;s say I have a file that represents an array, where each element of the array is separated by a new line character. How would I append a new line to the end of that file, without actually editing the file directly? Just by creating a new blob, and associating that blob with a tree?<p>Then, imagine if the file began and ended with square brackets, so now to append to this &quot;array&quot; I need to insert at one line minus the end of the file (you can assume the brackets have a new line after&#x2F;before, respectively)<p>The bonus round is taking the same logic from above, but applying it to just arbitrary lines within a file. This isn&#x27;t so necessary for what I&#x27;m working on, but git obviously has a way of doing this, so I&#x27;d like to understand the general solution.<p><i>For context why I even want to do this:</i><p>I&#x27;d like to update a file that&#x27;s in a GH repo, without actually pulling the file to do it. GH has a low level API that&#x27;s basically an HTTP interface exposing many low-level GitHub operations. So, I&#x27;d like to just say &quot;add this line, to this file&quot;, without having to clone the repo or do a bunch of back and fourth over the network.",
-      "time": 1643014647,
-      "title": "Ask HN: In Git, how do you “insert” a blob at an arbitrary position in a tree?",
-      "type": "story"
     }
   ]
 }
