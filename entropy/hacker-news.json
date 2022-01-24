@@ -1,6 +1,66 @@
 {
   "stories": [
     {
+      "by": "dannyw",
+      "descendants": 0,
+      "id": 30055061,
+      "score": 1,
+      "time": 1643015086,
+      "title": "Border Force asks to search your phone arriving in Australia – what can you do?",
+      "type": "story",
+      "url": "https://www.abc.net.au/news/2022-01-24/can-border-force-search-your-phone-when-you-travel-to-australia/100774644"
+    },
+    {
+      "by": "Apocryphon",
+      "descendants": 0,
+      "id": 30055060,
+      "score": 1,
+      "time": 1643015071,
+      "title": "“The Other Impostor Syndrome”",
+      "type": "story",
+      "url": "https://www.additudemag.com/adult-adhd-diagnosis-impostor-syndrome/"
+    },
+    {
+      "by": "cinquemb",
+      "descendants": 0,
+      "id": 30055046,
+      "score": 1,
+      "time": 1643014917,
+      "title": "China's Big State-Owned Firms Begin New CSP for 2024",
+      "type": "story",
+      "url": "https://www.solarpaces.org/chinas-big-state-owned-firms-begin-new-csp-for-2024/"
+    },
+    {
+      "by": "rbanffy",
+      "descendants": 0,
+      "id": 30055042,
+      "score": 1,
+      "time": 1643014860,
+      "title": "The Wild World of Threats",
+      "type": "story",
+      "url": "https://nautil.us/the-wild-world-of-threats-13512/"
+    },
+    {
+      "by": "rbanffy",
+      "descendants": 0,
+      "id": 30055039,
+      "score": 1,
+      "time": 1643014853,
+      "title": "Plants Fight for Their Lives – Science Connected",
+      "type": "story",
+      "url": "https://nautil.us/plants-fight-for-their-lives-13506/"
+    },
+    {
+      "by": "maydemir",
+      "descendants": 0,
+      "id": 30055036,
+      "score": 1,
+      "time": 1643014827,
+      "title": "Zlib – a spiffy yet delicately unobtrusive compression library",
+      "type": "story",
+      "url": "https://github.com/madler/zlib"
+    },
+    {
       "by": "dennis-tra",
       "descendants": 0,
       "id": 30055031,
@@ -29,7 +89,7 @@
       "descendants": 0,
       "id": 30055020,
       "score": 1,
-      "text": "Note: let&#x27;s just say that the normal way of doing things, I.e. through git porcelain, are not an option.<p>Let&#x27;s say I have a file that represents an array, where each element of the array is separated by a new line character. How would I append a new line to the end of that file, without actually editing the file directly? Just by creating a new blob, and associating that blob with a tree?<p>Then, imagine if the file began and ended with square brackets, so now to append to this &quot;array&quot; I need to insert at one line minus the end of the file (you can assume the brackets have a new line after&#x2F;before, respectively)<p>For context why I even want to do this:<p>I&#x27;d like to update a file that&#x27;s in a GH repo, without actually pulling the file to do it. GH has a low level API that&#x27;s basically an HTTP interface exposing many low-level GitHub operations. So, I&#x27;d like to just say &quot;add this line, to this file&quot;, without having to clone the repo or do a bunch of back and fourth over the network.",
+      "text": "Note: let&#x27;s just say that the normal way of doing things, I.e. through git porcelain, are not an option. \n<i>FWIW, yes, I&#x27;ve read the git internals documentation, and they were helpful but very brief. They explained blobs, trees, and working directories, but I think for me to figure out on my own how to do what I want to do I would have to read some of the code for how git porcelain is implemented, which is fine.</i><p><i>My question:</i><p>Let&#x27;s say I have a file that represents an array, where each element of the array is separated by a new line character. How would I append a new line to the end of that file, without actually editing the file directly? Just by creating a new blob, and associating that blob with a tree?<p>Then, imagine if the file began and ended with square brackets, so now to append to this &quot;array&quot; I need to insert at one line minus the end of the file (you can assume the brackets have a new line after&#x2F;before, respectively)<p>The bonus round is taking the same logic from above, but applying it to just arbitrary lines within a file. This isn&#x27;t so necessary for what I&#x27;m working on, but git obviously has a way of doing this, so I&#x27;d like to understand the general solution.<p><i>For context why I even want to do this:</i><p>I&#x27;d like to update a file that&#x27;s in a GH repo, without actually pulling the file to do it. GH has a low level API that&#x27;s basically an HTTP interface exposing many low-level GitHub operations. So, I&#x27;d like to just say &quot;add this line, to this file&quot;, without having to clone the repo or do a bunch of back and fourth over the network.",
       "time": 1643014647,
       "title": "Ask HN: In Git, how do you “insert” a blob at an arbitrary position in a tree?",
       "type": "story"
@@ -43,72 +103,6 @@
       "title": "El Salvador's President Says the Country Is Buying the Bitcoin Dip",
       "type": "story",
       "url": "https://www.thestreet.com/investing/el-salvador-buys-the-dip-acquires-410-bitcoin"
-    },
-    {
-      "by": "todsacerdoti",
-      "descendants": 0,
-      "id": 30055003,
-      "score": 1,
-      "time": 1643014509,
-      "title": "Building Setf",
-      "type": "story",
-      "url": "https://blog.veitheller.de/Building_Setf.html"
-    },
-    {
-      "by": "WJW",
-      "descendants": 0,
-      "id": 30054962,
-      "kids": [
-        30054977
-      ],
-      "score": 3,
-      "time": 1643013993,
-      "title": "Faker.js guy wants unban from GitHub, claims it was a programming mistake",
-      "type": "story",
-      "url": "https://twitter.com/marak/status/1484185867027685376"
-    },
-    {
-      "by": "happy-go-lucky",
-      "descendants": 0,
-      "id": 30054949,
-      "score": 1,
-      "time": 1643013871,
-      "title": "The blind CEO’s £48m company which nearly didn’t happen",
-      "type": "story",
-      "url": "https://www.bbc.com/news/disability-59879753"
-    },
-    {
-      "by": "protontypes",
-      "descendants": 0,
-      "id": 30054937,
-      "kids": [
-        30054987
-      ],
-      "score": 1,
-      "time": 1643013740,
-      "title": "Short- and long-term water stress projections. Globally in near-real-time",
-      "type": "story",
-      "url": "https://www.oxfordeo.com/post/near-real-time-water-stress"
-    },
-    {
-      "by": "netgusto",
-      "descendants": 0,
-      "id": 30054927,
-      "score": 2,
-      "time": 1643013633,
-      "title": "In the 1800s, Jersey Island Was Covered With 12-Foot-Tall Kale",
-      "type": "story",
-      "url": "https://www.atlasobscura.com/articles/jersey-kale"
-    },
-    {
-      "by": "garrrikkotua",
-      "descendants": 0,
-      "id": 30054916,
-      "score": 2,
-      "time": 1643013557,
-      "title": "GitHub list of open-source alternatives to well-known SaaS products",
-      "type": "story",
-      "url": "https://github.com/RunaCapital/awesome-oss-alternatives"
     }
   ]
 }
