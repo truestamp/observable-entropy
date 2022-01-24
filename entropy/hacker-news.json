@@ -1,21 +1,64 @@
 {
   "stories": [
     {
+      "by": "doat",
+      "descendants": 0,
+      "id": 30057555,
+      "score": 3,
+      "time": 1643032415,
+      "title": "A meander through Martian minutes and the meaning of local time",
+      "type": "story",
+      "url": "https://interconnected.org/home/2022/01/18/sols"
+    },
+    {
+      "by": "NexRebular",
+      "descendants": 0,
+      "id": 30057549,
+      "score": 2,
+      "time": 1643032387,
+      "title": "Why we're migrating (many of) our servers from Linux to FreeBSD",
+      "type": "story",
+      "url": "https://it-notes.dragas.net/2022/01/24/why-were-migrating-many-of-our-servers-from-linux-to-freebsd/"
+    },
+    {
+      "by": "philk10",
+      "descendants": 0,
+      "id": 30057546,
+      "score": 1,
+      "time": 1643032375,
+      "title": "How to Challenge and Move Past Negative Self-Talk",
+      "type": "story",
+      "url": "https://spin.atomicobject.com/2022/01/23/negative-self-talk/"
+    },
+    {
+      "by": "TekMol",
+      "descendants": 0,
+      "id": 30057538,
+      "score": 1,
+      "text": "Say your website has many pages. For example because it has an endpoint like this:<p><pre><code>    &#x2F;show_color&#x2F;FF0000\n</code></pre>\nThis would be 16 million distinct urls. One for each color.<p>A human will only visit a hand full of these.<p>But some bots will visit them all.<p>So far, no problem. Because Google Analytics filters bots.<p>But it seems to miss the &quot;PetalBot&quot;. Which seems to be a bot Huawei uses for their search engine.<p>For me, 50% of my pageviews for the last month came from this bot. And there is no way to figure that out on Google Analytics. On Google Analytics it looks like normal traffic. This completely messed my interpretation of what people are doing on my website.<p>Being confused why so many people used certain pages, I logged the requests on the CDN. Only then I was able to figure out that these are not people.<p>Not sure if it is unique to this bot that it loads the analytics script?<p>For now, I block the bot. But I am not happy about it. I am all for more search engines. But completely messed up analytics is nothing I can cope with.",
+      "time": 1643032325,
+      "title": "Tell HN: If your website has many pages, your Google Analytics are skewed",
+      "type": "story"
+    },
+    {
       "by": "idealvin",
       "descendants": 0,
       "id": 30057477,
       "score": 1,
       "time": 1643031870,
-      "title": "Resolved an issue in gflags which has been opened for about 7 years",
+      "title": "Resolved an issue(flag alias) in gflags which has been opened for about 7 years",
       "type": "story",
       "url": "https://old.reddit.com/r/cpp/comments/sbmfzw/resolved_an_issue_in_gflags_which_has_been_opened/"
     },
     {
       "by": "xvello",
-      "descendants": 0,
+      "descendants": 1,
       "id": 30057442,
-      "score": 4,
-      "text": "uBlock Origin is more than an ad-blocker, it&#x27;s a general purpose content filter that can be leveraged to hide low-quality content from pages you browse. While the main filter lists can remove mailing list popups and obvious nags, the definition of low-quality content is personal, so one size cannot fit all.<p>I used to have an ad-hoc script to render and publish a personal uBlock Origin filter list, added to all my browsers. The goal of this project is to enable more people to build such a list custom list to filter out low-quality content and nags. Chose from a list of community-maintained templates, set your options, add your custom rules, and get your personal filter list.<p>The project is still pretty young and needs more filter templates, and some frontend improvements (my previous frontend project was in 2005, this is not my forte). Any feedback is welcome!",
+      "kids": [
+        30057566
+      ],
+      "score": 5,
+      "text": "uBlock Origin is more than an ad-blocker, it&#x27;s a general purpose content filter that can be leveraged to hide low-quality content from pages you browse. While the main filter lists can remove mailing list popups and obvious nags, the definition of low-quality content is personal, so one size cannot fit all.<p>I used to have an ad-hoc script to render and publish a personal uBlock Origin filter list, added to all my browsers. The goal of this project is to enable more people to build such a list custom list to filter out low-quality content and nags. Chose from a list of community-maintained templates, set your options, add your custom rules, and get your personal filter list.<p>The project is still pretty young and needs more filter templates, and lots of frontend improvements (my last web project was in 2005, this is not my forte). Any feedback is welcome!",
       "time": 1643031675,
       "title": "Show HN: Let's Block It – Custom uBlock Origin Filters Made Easy",
       "type": "story",
@@ -25,7 +68,7 @@
       "by": "trifit",
       "descendants": 0,
       "id": 30057439,
-      "score": 2,
+      "score": 3,
       "time": 1643031666,
       "title": "Did the FAA cry wolf on 5G?",
       "type": "story",
@@ -55,51 +98,11 @@
       "by": "TangerineDream",
       "descendants": 0,
       "id": 30057409,
-      "score": 2,
+      "score": 3,
       "time": 1643031549,
       "title": "$130B wiped off crypto markets in 24 hours",
       "type": "story",
       "url": "https://www.cnbc.com/2022/01/24/bitcoin-ether-fall-as-130-billion-wiped-off-cryptocurrency-markets-.html"
-    },
-    {
-      "by": "rbellon",
-      "descendants": 0,
-      "id": 30057408,
-      "score": 1,
-      "time": 1643031542,
-      "title": "A Step by Step Guide on How to Download a CSV File Using Angular",
-      "type": "story",
-      "url": "https://merlino.agency/blog/a-step-by-step-guide-on-how-to-download-a-csv-file-using-angular"
-    },
-    {
-      "by": "ArtWomb",
-      "descendants": 0,
-      "id": 30057405,
-      "score": 1,
-      "time": 1643031527,
-      "title": "Molstar: Web-based toolkit for visualisation of large-scale molecular data",
-      "type": "story",
-      "url": "https://molstar.org/"
-    },
-    {
-      "by": "todsacerdoti",
-      "descendants": 0,
-      "id": 30057377,
-      "score": 1,
-      "time": 1643031320,
-      "title": "Destroy All Values: Designing Deinitialization in Programming Languages",
-      "type": "story",
-      "url": "https://gankra.github.io/blah/deinitialize-me-maybe/"
-    },
-    {
-      "by": "jasonshen",
-      "descendants": 0,
-      "id": 30057371,
-      "score": 4,
-      "time": 1643031277,
-      "title": "The Ghost Galop: a song about navigating the hellscape of open-source software",
-      "type": "story",
-      "url": "https://www.youtube.com/watch?v=cn22xJezOSw"
     }
   ]
 }
