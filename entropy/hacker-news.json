@@ -1,6 +1,60 @@
 {
   "stories": [
     {
+      "by": "dennis-tra",
+      "descendants": 0,
+      "id": 30055031,
+      "parts": [
+        30055032,
+        30055033,
+        30055034
+      ],
+      "score": 1,
+      "time": 1643014797,
+      "title": "Poll: What OS do you primarily develop on?",
+      "type": "poll"
+    },
+    {
+      "by": "_under_scores_",
+      "descendants": 0,
+      "id": 30055030,
+      "score": 1,
+      "text": "I’ve been working from home for the past 18 months now and at present there’s no indication from my employer that I’ll be going back to full time work any time soon.<p>Before the pandemic I used to cycle to work and also practiced yoga at a studio close to my office which kept me feeling fit and active through the week. Since working from home though my weekly physical activity has gradually decreased - partly due to no longer needing to cycle to work and I’m no longer feeling so motivated by the yoga classes I’ve been following on YouTube compared to the routine I had with the physical studio. Cycling for me was also primarily transport so filling that gap with plain exercise has been a struggle.<p>Is anyone in a similar position that has made a new routine work for them?",
+      "time": 1643014782,
+      "title": "Ask HN: Staying fit whilst working from home?",
+      "type": "story"
+    },
+    {
+      "by": "asimpletune",
+      "descendants": 0,
+      "id": 30055020,
+      "score": 1,
+      "text": "Note: let&#x27;s just say that the normal way of doing things, I.e. through git porcelain, are not an option.<p>Let&#x27;s say I have a file that represents an array, where each element of the array is separated by a new line character. How would I append a new line to the end of that file, without actually editing the file directly? Just by creating a new blob, and associating that blob with a tree?<p>Then, imagine if the file began and ended with square brackets, so now to append to this &quot;array&quot; I need to insert at one line minus the end of the file (you can assume the brackets have a new line after&#x2F;before, respectively)<p>For context why I even want to do this:<p>I&#x27;d like to update a file that&#x27;s in a GH repo, without actually pulling the file to do it. GH has a low level API that&#x27;s basically an HTTP interface exposing many low-level GitHub operations. So, I&#x27;d like to just say &quot;add this line, to this file&quot;, without having to clone the repo or do a bunch of back and fourth over the network.",
+      "time": 1643014647,
+      "title": "Ask HN: In Git, how do you “insert” a blob at an arbitrary position in a tree?",
+      "type": "story"
+    },
+    {
+      "by": "belter",
+      "descendants": 0,
+      "id": 30055014,
+      "score": 1,
+      "time": 1643014570,
+      "title": "El Salvador's President Says the Country Is Buying the Bitcoin Dip",
+      "type": "story",
+      "url": "https://www.thestreet.com/investing/el-salvador-buys-the-dip-acquires-410-bitcoin"
+    },
+    {
+      "by": "todsacerdoti",
+      "descendants": 0,
+      "id": 30055003,
+      "score": 1,
+      "time": 1643014509,
+      "title": "Building Setf",
+      "type": "story",
+      "url": "https://blog.veitheller.de/Building_Setf.html"
+    },
+    {
       "by": "WJW",
       "descendants": 0,
       "id": 30054962,
@@ -55,56 +109,6 @@
       "title": "GitHub list of open-source alternatives to well-known SaaS products",
       "type": "story",
       "url": "https://github.com/RunaCapital/awesome-oss-alternatives"
-    },
-    {
-      "by": "Liriel",
-      "descendants": 0,
-      "id": 30054910,
-      "score": 1,
-      "time": 1643013471,
-      "title": "Top WebSocket libraries for Node.js in 2022",
-      "type": "story",
-      "url": "https://blog.logrocket.com/top-websocket-libraries-nodejs-2022/"
-    },
-    {
-      "by": "techjolt",
-      "descendants": 0,
-      "id": 30054905,
-      "score": 1,
-      "text": "Over 40 WordPress themes and 53 plugins have been found to be infected with backdoor shells, by unknown hackers exploiting several sites to gain admin access.",
-      "time": 1643013411,
-      "title": "Backdoors discovered in 40 WordPress Themes and 53 Plugins",
-      "type": "story"
-    },
-    {
-      "by": "polskibus",
-      "descendants": 0,
-      "id": 30054880,
-      "score": 1,
-      "time": 1643013225,
-      "title": "Comparing Kubernetes Security Frameworks and Guidance",
-      "type": "story",
-      "url": "https://www.armosec.io/blog/kubernetes-security-frameworks-and-guidance/"
-    },
-    {
-      "by": "kiyanwang",
-      "descendants": 0,
-      "id": 30054869,
-      "score": 1,
-      "time": 1643013113,
-      "title": "Long-Running Requests",
-      "type": "story",
-      "url": "https://www.honeycomb.io/blog/ask-miss-o11y-long-running-requests/"
-    },
-    {
-      "by": "blomqma",
-      "descendants": 0,
-      "id": 30054862,
-      "score": 1,
-      "time": 1643012979,
-      "title": "Apilytics API",
-      "type": "story",
-      "url": "https://www.apilytics.io/blog/announcing-apilytics-api"
     }
   ]
 }
