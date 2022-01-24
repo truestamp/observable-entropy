@@ -1,10 +1,50 @@
 {
   "stories": [
     {
+      "by": "ColinWright",
+      "descendants": 0,
+      "id": 30057603,
+      "score": 1,
+      "time": 1643032776,
+      "title": "Functional Programming Languages and the Pursuit of Laziness",
+      "type": "story",
+      "url": "https://www.microsoft.com/en-us/research/podcast/functional-programming-languages-pursuit-laziness-dr-simon-peyton-jones/"
+    },
+    {
+      "by": "ahelwer",
+      "descendants": 0,
+      "id": 30057594,
+      "score": 1,
+      "time": 1643032677,
+      "title": "Regexes in the Z3 Theorem Prover: Analyzing Teleport RBAC",
+      "type": "story",
+      "url": "https://ahelwer.ca/post/2022-01-19-z3-rbac/"
+    },
+    {
+      "by": "the-dude",
+      "descendants": 0,
+      "id": 30057588,
+      "score": 1,
+      "time": 1643032593,
+      "title": "Dutch watchdog fines Apple 5M euros for failure to comply on app store",
+      "type": "story",
+      "url": "https://uk.finance.yahoo.com/news/dutch-watchdog-fines-apple-5-134647798.html"
+    },
+    {
+      "by": "EvgeniyZh",
+      "descendants": 0,
+      "id": 30057582,
+      "score": 2,
+      "time": 1643032564,
+      "title": "A surprisingly hard CS problem: sums of square roots",
+      "type": "story",
+      "url": "https://shlegeris.com/2018/10/23/sqrt.html"
+    },
+    {
       "by": "doat",
       "descendants": 0,
       "id": 30057555,
-      "score": 3,
+      "score": 4,
       "time": 1643032415,
       "title": "A meander through Martian minutes and the meaning of local time",
       "type": "story",
@@ -35,7 +75,7 @@
       "descendants": 0,
       "id": 30057538,
       "score": 1,
-      "text": "Say your website has many pages. For example because it has an endpoint like this:<p><pre><code>    &#x2F;show_color&#x2F;FF0000\n</code></pre>\nThis would be 16 million distinct urls. One for each color.<p>A human will only visit a hand full of these.<p>But some bots will visit them all.<p>So far, no problem. Because Google Analytics filters bots.<p>But it seems to miss the &quot;PetalBot&quot;. Which seems to be a bot Huawei uses for their search engine.<p>For me, 50% of my pageviews for the last month came from this bot. And there is no way to figure that out on Google Analytics. On Google Analytics it looks like normal traffic. This completely messed my interpretation of what people are doing on my website.<p>Being confused why so many people used certain pages, I logged the requests on the CDN. Only then I was able to figure out that these are not people.<p>Not sure if it is unique to this bot that it loads the analytics script?<p>For now, I block the bot. But I am not happy about it. I am all for more search engines. But completely messed up analytics is nothing I can cope with.",
+      "text": "Say your website has many pages. For example because it has an endpoint like this:<p><pre><code>    &#x2F;show_color&#x2F;FF0000\n</code></pre>\nThis would be 16 million distinct urls. One for each color.<p>A human will only visit a hand full of these.<p>But some bots will visit them all.<p>So far, no problem. Because Google Analytics filters bots.<p>But it seems to miss the &quot;PetalBot&quot;. Which seems to be a bot Huawei uses for their search engine.<p>For me, 50% of my pageviews for the last month came from this bot. And there is no way to figure that out on Google Analytics. On Google Analytics it looks like normal traffic. This completely messed my interpretation of what people are doing on my website.<p>Being confused why so many people used certain pages, I logged the requests on the CDN. Only then I was able to figure out that these are not people.<p>Not sure if it is unique to this bot that it loads and executes the analytics script?<p>For now, I block the bot. But I am not happy about it. I am all for more search engines. But completely messed up analytics is nothing I can cope with.",
       "time": 1643032325,
       "title": "Tell HN: If your website has many pages, your Google Analytics are skewed",
       "type": "story"
@@ -63,46 +103,6 @@
       "title": "Show HN: Let's Block It – Custom uBlock Origin Filters Made Easy",
       "type": "story",
       "url": "https://letsblock.it/"
-    },
-    {
-      "by": "trifit",
-      "descendants": 0,
-      "id": 30057439,
-      "score": 3,
-      "time": 1643031666,
-      "title": "Did the FAA cry wolf on 5G?",
-      "type": "story",
-      "url": "https://www.brookings.edu/blog/techtank/2022/01/21/did-the-faa-cry-wolf-on-5g/"
-    },
-    {
-      "by": "tomiwa1a",
-      "descendants": 0,
-      "id": 30057437,
-      "score": 2,
-      "text": "The title sounds curt due to character restrictions, so some more context might be helpful:<p>I&#x27;m interested in hearing the stories of people who had the opportunity to work for companies that are well known before they became well known (and it was less obvious they would become well known).<p>You decided not to take the opportunity. What was your reason?",
-      "time": 1643031660,
-      "title": "Ask HN: You declined a well known company before it was well known. Why?",
-      "type": "story"
-    },
-    {
-      "by": "type0",
-      "descendants": 0,
-      "id": 30057422,
-      "score": 3,
-      "time": 1643031603,
-      "title": "Meta Sues for Data Scraping; Claim: Banned Users Creating New Accounts = Hacking",
-      "type": "story",
-      "url": "https://www.techdirt.com/articles/20211231/23340048211/meta-sues-firm-data-scraping-claims-that-signing-up-new-accounts-after-being-banned-is-equivalent-hacking.shtml"
-    },
-    {
-      "by": "TangerineDream",
-      "descendants": 0,
-      "id": 30057409,
-      "score": 3,
-      "time": 1643031549,
-      "title": "$130B wiped off crypto markets in 24 hours",
-      "type": "story",
-      "url": "https://www.cnbc.com/2022/01/24/bitcoin-ether-fall-as-130-billion-wiped-off-cryptocurrency-markets-.html"
     }
   ]
 }
