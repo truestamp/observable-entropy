@@ -1,10 +1,40 @@
 {
   "stories": [
     {
+      "by": "giuliomagnifico",
+      "descendants": 0,
+      "id": 30070780,
+      "score": 1,
+      "time": 1643111400,
+      "title": "TikTok Japan pays influencers, without informing viewers, to spread tweet videos",
+      "type": "story",
+      "url": "https://nordot.app/858197663651987456"
+    },
+    {
+      "by": "lloyd678",
+      "descendants": 0,
+      "id": 30070760,
+      "score": 1,
+      "time": 1643111223,
+      "title": "Bee bricks become planning requirement for new buildings in Brighton",
+      "type": "story",
+      "url": "https://www.dezeen.com/2022/01/24/bee-bricks-planning-requirement-brighton/"
+    },
+    {
+      "by": "hasheddan",
+      "descendants": 0,
+      "id": 30070757,
+      "score": 1,
+      "time": 1643111178,
+      "title": "Chesterton’s Fence",
+      "type": "story",
+      "url": "https://fs.blog/chestertons-fence/"
+    },
+    {
       "by": "0xedb",
       "descendants": 0,
       "id": 30070706,
-      "score": 1,
+      "score": 2,
       "time": 1643110669,
       "title": "Bataclan survivor finds NFT of her X-ray for sale online",
       "type": "story",
@@ -72,36 +102,6 @@
       "title": "Reusable scramjet launch system to pave way for hypersonic airliners",
       "type": "story",
       "url": "https://newatlas.com/space/hypersonic-delta-velos-hydrogen-powered-scramjet-satellite-launch-system/"
-    },
-    {
-      "by": "JZN666",
-      "descendants": 0,
-      "id": 30070653,
-      "score": 1,
-      "text": "My opinion about this constantly changes through my programming experience. Functions longer than 20 lines of code? Pffff, an algorithm&#x2F;problem can be such complex in nutshell and decomposing a function solving it will be non-relevant (see any std library of PL). Mutable global state? Pfff, anything in software is based on that, the problem is using it properly in target architecture (ex. in micro-controllers global state usually manages analog&#x2F;digital output, calling a function for this adds memory and time overhead especially in real-time systems). Copy-paste? Pfff, similar code != this code solves the same problem, sometimes it&#x27;s easier to include a change in &quot;copy-paste&quot; code than deciding how to include this in boundaries of &quot;reusable&quot; parts (ex. for the first time there&#x27;re two structures X = (A, B) and Y = (A, B) with similar logic but different domains, and then manager decides to include specific logic for Y working with B data).<p>Now my general principle which distinguishes &quot;good&quot; code from &quot;bad&quot; one, is how good it resembles a model solving given problem. It can be a non-neccessary complexity of code (ex. instead of &quot;if (isFinite(a)) { ... }&quot; writing &quot;if (a.toString() != &quot;Inifinity&quot; &amp;&amp; a.toString() != &quot;NaN&quot;) { ... }&quot; when &quot;a&quot; is simply a number). And contrary not-enough complexity of code, relying on blind faith (famous XSS vulnerabilities, SQL injections in web apps are examples of that).",
-      "time": 1643110226,
-      "title": "Ask HN: What do you consider as “bad” code?",
-      "type": "story"
-    },
-    {
-      "by": "blopeur",
-      "descendants": 0,
-      "id": 30070652,
-      "score": 1,
-      "time": 1643110216,
-      "title": "Hermes – Atomated workflows for publishing research software",
-      "type": "story",
-      "url": "http://software-metadata.pub/"
-    },
-    {
-      "by": "nvegater",
-      "descendants": 0,
-      "id": 30070643,
-      "score": 1,
-      "time": 1643110129,
-      "title": "How big tech reshapes governance",
-      "type": "story",
-      "url": "https://consilienceproject.org/how-big-tech-is-reshaping-governance/"
     }
   ]
 }
