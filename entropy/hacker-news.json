@@ -1,105 +1,109 @@
 {
   "stories": [
     {
-      "by": "benlaval",
+      "by": "fikrikadim",
       "descendants": 0,
+      "id": 30072288,
+      "score": 1,
+      "time": 1643121888,
+      "title": "No more browser cookies Here’s Google’s new plan",
+      "type": "story",
+      "url": "https://www.technoscience.fikrikadim.com/2022/01/25/no-more-browser-cookies-heres-googles-new-plan/"
+    },
+    {
+      "by": "pseudolus",
+      "descendants": 0,
+      "id": 30072270,
+      "score": 1,
+      "time": 1643121802,
+      "title": "Vaccines are a tool, not a silver bullet. We would have realized this earlier",
+      "type": "story",
+      "url": "https://www.theglobeandmail.com/opinion/article-vaccines-are-a-tool-not-a-silver-bullet-if-wed-allowed-more-scientific/"
+    },
+    {
+      "by": "tnorthcutt",
+      "descendants": 0,
+      "id": 30072266,
+      "score": 1,
+      "time": 1643121773,
+      "title": "Senate committee votes to advance major tech antitrust bill",
+      "type": "story",
+      "url": "https://www.cnbc.com/2022/01/20/senate-committee-votes-to-advance-major-tech-antitrust-bill.html"
+    },
+    {
+      "by": "tannhaeuser",
+      "descendants": 0,
+      "id": 30072258,
+      "score": 1,
+      "time": 1643121695,
+      "title": "Website Performance and the Planet",
+      "type": "story",
+      "url": "https://blog.webpagetest.org/posts/website-performance-and-the-planet/"
+    },
+    {
+      "by": "amyjess",
+      "descendants": 0,
+      "id": 30072257,
+      "score": 1,
+      "time": 1643121685,
+      "title": "Couple made nearly $120k in under 6 hours selling NFTs to save their home",
+      "type": "story",
+      "url": "https://www.cnbc.com/2022/01/24/couple-earned-nearly-120000-dollars-in-6-hours-selling-nfts.html"
+    },
+    {
+      "by": "haunter",
+      "descendants": 0,
+      "id": 30072256,
+      "score": 1,
+      "time": 1643121682,
+      "title": "Vulkan 1.3",
+      "type": "story",
+      "url": "https://www.khronos.org/news/press/vulkan-reduces-fragmentation-and-provides-roadmap-visibility-for-developers"
+    },
+    {
+      "by": "ryan_j_naughton",
+      "descendants": 0,
+      "id": 30072255,
+      "score": 1,
+      "time": 1643121682,
+      "title": "How A Rare Brain Mutation Spread Across America",
+      "type": "story",
+      "url": "https://www.theatlantic.com/science/archive/2022/01/brain-bleed-genetic-mutation-ccm2-deletion/621336/"
+    },
+    {
+      "by": "nicbou",
+      "descendants": 0,
+      "id": 30072253,
+      "score": 1,
+      "time": 1643121659,
+      "title": "Show HN: A tool to help with Berlin's appointment problems",
+      "type": "story",
+      "url": "https://allaboutberlin.com/appointments"
+    },
+    {
+      "by": "aruntdharan",
+      "descendants": 0,
+      "id": 30072244,
+      "score": 4,
+      "text": "Hi HN, We&#x27;re Arun, Manish, Abhilash and Franklin from Castled Data (<a href=\"https:&#x2F;&#x2F;castled.io\" rel=\"nofollow\">https:&#x2F;&#x2F;castled.io</a>). Castled is an open source reverse ETL solution. It helps you to periodically sync the data in your database&#x2F;warehouse (Snowflake, BigQuery, Redshift, etc.) into sales, marketing, or support apps (Salesforce, Hubspot, Intercom etc.), or custom software, without needing an engineering team. Here’s a demo video: <a href=\"https:&#x2F;&#x2F;www.loom.com&#x2F;share&#x2F;71bf33acbb4a41cab7c96a3460a84e5f\" rel=\"nofollow\">https:&#x2F;&#x2F;www.loom.com&#x2F;share&#x2F;71bf33acbb4a41cab7c96a3460a84e5f</a>.<p>On an average, mid-scale organizations use around 40 SaaS apps. These are powerful in functionality, but limited by the quality of the product&#x2F;customer data which is fed into them. The data getting synced into these tools is often incomplete, suffers from quality issues, and requires unreliable and manual imports (e.g. from CSV).<p>Manish and I were founding engineers at Hevodata, an ETL company, when it went from 5 customers to around 300 customers. We started seeing the trend of more and more customers wanting to move the data out of their cloud data warehouse to feed their business tools. We built a prototype to solve this for our users, but when we went deep into their use cases, we found that there were a lot of unsolved problems in this space. We also realized that activating warehouse data reliably for operational purposes was emerging as the next big trend for data-driven companies.<p>We did some research and came across Census&#x2F;Hightouch, which were early-stage Reverse ETL cloud solutions at the time. But from our previous experience working in the ETL space, we believed that any data pipeline solution needs to be open source to cover the long list of connectors that needs to be built. So we set out to build our open source Reverse ETL solution.<p>With Castled, companies can create automated data pipelines to periodically sync the output of a warehouse transformation query or dbt models(on the works) to their sales, marketing, support and notification tools. We fetch only the incremental results by default on every pipeline run, which makes sure that rate limits and other constraints of the destination APIs are not breached. Our users can also set a time schedule to define the frequency of the pipeline run.<p>The technical challenges in building such a tool include: doing CDC (Change Data Capture) from data warehouses which do not provide a typical write ahead log; handling rate limits on destination APIs; handling deduplication of records on destination objects; failure handling and automatic retries. But the biggest challenge is the sheer number of destination app integrations that need to be supported—we are talking about tens of thousands of connectors.<p>Our major differentiator from Census&#x2F;Hightouch is that we are open source. Our users can host Castled in their own private cloud and start operationalizing their data for free. We’ve observed that initially customers are inclined towards buying a cloud solution for their data integration needs. But once they scale up, they realize that their cloud vendor is unable to cope with the increasing number of apps getting used in the organization. They soon start building in-house data pipeline solutions or look for an open-source solution to solve their problems. Being open source, we provide the flexibility for our customers to build their own connectors rather than waiting for cloud vendors to fulfill their connector requests.<p>Compared with open-source alternatives (e.g. Grouparoo), we have built Castled in such a way that our community can build new connectors in a few hours. One example of this is our Castled Form Language (CFL), which helps our users auto generate extremely complex forms on the UI by writing a few Java annotations on the backend. This removes the need for a UI developer to build a new connector.<p>We have our Github repo here : <a href=\"https:&#x2F;&#x2F;github.com&#x2F;castledio&#x2F;castled\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;castledio&#x2F;castled</a>. You can spin up the application on your desktop in a few minutes. In case you want a hosted solution, we also have our cloud platform hosted at <a href=\"https:&#x2F;&#x2F;castled.io\" rel=\"nofollow\">https:&#x2F;&#x2F;castled.io</a>. We have a subscription based hosted cloud solution, which provides more security features like single sign on, authentication, user management, notification, alerts, etc.  you can sign up for and try out the product for free, no credit card required.<p>This is the first time we are trying to build an open-source community around a project and we&#x27;re excited to hear any thoughts, insights, questions, encouragement and concerns in the comments below! Also we will be monitoring the thread over the course of today to answer any questions. Also feel free to reach out to me by email at arun@castled.io",
+      "time": 1643121621,
+      "title": "Launch HN: Castled Data (YC W22) – Open-Source Reverse ETL",
+      "type": "story",
+      "url": "https://github.com/castledio/castled"
+    },
+    {
+      "by": "benlaval",
+      "descendants": 1,
       "id": 30072222,
+      "kids": [
+        30072243
+      ],
       "score": 1,
       "text": "Hey I am Ben and I have built a slack app for scrum poker (slack.thisiseffort.io).<p>You can anonymously vote on software development tasks within slack, it is used by a few remote software developments teams currently and I am keen for more feedback.<p>It is very easy to start a voting session using the &#x2F;effort command, followed by the title of your task. This then invites everyone in the channel to start voting anonymously, ensuring that no one influences anyone else.<p>Really keen for more feedback and it is also free to use!<p>Enjoy.<p>Ben",
       "time": 1643121518,
       "title": "Show HN: Slack App for Scrum Poker",
       "type": "story",
       "url": "https://slack.thisiseffort.io/"
-    },
-    {
-      "by": "jrepinc",
-      "descendants": 0,
-      "id": 30072196,
-      "score": 1,
-      "time": 1643121369,
-      "title": "Vulkan 1.3 and Roadmap 2022",
-      "type": "story",
-      "url": "https://www.khronos.org/blog/vulkan-1.3-and-roadmap-2022"
-    },
-    {
-      "by": "Tomte",
-      "descendants": 0,
-      "id": 30072192,
-      "score": 1,
-      "time": 1643121359,
-      "title": "Prince Charles: Small farms have a role to play in our sustainable future",
-      "type": "story",
-      "url": "https://www.theguardian.com/commentisfree/2021/may/23/small-farms-huge-role-sustainable-future-prince-charles"
-    },
-    {
-      "by": "Tomte",
-      "descendants": 0,
-      "id": 30072189,
-      "score": 1,
-      "time": 1643121340,
-      "title": "Battery-Powered Trains",
-      "type": "story",
-      "url": "https://rubenerd.com/battery-powered-trains/"
-    },
-    {
-      "by": "PandaRider",
-      "descendants": 0,
-      "id": 30072182,
-      "score": 1,
-      "time": 1643121309,
-      "title": "The Great Resignation? More Like the Great Renegotiation",
-      "type": "story",
-      "url": "https://www.npr.org/sections/money/2022/01/25/1075115539/the-great-resignation-more-like-the-great-renegotiation"
-    },
-    {
-      "by": "torstenvl",
-      "descendants": 0,
-      "id": 30072173,
-      "score": 1,
-      "time": 1643121271,
-      "title": "Rare African script offers clues to the evolution of writing",
-      "type": "story",
-      "url": "https://phys.org/news/2022-01-rare-african-script-clues-evolution.html"
-    },
-    {
-      "by": "belltaco",
-      "descendants": 0,
-      "id": 30072168,
-      "score": 1,
-      "time": 1643121258,
-      "title": "An OpenSea bug let attackers snatch NFTs from owners at six-figure discounts",
-      "type": "story",
-      "url": "https://www.theverge.com/2022/1/24/22899125/opensea-bug-bored-ape-nfts-smart-contract-listings-cancellation"
-    },
-    {
-      "by": "jger15",
-      "descendants": 0,
-      "id": 30072163,
-      "score": 1,
-      "time": 1643121242,
-      "title": "Now in Beta: Video on Substack",
-      "type": "story",
-      "url": "https://on.substack.com/p/video-on-substack"
-    },
-    {
-      "by": "czue",
-      "descendants": 0,
-      "id": 30072160,
-      "score": 1,
-      "time": 1643121231,
-      "title": "A Five-Year Journey to Financial Freedom and Beyond",
-      "type": "story",
-      "url": "https://www.coryzue.com/writing/financial-freedom/"
-    },
-    {
-      "by": "jger15",
-      "descendants": 0,
-      "id": 30072149,
-      "score": 1,
-      "time": 1643121180,
-      "title": "Navigating an SEO Career",
-      "type": "story",
-      "url": "https://seomba.substack.com/p/navigating-an-seo-career"
     }
   ]
 }
