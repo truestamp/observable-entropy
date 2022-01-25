@@ -1,6 +1,66 @@
 {
   "stories": [
     {
+      "by": "nikochiko",
+      "descendants": 0,
+      "id": 30070685,
+      "score": 1,
+      "text": "I am looking to buy a new monitor to use for my home setup. I do a lot of programming, and some gaming or movies. I read a bunch of Reddit&#x2F;HN threads that are opinionated for high-res&#x2F;ultrawide&#x2F;high-refresh as ideal setups. I wanted to get an idea of the current consensus around this.\nWhat would you recommend?",
+      "time": 1643110429,
+      "title": "Ask HN: What monitor would you recommend for a home setup?",
+      "type": "story"
+    },
+    {
+      "by": "Tomte",
+      "descendants": 0,
+      "id": 30070671,
+      "score": 1,
+      "time": 1643110350,
+      "title": "How to Have a Conversation on the IndieWeb (2020)",
+      "type": "story",
+      "url": "https://desmondrivet.com/2020/04/04/indieweb-conversation"
+    },
+    {
+      "by": "Tomte",
+      "descendants": 0,
+      "id": 30070667,
+      "score": 1,
+      "time": 1643110334,
+      "title": "Those Born Later",
+      "type": "story",
+      "url": "https://aeon.co/essays/an-unflinching-speech-encouraged-germany-to-face-the-nazi-past"
+    },
+    {
+      "by": "T-A",
+      "descendants": 0,
+      "id": 30070665,
+      "score": 1,
+      "time": 1643110319,
+      "title": "Reusable scramjet launch system to pave way for hypersonic airliners",
+      "type": "story",
+      "url": "https://newatlas.com/space/hypersonic-delta-velos-hydrogen-powered-scramjet-satellite-launch-system/"
+    },
+    {
+      "by": "JZN666",
+      "descendants": 0,
+      "id": 30070653,
+      "score": 1,
+      "text": "My opinion about this constantly changes through my programming experience. Functions longer than 20 lines of code? Pffff, an algorithm&#x2F;problem can be such complex in nutshell and decomposing a function solving it will be non-relevant (see any std library of PL). Mutable global state? Pfff, anything in software is based on that, the problem is using it properly in target architecture (ex. in micro-controllers global state usually manages analog&#x2F;digital output, calling a function for this adds memory and time overhead especially in real-time systems). Copy-paste? Pfff, similar code != this code solves the same problem, sometimes it&#x27;s easier to include a change in &quot;copy-paste&quot; code than deciding how to include this in boundaries of &quot;reusable&quot; parts (ex. for the first time there&#x27;re two structures X = (A, B) and Y = (A, B) with similar logic but different domains, and then manager decides to include specific logic for Y working with B data).<p>Now my general principle which distinguishes &quot;good&quot; code from &quot;bad&quot; one, is how good it resembles a model solving given problem. It can be a non-neccessary complexity of code (ex. instead of &quot;if (isFinite(a)) { ... }&quot; writing &quot;if (a.toString() != &quot;Inifinity&quot; &amp;&amp; a.toString() != &quot;NaN&quot;) { ... }&quot; when &quot;a&quot; is simply a number). And contrary not-enough complexity of code, relying on blind faith (famous XSS vulnerabilities, SQL injections in web apps are examples of that).",
+      "time": 1643110226,
+      "title": "Ask HN: What do you consider as “bad” code?",
+      "type": "story"
+    },
+    {
+      "by": "blopeur",
+      "descendants": 0,
+      "id": 30070652,
+      "score": 1,
+      "time": 1643110216,
+      "title": "Hermes – Atomated workflows for publishing research software",
+      "type": "story",
+      "url": "http://software-metadata.pub/"
+    },
+    {
       "by": "nvegater",
       "descendants": 0,
       "id": 30070643,
@@ -39,72 +99,6 @@
       "title": "The Rise of the Crypto Mayors",
       "type": "story",
       "url": "https://www.nytimes.com/2022/01/25/business/crypto-mayors.html"
-    },
-    {
-      "by": "htroglodytes",
-      "descendants": 0,
-      "id": 30070615,
-      "kids": [
-        30070639
-      ],
-      "score": 1,
-      "time": 1643109867,
-      "title": "Converting CO2 to Graphene",
-      "type": "story",
-      "url": "https://twitter.com/HTroglodytes/status/1485918447464812544"
-    },
-    {
-      "by": "CapitalistCartr",
-      "descendants": 0,
-      "id": 30070614,
-      "score": 2,
-      "time": 1643109849,
-      "title": "Linux-Targeted Malware Increased by 35%",
-      "type": "story",
-      "url": "https://www.schneier.com/blog/archives/2022/01/linux-targeted-malware-increased-by-35.html"
-    },
-    {
-      "by": "radmuzom",
-      "descendants": 0,
-      "id": 30070607,
-      "score": 1,
-      "time": 1643109767,
-      "title": "Biometric Tech Company Id.me Continues to Swallow Gov't Agencies",
-      "type": "story",
-      "url": "https://www.techdirt.com/articles/20220123/15435148341/biometric-tech-company-idme-continues-to-swallow-govt-agencies-cause-problems-people-trying-to-access-their-govt-benefits.shtml"
-    },
-    {
-      "by": "skitout",
-      "descendants": 0,
-      "id": 30070596,
-      "score": 1,
-      "time": 1643109658,
-      "title": "The Society of the Spectacle",
-      "type": "story",
-      "url": "https://en.wikipedia.org/wiki/The_Society_of_the_Spectacle"
-    },
-    {
-      "by": "gitgud",
-      "descendants": 0,
-      "id": 30070593,
-      "kids": [
-        30070645
-      ],
-      "score": 2,
-      "time": 1643109623,
-      "title": "Open Food Network – Software Platform",
-      "type": "story",
-      "url": "https://www.openfoodnetwork.org/software-platform/"
-    },
-    {
-      "by": "ksec",
-      "descendants": 0,
-      "id": 30070580,
-      "score": 3,
-      "time": 1643109542,
-      "title": "What's New in Ruby 3.1?",
-      "type": "story",
-      "url": "https://nithinbekal.com/posts/ruby-3-1/"
     }
   ]
 }
