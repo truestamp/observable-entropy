@@ -1,6 +1,47 @@
 {
   "stories": [
     {
+      "by": "SerCe",
+      "descendants": 0,
+      "id": 30067720,
+      "score": 1,
+      "time": 1643082555,
+      "title": "Fixing Performance Regressions Before They Happen",
+      "type": "story",
+      "url": "https://netflixtechblog.com/fixing-performance-regressions-before-they-happen-eab2602b86fe?gi=d0a7676f28ce"
+    },
+    {
+      "by": "evo_9",
+      "descendants": 0,
+      "id": 30067711,
+      "score": 1,
+      "time": 1643082511,
+      "title": "Dark Souls Servers Down Due to Exploit That Could Give Control of Your PC",
+      "type": "story",
+      "url": "https://kotaku.com/dark-souls-servers-down-due-to-exploit-that-could-give-1848407285"
+    },
+    {
+      "by": "m10k",
+      "descendants": 0,
+      "id": 30067708,
+      "score": 1,
+      "text": "Everyday, I have to deal with Bash scripts and all the code duplication and unreadableness that comes with it. One day I found myself implementing an include function so that I could easily modularize my scripts, and it worked better than I had anticipated. That&#x27;s how toolbox started.<p>At first, I wrote some simple modules for command line parsing and locking, but then I tried to see how far I could push the poor shell. I wrote modules for semaphores and &quot;thread&quot;-safe queues, and this is where things quickly started to escalate. To implement a distributed build system that automates packaging&#x2F;signing&#x2F;publishing of toolbox Debian packages, I wrote a module for message-based IPC that supports point-to-point and pub-sub communication. Performance was never a consideration, but it works really well without consuming excessive resources.<p>Some of the modules are arguably serious abuse of the shell, but I found that toolbox makes it possible to write Bash scripts that are readable, testable, and reliable. Shell isn&#x27;t a terribly nice language, but it&#x27;s great for integrating and automating things, so I thought others might find this useful, too.<p>(I am going to publish the build system as well, as soon as I am done writing the documentation.)",
+      "time": 1643082495,
+      "title": "Show HN: Toolbox – A framework for modular Bash scripts",
+      "type": "story",
+      "url": "https://m10k.eu/toolbox.html"
+    },
+    {
+      "by": "mgh2",
+      "descendants": 0,
+      "id": 30067692,
+      "score": 2,
+      "time": 1643082311,
+      "title": "U.S. Marriage Rates Hit New Recorded Low (2020)",
+      "type": "story",
+      "url": "https://www.jec.senate.gov/public/index.cfm/republicans/2020/4/marriage-rate-blog-test"
+    },
+    {
       "by": "brimtown",
       "descendants": 0,
       "id": 30067687,
@@ -62,49 +103,6 @@
       "title": "Bird Poo",
       "type": "story",
       "url": "http://Birdpoo.com"
-    },
-    {
-      "by": "gautamcgoel",
-      "descendants": 0,
-      "id": 30067521,
-      "score": 2,
-      "time": 1643080962,
-      "title": "Intel is manufacturing in-house ASICs for Bitcoin mining",
-      "type": "story",
-      "url": "https://www.anandtech.com/show/17218/intels-next-gen-bitcoin-asic-called-bzm2-built-on-7nm-137-gigahashsec-at-25-w"
-    },
-    {
-      "by": "jwsmithers",
-      "descendants": 0,
-      "id": 30067503,
-      "score": 1,
-      "text": "I&#x27;ve discovered that Google does not support this. And when getting through to their customer support the advice was &quot;contact a reseller in your area, you can&#x27;t do this by yourself&quot;. What???",
-      "time": 1643080831,
-      "title": "Has anyone moved a Google Workspace from one country to another?",
-      "type": "story"
-    },
-    {
-      "by": "stoicjumbotron",
-      "descendants": 0,
-      "id": 30067500,
-      "score": 1,
-      "time": 1643080807,
-      "title": "Qwik - Initialize apps of any size with less than 1 KB JS",
-      "type": "story",
-      "url": "https://github.com/BuilderIO/qwik"
-    },
-    {
-      "by": "declan1397",
-      "descendants": 1,
-      "id": 30067480,
-      "kids": [
-        30067481
-      ],
-      "score": 5,
-      "time": 1643080686,
-      "title": "Agora/Daily/Twilio video calling is too expensive for B2C software",
-      "type": "story",
-      "url": "https://www.mantic.so/"
     }
   ]
 }
