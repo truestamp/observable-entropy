@@ -1,6 +1,16 @@
 {
   "stories": [
     {
+      "by": "cercatrova",
+      "descendants": 0,
+      "id": 30066298,
+      "score": 1,
+      "time": 1643071085,
+      "title": "Nova by Panic",
+      "type": "story",
+      "url": "https://nova.app"
+    },
+    {
       "by": "divbzero",
       "descendants": 0,
       "id": 30066251,
@@ -22,8 +32,11 @@
     },
     {
       "by": "Engineering-MD",
-      "descendants": 0,
+      "descendants": 1,
       "id": 30066191,
+      "kids": [
+        30066300
+      ],
       "score": 1,
       "time": 1643070373,
       "title": "90% of US has a poor diet, and 25% don’t exercise",
@@ -32,15 +45,16 @@
     },
     {
       "by": "anr13",
-      "descendants": 5,
+      "descendants": 6,
       "id": 30066184,
       "kids": [
+        30066316,
         30066218,
         30066224,
         30066185,
         30066214
       ],
-      "score": 5,
+      "score": 11,
       "time": 1643070336,
       "title": "Social network that looks and works more like a forum",
       "type": "story",
@@ -50,7 +64,7 @@
       "by": "throwaway21091",
       "descendants": 0,
       "id": 30066166,
-      "score": 1,
+      "score": 2,
       "text": "Hello, HN.<p>First some context. I finished my PhD 5 years ago, and have had three postdocs since then in three separate fields within the physical sciences (I can&#x27;t give more detail here as I am afraid of uniquely identifying myself). I have been publishing first author papers at a rate of about 2 per year. I am particularly good at using ideas from one field to solve problems in another, which is why changing fields each postdoc has been a path of least resistance.<p>Recently, I have solved a problem which feels significantly more important than what I have done in the past. It is one of those instances where you can use auto differentiation infrastructure to solve a problem which doesn&#x27;t really look like machine learning. People in my lab are excited about it, but there does not seem to be any way for me to leverage this excitement into any sort of long term contract. All that is on offer is that the lab PIs want to write a proposal, which doesn&#x27;t even mention my name, and then if that proposal gets funded, they will rehire me to work on the project (although, there are no guarantees that they will not hire someone else instead, which is a serious concern when multiple PIs are competing to hire someone). As a result of my field hopping, trying to become a PI myself isn&#x27;t really an option.<p>Is there any mechanism for applying for private sector research jobs where I can bring a project with a prototype along and be like &quot;let me develop this for you, and you can hire me as an employee&quot;, kind of like a proposal &#x2F; job application combination? I am getting a little old to keep doing postdocs, so job security is becoming more of a priority for me.<p>Anyway, not expecting much from posting this, I just thought I would try.",
       "time": 1643070226,
       "title": "Ask HN: Trading research breakthrough for a permanent job?",
@@ -60,7 +74,7 @@
       "by": "41209",
       "descendants": 0,
       "id": 30066165,
-      "score": 5,
+      "score": 6,
       "time": 1643070219,
       "title": "Major milestone ready for testing: Godot 4.0 alpha 1 is out",
       "type": "story",
@@ -68,7 +82,7 @@
     },
     {
       "by": "DannyCasolaro",
-      "descendants": 1,
+      "descendants": 2,
       "id": 30066157,
       "kids": [
         30066186
@@ -93,21 +107,11 @@
       "by": "dsego",
       "descendants": 0,
       "id": 30066127,
-      "score": 1,
+      "score": 2,
       "time": 1643070005,
       "title": "Web Skills",
       "type": "story",
       "url": "https://andreasbm.github.io/web-skills/"
-    },
-    {
-      "by": "whurdler",
-      "descendants": 0,
-      "id": 30066101,
-      "score": 1,
-      "text": "Implementation at https:&#x2F;&#x2F;github.com&#x2F;theboywhoboasted&#x2F;whurdle\nAccuracy depends on the dictionary used. Using the official dictionary, it guess 100% words within 6 tries, taking an average of 3.62 tries.",
-      "time": 1643069830,
-      "title": "Greedy algo for Wordle that solves at least 99.5% words",
-      "type": "story"
     }
   ]
 }
