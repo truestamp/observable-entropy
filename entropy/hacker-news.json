@@ -1,6 +1,46 @@
 {
   "stories": [
     {
+      "by": "AtlasBarfed",
+      "descendants": 0,
+      "id": 30080581,
+      "score": 1,
+      "text": "Setting aside recent hipster posts about logging being dead...<p>I continually run into the issue when making CLI apps: where does logging go?<p>stdout is terrible, logging would pollute information you want piped to other programs and is noise<p>stderr isn&#x27;t great, because log messages are more status than errors, and usually breaks error detection, handling, and processing.<p>Most logging frameworks I&#x27;ve seen belch to stdout or stderr by default. Yuck.<p>Most alternatives (enabled by logging frameworks) is a logfile is ... ok, but then you have logfiles polluting your FS in arbitrary locations, and the logfile location and name is going to be highly unstandardized.<p>So why isn&#x27;t there a standard notion of stdlog in UNIXland alongside stdin, stdout, and stderr?",
+      "time": 1643161180,
+      "title": "Unix: Why Not Stdlog?",
+      "type": "story"
+    },
+    {
+      "by": "secludedrelish",
+      "descendants": 0,
+      "id": 30080580,
+      "score": 1,
+      "time": 1643161149,
+      "title": "Remarks by President Biden Before Meeting the White House Competition Council",
+      "type": "story",
+      "url": "https://www.whitehouse.gov/briefing-room/speeches-remarks/2022/01/24/remarks-by-president-biden-before-meeting-with-the-white-house-competition-council/"
+    },
+    {
+      "by": "intrepidsoldier",
+      "descendants": 0,
+      "id": 30080577,
+      "score": 1,
+      "time": 1643161120,
+      "title": "Multiple Stops on the Cloud Compute Continuum – All with Their Own Merits",
+      "type": "story",
+      "url": "https://ramansharma.substack.com/p/multiple-stops-on-the-cloud-compute-continuum-all-with-their-own-merits-6b921ed82f2"
+    },
+    {
+      "by": "nomilk",
+      "descendants": 0,
+      "id": 30080563,
+      "score": 1,
+      "text": "Just a heads up so others can avoid similar: Heroku gives 7 days&#x27; notice before deleting databases on their Hobby Basic tier once it exceeds &gt;10GB or &gt;10m rows. [1]<p>Hobby Basic tier is meant for &quot;Small side projects and proof-of-concepts&quot; [2]. It&#x27;s possible for a startup to spend a lot of time in this tier because it spans from tiny (10k rows, to quite large 10m rows). Many startups reach $m valuations with smaller databases.<p>What happened to:<p>&gt; Anything that can go wrong will go wrong.<p>If your db admin&#x27;s takes a week&#x27;s holidays, they could return and find the database missing.<p>An unexpected grown surge could push your db past its limits earlier than anticipated and an alert email could easily be missed.<p>Heroku&#x27;s own infrastructure could go down at an inopportune time, preventing maintenance. For example heroku&#x27;s <i>database metrics page</i> is currently not displaying database metrics for some databases - including the one with 7 days to live (what should be displayed [3], what is actually displayed [4]).<p>Even in perfect circumstances, 7 days is just too aggressive.<p>[1] https:&#x2F;&#x2F;i.imgur.com&#x2F;FDF6Gu4.png<p>[2] https:&#x2F;&#x2F;www.heroku.com&#x2F;pricing#data-services<p>[3] https:&#x2F;&#x2F;i.imgur.com&#x2F;tAmmNx5.png<p>[4] https:&#x2F;&#x2F;i.imgur.com&#x2F;DUdXB7P.png",
+      "time": 1643161011,
+      "title": "Heroku Will Delete 8m Row Database with 7 Days' Notice",
+      "type": "story"
+    },
+    {
       "by": "MBCook",
       "descendants": 0,
       "id": 30080541,
@@ -14,7 +54,7 @@
       "by": "vtuulos",
       "descendants": 0,
       "id": 30080531,
-      "score": 2,
+      "score": 3,
       "time": 1643160670,
       "title": "Integrating Pythonic visual reports into ML pipelines",
       "type": "story",
@@ -59,46 +99,6 @@
       "title": "rqlite, the distributed DB built on SQLite and Raft: v7 now with autoclustering",
       "type": "story",
       "url": "https://www.philipotoole.com/rqlite-7-0-designing-node-discovery-and-automatic-clustering/"
-    },
-    {
-      "by": "thebiblelover7",
-      "descendants": 0,
-      "id": 30080504,
-      "score": 1,
-      "time": 1643160416,
-      "title": "Umbrel – A Personal Server for Everyone",
-      "type": "story",
-      "url": "https://getumbrel.com/"
-    },
-    {
-      "by": "shagunsodhani",
-      "descendants": 0,
-      "id": 30080493,
-      "score": 1,
-      "time": 1643160370,
-      "title": "Mark Zuckerberg’s stablecoin ambitions unravel with Diem sale talks",
-      "type": "story",
-      "url": "https://fortune.com/2022/01/25/mark-zuckerberg-stablecoin-diem-sale-talks/"
-    },
-    {
-      "by": "do_anh_tu",
-      "descendants": 0,
-      "id": 30080480,
-      "score": 1,
-      "time": 1643160219,
-      "title": "Morden Music Notations",
-      "type": "story",
-      "url": "https://www.hummingbirdnotation.com/"
-    },
-    {
-      "by": "davesailer",
-      "descendants": 0,
-      "id": 30080473,
-      "score": 1,
-      "time": 1643160157,
-      "title": "Les Paul Makes His Records (1953) [video]",
-      "type": "story",
-      "url": "https://www.youtube.com/watch?v=0ZLhNoFElp0"
     }
   ]
 }
