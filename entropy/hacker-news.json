@@ -1,10 +1,53 @@
 {
   "stories": [
     {
+      "by": "KMHall77",
+      "descendants": 0,
+      "id": 30086939,
+      "score": 1,
+      "time": 1643212195,
+      "title": "MinIO raises $103M to expand its multicloud data object store",
+      "type": "story",
+      "url": "https://siliconangle.com/2022/01/26/minio-raises-103m-expand-multicloud-data-object-store/"
+    },
+    {
+      "by": "Moldoteck",
+      "descendants": 0,
+      "id": 30086934,
+      "score": 1,
+      "time": 1643212183,
+      "title": "Has the Russo-Ukrainian war begun?",
+      "type": "story",
+      "url": "https://www.haswarbegun.xyz/"
+    },
+    {
+      "by": "upwardbound",
+      "descendants": 0,
+      "id": 30086922,
+      "score": 1,
+      "time": 1643212124,
+      "title": "Ahead of planned IPO, Knightscope’s CEO discusses opportunity and controversy",
+      "type": "story",
+      "url": "https://techcrunch.com/2022/01/26/ahead-of-planned-ipo-knightscopes-ceo-discusses-opportunity-and-controversy-around-the-surveillance/"
+    },
+    {
+      "by": "tombert",
+      "descendants": 1,
+      "id": 30086865,
+      "kids": [
+        30086931
+      ],
+      "score": 2,
+      "text": "In the last few months, I&#x27;ve noticed a slew of accounts posting anti-vax messaging on any COVID-19 related articles.  These accounts will be less than a week old, and you&#x27;ll see that their only posts will have been the same anti-vax rhetoric.<p>Obviously everyone is entitled to their own opinion, even if it&#x27;s one that I disagree with, hence why I do not want to link to these examples in fear that I&#x27;d be bringing hate on honest actors, but I was curious if anyone knew if HN was falling victim to the same attacks that Facebook is in regards to troll farms?<p>[1] https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Internet_Research_Agency\n[2] https:&#x2F;&#x2F;www.technologyreview.com&#x2F;2021&#x2F;09&#x2F;16&#x2F;1035851&#x2F;facebook-troll-farms-report-us-2020-election&#x2F;",
+      "time": 1643211907,
+      "title": "Ask HN: Do we need to worry about Russian troll farms here?",
+      "type": "story"
+    },
+    {
       "by": "dmitriid",
       "descendants": 0,
       "id": 30086846,
-      "score": 1,
+      "score": 2,
       "time": 1643211851,
       "title": "Slack's “animated emoji and images” setting eats up to 20% of CPU",
       "type": "story",
@@ -52,59 +95,17 @@
     },
     {
       "by": "hkh",
-      "descendants": 1,
+      "descendants": 0,
       "id": 30086789,
       "kids": [
         30086801
       ],
-      "score": 2,
+      "score": 3,
+      "text": "Hi, we’re Ali, Hassan and Alistair, co-founders of Infracost (<a href=\"https:&#x2F;&#x2F;www.infracost.io&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;www.infracost.io&#x2F;</a>). Infracost shows engineers the cost of each Terraform change in CI&#x2F;CD before resources are launched. When something changes, it posts a comment with the cloud cost impact. e.g. you’ve added 2 instances and volumes, and have changed an instance type from medium to large, this will increase your bill by 25% next month from $1000 to $1250 per month.<p>We launched the first version of Infracost just under a year ago (<a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=26064588\" rel=\"nofollow\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=26064588</a>). As we said in our first release ‘the people who are purchasing cloud resources are not shown costs upfront, so they don’t know how much the resources will cost before launching them’. Our assumption was that because we are open source and the engineers are flying blind, they would pull us into the workflow. Actually, something different is happening:<p>The engineers are not pulling us in - it turns out to be the senior DevOps, SREs and platform teams. One of their challenges is figuring out how their small team of 7 people can fulfill the infrastructure requirements of hundreds of engineers. To solve this, they have created and put in place processes for engineers to provision infrastructure when they need. Now they want to implement cost policies and guardrails so that these hundreds of engineers don’t blow past all budgets. For example, if a change will result in a higher than 15% increase, leave a warning. If a change results in a &gt;25% increase in costs, block the change till a team lead has reviewed it.<p>This has two implications for us. First, we need to create an output that isn’t only used by humans but is also digested into other systems to make further decisions. The second is the people we have been speaking to are not our end users. We need to figure out how we can get introduced to our end users, and create a different set of questions for each persona.<p>Now, we are reworking our JSON output and creating examples with standard policy tools like Open Policy Agent (OPA), HashiCorp Sentinel and Conftest. We’d really love your feedback around the cost policies use-case. You can check out the repo for GitHub Actions at (<a href=\"https:&#x2F;&#x2F;github.com&#x2F;infracost&#x2F;infracost\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;infracost&#x2F;infracost</a>) (our other CI&#x2F;CD integrations are listed here: <a href=\"https:&#x2F;&#x2F;www.infracost.io&#x2F;docs&#x2F;#4-add-to-cicd\" rel=\"nofollow\">https:&#x2F;&#x2F;www.infracost.io&#x2F;docs&#x2F;#4-add-to-cicd</a>).<p>We&#x27;d love to hear how you think about policies and guardrails.",
       "time": 1643211599,
       "title": "Show HN: Infracost (YC W21) – open-source cloud cost policies",
       "type": "story",
       "url": "https://github.com/infracost/infracost"
-    },
-    {
-      "by": "alexjohnsonhb",
-      "descendants": 1,
-      "id": 30086777,
-      "kids": [
-        30086778
-      ],
-      "score": 1,
-      "time": 1643211550,
-      "title": "Hirebook",
-      "type": "story",
-      "url": "https://www.hirebook.com"
-    },
-    {
-      "by": "makerofspoons",
-      "descendants": 0,
-      "id": 30086773,
-      "score": 1,
-      "time": 1643211534,
-      "title": "Federal disasters declared for 14 Alaska fisheries",
-      "type": "story",
-      "url": "https://www.ktoo.org/2022/01/25/federal-disasters-declared-for-14-alaska-fisheries/"
-    },
-    {
-      "by": "dmingod666",
-      "descendants": 0,
-      "id": 30086772,
-      "score": 1,
-      "time": 1643211531,
-      "title": "Found this weird JavaScipt code in a SVG file",
-      "type": "story",
-      "url": "https://old.reddit.com/r/webdev/comments/sd2low/found_this_weird_javascipt_code_in_a_svg_file/"
-    },
-    {
-      "by": "BerislavLopac",
-      "descendants": 0,
-      "id": 30086765,
-      "score": 1,
-      "time": 1643211506,
-      "title": "European court overturns 12-year-old €1.06B fine against Intel",
-      "type": "story",
-      "url": "https://arstechnica.com/tech-policy/2022/01/european-court-overturns-12-year-old-e1-06-billion-fine-against-intel/"
     }
   ]
 }
