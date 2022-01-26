@@ -1,10 +1,40 @@
 {
   "stories": [
     {
+      "by": "mypastself",
+      "descendants": 0,
+      "id": 30086994,
+      "score": 1,
+      "time": 1643212447,
+      "title": "Analysis: Will the games stop? SEC mulls crackdown on trading apps",
+      "type": "story",
+      "url": "https://www.reuters.com/business/finance/will-games-stop-sec-mulls-crackdown-trading-apps-2022-01-26/"
+    },
+    {
+      "by": "snird",
+      "descendants": 0,
+      "id": 30086986,
+      "score": 1,
+      "time": 1643212412,
+      "title": "Crystal 1.3.0 Is Released",
+      "type": "story",
+      "url": "https://crystal-lang.org/2022/01/06/1.3.0-released.html"
+    },
+    {
+      "by": "yuliadramaless",
+      "descendants": 0,
+      "id": 30086956,
+      "score": 2,
+      "time": 1643212288,
+      "title": "Remote hiring process: how to onboard engineers you can go to cosmos with",
+      "type": "story",
+      "url": "https://ralabs.org/blog/remote-hiring-process-2022/"
+    },
+    {
       "by": "KMHall77",
       "descendants": 0,
       "id": 30086939,
-      "score": 1,
+      "score": 2,
       "time": 1643212195,
       "title": "MinIO raises $103M to expand its multicloud data object store",
       "type": "story",
@@ -32,13 +62,13 @@
     },
     {
       "by": "tombert",
-      "descendants": 1,
+      "descendants": 2,
       "id": 30086865,
       "kids": [
         30086931
       ],
-      "score": 2,
-      "text": "In the last few months, I&#x27;ve noticed a slew of accounts posting anti-vax messaging on any COVID-19 related articles.  These accounts will be less than a week old, and you&#x27;ll see that their only posts will have been the same anti-vax rhetoric.<p>Obviously everyone is entitled to their own opinion, even if it&#x27;s one that I disagree with, hence why I do not want to link to these examples in fear that I&#x27;d be bringing hate on honest actors, but I was curious if anyone knew if HN was falling victim to the same attacks that Facebook is in regards to troll farms?<p>[1] https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Internet_Research_Agency\n[2] https:&#x2F;&#x2F;www.technologyreview.com&#x2F;2021&#x2F;09&#x2F;16&#x2F;1035851&#x2F;facebook-troll-farms-report-us-2020-election&#x2F;",
+      "score": 3,
+      "text": "In the last few months, I&#x27;ve noticed a slew of accounts posting anti-vax messaging on any COVID-19 related articles.  These accounts will be less than a week old, and you&#x27;ll see that their only posts will have been the same anti-vax rhetoric.<p>Obviously everyone is entitled to their own opinion, even if it&#x27;s one that I disagree with, hence why I do not want to link to these examples in fear that I&#x27;d be bringing hate on honest actors, but I was curious if anyone knew if HN was falling victim to the same attacks that Facebook is in regards to troll farms?<p>[1] https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Internet_Research_Agency\n[2] https:&#x2F;&#x2F;www.technologyreview.com&#x2F;2021&#x2F;09&#x2F;16&#x2F;1035851&#x2F;facebook-troll-farms-report-us-2020-election&#x2F;<p>EDIT: It has been brought to my attention that this question might be against HN guidelines.  Please feel free to close this thread if that is true.",
       "time": 1643211907,
       "title": "Ask HN: Do we need to worry about Russian troll farms here?",
       "type": "story"
@@ -72,40 +102,6 @@
       "title": "Using Z3 Theorem Prover to Analyze RBAC",
       "type": "story",
       "url": "https://goteleport.com/blog/z3-rbac/"
-    },
-    {
-      "by": "sema4hacker",
-      "descendants": 0,
-      "id": 30086825,
-      "score": 1,
-      "time": 1643211760,
-      "title": "Check Barcodes That Reveal Suppressed Addresses",
-      "type": "story",
-      "url": "https://www.youtube.com/watch?v=1bmK3dQQ4Us"
-    },
-    {
-      "by": "jasonchao",
-      "descendants": 0,
-      "id": 30086804,
-      "score": 2,
-      "time": 1643211685,
-      "title": "Wordle Solver with web-UI – works with a variable word length and other versions",
-      "type": "story",
-      "url": "https://wordle-solver.jasontc.net/"
-    },
-    {
-      "by": "hkh",
-      "descendants": 0,
-      "id": 30086789,
-      "kids": [
-        30086801
-      ],
-      "score": 3,
-      "text": "Hi, we’re Ali, Hassan and Alistair, co-founders of Infracost (<a href=\"https:&#x2F;&#x2F;www.infracost.io&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;www.infracost.io&#x2F;</a>). Infracost shows engineers the cost of each Terraform change in CI&#x2F;CD before resources are launched. When something changes, it posts a comment with the cloud cost impact. e.g. you’ve added 2 instances and volumes, and have changed an instance type from medium to large, this will increase your bill by 25% next month from $1000 to $1250 per month.<p>We launched the first version of Infracost just under a year ago (<a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=26064588\" rel=\"nofollow\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=26064588</a>). As we said in our first release ‘the people who are purchasing cloud resources are not shown costs upfront, so they don’t know how much the resources will cost before launching them’. Our assumption was that because we are open source and the engineers are flying blind, they would pull us into the workflow. Actually, something different is happening:<p>The engineers are not pulling us in - it turns out to be the senior DevOps, SREs and platform teams. One of their challenges is figuring out how their small team of 7 people can fulfill the infrastructure requirements of hundreds of engineers. To solve this, they have created and put in place processes for engineers to provision infrastructure when they need. Now they want to implement cost policies and guardrails so that these hundreds of engineers don’t blow past all budgets. For example, if a change will result in a higher than 15% increase, leave a warning. If a change results in a &gt;25% increase in costs, block the change till a team lead has reviewed it.<p>This has two implications for us. First, we need to create an output that isn’t only used by humans but is also digested into other systems to make further decisions. The second is the people we have been speaking to are not our end users. We need to figure out how we can get introduced to our end users, and create a different set of questions for each persona.<p>Now, we are reworking our JSON output and creating examples with standard policy tools like Open Policy Agent (OPA), HashiCorp Sentinel and Conftest. We’d really love your feedback around the cost policies use-case. You can check out the repo for GitHub Actions at (<a href=\"https:&#x2F;&#x2F;github.com&#x2F;infracost&#x2F;infracost\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;infracost&#x2F;infracost</a>) (our other CI&#x2F;CD integrations are listed here: <a href=\"https:&#x2F;&#x2F;www.infracost.io&#x2F;docs&#x2F;#4-add-to-cicd\" rel=\"nofollow\">https:&#x2F;&#x2F;www.infracost.io&#x2F;docs&#x2F;#4-add-to-cicd</a>).<p>We&#x27;d love to hear how you think about policies and guardrails.",
-      "time": 1643211599,
-      "title": "Show HN: Infracost (YC W21) – open-source cloud cost policies",
-      "type": "story",
-      "url": "https://github.com/infracost/infracost"
     }
   ]
 }
