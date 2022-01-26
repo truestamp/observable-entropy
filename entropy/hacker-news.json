@@ -1,6 +1,16 @@
 {
   "stories": [
     {
+      "by": "davnicwil",
+      "descendants": 0,
+      "id": 30093931,
+      "score": 1,
+      "text": "I&#x27;ve often wondered why there isn&#x27;t a standard for browsers having a pre-populated local cache of very popular JS libraries. To name a few examples: jQuery, Lodash, React.<p>It seems like the benefits of this would be significant for both user and developer - faster loading, lower bandwidth, quicker builds, etc.<p>It also seems eminently doable, technically. One possible high-level implementation off the top of my head:<p>- A standard index of the most popular libs is maintained.\n- You pull them in via the script tag, with a new lib=&quot;name@version&quot; attribute. Older browsers can use the src tag as a backup.\n- SPA build systems like webpack et al are aware of the standard and can just not bundle libs pulled this way, while keeping the require() and import syntax.<p>I do, however, see some pretty big not-strictly-technical difficulties:<p>- The index would have to be administered by some entity. Who would that be, and who would pay for it?<p>- Who defines what the most popular libs are? Whatever system is used, how do you prevent it being gamed to the advantage of particular libs?<p>- Trust and security. A similar set of issues npm faces. Although that being the case, is this really introducing a new problem? It also seems like a much narrower problem if we&#x27;re only talking about a small set of very popular libs.<p>- Maybe some issues around licensing, bundling code into browsers etc. But again, if it&#x27;s a smallish set of only very popular libs, this seems like it could be dealt with individually for each one and its authors, maybe as a prerequisite for getting included in the index.<p>These difficulties are not insignificant, but nor do they seem insurmountable and also the benefits do seem genuinely worth it.<p>It just appears to me to be something that should so obviously have been done, that there must be really good reasons why it hasn&#x27;t been - maybe including those above, maybe technical, maybe others.<p>Does anyone know if any serious attempt has ever been made at a proposal to do something like this, even if in a non-standard way by an individual browser vendor?",
+      "time": 1643241265,
+      "title": "Ask HN: Why don't browsers pre-include popular JavaScript libraries?",
+      "type": "story"
+    },
+    {
       "by": "mcenedella",
       "descendants": 0,
       "id": 30093841,
@@ -85,21 +95,11 @@
       "by": "enigmatic02",
       "descendants": 0,
       "id": 30093695,
-      "score": 2,
+      "score": 3,
       "time": 1643239909,
       "title": "Here We Go Again",
       "type": "story",
       "url": "https://seths.blog/2022/01/here-we-go-again-2/"
-    },
-    {
-      "by": "testrun",
-      "descendants": 0,
-      "id": 30093692,
-      "score": 1,
-      "time": 1643239903,
-      "title": "Liberal U.S. Supreme Court Justice Breyer to Retire",
-      "type": "story",
-      "url": "https://www.reuters.com/world/us/liberal-us-supreme-court-justice-stephen-breyer-retire-media-reports-2022-01-26/"
     }
   ]
 }
