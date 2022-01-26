@@ -1,6 +1,26 @@
 {
   "stories": [
     {
+      "by": "baylearn",
+      "descendants": 0,
+      "id": 30080644,
+      "score": 1,
+      "time": 1643161794,
+      "title": "Actor Keanu Reeves faces boycott from Chinese netizens over Tibet concert",
+      "type": "story",
+      "url": "https://www.straitstimes.com/life/entertainment/actor-keanu-reeves-faces-boycott-from-chinese-netizens-over-tibet-concert"
+    },
+    {
+      "by": "valand",
+      "descendants": 0,
+      "id": 30080641,
+      "score": 1,
+      "time": 1643161772,
+      "title": "From Rust to TypeScript: Lifetime Analysis for React Component Architecture",
+      "type": "story",
+      "url": "https://valand.dev/blog/post/from-rust-to-typescript-lifetime-analysis/"
+    },
+    {
       "by": "giantg2",
       "descendants": 0,
       "id": 30080602,
@@ -22,9 +42,12 @@
     },
     {
       "by": "AtlasBarfed",
-      "descendants": 0,
+      "descendants": 1,
       "id": 30080581,
-      "score": 1,
+      "kids": [
+        30080620
+      ],
+      "score": 2,
       "text": "Setting aside recent hipster posts about logging being dead...<p>I continually run into the issue when making CLI apps: where does logging go?<p>stdout is terrible, logging would pollute information you want piped to other programs and is noise<p>stderr isn&#x27;t great, because log messages are more status than errors, and usually breaks error detection, handling, and processing.<p>Most logging frameworks I&#x27;ve seen belch to stdout or stderr by default. Yuck.<p>Most alternatives (enabled by logging frameworks) is a logfile is ... ok, but then you have logfiles polluting your FS in arbitrary locations, and the logfile location and name is going to be highly unstandardized.<p>So why isn&#x27;t there a standard notion of stdlog in UNIXland alongside stdin, stdout, and stderr?",
       "time": 1643161180,
       "title": "Unix: Why Not Stdlog?",
@@ -52,7 +75,7 @@
     },
     {
       "by": "nomilk",
-      "descendants": 1,
+      "descendants": 0,
       "id": 30080563,
       "kids": [
         30080591
@@ -82,26 +105,6 @@
       "title": "Integrating Pythonic visual reports into ML pipelines",
       "type": "story",
       "url": "https://outerbounds.com/blog/integrating-pythonic-visual-reports-into-ml-pipelines/"
-    },
-    {
-      "by": "exolymph",
-      "descendants": 0,
-      "id": 30080523,
-      "score": 2,
-      "time": 1643160603,
-      "title": "Why Agatha Christie could afford a maid and a nanny but not a car",
-      "type": "story",
-      "url": "https://fullstackeconomics.com/why-agatha-christie-could-afford-a-maid-and-a-nanny-but-not-a-car/"
-    },
-    {
-      "by": "ilamont",
-      "descendants": 0,
-      "id": 30080519,
-      "score": 2,
-      "time": 1643160576,
-      "title": "Big changes for the SAT: Digital, shorter and a unique test for each student",
-      "type": "story",
-      "url": "https://www.latimes.com/california/story/2022-01-25/sat-making-big-changes-going-digital-shorter-unique-tests"
     }
   ]
 }
