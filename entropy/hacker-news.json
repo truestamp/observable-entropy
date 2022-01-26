@@ -1,6 +1,16 @@
 {
   "stories": [
     {
+      "by": "melissalobos",
+      "descendants": 0,
+      "id": 30080688,
+      "score": 1,
+      "time": 1643162150,
+      "title": "Understanding how to implement a character-based RNN language model",
+      "type": "story",
+      "url": "https://eli.thegreenplace.net/2018/understanding-how-to-implement-a-character-based-rnn-language-model/"
+    },
+    {
       "by": "myth_drannon",
       "descendants": 0,
       "id": 30080677,
@@ -88,19 +98,6 @@
       "text": "Without _paying_ the credit companies&#x2F;3rd parties&#x2F;middle man.",
       "time": 1643161374,
       "title": "Ask HN: Is there an efficient way to monitor my identity",
-      "type": "story"
-    },
-    {
-      "by": "AtlasBarfed",
-      "descendants": 1,
-      "id": 30080581,
-      "kids": [
-        30080620
-      ],
-      "score": 2,
-      "text": "Setting aside recent hipster posts about logging being dead...<p>I continually run into the issue when making CLI apps: where does logging go?<p>stdout is terrible, logging would pollute information you want piped to other programs and is noise<p>stderr isn&#x27;t great, because log messages are more status than errors, and usually breaks error detection, handling, and processing.<p>Most logging frameworks I&#x27;ve seen belch to stdout or stderr by default. Yuck.<p>Most alternatives (enabled by logging frameworks) is a logfile is ... ok, but then you have logfiles polluting your FS in arbitrary locations, and the logfile location and name is going to be highly unstandardized.<p>So why isn&#x27;t there a standard notion of stdlog in UNIXland alongside stdin, stdout, and stderr?",
-      "time": 1643161180,
-      "title": "Unix: Why Not Stdlog?",
       "type": "story"
     }
   ]
