@@ -1,6 +1,59 @@
 {
   "stories": [
     {
+      "by": "pingsl",
+      "descendants": 0,
+      "id": 30100844,
+      "score": 1,
+      "text": "The background of the question:<p>We are developing an open-source cloud-scalable vector database: Milvus[1]. In our new cloud architecture, we need to employ a messaging framework to serve as the central log sequence of the whole system. Ultimately, we will support well-known messaging solutions like Apache Kafka, Apache Pulsar, etc. Referring to Confluent&#x27;s article[2], Pulsar&#x27;s message consumption model is push-based, while Kafka&#x27;s is pull-based.<p>Our new cloud architecture is based on the actor model, which means all the worker nodes are working asynchronously, and the log sequence is the key to linking all the nodes. We think the push-based message consumption model and the actor model have more logical consistency. So we started with Apache Pulsar in our new implementation. We did have some concerns about Pulsar; for example,<p>- The project popularity\n- The Go SDK is buggy \n- The documentation is not as good as Kafka<p>We don&#x27;t think these points are showstoppers. However, some of our users have different thoughts. They are asking when we would support Kafka. Some of them even mentioned they won&#x27;t maintain Pulsar in their production environment.<p>So HN, please let me know your thoughts about this question. Should we give Kafka adoption a much higher priority since we just completed the new lease GA?<p>Reference:\n[1] https:&#x2F;&#x2F;milvus.io\n[2] https:&#x2F;&#x2F;www.confluent.io&#x2F;kafka-vs-pulsar&#x2F;",
+      "time": 1643293211,
+      "title": "Ask HN: Do you support Apache Kafka more than Apache Pulsar? Why?",
+      "type": "story"
+    },
+    {
+      "by": "thebigspacefuck",
+      "descendants": 0,
+      "id": 30100842,
+      "score": 1,
+      "time": 1643293208,
+      "title": "The Speed Limit in Every City Should Be 20 MPH",
+      "type": "story",
+      "url": "https://www.vice.com/en/article/wxdzxq/the-speed-limit-in-every-city-should-be-20-mph"
+    },
+    {
+      "by": "daveaiello",
+      "descendants": 0,
+      "id": 30100827,
+      "score": 2,
+      "time": 1643293106,
+      "title": "Scientific paper claims octopuses are aliens from outer space",
+      "type": "story",
+      "url": "https://bgr.com/science/new-scientific-paper-claims-octopuses-are-actually-aliens-from-outer-space/"
+    },
+    {
+      "by": "chanfest22",
+      "descendants": 0,
+      "id": 30100822,
+      "score": 2,
+      "time": 1643293073,
+      "title": "CoinTracker (YC W18) raises $100M to scale cryptocurrency tax compliance",
+      "type": "story",
+      "url": "https://techcrunch.com/2022/01/27/crypto-investors-have-1099-problems-cointracker-helps-make-sure-the-irs-isnt-one/"
+    },
+    {
+      "by": "treycopeland",
+      "descendants": 1,
+      "id": 30100812,
+      "kids": [
+        30100813
+      ],
+      "score": 1,
+      "time": 1643293019,
+      "title": "Turning a failing little coffee blog into a $1M dollar exit by doing less",
+      "type": "story",
+      "url": "https://typeshare.co/alxzoogmi/posts/how-i-turned-a-failing-little-coffee-blog-into-a-1-million-dollar-exit-by-doing-less"
+    },
+    {
       "by": "sebg",
       "descendants": 0,
       "id": 30100792,
@@ -49,59 +102,6 @@
       "title": "Introduction to Metaprogramming in Nim",
       "type": "story",
       "url": "https://hookrace.net/blog/introduction-to-metaprogramming-in-nim/"
-    },
-    {
-      "by": "dinosaurs",
-      "descendants": 0,
-      "id": 30100714,
-      "score": 1,
-      "time": 1643292416,
-      "title": "Astronomers discover mysterious pulsing object that may be new class of star",
-      "type": "story",
-      "url": "https://www.theguardian.com/science/2022/jan/26/astronomers-discover-mysterious-pulsing-object-new-class-of-star"
-    },
-    {
-      "by": "erikfiala",
-      "descendants": 1,
-      "id": 30100708,
-      "kids": [
-        30100719
-      ],
-      "score": 1,
-      "text": "Hey Hackers! Two weeks ago or so, I posted on Reddit asking for feedback about &quot;Tinder for professionals&quot;.<p>Many Redditors gave amazing input. I began researching a lot and found out that LinkedIn is the only recognized global player. There are copycats, but my goal would never be to build something as boring (IMO) as LinkedIn. I want to create something different, targeted towards a younger generation. TL;DR - I want to build something cool.<p>I started working on the project with my friend around the same time I posted (just designing some app screens and researching WebRTC), and yesterday I launched the website for it - see the first comment.<p>Creating the website took me roughly 15 minutes (no-code, completely free - using Notion, Popsy, and Google Forms). It&#x27;s far from perfect, but I think it does the job, and I can continuously iterate on it later when needed.<p>Please go check it out and let me know what you think. Also, I kindly ask you to provide as much feedback as you can. We&#x27;re still very early, so we&#x27;re open to any feature ideas that might make the product better for YOU to use it.",
-      "time": 1643292398,
-      "title": "Ask HN: I believe professional networking can be reimagined. Need feedback!",
-      "type": "story"
-    },
-    {
-      "by": "jrdnbwmn",
-      "descendants": 0,
-      "id": 30100704,
-      "score": 1,
-      "time": 1643292381,
-      "title": "How to do A/B tests easily (and for free)",
-      "type": "story",
-      "url": "https://www.youtube.com/watch?v=bnLTEzWkqqo"
-    },
-    {
-      "by": "ksec",
-      "descendants": 0,
-      "id": 30100699,
-      "score": 1,
-      "time": 1643292361,
-      "title": "The First Standard to Assure a Photo’s Authenticity Has Been Created",
-      "type": "story",
-      "url": "https://petapixel.com/2022/01/26/the-first-standard-to-assure-a-photos-authenticity-has-been-created/"
-    },
-    {
-      "by": "rezaprima",
-      "descendants": 0,
-      "id": 30100689,
-      "score": 2,
-      "time": 1643292294,
-      "title": "Goby, a Ruby like language built on Go",
-      "type": "story",
-      "url": "https://github.com/goby-lang/goby"
     }
   ]
 }
