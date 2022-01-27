@@ -1,11 +1,91 @@
 {
   "stories": [
     {
+      "by": "sebg",
+      "descendants": 0,
+      "id": 30100897,
+      "score": 1,
+      "time": 1643293465,
+      "title": "Counter-intuitive results in Operations Research",
+      "type": "story",
+      "url": "https://or.stackexchange.com/questions/506/counter-intuitive-results-in-or"
+    },
+    {
+      "by": "Victerius",
+      "descendants": 0,
+      "id": 30100894,
+      "score": 1,
+      "text": "What is&#x2F;was your experience like?",
+      "time": 1643293461,
+      "title": "Ask HN: Are there current/former military service members on HN?",
+      "type": "story"
+    },
+    {
+      "by": "narmontas",
+      "descendants": 0,
+      "id": 30100884,
+      "score": 1,
+      "time": 1643293411,
+      "title": "Certificator – Request certificates from ACME CA and store them in Vault",
+      "type": "story",
+      "url": "https://github.com/vinted/certificator"
+    },
+    {
+      "by": "michidk",
+      "descendants": 0,
+      "id": 30100881,
+      "score": 1,
+      "time": 1643293357,
+      "title": "Functional Music to Improve Focus in 15 Minutes",
+      "type": "story",
+      "url": "https://www.brain.fm/"
+    },
+    {
+      "by": "vmayoral",
+      "descendants": 0,
+      "id": 30100874,
+      "score": 1,
+      "time": 1643293339,
+      "title": "Improving the security of the robotics communication middleware",
+      "type": "story",
+      "url": "https://www.linkedin.com/posts/vmayoral_improving-the-security-of-dds-and-ros-2-for-activity-6892468409209364480-PySB"
+    },
+    {
+      "by": "jaboutboul",
+      "descendants": 0,
+      "id": 30100873,
+      "score": 1,
+      "time": 1643293338,
+      "title": "The CPU Museum",
+      "type": "story",
+      "url": "https://cpumuseum.jimdofree.com/"
+    },
+    {
+      "by": "nasa9084",
+      "descendants": 0,
+      "id": 30100867,
+      "score": 1,
+      "time": 1643293322,
+      "title": "Show HN: A Switchbot API Client for Golang",
+      "type": "story",
+      "url": "https://github.com/nasa9084/go-switchbot"
+    },
+    {
+      "by": "geox",
+      "descendants": 0,
+      "id": 30100854,
+      "score": 1,
+      "time": 1643293244,
+      "title": "Players needed to solve puzzles and help advance cancer research",
+      "type": "story",
+      "url": "https://www.crg.eu/en/news/players-needed-solve-puzzles-and-help-advance-cancer-research"
+    },
+    {
       "by": "pingsl",
       "descendants": 0,
       "id": 30100844,
       "score": 1,
-      "text": "The background of the question:<p>We are developing an open-source cloud-scalable vector database: Milvus[1]. In our new cloud architecture, we need to employ a messaging framework to serve as the central log sequence of the whole system. Ultimately, we will support well-known messaging solutions like Apache Kafka, Apache Pulsar, etc. Referring to Confluent&#x27;s article[2], Pulsar&#x27;s message consumption model is push-based, while Kafka&#x27;s is pull-based.<p>Our new cloud architecture is based on the actor model, which means all the worker nodes are working asynchronously, and the log sequence is the key to linking all the nodes. We think the push-based message consumption model and the actor model have more logical consistency. So we started with Apache Pulsar in our new implementation. We did have some concerns about Pulsar; for example,<p>- The project popularity\n- The Go SDK is buggy \n- The documentation is not as good as Kafka<p>We don&#x27;t think these points are showstoppers. However, some of our users have different thoughts. They are asking when we would support Kafka. Some of them even mentioned they won&#x27;t maintain Pulsar in their production environment.<p>So HN, please let me know your thoughts about this question. Should we give Kafka adoption a much higher priority since we just completed the new lease GA?<p>Reference:\n[1] https:&#x2F;&#x2F;milvus.io\n[2] https:&#x2F;&#x2F;www.confluent.io&#x2F;kafka-vs-pulsar&#x2F;",
+      "text": "The background of the question:<p>We are developing an open-source cloud-scalable vector database: Milvus[1]. In our new cloud architecture, we need to employ a messaging framework to serve as the central log sequence of the whole system. Ultimately, we will support well-known messaging solutions like Apache Kafka, Apache Pulsar, etc. Referring to Confluent&#x27;s article[2], Pulsar&#x27;s message consumption model is push-based, while Kafka&#x27;s is pull-based.<p>Our new cloud architecture is based on the actor model, which means all the worker nodes are working asynchronously, and the log sequence is the key to linking all the nodes. We think the push-based message consumption model and the actor model have more logical consistency. So we started with Apache Pulsar in our new implementation. We did have some concerns about Pulsar; for example,<p>- The project popularity<p>- The Go SDK is buggy<p>- The documentation is not as good as Kafka<p>We don&#x27;t think these points are showstoppers. However, some of our users have different thoughts. They are asking when we would support Kafka. Some of them even mentioned they won&#x27;t maintain Pulsar in their production environment.<p>So HN, please let me know your thoughts about this question. Should we give Kafka adoption a much higher priority since we just completed the new lease GA?<p>Reference:<p>[1] https:&#x2F;&#x2F;milvus.io<p>[2] https:&#x2F;&#x2F;www.confluent.io&#x2F;kafka-vs-pulsar&#x2F;",
       "time": 1643293211,
       "title": "Ask HN: Do you support Apache Kafka more than Apache Pulsar? Why?",
       "type": "story"
@@ -19,89 +99,6 @@
       "title": "The Speed Limit in Every City Should Be 20 MPH",
       "type": "story",
       "url": "https://www.vice.com/en/article/wxdzxq/the-speed-limit-in-every-city-should-be-20-mph"
-    },
-    {
-      "by": "daveaiello",
-      "descendants": 0,
-      "id": 30100827,
-      "score": 2,
-      "time": 1643293106,
-      "title": "Scientific paper claims octopuses are aliens from outer space",
-      "type": "story",
-      "url": "https://bgr.com/science/new-scientific-paper-claims-octopuses-are-actually-aliens-from-outer-space/"
-    },
-    {
-      "by": "chanfest22",
-      "descendants": 0,
-      "id": 30100822,
-      "score": 2,
-      "time": 1643293073,
-      "title": "CoinTracker (YC W18) raises $100M to scale cryptocurrency tax compliance",
-      "type": "story",
-      "url": "https://techcrunch.com/2022/01/27/crypto-investors-have-1099-problems-cointracker-helps-make-sure-the-irs-isnt-one/"
-    },
-    {
-      "by": "treycopeland",
-      "descendants": 1,
-      "id": 30100812,
-      "kids": [
-        30100813
-      ],
-      "score": 1,
-      "time": 1643293019,
-      "title": "Turning a failing little coffee blog into a $1M dollar exit by doing less",
-      "type": "story",
-      "url": "https://typeshare.co/alxzoogmi/posts/how-i-turned-a-failing-little-coffee-blog-into-a-1-million-dollar-exit-by-doing-less"
-    },
-    {
-      "by": "sebg",
-      "descendants": 0,
-      "id": 30100792,
-      "score": 1,
-      "time": 1643292856,
-      "title": "WASM powered Jupyter running in the browse",
-      "type": "story",
-      "url": "https://github.com/jupyterlite/jupyterlite"
-    },
-    {
-      "by": "colinprince",
-      "descendants": 0,
-      "id": 30100781,
-      "score": 2,
-      "time": 1643292792,
-      "title": "Hacker Takes over Numbers Station for Rickrolls and Memes",
-      "type": "story",
-      "url": "https://kotaku.com/numbers-station-russian-rickroll-uvb-76-hackers-gangnam-1848399390"
-    },
-    {
-      "by": "aristofun",
-      "descendants": 0,
-      "id": 30100763,
-      "score": 1,
-      "text": "If you have a successful or at least growing startup, and your founders work 100% remotely from each other from day 1 — please share your story in as mich details as you can.<p>I’ve seen a few examples of moderate to highly successful fully remote and “remote by design” hi-tech companies.<p>But never have I heard of core founders found each other online or even working remotely from each other.<p>It made sense before covid times, but how about now?..",
-      "time": 1643292684,
-      "title": "Ask HN: Any successful stories of finding co-founders online?",
-      "type": "story"
-    },
-    {
-      "by": "treycopeland",
-      "descendants": 0,
-      "id": 30100740,
-      "score": 1,
-      "time": 1643292557,
-      "title": "IRS wants to scan your face to access their website",
-      "type": "story",
-      "url": "https://www.washingtonpost.com/technology/2022/01/27/irs-face-scans/"
-    },
-    {
-      "by": "planetis",
-      "descendants": 0,
-      "id": 30100739,
-      "score": 1,
-      "time": 1643292555,
-      "title": "Introduction to Metaprogramming in Nim",
-      "type": "story",
-      "url": "https://hookrace.net/blog/introduction-to-metaprogramming-in-nim/"
     }
   ]
 }
