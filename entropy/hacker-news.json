@@ -1,6 +1,86 @@
 {
   "stories": [
     {
+      "by": "totalZero",
+      "descendants": 0,
+      "id": 30101410,
+      "score": 1,
+      "time": 1643295984,
+      "title": "China's Tsinghua Unigroup axes major memory chip projects",
+      "type": "story",
+      "url": "https://asia.nikkei.com/Business/China-tech/China-s-Tsinghua-Unigroup-axes-major-memory-chip-projects"
+    },
+    {
+      "by": "leonry",
+      "descendants": 0,
+      "id": 30101404,
+      "score": 1,
+      "time": 1643295956,
+      "title": "How Much Did a Tunic Cost in the Roman Empire?",
+      "type": "story",
+      "url": "https://www.bookandsword.com/2021/05/08/how-much-did-a-tunic-cost-in-the-roman-empire/"
+    },
+    {
+      "by": "Markuscodes",
+      "descendants": 0,
+      "id": 30101393,
+      "score": 1,
+      "time": 1643295908,
+      "title": "PwnKit: Local Privilege Escalation Vulnerability Discovered in Polkit’s Pkexec",
+      "type": "story",
+      "url": "https://blog.qualys.com/vulnerabilities-threat-research/2022/01/25/pwnkit-local-privilege-escalation-vulnerability-discovered-in-polkits-pkexec-cve-2021-4034"
+    },
+    {
+      "by": "yakubin",
+      "descendants": 0,
+      "id": 30101378,
+      "score": 1,
+      "text": "I&#x27;ve been wondering about the problem of debugging applications, when some of your libraries are closed-source (provided by another company). If there is a memory-corruption, code from a library may corrupt memory used by your own code. I think ideally different libs should run in their own address spaces, so if you have a function foo1() from lib1, which calls a function foo2() from lib2, the call involves a switch of entries in the page table, to protect the address space of lib1. The call would still be blocking. And if lib2 crashes, it wouldn&#x27;t crash the whole application, but would deliver an exception to foo1() in lib1. Now the question is: has anything like that been done before?",
+      "time": 1643295835,
+      "title": "Ask HN: OS-es with dynamically-linked libs in separate address spaces?",
+      "type": "story"
+    },
+    {
+      "by": "CapitalistCartr",
+      "descendants": 0,
+      "id": 30101347,
+      "score": 2,
+      "time": 1643295674,
+      "title": "Notabene Publishes the State of Crypto Travel Rule Compliance Report",
+      "type": "story",
+      "url": "https://apnews.com/press-release/pr-newswire/business-cc968016988bf8d789b8bd1b2d60d5a8"
+    },
+    {
+      "by": "evo_9",
+      "descendants": 0,
+      "id": 30101344,
+      "score": 1,
+      "time": 1643295656,
+      "title": "Tesla’s Optimus Robot Project Could Eclipse Car Business says Musk",
+      "type": "story",
+      "url": "https://www.businessinsider.com/elon-musk-tesla-robot-business-optimus-most-important-new-product-2022-1"
+    },
+    {
+      "by": "asim",
+      "descendants": 0,
+      "id": 30101340,
+      "score": 1,
+      "time": 1643295645,
+      "title": "M3O Search API – indexing and full text search",
+      "type": "story",
+      "url": "https://m3o.com/search"
+    },
+    {
+      "by": "kloch",
+      "descendants": 0,
+      "id": 30101338,
+      "score": 1,
+      "time": 1643295636,
+      "title": "SGI Iris 2400 (1985)",
+      "type": "story",
+      "url": "https://www.youtube.com/watch?v=9EEY87HAHzk"
+    },
+    {
       "by": "CapitalistCartr",
       "descendants": 0,
       "id": 30101326,
@@ -12,99 +92,16 @@
     },
     {
       "by": "andreacavagna",
-      "descendants": 0,
+      "descendants": 1,
       "id": 30101292,
-      "score": 1,
+      "kids": [
+        30101362
+      ],
+      "score": 3,
       "text": "Hi everyone, \nWhy is it so difficult to find a space to communicate your open-source project to drive adoption at scale?\nTo recruit new people inside a new company, it&#x27;s not easy to explain the open-source workflow to not-tech people, so most often, great open-source projects have lousy communication.<p>Evangelism, like GitLab said (https:&#x2F;&#x2F;about.gitlab.com&#x2F;handbook&#x2F;marketing&#x2F;community-relations&#x2F;developer-evangelism&#x2F;#utms-for-url-tagging-and-tracking), is essential.\nThat&#x27;s sure. But how to scale up a team to grow that skill inside the company?<p>Is it better to grow it internally (logically, a founder is the best person to communicate his project)? \nBut how a tech person can develop marketing and communication skills?<p>Or the best way is to recruit a skilled DevRel person or instead of a marketing person and collaborate in creating great content?",
       "time": 1643295377,
       "title": "Ask HN: Marketing, DevRel and Evangelism working for Open-source",
       "type": "story"
-    },
-    {
-      "by": "jbegley",
-      "descendants": 0,
-      "id": 30101291,
-      "score": 1,
-      "time": 1643295375,
-      "title": "It’s Hard to Tell When the Crypto Bubble Will Burst, or If There Is One",
-      "type": "story",
-      "url": "https://www.nytimes.com/2022/01/27/business/crypto-price-bubble.html"
-    },
-    {
-      "by": "user249",
-      "descendants": 1,
-      "id": 30101277,
-      "kids": [
-        30101281
-      ],
-      "score": 2,
-      "time": 1643295279,
-      "title": "We Might Be in a Simulation. How Much Should That Worry Us?",
-      "type": "story",
-      "url": "https://www.nytimes.com/2022/01/26/opinion/virtual-reality-simulation.html"
-    },
-    {
-      "by": "latchkey",
-      "descendants": 0,
-      "id": 30101276,
-      "score": 1,
-      "time": 1643295278,
-      "title": "Soulbound",
-      "type": "story",
-      "url": "https://vitalik.eth.limo/general/2022/01/26/soulbound.html"
-    },
-    {
-      "by": "michele_f",
-      "descendants": 0,
-      "id": 30101274,
-      "score": 1,
-      "text": "Hi guys,<p>I&#x27;m looking for companies that offers Natural Language Generation technology. This is what I need to do: starting from structured data (time-series, records) about some past, current and forecasted phenomena of a specific field, I&#x27;d like to see whether some narrative, in English, can be automatically generated but in a way that does look linguistically rich and semantically grounded. I already tested out some rule-based systems, but they lack the afore mentioned characteristics.<p>Do you guys know of such companies? I would skip research institutions providing pieces of software: I&#x27;m more looking into already built products.<p>Thanks a lot!",
-      "time": 1643295270,
-      "title": "Ask HN: Natural language generation from structured data",
-      "type": "story"
-    },
-    {
-      "by": "CharlesW",
-      "descendants": 0,
-      "id": 30101271,
-      "score": 1,
-      "time": 1643295252,
-      "title": "iPhones will soon accept contactless payments directly, says report",
-      "type": "story",
-      "url": "https://www.theverge.com/2022/1/26/22903971/iphone-apple-mobeewave-contactless-payments-ios-update"
-    },
-    {
-      "by": "matthewsinclair",
-      "descendants": 0,
-      "id": 30101270,
-      "score": 1,
-      "time": 1643295252,
-      "title": "Brooklyn Nets look to become the first basketball team in the metaverse",
-      "type": "story",
-      "url": "https://www.bkmag.com/2022/01/24/brooklyn-nets-look-to-become-the-first-team-in-the-metaverse/"
-    },
-    {
-      "by": "xnhbx",
-      "descendants": 0,
-      "id": 30101264,
-      "score": 1,
-      "time": 1643295221,
-      "title": "Android Studio Released on 2022-01-25 is Versioned as 2021.1.1",
-      "type": "story",
-      "url": "https://android-developers.googleblog.com/2022/01/android-studio-bumblebee-202111-stable.html"
-    },
-    {
-      "by": "jmmease",
-      "descendants": 1,
-      "id": 30101246,
-      "kids": [
-        30101259
-      ],
-      "score": 2,
-      "time": 1643295133,
-      "title": "VegaFusion: Server-side acceleration for Vega visualizations with Rust and WASM",
-      "type": "story",
-      "url": "https://medium.com/@jonmmease/announcing-vegafusion-570f62207ba7"
     }
   ]
 }
