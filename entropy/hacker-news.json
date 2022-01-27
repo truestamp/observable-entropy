@@ -1,11 +1,90 @@
 {
   "stories": [
     {
+      "by": "schaefer",
+      "descendants": 0,
+      "id": 30093989,
+      "score": 1,
+      "time": 1643241614,
+      "title": "Spotify says it will remove Neil Young’s music instead of dropping Joe Rogan",
+      "type": "story",
+      "url": "https://arstechnica.com/tech-policy/2022/01/spotify-to-remove-neil-youngs-music-after-rockers-ultimatum-over-joe-rogan/"
+    },
+    {
+      "by": "11thEarlOfMar",
+      "descendants": 0,
+      "id": 30093986,
+      "score": 1,
+      "time": 1643241605,
+      "title": "Tesla 2021 FY Results [pdf]",
+      "type": "story",
+      "url": "https://tesla-cdn.thron.com/static/WIIG2L_TSLA_Q4_2021_Update_O7MYNE.pdf"
+    },
+    {
+      "by": "jasonhansel",
+      "descendants": 0,
+      "id": 30093978,
+      "score": 1,
+      "time": 1643241563,
+      "title": "Substack Is Profiting Off Anti-Mask and Anti-Vaccine Newsletters",
+      "type": "story",
+      "url": "https://www.motherjones.com/politics/2021/10/substack-is-profiting-off-anti-mask-and-anti-vaccine-newsletters/"
+    },
+    {
+      "by": "vector_spaces",
+      "descendants": 0,
+      "id": 30093972,
+      "score": 1,
+      "time": 1643241547,
+      "title": "JSON Meta Application Protocol",
+      "type": "story",
+      "url": "https://en.wikipedia.org/wiki/JSON_Meta_Application_Protocol"
+    },
+    {
+      "by": "staunch",
+      "descendants": 0,
+      "id": 30093944,
+      "score": 1,
+      "text": "I remember in the past seeing a couple different sites that tracked HN submissions to identify which ones had been flagged, pushed down, killed, etc.<p>Is there such a site today? If so, can I get the link? If not, can someone please with the motivation build a new one and maintain it?<p>Obviously this should be a feature of HN itself, it&#x27;s pretty simple, but in lieu that it seems incredibly important for someone to build and maintain it.<p>Even though the recent complaints about YC&#x2F;Stripe are not fully founded (IMHO) there is no doubt that YC&#x27;s dominance over the tech community&#x27;s conversations is something to be watched very closely.<p>There have been shenanigans in the past and there will be in the future. The conflict of interest is simply too strong.<p>The most obvious issue today is that HN doesn&#x27;t prevent voting rings for sufficiently large organizations, like YC itself. Why doesn&#x27;t it prevent them? Well, the answer is obvious: they have a massive incentive not to.",
+      "time": 1643241347,
+      "title": "Ask HN: Is there currently an HN transparency site?",
+      "type": "story"
+    },
+    {
+      "by": "pingiun",
+      "descendants": 0,
+      "id": 30093941,
+      "score": 1,
+      "time": 1643241317,
+      "title": "The largest Git repo on the planet (2017)",
+      "type": "story",
+      "url": "https://devblogs.microsoft.com/bharry/the-largest-git-repo-on-the-planet/"
+    },
+    {
+      "by": "president",
+      "descendants": 0,
+      "id": 30093940,
+      "score": 1,
+      "time": 1643241314,
+      "title": "Ask HN: Is there an API out there for verifying US citizenship?",
+      "type": "story"
+    },
+    {
+      "by": "drewda",
+      "descendants": 0,
+      "id": 30093937,
+      "score": 1,
+      "time": 1643241310,
+      "title": "Creating a Faster Tar Extractor",
+      "type": "story",
+      "url": "https://databricks.com/blog/2022/01/26/creating-a-faster-tar-extractor.html"
+    },
+    {
       "by": "davnicwil",
       "descendants": 0,
       "id": 30093931,
       "score": 1,
-      "text": "I&#x27;ve often wondered why there isn&#x27;t a standard for browsers having a pre-populated local cache of very popular JS libraries. To name a few examples: jQuery, Lodash, React.<p>It seems like the benefits of this would be significant for both user and developer - faster loading, lower bandwidth, quicker builds, etc.<p>It also seems eminently doable, technically. One possible high-level implementation off the top of my head:<p>- A standard index of the most popular libs is maintained.\n- You pull them in via the script tag, with a new lib=&quot;name@version&quot; attribute. Older browsers can use the src tag as a backup.\n- SPA build systems like webpack et al are aware of the standard and can just not bundle libs pulled this way, while keeping the require() and import syntax.<p>I do, however, see some pretty big not-strictly-technical difficulties:<p>- The index would have to be administered by some entity. Who would that be, and who would pay for it?<p>- Who defines what the most popular libs are? Whatever system is used, how do you prevent it being gamed to the advantage of particular libs?<p>- Trust and security. A similar set of issues npm faces. Although that being the case, is this really introducing a new problem? It also seems like a much narrower problem if we&#x27;re only talking about a small set of very popular libs.<p>- Maybe some issues around licensing, bundling code into browsers etc. But again, if it&#x27;s a smallish set of only very popular libs, this seems like it could be dealt with individually for each one and its authors, maybe as a prerequisite for getting included in the index.<p>These difficulties are not insignificant, but nor do they seem insurmountable and also the benefits do seem genuinely worth it.<p>It just appears to me to be something that should so obviously have been done, that there must be really good reasons why it hasn&#x27;t been - maybe including those above, maybe technical, maybe others.<p>Does anyone know if any serious attempt has ever been made at a proposal to do something like this, even if in a non-standard way by an individual browser vendor?",
+      "text": "I&#x27;ve often wondered why there isn&#x27;t a standard for browsers having a pre-populated local cache of very popular JS libraries. To name a few examples: jQuery, Lodash, React.<p>It seems like the benefits of this would be significant for both user and developer - faster loading, lower bandwidth, quicker builds, etc.<p>It also seems eminently doable, technically. One possible high-level implementation off the top of my head:<p>- A standard index of the most popular libs is maintained.<p>- You pull them in via the script tag, with a new lib=&quot;name@version&quot; attribute. Older browsers can use the src tag as a backup.<p>- SPA build systems like webpack et al are aware of the standard and can just not bundle libs pulled this way, while keeping the require() and import syntax.<p>I do, however, see some pretty big not-strictly-technical difficulties:<p>- The index would have to be administered by some entity. Who would that be, and who would pay for it?<p>- Who defines what the most popular libs are? Whatever system is used, how do you prevent it being gamed to the advantage of particular libs?<p>- Trust and security. A similar set of issues npm faces. Although that being the case, is this really introducing a new problem? It also seems like a much narrower problem if we&#x27;re only talking about a small set of very popular libs.<p>- Maybe some issues around licensing, bundling code into browsers etc. But again, if it&#x27;s a smallish set of only very popular libs, this seems like it could be dealt with individually for each one and its authors, maybe as a prerequisite for getting included in the index.<p>These difficulties are not insignificant, but nor do they seem insurmountable and also the benefits do seem genuinely worth it.<p>It just appears to me to be something that should so obviously have been done, that there must be really good reasons why it hasn&#x27;t been - maybe including those above, maybe technical, maybe others.<p>Does anyone know if any serious attempt has ever been made at a proposal to do something like this, even if in a non-standard way by an individual browser vendor?",
       "time": 1643241265,
       "title": "Ask HN: Why don't browsers pre-include popular JavaScript libraries?",
       "type": "story"
@@ -14,92 +93,11 @@
       "by": "mcenedella",
       "descendants": 0,
       "id": 30093841,
-      "score": 1,
+      "score": 2,
       "time": 1643240698,
       "title": "Cracking a $2M Crypto Wallet",
       "type": "story",
       "url": "https://www.theverge.com/2022/1/24/22898712/crypto-hardware-wallet-hacking-lost-bitcoin-ethereum-nft"
-    },
-    {
-      "by": "enigmatic02",
-      "descendants": 0,
-      "id": 30093794,
-      "score": 1,
-      "time": 1643240398,
-      "title": "Copying is the way design works",
-      "type": "story",
-      "url": "https://matthewstrom.com/writing/copying/"
-    },
-    {
-      "by": "themodelplumber",
-      "descendants": 0,
-      "id": 30093771,
-      "score": 1,
-      "text": "I was looking over some tabletop games recently and thought it might be interesting to ask what&#x2F;if people on HN are liking or playing.<p>Personally I&#x27;m working from a TTRPG supplement called Search &amp; Destroy by Stone Mountain Press, adapting its &quot;organizational combat&quot; rules (for business battles, government agencies, etc.) to run company- through brigade-level wargames. It uses a narrative-driven dice pool mechanic and I&#x27;m working through it adding crunchy house rules here and there.<p>Love to hear what anybody else is up to.",
-      "time": 1643240269,
-      "title": "Ask HN: Who is playing TTRPGs, wargames, boardgames, and what are you liking?",
-      "type": "story"
-    },
-    {
-      "by": "RomanPushkin",
-      "descendants": 0,
-      "id": 30093760,
-      "score": 1,
-      "text": "After working in toxic environment as engineer, I&#x27;ve built this tool in one month, and looking for your feedback.",
-      "time": 1643240227,
-      "title": "Show HN: Stop Hate and Anger in Slack",
-      "type": "story",
-      "url": "https://healthydebate.ai/"
-    },
-    {
-      "by": "enigmatic02",
-      "descendants": 0,
-      "id": 30093745,
-      "score": 1,
-      "time": 1643240179,
-      "title": "Agency",
-      "type": "story",
-      "url": "https://ava.substack.com/p/agencysatisfaction"
-    },
-    {
-      "by": "bradwood",
-      "descendants": 0,
-      "id": 30093723,
-      "score": 1,
-      "text": "Just wondered if it&#x27;s me, or if it&#x27;s not possible to actually upgrade to the paid-for GSuite in the UK as the stupid checkout form forces a US address with a US state, etc?<p>Anyone else noticed this?<p>Doesn&#x27;t bode well for something I am now _compelled_ to pay for",
-      "time": 1643240033,
-      "title": "Ask HN: UK- Gsuite Legacy Users – can you enter a UK address when upgrading?",
-      "type": "story"
-    },
-    {
-      "by": "hondo77",
-      "descendants": 0,
-      "id": 30093721,
-      "score": 2,
-      "time": 1643240029,
-      "title": "Moving the U.S. Government Toward Zero Trust Cybersecurity Principles [pdf]",
-      "type": "story",
-      "url": "https://www.whitehouse.gov/wp-content/uploads/2022/01/M-22-09.pdf"
-    },
-    {
-      "by": "enigmatic02",
-      "descendants": 0,
-      "id": 30093697,
-      "score": 1,
-      "time": 1643239922,
-      "title": "Don't Shine the Turd",
-      "type": "story",
-      "url": "https://www.collaborativefund.com/blog/dont-shine-the-turd/"
-    },
-    {
-      "by": "enigmatic02",
-      "descendants": 0,
-      "id": 30093695,
-      "score": 3,
-      "time": 1643239909,
-      "title": "Here We Go Again",
-      "type": "story",
-      "url": "https://seths.blog/2022/01/here-we-go-again-2/"
     }
   ]
 }
