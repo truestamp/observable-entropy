@@ -1,6 +1,46 @@
 {
   "stories": [
     {
+      "by": "treycopeland",
+      "descendants": 0,
+      "id": 30101446,
+      "score": 1,
+      "time": 1643296203,
+      "title": "Houses are expensive everywhere, and we don’t have enough of them",
+      "type": "story",
+      "url": "https://www.grid.news/story/economy/2022/01/27/houses-are-expensive-everywhere-and-we-dont-have-enough-of-them/"
+    },
+    {
+      "by": "jbegley",
+      "descendants": 0,
+      "id": 30101426,
+      "score": 1,
+      "time": 1643296091,
+      "title": "Amazon workers eligible to hold union election at New York warehouse",
+      "type": "story",
+      "url": "https://www.reuters.com/business/retail-consumer/amazon-workers-meet-requirements-hold-union-election-new-york-warehouse-nlrb-2022-01-26/"
+    },
+    {
+      "by": "onion2k",
+      "descendants": 0,
+      "id": 30101424,
+      "score": 1,
+      "time": 1643296068,
+      "title": "Amazon Paid for a High School Course About Amazon",
+      "type": "story",
+      "url": "https://www.vice.com/en/article/bvndja/amazon-paid-for-a-high-school-course-heres-what-they-teach"
+    },
+    {
+      "by": "EthanHeilman",
+      "descendants": 0,
+      "id": 30101411,
+      "score": 1,
+      "time": 1643295989,
+      "title": "I read the federal government’s Zero-Trust Memo so you don’t have to",
+      "type": "story",
+      "url": "https://www.bastionzero.com/blog/i-read-the-federal-governments-zero-trust-memo-so-you-dont-have-to"
+    },
+    {
       "by": "totalZero",
       "descendants": 0,
       "id": 30101410,
@@ -34,7 +74,7 @@
       "by": "yakubin",
       "descendants": 0,
       "id": 30101378,
-      "score": 1,
+      "score": 2,
       "text": "I&#x27;ve been wondering about the problem of debugging applications, when some of your libraries are closed-source (provided by another company). If there is a memory-corruption, code from a library may corrupt memory used by your own code. I think ideally different libs should run in their own address spaces, so if you have a function foo1() from lib1, which calls a function foo2() from lib2, the call involves a switch of entries in the page table, to protect the address space of lib1. The call would still be blocking. And if lib2 crashes, it wouldn&#x27;t crash the whole application, but would deliver an exception to foo1() in lib1. Now the question is: has anything like that been done before?",
       "time": 1643295835,
       "title": "Ask HN: OS-es with dynamically-linked libs in separate address spaces?",
@@ -59,49 +99,6 @@
       "title": "Tesla’s Optimus Robot Project Could Eclipse Car Business says Musk",
       "type": "story",
       "url": "https://www.businessinsider.com/elon-musk-tesla-robot-business-optimus-most-important-new-product-2022-1"
-    },
-    {
-      "by": "asim",
-      "descendants": 0,
-      "id": 30101340,
-      "score": 1,
-      "time": 1643295645,
-      "title": "M3O Search API – indexing and full text search",
-      "type": "story",
-      "url": "https://m3o.com/search"
-    },
-    {
-      "by": "kloch",
-      "descendants": 0,
-      "id": 30101338,
-      "score": 1,
-      "time": 1643295636,
-      "title": "SGI Iris 2400 (1985)",
-      "type": "story",
-      "url": "https://www.youtube.com/watch?v=9EEY87HAHzk"
-    },
-    {
-      "by": "CapitalistCartr",
-      "descendants": 0,
-      "id": 30101326,
-      "score": 1,
-      "time": 1643295598,
-      "title": "Russia could unleash cyberattacks, effort to sow confusion, division more likely",
-      "type": "story",
-      "url": "https://theconversation.com/russia-could-unleash-disruptive-cyberattacks-against-the-us-but-efforts-to-sow-confusion-and-division-are-more-likely-175471"
-    },
-    {
-      "by": "andreacavagna",
-      "descendants": 1,
-      "id": 30101292,
-      "kids": [
-        30101362
-      ],
-      "score": 3,
-      "text": "Hi everyone, \nWhy is it so difficult to find a space to communicate your open-source project to drive adoption at scale?\nTo recruit new people inside a new company, it&#x27;s not easy to explain the open-source workflow to not-tech people, so most often, great open-source projects have lousy communication.<p>Evangelism, like GitLab said (https:&#x2F;&#x2F;about.gitlab.com&#x2F;handbook&#x2F;marketing&#x2F;community-relations&#x2F;developer-evangelism&#x2F;#utms-for-url-tagging-and-tracking), is essential.\nThat&#x27;s sure. But how to scale up a team to grow that skill inside the company?<p>Is it better to grow it internally (logically, a founder is the best person to communicate his project)? \nBut how a tech person can develop marketing and communication skills?<p>Or the best way is to recruit a skilled DevRel person or instead of a marketing person and collaborate in creating great content?",
-      "time": 1643295377,
-      "title": "Ask HN: Marketing, DevRel and Evangelism working for Open-source",
-      "type": "story"
     }
   ]
 }
