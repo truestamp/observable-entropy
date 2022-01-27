@@ -1,10 +1,50 @@
 {
   "stories": [
     {
+      "by": "jelliclesfarm",
+      "descendants": 0,
+      "id": 30094031,
+      "score": 1,
+      "time": 1643241857,
+      "title": "Affordable Housing Models in the Nordic Countries 2020 [pdf]",
+      "type": "story",
+      "url": "https://static1.squarespace.com/static/5a99206bee17593d9ef5cceb/t/5f609207aed573278ae41bc4/1600164570274/NBO+–+Housing+Nordic_Housing+models+in+the+Nordic+Region.pdf"
+    },
+    {
+      "by": "gotmedium",
+      "descendants": 0,
+      "id": 30094028,
+      "score": 1,
+      "time": 1643241828,
+      "title": "The Cheap and Easy Climate Fix That Can Cool the Planet Fast",
+      "type": "story",
+      "url": "https://www.bloomberg.com/graphics/2021-methane-impact-on-climate/"
+    },
+    {
+      "by": "jasonhansel",
+      "descendants": 0,
+      "id": 30093992,
+      "score": 1,
+      "time": 1643241638,
+      "title": "On Substack, Covid misinformation is allowed to flourish",
+      "type": "story",
+      "url": "https://mashable.com/article/substack-covid-misinformation"
+    },
+    {
+      "by": "maydemir",
+      "descendants": 0,
+      "id": 30093990,
+      "score": 1,
+      "time": 1643241625,
+      "title": "Zetane Viewer – ML models and internal tensors 3D visualizer",
+      "type": "story",
+      "url": "https://github.com/zetane/viewer"
+    },
+    {
       "by": "schaefer",
       "descendants": 0,
       "id": 30093989,
-      "score": 1,
+      "score": 2,
       "time": 1643241614,
       "title": "Spotify says it will remove Neil Young’s music instead of dropping Joe Rogan",
       "type": "story",
@@ -21,16 +61,6 @@
       "url": "https://tesla-cdn.thron.com/static/WIIG2L_TSLA_Q4_2021_Update_O7MYNE.pdf"
     },
     {
-      "by": "jasonhansel",
-      "descendants": 0,
-      "id": 30093978,
-      "score": 1,
-      "time": 1643241563,
-      "title": "Substack Is Profiting Off Anti-Mask and Anti-Vaccine Newsletters",
-      "type": "story",
-      "url": "https://www.motherjones.com/politics/2021/10/substack-is-profiting-off-anti-mask-and-anti-vaccine-newsletters/"
-    },
-    {
       "by": "vector_spaces",
       "descendants": 0,
       "id": 30093972,
@@ -45,7 +75,7 @@
       "descendants": 0,
       "id": 30093944,
       "score": 1,
-      "text": "I remember in the past seeing a couple different sites that tracked HN submissions to identify which ones had been flagged, pushed down, killed, etc.<p>Is there such a site today? If so, can I get the link? If not, can someone please with the motivation build a new one and maintain it?<p>Obviously this should be a feature of HN itself, it&#x27;s pretty simple, but in lieu that it seems incredibly important for someone to build and maintain it.<p>Even though the recent complaints about YC&#x2F;Stripe are not fully founded (IMHO) there is no doubt that YC&#x27;s dominance over the tech community&#x27;s conversations is something to be watched very closely.<p>There have been shenanigans in the past and there will be in the future. The conflict of interest is simply too strong.<p>The most obvious issue today is that HN doesn&#x27;t prevent voting rings for sufficiently large organizations, like YC itself. Why doesn&#x27;t it prevent them? Well, the answer is obvious: they have a massive incentive not to.",
+      "text": "I remember in the past seeing a couple different sites that tracked HN submissions to identify which ones had been flagged, pushed down, killed, etc.<p>Is there such a site today? If so, can I get the link? If not, it would be great if someone (with the time&#x2F;motivation&#x2F;skill) could build a new one and maintain it over the long term. Maybe even push the data to a blockchain or something.<p>Obviously this should be a feature of HN itself, it&#x27;s pretty simple, but in lieu that it seems incredibly important for someone to build and maintain it.<p>Even though the recent complaints about YC&#x2F;Stripe are not fully founded (IMHO) there is no doubt that YC&#x27;s dominance over the tech community&#x27;s conversations is something to be watched very closely. They have their thumb on the scale.<p>There have been shenanigans in the past and there will be in the future. The conflict of interest is simply too strong.<p>The most obvious issue today is that HN doesn&#x27;t prevent voting rings for sufficiently large organizations, like YC itself. Why doesn&#x27;t it prevent them? Well, the answer is obvious: they have a massive incentive not to. Why isn&#x27;t there a transparency log for moderation? Same answer.",
       "time": 1643241347,
       "title": "Ask HN: Is there currently an HN transparency site?",
       "type": "story"
@@ -68,36 +98,6 @@
       "time": 1643241314,
       "title": "Ask HN: Is there an API out there for verifying US citizenship?",
       "type": "story"
-    },
-    {
-      "by": "drewda",
-      "descendants": 0,
-      "id": 30093937,
-      "score": 1,
-      "time": 1643241310,
-      "title": "Creating a Faster Tar Extractor",
-      "type": "story",
-      "url": "https://databricks.com/blog/2022/01/26/creating-a-faster-tar-extractor.html"
-    },
-    {
-      "by": "davnicwil",
-      "descendants": 0,
-      "id": 30093931,
-      "score": 1,
-      "text": "I&#x27;ve often wondered why there isn&#x27;t a standard for browsers having a pre-populated local cache of very popular JS libraries. To name a few examples: jQuery, Lodash, React.<p>It seems like the benefits of this would be significant for both user and developer - faster loading, lower bandwidth, quicker builds, etc.<p>It also seems eminently doable, technically. One possible high-level implementation off the top of my head:<p>- A standard index of the most popular libs is maintained.<p>- You pull them in via the script tag, with a new lib=&quot;name@version&quot; attribute. Older browsers can use the src tag as a backup.<p>- SPA build systems like webpack et al are aware of the standard and can just not bundle libs pulled this way, while keeping the require() and import syntax.<p>I do, however, see some pretty big not-strictly-technical difficulties:<p>- The index would have to be administered by some entity. Who would that be, and who would pay for it?<p>- Who defines what the most popular libs are? Whatever system is used, how do you prevent it being gamed to the advantage of particular libs?<p>- Trust and security. A similar set of issues npm faces. Although that being the case, is this really introducing a new problem? It also seems like a much narrower problem if we&#x27;re only talking about a small set of very popular libs.<p>- Maybe some issues around licensing, bundling code into browsers etc. But again, if it&#x27;s a smallish set of only very popular libs, this seems like it could be dealt with individually for each one and its authors, maybe as a prerequisite for getting included in the index.<p>These difficulties are not insignificant, but nor do they seem insurmountable and also the benefits do seem genuinely worth it.<p>It just appears to me to be something that should so obviously have been done, that there must be really good reasons why it hasn&#x27;t been - maybe including those above, maybe technical, maybe others.<p>Does anyone know if any serious attempt has ever been made at a proposal to do something like this, even if in a non-standard way by an individual browser vendor?",
-      "time": 1643241265,
-      "title": "Ask HN: Why don't browsers pre-include popular JavaScript libraries?",
-      "type": "story"
-    },
-    {
-      "by": "mcenedella",
-      "descendants": 0,
-      "id": 30093841,
-      "score": 2,
-      "time": 1643240698,
-      "title": "Cracking a $2M Crypto Wallet",
-      "type": "story",
-      "url": "https://www.theverge.com/2022/1/24/22898712/crypto-hardware-wallet-hacking-lost-bitcoin-ethereum-nft"
     }
   ]
 }
