@@ -1,6 +1,77 @@
 {
   "stories": [
     {
+      "by": "rbanffy",
+      "descendants": 0,
+      "id": 30118323,
+      "score": 1,
+      "time": 1643393613,
+      "title": "US Air Force spends $60M on supersonic commercial airliner",
+      "type": "story",
+      "url": "https://arstechnica.com/science/2022/01/us-air-force-spends-60-million-on-supersonic-commercial-airliner/"
+    },
+    {
+      "by": "rbanffy",
+      "descendants": 0,
+      "id": 30118316,
+      "score": 1,
+      "time": 1643393592,
+      "title": "AI Is Already Making Moral Choices for Us. Now What?",
+      "type": "story",
+      "url": "https://nautil.us/ai-is-already-making-moral-choices-for-us-now-what-13740/"
+    },
+    {
+      "by": "iforgotmypass",
+      "descendants": 0,
+      "id": 30118309,
+      "score": 1,
+      "text": "Inspired by how a team of ex-colleagues support, tame and maintain a 1’000’000 LOC legacy monster written in PHP, I wanted to see if it would be possible to build a tool for PHP apps that allows adding debug statements to production code on-the-fly, without altering the code and avoiding redeployments.<p>The goal was to allow support engineers to diagnose root cause of business logic errors much quicker, by adding invisible “echo”, “var_dump” and “print_r” like statements to the production code with just a few clicks.<p>- Sometimes rollback process is painful, involves manual work or the team just has a move-forward culture (fixing bugs quickly with new deployments instead of performing rollbacks).<p>- Occassionally there are bugs specific to production environment data and conditions that can’t be easily reproduced in test&#x2F;staging environments.<p>- Due to the legacy nature of the codebase it is not always clear how and why the data ended in the place it did and it is not immediately clear which parts of the code were involved in handling the request.<p>Continuous debugging aims to solve these issues both for the hands-on debugging as well as enriching data that is automatically sent to error tracking services.<p>I’ve built a proof-of-concept, technical preview (pre-beta) version that demonstrates technical feasibility of such approach for PHP.<p>I am looking for pilot customers and early feedback to understand if it would be worthwile to invest time into further improvements and additions (if fellow developers would benefit from such debugging workflow).<p>I’m always humbled by the high quality of HN discussions and deep insights it generates. I would greatly appreciate any comments and thoughts.",
+      "time": 1643393538,
+      "title": "Show HN: Continuous Debugger for PHP",
+      "type": "story",
+      "url": "https://codeinsights.dev/"
+    },
+    {
+      "by": "tizz98",
+      "descendants": 0,
+      "id": 30118307,
+      "score": 1,
+      "text": "I&#x27;ve been trying to transfer money from Chime to another bank that doesn&#x27;t support Plaid. I&#x27;ve been told from Chime that I&#x27;m &quot;shit out of luck&quot; and to &quot;try again later&quot;.<p>It has been 3 days and haven&#x27;t gotten any response other than &quot;Keep an eye out for an email message from our Member Services team!&quot;.<p>Supposedly, my email was put in the priority queue, but haven&#x27;t received a response in almost 24 hours when I said I would &quot;definitely receive a response in 2 hours&quot;.<p>To me this seems highly illegal that I can&#x27;t initiate a transfer from Chime and my money is just &quot;stuck&quot; until they get back to me. Or I close my account and they send a check in 30 business days in the mail.",
+      "time": 1643393536,
+      "title": "Ask HN: Anyone Work at Chime to Help?",
+      "type": "story"
+    },
+    {
+      "by": "picture",
+      "descendants": 0,
+      "id": 30118305,
+      "score": 2,
+      "time": 1643393530,
+      "title": "Rome: Decline and Fall? Part II: Institutions",
+      "type": "story",
+      "url": "https://acoup.blog/2022/01/28/collections-rome-decline-and-fall-part-ii-institutions/"
+    },
+    {
+      "by": "penneyd",
+      "descendants": 0,
+      "id": 30118303,
+      "score": 1,
+      "time": 1643393523,
+      "title": "Qat lets you search for words matching a given pattern – looking at you Wordle",
+      "type": "story",
+      "url": "https://www.quinapalus.com/qat.html"
+    },
+    {
+      "by": "oblio",
+      "descendants": 0,
+      "id": 30118290,
+      "score": 1,
+      "time": 1643393445,
+      "title": "Making the Web Better. With Blocks",
+      "type": "story",
+      "url": "https://www.joelonsoftware.com/2022/01/"
+    },
+    {
       "by": "caaqil",
       "descendants": 0,
       "id": 30118276,
@@ -14,7 +85,7 @@
       "by": "prea",
       "descendants": 0,
       "id": 30118273,
-      "score": 1,
+      "score": 2,
       "time": 1643393362,
       "title": "Reclaiming the lost art of Linux server administration",
       "type": "story",
@@ -24,81 +95,11 @@
       "by": "stakkur",
       "descendants": 0,
       "id": 30118272,
-      "score": 1,
+      "score": 2,
       "time": 1643393354,
       "title": "Let Kids Take Their Masks Off After the Omicron Surge",
       "type": "story",
       "url": "https://www.nytimes.com/2022/01/28/opinion/masks-covid-children.html"
-    },
-    {
-      "by": "laurex",
-      "descendants": 0,
-      "id": 30118264,
-      "score": 1,
-      "time": 1643393324,
-      "title": "Did Eating Meat Make Us Human?",
-      "type": "story",
-      "url": "https://www.wired.com/story/human-evolution-meat/"
-    },
-    {
-      "by": "judell",
-      "descendants": 0,
-      "id": 30118257,
-      "score": 1,
-      "time": 1643393288,
-      "title": "PostgreSQL Timestamps and Timezones: What You Need to Know–and What You Don’t",
-      "type": "story",
-      "url": "https://blog.yugabyte.com/postgresql-timestamps-timezones/2"
-    },
-    {
-      "by": "bzg",
-      "descendants": 0,
-      "id": 30118236,
-      "score": 1,
-      "time": 1643393201,
-      "title": "Mute: A scalable collaborative document editor with CRDT, P2P and E2EE",
-      "type": "story",
-      "url": "https://github.com/coast-team/mute"
-    },
-    {
-      "by": "tumidpandora",
-      "descendants": 0,
-      "id": 30118194,
-      "score": 1,
-      "time": 1643393038,
-      "title": "Uncharted legacy of thieves is here",
-      "type": "story",
-      "url": "https://www.playstation.com/en-us/games/uncharted-legacy-of-thieves-collection/"
-    },
-    {
-      "by": "valiant-comma",
-      "descendants": 0,
-      "id": 30118189,
-      "score": 2,
-      "time": 1643393025,
-      "title": "Robert Jordan, Southwest Airlines’ Next CEO",
-      "type": "story",
-      "url": "https://www.dallasnews.com/business/airlines/2021/06/23/meet-robert-jordan-southwest-airlines-next-ceo/"
-    },
-    {
-      "by": "thedangler",
-      "descendants": 0,
-      "id": 30118166,
-      "score": 1,
-      "text": "Looking for product, open source preferably, like Tooljet, retool, etc. but also lets you drop a widget into a customer facing app like a webapp that is password protect. The closest one I found might be Budibase.<p>I like the idea of building back end tools but sometimes that backend tool needs to be populated by end users on a webservice.<p>I&#x27;d like to be able to just drop it in as an embed widget or js code.<p>Anyone know anything like that?<p>Thanks",
-      "time": 1643392943,
-      "title": "Ask HN: Retool, Budibase, Tooljet alternative for enduser widgets?",
-      "type": "story"
-    },
-    {
-      "by": "zabi_rauf",
-      "descendants": 0,
-      "id": 30118159,
-      "score": 1,
-      "time": 1643392926,
-      "title": "Suggestions for onboarding remote Software Engineers as an EM",
-      "type": "story",
-      "url": "https://zohaib.me/suggestions-for-onboarding-remote-engineers/"
     }
   ]
 }
