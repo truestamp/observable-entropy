@@ -3,6 +3,16 @@
     {
       "by": "kiyanwang",
       "descendants": 0,
+      "id": 30117342,
+      "score": 1,
+      "time": 1643389367,
+      "title": "Migrating AWS Lambda Functions to Arm-Based AWS Graviton2 Processors",
+      "type": "story",
+      "url": "https://aws.amazon.com/blogs/compute/migrating-aws-lambda-functions-to-arm-based-aws-graviton2-processors/"
+    },
+    {
+      "by": "kiyanwang",
+      "descendants": 0,
       "id": 30117292,
       "score": 1,
       "time": 1643389164,
@@ -44,8 +54,11 @@
     },
     {
       "by": "mikewarot",
-      "descendants": 0,
+      "descendants": 1,
       "id": 30117264,
+      "kids": [
+        30117358
+      ],
       "score": 1,
       "text": "We continually have stories of forced &quot;upgrades&quot; that break things, all in the name of &quot;security&quot; and &quot;best practices&quot; and a large range of other <i>absolutely important, how dare you question it</i> reasons.<p>The root cause of everything is the broken security model from Unix that underlies everything in our ecosystem.<p>How we managed to avoid reality and keep this co-dependent relationship going this long is a sad, sad tale.<p>We need an intervention.  It shouldn&#x27;t be unreasonable to want to be able to download some code, tell your system to run that code against a  set of capabilities, and be able to trust that those capabilities are the only things that will be affected.<p>We have a modern electric grid, which lets you take any random lamp from a thrift store, or curbside garbage can, and plug it in to your house, and know that doing so won&#x27;t burn your house down, no matter how poor the shape of the lamp. Why? Because of modern circuit breakers designed to protect the user and the wiring of the house.<p>Why can&#x27;t we have capability based security? It was invented 50 years ago!  It can protect the user, and the operating system, all in a usable, friendly manner.",
       "time": 1643389011,
@@ -92,16 +105,6 @@
       "title": "Show HN: Redux Remote – A high level networking library for realtime apps",
       "type": "story",
       "url": "https://github.com/yehzhang/redux-remote"
-    },
-    {
-      "by": "EntICOnc",
-      "descendants": 0,
-      "id": 30117140,
-      "score": 1,
-      "time": 1643388579,
-      "title": "Take Google's Machine Learning Crash Course",
-      "type": "story",
-      "url": "https://www.i-programmer.info/news/150-training-a-education/15175-take-googles-machine-learning-crash-course.html"
     }
   ]
 }
