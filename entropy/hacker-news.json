@@ -1,6 +1,92 @@
 {
   "stories": [
     {
+      "by": "chmaynard",
+      "descendants": 0,
+      "id": 30114302,
+      "score": 1,
+      "time": 1643376602,
+      "title": "Semiconductor Roundup – 1/27/2022",
+      "type": "story",
+      "url": "https://semianalysis.com/semiconductor-roundup-intel-teradyne-lam-research-wolfspeed-texas-instruments-umc-xilinx-samsung-mediatek-1-27-2022/"
+    },
+    {
+      "by": "todsacerdoti",
+      "descendants": 0,
+      "id": 30114291,
+      "score": 1,
+      "time": 1643376565,
+      "title": "Who Wrote the Alphv/BlackCat Ransomware Strain?",
+      "type": "story",
+      "url": "https://krebsonsecurity.com/2022/01/who-wrote-the-alphv-blackcat-ransomware-strain/"
+    },
+    {
+      "by": "CapitalistCartr",
+      "descendants": 0,
+      "id": 30114284,
+      "score": 1,
+      "time": 1643376536,
+      "title": "How Is Snowfall Measured?",
+      "type": "story",
+      "url": "https://theconversation.com/how-is-snowfall-measured-a-meteorologist-explains-how-volunteers-tally-up-winter-storms-175628"
+    },
+    {
+      "by": "account-5",
+      "descendants": 1,
+      "id": 30114272,
+      "kids": [
+        30114305
+      ],
+      "score": 1,
+      "time": 1643376489,
+      "title": "Take Your QNAP NAS Offline",
+      "type": "story",
+      "url": "https://www.bitdefender.com/blog/hotforsecurity/take-your-qnap-nas-offline-deadbolt-ransomware-locks-devices-via-alleged-zero-day-flaw/"
+    },
+    {
+      "by": "edent",
+      "descendants": 0,
+      "id": 30114265,
+      "score": 1,
+      "time": 1643376461,
+      "title": "Edit This Blog Post",
+      "type": "story",
+      "url": "https://shkspr.mobi/blog/2022/01/edit-this-blog-post/"
+    },
+    {
+      "by": "CapitalistCartr",
+      "descendants": 0,
+      "id": 30114253,
+      "score": 2,
+      "time": 1643376334,
+      "title": "Army wife uses AirTags to track shady movers",
+      "type": "story",
+      "url": "https://appleinsider.com/articles/22/01/19/army-wife-uses-airtag-to-track-late-moving-truck-driver-during-a-relocation"
+    },
+    {
+      "by": "hassy",
+      "descendants": 1,
+      "id": 30114252,
+      "kids": [
+        30114256
+      ],
+      "score": 2,
+      "text": "Hi HN fam! Hassy from Artillery (YC S21) here. Playwright got a lot of love on HN today [1] - rightfully so, it&#x27;s an incredible project! - so I thought I&#x27;d resubmit [2] an open-source project that lets you run load tests with existing Playwright scripts.<p>GitHub link: https:&#x2F;&#x2F;github.com&#x2F;artilleryio&#x2F;artillery-engine-playwright<p>The basic motivation for creating the project is that load testing complex web apps is a real pain in the ass. It takes ages to build out test scripts for a non-trivial web app with traditional API-oriented tools. If you&#x27;ve ever had to do it, you know how frustrating it can be.<p>So we thought, why not try load testing with real browsers instead? Especially if we can just reuse existing E2E testing scripts we already have? (based on Playwright of course!) Turns out it can work very well.<p>Is load testing with real browsers expensive? Yes, sort of - relative to more traditional load testing. This project lets you max out developer productivity points at the cost of... well, cost. But! developer time is expensive! And cloud compute is cheap - running 1,000 4 vCPU&#x2F;12GB RAM containers on AWS Fargate for an entire hour is going to cost ~$220 in Fargate fees for example.<p>The project is still in its early days, would love any feedback! &lt;3<p>1. https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=30083042\n2. https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=29402399",
+      "time": 1643376333,
+      "title": "Show HN: Load Testing with Playwright",
+      "type": "story"
+    },
+    {
+      "by": "Tomte",
+      "descendants": 0,
+      "id": 30114248,
+      "score": 1,
+      "time": 1643376312,
+      "title": "Implementing a MIME Database in XXXX",
+      "type": "story",
+      "url": "https://drewdevault.com/2022/01/28/Implementing-mime-in-xxxx.html"
+    },
+    {
       "by": "CapitalistCartr",
       "descendants": 0,
       "id": 30114229,
@@ -19,91 +105,6 @@
       "title": "Amazon has disbanded the Twitter army it paid to tweet about how great Amazon is",
       "type": "story",
       "url": "https://www.theverge.com/2022/1/27/22904145/amazon-fc-ambassadors-twitter-army-paid-influence-campaign-disbanded"
-    },
-    {
-      "by": "tosh",
-      "descendants": 0,
-      "id": 30114204,
-      "score": 1,
-      "time": 1643376040,
-      "title": "Hands-On with Universal Control in iPadOS 15.4 and macOS Monterey 12.3",
-      "type": "story",
-      "url": "https://www.macrumors.com/2022/01/27/hands-on-universal-control/"
-    },
-    {
-      "by": "tosh",
-      "descendants": 0,
-      "id": 30114174,
-      "score": 1,
-      "time": 1643375790,
-      "title": "Steel Machine (CD-i)",
-      "type": "story",
-      "url": "http://www.cdinteractive.co.uk/forums/cdinteractive/viewtopic.php?t=3031"
-    },
-    {
-      "by": "ahelwer",
-      "descendants": 3,
-      "id": 30114173,
-      "kids": [
-        30114247,
-        30114233,
-        30114234
-      ],
-      "score": 4,
-      "text": "Occasionally a link to a tweet will be submitted here as a story by itself. Unfortunately twitter is going the direction of quora, pinterest, facebook, and medium by making the site nearly unusable without an account. Until a few days ago you could read all the tweets you wanted but clicking any of them would pop up a “join twitter” screen. Now you can perhaps read ten tweets or replies to a linked tweet without an account before the same thing occurs.",
-      "time": 1643375789,
-      "title": "Tell HN: Twitter is growing increasingly unusable without an account",
-      "type": "story"
-    },
-    {
-      "by": "jeremylevy",
-      "descendants": 0,
-      "id": 30114166,
-      "score": 2,
-      "time": 1643375758,
-      "title": "He Spent 19 Hours a Day Doing Math",
-      "type": "story",
-      "url": "https://piggsboson.medium.com/he-spent-19-hours-a-day-doing-math-ac1697d90bde"
-    },
-    {
-      "by": "jonbaer",
-      "descendants": 0,
-      "id": 30114164,
-      "score": 1,
-      "time": 1643375739,
-      "title": "Letting Robocars See Around Corners",
-      "type": "story",
-      "url": "https://spectrum.ieee.org/car-radar"
-    },
-    {
-      "by": "chmaynard",
-      "descendants": 0,
-      "id": 30114152,
-      "score": 1,
-      "time": 1643375634,
-      "title": "Semiconductor Roundup – 1/28/2022",
-      "type": "story",
-      "url": "https://semianalysis.com/semiconductor-roundup-stm-klac-mksi-ampere-computing-apple-tesla-silicon-motion-macom-1-28-2022/"
-    },
-    {
-      "by": "sofixa",
-      "descendants": 0,
-      "id": 30114148,
-      "score": 1,
-      "time": 1643375625,
-      "title": "Protests flare across Poland after death of young mother denied an abortion",
-      "type": "story",
-      "url": "https://www.theguardian.com/global-development/2022/jan/27/protests-flare-across-poland-after-death-of-young-mother-denied-an-abortion"
-    },
-    {
-      "by": "dnetesn",
-      "descendants": 0,
-      "id": 30114129,
-      "score": 1,
-      "time": 1643375514,
-      "title": "Scientists explain mysterious finger-like features in solar flares",
-      "type": "story",
-      "url": "https://phys.org/news/2022-01-scientists-mysterious-finger-like-features-solar.html"
     }
   ]
 }
