@@ -1,6 +1,37 @@
 {
   "stories": [
     {
+      "by": "nullspace",
+      "descendants": 0,
+      "id": 30119091,
+      "score": 1,
+      "time": 1643397558,
+      "title": "Write-Only Code (2020)",
+      "type": "story",
+      "url": "https://7c0h.com/blog/new/write_only_code.html"
+    },
+    {
+      "by": "trzy",
+      "descendants": 0,
+      "id": 30119088,
+      "score": 1,
+      "text": "Fresh and (I think) clean implementations of Faster R-CNN in PyTorch and TensorFlow 2&#x2F;Keras.<p>I wanted to learn about object detectors and decided to understand and implement a foundational model in the field, Faster R-CNN (elements of which are still used in modern models to this day), using the paper alone. That proved to be more difficult than expected and I had to relent and take a peak at existing implementations to fill in some important gaps. I&#x27;ve documented my struggles and learnings in the README for others to benefit from.<p>I also wanted to solidify my understanding of TensorFlow&#x2F;Keras and learn PyTorch, so I made sure to implement the model in both. Faster R-CNN is fairly challenging in that it doesn&#x27;t quite map to Keras tutorial examples. For example, losses are not computed simply as a function of model output and input but rather, some of the training data is actually computed on-the-fly within the model during training and the losses have to explicitly be constructed as part of the graph.<p>Personally, I found the &quot;official&quot; TensorFlow reference implementation (<a href=\"https:&#x2F;&#x2F;github.com&#x2F;tensorflow&#x2F;models&#x2F;blob&#x2F;master&#x2F;research&#x2F;object_detection&#x2F;meta_architectures&#x2F;faster_rcnn_meta_arch.py\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;tensorflow&#x2F;models&#x2F;blob&#x2F;master&#x2F;research&#x2F;ob...</a>) to be very difficult to follow and I hope this proves to be useful to learners like myself.",
+      "time": 1643397544,
+      "title": "Show HN: Faster R-CNN object detector implemented in PyTorch and TensorFlow 2",
+      "type": "story",
+      "url": "https://github.com/trzy/FasterRCNN"
+    },
+    {
+      "by": "feross",
+      "descendants": 0,
+      "id": 30119072,
+      "score": 1,
+      "time": 1643397430,
+      "title": "Help a Computer Win the New Yorker Cartoon Caption Contest",
+      "type": "story",
+      "url": "https://pudding.cool/projects/caption-contest/"
+    },
+    {
       "by": "jger15",
       "descendants": 0,
       "id": 30119046,
@@ -14,7 +45,7 @@
       "by": "dwynings",
       "descendants": 0,
       "id": 30119033,
-      "score": 1,
+      "score": 2,
       "time": 1643397220,
       "title": "Cryptocurrency Revolutionized the White Supremacist Movement",
       "type": "story",
@@ -32,9 +63,12 @@
     },
     {
       "by": "userland_tech",
-      "descendants": 0,
+      "descendants": 1,
       "id": 30119029,
-      "score": 1,
+      "kids": [
+        30119082
+      ],
+      "score": 2,
       "text": "I want to share my newest Android app with everyone on HN.  CraftBox allows you to easily run a Minecraft server on your Android device.  It is published in the Play Store, <a href=\"https:&#x2F;&#x2F;play.google.com&#x2F;store&#x2F;apps&#x2F;details?id=tech.ula.craftbox\" rel=\"nofollow\">https:&#x2F;&#x2F;play.google.com&#x2F;store&#x2F;apps&#x2F;details?id=tech.ula.craft...</a> , and posted on GitHub: <a href=\"https:&#x2F;&#x2F;github.com&#x2F;CypherpunkArmory&#x2F;CraftBox\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;CypherpunkArmory&#x2F;CraftBox</a><p>I know I am late to the Minecraft scene.  I am a bit old to have been part of the original craze, but I now have a son who loves the game.  Now that I have played it with him, I can see the appeal.<p>I am an open source developer and the creator of UserLAnd, <a href=\"https:&#x2F;&#x2F;play.google.com&#x2F;store&#x2F;apps&#x2F;details?id=tech.ula\" rel=\"nofollow\">https:&#x2F;&#x2F;play.google.com&#x2F;store&#x2F;apps&#x2F;details?id=tech.ula</a>, so when I get excited about something, I am always thinking about how I can get involved and contribute to the community.  I read an article on how to run a Minecraft Server on your phone, <a href=\"https:&#x2F;&#x2F;www.xda-developers.com&#x2F;run-minecraft-server-android&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;www.xda-developers.com&#x2F;run-minecraft-server-android&#x2F;</a> , but I figured I could do better by not making people go through as many steps. So, that is a goal... make this simple.<p>This is the first public release and there are many things that can be improved.  You can see some of the issues I am going to be fixing soon in the GitHub issues.<p>Anyway, please check it out and tell me what you think.<p>Thanks!\nCorbin",
       "time": 1643397208,
       "title": "Show HN: CraftBox, Run a Minecraft Server on Your Phone",
@@ -70,36 +104,6 @@
       "title": "SUSE unveils Rancher Desktop 1.0 for Kubernetes on your PC",
       "type": "story",
       "url": "https://www.zdnet.com/article/rancher-desktop-1-0-for-working-with-kubernetes-on-your-pc-arrives/"
-    },
-    {
-      "by": "pettybetty",
-      "descendants": 0,
-      "id": 30118982,
-      "score": 1,
-      "time": 1643396945,
-      "title": "Surfshark reveals ties to NordVPN",
-      "type": "story",
-      "url": "https://www.techradar.com/news/surfshark-founder-reveals-ties-to-nordvpn-and-tesonet"
-    },
-    {
-      "by": "zenithar",
-      "descendants": 0,
-      "id": 30118978,
-      "score": 1,
-      "time": 1643396908,
-      "title": "Harp v0.2.5 – Secret management by contract",
-      "type": "story",
-      "url": "https://github.com/elastic/harp"
-    },
-    {
-      "by": "Paul_S",
-      "descendants": 0,
-      "id": 30118977,
-      "score": 1,
-      "time": 1643396906,
-      "title": "Hewlett-Packard wins fraud case against UK tech tycoon Mike Lynch",
-      "type": "story",
-      "url": "https://www.reuters.com/world/uk/pivotal-day-uk-tech-tycoon-lynch-after-decade-long-battle-with-hp-2022-01-28/"
     }
   ]
 }
