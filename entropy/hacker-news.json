@@ -1,106 +1,98 @@
 {
   "stories": [
+    null,
     {
-      "by": "DocFeind",
+      "by": "rbanffy",
       "descendants": 0,
-      "id": 30115556,
+      "id": 30115648,
       "score": 1,
-      "time": 1643382796,
-      "title": "Hydrogen to Replace Natural Gas Is an Inefficient Use of Energy",
+      "time": 1643383173,
+      "title": "Tonga shock wave created tsunamis in two different oceans – Science – AAAS",
       "type": "story",
-      "url": "https://illuminem.com/energyvoices/48c90548-4fd9-4b7c-8175-6ba974763bca"
+      "url": "https://www.science.org/content/article/tonga-shock-wave-created-tsunamis-two-different-oceans"
     },
     {
-      "by": "johncena33",
+      "by": "georgecmu",
       "descendants": 0,
-      "id": 30115536,
+      "id": 30115642,
       "score": 1,
-      "time": 1643382660,
-      "title": "Google Chrome reportedly destroys Mac performance – here’s how to fix it",
+      "time": 1643383152,
+      "title": "Waymo sues state DMV to keep robotaxi safety details secret",
       "type": "story",
-      "url": "https://www.tomsguide.com/news/google-chrome-reportedly-destroys-mac-performance-heres-how-to-fix-it"
+      "url": "https://www.latimes.com/business/story/2022-01-28/waymo-robot-taxi-sues-state-secret-black-ice"
     },
     {
-      "by": "onassar",
+      "by": "CapitalistCartr",
+      "descendants": 0,
+      "id": 30115637,
+      "score": 1,
+      "time": 1643383132,
+      "title": "WhatsApp sets its sights on the US",
+      "type": "story",
+      "url": "https://www.theverge.com/2022/1/28/22904967/whatsapp-meta-us-marketing-push-apple-imessage"
+    },
+    {
+      "by": "jger15",
+      "descendants": 0,
+      "id": 30115617,
+      "score": 1,
+      "time": 1643383065,
+      "title": "Learning from Overdetermined Failure",
+      "type": "story",
+      "url": "https://www.thediff.co/p/learning-from-overdetermined-failure"
+    },
+    {
+      "by": "wrongbaud",
+      "descendants": 0,
+      "id": 30115615,
+      "score": 1,
+      "time": 1643383041,
+      "title": "Marvel vs. Capcom vs. UBoot: Extractng the firmware from an arcade cabinet",
+      "type": "story",
+      "url": "https://voidstarsec.com/blog//2022/01/27/uart-uboot-and-usb"
+    },
+    {
+      "by": "CapitalistCartr",
+      "descendants": 0,
+      "id": 30115594,
+      "score": 1,
+      "time": 1643382944,
+      "title": "Arguments about Highly Reliable Agent Designs as a Useful Path to AI Safety",
+      "type": "story",
+      "url": "https://www.lesswrong.com/posts/hWtpqjYXAvFExmAsD/arguments-about-highly-reliable-agent-designs-as-a-useful"
+    },
+    {
+      "by": "drocer88",
+      "descendants": 0,
+      "id": 30115593,
+      "score": 1,
+      "time": 1643382942,
+      "title": "Effectiveness of a Third Dose of Vaccines in Preventing Covid-19 Hospitalization",
+      "type": "story",
+      "url": "https://www.cdc.gov/mmwr/volumes/71/wr/mm7104a2.htm"
+    },
+    {
+      "by": "msgi",
       "descendants": 1,
-      "id": 30115530,
+      "id": 30115589,
       "kids": [
-        30115562
+        30115601
       ],
       "score": 1,
-      "time": 1643382631,
-      "title": "Show HN: Bookee – Search your bookmarks with screenshots and thumbs (for Chrome)",
+      "text": "TL; DR: What is the most hassle-free way to build a personal blog?<p>---<p>First, I want to explain why I want to save the hassle and save money: My personal blog is ad-free. I just want to write, so it is not worth spending too much time or money (preferably free) on non-writing behaviors, and I do not have the ability to deal with complex, high-maintenance systems.<p>I am looking for a way to blog that is effortless and have minimal maintenance on the server side (like static site generator vs WordPress), a way to write the blog that has a better writing environment on my PC. (Maybe a local CMS or something like that)<p>Few ways I know so far but they are not perfect<p>The first one: WP2Static plugin for WordPress (or other plugins by WP2Static author Leon Stafford [1]). They work, but they have some minor issues, they do not export sites perfectly. Other solutions [2] recommended by Leon I have tried: HTTrack has not been actively developed for a long time (since 2017) and does not work anymore, Wget can&#x27;t crawl the site intact, Shifter, Stratti are expensive (But they run smoothly), HardyPress&#x27; cheap plan has only 500MB, Sitesauce&#x27;s hosting provider Vercel was censored here. (I know, right?)<p>The second approach is called Headless CMS [3]. But after doing some research, it seems that running a fully local Headless CMS requires writing complex API calls (Strapi, etc). Better solutions are either expensive or free but require an account and have some limitations. I would prefer a completely local and free solution (I am so greedy :-|). NetlifyCMS seems great but it seems like it can only be hosted on Netlify?<p>The third way is Ghost [4]. Ghost&#x27;s writing experience looks good, but if deployed to the server, it may require continuous maintenance. Ghost&#x27;s static plugin [5] seems to be not working perfectly. Ghost&#x27;s Headless CMS also requires writing API calls.[6][7]<p>Fourth way: popular services like wordpress.com, Medium, Tumblr, etc. are not accessible in my area, so I can only consider self-hosting.<p>---<p>[1] https:&#x2F;&#x2F;github.com&#x2F;leonstafford&#x2F;<p>[2] https:&#x2F;&#x2F;wp2static.com&#x2F;alternatives&#x2F;<p>[3] https:&#x2F;&#x2F;jamstack.org&#x2F;headless-cms&#x2F;<p>[4] https:&#x2F;&#x2F;ghost.org<p>[5] https:&#x2F;&#x2F;github.com&#x2F;Fried-Chicken&#x2F;ghost-static-site-generator<p>[6] https:&#x2F;&#x2F;ghost.org&#x2F;docs&#x2F;jamstack&#x2F;gatsby&#x2F;<p>[7] https:&#x2F;&#x2F;www.gatsbyjs.com&#x2F;docs&#x2F;sourcing-from-ghost&#x2F;",
+      "time": 1643382931,
+      "title": "Ask HN: What is the most hassle-free way to build a personal blog?",
       "type": "story"
     },
     {
-      "by": "bunnythefifth",
+      "by": "jamespwilliams",
       "descendants": 0,
-      "id": 30115526,
+      "id": 30115585,
       "score": 1,
-      "text": "This is Windows 10 specific. I was alarmed today when Nvidia GeForce turned off persistent screen recording (called ShadowPlay&#x2F;Instant Replay) as soon as I accessed &quot;netflix.com&quot; on Firefox 96. They claim it is to deter users from screen-recording DRM protected content.<p>Besides the privacy concerns, I&#x27;m very curious to know how GeForce Experience process does that? Does it get assistance from Windows (PlayReady etc.), or can a process just do that. I&#x27;m looking for a technical explanation. How about some process reading how many times I visit my bank website per day? Where does it end?",
-      "time": 1643382616,
-      "title": "Ask HN: [Windows] Can other processes read arbitrary data from inside a browser",
-      "type": "story"
-    },
-    {
-      "by": "Tomte",
-      "descendants": 0,
-      "id": 30115520,
-      "score": 1,
-      "time": 1643382593,
-      "title": "Pearls Before Breakfast (2007)",
+      "time": 1643382924,
+      "title": "Unicode in Five Minutes",
       "type": "story",
-      "url": "https://www.washingtonpost.com/lifestyle/magazine/pearls-before-breakfast-can-one-of-the-nations-great-musicians-cut-through-the-fog-of-a-dc-rush-hour-lets-find-out/2014/09/23/8a6d46da-4331-11e4-b47c-f5889e061e5f_story.html"
-    },
-    {
-      "by": "Tomte",
-      "descendants": 0,
-      "id": 30115515,
-      "score": 1,
-      "time": 1643382580,
-      "title": "The art of sharpening pencils (2007)",
-      "type": "story",
-      "url": "https://matthewjamestaylor.com/sharpening-pencils"
-    },
-    {
-      "by": "nmb-se",
-      "descendants": 0,
-      "id": 30115492,
-      "score": 1,
-      "time": 1643382429,
-      "title": "Show HN: Encrypted Filedrop: Receive files protected by end-to-end encryption",
-      "type": "story",
-      "url": "https://encryptedfiledrop.com/"
-    },
-    {
-      "by": "vinnyglennon",
-      "descendants": 0,
-      "id": 30115489,
-      "score": 1,
-      "time": 1643382417,
-      "title": "Ruby Uses Memory(2015)",
-      "type": "story",
-      "url": "https://www.sitepoint.com/ruby-uses-memory/"
-    },
-    {
-      "by": "andrewfromx",
-      "descendants": 0,
-      "id": 30115479,
-      "score": 1,
-      "time": 1643382344,
-      "title": "Ancient solar storm smashed Earth at the wrong part of the sun's cycle",
-      "type": "story",
-      "url": "https://www.livescience.com/ancient-solar-storm-solar-minimum"
-    },
-    {
-      "by": "taubek",
-      "descendants": 0,
-      "id": 30115455,
-      "score": 3,
-      "time": 1643382239,
-      "title": "Deadbolt ransomware hits more than 3,600 QNAP NAS devices",
-      "type": "story",
-      "url": "https://therecord.media/deadbolt-ransomware-hits-more-than-3600-qnap-nas-devices/"
+      "url": "https://richardjharris.github.io/unicode-in-five-minutes.html"
     }
   ]
 }
