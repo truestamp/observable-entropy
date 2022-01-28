@@ -1,6 +1,37 @@
 {
   "stories": [
     {
+      "by": "Frajedo",
+      "descendants": 0,
+      "id": 30117235,
+      "score": 1,
+      "text": "Hello HN,<p>What third party service would you recommend to have a smooth and visually attractive sign up process for users? The service should be able to submit the sign up elements to a webhook API (no sensitive info is shared at that point).<p>I am currently using Typeform for  GetMyMFA (https:&#x2F;&#x2F;get.mymfa.io) but unfortunately there is a maximum of 10 monthly questions and paying 20 bucks per month for « only » 100 sign ups is definitely excessive.<p>Thanks in advance!",
+      "time": 1643388896,
+      "title": "Ask HN: Any recommended third party sign-up service?",
+      "type": "story"
+    },
+    {
+      "by": "jgalvez",
+      "descendants": 0,
+      "id": 30117212,
+      "score": 1,
+      "time": 1643388804,
+      "title": "Minimal TypeScript",
+      "type": "story",
+      "url": "https://hire.jonasgalvez.com.br/2022/jan/28/minimal-typescript/"
+    },
+    {
+      "by": "yehz",
+      "descendants": 0,
+      "id": 30117158,
+      "score": 1,
+      "text": "I am a fan of serverless. I love how it voids the burden of building a server, which can be half of the work in a client-server architecture. However, serverless has a few blocking issues when I try to build an action-based multiplayer online games:<p>- The latency is unacceptably high. A typical round trip time is user noticable, because database accesses are slow. If a serverless function cold starts, the latency will be even higher. Google search shows me an interesting blog measurnig the exact latency numbers (<a href=\"https:&#x2F;&#x2F;serialized.net&#x2F;2021&#x2F;03&#x2F;serverless_gaming_limits&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;serialized.net&#x2F;2021&#x2F;03&#x2F;serverless_gaming_limits&#x2F;</a>), which aligns with my impression.<p>- The game can still use a server. Many in game actions required atomic updates to shared state, and many clients can request such updates simultaneously (e.g. increments to team scores on a scoreboard). At minimum, the clients need a serverless function to sequentialize simultaneous updates, such that they do not update based on stale state. However, one database access is already slow, let alone multiple, sequentialized ones. One solution is to add an in-memory cache (such as Redis) for shared state and update that instead. However, an in-memory cache is expensive and unnecessarily complex. The lowest tier of ElasticCache on AWS is $10&#x2F;month. For comparison, the lowest tier of EC2 server is $5&#x2F;month, which is sufficient for small games like what I am building. Why use an in-memory cache when I can use memory?<p>Hence, let me introduce the library.",
+      "time": 1643388639,
+      "title": "Show HN: Redux Remote – A high level networking library for realtime apps",
+      "type": "story",
+      "url": "https://github.com/yehzhang/redux-remote"
+    },
+    {
       "by": "EntICOnc",
       "descendants": 0,
       "id": 30117140,
@@ -12,9 +43,12 @@
     },
     {
       "by": "jseliger",
-      "descendants": 0,
+      "descendants": 1,
       "id": 30117131,
-      "score": 1,
+      "kids": [
+        30117206
+      ],
+      "score": 2,
       "time": 1643388553,
       "title": "How to Excel in Tech Without Learning to Code",
       "type": "story",
@@ -32,8 +66,11 @@
     },
     {
       "by": "thatjamesdude",
-      "descendants": 0,
+      "descendants": 1,
       "id": 30117109,
+      "kids": [
+        30117164
+      ],
       "score": 1,
       "time": 1643388478,
       "title": "Show HN: Gatekeeper, a hobbyist DHCP server written Go",
@@ -62,43 +99,16 @@
     },
     {
       "by": "tweetle_beetle",
-      "descendants": 0,
+      "descendants": 1,
       "id": 30117078,
+      "kids": [
+        30117149
+      ],
       "score": 1,
       "time": 1643388354,
       "title": "Spudoogle",
       "type": "story",
       "url": "https://spudoogle.com"
-    },
-    {
-      "by": "steelstraw",
-      "descendants": 0,
-      "id": 30117060,
-      "score": 1,
-      "time": 1643388294,
-      "title": "Big War CEOs: There’s chaos in the world and our prospects are excellent",
-      "type": "story",
-      "url": "https://responsiblestatecraft.org/2022/01/28/big-war-ceos-theres-chaos-in-the-world-and-our-prospects-are-excellent/"
-    },
-    {
-      "by": "andrewfromx",
-      "descendants": 0,
-      "id": 30117030,
-      "score": 1,
-      "time": 1643388173,
-      "title": "'Snow Job': The Plot to Hand the Crypto Industry to the Big Banks",
-      "type": "story",
-      "url": "https://decrypt.co/91301/federal-reserve-crypto-regulation-plan-stablecoins-big-banks"
-    },
-    {
-      "by": "ievans",
-      "descendants": 0,
-      "id": 30117019,
-      "score": 1,
-      "time": 1643388125,
-      "title": "JavaScript static analysis comparison: ESLint vs. Semgrep",
-      "type": "story",
-      "url": "https://r2c.dev/blog/2021/javascript-static-analysis-comparison-eslint-semgrep/"
     }
   ]
 }
