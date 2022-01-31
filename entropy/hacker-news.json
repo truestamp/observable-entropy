@@ -1,6 +1,89 @@
 {
   "stories": [
     {
+      "by": "chrisma0",
+      "descendants": 0,
+      "id": 30152870,
+      "score": 1,
+      "time": 1643657094,
+      "title": "Kent Beck: Big mistake calling them “iterations”. Should have just said “weeks”",
+      "type": "story",
+      "url": "https://twitter.com/KentBeck/status/1488229250511507457"
+    },
+    {
+      "by": "kitkat_new",
+      "descendants": 0,
+      "id": 30152866,
+      "score": 1,
+      "time": 1643657081,
+      "title": "Insulate Britain’s protests are disruptive, annoying – and justified",
+      "type": "story",
+      "url": "https://www.theguardian.com/commentisfree/2021/nov/03/insulate-britain-protests-protesters-direct-action-climate-emergency"
+    },
+    {
+      "by": "shepherdjerred",
+      "descendants": 0,
+      "id": 30152849,
+      "score": 1,
+      "time": 1643656990,
+      "title": "Quantified Self – Self knowledge through numbers",
+      "type": "story",
+      "url": "https://quantifiedself.com/"
+    },
+    {
+      "by": "quacked",
+      "descendants": 0,
+      "id": 30152847,
+      "score": 1,
+      "text": "I work in between clients and programmers; my job is essentially to decompose client requirements into design documentation to be built by developers. [1]<p>Since I started the job, I&#x27;ve been running into what I&#x27;m calling &quot;combinatorial test case scope creep&quot;. For instance:<p>&gt; CHALLENGE: RENDER A CUSTOM HTML SCREEN WITH THREE LABELLED BUTTONS AND AN IMAGE.<p>&gt; Browsers: {Chrome, Firefox, Edge, Safari}<p>&gt; Devices: {iPad 9th Gen, Google Pixel 4, iPhone XR, Macbook Pro, HP EliteBook}<p>&gt; Languages: {English, Spanish, French}<p>In this case, the custom screen must render properly in 4 Browsers x 4 devices x 3 languages = 48 individual test cases. And that&#x27;s <i>ignoring</i> all of the other possibilities (landscape&#x2F;portrait, OS version, browser version, etc.) We can quickly find ourselves in 2000+ possible renderings of the screen.<p>I, not being a developer myself, have no idea how this is handled on the implementation end. The clients themselves are only dimly aware of this problem and will throw a fit if they notice the screen is broken, but are certainly not testing 50-2000 test cases to see when the screen breaks.<p>I&#x27;d like to help the devs out by steering clients in the right direction, and also adding build instructions to solve this problem at the root. Are there any development principles, testing tactics, historical writings, past HN posts, zen koans, ancient scrolls, etc. that outline and explain solutions to &quot;combinatorial test case scope creep&quot;? Thanks in advance.<p>[1] Disclaimers: I agree that in many cases it would make more sense for developers to work directly with clients and eliminate my job altogether. I was hired because I have a significant technical background but am not quite at the level of a junior dev. I would set my own team up differently if I owned the company.",
+      "time": 1643656986,
+      "title": "Ask HN: How can I help my devs solve “combinatorial test case scope creep”?",
+      "type": "story"
+    },
+    {
+      "by": "sizzle",
+      "descendants": 0,
+      "id": 30152840,
+      "score": 1,
+      "time": 1643656965,
+      "title": "Millions of Routers, IoT Devices at Risk from Malware Source Code on GitHub",
+      "type": "story",
+      "url": "https://www.darkreading.com/vulnerabilities-threats/source-code-for-malware-targeting-millions-of-routers-iot-devices-uploaded-to-github"
+    },
+    {
+      "by": "muterad_murilax",
+      "descendants": 0,
+      "id": 30152833,
+      "score": 1,
+      "time": 1643656955,
+      "title": "AOSC OS/Retro: A Linux Distro for 486 and PPC Macs",
+      "type": "story",
+      "url": "https://lunduke.substack.com/p/aosc-osretro-a-linux-distro-for-486"
+    },
+    {
+      "by": "sudobash1",
+      "descendants": 1,
+      "id": 30152816,
+      "kids": [
+        30152854
+      ],
+      "score": 1,
+      "time": 1643656911,
+      "title": "Glitching Chips with Grill Igniter",
+      "type": "story",
+      "url": "https://twitter.com/rqu50/status/1485876188652310534"
+    },
+    {
+      "by": "0xedb",
+      "descendants": 0,
+      "id": 30152814,
+      "score": 1,
+      "time": 1643656903,
+      "title": "Airports Lie to You with DNS",
+      "type": "story",
+      "url": "https://wizardzines.com/"
+    },
+    {
       "by": "chapulin",
       "descendants": 0,
       "id": 30152777,
@@ -12,93 +95,16 @@
     },
     {
       "by": "znq",
-      "descendants": 0,
+      "descendants": 1,
       "id": 30152768,
+      "kids": [
+        30152788
+      ],
       "score": 1,
       "time": 1643656733,
       "title": "UAE to introduce corporate tax rate from 2023",
       "type": "story",
       "url": "https://www.ft.com/content/184522cd-b549-41de-946f-1ace28c39213"
-    },
-    {
-      "by": "ebenh",
-      "descendants": 0,
-      "id": 30152732,
-      "score": 1,
-      "time": 1643656606,
-      "title": "Telephone Input Component for Angular Material",
-      "type": "story",
-      "url": "https://www.npmjs.com/package/ngx-mat-tel-input"
-    },
-    {
-      "by": "LightMachine",
-      "descendants": 0,
-      "id": 30152714,
-      "score": 1,
-      "time": 1643656542,
-      "title": "HVM: A Parallel Functional Runtime",
-      "type": "story",
-      "url": "https://github.com/Kindelia/HVM"
-    },
-    {
-      "by": "hahnbee",
-      "descendants": 0,
-      "id": 30152708,
-      "score": 4,
-      "time": 1643656527,
-      "title": "Too Lazy to Write Documentation? Let the AI Write It for You",
-      "type": "story",
-      "url": "https://betterprogramming.pub/too-lazy-to-write-documentation-let-the-ai-write-it-for-you-8574f7cd11b2?gi=42f5c8974668"
-    },
-    {
-      "by": "johncena33",
-      "descendants": 0,
-      "id": 30152696,
-      "score": 1,
-      "time": 1643656471,
-      "title": "Neil Young Pushes Amazon Music to Fans After Pulling Content from Spotify",
-      "type": "story",
-      "url": "https://www.wsj.com/articles/neil-young-pushes-amazon-music-to-fans-after-pulling-music-from-spotify-amid-joe-rogan-controversy-11643641915"
-    },
-    {
-      "by": "Outofthebot",
-      "descendants": 0,
-      "id": 30152682,
-      "score": 1,
-      "time": 1643656393,
-      "title": "Thomas L. Friedman: Outsourcing: What goes around comes around (2004)",
-      "type": "story",
-      "url": "https://www.deseret.com/2004/2/28/19814753/thomas-l-friedman-outsourcing-what-goes-around-comes-around"
-    },
-    {
-      "by": "engagingdata",
-      "descendants": 0,
-      "id": 30152640,
-      "score": 1,
-      "time": 1643656224,
-      "title": "Show HN: I re-created the defunct Baby Name Voyager interactive popularity graph",
-      "type": "story",
-      "url": "https://engaging-data.com/baby-name-visualizer/"
-    },
-    {
-      "by": "freediver",
-      "descendants": 0,
-      "id": 30152639,
-      "score": 1,
-      "time": 1643656220,
-      "title": "New cars make me want to Saab",
-      "type": "story",
-      "url": "https://theoutline.com/post/8743/cars-are-ugly-now-i-miss-saab"
-    },
-    {
-      "by": "kgwgk",
-      "descendants": 0,
-      "id": 30152637,
-      "score": 1,
-      "time": 1643656211,
-      "title": "It’s a delusion to think mass spread of Omicron will end the pandemic",
-      "type": "story",
-      "url": "https://www.theglobeandmail.com/opinion/article-its-a-delusion-to-think-mass-spread-of-omicron-will-end-the-pandemic/"
     }
   ]
 }
