@@ -1,6 +1,50 @@
 {
   "stories": [
     {
+      "by": "trehans",
+      "descendants": 0,
+      "id": 30145878,
+      "score": 1,
+      "time": 1643618648,
+      "title": "The Hardest Computer Game of All Time (2014)",
+      "type": "story",
+      "url": "https://slate.com/technology/2014/01/robot-odyssey-the-hardest-computer-game-of-all-time.html"
+    },
+    {
+      "by": "nachomascort",
+      "descendants": 0,
+      "id": 30145876,
+      "score": 1,
+      "text": "Hey Hacker news! This is my first launch here and I’m glad to present you: Unlimited Sheets.<p>Let me show you why Unlimited Sheets was created ^^<p><pre><code>  Problem</code></pre>\nGoogle Sheets is a great tool. Actually, if you work from the Internet, it is one of the most used ones or at least in my field: SEO.<p>The problem with Google Sheets is that it is very limited when we are talking about functionalities related to the web (or even SEO).<p>There are a lot of good templates trying to solve specific problems. Do you need to scrape something? Here’s one template. Do you need to extract the search volume data from a set of keywords? Another template… and the list goes and goes.<p>I’ve started creating some custom functions that helped me in my day to day needs in order to avoid the template madness but when I’ve built more than 15 new custom functions it was not optimal to copy&#x2F;paste every single one that I needed in a specific spreadsheet in order to use it. Imagine if someone on my team needed a function too in another spreadsheet, yeah, it was a mess.<p>What I wanted was to have all of these new features in different spreadsheets for all the users of that spreadsheet without the hassle of creating different templates or doing copy&#x2F;paste of every function I needed.<p><pre><code>  Solution</code></pre>\nI’ve discovered that Google Sheets allows you to improve its functionality with add-ons. The good thing about the add-ons is that they can work in several spreadsheets with just one click.<p>So I’ve created Unlimited Sheets, an add-on that adds advanced custom functions for your day to day needs.<p>It has some free functions and other paid ones:<p>Free SEO functions\ngetStatusCode\ngetSearchVolume\ngetUrlsFromSitemap\nremoveHtml\nscrapeByRegex\nslugify\nsuggestQueries\ngetAvgDailyTrafficFromWeek\ngetLocaleBySubdomain\ngetRunRateCurrentMonth\ngetRunRateNextMonth<p>Free utilities\nexistsInColumn\ngroupByCell\nmyReplace\nreturnCellInversed\nreturnLastCell\nunlimitedVlookup (beta)\nv2lookup\ncombineAll (columns)<p>Premium functions\nThe premium functions are a bit different from the rest. Every premium function consumes API credits as they are connected to 3rd party paid services. Depending on the functions that you want to use you&#x27;ll need more or less API credits.<p>No API credits required\nAll free functions\nselectRandomCell<p>1 API credit per execution\nindexNow\nscrapeByXPath\nscrapeByCssPath<p>10 API credits per execution\ngetAllPagesFromSERP\ngetPaidPagesFromSERP\ngetOrganicPagesFromSERP\ngetKeywordPosition<p>200 API Credits per execution\ngetSearchVolumeFromGoogle (up to 1000 keywords per execution)<p>I hope it helps you in your day to day needs ^^<p>Thanks,",
+      "time": 1643618641,
+      "title": "Show HN: I made a Google Sheets add-on that adds 28 new SEO custom functions",
+      "type": "story",
+      "url": "https://unlimitedsheets.com/"
+    },
+    {
+      "by": "emschlr",
+      "descendants": 0,
+      "id": 30145872,
+      "score": 1,
+      "text": "Story of GDPR penalty for loading external fonts from Google - https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=30135264<p>I was thinking of starting my own blog recently. I like the idea of having comments section in blog powered by Disqus or another service that can be embedded in website with javascript. But this will be violating GDPR? Is it risky move?<p>From now on we should load all page resources from the same domain? No more using of external javascript to power syntax highlighting for code blocks, commenting section? What do website owners think about this penalty decision? What changes will you do to your websites to protect yourself?",
+      "time": 1643618616,
+      "title": "Ask HN: What does the GDPR penalty for loading fonts mean for website owners?",
+      "type": "story"
+    },
+    {
+      "by": "keleftheriou",
+      "descendants": 1,
+      "id": 30145862,
+      "kids": [
+        30145865
+      ],
+      "score": 1,
+      "time": 1643618525,
+      "title": "Gay Dating App Grindr Vanishes from China App Store",
+      "type": "story",
+      "url": "https://www.bloomberg.com/news/articles/2022-01-31/gay-dating-app-grindr-vanishes-from-china-app-store-before-2022-winter-olympics"
+    },
+    {
       "by": "Liriel",
       "descendants": 0,
       "id": 30145846,
@@ -59,52 +103,6 @@
       "title": "EU General Court annuls in part the Commission decision imposing a fine on Intel [pdf]",
       "type": "story",
       "url": "https://curia.europa.eu/jcms/upload/docs/application/pdf/2022-01/cp220016en.pdf"
-    },
-    {
-      "by": "belter",
-      "descendants": 1,
-      "id": 30145782,
-      "kids": [
-        30145783
-      ],
-      "score": 1,
-      "time": 1643617691,
-      "title": "Close relatives of MERS-CoV in bats use ACE2 as their functional receptors",
-      "type": "story",
-      "url": "https://www.biorxiv.org/content/10.1101/2022.01.24.477490v1"
-    },
-    {
-      "by": "metabro",
-      "descendants": 1,
-      "id": 30145780,
-      "kids": [
-        30145800
-      ],
-      "score": 1,
-      "text": "This isn’t to get employed as a web developer but to have the ability to build something myself.<p>For context, I’m a data engineer working for big tech and know a lot of sql and enough python for my day job. But I’ve always wanted the ability of thinking of an idea and implementing it end to end.<p>What’s an efficient stack that I can use?",
-      "time": 1643617668,
-      "title": "Ask HN: What is the shortest path to making web apps for a data engineer?",
-      "type": "story"
-    },
-    {
-      "by": "davidkuennen",
-      "descendants": 0,
-      "id": 30145765,
-      "score": 1,
-      "time": 1643617568,
-      "title": "Better.com workers leaving in ‘droves’ in wake of CEO Vishal Garg’s return",
-      "type": "story",
-      "url": "https://techcrunch.com/2022/01/30/fintech-roundup-better-com-workers-leaving-in-droves-in-wake-of-vishal-gargs-return-as-ceo/"
-    },
-    {
-      "by": "s1291",
-      "descendants": 0,
-      "id": 30145748,
-      "score": 1,
-      "time": 1643617344,
-      "title": "AlphaPlot: Publication quality 2D and 3D plots",
-      "type": "story",
-      "url": "https://github.com/narunlifescience/AlphaPlot"
     }
   ]
 }
