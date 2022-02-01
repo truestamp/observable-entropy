@@ -1,6 +1,16 @@
 {
   "stories": [
     {
+      "by": "quambene",
+      "descendants": 0,
+      "id": 30157464,
+      "score": 1,
+      "text": "I&#x27;m having a Flutter app running both on iOS and Android.<p>Currently, review time of Apple App Store, Samsung Galaxy Store and Huawei AppGallery is about 1-3 days which is not great but tolerable. However, review time in Google Play is a notable 4-10 days.<p>Google&#x27;s review time does make bugfixing quite impossible to deal with.<p>Especially, GUIs are often impossible to test exhaustively. The obvious solution is continuous delivery which fixes issues identified by users in a timely manner. Unfortunately, app store reviews are leading to the worst deployment experience possible.<p>How are you dealing with this problem?<p>IMO, there should be a possibility to submit bugfixes immediately. That is, releases with increased patch number according to SemVer should be approved immediately.<p>Sure, app store providers won&#x27;t do this because it will definitely be exploited.<p>There has to be another way. I find continuous delivery to be one of the most powerful weapons of a developer, and it is just not possible in the app store ecosystem.",
+      "time": 1643678852,
+      "title": "Ask HN: Google Play prevents continuous delivery",
+      "type": "story"
+    },
+    {
       "by": "andrew_",
       "descendants": 0,
       "id": 30157444,
@@ -27,7 +37,7 @@
       "kids": [
         30157399
       ],
-      "score": 1,
+      "score": 2,
       "time": 1643678346,
       "title": "How do I work around Vercel's 4KB Environment Variables limit?",
       "type": "story",
@@ -47,7 +57,7 @@
       "by": "amykyta",
       "descendants": 0,
       "id": 30157357,
-      "score": 1,
+      "score": 3,
       "time": 1643678017,
       "title": "Kazakhstan’s internet shut down was cracked open",
       "type": "story",
@@ -67,7 +77,7 @@
       "by": "jbegley",
       "descendants": 0,
       "id": 30157307,
-      "score": 1,
+      "score": 2,
       "time": 1643677665,
       "title": "Crisis Text Line, from my perspective",
       "type": "story",
@@ -92,16 +102,6 @@
       "title": "CEO of Shopify to Join Coinbase Board of Directors",
       "type": "story",
       "url": "https://blog.coinbase.com/tobias-l%C3%BCtke-ceo-of-shopify-to-join-coinbase-board-of-directors-242fa9935c71?gi=20d8eb546bd"
-    },
-    {
-      "by": "JonathanBuchh",
-      "descendants": 0,
-      "id": 30157296,
-      "score": 1,
-      "time": 1643677598,
-      "title": "Raspberry Pi Availability Locater",
-      "type": "story",
-      "url": "https://rpilocator.com/"
     }
   ]
 }
