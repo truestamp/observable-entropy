@@ -1,6 +1,92 @@
 {
   "stories": [
     {
+      "by": "mmmmkay",
+      "descendants": 0,
+      "id": 30163168,
+      "score": 1,
+      "time": 1643727010,
+      "title": "Gaming the Smiling Curve",
+      "type": "story",
+      "url": "https://stratechery.com/2022/gaming-the-smiling-curve/"
+    },
+    {
+      "by": "walterbell",
+      "descendants": 0,
+      "id": 30163141,
+      "score": 1,
+      "time": 1643726899,
+      "title": "Trio of Rust Core Team members hit the road",
+      "type": "story",
+      "url": "https://www.theregister.com/2022/02/01/rust_core_team_departures/"
+    },
+    {
+      "by": "geox",
+      "descendants": 0,
+      "id": 30163140,
+      "score": 1,
+      "time": 1643726886,
+      "title": "No, Linus Torvalds is not Bitcoin's legendary creator Satoshi Nakamoto",
+      "type": "story",
+      "url": "https://www.zdnet.com/article/linus-torvalds-is-not-bitcoins-legendary-creator-satoshi-nakamoto/"
+    },
+    {
+      "by": "lindsayanunez",
+      "descendants": 1,
+      "id": 30163136,
+      "kids": [
+        30163137
+      ],
+      "score": 1,
+      "time": 1643726872,
+      "title": "Here Comes the Sun: Making Our Shared Resource a Common Good",
+      "type": "story",
+      "url": "https://happyplace.substack.com/p/solar"
+    },
+    {
+      "by": "whack",
+      "descendants": 0,
+      "id": 30163121,
+      "score": 1,
+      "time": 1643726820,
+      "title": "The Birth of Legacy Software – How Change Aversion Feeds on Itself",
+      "type": "story",
+      "url": "https://software.rajivprab.com/2019/11/25/the-birth-of-legacy-software-how-change-aversion-feeds-on-itself/"
+    },
+    {
+      "by": "philk10",
+      "descendants": 0,
+      "id": 30163109,
+      "score": 1,
+      "time": 1643726789,
+      "title": "A Starter’s Guide to the Yelp API for Your React Native App",
+      "type": "story",
+      "url": "https://spin.atomicobject.com/2022/01/31/yelp-api-react-native-app/"
+    },
+    {
+      "by": "ersatz_username",
+      "descendants": 1,
+      "id": 30163104,
+      "kids": [
+        30163111
+      ],
+      "score": 1,
+      "time": 1643726778,
+      "title": "Show HN: Visions – User defined data type systems",
+      "type": "story",
+      "url": "https://github.com/dylan-profiler/visions"
+    },
+    {
+      "by": "alecsandra",
+      "descendants": 0,
+      "id": 30163101,
+      "score": 1,
+      "time": 1643726771,
+      "title": "How to stop missing important emails and get things done",
+      "type": "story",
+      "url": "https://blog.superhuman.com/how-to-manage-your-email-inbox/"
+    },
+    {
       "by": "philip1209",
       "descendants": 0,
       "id": 30163068,
@@ -19,89 +105,6 @@
       "title": "How to improve your team's productivity",
       "type": "story",
       "url": "https://www.glideapps.com/blog/improve-team-productivity"
-    },
-    {
-      "by": "shivajikobardan",
-      "descendants": 0,
-      "id": 30163042,
-      "score": 1,
-      "text": "[CODE=python]<p># Python dictionary to act as an adjacency list<p>graph = {<p><pre><code>  &#x27;7&#x27; : [&#x27;19&#x27;,&#x27;21&#x27;, &#x27;14&#x27;],\n\n  &#x27;19&#x27;: [&#x27;1&#x27;, &#x27;12&#x27;, &#x27;31&#x27;],\n\n  &#x27;21&#x27;: [],\n\n  &#x27;14&#x27;: [&#x27;23&#x27;, &#x27;6&#x27;],\n\n  &#x27;1&#x27; : [],\n\n  &#x27;12&#x27;: [],\n\n  &#x27;31&#x27;: [],\n\n  &#x27;23&#x27;: [],\n\n  &#x27;6&#x27; : []\n</code></pre>\n}<p>visited = [] # List of visited nodes of graph.<p>def dfs(visited, graph, node):<p><pre><code>    if node not in visited:\n\n        visited.append(node)\n\n\n\n\n\n    for neighbor in graph[node]:\n\n        dfs(visited, graph, neighbor)\n\n    print(node)\n\n\n</code></pre>\n# Driver Code<p>print(&quot;Following is the Depth-First Search&quot;)<p>dfs(visited, graph, &#x27;7&#x27;)<p>print(&quot;visited=&quot;,visited)<p>[&#x2F;CODE]<p>what I don&#x27;t understand is how do once this program reaches to print(1) what happens next, it doesn&#x27;t make any sense to me.\nidk if I am stupid or what to not realize sth very trivial or idk.<p>I will try to explain what is my problem, step by step.<p>steps-:<p>1) dfs(visited,graph,7)<p>2)\n7 not in visited. \nvisited=7\ndfs(19)<p>3) 19 not in visited.\nvisited=7,19\ndfs(1)<p>4) 1 not in visited\nvisited=7,19,1\n1 has no neighbours.\nprint(1)<p>imo the code should stop now. Because there is no function call no nth. But in fact the code goes to<p>for neighbour in graph(node):\n    dfs(visited,graph,neighbour) \nand starts with dfs(12). I don&#x27;t understand this....How does it happen?<p>how can it go to for loop just like that?(source-:https:&#x2F;&#x2F;cscircles.cemc.uwaterloo.ca&#x2F;visualize#mode=display)<p>even if it doesn&#x27;t go to for loop, I can&#x27;t make sense where it really goes. Can you please guide me about this issue?",
-      "time": 1643726562,
-      "title": "Confused about recursion in Python-depth first search",
-      "type": "story"
-    },
-    {
-      "by": "transpute",
-      "descendants": 0,
-      "id": 30163019,
-      "score": 1,
-      "time": 1643726483,
-      "title": "Looking at the New “Critical” Security Firmware Update – New Intel Microcode",
-      "type": "story",
-      "url": "https://www.phoronix.com/scan.php?page=article&item=jan-2022-firmware&num=1"
-    },
-    {
-      "by": "todsacerdoti",
-      "descendants": 0,
-      "id": 30163018,
-      "score": 1,
-      "time": 1643726471,
-      "title": "Introduction to Free Monads",
-      "type": "story",
-      "url": "https://serokell.io/blog/introduction-to-free-monads"
-    },
-    {
-      "by": "lai-yin",
-      "descendants": 0,
-      "id": 30162995,
-      "score": 2,
-      "time": 1643726383,
-      "title": "Rooftop solar is more dangerous than Chernobyl (2008)",
-      "type": "story",
-      "url": "https://www.nextbigfuture.com/2008/03/deaths-per-twh-for-all-energy-sources.html"
-    },
-    {
-      "by": "ShrigmaMale",
-      "descendants": 0,
-      "id": 30162963,
-      "score": 3,
-      "text": "Not spam, all double opt-in. Even with 10DLC it&#x27;s too much $, even on cheap providers like SignalWire. Email to text is unreliable and can&#x27;t do above certain volumes (unless there&#x27;s some way to get whitelisted I don&#x27;t know?)<p>How can I do this for cheaper?<p>Here are some numbers:<p>Pricing varies by carrier but with my carrier mix it is between $0.0065 - $0.007 for 1 message on average. I need to send ~250k each month for now and also need lots of room to send more. These prices are SignalWire which is the cheapest I found so far. Bandwidth looks like the same. I think maybe Teli and Telnyx are a small amount cheaper but not so much.",
-      "time": 1643726245,
-      "title": "Ask HN: How to send SMS chaper than Twilio?",
-      "type": "story"
-    },
-    {
-      "by": "Tomte",
-      "descendants": 0,
-      "id": 30162929,
-      "score": 1,
-      "time": 1643726124,
-      "title": "Tell Coworkers Your Salary (2015)",
-      "type": "story",
-      "url": "https://www.youtube.com/watch?v=7xH7eGFuSYI"
-    },
-    {
-      "by": "Tomte",
-      "descendants": 0,
-      "id": 30162926,
-      "score": 3,
-      "time": 1643726109,
-      "title": "Wordle Sold to the NY Times. and That’s a Good Thing",
-      "type": "story",
-      "url": "https://kottke.org/22/02/wordle-sold-to-the-ny-times-and-thats-a-good-thing"
-    },
-    {
-      "by": "gsmith7890",
-      "descendants": 1,
-      "id": 30162923,
-      "kids": [
-        30162924
-      ],
-      "score": 1,
-      "time": 1643726104,
-      "title": "Fidelity – Bitcoin First [pdf]",
-      "type": "story",
-      "url": "https://www.fidelitydigitalassets.com/bin-public/060_www_fidelity_com/documents/FDAS/bitcoin-first.pdf"
     }
   ]
 }
