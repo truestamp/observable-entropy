@@ -1,104 +1,107 @@
 {
   "stories": [
     {
-      "by": "ContrarianBrit",
+      "by": "philip1209",
       "descendants": 0,
-      "id": 30162851,
+      "id": 30163068,
       "score": 1,
-      "time": 1643725793,
-      "title": "What can we do to get more women into coding?",
+      "time": 1643726651,
+      "title": "Memberships Work: What I learned during the third year of my membership program",
       "type": "story",
-      "url": "https://www.bbc.co.uk/news/business-59045771"
+      "url": "https://craigmod.com/essays/memberships_work/"
     },
     {
-      "by": "doener",
+      "by": "alecsandra",
       "descendants": 0,
-      "id": 30162833,
+      "id": 30163045,
       "score": 1,
-      "time": 1643725710,
-      "title": "Disco Elysium – The Final Cut Is on Sale at Steam",
+      "time": 1643726579,
+      "title": "How to improve your team's productivity",
       "type": "story",
-      "url": "https://store.steampowered.com/app/632470/Disco_Elysium__The_Final_Cut/"
+      "url": "https://www.glideapps.com/blog/improve-team-productivity"
     },
     {
-      "by": "rbanffy",
+      "by": "shivajikobardan",
       "descendants": 0,
-      "id": 30162810,
+      "id": 30163042,
       "score": 1,
-      "time": 1643725638,
-      "title": "HPC as a Service Comes Full Circle and Will Help Take HPC Mainstream",
-      "type": "story",
-      "url": "https://www.nextplatform.com/2022/01/28/hpc-as-a-service-comes-full-circle-and-will-help-take-hpc-mainstream/"
-    },
-    {
-      "by": "vincent_s",
-      "descendants": 0,
-      "id": 30162789,
-      "score": 1,
-      "time": 1643725541,
-      "title": "The digital economy and Australia's corporate tax system [pdf]",
-      "type": "story",
-      "url": "https://treasury.gov.au/sites/default/files/2019-03/c2018-t306182-discussion-paper-1.pdf"
-    },
-    {
-      "by": "demux",
-      "descendants": 0,
-      "id": 30162785,
-      "score": 1,
-      "time": 1643725521,
-      "title": "Facebook sells crypto division for $200mn",
-      "type": "story",
-      "url": "https://www.independent.co.uk/tech/facebook-crypto-currency-libra-diem-b2004988.html"
-    },
-    {
-      "by": "themoops36",
-      "descendants": 0,
-      "id": 30162783,
-      "score": 1,
-      "text": "For managers: how do you support your employees&#x27; career development? Let&#x27;s say they want to move up levels in your company- what do you do&#x2F;not do? I&#x27;d love some kind of framework to apply that will create clarity for them.<p>Or, how has a great manager helped you grow your career?<p>I&#x27;m a people manager and want my employees to advance their careers (typically this means moving up at a current company). I also am extremely busy and have many direct reports, which means I need to find a balance.<p>Currently I provide consistent coaching ad-hoc (reviewing projects) and give feedback as I see it, but it lacks structure. I do a good job of providing them projects where they can stretch themselves and grow into the next level, but when it comes to promotions it feels a bit fuzzy. Maybe concrete milestones would be helpful?<p>It&#x27;s also the case that getting promoted isn&#x27;t as simple as &quot;do 1, 2, and 3&quot;. We have leveling guidelines but they&#x27;re not a checklist.",
-      "time": 1643725497,
-      "title": "Ask HN: How do you support your employees' career development?",
+      "text": "[CODE=python]<p># Python dictionary to act as an adjacency list<p>graph = {<p><pre><code>  &#x27;7&#x27; : [&#x27;19&#x27;,&#x27;21&#x27;, &#x27;14&#x27;],\n\n  &#x27;19&#x27;: [&#x27;1&#x27;, &#x27;12&#x27;, &#x27;31&#x27;],\n\n  &#x27;21&#x27;: [],\n\n  &#x27;14&#x27;: [&#x27;23&#x27;, &#x27;6&#x27;],\n\n  &#x27;1&#x27; : [],\n\n  &#x27;12&#x27;: [],\n\n  &#x27;31&#x27;: [],\n\n  &#x27;23&#x27;: [],\n\n  &#x27;6&#x27; : []\n</code></pre>\n}<p>visited = [] # List of visited nodes of graph.<p>def dfs(visited, graph, node):<p><pre><code>    if node not in visited:\n\n        visited.append(node)\n\n\n\n\n\n    for neighbor in graph[node]:\n\n        dfs(visited, graph, neighbor)\n\n    print(node)\n\n\n</code></pre>\n# Driver Code<p>print(&quot;Following is the Depth-First Search&quot;)<p>dfs(visited, graph, &#x27;7&#x27;)<p>print(&quot;visited=&quot;,visited)<p>[&#x2F;CODE]<p>what I don&#x27;t understand is how do once this program reaches to print(1) what happens next, it doesn&#x27;t make any sense to me.\nidk if I am stupid or what to not realize sth very trivial or idk.<p>I will try to explain what is my problem, step by step.<p>steps-:<p>1) dfs(visited,graph,7)<p>2)\n7 not in visited. \nvisited=7\ndfs(19)<p>3) 19 not in visited.\nvisited=7,19\ndfs(1)<p>4) 1 not in visited\nvisited=7,19,1\n1 has no neighbours.\nprint(1)<p>imo the code should stop now. Because there is no function call no nth. But in fact the code goes to<p>for neighbour in graph(node):\n    dfs(visited,graph,neighbour) \nand starts with dfs(12). I don&#x27;t understand this....How does it happen?<p>how can it go to for loop just like that?(source-:https:&#x2F;&#x2F;cscircles.cemc.uwaterloo.ca&#x2F;visualize#mode=display)<p>even if it doesn&#x27;t go to for loop, I can&#x27;t make sense where it really goes. Can you please guide me about this issue?",
+      "time": 1643726562,
+      "title": "Confused about recursion in Python-depth first search",
       "type": "story"
     },
     {
-      "by": "rbanffy",
+      "by": "transpute",
       "descendants": 0,
-      "id": 30162774,
+      "id": 30163019,
       "score": 1,
-      "time": 1643725457,
-      "title": "Physicists discover that clouds of ultracold atoms can form “quantum tornadoes”",
+      "time": 1643726483,
+      "title": "Looking at the New “Critical” Security Firmware Update – New Intel Microcode",
       "type": "story",
-      "url": "https://arstechnica.com/science/2022/01/physicists-discover-that-clouds-of-ultracold-atoms-can-form-quantum-tornadoes/"
+      "url": "https://www.phoronix.com/scan.php?page=article&item=jan-2022-firmware&num=1"
     },
     {
-      "by": "TekMol",
+      "by": "todsacerdoti",
       "descendants": 0,
-      "id": 30162767,
+      "id": 30163018,
+      "score": 1,
+      "time": 1643726471,
+      "title": "Introduction to Free Monads",
+      "type": "story",
+      "url": "https://serokell.io/blog/introduction-to-free-monads"
+    },
+    {
+      "by": "lai-yin",
+      "descendants": 0,
+      "id": 30162995,
       "score": 2,
-      "text": "This thread is similar to the monthly &quot;Who is hiring?&quot; and &quot;Freelancer? Seeking freelancer?&quot; threads.<p>But this one is for people who don&#x27;t want to work for money and are not looking for people who want to work for money. But for people who want to work together on cool projects.<p>For free to make the world better or to start a startup.<p>If you do, please post your project or your skills!",
-      "time": 1643725443,
-      "title": "Ask HN: Who Wants to Collaborate?",
+      "time": 1643726383,
+      "title": "Rooftop solar is more dangerous than Chernobyl (2008)",
+      "type": "story",
+      "url": "https://www.nextbigfuture.com/2008/03/deaths-per-twh-for-all-energy-sources.html"
+    },
+    {
+      "by": "ShrigmaMale",
+      "descendants": 0,
+      "id": 30162963,
+      "score": 3,
+      "text": "Not spam, all double opt-in. Even with 10DLC it&#x27;s too much $, even on cheap providers like SignalWire. Email to text is unreliable and can&#x27;t do above certain volumes (unless there&#x27;s some way to get whitelisted I don&#x27;t know?)<p>How can I do this for cheaper?<p>Here are some numbers:<p>Pricing varies by carrier but with my carrier mix it is between $0.0065 - $0.007 for 1 message on average. I need to send ~250k each month for now and also need lots of room to send more. These prices are SignalWire which is the cheapest I found so far. Bandwidth looks like the same. I think maybe Teli and Telnyx are a small amount cheaper but not so much.",
+      "time": 1643726245,
+      "title": "Ask HN: How to send SMS chaper than Twilio?",
       "type": "story"
     },
     {
-      "by": "rbanffy",
+      "by": "Tomte",
       "descendants": 0,
-      "id": 30162764,
+      "id": 30162929,
       "score": 1,
-      "time": 1643725429,
-      "title": "Cray’s Slingshot Interconnect Is at the Heart of HPE’s HPC and AI Ambitions",
+      "time": 1643726124,
+      "title": "Tell Coworkers Your Salary (2015)",
       "type": "story",
-      "url": "https://www.nextplatform.com/2022/01/31/crays-slingshot-interconnect-is-at-the-heart-of-hpes-hpc-and-ai-ambitions/"
+      "url": "https://www.youtube.com/watch?v=7xH7eGFuSYI"
     },
     {
-      "by": "mostlystatic",
+      "by": "Tomte",
       "descendants": 0,
-      "id": 30162758,
-      "score": 1,
-      "time": 1643725398,
-      "title": "Anti-flicker snippets from A/B testing tools impact site speed",
+      "id": 30162926,
+      "score": 3,
+      "time": 1643726109,
+      "title": "Wordle Sold to the NY Times. and That’s a Good Thing",
       "type": "story",
-      "url": "https://www.debugbear.com/blog/ab-testing-anti-flicker-body-hiding"
+      "url": "https://kottke.org/22/02/wordle-sold-to-the-ny-times-and-thats-a-good-thing"
+    },
+    {
+      "by": "gsmith7890",
+      "descendants": 1,
+      "id": 30162923,
+      "kids": [
+        30162924
+      ],
+      "score": 1,
+      "time": 1643726104,
+      "title": "Fidelity – Bitcoin First [pdf]",
+      "type": "story",
+      "url": "https://www.fidelitydigitalassets.com/bin-public/060_www_fidelity_com/documents/FDAS/bitcoin-first.pdf"
     }
   ]
 }
