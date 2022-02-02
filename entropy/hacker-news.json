@@ -1,9 +1,75 @@
 {
   "stories": [
     {
-      "by": "the-dude",
+      "by": "bryanrasmussen",
       "descendants": 0,
+      "id": 30178483,
+      "score": 1,
+      "time": 1643814180,
+      "title": "P3k14c, a synthetic global database of archaeological radiocarbon dates",
+      "type": "story",
+      "url": "https://www.nature.com/articles/s41597-022-01118-7"
+    },
+    {
+      "by": "rosano",
+      "descendants": 0,
+      "id": 30178469,
+      "score": 1,
+      "time": 1643814110,
+      "title": "Why I'm leaving iOS development to go fully web after 12 years",
+      "type": "story",
+      "url": "https://rosano.hmm.garden/01fmeehzvr3n9q0rkrnf7y2d5c"
+    },
+    {
+      "by": "rukmangada",
+      "descendants": 1,
+      "id": 30178468,
+      "kids": [
+        30178499
+      ],
+      "score": 1,
+      "time": 1643814108,
+      "title": "Show HN: Testsigma – Create an automated test in minutes for any app",
+      "type": "story",
+      "url": "https://github.com/testsigmahq/testsigma"
+    },
+    {
+      "by": "chirau",
+      "descendants": 0,
+      "id": 30178467,
+      "score": 1,
+      "time": 1643814107,
+      "title": "Killed by Google",
+      "type": "story",
+      "url": "https://killedbygoogle.com"
+    },
+    {
+      "by": "aethertap",
+      "descendants": 0,
+      "id": 30178459,
+      "score": 1,
+      "time": 1643814075,
+      "title": "Practical Markup Language",
+      "type": "story",
+      "url": "https://www.pml-lang.dev/"
+    },
+    {
+      "by": "andrewseanryan",
+      "descendants": 0,
+      "id": 30178448,
+      "score": 1,
+      "text": "I tried to download Adlock via a webpage loaded in Chrome and I noticed there was no download button. It seemed like bad design, but then I went to the same webpage on Safari and noticed that the download button was prominently positioned on the same page multiple times (https:&#x2F;&#x2F;adlock.com&#x2F;adlock-for-macos&#x2F;). Do you think this is due to a design issue on the website, or Google actively making it harder to block Adsense?",
+      "time": 1643814031,
+      "title": "Ask HN: Is Google Chrome Blocking Me from Downloading an AdBlocker?",
+      "type": "story"
+    },
+    {
+      "by": "the-dude",
+      "descendants": 1,
       "id": 30178435,
+      "kids": [
+        30178511
+      ],
       "score": 1,
       "time": 1643813989,
       "title": "Rotterdam bridge to be dismantled so Jeff Bezos’ yacht can pass through",
@@ -39,66 +105,6 @@
       "title": "Germany Blocks Russian State Broadcaster RT",
       "type": "story",
       "url": "https://www.themoscowtimes.com/2022/02/02/germany-blocks-russian-state-broadcaster-rt-a76238"
-    },
-    {
-      "by": "Ivoah",
-      "descendants": 0,
-      "id": 30178406,
-      "score": 1,
-      "time": 1643813875,
-      "title": "Raspberry Pi OS (64-bit)",
-      "type": "story",
-      "url": "https://www.raspberrypi.com/news/raspberry-pi-os-64-bit/"
-    },
-    {
-      "by": "Brajeshwar",
-      "descendants": 0,
-      "id": 30178402,
-      "score": 1,
-      "time": 1643813858,
-      "title": "Global count estimates Earth has 73,000 tree species – 14% more than reported",
-      "type": "story",
-      "url": "https://www.theguardian.com/environment/2022/jan/31/global-count-estimates-earth-has-73000-tree-species-bletchley-park-good-turing-frequency-estimation"
-    },
-    {
-      "by": "shivajikobardan",
-      "descendants": 0,
-      "id": 30178389,
-      "score": 1,
-      "text": "Depth-limited search can be terminated with two Conditions of failure:<p>Standard Failure: it indicates that the problem does not have any solutions.<p>Cutoff Failure Value: It defines no solution for the problem within a given depth limit.<p>https:&#x2F;&#x2F;www.analyticsvidhya.com&#x2F;blog&#x2F;2021&#x2F;02&#x2F;uninformed-search-algorithms-in-ai&#x2F;<p>https:&#x2F;&#x2F;www.javatpoint.com&#x2F;ai-uninformed-search-algorithms<p>I checked for cut off failure. But I don&#x27;t know how to check for standard failure. Can you guide me a bit?<p>[CODE=python]<p># Python dictionary to act as an adjacency list<p>graph = {<p><pre><code>  &#x27;7&#x27; : [&#x27;19&#x27;,&#x27;21&#x27;, &#x27;14&#x27;],\n\n  &#x27;19&#x27;: [&#x27;1&#x27;, &#x27;12&#x27;, &#x27;31&#x27;],\n\n  &#x27;21&#x27;: [],\n\n  &#x27;14&#x27;: [&#x27;23&#x27;, &#x27;6&#x27;],\n\n  &#x27;1&#x27; : [],\n\n  &#x27;12&#x27;: [],\n\n  &#x27;31&#x27;: [],\n\n  &#x27;23&#x27;: [],\n\n  &#x27;6&#x27; : []\n</code></pre>\n}<p>goal=&#x27;6&#x27;<p>visited = [] # List of visited nodes of graph.<p>def dls(visited, graph, node,depth):<p><pre><code>    if(depth&gt;=0):\n\n        \n\n        \n\n\n\n\n\n        if node not in visited:\n\n            visited.append(node)\n\n        \n\n        if(node==goal):\n\n            print(&quot;goal found&quot;)\n\n            print(&quot;path to goal=&quot;,visited)\n\n            exit()\n\n\n\n\n\n        for neighbor in graph[node]:\n\n            dls(visited, graph, neighbor,depth-1)\n\n        \n\n\n\n        print(node)\n\n\n</code></pre>\n# Driver Code<p>print(&quot;Following is the Depth-First Search&quot;)<p>res=dls(visited, graph, &#x27;7&#x27;,1)<p>if(res):<p><pre><code>    print(&quot;Path to goal node available&quot;)\n\n    print(&quot;Path&quot;,path)\n</code></pre>\nelse:<p><pre><code>    print(&quot;No path available for the goal node in given depth limit ie cut off failure&quot;)\n\n\n</code></pre>\nprint(&quot;visited=&quot;,visited)<p>[&#x2F;CODE]",
-      "time": 1643813809,
-      "title": "How to check if search problem has no solution in depth limit search?",
-      "type": "story"
-    },
-    {
-      "by": "ReveCuisine",
-      "descendants": 0,
-      "id": 30178386,
-      "score": 1,
-      "text": "At Rêvecuisine, we are a professional kitchen renovation company in Laval, also specializing in bathrooms and countertops. For the past eight years, we&#x27;ve been remodelling kitchens and have developed our expertise in wooden cabinets design and installation. You can share your kitchen ideas with us, and our team of specialists will be able to come up with a 3D design layout to help visualize your dream kitchen. We will be able to work together on picking our woods and finishes to match your aesthetics while being practical and cost-effective. With the new year, it is your turn to build the dream kitchen! Visit https:&#x2F;&#x2F;revecuisine.com&#x2F;en&#x2F; for more information and get your free consultation today!",
-      "time": 1643813805,
-      "title": "Kitchen Renovation in Laval",
-      "type": "story"
-    },
-    {
-      "by": "idealmedtech",
-      "descendants": 0,
-      "id": 30178379,
-      "score": 1,
-      "text": "We recently received an SBIR Phase II grant, and while there&#x27;s not money for new employees yet, it&#x27;s got me thinking about how I&#x27;m going to onboard our first technical hires (currently just two founders, one technical, and a CEO).<p>As our codebase has been developed over close to 10 years under one developer, it&#x27;s acquired a lot of cruft, and also uses technologies that are fairly dated now. We&#x27;re planning to do a rewrite of the codebase with our OEM partners, and I&#x27;m deciding what to do about the legacy code.<p>Do we:<p>- Take what architecture decisions worked and use the corresponding documentation to develop a new design?<p>- Transition the code base slowly from legacy to new (and hence inform the new hires how the legacy code works)?<p>- Start completely from scratch and retire the legacy code before bringing the new hires on?<p>We&#x27;re going to have about 18 months at a minimum from the first hires to having a product in hand to bring to market.<p>I want to avoid using people&#x27;s limited resources on technologies that I know we&#x27;re going to retire, and just want to see how best to go about that.<p>How have you handled this transition in your experiences?",
-      "time": 1643813770,
-      "title": "Ask HN: When onboarding people to a startup, how do you talk about legacy code?",
-      "type": "story"
-    },
-    {
-      "by": "CapitalistCartr",
-      "descendants": 0,
-      "id": 30178371,
-      "score": 1,
-      "time": 1643813706,
-      "title": "How Do You Care for One of the World’s Oldest Aquarium Fish?",
-      "type": "story",
-      "url": "https://www.atlasobscura.com/articles/oldest-aquarium-fish-lungfish-methuselah"
     }
   ]
 }
