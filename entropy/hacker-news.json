@@ -1,10 +1,20 @@
 {
   "stories": [
     {
+      "by": "JordanTen",
+      "descendants": 0,
+      "id": 30182216,
+      "score": 1,
+      "time": 1643828256,
+      "title": "Podcast: CEO of Weaveworks on Weave GitOps and Career Journey",
+      "type": "story",
+      "url": "https://www.enterpriseready.io/podcast/40-alexis-richardson-weaveworks/"
+    },
+    {
       "by": "prostoalex",
       "descendants": 0,
       "id": 30182146,
-      "score": 1,
+      "score": 3,
       "time": 1643828001,
       "title": "New material that can absorb and release enormous amounts of energy",
       "type": "story",
@@ -12,9 +22,12 @@
     },
     {
       "by": "gnicholas",
-      "descendants": 0,
+      "descendants": 1,
       "id": 30182141,
-      "score": 1,
+      "kids": [
+        30182210
+      ],
+      "score": 2,
       "time": 1643827992,
       "title": "Normalized crash data shows Autopilot is much less safe than Tesla claims",
       "type": "story",
@@ -74,7 +87,7 @@
       "by": "joemaffei",
       "descendants": 0,
       "id": 30182037,
-      "score": 3,
+      "score": 4,
       "text": "As of writing, 2^82,589,933 − 1 is the largest known prime, but do we know all of the primes lower than it? If not, what is the largest known prime in sequence, without gaps?",
       "time": 1643827659,
       "title": "Ask HN: What is the largest known prime in sequence?",
@@ -89,16 +102,6 @@
       "title": "Matrix v1.2 Specification",
       "type": "story",
       "url": "https://matrix.org/blog/2022/02/02/matrix-v-1-2-release/"
-    },
-    {
-      "by": "anderspitman",
-      "descendants": 0,
-      "id": 30182031,
-      "score": 2,
-      "text": "Just tried to login to chase.com using a fresh Firefox install. Normally it gives options for email or SMS for 2FA verification. Since SMS is insecure, I&#x27;ve always used email. That option is now missing. Since SMS was the only option left, I tried that, but it doesn&#x27;t work with my Google Voice number.<p>According to customer support, email verification was removed for everyone and they&#x27;ve been getting lots of calls about it. Also according to them carriers often block SMS short codes, which makes SMS more error-prone than email.<p>Anyone know anyone on at Chase engineering? I would love to hear the rationale for removing something as universal as email while leaving insecure SMS as an option.",
-      "time": 1643827645,
-      "title": "Chase.com has removed the ability to verify a new device/browser using email",
-      "type": "story"
     }
   ]
 }
