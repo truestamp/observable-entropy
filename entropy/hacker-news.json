@@ -1,6 +1,89 @@
 {
   "stories": [
     {
+      "by": "pseudolus",
+      "descendants": 0,
+      "id": 30176262,
+      "score": 1,
+      "time": 1643801980,
+      "title": "The Hopewell airburst event, 1699–1567 years ago (252–383 CE)",
+      "type": "story",
+      "url": "https://www.nature.com/articles/s41598-022-05758-y"
+    },
+    {
+      "by": "CapitalistCartr",
+      "descendants": 0,
+      "id": 30176255,
+      "score": 1,
+      "time": 1643801928,
+      "title": "The Collateral Damage of Facebook’s Flops",
+      "type": "story",
+      "url": "https://www.nytimes.com/2022/02/01/technology/facebook-experiments.html"
+    },
+    {
+      "by": "OJFord",
+      "descendants": 1,
+      "id": 30176248,
+      "kids": [
+        30176260
+      ],
+      "score": 1,
+      "time": 1643801860,
+      "title": "Covid-19 human challenge study reveals detailed insights into infection",
+      "type": "story",
+      "url": "https://www.imperial.ac.uk/news/233514/covid-19-human-challenge-study-reveals-detailed/"
+    },
+    {
+      "by": "CapitalistCartr",
+      "descendants": 0,
+      "id": 30176246,
+      "score": 1,
+      "time": 1643801838,
+      "title": "Alphabet’s profit increased 36 percent, to $20.64B, in the fourth quarter",
+      "type": "story",
+      "url": "https://www.nytimes.com/2022/02/01/technology/google-alphabet-earnings.html"
+    },
+    {
+      "by": "pseudolus",
+      "descendants": 0,
+      "id": 30176235,
+      "score": 1,
+      "time": 1643801789,
+      "title": "It's OK to not be passionate about your job",
+      "type": "story",
+      "url": "https://www.npr.org/2022/01/31/1076978534/the-trouble-with-passion-when-it-comes-to-your-career"
+    },
+    {
+      "by": "underscore_ku",
+      "descendants": 0,
+      "id": 30176231,
+      "score": 1,
+      "time": 1643801761,
+      "title": "Electric car sales accelerate as Europe turns away from diesel",
+      "type": "story",
+      "url": "https://www.euronews.com/2022/02/02/electric-car-sales-accelerate-as-europe-turns-away-from-diesel"
+    },
+    {
+      "by": "6mile",
+      "descendants": 0,
+      "id": 30176226,
+      "score": 1,
+      "time": 1643801732,
+      "title": "Show HN: GitHub Action to find Log4j vulnerabilities",
+      "type": "story",
+      "url": "https://github.com/marketplace/actions/securestack-log4j-vulnerability-analysis"
+    },
+    {
+      "by": "caaqil",
+      "descendants": 0,
+      "id": 30176225,
+      "score": 1,
+      "time": 1643801721,
+      "title": "Microsoft Deal for Activision to Be Reviewed by FTC in U.S.",
+      "type": "story",
+      "url": "https://www.bloomberg.com/news/articles/2022-02-01/microsoft-deal-for-activision-to-be-reviewed-by-ftc-in-u-s"
+    },
+    {
       "by": "donohoe",
       "descendants": 0,
       "id": 30176210,
@@ -19,92 +102,6 @@
       "title": "Almost 500-mile-long lightning bolt crossed three US states",
       "type": "story",
       "url": "https://www.bbc.com/news/world-us-canada-60221521"
-    },
-    {
-      "by": "caaqil",
-      "descendants": 0,
-      "id": 30176197,
-      "score": 1,
-      "time": 1643801365,
-      "title": "Former Tesla factory worker is suing the company for harassment",
-      "type": "story",
-      "url": "https://www.businessinsider.com/tesla-sued-racial-harassment-black-gay-worker-2022-2"
-    },
-    {
-      "by": "zimpenfish",
-      "descendants": 1,
-      "id": 30176190,
-      "kids": [
-        30176195
-      ],
-      "score": 1,
-      "time": 1643801334,
-      "title": "The Lamppost Trick",
-      "type": "story",
-      "url": "https://www.futilitycloset.com/2022/02/02/the-lamppost-trick/"
-    },
-    {
-      "by": "JonoBB",
-      "descendants": 0,
-      "id": 30176185,
-      "score": 1,
-      "text": "I work at a small (~100 person) bootstrapped company. We are hosted almost exclusively on AWS, and we use RDS for most of our transactional DB needs. Up until now, our analytics has been running on a combination of Metabase (hooked up to our RDS databases) and internal admin reporting. It works, but its all a bit clunky and we&#x27;re outgrowing its capabilities. At this point in time, this is for internal (i.e. management) analytics only.<p>We are at the stage now we we need to start doing it &quot;properly&quot;. I have a reasonably good understanding of tech in general, including on the infra, database and sql side. I have also done a fair bit of research into data warehousing, ELT&#x2F;ETL pipelines, etc.<p>To start off with, I&#x27;d like to get a proof of concept up and running, just by extracting data from our RDS databases (we don&#x27;t have a HUGE amount of data - few hundred million records spread over 2 DBs). There are other data sources that we&#x27;d like to connect to, but that can come later.<p>We would prefer AWS or self hosted, but we are open to any possibilities (Google, Fivetran, Snowflake, etc). \nI guess there are 3 pieces to the puzzle:<p>- Data warehouse (I almost think that we should just be pushing this all to another RDS database (and denormalise, aggregate, etc where appropriate).<p>- ETL&#x2F;ELT<p>- Reporting (Metabase, Superset, Quicksight?)<p>We&#x27;re looking for the simplest option that we can use to get up and running, but also have a clear path to growing with us over time. Do you have any suggestions on the best way to get started?",
-      "time": 1643801281,
-      "title": "Ask HN: Options for starting a data warehousing environment?",
-      "type": "story"
-    },
-    {
-      "by": "alexellisuk",
-      "descendants": 0,
-      "id": 30176178,
-      "score": 1,
-      "time": 1643801218,
-      "title": "Docker makes comeback with over $50M in ARR two years into restructuring",
-      "type": "story",
-      "url": "https://techcrunch.com/2022/02/01/docker-makes-comeback-reaching-over-50m-in-arr/"
-    },
-    {
-      "by": "herbstein",
-      "descendants": 0,
-      "id": 30176155,
-      "score": 1,
-      "time": 1643800938,
-      "title": "Async Rust vs. RTOS",
-      "type": "story",
-      "url": "https://tweedegolf.nl/en/blog/65/async-rust-vs-rtos-showdown"
-    },
-    {
-      "by": "womitt",
-      "descendants": 0,
-      "id": 30176154,
-      "score": 1,
-      "time": 1643800932,
-      "title": "Guide to Managing Managers – Case Study from Epic Games",
-      "type": "story",
-      "url": "https://codingsans.com/blog/managing-managers"
-    },
-    {
-      "by": "kkcorps",
-      "descendants": 2,
-      "id": 30176141,
-      "kids": [
-        30176169
-      ],
-      "score": 1,
-      "text": "Is it because it is not developer friendly or doesn&#x27;t have good devops support or they are just not aggresive in marketing?",
-      "time": 1643800787,
-      "title": "Ask HN: Why is GCP not as used as AWS/Azure?",
-      "type": "story"
-    },
-    {
-      "by": "george3d6",
-      "descendants": 0,
-      "id": 30176140,
-      "score": 1,
-      "time": 1643800774,
-      "title": "Autopilot Ethics and the Illusory Self",
-      "type": "story",
-      "url": "https://www.epistem.ink/p/autopilot-ethics-and-the-illusory"
     }
   ]
 }
