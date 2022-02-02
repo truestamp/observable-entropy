@@ -1,6 +1,49 @@
 {
   "stories": [
     {
+      "by": "caaqil",
+      "descendants": 0,
+      "id": 30176197,
+      "score": 1,
+      "time": 1643801365,
+      "title": "Former Tesla factory worker is suing the company for harassment",
+      "type": "story",
+      "url": "https://www.businessinsider.com/tesla-sued-racial-harassment-black-gay-worker-2022-2"
+    },
+    {
+      "by": "zimpenfish",
+      "descendants": 1,
+      "id": 30176190,
+      "kids": [
+        30176195
+      ],
+      "score": 1,
+      "time": 1643801334,
+      "title": "The Lamppost Trick",
+      "type": "story",
+      "url": "https://www.futilitycloset.com/2022/02/02/the-lamppost-trick/"
+    },
+    {
+      "by": "JonoBB",
+      "descendants": 0,
+      "id": 30176185,
+      "score": 1,
+      "text": "I work at a small (~100 person) bootstrapped company. We are hosted almost exclusively on AWS, and we use RDS for most of our transactional DB needs. Up until now, our analytics has been running on a combination of Metabase (hooked up to our RDS databases) and internal admin reporting. It works, but its all a bit clunky and we&#x27;re outgrowing its capabilities. At this point in time, this is for internal (i.e. management) analytics only.<p>We are at the stage now we we need to start doing it &quot;properly&quot;. I have a reasonably good understanding of tech in general, including on the infra, database and sql side. I have also done a fair bit of research into data warehousing, ELT&#x2F;ETL pipelines, etc.<p>To start off with, I&#x27;d like to get a proof of concept up and running, just by extracting data from our RDS databases (we don&#x27;t have a HUGE amount of data - few hundred million records spread over 2 DBs). There are other data sources that we&#x27;d like to connect to, but that can come later.<p>We would prefer AWS or self hosted, but we are open to any possibilities (Google, Fivetran, Snowflake, etc). \nI guess there are 3 pieces to the puzzle:<p>- Data warehouse (I almost think that we should just be pushing this all to another RDS database (and denormalise, aggregate, etc where appropriate).<p>- ETL&#x2F;ELT<p>- Reporting (Metabase, Superset, Quicksight?)<p>We&#x27;re looking for the simplest option that we can use to get up and running, but also have a clear path to growing with us over time. Do you have any suggestions on the best way to get started?",
+      "time": 1643801281,
+      "title": "Ask HN: Options for starting a data warehousing environment?",
+      "type": "story"
+    },
+    {
+      "by": "alexellisuk",
+      "descendants": 0,
+      "id": 30176178,
+      "score": 1,
+      "time": 1643801218,
+      "title": "Docker makes comeback with over $50M in ARR two years into restructuring",
+      "type": "story",
+      "url": "https://techcrunch.com/2022/02/01/docker-makes-comeback-reaching-over-50m-in-arr/"
+    },
+    {
       "by": "herbstein",
       "descendants": 0,
       "id": 30176155,
@@ -22,8 +65,11 @@
     },
     {
       "by": "kkcorps",
-      "descendants": 0,
+      "descendants": 2,
       "id": 30176141,
+      "kids": [
+        30176169
+      ],
       "score": 1,
       "text": "Is it because it is not developer friendly or doesn&#x27;t have good devops support or they are just not aggresive in marketing?",
       "time": 1643800787,
@@ -62,46 +108,6 @@
       "title": "Why Is Matt Damon Shilling for Crypto?",
       "type": "story",
       "url": "https://www.nytimes.com/2022/02/02/magazine/matt-damon-crypto.html"
-    },
-    {
-      "by": "kkcorps",
-      "descendants": 0,
-      "id": 30176125,
-      "score": 1,
-      "text": "Or is there a third option? Please elaborate.",
-      "time": 1643800617,
-      "title": "Ask HN: Gradle or Maven for Java Projects?",
-      "type": "story"
-    },
-    {
-      "by": "type0",
-      "descendants": 0,
-      "id": 30176123,
-      "score": 2,
-      "time": 1643800580,
-      "title": "Corecursive: Serenity OS with Andreas Kling [audio]",
-      "type": "story",
-      "url": "https://corecursive.com/serenity-os-with-andreas-kling/"
-    },
-    {
-      "by": "jomaorfe",
-      "descendants": 0,
-      "id": 30176120,
-      "score": 1,
-      "time": 1643800524,
-      "title": "Phaseout of animal agriculture to offset 68 percent of CO2 emissions",
-      "type": "story",
-      "url": "https://journals.plos.org/climate/article?id=10.1371/journal.pclm.0000010"
-    },
-    {
-      "by": "bryanrasmussen",
-      "descendants": 0,
-      "id": 30176109,
-      "score": 1,
-      "time": 1643800446,
-      "title": "Converting Lidar to Photo-Real Imagery with a Generative Adversarial Network",
-      "type": "story",
-      "url": "https://www.unite.ai/converting-lidar-to-photo-real-imagery-with-a-generative-adversarial-network/"
     }
   ]
 }
