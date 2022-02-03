@@ -1,6 +1,36 @@
 {
   "stories": [
     {
+      "by": "jdvh",
+      "descendants": 0,
+      "id": 30195430,
+      "score": 1,
+      "time": 1643909108,
+      "title": "App still has to be good",
+      "type": "story",
+      "url": "https://80daystartup.com/day-19/your-app-still-has-to-be-good/"
+    },
+    {
+      "by": "imcotton",
+      "descendants": 0,
+      "id": 30195379,
+      "score": 1,
+      "time": 1643908927,
+      "title": "GitHub: Update your pull request branch by rebasing",
+      "type": "story",
+      "url": "https://github.blog/changelog/2022-02-03-more-ways-to-keep-your-pull-request-branch-up-to-date/"
+    },
+    {
+      "by": "caiorolla",
+      "descendants": 0,
+      "id": 30195361,
+      "score": 1,
+      "text": "Hi everyone! My name is Caio, I&#x27;m a Indie Hacker from Brazil and I&#x27;m a avid Newsletter reader.<p>Every morning I reserve one hour to read the ~20 Newsletters that I subscribe to and one day I notice something: few of them were collecting feedback from readers. The ones that does collect feedback, were using Google Forms. Opportunity? Definetly.<p>Collect feedback is essential because if you reader is not 100% satisfied with your content and he didn&#x27;t found a way to tell you that, he will simply unsubscribe.<p>So, instead of subscribing to 20 more newsletters, I decided to create https:&#x2F;&#x2F;surveyx.co, a feedback tool tailored for Newsletters. The idea is simple:<p>The writer:<p>1 - Creates a Survey.<p>2 - Embed the question HTML directly into the email he is going to send.<p>3 - Wait to get some valuable feedback from people that would otherwise just Unsubscribe.<p>The reader:<p>1 - Reads the email<p>2 - Gives a score to the content without leaving the email (you can use different metrics such as NPS and CSAT)<p>3 - If enable, the reader can dive into his answer (with a open question)<p>4 - Is redirected for a URL configured by the writer<p>If you are not from Europe or the US and wants to use the tool, DM on Twitter (@caio_rolla) so I can give you a Price Parity discount.",
+      "time": 1643908865,
+      "title": "Show HN: I created a Feedback tool for Newsletters",
+      "type": "story"
+    },
+    {
       "by": "edward",
       "descendants": 0,
       "id": 30195339,
@@ -64,42 +94,12 @@
       "by": "edublancas",
       "descendants": 0,
       "id": 30195191,
-      "score": 7,
+      "score": 11,
       "text": "Hi HN, we’re Eduardo &amp; Ido, the founders of Ploomber (<a href=\"https:&#x2F;&#x2F;ploomber.io\" rel=\"nofollow\">https:&#x2F;&#x2F;ploomber.io</a>). We’re building an open-source framework (<a href=\"https:&#x2F;&#x2F;github.com&#x2F;ploomber&#x2F;ploomber\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;ploomber&#x2F;ploomber</a>) that helps data scientists quickly deploy the code they develop in interactive environments (Jupyter&#x2F;VScode&#x2F;PyCharm), eliminating the need for time-consuming manual porting to production platforms.<p>Jupyter and other interactive environments are the go-to tools for most data scientists. However, many production data pipeline platforms (e.g. Airflow, Kubernetes) drag them into non-interactive development paradigms. Hence, when moving to production, the data scientist’s code needs to move from the interactive environment to a more traditional software environment (e.g. declaring workflows as Python classes). This process creates friction since the code needs to cross this gap every time the data scientist deploys their work. Data scientists often pair with software engineers to work on the conversion, but this is time-consuming and costly. It’s also frustrating because it’s just busy work.<p>We encountered this problem while working in the data space. Eduardo was a data scientist at Fidelity for a few years. He deployed ML models and always found it annoying and wasteful to port the code from his notebooks into a production framework like Airflow or Kubernetes. Ido worked as a consultant at AWS and constantly found that data science projects would allocate about 30% of their time to convert a notebook prototype into a production pipeline.<p>Interactive environments have historically been used for prototyping and are considered unsuitable for production; this is reasonable because, in our experience, most of the code developed interactively exists in a single file with little to no structure (e.g., a gigantic notebook). However, we believe it’s possible to bring software engineering best practices and apply them to the interactive development world so data scientists can produce maintainable projects to streamline deployment.<p>Ploomber allows data scientists to quickly develop their code in modular pipelines rather than a giant single file. When developed this way, their code is suitable for deployment to production platforms; we currently support exporting to Kubernetes, AWS Batch, Airflow, Kubeflow, and SLURM with no code changes. Our integration with Jupyter&#x2F;VSCode&#x2F;PyCharm allows them to iteratively build these modular pipelines without moving away from the interactive environment. In addition, modularizing the work enables them to create more maintainable and testable projects. Our goal is ease of use, with minimal disturbance to the data scientist’s existing workflows.<p>Users can install Ploomber with pip, open Jupyter&#x2F;VSCode&#x2F;PyCharm, and start building in minutes. We’ve made a significant effort to create a simple tool so people can get started quickly and learn the advanced features when they need them. Ploomber is available at <a href=\"https:&#x2F;&#x2F;github.com&#x2F;ploomber&#x2F;ploomber\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;ploomber&#x2F;ploomber</a> under the Apache 2.0 license. In addition, we are working on a cloud version to help enterprises operationalize models. We’re still working on the pricing details, but if you’d like us to let you know when we open the private beta, you can sign up here: <a href=\"https:&#x2F;&#x2F;ploomber.io&#x2F;cloud\" rel=\"nofollow\">https:&#x2F;&#x2F;ploomber.io&#x2F;cloud</a>. However, the core of our offering is the open-source framework, and it will remain free.<p>We’re thrilled to share Ploomber with you! If you’re a data scientist who has experienced these endless cycles of porting your code for deployment, an ML engineer who helps data scientists deploy their work, or you have any feedback, please share your thoughts! We love chatting about this domain since exchanging ideas always sheds light on aspects we haven’t considered before! You may also reach out to me at eduardo@ploomber.io.",
       "time": 1643908321,
       "title": "Launch HN: Ploomber (YC W22) – Quickly deploy data pipelines from Jupyter/VSCode",
       "type": "story",
       "url": "https://github.com/ploomber/ploomber"
-    },
-    {
-      "by": "totalZero",
-      "descendants": 0,
-      "id": 30195186,
-      "score": 1,
-      "time": 1643908315,
-      "title": "Beijing's bullish bridge to Taiwan and the age of 'Great China'",
-      "type": "story",
-      "url": "https://asia.nikkei.com/Politics/Beijing-s-bullish-bridge-to-Taiwan-and-the-age-of-Great-China"
-    },
-    {
-      "by": "CalRobert",
-      "descendants": 0,
-      "id": 30195176,
-      "score": 1,
-      "time": 1643908283,
-      "title": "Free courses from EU on creating urban mobility visualizations",
-      "type": "story",
-      "url": "https://urbanmobilitycourses.eu/courses/free-visualization-tools-for-urban-mobility-planning-beginners/"
-    },
-    {
-      "by": "arprocter",
-      "descendants": 0,
-      "id": 30195174,
-      "score": 1,
-      "time": 1643908275,
-      "title": "Spotify CEO defends Joe Rogan deal in tense company town hall",
-      "type": "story",
-      "url": "https://www.theverge.com/2022/2/3/22915456/spotify-ceo-joe-rogan-daniel-ek-town-hall-speech-platform-podcast"
     }
   ]
 }
