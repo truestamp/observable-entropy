@@ -1,107 +1,104 @@
 {
   "stories": [
     {
-      "by": "kscottz",
+      "by": "emrahsamdan",
       "descendants": 0,
-      "id": 30197718,
+      "id": 30197917,
       "score": 1,
-      "time": 1643917424,
-      "title": "NASA Missions That Use Robot Operating System",
+      "time": 1643918366,
+      "title": "How Serverless API, Data, Schedule, Events Work",
       "type": "story",
-      "url": "https://www.openrobotics.org/blog/2022/2/2/rosinspace"
+      "url": "https://www.serverless.com/blog/how-serverless-cloud-works-part-2"
     },
     {
       "by": "mooreds",
       "descendants": 0,
-      "id": 30197705,
+      "id": 30197914,
       "score": 1,
-      "time": 1643917385,
-      "title": "A kubectl plugin for Kubernetes OpenID Connect (OIDC) authentication",
+      "time": 1643918343,
+      "title": "Separating Your User Db and Authorization from Apps with Istio and FusionAuth",
       "type": "story",
-      "url": "https://github.com/int128/kubelogin"
+      "url": "https://reachablegames.com/oidc-fusionauth-istio/"
     },
     {
-      "by": "gmays",
+      "by": "winternett",
       "descendants": 0,
-      "id": 30197656,
+      "id": 30197907,
       "score": 1,
-      "time": 1643917215,
-      "title": "'Quantum friction' slows water flow through carbon nanotubes",
-      "type": "story",
-      "url": "https://phys.org/news/2022-02-quantum-friction-carbon-nanotubes-long-standing.html"
-    },
-    {
-      "by": "jonbaer",
-      "descendants": 0,
-      "id": 30197613,
-      "score": 1,
-      "time": 1643917022,
-      "title": "PipelineDP - Differentially private data aggregation",
-      "type": "story",
-      "url": "https://pipelinedp.io/"
-    },
-    {
-      "by": "atum47",
-      "descendants": 1,
-      "id": 30197595,
-      "kids": [
-        30197689
-      ],
-      "score": 2,
-      "time": 1643916943,
-      "title": "Hobo Hero – a game about being a hobo",
-      "type": "story",
-      "url": "https://twitter.com/hoboherothegame"
-    },
-    {
-      "by": "galosh",
-      "descendants": 0,
-      "id": 30197577,
-      "score": 2,
-      "time": 1643916869,
-      "title": "Boston Fed and MIT release research on a central bank digital currency",
-      "type": "story",
-      "url": "https://www.bostonfed.org/news-and-events/press-releases/2022/frbb-and-mit-open-cbdc-phase-one.aspx"
-    },
-    {
-      "by": "hhs",
-      "descendants": 0,
-      "id": 30197576,
-      "score": 1,
-      "time": 1643916865,
-      "title": "Do we create space-time? A new perspective on the fabric of reality",
-      "type": "story",
-      "url": "https://www.newscientist.com/article/mg25333720-800-do-we-create-space-time-a-new-perspective-on-the-fabric-of-reality/"
-    },
-    {
-      "by": "belter",
-      "descendants": 0,
-      "id": 30197570,
-      "score": 1,
-      "time": 1643916839,
-      "title": "Scroll Lock – The Secret Key They Don't Want You to Press [video]",
-      "type": "story",
-      "url": "https://www.youtube.com/watch?v=NJ0U8RmW-oE"
-    },
-    {
-      "by": "extreme_eagle",
-      "descendants": 0,
-      "id": 30197521,
-      "score": 2,
-      "text": "The main vulnerabilities exist because of a clickless load that happens largely when a user is sent a text message and either views it or the message contents are parsed to cache the link. Resolving this vulnerability is critical, and yet should not be the main focus for the developers at Apple.<p>Mainly the &quot;True&quot; vulnerability lies in that the messaging app &quot;iMessage&quot; and the contacts app &quot;Contacts&quot; are not unified and do not handle permissions well. Let me explain. When the user is sent a message from the attacker which leads to the exploit phase, this is because the user is not empowered to inherently reject messages that are incoming. A user that is not present in the contact or address list for an iPhone user should not be able to send iMessages to the user. In other words, the users Contacts should act as a default block list. This would not be sufficient normally, as there are use-cases where the user needs to receive messages from an unknown number.<p>This is one of the core ways to defeat the vulnerability: making it impossible for the user to receive unsolicited messages, and instead to receive a &quot;Message Request(s)&quot; from unknown numbers, which would be stored in the settings or the main section of the message app &quot;iMessage&quot; as an approve&#x2F;block list. These users would not be able to send ANY information to the user, whatsoever. They can only initiate the approve&#x2F;deny process, after which, the user may add them to contacts or allow them to remain as a &quot;temporary contact&quot; -- while also using PBX&#x2F;callerID discovery to add information to the request, i.e. &quot;Maybe: Alice&quot;, or &quot;Maybe: Bob&quot;. Unknown users or users that have no association to the user would be either subject to further research on the user&#x27;s part or result in a block action.<p>The block action should be defined in 3 pieces. Block for 1 day, Block for 1 week, Block permanently. Clicking &quot;block&quot; should allow the user to select the option as a pop-up menu.<p>The second way to resolve the vulnerability is to have more strict handling with the contacts app &quot;Contacts&quot; -- instead of the standard user process of &quot;text me&quot; or &quot;call me&quot; to get a number, there should be an easy way to transmit contact information either via an electronic process (scan the QR, contact the devices, etc.) but also by means of knowing the users phone number or contact number. &quot;Text me&quot; should be initially handled by the contacts app, NOT messages. A user that is not validated who sends SMS or a similar message to the user should result in the data not being parsed whatsoever, and the number being sent to a validation step. This solves the issue of users needing to add others via phonecall&#x2F;texting process while also protecting them during that process from an outside attacker who may have gained their number.<p>Thank you for reading this is for free, no license. Please consider using it.",
-      "time": 1643916667,
-      "title": "A resolution for the iPhone remote access vulnerabilities",
+      "text": "After seeing numerous complaints from YouTube and TikTok OC posters, thr thought occurred to me that many sites now are encouraging users to re-host content originally posted by OC creators on those platforms to each other.<p>There is apparently a huge market for false creator accounts that re-post stolen content.<p>My question is How do sites like Reddit &amp; TikTok escape criticism for duplicating YouTube content?<p>I think the platforms should hold a bit of accountability for this issue, as original content creators are often ignored, unpaid, and uncredited for most of the content that goes viral on platforms because of the repost culture they regularly don&#x27;t account properly for?",
+      "time": 1643918288,
+      "title": "Ask HN: How do sites like Reddit and TikTok escape criticism for repost content?",
       "type": "story"
     },
     {
-      "by": "steelstraw",
+      "by": "spodernet",
       "descendants": 0,
-      "id": 30197514,
+      "id": 30197867,
       "score": 1,
-      "time": 1643916652,
-      "title": "Americans Offer Gloomy State of the Nation Report",
+      "time": 1643918092,
+      "title": "Public domain Posix make (a new implementation)",
       "type": "story",
-      "url": "https://news.gallup.com/poll/389309/americans-offer-gloomy-state-nation-report.aspx"
+      "url": "https://frippery.org/make/"
+    },
+    {
+      "by": "jeffreyrogers",
+      "descendants": 0,
+      "id": 30197856,
+      "score": 1,
+      "time": 1643918042,
+      "title": "CToy: Interactive C Live Coding Environment",
+      "type": "story",
+      "url": "https://github.com/anael-seghezzi/CToy"
+    },
+    {
+      "by": "aloukissas",
+      "descendants": 0,
+      "id": 30197851,
+      "score": 1,
+      "time": 1643918032,
+      "title": "World’s brightest x-rays reveal Covid-19’s damage to the body",
+      "type": "story",
+      "url": "https://www.nationalgeographic.com/science/article/worlds-brightest-x-rays-reveal-covid-19-damage-to-the-body"
+    },
+    {
+      "by": "yread",
+      "descendants": 0,
+      "id": 30197839,
+      "score": 1,
+      "time": 1643917963,
+      "title": "Medical isotope update: Shortage expected to last weeks",
+      "type": "story",
+      "url": "https://www.healthimaging.com/topics/molecular/medical-isotope-shortage-nuclear-reactor"
+    },
+    {
+      "by": "Chetane",
+      "descendants": 0,
+      "id": 30197837,
+      "score": 1,
+      "text": "Hey there,<p>Long time lurker here! I wanted to share and get feedback on a feature I&#x27;ve been building at Flowdash. We build a form builder that _updates_ existing records.<p>Why yet another form builder? Most form products today (e.g. google form) only create new records upon submission. That’s useful for initially capturing customer data, but what happens when you need to ask extra information down the line?<p>I&#x27;ve noticed that’s usually when my process breaks, and I have to jump over to email asking for extra information and eventually end up with long email chains with file attachments and what not.<p>This got me thinking: why is it I can&#x27;t create a form that allows me to update existing records for the follow-up data requests. Found some hacks around (e.g. hidden field with a unique ID + zapier script to match and update), but nothing that worked seamlessly.<p>Anyways, that&#x27;s the story of how I ended up building my own form builder, that can be triggered to update an existing record :)<p>Is something you&#x27;ve also run into in the past? how did you solve it?<p>I would love to hear your feedback and suggestions on the idea. Thanks!<p>Demo video: https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=AUsVDyVZ-Is<p>Try it out: https:&#x2F;&#x2F;bit.ly&#x2F;3sdQpsG<p>PS: If you want to chat more about the idea, you can also email me at omar@flowdash.com",
+      "time": 1643917959,
+      "title": "Show HN: What do you think this form builder that *updates* existing records?",
+      "type": "story"
+    },
+    {
+      "by": "hinting",
+      "descendants": 0,
+      "id": 30197824,
+      "score": 3,
+      "time": 1643917904,
+      "title": "Tools for Fast (and Less Furious) Front End Development",
+      "type": "story",
+      "url": "https://felt.com/blog/tools-fast-frontend-development"
+    },
+    {
+      "by": "todsacerdoti",
+      "descendants": 0,
+      "id": 30197821,
+      "score": 1,
+      "time": 1643917874,
+      "title": "Minimal Color Swatches",
+      "type": "story",
+      "url": "https://hugodaniel.com/posts/minimal-color-swatches/"
     }
   ]
 }
