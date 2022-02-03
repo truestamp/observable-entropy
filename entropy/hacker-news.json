@@ -1,10 +1,30 @@
 {
   "stories": [
     {
+      "by": "vermilingua",
+      "descendants": 0,
+      "id": 30191288,
+      "score": 1,
+      "time": 1643888987,
+      "title": "The Formation of IPv4 Address Markets",
+      "type": "story",
+      "url": "https://circleid.com/posts/20211216-the-formation-of-ipv4-address-markets"
+    },
+    {
+      "by": "nvalis",
+      "descendants": 0,
+      "id": 30191282,
+      "score": 2,
+      "time": 1643888933,
+      "title": "A home made PCB stepper motor",
+      "type": "story",
+      "url": "https://kevinlynagh.com/pcb-stepper/"
+    },
+    {
       "by": "elsadek",
       "descendants": 0,
       "id": 30191256,
-      "score": 1,
+      "score": 2,
       "time": 1643888677,
       "title": "How can I ask for a temporary exemption to new policy?",
       "type": "story",
@@ -79,26 +99,6 @@
       "title": "Australia’s latest export is bad media policy, and it’s spreading fast",
       "type": "story",
       "url": "https://www.niemanlab.org/2022/02/australias-latest-export-is-bad-media-policy-and-its-spreading-fast/"
-    },
-    {
-      "by": "CapitalistCartr",
-      "descendants": 0,
-      "id": 30191154,
-      "score": 1,
-      "time": 1643887749,
-      "title": "The great Amazon land grab",
-      "type": "story",
-      "url": "https://theconversation.com/the-great-amazon-land-grab-how-brazils-government-is-turning-public-land-private-clearing-the-way-for-deforestation-173416"
-    },
-    {
-      "by": "encryptluks2",
-      "descendants": 0,
-      "id": 30191153,
-      "score": 2,
-      "text": "I finally started automating some or my bash functions and scripts with Ansible. I have found chezmoi to be an incredible tool to manage your dot files, but it isn&#x27;t made to really manage files outside your home directory and run scripts. While you can still do it their FAQ recommends against it, and it becomes semi-obvious why.<p>I&#x27;ve worked with Ansible in the past both professionally and in my free time. I found it to be incredibly useful, but I have been burned many times by poor playbooks, documentation, etc.<p>Running a bunch of plays in Ansible can feel like you&#x27;re submitting a job to a CI server. If you&#x27;re used to running them in scripts, you&#x27;ll notice that what used to take a second or two may now take 15 or 20 seconds.<p>The thing that also baffled me is how slow it can be, especially running modules on localhost. File operations where you may want to delete some temporary paths is insane how much slower it is then a simple shell script.<p>chezmoi is different though. It is pretty much instantaneous. What is even more incredible is that with templates, includes and more, there is no noticeable slow down.<p>Having used Hugo as a SSG and creating Helm charts, I got used to using Go Templates. While I am not a huge fan of Go templating, the functions seem equally as powerful as Ansible, even more so because it is fast.<p>Which brings me to the point of all this, why has no one replaced Ansible with a Go-based tool? Sort of like a hybrid between Ansible and chezmoi.<p>Are people just using CI now for automation and if so what can you recommend that is lightweight?",
-      "time": 1643887739,
-      "title": "Why are there no descent Go or Rust alternatives to Ansible?",
-      "type": "story"
     }
   ]
 }
