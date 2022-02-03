@@ -1,104 +1,104 @@
 {
   "stories": [
     {
-      "by": "devy",
+      "by": "jonbaer",
       "descendants": 0,
-      "id": 30197355,
-      "score": 2,
-      "time": 1643916067,
-      "title": "Comparison of Kubernetes Managed Services",
+      "id": 30197613,
+      "score": 1,
+      "time": 1643917022,
+      "title": "PipelineDP - Differentially private data aggregation",
       "type": "story",
-      "url": "https://docs.google.com/spreadsheets/d/1RPpyDOLFmcgxMCpABDzrsBYWpPYCIBuvAoUQLwOGoQw/edit#gid=907731238"
+      "url": "https://pipelinedp.io/"
+    },
+    {
+      "by": "atum47",
+      "descendants": 0,
+      "id": 30197595,
+      "score": 1,
+      "time": 1643916943,
+      "title": "Hobo Hero – a game about being a hobo",
+      "type": "story",
+      "url": "https://twitter.com/hoboherothegame"
+    },
+    {
+      "by": "galosh",
+      "descendants": 0,
+      "id": 30197577,
+      "score": 1,
+      "time": 1643916869,
+      "title": "Boston Fed and MIT release research on a central bank digital currency",
+      "type": "story",
+      "url": "https://www.bostonfed.org/news-and-events/press-releases/2022/frbb-and-mit-open-cbdc-phase-one.aspx"
+    },
+    {
+      "by": "hhs",
+      "descendants": 0,
+      "id": 30197576,
+      "score": 1,
+      "time": 1643916865,
+      "title": "Do we create space-time? A new perspective on the fabric of reality",
+      "type": "story",
+      "url": "https://www.newscientist.com/article/mg25333720-800-do-we-create-space-time-a-new-perspective-on-the-fabric-of-reality/"
+    },
+    {
+      "by": "belter",
+      "descendants": 0,
+      "id": 30197570,
+      "score": 1,
+      "time": 1643916839,
+      "title": "Scroll Lock – The Secret Key They Don't Want You to Press [video]",
+      "type": "story",
+      "url": "https://www.youtube.com/watch?v=NJ0U8RmW-oE"
+    },
+    {
+      "by": "extreme_eagle",
+      "descendants": 0,
+      "id": 30197521,
+      "score": 2,
+      "text": "The main vulnerabilities exist because of a clickless load that happens largely when a user is sent a text message and either views it or the message contents are parsed to cache the link. Resolving this vulnerability is critical, and yet should not be the main focus for the developers at Apple.<p>Mainly the &quot;True&quot; vulnerability lies in that the messaging app &quot;iMessage&quot; and the contacts app &quot;Contacts&quot; are not unified and do not handle permissions well. Let me explain. When the user is sent a message from the attacker which leads to the exploit phase, this is because the user is not empowered to inherently reject messages that are incoming. A user that is not present in the contact or address list for an iPhone user should not be able to send iMessages to the user. In other words, the users Contacts should act as a default block list. This would not be sufficient normally, as there are use-cases where the user needs to receive messages from an unknown number.<p>This is one of the core ways to defeat the vulnerability: making it impossible for the user to receive unsolicited messages, and instead to receive a &quot;Message Request(s)&quot; from unknown numbers, which would be stored in the settings or the main section of the message app &quot;iMessage&quot; as an approve&#x2F;block list. These users would not be able to send ANY information to the user, whatsoever. They can only initiate the approve&#x2F;deny process, after which, the user may add them to contacts or allow them to remain as a &quot;temporary contact&quot; -- while also using PBX&#x2F;callerID discovery to add information to the request, i.e. &quot;Maybe: Alice&quot;, or &quot;Maybe: Bob&quot;. Unknown users or users that have no association to the user would be either subject to further research on the user&#x27;s part or result in a block action.<p>The block action should be defined in 3 pieces. Block for 1 day, Block for 1 week, Block permanently. Clicking &quot;block&quot; should allow the user to select the option as a pop-up menu.<p>The second way to resolve the vulnerability is to have more strict handling with the contacts app &quot;Contacts&quot; -- instead of the standard user process of &quot;text me&quot; or &quot;call me&quot; to get a number, there should be an easy way to transmit contact information either via an electronic process (scan the QR, contact the devices, etc.) but also by means of knowing the users phone number or contact number. &quot;Text me&quot; should be initially handled by the contacts app, NOT messages. A user that is not validated who sends SMS or a similar message to the user should result in the data not being parsed whatsoever, and the number being sent to a validation step. This solves the issue of users needing to add others via phonecall&#x2F;texting process while also protecting them during that process from an outside attacker who may have gained their number.<p>Thank you for reading this is for free, no license. Please consider using it.",
+      "time": 1643916667,
+      "title": "A resolution for the iPhone remote access vulnerabilities",
+      "type": "story"
+    },
+    {
+      "by": "steelstraw",
+      "descendants": 0,
+      "id": 30197514,
+      "score": 1,
+      "time": 1643916652,
+      "title": "Americans Offer Gloomy State of the Nation Report",
+      "type": "story",
+      "url": "https://news.gallup.com/poll/389309/americans-offer-gloomy-state-nation-report.aspx"
     },
     {
       "by": "rbanffy",
       "descendants": 0,
-      "id": 30197349,
+      "id": 30197470,
       "score": 1,
-      "time": 1643916055,
-      "title": "Quantum Computers Could Crack Bitcoin Security by the 2030s",
+      "time": 1643916484,
+      "title": "PCIe 5.0 SSDs promising up to 14GB/s of bandwidth will be ready in 2024",
       "type": "story",
-      "url": "https://www.tomshardware.com/news/quantum-computer-development-could-put-bitcoin-security-at-risk-by-the-2030s"
+      "url": "https://arstechnica.com/gadgets/2022/02/pcie-5-0-ssds-promising-up-to-14gb-s-of-bandwidth-will-be-ready-in-2024/"
     },
     {
-      "by": "feross",
+      "by": "donsupreme",
       "descendants": 0,
-      "id": 30197293,
-      "score": 2,
-      "time": 1643915824,
-      "title": "Visual Studio Code January 2022",
-      "type": "story",
-      "url": "https://code.visualstudio.com/updates/v1_64"
-    },
-    {
-      "by": "the_arun",
-      "descendants": 0,
-      "id": 30197287,
+      "id": 30197467,
       "score": 1,
-      "time": 1643915803,
-      "title": "Teen tracking Musk's private jet now monitoring Bill Gates, Jeff Bezos and Drake",
+      "time": 1643916472,
+      "title": "Facebook and Google stocks have diverged, and the reason is Apple",
       "type": "story",
-      "url": "https://inews.co.uk/news/elon-musk-teen-tracking-billionaires-private-jet-now-monitoring-bill-gates-jeff-bezos-drake-1438871"
-    },
-    {
-      "by": "bpierre",
-      "descendants": 0,
-      "id": 30197286,
-      "score": 3,
-      "time": 1643915802,
-      "title": "Systemd by example – Part 1: Minimization",
-      "type": "story",
-      "url": "https://seb.jambor.dev/posts/systemd-by-example-part-1-minimization/"
-    },
-    {
-      "by": "ilamont",
-      "descendants": 0,
-      "id": 30197274,
-      "score": 1,
-      "time": 1643915769,
-      "title": "‘Mob’ accusations add fuel to the online battle between Fast and Bolt",
-      "type": "story",
-      "url": "https://www.modernretail.co/startups/mob-accusations-add-fuel-to-the-online-battle-between-one-click-payments-startups-fast-and-bolt/"
-    },
-    {
-      "by": "bpierre",
-      "descendants": 0,
-      "id": 30197270,
-      "score": 1,
-      "time": 1643915748,
-      "title": "The type hierarchy tree in TypeScript",
-      "type": "story",
-      "url": "https://www.zhenghao.io/posts/type-hierarchy-tree"
-    },
-    {
-      "by": "kvee",
-      "descendants": 0,
-      "id": 30197239,
-      "score": 1,
-      "time": 1643915619,
-      "title": "Do Animals Understand What It Means to Die?",
-      "type": "story",
-      "url": "https://www.vice.com/en/article/5dg57q/do-animals-understand-what-it-means-to-die"
-    },
-    {
-      "by": "nicole_express",
-      "descendants": 0,
-      "id": 30197217,
-      "score": 1,
-      "time": 1643915554,
-      "title": "Neo Geo Genesis 1 1/2: The Alpha 68K-V",
-      "type": "story",
-      "url": "https://nicole.express/2022/ganging-up-on-the-alpha.html"
+      "url": "https://www.cnbc.com/2022/02/03/facebook-and-google-stocks-have-diverged-and-the-reason-is-apple.html"
     },
     {
       "by": "JordanTen",
       "descendants": 0,
-      "id": 30197188,
+      "id": 30197463,
       "score": 1,
-      "time": 1643915442,
-      "title": "Easy Guide to Set Up Prometheus Alertmanager with Slack, PagerDuty, and Gmail",
+      "time": 1643916450,
+      "title": "Podcast – Red Hat Discusses CNCF Proj Submariner – Multi-Cluster Networks",
       "type": "story",
-      "url": "https://grafana.com/blog/2020/02/25/step-by-step-guide-to-setting-up-prometheus-alertmanager-with-slack-pagerduty-and-gmail/"
+      "url": "https://www.heavybit.com/library/podcasts/the-kubelist-podcast/ep-18-submariner-with-miguel-angel-ajo-and-stephen-kitt-of-red-hat/"
     }
   ]
 }
