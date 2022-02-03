@@ -1,6 +1,29 @@
 {
   "stories": [
     {
+      "by": "plutonic",
+      "descendants": 0,
+      "id": 30186844,
+      "score": 1,
+      "time": 1643849676,
+      "title": "AI Visible Thoughts Project",
+      "type": "story",
+      "url": "https://www.lesswrong.com/posts/zRn6cLtxyNodudzhw/visible-thoughts-project-and-bounty-announcement"
+    },
+    {
+      "by": "zinekeller",
+      "descendants": 1,
+      "id": 30186788,
+      "kids": [
+        30186851
+      ],
+      "score": 1,
+      "time": 1643849398,
+      "title": "Google Stadia: there are 50 Pro games to choose from",
+      "type": "story",
+      "url": "https://twitter.com/GoogleStadia/status/1488975363829075973"
+    },
+    {
       "by": "johncena33",
       "descendants": 0,
       "id": 30186781,
@@ -12,8 +35,11 @@
     },
     {
       "by": "textmode",
-      "descendants": 0,
+      "descendants": 1,
       "id": 30186762,
+      "kids": [
+        30186808
+      ],
       "score": 1,
       "text": "For example, Plan9 grep.<p>Solution:<p><pre><code>       #!&#x2F;bin&#x2F;sh\n       # usage: $0 pattern &lt; file\n       x=$(echo x|tr x &#x27;\\34&#x27;);\n       tr -d &#x27;\\12&#x27;|sed &quot;s&#x2F;$x&#x2F;&#x2F;g;s&#x2F;$1&#x2F;$x&amp;$x&#x2F;g&quot;|tr $x &#x27;\\12&#x27;|sed -n &quot;&#x2F;^$1&#x2F;p&quot;</code></pre>",
       "time": 1643849249,
@@ -79,26 +105,6 @@
       "title": "How to Get Stronger Consistency Out of a Datastore (2019)",
       "type": "story",
       "url": "https://blog.sentry.io/2019/09/17/how-to-get-stronger-consistency-out-of-a-datastore/"
-    },
-    {
-      "by": "gojiberries",
-      "descendants": 0,
-      "id": 30186692,
-      "score": 2,
-      "time": 1643848888,
-      "title": "Coral, a Cobra fork with nearly all its features, but only 4 dependencies",
-      "type": "story",
-      "url": "https://github.com/muesli/coral"
-    },
-    {
-      "by": "kawera",
-      "descendants": 0,
-      "id": 30186688,
-      "score": 1,
-      "time": 1643848860,
-      "title": "The Sumerian Game",
-      "type": "story",
-      "url": "https://en.wikipedia.org/wiki/The_Sumerian_Game"
     }
   ]
 }
