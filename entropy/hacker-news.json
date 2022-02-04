@@ -1,10 +1,40 @@
 {
   "stories": [
     {
+      "by": "krptos",
+      "descendants": 0,
+      "id": 30205806,
+      "score": 1,
+      "text": "It&#x27;s a naive question but points me directly to a large hole in my understanding of WebAssembly. Here are the hints I already gathered but didn&#x27;t give me quite a complete picture yet:<p>1. It makes sense that any language with GC-less memory management will be easier to port to WASM, because in WASM all we have is a linear array of bytes as memory.<p>2. But then higher languages like Kotlin have a LLVM backend, and then derive WASM binaries from LLVM IR. What makes this possible?<p>3. Even dynamically typed languages like Python are ported to WASM (I guess they ship the interpreter itself with the binary which will make them heavier) but I&#x27;m not sure how is it different from #2 or am I confusing two different routes?<p>4. What does this even mean - https:&#x2F;&#x2F;github.com&#x2F;WebAssembly&#x2F;gc&#x2F;#gc-proposal-for-webassembly ? &quot;GC proposal for webassembly&quot; - how will it aid in WASM becoming friendlier with higher level languages?<p>5. What exactly is ahead of time compilation? What relation does it have with WASM?<p>All this means I have a very shallow understanding of memory management. So feel free to get as technical as possible. Thank you!",
+      "time": 1643976765,
+      "title": "Ask HN: Why is WebAssembly friendlier with system languages?",
+      "type": "story"
+    },
+    {
+      "by": "repeat-or",
+      "descendants": 0,
+      "id": 30205804,
+      "score": 1,
+      "time": 1643976737,
+      "title": "A Privacy Engineering Stack for Developers",
+      "type": "story",
+      "url": "https://www.zdnet.com/article/gretel-goes-ga-with-privacy-engineering-developer-stack/"
+    },
+    {
+      "by": "kkordi",
+      "descendants": 0,
+      "id": 30205781,
+      "score": 1,
+      "time": 1643976607,
+      "title": "101 AWS Lambda tutorial for Go developers",
+      "type": "story",
+      "url": "https://blog.mantil.com/dummy-guide-to-aws-lambda-for-go-developers-63192b684898?gi=3b481e39d855"
+    },
+    {
       "by": "tosh",
       "descendants": 0,
       "id": 30205775,
-      "score": 1,
+      "score": 2,
       "time": 1643976537,
       "title": "The Infinite Loop That Wasn't (2020)",
       "type": "story",
@@ -72,45 +102,6 @@
       "title": "How the powerful clean up their digital past using a reputation laundering firm",
       "type": "story",
       "url": "https://restofworld.org/2022/documents-reputation-laundering-firm-eliminalia/"
-    },
-    {
-      "by": "joak",
-      "descendants": 1,
-      "id": 30205708,
-      "kids": [
-        30205739
-      ],
-      "score": 1,
-      "time": 1643976035,
-      "title": "AI traffic lights could reduce waiting times at intersections",
-      "type": "story",
-      "url": "https://newatlas.com/good-thinking/artificially-intelligent-traffic-lights/"
-    },
-    {
-      "by": "johncoene",
-      "descendants": 1,
-      "id": 30205702,
-      "kids": [
-        30205703
-      ],
-      "score": 2,
-      "time": 1643975993,
-      "title": "Near real-time Twitter network visualisation",
-      "type": "story",
-      "url": "https://skeef.io/"
-    },
-    {
-      "by": "jkscx",
-      "descendants": 1,
-      "id": 30205699,
-      "kids": [
-        30205701
-      ],
-      "score": 2,
-      "time": 1643975971,
-      "title": "Show HN: We built a graph based task manager",
-      "type": "story",
-      "url": "https://masterplan.so"
     }
   ]
 }
