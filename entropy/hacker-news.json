@@ -1,6 +1,39 @@
 {
   "stories": [
     {
+      "by": "tosh",
+      "descendants": 0,
+      "id": 30221454,
+      "score": 1,
+      "time": 1644072005,
+      "title": "WonderSwan",
+      "type": "story",
+      "url": "https://en.wikipedia.org/wiki/WonderSwan"
+    },
+    {
+      "by": "edogrider",
+      "descendants": 0,
+      "id": 30221429,
+      "score": 1,
+      "time": 1644071876,
+      "title": "How to Create Custom Distributed Instances of MinIO on AWS EC2",
+      "type": "story",
+      "url": "https://blog.min.io/install-minio-distributed-mode-aws-ec2/"
+    },
+    {
+      "by": "jengland",
+      "descendants": 1,
+      "id": 30221397,
+      "kids": [
+        30221398
+      ],
+      "score": 1,
+      "time": 1644071759,
+      "title": "First Name Data from the US Social Security Administration",
+      "type": "story",
+      "url": "https://www.ssa.gov/OACT/babynames/limits.html"
+    },
+    {
       "by": "evo_9",
       "descendants": 0,
       "id": 30221378,
@@ -12,8 +45,11 @@
     },
     {
       "by": "stunt",
-      "descendants": 0,
+      "descendants": 1,
       "id": 30221377,
+      "kids": [
+        30221419
+      ],
       "score": 1,
       "time": 1644071641,
       "title": "Bloomberg accidentally publishing a story headlined 'Russia Invades Ukraine'",
@@ -64,41 +100,11 @@
       "by": "aarghh",
       "descendants": 0,
       "id": 30221332,
-      "score": 1,
+      "score": 2,
       "time": 1644071416,
       "title": "NYT “Self-Driving” Story Is Full of Dangerous Misunderstandings",
       "type": "story",
       "url": "https://jalopnik.com/this-nyt-story-about-a-self-driving-road-trip-is-full-1848482117"
-    },
-    {
-      "by": "hasheddan",
-      "descendants": 0,
-      "id": 30221327,
-      "score": 1,
-      "time": 1644071398,
-      "title": "Compiling Rust for RISC-V Linux Platforms",
-      "type": "story",
-      "url": "https://danielmangum.com/posts/risc-v-bytes-rust-cross-compilation/"
-    },
-    {
-      "by": "MarkusWandel",
-      "descendants": 0,
-      "id": 30221325,
-      "score": 1,
-      "text": "Fedora 35 and bluetooth headphones.  Bliss!  However I run a relatively rare multi-seat setup.  The bluetooth dongle is plugged into a USB hub that belongs to &quot;seat1&quot;.  However if a paired bluetooth headphone is turned on, it is (usually) added to the audio device list for &quot;seat2&quot; and not available to the others.<p>Something is not multi-seat aware; I assume all three sessions jump on the newly added device and who gets it is a race condition.<p>Does anyone know how a workaround for this, or can walk me through how all this works, or point to documentation that does, so I can come up with my own workaround?  It merely necessary to force newly added bluetooth audio devices to seat1; the other two stations don&#x27;t need them.",
-      "time": 1644071393,
-      "title": "Ask HN: Who understands Pipewire/Wireplumber in Fedora 35? Need help",
-      "type": "story"
-    },
-    {
-      "by": "typingmonkey",
-      "descendants": 0,
-      "id": 30221324,
-      "score": 1,
-      "time": 1644071391,
-      "title": "Release Radar · January 2022 Edition",
-      "type": "story",
-      "url": "https://github.blog/2022-02-04-release-radar-jan-2022/"
     }
   ]
 }
