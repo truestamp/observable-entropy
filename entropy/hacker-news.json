@@ -1,6 +1,16 @@
 {
   "stories": [
     {
+      "by": "bariumbitmap",
+      "descendants": 0,
+      "id": 30237032,
+      "score": 1,
+      "time": 1644181856,
+      "title": "Virtual Keyboards Approach Reality (2002)",
+      "type": "story",
+      "url": "https://www.technologyreview.com/2002/11/19/234612/virtual-keyboards-approach-reality/"
+    },
+    {
       "by": "NTDF9",
       "descendants": 0,
       "id": 30236996,
@@ -32,8 +42,11 @@
     },
     {
       "by": "taylorhughes",
-      "descendants": 0,
+      "descendants": 1,
       "id": 30236929,
+      "kids": [
+        30237031
+      ],
       "score": 1,
       "text": "As the codebases I work in scale, I&#x27;m wondering how to think about finding &amp; detecting problems to important business logic earlier on, ideally during development.<p>The main ways to protect against regressions that I know about are 1) having a large set of (mostly integration-level, for me) automated tests, 2) adding business metric monitors, and 3) periodic manual human QA. Wondering if there&#x27;s anything I&#x27;m missing.<p>With a growing codebase, the number of tests written gets almost out of control, and it&#x27;s unclear which are the important ones. I&#x27;ve also seen business metrics being recorded in a place that &quot;misses a spot&quot; or otherwise breaks independently of the actual thing it&#x27;s measuring, too. And there&#x27;s no way to know the human flows are operating at the right granularity.<p>Is this something everyone just figures out ad hoc? What am I missing?",
       "time": 1644181053,
@@ -92,20 +105,6 @@
       "title": "Computers Can Be Understood",
       "type": "story",
       "url": "https://blog.nelhage.com/post/computers-can-be-understood/"
-    },
-    {
-      "by": "LeoPanthera",
-      "descendants": 3,
-      "id": 30236835,
-      "kids": [
-        30236971,
-        30236862
-      ],
-      "score": 1,
-      "text": "Mido Lotto ( https:&#x2F;&#x2F;midolotto.com&#x2F; ) buys lottery tickets (physically, in person) and then resells them to you online, via an app, for a premium. They don&#x27;t physically give you the ticket, they keep custody of it and, if you win, they give you the prize.<p>We&#x27;ve had a long discussion in my house this morning about whether this can possibly be legal, and we&#x27;re sure that it is not. Is it?",
-      "time": 1644180463,
-      "title": "Ask HN: Is “Mido Lotto” Legal?",
-      "type": "story"
     }
   ]
 }
