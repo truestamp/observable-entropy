@@ -1,6 +1,16 @@
 {
   "stories": [
     {
+      "by": "taylorhughes",
+      "descendants": 0,
+      "id": 30236929,
+      "score": 1,
+      "text": "As the codebases I work in scale, I&#x27;m wondering how to think about finding &amp; detecting problems to important business logic earlier on, ideally during development.<p>The main ways to protect against regressions that I know about are 1) having a large set of (mostly integration-level, for me) automated tests, 2) adding business metric monitors, and 3) periodic manual human QA. Wondering if there&#x27;s anything I&#x27;m missing.<p>With a growing codebase, the number of tests written gets almost out of control, and it&#x27;s unclear which are the important ones. I&#x27;ve also seen business metrics being recorded in a place that &quot;misses a spot&quot; or otherwise breaks independently of the actual thing it&#x27;s measuring, too. And there&#x27;s no way to know the human flows are operating at the right granularity.<p>Is this something everyone just figures out ad hoc? What am I missing?",
+      "time": 1644181053,
+      "title": "Ask HN: What's the best way to protect against regressions?",
+      "type": "story"
+    },
+    {
       "by": "_Microft",
       "descendants": 0,
       "id": 30236879,
@@ -52,7 +62,7 @@
     },
     {
       "by": "LeoPanthera",
-      "descendants": 1,
+      "descendants": 2,
       "id": 30236835,
       "kids": [
         30236862
@@ -92,19 +102,6 @@
       "title": "Show HN: Play Wordle over SSH",
       "type": "story",
       "url": "https://github.com/ajeetdsouza/clidle"
-    },
-    {
-      "by": "12ian34",
-      "descendants": 1,
-      "id": 30236717,
-      "kids": [
-        30236718
-      ],
-      "score": 2,
-      "time": 1644179776,
-      "title": "Plantle – plant-based Wordle with Svelte and Supabase",
-      "type": "story",
-      "url": "https://plantle.netlify.app/"
     }
   ]
 }
