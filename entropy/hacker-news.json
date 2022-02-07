@@ -1,10 +1,20 @@
 {
   "stories": [
     {
+      "by": "ecliptik",
+      "descendants": 0,
+      "id": 30239028,
+      "score": 1,
+      "time": 1644197305,
+      "title": "How the Baby Name Popularity List Was Born (2009)",
+      "type": "story",
+      "url": "https://nameberry.com/blog/most-popular-names-how-the-list-was-born"
+    },
+    {
       "by": "Bostonian",
       "descendants": 0,
       "id": 30238985,
-      "score": 1,
+      "score": 2,
       "time": 1644196845,
       "title": "Black Lives Matter is imploding in scandal",
       "type": "story",
@@ -14,7 +24,7 @@
       "by": "optimalsolver",
       "descendants": 0,
       "id": 30238973,
-      "score": 2,
+      "score": 3,
       "time": 1644196716,
       "title": "School Closures In 1918 Flu Had No Impact On Educational Or Career Attainment",
       "type": "story",
@@ -55,9 +65,12 @@
     },
     {
       "by": "tiagobraw",
-      "descendants": 0,
+      "descendants": 1,
       "id": 30238928,
-      "score": 2,
+      "kids": [
+        30239027
+      ],
+      "score": 5,
       "time": 1644196334,
       "title": "Some of the error messages produced by Apple's MPW C compiler",
       "type": "story",
@@ -67,7 +80,7 @@
       "by": "todsacerdoti",
       "descendants": 0,
       "id": 30238920,
-      "score": 3,
+      "score": 4,
       "time": 1644196273,
       "title": "Hot Reloading Rust: Windows and Linux",
       "type": "story",
@@ -92,16 +105,6 @@
       "title": "The Communicating Vessels",
       "type": "story",
       "url": "https://covidianaesthetics.substack.com/p/the-communicating-vessels-cornelius"
-    },
-    {
-      "by": "hardlyknowwho",
-      "descendants": 0,
-      "id": 30238890,
-      "score": 3,
-      "text": "The languages&#x2F;packages I use don&#x27;t natively support a way to log a message regardless of the current log level. First, is this common, and second, if it is, why is that? I&#x27;ve always felt like this is a gross oversight. For example, when my service starts, I would like it to ALWAYS log &quot;Service started.&quot; I don&#x27;t want that message to disappear when I go to production and the log level is set higher than that message deserves in a world defined by urgency. And I don&#x27;t want to set it to WARN or ERROR.<p>Other extra-level logging methods I could make use of are: log.random (with argument(s) defining how random), log.context (everything the runtime knows at that point), and log.assert. These may be asking too much of a logging module, but on the other hand, if they lead to software that&#x27;s easier to maintain, maybe they&#x27;re worth bargaining for?<p>Anyway, I would love to hear your thoughts on how&#x2F;why we ended up in a logging straitjacket of sorts. And yeah, I&#x27;ve defined ALWAYS as custom level before, and gotten it to work; I&#x27;m curious to know why it&#x27;s not built in.",
-      "time": 1644196067,
-      "title": "Ask HN: Where is log level ALWAYS?",
-      "type": "story"
     }
   ]
 }
