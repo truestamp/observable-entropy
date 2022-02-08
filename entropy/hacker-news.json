@@ -1,12 +1,57 @@
 {
   "stories": [
     {
-      "by": "Napsty",
-      "dead": true,
-      "id": 30256972,
+      "by": "shivajikobardan",
+      "descendants": 1,
+      "id": 30256999,
+      "kids": [
+        30257000
+      ],
       "score": 1,
-      "time": 1644317399,
+      "text": "1) Really messed up my uni life. Indulged into various addictions like addiction of making money online. making free money. wasted almost 3 years of uni life in it. 2.5 years to be exact..<p>Didn&#x27;t keep notes of any subject even though i passed subject with ease as I had good track record of being a good student in the past as well. I was one of the toppers upto grade 12. Suddenly this making free money concept hit me during college life and I truly wasted lots of time in university.<p>2) I know really nth. I started studying seriously and found a learning method that works for me in 4th year :(. I have studied every subject since 4th year very properly. I had failed few subjects in the past like 5 subjects and I studied them well irrespective of how much marks I will get as that is dependent on how much revision I do.<p>I am from computer engineering branch..My first goal is to get a web development job here in nepal. get a good earning by working for 5 years. like save 20000 USD. and apply for masters in usa for either ML&#x2F;AI&#x2F;DS&#x2F;DL or some wireless commxn and stuffs from ECE branch. and settle there if I feel ready for it.<p>3) I had severe depression during university as life hit hard when I was in university. Due to those reasons, I was never on my best in university life. Messed up totally.<p>4) I haven&#x27;t failed anything. It is because I was too good to fail exams. Even if I study nth I could go to exam and pass the exam..maybe exams in Nepal are easier who knows.<p>5) Slowly my depression is being cured by the help of good doctor but this thing is hitting me hard..I am afraid how would I settle for after university life. I will surely be jobless for 3 years, that is written in stars. At the very minimum.<p>6) After my failed journey with blogging and stuffs, I have developed a hate towards several professions..Anything related to business. I feel like a loser when I do that as my primary profession. Marketing, sales, enterpreneurship..name any..I feel like yuck when I see myself doing those jobs. Specially since I have a degree in engineering. I should be doing engineering jobs and it is really tough for my mentality to change...I am hecking depressed to even think what other people would think of me...<p>7) The only good part as per se is that I have finally mastered the art of learning slowly and steadily and I am at a position where I can learn things with 60% efficiency at least. I was worse before.<p>My current goals are learning enough programming to get a web development job then think for future. That would really settle my future imo. I already know entrepreneurships and stuffs. Blogging has always been my passion. My adsense is verified, so it won&#x27;t really take me much to write stuffs again and make like 50$ per month which is a lot in Nepal. It is like 8000 NPR. Job pays around 300 USD for newbies. Honestly, I will work even for free...if I am going to learn what I want to learn...Money doesn&#x27;t matter to me as currently my parents are rich enough(they are middle class actually...lower middle class) to give me food and clothes. I already have shelter as in Nepal we live with parents forever.<p>But it hurts my ego and prestige...IDK what to do and there is this depression of leaving university life hitting me right in my head...My depression is being cured and here is new thing arrived..And I don&#x27;t even think this is sth abnormal. This is perfectly normal and should not require medical consultation imo...But since I messed up badly in past, things are hitting me different.<p>I need somewhere around 50K USD saved up to make up for master&#x27;s in USA. Even if I make 25K USD in 5 years, my parents will allow me to do it with their help...But I don&#x27;t think  USA accepts applicants who have 5 years gap between studying and master&#x27;s studying :(",
+      "time": 1644317683,
+      "title": "University is ending in few days, getting depression",
       "type": "story"
+    },
+    {
+      "by": "kklisura",
+      "descendants": 0,
+      "id": 30256991,
+      "score": 1,
+      "time": 1644317569,
+      "title": "Biden officials trying to recalculate U.S. Covid-19 hospitalizations",
+      "type": "story",
+      "url": "https://www.politico.com/news/2022/02/07/biden-covid-hospitalization-data-recalculate-00006341"
+    },
+    {
+      "by": "notRobot",
+      "descendants": 0,
+      "id": 30256984,
+      "score": 2,
+      "time": 1644317505,
+      "title": "Porn sites will be legally required to verify users' age using credit card",
+      "type": "story",
+      "url": "https://www.bbc.com/news/technology-60293057"
+    },
+    {
+      "by": "DaveChild",
+      "descendants": 0,
+      "id": 30256981,
+      "score": 1,
+      "time": 1644317466,
+      "title": "Wordle Alternatives – A Comprehensive List (221 and counting)",
+      "type": "story",
+      "url": "https://aloneonahill.com/blog/wordle-alternatives/"
+    },
+    {
+      "by": "pseudolus",
+      "descendants": 0,
+      "id": 30256974,
+      "score": 1,
+      "time": 1644317416,
+      "title": "First glimpse of lone black hole delights astronomers",
+      "type": "story",
+      "url": "https://www.nature.com/articles/d41586-022-00346-6"
     },
     {
       "by": "pseudolus",
@@ -50,53 +95,16 @@
     },
     {
       "by": "ivan_voitovych",
-      "descendants": 0,
+      "descendants": 1,
       "id": 30256934,
+      "kids": [
+        30256978
+      ],
       "score": 1,
       "text": "Hello everyone!<p>I&#x27;ve been working on a solution that will allow me to write my front-end application in PHP. Why? - I wouldn&#x27;t say I liked the idea of using Node js on my servers for server-side rendering using Vue or Angular. Don&#x27;t get me wrong, I work with .NET, Node js, Angular, and React every day at work and have nothing against it. But I needed a simple component with some data from a server and rendered using a template for my side-project. So, I started to think, can I convert my PHP code into Javascript? - Sure I can. Classes will become functions, private properties - local variables. Protected and the public will become public properties, etc. Something like this:<p>class TodoApp extends BaseComponent\n{\n    public string $text = &#x27;&#x27;;\n    public array $items = [];<p><pre><code>    public function handleSubmit()\n    {\n        $this-&gt;items[] = $this-&gt;text;\n        $this-&gt;text = &#x27;&#x27;;\n    }</code></pre>\n}<p>will become:\nvar TodoApp = function () {\n    var $this = this;\n    this.text = &#x27;&#x27;;\n    this.items = [];<p><pre><code>    this.handleSubmit = function (event) {\n        $this.items.push($this.text);\n        $this.text = &#x27;&#x27;;\n    };</code></pre>\n};<p>By following that pattern, I designed a first working prototype. It was pretty good but most important - it supported SSR out of the box. Later I added more and more features, like templating engine, reactivity, built-in PHP functions support, etc. And I could not stop. I continue improving it every day in my free time. As of today, Viewi is a fully functional tool for building full-stack and reactive web applications.<p>Link with some examples:\nhttps:&#x2F;&#x2F;viewi.net&#x2F;<p>Documentation\nhttps:&#x2F;&#x2F;viewi.net&#x2F;docs<p>Architecture design and idea\nhttps:&#x2F;&#x2F;viewi.net&#x2F;docs&#x2F;architecture\nand here\nhttps:&#x2F;&#x2F;viewi.net&#x2F;docs&#x2F;introduction<p>Tutorial\nhttps:&#x2F;&#x2F;viewi.net&#x2F;tutorial<p>GitHub project\nhttps:&#x2F;&#x2F;github.com&#x2F;viewi&#x2F;viewi<p>I hope you will find something useful for yourself. Feel free to ask questions or leave feedback.<p>Thank you!",
       "time": 1644317152,
       "title": "I built an reactive web application with PHP",
       "type": "story"
-    },
-    {
-      "by": "Tomte",
-      "descendants": 0,
-      "id": 30256932,
-      "score": 1,
-      "time": 1644317123,
-      "title": "Concept Map",
-      "type": "story",
-      "url": "https://en.wikipedia.org/wiki/Concept_map"
-    },
-    {
-      "by": "giuliomagnifico",
-      "descendants": 0,
-      "id": 30256928,
-      "score": 1,
-      "time": 1644317062,
-      "title": "“A Tensor Language”: new programming language for high-performance computers",
-      "type": "story",
-      "url": "https://news.mit.edu/2022/new-programming-language-high-performance-computers-0207"
-    },
-    {
-      "by": "pjbk",
-      "descendants": 0,
-      "id": 30256915,
-      "score": 1,
-      "time": 1644316968,
-      "title": "The utopian Oneida community, forerunner of the silverware company",
-      "type": "story",
-      "url": "https://en.wikipedia.org/wiki/Oneida_Community"
-    },
-    {
-      "by": "Tomte",
-      "descendants": 0,
-      "id": 30256899,
-      "score": 1,
-      "time": 1644316767,
-      "title": "Freeplane Mindmapping Tool",
-      "type": "story",
-      "url": "https://www.freeplane.org/wiki/index.php/Home"
     }
   ]
 }
