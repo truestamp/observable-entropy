@@ -1,6 +1,66 @@
 {
   "stories": [
     {
+      "by": "xupybd",
+      "descendants": 0,
+      "id": 30262879,
+      "score": 1,
+      "text": "I just read up on the language powering HN. Is anyone here using it for anything else?",
+      "time": 1644346962,
+      "title": "Ask HN: Is anyone else using the Arc programming language?",
+      "type": "story"
+    },
+    {
+      "by": "carlosvb",
+      "descendants": 0,
+      "id": 30262867,
+      "score": 1,
+      "text": "TL; DR: Put your python code and get an easy-to-use webapp to run it (beta version).<p>Dear all!<p>First time posting on HN. We are excited to show our project here.<p>When you do consult services, often, the customers need a GUI to evaluate your algorithms. We have developed an in-house solution for this, and now we want to make it public. We call it ScienceDesk Algorithm Delivery… until someone suggests a better name :)<p>In this platform, python programmers upload their algorithms and trained models, and generate a sharable URL to run the algorithm. The programmer decides if the source code should be shared or not.<p>As an example, we copied these famous open-source algorithms from GitHub and generated a URL link to run:<p>Deoldfiy – Colorize old black-white photos:\nhttps:&#x2F;&#x2F;app.sciencedesk.net&#x2F;#&#x2F;links&#x2F;21&#x2F;df34a592b89241a38701cfba112007eb&#x2F;<p>Covid Net – X-ray thorax image diagnosis:\nhttps:&#x2F;&#x2F;app.sciencedesk.net&#x2F;#&#x2F;links&#x2F;22&#x2F;bd4d9868d4d3462d942119e5b7fb748f&#x2F;<p>Image AI – Find and count objects in images (we uploaded the yolo-tiny.h5, feel free to add the yolo.h5 model for better results):\nhttps:&#x2F;&#x2F;app.sciencedesk.net&#x2F;#&#x2F;links&#x2F;20&#x2F;f1b94abcb7924303958a7cd137e19bcc&#x2F;<p>Cartoonifyme -  Quick and dirty opencv algorithm to cartoonize profile pictures\nhttps:&#x2F;&#x2F;app.sciencedesk.net&#x2F;#&#x2F;links&#x2F;25&#x2F;c9ad75e9491c42319c6bd73294aaf831&#x2F;<p>The customers (or users) will open the URL link and find a simple GUI to run the algorithm: they can upload files, fill input forms, save data structures and download or visualize outputs.<p>HOW-TO<p>Video that explains how to put a hello-word code in ScienceDesk: \nhttps:&#x2F;&#x2F;youtu.be&#x2F;LJ_Wwd58utg<p>TECHNICAL DETAILS:<p>Under the hood, the ScienceDesk backend sends the code and inputs to our orchestrator, the MicroProcServer. The MicroProcServer runs the algorithms in a Kubernetes cluster. Each container that runs the algorithm is completely isolated to protect the user input&#x2F;output data. The MicroProcServer also works as a broker, delivering file inputs to the containers and returning file outputs to the backend. After finishing the session, the user data are erased.<p>All thoughts and feedback are welcome in the comments below, especially if you are a machine learning engineer. \nYou are using a small server, you may need some patience to run something heavy.<p>Thank you so much,\nCarlos",
+      "time": 1644346927,
+      "title": "Show HN: Out-of-box web app for your AI algorithm",
+      "type": "story"
+    },
+    {
+      "by": "jdemaeyer",
+      "descendants": 0,
+      "id": 30262866,
+      "score": 1,
+      "time": 1644346925,
+      "title": "Show HN: Un-personalize your Spotify playlists with two keystrokes",
+      "type": "story",
+      "url": "https://spoqify.com/"
+    },
+    {
+      "by": "sharkweek",
+      "descendants": 0,
+      "id": 30262859,
+      "score": 1,
+      "time": 1644346917,
+      "title": "The Internet Is Just Investment Banking Now",
+      "type": "story",
+      "url": "https://www.theatlantic.com/technology/archive/2022/02/future-internet-blockchain-investment-banking/621480/"
+    },
+    {
+      "by": "feross",
+      "descendants": 0,
+      "id": 30262854,
+      "score": 1,
+      "time": 1644346905,
+      "title": "Two Small Corrections and Updates",
+      "type": "story",
+      "url": "https://astralcodexten.substack.com/p/two-small-corrections-and-updates"
+    },
+    {
+      "by": "gmays",
+      "descendants": 0,
+      "id": 30262842,
+      "score": 1,
+      "time": 1644346862,
+      "title": "Chip integrates silicon quantum dots and multiplexed readout electronics",
+      "type": "story",
+      "url": "https://techxplore.com/news/2022-02-cmos-based-chip-silicon-quantum-dots.html"
+    },
+    {
       "by": "Quillbert182",
       "descendants": 0,
       "id": 30262789,
@@ -12,9 +72,12 @@
     },
     {
       "by": "iam-TJ",
-      "descendants": 0,
+      "descendants": 1,
       "id": 30262767,
-      "score": 1,
+      "kids": [
+        30262828
+      ],
+      "score": 2,
       "time": 1644346536,
       "title": "(UK) Foreign Office target of 'serious cyber incident'",
       "type": "story",
@@ -39,69 +102,6 @@
       "title": "Show HN: Chatlike – Live chat with web visitors via Discord",
       "type": "story",
       "url": "https://www.chatlike.xyz/"
-    },
-    {
-      "by": "hiena03",
-      "descendants": 0,
-      "id": 30262676,
-      "score": 1,
-      "time": 1644346210,
-      "title": "Project Heist: A High-End Cinematic Experience",
-      "type": "story",
-      "url": "https://studio.blender.org/blog/announcing-project-heist-high-end-cinematic-experience/"
-    },
-    {
-      "by": "kkwteh",
-      "descendants": 0,
-      "id": 30262675,
-      "score": 1,
-      "time": 1644346209,
-      "title": "The Passage of Polymarket",
-      "type": "story",
-      "url": "https://astralcodexten.substack.com/p/the-passage-of-polymarket"
-    },
-    {
-      "by": "rolph",
-      "descendants": 0,
-      "id": 30262671,
-      "score": 2,
-      "time": 1644346185,
-      "title": "Hair Today Gone Tomorrow: Four Men Go to Fix a Wafer Prober",
-      "type": "story",
-      "url": "https://hackaday.com/2022/02/08/hair-today-gone-tomorrow-four-men-go-to-fix-a-wafer-prober/"
-    },
-    {
-      "by": "slumos",
-      "descendants": 0,
-      "id": 30262645,
-      "score": 2,
-      "time": 1644346090,
-      "title": "Nirvana Fallacy",
-      "type": "story",
-      "url": "https://en.wikipedia.org/wiki/Nirvana_fallacy"
-    },
-    {
-      "by": "carabiner",
-      "descendants": 0,
-      "id": 30262636,
-      "kids": [
-        30262644
-      ],
-      "score": 1,
-      "time": 1644346065,
-      "title": "South Korea’s presidential election marred by scandals, bickering and insults",
-      "type": "story",
-      "url": "https://www.washingtonpost.com/world/2022/02/08/south-korea-presidential-election/"
-    },
-    {
-      "by": "ingve",
-      "descendants": 0,
-      "id": 30262623,
-      "score": 1,
-      "time": 1644346000,
-      "title": "Why Windows isn't ready for Arm developers",
-      "type": "story",
-      "url": "https://www.zdnet.com/article/op-ed-windows-isnt-ready-for-arm-developers/"
     }
   ]
 }
