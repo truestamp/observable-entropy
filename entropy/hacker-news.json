@@ -4,7 +4,7 @@
       "by": "kergonath",
       "descendants": 0,
       "id": 30255498,
-      "score": 1,
+      "score": 2,
       "time": 1644301626,
       "title": "Meta may be forced to shutter Facebook, Instagram in EU",
       "type": "story",
@@ -85,8 +85,11 @@
     },
     {
       "by": "ratpik",
-      "descendants": 0,
+      "descendants": 1,
       "id": 30255337,
+      "kids": [
+        30255533
+      ],
       "score": 1,
       "text": "When a flow is directly triggered by a users action, we have the Cookie&#x2F;Token of the user to do AuthN&#x2F;AuthZ.<p>However when we need to run background jobs or some asynchronous workflow on behalf of the user, we do not have the Cookie&#x2F;Token of the user. We do have the user id but not the session. How do you solve for AuthZ specifically for your background jobs and dependent microservices?",
       "time": 1644299703,
