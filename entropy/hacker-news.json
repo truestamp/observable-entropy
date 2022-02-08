@@ -1,6 +1,74 @@
 {
   "stories": [
     {
+      "by": "Napsty",
+      "dead": true,
+      "id": 30256972,
+      "score": 1,
+      "time": 1644317399,
+      "type": "story"
+    },
+    {
+      "by": "pseudolus",
+      "descendants": 0,
+      "id": 30256970,
+      "score": 1,
+      "time": 1644317379,
+      "title": "How to build a fire inside, according to Neanderthals",
+      "type": "story",
+      "url": "https://www.npr.org/2022/02/08/1078898515/cave-campfire-neanderthal"
+    },
+    {
+      "by": "caaqil",
+      "descendants": 0,
+      "id": 30256961,
+      "score": 1,
+      "time": 1644317322,
+      "title": "Cyberattack brings down Vodafone Portugal mobile, voice, and TV services",
+      "type": "story",
+      "url": "https://therecord.media/cyberattack-brings-down-vodafone-portugal-mobile-voice-and-tv-services/"
+    },
+    {
+      "by": "lbj",
+      "descendants": 0,
+      "id": 30256960,
+      "score": 1,
+      "time": 1644317321,
+      "title": "Personal Branding for Freelancers",
+      "type": "story",
+      "url": "https://zimtik.com/en/posts/personal-branding---an-introduction"
+    },
+    {
+      "by": "unripe_syntax",
+      "descendants": 0,
+      "id": 30256959,
+      "score": 1,
+      "time": 1644317321,
+      "title": "Why Is the Swift Language Gaining Popularity? Is It Tailored Swift?",
+      "type": "story",
+      "url": "https://hackernoon.com/why-is-swift-language-gaining-popularity-is-it-tailored-swift"
+    },
+    {
+      "by": "ivan_voitovych",
+      "descendants": 0,
+      "id": 30256934,
+      "score": 1,
+      "text": "Hello everyone!<p>I&#x27;ve been working on a solution that will allow me to write my front-end application in PHP. Why? - I wouldn&#x27;t say I liked the idea of using Node js on my servers for server-side rendering using Vue or Angular. Don&#x27;t get me wrong, I work with .NET, Node js, Angular, and React every day at work and have nothing against it. But I needed a simple component with some data from a server and rendered using a template for my side-project. So, I started to think, can I convert my PHP code into Javascript? - Sure I can. Classes will become functions, private properties - local variables. Protected and the public will become public properties, etc. Something like this:<p>class TodoApp extends BaseComponent\n{\n    public string $text = &#x27;&#x27;;\n    public array $items = [];<p><pre><code>    public function handleSubmit()\n    {\n        $this-&gt;items[] = $this-&gt;text;\n        $this-&gt;text = &#x27;&#x27;;\n    }</code></pre>\n}<p>will become:\nvar TodoApp = function () {\n    var $this = this;\n    this.text = &#x27;&#x27;;\n    this.items = [];<p><pre><code>    this.handleSubmit = function (event) {\n        $this.items.push($this.text);\n        $this.text = &#x27;&#x27;;\n    };</code></pre>\n};<p>By following that pattern, I designed a first working prototype. It was pretty good but most important - it supported SSR out of the box. Later I added more and more features, like templating engine, reactivity, built-in PHP functions support, etc. And I could not stop. I continue improving it every day in my free time. As of today, Viewi is a fully functional tool for building full-stack and reactive web applications.<p>Link with some examples:\nhttps:&#x2F;&#x2F;viewi.net&#x2F;<p>Documentation\nhttps:&#x2F;&#x2F;viewi.net&#x2F;docs<p>Architecture design and idea\nhttps:&#x2F;&#x2F;viewi.net&#x2F;docs&#x2F;architecture\nand here\nhttps:&#x2F;&#x2F;viewi.net&#x2F;docs&#x2F;introduction<p>Tutorial\nhttps:&#x2F;&#x2F;viewi.net&#x2F;tutorial<p>GitHub project\nhttps:&#x2F;&#x2F;github.com&#x2F;viewi&#x2F;viewi<p>I hope you will find something useful for yourself. Feel free to ask questions or leave feedback.<p>Thank you!",
+      "time": 1644317152,
+      "title": "I built an reactive web application with PHP",
+      "type": "story"
+    },
+    {
+      "by": "Tomte",
+      "descendants": 0,
+      "id": 30256932,
+      "score": 1,
+      "time": 1644317123,
+      "title": "Concept Map",
+      "type": "story",
+      "url": "https://en.wikipedia.org/wiki/Concept_map"
+    },
+    {
       "by": "giuliomagnifico",
       "descendants": 0,
       "id": 30256928,
@@ -29,80 +97,6 @@
       "title": "Freeplane Mindmapping Tool",
       "type": "story",
       "url": "https://www.freeplane.org/wiki/index.php/Home"
-    },
-    {
-      "by": "michaeltendo",
-      "descendants": 0,
-      "id": 30256865,
-      "score": 11,
-      "text": "For students: Swift online enrollment. Find the top-rated schools and apply online.\nFor school administrators: Enrollment-as-a-Service platform to put your admissions operations on autopilot. Manage your school profile and receive applications.",
-      "time": 1644316487,
-      "title": "Show HN: Phront – Discover and apply to the best schools in your area",
-      "type": "story",
-      "url": "https://phront.page/"
-    },
-    {
-      "by": "Sami_Lehtinen",
-      "descendants": 0,
-      "id": 30256864,
-      "score": 2,
-      "time": 1644316482,
-      "title": "Dangerous toys: Anything to ed25519 (SSH Keys)",
-      "type": "story",
-      "url": "https://0xcc.re/2022/02/01/dangerous-toys-anything-to-ed25519-ssh-keys.html"
-    },
-    {
-      "by": "adrianomartins",
-      "descendants": 0,
-      "id": 30256859,
-      "score": 1,
-      "time": 1644316448,
-      "title": "Key mistakes to avoid if you're planning to build an app",
-      "type": "story",
-      "url": "https://www.valere.io/blog/planning-to-build-an-app-here-are-7-key-mistakes-to-avoid"
-    },
-    {
-      "by": "nikpoltoratsky",
-      "descendants": 1,
-      "id": 30256846,
-      "kids": [
-        30256847
-      ],
-      "score": 4,
-      "time": 1644316363,
-      "title": "UI Bakery RegEx Library",
-      "type": "story",
-      "url": "https://uibakery.io/regex-library"
-    },
-    {
-      "by": "leathersoft",
-      "descendants": 0,
-      "id": 30256837,
-      "score": 2,
-      "time": 1644316322,
-      "title": "A Player Hacked Hearthstone",
-      "type": "story",
-      "url": "https://old.reddit.com/r/hearthstone/comments/snadt6/how_i_hacked_hearthstone/"
-    },
-    {
-      "by": "nunoferreira",
-      "descendants": 0,
-      "id": 30256824,
-      "score": 2,
-      "time": 1644316217,
-      "title": "Vodafone Portugal hit by “deliberate and malicious” attack",
-      "type": "story",
-      "url": "https://www.reuters.com/article/portugal-cyber-vodafone-idUSL8N2UJ2DT"
-    },
-    {
-      "by": "fguerraz",
-      "descendants": 0,
-      "id": 30256785,
-      "score": 2,
-      "time": 1644315804,
-      "title": "Journalist Calls Out US Intelligence Claims on Russia and Ukraine (14min Video)",
-      "type": "story",
-      "url": "https://www.youtube.com/watch?v=0jpfIgEKKyI"
     }
   ]
 }
