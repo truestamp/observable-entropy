@@ -1,6 +1,36 @@
 {
   "stories": [
     {
+      "by": "goindeep",
+      "descendants": 0,
+      "id": 30269783,
+      "score": 1,
+      "time": 1644389986,
+      "title": "ExpressVPN offering $100k to first person who hacks its servers",
+      "type": "story",
+      "url": "https://www.bleepingcomputer.com/news/security/expressvpn-offering-100-000-to-first-person-who-hacks-its-servers/"
+    },
+    {
+      "by": "zkid18",
+      "descendants": 0,
+      "id": 30269781,
+      "score": 1,
+      "time": 1644389985,
+      "title": "Apple warned Belarusian iOS developers about blocking due to sanctions",
+      "type": "story",
+      "url": "https://www.thewistle.com/2022/02/06/apple-warned-belarusian-ios-developers-about-blocking-due-to-sanctions/"
+    },
+    {
+      "by": "amirGi",
+      "descendants": 0,
+      "id": 30269760,
+      "score": 2,
+      "time": 1644389795,
+      "title": "Articles that shaped the way I think",
+      "type": "story",
+      "url": "https://zeus.amirbolous.com/articles"
+    },
+    {
       "by": "janandonly",
       "descendants": 0,
       "id": 30269738,
@@ -42,8 +72,11 @@
     },
     {
       "by": "matkoniecz",
-      "descendants": 0,
+      "descendants": 1,
       "id": 30269668,
+      "kids": [
+        30269763
+      ],
       "score": 1,
       "text": "I just run into it yesterday and I was not really expecting it so I thought that it would share if anyone helps family or friends with their computer<p>- someone had horribly slow Windows (opening folder with photos has not completed after several minutes)\n- no typical signs of a malware or other infestation otherwise\n- OneDrive asking to be &quot;upgraded&quot; (which went straight to payment form)<p>Turns out that Windows was uploading local files to Microsoft servers (OneDrive). User was not aware about this, presumably it appeared in way similar how most people end with Microsoft account during installation.<p>In addition it turned that OneDrive deleted local files. User was definitely not aware about that.<p>So someone opening folder with photos - was downloading them from server. No idea who thought that it would be better than simply mirroring files. Opening folders was slow because user was waiting for download of GBs of data.<p>Attempts to change configuration were without any feedback or noticeable change. Linux would at give cryptic but searchable error.<p>Uninstalling OneDrive resulted in Windows stopping to pretend that local files are there.<p>At least message asking for OneDrive subscription, appearing every 30s, was also gone.<p>After that it was necessary to download files from OneDrive. Which failed in the middle of download twice and was rate limited to 250 KB&#x2F;s by Microsoft server. Which makes idea &quot;lets delete GBs of files locally and download them when user opens folder&quot; even worse.<p>I guess that the entire idea was invented to push OneDrive subscriptions (many people will simply pay as popup demanded) but who though that deleting local files is a good idea?<p>Also, it is not just one person who did something weird, it happened to multiple. So I guess that it is one more thing to be aware while helping with horribly slow Windows and one more dark pattern to look out for.<p>BTW, it is really sad that &quot;Linux PC becoming more usable than Windows PC&quot; is driven recently mostly by Windows becoming worse.<p>Also, that is how &quot;lets give family member external hard drive and help with backup making as a gift&quot; turned out to be 1h of investigation and several of waiting rather than 5 minutes of copying.",
       "time": 1644388765,
@@ -69,36 +102,6 @@
       "time": 1644388374,
       "title": "Tell HN: Use some minimal OpenGraph meta on HN",
       "type": "story"
-    },
-    {
-      "by": "quaintdev",
-      "descendants": 0,
-      "id": 30269639,
-      "score": 1,
-      "time": 1644388337,
-      "title": "Low Cost Server for Self Hosting at Home",
-      "type": "story",
-      "url": "https://www.ankshilp.com/posts/low_cost_server/"
-    },
-    {
-      "by": "kooskoos",
-      "descendants": 0,
-      "id": 30269614,
-      "score": 1,
-      "time": 1644388043,
-      "title": "What Does P3Y6M4DT12H30M5S Mean?",
-      "type": "story",
-      "url": "https://www.digi.com/resources/documentation/digidocs/90001437-13/reference/r_iso_8601_duration_format.htm"
-    },
-    {
-      "by": "chris_overseas",
-      "descendants": 0,
-      "id": 30269610,
-      "score": 1,
-      "time": 1644387980,
-      "title": "Elon Musk launched his own Tesla roadster to space 4 years ago. Where is it now?",
-      "type": "story",
-      "url": "https://www.cnn.com/2022/02/08/tech/spacex-tesla-roadster-falcon-heavy-anniversary-scn/index.html"
     }
   ]
 }
