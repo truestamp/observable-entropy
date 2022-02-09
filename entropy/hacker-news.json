@@ -1,104 +1,107 @@
 {
   "stories": [
     {
+      "by": "pseudolus",
+      "descendants": 0,
+      "id": 30275705,
+      "score": 1,
+      "time": 1644429240,
+      "title": "A New Law Could Hold Big Tech Accountable for Its Algorithms",
+      "type": "story",
+      "url": "https://slate.com/technology/2022/02/algorithmic-accountability-act-wyden.html"
+    },
+    {
+      "by": "nabilhat",
+      "descendants": 0,
+      "id": 30275703,
+      "score": 1,
+      "time": 1644429233,
+      "title": "Record-Breaking Rogue Wave Recorded Off the Coast of Vancouver Island",
+      "type": "story",
+      "url": "https://www.newswire.ca/news-releases/record-breaking-rogue-wave-recorded-off-the-coast-of-vancouver-island-830202783.html"
+    },
+    {
+      "by": "prostoalex",
+      "descendants": 0,
+      "id": 30275702,
+      "score": 1,
+      "time": 1644429231,
+      "title": "Apps Commandeered the Age-Old Idea of Takeout",
+      "type": "story",
+      "url": "https://www.wired.com/story/delivery-apps-age-old-idea-takeout/"
+    },
+    {
+      "by": "jocker12",
+      "descendants": 0,
+      "id": 30275701,
+      "score": 1,
+      "time": 1644429221,
+      "title": "Tesla Influencers Try to Present FSD as Safe While Almost Hitting a Cyclist",
+      "type": "story",
+      "url": "https://www.autoevolution.com/news/tesla-influencers-try-to-present-fsd-as-safe-while-almost-hitting-a-cyclist-181201.html"
+    },
+    {
+      "by": "picture",
+      "descendants": 0,
+      "id": 30275690,
+      "score": 1,
+      "time": 1644429173,
+      "title": "The Economics of Netflix's 17B",
+      "type": "story",
+      "url": "https://asianometry.substack.com/p/the-economics-of-netflixs-17-billion"
+    },
+    {
+      "by": "porterbeats",
+      "descendants": 0,
+      "id": 30275687,
+      "score": 1,
+      "time": 1644429159,
+      "title": "A Man Who Tried to Redeem the World with Logic (2015)",
+      "type": "story",
+      "url": "https://nautil.us/the-man-who-tried-to-redeem-the-world-with-logic-2885/"
+    },
+    {
+      "by": "moviewise",
+      "descendants": 1,
+      "id": 30275670,
+      "kids": [
+        30275699
+      ],
+      "score": 1,
+      "time": 1644429125,
+      "title": "Sound and music in film can affect the ways in which we perceive ourselves",
+      "type": "story",
+      "url": "https://www.sciencedaily.com/releases/2015/05/150507082439.htm"
+    },
+    {
+      "by": "als0",
+      "descendants": 0,
+      "id": 30275653,
+      "score": 1,
+      "time": 1644429071,
+      "title": "A Small Ode to the CRT",
+      "type": "story",
+      "url": "https://axio.ms/projects/2022/02/08/CRTBox.html"
+    },
+    {
+      "by": "ksec",
+      "descendants": 0,
+      "id": 30275638,
+      "score": 2,
+      "time": 1644429018,
+      "title": "A Better Medium.com",
+      "type": "story",
+      "url": "https://blog.medium.com/a-better-medium-com-d468104ebb90"
+    },
+    {
       "by": "s5806533",
       "descendants": 0,
       "id": 30275629,
-      "score": 1,
-      "text": "A lot has been said about how and why e-mail is broken (such as [1, 2]) and how encrypted e-mail is a lost cause (such as [3, 4]). This is all true and sad enough. My gripe (both current and perennial), however, pertains to Mail User Agents (MUAs).<p>First off, we have to state that many people don&#x27;t even use a MUA at all, but instead rely on GMail and other webmail, which runs in the browser, and the problems with modern browsers are beyond the scope of this thread; suffice it to say that I deem `modern web applications&#x27; too bloated, much like Drew Devault and others (see, i.a., [5]). (Just to be clear, this does rule out Electron-based MUAs for me.)<p>I used to use Thunderbird for almost forever, until I found that it had inexplicably high CPU usage every now and then (not caused by the search index, mind you), and it was a bit tedious to configure for plain-text mail [6]. Besides, Mozilla has threatened to drop this project more than once. So I tried a few other clients (such as Geary and Evolution) and switched to Claws mail.<p>Claws mail does have outstanding performance. But its source code was not very convincing (mixing several layers of abstraction, including GUI, in the same place). Besides, it&#x27;s a GTK program.<p>I just can&#x27;t help it — I find GTK very hard to configure:\n* On a fresh install, it is very well possible that some icons or mouse cursors are missing.\n* On some systems, I have to configure using the ini file. On others, it is some arcane gsettings thing.\n* You need to play around with themes for it to look decent, so good look with the gsettings, the missing icons, and what-not once again.<p>Speaking of plain-text mail (as I did a few paragraphs ago), the website I mentioned [6] does list quite a few clients with textual user interface or command-line interface. I tried aerc, because it was fresh, written in Go, and because I do respect the principal author, above-mentioned Drew Devault, very much. But I found that the UX was not to my liking, and I don&#x27;t quite understand why a MUA should include a terminal emulator. Or why it should be a self-contained application altogether.<p>This whole idea of a self-contained MUA application goes against the general UNIX-y paradigm of &quot;no application&quot; [7] and &quot;choose extend over embed&quot; [8]. Don&#x27;t app me in, if I may say so.<p>Other MUAs, such as nhm&#x2F;mmh or neatmail do in fact follow these paradigms. But their adoption seems very weak, and:\n* they are written in C (which is error-prone and also not the best language for quickly testing hypotheses regarding MUA design),\n* neatmail uses mbox, which I find rather limiting,\n* nmh&#x2F;mmh do use Maildir, but they depend on context information (such as `current message&#x27;) that they have to manage in the file system, instead of expecting the necessary information as parameters to the operations.<p>Now, in order to use these UNIX-y programs, I imagine (though I didn&#x27;t check) one also needs dedicated programs for communicating with mail servers, i.e., for receiving and sending mail. So I read up a bit on sendmail, postfix, qmail, fetchmail, getmail, and fdm. And we seem to be treading buffer-overflow territory once again (or deprecated Python 2 in the case of getmail). I find this rather sad.<p>Am I missing something? Is the state of MUAs and e-mail in general really this bad&#x2F;sad?<p>[1] https:&#x2F;&#x2F;doctorow.scribe.rip&#x2F;dead-letters-73924aa19f9d\n[2] https:&#x2F;&#x2F;ploum.net&#x2F;the-monstrosity-email-has-become&#x2F;\n[3] https:&#x2F;&#x2F;latacora.micro.blog&#x2F;2020&#x2F;02&#x2F;19&#x2F;stop-using-encrypted.html\n[4] https:&#x2F;&#x2F;words.filippo.io&#x2F;giving-up-on-long-term-pgp&#x2F;\n[5] https:&#x2F;&#x2F;drewdevault.com&#x2F;2020&#x2F;08&#x2F;13&#x2F;Web-browsers-need-to-stop.html\n[6] https:&#x2F;&#x2F;useplaintext.email&#x2F;\n[7] http:&#x2F;&#x2F;wiki.c2.com&#x2F;?NoApplication\n[8] http:&#x2F;&#x2F;wiki.c2.com&#x2F;?EmbedVsExtend",
+      "score": 2,
+      "text": "A lot has been said about how and why e-mail is broken (such as [1, 2]) and how encrypted e-mail is a lost cause (such as [3, 4]). This is all true and sad enough. My gripe (both current and perennial), however, pertains to Mail User Agents (MUAs).<p>First off, we have to state that many people don&#x27;t even use a MUA at all, but instead rely on GMail and other webmail, which runs in the browser, and the problems with modern browsers are beyond the scope of this thread; suffice it to say that I deem `modern web applications&#x27; too bloated, much like Drew Devault and others (see, i.a., [5]). (Just to be clear, this does rule out Electron-based MUAs for me.)<p>I used to use Thunderbird for almost forever, until I found that it had inexplicably high CPU usage every now and then (not caused by the search index, mind you), and it was a bit tedious to configure for plain-text mail [6]. Besides, Mozilla has threatened to drop this project more than once. So I tried a few other clients (such as Geary and Evolution) and switched to Claws mail.<p>Claws mail does have outstanding performance. But its source code was not very convincing (mixing several layers of abstraction, including GUI, in the same place). Besides, it&#x27;s a GTK program.<p>I just can&#x27;t help it — I find GTK very hard to configure:\n* On a fresh install, it is very well possible that some icons or mouse cursors are missing.\n* On some systems, I have to configure using the ini file. On others, it is some arcane gsettings thing.\n* You need to play around with themes for it to look decent, so good luck with the gsettings, the missing icons, and what-not once again.<p>Speaking of plain-text mail (as I did a few paragraphs ago), the website I mentioned [6] does list quite a few clients with textual user interface or command-line interface. I tried aerc, because it was fresh, written in Go, and because I do respect the principal author, above-mentioned Drew Devault, very much. But I found that the UX was not to my liking, and I don&#x27;t quite understand why a MUA should include a terminal emulator. Or why it should be a self-contained application altogether.<p>This whole idea of a self-contained MUA application goes against the general UNIX-y paradigm of &quot;no application&quot; [7] and &quot;choose extend over embed&quot; [8]. Don&#x27;t app me in, if I may say so.<p>Other MUAs, such as nhm&#x2F;mmh or neatmail do in fact follow these paradigms. But their adoption seems very weak, and:\n* they are written in C (which is error-prone and also not the best language for quickly testing hypotheses regarding MUA design),\n* neatmail uses mbox, which I find rather limiting,\n* nmh&#x2F;mmh do use Maildir, but they depend on context information (such as `current message&#x27;) that they have to manage in the file system, instead of expecting the necessary information as parameters to the operations.<p>Now, in order to use these UNIX-y programs, I imagine (though I didn&#x27;t check) one also needs dedicated programs for communicating with mail servers, i.e., for receiving and sending mail. So I read up a bit on sendmail, postfix, qmail, fetchmail, getmail, and fdm. And we seem to be treading buffer-overflow territory once again (or deprecated Python 2 in the case of getmail). I find this rather sad.<p>Am I missing something? Is the state of MUAs and e-mail in general really this bad&#x2F;sad?<p>[1] https:&#x2F;&#x2F;doctorow.scribe.rip&#x2F;dead-letters-73924aa19f9d\n[2] https:&#x2F;&#x2F;ploum.net&#x2F;the-monstrosity-email-has-become&#x2F;\n[3] https:&#x2F;&#x2F;latacora.micro.blog&#x2F;2020&#x2F;02&#x2F;19&#x2F;stop-using-encrypted.html\n[4] https:&#x2F;&#x2F;words.filippo.io&#x2F;giving-up-on-long-term-pgp&#x2F;\n[5] https:&#x2F;&#x2F;drewdevault.com&#x2F;2020&#x2F;08&#x2F;13&#x2F;Web-browsers-need-to-stop.html\n[6] https:&#x2F;&#x2F;useplaintext.email&#x2F;\n[7] http:&#x2F;&#x2F;wiki.c2.com&#x2F;?NoApplication\n[8] http:&#x2F;&#x2F;wiki.c2.com&#x2F;?EmbedVsExtend",
       "time": 1644428991,
       "title": "Is the state of mail user agents that sad?",
       "type": "story"
-    },
-    {
-      "by": "makerofspoons",
-      "descendants": 0,
-      "id": 30275625,
-      "score": 1,
-      "time": 1644428975,
-      "title": "The world is on fire and our leaders are failing, poll finds",
-      "type": "story",
-      "url": "https://www.politico.com/news/2022/02/08/citizens-politicians-combat-climate-change-00004590"
-    },
-    {
-      "by": "historynops",
-      "descendants": 0,
-      "id": 30275623,
-      "score": 1,
-      "time": 1644428959,
-      "title": "Intent-based actuation for Google Production",
-      "type": "story",
-      "url": "https://www.usenix.org/publications/loginonline/prodspec-and-annealing-intent-based-actuation-google-production"
-    },
-    {
-      "by": "tosh",
-      "descendants": 0,
-      "id": 30275620,
-      "score": 1,
-      "time": 1644428956,
-      "title": "Soulbound",
-      "type": "story",
-      "url": "https://vitalik.ca/general/2022/01/26/soulbound.html"
-    },
-    {
-      "by": "caaqil",
-      "descendants": 0,
-      "id": 30275619,
-      "score": 1,
-      "time": 1644428955,
-      "title": "A $4.5B Crypto Crime Stars an NYC Couple, Stolen Bitcoin and Rap",
-      "type": "story",
-      "url": "https://www.bloomberg.com/news/articles/2022-02-09/nyc-couple-arrested-in-4-5b-bitcoin-hack-are-crypto-crime-s-bonnie-clyde"
-    },
-    {
-      "by": "darkLord19",
-      "descendants": 0,
-      "id": 30275600,
-      "score": 1,
-      "text": "In a system where user can read and interact with entities based on their role, how did you solve the problem of listing all the entities user has access to in a paginated manner?",
-      "time": 1644428863,
-      "title": "Ask HN: How did you solve the pagination in role based access system?",
-      "type": "story"
-    },
-    {
-      "by": "feross",
-      "descendants": 0,
-      "id": 30275598,
-      "score": 1,
-      "time": 1644428858,
-      "title": "Business Rapper Was Bad at Bitcoin Laundering",
-      "type": "story",
-      "url": "https://www.bloomberg.com/opinion/articles/2022-02-09/business-rapper-was-bad-at-bitcoin-laundering"
-    },
-    {
-      "by": "softwarebeware",
-      "descendants": 0,
-      "id": 30275597,
-      "score": 2,
-      "time": 1644428857,
-      "title": "Tumblr launches a tip jar feature to help bloggers make a buck",
-      "type": "story",
-      "url": "https://techcrunch.com/2022/02/09/tumblr-tips-tip-jar-monetization/"
-    },
-    {
-      "by": "coloneltcb",
-      "descendants": 0,
-      "id": 30275586,
-      "score": 1,
-      "time": 1644428788,
-      "title": "Scaling Stripe’s Incident Response",
-      "type": "story",
-      "url": "https://retool.com/blog/incident-response-tools-stripe/"
-    },
-    {
-      "by": "hussey9651",
-      "descendants": 0,
-      "id": 30275584,
-      "score": 1,
-      "time": 1644428786,
-      "title": "App can find someone missing by using AI",
-      "type": "story",
-      "url": "https://www.facebook.com/misingapp/"
     }
   ]
 }
