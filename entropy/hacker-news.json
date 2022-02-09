@@ -1,6 +1,36 @@
 {
   "stories": [
     {
+      "by": "czottmann",
+      "descendants": 0,
+      "id": 30276746,
+      "score": 1,
+      "time": 1644432879,
+      "title": "Who is Peter Thiel, the tech billionaire trying to push the U.S. to the right?",
+      "type": "story",
+      "url": "https://www.washingtonpost.com/technology/2022/02/09/who-is-peter-thiel/"
+    },
+    {
+      "by": "WestCoastJustin",
+      "descendants": 0,
+      "id": 30276728,
+      "score": 1,
+      "time": 1644432804,
+      "title": "Video: Reentry of Starlink satellite debris over Puerto Rico [2022-02-07]",
+      "type": "story",
+      "url": "https://www.youtube.com/watch?v=a7KUSN89-A0"
+    },
+    {
+      "by": "JordanTen",
+      "descendants": 0,
+      "id": 30276699,
+      "score": 1,
+      "time": 1644432691,
+      "title": "Rahul Vohra CEO of Superhuman on fundraising and solving problems with software",
+      "type": "story",
+      "url": "https://www.enterpriseready.io/podcast/13-rahul-vohra-superhuman/"
+    },
+    {
       "by": "keleftheriou",
       "descendants": 0,
       "id": 30276657,
@@ -14,7 +44,7 @@
       "by": "xyst",
       "descendants": 0,
       "id": 30276650,
-      "score": 1,
+      "score": 2,
       "time": 1644432497,
       "title": "Tesla Issues Recall for Faulty Heat Pumps, Loss of Heating in Cold Weather",
       "type": "story",
@@ -22,8 +52,12 @@
     },
     {
       "by": "Txoko",
-      "descendants": 0,
+      "descendants": 2,
       "id": 30276628,
+      "kids": [
+        30276735,
+        30276721
+      ],
       "score": 1,
       "text": "How do I supply documentation to vindicate my posting relating to the Duncan Hines 1940 Travel Guide that highlighted travel accommodations that banned “Restricted Clientel” which was referring to Jews and Blacks?",
       "time": 1644432433,
@@ -69,39 +103,6 @@
       "title": "Characterization of quack theories (1993)",
       "type": "story",
       "url": "http://quasar.as.utexas.edu/BillInfo/Quack.html"
-    },
-    {
-      "by": "Tomte",
-      "descendants": 0,
-      "id": 30276550,
-      "score": 1,
-      "time": 1644432144,
-      "title": "That broken tech/content culture cycle",
-      "type": "story",
-      "url": "https://anildash.com/2022/02/09/the-stupid-tech-content-culture-cycle/"
-    },
-    {
-      "by": "baalimago",
-      "descendants": 0,
-      "id": 30276534,
-      "score": 1,
-      "text": "We have a giant slow, highly coupled monolith which is unfriendly to work with (to say the least). And on top of this, some new management has decided to fully adapt agile development, which means user stories.<p>I were originally hired to help microservicify and modernize the monolith so that we could diversify the workload and scale development horizontally. This started off with stabilizing the monolith and get rid of any bugs, so that it later could be deprecated. But I don&#x27;t really see a way forward now with these new strict LeSS ideas:<p>* We can&#x27;t develop new features on the monolith since all the hacks and duckttape over the past 10+ years has made it impossible to make any reasonable progress (management is very clear that we&#x27;ll add nothing more into the monolith)<p>* We can&#x27;t microservicify or refactor the monolith since it wouldn&#x27;t add any value in the form of a user story (the functionality already exists, after all)<p>* We can&#x27;t develop new features as microservices since they lack the underlying infrastructure (all state is still owned by the monolith)<p>I wish the best for this company, but the current direction is so frustrating I simply wish to move on to some other company which allows for higher velocity, in any direction. Any advice?",
-      "time": 1644432101,
-      "title": "Ask HN: How to deal with un-agile agile development?",
-      "type": "story"
-    },
-    {
-      "by": "giuliomagnifico",
-      "descendants": 0,
-      "id": 30276509,
-      "kids": [
-        30276528
-      ],
-      "score": 2,
-      "time": 1644431998,
-      "title": "Sonification Toolkit: transform data into music",
-      "type": "story",
-      "url": "https://sonification.dhlab.mit.edu"
     }
   ]
 }
