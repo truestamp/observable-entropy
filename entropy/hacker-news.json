@@ -1,6 +1,67 @@
 {
   "stories": [
     {
+      "by": "valprop1",
+      "descendants": 0,
+      "id": 30271098,
+      "score": 1,
+      "time": 1644402614,
+      "title": "Why the World Needs China’s Covid-Zero Policy",
+      "type": "story",
+      "url": "https://www.bloomberg.com/news/articles/2022-02-08/what-china-s-covid-zero-policy-means-for-world-supply-chains-and-inflation"
+    },
+    {
+      "by": "giuliomagnifico",
+      "descendants": 0,
+      "id": 30271094,
+      "score": 1,
+      "time": 1644402595,
+      "title": "‘Newsroom Dissonance’: digital platforms are influencing the work of journalists",
+      "type": "story",
+      "url": "https://www.universiteitleiden.nl/en/news/2022/02/how-google-facebook-and-other-digital-platforms-are-influencing-the-work-of-journalists"
+    },
+    {
+      "by": "JoelJacobson",
+      "descendants": 0,
+      "id": 30271093,
+      "score": 1,
+      "time": 1644402589,
+      "title": "List of PostgreSQL Extension Repos",
+      "type": "story",
+      "url": "https://github.com/joelonsql/postgresql-extension-repos"
+    },
+    {
+      "by": "pradeepb28",
+      "descendants": 0,
+      "id": 30271090,
+      "score": 1,
+      "text": "The majority of micro-influencers and influencers know how to game the system (the Twitter algorithm) to increase the reach of their content by doing many tricks such as having their inner circle start creating immediate engagement, using popular hashtags, talking about the popular trend of the day, and so on. One thing these twitterratis have in common is that they seek out the best stuff, game it, and remix it in their own unique style.<p>Started digging into finding answers, how do they find out the best content\n- Follow few people(mostly prolific users), learn from their tweets\n- Follow lists, learn from their tweets and topics\n- Find any content, conversations, trends via Twitter search<p>While the first two options seems to be straightforward, Twitter search appears to be more intriguing to me. The more I look into it, the more I realize that Twitter search is a gold mine for finding the greatest content from certain individuals, conversations between two users, users that continuously tweeting around a hashtag, and many other things. As an example:<p>I wanted to find out what Elon musk was tweeting about dogecoin in 2020, here is the query<p>dogecoin (#dogecoin) from:elonmusk since_date: 2020&#x2F;01&#x2F;01<p>I wanted to find out what conversations were happened between Jack and Elon Musk around crypto currency last year, here is the query<p>(crypto OR cryptocurrency OR bitcoin) from:elonmusk to:jack since_date: 2020&#x2F;01&#x2F;01 until_date:2020&#x2F;12&#x2F;31<p>My initial impression was that it is a search, and one can benefit from it only if they know what search parameters to use. It appears that Twitter does not expose all the search parameters to users unless you know what all parameters are available and how to use them (which requires some learning), and it is not even available on the mobile app.<p>To scratch my itch, I created Bird search for mobile and desktop. My goal was for everyone to find content on Twitter easily without the need to learn search operators at all. I reverse engineered how Twitter search works and tried to expose all the search parameters(they are more parameters yet to be done). For instance, here is what all search operators being used on Twitter<p>App page:\n<a href=\"https:&#x2F;&#x2F;photos.google.com&#x2F;share&#x2F;AF1QipOIGQkHpqWMtQU1KvwydBdnLNXeAuGnl1c7f0dqohxt9_ZI30aVcPwydJtiMLg3fA?key=eEZQdDdfZHVEZkdkdGVPMGlBX2pvcEVOdTlKX3Z3\" rel=\"nofollow\">https:&#x2F;&#x2F;photos.google.com&#x2F;share&#x2F;AF1QipOIGQkHpqWMtQU1KvwydBdn...</a><p>Search operators available on Twitter\n<a href=\"https:&#x2F;&#x2F;photos.google.com&#x2F;share&#x2F;AF1QipNHTkWjxlcMzpCd7m9m6hBFS40GZaB5jF5jWM3fBZVtTtAbt2cQIw2UM9d6Cyp_mg?key=bUtTcDRHbzJlelU2WktfbVRhd1BHMy1FMXJIWVJB\" rel=\"nofollow\">https:&#x2F;&#x2F;photos.google.com&#x2F;share&#x2F;AF1QipNHTkWjxlcMzpCd7m9m6hBF...</a><p>You can find tweets based on \n- Content - words\n- Conversations - discussion between two users\n- etc<p>You can narrow down your search to \n- Verified users,  lists, people you follow\n- Specific date range\n- Filter: media only, links only ,photos only &amp; videos only.\n- etc<p>There is no other social platform that allows you to access such content from the archive, which is why Twitter&#x27;s search functionality is so unique. It&#x27;s amazing to watch how people utilize Twitter for so many different things.<p>To inspire others what type of content one can search for, I introduced “Discover” section\n<a href=\"https:&#x2F;&#x2F;photos.app.goo.gl&#x2F;9dJvtu1K7XfFynzD7\" rel=\"nofollow\">https:&#x2F;&#x2F;photos.app.goo.gl&#x2F;9dJvtu1K7XfFynzD7</a>\n<a href=\"https:&#x2F;&#x2F;photos.app.goo.gl&#x2F;MvvwikcK2Y37ynLz8\" rel=\"nofollow\">https:&#x2F;&#x2F;photos.app.goo.gl&#x2F;MvvwikcK2Y37ynLz8</a>\n<a href=\"https:&#x2F;&#x2F;photos.app.goo.gl&#x2F;GBzndG9NszDLSfgGA\" rel=\"nofollow\">https:&#x2F;&#x2F;photos.app.goo.gl&#x2F;GBzndG9NszDLSfgGA</a><p>Search phrases are available everywhere\n- Spotlight search\n- Siri<p>Supports Siri <a href=\"https:&#x2F;&#x2F;photos.app.goo.gl&#x2F;ufRJF3vXiUJZKsKz7\" rel=\"nofollow\">https:&#x2F;&#x2F;photos.app.goo.gl&#x2F;ufRJF3vXiUJZKsKz7</a>\nSupports Shortcuts <a href=\"https:&#x2F;&#x2F;photos.app.goo.gl&#x2F;kgHiTwwUFrC8o3zs5\" rel=\"nofollow\">https:&#x2F;&#x2F;photos.app.goo.gl&#x2F;kgHiTwwUFrC8o3zs5</a> \nSupports as side by side app <a href=\"https:&#x2F;&#x2F;photos.app.goo.gl&#x2F;DYaeg798k3Gbm2429\" rel=\"nofollow\">https:&#x2F;&#x2F;photos.app.goo.gl&#x2F;DYaeg798k3Gbm2429</a>\nSupport spotlight search <a href=\"https:&#x2F;&#x2F;photos.app.goo.gl&#x2F;5gJUKDcN455f3DcU7\" rel=\"nofollow\">https:&#x2F;&#x2F;photos.app.goo.gl&#x2F;5gJUKDcN455f3DcU7</a>",
+      "time": 1644402572,
+      "title": "Show HN: Bird Search(Twitter Search 2.0) – The Search Tool You've Always Wanted",
+      "type": "story",
+      "url": "https://birdsearch.softr.app/"
+    },
+    {
+      "by": "mudro_zboris",
+      "descendants": 0,
+      "id": 30271068,
+      "score": 2,
+      "time": 1644402360,
+      "title": "Beijing 2022: Winter Olympics hit by deluge of complaints from athletes",
+      "type": "story",
+      "url": "https://www.bbc.com/news/world-asia-china-60298184"
+    },
+    {
+      "by": "pjmlp",
+      "descendants": 0,
+      "id": 30271064,
+      "score": 1,
+      "time": 1644402306,
+      "title": "Boot2container: An Initramfs for Reproducible Infrastructures",
+      "type": "story",
+      "url": "https://fosdem.org/2022/schedule/event/container_boot2container/"
+    },
+    {
       "by": "vitabenes",
       "descendants": 0,
       "id": 30271061,
@@ -39,66 +100,6 @@
       "title": "Skill is not the same as talent",
       "type": "story",
       "url": "https://sethgodinwrites.medium.com/skill-is-not-the-same-as-talent-1a46507f1b4"
-    },
-    {
-      "by": "haunter",
-      "descendants": 0,
-      "id": 30270995,
-      "score": 2,
-      "time": 1644401571,
-      "title": "‘America’s Army’, The Pentagon’s Video Game, Shuts Down After 20 Years",
-      "type": "story",
-      "url": "https://www.vice.com/en/article/y3v5xk/americas-army-the-pentagons-video-game-shuts-down-after-20-years"
-    },
-    {
-      "by": "pjmlp",
-      "descendants": 0,
-      "id": 30270994,
-      "score": 1,
-      "time": 1644401550,
-      "title": "Lessons from Learning Ada in 2021",
-      "type": "story",
-      "url": "https://fosdem.org/2022/schedule/event/ada_outsiders_guide/"
-    },
-    {
-      "by": "aristofun",
-      "descendants": 0,
-      "id": 30270993,
-      "score": 1,
-      "text": "I wonder if any of HN users managed to build and sell an API of some sort and have created a stable income by catering to fellow developers.<p>Please share your story - how did you start, what’s the product, what’s the magnitude of revenue.",
-      "time": 1644401548,
-      "title": "Ask HN: Has anyone here created an income by building and selling an API?",
-      "type": "story"
-    },
-    {
-      "by": "pseudolus",
-      "descendants": 0,
-      "id": 30270992,
-      "score": 2,
-      "time": 1644401545,
-      "title": "'Alien-like' life thrives on dead matter in Arctic deep",
-      "type": "story",
-      "url": "https://www.bbc.com/news/science-environment-60308650"
-    },
-    {
-      "by": "limuc",
-      "descendants": 0,
-      "id": 30270959,
-      "score": 1,
-      "time": 1644401267,
-      "title": "Vivaldi’s new update adds Scrollable Tabs and Reading List",
-      "type": "story",
-      "url": "https://vivaldi.com/blog/vivaldi-5-1-gets-scrollable-tabs-reading-list/"
-    },
-    {
-      "by": "pseudolus",
-      "descendants": 0,
-      "id": 30270958,
-      "score": 2,
-      "time": 1644401267,
-      "title": "Musical preferences unite personalities worldwide, new study finds",
-      "type": "story",
-      "url": "https://phys.org/news/2022-02-musical-personalities-worldwide.html"
     }
   ]
 }
