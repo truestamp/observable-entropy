@@ -1,5 +1,86 @@
 {
   "stories": [
+    null,
+    {
+      "by": "mooreds",
+      "descendants": 0,
+      "id": 30273979,
+      "score": 1,
+      "time": 1644421471,
+      "title": "I’m Making My Kids Millionaires by Hiring Them and Investing Their Income",
+      "type": "story",
+      "url": "https://time.com/nextadvisor/investing/investing-for-kids-custodial-roth-ira/"
+    },
+    {
+      "by": "zx2c4",
+      "descendants": 0,
+      "id": 30273964,
+      "score": 1,
+      "time": 1644421403,
+      "title": "Safer entropy accumulation in Linux 5.18's RNG",
+      "type": "story",
+      "url": "https://twitter.com/EdgeSecurity/status/1491128272276664328"
+    },
+    {
+      "by": "simonebrunozzi",
+      "descendants": 0,
+      "id": 30273956,
+      "score": 1,
+      "time": 1644421377,
+      "title": "UK scientists set new record for generating energy from nuclear fusion",
+      "type": "story",
+      "url": "https://news.sky.com/story/uk-scientists-set-new-record-for-generating-energy-from-nuclear-fusion-but-commercial-application-still-years-away-12536956"
+    },
+    {
+      "by": "CodeIsTheEnd",
+      "descendants": 0,
+      "id": 30273940,
+      "score": 1,
+      "time": 1644421319,
+      "title": "Show HN: Jless, a command-line JSON viewer",
+      "type": "story",
+      "url": "https://pauljuliusmartinez.github.io/"
+    },
+    {
+      "by": "legrande",
+      "descendants": 0,
+      "id": 30273937,
+      "score": 1,
+      "time": 1644421317,
+      "title": "Librem 5 USA Supply Chain Security",
+      "type": "story",
+      "url": "https://puri.sm/posts/from-fab-to-table-librem-5-usa-supply-chain-security/"
+    },
+    {
+      "by": "axg11",
+      "descendants": 0,
+      "id": 30273933,
+      "score": 2,
+      "time": 1644421297,
+      "title": "Apple Is Working on RealityOS",
+      "type": "story",
+      "url": "https://github.com/apple-oss-distributions/dyld/blob/5c9192436bb195e7a8fe61f22a229ee3d30d8222/common/MachOFile.cpp"
+    },
+    {
+      "by": "anacleto",
+      "descendants": 0,
+      "id": 30273932,
+      "score": 1,
+      "time": 1644421296,
+      "title": "Apple Shipped the iPod in 11 Months",
+      "type": "story",
+      "url": "https://pulseasync.com/operators/how-apple-shipped-the-ipod-in-just-11-months/"
+    },
+    {
+      "by": "sonalgoyal",
+      "descendants": 0,
+      "id": 30273915,
+      "score": 1,
+      "text": "Hello HN,<p>I am Sonal, a data consultant from India. For the past few months(and years!), I have been working on an entity resolution tool to build a single source of truth for customers, suppliers, products and parts. Here is a short demo of Zingg in action https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=zOabyZxN9b0<p>As a data consultant, I often struggled to build unified views of core entities on the datalake and the warehouse. Data spread across different systems has variations and consistencies making Customer 360, KYC, AML, segmentation, personalization and other analytics difficult.<p>As I talked with different clients facing this issue, I searched for existing solutions which I could use or recommend. Unfortunately, most of them were very expensive MDM solutions like Tamr, or CDP solutions like Amperity. There were many open source libraries, but they did not tie well into the datalake&#x2F;warehouse scenarios we were working with, did not scale and&#x2F;or needed a decent bit of programming or did not generalize. I even tried to build something internally and failed miserably, and that got me hooked :-)<p>As I dug deeper into the problem, I realized that there were multiple challenges. Data matching, at its very core, becomes a cartesian join, as you need to compare every pair of records to figure out the matches. With millions of records, this becomes extremely tough to scale. I referred to various research papers and then implemented a blocking algorithm to overcome this. More details at https:&#x2F;&#x2F;docs.zingg.ai&#x2F;docs&#x2F;zModels.html<p>The second challenge was to say which pairs are a match. I wanted to have a machine learning-based approach to handle the different types of entities and the variety of differences in real world data. But I also felt that non ML experts should be able to use Zingg easily, hence took the approach of abstracting the feature generation and hyper-parameter tuning for the classifier.<p>Once I settled on the ML approach, the problem of training data quickly arose, which led me to pick up active learning and build an interactive labeler through which sample records can be marked as matches and non matches to build training sets quickly. I still feel that we should have an unsupervised approach as well, but I have not yet figured out the right way to do so.<p>The Zingg repository is hosted at https:&#x2F;&#x2F;github.com&#x2F;zinggAI&#x2F;zingg and we have close to 60 members on our Slack(https:&#x2F;&#x2F;join.slack.com&#x2F;t&#x2F;zinggai&#x2F;shared_invite&#x2F;zt-w7zlcnol-vEuqU9m~Q56kLLUVxRgpOA). We are now two developers working full time on Zingg!!! I am super happy that early users have been able to use Zingg and push us to build more stuff - model documentation, using pre-existing training data, native Snowflake integration etc.<p>I have been an open source consumer all my dev life, and this is the first time I have made a decent contribution. It is my first time trying to build a community as well. Not sure how the future will unfold, but wanted to reach out to the community here and hear what you think about the problem, the approach, any ideas or suggestions.<p>Thanks for reading along, and please do post your thoughts in the comments below.",
+      "time": 1644421216,
+      "title": "Show HN: Zingg – open-source entity resolution for single source of truth",
+      "type": "story"
+    },
     {
       "by": "geerlingguy",
       "descendants": 0,
@@ -9,101 +90,6 @@
       "title": "Hosting this website on a farm – or anywhere",
       "type": "story",
       "url": "https://www.jeffgeerling.com/blog/2022/hosting-website-on-farm-or-anywhere"
-    },
-    {
-      "by": "legrande",
-      "descendants": 0,
-      "id": 30273901,
-      "score": 1,
-      "time": 1644421180,
-      "title": "Tales from the Crypt Truecrypt Forensics [pdf]",
-      "type": "story",
-      "url": "https://deer-run.com/users/hal/DFIRSummit2012/Tales%20From%20The%20Crypt!.pdf"
-    },
-    {
-      "by": "legrande",
-      "descendants": 0,
-      "id": 30273889,
-      "score": 1,
-      "time": 1644421152,
-      "title": "Vine FAQs",
-      "type": "story",
-      "url": "https://help.twitter.com/en/using-twitter/vine-faqs"
-    },
-    {
-      "by": "dspoor",
-      "descendants": 0,
-      "id": 30273887,
-      "score": 1,
-      "time": 1644421149,
-      "title": "You don't need a chat bubble",
-      "type": "story",
-      "url": "https://blog.hootsy.com/2022/02/07/you-dont-need-a-chat-bubble/"
-    },
-    {
-      "by": "pjmlp",
-      "descendants": 0,
-      "id": 30273883,
-      "score": 1,
-      "time": 1644421134,
-      "title": "WebGL 2.0 Achieves Pervasive Support from All Major Web Browsers",
-      "type": "story",
-      "url": "https://www.khronos.org/blog/webgl-2-achieves-pervasive-support-from-all-major-web-browsers"
-    },
-    {
-      "by": "Tomte",
-      "descendants": 0,
-      "id": 30273878,
-      "score": 1,
-      "time": 1644421121,
-      "title": "A Stanford psychologist on the art of avoiding assholes (2017)",
-      "type": "story",
-      "url": "https://www.vox.com/conversations/2017/9/26/16345476/stanford-psychologist-art-of-avoiding-assholes"
-    },
-    {
-      "by": "k8s_Hero",
-      "descendants": 0,
-      "id": 30273857,
-      "score": 1,
-      "time": 1644421044,
-      "title": "Show HN: ValidKube – Validate, Clean and Secure Your K8s YAML",
-      "type": "story",
-      "url": "https://validkube.com/"
-    },
-    {
-      "by": "amichail",
-      "descendants": 1,
-      "id": 30273856,
-      "kids": [
-        30273884
-      ],
-      "score": 1,
-      "time": 1644421036,
-      "title": "Ask HN: Why does SpaceX want to launch Starship from Texas instead of Florida?",
-      "type": "story"
-    },
-    {
-      "by": "NotAWorkNick",
-      "descendants": 0,
-      "id": 30273851,
-      "score": 1,
-      "time": 1644421022,
-      "title": "The metaverse is a new word for an old idea",
-      "type": "story",
-      "url": "https://www.technologyreview.com/2022/02/08/1044732/metaverse-history-snow-crash/"
-    },
-    {
-      "by": "leathersoft",
-      "descendants": 1,
-      "id": 30273845,
-      "kids": [
-        30273847
-      ],
-      "score": 1,
-      "time": 1644421007,
-      "title": "Can you fit a whole game into a QR code?",
-      "type": "story",
-      "url": "https://www.youtube.com/watch?v=ExwqNreocpg"
     }
   ]
 }
