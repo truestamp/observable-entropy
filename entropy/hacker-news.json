@@ -1,6 +1,46 @@
 {
   "stories": [
     {
+      "by": "simonebrunozzi",
+      "descendants": 0,
+      "id": 30275407,
+      "score": 1,
+      "time": 1644428055,
+      "title": "Psychedelic Research for Mass Mental Health",
+      "type": "story",
+      "url": "https://maps.org/"
+    },
+    {
+      "by": "mindcrime",
+      "descendants": 0,
+      "id": 30275400,
+      "score": 1,
+      "time": 1644428014,
+      "title": "Statistical exponential families: A digest with flash cards",
+      "type": "story",
+      "url": "https://arxiv.org/abs/0911.4863"
+    },
+    {
+      "by": "feross",
+      "descendants": 0,
+      "id": 30275395,
+      "score": 1,
+      "time": 1644427980,
+      "title": "Building an Adaptive Favicon",
+      "type": "story",
+      "url": "https://web.dev/building-an-adaptive-favicon/"
+    },
+    {
+      "by": "lifeplusplus",
+      "descendants": 0,
+      "id": 30275385,
+      "score": 2,
+      "text": "It says: everything not listed in prior inventions would be property of the company even if conceived or worked on in off-duty hours.<p>Why should a company own anything i do in off work, If I write a book on weekends then its sales proceeds should go the company??<p>The compensation is good, but I dont want to either disclose or bother compiling huge list of projects, ideas, blogs, youtube channels, books I have been working on, and nor I think it&#x27;s right thing for the company to do.<p>Company is one of the top professional social network, I liked everything but this<p>I enjoy building stuff, and work is secondary.",
+      "time": 1644427960,
+      "title": "Ask HN: Offer by FAANG company but all my side projects would belong to them?",
+      "type": "story"
+    },
+    {
       "by": "_wldu",
       "descendants": 0,
       "id": 30275356,
@@ -24,7 +64,7 @@
       "by": "giuliomagnifico",
       "descendants": 0,
       "id": 30275351,
-      "score": 1,
+      "score": 2,
       "time": 1644427764,
       "title": "Electronic monitoring using GPS tags: a tech primer",
       "type": "story",
@@ -34,7 +74,7 @@
       "by": "tjsleizlkj",
       "descendants": 0,
       "id": 30275346,
-      "score": 1,
+      "score": 2,
       "time": 1644427743,
       "title": "How Apple turned their promising messenger into something useless",
       "type": "story",
@@ -42,8 +82,11 @@
     },
     {
       "by": "jbegley",
-      "descendants": 0,
+      "descendants": 1,
       "id": 30275341,
+      "kids": [
+        30275384
+      ],
       "score": 2,
       "time": 1644427727,
       "title": "Amazon Has Received $4.7B in Subsidies Globally, Watchdog Says",
@@ -59,47 +102,6 @@
       "title": "Trolls (2008)",
       "type": "story",
       "url": "http://www.paulgraham.com/trolls.html"
-    },
-    {
-      "by": "hglaser",
-      "descendants": 0,
-      "id": 30275337,
-      "score": 1,
-      "time": 1644427699,
-      "title": "How to deploy an ML model to production with one line of code",
-      "type": "story",
-      "url": "https://www.modelbit.com/blog/how-to-deploy-an-ml-model-to-production-with-one-line-of-code"
-    },
-    {
-      "by": "ItsTotallyOn",
-      "descendants": 0,
-      "id": 30275332,
-      "score": 1,
-      "time": 1644427680,
-      "title": "AMD Sets All-Time CPU Market Share Record, Intel Gains in Desktop and Notebooks",
-      "type": "story",
-      "url": "https://www.tomshardware.com/news/intel-amd-4q-2021-2022-market-share-desktop-notebook-server-x86"
-    },
-    {
-      "by": "madnuttah",
-      "descendants": 0,
-      "id": 30275306,
-      "score": 1,
-      "text": "Hello there!<p>I&#x27;ve built a secure and trustworthy NLnetLabs Unbound Docker image as the most images didn&#x27;t meet my standards on a zero trust policy. It supports DNSSEC, is sealed with chroot, runs with a non-root user and exposes only unprivileged ports. It is intended to provide a hyperlocal setup holding a local copy of the DNS root zone using zone transfers though but it will also run perfectly with your own unbound.conf if you&#x27;d rather like to use an upstream server which provides DoT or DoH features. So if your ISP&#x27;s DNS servers having issues, you won&#x27;t be affected at all. This setup will also add a plus on circumventing censorship using blocked DNS entries and adds a little more privacy but your ISP will still be able to see what you did there anyway.<p>The image is built entirely online using workflows with GitHub Action and not locally on my systems at home. All downloads, even the downloads of the root files, are verified with PGP keys and the respective PGP armored signature files where available to provide maximum trust.<p>It&#x27;s a quite tiny Alpine Linux multiarch image and the architectures are on par with the architectures Pi-hole uses. In fact, it is a perfect complement for Pi-hole as an upstream server if you are already running Pi-hole for ad blocking and tracking prevention. As I wrote on my GitHub page, it was created with Pi-hole in mind. And with lots of love.<p>I hope you enjoy the image and forgive me my shameless promotion^^ of my open source project. :)<p>Just come and visit my GitHub repository <a href=\"https:&#x2F;&#x2F;github.com&#x2F;madnuttah&#x2F;unbound-docker\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;madnuttah&#x2F;unbound-docker</a> if you&#x27;d like to learn more about this project. If you&#x27;d like to contribute, you&#x27;re very welcome.<p>Cheers and wishing all the best,\nmadnuttah",
-      "time": 1644427565,
-      "title": "Show HN: Unbound Docker Image",
-      "type": "story",
-      "url": "https://github.com/madnuttah/unbound-docker"
-    },
-    {
-      "by": "hollowdene",
-      "descendants": 0,
-      "id": 30275289,
-      "score": 1,
-      "time": 1644427527,
-      "title": "The Collapse of the Nvidia Deal Leaves Arm Exposed",
-      "type": "story",
-      "url": "https://www.wired.com/story/collapse-nvidia-deal-leaves-arm-exposed/"
     }
   ]
 }
