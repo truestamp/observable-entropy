@@ -1,6 +1,56 @@
 {
   "stories": [
     {
+      "by": "bdominy",
+      "descendants": 0,
+      "id": 30273223,
+      "score": 1,
+      "time": 1644418180,
+      "title": "Show HN: Neucards – a secure digital contact card",
+      "type": "story",
+      "url": "https://www.neucards.com"
+    },
+    {
+      "by": "jongi_ct",
+      "descendants": 0,
+      "id": 30273217,
+      "score": 1,
+      "text": "I need a buy a basic camera for making Youtube lesson, what is the basic but not too bad quality camera should I invest on.",
+      "time": 1644418151,
+      "title": "What is a basic but not too bad quality camera for YouTube lesson?",
+      "type": "story"
+    },
+    {
+      "by": "JoachimS",
+      "descendants": 0,
+      "id": 30273203,
+      "score": 1,
+      "time": 1644418084,
+      "title": "You're (Maybe) Gonna Need a Patent for That Woolly Mammoth",
+      "type": "story",
+      "url": "https://www.wired.com/story/de-extinction-patents/"
+    },
+    {
+      "by": "JoachimS",
+      "descendants": 0,
+      "id": 30273178,
+      "score": 2,
+      "time": 1644417948,
+      "title": "Introducing The String Battery",
+      "type": "story",
+      "url": "https://www.eetimes.com/introducing-the-string-battery/"
+    },
+    {
+      "by": "JoachimS",
+      "descendants": 0,
+      "id": 30273166,
+      "score": 1,
+      "time": 1644417896,
+      "title": "UK Autonomous Vehicle regulations advance",
+      "type": "story",
+      "url": "https://www.eetimes.com/u-k-av-regulations-advance/"
+    },
+    {
       "by": "PatrikT3",
       "descendants": 0,
       "id": 30273154,
@@ -32,8 +82,11 @@
     },
     {
       "by": "3000",
-      "descendants": 0,
+      "descendants": 1,
       "id": 30273147,
+      "kids": [
+        30273222
+      ],
       "score": 1,
       "text": "I&#x27;m building a cloud based storage service, and my clients will be uploading quite large files.<p>I need these files, to first hit my server, but then move them off to an object storage. I cant! cut out my server as a &quot;middle man&quot; but this also means my cache will&#x2F;could be clogged up before my code manage to move the files off my server and clear up space.<p>My question is, is there such a service, where I can run php and the disk grows as needed, up and down, so I never risk temporary running out of space, that I could use just for the upload purpose, and then my current server could handle serving static files, database calls etc.<p>grateful for any help!",
       "time": 1644417812,
@@ -44,62 +97,12 @@
       "by": "caballeto",
       "descendants": 0,
       "id": 30273127,
-      "score": 2,
-      "text": "Hello HN,<p>We would like to present to you an advanced News API, that allows you to easily retrieve and process news articles from thousands of sources in different languages all over the world. Since our last submission, we have rewritten the project from scratch with a focus on cleansing and structuring the news data. Some of the advanced features of the new API:<p>- clustering news articles into groups of related news \n- allows to detect news stories and assess how important &#x2F; popular they are<p>- detecting reprints and wired articles - allows to easily filter noise and get unique articles only<p>- a comprehensive set of 3000+ topics, 10+ categories, and labels, including Opinion, Paid-news, Non-news, Business, Tech, Politics, and much more<p>- advanced enriched data, including finance-tailored sentiment analysis, entities, keywords, auto-generated summary<p>- local news - allows retrieving news from local news publishers based on a specific location (e.g. show all local news from Chicago or London)<p>- journalist data - allows to identify author bylines, extract and link authors to their records<p>- more accurate extraction of title, description, and content attributes<p>- content translation into English from 10+ languages<p>- broad source coverage and ability to easily add custom sources<p>With the above features, the API has a much broader set of use cases, from analyzing sentiment of financial articles around stocks to PR media monitoring, to identifying risk events and doing deep analysis and market research, including on historical news. There are also a lot of use cases, that we don&#x27;t know yet about :)<p>For HN users we provide an always-free plan with 3000 requests per month and no restrictions on features. We wanted to thank the HN community for support on our last submission, I believe without HN&#x27;s support this project would not have happened, thank you!<p>You can check out live example queries and give an API a test ride here. We will appreciate any feedback, comments, or questions you might have regarding the API. Let us know in the comments!",
+      "score": 3,
+      "text": "Hello HN,<p>We would like to present to you an advanced News API, that allows you to easily retrieve and process news articles from thousands of sources in different languages all over the world. Since our last submission, we have rewritten the project from scratch with a focus on cleansing and structuring the news data. Some of the advanced features of the new API:<p>- clustering news articles into groups of related news \n- allows to detect news stories and assess how important &#x2F; popular they are<p>- detecting reprints and wired articles - allows to easily filter noise and get unique articles only<p>- a comprehensive set of 3000+ topics, 10+ categories, and labels, including Opinion, Paid-news, Non-news, Business, Tech, Politics, and much more<p>- advanced enriched data, including finance-tailored sentiment analysis, entities, keywords, auto-generated summary<p>- local news - allows retrieving news from local news publishers based on a specific location (e.g. show all local news from Chicago or London)<p>- journalist data - allows to identify author bylines, extract and link authors to their records<p>- more accurate extraction of title, description, and content attributes<p>- content translation into English from 10+ languages<p>- broad source coverage and ability to easily add custom sources<p>With the above features, the API has a much broader set of use cases, from analyzing sentiment of financial articles around stocks to PR media monitoring, to identifying risk events and doing deep analysis and market research, including on historical news. There are also a lot of use cases, that we don&#x27;t know yet about :)<p>For HN users we provide an always-free plan with 3000 requests per month and no restrictions on features. We wanted to thank the HN community for support on our last submission, I believe without HN&#x27;s support this project would not have happened, thank you!<p>You can check out live example queries and give an API a test ride here <a href=\"https:&#x2F;&#x2F;www.goperigon.com&#x2F;sign-up\" rel=\"nofollow\">https:&#x2F;&#x2F;www.goperigon.com&#x2F;sign-up</a>. We will appreciate any feedback, comments, or questions you might have regarding the API. Let us know in the comments!",
       "time": 1644417693,
       "title": "Show HN: Advanced News Searching API",
       "type": "story",
       "url": "https://www.goperigon.com/data-solutions/news-api"
-    },
-    {
-      "by": "amelius",
-      "descendants": 0,
-      "id": 30273125,
-      "score": 1,
-      "time": 1644417686,
-      "title": "A gentler strategy for avoiding childhood dental decay",
-      "type": "story",
-      "url": "https://penntoday.upenn.edu/news/gentler-strategy-avoiding-childhood-dental-decay"
-    },
-    {
-      "by": "PatrikT3",
-      "descendants": 0,
-      "id": 30273124,
-      "score": 1,
-      "time": 1644417685,
-      "title": "UX Survey – UX Surveys Guide",
-      "type": "story",
-      "url": "https://www.ux-survey.com/"
-    },
-    {
-      "by": "dubovetzky",
-      "descendants": 0,
-      "id": 30273108,
-      "score": 1,
-      "time": 1644417607,
-      "title": "The Difference Between Junior, Middle, and Senior Software Developer",
-      "type": "story",
-      "url": "https://www.thedoubled.dev/post/difference-detween-junior-middle-and-senior-software-developer"
-    },
-    {
-      "by": "doener",
-      "descendants": 0,
-      "id": 30273101,
-      "score": 1,
-      "time": 1644417589,
-      "title": "GrapheneOS: Private and secure mobile OS with Android app compatibility",
-      "type": "story",
-      "url": "https://grapheneos.org/"
-    },
-    {
-      "by": "AlishaOwen",
-      "descendants": 0,
-      "id": 30273091,
-      "score": 1,
-      "time": 1644417498,
-      "title": "Barack Obama's Father Identified as CIA Asset in Drive to 'Recolonize' Africa",
-      "type": "story",
-      "url": "https://covertactionmagazine.com/2022/02/07/barack-obamas-father-identified-as-cia-asset-in-u-s-drive-to-recolonize-africa-during-early-days-of-the-cold-war/"
     }
   ]
 }
