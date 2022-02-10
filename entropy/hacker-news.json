@@ -1,110 +1,104 @@
 {
   "stories": [
     {
-      "by": "norest_team",
+      "by": "serverlessmom",
       "descendants": 0,
-      "id": 30291029,
+      "id": 30291097,
       "score": 1,
-      "time": 1644520476,
-      "title": "Structuring the Stanford Encyclopedia of Philosophy",
+      "time": 1644520803,
+      "title": "Will the Kubernetes v1.22 Upgrade Break My Application?",
       "type": "story",
-      "url": "https://homepage.univie.ac.at/maximilian.noichl/posts/structuring-the-stanford-encyclopedia-of-philosophy/"
+      "url": "https://medium.com/m/global-identity?redirectUrl=https%3A%2F%2Fblog.runx.dev%2Fwill-that-kubernetes-v1-22-upgrade-break-my-application-cc339dc2e2c7"
     },
     {
-      "by": "softwarebeware",
+      "by": "ggoo",
       "descendants": 0,
-      "id": 30291022,
+      "id": 30291089,
       "score": 1,
-      "time": 1644520456,
-      "title": "Gallup: Performance reviews do more harm than good (2019)",
+      "time": 1644520789,
+      "title": "Drawing Text on a Path in Compose Desktop with Skia",
       "type": "story",
-      "url": "https://www.gallup.com/workplace/249332/harm-good-truth-performance-reviews.aspx"
+      "url": "https://www.pushing-pixels.org/2022/02/10/drawing-text-on-a-path-in-compose-desktop-with-skia.html"
     },
     {
-      "by": "eternalban",
+      "by": "valar_m",
       "descendants": 0,
-      "id": 30291009,
+      "id": 30291081,
       "score": 1,
-      "time": 1644520405,
-      "title": "Are We on the Brink of War? An Interview with Dmitri Trenin",
-      "type": "story",
-      "url": "https://carnegiemoscow.org/commentary/86304"
+      "text": "I understand why it exists - text is easier to query than reading a resume, but it&#x27;s a terrible and outdated design pattern that needs to go. But good news: there are better ways!<p>Some possible solutions and suggestions:<p>-Use a list of checkbox options for candidates to click skills&#x2F;requirements that you want for the role. If you need SQL, JS, Python, and you believe a CS degree is necessary, then let candidates click which ones they have. No more messing with text! Bonus: You could add some kind of percentage of skills match metric when reviewing applicants (you should still review resumes, however).<p>Bonus #2: You can autofill the job posting with a list of desired skills instead of needing to type them out - just select which ones you need when creating the posting.<p>-You don&#x27;t need user-entered text fields for keyword matching. Extracting text from PDFs and Word Docs is trivial. If your text extract fails or misses a min word count threshold, just trigger a secondary step for HR to review and manually copy the text and enter it. Point is, stop making users manually enter the text when applying, just pull it out yourself.<p>-If you insist on candidates typing out their resume, stop trying to extract text from resumes to autofill the application form. Personally, I&#x27;d prefer to just type it out rather than review it and fix all of the inevitable mistakes (or more likely, clear the fields and just enter it myself).<p>I have considerable experience hiring engineers, and I can tell you concretely that:<p>1. Strong candidates are hard to find.<p>2. A single bad hire can sink a team.<p>3. Technical interviewing is hard and far from solved.<p>Given these three things, why make it harder than it has to be by using a badly designed system when a few changes to the logistical process can fix so much?<p>And if the bosses balk, maybe sell it like this: the existence of your company depends on good hiring, so maybe assign an engineer or two to spend a few months building this out. Not to be all &quot;Dropbox is easy build&quot; - but the basic functionality for something like this is not terribly more complex than a CRUD app with file uploading. I know that&#x27;s oversimplifying, but I bet you get my point.",
+      "time": 1644520748,
+      "title": "Tell HN: \"Upload your resume and then type it out” is hurting your company",
+      "type": "story"
     },
     {
-      "by": "caaqil",
+      "by": "AlishaOwen",
       "descendants": 0,
-      "id": 30291004,
+      "id": 30291080,
       "score": 1,
-      "time": 1644520381,
-      "title": "Scientists deliberately gave people Covid – here’s what they learnt",
+      "time": 1644520743,
+      "title": "Can you be legally fired for protesting vaccine mandates? In B.C., it depends",
       "type": "story",
-      "url": "https://www.nature.com/articles/d41586-022-00319-9"
-    },
-    {
-      "by": "dash2",
-      "descendants": 0,
-      "id": 30290983,
-      "score": 1,
-      "time": 1644520261,
-      "title": "No, human life was not a misery until the 1950s",
-      "type": "story",
-      "url": "https://wyclif.substack.com/p/no-human-life-was-not-a-misery-until"
-    },
-    {
-      "by": "staunch",
-      "descendants": 0,
-      "id": 30290973,
-      "score": 1,
-      "time": 1644520221,
-      "title": "Light Years Ahead – The 1969 Apollo Guidance Computer [video]",
-      "type": "story",
-      "url": "https://www.youtube.com/watch?v=B1J2RMorJXM"
-    },
-    {
-      "by": "cirrus-clouds",
-      "descendants": 1,
-      "id": 30290941,
-      "kids": [
-        30290976
-      ],
-      "score": 1,
-      "time": 1644520018,
-      "title": "Scotland's train services nationalised from 1 April",
-      "type": "story",
-      "url": "https://www.bbc.co.uk/news/uk-scotland-glasgow-west-60319922"
-    },
-    {
-      "by": "Stanley101",
-      "descendants": 1,
-      "id": 30290931,
-      "kids": [
-        30290932
-      ],
-      "score": 1,
-      "time": 1644519990,
-      "title": "New platform for micro instances of dev help",
-      "type": "story",
-      "url": "https://www.asiist.com/"
-    },
-    {
-      "by": "laktak",
-      "descendants": 0,
-      "id": 30290906,
-      "score": 2,
-      "time": 1644519862,
-      "title": "Factory contamination ruins 6.5M terabytes of flash storage, prices may rise",
-      "type": "story",
-      "url": "https://appleinsider.com/articles/22/02/10/factory-contamination-ruins-65-million-terabytes-of-flash-storage-prices-may-rise"
+      "url": "https://www.cbc.ca/news/canada/british-columbia/legality-firing-boycotts-protests-bc-1.6344593"
     },
     {
       "by": "feross",
       "descendants": 0,
-      "id": 30290892,
+      "id": 30291059,
       "score": 1,
-      "time": 1644519772,
-      "title": "Cryptocurrency firm MakerDAO offers record $10m in newly launched bug bounty",
+      "time": 1644520612,
+      "title": "Private Funds Are the New Public Funds",
       "type": "story",
-      "url": "https://portswigger.net/daily-swig/cryptocurrency-firm-makerdao-offers-record-10m-in-newly-launched-bug-bounty-program"
+      "url": "https://www.bloomberg.com/opinion/articles/2022-02-10/private-funds-are-the-new-public-funds"
+    },
+    {
+      "by": "STRiDEX",
+      "descendants": 0,
+      "id": 30291058,
+      "score": 1,
+      "time": 1644520611,
+      "title": "Jest v28.0.0-Alpha.0",
+      "type": "story",
+      "url": "https://github.com/facebook/jest/releases/tag/v28.0.0-alpha.0"
+    },
+    {
+      "by": "marcoslozada",
+      "descendants": 0,
+      "id": 30291053,
+      "score": 1,
+      "time": 1644520585,
+      "title": "What Is Web3 All About? An Easy Explanation with Examples",
+      "type": "story",
+      "url": "https://www.forbes.com/sites/bernardmarr/2022/01/24/what-is-web3-all-about-an-easy-explanation-with-examples/"
+    },
+    {
+      "by": "caaqil",
+      "descendants": 0,
+      "id": 30291049,
+      "score": 1,
+      "time": 1644520556,
+      "title": "France to build up to 14 new nuclear reactors by 2050",
+      "type": "story",
+      "url": "https://www.theguardian.com/world/2022/feb/10/france-to-build-up-to-14-new-nuclear-reactors-by-2050-says-macron"
+    },
+    {
+      "by": "skd-fs",
+      "descendants": 0,
+      "id": 30291038,
+      "score": 1,
+      "time": 1644520531,
+      "title": "Show HN: NFT Guard – Protect yourself from fake NFTs and crypto scams",
+      "type": "story",
+      "url": "https://www.fakespot.com/crypto"
+    },
+    {
+      "by": "arturo40",
+      "descendants": 0,
+      "id": 30291034,
+      "score": 1,
+      "text": "When I say &quot;stand alone&quot; I mean not just a few lines of script in a complex software ecosystem.  Calls to standard libraries are OK.",
+      "time": 1644520515,
+      "title": "What's your favorite short, stand-alone program that is fun or useful?",
+      "type": "story"
     }
   ]
 }
