@@ -1,14 +1,24 @@
 {
   "stories": [
     {
+      "by": "cyrksoft",
+      "descendants": 0,
+      "id": 30291135,
+      "score": 1,
+      "time": 1644520970,
+      "title": "France to Build Six New Nuclear Reactors",
+      "type": "story",
+      "url": "https://www.politico.eu/article/france-to-build-6-new-nuclear-reactors/"
+    },
+    {
       "by": "serverlessmom",
       "descendants": 0,
-      "id": 30291097,
+      "id": 30291118,
       "score": 1,
-      "time": 1644520803,
-      "title": "Will the Kubernetes v1.22 Upgrade Break My Application?",
+      "time": 1644520895,
+      "title": "Will Kubernetes v1.22 Break My Application?",
       "type": "story",
-      "url": "https://medium.com/m/global-identity?redirectUrl=https%3A%2F%2Fblog.runx.dev%2Fwill-that-kubernetes-v1-22-upgrade-break-my-application-cc339dc2e2c7"
+      "url": "https://blog.runx.dev/will-that-kubernetes-v1-22-upgrade-break-my-application-cc339dc2e2c7?gif=true"
     },
     {
       "by": "ggoo",
@@ -22,9 +32,12 @@
     },
     {
       "by": "valar_m",
-      "descendants": 0,
+      "descendants": 1,
       "id": 30291081,
-      "score": 1,
+      "kids": [
+        30291128
+      ],
+      "score": 2,
       "text": "I understand why it exists - text is easier to query than reading a resume, but it&#x27;s a terrible and outdated design pattern that needs to go. But good news: there are better ways!<p>Some possible solutions and suggestions:<p>-Use a list of checkbox options for candidates to click skills&#x2F;requirements that you want for the role. If you need SQL, JS, Python, and you believe a CS degree is necessary, then let candidates click which ones they have. No more messing with text! Bonus: You could add some kind of percentage of skills match metric when reviewing applicants (you should still review resumes, however).<p>Bonus #2: You can autofill the job posting with a list of desired skills instead of needing to type them out - just select which ones you need when creating the posting.<p>-You don&#x27;t need user-entered text fields for keyword matching. Extracting text from PDFs and Word Docs is trivial. If your text extract fails or misses a min word count threshold, just trigger a secondary step for HR to review and manually copy the text and enter it. Point is, stop making users manually enter the text when applying, just pull it out yourself.<p>-If you insist on candidates typing out their resume, stop trying to extract text from resumes to autofill the application form. Personally, I&#x27;d prefer to just type it out rather than review it and fix all of the inevitable mistakes (or more likely, clear the fields and just enter it myself).<p>I have considerable experience hiring engineers, and I can tell you concretely that:<p>1. Strong candidates are hard to find.<p>2. A single bad hire can sink a team.<p>3. Technical interviewing is hard and far from solved.<p>Given these three things, why make it harder than it has to be by using a badly designed system when a few changes to the logistical process can fix so much?<p>And if the bosses balk, maybe sell it like this: the existence of your company depends on good hiring, so maybe assign an engineer or two to spend a few months building this out. Not to be all &quot;Dropbox is easy build&quot; - but the basic functionality for something like this is not terribly more complex than a CRUD app with file uploading. I know that&#x27;s oversimplifying, but I bet you get my point.",
       "time": 1644520748,
       "title": "Tell HN: \"Upload your resume and then type it out” is hurting your company",
@@ -82,23 +95,16 @@
     },
     {
       "by": "skd-fs",
-      "descendants": 0,
+      "descendants": 1,
       "id": 30291038,
+      "kids": [
+        30291142
+      ],
       "score": 1,
       "time": 1644520531,
       "title": "Show HN: NFT Guard – Protect yourself from fake NFTs and crypto scams",
       "type": "story",
       "url": "https://www.fakespot.com/crypto"
-    },
-    {
-      "by": "arturo40",
-      "descendants": 0,
-      "id": 30291034,
-      "score": 1,
-      "text": "When I say &quot;stand alone&quot; I mean not just a few lines of script in a complex software ecosystem.  Calls to standard libraries are OK.",
-      "time": 1644520515,
-      "title": "What's your favorite short, stand-alone program that is fun or useful?",
-      "type": "story"
     }
   ]
 }
