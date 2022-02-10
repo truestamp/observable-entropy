@@ -1,10 +1,60 @@
 {
   "stories": [
     {
+      "by": "m2com",
+      "descendants": 0,
+      "id": 30288119,
+      "score": 1,
+      "time": 1644509063,
+      "title": "Show HN: Tweet AI Generated Hot Takes",
+      "type": "story",
+      "url": "https://github.com/MarkMcKinney/responsible-ai-hot-takes"
+    },
+    {
+      "by": "jhegemann",
+      "descendants": 0,
+      "id": 30288107,
+      "score": 1,
+      "time": 1644509011,
+      "title": "Muonbase Document Database",
+      "type": "story",
+      "url": "https://github.com/jhegemann/Muonbase"
+    },
+    {
+      "by": "theafh",
+      "descendants": 0,
+      "id": 30288092,
+      "score": 1,
+      "time": 1644508976,
+      "title": "Computer Scientists Prove Why Bigger Neural Networks Do Better",
+      "type": "story",
+      "url": "https://www.quantamagazine.org/computer-scientists-prove-why-bigger-neural-networks-do-better-20220210/"
+    },
+    {
+      "by": "sebg",
+      "descendants": 0,
+      "id": 30288089,
+      "score": 1,
+      "time": 1644508964,
+      "title": "Machine Learning Simplified Book",
+      "type": "story",
+      "url": "https://themlsbook.com/"
+    },
+    {
+      "by": "maydemir",
+      "descendants": 0,
+      "id": 30288045,
+      "score": 1,
+      "time": 1644508824,
+      "title": "Check the health of your Laravel app",
+      "type": "story",
+      "url": "https://github.com/spatie/laravel-health"
+    },
+    {
       "by": "maxim-duff",
       "descendants": 0,
       "id": 30288038,
-      "score": 1,
+      "score": 2,
       "time": 1644508806,
       "title": "Object Detection with Create ML: images and dataset",
       "type": "story",
@@ -14,7 +64,7 @@
       "by": "gr33ndata",
       "descendants": 0,
       "id": 30288000,
-      "score": 1,
+      "score": 2,
       "text": "I am starting to appreciate how Python type serve as extra documentation, as well as how they are bing hacked to make stuff like data classes.<p>Nevertheless, I feel they are sometimes overused, and maybe we need to think about guidelines, so we can have a better balance between clarity and verbosity.<p>We learned from experience that clear code doesn&#x27;t need comments. Functions and variables with good naming do not require comments. For example, is the following comment useful?<p># Adding a and b and putting results in c\nc = a + b<p>Not saying that comments aren&#x27;t needed at all. In fact they are essential for the subtle details not that clear. Or as John Ousterhout put it, “Comments augment the code by providing information at a different level of detail.”<p>Now with type hints, I want to argue the same, obvious stuff don&#x27;t need to be annotated. Here are some examples.<p>- <i>args and *kwargs: We all know that these are lists and dictionaries respectively.However, I&#x27;ve seen code where they are annotated still.\n- dictionaries: Like 99% of the time, the dictionary keys are strings, yet I&#x27;ve seen them being annotated with Dict[str, float] or such. Sure, maybe you are dealing with a case where the dict keys are something else, but then I&#x27;d argue that the reader needs to know more about that dict then and what it carries then its types.\n- When a function doesn&#x27;t return anything, should we still annotate it with None, or we are kinda stating the obvious here. \n- When the variable name is obvious. Do I still need to tell the type if the variable is called timestamp, days_since_creation, is_valid, num_item_sold, currency, or amount_paid?  \n- All data scientists use df to refer to DataFrame, the name df should be enough to infer the type and a type hint here will be just noise?<p>The point is, I want to know what do people smarter than me think? Maybe, I am wrong about it, and type hints still offer some value that I miss here.<p>Finally, one might argue that obvious types hints need to be stated still to be enforced by tools like mypy or so. That&#x27;s a different argument, and personally, I feel like type checking is a way to hack a dynamic language like Python to become Java. So, I&#x27;m only interested here in the documentation value of type hints.</i>",
       "time": 1644508664,
       "title": "Ask HN: Let's discuss Python type hints guidelines",
@@ -49,59 +99,6 @@
       "title": "How Many Digits in a Product?",
       "type": "story",
       "url": "https://lemire.me/blog/2022/02/10/how-many-digits-in-a-product/"
-    },
-    {
-      "by": "999900000999",
-      "descendants": 1,
-      "id": 30287847,
-      "kids": [
-        30287898
-      ],
-      "score": 1,
-      "text": "I&#x27;m planing on traveling rather extensively later this year, and I&#x27;d need to store some computer parts and mementos. We&#x27;re taking maybe some graphic cards, a couple of old books and 3 hard drives. Everything else I&#x27;ll donate to Goodwill or so. \nIf push come to shove I&#x27;ll just get a public storage unit, but I&#x27;d rather avoid that.",
-      "time": 1644508152,
-      "title": "Ask HN: Cheapest way to store a small amount of items",
-      "type": "story"
-    },
-    {
-      "by": "shahargl",
-      "descendants": 0,
-      "id": 30287795,
-      "score": 1,
-      "time": 1644507948,
-      "title": "Third-Party APIs: Shatter the Big Data Barrier",
-      "type": "story",
-      "url": "https://anecdotes.dev/third-party-apis-shatter-the-big-data-barrier-c0bbfa776307?gif=true"
-    },
-    {
-      "by": "castig",
-      "descendants": 0,
-      "id": 30287774,
-      "score": 1,
-      "time": 1644507880,
-      "title": "Bitcoin DAO Tooling Survey – What Can BTC DAOs Learn from ETH?",
-      "type": "story",
-      "url": "https://blocksurvey.io/survey/1MC3XfnSK5J57mQCPoUrZKboLu7HqXCiov/05c8e78b-4a9f-45e7-bd33-128a1e552f90/r/o"
-    },
-    {
-      "by": "MilnerRoute",
-      "descendants": 0,
-      "id": 30287739,
-      "score": 1,
-      "time": 1644507789,
-      "title": "US plan calls for $5B network of electric vehicle chargers on interstates",
-      "type": "story",
-      "url": "https://www.washingtonpost.com/transportation/2022/02/10/electric-vehicle-charging/"
-    },
-    {
-      "by": "djood",
-      "descendants": 0,
-      "id": 30287733,
-      "score": 4,
-      "time": 1644507758,
-      "title": "An Interactive Introduction to A* (and other pathfinding algorithms)",
-      "type": "story",
-      "url": "https://www.redblobgames.com/pathfinding/a-star/introduction.html"
     }
   ]
 }
