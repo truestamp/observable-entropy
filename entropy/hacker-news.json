@@ -1,9 +1,62 @@
 {
   "stories": [
     {
-      "by": "999900000999",
+      "by": "maxim-duff",
       "descendants": 0,
+      "id": 30288038,
+      "score": 1,
+      "time": 1644508806,
+      "title": "Object Detection with Create ML: images and dataset",
+      "type": "story",
+      "url": "https://evilmartians.com/chronicles/object-detection-with-create-ml-images-and-dataset"
+    },
+    {
+      "by": "gr33ndata",
+      "descendants": 0,
+      "id": 30288000,
+      "score": 1,
+      "text": "I am starting to appreciate how Python type serve as extra documentation, as well as how they are bing hacked to make stuff like data classes.<p>Nevertheless, I feel they are sometimes overused, and maybe we need to think about guidelines, so we can have a better balance between clarity and verbosity.<p>We learned from experience that clear code doesn&#x27;t need comments. Functions and variables with good naming do not require comments. For example, is the following comment useful?<p># Adding a and b and putting results in c\nc = a + b<p>Not saying that comments aren&#x27;t needed at all. In fact they are essential for the subtle details not that clear. Or as John Ousterhout put it, “Comments augment the code by providing information at a different level of detail.”<p>Now with type hints, I want to argue the same, obvious stuff don&#x27;t need to be annotated. Here are some examples.<p>- <i>args and *kwargs: We all know that these are lists and dictionaries respectively.However, I&#x27;ve seen code where they are annotated still.\n- dictionaries: Like 99% of the time, the dictionary keys are strings, yet I&#x27;ve seen them being annotated with Dict[str, float] or such. Sure, maybe you are dealing with a case where the dict keys are something else, but then I&#x27;d argue that the reader needs to know more about that dict then and what it carries then its types.\n- When a function doesn&#x27;t return anything, should we still annotate it with None, or we are kinda stating the obvious here. \n- When the variable name is obvious. Do I still need to tell the type if the variable is called timestamp, days_since_creation, is_valid, num_item_sold, currency, or amount_paid?  \n- All data scientists use df to refer to DataFrame, the name df should be enough to infer the type and a type hint here will be just noise?<p>The point is, I want to know what do people smarter than me think? Maybe, I am wrong about it, and type hints still offer some value that I miss here.<p>Finally, one might argue that obvious types hints need to be stated still to be enforced by tools like mypy or so. That&#x27;s a different argument, and personally, I feel like type checking is a way to hack a dynamic language like Python to become Java. So, I&#x27;m only interested here in the documentation value of type hints.</i>",
+      "time": 1644508664,
+      "title": "Ask HN: Let's discuss Python type hints guidelines",
+      "type": "story"
+    },
+    {
+      "by": "maxwell",
+      "descendants": 0,
+      "id": 30287952,
+      "score": 1,
+      "time": 1644508508,
+      "title": "The Microsoft Antitrust Case 10 Years Later (2010)",
+      "type": "story",
+      "url": "https://scholarlycommons.law.northwestern.edu/cgi/viewcontent.cgi?article=1105&context=njtip"
+    },
+    {
+      "by": "rbanffy",
+      "descendants": 0,
+      "id": 30287901,
+      "score": 1,
+      "time": 1644508349,
+      "title": "TSMC Reveals ~36% Revenue Growth as China's ZTE Reportedly Using 7nm for 5G",
+      "type": "story",
+      "url": "https://wccftech.com/tsmc-reveals-36-revenue-growth-as-chinas-zte-reportedly-using-7nm-for-5g/"
+    },
+    {
+      "by": "ibobev",
+      "descendants": 0,
+      "id": 30287887,
+      "score": 1,
+      "time": 1644508298,
+      "title": "How Many Digits in a Product?",
+      "type": "story",
+      "url": "https://lemire.me/blog/2022/02/10/how-many-digits-in-a-product/"
+    },
+    {
+      "by": "999900000999",
+      "descendants": 1,
       "id": 30287847,
+      "kids": [
+        30287898
+      ],
       "score": 1,
       "text": "I&#x27;m planing on traveling rather extensively later this year, and I&#x27;d need to store some computer parts and mementos. We&#x27;re taking maybe some graphic cards, a couple of old books and 3 hard drives. Everything else I&#x27;ll donate to Goodwill or so. \nIf push come to shove I&#x27;ll just get a public storage unit, but I&#x27;d rather avoid that.",
       "time": 1644508152,
@@ -44,64 +97,11 @@
       "by": "djood",
       "descendants": 0,
       "id": 30287733,
-      "score": 2,
+      "score": 4,
       "time": 1644507758,
       "title": "An Interactive Introduction to A* (and other pathfinding algorithms)",
       "type": "story",
       "url": "https://www.redblobgames.com/pathfinding/a-star/introduction.html"
-    },
-    {
-      "by": "slewis",
-      "descendants": 1,
-      "id": 30287721,
-      "kids": [
-        30287784
-      ],
-      "score": 1,
-      "time": 1644507708,
-      "title": "Tracing Functions in Python",
-      "type": "story",
-      "url": "https://theorangeduck.com/page/tracing-functions-python"
-    },
-    {
-      "by": "danyaluncle",
-      "descendants": 0,
-      "id": 30287717,
-      "score": 2,
-      "time": 1644507692,
-      "title": "Homo Sapiens arrived in Europe almost 10k years earlier than thought",
-      "type": "story",
-      "url": "https://arkeonews.net/mandrin-cave-in-france-shows-homo-sapiens-arrived-in-europe-almost-10000-years-earlier-than-thought/"
-    },
-    {
-      "by": "mitrak",
-      "descendants": 0,
-      "id": 30287712,
-      "score": 1,
-      "time": 1644507675,
-      "title": "Mystery Lands a $100M Valuation After Shifting from Dates to Company Events",
-      "type": "story",
-      "url": "https://www.forbes.com/sites/kenrickcai/2022/02/09/mystery-startup-series-a-100-million-valuation-virtual-events/"
-    },
-    {
-      "by": "KieranMac",
-      "descendants": 0,
-      "id": 30287688,
-      "score": 1,
-      "time": 1644507595,
-      "title": "Web Scraping Legal Questions for 2022",
-      "type": "story",
-      "url": "https://mccarthygarberlaw.com/9-web-scraping-legal-questions-for-2022/"
-    },
-    {
-      "by": "TrailMixRaisin",
-      "descendants": 0,
-      "id": 30287684,
-      "score": 1,
-      "time": 1644507585,
-      "title": "NFTs could transform health information exchange",
-      "type": "story",
-      "url": "https://www.science.org/doi/10.1126/science.abm2004"
     }
   ]
 }
