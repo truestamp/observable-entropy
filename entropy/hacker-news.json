@@ -1,10 +1,33 @@
 {
   "stories": [
     {
-      "by": "loceng",
+      "by": "somethingAlex",
       "descendants": 0,
+      "id": 30304009,
+      "score": 1,
+      "text": "There&#x27;s many unit testing libraries like mocha and jest but there do not seem to be many for integration testing. To be clear, I mean integrating disparate backend modules together. For example, the extremely common case of testing a bunch of lambda functions on AWS.<p>To be fair, there is a lot of overlap. They both need an assertion library, great debugging features for when tests fail, various hooks for setup and teardown, and some way to control the execution flow of tests.<p>It is the last feature where unit testing libraries refuse to play ball. Integration tests oftentimes require a partial order and can be represented as a DAG: certain tests are dependent on other tests before they can run but where possible, parallelism should be employed (for performance reasons). This Github issue refers to my problem but the maintainers completely misunderstand the use case [0]. Mocha has mocha-steps[1] but its a total order and everything is run serially.<p>Is this not a common use case? Are people okay with the performance of running integration test suites serially? Do people just invest in unit tests more and leave integration tests to some script some guy made way back &quot;but it works?&quot;<p>Seems crazy to me that popular libraries don&#x27;t let you declare a partial order for your tests or declare arbitrary dependencies.<p>[0]: https:&#x2F;&#x2F;github.com&#x2F;facebook&#x2F;jest&#x2F;issues&#x2F;5823\n[1]: https:&#x2F;&#x2F;www.npmjs.com&#x2F;package&#x2F;mocha-steps",
+      "time": 1644599856,
+      "title": "What do y'all use for back end integration testing? (Services, Parallelism)",
+      "type": "story"
+    },
+    {
+      "by": "hampelm",
+      "descendants": 0,
+      "id": 30303990,
+      "score": 1,
+      "time": 1644599743,
+      "title": "Get Ruby working on your Mac with a single command",
+      "type": "story",
+      "url": "https://www.rubyonmac.dev/"
+    },
+    {
+      "by": "loceng",
+      "descendants": 1,
       "id": 30303956,
-      "score": 2,
+      "kids": [
+        30303984
+      ],
+      "score": 4,
       "time": 1644599572,
       "title": "Ontario Police now going to homes of supporters of peaceful protests",
       "type": "story",
@@ -79,26 +102,6 @@
       "title": "About Removing the iOS App from the Store",
       "type": "story",
       "url": "https://www.nooshub.com/blog/2022/about-removing-app-apple-appstore.html"
-    },
-    {
-      "by": "steelstraw",
-      "descendants": 0,
-      "id": 30303827,
-      "score": 1,
-      "time": 1644599108,
-      "title": "IMF recommends governments consider “financial repression” to reduce debt",
-      "type": "story",
-      "url": "https://twitter.com/gladstein/status/1492007493962141697"
-    },
-    {
-      "by": "PaulHoule",
-      "descendants": 0,
-      "id": 30303821,
-      "score": 1,
-      "time": 1644599094,
-      "title": "Teen Girls’ Sexy TikTok Videos Take a Mental-Health Toll",
-      "type": "story",
-      "url": "https://www.wsj.com/articles/teen-girls-sexy-tiktok-videos-take-a-mental-health-toll-11644016839"
     }
   ]
 }
