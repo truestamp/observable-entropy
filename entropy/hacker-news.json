@@ -1,6 +1,39 @@
 {
   "stories": [
     {
+      "by": "alphabetting",
+      "descendants": 1,
+      "id": 30304207,
+      "kids": [
+        30304214
+      ],
+      "score": 1,
+      "time": 1644600543,
+      "title": "Waymo video showing 3D renders they've made of San Francisco",
+      "type": "story",
+      "url": "https://www.youtube.com/watch?v=6lGMCAzBzOQ"
+    },
+    {
+      "by": "dloss",
+      "descendants": 0,
+      "id": 30304161,
+      "score": 1,
+      "time": 1644600415,
+      "title": "LaserShark: Establish Fast, Bidirectional Communication into Air-Gapped Systems",
+      "type": "story",
+      "url": "https://intellisec.de/research/lasershark/"
+    },
+    {
+      "by": "kiyanwang",
+      "descendants": 0,
+      "id": 30304139,
+      "score": 2,
+      "time": 1644600332,
+      "title": "We Write GitHub Actions in Go",
+      "type": "story",
+      "url": "https://full-stack.blend.com/how-we-write-github-actions-in-go.html"
+    },
+    {
       "by": "kiyanwang",
       "descendants": 0,
       "id": 30304116,
@@ -69,44 +102,11 @@
         30304115,
         30304087
       ],
-      "score": 1,
+      "score": 3,
       "text": "Can’t seem to load threads on the official mobile client. Others report issues as well: https:&#x2F;&#x2F;downdetector.com&#x2F;status&#x2F;twitter&#x2F;<p>Would be ironic if it was cache related in light of this post yesterday: https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=30295542",
       "time": 1644600038,
       "title": "Twitter Problems?",
       "type": "story"
-    },
-    {
-      "by": "somethingAlex",
-      "descendants": 0,
-      "id": 30304009,
-      "score": 1,
-      "text": "There&#x27;s many unit testing libraries like mocha and jest but there do not seem to be many for integration testing. To be clear, I mean integrating disparate backend modules together. For example, the extremely common case of testing a bunch of lambda functions on AWS.<p>To be fair, there is a lot of overlap. They both need an assertion library, great debugging features for when tests fail, various hooks for setup and teardown, and some way to control the execution flow of tests.<p>It is the last feature where unit testing libraries refuse to play ball. Integration tests oftentimes require a partial order and can be represented as a DAG: certain tests are dependent on other tests before they can run but where possible, parallelism should be employed (for performance reasons). This Github issue refers to my problem but the maintainers completely misunderstand the use case [0]. Mocha has mocha-steps[1] but its a total order and everything is run serially.<p>Is this not a common use case? Are people okay with the performance of running integration test suites serially? Do people just invest in unit tests more and leave integration tests to some script some guy made way back &quot;but it works?&quot;<p>Seems crazy to me that popular libraries don&#x27;t let you declare a partial order for your tests or declare arbitrary dependencies.<p>[0]: https:&#x2F;&#x2F;github.com&#x2F;facebook&#x2F;jest&#x2F;issues&#x2F;5823\n[1]: https:&#x2F;&#x2F;www.npmjs.com&#x2F;package&#x2F;mocha-steps",
-      "time": 1644599856,
-      "title": "What do y'all use for back end integration testing? (Services, Parallelism)",
-      "type": "story"
-    },
-    {
-      "by": "hampelm",
-      "descendants": 0,
-      "id": 30303990,
-      "score": 1,
-      "time": 1644599743,
-      "title": "Get Ruby working on your Mac with a single command",
-      "type": "story",
-      "url": "https://www.rubyonmac.dev/"
-    },
-    {
-      "by": "loceng",
-      "descendants": 1,
-      "id": 30303956,
-      "kids": [
-        30303984
-      ],
-      "score": 4,
-      "time": 1644599572,
-      "title": "Ontario Police now going to homes of supporters of peaceful protests",
-      "type": "story",
-      "url": "https://www.youtube.com/watch?v=wSjKm-5xkUA"
     }
   ]
 }
