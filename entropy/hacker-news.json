@@ -1,10 +1,30 @@
 {
   "stories": [
     {
+      "by": "qwertyuiop_",
+      "descendants": 0,
+      "id": 30317660,
+      "score": 1,
+      "time": 1644710611,
+      "title": "Clinton campaign paid to 'infiltrate' Trump Tower servers: Durham",
+      "type": "story",
+      "url": "https://www.foxnews.com/politics/clinton-campaign-paid-infiltrate-trump-tower-white-house-servers"
+    },
+    {
+      "by": "maydemir",
+      "descendants": 0,
+      "id": 30317650,
+      "score": 1,
+      "time": 1644710423,
+      "title": "Vectorbt – Find your trading edge",
+      "type": "story",
+      "url": "https://github.com/polakowo/vectorbt"
+    },
+    {
       "by": "tkiolp4",
       "descendants": 0,
       "id": 30317631,
-      "score": 1,
+      "score": 2,
       "text": "My goal: run N Ubuntu VMs on a MBP M1 using either host-only or bridged networking mode. On my previous Intel MBP I was using Vagrant and Virtualbox as provider. This worked wonderful. Now, as you may know, Virtualbox doesn’t work anymore on M1s. I looked around at alternatives, and the panorama doesn’t look good as of now:<p>- qemu. Quite versatile. Works with hvf and it’s fast! Sadly, it doesn’t support yet advanced network modes (bridged, host-only) for mac. There exists unofficial patches that implement vmnet (https:&#x2F;&#x2F;gitlab.com&#x2F;qemu-project&#x2F;qemu&#x2F;-&#x2F;issues&#x2F;465#note_824941037) but they are unstable and require running qemu as root<p>- UTM (https:&#x2F;&#x2F;mac.getutm.app&#x2F;) also works fine, but doesn’t offer advanced network modes for multiple VMs<p>- vagrant + vmware fusion. This is the most promising one. But vmware fusion for M1 is still in “tech preview” mode. Also it’s unstable (https:&#x2F;&#x2F;gist.github.com&#x2F;sbailliez&#x2F;f22db6434ac84eccb6d3c8833c85ad92)<p>- docker. Not really a replacement. I need to replicate cloud environments locally (so I need VMs running systemd. The VMs themselves may run docker)<p>Anyone else in the same boat?",
       "time": 1644710236,
       "title": "Ask HN: How do you run multiple VMs on Apple Silicon M1?",
@@ -14,6 +34,9 @@
       "by": "dredmorbius",
       "descendants": 0,
       "id": 30317622,
+      "kids": [
+        30317651
+      ],
       "score": 1,
       "time": 1644710170,
       "title": "TransAsia Airways 235",
@@ -77,31 +100,11 @@
       "by": "rbanffy",
       "descendants": 0,
       "id": 30317544,
-      "score": 1,
+      "score": 2,
       "time": 1644709517,
       "title": "Leicester computational modelling experts pioneer pest-busting model",
       "type": "story",
       "url": "https://le.ac.uk/news/2022/february/slug-distribution"
-    },
-    {
-      "by": "zdw",
-      "descendants": 0,
-      "id": 30317540,
-      "score": 1,
-      "time": 1644709500,
-      "title": "Basic Network Troubleshooting",
-      "type": "story",
-      "url": "https://www.netmeister.org/blog/basic-network-troubleshooting.html"
-    },
-    {
-      "by": "rbanffy",
-      "descendants": 0,
-      "id": 30317532,
-      "score": 2,
-      "time": 1644709444,
-      "title": "What's Coming in Go 1.18",
-      "type": "story",
-      "url": "https://lwn.net/SubscriberLink/883602/49e588e5d73cef84/"
     }
   ]
 }
