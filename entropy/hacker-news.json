@@ -1,10 +1,50 @@
 {
   "stories": [
     {
+      "by": "colanderman",
+      "descendants": 0,
+      "id": 30317697,
+      "score": 1,
+      "time": 1644710992,
+      "title": "Investigating One of the Oldest Victorian Sewing Machines [video]",
+      "type": "story",
+      "url": "https://www.youtube.com/watch?v=X6ZNylvfER4"
+    },
+    {
+      "by": "cercatrova",
+      "descendants": 0,
+      "id": 30317693,
+      "score": 1,
+      "time": 1644710936,
+      "title": "Uber Is Still a Bezzle",
+      "type": "story",
+      "url": "https://twitter.com/doctorow/status/1492212607247343626"
+    },
+    {
+      "by": "tomohawk",
+      "descendants": 0,
+      "id": 30317683,
+      "score": 1,
+      "time": 1644710867,
+      "title": "Galapagos Enforcement Focuses on Locals and Not on Intl Commercial Vessels",
+      "type": "story",
+      "url": "https://gcaptain.com/galapagos-new-marine-reserve-enforcement-focuses-on-locals-and-not-on-international-commercial-vessels/"
+    },
+    {
+      "by": "tonyjstark",
+      "descendants": 0,
+      "id": 30317668,
+      "score": 1,
+      "time": 1644710728,
+      "title": "More Than Half of Bitcoin Investors Are in the Red, Study Says",
+      "type": "story",
+      "url": "https://money.com/bitcoin-crypto-losses-2022/"
+    },
+    {
       "by": "qwertyuiop_",
       "descendants": 0,
       "id": 30317660,
-      "score": 1,
+      "score": 3,
       "time": 1644710611,
       "title": "Clinton campaign paid to 'infiltrate' Trump Tower servers: Durham",
       "type": "story",
@@ -25,7 +65,7 @@
       "descendants": 0,
       "id": 30317631,
       "score": 2,
-      "text": "My goal: run N Ubuntu VMs on a MBP M1 using either host-only or bridged networking mode. On my previous Intel MBP I was using Vagrant and Virtualbox as provider. This worked wonderful. Now, as you may know, Virtualbox doesn’t work anymore on M1s. I looked around at alternatives, and the panorama doesn’t look good as of now:<p>- qemu. Quite versatile. Works with hvf and it’s fast! Sadly, it doesn’t support yet advanced network modes (bridged, host-only) for mac. There exists unofficial patches that implement vmnet (https:&#x2F;&#x2F;gitlab.com&#x2F;qemu-project&#x2F;qemu&#x2F;-&#x2F;issues&#x2F;465#note_824941037) but they are unstable and require running qemu as root<p>- UTM (https:&#x2F;&#x2F;mac.getutm.app&#x2F;) also works fine, but doesn’t offer advanced network modes for multiple VMs<p>- vagrant + vmware fusion. This is the most promising one. But vmware fusion for M1 is still in “tech preview” mode. Also it’s unstable (https:&#x2F;&#x2F;gist.github.com&#x2F;sbailliez&#x2F;f22db6434ac84eccb6d3c8833c85ad92)<p>- docker. Not really a replacement. I need to replicate cloud environments locally (so I need VMs running systemd. The VMs themselves may run docker)<p>Anyone else in the same boat?",
+      "text": "My goal: run N Ubuntu VMs on a MBP M1 using either host-only or bridged networking mode. On my previous Intel MBP I was using Vagrant and Virtualbox as provider. This worked wonderful. Now, as you may know, Virtualbox doesn’t work anymore on M1s. I looked around at alternatives, and the panorama doesn’t look good as of now:<p>- qemu. Quite versatile. Works with hvf and it’s fast! Sadly, it doesn’t support yet advanced network modes (bridged, host-only) for mac. There exists unofficial patches that implement vmnet (https:&#x2F;&#x2F;gitlab.com&#x2F;qemu-project&#x2F;qemu&#x2F;-&#x2F;issues&#x2F;465#note_824941037) but they are unstable and require running qemu as root<p>- UTM (https:&#x2F;&#x2F;mac.getutm.app&#x2F;) also works fine, but doesn’t offer advanced network modes for multiple VMs (it relies on qemu behind the curtains anyway)<p>- vagrant + vmware fusion. This is the most promising one. But vmware fusion for M1 is still in “tech preview” mode. Also it’s unstable (https:&#x2F;&#x2F;gist.github.com&#x2F;sbailliez&#x2F;f22db6434ac84eccb6d3c8833c85ad92)<p>- docker. Not really a replacement. I need to replicate cloud environments locally (so I need VMs running systemd. The VMs themselves may run docker)<p>Anyone else in the same boat?",
       "time": 1644710236,
       "title": "Ask HN: How do you run multiple VMs on Apple Silicon M1?",
       "type": "story"
@@ -62,49 +102,6 @@
       "time": 1644710044,
       "title": "Ask HN: How do you handle “staging servers” in non-web environments?",
       "type": "story"
-    },
-    {
-      "by": "mistermeenr",
-      "descendants": 1,
-      "id": 30317594,
-      "kids": [
-        30317616
-      ],
-      "score": 1,
-      "text": "After 3 weeks learning Three.js I decided to try out the CSS 3D renderer to create a parallax mock-up. This is the final result, live (Desktop only).<p>The rest of the site is unfinished, so any shitty UI&#x2F;UX quirks WILL be fixed. I just wanted to show this off and get some general feedback.<p>Website: [sprintdock.app](https:&#x2F;&#x2F;sprintdock.app)",
-      "time": 1644709946,
-      "title": "Ask HN: Thoughts on my Three.js / CSS intro?",
-      "type": "story"
-    },
-    {
-      "by": "weinzierl",
-      "descendants": 0,
-      "id": 30317590,
-      "score": 2,
-      "time": 1644709908,
-      "title": "How do you spot fake Chinese USB hard drives?",
-      "type": "story",
-      "url": "http://blog.gsmarena.com/how-do-you-spot-fake-chinese-usb-hard-drives-well-you-take-them-apart/"
-    },
-    {
-      "by": "benbreen",
-      "descendants": 0,
-      "id": 30317564,
-      "score": 1,
-      "time": 1644709641,
-      "title": "The Dropout: A History",
-      "type": "story",
-      "url": "https://aeon.co/essays/the-dropout-a-history-from-postwar-paranoia-to-a-summer-of-love"
-    },
-    {
-      "by": "rbanffy",
-      "descendants": 0,
-      "id": 30317544,
-      "score": 2,
-      "time": 1644709517,
-      "title": "Leicester computational modelling experts pioneer pest-busting model",
-      "type": "story",
-      "url": "https://le.ac.uk/news/2022/february/slug-distribution"
     }
   ]
 }
