@@ -1,6 +1,16 @@
 {
   "stories": [
     {
+      "by": "jesprenj",
+      "descendants": 0,
+      "id": 30317714,
+      "score": 1,
+      "time": 1644711113,
+      "title": "MetNet: A Neural Weather Model for Precipitation Forecasting (2020)",
+      "type": "story",
+      "url": "https://arxiv.org/abs/2003.12140"
+    },
+    {
       "by": "colanderman",
       "descendants": 0,
       "id": 30317697,
@@ -64,7 +74,7 @@
       "by": "tkiolp4",
       "descendants": 0,
       "id": 30317631,
-      "score": 2,
+      "score": 3,
       "text": "My goal: run N Ubuntu VMs on a MBP M1 using either host-only or bridged networking mode. On my previous Intel MBP I was using Vagrant and Virtualbox as provider. This worked wonderful. Now, as you may know, Virtualbox doesn’t work anymore on M1s. I looked around at alternatives, and the panorama doesn’t look good as of now:<p>- qemu. Quite versatile. Works with hvf and it’s fast! Sadly, it doesn’t support yet advanced network modes (bridged, host-only) for mac. There exists unofficial patches that implement vmnet (https:&#x2F;&#x2F;gitlab.com&#x2F;qemu-project&#x2F;qemu&#x2F;-&#x2F;issues&#x2F;465#note_824941037) but they are unstable and require running qemu as root<p>- UTM (https:&#x2F;&#x2F;mac.getutm.app&#x2F;) also works fine, but doesn’t offer advanced network modes for multiple VMs (it relies on qemu behind the curtains anyway)<p>- vagrant + vmware fusion. This is the most promising one. But vmware fusion for M1 is still in “tech preview” mode. Also it’s unstable (https:&#x2F;&#x2F;gist.github.com&#x2F;sbailliez&#x2F;f22db6434ac84eccb6d3c8833c85ad92)<p>- docker. Not really a replacement. I need to replicate cloud environments locally (so I need VMs running systemd. The VMs themselves may run docker)<p>Anyone else in the same boat?",
       "time": 1644710236,
       "title": "Ask HN: How do you run multiple VMs on Apple Silicon M1?",
@@ -92,16 +102,6 @@
       "title": "A cup of skill – Build competitive web games using a state machine authority",
       "type": "story",
       "url": "https://medium.com/@JoeOfTex/acos-games-free-platform-to-build-host-or-play-competitive-web-games-using-a-state-machine-613bdba9f0a0"
-    },
-    {
-      "by": "101008",
-      "descendants": 0,
-      "id": 30317608,
-      "score": 1,
-      "text": "Sorry if the title doesn&#x27;t make sense, but I always work as a web developer and I wondered how do you handle testing &#x2F; simulations &#x2F; etc in non-web developments, especially in stuff like satellites, cars, etc.<p>How do you test your software? How, for example, is SpaceX software tested without launching a misile? I am sure you can test a lot with &quot;fake&quot; inputs but you can&#x27;t be completely sure that it is going to be the same in the real scenario.<p>So if you want to share your insights from a not-common industry, use this thread!",
-      "time": 1644710044,
-      "title": "Ask HN: How do you handle “staging servers” in non-web environments?",
-      "type": "story"
     }
   ]
 }
