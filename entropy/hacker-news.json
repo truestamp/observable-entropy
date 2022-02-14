@@ -1,20 +1,51 @@
 {
   "stories": [
     {
+      "by": "signa11",
+      "descendants": 0,
+      "id": 30328446,
+      "score": 1,
+      "time": 1644813860,
+      "title": "The Harmful Consequences of the Robustness Principle",
+      "type": "story",
+      "url": "https://www.ietf.org/archive/id/draft-iab-protocol-maintenance-05.html"
+    },
+    {
+      "by": "janedoegrrr",
+      "descendants": 0,
+      "id": 30328437,
+      "score": 1,
+      "time": 1644813792,
+      "title": "Meta's threat to leave Europe hints at waning big tech influence",
+      "type": "story",
+      "url": "https://www.zdnet.com/article/metas-threat-to-leave-europe-hints-at-big-tech-influence-waning/"
+    },
+    {
+      "by": "pat-jay",
+      "descendants": 0,
+      "id": 30328433,
+      "score": 1,
+      "time": 1644813680,
+      "title": "Spot the irony: India's Reserve Bank says outsourcing and offshoring are risky",
+      "type": "story",
+      "url": "https://www.theregister.com/2022/02/14/reserve_bank_of_india_outsourcing_risk_warning/"
+    },
+    {
       "by": "apatheticonion",
       "descendants": 0,
       "id": 30328423,
       "score": 1,
-      "text": "I like C but the lack of structural interface types and type parameters (generics) makes me feel less satisfied about the constructs I design in C.<p>I really like how Go (1.18) feels like C but with generics and a great structural typing system.<p>However, Go tends to ship large binaries and in exchange offers some nice runtime features like concurrency and high level types.<p>While these are great, I would love to know if there is a language similar to Go but without the runtime and garbage collection.<p>Here&#x27;s some pseudo code demonstrating the sort of thing I am looking for<p>```\ninterface foo {\n  bar[T](value: T) T\n}<p>func foobar(f foo) {\n  f.bar(&quot;Hello!&quot;)\n}<p>class Foo {\n  bar[T](value T) T {\n    return value\n  }\n}<p>func main() {\n  var f = new Foo()\n  foobar(f)\n}\n```",
+      "text": "I like C but the lack of structural interface types and type parameters (generics) makes me feel less satisfied about the constructs I design in C.<p>I really like how Go (1.18) feels like C but with generics and a great structural typing system.<p>However, Go tends to ship large binaries and in exchange offers some nice runtime features like concurrency and high level types.<p>While these are great, I would love to know if there is a language similar to Go but without the runtime and garbage collection.<p>Here&#x27;s some pseudo code demonstrating the sort of thing I am looking for<p><pre><code>  interface foo {\n    bar[T](value: T) T\n  }\n\n  func foobar(f foo) {\n    f.bar(&quot;Hello!&quot;)\n  }\n\n  class Foo {\n    bar[T](value T) T {\n      return value\n    }\n  }\n\n  func main() {\n    var f = new Foo()\n    foobar(f)\n  }</code></pre>",
       "time": 1644813594,
       "title": "Ask HN: Is there a manually memory managed non concurrent Go (Golang)?",
       "type": "story"
     },
     {
       "by": "williamstein",
-      "descendants": 0,
+      "descendants": 1,
       "id": 30328403,
       "kids": [
+        30328438,
         30328408
       ],
       "score": 1,
@@ -78,42 +109,6 @@
       "title": "Some high school activists are working on giving up Amazon",
       "type": "story",
       "url": "https://www.seattletimes.com/business/amazon-shapes-life-for-teens-some-high-school-activists-are-working-on-giving-it-up/"
-    },
-    {
-      "by": "SuboptimalEng",
-      "descendants": 0,
-      "id": 30328344,
-      "score": 1,
-      "time": 1644812551,
-      "title": "Show HN: Gamedex, my collection of Three.js game dev experiments",
-      "type": "story",
-      "url": "https://github.com/SuboptimalEng/gamedex"
-    },
-    {
-      "by": "mirimozias",
-      "descendants": 1,
-      "id": 30328322,
-      "kids": [
-        30328324
-      ],
-      "score": 1,
-      "time": 1644812284,
-      "title": "Private Jets – Sharing to be made?",
-      "type": "story",
-      "url": "https://www.jetsharing.co"
-    },
-    {
-      "by": "whitxyz",
-      "descendants": 1,
-      "id": 30328312,
-      "kids": [
-        30328413
-      ],
-      "score": 2,
-      "time": 1644812160,
-      "title": "A Look at Low-Risk Ways to Learn Crypto",
-      "type": "story",
-      "url": "https://unrealisedgains.substack.com/p/welcome-to-the-user-testnet"
     }
   ]
 }
