@@ -1,6 +1,16 @@
 {
   "stories": [
     {
+      "by": "thereare5lights",
+      "descendants": 0,
+      "id": 30328482,
+      "score": 1,
+      "time": 1644814391,
+      "title": "“No handshakes, please”:The tech industry is terrified of the coronavirus (2020)",
+      "type": "story",
+      "url": "https://www.vox.com/recode/2020/2/13/21128209/coronavirus-fears-contagion-how-infection-spreads"
+    },
+    {
       "by": "signa11",
       "descendants": 0,
       "id": 30328446,
@@ -38,8 +48,11 @@
     },
     {
       "by": "apatheticonion",
-      "descendants": 0,
+      "descendants": 1,
       "id": 30328423,
+      "kids": [
+        30328486
+      ],
       "score": 1,
       "text": "I like C but the lack of structural interface types and type parameters (generics) makes me feel less satisfied about the constructs I design in C.<p>I really like how Go (1.18) feels like C but with generics and a great structural typing system.<p>However, Go tends to ship large binaries and in exchange offers some nice runtime features like concurrency and high level types.<p>While these are great, I would love to know if there is a language similar to Go but without the runtime and garbage collection.<p>Here&#x27;s some pseudo code demonstrating the sort of thing I am looking for<p><pre><code>  interface IFoo {\n    bar[T](value: T) T\n  }\n\n  func foobar(f IFoo) {\n    f.bar(&quot;Hello!&quot;)\n  }\n\n  class Foo {\n    bar[T](value T) T {\n      return value\n    }\n  }\n\n  func main() {\n    var f = new Foo()\n    foobar(f)\n  }</code></pre>",
       "time": 1644813594,
@@ -106,16 +119,6 @@
       "title": "What makes a good product leader?",
       "type": "story",
       "url": "https://www.linkedin.com/pulse/what-makes-good-product-leader-sarika-kanabar"
-    },
-    {
-      "by": "MilnerRoute",
-      "descendants": 0,
-      "id": 30328355,
-      "score": 1,
-      "time": 1644812682,
-      "title": "Some high school activists are working on giving up Amazon",
-      "type": "story",
-      "url": "https://www.seattletimes.com/business/amazon-shapes-life-for-teens-some-high-school-activists-are-working-on-giving-it-up/"
     }
   ]
 }
