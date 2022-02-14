@@ -1,6 +1,29 @@
 {
   "stories": [
     {
+      "by": "KLSea",
+      "descendants": 1,
+      "id": 30328659,
+      "kids": [
+        30328660
+      ],
+      "score": 1,
+      "time": 1644816215,
+      "title": "Feedback on Playlist Sharing Website",
+      "type": "story",
+      "url": "https://sharelist.org"
+    },
+    {
+      "by": "softwarebeware",
+      "descendants": 0,
+      "id": 30328655,
+      "score": 1,
+      "time": 1644816132,
+      "title": "A Tiny Island Off the Coast of England Just Put Out a Call for a New Monarch",
+      "type": "story",
+      "url": "https://allthatsinteresting.com/piel-island"
+    },
+    {
       "by": "soheilpro",
       "descendants": 1,
       "id": 30328625,
@@ -73,7 +96,7 @@
       "kids": [
         30328454
       ],
-      "score": 3,
+      "score": 4,
       "time": 1644813792,
       "title": "Meta's threat to leave Europe hints at waning big tech influence",
       "type": "story",
@@ -91,34 +114,6 @@
       "title": "Spot the irony: India's Reserve Bank says outsourcing and offshoring are risky",
       "type": "story",
       "url": "https://www.theregister.com/2022/02/14/reserve_bank_of_india_outsourcing_risk_warning/"
-    },
-    {
-      "by": "apatheticonion",
-      "descendants": 1,
-      "id": 30328423,
-      "kids": [
-        30328486
-      ],
-      "score": 1,
-      "text": "I like C but the lack of structural interface types and type parameters (generics) makes me feel less satisfied about the constructs I design in C.<p>I really like how Go (1.18) feels like C but with generics and a great structural typing system.<p>However, Go tends to ship large binaries and in exchange offers some nice runtime features like concurrency and high level types.<p>While these are great, I would love to know if there is a language similar to Go but without the runtime and garbage collection.<p>Here&#x27;s some pseudo code demonstrating the sort of thing I am looking for<p><pre><code>  interface IFoo {\n    bar[T](value: T) T\n  }\n\n  func foobar(f IFoo) {\n    f.bar(&quot;Hello!&quot;)\n  }\n\n  class Foo {\n    bar[T](value T) T {\n      return value\n    }\n  }\n\n  func main() {\n    var f = new Foo()\n    foobar(f)\n  }</code></pre>",
-      "time": 1644813594,
-      "title": "Ask HN: Is there a manually memory managed non concurrent Go (Golang)?",
-      "type": "story"
-    },
-    {
-      "by": "williamstein",
-      "descendants": 2,
-      "id": 30328403,
-      "kids": [
-        30328622,
-        30328438,
-        30328408
-      ],
-      "score": 2,
-      "time": 1644813424,
-      "title": "Why won’t anybody teach her math?",
-      "type": "story",
-      "url": "https://quomodocumque.wordpress.com/2022/02/12/why-wont-anyone-teach-her-math/"
     }
   ]
 }
