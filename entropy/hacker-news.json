@@ -1,10 +1,43 @@
 {
   "stories": [
     {
-      "by": "cillian64",
+      "by": "nemo1618",
       "descendants": 0,
-      "id": 30348980,
+      "id": 30349073,
       "score": 1,
+      "time": 1644944039,
+      "title": "Lineiform, a meta-JIT library for Rust interpreters",
+      "type": "story",
+      "url": "https://redvice.org/2022/lineiform-rust-meta-jit/"
+    },
+    {
+      "by": "cjgustafson22",
+      "descendants": 0,
+      "id": 30349041,
+      "score": 1,
+      "time": 1644943944,
+      "title": "Steal My Idea?",
+      "type": "story",
+      "url": "https://www.stealmyidea.io/"
+    },
+    {
+      "by": "ElectronShak",
+      "descendants": 0,
+      "id": 30349025,
+      "score": 1,
+      "time": 1644943896,
+      "title": "Real Tone on Google Pixel",
+      "type": "story",
+      "url": "https://store.google.com/intl/en/discover/realtone/"
+    },
+    {
+      "by": "cillian64",
+      "descendants": 1,
+      "id": 30348980,
+      "kids": [
+        30349063
+      ],
+      "score": 2,
       "text": "I just received the following email from GitHub:<p><pre><code>  Hi &lt;username&gt;,\n  \n  We&#x27;re writing to let you know that between January 2021 and September 2021, the following information about your repository was inadvertently made publicly viewable after being sent to a third-party vendor as part of metadata analysis of GitHub Pages sites; the name of the private repository and the GitHub username with ownership of the repository. No repository content or other private data was exposed as part of this incident.\n  \n  User privacy and security are essential for maintaining trust, and we want to remain as transparent as possible about events like these. GitHub itself did not experience a compromise or data breach as a result of this event, nor did unauthorized users gain access to repositories. Read on for more information.\n  \n  * What happened? *\n  \n  GitHub learned from an internal discovery by a GitHub employee, that GitHub Pages sites published from private repositories on GitHub were being sent to urlscan.io for metadata analysis as part of an automated process. This internal process was implemented before the private GitHub Pages feature was released and provides metadata that is used during human review of potentially malicious or abusive GitHub Pages sites.\n\n  To view the name of the private repository on urlscan.io, you would need to have been looking at the front page of urlscan.io within approximately 30 seconds of the analysis being performed or have specifically searched using a query that would return the analysis in the search results. \n  \n  * What information was involved? *\n  \n  The following URLs, but no content, were made publicly viewable:\n  \n  GitHub Pages URLs\n  &lt;redacted - URL to private github page&gt;\n  \n  * What GitHub is doing *\n  \n  GitHub immediately began work on fixing the automated process that sends GitHub Pages sites for metadata analysis so that only public GitHub Pages sites are sent for analysis. Future analysis of public GitHub Pages sites will be unlisted from public view as an additional protection.\n  \n  We also worked with the third-party vendor, urlscan.io, to delete all existing public records of private GitHub Pages sites generated from this situation.\n  \n  * What you can do *\n  \n  No action is required on your end; we have updated our systems and worked with our third-party vendor to ensure this data is no longer publicly viewable. \n  \n  Please feel free to reach out to us with any additional questions or concerns through the following contact form: \n  \n  &lt;redacted&gt;\n  \n  Thanks, \n  GitHub Support</code></pre>",
       "time": 1644943713,
       "title": "GitHub leaked names of private repos with pages",
@@ -37,7 +70,7 @@
       "by": "markgavalda",
       "descendants": 0,
       "id": 30348931,
-      "score": 1,
+      "score": 2,
       "time": 1644943520,
       "title": "PHP 8.1 (and Older) Benchmarks Across 14 Popular PHP Software",
       "type": "story",
@@ -78,36 +111,6 @@
       "title": "iPhone maker Foxconn to make chips in India with Vedanta",
       "type": "story",
       "url": "https://www.reuters.com/technology/iphone-maker-foxconn-make-chips-india-with-vedanta-2022-02-14/"
-    },
-    {
-      "by": "lame-robot-hoax",
-      "descendants": 0,
-      "id": 30348882,
-      "score": 1,
-      "time": 1644943325,
-      "title": "Ukraine reports cyber attack on defence ministry website, banks – TASS",
-      "type": "story",
-      "url": "https://www.reuters.com/world/europe/ukraine-reports-cyber-attack-defence-ministry-website-banks-tass-2022-02-15/"
-    },
-    {
-      "by": "CapitalistCartr",
-      "descendants": 0,
-      "id": 30348862,
-      "score": 2,
-      "time": 1644943259,
-      "title": "The Biased Bug",
-      "type": "story",
-      "url": "https://thedailywtf.com/articles/the-biased-bug"
-    },
-    {
-      "by": "mooreds",
-      "descendants": 0,
-      "id": 30348851,
-      "score": 1,
-      "time": 1644943230,
-      "title": "Keeping Your APIs Secure for Multiple User Types (2017)",
-      "type": "story",
-      "url": "https://medium.com/@robert.broeckelmann/keeping-your-apis-secure-for-multiple-user-types-d5c627793c4c"
     }
   ]
 }
