@@ -1,6 +1,16 @@
 {
   "stories": [
     {
+      "by": "moistly",
+      "descendants": 0,
+      "id": 30343376,
+      "score": 3,
+      "time": 1644905712,
+      "title": "The billionaire who selflessly and quietly gave it all away",
+      "type": "story",
+      "url": "https://www.atlanticphilanthropies.org/news/billionaire-who-selflessly-and-quietly-gave-it-all-away"
+    },
+    {
       "by": "benhoyt",
       "descendants": 0,
       "id": 30343373,
@@ -24,7 +34,7 @@
       "by": "meta-level",
       "descendants": 0,
       "id": 30343341,
-      "score": 1,
+      "score": 2,
       "text": "Because I love bringing small devices to life and I also love Python I was very excited when MicroPython started to be conveniently available for platforms like the ESP32. But it&#x27;s still quite cumbersome and error prone to get your code on a device and make it run. And then you have to worry about wearing out the\nflash memory by continuously copying over new versions of your code.\nThis is why I came up with &quot;esp32_mpy_robooter&quot; which I now use among a couple of private projects, e.g. for the Watchy ([1]) and the M5StickC ([2]).<p>Rather than copying over modified Python files to the device over and over again it (the toolset) creates a RAM disk on the device and _fetches_ the source files\nvia WiFi, which means you don&#x27;t have to reboot the device and you can even stay in the REPL!\nNon-modified files are taken care of using file checksums and the server on your development machine (providing the actual source files) even pre-compiles them to byte code which makes them smaller and load faster.<p>The project is far from ready and still needs a developer heart to like it but since I currently use it for me alone it can only grow to a lovable gem by making me feel someone else is valuing the effort - this is why I&#x27;m here :)<p>[1]: <a href=\"https:&#x2F;&#x2F;watchy.sqfmi.com&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;watchy.sqfmi.com&#x2F;</a><p>[2]: <a href=\"https:&#x2F;&#x2F;docs.m5stack.com&#x2F;en&#x2F;core&#x2F;m5stickc_plus\" rel=\"nofollow\">https:&#x2F;&#x2F;docs.m5stack.com&#x2F;en&#x2F;core&#x2F;m5stickc_plus</a><p>[3]: <a href=\"https:&#x2F;&#x2F;projects.om-office.de&#x2F;frans&#x2F;watchy.py\" rel=\"nofollow\">https:&#x2F;&#x2F;projects.om-office.de&#x2F;frans&#x2F;watchy.py</a><p>[4]: <a href=\"https:&#x2F;&#x2F;projects.om-office.de&#x2F;frans&#x2F;m5stickc_multitool\" rel=\"nofollow\">https:&#x2F;&#x2F;projects.om-office.de&#x2F;frans&#x2F;m5stickc_multitool</a><p>[5]: <a href=\"https:&#x2F;&#x2F;projects.om-office.de&#x2F;frans&#x2F;m5paper_multitool\" rel=\"nofollow\">https:&#x2F;&#x2F;projects.om-office.de&#x2F;frans&#x2F;m5paper_multitool</a><p>[6]: <a href=\"https:&#x2F;&#x2F;projects.om-office.de&#x2F;frans&#x2F;esp32_mpy_audiokit\" rel=\"nofollow\">https:&#x2F;&#x2F;projects.om-office.de&#x2F;frans&#x2F;esp32_mpy_audiokit</a>",
       "time": 1644905314,
       "title": "Show HN: Tools and code to make MicroPython development faster and more fun",
@@ -90,16 +100,6 @@
       "title": "Fed’s Bullard says the central bank’s ‘credibility is on the line’",
       "type": "story",
       "url": "https://www.cnbc.com/2022/02/14/bullard-say-the-fed-needs-to-front-load-tightening-because-inflation-is-possibly-accelerating.html"
-    },
-    {
-      "by": "sysoleg",
-      "descendants": 0,
-      "id": 30343276,
-      "score": 1,
-      "time": 1644904364,
-      "title": "Progressive web apps with Go and WebAssembly",
-      "type": "story",
-      "url": "https://github.com/maxence-charriere/go-app"
     }
   ]
 }
