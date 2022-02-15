@@ -1,10 +1,20 @@
 {
   "stories": [
     {
+      "by": "davesailer",
+      "descendants": 0,
+      "id": 30341933,
+      "score": 1,
+      "time": 1644892394,
+      "title": "Internet Death Cult of Fun (1998)",
+      "type": "story",
+      "url": "https://www.deathcult.fun/"
+    },
+    {
       "by": "ynnus",
       "descendants": 0,
       "id": 30341902,
-      "score": 1,
+      "score": 2,
       "time": 1644892159,
       "title": "Facebook Has a Superuser-Supremacy Problem",
       "type": "story",
@@ -12,8 +22,11 @@
     },
     {
       "by": "yamrzou",
-      "descendants": 0,
+      "descendants": 1,
       "id": 30341897,
+      "kids": [
+        30341914
+      ],
       "score": 1,
       "time": 1644892125,
       "title": "Trudeau Declares National Emergency, Allowing Suspension of Civil Liberties",
@@ -92,16 +105,6 @@
       "title": "Magic words always solve Wordle: chump, drift, globe, snaky, later",
       "type": "story",
       "url": "https://github.com/alexandres/5magicwords"
-    },
-    {
-      "by": "LeSUTHU",
-      "descendants": 0,
-      "id": 30341823,
-      "score": 1,
-      "text": "Hello, I am interested in compilers and have been trying to build my own compiler.<p>To make things little easier for me, I have defined my grammar and tokens to resemble Algol, which made tokenizing easier and I have a near complete tokenizer.<p>So I was able to get an input stream and transform it into an array of tokens, but I was having a hard time parsing, turning the array into a tree (AST).<p>After I wish to try try different parsing techniques to learn more about parsing and hopefully attempt at writing a semantic analyzer.<p>I was hoping to get some recommendation on where to start and good resources that I can use to achieve my goal.<p>Thanks",
-      "time": 1644891607,
-      "title": "Ask HN: Good Resources to Learn and Implement a Parser (Compiler)",
-      "type": "story"
     }
   ]
 }
