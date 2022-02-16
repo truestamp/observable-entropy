@@ -1,6 +1,66 @@
 {
   "stories": [
     {
+      "by": "pseudolus",
+      "descendants": 0,
+      "id": 30358129,
+      "score": 1,
+      "time": 1645005844,
+      "title": "India's Reserve Bank deputy governor calls for crypto ban",
+      "type": "story",
+      "url": "https://www.theregister.com/2022/02/16/india_cryptocurrency_ban_call/"
+    },
+    {
+      "by": "parquet_person",
+      "descendants": 0,
+      "id": 30358121,
+      "score": 1,
+      "time": 1645005765,
+      "title": "Is this the second dotcom crash?",
+      "type": "story",
+      "url": "https://www.newstatesman.com/the-business-interview/2022/02/the-new-dotcom-crash-collapsing-ad-markets-threaten-disaster-for-big-tech"
+    },
+    {
+      "by": "tokai",
+      "descendants": 0,
+      "id": 30358120,
+      "score": 1,
+      "time": 1645005761,
+      "title": "Ice velocity and thickness of the world’s glaciers",
+      "type": "story",
+      "url": "https://www.nature.com/articles/s41561-021-00885-z"
+    },
+    {
+      "by": "vincent_s",
+      "descendants": 0,
+      "id": 30358118,
+      "score": 1,
+      "time": 1645005759,
+      "title": "I Don't Always Test My Code, but When I Do It's in Production (2018)",
+      "type": "story",
+      "url": "https://launchdarkly.com/blog/i-dont-always-test-my-code-but-when-i-do-its-in-production/"
+    },
+    {
+      "by": "pseudolus",
+      "descendants": 0,
+      "id": 30358105,
+      "score": 1,
+      "time": 1645005675,
+      "title": "'2001' and 'Blade Runner' visual effects wizard Douglas Trumbull has died at 79",
+      "type": "story",
+      "url": "https://www.npr.org/2022/02/15/1080833515/douglas-trumbull-visual-effects-wizard-died-star-trek-2001-blade-runner"
+    },
+    {
+      "by": "todsacerdoti",
+      "descendants": 0,
+      "id": 30358104,
+      "score": 1,
+      "time": 1645005674,
+      "title": "Compilers as Assistants (2015)",
+      "type": "story",
+      "url": "https://elm-lang.org/news/compilers-as-assistants"
+    },
+    {
       "by": "hubraumhugo",
       "descendants": 0,
       "id": 30358074,
@@ -42,74 +102,6 @@
       "title": "How to Want Less",
       "type": "story",
       "url": "https://www.theatlantic.com/magazine/archive/2022/03/why-we-are-never-satisfied-happiness/621304/"
-    },
-    {
-      "by": "terrycody",
-      "descendants": 0,
-      "id": 30358024,
-      "score": 1,
-      "time": 1645004843,
-      "title": "A Fight over the Right to Repair Cars Turns Ugly",
-      "type": "story",
-      "url": "https://www.wired.com/story/fight-right-repair-cars-turns-ugly/"
-    },
-    {
-      "by": "daly",
-      "descendants": 1,
-      "id": 30357920,
-      "kids": [
-        30358075,
-        30358068
-      ],
-      "score": 2,
-      "text": "https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=23248137 (not my post)<p>More of my opinion on &quot;free software support&quot; by large corporations... (don&#x27;t be fooled).<p>I consulted for a child education company. They used games for teaching, games written in Adobe Flash. But their goal was to move to the iPad, one per child. To understand their technology I wrote a new game in Flash. Unfortunately, Apple&#x27;s newest iPad would not support Flash. Then Adobe killed Flash. So I re-wrote the game in Objective-C. But Apple moved to Swift so I re-wrote the game in Swift. I tried to distribute it for the company but it required an Apple developer license and a &quot;lock in&quot; to the Apple Store, which conflicted with their company goals. The company, and their hundred child educational games, died.<p>The idea of &quot;The Store&quot; and vendor lock-in has become the new battleground. I saw, but have not followed so I may be wrong, the Apple-Facebook fight about &quot;The Store&quot;. Apparently Apple wants 30% of revenue, including in-game purchase revenue, just for hosting games. I don&#x27;t game, I don&#x27;t use facebook, and I now avoid the Apple ecosystem as much as possible so this is a &quot;don&#x27;t care&quot; (so far). But it does show that &quot;The Store&quot; is the latest battleground technique.<p>Part 1 (https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=30269511) was the Microsoft motion to lock-in github developers, now requiring a Microsoft acccount. So I stopped using github.<p>&quot;The Store&quot; wars have taken another major step, this time on Microsoft&#x27;s part.<p>I develop on Linux. One of my machines has Windows 10. I use WSL2 and X11 for some portable development work. I want to make sure my free software can run everywhere. I got caught up in &quot;Embrace&quot;.<p>I bought a new Dell laptop last week. It runs Windows 10 S (W10S). I failed to do my homework on this purchase. New laptops are the latest victim in &quot;The Store&quot; wars. Apparently I needed a Microsoft account to even boot into W10S. I got caught up in &quot;Extend&quot;.<p>I tried to install an X11 Windows server. That&#x27;s when I found out that W10S only allows software from &quot;The Store&quot;. That negates the whole idea of developing free software and making sure it runs everywhere. So I tried to make this new machine more &quot;free software developer friendly&quot;.<p>You can turn off the &quot;S&quot; (Store?) lockdown, which I did.<p>The WSL2 setup was a great failing struggle (I won&#x27;t bore you with details) so I decided to dual-boot the machine. That way I could do both MS and Linux development in their native environments.<p>I burned a thumbdrive with Ubuntu 20, booted it, and tried to set up a dual-boot.<p>That failed because Ubuntu installer could not find any disk space.<p>Boot W10 and shrink the file system.<p>Boot Ubuntu. Still no disk available.<p>Boot into BIOS. Disk is RAID6. Change to ACHI.<p>Boot Ubuntu. Still no disk available.<p>Boot W10 fails.<p>Boot BIOS, change back to RAID6.<p>Boot W10. Hard disk is encrypted. Remove encryption.<p>... (skip more of a 2 day struggle) ...<p>Get angry that I can&#x27;t seem to use hardware <i>I BOUGHT</i>. (Part of the hidden cost of free software development nobody mentions because, ya know, it&#x27;s FREE!).<p>Boot BIOS. Change to ACHI.<p>Boot Ubuntu. Install Ubuntu on whole drive, removing W10.<p>Everyone hears how the big companies are &quot;all-in&quot; on free software support. But the dancing elephants of large corporations are stomping all over the grass and free software is being crushed (Extinguish) as a side-effect.",
-      "time": 1645003630,
-      "title": "(Part 2) Embrace, Extend, Extinguish and Free Software",
-      "type": "story"
-    },
-    {
-      "by": "segfaultbuserr",
-      "descendants": 0,
-      "id": 30357914,
-      "score": 2,
-      "time": 1645003570,
-      "title": "200mm Shortages May Persist for Years",
-      "type": "story",
-      "url": "https://semiengineering.com/200mm-shortages-may-persist-for-years/"
-    },
-    {
-      "by": "tibbar",
-      "descendants": 0,
-      "id": 30357909,
-      "score": 2,
-      "time": 1645003545,
-      "title": "6 Months of Working at a Hypergrowth Startup",
-      "type": "story",
-      "url": "https://jacobbrazeal.wordpress.com/2022/02/16/lessons-from-6-months-at-a-hypergrowth-startup-100-prs-40-interviews/"
-    },
-    {
-      "by": "laplab",
-      "descendants": 0,
-      "id": 30357875,
-      "score": 3,
-      "time": 1645003196,
-      "title": "Revolution of WebAssembly",
-      "type": "story",
-      "url": "https://www.youtube.com/watch?v=DUCa0P_rQ9w"
-    },
-    {
-      "by": "fpopa",
-      "descendants": 2,
-      "id": 30357839,
-      "kids": [
-        30358045,
-        30358022
-      ],
-      "score": 8,
-      "time": 1645002839,
-      "title": "Reddit Photopea founder – I have millions of users, but no businesses use it",
-      "type": "story",
-      "url": "https://old.reddit.com/r/Entrepreneur/comments/st8p5c/i_have_millions_of_users_but_no_businesses_use_it/"
     }
   ]
 }
