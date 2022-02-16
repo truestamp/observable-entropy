@@ -1,105 +1,104 @@
 {
   "stories": [
     {
-      "by": "seandoh",
+      "by": "gmays",
       "descendants": 0,
-      "id": 30361555,
-      "score": 3,
-      "text": "Hi HN, We’re Sean, Curtis and Tim from Realize (<a href=\"https:&#x2F;&#x2F;www.realizefi.com&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;www.realizefi.com&#x2F;</a>). Realize is an API that lets you integrate your website or mobile app with popular retail brokerages. Your users can view near-real-time data and make trades from their existing brokerage accounts.<p>Plaid and Yodlee are the main two options for devs building investing apps. However, all investment data updates on Plaid&#x2F;Yodlee are capped at daily frequency, with pulls happening overnight, after market hours. Plaid&#x2F;Yodlee support a lot of institutions, but the way they collect data causes unreliability when interacting with some of them. There’s also no way to place trades.<p>We encountered these problems while building a social investing app. We wanted our users to be able to subscribe to other users’ portfolios and be alerted when they placed new trades. This isn’t really possible when order pulls happen only once a day. We also wanted users to be able to “copy trade”, meaning they could replicate other users’ trades in their own brokerage accounts — another feature that wasn’t possible with existing APIs.<p>We then considered using an embedded brokerage solution like Alpaca, but our users would have had to open a new brokerage account. We talked to some friends who said they wouldn’t want to do that, especially with a brokerage they didn’t know of or trust. As a result of this, we started digging into the APIs of some of the major brokerages such as TD Ameritrade, and realized that although it would be super annoying, it is actually possible to integrate with these brokerages and aggregate them in a way that would allow us to build a fully-functioning investing app on top.<p>At some point we discovered that other companies were experiencing the same obstacles as us, so we decided instead to build a startup to solve this problem for app and website developers.<p>Plaid and Yodlee screen scrape in order to provide investing data. (Fun fact: some legacy brokerages have implemented significant countermeasures to screen-scrapers, including blocking suspect user agents and IP addresses, requiring non-headless browsers, presenting subtly different login pages to unfamiliar user agents, bricking links with 2FA, etc.)<p>We take an entirely different approach by building direct integrations, which increases authentication success rates and allows us to produce more accurate, more frequent data. Our API automatically pulls a user&#x27;s portfolio positions, order history, transactions, and historical performance at per-minute frequency, and we allow users to send orders to their brokerages.<p>The quality and accessibility of both public and private brokerage APIs varies significantly. Public APIs for the largest retail brokerages are sparsely and inaccurately documented (the documentation sometimes contradicts the implementation) and many can only be accessed after completing arduous compliance processes with many-month delays. Private APIs need to be reverse engineered and are liable to change at any moment, so we had to develop systems to catch breaking changes and are always on alert to address them.<p>We have companies building a wide variety of products using our API, such as an app that looks at what is in your portfolio and shows you how those stocks are being discussed on social media, or a copy-trading app which lets you clone other people’s portfolios and execute orders for those positions in your own brokerage account.<p>We make money as users link accounts to apps that use our API. We’re still working out pricing, but currently charge a base fee of $300 per month for the first 300 linked brokerage accounts, and after that a monthly fee that ranges from $1 to $0.50 per account as the number of linked accounts grows.<p>You can begin testing our API by heading to <a href=\"https:&#x2F;&#x2F;www.realizefi.com&#x2F;register\" rel=\"nofollow\">https:&#x2F;&#x2F;www.realizefi.com&#x2F;register</a> and creating a developer account, which will give you access to an app to which you can link institutions.<p>We’d love to hear your ideas and feedback! We’ll be online today to answer any questions - we’re always excited to talk about investing, fintech, APIs, etc.",
-      "time": 1645026669,
-      "title": "Launch HN: Realize (YC W22) – Integrate brokerage accounts into your site or app",
-      "type": "story",
-      "url": "https://www.realizefi.com/"
-    },
-    {
-      "by": "impostervt",
-      "descendants": 0,
-      "id": 30361552,
+      "id": 30361733,
       "score": 1,
-      "time": 1645026661,
-      "title": "AI makes animists of us all",
+      "time": 1645027466,
+      "title": "Scientists have possibly cured HIV in a woman for the first time",
       "type": "story",
-      "url": "https://erikhoel.substack.com/p/ai-makes-animists-of-us-all"
+      "url": "https://www.nbcnews.com/nbc-out/out-health-and-wellness/scientists-possibly-cured-hiv-woman-first-time-rcna16196"
     },
     {
-      "by": "geox",
+      "by": "feross",
       "descendants": 0,
-      "id": 30361541,
+      "id": 30361699,
       "score": 1,
-      "time": 1645026626,
-      "title": "The US will finally allow adaptive beam headlights on new cars",
+      "time": 1645027283,
+      "title": "MFA fatigue attacks: Users tricked into allowing device access due to overload",
       "type": "story",
-      "url": "https://arstechnica.com/cars/2022/02/the-us-will-finally-allow-adaptive-beam-headlights-on-new-cars/"
+      "url": "https://portswigger.net/daily-swig/mfa-fatigue-attacks-users-tricked-into-allowing-device-access-due-to-overload-of-push-notifications"
     },
     {
-      "by": "jseliger",
+      "by": "strict9",
       "descendants": 0,
-      "id": 30361537,
+      "id": 30361681,
       "score": 1,
-      "time": 1645026616,
-      "title": "The Institute for Progress and speeding up U.S. growth",
+      "time": 1645027191,
+      "title": ".su",
       "type": "story",
-      "url": "https://noahpinion.substack.com/p/interview-alec-stapp-and-caleb-watney"
+      "url": "https://en.wikipedia.org/wiki/.su"
     },
     {
-      "by": "kkordi",
+      "by": "edent",
       "descendants": 0,
-      "id": 30361530,
-      "score": 3,
-      "time": 1645026596,
-      "title": "AWS Lambda Tutorial for Go Developers – API Gateway (Part 2)",
-      "type": "story",
-      "url": "https://blog.mantil.com/101-aws-lambda-tutorial-for-go-developers-api-gateway-part-2-7008d2b64a4e?gi=454b64a12cd7"
-    },
-    {
-      "by": "tosh",
-      "descendants": 0,
-      "id": 30361529,
+      "id": 30361678,
       "score": 1,
-      "time": 1645026592,
-      "title": "Refactoring code to make it compatible with machine learning",
+      "time": 1645027179,
+      "title": "What's the lowest positive integer for which there are no Google search results?",
       "type": "story",
-      "url": "https://twitter.com/lisperati/status/1492165176451387401"
+      "url": "https://shkspr.mobi/blog/2022/02/whats-the-lowest-positive-integer-for-which-there-are-no-google-search-results/"
     },
     {
-      "by": "yukukotani",
+      "by": "mzs",
       "descendants": 0,
-      "id": 30361515,
-      "score": 1,
-      "time": 1645026548,
-      "title": "Show HN: ESLint rules for ChakraUI, such as reorder props to be semantical",
+      "id": 30361677,
+      "score": 2,
+      "time": 1645027170,
+      "title": "Worldle",
       "type": "story",
-      "url": "https://github.com/Monchi/eslint-plugin-chakra-ui"
+      "url": "https://worldle.teuteuf.fr/"
     },
     {
-      "by": "theafh",
+      "by": "onion2k",
       "descendants": 0,
-      "id": 30361511,
+      "id": 30361676,
       "score": 1,
-      "time": 1645026528,
-      "title": "A Billion Years Before Sex, Ancient Cells Were Equipped for It",
+      "time": 1645027168,
+      "title": "Sociocracy. The Operating System of the New Economy [video]",
       "type": "story",
-      "url": "https://www.quantamagazine.org/ancient-cells-had-sex-fusion-proteins-long-before-sex-evolved-20220216/"
+      "url": "https://www.youtube.com/watch?v=l3zFWpntExg"
     },
     {
-      "by": "mildbyte",
+      "by": "ramimac",
       "descendants": 0,
-      "id": 30361501,
+      "id": 30361670,
       "score": 1,
-      "time": 1645026473,
-      "title": "Aggregation Pushdown in Postgres Elasticsearch FDW",
+      "time": 1645027145,
+      "title": "Lessons in Self-Hosting Your Own Personal Cloud",
       "type": "story",
-      "url": "https://www.splitgraph.com/blog/postgresql-fdw-aggregation-pushdown-multicorn-part-3"
+      "url": "https://tedium.co/2022/02/16/self-hosting-dropbox-alternatives/"
     },
     {
-      "by": "gerash",
+      "by": "ramimac",
       "descendants": 0,
-      "id": 30361488,
+      "id": 30361655,
       "score": 1,
-      "time": 1645026432,
-      "title": "Developer Platform Update",
+      "time": 1645027080,
+      "title": "My favorite things about working at companies with a culture of writing",
       "type": "story",
-      "url": "https://www.youtube.com/watch?v=kHW58D-_O64"
+      "url": "https://founder-fodder.ghost.io/writing-cultures-win/"
+    },
+    {
+      "by": "carlycue",
+      "descendants": 0,
+      "id": 30361640,
+      "score": 1,
+      "time": 1645027019,
+      "title": "Apple Music’s Spatial Audio Is Paying Off with More Listeners, Major Releases",
+      "type": "story",
+      "url": "https://9to5mac.com/2022/02/15/how-apple-music-has-found-a-different-sound-than-spotify/"
+    },
+    {
+      "by": "severine",
+      "descendants": 0,
+      "id": 30361638,
+      "score": 1,
+      "time": 1645027009,
+      "title": "Toxic Emissions",
+      "type": "story",
+      "url": "https://everythingstudies.com/2022/01/27/toxic-emissions/"
     }
   ]
 }
