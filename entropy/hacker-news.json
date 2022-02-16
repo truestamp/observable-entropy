@@ -1,10 +1,51 @@
 {
   "stories": [
     {
+      "by": "seandoh",
+      "descendants": 0,
+      "id": 30361555,
+      "score": 3,
+      "text": "Hi HN, We’re Sean, Curtis and Tim from Realize (<a href=\"https:&#x2F;&#x2F;www.realizefi.com&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;www.realizefi.com&#x2F;</a>). Realize is an API that lets you integrate your website or mobile app with popular retail brokerages. Your users can view near-real-time data and make trades from their existing brokerage accounts.<p>Plaid and Yodlee are the main two options for devs building investing apps. However, all investment data updates on Plaid&#x2F;Yodlee are capped at daily frequency, with pulls happening overnight, after market hours. Plaid&#x2F;Yodlee support a lot of institutions, but the way they collect data causes unreliability when interacting with some of them. There’s also no way to place trades.<p>We encountered these problems while building a social investing app. We wanted our users to be able to subscribe to other users’ portfolios and be alerted when they placed new trades. This isn’t really possible when order pulls happen only once a day. We also wanted users to be able to “copy trade”, meaning they could replicate other users’ trades in their own brokerage accounts — another feature that wasn’t possible with existing APIs.<p>We then considered using an embedded brokerage solution like Alpaca, but our users would have had to open a new brokerage account. We talked to some friends who said they wouldn’t want to do that, especially with a brokerage they didn’t know of or trust. As a result of this, we started digging into the APIs of some of the major brokerages such as TD Ameritrade, and realized that although it would be super annoying, it is actually possible to integrate with these brokerages and aggregate them in a way that would allow us to build a fully-functioning investing app on top.<p>At some point we discovered that other companies were experiencing the same obstacles as us, so we decided instead to build a startup to solve this problem for app and website developers.<p>Plaid and Yodlee screen scrape in order to provide investing data. (Fun fact: some legacy brokerages have implemented significant countermeasures to screen-scrapers, including blocking suspect user agents and IP addresses, requiring non-headless browsers, presenting subtly different login pages to unfamiliar user agents, bricking links with 2FA, etc.)<p>We take an entirely different approach by building direct integrations, which increases authentication success rates and allows us to produce more accurate, more frequent data. Our API automatically pulls a user&#x27;s portfolio positions, order history, transactions, and historical performance at per-minute frequency, and we allow users to send orders to their brokerages.<p>The quality and accessibility of both public and private brokerage APIs varies significantly. Public APIs for the largest retail brokerages are sparsely and inaccurately documented (the documentation sometimes contradicts the implementation) and many can only be accessed after completing arduous compliance processes with many-month delays. Private APIs need to be reverse engineered and are liable to change at any moment, so we had to develop systems to catch breaking changes and are always on alert to address them.<p>We have companies building a wide variety of products using our API, such as an app that looks at what is in your portfolio and shows you how those stocks are being discussed on social media, or a copy-trading app which lets you clone other people’s portfolios and execute orders for those positions in your own brokerage account.<p>We make money as users link accounts to apps that use our API. We’re still working out pricing, but currently charge a base fee of $300 per month for the first 300 linked brokerage accounts, and after that a monthly fee that ranges from $1 to $0.50 per account as the number of linked accounts grows.<p>You can begin testing our API by heading to <a href=\"https:&#x2F;&#x2F;www.realizefi.com&#x2F;register\" rel=\"nofollow\">https:&#x2F;&#x2F;www.realizefi.com&#x2F;register</a> and creating a developer account, which will give you access to an app to which you can link institutions.<p>We’d love to hear your ideas and feedback! We’ll be online today to answer any questions - we’re always excited to talk about investing, fintech, APIs, etc.",
+      "time": 1645026669,
+      "title": "Launch HN: Realize (YC W22) – Integrate brokerage accounts into your site or app",
+      "type": "story",
+      "url": "https://www.realizefi.com/"
+    },
+    {
+      "by": "impostervt",
+      "descendants": 0,
+      "id": 30361552,
+      "score": 1,
+      "time": 1645026661,
+      "title": "AI makes animists of us all",
+      "type": "story",
+      "url": "https://erikhoel.substack.com/p/ai-makes-animists-of-us-all"
+    },
+    {
+      "by": "geox",
+      "descendants": 0,
+      "id": 30361541,
+      "score": 1,
+      "time": 1645026626,
+      "title": "The US will finally allow adaptive beam headlights on new cars",
+      "type": "story",
+      "url": "https://arstechnica.com/cars/2022/02/the-us-will-finally-allow-adaptive-beam-headlights-on-new-cars/"
+    },
+    {
+      "by": "jseliger",
+      "descendants": 0,
+      "id": 30361537,
+      "score": 1,
+      "time": 1645026616,
+      "title": "The Institute for Progress and speeding up U.S. growth",
+      "type": "story",
+      "url": "https://noahpinion.substack.com/p/interview-alec-stapp-and-caleb-watney"
+    },
+    {
       "by": "kkordi",
       "descendants": 0,
       "id": 30361530,
-      "score": 1,
+      "score": 3,
       "time": 1645026596,
       "title": "AWS Lambda Tutorial for Go Developers – API Gateway (Part 2)",
       "type": "story",
@@ -59,46 +100,6 @@
       "title": "Developer Platform Update",
       "type": "story",
       "url": "https://www.youtube.com/watch?v=kHW58D-_O64"
-    },
-    {
-      "by": "Brajeshwar",
-      "descendants": 0,
-      "id": 30361475,
-      "score": 1,
-      "time": 1645026398,
-      "title": "Raspberry Pi does what Microsoft can't [video]",
-      "type": "story",
-      "url": "https://www.youtube.com/watch?v=qlBIfpBwqKY"
-    },
-    {
-      "by": "jcahill84",
-      "descendants": 0,
-      "id": 30361456,
-      "score": 1,
-      "time": 1645026324,
-      "title": "Show HN: If()then{save} – A financial planning tool",
-      "type": "story",
-      "url": "https://ifthensave.com/"
-    },
-    {
-      "by": "blainehansen",
-      "descendants": 0,
-      "id": 30361455,
-      "score": 1,
-      "time": 1645026320,
-      "title": "Software can be perfect: making provably correct code tractable",
-      "type": "story",
-      "url": "https://www.youtube.com/watch?v=Lf7ML_ErWvQ"
-    },
-    {
-      "by": "tosh",
-      "descendants": 0,
-      "id": 30361435,
-      "score": 1,
-      "time": 1645026282,
-      "title": "Execution in the Kingdom of Nouns (2006)",
-      "type": "story",
-      "url": "http://steve-yegge.blogspot.com/2006/03/execution-in-kingdom-of-nouns.html"
     }
   ]
 }
