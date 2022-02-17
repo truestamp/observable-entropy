@@ -1,6 +1,16 @@
 {
   "stories": [
     {
+      "by": "richardfey",
+      "descendants": 0,
+      "id": 30370524,
+      "score": 1,
+      "text": "I am working on a small new greenfield project and would like to use a service like Google Stackdriver or similar. Perhaps I should be looking for Loki-based SaaS?\nNot much money on the table at the moment but there is explosive potential.<p>Thanks!",
+      "time": 1645084003,
+      "title": "Ask HN: What do you use for logging (as a service)?",
+      "type": "story"
+    },
+    {
       "by": "cialowicz",
       "descendants": 0,
       "id": 30370502,
@@ -89,16 +99,6 @@
       "title": "Questionable Advice: The Trap of the Premature Senior",
       "type": "story",
       "url": "https://charity.wtf/2020/11/01/questionable-advice-the-trap-of-the-premature-senior/"
-    },
-    {
-      "by": "lechuhuuha",
-      "descendants": 0,
-      "id": 30370412,
-      "score": 3,
-      "text": "Hi all.\nMy website is running a verify email to query smtp server the perform these command<p>Note : the mail from {myemail}@mydomain is not real and my server dont have spf and dkim yet<p>HELO mydomain<p>MAIL FROM: &lt;mymail@mydomain&gt;<p>RCPT TO: &lt;examplemail@aol.com&gt;<p>QUIT<p>After running these command i get black list on eXploits Blocklist (XBL) &amp; CSS Blocklist (CSS).\nI check issue from spamhaus and this is the detail infomation :<p>(IP, UTC timestamp, HELO value)<p>{hide my ip :O} outlook.com<p>Notable things about the HELOs:<p>They are often dynamic-looking rDNS, and claim to be from geographically very different networks\nThey can include impossible HELOs like &quot;gmail.com&quot;, &quot;outlook.com&quot;, &quot;comcast.net&quot; - Gmail, Outlook and Comcast do not use these. These are all fake.\nThe cause of this problem is frequently found to be coming from an phone or laptop with &quot;free&quot; VPN or channel unlocker, &quot;free&quot; streaming apps.\nThis can be caused by a spambot infection or a server misconfiguration.<p>First check that the HELO settings are correct. This can be done by sending an email from {hide my ip :O} to &quot;helocheck@abuseat.org&quot;. A bounce that contains the required information will be returned immediately. It will look like an error. It is not. Please examine the information in the body of the email. NOTE: &quot;helocheck@abuseat.org&quot; does not currently work with IPv6.<p>If the HELO settings are correct, then there is a spambot or some other kind of malware!<p>What step i need to take in order to not get blacklist like this in the future. Thanks in advanced!",
-      "time": 1645082585,
-      "title": "Ask HN: Getting blacklist when trying to check if email can deliver",
-      "type": "story"
     }
   ]
 }
