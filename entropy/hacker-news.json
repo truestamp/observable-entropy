@@ -1,6 +1,39 @@
 {
   "stories": [
     {
+      "by": "babelfish",
+      "descendants": 0,
+      "id": 30370422,
+      "score": 1,
+      "time": 1645082667,
+      "title": "Questionable Advice: The Trap of the Premature Senior",
+      "type": "story",
+      "url": "https://charity.wtf/2020/11/01/questionable-advice-the-trap-of-the-premature-senior/"
+    },
+    {
+      "by": "lechuhuuha",
+      "descendants": 0,
+      "id": 30370412,
+      "score": 1,
+      "text": "Hi all.\nMy website is running a verify email to query smtp server the perform these command<p>Note : the mail from {myemail}@mydomain is not real and my server dont have spf and dkim yet<p>HELO mydomain<p>MAIL FROM: &lt;mymail@mydomain&gt;<p>RCPT TO: &lt;examplemail@aol.com&gt;<p>QUIT<p>After running these command i get black list on eXploits Blocklist (XBL) &amp; CSS Blocklist (CSS).\nI check issue from spamhaus and this is the detail infomation :<p>(IP, UTC timestamp, HELO value)<p>{hide my ip :O} outlook.com<p>Notable things about the HELOs:<p>They are often dynamic-looking rDNS, and claim to be from geographically very different networks\nThey can include impossible HELOs like &quot;gmail.com&quot;, &quot;outlook.com&quot;, &quot;comcast.net&quot; - Gmail, Outlook and Comcast do not use these. These are all fake.\nThe cause of this problem is frequently found to be coming from an phone or laptop with &quot;free&quot; VPN or channel unlocker, &quot;free&quot; streaming apps.\nThis can be caused by a spambot infection or a server misconfiguration.<p>First check that the HELO settings are correct. This can be done by sending an email from {hide my ip :O} to &quot;helocheck@abuseat.org&quot;. A bounce that contains the required information will be returned immediately. It will look like an error. It is not. Please examine the information in the body of the email. NOTE: &quot;helocheck@abuseat.org&quot; does not currently work with IPv6.<p>If the HELO settings are correct, then there is a spambot or some other kind of malware!<p>What step i need to take in order to not get blacklist like this in the future. Thanks in advanced!",
+      "time": 1645082585,
+      "title": "Getting blacklist when try to do check if email can deliver",
+      "type": "story"
+    },
+    {
+      "by": "sofixa",
+      "descendants": 1,
+      "id": 30370404,
+      "kids": [
+        30370421
+      ],
+      "score": 1,
+      "time": 1645082486,
+      "title": "Reporter infiltrates campaign of far-right presidential candidate Éric Zemmour",
+      "type": "story",
+      "url": "https://www.theguardian.com/world/2022/feb/17/french-reporter-infiltrates-campaign-of-far-right-presidential-candidate-eric-zemnour-france"
+    },
+    {
       "by": "onion2k",
       "descendants": 0,
       "id": 30370381,
@@ -73,36 +106,6 @@
       "title": "UK regulator 'broke international law', says Facebook",
       "type": "story",
       "url": "https://www.theregister.com/2022/02/15/cma_facebook_giphy/"
-    },
-    {
-      "by": "pabs3",
-      "descendants": 0,
-      "id": 30370222,
-      "score": 1,
-      "time": 1645080458,
-      "title": "Xapiand – Search and Storage Server",
-      "type": "story",
-      "url": "https://kronuz.io/Xapiand/"
-    },
-    {
-      "by": "helsinkiandrew",
-      "descendants": 0,
-      "id": 30370216,
-      "score": 1,
-      "time": 1645080422,
-      "title": "How to Measure the Slipperiness of Skis",
-      "type": "story",
-      "url": "https://www.economist.com/science-and-technology/2022/02/14/how-to-measure-the-slipperiness-of-skis"
-    },
-    {
-      "by": "thomasyoung99",
-      "descendants": 0,
-      "id": 30370192,
-      "score": 1,
-      "time": 1645080109,
-      "title": "DoNotPay - The First Robot Lawyer",
-      "type": "story",
-      "url": "https://donotpay.com/"
     }
   ]
 }
