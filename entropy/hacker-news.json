@@ -1,6 +1,36 @@
 {
   "stories": [
     {
+      "by": "prostoalex",
+      "descendants": 0,
+      "id": 30394594,
+      "score": 1,
+      "time": 1645247685,
+      "title": "Netflix Announces 4 New Dave Chappelle Comedy Specials",
+      "type": "story",
+      "url": "https://www.hollywoodreporter.com/tv/tv-news/netflix-dave-chappelle-comedy-specials-1235096399/"
+    },
+    {
+      "by": "signa11",
+      "descendants": 0,
+      "id": 30394591,
+      "score": 1,
+      "time": 1645247678,
+      "title": "A Bayesian Approach to Pricing",
+      "type": "story",
+      "url": "https://www.johndcook.com/blog/2022/02/12/bayesian-pricing/"
+    },
+    {
+      "by": "ghastmaster",
+      "descendants": 0,
+      "id": 30394577,
+      "score": 1,
+      "text": "If I have trouble visualizing an excel formula in one cell on the fly, I use a trick to make it easier.<p>Let&#x27;s say I have the following cells<p>| A  | B  | C  |<p>1|mary|    |Jane|<p>In D1 I want to concatenate the cell values if the cell contains text. First I make a formula to check if the cell contains text somewhere in a cell on the sheet. Let us go with A6.<p>A6: <i>=ISTEXT(A1)</i><p>result=TRUE ; Hooray!<p>Then, if A6 is true, I want to display the result:<p>A7: <i>=IF(A6=true,A1,&quot;&quot;)</i><p>result=mary ; Yippy!<p>I do the same thing for each cell:<p>A8: <i>=ISTEXT(B1)</i><p>result=FALSE ; Sweet!<p>A9: <i>=IF(A8=true,B1,&quot;&quot;)</i><p>result=blank ; Thank goodness!<p>A10: <i>=ISTEXT(C1)</i><p>result=FALSE ; Sweet!<p>A11: <i>=IF(A10=true,C1,&quot;&quot;)</i><p>result=jane ; Thank goodness!<p>I know I am going to ultimately combine them with concatenate like so:<p>A12: <i>=CONCATENATE(A7,&quot; &quot;,A9,&quot; &quot;,A11)</i><p>result=mary  jane<p>Right now it is a mess, but it is easy to follow and create each formula. Now I just copy the formula from the correct cell into the final concatenation (A12)<p>To start, I will replace A7 in A12 with the formula from A7 minus the &quot;=&quot; sign:<p>A12: <i>=CONCATENATE(IF(A6=true,A1,&quot;&quot;),&quot; &quot;,A9,&quot; &quot;,A11)</i><p>result=No change ; Perfect!<p>I continue that process with A9 and A11 in cell A12 formula to get this:<p>A12: <i>=CONCATENATE(IF(A6=1,A1,&quot;&quot;),&quot; &quot;,IF(A8=1,B1,&quot;&quot;),&quot; &quot;,IF(A10=1,C1,&quot;&quot;))</i><p>result=No change ; 100% success so far!<p>Now I keep copying the referred cells until I have only the cells with data left(A6,A8, &amp; A10):<p>A12: <i>=CONCATENATE(IF(ISTEXT(A1)=1,A1,&quot;&quot;),&quot; &quot;,IF(ISTEXT(B1)=1,B1,&quot;&quot;),&quot; &quot;,IF(ISTEXT(C1)=1,C1,&quot;&quot;))</i><p>Using this method, I find it very easy to work out more complex formulas. I wish I had figured this out on day 1.",
+      "time": 1645247502,
+      "title": "Show HN: I easily create complex Excel formulas",
+      "type": "story"
+    },
+    {
       "by": "_RPM",
       "descendants": 0,
       "id": 30394564,
@@ -72,36 +102,6 @@
       "title": "Ipswich town centre haunted by eerie nursery rhyme (2018)",
       "type": "story",
       "url": "https://www.ipswichstar.co.uk/news/nursery-rhyme-near-a12-scaring-residents-2817848"
-    },
-    {
-      "by": "duck",
-      "descendants": 0,
-      "id": 30394474,
-      "score": 2,
-      "time": 1645245667,
-      "title": "What I've Learned from Hacker News",
-      "type": "story",
-      "url": "http://www.paulgraham.com/hackernews.html"
-    },
-    {
-      "by": "clouddrover",
-      "descendants": 0,
-      "id": 30394456,
-      "score": 1,
-      "time": 1645245393,
-      "title": "Australian state sets minimum pay for Amazon contractors in landmark step",
-      "type": "story",
-      "url": "https://www.reuters.com/business/retail-consumer/australian-state-sets-minimum-pay-amazon-contractors-landmark-step-2022-02-18/"
-    },
-    {
-      "by": "julianlam",
-      "descendants": 0,
-      "id": 30394455,
-      "score": 1,
-      "time": 1645245367,
-      "title": "We Moved from $Exciting_technology to $Boring_standard",
-      "type": "story",
-      "url": "https://nodebb.org/blog/why-we-moved-from-exciting_technology-to-boring_standard/"
     }
   ]
 }
