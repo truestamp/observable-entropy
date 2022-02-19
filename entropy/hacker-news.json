@@ -1,6 +1,26 @@
 {
   "stories": [
     {
+      "by": "maverick74",
+      "descendants": 0,
+      "id": 30401136,
+      "score": 1,
+      "time": 1645309789,
+      "title": "Firefox mobile always load sites in new tabs",
+      "type": "story",
+      "url": "https://support.mozilla.org/en-US/questions/1367916"
+    },
+    {
+      "by": "sandreas",
+      "descendants": 0,
+      "id": 30401122,
+      "score": 1,
+      "text": "I asked this question on stackoverflow, but nobody seems to have an answer yet. Maybe you guys could help. Using the configBuilder with reloadOnChange=true leads to a HUGE slowdown in startup time (usually &gt;1000% - in bigger apps 10 seconds and more). It is dotnet 6 with release mode producing a single executable binary...<p>The line that matters is:<p><pre><code>  configBuilder.AddJsonFile(f, true, true); \n</code></pre>\nHere is the full code:<p><pre><code>  var configBuilder = new ConfigurationBuilder();\n  \n  var configFiles = new[]\n  {\n      Path.Combine(AppDomain.CurrentDomain.BaseDirectory, &quot;appsettings.json&quot;),\n      &#x2F;&#x2F; the files below do not exist, not even the directory - just a fallback\n      Path.Combine(Environment.GetFolderPath(UserProfile, DoNotVerify), &quot;.tester&#x2F;appsettings.json&quot;),\n      Path.Combine(Environment.GetFolderPath(ApplicationData, DoNotVerify), &quot;tester&#x2F;appsettings.json&quot;),\n  };\n  \n  foreach (var f in configFiles)\n  {\n      &#x2F;&#x2F; using the line below works fast like expected\n      &#x2F;&#x2F; configBuilder.AddJsonFile(f, true, false); \n      \n      &#x2F;&#x2F; HUGE slowdown of app startup with second parameter set to true. Why?\n      configBuilder.AddJsonFile(f, true, true); \n  }\n  \n  var config = configBuilder.Build();\n  Console.WriteLine(&quot;tester&quot;);\n\n</code></pre>\nMore details:\nhttps:&#x2F;&#x2F;stackoverflow.com&#x2F;questions&#x2F;71179452&#x2F;c-sharp-configurationbuilder-with-reloadonchange-true-slows-down-app-startup-on",
+      "time": 1645309685,
+      "title": "Ask HN: C# reloadOnChange=true slows down startup on Linux by 2.2 seconds. Why?",
+      "type": "story"
+    },
+    {
       "by": "theduder99",
       "descendants": 0,
       "id": 30401091,
@@ -24,7 +44,7 @@
       "by": "headalgorithm",
       "descendants": 0,
       "id": 30401043,
-      "score": 1,
+      "score": 2,
       "time": 1645308946,
       "title": "Machine Learning Algorithms Cheat Sheet",
       "type": "story",
@@ -83,29 +103,6 @@
       "title": "Web3 – creating problems where we need solutions",
       "type": "story",
       "url": "https://vimeo.com/677162808"
-    },
-    {
-      "by": "Avshalom",
-      "descendants": 0,
-      "id": 30400990,
-      "score": 1,
-      "time": 1645308576,
-      "title": "Elan School",
-      "type": "story",
-      "url": "https://elan.school/"
-    },
-    {
-      "by": "naikas82",
-      "descendants": 1,
-      "id": 30400981,
-      "kids": [
-        30401030
-      ],
-      "score": 1,
-      "text": "I see a rising trend to hire MBA grads for product management roles. As one matures in a PM role, is it important to do an MBA to advance in more executive type of roles e.g. Head&#x2F;Director or Product Management? Is it a company or industry-specific culture? What is your take?",
-      "time": 1645308522,
-      "title": "Ask HN: Is MBA Necessary for Product Management?",
-      "type": "story"
     }
   ]
 }
