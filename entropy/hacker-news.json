@@ -1,6 +1,26 @@
 {
   "stories": [
     {
+      "by": "rememberlenny",
+      "descendants": 0,
+      "id": 30404690,
+      "score": 1,
+      "time": 1645352794,
+      "title": "Talent Hoarding in Organizations [pdf]",
+      "type": "story",
+      "url": "https://extranet.sioe.org/uploads/sioe2021/haegele.pdf"
+    },
+    {
+      "by": "jpgvm",
+      "descendants": 0,
+      "id": 30404687,
+      "score": 1,
+      "text": "My sister recently had her Instagram account compromised and has been unsuccessful in regaining access to it.<p>A big part of this is the dysfunctional ATO recovery flow. The unscrupulous folk that managed to takeover the account first changed the email and phone number and then added 2FA.<p>When attempting to do the ATO recovery flow it asks for the 2FA codes... essentially invalidating the entire flow as a recovery mechanism.<p>Given this what is the proper way to design these?<p>What I implemented previously was automated recovery via user being able to verify both the original email and original phone number on the account (bypassing whatever 2FA has been enabled). This works but if IG isn&#x27;t doing that what is the reason why this isn&#x27;t enough? Is SIM jacking a large enough threat in the case the hacker has already taken over the email?<p>Netflix asks for payment record information, I think this is a pretty good one and has potential to be automated.",
+      "time": 1645352713,
+      "title": "Ask HN: Example of good account takeover recovery flow?",
+      "type": "story"
+    },
+    {
       "by": "admp",
       "descendants": 0,
       "id": 30404682,
@@ -70,7 +90,7 @@
       "by": "caaqil",
       "descendants": 0,
       "id": 30404631,
-      "score": 1,
+      "score": 2,
       "time": 1645351965,
       "title": "A man who lived in a Singapore forest for 30 years",
       "type": "story",
@@ -85,29 +105,6 @@
       "title": "Show HN: Subscribe to RSS feeds and get nearly real-time updates via webhooks",
       "type": "story",
       "url": "https://rssapi.net/"
-    },
-    {
-      "by": "ewired",
-      "descendants": 1,
-      "id": 30404602,
-      "kids": [
-        30404615
-      ],
-      "score": 1,
-      "time": 1645351519,
-      "title": "The Original Inbox Zero",
-      "type": "story",
-      "url": "https://idiomdrottning.org/re-inbox-zero"
-    },
-    {
-      "by": "laktak",
-      "descendants": 0,
-      "id": 30404587,
-      "score": 3,
-      "time": 1645351332,
-      "title": "Google Drive users stung by macOS '.DS_Store' copyright infringement issue",
-      "type": "story",
-      "url": "https://appleinsider.com/articles/22/02/19/google-drive-users-stung-by-macos-dsstore-copyright-infringement-issue"
     }
   ]
 }
