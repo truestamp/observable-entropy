@@ -1,6 +1,46 @@
 {
   "stories": [
     {
+      "by": "ohmyblock",
+      "descendants": 0,
+      "id": 30408793,
+      "score": 1,
+      "time": 1645387161,
+      "title": "Skype can now make 911 calls in the United States",
+      "type": "story",
+      "url": "https://www.engadget.com/skype-911-calls-united-states-162112469.html"
+    },
+    {
+      "by": "1vuio0pswjnm7",
+      "descendants": 0,
+      "id": 30408770,
+      "score": 1,
+      "text": "<p><pre><code>         #!&#x2F;bin&#x2F;sh\n         # usage: 1.sh query\n         # usage: 1.sh &lt; query.yts &gt;&gt; query.yts\n         _x2_(){ local x=$(printf &#x27;\\r\\n&#x27;);sed &quot;s&#x2F; *&#x2F;&#x2F;;s&#x2F;$&#x2F;$x&#x2F;&quot;;};\n         case $# in :-)\n         ;;0) # continuation search\n         KEY=AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8;\n         MIN=\\&quot;context\\&quot;:{\\&quot;client\\&quot;:{\\&quot;hl\\&quot;:\\&quot;en-US\\&quot;,\\&quot;gl\\&quot;:\\&quot;US\\&quot;,\\&quot;clientName\\&quot;:\\&quot;MWEB\\&quot;,\\&quot;clientVersion\\&quot;:\\&quot;2.20210916.06.01\\&quot;}},\\&quot;continuation\\&quot;:; \n         TOKEN=$(sed -n &quot;s&#x2F;\\&quot;token\\&quot;:&#x2F;$MIN&#x2F;p&quot;|sed -n \\$p);\n         _x2_ &lt;&lt;eof|nc -vvn 127.8 80|yy045|yy059   \n         POST &#x2F;youtubei&#x2F;v1&#x2F;search?key=$KEY HTTP&#x2F;1.1\n         Host: www.youtube.com\n         Content-Length: ${#TOKEN}\n         Content-Type: application&#x2F;json\n         Connection: close\n   \n         $TOKEN\n   eof\n         ;;*) # initial search\n         S=$(echo &quot;$@&quot;|sed &#x27;s&#x2F; &#x2F;+&#x2F;g&#x27;);\n         _x2_ &lt;&lt;eof|nc -vvn 127.8 80|yy045|yy059|sed -n &quot;&#x2F;\\&quot;responseContext\\&quot;:&#x2F;,&#x2F;\\&quot;searchSubMenu\\&quot;:&#x2F;w$S.yts&quot;            \n         GET &#x2F;results?search_query=&quot;$S&quot; HTTP&#x2F;1.1\n         Host: www.youtube.com\n         Connection: close\n   \n   eof\n         esac;</code></pre>",
+      "time": 1645387003,
+      "title": "YouTube Continuation Searches",
+      "type": "story"
+    },
+    {
+      "by": "MilnerRoute",
+      "descendants": 0,
+      "id": 30408754,
+      "score": 1,
+      "time": 1645386932,
+      "title": "Experimental WebAssembly port of LibreOffice released. Try it in the browser",
+      "type": "story",
+      "url": "https://www.theregister.com/2022/02/19/webassembly_port_libreoffice/"
+    },
+    {
+      "by": "gdss",
+      "descendants": 0,
+      "id": 30408715,
+      "score": 1,
+      "time": 1645386667,
+      "title": "Singular Value Decomposition Film (1976)",
+      "type": "story",
+      "url": "https://www.youtube.com/watch?v=R9UoFyqJca8"
+    },
+    {
       "by": "arnauldkayonga1",
       "descendants": 0,
       "id": 30408697,
@@ -24,7 +64,7 @@
       "by": "Tomte",
       "descendants": 0,
       "id": 30408689,
-      "score": 1,
+      "score": 2,
       "time": 1645386534,
       "title": "Responsive Grid Magazine Layout in Just 20 Lines of CSS (2020)",
       "type": "story",
@@ -59,49 +99,6 @@
       "title": "10 Hours of AI-generated 'djent' heavy metal",
       "type": "story",
       "url": "https://www.youtube.com/watch?v=CqvmUnG25dA"
-    },
-    {
-      "by": "hintymad",
-      "descendants": 0,
-      "id": 30408614,
-      "score": 1,
-      "time": 1645386116,
-      "title": "Are our best days behind us or ahead of us?",
-      "type": "story",
-      "url": "https://supercell.com/en/news/best-days/7600/"
-    },
-    {
-      "by": "btown",
-      "descendants": 0,
-      "id": 30408609,
-      "score": 2,
-      "time": 1645386095,
-      "title": "Sharpened Cosine Similarity for Neural Networks",
-      "type": "story",
-      "url": "https://e2eml.school/scs.html"
-    },
-    {
-      "by": "bkovacev",
-      "descendants": 0,
-      "id": 30408592,
-      "score": 1,
-      "text": "My Mercury Bank application was just denied due to the country where I’m located (Southeastern Europe). No extra information provided - bummer.<p>So, I opened up an LLC in the US and I’m looking for a solid and reliable bank where I can easily integrate with Stripe &#x2F; PayPal and do all things online (international wires &#x2F; payments). I do not mind traveling to the US to open the account in person, as long as I can do majority of the upper mentioned things online.",
-      "time": 1645386019,
-      "title": "Ask HN: Best bank for US based startups?",
-      "type": "story"
-    },
-    {
-      "by": "jseliger",
-      "descendants": 1,
-      "id": 30408591,
-      "kids": [
-        30408608
-      ],
-      "score": 2,
-      "time": 1645386003,
-      "title": "Spokane Was the Next Affordable City. Now, It's Too Expensive",
-      "type": "story",
-      "url": "https://www.nytimes.com/2022/02/20/business/economy/spokane-housing-expensive-cities.html"
     }
   ]
 }
