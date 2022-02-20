@@ -1,6 +1,26 @@
 {
   "stories": [
     {
+      "by": "walterbell",
+      "descendants": 0,
+      "id": 30402257,
+      "score": 1,
+      "time": 1645319692,
+      "title": "Federal Legislation Threatens Pets, Zoos, Aquariums, and Bio",
+      "type": "story",
+      "url": "https://www.reef2rainforest.com/2022/02/04/federal-legislation-threatens-pets-zoos-aquariums-and-biomedical-research/"
+    },
+    {
+      "by": "phillipseamore",
+      "descendants": 0,
+      "id": 30402242,
+      "score": 2,
+      "text": "Following some of the discussion on &quot;Safari now supports File System Access API with private origin&quot; (https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=30394737) and that it&#x27;s limited just like all other storage in Safari to a maximum of 7 days without a repeat visit, I started wondering what could be a better design for evacuating storage.<p>The limited time for storage was announced by Apple as a privacy measure to combat tracking. But that falls apart rather quickly if a site that a users opens and closes a second later gets the same time limit as a site that the user actively engages with.<p>So I&#x27;m thinking this might be better handled with something like the Media Engagement Index for media autoplay policy (perhaps only Chrome implemented that index).<p>Here&#x27;s an example that would only apply to first-party storage:<p>- User does not interact  with website (scrolling, playing media and clicking external links would not count as interacting)<p><pre><code>  No storage allowed and it&#x27;s cleared shortly after the user leaves the site.\n</code></pre>\n- User interacts with website<p><pre><code>  Storage allowed and cleared in 45 days without a repeat visit\n</code></pre>\n- User spends more than 5 minutes on site (perhaps within 24 hours)<p><pre><code>  Storage extends to 90 days without a repeat visit\n</code></pre>\n- User input into form fields or adds files<p><pre><code>  Storage extends to 180 days without a repeat visit\n</code></pre>\nEach repeat visit would extend according to the rules above or at least 30 days if no interaction. The score could also be used to set the storage quota for the site.<p>I do know that the current time limit only applies to storage APIs including cookies accessible via scripting (HTTP only cookies are not limited) but my interest is in sites that can store everything on the client side without any user data (including cookies) going back to the server.<p>This could even open up the possibility for Safari to sync data for sites that get the highest engagement scores (180 days), which would be a great feature since no storage is synced today (in any browser I know of).<p>Is this something worth trying to get implemented (and perhaps in other browsers as well)?",
+      "time": 1645319594,
+      "title": "Ask HN: Safari 7-day storage limit, ideas for improvement",
+      "type": "story"
+    },
+    {
       "by": "nsoonhui",
       "descendants": 0,
       "id": 30402201,
@@ -24,7 +44,7 @@
       "by": "shadowgovt",
       "descendants": 0,
       "id": 30402052,
-      "score": 2,
+      "score": 3,
       "text": "To try and simplify the privacy story on my static webpage (hosted on a shared DreamHost server), I tried disabling IP address logging on Apache HTTP access logs. After failing to figure out how, I filed a customer support ticket and received this answer:<p>- - -<p>Thank you for contacting DreamHost Support! I’ll be happy to help today!<p>I&#x27;m afraid that on Shared Hosting it is not possible to do that, nor on\nthe VPS, as it is also a form of shared hosting, albeit more isolated and robust.<p>You could do it with a Dedicated server or our economical cloud solution, DreamCompute.  You can find out more about these here:<p>https:&#x2F;&#x2F;dreamhost.com&#x2F;hosting<p>We are here to help 24&#x2F;7.",
       "time": 1645317941,
       "title": "DreamHost shared server cannot disable logging IP addresses",
@@ -44,7 +64,7 @@
       "by": "zydex",
       "descendants": 0,
       "id": 30401967,
-      "score": 3,
+      "score": 5,
       "time": 1645317150,
       "title": "Possible significant OpenSea/X2Y2 exploit; high value NFTs stolen",
       "type": "story",
@@ -85,29 +105,6 @@
       "title": "A Way To: Use Components, Featuring Proxy, Reflect, Lazy, and Suspense",
       "type": "story",
       "url": "https://awayto.blog/posts/awayto-use-components/"
-    },
-    {
-      "by": "ibobev",
-      "descendants": 0,
-      "id": 30401882,
-      "score": 6,
-      "time": 1645316339,
-      "title": "Why Babies Cry in the First Three Months",
-      "type": "story",
-      "url": "https://probablydance.com/2022/02/19/reasons-why-babies-cry-in-the-first-three-months-how-to-tell-them-apart-and-what-to-do/"
-    },
-    {
-      "by": "belltaco",
-      "descendants": 3,
-      "id": 30401863,
-      "kids": [
-        30401896
-      ],
-      "score": 4,
-      "time": 1645316220,
-      "title": "Who Is Behind QAnon? Linguistic Detectives Find Fingerprints",
-      "type": "story",
-      "url": "https://www.nytimes.com/2022/02/19/technology/qanon-messages-authors.html"
     }
   ]
 }
