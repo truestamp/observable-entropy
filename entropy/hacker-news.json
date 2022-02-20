@@ -1,10 +1,30 @@
 {
   "stories": [
     {
+      "by": "clouddrover",
+      "descendants": 0,
+      "id": 30405280,
+      "score": 1,
+      "time": 1645361336,
+      "title": "Sickle cell: ‘The revolutionary gene-editing treatment that gave me new life’",
+      "type": "story",
+      "url": "https://www.bbc.com/news/health-60348497"
+    },
+    {
+      "by": "caaqil",
+      "descendants": 0,
+      "id": 30405274,
+      "score": 1,
+      "time": 1645361265,
+      "title": "The Queen tests positive for Covid",
+      "type": "story",
+      "url": "https://www.bbc.com/news/uk-60453566"
+    },
+    {
       "by": "ciconia",
       "descendants": 0,
       "id": 30405233,
-      "score": 1,
+      "score": 2,
       "time": 1645360798,
       "title": "Making the Tokio scheduler 10x faster (2019)",
       "type": "story",
@@ -86,26 +106,6 @@
       "title": "The Phenobottle: An open-source photobioreactor",
       "type": "story",
       "url": "https://github.com/HarveyBates/Phenobottle"
-    },
-    {
-      "by": "a-t-0",
-      "descendants": 0,
-      "id": 30405177,
-      "score": 3,
-      "text": "After working with Bash and Shellcheck for a few months, I noticed I could improve my code quality by making it compliant with the Shell Style Guide by Google[0]. While working on that, I thought some aspects of this Shell style guide can be verified automatically, granted some assumptions&#x2F;opinions are formed. So I looked around for linting tools and autoformatters for Bash:<p>Shellcheck: https:&#x2F;&#x2F;github.com&#x2F;koalaman&#x2F;shellcheck<p>From Asynchronous Lint Engine (ALE): https:&#x2F;&#x2F;github.com&#x2F;dense-analysis&#x2F;ale&#x2F;blob&#x2F;master&#x2F;supported-tools.md<p>- bashate: https:&#x2F;&#x2F;github.com&#x2F;openstack&#x2F;bashate<p>- cspell: https:&#x2F;&#x2F;github.com&#x2F;streetsidesoftware&#x2F;cspell&#x2F;tree&#x2F;main&#x2F;packages&#x2F;cspell<p>- Bash Language Server: https:&#x2F;&#x2F;github.com&#x2F;bash-lsp&#x2F;bash-language-server<p>- shell -n flag: https:&#x2F;&#x2F;www.gnu.org&#x2F;software&#x2F;bash&#x2F;manual&#x2F;bash.html#index-set<p>- sh: https:&#x2F;&#x2F;github.com&#x2F;mvdan&#x2F;sh<p>From this stack post[1]:<p>- checkbashisms: http:&#x2F;&#x2F;man.he.net&#x2F;man1&#x2F;checkbashisms<p>- shlint: https:&#x2F;&#x2F;github.com&#x2F;duggan&#x2F;shlint (archived)<p>Prettier: https:&#x2F;&#x2F;marketplace.visualstudio.com&#x2F;items?itemName=esbenp.prettier-vscode<p>Within all these linters and auto-formatters I did not find checks that enforce, for example, the Function Comments of the Shell Style Guide by Google:<p>All function comments should describe the intended API behaviour using:<p><pre><code>    Description of the function.\n    Globals: List of global variables used and modified.\n    Arguments: Arguments taken.\n    Outputs: Output to STDOUT or STDERR.\n    Returns: Returned values other than the default exit status of the last command run.\n</code></pre>\nHence, I thought we could make a Bash linting tool that verifies compliance with the Shell Style Guide by Google. To do so, a brief start was made here: https:&#x2F;&#x2F;github.com&#x2F;TruCol&#x2F;checkstyle-for-bash It identifies&#x2F;lists elements in that style guide that may be verified automatically. Since Bash has been around longer than me, I think there may be some people better suited for the development of this enhanced linter. Hence, I thought it might be wise, for impact and usability, to share this idea here.<p>What do you say, HN?<p>[0]: https:&#x2F;&#x2F;google.github.io&#x2F;styleguide&#x2F;shellguide.html<p>[1]: https:&#x2F;&#x2F;stackoverflow.com&#x2F;questions&#x2F;3668665&#x2F;is-there-a-static-analysis-tool-like-lint-or-perlcritic-for-shell-scripts",
-      "time": 1645360148,
-      "title": "Ask HN: Let's build Checkstyle for Bash?",
-      "type": "story"
-    },
-    {
-      "by": "skilled",
-      "descendants": 0,
-      "id": 30405147,
-      "score": 2,
-      "time": 1645359677,
-      "title": "The Battle of Personas",
-      "type": "story",
-      "url": "https://www.bencodezen.io/blog/the-battle-of-personas/"
     }
   ]
 }
