@@ -1,6 +1,16 @@
 {
   "stories": [
     {
+      "by": "nostromo177",
+      "descendants": 0,
+      "id": 30402449,
+      "score": 1,
+      "time": 1645321660,
+      "title": "Federal Legislation Threatens Pets, Zoos, Aquariums, and Bio",
+      "type": "story",
+      "url": "https://www.reef2rainforest.com/2022/02/04/federal-legislation-threatens-pets-zoos-aquariums-and-biomedical-research/contactyourCongresstovoteagainstthisinsanity."
+    },
+    {
       "by": "q2loyp",
       "descendants": 0,
       "id": 30402421,
@@ -57,7 +67,7 @@
       "kids": [
         30402336
       ],
-      "score": 4,
+      "score": 5,
       "time": 1645320431,
       "title": "Aral Sea",
       "type": "story",
@@ -65,12 +75,12 @@
     },
     {
       "by": "wyclif",
-      "descendants": 0,
+      "descendants": 1,
       "id": 30402296,
       "kids": [
         30402367
       ],
-      "score": 2,
+      "score": 3,
       "time": 1645320100,
       "title": "Why everything you thought you knew about posture is wrong",
       "type": "story",
@@ -80,7 +90,7 @@
       "by": "shmageggy",
       "descendants": 0,
       "id": 30402290,
-      "score": 2,
+      "score": 4,
       "time": 1645320036,
       "title": "List of life-like cellular automata",
       "type": "story",
@@ -95,16 +105,6 @@
       "title": "US Federal Legislation Threatens Pets, Zoos, Aquariums, and Biomedical Research",
       "type": "story",
       "url": "https://www.reef2rainforest.com/2022/02/04/federal-legislation-threatens-pets-zoos-aquariums-and-biomedical-research/"
-    },
-    {
-      "by": "phillipseamore",
-      "descendants": 0,
-      "id": 30402242,
-      "score": 2,
-      "text": "Following some of the discussion on &quot;Safari now supports File System Access API with private origin&quot; (https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=30394737) and that it&#x27;s limited just like all other storage in Safari to a maximum of 7 days without a repeat visit, I started wondering what could be a better design for evacuating storage.<p>The limited time for storage was announced by Apple as a privacy measure to combat tracking. But that falls apart rather quickly if a site that a users opens and closes a second later gets the same time limit as a site that the user actively engages with.<p>So I&#x27;m thinking this might be better handled with something like the Media Engagement Index for media autoplay policy (perhaps only Chrome implemented that index).<p>Here&#x27;s an example that would only apply to first-party storage:<p>- User does not interact  with website (scrolling, playing media and clicking external links would not count as interacting)<p><pre><code>  No storage allowed and it&#x27;s cleared shortly after the user leaves the site.\n</code></pre>\n- User interacts with website<p><pre><code>  Storage allowed and cleared in 45 days without a repeat visit\n</code></pre>\n- User spends more than 5 minutes on site (perhaps within 24 hours)<p><pre><code>  Storage extends to 90 days without a repeat visit\n</code></pre>\n- User input into form fields or adds files<p><pre><code>  Storage extends to 180 days without a repeat visit\n</code></pre>\nEach repeat visit would extend according to the rules above or at least 30 days if no interaction. The score could also be used to set the storage quota for the site.<p>I do know that the current time limit only applies to storage APIs including cookies accessible via scripting (HTTP only cookies are not limited) but my interest is in sites that can store everything on the client side without any user data (including cookies) going back to the server.<p>This could even open up the possibility for Safari to sync data for sites that get the highest engagement scores (180 days), which would be a great feature since no storage is synced today (in any browser I know of).<p>Is this something worth trying to get implemented (and perhaps in other browsers as well)?",
-      "time": 1645319594,
-      "title": "Ask HN: Safari 7-day storage limit, ideas for improvement",
-      "type": "story"
     }
   ]
 }
