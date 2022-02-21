@@ -1,104 +1,41 @@
 {
   "stories": [
+    null,
     {
-      "by": "thechilliguy",
+      "by": "thunderbong",
       "descendants": 0,
-      "id": 30415767,
+      "id": 30416226,
       "score": 1,
-      "time": 1645451062,
-      "title": "How to get 100 beta testers in 2 days using community content promotion",
+      "time": 1645453781,
+      "title": "PostgreSQL Begins Working on Zstd Compression Support",
       "type": "story",
-      "url": "https://chillital.com/community-content-promotion-how-we-got-100-beta-users-in-two-days/"
+      "url": "https://www.phoronix.com/scan.php?page=news_item&px=PostgreSQL-ZStd-Start"
     },
     {
-      "by": "g4zj",
+      "by": "mensetmanusman",
       "descendants": 0,
-      "id": 30415744,
+      "id": 30416221,
       "score": 1,
-      "time": 1645450885,
-      "title": "Solving a classic Legend of Zelda puzzle using Python",
+      "time": 1645453750,
+      "title": "Children should face fewer Covid restrictions than adults",
       "type": "story",
-      "url": "https://gazj.substack.com/p/python-and-the-legend-of-zelda"
+      "url": "https://www.theatlantic.com/ideas/archive/2022/02/relaxing-covid-restrictions-kids/622857/"
     },
     {
-      "by": "bloo_df",
+      "by": "andyjohnson0",
       "descendants": 0,
-      "id": 30415742,
+      "id": 30416219,
       "score": 1,
-      "time": 1645450870,
-      "title": "Brace yourselves – Vue Storefront Hackathon Journey has started",
+      "time": 1645453723,
+      "title": "The Good Life and How to Get It",
       "type": "story",
-      "url": "https://blog.vuestorefront.io/vue-storefront-hackathon/"
+      "url": "https://www.inc.com/magazine/20010201/21829.html"
     },
-    {
-      "by": "dustinmoris",
-      "descendants": 0,
-      "id": 30415736,
-      "score": 1,
-      "time": 1645450826,
-      "title": "Must Watch: Joe Rogan Talks with Maajid Nawaz (Episode #1780)",
-      "type": "story",
-      "url": "https://rumble.com/vvexre-must-watch-joe-rogan-talks-with-maajid-nawaz-episode-1780.html"
-    },
-    {
-      "by": "headalgorithm",
-      "descendants": 0,
-      "id": 30415731,
-      "score": 1,
-      "time": 1645450791,
-      "title": "James Webb Might Be Able to Detect Other Civilizations by Their Air Pollution",
-      "type": "story",
-      "url": "https://www.universetoday.com/154609/james-webb-might-be-able-to-detect-other-civilizations-by-their-air-pollution/"
-    },
-    {
-      "by": "jeffwass",
-      "descendants": 0,
-      "id": 30415730,
-      "score": 1,
-      "time": 1645450788,
-      "title": "Trump's social media app goes live in Apple's App Store",
-      "type": "story",
-      "url": "https://www.cnn.com/2022/02/21/tech/trump-truth-social-app-store/index.html"
-    },
-    {
-      "by": "wizwit999",
-      "descendants": 0,
-      "id": 30415726,
-      "score": 2,
-      "text": "Hi Hacker News! We&#x27;re Samrose and Shaeq from Apptrail (https:&#x2F;&#x2F;apptrail.com). We let B2B SaaS companies easily add customer-facing audit trails to their products.<p>It&#x27;s currently too hard to build and consume SaaS audit logs. Organizations use audit logs to access and monitor the activity coming from their SaaS tools for security and compliance reasons. For example, a security admin at an enterprise company would use Slack audit logs to see messages sent and what devices and IP addresses they were sent from. Many SaaS companies don’t offer audit trails to their customers, which results in a lack of insight for the SaaS user (for example, they have to make a support ticket every time they need information).<p>For SaaS companies, adding audit logs to their products is a daunting task that often gets delayed because audit logs are full of hidden complexity. Designing a multi-tenant audit trail solution involves careful consideration around scalability, availability, durability, verifiable immutability, configurable data retention, and guaranteed delivery, to name a few requirements. The audit logs need to be viewable through a UI, searchable &amp; filterable, accessible programmatically via a REST API, and ideally support streaming delivery to consumers. SaaS companies are overwhelmed by the complexity, and often implement subpar solutions, which results in more work for their customers to actually consume the audit logs. As an example, SaaS companies are often unable to support extended data retention times (7-10 years is common for larger customers) because their systems aren’t designed for long-term storage.<p>At AWS, we worked on the infrastructure that allows Amazon to easily bake audit logs into their services. Whether it’s S3 or Sagemaker, every AWS service needs to offer audit logs to all customers for it to launch. We realized that enterprise &amp; security-conscious customers have the same needs when using SaaS tools, but SaaS companies are left entirely to figure out building customer-facing audit logs themselves.<p>Apptrail is a fully managed service that enables any B2B SaaS company to easily add full-featured audit trails to their product and deliver audit logs to their end customers&#x27; destinations (data lakes, SIEM, etc.) in near real time. Check out a short demo here: https:&#x2F;&#x2F;watch.mmhmm.app&#x2F;z_JQJ5sqVvIWtkYhrwIkAf.<p>The way it works is SaaS companies record user and API activity using our language native SDKs, and Apptrail takes care of everything else. Apptrail automatically aggregates and indexes audit data in the cloud and surfaces it to SaaS customers through a self-service portal UI and REST API that we host on your behalf. There&#x27;s full support for analytical queries and fast data retrieval while keeping audit logs in S3 for durability and optimal scaling.<p>Apptrail offers audit log delivery as a first-class feature using &quot;trails&quot;, which allows audit log consumers to add rules to filter audit logs based on their content and configure streaming delivery to destinations like S3 or Splunk.<p>We’re built entirely on AWS, using services like S3, SQS, Kinesis, and ECS on EC2 extensively, with good ol’ JVM powering the application logic. We’ve built Apptrail to scale horizontally, so it can ingest an unlimited number of audit logs. Apptrail is also completely replicated in independent cloud regions, so you can use our regional endpoints to keep audit log data in a specified region (currently we’re launching with US West - Oregon as our first region).<p>We have a usage-based pricing model and charge for each audit log sent and delivered. Our extensive always free tier allows 100k events to be sent for free every month forever. You can sign up for and try Apptrail today. We offer a no credit card required free trial.<p>We would love to hear your thoughts about what we’re building or your experiences with SaaS audit logs in general. Feel free to also reach out to us at founders@apptrail.com",
-      "time": 1645450746,
-      "title": "Show HN: Apptrail – SaaS audit trails as a Service",
-      "type": "story"
-    },
-    {
-      "by": "maljacz",
-      "descendants": 0,
-      "id": 30415724,
-      "score": 1,
-      "text": "Hi guys,<p>I have started to digitalise my legal documents - contracts, warranties, bills etc. I am scanning them to PDFs. Currently, I have hundred documents scanned already.<p>In the beginning, I tried to create directory structure and save files in appropriate directories. But the more documents I scan, the more cumbersome it becomes. Sometimes I want one file to be in multiple directories etc.<p>How do you manage your digital version of legal documents? Or even, is it worth it to digitalise them (for you)? At least where I come from (Czech Republic) we are required to keep the paper originals for about 10 years. But I see this digitalisation as organization and accessibility improvement.<p>If I could build my dream software, it should have the following features:\n- Tagging support - so one file could be assigned to multiple &quot;types&quot; like bill, family, leasing, ...\n- Reminders and alarms - So I could set alarm for expiration dates, recurring payments, ...\n- Phone and PC support - Sometimes, I don`t have scanner at hand. Taking picture from my phone which would be uploaded and processed on the server would help a lot. The same way, files should be available from my phone. \n- OCR - So the full text of the document is searchable.<p>Preferably, it would be some online platform, which allows to share documents with other people - I work in small firm and some documents may be shared between multiple people.<p>Thank you in advance.",
-      "time": 1645450735,
-      "title": "Ask HN: How do you manage legal documents",
-      "type": "story"
-    },
-    {
-      "by": "rbanffy",
-      "descendants": 0,
-      "id": 30415703,
-      "score": 1,
-      "time": 1645450581,
-      "title": "California Will Stick Solar Panels over Canals to Fight Two Disasters at Once",
-      "type": "story",
-      "url": "https://gizmodo.com/california-will-stick-solar-panels-over-canals-to-fight-1848550514"
-    },
-    {
-      "by": "blopeur",
-      "descendants": 0,
-      "id": 30415698,
-      "score": 1,
-      "time": 1645450506,
-      "title": "A Unified FPGA Virtualization Framework for General-Purpose DNN in the Cloud",
-      "type": "story",
-      "url": "https://dl.acm.org/doi/10.1145/3480170"
-    }
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
   ]
 }
