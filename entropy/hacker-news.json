@@ -1,6 +1,56 @@
 {
   "stories": [
     {
+      "by": "ortusdux",
+      "descendants": 0,
+      "id": 30420918,
+      "score": 1,
+      "time": 1645479300,
+      "title": "DYMO's new label printer uses RFID tags to prevent the use of non-OEM paper",
+      "type": "story",
+      "url": "https://appleinsider.com/articles/22/02/21/if-you-thought-printer-cartridge-drm-was-bad-dymo-is-forcing-users-to-buy-rfid-paper"
+    },
+    {
+      "by": "sys_64738",
+      "descendants": 0,
+      "id": 30420875,
+      "score": 1,
+      "time": 1645479106,
+      "title": "Kazakhstan's Giant Crypto-Mine",
+      "type": "story",
+      "url": "https://www.bbc.com/reel/video/p0bkh6bq/inside-kazakhstan-s-giant-crypto-mine"
+    },
+    {
+      "by": "amrrs",
+      "descendants": 0,
+      "id": 30420841,
+      "score": 1,
+      "time": 1645478935,
+      "title": "India’s largest stock exchange CEO made decisions from Himalayan yogi",
+      "type": "story",
+      "url": "https://qz.com/india/2127235/a-himalayan-yogi-influenced-decisions-of-indias-former-nse-md/"
+    },
+    {
+      "by": "BarrySeal",
+      "descendants": 0,
+      "id": 30420811,
+      "score": 1,
+      "time": 1645478709,
+      "title": "The Poison Papers: Hidden History of Chemical and Pesticide Hazards in the U.S.",
+      "type": "story",
+      "url": "https://www.poisonpapers.org/"
+    },
+    {
+      "by": "throwaway9992",
+      "descendants": 0,
+      "id": 30420805,
+      "score": 1,
+      "text": "When you land on any medium blog you see:<p><pre><code>    To make Medium work, we log user data. By using \n    Medium, you agree to our Privacy Policy, \n    including cookie policy.\n</code></pre>\n(e.g. https:&#x2F;&#x2F;donhopkins.medium.com&#x2F;hyperlook-nee-hypernews-nee-goodnews-99f411e58ce4)<p>Without ability to accept or reject, just a close button. In fact I do not agree with their privacy policy, but by that time I am already tracked. In their privacy policy you see:<p><pre><code>    We share personal information with vendors, service providers, and \n    consultants that need access to personal information in order to perform \n    services for us, such as companies that assist us with web hosting, \n    storage, and other infrastructure, analytics, payment processing, fraud \n    prevention and security, customer service, communications, and marketing.\n</code></pre>\n(https:&#x2F;&#x2F;policy.medium.com&#x2F;medium-privacy-policy-f03bf92035c9)<p>It is not trivial to report them to my local data protection agency, otherwise I would&#x27;ve done it already. But this is just pathetic if this is leagl, NoScript seem to be the only way forward.",
+      "time": 1645478663,
+      "title": "Ask HN: Is medium's cookie notice legal?",
+      "type": "story"
+    },
+    {
       "by": "pmoriarty",
       "descendants": 0,
       "id": 30420763,
@@ -22,9 +72,12 @@
     },
     {
       "by": "SkyLinx",
-      "descendants": 0,
+      "descendants": 1,
       "id": 30420662,
-      "score": 1,
+      "kids": [
+        30420818
+      ],
+      "score": 2,
       "text": "For any Hetzner Cloud customers who may be interested: I have released v0.5.4 of a tool I created [1] to manage Kubernetes clusters in Hetzner Cloud. This release adds support for multi zonal clusters for higher availability as well as the ability to specify extra args for each Kubernetes component, so that you can enable feature flags and things like that.<p>For those not familiar with this tool: it&#x27;s a tool to quickly create production clusters in Hetzner Cloud using k3s, so creating a cluster takes only a couple of minutes or less.<p>For those not familiar with Hetzner: it&#x27;s a German provider that offers an awesome service, servers with great performance and reliability for a fraction of the price the other providers charge. If you mostly need compute and not the many services the bigger providers offer, you can save quite a bit of money with this provider. They have 2 locations in Europe (in Germany and one in Finland) as well as one location in the US (Ashburn, Virginia).<p>Looking for feedback and suggestions of features I could add. Thanks!<p>[1] https:&#x2F;&#x2F;github.com&#x2F;vitobotta&#x2F;hetzner-k3s",
       "time": 1645477810,
       "title": "Hetzner-k3s v0.5.4 is out with support for multi zonal Kubernetes clusters",
@@ -49,59 +102,6 @@
       "title": "Whazzup – Social Network for Live Events",
       "type": "story",
       "url": "https://whazzup.co"
-    },
-    {
-      "by": "Fervicus",
-      "descendants": 0,
-      "id": 30420642,
-      "score": 1,
-      "time": 1645477712,
-      "title": "Welcome to 2030. I own nothing, have no privacy, and life has never been better",
-      "type": "story",
-      "url": "https://web.archive.org/web/20161220100428/http://weforum.org/agenda/2016/11/shopping-i-can-t-really-remember-what-that-is/"
-    },
-    {
-      "by": "pizza",
-      "descendants": 0,
-      "id": 30420620,
-      "score": 1,
-      "time": 1645477576,
-      "title": "Paul Farmer, Pioneer of Global Health, Dies at 62",
-      "type": "story",
-      "url": "https://www.nytimes.com/2022/02/21/obituaries/paul-farmer-dead.html"
-    },
-    {
-      "by": "neom",
-      "descendants": 0,
-      "id": 30420613,
-      "score": 1,
-      "time": 1645477538,
-      "title": "Dr. Paul Farmer, global health champion, has died",
-      "type": "story",
-      "url": "https://www.npr.org/sections/goatsandsoda/2022/02/21/1082117707/global-health-champion-dr-paul-farmer-has-died"
-    },
-    {
-      "by": "verdagon",
-      "descendants": 1,
-      "id": 30420579,
-      "kids": [
-        30420600
-      ],
-      "score": 2,
-      "time": 1645477375,
-      "title": "Data Races in Python, Despite the Global Interpreter Lock",
-      "type": "story",
-      "url": "https://verdagon.dev/blog/python-data-races"
-    },
-    {
-      "by": "freediver",
-      "descendants": 0,
-      "id": 30420570,
-      "score": 1,
-      "time": 1645477337,
-      "title": "Is Firefox OK?",
-      "type": "story",
-      "url": "https://www.wired.co.uk/article/firefox-mozilla-2022"
     }
   ]
 }
