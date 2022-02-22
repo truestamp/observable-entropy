@@ -1,6 +1,46 @@
 {
   "stories": [
     {
+      "by": "jonas_kgomo",
+      "descendants": 0,
+      "id": 30430501,
+      "score": 1,
+      "text": "I am curious about how people submit papers for conferences, or journals in general, without a particular advisor or institution helping them.\nWhat process do such people follow. Any examples of self-directed research?",
+      "time": 1645549786,
+      "title": "Ask HN: How can you write a paper without an advisor?",
+      "type": "story"
+    },
+    {
+      "by": "NmAmDa",
+      "descendants": 0,
+      "id": 30430472,
+      "score": 1,
+      "time": 1645549645,
+      "title": "Everware, a Notebook environment to allow people to reproduce your research",
+      "type": "story",
+      "url": "https://github.com/everware/everware"
+    },
+    {
+      "by": "eigenhombre",
+      "descendants": 0,
+      "id": 30430468,
+      "score": 1,
+      "time": 1645549636,
+      "title": "To catch and reverse a quantum jump mid-flight",
+      "type": "story",
+      "url": "https://www.nature.com/articles/s41586-019-1287-z"
+    },
+    {
+      "by": "fhrow4484",
+      "descendants": 0,
+      "id": 30430465,
+      "score": 1,
+      "time": 1645549628,
+      "title": "Glint Joining Microsoft to Help People Be Happier and More Successful at Work",
+      "type": "story",
+      "url": "https://www.glintinc.com/blog/glint-joining-microsoft-viva/"
+    },
+    {
       "by": "pro_zac",
       "descendants": 0,
       "id": 30430430,
@@ -52,59 +92,16 @@
     },
     {
       "by": "rcconf",
-      "descendants": 0,
+      "descendants": 1,
       "id": 30430349,
+      "kids": [
+        30430434
+      ],
       "score": 1,
       "text": "So my BitWarden master password stopped working. I am 100% confident that my password has not changed, but the developers changed the way passwords are handled.<p>In the past, my password would work on Chrome, but would fail to work on Mobile. I opened an issue and it was ignored.<p>Now my master password does not work anywhere (APART FROM THS LAPTOP and I was lucky to export my passwords.)<p>So heres a warning to all. Do not use BitWarden, they handle passwords incorrectly and you may lose all your passwords if they decide to randomly change password handling.<p>Possible Problem: They truncate passwords before sending to server? IDK at what length they truncate.<p>Has anyone else dealt with this and do you possibly know at what length they started truncating passwords?",
       "time": 1645549184,
       "title": "Ask HN: BitWarden Master Password No Longer Works",
       "type": "story"
-    },
-    {
-      "by": "mvoodarla",
-      "descendants": 0,
-      "id": 30430348,
-      "score": 1,
-      "text": "In the past, I&#x27;ve worked on tons of personal projects where I was using Google&#x27;s Video Intelligence API (https:&#x2F;&#x2F;cloud.google.com&#x2F;video-intelligence) to track people, objects, and more after recording stuff live on a Raspberry Pi and sending it up to Google.<p>Works great for personal projects (I get 1k minutes free, etc) but do people actually use these APIs in production? $0.15 &#x2F; min for a single model feels expensive at scale, and they only work for such a narrow set of use-cases. I know there are other offerings in AWS Sagemaker (https:&#x2F;&#x2F;aws.amazon.com&#x2F;sagemaker&#x2F;) that let you build your own models but I don&#x27;t want to deal with any training data or ML hands-on.<p>I&#x27;ve been wondering if others have dealt with this stuff and&#x2F;or worked in environments where they feel the same. Is it expected that I have to use OpenCV + some other things like Sagemaker &#x2F; PyTorch to build image &#x2F; video understanding systems?",
-      "time": 1645549180,
-      "title": "Ask HN: Building vision systems without knowing ML?",
-      "type": "story"
-    },
-    {
-      "by": "mrwnmonm",
-      "descendants": 1,
-      "id": 30430334,
-      "kids": [
-        30430392
-      ],
-      "score": 2,
-      "text": "What do you use, for example, for:<p>- Monitoring customer behaviour<p>- Talking to customers or support tickets or feedback<p>- Collecting customer&#x27;s feature requests<p>- Product analytics<p>- APM<p>etc...",
-      "time": 1645549123,
-      "title": "Ask HN: Could you please share which SaaS you are using for your SaaS?",
-      "type": "story"
-    },
-    {
-      "by": "pimterry",
-      "descendants": 1,
-      "id": 30430325,
-      "kids": [
-        30430370
-      ],
-      "score": 3,
-      "time": 1645549093,
-      "title": "Show HN: The Status Page Status Page",
-      "type": "story",
-      "url": "https://statuspagestatuspage.com/"
-    },
-    {
-      "by": "belter",
-      "descendants": 0,
-      "id": 30430322,
-      "score": 1,
-      "time": 1645549083,
-      "title": "SARS-CoV-2 variants of concern as of 17 February 2022",
-      "type": "story",
-      "url": "https://www.ecdc.europa.eu/en/covid-19/variants-concern"
     }
   ]
 }
