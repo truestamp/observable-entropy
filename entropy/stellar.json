@@ -1,6 +1,40 @@
 {
-  "type": "https://stellar.org/horizon-errors/service_unavailable",
-  "title": "Service Unavailable",
-  "status": 503,
-  "detail": "The request cannot be serviced at this time."
+  "_links": {
+    "self": {
+      "href": "https://horizon.stellar.org/ledgers/39737114"
+    },
+    "transactions": {
+      "href": "https://horizon.stellar.org/ledgers/39737114/transactions{?cursor,limit,order}",
+      "templated": true
+    },
+    "operations": {
+      "href": "https://horizon.stellar.org/ledgers/39737114/operations{?cursor,limit,order}",
+      "templated": true
+    },
+    "payments": {
+      "href": "https://horizon.stellar.org/ledgers/39737114/payments{?cursor,limit,order}",
+      "templated": true
+    },
+    "effects": {
+      "href": "https://horizon.stellar.org/ledgers/39737114/effects{?cursor,limit,order}",
+      "templated": true
+    }
+  },
+  "id": "082c8b89dd8e7bc05a2ca18bba5c7a7cc5e7441d314cf2d562adaaa62aa58fa5",
+  "paging_token": "170669605067423744",
+  "hash": "082c8b89dd8e7bc05a2ca18bba5c7a7cc5e7441d314cf2d562adaaa62aa58fa5",
+  "prev_hash": "d8192dbcedb32cceb5b0d75f780de0a26b11091319240ab5bcf13fe70e9f49f5",
+  "sequence": 39737114,
+  "successful_transaction_count": 290,
+  "failed_transaction_count": 189,
+  "operation_count": 463,
+  "tx_set_operation_count": 677,
+  "closed_at": "2022-02-22T08:25:15Z",
+  "total_coins": "105443902087.3472865",
+  "fee_pool": "2623891.8513684",
+  "base_fee_in_stroops": 100,
+  "base_reserve_in_stroops": 5000000,
+  "max_tx_set_size": 1000,
+  "protocol_version": 18,
+  "header_xdr": "AAAAEtgZLbztsyzOtbDXX3gN4KJrEQkTGSQKtbzxP+cOn0n1gjFNx8hszfuiW6OAQgENKfS3/zZcmUpwx0VmJz68kt4AAAAAYhSd6wAAAAAAAAABAAAAADsphZX0B3KMw/aYQ61nzN40f/TbyuHqRF07FIzwsGPWAAAAQAWcPnkjJLbfDDp6+WgNk0RsQaWcLjMq9CfZyLV4yAyvo5W3vHUjYp1QnVVyKf8RqGV6rPwlAxY+PkB+0gqa7geQZHUpTAGLQcn63gdZa1Ni8N2Fwa4hG4H8GzQ1U2js9dw6fxLsVfRT7g0BVRXbS9xMtKw38hUVJVqyBR9RSVuiAl5XGg6iHrPseVthAAAX3Tlq1BQAAAEWAAAAADffo+YAAABkAExLQAAAA+jjNhCbl6y/Xq2Egxsv2HKcA5VNHzmlZ+D3opVBgRfvIfWsGQbw4LzXM70YWVpuSN8RiXKgEEyvuUxlVyGmb5gXqko4tWEJXox5ZGnZSd2ZTbzVXspDX+WEF1v5aCY840M1wkGKyKpee+P3vfcfcEmS2/c7a6TZtiPq2Z7DXANIPAAAAAA="
 }
