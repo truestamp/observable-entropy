@@ -1,40 +1,6 @@
 {
-  "_links": {
-    "self": {
-      "href": "https://horizon.stellar.org/ledgers/39737013"
-    },
-    "transactions": {
-      "href": "https://horizon.stellar.org/ledgers/39737013/transactions{?cursor,limit,order}",
-      "templated": true
-    },
-    "operations": {
-      "href": "https://horizon.stellar.org/ledgers/39737013/operations{?cursor,limit,order}",
-      "templated": true
-    },
-    "payments": {
-      "href": "https://horizon.stellar.org/ledgers/39737013/payments{?cursor,limit,order}",
-      "templated": true
-    },
-    "effects": {
-      "href": "https://horizon.stellar.org/ledgers/39737013/effects{?cursor,limit,order}",
-      "templated": true
-    }
-  },
-  "id": "30a8e8d221bf37aa6f9857466d88b9c7addca844f9b265d1ba00c68d68b29a53",
-  "paging_token": "170669171275726848",
-  "hash": "30a8e8d221bf37aa6f9857466d88b9c7addca844f9b265d1ba00c68d68b29a53",
-  "prev_hash": "5dffd8890e9060d40b46474cf6d821b3e859323e323f457e41531791b41c4c0a",
-  "sequence": 39737013,
-  "successful_transaction_count": 273,
-  "failed_transaction_count": 247,
-  "operation_count": 586,
-  "tx_set_operation_count": 925,
-  "closed_at": "2022-02-22T08:15:12Z",
-  "total_coins": "105443902087.3472865",
-  "fee_pool": "2623890.8208584",
-  "base_fee_in_stroops": 100,
-  "base_reserve_in_stroops": 5000000,
-  "max_tx_set_size": 1000,
-  "protocol_version": 18,
-  "header_xdr": "AAAAEl3/2IkOkGDUC0ZHTPbYIbPoWTI+Mj9FfkFTF5G0HEwKBLoOQR7YlyrFa9Ynh3gq4xvexG0kWhqBjL64PefSG8YAAAAAYhSbkAAAAAAAAAABAAAAANViLMmkYquQRtnOU92Rv7mLQfQ6hViSTr7J17PDZzF1AAAAQP9mGlsCjZFkQOst1Cr2sQ8aQ2kM7pwuqGULQ/T/yH3j/eMkg9fwYfnHrTrsKAKhSVtdAjWoeUYolNam7XI/SQeHP2756ClE6bbsGIJkuO9vRZUP9YgJc7Xxkyw5aX5YNGKonMxrXy9y8Rnj08EibElVepeumpTGt54VKjJ4qzHqAl5WtQ6iHrPseVthAAAX3TjNlcgAAAEWAAAAADffhrQAAABkAExLQAAAA+i5axBbnhAt/94zl0WwwEcIbK4EvwcCGUfxQllAfpPglPWsGQbw4LzXM70YWVpuSN8RiXKgEEyvuUxlVyGmb5gXqko4tWEJXox5ZGnZSd2ZTbzVXspDX+WEF1v5aCY840M1wkGKyKpee+P3vfcfcEmS2/c7a6TZtiPq2Z7DXANIPAAAAAA="
+  "type": "https://stellar.org/horizon-errors/service_unavailable",
+  "title": "Service Unavailable",
+  "status": 503,
+  "detail": "The request cannot be serviced at this time."
 }
