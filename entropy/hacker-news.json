@@ -1,6 +1,79 @@
 {
   "stories": [
     {
+      "by": "rcconf",
+      "descendants": 0,
+      "id": 30430349,
+      "score": 1,
+      "text": "So my BitWarden master password stopped working. I am 100% confident that my password has not changed, but the developers changed the way passwords are handled.<p>In the past, my password would work on Chrome, but would fail to work on Mobile. I opened an issue and it was ignored.<p>Now my master password does not work anywhere (APART FROM THS LAPTOP and I was lucky to export my passwords.)<p>So heres a warning to all. Do not use BitWarden, they handle passwords incorrectly and you may lose all your passwords if they decide to randomly change password handling.<p>Possible Problem: They truncate passwords before sending to server? IDK at what length they truncate.",
+      "time": 1645549184,
+      "title": "Ask HN: BitWarden Master Password No Longer Works",
+      "type": "story"
+    },
+    {
+      "by": "mvoodarla",
+      "descendants": 0,
+      "id": 30430348,
+      "score": 1,
+      "text": "In the past, I&#x27;ve worked on tons of personal projects where I was using Google&#x27;s Video Intelligence API (https:&#x2F;&#x2F;cloud.google.com&#x2F;video-intelligence) to track people, objects, and more after recording stuff live on a Raspberry Pi and sending it up to Google.<p>Works great for personal projects (I get 1k minutes free, etc) but do people actually use these APIs in production? $0.15 &#x2F; min for a single model feels expensive at scale, and they only work for such a narrow set of use-cases. I know there are other offerings in AWS Sagemaker (https:&#x2F;&#x2F;aws.amazon.com&#x2F;sagemaker&#x2F;) that let you build your own models but I don&#x27;t want to deal with any training data or ML hands-on.<p>I&#x27;ve been wondering if others have dealt with this stuff and&#x2F;or worked in environments where they feel the same. Is it expected that I have to use OpenCV + some other things like Sagemaker &#x2F; PyTorch to build image &#x2F; video understanding systems?",
+      "time": 1645549180,
+      "title": "Ask HN: Building vision systems without knowing ML?",
+      "type": "story"
+    },
+    {
+      "by": "mrwnmonm",
+      "descendants": 0,
+      "id": 30430334,
+      "score": 1,
+      "text": "What do you use, for example, for:<p>- Monitoring customer behaviour<p>- Talking to customers or support tickets or feedback<p>- Collecting customer&#x27;s feature requests<p>- Product analytics<p>- APM<p>etc...",
+      "time": 1645549123,
+      "title": "Ask HN: Could you please share which SaaS you are using for your SaaS?",
+      "type": "story"
+    },
+    {
+      "by": "pimterry",
+      "descendants": 0,
+      "id": 30430325,
+      "score": 1,
+      "time": 1645549093,
+      "title": "Show HN: The Status Page Status Page",
+      "type": "story",
+      "url": "https://statuspagestatuspage.com/"
+    },
+    {
+      "by": "belter",
+      "descendants": 0,
+      "id": 30430322,
+      "score": 1,
+      "time": 1645549083,
+      "title": "SARS-CoV-2 variants of concern as of 17 February 2022",
+      "type": "story",
+      "url": "https://www.ecdc.europa.eu/en/covid-19/variants-concern"
+    },
+    {
+      "by": "bryanrasmussen",
+      "descendants": 0,
+      "id": 30430315,
+      "score": 1,
+      "time": 1645549067,
+      "title": "How the world's deepest shipwreck was found",
+      "type": "story",
+      "url": "https://www.bbc.com/future/article/20220121-the-dive-to-find-the-worlds-deepest-shipwreck"
+    },
+    {
+      "by": "m6w6",
+      "descendants": 1,
+      "id": 30430300,
+      "kids": [
+        30430301
+      ],
+      "score": 2,
+      "time": 1645549012,
+      "title": "Bringing the Framework Laptop to more of the world",
+      "type": "story",
+      "url": "https://frame.work/at/en/blog/bringing-the-framework-laptop-to-more-of-the-world"
+    },
+    {
       "by": "jeanmayer",
       "descendants": 0,
       "id": 30430254,
@@ -14,7 +87,7 @@
       "by": "bjoko",
       "descendants": 0,
       "id": 30430227,
-      "score": 1,
+      "score": 2,
       "time": 1645548768,
       "title": "Gitlab 14.8 Released",
       "type": "story",
@@ -29,79 +102,6 @@
       "title": "Four Months of Refinements to OAuth DPoP",
       "type": "story",
       "url": "https://self-issued.info/?p=2254"
-    },
-    {
-      "by": "kjhughes",
-      "descendants": 0,
-      "id": 30430184,
-      "score": 1,
-      "time": 1645548584,
-      "title": "A Real-Life ‘Queen’s Gambit’–The Brazilian Maid Who Became a Chess Champ",
-      "type": "story",
-      "url": "https://www.wsj.com/articles/queens-gambit-brazil-maid-chess-champ-11645547071"
-    },
-    {
-      "by": "the_decider",
-      "descendants": 0,
-      "id": 30430176,
-      "score": 1,
-      "time": 1645548551,
-      "title": "An Immigrant's Perspective on the Situation in Ukraine",
-      "type": "story",
-      "url": "https://leonardapeltsin.medium.com/an-immigrants-perspective-on-the-situation-in-ukraine-e376545c2cd7"
-    },
-    {
-      "by": "Weidenwalker",
-      "descendants": 1,
-      "id": 30430165,
-      "kids": [
-        30430198
-      ],
-      "score": 1,
-      "time": 1645548519,
-      "title": "Show HN: Codeatlas – Beautiful visualisations of open-source codebases",
-      "type": "story",
-      "url": "https://www.codeatlas.dev/"
-    },
-    {
-      "by": "mooreds",
-      "descendants": 0,
-      "id": 30430162,
-      "score": 1,
-      "time": 1645548510,
-      "title": "Open Policy Agent 101: A Beginner’s Guide",
-      "type": "story",
-      "url": "https://blog.styra.com/blog/open-policy-agent-101-a-beginners-guide"
-    },
-    {
-      "by": "buonomo",
-      "descendants": 0,
-      "id": 30430137,
-      "score": 1,
-      "time": 1645548394,
-      "title": "Utilities for a Time Aware Zsh",
-      "type": "story",
-      "url": "https://ulysse.md/2021/07/18/Utilities-for-a-time-aware-shell.html"
-    },
-    {
-      "by": "tvnut999",
-      "descendants": 0,
-      "id": 30430130,
-      "score": 1,
-      "time": 1645548383,
-      "title": "Toward OpenTelemetry Compatible Synthetic Tests",
-      "type": "story",
-      "url": "https://ericmustin.substack.com/p/toward-opentelemetry-compatible-synthetic"
-    },
-    {
-      "by": "giuliomagnifico",
-      "descendants": 0,
-      "id": 30430085,
-      "score": 1,
-      "time": 1645548253,
-      "title": "Russia is determined to make RuTube happen",
-      "type": "story",
-      "url": "https://www.codastory.com/newsletters/russia-rutube/"
     }
   ]
 }
