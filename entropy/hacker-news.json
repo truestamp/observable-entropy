@@ -1,10 +1,30 @@
 {
   "stories": [
     {
+      "by": "amichail",
+      "descendants": 0,
+      "id": 30433414,
+      "score": 1,
+      "text": "Or do people generally only care about themselves when it comes to fearing death?",
+      "time": 1645562383,
+      "title": "Ask HN: Do couples avoid having children so their children don't fear death?",
+      "type": "story"
+    },
+    {
+      "by": "zdhcadsh",
+      "descendants": 0,
+      "id": 30433398,
+      "score": 1,
+      "time": 1645562296,
+      "title": "OSC Flags Emergencies Act Tweets by Kraken, Coinbase CEOs to RCMP",
+      "type": "story",
+      "url": "https://thelogic.co/news/osc-flags-emergencies-act-tweets-by-kraken-coinbase-ceos-to-rcmp/"
+    },
+    {
       "by": "madars",
       "descendants": 0,
       "id": 30433295,
-      "score": 1,
+      "score": 3,
       "time": 1645561851,
       "title": "Punishing Putin: How Biden could cut Russia off from world tech",
       "type": "story",
@@ -44,7 +64,7 @@
       "by": "Angius",
       "descendants": 0,
       "id": 30433243,
-      "score": 1,
+      "score": 3,
       "time": 1645561633,
       "title": "Early peek at C# 11 features",
       "type": "story",
@@ -82,29 +102,6 @@
       "title": "Remove any object in a video with a simple brush stroke",
       "type": "story",
       "url": "https://runwayml.com/inpainting/"
-    },
-    {
-      "by": "lycopodiopsida",
-      "descendants": 0,
-      "id": 30433115,
-      "score": 2,
-      "time": 1645561032,
-      "title": "Humble Chronicles: Developer Experience",
-      "type": "story",
-      "url": "https://tonsky.me/blog/humble-dx/"
-    },
-    {
-      "by": "declan_g",
-      "descendants": 1,
-      "id": 30433104,
-      "kids": [
-        30433337
-      ],
-      "score": 10,
-      "text": "Hi HN, we’re Philip, Amby, and Declan from Hyperbeam (<a href=\"https:&#x2F;&#x2F;www.hyperbeam.dev\" rel=\"nofollow\">https:&#x2F;&#x2F;www.hyperbeam.dev</a>). Hyperbeam is an API that makes it easy for developers to embed real-time multiplayer capabilities into their web apps—including any other web app that you want to provide multiplayer access to.<p>Building software to connect people in real time is hard. We experienced this in college when we built a “watch party” site for people to watch movies together (<a href=\"https:&#x2F;&#x2F;hyperbeam.com\" rel=\"nofollow\">https:&#x2F;&#x2F;hyperbeam.com</a>). Other watch party solutions were unreliable, so we spent two years building tech to allow friends to watch stuff together with ease.<p>The key piece was a “multiplayer web browser”. By that we mean a Chromium instance that you embed inside your own web app (i.e. web browser inception) which is actually hosted on a server and streamed via WebRTC, and so can be shared and controlled by multiple people at the same time.<p>For example, say you have an online tutoring platform. An instructor can open any application in the embedded web browser and then work on it with the student together.<p>Another use case is making non-multiplayer apps multiplayer. One of our customers wanted to add a collaborative version of Google Slides to their product, so multiple participants could navigate the slides at once. Google doesn&#x27;t provide an API for that, so users had to screen share, which isn&#x27;t multiplayer. With Hyperbeam, you just open up a shared instance of Google Slides and then multiple people can control it.<p>We didn’t learn about those use cases until later, though. What happened was that we grew hyperbeam.com to 150k monthly active users and over 1M hours of video per month, but then it stopped growing. Despite this, we got into YC, and soon had multiple companies asking to buy our multiplayer browsing tech. After closing three deals, we decided to sell our multiplayer web browsers as an API. That way other companies can build products to connect others without going through two years of WebRTC hell like we did.<p>We allow developers to embed multiplayer web browsers in their web apps with a few lines of code. Users can then visit any website from inside that web app together. Developers can specify control permissions, programmatically navigate to specific URLs, and hide the browser UI so apps appear as if they are natively integrated.<p>Unlike screen share solutions that upload your personal computer stream to participants, Hyperbeam’s multiplayer web browsers run on our own virtual machines. This eliminates the upload speed bottleneck that many users experience.<p>We host a Chromium browser instance on our server, record the video and audio output and stream it to all participants using WebRTC. That sounds simple, but hosting full-blown Chromium instances is challenging, especially doing it cost-effectively: what we learned is Chromium instances, at scale, love memory bandwidth a lot more than the amount of memory. Also, network unreliability, like last-mile packet loss, is also a problem, especially audio packet loss which is a lot more noticeable than video packet loss. A simple hack we have in place is literally sending every audio RTP packet twice, which improves audio quality drastically over spotty connections.<p>Anyone is welcome to get a free playground API key and try our product! Rather than spend time building a UI for that, we’ve just put up a Google Form in the spirit of do-things-that-don’t-scale. Go to <a href=\"https:&#x2F;&#x2F;forms.gle&#x2F;RSQhbFXbdrcqwqsc9\" rel=\"nofollow\">https:&#x2F;&#x2F;forms.gle&#x2F;RSQhbFXbdrcqwqsc9</a>, fill in your email and we promise to send you an API key right away. The API docs are here: <a href=\"https:&#x2F;&#x2F;showy-backpack-b3f.notion.site&#x2F;Hyperbeam-API-eb9874bd1ef54c22ba7197324ce2223\" rel=\"nofollow\">https:&#x2F;&#x2F;showy-backpack-b3f.notion.site&#x2F;Hyperbeam-API-eb9874b...</a>.<p>Pricing is not transparent on our website yet—we’re still working it out. However, we’re going to use the same business model as CPaaS companies such as Agora and Twilio. We’ll charge customers a minimum amount per month and provide a set amount of participant hours. If a customer exceeds the provided participant hours, we continue charging at a fixed rate.<p>If you want to try out tech in action, you can do that by signing up for free and creating a room using our original Hyperbeam watch party platform: <a href=\"https:&#x2F;&#x2F;hyperbeam.com&#x2F;app&#x2F;register\" rel=\"nofollow\">https:&#x2F;&#x2F;hyperbeam.com&#x2F;app&#x2F;register</a><p>We’re happy to answer any questions you have, and would love to hear your ideas for other potential use cases as well. Thanks!",
-      "time": 1645560993,
-      "title": "Launch HN: Hyperbeam API (YC W22) – Multiplayer embeds of any website",
-      "type": "story"
     }
   ]
 }
