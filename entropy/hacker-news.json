@@ -1,12 +1,65 @@
 {
   "stories": [
     {
+      "by": "Tomte",
+      "descendants": 0,
+      "id": 30440543,
+      "score": 1,
+      "time": 1645621710,
+      "title": "Does anyone have the right to sex? (2018)",
+      "type": "story",
+      "url": "https://www.lrb.co.uk/the-paper/v40/n06/amia-srinivasan/does-anyone-have-the-right-to-sex"
+    },
+    {
+      "by": "hubraumhugo",
+      "descendants": 0,
+      "id": 30440540,
+      "score": 1,
+      "time": 1645621676,
+      "title": "I don't like Kubernetes (2018)",
+      "type": "story",
+      "url": "https://old.reddit.com/r/linuxadmin/comments/821ypk/i_dont_like_kubernetes/"
+    },
+    {
+      "by": "RansomStark",
+      "descendants": 0,
+      "id": 30440537,
+      "score": 1,
+      "time": 1645621648,
+      "title": "No English and maths GCSE, no university student loan for English Universities",
+      "type": "story",
+      "url": "https://www.bbc.co.uk/news/education-60491719"
+    },
+    {
+      "by": "WolfOliver",
+      "descendants": 0,
+      "id": 30440527,
+      "score": 1,
+      "time": 1645621588,
+      "title": "Show HN: The most enjoyable desktop app for writing a thesis",
+      "type": "story",
+      "url": "https://www.monsterwriter.app/"
+    },
+    {
+      "by": "bryanrasmussen",
+      "descendants": 1,
+      "id": 30440519,
+      "kids": [
+        30440526
+      ],
+      "score": 1,
+      "time": 1645621559,
+      "title": "We Can't See 'Star Wars' Anymore (2019)",
+      "type": "story",
+      "url": "https://www.nytimes.com/2019/12/20/opinion/star-wars-movie.html"
+    },
+    {
       "by": "WesSouza",
       "descendants": 0,
       "id": 30440511,
       "score": 1,
       "time": 1645621513,
-      "title": "I made a react-Wordle fork but it's the MD5 hash",
+      "title": "I made a react-wordle fork but it's the MD5 hash",
       "type": "story",
       "url": "https://md5le.vercel.app"
     },
@@ -19,6 +72,20 @@
       "title": "Show HN: Hide all mentions of Wordle in Hacker News feeds",
       "type": "story",
       "url": "https://gist.github.com/tucnak/746b115d497c5f53b3a064001c61dd45"
+    },
+    {
+      "by": "js4ever",
+      "descendants": 3,
+      "id": 30440486,
+      "kids": [
+        30440498,
+        30440508
+      ],
+      "score": 4,
+      "text": "Hello Hacker News!<p>We&#x27;re Joseph, Kieran and David from elestio (https:&#x2F;&#x2F;elest.io&#x2F;).\nWe&#x27;ve built a platform that offers open-source software as a managed service - we take care of the OS and app updates, security, SSL, networking, backups, the whole deal.<p>In 2009, we started deploying open-source software for websites and web apps we built, many for SMB and enterprise customers. Our process was basically: spin up VM&#x27;s from a hosting provider, install the software we needed, then update it manually &#x2F; when it was needed &#x2F; critical, etc.<p>Once we hit &gt; 100 servers&#x2F;services needing updates, backups, capacity monitoring and alerting, etc. we saw that it was getting totally unmanageable… so we built what would eventually become elestio.<p>We&#x27;ve put a lot, a lot, a lot of work into building something that allows us (and now you) to deploy a new service in just a few minutes, with zero ongoing maintenance &#x2F; devops overhead. We basically turned open-source software into a SaaS experience.<p>We update all the apps, respecting SemVer on the branch you select, issue and renew SSL certs automatically (even for your own domains, for free), automatically implement a 3-2-1 backup strategy, caching is handled and we put your service behind a configurable firewall and rate limiter with sane defaults. We have implemented Nebula to connect your services hosted in different datacenters across regions and providers as if they were on the same network and Borg backups to do deduplicated incremental backups in a remote datacenter.<p>There were many challenges in building it… VM providers don&#x27;t have homogenous or feature-complete APIs for provisioning servers, we tested 6 different mesh networking&#x2F;VPN solutions to enable services running in different datacenters, regions, or providers to connect to each other securely, and we did a lot of work to create a sane templating system that covers setup, security, backups, upgrade, migrations and monitoring, lots of work to test the safest ways to update OS and apps without breaking things… but we got there and it works really well (we think)! Deployments are based on Docker, which helped a lot to standardize everything.<p>We&#x27;ve been using it to deploy and maintain over 12,000 services for our own enterprise clients and we&#x27;ve spent the last year making it user-friendly (and even more bulletproof for end-user configs). Elestio can currently deploy any one of over 150 open-source software stacks like Postgres, MySQL, OpenSearch, Redis, Wordpress, NodeBB, Jitsi, Uptime-kuma, Plausible, GitLab,, Strapi, Ghost, or even PowerDns, Grafana, ClickHouse, etc. in about 3 minutes, flat.<p>We currently support AWS Lightsail, Linode, Hetzner, Vultr and Digital Ocean, and BringYourOwnVM, if you want to run on your own provider account or even on-premise but have all the features of managed services. We are offering 1 BYOVM service per customer for free forever.<p>Something we really wanted to do was make sure we were part of a healthy open-source ecosystem. To that end, elestio will donate part of all revenue to the open-source projects our customers are using. We will review this annually and if it&#x27;s possible to increase it, we will. This is a win-win-win to us. Open-source developers and communities get more resources to improve their software while our customers, our staff and other stakeholders know that they are helping to support the open-source community.<p>For this launch we made a partnership with DigitalOcean, they are offering $250 of free credits on Elestio if you go through this link: https:&#x2F;&#x2F;try.digitalocean.com&#x2F;elestio&#x2F;<p>Alternatively you can also register here and get $20 of free credits but not limited to DO infrastructure: https:&#x2F;&#x2F;dash.elest.io&#x2F;signup<p>All your questions and comments are welcome and if you want to share any devops horror stories, please do! We&#x27;re giving out free credits for the best ones!!<p>Joseph, Kieran and David",
+      "time": 1645621236,
+      "title": "Show HN: Fully managed open-source platform for 150 software",
+      "type": "story"
     },
     {
       "by": "caaqil",
@@ -39,66 +106,6 @@
       "title": "Close the USPS, Cut 600k People and 31,000 Offices",
       "type": "story",
       "url": "https://247wallst.com/business/2022/02/22/close-the-usps-cut-600000-people-and-31000-offices/"
-    },
-    {
-      "by": "el_duderino",
-      "descendants": 0,
-      "id": 30440474,
-      "score": 2,
-      "time": 1645621115,
-      "title": "A security technique to fool would-be cyber attackers",
-      "type": "story",
-      "url": "https://news.mit.edu/2022/cyber-security-attackers"
-    },
-    {
-      "by": "pcw888",
-      "descendants": 0,
-      "id": 30440471,
-      "score": 1,
-      "time": 1645621106,
-      "title": "Containerd Cgroupsv2 Inotify Leak",
-      "type": "story",
-      "url": "https://www.flatcar.org/blog/2022/02/containerd-cgroupsv2-inotify-leak/"
-    },
-    {
-      "by": "h2odragon",
-      "descendants": 0,
-      "id": 30440433,
-      "score": 1,
-      "time": 1645620783,
-      "title": "The smallpox pandemic response was eerily similar to Covid",
-      "type": "story",
-      "url": "https://amidwesterndoctor.substack.com/p/the-smallpox-pandemic-response-was"
-    },
-    {
-      "by": "jger15",
-      "descendants": 0,
-      "id": 30440427,
-      "score": 2,
-      "time": 1645620751,
-      "title": "The Meme Leak Theory",
-      "type": "story",
-      "url": "https://www.drorpoleg.com/chinas-war-on-memes/"
-    },
-    {
-      "by": "tosh",
-      "descendants": 0,
-      "id": 30440410,
-      "score": 1,
-      "time": 1645620614,
-      "title": "A guide to IPFS connectivity in web browsers",
-      "type": "story",
-      "url": "https://blog.ipfs.io/2021-06-10-guide-to-ipfs-connectivity-in-browsers/"
-    },
-    {
-      "by": "mudro_zboris",
-      "descendants": 0,
-      "id": 30440390,
-      "score": 4,
-      "time": 1645620424,
-      "title": "The Toxoplasma of Rage (2014)",
-      "type": "story",
-      "url": "https://slatestarcodex.com/2014/12/17/the-toxoplasma-of-rage/"
     }
   ]
 }
