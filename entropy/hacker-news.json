@@ -1,12 +1,45 @@
 {
   "stories": [
     {
-      "by": "prabhuignoto",
+      "by": "simonpurdon10",
       "descendants": 0,
+      "id": 30445310,
+      "score": 1,
+      "text": "I&#x27;m a PO that&#x27;s developing a fintech product in South Africa. Our banks don&#x27;t play nicely in terms of data extraction and APIs are non-existent. No such thing as open banking here.<p>I am looking to hire a developer that is a specialist in reverse-engineering the API&#x27;s that the bank&#x27;s use to connect their mobile apps to their servers. We would then use the structure of those API&#x27;s to build our own products on top of. We currently have a version of this product that works using scraping, but we&#x27;re exploring a solution that is more sustainable.<p>2 Questions:<p>1. What specific skills should I be looking for in this developer? Native experience? Backend&#x2F;API-specific?\n2. Where best to look for that type of developer, if anyone has any advice?<p>TIA",
+      "time": 1645645118,
+      "title": "Ask HN: Find developers to work on API back-engineering",
+      "type": "story"
+    },
+    {
+      "by": "aszen",
+      "descendants": 0,
+      "id": 30445302,
+      "score": 1,
+      "text": "We have a multi tenant application which uses a db for each tenant, how do scale it to support 1000s of tenants. Managing dbs for each tenant seems a lot of work. \nMySQL server has a limit on how many databases you can create on a single server. \nAlso how to make sure each tenants load stays balanced, and one tenants worse performance does not affect another.",
+      "time": 1645645082,
+      "title": "Ask HN: How to scale a multi tenant app that uses a db per tenant",
+      "type": "story"
+    },
+    {
+      "by": "thescribbblr",
+      "descendants": 0,
+      "id": 30445287,
+      "score": 1,
+      "text": "Feeling too low. Got insulted by a famous founder.",
+      "time": 1645644994,
+      "title": "Ask HN: How as a solo founder you overcome the demotivation?",
+      "type": "story"
+    },
+    {
+      "by": "prabhuignoto",
+      "descendants": 1,
       "id": 30445262,
+      "kids": [
+        30445290
+      ],
       "score": 1,
       "time": 1645644850,
-      "title": "Show HN: React-creme – A lightweight UI Toolkit/ Component library for react",
+      "title": "Show HN: react-creme – A lightweight UI Toolkit / Component library for react",
       "type": "story"
     },
     {
@@ -21,9 +54,12 @@
     },
     {
       "by": "njuneja",
-      "descendants": 0,
+      "descendants": 1,
       "id": 30445204,
-      "score": 1,
+      "kids": [
+        30445332
+      ],
+      "score": 2,
       "time": 1645644514,
       "title": "Co-Founder",
       "type": "story",
@@ -43,7 +79,7 @@
       "by": "freediver",
       "descendants": 0,
       "id": 30445188,
-      "score": 2,
+      "score": 3,
       "time": 1645644445,
       "title": "The Right to Read",
       "type": "story",
@@ -68,36 +104,6 @@
       "title": "How Ebooks Have Poisoned Electronic Ink",
       "type": "story",
       "url": "https://schmud.de/posts/2021-12-01-eink.html"
-    },
-    {
-      "by": "mooreds",
-      "descendants": 0,
-      "id": 30445143,
-      "score": 2,
-      "time": 1645644197,
-      "title": "Create and Validate JWT Tokens and Use Custom JWT Middleware in .NET 6",
-      "type": "story",
-      "url": "https://jasonwatmore.com/post/2022/01/19/net-6-create-and-validate-jwt-tokens-use-custom-jwt-middleware"
-    },
-    {
-      "by": "ingve",
-      "descendants": 0,
-      "id": 30445142,
-      "score": 1,
-      "time": 1645644192,
-      "title": "Timeline of Historical Film Colors",
-      "type": "story",
-      "url": "https://filmcolors.org/"
-    },
-    {
-      "by": "dtx1",
-      "descendants": 0,
-      "id": 30445139,
-      "score": 1,
-      "time": 1645644162,
-      "title": "1000ft of ANALOG HD video over a single cable?",
-      "type": "story",
-      "url": "https://www.youtube.com/watch?v=YYAVrLBKavM"
     }
   ]
 }
