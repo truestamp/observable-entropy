@@ -1,10 +1,53 @@
 {
   "stories": [
     {
-      "by": "LinuxBender",
+      "by": "n2parko",
       "descendants": 0,
-      "id": 30442182,
+      "id": 30442265,
       "score": 1,
+      "time": 1645631038,
+      "title": "How Big Is the Carbon Removal Market?",
+      "type": "story",
+      "url": "https://n2parko.com/p/how-big-is-the-carbon-removal-market"
+    },
+    {
+      "by": "sebg",
+      "descendants": 0,
+      "id": 30442238,
+      "score": 1,
+      "time": 1645630939,
+      "title": "An introduction to the deceit of statistical significance without p-values",
+      "type": "story",
+      "url": "http://www.argmin.net/2022/02/23/standard-errors/"
+    },
+    {
+      "by": "carride",
+      "descendants": 0,
+      "id": 30442234,
+      "score": 1,
+      "time": 1645630923,
+      "title": "Exporting Farmed Totoaba. Will It Help World’s Most Endangered Porpoise?",
+      "type": "story",
+      "url": "https://hakaimagazine.com/features/will-exporting-farmed-totoaba-fix-the-big-mess-pushing-the-worlds-most-endangered-porpoise-to-extinction/"
+    },
+    {
+      "by": "spansoa",
+      "descendants": 0,
+      "id": 30442210,
+      "score": 1,
+      "time": 1645630828,
+      "title": "The boring front-end developer (2014)",
+      "type": "story",
+      "url": "https://adamsilver.io/blog/the-boring-front-end-developer/"
+    },
+    {
+      "by": "LinuxBender",
+      "descendants": 1,
+      "id": 30442182,
+      "kids": [
+        30442229
+      ],
+      "score": 2,
       "time": 1645630699,
       "title": "Metaverse app allows kids into virtual strip clubs",
       "type": "story",
@@ -14,7 +57,7 @@
       "by": "mudro_zboris",
       "descendants": 0,
       "id": 30442180,
-      "score": 1,
+      "score": 2,
       "time": 1645630683,
       "title": "On the Front Lines of Putin’s Digital War with Ukraine",
       "type": "story",
@@ -59,47 +102,6 @@
       "title": "ScyllaDB rewriting C++ and Python drivers to use Rust Async underneath",
       "type": "story",
       "url": "https://www.scylladb.com/2022/02/22/were-porting-our-database-drivers-to-async-rust/"
-    },
-    {
-      "by": "hpx7",
-      "descendants": 0,
-      "id": 30442072,
-      "score": 2,
-      "text": "Hi HN, this is Harsh, I am the developer behind Hathora. I tried making a simple multiplayer game a few years ago and, as someone with software engineering experience but no gamedev experience, I found it to be very challenging. On top of the challenges of building a single player game, you now have to constantly battle the network and latency, find ways to prevent cheating, and figure out how to make a scalable backend architecture. With Hathora my goal was to encode best practices for online multiplayer game development into a framework so developers can simply focus on implementing their game logic.<p>Some technical pieces of Hathora I wanted to highlight:<p>- Hathora includes a system I think of as “gRPC for games”. You define your API in Hathora’s declarative format and the framework spits out typesafe data models, clients, and server endpoint stubs across multiple programming languages (although currently only Typescript is implemented). Minimal packet sizes are achieved through a binary serialization format which includes a delta encoding feature, allowing the framework to efficiently synchronize state by sending data diffs.<p>- Hathora includes a Swagger-like Prototype UI generated from the API definition. This allows you to view the game state and call server methods all in realtime, letting you interact with your backend logic without writing a single line of frontend code. Once you are happy with the backend logic, you can create a fully custom frontend using any framework&#x2F;technology you’d like and just use the Hathora client to communicate with the backend.<p>- By handling generic game functionality (state synchronization, messaging, persistence, etc) for you, Hathora lets you create multiplayer games with very few lines of code. For example, see chess which is implemented in under 200 lines of user code: <a href=\"https:&#x2F;&#x2F;github.com&#x2F;hathora&#x2F;hathora&#x2F;tree&#x2F;develop&#x2F;examples&#x2F;chess\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;hathora&#x2F;hathora&#x2F;tree&#x2F;develop&#x2F;examples&#x2F;che...</a>. I also made (a massively simplified version of) Among Us in under 200 lines of code: <a href=\"https:&#x2F;&#x2F;github.com&#x2F;hathora&#x2F;among-us-tutorial\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;hathora&#x2F;among-us-tutorial</a><p>I am looking for developers interested in making online multiplayer games to try out Hathora and give me feedback. Additionally, if the roadmap seems interesting to you I would gladly welcome contributions: <a href=\"https:&#x2F;&#x2F;docs.hathora.dev&#x2F;#&#x2F;roadmap\" rel=\"nofollow\">https:&#x2F;&#x2F;docs.hathora.dev&#x2F;#&#x2F;roadmap</a>. I’ll be around to answer questions, let me know what you think!",
-      "time": 1645630215,
-      "title": "Show HN: Hathora – Multiplayer Game Development Made Easy",
-      "type": "story",
-      "url": "https://docs.hathora.dev/#/"
-    },
-    {
-      "by": "softwarebeware",
-      "descendants": 0,
-      "id": 30442069,
-      "score": 1,
-      "time": 1645630207,
-      "title": "Global warming for kids: A simple explanation of climate change",
-      "type": "story",
-      "url": "https://www.explainthatstuff.com/globalwarmingforkids.html"
-    },
-    {
-      "by": "Tomte",
-      "descendants": 0,
-      "id": 30442066,
-      "score": 1,
-      "time": 1645630183,
-      "title": "Our favorite two-player board games, 2019 edition",
-      "type": "story",
-      "url": "https://arstechnica.com/gaming/2019/02/our-favorite-two-player-board-games-2019-edition/"
-    },
-    {
-      "by": "EvgeniyZh",
-      "descendants": 0,
-      "id": 30442065,
-      "score": 1,
-      "time": 1645630179,
-      "title": "IonQ Aria Furthers Lead as World’s Most Powerful Quantum Computer",
-      "type": "story",
-      "url": "https://ionq.com/news/february-23-2022-ionq-aria-furthers-lead"
     }
   ]
 }
