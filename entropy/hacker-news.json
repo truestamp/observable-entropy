@@ -1,12 +1,63 @@
 {
   "stories": [
-    null,
-    null,
+    {
+      "by": "aarondf",
+      "descendants": 0,
+      "id": 30444907,
+      "score": 1,
+      "time": 1645643062,
+      "title": "Why create one Lambda per HTTP route?",
+      "type": "story",
+      "url": "https://twitter.com/fideloper/status/1496506610197409798"
+    },
+    {
+      "by": "fourseventy",
+      "descendants": 0,
+      "id": 30444897,
+      "score": 1,
+      "text": "My company builds on top of the Google Ads API. We are having serious issues with the iteration speed of the API and the aggressive deprecation and sunset schedule. Every few months we get emails warning us that the version of the API that we are currently using is going to sunset shortly and we need to migrate to the latest version. For example we are currently on V9 of the API. We migrated to it almost as soon as it was released on November 3, 2021. The sunset date for this version of the API is February 9, 2022. This is a grand total of 3 months and 6 days between release and sunset.<p>Three months between release of an API version and sunset is insane to me. Luckily we are an agile startup and can switch to a new API version fairly quickly (when there aren&#x27;t breaking changes, which sometimes there are). I have no idea how a bigger company who has to go through layers of QA, release planning, and red tape could possibly keep up. By the time you develop and launch support for a new version of the API you would literally have to start all over and work on upgrading to the next version.<p>You can see the release and sunset schedule on this page of the docs: https:&#x2F;&#x2F;developers.google.com&#x2F;google-ads&#x2F;api&#x2F;docs&#x2F;sunset-dates<p>Version| Release date  | Sunset date\n-------|----------------------|-----------------------\nv12 October&#x2F;November 2022 June&#x2F;July 2023 \nv11 June&#x2F;July 2022  March&#x2F;April 2023 \nv10 February 9, 2022 October&#x2F;November 2022 \nv9 November 3, 2021 February 9, 2022 \nv8 June 9, 2021         November 3, 2021 \nv7 April 28, 2021         September 8, 2021",
+      "time": 1645642992,
+      "title": "Google Ads API sunset schedule is too aggressive",
+      "type": "story"
+    },
+    {
+      "by": "hhs",
+      "descendants": 0,
+      "id": 30444891,
+      "score": 1,
+      "time": 1645642961,
+      "title": "Some science is the art of the soluble, while some depends (2001)",
+      "type": "story",
+      "url": "https://www.irishtimes.com/news/some-science-is-the-art-of-the-soluble-while-some-depends-1.278650"
+    },
+    {
+      "by": "aykae_",
+      "descendants": 0,
+      "id": 30444866,
+      "score": 1,
+      "time": 1645642821,
+      "title": "The Social Network Hacking Scene Explained",
+      "type": "story",
+      "url": "https://www.youtube.com/watch?v=EZ8z26WXlTk"
+    },
+    {
+      "by": "zh3",
+      "descendants": 1,
+      "id": 30444853,
+      "kids": [
+        30444894
+      ],
+      "score": 1,
+      "time": 1645642789,
+      "title": "UK Government proposal to return to Imperial Units",
+      "type": "story",
+      "url": "https://www.bbc.co.uk/news/uk-politics-58597693"
+    },
     {
       "by": "runkinrun",
       "descendants": 0,
       "id": 30444827,
-      "score": 1,
+      "score": 2,
       "text": "It seems Stripe and others consider it a risk and don&#x27;t allow it. I am trying to add in-app currency to my web app - to allow some users to buy the currency and send to others who can then get a pay out.",
       "time": 1645642644,
       "title": "Ask HN: How do I build payment integration for in-app currency",
@@ -46,44 +97,11 @@
       "by": "TheEzEzz",
       "descendants": 0,
       "id": 30444800,
-      "score": 1,
+      "score": 3,
       "time": 1645642567,
       "title": "Synthetic Dataset for ML in Retail",
       "type": "story",
       "url": "https://standard.ai/blog/standard-sim-a-synthetic-dataset-for-retail-environments/"
-    },
-    {
-      "by": "going_ham",
-      "descendants": 0,
-      "id": 30444799,
-      "score": 1,
-      "time": 1645642566,
-      "title": "Project CAIRaoke: Breakthrough conversational AI",
-      "type": "story",
-      "url": "https://www.youtube.com/watch?v=JnD6iRN9dt8"
-    },
-    {
-      "by": "perihelions",
-      "descendants": 1,
-      "id": 30444798,
-      "kids": [
-        30444803
-      ],
-      "score": 1,
-      "time": 1645642566,
-      "title": "Twitter admits it mistakenly removed Ukraine open-source intelligence accounts",
-      "type": "story",
-      "url": "https://www.ft.com/content/5b23938b-49b8-426f-97af-640ba40c9922"
-    },
-    {
-      "by": "aml183",
-      "descendants": 0,
-      "id": 30444797,
-      "score": 1,
-      "time": 1645642562,
-      "title": "Osint via Satellite",
-      "type": "story",
-      "url": "https://payloadspace.com/osint-via-satellite/"
     }
   ]
 }
