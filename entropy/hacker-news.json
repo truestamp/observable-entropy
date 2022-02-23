@@ -1,6 +1,46 @@
 {
   "stories": [
     {
+      "by": "prostoalex",
+      "descendants": 0,
+      "id": 30442833,
+      "score": 1,
+      "time": 1645633772,
+      "title": "Virgin Hyperloop axes half its staff",
+      "type": "story",
+      "url": "https://www.ft.com/content/d87f77bd-0a0a-4512-b983-197f184f5352"
+    },
+    {
+      "by": "CapitalistCartr",
+      "descendants": 0,
+      "id": 30442831,
+      "score": 1,
+      "time": 1645633758,
+      "title": "Hybrid work trend drives PC maker Lenovo's Q3 profit to record high",
+      "type": "story",
+      "url": "https://news.yahoo.com/hybrid-trend-drives-pc-maker-041122399.html"
+    },
+    {
+      "by": "gepeto42",
+      "descendants": 0,
+      "id": 30442823,
+      "score": 1,
+      "time": 1645633696,
+      "title": "Security talent in non-US locations like Montreal",
+      "type": "story",
+      "url": "https://www.linkedin.com/posts/guillaumeross_security-talent-in-the-montreal-market-activity-6902279528190988288-Ur_t"
+    },
+    {
+      "by": "classichasclass",
+      "descendants": 0,
+      "id": 30442816,
+      "score": 1,
+      "time": 1645633634,
+      "title": "KIMdle: Sorta-Wordle for the KIM-1 (in under 1KB)",
+      "type": "story",
+      "url": "http://oldvcr.blogspot.com/2022/02/kimdle-sorta-wordle-for-kim-1.html"
+    },
+    {
       "by": "Scandiravian",
       "descendants": 0,
       "id": 30442727,
@@ -14,7 +54,7 @@
       "by": "coatue",
       "descendants": 0,
       "id": 30442718,
-      "score": 6,
+      "score": 7,
       "text": "Hi HN, we’re Joe and JD from Hydra (<a href=\"https:&#x2F;&#x2F;hydras.io&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;hydras.io&#x2F;</a>).  Hydra is a Postgres extension that intelligently routes queries through Postgres to other databases. Engineers query regular Postgres, and Hydra extends a Postgres-compliant SQL layer to non-relational, columnar, and graph DBs. It currently works with Postgres and Snowflake, and we have a roadmap to support MongoDB, Google BigQuery, and ClickHouse.<p>Different databases are good at different things. For example, Postgres is good at low-latency transactional workloads, but slow when running analytical queries. For the latter, you&#x27;re better off with a columnar database like Snowflake.  The problem is that for each new database added to a system, application complexity increases quickly.<p>Working at Microsoft Azure, I saw many companies juggle database trade-offs in complex architectures. When organizations adopted new databases, engineers were forced to re-write application code to support the new database or use multiple apps to offset database performance tradeoffs. All this is expensive busy work that frustrates engineers. Adopting new databases is hard and expensive.<p>Hydra automatically picks the right DB for the right task and pushes down computation, meaning each query will get routed to where it can be executed the fastest. We’ve seen results return 100X faster when executing to the right database.<p>We&#x27;ve chosen to integrate with Snowflake first so that developers can easily gain the analytical performance of Snowflake through a simple Postgres interface. To an application, Hydra looks like a single database that can handle both transactions and analytics.  As soon as transactions are committed in Postgres, they are accessible for analytics in real-time. Combining the strengths of Postgres and Snowflake in this way results in what is sometimes called HTAP: Hybrid Transactional-Analytical Processing (<a href=\"https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Hybrid_transactional&#x2F;analytical_processing\" rel=\"nofollow\">https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Hybrid_transactional&#x2F;analytica...</a>), which is the convergence of OLTP and OLAP.<p>Existing solutions are manual and require communicating with each datastore separately. The common alternative is trying to combine all of your data together into a data warehouse via ETL. That works well for analysts and data scientists, but isn&#x27;t transactional and can&#x27;t be used to power responsive applications. With Hydra engineers can write unified applications to cover workloads that used to have to be separate.<p>Hydra runs as a Postgres extension, which gives it the ability to use Postgres internals and modify execution of queries. Hydra intercepts queries in real-time and routes queries based on query type, user settings, and Postgres&#x27; cost analysis. Writes and operational reads go to Postgres, analytical workloads go to Snowflake.<p>Recently committed transactions are moved from Postgres to Snowflake in near real-time using Hydra Bridge, our built-in data pipeline that links databases from within Postgres.  The bridge is an important part of what we do. Without Hydra, workloads are typically isolated between different databases, requiring engineers to implement slow and costly ETL processes. Complex analytics are often run on older data, updated monthly or weekly. The Hydra bridge allows for real-time data movement, enabling analytics to be run on fresh data.<p>We make money by charging for Hydra Postgres, which is a Postgres managed service, and Hydra Instance, which attaches Hydra to your existing Postgres database. Pricing is listed on the product pages: <a href=\"https:&#x2F;&#x2F;hydras.io&#x2F;products&#x2F;postgres\" rel=\"nofollow\">https:&#x2F;&#x2F;hydras.io&#x2F;products&#x2F;postgres</a> and <a href=\"https:&#x2F;&#x2F;hydras.io&#x2F;products&#x2F;instance\" rel=\"nofollow\">https:&#x2F;&#x2F;hydras.io&#x2F;products&#x2F;instance</a>.<p>A little about our backgrounds: Joseph Sciarrino - Former PM @ MSFT Azure Open-Source Databases team. Heroku (W08) and Citus Data (S11) alum. Jonathan Dance - Director @ Heroku (2011-2021)<p>Using Hydra you can create a database cluster of your own design. We’d love to know what Hydra clusters you’d be interested in creating. For example, Elasticsearch + Postgres, BigQuery + SingleStore + Postgres, etc. Remember - You can experiment different combinations without rewriting queries, since Hydra extends Postgres over these other databases. When you think about databases like interoperable parts you can get super creative!",
       "time": 1645633131,
       "title": "Launch HN: Hydra (YC W22) – Query Any Database via Postgres",
@@ -55,51 +95,11 @@
       "by": "samglover97",
       "descendants": 0,
       "id": 30442677,
-      "score": 1,
+      "score": 3,
       "time": 1645632944,
       "title": "The Altruistic Killer",
       "type": "story",
       "url": "https://atis.substack.com/p/the-altruistic-killer"
-    },
-    {
-      "by": "correlator",
-      "descendants": 0,
-      "id": 30442669,
-      "score": 1,
-      "time": 1645632917,
-      "title": "People spend a lot of time on their phones",
-      "type": "story",
-      "url": "https://www.statista.com/statistics/1224510/time-spent-per-day-on-smartphone-us/"
-    },
-    {
-      "by": "BarrySeal",
-      "descendants": 0,
-      "id": 30442656,
-      "score": 1,
-      "time": 1645632874,
-      "title": "Rise in Non-Covid-19 Deaths Hits Life Insurers",
-      "type": "story",
-      "url": "https://www.wsj.com/articles/rise-in-non-covid-19-deaths-hits-life-insurers-11645576252"
-    },
-    {
-      "by": "zacwest",
-      "descendants": 0,
-      "id": 30442647,
-      "score": 1,
-      "time": 1645632830,
-      "title": "IPv6 in a Home Environment",
-      "type": "story",
-      "url": "https://zacwe.st/2022/02/21/ipv6-in-a-home-environment/"
-    },
-    {
-      "by": "Someone",
-      "descendants": 0,
-      "id": 30442638,
-      "score": 1,
-      "time": 1645632762,
-      "title": "The Mesozoic terminated in boreal spring",
-      "type": "story",
-      "url": "https://www.nature.com/articles/s41586-022-04446-1"
     }
   ]
 }
