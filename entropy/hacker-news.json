@@ -1,6 +1,77 @@
 {
   "stories": [
     {
+      "by": "esnard",
+      "descendants": 0,
+      "id": 30442123,
+      "score": 1,
+      "time": 1645630442,
+      "title": "Octordle",
+      "type": "story",
+      "url": "https://octordle.com/"
+    },
+    {
+      "by": "ColinWright",
+      "descendants": 0,
+      "id": 30442110,
+      "score": 2,
+      "time": 1645630395,
+      "title": "The Telephone of the Future (22nd November 1988)",
+      "type": "story",
+      "url": "https://www.youtube.com/watch?v=PFWT2oPhf1w"
+    },
+    {
+      "by": "tastydataset",
+      "descendants": 0,
+      "id": 30442085,
+      "score": 3,
+      "text": "Hi HN. I&#x27;m working on a new project in the realm of data-centric ML. Audio data in machine learning is quite limited, which in turn limits the types of tasks we&#x27;re able to learn to do (speech to text, text to speech, etc). I think that much more is possible, if only we had the right data.<p>I&#x27;d like to start creating more, varied labeled audio data for ML, and I need the community&#x27;s help to figure out what is needed. Please reply in this thread, or fill out this survey.<p>https:&#x2F;&#x2F;forms.gle&#x2F;SmCD4NzFKnF7m44X9<p>Thanks!",
+      "time": 1645630283,
+      "title": "Audio Data for Machine Learning",
+      "type": "story"
+    },
+    {
+      "by": "wellspartan",
+      "descendants": 0,
+      "id": 30442077,
+      "score": 1,
+      "time": 1645630246,
+      "title": "Failed request, trying to exchange authorization code for tokens with Google",
+      "type": "story",
+      "url": "https://stackoverflow.com/questions/71239771/401-failed-request-when-trying-to-exchange-authorization-code-for-tokens-w-goog"
+    },
+    {
+      "by": "alecco",
+      "descendants": 0,
+      "id": 30442074,
+      "score": 1,
+      "time": 1645630237,
+      "title": "ScyllaDB rewriting C++ and Python drivers to use Rust Async underneath",
+      "type": "story",
+      "url": "https://www.scylladb.com/2022/02/22/were-porting-our-database-drivers-to-async-rust/"
+    },
+    {
+      "by": "hpx7",
+      "descendants": 0,
+      "id": 30442072,
+      "score": 2,
+      "text": "Hi HN, this is Harsh, I am the developer behind Hathora. I tried making a simple multiplayer game a few years ago and, as someone with software engineering experience but no gamedev experience, I found it to be very challenging. On top of the challenges of building a single player game, you now have to constantly battle the network and latency, find ways to prevent cheating, and figure out how to make a scalable backend architecture. With Hathora my goal was to encode best practices for online multiplayer game development into a framework so developers can simply focus on implementing their game logic.<p>Some technical pieces of Hathora I wanted to highlight:<p>- Hathora includes a system I think of as “gRPC for games”. You define your API in Hathora’s declarative format and the framework spits out typesafe data models, clients, and server endpoint stubs across multiple programming languages (although currently only Typescript is implemented). Minimal packet sizes are achieved through a binary serialization format which includes a delta encoding feature, allowing the framework to efficiently synchronize state by sending data diffs.<p>- Hathora includes a Swagger-like Prototype UI generated from the API definition. This allows you to view the game state and call server methods all in realtime, letting you interact with your backend logic without writing a single line of frontend code. Once you are happy with the backend logic, you can create a fully custom frontend using any framework&#x2F;technology you’d like and just use the Hathora client to communicate with the backend.<p>- By handling generic game functionality (state synchronization, messaging, persistence, etc) for you, Hathora lets you create multiplayer games with very few lines of code. For example, see chess which is implemented in under 200 lines of user code: <a href=\"https:&#x2F;&#x2F;github.com&#x2F;hathora&#x2F;hathora&#x2F;tree&#x2F;develop&#x2F;examples&#x2F;chess\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;hathora&#x2F;hathora&#x2F;tree&#x2F;develop&#x2F;examples&#x2F;che...</a>. I also made (a massively simplified version of) Among Us in under 200 lines of code: <a href=\"https:&#x2F;&#x2F;github.com&#x2F;hathora&#x2F;among-us-tutorial\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;hathora&#x2F;among-us-tutorial</a><p>I am looking for developers interested in making online multiplayer games to try out Hathora and give me feedback. Additionally, if the roadmap seems interesting to you I would gladly welcome contributions: <a href=\"https:&#x2F;&#x2F;docs.hathora.dev&#x2F;#&#x2F;roadmap\" rel=\"nofollow\">https:&#x2F;&#x2F;docs.hathora.dev&#x2F;#&#x2F;roadmap</a>. I’ll be around to answer questions, let me know what you think!",
+      "time": 1645630215,
+      "title": "Show HN: Hathora – Multiplayer Game Development Made Easy",
+      "type": "story",
+      "url": "https://docs.hathora.dev/#/"
+    },
+    {
+      "by": "softwarebeware",
+      "descendants": 0,
+      "id": 30442069,
+      "score": 1,
+      "time": 1645630207,
+      "title": "Global warming for kids: A simple explanation of climate change",
+      "type": "story",
+      "url": "https://www.explainthatstuff.com/globalwarmingforkids.html"
+    },
+    {
       "by": "Tomte",
       "descendants": 0,
       "id": 30442066,
@@ -29,82 +100,6 @@
       "title": "More than 5k inmates at this prison die every year (2019)",
       "type": "story",
       "url": "https://www.cnn.com/2019/10/04/asia/philippines-inmate-deaths-intl-hnk-scli/index.html"
-    },
-    {
-      "by": "jimmy2020",
-      "descendants": 0,
-      "id": 30442062,
-      "score": 1,
-      "time": 1645630168,
-      "title": "Study reveals persuasive power of headphones",
-      "type": "story",
-      "url": "https://www.axios.com/study-persuasion-headphones-c9edb398-9c19-4c9f-8f10-d952fa243f68.html"
-    },
-    {
-      "by": "qa-guy",
-      "descendants": 0,
-      "id": 30442059,
-      "score": 1,
-      "time": 1645630163,
-      "title": "What's New in Playwright v1.19",
-      "type": "story",
-      "url": "https://www.youtube.com/watch?v=z0EOFvlf14U"
-    },
-    {
-      "by": "sipacate",
-      "descendants": 0,
-      "id": 30442044,
-      "score": 2,
-      "time": 1645630051,
-      "title": "Car stolen with homemade GPS tracker in backseat",
-      "type": "story",
-      "url": "https://blues.io/blog/gps-asset-tracker-with-blues-wireless-and-react/"
-    },
-    {
-      "by": "Karsteski",
-      "descendants": 1,
-      "id": 30442016,
-      "kids": [
-        30442037
-      ],
-      "score": 2,
-      "time": 1645629918,
-      "title": "Xonsh is a Python-powered shell",
-      "type": "story",
-      "url": "https://xon.sh/"
-    },
-    {
-      "by": "jade_mlc",
-      "descendants": 1,
-      "id": 30442005,
-      "kids": [
-        30442006
-      ],
-      "score": 1,
-      "time": 1645629856,
-      "title": "SA, Part 2 – How to choose pre-annotated datasets for Sentiment Analysis?",
-      "type": "story",
-      "url": "https://medium.com/besedo-engineering/sentiment-analysis-part-2-how-to-choose-pre-annotated-datasets-for-sentiment-analysis-d79736e8c147"
-    },
-    {
-      "by": "baybal2",
-      "descendants": 0,
-      "id": 30441996,
-      "score": 2,
-      "time": 1645629818,
-      "title": "Taiwan’s Gogoro manufactures its 1Mth battery",
-      "type": "story",
-      "url": "https://www.taiwannews.com.tw/en/news/4452720"
-    },
-    {
-      "by": "rbanffy",
-      "descendants": 0,
-      "id": 30441990,
-      "score": 1,
-      "time": 1645629793,
-      "title": "Building an Effective and Enjoyable Remote Onboarding Experience",
-      "type": "story",
-      "url": "https://www.infoq.com/articles/remote-onboarding-experience/"
     }
   ]
 }
