@@ -1,6 +1,56 @@
 {
   "stories": [
     {
+      "by": "Tomte",
+      "descendants": 0,
+      "id": 30445088,
+      "score": 1,
+      "time": 1645643937,
+      "title": "Black Central Europe",
+      "type": "story",
+      "url": "https://blackcentraleurope.com/"
+    },
+    {
+      "by": "Tomte",
+      "descendants": 0,
+      "id": 30445087,
+      "score": 1,
+      "time": 1645643928,
+      "title": "Is Free Speech in Danger on University Campus? (2019) [pdf]",
+      "type": "story",
+      "url": "https://link.springer.com/content/pdf/10.1007/s11577-020-00713-z.pdf"
+    },
+    {
+      "by": "lizparody23",
+      "descendants": 0,
+      "id": 30445086,
+      "score": 1,
+      "time": 1645643925,
+      "title": "Apple Store employees use Android phones to help keep their unionizing efforts",
+      "type": "story",
+      "url": "https://www.businessinsider.com/apple-store-union-drive-android-phones-snooping-tim-cook-2022-2"
+    },
+    {
+      "by": "JordanTen",
+      "descendants": 0,
+      "id": 30445076,
+      "score": 1,
+      "time": 1645643863,
+      "title": "Jonathan Ellis, CTO of DataStax on the complexity of distributed storage systems",
+      "type": "story",
+      "url": "https://www.enterpriseready.io/podcast/25-jonathan-ellis-datastax/"
+    },
+    {
+      "by": "soheil",
+      "descendants": 0,
+      "id": 30445052,
+      "score": 1,
+      "text": "Hi HN, this is Soheil (https:&#x2F;&#x2F;flatsauce.com). Flatsauce is a cloud database service that separates storage from compute while horizontally scaling your database cluster. Think of it as a Postgres read&#x2F;write cluster with several nodes except that all the nodes in Flatsauce share the same storage. Flatsauce intelligently routes data between the nodes and incorporates a file locking mechanism to ensure there is no data corruption.<p>In traditional read&#x2F;write replication scenarios usually a write instance is the source of truth. First data is written to the write server then the data is copied to all the read nodes. When more read nodes are needed to run long-running queries the storage needs to be copied for each node.<p>Flatsauce reduces the cost to run a database cluster by eliminating the need to duplicate the data storage every time a new node is added to the cluster.",
+      "time": 1645643774,
+      "title": "Show HN: Flatsauce – Database with Decoupled Storage and Compute",
+      "type": "story"
+    },
+    {
       "by": "jseliger",
       "descendants": 0,
       "id": 30445011,
@@ -11,23 +61,10 @@
       "url": "https://www.strongtowns.org/journal/2022/2/15/how-traffic-engineers-can-finally-tame-stroads-1"
     },
     {
-      "by": "Drewmyers",
-      "descendants": 1,
-      "id": 30445002,
-      "kids": [
-        30445003
-      ],
-      "score": 1,
-      "time": 1645643573,
-      "title": "ETeam",
-      "type": "story",
-      "url": "https://www.eteam.io"
-    },
-    {
       "by": "matbilodeau",
       "descendants": 0,
       "id": 30445000,
-      "score": 2,
+      "score": 4,
       "time": 1645643564,
       "title": "DDoS affecting Ukrainian sites, foreign ministry and state security service down",
       "type": "story",
@@ -61,54 +98,11 @@
       "kids": [
         30444928
       ],
-      "score": 4,
+      "score": 5,
       "time": 1645643062,
       "title": "Why create one Lambda per HTTP route?",
       "type": "story",
       "url": "https://twitter.com/fideloper/status/1496506610197409798"
-    },
-    {
-      "by": "fourseventy",
-      "descendants": 0,
-      "id": 30444897,
-      "score": 1,
-      "text": "My company builds on top of the Google Ads API. We are having serious issues with the iteration speed of the API and the aggressive deprecation and sunset schedule. Every few months we get emails warning us that the version of the API that we are currently using is going to sunset shortly and we need to migrate to the latest version. For example we are currently on V9 of the API. We migrated to it almost as soon as it was released on November 3, 2021. The sunset date for this version of the API is February 9, 2022. This is a grand total of 3 months and 6 days between release and sunset.<p>Three months between release of an API version and sunset is insane to me. Luckily we are an agile startup and can switch to a new API version fairly quickly (when there aren&#x27;t breaking changes, which sometimes there are). I have no idea how a bigger company who has to go through layers of QA, release planning, and red tape could possibly keep up. By the time you develop and launch support for a new version of the API you would literally have to start all over and work on upgrading to the next version.<p>You can see the release and sunset schedule on this page of the docs: https:&#x2F;&#x2F;developers.google.com&#x2F;google-ads&#x2F;api&#x2F;docs&#x2F;sunset-dates<p>Here are a few of the release schedules:<p>Version: V7 \nRelease Date: April 28, 2021 \nSunset Date: September 8, 2021<p>Version: V8\nRelease Date: June 9, 2021\nSunset Date: November 3, 2021<p>Version: V9\nRelease Date: November 3, 2021\nSunset Date: February 9, 2022",
-      "time": 1645642992,
-      "title": "Google Ads API sunset schedule is too aggressive",
-      "type": "story"
-    },
-    {
-      "by": "hhs",
-      "descendants": 0,
-      "id": 30444891,
-      "score": 1,
-      "time": 1645642961,
-      "title": "Some science is the art of the soluble, while some depends (2001)",
-      "type": "story",
-      "url": "https://www.irishtimes.com/news/some-science-is-the-art-of-the-soluble-while-some-depends-1.278650"
-    },
-    {
-      "by": "aykae_",
-      "descendants": 0,
-      "id": 30444866,
-      "score": 1,
-      "time": 1645642821,
-      "title": "The Social Network Hacking Scene Explained",
-      "type": "story",
-      "url": "https://www.youtube.com/watch?v=EZ8z26WXlTk"
-    },
-    {
-      "by": "zh3",
-      "descendants": 1,
-      "id": 30444853,
-      "kids": [
-        30444894
-      ],
-      "score": 2,
-      "time": 1645642789,
-      "title": "UK Government proposal to return to Imperial Units",
-      "type": "story",
-      "url": "https://www.bbc.co.uk/news/uk-politics-58597693"
     }
   ]
 }
