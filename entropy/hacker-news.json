@@ -1,6 +1,59 @@
 {
   "stories": [
     {
+      "by": "orangebanana1",
+      "descendants": 0,
+      "id": 30456483,
+      "score": 1,
+      "time": 1645719592,
+      "title": "Chart: Global EV sales more than doubled in 2021",
+      "type": "story",
+      "url": "https://www.canarymedia.com/articles/electric-vehicles/chart-global-ev-sales-more-than-doubled-in-2021"
+    },
+    {
+      "by": "Manket1610",
+      "descendants": 0,
+      "id": 30456476,
+      "score": 2,
+      "time": 1645719572,
+      "title": "Boris Johnson pushes for Russia to be ejected from Swift payment system",
+      "type": "story",
+      "url": "https://www.ft.com/content/69f72de5-d727-496d-9f9d-316db7bdaf03"
+    },
+    {
+      "by": "simonsarris",
+      "descendants": 0,
+      "id": 30456454,
+      "score": 1,
+      "time": 1645719425,
+      "title": "Humans and Hibernating Mammals React to Linoleic Acid in the Same Way",
+      "type": "story",
+      "url": "https://fireinabottle.net/humans-and-hibernating-mammals-react-to-the-same-amount-of-dietary-linoleic-acid-in-the-same-way-by-becoming-torpid/"
+    },
+    {
+      "by": "jeffreportmill1",
+      "descendants": 0,
+      "id": 30456452,
+      "score": 1,
+      "text": "Tell me, if this idea is (1) useful, (2) possible or (3) already exists: A local command line tool that runs standard Unix CLI on a fully configured remote server but on local files.<p>So say the local machine only has a process called &#x27;remo&#x27; that talks to a &#x27;remo-server&#x27; process on a remote machine fully configured with git, gradle, python, java, etc. Then I could do something like this locally:<p><pre><code>    &gt; remo git -clone https:&#x2F;&#x2F;github.com&#x2F;user&#x2F;MyProject\n\n    &gt; cd MyProject\n\n    &gt; remo gradle build\n</code></pre>\nSo with &#x27;remo&#x27; I would be able to run all manner of CLI apps that read&#x2F;write to the local file system without installing anything local. The two processes would be reasonably simple:<p>The local &#x27;remo&#x27; CLI app does this:<p>- Open socket to &#x27;remo-server&#x27; process on remote machine<p>- Execute remote CLI apps<p>- Vend file system info to &#x27;remo-server&#x27; (LIST, HEAD, GET, PUT, DELETE)<p>The remote &#x27;remo-server&#x27; process does this:<p>- Mount a virtual file system<p>- Execute processes locally in vfs root dir<p>- Feed virtual file system via communication with &#x27;remo&#x27; process<p>I don&#x27;t think this is a great business opportunity, but it seems like it could be pretty useful. What do you think?<p>jeff",
+      "time": 1645719423,
+      "title": "Ask HN: Remote Unix CLI on local files?",
+      "type": "story"
+    },
+    {
+      "by": "stickfigure",
+      "descendants": 1,
+      "id": 30456437,
+      "kids": [
+        30456475
+      ],
+      "score": 1,
+      "text": "https:&#x2F;&#x2F;liveuamap.com&#x2F; has been returning 500 errors since last night. Any idea what&#x27;s going on?<p>This was an amazing resource - a map, updated in realtime with events in Ukraine as they unfold.",
+      "time": 1645719326,
+      "title": "What Happened to Liveuamap.com?",
+      "type": "story"
+    },
+    {
       "by": "softwarebeware",
       "descendants": 0,
       "id": 30456394,
@@ -32,12 +85,14 @@
     },
     {
       "by": "whalesalad",
-      "descendants": 1,
+      "descendants": 4,
       "id": 30456358,
       "kids": [
+        30456460,
+        30456443,
         30456400
       ],
-      "score": 20,
+      "score": 42,
       "time": 1645718948,
       "title": "America’s most widely consumed cooking oil causes genetic changes in the brain",
       "type": "story",
@@ -52,62 +107,6 @@
       "title": "Clinton: 'Victory for a safer world' (1999)",
       "type": "story",
       "url": "http://edition.cnn.com/US/9906/10/us.kosovo.04/index.html"
-    },
-    {
-      "by": "LukeEF",
-      "descendants": 0,
-      "id": 30456338,
-      "score": 1,
-      "time": 1645718888,
-      "title": "What if MongoDB and Neo4j had a baby?",
-      "type": "story",
-      "url": "https://github.com/terminusdb/technical-blogs/blob/main/blogs/mongo_neo4j_terminusx.md"
-    },
-    {
-      "by": "ushakov",
-      "descendants": 0,
-      "id": 30456337,
-      "score": 1,
-      "time": 1645718887,
-      "title": "Wanna See a Whiter White?",
-      "type": "story",
-      "url": "https://kidi.ng/wanna-see-a-whiter-white/"
-    },
-    {
-      "by": "beingmani",
-      "descendants": 1,
-      "id": 30456333,
-      "kids": [
-        30456334
-      ],
-      "score": 1,
-      "time": 1645718869,
-      "title": "Portfolio Deisgn Template- Free template included",
-      "type": "story",
-      "url": "https://beingmani.gumroad.com/l/Portfolio-DesignTemplate"
-    },
-    {
-      "by": "aaisola",
-      "descendants": 0,
-      "id": 30456322,
-      "score": 1,
-      "time": 1645718838,
-      "title": "How to incorporate Backtesting for your investment analysis",
-      "type": "story",
-      "url": "https://www.composer.trade/blog/bringing-it-backtesting"
-    },
-    {
-      "by": "carlopi",
-      "descendants": 1,
-      "id": 30456286,
-      "kids": [
-        30456344
-      ],
-      "score": 1,
-      "time": 1645718673,
-      "title": "Show HN: Cheerp 2.7, C++ to JavaScript/WASM, PartialExecuter, Exceptions",
-      "type": "story",
-      "url": "https://leaningtech.com/cheerp-2-7-compile-c-to-webassembly-plus-javascript/"
     }
   ]
 }
