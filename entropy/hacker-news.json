@@ -1,101 +1,108 @@
 {
   "stories": [
-    null,
     {
-      "by": "hannliest",
+      "by": "HieronymusBosch",
       "descendants": 0,
-      "id": 30454843,
+      "id": 30455097,
       "score": 1,
-      "time": 1645711785,
-      "title": "Developer Career Ambitions and Goals",
+      "time": 1645712931,
+      "title": "Iconic Game Cracking Group CODEX Shuts Down",
       "type": "story",
-      "url": "https://cult.honeypot.io/developer-ambitions-2022/ambitions-europe/"
+      "url": "https://torrentfreak.com/iconic-game-cracking-group-codex-shuts-down-220224/"
     },
     {
-      "by": "nixass",
+      "by": "elvis70",
       "descendants": 0,
-      "id": 30454811,
+      "id": 30455095,
       "score": 1,
-      "time": 1645711640,
-      "title": "Scientists Discover the Long-Lost Continent ‘Balkanatolia’",
+      "time": 1645712926,
+      "title": "The Computer Front Panel",
       "type": "story",
-      "url": "https://www.vice.com/en/article/g5q8zm/scientists-discover-the-long-lost-continent-balkanatolia"
+      "url": "http://www.quadibloc.com/comp/panint.htm"
     },
     {
-      "by": "lukaseder",
+      "by": "tipsytoad",
       "descendants": 0,
-      "id": 30454801,
+      "id": 30455077,
       "score": 1,
-      "time": 1645711569,
-      "title": "Various meanings of SQL’s PARTITION BY syntax",
+      "time": 1645712846,
+      "title": "Expected Value vs. Expected Growth",
       "type": "story",
-      "url": "https://blog.jooq.org/various-meanings-of-sqls-partition-by-syntax/"
+      "url": "https://tompollak.me/blog/ev-v-eg/"
     },
     {
-      "by": "tentacleuno",
+      "by": "softwarebeware",
       "descendants": 0,
-      "id": 30454796,
+      "id": 30455066,
       "score": 1,
-      "time": 1645711556,
-      "title": "Emulator of Original Dell Charger Using ATTINY85",
+      "time": 1645712773,
+      "title": "Documenting the Silicon Valley Mindset",
       "type": "story",
-      "url": "https://github.com/KivApple/dell-charger-emulator"
+      "url": "https://vaguevisages.com/2022/02/04/silicon-valley-mindset-essay/"
     },
     {
-      "by": "cskau",
+      "by": "jorzel",
+      "descendants": 1,
+      "id": 30455048,
+      "kids": [
+        30455049
+      ],
+      "score": 1,
+      "time": 1645712700,
+      "title": "Ports and Adapters. Python Example",
+      "type": "story",
+      "url": "https://github.com/jorzel/opentable"
+    },
+    {
+      "by": "flomesh_pipy",
       "descendants": 0,
-      "id": 30454781,
+      "id": 30455039,
+      "score": 1,
+      "text": "Wrote an article on InfoQ, introducing an open source programmable network proxy, explain its design, architecture and create a fully working reverse proxy.",
+      "time": 1645712672,
+      "title": "Show HN: How to Create a Network Proxy Using Stream Processor Pipy",
+      "type": "story",
+      "url": "https://www.infoq.com/articles/network-proxy-stream-processor-pipy/"
+    },
+    {
+      "by": "mariuz",
+      "descendants": 0,
+      "id": 30455015,
       "score": 2,
-      "time": 1645711508,
-      "title": "NATO-Russia Relations: The Facts",
+      "time": 1645712561,
+      "title": "10 Years Later, Here’s Why the Rasperry Pi Still Rocks",
       "type": "story",
-      "url": "https://www.nato.int/cps/en/natohq/topics_111767.htm"
+      "url": "https://www.howtogeek.com/787198/raspberry-pi-origins/"
     },
     {
-      "by": "madamdo",
+      "by": "softwarebeware",
       "descendants": 0,
-      "id": 30454773,
+      "id": 30455000,
       "score": 1,
-      "time": 1645711463,
-      "title": "How to build a strong engineering culture through engineering values",
+      "time": 1645712495,
+      "title": "How to Think for Yourself",
       "type": "story",
-      "url": "https://www.software-engineering-unlocked.com/engineering-values/"
+      "url": "http://paulgraham.com/think.html"
     },
     {
-      "by": "lombarovic",
-      "descendants": 1,
-      "id": 30454767,
-      "kids": [
-        30454768
-      ],
-      "score": 1,
-      "time": 1645711439,
-      "title": "How to bring an HTML5 game to Steam",
-      "type": "story",
-      "url": "https://www.drawize.com/blog/tech-how-to-release-html5-game-on-steam"
-    },
-    {
-      "by": "nomilk",
-      "descendants": 1,
-      "id": 30454734,
-      "kids": [
-        30454821
-      ],
-      "score": 1,
-      "text": "When Scott Nestler announced via slack channel that he&#x27;d released a new edition of his sports statistics book, I was curious whether it would make a great gift for my dad, who loves horse racing.<p>After some online searches didn&#x27;t tell me how much of the book concerned horse racing, I started typing a message to Scott to ask. Mid-message, I realised I could <i>probably</i> answer it myself.<p>A quick search for the book&#x27;s title with search operator filetype:pdf located a copy. It&#x27;s 377 pages. I <i>could</i> control + f for horse racing, but my dad likes other sports too, so I figured I&#x27;d come this far, let&#x27;s take a second and do this properly.<p>Wikipedia had a lit of all sports but it&#x27;s a tad <i>too</i> comprehensive for what I needed, so I grabbed a list of sports off another site that came up when I searched for a list of sports.<p>I wrote 30 lines of tidyverse code [1] that downloads the 377 page pdf, parses every word in it, filters on the list of sports, groups by word, and provides the number of occurrences of each sport in descending order: providing a rough indicator of how much of the book is dedicated to each sport, all in a few minutes of coding.<p>As someone who codes a lot in ruby, I have a high bar for &#x27;developer happiness&#x27;, but say without hesitation that R and its tidyverse are joy: expressive (almost always read left to right, top to bottom - just like the prose of a book), fast, reliable, succinct, and productive.<p>For anyone put off by R&#x27;s indexing starting at 1 rather than 0, or by use of &lt;- instead of = for assignment, I encourage you to suspend your hesitation for a short while to discover the tidyverse: you may well discover it to be a pure joy.<p>[1] https:&#x2F;&#x2F;i.imgur.com&#x2F;E64yF4Y.png<p>[2] https:&#x2F;&#x2F;pastebin.com&#x2F;Danc9KNr",
-      "time": 1645711274,
-      "title": "Show HN: A Sports Statistics Problem Solved in 30 Lines of Tidyverse Code",
-      "type": "story"
-    },
-    {
-      "by": "pseudolus",
+      "by": "iafrikan",
       "descendants": 0,
-      "id": 30454729,
-      "score": 3,
-      "time": 1645711227,
-      "title": "L.A. woman jailed for nearly 2 weeks in a case of mistaken identity",
+      "id": 30454995,
+      "score": 1,
+      "time": 1645712463,
+      "title": "Senegal to introduce a new blockchain-based national digital currency (2016)",
       "type": "story",
-      "url": "https://www.npr.org/2022/02/24/1082665050/l-a-woman-jailed-for-nearly-2-weeks-in-a-case-of-mistaken-identity-now-shes-suin"
+      "url": "https://www.iafrikan.com/senegal-to-introduce-a-new-national-digitalcurrency/"
+    },
+    {
+      "by": "todsacerdoti",
+      "descendants": 0,
+      "id": 30454994,
+      "score": 2,
+      "time": 1645712462,
+      "title": "Import Readline",
+      "type": "story",
+      "url": "https://susam.net/blog/import-readline.html"
     }
   ]
 }
