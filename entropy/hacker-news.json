@@ -1,104 +1,101 @@
 {
   "stories": [
+    null,
     {
-      "by": "carride",
+      "by": "hannliest",
       "descendants": 0,
-      "id": 30454719,
+      "id": 30454843,
       "score": 1,
-      "time": 1645711196,
-      "title": "Russia’s most cutthroat hackers infect network devices with new botnet malware",
+      "time": 1645711785,
+      "title": "Developer Career Ambitions and Goals",
       "type": "story",
-      "url": "https://arstechnica.com/information-technology/2022/02/russias-most-cut-throat-hackers-infect-network-devices-with-new-botnet-malware/"
+      "url": "https://cult.honeypot.io/developer-ambitions-2022/ambitions-europe/"
     },
     {
-      "by": "Brajeshwar",
+      "by": "nixass",
       "descendants": 0,
-      "id": 30454718,
+      "id": 30454811,
       "score": 1,
-      "time": 1645711194,
-      "title": "Body measurements for all 11,000 bird species released in open-access database",
+      "time": 1645711640,
+      "title": "Scientists Discover the Long-Lost Continent ‘Balkanatolia’",
       "type": "story",
-      "url": "https://phys.org/news/2022-02-body-bird-species-open-access-database.html"
+      "url": "https://www.vice.com/en/article/g5q8zm/scientists-discover-the-long-lost-continent-balkanatolia"
     },
     {
-      "by": "Brajeshwar",
+      "by": "lukaseder",
       "descendants": 0,
-      "id": 30454712,
+      "id": 30454801,
       "score": 1,
-      "time": 1645711165,
-      "title": "Study sheds light on axion dark matter",
+      "time": 1645711569,
+      "title": "Various meanings of SQL’s PARTITION BY syntax",
       "type": "story",
-      "url": "https://phys.org/news/2022-02-axion-dark.html"
+      "url": "https://blog.jooq.org/various-meanings-of-sqls-partition-by-syntax/"
     },
     {
-      "by": "bryanrasmussen",
+      "by": "tentacleuno",
       "descendants": 0,
-      "id": 30454708,
+      "id": 30454796,
       "score": 1,
-      "time": 1645711155,
-      "title": "The Waco Biker Shootout Left Nine Dead. Why Was No One Convicted?",
+      "time": 1645711556,
+      "title": "Emulator of Original Dell Charger Using ATTINY85",
       "type": "story",
-      "url": "https://www.nytimes.com/2022/02/23/magazine/waco-biker-shootout.html"
+      "url": "https://github.com/KivApple/dell-charger-emulator"
     },
     {
-      "by": "akvadrako",
+      "by": "cskau",
       "descendants": 0,
-      "id": 30454707,
-      "score": 1,
-      "time": 1645711152,
-      "title": "AMD is now worth more than Intel",
+      "id": 30454781,
+      "score": 2,
+      "time": 1645711508,
+      "title": "NATO-Russia Relations: The Facts",
       "type": "story",
-      "url": "https://finance.yahoo.com/news/amd-is-now-worth-more-than-rival-intel-111725905.html"
+      "url": "https://www.nato.int/cps/en/natohq/topics_111767.htm"
     },
     {
-      "by": "Brajeshwar",
+      "by": "madamdo",
       "descendants": 0,
-      "id": 30454706,
+      "id": 30454773,
       "score": 1,
-      "time": 1645711150,
-      "title": "Colossal black holes locked in dance at heart of galaxy",
+      "time": 1645711463,
+      "title": "How to build a strong engineering culture through engineering values",
       "type": "story",
-      "url": "https://phys.org/news/2022-02-colossal-black-holes-heart-galaxy.html"
+      "url": "https://www.software-engineering-unlocked.com/engineering-values/"
     },
     {
-      "by": "Willson50",
-      "descendants": 0,
-      "id": 30454679,
+      "by": "lombarovic",
+      "descendants": 1,
+      "id": 30454767,
+      "kids": [
+        30454768
+      ],
       "score": 1,
-      "time": 1645711011,
-      "title": "Watch: NYPD Arrests Amazon Union Organizers at Staten Island Warehouse",
+      "time": 1645711439,
+      "title": "How to bring an HTML5 game to Steam",
       "type": "story",
-      "url": "https://www.vice.com/en/article/3abjz3/watch-nypd-arrests-amazon-union-organizers-at-staten-island-warehouse"
+      "url": "https://www.drawize.com/blog/tech-how-to-release-html5-game-on-steam"
+    },
+    {
+      "by": "nomilk",
+      "descendants": 1,
+      "id": 30454734,
+      "kids": [
+        30454821
+      ],
+      "score": 1,
+      "text": "When Scott Nestler announced via slack channel that he&#x27;d released a new edition of his sports statistics book, I was curious whether it would make a great gift for my dad, who loves horse racing.<p>After some online searches didn&#x27;t tell me how much of the book concerned horse racing, I started typing a message to Scott to ask. Mid-message, I realised I could <i>probably</i> answer it myself.<p>A quick search for the book&#x27;s title with search operator filetype:pdf located a copy. It&#x27;s 377 pages. I <i>could</i> control + f for horse racing, but my dad likes other sports too, so I figured I&#x27;d come this far, let&#x27;s take a second and do this properly.<p>Wikipedia had a lit of all sports but it&#x27;s a tad <i>too</i> comprehensive for what I needed, so I grabbed a list of sports off another site that came up when I searched for a list of sports.<p>I wrote 30 lines of tidyverse code [1] that downloads the 377 page pdf, parses every word in it, filters on the list of sports, groups by word, and provides the number of occurrences of each sport in descending order: providing a rough indicator of how much of the book is dedicated to each sport, all in a few minutes of coding.<p>As someone who codes a lot in ruby, I have a high bar for &#x27;developer happiness&#x27;, but say without hesitation that R and its tidyverse are joy: expressive (almost always read left to right, top to bottom - just like the prose of a book), fast, reliable, succinct, and productive.<p>For anyone put off by R&#x27;s indexing starting at 1 rather than 0, or by use of &lt;- instead of = for assignment, I encourage you to suspend your hesitation for a short while to discover the tidyverse: you may well discover it to be a pure joy.<p>[1] https:&#x2F;&#x2F;i.imgur.com&#x2F;E64yF4Y.png<p>[2] https:&#x2F;&#x2F;pastebin.com&#x2F;Danc9KNr",
+      "time": 1645711274,
+      "title": "Show HN: A Sports Statistics Problem Solved in 30 Lines of Tidyverse Code",
+      "type": "story"
     },
     {
       "by": "pseudolus",
       "descendants": 0,
-      "id": 30454671,
-      "score": 1,
-      "time": 1645710963,
-      "title": "Feeding effort underway to save starving Florida manatees",
+      "id": 30454729,
+      "score": 3,
+      "time": 1645711227,
+      "title": "L.A. woman jailed for nearly 2 weeks in a case of mistaken identity",
       "type": "story",
-      "url": "https://www.theguardian.com/us-news/2022/feb/24/florida-manatees-starving"
-    },
-    {
-      "by": "protontypes",
-      "descendants": 0,
-      "id": 30454657,
-      "score": 1,
-      "text": "I&#x27;m looking for advice on how to scale OpenSustain.tech, which is essentially a awesome list for open climate and sustainability projects, into a central platform for data, software, and knowledge in the field. After about 16 months, we have managed to capture a large part of the active open source projects in this field. Now the list has grown so large that it is difficult to search for suitable projects. Fortunately, we always added the Git repositories directly to the list, so it was possible to get meta data from each project via the GitHub API. Here is the datasets we have been able to generate by crawling metadata from every project:\nhttps:&#x2F;&#x2F;airtable.com&#x2F;shr9we419r2TkpLkc<p>My experience with website development is limited. Any ideas, hints or thoughts on how we can use this data to create an open source website that is a bit more user friendly than the previous list? Of course it would be best if this is also done with open source tools.",
-      "time": 1645710878,
-      "title": "Ask HN: How to scale a list to an knowledge platform",
-      "type": "story"
-    },
-    {
-      "by": "carride",
-      "descendants": 0,
-      "id": 30454656,
-      "score": 1,
-      "time": 1645710876,
-      "title": "Companies selling fake reviews are “tarnishing” brand, Amazon says",
-      "type": "story",
-      "url": "https://arstechnica.com/tech-policy/2022/02/amazon-sues-companies-over-alleged-fake-review-schemes/"
+      "url": "https://www.npr.org/2022/02/24/1082665050/l-a-woman-jailed-for-nearly-2-weeks-in-a-case-of-mistaken-identity-now-shes-suin"
     }
   ]
 }
