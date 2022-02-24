@@ -1,6 +1,37 @@
 {
   "stories": [
     {
+      "by": "oshams",
+      "descendants": 0,
+      "id": 30458465,
+      "score": 1,
+      "text": "Hi HN, I’m Omar the Founder and CEO of MutableAI (YC W22) (<a href=\"https:&#x2F;&#x2F;mutable.ai\" rel=\"nofollow\">https:&#x2F;&#x2F;mutable.ai</a>). We transform Jupyter notebook code into production-quality Python code using a combination of AI (OpenAI codex) and PL metaprogramming techniques.<p>I&#x27;m obsessed with clean code because I&#x27;ve written so much terrible code in the past. I went from being a theoretical physics PhD dropout -&gt; data scientist -&gt; software engineer at Google -&gt; research engineer at DeepMind -&gt; ML engineer at Apple. In that time I&#x27;ve grown to tremendously value code quality. Clean code is not only more maintainable but also more extensible as you can more readily add new features. It even enables you to think thoughts that you may have never considered before.<p>I want to reduce the cost of clean, production-quality code using AI, and am starting with a niche I&#x27;m intimately familiar with (Jupyter), because it&#x27;s particularly prone to bad code. Jupyter notebooks are beloved by data scientists, but notorious for having spaghetti code that is low on readability, hard to maintain, and hard to move into a production codebase or even share with a colleague. That’s why a Kaggle Grandmaster shocked his audience and recommended that they do not use Jupyter notebooks [1].<p>MutableAI allows developers to get the best of both worlds: Jupyter’s easy prototyping and visualization, plus greatly improved quality with our AI product. We also offer a full featured AI autocomplete to help prototyping go faster. I think the quadrant of &quot;easy to develop in&quot; and &quot;easy to create high quality code&quot; has been almost empty, and AI can help fill this gap.<p>Right now there are two ways of manipulating programs: PL techniques for program analysis and transformation, and large scale transformers from OpenAI&#x2F;DeepMind, which are trained on code treated as text (tokens) and don&#x27;t look at the tree structure of code (ASTs).  MutableAI combines OpenAI Codex &#x2F; Copilot with traditional PL analysis (variable lifetimes, scopes, etc.) and statistical filters to identify AST transformations that, when successively applied, produce cleaner code.<p>We use OpenAI&#x27;s Codex to document and type the code, and for AI autocomplete. We use PL techniques to refactor the code (e.g. extract methods), remove zombie code, and normalize formatting (e.g. remove weird spacing). We use statistical filters to detect opportunities for refactoring, for example when a large grouping of variable lifetimes are suddenly created and destroyed, which can be an opportunity to extract a function.<p>Some of the PL techniques are similar to traditional refactoring tools, but those tools don’t help you decide when and how to refactor. We use AI and stats to do that, as well as to generate names when the new code needs them.<p>A tool that reduces the time to productionize code can be compared to having an extra engineer on staff. If you take this seriously, that’s a pretty big market. Stripe Research claims that developer inefficiency is a $300B problem [2].  Just about every tech company would become more efficient through increased velocity, fewer errors, and the ability to tackle more complex problems. It may even become unthinkable to write software without this sort of tool, the same way most people don&#x27;t write assembly and use a compiler.<p>You can try the product by visiting our website, <a href=\"https:&#x2F;&#x2F;mutable.ai\" rel=\"nofollow\">https:&#x2F;&#x2F;mutable.ai</a> and creating an account on the setup page <a href=\"https:&#x2F;&#x2F;mutable.ai&#x2F;setup.html\" rel=\"nofollow\">https:&#x2F;&#x2F;mutable.ai&#x2F;setup.html</a>. License keys are on the setup page once you’ve signed up (check your mailbox for an email verification link). I’ve bumped up the budget for free accounts temporarily for the day, I hope you enjoy the product !<p>In addition to inviting the HN community to try out the product, I’d love it if you would share any tips for reducing code complexity you’ve come across and of course to hear your ideas about this problem and tools to address it.<p>[1] <a href=\"https:&#x2F;&#x2F;youtu.be&#x2F;tsGGpe-onZI?t=1067\" rel=\"nofollow\">https:&#x2F;&#x2F;youtu.be&#x2F;tsGGpe-onZI?t=1067</a><p>[2] <a href=\"https:&#x2F;&#x2F;stripe.com&#x2F;files&#x2F;reports&#x2F;the-developer-coefficient.pdf\" rel=\"nofollow\">https:&#x2F;&#x2F;stripe.com&#x2F;files&#x2F;reports&#x2F;the-developer-coefficient.p...</a>",
+      "time": 1645727947,
+      "title": "Launch HN: MutableAI (YC W22) – Automatically Clean Jupyter Notebooks Using AI",
+      "type": "story",
+      "url": "https://mutable.ai/"
+    },
+    {
+      "by": "Tomte",
+      "descendants": 0,
+      "id": 30458459,
+      "score": 1,
+      "time": 1645727934,
+      "title": "Saving sites: Pocket’s bookmarking app and its alternatives",
+      "type": "story",
+      "url": "https://www.theverge.com/22927750/bookmarks-pocket-firefox-instapaper-raindrop"
+    },
+    {
+      "by": "spajus",
+      "descendants": 0,
+      "id": 30458414,
+      "score": 1,
+      "time": 1645727718,
+      "title": "Stardeus – space colony engineering sim game where you are trapped in a computer",
+      "type": "story",
+      "url": "https://stardeusgame.com/"
+    },
+    {
       "by": "ionychal",
       "descendants": 0,
       "id": 30458395,
@@ -12,8 +43,11 @@
     },
     {
       "by": "zinekeller",
-      "descendants": 0,
+      "descendants": 1,
       "id": 30458389,
+      "kids": [
+        30458412
+      ],
       "score": 1,
       "time": 1645727598,
       "title": "‘Project Tinman’: Peloton’s plan to conceal rust in its exercise bikes",
@@ -32,8 +66,11 @@
     },
     {
       "by": "kencheney",
-      "descendants": 0,
+      "descendants": 1,
       "id": 30458363,
+      "kids": [
+        30458464
+      ],
       "score": 2,
       "time": 1645727472,
       "title": "Purpose-built for GCP: Ternary is redefining application health to include cost",
@@ -72,39 +109,6 @@
       "title": "The Love Story Story",
       "type": "story",
       "url": "https://aeon.co/essays/to-understand-what-love-is-read-the-stories-that-history-tells"
-    },
-    {
-      "by": "Victerius",
-      "descendants": 1,
-      "id": 30458280,
-      "kids": [
-        30458348
-      ],
-      "score": 1,
-      "text": "E.g. Chief meme officer.",
-      "time": 1645727034,
-      "title": "What's the most unique/oddest CxO title you've ever seen?",
-      "type": "story"
-    },
-    {
-      "by": "tosh",
-      "descendants": 0,
-      "id": 30458277,
-      "score": 13,
-      "time": 1645727017,
-      "title": "Chernobyl power plant captured by Russian forces",
-      "type": "story",
-      "url": "https://www.reuters.com/world/europe/chernobyl-power-plant-captured-by-russian-forces-ukrainian-official-2022-02-24/"
-    },
-    {
-      "by": "chauhankiran",
-      "descendants": 0,
-      "id": 30458266,
-      "score": 1,
-      "time": 1645726962,
-      "title": "Three.js Webpack Setup",
-      "type": "story",
-      "url": "https://chauhankiran.github.io/three-dev-setup.html"
     }
   ]
 }
