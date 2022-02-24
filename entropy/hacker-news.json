@@ -1,6 +1,76 @@
 {
   "stories": [
     {
+      "by": "app4soft",
+      "descendants": 0,
+      "id": 30456555,
+      "score": 1,
+      "time": 1645719880,
+      "title": "National Bank of Ukraine has opened fundraising to support the Armed Forces",
+      "type": "story",
+      "url": "https://twitter.com/StratcomCentre/status/1496853248174706695"
+    },
+    {
+      "by": "bascodes",
+      "descendants": 0,
+      "id": 30456543,
+      "score": 1,
+      "time": 1645719813,
+      "title": "Understanding Decorators in Python",
+      "type": "story",
+      "url": "https://bas.codes/posts/python-decorators/"
+    },
+    {
+      "by": "colinprince",
+      "descendants": 0,
+      "id": 30456513,
+      "score": 1,
+      "time": 1645719701,
+      "title": "Digital solutions during the pandemic put disabled people on more equal ground",
+      "type": "story",
+      "url": "https://www.cbc.ca/news/canada/saskatchewan/digital-solutions-pandemic-disabled-1.6362734"
+    },
+    {
+      "by": "totaldude87",
+      "descendants": 0,
+      "id": 30456510,
+      "score": 1,
+      "time": 1645719690,
+      "title": "Los Angeles is spending up to $837,000 to house a single homeless person",
+      "type": "story",
+      "url": "https://ktla.com/news/los-angeles-is-spending-up-to-837000-to-house-a-single-homeless-person/"
+    },
+    {
+      "by": "kashnote",
+      "descendants": 0,
+      "id": 30456498,
+      "score": 1,
+      "time": 1645719630,
+      "title": "How to be miserable after a breakup",
+      "type": "story",
+      "url": "https://kg.dev/thoughts/miserable-breakup"
+    },
+    {
+      "by": "joeyespo",
+      "descendants": 0,
+      "id": 30456495,
+      "score": 1,
+      "time": 1645719625,
+      "title": "Cloudflare to acquire Area 1 Security, a startup that blocks phishing emails",
+      "type": "story",
+      "url": "https://techcrunch.com/2022/02/24/cloudflare-to-acquire-area-1-security-a-startup-that-blocks-phishing-emails/"
+    },
+    {
+      "by": "vyrotek",
+      "descendants": 0,
+      "id": 30456487,
+      "score": 1,
+      "time": 1645719605,
+      "title": "Nayib Bukele – BTC Portfolio Tracker",
+      "type": "story",
+      "url": "https://nayibtracker.com/"
+    },
+    {
       "by": "orangebanana1",
       "descendants": 0,
       "id": 30456483,
@@ -24,89 +94,11 @@
       "by": "simonsarris",
       "descendants": 0,
       "id": 30456454,
-      "score": 1,
+      "score": 4,
       "time": 1645719425,
       "title": "Humans and Hibernating Mammals React to Linoleic Acid in the Same Way",
       "type": "story",
       "url": "https://fireinabottle.net/humans-and-hibernating-mammals-react-to-the-same-amount-of-dietary-linoleic-acid-in-the-same-way-by-becoming-torpid/"
-    },
-    {
-      "by": "jeffreportmill1",
-      "descendants": 0,
-      "id": 30456452,
-      "score": 1,
-      "text": "Tell me, if this idea is (1) useful, (2) possible or (3) already exists: A local command line tool that runs standard Unix CLI on a fully configured remote server but on local files.<p>So say the local machine only has a process called &#x27;remo&#x27; that talks to a &#x27;remo-server&#x27; process on a remote machine fully configured with git, gradle, python, java, etc. Then I could do something like this locally:<p><pre><code>    &gt; remo git -clone https:&#x2F;&#x2F;github.com&#x2F;user&#x2F;MyProject\n\n    &gt; cd MyProject\n\n    &gt; remo gradle build\n</code></pre>\nSo with &#x27;remo&#x27; I would be able to run all manner of CLI apps that read&#x2F;write to the local file system without installing anything local. The two processes would be reasonably simple:<p>The local &#x27;remo&#x27; CLI app does this:<p>- Open socket to &#x27;remo-server&#x27; process on remote machine<p>- Execute remote CLI apps<p>- Vend file system info to &#x27;remo-server&#x27; (LIST, HEAD, GET, PUT, DELETE)<p>The remote &#x27;remo-server&#x27; process does this:<p>- Mount a virtual file system<p>- Execute processes locally in vfs root dir<p>- Feed virtual file system via communication with &#x27;remo&#x27; process<p>I don&#x27;t think this is a great business opportunity, but it seems like it could be pretty useful. What do you think?<p>jeff",
-      "time": 1645719423,
-      "title": "Ask HN: Remote Unix CLI on local files?",
-      "type": "story"
-    },
-    {
-      "by": "stickfigure",
-      "descendants": 1,
-      "id": 30456437,
-      "kids": [
-        30456475
-      ],
-      "score": 1,
-      "text": "https:&#x2F;&#x2F;liveuamap.com&#x2F; has been returning 500 errors since last night. Any idea what&#x27;s going on?<p>This was an amazing resource - a map, updated in realtime with events in Ukraine as they unfold.",
-      "time": 1645719326,
-      "title": "What Happened to Liveuamap.com?",
-      "type": "story"
-    },
-    {
-      "by": "softwarebeware",
-      "descendants": 0,
-      "id": 30456394,
-      "score": 1,
-      "time": 1645719111,
-      "title": "Building Infrastructure Platforms",
-      "type": "story",
-      "url": "https://martinfowler.com/articles/building-infrastructure-platform.html"
-    },
-    {
-      "by": "ushakov",
-      "descendants": 0,
-      "id": 30456391,
-      "score": 2,
-      "time": 1645719100,
-      "title": "A list of lightweight websites without bloat",
-      "type": "story",
-      "url": "https://github.com/mdibaiee/awesome-lite-websites"
-    },
-    {
-      "by": "uiii",
-      "descendants": 0,
-      "id": 30456378,
-      "score": 1,
-      "text": "Hi, if I have some app opened on some virtual desktop (e.g. whatsapp) and I try to open the app in different desktop, it will switch to the desktop where the app is opened, it is really annoying. I would rather like to move the app to the current desktop. Is it possible to setup Windows like that? Thanks",
-      "time": 1645719042,
-      "title": "Ask HN: How to disable Windows 10 virtual desktop auto-switch to opened app",
-      "type": "story"
-    },
-    {
-      "by": "whalesalad",
-      "descendants": 4,
-      "id": 30456358,
-      "kids": [
-        30456460,
-        30456443,
-        30456400
-      ],
-      "score": 42,
-      "time": 1645718948,
-      "title": "America’s most widely consumed cooking oil causes genetic changes in the brain",
-      "type": "story",
-      "url": "https://www.universityofcalifornia.edu/news/americas-most-widely-consumed-cooking-oil-causes-genetic-changes-brain"
-    },
-    {
-      "by": "georgecmu",
-      "descendants": 0,
-      "id": 30456345,
-      "score": 1,
-      "time": 1645718911,
-      "title": "Clinton: 'Victory for a safer world' (1999)",
-      "type": "story",
-      "url": "http://edition.cnn.com/US/9906/10/us.kosovo.04/index.html"
     }
   ]
 }
