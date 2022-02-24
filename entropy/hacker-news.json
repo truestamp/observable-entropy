@@ -1,14 +1,44 @@
 {
   "stories": [
     {
-      "by": "rytill",
+      "by": "porkbrain",
       "descendants": 0,
-      "id": 30461781,
+      "id": 30461836,
       "score": 1,
-      "time": 1645745312,
-      "title": "US Congressional Research Service Reports",
+      "time": 1645745675,
+      "title": "Ubuntu (Philosophy)",
       "type": "story",
-      "url": "https://crsreports.congress.gov/Home/Error?aspxerrorpath=/search/#/?termsToSearch=&orderBy=Date"
+      "url": "https://www.newworldencyclopedia.org/entry/Ubuntu_(philosophy)"
+    },
+    {
+      "by": "pedrolins",
+      "descendants": 0,
+      "id": 30461825,
+      "score": 1,
+      "text": "Hello HN, I&#x27;d love some advice on live video processing for a hobby project I&#x27;m working on.<p>I&#x27;m currently working on placing a live camera on a beach. My current setup leaves a lot to be desired, but my main problem has been with video-processing-related stuff which I have had no contact with as a developer until now.<p>It consists of a camera-equipped microcontroller connected to WiFi that is constantly sending JPEGs to a server through HTTP POST requests. On the server side, these JPEGs get saved as files in a folder which in turn are converted to an RTMP live video feed - using ffmpeg - which gets sent to a streaming platform (Twitch or Youtube).<p>There are problems with my current approach mainly that ffmpeg &quot;finishes&quot; converting my JPEGs mid &quot;transmission&quot; (I use quotes here because all that means is that my microcontroller is still sending JPEGs to the server).<p>I searched extensively but I&#x27;ve had trouble formulating the queries given how specific my use-case seems to be, and have had little success in this regard. That leads me into believing that I&#x27;m commiting mistakes in my approach to this project - which is of no surprise, given my lack of experience in video, specially streaming.<p>So I&#x27;d like some pointers or suggestions from you - it could be pointed at any part of the process I&#x27;m currently doing, though what made me write this in the first place was the video streaming problems I&#x27;m facing. It could be general resources into encoders, decoders, transcoders, video in general... Or even just comment what you&#x27;d change to make streaming work.<p>Perhaps as a way of being more direct: how does can &quot;generic&quot; - as in normal practice - livestreaming be achieved without the help of something like OBS?<p>Thank you.",
+      "time": 1645745612,
+      "title": "Ask HN: Advice on a live video processing project",
+      "type": "story"
+    },
+    {
+      "by": "thedday",
+      "descendants": 0,
+      "id": 30461821,
+      "score": 1,
+      "time": 1645745576,
+      "title": "Scientists discover a link between high blood pressure and diabetes",
+      "type": "story",
+      "url": "https://www.healtheuropa.eu/scientists-discover-a-link-between-high-blood-pressure-and-diabetes/113237/"
+    },
+    {
+      "by": "bluemoon2010",
+      "descendants": 0,
+      "id": 30461807,
+      "score": 1,
+      "time": 1645745488,
+      "title": "Why It’s Almost Impossible to Build a Health Care Startup That Works",
+      "type": "story",
+      "url": "https://marker.medium.com/why-its-almost-impossible-to-build-a-health-care-startup-that-works-19f7d7af8982"
     },
     {
       "by": "starmftronajoll",
@@ -24,7 +54,7 @@
       "by": "fikrikadim",
       "descendants": 0,
       "id": 30461738,
-      "score": 1,
+      "score": 2,
       "time": 1645745041,
       "title": "Over 1k protesters arrested at anti-military intervention rallies in Russia",
       "type": "story",
@@ -44,7 +74,7 @@
       "by": "SQL2219",
       "descendants": 0,
       "id": 30461723,
-      "score": 1,
+      "score": 2,
       "time": 1645744951,
       "title": "Follow the Data, They Said, and Then Hid It",
       "type": "story",
@@ -69,39 +99,6 @@
       "title": "In Search of Troy",
       "type": "story",
       "url": "https://www.smithsonianmag.com/history/in-search-of-troy-180979553/"
-    },
-    {
-      "by": "tconfrey",
-      "descendants": 0,
-      "id": 30461698,
-      "score": 1,
-      "time": 1645744767,
-      "title": "Five Types of Tools to Improve your Browser Productivity",
-      "type": "story",
-      "url": "https://braintool.org/2022/02/15/Five-types-of-tools-to-increase-your-browser-productivity.html"
-    },
-    {
-      "by": "tester756",
-      "descendants": 0,
-      "id": 30461682,
-      "score": 1,
-      "time": 1645744698,
-      "title": "Smolensk Air Disaster (2010)",
-      "type": "story",
-      "url": "https://en.wikipedia.org/wiki/Smolensk_air_disaster"
-    },
-    {
-      "by": "everbody",
-      "descendants": 0,
-      "id": 30461675,
-      "kids": [
-        30461683
-      ],
-      "score": 2,
-      "time": 1645744645,
-      "title": "Why does Google still have the “I’m Feeling Lucky” button?",
-      "type": "story",
-      "url": "https://reallifemag.com/search-party/"
     }
   ]
 }
