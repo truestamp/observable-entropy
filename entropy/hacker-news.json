@@ -1,12 +1,52 @@
 {
   "stories": [
     {
+      "by": "srik",
+      "descendants": 0,
+      "id": 30458100,
+      "score": 1,
+      "time": 1645726147,
+      "title": "Functional Data Structures",
+      "type": "story",
+      "url": "https://cs.uwaterloo.ca/~plragde/flaneries/FDS/"
+    },
+    {
+      "by": "IndrekR",
+      "descendants": 0,
+      "id": 30458080,
+      "score": 1,
+      "time": 1645726073,
+      "title": "Budapest Memorandum on Security Assurances",
+      "type": "story",
+      "url": "https://en.wikipedia.org/wiki/Budapest_Memorandum_on_Security_Assurances"
+    },
+    {
+      "by": "luu",
+      "descendants": 0,
+      "id": 30458070,
+      "score": 1,
+      "time": 1645726041,
+      "title": "Autonomous Computing",
+      "type": "story",
+      "url": "https://pathelland.substack.com/p/autonomous-computing-short-version"
+    },
+    {
+      "by": "JaimeThompson",
+      "descendants": 0,
+      "id": 30458067,
+      "score": 1,
+      "time": 1645726034,
+      "title": "1.7M Hondas are being investigated for phantom braking",
+      "type": "story",
+      "url": "https://arstechnica.com/cars/2022/02/nhtsa-to-investigate-honda-accords-and-cr-vs-over-phantom-braking/"
+    },
+    {
       "by": "layer8",
       "descendants": 0,
       "id": 30458027,
-      "score": 2,
+      "score": 4,
       "time": 1645725767,
-      "title": "Biden has been presented with options for cyberattacks against Russia",
+      "title": "Biden has been presented with options for extensive cyberattacks against Russia",
       "type": "story",
       "url": "https://www.nbcnews.com/politics/national-security/biden-presented-options-massive-cyberattacks-russia-rcna17558"
     },
@@ -22,8 +62,11 @@
     },
     {
       "by": "brokencode",
-      "descendants": 0,
+      "descendants": 1,
       "id": 30458012,
+      "kids": [
+        30458083
+      ],
       "score": 3,
       "text": "At over 5 years of experience on my team, I now spend a large amount of my time reviewing and mentoring rather than creating stuff myself.<p>I love being creative, but it feels like my real job is now to rein in junior developers, and it’s honestly really boring a lot of the time.<p>Does anyone else feel this way? And does anybody have tips to make this type of work more interesting?",
       "time": 1645725724,
@@ -44,7 +87,7 @@
       "by": "synunlimited",
       "descendants": 0,
       "id": 30457960,
-      "score": 2,
+      "score": 9,
       "time": 1645725503,
       "title": "PlanetScale increases plans to include billions of reads",
       "type": "story",
@@ -59,46 +102,6 @@
       "title": "The advantages of large, long-running pull requests",
       "type": "story",
       "url": "https://world.hey.com/dhh/the-advantages-of-large-long-running-pull-requests-c33d913c"
-    },
-    {
-      "by": "pseudolus",
-      "descendants": 0,
-      "id": 30457933,
-      "score": 1,
-      "time": 1645725411,
-      "title": "Moderna: Covid is entering an endemic phase, but annual vaccines will be needed",
-      "type": "story",
-      "url": "https://www.cnbc.com/2022/02/24/moderna-says-covid-is-entering-an-endemic-phase-but-annual-vaccines-will-be-needed.html"
-    },
-    {
-      "by": "geoduck14",
-      "descendants": 0,
-      "id": 30457926,
-      "score": 2,
-      "time": 1645725395,
-      "title": "Many Endpoints per AWS Lambda",
-      "type": "story",
-      "url": "https://stackoverflow.com/questions/41425511/aws-api-gateway-lambda-multiple-endpoint-functions-vs-single-endpoint"
-    },
-    {
-      "by": "dkaleta",
-      "descendants": 0,
-      "id": 30457925,
-      "score": 1,
-      "text": "Tl;dr: I built an alternative iOS&#x2F;macOS app to Anki&#x2F;Quizlet for learning vocabulary. You can write, collect and review example sentences with which you learn words more effectively than by just reviewing their definitions.<p>A few years ago I wanted to improve my writing. As part of the learning process, I also wanted to expand my vocabulary. I’d highlight unknown words as I was reading books, and I’d saved them to flashcard apps. I’d reviewed them daily and for a long time I thought I was making good progress: during reviews, I’d usually guess correctly the meaning of words. My excitement was short-lived though. I noticed that after a while, even though those apps used spaced-repetition, I’d forget definitions for some of the words. I realized I didn’t understand many of them, I just knew their translation. I didn’t really feel what they meant, and because of that, I couldn’t use them in my writing.<p>I read the book called “make it stick” by Peter Brown to learn more about the science of learning since I didn’t want to spend countless hours reviewing words I would forget anyway. In the book, the author argues, quite convincingly, that the best way to learn new knowledge is through context. That is, to hook it up to something we already know. In the case of learning new vocabulary, if we want the learning to be durable, it’s not enough to just review a word’s definition&#x2F;translation. You need to read and write use-cases of those words to understand how they are used in sentences (you can also speak or listen to them, but we&#x27;re talking about what can be done in a flashcard app). Only by hooking up a word to real situations, objects, and feelings, is the learning more permanent.<p>The existing apps on the market didn’t allow me to study words with context so I decided to build an app that would be designed from the ground up to learn words with examples. My aim was for the app to be also simpler, integrated with the OS, and faster.<p>It took me almost 1.5 years to build. Most of this time was spent on finding the product market fit. I recruited a few users manually who helped me get on track. I was also dogfooding the app throughout the development process as I was learning Spanish from zero to fluency in a year. Side note: I don’t believe in learning a language to fluency based on a single app. The app is just a tool that can just help you with some aspect of learning. I spent about 2h a day reading various content, reviewing words, watching movies and speaking — but I always used Obstino to learn my vocabulary. The experience of actually using the app for so long, influenced its design and functionality.<p>A few interesting bits which most other applications don’t have:<p>- Integration with the OS: easily saving words via the Share Extension.\n- Native and simple. One-click to add a word.\n- Multiple definitions&#x2F;translations for each word.\n- Safari extension looks for your words in the content of the websites you visit and extracts sentences that contain those words to Obstino so you have personalized and therefore more memorable use-cases to review.\n- The app understands inflections. Highlights different inflections in sentences. Can covert word back to its root word. Safari detects different inflections on the websites you visit.<p>Though the app has been on the App Store for a while (in fact, I submitted an Alpha version here to YC almost a year ago without any traction), I feel only now, after much testing and redesigning that the product is ready for marketing.<p>Landing page: [https:&#x2F;&#x2F;www.obstino.com](https:&#x2F;&#x2F;www.obstino.com&#x2F;)<p>App Store: [https:&#x2F;&#x2F;apps.apple.com&#x2F;app&#x2F;apple-store&#x2F;id1519609590?pt=433404&amp;ct=obstino.com%20website&amp;mt=8](https:&#x2F;&#x2F;apps.apple.com&#x2F;app&#x2F;apple-store&#x2F;id1519609590?pt=433404&amp;ct=obstino.com%20website&amp;mt=8)<p>What do you think? Does it have potential or is it a dud? I’m really curious to know how you see the product.<p>The app currently works only with Spanish and English words.",
-      "time": 1645725392,
-      "title": "Show HN: Tired of Anki? I built a modern app for learning words with examples",
-      "type": "story"
-    },
-    {
-      "by": "aratob",
-      "descendants": 0,
-      "id": 30457921,
-      "score": 1,
-      "time": 1645725385,
-      "title": "Become a better data engineer on a shoestring (free resources)",
-      "type": "story",
-      "url": "https://www.dataengineering.academy/pipeline-data-engineering-academy-blog/learn-data-engineering-on-a-shoestring-free-courses"
     }
   ]
 }
