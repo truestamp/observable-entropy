@@ -1,10 +1,20 @@
 {
   "stories": [
     {
+      "by": "tentacleuno",
+      "descendants": 0,
+      "id": 30466517,
+      "score": 1,
+      "time": 1645791808,
+      "title": "Bundlephobia: Find the cost of adding a NPM package to your bundle",
+      "type": "story",
+      "url": "https://bundlephobia.com"
+    },
+    {
       "by": "rdli",
       "descendants": 0,
       "id": 30466484,
-      "score": 1,
+      "score": 2,
       "time": 1645791603,
       "title": "ARJ Software",
       "type": "story",
@@ -52,8 +62,11 @@
     },
     {
       "by": "yabatopia",
-      "descendants": 0,
+      "descendants": 1,
       "id": 30466439,
+      "kids": [
+        30466507
+      ],
       "score": 1,
       "time": 1645791266,
       "title": "Etsy hits sellers with 30 percent transaction fee increase",
@@ -89,19 +102,6 @@
       "title": "Dissecting the S3 SLA",
       "type": "story",
       "url": "https://alexewerlof.medium.com/dissecting-the-s3-sla-26421dda2d56"
-    },
-    {
-      "by": "AdamJMarsh",
-      "descendants": 1,
-      "id": 30466375,
-      "kids": [
-        30466377
-      ],
-      "score": 1,
-      "text": "Since I was a kid theorycrafting in WOW, I&#x27;ve been interested in games and data. Over COVID, I’ve had this itch I&#x27;ve wanted to scratch to find out what exactly gamers complain about the most in which games.<p>Let&#x27;s face it AAA game developers doubled down on their Wall Street corporate mentality. This has seen them grow increasingly out of touch with what gamers really want, as they see them as nothing more than cash cows to extract dollars out of.<p>And no place demonstrates that better than within the reviews of Steam.<p>I wanted to see if I could view &amp; analyse Steam reviews at scale to get different understanding of what people really care or complain about the most.<p>Out a dataset of 35000 scraped reviews gathered from a randomized selection out of a larger dataset of 380k, (provided thanks to Luthfi Mahendra) I gathered the following insights.<p>TL;DR<p>- PUBG is a love it or hate it game which people constantly dump on for being filled to the brim with hackers.<p>- GTA V has a captive audience of people who hate the game, hate hackers, can&#x27;t understand how to use mods as well as micro-transactions.<p>- Rocket League fans are super happy, loving the competitiveness and easy to pick up game mechanics. It&#x27;s constantly referred to as fun, enjoyable, addictive and entertaining.,<p>- Rust fans are gush like fanboys over the game. It exceeds their expectations without exploiting them.<p>- In general, Steam reviewers hate hate hate hackers, bans, microtransactions, glitches, crashes and lag.<p>PUBG<p>- This game had the highest number of reviews from this dataset (Roughly 10% of reviews were for PUBG).<p>- There were 1916 analyzed not recommended reviews (from clusters of 204+159+153+147+114+136+134+133+132+125+123+121+121+114 recommended reviews)<p>- There were 1064 not recommended reviews (from clusters of to 33+132+100+58+142+65+68+55+41+48+40+105+57+120 not recommended reviews)<p>- This gives it a ratio of roughly 1.9 not recommend reviews for every 1.06 recommended reviews.<p>-  Most complaints generally mentioned “hackers”, “hacking” &amp; “cheaters”<p>-  Less quantities of complaints revolved around “greed”, “buggy”, “unplayable”, “microtransactions”, “banned”, with references to other games and developers like “fortnite”, “Battlefield”, “Capcom” and “EA”<p>- A high number of negative reviews made reference to connectivity &amp; server issues with mentions of “lag” “latency” “laggy”<p>-  Another segment of complaints revolve around “crashing”, “crashes”<p>- Further review clusters included food references such as the Winner Winner Chicken Dinner phrase, with mentions of potato aiming and in game states&#x2F;food like meat, pan, apple, hungry, food.",
-      "time": 1645790735,
-      "title": "What I learned reviewing 35k reviews from Steam",
-      "type": "story"
     }
   ]
 }
