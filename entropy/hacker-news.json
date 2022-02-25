@@ -1,10 +1,30 @@
 {
   "stories": [
     {
+      "by": "pseudolus",
+      "descendants": 0,
+      "id": 30465987,
+      "score": 1,
+      "time": 1645787352,
+      "title": "Study shows that individual neurons could learn by predicting future activity",
+      "type": "story",
+      "url": "https://techxplore.com/news/2022-02-individual-neurons-future.html"
+    },
+    {
+      "by": "Ambolia",
+      "descendants": 0,
+      "id": 30465962,
+      "score": 1,
+      "time": 1645787155,
+      "title": "Ukraine and the Caspian an Opportunity for the United States (2000)",
+      "type": "story",
+      "url": "https://web.archive.org/web/20211215162823/https://www.rand.org/pubs/issue_papers/IP198.html"
+    },
+    {
       "by": "vedranm",
       "descendants": 0,
       "id": 30465933,
-      "score": 1,
+      "score": 2,
       "time": 1645786901,
       "title": "Don't Use RAR",
       "type": "story",
@@ -32,8 +52,11 @@
     },
     {
       "by": "virtek",
-      "descendants": 0,
+      "descendants": 1,
       "id": 30465906,
+      "kids": [
+        30465990
+      ],
       "score": 2,
       "time": 1645786694,
       "title": "Web4ukraine.org",
@@ -79,26 +102,6 @@
       "title": "Pas de Deux (2007)",
       "type": "story",
       "url": "https://slate.com/human-interest/2007/09/why-are-there-only-two-sexes.html"
-    },
-    {
-      "by": "madnuttah",
-      "descendants": 0,
-      "id": 30465854,
-      "score": 1,
-      "text": "Hey Hacker News!<p>I am madnuttah, I am a Windows&#x2F;Linux Sysadmin and some folks may remember this username for &quot;niche&quot; mods I&#x27;ve made for Fallout and Skyrim and some C# UWP Windows Store Apps which I&#x27;ve retired because of Microsoft&#x27;s unclear strategy abandoning things from one day to another.<p>Why am I writing this?<p>I wanted to be independent from the DNS servers of my provider, because they have often shined brightly with problems in the past instead of functioning properly, wanted to have a little bit more privacy and freedom back by fighting censorship via DNS, so I built my own Unbound Docker image with a lot of effort and conscientiousness. Because I think it&#x27;s worth it, I&#x27;d like to share my efforts with you.<p>My life taught me that trust must be earned, you never know what was fiddled into and what was tampered with. This image is therefore entirely built online using workflows in a GitHub action, uses the very lean Alpine Linux with all its security features and Unbound directly queries a local copy of the root zone, which is kept up-to-date using DNS zone transfers (XFR). Instead of occupying a few hundred megabytes on your harddisk, my image is only about 30 megabytes uncompressed in size.<p>The separate components Libevent and OpenSSL3 are compiled in the build process in their separate workflows and all the downloads, even the Internic files (root.hints and root.zone) are checked using their PGP keys and signature files if available, following my zero-trust policy. Unbound is compiled with hardening security features that most images do not include, such as PIE (Position Independent Executables), which randomizes the application&#x27;s position in memory which makes attacks more difficult and RELRO (Relocation Read-Only) which also can mitigate exploitations.<p>The image was actually designed as an DNSSEC validating upstream DNS resolver with Pi-hole for adblocking and tracking prevention in mind but it also works perfectly as a standalone server. All Linux architectures are supported, which are currently used by Pi-hole: 386, armv6, armv7, arm64 and amd64. So it also able to run on older Raspberries under Docker.<p>I maintain the image regularly and as soon as included components are updated, security vulnerabilities become known or an update of Unbound is released, the image will be available for you on the Docker registry in a few hours.<p>If anyone would like to contribute to the development, I&#x27;m happy to receive a pull request of yours.<p>For any suggestions, questions, comments or even criticism you are very welcome to contact me here on HN or on Mastodon (https:&#x2F;&#x2F;fosstodon.org&#x2F;@madnuttah).<p>Here is the link to my GitHub repo https:&#x2F;&#x2F;github.com&#x2F;madnuttah&#x2F;unbound-docker.<p>You may find the following links useful for testing the security of your DNS or even in case you want to do a before and after comparison if you want to give the image a try:<p>DNS Leak Test: https:&#x2F;&#x2F;www.dnsleaktest.com&#x2F;<p>DNSSEC-Test from the University of Duisburg-Essen: https:&#x2F;&#x2F;dnssec.vs.uni-due.de&#x2F;<p>GRC&#x27;s DNS Nameserver Spoofability Test: https:&#x2F;&#x2F;www.grc.com&#x2F;dns&#x2F;dns.htm<p>Cheers, madnuttah",
-      "time": 1645786256,
-      "title": "Show HN: Open-Source Unbound DNS Resolver Docker Image",
-      "type": "story"
-    },
-    {
-      "by": "Tomte",
-      "descendants": 0,
-      "id": 30465853,
-      "score": 1,
-      "time": 1645786246,
-      "title": "Can Darwinian Evolution Explain Lamarckism? (2017)",
-      "type": "story",
-      "url": "https://www.quantamagazine.org/can-darwinian-evolution-explain-lamarckism-20170511/"
     }
   ]
 }
