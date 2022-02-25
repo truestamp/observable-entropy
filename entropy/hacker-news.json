@@ -1,9 +1,42 @@
 {
   "stories": [
     {
-      "by": "MichaelMoser123",
+      "by": "jquery_dev",
       "descendants": 0,
+      "id": 30466128,
+      "score": 1,
+      "text": "I&#x27;m trying to convert shared pieces of code to a library, which could be re-used within our codebases (Hosted in Azure DevOps).<p>However, from looking into it, there is no way to share such libraries without incurring massive costs or sacrificing ease of use.<p>For example, You can use azure artefacts to pull python libraries, however, you now have to make sure all developers switch to using the new feed, as well as you&#x27;re forced into adding upstream of PyPI, which then leads to additional costs due to cached packages.<p>Another approach is to pull packages via ssh, but I assume that creates another mess with access permissions to said repositories as well.<p>How do you choose to deal with such problems in your environments?",
+      "time": 1645788392,
+      "title": "Ask HN: How do you manage private packages within Python projects",
+      "type": "story"
+    },
+    {
+      "by": "walterbell",
+      "descendants": 0,
+      "id": 30466123,
+      "score": 1,
+      "time": 1645788382,
+      "title": "PFsense on HP G1 Mini: 128gb SSD, 512 NVMe and M.2 ethernet for WAN (2020)",
+      "type": "story",
+      "url": "https://imgur.com/gallery/z7W4AUe"
+    },
+    {
+      "by": "kaypee901",
+      "descendants": 0,
+      "id": 30466110,
+      "score": 1,
+      "time": 1645788316,
+      "title": "What Is Locust?",
+      "type": "story",
+      "url": "https://github.com/locustio/locust/blob/b5446d223cbd161ece9f111116c6407389519934/docs/what-is-locust.rst"
+    },
+    {
+      "by": "MichaelMoser123",
+      "descendants": 1,
       "id": 30466068,
+      "kids": [
+        30466114
+      ],
       "score": 1,
       "time": 1645787980,
       "title": "Biden's sanctions on Russia didn't have an adverse affect on the MOEX index",
@@ -72,43 +105,6 @@
       "title": "Unicode Normalization Forms",
       "type": "story",
       "url": "http://www.unicode.org/reports/tr15/"
-    },
-    {
-      "by": "pseudolus",
-      "descendants": 0,
-      "id": 30465987,
-      "score": 1,
-      "time": 1645787352,
-      "title": "Study shows that individual neurons could learn by predicting future activity",
-      "type": "story",
-      "url": "https://techxplore.com/news/2022-02-individual-neurons-future.html"
-    },
-    {
-      "by": "Ambolia",
-      "descendants": 1,
-      "id": 30465962,
-      "kids": [
-        30466059
-      ],
-      "score": 1,
-      "time": 1645787155,
-      "title": "Ukraine and the Caspian an Opportunity for the United States (2000)",
-      "type": "story",
-      "url": "https://web.archive.org/web/20211215162823/https://www.rand.org/pubs/issue_papers/IP198.html"
-    },
-    {
-      "by": "vedranm",
-      "descendants": 2,
-      "id": 30465933,
-      "kids": [
-        30466107,
-        30466083
-      ],
-      "score": 15,
-      "time": 1645786901,
-      "title": "Don't Use RAR",
-      "type": "story",
-      "url": "https://group.miletic.net/en/blog/2022-02-24-dont-use-rar/"
     }
   ]
 }
