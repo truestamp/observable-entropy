@@ -1,6 +1,26 @@
 {
   "stories": [
     {
+      "by": "awb",
+      "descendants": 0,
+      "id": 30474364,
+      "score": 2,
+      "time": 1645837571,
+      "title": "US Sanctions Vladimir Putin",
+      "type": "story",
+      "url": "https://home.treasury.gov/policy-issues/financial-sanctions/recent-actions/20220225_33"
+    },
+    {
+      "by": "jka",
+      "descendants": 0,
+      "id": 30474359,
+      "score": 1,
+      "time": 1645837508,
+      "title": "Useful IT Policies",
+      "type": "story",
+      "url": "https://github.com/lfit/itpol"
+    },
+    {
       "by": "anonu",
       "descendants": 0,
       "id": 30474347,
@@ -12,9 +32,12 @@
     },
     {
       "by": "Txoko",
-      "descendants": 0,
+      "descendants": 1,
       "id": 30474334,
-      "score": 1,
+      "kids": [
+        30474376
+      ],
+      "score": 2,
       "time": 1645837194,
       "title": "The rules of photojournalism are keeping us from the truth",
       "type": "story",
@@ -80,29 +103,6 @@
       "title": "Show HN: Unified Diagnostic Services (UDS) server and client in C",
       "type": "story",
       "url": "https://github.com/driftregion/iso14229"
-    },
-    {
-      "by": "efortis",
-      "descendants": 0,
-      "id": 30474305,
-      "kids": [
-        30474322
-      ],
-      "score": 5,
-      "text": "Option 1:<p>https:&#x2F;&#x2F;www.countryipblocks.net&#x2F;acl.php<p>[x] Russia, (x) CIDR, [ Copy to Clipboard ]<p>Paste as `&#x2F;etc&#x2F;ips_blocklist` and then in the firewall (e.g. pf)<p><pre><code>  table &lt;blocklist&gt; file &quot;&#x2F;etc&#x2F;ips_blocklist&quot;\n  block in quick from &lt;blocklist&gt;</code></pre>",
-      "time": 1645836859,
-      "title": "How to ban incoming Russian IP addresses on our servers?",
-      "type": "story"
-    },
-    {
-      "by": "xqcgrek2",
-      "descendants": 0,
-      "id": 30474298,
-      "score": 1,
-      "time": 1645836803,
-      "title": "Times Square, NYC, Liveview",
-      "type": "story",
-      "url": "https://www.youtube.com/watch?v=AdUw5RdyZxI"
     }
   ]
 }
