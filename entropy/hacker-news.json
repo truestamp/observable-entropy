@@ -1,10 +1,51 @@
 {
   "stories": [
     {
+      "by": "LinuxBender",
+      "descendants": 0,
+      "id": 30479335,
+      "score": 1,
+      "time": 1645894785,
+      "title": "Ukraine: France seizes Russian ship over sanctions",
+      "type": "story",
+      "url": "https://www.bbc.co.uk/news/world-europe-60539119"
+    },
+    {
+      "by": "vanusa",
+      "descendants": 0,
+      "id": 30479333,
+      "score": 1,
+      "time": 1645894773,
+      "title": "Western powers have realised Russia is largely immune to sanctions",
+      "type": "story",
+      "url": "https://www.theguardian.com/world/2022/feb/25/western-powers-have-realised-russia-is-largely-immune-to-sanctions-ukraine-putin"
+    },
+    {
+      "by": "nilaymaj",
+      "descendants": 0,
+      "id": 30479320,
+      "score": 1,
+      "text": "Hey HN! Esolang Park is an online visual debugger interface for esoteric programming languages, that I&#x27;ve been working on for the past few months. For every supported language, Esolang Park provides the powerful Monaco code editor, syntax checking, debugging functionality and a visualisation of the runtime state. The core is language-agnostic - a &quot;language provider&quot; only needs to implement the esolang&#x27;s parser, interpreter and visualisation UI (and some other little stuff).<p>Apart from trying to boost DX for esolangs, the idea is for this to grow into a platform where people can discover and play around with a variety of esolangs without leaving the browser. That&#x27;s quite far away though - the project is quite early in development and currently only has 5 languages (Befunge-93, Brainf*ck, Chef, Deadfish and Shakespeare). Some features like non-debugging execution mode (0ms interval) are missing too.<p>Currently the entire source code[0] (core + language providers) is written in TypeScript and React. Esolang code execution happens in a web worker. I&#x27;m planning to add support for WASM-based language providers for better performance, particularly for non-debugging execution. There&#x27;s also a wiki[1] containing a description of the core design and a guide for implementing and contributing new language providers.<p>Looking to hear some feedback on the idea and current implementation - bug reports are welcome too!<p>[0] <a href=\"https:&#x2F;&#x2F;github.com&#x2F;nilaymaj&#x2F;esolang-park\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;nilaymaj&#x2F;esolang-park</a>\n[1] <a href=\"https:&#x2F;&#x2F;github.com&#x2F;nilaymaj&#x2F;esolang-park&#x2F;wiki\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;nilaymaj&#x2F;esolang-park&#x2F;wiki</a>",
+      "time": 1645894719,
+      "title": "Show HN: Esolang Park, a visual debugger for esolangs",
+      "type": "story",
+      "url": "https://esolangpark.vercel.app"
+    },
+    {
+      "by": "ohjeez",
+      "descendants": 0,
+      "id": 30479279,
+      "score": 1,
+      "time": 1645894538,
+      "title": "Blockbuster Plans to Beat Netflix (2009) (Spoiler: It Failed.)",
+      "type": "story",
+      "url": "https://www.cio.com/article/278808/it-organization-how-blockbuster-plans-to-beat-netflix.html"
+    },
+    {
       "by": "marinesebastian",
       "descendants": 0,
       "id": 30479256,
-      "score": 1,
+      "score": 2,
       "time": 1645894447,
       "title": "How Farming Saved Me from Developer Burnout [video]",
       "type": "story",
@@ -34,7 +75,7 @@
       "by": "vanusa",
       "descendants": 0,
       "id": 30479226,
-      "score": 1,
+      "score": 2,
       "time": 1645894274,
       "title": "New Amazon Headquarters Sparks Feud Among Indigenous South Africans",
       "type": "story",
@@ -59,49 +100,6 @@
       "title": "Computer Program Efficiency Optimizing Best Practice",
       "type": "story",
       "url": "https://gist.github.com/ssskip/a58141d49adacaf37e25a3fb2243640b"
-    },
-    {
-      "by": "samfather",
-      "descendants": 0,
-      "id": 30479199,
-      "score": 1,
-      "text": "Every other comment is &quot;flagged&quot;. No explanations given. Who are the authoritarians that keep doing this?",
-      "time": 1645894141,
-      "title": "Why is there so much censorship on this site?",
-      "type": "story"
-    },
-    {
-      "by": "throwaway888abc",
-      "descendants": 1,
-      "id": 30479169,
-      "kids": [
-        30479197
-      ],
-      "score": 2,
-      "time": 1645894014,
-      "title": "Webb Telescope reaches major milestone: All its light is in one place",
-      "type": "story",
-      "url": "https://arstechnica.com/science/2022/02/webb-telescope-reaches-major-milestone-all-its-light-is-in-one-place/"
-    },
-    {
-      "by": "perihelions",
-      "descendants": 0,
-      "id": 30479156,
-      "score": 3,
-      "time": 1645893947,
-      "title": "Residential building struck by a missile in southwestern Kyiv Saturday morning",
-      "type": "story",
-      "url": "https://twitter.com/nytimes/status/1497607423594536961"
-    },
-    {
-      "by": "msh",
-      "descendants": 0,
-      "id": 30479137,
-      "score": 2,
-      "time": 1645893855,
-      "title": "MikroTik CCR2004-1G-2XS-PCIe Is a 2x SFP28 25GbE Router on a PCIe Card",
-      "type": "story",
-      "url": "https://www.servethehome.com/mikrotik-ccr2004-1g-2xs-pcie-is-a-2x-sfp28-25gbe-router-on-a-pcie-card/"
     }
   ]
 }
