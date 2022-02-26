@@ -1,10 +1,33 @@
 {
   "stories": [
     {
+      "by": "aghilmort",
+      "descendants": 1,
+      "id": 30475187,
+      "kids": [
+        30475189
+      ],
+      "score": 1,
+      "time": 1645849056,
+      "title": "California Scrub-Jay After Digging Up It's Hidden Acorn in My Yard",
+      "type": "story",
+      "url": "https://old.reddit.com/r/birding/comments/t1fq6n/california_scrubjay_after_digging_up_its_hidden/"
+    },
+    {
+      "by": "soheil",
+      "descendants": 0,
+      "id": 30475179,
+      "score": 1,
+      "text": " Hi HN, this is Soheil (https:&#x2F;&#x2F;flatsauce.com). Flatsauce is a cloud database service that separates storage from compute while horizontally scaling your database cluster. Think of it as a Postgres read&#x2F;write cluster with several nodes except that all the nodes in Flatsauce share the same storage. Flatsauce intelligently routes data between the nodes and incorporates a file locking mechanism to ensure there is no data corruption.\nIn traditional read&#x2F;write replication scenarios usually a write instance is the source of truth. First data is written to the write server then the data is copied to all the read nodes. When more read nodes are needed to run long-running queries the storage needs to be copied for each node.<p>Flatsauce reduces the cost to run a database cluster by eliminating the need to duplicate the data storage every time a new node is added to the cluster.",
+      "time": 1645848966,
+      "title": "Show HN: Flatsauce – Database with Decoupled Storage and Compute",
+      "type": "story"
+    },
+    {
       "by": "gamechangr",
       "descendants": 0,
       "id": 30475172,
-      "score": 1,
+      "score": 2,
       "time": 1645848894,
       "title": "The Reason Putin Would Risk War",
       "type": "story",
@@ -42,8 +65,11 @@
     },
     {
       "by": "onecommentman",
-      "descendants": 0,
+      "descendants": 1,
       "id": 30475151,
+      "kids": [
+        30475188
+      ],
       "score": 1,
       "time": 1645848421,
       "title": "Who are Ukraine’s Jews, and how is Russia’s invasion affecting them?",
@@ -79,26 +105,6 @@
       "title": "Cr.h: A Simple C Hot Reload Header-Only Library",
       "type": "story",
       "url": "https://github.com/fungos/cr"
-    },
-    {
-      "by": "jkuria",
-      "descendants": 0,
-      "id": 30475116,
-      "score": 1,
-      "time": 1645847769,
-      "title": "China’s 5G Soars over America’s",
-      "type": "story",
-      "url": "https://www.wsj.com/articles/chinas-5g-america-streaming-speed-midband-investment-innovation-competition-act-semiconductor-biotech-ai-11645046867"
-    },
-    {
-      "by": "blewboarwastake",
-      "descendants": 0,
-      "id": 30475104,
-      "score": 2,
-      "time": 1645847527,
-      "title": "Have You “Moved to Substack”?",
-      "type": "story",
-      "url": "https://blogroll.org/have-you-moved-to-substack/"
     }
   ]
 }
