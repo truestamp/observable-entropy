@@ -1,19 +1,92 @@
 {
   "stories": [
     {
+      "by": "mgh2",
+      "descendants": 0,
+      "id": 30501774,
+      "score": 1,
+      "time": 1646066071,
+      "title": "Covid-19 and education: The lingering effects of unfinished learning",
+      "type": "story",
+      "url": "https://www.mckinsey.com/industries/education/our-insights/covid-19-and-education-the-lingering-effects-of-unfinished-learning"
+    },
+    {
+      "by": "sorenso",
+      "descendants": 0,
+      "id": 30501761,
+      "score": 1,
+      "time": 1646066017,
+      "title": "Growth Buddies are creating guides, templates and podcasts with growth experts",
+      "type": "story",
+      "url": "https://www.patreon.com/growth_buddies"
+    },
+    {
+      "by": "cyber_kinetist",
+      "descendants": 0,
+      "id": 30501757,
+      "score": 1,
+      "time": 1646066001,
+      "title": "Russia's financial meltdown and the global dollar system",
+      "type": "story",
+      "url": "https://adamtooze.substack.com/p/chartbook-89-russias-financial-meltdown"
+    },
+    {
+      "by": "m-i-l",
+      "descendants": 0,
+      "id": 30501749,
+      "score": 1,
+      "time": 1646065975,
+      "title": "Shetland spaceport gains planning approval",
+      "type": "story",
+      "url": "https://www.bbc.co.uk/news/science-environment-60561379"
+    },
+    {
+      "by": "arnon",
+      "descendants": 0,
+      "id": 30501736,
+      "score": 1,
+      "time": 1646065918,
+      "title": "You should separate your billing from entitlements",
+      "type": "story",
+      "url": "https://arnon.dk/why-you-should-separate-your-billing-from-entitlement/"
+    },
+    {
+      "by": "nanna",
+      "descendants": 0,
+      "id": 30501734,
+      "score": 1,
+      "time": 1646065910,
+      "title": "Piet Hein's board game Hex",
+      "type": "story",
+      "url": "https://en.wikipedia.org/wiki/Hex_(board_game)"
+    },
+    {
+      "by": "dev_tty01",
+      "descendants": 0,
+      "id": 30501719,
+      "score": 1,
+      "time": 1646065862,
+      "title": "Ukraine says its military is being targeted by Belarusian hackers",
+      "type": "story",
+      "url": "https://www.reuters.com/world/europe/ukraine-says-its-military-is-being-targeted-by-belarusian-hackers-2022-02-25/"
+    },
+    {
       "by": "wg0",
       "descendants": 0,
       "id": 30501699,
       "score": 1,
-      "text": "This might seem a silly approach but in context of thinking about typical SaaS applications, I came across this postgrest which offers RESTful access to Postgres. Now one can build application to just that REST abstraction is one way to go about it instead of going through ORMs. Fair enough.<p>But taking it to further, just exposing raw Postgres sockets with TLS + row level security policies what would be the pros and cons of such an approach?<p>Main that I can think of:<p>1. Business logic would be all in clients (Flutter&#x2F;React[Native] et al) hence updates would require updating those clients.\n2. Database schema would have to be versioned and clients will have to check if they can continue with the version right now in production or exit with error message asking for an update.\n3. Infrastructure wise, you&#x27;ll just be running vanilla Postgres and that&#x27;s it, there&#x27;s no backend.\n4. You would have NO API, you&#x27;d just have database.\n5. For adding new parties, you&#x27;ll be actually adding real Postgres users (or via some LDAP etc)\n6. Workers? Background processing? That means inserting records into certain tables, picked up by processes on server side and computing results feeding back to the database.<p>Just seeking collective wisdom&#x2F;experiences&#x2F;opinions&#x2F;stories on the subject if someone has tried this or what are other corner cases that might come up assuming that in every language there’s performant, good enough database driver (Postgres wire protocol) is available including in browsers (via Webassembly or without)<p>Thoughts?",
+      "text": "This might seem a silly approach but in context of thinking about typical SaaS applications, I came across this postgrest which offers RESTful access to Postgres. Now one can build application to just that REST abstraction is one way to go about it instead of going through ORMs. Fair enough.<p>But taking it to further, just exposing raw Postgres sockets with TLS + row level security policies what would be the pros and cons of such an approach?<p>Main that I can think of:<p>1. Business logic would be all in clients (Flutter&#x2F;React[Native] et al) hence updates would require updating those clients.<p>2. Database schema would have to be versioned and clients will have to check if they can continue with the version right now in production or exit with error message asking for an update.<p>3. Infrastructure wise, you&#x27;ll just be running vanilla Postgres and that&#x27;s it, there&#x27;s no backend.<p>4. You would have NO API, you&#x27;d just have database.<p>5. For adding new parties, you&#x27;ll be actually adding real Postgres users (or via some LDAP etc)<p>6. Workers? Background processing? That means inserting records into certain tables, picked up by processes on server side and computing results feeding back to the database.<p>Just seeking collective wisdom&#x2F;experiences&#x2F;opinions&#x2F;stories on the subject if someone has tried this or what are other corner cases that might come up assuming that in every language there’s performant, good enough database driver (Postgres wire protocol) is available including in browsers (via Webassembly or without)<p>Thoughts?<p>[edited typos]",
       "time": 1646065788,
-      "title": "Ask HN: Just database over internet as the only back end?",
+      "title": "Ask HN: Just database over the internet as the only backend?",
       "type": "story"
     },
     {
       "by": "mzs",
-      "descendants": 0,
+      "descendants": 1,
       "id": 30501643,
+      "kids": [
+        30501762
+      ],
       "score": 1,
       "time": 1646065546,
       "title": "ECB assesses that Sberbank and two subsidiaries are failing or likely to fail",
@@ -29,76 +102,6 @@
       "title": "Engineering Management Lessons (2014)",
       "type": "story",
       "url": "https://www.defmacro.org/2014/10/03/engman.html"
-    },
-    {
-      "by": "Miraste",
-      "descendants": 0,
-      "id": 30501626,
-      "score": 2,
-      "time": 1646065478,
-      "title": "IPCC Climate Assessment",
-      "type": "story",
-      "url": "https://www.ipcc.ch/report/sixth-assessment-report-working-group-ii/"
-    },
-    {
-      "by": "williamsmj",
-      "descendants": 0,
-      "id": 30501624,
-      "score": 1,
-      "time": 1646065477,
-      "title": "1Password Legitimizing Blockchain",
-      "type": "story",
-      "url": "https://glyph.twistedmatrix.com/2022/02/legitimizing-blockchain.html"
-    },
-    {
-      "by": "kordlessagain",
-      "descendants": 0,
-      "id": 30501585,
-      "score": 2,
-      "time": 1646065208,
-      "title": "Foundations of Geopolitics",
-      "type": "story",
-      "url": "https://en.wikipedia.org/wiki/Foundations_of_Geopolitics"
-    },
-    {
-      "by": "itamarst",
-      "descendants": 0,
-      "id": 30501578,
-      "score": 1,
-      "time": 1646065182,
-      "title": "Docker builds in CircleCI: go faster, and support newer Linux versions",
-      "type": "story",
-      "url": "https://pythonspeed.com/articles/circleci-docker/"
-    },
-    {
-      "by": "jkjkjkjk",
-      "descendants": 0,
-      "id": 30501569,
-      "score": 1,
-      "text": "I&#x27;m building a test app for Bluetooth devices. Would anyone want to take a look at what I have so far and give me some feedback?",
-      "time": 1646065134,
-      "title": "Bluetooth test app looking for feedback/beta users",
-      "type": "story"
-    },
-    {
-      "by": "simonsarris",
-      "descendants": 0,
-      "id": 30501550,
-      "score": 2,
-      "time": 1646065053,
-      "title": "Long Distance Thinking",
-      "type": "story",
-      "url": "https://simonsarris.substack.com/p/long-distance-thinking"
-    },
-    {
-      "by": "mikesol",
-      "descendants": 0,
-      "id": 30501548,
-      "score": 4,
-      "time": 1646065051,
-      "title": "PureScript 2022 Survey",
-      "type": "story",
-      "url": "https://surveyhero.com/c/wzajwjpd"
     }
   ]
 }
