@@ -1,112 +1,106 @@
 {
   "stories": [
     {
-      "by": "nickfrost",
+      "by": "miperk",
       "descendants": 0,
-      "id": 30503058,
+      "id": 30503142,
       "score": 1,
-      "time": 1646072304,
-      "title": "Ways investors review product readiness in startup pitch decks",
+      "time": 1646072689,
+      "title": "German publicly funded open source projects",
       "type": "story",
-      "url": "https://www.youtube.com/watch?v=5hz2AXT1pTo&list=PLRmr5gARqRKnNqqhqBQ5xDlZ1zLfnoBw6&index=6"
+      "url": "https://demoweek.prototypefund.de/"
     },
     {
-      "by": "brudgers",
+      "by": "gemby",
       "descendants": 0,
-      "id": 30503050,
+      "id": 30503125,
       "score": 1,
-      "time": 1646072257,
-      "title": "Commonalities Between TikTok and Victorian Parlor Games",
+      "time": 1646072609,
+      "title": "Testing Ansible Playbooks with Molecule",
       "type": "story",
-      "url": "https://psyche.co/ideas/what-tiktok-videos-have-in-common-with-victorian-parlour-games"
+      "url": "https://www.sysbee.net/blog/testing-ansible-playbooks-with-molecule/"
     },
     {
-      "by": "jbegley",
+      "by": "TekMol",
       "descendants": 0,
-      "id": 30503029,
+      "id": 30503119,
       "score": 1,
-      "time": 1646072163,
-      "title": "Russian Electric Vehicle Chargers Hacked, Tell Users ‘Putin Is a Dickhead’",
-      "type": "story",
-      "url": "https://www.vice.com/en/article/akvya5/russian-electric-vehicle-chargers-hacked-tell-users-putin-is-a-dickhead"
+      "time": 1646072585,
+      "title": "Ask HN: Any good Podcasts which cover the War in Ukraine?",
+      "type": "story"
     },
     {
-      "by": "Glench",
+      "by": "GordonS",
       "descendants": 0,
-      "id": 30503013,
+      "id": 30503111,
       "score": 1,
-      "time": 1646072074,
-      "title": "Solar-powered system offers a route to inexpensive desalination",
+      "time": 1646072556,
+      "title": "NASA’s New Shortcut to Fusion Power",
       "type": "story",
-      "url": "https://news.mit.edu/2022/solar-desalination-system-inexpensive-0214"
+      "url": "https://spectrum.ieee.org/lattice-confinement-fusion"
     },
     {
-      "by": "sebg",
+      "by": "leirbagarc",
       "descendants": 0,
-      "id": 30503011,
+      "id": 30503110,
       "score": 1,
-      "time": 1646072069,
-      "title": "Building a Brand as a Scientist",
+      "time": 1646072547,
+      "title": "Never use Regex or XML to parse PDFs again",
       "type": "story",
-      "url": "https://www.stephaniehicks.com/blog/building-a-brand-as-a-scientist/"
+      "url": "https://www.youtube.com/watch?v=3UTDJyDMpvs"
     },
     {
-      "by": "Flicflac",
+      "by": "ingve",
       "descendants": 0,
-      "id": 30502981,
+      "id": 30503104,
       "score": 1,
-      "time": 1646071862,
-      "title": "Why I Quit a $450k Engineering Job at Netflix",
+      "time": 1646072512,
+      "title": "Ever Closer: C23 Draws Nearer",
       "type": "story",
-      "url": "https://medium.com/@_michaellin/why-i-quit-a-450k-engineering-job-at-netflix-874454397885"
+      "url": "https://thephd.dev/ever-closer-c23-improvements"
     },
     {
-      "by": "paulgb",
+      "by": "TheSilentNumber",
       "descendants": 0,
-      "id": 30502978,
-      "score": 3,
-      "text": "Hi HN, we’re Paul and Taylor, and we’re launching Drifting in Space (<a href=\"https:&#x2F;&#x2F;driftingin.space\" rel=\"nofollow\">https:&#x2F;&#x2F;driftingin.space</a>). We build server software for performance-intensive browser-based applications. We make it easy to give every user of your app a dedicated server-side process, which starts when they open your application and stops when they close the tab.<p>Many high-end web apps give every user a dedicated connection to a server-side process. That is how they get the low latency that you need for ambitious products like full-fledged video editing tools and IDEs. This is hard for smaller teams to recreate, though, because it takes a significant ongoing engineering investment. That’s where we come in—we make this architecture available to everyone, so you can focus on your app instead of its infrastructure. You can think of it like Heroku, except that each of your users gets their own server instance.<p>I realized that something like this was needed while working on data-intensive tools at a hedge fund. I noticed that almost all new application software, whether it was built in-house or third-party SaaS, was delivered as a browser application rather than native. Although browsers are more powerful than ever, I knew from experience that industrial-scale data-heavy apps posed problems, because neither the browser or a traditional stateless server architecture could provide the compute resources needed for low-latency interaction with large datasets. I began talking about this with my friend Taylor, who had encountered similar limitations while working on data analysis and visualization tools at Datadog and Uber. We decided to team up and build a company around solving it.<p>We have two products, an open source package and a managed platform. Spawner, the open source part, provides an API for web apps to spawn a session-lived process. It manages the process’s lifecycle, exposing it over HTTPS, tracking inbound connections, and shutting it down when it becomes idle (i.e. when the user closes their tab). It’s open source (MIT) and available at <a href=\"https:&#x2F;&#x2F;github.com&#x2F;drifting-in-space&#x2F;spawner\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;drifting-in-space&#x2F;spawner</a>.<p>Jamsocket is our managed platform, which uses Spawner internally. It provides the same API, but frees you from having to deal with any cluster or network configuration to ship code. From an app developer’s point of view, using it is similar to using platforms like Netlify or Render. You stay in the web stack and never have to touch Kubernetes.<p>Here&#x27;s an example. Imagine you make an application for investigating fraud in a large transaction database. Users want to interactively filter, aggregate, and visualize gigabytes of transactions as a graph. Instead of sending all of the data down to the browser and doing the work there, you would put your code in a container and upload it to our platform. Then, whenever a fraud analyst opens your application, you hit an API we provide to spin up a dedicated backend for that analyst. Your browser code then opens a WebSocket connection directly to that backend, which it uses to stream data as the analyst applies filters or zooms&#x2F;pans the visualization.<p>We&#x27;re different from most managed platforms because we give each user a dedicated process. That said, there are a few other services that do run long-lived processes for each user. Architecturally, we&#x27;re most similar to Agones. Agones is targeted at games where the client can speak UDP to an arbitrary IP; we target applications that want to connect directly from browsers to a hostname over HTTPS. In the Erlang world, the OTP stack provides similar functionality, but you have to embrace Erlang&#x2F;Elixir to get the benefits of it; we are entirely language-agnostic. Cloudflare Durable Objects support a form of long-lived processes, but are focused on use cases around program state synchronization rather than arbitrary high-compute&#x2F;memory use cases.<p>We have a usage-based billing model, similar to Heroku. We charge you for the compute you use and take a cut. Usage billing scales to zero, so it’s approachable for weekend experiments. We have not solidified a price plan yet, but we’re aiming to provide an instance capable of running VS Code (as an example) for about 10 cents an hour, fractionally metered. High-memory and high-CPU backends will cost more, and heavy users will get volume discounts. Our target customers are desktop-like SaaS apps and internal data tools.<p>As mentioned, our core API is open source and available at <a href=\"https:&#x2F;&#x2F;github.com&#x2F;drifting-in-space&#x2F;spawner\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;drifting-in-space&#x2F;spawner</a>. The managed platform is in beta and we’re currently onboarding users from a waitlist, to make sure that we have the server capacity to scale. If you’re interested, you’re welcome to sign up for it here: <a href=\"https:&#x2F;&#x2F;driftingin.space\" rel=\"nofollow\">https:&#x2F;&#x2F;driftingin.space</a>.<p>Have you built a similar infrastructure for your application? We’re always interested in hearing the approaches people have already taken to this problem and learning what their pain points are.",
-      "time": 1646071842,
-      "title": "Launch HN: Drifting in Space (YC W22) – A server process for every user",
+      "id": 30503098,
+      "score": 1,
+      "time": 1646072495,
+      "title": "How big tech will dupe the EU (Why we need open standards over open APIs)",
       "type": "story",
-      "url": "https://driftingin.space/"
+      "url": "https://element.io/blog/interoperability-open-apis-are-a-start-open-standard-is-better-2/"
     },
     {
-      "by": "samuelstros",
-      "descendants": 1,
-      "id": 30502971,
-      "kids": [
-        30502993
-      ],
-      "score": 4,
-      "time": 1646071831,
-      "title": "What is the purpose of check-in before flying?",
-      "type": "story",
-      "url": "https://travel.stackexchange.com/questions/26677/what-is-the-purpose-of-check-in-before-flying"
-    },
-    {
-      "by": "ayk3",
+      "by": "nigerian1981",
       "descendants": 0,
-      "id": 30502966,
+      "id": 30503091,
       "score": 2,
-      "time": 1646071809,
-      "title": "Aurora Solar Secures $200M in Series D at $4B Valuation",
+      "time": 1646072468,
+      "title": "Nigeria condemns treatment of Africans trying to flee Ukraine",
       "type": "story",
-      "url": "https://www.bloomberg.com/news/articles/2022-02-28/aurora-solar-gets-4-billion-valuation-on-backing-led-by-coatue"
+      "url": "https://www.theguardian.com/world/2022/feb/28/nigeria-condemns-treatment-africans-trying-to-flee-ukraine-government-poland-discrimination"
     },
     {
-      "by": "tonerow",
-      "descendants": 2,
-      "id": 30502954,
+      "by": "wjdp",
+      "descendants": 1,
+      "id": 30503082,
       "kids": [
-        30503010,
-        30503061
+        30503083
       ],
-      "score": 5,
-      "time": 1646071754,
-      "title": "Art of the Gradient",
+      "score": 2,
+      "time": 1646072427,
+      "title": "The BBC Is Using It’s Own ‘Dot BBC’ Domain (2021)",
       "type": "story",
-      "url": "https://art-of-the-gradient.tone-row.com/"
+      "url": "https://imarc.co.uk/2021/02/13/the-bbc-is-using-its-own-dot-bbc-domain/"
+    },
+    {
+      "by": "jorangreef",
+      "descendants": 0,
+      "id": 30503081,
+      "score": 1,
+      "time": 1646072423,
+      "title": "Database functions to wrap logic and SQL queries",
+      "type": "story",
+      "url": "https://sive.rs/api01"
     }
   ]
 }
