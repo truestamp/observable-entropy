@@ -1,6 +1,56 @@
 {
   "stories": [
     {
+      "by": "underscore_ku",
+      "descendants": 0,
+      "id": 30495009,
+      "score": 1,
+      "time": 1646011431,
+      "title": "Google temporarily disables Google Maps live traffic data in Ukraine",
+      "type": "story",
+      "url": "https://www.reuters.com/technology/google-temporarily-disables-google-maps-live-traffic-data-ukraine-2022-02-28/"
+    },
+    {
+      "by": "Lammy",
+      "descendants": 0,
+      "id": 30494999,
+      "score": 1,
+      "time": 1646011374,
+      "title": "The art of shuffling music (2007)",
+      "type": "story",
+      "url": "https://keyj.emphy.de/balanced-shuffle/"
+    },
+    {
+      "by": "georgecmu",
+      "descendants": 0,
+      "id": 30494996,
+      "score": 2,
+      "time": 1646011355,
+      "title": "Indians in Ukraine recount ordeal on the border, not allowed to leave, beaten up",
+      "type": "story",
+      "url": "https://www.moneycontrol.com/news/politics/indian-students-in-ukraine-recount-ordeal-on-poland-border-many-not-allowed-to-leave-others-beaten-up-8171771.html"
+    },
+    {
+      "by": "ComradePhil",
+      "descendants": 0,
+      "id": 30494986,
+      "score": 1,
+      "time": 1646011314,
+      "title": "CDC Right to Withhold Covid Data to Prevent Misinformation, Scientists Say",
+      "type": "story",
+      "url": "https://www.newsweek.com/cdc-withhold-covid-data-prevent-misinformation-scientists-1682377"
+    },
+    {
+      "by": "belter",
+      "descendants": 0,
+      "id": 30494973,
+      "score": 1,
+      "time": 1646011222,
+      "title": "Guide to Coping with Deployment and Combat Stress [pdf]",
+      "type": "story",
+      "url": "https://ephc.amedd.army.mil/HIPECatalog/Uploads/DownloadableProds/124_TG320.pdf"
+    },
+    {
       "by": "belter",
       "descendants": 0,
       "id": 30494965,
@@ -47,67 +97,11 @@
       "kids": [
         30494890
       ],
-      "score": 2,
+      "score": 3,
       "time": 1646010550,
       "title": "UN votes to hold emergency General Assembly session on Ukraine",
       "type": "story",
       "url": "https://www.france24.com/en/live-news/20220227-un-votes-to-hold-emergency-general-assembly-session-on-ukraine"
-    },
-    {
-      "by": "seam_carver",
-      "descendants": 1,
-      "id": 30494814,
-      "kids": [
-        30494832
-      ],
-      "score": 1,
-      "text": "In the last week of December 2021, I restarted my Netflix subscription. Why? Well people wouldn’t stop talking about Squid Game, and I finally gave in.<p>Then, on my account settings page at https:&#x2F;&#x2F;www.netflix.com&#x2F;YourAccount, I saw something curious:<p>Member Since December _2022_<p>What? When I made this account, it was still December 2021. Why did it say 2022?<p>Just to make sure it wasn’t my computer’s fault, I checked the mobile website. Same thing:<p>Member Since December _2022_<p>What’s going on here?<p>Well, I’m a software engineer, and I’ve actually faced this sort of problem before. It’s most likely because the datetime formatting code is using the YYYY format string instead of yyyy.\nyyyy refers to the calendar year, which is almost definitely what you want.<p>But people often sometimes mistakenly use YYYY instead. (and who can blame them?)<p>YYYY means something else, and will actually return the next calendar year during the last week of a calendar year if that week contains New Year’s day, which fell on Saturday of 2021.<p>Just a small UI bug, but it can definitely cause problems in some circumstances! And it would only affect accounts made in the last week of a calendar year when that week contains New Year’s day, so it’s very tricky to track down! Maybe you’ve made this mistake somewhere in your code!",
-      "time": 1646010118,
-      "title": "Why my Netflix account says it was made a year in the future (YYYY vs. yyyy)",
-      "type": "story"
-    },
-    {
-      "by": "transpute",
-      "descendants": 0,
-      "id": 30494793,
-      "score": 1,
-      "time": 1646009966,
-      "title": "1Lab: Cross-linked reference for mathematics done in Homotopy Type Theory",
-      "type": "story",
-      "url": "https://1lab.dev/"
-    },
-    {
-      "by": "rmbyrro",
-      "descendants": 1,
-      "id": 30494790,
-      "kids": [
-        30494810
-      ],
-      "score": 3,
-      "time": 1646009938,
-      "title": "5km-long Russian convoy seen outside Kyiv, Ukraine (video)",
-      "type": "story",
-      "url": "https://www.youtube.com/watch?v=_gDmMVzjIVw"
-    },
-    {
-      "by": "Diesel555",
-      "descendants": 0,
-      "id": 30494788,
-      "score": 1,
-      "time": 1646009931,
-      "title": "Congressional Research Service: Ukraine: Overview of U.S. and Allied Responses",
-      "type": "story",
-      "url": "https://crsreports.congress.gov/product/pdf/IN/IN11869"
-    },
-    {
-      "by": "jger15",
-      "descendants": 0,
-      "id": 30494772,
-      "score": 1,
-      "time": 1646009868,
-      "title": "Becoming Trader Joe: A Book Review",
-      "type": "story",
-      "url": "https://macro-ops.com/becoming-trader-joe-a-book-review/"
     }
   ]
 }
