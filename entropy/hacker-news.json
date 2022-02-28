@@ -1,9 +1,53 @@
 {
   "stories": [
     {
-      "by": "pintxo",
+      "by": "hunglee2",
       "descendants": 0,
+      "id": 30502093,
+      "score": 1,
+      "time": 1646067612,
+      "title": "How to Help the People in Ukraine",
+      "type": "story",
+      "url": "https://github.com/AndrewStetsenko/Support-Ukraine/blob/main/README.md"
+    },
+    {
+      "by": "khehy",
+      "descendants": 0,
+      "id": 30502077,
+      "score": 1,
+      "time": 1646067526,
+      "title": "Ben Stiller Talks Severance, His Marriage, Children, Parents, and Reality Bites",
+      "type": "story",
+      "url": "https://www.esquire.com/entertainment/tv/a39139152/ben-stiller-severance-profile/"
+    },
+    {
+      "by": "akharris",
+      "descendants": 0,
+      "id": 30502076,
+      "score": 1,
+      "time": 1646067526,
+      "title": "A framework for choosing what to do",
+      "type": "story",
+      "url": "https://blog.aaronkharris.com/a-framework-for-choosing-a-job"
+    },
+    {
+      "by": "endorphine",
+      "descendants": 0,
+      "id": 30502067,
+      "score": 2,
+      "text": "I&#x27;m trying to wrap my head around async&#x2F;await and how it works under the hood, be it JavaScript, C# or others.<p>From what I understand, in JavaScript at least, putting `await foo()` inside an async function, splits the calling function in two, with the 2nd half being converted to a callback. (Pretty sure this is full of errors so please correct me where I&#x27;m wrong)<p>Why can&#x27;t non-async functions use await()?",
+      "time": 1646067468,
+      "title": "Ask HN: Why can't await be used from non-async functions?",
+      "type": "story"
+    },
+    {
+      "by": "pintxo",
+      "descendants": 1,
       "id": 30502021,
+      "kids": [
+        30502044,
+        30502046
+      ],
       "score": 1,
       "time": 1646067226,
       "title": "Russian warships curb tilts Turkey to West, risks Russia's ire",
@@ -14,7 +58,7 @@
       "by": "difflens",
       "descendants": 0,
       "id": 30502020,
-      "score": 1,
+      "score": 2,
       "text": "Hi HN! We were frustrated with text diffs on GitHub PRs, so we made DiffLens (<a href=\"https:&#x2F;&#x2F;github.com&#x2F;marketplace&#x2F;difflens\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;marketplace&#x2F;difflens</a>). DiffLens constructs an Abstract Syntax Tree for each file, and uses that semantic information to intelligently diff changes. Checkout the demo on our website (<a href=\"https:&#x2F;&#x2F;www.difflens.com\" rel=\"nofollow\">https:&#x2F;&#x2F;www.difflens.com</a>).<p>Getting started with DiffLens is easy! Simply install the app on your repositories. The next time you open a PR, DiffLens will automatically create a diff for your changes. If you review code, especially TypeScript, JavaScript or CSS, give DiffLens a try!<p>We&#x27;re always looking for feedback. If you encounter bugs, or want to give us feedback, we&#x27;ll be around. You can also reach us at support@difflens.com.",
       "time": 1646067211,
       "title": "Show HN: Language aware diff on GitHub PRs",
@@ -60,49 +104,6 @@
       "title": "K6-2 to K6-3 Full Cache Enable Mod",
       "type": "story",
       "url": "https://www.vogons.org/viewtopic.php?t=85071"
-    },
-    {
-      "by": "dev_tty01",
-      "descendants": 0,
-      "id": 30501962,
-      "score": 2,
-      "time": 1646066957,
-      "title": "CISA and FBI publish advisory to protect orgs from malware used in Ukraine",
-      "type": "story",
-      "url": "https://www.cisa.gov/news/2022/02/26/cisa-and-fbi-publish-advisory-protect-organizations-destructive-malware-used"
-    },
-    {
-      "by": "latchkey",
-      "descendants": 1,
-      "id": 30501961,
-      "kids": [
-        30501996
-      ],
-      "score": 2,
-      "time": 1646066954,
-      "title": "TikTok expands max video length to 10 minutes",
-      "type": "story",
-      "url": "https://techcrunch.com/2022/02/28/tiktok-expands-max-video-length-to-10-minutes-up-from-3-minutes/"
-    },
-    {
-      "by": "striking",
-      "descendants": 0,
-      "id": 30501953,
-      "score": 1,
-      "time": 1646066928,
-      "title": "I feared remote work would kill my startup’s culture. Here’s why it didn’t",
-      "type": "story",
-      "url": "https://www.fastcompany.com/90723983/i-feared-remote-work-would-kill-my-startups-culture-heres-why-it-didnt"
-    },
-    {
-      "by": "shekarramaswamy",
-      "descendants": 0,
-      "id": 30501946,
-      "score": 1,
-      "time": 1646066890,
-      "title": "Liquidity Is All You Need",
-      "type": "story",
-      "url": "https://coinsights.substack.com/p/liquidity-is-all-you-need"
     }
   ]
 }
