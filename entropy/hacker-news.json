@@ -1,6 +1,19 @@
 {
   "stories": [
     {
+      "by": "seam_carver",
+      "descendants": 1,
+      "id": 30494814,
+      "kids": [
+        30494832
+      ],
+      "score": 1,
+      "text": "In the last week of December 2021, I restarted my Netflix subscription. Why? Well people wouldn’t stop talking about Squid Game, and I finally gave in.<p>Then, on my account settings page at https:&#x2F;&#x2F;www.netflix.com&#x2F;YourAccount, I saw something curious:<p>Member Since December _2022_<p>What? When I made this account, it was still December 2021. Why did it say 2022?<p>Just to make sure it wasn’t my computer’s fault, I checked the mobile website. Same thing:<p>Member Since December _2022_<p>What’s going on here?<p>Well, I’m a software engineer, and I’ve actually faced this sort of problem before. It’s most likely because the datetime formatting code is using the YYYY format string instead of yyyy.\nyyyy refers to the calendar year, which is almost definitely what you want.<p>But people often sometimes mistakenly use YYYY instead. (and who can blame them?)<p>YYYY means something else, and will actually return the next calendar year during the last week of a calendar year if that week contains New Year’s day, which fell on Saturday of 2021.<p>Just a small UI bug, but it can definitely cause problems in some circumstances! And it would only affect accounts made in the last week of a calendar year when that week contains New Year’s day, so it’s very tricky to track down! Maybe you’ve made this mistake somewhere in your code!",
+      "time": 1646010118,
+      "title": "Why my Netflix account says it was made a year in the future (YYYY vs. yyyy)",
+      "type": "story"
+    },
+    {
       "by": "transpute",
       "descendants": 0,
       "id": 30494793,
@@ -12,9 +25,12 @@
     },
     {
       "by": "rmbyrro",
-      "descendants": 0,
+      "descendants": 1,
       "id": 30494790,
-      "score": 1,
+      "kids": [
+        30494810
+      ],
+      "score": 2,
       "time": 1646009938,
       "title": "5km-long Russian convoy seen outside Kyiv, Ukraine",
       "type": "story",
@@ -39,16 +55,6 @@
       "title": "Becoming Trader Joe: A Book Review",
       "type": "story",
       "url": "https://macro-ops.com/becoming-trader-joe-a-book-review/"
-    },
-    {
-      "by": "MilnerRoute",
-      "descendants": 0,
-      "id": 30494768,
-      "score": 1,
-      "time": 1646009852,
-      "title": "Anonymous claims hack of Belarus railways' internal network",
-      "type": "story",
-      "url": "https://twitter.com/LatestAnonPress/status/1497994644864520206"
     },
     {
       "by": "jger15",
@@ -87,7 +93,7 @@
       "by": "thanatosmin",
       "descendants": 0,
       "id": 30494658,
-      "score": 4,
+      "score": 5,
       "time": 1646009146,
       "title": "MIT Terminates Russian Skoltech Program",
       "type": "story",
