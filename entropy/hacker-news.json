@@ -1,11 +1,40 @@
 {
   "stories": [
-    null,
+    {
+      "by": "wg0",
+      "descendants": 0,
+      "id": 30501699,
+      "score": 1,
+      "text": "This might seem a silly approach but in context of thinking about typical SaaS applications, I came across this postgrest which offers RESTful access to Postgres. Now one can build application to just that REST abstraction is one way to go about it instead of going through ORMs. Fair enough.<p>But taking it to further, just exposing raw Postgres sockets with TLS + row level security policies what would be the pros and cons of such an approach?<p>Main that I can think of:<p>1. Business logic would be all in clients (Flutter&#x2F;React[Native] et al) hence updates would require updating those clients.\n2. Database schema would have to be versioned and clients will have to check if they can continue with the version right now in production or exit with error message asking for an update.\n3. Infrastructure wise, you&#x27;ll just be running vanilla Postgres and that&#x27;s it, there&#x27;s no backend.\n4. You would have NO API, you&#x27;d just have database.\n5. For adding new parties, you&#x27;ll be actually adding real Postgres users (or via some LDAP etc)\n6. Workers? Background processing? That means inserting records into certain tables, picked up by processes on server side and computing results feeding back to the database.<p>Just seeking collective wisdom&#x2F;experiences&#x2F;opinions&#x2F;stories on the subject if someone has tried this or what are other corner cases that might come up assuming that in every language there’s performant, good enough database driver (Postgres wire protocol) is available including in browsers (via Webassembly or without)<p>Thoughts?",
+      "time": 1646065788,
+      "title": "Ask HN: Just database over internet as the only back end?",
+      "type": "story"
+    },
+    {
+      "by": "mzs",
+      "descendants": 0,
+      "id": 30501643,
+      "score": 1,
+      "time": 1646065546,
+      "title": "ECB assesses that Sberbank and two subsidiaries are failing or likely to fail",
+      "type": "story",
+      "url": "https://www.bankingsupervision.europa.eu/press/pr/date/2022/html/ssm.pr220228~3121b6aec1.en.html"
+    },
+    {
+      "by": "lucasmullens",
+      "descendants": 0,
+      "id": 30501633,
+      "score": 1,
+      "time": 1646065501,
+      "title": "Engineering Management Lessons (2014)",
+      "type": "story",
+      "url": "https://www.defmacro.org/2014/10/03/engman.html"
+    },
     {
       "by": "Miraste",
       "descendants": 0,
       "id": 30501626,
-      "score": 1,
+      "score": 2,
       "time": 1646065478,
       "title": "IPCC Climate Assessment",
       "type": "story",
@@ -55,7 +84,7 @@
       "by": "simonsarris",
       "descendants": 0,
       "id": 30501550,
-      "score": 1,
+      "score": 2,
       "time": 1646065053,
       "title": "Long Distance Thinking",
       "type": "story",
@@ -70,26 +99,6 @@
       "title": "PureScript 2022 Survey",
       "type": "story",
       "url": "https://surveyhero.com/c/wzajwjpd"
-    },
-    {
-      "by": "jka",
-      "descendants": 0,
-      "id": 30501515,
-      "score": 2,
-      "time": 1646064887,
-      "title": "Record CO2 emission reductions during 2020: -12% USA and -11% EU (2021)",
-      "type": "story",
-      "url": "https://phys.org/news/2021-03-pandemic-fall-global-carbon-emissions.html"
-    },
-    {
-      "by": "nyellin",
-      "descendants": 0,
-      "id": 30501509,
-      "score": 2,
-      "time": 1646064850,
-      "title": "Combining CPU profiling and static analysis for better JupyterNotebook profiling",
-      "type": "story",
-      "url": "https://home.robusta.dev/blog/whyprofiler-the-worlds-first-hybrid-cpu-profiler-now-for-jupyter-notebook-and-python/"
     }
   ]
 }
