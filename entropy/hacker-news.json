@@ -1,6 +1,36 @@
 {
   "stories": [
     {
+      "by": "nickfrost",
+      "descendants": 0,
+      "id": 30503058,
+      "score": 1,
+      "time": 1646072304,
+      "title": "Ways investors review product readiness in startup pitch decks",
+      "type": "story",
+      "url": "https://www.youtube.com/watch?v=5hz2AXT1pTo&list=PLRmr5gARqRKnNqqhqBQ5xDlZ1zLfnoBw6&index=6"
+    },
+    {
+      "by": "brudgers",
+      "descendants": 0,
+      "id": 30503050,
+      "score": 1,
+      "time": 1646072257,
+      "title": "Commonalities Between TikTok and Victorian Parlor Games",
+      "type": "story",
+      "url": "https://psyche.co/ideas/what-tiktok-videos-have-in-common-with-victorian-parlour-games"
+    },
+    {
+      "by": "jbegley",
+      "descendants": 0,
+      "id": 30503029,
+      "score": 1,
+      "time": 1646072163,
+      "title": "Russian Electric Vehicle Chargers Hacked, Tell Users ‘Putin Is a Dickhead’",
+      "type": "story",
+      "url": "https://www.vice.com/en/article/akvya5/russian-electric-vehicle-chargers-hacked-tell-users-putin-is-a-dickhead"
+    },
+    {
       "by": "Glench",
       "descendants": 0,
       "id": 30503013,
@@ -34,7 +64,7 @@
       "by": "paulgb",
       "descendants": 0,
       "id": 30502978,
-      "score": 2,
+      "score": 3,
       "text": "Hi HN, we’re Paul and Taylor, and we’re launching Drifting in Space (<a href=\"https:&#x2F;&#x2F;driftingin.space\" rel=\"nofollow\">https:&#x2F;&#x2F;driftingin.space</a>). We build server software for performance-intensive browser-based applications. We make it easy to give every user of your app a dedicated server-side process, which starts when they open your application and stops when they close the tab.<p>Many high-end web apps give every user a dedicated connection to a server-side process. That is how they get the low latency that you need for ambitious products like full-fledged video editing tools and IDEs. This is hard for smaller teams to recreate, though, because it takes a significant ongoing engineering investment. That’s where we come in—we make this architecture available to everyone, so you can focus on your app instead of its infrastructure. You can think of it like Heroku, except that each of your users gets their own server instance.<p>I realized that something like this was needed while working on data-intensive tools at a hedge fund. I noticed that almost all new application software, whether it was built in-house or third-party SaaS, was delivered as a browser application rather than native. Although browsers are more powerful than ever, I knew from experience that industrial-scale data-heavy apps posed problems, because neither the browser or a traditional stateless server architecture could provide the compute resources needed for low-latency interaction with large datasets. I began talking about this with my friend Taylor, who had encountered similar limitations while working on data analysis and visualization tools at Datadog and Uber. We decided to team up and build a company around solving it.<p>We have two products, an open source package and a managed platform. Spawner, the open source part, provides an API for web apps to spawn a session-lived process. It manages the process’s lifecycle, exposing it over HTTPS, tracking inbound connections, and shutting it down when it becomes idle (i.e. when the user closes their tab). It’s open source (MIT) and available at <a href=\"https:&#x2F;&#x2F;github.com&#x2F;drifting-in-space&#x2F;spawner\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;drifting-in-space&#x2F;spawner</a>.<p>Jamsocket is our managed platform, which uses Spawner internally. It provides the same API, but frees you from having to deal with any cluster or network configuration to ship code. From an app developer’s point of view, using it is similar to using platforms like Netlify or Render. You stay in the web stack and never have to touch Kubernetes.<p>Here&#x27;s an example. Imagine you make an application for investigating fraud in a large transaction database. Users want to interactively filter, aggregate, and visualize gigabytes of transactions as a graph. Instead of sending all of the data down to the browser and doing the work there, you would put your code in a container and upload it to our platform. Then, whenever a fraud analyst opens your application, you hit an API we provide to spin up a dedicated backend for that analyst. Your browser code then opens a WebSocket connection directly to that backend, which it uses to stream data as the analyst applies filters or zooms&#x2F;pans the visualization.<p>We&#x27;re different from most managed platforms because we give each user a dedicated process. That said, there are a few other services that do run long-lived processes for each user. Architecturally, we&#x27;re most similar to Agones. Agones is targeted at games where the client can speak UDP to an arbitrary IP; we target applications that want to connect directly from browsers to a hostname over HTTPS. In the Erlang world, the OTP stack provides similar functionality, but you have to embrace Erlang&#x2F;Elixir to get the benefits of it; we are entirely language-agnostic. Cloudflare Durable Objects support a form of long-lived processes, but are focused on use cases around program state synchronization rather than arbitrary high-compute&#x2F;memory use cases.<p>We have a usage-based billing model, similar to Heroku. We charge you for the compute you use and take a cut. Usage billing scales to zero, so it’s approachable for weekend experiments. We have not solidified a price plan yet, but we’re aiming to provide an instance capable of running VS Code (as an example) for about 10 cents an hour, fractionally metered. High-memory and high-CPU backends will cost more, and heavy users will get volume discounts. Our target customers are desktop-like SaaS apps and internal data tools.<p>As mentioned, our core API is open source and available at <a href=\"https:&#x2F;&#x2F;github.com&#x2F;drifting-in-space&#x2F;spawner\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;drifting-in-space&#x2F;spawner</a>. The managed platform is in beta and we’re currently onboarding users from a waitlist, to make sure that we have the server capacity to scale. If you’re interested, you’re welcome to sign up for it here: <a href=\"https:&#x2F;&#x2F;driftingin.space\" rel=\"nofollow\">https:&#x2F;&#x2F;driftingin.space</a>.<p>Have you built a similar infrastructure for your application? We’re always interested in hearing the approaches people have already taken to this problem and learning what their pain points are.",
       "time": 1646071842,
       "title": "Launch HN: Drifting in Space (YC W22) – A server process for every user",
@@ -48,7 +78,7 @@
       "kids": [
         30502993
       ],
-      "score": 2,
+      "score": 4,
       "time": 1646071831,
       "title": "What is the purpose of check-in before flying?",
       "type": "story",
@@ -66,46 +96,17 @@
     },
     {
       "by": "tonerow",
-      "descendants": 1,
+      "descendants": 2,
       "id": 30502954,
       "kids": [
-        30503010
+        30503010,
+        30503061
       ],
-      "score": 3,
+      "score": 5,
       "time": 1646071754,
       "title": "Art of the Gradient",
       "type": "story",
       "url": "https://art-of-the-gradient.tone-row.com/"
-    },
-    {
-      "by": "omnibrain",
-      "descendants": 0,
-      "id": 30502945,
-      "score": 1,
-      "time": 1646071698,
-      "title": "Asynchronous Messaging and Eventing Resources",
-      "type": "story",
-      "url": "https://github.com/clemensv/messaging"
-    },
-    {
-      "by": "sizzle",
-      "descendants": 0,
-      "id": 30502942,
-      "score": 1,
-      "time": 1646071687,
-      "title": "Computer-security researchers aim to prevent tech abuse",
-      "type": "story",
-      "url": "https://news.cornell.edu/stories/2022/02/computer-security-researchers-aim-prevent-tech-abuse"
-    },
-    {
-      "by": "PaulHoule",
-      "descendants": 0,
-      "id": 30502940,
-      "score": 1,
-      "time": 1646071684,
-      "title": "The Options for the EU's Initiative to Restock Ukraine's Fighter Jets",
-      "type": "story",
-      "url": "https://www.thedrive.com/the-war-zone/44476/here-are-the-options-for-the-eus-initiative-to-restock-ukraine-with-fighter-jets"
     }
   ]
 }
