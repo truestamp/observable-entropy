@@ -1,6 +1,55 @@
 {
   "stories": [
-    null,
+    {
+      "by": "islon",
+      "descendants": 0,
+      "id": 30515584,
+      "score": 1,
+      "time": 1646149772,
+      "title": "‘Yes, He Would’: Fiona Hill on Putin and Nukes",
+      "type": "story",
+      "url": "https://www.politico.com/news/magazine/2022/02/28/world-war-iii-already-there-00012340"
+    },
+    {
+      "by": "slayerjain",
+      "descendants": 0,
+      "id": 30515583,
+      "score": 1,
+      "time": 1646149770,
+      "title": "Our no-code testing platform is testing itself and already getting 70% coverage",
+      "type": "story",
+      "url": "https://github.com/keploy/keploy"
+    },
+    {
+      "by": "lichtenberger",
+      "descendants": 0,
+      "id": 30515582,
+      "score": 1,
+      "text": "Hi all,<p>Sebastian and his students did a tremendous job creating Brackit[1] in the first place as a retargetable query engine for different data stores. They worked hard to optimize aggregations and joins. Despite its clear database query engine routes, it&#x27;s furthermore useable as a standalone ad-hoc in-memory query engine.<p>Sebastian did his research for his Ph.D. at the TU-Kaiserslautern at the database systems group of Theo Härder. Theo Härder coined the well-known acronym ACID with Andreas Reuter, the desired properties of transactions.<p>As he&#x27;s currently not maintaining the project anymore, I stepped up and forked the project a couple of years ago. I&#x27;m using it for my evolutionary, immutable data store SirixDB[2], which stores the entire history of your JSON data in small-sized snapshots in an append-only file (tailored binary format similar to BSON). It&#x27;s exceptionally well suited for audits, undo operations, and sophisticated analytical time travel queries.<p>I&#x27;ve changed a lot of stuff, such that Brackit is getting more and more compatible with the JSONiq query language standard, added JSONiq update primitives, and fixed several bugs. Furthermore, I&#x27;ve added temporal extension functions and temporal XPath axis in SirixDB, index rewrite rules, etc. pp.<p>As Brackit can query XML, we&#x27;re also able to transform XML data to JSON and vice versa.<p>Moshe and I are working on a  Jupyter Notebook &#x2F; Tutorial[3] for interactive queries.<p>We&#x27;re looking forward to your bug reports, issues, and questions. Contributions are, of course, highly welcome. Maybe even implementations for other data stores or common query optimizations.<p>Furthermore, we&#x27;d gladly see further (university-based?) research.<p>It should, for instance, be possible to add vector instructions in the future, as the query engine is already set-oriented and processes sets of tuples for the so-called FLWOR expressions (see JSONiq). Brackit rewrites FLWOR expression trees in the AST to a pipeline of operations to port optimizations from relational query engines for efficient join processing and aggregate expressions. Furthermore, certain parts of the queries are parallelizable, as detailed in Sebastian&#x27;s thesis. We also envision a stage for the compiler to use distributed processing (first research used MapReduce, but we can now use better-suited approaches, of course).<p>Kind regards\nJohannes<p>[1] https:&#x2F;&#x2F;github.com&#x2F;sirixdb&#x2F;brackit\n[2] https:&#x2F;&#x2F;sirix.io | https:&#x2F;&#x2F;github.com&#x2F;sirixdb&#x2F;sirix\n[3] https:&#x2F;&#x2F;colab.research.google.com&#x2F;drive&#x2F;19eC-UfJVm_gCjY--koOWN50sgiFa5hSC",
+      "time": 1646149757,
+      "title": "Show HN: Brackit – a retargetable JSONiq based query engine for JSON",
+      "type": "story"
+    },
+    {
+      "by": "mayyvan",
+      "descendants": 0,
+      "id": 30515554,
+      "score": 1,
+      "time": 1646149593,
+      "title": "Compare Tech Salaries Instantly: Introducing the VanHack Tech Salary Calculator",
+      "type": "story",
+      "url": "https://blog.vanhack.com/blog/compare-tech-salaries-instantly-introducing-the-vanhack-tech-salary-calculator/"
+    },
+    {
+      "by": "davidbarker",
+      "descendants": 0,
+      "id": 30515536,
+      "score": 3,
+      "time": 1646149518,
+      "title": "React.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED",
+      "type": "story",
+      "url": "https://github.com/facebook/react/blob/main/packages/shared/ReactSharedInternals.js"
+    },
     {
       "by": "PaulHoule",
       "descendants": 0,
@@ -35,7 +84,7 @@
       "by": "nixass",
       "descendants": 0,
       "id": 30515494,
-      "score": 3,
+      "score": 7,
       "time": 1646149376,
       "title": "Elon Musk Says SpaceX Can Keep the ISS Flying If Russia Won't",
       "type": "story",
@@ -50,46 +99,6 @@
       "title": "Listen to extinct bird songs brought back to life",
       "type": "story",
       "url": "https://earthsky.org/earth/extinct-bird-songs-woodpecker-warbler-kauai-oo/"
-    },
-    {
-      "by": "Richard_Grant",
-      "descendants": 0,
-      "id": 30515487,
-      "score": 1,
-      "time": 1646149357,
-      "title": "How Serverless Cloud Works (Part 1)",
-      "type": "story",
-      "url": "https://www.serverless.com/blog/how-serverless-cloud-works-part-1"
-    },
-    {
-      "by": "SJMosley",
-      "descendants": 0,
-      "id": 30515448,
-      "score": 1,
-      "text": "What are the best resources you have come across that helped you learn about &quot;designing&quot; for developers as your primary customer?<p>Documentation, SDK development, clean API design, reducing friction in the set up, etc.<p>What is something you always look for from these tools or that makes you choose one over another?",
-      "time": 1646149214,
-      "title": "Ask HN: Best resources for designing developer tools?",
-      "type": "story"
-    },
-    {
-      "by": "the-last-user",
-      "descendants": 0,
-      "id": 30515418,
-      "score": 3,
-      "text": "I&#x27;m a ~30y.o. physics researcher and my family is at the moment living on their skin the Ukrainian crisis. \nUp until now they have been able to get (bad) internet access however, after the latest news I fear that Russia will soon disrupt network communications.<p>Unfortunately I haven&#x27;t been smart enough to foresee this situation and I didn&#x27;t provide them in time with any satellite phone&#x2F;starlink&#x2F;similar.<p>I&#x27;m in search of any do-it-yourself device capable of connecting to satellite and send SMS or make phone calls. My father has some electronics skills and is fairly good at programming.<p>My hope is that, perhaps, someone could guide me to a good tutorial on how to build a communication device so that I could still hear from them in case the internet will go down.",
-      "time": 1646149040,
-      "title": "Ask HN: DIY Satellite Phone",
-      "type": "story"
-    },
-    {
-      "by": "emmanuelgautier",
-      "descendants": 0,
-      "id": 30515412,
-      "score": 2,
-      "time": 1646149017,
-      "title": "MySQL Docker Image for Mac ARM M1",
-      "type": "story",
-      "url": "https://www.emmanuelgautier.com/blog/mysql-docker-arm-m1"
     }
   ]
 }
