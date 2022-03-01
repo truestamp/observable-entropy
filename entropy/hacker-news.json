@@ -1,6 +1,75 @@
 {
   "stories": [
     {
+      "by": "borisandcrispin",
+      "descendants": 0,
+      "id": 30518335,
+      "score": 1,
+      "text": "Hello HN! This is Thiago and Dragos from Duckly (YC S20) (https:&#x2F;&#x2F;duckly.com). Duckly is an IDE plugin for VSCode and IntelliJ that enables developers to talk and share their code in real-time with people using a different IDE.<p>We have been working together remotely since 2019 and we were surprised about how hard it was for doing simple collaborative tasks. Like helping a colleague debug something. We also found it interesting to watch skilled people working and naturally as product builders, we were particularly interested in watching developers working. We knew the rubber duck debugging methodology so we decided to build this product that would enable you to share yourself coding live. We called it GitDuck — like after doing a git commit, you would record a short video explaining your code using the command git duck. We launched this on HN https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=20895084.<p>That was interesting, but we were still facing the same issues when trying to collaborate internally. It was still hard to get help from somebody else. We decided to focus on private collaboration and make it possible for people to collaborate in real-time. That was a big change, as previously we had built a streaming platform and an IDE plugin that was linking the code to the video timestamps. In this new iteration, we had to build a video calling app connected to the IDE plugin that would enable people to share and edit code while on a call. Btw, that happened while going through YC. You can see this version launch here https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=24228826.<p>The video calling part was built using Daily.co and we built a new IDE plugin that would share the code P2P with other call participants using CRDTs. Building that was quite challenging and we had to be very careful when propagating changes between all participants to avoid the code getting out of sync.<p>A frequent feedback that we received from our users is that it was troublesome to talk using the web, while code sharing on the IDE. That everything would be better if you could actually talk inside of the IDE. The hard part of doing this is that we couldn’t rely on the IDEs for managing the audio and video. For example, while building the first live streaming iteration, we learned that the IDEs were often killing the extension running in the background. Another challenge is how we could offer this feature in the future for other IDEs like Eclipse, vim, or Sublime. Some of these didn’t even have the UI or the APIs for supporting such features. We decided to use an electron app and make the IDE communicate and control it. You talk using this native app, but that is launched and controlled by your IDE.<p>And yes, we are going to support other IDEs, but we don’t want to port until we are satisfied with the existing experience.<p>Server sharing was another interesting use case that we wanted to solve. It enables you to share any local open port with other people. We create a tunnel with a temporary URL and people can access it by going to that URL. We use socket.io under the hoods to be able to do it.<p>And that’s what we are launching now! This version of Duckly works entirely on the IDE so developers can talk and share their code without using anything else. The code is shared P2P, with IntelliSense support, and you can collaborate with people using a different IDE than you. We are naturally excited about this launch, but we still need to provide support for Terminal, chat and port to other IDEs. We will address this later.<p>Duckly has 3 plans, a free plan that allows you to talk up to 45min with one person. A Developer plan ($6&#x2F;month) that you can talk unlimited with up to 3 people simultaneously or the Team plan ($10&#x2F;member&#x2F;month) that is basically unlimited on all fronts.<p>We would love to hear your feedback. How do you do when you need to collaborate remotely? Do you use any traditional video call like Zoom with screen sharing or do you use something else?",
+      "time": 1646160820,
+      "title": "Show HN: Duckly – Cross-IDE real-time code sharing with video call",
+      "type": "story"
+    },
+    {
+      "by": "kosasbest",
+      "descendants": 0,
+      "id": 30518318,
+      "score": 1,
+      "time": 1646160776,
+      "title": "How to Checkmate Putin",
+      "type": "story",
+      "url": "https://www.jpost.com/international/article-698594"
+    },
+    {
+      "by": "launchiterate",
+      "descendants": 0,
+      "id": 30518300,
+      "score": 1,
+      "time": 1646160703,
+      "title": "Ask HN: How do you connect your M1 MacBook Air to your iMac?",
+      "type": "story"
+    },
+    {
+      "by": "JSeymourATL",
+      "descendants": 0,
+      "id": 30518285,
+      "score": 1,
+      "time": 1646160660,
+      "title": "AI-generated faces are now more trustworthy than real ones",
+      "type": "story",
+      "url": "https://www.fastcompany.com/90723105/ai-generated-faces-have-crossed-the-uncanny-valley-and-are-now-more-trustworthy-than-real-ones"
+    },
+    {
+      "by": "devadvance",
+      "descendants": 0,
+      "id": 30518279,
+      "score": 2,
+      "time": 1646160640,
+      "title": "It's Time to Come Clean – Brandon Sanderson",
+      "type": "story",
+      "url": "https://www.youtube.com/watch?v=6a-k6eaT-jQ"
+    },
+    {
+      "by": "apalom",
+      "descendants": 0,
+      "id": 30518275,
+      "score": 2,
+      "time": 1646160625,
+      "title": "Why Apple’s New M1 Chips Are Essential for Rapid iOS Development",
+      "type": "story",
+      "url": "https://doordash.engineering/2022/03/01/why-apples-new-m1-chips-are-essential-for-rapid-ios-development/"
+    },
+    {
+      "by": "latchkey",
+      "descendants": 0,
+      "id": 30518263,
+      "score": 1,
+      "time": 1646160587,
+      "title": "Ukraine Warcasting",
+      "type": "story",
+      "url": "https://astralcodexten.substack.com/p/ukraine-warcasting"
+    },
+    {
       "by": "rbanffy",
       "descendants": 0,
       "id": 30518261,
@@ -29,76 +98,6 @@
       "title": "Our generation's battle cry for universal internet access",
       "type": "story",
       "url": "https://www.iafrikan.com/datamuststillfall-2/"
-    },
-    {
-      "by": "sciurus",
-      "descendants": 0,
-      "id": 30518235,
-      "score": 1,
-      "time": 1646160456,
-      "title": "Role and Influence: The IC trajectory beyond Staff [pdf]",
-      "type": "story",
-      "url": "https://leaddev.com/sites/default/files/2021-09/Role%20and%20Influence%20The%20IC%20Trajectory%20Beyond%20Staff.pdf"
-    },
-    {
-      "by": "ttunguz",
-      "descendants": 0,
-      "id": 30518233,
-      "score": 1,
-      "time": 1646160440,
-      "title": "1/9/90 in Crypto",
-      "type": "story",
-      "url": "https://tomtunguz.com/dao-population-patterns/"
-    },
-    {
-      "by": "deven88",
-      "descendants": 0,
-      "id": 30518223,
-      "score": 1,
-      "time": 1646160408,
-      "title": "NATO and Ukraine crisis: warning from strategic thinker",
-      "type": "story",
-      "url": "https://twitter.com/RnaudBertrand/status/1498491107902062592"
-    },
-    {
-      "by": "LinuxBender",
-      "descendants": 0,
-      "id": 30518222,
-      "score": 1,
-      "time": 1646160406,
-      "title": "Russia announces to carry out strikes on Kyiv government facilities [video]",
-      "type": "story",
-      "url": "https://www.youtube.com/watch?v=8d8T_nFjvdM"
-    },
-    {
-      "by": "feross",
-      "descendants": 0,
-      "id": 30518210,
-      "score": 2,
-      "time": 1646160378,
-      "title": "Nobody Wants Russian Assets",
-      "type": "story",
-      "url": "https://www.bloomberg.com/opinion/articles/2022-03-01/nobody-wants-russian-assets"
-    },
-    {
-      "by": "rogerkirkness",
-      "descendants": 0,
-      "id": 30518198,
-      "score": 1,
-      "time": 1646160334,
-      "title": "Convictional (YC W19) is hiring engineers to build the future of B2B trade",
-      "type": "story",
-      "url": "https://jobs.ashbyhq.com/convictional/91fa08f9-0850-4429-9000-19c1f5fe9ef3"
-    },
-    {
-      "by": "mariialv",
-      "descendants": 0,
-      "id": 30518183,
-      "score": 2,
-      "time": 1646160278,
-      "title": "Developing a Disaster Recovery Plan for Banks",
-      "type": "story",
-      "url": "https://www.globalbankingandfinance.com/developing-a-disaster-recovery-plan-for-banks/"
     }
   ]
 }
