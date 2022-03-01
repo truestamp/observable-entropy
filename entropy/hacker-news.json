@@ -1,6 +1,76 @@
 {
   "stories": [
     {
+      "by": "paulpauper",
+      "descendants": 0,
+      "id": 30516060,
+      "score": 1,
+      "time": 1646151574,
+      "title": "Beyond sanctions: An off-ramp for post-Putin Russia",
+      "type": "story",
+      "url": "https://noahpinion.substack.com/p/beyond-sanctions-an-off-ramp-for"
+    },
+    {
+      "by": "softwarebeware",
+      "descendants": 0,
+      "id": 30516058,
+      "score": 1,
+      "time": 1646151570,
+      "title": "A Mysterious Rocket Booster Is About to Crash into the Moon",
+      "type": "story",
+      "url": "https://www.mentalfloss.com/article/655655/rocket-booster-about-crash-moon"
+    },
+    {
+      "by": "caaqil",
+      "descendants": 0,
+      "id": 30516049,
+      "score": 2,
+      "time": 1646151545,
+      "title": "Conti ransomware gang chats leaked by pro-Ukraine member",
+      "type": "story",
+      "url": "https://therecord.media/conti-ransomware-gang-chats-leaked-by-pro-ukraine-member/"
+    },
+    {
+      "by": "paulpauper",
+      "descendants": 0,
+      "id": 30516047,
+      "score": 1,
+      "time": 1646151540,
+      "title": "The War in Ukraine, and One of Them Is a Consequence of American Imperialism",
+      "type": "story",
+      "url": "https://freddiedeboer.substack.com/p/the-war-in-ukraine-is-many-things"
+    },
+    {
+      "by": "lbenes",
+      "descendants": 0,
+      "id": 30516036,
+      "score": 1,
+      "time": 1646151485,
+      "title": "After Ukraine recruits an “IT Army,” dozens of Russian sites go dark",
+      "type": "story",
+      "url": "https://arstechnica.com/information-technology/2022/02/after-ukraine-recruits-an-it-army-dozens-of-russian-sites-go-dark/"
+    },
+    {
+      "by": "kgoro",
+      "descendants": 0,
+      "id": 30516024,
+      "score": 1,
+      "time": 1646151445,
+      "title": "Show HN: Sample Code for the Twitter OAuth2.0 Client (Node.js&TypeScript)",
+      "type": "story",
+      "url": "https://github.com/kg0r0/twitter-oauth2-client"
+    },
+    {
+      "by": "feross",
+      "descendants": 0,
+      "id": 30516013,
+      "score": 1,
+      "time": 1646151408,
+      "title": "The NBA Redrafted 2.0",
+      "type": "story",
+      "url": "https://pudding.cool/2022/02/redraft/"
+    },
+    {
       "by": "0xedb",
       "descendants": 0,
       "id": 30515974,
@@ -14,7 +84,7 @@
       "by": "Brajeshwar",
       "descendants": 0,
       "id": 30515963,
-      "score": 1,
+      "score": 2,
       "time": 1646151237,
       "title": "Here Come the Underdogs of the Robot Olympics",
       "type": "story",
@@ -24,87 +94,12 @@
       "by": "combat_wombat",
       "descendants": 0,
       "id": 30515940,
-      "score": 2,
+      "score": 4,
       "text": "Hi HN, Graham and Jeremy here - we are building GrowthBook is an open-source platform for feature flagging and A&#x2F;B testing. The repo is here: <a href=\"https:&#x2F;&#x2F;github.com&#x2F;growthbook&#x2F;growthbook\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;growthbook&#x2F;growthbook</a> and our home page is <a href=\"https:&#x2F;&#x2F;www.growthbook.io\" rel=\"nofollow\">https:&#x2F;&#x2F;www.growthbook.io</a>. We did a Show HN 6 months ago (<a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=28088882\" rel=\"nofollow\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=28088882</a>, which helped us get into YC) and have since added feature flagging.<p>Developers often launch a feature without understanding the impact it has on their users and business. This is a big deal, because only 1&#x2F;3 of product launches actually improve the desired metrics. Of the rest, 1&#x2F;3 have no effect, and the last 1&#x2F;3 actually hurt [1]. The best way to measure this is to use feature flags and controlled experiments (A&#x2F;B tests).<p>Jeremy and I worked together for 10 years at an ed-tech startup as CTO and software architect. We spent far too long just building and launching features without really knowing how they impacted our users and if they were adding value to the company. We had product analytics, but there was too much noise in the data to draw real conclusions. We knew the “right” way to do this was to build feature flags and run controlled experiments, but that was daunting for our small team.<p>We looked into 3rd party tools, but it bothered us that they didn&#x27;t use our existing data warehouse and metric definitions, and we really didn&#x27;t like the idea of adding an API call in the critical rendering path of our application. We also didn’t want to send our data to 3rd parties, didn’t feel good about vendor lock-in, plus the vendors were expensive. So, we did what any engineers would do—build it ourselves. After all, how hard could it be?<p>After a couple painful years, we hacked something together that (mostly) worked and used it to help grow revenue 10x. We started talking to other teams and realized just how many larger companies spend years building these feature flagging and experimentation platforms in-house because, like us, they couldn’t find any tools that met their needs. So we took everything we learned and built the tool we wish had existed back when we started.<p>GrowthBook is an open source platform for feature flagging and A&#x2F;B experimentation. Our SDKs are built to be fast and cache-friendly. We take data privacy seriously and don’t use cookies or deal with PII. We sit on top of your company’s existing data warehouse and metrics so you can maintain a single source of truth. We’re open source (MIT), so you can either self-host the platform (with Docker containers), or use our managed cloud offering.<p>In GrowthBook, feature flags are added and controlled within the UI. Engineers or PMs can add targeting rules (e.g.”beta users get feature X, everyone else does not”), do gradual rollouts, and run A&#x2F;B tests on the features. The current state of features are stored in a JSON file and exposed via an API or kept in-sync with a cache&#x2F;database using webhooks. Engineers install our SDK and pass in the JSON file. Then they can do feature checks throughout their code (e.g. `if feature.on { ... } else { ... }`).<p>For A&#x2F;B test analysis, a data analyst or engineer connects GrowthBook to their data warehouse, then they write a few SQL queries that tell GrowthBook how to query their experiment assignment and metric conversion data. After that initial setup, GrowthBook is able to pull experiment results, run it through our Bayesian stats engine, and display results. Users can slice and dice the data by custom dimensions and&#x2F;or export results to a Jupyter notebook for further analysis.<p>We’re used by over 60 companies in production. We have self-hosted and cloud versions (see our pricing here: <a href=\"https:&#x2F;&#x2F;www.growthbook.io&#x2F;pricing\" rel=\"nofollow\">https:&#x2F;&#x2F;www.growthbook.io&#x2F;pricing</a>), and both are self-serve and simple to set up. We currently have SDKs for Javascript&#x2F;Typescript, React, PHP, Ruby, Python, Go, and Android with more in the works (C#, Java, Swift, and Elixir). We support all the major SQL data warehouses as well as Mixpanel and Google Analytics.<p>You can give it a spin at <a href=\"https:&#x2F;&#x2F;github.com&#x2F;growthbook&#x2F;growthbook\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;growthbook&#x2F;growthbook</a>. Let us know what you think!  We would especially love feedback from anyone who has built platforms like this in the past.<p>----------<p>Footnotes:<p>[1] Online Experimentation at Microsoft: <a href=\"https:&#x2F;&#x2F;exp-platform.com&#x2F;Documents&#x2F;ExPThinkWeek2009Public.pdf\" rel=\"nofollow\">https:&#x2F;&#x2F;exp-platform.com&#x2F;Documents&#x2F;ExPThinkWeek2009Public.pd...</a>",
       "time": 1646151170,
       "title": "Launch HN: GrowthBook (YC W22) – Open-source feature flagging and A/B testing",
       "type": "story",
       "url": "https://www.growthbook.io/"
-    },
-    {
-      "by": "taubek",
-      "descendants": 0,
-      "id": 30515933,
-      "score": 1,
-      "text": "A few days ago we have released a new version of Memgraph.<p>Memgraph is a streaming graph application platform that helps you wrangle your streaming data, build sophisticated models that you can query in real-time, and develop applications.<p>It is powered by an in-memory graph database built to handle real-time use-cases at enterprise scale. Memgraph supports strongly-consistent ACID transactions and uses the standardized Cypher query language for structuring, manipulating, and exploring data.<p>The main new things in Memgraph 2.2 are:<p>- you can run Memgraph now on Apple M1 based computers\n- you can now use WebSocket support to push the logs\n- you can now configure Kafka streams using CONFIG and CREDENTIALS clauses\n- we have added a bunch of new built-in procedures<p>You can take a look at our code on github [1] or you can go to our site[1] and download Memgraph.<p>Please let us know what you like and what you don&#x27;t like about it. Are there any features that you are missing?<p>[1] <a href=\"https:&#x2F;&#x2F;github.com&#x2F;memgraph&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;memgraph&#x2F;</a>\n[2] <a href=\"https:&#x2F;&#x2F;memgraph.com&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;memgraph.com&#x2F;</a>",
-      "time": 1646151140,
-      "title": "Show HN: Memgraph 2.2. is released – graph database that supports streaming",
-      "type": "story",
-      "url": "https://memgraph.com/blog/memgraph-2-2-release"
-    },
-    {
-      "by": "dxf",
-      "descendants": 0,
-      "id": 30515932,
-      "score": 1,
-      "time": 1646151137,
-      "title": "The Pushback Effects of Race, Ethnicity, Gender, and Age in Code Review",
-      "type": "story",
-      "url": "https://cacm.acm.org/magazines/2022/3/258909-the-pushback-effects-of-race-ethnicity-gender-and-age-in-code-review/fulltext"
-    },
-    {
-      "by": "Ronsenshi",
-      "descendants": 2,
-      "id": 30515922,
-      "kids": [
-        30515964,
-        30515946
-      ],
-      "score": 1,
-      "text": "Namecheap also makes exception for &quot;anti-regime media, protest resources&quot;. Full text:<p>Dear XXXXX,<p>We would like to make a correction to our policy of terminating services to customers in Russia — announced yesterday.<p>Firstly, we will make exceptions for all anti-regime media, protest resources, and any type of websites that are helping to end this war and regime — we will continue to welcome you using our services. Please accept our apologies for any disruption this caused, and we thank you for helping to fight against this tyranny.<p>The above also applies if you are no longer a resident of Russia and do not support the regime in any way.<p>Extending original termination date<p>For those who will still be affected by our decision to terminate Namecheap services to Russia, we are extending the termination date to three weeks from today. Please make sure you have moved your services to another provider by March 22, 2022.<p>If there are legitimate reasons that you may need more time, we will make exceptions if they are deemed reasonable.<p>Thank you for your understanding<p>We are thankful to everyone who supports Ukraine and the Ukrainian people. Civilians are being killed at this very moment by Russian forces, paid for directly or indirectly by the taxes of Russian citizens. We hope every person in Russia can understand this and recognize the horrible atrocities that are happening right now being committed by the Russian regime.<p>Please contact us if you need any further assistance.<p>Customer Support,\nNamecheap",
-      "time": 1646151085,
-      "title": "Namecheap extends termination for customers from Russia",
-      "type": "story"
-    },
-    {
-      "by": "awb",
-      "descendants": 0,
-      "id": 30515921,
-      "score": 1,
-      "time": 1646151082,
-      "title": "Popular Website in Siberia Blocked for Using the Word 'War' in Ukraine Coverage",
-      "type": "story",
-      "url": "https://www.rferl.org/a/russia-websites-blocked-ukraine-invasion/31730244.html"
-    },
-    {
-      "by": "todsacerdoti",
-      "descendants": 0,
-      "id": 30515920,
-      "score": 1,
-      "time": 1646151074,
-      "title": "Is Golang's Grammar Context Free?",
-      "type": "story",
-      "url": "https://blog.dnmfarrell.com/post/is-golangs-grammar-context-free/"
-    },
-    {
-      "by": "ahelwer",
-      "descendants": 0,
-      "id": 30515912,
-      "score": 1,
-      "text": "Software engineers as a group tend to spend many hours per day at a computer, and much of that time involves typing. Software engineers also seem to enjoy discussing (and buying) exotic &amp; expensive keyboards with split designs and customized mechanical keyswitches. They spend time learning modal text editors like vim or emacs to more efficiently edit files. Sometimes they even switch to alternative keyboard layouts like dvorak. Basically, they seem to enjoy exploring moderately-exotic productivity-improvement methods generally. Yet very rarely do chorded keyboards crop up in the many keyboard discussions found online. The only chorded keyboard I&#x27;ve ever seen in real life was used by a stenographer assigned during lectures to help a fellow college student with hearing difficulties.<p>I myself have not yet tried to learn how to use a chorded keyboard, but the idea seems interesting on several levels. For one they&#x27;re often one-handed, leaving the other hand free to use a pointing device or whatever else. Two, they seem much more ergonomic than a standard keyboard - what could be more natural than grasping a keyer in any orientation that feels right? - and three they are extremely portable which opens them up for use with laptops or HMDs. Of course there are the obvious input speed benefits but those are hidden behind the learning curve.<p>Why haven&#x27;t chorded keyboards become popular? Is it the momentum of QWERTY being taught in primary school? Is it the dubious productivity benefit given the large learning investment? Is it just one of those things that hasn&#x27;t hit critical mass so people hear about them? Are vim and emacs just a sort of backdoor method of bringing chorded keyboarding to QWERTY? It&#x27;s just strange given how many people seem to be 3D printing their own keyboard layouts or whatever, and they&#x27;re all fundamentally staying within the same input paradigm. Nobody I&#x27;ve heard of is boldly forging into the 3D-printed custom chorded keyboard space.",
-      "time": 1646151041,
-      "title": "Ask HN: Why have chorded keyboards not become popular among software engineers?",
-      "type": "story"
-    },
-    {
-      "by": "feross",
-      "descendants": 0,
-      "id": 30515911,
-      "score": 1,
-      "time": 1646151036,
-      "title": "JavaScript scanner hunts down malware in libraries",
-      "type": "story",
-      "url": "https://www.theregister.com/2022/03/01/socket_npm_dependency_scanner/"
     }
   ]
 }
