@@ -1,6 +1,26 @@
 {
   "stories": [
     {
+      "by": "janandonly",
+      "descendants": 0,
+      "id": 30512318,
+      "score": 1,
+      "time": 1646130452,
+      "title": "How hard should I push myself?",
+      "type": "story",
+      "url": "https://every.to/superorganizers/how-hard-should-i-push-myself"
+    },
+    {
+      "by": "MarcellusDrum",
+      "descendants": 0,
+      "id": 30512302,
+      "score": 1,
+      "time": 1646130338,
+      "title": "Debugging with GDB",
+      "type": "story",
+      "url": "https://felix-knorr.net/blog/using_gdb_directly.html"
+    },
+    {
       "by": "vincent_s",
       "descendants": 0,
       "id": 30512289,
@@ -34,7 +54,7 @@
       "by": "kcentropy",
       "descendants": 0,
       "id": 30512276,
-      "score": 1,
+      "score": 2,
       "text": "LONDON, 1st March 2022 – AG Grid, the industry-leading provider of JavaScript datagrids, rolled out version 27 (AG Grid 27) this month, which introduces major improvements in developer productivity, functionality and accessibility.<p>One of the most noteworthy new features for AG Grid 27, is that its 100% React Rendering Engine is now the default engine for AG Grid React. This means AG Grid React is no longer a thin React wrapper over a JavaScript library. The new rendering engine means AG Grid works perfectly within the React Developer Tools ecosystem for viewing component state, managing render cycles, profiling and improving performance of the app.<p>The pure React Rendering Engine for AG Grid has been in development for almost a year, and creating it required the development team to refactor the internal code structure, which has improved the internal architecture of the project.<p>As a result, the React community who prefer to use 100% React Components can now provide their end users with the &#x27;full&#x27; set of business facing features, including integrated charts, grouping, pivoting, MS Excel report, and customisable graphs and charts generated from user selected data in the grid.<p>These features, once enabled by the programmer, are under the user&#x27;s control and allow users to explore and visualise the data in the grid without the programmers having to make any coding changes to the application.<p>AG Grid 27 also has an Immutable Data Store mode to work more efficiently with React Immutable Data Stores like Redux. This helps ensure that minimal processing time and GUI updates are required to refresh data in the grid. This improves the user experience because user interaction like selected rows are maintained when data updates.<p>Additional improvements introduced to AG Grid 27 involve deprecating and removing unused API members, as well as a simplification for the registration of Framework Components process.<p>All documentation examples have now been made available in TypeScript, and key enhancements have been made to Column Filtering to improve the user and developer experience.<p>In fact, improving the user experience has been central to AG Grid 27, and a number of highly-requested improvements and community feedback has been addressed, with a number of new features, tools and visual aids.<p>You can see a full list of changes here: https:&#x2F;&#x2F;www.ag-grid.com&#x2F;ag-grid-changelog&#x2F;?fixVersion=27.0.0<p>Niall Crosby, the CEO and initial developer of AG Grid comments:\n&quot;AG Grid 27 is a major step forward for our hugely popular Data Grid technology, and our React Rendering engine is perfect for React Teams that want a great developer experience as well as offering the most feature packed and functional experience to their users.<p>“For too long, React developers have been at a loss for a pure React Data Grid with the many advanced features of AG Grid. Too many of the 100% React Data Grids start out with some good ideas, but as the complexity grows, the breadth of features slows or quality drops. It&#x27;s incredibly difficult to create a Data Grid that covers all the basic features and still maintains quality.<p>“Seeing this demand is what made us re-think our React solution, and after a year of work, we finally have React JavaScript Data Grid that is rendered 100% in React, and are looking forward to how the React community responds to the new offering.”",
       "time": 1646130155,
       "title": "AG Grid rolls out major new platform version with 100% React rendering engine",
@@ -42,8 +62,11 @@
     },
     {
       "by": "mgh2",
-      "descendants": 0,
+      "descendants": 1,
       "id": 30512275,
+      "kids": [
+        30512300
+      ],
       "score": 1,
       "time": 1646130143,
       "title": "Why everyone wants to work at FAANG [video]",
@@ -79,29 +102,6 @@
       "title": "One-click Bitcoin Lightning networks for local app development and testing",
       "type": "story",
       "url": "https://lightningpolar.com/"
-    },
-    {
-      "by": "albanesetr",
-      "descendants": 0,
-      "id": 30512209,
-      "score": 1,
-      "time": 1646129719,
-      "title": "Contract to Contract Calls on Algorand",
-      "type": "story",
-      "url": "https://developer.algorand.org/articles/contract-to-contract-calls-and-an-abi-come-to-algorand/"
-    },
-    {
-      "by": "doener",
-      "descendants": 1,
-      "id": 30512202,
-      "kids": [
-        30512264
-      ],
-      "score": 1,
-      "time": 1646129653,
-      "title": "Ukraine invasion: Would Putin press the nuclear button?",
-      "type": "story",
-      "url": "https://www.bbc.com/news/world-europe-60551140"
     }
   ]
 }
