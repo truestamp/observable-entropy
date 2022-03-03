@@ -1,6 +1,66 @@
 {
   "stories": [
     {
+      "by": "kishoredbn",
+      "descendants": 0,
+      "id": 30543337,
+      "score": 1,
+      "time": 1646325900,
+      "title": "Neither Missionaries, nor Mercenaries",
+      "type": "story",
+      "url": "https://www.linkedin.com/posts/mark-keller-41a2b0_inclusiveleadership-peopleoperations-workplacewellbeing-activity-6902294597872033792-_MuU"
+    },
+    {
+      "by": "fblp",
+      "descendants": 0,
+      "id": 30543332,
+      "score": 1,
+      "time": 1646325882,
+      "title": "Doodle for Google",
+      "type": "story",
+      "url": "https://doodles.google.com/intl/en_us/d4g/"
+    },
+    {
+      "by": "belter",
+      "descendants": 0,
+      "id": 30543325,
+      "score": 1,
+      "time": 1646325849,
+      "title": "Astra Linux",
+      "type": "story",
+      "url": "https://en.wikipedia.org/wiki/Astra_Linux"
+    },
+    {
+      "by": "adnauseum",
+      "descendants": 0,
+      "id": 30543305,
+      "score": 1,
+      "text": "This morning I was configuring an app and it gave me three options for cursor styles: box, underscore and vertical bar.<p>The vertical bar has always made sense with me—it lives in-between letters, for example: when I see &quot;test|ing&quot; I know that my cursor is in-between the final &quot;t,&quot; but before &quot;i.&quot; If I type &quot;X&quot; I&#x27;ll get: &quot;testXing.&quot;<p>By contrast, in this app the box cursor is like this: &quot;test[i]ng&quot; and if I type &quot;X,&quot; it&#x27;s not obvious to me that I&#x27;ll get &quot;testXing&quot; instead of &quot;testiXng.&quot;<p>I get that this is a matter of preference, but I&#x27;m curious to know why underscore and box would be preferable to vertical bar.<p>---<p>Here&#x27;s images of the same cursor placement, but different styles:<p>- Example of vertical bar: https:&#x2F;&#x2F;user-images.githubusercontent.com&#x2F;24446573&#x2F;156610316-47df7923-744a-4b14-a23a-ddbac873ba59.png<p>- Example of underscore: https:&#x2F;&#x2F;user-images.githubusercontent.com&#x2F;24446573&#x2F;156610217-120f96f8-2f82-4577-8a02-67458d663841.png<p>- Example of box: https:&#x2F;&#x2F;user-images.githubusercontent.com&#x2F;24446573&#x2F;156609948-4f814ef6-9a30-4cfe-9db7-1ddbe75ec051.png",
+      "time": 1646325785,
+      "title": "Who prefers box or underscore as a cursor option?",
+      "type": "story"
+    },
+    {
+      "by": "PaulHoule",
+      "descendants": 0,
+      "id": 30543270,
+      "score": 2,
+      "time": 1646325661,
+      "title": "Polestar’s O2 concept is an electric roadster",
+      "type": "story",
+      "url": "https://arstechnica.com/cars/2022/03/polestars-stunning-o2-concept-is-an-electric-roadster/"
+    },
+    {
+      "by": "EvgeniyZh",
+      "descendants": 0,
+      "id": 30543251,
+      "score": 1,
+      "time": 1646325605,
+      "title": "A Rust match made in hell",
+      "type": "story",
+      "url": "https://fasterthanli.me/articles/a-rust-match-made-in-hell"
+    },
+    {
       "by": "productiveio",
       "descendants": 0,
       "id": 30543245,
@@ -14,8 +74,8 @@
       "by": "Mernit",
       "descendants": 0,
       "id": 30543228,
-      "score": 3,
-      "text": "Hi HN, we’re Eli and Luke from Slai (<a href=\"https:&#x2F;&#x2F;www.slai.io&#x2F;hn&#x2F;62203ae9ee716300083c879b\" rel=\"nofollow\">https:&#x2F;&#x2F;www.slai.io&#x2F;hn&#x2F;62203ae9ee716300083c879b</a>). Slai is a fast ML prototyping platform designed for software engineers. We make it easy to develop and train ML models, then deploy them as production-ready applications with a single link.<p>ML applications are increasingly built by software engineers rather than data scientists, but getting ML into a product is still a pain. You have to set up local environments, manage servers, build CI&#x2F;CD pipelines, self-host open-source tools. Many engineers just want to leverage ML for their products without doing any of that. Slai takes care of all of it, so you can focus on your own work.<p>Slai is opinionated: we are specifically for software developers who want to build models into products. We cover the entire ML lifecycle, all the way from initial exploration and prototyping to deploying your model as a REST API. Our sandboxes contain all the code, dataset, dependencies, and application logic needed for your model to run.<p>We needed this product ourselves. A year ago, Luke was working as a robotics engineer, working on a computationally intensive problem on a robot arm (force vector estimation). He started writing an algorithm, but realized a neural network could solve the problem faster and more accurately. Many people had solved this before, so it wasn’t difficult to find an example neural net and get the model trained. You’d think that would be the hard part—but actually the hard part was getting the model available via a REST API. It didn’t seem sensible to write a  Flask app and spin up an EC2 instance just to serve up this little ML microservice. The whole thing was unnecessarily cumbersome.<p>After researching various MLOps tools, we started to notice a pattern—most are designed for data scientists doing experimentation, rather than software engineers who want to solve a specific problem using ML. We set out to build an ML tool that is designed for developers and organized around SWE best practices. That means leaving notebooks entirely behind, even though they&#x27;re still the preferred form factor for data exploration and analysis. We&#x27;ve made the bet that a normal IDE with some &quot;Jupyter-lite&quot; functionality (e.g. splitting code into cells that can be run independently) is a fair trade-off for software engineers who want easy and fast product development.<p>Our browser-based IDE uses a project structure with five components: (1) a training section, for model training scripts, (2) a handler, for pre- and post-processing logic for the model and API schema, (3) a test file, for writing unit tests, (4) dependencies, which are interactively installed Python libraries, and (5) datasets used for model training. By modularizing the project in this way, we ensure that ML apps are functional end-to-end (if we didn&#x27;t do this, you can imagine a scenario where a data scientist hands off a model to a software engineer for deployment, who&#x27;s then forced to understand how to create an API around the model, and how to parse a funky ML tensor output into a JSON field). Models can be trained on CPUs or GPUs, and deployed to our fully-managed backend for invoking via a REST API.<p>Each browser-based IDE instance (“sandbox”) contains all the source code, libraries, and data needed for an ML application. When a user lands on a sandbox, we remotely spin up a Docker container and execute all runtime actions in the remote environment. When a model is deployed, we ship that container onto our inference cluster, where it’s available to call via a REST API.<p>Customers have so far used Slai to categorize bills and invoices for a fintech app; recognize gestures from MYO armband movement data; detect anomalies in electrocardiograms; and recommend content in a news feed based on previous content a user has liked&#x2F;saved.<p>If you’d like to try it, here are three projects you can play with:<p><i>Convert any image into stylized art</i> - <a href=\"https:&#x2F;&#x2F;www.slai.io&#x2F;hn&#x2F;62203ae9ee716300083c879b\" rel=\"nofollow\">https:&#x2F;&#x2F;www.slai.io&#x2F;hn&#x2F;62203ae9ee716300083c879b</a><p><i>Predict Peyton Manning’s Wikipedia page views</i> - <a href=\"https:&#x2F;&#x2F;www.slai.io&#x2F;hn&#x2F;6215708345d19a0008be3f25\" rel=\"nofollow\">https:&#x2F;&#x2F;www.slai.io&#x2F;hn&#x2F;6215708345d19a0008be3f25</a><p><i>Predict how happy people are likely to be in a given country</i> - <a href=\"https:&#x2F;&#x2F;www.slai.io&#x2F;hn&#x2F;621e9bb3eda93f00081875fc\" rel=\"nofollow\">https:&#x2F;&#x2F;www.slai.io&#x2F;hn&#x2F;621e9bb3eda93f00081875fc</a><p>We don’t have great documentation yet, but here’s what to do: (1) Click “train” to train the model; (2) Click the test tube icon to try out the model - this is where you enter sentences for GPT-2 to complete, or images to transform, etc; (3) Click “test model” to run unit tests; (4) Click “package” to, er, package the model; (5) Deploy, by clicking the rocket ship icon and selecting your packaged model. “Deploy” means everything in the sandbox gets turned into a REST endpoint, for users to consume in their own apps. You can do the first 3 steps without signup and then there’s a signup dialog before step 4.<p>We make money by charging subscriptions to our tool. We also charge per compute hour for model training and inference, but (currently) that&#x27;s just the wholesale cloud cost—we don&#x27;t make any margin there.<p>Our intention with Slai is to allow people to build small, useful applications with ML. Do you have any ideas for an ML-powered microservice? We’d love to know about the apps you’d like to create on Slai. You can create models from scratch, or use pretrained models, so you can be really creative!",
+      "score": 6,
+      "text": "Hi HN, we’re Eli and Luke from Slai (<a href=\"https:&#x2F;&#x2F;www.slai.io&#x2F;hn&#x2F;62203ae9ee716300083c879b\" rel=\"nofollow\">https:&#x2F;&#x2F;www.slai.io&#x2F;hn&#x2F;62203ae9ee716300083c879b</a>). Slai is a fast ML prototyping platform designed for software engineers. We make it easy to develop and train ML models, then deploy them as production-ready applications with a single link.<p>ML applications are increasingly built by software engineers rather than data scientists, but getting ML into a product is still a pain. You have to set up local environments, manage servers, build CI&#x2F;CD pipelines, self-host open-source tools. Many engineers just want to leverage ML for their products without doing any of that. Slai takes care of all of it, so you can focus on your own work.<p>Slai is opinionated: we are specifically for software developers who want to build models into products. We cover the entire ML lifecycle, all the way from initial exploration and prototyping to deploying your model as a REST API. Our sandboxes contain all the code, dataset, dependencies, and application logic needed for your model to run.<p>We needed this product ourselves. A year ago, Luke was working as a robotics engineer, working on a computationally intensive problem on a robot arm (force vector estimation). He started writing an algorithm, but realized a neural network could solve the problem faster and more accurately. Many people had solved this before, so it wasn’t difficult to find an example neural net and get the model trained. You’d think that would be the hard part—but actually the hard part was getting the model available via a REST API. It didn’t seem sensible to write a  Flask app and spin up an EC2 instance just to serve up this little ML microservice. The whole thing was unnecessarily cumbersome.<p>After researching various MLOps tools, we started to notice a pattern—most are designed for data scientists doing experimentation, rather than software engineers who want to solve a specific problem using ML. We set out to build an ML tool that is designed for developers and organized around SWE best practices. That means leaving notebooks entirely behind, even though they&#x27;re still the preferred form factor for data exploration and analysis. We&#x27;ve made the bet that a normal IDE with some &quot;Jupyter-lite&quot; functionality (e.g. splitting code into cells that can be run independently) is a fair trade-off for software engineers who want easy and fast product development.<p>Our browser-based IDE uses a project structure with five components: (1) a training section, for model training scripts, (2) a handler, for pre- and post-processing logic for the model and API schema, (3) a test file, for writing unit tests, (4) dependencies, which are interactively installed Python libraries, and (5) datasets used for model training. By modularizing the project in this way, we ensure that ML apps are functional end-to-end (if we didn&#x27;t do this, you can imagine a scenario where a data scientist hands off a model to a software engineer for deployment, who&#x27;s then forced to understand how to create an API around the model, and how to parse a funky ML tensor output into a JSON field). Models can be trained on CPUs or GPUs, and deployed to our fully-managed backend for invoking via a REST API.<p>Each browser-based IDE instance (“sandbox”) contains all the source code, libraries, and data needed for an ML application. When a user lands on a sandbox, we remotely spin up a Docker container and execute all runtime actions in the remote environment. When a model is deployed, we ship that container onto our inference cluster, where it’s available to call via a REST API.<p>Customers have so far used Slai to categorize bills and invoices for a fintech app; recognize gestures from MYO armband movement data; detect anomalies in electrocardiograms; and recommend content in a news feed based on previous content a user has liked&#x2F;saved.<p>If you’d like to try it, here are three projects you can play with:<p><i>Convert any image into stylized art</i> - <a href=\"https:&#x2F;&#x2F;www.slai.io&#x2F;hn&#x2F;62203ae9ee716300083c879b\" rel=\"nofollow\">https:&#x2F;&#x2F;www.slai.io&#x2F;hn&#x2F;62203ae9ee716300083c879b</a><p><i>Predict Peyton Manning’s Wikipedia page views</i> - <a href=\"https:&#x2F;&#x2F;www.slai.io&#x2F;hn&#x2F;6215708345d19a0008be3f25\" rel=\"nofollow\">https:&#x2F;&#x2F;www.slai.io&#x2F;hn&#x2F;6215708345d19a0008be3f25</a><p><i>Predict how happy people are likely to be in a given country</i> - <a href=\"https:&#x2F;&#x2F;www.slai.io&#x2F;hn&#x2F;621e9bb3eda93f00081875fc\" rel=\"nofollow\">https:&#x2F;&#x2F;www.slai.io&#x2F;hn&#x2F;621e9bb3eda93f00081875fc</a><p>We don’t have great documentation yet, but here’s what to do: (1) Click “train” to train the model; (2) Click the test tube icon to try out the model - this is where you enter sentences for GPT-2 to complete, or images to transform, etc; (3) Click “test model” to run unit tests; (4) Click “package” to, er, package the model; (5) Deploy, by clicking the rocket ship icon and selecting your packaged model. “Deploy” means everything in the sandbox gets turned into a REST endpoint, for users to consume in their own apps. You can do the first 3 steps without signup and then there’s a signup dialog before step 4.<p>We make money by charging subscriptions to our tool. We also charge per compute hour for model training and inference, but (currently) that&#x27;s just the wholesale cloud cost—we don&#x27;t make any margin there.<p>Our intention with Slai is to allow people to build small, useful applications with ML. Do you have any ideas for an ML-powered microservice? We’d love to hear about apps you’d like to create. You can create models from scratch, or use pretrained models, so you can be really creative. Thoughts, comments, feedback welcome!",
       "time": 1646325543,
       "title": "Launch HN: Slai (YC W22) – Build ML models quickly and deploy them as apps",
       "type": "story"
@@ -39,69 +99,6 @@
       "title": "Rising demand for Afrikan software developers",
       "type": "story",
       "url": "https://www.iafrikan.com/demand-for-african-developers-at-an-all-time-high-google-africa-developer-ecosystem-report-2021/"
-    },
-    {
-      "by": "chippy",
-      "descendants": 1,
-      "id": 30543191,
-      "kids": [
-        30543197
-      ],
-      "score": 1,
-      "time": 1646325358,
-      "title": "John Gray: The Western mind no longer understands Putin",
-      "type": "story",
-      "url": "https://www.newstatesman.com/international-politics/geopolitics/2022/03/the-new-age-of-disorder"
-    },
-    {
-      "by": "benrothke",
-      "descendants": 0,
-      "id": 30543190,
-      "score": 1,
-      "time": 1646325350,
-      "title": "The FCC and telecoms know robocalls can be stopped – now you can know that also",
-      "type": "story",
-      "url": "https://brothke.medium.com/the-fcc-telecoms-know-robocalls-can-be-stopped-now-you-can-know-that-also-5503461b764c"
-    },
-    {
-      "by": "vanilla-almond",
-      "descendants": 0,
-      "id": 30543185,
-      "score": 1,
-      "time": 1646325341,
-      "title": "Ukraine conflict: Growing numbers of firms pull back from Russia",
-      "type": "story",
-      "url": "https://www.bbc.co.uk/news/business-60571133"
-    },
-    {
-      "by": "lab14",
-      "descendants": 0,
-      "id": 30543168,
-      "score": 1,
-      "time": 1646325271,
-      "title": "Hotwire Modals, with Zero JavaScript",
-      "type": "story",
-      "url": "https://www.youtube.com/watch?v=WK16FeBfbxI"
-    },
-    {
-      "by": "HieronymusBosch",
-      "descendants": 0,
-      "id": 30543139,
-      "score": 1,
-      "time": 1646325144,
-      "title": "The US Space Force plans to start patrolling the area around the Moon",
-      "type": "story",
-      "url": "https://arstechnica.com/science/2022/03/the-us-space-force-plans-to-extend-its-operations-to-the-moon/"
-    },
-    {
-      "by": "TangerineDream",
-      "descendants": 0,
-      "id": 30543094,
-      "score": 3,
-      "time": 1646324971,
-      "title": "The SSD Edition: 2021 Drive Stats Review",
-      "type": "story",
-      "url": "https://www.backblaze.com/blog/ssd-edition-2021-drive-stats-review/"
     }
   ]
 }
