@@ -1,6 +1,39 @@
 {
   "stories": [
     {
+      "by": "preek",
+      "descendants": 0,
+      "id": 30540747,
+      "score": 1,
+      "time": 1646314454,
+      "title": "Integrating Org mode Agenda into calendar apps",
+      "type": "story",
+      "url": "https://200ok.ch/posts/2022-02-13_integrating_org_mode_agenda_into_other_calendar_apps.html"
+    },
+    {
+      "by": "sachinjain",
+      "descendants": 0,
+      "id": 30540735,
+      "score": 1,
+      "text": "Hi HN, My name is Sachin - I’m the founder of Requestly (<a href=\"https:&#x2F;&#x2F;requestly.io\" rel=\"nofollow\">https:&#x2F;&#x2F;requestly.io</a>) and I’m very happy to be here and get feedback from you all. Requestly is software that lets you intercept network requests, modify, and debug them. We’re available as a browser extension as well as a desktop app and Requestly is useful whether you are a web developer, backend developer, or mobile developer.<p>When developers work with APIs on their local machine, current experience is very broken—be it web development, mobile, or backend. Requestly saves you time by letting you test your APIs faster without deployment on staging. Requestly also lets you simulate different failover and edge case scenarios which are hard to simulate without code changes.<p>Back in 2014, I was working on Adobe Target and I had a customer issue where the delivered campaign was showing FOUC (Flash of Unstyled Content) on the customer’s website and It was intermittent. It was so hard to debug with the minified production version of the script, so I built a tool to perform a simple redirect of production JS to my locally running JS. I was then able to do logging in different methods and was able to pinpoint the exact issue and where I could optimize. My team and I debugged a lot of customer issues using this tool, which eventually became Requestly.<p>I just loved working on Requestly so I kept maintaining the project over weekends and supporting users. It started to gain traction organically and today it serves more than 40K monthly active users. \nIn a later job at Blinkit (10min delivery platform in India), I saw how mobile app debugging is hard, and similar problems exist in backend development. I did a bit of both there and decided to work on Requestly full time to solve these problems.<p>You might have used solutions like Charles Proxy earlier! Charles is good and I am myself a huge fan, but when it comes to modification capabilities—setting up redirects or mocking API responses—it requires a lot of work. Collaboration is missing, data extraction and offline history are missing. It’d be fair to say that we are building a better alternative to Charles Proxy. We are also simplifying mobile app debugging by building a native SDK that anyone can connect to our Web.<p>Many users also confuse us with Postman. I’d also clarify this as Postman is an API development platform, while Requestly is an API debugging and testing platform. For Example - As a frontend engineer at Uber, I’d like to test how my app would react if the driver allocation API doesn’t respond on time - will there be an automatic retry, or does the app crash?<p>Requestly intercepts your local network traffic and provides capabilities like Mocking API Response, Simulate HTTP(s) Status Codes, Switching API endpoints, Redirect Production Traffic (or selective API) to stage&#x2F;local environment, Inject scripts on web pages, and much more.\nRequestly is available as a browser extension on Chromium and Firefox, as well as a desktop app on MacOS, Windows, and Linux systems. You can download it at <a href=\"https:&#x2F;&#x2F;requestly.io&#x2F;downloads\" rel=\"nofollow\">https:&#x2F;&#x2F;requestly.io&#x2F;downloads</a>\nWe have a freemium model. The free plan has almost every feature but is limited to 3 modification rules. Our pricing is at <a href=\"https:&#x2F;&#x2F;app.requestly.io&#x2F;pricing\" rel=\"nofollow\">https:&#x2F;&#x2F;app.requestly.io&#x2F;pricing</a>.<p>We are now building an open-source Android SDK that lets developers view their API traffic (and analytics events) on the web. This is in testing and planning to roll out very soon. This can be used by non-developers as well. Folks like product managers or digital marketers will be able to validate the analytics instrumentation easily.\nIn fact, tools like this are required not only in development environments but also in production environments to debug distributed transactions. We are not there yet but we have plans to solve that problem too. One foot at a time :)<p>I’d love to hear your thoughts on the product experience. What specific challenges do you face while developing and testing your code changes? Do you ever have to make changes in your codebase to simulate a scenario? I’d like to discuss &amp; brainstorm potential use-cases that can be solved with Requestly. I’ll do my best to answer in the comments.",
+      "time": 1646314408,
+      "title": "Launch HN: Requestly (YC W22) – Network debugging proxy for web and mobile",
+      "type": "story"
+    },
+    {
+      "by": "thesuperbigfrog",
+      "descendants": 1,
+      "id": 30540704,
+      "kids": [
+        30540741
+      ],
+      "score": 1,
+      "time": 1646314204,
+      "title": "New Windows 11 test build wants your credit card info",
+      "type": "story",
+      "url": "https://www.pcworld.com/article/618957/new-windows-11-test-build-wants-to-know-your-credit-card.html"
+    },
+    {
       "by": "trifit",
       "descendants": 0,
       "id": 30540678,
@@ -70,36 +103,6 @@
       "title": "Space junk on 5,800-MPH collision course with moon",
       "type": "story",
       "url": "https://phys.org/news/2022-03-space-junk-mph-collision-moon"
-    },
-    {
-      "by": "GordonS",
-      "descendants": 0,
-      "id": 30540574,
-      "score": 1,
-      "time": 1646313541,
-      "title": "Astronomers Make Discovery of a Lifetime: Unusual Star",
-      "type": "story",
-      "url": "https://scitechdaily.com/astronomers-make-discovery-of-a-lifetime-extremely-unusual-star-nobody-has-seen-one-before/"
-    },
-    {
-      "by": "fifilura",
-      "descendants": 0,
-      "id": 30540532,
-      "score": 1,
-      "time": 1646313370,
-      "title": "“Let the isolation experiment begin” SIRIUS-21 US astronauts isolated in Moscow",
-      "type": "story",
-      "url": "https://www.telesurenglish.net/news/The-Moon-Trip-Drill-SIRIUS-21-Kicks-Off-in-Moscow-20211104-0004.html"
-    },
-    {
-      "by": "isaacimagine",
-      "descendants": 0,
-      "id": 30540522,
-      "score": 1,
-      "time": 1646313320,
-      "title": "Playing to Win: the joy of learning and exploiting complex systems (2017)",
-      "type": "story",
-      "url": "https://www.alicemaz.com/writing/minecraft.html"
     }
   ]
 }
