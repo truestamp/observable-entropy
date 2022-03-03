@@ -1,6 +1,66 @@
 {
   "stories": [
     {
+      "by": "_query",
+      "descendants": 0,
+      "id": 30540809,
+      "score": 1,
+      "time": 1646314797,
+      "title": "What Is Nix and Why You Should Use It",
+      "type": "story",
+      "url": "https://serokell.io/blog/what-is-nix"
+    },
+    {
+      "by": "rbanffy",
+      "descendants": 0,
+      "id": 30540792,
+      "score": 1,
+      "time": 1646314703,
+      "title": "Physicists produce biggest time crystal yet – Science – AAAS",
+      "type": "story",
+      "url": "https://www.science.org/content/article/physicists-produce-biggest-time-crystal-yet"
+    },
+    {
+      "by": "codenamev",
+      "descendants": 0,
+      "id": 30540778,
+      "score": 1,
+      "time": 1646314603,
+      "title": "Taking Our Ruby and Kafka Stack to the Next Level",
+      "type": "story",
+      "url": "https://technology.doximity.com/articles/taking-our-ruby-kafka-stack-to-the-next-level"
+    },
+    {
+      "by": "rbanffy",
+      "descendants": 0,
+      "id": 30540777,
+      "score": 2,
+      "time": 1646314596,
+      "title": "Micron Delivers World’s Most Advanced 176-Layer NAND Data Center SSD",
+      "type": "story",
+      "url": "https://wccftech.com/micron-delivers-worlds-most-advanced-176-layer-nand-data-center-ssd/"
+    },
+    {
+      "by": "zinekeller",
+      "descendants": 0,
+      "id": 30540774,
+      "score": 2,
+      "time": 1646314590,
+      "title": "Designing good government services: an introduction",
+      "type": "story",
+      "url": "https://www.gov.uk/service-manual/design/introduction-designing-government-services"
+    },
+    {
+      "by": "vitabenes",
+      "descendants": 0,
+      "id": 30540766,
+      "score": 1,
+      "time": 1646314552,
+      "title": "Travel Is Pointless",
+      "type": "story",
+      "url": "https://gavinbrennan.substack.com/p/travel-is-pointless"
+    },
+    {
       "by": "preek",
       "descendants": 0,
       "id": 30540747,
@@ -14,7 +74,7 @@
       "by": "sachinjain",
       "descendants": 0,
       "id": 30540735,
-      "score": 1,
+      "score": 4,
       "text": "Hi HN, My name is Sachin - I’m the founder of Requestly (<a href=\"https:&#x2F;&#x2F;requestly.io\" rel=\"nofollow\">https:&#x2F;&#x2F;requestly.io</a>) and I’m very happy to be here and get feedback from you all. Requestly is software that lets you intercept network requests, modify, and debug them. We’re available as a browser extension as well as a desktop app and Requestly is useful whether you are a web developer, backend developer, or mobile developer.<p>When developers work with APIs on their local machine, current experience is very broken—be it web development, mobile, or backend. Requestly saves you time by letting you test your APIs faster without deployment on staging. Requestly also lets you simulate different failover and edge case scenarios which are hard to simulate without code changes.<p>Back in 2014, I was working on Adobe Target and I had a customer issue where the delivered campaign was showing FOUC (Flash of Unstyled Content) on the customer’s website and It was intermittent. It was so hard to debug with the minified production version of the script, so I built a tool to perform a simple redirect of production JS to my locally running JS. I was then able to do logging in different methods and was able to pinpoint the exact issue and where I could optimize. My team and I debugged a lot of customer issues using this tool, which eventually became Requestly.<p>I just loved working on Requestly so I kept maintaining the project over weekends and supporting users. It started to gain traction organically and today it serves more than 40K monthly active users. \nIn a later job at Blinkit (10min delivery platform in India), I saw how mobile app debugging is hard, and similar problems exist in backend development. I did a bit of both there and decided to work on Requestly full time to solve these problems.<p>You might have used solutions like Charles Proxy earlier! Charles is good and I am myself a huge fan, but when it comes to modification capabilities—setting up redirects or mocking API responses—it requires a lot of work. Collaboration is missing, data extraction and offline history are missing. It’d be fair to say that we are building a better alternative to Charles Proxy. We are also simplifying mobile app debugging by building a native SDK that anyone can connect to our Web.<p>Many users also confuse us with Postman. I’d also clarify this as Postman is an API development platform, while Requestly is an API debugging and testing platform. For Example - As a frontend engineer at Uber, I’d like to test how my app would react if the driver allocation API doesn’t respond on time - will there be an automatic retry, or does the app crash?<p>Requestly intercepts your local network traffic and provides capabilities like Mocking API Response, Simulate HTTP(s) Status Codes, Switching API endpoints, Redirect Production Traffic (or selective API) to stage&#x2F;local environment, Inject scripts on web pages, and much more.\nRequestly is available as a browser extension on Chromium and Firefox, as well as a desktop app on MacOS, Windows, and Linux systems. You can download it at <a href=\"https:&#x2F;&#x2F;requestly.io&#x2F;downloads\" rel=\"nofollow\">https:&#x2F;&#x2F;requestly.io&#x2F;downloads</a>\nWe have a freemium model. The free plan has almost every feature but is limited to 3 modification rules. Our pricing is at <a href=\"https:&#x2F;&#x2F;app.requestly.io&#x2F;pricing\" rel=\"nofollow\">https:&#x2F;&#x2F;app.requestly.io&#x2F;pricing</a>.<p>We are now building an open-source Android SDK that lets developers view their API traffic (and analytics events) on the web. This is in testing and planning to roll out very soon. This can be used by non-developers as well. Folks like product managers or digital marketers will be able to validate the analytics instrumentation easily.\nIn fact, tools like this are required not only in development environments but also in production environments to debug distributed transactions. We are not there yet but we have plans to solve that problem too. One foot at a time :)<p>I’d love to hear your thoughts on the product experience. What specific challenges do you face while developing and testing your code changes? Do you ever have to make changes in your codebase to simulate a scenario? I’d like to discuss &amp; brainstorm potential use-cases that can be solved with Requestly. I’ll do my best to answer in the comments.",
       "time": 1646314408,
       "title": "Launch HN: Requestly (YC W22) – Network debugging proxy for web and mobile",
@@ -22,9 +82,10 @@
     },
     {
       "by": "thesuperbigfrog",
-      "descendants": 1,
+      "descendants": 2,
       "id": 30540704,
       "kids": [
+        30540797,
         30540741
       ],
       "score": 1,
@@ -37,72 +98,11 @@
       "by": "trifit",
       "descendants": 0,
       "id": 30540678,
-      "score": 1,
+      "score": 2,
       "time": 1646314076,
       "title": "1966 Timeline of Computer History",
       "type": "story",
       "url": "https://www.computerhistory.org/timeline/1966/"
-    },
-    {
-      "by": "mudro_zboris",
-      "descendants": 0,
-      "id": 30540652,
-      "score": 1,
-      "time": 1646313931,
-      "title": "Threads (1984) – Documentary style account of a nuclear holocaust and its effect",
-      "type": "story",
-      "url": "https://archive.org/details/threads_201712"
-    },
-    {
-      "by": "belter",
-      "descendants": 0,
-      "id": 30540618,
-      "score": 1,
-      "time": 1646313756,
-      "title": "Oracle, SAP suspend business in Russia amid invasion",
-      "type": "story",
-      "url": "https://www.theregister.com/2022/03/02/oracle_and_sap_suspend_business/"
-    },
-    {
-      "by": "fheisler",
-      "descendants": 0,
-      "id": 30540616,
-      "score": 1,
-      "text": "I created a Chrome extension to make Wordle more interesting and test out new strategies.<p>It replaces the word &quot;Wordle&quot; with the total number of solutions remaining out of the original ~2,300 based on your currently guessed letters. If you open up the developer console, you can see the list of possible solutions left.<p>I usually use it <i>after</i> solving the day&#x27;s word, to see how other openers may have done, or to see how close to the solution I could have gotten by a particular point.<p>I also made a video about my adventures (no spoilers) in poking under the hood of Wordle: <a href=\"https:&#x2F;&#x2F;youtu.be&#x2F;AgharwWfh60\" rel=\"nofollow\">https:&#x2F;&#x2F;youtu.be&#x2F;AgharwWfh60</a>",
-      "time": 1646313743,
-      "title": "Show HN: Improve your Wordle game with a browser extension",
-      "type": "story",
-      "url": "https://github.com/everythingishacked/Hackle"
-    },
-    {
-      "by": "nnx",
-      "descendants": 0,
-      "id": 30540604,
-      "score": 1,
-      "time": 1646313686,
-      "title": "Even Worms Feel Pain",
-      "type": "story",
-      "url": "https://nautil.us/even-worms-feel-pain-14243/"
-    },
-    {
-      "by": "mrpotato",
-      "descendants": 0,
-      "id": 30540600,
-      "score": 1,
-      "time": 1646313662,
-      "title": "Ukraine asks ICANN to revoke Russian domains and shut down DNS root servers",
-      "type": "story",
-      "url": "https://arstechnica.com/tech-policy/2022/03/ukraine-wants-russia-cut-off-from-core-internet-systems-experts-say-its-a-bad-idea/"
-    },
-    {
-      "by": "GordonS",
-      "descendants": 0,
-      "id": 30540588,
-      "score": 1,
-      "time": 1646313610,
-      "title": "Space junk on 5,800-MPH collision course with moon",
-      "type": "story",
-      "url": "https://phys.org/news/2022-03-space-junk-mph-collision-moon"
     }
   ]
 }
