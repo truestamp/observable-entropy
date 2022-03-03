@@ -1,9 +1,32 @@
 {
   "stories": [
     {
-      "by": "alangibson",
+      "by": "dark_pattern",
       "descendants": 0,
+      "id": 30539660,
+      "score": 1,
+      "time": 1646307279,
+      "title": "Speeding up UI tests with CodeceptJS and Playwright",
+      "type": "story",
+      "url": "https://medium.com/m/global-identity?redirectUrl=https%3A%2F%2Fcanvatechblog.com%2Fspeeding-up-ui-tests-with-codeceptjs-and-playwright-98daf6cb8a79"
+    },
+    {
+      "by": "rcarmo",
+      "descendants": 0,
+      "id": 30539639,
+      "score": 1,
+      "time": 1646306999,
+      "title": "Ossia Score",
+      "type": "story",
+      "url": "https://ossia.io/score/about.html"
+    },
+    {
+      "by": "alangibson",
+      "descendants": 1,
       "id": 30539620,
+      "kids": [
+        30539657
+      ],
       "score": 1,
       "text": "I&#x27;d like to invite everyone to try out DontBeEvil.rip, an experimental search engine for developers.<p>tl;dr<p>$ alias rip=&quot;curl -G -H &#x27;Accept: text&#x2F;plain&#x27; --url https:&#x2F;&#x2F;dontbeevil.rip&#x2F;search --data-urlencode &quot;<p>$ rip &#x27;q=Heartbleed bug&#x27;<p>DontBeEvil.rip is a year long experiment to see if a small team can build a developer-focused search engine that is self-sustaining on $10 monthly subscriptions.<p>It works by only indexing high-quality resources that are relevant to developers. You won&#x27;t get useless listicles because we&#x27;ll never crawl them. Relevant urls are harvested from HN, StackOverflow, programmer Reddit, and a few others. Page content comes mostly from the Common Crawl project.<p>The limited, but awesome, features in this first release are:<p>- Expressions! Experience the power of Elasticsearch’s Simple Query Strings.<p>- REST API. Just change &#x27;text&#x2F;plain&#x27; to `application&#x2F;json` in the above alias.<p>- CLI. Just use curl in the terminal. Simple as.<p>HackerNews, StackOverflow, Arxiv abstracts, 2M Github repos, and programmer Reddit (up to 2020) are being indexed right now. There&#x27;s much more to come in the next few months.<p>I&#x27;d love to hear your questions, comments and suggestions in the comments below.",
       "time": 1646306702,
@@ -64,7 +87,7 @@
       "by": "muzikman1",
       "descendants": 0,
       "id": 30539580,
-      "score": 2,
+      "score": 3,
       "time": 1646306260,
       "title": "An Introduction to Smart Contracts [beginners]",
       "type": "story",
@@ -72,7 +95,7 @@
     },
     {
       "by": "NotAWorkNick",
-      "descendants": 1,
+      "descendants": 2,
       "id": 30539572,
       "kids": [
         30539574
@@ -82,26 +105,6 @@
       "title": "Anonymous servers down as Russian Killnet hackers strike back",
       "type": "story",
       "url": "https://metro.co.uk/2022/03/02/anonymous-servers-down-as-russian-killnet-hackers-strike-back-16202354/"
-    },
-    {
-      "by": "doener",
-      "descendants": 0,
-      "id": 30539557,
-      "score": 1,
-      "time": 1646305991,
-      "title": "World’s First Infinity Train",
-      "type": "story",
-      "url": "https://wae.com/news/fortescue-buys-williams-advanced-engineering-and-announces-worlds-first-infinity-train/"
-    },
-    {
-      "by": "pseudolus",
-      "descendants": 0,
-      "id": 30539555,
-      "score": 1,
-      "time": 1646305978,
-      "title": "The Essential Vannevar Bush",
-      "type": "story",
-      "url": "https://spectrum.ieee.org/the-essential-vannevar-bush"
     }
   ]
 }
