@@ -1,6 +1,58 @@
 {
   "stories": [
-    null,
+    {
+      "by": "trifit",
+      "descendants": 0,
+      "id": 30555986,
+      "score": 1,
+      "time": 1646407116,
+      "title": "Shane Warne: Australia legend dies aged 52",
+      "type": "story",
+      "url": "https://www.bbc.com/sport/cricket/60622426"
+    },
+    {
+      "by": "mwcampbell",
+      "descendants": 1,
+      "id": 30555981,
+      "kids": [
+        30555998
+      ],
+      "score": 1,
+      "time": 1646407084,
+      "title": "Reuse: J. Random Newbie (2003)",
+      "type": "story",
+      "url": "http://catb.org/esr/writings/taoup/html/ch16s01.html"
+    },
+    {
+      "by": "agomez314",
+      "descendants": 0,
+      "id": 30555972,
+      "score": 1,
+      "time": 1646407041,
+      "title": "Alan Kay: A Conversation with CMU Faculty and Students",
+      "type": "story",
+      "url": "https://www.youtube.com/watch?v=PFc379hu--8"
+    },
+    {
+      "by": "keydutch",
+      "descendants": 0,
+      "id": 30555971,
+      "score": 1,
+      "time": 1646407038,
+      "title": "Nvidia Hit with Cyberattack, Proprietary Data Stolen",
+      "type": "story",
+      "url": "https://www.immuniweb.com/blog/nvidia-hit-with-cyberattack-proprietary-data-stolen.html"
+    },
+    {
+      "by": "ohjeez",
+      "descendants": 0,
+      "id": 30555942,
+      "score": 1,
+      "time": 1646406893,
+      "title": "ICANN rejects Ukraine's request to block Russia from the internet",
+      "type": "story",
+      "url": "https://www.zdnet.com/article/icann-rejects-ukraines-request-to-block-russia-from-the-internet/"
+    },
     {
       "by": "lazaruzLong",
       "descendants": 0,
@@ -35,7 +87,7 @@
       "by": "Maayansa",
       "descendants": 0,
       "id": 30555914,
-      "score": 2,
+      "score": 3,
       "text": "Hey HN! \nWe’re Maayan and Or, and we are building Elementary (<a href=\"https:&#x2F;&#x2F;github.com&#x2F;elementary-data&#x2F;elementary\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;elementary-data&#x2F;elementary</a>), open-source framework that continuously monitors your data and sends alerts when anomalies are detected.<p>Elementary can alert you, for example, when a table in Snowflake hasn&#x27;t been updated as expected or when a revenue column has too many nulls. It also monitors operations in the data stack, and provides the means for analyzing impact and root cause. For example, it can alert you when your dbt runs or tests fail, including the impacted dependencies. A data lineage graph visualizes the data flow and can be used to find the source of invalid data.<p>We have both been working in the data space for over a decade, Maayan in analytics and Or in data engineering. Despite working at very different companies with different data stacks and use cases, we had the same reliability problems. Data is incomplete and inconsistent, and the abundance of technologies creates more complexity and inconsistency. Data reliability issues cause distrust, delays, and bad decisions. It&#x27;s hard to achieve high data reliability, detect issues fast, understand impact and resolve quickly.<p>We also found that we had built similar solutions, and as we talked to other developers, we learned that most data teams have their own version of the same thing. They usually don’t go for a commercial observability solution unless they have major incidents and technical debt. Until that point, they prefer to build for themselves, for two reasons: to avoid the overhead of procurement and security compliance; and to customize to their own stack, data sources, business logic, etc, and have all the metadata and metrics in their stack to support additional use cases.<p>We decided to build an open-source alternative — one that can be implemented easily, host yourself, and customized. This solves the compliance and the data ownership problem. It also solves the build-your-own problem, because teams can deploy an extensive solution early on, instead of waiting till later when there are major problems.<p>Elementary stores all the logs, metadata, and metrics it collects and generates in the data warehouse, so users can easily add their own detections and logic to it. Additionally, the solution is dbt native, which means it provides a dbt package that can be easily installed in a dbt environment as well as configured directly from a dbt project. Since it&#x27;s part of the existing workflow and environment, it makes it convenient for data engineers, analytics engineers, and data analysts to enhance and contribute.<p>Open source eliminates the need to pay for getting started or to grant access to a third party. A managed service and additional enterprise features will be available in the cloud in the future. Critically, though, the user&#x27;s metadata will continue to reside in their environment, under their control, and they will still have full customization available.\nCurrently Elementary supports Snowflake, BigQuery and dbt. It collects metadata such as schemas, query logs and dbt artifacts. It generates and monitors data quality metrics, sends Slack alerts, and visualizes the data lineage. \nIf this is your data stack, we’d love you to give it a try!<p>We would love to hear your feedback, experiences and ideas from trying to solve data observability in your organizations. Here is an invite to our Slack community: <a href=\"https:&#x2F;&#x2F;join.slack.com&#x2F;t&#x2F;elementary-community&#x2F;shared_invite&#x2F;zt-uehfrq2f-zXeVTtXrjYRbdE_V6xq4Rg\" rel=\"nofollow\">https:&#x2F;&#x2F;join.slack.com&#x2F;t&#x2F;elementary-community&#x2F;shared_invite&#x2F;...</a>",
       "time": 1646406761,
       "title": "Launch HN: Elementary (YC W22) – Open-source data observability",
@@ -46,55 +98,11 @@
       "by": "walterbell",
       "descendants": 0,
       "id": 30555912,
-      "score": 1,
+      "score": 2,
       "time": 1646406754,
       "title": "My journey for dual displays with my M1 Pro Mac (2021)",
       "type": "story",
       "url": "https://www.derekseaman.com/2021/11/my-journey-for-dual-displays-with-my-m1-pro-mac.html"
-    },
-    {
-      "by": "doener",
-      "descendants": 0,
-      "id": 30555908,
-      "score": 1,
-      "time": 1646406746,
-      "title": "Shelter UKR",
-      "type": "story",
-      "url": "https://shelterukr.com/"
-    },
-    {
-      "by": "throwway1",
-      "descendants": 0,
-      "id": 30555907,
-      "score": 1,
-      "time": 1646406740,
-      "title": "Shane Warne RIP",
-      "type": "story",
-      "url": "https://wwos.nine.com.au/cricket/shane-warne-death-cricket-legend-dies-of-heart-attack-aged-52/b097a230-5443-4d34-8ba0-af44350112c1"
-    },
-    {
-      "by": "ScoopWitch",
-      "descendants": 0,
-      "id": 30555904,
-      "score": 1,
-      "time": 1646406726,
-      "title": "Cloud Technology News of the Month: February 2022",
-      "type": "story",
-      "url": "https://cast.ai/blog/cloud-technology-news-of-the-month-february-2022/"
-    },
-    {
-      "by": "navi0",
-      "descendants": 2,
-      "id": 30555884,
-      "kids": [
-        30555920,
-        30555897
-      ],
-      "score": 2,
-      "time": 1646406633,
-      "title": "Vulva Spaceship aims to counter prevalence of phallic spacecraft",
-      "type": "story",
-      "url": "https://www.dezeen.com/2022/03/03/vulva-spaceship-design-aims-to-counter-prevalence-of-phalluses/#"
     }
   ]
 }
