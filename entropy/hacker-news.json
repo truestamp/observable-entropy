@@ -1,107 +1,100 @@
 {
   "stories": [
+    null,
     {
-      "by": "jwithington",
+      "by": "lazaruzLong",
       "descendants": 0,
-      "id": 30555834,
+      "id": 30555928,
       "score": 1,
-      "time": 1646406412,
-      "title": "A practical calculator for the risk of nuclear war",
+      "time": 1646406817,
+      "title": "Internet Archive Is Down",
       "type": "story",
-      "url": "https://app.hex.tech/399c4a29-5b7f-4f70-8b53-afa8da38dd72/app/def94910-d017-4508-847c-e1189d3b6042/latest"
+      "url": "https://twitter.com/internetarchive/status/1499762397455679488"
     },
     {
-      "by": "spatil",
+      "by": "anthonyex",
       "descendants": 0,
-      "id": 30555805,
+      "id": 30555925,
       "score": 1,
-      "time": 1646406291,
-      "title": "Self-publishing on Amazon is worst option, authors should sell directly to fans",
+      "time": 1646406801,
+      "title": "A Step-by-Step Guide for Women on How to Save and Invest",
       "type": "story",
-      "url": "https://samir.stck.me/post/14718/Self-publishing-on-Amazon-is-the-worst-of-both-worlds-authors-now-have-a-better-option-for-reaching-fans-directly"
+      "url": "https://anthonyex.com/a-step-by-step-guide-for-women-on-how-to-save-and-invest/"
     },
     {
-      "by": "the-dude",
+      "by": "valprop1",
       "descendants": 0,
-      "id": 30555799,
+      "id": 30555922,
       "score": 1,
-      "text": "Inspired by this comment : https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=30554638<p>Our cat could &#x27;count&#x27;, in that she knew how many people were at the dining table, she knew how many desert plates to expect. Only when she had them all, she would leave.<p>We had another cat who couldn&#x27;t : she sometimes would leave early or stayed while there were not desert plates left.",
-      "time": 1646406276,
-      "title": "Ask HN: How smart is your cat?",
-      "type": "story"
-    },
-    {
-      "by": "magicjosh",
-      "descendants": 0,
-      "id": 30555792,
-      "score": 1,
-      "time": 1646406262,
-      "title": "RailsConf Removes Web3 Track",
+      "time": 1646406784,
+      "title": "Phishing campaign targets European officials assisting in refugee operations",
       "type": "story",
-      "url": "https://twitter.com/railsconf/status/1489311414237884419"
+      "url": "https://therecord.media/phishing-campaign-targets-european-officials-assisting-in-refugee-operations/"
     },
     {
-      "by": "worldvoyageur",
+      "by": "Maayansa",
       "descendants": 0,
-      "id": 30555732,
-      "score": 1,
-      "time": 1646405977,
-      "title": "Lessons from Shipbuilding Productivity",
-      "type": "story",
-      "url": "https://constructionphysics.substack.com/p/lessons-from-shipbuilding-productivity"
-    },
-    {
-      "by": "jmngomes",
-      "descendants": 0,
-      "id": 30555716,
-      "score": 1,
-      "time": 1646405926,
-      "title": "‘Bot holiday’: Covid disinformation down as social media pivot to Ukraine",
-      "type": "story",
-      "url": "https://www.theguardian.com/media/2022/mar/04/bot-holiday-covid-misinformation-ukraine-social-media"
-    },
-    {
-      "by": "underscore_ku",
-      "descendants": 0,
-      "id": 30555714,
+      "id": 30555914,
       "score": 2,
-      "time": 1646405917,
-      "title": "U.S. calls Russian attack on Ukraine nuclear power plant a “war crime”",
+      "text": "Hey HN! \nWe’re Maayan and Or, and we are building Elementary (<a href=\"https:&#x2F;&#x2F;github.com&#x2F;elementary-data&#x2F;elementary\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;elementary-data&#x2F;elementary</a>), open-source framework that continuously monitors your data and sends alerts when anomalies are detected.<p>Elementary can alert you, for example, when a table in Snowflake hasn&#x27;t been updated as expected or when a revenue column has too many nulls. It also monitors operations in the data stack, and provides the means for analyzing impact and root cause. For example, it can alert you when your dbt runs or tests fail, including the impacted dependencies. A data lineage graph visualizes the data flow and can be used to find the source of invalid data.<p>We have both been working in the data space for over a decade, Maayan in analytics and Or in data engineering. Despite working at very different companies with different data stacks and use cases, we had the same reliability problems. Data is incomplete and inconsistent, and the abundance of technologies creates more complexity and inconsistency. Data reliability issues cause distrust, delays, and bad decisions. It&#x27;s hard to achieve high data reliability, detect issues fast, understand impact and resolve quickly.<p>We also found that we had built similar solutions, and as we talked to other developers, we learned that most data teams have their own version of the same thing. They usually don’t go for a commercial observability solution unless they have major incidents and technical debt. Until that point, they prefer to build for themselves, for two reasons: to avoid the overhead of procurement and security compliance; and to customize to their own stack, data sources, business logic, etc, and have all the metadata and metrics in their stack to support additional use cases.<p>We decided to build an open-source alternative — one that can be implemented easily, host yourself, and customized. This solves the compliance and the data ownership problem. It also solves the build-your-own problem, because teams can deploy an extensive solution early on, instead of waiting till later when there are major problems.<p>Elementary stores all the logs, metadata, and metrics it collects and generates in the data warehouse, so users can easily add their own detections and logic to it. Additionally, the solution is dbt native, which means it provides a dbt package that can be easily installed in a dbt environment as well as configured directly from a dbt project. Since it&#x27;s part of the existing workflow and environment, it makes it convenient for data engineers, analytics engineers, and data analysts to enhance and contribute.<p>Open source eliminates the need to pay for getting started or to grant access to a third party. A managed service and additional enterprise features will be available in the cloud in the future. Critically, though, the user&#x27;s metadata will continue to reside in their environment, under their control, and they will still have full customization available.\nCurrently Elementary supports Snowflake, BigQuery and dbt. It collects metadata such as schemas, query logs and dbt artifacts. It generates and monitors data quality metrics, sends Slack alerts, and visualizes the data lineage. \nIf this is your data stack, we’d love you to give it a try!<p>We would love to hear your feedback, experiences and ideas from trying to solve data observability in your organizations. Here is an invite to our Slack community: <a href=\"https:&#x2F;&#x2F;join.slack.com&#x2F;t&#x2F;elementary-community&#x2F;shared_invite&#x2F;zt-uehfrq2f-zXeVTtXrjYRbdE_V6xq4Rg\" rel=\"nofollow\">https:&#x2F;&#x2F;join.slack.com&#x2F;t&#x2F;elementary-community&#x2F;shared_invite&#x2F;...</a>",
+      "time": 1646406761,
+      "title": "Launch HN: Elementary (YC W22) – Open-source data observability",
       "type": "story",
-      "url": "https://www.cbsnews.com/news/chernobyl-fears-ukraine-nuclear-power-plant-fire-russian-shelling/"
+      "url": "https://github.com/elementary-data/elementary"
     },
     {
-      "by": "jlokier",
+      "by": "walterbell",
       "descendants": 0,
-      "id": 30555692,
-      "score": 3,
-      "time": 1646405835,
-      "title": "Ukraine war: 'My city's being shelled, but mum won’t believe me'",
-      "type": "story",
-      "url": "https://www.bbc.co.uk/news/world-europe-60600487"
-    },
-    {
-      "by": "wjSgoWPm5bWAhXB",
-      "descendants": 1,
-      "id": 30555683,
-      "kids": [
-        30555781
-      ],
-      "score": 4,
-      "time": 1646405811,
-      "title": "Putin’s ‘Cornered Rat’ Story Might Be a Warning About His Next Move",
-      "type": "story",
-      "url": "https://www.vice.com/en/article/v7dxax/the-new-russia-anxiety-what-putin-might-do-if-he-feels-cornered"
-    },
-    {
-      "by": "tambourine_man",
-      "descendants": 0,
-      "id": 30555682,
+      "id": 30555912,
       "score": 1,
-      "time": 1646405811,
-      "title": "'21/OSDI – It's Time for Operating Systems to Rediscover Hardware",
+      "time": 1646406754,
+      "title": "My journey for dual displays with my M1 Pro Mac (2021)",
       "type": "story",
-      "url": "https://www.youtube.com/watch?v=36myc8wQhLo"
+      "url": "https://www.derekseaman.com/2021/11/my-journey-for-dual-displays-with-my-m1-pro-mac.html"
+    },
+    {
+      "by": "doener",
+      "descendants": 0,
+      "id": 30555908,
+      "score": 1,
+      "time": 1646406746,
+      "title": "Shelter UKR",
+      "type": "story",
+      "url": "https://shelterukr.com/"
+    },
+    {
+      "by": "throwway1",
+      "descendants": 0,
+      "id": 30555907,
+      "score": 1,
+      "time": 1646406740,
+      "title": "Shane Warne RIP",
+      "type": "story",
+      "url": "https://wwos.nine.com.au/cricket/shane-warne-death-cricket-legend-dies-of-heart-attack-aged-52/b097a230-5443-4d34-8ba0-af44350112c1"
+    },
+    {
+      "by": "ScoopWitch",
+      "descendants": 0,
+      "id": 30555904,
+      "score": 1,
+      "time": 1646406726,
+      "title": "Cloud Technology News of the Month: February 2022",
+      "type": "story",
+      "url": "https://cast.ai/blog/cloud-technology-news-of-the-month-february-2022/"
+    },
+    {
+      "by": "navi0",
+      "descendants": 2,
+      "id": 30555884,
+      "kids": [
+        30555920,
+        30555897
+      ],
+      "score": 2,
+      "time": 1646406633,
+      "title": "Vulva Spaceship aims to counter prevalence of phallic spacecraft",
+      "type": "story",
+      "url": "https://www.dezeen.com/2022/03/03/vulva-spaceship-design-aims-to-counter-prevalence-of-phalluses/#"
     }
   ]
 }
