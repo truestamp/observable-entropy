@@ -1,6 +1,46 @@
 {
   "stories": [
     {
+      "by": "emmanuelgautier",
+      "descendants": 0,
+      "id": 30553088,
+      "score": 1,
+      "time": 1646391513,
+      "title": "React component design patterns for 2022",
+      "type": "story",
+      "url": "https://blog.logrocket.com/react-component-design-patterns-2022/"
+    },
+    {
+      "by": "lbriner",
+      "descendants": 0,
+      "id": 30553086,
+      "score": 1,
+      "text": "We are constantly bothered by buying departments doing what they think is &quot;due diligence&quot; by asking a tonne of abstract open-ended questions about security with no context, like,<p>&quot;How do you manage security keys?&quot;<p>&quot;What encryption do you use?&quot;<p>Unless you are self-employed, they are massive questions full of nuance and probably have 50 different answers on 50 different systems but these companies believe they have the right to ask.<p>I know we can use a Security-as-a-service company to answer these on our behalf but I wondered what more established companies do? Do you just say, &quot;here is the standard security page and that&#x27;s all you&#x27;re getting&quot;, or do you also spend many hours answering &quot;what backups do you take?&quot;",
+      "time": 1646391493,
+      "title": "Ask HN: How do you deal with security questionnaires?",
+      "type": "story"
+    },
+    {
+      "by": "dmulholl",
+      "descendants": 0,
+      "id": 30553078,
+      "score": 2,
+      "text": "This is a question for our legal friends here on HN. Imagine this scenario: I have an open source project on Github with an MIT license. I&#x27;ve cargo-culted the<p><pre><code>   Copyright (C) 2022 My Name\n</code></pre>\nline from every MIT-licensed project I&#x27;ve ever seen.<p>A random contributor forks my repository and sends me a pull-request. They haven&#x27;t altered the license file in any way.<p>So, Question 1: are their contributions automatically licensed under the same MIT license as the original repository? (Note that their fork, which I&#x27;m being asked to merge, contains the identical license file.)<p>Question 2: have they (almost certainly inadvertently) assigned copyright over their changes to me? (They&#x27;re asking me to merge changes from a repository which contains a copyright declaration in my name.)<p>Question 3: if one, why not the other?<p>Disclaimer -- personally I hate even having to think about these kinds of questions, which is why I try to make most of my open-source code available under the Unlicense [1]. I&#x27;ve recently discovered the Zero-Clause BSD licence [2] which may be a better alternative as it avoids the potentially problematic concept of a &#x27;public domain&#x27; -- I&#x27;d love to hear an informed legal analysis of their differences.<p>[1]: https:&#x2F;&#x2F;unlicense.org<p>[2]: https:&#x2F;&#x2F;opensource.org&#x2F;licenses&#x2F;0BSD",
+      "time": 1646391437,
+      "title": "Ask HN: Are GitHub pull-requests governed by the original repository license?",
+      "type": "story"
+    },
+    {
+      "by": "tosh",
+      "descendants": 0,
+      "id": 30553071,
+      "score": 1,
+      "time": 1646391345,
+      "title": "BBC Promotes Tor Mirror",
+      "type": "story",
+      "url": "https://www.theguardian.com/world/live/2022/mar/04/ukraine-news-russia-war-vladimir-putin-zelenskiy-kyiv-latest-live-updates-russian-invasion-nuclear-power-plant"
+    },
+    {
       "by": "underscore_ku",
       "descendants": 0,
       "id": 30553068,
@@ -57,54 +97,11 @@
       "by": "gemby",
       "descendants": 0,
       "id": 30552989,
-      "score": 1,
+      "score": 2,
       "time": 1646390717,
       "title": "Puppet Unit Testing for Beginners",
       "type": "story",
       "url": "https://www.sysbee.net/blog/puppet-unit-testing-for-beginners/"
-    },
-    {
-      "by": "konstantina_ps",
-      "descendants": 1,
-      "id": 30552988,
-      "kids": [
-        30553036
-      ],
-      "score": 8,
-      "text": "Hi HN, I am Konstantina from Kaedim (https:&#x2F;&#x2F;www.kaedim.com). Kaedim is using ML to transform 2D art, sketches or photos into 3D content. We make it easy to integrate 3D User Generated Content in game or metaverses, with our API.<p>Creating digital 3D objects is getting increasingly difficult and expensive. There is a very limited supply of people who are good 3D artists, and the cost of training one is very big. It usually involves years of learning difficult 3D software. However, more and more of the digital experiences around us are turning into 3D.<p>I needed this product myself. The idea for Kaedim was born from a personal frustration when, 2 years ago, I was working on a project for re-creating a cathedral in 3D software for my university degree. Before being hands-on, the concept seemed straightforward to me, “the same way you draw on a piece of paper, you can also draw in 3D, how hard can it be?”. The reality shocked me. Having completely underestimated the task I found myself needing hours to model each 3D object (chairs, tables, walls) using really complicated and steep learning curve 3D software.<p>Every time I wanted to model something new I had to start from a cube and do all the necessary operations on it to achieve the desired shape. Over and over again. Moreover, there were many times when I would bin my creations and start from scratch for better luck. The reality with 3D modelling software is that it’s almost always easier to start from scratch than to try and fix a modelled object.<p>After my personal experience of the problem, I started thinking about game devs. “Game developers have this problem at scale, they need to build whole 3D worlds with millions of objects. How do they do it?”. So we started talking to them. Only to discover, there is no secret. 3D asset production is a big bottleneck for them too. There is a very limited supply of people who are really good 3D artists, and the cost of training one is very big. It usually involves years of training on difficult 3D software.<p>Our solution is an ML algorithm that creates 3D models out of 2D images. We are constantly training on more and more data points to improve the accuracy and we have added a Quality Control step to always guarantee a standard level of quality. We then use the QC results to train our algorithms further.<p>Artists and game devs have used Kaedim so far to quickly prototype, create and iterate their 3D art, in a cost effective way. However, talking to a lot of game developers, we realised something <i>key</i>. For the same reason games like Minecraft and Roblox are very popular, more and more people want the opportunity to customise and contribute 3D content inside their favourite games&#x2F;metaverses.<p>This is why we created the Kaedim API. Within your app, enable your players to upload their 2D inspiration and easily create their own 3D content for customising and populating the game.<p>Kaedim API Demo Video: https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=k976GJWQrKw<p>Documentation: https:&#x2F;&#x2F;app.archbee.io&#x2F;public&#x2F;m370vHO-M7WGXJQLRlIte&#x2F;AU-DhH6mX0e1sb_FRXH3i#lk-useful-links<p>For signup and more information about onboardings get in touch with us here<p>Discord Server: https:&#x2F;&#x2F;discord.gg&#x2F;4wN8NSUr<p>Thanks a lot for reading this! We are adding more and more features over time and would love to hear your feedback and ideas on what you’d like to see from the API.<p>If you have any cool app ideas that can be built by using Kaedim, drop them in the comments!",
-      "time": 1646390710,
-      "title": "Show HN: Kaedim – API for 3D User Generated Content",
-      "type": "story"
-    },
-    {
-      "by": "daniaal",
-      "descendants": 0,
-      "id": 30552984,
-      "score": 1,
-      "time": 1646390687,
-      "title": "2019: Tor: How to access BBC News on the dark web",
-      "type": "story",
-      "url": "https://www.bbc.co.uk/news/technology-50150981"
-    },
-    {
-      "by": "zttg",
-      "descendants": 0,
-      "id": 30552978,
-      "score": 1,
-      "time": 1646390634,
-      "title": "Google disabled ads on Russian territory. What your country did to disable ads?",
-      "type": "story",
-      "url": "https://gamingsym.in/google-temporarily-disabled-advertising-in-russia-wylsacom/"
-    },
-    {
-      "by": "ingve",
-      "descendants": 0,
-      "id": 30552973,
-      "score": 1,
-      "time": 1646390596,
-      "title": "What's the Problem with Old but Excellent Mac Apps?",
-      "type": "story",
-      "url": "https://christiantietze.de/posts/2022/03/half-assed-mac-apps/"
     }
   ]
 }
