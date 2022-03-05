@@ -1,6 +1,16 @@
 {
   "stories": [
     {
+      "by": "rukde",
+      "descendants": 0,
+      "id": 30564911,
+      "score": 1,
+      "text": "I am trying to construct schema of an api call response, made inside the code, based on the usage of the response object inside the code.<p>Since this is a javascript code base there is no defined schema for the response object. To construct the response schema, i am planning to parse the entire codebase into AST, and traverse the usage (to multiple level) of the response object to find its usage, there by I would be able to reconstruct the actual schema.<p>Can you refer me to any existing tool&#x2F;implementation&#x2F;methodology to achieve this.<p>It will be great how you will approach this problem",
+      "time": 1646461665,
+      "title": "Ask HN: Deep tracing of a JavaScript object usage across the codebase",
+      "type": "story"
+    },
+    {
       "by": "chr",
       "descendants": 0,
       "id": 30564894,
@@ -89,16 +99,6 @@
       "title": "Twisted Matrix 22.2.0 – Event-driven networking engine written in Python",
       "type": "story",
       "url": "https://github.com/twisted/twisted/releases/tag/twisted-22.2.0"
-    },
-    {
-      "by": "mellosouls",
-      "descendants": 0,
-      "id": 30564786,
-      "score": 1,
-      "time": 1646460336,
-      "title": "Please, Don't Lose the Plot",
-      "type": "story",
-      "url": "https://www.readtangle.com/otherposts/please-dont-lose-the-plot/"
     }
   ]
 }
