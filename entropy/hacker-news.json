@@ -1,6 +1,56 @@
 {
   "stories": [
     {
+      "by": "amadeuspagel",
+      "descendants": 0,
+      "id": 30592058,
+      "score": 1,
+      "time": 1646680504,
+      "title": "Biden is right to rule out a ‘no-fly zone’ in Ukraine",
+      "type": "story",
+      "url": "https://responsiblestatecraft.org/2022/03/07/biden-is-right-to-rule-out-a-no-fly-zone-in-ukraine/"
+    },
+    {
+      "by": "westcort",
+      "descendants": 0,
+      "id": 30592056,
+      "score": 1,
+      "time": 1646680499,
+      "title": "The Frog of War",
+      "type": "story",
+      "url": "http://blogs.harvard.edu/doc/"
+    },
+    {
+      "by": "paulpauper",
+      "descendants": 0,
+      "id": 30592049,
+      "score": 1,
+      "time": 1646680478,
+      "title": "Free College Education Is Worse Than Useless",
+      "type": "story",
+      "url": "https://parrhesia.substack.com/p/free-college-education-is-worse-than"
+    },
+    {
+      "by": "paulpauper",
+      "descendants": 0,
+      "id": 30592029,
+      "score": 1,
+      "time": 1646680415,
+      "title": "How are the Big Sanctions hurting Russia so far?",
+      "type": "story",
+      "url": "https://noahpinion.substack.com/p/how-are-the-big-sanctions-hurting"
+    },
+    {
+      "by": "awb",
+      "descendants": 0,
+      "id": 30592009,
+      "score": 3,
+      "time": 1646680291,
+      "title": "Children of some of Russia's wealthiest oligarchs are rebelling against Putin",
+      "type": "story",
+      "url": "https://www.insider.com/rich-russian-influencers-rebel-against-putin-on-instagram-2022-3"
+    },
+    {
       "by": "pmoriarty",
       "descendants": 0,
       "id": 30591988,
@@ -49,62 +99,11 @@
       "kids": [
         30591903
       ],
-      "score": 2,
+      "score": 4,
       "time": 1646679736,
       "title": "The World Is Awash in Plastic. Nations Plan a Treaty to Fix That.",
       "type": "story",
       "url": "https://www.nytimes.com/2022/03/02/climate/global-plastics-recycling-treaty.html"
-    },
-    {
-      "by": "mitchbob",
-      "descendants": 0,
-      "id": 30591881,
-      "score": 2,
-      "time": 1646679654,
-      "title": "Cleaning the Great Pacific Garbage Patch was probably a bad idea",
-      "type": "story",
-      "url": "https://www.vox.com/down-to-earth/22949475/ocean-plastic-pollution-cleanup"
-    },
-    {
-      "by": "garyjlin",
-      "descendants": 0,
-      "id": 30591874,
-      "score": 9,
-      "text": "Hi HN, I’m Gary from Litebulb (<a href=\"https:&#x2F;&#x2F;litebulb.io\" rel=\"nofollow\">https:&#x2F;&#x2F;litebulb.io</a>). We automate technical onsite interviews for remote teams. When I say “automate”, I should add “as much as possible”. Our software doesn’t decide who you should hire! But we set up dev environments for interviews, ask questions on real codebases, track candidates, run tests to verify correctness, and analyze the code submitted. On the roadmap are things like scheduling, tracking timing, and customizing questions.<p>I&#x27;ve been a software engineer at 11 companies and have gone through well over a hundred interviewing funnels. Tech interviews suck. Engineers grind LeetCode for months just so they can write the optimal quicksort solution in 15 minutes, but on the job you just import it from some library like you&#x27;re supposed to. My friends and I memorized half of HackerRank just to stack up job offers, but none of these recruiting teams actually knew whether or not we were good fits for the roles. In some cases we weren&#x27;t.<p>After I went to the other side of the interviewing table, it got worse. It takes days to create a good interview, and engineers hate running repetitive, multi-hour interviews for people they likely won&#x27;t ever see again. They get pulled away from dev work to do interviews, then have to sync up with the rest of the team to decide what everyone thinks and come to an often arbitrary decision. At some point, HR comes back to eng and asks them to fix or upgrade a 2 year old interview question, and nobody wants to or has the time. Having talked with hundreds of hiring managers, VPs of eng, heads of HR, and CTOs, I know how common this problem is. Common enough to warrant starting a startup, hence Litebulb.<p>We don’t do LeetCode—our interviews are like regular dev work. Candidates get access to an existing codebase on Github complete with a DB, server, and client. Environments are Dockerized, and every interview&#x27;s setup is boiled down to a single &quot;make&quot; command (DB init, migration, seed, server, client, tunnelling, etc), so a candidate can get started on coding within minutes of accepting the invite. Candidates code on Codespaces (browser-based VSCode IDE), but can choose to set up locally, though we don&#x27;t guarantee there won&#x27;t be package versioning conflicts or environment problems. Candidates are given a set of specs and Figma mockups (if it&#x27;s a frontend&#x2F;fullstack interview) and asked to build out a real feature on top of this existing codebase. When candidates submit their solution, it&#x27;s in the form of a Github pull request. The experience is meant to feel the same as building a feature on the job. Right now, we support a few popular stacks: Node + Express, React, GraphQL, Golang, Ruby on Rails, Python&#x2F;Django and Flask, and Bootstrap, and we’re growing support by popular demand.<p>We then take that PR, run a bunch of automated analysis on it, and produce a report for the employer. Of course there’s a limit to what an automated analysis can reveal, but standardized metrics are useful. Metrics we collect include linter output, integration testing, visual regression testing, performance (using load testing), cyclomatic&#x2F;halstead complexity, identifier naming convention testing, event logs, edge case handling, code coverage. And of course all our interview projects come with automated tests that run automatically to verify the correctness of the candidate’s code (as much as unit and integration tests can do, at least—we’re not into formal verification at this stage!)<p>Right now, Litebulb compiles the report, but we&#x27;re building a way for employers to do it themselves using the data collected. Litebulb is still early, so we&#x27;re still manually verifying all results (24 hour turnaround policy).<p>There are a lot of interview service providers and automated screening platforms, but they tend to either not be automated (i.e. you still need engineers to do the interviews) or are early-funnel, meaning they test for basic programming or brainteasers, but not regular dev work. Litebulb is different because we&#x27;re late-funnel <i>and</i> automated. We can get the depth of a service like Karat but at the scale and price point of a tool like HackerRank. Longer term, we&#x27;re hoping to become something like Webflow for interviews.<p>Here&#x27;s a Loom demo: <a href=\"https:&#x2F;&#x2F;www.loom.com&#x2F;share&#x2F;bdca5f77379140ecb69f7c1917663ae5\" rel=\"nofollow\">https:&#x2F;&#x2F;www.loom.com&#x2F;share&#x2F;bdca5f77379140ecb69f7c1917663ae5</a>, it&#x27;s a bit informal but gets the idea across. There’s a trial mode too, for which you can sign up here: <a href=\"https:&#x2F;&#x2F;litebulb.typeform.com&#x2F;to&#x2F;J7mQ5KZI\" rel=\"nofollow\">https:&#x2F;&#x2F;litebulb.typeform.com&#x2F;to&#x2F;J7mQ5KZI</a>. Be warned that it’s still unpolished—we&#x27;re probably going to still be in beta for another 3 months at least. That said, the product is usable and people have been paying and getting substantial value out of it, which is why we thought an HN launch might be a good idea.<p>We’re always looking for feedback on your interview experiences or ideas for building better tech interviews. If you have thoughts, want to try out Litebulb, or just want to chat, you can always reach me directly at gary@litebulb.io.<p>Thanks everyone!",
-      "time": 1646679634,
-      "title": "Launch HN: Litebulb (YC W22) – Automating the technical interview",
-      "type": "story",
-      "url": "https://www.litebulb.io"
-    },
-    {
-      "by": "ekovarski",
-      "descendants": 0,
-      "id": 30591846,
-      "score": 2,
-      "time": 1646679507,
-      "title": "Google speeds up Chrome on macOS and Android",
-      "type": "story",
-      "url": "https://techcrunch.com/2022/03/07/google-speeds-up-chrome-on-macos-and-android/"
-    },
-    {
-      "by": "throwoutway",
-      "descendants": 0,
-      "id": 30591837,
-      "score": 1,
-      "time": 1646679475,
-      "title": "The Apocalyptic Soviet Doomsday Machine (2009)",
-      "type": "story",
-      "url": "https://www.wired.com/2009/09/mf-deadhand/"
-    },
-    {
-      "by": "imartin2k",
-      "descendants": 0,
-      "id": 30591824,
-      "score": 2,
-      "time": 1646679425,
-      "title": "Ark Invest CEO Cathie Wood on Everything from Deflation to Elon Musk",
-      "type": "story",
-      "url": "https://www.ft.com/content/a93f4de2-35d2-44e1-a6a1-0000cba0dd4d"
     }
   ]
 }
