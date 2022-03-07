@@ -1,6 +1,50 @@
 {
   "stories": [
     {
+      "by": "turrini",
+      "descendants": 0,
+      "id": 30591910,
+      "score": 1,
+      "time": 1646679806,
+      "title": "Qt 5.15.3 (LTS) open source released",
+      "type": "story",
+      "url": "https://lists.qt-project.org/pipermail/development/2022-March/042262.html"
+    },
+    {
+      "by": "mitchbob",
+      "descendants": 1,
+      "id": 30591893,
+      "kids": [
+        30591903
+      ],
+      "score": 2,
+      "time": 1646679736,
+      "title": "The World Is Awash in Plastic. Nations Plan a Treaty to Fix That.",
+      "type": "story",
+      "url": "https://www.nytimes.com/2022/03/02/climate/global-plastics-recycling-treaty.html"
+    },
+    {
+      "by": "mitchbob",
+      "descendants": 0,
+      "id": 30591881,
+      "score": 1,
+      "time": 1646679654,
+      "title": "Cleaning the Great Pacific Garbage Patch was probably a bad idea",
+      "type": "story",
+      "url": "https://www.vox.com/down-to-earth/22949475/ocean-plastic-pollution-cleanup"
+    },
+    {
+      "by": "garyjlin",
+      "descendants": 0,
+      "id": 30591874,
+      "score": 1,
+      "text": "Hi HN, I’m Gary from Litebulb (<a href=\"https:&#x2F;&#x2F;litebulb.io\" rel=\"nofollow\">https:&#x2F;&#x2F;litebulb.io</a>). We automate technical onsite interviews for remote teams. When I say “automate”, I should add “as much as possible”. Our software doesn’t decide who you should hire! But we set up dev environments for interviews, ask questions on real codebases, track candidates, run tests to verify correctness, and analyze the code submitted. On the roadmap are things like scheduling, tracking timing, and customizing questions.<p>I&#x27;ve been a software engineer at 11 companies and have gone through well over a hundred interviewing funnels. From my experience as a candidate, tech interviews suck. Engineers grind LeetCode for months just so they can write the optimal quicksort solution in 15 minutes, but on the job you just import it from some library like you&#x27;re supposed to. My friends and I memorized half of HackerRank just to stack up job offers, but none of these recruiting teams actually knew whether or not we were good fits for the roles. In some cases we weren&#x27;t.<p>After I went to the other side of the interviewing table, it got worse. It takes days to create a good interview, and engineers hate running repetitive, multi-hour interviews for people they likely won&#x27;t ever see again. They get pulled away from dev work to do interviews, then have to sync up with the rest of the team to decide what everyone thinks and come to an often arbitrary decision. At some point, HR comes back to eng and asks them to fix or upgrade a 2 year old interview question, and nobody wants to or has the time. Having talked with hundreds of hiring managers, VPs of eng, heads of HR, and CTOs, I know how common this problem is. Common enough to warrant starting a startup, hence Litebulb.<p>We don’t do LeetCode—our interviews are like regular dev work. Candidates get access to an existing codebase on Github complete with a DB, server, and client. Environments are Dockerized, and every interview&#x27;s setup is boiled down to a single &quot;make&quot; command (DB init, migration, seed, server, client, tunnelling, etc), so a candidate can get started on coding within 2 minutes of accepting the invite. Candidates code on Codespaces (browser-based VSCode IDE), but can choose to set up locally, though we don&#x27;t guarantee there won&#x27;t be package versioning conflicts or environment problems. Candidates are given a set of specs and Figma mockups (if it&#x27;s a frontend&#x2F;fullstack interview) and asked to build out a real feature on top of this existing codebase. When candidates submit their solution, it&#x27;s in the form of a Github pull request. The experience is meant to feel the same as building a feature on the job. Right now, we support a couple of popular stacks: Node + Express, React, GraphQL, Golang, Ruby on Rails, Python&#x2F;Django and Flask, and Bootstrap, and we’re growing stack support by popular demand.<p>We then take that PR, run a bunch of automated analysis on it, and produce a report for the employer. Of course there’s a limit to what an automated analysis can reveal, but standardized metrics are useful. Metrics we collect include linter output, integration testing, visual regression testing, performance (using load testing), cyclomatic&#x2F;halstead complexity, identifier naming convention testing, event logs, edge case handling, code coverage. And of course all our interview projects come with automated tests that run automatically to verify the correctness of the candidate’s code (as much as unit and integration tests can do, at least—we’re not into formal verification at this stage!)<p>Right now, Litebulb compiles the report, but we&#x27;re building a way for employers to do it themselves using the data collected. Litebulb is still early, so we&#x27;re still manually verifying all results (24 hour turnaround policy).<p>There are a lot of interview service providers and automated screening platforms, but they tend to either not be automated (i.e. you still need engineers to do the interviews) or are early-funnel, meaning they test for basic programming or brainteasers, but not regular dev work. Litebulb is different because we&#x27;re late-funnel <i>and</i> automated. We can get the depth of a service like Karat but at the scale and price point of a tool like HackerRank. Longer term, we&#x27;re hoping to become something like Webflow for interviews.<p>Here&#x27;s a Loom demo: <a href=\"https:&#x2F;&#x2F;www.loom.com&#x2F;share&#x2F;bdca5f77379140ecb69f7c1917663ae5\" rel=\"nofollow\">https:&#x2F;&#x2F;www.loom.com&#x2F;share&#x2F;bdca5f77379140ecb69f7c1917663ae5</a>, it&#x27;s a bit informal but gets the idea across. There’s a trial mode too, for which you can sign up here: <a href=\"https:&#x2F;&#x2F;litebulb.typeform.com&#x2F;to&#x2F;J7mQ5KZI\" rel=\"nofollow\">https:&#x2F;&#x2F;litebulb.typeform.com&#x2F;to&#x2F;J7mQ5KZI</a>. Be warned that it’s still unpolished—we&#x27;re probably going to still be in beta for another 3 months at least. That said, the product is usable and people have been paying and getting substantial value out of it, which is why we thought an HN launch might be a good idea.<p>We’re always looking for feedback on your interview experiences or ideas for building better tech interviews. If you have thoughts, want to try out Litebulb, or just want to chat, you can always reach me directly at gary@litebulb.io.<p>Thanks everyone!",
+      "time": 1646679634,
+      "title": "Launch HN: Litebulb (YC W22) – Automating the technical interview",
+      "type": "story",
+      "url": "https://www.litebulb.io"
+    },
+    {
       "by": "ekovarski",
       "descendants": 0,
       "id": 30591846,
@@ -44,7 +88,7 @@
       "by": "ceohockey60",
       "descendants": 0,
       "id": 30591781,
-      "score": 1,
+      "score": 2,
       "time": 1646679227,
       "title": "Central Bank Digital Currency: Should You Want It Too?",
       "type": "story",
@@ -59,49 +103,6 @@
       "title": "Russian Priest Arrested for Delivering Sermon Against Ukraine War",
       "type": "story",
       "url": "https://www.newsweek.com/russian-priest-arrested-delivering-sermon-anti-war-against-ukraine-1685436"
-    },
-    {
-      "by": "rbanffy",
-      "descendants": 0,
-      "id": 30591729,
-      "score": 2,
-      "time": 1646678980,
-      "title": "Are SSDs as reliable as HDDs now? – TechRadar",
-      "type": "story",
-      "url": "https://www.techradar.com/news/are-ssds-as-reliable-as-hdds-now"
-    },
-    {
-      "by": "h3mb3",
-      "descendants": 0,
-      "id": 30591727,
-      "score": 1,
-      "time": 1646678978,
-      "title": "“A palpable sense of disbelief has descended over the Finnish capital”",
-      "type": "story",
-      "url": "https://www.thetimes.co.uk/article/postcard-from-helsinki-a-palpable-sense-of-disbelief-has-descended-over-the-finnish-capital-3slr2wc88"
-    },
-    {
-      "by": "explain-this",
-      "descendants": 1,
-      "id": 30591723,
-      "kids": [
-        30591835
-      ],
-      "score": 1,
-      "text": "Today, I was asked to explain some topics. While I was able to explain, I was stuttering, my voice was louder. I wasn&#x27;t satisfied with my explanation.<p>How did you learn something (programming topics) in depth? How did you practice to explain something confidently?",
-      "time": 1646678947,
-      "title": "Ask HN: How did you learn something in depth?",
-      "type": "story"
-    },
-    {
-      "by": "rbanffy",
-      "descendants": 0,
-      "id": 30591721,
-      "score": 2,
-      "time": 1646678939,
-      "title": "Higher risk of temperature-related death if global warming exceeds 2 C",
-      "type": "story",
-      "url": "https://phys.org/news/2022-03-higher-temperature-related-death-global.html"
     }
   ]
 }
