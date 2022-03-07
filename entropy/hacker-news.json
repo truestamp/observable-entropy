@@ -1,6 +1,46 @@
 {
   "stories": [
     {
+      "by": "1MachineElf",
+      "descendants": 0,
+      "id": 30594454,
+      "score": 1,
+      "time": 1646693694,
+      "title": "AMD Linux Graphics for Workstations Beating Proprietary Driver",
+      "type": "story",
+      "url": "https://www.phoronix.com/scan.php?page=article&item=radeon-spvp2020-linux&num=1"
+    },
+    {
+      "by": "tomohawk",
+      "descendants": 0,
+      "id": 30594444,
+      "score": 1,
+      "time": 1646693641,
+      "title": "Iran plotting assassination of John Bolton, others, even while Biden negotiates",
+      "type": "story",
+      "url": "https://www.washingtonexaminer.com/restoring-america/courage-strength-optimism/iran-plotting-assassination-of-john-bolton-others-even-while-biden-negotiates-nuclear-deal"
+    },
+    {
+      "by": "picture",
+      "descendants": 0,
+      "id": 30594436,
+      "score": 1,
+      "time": 1646693580,
+      "title": "AlphaFold, GPT-3 and How to Augment Intelligence with AI",
+      "type": "story",
+      "url": "https://future.a16z.com/alphafold-gpt-3-and-how-to-augment-intelligence-with-ai/"
+    },
+    {
+      "by": "caaqil",
+      "descendants": 0,
+      "id": 30594428,
+      "score": 1,
+      "time": 1646693516,
+      "title": "U.S. may act alone to ban Russian oil imports",
+      "type": "story",
+      "url": "https://www.reuters.com/business/energy/us-prepared-move-alone-banning-russian-oil-imports-sources-2022-03-07/"
+    },
+    {
       "by": "alwillis",
       "descendants": 0,
       "id": 30594400,
@@ -14,7 +54,7 @@
       "by": "caaqil",
       "descendants": 0,
       "id": 30594380,
-      "score": 1,
+      "score": 2,
       "time": 1646693215,
       "title": "There's an edit war ongoing on the Wikipedia page for the T-90",
       "type": "story",
@@ -41,6 +81,16 @@
       "url": "https://soundcloud.com/rttv"
     },
     {
+      "by": "backup_help",
+      "descendants": 0,
+      "id": 30594331,
+      "score": 1,
+      "text": "Hello HN!<p>I currently have a backup&#x2F;archival setup which works like this:<p><pre><code>  Local Machine --&gt; Syncthing --&gt; cluster of boxes regionally separated --&gt; zfs shares --&gt; restic --&gt; Amazon S3 (soon to be replaced)\n</code></pre>\nAs it stands, I have restic running on two servers, however they operate in a sort of primary&#x2F;secondary mode (of my own design), where restic will only run on the secondary server if it cannot reach the primary server on a designated port and receive a correct message.<p>So far, this set up has worked well, I have hourly&#x2F;daily&#x2F;weekly snapshots on zfs, and restic runs daily archiving all the information.<p>I&#x27;ve been pretty happy with this setup, it&#x27;s mostly been designed to protect against loss of data on my main machine (via PEBAK or ransomware type issues).<p>One noticeable gap I&#x27;ve found is the gap of versioning backup. Similar to something like Dropbox where it tracks the versions of files (up to a certain number), it would be nice if the first layer (i.e. the Syncthing replacement) could handle file versions. Obviously, this wouldn&#x27;t be useful for items for which versioning isn&#x27;t required (e.g. video&#x2F;audio files) or where versioning is implicit (e.g. source code repos), but I found I like having versioning for things like my documents which do not fall into that category. The ideal state would be a program which could be configured for multiple profiles, so I could have video&#x2F;audio backed up in one way, source code&#x2F;artifacts backed up another, and finally documents backed up yet another way. I would then be able to view the revisions and restore.<p>I&#x27;m not looking for it to understand the structure of file and the changes (a la Office365 document changes) but at least show me the change times and the file size etc, and I could restore accordingly.<p>Some solutions I&#x27;ve tried:<p>- https:&#x2F;&#x2F;bvckup2.com&#x2F; (windows-only) -- this one came <i>really</i> close in that it had almost all the features, however it lacked a robust versioning feature. As it stands, it supports a file based feature which moves the file to an &quot;archive&quot; location. There isn&#x27;t an in-app way to do this, although reviewing the archive folder is helpful.<p>- git-annex -- this one looked like it would work, but as I understand it, it does not actually store the differences of file versions. If you manually create tags, it will store those, but it won&#x27;t by default (or atleast I couldn&#x27;t find it in the git-annex-assistant stuff).<p>- Syncthing -- while there is a versioning capability as part of Syncthing, it is for inbound changes only, it won&#x27;t version an outbound change.<p>- VSC&#x2F;Time Machine -- these are close, but ultimately seem to be similar versions of creating snapshot at time intervals.<p>I&#x27;ll be honest, I haven&#x27;t spent too much time with git annex, it feels like it could work with a special remote of bup, but I just couldn&#x27;t figure it out and I also wanted to avoid using bup until it was a bit more stable.<p>I also tried using NILFS2 (https:&#x2F;&#x2F;www.kernel.org&#x2F;doc&#x2F;html&#x2F;latest&#x2F;filesystems&#x2F;nilfs2.html) on one of my boxes to see if I could use that in a similar fashion. While it worked it a fairly interesting manner, I didn&#x27;t see a lot of broad support and didn&#x27;t want to go down that route.<p>Does anyone have an ideas?<p>HN threads I&#x27;ve read:<p>- https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=18692844<p>- https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=28758415<p>- https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=25758675<p>- https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=18689269<p>- https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=21211859<p>- https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=22855755<p>- https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=23281880<p>- https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=29863822<p>- https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=22253981<p>- https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=30481935",
+      "time": 1646692877,
+      "title": "Ask HN: Versioning Backup",
+      "type": "story"
+    },
+    {
       "by": "whack",
       "descendants": 0,
       "id": 30594322,
@@ -49,65 +99,6 @@
       "title": "Nuances of Overloading and Overriding in Java",
       "type": "story",
       "url": "https://software.rajivprab.com/2019/08/14/nuances-of-overloading-and-overriding-in-java/"
-    },
-    {
-      "by": "tanto",
-      "descendants": 0,
-      "id": 30594312,
-      "score": 1,
-      "text": "Basically what the title says. I am wondering what can a Software Engineer (without any knowledge in how to get into systems) particularly do. Apart from things everyone can do.",
-      "time": 1646692781,
-      "title": "What can this community do to help stop Putin?",
-      "type": "story"
-    },
-    {
-      "by": "mwcampbell",
-      "descendants": 1,
-      "id": 30594298,
-      "kids": [
-        30594314
-      ],
-      "score": 1,
-      "time": 1646692695,
-      "title": "Roman Lisp (2011)",
-      "type": "story",
-      "url": "http://www.loper-os.org/?p=516"
-    },
-    {
-      "by": "cspliego",
-      "descendants": 0,
-      "id": 30594277,
-      "score": 1,
-      "text": "My team uses GitLab for repos + project management, but I find myself unsatisfied with it for larger product initiatives + vision, i.e. sketching emerging ideas or things like design initiatives, documentation, GTM roadmap, etc.<p>What are your go-to tools for tracking and managing the non-dev side of your work?<p>I&#x27;ve used an amalgam of tools in the past (Sheets + Asana + Confluence + Trello) but haven&#x27;t found anything that makes me go &quot;Aha!&quot;",
-      "time": 1646692524,
-      "title": "Ask HN: Product Managers, what tools do you use to track non-dev focused work?",
-      "type": "story"
-    },
-    {
-      "by": "faustomorales",
-      "descendants": 1,
-      "id": 30594267,
-      "kids": [
-        30594278
-      ],
-      "score": 1,
-      "time": 1646692477,
-      "title": "Show HN: Label image classes, bounding boxes, and masks from Jupyter",
-      "type": "story",
-      "url": "https://colab.research.google.com/drive/1FUFt3fDs7BYpGI1E2z44L-zSRdoDtF8O?usp=sharing"
-    },
-    {
-      "by": "ThePaulAlek",
-      "descendants": 1,
-      "id": 30594256,
-      "kids": [
-        30594313
-      ],
-      "score": 1,
-      "text": "Why study math on your own time? Will it help with jobs? Can you solve some cool problem? I just don’t see the practicality of it. I am a software engineer so my mindset might be from practically point of view.<p>Thank you!",
-      "time": 1646692409,
-      "title": "Ask HN: Why Study Math?",
-      "type": "story"
     }
   ]
 }
