@@ -1,6 +1,17 @@
 {
   "stories": [
     {
+      "by": "bruce_parker",
+      "descendants": 0,
+      "id": 30586705,
+      "score": 1,
+      "text": "I have been chipping away at the problem of packet loss during TCP&#x2F;IP data transfer for the last 19 years. I am new to HN – Greetings<p>I created this tool (Netpump Data) to optimise the size of packet segments and use nonlinear data transfer to reduce  the  risk  of  access  congestion,  enable  accelerated  delivery,  and access the  latent  capacity  of  available  bandwidth.<p>By “nonlinear data transfer”, I mean that files are segmented and transmitted through different ports (or sockets), as opposed to TCP&#x2F;IP, which is a linear transfer through a single port.<p>I’ve found that I can get speeds usually around 2x to 5x faster than TCP&#x2F;IP (but up to around 15x).<p>I am looking for some people to test my observations &#x2F; assumptions, provide feedback and explore use-cases with me.<p>Netpump Data must be installed on both ends of the transfer, so it is most appropriate for enterprise networks. Theoretically, it could become a consumer product, but this has not yet been built.<p>I have a Demo User Guide [1] which provides instructions on how to use Netpump Data in a test environment I’ve set up across 5 servers on the Azure Cloud.  There is also an Admin Guide [2] which goes into further detail concerning implementing Netpump Data in other TCP&#x2F;IP environments.<p>To give you dedicated time on our test environment to demo the software, if you’re interested, please get started using this Typeform [3] and I will provide you a unique User ID and password to gain access to our Azure servers.<p>My website, contact information and FAQs are at: <a href=\"https:&#x2F;&#x2F;www.netpump.com&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;www.netpump.com&#x2F;</a><p>If you’d like to know how I made this, have any feedback, or discuss how it might be used, I’ll be around to respond to any queries and comments.<p>[1] <a href=\"https:&#x2F;&#x2F;www.pacbyte.com&#x2F;user_guides&#x2F;Netpump%20Data%20Azure%20Testing%20Guide.pdf\" rel=\"nofollow\">https:&#x2F;&#x2F;www.pacbyte.com&#x2F;user_guides&#x2F;Netpump%20Data%20Azure%2...</a><p>[2] <a href=\"https:&#x2F;&#x2F;www.pacbyte.com&#x2F;user_guides&#x2F;Netpump%20Data%20-%20Administration%20Guide.pdf\" rel=\"nofollow\">https:&#x2F;&#x2F;www.pacbyte.com&#x2F;user_guides&#x2F;Netpump%20Data%20-%20Adm...</a><p>[3] <a href=\"https:&#x2F;&#x2F;7zwtzlao1bg.typeform.com&#x2F;to&#x2F;YNhhLKgI\" rel=\"nofollow\">https:&#x2F;&#x2F;7zwtzlao1bg.typeform.com&#x2F;to&#x2F;YNhhLKgI</a>",
+      "time": 1646654223,
+      "title": "Show HN: I made a tool that speeds up TCP/IP by eliminating packet loss",
+      "type": "story",
+      "url": "https://www.netpump.com/netpump-data/"
+    },
+    {
       "by": "rbanffy",
       "descendants": 0,
       "id": 30586679,
@@ -90,16 +101,6 @@
       "title": "How to Prevent Visual Regressions",
       "type": "story",
       "url": "https://meticulous.ai/blog/visual-regressions-and-how-to-prevent-them/"
-    },
-    {
-      "by": "cyber_kinetist",
-      "descendants": 0,
-      "id": 30586534,
-      "score": 2,
-      "time": 1646652737,
-      "title": "Nanobind – Seamless operability between C++17 and Python",
-      "type": "story",
-      "url": "https://github.com/wjakob/nanobind"
     }
   ]
 }
