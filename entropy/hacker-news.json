@@ -1,6 +1,38 @@
 {
   "stories": [
     {
+      "by": "pmoriarty",
+      "descendants": 0,
+      "id": 30591988,
+      "score": 1,
+      "time": 1646680136,
+      "title": "Daniel Ellsberg Talks Psychedelics, Consciousness and World Peace",
+      "type": "story",
+      "url": "https://www.lucid.news/daniel-ellsberg-talks-psychedelics-consciousness-and-world-peace/"
+    },
+    {
+      "by": "michael-g",
+      "descendants": 1,
+      "id": 30591952,
+      "kids": [
+        30591953
+      ],
+      "score": 1,
+      "time": 1646679986,
+      "title": "Y Combinator: Condemn Russia's genocide war against Ukraine",
+      "type": "story",
+      "url": "https://www.change.org/p/y-combinator-condemn-russia-s-genocide-war-against-ukraine"
+    },
+    {
+      "by": "Txoko",
+      "descendants": 0,
+      "id": 30591946,
+      "score": 2,
+      "time": 1646679967,
+      "title": "Ask HN: What is a good, but inexpensive Hearing Aid?",
+      "type": "story"
+    },
+    {
       "by": "turrini",
       "descendants": 0,
       "id": 30591910,
@@ -27,7 +59,7 @@
       "by": "mitchbob",
       "descendants": 0,
       "id": 30591881,
-      "score": 1,
+      "score": 2,
       "time": 1646679654,
       "title": "Cleaning the Great Pacific Garbage Patch was probably a bad idea",
       "type": "story",
@@ -37,8 +69,8 @@
       "by": "garyjlin",
       "descendants": 0,
       "id": 30591874,
-      "score": 1,
-      "text": "Hi HN, I’m Gary from Litebulb (<a href=\"https:&#x2F;&#x2F;litebulb.io\" rel=\"nofollow\">https:&#x2F;&#x2F;litebulb.io</a>). We automate technical onsite interviews for remote teams. When I say “automate”, I should add “as much as possible”. Our software doesn’t decide who you should hire! But we set up dev environments for interviews, ask questions on real codebases, track candidates, run tests to verify correctness, and analyze the code submitted. On the roadmap are things like scheduling, tracking timing, and customizing questions.<p>I&#x27;ve been a software engineer at 11 companies and have gone through well over a hundred interviewing funnels. From my experience as a candidate, tech interviews suck. Engineers grind LeetCode for months just so they can write the optimal quicksort solution in 15 minutes, but on the job you just import it from some library like you&#x27;re supposed to. My friends and I memorized half of HackerRank just to stack up job offers, but none of these recruiting teams actually knew whether or not we were good fits for the roles. In some cases we weren&#x27;t.<p>After I went to the other side of the interviewing table, it got worse. It takes days to create a good interview, and engineers hate running repetitive, multi-hour interviews for people they likely won&#x27;t ever see again. They get pulled away from dev work to do interviews, then have to sync up with the rest of the team to decide what everyone thinks and come to an often arbitrary decision. At some point, HR comes back to eng and asks them to fix or upgrade a 2 year old interview question, and nobody wants to or has the time. Having talked with hundreds of hiring managers, VPs of eng, heads of HR, and CTOs, I know how common this problem is. Common enough to warrant starting a startup, hence Litebulb.<p>We don’t do LeetCode—our interviews are like regular dev work. Candidates get access to an existing codebase on Github complete with a DB, server, and client. Environments are Dockerized, and every interview&#x27;s setup is boiled down to a single &quot;make&quot; command (DB init, migration, seed, server, client, tunnelling, etc), so a candidate can get started on coding within 2 minutes of accepting the invite. Candidates code on Codespaces (browser-based VSCode IDE), but can choose to set up locally, though we don&#x27;t guarantee there won&#x27;t be package versioning conflicts or environment problems. Candidates are given a set of specs and Figma mockups (if it&#x27;s a frontend&#x2F;fullstack interview) and asked to build out a real feature on top of this existing codebase. When candidates submit their solution, it&#x27;s in the form of a Github pull request. The experience is meant to feel the same as building a feature on the job. Right now, we support a couple of popular stacks: Node + Express, React, GraphQL, Golang, Ruby on Rails, Python&#x2F;Django and Flask, and Bootstrap, and we’re growing stack support by popular demand.<p>We then take that PR, run a bunch of automated analysis on it, and produce a report for the employer. Of course there’s a limit to what an automated analysis can reveal, but standardized metrics are useful. Metrics we collect include linter output, integration testing, visual regression testing, performance (using load testing), cyclomatic&#x2F;halstead complexity, identifier naming convention testing, event logs, edge case handling, code coverage. And of course all our interview projects come with automated tests that run automatically to verify the correctness of the candidate’s code (as much as unit and integration tests can do, at least—we’re not into formal verification at this stage!)<p>Right now, Litebulb compiles the report, but we&#x27;re building a way for employers to do it themselves using the data collected. Litebulb is still early, so we&#x27;re still manually verifying all results (24 hour turnaround policy).<p>There are a lot of interview service providers and automated screening platforms, but they tend to either not be automated (i.e. you still need engineers to do the interviews) or are early-funnel, meaning they test for basic programming or brainteasers, but not regular dev work. Litebulb is different because we&#x27;re late-funnel <i>and</i> automated. We can get the depth of a service like Karat but at the scale and price point of a tool like HackerRank. Longer term, we&#x27;re hoping to become something like Webflow for interviews.<p>Here&#x27;s a Loom demo: <a href=\"https:&#x2F;&#x2F;www.loom.com&#x2F;share&#x2F;bdca5f77379140ecb69f7c1917663ae5\" rel=\"nofollow\">https:&#x2F;&#x2F;www.loom.com&#x2F;share&#x2F;bdca5f77379140ecb69f7c1917663ae5</a>, it&#x27;s a bit informal but gets the idea across. There’s a trial mode too, for which you can sign up here: <a href=\"https:&#x2F;&#x2F;litebulb.typeform.com&#x2F;to&#x2F;J7mQ5KZI\" rel=\"nofollow\">https:&#x2F;&#x2F;litebulb.typeform.com&#x2F;to&#x2F;J7mQ5KZI</a>. Be warned that it’s still unpolished—we&#x27;re probably going to still be in beta for another 3 months at least. That said, the product is usable and people have been paying and getting substantial value out of it, which is why we thought an HN launch might be a good idea.<p>We’re always looking for feedback on your interview experiences or ideas for building better tech interviews. If you have thoughts, want to try out Litebulb, or just want to chat, you can always reach me directly at gary@litebulb.io.<p>Thanks everyone!",
+      "score": 9,
+      "text": "Hi HN, I’m Gary from Litebulb (<a href=\"https:&#x2F;&#x2F;litebulb.io\" rel=\"nofollow\">https:&#x2F;&#x2F;litebulb.io</a>). We automate technical onsite interviews for remote teams. When I say “automate”, I should add “as much as possible”. Our software doesn’t decide who you should hire! But we set up dev environments for interviews, ask questions on real codebases, track candidates, run tests to verify correctness, and analyze the code submitted. On the roadmap are things like scheduling, tracking timing, and customizing questions.<p>I&#x27;ve been a software engineer at 11 companies and have gone through well over a hundred interviewing funnels. Tech interviews suck. Engineers grind LeetCode for months just so they can write the optimal quicksort solution in 15 minutes, but on the job you just import it from some library like you&#x27;re supposed to. My friends and I memorized half of HackerRank just to stack up job offers, but none of these recruiting teams actually knew whether or not we were good fits for the roles. In some cases we weren&#x27;t.<p>After I went to the other side of the interviewing table, it got worse. It takes days to create a good interview, and engineers hate running repetitive, multi-hour interviews for people they likely won&#x27;t ever see again. They get pulled away from dev work to do interviews, then have to sync up with the rest of the team to decide what everyone thinks and come to an often arbitrary decision. At some point, HR comes back to eng and asks them to fix or upgrade a 2 year old interview question, and nobody wants to or has the time. Having talked with hundreds of hiring managers, VPs of eng, heads of HR, and CTOs, I know how common this problem is. Common enough to warrant starting a startup, hence Litebulb.<p>We don’t do LeetCode—our interviews are like regular dev work. Candidates get access to an existing codebase on Github complete with a DB, server, and client. Environments are Dockerized, and every interview&#x27;s setup is boiled down to a single &quot;make&quot; command (DB init, migration, seed, server, client, tunnelling, etc), so a candidate can get started on coding within minutes of accepting the invite. Candidates code on Codespaces (browser-based VSCode IDE), but can choose to set up locally, though we don&#x27;t guarantee there won&#x27;t be package versioning conflicts or environment problems. Candidates are given a set of specs and Figma mockups (if it&#x27;s a frontend&#x2F;fullstack interview) and asked to build out a real feature on top of this existing codebase. When candidates submit their solution, it&#x27;s in the form of a Github pull request. The experience is meant to feel the same as building a feature on the job. Right now, we support a few popular stacks: Node + Express, React, GraphQL, Golang, Ruby on Rails, Python&#x2F;Django and Flask, and Bootstrap, and we’re growing support by popular demand.<p>We then take that PR, run a bunch of automated analysis on it, and produce a report for the employer. Of course there’s a limit to what an automated analysis can reveal, but standardized metrics are useful. Metrics we collect include linter output, integration testing, visual regression testing, performance (using load testing), cyclomatic&#x2F;halstead complexity, identifier naming convention testing, event logs, edge case handling, code coverage. And of course all our interview projects come with automated tests that run automatically to verify the correctness of the candidate’s code (as much as unit and integration tests can do, at least—we’re not into formal verification at this stage!)<p>Right now, Litebulb compiles the report, but we&#x27;re building a way for employers to do it themselves using the data collected. Litebulb is still early, so we&#x27;re still manually verifying all results (24 hour turnaround policy).<p>There are a lot of interview service providers and automated screening platforms, but they tend to either not be automated (i.e. you still need engineers to do the interviews) or are early-funnel, meaning they test for basic programming or brainteasers, but not regular dev work. Litebulb is different because we&#x27;re late-funnel <i>and</i> automated. We can get the depth of a service like Karat but at the scale and price point of a tool like HackerRank. Longer term, we&#x27;re hoping to become something like Webflow for interviews.<p>Here&#x27;s a Loom demo: <a href=\"https:&#x2F;&#x2F;www.loom.com&#x2F;share&#x2F;bdca5f77379140ecb69f7c1917663ae5\" rel=\"nofollow\">https:&#x2F;&#x2F;www.loom.com&#x2F;share&#x2F;bdca5f77379140ecb69f7c1917663ae5</a>, it&#x27;s a bit informal but gets the idea across. There’s a trial mode too, for which you can sign up here: <a href=\"https:&#x2F;&#x2F;litebulb.typeform.com&#x2F;to&#x2F;J7mQ5KZI\" rel=\"nofollow\">https:&#x2F;&#x2F;litebulb.typeform.com&#x2F;to&#x2F;J7mQ5KZI</a>. Be warned that it’s still unpolished—we&#x27;re probably going to still be in beta for another 3 months at least. That said, the product is usable and people have been paying and getting substantial value out of it, which is why we thought an HN launch might be a good idea.<p>We’re always looking for feedback on your interview experiences or ideas for building better tech interviews. If you have thoughts, want to try out Litebulb, or just want to chat, you can always reach me directly at gary@litebulb.io.<p>Thanks everyone!",
       "time": 1646679634,
       "title": "Launch HN: Litebulb (YC W22) – Automating the technical interview",
       "type": "story",
@@ -68,41 +100,11 @@
       "by": "imartin2k",
       "descendants": 0,
       "id": 30591824,
-      "score": 1,
+      "score": 2,
       "time": 1646679425,
       "title": "Ark Invest CEO Cathie Wood on Everything from Deflation to Elon Musk",
       "type": "story",
       "url": "https://www.ft.com/content/a93f4de2-35d2-44e1-a6a1-0000cba0dd4d"
-    },
-    {
-      "by": "bitcharmer",
-      "descendants": 0,
-      "id": 30591800,
-      "score": 1,
-      "time": 1646679312,
-      "title": "When and Why to Deprecate Filesystems",
-      "type": "story",
-      "url": "https://lwn.net/SubscriberLink/886708/a8a2c882e34a579d/"
-    },
-    {
-      "by": "ceohockey60",
-      "descendants": 0,
-      "id": 30591781,
-      "score": 2,
-      "time": 1646679227,
-      "title": "Central Bank Digital Currency: Should You Want It Too?",
-      "type": "story",
-      "url": "https://interconnected.blog/central-bank-digital-currency-should-you-want-it-too/"
-    },
-    {
-      "by": "awb",
-      "descendants": 0,
-      "id": 30591750,
-      "score": 1,
-      "time": 1646679064,
-      "title": "Russian Priest Arrested for Delivering Sermon Against Ukraine War",
-      "type": "story",
-      "url": "https://www.newsweek.com/russian-priest-arrested-delivering-sermon-anti-war-against-ukraine-1685436"
     }
   ]
 }
