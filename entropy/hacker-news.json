@@ -1,6 +1,46 @@
 {
   "stories": [
     {
+      "by": "sriram_malhar",
+      "descendants": 0,
+      "id": 30613315,
+      "score": 1,
+      "text": "Problem: GIven a frame from a mobile camera&#x27;s video stream, I need to pick a reference image (from a corpus of images) that the given frame most closely resembles.  Input: Mobile frame, Output: file name of reference image.<p>I can constrain the problem further. I can make sure that the mobile camera is positioned at about the same angle that the reference images were taken; but the mobile used to capture the reference may not be the same as the one &#x27;in the field&#x27;; given the differences in resolution, lighting, different types of mobile camera specs etc, the images are bound to differ.<p>Second, it is possible that some part of the image to be identified is occluded (like a hand or a paper weight).<p>This needs to work on Android (which I am new to), and I don&#x27;t have much of a background in image recognition. Ideally, if there is a way to fingerprint&#x2F;hash the image in a way that is resistant to occlusion, rotation etc, and perhaps even the angle it is viewed from, that would be nice.  I have thought of using Unity+Vuforia or OpenCV, but if there is a simpler way, please let me know. Thank y&#x27;all so much.",
+      "time": 1646824783,
+      "title": "Ask HN: How to recognise image when parts of it may be occluded?",
+      "type": "story"
+    },
+    {
+      "by": "optimalsolver",
+      "descendants": 0,
+      "id": 30613302,
+      "score": 1,
+      "time": 1646824718,
+      "title": "Deriving Our World From Small Datasets",
+      "type": "story",
+      "url": "https://www.lesswrong.com/posts/HLoPWrQsSzXGf2f6b/deriving-our-world-from-small-datasets"
+    },
+    {
+      "by": "aard",
+      "descendants": 0,
+      "id": 30613295,
+      "score": 1,
+      "time": 1646824650,
+      "title": "Three Pillars of Agile",
+      "type": "story",
+      "url": "http://adamard.com/three_pillars_of_agile.html"
+    },
+    {
+      "by": "thisappear",
+      "descendants": 0,
+      "id": 30613286,
+      "score": 1,
+      "time": 1646824537,
+      "title": "Russia to 'disconnect from global internet' on March 11",
+      "type": "story",
+      "url": "https://www.theregister.com/2022/03/09/lumen_quits_russia/"
+    },
+    {
       "by": "smartmic",
       "descendants": 0,
       "id": 30613275,
@@ -12,8 +52,11 @@
     },
     {
       "by": "tqxvak",
-      "descendants": 0,
+      "descendants": 1,
       "id": 30613273,
+      "kids": [
+        30613317
+      ],
       "score": 2,
       "time": 1646824362,
       "title": "US looks to keep Ukrainian 'biological research facilities' from Russian control",
@@ -62,46 +105,6 @@
       "title": "Apeing into War",
       "type": "story",
       "url": "https://www.drorpoleg.com/apeing-into-war/"
-    },
-    {
-      "by": "bspear",
-      "descendants": 0,
-      "id": 30613260,
-      "score": 1,
-      "time": 1646824259,
-      "title": "Knowledge Compression",
-      "type": "story",
-      "url": "https://angelajiang.com/essays/knowledge"
-    },
-    {
-      "by": "ludovicianul",
-      "descendants": 0,
-      "id": 30613253,
-      "score": 1,
-      "time": 1646824230,
-      "title": "Harden Your REST APIs with this OpenAPI Fuzzer",
-      "type": "story",
-      "url": "https://github.com/Endava/cats"
-    },
-    {
-      "by": "bspear",
-      "descendants": 0,
-      "id": 30613250,
-      "score": 1,
-      "time": 1646824204,
-      "title": "Deep Work",
-      "type": "story",
-      "url": "https://ava.substack.com/p/deep-work"
-    },
-    {
-      "by": "barry-cotter",
-      "descendants": 0,
-      "id": 30613238,
-      "score": 1,
-      "time": 1646824030,
-      "title": "Confucius and the Whistleblower",
-      "type": "story",
-      "url": "https://palladiummag.com/2022/03/04/confucius-and-the-whistleblower/"
     }
   ]
 }
