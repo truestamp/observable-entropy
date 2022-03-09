@@ -1,6 +1,16 @@
 {
   "stories": [
     {
+      "by": "matthewsinclair",
+      "descendants": 0,
+      "id": 30613374,
+      "score": 1,
+      "time": 1646825510,
+      "title": "ETH Layer 2 Service StarkNet Goes Live on Alchemy Promises 100x Lower Gas Fees",
+      "type": "story",
+      "url": "https://decrypt.co/94549/ethereum-alchemy-starknet"
+    },
+    {
       "by": "piker",
       "descendants": 0,
       "id": 30613362,
@@ -34,7 +44,7 @@
       "by": "intunderflow",
       "descendants": 0,
       "id": 30613336,
-      "score": 1,
+      "score": 2,
       "time": 1646824997,
       "title": "Incident at Slack",
       "type": "story",
@@ -68,7 +78,7 @@
       "descendants": 0,
       "id": 30613315,
       "score": 1,
-      "text": "Problem: Given a frame from a mobile camera&#x27;s video stream, I need to pick a reference image (from a corpus of images) that the given frame most closely resembles.  Input: Mobile frame, Output: file name of reference image. Sort of like a mobile version of TinEye or Google image search, except that the corpus is at most a few thousand images.<p>I can constrain the problem further. I can make sure that the mobile camera is positioned at about the same angle that the reference images were taken; but the mobile used to capture the reference may not be the same as the one &#x27;in the field&#x27;; given the differences in resolution, lighting, different types of mobile camera specs etc, the images are bound to differ.<p>Second, it is possible that some part of the image to be identified is occluded (like a hand or a paper weight).<p>This needs to work on Android (which I am new to), and I don&#x27;t have much of a background in image recognition. Ideally, if there is a way to fingerprint&#x2F;hash the image in a way that is resistant to occlusion, rotation etc, and perhaps even the angle it is viewed from, that would be nice.  I have thought of using Unity+Vuforia or OpenCV, but if there is a simpler way, please let me know. Thank y&#x27;all so much.",
+      "text": "Problem: Given a frame from a mobile camera&#x27;s video stream, I need to pick a reference image (from a corpus of images) that the given frame most closely resembles.  Input: Mobile frame, Output: file name of reference image. Sort of like a mobile version of TinEye or Google image search, except that the corpus is at most a few thousand images.<p>I can constrain the problem further. I can make sure that the mobile camera is positioned at about the same angle that the reference images were taken; but the mobile used to capture the reference may not be the same as the one &#x27;in the field&#x27;; given the differences in resolution, lighting, different types of mobile camera specs etc, the images are bound to differ.<p>Second, it is possible that some part of the image to be identified is occluded (like a hand or a paper weight).<p>This needs to work on Android (which I am new to), and I don&#x27;t have much of a background in image recognition. Ideally, if there is a way to fingerprint&#x2F;hash the image in a way that is resistant to occlusion, rotation etc, and perhaps even the angle it is viewed from, that would be nice.  I have thought of using Unity+Vuforia, OpenCV, perceptual hashing (phash) but I&#x27;d be very grateful for comments from experienced devs. Thank you all.",
       "time": 1646824783,
       "title": "Ask HN: How to recognise image when parts of it may be occluded?",
       "type": "story"
@@ -92,16 +102,6 @@
       "title": "Three Pillars of Agile",
       "type": "story",
       "url": "http://adamard.com/three_pillars_of_agile.html"
-    },
-    {
-      "by": "smartmic",
-      "descendants": 0,
-      "id": 30613275,
-      "score": 1,
-      "time": 1646824373,
-      "title": "Test Anything Protocol",
-      "type": "story",
-      "url": "http://testanything.org/"
     }
   ]
 }
