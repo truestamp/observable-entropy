@@ -1,6 +1,26 @@
 {
   "stories": [
     {
+      "by": "ilikepi",
+      "descendants": 0,
+      "id": 30610703,
+      "score": 1,
+      "time": 1646797652,
+      "title": "Forthcoming OpenSSL Releases",
+      "type": "story",
+      "url": "https://mta.openssl.org/pipermail/openssl-announce/2022-March/000216.html"
+    },
+    {
+      "by": "ibobev",
+      "descendants": 0,
+      "id": 30610692,
+      "score": 1,
+      "time": 1646797582,
+      "title": "AMD Announces Ryzen Threadripper Pro 5000 WX-Series: Zen 3 for OEM Workstations",
+      "type": "story",
+      "url": "https://www.anandtech.com/show/17296/amd-announces-ryzen-threadripper-pro-5000-wx-series-zen-3-core-for-oem-workstations"
+    },
+    {
       "by": "myth_drannon",
       "descendants": 0,
       "id": 30610676,
@@ -14,7 +34,7 @@
       "by": "popcornylu",
       "descendants": 0,
       "id": 30610670,
-      "score": 1,
+      "score": 2,
       "text": "Just tar your data and put it in s3? use a shared folder in NFS? or use git-like solutions, like DVC, Git LFS?<p>Undoubtedly, putting large files in s3 (or similar object store) or NFS is the most common solution. However, when it comes to version control, Git is the defacto solution. But Git is not designed for versioning large files. If we want to put large files on S3, why don’t we just use a tool that does the data versioning just on top of S3? This is the motivation why we develop the ArtiV(Artifact Versions), a version control tool for large files.<p>For more detail, I recommend you to read this blog post \nhttps:&#x2F;&#x2F;blog.infuseai.io&#x2F;a-modern-approach-to-versioning-large-datasets-for-machine-learning-fca2f541dd85<p>Or check out our git repository https:&#x2F;&#x2F;github.com&#x2F;InfuseAI&#x2F;artiv",
       "time": 1646797378,
       "title": "How do you version your large files for machine learning?",
@@ -79,26 +99,6 @@
       "title": "Show HN: AWP Express: Instant, distributed browser-based web archiving",
       "type": "story",
       "url": "https://express.archiveweb.page/"
-    },
-    {
-      "by": "durmonski",
-      "descendants": 0,
-      "id": 30610606,
-      "score": 1,
-      "time": 1646796840,
-      "title": "The Psychological Benefits of Reading",
-      "type": "story",
-      "url": "https://baos.pub/the-psychological-benefits-of-reading-85bce6b769da"
-    },
-    {
-      "by": "syrusakbary",
-      "descendants": 0,
-      "id": 30610595,
-      "score": 1,
-      "time": 1646796745,
-      "title": "China urges the US to disclose details on US-financed biological labs in Ukraine",
-      "type": "story",
-      "url": "https://twitter.com/CGTNOfficial/status/1501100790433587201"
     }
   ]
 }
