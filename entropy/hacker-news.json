@@ -1,6 +1,26 @@
 {
   "stories": [
     {
+      "by": "panabee",
+      "descendants": 0,
+      "id": 30610889,
+      "score": 1,
+      "time": 1646799548,
+      "title": "Tendons See Potential New Hydrogel Repair Tech Inspired by Slug Slime",
+      "type": "story",
+      "url": "https://modernsciences.org/tendons-see-potential-new-hydrogel-repair-tech-inspired-by-slug-slime/"
+    },
+    {
+      "by": "georgecmu",
+      "descendants": 0,
+      "id": 30610875,
+      "score": 1,
+      "time": 1646799363,
+      "title": "Saudi, Emirati Leaders Decline Calls with Biden",
+      "type": "story",
+      "url": "https://www.wsj.com/articles/saudi-emirati-leaders-decline-calls-with-biden-during-ukraine-crisis-11646779430"
+    },
+    {
       "by": "hn-0001",
       "descendants": 0,
       "id": 30610852,
@@ -12,8 +32,11 @@
     },
     {
       "by": "News-Dog",
-      "descendants": 0,
+      "descendants": 1,
       "id": 30610760,
+      "kids": [
+        30610876
+      ],
       "score": 3,
       "time": 1646798110,
       "title": "Russia-Ukraine War: What Happened March 8",
@@ -86,26 +109,6 @@
       "title": "The Waning of Ruby and Rails",
       "type": "story",
       "url": "https://berk.es/2022/03/08/the-waning-of-ruby-and-rails/"
-    },
-    {
-      "by": "popcornylu",
-      "descendants": 0,
-      "id": 30610670,
-      "score": 2,
-      "text": "Just tar your data and put it in s3? use a shared folder in NFS? or use git-like solutions, like DVC, Git LFS?<p>Undoubtedly, putting large files in s3 (or similar object store) or NFS is the most common solution. However, when it comes to version control, Git is the defacto solution. But Git is not designed for versioning large files. If we want to put large files on S3, why don’t we just use a tool that does the data versioning just on top of S3? This is the motivation why we develop the ArtiV(Artifact Versions), a version control tool for large files.<p>For more detail, I recommend you to read this blog post \nhttps:&#x2F;&#x2F;blog.infuseai.io&#x2F;a-modern-approach-to-versioning-large-datasets-for-machine-learning-fca2f541dd85<p>Or check out our git repository https:&#x2F;&#x2F;github.com&#x2F;InfuseAI&#x2F;artiv",
-      "time": 1646797378,
-      "title": "How do you version your large files for machine learning?",
-      "type": "story"
-    },
-    {
-      "by": "News-Dog",
-      "descendants": 0,
-      "id": 30610665,
-      "score": 2,
-      "time": 1646797357,
-      "title": "Tor Browser – 11.0.7 – Release 2022-03-08 (Windows, macOS, Linux)",
-      "type": "story",
-      "url": "https://blog.torproject.org/new-release-tor-browser-1107/"
     }
   ]
 }
