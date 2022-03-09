@@ -1,10 +1,83 @@
 {
   "stories": [
     {
+      "by": "mudro_zboris",
+      "descendants": 0,
+      "id": 30615375,
+      "score": 1,
+      "time": 1646839177,
+      "title": "US man who got first pig heart transplant dies after 2 months",
+      "type": "story",
+      "url": "https://apnews.com/article/pig-heart-transplant-patient-dies-bc3b304de3c8d3bf3acbb3c221960ecf"
+    },
+    {
+      "by": "plaur782",
+      "descendants": 0,
+      "id": 30615365,
+      "score": 1,
+      "time": 1646839147,
+      "title": "Elevation Profiles and Flightlines with Postgres and PostGIS",
+      "type": "story",
+      "url": "https://blog.crunchydata.com/blog/elevation-profiles-and-flightlines-with-postgis"
+    },
+    {
+      "by": "PaulHoule",
+      "descendants": 0,
+      "id": 30615355,
+      "score": 1,
+      "time": 1646839120,
+      "title": "Software-Driven and System-Level Tests Drive Chip Quality",
+      "type": "story",
+      "url": "https://semiengineering.com/software-driven-and-system-level-tests-drive-chip-quality/"
+    },
+    {
+      "by": "CSDude",
+      "descendants": 0,
+      "id": 30615354,
+      "score": 1,
+      "time": 1646839119,
+      "title": "Sidekick: Instant Live (No Stop the World) Debugging",
+      "type": "story",
+      "url": "https://blog.thundra.io/announcing-sidekick-instant-live-debugging-to-fix-software-bugs"
+    },
+    {
+      "by": "mhamann",
+      "descendants": 0,
+      "id": 30615352,
+      "score": 4,
+      "text": "Hi HN! We’re Matt, Rachel, and Rob, the founders of Rownd (<a href=\"https:&#x2F;&#x2F;rownd.io&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;rownd.io&#x2F;</a>). We make it easy for developers to sign up users through a code snippet that adds account creation and authentication to any website or web app—like Stripe for accounts. We made a page for you to try it out: <a href=\"https:&#x2F;&#x2F;rownd.io&#x2F;hacker-news\" rel=\"nofollow\">https:&#x2F;&#x2F;rownd.io&#x2F;hacker-news</a>, and a video to walk you through the flow: <a href=\"https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=H7fv17HSYrc\" rel=\"nofollow\">https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=H7fv17HSYrc</a>.<p>For example, one of our customers is a film festival. The festival requires everyone who buys a movie ticket to make a user account. That&#x27;s a big drag on conversion rates and requires technical upkeep. We take care of all that for the festival and make account creation and maintenance less painful for their users, which leads to more ticket sales. Further, the day of the festival, they can text “tickets” to xxxxx (our short code) and we send a specialized magic link so they can log in quickly and see their itinerary and tickets.<p>Rownd works across all your websites and apps, so if (for example) a user has subscribed to your newsletter, that data automatically gets contributed to their account for your app. No one needs to re-enter their email address!<p>Turning a website visitor into a user is hard. Turning a waitlist member or a newsletter subscriber into a user is even harder. There is a huge gap between marketing pages (landing pages, blogs, docs) and actual products (web apps and mobile apps). The culprit is the traditional sign-up&#x2F;login page. Sign-in pages add friction and lose users in your product funnel.<p>Your marketing pages should transition seamlessly to your actual product, but most sign-up flows act as a giant wall: stop, enter information that the company often already has from previous interactions, verify email&#x2F;phone, remember your password (hopefully it’s in the password manager!), and finally, if you’re lucky…you’re in.<p>We eliminate this gap, stitching together user accounts from your startup’s CRM, mailing lists, and database, making authentication work seamlessly across your websites and apps. If a user verifies their email or phone number anywhere (including in marketing emails), we authenticate them everywhere. Visitors and subscribers become account-holding users.<p>We give you a code snippet for websites (which you add to your footer), and an SDK for web apps, to add authentication. Our “hub” (i.e., our standard sign-in and account management widget, specially designed to look and feel trustworthy) is then visible on your pages, and the account data is available to the browser&#x2F;app through a simple API. Additionally, if you already have information about that user in other sources, such as CRM&#x2F;marketing tools (Hubspot, Mailchimp, Airtable, etc), we integrate it into the onboarding&#x2F;authentication process. The account data is available to your website or app through our browser API, so there is no need to build a backend for user management.<p>In more detail: We create an anonymous account around any visitor to your website. When a user comes to a site that has the Rownd Hub, a unique ID is created. Any form that is attached will fire that data to our Hub as well. The registration process can take place over several days if a visitor returns periodically. The data is stored in browser memory until they either press the &quot;verify my account&quot; button or click a button or link that is tagged as a Rownd authentication button (a bit like how Discord lets users view a server, but only comment once authenticated). If you link us to relevant data in your CRM, Airtable, or database, we make “claimable accounts” that are initialized from these data sources. Users claim their accounts and sign in with our passwordless authentication (via email or phone number today, but eventually perhaps crypto wallets too!). You can also use our “instant account links” in your own email and SMS campaigns to re-engage with users and bring them back to your app or website, fully authenticated when they arrive.<p>We are a team of former IBMers that have worked together for years tackling authentication, API management, and data protection. The predecessor to Rownd was a company helping startups comply with data privacy laws. We started to notice some pain around sign-up and onboarding for our own product and were frustrated that our funnel had so many holes in it. Then we realized that other companies were facing similar problems converting their site visitors to users. So, one day during a team discussion, we said “okay, let’s solve that problem!”<p>Since we’d already built a backend made for secure data storage, the user account layer was essentially there. We’ve thus focused our efforts on building the authentication layer to streamline user authentication, connecting the data directly to the user’s browser session as well as “custom” backends that most products have. In the future, we aim to allow even more seamless, opt-in authentication across different websites as the Rownd network grows. We’ve got a ton of new features in mind from mobile app support to a broader array of SDKs to enabling “sign in with crypto.” We’re excited to make this crucial part of the internet easier, more scalable, and more distributed than ever before, especially as Web3 becomes a driving force.<p>If you’re a developer, please let us know what you think! We’d love to hear your questions, feedback, ideas, and experiences around this space. You can also try Rownd for free at <a href=\"https:&#x2F;&#x2F;rownd.io&#x2F;hacker-news\" rel=\"nofollow\">https:&#x2F;&#x2F;rownd.io&#x2F;hacker-news</a>! We look forward to seeing how Rownd might help developers accelerate building software and companies speed up growing their user base.",
+      "time": 1646839093,
+      "title": "Launch HN: Rownd (YC W22) – Add authentication and accounts to any website",
+      "type": "story"
+    },
+    {
+      "by": "NotAWorkNick",
+      "descendants": 0,
+      "id": 30615341,
+      "score": 1,
+      "time": 1646839054,
+      "title": "MuWire – Easy Anonymous File Sharing (I2P Network)",
+      "type": "story",
+      "url": "https://muwire.com/about.html"
+    },
+    {
+      "by": "giuliomagnifico",
+      "descendants": 0,
+      "id": 30615330,
+      "kids": [
+        30615346
+      ],
+      "score": 1,
+      "time": 1646839012,
+      "title": "CERN Council responds to Russian invasion of Ukraine",
+      "type": "story",
+      "url": "https://home.cern/news/news/cern/cern-council-responds-russian-invasion-ukraine"
+    },
+    {
       "by": "Max_Ehrlich",
       "descendants": 0,
       "id": 30615296,
-      "score": 1,
+      "score": 2,
       "time": 1646838889,
       "title": "The Advantage of No Funding",
       "type": "story",
@@ -12,8 +85,11 @@
     },
     {
       "by": "jph",
-      "descendants": 0,
+      "descendants": 1,
       "id": 30615288,
+      "kids": [
+        30615323
+      ],
       "score": 1,
       "time": 1646838851,
       "title": "Show HN: Axum web framework for Rust – a demo tutorial",
@@ -27,87 +103,11 @@
       "kids": [
         30615268
       ],
-      "score": 1,
+      "score": 3,
       "time": 1646838766,
       "title": "Amazon Flagged to DOJ for Possible Obstruction of Congress",
       "type": "story",
       "url": "https://www.wsj.com/articles/amazon-flagged-to-justice-department-for-possible-criminal-obstruction-of-congress-11646827200"
-    },
-    {
-      "by": "acadapter",
-      "descendants": 0,
-      "id": 30615235,
-      "score": 1,
-      "time": 1646838641,
-      "title": "Interesting clip with a Russian student in Sweden locked out of her bank account",
-      "type": "story",
-      "url": "https://www.svt.se/nyheter/lokalt/uppsala/ryska-irinas-betalkort-ar-frysta-forsoker-oppna-svenskt-konto"
-    },
-    {
-      "by": "elorant",
-      "descendants": 0,
-      "id": 30615221,
-      "score": 2,
-      "time": 1646838559,
-      "title": "Ukraine's small combat drone “The Punisher” destroys Russian supply lines",
-      "type": "story",
-      "url": "https://interestingengineering.com/ukraines-combat-drone-the-punisher"
-    },
-    {
-      "by": "kunle",
-      "descendants": 0,
-      "id": 30615207,
-      "score": 1,
-      "time": 1646838528,
-      "title": "The Durbin Amendment is responsible for modern fintech as we know it",
-      "type": "story",
-      "url": "https://kunle.app/feb-2022-children-of-durbin.html"
-    },
-    {
-      "by": "camjohnson26",
-      "descendants": 1,
-      "id": 30615203,
-      "kids": [
-        30615277
-      ],
-      "score": 1,
-      "time": 1646838522,
-      "title": "Lost in 1915, Ernest Shackleton’s ship Endurance found off coast of Antarctica",
-      "type": "story",
-      "url": "https://www.nbcnews.com/news/world/ernest-shackletons-ship-endurance-antarctica-sea-106-years-1915-rcna19264"
-    },
-    {
-      "by": "ksec",
-      "descendants": 0,
-      "id": 30615201,
-      "score": 3,
-      "time": 1646838510,
-      "title": "The Waning of Ruby and Rails",
-      "type": "story",
-      "url": "https://berk.es/2022/03/08/the-waning-of-ruby-and-rails/"
-    },
-    {
-      "by": "pabs3",
-      "descendants": 1,
-      "id": 30615196,
-      "kids": [
-        30615239
-      ],
-      "score": 1,
-      "time": 1646838495,
-      "title": "VPNs: Russia Forces Google to Delete Masses of Links Amid Ukraine Invasion",
-      "type": "story",
-      "url": "https://torrentfreak.com/vpns-russia-forces-google-to-delete-masses-of-links-amid-ukraine-invasion-220309/"
-    },
-    {
-      "by": "kboy",
-      "descendants": 0,
-      "id": 30615193,
-      "score": 1,
-      "time": 1646838485,
-      "title": "Google Play Store Download APK App Free for PC/Android",
-      "type": "story",
-      "url": "https://iplaystoredownload.org/"
     }
   ]
 }
