@@ -1,6 +1,27 @@
 {
   "stories": [
     {
+      "by": "hall-of-shame",
+      "descendants": 0,
+      "id": 30624993,
+      "score": 1,
+      "text": "<a href=\"https:&#x2F;&#x2F;hall-of-shame.vercel.app&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;hall-of-shame.vercel.app&#x2F;</a>",
+      "time": 1646904605,
+      "title": "Show HN: Hall of Shame",
+      "type": "story",
+      "url": "https://github.com/shameless-hall-of-shame/hall-of-shame"
+    },
+    {
+      "by": "macco",
+      "descendants": 0,
+      "id": 30624970,
+      "score": 1,
+      "time": 1646904373,
+      "title": "Virgin Hyperloop axes half its staff to focus on freight",
+      "type": "story",
+      "url": "https://www.ft.com/content/d87f77bd-0a0a-4512-b983-197f184f5352"
+    },
+    {
       "by": "rustoo",
       "descendants": 0,
       "id": 30624954,
@@ -14,7 +35,7 @@
       "by": "wjSgoWPm5bWAhXB",
       "descendants": 0,
       "id": 30624951,
-      "score": 1,
+      "score": 2,
       "time": 1646904241,
       "title": "Directly converting CO2 into a gasoline fuel",
       "type": "story",
@@ -35,8 +56,11 @@
     },
     {
       "by": "macondorivers",
-      "descendants": 0,
+      "descendants": 1,
       "id": 30624920,
+      "kids": [
+        30624996
+      ],
       "score": 2,
       "text": "Hi HN!<p>Keen to get your thoughts on an encrypted messaging app I&#x27;ve made:<p>throwaway is an in-browser messaging app. It&#x27;s specifically for single-use, one-to-one, e2e encrypted messaging. This means your messages are encrypted in your browser, and they are only decrypted when they reach your recipients browser. The messages disappear permanently once both browser windows have closed. You can never recover a throwaway chat; once the window is closed, it&#x27;s gone forever.<p>throwaway uses the SubtleCrypto Web API to create a public&#x2F;private key pair every time it is opened&#x2F;refreshed (ECDH P-521). You can invite a recipient to start a chat using the invite link; automatically generated when you land on the page. Once a recipient has clicked on the invite link, throwaway generates them a key pair too. The public keys are shared so each user can derive symmetric keys (AES-GCM 256, forward secrecy) to encrypt messages that can only be decrypted by their recipients symmetric key. The private keys and derived symmetric keys never leave the browser window they were created in.<p>All ideas&#x2F;thoughts&#x2F;critiques welcome, thanks!",
       "time": 1646904061,
@@ -83,26 +107,6 @@
       "title": "Skew Binary Number System",
       "type": "story",
       "url": "https://en.wikipedia.org/wiki/Skew_binary_number_system"
-    },
-    {
-      "by": "copperwater69",
-      "descendants": 0,
-      "id": 30624833,
-      "score": 1,
-      "time": 1646903294,
-      "title": "Elden Ring supports ultrawide resolutions but hides with black bars for fairness",
-      "type": "story",
-      "url": "https://old.reddit.com/r/ultrawidemasterrace/comments/t5bmef/elden_ring_does_support_ultrawide_resolutions_the/"
-    },
-    {
-      "by": "rbanffy",
-      "descendants": 0,
-      "id": 30624826,
-      "score": 2,
-      "time": 1646903261,
-      "title": "Miscalculation and Myopia in Moscow: Understanding Russia’s Regime Change Folly",
-      "type": "story",
-      "url": "https://mwi.usma.edu/miscalculation-and-myopia-in-moscow-understanding-russias-regime-change-folly/"
     }
   ]
 }
