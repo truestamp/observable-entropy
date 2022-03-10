@@ -1,10 +1,54 @@
 {
   "stories": [
     {
+      "by": "rustoo",
+      "descendants": 0,
+      "id": 30624954,
+      "score": 1,
+      "time": 1646904266,
+      "title": "Terrible apps could hurt banks more than NPAs do. Here’s why.",
+      "type": "story",
+      "url": "https://longandshort.substack.com/p/terrible-apps-could-hurt-banks-more"
+    },
+    {
+      "by": "wjSgoWPm5bWAhXB",
+      "descendants": 0,
+      "id": 30624951,
+      "score": 1,
+      "time": 1646904241,
+      "title": "Directly converting CO2 into a gasoline fuel",
+      "type": "story",
+      "url": "https://www.nature.com/articles/ncomms15174"
+    },
+    {
+      "by": "trungld",
+      "descendants": 1,
+      "id": 30624939,
+      "kids": [
+        30624953
+      ],
+      "score": 1,
+      "time": 1646904200,
+      "title": "Show HN: Real-Time Collaborative VTK Visualization with JupyterLab",
+      "type": "story",
+      "url": "https://github.com/trungleduc/jupyterview"
+    },
+    {
+      "by": "macondorivers",
+      "descendants": 0,
+      "id": 30624920,
+      "score": 2,
+      "text": "Hi HN!<p>Keen to get your thoughts on an encrypted messaging app I&#x27;ve made:<p>throwaway is an in-browser messaging app. It&#x27;s specifically for single-use, one-to-one, e2e encrypted messaging. This means your messages are encrypted in your browser, and they are only decrypted when they reach your recipients browser. The messages disappear permanently once both browser windows have closed. You can never recover a throwaway chat; once the window is closed, it&#x27;s gone forever.<p>throwaway uses the SubtleCrypto Web API to create a public&#x2F;private key pair every time it is opened&#x2F;refreshed (ECDH P-521). You can invite a recipient to start a chat using the invite link; automatically generated when you land on the page. Once a recipient has clicked on the invite link, throwaway generates them a key pair too. The public keys are shared so each user can derive symmetric keys (AES-GCM 256, forward secrecy) to encrypt messages that can only be decrypted by their recipients symmetric key. The private keys and derived symmetric keys never leave the browser window they were created in.<p>All ideas&#x2F;thoughts&#x2F;critiques welcome, thanks!",
+      "time": 1646904061,
+      "title": "Show HN: Throwaway – single-use, 1-1, e2e encrypted messaging (in-browser)",
+      "type": "story",
+      "url": "https://throwaway.sh/"
+    },
+    {
       "by": "cfcfcf",
       "descendants": 0,
       "id": 30624867,
-      "score": 1,
+      "score": 2,
       "time": 1646903543,
       "title": "Weedin Place Fallout Shelter",
       "type": "story",
@@ -59,49 +103,6 @@
       "title": "Miscalculation and Myopia in Moscow: Understanding Russia’s Regime Change Folly",
       "type": "story",
       "url": "https://mwi.usma.edu/miscalculation-and-myopia-in-moscow-understanding-russias-regime-change-folly/"
-    },
-    {
-      "by": "shahraz",
-      "descendants": 0,
-      "id": 30624808,
-      "score": 1,
-      "time": 1646903167,
-      "title": "Idyllic Life with Splendid Views at Six Senses Residences Dubai",
-      "type": "story",
-      "url": "https://www.linkedin.com/pulse/idyllic-life-splendid-views-six-senses-residences-dubai-al-ahmed"
-    },
-    {
-      "by": "codeulike",
-      "descendants": 0,
-      "id": 30624773,
-      "kids": [
-        30624854
-      ],
-      "score": 4,
-      "time": 1646902868,
-      "title": "Gender Pay Gap Bot",
-      "type": "story",
-      "url": "https://twitter.com/PayGapApp"
-    },
-    {
-      "by": "Santosh83",
-      "descendants": 0,
-      "id": 30624768,
-      "score": 5,
-      "time": 1646902820,
-      "title": "Firefox 98 resets your download options without warning",
-      "type": "story",
-      "url": "https://www.mozilla.org/en-US/firefox/98.0/releasenotes/"
-    },
-    {
-      "by": "corentin88",
-      "descendants": 0,
-      "id": 30624753,
-      "score": 2,
-      "text": "I&#x27;ve seen that the Stripe SDK for JavaScript makes requests to https:&#x2F;&#x2F;stripe.network. Opening this URL downloads a .DMS file. Anyone aware of what this is about?",
-      "time": 1646902655,
-      "title": "Tell HN: Stripe.network",
-      "type": "story"
     }
   ]
 }
