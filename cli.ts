@@ -1,5 +1,4 @@
 import { createHash } from "https://deno.land/std@0.98.0/hash/mod.ts";
-import { crypto } from "https://deno.land/std@0.129.0/crypto/mod.ts";
 import { Status } from "https://deno.land/std@0.129.0/http/http_status.ts"
 import { parse } from "https://deno.land/std@0.129.0/flags/mod.ts";
 import { ensureDirSync } from "https://deno.land/std@0.129.0/fs/mod.ts";
