@@ -1,11 +1,8 @@
 import { parse } from "https://deno.land/std@0.98.0/flags/mod.ts";
-import {
-  ensureDirSync,
-  existsSync,
-} from "https://deno.land/std@0.98.0/fs/mod.ts";
 import { createHash } from "https://deno.land/std@0.98.0/hash/mod.ts";
 import { assertObjectMatch } from "https://deno.land/std@0.98.0/testing/asserts.ts";
 import { Status } from "https://deno.land/std@0.129.0/http/http_status.ts"
+import { ensureDirSync } from "https://deno.land/std@0.129.0/fs/mod.ts";
 
 import { retryAsync, isTooManyTries } from "https://deno.land/x/retry@v2.0.0/mod.ts";
 
@@ -45,9 +42,15 @@ type Entropy = {
   createdAt?: string;
 };
 
-async function readJSON(path: string) {
-  const text = await Deno.readTextFile(path);
-  return JSON.parse(text);
+// deno-lint-ignore no-explicit-any
+async function readJSON(path: string): Promise<any | undefined> {
+  try {
+    const text = await Deno.readTextFile(path);
+    return JSON.parse(text);
+  } catch (_error) {
+    // console.error(_error);
+    return undefined;
+  }
 }
 
 // Get JSON from a URL with a timeout
@@ -192,11 +195,8 @@ const genEntropy = async (): Promise<Entropy> => {
     entropy.signature = hashSig;
   }
 
-  let prevEntropy;
-  if (existsSync(PREV_ENTROPY_FILE)) {
-    prevEntropy = await readJSON(PREV_ENTROPY_FILE);
-    entropy.prevHash = prevEntropy?.hash;
-  }
+  const prevEntropy = await readJSON(PREV_ENTROPY_FILE);
+  entropy.prevHash = prevEntropy?.hash;
 
   console.log(JSON.stringify(entropy, null, 2));
   return entropy;
@@ -529,7 +529,7 @@ if (parsedArgs["collect"] || parsedArgs["collect-hn"]) {
 // --entropy-generate
 if (parsedArgs["entropy-generate"]) {
   // Copy existing entropy file to prev version
-  if (existsSync(ENTROPY_FILE)) {
+  if (await readJSON(ENTROPY_FILE)) {
     Deno.copyFileSync(ENTROPY_FILE, PREV_ENTROPY_FILE);
     console.log(`entropy : copied to '${PREV_ENTROPY_FILE}'`);
   }
@@ -543,11 +543,12 @@ if (parsedArgs["entropy-generate"]) {
 // --entropy-verify
 if (parsedArgs["entropy-verify"]) {
   // Compare newly calculated results to what's already been written (excluding the createdAt property)
-  if (!existsSync(ENTROPY_FILE)) {
+
+  const currentEntropy = await readJSON(ENTROPY_FILE);
+  if (!currentEntropy) {
     throw new Error(`required file '${ENTROPY_FILE}' not found`);
   }
 
-  const currentEntropy = await readJSON(ENTROPY_FILE);
   const publicKey = await getPublicKey();
 
   if (!publicKey) {
@@ -584,8 +585,8 @@ if (parsedArgs["entropy-index"]) {
   }
 
   // Can't index without a previous file which contains the hash to index to
-  if (existsSync(PREV_ENTROPY_FILE)) {
-    const prevEntropy = await readJSON(PREV_ENTROPY_FILE);
+  const prevEntropy = await readJSON(PREV_ENTROPY_FILE);
+  if (prevEntropy) {
     const prevEntropyHash = prevEntropy?.hash;
 
     if (!prevEntropyHash || !SHA256_REGEX.test(prevEntropyHash)) {
@@ -613,29 +614,34 @@ if (parsedArgs["entropy-upload-kv"]) {
   const url = `https://api.cloudflare.com/client/v4/accounts/${accountIdentifier}/storage/kv/namespaces/${namespaceIdentifier}/values/${keyName}?expiration_ttl=${expirationTtl}`
   const entropyFile = await readJSON(ENTROPY_FILE)
 
-  let json
-  try {
-    const response = await fetch(url, {
-      method: "PUT",
-      headers: {
-        "X-Auth-Email": authEmail,
-        "X-Auth-Key": authKey,
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify(entropyFile),
-    });
-    json = await response.json();
-  } catch (error) {
-    console.error(`entropy-upload-kv : ${error.message}`);
-  }
+  if (entropyFile) {
+    let json
+    try {
+      const response = await fetch(url, {
+        method: "PUT",
+        headers: {
+          "X-Auth-Email": authEmail,
+          "X-Auth-Key": authKey,
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(entropyFile),
+      });
+      json = await response.json();
+    } catch (error) {
+      console.error(`entropy-upload-kv : ${error.message}`);
+    }
 
-  if (json.success) {
-    console.log(
-      `entropy-upload-kv : success : latest entropy.json file written to Cloudflare KV : ${JSON.stringify(json)}`,
-    );
+    if (json.success) {
+      // FIXME : call BetterUptime heartbeat to log successful completion
+      console.log(
+        `entropy-upload-kv : success : latest entropy.json file written to Cloudflare KV : ${JSON.stringify(json)}`,
+      );
+    } else {
+      console.log(
+        `entropy-upload-kv : failed : latest entropy.json file was NOT written to Cloudflare KV : ${JSON.stringify(json)}`,
+      );
+    }
   } else {
-    console.log(
-      `entropy-upload-kv : failed : latest entropy.json file was NOT written to Cloudflare KV : ${JSON.stringify(json)}`,
-    );
+    console.log(`entropy-upload-kv : failed : unable to read entropy file`)
   }
 }
