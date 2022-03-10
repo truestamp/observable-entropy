@@ -1,26 +1,30 @@
 {
   "headers": {
-    "cf-cache-status": "HIT",
-    "x-served-by": "cache-fra19175-FRA, cache-bwi5056-BWI",
-    "cross-origin-resource-policy": "cross-origin",
-    "age": "650518",
-    "content-type": "application/javascript; charset=utf-8",
-    "etag": "W/\"339-T2wRxoPfFNFFdTLjXpMIlSskUpI\"",
-    "access-control-expose-headers": "*",
     "x-jsd-version": "0.2.0",
-    "date": "Mon, 05 Jul 2021 15:41:35 GMT",
-    "x-cache": "MISS, HIT",
-    "expect-ct": "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+    "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
     "vary": "Accept-Encoding",
     "x-content-type-options": "nosniff",
     "cache-control": "public, max-age=31536000, s-maxage=31536000, immutable",
-    "cf-ray": "66a1b2c97d335c5e-IAD",
+    "fastly-original-body-size": "825",
+    "expect-ct": "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+    "cross-origin-resource-policy": "cross-origin",
     "access-control-allow-origin": "*",
-    "timing-allow-origin": "*",
-    "x-jsd-version-type": "version",
+    "access-control-expose-headers": "*",
+    "x-served-by": "cache-fra19143-FRA, cache-iad-kiad7000092-IAD",
+    "cf-cache-status": "MISS",
+    "cf-ray": "6e9ee62b09f65791-IAD",
+    "alt-svc": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400",
+    "content-type": "application/javascript; charset=utf-8",
+    "date": "Thu, 10 Mar 2022 20:46:19 GMT",
+    "etag": "W/\"339-T2wRxoPfFNFFdTLjXpMIlSskUpI\"",
     "server": "cloudflare",
-    "alt-svc": "h3-27=\":443\"; ma=86400, h3-28=\":443\"; ma=86400, h3-29=\":443\"; ma=86400, h3=\":443\"; ma=86400",
-    "strict-transport-security": "max-age=31536000; includeSubDomains; preload"
+    "x-cache": "MISS, HIT",
+    "timing-allow-origin": "*",
+    "x-jsd-version-type": "version"
   },
-  "url": "https://cdn.jsdelivr.net/npm/drand-client@0.2.0/chain.js"
+  "url": "https://cdn.jsdelivr.net/npm/drand-client@0.2.0/chain.js",
+  "now": {
+    "secs_since_epoch": 1646945179,
+    "nanos_since_epoch": 512226000
+  }
 }

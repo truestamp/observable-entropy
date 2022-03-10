@@ -1,26 +1,30 @@
 {
   "headers": {
-    "alt-svc": "h3-27=\":443\"; ma=86400, h3-28=\":443\"; ma=86400, h3-29=\":443\"; ma=86400, h3=\":443\"; ma=86400",
+    "x-jsd-version": "0.2.0",
+    "access-control-allow-origin": "*",
+    "content-type": "application/javascript; charset=utf-8",
+    "access-control-expose-headers": "*",
+    "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
     "cross-origin-resource-policy": "cross-origin",
     "etag": "W/\"42d9-t5hmk7EQtRSUPeWZpcgRDln/e1A\"",
-    "expect-ct": "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
-    "x-jsd-version-type": "version",
-    "vary": "Accept-Encoding",
-    "server": "cloudflare",
-    "cf-ray": "66a1b2c95d0b5c5e-IAD",
-    "access-control-allow-origin": "*",
-    "cache-control": "public, max-age=31536000, s-maxage=31536000, immutable",
-    "date": "Mon, 05 Jul 2021 15:41:35 GMT",
-    "access-control-expose-headers": "*",
-    "x-jsd-version": "0.2.0",
+    "x-cache": "MISS, HIT",
+    "alt-svc": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400",
+    "date": "Thu, 10 Mar 2022 20:46:19 GMT",
     "x-content-type-options": "nosniff",
-    "x-served-by": "cache-fra19137-FRA, cache-bwi5059-BWI",
-    "cf-cache-status": "HIT",
+    "fastly-original-body-size": "4714",
+    "cf-ray": "6e9ee62cab555791-IAD",
+    "server": "cloudflare",
     "timing-allow-origin": "*",
-    "content-type": "application/javascript; charset=utf-8",
-    "age": "650518",
-    "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
-    "x-cache": "MISS, HIT"
+    "x-jsd-version-type": "version",
+    "cf-cache-status": "MISS",
+    "cache-control": "public, max-age=31536000, s-maxage=31536000, immutable",
+    "expect-ct": "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+    "x-served-by": "cache-fra19126-FRA, cache-iad-kiad7000030-IAD",
+    "vary": "Accept-Encoding"
   },
-  "url": "https://cdn.jsdelivr.net/npm/drand-client@0.2.0/wasm/wasm_exec.js"
+  "url": "https://cdn.jsdelivr.net/npm/drand-client@0.2.0/wasm/wasm_exec.js",
+  "now": {
+    "secs_since_epoch": 1646945179,
+    "nanos_since_epoch": 559283000
+  }
 }
