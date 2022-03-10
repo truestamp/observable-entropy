@@ -1,6 +1,27 @@
 {
   "stories": [
     {
+      "by": "nsoonhui",
+      "descendants": 0,
+      "id": 30625716,
+      "score": 1,
+      "time": 1646911471,
+      "title": "Math’s ‘Oldest Problem Ever’ Gets a New Answer",
+      "type": "story",
+      "url": "https://www.quantamagazine.org/maths-oldest-problem-ever-gets-a-new-answer-20220309/"
+    },
+    {
+      "by": "schille",
+      "descendants": 0,
+      "id": 30625699,
+      "score": 1,
+      "text": "Hi HN. I recently started a project to make development with Kubernetes more approachable: Gefyra. The idea is that developers run their development workloads in a dedicated Kubernetes cluster (potentially local, or anywhere). Gefyra rolls out a development infrastructure locally by managing a local Docker setup connected to the cluster. That gives all the convenient tools (such as debugger, code hot reloading, aso.) into the hands of the developer while using advanced Kubernetes patterns (for example sidecars for OAuth handling).\nI even created a website already. The source is located here: <a href=\"https:&#x2F;&#x2F;github.com&#x2F;Schille&#x2F;gefyra\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;Schille&#x2F;gefyra</a><p>I am looking for feedback on what development scenarios you would like to see supported in the future. What am I currently missing or what would be the most interesting use-case from your perspective?\nOf course it would be great if you had the motivation to try out Gefyra and let me know where in the setup process or documentation you may have gotten stuck or missed something in the documentation.<p>I hope that Kubernetes as a development platform would finally change the mindsets to create less monolithic applications and support the way of service-oriented thinking.<p>What do you think?",
+      "time": 1646911334,
+      "title": "Show HN: Open-source project for service development directly in Kubernetes",
+      "type": "story",
+      "url": "https://gefyra.dev/"
+    },
+    {
       "by": "cbzbc",
       "descendants": 0,
       "id": 30625684,
@@ -32,8 +53,11 @@
     },
     {
       "by": "somecommit",
-      "descendants": 0,
+      "descendants": 1,
       "id": 30625673,
+      "kids": [
+        30625708
+      ],
       "score": 1,
       "time": 1646911056,
       "title": "The Workplace Is Killing People and Nobody Cares (2018)",
@@ -77,34 +101,11 @@
       "by": "Tomte",
       "descendants": 0,
       "id": 30625586,
-      "score": 2,
+      "score": 3,
       "time": 1646910289,
       "title": "The Beginner's Guide to Intermittent Fasting",
       "type": "story",
       "url": "https://jamesclear.com/the-beginners-guide-to-intermittent-fasting"
-    },
-    {
-      "by": "Tomte",
-      "descendants": 0,
-      "id": 30625582,
-      "score": 1,
-      "time": 1646910261,
-      "title": "Self-Defense and the Law (2013)",
-      "type": "story",
-      "url": "https://www.samharris.org/blog/self-defense-and-the-law"
-    },
-    {
-      "by": "curtisblaine",
-      "descendants": 1,
-      "id": 30625560,
-      "kids": [
-        30625596
-      ],
-      "score": 2,
-      "time": 1646910134,
-      "title": "Why Lying in Russia Has Become a National Pastime",
-      "type": "story",
-      "url": "https://www.themoscowtimes.com/2012/10/22/why-lying-has-become-a-national-pastime-a18754"
     }
   ]
 }
