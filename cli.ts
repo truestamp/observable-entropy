@@ -1,4 +1,5 @@
 import { createHash } from "https://deno.land/std@0.98.0/hash/mod.ts";
+import { crypto } from "https://deno.land/std@0.129.0/crypto/mod.ts";
 import { Status } from "https://deno.land/std@0.129.0/http/http_status.ts"
 import { parse } from "https://deno.land/std@0.129.0/flags/mod.ts";
 import { ensureDirSync } from "https://deno.land/std@0.129.0/fs/mod.ts";
@@ -6,7 +7,7 @@ import { assertObjectMatch } from "https://deno.land/std@0.129.0/testing/asserts
 
 import { retryAsync, isTooManyTries } from "https://deno.land/x/retry@v2.0.0/mod.ts";
 
-import * as ed from "https://deno.land/x/ed25519@1.0.1/mod.ts";
+import * as ed from "https://deno.land/x/ed25519@1.6.0/mod.ts";
 
 import Client, { HTTP } from "https://cdn.jsdelivr.net/npm/drand-client@0.2.0/drand.js";
 
@@ -190,7 +191,7 @@ const genEntropy = async (): Promise<Entropy> => {
   let hashSig;
   if (parsedArgs["entropy-generate"]) {
     hashSig = await ed.sign(entropy.hash, getPrivateKey());
-    entropy.signature = hashSig;
+    entropy.signature = ed.utils.bytesToHex(hashSig);
   }
 
   const prevEntropy = await readJSON(PREV_ENTROPY_FILE);
