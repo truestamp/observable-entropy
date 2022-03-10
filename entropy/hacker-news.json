@@ -1,20 +1,43 @@
 {
   "stories": [
     {
-      "by": "punnerud",
-      "descendants": 0,
-      "id": 30632191,
-      "score": 1,
-      "time": 1646945082,
-      "title": "First impeachment was about Trump withholding javelins from President Zelensky",
+      "by": "pseudolus",
+      "descendants": 1,
+      "id": 30632218,
+      "kids": [
+        30632232
+      ],
+      "score": 2,
+      "time": 1646945240,
+      "title": "Rising gas prices force drivers to work for less than minimum wage",
       "type": "story",
-      "url": "https://twitter.com/brianschatz/status/1501751273665748995"
+      "url": "https://www.theguardian.com/us-news/2022/mar/10/gig-workers-gas-prices-california-uber-lyft"
+    },
+    {
+      "by": "JaggerB",
+      "descendants": 0,
+      "id": 30632206,
+      "score": 1,
+      "text": "Hi there,<p>Hope you are all well.<p>I have a bit of an odd request.<p>I am looking at getting an NFT smart contract created that has the mint functionality link an NFT to a verifiable credential issued to a decentralized identifier (outside of the smart contract) instead of just an IPFS link. So maybe even in the smart contract it would link to an IPFS JSON file which contains the credential information such as the metadata and image of the NFT as well as the DID it is associated with. But this would be static, which leads me to my next point.<p>Therefore, there needs to be a new functionality coded that will be executed when a transfer of an NFT occurs, the verifiable credential is revoked and reissued to the new holder.<p>Is this possible?",
+      "time": 1646945170,
+      "title": "Did Linked NFTs",
+      "type": "story"
+    },
+    {
+      "by": "YeGoblynQueenne",
+      "descendants": 0,
+      "id": 30632204,
+      "score": 1,
+      "time": 1646945162,
+      "title": "Jocelyn Bell discovered pulsars. The Nobel Prize went to her supervisor",
+      "type": "story",
+      "url": "https://aeon.co/videos/jocelyn-bell-discovered-pulsars-the-nobel-prize-went-to-her-supervisor"
     },
     {
       "by": "Tomte",
       "descendants": 0,
       "id": 30632154,
-      "score": 1,
+      "score": 2,
       "time": 1646944854,
       "title": "Convert Curl Commands to Code",
       "type": "story",
@@ -34,7 +57,7 @@
       "by": "hdivider",
       "descendants": 0,
       "id": 30632143,
-      "score": 2,
+      "score": 3,
       "time": 1646944792,
       "title": "DARPA developing new cognitive science tool to identify those at risk of suicide",
       "type": "story",
@@ -64,7 +87,7 @@
       "by": "YeGoblynQueenne",
       "descendants": 0,
       "id": 30632095,
-      "score": 1,
+      "score": 2,
       "time": 1646944560,
       "title": "An AI rejects him for life insurance, Mitch wonders if he can escape his fate",
       "type": "story",
@@ -79,29 +102,6 @@
       "title": "Princeton Crypto Alumni Give $20M for Blockchain Research",
       "type": "story",
       "url": "https://www.bloomberg.com/news/articles/2022-03-10/princeton-crypto-alumni-give-20-million-for-blockchain-research"
-    },
-    {
-      "by": "egea",
-      "descendants": 0,
-      "id": 30632038,
-      "score": 1,
-      "time": 1646944288,
-      "title": "Open-source RBAC library for GORM",
-      "type": "story",
-      "url": "https://github.com/Permify/permify-gorm"
-    },
-    {
-      "by": "pbowyer",
-      "descendants": 1,
-      "id": 30631993,
-      "kids": [
-        30632184
-      ],
-      "score": 2,
-      "text": "I&#x27;m using Mermaid, Excalidraw and PlantUML diagrams to explain and document what I&#x27;m working on and they work great and are a lot better than screens of prose, but I&#x27;ve become aware that something is missing: motion.<p>Animation brings a whole lot more to explanations, making simple explanations of how request coalescing works easy to understand, token simulations [0] through to helping explain concepts like Fresnel lenses [1]. Embedding them into GitHub READMEs, tweets and documentation would be awesome.<p>Google do it to illustrate posts (e.g. https:&#x2F;&#x2F;blog.chromium.org&#x2F;2021&#x2F;03&#x2F;a-safer-default-for-navigation-https.html).<p>I found Excalidraw Claymate [2] but the stop motion approach with no tweening support makes it painful to create animations where circles move from place to place. There&#x27;s also Manim [3] but I think this is more for maths.<p>Adobe Flash used to be the go-to; what do you reach for when you want to illustrate a concept with an animated diagram?<p>0. https:&#x2F;&#x2F;github.com&#x2F;bpmn-io&#x2F;bpmn-js-token-simulation<p>1. https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=30576688<p>2. https:&#x2F;&#x2F;github.com&#x2F;dai-shi&#x2F;excalidraw-claymate<p>3. https:&#x2F;&#x2F;github.com&#x2F;ManimCommunity&#x2F;manim",
-      "time": 1646944080,
-      "title": "Ask HN: How to quickly animate system sketches and 2D diagrams?",
-      "type": "story"
     }
   ]
 }
