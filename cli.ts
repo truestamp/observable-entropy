@@ -5,6 +5,7 @@ import {
 } from "https://deno.land/std@0.98.0/fs/mod.ts";
 import { createHash } from "https://deno.land/std@0.98.0/hash/mod.ts";
 import { assertObjectMatch } from "https://deno.land/std@0.98.0/testing/asserts.ts";
+import { Status } from "https://deno.land/std@0.129.0/http/http_status.ts"
 
 import { retryAsync, isTooManyTries } from "https://deno.land/x/retry@v2.0.0/mod.ts";
 
@@ -24,6 +25,7 @@ const HASH_ITERATIONS = 500000;
 const SHA1_REGEX = /^(?:(0x)*([A-Fa-f0-9]{2}){20})$/i;
 const SHA256_REGEX = /^(?:(0x)*([A-Fa-f0-9]{2}){32})$/i;
 const NOW = new Date();
+const GET_TIMEOUT = 5000;
 
 interface JSONFile {
   name: string;
@@ -48,10 +50,25 @@ async function readJSON(path: string) {
   return JSON.parse(text);
 }
 
-async function readJSONFromURL(url: string) {
-  const response = await fetch(url);
-  const json = await response.json();
-  return json;
+// Get JSON from a URL with a timeout
+// https://medium.com/deno-the-complete-reference/fetch-timeout-in-deno-91731bca80a1
+export async function get(url: string, timeout = GET_TIMEOUT) {
+  // deno-lint-ignore no-explicit-any
+  const ret: Record<string, any> = {};
+  try {
+    const c = new AbortController();
+    const id = setTimeout(() => c.abort(), timeout);
+    const res = await fetch(url, { signal: c.signal });
+    clearTimeout(id);
+    ret.ok = true;
+    ret.data = await res.json();
+  } catch (err) {
+    if (err instanceof DOMException && err.name === 'AbortError')
+      ret.err = Status.RequestTimeout;
+    else
+      ret.err = Status.ServiceUnavailable;
+  }
+  return ret;
 }
 
 async function writeJSON(path: string, data: Record<string, unknown>) {
@@ -72,9 +89,14 @@ async function getPublicKey(): Promise<string | undefined> {
   const publicKey = await retryAsync(
     async () => {
       console.log("verify : retrieve public key");
-      const publicKeyObj = await readJSONFromURL(
-        "https://entropy.truestamp.com/pubkey",
-      );
+
+      const resp = await get("https://entropy.truestamp.com/pubkey")
+      if (resp.err) {
+        throw new Error(`failed to fetch : status code ${resp.err}`);
+      }
+
+      const { data: publicKeyObj } = resp
+
       const publicKey = publicKeyObj?.key;
       if (!publicKey || publicKey === "") {
         throw new Error(
@@ -245,12 +267,16 @@ if (parsedArgs["collect"] || parsedArgs["collect-bitcoin"]) {
     await retryAsync(
       async () => {
         console.log("collect attempt : bitcoin");
-        const latestBlock = await readJSONFromURL(
-          "https://blockchain.info/latestblock",
-        );
+
+        const resp = await get("https://blockchain.info/latestblock")
+        if (resp.err) {
+          throw new Error(`failed to fetch : status code ${resp.err}`);
+        }
+
+        const { data } = resp
 
         // extract just the data we want
-        const { height, hash, time, block_index: blockIndex } = latestBlock;
+        const { height, hash, time, block_index: blockIndex } = data;
         ensureDirSync(ENTROPY_DIR);
         await writeJSON(`${ENTROPY_DIR}/bitcoin.json`, {
           height,
@@ -277,12 +303,16 @@ if (parsedArgs["collect"] || parsedArgs["collect-ethereum"]) {
     await retryAsync(
       async () => {
         console.log("collect attempt : ethereum");
-        const latestBlock = await readJSONFromURL(
-          "https://api.blockcypher.com/v1/eth/main",
-        );
+
+        const resp = await get("https://api.blockcypher.com/v1/eth/main")
+        if (resp.err) {
+          throw new Error(`failed to fetch : status code ${resp.err}`);
+        }
+
+        const { data } = resp
 
         ensureDirSync(ENTROPY_DIR);
-        await writeJSON(`${ENTROPY_DIR}/ethereum.json`, latestBlock);
+        await writeJSON(`${ENTROPY_DIR}/ethereum.json`, data);
       },
       { delay: 1000, maxTry: 3 },
     );
@@ -302,12 +332,16 @@ if (parsedArgs["collect"] || parsedArgs["collect-nist"]) {
     await retryAsync(
       async () => {
         console.log("collect attempt : nist-beacon");
-        const latestPulse = await readJSONFromURL(
-          "https://beacon.nist.gov/beacon/2.0/pulse/last",
-        );
+
+        const resp = await get("https://beacon.nist.gov/beacon/2.0/pulse/last")
+        if (resp.err) {
+          throw new Error(`failed to fetch : status code ${resp.err}`);
+        }
+
+        const { data } = resp
 
         ensureDirSync(ENTROPY_DIR);
-        await writeJSON(`${ENTROPY_DIR}/nist-beacon.json`, latestPulse);
+        await writeJSON(`${ENTROPY_DIR}/nist-beacon.json`, data);
       },
       { delay: 1000, maxTry: 3 },
     );
@@ -327,18 +361,22 @@ if (parsedArgs["collect"] || parsedArgs["collect-user-entropy"]) {
     await retryAsync(
       async () => {
         console.log("collect attempt : user-entropy");
-        const entries = await readJSONFromURL(
-          "https://entropy.truestamp.com/entries",
-        );
 
-        if (!Array.isArray(entries)) {
+        const resp = await get("https://entropy.truestamp.com/entries")
+        if (resp.err) {
+          throw new Error(`failed to fetch : status code ${resp.err}`);
+        }
+
+        const { data } = resp
+
+        if (!Array.isArray(data)) {
           throw new Error(
-            `collect attempt : user-entropy : expected Array, got ${entries}`,
+            `collect attempt : user-entropy : expected Array, got ${data}`,
           );
         }
 
         ensureDirSync(ENTROPY_DIR);
-        await writeJSON(`${ENTROPY_DIR}/user-entropy.json`, { entries });
+        await writeJSON(`${ENTROPY_DIR}/user-entropy.json`, { data });
       },
       { delay: 1000, maxTry: 3 },
     );
@@ -360,14 +398,21 @@ if (parsedArgs["collect"] || parsedArgs["collect-stellar"]) {
         console.log("collect attempt : stellar");
         // Retrieve the last ledger ID.
         // curl -X GET "https://horizon.stellar.org/fee_stats" > stellar-fee-stats.json
-        const feeStats = await readJSONFromURL(
-          "https://horizon.stellar.org/fee_stats",
-        );
+
+        const respStats = await get("https://horizon.stellar.org/fee_stats")
+        if (respStats.err) {
+          throw new Error(`failed to fetch : status code ${respStats.err}`);
+        }
+
+        const { data: feeStats } = respStats
 
         // Read the ledger for last ledger ID
-        const latestLedger = await readJSONFromURL(
-          `https://horizon.stellar.org/ledgers/${feeStats.last_ledger}`,
-        );
+        const respLedger = await get(`https://horizon.stellar.org/ledgers/${feeStats.last_ledger}`)
+        if (respLedger.err) {
+          throw new Error(`failed to fetch : status code ${respLedger.err}`);
+        }
+
+        const { data: latestLedger } = respLedger
 
         ensureDirSync(ENTROPY_DIR);
         await writeJSON(`${ENTROPY_DIR}/stellar.json`, latestLedger);
@@ -398,9 +443,12 @@ if (parsedArgs["collect"] || parsedArgs["collect-drand"]) {
           "https://drand.cloudflare.com",
         ];
 
-        const chainInfo = await readJSONFromURL(
-          "https://drand.cloudflare.com/info",
-        );
+        const resp = await get("https://drand.cloudflare.com/info")
+        if (resp.err) {
+          throw new Error(`failed to fetch : status code ${resp.err}`);
+        }
+
+        const { data: chainInfo } = resp
 
         const options = { chainInfo };
 
@@ -439,16 +487,23 @@ if (parsedArgs["collect"] || parsedArgs["collect-hn"]) {
     await retryAsync(
       async () => {
         console.log("collect attempt : hacker-news");
-        const newsStories = await readJSONFromURL(
-          "https://hacker-news.firebaseio.com/v0/newstories.json",
-        );
+
+        const resp = await get("https://hacker-news.firebaseio.com/v0/newstories.json")
+        if (resp.err) {
+          throw new Error(`failed to fetch : status code ${resp.err}`);
+        }
+
+        const { data: newsStories } = resp
 
         const stories = [];
 
         for (let i = 0; i < 10; i++) {
-          const story = await readJSONFromURL(
-            `https://hacker-news.firebaseio.com/v0/item/${newsStories[i]}.json`,
-          );
+          const respStory = await get(`https://hacker-news.firebaseio.com/v0/item/${newsStories[i]}.json`)
+          if (respStory.err) {
+            throw new Error(`failed to fetch : status code ${respStory.err}`);
+          }
+
+          const { data: story } = respStory
 
           stories.push(story);
         }
