@@ -6,7 +6,7 @@ import {
 import { createHash } from "https://deno.land/std@0.98.0/hash/mod.ts";
 import { assertObjectMatch } from "https://deno.land/std@0.98.0/testing/asserts.ts";
 
-import { retryAsync } from "https://deno.land/x/retry@v2.0.0/mod.ts";
+import { retryAsync, isTooManyTries } from "https://deno.land/x/retry@v2.0.0/mod.ts";
 
 import * as ed from "https://deno.land/x/ed25519@1.0.1/mod.ts";
 
@@ -83,7 +83,7 @@ async function getPublicKey(): Promise<string | undefined> {
       }
       return publicKey;
     },
-    { delay: 1000, maxTry: 5 },
+    { delay: 1000, maxTry: 3 },
   );
 
   return publicKey;
@@ -235,7 +235,7 @@ if (parsedArgs["collect"] || parsedArgs["collect-timestamp"]) {
         timestamp: NOW.toISOString(),
       });
     },
-    { delay: 1000, maxTry: 5 },
+    { delay: 1000, maxTry: 3 },
   );
 }
 
@@ -259,10 +259,15 @@ if (parsedArgs["collect"] || parsedArgs["collect-bitcoin"]) {
           blockIndex,
         });
       },
-      { delay: 1000, maxTry: 5 },
+      { delay: 1000, maxTry: 3 },
     );
   } catch (error) {
-    console.error(`collect failed : ${error.message}`);
+    if (isTooManyTries(error)) {
+      // Did not collect after 'maxTry' calls
+      console.error(`collect bitcoin tooManyTries : ${error.message}`);
+    } else {
+      console.error(`collect bitcoin failed : ${error.message}`);
+    }
   }
 }
 
@@ -279,10 +284,15 @@ if (parsedArgs["collect"] || parsedArgs["collect-ethereum"]) {
         ensureDirSync(ENTROPY_DIR);
         await writeJSON(`${ENTROPY_DIR}/ethereum.json`, latestBlock);
       },
-      { delay: 1000, maxTry: 5 },
+      { delay: 1000, maxTry: 3 },
     );
   } catch (error) {
-    console.error(`collect failed : ${error.message}`);
+    if (isTooManyTries(error)) {
+      // Did not collect after 'maxTry' calls
+      console.error(`collect ethereum tooManyTries : ${error.message}`);
+    } else {
+      console.error(`collect ethereum failed : ${error.message}`);
+    }
   }
 }
 
@@ -299,10 +309,15 @@ if (parsedArgs["collect"] || parsedArgs["collect-nist"]) {
         ensureDirSync(ENTROPY_DIR);
         await writeJSON(`${ENTROPY_DIR}/nist-beacon.json`, latestPulse);
       },
-      { delay: 1000, maxTry: 5 },
+      { delay: 1000, maxTry: 3 },
     );
   } catch (error) {
-    console.error(`collect failed : ${error.message}`);
+    if (isTooManyTries(error)) {
+      // Did not collect after 'maxTry' calls
+      console.error(`collect nist-beacon tooManyTries : ${error.message}`);
+    } else {
+      console.error(`collect nist-beacon failed : ${error.message}`);
+    }
   }
 }
 
@@ -325,10 +340,15 @@ if (parsedArgs["collect"] || parsedArgs["collect-user-entropy"]) {
         ensureDirSync(ENTROPY_DIR);
         await writeJSON(`${ENTROPY_DIR}/user-entropy.json`, { entries });
       },
-      { delay: 1000, maxTry: 5 },
+      { delay: 1000, maxTry: 3 },
     );
   } catch (error) {
-    console.error(`collect failed : ${error.message}`);
+    if (isTooManyTries(error)) {
+      // Did not collect after 'maxTry' calls
+      console.error(`collect user-entropy tooManyTries : ${error.message}`);
+    } else {
+      console.error(`collect user-entropy failed : ${error.message}`);
+    }
   }
 }
 
@@ -352,10 +372,15 @@ if (parsedArgs["collect"] || parsedArgs["collect-stellar"]) {
         ensureDirSync(ENTROPY_DIR);
         await writeJSON(`${ENTROPY_DIR}/stellar.json`, latestLedger);
       },
-      { delay: 1000, maxTry: 5 },
+      { delay: 1000, maxTry: 3 },
     );
   } catch (error) {
-    console.error(`collect failed : ${error.message}`);
+    if (isTooManyTries(error)) {
+      // Did not collect after 'maxTry' calls
+      console.error(`collect stellar tooManyTries : ${error.message}`);
+    } else {
+      console.error(`collect stellar failed : ${error.message}`);
+    }
   }
 }
 
@@ -394,10 +419,15 @@ if (parsedArgs["collect"] || parsedArgs["collect-drand"]) {
           randomness,
         });
       },
-      { delay: 1000, maxTry: 5 },
+      { delay: 1000, maxTry: 3 },
     );
   } catch (error) {
-    console.error(`collect failed : ${error.message}`);
+    if (isTooManyTries(error)) {
+      // Did not collect after 'maxTry' calls
+      console.error(`collect drand tooManyTries : ${error.message}`);
+    } else {
+      console.error(`collect drand failed : ${error.message}`);
+    }
   }
 }
 
@@ -426,10 +456,15 @@ if (parsedArgs["collect"] || parsedArgs["collect-hn"]) {
         ensureDirSync(ENTROPY_DIR);
         await writeJSON(`${ENTROPY_DIR}/hacker-news.json`, { stories });
       },
-      { delay: 1000, maxTry: 5 },
+      { delay: 1000, maxTry: 3 },
     );
   } catch (error) {
-    console.error(`collect failed : ${error.message}`);
+    if (isTooManyTries(error)) {
+      // Did not collect after 'maxTry' calls
+      console.error(`collect hacker news tooManyTries : ${error.message}`);
+    } else {
+      console.error(`collect hacker news failed : ${error.message}`);
+    }
   }
 }
 
