@@ -8,9 +8,7 @@ import { retryAsync, isTooManyTries } from "https://deno.land/x/retry@v2.0.0/mod
 
 import * as ed from "https://deno.land/x/ed25519@1.0.1/mod.ts";
 
-import Client, {
-  HTTP,
-} from "https://cdn.jsdelivr.net/npm/drand-client@0.2.0/drand.js";
+import Client, { HTTP } from "https://cdn.jsdelivr.net/npm/drand-client@0.2.0/drand.js";
 
 const DENO_LOCK_FILE = "lock.json";
 const ENTROPY_FILE = "entropy.json";
