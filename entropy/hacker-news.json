@@ -1,10 +1,30 @@
 {
   "stories": [
     {
+      "by": "WolfOliver",
+      "descendants": 0,
+      "id": 30644755,
+      "score": 2,
+      "time": 1647026491,
+      "title": "Challenging the Single-Responsibility-Principle",
+      "type": "story",
+      "url": "https://linkedrecords.com/challenging-the-single-responsibility-principle-9800f39c186f?gi=726ed7756abe"
+    },
+    {
+      "by": "hahnchen",
+      "descendants": 0,
+      "id": 30644748,
+      "score": 1,
+      "text": "I&#x27;m a university student and think it&#x27;s a good idea to attend programming conferences. Anyone know any in person conferences in the Bay Area coming soon? Or, some good app to filter them?",
+      "time": 1647026468,
+      "title": "Ask HN: How to Find in Person Conferences?",
+      "type": "story"
+    },
+    {
       "by": "superasn",
       "descendants": 0,
       "id": 30644696,
-      "score": 1,
+      "score": 2,
       "time": 1647026227,
       "title": "Record, replay and measure user flows",
       "type": "story",
@@ -44,7 +64,7 @@
       "by": "bookofjoe",
       "descendants": 0,
       "id": 30644642,
-      "score": 1,
+      "score": 2,
       "time": 1647025957,
       "title": "The Kekule problem: Where did language come from?",
       "type": "story",
@@ -74,31 +94,11 @@
       "by": "robotarchitect",
       "descendants": 0,
       "id": 30644618,
-      "score": 1,
+      "score": 2,
       "text": "Hello everyone. I&#x27;m looking for a platform to do stateful frame-by-frame(sequential) processing of data.<p>Modern stream processing engines tend to focus on parallel processing of big data. This is great when the desired results are calculated from aggregates over the entire set or subset(filtered) of the whole dataset. In contrast to this I need to process data sequentially, where a change from one row to the next has meaning and changes what has to be done next. All data is time-series data. As an example, imagine a video game generating the results according to the current situation and the inputs of the player. Spark kind of allows this with e.g. mapGroupsWithState(), but I believe it&#x27;s not what it&#x27;s designed for, as this case doesn&#x27;t need distributing data across a cluster to do processing on(because as data needs to be processed sequentially,it should benefit from holding the state in one place and passing all data through a single point of processing close to that state). I&#x27;ve looked at flink but I didn&#x27;t find anything related to stream processing frame-by-frame.<p>Is anything out there for solving this type of problems? I don&#x27;t want to re-invent the wheel.<p>Thank you.",
       "time": 1647025858,
       "title": "Platform for stateful frame-by-frame processing",
       "type": "story"
-    },
-    {
-      "by": "luu",
-      "descendants": 0,
-      "id": 30644590,
-      "score": 1,
-      "time": 1647025726,
-      "title": "Geometric proof that the mediant lies between its arguments",
-      "type": "story",
-      "url": "https://blog.plover.com/math/mediant.html"
-    },
-    {
-      "by": "luu",
-      "descendants": 0,
-      "id": 30644581,
-      "score": 2,
-      "time": 1647025703,
-      "title": "Invest in Teachers",
-      "type": "story",
-      "url": "https://www.vox.com/future-perfect/21552985/improve-schools-invest-in-teachers"
     }
   ]
 }
