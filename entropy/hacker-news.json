@@ -1,10 +1,74 @@
 {
   "stories": [
     {
-      "by": "croes",
+      "by": "tentacleuno",
       "descendants": 0,
-      "id": 30639159,
+      "id": 30639183,
       "score": 1,
+      "time": 1647003176,
+      "title": "Ola faces backlash over its '8 missed calls from mom' ad",
+      "type": "story",
+      "url": "https://www.bignewsnetwork.com/news/272379674/ola-faces-backlash-over-its-8-missed-calls-from-mom-ad"
+    },
+    {
+      "by": "some1else",
+      "descendants": 0,
+      "id": 30639181,
+      "score": 2,
+      "time": 1647003172,
+      "title": "Barrier: Share mouse and keyboard between computers",
+      "type": "story",
+      "url": "https://github.com/debauchee/barrier"
+    },
+    {
+      "by": "RickJWagner",
+      "descendants": 0,
+      "id": 30639173,
+      "score": 1,
+      "time": 1647003111,
+      "title": "The Linux Foundation’s Open Source Stack for EV Charging Infrastructure",
+      "type": "story",
+      "url": "https://thenewstack.io/the-linux-foundations-open-source-stack-for-ev-charging-infrastructure/"
+    },
+    {
+      "by": "News-Dog",
+      "descendants": 0,
+      "id": 30639169,
+      "score": 2,
+      "time": 1647003082,
+      "title": "China locks-down a City of 9Mil amid a new-spike in Covid-19 cases",
+      "type": "story",
+      "url": "https://text.npr.org/1085985036"
+    },
+    {
+      "by": "cwwc",
+      "descendants": 0,
+      "id": 30639166,
+      "score": 1,
+      "time": 1647003038,
+      "title": "U.S., G7 allies may strip Russia of 'most favored nation' status",
+      "type": "story",
+      "url": "https://www.reuters.com/business/biden-call-an-end-normal-trade-relations-with-russia-increased-tariffs-russian-2022-03-11/"
+    },
+    {
+      "by": "gdaramouskas",
+      "descendants": 0,
+      "id": 30639160,
+      "score": 1,
+      "time": 1647002995,
+      "title": "Show HN: Google Maps Shadow Calculator",
+      "type": "story",
+      "url": "http://shadowcalculator.eu/"
+    },
+    {
+      "by": "croes",
+      "descendants": 2,
+      "id": 30639159,
+      "kids": [
+        30639187,
+        30639194
+      ],
+      "score": 13,
       "time": 1647002989,
       "title": "Israel's Knesset passes law barring Palestinian spouses",
       "type": "story",
@@ -39,67 +103,6 @@
       "title": "Read a Node.js stream using async/await",
       "type": "story",
       "url": "https://www.nodejsdesignpatterns.com/blog/node-js-stream-consumer/"
-    },
-    {
-      "by": "tosh",
-      "descendants": 0,
-      "id": 30639136,
-      "score": 1,
-      "time": 1647002816,
-      "title": "Military drone likely flying from Ukraine crashes in Croatia",
-      "type": "story",
-      "url": "https://www.aljazeera.com/news/2022/3/11/military-drone-likely-flying-from-ukraine-crashes-in-croatia"
-    },
-    {
-      "by": "nathanwallace",
-      "descendants": 0,
-      "id": 30639125,
-      "score": 8,
-      "time": 1647002747,
-      "title": "Dashboards as Code with HCL and SQL",
-      "type": "story",
-      "url": "https://steampipe.io/blog/dashboards-as-code"
-    },
-    {
-      "by": "giuliomagnifico",
-      "descendants": 0,
-      "id": 30639123,
-      "score": 1,
-      "time": 1647002731,
-      "title": "Tech behind Apple's M1 UltraFusion chip interconnect: TSMC's CoWoS-S",
-      "type": "story",
-      "url": "https://www.tomshardware.com/news/apple-uses-cowos-s-to-build-m1-ultra"
-    },
-    {
-      "by": "stichers",
-      "descendants": 0,
-      "id": 30639115,
-      "score": 1,
-      "time": 1647002680,
-      "title": "Climate change won’t wait for future innovation – we need action now",
-      "type": "story",
-      "url": "https://www.nature.com/articles/d41586-022-00560-2"
-    },
-    {
-      "by": "pradeepb28",
-      "descendants": 0,
-      "id": 30639109,
-      "score": 1,
-      "text": "The majority of micro-influencers and influencers know how to game the system (the Twitter algorithm) to increase the reach of their content by doing many tricks such as having their inner circle start creating immediate engagement, using popular hashtags, talking about the popular trend of the day, and so on. One thing these twitterratis have in common is that they seek out the best stuff, game it, and remix it in their own unique style.\nStarted digging into finding answers, how do they find out the best content - Follow few people(mostly prolific users), learn from their tweets - Follow lists, learn from their tweets and topics - Find any content, conversations, trends via Twitter search<p>While the first two options seems to be straightforward, Twitter search appears to be more intriguing to me. The more I look into it, the more I realize that Twitter search is a gold mine for finding the greatest content from certain individuals, conversations between two users, users that continuously tweeting around a hashtag, and many other things. As an example:<p>I wanted to find out what Elon musk was tweeting about dogecoin in 2020, here is the query<p>dogecoin (#dogecoin) from:elonmusk since_date: 2020&#x2F;01&#x2F;01<p>I wanted to find out what conversations were happened between Jack and Elon Musk around crypto currency last year, here is the query<p>(crypto OR cryptocurrency OR bitcoin) from:elonmusk to:jack since_date: 2020&#x2F;01&#x2F;01 until_date:2020&#x2F;12&#x2F;31<p>My initial impression was that it is a search, and one can benefit from it only if they know what search parameters to use. It appears that Twitter does not expose all the search parameters to users unless you know what all parameters are available and how to use them (which requires some learning), and it is not even available on the mobile app.<p>To scratch my itch, I created Bird search for mobile and desktop. My goal was for everyone to find content on Twitter easily without the need to learn search operators at all. I reverse engineered how Twitter search works and tried to expose all the search parameters(they are more parameters yet to be done). For instance, here is what all search operators being used on Twitter<p>App page: <a href=\"https:&#x2F;&#x2F;photos.google.com&#x2F;share&#x2F;AF1QipOIGQkHpqWMtQU1KvwydBdn\" rel=\"nofollow\">https:&#x2F;&#x2F;photos.google.com&#x2F;share&#x2F;AF1QipOIGQkHpqWMtQU1KvwydBdn</a>...<p>Search operators available on Twitter <a href=\"https:&#x2F;&#x2F;photos.google.com&#x2F;share&#x2F;AF1QipNHTkWjxlcMzpCd7m9m6hBF\" rel=\"nofollow\">https:&#x2F;&#x2F;photos.google.com&#x2F;share&#x2F;AF1QipNHTkWjxlcMzpCd7m9m6hBF</a>...<p>You can find tweets based on - Content - words - Conversations - discussion between two users - etc<p>You can narrow down your search to - Verified users, lists, people you follow - Specific date range - Filter: media only, links only ,photos only &amp; videos only. - etc<p>There is no other social platform that allows you to access such content from the archive, which is why Twitter&#x27;s search functionality is so unique. It&#x27;s amazing to watch how people utilize Twitter for so many different things.<p>To inspire others what type of content one can search for, I introduced “Discover” section <a href=\"https:&#x2F;&#x2F;photos.app.goo.gl&#x2F;9dJvtu1K7XfFynzD7\" rel=\"nofollow\">https:&#x2F;&#x2F;photos.app.goo.gl&#x2F;9dJvtu1K7XfFynzD7</a> <a href=\"https:&#x2F;&#x2F;photos.app.goo.gl&#x2F;MvvwikcK2Y37ynLz8\" rel=\"nofollow\">https:&#x2F;&#x2F;photos.app.goo.gl&#x2F;MvvwikcK2Y37ynLz8</a> <a href=\"https:&#x2F;&#x2F;photos.app.goo.gl&#x2F;GBzndG9NszDLSfgGA\" rel=\"nofollow\">https:&#x2F;&#x2F;photos.app.goo.gl&#x2F;GBzndG9NszDLSfgGA</a><p>Search phrases are available everywhere - Spotlight search - Siri<p>Supports Siri <a href=\"https:&#x2F;&#x2F;photos.app.goo.gl&#x2F;ufRJF3vXiUJZKsKz7\" rel=\"nofollow\">https:&#x2F;&#x2F;photos.app.goo.gl&#x2F;ufRJF3vXiUJZKsKz7</a> Supports Shortcuts <a href=\"https:&#x2F;&#x2F;photos.app.goo.gl&#x2F;kgHiTwwUFrC8o3zs5\" rel=\"nofollow\">https:&#x2F;&#x2F;photos.app.goo.gl&#x2F;kgHiTwwUFrC8o3zs5</a> Supports as side by side app <a href=\"https:&#x2F;&#x2F;photos.app.goo.gl&#x2F;DYaeg798k3Gbm2429\" rel=\"nofollow\">https:&#x2F;&#x2F;photos.app.goo.gl&#x2F;DYaeg798k3Gbm2429</a> Support spotlight search <a href=\"https:&#x2F;&#x2F;photos.app.goo.gl&#x2F;5gJUKDcN455f3DcU7\" rel=\"nofollow\">https:&#x2F;&#x2F;photos.app.goo.gl&#x2F;5gJUKDcN455f3DcU7</a>",
-      "time": 1647002643,
-      "title": "Show HN: Fuck Twitter search, Bird search is here",
-      "type": "story",
-      "url": "https://apps.apple.com/us/app/bird-search/id1593852437"
-    },
-    {
-      "by": "zagrebian",
-      "descendants": 0,
-      "id": 30639107,
-      "score": 1,
-      "time": 1647002629,
-      "title": "I almost lost my mind when I found out why my sister uses IE on her PC",
-      "type": "story",
-      "url": "https://twitter.com/simevidas/status/1502057840726454274"
     }
   ]
 }
