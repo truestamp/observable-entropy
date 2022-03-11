@@ -1,9 +1,32 @@
 {
   "stories": [
     {
-      "by": "ofou",
+      "by": "jonbaer",
       "descendants": 0,
+      "id": 30635406,
+      "score": 1,
+      "time": 1646965474,
+      "title": "Soar (Cognitive Architecture)",
+      "type": "story",
+      "url": "https://en.wikipedia.org/wiki/Soar_(cognitive_architecture)"
+    },
+    {
+      "by": "graderjs",
+      "descendants": 0,
+      "id": 30635381,
+      "score": 1,
+      "time": 1646965217,
+      "title": "The Google attack: How I attacked myself using Google Spreadsheets",
+      "type": "story",
+      "url": "https://www.behind-the-enemy-lines.com/2012/04/google-attack-how-i-self-attacked.html"
+    },
+    {
+      "by": "ofou",
+      "descendants": 1,
       "id": 30635377,
+      "kids": [
+        30635409
+      ],
       "score": 1,
       "time": 1646965188,
       "title": "Japan claims sovereignty over Russia controlled Kuril Islands",
@@ -82,29 +105,6 @@
       "title": "METT-TC",
       "type": "story",
       "url": "https://metttc.com/"
-    },
-    {
-      "by": "nyuszika7h",
-      "descendants": 0,
-      "id": 30635238,
-      "score": 1,
-      "time": 1646963852,
-      "title": "Computer Randomly Plays Classical Music (2007)",
-      "type": "story",
-      "url": "https://web.archive.org/web/20080517043731/https://support.microsoft.com/support/kb/articles/Q261/1/86.ASP"
-    },
-    {
-      "by": "borealis-dev",
-      "descendants": 1,
-      "id": 30635224,
-      "kids": [
-        30635234
-      ],
-      "score": 1,
-      "text": "Having used Heroku extensively at my previous job I became aware of what I perceived to be a major drawback of database add-ons in Heroku&#x27;s marketplace: they all seem to allow connections directly from the public internet (or at least from anywhere on AWS&#x27;s network) for the sake of convenience for app developers (and probably the add-on developers too!). That way, an app developer need only to retrieve the DB connection URL from the corresponding config variable (i.e. environment variable) in application code to connect to the DB. But leaving DB servers exposed to the whole world seems a clear violation of security best practices.<p>Heroku has a solution to this problem, of course: Private Spaces. In a private space, your app&#x27;s dynos and some of its add-ons are hosted together within a virtual private cloud (VPC) that is firewalled off from the rest of the internet. It comes with a couple important caveats, however: you have to have a Heroku Enterprise account (which is <i>expensive</i> and requires you to give up the option to use some of the cheaper dyno types) and it only supports a handful of select add-ons (only first party, it seems) to be sequestered within the app&#x27;s VPC.<p>My new add-on service aims to provide an alternative that sits somewhere between the extreme simplicity and <i>relative</i> inexpensiveness of DB add-ons running on the Common Runtime and the considerably more expensive Private Spaces while offering a similar level of security as Private Spaces. It&#x27;s called Borealis Isolated Postgres and its in beta now (the beta is free): https:&#x2F;&#x2F;elements.heroku.com&#x2F;addons&#x2F;borealis-pg<p>With my add-on, each DB server is in a PostgreSQL-compatible Amazon Aurora cluster isolated within its own VPC. All connections to a DB server are required to be forwarded through an SSH server that is dedicated to that VPC.<p>So how does an app connect? I wrote a Heroku buildpack to take care of that seamlessly (https:&#x2F;&#x2F;github.com&#x2F;OldSneerJaw&#x2F;heroku-buildpack-borealis-pg-ssh). When you add the buildpack to an app, it automatically identifies any config variables from my add-on and sets up a persistent SSH local port forwarding connection to the database server using autossh. The app can then connect to the database via a standard PostgreSQL client library using the add-on&#x27;s DATABASE_URL config variable without having to be aware of the SSH connection. In other words, application code doesn&#x27;t have to change at all to support it. If the app works with the first-party Heroku Postgres add-on, it should work with my add-on, too.<p>Connecting from your local machine or a CI server to a database server is also straightforward. I wrote a Heroku CLI plugin (https:&#x2F;&#x2F;www.npmjs.com&#x2F;package&#x2F;borealis-pg-cli) with a couple simple commands to either run DB scripts (e.g. DB migrations to be executed during CI&#x2F;CD) or open a persistent tunnel locally (e.g. for ad hoc data administration). It also has a few commands for managing which PostgreSQL extensions&#x2F;modules are installed since the app user does not have privileges to do so in SQL (remember, it&#x27;s a <i>managed</i> DB service).<p>During the beta all add-ons are provisioned in a multi-tenant environment to keep costs down, but when released into general availability, each premium add-on will operate in its own fully isolated VPC that is only accessible via private SSH server. I have not yet decided whether I will continue to provide a free, multi-tenant option after GA, though.<p>If you&#x27;re already a Heroku user, you can provision the add-on directly (for free) here: https:&#x2F;&#x2F;dashboard.heroku.com&#x2F;provision-addon?addonServiceId=de00ba11-8b65-47cd-b099-9605703a6e30&amp;planId=beb31eff-e2df-4750-b73a-29542c3dc79f<p>Docs are here: https:&#x2F;&#x2F;devcenter.heroku.com&#x2F;articles&#x2F;borealis-pg#getting-started<p>Let me know what you think!",
-      "time": 1646963733,
-      "title": "Show HN: PostgreSQL in a virtual private cloud on Heroku",
-      "type": "story"
     }
   ]
 }
