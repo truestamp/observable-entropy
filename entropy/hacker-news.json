@@ -1,10 +1,36 @@
 {
   "stories": [
     {
+      "by": "seekayel",
+      "descendants": 0,
+      "id": 30639303,
+      "score": 1,
+      "time": 1647003857,
+      "title": "Sunset and Sunrise Forecast",
+      "type": "story",
+      "url": "https://sunsetwx.com/"
+    },
+    {
+      "by": "Jupe",
+      "descendants": 0,
+      "id": 30639265,
+      "parts": [
+        30639266,
+        30639267,
+        30639268,
+        30639269
+      ],
+      "score": 1,
+      "text": "I hear both terms used in either direction. It can be somewhat confusing!<p>The HTTP spec indicates the requests are &quot;downstream&quot; and dependencies are &quot;upstream&quot; [1]<p>nginx indicates the opposite [2], even naming modules based on &quot;upstream&quot; being the direction of dependencies.<p>It may seem trivial, but I get a twinge in the back of my neck every time I hear one over the other; I believe others may have a similar experience. Perhaps the considerable knowledge and experience of the HN community can help clear this up?<p>Simple example:<p><pre><code>  Client -&gt; Proxy -&gt; Load Balancer -&gt; Gateway -&gt; Application Server -&gt; Database\n            &lt;-       &lt;-               &lt;-         &lt;-                    &lt;-\n</code></pre>\nOn the one hand, it just seems natural that &quot;upstream&quot; refers to the inbound request being sent from one system to another. It takes effort (connection pooling, throttling, retries, etc.) to make a request to an (upstream) dependency, just as it takes effort to swim upstream. The response is (usually) easy... just return it... hence, &quot;downstream&quot;. Recall the usual meaning of &quot;upload&quot; and &quot;download&quot;. Upstream seems to make sense when talking about processing&#x2F;effort.<p>But conversely, an individual client request is like a drop of water, that feeds into a trickle (proxy), that moves through the larger load balancer, etc. Certainly, the application server&#x27;s database is most likely much larger than the client. So, the size of the stream (usually) gets larger the deeper into the stack a request goes. Downstream seems to make sense when talking about data size&#x2F;volume.<p>[1] https:&#x2F;&#x2F;datatracker.ietf.org&#x2F;doc&#x2F;html&#x2F;rfc7230#section-2.3<p>[2] https:&#x2F;&#x2F;nginx.org&#x2F;en&#x2F;docs&#x2F;http&#x2F;ngx_http_upstream_module.html",
+      "time": 1647003651,
+      "title": "Poll: Are client web requests sent to upstream servers or downstream servers?",
+      "type": "poll"
+    },
+    {
       "by": "eimrine",
       "descendants": 0,
       "id": 30639245,
-      "score": 1,
+      "score": 2,
       "text": "This topic has been appeared on HN [1] but has zero comments while on Russian tech websites this topic has the most discussions [2] among all the sanctions. From my point of view, and from point of view of literally everybody on [2], this is an attack on the freedom of speech since https became kind of mandatory for every website. Do we really need organisations like Thawte to be a moral judge of what website deserves to be visited securely?<p>[1] https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=30517483\n[2] https:&#x2F;&#x2F;habr.com&#x2F;en&#x2F;post&#x2F;654633&#x2F;",
       "time": 1647003528,
       "title": "Ask HN: Don't you think, revoking SSL cert for some Russian banks was too much?",
@@ -24,7 +50,7 @@
       "by": "chetangoti",
       "descendants": 0,
       "id": 30639225,
-      "score": 2,
+      "score": 3,
       "time": 1647003424,
       "title": "Don't ask to ask, just ask",
       "type": "story",
@@ -86,26 +112,6 @@
       "title": "China locks-down a City of 9Mil amid a new-spike in Covid-19 cases",
       "type": "story",
       "url": "https://text.npr.org/1085985036"
-    },
-    {
-      "by": "cwwc",
-      "descendants": 0,
-      "id": 30639166,
-      "score": 1,
-      "time": 1647003038,
-      "title": "U.S., G7 allies may strip Russia of 'most favored nation' status",
-      "type": "story",
-      "url": "https://www.reuters.com/business/biden-call-an-end-normal-trade-relations-with-russia-increased-tariffs-russian-2022-03-11/"
-    },
-    {
-      "by": "gdaramouskas",
-      "descendants": 0,
-      "id": 30639160,
-      "score": 2,
-      "time": 1647002995,
-      "title": "Show HN: Google Maps Shadow Calculator",
-      "type": "story",
-      "url": "http://shadowcalculator.eu/"
     }
   ]
 }
