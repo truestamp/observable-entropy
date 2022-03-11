@@ -1,10 +1,63 @@
 {
   "stories": [
     {
+      "by": "MikeAshley178",
+      "descendants": 0,
+      "id": 30639523,
+      "score": 1,
+      "time": 1647005089,
+      "title": "UK tells operators to shut down crypto ATMs or face action",
+      "type": "story",
+      "url": "https://www.neowin.net/news/uk-tells-crypto-atm-operators-to-shut-down-or-face-action/"
+    },
+    {
+      "by": "verisimi",
+      "descendants": 1,
+      "id": 30639521,
+      "kids": [
+        30639525
+      ],
+      "score": 1,
+      "time": 1647005087,
+      "title": "What do Russian owner's sanctions mean for Chelsea",
+      "type": "story",
+      "url": "https://www.bbc.co.uk/sport/football/60684038"
+    },
+    {
+      "by": "stichers",
+      "descendants": 0,
+      "id": 30639520,
+      "score": 1,
+      "time": 1647005080,
+      "title": "Ableye: An SDK Visualisation with Go and Ebiten",
+      "type": "story",
+      "url": "https://ably.com/blog/ablyeye-how-we-visualized-an-ably-sdk-with-go-and-ebiten"
+    },
+    {
+      "by": "tosh",
+      "descendants": 0,
+      "id": 30639503,
+      "score": 1,
+      "time": 1647004989,
+      "title": "Russia moves to ban WhatsApp and Instagram",
+      "type": "story",
+      "url": "https://www.theguardian.com/world/live/2022/mar/11/russia-ukraine-war-latest-news-we-are-dealing-with-a-terrorist-state-says-zelenskiy-biden-plans-fresh-russian-trade-crackdown-live"
+    },
+    {
+      "by": "simonebrunozzi",
+      "descendants": 0,
+      "id": 30639497,
+      "score": 1,
+      "time": 1647004977,
+      "title": "Remote indigenous Amazon tribe has lowest dementia rates in the world",
+      "type": "story",
+      "url": "https://newatlas.com/tsimane-amazon-dementia-brain-health/"
+    },
+    {
       "by": "intunderflow",
       "descendants": 0,
       "id": 30639428,
-      "score": 1,
+      "score": 2,
       "time": 1647004590,
       "title": "Russia says its businesses can steal patents from anyone in unfriendly countries",
       "type": "story",
@@ -49,66 +102,6 @@
       "title": "Rust WebAssembly OCR Experiments",
       "type": "story",
       "url": "https://hugopeixoto.net/articles/rust-wasm-ocr-experiments.html"
-    },
-    {
-      "by": "wg0",
-      "descendants": 0,
-      "id": 30639308,
-      "score": 1,
-      "time": 1647003927,
-      "title": "Construct – Python library for parsing/generating binary formats",
-      "type": "story",
-      "url": "https://construct.readthedocs.io/en/latest/index.html"
-    },
-    {
-      "by": "krthr",
-      "descendants": 0,
-      "id": 30639306,
-      "score": 4,
-      "time": 1647003916,
-      "title": "Russia Just Created Its Own Certificate Authority",
-      "type": "story",
-      "url": "https://www.youtube.com/watch?v=vdnTbeGtxuQ"
-    },
-    {
-      "by": "seekayel",
-      "descendants": 0,
-      "id": 30639303,
-      "score": 1,
-      "time": 1647003857,
-      "title": "Sunset and Sunrise Forecast",
-      "type": "story",
-      "url": "https://sunsetwx.com/"
-    },
-    {
-      "by": "Jupe",
-      "descendants": 0,
-      "id": 30639265,
-      "parts": [
-        30639266,
-        30639267,
-        30639268,
-        30639269
-      ],
-      "score": 1,
-      "text": "I hear both terms used in either direction. It can be somewhat confusing!<p>The HTTP spec indicates the requests are &quot;downstream&quot; and dependencies are &quot;upstream&quot; [1]<p>nginx indicates the opposite [2], even naming modules based on &quot;upstream&quot; being the direction of dependencies.<p>It may seem trivial, but I get a twinge in the back of my neck every time I hear one over the other; I believe others may have a similar experience. Perhaps the considerable knowledge and experience of the HN community can help clear this up?<p>Simple example:<p><pre><code>  Client -&gt; Proxy -&gt; Load Balancer -&gt; Gateway -&gt; Application Server -&gt; Database\n            &lt;-       &lt;-               &lt;-         &lt;-                    &lt;-\n</code></pre>\nOn the one hand, it just seems natural that &quot;upstream&quot; refers to the inbound request being sent from one system to another. It takes effort (connection pooling, throttling, retries, etc.) to make a request to an (upstream) dependency, just as it takes effort to swim upstream. The response is (usually) easy... just return it... hence, &quot;downstream&quot;. Recall the usual meaning of &quot;upload&quot; and &quot;download&quot;. Upstream seems to make sense when talking about processing&#x2F;effort.<p>But conversely, an individual client request is like a drop of water, that feeds into a trickle (proxy), that moves through the larger load balancer, etc. Certainly, the application server&#x27;s database is most likely much larger than the client. So, the size of the stream (usually) gets larger the deeper into the stack a request goes. Downstream seems to make sense when talking about data size&#x2F;volume.<p>[1] https:&#x2F;&#x2F;datatracker.ietf.org&#x2F;doc&#x2F;html&#x2F;rfc7230#section-2.3<p>[2] https:&#x2F;&#x2F;nginx.org&#x2F;en&#x2F;docs&#x2F;http&#x2F;ngx_http_upstream_module.html",
-      "time": 1647003651,
-      "title": "Poll: Are client web requests sent to upstream servers or downstream servers?",
-      "type": "poll"
-    },
-    {
-      "by": "eimrine",
-      "descendants": 3,
-      "id": 30639245,
-      "kids": [
-        30639362,
-        30639324
-      ],
-      "score": 7,
-      "text": "This topic has been appeared on HN [1] but has zero comments while on Russian tech websites this topic has the most discussions [2] among all the sanctions. From my point of view, and from point of view of literally everybody on [2], this is an attack on the freedom of speech since https became kind of mandatory for every website. Do we really need organisations like Thawte to be a moral judge of what website deserves to be visited securely?<p>[1] https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=30517483\n[2] https:&#x2F;&#x2F;habr.com&#x2F;en&#x2F;post&#x2F;654633&#x2F;",
-      "time": 1647003528,
-      "title": "Ask HN: Don't you think, revoking SSL cert for some Russian banks was too much?",
-      "type": "story"
     }
   ]
 }
