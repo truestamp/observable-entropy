@@ -1,10 +1,41 @@
 {
   "stories": [
     {
+      "by": "rwmj",
+      "descendants": 0,
+      "id": 30643600,
+      "score": 1,
+      "time": 1647021895,
+      "title": "Mystery homemade Z80 CP/M machine",
+      "type": "story",
+      "url": "https://www.youtube.com/watch?v=_muHEAJ7dko"
+    },
+    {
+      "by": "bitcharmer",
+      "descendants": 0,
+      "id": 30643544,
+      "score": 1,
+      "time": 1647021690,
+      "title": "Random numbers and virtual-machine forks",
+      "type": "story",
+      "url": "https://lwn.net/SubscriberLink/887207/d23e4261e1eebec7/"
+    },
+    {
+      "by": "tdba",
+      "descendants": 0,
+      "id": 30643520,
+      "score": 3,
+      "text": "Hello HN! I&#x27;m Tom, co-founder at Tensil (<a href=\"https:&#x2F;&#x2F;www.tensil.ai&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;www.tensil.ai&#x2F;</a>). We design free and open source machine learning accelerators that anyone can use.<p>A machine learning inference accelerator is a specialized chip that can run the operations used in ML models very quickly and efficiently. It can be either an ASIC or an FPGA, with ASIC giving better performance but FPGA being more flexible.<p>Custom accelerators offer dramatically better performance per watt than existing GPU and CPU options. Massive companies like Google and Facebook use them to make training and inference cheaper. However, everyone else has been left out: small and mid-sized companies, students and academics, hobbyists and tinkerers currently have no chance of getting ML hardware that perfectly suits their needs. We aim to change that, starting with ML inference on embedded and edge FPGA platforms. Our dream is that our accelerators help people make new applications possible that simply weren&#x27;t feasible before.<p>We believe that advances in AI go hand in hand with advances in computing hardware. As a couple of software and ML engineers hoping to live in a world alongside intelligent machines, we wanted to know why those hardware advances were taking so long! We taught ourselves digital design and gradually realized that the next generation of hardware will need to be finely customized to enable state of the art ML models at the edge, that is, running on your devices and not in the cloud. In the CPU world, the RISC-V RocketChip implementation has proven the value of customizable compute hardware. The problem was that no-one was building that kind of capability for ML acceleration. We started Tensil to build customizable ML accelerators and see what kind of applications people can create with them.<p>Tensil is a set of tools for running ML models on custom accelerator architectures. It includes an RTL generator, a model compiler, and a set of drivers. It enables you to create a custom accelerator, compile an ML model targeted at it, and then deploy and run that compiled model. To see how to do this and get it running on an FPGA platform, check out our tutorial at <a href=\"https:&#x2F;&#x2F;www.tensil.ai&#x2F;docs&#x2F;tutorials&#x2F;resnet20-ultra96v2&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;www.tensil.ai&#x2F;docs&#x2F;tutorials&#x2F;resnet20-ultra96v2&#x2F;</a>.<p>We developed an accelerator generator in Chisel and then wrote a parameterizable graph compiler in Scala. (Fun fact: unlike in software, formal verification is actually a totally viable way to test digital circuits and we have made great use of this technique.) The accelerator generator takes in the desired architecture parameters and produces an instance of the accelerator which can be synthesized using standard EDA tools. The compiler implements ML models using the accelerator’s instruction set and can target any possible instance of the accelerator.<p>Currently, the accelerator architecture is based around a systolic array, similar to well-known ML ASICs. You can view the architecture spec in our documentation. The compiler performs a wide variety of tasks but is optimized for convolutional neural networks. There are also drivers for each supported platform, currently limited to FPGAs running bare-metal or with a host OS.<p>When you tell the driver to run your ML model, it sets up the input data and then streams the compiled model into the accelerator. The accelerator independently accesses host memory during execution. When the accelerator is done, the driver is notified and looks for the output in the pre-assigned area of host memory.<p>How are we different from other accelerator options? There are many ML ASICs out there but they are all locked into a single architecture, whereas we have customization at the core of our technology. This offers the potential for a better trade-off between performance&#x2F;price&#x2F;watts&#x2F;accuracy. Compared with other FPGA options, Xilinx DPU is great but it’s closed source and can be difficult to work with if your model is in any way customized. By going open source, we aim to support the widest possible range of models. FINN is a very cool project but requires big changes to your model in order to work, and also typically requires large FPGAs which are unsuitable for edge deployments. We work out of the box with any model (no need to quantize), and on small edge FPGAs. For embedded systems, tflite&#x2F;tfmicro are great for deploying very small ML models on extremely constrained edge devices, but they are limited in terms of the performance and accuracy that can be achieved. Our tools allow you to work with full size state of the art models at high accuracy and speed.<p>Currently we&#x27;re focused on the edge and embedded ML inference use case. If you\nrun ML models using any of the major frameworks (TensorFlow&#x2F;Keras, PyTorch, etc.) on small, embedded or edge devices then Tensil is a good fit for you right now. If you primarily run inference in the data center or need lots of training acceleration, reach out to us and we can walk you through our roadmap. For now we are focused on CNN inference on edge FPGA platforms, but our aim is to support all model architectures on a wide variety of fabrics for both training and inference.<p>The core technology will always be free and open source, but we plan to offer a “pro” version with extra enterprise features under a dual license arrangement, similar to Gitlab. We are also working on a cloud service for running our tools in a hosted setup, in which you’ll be able to run a search across all possible Tensil architectures to automatically find the best FPGA for your model.<p>If you&#x27;re interested to learn more, check out our docs (<a href=\"https:&#x2F;&#x2F;www.tensil.ai&#x2F;docs\" rel=\"nofollow\">https:&#x2F;&#x2F;www.tensil.ai&#x2F;docs</a>), our Github repo (<a href=\"https:&#x2F;&#x2F;github.com&#x2F;tensil-ai&#x2F;tensil\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;tensil-ai&#x2F;tensil</a>) and join our Discord (<a href=\"https:&#x2F;&#x2F;discord.gg&#x2F;TSw34H3PXr\" rel=\"nofollow\">https:&#x2F;&#x2F;discord.gg&#x2F;TSw34H3PXr</a>). And feel free to reach out any time (email in profile).<p>We’re here to enable you to develop amazing new ML based applications, so we’d love to hear your experiences of working with ML compute hardware, whether it be CPU, GPU, or some other specialized platform. Have you had to make major changes to your ML models to get them to run on the available hardware? Are there any cool features or UX improvements that you wish hardware makers would add? Are there features that you’d like to add to your own applications but don’t know how you’d get them to work on an edge device? Looking forward to your comments!",
+      "time": 1647021610,
+      "title": "Launch HN: Tensil (YC S19) – Open-Source ML Accelerators",
+      "type": "story",
+      "url": "https://www.tensil.ai/#"
+    },
+    {
       "by": "underscore_ku",
       "descendants": 0,
       "id": 30643507,
-      "score": 2,
+      "score": 3,
       "time": 1647021548,
       "title": "Italy builds six new wind farms in a bid to move away from Rusian gas dependency",
       "type": "story",
@@ -34,7 +65,7 @@
       "by": "voisin",
       "descendants": 0,
       "id": 30643428,
-      "score": 2,
+      "score": 3,
       "time": 1647021241,
       "title": "Intermittent fasting in the prevention and treatment of cancer",
       "type": "story",
@@ -64,44 +95,11 @@
       "by": "skadamat",
       "descendants": 0,
       "id": 30643414,
-      "score": 3,
+      "score": 6,
       "time": 1647021184,
       "title": "Linux Developer Laptops: Dell's Precision 5500 series reigns supreme",
       "type": "story",
       "url": "https://wesmckinney.com/blog/linux-laptop-experience/"
-    },
-    {
-      "by": "ivanvas",
-      "descendants": 0,
-      "id": 30643398,
-      "score": 3,
-      "time": 1647021152,
-      "title": "Belarus may attack Ukraine by 21:00 on 11 March",
-      "type": "story",
-      "url": "https://www.pravda.com.ua/eng/news/2022/03/11/7330451/"
-    },
-    {
-      "by": "er_d0s",
-      "descendants": 1,
-      "id": 30643359,
-      "kids": [
-        30643360
-      ],
-      "score": 1,
-      "time": 1647021007,
-      "title": "Journalist Mode – How I Get Things Done",
-      "type": "story",
-      "url": "https://journalistmode.com"
-    },
-    {
-      "by": "naetius",
-      "descendants": 0,
-      "id": 30643347,
-      "score": 1,
-      "time": 1647020924,
-      "title": "Margaret Hamilton in Her Own Words",
-      "type": "story",
-      "url": "https://computerhistory.org/blog/margaret-hamilton-in-her-own-words/"
     }
   ]
 }
