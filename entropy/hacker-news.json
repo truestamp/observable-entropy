@@ -1,6 +1,56 @@
 {
   "stories": [
     {
+      "by": "georgecmu",
+      "descendants": 0,
+      "id": 30644666,
+      "score": 1,
+      "time": 1647026086,
+      "title": "Russia threatens to leave American astronaut in space",
+      "type": "story",
+      "url": "https://abc7news.com/russia-international-space-station-mark-vande-hei-iss-american-astronaut/11639556/"
+    },
+    {
+      "by": "bookofjoe",
+      "descendants": 0,
+      "id": 30644642,
+      "score": 1,
+      "time": 1647025957,
+      "title": "The Kekule problem: Where did language come from?",
+      "type": "story",
+      "url": "https://nautil.us/the-kekul-problem-6082/"
+    },
+    {
+      "by": "derw-lang",
+      "descendants": 0,
+      "id": 30644640,
+      "score": 1,
+      "time": 1647025945,
+      "title": "Why Derw: an Elm-like language that compiles to TypeScript?",
+      "type": "story",
+      "url": "https://derw.substack.com/p/why-derw-an-elm-like-language-that"
+    },
+    {
+      "by": "tomlin",
+      "descendants": 0,
+      "id": 30644623,
+      "score": 1,
+      "time": 1647025872,
+      "title": "Introduction to the Internet",
+      "type": "story",
+      "url": "https://archive.org/details/introduction-to-the-internet"
+    },
+    {
+      "by": "robotarchitect",
+      "descendants": 0,
+      "id": 30644618,
+      "score": 1,
+      "text": "Hello everyone. I&#x27;m looking for a platform to do stateful frame-by-frame(sequential) processing of data.<p>Modern stream processing engines tend to focus on parallel processing of big data. This is great when the desired results are calculated from aggregates over the entire set or subset(filtered) of the whole dataset. In contrast to this I need to process data sequentially, where a change from one row to the next has meaning and changes what has to be done next. All data is time-series data. As an example, imagine a video game generating the results according to the current situation and the inputs of the player. Spark kind of allows this with e.g. mapGroupsWithState(), but I believe it&#x27;s not what it&#x27;s designed for, as this case doesn&#x27;t need distributing data across a cluster to do processing on(because as data needs to be processed sequentially,it should benefit from holding the state in one place and passing all data through a single point of processing close to that state). I&#x27;ve looked at flink but I didn&#x27;t find anything related to stream processing frame-by-frame.<p>Is anything out there for solving this type of problems? I don&#x27;t want to re-invent the wheel.<p>Thank you.",
+      "time": 1647025858,
+      "title": "Platform for stateful frame-by-frame processing",
+      "type": "story"
+    },
+    {
       "by": "luu",
       "descendants": 0,
       "id": 30644590,
@@ -49,56 +99,6 @@
       "title": "BFD: The Next Generation of Software Development (2020)",
       "type": "story",
       "url": "https://medium.com/@nhumrich/bfd-the-next-generation-of-software-development-7b045d1732d0"
-    },
-    {
-      "by": "luu",
-      "descendants": 0,
-      "id": 30644507,
-      "score": 1,
-      "time": 1647025403,
-      "title": "An Analysis of Lightroom JPEG Export Quality Settings",
-      "type": "story",
-      "url": "http://regex.info/blog/lightroom-goodies/jpeg-quality"
-    },
-    {
-      "by": "todsacerdoti",
-      "descendants": 0,
-      "id": 30644472,
-      "score": 1,
-      "time": 1647025273,
-      "title": "Leaving Sweetness for two weeks on the Coast",
-      "type": "story",
-      "url": "https://lojikil.github.io/b/4.html"
-    },
-    {
-      "by": "cjlm",
-      "descendants": 0,
-      "id": 30644463,
-      "score": 2,
-      "time": 1647025222,
-      "title": "Awful Library Books",
-      "type": "story",
-      "url": "https://awfullibrarybooks.net/"
-    },
-    {
-      "by": "geocrasher",
-      "descendants": 0,
-      "id": 30644443,
-      "score": 1,
-      "time": 1647025152,
-      "title": "Soviet Era Mystery drone from Ukraine war crashes in Croatia",
-      "type": "story",
-      "url": "https://www.bbc.com/news/world-europe-60709952"
-    },
-    {
-      "by": "_Microft",
-      "descendants": 0,
-      "id": 30644433,
-      "score": 3,
-      "time": 1647025119,
-      "title": "Ukraine says Belarus leader was with Putin at time of 'false-flag attack'",
-      "type": "story",
-      "url": "https://www.reuters.com/world/europe/ukraine-says-belarus-leader-was-with-putin-time-false-flag-attack-2022-03-11/"
     }
   ]
 }
