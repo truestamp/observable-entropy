@@ -1,6 +1,26 @@
 {
   "stories": [
     {
+      "by": "chandlergibb",
+      "descendants": 0,
+      "id": 30640441,
+      "score": 1,
+      "time": 1647009565,
+      "title": "Ray 1.11 Released",
+      "type": "story",
+      "url": "https://www.anyscale.com/blog/ray-version-1-11-released"
+    },
+    {
+      "by": "leonry",
+      "descendants": 0,
+      "id": 30640434,
+      "score": 1,
+      "time": 1647009511,
+      "title": "Farmers Fable – A Tale of Cooperation",
+      "type": "story",
+      "url": "https://www.farmersfable.org/"
+    },
+    {
       "by": "ksec",
       "descendants": 0,
       "id": 30640393,
@@ -38,7 +58,7 @@
       "by": "muttled",
       "descendants": 0,
       "id": 30640360,
-      "score": 1,
+      "score": 2,
       "time": 1647009112,
       "title": "Show HN: I made an Outlook add-in that warns when emailing the wrong person",
       "type": "story",
@@ -68,7 +88,7 @@
       "by": "A4ET8a8uTh0",
       "descendants": 0,
       "id": 30640300,
-      "score": 1,
+      "score": 2,
       "time": 1647008828,
       "title": "Facebook allows posts on Ukraine war calling for violence on some",
       "type": "story",
@@ -78,31 +98,11 @@
       "by": "hippofluff",
       "descendants": 0,
       "id": 30640295,
-      "score": 4,
+      "score": 8,
       "text": "Hi there HN! My name is Jake Ruth, and together with Nick Puljic and Daniel Pronk we are building Stock Unlock (<a href=\"https:&#x2F;&#x2F;stockunlock.com&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;stockunlock.com&#x2F;</a>), a web app that provides investment education and analysis tools. It’s great to meet you all… and speaking of “meeting”, Nick and I only met Daniel in real life a couple weeks ago even though we have been working on this for over a year… but more to come on that later in the post :)<p>As retail investors we noticed that many retail products have some combo of the following shortcomings: high paywalls, tricky to navigate web design, oversimplification of investing principles, and misaligned incentives that push users to trade more—instead of giving them adequate education to manage a successful portfolio. They are very non noob friendly.<p>Further, I am personally very “triggered” by the lack of financial education myself and friends were not given growing up. I am fortunate to be a software engineer, but it really hurts me to see a lot of close friends, and even family get bit by the financial system since they are not educated by it. And it’s not our fault. Much of America and the world falls into this bucket, which was exasperated by a deflationary financial brokerage environment that led to trading apps which would allow anyone to trade stocks in minutes from their pocket (for free!). Honestly, that’s great. Access to markets is important. However, many people are following a similar story line, you get easy access to trading for low costs&#x2F;free, you probably started in the bull market from the covid flash crash, made some money if you’re lucky, but have since fallen into the red&#x2F;realized how clueless we all are for what investing actually is.<p>I remember so clearly a few years ago looking at a Yahoo Finance page and feeling overwhelmed by price ratios, reported financials, stock prices cross stocks, analysts, different news articles from the same publishers saying the opposite headlines… It honestly felt impossible to learn. Especially since my family&#x2F;close friends aren’t into finance or investing.<p>Then one day, sitting on my bed in NYC hiding from COVID in 2020, I stumbled upon Daniel’s Youtube account. I do not follow celebs, I don’t know famous people, I don’t twitter, but there was something about Daniel and the investment education content he put out that immediately had me captivated and drawn to his account. He is well spoken and presents investing and financial analysis in a way that I actually could understand, and it blew my mind. I proceeded to feverishly ingest his Youtube content for months.<p>I began to notice a pattern in Daniel’s videos, he would sometimes use third party sites to show investment graphs, but he would often open an excel sheet with 3-5 stocks in it (columns), and then fill in rows for financial metrics. I will quote Daniel “I spend about 5-8 hours a week making these spreadsheets, it takes a lot of time but it’s worth it”. So I’m an engineer sitting here watching this and I think… I could definitely write a program to do this. And better yet, I could give it to Daniel as a thank you for all the great work he puts into Youtube.<p>So on a weekend I whip up this program to automate his spreadsheet creation and give it to Daniel… I mean I tried to, but Daniel didn’t answer my Youtube comment! GASP!!!! Ok… so, I found his instagram, but still no luck. I was honestly pretty pissed, like this dude is so smart how could he not recognize that I can save him 5-8 hours a week if he used my program to automate his spreadsheet creation.<p>Well, another 2 months go by. Every week I iterated on the program more, started ranting to my co-worker at the time Nick (we were at Oscar Health together), and kept pinging Daniel shamelessly across multiple social channels. FINALLY he answered me… we ended up hopping on a zoom call, which itself went for 2-3 hours, a beer was cracked… the rest is well, history!<p>I was able to pretty easily write a Python script to hit a financial data API (Alpha Vantage at the time), and Daniel, Nick, and myself all saw a vision for us to create a software platform that actually taught users how to invest, without oversimplifying the process, and at a price that didn’t break the bank.<p>The moment at which this turned from a side project to a company, was when I shared my program with Daniel Pronk’s investing discord community and people basically freaked out.  “This is the best thing ever”, “can you make it generate _this_?”, “how can I pay you for this”... I basically took the classic “push back chair from desk” moment and knew it was time to take this full time. Thankfully, Nick was also on board! We had a founding team of 3, and at the time the project was called “Stonk Reporter” (I’m still a bit salty we didn’t keep this name). After a long 4 month beta&#x2F;pilot with around 200 users from Daniel’s discord, we launched Stock Unlock on December 11th 2021. Jake and Nick met Daniel for the first time a couple weeks ago, until then it was a fully remote co-founder relationship!<p>Today we provide a modern&#x2F;easy-to-use web app which has data visualization tools for financials, and contextual, inline education. Sites like Investopedia are good for term lookup, but the education isn&#x27;t given at the time the investor needs it. Typically you get confused, search the internet, and land there—we show it to you in place. For users who already know the ropes, our graphing tools allow users to compare 70+ financial metrics across as many stocks as they want. These tools either don&#x27;t exist or are part of extremely pricey programs like Bloomberg Terminal (no retail investor can afford that). We have existing investors using Stock Unlock who say they save 80-90% of their time on company analysis with our tools.<p>Our current business model is that we give everyone a 7 day free trial, no credit card&#x2F;totally free to try the site. We ask for email, but you can give a fake email if you want and we don’t verify it&#x2F;anything like that. After the 7 day free trial we are priced at $6.99 per month &#x2F; $74.99 per year (USD, prices will vary for Euro&#x2F;Canada).<p>We build the consumer web app layer and get our financial data from another startup called Finnhub. We are “serverless” using AWS for all our backend infrastructure. We use Cognito for user auth, Api Gateway &amp; Lambda (Python) for the API, Dynamo &amp; Postgres for data store, S3&#x2F;CloudFront&#x2F;Route 53 for static hosting. The frontend is all ReactJS with special help from Material UI for our designed components&#x2F;us not needing to write tons of CSS (yay), and recharts for the lib to help draw pretty graphs. There are also a ton of fun technical challenges that we solve, currency conversion&#x2F;alignment for the 122,000 global stocks we support has been hairy&#x2F;filled with edge cases, also data staleness for prices&#x2F;market caps is another area of complexity. Not to mention building around a 3rd party HTTPS&#x2F;JSON api and caching those endpoints&#x2F;storing some data internally is a fun juggle!<p>Your feedback&#x2F;your stories about any of the above or this space in general would be amazing. I look forward to interacting with everyone in the comments, we embrace constructive feedback and feel fortunate knowing that you will hold us to your highest standards.<p>If you do decide to try our application, please let us know your thoughts! We launched with a pretty raw MVP and are adding features to the site weekly, with no end in sight. Cheers!",
       "time": 1647008815,
       "title": "Launch HN: Stock Unlock (YC W22) – Investment Education for Everyone",
       "type": "story"
-    },
-    {
-      "by": "desertjedi",
-      "descendants": 0,
-      "id": 30640290,
-      "score": 1,
-      "time": 1647008787,
-      "title": "Exclusive-Facebook to temporarily allow calls for violence against Russians",
-      "type": "story",
-      "url": "https://www.reuters.com/article/ukraine-crisis-meta-platforms-idUSL3N2VD40U"
-    },
-    {
-      "by": "cunidev",
-      "descendants": 0,
-      "id": 30640287,
-      "score": 1,
-      "time": 1647008777,
-      "title": "MH17 – The Open Source Evidence (2015)",
-      "type": "story",
-      "url": "https://www.bellingcat.com/news/uk-and-europe/2015/10/08/mh17-the-open-source-evidence/"
     }
   ]
 }
