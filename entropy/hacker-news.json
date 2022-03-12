@@ -1,11 +1,64 @@
 {
   "stories": [
     {
-      "by": "djfdat",
+      "by": "georgecmu",
       "descendants": 0,
-      "id": 30653736,
+      "id": 30653788,
       "score": 1,
-      "text": "[Previously posted here](<a href=\"https:&#x2F;&#x2F;www.reddit.com&#x2F;r&#x2F;scihub&#x2F;comments&#x2F;gns7su&#x2F;scihub_scholar_firefox_extension_to_integrate&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;www.reddit.com&#x2F;r&#x2F;scihub&#x2F;comments&#x2F;gns7su&#x2F;scihub_schol...</a>)<p>Sci-Hub Scholar is a browser extension that takes Google Scholar search results and tries to point them at Sci-Hub, where they can be read freely. The main selling point for this extension versus others is that it works right on the results page, rather than the article page at the pay-walled website.<p>One night, I decided I was going to do some research, only to find every Google Scholar Result behind a paywall. Trying to find the link on Sci-Hub, I ran into a bunch of issues:<p>* <a href=\"https:&#x2F;&#x2F;whereisscihub.now.sh&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;whereisscihub.now.sh&#x2F;</a> is down<p>* Annoying to copy&#x2F;paste title to Sci-Hub<p>* Didn&#x27;t want to be presented with another set of search results from my search results.<p>I&#x27;ve seen some other Sci-Hub extensions, most notably <a href=\"https:&#x2F;&#x2F;openaccessbutton.org&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;openaccessbutton.org&#x2F;</a>. However, most of these require you to go to the article page, then click the extension&#x27;s button to finally be redirected. I thought I could do better.<p>I recently did an update pass to update with some features others have added and requested.<p>New Features for v1.2.0:<p>* Added support for all Google Subdomains. You can now use this extension on Google Scholar websites for any country!<p>* DOI is now listed next to the article title for articles where the DOI was found<p>* If the title&#x27;s URL was updated to Sci-Hub, the Icon to the left will now point to the original article.<p>* More accurate DOI lookups!<p>Issues:<p>* Currently, I can&#x27;t validate that the article exists on Sci-Hub, due to the way Firefox handles website permissions for extensions. I do not want to request permissions for all domains, but since the Sci-Hub domain can change, this is difficult.<p>* I&#x27;m afraid to port this to Chrome, because I don&#x27;t want to lose my Google Account over something like this.<p>* It&#x27;s a hassle to support manifest v2 for Firefox and manifest v3 for chrome. Haven&#x27;t found a good workflow setup for developing for both browser platforms at the same time, from one codebase.<p>I welcome any feedback or recommendations on the issues. I also have planned features, and am open to contributions! The extension is all open source and can be found at: <a href=\"https:&#x2F;&#x2F;github.com&#x2F;djfdat&#x2F;sci-hub-scholar\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;djfdat&#x2F;sci-hub-scholar</a><p>I hope this helps some people get access to the information they need!",
+      "time": 1647111271,
+      "title": "Patrol 36",
+      "type": "story",
+      "url": "https://en.wikipedia.org/wiki/Patrol_36"
+    },
+    {
+      "by": "davesailer",
+      "descendants": 0,
+      "id": 30653785,
+      "score": 1,
+      "time": 1647111247,
+      "title": "One person's war is another hemisphere's developer crunch",
+      "type": "story",
+      "url": "https://www.theregister.com/2022/03/11/ukraines_war_developers/"
+    },
+    {
+      "by": "ericabiz",
+      "descendants": 0,
+      "id": 30653781,
+      "score": 1,
+      "time": 1647111233,
+      "title": "Upgrading a 2012 11” MacBook Air to 16GB RAM (solder job) [video]",
+      "type": "story",
+      "url": "https://www.youtube.com/watch?v=ZxbVxaScZQ4"
+    },
+    {
+      "by": "belter",
+      "descendants": 0,
+      "id": 30653766,
+      "score": 1,
+      "time": 1647111160,
+      "title": "Bill Gates warns against investing in Bitcoin",
+      "type": "story",
+      "url": "https://www.cnbc.com/2022/03/09/bill-gates-on-bitcoin-if-you-have-less-money-than-elon-watch-out.html"
+    },
+    {
+      "by": "cols",
+      "descendants": 0,
+      "id": 30653750,
+      "score": 1,
+      "time": 1647111063,
+      "title": "Former MI6 Officer Christopher Steele Q&A – Oxford Union [video]",
+      "type": "story",
+      "url": "https://www.youtube.com/watch?v=fLVQfwwN_r8"
+    },
+    {
+      "by": "djfdat",
+      "descendants": 1,
+      "id": 30653736,
+      "kids": [
+        30653776
+      ],
+      "score": 1,
+      "text": "Sci-Hub Scholar is a browser extension that takes Google Scholar search results and tries to point them at Sci-Hub, where they can be read freely. The main selling point for this extension versus others is that it works right on the results page, rather than the article page at the pay-walled website.<p>One night, I decided I was going to do some research, only to find every Google Scholar Result behind a paywall. Trying to find the link on Sci-Hub, I ran into a bunch of issues:<p>* <a href=\"https:&#x2F;&#x2F;whereisscihub.now.sh&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;whereisscihub.now.sh&#x2F;</a> is down<p>* Annoying to copy&#x2F;paste title to Sci-Hub<p>* Didn&#x27;t want to be presented with another set of search results from my search results.<p>I&#x27;ve seen some other Sci-Hub extensions, most notably <a href=\"https:&#x2F;&#x2F;openaccessbutton.org&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;openaccessbutton.org&#x2F;</a>. However, most of these require you to go to the article page, then click the extension&#x27;s button to finally be redirected. I thought I could do better.<p>I recently did an update pass to update with some features others have added and requested.<p>New Features for v1.2.0:<p>* Added support for all Google Subdomains. You can now use this extension on Google Scholar websites for any country!<p>* DOI is now listed next to the article title for articles where the DOI was found<p>* If the title&#x27;s URL was updated to Sci-Hub, the Icon to the left will now point to the original article.<p>* More accurate DOI lookups!<p>Issues:<p>* Currently, I can&#x27;t validate that the article exists on Sci-Hub, due to the way Firefox handles website permissions for extensions. I do not want to request permissions for all domains, but since the Sci-Hub domain can change, this is difficult.<p>* I&#x27;m afraid to port this to Chrome, because I don&#x27;t want to lose my Google Account over something like this.<p>* It&#x27;s a hassle to support manifest v2 for Firefox and manifest v3 for chrome. Haven&#x27;t found a good workflow setup for developing for both browser platforms at the same time, from one codebase.<p>I welcome any feedback or recommendations on the issues. I also have planned features, and am open to contributions! The extension is all open source and can be found at: <a href=\"https:&#x2F;&#x2F;github.com&#x2F;djfdat&#x2F;sci-hub-scholar\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;djfdat&#x2F;sci-hub-scholar</a><p>I hope this helps some people get access to the information they need!",
       "time": 1647110979,
       "title": "Show HN: Sci-Hub Scholar – Firefox Extension Update v1.2",
       "type": "story",
@@ -15,7 +68,7 @@
       "by": "laurex",
       "descendants": 0,
       "id": 30653722,
-      "score": 1,
+      "score": 2,
       "time": 1647110894,
       "title": "Can Public Health Be Saved?",
       "type": "story",
@@ -45,61 +98,11 @@
       "by": "luu",
       "descendants": 0,
       "id": 30653691,
-      "score": 1,
+      "score": 2,
       "time": 1647110695,
       "title": "The Silence Is Deafening",
       "type": "story",
       "url": "https://devonzuegel.com/post/the-silence-is-deafening"
-    },
-    {
-      "by": "laurex",
-      "descendants": 0,
-      "id": 30653643,
-      "score": 1,
-      "time": 1647110420,
-      "title": "The Gamification of Fitness: Are We Getting Played by Our Exercise Apps?",
-      "type": "story",
-      "url": "https://thewalrus.ca/hope-youre-well-gamification-of-fitness/"
-    },
-    {
-      "by": "tus666",
-      "descendants": 0,
-      "id": 30653626,
-      "score": 1,
-      "text": "I used to be able to Ctrl-Pgup&#x2F;Ctrl-Pgdown to switch between tabs. That no longer works if the current tab is a PDF being viewed.",
-      "time": 1647110276,
-      "title": "Has Chrome's PDF viewer broken next/prev tab hotkeys?",
-      "type": "story"
-    },
-    {
-      "by": "luu",
-      "descendants": 0,
-      "id": 30653610,
-      "score": 2,
-      "time": 1647110167,
-      "title": "RISC-V asm instruction name madness",
-      "type": "story",
-      "url": "https://www.realworldtech.com/forum/?threadid=205288&curpostid=205288"
-    },
-    {
-      "by": "dhruvkar",
-      "descendants": 0,
-      "id": 30653602,
-      "score": 1,
-      "time": 1647110105,
-      "title": "Bhai Lang – a toy programming language written in TypeScript",
-      "type": "story",
-      "url": "https://bhailang.js.org/"
-    },
-    {
-      "by": "0xedb",
-      "descendants": 0,
-      "id": 30653574,
-      "score": 1,
-      "time": 1647109907,
-      "title": "ECMAScript Proposal: Types as Comments",
-      "type": "story",
-      "url": "https://github.com/giltayar/proposal-types-as-comments"
     }
   ]
 }
