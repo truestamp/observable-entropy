@@ -1,6 +1,47 @@
 {
   "stories": [
     {
+      "by": "djfdat",
+      "descendants": 0,
+      "id": 30653736,
+      "score": 1,
+      "text": "[Previously posted here](<a href=\"https:&#x2F;&#x2F;www.reddit.com&#x2F;r&#x2F;scihub&#x2F;comments&#x2F;gns7su&#x2F;scihub_scholar_firefox_extension_to_integrate&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;www.reddit.com&#x2F;r&#x2F;scihub&#x2F;comments&#x2F;gns7su&#x2F;scihub_schol...</a>)<p>Sci-Hub Scholar is a browser extension that takes Google Scholar search results and tries to point them at Sci-Hub, where they can be read freely. The main selling point for this extension versus others is that it works right on the results page, rather than the article page at the pay-walled website.<p>One night, I decided I was going to do some research, only to find every Google Scholar Result behind a paywall. Trying to find the link on Sci-Hub, I ran into a bunch of issues:<p>* <a href=\"https:&#x2F;&#x2F;whereisscihub.now.sh&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;whereisscihub.now.sh&#x2F;</a> is down<p>* Annoying to copy&#x2F;paste title to Sci-Hub<p>* Didn&#x27;t want to be presented with another set of search results from my search results.<p>I&#x27;ve seen some other Sci-Hub extensions, most notably <a href=\"https:&#x2F;&#x2F;openaccessbutton.org&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;openaccessbutton.org&#x2F;</a>. However, most of these require you to go to the article page, then click the extension&#x27;s button to finally be redirected. I thought I could do better.<p>I recently did an update pass to update with some features others have added and requested.<p>New Features for v1.2.0:<p>* Added support for all Google Subdomains. You can now use this extension on Google Scholar websites for any country!<p>* DOI is now listed next to the article title for articles where the DOI was found<p>* If the title&#x27;s URL was updated to Sci-Hub, the Icon to the left will now point to the original article.<p>* More accurate DOI lookups!<p>Issues:<p>* Currently, I can&#x27;t validate that the article exists on Sci-Hub, due to the way Firefox handles website permissions for extensions. I do not want to request permissions for all domains, but since the Sci-Hub domain can change, this is difficult.<p>* I&#x27;m afraid to port this to Chrome, because I don&#x27;t want to lose my Google Account over something like this.<p>* It&#x27;s a hassle to support manifest v2 for Firefox and manifest v3 for chrome. Haven&#x27;t found a good workflow setup for developing for both browser platforms at the same time, from one codebase.<p>I welcome any feedback or recommendations on the issues. I also have planned features, and am open to contributions! The extension is all open source and can be found at: <a href=\"https:&#x2F;&#x2F;github.com&#x2F;djfdat&#x2F;sci-hub-scholar\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;djfdat&#x2F;sci-hub-scholar</a><p>I hope this helps some people get access to the information they need!",
+      "time": 1647110979,
+      "title": "Show HN: Sci-Hub Scholar – Firefox Extension Update v1.2",
+      "type": "story",
+      "url": "https://addons.mozilla.org/en-US/firefox/addon/sci-hub-scholar/"
+    },
+    {
+      "by": "laurex",
+      "descendants": 0,
+      "id": 30653722,
+      "score": 1,
+      "time": 1647110894,
+      "title": "Can Public Health Be Saved?",
+      "type": "story",
+      "url": "https://www.nytimes.com/2022/03/12/opinion/public-health-trust.html"
+    },
+    {
+      "by": "smegger001",
+      "descendants": 0,
+      "id": 30653703,
+      "score": 1,
+      "time": 1647110769,
+      "title": "NISO Guidelines for Alphabetical Arrangement of Letters and Sorting of Numerals [pdf]",
+      "type": "story",
+      "url": "https://www.niso.org/sites/default/files/2017-08/tr03.pdf"
+    },
+    {
+      "by": "ingve",
+      "descendants": 0,
+      "id": 30653702,
+      "score": 1,
+      "time": 1647110768,
+      "title": "Abstracting the Graphics API for a toy renderer",
+      "type": "story",
+      "url": "https://interplayoflight.wordpress.com/2022/03/12/abstracting-the-api-for-a-toy-renderer/"
+    },
+    {
       "by": "luu",
       "descendants": 0,
       "id": 30653691,
@@ -59,46 +100,6 @@
       "title": "ECMAScript Proposal: Types as Comments",
       "type": "story",
       "url": "https://github.com/giltayar/proposal-types-as-comments"
-    },
-    {
-      "by": "matt_d",
-      "descendants": 0,
-      "id": 30653573,
-      "score": 1,
-      "time": 1647109897,
-      "title": "Accelerate – High-Performance Computing in Haskell (Seminar, Gabriele Keller)",
-      "type": "story",
-      "url": "https://www.youtube.com/watch?v=BIvtP8rmlL0"
-    },
-    {
-      "by": "belter",
-      "descendants": 0,
-      "id": 30653571,
-      "score": 1,
-      "time": 1647109889,
-      "title": "Early screening tool detects autism at 12-24 months",
-      "type": "story",
-      "url": "https://www.dw.com/en/early-screening-tool-detects-autism-at-12-24-months/a-61101283"
-    },
-    {
-      "by": "thunderbong",
-      "descendants": 0,
-      "id": 30653549,
-      "score": 1,
-      "time": 1647109783,
-      "title": "Ntfy.sh – Send push notifications to your phone via PUT/POST",
-      "type": "story",
-      "url": "https://ntfy.sh/"
-    },
-    {
-      "by": "LittleMoveBig",
-      "descendants": 0,
-      "id": 30653542,
-      "score": 1,
-      "time": 1647109737,
-      "title": "The Harvard Boys Do Russia (1998)",
-      "type": "story",
-      "url": "https://www.thenation.com/article/world/harvard-boys-do-russia/"
     }
   ]
 }
