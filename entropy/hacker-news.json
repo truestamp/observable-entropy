@@ -1,6 +1,56 @@
 {
   "stories": [
     {
+      "by": "pirminj",
+      "descendants": 0,
+      "id": 30654719,
+      "score": 1,
+      "text": "Hey,<p>Some prose first, questions at the end.<p>After over two years I quit my student job. Besides the weekly meeting I was pretty much 100 percent of the time writing a frontend in flutter. In the beginning it was quite fun - lot&#x27;s of new stuff to learn and quick progress. But it recently evolved into this boring feature implementation treadmill where things got ever more complex, brittle, and having this falls-apart-when-you-look-at-it-wrong attitude. I got bored from it.<p>It really reduced my interest in all the other computing stuff I’ve been playing around with. So since four or five months I haven’t cared much and did just the bare baseline amount of work - But it helped a lot! Started learning how people use tmux as a window manager, what makes vim addictive to learn, why some people can’t stop talking about clojure (reading about clojure and its ecosystem, I love it), what gnu is and software ideologies&#x2F;licenses there are, people printing their own parametrized split ortho colemak keyboard. Fine stuff! Not advanced, but I&#x27;m eager understand all the parts.<p>I&#x27;m doing my masters degree in aerospace engineering, but I&#x27;m thinking more and more of putting that on pause and working in Software for some time. Having no formal software education, I want to learn new stuff. Is there enough demand for engineers that companies are willing to pay for one learning “it” on the go? If yes, what field is it? Trying to avoid cruft and mundane tasks: What kind of companies to look for and which ones to avoid? And on a more philosophical note: Can a hobby be a job without losing the fun part?",
+      "time": 1647117836,
+      "title": "Ask HN: Writing Software – Is it boring or am I bored?",
+      "type": "story"
+    },
+    {
+      "by": "marcobambini",
+      "descendants": 0,
+      "id": 30654707,
+      "score": 1,
+      "time": 1647117765,
+      "title": "SQLite 3.8.1",
+      "type": "story",
+      "url": "https://sqlite.org/releaselog/3_38_1.html"
+    },
+    {
+      "by": "app4soft",
+      "descendants": 0,
+      "id": 30654704,
+      "score": 1,
+      "time": 1647117742,
+      "title": "#RussianWarCrimes",
+      "type": "story",
+      "url": "https://warcrimes.gov.ua"
+    },
+    {
+      "by": "JNRowe",
+      "descendants": 0,
+      "id": 30654694,
+      "score": 1,
+      "time": 1647117644,
+      "title": "The hard part of type-checking Nix",
+      "type": "story",
+      "url": "https://www.haskellforall.com/2022/03/the-hard-part-of-type-checking-nix.html"
+    },
+    {
+      "by": "mathieutd",
+      "descendants": 0,
+      "id": 30654693,
+      "score": 1,
+      "time": 1647117634,
+      "title": "The Case for Induction Cooking",
+      "type": "story",
+      "url": "https://www.nytimes.com/2022/03/11/dining/induction-cooking.html"
+    },
+    {
       "by": "quercusa",
       "descendants": 0,
       "id": 30654668,
@@ -49,59 +99,6 @@
       "title": "NFT Is Worthless: Copyright and Generative Art Problem for NFT Collections",
       "type": "story",
       "url": "https://www.ipwatchdog.com/2022/02/20/sorry-nft-worthless-copyright-generative-art-problem-nft-collections/id=146163/"
-    },
-    {
-      "by": "Caiero",
-      "descendants": 0,
-      "id": 30654525,
-      "score": 1,
-      "time": 1647116282,
-      "title": "The Lost Generations",
-      "type": "story",
-      "url": "https://www.historytoday.com/archive/out-margins/lost-generations"
-    },
-    {
-      "by": "bryanrasmussen",
-      "descendants": 0,
-      "id": 30654519,
-      "score": 1,
-      "time": 1647116261,
-      "title": "3D Scanning Uncovers an Inca Water System Hidden Beneath the Machu Picchu Jungle",
-      "type": "story",
-      "url": "https://www.archdaily.com/977837/3d-scanning-uncovers-an-inca-water-system-hidden-beneath-the-machu-picchu-jungle"
-    },
-    {
-      "by": "seam_carver",
-      "descendants": 0,
-      "id": 30654506,
-      "score": 1,
-      "text": "TLDR: Use macOS Monterey’s new Low Power Mode if you have issues with heat&#x2F;fan noise&#x2F;battery life with your MacBook Pro while plugged into an external monitor.<p>For context, there’s a 230+ page thread on MacRumors of people complaining and troubleshooting the issue of excessive heat&#x2F;fan noise when using their 2019 16&quot; MBP’s while plugged into an external monitor. The general consensus was that you had to use the laptop with the lid closed (clamshell mode) to avoid the issue. This obviously didn’t fit with a lot of people’s workflows, but was preferable to the MBP’s fans running at full blast constantly while plugged into a monitor.<p>In addition, I myself wrote an article detailing a fix regarding specifically 1440p60 monitors, since it still had the overheating issue even with the lid closed. It got 60K+ views and 300+ upvotes on Hacker News, and many comments of people saying that the fix worked for them. The fix was a little hacky, but made due until Apple finally released an official fix in macOS Monterey.<p>Prior to the fix in macOS Big Sur, when idle and plugged into an external monitor, the GPU alone would consume ~18W constantly. This is insane power draw for a laptop at idle. In context, the rest of the system is only drawing ~12W at idle. And the GPU draws basically no power when using the laptop alone with no monitor attached at idle.<p>I measured the GPU usage using exelban&#x2F;stats. You don’t need to install it yourself, I just used it to identify the root cause of the problem, excessive GPU power draw.<p>After upgrading to Monterey, now idle power consumption is ~14W. Better, but still kind of high.<p>But Monterey added a new feature called Low Power Mode. It’s described as “reduce energy usage and operate more quietly.”<p>And after enabling Low Power Mode, it now reports ~6W in extended display mode. And since I have it setup to mirror displays instead, it even reports as low as ~5W! Now my MacBook is completely silent in all tasks, when previously I could hear the fans through my headphones during screen shares and zoom calls! And I haven’t noticed any performance drop!<p>And remember, there are two different Low Power Modes, one for on battery, and one for when plugged into Power Adapter.<p>It’s in System Preferences &gt; Battery &gt; Power Adapter&gt; Low Power Mode or<p>System Preferences &gt; Battery &gt; Battery &gt; Low Power Mode.<p>Don’t forget Battery and Power Adapter have separate low power modes! I just enabled both for simplicity.<p>So what are you waiting for? Upgrade to Monterey! \nAnd even if you have a different laptop with or without these issues, you can still expect a bump in battery life with low power mode! Thankfully, Apple hasn’t abandoned us Intel users even after all the new M1s came out.<p>(However, please note that for some reason, after enabling low power mode, for some reason GPU wattage jumped up to 14W at idle at some point after messing with some settings and wouldn’t go back down to 6W. Disabling low power mode and restarting solved this issue for me and haven’t had the issue since. So if low power mode doesn’t work for you, disable it, restart, and try again.)",
-      "time": 1647116178,
-      "title": "Solved by Monterey: 2019 MacBook Pro 16\" is hot and noisy with a monitor",
-      "type": "story"
-    },
-    {
-      "by": "susam",
-      "descendants": 1,
-      "id": 30654497,
-      "kids": [
-        30654677
-      ],
-      "score": 11,
-      "time": 1647116112,
-      "title": "Comfort of Bloated Web",
-      "type": "story",
-      "url": "https://susam.net/maze/wall/comfort-of-bloated-web.html"
-    },
-    {
-      "by": "doctorshady",
-      "descendants": 0,
-      "id": 30654469,
-      "score": 1,
-      "time": 1647115900,
-      "title": "Why Russia’s “disconnection” from the Internet isn’t amounting to much",
-      "type": "story",
-      "url": "https://arstechnica.com/information-technology/2022/03/why-russias-disconnection-from-the-internet-isnt-amounting-to-much/"
     }
   ]
 }
