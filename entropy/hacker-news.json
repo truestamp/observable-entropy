@@ -1,6 +1,46 @@
 {
   "stories": [
     {
+      "by": "Caiero",
+      "descendants": 0,
+      "id": 30654525,
+      "score": 1,
+      "time": 1647116282,
+      "title": "The Lost Generations",
+      "type": "story",
+      "url": "https://www.historytoday.com/archive/out-margins/lost-generations"
+    },
+    {
+      "by": "bryanrasmussen",
+      "descendants": 0,
+      "id": 30654519,
+      "score": 1,
+      "time": 1647116261,
+      "title": "3D Scanning Uncovers an Inca Water System Hidden Beneath the Machu Picchu Jungle",
+      "type": "story",
+      "url": "https://www.archdaily.com/977837/3d-scanning-uncovers-an-inca-water-system-hidden-beneath-the-machu-picchu-jungle"
+    },
+    {
+      "by": "seam_carver",
+      "descendants": 0,
+      "id": 30654506,
+      "score": 1,
+      "text": "TLDR: Use macOS Monterey’s new Low Power Mode if you have issues with heat&#x2F;fan noise&#x2F;battery life with your MacBook Pro while plugged into an external monitor.<p>For context, there’s a 230+ page thread on MacRumors of people complaining and troubleshooting the issue of excessive heat&#x2F;fan noise when using their 2019 16&quot; MBP’s while plugged into an external monitor. The general consensus was that you had to use the laptop with the lid closed (clamshell mode) to avoid the issue. This obviously didn’t fit with a lot of people’s workflows, but was preferable to the MBP’s fans running at full blast constantly while plugged into a monitor.<p>In addition, I myself wrote an article detailing a fix regarding specifically 1440p60 monitors, since it still had the overheating issue even with the lid closed. It got 60K+ views and 300+ upvotes on Hacker News, and many comments of people saying that the fix worked for them. The fix was a little hacky, but made due until Apple finally released an official fix in macOS Monterey.<p>Prior to the fix in macOS Big Sur, when idle and plugged into an external monitor, the GPU alone would consume ~18W constantly. This is insane power draw for a laptop at idle. In context, the rest of the system is only drawing ~12W at idle. And the GPU draws basically no power when using the laptop alone with no monitor attached at idle.<p>I measured the GPU usage using exelban&#x2F;stats. You don’t need to install it yourself, I just used it to identify the root cause of the problem, excessive GPU power draw.<p>After upgrading to Monterey, now idle power consumption is ~14W. Better, but still kind of high.<p>But Monterey added a new feature called Low Power Mode. It’s described as “reduce energy usage and operate more quietly.”<p>And after enabling Low Power Mode, it now reports ~6W in extended display mode. And since I have it setup to mirror displays instead, it even reports as low as ~5W! Now my MacBook is completely silent in all tasks, when previously I could hear the fans through my headphones during screen shares and zoom calls! And I haven’t noticed any performance drop!<p>And remember, there are two different Low Power Modes, one for on battery, and one for when plugged into Power Adapter.<p>It’s in System Preferences &gt; Battery &gt; Power Adapter&gt; Low Power Mode or<p>System Preferences &gt; Battery &gt; Battery &gt; Low Power Mode.<p>Don’t forget Battery and Power Adapter have separate low power modes! I just enabled both for simplicity.<p>So what are you waiting for? Upgrade to Monterey! \nAnd even if you have a different laptop with or without these issues, you can still expect a bump in battery life with low power mode! Thankfully, Apple hasn’t abandoned us Intel users even after all the new M1s came out.<p>(However, please note that for some reason, after enabling low power mode, for some reason GPU wattage jumped up to 14W at idle at some point after messing with some settings and wouldn’t go back down to 6W. Disabling low power mode and restarting solved this issue for me and haven’t had the issue since. So if low power mode doesn’t work for you, disable it, restart, and try again.)",
+      "time": 1647116178,
+      "title": "Solved by Monterey: 2019 MacBook Pro 16\" is hot and noisy with a monitor",
+      "type": "story"
+    },
+    {
+      "by": "susam",
+      "descendants": 0,
+      "id": 30654497,
+      "score": 3,
+      "time": 1647116112,
+      "title": "Comfort of Bloated Web",
+      "type": "story",
+      "url": "https://susam.net/maze/wall/comfort-of-bloated-web.html"
+    },
+    {
       "by": "doctorshady",
       "descendants": 0,
       "id": 30654469,
@@ -59,54 +99,6 @@
       "title": "Will 2022 Be a Golden Age for Full-Stack JavaScript?",
       "type": "story",
       "url": "https://thenewstack.io/will-2022-be-a-golden-age-for-full-stack-javascript/"
-    },
-    {
-      "by": "awb",
-      "descendants": 0,
-      "id": 30654355,
-      "score": 1,
-      "time": 1647114936,
-      "title": "Two Weeks into War, Russia’s Economy Has Rarely Fared Worse Than Now",
-      "type": "story",
-      "url": "https://uk.news.yahoo.com/two-weeks-war-russia-economy-135905946.html"
-    },
-    {
-      "by": "FastEatSlow",
-      "descendants": 0,
-      "id": 30654332,
-      "score": 1,
-      "time": 1647114751,
-      "title": "Hacking Back in AsyncRAT",
-      "type": "story",
-      "url": "https://brianstadnicki.github.io/posts/vulnerability-asyncrat-rce/"
-    },
-    {
-      "by": "rntn",
-      "descendants": 2,
-      "id": 30654309,
-      "kids": [
-        30654481,
-        30654331,
-        30654408
-      ],
-      "score": 3,
-      "time": 1647114642,
-      "title": "Ukrainians Win the Long War",
-      "type": "story",
-      "url": "https://lite.cnn.com/en/article/h_92b8577f8a8067e5a7563d3910229ecb"
-    },
-    {
-      "by": "qwertyuiop_",
-      "descendants": 1,
-      "id": 30654306,
-      "kids": [
-        30654430
-      ],
-      "score": 9,
-      "time": 1647114580,
-      "title": "Chinese drone manufacturer DJI has limited capability for the Ukrainian army",
-      "type": "story",
-      "url": "https://www.aroged.com/2022/03/10/developer-chinese-drone-manufacturer-dji-has-limited-the-use-of-aeroscope-technology-for-the-ukrainian-army-but-not-for-the-russian-one/"
     }
   ]
 }
