@@ -1,6 +1,36 @@
 {
   "stories": [
     {
+      "by": "prtkgpt",
+      "descendants": 0,
+      "id": 30661491,
+      "score": 1,
+      "time": 1647181758,
+      "title": "How to build your community in a new city",
+      "type": "story",
+      "url": "https://prtkgpt.medium.com/how-to-build-your-community-in-a-new-city-12607f18931c"
+    },
+    {
+      "by": "ofou",
+      "descendants": 0,
+      "id": 30661478,
+      "score": 1,
+      "time": 1647181670,
+      "title": "S2: Computational geometry and spatial indexing on the sphere",
+      "type": "story",
+      "url": "https://github.com/google/s2geometry"
+    },
+    {
+      "by": "onlyi_spectator",
+      "descendants": 0,
+      "id": 30661465,
+      "score": 1,
+      "time": 1647181583,
+      "title": "Irwin on Trade Reform",
+      "type": "story",
+      "url": "https://johnhcochrane.blogspot.com/2022/03/irwin-on-trade-reform.html"
+    },
+    {
       "by": "nguyenlehoang",
       "descendants": 0,
       "id": 30661426,
@@ -33,7 +63,7 @@
       "by": "based2",
       "descendants": 0,
       "id": 30661381,
-      "score": 1,
+      "score": 2,
       "time": 1647180860,
       "title": "Audiophile Linux",
       "type": "story",
@@ -43,7 +73,7 @@
       "by": "elteto",
       "descendants": 0,
       "id": 30661379,
-      "score": 4,
+      "score": 5,
       "time": 1647180847,
       "title": "Pipe Logic (2011)",
       "type": "story",
@@ -51,8 +81,11 @@
     },
     {
       "by": "News-Dog",
-      "descendants": 0,
+      "descendants": 1,
       "id": 30661378,
+      "kids": [
+        30661474
+      ],
       "score": 1,
       "time": 1647180845,
       "title": "89% of Global cyberattacks are aimed at Russia or Ukraine",
@@ -68,41 +101,6 @@
       "title": "Tuterm: A better way to learn CLI programs",
       "type": "story",
       "url": "https://github.com/veracioux/tuterm"
-    },
-    {
-      "by": "piinbinary",
-      "descendants": 0,
-      "id": 30661340,
-      "score": 1,
-      "time": 1647180584,
-      "title": "Let a thousand flowers bloom. Then rip 999 of them out by the roots",
-      "type": "story",
-      "url": "https://gigamonkeys.com/flowers/"
-    },
-    {
-      "by": "EugeneOZ",
-      "descendants": 1,
-      "id": 30661335,
-      "kids": [
-        30661346,
-        30661353,
-        30661366
-      ],
-      "score": 3,
-      "time": 1647180505,
-      "title": "Telegram Cooperates with FSB (Rus)",
-      "type": "story",
-      "url": "https://pdmnews.ru/25704/"
-    },
-    {
-      "by": "kkopanidis",
-      "descendants": 0,
-      "id": 30661331,
-      "score": 2,
-      "text": "Hello everyone! This is my first time writing here, and I want to introduce you to the project I&#x27;ve been working on for some time!<p>It&#x27;s called Conduit and it&#x27;s a new platform to build your next application on. I&#x27;ve been working with similar solutions since 2014, beginning with Parse (even after it was made open-source), moving to firebase and then mostly sticking to custom backends. On 2017 I founded a Software Development agency and quickly realised that if we were to improve quality and increase speeds we need a platform to help us do that.<p>Parse was kind of outdated for us at that point, and Firebase hasn&#x27;t (even after so many years) caught up to the flexibility the former provided. You can do MVPs yes, but you end up moving logic to the front-end or use the serverless functions that have many limitations and slow cold-start times. So for me and my dev team, it wasn&#x27;t a solution for anything further than authentication management and push notifications.<p>So, back in 2020 I begun working on Conduit, with 3 targets: Provide common functionality out of the box, do not limit devs and lastly it should work in the same philosophy a custom backend would. This meant effectively no runtime overheads (or at the very least only minor ones), a flexible API, micro-service based architecture with each service housing a particular set of features (ex. Authentication, Database, Email etc) and of course it uses gRPC for service-to-service communications so devs can create new modules from whatever language and&#x2F;or framework they want!<p>Fast-forward in 2022, we&#x27;ve already used in 5 production projects for clients. Our front-end teams love it, our backend teams have more free time than ever to work in more complex problems, and bugs in production have been reduced drastically. It even withstood a user surge in one project were we had more than 10.000 req&#x2F;min (we spun up more instances to account for the load).<p>I&#x27;d love to answer any and all questions you have about it! And I hope you like it enough to give us a star in GitHub :D<p>Links:\nwebsite: https:&#x2F;&#x2F;getconduit.dev&#x2F; GitHub: https:&#x2F;&#x2F;github.com&#x2F;ConduitPlatform&#x2F;Conduit",
-      "time": 1647180439,
-      "title": "Conduit: A new Backend as a Service solution",
-      "type": "story"
     }
   ]
 }
