@@ -1,10 +1,20 @@
 {
   "stories": [
     {
+      "by": "mseckykoebel",
+      "descendants": 0,
+      "id": 30661718,
+      "score": 2,
+      "text": "Hi HN,<p>I&#x27;ve been unable to find a good all-in-one tool&#x2F;dashboard that tracks the effects of the war (current map, economic impacts, the refugee crisis, up-to-date news stories, photo gallery, etc). I started building ukrainedashboard.com to solve this (currently an MVP).<p>Mostly looking for feedback on what I should add to this: what kind of information regarding the war that you wish was easier to find&#x2F;keep track of? For reference, I&#x27;m in the US.<p>Thanks!",
+      "time": 1647183171,
+      "title": "Ask HN: What information about the war do you care about?",
+      "type": "story"
+    },
+    {
       "by": "metahost",
       "descendants": 0,
       "id": 30661678,
-      "score": 1,
+      "score": 2,
       "time": 1647182951,
       "title": "UK Network Operators Target iCloud Private Relay in Complaint to Regulator",
       "type": "story",
@@ -24,7 +34,7 @@
       "by": "mkr-hn",
       "descendants": 0,
       "id": 30661633,
-      "score": 1,
+      "score": 2,
       "time": 1647182630,
       "title": "Why We Banned the Word “Ethnic” (2019)",
       "type": "story",
@@ -32,8 +42,11 @@
     },
     {
       "by": "jger15",
-      "descendants": 0,
+      "descendants": 1,
       "id": 30661626,
+      "kids": [
+        30661740
+      ],
       "score": 2,
       "time": 1647182542,
       "title": "Are “safe” levels of air pollution safe?",
@@ -84,21 +97,14 @@
       "by": "elorant",
       "descendants": 0,
       "id": 30661580,
+      "kids": [
+        30661691
+      ],
       "score": 1,
       "time": 1647182323,
       "title": "Ants Can 'Sniff Out' Cancer, Scientists Discover",
       "type": "story",
       "url": "https://www.cnet.com/science/biology/ants-can-sniff-out-cancer-scientists-discover/"
-    },
-    {
-      "by": "kkopanidis",
-      "descendants": 0,
-      "id": 30661577,
-      "score": 3,
-      "text": "Hello everyone! I want to introduce you to the project I&#x27;ve been working on for some time!<p>It&#x27;s called Conduit and it&#x27;s a new platform to build your next application on. I&#x27;ve been working with similar solutions since 2014, beginning with Parse (even after it was made open-source), moving to firebase and then mostly sticking to custom backends. On 2017 I founded a Software Development agency and quickly realised that if we were to improve quality and increase speeds we need a platform to help us do that.<p>Parse was kind of outdated for us at that point, and Firebase hasn&#x27;t (even after so many years) caught up to the flexibility the former provided. You can do MVPs yes, but you end up moving logic to the front-end or use the serverless functions that have many limitations and slow cold-start times. So for me and my dev team, it wasn&#x27;t a solution for anything further than authentication management and push notifications.<p>So, back in 2020 I begun working on Conduit, with 3 targets: Provide common functionality out of the box, do not limit devs and lastly it should work in the same philosophy a custom backend would. This meant effectively no runtime overheads (or at the very least only minor ones), a flexible API, micro-service based architecture with each service housing a particular set of features (ex. Authentication, Database, Email etc) and of course it uses gRPC for service-to-service communications so devs can create new modules from whatever language and&#x2F;or framework they want!<p>Fast-forward in 2022, we&#x27;ve already used in 5 production projects for clients. Our front-end teams love it, our backend teams have more free time than ever to work in more complex problems, and bugs in production have been reduced drastically. It even withstood a user surge in one project were we had more than 10.000 req&#x2F;min (we spun up more instances to account for the load).<p>I&#x27;d love to answer any and all questions you have about it! And I hope you like it enough to give us a star in GitHub :D<p>Links:\nwebsite: https:&#x2F;&#x2F;getconduit.dev&#x2F; GitHub: https:&#x2F;&#x2F;github.com&#x2F;ConduitPlatform&#x2F;Conduit",
-      "time": 1647182293,
-      "title": "Show HN: A Self-Hosted back end solution in Node.js",
-      "type": "story"
     }
   ]
 }
