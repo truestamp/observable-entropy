@@ -1,9 +1,72 @@
 {
   "stories": [
     {
-      "by": "politelemon",
+      "by": "nameforuser",
       "descendants": 0,
+      "id": 30665123,
+      "score": 1,
+      "text": "Relevant context: I&#x27;m 28, live near Philadelphia, PA, I&#x27;m single, have no degree (dropped out 40% through a non stem degree), have been unemployed since December 2019, and have little coding experience. I have a serious disc injury in my back which limits the type of jobs I can work. I&#x27;m also autistic and do much better with technical things then customer focused. I&#x27;m totally ok working in a team though! I currently live with family, which is not ideal but not terrible. I have been thinking about doing a coding a coding boot camp (specifically Launch School using their deferred payment) or alternatively learning Python with the goal of finding a entry level remote job. I currently make zero dollars a month and my savings is quickly disappearing.<p>And here&#x27;s the actual question part.. Do you think this is a good plan? Do you have any advice? My long term goal is to find a get a degree in biology or neuroscience, I think the technical skills from coding would be a great asset in those fields. Finding a remote job is more urgent to me then finishing a degree because because I want to be able to pay for healthcare stuff that isn&#x27;t covered by my insurance (medicaid) and move out of the small town I live in. I previously lived in a large city with roommates before my injury. Maybe I&#x27;m putting the cart before the horse here. Id much rather go the coding bootcamp route then take out student loans. I think I would do better with learning in a structured course then with just my Python textbook. Thank you for reading!",
+      "time": 1647201566,
+      "title": "What would you do if you were me? Coding bootcamp question",
+      "type": "story"
+    },
+    {
+      "by": "belter",
+      "descendants": 0,
+      "id": 30665107,
+      "score": 1,
+      "time": 1647201445,
+      "title": "Shaming Apple and Texting Musk, a Ukraine Minister Uses Novel War Tactics",
+      "type": "story",
+      "url": "https://www.nytimes.com/2022/03/12/technology/ukraine-minister-war-digital.html"
+    },
+    {
+      "by": "labrador",
+      "descendants": 0,
+      "id": 30665106,
+      "score": 3,
+      "time": 1647201444,
+      "title": "Russia asks China for military assistance in its invasion of Ukraine",
+      "type": "story",
+      "url": "https://www.ft.com/content/30850470-8c8c-4b53-aa39-01497064a7b7"
+    },
+    {
+      "by": "julienfr112",
+      "descendants": 0,
+      "id": 30665105,
+      "score": 2,
+      "time": 1647201435,
+      "title": "Ukrainian drone startup, asking donation",
+      "type": "story",
+      "url": "https://uadynamics.com/"
+    },
+    {
+      "by": "10000truths",
+      "descendants": 0,
+      "id": 30665095,
+      "score": 1,
+      "time": 1647201376,
+      "title": "Tech Trend: Shanzhai (2009)",
+      "type": "story",
+      "url": "https://www.bunniestudios.com/blog/?p=284"
+    },
+    {
+      "by": "Ambolia",
+      "descendants": 0,
+      "id": 30665081,
+      "score": 1,
+      "time": 1647201310,
+      "title": "Dr. Klaus Schwab Or: How the CFR Taught Me to Stop Worrying and Love the Bomb",
+      "type": "story",
+      "url": "https://unlimitedhangout.com/2022/03/investigative-reports/dr-klaus-schwab-or-how-the-cfr-taught-me-to-stop-worrying-and-love-the-bomb/"
+    },
+    {
+      "by": "politelemon",
+      "descendants": 1,
       "id": 30665061,
+      "kids": [
+        30665088
+      ],
       "score": 2,
       "time": 1647201174,
       "title": "Discontinuation of the Vanced Project",
@@ -39,69 +102,6 @@
       "title": "CLI for Linear",
       "type": "story",
       "url": "https://github.com/evangodon/linear-cli"
-    },
-    {
-      "by": "avrionov",
-      "descendants": 0,
-      "id": 30665022,
-      "score": 1,
-      "time": 1647200943,
-      "title": "Stephen Kotkin on Putin, Ukraine and Russia",
-      "type": "story",
-      "url": "https://www.newyorker.com/news/q-and-a/stephen-kotkin-putin-russia-ukraine-stalin"
-    },
-    {
-      "by": "jrib",
-      "descendants": 0,
-      "id": 30665018,
-      "score": 1,
-      "time": 1647200894,
-      "title": "Savage, a computer algebra system written in Rust",
-      "type": "story",
-      "url": "https://old.reddit.com/r/rust/comments/tcxrs3/announcing_savage_a_computer_algebra_system/"
-    },
-    {
-      "by": "Wowfunhappy",
-      "descendants": 0,
-      "id": 30664998,
-      "score": 1,
-      "time": 1647200752,
-      "title": "How to treat pain in premature infants, who can’t tell you when it hurts",
-      "type": "story",
-      "url": "https://www.vox.com/science-and-health/22949159/nicu-babies-pain-treatments-podcast-unexplainable"
-    },
-    {
-      "by": "amai",
-      "descendants": 0,
-      "id": 30664994,
-      "score": 1,
-      "time": 1647200713,
-      "title": "How the West undermines its own sanctions",
-      "type": "story",
-      "url": "https://www.theatlantic.com/ideas/archive/2022/03/russia-oligarchs-evade-sanctions-anonymous/626968/"
-    },
-    {
-      "by": "semicolonandson",
-      "descendants": 1,
-      "id": 30664984,
-      "kids": [
-        30665054
-      ],
-      "score": 2,
-      "text": "As my engineering team grows, there are naturally differences in opinion as to how things should be done<p>- e.g. &quot;Should a single X.js file contain both the React component and its styles OR should we create both an X.js (which contains only React and no css) and a linked-to X.css files?&quot; \n- e.g. 2 &quot;Should we use dash-case for CSS class or camelCase or snake_case?&quot;<p>I&#x27;ve scheduled a meeting next week where the goal is to reach some consensus. Seeing as I will be moderating this meeting, I wonder how I should approach things? Should we agree on some basic goods up-front (e.g. codebase consistency, standard community practice) and then proceed to rate each competing practice along these dimensions? How do I deal with nebulous goods - one I hear often is &quot;this approach is cleaner&quot;. But many of these times I don&#x27;t see a difference in cleanliness or any pragmatic value in that aspect of cleanliness. And then if consensus cannot be agreed informally, would it make sense to put it to vote anonymously and chose the most popular practice?<p>One of the factors that makes this challenging is that many best practice candidates started as innovations by one individual, and human nature being what it is, that individual is going to fight tooth and nail so that their innovation is chosen -- even though someone else is fighting back every bit as intensely for their competing innovation.<p>I am open for any ideas whatsoever here. I&#x27;m a long-time programmer but started managing programmers so don&#x27;t have any good framework for dealing with issues.<p>And big picture: I would rather have an engineering team that is passionate about the best way to do things rather than one that couldn&#x27;t care less.",
-      "time": 1647200653,
-      "title": "Ask HN: How to help an engineering team come to a consensus on best practices?",
-      "type": "story"
-    },
-    {
-      "by": "ingve",
-      "descendants": 0,
-      "id": 30664981,
-      "score": 1,
-      "time": 1647200641,
-      "title": "When to “Address” “Technical Debt”?",
-      "type": "story",
-      "url": "https://www.sicpers.info/2022/03/when-to-address-technical-debt/"
     }
   ]
 }
