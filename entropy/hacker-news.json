@@ -1,11 +1,61 @@
 {
   "stories": [
     {
+      "by": "kukabynd",
+      "descendants": 0,
+      "id": 30665031,
+      "score": 1,
+      "time": 1647200984,
+      "title": "CLI for Linear",
+      "type": "story",
+      "url": "https://github.com/evangodon/linear-cli"
+    },
+    {
+      "by": "avrionov",
+      "descendants": 0,
+      "id": 30665022,
+      "score": 1,
+      "time": 1647200943,
+      "title": "Stephen Kotkin on Putin, Ukraine and Russia",
+      "type": "story",
+      "url": "https://www.newyorker.com/news/q-and-a/stephen-kotkin-putin-russia-ukraine-stalin"
+    },
+    {
+      "by": "jrib",
+      "descendants": 0,
+      "id": 30665018,
+      "score": 1,
+      "time": 1647200894,
+      "title": "Savage, a computer algebra system written in Rust",
+      "type": "story",
+      "url": "https://old.reddit.com/r/rust/comments/tcxrs3/announcing_savage_a_computer_algebra_system/"
+    },
+    {
+      "by": "Wowfunhappy",
+      "descendants": 0,
+      "id": 30664998,
+      "score": 1,
+      "time": 1647200752,
+      "title": "How to treat pain in premature infants, who can’t tell you when it hurts",
+      "type": "story",
+      "url": "https://www.vox.com/science-and-health/22949159/nicu-babies-pain-treatments-podcast-unexplainable"
+    },
+    {
+      "by": "amai",
+      "descendants": 0,
+      "id": 30664994,
+      "score": 1,
+      "time": 1647200713,
+      "title": "How the West undermines its own sanctions",
+      "type": "story",
+      "url": "https://www.theatlantic.com/ideas/archive/2022/03/russia-oligarchs-evade-sanctions-anonymous/626968/"
+    },
+    {
       "by": "semicolonandson",
       "descendants": 0,
       "id": 30664984,
       "score": 1,
-      "text": "As my engineering team grows there are naturally differences in opinion as to how things should be done<p>- e.g. &quot;Should a single X.js file contain both the React component and its styles OR should we do the opposite and have X.js and X.css files&quot; \n- e.g. 2 &quot;Should we use dash-case for CSS class or camelCase or snake_case?&quot;<p>I&#x27;ve scheduled a meeting next week where the goal is to reach some consensus. Seeing as I will be moderating this meeting, I wonder how should I approach things? Should we agree on some basic goods up-front (e.g. codebase consistency, standard community practice) and the proceed to rate each competing practice along these dimensions? How do I deal with nebulous goods - one such good often claimed is that &quot;this approach is cleaner&quot;. But many of these times I don&#x27;t see a difference in cleanliness or any value in that aspect of cleanliness. And if consensus cannot be agreed informally, would it make sense to put it to vote anonymously and chose the most popular practice?<p>One of the factors that makes this challenging is that many best practice candidates started as innovations by one individual, and human nature being what it is, that individual will fight tooth and nail that their innovation is chosen.<p>I am open for any ideas whatsoever here. I&#x27;m a long-time programmer but started managing programmers so don&#x27;t have any good framework for dealing with issues",
+      "text": "As my engineering team grows, there are naturally differences in opinion as to how things should be done<p>- e.g. &quot;Should a single X.js file contain both the React component and its styles OR should we create both an X.js (which contains only React and no css) and a linked-to X.css files?&quot; \n- e.g. 2 &quot;Should we use dash-case for CSS class or camelCase or snake_case?&quot;<p>I&#x27;ve scheduled a meeting next week where the goal is to reach some consensus. Seeing as I will be moderating this meeting, I wonder how I should approach things? Should we agree on some basic goods up-front (e.g. codebase consistency, standard community practice) and then proceed to rate each competing practice along these dimensions? How do I deal with nebulous goods - one I hear often is &quot;this approach is cleaner&quot;. But many of these times I don&#x27;t see a difference in cleanliness or any pragmatic value in that aspect of cleanliness. And then if consensus cannot be agreed informally, would it make sense to put it to vote anonymously and chose the most popular practice?<p>One of the factors that makes this challenging is that many best practice candidates started as innovations by one individual, and human nature being what it is, that individual is going to fight tooth and nail so that their innovation is chosen -- even though someone else is fighting back every bit as intensely for their competing innovation.<p>I am open for any ideas whatsoever here. I&#x27;m a long-time programmer but started managing programmers so don&#x27;t have any good framework for dealing with issues.<p>And big picture: I would rather have an engineering team that is passionate about the best way to do things rather than one that couldn&#x27;t care less.",
       "time": 1647200653,
       "title": "Ask HN: How to help an engineering team come to a consensus on best practices?",
       "type": "story"
@@ -49,56 +99,6 @@
       "title": "The Debug Adapter Protocol and Scala. How it all works together",
       "type": "story",
       "url": "https://www.chris-kipp.io/blog/the-debug-adapter-protocol-and-scala"
-    },
-    {
-      "by": "kqr2",
-      "descendants": 0,
-      "id": 30664907,
-      "score": 1,
-      "time": 1647200132,
-      "title": "How the Pumpkin Got on the Cornell Clock Tower",
-      "type": "story",
-      "url": "https://cornelldailysun.github.io/pumpkin-feature/"
-    },
-    {
-      "by": "green-eclipse",
-      "descendants": 0,
-      "id": 30664902,
-      "score": 3,
-      "time": 1647200112,
-      "title": "American journalist Brent Renaud shot and killed by Russian forces in Ukraine",
-      "type": "story",
-      "url": "https://www.cbsnews.com/news/brent-renaud-ukraine-russia-american-journalist-killed/"
-    },
-    {
-      "by": "aljgz",
-      "descendants": 0,
-      "id": 30664898,
-      "score": 2,
-      "text": "TLDR: I use Todoist, Clockify, Gitlab issues, Google Calendar to plan and track my work, but also have to use notion and slack in relation to tasks. I also used Trello extensively in the past.<p>My problem is that none of the tools I use covers all variants of things I need.<p>1-Clockify is good to track where my time goes (and is used by my employer to roughly track how much resource is used per project and kind of activity. It has no planning ability. So I should plan somewhere else and then use Clockify to track the time.\n2-We use Gitlab issues for tasks that relate to product features, bugs, ..., but it&#x27;s not usable for meetings and such activities.\n3-Todoist is a good personal Todo list. It&#x27;s good for things that either should be done on a specific time, or should be done in priority. Not good for things that should be done periodically, especially if you have many of those.\n4-For meetings, using a common calendar is a must. To be able to find free time, etc.\n5-Trello is great for a simple Kanban experience and for its core features, but for things like time tracking it rapidly becomes difficult to use.<p>So I end up having to check Todoist, Calendar, Gitlab issues regularly to decide what to do next. I also need to use Clockify to track the time of the task I chose from those products. If something from Todoist escalates to become a team task that should not go into Gitlab, I have to delegate it, and keep the task open in Todoist to remember the follow-up.<p>I think that experience is not optimal: I like to have one tool (that ideally integrates well with Calendar, Clockify, etc), but check one single place to decide what to do next, and track my time from there, and if I delegate, it should go in a separate list, and ideally I should get an even better experience if some of my team also use the same product.<p>I&#x27;m even ready to start a project if none exists, but I hope I can find something, as I know it would be a non-trivial effort.<p>1-How do you plan your team&#x27;s tasks and your work related tasks ans personal tasks?\n2-Are you aware of such an all-in-one product?\n3-If not, do you think there is a reasonable demand for such a service?",
-      "time": 1647200102,
-      "title": "Ask HN: How do you plan and track your tasks?",
-      "type": "story"
-    },
-    {
-      "by": "vwoolf",
-      "descendants": 0,
-      "id": 30664895,
-      "score": 1,
-      "time": 1647200058,
-      "title": "Algorithmic Evolution",
-      "type": "story",
-      "url": "https://goodtosell.substack.com/p/algorithmic-evolution"
-    },
-    {
-      "by": "fixel",
-      "descendants": 0,
-      "id": 30664891,
-      "score": 2,
-      "time": 1647200024,
-      "title": "Monorepos Done Right",
-      "type": "story",
-      "url": "https://felixmulder.com/writing/2022/03/12/Monorepos-done-right.html"
     }
   ]
 }
