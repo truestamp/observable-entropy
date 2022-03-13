@@ -1,10 +1,20 @@
 {
   "stories": [
     {
+      "by": "oldPete",
+      "descendants": 0,
+      "id": 30659869,
+      "score": 2,
+      "text": "first some background:\nI created an alert definition generator script in bash, that has a variable defined like:<p>## TEAM DEV_threhold STAGING_threshold DEMO_threshold PROD_threshold ALERT_TYPE DB_USER<p>## ALERT_TYPE=&lt; warning | alert | custom&gt; (based on team notification routing configuration)<p>read -r -d &#x27;&#x27; ALERT_PARAMS &lt;&lt; EOM<p>team-1 1 2 3 4 warning db-user1<p>team-2 1 2 3 4 warning db-user2<p># comment lines<p>EOM<p>which I then use in same script to populate a yml file (for alertmanager)<p>echo &quot;$ALERT_PARAMS&quot; \\<p>| grep -v &#x27;^#&#x27; \\<p>|  while read -r vars... ; do generate_definition; done &gt; alerts.yml<p>Development teams are expected to add, update or delete lines for ALERT_PARAMS, and nothing else.<p>I chose &quot;team-1 1 2 3 4 warning db-user1&quot; format since this structure seems easy to understand and update by (multi year experienced) java, go and python developers in vim, atom, git{hub,lab} or whichever fancy editors developers use now a days. This format also means I can perform validations and sanity checks before&#x2F; inside&#x2F; after generate_definition step with only the bash shell inside a CI pipeline, without adding any more tool dependency or write relatively complex program. I value simplicity.<p>One engineer, with whom I checked first, believes (rather strongly) this format is not easy to understand and should be replaced with JSON or YAML because:<p>- developers don&#x27;t use editors like Vim.<p>- developers don&#x27;t have more than 5 seconds to understand the format, and high chances are devs wont understand or make mistakes in updates.<p>This seemed to me a bit odd feedback, though felt very genuine, so here I am seeking your input on:<p>- If and how, JSON and YAML (or similar formats) are better suited for simple use-cases like this?<p>- What might want a developer to not spend more than 5 seconds to understand how application&#x27;s database related alerts are generated?<p>To be clear I dont mind using what ever format majority uses, as long as we have everyone using the same format, I just want to understand what makes the above format harder to comprehend than YAML or JSON, and why spending more than 5 seconds, learning about databases, is such a big ask (co-incidentally after a two week long database related incident)?<p>How would you move forward if you were in my shoes?",
+      "time": 1647166544,
+      "title": "Ask HN: What is a good configuration format now a days?",
+      "type": "story"
+    },
+    {
       "by": "abno525",
       "descendants": 0,
       "id": 30659863,
-      "score": 1,
+      "score": 2,
       "time": 1647166476,
       "title": "Tempora (GCHQ)",
       "type": "story",
@@ -12,8 +22,11 @@
     },
     {
       "by": "bardc",
-      "descendants": 0,
+      "descendants": 1,
       "id": 30659834,
+      "kids": [
+        30659875
+      ],
       "score": 1,
       "time": 1647166232,
       "title": "Stickers blast Biden at gas pumps",
@@ -64,7 +77,7 @@
       "by": "cuu508",
       "descendants": 0,
       "id": 30659712,
-      "score": 4,
+      "score": 5,
       "time": 1647165132,
       "title": "Protests grow in Russia where they are being arrested for holding blank signs",
       "type": "story",
@@ -89,16 +102,6 @@
       "title": "Snmalloc: High-performance message passing based allocator",
       "type": "story",
       "url": "https://github.com/microsoft/snmalloc"
-    },
-    {
-      "by": "sdfsasdgearg",
-      "descendants": 0,
-      "id": 30659689,
-      "score": 1,
-      "text": "Do you feel that time is going fast after about 2018, I think it is the problem of atomic clocks.\nIt&#x27;s easy to detect when looking at the evening sun (compare the speed of movement in memory).",
-      "time": 1647164902,
-      "title": "Do you feel like time is faster now than before?",
-      "type": "story"
     }
   ]
 }
