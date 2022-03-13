@@ -1,6 +1,26 @@
 {
   "stories": [
     {
+      "by": "baraahnaddaf",
+      "descendants": 0,
+      "id": 30660081,
+      "score": 1,
+      "time": 1647168592,
+      "title": "The Story and What's in It?",
+      "type": "story",
+      "url": "https://www.thestoryandwhatsinthat.com/"
+    },
+    {
+      "by": "pseudolus",
+      "descendants": 0,
+      "id": 30660072,
+      "score": 1,
+      "time": 1647168482,
+      "title": "Jack Kerouac: still roadworthy after 100 years",
+      "type": "story",
+      "url": "https://www.theguardian.com/books/2022/mar/13/jack-kerouac-still-roadworthy-after-100-years"
+    },
+    {
       "by": "News-Dog",
       "descendants": 0,
       "id": 30660037,
@@ -45,8 +65,11 @@
     },
     {
       "by": "GrumpyNl",
-      "descendants": 0,
+      "descendants": 1,
       "id": 30659903,
+      "kids": [
+        30660082
+      ],
       "score": 2,
       "time": 1647166861,
       "title": "Pressure Whashers with App",
@@ -55,8 +78,11 @@
     },
     {
       "by": "oldPete",
-      "descendants": 0,
+      "descendants": 1,
       "id": 30659869,
+      "kids": [
+        30660058
+      ],
       "score": 3,
       "text": "first some background:\nI created an alert definition generator script in bash, that has a variable defined like:<p>## TEAM DEV_threhold STAGING_threshold DEMO_threshold PROD_threshold ALERT_TYPE DB_USER<p>## ALERT_TYPE=&lt; warning | alert | custom&gt; (based on team notification routing configuration)<p>read -r -d &#x27;&#x27; ALERT_PARAMS &lt;&lt; EOM<p>team-1 1 2 3 4 warning db-user1<p>team-2 1 2 3 4 warning db-user2<p># comment lines<p>EOM<p>which I then use in same script to populate a yml file (for alertmanager)<p>echo &quot;$ALERT_PARAMS&quot; \\<p>| grep -v &#x27;^#&#x27; \\<p>|  while read -r vars... ; do generate_definition; done &gt; alerts.yml<p>Development teams are expected to add, update or delete lines for ALERT_PARAMS, and nothing else.<p>I chose &quot;team-1 1 2 3 4 warning db-user1&quot; format since this structure seems easy to understand and update by (multi year experienced) java, go and python developers in vim, atom, git{hub,lab} or whichever fancy editors developers use now a days. This format also means I can perform validations and sanity checks before&#x2F; inside&#x2F; after generate_definition step with only the bash shell inside a CI pipeline, without adding any more tool dependency or write relatively complex program. I value simplicity.<p>One engineer, with whom I checked first, believes (rather strongly) this format is not easy to understand and should be replaced with JSON or YAML because:<p>- developers don&#x27;t use editors like Vim.<p>- developers don&#x27;t have more than 5 seconds to understand the format, and high chances are devs wont understand or make mistakes in updates.<p>This seemed to me a bit odd feedback, though felt very genuine, so here I am seeking your input on:<p>- If and how, JSON and YAML (or similar formats) are better suited for simple use-cases like this?<p>- What might want a developer to not spend more than 5 seconds to understand how application&#x27;s database related alerts are generated?<p>To be clear I dont mind using what ever format majority uses, as long as we have everyone using the same format, I just want to understand what makes the above format harder to comprehend than YAML or JSON, and why spending more than 5 seconds, learning about databases, is such a big ask (co-incidentally after a two week long database related incident)?<p>How would you move forward if you were in my shoes?",
       "time": 1647166544,
@@ -85,29 +111,6 @@
       "title": "Stickers blast Biden at gas pumps",
       "type": "story",
       "url": "https://nypost.com/2022/03/12/stickers-blast-biden-at-gas-pumps/"
-    },
-    {
-      "by": "losfair",
-      "descendants": 0,
-      "id": 30659833,
-      "score": 3,
-      "time": 1647166221,
-      "title": "Dioxus: React-like library for building cross-platform user interfaces in Rust",
-      "type": "story",
-      "url": "https://github.com/DioxusLabs/dioxus"
-    },
-    {
-      "by": "EntICOnc",
-      "descendants": 1,
-      "id": 30659785,
-      "kids": [
-        30659997
-      ],
-      "score": 2,
-      "time": 1647165706,
-      "title": "Erle Robotics: Python Networking Programming",
-      "type": "story",
-      "url": "https://erlerobotics.gitbooks.io/erle-robotics-python-gitbook-free/content/index.html"
     }
   ]
 }
