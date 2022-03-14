@@ -672,7 +672,7 @@ if (parsedArgs["entropy-upload-kv"]) {
               }
             } else {
               console.log(
-                `entropy-upload-kv : success : better uptime heartbeat not logged : no BETTER_UPTIME_HEARTBEAT_URL provided`,
+                `entropy-upload-kv : better uptime heartbeat not logged : no BETTER_UPTIME_HEARTBEAT_URL provided`,
               );
             }
           } else {
