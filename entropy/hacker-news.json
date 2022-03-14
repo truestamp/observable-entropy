@@ -1,6 +1,72 @@
 {
   "stories": [
     {
+      "by": "tb8424",
+      "descendants": 1,
+      "id": 30675831,
+      "kids": [
+        30675832
+      ],
+      "score": 1,
+      "time": 1647281352,
+      "title": "A free newsletter for BJJ hobbyists",
+      "type": "story",
+      "url": "https://grapplinglane.beehiiv.com/p/grappling-lane-issue-3"
+    },
+    {
+      "by": "cercatrova",
+      "descendants": 0,
+      "id": 30675809,
+      "score": 2,
+      "time": 1647281261,
+      "title": "“Zero To Production In Rust” is complete",
+      "type": "story",
+      "url": "https://twitter.com/algo_luca/status/1503409465420181510"
+    },
+    {
+      "by": "jarrenae",
+      "descendants": 0,
+      "id": 30675803,
+      "score": 2,
+      "time": 1647281234,
+      "title": "Mac StudiO's: Apple Breakfast",
+      "type": "story",
+      "url": "https://www.applebreakfast.com/"
+    },
+    {
+      "by": "melonbar",
+      "descendants": 1,
+      "id": 30675795,
+      "kids": [
+        30675847
+      ],
+      "score": 2,
+      "text": "So I am a contractor at FAANG in a major US city. I have participated in startups for some time, enjoyed it a lot, gotten to a YC interview once (sadly didn’t make it). One of my best buddies is talking about maybe relocating to the Valley (I am on the east coast) and I am very interested in joining him. We both work at the same company on the same project and want to pursue our remote contracts while giving our side projects a better chance at growth. We really enjoy remote work so location never was an issue. However, I do think there is a lot of validity to relocating. Any input would be greatly appreciated.",
+      "time": 1647281197,
+      "title": "Ask HN: Is moving to the Valley a good move?",
+      "type": "story"
+    },
+    {
+      "by": "clumsysmurf",
+      "descendants": 0,
+      "id": 30675786,
+      "score": 1,
+      "time": 1647281163,
+      "title": "Anyone can be trained to be creative, researchers say",
+      "type": "story",
+      "url": "https://medicalxpress.com/news/2022-03-creative.html"
+    },
+    {
+      "by": "bryanrasmussen",
+      "descendants": 0,
+      "id": 30675782,
+      "score": 1,
+      "time": 1647281134,
+      "title": "Embayment in East Antarctic basement constrains Rodinian continental margin",
+      "type": "story",
+      "url": "https://www.nature.com/articles/s43247-022-00375-z"
+    },
+    {
       "by": "ushakov",
       "descendants": 0,
       "id": 30675767,
@@ -9,16 +75,6 @@
       "title": "Checking out the Linux kernel in under a second",
       "type": "story",
       "url": "https://github.com/Byron/gitoxide/discussions/349"
-    },
-    {
-      "by": "forrest_briggs",
-      "descendants": 0,
-      "id": 30675763,
-      "score": 1,
-      "text": "Hi HN, I’m Forrest Briggs, CEO of Lifecast (www.lifecastvr.com), and my co-founder is Mateusz Berezecki. We make software to create 3D video for VR, robotics simulation, and virtual production. We convert any VR180 video or photo into our 6DOF VR video format, or into meshes compatible with Unreal Engine. Our 3D reconstruction is based on computer vision for dual fisheye lenses and deep learning.<p>VR video can be categorized as 3DOF (three degrees of freedom) or 6DOF (six degrees of freedom). 3DOF responds only to rotation, while 6DOF responds to both rotation and translation—meaning you get to move your head. VR games are 6DOF, but most VR videos are 3DOF. 3DOF can cause motion sickness and eye strain due to incorrect 3D rendering. 6DOF VR video fixes these problems for a more comfortable and immersive experience, but it is harder to make because it requires a 3D model of each frame of video.<p>There are some prototypes for 6DOF VR video systems in big tech, but they typically involve arrays of many cameras, so they are expensive, not very portable, and generate an impractical amount of data. Because of these challenges, 6DOF hasn&#x27;t been widely adopted by VR video creators.<p>In 2015 I was working on ads at Facebook, but I was more excited about VR. I built 3D cameras out of legos and GoPros, showed some of this at a hackathon, and eventually they let me do that as my day job. I was the first engineer on Facebook&#x27;s 3D VR camera team, which made Surround 360 (an open-source hardware&#x2F;software 3D VR camera), and Manifold (a ball of 20+ cameras for 6DOF). After Facebook, I was a tech lead on Lyft&#x27;s self-driving car project, and Google X&#x27;s everyday robot project.<p>I started Lifecast because I wasn&#x27;t satisfied with the progress on 6DOF VR video since I left Facebook. I learned new ideas from robotics which can improve VR video. The Oculus Quest 2 has just enough power to do something interesting with 6DOF. There have also been advances in computer vision and deep learning in the last few years that make it possible to do 6DOF better.<p>Our software makes it simple to create 6DOF VR video using any VR180 camera. It&#x27;s a GUI for Mac or Windows, which takes VR180 video or photos as input, and produces Lifecast&#x27;s 6DOF VR video format (more info: https:&#x2F;&#x2F;fbriggs.medium.com&#x2F;6dof-vr-video-from-vr180-cameras-2e17805ef3bc). VR180 video can be created with any VR180 camera; the Canon R5 is one of the best on the market right now. We make a video player for WebVR which runs on desktop, mobile or VR. Playing the videos on the Quest 2 doesn&#x27;t require installing any software, just visiting a web page in the Oculus Browser.<p>In addition to our 6DOF format, the software can also output point clouds (.pcd) or triangle meshes (.obj) compatible with Unreal Engine. We are seeing interest in using this for virtual production (2D film-making in a game engine), and creating environments for robotics simulation.<p>This recent video review&#x2F;tutorial does a nice job of explaining our tech: https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=_4a-RnTLu-I (video by Hugh Hou, not us). For something more interactive, the thumbnails on https:&#x2F;&#x2F;lifecastvr.com are links to demos that run in browser&#x2F;VR.<p>6DOF VR video is one piece of a larger puzzle. We envision a future where people wear AR glasses with 3D cameras, and use them to record and live-stream their experience. 3DOF is not sufficient for this because it causes motion sickness if the camera moves. We have prototypes which fix motion sickness in 3D POV VR video from wearable cameras. Watching the videos in VR feels like reliving a memory. Here&#x27;s a demo: https:&#x2F;&#x2F;lifecastvr.com&#x2F;trickshot.html<p>You can download a free trial from https:&#x2F;&#x2F;lifecastvr.com after entering your email address, but do not need to create a full account. The free trial is not limited in any way other than putting a watermark on the output.<p>We’d love to hear your thoughts and experiences about VR video, virtual production and robotics.",
-      "time": 1647281033,
-      "title": "Show HN: Lifecast (YC W22) – 3D video for VR and virtual production",
-      "type": "story"
     },
     {
       "by": "Shank",
@@ -49,56 +105,6 @@
       "title": "Google Forms New API Using Node.js",
       "type": "story",
       "url": "https://fusebit.io/blog/google-form-using-nodejs/"
-    },
-    {
-      "by": "mgh2",
-      "descendants": 0,
-      "id": 30675710,
-      "score": 1,
-      "time": 1647280803,
-      "title": "Busting the myth that Apple doesn't do User Research (2014)",
-      "type": "story",
-      "url": "https://www.experiencedynamics.com/blog/2014/09/busting-myth-apple-doesnt-do-user-research"
-    },
-    {
-      "by": "lizparody23",
-      "descendants": 0,
-      "id": 30675701,
-      "score": 1,
-      "time": 1647280763,
-      "title": "TikTok has become a dangerous breeding ground for mental disorders",
-      "type": "story",
-      "url": "https://nypost.com/2022/03/12/tiktok-has-become-a-dangerous-mental-disorder-breeding-ground/"
-    },
-    {
-      "by": "jon_adler",
-      "descendants": 0,
-      "id": 30675696,
-      "score": 1,
-      "time": 1647280738,
-      "title": "Microsoft proposes type syntax for JavaScript",
-      "type": "story",
-      "url": "https://www.theregister.com/2022/03/14/types_in_javascript/"
-    },
-    {
-      "by": "JNRowe",
-      "descendants": 0,
-      "id": 30675690,
-      "score": 1,
-      "time": 1647280719,
-      "title": "Solo solitaire dungeon crawl card game",
-      "type": "story",
-      "url": "https://www.kryogenix.org/days/2022/03/13/solo-solitaire-dungeon-crawl-card-game/"
-    },
-    {
-      "by": "softwarebeware",
-      "descendants": 0,
-      "id": 30675666,
-      "score": 2,
-      "time": 1647280626,
-      "title": "Medical student surgically implants Bluetooth into own ear to cheat in final",
-      "type": "story",
-      "url": "https://www.independent.co.uk/asia/india/mbbs-student-bluetooth-cheating-bhopal-b2021217.html"
     }
   ]
 }
