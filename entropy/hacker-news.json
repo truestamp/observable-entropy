@@ -1,6 +1,56 @@
 {
   "stories": [
     {
+      "by": "ushakov",
+      "descendants": 0,
+      "id": 30675767,
+      "score": 1,
+      "time": 1647281062,
+      "title": "Checking out the Linux kernel in under a second",
+      "type": "story",
+      "url": "https://github.com/Byron/gitoxide/discussions/349"
+    },
+    {
+      "by": "forrest_briggs",
+      "descendants": 0,
+      "id": 30675763,
+      "score": 1,
+      "text": "Hi HN, I’m Forrest Briggs, CEO of Lifecast (www.lifecastvr.com), and my co-founder is Mateusz Berezecki. We make software to create 3D video for VR, robotics simulation, and virtual production. We convert any VR180 video or photo into our 6DOF VR video format, or into meshes compatible with Unreal Engine. Our 3D reconstruction is based on computer vision for dual fisheye lenses and deep learning.<p>VR video can be categorized as 3DOF (three degrees of freedom) or 6DOF (six degrees of freedom). 3DOF responds only to rotation, while 6DOF responds to both rotation and translation—meaning you get to move your head. VR games are 6DOF, but most VR videos are 3DOF. 3DOF can cause motion sickness and eye strain due to incorrect 3D rendering. 6DOF VR video fixes these problems for a more comfortable and immersive experience, but it is harder to make because it requires a 3D model of each frame of video.<p>There are some prototypes for 6DOF VR video systems in big tech, but they typically involve arrays of many cameras, so they are expensive, not very portable, and generate an impractical amount of data. Because of these challenges, 6DOF hasn&#x27;t been widely adopted by VR video creators.<p>In 2015 I was working on ads at Facebook, but I was more excited about VR. I built 3D cameras out of legos and GoPros, showed some of this at a hackathon, and eventually they let me do that as my day job. I was the first engineer on Facebook&#x27;s 3D VR camera team, which made Surround 360 (an open-source hardware&#x2F;software 3D VR camera), and Manifold (a ball of 20+ cameras for 6DOF). After Facebook, I was a tech lead on Lyft&#x27;s self-driving car project, and Google X&#x27;s everyday robot project.<p>I started Lifecast because I wasn&#x27;t satisfied with the progress on 6DOF VR video since I left Facebook. I learned new ideas from robotics which can improve VR video. The Oculus Quest 2 has just enough power to do something interesting with 6DOF. There have also been advances in computer vision and deep learning in the last few years that make it possible to do 6DOF better.<p>Our software makes it simple to create 6DOF VR video using any VR180 camera. It&#x27;s a GUI for Mac or Windows, which takes VR180 video or photos as input, and produces Lifecast&#x27;s 6DOF VR video format (more info: https:&#x2F;&#x2F;fbriggs.medium.com&#x2F;6dof-vr-video-from-vr180-cameras-2e17805ef3bc). VR180 video can be created with any VR180 camera; the Canon R5 is one of the best on the market right now. We make a video player for WebVR which runs on desktop, mobile or VR. Playing the videos on the Quest 2 doesn&#x27;t require installing any software, just visiting a web page in the Oculus Browser.<p>In addition to our 6DOF format, the software can also output point clouds (.pcd) or triangle meshes (.obj) compatible with Unreal Engine. We are seeing interest in using this for virtual production (2D film-making in a game engine), and creating environments for robotics simulation.<p>This recent video review&#x2F;tutorial does a nice job of explaining our tech: https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=_4a-RnTLu-I (video by Hugh Hou, not us). For something more interactive, the thumbnails on https:&#x2F;&#x2F;lifecastvr.com are links to demos that run in browser&#x2F;VR.<p>6DOF VR video is one piece of a larger puzzle. We envision a future where people wear AR glasses with 3D cameras, and use them to record and live-stream their experience. 3DOF is not sufficient for this because it causes motion sickness if the camera moves. We have prototypes which fix motion sickness in 3D POV VR video from wearable cameras. Watching the videos in VR feels like reliving a memory. Here&#x27;s a demo: https:&#x2F;&#x2F;lifecastvr.com&#x2F;trickshot.html<p>You can download a free trial from https:&#x2F;&#x2F;lifecastvr.com after entering your email address, but do not need to create a full account. The free trial is not limited in any way other than putting a watermark on the output.<p>We’d love to hear your thoughts and experiences about VR video, virtual production and robotics.",
+      "time": 1647281033,
+      "title": "Show HN: Lifecast (YC W22) – 3D video for VR and virtual production",
+      "type": "story"
+    },
+    {
+      "by": "Shank",
+      "descendants": 0,
+      "id": 30675727,
+      "score": 3,
+      "time": 1647280855,
+      "title": "“The walk signs in Crystal City, VA are just repeating ”CHANGE PASSWORD“.”",
+      "type": "story",
+      "url": "https://twitter.com/JosephPolitano/status/1503131005389099011"
+    },
+    {
+      "by": "sonicrocketman",
+      "descendants": 0,
+      "id": 30675721,
+      "score": 1,
+      "time": 1647280837,
+      "title": "Wikidata Data Reuse Days 2022",
+      "type": "story",
+      "url": "https://diff.wikimedia.org/event/wikidata-data-reuse-days-2022/"
+    },
+    {
+      "by": "lizparody23",
+      "descendants": 0,
+      "id": 30675716,
+      "score": 1,
+      "time": 1647280821,
+      "title": "Google Forms New API Using Node.js",
+      "type": "story",
+      "url": "https://fusebit.io/blog/google-form-using-nodejs/"
+    },
+    {
       "by": "mgh2",
       "descendants": 0,
       "id": 30675710,
@@ -49,59 +99,6 @@
       "title": "Medical student surgically implants Bluetooth into own ear to cheat in final",
       "type": "story",
       "url": "https://www.independent.co.uk/asia/india/mbbs-student-bluetooth-cheating-bhopal-b2021217.html"
-    },
-    {
-      "by": "scrivna",
-      "descendants": 1,
-      "id": 30675664,
-      "kids": [
-        30675699
-      ],
-      "score": 1,
-      "time": 1647280618,
-      "title": "British tech champion Arm to slash hundreds (15%) of jobs",
-      "type": "story",
-      "url": "https://www.telegraph.co.uk/business/2022/03/14/british-tech-champion-arm-slash-hundreds-jobs/"
-    },
-    {
-      "by": "jocko66",
-      "descendants": 0,
-      "id": 30675655,
-      "score": 1,
-      "time": 1647280594,
-      "title": "My Guide to Writing a Killer Cover Letter",
-      "type": "story",
-      "url": "https://www.careerfair.io/reviews/cover-letter-guide"
-    },
-    {
-      "by": "grogu88",
-      "descendants": 0,
-      "id": 30675650,
-      "score": 2,
-      "time": 1647280570,
-      "title": "The next generation of robots will be shape-shifters",
-      "type": "story",
-      "url": "https://www.sciencedaily.com/releases/2022/03/220311141417.htm"
-    },
-    {
-      "by": "mocko",
-      "descendants": 0,
-      "id": 30675634,
-      "score": 1,
-      "time": 1647280513,
-      "title": "Julian Assange refused permission to appeal against US extradition",
-      "type": "story",
-      "url": "https://www.independent.co.uk/news/uk/home-news/julian-assange-us-extradition-appeal-b2035579.html"
-    },
-    {
-      "by": "aml183",
-      "descendants": 0,
-      "id": 30675612,
-      "score": 1,
-      "time": 1647280386,
-      "title": "Venturi Astrolab Emerges from Stealth with a Lunar Rover Prototype",
-      "type": "story",
-      "url": "https://payloadspace.com/venturi-astrolab-emerges-from-stealth-with-a-lunar-rover-prototype/"
     }
   ]
 }
