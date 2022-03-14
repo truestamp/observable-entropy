@@ -662,7 +662,7 @@ if (parsedArgs["entropy-upload-kv"]) {
             if (heartbeatUrl) {
               try {
                 const hb = await get(heartbeatUrl)
-                if (hb.ok) {
+                if (hb?.ok) {
                   console.log(
                     `entropy-upload-kv : success : better uptime heartbeat logged`,
                   );
@@ -670,6 +670,10 @@ if (parsedArgs["entropy-upload-kv"]) {
               } catch (error) {
                 console.error(`better uptime heartbeat failed : ${error.message}`)
               }
+            } else {
+              console.log(
+                `entropy-upload-kv : success : better uptime heartbeat not logged : no BETTER_UPTIME_HEARTBEAT_URL provided`,
+              );
             }
           } else {
             console.log(
