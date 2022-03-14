@@ -1,6 +1,36 @@
 {
   "stories": [
     {
+      "by": "News-Dog",
+      "descendants": 0,
+      "id": 30677710,
+      "score": 1,
+      "time": 1647289164,
+      "title": "Russia may-have found a Buyer for its Cheap Oil – India",
+      "type": "story",
+      "url": "https://lite.cnn.com/en/article/h_a07b1c0d5a96d9e4fc38ed6c624f4bc6"
+    },
+    {
+      "by": "kastden",
+      "descendants": 0,
+      "id": 30677675,
+      "score": 1,
+      "time": 1647289002,
+      "title": "DirectStorage API Now Available on PC",
+      "type": "story",
+      "url": "https://devblogs.microsoft.com/directx/directstorage-api-available-on-pc/"
+    },
+    {
+      "by": "dexwiz",
+      "descendants": 0,
+      "id": 30677661,
+      "score": 1,
+      "text": "A the start of the year I couldn&#x27;t go three articles without seeing something about NFTs. Less than 3 months later, and I barely see anything. Is this just normal hype cycle cooling, or were they really the scam everyone was decrying and have already passed?",
+      "time": 1647288937,
+      "title": "Ask HN: What Happened to NFTs?",
+      "type": "story"
+    },
+    {
       "by": "swamp40",
       "descendants": 0,
       "id": 30677645,
@@ -44,7 +74,7 @@
       "by": "marc__1",
       "descendants": 0,
       "id": 30677588,
-      "score": 1,
+      "score": 3,
       "time": 1647288647,
       "title": "Gitlab Reports FY 2022 Results",
       "type": "story",
@@ -62,9 +92,10 @@
     },
     {
       "by": "News-Dog",
-      "descendants": 0,
+      "descendants": 1,
       "id": 30677560,
       "kids": [
+        30677691,
         30677648
       ],
       "score": 4,
@@ -72,39 +103,6 @@
       "title": "Russia is trying to Install pro-Kremlin Officials into occupied-Cities",
       "type": "story",
       "url": "https://lite.cnn.com/en/article/h_7094bf11b48adf42b7dcb6f4726f7760"
-    },
-    {
-      "by": "Ajs1",
-      "descendants": 1,
-      "id": 30677556,
-      "kids": [
-        30677561
-      ],
-      "score": 2,
-      "text": "https:&#x2F;&#x2F;www.zebrium.com&#x2F;blog&#x2F;how-cisco-uses-zebrium-ml-to-analyze-logs-for-root-cause<p>Disclosure: I’m one of the co-founders behind the ML mentioned here. However the results in the link above were generated independently by Cisco.<p>There have been a number of write-ups and papers evaluating ML for logs over the last few years – by academics, engineers, and observability vendors. But these results have typically been limited to synthetic data sets (lab generated), or very limited in scope (a handful of real world data sets).<p>The Automation and Innovation team at Cisco just published test results from a study applying ML to a large corpus of actual software incidents. The goal was to test the efficacy of the ML in picking out root cause indicators from logs that spanned the duration of the problems.<p>Each problem’s log data set was run through the Zebrium ML engine, AND was also independently root caused by an engineer with expertise in that software. To be counted as a success, the summary ML output had to contain the same log event(s) as those that were picked out by the engineer during the manual analysis. Further, each report had to be concise and clear enough that the evaluating engineer found it to be a net advantage (as compared with their familiar workflow of searching through logs).<p>The underlying software products were diverse in nature – Webex client (collaboration), DNA Center (networking), ISE (security), and UCS (infrastructure).<p>Each data set was a few GB in size (10s of millions of log events), spanned anywhere from a dozen to hundreds of log types (hence the challenge of correlating across logs), and typically contained a few days of logs. An engineer troubleshooting a software problem typically uses this history to understand the baseline of normal events, as well as spot any outlier events that might be clues to the root cause. The unsupervised ML was not pretrained – it used the same history to train on as was available in the log datasets.<p>Given the sensitivity of the data sets, the raw data is not published, but more details are expected in a follow up white paper. In any case, the results showed an accuracy rate of 95.8% for using ML for logs.",
-      "time": 1647288518,
-      "title": "ML for logs – results from a large scale, real world study",
-      "type": "story"
-    },
-    {
-      "by": "ushakov",
-      "descendants": 0,
-      "id": 30677553,
-      "score": 2,
-      "time": 1647288507,
-      "title": "WikiLeaks Founder Julian Assange Denied Permission To Appeal Extradition",
-      "type": "story",
-      "url": "https://news.slashdot.org/story/22/03/14/203232/wikileaks-founder-julian-assange-denied-permission-to-appeal-extradition"
-    },
-    {
-      "by": "agronaut",
-      "descendants": 0,
-      "id": 30677537,
-      "score": 2,
-      "time": 1647288437,
-      "title": "Vibe, Mood, Energy",
-      "type": "story",
-      "url": "https://www.thedriftmag.com/vibe-mood-energy/"
     }
   ]
 }
