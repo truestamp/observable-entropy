@@ -1,10 +1,40 @@
 {
   "stories": [
     {
+      "by": "tomxor",
+      "descendants": 0,
+      "id": 30668137,
+      "score": 1,
+      "text": "The following self contained script annotates all HN comments on a page with username derived avatars. Simply paste it into the JS console of any HN page (F12).<p><pre><code>  for(u of document.querySelectorAll(&#x27;.hnuser&#x27;))for(u.parentElement.prepend(c=document.createElement(&#x27;canvas&#x27;)),x=c.getContext(&#x27;2d&#x27;),c.width=c.height=14,s=u.innerText,r=1,i=28+s.length;i--;i&lt;28?r&gt;&gt;&gt;29&gt;X*X&#x2F;3+Y&#x2F;2&amp;&amp;x.fillRect(6+2*X,2*Y,2,2)&amp;x.fillRect(6-2*X,2*Y,2,2):r+=s.charCodeAt(i-28,x.fillStyle=&#x27;#&#x27;+(r&gt;&gt;8&amp;0xFFFFFF).toString(16)))r^=r&lt;&lt;13,r^=r&gt;&gt;&gt;17,r^=r&lt;&lt;5,X=i&amp;3,Y=i&gt;&gt;2\n</code></pre>\nThis was inspired by @frncsdrk&#x27;s submission from earlier today [0].<p>The concept is to use HN usernames as the seed into a deterministic avatar generator. This generator is built from the famously simple xorshift32 PRNG, which both provides a random variable for the image generator steps, and &quot;pseudo-hashes&quot; the seed string to provide the initial PRNG state using a non-linear step (adding each codepoint - which is likely not very robust against collisions compared to proper hashing algorithms, but is simple and good enough).<p>The image generation part is a probability distribution with mirrored pixels... specifically: `if (r&gt;&gt;&gt;29 &gt; X<i>X&#x2F;3+Y&#x2F;2)` where the left side is 3 of the upper bits of the PRNG state (providing a random integer 0-7), and the right side is the squared distance from the centre for X + the linear distance from the top for Y. i.e the further from the top centre the pixel is, the less likely it will be filled, but linearly for Y and squared for X.<p>Un-golfed version:<p><pre><code>    for (const u of document.querySelectorAll(&#x27;.hnuser&#x27;)) {\n        const p=2;\n        const c=document.createElement(&#x27;canvas&#x27;);\n        const x=c.getContext(&#x27;2d&#x27;);\n            c.width=p*7, c.height=p*7;\n            u.parentElement.prepend(c);\n        for (let s=u.innerText, r=1, i=28+s.length; i--;) {\n            &#x2F;&#x2F; xorshift32\n            r^=r&lt;&lt;13, r^=r&gt;&gt;&gt;17, r^=r&lt;&lt;5;\n            const X=i&amp;3, Y=i&gt;&gt;2;\n            if (i &gt;= 28) {\n                &#x2F;&#x2F; seed state\n                r+=s.charCodeAt(i-28);\n                x.fillStyle=&#x27;#&#x27;+(r&gt;&gt;8&amp;0xFFFFFF)\n                .toString(16).padStart(0, 6);\n            } else {\n                &#x2F;&#x2F; draw pixel\n                if (r&gt;&gt;&gt;29 &gt; X*X&#x2F;3+Y&#x2F;2)\n                x.fillRect(p*3+p*X, p*Y, p, p),\n                x.fillRect(p*3-p*X, p*Y, p, p);\n            }\n        }\n    }\n</code></pre>\n[0] https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=30660316</i>",
+      "time": 1647227305,
+      "title": "Show HN: Avatars for HN threads in 368 bytes",
+      "type": "story"
+    },
+    {
+      "by": "pabs3",
+      "descendants": 0,
+      "id": 30668124,
+      "score": 1,
+      "time": 1647227146,
+      "title": "Nostalgia for Blogging",
+      "type": "story",
+      "url": "https://hartmans.dreamwidth.org/99374.html"
+    },
+    {
+      "by": "8bitsrule",
+      "descendants": 0,
+      "id": 30668116,
+      "score": 1,
+      "time": 1647227105,
+      "title": "8-Bit Punk (2003)",
+      "type": "story",
+      "url": "https://www.wired.com/2003/11/mclaren/"
+    },
+    {
       "by": "rg111",
       "descendants": 0,
       "id": 30668112,
-      "score": 1,
+      "score": 3,
       "text": "I see a lot comments on HN that signal a serious dislike for Pocket. It&#x27;s  like many here absolutely abhor it. Whenever a thread has relations with Firefox or Mozilla, many comments pop up about Pocket, and <i>all</i> of them are negative.<p>Why?<p>Is it simply because it is enabled by default by Firefox, or are there other reasons that I am missing?",
       "time": 1647227058,
       "title": "Ask HN: Why do many people hate Pocket?",
@@ -47,7 +77,7 @@
       "by": "737min",
       "descendants": 0,
       "id": 30668064,
-      "score": 2,
+      "score": 3,
       "time": 1647226405,
       "title": "Russia asked China for military help",
       "type": "story",
@@ -72,36 +102,6 @@
       "title": "Fine-Grained Sandboxing with V8 Isolates [video]",
       "type": "story",
       "url": "https://www.infoq.com/presentations/cloudflare-v8/"
-    },
-    {
-      "by": "mooreds",
-      "descendants": 0,
-      "id": 30668010,
-      "score": 2,
-      "time": 1647225804,
-      "title": "iPhone Lidar with Applications for the Geosciences",
-      "type": "story",
-      "url": "https://opentopography.org/blog/iphone-lidar-applications-geosciences"
-    },
-    {
-      "by": "eatonphil",
-      "descendants": 0,
-      "id": 30667989,
-      "score": 1,
-      "time": 1647225641,
-      "title": "How is latency driving infrastructure changes today?",
-      "type": "story",
-      "url": "https://twitter.com/penberg/status/1502937640395489280"
-    },
-    {
-      "by": "mooreds",
-      "descendants": 0,
-      "id": 30667988,
-      "score": 2,
-      "time": 1647225635,
-      "title": "Intel, AMD, Arm warn of new speculative execution CPU bugs",
-      "type": "story",
-      "url": "https://www.bleepingcomputer.com/news/security/intel-amd-arm-warn-of-new-speculative-execution-cpu-bugs/"
     }
   ]
 }
