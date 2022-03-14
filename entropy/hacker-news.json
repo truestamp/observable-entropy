@@ -1,6 +1,47 @@
 {
   "stories": [
     {
+      "by": "fattouchicode",
+      "descendants": 0,
+      "id": 30679102,
+      "score": 1,
+      "text": "I created a application (B) which handles extra functionalities and I want to receive from old legacy app (A) some metadata needed and I was thinking about implementing a straight implementation due to application infra limitations (I know it&#x27;s possible to implement event bus like rabbitmq or kafka but for the limitations imposed by this project I have to stick with only RESTful API). Basically, I was thinking about an approach which consists of exposing POST resource in service (B) which is consumed by service (A) in order to get metadata and create a session in (A) and in response I want to redirect user from service (A) to service (B). how is it possible to keep on track user journey while reserving sessions between these 2 apps and data in session. Long story short, I want using RESTful API to reserve user session info back and forth between these 2 apps. both apps are running PHP Frameworks",
+      "time": 1647295836,
+      "title": "Reserve user sessions between different applications",
+      "type": "story"
+    },
+    {
+      "by": "nabla9",
+      "descendants": 0,
+      "id": 30679101,
+      "score": 1,
+      "time": 1647295833,
+      "title": "The Political Philosophy of RadicalxChange (2019)",
+      "type": "story",
+      "url": "https://www.radicalxchange.org/media/blog/2019-12-30-gqx4th/"
+    },
+    {
+      "by": "lhmiles",
+      "descendants": 0,
+      "id": 30679098,
+      "score": 1,
+      "text": "Our package registry ecosystem has a serious problem... and not just npm.<p>People are aware of this but maybe this will make them a bit more aware",
+      "time": 1647295810,
+      "title": "Show HN: NPM Install Actual-Malware",
+      "type": "story",
+      "url": "https://github.com/qpwo/actual-malware"
+    },
+    {
+      "by": "mooreds",
+      "descendants": 0,
+      "id": 30679096,
+      "score": 2,
+      "time": 1647295802,
+      "title": "Influencers in DevRel",
+      "type": "story",
+      "url": "https://www.ecairn.com/blog/top-100-influencers-devrel"
+    },
+    {
       "by": "behnamoh",
       "descendants": 0,
       "id": 30679078,
@@ -14,7 +55,7 @@
       "by": "zqna",
       "descendants": 0,
       "id": 30679017,
-      "score": 1,
+      "score": 2,
       "time": 1647295353,
       "title": "Boycott of Russian gas and oil ‘could cause mass poverty in Germany’",
       "type": "story",
@@ -32,7 +73,7 @@
     },
     {
       "by": "lnxg33k1",
-      "descendants": 2,
+      "descendants": 3,
       "id": 30678995,
       "kids": [
         30679016
@@ -50,7 +91,7 @@
       "kids": [
         30679039
       ],
-      "score": 5,
+      "score": 7,
       "time": 1647295027,
       "title": "Protester storms live show on Russia's most-watched news: ‘Stop the war!’",
       "type": "story",
@@ -65,49 +106,6 @@
       "title": "Trans Is Something We Made Up",
       "type": "story",
       "url": "https://bprice.substack.com/p/trans-is-something-we-made-up"
-    },
-    {
-      "by": "rsj_hn",
-      "descendants": 0,
-      "id": 30678921,
-      "score": 1,
-      "time": 1647294810,
-      "title": "China Seeks to Cut Reliance on Coal Imports with Mining Boom",
-      "type": "story",
-      "url": "https://www.bloomberg.com/news/articles/2022-03-14/china-seeks-to-cut-coal-import-reliance-with-mining-boom"
-    },
-    {
-      "by": "yboris",
-      "descendants": 0,
-      "id": 30678898,
-      "score": 1,
-      "time": 1647294694,
-      "title": "Forget Small What About Micro Nuclear Energy?",
-      "type": "story",
-      "url": "https://www.youtube.com/watch?v=xxXlD4e-wTE"
-    },
-    {
-      "by": "tablespoon",
-      "descendants": 2,
-      "id": 30678873,
-      "kids": [
-        30678998
-      ],
-      "score": 3,
-      "time": 1647294600,
-      "title": "Elon Musk Challenges Vladimir Putin to ‘Single Combat’ for Ukraine",
-      "type": "story",
-      "url": "https://www.bloomberg.com/news/articles/2022-03-14/elon-musk-challenges-vladimir-putin-to-single-combat-for-ukraine"
-    },
-    {
-      "by": "nathan_phoenix",
-      "descendants": 0,
-      "id": 30678847,
-      "score": 2,
-      "time": 1647294499,
-      "title": "Some discouraging anecdotes on how services handle account deletions",
-      "type": "story",
-      "url": "https://www.ctrl.blog/entry/account-deletions-2021.html"
     }
   ]
 }
