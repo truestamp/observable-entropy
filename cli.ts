@@ -51,7 +51,7 @@ async function readJSON(path: string): Promise<any | undefined> {
   }
 }
 
-// Get JSON from a URL with a timeout
+// GET JSON from a URL with a timeout
 // https://medium.com/deno-the-complete-reference/fetch-timeout-in-deno-91731bca80a1
 export async function get(url: string, timeout = GET_TIMEOUT) {
   // deno-lint-ignore no-explicit-any
@@ -60,6 +60,45 @@ export async function get(url: string, timeout = GET_TIMEOUT) {
     const c = new AbortController();
     const id = setTimeout(() => c.abort(), timeout);
     const res = await fetch(url, { signal: c.signal });
+    clearTimeout(id);
+    ret.ok = true;
+    ret.data = await res.json();
+  } catch (err) {
+    if (err instanceof DOMException && err.name === 'AbortError')
+      ret.err = Status.RequestTimeout;
+    else
+      ret.err = Status.ServiceUnavailable;
+  }
+  return ret;
+}
+
+// PUT JSON to Cloudflare KV with a timeout
+async function putKVLatest(body: Record<string, string | number>, timeout = GET_TIMEOUT) {
+  const accountIdentifier = Deno.env.get('CF_ACCOUNT_ID')
+  const namespaceIdentifier = Deno.env.get('CF_NAMESPACE_ID')
+  const keyName = "latest"
+  const expirationTtl = 60 * 6
+  const authEmail = Deno.env.get('CF_AUTH_EMAIL') || ''
+  const authKey = Deno.env.get('CF_AUTH_KEY') || ''
+  const url = `https://api.cloudflare.com/client/v4/accounts/${accountIdentifier}/storage/kv/namespaces/${namespaceIdentifier}/values/${keyName}?expiration_ttl=${expirationTtl}`
+
+  // deno-lint-ignore no-explicit-any
+  const ret: Record<string, any> = {};
+  try {
+    const c = new AbortController();
+    const id = setTimeout(() => c.abort(), timeout);
+
+    const res = await fetch(url, {
+      method: "PUT",
+      headers: {
+        "X-Auth-Email": authEmail,
+        "X-Auth-Key": authKey,
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(body),
+      signal: c.signal
+    });
+
     clearTimeout(id);
     ret.ok = true;
     ret.data = await res.json();
@@ -603,43 +642,52 @@ if (parsedArgs["entropy-index"]) {
 
 // --entropy-upload-kv
 if (parsedArgs["entropy-upload-kv"]) {
-  const accountIdentifier = Deno.env.get('CF_ACCOUNT_ID')
-  const namespaceIdentifier = Deno.env.get('CF_NAMESPACE_ID')
-  const keyName = "latest"
-  const expirationTtl = 60 * 6
-  const authEmail = Deno.env.get('CF_AUTH_EMAIL') || ''
-  const authKey = Deno.env.get('CF_AUTH_KEY') || ''
-  const url = `https://api.cloudflare.com/client/v4/accounts/${accountIdentifier}/storage/kv/namespaces/${namespaceIdentifier}/values/${keyName}?expiration_ttl=${expirationTtl}`
   const entropyFile = await readJSON(ENTROPY_FILE)
 
   if (entropyFile) {
-    let json
     try {
-      const response = await fetch(url, {
-        method: "PUT",
-        headers: {
-          "X-Auth-Email": authEmail,
-          "X-Auth-Key": authKey,
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(entropyFile),
-      });
-      json = await response.json();
-    } catch (error) {
-      console.error(`entropy-upload-kv : ${error.message}`);
-    }
+      await retryAsync(
+        async () => {
+          console.log("entropy-upload-kv : PUT");
 
-    if (json.success) {
-      // FIXME : call BetterUptime heartbeat to log successful completion
-      console.log(
-        `entropy-upload-kv : success : latest entropy.json file written to Cloudflare KV : ${JSON.stringify(json)}`,
+          const ret = await putKVLatest(entropyFile)
+
+          if (ret?.ok) {
+            console.log(
+              `entropy-upload-kv : success : latest entropy.json file written to Cloudflare KV : ${JSON.stringify(ret.data)}`,
+            );
+
+            // If a heartbeat URL was provided, call it with timeout
+            const heartbeatUrl = Deno.env.get('BETTER_UPTIME_HEARTBEAT_URL')
+            if (heartbeatUrl) {
+              try {
+                const hb = await get(heartbeatUrl)
+                if (hb.ok) {
+                  console.log(
+                    `entropy-upload-kv : success : better uptime heartbeat logged`,
+                  );
+                }
+              } catch (error) {
+                console.error(`better uptime heartbeat failed : ${error.message}`)
+              }
+            }
+          } else {
+            console.log(
+              `entropy-upload-kv : failed : latest entropy.json file was NOT written to Cloudflare KV : ${JSON.stringify(ret.data)}`,
+            );
+          }
+        },
+        { delay: 1000, maxTry: 3 },
       );
-    } else {
-      console.log(
-        `entropy-upload-kv : failed : latest entropy.json file was NOT written to Cloudflare KV : ${JSON.stringify(json)}`,
-      );
+    } catch (error) {
+      if (isTooManyTries(error)) {
+        // Failed to submit entropy-upload-kv after 'maxTry' calls
+        console.error(`entropy-upload-kv tooManyTries : ${error.message}`);
+      } else {
+        console.error(`entropy-upload-kv failed : ${error.message}`);
+      }
     }
   } else {
-    console.log(`entropy-upload-kv : failed : unable to read entropy file`)
+    console.warn(`entropy-upload-kv : failed : unable to read entropy file`)
   }
 }
