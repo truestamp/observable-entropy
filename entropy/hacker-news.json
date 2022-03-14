@@ -1,6 +1,36 @@
 {
   "stories": [
     {
+      "by": "Jason_Protell",
+      "descendants": 0,
+      "id": 30678076,
+      "score": 1,
+      "time": 1647290974,
+      "title": "Big ISPs Avoided 2020 Law Banning Predatory Modem ‘Rental’ Fees",
+      "type": "story",
+      "url": "https://www.techdirt.com/2022/03/14/big-isps-avoided-2020-law-banning-predatory-modem-rental-fees-by-simply-calling-them-something-else/"
+    },
+    {
+      "by": "slygent",
+      "descendants": 0,
+      "id": 30678047,
+      "score": 1,
+      "time": 1647290827,
+      "title": "Israeli government websites brought down",
+      "type": "story",
+      "url": "https://www.thenationalnews.com/mena/2022/03/14/several-israeli-government-websites-down-reports/"
+    },
+    {
+      "by": "News-Dog",
+      "descendants": 0,
+      "id": 30678020,
+      "score": 1,
+      "time": 1647290731,
+      "title": "Russia could Default on its Debt within Days",
+      "type": "story",
+      "url": "https://lite.cnn.com/en/article/h_4a993257eacf21f6ca6f3a1fb41db919"
+    },
+    {
       "by": "georgecmu",
       "descendants": 0,
       "id": 30678004,
@@ -14,7 +44,7 @@
       "by": "CarCooler",
       "descendants": 0,
       "id": 30678000,
-      "score": 1,
+      "score": 2,
       "time": 1647290624,
       "title": "Tesla can lower safety score criteria if FSD Beta 10.11 works well, says Musk",
       "type": "story",
@@ -69,36 +99,6 @@
       "title": "How to gamble with demons (and make money doing it)",
       "type": "story",
       "url": "https://raposa.trade/blog/how-to-gamble-with-demons-and-make-money-doing-it/"
-    },
-    {
-      "by": "mono-bob",
-      "descendants": 0,
-      "id": 30677902,
-      "score": 2,
-      "time": 1647290130,
-      "title": "White Castle wants to install robot cooks in 100 new locations",
-      "type": "story",
-      "url": "https://misorobotics.com/newsroom/white-castle-expands-partnership-with-miso-robotics-to-install-flippy-2-in-100-new-locations/"
-    },
-    {
-      "by": "RickJWagner",
-      "descendants": 0,
-      "id": 30677891,
-      "score": 1,
-      "time": 1647290083,
-      "title": "New mystery Tesla Model Y appears on EPA website",
-      "type": "story",
-      "url": "https://www.foxnews.com/auto/new-mystery-tesla-model-y-epa"
-    },
-    {
-      "by": "rejacobson",
-      "descendants": 0,
-      "id": 30677886,
-      "score": 1,
-      "text": "Hey HN!<p>I made a pay-per-use, game server hosting service a while back: https:&#x2F;&#x2F;grryno.com&#x2F;. There are lots of subscription based game server hosts, but as far as I can tell this is one of the first on-demand services.<p>The initial reason I created it was so that I didn&#x27;t have to waste time every few months searching up how to get a server running for an old, obscure or open source game (Quake2, Teeworlds, Unreal Tournament, Bitfighter, etc). And because I don&#x27;t play games as much as I used to I didn&#x27;t want to pay a monthly subscription anywhere. Hence the on-demand service.<p>It&#x27;s a bit more expensive per-month compared to other subscription-based services, but it&#x27;s not meant to be used 24&#x2F;7.<p>The game servers are run using Docker on a handful of AWS services, and the web front-end is running on a Linode instance.<p>The servers have an auto-shutdown feature which stops the server if it detects no players connected for 10 minutes. This is handy because I regularly forget to shut down the server manually and it prevents running up a huge bill.<p>It also automatically backs up game save files to S3 each time the server is shut down, features a web-based server console, has an easy config file and plugin editing system and let&#x27;s you change the cpu&#x2F;ram profile on a game server at any time.<p>It basically launches a server through AWS like this:\n  - The &#x27;Launch Server&#x27; button is pressed on the website:\n    - Space on an EFS drive is created for game save files\n    - Config files and plugins for the game are saved to the EFS drive\n    - A DNS entry for the custom domain (eg. myserver.grryno.com) is created through Route53\n    - An EC2 instance is launched, linked to the EFS drive\n    - An ECS task (Docker image) is created on the EC2 instance.<p>This all finishes in about 2 minutes, usually.<p>So far I only have a very small handful of paying users, but last week I was host to a major Twitch Minecraft charity event with some big-name streamers. It was exhilarating to watch these guys, who had about 100,000 combined viewers, play on my servers. Terrifying too! I could barely watch the stream because I was afraid that my stuff was going to come crashing down at any second and ruin the whole bloody thing. It all ran flawlessly though! I had teamed up with a company called Warp World to do some Twitch-specific customization on a Minecraft server and it was because of them that this Twitch event happened. Many thanks to them for supporting me.<p>I&#x27;m a developer through and through but I&#x27;m trying to learn some marketing so I can hopefully quit my day job and run this thing full time soon.<p>I would love for anyone to try it out and let me know what you think. If you go to https:&#x2F;&#x2F;grryno.com&#x2F; and use this promo code: THEBEESAREHAPPY, you&#x27;ll get a couple of bucks added to your account, which should be about 10 hours of game time for most games with the default server type. I&#x27;m open to any and all constructive feedback or suggestions. There are only a handful of games on there right now but I&#x27;ll add games on request as well.<p>I&#x27;d love to answer any questions on the tech stack or infrastructure too.<p>Thanks for reading!<p>Ryan",
-      "time": 1647290053,
-      "title": "Show HN: Grryno.com – A pay-per-use game server hosting service",
-      "type": "story"
     }
   ]
 }
