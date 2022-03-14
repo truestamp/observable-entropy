@@ -1,6 +1,79 @@
 {
   "stories": [
     {
+      "by": "News-Dog",
+      "descendants": 0,
+      "id": 30677560,
+      "score": 1,
+      "time": 1647288531,
+      "title": "Russia is trying to Install pro-Kremlin Officials into occupied-Cities",
+      "type": "story",
+      "url": "https://lite.cnn.com/en/article/h_7094bf11b48adf42b7dcb6f4726f7760"
+    },
+    {
+      "by": "Ajs1",
+      "descendants": 1,
+      "id": 30677556,
+      "kids": [
+        30677561
+      ],
+      "score": 1,
+      "text": "https:&#x2F;&#x2F;www.zebrium.com&#x2F;blog&#x2F;how-cisco-uses-zebrium-ml-to-analyze-logs-for-root-cause<p>Disclosure: I’m one of the co-founders behind the ML mentioned here. However the results in the link above were generated independently by Cisco.<p>There have been a number of write-ups and papers evaluating ML for logs over the last few years – by academics, engineers, and observability vendors. But these results have typically been limited to synthetic data sets (lab generated), or very limited in scope (a handful of real world data sets).<p>The Automation and Innovation team at Cisco just published test results from a study applying ML to a large corpus of actual software incidents. The goal was to test the efficacy of the ML in picking out root cause indicators from logs that spanned the duration of the problems.<p>Each problem’s log data set was run through the Zebrium ML engine, AND was also independently root caused by an engineer with expertise in that software. To be counted as a success, the summary ML output had to contain the same log event(s) as those that were picked out by the engineer during the manual analysis. Further, each report had to be concise and clear enough that the evaluating engineer found it to be a net advantage (as compared with their familiar workflow of searching through logs).<p>The underlying software products were diverse in nature – Webex client (collaboration), DNA Center (networking), ISE (security), and UCS (infrastructure).<p>Each data set was a few GB in size (10s of millions of log events), spanned anywhere from a dozen to hundreds of log types (hence the challenge of correlating across logs), and typically contained a few days of logs. An engineer troubleshooting a software problem typically uses this history to understand the baseline of normal events, as well as spot any outlier events that might be clues to the root cause. The unsupervised ML was not pretrained – it used the same history to train on as was available in the log datasets.<p>Given the sensitivity of the data sets, the raw data is not published, but more details are expected in a follow up white paper. In any case, the results showed an accuracy rate of 95.8% for using ML for logs.",
+      "time": 1647288518,
+      "title": "ML for logs – results from a large scale, real world study",
+      "type": "story"
+    },
+    {
+      "by": "ushakov",
+      "descendants": 0,
+      "id": 30677553,
+      "score": 2,
+      "time": 1647288507,
+      "title": "WikiLeaks Founder Julian Assange Denied Permission To Appeal Extradition",
+      "type": "story",
+      "url": "https://news.slashdot.org/story/22/03/14/203232/wikileaks-founder-julian-assange-denied-permission-to-appeal-extradition"
+    },
+    {
+      "by": "agronaut",
+      "descendants": 0,
+      "id": 30677537,
+      "score": 2,
+      "time": 1647288437,
+      "title": "Vibe, Mood, Energy",
+      "type": "story",
+      "url": "https://www.thedriftmag.com/vibe-mood-energy/"
+    },
+    {
+      "by": "jamespwilliams",
+      "descendants": 0,
+      "id": 30677535,
+      "score": 3,
+      "time": 1647288435,
+      "title": "“Posting it to you is secure, as it's illegal to open someone else's mail.”",
+      "type": "story",
+      "url": "https://twitter.com/virginmedia/status/1162756227132198914"
+    },
+    {
+      "by": "Txoko",
+      "descendants": 0,
+      "id": 30677518,
+      "score": 1,
+      "time": 1647288371,
+      "title": "Musicasa Concerts Growth Assistant",
+      "type": "story",
+      "url": "https://www.linkedin.com/mwlite/jobs/view/2942393921"
+    },
+    {
+      "by": "empressplay",
+      "descendants": 0,
+      "id": 30677515,
+      "score": 1,
+      "time": 1647288350,
+      "title": "Listen to This Article: Orwell Was Right",
+      "type": "story",
+      "url": "https://taibbi.substack.com/p/listen-to-this-article-orwell-was"
+    },
+    {
       "by": "wcerfgba",
       "descendants": 0,
       "id": 30677483,
@@ -21,84 +94,14 @@
       "url": "https://algorithmwatch.org/en/dataskop-simulator-plattformdynamiken/"
     },
     {
-      "by": "tambourine_man",
+      "by": "lululouise",
       "descendants": 0,
-      "id": 30677466,
-      "score": 1,
-      "time": 1647288137,
-      "title": "Antarctic sea ice hits lowest minimum on record",
-      "type": "story",
-      "url": "https://www.nature.com/articles/d41586-022-00550-4"
-    },
-    {
-      "by": "JustARandomGuy",
-      "descendants": 0,
-      "id": 30677452,
-      "score": 1,
-      "text": "Hello,<p>Are there any Coursera software engineers or PMs that could help me?<p>I am currently taking the iMBA, a joint Coursera&#x2F;University of Illinois @ Urbana Champaign (UIUC) MBA degree: https:&#x2F;&#x2F;www.coursera.org&#x2F;degrees&#x2F;imba . To get credit for a UIUC course, you need to show a Coursera certificate from the associated course. However, UIUC insists that the Coursera certificate must come from an automated feed they have with Coursera - you can&#x27;t just directly link them the certificate online.<p>I&#x27;ve had no problems for the last 2 years (2020, mid 2021) but starting this year, UIUC is saying they didn&#x27;t receive my completed certificate from Coursera. I&#x27;m trying to work with support but each side seems to point the finger at the other.<p>I was hoping that there&#x27;s some Coursera engineer or PM out there that can poke around and see why my completed certificate information isn&#x27;t making it to UIUC&#x27;s grading system. Failing that, would appreciate an escalation point.<p>Apologies for using HN as a support forum, but I honestly don&#x27;t know where else to turn to.",
-      "time": 1647288081,
-      "title": "Ask HN: Any Coursera Engineers Available?",
+      "id": 30677471,
+      "score": 3,
+      "text": "My Google account was hacked, I was messaged by someone on Facebook and they demanded I give them money or they would post my private photos. They started posting my pictures and even sent them to my family and friends, dad included! They then changed all my passwords, restore email, phone number ect to their own email and number, so I can&#x27;t do anything. They wiped my phone and my son&#x27;s tablet completely, all my banking is gone, everything is gone. I&#x27;m now stuck in a foreign country away from my baby with no way to get money or access my email for my travel documents. I&#x27;m really scared and don&#x27;t know what to do. Google says they can&#x27;t do anything to help me! They can&#x27;t kick him off or disable my account, I just have to be harassed and blackmailed, and goodness knows what else. I&#x27;m a single mum and I&#x27;m in a different country to my baby, please can someone help me? I just want to get back.<p>Does anyone know how I can recover and secure my Google account? I&#x27;ve tried everything that I can find&#x2F;Google have told me to do.",
+      "time": 1647288156,
+      "title": "Ask HN: My Google account was hacked, Google says they can't help",
       "type": "story"
-    },
-    {
-      "by": "LucasFada",
-      "descendants": 0,
-      "id": 30677431,
-      "score": 1,
-      "text": "Hey everyone! Would like to learn more about Crypto and Blockchain, and I love playing &quot;party games&quot;, which are board games like Chamaleon, Cards Against Humanity, etc.<p>Challenges to learn about this:<p>There are sooo many fluffy terms in the industry that are probably not that complicated to understand.<p>These terms make it hard for me and I guess a lot of ppl to get into it.<p>Listening to podcasts, talking to people, and reading on Twitter is fine, but not as fun as playing a game.<p>Anyone else with me?<p>Research:<p>BGG&#x27;s top 5 list, I don&#x27;t find an educational list, or a crypto one.<p>The games to learn crypto are all online, and mostly to learn how to trade, or &quot;play-to-earn&quot; (which you already need to have a wallet). They don&#x27;t focus on its concepts and are not across the industry (Defi, Web3, Blockchain, NFTs, etc).<p>Questions for y&#x27;all:<p>Do you know any board game to learn crypto?<p>If not: Do you know any board game to learn about concepts, an industry, or a topic?<p>Thanks for reading, and please let me know if anything needs clarification",
-      "time": 1647287939,
-      "title": "Any Crypto/Blockchain Educational Board Games Around?",
-      "type": "story"
-    },
-    {
-      "by": "braco_alva",
-      "descendants": 0,
-      "id": 30677408,
-      "score": 1,
-      "time": 1647287820,
-      "title": "Interest in NFTs and the Metaverse Is Falling Fast",
-      "type": "story",
-      "url": "https://www.forbes.com/sites/paultassi/2022/03/10/interest-in-nfts-and-the-metaverse-is-falling-fast/"
-    },
-    {
-      "by": "andyzei",
-      "descendants": 0,
-      "id": 30677406,
-      "score": 1,
-      "time": 1647287816,
-      "title": "Strava Abruptly Ends 3rd Party Data Sync to Apple Health",
-      "type": "story",
-      "url": "https://www.dcrainmaker.com/2022/03/strava-abruptly-ends-3rd-party-data-push-to-apple-health.html"
-    },
-    {
-      "by": "News-Dog",
-      "descendants": 0,
-      "id": 30677396,
-      "score": 1,
-      "time": 1647287760,
-      "title": "Australia and the Netherlands – New Case against Russia over 2014 Jet shot-down",
-      "type": "story",
-      "url": "https://text.npr.org/1086449199"
-    },
-    {
-      "by": "hirundo",
-      "descendants": 0,
-      "id": 30677366,
-      "score": 2,
-      "time": 1647287607,
-      "title": "Stack Exchange Q&A access will not be restricted in Russia",
-      "type": "story",
-      "url": "https://meta.stackexchange.com/questions/376743/stack-exchange-qa-access-will-not-be-restricted-in-russia"
-    },
-    {
-      "by": "todsacerdoti",
-      "descendants": 0,
-      "id": 30677334,
-      "score": 2,
-      "time": 1647287470,
-      "title": "FreeBSD on the CubieBoard2",
-      "type": "story",
-      "url": "https://www.cambus.net/freebsd-on-the-cubieboard2/"
     }
   ]
 }
