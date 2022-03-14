@@ -1,11 +1,31 @@
 {
   "stories": [
     {
+      "by": "thesuperbigfrog",
+      "descendants": 0,
+      "id": 30668169,
+      "score": 1,
+      "time": 1647227691,
+      "title": "Microsoft Brings Redesigned Office.com to All Business and Education Customers",
+      "type": "story",
+      "url": "https://www.thurrott.com/office/264136/microsoft-brings-redesigned-office-com-to-all-business-and-education-customers"
+    },
+    {
+      "by": "News-Dog",
+      "descendants": 0,
+      "id": 30668147,
+      "score": 1,
+      "time": 1647227423,
+      "title": "Fake Valorant Cheats on YouTube Infect You with RedLine Stealer",
+      "type": "story",
+      "url": "https://www.bleepingcomputer.com/news/security/fake-valorant-cheats-on-youtube-infect-you-with-redline-stealer/"
+    },
+    {
       "by": "tomxor",
       "descendants": 0,
       "id": 30668137,
-      "score": 1,
-      "text": "The following self contained script annotates all HN comments on a page with username derived avatars. Simply paste it into the JS console of any HN page (F12).<p><pre><code>  for(u of document.querySelectorAll(&#x27;.hnuser&#x27;))for(u.parentElement.prepend(c=document.createElement(&#x27;canvas&#x27;)),x=c.getContext(&#x27;2d&#x27;),c.width=c.height=14,s=u.innerText,r=1,i=28+s.length;i--;i&lt;28?r&gt;&gt;&gt;29&gt;X*X&#x2F;3+Y&#x2F;2&amp;&amp;x.fillRect(6+2*X,2*Y,2,2)&amp;x.fillRect(6-2*X,2*Y,2,2):r+=s.charCodeAt(i-28,x.fillStyle=&#x27;#&#x27;+(r&gt;&gt;8&amp;0xFFFFFF).toString(16)))r^=r&lt;&lt;13,r^=r&gt;&gt;&gt;17,r^=r&lt;&lt;5,X=i&amp;3,Y=i&gt;&gt;2\n</code></pre>\nThis was inspired by @frncsdrk&#x27;s submission from earlier today [0].<p>The concept is to use HN usernames as the seed into a deterministic avatar generator. This generator is built from the famously simple xorshift32 PRNG, which both provides a random variable for the image generator steps, and &quot;pseudo-hashes&quot; the seed string to provide the initial PRNG state using a non-linear step (adding each codepoint - which is likely not very robust against collisions compared to proper hashing algorithms, but is simple and good enough).<p>The image generation part is a probability distribution with mirrored pixels... specifically: `if (r&gt;&gt;&gt;29 &gt; X<i>X&#x2F;3+Y&#x2F;2)` where the left side is 3 of the upper bits of the PRNG state (providing a random integer 0-7), and the right side is the squared distance from the centre for X + the linear distance from the top for Y. i.e the further from the top centre the pixel is, the less likely it will be filled, but linearly for Y and squared for X.<p>Un-golfed version:<p><pre><code>    for (const u of document.querySelectorAll(&#x27;.hnuser&#x27;)) {\n        const p=2;\n        const c=document.createElement(&#x27;canvas&#x27;);\n        const x=c.getContext(&#x27;2d&#x27;);\n            c.width=p*7, c.height=p*7;\n            u.parentElement.prepend(c);\n        for (let s=u.innerText, r=1, i=28+s.length; i--;) {\n            &#x2F;&#x2F; xorshift32\n            r^=r&lt;&lt;13, r^=r&gt;&gt;&gt;17, r^=r&lt;&lt;5;\n            const X=i&amp;3, Y=i&gt;&gt;2;\n            if (i &gt;= 28) {\n                &#x2F;&#x2F; seed state\n                r+=s.charCodeAt(i-28);\n                x.fillStyle=&#x27;#&#x27;+(r&gt;&gt;8&amp;0xFFFFFF)\n                .toString(16).padStart(0, 6);\n            } else {\n                &#x2F;&#x2F; draw pixel\n                if (r&gt;&gt;&gt;29 &gt; X*X&#x2F;3+Y&#x2F;2)\n                x.fillRect(p*3+p*X, p*Y, p, p),\n                x.fillRect(p*3-p*X, p*Y, p, p);\n            }\n        }\n    }\n</code></pre>\n[0] https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=30660316</i>",
+      "score": 2,
+      "text": "The following self contained script annotates all HN comments on a page with username derived avatars. Simply paste it into the JS console of any HN page (F12).<p><pre><code>  for(u of document.querySelectorAll(&#x27;.hnuser&#x27;))for(u.parentElement.prepend(c=document.createElement(&#x27;canvas&#x27;)),x=c.getContext(&#x27;2d&#x27;),c.width=c.height=14,s=u.innerText,r=1,i=28+s.length;i--;i&lt;28?r&gt;&gt;&gt;29&gt;X*X&#x2F;3+Y&#x2F;2&amp;&amp;x.fillRect(6+2*X,2*Y,2,2)&amp;x.fillRect(6-2*X,2*Y,2,2):r+=s.charCodeAt(i-28,x.fillStyle=&#x27;#&#x27;+(r&gt;&gt;8&amp;0xFFFFFF).toString(16)))r^=r&lt;&lt;13,r^=r&gt;&gt;&gt;17,r^=r&lt;&lt;5,X=i&amp;3,Y=i&gt;&gt;2\n</code></pre>\nThis was inspired by @frncsdrk&#x27;s submission from earlier today [0].<p>The concept is to use HN usernames as the seed into a deterministic avatar generator. This generator is built from the famously simple xorshift32 PRNG, which both provides a random variable for the image generator steps, and &quot;pseudo-hashes&quot; the seed string to provide the initial PRNG state using a non-linear step (adding each codepoint - which is likely not very robust against collisions compared to proper hashing algorithms, but is simple and good enough).<p>The image generation part is a probability distribution with mirrored pixels... specifically: r&gt;&gt;&gt;29 &gt; X*X&#x2F;3+Y&#x2F;2 where the left side is 3 of the upper bits of the PRNG state (providing a random integer 0-7), and the right side is the squared distance from the centre for X + the linear distance from the top for Y. i.e the further from the top centre the pixel is, the less likely it will be filled, but linearly for Y and squared for X.<p>Un-golfed version:<p><pre><code>    for (const u of document.querySelectorAll(&#x27;.hnuser&#x27;)) {\n        const p=2;\n        const c=document.createElement(&#x27;canvas&#x27;);\n        const x=c.getContext(&#x27;2d&#x27;);\n            c.width=p*7, c.height=p*7;\n            u.parentElement.prepend(c);\n        for (let s=u.innerText, r=1, i=28+s.length; i--;) {\n            &#x2F;&#x2F; xorshift32\n            r^=r&lt;&lt;13, r^=r&gt;&gt;&gt;17, r^=r&lt;&lt;5;\n            const X=i&amp;3, Y=i&gt;&gt;2;\n            if (i &gt;= 28) {\n                &#x2F;&#x2F; seed state\n                r+=s.charCodeAt(i-28);\n                x.fillStyle=&#x27;#&#x27;+(r&gt;&gt;8&amp;0xFFFFFF)\n                .toString(16).padStart(0, 6);\n            } else {\n                &#x2F;&#x2F; draw pixel\n                if (r&gt;&gt;&gt;29 &gt; X*X&#x2F;3+Y&#x2F;2)\n                x.fillRect(p*3+p*X, p*Y, p, p),\n                x.fillRect(p*3-p*X, p*Y, p, p);\n            }\n        }\n    }\n</code></pre>\nWas fun to play with, but also surprisingly helpful in following discussions.<p>[0] https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=30660316*",
       "time": 1647227305,
       "title": "Show HN: Avatars for HN threads in 368 bytes",
       "type": "story"
@@ -47,7 +67,7 @@
       "kids": [
         30668104
       ],
-      "score": 1,
+      "score": 2,
       "time": 1647226974,
       "title": "GlobalChem: A Chemical Graph Network for Drug Design",
       "type": "story",
@@ -82,26 +102,6 @@
       "title": "Russia asked China for military help",
       "type": "story",
       "url": "https://www.politico.com/news/2022/03/13/russia-china-military-equipment-00016893"
-    },
-    {
-      "by": "News-Dog",
-      "descendants": 0,
-      "id": 30668062,
-      "score": 1,
-      "time": 1647226401,
-      "title": "These Are the Cluster Munitions Documented by Ukrainian Civilians",
-      "type": "story",
-      "url": "https://www.bellingcat.com/news/rest-of-world/2022/03/11/these-are-the-cluster-munitions-documented-by-ukrainian-civilians/"
-    },
-    {
-      "by": "mooreds",
-      "descendants": 0,
-      "id": 30668018,
-      "score": 2,
-      "time": 1647225952,
-      "title": "Fine-Grained Sandboxing with V8 Isolates [video]",
-      "type": "story",
-      "url": "https://www.infoq.com/presentations/cloudflare-v8/"
     }
   ]
 }
