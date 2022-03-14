@@ -37,6 +37,7 @@ jobs:
           add: '.'
       - name: Upload new entropy to Cloudflare KV
         env:
+          BETTER_UPTIME_HEARTBEAT_URL: ${{ secrets.BETTER_UPTIME_HEARTBEAT_URL }}
           CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
           CF_NAMESPACE_ID: ${{ secrets.CF_NAMESPACE_ID }}
           CF_AUTH_EMAIL: ${{ secrets.CF_AUTH_EMAIL }}
