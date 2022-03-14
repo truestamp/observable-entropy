@@ -1,6 +1,26 @@
 {
   "stories": [
     {
+      "by": "laurex",
+      "descendants": 0,
+      "id": 30668286,
+      "score": 1,
+      "time": 1647229132,
+      "title": "Revenge of the Patriarchs: Why Autocrats Fear Women",
+      "type": "story",
+      "url": "https://www.foreignaffairs.com/articles/china/2022-02-08/women-rights-revenge-patriarchs"
+    },
+    {
+      "by": "pabs3",
+      "descendants": 0,
+      "id": 30668282,
+      "score": 1,
+      "time": 1647229090,
+      "title": "Obfuscated Strings Threatening Your Privacy",
+      "type": "story",
+      "url": "https://neverworkintheory.org/2022/03/13/obfuscated-strings-and-privacy.html"
+    },
+    {
       "by": "News-Dog",
       "descendants": 0,
       "id": 30668256,
@@ -54,7 +74,7 @@
       "by": "thesuperbigfrog",
       "descendants": 0,
       "id": 30668169,
-      "score": 1,
+      "score": 2,
       "time": 1647227691,
       "title": "Microsoft Brings Redesigned Office.com to All Business and Education Customers",
       "type": "story",
@@ -78,30 +98,10 @@
         30668207
       ],
       "score": 2,
-      "text": "Paste the following into the console of any HN page - for annotated avatars on all HN comments. (self contained code)<p><pre><code>  for(u of document.querySelectorAll(&#x27;.hnuser&#x27;))for(u.parentElement.prepend(c=document.createElement(&#x27;canvas&#x27;)),x=c.getContext(&#x27;2d&#x27;),c.width=c.height=14,s=u.innerText,r=1,i=28+s.length;i--;i&lt;28?r&gt;&gt;&gt;29&gt;X*X&#x2F;3+Y&#x2F;2&amp;&amp;x.fillRect(6+2*X,2*Y,2,2)&amp;x.fillRect(6-2*X,2*Y,2,2):r+=s.charCodeAt(i-28,x.fillStyle=&#x27;#&#x27;+(r&gt;&gt;8&amp;0xFFFFFF).toString(16)))r^=r&lt;&lt;13,r^=r&gt;&gt;&gt;17,r^=r&lt;&lt;5,X=i&amp;3,Y=i&gt;&gt;2</code></pre>",
+      "text": "Paste the following into the console of any HN page - for annotated avatars on all HN comments. (self contained code)<p><pre><code>  for(u of document.querySelectorAll(&#x27;.hnuser&#x27;))for(u.prepend(c=document.createElement(&#x27;canvas&#x27;)),x=c.getContext(&#x27;2d&#x27;),c.width=18,c.height=14,s=u.innerText,r=1,i=28+s.length;i--;i&lt;28?r&gt;&gt;&gt;29&gt;X*X&#x2F;3+Y&#x2F;2&amp;&amp;x.fillRect(6+2*X,2*Y,2,2)&amp;x.fillRect(6-2*X,2*Y,2,2):r+=s.charCodeAt(i-28,x.fillStyle=&#x27;#&#x27;+(r&gt;&gt;8&amp;0xFFFFFF).toString(16)))r^=r&lt;&lt;13,r^=r&gt;&gt;&gt;17,r^=r&lt;&lt;5,X=i&amp;3,Y=i&gt;&gt;2</code></pre>",
       "time": 1647227305,
-      "title": "Show HN: HN Avatars in 368 bytes",
+      "title": "Show HN: HN Avatars in 357 bytes",
       "type": "story"
-    },
-    {
-      "by": "pabs3",
-      "descendants": 0,
-      "id": 30668124,
-      "score": 1,
-      "time": 1647227146,
-      "title": "Nostalgia for Blogging",
-      "type": "story",
-      "url": "https://hartmans.dreamwidth.org/99374.html"
-    },
-    {
-      "by": "8bitsrule",
-      "descendants": 0,
-      "id": 30668116,
-      "score": 1,
-      "time": 1647227105,
-      "title": "8-Bit Punk (2003)",
-      "type": "story",
-      "url": "https://www.wired.com/2003/11/mclaren/"
     }
   ]
 }
