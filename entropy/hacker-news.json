@@ -1,6 +1,96 @@
 {
   "stories": [
     {
+      "by": "RickJWagner",
+      "descendants": 0,
+      "id": 30677891,
+      "score": 1,
+      "time": 1647290083,
+      "title": "New mystery Tesla Model Y appears on EPA website",
+      "type": "story",
+      "url": "https://www.foxnews.com/auto/new-mystery-tesla-model-y-epa"
+    },
+    {
+      "by": "rejacobson",
+      "descendants": 0,
+      "id": 30677886,
+      "score": 1,
+      "text": "Hey HN!<p>I made a pay-per-use, game server hosting service a while back: https:&#x2F;&#x2F;grryno.com&#x2F;. There are lots of subscription based game server hosts, but as far as I can tell this is one of the first on-demand services.<p>The initial reason I created it was so that I didn&#x27;t have to waste time every few months searching up how to get a server running for an old, obscure or open source game (Quake2, Teeworlds, Unreal Tournament, Bitfighter, etc). And because I don&#x27;t play games as much as I used to I didn&#x27;t want to pay a monthly subscription anywhere. Hence the on-demand service.<p>It&#x27;s a bit more expensive per-month compared to other subscription-based services, but it&#x27;s not meant to be used 24&#x2F;7.<p>The game servers are run using Docker on a handful of AWS services, and the web front-end is running on a Linode instance.<p>The servers have an auto-shutdown feature which stops the server if it detects no players connected for 10 minutes. This is handy because I regularly forget to shut down the server manually and it prevents running up a huge bill.<p>It also automatically backs up game save files to S3 each time the server is shut down, features a web-based server console, has an easy config file and plugin editing system and let&#x27;s you change the cpu&#x2F;ram profile on a game server at any time.<p>It basically launches a server through AWS like this:\n  - The &#x27;Launch Server&#x27; button is pressed on the website:\n    - Space on an EFS drive is created for game save files\n    - Config files and plugins for the game are saved to the EFS drive\n    - A DNS entry for the custom domain (eg. myserver.grryno.com) is created through Route53\n    - An EC2 instance is launched, linked to the EFS drive\n    - An ECS task (Docker image) is created on the EC2 instance.<p>This all finishes in about 2 minutes, usually.<p>So far I only have a very small handful of paying users, but last week I was host to a major Twitch Minecraft charity event with some big-name streamers. It was exhilarating to watch these guys, who had about 100,000 combined viewers, play on my servers. Terrifying too! I could barely watch the stream because I was afraid that my stuff was going to come crashing down at any second and ruin the whole bloody thing. It all ran flawlessly though! I had teamed up with a company called Warp World to do some Twitch-specific customization on a Minecraft server and it was because of them that this Twitch event happened. Many thanks to them for supporting me.<p>I&#x27;m a developer through and through but I&#x27;m trying to learn some marketing so I can hopefully quit my day job and run this thing full time soon.<p>I would love for anyone to try it out and let me know what you think. If you go to https:&#x2F;&#x2F;grryno.com&#x2F; and use this promo code: THEBEESAREHAPPY, you&#x27;ll get a couple of bucks added to your account, which should be about 10 hours of game time for most games with the default server type. I&#x27;m open to any and all constructive feedback or suggestions. There are only a handful of games on there right now but I&#x27;ll add games on request as well.<p>I&#x27;d love to answer any questions on the tech stack or infrastructure too.<p>Thanks for reading!<p>Ryan",
+      "time": 1647290053,
+      "title": "Show HN: Grryno.com – A pay-per-use game server hosting service",
+      "type": "story"
+    },
+    {
+      "by": "untilted",
+      "descendants": 0,
+      "id": 30677879,
+      "score": 1,
+      "time": 1647290020,
+      "title": "Doctor Killer",
+      "type": "story",
+      "url": "https://en.wikipedia.org/wiki/Beechcraft_Bonanza"
+    },
+    {
+      "by": "ciconia",
+      "descendants": 0,
+      "id": 30677876,
+      "score": 1,
+      "time": 1647290005,
+      "title": "Julian Assange denied permission to appeal against US extradition",
+      "type": "story",
+      "url": "https://www.theguardian.com/media/2022/mar/14/julian-assange-denied-permission-to-appeal-against-us-extradition"
+    },
+    {
+      "by": "News-Dog",
+      "descendants": 0,
+      "id": 30677869,
+      "score": 1,
+      "time": 1647289979,
+      "title": "Oil briefly tumbles below $100 a Barrel",
+      "type": "story",
+      "url": "https://lite.cnn.com/en/article/h_069ac74c9ef76e56dc28553c77476521"
+    },
+    {
+      "by": "prostoalex",
+      "descendants": 0,
+      "id": 30677866,
+      "score": 1,
+      "time": 1647289975,
+      "title": "Let’s Talk About 6G",
+      "type": "story",
+      "url": "https://www.wsj.com/articles/forget-5g-lets-talk-6g-11647046000"
+    },
+    {
+      "by": "ingve",
+      "descendants": 0,
+      "id": 30677854,
+      "score": 1,
+      "time": 1647289912,
+      "title": "Include ＜C++＞ Position on CppCon Safety",
+      "type": "story",
+      "url": "https://www.includecpp.org/posts/communication-cppcon/"
+    },
+    {
+      "by": "AdmiralAsshat",
+      "descendants": 0,
+      "id": 30677837,
+      "score": 1,
+      "time": 1647289821,
+      "title": "BitTorrent blocking: TorGuard VPN’s firewall nixes torrents on US servers",
+      "type": "story",
+      "url": "https://arstechnica.com/tech-policy/2022/03/torguard-vpn-blocks-bittorrent-on-us-servers-to-settle-piracy-lawsuit/"
+    },
+    {
+      "by": "_Microft",
+      "descendants": 0,
+      "id": 30677836,
+      "score": 1,
+      "time": 1647289819,
+      "title": "I pointed a telescope at the ISS from the hometown of ESA astronaut Matth Maurer",
+      "type": "story",
+      "url": "https://twitter.com/SeVoSpace/status/1502474826698485760"
+    },
+    {
       "by": "hegzploit",
       "descendants": 0,
       "id": 30677834,
@@ -9,96 +99,6 @@
       "title": "Maxwell's Equations of Software",
       "type": "story",
       "url": "http://www.righto.com/2008/07/maxwells-equations-of-software-examined.html"
-    },
-    {
-      "by": "mono-bob",
-      "descendants": 0,
-      "id": 30677829,
-      "score": 1,
-      "time": 1647289752,
-      "title": "Epson announces launch of their first industrial pellet extrusion 3D printer",
-      "type": "story",
-      "url": "https://3dprintingindustry.com/news/epson-makes-additive-manufacturing-debut-with-new-industrial-pellet-extrusion-3d-printer-205711/"
-    },
-    {
-      "by": "vermaden",
-      "descendants": 0,
-      "id": 30677827,
-      "score": 1,
-      "time": 1647289740,
-      "title": "ZFS Boot Environments Revolutions",
-      "type": "story",
-      "url": "https://vermaden.wordpress.com/2022/03/14/zfs-boot-environments-revolutions/"
-    },
-    {
-      "by": "des1nderlase",
-      "descendants": 0,
-      "id": 30677823,
-      "score": 1,
-      "time": 1647289693,
-      "title": "Russia accuses Kyiv of deadly missile attack on Donetsk",
-      "type": "story",
-      "url": "https://www.theguardian.com/world/2022/mar/14/russia-accuses-kyiv-of-deadly-missile-attack-on-donetsk"
-    },
-    {
-      "by": "RickJWagner",
-      "descendants": 0,
-      "id": 30677776,
-      "score": 1,
-      "time": 1647289455,
-      "title": "The Contradictions and Confusion of Getting Americans to Buy Electric Cars",
-      "type": "story",
-      "url": "https://www.discoursemagazine.com/economics/2022/03/10/the-contradictions-and-confusion-of-getting-americans-to-buy-electric-cars/"
-    },
-    {
-      "by": "serverlessmom",
-      "descendants": 0,
-      "id": 30677735,
-      "score": 1,
-      "time": 1647289251,
-      "title": "Feminists Fought for the Right to Forget Childbirth",
-      "type": "story",
-      "url": "https://www.atlasobscura.com/articles/twilight-sleep-childbirth-1910s-feminists"
-    },
-    {
-      "by": "News-Dog",
-      "descendants": 0,
-      "id": 30677710,
-      "score": 3,
-      "time": 1647289164,
-      "title": "Russia may-have found a Buyer for its Cheap Oil – India",
-      "type": "story",
-      "url": "https://lite.cnn.com/en/article/h_a07b1c0d5a96d9e4fc38ed6c624f4bc6"
-    },
-    {
-      "by": "kastden",
-      "descendants": 0,
-      "id": 30677675,
-      "score": 1,
-      "time": 1647289002,
-      "title": "DirectStorage API Now Available on PC",
-      "type": "story",
-      "url": "https://devblogs.microsoft.com/directx/directstorage-api-available-on-pc/"
-    },
-    {
-      "by": "dexwiz",
-      "descendants": 0,
-      "id": 30677661,
-      "score": 4,
-      "text": "A the start of the year I couldn&#x27;t go three articles without seeing something about NFTs. Less than 3 months later, and I barely see anything. Is this just normal hype cycle cooling, or were they really the scam everyone was decrying and have already passed?",
-      "time": 1647288937,
-      "title": "Ask HN: What Happened to NFTs?",
-      "type": "story"
-    },
-    {
-      "by": "swamp40",
-      "descendants": 0,
-      "id": 30677645,
-      "score": 3,
-      "time": 1647288878,
-      "title": "Ukraine halts half of world's neon output for chips, clouding outlook",
-      "type": "story",
-      "url": "https://www.cnn.com/2022/03/11/tech/ukraine-neon-chips/index.html"
     }
   ]
 }
