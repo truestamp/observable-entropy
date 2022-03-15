@@ -1,6 +1,47 @@
 {
   "stories": [
     {
+      "by": "turcutudor",
+      "descendants": 0,
+      "id": 30685281,
+      "score": 1,
+      "text": "TLDR: I&#x27;m building a cryptography puzzle game. Try it out at: <a href=\"https:&#x2F;&#x2F;clujhunt.com&#x2F;ciphers\" rel=\"nofollow\">https:&#x2F;&#x2F;clujhunt.com&#x2F;ciphers</a><p>Hey, HN!<p>I&#x27;m Tudor and I&#x27;m working on a puzzle game where you solve increasingly difficult ciphers using a custom coded decryption tool that should make the process more enjoyable<p>After you solve each puzzle, you are rewarded with pieces of a story about a cryptography enthusiast, set in 1930s Germany.<p>The hardest part of this project was building the accompanying decryption tool. I wanted it to be mobile-friendly and it’s the part I iterated on the most, after receiving feedback from friends and early testers.<p>You can play the game here: <a href=\"https:&#x2F;&#x2F;clujhunt.com&#x2F;ciphers\" rel=\"nofollow\">https:&#x2F;&#x2F;clujhunt.com&#x2F;ciphers</a> \nFor those who don’t feel like playing the game, I made a 2-minute video demo of the decryption tool: <a href=\"https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=vENHCt25P4M\" rel=\"nofollow\">https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=vENHCt25P4M</a><p>Disclaimer: There is a $5 paywall after you finish the second puzzle. I don&#x27;t expect to make money off it at this early stage. Instead, I use the paywall to measure what percentage of people are actually interested in this type of game.<p>Any feedback would be much appreciated and valuable, just leave a comment, I&#x27;ll be happy to chat . If you prefer email, my address is: sendtudor@gmail.com<p>Thanks :)\nTudor",
+      "time": 1647352489,
+      "title": "Show HN: Cryptography Puzzle Game for Geeks",
+      "type": "story",
+      "url": "https://clujhunt.com/ciphers"
+    },
+    {
+      "by": "DocFeind",
+      "descendants": 0,
+      "id": 30685246,
+      "score": 1,
+      "time": 1647352349,
+      "title": "New Secret Service report details growing incel terrorism threat",
+      "type": "story",
+      "url": "https://www.cbsnews.com/news/incel-threat-secret-service-report/"
+    },
+    {
+      "by": "rbanffy",
+      "descendants": 0,
+      "id": 30685227,
+      "score": 1,
+      "time": 1647352262,
+      "title": "Architecting Memory Pools for HPC and AI Applications Using CXL",
+      "type": "story",
+      "url": "https://www.nextplatform.com/2022/03/14/architecting-memory-pools-for-hpc-and-ai-applications-using-cxl/"
+    },
+    {
+      "by": "joshcramer",
+      "descendants": 0,
+      "id": 30685223,
+      "score": 1,
+      "text": "I’m traveling to an area of the world where the only communication medium I will have available to me is unlimited 140 character text messages. I’m wondering if it is possible to set up a computer that will allow me to fully interact with it via SMS. I’d like to be able to do things like check the news, read and reply to my emails, check on the status of my home and other servers. What is the state of the art in SMS based human computer interaction?",
+      "time": 1647352219,
+      "title": "Ask HN: Is there a pure SMS based UI?",
+      "type": "story"
+    },
+    {
       "by": "dsr12",
       "descendants": 0,
       "id": 30685204,
@@ -12,9 +53,12 @@
     },
     {
       "by": "novateg",
-      "descendants": 0,
+      "descendants": 1,
       "id": 30685182,
-      "score": 1,
+      "kids": [
+        30685274
+      ],
+      "score": 7,
       "text": "I&#x27;ve started my journey as a self-taught web developer in 2008, I moved to New York in 2012 and started working for marketing agency as a web developer with a pay of $15 per hour, which has the lowest for the position.<p>I managed to grow to Tech Director at the same company and my current salary is $110k per year, and yes, I&#x27;m still working from paycheck-to-paycheck.<p>How can I get out of the swamp?",
       "time": 1647352008,
       "title": "Ask HN: How do I Stop Living Paycheck to Paycheck?",
@@ -24,7 +68,7 @@
       "by": "ksec",
       "descendants": 0,
       "id": 30685169,
-      "score": 1,
+      "score": 2,
       "time": 1647351928,
       "title": "SoftBank’s ARM to Lay Off Upto 15% as It Prepares IPO After Nvidia Deal Collapse",
       "type": "story",
@@ -59,46 +103,6 @@
       "title": "The popular apps aiming to tame the chaos of family life",
       "type": "story",
       "url": "https://www.bbc.com/news/business-60213795"
-    },
-    {
-      "by": "rbanffy",
-      "descendants": 0,
-      "id": 30685149,
-      "score": 1,
-      "time": 1647351795,
-      "title": "Hot springs reveal where continental plates collide beneath Tibet",
-      "type": "story",
-      "url": "https://phys.org/news/2022-03-hot-reveal-continental-plates-collide.html"
-    },
-    {
-      "by": "ksec",
-      "descendants": 0,
-      "id": 30685109,
-      "score": 1,
-      "time": 1647351579,
-      "title": "Tom Scott: 14 science fiction stories in under 6 minutes",
-      "type": "story",
-      "url": "https://www.youtube.com/watch?v=iQGl-ffVtaM"
-    },
-    {
-      "by": "tiffanyh",
-      "descendants": 0,
-      "id": 30685104,
-      "score": 2,
-      "text": "Can someone help me understand how&#x2F;why FreeBSD does releases. It almost seem user hostile (unless you&#x27;re just a FreeBSD developer wanting to hack on FreeBSD).<p>What I find odd is:<p>(a) there are 3 simultaneous production releases (13.0, 12.3, 12.2) - which seems confusing and lack of focus<p>(b) the development process is CURRENT &gt; STABLE &gt; BETA* &gt; RC* &gt; RELEASE. But the problem is, all developers just work on CURRENT. So if there is ever a problem on RELEASE, you basically won&#x27;t get the fix.<p>(c) it seems logic to only run RELEASE in production, but the problem is - RELEASE is only support for 3 months after the next RELEASE. 3 months! [1]<p>(d) this creates a situation where companies basically have to fork FreeBSD just to use it in their production environment (and merge from CURRENT frequently). Netflix has to do this, but no all companies have the huge resources Netflix does [2]<p>(e) just the simple fact that freebsd.org list 4 releases on their homepage is alone confusing.<p>These problems has been long documented for over a decade (documented well by @rsync [3][4]), I just feel like I must be missing something obvious as to why FreeBSD does there releases so strangely.<p>[1] https:&#x2F;&#x2F;www.freebsd.org&#x2F;security&#x2F;#sup<p>[2] https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=21867202<p>[3] https:&#x2F;&#x2F;lists.freebsd.org&#x2F;pipermail&#x2F;freebsd-hackers&#x2F;2014-June&#x2F;045319.html<p>[4] https:&#x2F;&#x2F;lists.freebsd.org&#x2F;pipermail&#x2F;freebsd-hackers&#x2F;2012-January&#x2F;037294.html",
-      "time": 1647351571,
-      "title": "Ask HN: Why does FreeBSD do Releases the way the do?",
-      "type": "story"
-    },
-    {
-      "by": "ItsTotallyOn",
-      "descendants": 0,
-      "id": 30685100,
-      "score": 2,
-      "time": 1647351551,
-      "title": "AMD Fires Back with 7 New Chips, Flagship $449 Ryzen 7 5800X3D Lands April 20",
-      "type": "story",
-      "url": "https://www.tomshardware.com/news/amd-ryzen-7-5800x3d-5700X-Ryzen-5-5600-5500-4600G-4500-4100"
     }
   ]
 }
