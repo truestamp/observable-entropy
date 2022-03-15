@@ -1,12 +1,55 @@
 {
   "stories": [
     {
+      "by": "CapnKillbot",
+      "descendants": 0,
+      "id": 30686217,
+      "score": 1,
+      "time": 1647356624,
+      "title": "Finding the Longest Cold-Snap",
+      "type": "story",
+      "url": "https://www.natador.com/posts/longest-cold-snap/"
+    },
+    {
+      "by": "mariuz",
+      "descendants": 0,
+      "id": 30686196,
+      "score": 1,
+      "time": 1647356533,
+      "title": "Putin's Road to War: Julia Ioffe",
+      "type": "story",
+      "url": "https://www.pbs.org/wgbh/frontline/interview/julia-ioffe-3/"
+    },
+    {
+      "by": "codazoda",
+      "descendants": 1,
+      "id": 30686179,
+      "kids": [
+        30686183
+      ],
+      "score": 1,
+      "time": 1647356451,
+      "title": "Show HN: The personal knowledge app you'll use – Nolific v0.3.0",
+      "type": "story",
+      "url": "https://www.nolific.com"
+    },
+    {
+      "by": "graderjs",
+      "descendants": 0,
+      "id": 30686177,
+      "score": 1,
+      "time": 1647356446,
+      "title": "The Book No One Read – Why Lem's Futurism Deserves Attention",
+      "type": "story",
+      "url": "https://nautil.us/the-book-no-one-read-2-3740/"
+    },
+    {
       "by": "graderjs",
       "descendants": 0,
       "id": 30686163,
       "score": 1,
       "time": 1647356396,
-      "title": "Tinrenderer – how OpenGL works: software rendering in 500 lines of code",
+      "title": "TinyRenderer – how OpenGL works: software rendering in 500 lines of code",
       "type": "story",
       "url": "https://github.com/ssloy/tinyrenderer/wiki"
     },
@@ -24,7 +67,7 @@
       "by": "graderjs",
       "descendants": 0,
       "id": 30686148,
-      "score": 1,
+      "score": 2,
       "time": 1647356350,
       "title": "H.264 Is Magic",
       "type": "story",
@@ -59,46 +102,6 @@
       "title": "Equal Pay Day paints ‘too rosy a picture’ for women during the pandemic",
       "type": "story",
       "url": "https://fortune.com/2022/03/15/equal-pay-day-working-women-pandemic/"
-    },
-    {
-      "by": "terrorobe",
-      "descendants": 0,
-      "id": 30686064,
-      "score": 3,
-      "time": 1647355967,
-      "title": "Removed unencrypted Git protocol and certain SSH keys",
-      "type": "story",
-      "url": "https://github.blog/changelog/2022-03-15-removed-unencrypted-git-protocol-and-certain-ssh-keys/"
-    },
-    {
-      "by": "LegionDev",
-      "descendants": 0,
-      "id": 30686063,
-      "score": 4,
-      "time": 1647355956,
-      "title": "Building a Backconnect Proxy in Golang",
-      "type": "story",
-      "url": "https://ldg.io/blogs/backconnect-proxy-pt1"
-    },
-    {
-      "by": "aofeisheng",
-      "descendants": 0,
-      "id": 30686059,
-      "score": 1,
-      "time": 1647355930,
-      "title": "Go 1.18 Release Notes",
-      "type": "story",
-      "url": "https://go.dev/doc/go1.18"
-    },
-    {
-      "by": "jillboyce",
-      "descendants": 0,
-      "id": 30686027,
-      "score": 6,
-      "text": "Hello HN! We are Jill and Basel, founders of Vimmerse (<a href=\"https:&#x2F;&#x2F;vimmerse.net\" rel=\"nofollow\">https:&#x2F;&#x2F;vimmerse.net</a>.)  Vimmerse is a platform and SDKs for creating and playing 3D video. We make it easy for businesses, developers, and creators to provide 3D immersive experiences for their viewers using our content creation APIs and player SDKs.<p>We have been watching video in two dimensions for too long! Most 3D content people experience today is computer generated, such as VR games. Diverse use cases can benefit from real-world 3D video, such as music performances, training, family memories, and the metaverse. Why isn’t there more real-world 3D video? Because it has been difficult and expensive to create, stream, and playback real-world, camera-captured 3D video content.<p>I am an IEEE Fellow and inventor of over 200 patents. Basel has a PhD in electrical engineering with deep experience in VR&#x2F;AR&#x2F;3D video. While at Intel (as Chief Media Architect and Intel Fellow), I led an MPEG standards workgroup on 360&#x2F;VR video. I found that 360&#x2F;VR video’s limitation to 3 Degrees of Freedom (DoF) caused discomfort or even nausea in some viewers, because we experience the real world in 6 DoF (controlling both position + orientation), not in 3DoF (just orientation).  I initiated an activity in MPEG to develop the MPEG Immersive Video (MIV) standard, which provides 6DoF. I became the lead editor of the MIV standard, and Basel was the lead editor of the test model.<p>While at Intel, we developed a MIV 3D video player for Intel GPUs and observed the greater engagement that 3D video provides to viewers. However there was no content available for the new MIV standard, and creation of 3D video content was a very difficult and expensive process. We realized that if 3D video were to become widely used, the creation and distribution processes needed to be simplified.  We founded Vimmerse with a mission to greatly expand access to 3D video.<p>Businesses can build their own services using our APIs to upload captured content and prepare 3D video on our platform. Our platform is capture agnostic, meaning it can work with any video device suitable for 3D capture, such as iPhones or Microsoft Azure Kinect depth sensors. More than 60% of iPhone 12 and 13 models sold (Pro and Pro Max) have LiDAR depth sensors, which can be used for capturing 3D video content.<p>The Vimmerse platform prepares 3D content from the uploaded capture files. Our approach is built on top of industry standard video streaming protocols and codecs, so existing video streaming servers and hardware video decoders can be utilized. The content preparation platform creates two types of output bitstreams from the uploaded captures: bullet video and 3D video. Bullet video (named after the Matrix movie’s bullet effect) is a 2D video representation of the 3D video, following a predetermined navigation path selected by the content creator. 3D video gives viewers the ability to control navigation with 6 Degrees of Freedom (6DoF), where they can pan around or step into the scene. Bullet video may be streamed (HLS) or downloaded (MP4) for playback on any device. 3D video playback may be streamed (HLS) to the Vimmerse 3D video player.<p>Services may use the Vimmerse 3D video player app, or developers can use our player SDK inside their own apps. Viewers have the ability to control navigation using any viewer input method: device motion, mouse&#x2F;keyboard, touch controls, head&#x2F;gesture tracking. The player SDK renders views for the selected 6DoF position and orientation.<p>We haven’t published pricing yet, but our plan is to charge for our content preparation APIs based on usage (e.g. minutes of video processed and streamed) and player SDKs based on number of units.<p>The Vimmerse website provides a no code way to test out our platform or view featured content. We invite the community to upload their own test content. Instructions for preparing content are available here. Sign up for an account to upload content, or use the guest account (login: guest, password: Guest#123). The Vimmerse 3D player for Android is available in the Google Play Store here.<p>Please share your thoughts and experiences with 3D video, and your ideas for use cases that would benefit the most from 3D video. Are there any features we should add, or capture devices that you would like to have supported? Looking forward to getting your feedback.",
-      "time": 1647355783,
-      "title": "Launch HN: Vimmerse (YC W22) – Platform and SDKs to create and play 3D video",
-      "type": "story"
     }
   ]
 }
