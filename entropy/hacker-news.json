@@ -1,6 +1,46 @@
 {
   "stories": [
     {
+      "by": "eatonphil",
+      "descendants": 0,
+      "id": 30685552,
+      "score": 1,
+      "time": 1647353674,
+      "title": "Airtable and SQL: Querying Airtable with DataStation",
+      "type": "story",
+      "url": "https://datastation.multiprocess.io/docs/tutorials/Query_Airtable_with_DataStation.html"
+    },
+    {
+      "by": "gwbas1c",
+      "descendants": 0,
+      "id": 30685546,
+      "score": 1,
+      "text": "I&#x27;m a software developer for an infrastructure product. It isn&#x27;t critical infrastructure, but if we were hacked, people would be disrupted.<p>Recently, the CTO made an offhand comment that we might loose administrator (root) access to our development computers. According to the CTO, we would have to declare all the software we need and it would be installed for us by IT.<p>This struck me as odd, because it&#x27;s extremely difficult to develop software without administrator access on a development computer.<p>Is this a common practice (no administrator access) for other Hacker News developers?<p>A few more things:<p>We follow the pull request process: All code is reviewed on Github. Branches are protected so it&#x27;s difficult for a malicious party to slip something in.<p>3rd party dependencies are locked down and closely reviewed. Someone couldn&#x27;t slip in a change to a 3rd party dependency without us noticing.<p>We could, in theory, perform ops in a locked down environment. Separate hardware, special ops VM, or similar are all possible.",
+      "time": 1647353636,
+      "title": "Ask HN: Any developers work without Administrator access to their computer?",
+      "type": "story"
+    },
+    {
+      "by": "mephisto",
+      "descendants": 0,
+      "id": 30685545,
+      "score": 1,
+      "time": 1647353635,
+      "title": "New experimental Docker4Mac file sharing VirtioFS",
+      "type": "story",
+      "url": "https://docs.docker.com/desktop/mac/"
+    },
+    {
+      "by": "judge2020",
+      "descendants": 0,
+      "id": 30685504,
+      "score": 1,
+      "time": 1647353445,
+      "title": "Security for SaaS Providers",
+      "type": "story",
+      "url": "https://blog.cloudflare.com/waf-for-saas/"
+    },
+    {
       "by": "rustoo",
       "descendants": 0,
       "id": 30685476,
@@ -54,51 +94,11 @@
       "by": "mg",
       "descendants": 0,
       "id": 30685414,
-      "score": 2,
+      "score": 3,
       "time": 1647353026,
       "title": "EU Parliament adopts draft legislation: Smartphone batteries must be removable",
       "type": "story",
       "url": "https://www.europarl.europa.eu/news/en/press-room/20220304IPR24805/new-rules-on-batteries-meps-want-more-environmental-and-social-ambition"
-    },
-    {
-      "by": "vixen99",
-      "descendants": 0,
-      "id": 30685388,
-      "score": 1,
-      "time": 1647352925,
-      "title": "Half of US population exposed to adverse lead levels in early childhood",
-      "type": "story",
-      "url": "https://doi.org/10.1073/pnas.2118631119"
-    },
-    {
-      "by": "zeebeecee",
-      "descendants": 0,
-      "id": 30685387,
-      "score": 1,
-      "time": 1647352919,
-      "title": "Infinite Wordle",
-      "type": "story",
-      "url": "https://arxiv.org/abs/2203.06804"
-    },
-    {
-      "by": "itamarst",
-      "descendants": 0,
-      "id": 30685363,
-      "score": 1,
-      "time": 1647352828,
-      "title": "Processing large JSON files in Python without running out of memory",
-      "type": "story",
-      "url": "https://pythonspeed.com/articles/json-memory-streaming/"
-    },
-    {
-      "by": "elorant",
-      "descendants": 0,
-      "id": 30685350,
-      "score": 2,
-      "time": 1647352769,
-      "title": "The Global Minecraft Team Building New York City",
-      "type": "story",
-      "url": "https://www.curbed.com/2022/03/global-minecraft-team-building-new-york-city.html"
     }
   ]
 }
