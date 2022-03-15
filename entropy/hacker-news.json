@@ -1,9 +1,52 @@
 {
   "stories": [
     {
-      "by": "samwillis",
+      "by": "apignotti",
       "descendants": 0,
+      "id": 30686919,
+      "score": 1,
+      "text": "WebAssembly is commonly used as part of web applications, and minimizing its size is especially important.<p>As part of the latest release of Cheerp, our C++ to WebAssembly&#x2F;JavaScript compiler, we have introduced a powerful new LLVM optimization that aggressively reduce WebAssembly output size at compile time.<p>We have named this optimization &#x27;PartialExecuter&#x27;, the key idea behind it being taking advantage of known function parameters to find inner code blocks that cannot ever be possibly executed.<p>Such blocks can then be completely removed from the compiled output, significantly reducing its size.<p>What makes this pass more powerful than typical Dead Code Elimination is the ability of reasoning over all the possible executions that the code can take, while being robust to memory stores and side-effects. Moreover, PartialExecuter can even reason over loads as far as they refer to read-only memory. This latter capability is especially useful to drop code from complex functions whose behavior depend on input strings (i.e. printf).<p>We think this work may be of interest for the HN community, and we welcome feedback and questions.<p>In-depth blog post: https:&#x2F;&#x2F;leaningtech.com&#x2F;reducing-webassembly-size-by-exploring-all-executions-in-llvm&#x2F;",
+      "time": 1647359856,
+      "title": "Show HN: A new LLVM optimization pass that aggressively reduces WebAssembly size",
+      "type": "story"
+    },
+    {
+      "by": "CSDude",
+      "descendants": 0,
+      "id": 30686902,
+      "score": 1,
+      "time": 1647359770,
+      "title": "Curated collection of the best security pages",
+      "type": "story",
+      "url": "https://securitypage.fyi/"
+    },
+    {
+      "by": "Tomte",
+      "descendants": 0,
+      "id": 30686896,
+      "score": 1,
+      "time": 1647359748,
+      "title": "LDraw is an open standard for Lego CAD programs",
+      "type": "story",
+      "url": "https://www.ldraw.org/"
+    },
+    {
+      "by": "Tomte",
+      "descendants": 0,
+      "id": 30686885,
+      "score": 1,
+      "time": 1647359710,
+      "title": "Stumbling Stones in German Streets (2009)",
+      "type": "story",
+      "url": "https://www.scene4.com/archivesqv6/nov-2009/1109/renatestendhal-i1109.html"
+    },
+    {
+      "by": "samwillis",
+      "descendants": 1,
       "id": 30686878,
+      "kids": [
+        30686952
+      ],
       "score": 1,
       "time": 1647359684,
       "title": "JavaScript.Sketcher: Parametric 2D and 3D CAD modeler written in pure JavaScript",
@@ -54,51 +97,11 @@
       "by": "todsacerdoti",
       "descendants": 0,
       "id": 30686851,
-      "score": 2,
+      "score": 3,
       "time": 1647359515,
       "title": "Lawmakers Probe Early Release of Top RU Cybercrook",
       "type": "story",
       "url": "https://krebsonsecurity.com/2022/03/lawmakers-probe-early-release-of-top-ru-cybercrook/"
-    },
-    {
-      "by": "mooreds",
-      "descendants": 0,
-      "id": 30686838,
-      "score": 1,
-      "time": 1647359472,
-      "title": "Measuring Up: Metrics in Developer Relations",
-      "type": "story",
-      "url": "https://devrelate.io/post/20-measuring-up-metrics-in-developer-relations"
-    },
-    {
-      "by": "integrale",
-      "descendants": 0,
-      "id": 30686828,
-      "score": 1,
-      "time": 1647359437,
-      "title": "Revenue Projections for D.C.’S Sports-Betting App Have Been Slashed",
-      "type": "story",
-      "url": "https://dcist.com/story/22/03/03/dc-lottery-app-underperforms/"
-    },
-    {
-      "by": "mooreds",
-      "descendants": 0,
-      "id": 30686810,
-      "score": 1,
-      "time": 1647359337,
-      "title": "Building a Backlog Your Team Will Love",
-      "type": "story",
-      "url": "https://medium.com/agileinsider/building-a-backlog-your-team-will-love-ba159c1b6ad7"
-    },
-    {
-      "by": "sbt567",
-      "descendants": 0,
-      "id": 30686795,
-      "score": 2,
-      "time": 1647359274,
-      "title": "What Did Autosar Solve?",
-      "type": "story",
-      "url": "https://old.reddit.com/r/embedded/comments/leq366/how_much_of_a_modern_carbuilt_from_the_year_2000/"
     }
   ]
 }
