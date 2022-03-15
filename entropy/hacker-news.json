@@ -4,7 +4,7 @@
       "by": "MarkusWandel",
       "descendants": 0,
       "id": 30683794,
-      "score": 1,
+      "score": 2,
       "text": "I am stumped.  I&#x27;ve run a Linux firewall for years using an &quot;iptables&quot; based configuration.  Never a problem.  The current gateway machine is running on CENTOS 6 installed 10 years ago, so it&#x27;s time for an upgrade.<p>I installed Redhat Enterprise 8.5 (using a free personal developer licence) which comes with kernel 4.18.  Decided to modernize and use an nft based firewall script.<p>At first glance it works.  But a subset of the internet is inaccessible.  Specifically, any attempt to access http:&#x2F;&#x2F;news.yahoo.com fails from any machine other than the gateway machine itself.  Paring the script down to the bare minimum, which I paste here:<p>table ip nat {\n chain postrouting {\n  type nat hook postrouting priority filter; policy accept;\n  oifname &quot;ppp0&quot; masquerade\n }\n}<p>everything works except news.yahoo.com (and it appears other things on the same CDN or whatever).<p>I figured I&#x27;d wait until RHEL9 and its newer kernel, but I did a test using another machine running FC39 (same kernel version) and the problem is the same.<p>These setups can still load my old iptables based firewall config.  That also works but also has the problem above.  It does not on the old CENTOS 6 machine.  I&#x27;m stumped.  Where can I even begin to go for help with this?",
       "time": 1647341347,
       "title": "Ask HN: Why can't I access HTTP://news.yahoo.com through this firewall script?",
@@ -22,8 +22,11 @@
     },
     {
       "by": "Distozion",
-      "descendants": 0,
+      "descendants": 1,
       "id": 30683777,
+      "kids": [
+        30683807
+      ],
       "score": 1,
       "text": "Almost every week I see new software books being published, sometimes on extremely niche topics. A good number of them get outdated within the year it was published.<p>At the same time, every workplace I worked at had some books, but mostly it was books-as-decor or ones that the management liked the title of (The Lean Startup, agile&#x2F;scrum ones, etc). And no one ever read them.<p>When it comes to the software engineers I know of, a few mention they do read books, but AFAIK, it&#x27;s mostly hobby reading and almost never work related (I think the closest I got was the 4h workweek or The Lean Startup).<p>So who is the target audience reading all these books?\nIs there actual demand and I just happened to miss all those hidden readers who churn through swats of these technical writings on their free time?\nAre they all published just for the sake that the person in question becomes a &quot;published author&quot;?",
       "time": 1647341188,
@@ -101,12 +104,12 @@
     },
     {
       "by": "graderjs",
-      "descendants": 0,
+      "descendants": 1,
       "id": 30683669,
       "kids": [
         30683690
       ],
-      "score": 1,
+      "score": 2,
       "time": 1647340313,
       "title": "USS Kitty Hawk supercarrier sold for 1 cent",
       "type": "story",
