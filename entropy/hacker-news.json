@@ -1,10 +1,30 @@
 {
   "stories": [
     {
+      "by": "ilamont",
+      "descendants": 0,
+      "id": 30686983,
+      "score": 2,
+      "time": 1647360109,
+      "title": "Chinese students at Cornell “taunt” Uyghur classmate",
+      "type": "story",
+      "url": "https://www.axios.com/chinese-students-cornell-taunt-uyghur-classmate-3d2b1046-dd17-41de-a69d-59ec116da8bb.html"
+    },
+    {
+      "by": "Tomte",
+      "descendants": 0,
+      "id": 30686972,
+      "score": 3,
+      "time": 1647360068,
+      "title": "WordPress and Tumblr are keeping the internet weird",
+      "type": "story",
+      "url": "https://www.theverge.com/2022/3/15/22977857/wordpress-tumblr-simplenote-internet-automattic-matt-mullenweg-interview"
+    },
+    {
       "by": "apignotti",
       "descendants": 0,
       "id": 30686919,
-      "score": 1,
+      "score": 2,
       "text": "WebAssembly is commonly used as part of web applications, and minimizing its size is especially important.<p>As part of the latest release of Cheerp, our C++ to WebAssembly&#x2F;JavaScript compiler, we have introduced a powerful new LLVM optimization that aggressively reduce WebAssembly output size at compile time.<p>We have named this optimization &#x27;PartialExecuter&#x27;, the key idea behind it being taking advantage of known function parameters to find inner code blocks that cannot ever be possibly executed.<p>Such blocks can then be completely removed from the compiled output, significantly reducing its size.<p>What makes this pass more powerful than typical Dead Code Elimination is the ability of reasoning over all the possible executions that the code can take, while being robust to memory stores and side-effects. Moreover, PartialExecuter can even reason over loads as far as they refer to read-only memory. This latter capability is especially useful to drop code from complex functions whose behavior depend on input strings (i.e. printf).<p>We think this work may be of interest for the HN community, and we welcome feedback and questions.<p>In-depth blog post: https:&#x2F;&#x2F;leaningtech.com&#x2F;reducing-webassembly-size-by-exploring-all-executions-in-llvm&#x2F;",
       "time": 1647359856,
       "title": "Show HN: A new LLVM optimization pass that aggressively reduces WebAssembly size",
@@ -34,7 +54,7 @@
       "by": "Tomte",
       "descendants": 0,
       "id": 30686885,
-      "score": 1,
+      "score": 2,
       "time": 1647359710,
       "title": "Stumbling Stones in German Streets (2009)",
       "type": "story",
@@ -67,7 +87,7 @@
       "by": "itstaken",
       "descendants": 0,
       "id": 30686866,
-      "score": 2,
+      "score": 3,
       "time": 1647359597,
       "title": "Tree cover loss – 2001-2020",
       "type": "story",
@@ -82,26 +102,6 @@
       "title": "A Mathematician’s Lament [pdf]",
       "type": "story",
       "url": "https://www.maa.org/sites/default/files/pdf/devlin/LockhartsLament.pdf"
-    },
-    {
-      "by": "cmogni1",
-      "descendants": 0,
-      "id": 30686854,
-      "score": 2,
-      "time": 1647359530,
-      "title": "Oxidation Makes “Black Tea” Black",
-      "type": "story",
-      "url": "https://www.sophiescuppatea.com/blogs/news/oxidation-makes-tea-black"
-    },
-    {
-      "by": "todsacerdoti",
-      "descendants": 0,
-      "id": 30686851,
-      "score": 3,
-      "time": 1647359515,
-      "title": "Lawmakers Probe Early Release of Top RU Cybercrook",
-      "type": "story",
-      "url": "https://krebsonsecurity.com/2022/03/lawmakers-probe-early-release-of-top-ru-cybercrook/"
     }
   ]
 }
