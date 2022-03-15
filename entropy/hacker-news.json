@@ -1,6 +1,26 @@
 {
   "stories": [
     {
+      "by": "ben-schaaf",
+      "descendants": 0,
+      "id": 30683972,
+      "score": 1,
+      "time": 1647343114,
+      "title": "Introducing the QuartzPro64",
+      "type": "story",
+      "url": "https://www.pine64.org/2022/03/15/march-update-introducing-the-quartzpro64/"
+    },
+    {
+      "by": "BlanketLogic",
+      "descendants": 0,
+      "id": 30683964,
+      "score": 1,
+      "time": 1647343021,
+      "title": "“What to expect from Putin in the coming days.” FSB letters (tweets)",
+      "type": "story",
+      "url": "https://twitter.com/igorsushko/status/1503668377289584640"
+    },
+    {
       "by": "kashd",
       "descendants": 0,
       "id": 30683955,
@@ -84,26 +104,6 @@
       "text": "Hi<p>Two weeks ago we launched our swiss MS 365 alternative which was in development for about one year. We now focus on advertisement and are currently wondering how to approach companies.<p>Maybe somebody of the community has a great idea how to do it. Also do you think a there is a big market for our product? We are currently not sure if we maybe have used too much time for development and not enough for testing the market &#x2F; market analysis.<p>The cloud based tool has a quite simple GUI and is capable of\n- File storage &amp; editing\n- Team communication (connected to the storage)\n- E-Mail (connected to the storage)\n- Project Management (Trello like)\n- Time Tracking\n- Password management<p>At the moment there is no App (but if we see that the product has success we will build a Progressive Web App (PWA).<p>Thanks for your feedback. I wish everyone a nice week!",
       "time": 1647342159,
       "title": "Ask HN: How to promote a Swiss MS 365 alternative?",
-      "type": "story"
-    },
-    {
-      "by": "solanav",
-      "descendants": 0,
-      "id": 30683879,
-      "score": 2,
-      "time": 1647342146,
-      "title": "Arti 0.1.0: Tor re-written in Rust now has a stable API",
-      "type": "story",
-      "url": "https://blog.torproject.org/arti_010_released/"
-    },
-    {
-      "by": "MarkusWandel",
-      "descendants": 0,
-      "id": 30683794,
-      "score": 2,
-      "text": "I am stumped.  I&#x27;ve run a Linux firewall for years using an &quot;iptables&quot; based configuration.  Never a problem.  The current gateway machine is running on CENTOS 6 installed 10 years ago, so it&#x27;s time for an upgrade.<p>I installed Redhat Enterprise 8.5 (using a free personal developer licence) which comes with kernel 4.18.  Decided to modernize and use an nft based firewall script.<p>At first glance it works.  But a subset of the internet is inaccessible.  Specifically, any attempt to access http:&#x2F;&#x2F;news.yahoo.com fails from any machine other than the gateway machine itself.  Paring the script down to the bare minimum, which I paste here:<p>table ip nat {\n chain postrouting {\n  type nat hook postrouting priority filter; policy accept;\n  oifname &quot;ppp0&quot; masquerade\n }\n}<p>everything works except news.yahoo.com (and it appears other things on the same CDN or whatever).<p>I figured I&#x27;d wait until RHEL9 and its newer kernel, but I did a test using another machine running FC39 (same kernel version) and the problem is the same.<p>These setups can still load my old iptables based firewall config.  That also works but also has the problem above.  It does not on the old CENTOS 6 machine.  I&#x27;m stumped.  Where can I even begin to go for help with this?",
-      "time": 1647341347,
-      "title": "Ask HN: Why can't I access HTTP://news.yahoo.com through this firewall script?",
       "type": "story"
     }
   ]
