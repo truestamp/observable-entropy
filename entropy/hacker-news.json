@@ -1,6 +1,36 @@
 {
   "stories": [
     {
+      "by": "prtkgpt",
+      "descendants": 0,
+      "id": 30687116,
+      "score": 1,
+      "time": 1647360727,
+      "title": "Who Do Things Break?",
+      "type": "story",
+      "url": "https://prtkgpt.medium.com/why-do-things-break-1dd6c2946bb7"
+    },
+    {
+      "by": "flotzam",
+      "descendants": 0,
+      "id": 30687107,
+      "score": 1,
+      "time": 1647360700,
+      "title": "Sandboxed Google Play",
+      "type": "story",
+      "url": "https://grapheneos.org/usage"
+    },
+    {
+      "by": "CrankyBear",
+      "descendants": 0,
+      "id": 30687098,
+      "score": 1,
+      "time": 1647360628,
+      "title": "How to save business bucks on the cloud",
+      "type": "story",
+      "url": "https://www.computerworld.com/article/3653355/5-ways-to-save-business-bucks-on-the-cloud.html"
+    },
+    {
       "by": "tomrod",
       "descendants": 0,
       "id": 30687087,
@@ -22,12 +52,12 @@
     },
     {
       "by": "petecooper",
-      "descendants": 1,
+      "descendants": 2,
       "id": 30687063,
       "kids": [
         30687073
       ],
-      "score": 1,
+      "score": 2,
       "time": 1647360482,
       "title": "OpenSSL 3.0.2",
       "type": "story",
@@ -37,7 +67,7 @@
       "by": "marianoguerra",
       "descendants": 0,
       "id": 30687040,
-      "score": 1,
+      "score": 3,
       "time": 1647360358,
       "title": "Strype, a Python frame-based editor",
       "type": "story",
@@ -67,41 +97,11 @@
       "by": "ilamont",
       "descendants": 0,
       "id": 30686983,
-      "score": 5,
+      "score": 7,
       "time": 1647360109,
       "title": "Chinese students at Cornell “taunt” Uyghur classmate",
       "type": "story",
       "url": "https://www.axios.com/chinese-students-cornell-taunt-uyghur-classmate-3d2b1046-dd17-41de-a69d-59ec116da8bb.html"
-    },
-    {
-      "by": "Tomte",
-      "descendants": 0,
-      "id": 30686972,
-      "score": 3,
-      "time": 1647360068,
-      "title": "WordPress and Tumblr are keeping the internet weird",
-      "type": "story",
-      "url": "https://www.theverge.com/2022/3/15/22977857/wordpress-tumblr-simplenote-internet-automattic-matt-mullenweg-interview"
-    },
-    {
-      "by": "apignotti",
-      "descendants": 0,
-      "id": 30686919,
-      "score": 2,
-      "text": "WebAssembly is commonly used as part of web applications, and minimizing its size is especially important.<p>As part of the latest release of Cheerp, our C++ to WebAssembly&#x2F;JavaScript compiler, we have introduced a powerful new LLVM optimization that aggressively reduce WebAssembly output size at compile time.<p>We have named this optimization &#x27;PartialExecuter&#x27;, the key idea behind it being taking advantage of known function parameters to find inner code blocks that cannot ever be possibly executed.<p>Such blocks can then be completely removed from the compiled output, significantly reducing its size.<p>What makes this pass more powerful than typical Dead Code Elimination is the ability of reasoning over all the possible executions that the code can take, while being robust to memory stores and side-effects. Moreover, PartialExecuter can even reason over loads as far as they refer to read-only memory. This latter capability is especially useful to drop code from complex functions whose behavior depend on input strings (i.e. printf).<p>We think this work may be of interest for the HN community, and we welcome feedback and questions.<p>In-depth blog post: https:&#x2F;&#x2F;leaningtech.com&#x2F;reducing-webassembly-size-by-exploring-all-executions-in-llvm&#x2F;",
-      "time": 1647359856,
-      "title": "Show HN: A new LLVM optimization pass that aggressively reduces WebAssembly size",
-      "type": "story"
-    },
-    {
-      "by": "CSDude",
-      "descendants": 0,
-      "id": 30686902,
-      "score": 1,
-      "time": 1647359770,
-      "title": "Curated collection of the best security pages",
-      "type": "story",
-      "url": "https://securitypage.fyi/"
     }
   ]
 }
