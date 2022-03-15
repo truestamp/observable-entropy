@@ -1,10 +1,53 @@
 {
   "stories": [
     {
-      "by": "shrewdcomputer",
+      "by": "MarkusWandel",
       "descendants": 0,
-      "id": 30683742,
+      "id": 30683794,
       "score": 1,
+      "text": "I am stumped.  I&#x27;ve run a Linux firewall for years using an &quot;iptables&quot; based configuration.  Never a problem.  The current gateway machine is running on CENTOS 6 installed 10 years ago, so it&#x27;s time for an upgrade.<p>I installed Redhat Enterprise 8.5 (using a free personal developer licence) which comes with kernel 4.18.  Decided to modernize and use an nft based firewall script.<p>At first glance it works.  But a subset of the internet is inaccessible.  Specifically, any attempt to access http:&#x2F;&#x2F;news.yahoo.com fails from any machine other than the gateway machine itself.  Paring the script down to the bare minimum, which I paste here:<p>table ip nat {\n chain postrouting {\n  type nat hook postrouting priority filter; policy accept;\n  oifname &quot;ppp0&quot; masquerade\n }\n}<p>everything works except news.yahoo.com (and it appears other things on the same CDN or whatever).<p>I figured I&#x27;d wait until RHEL9 and its newer kernel, but I did a test using another machine running FC39 (same kernel version) and the problem is the same.<p>These setups can still load my old iptables based firewall config.  That also works but also has the problem above.  It does not on the old CENTOS 6 machine.  I&#x27;m stumped.  Where can I even begin to go for help with this?",
+      "time": 1647341347,
+      "title": "Ask HN: Why can't I access HTTP://news.yahoo.com through this firewall script?",
+      "type": "story"
+    },
+    {
+      "by": "bryanrasmussen",
+      "descendants": 0,
+      "id": 30683781,
+      "score": 1,
+      "time": 1647341235,
+      "title": "Complexity on a simian's face reveals a great deal about its society. (2013)",
+      "type": "story",
+      "url": "https://www.discovermagazine.com/the-sciences/how-evolution-made-the-monkey-face"
+    },
+    {
+      "by": "Distozion",
+      "descendants": 0,
+      "id": 30683777,
+      "score": 1,
+      "text": "Almost every week I see new software books being published, sometimes on extremely niche topics. A good number of them get outdated within the year it was published.<p>At the same time, every workplace I worked at had some books, but mostly it was books-as-decor or ones that the management liked the title of (The Lean Startup, agile&#x2F;scrum ones, etc). And no one ever read them.<p>When it comes to the software engineers I know of, a few mention they do read books, but AFAIK, it&#x27;s mostly hobby reading and almost never work related (I think the closest I got was the 4h workweek or The Lean Startup).<p>So who is the target audience reading all these books?\nIs there actual demand and I just happened to miss all those hidden readers who churn through swats of these technical writings on their free time?\nAre they all published just for the sake that the person in question becomes a &quot;published author&quot;?",
+      "time": 1647341188,
+      "title": "Ask HN: Who reads all of the constantly published software book?",
+      "type": "story"
+    },
+    {
+      "by": "minroot",
+      "descendants": 0,
+      "id": 30683770,
+      "score": 1,
+      "time": 1647341157,
+      "title": "Gofmt is keeping whitespaces, Go team is denying a fix",
+      "type": "story",
+      "url": "https://github.com/golang/go/issues/51663"
+    },
+    {
+      "by": "shrewdcomputer",
+      "descendants": 1,
+      "id": 30683742,
+      "kids": [
+        30683769
+      ],
+      "score": 2,
       "time": 1647340928,
       "title": "Better Sentiment Analysis with Sentiment.ai",
       "type": "story",
@@ -45,8 +88,11 @@
     },
     {
       "by": "marzipanina",
-      "descendants": 0,
+      "descendants": 1,
       "id": 30683709,
+      "kids": [
+        30683784
+      ],
       "score": 3,
       "time": 1647340646,
       "title": "UX Podcast Survey – vote for your favorite podcast to listen to in 2022",
@@ -65,49 +111,6 @@
       "title": "USS Kitty Hawk supercarrier sold for 1 cent",
       "type": "story",
       "url": "https://www.cnn.com/2022/03/14/asia/aircraft-carrier-kitty-hawk-scrapping-history-intl-hnk-ml/index.html"
-    },
-    {
-      "by": "ssl232",
-      "descendants": 1,
-      "id": 30683668,
-      "kids": [
-        30683677
-      ],
-      "score": 1,
-      "time": 1647340294,
-      "title": "Identifying biosignatures with assembly theory and mass spectrometry",
-      "type": "story",
-      "url": "https://www.nature.com/articles/s41467-021-23258-x"
-    },
-    {
-      "by": "nixass",
-      "descendants": 0,
-      "id": 30683661,
-      "score": 1,
-      "time": 1647340249,
-      "title": "IP over Avian Carriers",
-      "type": "story",
-      "url": "https://en.wikipedia.org/wiki/IP_over_Avian_Carriers"
-    },
-    {
-      "by": "erdo",
-      "descendants": 0,
-      "id": 30683656,
-      "score": 1,
-      "time": 1647340203,
-      "title": "The 300k volunteer hackers coming together to fight Russia",
-      "type": "story",
-      "url": "https://www.theguardian.com/world/2022/mar/15/volunteer-hackers-fight-russia"
-    },
-    {
-      "by": "graderjs",
-      "descendants": 0,
-      "id": 30683650,
-      "score": 2,
-      "time": 1647340149,
-      "title": "My DOOM 20th Anniversary Stories (2013)",
-      "type": "story",
-      "url": "http://blog.wilshipley.com/2013/12/my-doom-20th-anniversary-stories.html"
     }
   ]
 }
