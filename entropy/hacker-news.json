@@ -1,12 +1,22 @@
 {
   "stories": [
     {
+      "by": "feross",
+      "descendants": 0,
+      "id": 30703175,
+      "score": 2,
+      "time": 1647460144,
+      "title": "Building a Loading Bar Component",
+      "type": "story",
+      "url": "https://web.dev/building-a-loading-bar-component/"
+    },
+    {
       "by": "higgins",
       "descendants": 0,
-      "id": 30703103,
+      "id": 30703161,
       "score": 1,
-      "text": "Hi HN!<p>I wrote a tool that partially encrypts files based on the presence of a HEREDOC.<p>Check it out:\nhttps:&#x2F;&#x2F;github.com&#x2F;higgins&#x2F;privatize<p>When added to a git repo, it will automatically transparently encrypt&#x2F;decrypt files you want privatized.<p>For example if you configured your repo to privatize the file example.txt, you could write:<p>Today I a burrito.<p>&lt;&lt;PRIVATE<p>I was on the toilet for hours.<p>PRIVATE<p>I got a lot of reading done.<p>but when git-commit&#x27;ed would become:<p>Today I a burrito.<p>&lt;&lt;PRIVATE<p>xuJ0fld2vmNWaVLogTIufmWsiFso<p>PRIVATE<p>I got a lot of reading done.<p>Diffing works as you expect (on the unencrypted source) and only those with the `privatize` symmetric key would be able to unlock and decrypt these files.<p>Why did I do this?\nI keep a public log of what I plan to accomplish and what I&#x27;m working on both personally&#x2F;professionally. At the end of the day, I write a summary of everything that happened. Naturally, there are some details of my life that should be kept private (details of too-be-launched projects, sensitive family events, etc).<p>It&#x27;s helpful for me to track everything in one file so as to keep the day&#x27;s context together.<p>Would love to know what you think!\nJustin",
-      "time": 1647459853,
+      "text": "Hi HN!<p>I wrote a tool that partially encrypts files based on the presence of a HEREDOC.<p>Check it out:\nhttps:&#x2F;&#x2F;github.com&#x2F;higgins&#x2F;privatize<p>When added to a git repo, it will automatically transparently encrypt&#x2F;decrypt files you want privatized.<p>For example if you configured your repo to privatize the file `example.txt`, you could write:<p><pre><code>    ```\n    Today I a burrito.\n    &lt;&lt;PRIVATE\n    I was on the toilet for hours.\n    PRIVATE\n    I got a lot of reading done.\n    ```\n</code></pre>\nbut when git-commit&#x27;ed would become:<p><pre><code>    ```\n    Today I a burrito.\n    &lt;&lt;PRIVATE\n    xuJ0fld2vmNWaVLogTIufmWsiFso\n    PRIVATE\n    I got a lot of reading done.\n    ```\n</code></pre>\nDiffing works as you expect (on the unencrypted source) and only those with the `privatize` symmetric key would be able to unlock and decrypt these files.<p>Why did I do this?<p>I keep a public log of what I plan to accomplish and what I&#x27;m working on both personally&#x2F;professionally.\nAt the end of the day, I write a summary of everything that happened.\nNaturally, there are some details of my life that should be kept private (details of too-be-launched projects, sensitive family events, etc).<p>It&#x27;s helpful for me to track everything in one file so as to keep the day&#x27;s context together.<p>Would love to know what you think!\nJustin",
+      "time": 1647460089,
       "title": "Show HN: Partially encrypt a file based on its HEREDOCs",
       "type": "story"
     },
@@ -74,7 +84,7 @@
       "by": "whiteboardr",
       "descendants": 0,
       "id": 30702940,
-      "score": 2,
+      "score": 3,
       "time": 1647459109,
       "title": "NASA releases first image from an in-focus Webb telescope",
       "type": "story",
@@ -89,16 +99,6 @@
       "title": "China has already decided to send economic aid to Russia, US officials fear",
       "type": "story",
       "url": "https://www.theguardian.com/world/2022/mar/15/china-has-already-decided-to-send-economic-aid-to-russia-in-ukraine-conflict-us-officials-fear"
-    },
-    {
-      "by": "Katydid",
-      "descendants": 0,
-      "id": 30702907,
-      "score": 1,
-      "time": 1647458880,
-      "title": "Are we “springing forward” into a Y2K-class nightmare?",
-      "type": "story",
-      "url": "https://www.theregister.com/2022/03/16/us_senate_dst_forever/"
     }
   ]
 }
