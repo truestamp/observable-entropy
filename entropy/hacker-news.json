@@ -1,5 +1,66 @@
 {
   "stories": [
+    null,
+    {
+      "by": "giuliomagnifico",
+      "descendants": 0,
+      "id": 30697163,
+      "score": 1,
+      "time": 1647426809,
+      "title": "Russia faces IT crisis with just two months of data storage left",
+      "type": "story",
+      "url": "https://www.bleepingcomputer.com/news/technology/russia-faces-it-crisis-with-just-two-months-of-data-storage-left/"
+    },
+    {
+      "by": "daly",
+      "descendants": 0,
+      "id": 30697162,
+      "score": 1,
+      "text": "Back in the dawn of time the machines I worked on had application-specific instruction set architectures. IBM made &#x27;scientific&#x27; and &#x27;business&#x27; computers. The 360 line converged these.<p>With microcoded architectures today it would be possible to dynamically load a custom application-specific instruction set into microcode from an FPGA. This could greatly increase the efficiency of certain kinds of computation. The FPGA can be dynamically updated with new microcode architectures.<p>For example, a lisp-machine architecture for running lisp code, a prolog machine architecture for prolog code handling backtracking, an APL architecture for array processing, a SQL architecture for databases, etc.<p>These instruction sets could be dynamically swapped. For example, the register bank could be configured to match a particular SQL table structure and manipulated with SQL-specific instructions. Register banks configured as content-addressable memory could greatly speed up table searches.<p>In particular, with RISC-V, one could define a special-case extension instruction set that could be &#x27;swapped in&#x27; to the microcode, making it ideal for handling special purpose hardware like a GPU for bitcoins or a quantum computer instruction set handling unitary matrices.<p>I feel we&#x27;ve reached the limits of things a general purpose architecture can do.<p>Intel has an FPGA&#x2F;CPU pair (which unfortunately I can&#x27;t get because I&#x27;m not a huge corporation) but I don&#x27;t think the FPGA&#x2F;CPU can modify the CPU microcode. Perhaps they might hit on the idea with their marriage to the RISC-V community.<p>The ability to modify the data paths in a set of general purpose processor components (e.g. register banks, caches, integer ALU, float ALU, vector ALU, pipeline lookahead, etc) for specific applications by modifying the microcode would be a real leap forward.",
+      "time": 1647426807,
+      "title": "FPGA with Multiple ISA?",
+      "type": "story"
+    },
+    {
+      "by": "AshleysBrain",
+      "descendants": 0,
+      "id": 30697160,
+      "score": 1,
+      "time": 1647426780,
+      "title": "Chrome Became Highest Scoring Browser on Speedometer, Ever",
+      "type": "story",
+      "url": "https://blog.chromium.org/2022/03/how-chrome-became-highest-scoring.html"
+    },
+    {
+      "by": "feross",
+      "descendants": 0,
+      "id": 30697159,
+      "score": 1,
+      "time": 1647426763,
+      "title": "OpenSSL drops update addressing ‘high severity’ denial of service issue in",
+      "type": "story",
+      "url": "https://portswigger.net/daily-swig/openssl-drops-update-addressing-high-severity-denial-of-service-issue-in-ubiquitous-encryption-library"
+    },
+    {
+      "by": "belter",
+      "descendants": 0,
+      "id": 30697155,
+      "score": 2,
+      "time": 1647426704,
+      "title": "German prosecutors charge 3 with fraud in Wirecard collapse",
+      "type": "story",
+      "url": "https://abcnews.go.com/International/wireStory/german-prosecutors-charge-fraud-wirecard-collapse-83432812"
+    },
+    {
+      "by": "jger15",
+      "descendants": 0,
+      "id": 30697148,
+      "score": 1,
+      "time": 1647426642,
+      "title": "Be Good to Your Mentors",
+      "type": "story",
+      "url": "https://commoncog.com/blog/be-good-to-your-mentors/"
+    },
     {
       "by": "belter",
       "descendants": 1,
@@ -24,16 +85,6 @@
       "url": "https://www.cnet.com/personal-finance/surviving-off-crypto-when-cash-fails/"
     },
     {
-      "by": "giuliomagnifico",
-      "descendants": 0,
-      "id": 30697124,
-      "score": 1,
-      "time": 1647426445,
-      "title": "The fight over anonymity is about the future of the internet",
-      "type": "story",
-      "url": "https://www.protocol.com/anonymous-internet-jeff-koseff"
-    },
-    {
       "by": "jger15",
       "descendants": 0,
       "id": 30697121,
@@ -42,69 +93,6 @@
       "title": "Find More Ways to Be an Outsider",
       "type": "story",
       "url": "https://www.theatlantic.com/family/archive/2022/03/being-an-outsider-benefits-third-culture-kids/627011/"
-    },
-    {
-      "by": "maxwell-tyler",
-      "descendants": 0,
-      "id": 30697097,
-      "score": 2,
-      "time": 1647426142,
-      "title": "Building GraphQL App with Axum and SeaORM in Rust",
-      "type": "story",
-      "url": "https://github.com/SeaQL/sea-orm/tree/master/examples/axum-graphql_example"
-    },
-    {
-      "by": "chippy",
-      "descendants": 0,
-      "id": 30697095,
-      "score": 1,
-      "time": 1647426129,
-      "title": "Kony 2012, 10 Years Later",
-      "type": "story",
-      "url": "https://www.nytimes.com/2022/03/08/style/kony-2012-invisible-children.html"
-    },
-    {
-      "by": "xz18r",
-      "descendants": 0,
-      "id": 30697072,
-      "score": 1,
-      "time": 1647425865,
-      "title": "Setting Up TT-RSS via Yunohost on a Linode VPS – KarelVO",
-      "type": "story",
-      "url": "https://karelvo.com/ttrss/"
-    },
-    {
-      "by": "WithinReason",
-      "descendants": 0,
-      "id": 30697061,
-      "kids": [
-        30697067
-      ],
-      "score": 1,
-      "time": 1647425714,
-      "title": "In the time Python can perform 1 FLOP, an A100 can chew through 9.75M FLOPS",
-      "type": "story",
-      "url": "https://twitter.com/ID_AA_Carmack/status/1503844580474687493"
-    },
-    {
-      "by": "withinboredom",
-      "descendants": 0,
-      "id": 30697055,
-      "score": 2,
-      "time": 1647425642,
-      "title": "My Favorite Language Has Changed to PHP",
-      "type": "story",
-      "url": "https://withinboredom.info/blog/2022/03/16/my-favorite-language-has-changed-to-php/"
-    },
-    {
-      "by": "pseudolus",
-      "descendants": 0,
-      "id": 30697041,
-      "score": 1,
-      "time": 1647425490,
-      "title": "Air pollution linked to higher risk of autoimmune diseases",
-      "type": "story",
-      "url": "https://www.theguardian.com/environment/2022/mar/15/air-pollution-exposure-linked-higher-risk-autoimmune-diseases"
     }
   ]
 }
