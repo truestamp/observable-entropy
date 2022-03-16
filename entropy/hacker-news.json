@@ -1,14 +1,55 @@
 {
   "stories": [
     {
-      "by": "PanicAtTheDiSQL",
+      "by": "cdepman",
       "descendants": 0,
-      "id": 30703354,
+      "id": 30703401,
       "score": 1,
-      "time": 1647461106,
-      "title": "'Brazen' Lapsus$ ransomware group menaces Big Tech",
+      "time": 1647461371,
+      "title": "Webflow Raises $120M Series C",
       "type": "story",
-      "url": "https://readme.security/brazen-lapsus-ransomware-group-menaces-big-tech-e14c24cd1a35"
+      "url": "https://www.forbes.com/sites/kenrickcai/2022/03/16/webflow-series-c-4-billion-valuation-100-million-revenue/"
+    },
+    {
+      "by": "titzer",
+      "descendants": 0,
+      "id": 30703392,
+      "score": 1,
+      "text": "Hello,<p>Over the years I&#x27;ve repeatedly run into the problem that my projects end up outputting a <i>lot</i> of logging text, when running tests, when doing build steps, etc. But most of the logfile is uninteresting if the tests pass, the build steps succeed, etc. Normally the only interesting part is pass&#x2F;fail and maybe how many subtasks were run.<p>I finally got around to extracting a text-based utility that makes this more standard. All of my projects now use it.<p>It&#x27;s really simple. Every process or script that has a lot of steps simply outputs those steps in a standard format on specially-marked lines (beginning with ##), and then that output is piped a utility that parses those lines and displays up-to-date progress as the process runs. There are a lot of different modes, e.g. to output one character per subtask, one line, or to do all-in-one line interactive display.<p>I&#x27;ve found this very useful over the past several years and maybe others will too.",
+      "time": 1647461315,
+      "title": "Show HN: Progress: a simple-text subtask progress standard",
+      "type": "story",
+      "url": "https://github.com/titzer/progress"
+    },
+    {
+      "by": "fredoralive",
+      "descendants": 0,
+      "id": 30703385,
+      "score": 1,
+      "time": 1647461277,
+      "title": "Chrome-styled wheel covers for McLaren as part of Google deal",
+      "type": "story",
+      "url": "https://the-race.com/formula-1/chrome-styled-wheel-covers-for-mclaren-as-part-of-google-f1-deal/"
+    },
+    {
+      "by": "cdata",
+      "descendants": 0,
+      "id": 30703378,
+      "score": 1,
+      "time": 1647461240,
+      "title": "Finding a job in climate as a front-end engineer",
+      "type": "story",
+      "url": "https://robdodson.me/posts/finding-a-job-in-climate/"
+    },
+    {
+      "by": "philipjoubert",
+      "descendants": 0,
+      "id": 30703363,
+      "score": 2,
+      "time": 1647461142,
+      "title": "Stripe will review your YC application before you submit",
+      "type": "story",
+      "url": "https://go.stripe.global/yc-s22-app-review"
     },
     {
       "by": "beny23",
@@ -32,19 +73,6 @@
       "title": "U.S. President Biden on Russian President Putin – “I Think He Is a War Criminal”",
       "type": "story",
       "url": "https://lite.cnn.com/en/article/h_96d24f2069ddce40601c3986ee49b9c0"
-    },
-    {
-      "by": "Industry5",
-      "descendants": 1,
-      "id": 30703266,
-      "kids": [
-        30703267
-      ],
-      "score": 1,
-      "time": 1647460584,
-      "title": "Catatar Episode #1 “Cheating Girls Deserve This”",
-      "type": "story",
-      "url": "https://www.youtube.com/watch?v=NPO9xHCV1UU"
     },
     {
       "by": "cafebeen",
@@ -73,44 +101,11 @@
       "by": "tosh",
       "descendants": 0,
       "id": 30703202,
-      "score": 5,
+      "score": 8,
       "time": 1647460315,
       "title": "How to make Docker images even smaller",
       "type": "story",
       "url": "https://symflower.com/en/company/blog/2022/complete-guide-on-shrinking-container-images/"
-    },
-    {
-      "by": "feross",
-      "descendants": 0,
-      "id": 30703175,
-      "score": 3,
-      "time": 1647460144,
-      "title": "Building a Loading Bar Component",
-      "type": "story",
-      "url": "https://web.dev/building-a-loading-bar-component/"
-    },
-    {
-      "by": "higgins",
-      "descendants": 1,
-      "id": 30703161,
-      "kids": [
-        30703212
-      ],
-      "score": 3,
-      "text": "Hi HN!<p>I wrote a tool that partially encrypts files based on the presence of a HEREDOC.<p>Check it out:\nhttps:&#x2F;&#x2F;github.com&#x2F;higgins&#x2F;privatize<p>When added to a git repo, it will automatically transparently encrypt&#x2F;decrypt files you want privatized.<p>For example if you configured your repo to privatize the file `example.txt`, you could write:<p><pre><code>    ```\n    Today I a burrito.\n    &lt;&lt;PRIVATE\n    I was on the toilet for hours.\n    PRIVATE\n    I got a lot of reading done.\n    ```\n</code></pre>\nbut when git-commit&#x27;ed would become:<p><pre><code>    ```\n    Today I a burrito.\n    &lt;&lt;PRIVATE\n    xuJ0fld2vmNWaVLogTIufmWsiFso\n    PRIVATE\n    I got a lot of reading done.\n    ```\n</code></pre>\nDiffing works as you expect (on the unencrypted source) and only those with the `privatize` symmetric key would be able to unlock and decrypt these files.<p>Why did I do this?<p>I keep a public log of what I plan to accomplish and what I&#x27;m working on both personally&#x2F;professionally.\nAt the end of the day, I write a summary of everything that happened.\nNaturally, there are some details of my life that should be kept private (details of too-be-launched projects, sensitive family events, etc).<p>It&#x27;s helpful for me to track everything in one file so as to keep the day&#x27;s context together.<p>Would love to know what you think!\nJustin",
-      "time": 1647460089,
-      "title": "Show HN: Partially encrypt a file based on its HEREDOCs",
-      "type": "story"
-    },
-    {
-      "by": "bewalt",
-      "descendants": 0,
-      "id": 30703065,
-      "score": 1,
-      "time": 1647459705,
-      "title": "Content Moderation and Profanity Filtering Best Practices",
-      "type": "story",
-      "url": "https://cleanspeak.com/blog/2022/03/08/content-moderation-best-practices"
     }
   ]
 }
