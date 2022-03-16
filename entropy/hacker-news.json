@@ -1,6 +1,29 @@
 {
   "stories": [
     {
+      "by": "micadep",
+      "descendants": 1,
+      "id": 30703213,
+      "kids": [
+        30703214
+      ],
+      "score": 1,
+      "time": 1647460360,
+      "title": "Get your website more traffic",
+      "type": "story",
+      "url": "https://www.websitehunt.co/"
+    },
+    {
+      "by": "tosh",
+      "descendants": 0,
+      "id": 30703202,
+      "score": 2,
+      "time": 1647460315,
+      "title": "How to make Docker images even smaller",
+      "type": "story",
+      "url": "https://symflower.com/en/company/blog/2022/complete-guide-on-shrinking-container-images/"
+    },
+    {
       "by": "feross",
       "descendants": 0,
       "id": 30703175,
@@ -12,8 +35,11 @@
     },
     {
       "by": "higgins",
-      "descendants": 0,
+      "descendants": 1,
       "id": 30703161,
+      "kids": [
+        30703212
+      ],
       "score": 1,
       "text": "Hi HN!<p>I wrote a tool that partially encrypts files based on the presence of a HEREDOC.<p>Check it out:\nhttps:&#x2F;&#x2F;github.com&#x2F;higgins&#x2F;privatize<p>When added to a git repo, it will automatically transparently encrypt&#x2F;decrypt files you want privatized.<p>For example if you configured your repo to privatize the file `example.txt`, you could write:<p><pre><code>    ```\n    Today I a burrito.\n    &lt;&lt;PRIVATE\n    I was on the toilet for hours.\n    PRIVATE\n    I got a lot of reading done.\n    ```\n</code></pre>\nbut when git-commit&#x27;ed would become:<p><pre><code>    ```\n    Today I a burrito.\n    &lt;&lt;PRIVATE\n    xuJ0fld2vmNWaVLogTIufmWsiFso\n    PRIVATE\n    I got a lot of reading done.\n    ```\n</code></pre>\nDiffing works as you expect (on the unencrypted source) and only those with the `privatize` symmetric key would be able to unlock and decrypt these files.<p>Why did I do this?<p>I keep a public log of what I plan to accomplish and what I&#x27;m working on both personally&#x2F;professionally.\nAt the end of the day, I write a summary of everything that happened.\nNaturally, there are some details of my life that should be kept private (details of too-be-launched projects, sensitive family events, etc).<p>It&#x27;s helpful for me to track everything in one file so as to keep the day&#x27;s context together.<p>Would love to know what you think!\nJustin",
       "time": 1647460089,
@@ -34,7 +60,7 @@
       "by": "joeyespo",
       "descendants": 0,
       "id": 30703042,
-      "score": 1,
+      "score": 2,
       "time": 1647459593,
       "title": "Save time with partial re-runs in GitHub Actions",
       "type": "story",
@@ -44,7 +70,7 @@
       "by": "hassanahmad",
       "descendants": 0,
       "id": 30703017,
-      "score": 1,
+      "score": 2,
       "time": 1647459504,
       "title": "Ukraine's Zelenskyy Signs Virtual Assets Bill into Law, Legalizing Crypto",
       "type": "story",
@@ -64,7 +90,7 @@
       "by": "jaboutboul",
       "descendants": 0,
       "id": 30702991,
-      "score": 1,
+      "score": 2,
       "time": 1647459368,
       "title": "Decision: Red Hat, Inc. vs. Daniel Pocock / Software Freedom Institute SA",
       "type": "story",
@@ -79,26 +105,6 @@
       "title": "Mac Studio Satire",
       "type": "story",
       "url": "https://www.applebreakfast.com/#h"
-    },
-    {
-      "by": "whiteboardr",
-      "descendants": 0,
-      "id": 30702940,
-      "score": 3,
-      "time": 1647459109,
-      "title": "NASA releases first image from an in-focus Webb telescope",
-      "type": "story",
-      "url": "https://arstechnica.com/science/2022/03/nasa-releases-first-image-from-an-in-focus-webb-telescope/"
-    },
-    {
-      "by": "georgecmu",
-      "descendants": 0,
-      "id": 30702934,
-      "score": 1,
-      "time": 1647459089,
-      "title": "China has already decided to send economic aid to Russia, US officials fear",
-      "type": "story",
-      "url": "https://www.theguardian.com/world/2022/mar/15/china-has-already-decided-to-send-economic-aid-to-russia-in-ukraine-conflict-us-officials-fear"
     }
   ]
 }
