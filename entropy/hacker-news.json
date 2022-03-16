@@ -1,10 +1,80 @@
 {
   "stories": [
     {
+      "by": "Procedural",
+      "descendants": 0,
+      "id": 30703572,
+      "score": 1,
+      "time": 1647462267,
+      "title": "Hi, I’m Russian. Who does Putin think he is compared to Ukrainian game devs?",
+      "type": "story",
+      "url": "https://procedural.medium.com/hi-im-russian-who-does-putin-think-he-is-compared-to-ukrainian-game-developers-66c17f9d36f4"
+    },
+    {
+      "by": "LinuxBender",
+      "descendants": 0,
+      "id": 30703563,
+      "score": 1,
+      "time": 1647462212,
+      "title": "Another Destructive Wiper Targets Organizations in Ukraine",
+      "type": "story",
+      "url": "https://threatpost.com/destructive-wiper-organizations-ukraine/178937/"
+    },
+    {
+      "by": "rememberlenny",
+      "descendants": 0,
+      "id": 30703561,
+      "score": 1,
+      "time": 1647462205,
+      "title": "The Rule of 40",
+      "type": "story",
+      "url": "https://www.mckinsey.com/industries/technology-media-and-telecommunications/our-insights/saas-and-the-rule-of-40-keys-to-the-critical-value-creation-metric"
+    },
+    {
+      "by": "LinuxBender",
+      "descendants": 0,
+      "id": 30703557,
+      "score": 1,
+      "time": 1647462188,
+      "title": "Phony Instagram ‘Support Staff’ Emails Hit Insurance Company",
+      "type": "story",
+      "url": "https://threatpost.com/phony-instagram-support-staff-emails-hit-insurance-company/178929/"
+    },
+    {
+      "by": "blewboarwastake",
+      "descendants": 0,
+      "id": 30703534,
+      "score": 1,
+      "time": 1647462086,
+      "title": "The Absurd Netherworld of Internet Archive Tape Transfers",
+      "type": "story",
+      "url": "https://blog.somnolescent.net/2021/06/the-absurd-netherworld-of-internet-archive-tape-transfers/"
+    },
+    {
+      "by": "todsacerdoti",
+      "descendants": 0,
+      "id": 30703531,
+      "score": 3,
+      "time": 1647462069,
+      "title": "Deno Is Webby",
+      "type": "story",
+      "url": "https://blog.jim-nielsen.com/2022/deno-is-webby-pt-2/"
+    },
+    {
+      "by": "ghostoftiber",
+      "descendants": 0,
+      "id": 30703520,
+      "score": 1,
+      "time": 1647462009,
+      "title": "Show HN: The grype admission controller for Kubernetes",
+      "type": "story",
+      "url": "https://boxboat.com/2022/03/16/grype-admission-controller/"
+    },
+    {
       "by": "trifit",
       "descendants": 0,
       "id": 30703508,
-      "score": 1,
+      "score": 2,
       "time": 1647461942,
       "title": "Microwave Ovens and Their Hazards",
       "type": "story",
@@ -29,77 +99,6 @@
       "title": "OpenBSD gains initial 802.11ac 80 MHz channel support",
       "type": "story",
       "url": "http://undeadly.org/cgi?action=article;sid=20220315070043"
-    },
-    {
-      "by": "vwoolf",
-      "descendants": 0,
-      "id": 30703474,
-      "score": 1,
-      "time": 1647461713,
-      "title": "The More Density We Build, the More Valuable “Neighborhood Character” Will Be",
-      "type": "story",
-      "url": "https://freddiedeboer.substack.com/p/the-more-density-we-build-the-more"
-    },
-    {
-      "by": "News-Dog",
-      "descendants": 0,
-      "id": 30703435,
-      "score": 1,
-      "time": 1647461523,
-      "title": "Kyiv Under Heavy-Attack as Ukraine and Russia Say Negotiations Indicate Progress",
-      "type": "story",
-      "url": "https://lite.cnn.com/en/article/h_b6603f06807829c80bc0269442b1f776"
-    },
-    {
-      "by": "nickfrost",
-      "descendants": 0,
-      "id": 30703416,
-      "score": 1,
-      "time": 1647461443,
-      "title": "New report on investor bias in startup fundraising process",
-      "type": "story",
-      "url": "https://www.prnewswire.com/news-releases/new-funding-divide-report-shows-underrepresented-founders-are-getting-more-attention-but-for-most-the-dollars-dont-deliver-301503547.html"
-    },
-    {
-      "by": "greenyoda",
-      "descendants": 0,
-      "id": 30703413,
-      "score": 1,
-      "time": 1647461424,
-      "title": "Bell System Memorial Home Page",
-      "type": "story",
-      "url": "https://bellsystemmemorial.com"
-    },
-    {
-      "by": "cdepman",
-      "descendants": 0,
-      "id": 30703401,
-      "score": 1,
-      "time": 1647461371,
-      "title": "Webflow Raises $120M Series C",
-      "type": "story",
-      "url": "https://www.forbes.com/sites/kenrickcai/2022/03/16/webflow-series-c-4-billion-valuation-100-million-revenue/"
-    },
-    {
-      "by": "titzer",
-      "descendants": 0,
-      "id": 30703392,
-      "score": 1,
-      "text": "Hello,<p>Over the years I&#x27;ve repeatedly run into the problem that my projects end up outputting a <i>lot</i> of logging text, when running tests, when doing build steps, etc. But most of the logfile is uninteresting if the tests pass, the build steps succeed, etc. Normally the only interesting part is pass&#x2F;fail and maybe how many subtasks were run.<p>I finally got around to extracting a text-based utility that makes this more standard. All of my projects now use it.<p>It&#x27;s really simple. Every process or script that has a lot of steps simply outputs those steps in a standard format on specially-marked lines (beginning with ##), and then that output is piped a utility that parses those lines and displays up-to-date progress as the process runs. There are a lot of different modes, e.g. to output one character per subtask, one line, or to do all-in-one line interactive display.<p>I&#x27;ve found this very useful over the past several years and maybe others will too.",
-      "time": 1647461315,
-      "title": "Show HN: Progress: a simple-text subtask progress standard",
-      "type": "story",
-      "url": "https://github.com/titzer/progress"
-    },
-    {
-      "by": "fredoralive",
-      "descendants": 0,
-      "id": 30703385,
-      "score": 1,
-      "time": 1647461277,
-      "title": "Chrome-styled wheel covers for McLaren as part of Google deal",
-      "type": "story",
-      "url": "https://the-race.com/formula-1/chrome-styled-wheel-covers-for-mclaren-as-part-of-google-f1-deal/"
     }
   ]
 }
