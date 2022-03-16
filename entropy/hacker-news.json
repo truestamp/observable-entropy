@@ -1,6 +1,39 @@
 {
   "stories": [
     {
+      "by": "firstSpeaker",
+      "descendants": 0,
+      "id": 30697260,
+      "score": 1,
+      "time": 1647427689,
+      "title": "Eight tips for working remotely – Ben Balter",
+      "type": "story",
+      "url": "https://ben.balter.com/2020/03/18/tips-for-working-remotely/"
+    },
+    {
+      "by": "grunthos",
+      "descendants": 0,
+      "id": 30697252,
+      "score": 1,
+      "time": 1647427601,
+      "title": "Wormholes Could Help Resolve Black Hole Information Paradox",
+      "type": "story",
+      "url": "https://scitechdaily.com/wormholes-shortcuts-connecting-two-points-in-spacetime-help-resolve-black-hole-information-paradox/"
+    },
+    {
+      "by": "belter",
+      "descendants": 1,
+      "id": 30697243,
+      "kids": [
+        30697244
+      ],
+      "score": 1,
+      "time": 1647427504,
+      "title": "Biden Aministration weighs providing Ukraine with Switchblade 600 drones",
+      "type": "story",
+      "url": "https://www.nbcnews.com/politics/national-security/ukraine-asks-biden-admin-armed-drones-jamming-gear-surface-air-missile-rcna20197"
+    },
+    {
       "by": "lazarpaky",
       "descendants": 0,
       "id": 30697229,
@@ -72,39 +105,6 @@
       "title": "Reducing Sign-Up Friction",
       "type": "story",
       "url": "https://80daystartup.com/day-47/reducing-sign-up-friction/"
-    },
-    {
-      "by": "giuliomagnifico",
-      "descendants": 1,
-      "id": 30697163,
-      "kids": [
-        30697198
-      ],
-      "score": 2,
-      "time": 1647426809,
-      "title": "Russia faces IT crisis with just two months of data storage left",
-      "type": "story",
-      "url": "https://www.bleepingcomputer.com/news/technology/russia-faces-it-crisis-with-just-two-months-of-data-storage-left/"
-    },
-    {
-      "by": "daly",
-      "descendants": 0,
-      "id": 30697162,
-      "score": 1,
-      "text": "Back in the dawn of time the machines I worked on had application-specific instruction set architectures. IBM made &#x27;scientific&#x27; and &#x27;business&#x27; computers. The 360 line converged these.<p>With microcoded architectures today it would be possible to dynamically load a custom application-specific instruction set into microcode from an FPGA. This could greatly increase the efficiency of certain kinds of computation. The FPGA can be dynamically updated with new microcode architectures.<p>For example, a lisp-machine architecture for running lisp code, a prolog machine architecture for prolog code handling backtracking, an APL architecture for array processing, a SQL architecture for databases, etc.<p>These instruction sets could be dynamically swapped. For example, the register bank could be configured to match a particular SQL table structure and manipulated with SQL-specific instructions. Register banks configured as content-addressable memory could greatly speed up table searches.<p>In particular, with RISC-V, one could define a special-case extension instruction set that could be &#x27;swapped in&#x27; to the microcode, making it ideal for handling special purpose hardware like a GPU for bitcoins or a quantum computer instruction set handling unitary matrices.<p>I feel we&#x27;ve reached the limits of things a general purpose architecture can do.<p>Intel has an FPGA&#x2F;CPU pair (which unfortunately I can&#x27;t get because I&#x27;m not a huge corporation) but I don&#x27;t think the FPGA&#x2F;CPU can modify the CPU microcode. Perhaps they might hit on the idea with their marriage to the RISC-V community.<p>The ability to modify the data paths in a set of general purpose processor components (e.g. register banks, caches, integer ALU, float ALU, vector ALU, pipeline lookahead, etc) for specific applications by modifying the microcode would be a real leap forward.",
-      "time": 1647426807,
-      "title": "FPGA with Multiple ISA?",
-      "type": "story"
-    },
-    {
-      "by": "AshleysBrain",
-      "descendants": 0,
-      "id": 30697160,
-      "score": 1,
-      "time": 1647426780,
-      "title": "Chrome Became Highest Scoring Browser on Speedometer, Ever",
-      "type": "story",
-      "url": "https://blog.chromium.org/2022/03/how-chrome-became-highest-scoring.html"
     }
   ]
 }
