@@ -1,11 +1,71 @@
 {
   "stories": [
     {
+      "by": "jtsymonds",
+      "descendants": 0,
+      "id": 30700797,
+      "score": 1,
+      "time": 1647447839,
+      "title": "Object Storage as Primary Storage in the Cloud Operating Model",
+      "type": "story",
+      "url": "https://blog.min.io/defining-primary-storage/"
+    },
+    {
+      "by": "aisrael",
+      "descendants": 0,
+      "id": 30700770,
+      "score": 2,
+      "text": "Hi HN! I’m Andrew Israel, an engineer and the founder of PropelAuth (<a href=\"https:&#x2F;&#x2F;www.propelauth.com\" rel=\"nofollow\">https:&#x2F;&#x2F;www.propelauth.com</a>). PropelAuth provides end-to-end managed user authentication and lets your users manage their own accounts and teams.<p>We have a special focus on B2B features that make it easy for an end user to sign up, create and manage their own organization in your product, invite their co-workers, and so on. This includes roles within the organization (RBAC). We provide frontend and backend libraries where organizations are a first class concept, and we host UIs on your domain to manage the rest.<p>We didn&#x27;t start out with this focus. PropelAuth actually started out of a chess side project I was working on. As side projects go, I started by focusing on the core product and fun aspects of it. Things like user authentication felt like a distraction from the things I wanted to work on.<p>I’ve set up auth at different jobs and for friends&#x27; companies in the past, and I never felt like any tool nailed it. The experience I wanted was “all aspects of auth are taken care of for me, UIs included” and then to have minimal libraries to check if users were logged in or not. The MVP of PropelAuth was a set of basic UIs that we hosted on our customers domain, some admin tools, and a few frontend&#x2F;backend libraries.<p>We were also dogfooding ourselves—and because we sell to businesses, we built out some B2B specific features: creating organizations, inviting coworkers, roles&#x2F;RBAC, and the UIs for all that. When talking with early customers, those turned out to be the features that got the strongest reactions. B2B founders were looking for that, and existing auth tools didn’t have these features or didn’t have them in an easy to implement way. So that’s been our focus ever since.<p>The product today acts similarly to a self-contained auth microservice that you can configure. It has simple UIs like signup and login and then more advanced ones like security pages (with 2fa enrollment) and organization management (with roles support).<p>The frontend libraries request short lived tokens for your users that your backends can verify. It also exposes APIs to fetch user and organization information.<p>We have a free plan, and charge $0.02 per monthly active user for the next plan up.<p>We’d love to hear any feedback you have! If you want to try out the product, you can sign up on our website at <a href=\"https:&#x2F;&#x2F;www.propelauth.com\" rel=\"nofollow\">https:&#x2F;&#x2F;www.propelauth.com</a>. You can check out our docs at <a href=\"https:&#x2F;&#x2F;docs.propelauth.com&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;docs.propelauth.com&#x2F;</a> and there are guides at <a href=\"https:&#x2F;&#x2F;www.propelauth.com&#x2F;blog-categories&#x2F;guide\" rel=\"nofollow\">https:&#x2F;&#x2F;www.propelauth.com&#x2F;blog-categories&#x2F;guide</a>. Thanks!",
+      "time": 1647447697,
+      "title": "Launch HN: PropelAuth (YC W22) – End-to-end auth service for B2B products",
+      "type": "story"
+    },
+    {
+      "by": "PStamatiou",
+      "descendants": 0,
+      "id": 30700767,
+      "score": 1,
+      "time": 1647447680,
+      "title": "The Best Global Crypto Exchanges",
+      "type": "story",
+      "url": "https://www.forbes.com/sites/javierpaz/2022/03/16/the-best-global-crypto-exchanges/"
+    },
+    {
+      "by": "softwarebeware",
+      "descendants": 0,
+      "id": 30700762,
+      "score": 1,
+      "time": 1647447655,
+      "title": "DIY a Thermal Imaging Monitor",
+      "type": "story",
+      "url": "https://maker.pro/arduino/projects/diy-a-thermal-imaging-monitor"
+    },
+    {
+      "by": "tectonic",
+      "descendants": 0,
+      "id": 30700756,
+      "score": 1,
+      "time": 1647447615,
+      "title": "Another round of fantastical NIAC awards",
+      "type": "story",
+      "url": "https://orbitalindex.com/archive/2022-03-16-Issue-160/"
+    },
+    {
+      "by": "jaytaylor",
+      "descendants": 0,
+      "id": 30700716,
+      "score": 1,
+      "time": 1647447462,
+      "title": "Anonymous has declared cyber war against Russia. Here are the results",
+      "type": "story",
+      "url": "https://www.cnbc.com/2022/03/16/what-has-anonymous-done-to-russia-here-are-the-results-.html"
+    },
+    {
       "by": "vanilla-almond",
       "descendants": 0,
       "id": 30700700,
-      "score": 1,
-      "text": "I know this won&#x27;t be new to most of you, but I wanted to share an anecdote (and a rant!)<p>I have a friend who has brain cancer. I went to Amazon searching for books on the subject and I typed ‘brain cancer’ in search (books) field. What did I find?<p><i>Amazon UK</i>\nAs you scroll down page 1 of the search results, you find examples of “brain cancer notebook” or “brain cancer journal”. Empty notebooks with nothing to do with the subject.<p><i>Amazon US</i>\nSame search term. The search results were even worse. The “no content” ranked even higher on the first page of search page.<p>Here is a screenshot of the search results for Amazon UK and US: https:&#x2F;&#x2F;i.postimg.cc&#x2F;JRDkSGRK&#x2F;amazon-book-search.jpg<p>Try an Amazon book search for “Ukraine war” on Amazon UK and US and already the search results are populated with “Ukraine war” blank notebooks seizing the opportunity to profit from war (these blank notebooks are not donating to charities, they are simply seizing on keyword searches).<p>The reason so many of these &quot;no ocntent&quot; notebooks pollute the books category is because of Amazon’s Kindle Direct Publishing (KDP) service: a print-on-demand service. It has opened the flood gates to “low content” or “no content” journals and notebooks which allows &quot;creators&quot; publish hundreds of notebook titles. These are simply empty, lined or blank print-on-demand notebooks. Amazon includes these in book search results rather than confine these items to it’s own search category. You can find hundreds of YouTube videos on how to publish “no content” notebooks via KDP and how to game Amazon search results to rank higher.<p>I know Amazon simply doesn’t care, but I had to rant. I might be overreacting by the results I saw and I won’t be offended if you say so :-)",
+      "score": 2,
+      "text": "In short: horrible.<p>I know this won&#x27;t be new to most of you, but I wanted to share an anecdote (and a rant!)<p>I have a friend who has brain cancer. I went to Amazon searching for books on the subject and I typed ‘brain cancer’ in the search (books) field. What did I find?<p><i>Amazon UK</i><p>As you scroll down page 1 of the search results, you find examples of “brain cancer notebook” or “brain cancer journal”. Empty notebooks with nothing to do with the subject.<p><i>Amazon US</i><p>Same search term. The search results were even worse. The “no content” ranked even higher on the first page of search page.<p>Here is a screenshot of the search results for Amazon UK and US: https:&#x2F;&#x2F;i.postimg.cc&#x2F;JRDkSGRK&#x2F;amazon-book-search.jpg<p>Try an Amazon book search for “Ukraine war” on Amazon UK and US and already the search results are populated with “Ukraine war” blank notebooks seizing the opportunity to profit from war (these blank notebooks are not donating to charities, they are simply seizing on keyword searches).<p>The reason so many of these &quot;no content&quot; notebooks pollute the books category is because of Amazon’s Kindle Direct Publishing (KDP) service: a print-on-demand service. It has opened the flood gates to “low content” or “no content” journals and notebooks which allows &quot;creators&quot; publish hundreds of notebook titles. These are simply empty, lined or blank print-on-demand notebooks. Amazon includes these in book search results rather than confine these items to it’s own search category. You can find hundreds of YouTube videos on how to publish “no content” notebooks via KDP and how to game Amazon search results to rank higher.<p>I know Amazon simply doesn’t care, but I had to rant. I might be overreacting by the results I saw and I won’t be offended if you say so :-)",
       "time": 1647447405,
       "title": "Tell HN: Amazon's book search is gamed, keyword-stuffed, and inaccurate",
       "type": "story"
@@ -14,7 +74,7 @@
       "by": "winternett",
       "descendants": 0,
       "id": 30700693,
-      "score": 1,
+      "score": 2,
       "time": 1647447353,
       "title": "Twitter's mysterious “shadow ban” feature",
       "type": "story",
@@ -39,66 +99,6 @@
       "title": "Thailand faces perfect storm as it seeks more LNG supply",
       "type": "story",
       "url": "https://www.reuters.com/business/energy/thailand-faces-perfect-storm-it-seeks-more-lng-supply-2022-03-16/"
-    },
-    {
-      "by": "amrrs",
-      "descendants": 0,
-      "id": 30700657,
-      "score": 1,
-      "time": 1647447205,
-      "title": "The Psychology of Why We Fall Down Internet Rabbit Holes",
-      "type": "story",
-      "url": "https://theswaddle.com/the-psychology-of-why-we-fall-down-internet-rabbit-holes/"
-    },
-    {
-      "by": "rytrix",
-      "descendants": 0,
-      "id": 30700651,
-      "score": 1,
-      "time": 1647447185,
-      "title": "Using a Multi-Armed Bandit with Thompson Sampling to Identify Responsive Dashers",
-      "type": "story",
-      "url": "https://doordash.engineering/2022/03/15/using-a-multi-armed-bandit-with-thompson-sampling-to-identify-responsive-dashers/"
-    },
-    {
-      "by": "mooreds",
-      "descendants": 0,
-      "id": 30700636,
-      "score": 1,
-      "time": 1647447112,
-      "title": "IEA: Oil market heads for 'biggest supply crisis in decades'",
-      "type": "story",
-      "url": "https://www.cnbc.com/2022/03/16/oil-market-heads-for-biggest-supply-crisis-in-decades-with-russias-exports-set-to-fall-iea-says.html"
-    },
-    {
-      "by": "hexo",
-      "descendants": 0,
-      "id": 30700633,
-      "score": 3,
-      "time": 1647447089,
-      "title": "Antiproton Orbiting Helium Ion",
-      "type": "story",
-      "url": "https://arstechnica.com/science/2022/03/absolutely-bonkers-experiment-measures-antiproton-orbiting-helium-ion/"
-    },
-    {
-      "by": "theafh",
-      "descendants": 0,
-      "id": 30700622,
-      "score": 1,
-      "time": 1647447050,
-      "title": "An Antimatter Experiment Shows Surprises Near Absolute Zero",
-      "type": "story",
-      "url": "https://www.quantamagazine.org/icy-antimatter-experiment-surprises-physicists-20220316/"
-    },
-    {
-      "by": "mooreds",
-      "descendants": 0,
-      "id": 30700618,
-      "score": 1,
-      "time": 1647447033,
-      "title": "Ancient Japanese Stone Said to Contain ‘Demon’ Cracks Open",
-      "type": "story",
-      "url": "https://www.smithsonianmag.com/smart-news/ancient-japanese-stone-said-to-contain-demon-cracks-open-180979729/"
     }
   ]
 }
