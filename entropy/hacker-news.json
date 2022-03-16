@@ -1,6 +1,56 @@
 {
   "stories": [
     {
+      "by": "philk10",
+      "descendants": 0,
+      "id": 30698250,
+      "score": 1,
+      "time": 1647435903,
+      "title": "How to Prepare for a Product Launch, Part 1: What Could Go Wrong?",
+      "type": "story",
+      "url": "https://spin.atomicobject.com/2022/03/16/software-product-launch/"
+    },
+    {
+      "by": "betolink",
+      "descendants": 0,
+      "id": 30698237,
+      "score": 2,
+      "time": 1647435833,
+      "title": "Mapping the Solar System",
+      "type": "story",
+      "url": "https://github.com/eleanorlutz/asteroids_atlas_of_space"
+    },
+    {
+      "by": "carlycue",
+      "descendants": 0,
+      "id": 30698232,
+      "score": 1,
+      "time": 1647435808,
+      "title": "Apple TV+ global market share grows and gets closer to HBO Max",
+      "type": "story",
+      "url": "https://9to5mac.com/2022/03/15/apple-tv-global-market-share-grows-and-gets-closer-to-hbo-max/"
+    },
+    {
+      "by": "News-Dog",
+      "descendants": 0,
+      "id": 30698229,
+      "score": 1,
+      "time": 1647435764,
+      "title": "Russian 'Prisoners of War' Voice Disquiet – 'Shame over War in Ukraine'",
+      "type": "story",
+      "url": "https://lite.cnn.com/en/article/h_bb1887474ef579ab6c7ecf7ef31c347d"
+    },
+    {
+      "by": "maximeago",
+      "descendants": 0,
+      "id": 30698215,
+      "score": 2,
+      "text": "Hi HN! Maxime, Nicolas, and Vincent here, founders of Sarus (<a href=\"https:&#x2F;&#x2F;www.sarus.tech\" rel=\"nofollow\">https:&#x2F;&#x2F;www.sarus.tech</a>). Sarus is a privacy engineering software that lets data scientists work on data without the need to access it. It works like a proxy between the practitioner and the data. All queries and data processing jobs are executed on the original data with the privacy guarantees of differential privacy.<p>When data is sensitive, getting access can be a huge pain. It means going through a long manual validation process that includes designing, and implementing an appropriate data anonymization. It takes weeks to months and some data utility may be lost to the masking requirements.<p>Sarus makes all of it irrelevant by letting analysts work on data that is never accessed. Analysts only access outputs of their data jobs, and those can be protected with appropriate privacy measures.<p>With past lives in healthtech, finance, and marketing, we’ve experienced first-hand that data governance has taken a huge part in data operations. It’s a rightful objective to protect data but it should not have to hamstring all innovation. For most data science or analytics objectives, the analyst has no interest in the information of a given individual. They look for patterns that are valid across the dataset. Access to user-level information is just an unfortunate way to get there.<p>We decided to build Sarus so that data access is no longer a requirement.<p>The Sarus API proxies all queries, compiles them into a privacy-safe version, runs them on the original data (which never moves outside of our clients’ infrastructure) and outputs the protected results to the practitioner. The protection relies on differential privacy, a mathematical definition of privacy already used by leading tech companies.\nDifferential privacy works by adding calibrated randomness to outputs so that the information of any given individual cannot be inferred. One of its main benefits is that it does not make any assumption on what is sensitive in the data or what the recipient of the output may already know or do. This is the ideal candidate for replacing all manual data governance processes by something fully automated. Each query gets rewritten by Sarus in a way that implements its core principles.<p>For the core primitives of differential privacy, we leverage the latest research (Dwork &amp; Roth 2014, Abadi 2016, Dong 2019, Koskela 2020 or Wilson 2019) and open source implementations (tensorflow-privacy, Google Differential Privacy, OpenDP,  Smartnoise). Our key contribution is to bundle everything into an API that can be queried without seeing the data in the first place. It requires proper privacy accounting (we use PLD accounting as in Koskela 2020) but also setting all the technical parameters that are required by the framework (estimating range of input data, allocating privacy budget across computation steps…). We also optimize the privacy utility trade-off by memoizing previous queries as much as possible.<p>Wait, but the first thing data scientists do is to check out the data, how do I do that now? Not a problem, the API provides synthetic data samples with the same schema and statistical distribution by default. It effectively replaces the need to see any record, and data scientists can still do feature engineering, test and debug code with it. Of course, synthetic data is not something you would want to build insights or ML models on, you’d use the API to do that on the original data.<p>How it works: the app is deployed in the cloud infrastructure (any cloud vendor is compatible). The data admin lists relevant data sources from the UI or the API, and grants learning access to practitioners by applying a privacy policy among predefined templates. The synthetic data sample is automatically generated. From there, data scientists can run their analyses with their usual tools (pandas, numpy, TF, scikit-learn, Metabase, Redash, Tableau…), whether from a python SDK or a hiveSQL connector.<p>Curious? We have released a self-serve demo for you to try it out. It lets you make a dataset available from the Sarus proxy, set up access policies and then, as a data practitioner, use it for analytics and machine learning. It is limited to a handful of datasets but should give you a good understanding of Sarus. You can sign up at <a href=\"https:&#x2F;&#x2F;demo.sarus.tech&#x2F;signup\" rel=\"nofollow\">https:&#x2F;&#x2F;demo.sarus.tech&#x2F;signup</a> and begin using Sarus for free, no credit card required (tutorial on <a href=\"https:&#x2F;&#x2F;www.sarus.tech&#x2F;post&#x2F;we-just-released-an-open-demo-try-it-out\" rel=\"nofollow\">https:&#x2F;&#x2F;www.sarus.tech&#x2F;post&#x2F;we-just-released-an-open-demo-tr...</a>).<p>Our model is a software license to run on our clients’ cloud. Our pricing is on a per-dataset per-month basis and starts at $600&#x2F;month.<p>Please let us know what you think! We look forward to hearing your questions, feedback, ideas, and experience!",
+      "time": 1647435657,
+      "title": "Launch HN: Sarus (YC W22) – Work on sensitive data with differential privacy",
+      "type": "story"
+    },
+    {
       "by": "MathCodeLove",
       "descendants": 0,
       "id": 30698194,
@@ -24,7 +74,7 @@
       "by": "oneeyedpigeon",
       "descendants": 0,
       "id": 30698190,
-      "score": 1,
+      "score": 2,
       "time": 1647435503,
       "title": "Truth Social: the failing anti-Twitter platform even Trump barely uses",
       "type": "story",
@@ -49,59 +99,6 @@
       "title": "Motif-Index of Folk-Literature",
       "type": "story",
       "url": "https://en.wikipedia.org/wiki/Motif-Index_of_Folk-Literature"
-    },
-    {
-      "by": "sohkamyung",
-      "descendants": 0,
-      "id": 30698140,
-      "score": 3,
-      "time": 1647435171,
-      "title": "Are there limits to economic growth?",
-      "type": "story",
-      "url": "https://www.nature.com/articles/d41586-022-00723-1"
-    },
-    {
-      "by": "nixbuild",
-      "descendants": 0,
-      "id": 30698133,
-      "score": 1,
-      "time": 1647435140,
-      "title": "Fast CI with nixbuild.net",
-      "type": "story",
-      "url": "https://blog.nixbuild.net/posts/2022-03-16-lightning-fast-ci-with-nixbuild-net.html"
-    },
-    {
-      "by": "tosh",
-      "descendants": 0,
-      "id": 30698114,
-      "score": 2,
-      "time": 1647435057,
-      "title": "ClojureStream: Graphs with Paula Gearon",
-      "type": "story",
-      "url": "https://soundcloud.com/clojurestream/graphs-with-paula-gearon"
-    },
-    {
-      "by": "heliostatic",
-      "descendants": 1,
-      "id": 30698097,
-      "kids": [
-        30698173
-      ],
-      "score": 2,
-      "time": 1647434968,
-      "title": "Dual use of artificial-intelligence-powered drug discovery",
-      "type": "story",
-      "url": "https://www.nature.com/articles/s42256-022-00465-9"
-    },
-    {
-      "by": "emreb",
-      "descendants": 0,
-      "id": 30698083,
-      "score": 1,
-      "time": 1647434890,
-      "title": "Flutter is better than React Native in all the ways that don't matter",
-      "type": "story",
-      "url": "https://shift.infinite.red/flutter-is-better-than-react-native-fed10c92a768?gi=e15a198280ad"
     }
   ]
 }
