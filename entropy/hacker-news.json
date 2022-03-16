@@ -1,6 +1,49 @@
 {
   "stories": [
     {
+      "by": "beny23",
+      "descendants": 0,
+      "id": 30703310,
+      "score": 1,
+      "time": 1647460791,
+      "title": "Terraform-AWS-modules: Made it clear that we stand with Ukraine",
+      "type": "story",
+      "url": "https://github.com/terraform-aws-modules/terraform-aws-ec2-instance/commit/6867788411a202b61187f9935e9eaa72a18f0bbe"
+    },
+    {
+      "by": "News-Dog",
+      "descendants": 0,
+      "id": 30703308,
+      "score": 1,
+      "time": 1647460787,
+      "title": "U.S. President Biden on Russian President Putin – “I Think He Is a War Criminal”",
+      "type": "story",
+      "url": "https://lite.cnn.com/en/article/h_96d24f2069ddce40601c3986ee49b9c0"
+    },
+    {
+      "by": "Industry5",
+      "descendants": 1,
+      "id": 30703266,
+      "kids": [
+        30703267
+      ],
+      "score": 1,
+      "time": 1647460584,
+      "title": "Catatar Episode #1 “Cheating Girls Deserve This”",
+      "type": "story",
+      "url": "https://www.youtube.com/watch?v=NPO9xHCV1UU"
+    },
+    {
+      "by": "cafebeen",
+      "descendants": 0,
+      "id": 30703260,
+      "score": 2,
+      "time": 1647460529,
+      "title": "Brain-Imaging Studies Hampered by Small Data Sets",
+      "type": "story",
+      "url": "https://www.nytimes.com/2022/03/16/science/brain-imaging-research.html"
+    },
+    {
       "by": "micadep",
       "descendants": 1,
       "id": 30703213,
@@ -17,7 +60,7 @@
       "by": "tosh",
       "descendants": 0,
       "id": 30703202,
-      "score": 2,
+      "score": 3,
       "time": 1647460315,
       "title": "How to make Docker images even smaller",
       "type": "story",
@@ -27,7 +70,7 @@
       "by": "feross",
       "descendants": 0,
       "id": 30703175,
-      "score": 2,
+      "score": 3,
       "time": 1647460144,
       "title": "Building a Loading Bar Component",
       "type": "story",
@@ -40,7 +83,7 @@
       "kids": [
         30703212
       ],
-      "score": 1,
+      "score": 2,
       "text": "Hi HN!<p>I wrote a tool that partially encrypts files based on the presence of a HEREDOC.<p>Check it out:\nhttps:&#x2F;&#x2F;github.com&#x2F;higgins&#x2F;privatize<p>When added to a git repo, it will automatically transparently encrypt&#x2F;decrypt files you want privatized.<p>For example if you configured your repo to privatize the file `example.txt`, you could write:<p><pre><code>    ```\n    Today I a burrito.\n    &lt;&lt;PRIVATE\n    I was on the toilet for hours.\n    PRIVATE\n    I got a lot of reading done.\n    ```\n</code></pre>\nbut when git-commit&#x27;ed would become:<p><pre><code>    ```\n    Today I a burrito.\n    &lt;&lt;PRIVATE\n    xuJ0fld2vmNWaVLogTIufmWsiFso\n    PRIVATE\n    I got a lot of reading done.\n    ```\n</code></pre>\nDiffing works as you expect (on the unencrypted source) and only those with the `privatize` symmetric key would be able to unlock and decrypt these files.<p>Why did I do this?<p>I keep a public log of what I plan to accomplish and what I&#x27;m working on both personally&#x2F;professionally.\nAt the end of the day, I write a summary of everything that happened.\nNaturally, there are some details of my life that should be kept private (details of too-be-launched projects, sensitive family events, etc).<p>It&#x27;s helpful for me to track everything in one file so as to keep the day&#x27;s context together.<p>Would love to know what you think!\nJustin",
       "time": 1647460089,
       "title": "Show HN: Partially encrypt a file based on its HEREDOCs",
@@ -60,51 +103,11 @@
       "by": "joeyespo",
       "descendants": 0,
       "id": 30703042,
-      "score": 2,
+      "score": 3,
       "time": 1647459593,
       "title": "Save time with partial re-runs in GitHub Actions",
       "type": "story",
       "url": "https://github.blog/2022-03-16-save-time-partial-re-runs-github-actions/"
-    },
-    {
-      "by": "hassanahmad",
-      "descendants": 0,
-      "id": 30703017,
-      "score": 2,
-      "time": 1647459504,
-      "title": "Ukraine's Zelenskyy Signs Virtual Assets Bill into Law, Legalizing Crypto",
-      "type": "story",
-      "url": "https://www.coindesk.com/policy/2022/03/16/ukraines-zelensky-signs-virtual-assets-bill-into-law-legalizing-crypto/"
-    },
-    {
-      "by": "syspec",
-      "descendants": 0,
-      "id": 30702994,
-      "score": 1,
-      "time": 1647459387,
-      "title": "Highway Patrol Arrests Driver Impersonating Chinese Paramilitary Police (2019)",
-      "type": "story",
-      "url": "https://www.thedrive.com/news/29927/highway-patrol-arrests-driver-impersonating-chinese-paramilitary-police-with-audi-a4"
-    },
-    {
-      "by": "jaboutboul",
-      "descendants": 0,
-      "id": 30702991,
-      "score": 2,
-      "time": 1647459368,
-      "title": "Decision: Red Hat, Inc. vs. Daniel Pocock / Software Freedom Institute SA",
-      "type": "story",
-      "url": "https://www.adrforum.com/DomainDecisions/1980642.htm"
-    },
-    {
-      "by": "jeanmayer",
-      "descendants": 0,
-      "id": 30702960,
-      "score": 1,
-      "time": 1647459211,
-      "title": "Mac Studio Satire",
-      "type": "story",
-      "url": "https://www.applebreakfast.com/#h"
     }
   ]
 }
