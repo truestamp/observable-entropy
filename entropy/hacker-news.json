@@ -1,6 +1,46 @@
 {
   "stories": [
     {
+      "by": "northstar702",
+      "descendants": 0,
+      "id": 30706380,
+      "score": 1,
+      "time": 1647479975,
+      "title": "Show HN: Event Streaming for the Rest of Us",
+      "type": "story",
+      "url": "https://silverton-io.github.io/honeypot/#event-streaming-for-the-rest-of-us"
+    },
+    {
+      "by": "RafelMri",
+      "descendants": 0,
+      "id": 30706370,
+      "score": 1,
+      "time": 1647479894,
+      "title": "The History of Metaverse",
+      "type": "story",
+      "url": "https://twitter.com/PawlowskiMario/status/1504053594764591106"
+    },
+    {
+      "by": "lordmax",
+      "descendants": 0,
+      "id": 30706345,
+      "score": 2,
+      "time": 1647479737,
+      "title": "Ukranian artist uses captured Russian BTRs as street style canvas",
+      "type": "story",
+      "url": "https://kilderov.com/humanity"
+    },
+    {
+      "by": "chhhuang",
+      "descendants": 0,
+      "id": 30706344,
+      "score": 1,
+      "time": 1647479718,
+      "title": "Raft Engine: A persistent storage engine for Multi-Raft log",
+      "type": "story",
+      "url": "https://github.com/tikv/raft-engine"
+    },
+    {
       "by": "rntn",
       "descendants": 0,
       "id": 30706290,
@@ -47,7 +87,7 @@
       "kids": [
         30706262
       ],
-      "score": 12,
+      "score": 13,
       "text": "TLDR: Product developers need tools designed for them to build ML models. We’d love for you to try a demo of Mage without needing to sign up: https:&#x2F;&#x2F;www.mage.ai&#x2F;onboarding<p>My name is Tommy DANGerous (or Tommy Dang) and I’m the CEO and co-founder at Mage. I worked at Airbnb for over 5 years as a product developer building features for guests.<p>Mage is a web-based tool for building, training, and deploying ML models that make predictions based off your data.<p>Training and using ML models in production typically requires working knowledge of building data pipelines, algorithms, infrastructure for deployment and inference, and more. Because of this highly specialized skillset, mostly data scientists and ML engineers are the only ones able to build and use ML models. Existing ML tools cater to this audience.<p>Over my 5+ years at Airbnb, I helped build and launch the Airbnb Experiences product, created ML models before and after we had in-house tooling, and built a devtool platform called Omni. I worked with 100s of product developers across the company and saw that they knew how ML is being used and had ideas on how they would apply ML to their specific feature. However, they relied on data science resource to help them implement their ideas even though we had ML tools built in-house for data scientists.<p>Mage is a low-code tool that you can access via your web browser. You can build ML models through our user interface. How it works:<p>1. First, you add data by uploading a file or connecting to data source like Amplitude, AWS Redshift, S3, Snowflake, GCP BigQuery, etc. Once you add your data, we store it on AWS S3 for fast retrieval and transformations. \n2. Next step is you are given suggestions on how to enhance your dataset. You can perform functions like filtering, aggregating, adding columns, etc. We provide a GUI for you to perform these transformations. Behind the scenes, we’re translating your input into code using the Pandas API.\n3. Once you’re done preparing and cleaning your data, we’ll train your model by launching a few data pipelines in Airflow, use Spark to build your training data, and then run our proprietary ML pipeline to train your model.\n4. Finally, when you’re ready to use the model, we’ll deploy your model to an online API endpoint that is running on AWS ECS. You can get your model’s predictions via a POST request.<p>Existing ML tools are designed and built for data scientists and ML engineers. Mage is designed and built for product developers by product developers. This means we designed our tool to be usable by someone with no ML experience and we provide guided suggestions throughout the process to help educate users and help them become an ML expert.<p>We’d love for you to try a demo of Mage without needing to sign up: https:&#x2F;&#x2F;www.mage.ai&#x2F;onboarding. If you love it and want to use the entire set of features, you can sign up and use it for free (the best developers tools are free!). Thank you so much, your support is ultra appreciated!",
       "time": 1647478463,
       "title": "Show HN: Build predictive models with no prior ML experience",
@@ -62,52 +102,6 @@
       "title": "Devio Launching This Week",
       "type": "story",
       "url": "https://www.devio.app/"
-    },
-    {
-      "by": "potiuper",
-      "descendants": 0,
-      "id": 30706134,
-      "score": 2,
-      "time": 1647477982,
-      "title": "Scientists blamed for olive-tree ruin (2015)",
-      "type": "story",
-      "url": "https://www.nature.com/articles/nature.2015.17651"
-    },
-    {
-      "by": "Ansil849",
-      "descendants": 1,
-      "id": 30706106,
-      "kids": [
-        30706111
-      ],
-      "score": 1,
-      "time": 1647477760,
-      "title": "Computer Says No [AI hiring documentary]",
-      "type": "story",
-      "url": "https://www.bbc.co.uk/programmes/m0015gvw"
-    },
-    {
-      "by": "wrongbaud",
-      "descendants": 1,
-      "id": 30706059,
-      "kids": [
-        30706212
-      ],
-      "score": 5,
-      "time": 1647477305,
-      "title": "Hacking Hadoukens: Reverse Engineering a Street Fighter Two Cabinet",
-      "type": "story",
-      "url": "https://wrongbaud.github.io/sf-slides/"
-    },
-    {
-      "by": "jobhdez",
-      "descendants": 0,
-      "id": 30706046,
-      "score": 2,
-      "text": "What are the state of art optimizing techniques for compilers?<p>If you either mention techniques used in functional languages or I imperative or both I will appreciated. If you can point to research papers you’re the best :)",
-      "time": 1647477219,
-      "title": "Optimizing Techniques for Compilers",
-      "type": "story"
     }
   ]
 }
