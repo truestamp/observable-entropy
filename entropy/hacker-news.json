@@ -1,11 +1,51 @@
 {
   "stories": [
     {
+      "by": "notRobot",
+      "descendants": 0,
+      "id": 30709740,
+      "score": 1,
+      "time": 1647515023,
+      "title": "The Magpie Developer (2008)",
+      "type": "story",
+      "url": "https://blog.codinghorror.com/the-magpie-developer/"
+    },
+    {
+      "by": "sundarurfriend",
+      "descendants": 0,
+      "id": 30709727,
+      "score": 1,
+      "time": 1647514919,
+      "title": "Hiroshima: Was It Necessary? [Historical Details and Analysis]",
+      "type": "story",
+      "url": "https://www.spectacle.org/696/long.html"
+    },
+    {
+      "by": "teleforce",
+      "descendants": 0,
+      "id": 30709724,
+      "score": 1,
+      "time": 1647514892,
+      "title": "Measuring the benefit of egress traffic engineering with Segment Routing",
+      "type": "story",
+      "url": "https://blog.apnic.net/2022/03/10/measuring-the-potential-benefit-of-egress-traffic-engineering-with-segment-routing/"
+    },
+    {
+      "by": "chockchocschoir",
+      "descendants": 0,
+      "id": 30709723,
+      "score": 2,
+      "time": 1647514891,
+      "title": "80GB of email from R&D department of Transneft (Russian Pipeline company) leaked",
+      "type": "story",
+      "url": "https://ddosecrets.com/wiki/Transneft"
+    },
+    {
       "by": "Tenoke",
       "descendants": 0,
       "id": 30709712,
-      "score": 1,
-      "text": "I want to setup a search engine that only shows me results from sites I want to see to use occasionally. I found programmablesearchengine.google.com which seemed good, added a bunch of sites (couple of subreddits, blogs of thoughtful people, HN etc.) but I am disappointed with the results.<p>For one, it doesn&#x27;t seem to have advanced features like &#x27;search only for results between those dates&#x27;, for another the results it gives aren&#x27;t good. E.g. when I google &#x27;favorite sites&#x27; it returns 1 result (which is from HN) but when I google &#x27;reddit slatestarcodex favourite sites&#x27; (with either normal or the programmable google) it correctly returns a bunch from https:&#x2F;&#x2F;www.reddit.com&#x2F;r&#x2F;slatestarcodex&#x2F; even if the &#x27;reddit slatestarcodex&#x27; part seems redundant as it&#x27;s already in my list. This obviously makes it much less useful because I don&#x27;t get the results that well unless I specify the site.<p>Is there a better alternative? Another search engine that offers you to setup larger lists of sites (rather than just doing site:..) or something else built on top of Google?",
+      "score": 2,
+      "text": "I want to setup a search engine that only shows me results from sites I want to see to use occasionally. I found programmablesearchengine.google.com which seemed good, added a bunch of sites (couple of subreddits, blogs of thoughtful people, HN etc.) but I am disappointed with the results.<p>For one, it doesn&#x27;t seem to have advanced features like &#x27;search only for results between those dates&#x27;, for another the results it gives aren&#x27;t good. E.g. when I google &#x27;favorite sites&#x27; it returns 1 result (which is from HN) but when I google &#x27;reddit slatestarcodex favourite sites&#x27; (with either normal or the programmable google) it correctly returns a bunch from https:&#x2F;&#x2F;www.reddit.com&#x2F;r&#x2F;slatestarcodex&#x2F; even if the &#x27;reddit slatestarcodex&#x27; part seems redundant as it&#x27;s already in my list. This obviously makes it much less useful because I don&#x27;t get good results unless I specify the site.<p>Is there a better alternative? Another search engine that offers you to setup larger lists of sites (rather than just doing site:..), something else built on top of Google, crawling the sites myself?",
       "time": 1647514771,
       "title": "Ask HN: Is there a good solution for searching only in specified trusted sites?",
       "type": "story"
@@ -22,8 +62,11 @@
     },
     {
       "by": "kiru_io",
-      "descendants": 0,
+      "descendants": 1,
       "id": 30709706,
+      "kids": [
+        30709748
+      ],
       "score": 1,
       "time": 1647514679,
       "title": "Show HN: Changethistext.com",
@@ -59,56 +102,6 @@
       "title": "Measuring the Business impact of low quality code",
       "type": "story",
       "url": "https://codescene.com/blog/measuring-the-business-impact-of-low-code-quality"
-    },
-    {
-      "by": "tta",
-      "descendants": 1,
-      "id": 30709624,
-      "kids": [
-        30709700,
-        30709711
-      ],
-      "score": 7,
-      "time": 1647513877,
-      "title": "George R.R. Martin is not your bitch (2009)",
-      "type": "story",
-      "url": "https://journal.neilgaiman.com/2009/05/entitlement-issues.html"
-    },
-    {
-      "by": "Hamuko",
-      "descendants": 0,
-      "id": 30709591,
-      "score": 4,
-      "time": 1647513448,
-      "title": "Microsoft to build energy efficient, heat-producing data centre in Finland",
-      "type": "story",
-      "url": "https://yle.fi/news/3-12363215"
-    },
-    {
-      "by": "strife25",
-      "descendants": 0,
-      "id": 30709584,
-      "score": 1,
-      "time": 1647513377,
-      "title": "Who owns your product roadmap?",
-      "type": "story",
-      "url": "https://www.buildthestage.com/who-owns-your-company-roadmap/"
-    },
-    {
-      "by": "ShelbyKU",
-      "descendants": 2,
-      "id": 30709570,
-      "kids": [
-        30709643,
-        30709681,
-        30709601
-      ],
-      "score": 1,
-      "text": "Hi Hacker News!<p>It&#x27;s safe to say that we all enjoy some quality apps on our phones. But guess what, there&#x27;s a certain industry that&#x27;s still clinging to the usability and security standards from the desktop era of the 2010s. Poorly designed UIs, bombardments of ads, random popups, scams, etc. This industry operates in such a shady way that we as users rather keep their products in incognito mode.<p>We say no more and offer you the following solution:<p>USER EXPERIENCE<p>- Mobile first and native-like UI design.\n- Beautiful dark mode that&#x27;s easy on your eyes.\n- Instant navigations, smooth scrolling, touch gestures.\n- Can be added to the home screen for fullscreen and quick access (PWA).\n- No annoying ads and popups.<p>PRIVACY PROTECTION<p>- All data is stored locally in browser storage. No personal information is sent to servers.\n- All functionality is available without sign up or other personal identification.\n- No Google Analytics. Instead, we use the privacy-focused Fathom Analytics (usefathom.com).\n- No URL paths that expose information in the browsing history. Forward&#x2F;back navigation still works perfectly.<p>INCLUSIVITY<p>- Only personal (and verified) accounts allowed. No studios or brands. This means that all available content has been approved by their actors and was created consensually. - We welcome all types of sexual orientation and try to provide the best possible service to all of our users.<p>Please note that this product is only intended for persons over the age of 18.<p>Happy swiping!",
-      "time": 1647513211,
-      "title": "Show HN: High-Quality NSFW Video App",
-      "type": "story",
-      "url": "https://fapnite.com"
     }
   ]
 }
