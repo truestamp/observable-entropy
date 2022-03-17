@@ -1,6 +1,16 @@
 {
   "stories": [
     {
+      "by": "rntn",
+      "descendants": 0,
+      "id": 30706290,
+      "score": 1,
+      "time": 1647479262,
+      "title": "Gimmick or Genuine? Blind-Tasting Alternatively Aged Whiskies (2018)",
+      "type": "story",
+      "url": "https://www.whiskyadvocate.com/alternatively-aged-whiskies-taste-test/"
+    },
+    {
       "by": "gmays",
       "descendants": 0,
       "id": 30706256,
@@ -32,12 +42,12 @@
     },
     {
       "by": "TommyDANGerous",
-      "descendants": 1,
+      "descendants": 2,
       "id": 30706193,
       "kids": [
         30706262
       ],
-      "score": 8,
+      "score": 9,
       "text": "TLDR: Product developers need tools designed for them to build ML models. We’d love for you to try a demo of Mage without needing to sign up: https:&#x2F;&#x2F;www.mage.ai&#x2F;onboarding<p>My name is Tommy DANGerous (or Tommy Dang) and I’m the CEO and co-founder at Mage. I worked at Airbnb for over 5 years as a product developer building features for guests.<p>Mage is a web-based tool for building, training, and deploying ML models that make predictions based off your data.<p>Training and using ML models in production typically requires working knowledge of building data pipelines, algorithms, infrastructure for deployment and inference, and more. Because of this highly specialized skillset, mostly data scientists and ML engineers are the only ones able to build and use ML models. Existing ML tools cater to this audience.<p>Over my 5+ years at Airbnb, I helped build and launch the Airbnb Experiences product, created ML models before and after we had in-house tooling, and built a devtool platform called Omni. I worked with 100s of product developers across the company and saw that they knew how ML is being used and had ideas on how they would apply ML to their specific feature. However, they relied on data science resource to help them implement their ideas even though we had ML tools built in-house for data scientists.<p>Mage is a low-code tool that you can access via your web browser. You can build ML models through our user interface. How it works:<p>1. First, you add data by uploading a file or connecting to data source like Amplitude, AWS Redshift, S3, Snowflake, GCP BigQuery, etc. Once you add your data, we store it on AWS S3 for fast retrieval and transformations. \n2. Next step is you are given suggestions on how to enhance your dataset. You can perform functions like filtering, aggregating, adding columns, etc. We provide a GUI for you to perform these transformations. Behind the scenes, we’re translating your input into code using the Pandas API.\n3. Once you’re done preparing and cleaning your data, we’ll train your model by launching a few data pipelines in Airflow, use Spark to build your training data, and then run our proprietary ML pipeline to train your model.\n4. Finally, when you’re ready to use the model, we’ll deploy your model to an online API endpoint that is running on AWS ECS. You can get your model’s predictions via a POST request.<p>Existing ML tools are designed and built for data scientists and ML engineers. Mage is designed and built for product developers by product developers. This means we designed our tool to be usable by someone with no ML experience and we provide guided suggestions throughout the process to help educate users and help them become an ML expert.<p>We’d love for you to try a demo of Mage without needing to sign up: https:&#x2F;&#x2F;www.mage.ai&#x2F;onboarding. If you love it and want to use the entire set of features, you can sign up and use it for free (the best developers tools are free!). Thank you so much, your support is ultra appreciated!",
       "time": 1647478463,
       "title": "Show HN: Build predictive models with no prior ML experience",
@@ -98,16 +108,6 @@
       "time": 1647477219,
       "title": "Optimizing Techniques for Compilers",
       "type": "story"
-    },
-    {
-      "by": "jger15",
-      "descendants": 0,
-      "id": 30706038,
-      "score": 2,
-      "time": 1647477102,
-      "title": "Substack’s Ideology",
-      "type": "story",
-      "url": "https://every.to/divinations/substack-s-ideology"
     }
   ]
 }
