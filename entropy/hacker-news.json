@@ -1,6 +1,36 @@
 {
   "stories": [
     {
+      "by": "RafelMri",
+      "descendants": 0,
+      "id": 30706422,
+      "score": 1,
+      "time": 1647480266,
+      "title": "Chainalysis Helps Compliance Teams Address Sanctions Red Flags",
+      "type": "story",
+      "url": "https://blog.chainalysis.com/reports/fincen-russia-sanctions-red-flags-chainalysis/"
+    },
+    {
+      "by": "davidgerard",
+      "descendants": 0,
+      "id": 30706410,
+      "score": 1,
+      "time": 1647480208,
+      "title": "Acquisition Blog Post Generator",
+      "type": "story",
+      "url": "https://thisstartupacquisitionannouncementdoesnotexist.ajnisbet.com/"
+    },
+    {
+      "by": "neginshopper",
+      "descendants": 0,
+      "id": 30706407,
+      "score": 1,
+      "text": "We created a marketplace called bringshopper.com where we bring shoppers to newly started businesses. We had a call with their sales team and as they suggested we used Stripe Standard Connect and direct charges. When we bring shoppers successfully we charged higher application fees to cover our costs and there was no upfront costs\nWe even built feature to cover negative balances of connected accounts by cutting their ad budget<p>And one day Stripe blocked our account, and disabled all our connected accounts and said they WILL NOT RELEASE OUR FUNDS AND WILL USE TO REFUND ALL CUSTOMERS. Now there are multiple things: 1) They didn&#x27;t refund anyone as we are a platform account we have no charges under us to refund 2) They didn&#x27;t release funds either<p>They TOOK OUR FUNDS, $159k to be exact They can&#x27;t refund customers of all connected accounts and use our funds as they advertise in stripe.com&#x2F;connect&#x2F;pricing that Stripe Standard Connect is not responsible for losses, disputes, refunds of connected accounts<p>There is no charges to be refunded or disputed and they simply took our funds<p>How is this even legal? Anyone had similar experience or anyone can help? Our company is struggling here due to this<p>Our account id is acct_1K7t9JC4s1I9dR5f<p>Updates:\nEdwin reached out in other thread I shared saying they can&#x27;t support our business but still didn&#x27;t say anything about release of our funds<p>I want to know when will we receive our money",
+      "time": 1647480200,
+      "title": "Tell HN: Stripe Took Our $159k",
+      "type": "story"
+    },
+    {
       "by": "northstar702",
       "descendants": 0,
       "id": 30706380,
@@ -69,39 +99,6 @@
       "title": "Google to sunset Universal Analytics in 2023",
       "type": "story",
       "url": "https://blog.simpleanalytics.com/google-to-sunset-universal-analytics-in-2023"
-    },
-    {
-      "by": "pavlov",
-      "descendants": 0,
-      "id": 30706209,
-      "score": 1,
-      "time": 1647478573,
-      "title": "“Just clean the office:” Get out of the depression/anxiety spiral",
-      "type": "story",
-      "url": "https://randallb.dev/get-out-of-the-depression-anxiety-spiral-with-a-mantra-just-clean-the-office/"
-    },
-    {
-      "by": "TommyDANGerous",
-      "descendants": 2,
-      "id": 30706193,
-      "kids": [
-        30706262
-      ],
-      "score": 13,
-      "text": "TLDR: Product developers need tools designed for them to build ML models. We’d love for you to try a demo of Mage without needing to sign up: https:&#x2F;&#x2F;www.mage.ai&#x2F;onboarding<p>My name is Tommy DANGerous (or Tommy Dang) and I’m the CEO and co-founder at Mage. I worked at Airbnb for over 5 years as a product developer building features for guests.<p>Mage is a web-based tool for building, training, and deploying ML models that make predictions based off your data.<p>Training and using ML models in production typically requires working knowledge of building data pipelines, algorithms, infrastructure for deployment and inference, and more. Because of this highly specialized skillset, mostly data scientists and ML engineers are the only ones able to build and use ML models. Existing ML tools cater to this audience.<p>Over my 5+ years at Airbnb, I helped build and launch the Airbnb Experiences product, created ML models before and after we had in-house tooling, and built a devtool platform called Omni. I worked with 100s of product developers across the company and saw that they knew how ML is being used and had ideas on how they would apply ML to their specific feature. However, they relied on data science resource to help them implement their ideas even though we had ML tools built in-house for data scientists.<p>Mage is a low-code tool that you can access via your web browser. You can build ML models through our user interface. How it works:<p>1. First, you add data by uploading a file or connecting to data source like Amplitude, AWS Redshift, S3, Snowflake, GCP BigQuery, etc. Once you add your data, we store it on AWS S3 for fast retrieval and transformations. \n2. Next step is you are given suggestions on how to enhance your dataset. You can perform functions like filtering, aggregating, adding columns, etc. We provide a GUI for you to perform these transformations. Behind the scenes, we’re translating your input into code using the Pandas API.\n3. Once you’re done preparing and cleaning your data, we’ll train your model by launching a few data pipelines in Airflow, use Spark to build your training data, and then run our proprietary ML pipeline to train your model.\n4. Finally, when you’re ready to use the model, we’ll deploy your model to an online API endpoint that is running on AWS ECS. You can get your model’s predictions via a POST request.<p>Existing ML tools are designed and built for data scientists and ML engineers. Mage is designed and built for product developers by product developers. This means we designed our tool to be usable by someone with no ML experience and we provide guided suggestions throughout the process to help educate users and help them become an ML expert.<p>We’d love for you to try a demo of Mage without needing to sign up: https:&#x2F;&#x2F;www.mage.ai&#x2F;onboarding. If you love it and want to use the entire set of features, you can sign up and use it for free (the best developers tools are free!). Thank you so much, your support is ultra appreciated!",
-      "time": 1647478463,
-      "title": "Show HN: Build predictive models with no prior ML experience",
-      "type": "story"
-    },
-    {
-      "by": "Brysonbw",
-      "descendants": 0,
-      "id": 30706168,
-      "score": 1,
-      "time": 1647478295,
-      "title": "Devio Launching This Week",
-      "type": "story",
-      "url": "https://www.devio.app/"
     }
   ]
 }
