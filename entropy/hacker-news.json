@@ -1,11 +1,31 @@
 {
   "stories": [
     {
+      "by": "AdriaanvRossum",
+      "descendants": 0,
+      "id": 30706236,
+      "score": 1,
+      "time": 1647478802,
+      "title": "Google to sunset Universal Analytics in 2023",
+      "type": "story",
+      "url": "https://blog.simpleanalytics.com/google-to-sunset-universal-analytics-in-2023"
+    },
+    {
+      "by": "pavlov",
+      "descendants": 0,
+      "id": 30706209,
+      "score": 1,
+      "time": 1647478573,
+      "title": "“Just clean the office:” Get out of the depression/anxiety spiral",
+      "type": "story",
+      "url": "https://randallb.dev/get-out-of-the-depression-anxiety-spiral-with-a-mantra-just-clean-the-office/"
+    },
+    {
       "by": "TommyDANGerous",
       "descendants": 0,
       "id": 30706193,
-      "score": 1,
-      "text": "TLDR: Product developers need tools designed for them to build ML models. We’d love for you to try a demo of Mage without needing to sign up: [https:&#x2F;&#x2F;www.mage.ai&#x2F;onboarding](https:&#x2F;&#x2F;www.mage.ai&#x2F;onboarding)<p>My name is Tommy DANGerous (or Tommy Dang) and I’m the CEO and co-founder at Mage. I worked at Airbnb for over 5 years as a product developer building features for guests.<p>Mage is a web-based tool for building, training, and deploying ML models that make predictions based off your data.<p>Training and using ML models in production typically requires working knowledge of building data pipelines, algorithms, infrastructure for deployment and inference, and more. Because of this highly specialized skillset, mostly data scientists and ML engineers are the only ones able to build and use ML models. Existing ML tools cater to this audience.<p>Over my 5+ years at Airbnb, I helped build and launch the Airbnb Experiences product, created ML models before and after we had in-house tooling, and built a devtool platform called Omni. I worked with 100s of product developers across the company and saw that they knew how ML is being used and had ideas on how they would apply ML to their specific feature. However, they relied on data science resource to help them implement their ideas even though we had ML tools built in-house for data scientists.<p>Mage is a low-code tool that you can access via your web browser. You can build ML models through our user interface. How it works:<p>1. First, you add data by uploading a file or connecting to data source like Amplitude, AWS Redshift, S3, Snowflake, GCP BigQuery, etc. Once you add your data, we store it on AWS S3 for fast retrieval and transformations. \n2. Next step is you are given suggestions on how to enhance your dataset. You can perform functions like filtering, aggregating, adding columns, etc. We provide a GUI for you to perform these transformations. Behind the scenes, we’re translating your input into code using the Pandas API.\n3. Once you’re done preparing and cleaning your data, we’ll train your model by launching a few data pipelines in Airflow, use Spark to build your training data, and then run our proprietary ML pipeline to train your model.\n4. Finally, when you’re ready to use the model, we’ll deploy your model to an online API endpoint that is running on AWS ECS. You can get your model’s predictions via a POST request.<p>Existing ML tools are designed and built for data scientists and ML engineers. Mage is designed and built for product developers by product developers. This means we designed our tool to be usable by someone with no ML experience and we provide guided suggestions throughout the process to help educate users and help them become an ML expert.<p>We’d love for you to try a demo of Mage without needing to sign up: [https:&#x2F;&#x2F;www.mage.ai&#x2F;onboarding](https:&#x2F;&#x2F;www.mage.ai&#x2F;onboarding). If you love it and want to use the entire set of features, you can sign up and use it for free (the best developers tools are free!). Thank you so much, your support is ultra appreciated!",
+      "score": 5,
+      "text": "TLDR: Product developers need tools designed for them to build ML models. We’d love for you to try a demo of Mage without needing to sign up: https:&#x2F;&#x2F;www.mage.ai&#x2F;onboarding<p>My name is Tommy DANGerous (or Tommy Dang) and I’m the CEO and co-founder at Mage. I worked at Airbnb for over 5 years as a product developer building features for guests.<p>Mage is a web-based tool for building, training, and deploying ML models that make predictions based off your data.<p>Training and using ML models in production typically requires working knowledge of building data pipelines, algorithms, infrastructure for deployment and inference, and more. Because of this highly specialized skillset, mostly data scientists and ML engineers are the only ones able to build and use ML models. Existing ML tools cater to this audience.<p>Over my 5+ years at Airbnb, I helped build and launch the Airbnb Experiences product, created ML models before and after we had in-house tooling, and built a devtool platform called Omni. I worked with 100s of product developers across the company and saw that they knew how ML is being used and had ideas on how they would apply ML to their specific feature. However, they relied on data science resource to help them implement their ideas even though we had ML tools built in-house for data scientists.<p>Mage is a low-code tool that you can access via your web browser. You can build ML models through our user interface. How it works:<p>1. First, you add data by uploading a file or connecting to data source like Amplitude, AWS Redshift, S3, Snowflake, GCP BigQuery, etc. Once you add your data, we store it on AWS S3 for fast retrieval and transformations. \n2. Next step is you are given suggestions on how to enhance your dataset. You can perform functions like filtering, aggregating, adding columns, etc. We provide a GUI for you to perform these transformations. Behind the scenes, we’re translating your input into code using the Pandas API.\n3. Once you’re done preparing and cleaning your data, we’ll train your model by launching a few data pipelines in Airflow, use Spark to build your training data, and then run our proprietary ML pipeline to train your model.\n4. Finally, when you’re ready to use the model, we’ll deploy your model to an online API endpoint that is running on AWS ECS. You can get your model’s predictions via a POST request.<p>Existing ML tools are designed and built for data scientists and ML engineers. Mage is designed and built for product developers by product developers. This means we designed our tool to be usable by someone with no ML experience and we provide guided suggestions throughout the process to help educate users and help them become an ML expert.<p>We’d love for you to try a demo of Mage without needing to sign up: https:&#x2F;&#x2F;www.mage.ai&#x2F;onboarding. If you love it and want to use the entire set of features, you can sign up and use it for free (the best developers tools are free!). Thank you so much, your support is ultra appreciated!",
       "time": 1647478463,
       "title": "Show HN: Build predictive models with no prior ML experience",
       "type": "story"
@@ -45,8 +65,11 @@
     },
     {
       "by": "wrongbaud",
-      "descendants": 0,
+      "descendants": 1,
       "id": 30706059,
+      "kids": [
+        30706212
+      ],
       "score": 5,
       "time": 1647477305,
       "title": "Hacking Hadoukens: Reverse Engineering a Street Fighter Two Cabinet",
@@ -75,38 +98,19 @@
     },
     {
       "by": "accidhacker",
-      "descendants": 3,
+      "descendants": 4,
       "id": 30706014,
       "kids": [
+        30706205,
         30706145,
         30706090,
         30706083
       ],
-      "score": 12,
+      "score": 19,
       "time": 1647476920,
       "title": "I found a security issue on a competitor, got fired and served a summons",
       "type": "story",
       "url": "https://accidhacker.wordpress.com/2022/03/16/i-found-a-security-issue-on-a-competitor-got-fired-and-served-a-summons/"
-    },
-    {
-      "by": "gillytech",
-      "descendants": 0,
-      "id": 30705998,
-      "score": 1,
-      "time": 1647476828,
-      "title": "Fridge-size asteroid detected just 2 hours before it slammed into Earth",
-      "type": "story",
-      "url": "https://www.livescience.com/asteroid-discovered-before-hitting-earth"
-    },
-    {
-      "by": "Jtsummers",
-      "descendants": 0,
-      "id": 30705995,
-      "score": 3,
-      "time": 1647476817,
-      "title": "Just Asking Questions",
-      "type": "story",
-      "url": "https://rationalwiki.org/wiki/Just_asking_questions"
     }
   ]
 }
