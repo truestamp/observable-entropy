@@ -1,10 +1,80 @@
 {
   "stories": [
     {
+      "by": "OscarMA",
+      "descendants": 0,
+      "id": 30710558,
+      "score": 1,
+      "time": 1647521313,
+      "title": "MIT engineers built an airplane that flies without any moving parts",
+      "type": "story",
+      "url": "https://www.designboom.com/design/mit-engineers-built-an-airplane-that-flies-without-any-moving-parts-03-12-2022/"
+    },
+    {
+      "by": "amichail",
+      "descendants": 0,
+      "id": 30710554,
+      "score": 1,
+      "time": 1647521299,
+      "title": "Our universe may have a twin that runs backward in time",
+      "type": "story",
+      "url": "https://www.livescience.com/mirror-universe-explains-dark-matter"
+    },
+    {
+      "by": "elsewhen",
+      "descendants": 0,
+      "id": 30710548,
+      "score": 1,
+      "time": 1647521271,
+      "title": "Stronger hands lengthen your life",
+      "type": "story",
+      "url": "https://www.axios.com/hand-grip-strength-falling-deaths-8dfd77a1-0561-41be-8359-12532af948ce.html"
+    },
+    {
+      "by": "sahin",
+      "descendants": 0,
+      "id": 30710544,
+      "score": 1,
+      "time": 1647521244,
+      "title": "Russia blocked Instagram, so developers created a clone",
+      "type": "story",
+      "url": "https://www.protocol.com/bulletins/russia-instagram-alternative"
+    },
+    {
+      "by": "Franks-Asta",
+      "descendants": 0,
+      "id": 30710538,
+      "score": 1,
+      "text": "Dear All Members,<p>Hope you all doing great.<p>Actually we have a Ceph cluster have five Huawei servers.\nEach server have a 10 OSDs, one of the server at this morninng issued a failed hardware raid contoller even this server is not available\nvia SSH.<p>So if i replace the raid card, it will back online.<p>Any procedures to respect when removing old card &amp; install the new card to avoid lost configuration &amp; get things back working properly?<p>Thanks in advance.<p>Rgards,\nFranks-Arous",
+      "time": 1647521211,
+      "title": "Ceph with a failed hardware raid controller on Huawei",
+      "type": "story"
+    },
+    {
+      "by": "BlackPlot",
+      "descendants": 0,
+      "id": 30710535,
+      "score": 2,
+      "time": 1647521199,
+      "title": "How to Migrate from ECS to EKS and the #1 Trick to Make EKS Easier",
+      "type": "story",
+      "url": "https://cast.ai/blog/how-to-migrate-from-ecs-to-eks-and-the-1-trick-to-make-eks-easier/"
+    },
+    {
+      "by": "ryan_j_naughton",
+      "descendants": 0,
+      "id": 30710532,
+      "score": 1,
+      "time": 1647521154,
+      "title": "New data shows how far VCs are pulling back on US Series A, B, and C valuations",
+      "type": "story",
+      "url": "https://techcrunch.com/2022/03/16/new-data-shows-how-far-vcs-are-pulling-back-on-us-series-a-b-and-c-valuations/"
+    },
+    {
       "by": "Bud",
       "descendants": 0,
       "id": 30710515,
-      "score": 1,
+      "score": 2,
       "time": 1647521079,
       "title": "Next generation Light Anti-tank Weapon",
       "type": "story",
@@ -14,7 +84,7 @@
       "by": "ilarum",
       "descendants": 0,
       "id": 30710501,
-      "score": 1,
+      "score": 2,
       "time": 1647520961,
       "title": "MaskerAid iOS App",
       "type": "story",
@@ -29,79 +99,6 @@
       "title": "Moderna best mix-and-match Covid booster shot, Taiwan study finds",
       "type": "story",
       "url": "https://focustaiwan.tw/sci-tech/202203170015"
-    },
-    {
-      "by": "sweaver",
-      "descendants": 0,
-      "id": 30710481,
-      "score": 3,
-      "text": "Hi HN!<p>Sam and Michael here. We are building an open-source management platform that deploys and operates any open source infra software on kubernetes in a production-ready way: https:&#x2F;&#x2F;www.plural.sh<p>I’ve been in open source for over a decade. I spent 4 years at Red Hat before spending the next 6 years building products at MongoDB. Most recently I was the Head of Product at Unqork where we saw how difficult it was to create a deployment for our app stack and its related services.<p>Michael has spent his career at Vine, Amazon, Frame.io and Facebook where he has built and scaled systems using open source solutions for millions of users.<p>We met each other in early 2021 and got excited to tackle this problem together: making multi-cloud open source infrastructure zero effort to install and manage.<p>We’ve interviewed over 60 development and devops teams and learned that existing solutions always fell short. Either they were too complex to build or too costly to manage. In particular we heard many times that data infrastructure was a complete bear to stand up and integrate. We wanted to build a platform that would supercharge devops team’s capabilities and we wanted to give users the ability to do this all in their own cloud: aws, azure, gcp or bare metal.<p>It was important for us to work with the open source vendors. By making it trivial for users to get going with open source software, we can bring great solutions directly from vendors to the platform, and most importantly, compensate the vendors for their work.<p>Here’s a short demo video if you want to check out how it works when installing something operationally complex like Airflow:\nhttps:&#x2F;&#x2F;www.plural.sh&#x2F;video-plural-product-demo<p>Plural can run on AWS, Azure, GCP and in alpha on Equinix (bare) metal, deploying applications in Kubernetes, with logging and monitoring (prometheus&#x2F;grafana) enabled out of the box. We have built full dashboarding and run books for managing and scaling your cluster and a simple install interface for quickly getting going with apps like Airflow, Kubeflow, Airbyte etc.<p>Today our catalog has over 30 apps ready to solve the most interesting use cases from AI&#x2F;ML &amp; data infrastructure to observability to caching. We hope our community will help us add more solutions to our catalog and we will focus on building our open source product. We will eventually create a paid edition (open core model) with enterprise-level features to address the needs of our most demanding users.<p>Try it out: https:&#x2F;&#x2F;github.com&#x2F;pluralsh&#x2F;plural &amp; app.plural.sh&#x2F; and let us know what you think!",
-      "time": 1647520790,
-      "title": "Zero Effort Multi-Cloud OSS Application Deployments on Kubernetes",
-      "type": "story"
-    },
-    {
-      "by": "hanifbbz",
-      "descendants": 0,
-      "id": 30710465,
-      "score": 1,
-      "time": 1647520712,
-      "title": "How to Best Use MTT* Metrics to Optimize Your Incident Response",
-      "type": "story",
-      "url": "https://www.infoq.com/articles/mtt-metrics-incident-response/"
-    },
-    {
-      "by": "hippich",
-      "descendants": 0,
-      "id": 30710463,
-      "score": 1,
-      "time": 1647520704,
-      "title": "The list of open source software that targets Russians",
-      "type": "story",
-      "url": "https://docs.google.com/spreadsheets/d/1H3xPB4PgWeFcHjZ7NOPtrcya_Ua4jUolWm-7z9-jSpQ/htmlview"
-    },
-    {
-      "by": "jamesdco",
-      "descendants": 0,
-      "id": 30710462,
-      "score": 1,
-      "time": 1647520688,
-      "title": "Eugene Parker, groundbreaking solar physicist, dies at 94",
-      "type": "story",
-      "url": "https://astronomy.com/news/2022/03/groundbreaking-heliophysicist-eugene-parker-has-died"
-    },
-    {
-      "by": "jamesdco",
-      "descendants": 0,
-      "id": 30710461,
-      "score": 1,
-      "time": 1647520669,
-      "title": "The carbon footprint of large-scale computing",
-      "type": "story",
-      "url": "https://physicsworld.com/a/the-huge-carbon-footprint-of-large-scale-computing/"
-    },
-    {
-      "by": "kevcampb",
-      "descendants": 0,
-      "id": 30710415,
-      "score": 3,
-      "time": 1647520351,
-      "title": "Famous NPM package deletes files to protest Ukraine war",
-      "type": "story",
-      "url": "https://www.bleepingcomputer.com/news/security/big-sabotage-famous-npm-package-deletes-files-to-protest-ukraine-war/"
-    },
-    {
-      "by": "app4soft",
-      "descendants": 1,
-      "id": 30710410,
-      "kids": [
-        30710433
-      ],
-      "score": 1,
-      "time": 1647520300,
-      "title": "Law Firms and Russian Profits",
-      "type": "story",
-      "url": "https://law.stanford.edu/law-firms-and-russian-profits/"
     }
   ]
 }
