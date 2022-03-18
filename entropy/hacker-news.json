@@ -1,6 +1,56 @@
 {
   "stories": [
     {
+      "by": "dijit",
+      "descendants": 0,
+      "id": 30724974,
+      "score": 1,
+      "time": 1647624285,
+      "title": "Ubisoft Scalar: cloud native game engine",
+      "type": "story",
+      "url": "https://news.ubisoft.com/en-us/article/6mEL7uExWMczw4HpZSCg6v/ubisoft-scalar-promises-to-change-the-way-developers-make-games"
+    },
+    {
+      "by": "jessimckenzi",
+      "descendants": 0,
+      "id": 30724968,
+      "score": 1,
+      "time": 1647624256,
+      "title": "US Army plan to combat climate change lacks the fighting spirit",
+      "type": "story",
+      "url": "https://thebulletin.org/2022/03/us-army-plan-to-combat-climate-change-lacks-the-fighting-spirit/"
+    },
+    {
+      "by": "smitop",
+      "descendants": 0,
+      "id": 30724964,
+      "score": 1,
+      "time": 1647624244,
+      "title": "Tracking PDF forms as plain text",
+      "type": "story",
+      "url": "https://smitop.com/post/fdf/"
+    },
+    {
+      "by": "optimalsolver",
+      "descendants": 0,
+      "id": 30724926,
+      "score": 1,
+      "time": 1647624061,
+      "title": "Trưng Sisters",
+      "type": "story",
+      "url": "https://en.wikipedia.org/wiki/Tr%C6%B0ng_sisters"
+    },
+    {
+      "by": "mjreacher",
+      "descendants": 0,
+      "id": 30724919,
+      "score": 1,
+      "time": 1647624018,
+      "title": "The False Promise of Arming Insurgents: US' Spotty Record Warrants Caution in UA",
+      "type": "story",
+      "url": "https://www.foreignaffairs.com/articles/russia-fsu/2022-03-18/false-promise-arming-insurgents"
+    },
+    {
       "by": "maxwell",
       "descendants": 0,
       "id": 30724903,
@@ -22,8 +72,11 @@
     },
     {
       "by": "lou_alcala",
-      "descendants": 0,
+      "descendants": 1,
       "id": 30724886,
+      "kids": [
+        30724939
+      ],
       "score": 1,
       "time": 1647623874,
       "title": "Show HN: Ns6.com, one link to share all your links",
@@ -31,24 +84,10 @@
       "url": "https://ns6.com"
     },
     {
-      "by": "richx",
-      "descendants": 2,
-      "id": 30724864,
-      "kids": [
-        30724902,
-        30724881
-      ],
-      "score": 3,
-      "text": "At least for me it does no longer work…",
-      "time": 1647623779,
-      "title": "Google Maps Is Down?",
-      "type": "story"
-    },
-    {
       "by": "perihelions",
       "descendants": 0,
       "id": 30724851,
-      "score": 3,
+      "score": 4,
       "time": 1647623716,
       "title": "Sen. Warren Announces Sanctions Compliance Bill for Crypto Companies",
       "type": "story",
@@ -58,51 +97,11 @@
       "by": "JaceLightning",
       "descendants": 0,
       "id": 30724830,
-      "score": 3,
+      "score": 5,
       "text": "I know there are several attack vectors on public Wifi, but these days are they mostly mitigated?<p>- Man-in-the-middle attacks: thwarted by certificate authority checking by the browser and&#x2F;or certificate pinning in mobile apps. Browser will not let you advance if the certificate is invalid. \n - Replay attacks: OAuth tokens expire and good sites will use nonces.\n - Packing sniffing on open networks: thwarted by TSL over http and encrypted traffic (unless you have a root certificate installed).\n - DNS lookups are somewhat plaintext, but now started to be done over https. Even then, attackers would know what you&#x27;re connected to, but not what you are saying.\n - Port scanning&#x2F;direct attacks: Firewalls by default lock down ports and well-patched machines prevent this\n - Email (SMTP) and other protocols: are all encrypted as well to prevent snooping.<p>Is using public Wifi actually dangerous? If so, what&#x27;s the attack vector?",
       "time": 1647623631,
       "title": "Ask HN: Is Public WiFi Dangerous?",
       "type": "story"
-    },
-    {
-      "by": "mooreds",
-      "descendants": 0,
-      "id": 30724811,
-      "score": 2,
-      "time": 1647623544,
-      "title": "Monolithic Development Practices Kill Powerful Kubernetes Benefits (2021)",
-      "type": "story",
-      "url": "https://thenewstack.io/monolithic-development-practices-kill-powerful-kubernetes-benefits/"
-    },
-    {
-      "by": "asadawadia",
-      "descendants": 0,
-      "id": 30724808,
-      "score": 1,
-      "time": 1647623529,
-      "title": "Show HN: A TCP and HTTP and WebSocket and UDP Echo server for all your needs",
-      "type": "story",
-      "url": "https://github.com/asad-awadia/echo-server"
-    },
-    {
-      "by": "rbanffy",
-      "descendants": 0,
-      "id": 30724806,
-      "score": 1,
-      "time": 1647623519,
-      "title": "Running PyTorch Models on Jetson Nano – PyTorch",
-      "type": "story",
-      "url": "https://pytorch.org/blog/running-pytorch-models-on-jetson-nano/"
-    },
-    {
-      "by": "rbanffy",
-      "descendants": 0,
-      "id": 30724800,
-      "score": 1,
-      "time": 1647623498,
-      "title": "Drones shed light on coastal water flows",
-      "type": "story",
-      "url": "https://discovery.kaust.edu.sa/en/article/1223/drones-shed-light-on-coastal-water-flows"
     }
   ]
 }
