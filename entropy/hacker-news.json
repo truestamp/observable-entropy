@@ -1,10 +1,59 @@
 {
   "stories": [
     {
-      "by": "darknavi",
+      "by": "adriangrigore",
       "descendants": 0,
-      "id": 30723745,
+      "id": 30723796,
       "score": 1,
+      "time": 1647618759,
+      "title": "Simple, small, awk analytics HTTP log parsers",
+      "type": "story",
+      "url": "https://adi.onl/./cbl.html"
+    },
+    {
+      "by": "jaflo",
+      "descendants": 1,
+      "id": 30723793,
+      "kids": [
+        30723814
+      ],
+      "score": 1,
+      "time": 1647618743,
+      "title": "Show HN: Calenday, real-time collaborative calendars for trip planning",
+      "type": "story",
+      "url": "https://calenday.co/?ref=hn"
+    },
+    {
+      "by": "alt227",
+      "descendants": 1,
+      "id": 30723766,
+      "kids": [
+        30723804
+      ],
+      "score": 6,
+      "time": 1647618621,
+      "title": "Google Maps Is Down",
+      "type": "story",
+      "url": "https://www.google.com/maps"
+    },
+    {
+      "by": "supershobu",
+      "descendants": 0,
+      "id": 30723753,
+      "score": 1,
+      "text": "I have tried almost all task managers and todo lists. \nI miss out on tasks that does not need to be done immediately bit after X hours or days. How do you keep track of all these tasks?",
+      "time": 1647618590,
+      "title": "Which tool do you use to track all active tasks(professional and personal)?",
+      "type": "story"
+    },
+    {
+      "by": "darknavi",
+      "descendants": 1,
+      "id": 30723745,
+      "kids": [
+        30723772
+      ],
+      "score": 2,
       "time": 1647618556,
       "title": "iPod Modders Give Apple’s Abandoned Music Player New Life",
       "type": "story",
@@ -32,8 +81,12 @@
     },
     {
       "by": "textinterface",
-      "descendants": 0,
+      "descendants": 2,
       "id": 30723738,
+      "kids": [
+        30723810,
+        30723778
+      ],
       "score": 1,
       "text": "Hi! I&#x27;m an Ubuntu user and I love exploring all kinds of apps around the internet, specially FOSS. I install new software and update their configs very often, but upgrading my OS and sharing my setup over the two laptops I use is yet not very straightforward to me.<p>Do you also have to handle that? How do you do it? Is there any good software available out there to make it easy?",
       "time": 1647618505,
@@ -59,46 +112,6 @@
       "title": "AI Generated Utopias",
       "type": "story",
       "url": "https://www.aiweirdness.com/ai-generated-utopias/"
-    },
-    {
-      "by": "matbilodeau",
-      "descendants": 0,
-      "id": 30723714,
-      "score": 1,
-      "time": 1647618372,
-      "title": "Google TAG exposes 'Exotic Lily' access broker linked to Conti ransomware group",
-      "type": "story",
-      "url": "https://blog.google/threat-analysis-group/exposing-initial-access-broker-ties-conti/"
-    },
-    {
-      "by": "nigerian1981",
-      "descendants": 0,
-      "id": 30723713,
-      "score": 1,
-      "time": 1647618365,
-      "title": "Syrians join Russian ranks in Ukraine as Putin calls in Assad’s debt",
-      "type": "story",
-      "url": "https://www.theguardian.com/world/2022/mar/18/syrians-join-russian-ranks-in-ukraine-as-putin-calls-in-assads-debt"
-    },
-    {
-      "by": "Breadmaker",
-      "descendants": 0,
-      "id": 30723708,
-      "score": 2,
-      "time": 1647618334,
-      "title": "Robert Freitas was still in college when he started “Xenology”",
-      "type": "story",
-      "url": "https://www.inverse.com/article/30886-robert-freitas-alien-life-xenology-book-qa"
-    },
-    {
-      "by": "amrith",
-      "descendants": 0,
-      "id": 30723699,
-      "score": 1,
-      "text": "The Intel SSE 4.2 instruction set added the new CRC32C computation instructions. They are super cool and they are SO MUCH faster than doing the CRC calculation in software.<p>But, as I was coding up crc32c for something, I noticed that the CRC32 instruction has a mode that returns a 64 bit value for 64 bit source operands, and a 64 bit value for an 8 bit source operand (in addition to 32 bit values for all the others).<p>https:&#x2F;&#x2F;www.intel.com&#x2F;content&#x2F;dam&#x2F;www&#x2F;public&#x2F;us&#x2F;en&#x2F;documents&#x2F;manuals&#x2F;64-ia-32-architectures-software-developer-instruction-set-reference-manual-325383.pdf<p>See page 2A 3-225 and 226.<p>This means there is a strange<p>unsigned __int64 _mm_crc32_u64() in the Intel intrinsics (see https:&#x2F;&#x2F;www.intel.com&#x2F;content&#x2F;www&#x2F;us&#x2F;en&#x2F;docs&#x2F;intrinsics-guide&#x2F;index.html#ig_expand=1494,1494&amp;techs=SSE4_2).<p>It isn&#x27;t a big deal, return a 64 bit value with the top two bytes set to zero, the result is correct. But, I&#x27;m sure there was some reason why Intel did this, has anyone found a good explanation for this somewhere - I&#x27;m asking only out of curiosity, not asserting that it is wrong or something.<p>I would have thought unsigned __int32 _mm_crc32_u64() would be more reasonable at least for the intrinsic, no?",
-      "time": 1647618304,
-      "title": "Intel SSE 4.2 CRC32C instruction set question – why return uint64_t?",
-      "type": "story"
     }
   ]
 }
