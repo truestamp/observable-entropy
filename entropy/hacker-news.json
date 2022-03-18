@@ -1,6 +1,75 @@
 {
   "stories": [
-    null,
+    {
+      "by": "amrith",
+      "descendants": 0,
+      "id": 30723699,
+      "score": 1,
+      "text": "The Intel SSE 4.2 instruction set added the new CRC32C computation instructions. They are super cool and they are SO MUCH faster than doing the CRC calculation in software.<p>But, as I was coding up crc32c for something, I noticed that the CRC32 instruction has a mode that returns a 64 bit value for 64 bit source operands, and a 64 bit value for an 8 bit source operand (in addition to 32 bit values for all the others).<p>https:&#x2F;&#x2F;www.intel.com&#x2F;content&#x2F;dam&#x2F;www&#x2F;public&#x2F;us&#x2F;en&#x2F;documents&#x2F;manuals&#x2F;64-ia-32-architectures-software-developer-instruction-set-reference-manual-325383.pdf<p>See page 2A 3-225 and 226.<p>This means there is a strange<p>unsigned __int64 _mm_crc32_u64() in the Intel intrinsics (see https:&#x2F;&#x2F;www.intel.com&#x2F;content&#x2F;www&#x2F;us&#x2F;en&#x2F;docs&#x2F;intrinsics-guide&#x2F;index.html#ig_expand=1494,1494&amp;techs=SSE4_2).<p>It isn&#x27;t a big deal, return a 64 bit value with the top two bytes set to zero, the result is correct. But, I&#x27;m sure there was some reason why Intel did this, has anyone found a good explanation for this somewhere - I&#x27;m asking only out of curiosity, not asserting that it is wrong or something.<p>I would have thought unsigned __int32 _mm_crc32_u64() would be more reasonable at least for the intrinsic, no?",
+      "time": 1647618304,
+      "title": "Intel SSE 4.2 CRC32C instruction set question – why return uint64_t?",
+      "type": "story"
+    },
+    {
+      "by": "gernblandston",
+      "descendants": 0,
+      "id": 30723696,
+      "score": 1,
+      "text": "My wife is a 3rd, 4th, and 5th grade in-class math tutor at a local elementary school in Massachusetts. She works with several students that do not speak English, or have a very limited English vocabulary. The school does not provide enough support to help the kids (or the teachers who only speak English), so my wife uses Google Translate on her phone to communicate with students one-on-one. It works, but it&#x27;s non-optimal and can&#x27;t be done easily by a teacher in front of an entire classroom.<p>What are some strategies and&#x2F;or other technologies that could be used by teachers in schools to help non-English speaking students while they learn English?",
+      "time": 1647618296,
+      "title": "How to help non-English speaking elementary school students",
+      "type": "story"
+    },
+    {
+      "by": "garaetjjte",
+      "descendants": 0,
+      "id": 30723687,
+      "score": 1,
+      "time": 1647618277,
+      "title": "Steer-by-Wire from ZF",
+      "type": "story",
+      "url": "https://www.zf.com/mobile/en/technologies/domains/vehicle_motion_control/stories/sbw.html"
+    },
+    {
+      "by": "rntn",
+      "descendants": 0,
+      "id": 30723682,
+      "score": 1,
+      "time": 1647618266,
+      "title": "Xi Jinping calls for cooperation with Washington ending Russia-Ukraine conflict",
+      "type": "story",
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3171058/china-us-relations-xi-calls-cooperation-washington-ending"
+    },
+    {
+      "by": "matbilodeau",
+      "descendants": 0,
+      "id": 30723674,
+      "score": 1,
+      "time": 1647618218,
+      "title": "Google TAG Exposes 'EXOTIC LILY' initial access broker with Conti ties",
+      "type": "story",
+      "url": "http://blog.google.com/threat-analysis-group/exposing-initial-access-broker-ties-conti"
+    },
+    {
+      "by": "mrmrcoleman",
+      "descendants": 0,
+      "id": 30723669,
+      "score": 1,
+      "time": 1647618181,
+      "title": "NetBox hits 10k GitHub stars",
+      "type": "story",
+      "url": "https://ns1.com/blog/netbox-hits-10-000-github-stars"
+    },
+    {
+      "by": "jossclimb",
+      "descendants": 0,
+      "id": 30723641,
+      "score": 2,
+      "text": "Does anyone in HN have any experience in moonlighting? As an example, perhaps around an OSS project or technical stack you have some expertise in to provide services or consulting. Maybe as a side gig side until you eventually bootstrap a company around it?<p>I can see a lot of opportunities, but I would not be in a position where I can leave my permanent employment yet (living wage needs) but I know I could perform my job just as well.<p>How did you make the crossover?",
+      "time": 1647617994,
+      "title": "Ask HN: Moonlighting",
+      "type": "story"
+    },
     {
       "by": "servytor",
       "descendants": 0,
@@ -30,68 +99,6 @@
       "title": "Famous NPM package deletes files to protest Ukraine war",
       "type": "story",
       "url": "https://www.bleepingcomputer.com/news/security/big-sabotage-famous-npm-package-deletes-files-to-protest-ukraine-war/"
-    },
-    {
-      "by": "CSSer",
-      "descendants": 1,
-      "id": 30723535,
-      "kids": [
-        30723562
-      ],
-      "score": 2,
-      "time": 1647617473,
-      "title": "Ask HN: Why is Safari the new IE?",
-      "type": "story"
-    },
-    {
-      "by": "prtkgpt",
-      "descendants": 0,
-      "id": 30723519,
-      "score": 1,
-      "time": 1647617422,
-      "title": "Why do we give back?",
-      "type": "story",
-      "url": "https://prtkgpt.medium.com/why-do-we-give-back-4ac2d3592157"
-    },
-    {
-      "by": "amelius",
-      "descendants": 0,
-      "id": 30723510,
-      "score": 2,
-      "time": 1647617381,
-      "title": "Global Chip Shortages Cast a Long Shadow with No End in Sight",
-      "type": "story",
-      "url": "https://www.digikey.com/en/blog/global-chip-shortages-cast-a-long-shadow"
-    },
-    {
-      "by": "johndfsgdgdfg",
-      "descendants": 0,
-      "id": 30723497,
-      "score": 1,
-      "time": 1647617276,
-      "title": "Google will make free ‘legacy’ G Suite accounts pay for its office apps",
-      "type": "story",
-      "url": "https://www.theverge.com/2022/1/19/22891509/g-suite-legacy-free-google-apps-workspace-upgrade"
-    },
-    {
-      "by": "Anon84",
-      "descendants": 0,
-      "id": 30723481,
-      "score": 1,
-      "time": 1647617210,
-      "title": "Machine Learning Meets Economics",
-      "type": "story",
-      "url": "http://nicolas.kruchten.com/content/2016/01/ml-meets-economics/"
-    },
-    {
-      "by": "janober",
-      "descendants": 0,
-      "id": 30723477,
-      "score": 2,
-      "time": 1647617188,
-      "title": "N8n Changes to Sustainable Use License from Apache 2.0 with Commons Clause",
-      "type": "story",
-      "url": "https://n8n.io/blog/announcing-new-sustainable-use-license/"
     }
   ]
 }
