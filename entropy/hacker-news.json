@@ -1,6 +1,27 @@
 {
   "stories": [
     {
+      "by": "yurivish",
+      "descendants": 0,
+      "id": 30748050,
+      "score": 1,
+      "time": 1647819947,
+      "title": "Searching for Outliers",
+      "type": "story",
+      "url": "https://www.benkuhn.net/outliers/"
+    },
+    {
+      "by": "khilde",
+      "descendants": 0,
+      "id": 30748048,
+      "score": 1,
+      "text": "I&#x27;ve decided to open source the project I&#x27;ve been working on called Hyperspace. Hyperspace is a suite of software implementing a wireless mesh network for IoT devices. My main requirements are listed on my repo but I&#x27;ll copy them here.<p>1. The mesh shall enable nodes to route packets amongst themselves.\n2. The mesh shall allow nodes with limited power to participate in routing packets.\n3. The mesh shall be IPv6 based.\n4. The mesh shall be local. I.E. not require connection to a remote server.\n5. The mesh should provide 3D location to nodes in the network.<p>Nodes use the Decawave DW1000 UWB radio to transmit and receive data, and to measure distances to other nodes. Location can be determined with enough distance measurements (see the documentation for more details). The implementation is pretty primitive at the moment. The border router server and the iOS app are super basic and have very little in terms of actual functionality, but the core ideas are there.<p>I&#x27;m not happy with the state of smart home devices. I don&#x27;t like it when a manufacturer shuts down a key server and bricks a bunch of devices. I don&#x27;t like it when devices don&#x27;t interoperate. Therefore, I&#x27;ve decided to open source this project in the hopes that it gains traction and that we can work on creating better IoT devices together.",
+      "time": 1647819943,
+      "title": "Show HN: Open-Source 3D Location-Based Wireless Mesh Network",
+      "type": "story",
+      "url": "https://github.com/kurthildebrand/hyperspace"
+    },
+    {
       "by": "otras",
       "descendants": 0,
       "id": 30748042,
@@ -79,29 +100,6 @@
       "title": "Starship: Rust prompt for any shell",
       "type": "story",
       "url": "https://github.com/starship/starship"
-    },
-    {
-      "by": "modinfo",
-      "descendants": 0,
-      "id": 30747835,
-      "score": 1,
-      "time": 1647818312,
-      "title": "DietPi - Lightweight justice for your single-board computer",
-      "type": "story",
-      "url": "https://github.com/MichaIng/DietPi"
-    },
-    {
-      "by": "behnamoh",
-      "descendants": 1,
-      "id": 30747815,
-      "kids": [
-        30748020
-      ],
-      "score": 7,
-      "text": "Screenshot: https:&#x2F;&#x2F;prnt.sc&#x2F;K_LtC9LMJTcB",
-      "time": 1647818158,
-      "title": "Tell HN: HN is not the first result for “Hacker News” on DuckDuckGo",
-      "type": "story"
     }
   ]
 }
