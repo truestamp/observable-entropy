@@ -1,6 +1,36 @@
 {
   "stories": [
     {
+      "by": "EnKopVand",
+      "descendants": 0,
+      "id": 30750951,
+      "score": 1,
+      "text": "Hi HN, I’m a fairly senior Danish developer with a challenge. We’re building a database that needs to accommodate different users, and different applications with different data access on a field&#x2F;column level. We want to mask certain forms of data and ideally we want to build it code-first. It’ll be setup using Azure, very likely Azure SQL. I have been reading through the official documentation, and in a non-code-first situation the Azure SQL functionality seems to tick most of the boxes, but Entity Framework seems to lack behind, or maybe I’m just not understanding the EF documentation correctly. We’ve discussed handling the security in an one-ring-to-rule-them-all API, possibly using .Net and Microsoft Odata with EF, but we’re already seeing a lot of users with that considering we rub react fronts and do a lot of computing in various Azure Functions.<p>An example “use case” is two asset and one investment manager accessing an asset where they all have different access to the information. The asset managers get access based on their team and seniority&#x2F;responsibility, the investment manager gets access to GDPR sensitive data. Now add this scenarios a hundred times, and also add this happening in 3rd party data consumers.<p>In the future most of the access will happen through a MDM, but the future is an enterprise architecture abstract.<p>How would you approach this? Do you know a place to read up on best practices for this?",
+      "time": 1647844662,
+      "title": "Ask HN: GDPR Secure Database with Microservices/Service API",
+      "type": "story"
+    },
+    {
+      "by": "jeffreygoesto",
+      "descendants": 0,
+      "id": 30750936,
+      "score": 1,
+      "time": 1647844547,
+      "title": "Compile-time C++ library for compile-time dimensional analysis, units/quantities",
+      "type": "story",
+      "url": "https://github.com/mpusz/units"
+    },
+    {
+      "by": "nogger",
+      "descendants": 0,
+      "id": 30750932,
+      "score": 1,
+      "time": 1647844519,
+      "title": "Cand nu faci nimic si te intalnesti",
+      "type": "story",
+      "url": "https://ragete.com/meme/cand-nu-faci-nimic-si-te-intalnesti-cu-un-prieten-ce-nu-face-nimic-si-amandoi-stati-si-nu-faceti-nimic/"
+    },
+    {
       "by": "shelfchair",
       "descendants": 0,
       "id": 30750929,
@@ -12,12 +42,12 @@
     },
     {
       "by": "dianaNG",
-      "descendants": 1,
+      "descendants": 2,
       "id": 30750923,
       "kids": [
         30750924
       ],
-      "score": 1,
+      "score": 2,
       "time": 1647844438,
       "title": "Discover European Startups",
       "type": "story",
@@ -27,7 +57,7 @@
       "by": "graderjs",
       "descendants": 0,
       "id": 30750913,
-      "score": 1,
+      "score": 2,
       "text": "For clarity, the NSA or the &quot;classified world&quot; in general, which includes all the corporate entities as well.<p>Question was prompted by a remark by the following source, to the effect that,<p>&quot;In the course of my research, I had an acquaintance who worked for the NSA as a civilian during the 1960s, and he offhandedly said they were running computers with a clock speed of 650Mhz at that time.&quot;<p>This source will be poo-pooed by many here I think, because we can probably look up Wikipedia for this person and find words like &quot;debunked&quot;, &quot;pseudoscience&quot;, &quot;crank&quot;, or other such terms of when encountered by many people act like the &quot;Jedi mind trick&quot; and foreshorten any further consideration.<p>Nevertheless, it seems there could be classified breakthroughs in technology that many years later make their way into the public market. I think it&#x27;s interesting to speculate how far ahead secret tech could be.<p>Source: Richard Dolan, <i>Aerial Phenomena with Richard Dolan</i>, S2 Ep8, &quot;Is there a breakaway civilization?&quot;",
       "time": 1647844307,
       "title": "Ask HN: How far ahead could the NSA be?",
@@ -72,36 +102,6 @@
       "title": "Gpgpu, ML Inference, and Vulkan Compute",
       "type": "story",
       "url": "https://www.lei.chat/posts/gpgpu-ml-inference-and-vulkan-compute/"
-    },
-    {
-      "by": "behnamoh",
-      "descendants": 0,
-      "id": 30750835,
-      "score": 1,
-      "time": 1647843266,
-      "title": "Software I'm Thankful For",
-      "type": "story",
-      "url": "https://buttondown.email/hillelwayne/archive/software-im-thankful-for/"
-    },
-    {
-      "by": "behnamoh",
-      "descendants": 0,
-      "id": 30750811,
-      "score": 1,
-      "time": 1647842880,
-      "title": "Learn TLA+",
-      "type": "story",
-      "url": "https://learntla.com/introduction/"
-    },
-    {
-      "by": "areoform",
-      "descendants": 0,
-      "id": 30750808,
-      "score": 1,
-      "time": 1647842836,
-      "title": "What are hypersonic missiles and why is Russia using them?",
-      "type": "story",
-      "url": "https://www.theguardian.com/world/2022/mar/20/what-are-hypersonic-missiles-and-why-is-russia-using-them-kinzhal-ukraine"
     }
   ]
 }
