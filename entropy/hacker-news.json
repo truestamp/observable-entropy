@@ -1,10 +1,30 @@
 {
   "stories": [
     {
+      "by": "rmnull",
+      "descendants": 0,
+      "id": 30758776,
+      "score": 2,
+      "text": "What are the ideas in programming that once you saw you could never go back looking into other programs the same way.\nFor e.g, one a recent HN thread about units[0] one user shared a F# snippet like this<p><pre><code>    unit type Meters = m\n    unit type Seconds = s\n    val speed = 5.4 m&#x2F;s \n</code></pre>\nI&#x27;m unfamiliar with F# but having units right next to value is something i&#x27;ll be remembering everyday from now on[1]<p>Some other ideas that changed the way i look at programs.<p>* Lisp Macros\n* First class functions.\nPassing functions as a value is something that i do everyday.\n* Garbage collection. Not having to worry \nabout memory allocation is such a relief.<p>The last 2 points are surprisingly a common pattern now,\nbut for someone coming from C[2] and shell scripting\nits a whole different world here.<p>======<p>[0]: https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=30749134\n[1]: In school we were made to write units next to values,\nNow that ive seen it, i ask myself why don&#x27;t more languages support this.\n[2]: i&#x27;m aware of function pointers in C but its something\nthat i rarely used(iirc qsort expected it).",
+      "time": 1647891757,
+      "title": "Ask HN: Programming ideas that redefine the way you look at programming",
+      "type": "story"
+    },
+    {
+      "by": "mgh2",
+      "descendants": 0,
+      "id": 30758766,
+      "score": 1,
+      "time": 1647891707,
+      "title": "The Wilson Effect: The Increase in Heritability of IQ with Age",
+      "type": "story",
+      "url": "https://www.cambridge.org/core/journals/twin-research-and-human-genetics/article/wilson-effect-the-increase-in-heritability-of-iq-with-age/FF406CC4CF286D78AF72C9E7EF9B5E3F"
+    },
+    {
       "by": "News-Dog",
       "descendants": 0,
       "id": 30758744,
-      "score": 1,
+      "score": 2,
       "time": 1647891604,
       "title": "Seven key-developments in the Ukraine Conflict this past Weekend",
       "type": "story",
@@ -32,9 +52,13 @@
     },
     {
       "by": "Txoko",
-      "descendants": 0,
+      "descendants": 2,
       "id": 30758717,
-      "score": 1,
+      "kids": [
+        30758793,
+        30758779
+      ],
+      "score": 2,
       "time": 1647891480,
       "title": "Zodiac Killer’s Cipher Finally Cracked",
       "type": "story",
@@ -44,7 +68,7 @@
       "by": "chockchocschoir",
       "descendants": 0,
       "id": 30758716,
-      "score": 1,
+      "score": 2,
       "time": 1647891477,
       "title": "Lessons learned from my 10 year open source project (OSINT tool SpiderFoot)",
       "type": "story",
@@ -64,7 +88,7 @@
       "by": "perihelions",
       "descendants": 0,
       "id": 30758683,
-      "score": 1,
+      "score": 2,
       "time": 1647891314,
       "title": "The Smaller Bombs That Could Turn Ukraine into a Nuclear War Zone",
       "type": "story",
@@ -79,29 +103,6 @@
       "title": "The Evolving Quest for a Grand Unified Theory of Mathematics",
       "type": "story",
       "url": "https://www.scientificamerican.com/article/the-evolving-quest-for-a-grand-unified-theory-of-mathematics/"
-    },
-    {
-      "by": "i13e",
-      "descendants": 0,
-      "id": 30758663,
-      "score": 2,
-      "time": 1647891208,
-      "title": "Netflix to Crack Down on Password Sharing",
-      "type": "story",
-      "url": "https://variety.com/2022/digital/news/netflix-subscribers-pay-users-outside-households-1235206575/"
-    },
-    {
-      "by": "syrusakbary",
-      "descendants": 1,
-      "id": 30758651,
-      "kids": [
-        30758676
-      ],
-      "score": 4,
-      "time": 1647891153,
-      "title": "Wasmer and Trademarks",
-      "type": "story",
-      "url": "https://wasmer.io/posts/wasmer-and-trademarks"
     }
   ]
 }
