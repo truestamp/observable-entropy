@@ -1,6 +1,96 @@
 {
   "stories": [
     {
+      "by": "pepys",
+      "descendants": 0,
+      "id": 30755085,
+      "score": 1,
+      "time": 1647876003,
+      "title": "Babies of the House",
+      "type": "story",
+      "url": "https://www.historytoday.com/archive/behind-times/babies-house"
+    },
+    {
+      "by": "dagmx",
+      "descendants": 0,
+      "id": 30755084,
+      "score": 1,
+      "time": 1647875999,
+      "title": "Enemies – Unity 3D real time demo",
+      "type": "story",
+      "url": "https://www.youtube.com/watch?v=eXYUNrgqWUU&feature=youtu.be"
+    },
+    {
+      "by": "MPSimmons",
+      "descendants": 0,
+      "id": 30755077,
+      "score": 1,
+      "time": 1647875958,
+      "title": "OneWeb will resume satellite launches with SpaceX as the launch provider",
+      "type": "story",
+      "url": "https://oneweb.net/resources/oneweb-resume-satellite-launches-through-agreement-spacex"
+    },
+    {
+      "by": "LinuxBender",
+      "descendants": 0,
+      "id": 30755075,
+      "score": 1,
+      "time": 1647875954,
+      "title": "Zoom agrees privacy conditions, gets low-risk rating from Netherlands",
+      "type": "story",
+      "url": "https://www.theregister.com/2022/03/21/zoom_dpia/"
+    },
+    {
+      "by": "LinuxBender",
+      "descendants": 0,
+      "id": 30755072,
+      "score": 1,
+      "time": 1647875933,
+      "title": "Satellite comms networks on alert after US govt warning",
+      "type": "story",
+      "url": "https://www.theregister.com/2022/03/21/in_brief_security/"
+    },
+    {
+      "by": "LinuxBender",
+      "descendants": 0,
+      "id": 30755063,
+      "score": 1,
+      "time": 1647875899,
+      "title": "Browser-in-browser attack is perfect for phishing",
+      "type": "story",
+      "url": "https://www.theregister.com/2022/03/18/browser_in_browser_phishing/"
+    },
+    {
+      "by": "LinuxBender",
+      "descendants": 0,
+      "id": 30755051,
+      "score": 1,
+      "time": 1647875779,
+      "title": "Ukraine conflict: Russia trying to starve Mariupol into surrender – MP",
+      "type": "story",
+      "url": "https://www.bbc.co.uk/news/world-europe-60816885"
+    },
+    {
+      "by": "tterimaa",
+      "descendants": 0,
+      "id": 30755048,
+      "score": 1,
+      "time": 1647875763,
+      "title": "Building in the Cloud with Remote Development",
+      "type": "story",
+      "url": "https://engineering.linkedin.com/blog/2021/building-in-the-cloud-with-remote-development"
+    },
+    {
+      "by": "gok",
+      "descendants": 0,
+      "id": 30755030,
+      "score": 1,
+      "time": 1647875711,
+      "title": "U.K.-Backed Satellite Operator OneWeb Signs Deal with SpaceX to Resume Launches",
+      "type": "story",
+      "url": "https://www.wsj.com/livecoverage/russia-ukraine-latest-news-2022-03-21/card/u-k-backed-satellite-operator-oneweb-signs-deal-with-spacex-to-resume-launches-ciDxOYbD340pbZ2z9JOW"
+    },
+    {
       "by": "benbreen",
       "descendants": 0,
       "id": 30755027,
@@ -9,100 +99,6 @@
       "title": "Turin Papyrus Map",
       "type": "story",
       "url": "https://en.wikipedia.org/wiki/Turin_Papyrus_Map"
-    },
-    {
-      "by": "ashwinvasu",
-      "descendants": 0,
-      "id": 30755015,
-      "score": 1,
-      "time": 1647875625,
-      "title": "Show HN: Scrapex.ai – Low code scraping platform",
-      "type": "story",
-      "url": "https://scrapex.ai/"
-    },
-    {
-      "by": "hgomersall",
-      "descendants": 0,
-      "id": 30754999,
-      "score": 1,
-      "text": "I&#x27;ve got a tentative side-project with a goal to allow individuals to guard against deep fakes of themselves (think the recent attempts against Volodymyr Zylenskiyy). The idea is to have their speech recorded, encoded with something like codec-2 in real-time and then displayed in the video feed, with periodic signing of the last second or whatever, with that signature forming part of the data feed. Anyone attempting to do a deep fake would not be able to implement the signed audio information so the fake would be apparent. The device would take the form of a box with a display that is placed or worn in the field of view of the camera.<p>I think the system could be implemented with less than 4kb&#x2F;s, which seems eminently achievable - something like 10 frame changes per second with 400 bits&#x2F;frame. Even with a bit of forward error correction, you don&#x27;t need many pixels to convey that information.<p>It all seems very plausible, but I&#x27;m not sure of the best way to implement the video encoding display. The issue is that a naive data display sequence is not necessarily conducive to efficient compression. For example, a series of QR codes would be inefficient from the perspective of a DCT based compression algorithm, and there would be no scope at all for motion compensation. The question then is whether any research has been done looking at algorithms suitable for this application. Something like a dynamic QR code. There are also subtleties in robustly handling distortions in the video.<p>I&#x27;d ideally not have to roll my own, though I have considered something using a basis that better maps onto a perceptual-based compression algorithm, such as a DT-CWT.<p>It might be that I&#x27;m overthinking this and just having a 25x25 grid of LEDs displaying a rapidly changing QR code would work just wonderfully.<p>As an aside, this is an area where the search engines fail me. I just don&#x27;t know the terms, and the dominant return links are to ways of creating a QR code linking to a video or encoding algorithms for video.",
-      "time": 1647875522,
-      "title": "Ask HN: Robustly displaying information in a video (~4kb/s)",
-      "type": "story"
-    },
-    {
-      "by": "camel-cdr",
-      "descendants": 0,
-      "id": 30754964,
-      "score": 1,
-      "time": 1647875348,
-      "title": "Sampling in Floating Point (proper random float distributions)",
-      "type": "story",
-      "url": "https://pharr.org/matt/blog/2022/03/14/sampling-float-intervals"
-    },
-    {
-      "by": "raybb",
-      "descendants": 0,
-      "id": 30754963,
-      "score": 2,
-      "time": 1647875324,
-      "title": "Fido Alliance says it has finally killed the password",
-      "type": "story",
-      "url": "https://www.theregister.com/2022/03/21/fido_password_killer/"
-    },
-    {
-      "by": "tomgp",
-      "descendants": 0,
-      "id": 30754961,
-      "score": 2,
-      "time": 1647875323,
-      "title": "Nearly all websites may breach GDPR",
-      "type": "story",
-      "url": "https://www.usenix.org/conference/usenixsecurity22/presentation/bollinger"
-    },
-    {
-      "by": "Gadiguibou",
-      "descendants": 0,
-      "id": 30754952,
-      "score": 1,
-      "time": 1647875270,
-      "title": "You, your parents, and the hotness of who you marry",
-      "type": "story",
-      "url": "https://dynomight.net/hotness/"
-    },
-    {
-      "by": "waterchiller",
-      "descendants": 0,
-      "id": 30754945,
-      "score": 1,
-      "time": 1647875220,
-      "title": "PR for Startups: How (not) to use the news agenda when pitching",
-      "type": "story",
-      "url": "https://www.prguy.io/blog/how-not-to-use-the-news-agenda-two-simple-rules"
-    },
-    {
-      "by": "lebuffon",
-      "descendants": 2,
-      "id": 30754943,
-      "kids": [
-        30754995,
-        30754944
-      ],
-      "score": 2,
-      "time": 1647875209,
-      "title": "Could a vaccine prevent type 1 diabetes?",
-      "type": "story",
-      "url": "https://www.timescolonist.com/islander/lawrie-mcfarlane-could-a-vaccine-prevent-type-1-diabetes-5178177"
-    },
-    {
-      "by": "optimalsolver",
-      "descendants": 0,
-      "id": 30754936,
-      "score": 1,
-      "time": 1647875178,
-      "title": "Gravity Model Of Trade",
-      "type": "story",
-      "url": "https://en.wikipedia.org/wiki/Gravity_model_of_trade"
     }
   ]
 }
