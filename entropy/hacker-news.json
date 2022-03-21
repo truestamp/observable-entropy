@@ -1,6 +1,16 @@
 {
   "stories": [
     {
+      "by": "lucasepe",
+      "descendants": 0,
+      "id": 30759115,
+      "score": 1,
+      "text": "A tool to build a YAML document from a directory tree containing YAML fragments.<p>It is useful everywhere complex YAML configuration is employed:<p>- CI pipelines \n- Crossplane Compositions \n- Kubernetes manifests, etc.<p>For instance, Kubernetes resources can be complex, and in turn make the YAML very verbose.<p>The aim is to make the document easier to reason about and maintain.<p>### How to use<p>`dirty` parses a directory tree:<p>- a directory is a yaml key\n- a file (a yaml fragment) has content that is rendered at the current indentation level<p>Check this Crossplane Composition as example: https:&#x2F;&#x2F;github.com&#x2F;lucasepe&#x2F;dirty&#x2F;tree&#x2F;main&#x2F;testdata&#x2F;platform-ref-aws&#x2F;cluster&#x2F;eks<p>Here the repo link:  https:&#x2F;&#x2F;github.com&#x2F;lucasepe&#x2F;dirty<p>Regards,\nLuca",
+      "time": 1647893592,
+      "title": "Show HN: An opinionated way to build and maintain complex YAML documents",
+      "type": "story"
+    },
+    {
       "by": "News-Dog",
       "descendants": 0,
       "id": 30759063,
@@ -48,7 +58,7 @@
       "by": "simlevesque",
       "descendants": 0,
       "id": 30759024,
-      "score": 2,
+      "score": 3,
       "time": 1647893066,
       "title": "“Hugo runs twice as fast in Asahi Linux than macOS on the same M1 Mac system”",
       "type": "story",
@@ -86,23 +96,16 @@
     },
     {
       "by": "punnerud",
-      "descendants": 0,
+      "descendants": 1,
       "id": 30758994,
+      "kids": [
+        30759104
+      ],
       "score": 1,
       "time": 1647892915,
       "title": "Researcher uses 379-year-old algorithm to crack crypto keys found in the wild",
       "type": "story",
       "url": "https://arstechnica.com/information-technology/2022/03/researcher-uses-600-year-old-algorithm-to-crack-crypto-keys-found-in-the-wild/"
-    },
-    {
-      "by": "lolpython",
-      "descendants": 0,
-      "id": 30758987,
-      "score": 1,
-      "time": 1647892890,
-      "title": "Study: Megacar Drivers Up to 4x More Likely to Hit Walkers While Turning",
-      "type": "story",
-      "url": "https://usa.streetsblog.org/2022/03/17/study-megacar-drivers-up-to-4x-more-likely-to-hit-walkers-while-turning/"
     }
   ]
 }
