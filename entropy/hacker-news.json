@@ -1,6 +1,45 @@
 {
   "stories": [
-    null,
+    {
+      "by": "bpierre",
+      "descendants": 0,
+      "id": 30754475,
+      "score": 1,
+      "time": 1647872621,
+      "title": "Derw: An Elm-inspired language that transpiles to TypeScript",
+      "type": "story",
+      "url": "https://derw-lang.github.io/"
+    },
+    {
+      "by": "perkinsjr",
+      "descendants": 0,
+      "id": 30754461,
+      "score": 1,
+      "time": 1647872547,
+      "title": "Tina CMS – Get Started",
+      "type": "story",
+      "url": "https://tina.io/blog/tina-cms-get-started/"
+    },
+    {
+      "by": "neogodless",
+      "descendants": 0,
+      "id": 30754459,
+      "score": 1,
+      "time": 1647872536,
+      "title": "AMD Releases Milan-X CPUs With 3D V-Cache: EPYC 7003 Up to 64 Cores, 768 MB L3",
+      "type": "story",
+      "url": "https://www.anandtech.com/show/17323/amd-releases-milan-x-cpus-with-3d-vcache-epyc-7003"
+    },
+    {
+      "by": "ivanvas",
+      "descendants": 0,
+      "id": 30754449,
+      "score": 1,
+      "time": 1647872484,
+      "title": "French Report on Digital Sovereignty",
+      "type": "story",
+      "url": "https://joinup.ec.europa.eu/collection/open-source-observatory-osor/news/french-report-digital-sovereignty"
+    },
     {
       "by": "klevertree",
       "descendants": 0,
@@ -61,36 +100,6 @@
       "title": "Remove Cloudflare Proxy",
       "type": "story",
       "url": "https://community.bitwarden.com/t/remove-cloudflare-proxy/12944"
-    },
-    {
-      "by": "jmsflknr",
-      "descendants": 0,
-      "id": 30754402,
-      "score": 1,
-      "time": 1647872236,
-      "title": "India to tax each crypto investment independently",
-      "type": "story",
-      "url": "https://techcrunch.com/2022/03/21/india-crypto-tax/"
-    },
-    {
-      "by": "patrikbraborec",
-      "descendants": 0,
-      "id": 30754400,
-      "score": 1,
-      "time": 1647872234,
-      "title": "Use Python for Your Next Project",
-      "type": "story",
-      "url": "https://medium.com/gooddata-developers/why-you-should-use-python-for-your-next-project-426dc8629aa6"
-    },
-    {
-      "by": "alxthm",
-      "descendants": 0,
-      "id": 30754394,
-      "score": 1,
-      "text": "The MDN Web docs [0] are useful to understand what are custom elements, the shadow DOM, or templates and slots. But as someone starting with web components and front-end stuff in general, I was wondering about the recommended approaches&#x2F;design patterns when building more complex apps ?<p>For instance, how should components communicate with each other? By using a parent element systematically, firing up events from child nodes, then calling children methods from the parent node? Is this the equivalent of the &quot;props down, events up&quot; pattern in React for instance [1]?<p>Regarding the life-cycle, is there any reason to use the `constructor()` instead of the `connectedCallback()` for init code?<p>Another one that seems to have sparked some debate [2]: how to work with custom elements that need to interact with their children? Should I use `setTimeout()` to wait for the DOM to be parsed [3], should I use mutation observers, or should I fire up an event from the children to notify its parent when it is ready to be used?<p>These are just a couple questions that came up when reading about this, but I am curious about general best practices when building front-end apps using web components.<p>[0] https:&#x2F;&#x2F;developer.mozilla.org&#x2F;en-US&#x2F;docs&#x2F;Web&#x2F;Web_Components<p>[1] https:&#x2F;&#x2F;jasonformat.com&#x2F;props-down-events-up&#x2F;<p>[2] https:&#x2F;&#x2F;github.com&#x2F;WICG&#x2F;webcomponents&#x2F;issues&#x2F;809<p>[3] https:&#x2F;&#x2F;stackoverflow.com&#x2F;questions&#x2F;58354531&#x2F;custom-elements-connectedcallback-wait-for-parent-node-to-be-available-bef",
-      "time": 1647872185,
-      "title": "Ask HN: What are some recommended patterns when using Web Components?",
-      "type": "story"
     }
   ]
 }
