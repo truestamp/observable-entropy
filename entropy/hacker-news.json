@@ -1,6 +1,16 @@
 {
   "stories": [
     {
+      "by": "danboarder",
+      "descendants": 0,
+      "id": 30751182,
+      "score": 1,
+      "time": 1647847176,
+      "title": "Do Americans Want Permanent Daylight Saving Time?",
+      "type": "story",
+      "url": "https://fivethirtyeight.com/features/do-americans-really-want-permanent-daylight-saving-time/"
+    },
+    {
       "by": "News-Dog",
       "descendants": 0,
       "id": 30751123,
@@ -44,7 +54,7 @@
       "by": "rcarmo",
       "descendants": 0,
       "id": 30751094,
-      "score": 1,
+      "score": 2,
       "time": 1647846469,
       "title": "Using a tiny HC32L110 ARM chip",
       "type": "story",
@@ -92,16 +102,6 @@
       "title": "Questions about which operating system is more secure or fastest makes no sense",
       "type": "story",
       "url": "https://unixsheikh.com/articles/questions-about-which-operating-system-is-more-secure-or-fastest-makes-no-sense.html"
-    },
-    {
-      "by": "EnKopVand",
-      "descendants": 0,
-      "id": 30750951,
-      "score": 1,
-      "text": "Hi HN, I’m a fairly senior Danish developer with a challenge. We’re building a database that needs to accommodate different users, and different applications with different data access on a field&#x2F;column level. We want to mask certain forms of data and ideally we want to build it code-first. It’ll be setup using Azure, very likely Azure SQL. I have been reading through the official documentation, and in a non-code-first situation the Azure SQL functionality seems to tick most of the boxes, but Entity Framework seems to lack behind, or maybe I’m just not understanding the EF documentation correctly. We’ve discussed handling the security in an one-ring-to-rule-them-all API, possibly using .Net and Microsoft Odata with EF, but we’re already seeing a lot of users with that considering we rub react fronts and do a lot of computing in various Azure Functions.<p>An example “use case” is two asset and one investment manager accessing an asset where they all have different access to the information. The asset managers get access based on their team and seniority&#x2F;responsibility, the investment manager gets access to GDPR sensitive data. Now add this scenarios a hundred times, and also add this happening in 3rd party data consumers.<p>In the future most of the access will happen through a MDM, but the future is an enterprise architecture abstract.<p>How would you approach this? Do you know a place to read up on best practices for this?",
-      "time": 1647844662,
-      "title": "Ask HN: GDPR Secure Database with Microservices/Service API",
-      "type": "story"
     }
   ]
 }
