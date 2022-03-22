@@ -1,6 +1,56 @@
 {
   "stories": [
     {
+      "by": "bdr",
+      "descendants": 0,
+      "id": 30766145,
+      "score": 1,
+      "time": 1647957495,
+      "title": "Keeping It Simple",
+      "type": "story",
+      "url": "https://avc.com/2022/03/keeping-it-simple/"
+    },
+    {
+      "by": "clouddrover",
+      "descendants": 0,
+      "id": 30766134,
+      "score": 1,
+      "time": 1647957428,
+      "title": "The epic attempts to power planes with hydrogen",
+      "type": "story",
+      "url": "https://www.bbc.com/future/article/20220316-the-epic-attempts-to-power-planes-with-hydrogen"
+    },
+    {
+      "by": "News-Dog",
+      "descendants": 0,
+      "id": 30766133,
+      "score": 1,
+      "time": 1647957422,
+      "title": "What to know about Hypersonic Missiles fired by Russia at Ukraine",
+      "type": "story",
+      "url": "https://lite.cnn.com/en/article/h_6dbceecc5f19daad3eee80b51fc36caf"
+    },
+    {
+      "by": "phkahler",
+      "descendants": 0,
+      "id": 30766124,
+      "score": 1,
+      "time": 1647957345,
+      "title": "Open Matrix Language",
+      "type": "story",
+      "url": "https://www.openmatrix.org/"
+    },
+    {
+      "by": "jnichols35",
+      "descendants": 0,
+      "id": 30766123,
+      "score": 2,
+      "time": 1647957342,
+      "title": "Authentication firm Okta probes report of digital breach",
+      "type": "story",
+      "url": "https://www.reuters.com/technology/authentication-services-firm-okta-says-it-is-investigating-report-breach-2022-03-22/"
+    },
+    {
       "by": "bpierre",
       "descendants": 0,
       "id": 30766108,
@@ -49,60 +99,6 @@
       "title": "Ancient magnetic fields on the Moon could be protecting precious ice",
       "type": "story",
       "url": "https://www.science.org/content/article/ancient-magnetic-fields-moon-could-be-protecting-precious-ice"
-    },
-    {
-      "by": "fermigier",
-      "descendants": 0,
-      "id": 30766064,
-      "score": 1,
-      "time": 1647957040,
-      "title": "The Supreme Court just made a US-EU Privacy Shield agreement even harder",
-      "type": "story",
-      "url": "https://thehill.com/opinion/judiciary/598899-the-supreme-court-just-made-a-us-eu-privacy-shield-agreement-even-harder"
-    },
-    {
-      "by": "vorador",
-      "descendants": 1,
-      "id": 30766059,
-      "kids": [
-        30766086
-      ],
-      "score": 1,
-      "time": 1647957004,
-      "title": "Show HN: Coding interviews stress me out, so I built a takehome test tool",
-      "type": "story",
-      "url": "https://fairlane.io/"
-    },
-    {
-      "by": "_eigenfoo",
-      "descendants": 0,
-      "id": 30766057,
-      "score": 1,
-      "time": 1647956999,
-      "title": "How to Improve Your Static Site’s Typography",
-      "type": "story",
-      "url": "https://www.georgeho.org/static-site-typography/"
-    },
-    {
-      "by": "skadamat",
-      "descendants": 0,
-      "id": 30766053,
-      "score": 1,
-      "time": 1647956980,
-      "title": "Open Source Textbook: Introduction to Modern Statistics",
-      "type": "story",
-      "url": "https://www.openintro.org/book/ims/"
-    },
-    {
-      "by": "bpcrd",
-      "descendants": 0,
-      "id": 30766050,
-      "score": 3,
-      "text": "Hi HN, we’re Ben, Gaurav and Ali from Reality Defender (<a href=\"https:&#x2F;&#x2F;www.realitydefender.ai\" rel=\"nofollow\">https:&#x2F;&#x2F;www.realitydefender.ai</a>). We help companies, governments, and journalists determine if media is real or fake, focusing on audio, video and image manipulation. Our API and web app provide real-time scanning, risk scoring, and PDF report cards.<p>Recent advancements in machine learning make it possible to create images, videos and audio of real people saying and doing things they never said or did. The recent spread of this technology has enabled anyone to create highly realistic deepfakes. Although some deepfakes are detectable to the eye by experienced observers who look closely, many people either don’t have experience or are not always looking closely—and of course the technology is only continuing to improve. This marks a leap in the ability of bad actors to distort reality, jeopardizing financial transactions, personal and brand reputations, public opinion, and even national security.<p>We are a team with PhD and Master degrees from Harvard, NYU and UCLA in data science. Between us, we have decades of experience at Goldman Sachs, Google, CIA, FDIC, Dept of Defense and Harvard University Applied Research at the intersection of machine learning and cybersecurity. But our current work began with a rather unlikely project: we tried to duplicate Deepak Chopra. We were working with him to build a realistic deepfake that would allow users to have a real-time conversation with “Digital Deepak” from their iPhones. Creating the Deepak deepfake was surprisingly simple and the result was so alarmingly realistic that we immediately began looking for models that could help users tell a synthetic version from the real thing.<p>We did not find a reliable solution. Frustrated that we’d already spent a week on something we thought would take our coffee break, we doubled down and set out to build our own model that could detect manipulated media.<p>After investigating, we learned why a consistently accurate solution didn’t exist. Companies (including Facebook and Microsoft) were trying to build their own silver-bullet, single-model detection methods—or, as we call it, &quot;one model to rule them all.&quot; In our view, this approach will not work because adversaries and the underlying technologies are constantly evolving. For this same reason there will never be a single model to solve anti-virus, malware, etc.<p>We believe that any serious solution to this problem requires a “multi-model&#x27;&#x27; approach that integrates the best deepfake detection algorithms into an aggregate &quot;model of models.&quot; So we trained an ensemble of deep-learning detection models, each of which focuses on its own feature, and then combined the scores.<p>We challenged ourselves to build a scalable solution that integrates the best of our deepfake detection models with models from our collaborators (Microsoft, UC Berkeley, Harvard). We began with a web app proof of concept, and quickly received hundreds of requests for access from governments, companies, and researchers.<p>Our first users turned to our platform for some deepfake scenarios ranging from bad to outright scary: Russian disinformation directed at Ukraine and the West; audio mimicking a bank executive requesting a wire transfer; video of Malaysia’s government leadership behaving scandalously; pornography where participants make themselves appear younger; dating profiles with AI-generated pro pics. All of these, needless to say, are completely fake!<p>As with computer viruses, deepfakes will continue evolving to circumvent current security measures. New deepfake detection techniques must be as iterative as the generation methods. Our solution not only accepts that, but embraces it. We quickly onboard, test, and tune third party models for integration into our model stack, where they can then be accessed via our web app and API. Our mission has attracted dozens of researchers who contribute their work for testing and tuning, and we’ve come up with an interesting business model for working together: when their models meet our baseline scores, we provide a revenue share for as long as they continue to perform on our platform. (If you’re interested in participating, we’d love to hear from you!)<p>We have continued to scale our web app and launched an API that we are rolling out to pilot customers. Currently the most popular use cases are: KYC onboarding fraud detection and voice fraud detection (ie. banks, marketplaces); and user-generated deepfake content moderation (ie. social media, dating platforms, news and government organizations).<p>We are currently testing a monthly subscription to scan a minimum of 250 media assets per month. We offer a 30 day pilot that converts into a monthly subscription. If you’d like to give it a try, go to www.realitydefender.ai, click “Request Trial Access” and mention HN in the comments field.<p>We’re here to answer your questions and hear your ideas, and would love to discuss any interesting use cases. We’d also be thrilled to collaborate with anyone who wants to integrate our API or who is working, or would like to work, in this space. We look forward to your comments and conversation!",
-      "time": 1647956966,
-      "title": "Launch HN: Reality Defender (YC W22) – Deepfake Detection Platform",
-      "type": "story",
-      "url": "https://www.realitydefender.ai"
     }
   ]
 }
