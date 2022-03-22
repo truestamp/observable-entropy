@@ -1,6 +1,26 @@
 {
   "stories": [
     {
+      "by": "smbv",
+      "descendants": 0,
+      "id": 30764851,
+      "score": 1,
+      "time": 1647949164,
+      "title": "Intentional communities in digital spaces: What side of TikTok are you on?",
+      "type": "story",
+      "url": "https://getsession.org/blog"
+    },
+    {
+      "by": "davethedevguy",
+      "descendants": 0,
+      "id": 30764842,
+      "score": 1,
+      "time": 1647949057,
+      "title": "Refactoring for Intent (2012)",
+      "type": "story",
+      "url": "https://jarrettmeyer.com/2012/08/08/refactoring-for-intent"
+    },
+    {
       "by": "rauhl",
       "descendants": 0,
       "id": 30764823,
@@ -54,7 +74,7 @@
       "by": "Tomte",
       "descendants": 0,
       "id": 30764805,
-      "score": 2,
+      "score": 3,
       "time": 1647948575,
       "title": "Europe’s Dependence on the U.S. Was All Part of the Plan (2018)",
       "type": "story",
@@ -82,26 +102,6 @@
       "title": "JavaCard: The execution environment you didn’t know you were using (2018)",
       "type": "story",
       "url": "https://www.software.ac.uk/blog/2018-07-13-javacard-execution-environment-you-didnt-know-you-were-using"
-    },
-    {
-      "by": "genis",
-      "descendants": 0,
-      "id": 30764785,
-      "score": 1,
-      "time": 1647948283,
-      "title": "Ghsrys",
-      "type": "story",
-      "url": "https://ruby-doc.org/core-2.6.3/Time.html"
-    },
-    {
-      "by": "sdflhasjd",
-      "descendants": 0,
-      "id": 30764757,
-      "score": 3,
-      "text": "This morning, I received a marketing email from Cloudflare (through one of our mailing groups), being militant about these kinds of emails, I immediately go to unsubscribe.<p>Dark pattern one: You must login to manage your marketing preferences. There&#x27;s no security related emails here, so this is completely unnecessary.<p>Dark pattern two: &quot;...confirm your email address to save your communication preferences.&quot;. I&#x27;ve no idea how we have a several-year old account without a confirmed email, but it should not have to confirm an email to remove old marketing preferences - or if cloudflare is so careful about this, why did it end up opted-in ion the first place?<p>Dark pattern two-point-five is that the email somehow became unverified - something it seems is only necessary to adjust marketing emails.<p>Okay, so I hit the &quot;Resend verification email&quot; link and check my inbox, nothing just yet. I wait a little longer. It&#x27;s odd that I immediately got a security email about the login from a new IP, but I&#x27;ve not received this verification email yet.<p>10 minutes later, and I&#x27;ve still not got anything. I know these things <i>can</i> take longer, but I don&#x27;t have the patience, especially since Cloudflare are clearly trying to make this hard.<p>Going to the preferences page, I hit that verify link again - still nothing. Okay, F12, I switch to the network inspector and click the link <i>again</i>.<p>To my surprise: Absolutely nothing. There&#x27;s no network requests being initiated by this link. Maybe it&#x27;s websockets, or maybe there&#x27;s a script that failed to load? The UI does respond when I hit the link, but nothing else. I opened up the element inspector to find a click handler:<p><pre><code>  function () {\n      return a.setState({\n          toast: &#x27;verificationResent&#x27;\n      })\n  }\n\n</code></pre>\nThat is certainly less than I was expecting. If that&#x27;s just a react setState... this link is literally doing nothing other changing the UI when I press it. Perhaps some silly frontend developer reads that `toast` state elsewhere to trigger the real behaviour? Nope the only other reference to verificationResent is a ternary statement in the render function.<p>Dark pattern three: Just break unsubscribe. The cynic in me says this was intentional. Hanlon&#x27;s razor tells me perhaps it is just a mistake, in which case dark pattern three is the overengineering of the unsubscribe function so you can get as much dropoff as possible and it&#x27;s most convenient if it just breaks.<p>So wtf Cloudflare?<p>Oh, and to supplement dark pattern two: The verification check is only on the frontend. In the end, I was able to use the debugger to skip the verified check and edit &amp; submit my email preferences anyway.",
-      "time": 1647947905,
-      "title": "Cloudflare have made it impossible for me to unsubscribe from marketing emails",
-      "type": "story"
     }
   ]
 }
