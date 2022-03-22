@@ -1,6 +1,56 @@
 {
   "stories": [
     {
+      "by": "sdflhasjd",
+      "descendants": 0,
+      "id": 30764757,
+      "score": 1,
+      "text": "This morning, I received a marketing email from Cloudflare (through one of our mailing groups), being militant about these kinds of emails, I immediately go to unsubscribe.<p>Dark pattern one: You must login to manage your marketing preferences. There&#x27;s no security related emails here, so this is completely unnecessary.<p>Dark pattern two: &quot;...confirm your email address to save your communication preferences.&quot;. I&#x27;ve no idea how we have a several-year old account without a confirmed email, but it should not have to confirm an email to remove old marketing preferences - or if cloudflare is so careful about this, why did it end up opted-in ion the first place?<p>Dark pattern two-point-five is that the email somehow became unverified - something it seems is only necessary to adjust marketing emails.<p>Okay, so I hit the &quot;Resend verification email&quot; link and check my inbox, nothing just yet. I wait a little longer. It&#x27;s odd that I immediately got a security email about the login from a new IP, but I&#x27;ve not received this verification email yet.<p>10 minutes later, and I&#x27;ve still not got anything. I know these things <i>can</i> take longer, but I don&#x27;t have the patience, especially since Cloudflare are clearly trying to make this hard.<p>Going to the preferences page, I hit that verify link again - still nothing. Okay, F12, I switch to the network inspector and click the link <i>again</i>.<p>To my surprise: Absolutely nothing. There&#x27;s no network requests being initiated by this link. Maybe it&#x27;s websockets, or maybe there&#x27;s a script that failed to load? The UI does respond when I hit the link, but nothing else. I opened up the element inspector to find a click handler:<p>```\nfunction () {\n    return a.setState({\n        toast: &#x27;verificationResent&#x27;\n    })\n}\n```<p>That is certainly less than I was expecting. If that&#x27;s just a react setState... this link is literally doing nothing other changing the UI when I press it. Perhaps some silly frontend developer reads that `toast` state elsewhere to trigger the real behaviour? Nope the only other reference to verificationResent is a ternary statement in the render function.<p>Dark pattern three: Just break unsubscribe. The cynic in me says this was intentional. Hanlon&#x27;s razor tells me perhaps it is just a mistake, in which case dark pattern three is the overengineering of the unsubscribe function so you can get as much dropoff as possible and it&#x27;s most convenient if it just breaks.<p>So wtf Cloudflare?<p>Oh, and to supplement dark pattern two: The verification check is only on the frontend. In the end, I was able to use the debugger to skip the verified check and edit &amp; submit my email preferences anyway.",
+      "time": 1647947905,
+      "title": "Cloudflare have made it impossible for me to unsubscribe from marketing emails",
+      "type": "story"
+    },
+    {
+      "by": "xiaodai",
+      "descendants": 0,
+      "id": 30764756,
+      "score": 1,
+      "time": 1647947890,
+      "title": "Transfer Data from NVMe Directly to GPU: DirectStorage API Now Available on PC",
+      "type": "story",
+      "url": "https://devblogs.microsoft.com/directx/directstorage-api-available-on-pc/"
+    },
+    {
+      "by": "triskweline",
+      "descendants": 0,
+      "id": 30764755,
+      "score": 1,
+      "time": 1647947865,
+      "title": "JavaScript Framework Unpoly and the HTML Over-the-Wire Trend",
+      "type": "story",
+      "url": "https://thenewstack.io/javascript-framework-unpoly-and-the-html-over-the-wire-trend/"
+    },
+    {
+      "by": "birriel",
+      "descendants": 0,
+      "id": 30764754,
+      "score": 1,
+      "time": 1647947864,
+      "title": "GDF11: Moving the Longevity Needle? [video]",
+      "type": "story",
+      "url": "https://www.youtube.com/watch?v=1PPXm3l0fEk"
+    },
+    {
+      "by": "zero_kool",
+      "descendants": 0,
+      "id": 30764747,
+      "score": 1,
+      "time": 1647947793,
+      "title": "Explore the global assets of Russia's oligarchs and enablers",
+      "type": "story",
+      "url": "https://cdn.occrp.org/projects/russian-asset-tracker/en/"
+    },
+    {
       "by": "Kelamir",
       "descendants": 0,
       "id": 30764742,
@@ -37,7 +87,7 @@
       "kids": [
         30764691
       ],
-      "score": 7,
+      "score": 9,
       "time": 1647946913,
       "title": "Show HN: Budibase – open-source Retool alternative – launch their Public API",
       "type": "story",
@@ -52,59 +102,6 @@
       "title": "Basics of the Unix Philosophy",
       "type": "story",
       "url": "https://homepage.cs.uri.edu/~thenry/resources/unix_art/ch01s06.html"
-    },
-    {
-      "by": "victorstanciu",
-      "descendants": 1,
-      "id": 30764662,
-      "kids": [
-        30764700
-      ],
-      "score": 4,
-      "time": 1647946659,
-      "title": "Starring your repo does not give you permission to spam me",
-      "type": "story",
-      "url": "https://github.com/browserless/chrome/issues/2234"
-    },
-    {
-      "by": "gigatexal",
-      "descendants": 0,
-      "id": 30764653,
-      "score": 1,
-      "time": 1647946551,
-      "title": "Have OLTP and want OLAP powered reports etc.? Just use estuary",
-      "type": "story",
-      "url": "https://www.estuary.dev/"
-    },
-    {
-      "by": "shrewdcomputer",
-      "descendants": 0,
-      "id": 30764645,
-      "score": 1,
-      "time": 1647946504,
-      "title": "AeroPress – Inventing the World’s Best Coffee Maker",
-      "type": "story",
-      "url": "https://stories.maker.co/aeropress-inventing-the-worlds-best-coffee-maker"
-    },
-    {
-      "by": "nabla9",
-      "descendants": 0,
-      "id": 30764629,
-      "score": 1,
-      "time": 1647946366,
-      "title": "The Church-Turing thesis was born after Kleene got dosed with laughing gas",
-      "type": "story",
-      "url": "https://twitter.com/johncarlosbaez/status/1505962963747758080"
-    },
-    {
-      "by": "geox",
-      "descendants": 0,
-      "id": 30764613,
-      "score": 1,
-      "time": 1647946229,
-      "title": "Is Russia’s Largest Tech Company Too Big to Fail?",
-      "type": "story",
-      "url": "https://www.wired.com/story/yandex-arkady-volozh-russia-largest-tech-company/"
     }
   ]
 }
