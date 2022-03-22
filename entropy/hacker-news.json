@@ -1,10 +1,23 @@
 {
   "stories": [
     {
-      "by": "smoochy",
+      "by": "EthanHeilman",
       "descendants": 0,
-      "id": 30771963,
+      "id": 30771996,
       "score": 1,
+      "time": 1647985618,
+      "title": "How to avoid getting pwned when your SSO is hacked",
+      "type": "story",
+      "url": "https://www.bastionzero.com/blog/how-to-avoid-getting-pwned-when-your-sso-is-hacked"
+    },
+    {
+      "by": "smoochy",
+      "descendants": 1,
+      "id": 30771963,
+      "kids": [
+        30772013
+      ],
+      "score": 2,
       "text": "When you visit some new or not so new open-source project&#x27;s page, whether it&#x27;s on Github or maybe it has some sort of website, what makes you want to keep on reading after you glanced over the title and the first paragraph of text?<p>I would like to specify that I only mean content here - not presentation. So imagine there&#x27;s just plaintext and browsers are not capable of displaying anything else but it.<p>Of course we all know that a well written documentation in general is such a rarity in this world and there are, in truth, very few examples (FreeBSD comes to mind) of documentations that stand out simply because you can sense every single sentence was written by a human passionate about it and a human caring for his reader. But how to achieve that - is quite a different question too. Let&#x27;s suppose this wonderfully written documentation is there.<p>How does one punch through the wall of indifference with just the title, a subtitle&#x2F;tagline and one paragraph? What makes you care all of a sudden, even though a minute ago you couldn&#x27;t even imagine you&#x27;d want to try this piece of software or at least read more about it?",
       "time": 1647985397,
       "title": "Ask HN: What makes you want to keep on reading README?",
@@ -25,7 +38,7 @@
       "descendants": 0,
       "id": 30771929,
       "score": 1,
-      "text": "Stateless webservers seem to be the most popular approach for many reasons. What are some common scenarios where it would be more ideal to use statefull webservers? Or can you make most things work with stateless webservers by moving the state client side and having some temporary state in your waf for security&#x2F;rate limiting.<p>Edit: would keeping some state in the db be considered as statefull webservers? I don&#x27;t think so.",
+      "text": "Stateless webservers seem to be the most popular approach for many reasons. What are some common scenarios where it would be more ideal to use statefull webservers? Or can you make most things work with stateless webservers by moving the state client side and having some temporary state in your waf for security&#x2F;rate limiting.<p>Edit: would keeping some state in the db be considered as statefull webservers? I don&#x27;t think so. Basically, it doesn&#x27;t matter what web server you connect to, the end result&#x2F;experience is always the same.",
       "time": 1647985198,
       "title": "Ask HN: Practical examples of when you would need statefull webservers",
       "type": "story"
@@ -34,7 +47,7 @@
       "by": "bwindels",
       "descendants": 0,
       "id": 30771928,
-      "score": 3,
+      "score": 5,
       "time": 1647985197,
       "title": "Folding bicycle small enough to fit in hand luggage",
       "type": "story",
@@ -87,21 +100,11 @@
       "by": "northstar702",
       "descendants": 0,
       "id": 30771789,
-      "score": 1,
+      "score": 2,
       "time": 1647984424,
       "title": "First Impressions of Redpanda",
       "type": "story",
       "url": "https://shahirdaya.medium.com/first-impressions-of-redpanda-6dd0d860ecfd"
-    },
-    {
-      "by": "tdmckinlay",
-      "descendants": 0,
-      "id": 30771785,
-      "score": 1,
-      "time": 1647984406,
-      "title": "The Virtual Touch Effect",
-      "type": "story",
-      "url": "https://tips.ariyh.com/p/-the-virtual-touch-effect"
     }
   ]
 }
