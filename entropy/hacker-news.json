@@ -1,6 +1,46 @@
 {
   "stories": [
     {
+      "by": "ytNumbers",
+      "descendants": 0,
+      "id": 30770564,
+      "score": 1,
+      "time": 1647978288,
+      "title": "Exercise could treat symptoms of long-Covid",
+      "type": "story",
+      "url": "https://thehill.com/changing-america/well-being/mental-health/597844-exercise-could-treat-symptoms-of-long-covid"
+    },
+    {
+      "by": "giacaglia",
+      "descendants": 0,
+      "id": 30770561,
+      "score": 1,
+      "time": 1647978279,
+      "title": "Largest GDPR fines surpass $1.3B",
+      "type": "story",
+      "url": "https://transcend.io/blog/gdpr-fines/"
+    },
+    {
+      "by": "jarrenae",
+      "descendants": 0,
+      "id": 30770527,
+      "score": 1,
+      "time": 1647978118,
+      "title": "The Future Fund – Future Fund",
+      "type": "story",
+      "url": "https://ftxfuturefund.org/announcing-the-future-fund/"
+    },
+    {
+      "by": "dewey",
+      "descendants": 0,
+      "id": 30770521,
+      "score": 1,
+      "time": 1647978103,
+      "title": "Birdfeeder: Twitter bookmarks in your inbox (once a week)",
+      "type": "story",
+      "url": "https://blog.notmyhostna.me/posts/birdfeeder-twitter-bookmarks-in-your-email-inbox/"
+    },
+    {
       "by": "fortran77",
       "descendants": 0,
       "id": 30770475,
@@ -62,50 +102,6 @@
       "title": "AI is not coming for analyst jobs anytime soon",
       "type": "story",
       "url": "https://prakasha.substack.com/p/ai-is-not-coming-for-analyst-jobs"
-    },
-    {
-      "by": "dmoura",
-      "descendants": 0,
-      "id": 30770388,
-      "score": 1,
-      "text": "I do lots of data analyses in the command-line and I was missing a simple utility to plot the output of a command (without having to script it). I like very much the Matplotlib API but I found no CLI to pipe data into it. So, I wrote MatplotCLI, a simple CLI that reads data from the stdin and allows to easily create interactive plots from the command-line. Have a look at the README for  examples and recipes. Let me know what you think, thanks!<p>Some examples:<p><pre><code>    $ plt &quot;hist(x,30)&quot; &lt; sample.json\n\n    $ cat sample.json | plt --no-show &quot;hist(x,30); savefig(&#x27;myimage.png&#x27;)&quot;\n\n    $ plt --no-input &quot;\n    x = np.linspace(-1,1,2000);\n    y = x*np.sin(1&#x2F;x);\n    plot(x,y);\n    axis(&#x27;scaled&#x27;);\n    grid(True)&quot;\n\n    $ echo &#x27;\n        {&quot;a&quot;:0, &quot;b&quot;:1}\n        {&quot;a&quot;:1, &quot;b&quot;:0}\n        {&quot;a&quot;:3, &quot;b&quot;:3}&#x27; |\n    plt &quot;plot(a,b)&quot;</code></pre>",
-      "time": 1647977401,
-      "title": "Show HN: Create Matplotlib visualizations from the command-line",
-      "type": "story",
-      "url": "https://github.com/dcmoura/matplotcli"
-    },
-    {
-      "by": "Pooge",
-      "descendants": 1,
-      "id": 30770344,
-      "kids": [
-        30770468
-      ],
-      "score": 2,
-      "text": "I&#x27;ve just read a recent article by BleepingComputer[1] and the article says that &quot;Password Length Does Not Guarantee Password Safety&quot;. I think we all know the XKCD about the very same issue[2].<p>So now I&#x27;m wondering: what even is the strongest way?<p>Currently, I&#x27;m using KeePassXC to generate all my passwords - and I always try to have as many characters as possible with special and uppercase characters, but my laptop and password database decryption keys are generated using EFF&#x27;s Dice[3].<p>[1]: https:&#x2F;&#x2F;www.bleepingcomputer.com&#x2F;news&#x2F;security&#x2F;the-top-5-things-the-2022-weak-password-report-means-for-it-security&#x2F;<p>[2]: https:&#x2F;&#x2F;xkcd.com&#x2F;936&#x2F;<p>[3]: https:&#x2F;&#x2F;www.eff.org&#x2F;dice",
-      "time": 1647977153,
-      "title": "Ask HN: What's the best way to generate strong passwords?",
-      "type": "story"
-    },
-    {
-      "by": "stared",
-      "descendants": 0,
-      "id": 30770310,
-      "score": 1,
-      "time": 1647976973,
-      "title": "Grammarly Continues to Pay Staffers Who Joined Ukrainian Army",
-      "type": "story",
-      "url": "https://www.bloomberg.com/news/articles/2022-03-21/grammarly-continues-to-pay-staffers-who-joined-ukrainian-army"
-    },
-    {
-      "by": "apalom",
-      "descendants": 0,
-      "id": 30770306,
-      "score": 1,
-      "time": 1647976967,
-      "title": "How to leverage functional programming in Kotlin to write better, cleaner code",
-      "type": "story",
-      "url": "https://doordash.engineering/2022/03/22/how-to-leverage-functional-programming-in-kotlin-to-write-better-cleaner-code/"
     }
   ]
 }
