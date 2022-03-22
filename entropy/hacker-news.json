@@ -1,11 +1,51 @@
 {
   "stories": [
     {
+      "by": "AdmiralAsshat",
+      "descendants": 0,
+      "id": 30770437,
+      "score": 2,
+      "time": 1647977634,
+      "title": "Google routinely hides emails from litigation by CCing attorneys, DOJ alleges",
+      "type": "story",
+      "url": "https://arstechnica.com/tech-policy/2022/03/google-routinely-hides-emails-from-litigation-by-ccing-attorneys-doj-alleges/"
+    },
+    {
+      "by": "belter",
+      "descendants": 0,
+      "id": 30770420,
+      "score": 1,
+      "time": 1647977566,
+      "title": "Anonymous Hackers Fire ‘Warning Shot’ at Companies Refusing Pull Out of Russia",
+      "type": "story",
+      "url": "https://www.hstoday.us/featured/anonymous-hackers-fire-warning-shot-at-companies-refusing-to-pull-out-of-russia/"
+    },
+    {
+      "by": "NmAmDa",
+      "descendants": 0,
+      "id": 30770400,
+      "score": 1,
+      "time": 1647977457,
+      "title": "MacPaw develops SpyBuster a tool that spots apps with servers in Russia",
+      "type": "story",
+      "url": "https://research.macpaw.com/spy-buster/"
+    },
+    {
+      "by": "bravogamma",
+      "descendants": 0,
+      "id": 30770393,
+      "score": 1,
+      "time": 1647977426,
+      "title": "AI is not coming for analyst jobs anytime soon",
+      "type": "story",
+      "url": "https://prakasha.substack.com/p/ai-is-not-coming-for-analyst-jobs"
+    },
+    {
       "by": "dmoura",
       "descendants": 0,
       "id": 30770388,
       "score": 1,
-      "text": "I do lots of data analyses in the command-line and I was missing a simple utility to plot the output of a command (without having to script it). I like very much the Matplotlib API but I found no CLI to pipe data into it. So, I wrote MatplotCLI, a simple CLI that reads data from the stdin and allows to easily create interactive plots from the command-line. Have a look at the README for  examples and recipes. Let me know what you think, thanks!<p>Some examples:<p><pre><code>    $ plt &quot;hist(x,30)&quot; &lt; sample.json\n\n    $ cat sample.json | plt --no-show &quot;hist(x,30); savefig(&#x27;myimage.png&#x27;)&quot;\n\n    $ plt --no-input &quot;\n    x = np.linspace(-1,1,2000);\n    y = x*np.sin(1&#x2F;x);\n    plot(x,y);\n    axis(&#x27;scaled&#x27;);\n    grid(True)&quot;</code></pre>",
+      "text": "I do lots of data analyses in the command-line and I was missing a simple utility to plot the output of a command (without having to script it). I like very much the Matplotlib API but I found no CLI to pipe data into it. So, I wrote MatplotCLI, a simple CLI that reads data from the stdin and allows to easily create interactive plots from the command-line. Have a look at the README for  examples and recipes. Let me know what you think, thanks!<p>Some examples:<p><pre><code>    $ plt &quot;hist(x,30)&quot; &lt; sample.json\n\n    $ cat sample.json | plt --no-show &quot;hist(x,30); savefig(&#x27;myimage.png&#x27;)&quot;\n\n    $ plt --no-input &quot;\n    x = np.linspace(-1,1,2000);\n    y = x*np.sin(1&#x2F;x);\n    plot(x,y);\n    axis(&#x27;scaled&#x27;);\n    grid(True)&quot;\n\n    $ echo &#x27;\n        {&quot;a&quot;:0, &quot;b&quot;:1}\n        {&quot;a&quot;:1, &quot;b&quot;:0}\n        {&quot;a&quot;:3, &quot;b&quot;:3}&#x27; |\n    plt &quot;plot(a,b)&quot;</code></pre>",
       "time": 1647977401,
       "title": "Show HN: Create Matplotlib visualizations from the command-line",
       "type": "story",
@@ -15,7 +55,7 @@
       "by": "Pooge",
       "descendants": 0,
       "id": 30770344,
-      "score": 1,
+      "score": 2,
       "text": "I&#x27;ve just read a recent article by BleepingComputer[1] and the article says that &quot;Password Length Does Not Guarantee Password Safety&quot;. I think we all know the XKCD about the very same issue[2].<p>So now I&#x27;m wondering: what even is the strongest way?<p>Currently, I&#x27;m using KeePassXC to generate all my passwords - and I always try to have as many characters as possible with special and uppercase characters, but my laptop and password database decryption keys are generated using EFF&#x27;s Dice[3].<p>[1]: https:&#x2F;&#x2F;www.bleepingcomputer.com&#x2F;news&#x2F;security&#x2F;the-top-5-things-the-2022-weak-password-report-means-for-it-security&#x2F;<p>[2]: https:&#x2F;&#x2F;xkcd.com&#x2F;936&#x2F;<p>[3]: https:&#x2F;&#x2F;www.eff.org&#x2F;dice",
       "time": 1647977153,
       "title": "Ask HN: What's the best way to generate strong passwords?",
@@ -63,46 +103,6 @@
       "title": "Tor Browser 11.0.9 – (Windows, macOS, Linux) 2022-03-18",
       "type": "story",
       "url": "https://blog.torproject.org/new-release-tor-browser-1109/"
-    },
-    {
-      "by": "bpierre",
-      "descendants": 0,
-      "id": 30770231,
-      "score": 1,
-      "time": 1647976534,
-      "title": "Preemptive memoization in React is probably not Evil (yet)",
-      "type": "story",
-      "url": "https://www.zhenghao.io/posts/memo-or-not"
-    },
-    {
-      "by": "CarCooler",
-      "descendants": 0,
-      "id": 30770210,
-      "score": 3,
-      "time": 1647976464,
-      "title": "Tesla delivers first Giga Berlin-made Model Ys, watch Elon Musk dance once again",
-      "type": "story",
-      "url": "https://www.teslaoracle.com/2022/03/22/first-giga-berlin-made-model-y-deliveries-elon-musk-dance/"
-    },
-    {
-      "by": "tptacek",
-      "descendants": 0,
-      "id": 30770206,
-      "score": 2,
-      "time": 1647976448,
-      "title": "Our Fundamental Right to Shame and Shun the New York Times",
-      "type": "story",
-      "url": "https://popehat.substack.com/p/our-fundamental-right-to-shame-and"
-    },
-    {
-      "by": "rntn",
-      "descendants": 0,
-      "id": 30770200,
-      "score": 1,
-      "time": 1647976398,
-      "title": "Stagflation Risk (landing page for free 25 page 3/14/22 PDF)",
-      "type": "story",
-      "url": "https://www.goldmansachs.com/insights/pages/top-of-mind-stagflation-risk.html"
     }
   ]
 }
