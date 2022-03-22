@@ -1,10 +1,33 @@
 {
   "stories": [
     {
+      "by": "fortran77",
+      "descendants": 0,
+      "id": 30770475,
+      "score": 1,
+      "time": 1647977834,
+      "title": "Ukraine hackers target GLONASS for cyberattacks",
+      "type": "story",
+      "url": "https://cybernews.com/news/volunteer-hackers-urge-targeting-russian-gps/"
+    },
+    {
+      "by": "evo_9",
+      "descendants": 0,
+      "id": 30770452,
+      "score": 2,
+      "time": 1647977708,
+      "title": "Explaining the Mac Studio’s removable SSDs, and why you can’t just swap them out",
+      "type": "story",
+      "url": "https://arstechnica.com/gadgets/2022/03/explaining-the-mac-studios-removable-ssds-and-why-you-cant-just-swap-them-out/"
+    },
+    {
       "by": "AdmiralAsshat",
       "descendants": 0,
       "id": 30770437,
-      "score": 2,
+      "kids": [
+        30770471
+      ],
+      "score": 3,
       "time": 1647977634,
       "title": "Google routinely hides emails from litigation by CCing attorneys, DOJ alleges",
       "type": "story",
@@ -14,7 +37,7 @@
       "by": "belter",
       "descendants": 0,
       "id": 30770420,
-      "score": 1,
+      "score": 2,
       "time": 1647977566,
       "title": "Anonymous Hackers Fire ‘Warning Shot’ at Companies Refusing Pull Out of Russia",
       "type": "story",
@@ -53,8 +76,11 @@
     },
     {
       "by": "Pooge",
-      "descendants": 0,
+      "descendants": 1,
       "id": 30770344,
+      "kids": [
+        30770468
+      ],
       "score": 2,
       "text": "I&#x27;ve just read a recent article by BleepingComputer[1] and the article says that &quot;Password Length Does Not Guarantee Password Safety&quot;. I think we all know the XKCD about the very same issue[2].<p>So now I&#x27;m wondering: what even is the strongest way?<p>Currently, I&#x27;m using KeePassXC to generate all my passwords - and I always try to have as many characters as possible with special and uppercase characters, but my laptop and password database decryption keys are generated using EFF&#x27;s Dice[3].<p>[1]: https:&#x2F;&#x2F;www.bleepingcomputer.com&#x2F;news&#x2F;security&#x2F;the-top-5-things-the-2022-weak-password-report-means-for-it-security&#x2F;<p>[2]: https:&#x2F;&#x2F;xkcd.com&#x2F;936&#x2F;<p>[3]: https:&#x2F;&#x2F;www.eff.org&#x2F;dice",
       "time": 1647977153,
@@ -80,29 +106,6 @@
       "title": "How to leverage functional programming in Kotlin to write better, cleaner code",
       "type": "story",
       "url": "https://doordash.engineering/2022/03/22/how-to-leverage-functional-programming-in-kotlin-to-write-better-cleaner-code/"
-    },
-    {
-      "by": "varunsharma07",
-      "descendants": 1,
-      "id": 30770270,
-      "kids": [
-        30770278
-      ],
-      "score": 1,
-      "time": 1647976753,
-      "title": "Show HN: Test Your Defenses with a Malware-Simulator Package",
-      "type": "story",
-      "url": "https://github.com/step-security/supply-chain-goat/blob/main/CompromisedDependency.md"
-    },
-    {
-      "by": "News-Dog",
-      "descendants": 0,
-      "id": 30770255,
-      "score": 2,
-      "time": 1647976675,
-      "title": "Tor Browser 11.0.9 – (Windows, macOS, Linux) 2022-03-18",
-      "type": "story",
-      "url": "https://blog.torproject.org/new-release-tor-browser-1109/"
     }
   ]
 }
