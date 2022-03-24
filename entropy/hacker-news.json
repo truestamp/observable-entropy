@@ -1,6 +1,36 @@
 {
   "stories": [
     {
+      "by": "DocFeind",
+      "descendants": 0,
+      "id": 30794697,
+      "score": 2,
+      "time": 1648152236,
+      "title": "Exxon Is Mining Bitcoin with Excess Gas",
+      "type": "story",
+      "url": "https://bitcoinmagazine.com/business/exxon-is-mining-bitcoin-with-excess-gas-report"
+    },
+    {
+      "by": "Tomte",
+      "descendants": 0,
+      "id": 30794667,
+      "score": 1,
+      "time": 1648152049,
+      "title": "Bob, PML's Second “Primary” Coordinate Measuring Machine (2016)",
+      "type": "story",
+      "url": "https://www.nist.gov/news-events/news/2016/09/meet-bob-pmls-second-primary-coordinate-measuring-machine"
+    },
+    {
+      "by": "barefootford",
+      "descendants": 0,
+      "id": 30794660,
+      "score": 1,
+      "text": "The job market seems great - unless you want to work less than 40-50 hours a week. I&#x27;m willing to take a pretty big pay cut (30% 40%?) just to have another day off, but I can&#x27;t seem to find any companies willing to talk despite the current hot job market. Has anyone had luck finding less than full time work?",
+      "time": 1648152016,
+      "title": "Has anyone figured out a simple route to part-time work?",
+      "type": "story"
+    },
+    {
       "by": "noja",
       "descendants": 0,
       "id": 30794639,
@@ -25,7 +55,7 @@
       "descendants": 0,
       "id": 30794634,
       "score": 1,
-      "text": "Hello all,<p><pre><code>  I&#x27;ve been seeing a lot of interest in work orchestration frameworks, and thought I&#x27;d show off my own take. It&#x27;s the project I&#x27;ve used to learn rust (entire project is async rust using tokio and actix), but it&#x27;s been really useful for my main work, too.\n\n  Daggyr is an engine for executing tasks as quickly as possible. It can run tasks on flexible back-ends (slurm, local threads, etc), and report updates &#x2F; events to trackers (currently only in-memory, working on postgres and mongodb).\n\n  There&#x27;s no UI, just a REST interface. It doesn&#x27;t do scheduling (there are tons of tools for that). It doesn&#x27;t currently have multiple users &#x2F; auth, but I&#x27;m working on that.\n\n  It does support pipelines defined in JSON, task parameterization, a very simple and fast REST interface for job submission and tracking, and resuming failed runs from where they left off.\n\n  Why another one of these things?\n</code></pre>\n1. I couldn&#x27;t get behind Airflow&#x27;s weird scheduling opinions.\n2. Dagster, Airflow, and Prefect rely on tight integration with python. A lot of my work flows are calling custom binaries, so python provides no value, and it&#x27;s also a barrier to defining jobs.\n3. Daggyr can scale to pipelines of hundreds of thousands of tasks.\n4. Daggyr is stupidly simple to run: no external services or dependencies (unless you want them). Simple run the binary and send some work.<p><pre><code>  Long story short, it does what it says on the tin, but there&#x27;s more work to be done. I&#x27;d really appreciate any feedback. No idea if I&#x27;m going to try and commercialize it, but if you&#x27;d like to see  a feature ASAP, I&#x27;m always open to sponsored feature development!</code></pre>",
+      "text": "Hello all,<p><pre><code>  I&#x27;ve been seeing a lot of interest in work orchestration frameworks, and thought I&#x27;d show off my own take. It&#x27;s the project I&#x27;ve used to learn rust (entire project is async rust using tokio and actix), but it&#x27;s been really useful for my main work, too.\n\n  Daggyr is an engine for executing tasks as quickly as possible. It can run tasks on flexible back-ends (slurm, local threads, etc), and report updates &#x2F; events to trackers (currently only in-memory, working on postgres and mongodb).\n\n  There&#x27;s no UI, just a REST interface. It doesn&#x27;t do scheduling (there are tons of tools for that). It doesn&#x27;t currently have multiple users &#x2F; auth, but I&#x27;m working on that.\n\n  It does support pipelines defined in JSON, task parameterization, a very simple and fast REST interface for job submission and tracking, and resuming failed runs from where they left off.\n\n  Why another one of these things?\n</code></pre>\n1. I couldn&#x27;t get behind Airflow&#x27;s weird scheduling opinions.<p>2. Dagster, Airflow, and Prefect rely on tight integration with python. A lot of my work flows are calling custom binaries, so python provides no value, and it&#x27;s also a barrier to defining jobs.<p>3. Daggyr can scale to pipelines of hundreds of thousands of tasks.<p>4. Daggyr is stupidly simple to run: no external services or dependencies (unless you want them). Simple run the binary and send some work.<p><pre><code>  Long story short, it does what it says on the tin, but there&#x27;s more work to be done. I&#x27;d really appreciate any feedback. No idea if I&#x27;m going to try and commercialize it, but if you&#x27;d like to see  a feature ASAP, I&#x27;m always open to sponsored feature development!\n</code></pre>\nedit: formatting",
       "time": 1648151854,
       "title": "Show HN: Daggyr DAG Work Orchestration Engine",
       "type": "story",
@@ -70,36 +100,6 @@
       "title": "British greed for dirty money emboldened Putin’s Russia",
       "type": "story",
       "url": "https://www.newstatesman.com/comment/2022/03/british-greed-for-dirty-money-emboldened-putins-russia"
-    },
-    {
-      "by": "Barrera",
-      "descendants": 0,
-      "id": 30794549,
-      "score": 1,
-      "time": 1648151361,
-      "title": "Nuclear War Simulator",
-      "type": "story",
-      "url": "https://nuclearwarsimulator.com/"
-    },
-    {
-      "by": "rntn",
-      "descendants": 0,
-      "id": 30794498,
-      "score": 1,
-      "time": 1648151126,
-      "title": "Putin's army stumbling in Ukraine. Did the West get Russia's war machine wrong?",
-      "type": "story",
-      "url": "https://www.cbc.ca/news/world/russia-army-ukraine-war-1.6393996"
-    },
-    {
-      "by": "tines",
-      "descendants": 0,
-      "id": 30794494,
-      "score": 2,
-      "time": 1648151112,
-      "title": "The Theoretical Minimum: Introduction to quantum mechanics with Leonard Susskind",
-      "type": "story",
-      "url": "https://theoreticalminimum.com/courses/quantum-mechanics/2012/winter/lecture-1"
     }
   ]
 }
