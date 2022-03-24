@@ -1,11 +1,51 @@
 {
   "stories": [
     {
+      "by": "gmays",
+      "descendants": 0,
+      "id": 30794796,
+      "score": 1,
+      "time": 1648152802,
+      "title": "The Portentous Comeback of Humpback Whales",
+      "type": "story",
+      "url": "https://nautil.us/the-portentous-comeback-of-humpback-whales-15745/"
+    },
+    {
+      "by": "white_box",
+      "descendants": 0,
+      "id": 30794783,
+      "score": 1,
+      "text": "If I&#x27;m logged out of Google in Firefox, does Google still link my Youtube and Google Search account?",
+      "time": 1648152731,
+      "title": "Ask HN: Does Google link my YouTube and Google Search account if I'm logged out?",
+      "type": "story"
+    },
+    {
+      "by": "onmyway133",
+      "descendants": 0,
+      "id": 30794771,
+      "score": 1,
+      "time": 1648152662,
+      "title": "Show HN: Crack Quiz a Day on Twitter",
+      "type": "story",
+      "url": "https://twitter.com/BeeQuizHQ/status/1507085955295072265"
+    },
+    {
+      "by": "skilled",
+      "descendants": 0,
+      "id": 30794764,
+      "score": 1,
+      "time": 1648152643,
+      "title": "Master Styles – The First Virtual CSS Engine",
+      "type": "story",
+      "url": "https://styles.master.co/"
+    },
+    {
       "by": "LuisSur",
       "descendants": 0,
       "id": 30794750,
       "score": 1,
-      "text": "If you are a senior software engineer and joining a really young web startup (1-2 engineers with the basic product done), how would you go about improving it?\nWhat type of things would you start thinking about and investigating?",
+      "text": "If you are a senior software engineer and joining a really young web startup (1-2 engineers with the basic product done), how would you go about improving it?<p>What type of things would you start thinking about and investigating?",
       "time": 1648152567,
       "title": "As an engineer, what are some things you would do when joining a young startup?",
       "type": "story"
@@ -22,8 +62,11 @@
     },
     {
       "by": "DocFeind",
-      "descendants": 0,
+      "descendants": 1,
       "id": 30794697,
+      "kids": [
+        30794801
+      ],
       "score": 3,
       "time": 1648152236,
       "title": "Exxon Is Mining Bitcoin with Excess Gas",
@@ -59,47 +102,6 @@
       "title": "Apps Could Triple Your Reading Speed (2014)",
       "type": "story",
       "url": "https://www.smithsonianmag.com/smart-news/these-apps-could-triple-your-reading-speed-180949945/"
-    },
-    {
-      "by": "yonz",
-      "descendants": 0,
-      "id": 30794635,
-      "score": 2,
-      "time": 1648151875,
-      "title": "Google is retiring Google Now Snapshot:(",
-      "type": "story",
-      "url": "https://support.google.com/assistant/answer/11135696?hl=en"
-    },
-    {
-      "by": "iroddis",
-      "descendants": 0,
-      "id": 30794634,
-      "score": 1,
-      "text": "Hello all,<p><pre><code>  I&#x27;ve been seeing a lot of interest in work orchestration frameworks, and thought I&#x27;d show off my own take. It&#x27;s the project I&#x27;ve used to learn rust (entire project is async rust using tokio and actix), but it&#x27;s been really useful for my main work, too.\n\n  Daggyr is an engine for executing tasks as quickly as possible. It can run tasks on flexible back-ends (slurm, local threads, etc), and report updates &#x2F; events to trackers (currently only in-memory, working on postgres and mongodb).\n\n  There&#x27;s no UI, just a REST interface. It doesn&#x27;t do scheduling (there are tons of tools for that). It doesn&#x27;t currently have multiple users &#x2F; auth, but I&#x27;m working on that.\n\n  It does support pipelines defined in JSON, task parameterization, a very simple and fast REST interface for job submission and tracking, and resuming failed runs from where they left off.\n\n  Why another one of these things?\n</code></pre>\n1. I couldn&#x27;t get behind Airflow&#x27;s weird scheduling opinions.<p>2. Dagster, Airflow, and Prefect rely on tight integration with python. A lot of my work flows are calling custom binaries, so python provides no value, and it&#x27;s also a barrier to defining jobs.<p>3. Daggyr can scale to pipelines of hundreds of thousands of tasks.<p>4. Daggyr is stupidly simple to run: no external services or dependencies (unless you want them). Simple run the binary and send some work.<p><pre><code>  Long story short, it does what it says on the tin, but there&#x27;s more work to be done. I&#x27;d really appreciate any feedback. No idea if I&#x27;m going to try and commercialize it, but if you&#x27;d like to see  a feature ASAP, I&#x27;m always open to sponsored feature development!\n</code></pre>\nedit: formatting",
-      "time": 1648151854,
-      "title": "Show HN: Daggyr DAG Work Orchestration Engine",
-      "type": "story",
-      "url": "https://github.com/kinesintech/daggyr"
-    },
-    {
-      "by": "ourmandave",
-      "descendants": 0,
-      "id": 30794616,
-      "score": 3,
-      "time": 1648151708,
-      "title": "Nestlé: Anonymous Can't Hack Us, We Leaked Our Own Data",
-      "type": "story",
-      "url": "https://gizmodo.com/nestle-denies-anonymous-hack-claims-says-it-leaked-dat-1848691484"
-    },
-    {
-      "by": "realestateks",
-      "descendants": 0,
-      "id": 30794590,
-      "score": 1,
-      "time": 1648151607,
-      "title": "Tafingo",
-      "type": "story",
-      "url": "https://tafingo.com/"
     }
   ]
 }
