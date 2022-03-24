@@ -1,10 +1,90 @@
 {
   "stories": [
     {
+      "by": "susam",
+      "descendants": 0,
+      "id": 30790208,
+      "score": 1,
+      "time": 1648131882,
+      "title": "I don't want algorithmic feed",
+      "type": "story",
+      "url": "https://github.com/github/feedback/discussions/13131"
+    },
+    {
+      "by": "mzs",
+      "descendants": 0,
+      "id": 30790200,
+      "score": 1,
+      "time": 1648131860,
+      "title": "Ukraine’s cyber defence: the battle against Moscow’s online salvos",
+      "type": "story",
+      "url": "https://www.ft.com/content/20544951-2c98-4d47-842d-b34a246a564f"
+    },
+    {
+      "by": "rsecora",
+      "descendants": 0,
+      "id": 30790193,
+      "score": 2,
+      "time": 1648131831,
+      "title": "Pascal – A curated list of Delphi, FreePascal, and Pascal shiny things",
+      "type": "story",
+      "url": "https://github.com/Fr0sT-Brutal/awesome-pascal"
+    },
+    {
+      "by": "danso",
+      "descendants": 0,
+      "id": 30790191,
+      "score": 2,
+      "time": 1648131825,
+      "title": "Indonesia preparing tough new curbs for online platforms",
+      "type": "story",
+      "url": "https://www.reuters.com/world/asia-pacific/exclusive-indonesia-preparing-tough-new-curbs-online-platforms-sources-2022-03-23/"
+    },
+    {
+      "by": "PaulHoule",
+      "descendants": 0,
+      "id": 30790160,
+      "score": 2,
+      "time": 1648131708,
+      "title": "Powerful people feel, express less gratitude",
+      "type": "story",
+      "url": "https://news.cornell.edu/stories/2022/03/powerful-people-feel-express-less-gratitude"
+    },
+    {
+      "by": "open-source-ux",
+      "descendants": 0,
+      "id": 30790156,
+      "score": 1,
+      "time": 1648131691,
+      "title": "Building a quality USB-C microphone [video]",
+      "type": "story",
+      "url": "https://www.youtube.com/watch?v=LoQu3XXIayc"
+    },
+    {
+      "by": "digital55",
+      "descendants": 0,
+      "id": 30790155,
+      "score": 1,
+      "time": 1648131686,
+      "title": "Why Do We Die Without Sleep?",
+      "type": "story",
+      "url": "https://www.quantamagazine.org/why-do-we-die-without-sleep-20220322/"
+    },
+    {
+      "by": "andrew_",
+      "descendants": 0,
+      "id": 30790142,
+      "score": 1,
+      "time": 1648131648,
+      "title": "GitHub Schedule Maintenance Affecting Services",
+      "type": "story",
+      "url": "https://www.githubstatus.com/incidents/flf8c4lvch31"
+    },
+    {
       "by": "taubek",
       "descendants": 0,
       "id": 30790129,
-      "score": 1,
+      "score": 2,
       "time": 1648131600,
       "title": "Fight against dark patterns on web",
       "type": "story",
@@ -19,97 +99,6 @@
       "title": "We Need Better Web and API Software Testing Tools",
       "type": "story",
       "url": "https://ludovicianul.github.io/2022/03/24/better-api-tools/"
-    },
-    {
-      "by": "doener",
-      "descendants": 0,
-      "id": 30790088,
-      "score": 1,
-      "time": 1648131406,
-      "title": "Activists are targeting Russians with open-source “protestware”",
-      "type": "story",
-      "url": "https://www.technologyreview.com/2022/03/21/1047489/activists-are-targeting-russians-with-open-source-protestware/"
-    },
-    {
-      "by": "Anon84",
-      "descendants": 0,
-      "id": 30790068,
-      "score": 1,
-      "time": 1648131340,
-      "title": "The Mini-Manual for the Urban Defender [pdf]",
-      "type": "story",
-      "url": "https://img1.wsimg.com/blobby/go/a3aae1fc-fc89-45ec-8afb-507be641e336/Mini_Manual_Spencerv3.2_English-0002.pdf"
-    },
-    {
-      "by": "tchiotludo",
-      "descendants": 2,
-      "id": 30790047,
-      "kids": [
-        30790057,
-        30790108
-      ],
-      "score": 2,
-      "time": 1648131273,
-      "title": "Show HN: After AKHQ (KafkaHQ), I Made Kestra Open-Source Airflow Alternative",
-      "type": "story",
-      "url": "https://github.com/kestra-io/kestra"
-    },
-    {
-      "by": "tosh",
-      "descendants": 0,
-      "id": 30790043,
-      "score": 1,
-      "time": 1648131257,
-      "title": "Thermal Printing",
-      "type": "story",
-      "url": "https://en.wikipedia.org/wiki/Thermal_printing"
-    },
-    {
-      "by": "binwiederhier",
-      "descendants": 2,
-      "id": 30790016,
-      "kids": [
-        30790121,
-        30790086
-      ],
-      "score": 1,
-      "text": "Even after a lot of research, I wasn&#x27;t able to find an encryption file format that is widely used and still considered &quot;supported&quot; on most platforms. The obvious answer is OpenPGP [1], but that&#x27;s widely considered &quot;not modern&quot; and some languages even deprecate their support for it (e.g. Go [2]).<p>Specifically, I&#x27;m looking for a container format like OpenPGP that can support different cipher suites, e.g. &quot;passphrase-to-key via PBKDF2, then AES-GCM-128&quot; or similar and is portable across different programming languages and operating systems.<p>I do not believe such a tool exists, but I&#x27;m scratching my head as to why. It&#x27;s 2022. TLS is iniquitous. Why is there not TLS-in-a-file?<p>My use case is my push notification project [3]. I people to be able to do this (on the shell):<p><pre><code>   echo &quot;secret message&quot; | encxyz -p &quot;password&quot; | curl -T- ntfy.sh&#x2F;mytopic\n</code></pre>\nOr this (in JS):<p><pre><code>   import {xyz_encyrpt} from &quot;encryptxyz;\n   const message = xyz_encrypt(&quot;secret message&quot;, &quot;password&quot;);\n   fetch(...);\n</code></pre>\nOf course I can design my own thing (and I have), but then I have to make my own libraries for all languages that I want to offer end-to-end encryption for.<p>[1] https:&#x2F;&#x2F;datatracker.ietf.org&#x2F;doc&#x2F;html&#x2F;rfc4880<p>[2] https:&#x2F;&#x2F;github.com&#x2F;golang&#x2F;go&#x2F;issues&#x2F;44226<p>[3] https:&#x2F;&#x2F;github.com&#x2F;binwiederhier&#x2F;ntfy",
-      "time": 1648131117,
-      "title": "Ask HN: Is there a portable encryption file format?",
-      "type": "story"
-    },
-    {
-      "by": "ggerganov",
-      "descendants": 1,
-      "id": 30790007,
-      "kids": [
-        30790070
-      ],
-      "score": 1,
-      "time": 1648131081,
-      "title": "Show HN: HNGuessr – Guessing the missing words in HN stories",
-      "type": "story",
-      "url": "https://hnguessr.ggerganov.com"
-    },
-    {
-      "by": "todsacerdoti",
-      "descendants": 0,
-      "id": 30790006,
-      "score": 2,
-      "time": 1648131075,
-      "title": "Extracting Triangular 3D Models, Materials, and Lighting from Images",
-      "type": "story",
-      "url": "https://nvlabs.github.io/nvdiffrec/"
-    },
-    {
-      "by": "pseudolus",
-      "descendants": 0,
-      "id": 30789987,
-      "score": 1,
-      "time": 1648131017,
-      "title": "CDC coding error led to overcount of 72,000 Covid deaths",
-      "type": "story",
-      "url": "https://www.theguardian.com/world/2022/mar/24/cdc-coding-error-overcount-covid-deaths"
     }
   ]
 }
