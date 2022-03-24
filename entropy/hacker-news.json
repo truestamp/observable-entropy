@@ -1,10 +1,72 @@
 {
   "stories": [
-    null,
+    {
+      "by": "tchiotludo",
+      "descendants": 0,
+      "id": 30790047,
+      "score": 1,
+      "time": 1648131273,
+      "title": "Show HN: After AKHQ (KafkaHQ), I Made Kestra Open-Source Airflow Alternative",
+      "type": "story",
+      "url": "https://github.com/kestra-io/kestra"
+    },
+    {
+      "by": "tosh",
+      "descendants": 0,
+      "id": 30790043,
+      "score": 1,
+      "time": 1648131257,
+      "title": "Thermal Printing",
+      "type": "story",
+      "url": "https://en.wikipedia.org/wiki/Thermal_printing"
+    },
+    {
+      "by": "binwiederhier",
+      "descendants": 0,
+      "id": 30790016,
+      "score": 1,
+      "text": "Even after a lot of research, I wasn&#x27;t able to find an encryption file format that is widely used and still considered &quot;supported&quot; on most platforms. The obvious answer is OpenPGP [1], but that&#x27;s widely considered &quot;not modern&quot; and some languages even deprecate their support for it (e.g. Go [2]).<p>Specifically, I&#x27;m looking for a container format like OpenPGP that can support different cipher suites, e.g. &quot;passphrase-to-key via PBKDF2, then AES-GCM-128&quot; or similar and is portable across different programming languages and operating systems.<p>I do not believe such a tool exists, but I&#x27;m scratching my head as to why. It&#x27;s 2022. TLS is iniquitous. Why is there not TLS-in-a-file?<p>My use case is my push notification project [3]. I people to be able to do this (on the shell):<p><pre><code>   echo &quot;secret message&quot; | encxyz -p &quot;password&quot; | curl -T- ntfy.sh&#x2F;mytopic\n</code></pre>\nOr this (in JS):<p><pre><code>   import {xyz_encyrpt} from &quot;encryptxyz;\n   const message = xyz_encrypt(&quot;secret message&quot;, &quot;password&quot;);\n   fetch(...);\n</code></pre>\nOf course I can design my own thing (and I have), but then I have to make my own libraries for all languages that I want to offer end-to-end encryption for.<p>[1] https:&#x2F;&#x2F;datatracker.ietf.org&#x2F;doc&#x2F;html&#x2F;rfc4880<p>[2] https:&#x2F;&#x2F;github.com&#x2F;golang&#x2F;go&#x2F;issues&#x2F;44226<p>[3] https:&#x2F;&#x2F;github.com&#x2F;binwiederhier&#x2F;ntfy",
+      "time": 1648131117,
+      "title": "Ask HN: Is there a portable encryption file format?",
+      "type": "story"
+    },
+    {
+      "by": "ggerganov",
+      "descendants": 0,
+      "id": 30790007,
+      "score": 1,
+      "time": 1648131081,
+      "title": "Show HN: HNGuessr – Guessing the missing words in HN stories",
+      "type": "story",
+      "url": "https://hnguessr.ggerganov.com"
+    },
+    {
+      "by": "todsacerdoti",
+      "descendants": 0,
+      "id": 30790006,
+      "score": 1,
+      "time": 1648131075,
+      "title": "Extracting Triangular 3D Models, Materials, and Lighting from Images",
+      "type": "story",
+      "url": "https://nvlabs.github.io/nvdiffrec/"
+    },
+    {
+      "by": "pseudolus",
+      "descendants": 0,
+      "id": 30789987,
+      "score": 1,
+      "time": 1648131017,
+      "title": "CDC coding error led to overcount of 72,000 Covid deaths",
+      "type": "story",
+      "url": "https://www.theguardian.com/world/2022/mar/24/cdc-coding-error-overcount-covid-deaths"
+    },
     {
       "by": "gavinjoyce",
-      "descendants": 0,
+      "descendants": 1,
       "id": 30789981,
+      "kids": [
+        30790003
+      ],
       "score": 1,
       "time": 1648130991,
       "title": "Show HN: Vidu – Personalized GIFs for Sales and Marketing Teams",
@@ -15,7 +77,7 @@
       "by": "protomyth",
       "descendants": 0,
       "id": 30789954,
-      "score": 1,
+      "score": 2,
       "time": 1648130867,
       "title": "U.S. Air Force F-35 Costs to Climb",
       "type": "story",
@@ -40,56 +102,6 @@
       "title": "Intel watch out Laser doping at home",
       "type": "story",
       "url": "https://www.youtube.com/watch?v=ZAu3sXXCZuo"
-    },
-    {
-      "by": "qrv3w",
-      "descendants": 0,
-      "id": 30789927,
-      "score": 1,
-      "time": 1648130732,
-      "title": "Show HN: Easily stream audio from any computer to the internet",
-      "type": "story",
-      "url": "https://github.com/schollz/streammyaudio"
-    },
-    {
-      "by": "obiefernandez",
-      "descendants": 0,
-      "id": 30789900,
-      "score": 2,
-      "time": 1648130618,
-      "title": "Bored Ape Yacht Club's New Metaverse Shows NFTs Are Evolving",
-      "type": "story",
-      "url": "https://www.cnet.com/personal-finance/bored-ape-yacht-clubs-new-metaverse-shows-nfts-are-evolving/"
-    },
-    {
-      "by": "taubek",
-      "descendants": 0,
-      "id": 30789899,
-      "score": 1,
-      "time": 1648130617,
-      "title": "Weglot raises $50M to turn any website into a multilingual site",
-      "type": "story",
-      "url": "https://techcrunch.com/2022/03/24/weglot-raises-50-million-to-turn-any-website-into-a-multilingual-site/"
-    },
-    {
-      "by": "indiantinker",
-      "descendants": 0,
-      "id": 30789896,
-      "score": 1,
-      "time": 1648130583,
-      "title": "Here Be the Dragons",
-      "type": "story",
-      "url": "https://en.wikipedia.org/wiki/Here_be_dragons"
-    },
-    {
-      "by": "CapitalistCartr",
-      "descendants": 0,
-      "id": 30789894,
-      "score": 1,
-      "time": 1648130580,
-      "title": "New Linux kernel bolsters random number generation",
-      "type": "story",
-      "url": "https://www.theregister.com/2022/03/21/new_linux_kernel_has_improved/"
     }
   ]
 }
