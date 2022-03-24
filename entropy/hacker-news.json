@@ -1,10 +1,41 @@
 {
   "stories": [
     {
+      "by": "noja",
+      "descendants": 0,
+      "id": 30794639,
+      "score": 1,
+      "time": 1648151907,
+      "title": "Apps Could Triple Your Reading Speed (2014)",
+      "type": "story",
+      "url": "https://www.smithsonianmag.com/smart-news/these-apps-could-triple-your-reading-speed-180949945/"
+    },
+    {
+      "by": "yonz",
+      "descendants": 0,
+      "id": 30794635,
+      "score": 1,
+      "time": 1648151875,
+      "title": "Google is retiring Google Now Snapshot:(",
+      "type": "story",
+      "url": "https://support.google.com/assistant/answer/11135696?hl=en"
+    },
+    {
+      "by": "iroddis",
+      "descendants": 0,
+      "id": 30794634,
+      "score": 1,
+      "text": "Hello all,<p><pre><code>  I&#x27;ve been seeing a lot of interest in work orchestration frameworks, and thought I&#x27;d show off my own take. It&#x27;s the project I&#x27;ve used to learn rust (entire project is async rust using tokio and actix), but it&#x27;s been really useful for my main work, too.\n\n  Daggyr is an engine for executing tasks as quickly as possible. It can run tasks on flexible back-ends (slurm, local threads, etc), and report updates &#x2F; events to trackers (currently only in-memory, working on postgres and mongodb).\n\n  There&#x27;s no UI, just a REST interface. It doesn&#x27;t do scheduling (there are tons of tools for that). It doesn&#x27;t currently have multiple users &#x2F; auth, but I&#x27;m working on that.\n\n  It does support pipelines defined in JSON, task parameterization, a very simple and fast REST interface for job submission and tracking, and resuming failed runs from where they left off.\n\n  Why another one of these things?\n</code></pre>\n1. I couldn&#x27;t get behind Airflow&#x27;s weird scheduling opinions.\n2. Dagster, Airflow, and Prefect rely on tight integration with python. A lot of my work flows are calling custom binaries, so python provides no value, and it&#x27;s also a barrier to defining jobs.\n3. Daggyr can scale to pipelines of hundreds of thousands of tasks.\n4. Daggyr is stupidly simple to run: no external services or dependencies (unless you want them). Simple run the binary and send some work.<p><pre><code>  Long story short, it does what it says on the tin, but there&#x27;s more work to be done. I&#x27;d really appreciate any feedback. No idea if I&#x27;m going to try and commercialize it, but if you&#x27;d like to see  a feature ASAP, I&#x27;m always open to sponsored feature development!</code></pre>",
+      "time": 1648151854,
+      "title": "Show HN: Daggyr DAG Work Orchestration Engine",
+      "type": "story",
+      "url": "https://github.com/kinesintech/daggyr"
+    },
+    {
       "by": "ourmandave",
       "descendants": 0,
       "id": 30794616,
-      "score": 1,
+      "score": 2,
       "time": 1648151708,
       "title": "Nestlé: Anonymous Can't Hack Us, We Leaked Our Own Data",
       "type": "story",
@@ -69,36 +100,6 @@
       "title": "The Theoretical Minimum: Introduction to quantum mechanics with Leonard Susskind",
       "type": "story",
       "url": "https://theoreticalminimum.com/courses/quantum-mechanics/2012/winter/lecture-1"
-    },
-    {
-      "by": "tosh",
-      "descendants": 0,
-      "id": 30794485,
-      "score": 1,
-      "time": 1648151046,
-      "title": "Germany’s Scholz rejects Putin’s rubles-for-gas demand",
-      "type": "story",
-      "url": "https://www.politico.eu/article/germanys-scholz-rejects-putins-rubles-for-gas-demand/"
-    },
-    {
-      "by": "AmbassadorNo1",
-      "descendants": 0,
-      "id": 30794470,
-      "score": 1,
-      "time": 1648150978,
-      "title": "Reasons to version control your database",
-      "type": "story",
-      "url": "https://terminusdb.com/blog/8-reasons-to-version-control-your-database/"
-    },
-    {
-      "by": "notmysql_",
-      "descendants": 0,
-      "id": 30794464,
-      "score": 1,
-      "time": 1648150957,
-      "title": "Uber will list NYC taxis to combat driver shortage and high fares",
-      "type": "story",
-      "url": "https://techcrunch.com/2022/03/24/uber-nyc-taxi-partnership-deal/"
     }
   ]
 }
