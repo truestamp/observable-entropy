@@ -1,6 +1,92 @@
 {
   "stories": [
     {
+      "by": "rbanffy",
+      "descendants": 0,
+      "id": 30806634,
+      "score": 1,
+      "time": 1648239509,
+      "title": "We Need International Agreement on How to Handle These Dangerous Technologies",
+      "type": "story",
+      "url": "https://slate.com/technology/2022/03/dual-use-surveillance-technology-export-controls.html"
+    },
+    {
+      "by": "jicea",
+      "descendants": 0,
+      "id": 30806632,
+      "score": 1,
+      "time": 1648239498,
+      "title": "Timeui, minimal profiling tool for the macOS",
+      "type": "story",
+      "url": "https://trycombine.com/posts/introducing-timeui/"
+    },
+    {
+      "by": "database_guy",
+      "descendants": 1,
+      "id": 30806624,
+      "kids": [
+        30806638,
+        30806641
+      ],
+      "score": 3,
+      "text": "I&#x27;m a single engineer who wants to run a database by myself, no cloud vendors involved. I don&#x27;t really care about scalability to a point, I don&#x27;t really care about the API to interact with the database. I just want something that I can set up on multiple machines with minimal effort and have the loss of one of those nodes not cause catastrophic failures. I want the experience of something like etcd without being limited to a few gigabytes of data in the cluster (a Terabyte or maybe a couple hundred Gigabytes as a limit would probably be fine). I&#x27;ve spent a lot of time looking through the various options and wrote up my thoughts on why each of them wasn&#x27;t a good fit.<p>Postgres: A great database but HA options either have far too many moving parts, require manual intervention, are proprietary, or are Fake Open Source. Seems like there&#x27;s lack of interest in addressing this because companies that sponsor development generate a lot of value off complex operations<p>MySQL: This database has some odd behavior but that would be fine if it weren&#x27;t Fake Open Source<p>MariaDB: HA Options are poor or abandoned<p>SQL Server: Proprietary<p>Oracle: haha<p>CockroachDB: Fake Open Source<p>YugabyteDB: Fake Open Source. Special shout out here for not even linking to instructions for how to build the database in the readme.<p>MongoDB: Proprietary, and even before the license change it was Fake Open Source<p>Cassandra: Not fun to run, and even though I said I didn&#x27;t care about API I don&#x27;t necessarily love how it works. But it comes probably the closest?<p>ScyllaDB: Fake Open Source<p>TiDB: Fake Open Source<p>Singlestore: Fake Open Source<p>FoundationDB: This one comes close but its beginning as a proprietary database really hurt its community, which is way smaller now than it should be. Could grow into something great if more folks got behind it.<p>etcd: not suitable for use above a couple GB of data<p>What do I mean by Fake Open Source? A project that has a large percentage of its contributors beholden to a single organization&#x2F;entity to me is not really open source in spirit. I&#x27;m looking for a project where I can feel confident my contributions won&#x27;t effectively end up behind some proprietary license down the line if&#x2F;when the VC backed organization that primarily sponsors development decides it needs to protect itself from AWS. If there&#x27;s an &quot;Enterprise&quot; product and the organization calls the source code for the main project the &quot;Community Edition&quot; or something like it, it&#x27;s not Real Open Source. If a single organization shuts down and contributions fall off a cliff (https:&#x2F;&#x2F;github.com&#x2F;rethinkdb&#x2F;rethinkdb&#x2F;graphs&#x2F;contributors) it&#x27;s not Real Open Source. There are lots of Real Open Source projects with great communities of users&#x2F;contributors, but many of the newer databases don&#x27;t have legitimate open source development communities behind them, in my opinion.<p>I&#x27;ve probably missed some examples. Mostly, I wonder why there hasn&#x27;t been a general purpose open source database that does the operations stuff as well as the proprietary databases do. Am I missing something?",
+      "time": 1648239409,
+      "title": "Ask HN: Why are there no easy-to-use highly-available open source databases?",
+      "type": "story"
+    },
+    {
+      "by": "colinprince",
+      "descendants": 0,
+      "id": 30806617,
+      "score": 2,
+      "time": 1648239384,
+      "title": "UK exposes Russian spy agency behind cyber incidents",
+      "type": "story",
+      "url": "https://www.gov.uk/government/news/uk-exposes-russian-spy-agency-behind-cyber-incidents"
+    },
+    {
+      "by": "knoxa2511",
+      "descendants": 0,
+      "id": 30806616,
+      "score": 1,
+      "time": 1648239383,
+      "title": "Ask HN: What do you do with your cloudtrail logs?",
+      "type": "story"
+    },
+    {
+      "by": "linkdd",
+      "descendants": 1,
+      "id": 30806615,
+      "kids": [
+        30806643
+      ],
+      "score": 1,
+      "text": "Hello HN,<p>I like Ansible as a tool for automation to perform tasks on multiple remote hosts. But like many of you, I&#x27;m sick of the custom YAML DSL that many of this kind of tools provide.<p>How many times have we said &quot;just give me a true scripting language!&quot; ?<p>That&#x27;s why I started this project `tricorder` (as in Star Trek&#x27;s tricorder, a simple device to do pretty much anything required by the plot).<p>For now, it&#x27;s only a tool to execute a command on multiple hosts (like ansible, but without the YAML) and returning the outputs as JSON so you can query it with other tools like `jq` in your bash scripts. But with time, I intend to add other tools to provide the following features:<p><pre><code>  - mimic the &quot;gather facts&quot; feature from ansible\n  - upload&#x2F;download files to&#x2F;from remote hosts\n  - Rust API to include in your projects\n  - bindings to other languages like Python&#x2F;TypeScript&#x2F;Go\n</code></pre>\nI&#x27;d be happy to have some feedback on the source code (as Rust is not my main language) or on what features you&#x27;d like to see implemented.<p>Thank you :)<p>Link to the Github repository: https:&#x2F;&#x2F;github.com&#x2F;linkdd&#x2F;tricorder",
+      "time": 1648239382,
+      "title": "Show HN: Automation the KISS way. No YAML involved",
+      "type": "story"
+    },
+    {
+      "by": "Tomte",
+      "descendants": 0,
+      "id": 30806610,
+      "score": 3,
+      "time": 1648239370,
+      "title": "Have a protein you want inhibited? New software can design a blocker",
+      "type": "story",
+      "url": "https://arstechnica.com/science/2022/03/software-can-design-proteins-that-inhibit-proteins-on-viruses/"
+    },
+    {
+      "by": "mooreds",
+      "descendants": 0,
+      "id": 30806608,
+      "score": 1,
+      "time": 1648239353,
+      "title": "Spotlight: Women Founders",
+      "type": "story",
+      "url": "https://partakefoods.com/blogs/news/spotlight-women-founders"
+    },
+    {
       "by": "mooreds",
       "descendants": 0,
       "id": 30806595,
@@ -11,16 +97,6 @@
       "url": "https://www.windley.com/archives/2022/03/are_transactional_relationships_enough.shtml"
     },
     {
-      "by": "database_guy",
-      "descendants": 0,
-      "id": 30806594,
-      "score": 1,
-      "text": "I&#x27;m a single engineer who wants to run a database by myself, no cloud vendors involved. I don&#x27;t really care about scalability to a point, I don&#x27;t really care about the API to interact with the database. I just want something that I can set up on multiple machines with minimal effort and have the loss of one of those nodes not cause catastrophic failures. I want the experience of something like etcd without being limited to a few gigabytes of data in the cluster (a Terabyte or maybe a couple hundred Gigabytes as a limit would probably be fine). I&#x27;ve spent a lot of time looking through the various options and wrote up my thoughts on why each of them wasn&#x27;t a good fit.<p>Postgres: A great database but HA options either have far too many moving parts, require manual intervention, are proprietary, or are Fake Open Source. Seems like there&#x27;s lack of interest in addressing this because companies that sponsor development generate a lot of value off complex operations\nMySQL: This database has some odd behavior but that would be fine if it weren&#x27;t Fake Open Source\nMariaDB: HA Options are poor or abandoned\nSQL Server: Proprietary\nOracle: haha\nCockroachDB: Fake Open Source\nYugabyteDB: Fake Open Source. Special shout out here for not even linking to instructions for how to build the database in the readme.\nMongoDB: Proprietary, and even before the license change it was Fake Open Source\nCassandra: Not fun to run, and even though I said I didn&#x27;t care about API I don&#x27;t necessarily love how it works. But it comes probably the closest?\nScyllaDB: Fake Open Source\nTiDB: Fake Open Source\nSinglestore: Fake Open Source\nFoundationDB: This one comes close but its beginning as a proprietary database really hurt its community, which is way smaller now than it should be. Could grow into something great if more folks got behind it.\netcd: not suitable for use above a couple GB of data<p>What do I mean by Fake Open Source? A project that has a large percentage of its contributors beholden to a single organization&#x2F;entity to me is not really open source in spirit. I&#x27;m looking for a project where I can feel confident my contributions won&#x27;t effectively end up behind some proprietary license down the line if&#x2F;when the VC backed organization that primarily sponsors development decides it needs to protect itself from AWS. If there&#x27;s an &quot;Enterprise&quot; product and the organization calls the source code for the main project the &quot;Community Edition&quot; or something like it, it&#x27;s not Real Open Source. If a single organization shuts down and contributions fall off a cliff (https:&#x2F;&#x2F;github.com&#x2F;rethinkdb&#x2F;rethinkdb&#x2F;graphs&#x2F;contributors) it&#x27;s not Real Open Source. There are lots of Real Open Source projects with great communities of users&#x2F;contributors, but many of the newer databases don&#x27;t have legitimate open source development communities behind them, in my opinion.<p>I&#x27;ve probably missed some examples. Mostly, I wonder why there hasn&#x27;t been a general purpose open source database that does the operations stuff as well as the proprietary databases do. Am I missing something?",
-      "time": 1648239261,
-      "title": "Ask HN: Why are there no easy-to-use highly-available open source databases?",
-      "type": "story"
-    },
-    {
       "by": "mooreds",
       "descendants": 0,
       "id": 30806588,
@@ -29,76 +105,6 @@
       "title": "Go 1.18 and Google Cloud: Go Now with Google Cloud",
       "type": "story",
       "url": "https://cloud.google.com/blog/products/gcp/go-1-18-and-google-cloud-go-now-with-google-cloud"
-    },
-    {
-      "by": "rntn",
-      "descendants": 0,
-      "id": 30806579,
-      "score": 1,
-      "time": 1648239115,
-      "title": "Russia states more limited war goal to 'liberate' Donbass",
-      "type": "story",
-      "url": "https://www.reuters.com/world/europe/russia-says-first-phase-ukraine-operation-mostly-complete-focus-now-donbass-2022-03-25/"
-    },
-    {
-      "by": "mooreds",
-      "descendants": 0,
-      "id": 30806573,
-      "score": 1,
-      "time": 1648239055,
-      "title": "Money in the Bank vs. Burn",
-      "type": "story",
-      "url": "https://sethlevine.com/archives/2022/03/money-in-the-bank-vs-burn.html"
-    },
-    {
-      "by": "samspenc",
-      "descendants": 0,
-      "id": 30806571,
-      "score": 1,
-      "time": 1648239052,
-      "title": "China's Ministry of Foreign Affairs now spreading rumors Moderna created Covid",
-      "type": "story",
-      "url": "https://twitter.com/paulmozur/status/1507158336726175744"
-    },
-    {
-      "by": "jessimckenzi",
-      "descendants": 0,
-      "id": 30806564,
-      "score": 1,
-      "time": 1648239013,
-      "title": "Y Combinator alum: reinvented meat to stave off climate crisis and next pandemic",
-      "type": "story",
-      "url": "https://thebulletin.org/2022/03/reinventing-meat-to-stave-off-climate-crisis-and-the-next-pandemic/"
-    },
-    {
-      "by": "gmays",
-      "descendants": 0,
-      "id": 30806561,
-      "score": 2,
-      "time": 1648239005,
-      "title": "Nicolas Cage Can Explain It All",
-      "type": "story",
-      "url": "https://www.gq.com/story/nicolas-cage-april-cover-profile"
-    },
-    {
-      "by": "t23",
-      "descendants": 0,
-      "id": 30806541,
-      "score": 2,
-      "time": 1648238865,
-      "title": "Sony and Honda Sign Memorandum of Understanding for Strategic Alliance",
-      "type": "story",
-      "url": "https://global.honda/newsroom/news/2022/c220304beng.html"
-    },
-    {
-      "by": "mustache_kimono",
-      "descendants": 0,
-      "id": 30806539,
-      "score": 1,
-      "time": 1648238859,
-      "title": "Rust for Linux by Miguel Ojeda and Wedson Almeida Filho – Rust Linz, March 2022",
-      "type": "story",
-      "url": "https://www.youtube.com/watch?v=fVEeqo40IyQ"
     }
   ]
 }
