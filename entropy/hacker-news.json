@@ -1,6 +1,28 @@
 {
   "stories": [
     {
+      "by": "samizdis",
+      "descendants": 0,
+      "id": 30800400,
+      "score": 1,
+      "time": 1648203888,
+      "title": "Google helps develop AI-driven lab machine to diagnose Parkinson's",
+      "type": "story",
+      "url": "https://www.theregister.com/2022/03/25/google_ai_parkinsons/"
+    },
+    {
+      "by": "rpau_cb",
+      "descendants": 1,
+      "id": 30800378,
+      "kids": [
+        30800395
+      ],
+      "score": 1,
+      "time": 1648203664,
+      "title": "Ask HN: What AWS technology do you use to deploy “hello world” containers?",
+      "type": "story"
+    },
+    {
       "by": "hardmaru",
       "descendants": 0,
       "id": 30800363,
@@ -79,26 +101,6 @@
       "title": "A Year of BonsaiDb: A retrospective and looking to the future",
       "type": "story",
       "url": "https://bonsaidb.io/blog/one-year-anniversary/"
-    },
-    {
-      "by": "ushakov",
-      "descendants": 0,
-      "id": 30800266,
-      "score": 3,
-      "time": 1648202522,
-      "title": "UK Police Arrest 7 People in Connection with Lapsus$ Hacks",
-      "type": "story",
-      "url": "https://m.slashdot.org/story/397861"
-    },
-    {
-      "by": "sporkle-feet",
-      "descendants": 0,
-      "id": 30800259,
-      "score": 1,
-      "text": "Having recently been tasked at work with upgrading some dependencies, I realise this is a nightmare.<p>We have unit tests, but they are not sufficient to be confident that nothing is subtly broken. This is a problem in many environments (maven, nuget, npm, etc). There was a story recently where (I think) a Ruby library subtly changed behaviour between versions and broke their payment system.<p>Our current process is to not update unless a security vulnerability is raised (we have tools to check for these), or a new version has features we want. Then automated unit testing and manual testing is done, but not to the level where, for instance, we would have caught that payments bug. We don&#x27;t audit the source code of open-source libraries.<p>Is this a reasonable process? How does your company handle this? How could we do better?",
-      "time": 1648202436,
-      "title": "How and When should we update our dependencies?",
-      "type": "story"
     }
   ]
 }
