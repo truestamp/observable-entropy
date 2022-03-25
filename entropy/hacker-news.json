@@ -1,10 +1,20 @@
 {
   "stories": [
     {
+      "by": "geekydev",
+      "descendants": 0,
+      "id": 30806719,
+      "score": 1,
+      "time": 1648240080,
+      "title": "Can You Win at Gambling? A Real Casino vs. My Computer Simulation",
+      "type": "story",
+      "url": "https://blog.devgenius.io/can-you-really-win-at-gambling-a-real-casino-vs-my-computer-simulation-14db4e241eba?gi=6dac67ebe342"
+    },
+    {
       "by": "tosh",
       "descendants": 0,
       "id": 30806680,
-      "score": 1,
+      "score": 2,
       "time": 1648239791,
       "title": "Intel Virtualization and Apple Silicon",
       "type": "story",
@@ -14,7 +24,7 @@
       "by": "ummonk",
       "descendants": 0,
       "id": 30806668,
-      "score": 1,
+      "score": 2,
       "time": 1648239714,
       "title": "YouTube blocks WION for reporting Russian statement",
       "type": "story",
@@ -22,9 +32,12 @@
     },
     {
       "by": "jklp",
-      "descendants": 0,
+      "descendants": 1,
       "id": 30806665,
-      "score": 1,
+      "kids": [
+        30806738
+      ],
+      "score": 2,
       "time": 1648239697,
       "title": "Apple forced to allow Sideloading and 3rd-party app stores under new EU law",
       "type": "story",
@@ -34,7 +47,7 @@
       "by": "kvee",
       "descendants": 0,
       "id": 30806656,
-      "score": 1,
+      "score": 2,
       "time": 1648239621,
       "title": "Quota Plan May Destroy Oscars",
       "type": "story",
@@ -62,7 +75,7 @@
     },
     {
       "by": "database_guy",
-      "descendants": 1,
+      "descendants": 2,
       "id": 30806624,
       "kids": [
         30806638,
@@ -91,19 +104,6 @@
       "score": 1,
       "time": 1648239383,
       "title": "Ask HN: What do you do with your cloudtrail logs?",
-      "type": "story"
-    },
-    {
-      "by": "linkdd",
-      "descendants": 1,
-      "id": 30806615,
-      "kids": [
-        30806643
-      ],
-      "score": 1,
-      "text": "Hello HN,<p>I like Ansible as a tool for automation to perform tasks on multiple remote hosts. But like many of you, I&#x27;m sick of the custom YAML DSL that many of this kind of tools provide.<p>How many times have we said &quot;just give me a true scripting language!&quot; ?<p>That&#x27;s why I started this project `tricorder` (as in Star Trek&#x27;s tricorder, a simple device to do pretty much anything required by the plot).<p>For now, it&#x27;s only a tool to execute a command on multiple hosts (like ansible, but without the YAML) and returning the outputs as JSON so you can query it with other tools like `jq` in your bash scripts. But with time, I intend to add other tools to provide the following features:<p><pre><code>  - mimic the &quot;gather facts&quot; feature from ansible\n  - upload&#x2F;download files to&#x2F;from remote hosts\n  - Rust API to include in your projects\n  - bindings to other languages like Python&#x2F;TypeScript&#x2F;Go\n</code></pre>\nI&#x27;d be happy to have some feedback on the source code (as Rust is not my main language) or on what features you&#x27;d like to see implemented.<p>Thank you :)<p>Link to the Github repository: https:&#x2F;&#x2F;github.com&#x2F;linkdd&#x2F;tricorder",
-      "time": 1648239382,
-      "title": "Show HN: Automation the KISS way. No YAML involved",
       "type": "story"
     }
   ]
