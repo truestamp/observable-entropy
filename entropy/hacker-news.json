@@ -1,6 +1,36 @@
 {
   "stories": [
     {
+      "by": "lukastyrychtr",
+      "descendants": 0,
+      "id": 30800272,
+      "score": 1,
+      "time": 1648202576,
+      "title": "A Year of BonsaiDb: A retrospective and looking to the future",
+      "type": "story",
+      "url": "https://bonsaidb.io/blog/one-year-anniversary/"
+    },
+    {
+      "by": "ushakov",
+      "descendants": 0,
+      "id": 30800266,
+      "score": 1,
+      "time": 1648202522,
+      "title": "UK Police Arrest 7 People in Connection with Lapsus$ Hacks",
+      "type": "story",
+      "url": "https://m.slashdot.org/story/397861"
+    },
+    {
+      "by": "sporkle-feet",
+      "descendants": 0,
+      "id": 30800259,
+      "score": 1,
+      "text": "Having recently been tasked at work with upgrading some dependencies, I realise this is a nightmare.<p>We have unit tests, but they are not sufficient to be confident that nothing is subtly broken. This is a problem in many environments (maven, nuget, npm, etc). There was a story recently where (I think) a Ruby library subtly changed behaviour between versions and broke their payment system.<p>Our current process is to not update unless a security vulnerability is raised (we have tools to check for these), or a new version has features we want. Then automated unit testing and manual testing is done, but not to the level where, for instance, we would have caught that payments bug. We don&#x27;t audit the source code of open-source libraries.<p>Is this a reasonable process? How does your company handle this? How could we do better?",
+      "time": 1648202436,
+      "title": "How and When should we update our dependencies?",
+      "type": "story"
+    },
+    {
       "by": "valprop1",
       "descendants": 0,
       "id": 30800188,
@@ -75,40 +105,6 @@
       "title": "The 5-year journey to bring restartable sequences to Linux (2019)",
       "type": "story",
       "url": "https://www.efficios.com/blog/2019/02/08/linux-restartable-sequences/"
-    },
-    {
-      "by": "Tomte",
-      "descendants": 0,
-      "id": 30800144,
-      "score": 1,
-      "time": 1648201066,
-      "title": "Church Bell Concert in Herrenberg, Germany (2018)",
-      "type": "story",
-      "url": "https://www.youtube.com/watch?v=xdAh-uQS6-8"
-    },
-    {
-      "by": "Tomte",
-      "descendants": 0,
-      "id": 30800139,
-      "score": 1,
-      "time": 1648201037,
-      "title": "Boa constrictors can breathe while squeezing the life out of prey",
-      "type": "story",
-      "url": "https://arstechnica.com/science/2022/03/x-rays-reveal-why-boa-constrictors-can-still-breathe-as-they-crush-their-prey/"
-    },
-    {
-      "by": "GreatSwallower",
-      "descendants": 2,
-      "id": 30800126,
-      "kids": [
-        30800194,
-        30800133
-      ],
-      "score": 1,
-      "text": "Just what the title said. I&#x27;m just curious about why would we use one instead of the other in a given situation",
-      "time": 1648200925,
-      "title": "Ask HN: What It the Main Difference Between HTTP and SSH?",
-      "type": "story"
     }
   ]
 }
