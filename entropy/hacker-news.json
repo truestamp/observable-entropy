@@ -1,10 +1,80 @@
 {
   "stories": [
     {
+      "by": "mooreds",
+      "descendants": 0,
+      "id": 30806595,
+      "score": 1,
+      "time": 1648239265,
+      "title": "Are Transactional Relationships Enough?",
+      "type": "story",
+      "url": "https://www.windley.com/archives/2022/03/are_transactional_relationships_enough.shtml"
+    },
+    {
+      "by": "database_guy",
+      "descendants": 0,
+      "id": 30806594,
+      "score": 1,
+      "text": "I&#x27;m a single engineer who wants to run a database by myself, no cloud vendors involved. I don&#x27;t really care about scalability to a point, I don&#x27;t really care about the API to interact with the database. I just want something that I can set up on multiple machines with minimal effort and have the loss of one of those nodes not cause catastrophic failures. I want the experience of something like etcd without being limited to a few gigabytes of data in the cluster (a Terabyte or maybe a couple hundred Gigabytes as a limit would probably be fine). I&#x27;ve spent a lot of time looking through the various options and wrote up my thoughts on why each of them wasn&#x27;t a good fit.<p>Postgres: A great database but HA options either have far too many moving parts, require manual intervention, are proprietary, or are Fake Open Source. Seems like there&#x27;s lack of interest in addressing this because companies that sponsor development generate a lot of value off complex operations\nMySQL: This database has some odd behavior but that would be fine if it weren&#x27;t Fake Open Source\nMariaDB: HA Options are poor or abandoned\nSQL Server: Proprietary\nOracle: haha\nCockroachDB: Fake Open Source\nYugabyteDB: Fake Open Source. Special shout out here for not even linking to instructions for how to build the database in the readme.\nMongoDB: Proprietary, and even before the license change it was Fake Open Source\nCassandra: Not fun to run, and even though I said I didn&#x27;t care about API I don&#x27;t necessarily love how it works. But it comes probably the closest?\nScyllaDB: Fake Open Source\nTiDB: Fake Open Source\nSinglestore: Fake Open Source\nFoundationDB: This one comes close but its beginning as a proprietary database really hurt its community, which is way smaller now than it should be. Could grow into something great if more folks got behind it.\netcd: not suitable for use above a couple GB of data<p>What do I mean by Fake Open Source? A project that has a large percentage of its contributors beholden to a single organization&#x2F;entity to me is not really open source in spirit. I&#x27;m looking for a project where I can feel confident my contributions won&#x27;t effectively end up behind some proprietary license down the line if&#x2F;when the VC backed organization that primarily sponsors development decides it needs to protect itself from AWS. If there&#x27;s an &quot;Enterprise&quot; product and the organization calls the source code for the main project the &quot;Community Edition&quot; or something like it, it&#x27;s not Real Open Source. If a single organization shuts down and contributions fall off a cliff (https:&#x2F;&#x2F;github.com&#x2F;rethinkdb&#x2F;rethinkdb&#x2F;graphs&#x2F;contributors) it&#x27;s not Real Open Source. There are lots of Real Open Source projects with great communities of users&#x2F;contributors, but many of the newer databases don&#x27;t have legitimate open source development communities behind them, in my opinion.<p>I&#x27;ve probably missed some examples. Mostly, I wonder why there hasn&#x27;t been a general purpose open source database that does the operations stuff as well as the proprietary databases do. Am I missing something?",
+      "time": 1648239261,
+      "title": "Ask HN: Why are there no easy-to-use highly-available open source databases?",
+      "type": "story"
+    },
+    {
+      "by": "mooreds",
+      "descendants": 0,
+      "id": 30806588,
+      "score": 1,
+      "time": 1648239182,
+      "title": "Go 1.18 and Google Cloud: Go Now with Google Cloud",
+      "type": "story",
+      "url": "https://cloud.google.com/blog/products/gcp/go-1-18-and-google-cloud-go-now-with-google-cloud"
+    },
+    {
+      "by": "rntn",
+      "descendants": 0,
+      "id": 30806579,
+      "score": 1,
+      "time": 1648239115,
+      "title": "Russia states more limited war goal to 'liberate' Donbass",
+      "type": "story",
+      "url": "https://www.reuters.com/world/europe/russia-says-first-phase-ukraine-operation-mostly-complete-focus-now-donbass-2022-03-25/"
+    },
+    {
+      "by": "mooreds",
+      "descendants": 0,
+      "id": 30806573,
+      "score": 1,
+      "time": 1648239055,
+      "title": "Money in the Bank vs. Burn",
+      "type": "story",
+      "url": "https://sethlevine.com/archives/2022/03/money-in-the-bank-vs-burn.html"
+    },
+    {
+      "by": "samspenc",
+      "descendants": 0,
+      "id": 30806571,
+      "score": 1,
+      "time": 1648239052,
+      "title": "China's Ministry of Foreign Affairs now spreading rumors Moderna created Covid",
+      "type": "story",
+      "url": "https://twitter.com/paulmozur/status/1507158336726175744"
+    },
+    {
+      "by": "jessimckenzi",
+      "descendants": 0,
+      "id": 30806564,
+      "score": 1,
+      "time": 1648239013,
+      "title": "Y Combinator alum: reinvented meat to stave off climate crisis and next pandemic",
+      "type": "story",
+      "url": "https://thebulletin.org/2022/03/reinventing-meat-to-stave-off-climate-crisis-and-the-next-pandemic/"
+    },
+    {
       "by": "gmays",
       "descendants": 0,
       "id": 30806561,
-      "score": 1,
+      "score": 2,
       "time": 1648239005,
       "title": "Nicolas Cage Can Explain It All",
       "type": "story",
@@ -29,76 +99,6 @@
       "title": "Rust for Linux by Miguel Ojeda and Wedson Almeida Filho – Rust Linz, March 2022",
       "type": "story",
       "url": "https://www.youtube.com/watch?v=fVEeqo40IyQ"
-    },
-    {
-      "by": "fabiansch",
-      "descendants": 0,
-      "id": 30806528,
-      "score": 3,
-      "time": 1648238759,
-      "title": "Supabase Launch Week IV",
-      "type": "story",
-      "url": "https://supabase.com/blog/2022/03/25/supabase-launch-week-four"
-    },
-    {
-      "by": "Ranns",
-      "descendants": 0,
-      "id": 30806493,
-      "score": 2,
-      "time": 1648238557,
-      "title": "Application Layer Attacks Can Defeat DDoS Protection",
-      "type": "story",
-      "url": "https://sudosecurity.org/blog/app-layer-attacks-ddos-attacks/"
-    },
-    {
-      "by": "anarbadalov",
-      "descendants": 0,
-      "id": 30806491,
-      "score": 1,
-      "time": 1648238540,
-      "title": "Bureaucratic Psychosis",
-      "type": "story",
-      "url": "https://experimentalhistory.substack.com/p/bureaucratic-psychosis"
-    },
-    {
-      "by": "PaulHoule",
-      "descendants": 0,
-      "id": 30806452,
-      "score": 3,
-      "time": 1648238268,
-      "title": "Two 20-year-olds charged in alleged $1.1M NFT scam",
-      "type": "story",
-      "url": "https://nypost.com/2022/03/24/two-20-year-olds-charged-in-alleged-1-1m-nft-scam/"
-    },
-    {
-      "by": "memish",
-      "descendants": 0,
-      "id": 30806443,
-      "score": 1,
-      "time": 1648238207,
-      "title": "The Myth That Most Americans Hate Their Job",
-      "type": "story",
-      "url": "https://www.theatlantic.com/newsletters/archive/2022/03/american-great-resignation-hate-work/627761/"
-    },
-    {
-      "by": "swyx",
-      "descendants": 0,
-      "id": 30806415,
-      "score": 7,
-      "time": 1648237966,
-      "title": "Should I Open Source my Company?",
-      "type": "story",
-      "url": "https://supabase.com/blog/2022/03/25/should-i-open-source-my-company"
-    },
-    {
-      "by": "Tomte",
-      "descendants": 0,
-      "id": 30806385,
-      "score": 1,
-      "time": 1648237770,
-      "title": "WCAG Audit of DokuWiki (2021)",
-      "type": "story",
-      "url": "https://www.dokuwiki.org/wcag-audit"
     }
   ]
 }
