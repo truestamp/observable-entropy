@@ -1,6 +1,36 @@
 {
   "stories": [
     {
+      "by": "doener",
+      "descendants": 0,
+      "id": 30806782,
+      "score": 1,
+      "time": 1648240478,
+      "title": "Only chillers worldwide which use the natural safety refrigerant water",
+      "type": "story",
+      "url": "https://efficient-energy.de/en/"
+    },
+    {
+      "by": "toolmantim",
+      "descendants": 0,
+      "id": 30806769,
+      "score": 2,
+      "time": 1648240364,
+      "title": "Lyft's mobile team does mobile CI at scale",
+      "type": "story",
+      "url": "https://buildkite.com/blog/how-lyfts-mobile-team-does-mobile-ci-at-scale"
+    },
+    {
+      "by": "YeGoblynQueenne",
+      "descendants": 0,
+      "id": 30806752,
+      "score": 1,
+      "time": 1648240268,
+      "title": "The Nukkai Challenge: Can advanced AI beat the best bridge player?",
+      "type": "story",
+      "url": "https://www.youtube.com/watch?v=DHpeHCsojbI"
+    },
+    {
       "by": "geekydev",
       "descendants": 0,
       "id": 30806719,
@@ -47,7 +77,7 @@
       "by": "kvee",
       "descendants": 0,
       "id": 30806656,
-      "score": 2,
+      "score": 3,
       "time": 1648239621,
       "title": "Quota Plan May Destroy Oscars",
       "type": "story",
@@ -72,39 +102,6 @@
       "title": "Timeui, minimal profiling tool for the macOS",
       "type": "story",
       "url": "https://trycombine.com/posts/introducing-timeui/"
-    },
-    {
-      "by": "database_guy",
-      "descendants": 2,
-      "id": 30806624,
-      "kids": [
-        30806638,
-        30806641
-      ],
-      "score": 3,
-      "text": "I&#x27;m a single engineer who wants to run a database by myself, no cloud vendors involved. I don&#x27;t really care about scalability to a point, I don&#x27;t really care about the API to interact with the database. I just want something that I can set up on multiple machines with minimal effort and have the loss of one of those nodes not cause catastrophic failures. I want the experience of something like etcd without being limited to a few gigabytes of data in the cluster (a Terabyte or maybe a couple hundred Gigabytes as a limit would probably be fine). I&#x27;ve spent a lot of time looking through the various options and wrote up my thoughts on why each of them wasn&#x27;t a good fit.<p>Postgres: A great database but HA options either have far too many moving parts, require manual intervention, are proprietary, or are Fake Open Source. Seems like there&#x27;s lack of interest in addressing this because companies that sponsor development generate a lot of value off complex operations<p>MySQL: This database has some odd behavior but that would be fine if it weren&#x27;t Fake Open Source<p>MariaDB: HA Options are poor or abandoned<p>SQL Server: Proprietary<p>Oracle: haha<p>CockroachDB: Fake Open Source<p>YugabyteDB: Fake Open Source. Special shout out here for not even linking to instructions for how to build the database in the readme.<p>MongoDB: Proprietary, and even before the license change it was Fake Open Source<p>Cassandra: Not fun to run, and even though I said I didn&#x27;t care about API I don&#x27;t necessarily love how it works. But it comes probably the closest?<p>ScyllaDB: Fake Open Source<p>TiDB: Fake Open Source<p>Singlestore: Fake Open Source<p>FoundationDB: This one comes close but its beginning as a proprietary database really hurt its community, which is way smaller now than it should be. Could grow into something great if more folks got behind it.<p>etcd: not suitable for use above a couple GB of data<p>What do I mean by Fake Open Source? A project that has a large percentage of its contributors beholden to a single organization&#x2F;entity to me is not really open source in spirit. I&#x27;m looking for a project where I can feel confident my contributions won&#x27;t effectively end up behind some proprietary license down the line if&#x2F;when the VC backed organization that primarily sponsors development decides it needs to protect itself from AWS. If there&#x27;s an &quot;Enterprise&quot; product and the organization calls the source code for the main project the &quot;Community Edition&quot; or something like it, it&#x27;s not Real Open Source. If a single organization shuts down and contributions fall off a cliff (https:&#x2F;&#x2F;github.com&#x2F;rethinkdb&#x2F;rethinkdb&#x2F;graphs&#x2F;contributors) it&#x27;s not Real Open Source. There are lots of Real Open Source projects with great communities of users&#x2F;contributors, but many of the newer databases don&#x27;t have legitimate open source development communities behind them, in my opinion.<p>I&#x27;ve probably missed some examples. Mostly, I wonder why there hasn&#x27;t been a general purpose open source database that does the operations stuff as well as the proprietary databases do. Am I missing something?",
-      "time": 1648239409,
-      "title": "Ask HN: Why are there no easy-to-use highly-available open source databases?",
-      "type": "story"
-    },
-    {
-      "by": "colinprince",
-      "descendants": 0,
-      "id": 30806617,
-      "score": 3,
-      "time": 1648239384,
-      "title": "UK exposes Russian spy agency behind cyber incidents",
-      "type": "story",
-      "url": "https://www.gov.uk/government/news/uk-exposes-russian-spy-agency-behind-cyber-incidents"
-    },
-    {
-      "by": "knoxa2511",
-      "descendants": 0,
-      "id": 30806616,
-      "score": 1,
-      "time": 1648239383,
-      "title": "Ask HN: What do you do with your cloudtrail logs?",
-      "type": "story"
     }
   ]
 }
