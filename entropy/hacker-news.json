@@ -1,10 +1,24 @@
 {
   "stories": [
+    null,
+    {
+      "by": "saaspirant",
+      "descendants": 0,
+      "id": 30809371,
+      "score": 1,
+      "time": 1648270978,
+      "title": "The Oregon Trail in Python",
+      "type": "story",
+      "url": "https://keithmfoster.com/the-oregon-trail/"
+    },
     {
       "by": "ajani",
-      "descendants": 0,
+      "descendants": 1,
       "id": 30809354,
-      "score": 1,
+      "kids": [
+        30809378
+      ],
+      "score": 2,
       "time": 1648270793,
       "title": "Ht3 – search non-monetized non-media tech blogs",
       "type": "story",
@@ -14,7 +28,7 @@
       "by": "oconnor663",
       "descendants": 0,
       "id": 30809352,
-      "score": 1,
+      "score": 2,
       "time": 1648270775,
       "title": "The SHA-256 Project: learn how hash functions work by implementing one yourself",
       "type": "story",
@@ -79,32 +93,6 @@
       "title": "Cambodia says ASEAN-U.S. summit postponed, seeking new date",
       "type": "story",
       "url": "https://www.reuters.com/world/asia-pacific/cambodia-says-asean-ussummit-postponed-seeking-new-date-2022-03-09/"
-    },
-    {
-      "by": "shaderx13",
-      "descendants": 1,
-      "id": 30809296,
-      "kids": [
-        30809311
-      ],
-      "score": 3,
-      "text": "In this part of tutorial, you will learn how dynamic content can be made in responses from a Pipy program. You will also tast a bit of how variables work in Pipy.<p>Takeaways\nFilter parameters are only evaluated once so they have a &quot;static&quot; value at runtime. To make them &quot;dynamic&quot;, they need to be functions that output dynamic values.<p>Global variables have isolated states between concurrent pipelines. One of the builtin global variables is __inbound, which contains address&#x2F;port information about the current incoming connection.<p>More details, please refer to [https:&#x2F;&#x2F;flomesh.io&#x2F;docs&#x2F;en&#x2F;tutorial&#x2F;02-echo]",
-      "time": 1648269943,
-      "title": "Show HN: How to create an echo server with Pipy proxy",
-      "type": "story"
-    },
-    {
-      "by": "Ice_cream_suit",
-      "descendants": 1,
-      "id": 30809293,
-      "kids": [
-        30809333
-      ],
-      "score": 6,
-      "time": 1648269897,
-      "title": "FDA Approves First CRISPR Cows for Beef",
-      "type": "story",
-      "url": "https://modernfarmer.com/2022/03/fda-crispr-cows-for-beef/"
     }
   ]
 }
