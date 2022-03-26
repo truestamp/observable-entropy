@@ -1,9 +1,22 @@
 {
   "stories": [
     {
-      "by": "vxGxKrGU",
+      "by": "JNRowe",
       "descendants": 0,
+      "id": 30808090,
+      "score": 1,
+      "time": 1648252627,
+      "title": "N2: Revisiting Ninja",
+      "type": "story",
+      "url": "http://neugierig.org/software/blog/2022/03/n2.html"
+    },
+    {
+      "by": "vxGxKrGU",
+      "descendants": 1,
       "id": 30808071,
+      "kids": [
+        30808101
+      ],
       "score": 2,
       "text": "I have this idea, guys I wanted to know your opinion:<p>1. My idea would be an open file format called csvsheets. csvsheets file is csv format with spreadsheet function. My idea would be how people have a database in a spreadsheet but with a freer format without much complexity.\n2. This would be nice if you don&#x27;t want to rely on software company to open plain text files like Microsoft Office Excel etc. I thought about it because I think the xml format in my view compared to csv is bad. xslx is xml based is proprietary. There are of course open file formats, that&#x27;s my idea of   open file format.\n3. I was thinking of using the sqlite format, but it&#x27;s something that hasn&#x27;t been implemented yet.<p>```\n =CONCATENAR(A1:H7,A1:H7,1), =PISO(A1:H7,A1:H7,1), =BINOMDIST(A1:H7,A1:H7,1)\n =CHIDIST(A1:H7,A1:H7,1), =CHIINV(A1:H7,A1:H7,1), =CHITEST(A1:H7,A1:H7,1)\n =CONFIANÇA(A1:H7,A1:H7,1), =FTEST(A1:H7,A1:H7,1), =LOGINV(A1:H7,A1:H7,1)\n =LOGNORMDIST(A1:H7,A1:H7,1), = DIST.NORM(A1:H7,A1:H7,1), =NORMINV(A1:H7,A1:H7,1)\n = DIST.NORM(A1:H7,A1:H7,1), =NORMSINV(A1:H7,A1:H7,1), =PERCENTIL(A1:H7,A1:H7,1)\n ...\n```\ncommand description: These are some functions, it&#x27;s just an illustration of csvhseets<p>#### Ideas\n1. I don&#x27;t want to depend on a software company to open simple databases like csv. Csvsheets is an interesting format and not yet implemented\n2. My idea would be implementation, but I want to know everyone&#x27;s opinion here. My idea is with csvsheets is that i get business rules from spreadsheet files and easily if i need to replace with a database like postgres, mongodb, sql server, mariadb i can\n3. Csvsheets makes it easy to migrate from robust spreadsheets, that&#x27;s the idea\n4. There are trades that a database of many data is made by electronic spreadsheet. My idea here is to give people freedom\n5. This format reserved in gpl 2 license which is the same as linux. I believe csvsheets format can help people who don&#x27;t have the money for a robust database. There is no size for csvsheets files. The choice of csv format is that many databases are already able to read this file format\n6. In theory you can get a very fast system with csvsheets, just know csv and excel and create the rules in csv with excel formulas.\n7. The cool thing about this is the possibility of migrating the data to a larger database. The coolest is a csv file format with excel formula support. The GUI part would be done with html, css, js. There are systems like firefox os that implement this. Talk about csvsheets which is something very interesting, but I forgot to talk about how to create a csvsheets interface.\n8. Thought to implement csvsheets in rust, there is a browser made in rust called servo, the servo supports html, js, css.\n9. With the servo implementation I wanted a visual structure for the csvsheets. In summary, csvsheets is a csv format with excel formula support, a visual interface made from html, css, js.\n10. The manipulation and data structure part is the same as sql but applied to a csvsheets. The graphics part is not done by the graphical user interface, it is done by the command line.\n11. My idea is this:\n    1. Format name: CSV Spreadsheets, extension: .csvsht\n    2. Data Manipulation Language (DML), Data Definition Language (DDL), Data Control Language (DCL), Transactional Control Language (TCL) is the same as Transact-SQL for csvsht. But supports: SchemeQL, CLSQL, ScalaQL ... \n    3. Spreadsheet Extended Data Definition Language for Business Rules: Markdeep, Svgbob, asciigrid, Archetype, Textik, ASCIIFlow, textik, fsymbols ... this allows you to create business rules, open charts in csvsheets\n    4. Every csvsht file can generate an api in several programming languages: python, lisp, c, c++ ...",
       "time": 1648252264,
@@ -24,7 +37,7 @@
       "by": "sien",
       "descendants": 0,
       "id": 30808048,
-      "score": 1,
+      "score": 2,
       "time": 1648251972,
       "title": "Australian workplaces surveyed – only 7.2% going back to 100% in office",
       "type": "story",
@@ -57,7 +70,7 @@
       "by": "mellosouls",
       "descendants": 0,
       "id": 30807981,
-      "score": 3,
+      "score": 4,
       "time": 1648251326,
       "title": "List of things named after Carl Friedrich Gauss",
       "type": "story",
@@ -88,32 +101,21 @@
     },
     {
       "by": "Bostonian",
-      "descendants": 4,
+      "descendants": 6,
       "id": 30807962,
       "kids": [
+        30808104,
         30808042,
+        30808088,
         30808066,
         30808005,
         30808060
       ],
-      "score": 3,
+      "score": 4,
       "time": 1648251051,
       "title": "Amazon Employees Don’t Need a Union",
       "type": "story",
       "url": "https://www.city-journal.org/amazon-employees-do-not-need-a-union"
-    },
-    {
-      "by": "kylegill",
-      "descendants": 1,
-      "id": 30807961,
-      "kids": [
-        30807984
-      ],
-      "score": 1,
-      "time": 1648251037,
-      "title": "Checkly: Open Sourcing Our Pay Calculator",
-      "type": "story",
-      "url": "https://blog.checklyhq.com/open-sourcing-our-pay-calculator/"
     }
   ]
 }
