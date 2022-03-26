@@ -1,6 +1,37 @@
 {
   "stories": [
     {
+      "by": "vivek-jain",
+      "descendants": 0,
+      "id": 30812988,
+      "score": 1,
+      "text": "eBPF is an amazing technology that allows safely running user-supplied functions at pretty much arbitrary probe points in a kernel&#x2F;user space context. Much has been written about how amazing this feature is for kernel observability. But as someone who writes user space code, what I find even more amazing is the support for tracing arbitrary user space programs, with no code changes and low overhead.<p>However, doing in-depth analysis can get complicated and time-consuming. My goal with wachy was to make this debugging significantly easier&#x2F;faster to use, by displaying traces in a TUI next to the source code and allowing for interactive drilldown analysis. If you get a chance, check out the start of the demo video since (AFAIK) it&#x27;s quite unique and gives a much clearer idea than I can provide with just text.",
+      "time": 1648310363,
+      "title": "Show HN: Wachy – A UI for eBPF-based performance debugging",
+      "type": "story",
+      "url": "https://rubrikinc.github.io/wachy/"
+    },
+    {
+      "by": "hobbesthompson",
+      "descendants": 0,
+      "id": 30812964,
+      "score": 1,
+      "time": 1648310205,
+      "title": "The global investing app boom",
+      "type": "story",
+      "url": "https://restofworld.org/2022/inside-the-global-investing-app-boom/"
+    },
+    {
+      "by": "behnamoh",
+      "descendants": 0,
+      "id": 30812956,
+      "score": 1,
+      "time": 1648310173,
+      "title": "MS Word Lacks a Settings.json",
+      "type": "story",
+      "url": "https://medium.com/@parttimeben/complete-guide-to-setting-up-and-backing-up-office-word-settings-f7fc49b7357a"
+    },
+    {
       "by": "behnamoh",
       "descendants": 0,
       "id": 30812917,
@@ -34,6 +65,9 @@
       "by": "rustoo",
       "descendants": 0,
       "id": 30812883,
+      "kids": [
+        30812978
+      ],
       "score": 1,
       "time": 1648309683,
       "title": "Is the office destined to become a one-day-a-week experience for all of us?",
@@ -72,36 +106,6 @@
       "title": "Photonic Technology Enables Real-Time Calculation of Radio Signal Correlation",
       "type": "story",
       "url": "https://www.optica.org/en-us/about/newsroom/news_releases/2022/march/photonic_technology_enables_real-time_calculation/"
-    },
-    {
-      "by": "ZYinMD",
-      "descendants": 0,
-      "id": 30812795,
-      "score": 1,
-      "text": "In Shanghai, the largest city of China, a municipal regulation took effect on Mar 1, which states:<p>1. nobody is allowed to provide tattoo services to people under 18, and<p>2. without parent&#x27;s consent, nobody is allowed to provide cosmetic surgeries to people under 18.<p>This change is part of a new amendment to a municipal regulation regarding protection of minors. It&#x27;s been in effect for nearly a month now, but recently drew more attention due to some debates on the internet.",
-      "time": 1648309142,
-      "title": "New restrictions on tattoos and cosmetic surgeries for minors in China",
-      "type": "story"
-    },
-    {
-      "by": "peter_retief",
-      "descendants": 0,
-      "id": 30812784,
-      "score": 1,
-      "time": 1648309059,
-      "title": "Foo Fighters drummer Taylor Hawkins has died",
-      "type": "story",
-      "url": "https://www.jpost.com/breaking-news/article-702358"
-    },
-    {
-      "by": "hjnkk",
-      "descendants": 0,
-      "id": 30812773,
-      "score": 2,
-      "time": 1648309020,
-      "title": "Timsort",
-      "type": "story",
-      "url": "https://svn.python.org/projects/python/trunk/Objects/listsort.txt"
     }
   ]
 }
