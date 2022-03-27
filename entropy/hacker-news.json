@@ -1,10 +1,20 @@
 {
   "stories": [
     {
+      "by": "ignitionmonkey",
+      "descendants": 0,
+      "id": 30819589,
+      "score": 1,
+      "time": 1648382497,
+      "title": "Reverse emulating the NES to give it SUPER POWERS",
+      "type": "story",
+      "url": "https://www.youtube.com/watch?v=ar9WRwCiSr0"
+    },
+    {
       "by": "mohanmca",
       "descendants": 0,
       "id": 30819579,
-      "score": 1,
+      "score": 3,
       "text": "Why do we need to search source-code?<p>1. Quickly learn the domain and context of the application\n2. After adding a feature, we should aware if we broke anything (assume you work with code that doesn&#x27;t have test-case), it helps even to search testcases\n3. Find similar code and ensure you are improving quality of the overall similar code (not just fixing current bug)\n4. Understand how application behaves when there are production issues.<p>Most often I deal with large inherited code-base in my career, often we need to search similar code or usage of certain variable or a function&#x2F;class&#x2F;module. When it is statically typed language to certain extent IDE&#x2F;compiler helps. But we have to deal with different languages and sometime developers copy&#x2F;paste for various reason. Searching&#x2F;grepping code and its usage seems to be very useful for various reasons.<p>You as a developer, what are all the ways you search source-code before working&#x2F;fixing feature or bug? Do you use any CLI tools other than grep. I have used OpenGrok, But few times it is not maintained by me or other developers.<p>Below is my steps.\n1. Read the relevant code, and know certain domain keyword, variable names (inclusive class&#x2F;method&#x2F;function)\n2. Use the bitbucket&#x2F;GitHub&#x2F;git search\n3. Use the grep\n4. Use the git-grep<p>Still few times, I end up missing.<p>Seems like this is (Especially CLI based search) very valuable skill to have. Do you have any tips&#x2F;tools for other developers?",
       "time": 1648382384,
       "title": "Ask HN: How do you search large code-base before adding a feature or fixing bug?",
@@ -52,13 +62,13 @@
     },
     {
       "by": "unobatbayar",
-      "descendants": 2,
+      "descendants": 5,
       "id": 30819550,
       "kids": [
         30819561,
         30819556
       ],
-      "score": 1,
+      "score": 2,
       "text": "How can I undo? Please help.",
       "time": 1648382002,
       "title": "Ask HN: I Accidentally Flagged a Post",
@@ -93,16 +103,6 @@
       "title": "Zebra OTB: 21st century mountain penny-farthing, Guillaume BOUT",
       "type": "story",
       "url": "https://www.artstation.com/artwork/dOJ4W1"
-    },
-    {
-      "by": "blopeur",
-      "descendants": 0,
-      "id": 30819515,
-      "score": 1,
-      "time": 1648381654,
-      "title": "VMware Operations Guide",
-      "type": "story",
-      "url": "https://www.vmwareopsguide.com/"
     }
   ]
 }
