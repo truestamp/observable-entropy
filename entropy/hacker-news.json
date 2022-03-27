@@ -62,13 +62,14 @@
     },
     {
       "by": "mohanmca",
-      "descendants": 3,
+      "descendants": 4,
       "id": 30819579,
       "kids": [
+        30819698,
         30819624,
         30819621
       ],
-      "score": 4,
+      "score": 5,
       "text": "Why do we need to search source-code?<p><pre><code>  1. Quickly learn the domain and context of the application\n  2. After adding a feature, we should aware if we broke anything (assume you work with code that doesn&#x27;t have test-case), it helps even to search testcases\n  3. Find similar code and ensure you are improving quality of the overall similar code (not just fixing current bug)\n  4. Understand how application behaves when there are production issues.\n</code></pre>\nMost often I deal with large inherited code-base in my career, often we need to search similar code or usage of certain variable or a function&#x2F;class&#x2F;module. When it is statically typed language to certain extent IDE&#x2F;compiler helps. But we have to deal with different languages and sometime developers copy&#x2F;paste for various reason. Searching&#x2F;grepping code and its usage seems to be very useful for various reasons.<p>You as a developer, what are all the ways you search source-code before working&#x2F;fixing feature or bug? Do you use any CLI tools other than grep. I have used OpenGrok, But few times it is not maintained by me or other developers.<p>Below is my steps.\n1. Read the relevant code, and know certain domain keyword, variable names (inclusive class&#x2F;method&#x2F;function)\n2. Use the bitbucket&#x2F;GitHub&#x2F;git search\n3. Use the grep\n4. Use the git-grep<p>Still few times, I end up missing.<p>Seems like this is (Especially CLI based search) very valuable skill to have. Do you have any tips&#x2F;tools for other developers?",
       "time": 1648382384,
       "title": "Ask HN: How do you search large code-base before adding a feature or fixing bug?",
