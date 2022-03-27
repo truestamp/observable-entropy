@@ -1,6 +1,16 @@
 {
   "stories": [
     {
+      "by": "sjohns21",
+      "descendants": 0,
+      "id": 30817427,
+      "score": 1,
+      "text": "Was just a tiered Lisp marketing effort?",
+      "time": 1648350995,
+      "title": "What if PG's whole career",
+      "type": "story"
+    },
+    {
       "by": "todsacerdoti",
       "descendants": 0,
       "id": 30817408,
@@ -92,19 +102,6 @@
       "title": "Show HN: Remote Docker commands with local directory mount",
       "type": "story",
       "url": "https://github.com/ITmaze/remote-docker"
-    },
-    {
-      "by": "shaderx13",
-      "descendants": 1,
-      "id": 30817252,
-      "kids": [
-        30817254
-      ],
-      "score": 2,
-      "text": "In this part of tutorial, you will learn how Pipy can work as a network proxy. You will also see why we need sub-pipelines and why they can be more than the number of incoming connections.\nTakeaways:\n1. Port pipelines receives data in TCP layer. To handle individual HTTP messages, we need filters like serveHTTP or demuxHTTP to extract messages out of it.\n2. The difference between serveHTTP and demuxHTTP is that, the former handles extracted messages by a callback function while the latter handles them in many separate sub-pipelines.\n3. Before HTTP messages are sent over network, they need to be combined into TCP streams with muxHTTP.\n4. Use connect to establish outgoing TCP connections to remote hosts.\nMore details, please refer to comments.",
-      "time": 1648348505,
-      "title": "Show HN: How to create a network proxy with Pipy proxy",
-      "type": "story"
     }
   ]
 }
