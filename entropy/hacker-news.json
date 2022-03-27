@@ -1,6 +1,36 @@
 {
   "stories": [
     {
+      "by": "todsacerdoti",
+      "descendants": 0,
+      "id": 30824078,
+      "score": 1,
+      "time": 1648414755,
+      "title": "What Is a Webhook?",
+      "type": "story",
+      "url": "https://www.youtube.com/watch?v=-2AIemn3oCU"
+    },
+    {
+      "by": "rmason",
+      "descendants": 0,
+      "id": 30824076,
+      "score": 1,
+      "time": 1648414729,
+      "title": "Russian soldier 'surrenders with TANK and gets £7,500 and Ukrainian citizenship",
+      "type": "story",
+      "url": "https://www.dailymail.co.uk/news/article-10656603/Russian-soldier-surrenders-TANK-return-7-500-Ukrainian-citizenship.html"
+    },
+    {
+      "by": "hexwit",
+      "descendants": 0,
+      "id": 30824066,
+      "score": 1,
+      "text": "Hi all,<p>so it is clear that soft delete hard to implement correctly and \nin general it is evil. \nUsually the main reason for it is to preserve referenced data.<p>For example we have invoice and customer. We want to see this \nrelation even if customer was deleted.<p>One of the approach is the customer snapshot stored in the \ninvoice object. I want to discuss this approach.<p>So imagine we have have such invoice with customer snapshot, and \ninvoice is editable (not paid). What if I want to update customer&#x27;s \nname? I will update name in snapshot? In original record? Both?<p>It is interesting to hear your thoughts.",
+      "time": 1648414678,
+      "title": "Alternative to Soft Delete. Again",
+      "type": "story"
+    },
+    {
       "by": "azhenley",
       "descendants": 0,
       "id": 30824033,
@@ -24,7 +54,7 @@
       "by": "rossdavidh",
       "descendants": 0,
       "id": 30823931,
-      "score": 4,
+      "score": 5,
       "time": 1648413875,
       "title": "China's Sinopec Bows Out of Russian Petchem, Gas Projects",
       "type": "story",
@@ -42,10 +72,11 @@
     },
     {
       "by": "heavyset_go",
-      "descendants": 1,
+      "descendants": 2,
       "id": 30823872,
       "kids": [
-        30823910
+        30823910,
+        30824079
       ],
       "score": 6,
       "time": 1648413542,
@@ -55,12 +86,13 @@
     },
     {
       "by": "ShivShankaran",
-      "descendants": 2,
+      "descendants": 5,
       "id": 30823853,
       "kids": [
+        30824037,
         30823954
       ],
-      "score": 6,
+      "score": 8,
       "time": 1648413394,
       "title": "Why is Europe suddenly so interested in helping refugees?",
       "type": "story",
@@ -75,40 +107,6 @@
       "title": "Mail Tester",
       "type": "story",
       "url": "https://www.mail-tester.com/"
-    },
-    {
-      "by": "donsupreme",
-      "descendants": 0,
-      "id": 30823783,
-      "score": 3,
-      "time": 1648412927,
-      "title": "Biden: “Putin cannot remain in power” in sweeping speech on Russian invasion",
-      "type": "story",
-      "url": "https://www.cnbc.com/2022/03/26/biden-says-putin-cannot-remain-in-power-in-sweeping-speech-on-russian-invasion-of-ukraine.html"
-    },
-    {
-      "by": "whichdan",
-      "descendants": 2,
-      "id": 30823772,
-      "kids": [
-        30823820,
-        30823822
-      ],
-      "score": 6,
-      "text": "I&#x27;ve been using Fastmail since 2007, so I haven&#x27;t touched the DNS of several of my domains in years. All of my email has been getting flagged as spam by GMail recently, and it&#x27;s likely because I never added DKIM&#x2F;SPF records to my older domains. I know there are a bunch of old Fastmail users here so figured I&#x27;d do a quick PSA",
-      "time": 1648412878,
-      "title": "Tell HN: Make sure to configure DKIM/SPF with Fastmail",
-      "type": "story"
-    },
-    {
-      "by": "hhs",
-      "descendants": 0,
-      "id": 30823759,
-      "score": 1,
-      "time": 1648412804,
-      "title": "The real estate evangelist",
-      "type": "story",
-      "url": "https://www.ft.com/content/57ae7195-d889-4342-bb7f-9e413236599f"
     }
   ]
 }
