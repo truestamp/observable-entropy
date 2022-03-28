@@ -1,6 +1,46 @@
 {
   "stories": [
     {
+      "by": "RafelMri",
+      "descendants": 0,
+      "id": 30830013,
+      "score": 1,
+      "time": 1648471998,
+      "title": "What Is the Matrix Inverse?",
+      "type": "story",
+      "url": "https://nhigham.com/2022/03/28/what-is-the-matrix-inverse/"
+    },
+    {
+      "by": "ratsforhorses",
+      "descendants": 0,
+      "id": 30829997,
+      "score": 1,
+      "time": 1648471895,
+      "title": "SpaceX ending production of flagship crew capsule",
+      "type": "story",
+      "url": "https://www.reuters.com/lifestyle/science/exclusive-spacex-ending-production-flagship-crew-capsule-executive-2022-03-28/"
+    },
+    {
+      "by": "sahin",
+      "descendants": 0,
+      "id": 30829984,
+      "score": 2,
+      "time": 1648471835,
+      "title": "First chicken-free egg white product reaches US markets",
+      "type": "story",
+      "url": "https://newatlas.com/science/world-first-chicken-free-egg-white-every-company-macarons/"
+    },
+    {
+      "by": "rntn",
+      "descendants": 0,
+      "id": 30829979,
+      "score": 1,
+      "time": 1648471806,
+      "title": "As key goods grow more expensive 'demand destruction' threatens global recession",
+      "type": "story",
+      "url": "https://www.japantimes.co.jp/news/2022/03/28/business/economy-business/global-economy-rising-prices/"
+    },
+    {
       "by": "annamariachiara",
       "descendants": 0,
       "id": 30829962,
@@ -42,9 +82,12 @@
     },
     {
       "by": "tosh",
-      "descendants": 0,
+      "descendants": 1,
       "id": 30829904,
-      "score": 1,
+      "kids": [
+        30830017
+      ],
+      "score": 2,
       "time": 1648471393,
       "title": "Beware of scams involving fake correspondence from Europol",
       "type": "story",
@@ -59,50 +102,6 @@
       "title": "HP Inc. To Acquire Poly",
       "type": "story",
       "url": "https://investor.hp.com/news/press-release-details/2022/HP-Inc.-to-Acquire-Poly/default.aspx"
-    },
-    {
-      "by": "tehc-uk",
-      "descendants": 2,
-      "id": 30829876,
-      "kids": [
-        30829956,
-        30829942
-      ],
-      "score": 3,
-      "text": "Something odd going on with network routing to Twitter in the UK right now. From a BT Broadband home connection, traffic seems to be flowing via an &quot;mts-internet.net&quot; addresses listed in Moscow. I&#x27;ve tried from a VPN and can access Twitter just fine. Downdectector shows a peak in reports of issues too - https:&#x2F;&#x2F;downdetector.co.uk&#x2F;status&#x2F;twitter&#x2F;.<p>Tracing route to twitter.com [104.244.42.1]\nover a maximum of 30 hops:<p><pre><code>  1    &lt;1 ms    &lt;1 ms    &lt;1 ms  192.168.0.1\n  2    &lt;1 ms    &lt;1 ms     1 ms  172.16.10.74\n  3     *        *        *     Request timed out.\n  4     6 ms     6 ms     6 ms  31.55.186.180\n  5     6 ms     6 ms     6 ms  213.121.192.150\n  6    18 ms     9 ms     5 ms  peer2-et0-1-7.slough.ukcore.bt.net [62.6.201.53]\n  7     5 ms     6 ms     5 ms  mil-cr01-te6-2.lnd.stream-internet.net [195.66.224.218]\n  8    19 ms    19 ms    18 ms  anc-cr01-be5.204.ff.mts-internet.net [195.34.53.225]\n  9     *        *        *     Request timed out.\n 10    54 ms    53 ms    53 ms  a433-cr02-be2.77.msk.mts-internet.net [212.188.28.150]\n 11    54 ms    54 ms    55 ms  m9-cr03-ae11.77.msk.mts-internet.net [212.188.42.125]\n 12    55 ms    55 ms    54 ms  a433-cr02-be11.77.msk.mts-internet.net [212.188.42.126]\n 13     *        *        *     Request timed out.</code></pre>\n[...]",
-      "time": 1648471217,
-      "title": "Twitter Routing Issue in UK?",
-      "type": "story"
-    },
-    {
-      "by": "bitbro",
-      "descendants": 0,
-      "id": 30829861,
-      "score": 1,
-      "time": 1648471104,
-      "title": "Chello – A Free P2P Alternative to Twillio Messaging API",
-      "type": "story",
-      "url": "https://www.chello.chat/"
-    },
-    {
-      "by": "conartist",
-      "descendants": 0,
-      "id": 30829853,
-      "score": 1,
-      "time": 1648471070,
-      "title": "How to write PRs that spark joy",
-      "type": "story",
-      "url": "https://www.peterlunch.com/blog/write-better-prs"
-    },
-    {
-      "by": "orangebanana1",
-      "descendants": 0,
-      "id": 30829844,
-      "score": 2,
-      "time": 1648471018,
-      "title": "Google Issues Warning for Billions of Chrome Users",
-      "type": "story",
-      "url": "https://www.forbes.com/sites/gordonkelly/2022/03/28/google-chrome-update-warning-zero-day-hack-upgrade-chrome-now/"
     }
   ]
 }
