@@ -1,10 +1,70 @@
 {
   "stories": [
     {
+      "by": "burntcaramel",
+      "descendants": 0,
+      "id": 30835841,
+      "score": 1,
+      "time": 1648502984,
+      "title": "Swift Async Algorithms",
+      "type": "story",
+      "url": "https://www.swift.org/blog/swift-async-algorithms/"
+    },
+    {
+      "by": "bookofjoe",
+      "descendants": 0,
+      "id": 30835821,
+      "score": 1,
+      "time": 1648502868,
+      "title": "SARS-CoV-2 is associated with changes in brain structure in UK Biobank",
+      "type": "story",
+      "url": "https://www.nature.com/articles/s41586-022-04569-5"
+    },
+    {
+      "by": "News-Dog",
+      "descendants": 0,
+      "id": 30835817,
+      "score": 1,
+      "time": 1648502854,
+      "title": "Ukraine – Roman Abramovich Was Poisoned at Peace Talks – Reports",
+      "type": "story",
+      "url": "https://www.dw.com/en/ukraine-roman-abramovich-was-poisoned-at-peace-talks-reports/a-61284930"
+    },
+    {
+      "by": "brundolf",
+      "descendants": 0,
+      "id": 30835812,
+      "score": 1,
+      "text": "I haven&#x27;t heard about a new variant since Omicron. Has there just not been one that could compete with it yet? Could this be the &quot;last variant&quot; like people thought it might be?",
+      "time": 1648502834,
+      "title": "Ask HN: What Happened to Covid Mutation?",
+      "type": "story"
+    },
+    {
+      "by": "serial_dev",
+      "descendants": 0,
+      "id": 30835797,
+      "score": 2,
+      "time": 1648502719,
+      "title": "Replit's fight with dark web hackers",
+      "type": "story",
+      "url": "https://twitter.com/amasad/status/1508251374257008640"
+    },
+    {
+      "by": "ingve",
+      "descendants": 0,
+      "id": 30835796,
+      "score": 1,
+      "time": 1648502718,
+      "title": "Building a safer Flickr for generations to come",
+      "type": "story",
+      "url": "https://blog.flickr.net/en/2022/03/28/building-a-safer-flickr-for-generations-to-come/"
+    },
+    {
       "by": "0066cc",
       "descendants": 0,
       "id": 30835784,
-      "score": 1,
+      "score": 3,
       "time": 1648502642,
       "title": "Articles from arXiv.org as responsive HTML5 web pages",
       "type": "story",
@@ -15,7 +75,7 @@
       "descendants": 0,
       "id": 30835780,
       "score": 1,
-      "text": "Hackernews turned me onto a new bare metal hosting provider. (Thanks - great tip.) The default box comes with four Ethernet devices (2 Mellanox and 2 Intel cards). Two of them are bonded. It has a IPV6 local address; I don&#x27;t about that either. All IPV4 is fine.<p>My goal:<p>* How can I reconfigure these four cards so that I still have a public IP, and a local (internal) IP but such that I can free up both of the mellanox cards or both of the Intel devices so I can use them for DPDK development?<p>I have no need for any high speed public connections. ssh is fine.<p>I&#x27;ve figured this out in Amazon EC2, however, the default NIC situation comes to me simpler than this. I&#x27;m just don&#x27;t have any serious know-how in this particular kind of Linux-admin. And I&#x27;ve never bonded or unbounded a pair of NICs.<p>Details follow.<p>TIA<p>===================================<p>user@defaulthost:~# ifconfig -a\nbond0: flags=5187&lt;UP,BROADCAST,RUNNING,MASTER,MULTICAST&gt;  mtu 1500\n        inet &lt;public-IP-address&gt; netmask 255.255.255.254  broadcast 255.255.255.255\n        inet6 xxxx:xxxx:xxxx:xxx::1  prefixlen 127  scopeid 0x0&lt;global&gt;\n        inet6 xxxx::xxxx:xxxx:xxxx:xxxx  prefixlen 64  scopeid 0x20&lt;link&gt;\n        ether xx:xx:xx:xx:xx:xx  txqueuelen 1000  (Ethernet)<p>bond0:0: flags=5187&lt;UP,BROADCAST,RUNNING,MASTER,MULTICAST&gt;  mtu 1500\n        inet &lt;local-IP-address&gt;  netmask 255.255.255.254  broadcast 255.255.255.255\n        ether xx:xx:xx:xx:xx:xx  txqueuelen 1000  (Ethernet)<p>eno1: flags=4098&lt;BROADCAST,MULTICAST&gt;  mtu 1500\n        ether xx:xx:xx:xx:xx:xx  txqueuelen 1000  (Ethernet)<p>eno2: flags=4098&lt;BROADCAST,MULTICAST&gt;  mtu 1500\n        ether xx:xx:xx:xx:xx:xx  txqueuelen 1000  (Ethernet)<p>enp2s0f0: flags=6211&lt;UP,BROADCAST,RUNNING,SLAVE,MULTICAST&gt;  mtu 1500\n        ether xx:xx:xx:xx:xx:xx  txqueuelen 1000  (Ethernet)<p>enp2s0f1: flags=6211&lt;UP,BROADCAST,RUNNING,SLAVE,MULTICAST&gt;  mtu 1500\n        ether xx:xx:xx:xx:xx:xx  txqueuelen 1000  (Ethernet)<p>lo: flags=73&lt;UP,LOOPBACK,RUNNING&gt;  mtu 65536\n        inet 127.0.0.1  netmask 255.0.0.0\n        inet6 ::1  prefixlen 128  scopeid 0x10&lt;host&gt;<p>=================<p>user@defaulthost:~# dmesg | grep enp2\n[    6.331694] mlx5_core 0000:02:00.0 enp2s0f0np0: renamed from eth0\n[    6.372339] mlx5_core 0000:02:00.1 enp2s0f1np1: renamed from eth1\n[    9.429331] mlx5_core 0000:02:00.0 enp2s0f0: renamed from enp2s0f0np0\n[    9.484863] mlx5_core 0000:02:00.1 enp2s0f1: renamed from enp2s0f1np1\n[   11.548785] mlx5_core 0000:02:00.0 enp2s0f0: Link up\n[   11.553936] bond0: (slave enp2s0f0): Enslaving as a backup interface with an up link\n[   11.609695] bond0: (slave enp2s0f0): link status definitely up, 10000 Mbps full duplex\n[   15.421901] mlx5_core 0000:02:00.1 enp2s0f1: Link up\n[   15.429399] bond0: (slave enp2s0f1): Enslaving as a backup interface with an up link\n[   15.678759] bond0: (slave enp2s0f1): link status definitely up, 10000 Mbps full duplex\nuser@defaulthost:~# dmesg | grep eno\n[    2.036278] ACPI: Added _OSI(Linux-Lenovo-NV-HDMI-Audio)\n[    5.178678] igb 0000:04:00.0 eno1: renamed from eth0\n[    5.285816] igb 0000:05:00.0 eno2: renamed from eth1<p>==================<p>user@defaulthost:~# lspci | grep Eth\n02:00.0 Ethernet controller: Mellanox Technologies MT27710 Family [ConnectX-4 Lx]\n02:00.1 Ethernet controller: Mellanox Technologies MT27710 Family [ConnectX-4 Lx]\n04:00.0 Ethernet controller: Intel Corporation I210 Gigabit Network Connection (rev 03)\n05:00.0 Ethernet controller: Intel Corporation I210 Gigabit Network Connection (rev 03)",
+      "text": "Hackernews turned me onto a new bare metal hosting provider. (Thanks - great tip.) The default box comes with four Ethernet devices (2 Mellanox and 2 Intel cards). Two of them are bonded. \nMy goal:<p>* How can I reconfigure these four cards so that I still have a public IP, and a local (internal) IP but such that I can free up both of the mellanox cards or both of the Intel devices so I can use them for DPDK development?<p>I have no need for any high speed public connections. ssh is fine. It has a IPV6 local address; I don&#x27;t about that either. All IPV4 is fine.<p>I&#x27;ve figured this out in Amazon EC2, however, the default NIC situation comes to me simpler than this. I&#x27;m just don&#x27;t have any serious know-how in this particular kind of Linux-admin. And I&#x27;ve never bonded or unbounded a pair of NICs.<p>Details follow.<p>TIA<p>===================================<p>user@defaulthost:~# ifconfig -a<p>bond0: flags=5187&lt;UP,BROADCAST,RUNNING,MASTER,MULTICAST&gt;  mtu 1500<p><pre><code>        inet &lt;public-IP-address&gt; netmask 255.255.255.254  broadcast 255.255.255.255\n\n        inet6 xxxx:xxxx:xxxx:xxx::1  prefixlen 127  scopeid 0x0&lt;global&gt;\n\n        inet6 xxxx::xxxx:xxxx:xxxx:xxxx  prefixlen 64  scopeid 0x20&lt;link&gt;\n\n        ether xx:xx:xx:xx:xx:xx  txqueuelen 1000  (Ethernet)\n</code></pre>\nbond0:0: flags=5187&lt;UP,BROADCAST,RUNNING,MASTER,MULTICAST&gt;  mtu 1500<p><pre><code>        inet &lt;local-IP-address&gt;  netmask 255.255.255.254  broadcast 255.255.255.255\n\n        ether xx:xx:xx:xx:xx:xx  txqueuelen 1000  (Ethernet)\n</code></pre>\neno1: flags=4098&lt;BROADCAST,MULTICAST&gt;  mtu 1500\n        ether xx:xx:xx:xx:xx:xx  txqueuelen 1000  (Ethernet)<p>eno2: flags=4098&lt;BROADCAST,MULTICAST&gt;  mtu 1500\n        ether xx:xx:xx:xx:xx:xx  txqueuelen 1000  (Ethernet)<p>enp2s0f0: flags=6211&lt;UP,BROADCAST,RUNNING,SLAVE,MULTICAST&gt;  mtu 1500<p><pre><code>        ether xx:xx:xx:xx:xx:xx  txqueuelen 1000  (Ethernet)\n</code></pre>\nenp2s0f1: flags=6211&lt;UP,BROADCAST,RUNNING,SLAVE,MULTICAST&gt;  mtu 1500<p><pre><code>        ether xx:xx:xx:xx:xx:xx  txqueuelen 1000  (Ethernet)\n</code></pre>\nlo: flags=73&lt;UP,LOOPBACK,RUNNING&gt;  mtu 65536\n        inet 127.0.0.1  netmask 255.0.0.0\n        inet6 ::1  prefixlen 128  scopeid 0x10&lt;host&gt;<p>=================<p>user@defaulthost:~# dmesg | grep enp2<p>[    6.331694] mlx5_core 0000:02:00.0 enp2s0f0np0: renamed from eth0<p>[    6.372339] mlx5_core 0000:02:00.1 enp2s0f1np1: renamed from eth1<p>[    9.429331] mlx5_core 0000:02:00.0 enp2s0f0: renamed from enp2s0f0np0<p>[    9.484863] mlx5_core 0000:02:00.1 enp2s0f1: renamed from enp2s0f1np1<p>[   11.548785] mlx5_core 0000:02:00.0 enp2s0f0: Link up<p>[   11.553936] bond0: (slave enp2s0f0): Enslaving as a backup interface with an up link<p>[   11.609695] bond0: (slave enp2s0f0): link status definitely up, 10000 Mbps full duplex<p>[   15.421901] mlx5_core 0000:02:00.1 enp2s0f1: Link up<p>[   15.429399] bond0: (slave enp2s0f1): Enslaving as a backup interface with an up link<p>[   15.678759] bond0: (slave enp2s0f1): link status definitely up, 10000 Mbps full duplex<p>user@defaulthost:~# dmesg | grep eno<p>[    2.036278] ACPI: Added _OSI(Linux-Lenovo-NV-HDMI-Audio)<p>[    5.178678] igb 0000:04:00.0 eno1: renamed from eth0<p>[    5.285816] igb 0000:05:00.0 eno2: renamed from eth1<p>==================<p>user@defaulthost:~# lspci | grep Eth<p>02:00.0 Ethernet controller: Mellanox Technologies MT27710 Family [ConnectX-4 Lx]<p>02:00.1 Ethernet controller: Mellanox Technologies MT27710 Family [ConnectX-4 Lx]<p>04:00.0 Ethernet controller: Intel Corporation I210 Gigabit Network Connection (rev 03)<p>05:00.0 Ethernet controller: Intel Corporation I210 Gigabit Network Connection (rev 03)",
       "time": 1648502625,
       "title": "Ask HN: How to break down a bonded NIC pair in Linux?",
       "type": "story"
@@ -38,69 +98,6 @@
       "text": "A while ago I had an extension, which gave me a bell Icon that alerted me to new comments. After switching to Vivaldi (Following a reinstall) I&#x27;ve been unable to find this plugin but am now using another.<p>Have you guys found some gems out there?",
       "time": 1648502571,
       "title": "Ask HN: Which Extension brings the best out of HN?",
-      "type": "story"
-    },
-    {
-      "by": "samclemens",
-      "descendants": 0,
-      "id": 30835766,
-      "score": 1,
-      "time": 1648502549,
-      "title": "The Unsung Women of the Betty Crocker Test Kitchens",
-      "type": "story",
-      "url": "https://www.atlasobscura.com/articles/is-betty-crocker-real"
-    },
-    {
-      "by": "Mytilena",
-      "descendants": 0,
-      "id": 30835764,
-      "score": 1,
-      "text": "While reaching across the political aisle is great, it&#x27;s also great to be aligned with your cofounder. Being a conservative feels like being an outcast in startupland... it feels like there are so few of us.<p>If you are interested in (1) matching with a conservative cofounder or (2) being part of a conservative cofounder community with which to ideate etc, please sign up on this super short google form :)<p>https:&#x2F;&#x2F;forms.gle&#x2F;CtZVnSVpYXr8NnNv6<p>Thanks!",
-      "time": 1648502527,
-      "title": "Looking for Conservative Cofounder?",
-      "type": "story"
-    },
-    {
-      "by": "eof",
-      "descendants": 0,
-      "id": 30835760,
-      "score": 1,
-      "text": "I have a memory of seeing one in the past but can’t find it.<p>I’m looking for a site that tracks how close algorithms are to human performance (or if they have surpassed it) on various tasks like image recognition, older captchas, hand writing recognition, etc.",
-      "time": 1648502520,
-      "title": "Ask HN: Are there any sites tracking human vs. AI performance per task?",
-      "type": "story"
-    },
-    {
-      "by": "News-Dog",
-      "descendants": 0,
-      "id": 30835728,
-      "score": 1,
-      "time": 1648502402,
-      "title": "Boris Nemtsov Tailed by FSB Squad Prior to 2015 Murder",
-      "type": "story",
-      "url": "https://www.bellingcat.com/news/2022/03/28/boris-nemtsov-tailed-by-fsb-squad-prior-to-2015-murder/"
-    },
-    {
-      "by": "WaitWaitWha",
-      "descendants": 0,
-      "id": 30835678,
-      "score": 1,
-      "time": 1648502164,
-      "title": "Russian Cyber Actors' Techniques Targeting the Energy Sector",
-      "type": "story",
-      "url": "https://www.cisa.gov/uscert/ncas/alerts/aa22-083a"
-    },
-    {
-      "by": "lgdw",
-      "descendants": 1,
-      "id": 30835659,
-      "kids": [
-        30835745
-      ],
-      "score": 1,
-      "text": "There was a book that I think somebody mentioned a while ago in a comment on some post somewhere here but I lost the pdf link to it when I cleared my browser history. It was by a former IOI or IMO winner about several fields of abstract math and their connections. Googling didn&#x27;t help much so I&#x27;m hoping somebody knows the book.",
-      "time": 1648502091,
-      "title": "Ask HN: Trying to find a specific math book",
       "type": "story"
     }
   ]
