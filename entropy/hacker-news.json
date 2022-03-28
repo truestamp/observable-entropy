@@ -1,6 +1,76 @@
 {
   "stories": [
     {
+      "by": "researchers",
+      "descendants": 0,
+      "id": 30832686,
+      "score": 1,
+      "time": 1648486790,
+      "title": "What I Learned from Running a Concierge Search Engine",
+      "type": "story",
+      "url": "https://re-search.xyz/writing/what-i-learned-from-running-a-concierge-search-engine"
+    },
+    {
+      "by": "ibobev",
+      "descendants": 0,
+      "id": 30832682,
+      "score": 1,
+      "time": 1648486775,
+      "title": "Software Design with Traits and Tag Dispatching",
+      "type": "story",
+      "url": "http://modernescpp.com/index.php/softwaredesign-with-traits-and-tag-dispatching"
+    },
+    {
+      "by": "ibobev",
+      "descendants": 0,
+      "id": 30832676,
+      "score": 1,
+      "time": 1648486741,
+      "title": "C++20 Ranges the Key Advantage – Algorithm Composition",
+      "type": "story",
+      "url": "https://www.cppstories.com/2022/ranges-composition/"
+    },
+    {
+      "by": "mooreds",
+      "descendants": 0,
+      "id": 30832670,
+      "score": 1,
+      "time": 1648486711,
+      "title": "Voiding the warranty on a 1993 Minitel 2 to run arbitrary firmware",
+      "type": "story",
+      "url": "https://blog.jgc.org/2022/03/voiding-warranty-on-1993-minitel-2-to.html"
+    },
+    {
+      "by": "tekknolagi",
+      "descendants": 0,
+      "id": 30832653,
+      "score": 1,
+      "time": 1648486663,
+      "title": "Discovering Basic Blocks",
+      "type": "story",
+      "url": "https://bernsteinbear.com/blog/discovering-basic-blocks/"
+    },
+    {
+      "by": "gandalfgeek",
+      "descendants": 0,
+      "id": 30832642,
+      "score": 1,
+      "time": 1648486622,
+      "title": "Read a Paper: Superlinear Productivity in Software Projects",
+      "type": "story",
+      "url": "https://www.youtube.com/watch?v=z8n4gHxt4GY"
+    },
+    {
+      "by": "jbegley",
+      "descendants": 0,
+      "id": 30832634,
+      "score": 1,
+      "time": 1648486583,
+      "title": "Most Severe Cyberattack Since Russian Invasion Crashes Ukraine Internet Provider",
+      "type": "story",
+      "url": "https://www.forbes.com/sites/thomasbrewster/2022/03/28/huge-cyberattack-on-ukrtelecom-biggest-since-russian-invasion-crashes-ukraine-telecom/"
+    },
+    {
       "by": "igniteram",
       "descendants": 0,
       "id": 30832602,
@@ -15,7 +85,7 @@
       "by": "jedwhite",
       "descendants": 0,
       "id": 30832589,
-      "score": 2,
+      "score": 3,
       "text": "Hi HN, we&#x27;re Angie and Jed, and we&#x27;re building Andi (<a href=\"https:&#x2F;&#x2F;andisearch.com\" rel=\"nofollow\">https:&#x2F;&#x2F;andisearch.com</a>), a new type of search engine with an AI assistant that answers complex questions, and gives you tools to fight spam and ad tech.<p>There has been a lot of discussion on HN recently about how Google search is dying. If you do a Google search in a category like finance or health, the results are overwhelmed with spam, clickbait and ads. That&#x27;s what we&#x27;re working to fix.<p>For us, the problem is personal. I&#x27;m a programmer who also trained and worked as a journalist and built a media SaaS startup. I watched first-hand as the media industry not-so-slowly starved, my startup failed, and my friends lost jobs and businesses. Google took all the revenue as media turned to trash, and ad tech, clickbait and content marketing took over the Internet, and made using the web awful.<p>With Andi, we already apply spam blacklists server-side and we&#x27;re adding tools to blacklist and report spam locally. Andi&#x27;s free from ads and tracking. And it protects your privacy more than other search engines, because searches don&#x27;t pass through browser history (they&#x27;re encrypted POST requests). It&#x27;s free and anonymous, and there are no usage limits. You don&#x27;t need to register, or install an extension or app.<p>Andi is not just another copy of Google. The UX is radically different, like messaging with a smart friend who answers questions and sends you useful links. It shows results in a cleaner, more visual way (or you can change view to a simple list). You can preview content from the web safely using a proxied Reader View with no ads or clutter.<p>Our AI assistant uses a conversational interface to answer complex questions, explain topics, and find key information. We call these &quot;deep answers&quot;. It is a significant break-through, as you&#x27;ll see if you try it out for yourself. Try something factual and current, like &quot;How many Ukrainian refugees will the US accept, and what humanitarian aid will it provide?&quot;, &quot;What were the demands of the cybercriminals who breached Nvidia?&quot;, or &quot;Why is elon musk considering creating a new social media platform?&quot;<p>We&#x27;re doing much more here than GPT-based text generation. You&#x27;ve probably seen examples from GPT writing assistants that look impressive but make no sense. Large language models on their own generate plausible-sounding text that is often plain wrong or dangerous. That&#x27;s because they predict the next word in a sequence based on training data. They have no understanding of factual correctness, or moral right or wrong. They&#x27;re like human linguistic intuitive perception.<p>Our approach works more like humans do, combining large language models (both commercial and open source gpt-based models) with reasoning (directed logic and classifiers) and common sense (heuristics). We answer many questions using APIs or knowledge graphs, or quoting extracted text. When the question is appropriate for complex question answering, we use the new approach. It works by finding the best sources, and extracting the content with the relevant facts. We then combine GPT-based models with the results to compose a conversational answer that is also factually correct, presented alongside the full search results.<p>The way Andi searches is also different. We use classifiers and NLP to understand question intent, entities and topics, and predict the best sources for an answer. Then we query APIs and vertical searches directly, and retrieve content in real-time, before ranking and filtering the results. The content you see in search results is retrieved directly from each site in real-time.<p>When we can&#x27;t find good results, we fall back as an agent to legacy web search (Google, Bing and others - about 50% of the time now). Andi does best with natural language queries. We&#x27;ve trained classifiers for content quality and spam detection, and blacklist and downrank known bad sources and copycat sites (for non-political content). You can disable these.<p>The stack is a serverless application hosted on AWS, using Lambda and Kubernetes, with inference moving to Sagemaker to improve speed. We use PyTorch, SpaCy, GPT-based models (GPT-2, GPT-J&#x2F;NeoX and commercial providers) and HuggingFace, BERT-style transformers, plus AWS Lex for some initial intent routing. Classifiers are trained on custom-labeled public search data and content examples. We have a database of 30k+ top sites. We&#x27;re building some custom vertical searches. Services are written in Python and Node. The front end is a Progressive Web App written in React.<p>Some fun features to try include recent events (&quot;Why was the James Webb telescope launched from French Guiana?&quot;), direct navigation (&quot;go hn google search dying&quot; and allow pop-ups), or question answering (&quot;what is the gdp per capita of china vs new zealand&quot;). You can also &quot;Change View&quot; on results between a visual feed, grid of cards, or simple list, or even like Hacker News or early Google. Also try View in Reader for a proxied ad-free way to read articles, including many behind paywalls like the NYT or Economist.<p>Andi is a fairly stable alpha and still experimental (it sometimes misunderstands or gets things wrong). We plan to have a freemium model with some paid features and API use. We&#x27;re a small team with two full-time founders and some help from friends. We&#x27;ve been live for a few weeks, and we&#x27;re iterating fast based on feedback. We&#x27;d love to hear what you think about search and how to fix it, and answer any questions you have about what we&#x27;re making.",
       "time": 1648486370,
       "title": "Launch HN: Andi (YC W22) – Q&A based, ad-free, anti-spam search engine",
@@ -31,82 +101,6 @@
       "title": "Making music from spider webs (2021)",
       "type": "story",
       "url": "https://phys.org/news/2021-04-music-spider-webs.html"
-    },
-    {
-      "by": "antattack",
-      "descendants": 0,
-      "id": 30832574,
-      "score": 1,
-      "time": 1648486290,
-      "title": "Christopher Hitchens warns about Vladimir Putin (2005)",
-      "type": "story",
-      "url": "https://www.youtube.com/watch?v=83OY6De6Ob4"
-    },
-    {
-      "by": "doener",
-      "descendants": 0,
-      "id": 30832572,
-      "score": 1,
-      "time": 1648486281,
-      "title": "AmiKit XE 11.6.1 on Windows 11 and macOS Monterey",
-      "type": "story",
-      "url": "https://www.epsilonsworld.com/2022/03/"
-    },
-    {
-      "by": "doener",
-      "descendants": 0,
-      "id": 30832560,
-      "score": 1,
-      "time": 1648486238,
-      "title": "ApolloDungeon Demo alpha version 0.1",
-      "type": "story",
-      "url": "https://www.youtube.com/watch?v=GIBK0O5QuMc"
-    },
-    {
-      "by": "tux1968",
-      "descendants": 0,
-      "id": 30832558,
-      "score": 1,
-      "time": 1648486229,
-      "title": "Solving Wordle with APL",
-      "type": "story",
-      "url": "https://mathspp.com/blog/solving-wordle-with-apl"
-    },
-    {
-      "by": "chriscarrig",
-      "descendants": 1,
-      "id": 30832548,
-      "kids": [
-        30832549
-      ],
-      "score": 2,
-      "time": 1648486200,
-      "title": "New Development Platform: Environments as a Service",
-      "type": "story",
-      "url": "https://roost.ai/blog/new-software-development-platform-environments-as-a-service"
-    },
-    {
-      "by": "gnicholas",
-      "descendants": 1,
-      "id": 30832519,
-      "kids": [
-        30832554
-      ],
-      "score": 1,
-      "time": 1648486089,
-      "title": "Honey, I Decapitated the MacBook",
-      "type": "story",
-      "url": "https://www.theverge.com/22965732/macbook-decapitation-slabtop-mod-mac-studio-event-rumor-keyboard-computer-diy"
-    },
-    {
-      "by": "agnosticmantis",
-      "descendants": 0,
-      "id": 30832512,
-      "score": 1,
-      "time": 1648486037,
-      "title": "The AI Illusion – State-of-the-Art Chatbots Aren’t What They Seem",
-      "type": "story",
-      "url": "https://mindmatters.ai/2022/03/the-ai-illusion-state-of-the-art-chatbots-arent-what-they-seem/"
     }
   ]
 }
