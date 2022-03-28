@@ -1,6 +1,76 @@
 {
   "stories": [
     {
+      "by": "mooreds",
+      "descendants": 0,
+      "id": 30835232,
+      "score": 1,
+      "time": 1648499661,
+      "title": "One Comment – $640 ARR Plus",
+      "type": "story",
+      "url": "https://syften.com/blog/post/one-comment-640-arr/"
+    },
+    {
+      "by": "gk1",
+      "descendants": 0,
+      "id": 30835224,
+      "score": 1,
+      "time": 1648499635,
+      "title": "Slap Chris Rock",
+      "type": "story",
+      "url": "https://slapchris.com/"
+    },
+    {
+      "by": "mooreds",
+      "descendants": 0,
+      "id": 30835217,
+      "score": 1,
+      "time": 1648499566,
+      "title": "How far is too far?",
+      "type": "story",
+      "url": "https://startupinamonth.net/how-far-is-too-far/"
+    },
+    {
+      "by": "jiripospisil",
+      "descendants": 0,
+      "id": 30835209,
+      "score": 1,
+      "time": 1648499507,
+      "title": "Intel counters AMD’s mega-cache PC chip with 5.5GHz 16-core rival",
+      "type": "story",
+      "url": "https://www.theregister.com/2022/03/28/intel_corei9_12900ks/"
+    },
+    {
+      "by": "tosh",
+      "descendants": 0,
+      "id": 30835206,
+      "score": 1,
+      "time": 1648499479,
+      "title": "Early Security for Startups",
+      "type": "story",
+      "url": "https://devd.me/log//posts/startup-security/"
+    },
+    {
+      "by": "todsacerdoti",
+      "descendants": 0,
+      "id": 30835205,
+      "score": 1,
+      "time": 1648499467,
+      "title": "Monads",
+      "type": "story",
+      "url": "https://blog.ploeh.dk/2022/03/28/monads/"
+    },
+    {
+      "by": "shon",
+      "descendants": 0,
+      "id": 30835199,
+      "score": 1,
+      "time": 1648499413,
+      "title": "Swatch struggling to stay online after crazy MoonSwatch launch",
+      "type": "story",
+      "url": "https://www.swatch.com/en-us/homepage"
+    },
+    {
       "by": "toshke",
       "descendants": 0,
       "id": 30835184,
@@ -15,7 +85,7 @@
       "descendants": 0,
       "id": 30835174,
       "score": 1,
-      "text": "Hi!<p>I am happy to announce version 0.14.0 of async-stripe (https:&#x2F;&#x2F;payments.rs) which introduces a number of new features. async-stripe is a client for the stripe API with a bring-your-own-runtime approach. It will work with whatever stack you use.<p>On a personal note, having worked on this project for over a year now, this is the first release where I feel like the ergonomics, features, and Stripe api coverage are finally getting &#x27;good&#x27;.<p>Changelog: https:&#x2F;&#x2F;github.com&#x2F;arlyon&#x2F;async-stripe&#x2F;releases&#x2F;tag&#x2F;v0.14.0<p>- breaking - fluent client config: you can set the client id, stripe account, and strategy with a new builder-style api\n- improved the codegen to expand api coverage: we added `card` to the api! \n- added `Default` across the codebase: we added default in many more places\n- opt-in auto-retry functionality following the stripe retry headers: the client will retry failed requests\n- opt-in idempotency: manual verification and retry if needed\n- improve test coverage: we added tarpaulin and started tracking coverage. from now on new contributions will be expected to be tested properly, and we will be adding extensive examples\n- piles of examples: we have a whole load of shiny examples to look at, along with example-doc linking to put the examples straight alongside the code in docs.rs. very happy with the ergonomics here.<p>As mentioned, we also opted in to try out RFC 3123: https:&#x2F;&#x2F;rust-lang.github.io&#x2F;rfcs&#x2F;3123-rustdoc-scrape-examples.html which has been a dream. Some examples:<p>- PaymentIntent::create: https:&#x2F;&#x2F;docs.rs&#x2F;async-stripe&#x2F;0.14.0&#x2F;stripe&#x2F;struct.PaymentIntent.html#method.create\n- AccountLink::create: https:&#x2F;&#x2F;docs.rs&#x2F;async-stripe&#x2F;0.14.0&#x2F;stripe&#x2F;struct.AccountLink.html#method.create\n- Customer::list: https:&#x2F;&#x2F;docs.rs&#x2F;async-stripe&#x2F;0.14.0&#x2F;stripe&#x2F;struct.Customer.html#method.list<p>Additionally, Stripe have begun to sponsor the project which, while the project is still not affiliated with Stripe, or considered a Stripe product, marks a very cool moment in the project history and my own career. With the support I&#x27;ve been able to get a domain, send out some swag to the contributors, and plan on running some rust workshops in London.<p>That said, we still have some challenges. For this project, compile time has always been a fundamental trade-off. a) there is a lot of generated code and b) there is an obscene amount of macro-expansion code (mainly serde). These together make for awful compile times. For 0.15, we plan to group the generated code into individual crates so that there are more compilation units. Additionally, we are thinking about how to reduce the reliance on macro expansion by potentially replacing serde with something more lightweight. If you have ideas and want to join the conversation, please hop in here: https:&#x2F;&#x2F;github.com&#x2F;arlyon&#x2F;async-stripe&#x2F;discussions&#x2F;77<p>Looking forward for any and all feedback or questions<p>Cheers<p>Alex<p>Conversation on &#x2F;r&#x2F;rust: https:&#x2F;&#x2F;www.reddit.com&#x2F;r&#x2F;rust&#x2F;comments&#x2F;tqid6w&#x2F;announcing_asyncstripe_014_a_rust_client_to&#x2F;",
+      "text": "Hi!<p>I am happy to announce version 0.14.0 of async-stripe (https:&#x2F;&#x2F;payments.rs) which introduces a number of new features. async-stripe is a client for the stripe API with a bring-your-own-runtime approach. It will work with whatever stack you use.<p>On a personal note, having worked on this project for over a year now, this is the first release where I feel like the ergonomics, features, and Stripe api coverage are finally getting &#x27;good&#x27;.<p>Changelog: https:&#x2F;&#x2F;github.com&#x2F;arlyon&#x2F;async-stripe&#x2F;releases&#x2F;tag&#x2F;v0.14.0<p>breaking - fluent client config: you can set the client id, stripe account, and strategy with a new builder-style api<p>improved the codegen to expand api coverage: we added `card` to the api!<p>added `Default` across the codebase: we added default in many more places<p>opt-in auto-retry functionality following the stripe retry headers: the client will retry failed requests<p>opt-in idempotency: manual verification and retry if needed<p>improve test coverage: we added tarpaulin and started tracking coverage. from now on new contributions will be expected to be tested properly, and we will be adding extensive examples<p>piles of examples: we have a whole load of shiny examples to look at, along with example-doc linking to put the examples straight alongside the code in docs.rs. very happy with the ergonomics here.<p>As mentioned, we also opted in to try out RFC 3123: https:&#x2F;&#x2F;rust-lang.github.io&#x2F;rfcs&#x2F;3123-rustdoc-scrape-examples.html which has been a dream. Some examples:<p>PaymentIntent::create: https:&#x2F;&#x2F;docs.rs&#x2F;async-stripe&#x2F;0.14.0&#x2F;stripe&#x2F;struct.PaymentIntent.html#method.create<p>AccountLink::create: https:&#x2F;&#x2F;docs.rs&#x2F;async-stripe&#x2F;0.14.0&#x2F;stripe&#x2F;struct.AccountLink.html#method.create<p>Customer::list: https:&#x2F;&#x2F;docs.rs&#x2F;async-stripe&#x2F;0.14.0&#x2F;stripe&#x2F;struct.Customer.html#method.list<p>Additionally, Stripe have begun to sponsor the project which, while the project is still not affiliated with Stripe, or considered a Stripe product, marks a very cool moment in the project history and my own career. With the support I&#x27;ve been able to get a domain, send out some swag to the contributors, and plan on running some rust workshops in London.<p>That said, we still have some challenges. For this project, compile time has always been a fundamental trade-off. a) there is a lot of generated code and b) there is an obscene amount of macro-expansion code (mainly serde). These together make for awful compile times. For 0.15, we plan to group the generated code into individual crates so that there are more compilation units. Additionally, we are thinking about how to reduce the reliance on macro expansion by potentially replacing serde with something more lightweight. If you have ideas and want to join the conversation, please hop in here: https:&#x2F;&#x2F;github.com&#x2F;arlyon&#x2F;async-stripe&#x2F;discussions&#x2F;77<p>Looking forward for any and all feedback or questions<p>Cheers<p>Alex<p>Conversation on &#x2F;r&#x2F;rust: https:&#x2F;&#x2F;www.reddit.com&#x2F;r&#x2F;rust&#x2F;comments&#x2F;tqid6w&#x2F;announcing_asyncstripe_014_a_rust_client_to&#x2F;",
       "time": 1648499325,
       "title": "Async-stripe 0.14, a rust client to accept payments",
       "type": "story"
@@ -29,79 +99,6 @@
       "title": "Emacs DWIM: swiper vs. isearch vs. phi-search",
       "type": "story",
       "url": "https://xenodium.com/emacs-dwim-swiper-vs-isearch-vs-phi-search/"
-    },
-    {
-      "by": "farukozderim",
-      "descendants": 1,
-      "id": 30835151,
-      "kids": [
-        30835152
-      ],
-      "score": 1,
-      "time": 1648499161,
-      "title": "Hugging Face Model Comparator Space Builder",
-      "type": "story",
-      "url": "https://huggingface.co/spaces/farukozderim/Model-Comparator-Space-Builder"
-    },
-    {
-      "by": "nic03929192",
-      "descendants": 0,
-      "id": 30835140,
-      "score": 1,
-      "time": 1648499101,
-      "title": "Concrete ideas to make quality a team effort",
-      "type": "story",
-      "url": "https://nicolalindgren.com/2022/03/20/how-to-make-quality-a-team-effort/"
-    },
-    {
-      "by": "MaysonL",
-      "descendants": 0,
-      "id": 30835134,
-      "score": 2,
-      "time": 1648499082,
-      "title": "Foreign-born size and share of US population, 1900 to 2018",
-      "type": "story",
-      "url": "https://cdn.substack.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F9f9a9db1-7da3-463a-a615-dbb4490eb412_957x808.png"
-    },
-    {
-      "by": "jacobr",
-      "descendants": 0,
-      "id": 30835130,
-      "score": 2,
-      "time": 1648499071,
-      "title": "Decorators reach ECMAScript Stage 3",
-      "type": "story",
-      "url": "https://github.com/tc39/proposals/commit/eced71d59d7c34e0f173fdec6b6fb477fc2e0371"
-    },
-    {
-      "by": "memish",
-      "descendants": 0,
-      "id": 30835110,
-      "score": 2,
-      "time": 1648498978,
-      "title": "The World Is Splitting in Two",
-      "type": "story",
-      "url": "https://www.theatlantic.com/international/archive/2022/03/ukraine-war-china-covid-lockdowns/629401/"
-    },
-    {
-      "by": "Apocryphon",
-      "descendants": 0,
-      "id": 30835105,
-      "score": 2,
-      "time": 1648498955,
-      "title": "Dan Luu: “Why don't more programmers work half-time?”",
-      "type": "story",
-      "url": "https://twitter.com/danluu/status/1508496140789956609"
-    },
-    {
-      "by": "vblanco",
-      "descendants": 0,
-      "id": 30835094,
-      "score": 1,
-      "time": 1648498908,
-      "title": "Tracy Profiler 0.8 version released",
-      "type": "story",
-      "url": "https://www.youtube.com/watch?v=30wpRpHTTag"
     }
   ]
 }
