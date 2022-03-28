@@ -1,6 +1,29 @@
 {
   "stories": [
     {
+      "by": "tyleralte",
+      "descendants": 0,
+      "id": 30826010,
+      "score": 1,
+      "text": "If you have a component that displays some data fetched from a REST API and another component that modifies that data on the backend using a post request how do you keep the first components state fresh? The Apollo client for graphql seems to have some nice functionality to facilitate this but I can&#x27;t think up a good solution while using REST.\nThanks!",
+      "time": 1648430577,
+      "title": "Ask HN: How do you handle stale data when using React and REST APIs",
+      "type": "story"
+    },
+    {
+      "by": "merunas",
+      "descendants": 1,
+      "id": 30826004,
+      "kids": [
+        30826005
+      ],
+      "score": 1,
+      "time": 1648430561,
+      "title": "The Solana step-by-step guide (including programs, dapps and Rust)",
+      "type": "story",
+      "url": "https://merunasgrincalaitis.medium.com/the-ultimate-solana-step-by-step-guide-including-programs-dapps-and-rust-from-scratch-d3bfb02b5f2e"
+    },
+    {
       "by": "prostoalex",
       "descendants": 0,
       "id": 30825972,
@@ -14,7 +37,7 @@
       "by": "car_analogy",
       "descendants": 0,
       "id": 30825942,
-      "score": 2,
+      "score": 3,
       "time": 1648429938,
       "title": "Washington schools adopt race-based discipline",
       "type": "story",
@@ -85,30 +108,6 @@
       "title": "Ukrainians welcome in Hungary but Afghan student was not",
       "type": "story",
       "url": "https://apnews.com/article/russia-ukraine-afghanistan-immigration-europe-migration-3adbac3655c4ef528f7c0dfca13c2bc5"
-    },
-    {
-      "by": "scrubs",
-      "descendants": 2,
-      "id": 30825764,
-      "kids": [
-        30825982,
-        30825906
-      ],
-      "score": 3,
-      "text": "I&#x27;ve been using spot Amazon c5n metal instances to do DPDK NIC I&#x2F;O development work. About $1.20&#x2F;hr&#x2F;machine. Spot instances are awesome for development work, and on the whole, using Amazon  \nis painless.<p>See https:&#x2F;&#x2F;github.com&#x2F;rodgarrison&#x2F;reinvent<p>However, AWS ENA NICs are virtualized. They are not bonafide plugged-into-the-PCI-bus cards. Therefore the data pathway to&#x2F;from the NIC is not direct like it would be at home with the NIC right on the motherboard or in the PCI bus. For a cloud company probably virtualized is the only way to go.<p>Non-virtualized is what I have in mind for the application I have in mind. To that end, anybody know of a decent HW hosting company provides:<p>- Some kind of Xeon based processors\n- regular run of the mill COTS NICs (not virtualized)\n- Bonus: provides or could provide SolarFlare NICs",
-      "time": 1648428577,
-      "title": "Ask HN: Looking for bare metal hosting company without virtualized NICs",
-      "type": "story"
-    },
-    {
-      "by": "azhenley",
-      "descendants": 0,
-      "id": 30825747,
-      "score": 1,
-      "time": 1648428447,
-      "title": "A Conversational Paradigm for Program Synthesis",
-      "type": "story",
-      "url": "https://arxiv.org/abs/2203.13474"
     }
   ]
 }
