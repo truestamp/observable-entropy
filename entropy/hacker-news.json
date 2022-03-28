@@ -1,6 +1,36 @@
 {
   "stories": [
     {
+      "by": "scrubs",
+      "descendants": 0,
+      "id": 30825764,
+      "score": 1,
+      "text": "I&#x27;ve been using spot Amazon c5n metal instances to do DPDK NIC I&#x2F;O development work. About $1.20&#x2F;hr&#x2F;machine. Spot instances are awesome for development work, and on the whole, using Amazon  \nis painless.<p>See https:&#x2F;&#x2F;github.com&#x2F;rodgarrison&#x2F;reinvent<p>However, AWS ENA NICs are virtualized. They are not bonafide plugged-into-the-PCI-bus cards. Therefore the data pathway to&#x2F;from the NIC is not direct like it would be at home with the NIC right on the motherboard or in the PCI bus. For a cloud company probably virtualized is the only way to go.<p>Non-virtualized is what I have in mind for the application I have in mind. To that end, anybody know of a decent HW hosting company provides:<p>- Some kind of Xeon based processors\n- regular run of the mill COTS NICs (not virtualized)\n- Bonus: provides or could provide SolarFlare NICs",
+      "time": 1648428577,
+      "title": "Ask HN: Looking for bare metal hosting company without virtualized NICs",
+      "type": "story"
+    },
+    {
+      "by": "azhenley",
+      "descendants": 0,
+      "id": 30825747,
+      "score": 1,
+      "time": 1648428447,
+      "title": "A Conversational Paradigm for Program Synthesis",
+      "type": "story",
+      "url": "https://arxiv.org/abs/2203.13474"
+    },
+    {
+      "by": "ceohockey60",
+      "descendants": 0,
+      "id": 30825727,
+      "score": 2,
+      "time": 1648428310,
+      "title": "Take Didi Private",
+      "type": "story",
+      "url": "https://interconnected.blog/take-didi-private/"
+    },
+    {
       "by": "taurusnoises",
       "descendants": 0,
       "id": 30825711,
@@ -72,39 +102,6 @@
       "title": "The largest Russian cinema chains will freeze ticket prices at pre-crash levels",
       "type": "story",
       "url": "https://licensingrussia.ru/article/9424-krupneishie-rossiiskie-kinoseti-zamoroziat-tseny-na-bilety/"
-    },
-    {
-      "by": "coolspot",
-      "descendants": 1,
-      "id": 30825554,
-      "kids": [
-        30825562
-      ],
-      "score": 1,
-      "time": 1648426574,
-      "title": "EU Proposal for a Regulation of the information about transfers of crypto-assets [pdf]",
-      "type": "story",
-      "url": "https://www.europarl.europa.eu/doceo/document/CJ12-AM-719852_EN.pdf"
-    },
-    {
-      "by": "pmoriarty",
-      "descendants": 0,
-      "id": 30825542,
-      "score": 1,
-      "time": 1648426475,
-      "title": "PasteBin Kills Search And That's Okay. No, Really.",
-      "type": "story",
-      "url": "https://medium.com/zeroguard/pastebin-kills-search-and-thats-okay-no-really-621d03245267"
-    },
-    {
-      "by": "ericjang",
-      "descendants": 0,
-      "id": 30825533,
-      "score": 3,
-      "time": 1648426418,
-      "title": "The Ownership Crisis",
-      "type": "story",
-      "url": "https://ystrickler.medium.com/the-ownership-crisis-55a5f84c3e88"
     }
   ]
 }
