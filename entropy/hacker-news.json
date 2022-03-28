@@ -1,6 +1,19 @@
 {
   "stories": [
     {
+      "by": "caishu97",
+      "descendants": 1,
+      "id": 30827766,
+      "kids": [
+        30827784
+      ],
+      "score": 1,
+      "text": "We did some benchmark for basic HTTP Echo service with Nginx , http-echo and pipy. Nginx is written in C, and http-echo in golang, pipy in C++. Seams C++&#x2F;ASIO based Pipy has better throughput and latency distribution. And C based Nginx has better memory usage. For extreme network performance programming, golang is not as good as C&#x2F;C++ yet. Detail report here : https:&#x2F;&#x2F;github.com&#x2F;flomesh-io&#x2F;pipy&#x2F;wiki&#x2F;BENCHMARK-:-Pipy-as-Echo-server",
+      "time": 1648449693,
+      "title": "HTTP Echo server benchmark, Nginx(C), HTTP-echo(go), Pipy(C++)",
+      "type": "story"
+    },
+    {
       "by": "laktak",
       "descendants": 0,
       "id": 30827712,
@@ -71,7 +84,7 @@
       "by": "unripe_syntax",
       "descendants": 0,
       "id": 30827606,
-      "score": 1,
+      "score": 2,
       "time": 1648447914,
       "title": "Feds allege destructive Russian hackers targeted US oil refineries",
       "type": "story",
@@ -100,16 +113,6 @@
       "time": 1648447165,
       "title": "Tell HN: If I could chose one new Firefox feature, it would be this",
       "type": "story"
-    },
-    {
-      "by": "urlwolf",
-      "descendants": 0,
-      "id": 30827539,
-      "score": 2,
-      "time": 1648446971,
-      "title": "Discord Is Spyware",
-      "type": "story",
-      "url": "https://spyware.neocities.org/articles/discord.html"
     }
   ]
 }
