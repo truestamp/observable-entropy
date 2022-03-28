@@ -1,10 +1,60 @@
 {
   "stories": [
     {
+      "by": "lsferreira42",
+      "descendants": 0,
+      "id": 30831214,
+      "score": 1,
+      "time": 1648479875,
+      "title": "Maestral – open-source Dropbox client",
+      "type": "story",
+      "url": "https://maestral.app/"
+    },
+    {
+      "by": "ahiknsr",
+      "descendants": 0,
+      "id": 30831213,
+      "score": 1,
+      "time": 1648479874,
+      "title": "Code Verify:Open source browser extension for verifying code authenticity on web",
+      "type": "story",
+      "url": "https://engineering.fb.com/2022/03/10/security/code-verify/"
+    },
+    {
+      "by": "PaulHoule",
+      "descendants": 0,
+      "id": 30831196,
+      "score": 1,
+      "time": 1648479810,
+      "title": "Promising nose spray could prevent and treat Covid-19",
+      "type": "story",
+      "url": "https://news.cornell.edu/stories/2022/03/promising-nose-spray-could-prevent-and-treat-covid-19"
+    },
+    {
+      "by": "mdb31",
+      "descendants": 0,
+      "id": 30831182,
+      "score": 1,
+      "time": 1648479740,
+      "title": "The ZedRipper",
+      "type": "story",
+      "url": "http://www.chrisfenton.com/the-zedripper-part-1/"
+    },
+    {
+      "by": "morpheusme",
+      "descendants": 0,
+      "id": 30831179,
+      "score": 3,
+      "text": "Hi HN,<p>In machine learning, we are faced with tensor-based computations (that&#x27;s the language that ML models think in). I&#x27;ve recently discovered a project that helps you make it much easier to set up and conduct machine learning projects, and enables you to create and store datasets in deep learning-native format.<p>Hub by Activeloop (https:&#x2F;&#x2F;github.com&#x2F;activeloopai&#x2F;Hub) is an open-source Python package that arranges data in Numpy-like arrays. It integrates smoothly with deep learning frameworks such as TensorFlow and PyTorch for faster GPU processing and training. In addition, one can update the data stored in the cloud, create machine learning pipelines using Hub API and interact with datasets (e.g. visualize) in Activeloop platform (https:&#x2F;&#x2F;app.activeloop.ai). The real benefit for me is that, I can stream my datasets without the need to store them on my machine (my datasets can be up to 10GB+ big, but it works just as well with 100GB+ datasets like ImageNet (https:&#x2F;&#x2F;docs.activeloop.ai&#x2F;datasets&#x2F;imagenet-dataset), for instance).<p>Hub allows us to store images, audio, video data in a way that can be accessed at lightning speed. The data can be stored on GCS&#x2F;S3 buckets, local storage, or on Activeloop cloud. The data can directly be used in the training TensorFlow&#x2F; PyTorch models so that you don&#x27;t need to set up data pipelines. The package also comes with data version control, dataset search queries, and distributed workloads.<p>For me, personally the simplicity of the API stands out, for instance:<p><i>Loading datasets in seconds</i><p><pre><code>  import hub ds = hub.load(&quot;hub:&#x2F;&#x2F;activeloop&#x2F;cifar10-train&quot;)\n</code></pre>\nLets you access and train a model on CIFAR 10 dataset in seconds (look for all the datasets available here https:&#x2F;&#x2F;docs.activeloop.ai&#x2F;datasets).<p><i>Dataset filtering</i><p>Hub has its own Pythonic query language (see below), or you can define your own functions to filter through data (since it&#x27;s a multi-dimensional array, it&#x27;s easy to do so).<p><pre><code>  ds_view = ds.filter(&quot;labels == &#x27;automobile&#x27; or labels == &#x27;automobile&#x27;&quot;, scheduler = &#x27;threaded&#x27;, num_workers = 0) Dataset Version Control\n</code></pre>\n<i>Dataset Version Control</i>\nAll things you may already know from git, e.g commit, log, branch, diff, checkout also work for Hub using similar commands. (https:&#x2F;&#x2F;docs.activeloop.ai&#x2F;getting-started&#x2F;dataset-version-control)<p>-----------------------------------------------------------------------------------------------------------------------------------<p>My experience with Hub was amazing: I was able to create and push data to the cloud within a couple of minutes. I also put together a tutorial on how to get started with dataset management with Activeloop Hub so you can finish your ML projects faster<p>You will learn:<p>- How to initializing a dataset on the Activeloop Cloud\n- Processing the images\n- Pushing the data to the cloud\n- Data version control\n- Data visualization<p>Read more here: https:&#x2F;&#x2F;www.kdnuggets.com&#x2F;2022&#x2F;03&#x2F;new-way-managing-deep-learning-datasets.html\nActiveloop Hub docs: https:&#x2F;&#x2F;docs.activeloop.ai&#x2F;<p>Let me know if you have any questions! I just started with Hub quite recently, but might be able to help out. :)",
+      "time": 1648479718,
+      "title": "Easy way to load, create, version, query and visualize computer vision datasets",
+      "type": "story"
+    },
+    {
       "by": "andreinc",
       "descendants": 0,
       "id": 30831146,
-      "score": 1,
+      "score": 2,
       "time": 1648479530,
       "title": "Hash, displace, and compress: Perfect hashing with Java",
       "type": "story",
@@ -32,9 +82,12 @@
     },
     {
       "by": "giuliomagnifico",
-      "descendants": 0,
+      "descendants": 1,
       "id": 30831095,
-      "score": 3,
+      "kids": [
+        30831178
+      ],
+      "score": 4,
       "time": 1648479277,
       "title": "Google Ordered Russian Translators Not to Call War in Ukraine a War",
       "type": "story",
@@ -44,64 +97,11 @@
       "by": "thunderbong",
       "descendants": 0,
       "id": 30831094,
-      "score": 1,
+      "score": 2,
       "time": 1648479276,
       "title": "Dutch Disease",
       "type": "story",
       "url": "https://en.wikipedia.org/wiki/Dutch_disease"
-    },
-    {
-      "by": "mgh2",
-      "descendants": 0,
-      "id": 30831090,
-      "score": 1,
-      "time": 1648479231,
-      "title": "Mortgage rate soars closer to 5% in its second jump this week",
-      "type": "story",
-      "url": "https://www.cnbc.com/2022/03/25/mortgage-rate-soars-closer-to-5percent-in-its-second-huge-jump-this-week.html"
-    },
-    {
-      "by": "marcodiego",
-      "descendants": 0,
-      "id": 30831079,
-      "score": 1,
-      "time": 1648479154,
-      "title": "Clock Signal: an emulator for tourists that seeks to be invisible",
-      "type": "story",
-      "url": "https://github.com/TomHarte/CLK"
-    },
-    {
-      "by": "orangebanana1",
-      "descendants": 0,
-      "id": 30831073,
-      "score": 1,
-      "time": 1648479134,
-      "title": "Next-gen solar cells could make single-use batteries obsolete",
-      "type": "story",
-      "url": "https://www.canarymedia.com/articles/solar/these-next-gen-solar-cells-could-make-single-use-batteries-obsolete"
-    },
-    {
-      "by": "sunils34",
-      "descendants": 0,
-      "id": 30831069,
-      "score": 1,
-      "time": 1648479104,
-      "title": "Google launches booking pages with appointment scheduling in Google Calendar",
-      "type": "story",
-      "url": "https://workspaceupdates.googleblog.com/2022/03/blog-post.html"
-    },
-    {
-      "by": "bryanrasmussen",
-      "descendants": 1,
-      "id": 30831053,
-      "kids": [
-        30831058
-      ],
-      "score": 1,
-      "time": 1648479021,
-      "title": "Human Migration Brought Maize to Maya Region, Study Finds",
-      "type": "story",
-      "url": "https://www.nytimes.com/2022/03/22/science/maya-human-migration-maize-dna.html"
     }
   ]
 }
