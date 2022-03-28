@@ -4,7 +4,7 @@
       "by": "bryan0",
       "descendants": 0,
       "id": 30825863,
-      "score": 1,
+      "score": 2,
       "time": 1648429281,
       "title": "Among Us Servers Have Been Down for over 48 Hours Due to DDoS Attack",
       "type": "story",
@@ -17,7 +17,7 @@
       "kids": [
         30825849
       ],
-      "score": 1,
+      "score": 2,
       "time": 1648429192,
       "title": "A Map of the Empire",
       "type": "story",
@@ -58,9 +58,12 @@
     },
     {
       "by": "scrubs",
-      "descendants": 0,
+      "descendants": 1,
       "id": 30825764,
-      "score": 1,
+      "kids": [
+        30825906
+      ],
+      "score": 2,
       "text": "I&#x27;ve been using spot Amazon c5n metal instances to do DPDK NIC I&#x2F;O development work. About $1.20&#x2F;hr&#x2F;machine. Spot instances are awesome for development work, and on the whole, using Amazon  \nis painless.<p>See https:&#x2F;&#x2F;github.com&#x2F;rodgarrison&#x2F;reinvent<p>However, AWS ENA NICs are virtualized. They are not bonafide plugged-into-the-PCI-bus cards. Therefore the data pathway to&#x2F;from the NIC is not direct like it would be at home with the NIC right on the motherboard or in the PCI bus. For a cloud company probably virtualized is the only way to go.<p>Non-virtualized is what I have in mind for the application I have in mind. To that end, anybody know of a decent HW hosting company provides:<p>- Some kind of Xeon based processors\n- regular run of the mill COTS NICs (not virtualized)\n- Bonus: provides or could provide SolarFlare NICs",
       "time": 1648428577,
       "title": "Ask HN: Looking for bare metal hosting company without virtualized NICs",
