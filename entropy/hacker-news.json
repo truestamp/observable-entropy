@@ -1,11 +1,83 @@
 {
   "stories": [
-    null,
+    {
+      "by": "picture",
+      "descendants": 0,
+      "id": 30844326,
+      "score": 1,
+      "time": 1648569838,
+      "title": "Timing SDR Recordings with GPS",
+      "type": "story",
+      "url": "https://destevez.net/2022/03/timing-sdr-recordings-with-gps/"
+    },
+    {
+      "by": "HieronymusBosch",
+      "descendants": 0,
+      "id": 30844318,
+      "score": 1,
+      "time": 1648569807,
+      "title": "Russians plan to launch alternative to Google Play on Victory Day",
+      "type": "story",
+      "url": "https://www.reuters.com/world/europe/russians-plan-launch-alternative-google-play-victory-day-2022-03-29/"
+    },
+    {
+      "by": "toomanyrichies",
+      "descendants": 1,
+      "id": 30844303,
+      "kids": [
+        30844330
+      ],
+      "score": 2,
+      "time": 1648569731,
+      "title": "There's never been such a severe shortage of homes in the U.S. Here's why",
+      "type": "story",
+      "url": "https://www.npr.org/2022/03/29/1089174630/housing-shortage-new-home-construction-supply-chain"
+    },
+    {
+      "by": "maydemir",
+      "descendants": 0,
+      "id": 30844279,
+      "score": 1,
+      "time": 1648569627,
+      "title": "Boa – Embeddable and experimental JavaScript engine written in Rust",
+      "type": "story",
+      "url": "https://github.com/boa-dev/boa"
+    },
+    {
+      "by": "Tomte",
+      "descendants": 0,
+      "id": 30844278,
+      "score": 1,
+      "time": 1648569626,
+      "title": "Thunderbird on Twitter: “What's Coming in Thunderbird 102 (2022): Matrix Support",
+      "type": "story",
+      "url": "https://twitter.com/mozthunderbird/status/1508662578360188929"
+    },
+    {
+      "by": "tosh",
+      "descendants": 0,
+      "id": 30844276,
+      "score": 1,
+      "time": 1648569622,
+      "title": "Apple and MLB Announce “Friday Night Baseball”",
+      "type": "story",
+      "url": "https://www.apple.com/newsroom/2022/03/apple-and-mlb-announce-friday-night-baseball-schedule-beginning-april-8/"
+    },
+    {
+      "by": "knoxa2511",
+      "descendants": 0,
+      "id": 30844268,
+      "score": 2,
+      "time": 1648569594,
+      "title": "Digital Forensics Basics: A Practical Guide for Kubernetes DFIR",
+      "type": "story",
+      "url": "https://sysdig.com/blog/guide-kubernetes-forensics-dfir/"
+    },
     {
       "by": "paulcarroty",
       "descendants": 0,
       "id": 30844248,
-      "score": 1,
+      "score": 2,
       "time": 1648569458,
       "title": "Russian hackers had access to Hungary Foreign Ministry for years",
       "type": "story",
@@ -13,9 +85,12 @@
     },
     {
       "by": "tjansen",
-      "descendants": 0,
+      "descendants": 1,
       "id": 30844234,
-      "score": 1,
+      "kids": [
+        30844311
+      ],
+      "score": 3,
       "time": 1648569395,
       "title": "How to quickly end the war in Ukraine with $10 laser pointers",
       "type": "story",
@@ -30,65 +105,6 @@
       "title": "Intel just unveiled the 'world's fastest' desktop processor",
       "type": "story",
       "url": "https://www.zdnet.com/article/intel-just-unveiled-the-worlds-fastest-desktop-processor/"
-    },
-    {
-      "by": "hakunin",
-      "descendants": 0,
-      "id": 30844214,
-      "score": 2,
-      "text": "In this context, backend = server side of web dev, and frontend = browser&#x2F;client side of web dev.<p>I&#x27;ve worked in both individual contributor and execute level roles for nearly 20 years (still doing both to this day). In most companies where I worked, backend side of web development had trouble reconciling with business-level planning. It seems to be a backend-specific issue because of the following problems that frontend doesn&#x27;t seem to have:<p><pre><code>    1. Refactors are more likely to cause big conflicts with everyone else\n    2. Tasks are more likely to be foundational, and become pre-requisites&#x2F;blockers for multiple other tasks\n    3. The famous &quot;make change easy, then make the easy change&quot; in practice makes most tasks become refactoring or foundational work, which leads to points 1 and 2\n    4. Due to 3, it&#x27;s very hard to predict the scope of work up front. If you try to retroactively reflect what you&#x27;re actually doing (i.e. in a sprint), then chances are your board will start with 20 &quot;aspirational&quot; tickets, and end with 40 new tickets closed, none of which are in the original 20. That&#x27;s because you only discovered what needs doing after you&#x27;ve almost done it.\n</code></pre>\nThe reason front-end doesn&#x27;t usually have these issues is because it operates in small, isolated worlds, such as pages and components. Backend, by its nature, is responsible for maintaining the entire system&#x27;s state. Whether it&#x27;s a set of services, or a single monolith, the fact remains that it&#x27;s typically a big, integrated machine.<p>Before you say that in a well-written codebase these situations shouldn&#x27;t happen often, the truth is that there aren&#x27;t that many well-written proprietary codebases. As time goes on, with proper guidance, codebases improve. In the mean time, we have to keep going.<p>Some might say that we must separate any refactoring or foundational work from feature building. Wouldn&#x27;t it be more damaging to separate them? It makes a lot more sense for features to drive refactors. Otherwise, ironically, refactors will not be rooted in business needs, and become even more detached from business realities. Also, this doesn&#x27;t work with &quot;make the change easy&quot;.<p>QUESTION: How do you plan back-end engineering work? Typical sprint planning rarely pans out. However, removing sprints from backend team is kind of like giving up on planning entirely. Feels like we need some creative thinking to deal with the backend planning problem.<p>Do you have any advice that worked for you, that allows for both business planning, and good backend engineering quality at a healthy pace?",
-      "time": 1648569325,
-      "title": "Ask HN: How do you plan back end work?",
-      "type": "story"
-    },
-    {
-      "by": "gjvc",
-      "descendants": 0,
-      "id": 30844184,
-      "score": 3,
-      "time": 1648569161,
-      "title": "Ask HN: Anyone Using JetBrains Space?",
-      "type": "story"
-    },
-    {
-      "by": "imichael",
-      "descendants": 0,
-      "id": 30844177,
-      "score": 1,
-      "time": 1648569125,
-      "title": "Russian tech giant Yandex’s data harvesting raises security concerns",
-      "type": "story",
-      "url": "https://www.ft.com/content/c02083b5-8a0a-48e5-b850-831a3e6406bb"
-    },
-    {
-      "by": "crocodiletears",
-      "descendants": 0,
-      "id": 30844176,
-      "score": 1,
-      "time": 1648569124,
-      "title": "Ukraine Using Clearview AI to ID Dead Russian Soldiers",
-      "type": "story",
-      "url": "https://www.inputmag.com/tech/ukraine-clearview-facial-recognition-id-dead-russian-soldiers"
-    },
-    {
-      "by": "severine",
-      "descendants": 0,
-      "id": 30844174,
-      "score": 1,
-      "time": 1648569113,
-      "title": "“Privacy Shield 2.0”? – First Reaction by Max Schrems",
-      "type": "story",
-      "url": "https://noyb.eu/en/privacy-shield-20-first-reaction-max-schrems"
-    },
-    {
-      "by": "jspeed-meyers",
-      "descendants": 0,
-      "id": 30844162,
-      "score": 6,
-      "time": 1648569074,
-      "title": "Be all about that base image",
-      "type": "story",
-      "url": "https://blog.chainguard.dev/zero-security-debt-for-container-images-is-possible/"
     }
   ]
 }
