@@ -1,10 +1,51 @@
 {
   "stories": [
+    null,
+    {
+      "by": "paulcarroty",
+      "descendants": 0,
+      "id": 30844248,
+      "score": 1,
+      "time": 1648569458,
+      "title": "Russian hackers had access to Hungary Foreign Ministry for years",
+      "type": "story",
+      "url": "https://444.hu/2022/03/29/az-osszellenzek-lemondasra-szolitotta-fel-szijjarto-petert"
+    },
+    {
+      "by": "tjansen",
+      "descendants": 0,
+      "id": 30844234,
+      "score": 1,
+      "time": 1648569395,
+      "title": "How to quickly end the war in Ukraine with $10 laser pointers",
+      "type": "story",
+      "url": "https://www.cringely.com/2022/03/29/how-to-quickly-end-the-war-in-ukraine-with-10-laser-pointers/"
+    },
+    {
+      "by": "illuminated",
+      "descendants": 0,
+      "id": 30844221,
+      "score": 1,
+      "time": 1648569349,
+      "title": "Intel just unveiled the 'world's fastest' desktop processor",
+      "type": "story",
+      "url": "https://www.zdnet.com/article/intel-just-unveiled-the-worlds-fastest-desktop-processor/"
+    },
+    {
+      "by": "hakunin",
+      "descendants": 0,
+      "id": 30844214,
+      "score": 2,
+      "text": "In this context, backend = server side of web dev, and frontend = browser&#x2F;client side of web dev.<p>I&#x27;ve worked in both individual contributor and execute level roles for nearly 20 years (still doing both to this day). In most companies where I worked, backend side of web development had trouble reconciling with business-level planning. It seems to be a backend-specific issue because of the following problems that frontend doesn&#x27;t seem to have:<p><pre><code>    1. Refactors are more likely to cause big conflicts with everyone else\n    2. Tasks are more likely to be foundational, and become pre-requisites&#x2F;blockers for multiple other tasks\n    3. The famous &quot;make change easy, then make the easy change&quot; in practice makes most tasks become refactoring or foundational work, which leads to points 1 and 2\n    4. Due to 3, it&#x27;s very hard to predict the scope of work up front. If you try to retroactively reflect what you&#x27;re actually doing (i.e. in a sprint), then chances are your board will start with 20 &quot;aspirational&quot; tickets, and end with 40 new tickets closed, none of which are in the original 20. That&#x27;s because you only discovered what needs doing after you&#x27;ve almost done it.\n</code></pre>\nThe reason front-end doesn&#x27;t usually have these issues is because it operates in small, isolated worlds, such as pages and components. Backend, by its nature, is responsible for maintaining the entire system&#x27;s state. Whether it&#x27;s a set of services, or a single monolith, the fact remains that it&#x27;s typically a big, integrated machine.<p>Before you say that in a well-written codebase these situations shouldn&#x27;t happen often, the truth is that there aren&#x27;t that many well-written proprietary codebases. As time goes on, with proper guidance, codebases improve. In the mean time, we have to keep going.<p>Some might say that we must separate any refactoring or foundational work from feature building. Wouldn&#x27;t it be more damaging to separate them? It makes a lot more sense for features to drive refactors. Otherwise, ironically, refactors will not be rooted in business needs, and become even more detached from business realities. Also, this doesn&#x27;t work with &quot;make the change easy&quot;.<p>QUESTION: How do you plan back-end engineering work? Typical sprint planning rarely pans out. However, removing sprints from backend team is kind of like giving up on planning entirely. Feels like we need some creative thinking to deal with the backend planning problem.<p>Do you have any advice that worked for you, that allows for both business planning, and good backend engineering quality at a healthy pace?",
+      "time": 1648569325,
+      "title": "Ask HN: How do you plan back end work?",
+      "type": "story"
+    },
     {
       "by": "gjvc",
       "descendants": 0,
       "id": 30844184,
-      "score": 1,
+      "score": 3,
       "time": 1648569161,
       "title": "Ask HN: Anyone Using JetBrains Space?",
       "type": "story"
@@ -43,62 +84,11 @@
       "by": "jspeed-meyers",
       "descendants": 0,
       "id": 30844162,
-      "score": 2,
+      "score": 6,
       "time": 1648569074,
       "title": "Be all about that base image",
       "type": "story",
       "url": "https://blog.chainguard.dev/zero-security-debt-for-container-images-is-possible/"
-    },
-    {
-      "by": "jehunix",
-      "descendants": 0,
-      "id": 30844159,
-      "score": 1,
-      "time": 1648569067,
-      "title": "Magnet app affecting UIKit apps causing random hangs and lost events",
-      "type": "story",
-      "url": "https://twitter.com/_saagarjha/status/1508799491058589701"
-    },
-    {
-      "by": "dbrereton",
-      "descendants": 0,
-      "id": 30844149,
-      "score": 1,
-      "text": "Hey HN,<p>Blog discovery is a problem [0] due to the decentralized nature of online writing. Everyone writes on their own site or platform, and there’s no central place that brings everything together. Google results prioritize large media publications over blogs, so we need something else.<p>Blog Surf is an attempt to organize all of the great online writing done by individuals. You can do full-text search across all of the blog posts in the index, and filter by publish date and reading time. Blogs are manually reviewed before being added.<p>Posts are sorted by MarketRank [1], which is a measure of popularity across various online communities. Most projects that have attempted to organize blogs lack any way to measure the quality of a post, reducing their utility. With MarketRank, you can expect the top results for any query to be something you’d want to read.<p>The mental model for searching Blog Surf is “I want to see the best essays on X”<p>There’s also a directory so you can browse blogs by category, if you want a throwback to the Yahoo days.<p>If you’re a blogger yourself, you can check out the rankings page to see how your blog compares to others.<p>If you want to play around with things, we have a search API, and the full post dataset is also available for download.<p>[0] <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=28591880\" rel=\"nofollow\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=28591880</a><p>[1] <a href=\"https:&#x2F;&#x2F;dkb.io&#x2F;post&#x2F;market-rank\" rel=\"nofollow\">https:&#x2F;&#x2F;dkb.io&#x2F;post&#x2F;market-rank</a>",
-      "time": 1648569018,
-      "title": "Show HN: Search Engine for Blogs",
-      "type": "story",
-      "url": "https://blogsurf.io"
-    },
-    {
-      "by": "gmays",
-      "descendants": 0,
-      "id": 30844145,
-      "score": 2,
-      "time": 1648568997,
-      "title": "Supreme Court to Review Warhol Lawsuit Involving Prince Portrait",
-      "type": "story",
-      "url": "https://www.artnews.com/art-news/news/supreme-court-warhol-foundation-lynn-goldsmith-prince-lawsuit-1234623054/"
-    },
-    {
-      "by": "webmaven",
-      "descendants": 0,
-      "id": 30844144,
-      "score": 1,
-      "time": 1648568990,
-      "title": "Identifying “Underproduced” Software",
-      "type": "story",
-      "url": "https://mako.cc/copyrighteous/identifying-underproduced-software"
-    },
-    {
-      "by": "rathboma",
-      "descendants": 0,
-      "id": 30844115,
-      "score": 1,
-      "time": 1648568855,
-      "title": "Apple Silicon native release of Beekeeper Studio",
-      "type": "story",
-      "url": "https://www.beekeeperstudio.io/blog/release-3.3"
     }
   ]
 }
