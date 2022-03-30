@@ -1,6 +1,79 @@
 {
   "stories": [
     {
+      "by": "eatonphil",
+      "descendants": 0,
+      "id": 30860395,
+      "score": 1,
+      "time": 1648672151,
+      "title": "Fakegen: Single binary CLI for generating structured JSON, CSV, Excel, etc.",
+      "type": "story",
+      "url": "https://github.com/multiprocessio/fakegen"
+    },
+    {
+      "by": "pmoriarty",
+      "descendants": 0,
+      "id": 30860386,
+      "score": 1,
+      "time": 1648672108,
+      "title": "Rightist Psychedelia",
+      "type": "story",
+      "url": "https://culanth.org/fieldsights/rightist-psychedelia"
+    },
+    {
+      "by": "Darkstryder",
+      "descendants": 0,
+      "id": 30860383,
+      "score": 1,
+      "time": 1648672106,
+      "title": "Spring4Shell",
+      "type": "story",
+      "url": "https://github.com/dinosn/CVE-2022-22963"
+    },
+    {
+      "by": "moneil971",
+      "descendants": 0,
+      "id": 30860366,
+      "score": 1,
+      "time": 1648672043,
+      "title": "Meta enables de-identified authentication at scale",
+      "type": "story",
+      "url": "https://engineering.fb.com/2022/03/30/security/de-identified-authentication-at-scale/"
+    },
+    {
+      "by": "ibobev",
+      "descendants": 0,
+      "id": 30860364,
+      "score": 1,
+      "time": 1648672036,
+      "title": "Saturating_add vs. saturating_int – new function vs. new type?",
+      "type": "story",
+      "url": "https://www.foonathan.net/2022/03/behavior-function-type/"
+    },
+    {
+      "by": "nassimsoftware",
+      "descendants": 0,
+      "id": 30860362,
+      "score": 1,
+      "text": "I still struggle with using a touch screen to type, play games and write code and I&#x27;m supposed to be gen z. (I&#x27;m exaggerating a bit but the experience is genuinely sub-par to a keyboard or a controller.)<p>I wonder if the touch screen is inherently a bad input device or is it a generational thing?<p>My parents can&#x27;t use a video game controller but I can with ease.<p>Do you think the babies who are growing up on ipads are going to have great dexterity with touch devices as adults and prefer it to a keyboard?",
+      "time": 1648672032,
+      "title": "Ask HN: Is the touch screen a bad input device or it's a generational thing?",
+      "type": "story"
+    },
+    {
+      "by": "groundshark",
+      "descendants": 1,
+      "id": 30860352,
+      "kids": [
+        30860353
+      ],
+      "score": 1,
+      "time": 1648671983,
+      "title": "Spring Core on JDK9 is vulnerable to remote code execution",
+      "type": "story",
+      "url": "https://www.praetorian.com/blog/spring-core-jdk9-rce/"
+    },
+    {
       "by": "lambdaba",
       "descendants": 0,
       "id": 30860342,
@@ -29,79 +102,6 @@
       "title": "New Spring Java framework zero-day allows remote code execution",
       "type": "story",
       "url": "https://www.bleepingcomputer.com/news/security/new-spring-java-framework-zero-day-allows-remote-code-execution/"
-    },
-    {
-      "by": "nepalvibes",
-      "descendants": 1,
-      "id": 30860307,
-      "kids": [
-        30860338
-      ],
-      "score": 1,
-      "text": "I signed up for a webinar hosted by Amazon relating to machine learning 6-8 months ago. I used my work email thinking it would be useful for my employer.<p>Since then I&#x27;ve reached emails from 9 different Amazon recruiters for Software Engineer role to my work email. Reaching out to me on my work email looks very odd to me.<p>I tried responding to 4 or 5 of the recruiters to take me off the list but no one responds to my email. Finally 9th recruiter responded and promised me to take my email off their list.<p>Is this a common hiring practice?",
-      "time": 1648671693,
-      "title": "Ask HN: Is Amazon hiring practice common?",
-      "type": "story"
-    },
-    {
-      "by": "elpakal",
-      "descendants": 0,
-      "id": 30860290,
-      "score": 1,
-      "text": "If your tests are reliable and deterministic, it seems like they should run on change requests (PRs) as you can always scale resources more if you really need to. If they aren&#x27;t reliable or deterministic, then putting them into a regression suite seems like will inevitably lead to a bloated, outdated and untrustworthy suite of tests. Does anyone do regression well?",
-      "time": 1648671593,
-      "title": "Ask HN: Are Regression Suites Worth a Shit?",
-      "type": "story"
-    },
-    {
-      "by": "notmysql_",
-      "descendants": 0,
-      "id": 30860288,
-      "score": 1,
-      "time": 1648671591,
-      "title": "Apple launches driver’s license and state ID in Wallet with Arizona",
-      "type": "story",
-      "url": "https://www.apple.com/newsroom/2022/03/apple-launches-the-first-drivers-license-and-state-id-in-wallet-with-arizona/"
-    },
-    {
-      "by": "pedrolins",
-      "descendants": 0,
-      "id": 30860259,
-      "score": 7,
-      "text": "I&#x27;ve been learning about computer architecture [1] and I&#x27;ve become comfortable with my understanding of how a processor communicates with main memory - be it directly, with the presence of caches or even virtual memory - and I&#x2F;O peripherals.<p>But something that seems weirdly absent from the courses I took and what I have found online is how the CPU communicates with other processing units, such as GPUs - not only that, but an in-depth description of interconnecting different systems with buses (by in-depth I mean an RTL example&#x2F;description).<p>I understand that as you add more hardware to a machine, complexity increases and software must intervene - so a generalistic answer won&#x27;t exist and the answer will depend on the implementation being talked about. That&#x27;s fine by me.<p>What I&#x27;m looking for is a description of how a CPU tells a GPU to start executing a program. Through what means do they communicate - a bus? How does such a communication instance look like?<p>I&#x27;d love get pointers to resources such as books and lectures that are more hands-on&#x2F;implementation aware.<p>[1] Just so that my background knowledge is clear: I&#x27;ve concluded NAND2TETRIS, watched and concluded Berkeley&#x27;s 2020 CS61C and have read a good chunk of H&amp;P (both Computer Architecture: A Quantitative Approach and Computer Organization and Design: RISC-V edition), and now am moving on to Onur Mutlu&#x27;s lectures on advanced computer architecture.",
-      "time": 1648671465,
-      "title": "Ask HN: How does a CPU communicate with a GPU?",
-      "type": "story"
-    },
-    {
-      "by": "MorganGallant",
-      "descendants": 0,
-      "id": 30860258,
-      "score": 1,
-      "time": 1648671461,
-      "title": "Operand: A personal search engine for developers",
-      "type": "story",
-      "url": "https://operand.ai/"
-    },
-    {
-      "by": "wolverine876",
-      "descendants": 0,
-      "id": 30860251,
-      "score": 1,
-      "time": 1648671415,
-      "title": "How Two Industries Stymied Justice for Young Lead Paint Victims",
-      "type": "story",
-      "url": "https://www.nytimes.com/2022/03/29/us/lead-poisoning-insurance-landlords.html"
-    },
-    {
-      "by": "wdavidw",
-      "descendants": 0,
-      "id": 30860246,
-      "score": 1,
-      "time": 1648671393,
-      "title": "Nix package creation: install a not yet supported font",
-      "type": "story",
-      "url": "https://www.adaltas.com/en/2022/03/29/nix-package-creation-install-font/"
     }
   ]
 }
