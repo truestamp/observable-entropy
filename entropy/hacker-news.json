@@ -1,6 +1,76 @@
 {
   "stories": [
     {
+      "by": "bitcharmer",
+      "descendants": 0,
+      "id": 30869399,
+      "score": 1,
+      "time": 1648745290,
+      "title": "Indirect branch tracking for Intel CPUs",
+      "type": "story",
+      "url": "https://lwn.net/SubscriberLink/889475/2343aeba1119e299/"
+    },
+    {
+      "by": "bdcravens",
+      "descendants": 0,
+      "id": 30869396,
+      "score": 1,
+      "time": 1648745280,
+      "title": "Truth Social app downloads are down 93% since its launch",
+      "type": "story",
+      "url": "https://mashable.com/article/truth-social-downloads-drop-donald-trump"
+    },
+    {
+      "by": "Tomte",
+      "descendants": 0,
+      "id": 30869392,
+      "score": 1,
+      "time": 1648745272,
+      "title": "An Annotated Letter from Roman Polanski (2010)",
+      "type": "story",
+      "url": "https://idlewords.com/2010/05/an_annotated_letter_from_roman_polanski.htm"
+    },
+    {
+      "by": "Tomte",
+      "descendants": 0,
+      "id": 30869384,
+      "score": 1,
+      "time": 1648745258,
+      "title": "A Beginner's Guide to Kerning (2015)",
+      "type": "story",
+      "url": "https://designschool.canva.com/blog/kerning/"
+    },
+    {
+      "by": "cpach",
+      "descendants": 0,
+      "id": 30869382,
+      "score": 1,
+      "text": "Dear fellow Mac users,<p>What’s your favourite hypervisor for a macOS host?<p>I’m currently pondering what hypervisor to use and would appreciate some input from other Mac users. What has worked well for you folks, what hasn’t worked well?<p>See below for some options that I have found.<p>Would love to hear from you regarding this matter.<p>¤ <i>PARALLELS</i> ¤<p>Good performance. Support is included in the subscription. Works with M1 CPUs. A Vagrant provider is available. Proprietary software.<p>Website: https:&#x2F;&#x2F;www.parallels.com&#x2F;eu&#x2F;products&#x2F;desktop&#x2F;<p>¤ <i>VMWARE FUSION</i> ¤<p>Supposedly stable. A Vagrant provider is available. M1 CPUs still in beta. No support included(?). Proprietary software.<p>Website: https:&#x2F;&#x2F;www.vmware.com&#x2F;se&#x2F;products&#x2F;fusion.html<p>¤ <i>UTM</i> ¤<p>Open source. Nice clean GUI. Works with M1 CPUs. Community support available. No Vagrant provider available. Not so mature, still quite buggy.<p>Website: https:&#x2F;&#x2F;mac.getutm.app&#x2F;<p>¤ <i>QEMU (with our without libvirt)</i> ¤<p>Open source. Works with M1 CPUs. Community support available. No mature Vagrant provider available.<p>Configuration is not straight-forward. Guides and documentation are mostly related to Linux hosts, much of that information is not relevant for a macOS host. HVF support is probably not mature yet.<p>Unclear how to configure networking[0].<p>Website: See https:&#x2F;&#x2F;wiki.qemu.org&#x2F;Features&#x2F;HVF, https:&#x2F;&#x2F;www.qemu.org&#x2F; and https:&#x2F;&#x2F;libvirt.org&#x2F;<p>¤ <i>VIRTUALBOX</i> ¤<p>Open source. A Vagrant provider is available. Community support available. No M1 support.<p>I’ve found the GUI to be buggy on recent versions of macOS. And I’m not fond of using products that are owned and developed by Oracle.<p>Website: https:&#x2F;&#x2F;virtualbox.org&#x2F;<p>[0] See e.g. https:&#x2F;&#x2F;listman.redhat.com&#x2F;archives&#x2F;libvirt-users&#x2F;2022-March&#x2F;013501.html",
+      "time": 1648745233,
+      "title": "Favourite hypervisor for a macOS host?",
+      "type": "story"
+    },
+    {
+      "by": "Jtsummers",
+      "descendants": 0,
+      "id": 30869374,
+      "score": 1,
+      "time": 1648745214,
+      "title": "What's New in Ada 2022",
+      "type": "story",
+      "url": "https://learn.adacore.com/courses/whats-new-in-ada-2022/index.html"
+    },
+    {
+      "by": "CrankyBear",
+      "descendants": 0,
+      "id": 30869372,
+      "score": 1,
+      "time": 1648745208,
+      "title": "Yoga: OpenStack IaaS cloud gets its 25th update",
+      "type": "story",
+      "url": "https://www.zdnet.com/article/openstack-iaas-cloud-25th-release-arrives/"
+    },
+    {
       "by": "riipandi",
       "descendants": 0,
       "id": 30869331,
@@ -22,83 +92,16 @@
     },
     {
       "by": "webmaven",
-      "descendants": 0,
+      "descendants": 1,
       "id": 30869310,
+      "kids": [
+        30869369
+      ],
       "score": 2,
       "time": 1648744945,
       "title": "New Mexico Will Make College Tuition Free for Residents",
       "type": "story",
       "url": "https://www.nytimes.com/2022/03/31/us/new-mexico-free-college.html"
-    },
-    {
-      "by": "unknownhad",
-      "descendants": 0,
-      "id": 30869283,
-      "score": 1,
-      "time": 1648744801,
-      "title": "WAF Mitigations for Spring4Shell",
-      "type": "story",
-      "url": "https://blog.cloudflare.com/waf-mitigations-sping4shell/"
-    },
-    {
-      "by": "webmaven",
-      "descendants": 0,
-      "id": 30869262,
-      "score": 1,
-      "time": 1648744731,
-      "title": "Russian oil tankers are vanishing off the map",
-      "type": "story",
-      "url": "https://www.cnn.com/2022/03/30/business/russia-sanctions-oil/index.html"
-    },
-    {
-      "by": "spacey",
-      "descendants": 0,
-      "id": 30869261,
-      "score": 3,
-      "time": 1648744718,
-      "title": "How Go Mitigates Supply Chain Attacks",
-      "type": "story",
-      "url": "https://go.dev/blog/supply-chain"
-    },
-    {
-      "by": "goob",
-      "descendants": 0,
-      "id": 30869231,
-      "score": 1,
-      "text": "Current or even websites that were shutdown will do. I can just search the shutdowns ones on WAYBACK machine but overall I’m having a really hard time finding the websites I’m looking for…",
-      "time": 1648744608,
-      "title": "Any websites for list/fan pages of current/defunct food brands",
-      "type": "story"
-    },
-    {
-      "by": "julesie",
-      "descendants": 0,
-      "id": 30869157,
-      "score": 1,
-      "text": "We would like to set up some displays in our office to constantly display some performance dashboards. The dashboards are custom built but accessible via the web.<p>We&#x27;d like to set up about 6 of these devices and want to keep them as low maintenance as possible.<p>It feels like overkill to setup a laptop for each screen just for this purpose but we weren&#x27;t sure in 2022 what the best approach from a cost and reliability perspective would be.<p>Some routes we have considered:<p><pre><code>  - Use &#x27;Smart TVs&#x27; and rely on the built-in browser (can be janky to use)\n  - Use a Raspberry Pi connected to a monitor (hard to source new Pi&#x27;s at the moment)\n  - Use an Amazon Fire Stick (they have an auto-sleep that can&#x27;t seem to be disabled)\n  - Use an no-name Raspberry Pi-esque mini USB-C PC (dubious quality)\n</code></pre>\nDo any of those seem like the obvious choice or are we missing something even more straightforward?",
-      "time": 1648744325,
-      "title": "Ask HN: Best approach for always on TV dashboard",
-      "type": "story"
-    },
-    {
-      "by": "tosh",
-      "descendants": 0,
-      "id": 30869151,
-      "score": 2,
-      "time": 1648744318,
-      "title": "GPT-3: Write an investor pitch deck for Datasette",
-      "type": "story",
-      "url": "https://twitter.com/simonw/status/1509564581248573446"
-    },
-    {
-      "by": "todsacerdoti",
-      "descendants": 0,
-      "id": 30869140,
-      "score": 5,
-      "time": 1648744277,
-      "title": "The smallest and worst HDMI display ever",
-      "type": "story",
-      "url": "https://mitxela.com/projects/ddc-oled"
     }
   ]
 }
