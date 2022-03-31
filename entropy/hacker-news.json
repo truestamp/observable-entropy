@@ -1,6 +1,56 @@
 {
   "stories": [
     {
+      "by": "niccl",
+      "descendants": 0,
+      "id": 30871557,
+      "score": 1,
+      "time": 1648756416,
+      "title": "Some AI Systems May Be Impossible to Compute",
+      "type": "story",
+      "url": "https://spectrum.ieee.org/deep-neural-network"
+    },
+    {
+      "by": "adamrmcd",
+      "descendants": 0,
+      "id": 30871545,
+      "score": 1,
+      "time": 1648756344,
+      "title": "Hand Soldering a Wlcsp Package",
+      "type": "story",
+      "url": "https://mitxela.com/projects/soldering_wlcsp"
+    },
+    {
+      "by": "todsacerdoti",
+      "descendants": 0,
+      "id": 30871537,
+      "score": 1,
+      "time": 1648756280,
+      "title": "GitHub – DanilaFe/matrix-highlight: A decentralized and federated way of annota",
+      "type": "story",
+      "url": "https://github.com/DanilaFe/matrix-highlight"
+    },
+    {
+      "by": "JNRowe",
+      "descendants": 0,
+      "id": 30871530,
+      "score": 1,
+      "time": 1648756236,
+      "title": "How do kids conceive the internet?",
+      "type": "story",
+      "url": "https://curlybracket.net/2022/03/31/internet-kids.html"
+    },
+    {
+      "by": "mooreds",
+      "descendants": 0,
+      "id": 30871524,
+      "score": 1,
+      "time": 1648756207,
+      "title": "What Happens When Globalization Breaks Down",
+      "type": "story",
+      "url": "https://www.nytimes.com/2022/03/31/business/supply-chain-small-business.html"
+    },
+    {
       "by": "Fervicus",
       "descendants": 0,
       "id": 30871499,
@@ -14,7 +64,7 @@
       "by": "nigerian1981",
       "descendants": 0,
       "id": 30871498,
-      "score": 1,
+      "score": 2,
       "time": 1648756020,
       "title": "Why is GCHQ saying Putin has been misinformed about Ukraine war?",
       "type": "story",
@@ -24,7 +74,7 @@
       "by": "tomasrb",
       "descendants": 0,
       "id": 30871488,
-      "score": 1,
+      "score": 2,
       "time": 1648755969,
       "title": "Engineering Effectiveness Handbook",
       "type": "story",
@@ -49,59 +99,6 @@
       "title": "Earth 2: the Metaverse as crypto number-go-up",
       "type": "story",
       "url": "https://davidgerard.co.uk/blockchain/2022/03/31/earth-2-the-metaverse-as-crypto-number-go-up/"
-    },
-    {
-      "by": "buf",
-      "descendants": 0,
-      "id": 30871458,
-      "score": 1,
-      "time": 1648755741,
-      "title": "Lessons starting a $500M and a $5M company in 5 years",
-      "type": "story",
-      "url": "https://siliconvict.com/articles/5-lessons-starting-a-500m-a-5m-company-in-5-years"
-    },
-    {
-      "by": "codesuela",
-      "descendants": 0,
-      "id": 30871440,
-      "score": 2,
-      "text": "Why are we even paying for Slack?<p>Mar 29, 2022, 10:37 AM PDT<p>Dear support\nwe do have an employee in Ukraine: Dmytro\nhe can’t access his slack account anymore.\nDmytro is living in Ukraine close to the border with Russia in Bakhamut (https:&#x2F;&#x2F;goo.gl&#x2F;maps&#x2F;6ub2BqXW64eS1ApA9) Ukraine.\nDmytro is a Ukrainian citizen who is living in Ukraine. We would love Dmytro to have access to slack again without VPN or similar.\nCan you please assist us?\nBest<p>-----<p>Paul (Slack)<p>Mar 30, 2022, 7:17 AM PDT<p>Hello Daniel,<p>Paul here from Slack. Thanks for your writing in with your question, although I&#x27;m sorry for the trouble your colleague is having connecting to Slack. Can you please have this person reach out to us here directly at feedback@slack.com so we can investigate on their behalf?<p>We&#x27;ll be standing by for their outreach.<p>Warmly,\nPaul<p>-----<p>Hello Paul,<p>I would like to continue the correspondence started by my management and clarify the point.<p>As Daniel mentioned in his previous letter, I am located in a town that is officially under the control of the Ukrainian government and has not been occupied by Russian military forces. Feel free to check the location via this link (https:&#x2F;&#x2F;goo.gl&#x2F;maps&#x2F;6ub2BqXW64eS1ApA9). My IP address is 176.121.230.29 to make it even more precise.<p>I consider it to be genuinely unfair that Slack limited my access to the software considering my town to be a part of Russia or any other restricted area. This fact is offensive to me as a citizen of Ukraine and a part of the resistance to the Russian invasion.<p>I hope this issue can be resolved soon.<p>Best regards,\nDmytro<p>----<p>Paul (Slack)<p>Mar 30, 2022, 2:26 PM PDT<p>Hello Dmytro,<p>Thanks for letting us know. We&#x27;ll review the information we have and will get back to you soon.<p>Warmly,\nPaul",
-      "time": 1648755651,
-      "title": "DeleteSlack for sanctioning innocent Ukrainian paying customers",
-      "type": "story"
-    },
-    {
-      "by": "Wa9neYa0",
-      "descendants": 0,
-      "id": 30871438,
-      "score": 1,
-      "text": "The company I work for has a system that defines and manages &quot;roles&quot;, &quot;teams&quot;, &quot;operations&quot; etc. to enforce best security practice (minimal privilege principal for example). It works by mandating some sensitive operation (for example ssh to our production environment machines to investigate issues) to require an &quot;approval&quot; from manager to explicitly allow the operation to proceed. And there&#x27;s also an &quot;elevation&quot; mechanism that will give your current account privileged role for only a few hours (to elevate, approval is required as well).<p>The thing is, that&#x27;s a very internal system tightly depending on network environment (e.g., only on-prem machines understands the lockbox request). Recently I&#x27;m working on a project that is purely cloud-based and have no access to such tool&#x2F;service, yet I wanna add the &quot;approval&quot; and &quot;elevation&quot; mechanism to my project to ensure some security practices are maintained. I searched on github and no luck.<p>My questions are:<p>1. Is there any similar framework that does the job without needing me to implement the whole thing?<p>2. If I want to create a open-source project to do this, is it going to &quot;end up okay&quot; or has any value? I mean there&#x27;s probably to tons of questions and problem to think about.",
-      "time": 1648755635,
-      "title": "Is there any “elevation and approval” framework?",
-      "type": "story"
-    },
-    {
-      "by": "paulpauper",
-      "descendants": 0,
-      "id": 30871434,
-      "score": 1,
-      "time": 1648755599,
-      "title": "The Reason Young People Can’t Afford a Home",
-      "type": "story",
-      "url": "https://fee.org/articles/heres-the-real-reason-young-people-can-t-afford-a-home/"
-    },
-    {
-      "by": "codesuela",
-      "descendants": 2,
-      "id": 30871430,
-      "kids": [
-        30871431
-      ],
-      "score": 1,
-      "time": 1648755581,
-      "title": "DeleteSlack, they sanction innocent Ukrainian",
-      "type": "story",
-      "url": "https://slack.com/"
     }
   ]
 }
