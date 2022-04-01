@@ -1,6 +1,46 @@
 {
   "stories": [
     {
+      "by": "tosh",
+      "descendants": 0,
+      "id": 30877940,
+      "score": 1,
+      "time": 1648820327,
+      "title": "Floating Point Math",
+      "type": "story",
+      "url": "https://0.30000000000000004.com/"
+    },
+    {
+      "by": "an-selm",
+      "descendants": 0,
+      "id": 30877938,
+      "score": 1,
+      "text": "Disclaimer: I am not a professional programmer, nor am I very well-versed in OS theory.\nNevertheless I have the following question:\nWhy do people still build OS&#x27;s from scratch, and dont just use the base system and wrap it in an OS of their liking?\nFor example, mezzano a lisp OS is, it seems to me, pretty much built from scratch.\nWhy do these guys not just build a lisp OS on top of some UNIX-system, so that every call to the OS goes through that layer?\nAs an example:\nSome people complain that UNIX files are essentially just a lot of text, with not much further information.\nWhy not just write an additional layer that uses those files as the base but also stores more information about them somewhere?\nMaybe it would be too slow, or maybe some system calls cant be passed through an additional layer. Or maybe I am not seeing something immediately obvious to any professional. But I feel like I am probably going to learn something from the answer, so I will just go ahead and ask.",
+      "time": 1648820326,
+      "title": "Why not build operating systems as layers?",
+      "type": "story"
+    },
+    {
+      "by": "ahamez",
+      "descendants": 0,
+      "id": 30877930,
+      "score": 1,
+      "time": 1648820272,
+      "title": "Switch to Gender Neutral Terms",
+      "type": "story",
+      "url": "https://github.com/EbookFoundation/free-programming-books/pull/6801"
+    },
+    {
+      "by": "mulholio",
+      "descendants": 0,
+      "id": 30877925,
+      "score": 1,
+      "time": 1648820241,
+      "title": "Turn-key GPU hardware for cracking 256,000 passwords/SEC",
+      "type": "story",
+      "url": "https://www.decryptum.com"
+    },
+    {
       "by": "alexmedick",
       "descendants": 0,
       "id": 30877901,
@@ -34,7 +74,7 @@
       "by": "jgrahamc",
       "descendants": 0,
       "id": 30877880,
-      "score": 2,
+      "score": 3,
       "time": 1648819937,
       "title": "The end of the road for Cloudflare CAPTCHAs",
       "type": "story",
@@ -42,9 +82,12 @@
     },
     {
       "by": "prostoalex",
-      "descendants": 0,
+      "descendants": 1,
       "id": 30877860,
-      "score": 1,
+      "kids": [
+        30877941
+      ],
+      "score": 2,
       "time": 1648819766,
       "title": "Rural Hacker De-Crufts and Rebuilds Hydroelectric Generator",
       "type": "story",
@@ -59,46 +102,6 @@
       "title": "Starfall: Finding a Meteorite with Drones and AI",
       "type": "story",
       "url": "https://spectrum.ieee.org/how-to-find-meteorites"
-    },
-    {
-      "by": "kjhughes",
-      "descendants": 0,
-      "id": 30877854,
-      "score": 3,
-      "time": 1648819702,
-      "title": "Meta's A.I. exodus: Top talent quits as lab tries to keep pace with rivals",
-      "type": "story",
-      "url": "https://www.cnbc.com/2022/04/01/metas-ai-lab-loses-some-key-people.html"
-    },
-    {
-      "by": "softwarebeware",
-      "descendants": 0,
-      "id": 30877852,
-      "score": 1,
-      "time": 1648819685,
-      "title": "Patagonia vest endures in San Francisco tech circles, despite ridicule",
-      "type": "story",
-      "url": "https://text.npr.org/1089994672"
-    },
-    {
-      "by": "modinfo",
-      "descendants": 0,
-      "id": 30877838,
-      "score": 1,
-      "time": 1648819567,
-      "title": "Secure, easy, self-hosted messaging",
-      "type": "story",
-      "url": "https://salty.im/"
-    },
-    {
-      "by": "graderjs",
-      "descendants": 0,
-      "id": 30877834,
-      "score": 1,
-      "time": 1648819549,
-      "title": "LoveStack – matchmaking service based on your reading preferences",
-      "type": "story",
-      "url": "https://on.substack.com/p/lovestack"
     }
   ]
 }
