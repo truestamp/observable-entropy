@@ -1,6 +1,56 @@
 {
   "stories": [
     {
+      "by": "strangerding",
+      "descendants": 0,
+      "id": 30878030,
+      "score": 1,
+      "time": 1648820947,
+      "title": "Tower for Windows 3.1",
+      "type": "story",
+      "url": "https://twitter.com/gittower/status/1509886169273798657"
+    },
+    {
+      "by": "jackallis",
+      "descendants": 0,
+      "id": 30878027,
+      "score": 1,
+      "time": 1648820925,
+      "title": "One ETF to Watch for Signs That the Fed Will Change Its Mind on Multiple Hikes",
+      "type": "story",
+      "url": "https://www.bloomberg.com/news/articles/2022-03-31/the-one-etf-to-watch-for-signs-that-the-fed-will-change-its-mind"
+    },
+    {
+      "by": "bhalperin",
+      "descendants": 0,
+      "id": 30878021,
+      "score": 1,
+      "time": 1648820910,
+      "title": "Newcomb’s problem is just a standard time consistency problem",
+      "type": "story",
+      "url": "https://www.basilhalperin.com/essays/newcomb.html"
+    },
+    {
+      "by": "JohnnyRoper",
+      "descendants": 0,
+      "id": 30878017,
+      "score": 1,
+      "time": 1648820845,
+      "title": "A Microdose of Magic Mushrooms could increase creativity, study finds",
+      "type": "story",
+      "url": "https://thegaiavoice.com/2022/04/01/a-microdose-of-magic-mushrooms-could-increase-creativity-study-finds/"
+    },
+    {
+      "by": "JohnnyRoper",
+      "descendants": 0,
+      "id": 30878008,
+      "score": 1,
+      "time": 1648820815,
+      "title": "Pope Francis apologises for Canada residential school harms",
+      "type": "story",
+      "url": "https://www.bbc.com/news/world-us-canada-60954568"
+    },
+    {
       "by": "tosh",
       "descendants": 0,
       "id": 30877989,
@@ -27,7 +77,7 @@
       "kids": [
         30877984
       ],
-      "score": 1,
+      "score": 3,
       "time": 1648820616,
       "title": "The ASF Infrastructure team introduces phone service",
       "type": "story",
@@ -55,61 +105,6 @@
       "title": "Book: Markov Chains for Programmers",
       "type": "story",
       "url": "https://czekster.github.io/markov/"
-    },
-    {
-      "by": "pzubkiewicz",
-      "descendants": 0,
-      "id": 30877954,
-      "score": 1,
-      "text": "I made CloudPouch application to help individual engineers or architects to understand and reduce AWS costs.<p>I have already earned few hundred bucks on it, and decided to spend it on explainer video that is provided in the link. I hope you like it.<p>Here are several facts that make CloudPouch unique:<p>1. It is a desktop application, not SaaS. Thus, you don&#x27;t need to share your cost data with my company.<p>The application connects directly to AWS from your computer, without anything in a middle.<p>2. Since that, you don&#x27;t need any special approvals from management to use it, as you don&#x27;t share sensitive information with any 3-rd party. All you need is ce:GetCostAndUsage privilege to access cost data.<p>This is standard IAM action, that many engineers already have access to.<p>3. There is no red tape. That&#x27;s why you can use it with all AWS accounts to which you already have programmatic access.<p>CloudPouch loads your AWS CLI and SSO profiles that you already have defined on your computer. Without any additional configuration.<p>This is super handy!<p>4. It saves a lot of time because you can switch between different accounts inside the CloudPouch application.<p>You don&#x27;t need to login into the AWS web console, deal with multiple browser windows, and all that hassle.<p>I overlook many accounts. I can use it with all of them.<p>5. It shows cost data in a predefined way. That means that billing data from any of your accounts will be displayed in the same, familiar way.<p>Even BETWEEN accounts belonging to different customers of yours.<p>This makes you more productive!<p>6. It&#x27;s cost-effective. A single license costs $10 per month, regardless of:\n- the number of AWS accounts you use,\n- the bill size on each of them.<p>This makes it a superb choice for any cloud consultant, architect, or engineer.<p>7. It works on macOS, Windows, and Linux, and is really fast!<p><a href=\"https:&#x2F;&#x2F;cloudpouch.dev&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;cloudpouch.dev&#x2F;</a><p>I&#x27;m looking for your feedback and ideas how to make it more useful for AWS users.",
-      "time": 1648820450,
-      "title": "Show HN: I made desktop app to browse and reduce AWS cloud costs",
-      "type": "story",
-      "url": "https://www.youtube.com/watch?v=lx-0Dt0zwA4"
-    },
-    {
-      "by": "tosh",
-      "descendants": 0,
-      "id": 30877940,
-      "score": 1,
-      "time": 1648820327,
-      "title": "Floating Point Math",
-      "type": "story",
-      "url": "https://0.30000000000000004.com/"
-    },
-    {
-      "by": "an-selm",
-      "descendants": 0,
-      "id": 30877938,
-      "score": 1,
-      "text": "Disclaimer: I am not a professional programmer, nor am I very well-versed in OS theory.\nNevertheless I have the following question:\nWhy do people still build OS&#x27;s from scratch, and dont just use the base system and wrap it in an OS of their liking?\nFor example, mezzano a lisp OS is, it seems to me, pretty much built from scratch.\nWhy do these guys not just build a lisp OS on top of some UNIX-system, so that every call to the OS goes through that layer?\nAs an example:\nSome people complain that UNIX files are essentially just a lot of text, with not much further information.\nWhy not just write an additional layer that uses those files as the base but also stores more information about them somewhere?\nMaybe it would be too slow, or maybe some system calls cant be passed through an additional layer. Or maybe I am not seeing something immediately obvious to any professional. But I feel like I am probably going to learn something from the answer, so I will just go ahead and ask.",
-      "time": 1648820326,
-      "title": "Why not build operating systems as layers?",
-      "type": "story"
-    },
-    {
-      "by": "ahamez",
-      "descendants": 1,
-      "id": 30877930,
-      "kids": [
-        30877973,
-        30877964
-      ],
-      "score": 2,
-      "time": 1648820272,
-      "title": "Switch to Gender Neutral Terms",
-      "type": "story",
-      "url": "https://github.com/EbookFoundation/free-programming-books/pull/6801"
-    },
-    {
-      "by": "mulholio",
-      "descendants": 0,
-      "id": 30877925,
-      "score": 1,
-      "time": 1648820241,
-      "title": "Turn-key GPU hardware for cracking 256,000 passwords/SEC",
-      "type": "story",
-      "url": "https://www.decryptum.com"
     }
   ]
 }
