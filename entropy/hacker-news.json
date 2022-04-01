@@ -1,19 +1,44 @@
 {
   "stories": [
     {
-      "by": "david_at",
-      "dead": true,
-      "id": 30879326,
+      "by": "elorant",
+      "descendants": 0,
+      "id": 30879391,
       "score": 1,
-      "time": 1648827596,
-      "type": "story"
+      "time": 1648827861,
+      "title": "No increased risk of brain tumours for mobile phone users, new study finds",
+      "type": "story",
+      "url": "https://www.ox.ac.uk/news/2022-03-30-no-increased-risk-brain-tumours-mobile-phone-users-new-study-finds"
+    },
+    {
+      "by": "softwarebeware",
+      "descendants": 0,
+      "id": 30879365,
+      "score": 1,
+      "time": 1648827743,
+      "title": "Strong job growth in March, economy picks up 431,000 jobs",
+      "type": "story",
+      "url": "https://www.washingtonpost.com/business/2022/04/01/march-jobs-report-growth/"
+    },
+    {
+      "by": "picture",
+      "descendants": 0,
+      "id": 30879350,
+      "score": 1,
+      "time": 1648827683,
+      "title": "Factorio add in game support for NFTs and cryptocurrency",
+      "type": "story",
+      "url": "https://www.factorio.com/blog/post/fff-369"
     },
     {
       "by": "jotaen",
-      "descendants": 0,
+      "descendants": 1,
       "id": 30879327,
-      "score": 1,
-      "text": "After having cycled through various CLI-based todo apps, I started to realise that I actually don’t need a tool at all for managing my todos. Most of the time, my use cases are quite simple, like viewing my todo items, checking them off, or adding a new one.<p>Rather than having to memorise CLI commands for these interactions (which I’m not super good at), I figured that it’s easier for me to use my text editor directly, and have an editor plugin help me with the visual structure and some convenience functionality. So, kind-of similar to Emacs Org Mode, but without having to use Emacs. I personally use Sublime Text, and even though I enjoy it a lot, I don’t like being bound to specific tools.<p>I think the best basis for staying independent is to have a data format that’s properly specified and meaningful on its own. This puts the data first, and it allows the tools to be built on top and shared more easily.<p>This is what [x]it! is about, which is a plain-text file format for todos and check lists. I’m curious for thoughts and feedback. There is obviously not much tooling support (yet), but feel free to create something if the idea resonates with you.<p>Website with demo: https:&#x2F;&#x2F;xit.jotaen.net\nFile specification: https:&#x2F;&#x2F;github.com&#x2F;jotaen&#x2F;xit&#x2F;blob&#x2F;main&#x2F;Specification.md",
+      "kids": [
+        30879341
+      ],
+      "score": 2,
+      "text": "After having cycled through various CLI-based todo apps, I started to realise that I actually don’t need a tool at all for managing my todos. Most of the time, my use cases are quite simple, like viewing my todo items, checking them off, or adding a new one.<p>Rather than having to memorise CLI commands for these interactions (which I’m not super good at), I figured that it’s easier for me to use my text editor directly, and have an editor plugin help me with the visual structure and some convenience functionality. So, kind-of similar to Emacs Org Mode, but without having to use Emacs. I personally use Sublime Text, and even though I enjoy it a lot, I don’t like being bound to specific tools.<p>I think the best basis for staying independent is to have a data format that’s properly specified and meaningful on its own. This puts the data first, and it allows the tools to be built on top and shared more easily.<p>This is what [x]it! is about, which is a plain-text file format for todos and check lists. I’m curious for thoughts and feedback. There is obviously not much tooling support (yet), but feel free to create something if the idea resonates with you.<p>Website with demo: https:&#x2F;&#x2F;xit.jotaen.net<p>File specification: https:&#x2F;&#x2F;github.com&#x2F;jotaen&#x2F;xit&#x2F;blob&#x2F;main&#x2F;Specification.md",
       "time": 1648827596,
       "title": "Show HN: A plain-text file format for todos and check lists",
       "type": "story"
@@ -77,26 +102,6 @@
       "title": "A World Without Apps",
       "type": "story",
       "url": "https://www.youtube.com/watch?v=ntaudUum06E"
-    },
-    {
-      "by": "0066cc",
-      "descendants": 0,
-      "id": 30879167,
-      "score": 1,
-      "time": 1648826950,
-      "title": "Buzzword Buzzkill: Excitement and Overstatement in Tech Communications",
-      "type": "story",
-      "url": "https://blog.betterimagesofai.org/buzzword-buzzkill-excitement-overstatement-in-tech-communications/"
-    },
-    {
-      "by": "8jy89hui",
-      "descendants": 0,
-      "id": 30879115,
-      "score": 1,
-      "time": 1648826775,
-      "title": "Friday Facts #369 – To the Moon",
-      "type": "story",
-      "url": "https://factorio.com/blog/post/fff-369"
     }
   ]
 }
