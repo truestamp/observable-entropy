@@ -1,10 +1,20 @@
 {
   "stories": [
     {
+      "by": "dmje",
+      "descendants": 0,
+      "id": 30887223,
+      "score": 1,
+      "text": "I&#x27;m helping with a project that will see ~3k small museums submitting their collections data to a central data lake. It can be assumed that most museums struggle with technology and have little &#x2F; no resource in-house. The data itself varies from an xls &#x2F; CSV file to a database dump, to all flavours of thing in-between. File size: almost nothing all the way up to  maybe 100mb. The files will change regularly, so the solution will need to cater for this.<p>My questions are twofold:<p>First, what options do I have on the data collection side? Should we hook into something familiar like Dropbox or are there other seamless &#x2F; easy to manage ways of requesting a local data sync? Making a form on a submission website was our first thought but data transfer is likely to be slow &#x2F; impossible for some museums so some kind of desktop file-watcher seems less brittle, maybe?<p>Second: I know I haven&#x27;t given nearly enough information for detail, but are there existing technologies on the receiving end that could ingest disparate, non-mapped, schema-less data of all flavours? Should we look at something like Node Red or Parabola do so some mapping, or are there other generic data receiving technologies we should be aware of that can cope with a multitude of data types, shapes, sizes?<p>I realise this isn&#x27;t enough information for a complete answer but even some links &#x2F; hints &#x2F; ideas of what to look out for would be appreciated. Thanks, HN :-)",
+      "time": 1648896455,
+      "title": "Ask HN: 3k museums submitting data. How?",
+      "type": "story"
+    },
+    {
       "by": "rntn",
       "descendants": 0,
       "id": 30887192,
-      "score": 1,
+      "score": 2,
       "time": 1648895971,
       "title": "Putin making same mistakes that doomed Hitler when he invaded the Soviet Union",
       "type": "story",
@@ -89,16 +99,6 @@
       "title": "Half of older adults now die with a dementia diagnosis",
       "type": "story",
       "url": "https://ihpi.umich.edu/news/half-older-adults-now-die-dementia-diagnosis-sharply"
-    },
-    {
-      "by": "liamkinne",
-      "descendants": 0,
-      "id": 30887067,
-      "score": 1,
-      "time": 1648894009,
-      "title": "Anti-goals and how they are useful to systems design",
-      "type": "story",
-      "url": "https://liamkinne.substack.com/p/anti-goals"
     }
   ]
 }
