@@ -1,14 +1,24 @@
 {
   "stories": [
     {
-      "by": "braza",
+      "by": "LichenStone",
       "descendants": 0,
-      "id": 30889959,
+      "id": 30890001,
       "score": 1,
-      "time": 1648920449,
-      "title": "F1 Tech in Everyday Use",
+      "time": 1648920762,
+      "title": "Practical advice for protection from aerial attacks [pdf]",
       "type": "story",
-      "url": "https://trungtphan.com/f1-tech-in-everyday-use/"
+      "url": "https://www.who.int/hac/techguidance/tools/protection_from_aerial_attacks.pdf"
+    },
+    {
+      "by": "tmslnz",
+      "descendants": 0,
+      "id": 30889999,
+      "score": 1,
+      "time": 1648920751,
+      "title": "Prehistoric Planet – Official Sneak Peek",
+      "type": "story",
+      "url": "https://www.youtube.com/watch?v=Jk4ZlVEtjsc"
     },
     {
       "by": "nidhaloff",
@@ -48,8 +58,11 @@
     },
     {
       "by": "winkywooster",
-      "descendants": 0,
+      "descendants": 1,
       "id": 30889873,
+      "kids": [
+        30889990
+      ],
       "score": 9,
       "time": 1648919813,
       "title": "The Bitter Lesson (2019)",
@@ -86,7 +99,7 @@
         30889937,
         30889922
       ],
-      "score": 3,
+      "score": 4,
       "text": "Solar Witch is a little webpage and server which receives and displays messages, so I suppose it&#x27;s a tiny message board. It&#x27;s coded in very dubious Arduino C.<p>It&#x27;s not a 24&#x2F;7 website. Depending on the state of the battery, the server itself might run all night, but all the messages it receives during the day are deleted at sunset, and the messaging function itself is only active between sunrise and sunset. This is for two reasons:<p>1. Less usage of Solar Witch during the night conserves battery power.<p>2. I like the idea of websites which _aren&#x27;t_ constantly available. Websites which have to sleep too. Websites living on servers which aren&#x27;t somewhere in the cloud, but which are bound to a particular location, giving you a sense of where in the world they actually live.<p>Solar Witch is very much inspired by the solar-powered version of Low Tech Magazine (<a href=\"https:&#x2F;&#x2F;solar.lowtechmagazine.com&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;solar.lowtechmagazine.com&#x2F;</a>), but at a far, far smaller scale.<p>PSA: Solar Witch is a teensy hand-written C server running on a teensy microcontroller attached to a teensy solar panel which can only handle one HTTP request at a time and may have buffer overrun issues due to my ineptitude with C. If it&#x27;s gone down, please don&#x27;t be surprised, and rest assured I&#x27;ll hit the reset button soon! Solar Witch encourages patience.",
       "time": 1648919438,
       "title": "Show HN: A tiny solar-powered server only awake during the day",
@@ -102,16 +115,6 @@
       "title": "I created my first data visualisation SaaS with D3js, FastAPI, & WooCommerce",
       "type": "story",
       "url": "https://polyra.com/chord-pro-beautiful-interactive-chord-diagrams/"
-    },
-    {
-      "by": "heyhihello",
-      "descendants": 0,
-      "id": 30889819,
-      "score": 1,
-      "time": 1648919353,
-      "title": "Accuracy Is Not Enough – A Visual Explainer of Precision and Recall",
-      "type": "story",
-      "url": "https://mlu-explain.github.io/precision-recall/"
     }
   ]
 }
