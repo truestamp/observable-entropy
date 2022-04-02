@@ -11,13 +11,13 @@
       "time": 1648920007,
       "title": "A free and innovative translation API for developers",
       "type": "story",
-      "url": "https://deep-translator-api.azurewebsites.net/"
+      "url": "https://deep-translator-api.azurewebsites.net/docs"
     },
     {
       "by": "martythemaniak",
       "descendants": 0,
       "id": 30889884,
-      "score": 1,
+      "score": 2,
       "time": 1648919889,
       "title": "Tesla delivered 310k vehicles in Q1",
       "type": "story",
@@ -25,8 +25,11 @@
     },
     {
       "by": "ousmanedev",
-      "descendants": 0,
+      "descendants": 1,
       "id": 30889880,
+      "kids": [
+        30889906
+      ],
       "score": 1,
       "time": 1648919842,
       "title": "Standardresume-dl: Download your resume from standardresume.co for free",
@@ -37,7 +40,7 @@
       "by": "winkywooster",
       "descendants": 0,
       "id": 30889873,
-      "score": 3,
+      "score": 5,
       "time": 1648919813,
       "title": "The Bitter Lesson (2019)",
       "type": "story",
@@ -47,7 +50,7 @@
       "by": "AndrewSwift",
       "descendants": 0,
       "id": 30889871,
-      "score": 1,
+      "score": 2,
       "time": 1648919785,
       "title": "Ask HN: Have you tried GitHub issues to manage issues with a significant other?",
       "type": "story"
@@ -64,9 +67,13 @@
     },
     {
       "by": "lowercasename",
-      "descendants": 0,
+      "descendants": 2,
       "id": 30889828,
-      "score": 2,
+      "kids": [
+        30889937,
+        30889922
+      ],
+      "score": 3,
       "text": "Solar Witch is a little webpage and server which receives and displays messages, so I suppose it&#x27;s a tiny message board. It&#x27;s coded in very dubious Arduino C.<p>It&#x27;s not a 24&#x2F;7 website. Depending on the state of the battery, the server itself might run all night, but all the messages it receives during the day are deleted at sunset, and the messaging function itself is only active between sunrise and sunset. This is for two reasons:<p>1. Less usage of Solar Witch during the night conserves battery power.<p>2. I like the idea of websites which _aren&#x27;t_ constantly available. Websites which have to sleep too. Websites living on servers which aren&#x27;t somewhere in the cloud, but which are bound to a particular location, giving you a sense of where in the world they actually live.<p>Solar Witch is very much inspired by the solar-powered version of Low Tech Magazine (<a href=\"https:&#x2F;&#x2F;solar.lowtechmagazine.com&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;solar.lowtechmagazine.com&#x2F;</a>), but at a far, far smaller scale.<p>PSA: Solar Witch is a teensy hand-written C server running on a teensy microcontroller attached to a teensy solar panel which can only handle one HTTP request at a time and may have buffer overrun issues due to my ineptitude with C. If it&#x27;s gone down, please don&#x27;t be surprised, and rest assured I&#x27;ll hit the reset button soon! Solar Witch encourages patience.",
       "time": 1648919438,
       "title": "Show HN: A tiny solar-powered server only awake during the day",
