@@ -1,6 +1,26 @@
 {
   "stories": [
     {
+      "by": "clouddrover",
+      "descendants": 0,
+      "id": 30896760,
+      "score": 1,
+      "time": 1648992565,
+      "title": "Intel becomes the first to offer full AV1 support with its new Arc GPUs",
+      "type": "story",
+      "url": "https://www.neowin.net/news/intel-beats-amd-and-nvidia-to-become-the-first-with-full-av1-support-with-its-new-arc-gpus/"
+    },
+    {
+      "by": "mparramon",
+      "descendants": 0,
+      "id": 30896758,
+      "score": 1,
+      "time": 1648992556,
+      "title": "The mere addition paradox, also known as the repugnant conclusion",
+      "type": "story",
+      "url": "https://en.wikipedia.org/wiki/Mere_addition_paradox"
+    },
+    {
       "by": "southerntofu",
       "descendants": 0,
       "id": 30896721,
@@ -24,7 +44,7 @@
       "by": "notmuffin",
       "descendants": 0,
       "id": 30896661,
-      "score": 2,
+      "score": 3,
       "time": 1648991756,
       "title": "Mataroa blog-Naked blogging platform, for minimalists. Just write",
       "type": "story",
@@ -32,8 +52,11 @@
     },
     {
       "by": "tosh",
-      "descendants": 0,
+      "descendants": 1,
       "id": 30896639,
+      "kids": [
+        30896737
+      ],
       "score": 2,
       "time": 1648991606,
       "title": "Big Mac Index Manipulation",
@@ -78,32 +101,6 @@
       "text": "My client has been charged for stopped EC2 instances (Ireland).<p>I am the one who assured him he would not have any computing cost (while the volume costs will still run, of course): I am migrating his instances out of AWS, one by one: it takes time, and I left all migrated instances as &#x27;stopped&#x27;, until the migration will be completed.<p>I&#x27;ve been pushing myself to migrate (so to stop) as many instances as possible to have a reduced monthly AWS bill, but my client realized nothing changed.<p>This official doc is pretty clear https:&#x2F;&#x2F;docs.aws.amazon.com&#x2F;AWSEC2&#x2F;latest&#x2F;UserGuide&#x2F;Stop_Start.html but I also see in https:&#x2F;&#x2F;docs.aws.amazon.com&#x2F;AWSEC2&#x2F;latest&#x2F;UserGuide&#x2F;Stop_Start.html a comment stating &quot;I just got a reply from AWS customer support explaining a stopped instance in the same region could cause it be treated as running and hence charged&quot;: this user have been refunded, so I guess we will contact support and ask the same.<p>* Did any of you hit something similar?<p>Since my client had several EC2 in stopped state in the past years, how the hell are we going to be able to check the amount of the overcharge?",
       "time": 1648991071,
       "title": "AWS charged my client for stopped EC2 Instances",
-      "type": "story"
-    },
-    {
-      "by": "tomohawk",
-      "descendants": 1,
-      "id": 30896551,
-      "kids": [
-        30896565
-      ],
-      "score": 2,
-      "time": 1648991023,
-      "title": "Ukraine Situation Report",
-      "type": "story",
-      "url": "https://www.thedrive.com/the-war-zone/45043/ukraine-situation-report-kyiv-region-now-fully-in-government-control-according-to-defense-official"
-    },
-    {
-      "by": "sideway",
-      "descendants": 1,
-      "id": 30896512,
-      "kids": [
-        30896675
-      ],
-      "score": 1,
-      "text": "I am..<p>- 36yo<p>- most probably not depressed<p>- live in a 1st world country<p>- privileged to have a job that pays well<p>- expecting my first child after years of trying<p>..and deeply believe the future will be truly bleak. Even if we somehow manage to not find ourselves in a nuclear holocaust, there is no escape from climate change.<p>I really want to be optimistic, both for me and the people around me, but it&#x27;s hard to see how or why I could start being an optimist.<p>Reading the stoics didn&#x27;t have a significant effect; it felt more like a coping mechanism than a way forward. Moving to an industry that tries to build a future - not a better future, just a future - is quite challenging without a meaningful background in hard sciences. &quot;Think globally, act locally&quot; is a dogma I&#x27;ve been following since forever but it feels insufficient when it comes to some of the great challenges we are going to face soon.<p>Help me and others like me see the world with different eyes.",
-      "time": 1648990689,
-      "title": "Ask HN: How can I start thinking optimistically?",
       "type": "story"
     }
   ]
