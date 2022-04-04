@@ -1,6 +1,79 @@
 {
   "stories": [
     {
+      "by": "galeos",
+      "descendants": 0,
+      "id": 30909371,
+      "score": 2,
+      "time": 1649093027,
+      "title": "Return to Monkey Island Announced",
+      "type": "story",
+      "url": "https://www.eurogamer.net/return-to-monkey-island-announced-coming-2022"
+    },
+    {
+      "by": "rmason",
+      "descendants": 0,
+      "id": 30909359,
+      "score": 1,
+      "time": 1649092982,
+      "title": "Elon Musk Takes 9.2% Stake in Twitter After Hinting at Shakeup",
+      "type": "story",
+      "url": "https://www.bloombergquint.com/business/musk-takes-9-2-stake-in-twitter-after-questioning-platform"
+    },
+    {
+      "by": "spchampion2",
+      "descendants": 0,
+      "id": 30909355,
+      "score": 1,
+      "time": 1649092974,
+      "title": "New insights into the genetics of Alzheimer’s disease",
+      "type": "story",
+      "url": "https://www.nature.com/articles/s41588-022-01024-z"
+    },
+    {
+      "by": "Tomte",
+      "descendants": 0,
+      "id": 30909345,
+      "score": 1,
+      "time": 1649092941,
+      "title": "The Pure Tech Side Is the Dark Side (2009)",
+      "type": "story",
+      "url": "https://prog21.dadgum.com/46.html"
+    },
+    {
+      "by": "app4soft",
+      "descendants": 1,
+      "id": 30909344,
+      "kids": [
+        30909369
+      ],
+      "score": 2,
+      "time": 1649092938,
+      "title": "Smuxi – An Open Source Client IRC, Twitter, XMPP, Campfire, JabbR",
+      "type": "story",
+      "url": "https://smuxi.im/"
+    },
+    {
+      "by": "Tomte",
+      "descendants": 0,
+      "id": 30909339,
+      "score": 1,
+      "time": 1649092930,
+      "title": "Zero One Infinity Rule",
+      "type": "story",
+      "url": "https://en.wikipedia.org/wiki/Zero_one_infinity_rule"
+    },
+    {
+      "by": "polyrand",
+      "descendants": 0,
+      "id": 30909311,
+      "score": 1,
+      "time": 1649092824,
+      "title": "Python, SQLite, and Thread Safety",
+      "type": "story",
+      "url": "https://ricardoanderegg.com/posts/python-sqlite-thread-safety/"
+    },
+    {
       "by": "car_analogy",
       "descendants": 0,
       "id": 30909294,
@@ -32,82 +105,6 @@
       "title": "Fortnite raised $144M for Ukraine relief",
       "type": "story",
       "url": "https://www.theverge.com/2022/4/4/23009838/fortnite-ukraine-relief-fundraising-total"
-    },
-    {
-      "by": "fxtentacle",
-      "descendants": 0,
-      "id": 30909178,
-      "score": 1,
-      "text": "Dear HN,<p>I recently tried to follow along some Huggingface tutorials and - WOW! - was that painful. Google Colab quickly started complaining about the 300 GB my datasets were using. I was also constantly out of memory and reviews said that even if I&#x27;d upgrade to $50 monthly, my chance of randomly being assigned a GPU with enough memory would be slim.<p>I also looked at AWS EC2 and GCE and got sticker shock. I&#x27;m certainly not going to pay $20+ per hour the entire time I try to figure out how stuff works. Then I found OVH and their $2 per hour V100 instances seemed much more reasonable. So I built a docker image to emulate what&#x27;s pre-installed and pre-configured on Google Colab based on their example. [1] That worked OK, but having only 1GBit&#x2F;s between the AI training node and their object storage turned out to be the bottleneck.<p>So I took the next logical step, built a small proxy with authentication and letsencrypt SSL [2] to secure things and then self-hosted the docker image on the Ubuntu PC in my basement. That one only has a consumer-grade Samsung SSD and a 1080 TI but it has zero IO delays. In the end, training a facebook Wav2Vec2 model on that 1080 TI is comparably fast to a V100. And since the machine is in my basement, there are no $$$ per hour rental fees. It&#x27;s effectively free, except for electricity.<p>So now I have my own Google Colab clone which is accessible from anywhere and running in my basement. Compared to public clouds it&#x27;s cheaper, more responsive, I have more control, and it&#x27;s even similarly fast.<p>I feel like I found a cheat code for &quot;the cloud&quot; :)<p>To setup your own copy, see https:&#x2F;&#x2F;github.com&#x2F;fxtentacle&#x2F;letsencrypt-auth-proxy#example-private-google-colab-clone<p>[1] https:&#x2F;&#x2F;hub.docker.com&#x2F;r&#x2F;fxtentacle&#x2F;ovh-colab-sagemaker-compatibility-mode\n[2] https:&#x2F;&#x2F;github.com&#x2F;fxtentacle&#x2F;letsencrypt-auth-proxy",
-      "time": 1649092289,
-      "title": "Tell HN: I cloned Google Colab on my Ubuntu PC, and it's great:)",
-      "type": "story"
-    },
-    {
-      "by": "netidee",
-      "descendants": 1,
-      "id": 30909172,
-      "kids": [
-        30909173
-      ],
-      "score": 1,
-      "time": 1649092255,
-      "title": "Netidee Call 17 (2022)",
-      "type": "story",
-      "url": "https://www.netidee.at/einreichen"
-    },
-    {
-      "by": "blueridge",
-      "descendants": 0,
-      "id": 30909141,
-      "kids": [
-        30909142
-      ],
-      "score": 1,
-      "time": 1649092126,
-      "title": "Briefly Noted: First Edition",
-      "type": "story",
-      "url": "https://brieflynoted.substack.com/p/briefly-noted-first-edition"
-    },
-    {
-      "by": "nickdrozd",
-      "descendants": 0,
-      "id": 30909122,
-      "score": 1,
-      "time": 1649092062,
-      "title": "“Mother of Giants” Turing Machine",
-      "type": "story",
-      "url": "https://www.sligocki.com//2022/04/03/mother-of-giants.html"
-    },
-    {
-      "by": "maciekmm",
-      "descendants": 0,
-      "id": 30909121,
-      "score": 1,
-      "time": 1649092058,
-      "title": "The journey of sharing a wired USB printer over the network",
-      "type": "story",
-      "url": "https://mionskowski.pl/posts/share-usb-printer-over-lan/"
-    },
-    {
-      "by": "bingdig",
-      "descendants": 0,
-      "id": 30909109,
-      "score": 1,
-      "text": "I&#x27;m trying to learn more about rural internet connectivity in the US over time, and was wondering what the best source of data is?<p>I&#x27;ve seen the Census ACS has been asking about internet subscriptions and types, but only has robust estimates since 2017. Are there any datasets out there that show more historical perspective on this?",
-      "time": 1649092003,
-      "title": "Ask HN: Datasets on US Internet Connectivity?",
-      "type": "story"
-    },
-    {
-      "by": "PaulHoule",
-      "descendants": 0,
-      "id": 30909099,
-      "score": 2,
-      "time": 1649091958,
-      "title": "World of Tanks maker closes studios in Russia, Belarus",
-      "type": "story",
-      "url": "https://arstechnica.com/gaming/2022/04/world-of-tanks-maker-joins-gaming-exodus-from-russia-belarus/"
     }
   ]
 }
