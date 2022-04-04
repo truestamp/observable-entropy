@@ -1,6 +1,92 @@
 {
   "stories": [
     {
+      "by": "janandonly",
+      "descendants": 0,
+      "id": 30907484,
+      "score": 1,
+      "time": 1649084646,
+      "title": "Intel Launches New Bitcoin Mining Chip, Blockscale",
+      "type": "story",
+      "url": "https://bitcoinmagazine.com/business/intel-launches-new-bitcoin-mining-chip-blockscale"
+    },
+    {
+      "by": "jmorf",
+      "descendants": 0,
+      "id": 30907478,
+      "score": 1,
+      "time": 1649084623,
+      "title": "Show HN: Fast DNS lookups with record deep linking and endpoint selection",
+      "type": "story",
+      "url": "https://ldns.com/"
+    },
+    {
+      "by": "alixedi",
+      "descendants": 1,
+      "id": 30907471,
+      "kids": [
+        30907472
+      ],
+      "score": 1,
+      "time": 1649084578,
+      "title": "Head-First Kubernetes",
+      "type": "story",
+      "url": "https://head-first-kubernetes.github.io/"
+    },
+    {
+      "by": "nose",
+      "descendants": 0,
+      "id": 30907467,
+      "score": 1,
+      "time": 1649084564,
+      "title": "Bay Area Back Pages",
+      "type": "story",
+      "url": "http://rhorii.com/BABP/"
+    },
+    {
+      "by": "mlajtos",
+      "descendants": 0,
+      "id": 30907451,
+      "score": 1,
+      "time": 1649084505,
+      "title": "Gaze – The Missing Input Device for Magical VR Experiences",
+      "type": "story",
+      "url": "https://mlajtos.mu/posts/gaze-contingency"
+    },
+    {
+      "by": "PaulHoule",
+      "descendants": 0,
+      "id": 30907446,
+      "score": 1,
+      "time": 1649084484,
+      "title": "A new approach that could improve how robots interact in conversational groups",
+      "type": "story",
+      "url": "https://techxplore.com/news/2022-04-approach-robots-interact-conversational-groups.html"
+    },
+    {
+      "by": "todsacerdoti",
+      "descendants": 0,
+      "id": 30907445,
+      "score": 1,
+      "time": 1649084481,
+      "title": "The Effect Semantics Zoo",
+      "type": "story",
+      "url": "https://github.com/lexi-lambda/eff/blob/master/notes/semantics-zoo.md"
+    },
+    {
+      "by": "prirun",
+      "descendants": 1,
+      "id": 30907433,
+      "kids": [
+        30907463
+      ],
+      "score": 2,
+      "text": "Comparison of sorting 100MB of email:<p><pre><code>  [jim@mbp ~]$ dd if=gmail.mbox of=gmail.sort bs=1m count=100\n  100+0 records in\n  100+0 records out\n  104857600 bytes transferred in 0.084819 secs (1236253643 bytes&#x2F;sec)\n\n  [jim@mbp ~]$ &#x2F;usr&#x2F;bin&#x2F;time -l sort &lt;gmail.sort &gt;&#x2F;dev&#x2F;null\n         28.58 real        28.21 user         0.26 sys\n   480497664  maximum resident set size\n      118887  page reclaims\n       11071  involuntary context switches\n\n  [jim@mbp ~]$ LC_ALL=C &#x2F;usr&#x2F;bin&#x2F;time -l sort &lt;gmail.sort &gt;&#x2F;dev&#x2F;null\n          1.49 real         1.37 user         0.11 sys\n   188440576  maximum resident set size\n       54690  page reclaims\n        1029  involuntary context switches</code></pre>",
+      "time": 1649084423,
+      "title": "Use LC_ALL=C for big ASCII sorts",
+      "type": "story"
+    },
+    {
       "by": "arkj",
       "descendants": 0,
       "id": 30907409,
@@ -19,86 +105,6 @@
       "title": "Some of the stranger features on Pluto remain tough to explain",
       "type": "story",
       "url": "https://arstechnica.com/science/2022/04/some-of-the-stranger-features-on-pluto-remain-tough-to-explain/"
-    },
-    {
-      "by": "SanjeevSharma",
-      "descendants": 0,
-      "id": 30907379,
-      "score": 2,
-      "time": 1649084203,
-      "title": "Web3 and the Democratization of Digital Assets",
-      "type": "story",
-      "url": "https://sdarchitect.blog/2022/04/03/web3-and-the-democratization-of-digital-assets/"
-    },
-    {
-      "by": "tosh",
-      "descendants": 0,
-      "id": 30907373,
-      "score": 1,
-      "time": 1649084183,
-      "title": "Chancellor Rishi Sunak Has Asked Royal Mint to Create an NFT",
-      "type": "story",
-      "url": "https://twitter.com/hmtreasury/status/1510971092072079360"
-    },
-    {
-      "by": "Tomte",
-      "descendants": 0,
-      "id": 30907334,
-      "score": 2,
-      "time": 1649083924,
-      "title": "Blah Blah Blah: What to Do When Words Don't Work (2012)",
-      "type": "story",
-      "url": "https://www.youtube.com/watch?v=PsrFuXefZ1Q"
-    },
-    {
-      "by": "Tomte",
-      "descendants": 0,
-      "id": 30907327,
-      "score": 1,
-      "time": 1649083902,
-      "title": "The ThinkPad TrackPoint tried to build a better mouse (2020)",
-      "type": "story",
-      "url": "https://www.theverge.com/circuitbreaker/2020/6/30/21292182/thinkpad-trackpoint-mouse-nub-button-trackpad-challenges-design-user-input"
-    },
-    {
-      "by": "gmays",
-      "descendants": 0,
-      "id": 30907326,
-      "score": 1,
-      "time": 1649083902,
-      "title": "Mark Zuckerberg and Meta’s Leadership Take Remote Work to the Extreme",
-      "type": "story",
-      "url": "https://www.wsj.com/articles/mark-zuckerberg-and-metas-leadership-take-remote-work-to-the-extreme-11648040580"
-    },
-    {
-      "by": "3000",
-      "descendants": 0,
-      "id": 30907308,
-      "score": 2,
-      "text": "Hey everyone!<p>As title says, looking for billing for a new saas.<p>My research has given me a list of stripe, Mollie, Adyen, braintree and cardinity.<p>multiple payment types&#x2F;options is obviously a requirement, and paypal in there would be absolute plus.<p>Is there any other suggestion? I would love to use maybe a new up and comer, perhaps even ran by someone here on hackernews.<p>grateful for some suggestions,\nhave an awesome day!",
-      "time": 1649083787,
-      "title": "Ask HN: SaaS Billing?",
-      "type": "story"
-    },
-    {
-      "by": "strategineer",
-      "descendants": 0,
-      "id": 30907296,
-      "score": 2,
-      "time": 1649083754,
-      "title": "Mynoise.net",
-      "type": "story",
-      "url": "https://mynoise.net/"
-    },
-    {
-      "by": "mcovalt",
-      "descendants": 0,
-      "id": 30907295,
-      "score": 1,
-      "time": 1649083749,
-      "title": "D4M: A database built with sparse matrices in Matlab",
-      "type": "story",
-      "url": "https://d4m.mit.edu/d4m-dynamic-distributed-dimensional-data-model"
     }
   ]
 }
