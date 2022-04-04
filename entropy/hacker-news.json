@@ -1,6 +1,36 @@
 {
   "stories": [
     {
+      "by": "vitruvvius",
+      "descendants": 0,
+      "id": 30913249,
+      "score": 1,
+      "text": "First, a riddle<p>The King of a small country invites the entire city to his annual party - 500,000, diverse men, women, &amp; children. As a tradition, each citizen brings the King a bottle of wine. Soon after, the Queen discovers that one of the citizens is trying to assassinate the King by giving him a bottle of poisoned wine. Unfortunately, they do not know which citizen, nor which bottle of wine is poisoned. The poison is completely indiscernible. However, the King has 10 prisoners he plans to execute. He decides to use them as taste testers to determine which bottle of wine contains the poison. The poison when taken has no effect on the prisoner until exactly 24 hours later when the infected prisoner suddenly dies. The King needs to determine which bottle of wine is poisoned by tomorrow so that the festivities can continue as planned. Hence he only has time for one round of testing. How can the King administer the wine to the prisoners to ensure that 24 hours from now he is guaranteed to have found the poisoned wine bottle?<p>Of course, the answer is to apply binary numbers - assign each prisoner a bit in the vector [0, 0, 0, 0, 0, 0, 0, ...], assign each bottle a number from 0 -&gt; 499,999, &amp; then walk through bottle by bottle having each prisoner sip the corresponding binary number. In 24 hours, the combination of prisoners dead yields the bottle number poisoned.<p>In a similar fashion, a cluster of 100,000 machines has a combinatorial explosion of nCk possible multicasting addresses. To deduplicate data flow to N towers, I&#x27;m curious whether one can multicast&#x2F;listen to arbitrary groups on a single address with the following (or similar) approach.<p>Take a clutser of 100,000 towers [0, 0, 0, 0, 0, ...], assign each tower a single bit in the vector, disseminated over the network through a gossip protocol. When the network desires to multicast to a set of N nodes, send a single data stream to the address corresponding to the combination of N. Routers do not listen on a classical ipv6 address for the multicast, but rather check in the destination header if their unique bit exists.<p>We&#x27;re currently trying to deduplicate CPU socket writes in a computer vision &#x2F; broadcast network. This would weaponize bandwidth to shrink the # of redundant writes.<p>Thanks!",
+      "time": 1649114378,
+      "title": "Multicasting on ephemeral groups in large clusters",
+      "type": "story"
+    },
+    {
+      "by": "adamdegas",
+      "descendants": 0,
+      "id": 30913234,
+      "score": 1,
+      "time": 1649114294,
+      "title": "Mastodon: A free, open-source, and decentralized Twitter not owned by anybody",
+      "type": "story",
+      "url": "https://mastodon.social/about"
+    },
+    {
+      "by": "feross",
+      "descendants": 0,
+      "id": 30913218,
+      "score": 1,
+      "time": 1649114182,
+      "title": "Slaphappy",
+      "type": "story",
+      "url": "https://www.piratewires.com/p/slaphappy"
+    },
+    {
       "by": "Larrikin",
       "descendants": 0,
       "id": 30913198,
@@ -75,36 +105,6 @@
       "title": "Elon Musk Bought Some Twitter",
       "type": "story",
       "url": "https://www.bloomberg.com/opinion/articles/2022-04-04/elon-musk-bought-some-twitter"
-    },
-    {
-      "by": "mzs",
-      "descendants": 0,
-      "id": 30913093,
-      "score": 1,
-      "time": 1649113250,
-      "title": "A Death-Row Inmate’s Embrace of Conservatism Led to His Release",
-      "type": "story",
-      "url": "https://www.nytimes.com/2022/02/22/books/review/scoundrel-sarah-weinman.html"
-    },
-    {
-      "by": "zdw",
-      "descendants": 0,
-      "id": 30913034,
-      "score": 1,
-      "time": 1649112868,
-      "title": "A Power Button for Raspberry Pi, Courtesy of Device Tree Overlays",
-      "type": "story",
-      "url": "https://hackaday.com/2022/04/04/a-power-button-for-raspberry-pi-courtesy-of-device-tree-overlays/"
-    },
-    {
-      "by": "MalikHAA2",
-      "descendants": 0,
-      "id": 30913027,
-      "score": 2,
-      "time": 1649112785,
-      "title": "Show HN: OpenPIL AI – open-source NLP Python package to compile drug databases",
-      "type": "story",
-      "url": "https://github.com/OpenPIL/OpenPIL"
     }
   ]
 }
