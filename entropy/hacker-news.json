@@ -1,6 +1,26 @@
 {
   "stories": [
     {
+      "by": "theyknowitsxmas",
+      "descendants": 0,
+      "id": 30916210,
+      "score": 1,
+      "time": 1649143452,
+      "title": "1648 Names, Ranks, DOB, and Passport Numbers of Russian Soldiers",
+      "type": "story",
+      "url": "https://gur.gov.ua/content/voennye-prestupnyky-neposredstvenno-uchastvuiushchye-v-sovershenyy-voennykh-prestuplenyi-protyv-naroda-ukrayny-v-h-bucha-voennosluzhashchye-64-otdelnoi-motostrelkovoi-bryhady-35-oa-vvo.html"
+    },
+    {
+      "by": "1vuio0pswjnm7",
+      "descendants": 0,
+      "id": 30916201,
+      "score": 1,
+      "text": "<p><pre><code>    sed &#x27;s&#x2F;.\\{4\\}&#x2F;&#x2F;&#x27; &lt;&lt;eof|flex -8iCrf \n     &#x2F;* reformat, print json *&#x2F;\n    \n     int fileno (FILE *);\n     #define echo do{if(fwrite(yytext,(size_t)yyleng,1,yyout)){}}while(0)\n     #define jmp (yy_start) = 1 + 2 *\n     #define pc(x) putchar(x)\n    %option nounput noinput noyywrap\n    %s x1 \n    %%\n    \\40+ \n     &#x2F;* quoted values\n      &quot;key&quot;:&quot; \n      &quot;key&quot;: &quot; \n     *&#x2F;\n    \\&quot;[^\\&quot;:\\]\\)]*\\&quot;:\\40*\\&quot; echo;jmp x1;\n     &#x2F;* quoted values\n      &quot;key&quot;:[{ \n      &quot;key&quot;: [{ \n     *&#x2F;\n    \\&quot;[^\\&quot;:\\]\\)]*\\&quot;:\\40*\\[\\40*\\{ echo;pc(10);\n     &#x2F;* unquoted, comma-separated array values \n      &quot;key&quot;:[ \n      &quot;key&quot;: [ \n     *&#x2F;\n    \\&quot;[^\\&quot;:\\]\\)]*\\&quot;:\\40*\\[ echo;jmp x1;\n     &#x2F;* quoted values\n      &quot;key&quot;:{ \n      &quot;key&quot;: { \n     *&#x2F;\n    \\&quot;[^\\&quot;:\\]\\)]*\\&quot;:\\40*\\{ echo;pc(10);\n     &#x2F;* open brace not closed brace *&#x2F; \n    &lt;x1&gt;[\\]\\{\\&quot;] echo;pc(10);jmp 0;\n    &lt;x1&gt;[^\\]\\{\\&quot;\\12]* echo;\n    \\n|.\n    %%\n    int main(){ yylex();exit(0);}\n</code></pre>\neof<p><pre><code>    cc  -std=c89 -Wall -pedantic -pipe lex.yy.c -static -o yy059\n</code></pre>\nUsage: yy059 &lt; 1.json<p>This is made according to own personal JSON readability aesthetics, primarily for reading YouTube JSON.  It is used in personal YouTube search utility.  JSON from non-YouTube sources, e.g., Twitter, may contain escaped quotes.  Remove esacped quotes first, e.g.,<p><pre><code>  yy064 &lt; 1.json|yy059\n</code></pre>\nHere is yy064:<p><pre><code>    sed &#x27;s&#x2F;.\\{4\\}&#x2F;&#x2F;&#x27; &lt;&lt;eof|flex -8iCrf\n     &#x2F;* json remove escaped quotes *&#x2F;\n    \n     int fileno (FILE *);\n     #define echo do{if(fwrite(yytext,(size_t)yyleng,1,yyout)){}}while(0)\n     #define jmp (yy_start) = 1 + 2 *\n     #define pc(x) putchar(x)\n     int setenv (const char *, const char *, int);\n    \n    %option nounput noinput noyywrap\n    %%\n    ^[\\40\\11]+\n    \\134\\42\n    %%\n    int main(){ yylex();exit(0);}\n</code></pre>\neof<p><pre><code>    cc -std=c89 -Wall -pedantic -pipe lex.yy.c -static -o yy064</code></pre>",
+      "time": 1649143294,
+      "title": "JSON Reformat and Print",
+      "type": "story"
+    },
+    {
       "by": "HieronymusBosch",
       "descendants": 0,
       "id": 30916192,
@@ -85,26 +105,6 @@
       "title": "On Depression and Psilocybin Magic Mushrooms: A Brief Review",
       "type": "story",
       "url": "https://thegaiavoice.com/2022/04/04/on-depression-and-psilocybin-magic-mushrooms-a-brief-review/"
-    },
-    {
-      "by": "JohnnyRoper",
-      "descendants": 0,
-      "id": 30916063,
-      "score": 1,
-      "time": 1649141766,
-      "title": "Ukraine war: Biden calls for Putin to face war crimes trial after Bucha killings",
-      "type": "story",
-      "url": "https://www.bbc.com/news/world-europe-60990934"
-    },
-    {
-      "by": "mandeepj",
-      "descendants": 0,
-      "id": 30916046,
-      "score": 1,
-      "time": 1649141588,
-      "title": "It started: Do you want a tweet edit button?",
-      "type": "story",
-      "url": "https://twitter.com/elonmusk/status/1511143607385874434"
     }
   ]
 }
