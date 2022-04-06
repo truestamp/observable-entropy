@@ -1,6 +1,49 @@
 {
   "stories": [
     {
+      "by": "tosh",
+      "descendants": 0,
+      "id": 30938271,
+      "score": 1,
+      "time": 1649284170,
+      "title": "On undoing, fixing, or removing commits in Git",
+      "type": "story",
+      "url": "https://sethrobertson.github.io/GitFixUm/fixup.html"
+    },
+    {
+      "by": "IdEntities",
+      "descendants": 0,
+      "id": 30938256,
+      "score": 1,
+      "time": 1649284037,
+      "title": "Video appears to show Ukrainian troops killing captured Russian soldiers",
+      "type": "story",
+      "url": "https://www.nytimes.com/live/2022/04/06/world/ukraine-russia-war-news"
+    },
+    {
+      "by": "walterbell",
+      "descendants": 0,
+      "id": 30938251,
+      "score": 1,
+      "time": 1649283995,
+      "title": "Three ways the European Union might ruin WhatsApp",
+      "type": "story",
+      "url": "https://www.platformer.news/p/three-ways-the-european-union-might"
+    },
+    {
+      "by": "aw1621107",
+      "descendants": 1,
+      "id": 30938238,
+      "kids": [
+        30938248
+      ],
+      "score": 1,
+      "time": 1649283914,
+      "title": "Doctors fish out more than a dozen tiny maggots from man’s eye",
+      "type": "story",
+      "url": "https://arstechnica.com/science/2022/04/doctors-fish-out-more-than-a-dozen-tiny-maggots-from-mans-eye/"
+    },
+    {
       "by": "iamnotleetcoder",
       "descendants": 0,
       "id": 30938193,
@@ -59,50 +102,6 @@
       "title": "R/place Datasets (April Fools 2022)",
       "type": "story",
       "url": "https://old.reddit.com/r/place/comments/txvk2d/rplace_datasets_april_fools_2022/"
-    },
-    {
-      "by": "latexr",
-      "descendants": 0,
-      "id": 30938115,
-      "score": 1,
-      "time": 1649283161,
-      "title": "The Infinitely Profitable Program (2008)",
-      "type": "story",
-      "url": "http://peetm.com/blog/?p=55"
-    },
-    {
-      "by": "nicholashandel",
-      "descendants": 0,
-      "id": 30938109,
-      "score": 3,
-      "text": "Hi HN community, I’m Nick, co-founder&#x2F;CEO of Transform.co. I’m thrilled to share MetricFlow, an open-source metric creation framework: <a href=\"https:&#x2F;&#x2F;github.com&#x2F;transform-data&#x2F;metricflow\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;transform-data&#x2F;metricflow</a><p>MetricFlow strives to make what has historically been an extremely repetitive process, writing SQL queries on core normalized data models, much more DRY. MetricFlow consolidates the definitions for joins, aggregations, filters, etc., and programmatically generates SQL to construct data marts. You can think of it like LookML, but more powerful and ergonomic (and open source!). The project has three components:<p>1. MetricFlow Spec: The specification encapsulates metric logic in a more reusable set of abstractions: data_sources, measures, dimensions, identifiers, metrics, and materializations.<p>2. DataFlow Planner: The Query Planner is a generalized SQL constructor. We take in data sources (ideally normalized data models) and generate a graph of data transformations (a flow, if you will) – joins, aggregations, filters, etc. We take that graph and render it down to db-specific SQL while optimizing it for performance and legibility.<p>3. MetricFlow Interfaces: The CLI and Python SDK rely on the flexibility of the Spec and Planner to build just about any query you could ask for on top of your data warehouse.<p>These components enable novel features that other semantic layers struggle to support today:<p>- MetricFlow enables the user to traverse the entire graph of a company’s data warehouse without confining their analysis to pre-built data models (dbt), Explores (in Looker), or Cubes (in lots of tools).<p>- The Metric abstraction allows the construction of complex metrics that traverse the graph described above to rely on multiple data sources. We support several common metric types today, and adding more is a critical part of the open-source roadmap.<p>- The Materialization abstraction allows users to define and then programmatically generate data marts that rely on a single DRY expression of the metrics and dimensions.<p>MetricFlow is open source(<a href=\"https:&#x2F;&#x2F;github.com&#x2F;transform-data&#x2F;metricflow\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;transform-data&#x2F;metricflow</a>) and distributed through pypi (`pip install metricflow`). You can set up (`mf setup`) a set of sample configs and try out a tutorial (`mf tutorial). The docs are all here(<a href=\"https:&#x2F;&#x2F;docs.transform.co&#x2F;docs&#x2F;overview&#x2F;metricflow-overview\" rel=\"nofollow\">https:&#x2F;&#x2F;docs.transform.co&#x2F;docs&#x2F;overview&#x2F;metricflow-overview</a>). We’d love contributions on GitHub. We’re adding new Issues to share our roadmap in the coming days, but feel free to open your own.<p>We’re also opening up a Slack community(<a href=\"https:&#x2F;&#x2F;community.transform.co&#x2F;metricflow-signup\" rel=\"nofollow\">https:&#x2F;&#x2F;community.transform.co&#x2F;metricflow-signup</a>) to talk about the project and, more generally, metric tooling.<p>Let us know what you think – we’ll be here answering any questions!",
-      "time": 1649283123,
-      "title": "Show HN: MetricFlow – open-source metric framework",
-      "type": "story",
-      "url": "https://github.com/transform-data/metricflow"
-    },
-    {
-      "by": "rbanffy",
-      "descendants": 1,
-      "id": 30938100,
-      "kids": [
-        30938149
-      ],
-      "score": 1,
-      "time": 1649283072,
-      "title": "The IBM Research Innovations Powering IBM Z16 – IBM Research Blog",
-      "type": "story",
-      "url": "https://research.ibm.com/blog/research-powering-ibmz16"
-    },
-    {
-      "by": "buescher",
-      "descendants": 0,
-      "id": 30938094,
-      "score": 1,
-      "time": 1649283038,
-      "title": "The Undead (punched cards in 1999)",
-      "type": "story",
-      "url": "https://www.wired.com/1999/03/punchcards/"
     }
   ]
 }
