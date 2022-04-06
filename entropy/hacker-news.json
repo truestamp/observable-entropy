@@ -1,10 +1,41 @@
 {
   "stories": [
     {
+      "by": "greatquux",
+      "descendants": 0,
+      "id": 30932896,
+      "score": 1,
+      "text": "A few years ago a company I helped a company I used to consult for finally transition a business-critical application off of their physical Solaris 8&#x2F;SPARC servers... onto emulated Solaris 8&#x2F;SPARC using qemu. The ancient code (which was originally written in FORTRAN in the 1960s and was originally converted using f2c) was still being maintained on a Solaris 2.6 server using the Sun proprietary compilers, and relied on a core static library they purchased from a third-party which they only had in binary form.  Luckily it was all 32-bit because qemu can&#x27;t boot 64-bit Solaris yet, and it was only about 6-7 years ago that qemu finally got fixed to flawlessly emulate the sun4m architecture (we had started testing it about 12 years ago).  While I don&#x27;t consult for them anymore and no longer can access their systems, I highly doubt they&#x27;ve replaced it today as it was really a critical part of the business.  They know they have to at some point, if only because the people familiar with it won&#x27;t live forever, or because of the 2038 problem, but it does work, and works a lot faster than it used to on the physical servers.<p>My HN question is... who else is using either qemu to emulate an old architecture or OS, or even SimH, for actual _production_ work?  I know IBM is very unpleased if people try to run production apps on Hercules, but that&#x27;s at least still a living architecture and OS.  I want to know who is keeping the dead alive to do real work!",
+      "time": 1649257753,
+      "title": "Ask HN: Is anyone using SimH or QEMU with an old arch/OS in PRODUCTION?",
+      "type": "story"
+    },
+    {
+      "by": "JadRiz",
+      "descendants": 0,
+      "id": 30932875,
+      "score": 1,
+      "time": 1649257673,
+      "title": "Blackbox Fastest Way to Copy Text from Videos – +500k Users in 5 Months",
+      "type": "story",
+      "url": "https://chrome.google.com/webstore/detail/blackbox-select-copy-past/mcgbeeipkmelnpldkobichboakdfaeon"
+    },
+    {
+      "by": "awestbro",
+      "descendants": 0,
+      "id": 30932838,
+      "score": 2,
+      "text": "I&#x27;ve been working on a library for developing websites visually. There are many tools for building websites, but none that fit my workflow as a front-end developer, so I made my own! It is an open source library called ProductDiv and it lets you:<p>- Drag and drop any HTML template into your site.<p>- Change elements with utility classes you can customize<p>- Export clean HTML elements and copy into your source code.<p>- Use in any framework!<p>ProductDiv is developer-first, meaning the configuration for the editor lives in your source code. You can evolve the configuration as your project grows (as it inevitably will!). This lets you standardize design patterns and makes it easy to distribute high quality components to your team.<p>I published a demo at <a href=\"https:&#x2F;&#x2F;awestbro.github.io&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;awestbro.github.io&#x2F;</a> that includes Bootstrap 5 utility classes and some basic templates to experiment with.<p>I would love your feedback on UX and to answer the big question: Would you use this in your project? Why or why not?",
+      "time": 1649257534,
+      "title": "Show HN: ProductDiv – A Website Editor for Developers",
+      "type": "story",
+      "url": "https://awestbro.github.io/"
+    },
+    {
       "by": "vanburen",
       "descendants": 0,
       "id": 30932830,
-      "score": 1,
+      "score": 2,
       "time": 1649257498,
       "title": "Devs of bcachefs try to get filesystem into Linux again",
       "type": "story",
@@ -69,36 +100,6 @@
       "title": "The metaverse doesn’t look as disruptive as it should, it looks ordinary",
       "type": "story",
       "url": "https://theconversation.com/the-metaverse-doesnt-look-as-disruptive-as-it-should-it-looks-ordinary-heres-why-175866"
-    },
-    {
-      "by": "Edmond",
-      "descendants": 0,
-      "id": 30932752,
-      "score": 1,
-      "time": 1649257184,
-      "title": "Footage shows Russian troops sending stolen Ukrainian items home through Belarus",
-      "type": "story",
-      "url": "https://meduza.io/en/feature/2022/04/06/new-footage-shows-russian-troops-sending-stolen-ukrainian-items-home-through-belarus"
-    },
-    {
-      "by": "galfarragem",
-      "descendants": 0,
-      "id": 30932732,
-      "score": 1,
-      "time": 1649257102,
-      "title": "Baby born in 2020 thinks everything is a hand sanitizing station",
-      "type": "story",
-      "url": "https://www.core77.com/posts/115286/Baby-Born-in-2020-Thinks-Everything-is-a-Hand-Sanitizing-Station"
-    },
-    {
-      "by": "Corrado",
-      "descendants": 0,
-      "id": 30932725,
-      "score": 1,
-      "time": 1649257080,
-      "title": "Ubiquiti Teaches AWS Security and Crisis Comms via Counterexample",
-      "type": "story",
-      "url": "https://www.lastweekinaws.com/blog/ubiquiti-teaches-aws-security-and-crisis-comms-via-counterexample/"
     }
   ]
 }
