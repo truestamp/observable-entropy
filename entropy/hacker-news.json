@@ -1,6 +1,67 @@
 {
   "stories": [
     {
+      "by": "codebutler",
+      "descendants": 0,
+      "id": 30938136,
+      "score": 1,
+      "time": 1649283276,
+      "title": "Postgres Java lib returns wrong numeric value after 5 reads",
+      "type": "story",
+      "url": "https://github.com/pgjdbc/pgjdbc/issues/2326"
+    },
+    {
+      "by": "farmerbb",
+      "descendants": 0,
+      "id": 30938127,
+      "score": 1,
+      "time": 1649283229,
+      "title": "R/place Datasets (April Fools 2022)",
+      "type": "story",
+      "url": "https://old.reddit.com/r/place/comments/txvk2d/rplace_datasets_april_fools_2022/"
+    },
+    {
+      "by": "latexr",
+      "descendants": 0,
+      "id": 30938115,
+      "score": 1,
+      "time": 1649283161,
+      "title": "The Infinitely Profitable Program (2008)",
+      "type": "story",
+      "url": "http://peetm.com/blog/?p=55"
+    },
+    {
+      "by": "nicholashandel",
+      "descendants": 0,
+      "id": 30938109,
+      "score": 3,
+      "text": "Hi HN community, I’m Nick, co-founder&#x2F;CEO of Transform.co. I’m thrilled to share MetricFlow, an open-source metric creation framework: <a href=\"https:&#x2F;&#x2F;github.com&#x2F;transform-data&#x2F;metricflow\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;transform-data&#x2F;metricflow</a><p>MetricFlow strives to make what has historically been an extremely repetitive process, writing SQL queries on core normalized data models, much more DRY. MetricFlow consolidates the definitions for joins, aggregations, filters, etc., and programmatically generates SQL to construct data marts. You can think of it like LookML, but more powerful and ergonomic (and open source!). The project has three components:<p>1. MetricFlow Spec: The specification encapsulates metric logic in a more reusable set of abstractions: data_sources, measures, dimensions, identifiers, metrics, and materializations.<p>2. DataFlow Planner: The Query Planner is a generalized SQL constructor. We take in data sources (ideally normalized data models) and generate a graph of data transformations (a flow, if you will) – joins, aggregations, filters, etc. We take that graph and render it down to db-specific SQL while optimizing it for performance and legibility.<p>3. MetricFlow Interfaces: The CLI and Python SDK rely on the flexibility of the Spec and Planner to build just about any query you could ask for on top of your data warehouse.<p>These components enable novel features that other semantic layers struggle to support today:<p>- MetricFlow enables the user to traverse the entire graph of a company’s data warehouse without confining their analysis to pre-built data models (dbt), Explores (in Looker), or Cubes (in lots of tools).<p>- The Metric abstraction allows the construction of complex metrics that traverse the graph described above to rely on multiple data sources. We support several common metric types today, and adding more is a critical part of the open-source roadmap.<p>- The Materialization abstraction allows users to define and then programmatically generate data marts that rely on a single DRY expression of the metrics and dimensions.<p>MetricFlow is open source(<a href=\"https:&#x2F;&#x2F;github.com&#x2F;transform-data&#x2F;metricflow\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;transform-data&#x2F;metricflow</a>) and distributed through pypi (`pip install metricflow`). You can set up (`mf setup`) a set of sample configs and try out a tutorial (`mf tutorial). The docs are all here(<a href=\"https:&#x2F;&#x2F;docs.transform.co&#x2F;docs&#x2F;overview&#x2F;metricflow-overview\" rel=\"nofollow\">https:&#x2F;&#x2F;docs.transform.co&#x2F;docs&#x2F;overview&#x2F;metricflow-overview</a>). We’d love contributions on GitHub. We’re adding new Issues to share our roadmap in the coming days, but feel free to open your own.<p>We’re also opening up a Slack community(<a href=\"https:&#x2F;&#x2F;community.transform.co&#x2F;metricflow-signup\" rel=\"nofollow\">https:&#x2F;&#x2F;community.transform.co&#x2F;metricflow-signup</a>) to talk about the project and, more generally, metric tooling.<p>Let us know what you think – we’ll be here answering any questions!",
+      "time": 1649283123,
+      "title": "Show HN: MetricFlow – open-source metric framework",
+      "type": "story",
+      "url": "https://github.com/transform-data/metricflow"
+    },
+    {
+      "by": "rbanffy",
+      "descendants": 0,
+      "id": 30938100,
+      "score": 1,
+      "time": 1649283072,
+      "title": "The IBM Research Innovations Powering IBM Z16 – IBM Research Blog",
+      "type": "story",
+      "url": "https://research.ibm.com/blog/research-powering-ibmz16"
+    },
+    {
+      "by": "buescher",
+      "descendants": 0,
+      "id": 30938094,
+      "score": 1,
+      "time": 1649283038,
+      "title": "The Undead (punched cards in 1999)",
+      "type": "story",
+      "url": "https://www.wired.com/1999/03/punchcards/"
+    },
+    {
       "by": "pmoriarty",
       "descendants": 0,
       "id": 30938074,
@@ -12,10 +73,12 @@
     },
     {
       "by": "weastur",
-      "descendants": 1,
+      "descendants": 3,
       "id": 30938036,
       "kids": [
-        30938085
+        30938097,
+        30938085,
+        30938104
       ],
       "score": 1,
       "text": "Pretty unsafe, I think. And you can&#x27;t turn it off. https:&#x2F;&#x2F;rushter.com&#x2F;blog&#x2F;public-ssh-keys&#x2F;<p>Links to APIs:<p>https:&#x2F;&#x2F;docs.github.com&#x2F;en&#x2F;rest&#x2F;reference&#x2F;users#list-public-keys-for-a-user<p>https:&#x2F;&#x2F;docs.gitlab.com&#x2F;ee&#x2F;api&#x2F;users.html#list-ssh-keys-for-user",
@@ -42,69 +105,6 @@
       "title": "Why Millennials Won’t Let Go of Harry Potter (2020)",
       "type": "story",
       "url": "https://medium.com/swlh/why-millennials-wont-let-go-of-harry-potter-a86eb7fc169f"
-    },
-    {
-      "by": "rolph",
-      "descendants": 0,
-      "id": 30938006,
-      "score": 1,
-      "time": 1649282498,
-      "title": "Music Industry Flags Discord and Reddit as Primary Piracy Threats",
-      "type": "story",
-      "url": "https://torrentfreak.com/music-industry-flags-discord-and-reddit-as-primary-piracy-threats-220405/"
-    },
-    {
-      "by": "tnorthcutt",
-      "descendants": 0,
-      "id": 30937985,
-      "score": 2,
-      "time": 1649282371,
-      "title": "TinyPilot: Month 21",
-      "type": "story",
-      "url": "https://mtlynch.io/retrospectives/2022/04/"
-    },
-    {
-      "by": "webmaven",
-      "descendants": 0,
-      "id": 30937973,
-      "score": 1,
-      "time": 1649282329,
-      "title": "Harry Potter and the Millennials",
-      "type": "story",
-      "url": "https://www.press.jhu.edu/books/title/10804/harry-potter-and-millennials"
-    },
-    {
-      "by": "standardUser",
-      "descendants": 0,
-      "id": 30937956,
-      "score": 1,
-      "time": 1649282225,
-      "title": "Wind power was the second-highest source of electricity for the first time",
-      "type": "story",
-      "url": "https://www.cnn.com/2022/04/06/politics/wind-energy-milestone-us-climate/index.html"
-    },
-    {
-      "by": "lobo_tuerto",
-      "descendants": 0,
-      "id": 30937915,
-      "score": 2,
-      "time": 1649281980,
-      "title": "Bubble Sort Algorithm in TypeScript",
-      "type": "story",
-      "url": "https://twitter.com/anuraghazru/status/1511776290487279616"
-    },
-    {
-      "by": "pax",
-      "descendants": 1,
-      "id": 30937897,
-      "kids": [
-        30937928
-      ],
-      "score": 2,
-      "time": 1649281904,
-      "title": "Projects That StandWithUkraine",
-      "type": "story",
-      "url": "https://github.com/vshymanskyy/StandWithUkraine"
     }
   ]
 }
