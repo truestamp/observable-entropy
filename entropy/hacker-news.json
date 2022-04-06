@@ -1,10 +1,50 @@
 {
   "stories": [
     {
+      "by": "timthorn",
+      "descendants": 0,
+      "id": 30932953,
+      "score": 1,
+      "time": 1649257993,
+      "title": "Fujitsu Cloud Service to Put Fugaku Supercomputer in Reach",
+      "type": "story",
+      "url": "https://www.nextplatform.com/2022/04/06/fujitsu-cloud-service-to-put-fugaku-supercomputer-in-reach/"
+    },
+    {
+      "by": "affirmationsflo",
+      "descendants": 0,
+      "id": 30932946,
+      "score": 1,
+      "time": 1649257948,
+      "title": "Affirmations for Sigma Male",
+      "type": "story",
+      "url": "https://www.youtube.com/watch?v=0TNTbGMSSJY"
+    },
+    {
+      "by": "blunte",
+      "descendants": 0,
+      "id": 30932944,
+      "score": 1,
+      "time": 1649257947,
+      "title": "Dead Tweets",
+      "type": "story",
+      "url": "https://www.theverge.com/2022/4/6/23012913/twitter-tweet-embeds-deleted-tweets-empty-iframe-broken"
+    },
+    {
+      "by": "todsacerdoti",
+      "descendants": 0,
+      "id": 30932923,
+      "score": 2,
+      "time": 1649257872,
+      "title": "Please stop calling it “magic”",
+      "type": "story",
+      "url": "https://zverok.space/blog/2017-10-22-stop-magic.html"
+    },
+    {
       "by": "greatquux",
       "descendants": 0,
       "id": 30932896,
-      "score": 1,
+      "score": 2,
       "text": "A few years ago a company I helped a company I used to consult for finally transition a business-critical application off of their physical Solaris 8&#x2F;SPARC servers... onto emulated Solaris 8&#x2F;SPARC using qemu. The ancient code (which was originally written in FORTRAN in the 1960s and was originally converted using f2c) was still being maintained on a Solaris 2.6 server using the Sun proprietary compilers, and relied on a core static library they purchased from a third-party which they only had in binary form.  Luckily it was all 32-bit because qemu can&#x27;t boot 64-bit Solaris yet, and it was only about 6-7 years ago that qemu finally got fixed to flawlessly emulate the sun4m architecture (we had started testing it about 12 years ago).  While I don&#x27;t consult for them anymore and no longer can access their systems, I highly doubt they&#x27;ve replaced it today as it was really a critical part of the business.  They know they have to at some point, if only because the people familiar with it won&#x27;t live forever, or because of the 2038 problem, but it does work, and works a lot faster than it used to on the physical servers.<p>My HN question is... who else is using either qemu to emulate an old architecture or OS, or even SimH, for actual _production_ work?  I know IBM is very unpleased if people try to run production apps on Hercules, but that&#x27;s at least still a living architecture and OS.  I want to know who is keeping the dead alive to do real work!",
       "time": 1649257753,
       "title": "Ask HN: Is anyone using SimH or QEMU with an old arch/OS in PRODUCTION?",
@@ -53,53 +93,16 @@
     },
     {
       "by": "pavanto",
-      "descendants": 0,
+      "descendants": 1,
       "id": 30932790,
-      "score": 2,
+      "kids": [
+        30932976
+      ],
+      "score": 5,
       "text": "Received an email from ACM<p>As of July 1, 2022, you will no longer have to access the O’Reilly Learning platform as a benefit of your ACM membership. Despite our best efforts, O’Reilly Media is unwilling to continue to license their content to ACM for members. Please finish your reading&#x2F;training by 11:59 PM ET on June 30, 2022. If you wish to continue accessing O’Reilly Learning past this date, you will have to contact O’Reilly and purchase a license directly.<p>We regret that O’Reilly is not willing to continue providing this service to ACM Members and hope that you will continue to enjoy other benefits of ACM membership, such as our Skillsoft collection (with thousands of online books and courses from publishers such as Manning Publications and No Starch Press), as well as ACM TechTalks, the ACM ByteCast series, and more. All of these can be found in the ACM Learning Center.<p>ACM will continue to explore new partnerships to deliver additional professional development benefits and other opportunities for lifelong learning.<p>Sincerely,\nACM Member Services<p>Is there any cheaper way to access O&#x27;Reilly Learning Platform?",
       "time": 1649257353,
       "title": "O’Reilly Learning platform no longer as a benefit of your ACM membership",
       "type": "story"
-    },
-    {
-      "by": "feross",
-      "descendants": 0,
-      "id": 30932784,
-      "score": 1,
-      "time": 1649257315,
-      "title": "King Shit",
-      "type": "story",
-      "url": "https://www.piratewires.com/p/king-shit"
-    },
-    {
-      "by": "takiwatanga",
-      "descendants": 0,
-      "id": 30932770,
-      "score": 1,
-      "time": 1649257251,
-      "title": "Startup failure stories: 20 months in, 2K hours spent and 200K € lost (2021)",
-      "type": "story",
-      "url": "https://dsebastien.net/blog/2021-01-04-20-months-in-2k-hours-spent-and-200k-lost-a-story-about-resilience-and-the-sunk-cost-fallacy"
-    },
-    {
-      "by": "CrankyBear",
-      "descendants": 0,
-      "id": 30932768,
-      "score": 2,
-      "time": 1649257245,
-      "title": "MongoDB 5.3 enhances times series data capability",
-      "type": "story",
-      "url": "https://www.techtarget.com/searchdatamanagement/news/252515600/MongoDB-53-enhances-times-series-data-capabilities"
-    },
-    {
-      "by": "Stratoscope",
-      "descendants": 0,
-      "id": 30932756,
-      "score": 1,
-      "time": 1649257204,
-      "title": "The metaverse doesn’t look as disruptive as it should, it looks ordinary",
-      "type": "story",
-      "url": "https://theconversation.com/the-metaverse-doesnt-look-as-disruptive-as-it-should-it-looks-ordinary-heres-why-175866"
     }
   ]
 }
