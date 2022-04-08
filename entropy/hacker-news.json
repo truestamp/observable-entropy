@@ -1,6 +1,26 @@
 {
   "stories": [
     {
+      "by": "limoce",
+      "descendants": 0,
+      "id": 30955328,
+      "score": 1,
+      "time": 1649413780,
+      "title": "Address of Label and Indirect Branches in LLVM IR (2010)",
+      "type": "story",
+      "url": "https://blog.llvm.org/2010/01/address-of-label-and-indirect-branches.html"
+    },
+    {
+      "by": "pseudolus",
+      "descendants": 0,
+      "id": 30955318,
+      "score": 1,
+      "time": 1649413630,
+      "title": "A tsunami wiped out ancient communities in the Atacama Desert 3,800 years ago",
+      "type": "story",
+      "url": "https://arstechnica.com/science/2022/04/a-tsunami-wiped-out-ancient-communities-the-atacama-desert-3800-years-ago/"
+    },
+    {
       "by": "Pamar",
       "descendants": 0,
       "id": 30955306,
@@ -11,20 +31,10 @@
       "url": "https://www.bladerunner-rpg.com/"
     },
     {
-      "by": "jordn",
-      "descendants": 0,
-      "id": 30955294,
-      "score": 1,
-      "text": "Hey HN, I’m Jordan cofounder of Humanloop (YC S20) and I’m excited to show you Programmatic — an annotation tool for building large labeled datasets for NLP <i>without manual annotation</i>.<p>https:&#x2F;&#x2F;programmatic.humanloop.com<p>Programmatic is like a REPL for data annotation. You:<p><pre><code>  1. Write simple rules&#x2F;functions that can approximately label the data\n  2. Get near-instant feedback across your entire corpus\n  3. Iterate and improve your rules\n</code></pre>\nFinally, it uses a Bayesian label model [1] to convert these noisy annotations into a single, large, clean dataset, which you can then use for training machine learning models. You can programmatically label millions of datapoints in the time taken to hand-label hundreds.<p>What we do differently from weak supervision packages like Snorkel&#x2F;skweak is to focus on UI to give near-instantaneous feedback. We love these packages but when we tried to iterate on labeling functions we had to write a ton of boilerplate code and wrestle with pandas to understand what was going on. Building a dataset programmatically requires you to grok the impact of labeling rules on a whole corpus of text. We’ve been told that the exploration tools and feedback makes the process feel game-like and even fun (!!).<p>We built it because we see that getting labeled data remains a blocker for businesses benefiting from NLP today. We wanted to give software engineers and data scientists a way to build the datasets needed themselves and to make best use of subject-matter-experts’ time.<p>The package is free and you can install it now as a pip package [2]. It supports NER &#x2F; span extraction tasks at the moment but we’ll give updates [3] when document classification is added soon.  We&#x27;d love to hear your feedback or any success&#x2F;failures with weak supervision in the past!<p>[1]: We use a HMM model for NER tasks, and Naive-Bayes for classification using the two approaches given in the papers below:\n   Pierre Lison, Jeremy Barnes, and Aliaksandr Hubin. &quot;skweak: Weak Supervision Made Easy for NLP.&quot; https:&#x2F;&#x2F;arxiv.org&#x2F;abs&#x2F;2104.09683 (2021)\nAlex Ratner, Christopher De Sa, Sen Wu, Daniel Selsam, Chris Ré. &quot;Data Programming: Creating Large Training Sets, Quickly&quot; https:&#x2F;&#x2F;arxiv.org&#x2F;abs&#x2F;1605.07723 (NIPS 2016)<p>[2]:  Quick start guide at https:&#x2F;&#x2F;docs.programmatic.humanloop.com&#x2F;tutorials&#x2F;quick-start<p>[3]:  https:&#x2F;&#x2F;twitter.com&#x2F;humanloop",
-      "time": 1649413278,
-      "title": "Show HN: Programmatic – a REPL for creating labeled data",
-      "type": "story"
-    },
-    {
       "by": "lifeplusplus",
       "descendants": 0,
       "id": 30955290,
-      "score": 1,
+      "score": 2,
       "text": "Going from big L to Facebook I see lot of differences in onboarding. First there is huge cult like behavior. &quot;The meta way&quot;..&quot;interpretation of our values is the only one&quot;.... Then from start to finish there has been defensive explaining &#x2F; self consciousness how we are visionary despite what they say.. almost begging salesy about metaverse .. like dude I&#x27;m not joining the meta team get over it. Also seem to take pride in being overbearing, prev company was like take time and settle in and this is like go go go give me 100 soldier... cringe",
       "time": 1649413223,
       "title": "Ask HN: New hire at Facebook, getting weird cult vibes",
@@ -65,9 +75,10 @@
     },
     {
       "by": "Ambolia",
-      "descendants": 1,
+      "descendants": 2,
       "id": 30955243,
       "kids": [
+        30955315,
         30955268
       ],
       "score": 1,
@@ -95,16 +106,6 @@
       "title": "Scan of a dying human brain reveals life may 'flash before your eyes'",
       "type": "story",
       "url": "https://www.livescience.com/first-ever-scan-of-dying-brain"
-    },
-    {
-      "by": "harperlee",
-      "descendants": 0,
-      "id": 30955203,
-      "score": 1,
-      "time": 1649412172,
-      "title": "How to control the metacognition process of programming?",
-      "type": "story",
-      "url": "https://lambdaisland.com/blog/2022-02-17-the-fg-command"
     }
   ]
 }
