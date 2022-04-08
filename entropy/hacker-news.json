@@ -1,10 +1,41 @@
 {
   "stories": [
     {
+      "by": "edent",
+      "descendants": 0,
+      "id": 30955721,
+      "score": 1,
+      "time": 1649417971,
+      "title": "Bench Does Not Exist",
+      "type": "story",
+      "url": "https://shkspr.mobi/blog/2022/04/this-bench-does-not-exist/"
+    },
+    {
+      "by": "sirteno",
+      "descendants": 0,
+      "id": 30955710,
+      "score": 2,
+      "time": 1649417822,
+      "title": "Can U.S. sanctions on Russia backfire on the dollar's dominance?",
+      "type": "story",
+      "url": "https://seekingalpha.com/news/3821914-can-us-sanctions-on-russia-backfire-on-the-dollars-dominance"
+    },
+    {
+      "by": "jordn",
+      "descendants": 0,
+      "id": 30955699,
+      "score": 3,
+      "text": "Hey HN, I’m Jordan cofounder of Humanloop (YC S20) and I’m excited to show you Programmatic — an annotation tool for building large labeled datasets for NLP <i>without manual annotation</i>.<p>Programmatic is like a REPL for data annotation. You:<p><pre><code>  1. Write simple rules&#x2F;functions that can approximately label the data\n  2. Get near-instant feedback across your entire corpus\n  3. Iterate and improve your rules\n</code></pre>\nFinally, it uses a Bayesian label model [1] to convert these noisy annotations into a single, large, clean dataset, which you can then use for training machine learning models. You can programmatically label millions of datapoints in the time taken to hand-label hundreds.<p>What we do differently from weak supervision packages like Snorkel&#x2F;skweak[1] is to focus on UI to give near-instantaneous feedback. We love these packages but when we tried to iterate on labeling functions we had to write a ton of boilerplate code and wrestle with pandas to understand what was going on. Building a dataset programmatically requires you to grok the impact of labeling rules on a whole corpus of text. We’ve been told that the exploration tools and feedback makes the process feel game-like and even fun (!!).<p>We built it because we see that getting labeled data remains a blocker for businesses using NLP today. We have a platform for active learning (see our Launch HN [2]) but we wanted to give software engineers and data scientists a way to build the datasets needed themselves and to make best use of subject-matter-experts’ time.<p>The package is free and you can install it now as a pip package [2]. It supports NER &#x2F; span extraction tasks at the moment and document classification will be added soon. To help improve it, we&#x27;d love to hear your feedback or any success&#x2F;failures you’ve had with weak supervision in the past.<p>[1]: We use a HMM model for NER tasks, and Naive-Bayes for classification using the two approaches given in the papers below:\n   Pierre Lison, Jeremy Barnes, and Aliaksandr Hubin. &quot;skweak: Weak Supervision Made Easy for NLP.&quot; <a href=\"https:&#x2F;&#x2F;arxiv.org&#x2F;abs&#x2F;2104.09683\" rel=\"nofollow\">https:&#x2F;&#x2F;arxiv.org&#x2F;abs&#x2F;2104.09683</a> (2021)\nAlex Ratner, Christopher De Sa, Sen Wu, Daniel Selsam, Chris Ré. &quot;Data Programming: Creating Large Training Sets, Quickly&quot; <a href=\"https:&#x2F;&#x2F;arxiv.org&#x2F;abs&#x2F;1605.07723\" rel=\"nofollow\">https:&#x2F;&#x2F;arxiv.org&#x2F;abs&#x2F;1605.07723</a> (NIPS 2016)<p>[2]: Our Launch HN for our main active learning platform, Humanloop –  <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=23987353\" rel=\"nofollow\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=23987353</a><p>[3]: Can install it directly here <a href=\"https:&#x2F;&#x2F;docs.programmatic.humanloop.com&#x2F;tutorials&#x2F;quick-start\" rel=\"nofollow\">https:&#x2F;&#x2F;docs.programmatic.humanloop.com&#x2F;tutorials&#x2F;quick-star...</a>",
+      "time": 1649417731,
+      "title": "Show HN: Programmatic – a REPL for creating labeled data",
+      "type": "story",
+      "url": "https://programmatic.humanloop.com"
+    },
+    {
       "by": "nintendinho1981",
       "descendants": 0,
       "id": 30955697,
-      "score": 1,
+      "score": 4,
       "time": 1649417685,
       "title": "Learn the math behind 2D Game Physics and create a simple engine from scratch",
       "type": "story",
@@ -69,36 +100,6 @@
       "title": "Transformer Models",
       "type": "story",
       "url": "https://www.pinecone.io/learn/transformers/"
-    },
-    {
-      "by": "tilt",
-      "descendants": 0,
-      "id": 30955605,
-      "score": 1,
-      "time": 1649416896,
-      "title": "Perfetto: Browser Trace Viewer",
-      "type": "story",
-      "url": "https://ui.perfetto.dev/"
-    },
-    {
-      "by": "tomwas54",
-      "descendants": 0,
-      "id": 30955597,
-      "score": 1,
-      "time": 1649416792,
-      "title": "End-to-End Encryption and Messaging Interoperability",
-      "type": "story",
-      "url": "https://educatedguesswork.org/posts/messaging-e2e/"
-    },
-    {
-      "by": "hamish_todd",
-      "descendants": 0,
-      "id": 30955592,
-      "score": 1,
-      "time": 1649416757,
-      "title": "Pictogrammatic Programming Project",
-      "type": "story",
-      "url": "https://www.youtube.com/watch?v=HYETohI5UVE"
     }
   ]
 }
