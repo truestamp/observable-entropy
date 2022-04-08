@@ -1,9 +1,74 @@
 {
   "stories": [
     {
-      "by": "giuliomagnifico",
+      "by": "airbotics",
+      "descendants": 1,
+      "id": 30955819,
+      "kids": [
+        30955820
+      ],
+      "score": 1,
+      "time": 1649418895,
+      "title": "Airbotics – DevOps for Robotics",
+      "type": "story",
+      "url": "https://airbotics.io"
+    },
+    {
+      "by": "RickJWagner",
       "descendants": 0,
+      "id": 30955814,
+      "score": 1,
+      "time": 1649418829,
+      "title": "Where's the Muscle?",
+      "type": "story",
+      "url": "https://lawliberty.org/wheres-the-muscle/"
+    },
+    {
+      "by": "RickJWagner",
+      "descendants": 0,
+      "id": 30955810,
+      "score": 1,
+      "time": 1649418793,
+      "title": "Is It Time to Revisit the Keystone XL Pipeline?",
+      "type": "story",
+      "url": "https://oilprice.com/Energy/Oil-Prices/Is-It-Time-To-Revisit-The-Keystone-XL-Pipeline.html"
+    },
+    {
+      "by": "nic03929192",
+      "descendants": 0,
+      "id": 30955799,
+      "score": 1,
+      "time": 1649418714,
+      "title": "Why people can resist change even if they are unhappy",
+      "type": "story",
+      "url": "https://nicolalindgren.com/2021/08/03/bloggers-club-implementing-change/"
+    },
+    {
+      "by": "aviCC",
+      "descendants": 0,
+      "id": 30955797,
+      "score": 1,
+      "time": 1649418693,
+      "title": "Ask HN: What office chair do you use for long hour sitting?",
+      "type": "story"
+    },
+    {
+      "by": "todsacerdoti",
+      "descendants": 0,
+      "id": 30955795,
+      "score": 1,
+      "time": 1649418678,
+      "title": "Maybe Passwords Are the Future",
+      "type": "story",
+      "url": "https://kevincox.ca/2022/04/07/passwords/"
+    },
+    {
+      "by": "giuliomagnifico",
+      "descendants": 1,
       "id": 30955769,
+      "kids": [
+        30955794
+      ],
       "score": 1,
       "time": 1649418467,
       "title": "Live Bitcoin network power demand",
@@ -35,74 +100,16 @@
     },
     {
       "by": "edent",
-      "descendants": 0,
+      "descendants": 1,
       "id": 30955721,
-      "score": 2,
+      "kids": [
+        30955802
+      ],
+      "score": 4,
       "time": 1649417971,
       "title": "Bench Does Not Exist",
       "type": "story",
       "url": "https://shkspr.mobi/blog/2022/04/this-bench-does-not-exist/"
-    },
-    {
-      "by": "sirteno",
-      "descendants": 0,
-      "id": 30955710,
-      "score": 2,
-      "time": 1649417822,
-      "title": "Can U.S. sanctions on Russia backfire on the dollar's dominance?",
-      "type": "story",
-      "url": "https://seekingalpha.com/news/3821914-can-us-sanctions-on-russia-backfire-on-the-dollars-dominance"
-    },
-    {
-      "by": "jordn",
-      "descendants": 0,
-      "id": 30955699,
-      "score": 4,
-      "text": "Hey HN, I’m Jordan cofounder of Humanloop (YC S20) and I’m excited to show you Programmatic — an annotation tool for building large labeled datasets for NLP <i>without manual annotation</i>.<p>Programmatic is like a REPL for data annotation. You:<p><pre><code>  1. Write simple rules&#x2F;functions that can approximately label the data\n  2. Get near-instant feedback across your entire corpus\n  3. Iterate and improve your rules\n</code></pre>\nFinally, it uses a Bayesian label model [1] to convert these noisy annotations into a single, large, clean dataset, which you can then use for training machine learning models. You can programmatically label millions of datapoints in the time taken to hand-label hundreds.<p>What we do differently from weak supervision packages like Snorkel&#x2F;skweak[1] is to focus on UI to give near-instantaneous feedback. We love these packages but when we tried to iterate on labeling functions we had to write a ton of boilerplate code and wrestle with pandas to understand what was going on. Building a dataset programmatically requires you to grok the impact of labeling rules on a whole corpus of text. We’ve been told that the exploration tools and feedback makes the process feel game-like and even fun (!!).<p>We built it because we see that getting labeled data remains a blocker for businesses using NLP today. We have a platform for active learning (see our Launch HN [2]) but we wanted to give software engineers and data scientists a way to build the datasets needed themselves and to make best use of subject-matter-experts’ time.<p>The package is free and you can install it now as a pip package [2]. It supports NER &#x2F; span extraction tasks at the moment and document classification will be added soon. To help improve it, we&#x27;d love to hear your feedback or any success&#x2F;failures you’ve had with weak supervision in the past.<p>[1]: We use a HMM model for NER tasks, and Naive-Bayes for classification using the two approaches given in the papers below:\n   Pierre Lison, Jeremy Barnes, and Aliaksandr Hubin. &quot;skweak: Weak Supervision Made Easy for NLP.&quot; <a href=\"https:&#x2F;&#x2F;arxiv.org&#x2F;abs&#x2F;2104.09683\" rel=\"nofollow\">https:&#x2F;&#x2F;arxiv.org&#x2F;abs&#x2F;2104.09683</a> (2021)\nAlex Ratner, Christopher De Sa, Sen Wu, Daniel Selsam, Chris Ré. &quot;Data Programming: Creating Large Training Sets, Quickly&quot; <a href=\"https:&#x2F;&#x2F;arxiv.org&#x2F;abs&#x2F;1605.07723\" rel=\"nofollow\">https:&#x2F;&#x2F;arxiv.org&#x2F;abs&#x2F;1605.07723</a> (NIPS 2016)<p>[2]: Our Launch HN for our main active learning platform, Humanloop –  <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=23987353\" rel=\"nofollow\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=23987353</a><p>[3]: Can install it directly here <a href=\"https:&#x2F;&#x2F;docs.programmatic.humanloop.com&#x2F;tutorials&#x2F;quick-start\" rel=\"nofollow\">https:&#x2F;&#x2F;docs.programmatic.humanloop.com&#x2F;tutorials&#x2F;quick-star...</a>",
-      "time": 1649417731,
-      "title": "Show HN: Programmatic – a REPL for creating labeled data",
-      "type": "story",
-      "url": "https://programmatic.humanloop.com"
-    },
-    {
-      "by": "matbilodeau",
-      "descendants": 0,
-      "id": 30955692,
-      "score": 1,
-      "time": 1649417655,
-      "title": "Phishing attacks use Azure Static Web pages to impersonate Microsoft",
-      "type": "story",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/phishing-uses-azure-static-web-pages-to-impersonate-microsoft/"
-    },
-    {
-      "by": "nojito",
-      "descendants": 0,
-      "id": 30955689,
-      "score": 1,
-      "time": 1649417633,
-      "title": "WatchGuard failed to explicitly disclose flaw exploited by Russian hackers",
-      "type": "story",
-      "url": "https://arstechnica.com/information-technology/2022/04/watchguard-failed-to-disclose-critical-flaw-exploited-by-russian-hackers/"
-    },
-    {
-      "by": "petercooper",
-      "descendants": 0,
-      "id": 30955676,
-      "score": 1,
-      "time": 1649417481,
-      "title": "Slide Rule Simulator Emulator Replica Collection",
-      "type": "story",
-      "url": "https://www.sliderules.org/"
-    },
-    {
-      "by": "davidshepherd7",
-      "descendants": 0,
-      "id": 30955660,
-      "score": 2,
-      "time": 1649417330,
-      "title": "Learning to Listen",
-      "type": "story",
-      "url": "http://www.ruthiebyers.com/2014/06/27/learning-to-listen.html"
     }
   ]
 }
