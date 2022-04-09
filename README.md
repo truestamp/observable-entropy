@@ -71,7 +71,31 @@ value.
 
 `https://entropy.truestamp.com/hash/:hash`
 
-[https://entropy.truestamp.com/hash/2f51d1dbb3213ee2be0a774be7c9979f42d93b1d4f7013257de81fefa0ef4349](https://entropy.truestamp.com/hash/2f51d1dbb3213ee2be0a774be7c9979f42d93b1d4f7013257de81fefa0ef4349)
+[https://entropy.truestamp.com/hash/e9e24e1a552f4f78691d225a6e2af5f56c61cbb38b3d39e0bfc2a81c8679344a](https://entropy.truestamp.com/hash/e9e24e1a552f4f78691d225a6e2af5f56c61cbb38b3d39e0bfc2a81c8679344a)
+
+### Verify by Git commit ID (`sha1`)
+
+Lookup the contents of `entropy.json` as committed in `id` and verify the hash
+and signature.
+
+Please note that some early commits did not have signatures and need to be
+verified manually as shown below.
+
+`https://entropy.truestamp.com/verify/commit/:id`
+
+[https://entropy.truestamp.com/verify/commit/a2b1f20763fd2cbfa4b7c1c3cafbc3bea9497316](https://entropy.truestamp.com/verify/commit/a2b1f20763fd2cbfa4b7c1c3cafbc3bea9497316)
+
+### Verify by Entropy Hash (`sha256`)
+
+Lookup the contents of `entropy.json` for the `hash` and verify the hash and
+signature.
+
+Please note that some early commits did not have signatures and need to be
+verified manually as shown below.
+
+`https://entropy.truestamp.com/verify/hash/:hash`
+
+[https://entropy.truestamp.com/verify/hash/e9e24e1a552f4f78691d225a6e2af5f56c61cbb38b3d39e0bfc2a81c8679344a](https://entropy.truestamp.com/verify/hash/e9e24e1a552f4f78691d225a6e2af5f56c61cbb38b3d39e0bfc2a81c8679344a)
 
 ## Why do we need incontestable randomness?
 
