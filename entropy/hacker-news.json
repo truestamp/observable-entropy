@@ -1,9 +1,63 @@
 {
   "stories": [
+    null,
+    {
+      "by": "katsura",
+      "descendants": 0,
+      "id": 30982166,
+      "score": 1,
+      "time": 1649628171,
+      "title": "Anki released with Apple Silicon support",
+      "type": "story",
+      "url": "https://github.com/ankitects/anki/releases/tag/2.1.50"
+    },
+    {
+      "by": "vector_spaces",
+      "descendants": 0,
+      "id": 30982161,
+      "score": 1,
+      "time": 1649628165,
+      "title": "Why are there 360° in a circle?",
+      "type": "story",
+      "url": "https://twitter.com/jacquiavelli/status/1513244311609094164"
+    },
+    {
+      "by": "kaladin-jasnah",
+      "descendants": 0,
+      "id": 30982158,
+      "score": 2,
+      "text": "Some may have seen this article: https:&#x2F;&#x2F;www.phoronix.com&#x2F;scan.php?page=news_item&amp;px=NVIDIA-Kernel-Driver-Source. I know it was posted a few days ago on HN and dismissed as the `nvgpu` driver. Curious for myself, I downloaded the driver and investigated.<p>When you download a regular desktop NVIDIA driver on Linux, you get a file called `nv-kernel.o_binary`. This is the binary blob, to my knowledge, that is used over a shim that is FOSS (to get around Linux licensing restrictions). When I downloaded this new Tegra driver, it had a modified version of the `nv-kernel.o_binary`&#x27;s source code. As in, if I run make in the directory, it compiles all the files and gives me an `nv-kernel.o`. Furthermore, looking through the actual code, there seem to be implementations of several functions that are in the binary blob that I can read in physical, hard C code.<p>To (perhaps) prove to you this isn&#x27;t just some ordinary thing, look at a reverse-engineered file of NVIDIA ioctl structs: https:&#x2F;&#x2F;github.com&#x2F;envytools&#x2F;envytools&#x2F;blob&#x2F;master&#x2F;demmt&#x2F;nvrm_mthd.h#L46.<p>File `src&#x2F;common&#x2F;sdk&#x2F;nvidia&#x2F;inc&#x2F;ctrl&#x2F;ctrl0000&#x2F;ctrl0000system.h` from the new Tegra driver, line 112;<p><pre><code>  #define NV0000_CTRL_CMD_SYSTEM_GET_BUILD_VERSION          (0x101) &#x2F;* finn: Evaluated from &quot;(FINN_NV01_ROOT_SYSTEM_INTERFACE_ID &lt;&lt; 8) | NV0000_CTRL_SYSTEM_GET_BUILD_VERSION_PARAMS_MESSAGE_ID&quot; *&#x2F;\n\n  #define NV0000_CTRL_SYSTEM_GET_BUILD_VERSION_PARAMS_MESSAGE_ID (0x1U) \n\n  typedef struct NV0000_CTRL_SYSTEM_GET_BUILD_VERSION_PARAMS {\n      NvU32 sizeOfStrings;\n      NV_DECLARE_ALIGNED(NvP64 pDriverVersionBuffer, 8);\n      NV_DECLARE_ALIGNED(NvP64 pVersionBuffer, 8);\n      NV_DECLARE_ALIGNED(NvP64 pTitleBuffer, 8);\n      NvU32 changelistNumber;  \n      NvU32 officialChangelistNumber;\n  } NV0000_CTRL_SYSTEM_GET_BUILD_VERSION_PARAMS;\n</code></pre>\nNotice how the sizeof&#x27;s of each struct, whether the reverse engineered one or the new one are the same (EDIT they&#x27;re not, but they&#x27;re similar in size (missing one u32) and the operation hex code is the same). Not only do we know what this undocumented ioctl does now, we also have its struct members&#x27; names and purposes that you&#x27;d pass when trying to issue that ioctl.<p>In addition, I found other evidence of a possible open-source NVIDIA driver. A prior HN article: https:&#x2F;&#x2F;www.collabora.com&#x2F;news-and-blog&#x2F;blog&#x2F;2022&#x2F;03&#x2F;23&#x2F;how-to-write-vulkan-driver-in-2022&#x2F;, clearly highlights that Collabora is working on a FOSS Mesa Vulkan driver for NVIDIA GPUs.<p>&gt; I&#x27;m going to pick on NVIDIA because... Why not? Such a driver is clearly missing and really should happen soon. (Hint! Hint!)<p>Furthermore, https:&#x2F;&#x2F;blogs.gnome.org&#x2F;uraeus&#x2F;2022&#x2F;02&#x2F;01&#x2F;getting-rid-of-the-need-for-the-usecase-linux-distribution&#x2F;.<p>&gt; while I am not at liberty to mention any details I think I can at least mention that we are meeting with our engineering counterparts at NVidia on almost a weekly basis to discuss how to improve things, not just for graphics, but around compute and other shared areas of interest. The most recent public result of that collaboration was of course the XWayland support in recent NVidia drivers, but I promise you that this is something we keep focusing on and I expect that we will be able to share more cool news and important progress over the course of the year, both for users of the NVidia binary driver and for users of Nouveau.<p>Why would NVIDIA take their binary blob and open source at least some of it under MIT (revealing new details about how their GPUs work)? Their Tegra driver is clearly not the old one, it has references to enterprise GPUs and features like vGPU, GRID, and VMware ESXi. Why is Collabora working on a FOSS NVIDIA Vulkan driver? Why are people saying something regarding NVIDIA is under wraps?",
+      "time": 1649628096,
+      "title": "Ask HN: Is Nvidia making an open-source Linux driver?",
+      "type": "story"
+    },
+    {
+      "by": "ecrook",
+      "descendants": 0,
+      "id": 30982156,
+      "score": 1,
+      "time": 1649628054,
+      "title": "Proof Surgeons in China Procure Organs Before Brain Death",
+      "type": "story",
+      "url": "https://www.medscape.com/viewarticle/971750"
+    },
+    {
+      "by": "PaulHoule",
+      "descendants": 0,
+      "id": 30982155,
+      "score": 1,
+      "time": 1649628051,
+      "title": "Themis",
+      "type": "story",
+      "url": "https://en.wikipedia.org/wiki/24_Themis"
+    },
     {
       "by": "zeristor",
-      "descendants": 0,
+      "descendants": 1,
       "id": 30982140,
+      "kids": [
+        30982149
+      ],
       "score": 1,
       "time": 1649627947,
       "title": "B1M: Why New York’s Billionaires’ Row Is Half Empty",
@@ -39,69 +93,6 @@
       "title": "Matrix: Are We P2P Yet?",
       "type": "story",
       "url": "https://arewep2pyet.com/"
-    },
-    {
-      "by": "tomohawk",
-      "descendants": 0,
-      "id": 30982034,
-      "score": 1,
-      "time": 1649627088,
-      "title": "Stanford education prof calls cops on Berkeley prof who exposed $5000/hour fee",
-      "type": "story",
-      "url": "https://stanfordreview.org/boaler-professor/"
-    },
-    {
-      "by": "prostoalex",
-      "descendants": 0,
-      "id": 30982029,
-      "score": 2,
-      "time": 1649627060,
-      "title": "A Science of Buildings That Can Grow–and Melt Away",
-      "type": "story",
-      "url": "https://www.wsj.com/articles/a-science-of-buildings-that-can-growand-melt-away-11649601901"
-    },
-    {
-      "by": "classichasclass",
-      "descendants": 0,
-      "id": 30982014,
-      "score": 3,
-      "time": 1649626959,
-      "title": "Tonight we're gonna log on like it's 1979 (Telenet, Dialcom and The Source)",
-      "type": "story",
-      "url": "http://oldvcr.blogspot.com/2022/04/tonight-were-gonna-log-on-like-its-1979.html"
-    },
-    {
-      "by": "samh748",
-      "descendants": 0,
-      "id": 30982000,
-      "score": 1,
-      "time": 1649626881,
-      "title": "Magic Ink: Information Software and the Graphical Interface",
-      "type": "story",
-      "url": "http://worrydream.com/MagicInk/"
-    },
-    {
-      "by": "mactunes",
-      "descendants": 0,
-      "id": 30981995,
-      "score": 1,
-      "text": "Hi all ,<p>around a year ago after becoming frustrated with existing calorie counter&#x2F;diet tracking apps mostly due to the fact that you have to pay a monthly subscription fee. It seems like these days everything is subscription-based. Another annoyance was that some apps didn&#x27;t respect my privacy and&#x2F;or forced me into becoming a part of their own social network.<p>Hence, today I am happy to announce that I am releasing a first, early beta version of Caloree.<p>What is Caloree?<p>Caloree is a simple calorie tracker that respects your privacy and does not try to sell you a subscription. Instead, once we launch Caloree, we will offer 2 tiers of one-time in-app purchases:<p>* Pro: you will get access to hundreds of thousands of products, be able to scan the barcodes of these products\n* Ultra: you gain the ability to plan several days in advance and in the future you will get nifty features, such as image recognition, Apple Watch support, Widgets, etc.<p>What to expect of the beta?<p>As mentioned, this is an early build, so there will be rough spots here and there. I am also working on additional features as I am writing this. The product catalog is still quite raw, currently lacking basic foods such as eggs and milk, which will follow in later beta versions. The weight screen still needs some love and also data entry could be better.<p>Participating<p>If you would like to try out Caloree on your iPhone or know some friends who would like to try it out, feel free to install it: https:&#x2F;&#x2F;testflight.apple.com&#x2F;join&#x2F;65dEEqFM.<p>I&#x27;ll be scanning this post for any comments or feedback that you might give. If you would like to participate more actively you can also join my Discord server (https:&#x2F;&#x2F;discord.gg&#x2F;h4XCmkPq) where I&#x27;ll try to be available at least once a day to discuss feature requests, learn about any issues that you found or anything else that could be useful regarding Caloree.<p>I hope you like this early release of Caloree. Happy testing! \nRudy",
-      "time": 1649626845,
-      "title": "Show HN: Caloree for iOS First Beta",
-      "type": "story"
-    },
-    {
-      "by": "decisionsmatter",
-      "descendants": 1,
-      "id": 30981981,
-      "kids": [
-        30982113
-      ],
-      "score": 6,
-      "time": 1649626733,
-      "title": "“Can I sue USPS if they keep sending me junk mail that is sexually provocative?”",
-      "type": "story",
-      "url": "https://old.reddit.com/r/legaladvice/comments/u0qbnd/is_the_united_states_postal_service_violating_my/"
     }
   ]
 }
