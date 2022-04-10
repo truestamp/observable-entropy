@@ -1,6 +1,39 @@
 {
   "stories": [
     {
+      "by": "YousfAzah",
+      "descendants": 1,
+      "id": 30975994,
+      "kids": [
+        30975995
+      ],
+      "score": 1,
+      "time": 1649588042,
+      "title": "Types of Medical Face Masks for Beautiful Skin",
+      "type": "story",
+      "url": "https://www.eromman.com/types-of-medical-masks-to-take-care-of-the-freshness-of-your-skin/"
+    },
+    {
+      "by": "bryanrasmussen",
+      "descendants": 0,
+      "id": 30975988,
+      "score": 1,
+      "time": 1649587917,
+      "title": "Harder Drive: Hard drives we didn’t want or need [pdf]",
+      "type": "story",
+      "url": "http://tom7.org/papers/murphy2022harder.pdf"
+    },
+    {
+      "by": "samber",
+      "descendants": 0,
+      "id": 30975982,
+      "score": 1,
+      "time": 1649587870,
+      "title": "Indian police hunt gang accused of stealing a bridge",
+      "type": "story",
+      "url": "https://www.scmp.com/news/asia/south-asia/article/3173754/bridge-too-far-indian-police-hunt-gang-accused-stealing-bridge"
+    },
+    {
       "by": "croes",
       "descendants": 0,
       "id": 30975974,
@@ -75,36 +108,6 @@
       "title": "They Do the Work, You Reap the Yogurt (2009)",
       "type": "story",
       "url": "https://www.nytimes.com/2009/04/15/dining/15curi.html"
-    },
-    {
-      "by": "Tomte",
-      "descendants": 0,
-      "id": 30975888,
-      "score": 1,
-      "time": 1649586775,
-      "title": "Yog’s Law and Self-Publishing (2014)",
-      "type": "story",
-      "url": "https://whatever.scalzi.com/2014/06/20/yogs-law-and-self-publishing/"
-    },
-    {
-      "by": "rcshubhadeep",
-      "descendants": 0,
-      "id": 30975887,
-      "score": 1,
-      "text": "I have been tinkering with some DL models and wanted to implement part of it using PyTorch einsum. Before doing so I was wondering about the performance. I have been a bit skeptic as I believe there is a parsing (and even may be somewhat code generation) involved in implementation of einsum (I have never look under the hood of PyTorch or Numpy as to how is it implemented, so I may be completely wrong)<p>So to measure the performance, I created a simple benchmark of comparison. I created a Tensor with these dimensions (BATCH, X, Y). Like so -<p>a = torch.randn(10, 20, 30)<p>Then in Jupyter I did this<p>%%timeit<p>torch.einsum(&#x27;b i j -&gt; b j i&#x27;, a)<p>AND<p>%%timeit<p>a.transpose(1, 2)<p>-----------------------<p>This is the result<p>5.43 µs ± 63.5 ns per loop (mean ± std. dev. of 7 runs, 100,000 loops each) [Einsum]<p>1.15 µs ± 2.51 ns per loop (mean ± std. dev. of 7 runs, 1,000,000 loops each) [transpose]<p>Am I doing &#x2F; reading something wrong? Is it a wrong way to benchmark? Or is it really true what I see, that einsum is order of magnitude slower than transpose?",
-      "time": 1649586769,
-      "title": "Ask HN: Why PyTorch einsum is significantly slower than transpose",
-      "type": "story"
-    },
-    {
-      "by": "s1291",
-      "descendants": 0,
-      "id": 30975886,
-      "score": 2,
-      "time": 1649586766,
-      "title": "NumPy-100",
-      "type": "story",
-      "url": "https://github.com/rougier/numpy-100"
     }
   ]
 }
