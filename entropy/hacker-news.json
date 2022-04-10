@@ -1,6 +1,60 @@
 {
   "stories": [
     {
+      "by": "bluejekyll",
+      "descendants": 0,
+      "id": 30980679,
+      "score": 1,
+      "text": "Hey, HN. I thought you might be interested in a tool I wrote over a few days. As part of a recent IETF hackathon event demonstrating dynamic DNS updates over a private and secure channel (DoT, DoH, DoQ) I needed something to demonstrate the that the software was capable of performing the tasks. This was relatively straightforward with the what I think of as excellent CLI capabilities in the Rust ecosystem with Clap, <a href=\"https:&#x2F;&#x2F;docs.rs&#x2F;clap&#x2F;latest&#x2F;clap&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;docs.rs&#x2F;clap&#x2F;latest&#x2F;clap&#x2F;</a>. Anyway, I thought I&#x27;d share it with the HN community in case folks find it useful.<p>The tool is vaguely like `dig` that I called `dns`. It&#x27;s similar in that it allows a single DNS message to be sent and await a response. This is by no means as comprehensive as `dig`, yet, but might be suitable as a simpler and easier to use command. For example, issuing a DoH query can be done with:<p>`dns -p https -t cloudflare-dns.com -n 1.1.1.1:443 query www.example.com. SOA `<p>And similarly a dynamic update can be performed with:<p>`dns -p tls -n ${NS_IP}:853 -t ${CERT_NAME} -z example.com. create txt.example.com. TXT 60 HELLO_WORLD`<p>For auth I we still need to wire up SIG0 and TSIG support, at least SIG0 should be easy enough. I&#x27;ll try and find some time to do that when I have a moment.<p>Anyway, I&#x27;ll try and respond if there are any questions in this thread today.<p>Thanks-\n-Ben",
+      "time": 1649618349,
+      "title": "Show HN: A Trust-DNS based dig alternative",
+      "type": "story",
+      "url": "https://github.com/bluejekyll/trust-dns/pull/1680"
+    },
+    {
+      "by": "rustoo",
+      "descendants": 0,
+      "id": 30980673,
+      "score": 1,
+      "time": 1649618324,
+      "title": "Coinbase suspends buy orders in India days after launch",
+      "type": "story",
+      "url": "https://techcrunch.com/2022/04/10/coinbase-suspends-upi-payments-in-india-days-after-launch/"
+    },
+    {
+      "by": "whiddershins",
+      "descendants": 1,
+      "id": 30980664,
+      "kids": [
+        30980669
+      ],
+      "score": 1,
+      "time": 1649618255,
+      "title": "Show HN: Cannabis Irrigation Automation Tool Built in Svelte",
+      "type": "story",
+      "url": "https://www.tecingather.com/"
+    },
+    {
+      "by": "ljf",
+      "descendants": 0,
+      "id": 30980663,
+      "score": 1,
+      "time": 1649618242,
+      "title": "'Black carbon’ threat to Arctic as sea routes open up with global heating",
+      "type": "story",
+      "url": "https://www.theguardian.com/environment/2022/apr/10/black-carbon-threat-to-arctic-as-sea-routes-open-up-with-global-heating"
+    },
+    {
+      "by": "MilnerRoute",
+      "descendants": 0,
+      "id": 30980656,
+      "score": 1,
+      "time": 1649618179,
+      "title": "Elon Musk suggests: convert Twitter HQ to homeless shelter, remove W in Twitter",
+      "type": "story",
+      "url": "https://slashdot.org/story/22/04/10/1829245/elon-musk-suggests-converting-twitter-hq-into-homeless-shelter-removing-w-in-twitter"
+    },
+    {
       "by": "DyslexicAtheist",
       "descendants": 0,
       "id": 30980606,
@@ -32,9 +86,10 @@
     },
     {
       "by": "accepting_chaos",
-      "descendants": 1,
+      "descendants": 2,
       "id": 30980583,
       "kids": [
+        30980674,
         30980630
       ],
       "score": 3,
@@ -52,63 +107,6 @@
       "title": "Quad9 – Mobile Provisioning Profiles Are Here",
       "type": "story",
       "url": "https://quad9.net/news/blog/ios-mobile-provisioning-profiles/"
-    },
-    {
-      "by": "unixhero",
-      "descendants": 0,
-      "id": 30980554,
-      "score": 1,
-      "text": "Oreilly had a great conference called Solid.<p>For instance the 2015 edition had a marvelous set of talks. I&#x27;d love to fly over the pond and attend it, but I can&#x27;t find many traces of it left online!",
-      "time": 1649617619,
-      "title": "Ask HN: What Happened to SolidCon?",
-      "type": "story"
-    },
-    {
-      "by": "getajobinx",
-      "descendants": 0,
-      "id": 30980528,
-      "score": 1,
-      "time": 1649617465,
-      "title": "Show HN: Backend Development Jobs, Interviews and Experience",
-      "type": "story",
-      "url": "https://gajix.com/"
-    },
-    {
-      "by": "dredmorbius",
-      "descendants": 2,
-      "id": 30980446,
-      "kids": [
-        30980448,
-        30980610
-      ],
-      "score": 3,
-      "text": "Outline.com was a website readability &#x2F; paywall bypass site.  It&#x27;s been modestly popular for years among HN users, including myself.<p>The domain now redirects to a seller site:  https:&#x2F;&#x2F;outline.com",
-      "time": 1649616957,
-      "title": "Tell HN: Outline.com is offline, domain for sale",
-      "type": "story"
-    },
-    {
-      "by": "hanlec",
-      "descendants": 1,
-      "id": 30980421,
-      "kids": [
-        30980626
-      ],
-      "score": 2,
-      "time": 1649616814,
-      "title": "Scala's Gitter to Discord migration mistake",
-      "type": "story",
-      "url": "https://alexn.org/blog/2022/04/09/scala-gitter-discord-mistake/"
-    },
-    {
-      "by": "rob-lag",
-      "descendants": 0,
-      "id": 30980407,
-      "score": 1,
-      "time": 1649616724,
-      "title": "Show HN: Brain, a commandline note-taking tool for creating a zettelkasten",
-      "type": "story",
-      "url": "https://github.com/robert-lag/brain"
     }
   ]
 }
