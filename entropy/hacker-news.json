@@ -1,9 +1,52 @@
 {
   "stories": [
     {
-      "by": "rntn",
+      "by": "Tomte",
       "descendants": 0,
+      "id": 30975890,
+      "score": 1,
+      "time": 1649586801,
+      "title": "They Do the Work, You Reap the Yogurt (2009)",
+      "type": "story",
+      "url": "https://www.nytimes.com/2009/04/15/dining/15curi.html"
+    },
+    {
+      "by": "Tomte",
+      "descendants": 0,
+      "id": 30975888,
+      "score": 1,
+      "time": 1649586775,
+      "title": "Yog’s Law and Self-Publishing (2014)",
+      "type": "story",
+      "url": "https://whatever.scalzi.com/2014/06/20/yogs-law-and-self-publishing/"
+    },
+    {
+      "by": "rcshubhadeep",
+      "descendants": 0,
+      "id": 30975887,
+      "score": 1,
+      "text": "I have been tinkering with some DL models and wanted to implement part of it using PyTorch einsum. Before doing so I was wondering about the performance. I have been a bit skeptic as I believe there is a parsing (and even may be somewhat code generation) involved in implementation of einsum (I have never look under the hood of PyTorch or Numpy as to how is it implemented, so I may be completely wrong)<p>So to measure the performance, I created a simple benchmark of comparison. I created a Tensor with these dimensions (BATCH, X, Y). Like so -<p>a = torch.randn(10, 20, 30)<p>Then in Jupyter I did this<p>%%timeit<p>torch.einsum(&#x27;b i j -&gt; b j i&#x27;, a)<p>AND<p>%%timeit<p>a.transpose(1, 2)<p>-----------------------<p>This is the result<p>5.43 µs ± 63.5 ns per loop (mean ± std. dev. of 7 runs, 100,000 loops each) [Einsum]<p>1.15 µs ± 2.51 ns per loop (mean ± std. dev. of 7 runs, 1,000,000 loops each) [transpose]<p>Am I doing &#x2F; reading something wrong? Is it a wrong way to benchmark? Or is it really true what I see, that einsum is order of magnitude slower than transpose?",
+      "time": 1649586769,
+      "title": "Ask HN: Why PyTorch einsum is significantly slower than transpose",
+      "type": "story"
+    },
+    {
+      "by": "s1291",
+      "descendants": 0,
+      "id": 30975886,
+      "score": 2,
+      "time": 1649586766,
+      "title": "NumPy-100",
+      "type": "story",
+      "url": "https://github.com/rougier/numpy-100"
+    },
+    {
+      "by": "rntn",
+      "descendants": 1,
       "id": 30975869,
+      "kids": [
+        30975878
+      ],
       "score": 1,
       "time": 1649586552,
       "title": "‘They killed everyone.’ Fury in Ukraine at Russian troops’ barbarity",
@@ -59,45 +102,6 @@
       "title": "The Infuriating Reality of Traveling with Bitcoin in the World's Crypto Capital",
       "type": "story",
       "url": "https://www.bloomberg.com/features/2022-bitcoin-travel-problems/"
-    },
-    {
-      "by": "giuscri",
-      "descendants": 0,
-      "id": 30975767,
-      "score": 1,
-      "time": 1649585311,
-      "title": "Ask HN: Are you a front end engineer if you don’t know CSS?",
-      "type": "story"
-    },
-    {
-      "by": "jxub",
-      "descendants": 0,
-      "id": 30975762,
-      "score": 1,
-      "time": 1649585256,
-      "title": "Explaining the Brilliance and Insanity of the Russian Language",
-      "type": "story",
-      "url": "https://www.slavadoesamerica.com/not-to-be-penis-like-explaining-the-brilliance-and-insanity-of-the-russian-language/"
-    },
-    {
-      "by": "pseudolus",
-      "descendants": 0,
-      "id": 30975746,
-      "score": 2,
-      "time": 1649585068,
-      "title": "Deception, exploited workers, and cash handouts: How Worldcoin recruited users",
-      "type": "story",
-      "url": "https://www.technologyreview.com/2022/04/06/1048981/worldcoin-cryptocurrency-biometrics-web3/"
-    },
-    {
-      "by": "takiwatanga",
-      "descendants": 0,
-      "id": 30975725,
-      "score": 1,
-      "time": 1649584813,
-      "title": "The fight to keep the internet free and open for everyone (2019)",
-      "type": "story",
-      "url": "https://www.bbc.com/future/article/20191025-the-fight-to-keep-the-internet-free-and-open-for-everyone"
     }
   ]
 }
