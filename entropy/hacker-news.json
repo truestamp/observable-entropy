@@ -1,6 +1,36 @@
 {
   "stories": [
     {
+      "by": "dangoor",
+      "descendants": 0,
+      "id": 30982245,
+      "score": 3,
+      "time": 1649628760,
+      "title": "GM Cruise autonomous taxi pulled over by police in San Francisco without humans",
+      "type": "story",
+      "url": "https://electrek.co/2022/04/10/gm-cruise-autonomous-taxi-pulled-over-by-police-in-san-francisco-without-humans-bolts-off-u-cruise-responds/"
+    },
+    {
+      "by": "weinzierl",
+      "descendants": 0,
+      "id": 30982231,
+      "score": 1,
+      "time": 1649628658,
+      "title": "Harder Drive: Hard drives we didn't want or need",
+      "type": "story",
+      "url": "http://tom7.org/harder/"
+    },
+    {
+      "by": "type0",
+      "descendants": 0,
+      "id": 30982227,
+      "score": 1,
+      "time": 1649628617,
+      "title": "Pro-Russia Rally in Cyprus Draws Support, Counter Protestors",
+      "type": "story",
+      "url": "https://greekreporter.com/2022/04/10/pro-russia-rally-cyprus/"
+    },
+    {
       "by": "pmoriarty",
       "descendants": 0,
       "id": 30982211,
@@ -16,7 +46,7 @@
       "id": 30982210,
       "score": 1,
       "time": 1649628498,
-      "title": "Russian drone has a full Canon DSLR camera inside",
+      "title": "Russian military drone has a retail Canon DSLR camera inside",
       "type": "story",
       "url": "https://twitter.com/TheDeadDistrict/status/1513205630491840517"
     },
@@ -72,36 +102,6 @@
       "title": "Why are there 360° in a circle?",
       "type": "story",
       "url": "https://twitter.com/jacquiavelli/status/1513244311609094164"
-    },
-    {
-      "by": "kaladin-jasnah",
-      "descendants": 0,
-      "id": 30982158,
-      "score": 2,
-      "text": "Some may have seen this article: https:&#x2F;&#x2F;www.phoronix.com&#x2F;scan.php?page=news_item&amp;px=NVIDIA-Kernel-Driver-Source. I know it was posted a few days ago on HN and dismissed as the `nvgpu` driver. Curious for myself, I downloaded the driver and investigated.<p>When you download a regular desktop NVIDIA driver on Linux, you get a file called `nv-kernel.o_binary`. This is the binary blob, to my knowledge, that is used over a shim that is FOSS (to get around Linux licensing restrictions). When I downloaded this new Tegra driver, it had a modified version of the `nv-kernel.o_binary`&#x27;s source code. As in, if I run make in the directory, it compiles all the files and gives me an `nv-kernel.o`. Furthermore, looking through the actual code, there seem to be implementations of several functions that are in the binary blob that I can read in physical, hard C code.<p>To (perhaps) prove to you this isn&#x27;t just some ordinary thing, look at a reverse-engineered file of NVIDIA ioctl structs: https:&#x2F;&#x2F;github.com&#x2F;envytools&#x2F;envytools&#x2F;blob&#x2F;master&#x2F;demmt&#x2F;nvrm_mthd.h#L46.<p>File `src&#x2F;common&#x2F;sdk&#x2F;nvidia&#x2F;inc&#x2F;ctrl&#x2F;ctrl0000&#x2F;ctrl0000system.h` from the new Tegra driver, line 112;<p><pre><code>  #define NV0000_CTRL_CMD_SYSTEM_GET_BUILD_VERSION          (0x101) &#x2F;* finn: Evaluated from &quot;(FINN_NV01_ROOT_SYSTEM_INTERFACE_ID &lt;&lt; 8) | NV0000_CTRL_SYSTEM_GET_BUILD_VERSION_PARAMS_MESSAGE_ID&quot; *&#x2F;\n\n  #define NV0000_CTRL_SYSTEM_GET_BUILD_VERSION_PARAMS_MESSAGE_ID (0x1U) \n\n  typedef struct NV0000_CTRL_SYSTEM_GET_BUILD_VERSION_PARAMS {\n      NvU32 sizeOfStrings;\n      NV_DECLARE_ALIGNED(NvP64 pDriverVersionBuffer, 8);\n      NV_DECLARE_ALIGNED(NvP64 pVersionBuffer, 8);\n      NV_DECLARE_ALIGNED(NvP64 pTitleBuffer, 8);\n      NvU32 changelistNumber;  \n      NvU32 officialChangelistNumber;\n  } NV0000_CTRL_SYSTEM_GET_BUILD_VERSION_PARAMS;\n</code></pre>\nNotice how the sizeof&#x27;s of each struct, whether the reverse engineered one or the new one are the same (EDIT they&#x27;re not, but they&#x27;re similar in size (missing one u32) and the operation hex code is the same). Not only do we know what this undocumented ioctl does now, we also have its struct members&#x27; names and purposes that you&#x27;d pass when trying to issue that ioctl.<p>In addition, I found other evidence of a possible open-source NVIDIA driver. A prior HN article: https:&#x2F;&#x2F;www.collabora.com&#x2F;news-and-blog&#x2F;blog&#x2F;2022&#x2F;03&#x2F;23&#x2F;how-to-write-vulkan-driver-in-2022&#x2F;, clearly highlights that Collabora is working on a FOSS Mesa Vulkan driver for NVIDIA GPUs.<p>&gt; I&#x27;m going to pick on NVIDIA because... Why not? Such a driver is clearly missing and really should happen soon. (Hint! Hint!)<p>Furthermore, https:&#x2F;&#x2F;blogs.gnome.org&#x2F;uraeus&#x2F;2022&#x2F;02&#x2F;01&#x2F;getting-rid-of-the-need-for-the-usecase-linux-distribution&#x2F;.<p>&gt; while I am not at liberty to mention any details I think I can at least mention that we are meeting with our engineering counterparts at NVidia on almost a weekly basis to discuss how to improve things, not just for graphics, but around compute and other shared areas of interest. The most recent public result of that collaboration was of course the XWayland support in recent NVidia drivers, but I promise you that this is something we keep focusing on and I expect that we will be able to share more cool news and important progress over the course of the year, both for users of the NVidia binary driver and for users of Nouveau.<p>Why would NVIDIA take their binary blob and open source at least some of it under MIT (revealing new details about how their GPUs work)? Their Tegra driver is clearly not the old one, it has references to enterprise GPUs and features like vGPU, GRID, and VMware ESXi. Why is Collabora working on a FOSS NVIDIA Vulkan driver? Why are people saying something regarding NVIDIA is under wraps?",
-      "time": 1649628096,
-      "title": "Ask HN: Is Nvidia making an open-source Linux driver?",
-      "type": "story"
-    },
-    {
-      "by": "ecrook",
-      "descendants": 0,
-      "id": 30982156,
-      "score": 1,
-      "time": 1649628054,
-      "title": "Proof Surgeons in China Procure Organs Before Brain Death",
-      "type": "story",
-      "url": "https://www.medscape.com/viewarticle/971750"
-    },
-    {
-      "by": "PaulHoule",
-      "descendants": 0,
-      "id": 30982155,
-      "score": 1,
-      "time": 1649628051,
-      "title": "Themis",
-      "type": "story",
-      "url": "https://en.wikipedia.org/wiki/24_Themis"
     }
   ]
 }
