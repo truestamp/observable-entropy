@@ -1,6 +1,56 @@
 {
   "stories": [
     {
+      "by": "podiki",
+      "descendants": 0,
+      "id": 30980790,
+      "score": 1,
+      "time": 1649618903,
+      "title": "Kiss: A type-safe, compiled Lisp for Haxe programs",
+      "type": "story",
+      "url": "https://github.com/NQNStudios/kisslang"
+    },
+    {
+      "by": "nomdep",
+      "descendants": 0,
+      "id": 30980786,
+      "score": 1,
+      "time": 1649618895,
+      "title": "Why investors are snapping up virtual land in a metaverse ghost town",
+      "type": "story",
+      "url": "https://restofworld.org/2022/investors-land-metaverse-decentraland/"
+    },
+    {
+      "by": "not_a_noogler",
+      "descendants": 0,
+      "id": 30980780,
+      "score": 1,
+      "text": "I have a decent job but I aim to get into FAANG or maybe work for a big startup or just ambitious folks. But my ADHD, doesn&#x27;t allow me to focus on stuff that I don&#x27;t find fun.<p>I can work on coding projects in a hyperfocus state for hours if I find it interesting. That is one of my strengths I would say.<p>Doing Leetcode religiously though, not so much.",
+      "time": 1649618865,
+      "title": "Ask HN: How to progress in career as a Software Developer with ADHD?",
+      "type": "story"
+    },
+    {
+      "by": "acadapter",
+      "descendants": 0,
+      "id": 30980779,
+      "score": 1,
+      "time": 1649618865,
+      "title": "Ukraine’s Draft Dodgers Face Guilt, Shame and Reproach",
+      "type": "story",
+      "url": "https://www.nytimes.com/2022/04/10/world/asia/ukraine-draft-dodgers.html"
+    },
+    {
+      "by": "anon9384929",
+      "descendants": 0,
+      "id": 30980767,
+      "score": 1,
+      "text": "I recall back when AirBnB was growing (circa 2013-2015 in my mind) the appeal was primarily price. Yes, there were conveniences around having an individual place, etc, but I recall most AirBnBs being priced well below hotels of roughly equal quality.<p>When I look now, it is often cheaper to stay in a hotel than an AirBnB of roughly equal quality, sometimes significantly so. This pattern has held in at least 10 major&#x2F;minor US cities I’ve used over at least the past year.<p>What economic forces are at work to cause this?",
+      "time": 1649618786,
+      "title": "Ask HN: What Happened to Airbnb Pricing?",
+      "type": "story"
+    },
+    {
       "by": "kaycebasques",
       "descendants": 0,
       "id": 30980739,
@@ -49,60 +99,6 @@
       "title": "Futurist predicts new waves of worker unrest are on the horizon",
       "type": "story",
       "url": "https://www.fastcompany.com/90737565/why-the-great-resignation-is-far-from-over"
-    },
-    {
-      "by": "bluejekyll",
-      "descendants": 0,
-      "id": 30980679,
-      "score": 1,
-      "text": "Hey, HN. I thought you might be interested in a tool I wrote over a few days. As part of a recent IETF hackathon event demonstrating dynamic DNS updates over a private and secure channel (DoT, DoH, DoQ) I needed something to demonstrate the that the software was capable of performing the tasks. This was relatively straightforward with the what I think of as excellent CLI capabilities in the Rust ecosystem with Clap, <a href=\"https:&#x2F;&#x2F;docs.rs&#x2F;clap&#x2F;latest&#x2F;clap&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;docs.rs&#x2F;clap&#x2F;latest&#x2F;clap&#x2F;</a>. Anyway, I thought I&#x27;d share it with the HN community in case folks find it useful.<p>The tool is vaguely like `dig`, I called it `dns`. It&#x27;s similar in that it allows a single DNS message to be sent and await a response. This is by no means as comprehensive as `dig`, yet, but might be suitable as a simpler and easier to use command. For example, issuing a DoH query can be done with:<p>`dns -p https -t cloudflare-dns.com -n 1.1.1.1:443 query www.example.com. SOA `<p>And similarly a dynamic update can be performed with:<p>`dns -p tls -n ${NS_IP}:853 -t ${CERT_NAME} -z example.com. create txt.example.com. TXT 60 HELLO_WORLD`<p>For auth I still need to wire up SIG0 and TSIG support, at least SIG0 should be easy enough. I&#x27;ll try and find some time to do that when I have a moment.<p>Anyway, I&#x27;ll try and respond if there are any questions in this thread today.<p>Thanks-<p>-Ben",
-      "time": 1649618349,
-      "title": "Show HN: A Trust-DNS based dig alternative",
-      "type": "story",
-      "url": "https://github.com/bluejekyll/trust-dns/pull/1680"
-    },
-    {
-      "by": "rustoo",
-      "descendants": 0,
-      "id": 30980673,
-      "score": 1,
-      "time": 1649618324,
-      "title": "Coinbase suspends buy orders in India days after launch",
-      "type": "story",
-      "url": "https://techcrunch.com/2022/04/10/coinbase-suspends-upi-payments-in-india-days-after-launch/"
-    },
-    {
-      "by": "whiddershins",
-      "descendants": 1,
-      "id": 30980664,
-      "kids": [
-        30980669
-      ],
-      "score": 1,
-      "time": 1649618255,
-      "title": "Show HN: Cannabis Irrigation Automation Tool Built in Svelte",
-      "type": "story",
-      "url": "https://www.tecingather.com/"
-    },
-    {
-      "by": "ljf",
-      "descendants": 0,
-      "id": 30980663,
-      "score": 1,
-      "time": 1649618242,
-      "title": "'Black carbon’ threat to Arctic as sea routes open up with global heating",
-      "type": "story",
-      "url": "https://www.theguardian.com/environment/2022/apr/10/black-carbon-threat-to-arctic-as-sea-routes-open-up-with-global-heating"
-    },
-    {
-      "by": "MilnerRoute",
-      "descendants": 0,
-      "id": 30980656,
-      "score": 1,
-      "time": 1649618179,
-      "title": "Elon Musk suggests: convert Twitter HQ to homeless shelter, remove W in Twitter",
-      "type": "story",
-      "url": "https://slashdot.org/story/22/04/10/1829245/elon-musk-suggests-converting-twitter-hq-into-homeless-shelter-removing-w-in-twitter"
     }
   ]
 }
