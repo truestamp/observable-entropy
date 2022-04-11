@@ -1,6 +1,28 @@
 {
   "stories": [
     {
+      "by": "wenbo",
+      "descendants": 0,
+      "id": 30992587,
+      "score": 1,
+      "text": "Hey HN, I’m an engineer at Supabase [0] and one of the creators of this demo. My team and I have been working hard to bring developers the next version of Supabase Realtime.<p>The current version of Realtime [1] is a Change Data Capture (CDC) server for a PostgreSQL database that broadcasts changes via WebSockets to authorized subscribers. It’s written in Elixir&#x2F;Phoenix.<p>The server utilizes PostgreSQL’s logical replication functionality, which writes database changes to Write-Ahead Logging (WAL) segment files, and a replication slot, responsible for managing and retaining WAL files.<p>Database changes are polled from WAL by the server using PostgreSQL’s replication function pg_logical_slot_get_changes and changes converted to JSON objects using the wal2json [2] extension by setting it as the output plugin.<p>Security is enforced through two checks - each check ensures only authorized client subscribers are sent database changes. The first check validates a JWT that is sent by clients subscribing to database changes. This JWT must contain an existing database role and optional claims, both of which can be referenced in Row Level Security (RLS) policies. Every valid client subscription is then inserted into the realtime.subscription table with an assigned UUID, database role, and claims. The second check calls the realtime.apply_rls SQL function from Write Ahead Log Realtime Unified Security (WALRUS) utility lib [3]. This function takes the database changes, executes a prepared statement to verify if the database role and claims have SELECT permissions on the changes, and outputs an array of authorized UUIDs. Then, the server finds all the subscribers whose UUIDs are in that array and broadcasts the changes to them.<p>The next version of Supabase Realtime will offer three features: Broadcast, Presence, and Extensions.<p>Broadcast, our Pub&#x2F;Sub offering, can be used to pass ephemeral data from client to client such as cursor movements. This runs on a distributed cluster of nodes built on top of Phoenix PubSub + Channels.<p>Presence, can be used for tracking online&#x2F;offline users and their state. This is built into Phoenix, and uses replicated state across a cluster using an Observe-Remove-Set-Without-Tombstones (ORSWOT) CRDT [4] which prefers adds over removes when resolving conflicts.<p>Extensions, are a way for the community to add additional functionality to take advantage of the WebSocket infrastructure. We have converted the existing Change Data Capture system to an extension that supports connecting to multiple customer databases (multi-tenancy). Other possible extensions include listening to other databases like MySQL and getting stock market events server-side [5], then broadcasting them to connected clients.<p>This demo is built using a Supabase project, Supabase Realtime, and Next.js and deployed on 20 Fly [6] nodes located around the world. You can find an introduction and walkthrough of the demo here [5].<p>Supabase Realtime is entirely open source and you can find the demo code here [7]. Once we have stabilized the release we will add it to the self-hosted offering [8]. This demo is a way to highlight the upcoming features and gather feedback&#x2F;ideas.<p>Feel free to ask me anything and let me know what you think!<p>[0] <a href=\"https:&#x2F;&#x2F;supabase.com\" rel=\"nofollow\">https:&#x2F;&#x2F;supabase.com</a>\n[1] <a href=\"https:&#x2F;&#x2F;github.com&#x2F;supabase&#x2F;realtime\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;supabase&#x2F;realtime</a>\n[2] <a href=\"https:&#x2F;&#x2F;github.com&#x2F;eulerto&#x2F;wal2json\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;eulerto&#x2F;wal2json</a>\n[3] <a href=\"https:&#x2F;&#x2F;github.com&#x2F;supabase&#x2F;walrus\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;supabase&#x2F;walrus</a>\n[4] <a href=\"https:&#x2F;&#x2F;gsd.di.uminho.pt&#x2F;members&#x2F;cbm&#x2F;ps&#x2F;delta-crdt-draft16may2014.pdf\" rel=\"nofollow\">https:&#x2F;&#x2F;gsd.di.uminho.pt&#x2F;members&#x2F;cbm&#x2F;ps&#x2F;delta-crdt-draft16ma...</a>\n[5] <a href=\"https:&#x2F;&#x2F;supabase.com&#x2F;blog&#x2F;2022&#x2F;04&#x2F;01&#x2F;supabase-realtime-with-multiplayer-features\" rel=\"nofollow\">https:&#x2F;&#x2F;supabase.com&#x2F;blog&#x2F;2022&#x2F;04&#x2F;01&#x2F;supabase-realtime-with-...</a>\n[6] <a href=\"https:&#x2F;&#x2F;fly.io\" rel=\"nofollow\">https:&#x2F;&#x2F;fly.io</a>\n[7] <a href=\"https:&#x2F;&#x2F;github.com&#x2F;supabase&#x2F;realtime&#x2F;tree&#x2F;multiplayer\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;supabase&#x2F;realtime&#x2F;tree&#x2F;multiplayer</a>\n[8] <a href=\"https:&#x2F;&#x2F;github.com&#x2F;supabase&#x2F;supabase&#x2F;tree&#x2F;master&#x2F;docker\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;supabase&#x2F;supabase&#x2F;tree&#x2F;master&#x2F;docker</a>",
+      "time": 1649700906,
+      "title": "Show HN: Multiplayer Demo Built with Elixir",
+      "type": "story",
+      "url": "https://multiplayer.dev"
+    },
+    {
+      "by": "skrebbel",
+      "descendants": 0,
+      "id": 30992559,
+      "score": 1,
+      "time": 1649700726,
+      "title": "The struggle of using native emoji on the web",
+      "type": "story",
+      "url": "https://nolanlawson.com/2022/04/08/the-struggle-of-using-native-emoji-on-the-web/"
+    },
+    null,
+    {
       "by": "leephillips",
       "descendants": 0,
       "id": 30992535,
@@ -72,36 +94,6 @@
       "title": "Company that aims to race SpaceX to Mars plays with fire",
       "type": "story",
       "url": "https://arstechnica.com/science/2022/04/pythom-space-tests-its-rocket-with-questionable-safety-practices/"
-    },
-    {
-      "by": "fahad_noor",
-      "descendants": 0,
-      "id": 30992435,
-      "score": 2,
-      "time": 1649699893,
-      "title": "Show HN: A Python client for Crunchbase's REST API",
-      "type": "story",
-      "url": "https://github.com/FahadNoor/py_crunchbase"
-    },
-    {
-      "by": "Tangiest",
-      "descendants": 0,
-      "id": 30992409,
-      "score": 2,
-      "time": 1649699784,
-      "title": "Is my advice too mercenary?",
-      "type": "story",
-      "url": "https://jacobian.org/2022/apr/11/mercenary/"
-    },
-    {
-      "by": "JNRowe",
-      "descendants": 0,
-      "id": 30992378,
-      "score": 2,
-      "time": 1649699628,
-      "title": "Natural Syntax for Units in Python",
-      "type": "story",
-      "url": "https://aroberge.blogspot.com/2022/04/natural-syntax-for-units-in-python.html"
     }
   ]
 }
