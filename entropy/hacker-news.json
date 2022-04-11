@@ -1,11 +1,27 @@
 {
   "stories": [
     {
+      "by": "atum47",
+      "descendants": 1,
+      "id": 30983798,
+      "kids": [
+        30983813
+      ],
+      "score": 1,
+      "time": 1649643111,
+      "title": "Adding movement to my Raspberry Pi camera",
+      "type": "story",
+      "url": "https://www.youtube.com/watch?v=5E7_40PWqiQ"
+    },
+    {
       "by": "CyberRabbi",
       "descendants": 0,
       "id": 30983779,
-      "score": 1,
-      "text": "Hi everyone,<p>I’m at my wit’s end. Regardless of how many hoops I have jumped through, gmail refuses to deliver my email. Everything that comes from my email server is marked as spam. My email server is correctly configured with the following:<p>* reverse DNS record<p>* starttls transmission<p>* DMARC<p>* 2048 bit DKIM key<p>* strict SPF policy<p>* clean IP reputation<p>Despite doing all of this correctly (gmail confirms I pass all of these tests) it still puts my messages into spam. I’ve used googles postmaster’s tools and the only thing they say on my domain is that they have no data. As far as I can tell I am being punished for being a low traffic &#x2F; small mail host.<p>Is this legal? Is this the basis for a potential anti-trust lawsuit? If my only sin is not using a large established mail gateway, is that fair?<p>What are HN’s opinions on &#x2F; workarounds for &#x2F; solutions to this?<p>Thanks!",
+      "kids": [
+        30983800
+      ],
+      "score": 2,
+      "text": "Hi everyone,<p>I’m at my wits’ end. Regardless of how many hoops I have jumped through, gmail refuses to deliver my email. Everything that comes from my email server is marked as spam. My email server is correctly configured with the following:<p>* reverse DNS record<p>* starttls transmission<p>* DMARC<p>* 2048 bit DKIM key<p>* strict SPF policy<p>* clean IP reputation<p>Despite doing all of this correctly (gmail confirms I pass all of these tests) it still puts my messages into spam. I’ve used googles postmaster’s tools and the only thing they say on my domain is that they have no data. As far as I can tell I am being punished for being a low traffic &#x2F; small mail host.<p>Is this legal? Is this the basis for a potential anti-trust lawsuit? If my only sin is not using a large established mail gateway, is that fair?<p>What are HN’s opinions on &#x2F; workarounds for &#x2F; solutions to this?<p>As a workaround I’m considering figuring out a way for postfix to use a mail gateway (like sendgrid) when the destination domain is gmail.com.<p>Thanks!",
       "time": 1649642962,
       "title": "Ask HN: What to do about Gmail blocking my email?",
       "type": "story"
@@ -32,9 +48,12 @@
     },
     {
       "by": "barry-cotter",
-      "descendants": 0,
+      "descendants": 1,
       "id": 30983730,
-      "score": 3,
+      "kids": [
+        30983790
+      ],
+      "score": 4,
       "time": 1649642413,
       "title": "SARS Escaped Beijing Lab Twice: Then Lab Moved to Wuhan",
       "type": "story",
@@ -64,7 +83,7 @@
       "by": "BadCookie",
       "descendants": 0,
       "id": 30983714,
-      "score": 1,
+      "score": 2,
       "time": 1649642274,
       "title": "Van life (cancer edition) finale",
       "type": "story",
@@ -89,16 +108,6 @@
       "title": "Microplastics found in lung tissue from live human beings for the first time",
       "type": "story",
       "url": "https://phys.org/news/2022-04-microplastics-lung-tissue-human.html"
-    },
-    {
-      "by": "temp8964",
-      "descendants": 0,
-      "id": 30983685,
-      "score": 1,
-      "time": 1649642021,
-      "title": "Plex new feature recommends porn to users",
-      "type": "story",
-      "url": "https://forums.plex.tv/t/adult-recommendations-are-not-acceptable-nsfw/787577"
     }
   ]
 }
