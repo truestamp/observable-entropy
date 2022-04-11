@@ -1,12 +1,52 @@
 {
   "stories": [
     {
+      "by": "mgh2",
+      "descendants": 0,
+      "id": 30991490,
+      "score": 1,
+      "time": 1649695790,
+      "title": "Blue-Collar Workers Make the Leap to Tech Jobs, No College Degree Necessary",
+      "type": "story",
+      "url": "https://www.wsj.com/articles/tech-jobs-no-college-degree-necessary-11649371535"
+    },
+    {
+      "by": "geox",
+      "descendants": 0,
+      "id": 30991473,
+      "score": 1,
+      "time": 1649695740,
+      "title": "Russian trolls tried to distract voters with music tweets in 2016",
+      "type": "story",
+      "url": "https://news.cornell.edu/stories/2022/04/russian-trolls-tried-distract-voters-music-tweets-2016-0"
+    },
+    {
+      "by": "tslmy",
+      "descendants": 0,
+      "id": 30991438,
+      "score": 1,
+      "text": "Helpful trick for the days when you need to put each chapter on a separate page and still have a working Table of Contents &amp; preserve links to images.<p>The key idea is that epub is simply a zipped static website.<p>It&#x27;s like 3 lines of bash:<p>```bash\npandoc -s &quot;$FILE&quot; -t epub --epub-chapter-level=2 -o all.epub\nunzip -q &quot;all.epub&quot; -d . &amp;&amp; rm &quot;all.epub&quot;\nmv EPUB&#x2F;nav.xhtml EPUB&#x2F;index.html\n```",
+      "time": 1649695636,
+      "title": "To convert a Google Doc to website by chapter, convert to ePub and unzip",
+      "type": "story"
+    },
+    {
+      "by": "tnorthcutt",
+      "descendants": 0,
+      "id": 30991416,
+      "score": 2,
+      "time": 1649695563,
+      "title": "Shopify to allow employees to pick between cash and stock",
+      "type": "story",
+      "url": "https://www.nasdaq.com/articles/canadas-shopify-to-allow-employees-to-pick-between-cash-and-stock"
+    },
+    {
       "by": "nikhilgarg28",
       "descendants": 0,
       "id": 30991392,
-      "score": 1,
+      "score": 2,
       "time": 1649695466,
-      "title": "Building real world recommendation systems at scale",
+      "title": "How FAANG etc. architect their recommendation systems at scale",
       "type": "story",
       "url": "https://blog.fennel.ai/p/real-world-recommendation-system"
     },
@@ -27,7 +67,7 @@
       "by": "mariuz",
       "descendants": 0,
       "id": 30991373,
-      "score": 1,
+      "score": 2,
       "time": 1649695428,
       "title": "RP2040 Assembly Language Programming",
       "type": "story",
@@ -37,7 +77,7 @@
       "by": "segudev",
       "descendants": 0,
       "id": 30991368,
-      "score": 1,
+      "score": 2,
       "time": 1649695420,
       "title": "Security Comics",
       "type": "story",
@@ -62,46 +102,6 @@
       "title": "Good day sunshine: 18 of the most beautiful sunrises in the world",
       "type": "story",
       "url": "https://www.momondo.com/discover/most-beautiful-sunrises-in-the-world"
-    },
-    {
-      "by": "cf100clunk",
-      "descendants": 0,
-      "id": 30991334,
-      "score": 1,
-      "time": 1649695303,
-      "title": "Bill Gates' TED Talk Mobilizes Convoys of Covid-19 Vaccine Opponents",
-      "type": "story",
-      "url": "https://www.straight.com/living/bill-gates-ted-talk-prompts-covid-19-vaccine-opponents-to-hold-protest-outside-vancouver"
-    },
-    {
-      "by": "doener",
-      "descendants": 0,
-      "id": 30991318,
-      "score": 1,
-      "time": 1649695252,
-      "title": "THEA500 Mini",
-      "type": "story",
-      "url": "https://retrogames.biz/products/thea500-mini/"
-    },
-    {
-      "by": "logicallee",
-      "descendants": 0,
-      "id": 30991316,
-      "score": 1,
-      "text": "When was the last time you took a vacation?",
-      "time": 1649695249,
-      "title": "Ask HN: When was the last time you took a vacation?",
-      "type": "story"
-    },
-    {
-      "by": "usrme",
-      "descendants": 0,
-      "id": 30991307,
-      "score": 1,
-      "time": 1649695206,
-      "title": "Cross-platform terminal app from Visual Studio Code",
-      "type": "story",
-      "url": "https://github.com/xcodebuild/CodeTerminal"
     }
   ]
 }
