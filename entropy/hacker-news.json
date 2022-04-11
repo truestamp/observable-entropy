@@ -1,6 +1,26 @@
 {
   "stories": [
     {
+      "by": "mooreds",
+      "descendants": 0,
+      "id": 30983942,
+      "score": 1,
+      "time": 1649644485,
+      "title": "Politics as Vocation (1921) [pdf]",
+      "type": "story",
+      "url": "http://fs2.american.edu/dfagel/www/Class%20Readings/Weber/PoliticsAsAVocation.pdf"
+    },
+    {
+      "by": "mooreds",
+      "descendants": 0,
+      "id": 30983932,
+      "score": 1,
+      "time": 1649644400,
+      "title": "It’s Not About “Faith”",
+      "type": "story",
+      "url": "https://terikanefield.com/its-not-about-faith/"
+    },
+    {
       "by": "somat",
       "descendants": 0,
       "id": 30983913,
@@ -22,8 +42,11 @@
     },
     {
       "by": "PaulHoule",
-      "descendants": 0,
+      "descendants": 1,
       "id": 30983884,
+      "kids": [
+        30983923
+      ],
       "score": 1,
       "time": 1649643928,
       "title": "Ukraine’s Tanks Are So Good, Its Own Army Can’t Afford Them",
@@ -85,30 +108,6 @@
       "title": "Adding movement to my Raspberry Pi camera",
       "type": "story",
       "url": "https://www.youtube.com/watch?v=5E7_40PWqiQ"
-    },
-    {
-      "by": "CyberRabbi",
-      "descendants": 2,
-      "id": 30983779,
-      "kids": [
-        30983902,
-        30983800
-      ],
-      "score": 2,
-      "text": "Hi everyone,<p>I’m at my wits’ end. Regardless of how many hoops I have jumped through, gmail refuses to deliver my email. Everything that comes from my email server is marked as spam. My email server is correctly configured with the following:<p>* reverse DNS record<p>* starttls transmission<p>* DMARC<p>* 2048 bit DKIM key<p>* strict SPF policy<p>* clean IP reputation<p>Despite doing all of this correctly (gmail confirms I pass all of these tests) it still puts my messages into spam. I’ve used googles postmaster’s tools and the only thing they say on my domain is that they have no data. As far as I can tell I am being punished for being a low traffic &#x2F; small mail host.<p>Is this legal? Is this the basis for a potential anti-trust lawsuit? If my only sin is not using a large established mail gateway, is that fair?<p>What are HN’s opinions on &#x2F; workarounds for &#x2F; solutions to this? I can’t be the only one dealing with this issue.<p>As a workaround I’m considering figuring out a way for postfix to use a mail gateway (like sendgrid) when the destination domain is gmail.com.<p>Thanks!",
-      "time": 1649642962,
-      "title": "Ask HN: What to do about Gmail blocking my email?",
-      "type": "story"
-    },
-    {
-      "by": "leonidasv",
-      "descendants": 0,
-      "id": 30983770,
-      "score": 2,
-      "time": 1649642873,
-      "title": "Conflict-Free Replicated Data Types (CRDT)",
-      "type": "story",
-      "url": "https://crdt.tech/"
     }
   ]
 }
