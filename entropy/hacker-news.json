@@ -1,6 +1,56 @@
 {
   "stories": [
     {
+      "by": "kiarashk",
+      "descendants": 0,
+      "id": 30987831,
+      "score": 1,
+      "time": 1649680485,
+      "title": "Mathematicians' relations and communities with each other",
+      "type": "story",
+      "url": "https://kiani.info/mathematicians-relations-and-communities-with-each-other"
+    },
+    {
+      "by": "rozenmd",
+      "descendants": 0,
+      "id": 30987825,
+      "score": 1,
+      "text": "In light of SSLPing&#x27;s shutdown (see https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=30985514 ), I&#x27;m wondering:<p>Do many people still monitor their SSL certificates for expiry&#x2F;validity, given certificate providers like AWS ACM handle refreshing certificates automatically?<p>(I run the 200th uptime monitoring service, and SSL validity checking doesn&#x27;t seem to be a particularly high priority for my users, hence the question)",
+      "time": 1649680466,
+      "title": "Ask HN: Do you still monitor your SSL certificate validity?",
+      "type": "story"
+    },
+    {
+      "by": "bgschulman31",
+      "descendants": 0,
+      "id": 30987824,
+      "score": 1,
+      "time": 1649680465,
+      "title": "Harder Drives: Hard drives we didn’t want or need",
+      "type": "story",
+      "url": "http://tom7.org/harder/"
+    },
+    {
+      "by": "unripe_syntax",
+      "descendants": 0,
+      "id": 30987791,
+      "score": 1,
+      "time": 1649680249,
+      "title": "Sega indicates NFTs could be used to realize “SuperGame” ambitions",
+      "type": "story",
+      "url": "https://www.gamedeveloper.com/business/sega-indicates-nfts-could-be-used-to-realize-supergame-ambitions"
+    },
+    {
+      "by": "monday_",
+      "descendants": 0,
+      "id": 30987787,
+      "score": 1,
+      "time": 1649680243,
+      "title": "The x25519ell2 package, maintainer's rant",
+      "type": "story",
+      "url": "https://github.com/Yawning/obfs4/tree/master/internal"
+    },
+    {
       "by": "Tomte",
       "descendants": 0,
       "id": 30987783,
@@ -42,66 +92,16 @@
     },
     {
       "by": "ko3us",
-      "descendants": 0,
+      "descendants": 1,
       "id": 30987764,
+      "kids": [
+        30987819
+      ],
       "score": 1,
       "text": "Im currently exploring the design of an account and role based permissions system.<p>Im trying to look for and find standard patterns (if any) for structuring user accounts, organisations, sub organisations and products.<p>It would need to handle:\n1. Role based permissions\n2. Roll up billing<p>My initial thoughts are:\n1. A user account is unique but can be a member of 1 or more organisations.\n2. An organisation could have one or more sub organisations. \n3. An organisation (or sub organisation) would be subscribed to one or more products\n4. A the product level, the user would have role based permissions to provide access to certain features.<p>How would you best design something like this from a rule &#x2F; hierarchy perspective?<p>Would you apply role based permissions at every level for the user?",
       "time": 1649680050,
       "title": "Ask HN: How to best design a hierarchy of user accounts, orgs and products",
       "type": "story"
-    },
-    {
-      "by": "rntn",
-      "descendants": 0,
-      "id": 30987745,
-      "score": 1,
-      "time": 1649679931,
-      "title": "Musk turns down a seat on Twitter’s board and so open to pursue hostile takeover",
-      "type": "story",
-      "url": "https://finance.yahoo.com/news/musk-turns-down-seat-twitter-070008347.html"
-    },
-    {
-      "by": "gk1",
-      "descendants": 0,
-      "id": 30987713,
-      "score": 1,
-      "time": 1649679722,
-      "title": "How AI Question Answering Works",
-      "type": "story",
-      "url": "https://www.pinecone.io/learn/question-answering/"
-    },
-    {
-      "by": "fsagx",
-      "descendants": 1,
-      "id": 30987699,
-      "kids": [
-        30987700
-      ],
-      "score": 1,
-      "time": 1649679648,
-      "title": "Gridiron Dinner with Fauci,Walensky a SuperSpreader Event",
-      "type": "story",
-      "url": "https://www.youtube.com/watch?v=sCJVRPNJ6k4"
-    },
-    {
-      "by": "rntn",
-      "descendants": 0,
-      "id": 30987679,
-      "score": 1,
-      "time": 1649679544,
-      "title": "Cloud server leasing can leave sensitive data up for grabs",
-      "type": "story",
-      "url": "https://techxplore.com/news/2022-04-cloud-server-leasing-sensitive.html"
-    },
-    {
-      "by": "takiwatanga",
-      "descendants": 0,
-      "id": 30987672,
-      "score": 1,
-      "time": 1649679520,
-      "title": "Designing big, complex products from scratch",
-      "type": "story",
-      "url": "https://medium.com/lifes-a-picnic/designing-big-complex-products-from-scratch-b7d36fe9bdf7"
     }
   ]
 }
