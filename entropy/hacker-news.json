@@ -1,6 +1,26 @@
 {
   "stories": [
     {
+      "by": "CyberRabbi",
+      "descendants": 0,
+      "id": 30983779,
+      "score": 1,
+      "text": "Hi everyone,<p>I’m at my wit’s end. Regardless of how many hoops I have jumped through, gmail refuses to deliver my email. Everything that comes from my email server is marked as spam. My email server is correctly configured with the following:<p>* reverse DNS record<p>* starttls transmission<p>* DMARC<p>* 2048 bit DKIM key<p>* strict SPF policy<p>* clean IP reputation<p>Despite doing all of this correctly (gmail confirms I pass all of these tests) it still puts my messages into spam. I’ve used googles postmaster’s tools and the only thing they say on my domain is that they have no data. As far as I can tell I am being punished for being a low traffic &#x2F; small mail host.<p>Is this legal? Is this the basis for a potential anti-trust lawsuit? If my only sin is not using a large established mail gateway, is that fair?<p>What are HN’s opinions on &#x2F; workarounds for &#x2F; solutions to this?<p>Thanks!",
+      "time": 1649642962,
+      "title": "Ask HN: What to do about Gmail blocking my email?",
+      "type": "story"
+    },
+    {
+      "by": "leonidasv",
+      "descendants": 0,
+      "id": 30983770,
+      "score": 2,
+      "time": 1649642873,
+      "title": "Conflict-Free Replicated Data Types (CRDT)",
+      "type": "story",
+      "url": "https://crdt.tech/"
+    },
+    {
       "by": "gmays",
       "descendants": 0,
       "id": 30983732,
@@ -14,7 +34,7 @@
       "by": "barry-cotter",
       "descendants": 0,
       "id": 30983730,
-      "score": 2,
+      "score": 3,
       "time": 1649642413,
       "title": "SARS Escaped Beijing Lab Twice: Then Lab Moved to Wuhan",
       "type": "story",
@@ -79,32 +99,6 @@
       "title": "Plex new feature recommends porn to users",
       "type": "story",
       "url": "https://forums.plex.tv/t/adult-recommendations-are-not-acceptable-nsfw/787577"
-    },
-    {
-      "by": "totallyabstract",
-      "descendants": 1,
-      "id": 30983676,
-      "kids": [
-        30983693
-      ],
-      "score": 1,
-      "text": "Link to the feature request, there are some humorous comments nestled amongst the +1s: https:&#x2F;&#x2F;jira.atlassian.com&#x2F;browse&#x2F;BCLOUD-12503<p>A similar feature request for a “needs work” status that took 5 years to close: https:&#x2F;&#x2F;jira.atlassian.com&#x2F;browse&#x2F;BCLOUD-13021<p>As a developer I am so surprised how long it’s taking Atlassian to add basic features to their products. I struggle to understand how these products can be so much slower to develop and deficient in features compared to the on-prem products from years ago.<p>Do any ex Atlassian developers (that are not under NDA) have any insight into this?",
-      "time": 1649641935,
-      "title": "Six years on Atlassian still can’t add basic features to Bitbucket",
-      "type": "story"
-    },
-    {
-      "by": "catvsdog",
-      "descendants": 1,
-      "id": 30983650,
-      "kids": [
-        30983683
-      ],
-      "score": 2,
-      "text": "Being a Groupme admin of a .. group. I had trouble even maintaining the discussion topic related to the group&#x27;s purpose. I can only imagine how hard it might be doing here, are there tips to maintaining good online communities? How does HN do it this well?",
-      "time": 1649641647,
-      "title": "Ask HN: How does Hacker News moderation work?",
-      "type": "story"
     }
   ]
 }
