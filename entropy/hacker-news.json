@@ -1,95 +1,104 @@
 {
   "stories": [
-    null,
     {
-      "by": "pixiemaster",
+      "by": "mmilleruva",
       "descendants": 0,
-      "id": 31006730,
+      "id": 31006790,
       "score": 1,
-      "time": 1649789008,
-      "title": "AI invents their own weapons",
+      "time": 1649789364,
+      "title": "Phrazle: Like Wordle but for English Idioms",
       "type": "story",
-      "url": "https://futurism.com/this-video-games-artificial-intelligence-turned-on-players-using-super-weapons"
+      "url": "https://solitaired.com/phrazle"
     },
     {
-      "by": "matt_d",
+      "by": "Tomte",
       "descendants": 0,
-      "id": 31006727,
+      "id": 31006785,
       "score": 1,
-      "time": 1649788998,
-      "title": "Cross-Language Attacks",
+      "time": 1649789339,
+      "title": "Varieties of Apple on one tree (2013)",
       "type": "story",
-      "url": "https://www.ndss-symposium.org/ndss-paper/auto-draft-259/"
+      "url": "https://www.dailymail.co.uk/news/article-2437247/250-varieties-apple-tree--thanks-bit-hard-grafting-years.html"
     },
     {
-      "by": "subhro",
+      "by": "Tomte",
       "descendants": 0,
-      "id": 31006723,
+      "id": 31006773,
       "score": 1,
-      "time": 1649788975,
-      "title": "How to Catch a Lion?",
+      "time": 1649789253,
+      "title": "22 years in, Magic: The Gathering is the brainiest it’s ever been (2015)",
       "type": "story",
-      "url": "http://www.gksoft.com/a/fun/catch-lion.html"
+      "url": "https://www.avclub.com/22-years-in-magic-the-gathering-is-the-brainiest-it-s-1798283438"
     },
     {
-      "by": "edelsohn",
+      "by": "navidsafa",
       "descendants": 0,
-      "id": 31006720,
+      "id": 31006770,
       "score": 1,
-      "time": 1649788960,
-      "title": "The Fantastic State of Static Analysis in GCC 12",
+      "time": 1649789220,
+      "title": "Show HN: Read in Peace on Your Mac",
       "type": "story",
-      "url": "https://developers.redhat.com/articles/2022/04/12/state-static-analysis-gcc-12-compiler"
+      "url": "https://quietreader.app"
     },
     {
-      "by": "vimeh",
+      "by": "EvgeniyZh",
       "descendants": 0,
-      "id": 31006716,
+      "id": 31006765,
       "score": 1,
-      "text": "Hi all, long time lurker, first time poster.<p>I want to share with you all something we&#x27;ve been working on for a while at Lambda: the Razer x Lambda Tensorbook: https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=wMh6Dhq7P_Q<p>But before I tell you about it, I want to make this all about me, because I built this for me.<p>See, while I&#x27;m genuinely interested in hearing from the community what you think as this is the culmination of a lot of effort from a lot of people across so many different fields (seriously, the number of folks across manufacturing, engineering, design, logistics, and marketing who have had to work together to launch this is nuts), I really just want to tie my motivations back to a larger personal narrative to explain why I&#x27;m so proud of the Tensorbook.<p>So, flashback to 2018, and I&#x27;m a hardware engineer focusing on the compute system at Lyft&#x27;s autonomous vehicle (AV) program, Level5 (L5). Here was a project that that would save lives, that would improve the human condition, that was all ready to go. I saw my role as coming in to product-ize, to take what was close to the finish line and get it over it. The disappointment was pretty brutal when I realized just how wrong I was.<p>It&#x27;s one thing to nod along when reading Knuth write &quot;premature optimization is the root of all evil&quot;; it&#x27;s another to experience it firsthand.<p>At Lyft L5 I thought I would be applying specialized inference accelerators (Habana, Groq, Graphcore, etc.) into the vehicle compute system. Instead, the only requirement that mattered org-wide was: &quot;Don&#x27;t do anything that slows down the perception team&quot;. Forget testing silicon with the potential to reduce power requirements by 10x, I was lucky to get a willing ear to hear my case for changing a flag in the TensorFlow runtime to perform inference at FP16 instead of FP32.<p>Don&#x27;t get me wrong, there were a multitude of other difficult technical challenges to solve outside of the deep learning ones that were gating, but I had underestimated just how not-ready the CNNs for object detection and classification were. Something I thought was a solved problem was very much not, and ultimately resulted in my team and others building a 5,000 watt monster of server (+ power distribution, + thermals, + chassis, etc etc) that took up an entire rear row of seating. I&#x27;m happy to talk about that experience in the comments because I have a lot of fond memories from my time there.<p>Anyway, the takeaway I have from Lyft, and my first motivation here is that there is no such thing as over-provisioning or too much compute in a deep learning engineer&#x27;s mind. Anything less than the most possible is a detriment to their workflow. I still truly believe AVs will save lives; so by extension, enabling deep learning engineers enables AVs enables improvement to the human condition. Transitive property, :thumbsup:<p>So moving on, my next experience is characterized by working closely with the least technical people I have ever had the opportunity to work with in my life. And I mean opportunity genuinely, because doing so gave me so much perspective on the things that you and I here probably take for granted. (How do we know that Ctrl+Alt+T will open a terminal? Why does `touch` make a file? How do I quit vim?)<p>So, the takeaway from my previous role, and motivation #2 for me is that computers can be so unaccessible in surprising ways. I have a deep respect and appreciation for Linux, and I want others to see things the same way, so anything I can do to make that process easier and help them &quot;self-serve&quot; or &quot;bootstrap&quot; to my level of understanding, is something worth doing to me.<p>So, with those two personal motivations outlined, I present to you, for your consideration, the Razer x Lambda Tensorbook. A laptop with a no-compromise approach to speeds-and-feeds and shipping with OEM support for Ubuntu.<p>sincerely,\nVinay. Product Marketing @ Lambda",
-      "time": 1649788938,
-      "title": "Show HN: Razer x Lambda Tensorbook",
-      "type": "story"
+      "time": 1649789199,
+      "title": "A Case of Plagarism in Machine Learning Research",
+      "type": "story",
+      "url": "https://nicholas.carlini.com/writing/2022/a-case-of-plagarism-in-machine-learning.html"
     },
     {
-      "by": "dbdoskey",
+      "by": "wirelesspotat",
       "descendants": 0,
-      "id": 31006715,
-      "score": 1,
-      "time": 1649788931,
-      "title": "Hospital hallway robots get patches for potentially serious bugs",
+      "id": 31006759,
+      "score": 2,
+      "time": 1649789160,
+      "title": "Spacechips – The Global Space-Electronics Company",
       "type": "story",
-      "url": "https://www.cyberscoop.com/aethon-tug-robot-vulnerabilities-cynerio/"
+      "url": "http://spacechips.co.uk/"
     },
     {
-      "by": "_ttg",
+      "by": "chilipepperhott",
       "descendants": 0,
-      "id": 31006700,
+      "id": 31006758,
       "score": 1,
-      "time": 1649788829,
-      "title": "Crafting Sustainable On-Call Rotations",
+      "time": 1649789157,
+      "title": "You need to stop idolizing programming languages",
       "type": "story",
-      "url": "https://increment.com/on-call/crafting-sustainable-on-call-rotations/"
+      "url": "https://elijahpotter.medium.com/you-need-to-stop-idolizing-programming-languages-1b6e20d43a6f"
     },
     {
-      "by": "accountinhn",
+      "by": "BayAreaEscapee",
       "descendants": 0,
-      "id": 31006692,
+      "id": 31006757,
       "score": 1,
-      "time": 1649788804,
-      "title": "Google Transparency Report",
+      "time": 1649789157,
+      "title": "The FBI’s takedown of Virgil Griffith for breaking North Korea sanctions",
       "type": "story",
-      "url": "https://transparencyreport.google.com/?hl=en"
+      "url": "https://cointelegraph.com/magazine/2022/04/12/bizarre-the-fbis-takedown-of-an-eth-dev-who-went-to-north-korea"
     },
     {
-      "by": "rudi_mk",
+      "by": "benatkin",
       "descendants": 0,
-      "id": 31006685,
-      "score": 3,
-      "time": 1649788747,
-      "title": "Migrate from Heroku",
+      "id": 31006756,
+      "score": 1,
+      "time": 1649789145,
+      "title": "Murri: Infinite responsive, sortable, filterable and draggable layouts",
       "type": "story",
-      "url": "https://porter.run/migrate-from-heroku"
+      "url": "https://github.com/haltu/muuri"
+    },
+    {
+      "by": "teleforce",
+      "descendants": 0,
+      "id": 31006749,
+      "score": 2,
+      "time": 1649789101,
+      "title": "Orthogonal Time-Frequency Space Modulation: A Promising Next-Generation Waveform",
+      "type": "story",
+      "url": "https://arxiv.org/abs/2010.03344"
     }
   ]
 }
