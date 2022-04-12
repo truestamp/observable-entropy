@@ -1,11 +1,51 @@
 {
   "stories": [
     {
+      "by": "Tomte",
+      "descendants": 0,
+      "id": 30998741,
+      "score": 1,
+      "time": 1649738933,
+      "title": "An Introduction to Bayesian Data Analysis for Cognitive Science (2022)",
+      "type": "story",
+      "url": "https://vasishth.github.io/bayescogsci/book/"
+    },
+    {
+      "by": "curmudgeon22",
+      "descendants": 0,
+      "id": 30998738,
+      "score": 1,
+      "time": 1649738921,
+      "title": "Internet ‘algospeak’ is changing our language in real time",
+      "type": "story",
+      "url": "https://www.washingtonpost.com/technology/2022/04/08/algospeak-tiktok-le-dollar-bean/"
+    },
+    {
+      "by": "Tomte",
+      "descendants": 0,
+      "id": 30998737,
+      "score": 1,
+      "time": 1649738916,
+      "title": "The TeX Live Guide–2022",
+      "type": "story",
+      "url": "https://tug.org/texlive/doc/texlive-en/texlive-en.html"
+    },
+    {
+      "by": "kristianp",
+      "descendants": 0,
+      "id": 30998730,
+      "score": 1,
+      "time": 1649738828,
+      "title": "Intel Opens D1X-Mod3 Fab Expansion; Moves Up Intel 18A Manufacturing to H2’2024",
+      "type": "story",
+      "url": "https://www.anandtech.com/show/17344/intel-opens-d1x-mod3-fab-expansion-moves-up-intel-18a-manufacturing-to-h22024"
+    },
+    {
       "by": "kazinator",
       "descendants": 0,
       "id": 30998703,
       "score": 1,
-      "text": "<p><pre><code>  interpret.h: In function ‘h_interpret’:\n  interpret.h:763:8: error: ‘*lhs’ is a pointer; did you mean to use ‘-&gt;’?\n      *lhs-&gt;type = Node_var_new;\n          ^~\n          -&gt;\n</code></pre>\n:)",
+      "text": "<p><pre><code>  interpret.h: In function ‘h_interpret’:\n  interpret.h:763:8: error: ‘*lhs’ is a pointer; did you mean to use ‘-&gt;’?\n      *lhs-&gt;type = Node_var_new;\n          ^~\n          -&gt;\n</code></pre>\n&quot;Did you mean to use the -&gt; token instead of the -&gt; token?&quot;<p>&quot;Why yes, only with more parentheses.&quot;",
       "time": 1649738553,
       "title": "Tell HN: Love this GCC error message",
       "type": "story"
@@ -34,7 +74,7 @@
       "by": "deathandgravity",
       "descendants": 0,
       "id": 30998663,
-      "score": 4,
+      "score": 5,
       "text": "Background: I have a lot of experience in various industries in various capacities, many of them executive leadership or directional, but certainly everything from engineering to leadership. Those include existing large entities as well as being there on “Day One” for startups that have raised hundreds of millions of dollars and achieved the vaunted unicorn status. I feel like I may have contacts in the “industry” but maybe not.<p>So I decided to Start My Own Thing. Kind of. I feel like I have good intuition here, maybe not, but much of that was within confines of existing entities and more importantly structures. So, started my own thing. Under my name pitched something under software and got a $100k contract, very easily, based on my personal capability alone.<p>I do not care about $100k, and it is almost not noteworthy. Except I feel like based on my industry knowledge I can turn this small contract into goodwill that can snowball into lots and lots of “small” B2B contracts of similar sizes and maybe be a real thing. I have a lot of talented SWEs in my rolodex I could call. But, assuming maybe I’m right, and I can turn this small thing into a big thing, I really don’t know what to do here. I am used to fast growing things. I am thinking come up with a company name and start a Delaware c corp, and then the for contract #2 and then maybe start pinging outside contacts at various SV firms for some seed capital to expand to similar deals 3-10? I really don’t know.<p>Overall: I feel like I have the skills, have some market fit (?), have the personal history, and could theoretically build a well-heeled team. But I have never actually started a startup myself and am totally lost. Can someone suggest a roadmap to the practical aspects of Starting a Startup?",
       "time": 1649738102,
       "title": "Ask HN: How Do I Start a Startup?",
@@ -42,9 +82,12 @@
     },
     {
       "by": "m15i",
-      "descendants": 0,
+      "descendants": 1,
       "id": 30998651,
-      "score": 2,
+      "kids": [
+        30998725
+      ],
+      "score": 3,
       "time": 1649737957,
       "title": "Implementation of DALL-E 2 in PyTorch",
       "type": "story",
@@ -59,46 +102,6 @@
       "title": "Truflation – The real inflation index you don't need to trust",
       "type": "story",
       "url": "https://truflation.com/"
-    },
-    {
-      "by": "curmudgeon22",
-      "descendants": 0,
-      "id": 30998631,
-      "score": 1,
-      "time": 1649737741,
-      "title": "Second order effects of the rise of large language models",
-      "type": "story",
-      "url": "https://twitter.com/russelljkaplan/status/1513128005828165634"
-    },
-    {
-      "by": "canjobear",
-      "descendants": 0,
-      "id": 30998625,
-      "score": 1,
-      "time": 1649737692,
-      "title": "Fixing the Entire Super Mario 64 Source Code",
-      "type": "story",
-      "url": "https://www.youtube.com/watch?v=t_rzYnXEQlE"
-    },
-    {
-      "by": "brycelarkin",
-      "descendants": 0,
-      "id": 30998623,
-      "score": 2,
-      "text": "It looks like they only had $600k in annual revenue (don’t even think it was ARR). Also doesn’t look like their founder had any successful exits. From the couple of startups I worked at, I think we had at least $10mm in ARR when we hit the half billion valuation. What gives?",
-      "time": 1649737648,
-      "title": "Ask HN: How did Fast get a $580mm valuation?",
-      "type": "story"
-    },
-    {
-      "by": "matt_d",
-      "descendants": 0,
-      "id": 30998620,
-      "score": 1,
-      "time": 1649737637,
-      "title": "Deconstructing Programs for Compiler Fuzzing",
-      "type": "story",
-      "url": "https://comby.dev/blog/2022/04/11/comby-decomposer-compiler-fuzzing"
     }
   ]
 }
