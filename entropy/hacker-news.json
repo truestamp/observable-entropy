@@ -1,6 +1,36 @@
 {
   "stories": [
     {
+      "by": "mooreds",
+      "descendants": 0,
+      "id": 31005114,
+      "score": 1,
+      "time": 1649782072,
+      "title": "Should software developers specialize or be language agnostic?",
+      "type": "story",
+      "url": "https://www.myhatchpad.com/insight/should-software-developers-specialize-or-be-language-agnostic/"
+    },
+    {
+      "by": "feross",
+      "descendants": 0,
+      "id": 31005110,
+      "score": 1,
+      "time": 1649782060,
+      "title": "Common accessibility issues that you can fix today",
+      "type": "story",
+      "url": "https://hiddedevries.nl/en/blog/2022-04-12-common-accessibility-issues-that-you-can-fix-today"
+    },
+    {
+      "by": "rootforce",
+      "descendants": 0,
+      "id": 31005073,
+      "score": 1,
+      "time": 1649781909,
+      "title": "Cfplot – Generate waterfall graphs of CloudFormation runs",
+      "type": "story",
+      "url": "https://github.com/jaredtrog/cfplot"
+    },
+    {
       "by": "CarCooler",
       "descendants": 0,
       "id": 31005043,
@@ -54,7 +84,7 @@
       "by": "mlejva",
       "descendants": 0,
       "id": 31004973,
-      "score": 2,
+      "score": 3,
       "text": "Hi HN community,<p>I&#x27;m Vasek, co-founder, and CEO of Devbook [0]. Devbook is an SDK that you add to your docs website and then every time a user visits your dev docs, we spin up a VM just for that user. The VM is ready in about 18-20 seconds. We haven&#x27;t had enough time to work on optimization but from our early tests, we are fairly confident we can get this to about 1-2 seconds.<p>In the VM you can run almost anything. Install packages, edit &amp; save files, run binaries, services, etc.<p>You as a documentation owner have full control over the VM. We give you full access to filesystem, shell, stdout, and stderr. You don&#x27;t have to worry about any infrastructure management. It&#x27;s just one line of code on your frontend.<p>On the backend, the VM is a Firecracker microVM [1] with our custom simple orchestrator&#x2F;scheduler built on top that just gets the job done. \nWe chose Firecracker for 4 reasons:<p>* (1) the security with a combination of their jailer<p>* (2) its snapshotting capabilities<p>* (3) quick booting times<p>* (4) option to oversubscribe the underlying server resources<p>This allows you to create a whole new set of interactions between your dev docs and a developer visiting the docs. \nWe&#x27;ve had users building coding playgrounds [2] to show how their SDK works or adding embedded terminals to a landing page [3] to show how their CLI works.<p>The way Devbook works is that you use our frontend SDK [4] on our website. The SDK pings our backend and we boot up a VM. The VMs are ephemeral and get destroyed after a while of not getting pinged.\nYou can predefine what the VM filesystem will look like through our CLI via a simple Dockerfile [5].\nWe also have an open sourced UI library for components like terminal, file system explorer, or code editor [6].<p>The need for Devbook came from our own frustration with dev docs. It has always felt strange that dev docs contain so much code but none of it is actually runnable. You as a developer have to set up full environments to see how the API works and get a deeper understanding.<p>We are very early so we don&#x27;t offer self-serve for now. A bit of manual work is still required when we are onboarding new customers. \nWe are looking for some specific use-case that would make our go-to-market strategy much easier. It feels like the product we offer is way too general. We basically say &quot;here&#x27;s a whole computer, have fun&quot;.<p>I&#x27;d love to know what you think about it. I&#x27;ll hang out here and I&#x27;m happy to answer your questions!<p>[0] <a href=\"https:&#x2F;&#x2F;usedevbook.com&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;usedevbook.com&#x2F;</a><p>[1] <a href=\"https:&#x2F;&#x2F;github.com&#x2F;firecracker-microvm&#x2F;firecracker\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;firecracker-microvm&#x2F;firecracker</a><p>[2] <a href=\"https:&#x2F;&#x2F;app.banana.dev&#x2F;docs&#x2F;carrot?ref=navmenu\" rel=\"nofollow\">https:&#x2F;&#x2F;app.banana.dev&#x2F;docs&#x2F;carrot?ref=navmenu</a><p>[3] <a href=\"https:&#x2F;&#x2F;runops.io&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;runops.io&#x2F;</a><p>[4] <a href=\"https:&#x2F;&#x2F;github.com&#x2F;devbookhq&#x2F;sdk\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;devbookhq&#x2F;sdk</a><p>[5] <a href=\"https:&#x2F;&#x2F;github.com&#x2F;devbookhq&#x2F;devbookctl\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;devbookhq&#x2F;devbookctl</a><p>[6] <a href=\"https:&#x2F;&#x2F;github.com&#x2F;devbookhq&#x2F;ui\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;devbookhq&#x2F;ui</a>",
       "time": 1649781486,
       "title": "Show HN: Add live runnable code to your dev docs",
@@ -73,36 +103,6 @@
       "title": "The Ultimate Stargazing Road Trip",
       "type": "story",
       "url": "https://www.bbc.com/travel/article/20220411-portugals-ultimate-stargazing-road-trip"
-    },
-    {
-      "by": "ushakov",
-      "descendants": 0,
-      "id": 31004940,
-      "score": 1,
-      "text": "https:&#x2F;&#x2F;developer.apple.com&#x2F;app-clips&#x2F;",
-      "time": 1649781350,
-      "title": "Ask HN: Are Apple App Clips Dead?",
-      "type": "story"
-    },
-    {
-      "by": "qoding",
-      "descendants": 0,
-      "id": 31004935,
-      "score": 1,
-      "time": 1649781328,
-      "title": "Vim for Linux Users",
-      "type": "story",
-      "url": "https://vim.monster/posts/vim-for-linux-users/"
-    },
-    {
-      "by": "arabadzhiev",
-      "descendants": 0,
-      "id": 31004930,
-      "score": 1,
-      "time": 1649781298,
-      "title": "Cross-Filtering and Data Drill-Down in Google Data Studio",
-      "type": "story",
-      "url": "https://www.datastudio.ca/functions/cross-filtering-and-data-drill-down-in-google-data-studio/"
     }
   ]
 }
