@@ -1,107 +1,95 @@
 {
   "stories": [
+    null,
+    {
+      "by": "pixiemaster",
+      "descendants": 0,
+      "id": 31006730,
+      "score": 1,
+      "time": 1649789008,
+      "title": "AI invents their own weapons",
+      "type": "story",
+      "url": "https://futurism.com/this-video-games-artificial-intelligence-turned-on-players-using-super-weapons"
+    },
+    {
+      "by": "matt_d",
+      "descendants": 0,
+      "id": 31006727,
+      "score": 1,
+      "time": 1649788998,
+      "title": "Cross-Language Attacks",
+      "type": "story",
+      "url": "https://www.ndss-symposium.org/ndss-paper/auto-draft-259/"
+    },
+    {
+      "by": "subhro",
+      "descendants": 0,
+      "id": 31006723,
+      "score": 1,
+      "time": 1649788975,
+      "title": "How to Catch a Lion?",
+      "type": "story",
+      "url": "http://www.gksoft.com/a/fun/catch-lion.html"
+    },
+    {
+      "by": "edelsohn",
+      "descendants": 0,
+      "id": 31006720,
+      "score": 1,
+      "time": 1649788960,
+      "title": "The Fantastic State of Static Analysis in GCC 12",
+      "type": "story",
+      "url": "https://developers.redhat.com/articles/2022/04/12/state-static-analysis-gcc-12-compiler"
+    },
+    {
+      "by": "vimeh",
+      "descendants": 0,
+      "id": 31006716,
+      "score": 1,
+      "text": "Hi all, long time lurker, first time poster.<p>I want to share with you all something we&#x27;ve been working on for a while at Lambda: the Razer x Lambda Tensorbook: https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=wMh6Dhq7P_Q<p>But before I tell you about it, I want to make this all about me, because I built this for me.<p>See, while I&#x27;m genuinely interested in hearing from the community what you think as this is the culmination of a lot of effort from a lot of people across so many different fields (seriously, the number of folks across manufacturing, engineering, design, logistics, and marketing who have had to work together to launch this is nuts), I really just want to tie my motivations back to a larger personal narrative to explain why I&#x27;m so proud of the Tensorbook.<p>So, flashback to 2018, and I&#x27;m a hardware engineer focusing on the compute system at Lyft&#x27;s autonomous vehicle (AV) program, Level5 (L5). Here was a project that that would save lives, that would improve the human condition, that was all ready to go. I saw my role as coming in to product-ize, to take what was close to the finish line and get it over it. The disappointment was pretty brutal when I realized just how wrong I was.<p>It&#x27;s one thing to nod along when reading Knuth write &quot;premature optimization is the root of all evil&quot;; it&#x27;s another to experience it firsthand.<p>At Lyft L5 I thought I would be applying specialized inference accelerators (Habana, Groq, Graphcore, etc.) into the vehicle compute system. Instead, the only requirement that mattered org-wide was: &quot;Don&#x27;t do anything that slows down the perception team&quot;. Forget testing silicon with the potential to reduce power requirements by 10x, I was lucky to get a willing ear to hear my case for changing a flag in the TensorFlow runtime to perform inference at FP16 instead of FP32.<p>Don&#x27;t get me wrong, there were a multitude of other difficult technical challenges to solve outside of the deep learning ones that were gating, but I had underestimated just how not-ready the CNNs for object detection and classification were. Something I thought was a solved problem was very much not, and ultimately resulted in my team and others building a 5,000 watt monster of server (+ power distribution, + thermals, + chassis, etc etc) that took up an entire rear row of seating. I&#x27;m happy to talk about that experience in the comments because I have a lot of fond memories from my time there.<p>Anyway, the takeaway I have from Lyft, and my first motivation here is that there is no such thing as over-provisioning or too much compute in a deep learning engineer&#x27;s mind. Anything less than the most possible is a detriment to their workflow. I still truly believe AVs will save lives; so by extension, enabling deep learning engineers enables AVs enables improvement to the human condition. Transitive property, :thumbsup:<p>So moving on, my next experience is characterized by working closely with the least technical people I have ever had the opportunity to work with in my life. And I mean opportunity genuinely, because doing so gave me so much perspective on the things that you and I here probably take for granted. (How do we know that Ctrl+Alt+T will open a terminal? Why does `touch` make a file? How do I quit vim?)<p>So, the takeaway from my previous role, and motivation #2 for me is that computers can be so unaccessible in surprising ways. I have a deep respect and appreciation for Linux, and I want others to see things the same way, so anything I can do to make that process easier and help them &quot;self-serve&quot; or &quot;bootstrap&quot; to my level of understanding, is something worth doing to me.<p>So, with those two personal motivations outlined, I present to you, for your consideration, the Razer x Lambda Tensorbook. A laptop with a no-compromise approach to speeds-and-feeds and shipping with OEM support for Ubuntu.<p>sincerely,\nVinay. Product Marketing @ Lambda",
+      "time": 1649788938,
+      "title": "Show HN: Razer x Lambda Tensorbook",
+      "type": "story"
+    },
+    {
+      "by": "dbdoskey",
+      "descendants": 0,
+      "id": 31006715,
+      "score": 1,
+      "time": 1649788931,
+      "title": "Hospital hallway robots get patches for potentially serious bugs",
+      "type": "story",
+      "url": "https://www.cyberscoop.com/aethon-tug-robot-vulnerabilities-cynerio/"
+    },
+    {
+      "by": "_ttg",
+      "descendants": 0,
+      "id": 31006700,
+      "score": 1,
+      "time": 1649788829,
+      "title": "Crafting Sustainable On-Call Rotations",
+      "type": "story",
+      "url": "https://increment.com/on-call/crafting-sustainable-on-call-rotations/"
+    },
+    {
+      "by": "accountinhn",
+      "descendants": 0,
+      "id": 31006692,
+      "score": 1,
+      "time": 1649788804,
+      "title": "Google Transparency Report",
+      "type": "story",
+      "url": "https://transparencyreport.google.com/?hl=en"
+    },
     {
       "by": "rudi_mk",
       "descendants": 0,
       "id": 31006685,
-      "score": 1,
+      "score": 3,
       "time": 1649788747,
       "title": "Migrate from Heroku",
       "type": "story",
       "url": "https://porter.run/migrate-from-heroku"
-    },
-    {
-      "by": "pseudolus",
-      "descendants": 0,
-      "id": 31006680,
-      "score": 1,
-      "time": 1649788715,
-      "title": "Developer discovers new Mac mini model in Studio Display firmware file",
-      "type": "story",
-      "url": "https://arstechnica.com/gadgets/2022/04/studio-display-firmware-file-reveals-that-a-new-mac-mini-model-could-be-imminent/"
-    },
-    {
-      "by": "maerF0x0",
-      "descendants": 0,
-      "id": 31006675,
-      "score": 1,
-      "time": 1649788693,
-      "title": "Former Ethereum Dev Virgil Griffith Sentenced to 5 Yrs for N.Korea Trip",
-      "type": "story",
-      "url": "https://www.coindesk.com/business/2022/04/12/former-ethereum-developer-virgil-griffith-sentenced-to-5-years-in-prison-for-north-korea-trip/"
-    },
-    {
-      "by": "LopRabbit",
-      "descendants": 0,
-      "id": 31006668,
-      "score": 1,
-      "time": 1649788655,
-      "title": "Deliveries package tracking app loses FedEx access, blaming shipping companies",
-      "type": "story",
-      "url": "https://www.theverge.com/2022/4/11/23021155/deliveries-package-app-fedex-api-services"
-    },
-    {
-      "by": "juliahc",
-      "descendants": 1,
-      "id": 31006653,
-      "kids": [
-        31006654
-      ],
-      "score": 1,
-      "time": 1649788599,
-      "title": "Test",
-      "type": "story",
-      "url": "https://www.npmjs.com/package/express"
-    },
-    {
-      "by": "Tomte",
-      "descendants": 0,
-      "id": 31006651,
-      "score": 1,
-      "time": 1649788596,
-      "title": "The 'ax' versus 'ask' question (2014)",
-      "type": "story",
-      "url": "https://www.latimes.com/opinion/la-xpm-2014-jan-19-la-oe-mcwhorter-black-speech-ax-20140119-story.html"
-    },
-    {
-      "by": "empressplay",
-      "descendants": 0,
-      "id": 31006648,
-      "score": 1,
-      "time": 1649788591,
-      "title": "Past and Future Turtles Part 3: Logo Moving Forward",
-      "type": "story",
-      "url": "https://turtlespaces.org/2022/04/12/past-and-future-turtles-part-3-logo-moving-forward/"
-    },
-    {
-      "by": "webmaven",
-      "descendants": 0,
-      "id": 31006643,
-      "score": 1,
-      "time": 1649788572,
-      "title": "Can a planet have a mind of its own?",
-      "type": "story",
-      "url": "https://phys.org/news/2022-02-planet-mind.html"
-    },
-    {
-      "by": "takiwatanga",
-      "descendants": 0,
-      "id": 31006630,
-      "score": 1,
-      "time": 1649788496,
-      "title": "Large-Scale Matrix Factorization on TPUs",
-      "type": "story",
-      "url": "https://ai.googleblog.com/2022/04/large-scale-matrix-factorization-on-tpus.html"
-    },
-    {
-      "by": "giuliomagnifico",
-      "descendants": 0,
-      "id": 31006625,
-      "score": 1,
-      "time": 1649788475,
-      "title": "Ukraine Opens Russian Drone, Finds Canon DSLR Inside",
-      "type": "story",
-      "url": "https://petapixel.com/2022/04/11/ukraine-opens-russian-drone-finds-canon-dslr-inside/"
     }
   ]
 }
