@@ -1,10 +1,30 @@
 {
   "stories": [
     {
+      "by": "_justinfunk",
+      "descendants": 0,
+      "id": 31015972,
+      "score": 1,
+      "text": "If I ask my password manager to generate a 20 character password with lowercase, uppercase, symbols, and numbers... it gives me a password like:<p>`nNqP4nnvMs!HCL@*z3cm`<p>In real world use-cases, is that a more secure password than:<p>`aaaaaaaaaaaaaaaaaaaa`<p>Theoretically speaking, does it have a lower entropy than the first password? How does the entropy calculation know that the 20 &#x27;a&#x27; characters weren&#x27;t randomly generated from the same set of characters that generated the first password?",
+      "time": 1649864296,
+      "title": "Ask HN: Which password is more secure?",
+      "type": "story"
+    },
+    {
+      "by": "mzs",
+      "descendants": 0,
+      "id": 31015962,
+      "score": 1,
+      "time": 1649864265,
+      "title": "Sweden and Finland PMs held joint press conference outlining plans to join NATO",
+      "type": "story",
+      "url": "https://threadreaderapp.com/thread/1514198882250596356.html"
+    },
+    {
       "by": "blaines",
       "descendants": 0,
       "id": 31015909,
-      "score": 1,
+      "score": 2,
       "time": 1649864009,
       "title": "DuckDuckGo for Mac Released",
       "type": "story",
@@ -57,7 +77,7 @@
       "kids": [
         31015881
       ],
-      "score": 4,
+      "score": 6,
       "text": "Data loss incident (snapshots)<p>Dear Customer,\nUnfortunately, we have to inform you that there was a data loss incident that affects a small amount of your snapshots on Hetzner Cloud.\nAll snapshots you create are stored on our highly available storage systems. The snapshot contents are distributed over multiple internal servers and data is stored in a way that allows up to two separate disks to fail without impacting data integrity.\nThis means the snapshot can still be accessed, even if two disks fail at the same time.\nDue to a recent, very unfortunate series of events in one of our clusters, multiple disks failed in short succession and caused a small number of snapshots to become unavailable.\nWe immediately tried to recover the affected snapshots but unfortunately the data is lost and we have exhausted all our options.<p>Affected snapshots in your account:\nXXXXXXXXX<p>The snapshots have been removed from our system as they are no longer accessible.\nWe sincerely hope this doesn’t cause too much trouble for you; we know losing data is the worst-case scenario. Also, we have added 20€ as Cloud Credits to your account (valid for one year). While we know that this will not bring back your data, we still hope that you will accept the gesture.\nIn response to this we will re-evaluate our snapshot cluster data replication strategies as well as our strategies for replacing disks and rebuilding redundancy after replacement.<p>Best Regards,\nHetzner Cloud",
       "time": 1649863775,
       "title": "Hetzner Cloud – Data loss incident",
@@ -82,26 +102,6 @@
       "title": "Exit Reviews: A new way to learn about product reliability",
       "type": "story",
       "url": "https://www.exitreviews.com/"
-    },
-    {
-      "by": "Brajeshwar",
-      "descendants": 0,
-      "id": 31015824,
-      "score": 1,
-      "time": 1649863699,
-      "title": "The Science of Climate Change Explained: Facts, Evidence and Proof",
-      "type": "story",
-      "url": "https://www.nytimes.com/article/climate-change-global-warming-faq.html"
-    },
-    {
-      "by": "maxwell",
-      "descendants": 0,
-      "id": 31015818,
-      "score": 2,
-      "time": 1649863678,
-      "title": "L.A. gangs have sent out crews to follow and rob city's wealthiest, LAPD says",
-      "type": "story",
-      "url": "https://www.latimes.com/california/story/2022-04-12/17-gangs-targeting-los-angeles-mega-rich"
     }
   ]
 }
