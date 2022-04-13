@@ -1,6 +1,99 @@
 {
   "stories": [
     {
+      "by": "webmaven",
+      "descendants": 0,
+      "id": 31016132,
+      "score": 1,
+      "time": 1649864985,
+      "title": "A universe without mathematics is beyond the scope of our imagination",
+      "type": "story",
+      "url": "https://phys.org/news/2022-04-universe-mathematics-scope.html"
+    },
+    {
+      "by": "gpa",
+      "descendants": 0,
+      "id": 31016123,
+      "score": 1,
+      "text": "I need to extract certain information from research publications, such as species, biomass, geographic location, and maybe related environmental data. Assume that I will convert PDF to text and, if necessary, do OCR. But here&#x27;s the catch: other species with similar data can be quite close to my target species on the same page, paragraph, sentence, or in the same table. Moreover, indicator values can be quite close or the same (e. g., biomass B = 1.2 kg&#x2F;m^2), as the species are from the same Genus. For example, Mytilus has 3 species (actually more) - Mytilus edulis, Mytilus trossulus, and Mytilus galloprovincialis.\nHow would an algorithm with no prior knowledge determine that a specific value relates to my target species rather than, say, the one adjacent to it in the same table or paragraph? I&#x27;m a human, and I know what to look for as I have prior knowledge, but I cannot process hundreds or thousands of articles as quickly as a machine can.\nDoes anyone have experience in using a tool that can correctly parse such information after appropriate setup? I am aware of:\n- HN search results (https:&#x2F;&#x2F;hn.algolia.com&#x2F;?q=information+extraction)\n- Apache Tika (https:&#x2F;&#x2F;tika.apache.org&#x2F;)\n- Apache OpenNLP (https:&#x2F;&#x2F;opennlp.apache.org&#x2F;)\n- Apache UIMA (https:&#x2F;&#x2F;uima.apache.org&#x2F;external-resources.html)\n- GATE (https:&#x2F;&#x2F;gate.ac.uk&#x2F;)\nBut I am not sure if any of these can do the job, as I haven&#x27;t used them. I also know that there are companies that have developed similar solutions (https:&#x2F;&#x2F;www.ontotext.com&#x2F;knowledgehub&#x2F;case-studies&#x2F;ai-content-generation-in-scientific-communication&#x2F;), possibly by using GraphDB.\nIn addition, what is the best data storage solution? In one case, you extract a table from the publication, whereas in another - a single data point. It&#x27;s not worth the effort of creating a separate table for a single data point.\nWhat would be the right approach, software (library) and possible workflow and data storage solution in this case?",
+      "time": 1649864951,
+      "title": "Ask HN: How to extract information from mutiple (unstructured text) documents?",
+      "type": "story"
+    },
+    {
+      "by": "WithinReason",
+      "descendants": 0,
+      "id": 31016120,
+      "score": 1,
+      "time": 1649864920,
+      "title": "A new heat engine with no moving parts is as efficient as a steam turbine",
+      "type": "story",
+      "url": "https://news.mit.edu/2022/thermal-heat-engine-0413"
+    },
+    {
+      "by": "d4mi3n",
+      "descendants": 0,
+      "id": 31016112,
+      "score": 1,
+      "time": 1649864864,
+      "title": "Neurodiverse Candidates Find Niche in Remote Cybersecurity Jobs",
+      "type": "story",
+      "url": "https://www.wsj.com/articles/neurodiverse-candidates-find-niche-in-remote-cybersecurity-jobs-11649842380"
+    },
+    {
+      "by": "CrankyBear",
+      "descendants": 0,
+      "id": 31016106,
+      "score": 2,
+      "time": 1649864851,
+      "title": "Why the Linux desktop is the best desktop",
+      "type": "story",
+      "url": "https://www.theregister.com/2022/04/13/linux_column/"
+    },
+    {
+      "by": "nabla9",
+      "descendants": 0,
+      "id": 31016099,
+      "score": 1,
+      "time": 1649864833,
+      "title": "Russian Tech Industry Faces ‘Brain Drain’ as Workers Flee",
+      "type": "story",
+      "url": "https://www.nytimes.com/2022/04/13/technology/russia-tech-workers.html"
+    },
+    {
+      "by": "joshuarubin",
+      "descendants": 0,
+      "id": 31016092,
+      "score": 2,
+      "time": 1649864798,
+      "title": "Ngrok Next Generation",
+      "type": "story",
+      "url": "https://twitter.com/inconshreveable/status/1514260146939207694"
+    },
+    {
+      "by": "sockpuppets",
+      "descendants": 1,
+      "id": 31016081,
+      "kids": [
+        31016082
+      ],
+      "score": 4,
+      "time": 1649864765,
+      "title": "Hacking Instagram Scammers",
+      "type": "story",
+      "url": "https://infosecwriteups.com/hacking-instagram-scammers-c3392043480c"
+    },
+    {
+      "by": "gmays",
+      "descendants": 0,
+      "id": 31016079,
+      "score": 1,
+      "time": 1649864748,
+      "title": "Biden expected to suspend E15 summer sales ban at Iowa ethanol plant",
+      "type": "story",
+      "url": "https://www.desmoinesregister.com/story/money/agriculture/2022/04/11/biden-visiting-iowa-ethanol-plant-sparks-e-15-summer-sales-expectation-menlo-poet-tuesday-gas-prices/7274074001/"
+    },
+    {
       "by": "acatton",
       "descendants": 0,
       "id": 31016057,
@@ -9,104 +102,6 @@
       "title": "Rust on Nails: A full stack architecture for Rust web applications",
       "type": "story",
       "url": "https://cloak.software/blog/rust-on-nails/"
-    },
-    {
-      "by": "dannyobrien",
-      "descendants": 0,
-      "id": 31016042,
-      "score": 1,
-      "time": 1649864567,
-      "title": "What Flips Your Bit: Cosmic Ray Errors at Mozilla",
-      "type": "story",
-      "url": "https://blog.mozilla.org/data/2022/04/13/this-week-in-glean-what-flips-your-bit/"
-    },
-    {
-      "by": "martyalain",
-      "descendants": 0,
-      "id": 31016033,
-      "score": 1,
-      "time": 1649864544,
-      "title": "Does a syntax using nested blocks make sense?",
-      "type": "story",
-      "url": "http://lambdaway.free.fr/lambdawalks/?view=scratch"
-    },
-    {
-      "by": "carlosag",
-      "descendants": 0,
-      "id": 31016031,
-      "score": 3,
-      "time": 1649864542,
-      "title": "Your dashboard is probably broken",
-      "type": "story",
-      "url": "https://glean.io/blog-posts/your-dashboard-is-probably-broken"
-    },
-    {
-      "by": "_justinfunk",
-      "descendants": 3,
-      "id": 31015972,
-      "kids": [
-        31016060,
-        31016015,
-        31016019
-      ],
-      "score": 1,
-      "text": "If I ask my password manager to generate a 20 character password with lowercase, uppercase, symbols, and numbers... it gives me a password like:<p>`nNqP4nnvMs!HCL@*z3cm`<p>In real world use-cases, is that a more secure password than:<p>`aaaaaaaaaaaaaaaaaaaa`<p>Theoretically speaking, does it have a lower entropy than the first password? How does the entropy calculation know that the 20 &#x27;a&#x27; characters weren&#x27;t randomly generated from the same set of characters that generated the first password?",
-      "time": 1649864296,
-      "title": "Ask HN: Which password is more secure?",
-      "type": "story"
-    },
-    {
-      "by": "mzs",
-      "descendants": 1,
-      "id": 31015962,
-      "kids": [
-        31016003
-      ],
-      "score": 2,
-      "time": 1649864265,
-      "title": "Sweden and Finland PMs held joint press conference outlining plans to join NATO",
-      "type": "story",
-      "url": "https://threadreaderapp.com/thread/1514198882250596356.html"
-    },
-    {
-      "by": "blaines",
-      "descendants": 0,
-      "id": 31015909,
-      "score": 3,
-      "time": 1649864009,
-      "title": "DuckDuckGo for Mac Released",
-      "type": "story",
-      "url": "https://gizmodo.com/duckduckgo-for-mac-released-in-beta-1848784332"
-    },
-    {
-      "by": "Tomte",
-      "descendants": 0,
-      "id": 31015907,
-      "score": 1,
-      "time": 1649864000,
-      "title": "A Brief Guide to Writing the Philosophy Paper (2008) [pdf]",
-      "type": "story",
-      "url": "https://philosophy.fas.harvard.edu/files/phildept/files/brief_guide_to_writing_philosophy_paper.pdf"
-    },
-    {
-      "by": "PaulHoule",
-      "descendants": 0,
-      "id": 31015903,
-      "score": 1,
-      "time": 1649863993,
-      "title": "Mathematical model offers clear-cut answers to how morals will change over time",
-      "type": "story",
-      "url": "https://phys.org/news/2022-04-mathematical-clear-cut-morals.html"
-    },
-    {
-      "by": "Tomte",
-      "descendants": 0,
-      "id": 31015883,
-      "score": 3,
-      "time": 1649863934,
-      "title": "Subaru is the latest automaker to add what3words navigation",
-      "type": "story",
-      "url": "https://arstechnica.com/cars/2022/04/subaru-is-the-latest-automaker-to-add-what3words-navigation/"
     }
   ]
 }
