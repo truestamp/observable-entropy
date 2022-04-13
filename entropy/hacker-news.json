@@ -1,9 +1,54 @@
 {
   "stories": [
     {
-      "by": "_justinfunk",
+      "by": "acatton",
       "descendants": 0,
+      "id": 31016057,
+      "score": 1,
+      "time": 1649864649,
+      "title": "Rust on Nails: A full stack architecture for Rust web applications",
+      "type": "story",
+      "url": "https://cloak.software/blog/rust-on-nails/"
+    },
+    {
+      "by": "dannyobrien",
+      "descendants": 0,
+      "id": 31016042,
+      "score": 1,
+      "time": 1649864567,
+      "title": "What Flips Your Bit: Cosmic Ray Errors at Mozilla",
+      "type": "story",
+      "url": "https://blog.mozilla.org/data/2022/04/13/this-week-in-glean-what-flips-your-bit/"
+    },
+    {
+      "by": "martyalain",
+      "descendants": 0,
+      "id": 31016033,
+      "score": 1,
+      "time": 1649864544,
+      "title": "Does a syntax using nested blocks make sense?",
+      "type": "story",
+      "url": "http://lambdaway.free.fr/lambdawalks/?view=scratch"
+    },
+    {
+      "by": "carlosag",
+      "descendants": 0,
+      "id": 31016031,
+      "score": 3,
+      "time": 1649864542,
+      "title": "Your dashboard is probably broken",
+      "type": "story",
+      "url": "https://glean.io/blog-posts/your-dashboard-is-probably-broken"
+    },
+    {
+      "by": "_justinfunk",
+      "descendants": 3,
       "id": 31015972,
+      "kids": [
+        31016060,
+        31016015,
+        31016019
+      ],
       "score": 1,
       "text": "If I ask my password manager to generate a 20 character password with lowercase, uppercase, symbols, and numbers... it gives me a password like:<p>`nNqP4nnvMs!HCL@*z3cm`<p>In real world use-cases, is that a more secure password than:<p>`aaaaaaaaaaaaaaaaaaaa`<p>Theoretically speaking, does it have a lower entropy than the first password? How does the entropy calculation know that the 20 &#x27;a&#x27; characters weren&#x27;t randomly generated from the same set of characters that generated the first password?",
       "time": 1649864296,
@@ -12,9 +57,12 @@
     },
     {
       "by": "mzs",
-      "descendants": 0,
+      "descendants": 1,
       "id": 31015962,
-      "score": 1,
+      "kids": [
+        31016003
+      ],
+      "score": 2,
       "time": 1649864265,
       "title": "Sweden and Finland PMs held joint press conference outlining plans to join NATO",
       "type": "story",
@@ -24,7 +72,7 @@
       "by": "blaines",
       "descendants": 0,
       "id": 31015909,
-      "score": 2,
+      "score": 3,
       "time": 1649864009,
       "title": "DuckDuckGo for Mac Released",
       "type": "story",
@@ -54,54 +102,11 @@
       "by": "Tomte",
       "descendants": 0,
       "id": 31015883,
-      "score": 2,
+      "score": 3,
       "time": 1649863934,
       "title": "Subaru is the latest automaker to add what3words navigation",
       "type": "story",
       "url": "https://arstechnica.com/cars/2022/04/subaru-is-the-latest-automaker-to-add-what3words-navigation/"
-    },
-    {
-      "by": "mooreds",
-      "descendants": 0,
-      "id": 31015864,
-      "score": 1,
-      "time": 1649863853,
-      "title": "Breaking into B2B SaaS (2021)",
-      "type": "story",
-      "url": "https://www.georgesequeira.com/writing/breaking-into-b2b-saas/"
-    },
-    {
-      "by": "bratao",
-      "descendants": 2,
-      "id": 31015840,
-      "kids": [
-        31015881
-      ],
-      "score": 6,
-      "text": "Data loss incident (snapshots)<p>Dear Customer,\nUnfortunately, we have to inform you that there was a data loss incident that affects a small amount of your snapshots on Hetzner Cloud.\nAll snapshots you create are stored on our highly available storage systems. The snapshot contents are distributed over multiple internal servers and data is stored in a way that allows up to two separate disks to fail without impacting data integrity.\nThis means the snapshot can still be accessed, even if two disks fail at the same time.\nDue to a recent, very unfortunate series of events in one of our clusters, multiple disks failed in short succession and caused a small number of snapshots to become unavailable.\nWe immediately tried to recover the affected snapshots but unfortunately the data is lost and we have exhausted all our options.<p>Affected snapshots in your account:\nXXXXXXXXX<p>The snapshots have been removed from our system as they are no longer accessible.\nWe sincerely hope this doesn’t cause too much trouble for you; we know losing data is the worst-case scenario. Also, we have added 20€ as Cloud Credits to your account (valid for one year). While we know that this will not bring back your data, we still hope that you will accept the gesture.\nIn response to this we will re-evaluate our snapshot cluster data replication strategies as well as our strategies for replacing disks and rebuilding redundancy after replacement.<p>Best Regards,\nHetzner Cloud",
-      "time": 1649863775,
-      "title": "Hetzner Cloud – Data loss incident",
-      "type": "story"
-    },
-    {
-      "by": "mooreds",
-      "descendants": 0,
-      "id": 31015834,
-      "score": 1,
-      "time": 1649863751,
-      "title": "China's oil champion prepares Western retreat over sanctions fear",
-      "type": "story",
-      "url": "https://www.reuters.com/business/energy/exclusive-chinas-oil-champion-prepares-western-retreat-over-sanctions-fear-2022-04-13/"
-    },
-    {
-      "by": "hubraumhugo",
-      "descendants": 0,
-      "id": 31015829,
-      "score": 1,
-      "time": 1649863730,
-      "title": "Exit Reviews: A new way to learn about product reliability",
-      "type": "story",
-      "url": "https://www.exitreviews.com/"
     }
   ]
 }
