@@ -1,6 +1,82 @@
 {
   "stories": [
     {
+      "by": "paulpan",
+      "descendants": 0,
+      "id": 31015255,
+      "score": 1,
+      "time": 1649861069,
+      "title": "Tim Cook delivers speech railing against “data industrial complex,” sideloading",
+      "type": "story",
+      "url": "https://arstechnica.com/gadgets/2022/04/tim-cook-delivers-speech-railing-against-data-industrial-complex-sideloading/"
+    },
+    {
+      "by": "gk1",
+      "descendants": 1,
+      "id": 31015242,
+      "kids": [
+        31015250
+      ],
+      "score": 2,
+      "time": 1649860976,
+      "title": "K-Nearest Neighbors",
+      "type": "story",
+      "url": "https://www.pinecone.io/learn/k-nearest-neighbor/"
+    },
+    {
+      "by": "hmmmmmm_",
+      "descendants": 0,
+      "id": 31015225,
+      "score": 1,
+      "time": 1649860899,
+      "title": "How to prevent the coming inhuman future",
+      "type": "story",
+      "url": "https://erikhoel.substack.com/p/how-to-prevent-the-coming-inhuman"
+    },
+    {
+      "by": "imanmoaz",
+      "descendants": 1,
+      "id": 31015221,
+      "kids": [
+        31015222
+      ],
+      "score": 1,
+      "time": 1649860887,
+      "title": "Google Docs for Video",
+      "type": "story",
+      "url": "https://podofly.webflow.io/"
+    },
+    {
+      "by": "ohjeez",
+      "descendants": 0,
+      "id": 31015218,
+      "score": 1,
+      "time": 1649860881,
+      "title": "US seizes RaidForums, the “go-to” site for hackers selling stolen login details",
+      "type": "story",
+      "url": "https://arstechnica.com/tech-policy/2022/04/us-seizes-raidforums-the-go-to-site-for-hackers-selling-stolen-login-details/"
+    },
+    {
+      "by": "djhaskin987",
+      "descendants": 0,
+      "id": 31015215,
+      "score": 1,
+      "time": 1649860873,
+      "title": "Will chatbots ever live up to the hype?",
+      "type": "story",
+      "url": "https://stackoverflow.blog/2022/04/13/will-chatbots-ever-live-up-to-the-hype/"
+    },
+    {
+      "by": "colinprince",
+      "descendants": 0,
+      "id": 31015209,
+      "score": 1,
+      "time": 1649860855,
+      "title": "I was an overwhelmed family doctor. So at age 45, I called it quits",
+      "type": "story",
+      "url": "https://www.cbc.ca/news/canada/montreal/first-person-family-medicine-quebec-health-reforms-technology-workload-1.6417193"
+    },
+    {
       "by": "lizziedevoir",
       "descendants": 0,
       "id": 31015196,
@@ -9,15 +85,6 @@
       "title": "C++ Creator Bjarne Stroustrup Interview",
       "type": "story",
       "url": "https://evrone.com/bjarne-stroustrup-interview"
-    },
-    {
-      "by": "amymhaddad",
-      "id": 31015193,
-      "score": 1,
-      "time": 1649860778,
-      "title": "Show HN: Daily Skill Planner: A practical skill-building system",
-      "type": "story",
-      "url": "https://dailyskillplanner.com/"
     },
     {
       "by": "graderjs",
@@ -38,66 +105,6 @@
       "title": "Create a user flow in under 30 seconds",
       "type": "story",
       "url": "https://twitter.com/ScottyAntipa/status/1514087984559104001"
-    },
-    {
-      "by": "PaulHoule",
-      "descendants": 0,
-      "id": 31015177,
-      "score": 1,
-      "time": 1649860717,
-      "title": "The PowerWalker VI 1500 CSW Ups Review: Trying for True Sinewave on a Budget",
-      "type": "story",
-      "url": "https://www.anandtech.com/show/16551/the-powerwalker-vi-1500-csw-ups-review-trying-for-true-sinewave"
-    },
-    {
-      "by": "kavehkhorram",
-      "descendants": 0,
-      "id": 31015171,
-      "score": 1,
-      "text": "Hi HN community,<p>I’m Kaveh, founder and CEO of Usage, and am excited to show you Usage, an app that helps you slash your AWS EC2 bill by 50% in ~5min by trading reservations. As of today, Usage is in General Availability and any AWS user can use it. It works by creating a limited-access IAM role (ReadOnly + Ability to Manage Reservations) into your AWS account(s).<p>The AWS console interface has made it hard for companies to optimize their AWS spend. After years of working for different companies that use AWS, I still find it difficult to understand how much money I’m spending on AWS. I don’t know who owns what instances, how our commitments are saving us money (RIs, SPs, EDPs), and what instances can be sized down (or switched to spot).<p>At Usage, we are building a web-based app that keeps you in charge of your AWS while minimizing your bill. No code change, no moving your AWS account or instances around, and no downtime. We’ve built:<p>1) Real-Time RI&#x2F;SP Recommendations: See which instances are uncovered by your SPs and&#x2F;or RIs and get them covered with a single button tap. Instant savings.<p>2) RI Sell Recommendations: RIs that are no longer utilized are highlighted and sold instantly. No more worrying about unutilized RIs and no more needing to forecast your compute needs.<p>3) Consolidated View: View your EC2 instances and RI&#x2F;SPs across all your AWS accounts in a single space. No more switching between AWS accounts.<p>4) Teams and Audit Log: Add as many users as you’d like to your Usage dashboard, and see who approved which recommendations.<p>We built Usage in ReactJS, Python, Java– and along the way we built our own internal accounting system to keep track of customer savings. We have plans to eventually release an open-source version of Usage.<p>Our business model is 20% of the savings we find you. We only make money when we save you money. We bill monthly and have longer-term enterprise plans available.<p>We take privacy extremely seriously. Your data is always protected both at-rest and in-transit. Additionally, Usage never collects or stores sensitive information. Usage only collects meta-data such as CPU utilization, launch time, instance configuration, region, etc. You can read our full privacy policy here: www.usage.ai&#x2F;policy&#x2F;\nWe are confident we can deliver a better AWS cost savings experience that is meaningfully better than other tools. If you use AWS, please give it a shot at www.usage.ai and let us know.<p>Let me know what you think! Ask me anything!",
-      "time": 1649860689,
-      "title": "Show HN: Usage, Cut your AWS Bill by 50%+ in 5 Minutes",
-      "type": "story"
-    },
-    {
-      "by": "graderjs",
-      "descendants": 0,
-      "id": 31015162,
-      "score": 1,
-      "time": 1649860627,
-      "title": "The Cult of the Sando (2017)",
-      "type": "story",
-      "url": "https://www.departures.com/archive/travel/in-search-of-japanese-sando"
-    },
-    {
-      "by": "memish",
-      "descendants": 0,
-      "id": 31015158,
-      "score": 2,
-      "time": 1649860610,
-      "title": "What is the “neutral” chess move?",
-      "type": "story",
-      "url": "https://twitter.com/VitalikButerin/status/1514103827464564738"
-    },
-    {
-      "by": "graderjs",
-      "descendants": 0,
-      "id": 31015150,
-      "score": 1,
-      "time": 1649860582,
-      "title": "Wildly popular Japanese sandwich pop-up coming to Houston food hall",
-      "type": "story",
-      "url": "https://houston.culturemap.com:443/news/restaurants-bars/03-08-22-sandoitchi-japanese-sando-sandwich-pop-up-post-market/"
-    },
-    {
-      "by": "graderjs",
-      "descendants": 0,
-      "id": 31015136,
-      "score": 1,
-      "time": 1649860520,
-      "title": "Japanese Sandwiches Are Beautiful to Look at and Even Better to Eat",
-      "type": "story",
-      "url": "https://www.thrillist.com/eat/nation/best-japanese-sandwiches"
     }
   ]
 }
