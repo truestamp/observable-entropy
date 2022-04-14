@@ -1,6 +1,46 @@
 {
   "stories": [
     {
+      "by": "bgrewal",
+      "descendants": 0,
+      "id": 31028713,
+      "score": 1,
+      "time": 1649951985,
+      "title": "Helping the commercial real estate industry create better experiences",
+      "type": "story",
+      "url": "https://dribbble.com/shots/18003881-Nexus-Residential-Complex"
+    },
+    {
+      "by": "KuiN",
+      "descendants": 0,
+      "id": 31028703,
+      "score": 1,
+      "time": 1649951952,
+      "title": "Qualcomm Wins yet Another Major Automaker with Its Snapdragon Digital Chassis",
+      "type": "story",
+      "url": "https://www.forbes.com/sites/patrickmoorhead/2022/04/14/qualcomm-wins-yet-another-major-automaker-with-its-digital-chassis-stellantis-with-14-brands-more-evidence-that-the-diversification-strategy-is-paying-off/"
+    },
+    {
+      "by": "bgrewal",
+      "descendants": 0,
+      "id": 31028698,
+      "score": 1,
+      "time": 1649951939,
+      "title": "Bring ease to the mortgage process with clean design",
+      "type": "story",
+      "url": "https://dribbble.com/shots/18021598-Linear-Mortgage"
+    },
+    {
+      "by": "janandonly",
+      "descendants": 0,
+      "id": 31028697,
+      "score": 1,
+      "time": 1649951934,
+      "title": "Infrastructure as a Commons",
+      "type": "story",
+      "url": "https://socketsupply.co/blog/hello-world/"
+    },
+    {
       "by": "media_hacker",
       "descendants": 0,
       "id": 31028649,
@@ -47,7 +87,7 @@
       "kids": [
         31028630
       ],
-      "score": 2,
+      "score": 3,
       "time": 1649951485,
       "title": "Dutch $1.2B Chip Initiative Aims at Photonics",
       "type": "story",
@@ -62,52 +102,6 @@
       "time": 1649951383,
       "title": "Ask HN: Why my post is not showing on HN",
       "type": "story"
-    },
-    {
-      "by": "nconfrey",
-      "descendants": 0,
-      "id": 31028538,
-      "score": 1,
-      "time": 1649951347,
-      "title": "Hyperlocal Software: How Web3 opens new opportunities in software development",
-      "type": "story",
-      "url": "https://nickconfrey.medium.com/hyperlocal-software-164e94edb753"
-    },
-    {
-      "by": "layer8",
-      "descendants": 1,
-      "id": 31028490,
-      "kids": [
-        31028523
-      ],
-      "score": 1,
-      "time": 1649951174,
-      "title": "Europe’s first multilingual, generalizable AI model",
-      "type": "story",
-      "url": "https://docs.aleph-alpha.com/"
-    },
-    {
-      "by": "airswimmer",
-      "descendants": 1,
-      "id": 31028480,
-      "kids": [
-        31028504
-      ],
-      "score": 1,
-      "text": "For end to end encryption, client should pass his own RSA public key to server after every re-login. Client should have a dynamic RSA public key. Client may have the same credential but with different RSA public keys. Client will generate a RSA key pair randomly after start the app for the first time.<p>In other words, client will login from different devices at the same time.<p>For now all user sessions are stored in Redis server using Django(Python) framework as backend. Other user info are stored in PostgreSQL database.<p>I am thinking about 2 approaches for exchanging public keys between client and server.<p>*client sends his login credentials and public key to the server, then server will verify the credentials, then*<p>1. Server add client&#x27;s present pub key into his login session (redis server). Server will read client&#x27;s pub key from Redis server to encrypt data. Later on, server will pass the encrypted to client.<p>2. Server add client&#x27;s present pub key into PostgreSQL database with some columns, such as foreign_key to user_id, client_pub_key, valid_until, created_at. All the RSA key validation will be handled by the Django(Python) server. (I&#x27;m worried querying client RSA keys everytime from database will drag down the performance)<p>Which one do you think is modern, secure and fast for End-to-End encryption for user login from multiple devices?<p>Some better designs?<p>Appreciate your comments!",
-      "time": 1649951144,
-      "title": "Ask HN: Which way for storing client's RSA public key is correct?",
-      "type": "story"
-    },
-    {
-      "by": "Tomte",
-      "descendants": 0,
-      "id": 31028465,
-      "score": 2,
-      "time": 1649951084,
-      "title": "A Summary of the 80486 Opcodes and Instructions (1999)",
-      "type": "story",
-      "url": "https://gist.github.com/djmott/e3021055697f074af62bf0c9bbc77af2"
     }
   ]
 }
