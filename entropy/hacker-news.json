@@ -1,6 +1,56 @@
 {
   "stories": [
     {
+      "by": "Tomte",
+      "descendants": 0,
+      "id": 31028465,
+      "score": 1,
+      "time": 1649951084,
+      "title": "A Summary of the 80486 Opcodes and Instructions (1999)",
+      "type": "story",
+      "url": "https://gist.github.com/djmott/e3021055697f074af62bf0c9bbc77af2"
+    },
+    {
+      "by": "Tomte",
+      "descendants": 0,
+      "id": 31028458,
+      "score": 1,
+      "time": 1649951060,
+      "title": "A Stroke of Genius: Striving for Greatness in All You Do",
+      "type": "story",
+      "url": "https://www.mccurley.org/advice/hamming_advice.html"
+    },
+    {
+      "by": "DemiGuru",
+      "descendants": 0,
+      "id": 31028441,
+      "score": 1,
+      "time": 1649951018,
+      "title": "Instagram beyond pics: Sexual harassers, crypto crooks, ID thieves",
+      "type": "story",
+      "url": "https://www.bleepingcomputer.com/news/security/instagram-beyond-pics-sexual-harassers-crypto-crooks-id-thieves/"
+    },
+    {
+      "by": "mgh2",
+      "descendants": 0,
+      "id": 31028433,
+      "score": 1,
+      "time": 1649950992,
+      "title": "The bad behavior of the richest: what I learned from wealth managers (2018)",
+      "type": "story",
+      "url": "https://www.theguardian.com/us-news/2018/oct/19/billionaires-wealth-richest-income-inequality"
+    },
+    {
+      "by": "airswimmer",
+      "descendants": 0,
+      "id": 31028430,
+      "score": 1,
+      "text": "For end to end encryption, client should pass his own RSA public key to server after every re-login. Client should have a dynamic RSA public key. Client may have the same credential but with different RSA public keys. Client will generate a RSA key pair randomly after start the app for the first time.<p>In other words, client will login from different devices at the same time.<p>For now all user sessions are stored in Redis server using Django(Python) framework as backend. Other user info are stored in PostgreSQL database.<p>I am thinking about 2 approaches for exchanging public keys between client and server.<p>*client sends his login credentials and public key to the server, then server will verify the credentials, then*<p>1. Server add client&#x27;s present pub key into his login session (redis server). Server will read client&#x27;s pub key from Redis server to encrypt data. Later on, server will pass the encrypted to client.<p>2. Server add client&#x27;s present pub key into PostgreSQL database with some columns, such as foreign_key to user_id, client_pub_key, valid_until, created_at. All the RSA key validation will be handled by the Django(Python) server. (I&#x27;m worried querying client RSA keys everytime from database will drag down the performance)<p>Which one do you think is modern, secure and fast for End-to-End encryption for user login from multiple devices?<p>Some better designs?<p>Appreciate your comments!",
+      "time": 1649950971,
+      "title": "Ask HN: Which way for storing client's RSA public key is correct?",
+      "type": "story"
+    },
+    {
       "by": "Fussionace",
       "descendants": 0,
       "id": 31028369,
@@ -49,56 +99,6 @@
       "title": "Narcissism",
       "type": "story",
       "url": "https://en.wikipedia.org/wiki/Narcissism"
-    },
-    {
-      "by": "dangle1",
-      "descendants": 0,
-      "id": 31028288,
-      "score": 1,
-      "time": 1649950428,
-      "title": "Auctioneer puts Space Shuttle CPUs under the hammer",
-      "type": "story",
-      "url": "https://www.theregister.com/2022/04/14/space_shuttle_computer_auction/"
-    },
-    {
-      "by": "prostoalex",
-      "descendants": 0,
-      "id": 31028271,
-      "score": 1,
-      "time": 1649950352,
-      "title": "Bought for $2.9M, NFT of Jack Dorsey tweet finds few takers",
-      "type": "story",
-      "url": "https://www.fidelity.com/news/article/top-news"
-    },
-    {
-      "by": "theafh",
-      "descendants": 0,
-      "id": 31028265,
-      "score": 1,
-      "time": 1649950325,
-      "title": "Researchers Gain New Understanding from Simple AI",
-      "type": "story",
-      "url": "https://www.quantamagazine.org/researchers-glimpse-how-ai-gets-so-good-at-language-processing-20220414/"
-    },
-    {
-      "by": "abrbhat",
-      "descendants": 0,
-      "id": 31028235,
-      "score": 1,
-      "time": 1649950225,
-      "title": "Mother of All Demos",
-      "type": "story",
-      "url": "https://en.wikipedia.org/wiki/The_Mother_of_All_Demos"
-    },
-    {
-      "by": "Mikkel-T",
-      "descendants": 0,
-      "id": 31028228,
-      "score": 1,
-      "time": 1649950210,
-      "title": "Proton: Evolving Privacy for the Future",
-      "type": "story",
-      "url": "https://protonmail.com/blog/evolving-privacy/"
     }
   ]
 }
