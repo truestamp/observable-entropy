@@ -1,10 +1,56 @@
 {
   "stories": [
     {
+      "by": "nada_ss",
+      "descendants": 0,
+      "id": 31028544,
+      "score": 2,
+      "text": "My post is not showing on HK if it contains a URL. Am I doing something wrong?",
+      "time": 1649951383,
+      "title": "Ask HN: Why my post is not showing on HN",
+      "type": "story"
+    },
+    {
+      "by": "nconfrey",
+      "descendants": 0,
+      "id": 31028538,
+      "score": 1,
+      "time": 1649951347,
+      "title": "Hyperlocal Software: How Web3 opens new opportunities in software development",
+      "type": "story",
+      "url": "https://nickconfrey.medium.com/hyperlocal-software-164e94edb753"
+    },
+    {
+      "by": "layer8",
+      "descendants": 1,
+      "id": 31028490,
+      "kids": [
+        31028523
+      ],
+      "score": 1,
+      "time": 1649951174,
+      "title": "Europe’s first multilingual, generalizable AI model",
+      "type": "story",
+      "url": "https://docs.aleph-alpha.com/"
+    },
+    {
+      "by": "airswimmer",
+      "descendants": 1,
+      "id": 31028480,
+      "kids": [
+        31028504
+      ],
+      "score": 1,
+      "text": "For end to end encryption, client should pass his own RSA public key to server after every re-login. Client should have a dynamic RSA public key. Client may have the same credential but with different RSA public keys. Client will generate a RSA key pair randomly after start the app for the first time.<p>In other words, client will login from different devices at the same time.<p>For now all user sessions are stored in Redis server using Django(Python) framework as backend. Other user info are stored in PostgreSQL database.<p>I am thinking about 2 approaches for exchanging public keys between client and server.<p>*client sends his login credentials and public key to the server, then server will verify the credentials, then*<p>1. Server add client&#x27;s present pub key into his login session (redis server). Server will read client&#x27;s pub key from Redis server to encrypt data. Later on, server will pass the encrypted to client.<p>2. Server add client&#x27;s present pub key into PostgreSQL database with some columns, such as foreign_key to user_id, client_pub_key, valid_until, created_at. All the RSA key validation will be handled by the Django(Python) server. (I&#x27;m worried querying client RSA keys everytime from database will drag down the performance)<p>Which one do you think is modern, secure and fast for End-to-End encryption for user login from multiple devices?<p>Some better designs?<p>Appreciate your comments!",
+      "time": 1649951144,
+      "title": "Ask HN: Which way for storing client's RSA public key is correct?",
+      "type": "story"
+    },
+    {
       "by": "Tomte",
       "descendants": 0,
       "id": 31028465,
-      "score": 1,
+      "score": 2,
       "time": 1649951084,
       "title": "A Summary of the 80486 Opcodes and Instructions (1999)",
       "type": "story",
@@ -34,21 +80,11 @@
       "by": "mgh2",
       "descendants": 0,
       "id": 31028433,
-      "score": 1,
+      "score": 2,
       "time": 1649950992,
       "title": "The bad behavior of the richest: what I learned from wealth managers (2018)",
       "type": "story",
       "url": "https://www.theguardian.com/us-news/2018/oct/19/billionaires-wealth-richest-income-inequality"
-    },
-    {
-      "by": "airswimmer",
-      "descendants": 0,
-      "id": 31028430,
-      "score": 1,
-      "text": "For end to end encryption, client should pass his own RSA public key to server after every re-login. Client should have a dynamic RSA public key. Client may have the same credential but with different RSA public keys. Client will generate a RSA key pair randomly after start the app for the first time.<p>In other words, client will login from different devices at the same time.<p>For now all user sessions are stored in Redis server using Django(Python) framework as backend. Other user info are stored in PostgreSQL database.<p>I am thinking about 2 approaches for exchanging public keys between client and server.<p>*client sends his login credentials and public key to the server, then server will verify the credentials, then*<p>1. Server add client&#x27;s present pub key into his login session (redis server). Server will read client&#x27;s pub key from Redis server to encrypt data. Later on, server will pass the encrypted to client.<p>2. Server add client&#x27;s present pub key into PostgreSQL database with some columns, such as foreign_key to user_id, client_pub_key, valid_until, created_at. All the RSA key validation will be handled by the Django(Python) server. (I&#x27;m worried querying client RSA keys everytime from database will drag down the performance)<p>Which one do you think is modern, secure and fast for End-to-End encryption for user login from multiple devices?<p>Some better designs?<p>Appreciate your comments!",
-      "time": 1649950971,
-      "title": "Ask HN: Which way for storing client's RSA public key is correct?",
-      "type": "story"
     },
     {
       "by": "Fussionace",
@@ -69,36 +105,6 @@
       "title": "Edge of Emulation: Game Boy Sewing Machines",
       "type": "story",
       "url": "https://shonumi.github.io/articles/art22.html"
-    },
-    {
-      "by": "Kagerjay",
-      "descendants": 0,
-      "id": 31028357,
-      "score": 1,
-      "time": 1649950706,
-      "title": "Event hosting – do not always ask for permission",
-      "type": "story",
-      "url": "https://www.vincentntang.com/event-hosting-permission/"
-    },
-    {
-      "by": "dshipper",
-      "descendants": 0,
-      "id": 31028355,
-      "score": 1,
-      "time": 1649950697,
-      "title": "Big tech’s highest-paid workers get real on an anonymous social network",
-      "type": "story",
-      "url": "https://every.to/cybernaut/blind-ambition"
-    },
-    {
-      "by": "PaulHoule",
-      "descendants": 0,
-      "id": 31028322,
-      "score": 1,
-      "time": 1649950561,
-      "title": "Narcissism",
-      "type": "story",
-      "url": "https://en.wikipedia.org/wiki/Narcissism"
     }
   ]
 }
