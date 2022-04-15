@@ -1,6 +1,56 @@
 {
   "stories": [
     {
+      "by": "potiuper",
+      "descendants": 0,
+      "id": 31036509,
+      "score": 1,
+      "time": 1649995152,
+      "title": "Hegel's Logic Sunburst Map",
+      "type": "story",
+      "url": "https://autio.github.io/projects/scienceoflogic/"
+    },
+    {
+      "by": "Diesel555",
+      "descendants": 0,
+      "id": 31036504,
+      "score": 1,
+      "text": "The problem is that the Touch Bar is not in my normal view when I&#x27;m inputting text or using applications where it is useful. So I never built the habit pattern of looking at the Touch Bar where it is most useful. It provides a lot of use, I just never noticed it.<p>Now I look at it a lot more and realize it&#x27;s useful if the application developers built it correctly. Unfortunately, Apple doesn&#x27;t promote how to use their software very well. It&#x27;s just supposed to work. But when a new innovation changes the way you look at your computer, where your eyes move to, you have to deliberately tell a seasoned user to look there, to change their workflow. I never looked at the Touch Bar and I hated not having function keys. But now that I do use it a lot, I&#x27;m going to miss it I think, especially the volume and brightness controls. Long story short, Apple failed to properly change user&#x27;s habit patterns by just hoping the change would work naturally, it doesn&#x27;t.<p>All that said, I know the Touch Bar is a contentious subject, and people are going to post how much they hate it. But I really hope they think about how much they actually look at it for most applications. I will state that for VSCode I&#x27;d rather have function keys.",
+      "time": 1649995030,
+      "title": "I like the Touch Bar. Apple failed to realize people don't look at it",
+      "type": "story"
+    },
+    {
+      "by": "potiuper",
+      "descendants": 0,
+      "id": 31036501,
+      "score": 1,
+      "time": 1649995008,
+      "title": "Hegel's Philosophy Sunburst Map",
+      "type": "story",
+      "url": "https://observablehq.com/@mikaelau/complete-system-of-philosophy"
+    },
+    {
+      "by": "ChadNauseam",
+      "descendants": 0,
+      "id": 31036500,
+      "score": 1,
+      "text": "It&#x27;s one of my all time favorite posts, but somehow I can&#x27;t find it. My memory is hazy but if I had to paraphrase I&#x27;m pretty sure it started off something like this:<p>Every time I see a game with a changelog like this, I cringe:<p><pre><code>    Peasants who become queens no longer continue to beg for bread\n    Horses no longer stay frozen after entering and exiting the pause menu\n    NPCs no longer attempt to open doors that have been removed\n    Fixed bug where NPCs were unable to see in dark rooms even after lighting a candle.\n</code></pre>\nWhat&#x27;s happening here is that the game has a huge state, and different parts of the state are being modified all over the place. This means that when extending the state in part A, you need to understand the entire codebase to know every state update that now needs to be changed. What you need to do is centralize all the code that modifies the state into one giant function, and this function should takes an enum describing the thing that triggered the change and modify the state accordingly.<p>... I think it went something like that, anyway. Any help?",
+      "time": 1649994995,
+      "title": "Ask HN: I'm looking for a specific blog post about game programming, any help?",
+      "type": "story"
+    },
+    {
+      "by": "mrintellectual",
+      "descendants": 0,
+      "id": 31036498,
+      "score": 1,
+      "time": 1649994977,
+      "title": "TSMC Expects $44B in Capex Despite Slowdown Concerns",
+      "type": "story",
+      "url": "https://www.eetimes.com/tsmc-expects-44-billion-in-capex-despite-slowdown-concerns/"
+    },
+    {
       "by": "exdsq",
       "descendants": 0,
       "id": 31036432,
@@ -12,8 +62,11 @@
     },
     {
       "by": "behnamoh",
-      "descendants": 0,
+      "descendants": 1,
       "id": 31036427,
+      "kids": [
+        31036512
+      ],
       "score": 1,
       "time": 1649994076,
       "title": "“I Contribute to the Windows Kernel. We Are Slower Than Other Operating Systems”",
@@ -52,65 +105,6 @@
       "title": "Helm by Matt Tytel",
       "type": "story",
       "url": "https://tytel.org/helm/"
-    },
-    {
-      "by": "pabs3",
-      "descendants": 0,
-      "id": 31036390,
-      "score": 1,
-      "time": 1649993578,
-      "title": "LibBF – small library to handle arbitrary precision floating point numbers",
-      "type": "story",
-      "url": "https://bellard.org/libbf/"
-    },
-    {
-      "by": "nobody9999",
-      "descendants": 1,
-      "id": 31036379,
-      "kids": [
-        31036384
-      ],
-      "score": 1,
-      "time": 1649993435,
-      "title": "Baseball Drag Measurements in Free Flight",
-      "type": "story",
-      "url": "https://www.mdpi.com/2076-3417/12/3/1416"
-    },
-    {
-      "by": "leavjenn",
-      "descendants": 1,
-      "id": 31036328,
-      "kids": [
-        31036401
-      ],
-      "score": 1,
-      "time": 1649992758,
-      "title": "Reddit Announces Comment Search",
-      "type": "story",
-      "url": "https://www.redditinc.com/blog/new-on-reddit-comment-search-improved-search-results-relevance-updated-search-design"
-    },
-    {
-      "by": "rntn",
-      "descendants": 3,
-      "id": 31036327,
-      "kids": [
-        31036353
-      ],
-      "score": 2,
-      "time": 1649992743,
-      "title": "Sunken Moskva Could Be the Biggest Naval Combat Loss in 40 Years",
-      "type": "story",
-      "url": "https://www.thedrive.com/the-war-zone/sinking-a-warship-is-a-truly-rare-event-in-modern-naval-warfare"
-    },
-    {
-      "by": "carride",
-      "descendants": 0,
-      "id": 31036321,
-      "score": 1,
-      "time": 1649992617,
-      "title": "Explaining why gamers are adopting Windows 11 more slowly than Windows 10",
-      "type": "story",
-      "url": "https://arstechnica.com/gadgets/2022/04/gamers-are-adopting-windows-11-about-half-as-quickly-as-they-did-for-windows-10/"
     }
   ]
 }
