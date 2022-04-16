@@ -1,6 +1,36 @@
 {
   "stories": [
     {
+      "by": "wsargent",
+      "descendants": 0,
+      "id": 31054868,
+      "score": 1,
+      "text": "I made a proof of concept using Docker Compose showing dynamic debug logging in the cloud using a structured logging framework.  The PoC uses script and JSONPath to evaluate the input structured data to determine criteria for logging:<p>https:&#x2F;&#x2F;github.com&#x2F;tersesystems&#x2F;dynamic-debug-logging<p>I have examples of more dynamic logging stuff:<p>https:&#x2F;&#x2F;github.com&#x2F;tersesystems&#x2F;echopraxia-examples<p>There&#x27;s a couple of other instance of dynamic logging, but it does not seem to be very well known.  For example the Linux kernel:<p>https:&#x2F;&#x2F;www.kernel.org&#x2F;doc&#x2F;html&#x2F;v4.11&#x2F;admin-guide&#x2F;dynamic-debug-howto.html<p>and Pixie, using Go and eBPF:<p>https:&#x2F;&#x2F;docs.pixielabs.ai&#x2F;tutorials&#x2F;custom-data&#x2F;dynamic-go-logging&#x2F;",
+      "time": 1650134311,
+      "title": "Dynamic Debug Logging",
+      "type": "story"
+    },
+    {
+      "by": "Tomte",
+      "descendants": 0,
+      "id": 31054845,
+      "score": 1,
+      "time": 1650134137,
+      "title": "Apollo 1, Challenger, and Columbia: Remembering NASA’s Lost Astronauts (2016)",
+      "type": "story",
+      "url": "https://arstechnica.com/science/2019/02/apollo-1-challenger-and-columbia-remembering-nasas-lost-astronauts/"
+    },
+    {
+      "by": "Tomte",
+      "descendants": 0,
+      "id": 31054841,
+      "score": 1,
+      "time": 1650134125,
+      "title": "Andy Weir on his new novel Artemis (2017)",
+      "type": "story",
+      "url": "https://www.theverge.com/2017/11/14/16648816/andy-weir-artemis-interview-building-moon-science-fiction-the-martian"
+    },
+    {
       "by": "gusgordon",
       "descendants": 0,
       "id": 31054832,
@@ -14,7 +44,7 @@
       "by": "kdazzle",
       "descendants": 0,
       "id": 31054814,
-      "score": 1,
+      "score": 3,
       "text": "Just got an email and link to this update from status.heroku.com. Sounds pretty dodgy. In effect, it means I&#x27;m unable to link up a new GitHub repo to Heroku and might not be able to do any updates either.<p>------------<p>To mitigate impact from potentially compromised OAuth tokens, we will revoke over the next several hours all existing tokens from the Heroku GitHub integration. We are also preventing new OAuth tokens from being created until further notice. Your GitHub repositories will not be affected in any way by this action.<p>Currently running Heroku applications will not be affected, but this will prevent you from deploying your apps from GitHub through the dashboard or via automation. Some other actions in the dashboard will no longer work due to this mitigation, and you will be unable to reconnect to GitHub even though you may see warning banners about reconnecting.\nAs a temporary workaround, you can use one of the other code deployment methods available in the following documentation:",
       "time": 1650133939,
       "title": "Heroku: Compromised OAuth Tokens for GitHub",
@@ -24,7 +54,7 @@
       "by": "pcr910303",
       "descendants": 0,
       "id": 31054796,
-      "score": 1,
+      "score": 2,
       "time": 1650133826,
       "title": "Using SBCL Common Lisp as a Dynamic Library",
       "type": "story",
@@ -34,7 +64,7 @@
       "by": "tosh",
       "descendants": 0,
       "id": 31054795,
-      "score": 1,
+      "score": 2,
       "time": 1650133825,
       "title": "Bobby Fischer's 21-move brilliancy",
       "type": "story",
@@ -69,40 +99,6 @@
       "title": "Tim Cook is right and wrong about sideloading",
       "type": "story",
       "url": "https://www.androidcentral.com/phones/tim-cook-is-right-and-wrong-about-sideloading"
-    },
-    {
-      "by": "rntn",
-      "descendants": 0,
-      "id": 31054744,
-      "score": 2,
-      "time": 1650133505,
-      "title": "US–China rivalry intensifies in the Pacific",
-      "type": "story",
-      "url": "https://www.eastasiaforum.org/2022/04/16/us-china-rivalry-intensifies-in-the-pacific/"
-    },
-    {
-      "by": "rntn",
-      "descendants": 0,
-      "id": 31054678,
-      "score": 3,
-      "time": 1650133039,
-      "title": "China’s lockdowns are greater threat to inflation today than in 2020: Bernstein",
-      "type": "story",
-      "url": "https://www.cnbc.com/2022/04/15/bernstein-chinas-2022-covid-lockdowns-inflation-risk-bigger-vs-2020.html"
-    },
-    {
-      "by": "bookofjoe",
-      "descendants": 2,
-      "id": 31054674,
-      "kids": [
-        31054776,
-        31054677
-      ],
-      "score": 2,
-      "time": 1650133016,
-      "title": "FDA Probes Lucky Charms’ Possible Link to Illnesses",
-      "type": "story",
-      "url": "https://www.wsj.com/articles/fda-probes-lucky-charms-possible-link-to-illnesses-11650130539"
     }
   ]
 }
