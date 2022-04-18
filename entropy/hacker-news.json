@@ -1,6 +1,39 @@
 {
   "stories": [
     {
+      "by": "wonderbore",
+      "descendants": 0,
+      "id": 31067470,
+      "score": 1,
+      "text": "This is year 2004 and I&#x27;m downloading big-buck-bunny.mp3.196k.zip on this new P2P software. Somehow it&#x27;s reaching speeds double or triple what my 56K connection allows.<p>How is that possible? I distinctly remember trying some new application that was faster than what I used before and I couldn&#x27;t understand how it could be so fast. Does anyone remember this happening? Unfortunately I don&#x27;t remember what software it was exactly.",
+      "time": 1650256489,
+      "title": "Ask HN: How can my P2P software download faster than what my 56K should allow?",
+      "type": "story"
+    },
+    {
+      "by": "tzury",
+      "descendants": 0,
+      "id": 31067460,
+      "score": 1,
+      "time": 1650256406,
+      "title": "Hubble Telescope Zooms in on the Biggest Comet Ever Spotted",
+      "type": "story",
+      "url": "https://www.nytimes.com/2022/04/14/science/biggest-comet-hubble.html"
+    },
+    {
+      "by": "Desres_Recruit",
+      "descendants": 1,
+      "id": 31067446,
+      "kids": [
+        31067447
+      ],
+      "score": 1,
+      "time": 1650256225,
+      "title": "Software Development at D. E. Shaw Research",
+      "type": "story",
+      "url": "https://apply.deshawresearch.com/careers/Register?pipelineId=585&source=Hacker+News"
+    },
+    {
       "by": "Ygg2",
       "descendants": 0,
       "id": 31067422,
@@ -75,37 +108,6 @@
       "title": "Tesla No Longer Includes Charging Equipment with Vehicles; Cites Statistics",
       "type": "story",
       "url": "https://insideevs.com/news/580350/tesla-no-longer-includes-mobile-charger/"
-    },
-    {
-      "by": "crazysim",
-      "descendants": 0,
-      "id": 31067278,
-      "score": 1,
-      "text": "After seeing all those posts about Google accounts being banned for frivolous and automated reasons, I started to use Google Takeout more and more to prepare for the worst.<p>If you aren&#x27;t aware of what Google Takeout it, it is a Google service that allows you to download archives of all your data from Google.<p>I understand that this may be kind of niche, but if the size of your Google Takeout is large and prohibitive to transfer and backup, this toolkit I made may be right for you.<p>Problem is, my Takeout jobs are 1.25TB as it also includes the videos I&#x27;ve uploaded in my YouTube account. Without them, it&#x27;s 300GB which is still a very large amount to me.<p>It got really old to be transferring 1.25TB by hand manually. It&#x27;s a pain to do it even on a gigabit connection and it is also a pain to do it in a VPS. At most I got 300MB&#x2F;s doing it inside a VPS but every session took an hour or three to complete and it was rather high-touch. The Google Takeout interface is hostile to automation and download links obtained from it are only valid for 15 minutes before you must re-enter your credentials. You can&#x27;t queue up downloads. Not only that, you must have some temporary storage on whatever computer you have before you send it off to some final archival storage.<p>What a pain! In HN-overkill fashion, I came up with a toolkit to make this whole process much, much faster.<p>I noticed that each connection of a download from Google Takeout archive seemed to be limited to 30MB&#x2F;s. However, multiple connections scaled this up well. 5 connections, 150MB&#x2F;s.<p>I noticed that Azure had functionality to do &quot;server-to-server&quot; transfers of data from public URLs with different data ranges. It seems this is used for built-in transfer of resources from external object storage services such as S3 or GCS.<p>I noticed that you can send as many parallel commands to Azure as you want to do as many transfers in parallel as possible. As it was Google, I&#x27;m sure their infrastructure could handle it.<p>I noticed that there were extensions for Chromium browsers that could intercept downloads and get their &quot;final download link&quot;.<p>So I glued all this stuff together. Unfortunately, there were some issues with some bugs in Azure that prevented direct downloading of Google links and Azure only exposed their endpoints over HTTP 1.1 which greatly limits the amount of parallel downloads. I noticed that Cloudflare Workers can be used to overcome all these limitations by base64-ing the Google URLs and HTTP3-izing the Azure endpoint. Another great thing is that Cloudflare Workers does not care about charging for ingress and egress bandwidth. Also, like Google, Cloudflare has an absurd amount of bandwidth and peering.<p>With all this combined, I am able to get 6GB&#x2F;s+ transfers of my 50GB archives from Google Takeout to Azure Storage and am able to back it up periodically without having to setup a VPS, find storage, find bandwidth, or really having any &quot;large&quot; computing or networking resources.<p>I use this toolkit a lot myself and it may be useful for you too if you&#x27;re in the same situation as me!",
-      "time": 1650254427,
-      "title": "Show HN: Toolkit of software to backup Google Takeout at 6GB/s+ to Azure",
-      "type": "story",
-      "url": "https://github.com/nelsonjchen/gtr"
-    },
-    {
-      "by": "madiator",
-      "descendants": 0,
-      "id": 31067248,
-      "score": 1,
-      "time": 1650254183,
-      "title": "Sharp Mental Models",
-      "type": "story",
-      "url": "https://newsletter.smarter.blog/p/sharp-mental-models"
-    },
-    {
-      "by": "fortran77",
-      "descendants": 0,
-      "id": 31067228,
-      "score": 1,
-      "time": 1650254039,
-      "title": "What Happened to Paxlovid?",
-      "type": "story",
-      "url": "https://nymag.com/intelligencer/2022/04/what-happened-to-paxlovid-the-covid-19-wonder-drug.html"
     }
   ]
 }
