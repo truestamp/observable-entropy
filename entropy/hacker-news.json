@@ -1,6 +1,17 @@
 {
   "stories": [
     {
+      "by": "crazysim",
+      "descendants": 0,
+      "id": 31067278,
+      "score": 1,
+      "text": "After seeing all those posts about Google accounts being banned for frivolous and automated reasons, I started to use Google Takeout more and more to prepare for the worst.<p>If you aren&#x27;t aware of what Google Takeout it, it is a Google service that allows you to download archives of all your data from Google.<p>I understand that this may be kind of niche, but if the size of your Google Takeout is large and prohibitive to transfer and backup, this toolkit I made may be right for you.<p>Problem is, my Takeout jobs are 1.25TB as it also includes the videos I&#x27;ve uploaded in my YouTube account. Without them, it&#x27;s 300GB which is still a very large amount to me.<p>It got really old to be transferring 1.25TB by hand manually. It&#x27;s a pain to do it even on a gigabit connection and it is also a pain to do it in a VPS. At most I got 300MB&#x2F;s doing it inside a VPS but every session took an hour or three to complete and it was rather high-touch. The Google Takeout interface is hostile to automation and download links obtained from it are only valid for 15 minutes before you must re-enter your credentials. You can&#x27;t queue up downloads. Not only that, you must have some temporary storage on whatever computer you have before you send it off to some final archival storage.<p>What a pain! In HN-overkill fashion, I came up with a toolkit to make this whole process much, much faster.<p>I noticed that each connection of a download from Google Takeout archive seemed to be limited to 30MB&#x2F;s. However, multiple connections scaled this up well. 5 connections, 150MB&#x2F;s.<p>I noticed that Azure had functionality to do &quot;server-to-server&quot; transfers of data from public URLs with different data ranges. It seems this is used for built-in transfer of resources from external object storage services such as S3 or GCS.<p>I noticed that you can send as many parallel commands to Azure as you want to do as many transfers in parallel as possible. As it was Google, I&#x27;m sure their infrastructure could handle it.<p>I noticed that there were extensions for Chromium browsers that could intercept downloads and get their &quot;final download link&quot;.<p>So I glued all this stuff together. Unfortunately, there were some issues with some bugs in Azure that prevented direct downloading of Google links and Azure only exposed their endpoints over HTTP 1.1 which greatly limits the amount of parallel downloads. I noticed that Cloudflare Workers can be used to overcome all these limitations by base64-ing the Google URLs and HTTP3-izing the Azure endpoint. Another great thing is that Cloudflare Workers does not care about charging for ingress and egress bandwidth. Also, like Google, Cloudflare has an absurd amount of bandwidth and peering.<p>With all this combined, I am able to get 6GB&#x2F;s+ transfers of my 50GB archives from Google Takeout to Azure Storage and am able to back it up periodically without having to setup a VPS, find storage, find bandwidth, or really having any &quot;large&quot; computing or networking resources.<p>I use this toolkit a lot myself and it may be useful for you too if you&#x27;re in the same situation as me!",
+      "time": 1650254427,
+      "title": "Show HN: Toolkit of software to backup Google Takeout at 6GB/s+ to Azure",
+      "type": "story",
+      "url": "https://github.com/nelsonjchen/gtr"
+    },
+    {
       "by": "madiator",
       "descendants": 0,
       "id": 31067248,
@@ -47,7 +58,7 @@
       "by": "cloudsql",
       "descendants": 0,
       "id": 31067188,
-      "score": 1,
+      "score": 2,
       "time": 1650253779,
       "title": "How to build a highly-available service in the Cloud?",
       "type": "story",
@@ -77,7 +88,7 @@
       "by": "behnamoh",
       "descendants": 0,
       "id": 31067135,
-      "score": 1,
+      "score": 2,
       "time": 1650253322,
       "title": "Integrate Linux Commands into Windows PowerShell",
       "type": "story",
@@ -92,16 +103,6 @@
       "title": "Why Solo Founders Should Solve Only One Problem",
       "type": "story",
       "url": "https://twitter.com/seb_g/status/1515897332017123332"
-    },
-    {
-      "by": "meter",
-      "descendants": 0,
-      "id": 31067066,
-      "score": 3,
-      "text": "Over the past few months, I’ve noticed a bunch of unexpected “likes” on my account. In my entire history on LinkedIn, I’ve quite literally never clicked the like button (intentionally, at least). Yet for some reason, I’m consistently seeing a couple posts per week that I’ve supposedly liked. The posts are completely random things, most of which I’ve never even seen before. And the likes appear on my public profile for everyone else to see.<p>My first instinct is that it’s a UI&#x2F;UX issue. Specifically, I think my thumb might be grazing the like button as I scroll.<p>I’m tempted to think it’s a more nefarious variation of my instinct above (e.g. a subtle UI&#x2F;UX decision designed to increase engagement on the platform). But I know that’s unfair (don’t attribute to malice, etc).<p>Considering I’ve never experienced this type of issue on other social media sites, I thought I’d bring it up. Has anyone else noticed this behavior, specifically on LinkedIn?<p>Edit: spelling",
-      "time": 1650252728,
-      "title": "LinkedIn accidentally “liking” things for me?",
-      "type": "story"
     }
   ]
 }
