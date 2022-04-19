@@ -1,6 +1,86 @@
 {
   "stories": [
     {
+      "by": "ThemalSpan",
+      "descendants": 0,
+      "id": 31087550,
+      "score": 1,
+      "text": "Not sure where else to post<p>I work on some CPU intensive software written in C++ and multithreaded with with OpenMP. This software has not been scaling how I would expect on my M1 Max MacBook. Notably, when I use 10 threads I see in activity monitor that the process has the expected number of threads but only seems to be getting scheduled on the the two efficiency cores for long runs. This is not ideal.   I’m not sure where to begin diagnosing this issue. Some relevant information:\n* I’ve been using the llvm-13 toolchain packaged by home-brew since the toolchain included with macOS does not support openMP\n* Simple OpenMP for loops behave how I would expect and seem to get scheduled to all cores. The issue seems to be for long-running processes.\n* For the project in question, the runtime bottle neck of the code is the OpenMP accelerated solvers from AMGCL, and this is where I get hit with the only-getting-scheduled-on-efficiency cores issue.\n    * https:&#x2F;&#x2F;github.com&#x2F;ddemidov&#x2F;amgcl\n    * There doesn’t seem to be any unusual OpenMP primitives in AMGCL\n* Using OMP_NUM_THREADS to use less than 10 threads (like 2 - 6), the process sometimes gets scheduled on performance cores, but this does not seem to be a guarantee.<p>What are some tools &#x2F; leads for diagnosing why my the simulation process tends to get scheduled onto efficiency cores? What are some options for changing how my process get scheduled?",
+      "time": 1650395722,
+      "title": "Ask HN: My process only gets scheduled on M1 efficiency cores",
+      "type": "story"
+    },
+    {
+      "by": "mfiguiere",
+      "descendants": 0,
+      "id": 31087544,
+      "score": 1,
+      "time": 1650395700,
+      "title": "TikTok owner ByteDance enters market for large-screen operating systems",
+      "type": "story",
+      "url": "https://www.scmp.com/tech/big-tech/article/3174781/tiktok-owner-bytedance-enters-market-large-screen-operating-systems"
+    },
+    {
+      "by": "coastflow",
+      "descendants": 0,
+      "id": 31087534,
+      "score": 1,
+      "time": 1650395643,
+      "title": "Doing Your Own Research a Little Bit Better",
+      "type": "story",
+      "url": "https://www.mcgill.ca/oss/article/critical-thinking/doing-your-own-research-little-bit-better"
+    },
+    {
+      "by": "johndcook",
+      "descendants": 0,
+      "id": 31087533,
+      "score": 2,
+      "time": 1650395637,
+      "title": "Bad but interesting mathematical notation idea",
+      "type": "story",
+      "url": "https://blog.plover.com/math/se/notation.html"
+    },
+    {
+      "by": "xkriva11",
+      "descendants": 0,
+      "id": 31087526,
+      "score": 1,
+      "time": 1650395591,
+      "title": "Compiling a C program on a Lisp Machine",
+      "type": "story",
+      "url": "https://twitter.com/RainerJoswig/status/1516461008453345292"
+    },
+    {
+      "by": "Nic0",
+      "descendants": 0,
+      "id": 31087517,
+      "score": 1,
+      "time": 1650395533,
+      "title": "How to Reduce Cloud Cost FinOps",
+      "type": "story",
+      "url": "https://nsirap.com/posts/059-12-ways-to-reduce-cloud-cost-finops/"
+    },
+    {
+      "by": "todsacerdoti",
+      "descendants": 0,
+      "id": 31087508,
+      "score": 1,
+      "time": 1650395477,
+      "title": "Secrets: A command-line tool to prevent committing secret keys into your source",
+      "type": "story",
+      "url": "https://github.com/sirwart/secrets"
+    },
+    {
+      "by": "gagejustins",
+      "descendants": 0,
+      "id": 31087502,
+      "score": 2,
+      "time": 1650395454,
+      "title": "How startups are actually using WebAssembly",
+      "type": "story",
+      "url": "https://reneeshah.medium.com/how-webassembly-gets-used-the-18-most-exciting-startups-building-with-wasm-939474e951db"
+    },
+    {
       "by": "tosh",
       "descendants": 0,
       "id": 31087447,
@@ -19,92 +99,6 @@
       "title": "The History and Evolution of Shaving",
       "type": "story",
       "url": "https://www.visualcapitalist.com/the-history-evolution-of-shaving/"
-    },
-    {
-      "by": "salvad0r",
-      "descendants": 0,
-      "id": 31087390,
-      "score": 1,
-      "time": 1650394880,
-      "title": "A Painless Guide to CRC Error Correction",
-      "type": "story",
-      "url": "https://archive.org/details/PainlessCRC"
-    },
-    {
-      "by": "telotortium",
-      "descendants": 0,
-      "id": 31087378,
-      "score": 1,
-      "time": 1650394816,
-      "title": "Welcome to post-apocalyptic climate policy",
-      "type": "story",
-      "url": "https://rogerpielkejr.substack.com/p/welcome-to-post-apocalyptic-climate"
-    },
-    {
-      "by": "cassepipe",
-      "descendants": 0,
-      "id": 31087377,
-      "score": 1,
-      "time": 1650394816,
-      "title": "Octopus 1.2.2 release (alternative Thunderbird cryptography backend)",
-      "type": "story",
-      "url": "https://sequoia-pgp.org/blog/2022/03/24/202203-octopus-1.2.2/"
-    },
-    {
-      "by": "smaudet",
-      "descendants": 1,
-      "id": 31087368,
-      "kids": [
-        31087454
-      ],
-      "score": 2,
-      "text": "Just recently, was asking why someone found something exciting. Why are people down voting these questions?<p>The subject was https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=31084312 [https:&#x2F;&#x2F;www.assemblyai.com&#x2F;blog&#x2F;how-dall-e-2-actually-works&#x2F;], someone had stated they were excited and I asked why, I got downvotes instead of answers.<p>Is the HN crowd unable to have a discussion? Can we get these down votes overturned?<p>I deleted the queries, they were obviously attracting negative emotions, I wish I could downvote people for being petty...",
-      "time": 1650394777,
-      "title": "Ask HN: Why are trolls down voting my questions?",
-      "type": "story"
-    },
-    {
-      "by": "jpknowles",
-      "descendants": 0,
-      "id": 31087338,
-      "score": 2,
-      "time": 1650394615,
-      "title": "Plaintext Task Management with Dendron and VSCode",
-      "type": "story",
-      "url": "https://blog.dendron.so/notes/1jynrsx70fh3mihhrhikrf8/"
-    },
-    {
-      "by": "tosh",
-      "descendants": 0,
-      "id": 31087322,
-      "score": 1,
-      "time": 1650394560,
-      "title": "Au Pair",
-      "type": "story",
-      "url": "https://en.wikipedia.org/wiki/Au_pair"
-    },
-    {
-      "by": "antattack",
-      "descendants": 1,
-      "id": 31087276,
-      "kids": [
-        31087363
-      ],
-      "score": 1,
-      "time": 1650394298,
-      "title": "Research: Conviction increases by ~1% for each year increase in avg. jury age [pdf]",
-      "type": "story",
-      "url": "https://www.nber.org/system/files/working_papers/w17887/w17887.pdf"
-    },
-    {
-      "by": "cbtacy",
-      "descendants": 0,
-      "id": 31087269,
-      "score": 2,
-      "time": 1650394267,
-      "title": "Private Equity Giant Interested in Financing Twitter Purchase",
-      "type": "story",
-      "url": "https://www.bloomberg.com/news/articles/2022-04-18/apollo-global-interested-in-helping-finance-bid-for-twitter"
     }
   ]
 }
