@@ -1,6 +1,76 @@
 {
   "stories": [
     {
+      "by": "SSInsider",
+      "descendants": 0,
+      "id": 31083275,
+      "score": 1,
+      "time": 1650377099,
+      "title": "Startup Studio Spotlight: LtG Startup Studio",
+      "type": "story",
+      "url": "https://medium.com/startup-studio-insider/startup-studio-spotlight-ltg-startup-studio-482fe214bf89"
+    },
+    {
+      "by": "martibravo",
+      "descendants": 0,
+      "id": 31083268,
+      "score": 1,
+      "text": "I am building a big project for Deno&#x2F;Node (compatible with both) and the project has different parts I would like to split into their own repos. I have never built a project as complex as this (nowhere near alpha release but 10K LOC as of right now). It is a passion and learning project of mine.<p>I&#x27;m looking for a way to split the monorepo into &quot;packages&quot; so that it&#x27;s easier to work on one area at a time, and also allows other devs in the future to work on it without having to git clone the whole repo.<p>I would also like to know if there&#x27;s a magic way to keep releases, version tags and such in sync between all the repos, so in the end it looks like a monorepo but allows for better modularity.<p>Turning it into a modular codebase is kind of important, because the project is able self-update modules (it has its own small package manager separate from NPM that downloads and installs tarballs)<p>What is your approach to the mono&#x2F;multirepo problem? Any advice, personal experiences you can share? Better to use git subtree or submodule?<p>Thanks in advance, fellow hackers!",
+      "time": 1650377071,
+      "title": "Ask HN: What is the best way to split a giant Git repo?",
+      "type": "story"
+    },
+    {
+      "by": "ghgr",
+      "descendants": 0,
+      "id": 31083245,
+      "score": 1,
+      "time": 1650376994,
+      "title": "Decompilation of the Legend of Zelda: Breath of the Wild",
+      "type": "story",
+      "url": "https://github.com/zeldaret/botw"
+    },
+    {
+      "by": "harporoeder",
+      "descendants": 0,
+      "id": 31083237,
+      "score": 1,
+      "time": 1650376958,
+      "title": "Nix – Bubblewrap Integration",
+      "type": "story",
+      "url": "https://sr.ht/~fgaz/nix-bubblewrap/"
+    },
+    {
+      "by": "raatmarien",
+      "descendants": 0,
+      "id": 31083216,
+      "score": 1,
+      "time": 1650376892,
+      "title": "Making an open source web app to translate using Wikipedia articles in ReactJS",
+      "type": "story",
+      "url": "https://marienraat.nl/blog/posts/translatewith-wiki/"
+    },
+    {
+      "by": "hss",
+      "descendants": 0,
+      "id": 31083207,
+      "score": 1,
+      "time": 1650376856,
+      "title": "How hypersonic missiles work and the unique threats they pose",
+      "type": "story",
+      "url": "https://techxplore.com/news/2022-04-hypersonic-missiles-unique-threats-pose.html"
+    },
+    {
+      "by": "rbanffy",
+      "descendants": 0,
+      "id": 31083202,
+      "score": 1,
+      "time": 1650376843,
+      "title": "Red Hat OpenShift 4.10 on IBM Z and LinuxONE",
+      "type": "story",
+      "url": "https://www.linkedin.com/pulse/red-hat-openshift-410-ibm-z-linuxone-holger-wolf"
+    },
+    {
       "by": "peteradio",
       "descendants": 0,
       "id": 31083170,
@@ -14,7 +84,7 @@
       "by": "skilled",
       "descendants": 0,
       "id": 31083165,
-      "score": 1,
+      "score": 2,
       "text": "So, let me preface this by saying that I think it&#x27;s possible to have a healthy discussion on this topic, and I am not trying to be overly judgmental of Substack.<p>But, I am genuinely curious why is it getting so popular and particularly here on Hacker News. Does it have some kind of a hidden feature that makes it very appealing?<p>My number one assumption would be that it uses a global userbase, so people who write on Substack can collect subscribers&#x2F;readers much faster. Is that all there is to it?<p>I also know that Substack prefetches an email address (once you enter it on any Substack-based site) and then plasters it on all their other customer sites, which I _really_ <i>hate</i> about their platform.<p>But I can see the appeal in that, I guess.",
       "time": 1650376662,
       "title": "Ask HN: Why is Substack so popular?",
@@ -29,86 +99,6 @@
       "title": "To Tip, or Not to Tip?",
       "type": "story",
       "url": "https://www.nytimes.com/2022/04/19/dining/tipping-gratuity-restaurants.html"
-    },
-    {
-      "by": "montanalow",
-      "descendants": 1,
-      "id": 31083153,
-      "kids": [
-        31083171
-      ],
-      "score": 1,
-      "time": 1650376611,
-      "title": "Show HN: PostgresML, end-to-end machine learning in your favorite db",
-      "type": "story",
-      "url": "https://github.com/postgresml/postgresml"
-    },
-    {
-      "by": "gigama",
-      "descendants": 0,
-      "id": 31083135,
-      "kids": [
-        31083152
-      ],
-      "score": 1,
-      "time": 1650376534,
-      "title": "The Four Agreements",
-      "type": "story",
-      "url": "https://en.wikipedia.org/wiki/The_Four_Agreements"
-    },
-    {
-      "by": "lovehatesoft",
-      "descendants": 0,
-      "id": 31083131,
-      "score": 1,
-      "text": "I&#x27;m a junior dev that recently joined a small team which doesn&#x27;t seem to have much with regards to tracking requirements and how they&#x27;re being tested, and I was wondering if anybody has recommendations.<p>Specifically, I would like to track what the requirements&#x2F;specifications are, and how we&#x27;ll test to make sure they&#x27;re met? Which I don&#x27;t know if this could be a mix of unit and integration&#x2F;regression tests? Honestly though if this is maybe even the wrong track to take, I&#x27;d appreciate feedback on what we could be doing instead.<p>I used IBM Rational DOORS at a previous job and thought it really helped for this, but with a small team I don&#x27;t think it&#x27;s likely they&#x27;ll spring for it. Are there open source options out there, or something else that&#x27;s easy? I thought we could maybe keep track in a spreadsheet (this to match DOORS?) or some other file, but I&#x27;m sure there would be issues with that as we added to it. Thanks for any feedback!",
-      "time": 1650376516,
-      "title": "Ask HN: How do you keep track of software requirements and test them?",
-      "type": "story"
-    },
-    {
-      "by": "aroccoli",
-      "descendants": 0,
-      "id": 31083116,
-      "score": 1,
-      "time": 1650376445,
-      "title": "Doctests in Haskell",
-      "type": "story",
-      "url": "https://serokell.io/blog/doctests-in-haskell"
-    },
-    {
-      "by": "scubakid",
-      "descendants": 2,
-      "id": 31083093,
-      "kids": [
-        31083177,
-        31083099
-      ],
-      "score": 3,
-      "time": 1650376335,
-      "title": "Show HN: I built a simulator for personal finance: ProjectionLab",
-      "type": "story",
-      "url": "https://projectionlab.com"
-    },
-    {
-      "by": "seekayel",
-      "descendants": 0,
-      "id": 31083084,
-      "score": 1,
-      "time": 1650376305,
-      "title": "I Prefer Serverless. By Siddharth RAM",
-      "type": "story",
-      "url": "https://medium.com/a-technical-leaders-toolbox/why-i-prefer-serverless-c7d865484633"
-    },
-    {
-      "by": "dshipper",
-      "descendants": 0,
-      "id": 31083051,
-      "score": 1,
-      "time": 1650376152,
-      "title": "You can only respond to what you notice",
-      "type": "story",
-      "url": "https://every.to/superorganizers/you-can-only-respond-to-what-you-notice"
     }
   ]
 }
