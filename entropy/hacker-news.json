@@ -1,10 +1,56 @@
 {
   "stories": [
     {
+      "by": "forgingahead",
+      "descendants": 0,
+      "id": 31082799,
+      "score": 1,
+      "time": 1650374984,
+      "title": "Elon Musk - A future worth getting excited about",
+      "type": "story",
+      "url": "https://www.youtube.com/watch?v=YRvf00NooN8"
+    },
+    {
+      "by": "youtou",
+      "descendants": 1,
+      "id": 31082790,
+      "kids": [
+        31082791
+      ],
+      "score": 1,
+      "time": 1650374925,
+      "title": "Important Announcement for You",
+      "type": "story",
+      "url": "https://www.eurogirlsescort.com/"
+    },
+    {
+      "by": "kudadam",
+      "descendants": 0,
+      "id": 31082778,
+      "score": 1,
+      "time": 1650374877,
+      "title": "How to Bypass ReCAPTCHA Using 2Captcha and Selenium in Python",
+      "type": "story",
+      "url": "https://kudadam.com/blog/bypass-recaptcha-using-2captcha"
+    },
+    {
+      "by": "avi_vallarapu",
+      "descendants": 1,
+      "id": 31082761,
+      "kids": [
+        31082797
+      ],
+      "score": 1,
+      "time": 1650374785,
+      "title": "Advanced Restore Options with PgBackRest for PostgreSQL",
+      "type": "story",
+      "url": "https://www.migops.com/blog/2022/04/07/pgbackrest-restoring-a-backup-from-a-backup-repository/"
+    },
+    {
       "by": "hucste",
       "descendants": 0,
       "id": 31082737,
-      "score": 1,
+      "score": 2,
       "time": 1650374636,
       "title": "Iblock: Block scanner TCP connections under OpenBSD",
       "type": "story",
@@ -62,47 +108,6 @@
       "title": "King of the ‘Lunatics’ Becomes Bitcoin’s Most-Watched Whale",
       "type": "story",
       "url": "https://www.bloomberg.com/news/features/2022-04-19/terraform-s-do-kwon-s-huge-bitcoin-buys-catch-crypto-billionaires-attention"
-    },
-    {
-      "by": "snewman",
-      "descendants": 0,
-      "id": 31082687,
-      "score": 2,
-      "time": 1650374347,
-      "title": "Everyone gets numbers wrong, even the New York Times",
-      "type": "story",
-      "url": "https://climateer.substack.com/p/numbers"
-    },
-    {
-      "by": "0xedb",
-      "descendants": 0,
-      "id": 31082686,
-      "score": 1,
-      "time": 1650374344,
-      "title": "Robinhood Signs Agreement to Acquire Ziglu",
-      "type": "story",
-      "url": "https://blog.robinhood.com/news/2022/4/19/robinhood-signs-agreement-to-acquire-ziglu"
-    },
-    {
-      "by": "jpcapdevila",
-      "descendants": 0,
-      "id": 31082676,
-      "score": 2,
-      "text": "Hi HN!<p>I’d like to share with you my project: JSDB.<p>Two months ago I had this thought while reviewing a PR on a web application. What if I didn’t have to write code to communicate with my backend or database?<p>It would be fun to just use arrays and objects like you normally do in javascript and have things magically save.<p>That weekend I hacked together something that used proxies and classes to ‘magically’ send data to your backend when you assign or access properties in an object or array. Using the same API you already know.<p>This means you can save data like this: items[x] = {a:2,b:false} and read data like this: console.log(await items[x].a) or console.log(await items.find(o =&gt; o.a === 2))<p>While sharing it with some devs I started to get comments like this? “Wow that’s super simple. Is it secure?”<p>So I started building a platform around this idea. A platform that allows javascript developers to write full stack applications, with the least overhead possible and just writing javascript.<p>Security Rules are JS functions, files are simply assigned to an object property, triggers are JS functions etc. Everything is javascript! Check the docs: <a href=\"https:&#x2F;&#x2F;javascriptdb.com&#x2F;docs\" rel=\"nofollow\">https:&#x2F;&#x2F;javascriptdb.com&#x2F;docs</a><p>Why?<p>Because there are developers that can write code using arrays and objects but are not confident with backend code.<p>I would like to lower that barrier and empower every developer that knows JS to be full stack with the least effort possible.<p>For experienced developers, less boilerplate means less bugs and faster product cycles. I like to think that JSDB is positively influenced by this post from Rich Harris: <a href=\"https:&#x2F;&#x2F;svelte.dev&#x2F;blog&#x2F;write-less-code\" rel=\"nofollow\">https:&#x2F;&#x2F;svelte.dev&#x2F;blog&#x2F;write-less-code</a><p>Aren’t there other platforms that solve this problem?<p>Yes, there’s some great efforts. Supabase recently had a killer launch week and I have tons of respect for what they’ve accomplished.<p>JSDB targets the javascript lovers, the devs that rather just write javascript and would like to avoid sql if possible. By design it will only work on javascript codebases.<p>Is this production ready?<p>No! It’s still an MVP, designed to show the idea and where I’m going.\nThat&#x27;s also why there are limited spots for the hosted preview alpha.<p>If this sounds interesting check this demo: <a href=\"https:&#x2F;&#x2F;youtu.be&#x2F;xs30II7HNBQ\" rel=\"nofollow\">https:&#x2F;&#x2F;youtu.be&#x2F;xs30II7HNBQ</a>\nDocs: <a href=\"https:&#x2F;&#x2F;javascriptdb.com&#x2F;docs\" rel=\"nofollow\">https:&#x2F;&#x2F;javascriptdb.com&#x2F;docs</a>\nWebsite: <a href=\"https:&#x2F;&#x2F;javascriptdb.com\" rel=\"nofollow\">https:&#x2F;&#x2F;javascriptdb.com</a>\nGithub: <a href=\"https:&#x2F;&#x2F;github.com&#x2F;javascriptdb\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;javascriptdb</a><p>Looking forward to getting candid feedback :)",
-      "time": 1650374271,
-      "title": "Show HN: JavaScript as a Database – Serverless Platform",
-      "type": "story",
-      "url": "https://javascriptdb.com"
-    },
-    {
-      "by": "Hexadecible",
-      "descendants": 0,
-      "id": 31082675,
-      "score": 1,
-      "time": 1650374256,
-      "title": "Show HN: I built a Node.js library for creating encrypted peer-to-peer apps",
-      "type": "story",
-      "url": "https://github.com/Telios-org/nebula"
     }
   ]
 }
