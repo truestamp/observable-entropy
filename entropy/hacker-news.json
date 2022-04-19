@@ -1,6 +1,26 @@
 {
   "stories": [
     {
+      "by": "samokhvalov",
+      "descendants": 0,
+      "id": 31087677,
+      "score": 1,
+      "time": 1650396220,
+      "title": "YDB – distributed DBMS that combines HA, scalability, strict consistency, ACID",
+      "type": "story",
+      "url": "https://github.com/ydb-platform/ydb"
+    },
+    {
+      "by": "Thevet",
+      "descendants": 0,
+      "id": 31087676,
+      "score": 1,
+      "time": 1650396217,
+      "title": "Declared Extinct, the Yaghan Rise in the Land of Fire",
+      "type": "story",
+      "url": "https://hakaimagazine.com/features/declared-dead-the-yaghan-rise-in-the-land-of-fire/"
+    },
+    {
       "by": "monort",
       "descendants": 0,
       "id": 31087606,
@@ -24,7 +44,7 @@
       "by": "CarCooler",
       "descendants": 0,
       "id": 31087583,
-      "score": 1,
+      "score": 2,
       "time": 1650395856,
       "title": "Tesla confirms the cutoff date for removal of Mobile Connector for new orders",
       "type": "story",
@@ -64,7 +84,7 @@
       "by": "ThemalSpan",
       "descendants": 0,
       "id": 31087550,
-      "score": 1,
+      "score": 2,
       "text": "Not sure where else to post<p>I work on some CPU intensive software written in C++ and multithreaded with with OpenMP. This software has not been scaling how I would expect on my M1 Max MacBook. Notably, when I use 10 threads I see in activity monitor that the process has the expected number of threads but only seems to be getting scheduled on the the two efficiency cores for long runs. This is not ideal.<p>I’m not sure where to begin diagnosing this issue. Some relevant information:<p>* I’ve been using the llvm-13 toolchain packaged by home-brew since the toolchain included with macOS does not support openMP<p>* Simple OpenMP for loops behave how I would expect and seem to get scheduled to all cores. The issue seems to be for long-running processes.<p>* For the project in question, the runtime bottle neck of the code is the OpenMP accelerated solvers from AMGCL, and this is where I get hit with the only-getting-scheduled-on-efficiency cores issue.<p><pre><code>    \\* https:&#x2F;&#x2F;github.com&#x2F;ddemidov&#x2F;amgcl\n\n    \\* There doesn’t seem to be any unusual OpenMP primitives in AMGCL\n</code></pre>\n* Using OMP_NUM_THREADS to use less than 10 threads (like 2 - 6), the process sometimes gets scheduled on performance cores, but this does not seem to be a guarantee.<p>What are some tools &#x2F; leads for diagnosing why my the simulation process tends to get scheduled onto efficiency cores? What are some options for changing how my process get scheduled?",
       "time": 1650395722,
       "title": "Ask HN: My process only gets scheduled on M1 efficiency cores",
@@ -79,26 +99,6 @@
       "title": "TikTok owner ByteDance enters market for large-screen operating systems",
       "type": "story",
       "url": "https://www.scmp.com/tech/big-tech/article/3174781/tiktok-owner-bytedance-enters-market-large-screen-operating-systems"
-    },
-    {
-      "by": "coastflow",
-      "descendants": 0,
-      "id": 31087534,
-      "score": 1,
-      "time": 1650395643,
-      "title": "Doing Your Own Research a Little Bit Better",
-      "type": "story",
-      "url": "https://www.mcgill.ca/oss/article/critical-thinking/doing-your-own-research-little-bit-better"
-    },
-    {
-      "by": "johndcook",
-      "descendants": 0,
-      "id": 31087533,
-      "score": 2,
-      "time": 1650395637,
-      "title": "Bad but interesting mathematical notation idea",
-      "type": "story",
-      "url": "https://blog.plover.com/math/se/notation.html"
     }
   ]
 }
