@@ -1,104 +1,111 @@
 {
   "stories": [
     {
-      "by": "sjcsjc",
+      "by": "clessg",
       "descendants": 0,
-      "id": 31082640,
+      "id": 31082702,
       "score": 1,
-      "text": "I have a feeling this is a stupid question, but I&#x27;ll ask it anyway.<p>I&#x27;ve just been scaring myself with videos about the Carrington Event. Does anyone on here know if putting external hard drives in a microwave oven during a Carrington-level solar storm would protect them?",
-      "time": 1650374065,
-      "title": "Ask HN: Using a microwave oven as a Faraday cage in a big solar storm",
-      "type": "story"
-    },
-    {
-      "by": "ahmetomer",
-      "descendants": 0,
-      "id": 31082635,
-      "score": 1,
-      "time": 1650374044,
-      "title": "Rumil's Outward Spiral Algorithm on JavaScript Canvas",
+      "time": 1650374406,
+      "title": "The Front-End Developer's Guide to the Terminal",
       "type": "story",
-      "url": "https://ahmetomer.net/rumils-outward-spiral-algorithm-on-javascript-canvas/"
+      "url": "https://www.joshwcomeau.com/javascript/terminal-for-js-devs/"
     },
     {
-      "by": "shounak594",
-      "descendants": 0,
-      "id": 31082632,
+      "by": "NM_Ricky",
+      "descendants": 1,
+      "id": 31082700,
+      "kids": [
+        31082701
+      ],
       "score": 1,
-      "time": 1650374011,
-      "title": "SaaS Landing page teardown: What not to do",
+      "time": 1650374404,
+      "title": "Sparseserver.ui – test the performance of Sparse Transformers",
       "type": "story",
-      "url": "https://marketcurve.substack.com/p/focusmate-landing-page-teardown"
+      "url": "https://github.com/neuralmagic/deepsparse/tree/main/examples/sparseserver-ui"
     },
     {
-      "by": "philk10",
+      "by": "helsinkiandrew",
       "descendants": 0,
-      "id": 31082624,
+      "id": 31082688,
       "score": 1,
-      "time": 1650373969,
-      "title": "Benchmarking: What Is It, and How Should You Incorporate It?",
+      "time": 1650374349,
+      "title": "King of the ‘Lunatics’ Becomes Bitcoin’s Most-Watched Whale",
       "type": "story",
-      "url": "https://spin.atomicobject.com/2022/04/19/benchmarking-exercises/"
+      "url": "https://www.bloomberg.com/news/features/2022-04-19/terraform-s-do-kwon-s-huge-bitcoin-buys-catch-crypto-billionaires-attention"
     },
     {
-      "by": "mzs",
+      "by": "snewman",
       "descendants": 0,
-      "id": 31082615,
+      "id": 31082687,
       "score": 1,
-      "time": 1650373929,
-      "title": "What are the ripple effects of sanctioning Russia's richest and most powerful?",
+      "time": 1650374347,
+      "title": "Everyone gets numbers wrong, even the New York Times",
       "type": "story",
-      "url": "https://www.npr.org/2022/04/19/1093477480/what-are-the-ripple-effects-of-sanctioning-russias-richest-and-most-powerful"
+      "url": "https://climateer.substack.com/p/numbers"
     },
     {
-      "by": "aresant",
+      "by": "0xedb",
       "descendants": 0,
-      "id": 31082610,
+      "id": 31082686,
+      "score": 1,
+      "time": 1650374344,
+      "title": "Robinhood Signs Agreement to Acquire Ziglu",
+      "type": "story",
+      "url": "https://blog.robinhood.com/news/2022/4/19/robinhood-signs-agreement-to-acquire-ziglu"
+    },
+    {
+      "by": "jpcapdevila",
+      "descendants": 0,
+      "id": 31082676,
       "score": 2,
-      "time": 1650373908,
-      "title": "I brought my childhood imaginary friend back to life using A.I",
+      "text": "Hi HN!<p>I’d like to share with you my project: JSDB.<p>Two months ago I had this thought while reviewing a PR on a web application. What if I didn’t have to write code to communicate with my backend or database?<p>It would be fun to just use arrays and objects like you normally do in javascript and have things magically save.<p>That weekend I hacked together something that used proxies and classes to ‘magically’ send data to your backend when you assign or access properties in an object or array. Using the same API you already know.<p>This means you can save data like this: items[x] = {a:2,b:false} and read data like this: console.log(await items[x].a) or console.log(await items.find(o =&gt; o.a === 2))<p>While sharing it with some devs I started to get comments like this? “Wow that’s super simple. Is it secure?”<p>So I started building a platform around this idea. A platform that allows javascript developers to write full stack applications, with the least overhead possible and just writing javascript.<p>Security Rules are JS functions, files are simply assigned to an object property, triggers are JS functions etc. Everything is javascript! Check the docs: <a href=\"https:&#x2F;&#x2F;javascriptdb.com&#x2F;docs\" rel=\"nofollow\">https:&#x2F;&#x2F;javascriptdb.com&#x2F;docs</a><p>Why?<p>Because there are developers that can write code using arrays and objects but are not confident with backend code.<p>I would like to lower that barrier and empower every developer that knows JS to be full stack with the least effort possible.<p>For experienced developers, less boilerplate means less bugs and faster product cycles. I like to think that JSDB is positively influenced by this post from Rich Harris: <a href=\"https:&#x2F;&#x2F;svelte.dev&#x2F;blog&#x2F;write-less-code\" rel=\"nofollow\">https:&#x2F;&#x2F;svelte.dev&#x2F;blog&#x2F;write-less-code</a><p>Aren’t there other platforms that solve this problem?<p>Yes, there’s some great efforts. Supabase recently had a killer launch week and I have tons of respect for what they’ve accomplished.<p>JSDB targets the javascript lovers, the devs that rather just write javascript and would like to avoid sql if possible. By design it will only work on javascript codebases.<p>Is this production ready?<p>No! It’s still an MVP, designed to show the idea and where I’m going.\nThat&#x27;s also why there are limited spots for the hosted preview alpha.<p>If this sounds interesting check this demo: <a href=\"https:&#x2F;&#x2F;youtu.be&#x2F;xs30II7HNBQ\" rel=\"nofollow\">https:&#x2F;&#x2F;youtu.be&#x2F;xs30II7HNBQ</a>\nDocs: <a href=\"https:&#x2F;&#x2F;javascriptdb.com&#x2F;docs\" rel=\"nofollow\">https:&#x2F;&#x2F;javascriptdb.com&#x2F;docs</a>\nWebsite: <a href=\"https:&#x2F;&#x2F;javascriptdb.com\" rel=\"nofollow\">https:&#x2F;&#x2F;javascriptdb.com</a>\nGithub: <a href=\"https:&#x2F;&#x2F;github.com&#x2F;javascriptdb\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;javascriptdb</a><p>Looking forward to getting candid feedback :)",
+      "time": 1650374271,
+      "title": "Show HN: JavaScript as a Database – Serverless Platform",
       "type": "story",
-      "url": "https://twitter.com/_lucasrizzotto/status/1516205625662836739"
+      "url": "https://javascriptdb.com"
     },
     {
-      "by": "nsoonhui",
+      "by": "Hexadecible",
       "descendants": 0,
-      "id": 31082609,
+      "id": 31082675,
       "score": 1,
-      "time": 1650373899,
-      "title": "Deceptively Aligned Mesa-Optimizers: It's Not Funny If I Have to Explain It",
+      "time": 1650374256,
+      "title": "Show HN: I built a Node.js library for creating encrypted peer-to-peer apps",
       "type": "story",
-      "url": "https://astralcodexten.substack.com/p/deceptively-aligned-mesa-optimizers"
+      "url": "https://github.com/Telios-org/nebula"
     },
     {
-      "by": "ushakov",
+      "by": "animal_spirits",
       "descendants": 0,
-      "id": 31082582,
+      "id": 31082673,
       "score": 1,
-      "time": 1650373732,
-      "title": "Honorific Nicknames in Popular Music",
+      "time": 1650374253,
+      "title": "War Is a Racket",
       "type": "story",
-      "url": "https://en.wikipedia.org/wiki/Honorific_nicknames_in_popular_music"
+      "url": "https://www.wanttoknow.info/warisaracket"
     },
     {
-      "by": "app4soft",
+      "by": "mhb",
       "descendants": 0,
-      "id": 31082567,
-      "score": 2,
-      "time": 1650373637,
-      "title": "The online archive of Russian war crimes has been created",
+      "id": 31082670,
+      "score": 1,
+      "time": 1650374220,
+      "title": "Europe Targets Self-Hosted Bitcoin Wallets – and Financial Privacy",
       "type": "story",
-      "url": "https://uinp.gov.ua/pres-centr/novyny/stvorenno-onlayn-arhiv-voyennyh-zlochyniv-rosiyi-the-online-archive-of-russian-war-crimes-has-been-created"
+      "url": "https://reason.com/2022/04/19/europe-targets-self-hosted-bitcoin-wallets-and-financial-privacy/"
     },
     {
-      "by": "Maiuran",
+      "by": "cgaebel",
       "descendants": 0,
-      "id": 31082535,
-      "score": 3,
-      "time": 1650373466,
-      "title": "Show HN: Mona – rent remote work setup for $30/month",
+      "id": 31082644,
+      "kids": [
+        31082656
+      ],
+      "score": 1,
+      "time": 1650374110,
+      "title": "Janestreet/Magic-Trace",
       "type": "story",
-      "url": "https://www.remote.mona.rent/"
+      "url": "https://github.com/janestreet/magic-trace"
     }
   ]
 }
