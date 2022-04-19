@@ -1,6 +1,76 @@
 {
   "stories": [
     {
+      "by": "okasaki",
+      "descendants": 0,
+      "id": 31087766,
+      "score": 1,
+      "time": 1650396518,
+      "title": "Former eBay Security Director to Plead Guilty to Cyberstalking",
+      "type": "story",
+      "url": "https://www.bloomberg.com/news/articles/2022-04-19/former-ebay-security-director-to-plead-guilty-to-cyberstalking"
+    },
+    {
+      "by": "hbcondo714",
+      "descendants": 0,
+      "id": 31087758,
+      "score": 1,
+      "time": 1650396488,
+      "title": "Scientists Invent Device for Optimally Separating Oreos",
+      "type": "story",
+      "url": "https://gizmodo.com/oreometer-oreo-cookie-device-1848811412"
+    },
+    {
+      "by": "rsecora",
+      "descendants": 0,
+      "id": 31087746,
+      "score": 1,
+      "time": 1650396468,
+      "title": "AI can help reverse-engineer malware: Predicting function names of code",
+      "type": "story",
+      "url": "https://www.theregister.com/2022/03/26/machine_learning_malware/"
+    },
+    {
+      "by": "Tomte",
+      "descendants": 0,
+      "id": 31087734,
+      "score": 1,
+      "time": 1650396407,
+      "title": "The Hustler at the End of the World",
+      "type": "story",
+      "url": "https://www.theverge.com/c/23010055/pandemic-ppe-supply-chain-gloves-coronavirus"
+    },
+    {
+      "by": "Tomte",
+      "descendants": 0,
+      "id": 31087729,
+      "score": 1,
+      "time": 1650396389,
+      "title": "Strategic Delay in Newsletter Notification at Launch (2021)",
+      "type": "story",
+      "url": "https://stonemaiergames.com/strategic-delay-in-newsletter-notification-at-launch-ks-lesson-279/"
+    },
+    {
+      "by": "merlinscholz",
+      "descendants": 0,
+      "id": 31087726,
+      "score": 2,
+      "time": 1650396386,
+      "title": "Minisleep – A Tiny Wiki Engine",
+      "type": "story",
+      "url": "http://halestrom.net/darksleep/software/minisleep/"
+    },
+    {
+      "by": "_Microft",
+      "descendants": 0,
+      "id": 31087712,
+      "score": 1,
+      "time": 1650396357,
+      "title": "Review: Playdate earns its $179 price tag with cute design, memorable games",
+      "type": "story",
+      "url": "https://arstechnica.com/gaming/2022/04/review-playdate-earns-its-179-price-tag-with-cute-design-memorable-games/"
+    },
+    {
       "by": "samokhvalov",
       "descendants": 0,
       "id": 31087677,
@@ -29,76 +99,6 @@
       "title": "Stitch It in Time: GAN-Based Facial Editing of Real Videos",
       "type": "story",
       "url": "https://stitch-time.github.io/"
-    },
-    {
-      "by": "amrrs",
-      "descendants": 0,
-      "id": 31087584,
-      "score": 1,
-      "time": 1650395857,
-      "title": "Don't become a data scientist in 2022 [video]",
-      "type": "story",
-      "url": "https://www.youtube.com/watch?v=tU2X9swQcjs"
-    },
-    {
-      "by": "CarCooler",
-      "descendants": 0,
-      "id": 31087583,
-      "score": 2,
-      "time": 1650395856,
-      "title": "Tesla confirms the cutoff date for removal of Mobile Connector for new orders",
-      "type": "story",
-      "url": "https://www.teslaoracle.com/2022/04/19/tesla-confirms-the-cutoff-date-for-mobile-connector/"
-    },
-    {
-      "by": "customizable",
-      "descendants": 0,
-      "id": 31087579,
-      "score": 1,
-      "time": 1650395838,
-      "title": "Our Experience with PostgreSQL on ZFS",
-      "type": "story",
-      "url": "https://lackofimagination.org/2022/04/our-experience-with-postgresql-on-zfs/"
-    },
-    {
-      "by": "beefman",
-      "descendants": 0,
-      "id": 31087557,
-      "score": 1,
-      "time": 1650395751,
-      "title": "Convey – Quality Public Dialogue",
-      "type": "story",
-      "url": "https://convey.earth/"
-    },
-    {
-      "by": "tptacek",
-      "descendants": 0,
-      "id": 31087553,
-      "score": 1,
-      "time": 1650395737,
-      "title": "Vulnerabilities Affecting Girault, Bulletproofs, and PlonK",
-      "type": "story",
-      "url": "https://blog.trailofbits.com/2022/04/13/part-1-coordinated-disclosure-of-vulnerabilities-affecting-girault-bulletproofs-and-plonk/"
-    },
-    {
-      "by": "ThemalSpan",
-      "descendants": 0,
-      "id": 31087550,
-      "score": 2,
-      "text": "Not sure where else to post<p>I work on some CPU intensive software written in C++ and multithreaded with with OpenMP. This software has not been scaling how I would expect on my M1 Max MacBook. Notably, when I use 10 threads I see in activity monitor that the process has the expected number of threads but only seems to be getting scheduled on the the two efficiency cores for long runs. This is not ideal.<p>I’m not sure where to begin diagnosing this issue. Some relevant information:<p>* I’ve been using the llvm-13 toolchain packaged by home-brew since the toolchain included with macOS does not support openMP<p>* Simple OpenMP for loops behave how I would expect and seem to get scheduled to all cores. The issue seems to be for long-running processes.<p>* For the project in question, the runtime bottle neck of the code is the OpenMP accelerated solvers from AMGCL, and this is where I get hit with the only-getting-scheduled-on-efficiency cores issue.<p><pre><code>    \\* https:&#x2F;&#x2F;github.com&#x2F;ddemidov&#x2F;amgcl\n\n    \\* There doesn’t seem to be any unusual OpenMP primitives in AMGCL\n</code></pre>\n* Using OMP_NUM_THREADS to use less than 10 threads (like 2 - 6), the process sometimes gets scheduled on performance cores, but this does not seem to be a guarantee.<p>What are some tools &#x2F; leads for diagnosing why my the simulation process tends to get scheduled onto efficiency cores? What are some options for changing how my process get scheduled?",
-      "time": 1650395722,
-      "title": "Ask HN: My process only gets scheduled on M1 efficiency cores",
-      "type": "story"
-    },
-    {
-      "by": "mfiguiere",
-      "descendants": 0,
-      "id": 31087544,
-      "score": 1,
-      "time": 1650395700,
-      "title": "TikTok owner ByteDance enters market for large-screen operating systems",
-      "type": "story",
-      "url": "https://www.scmp.com/tech/big-tech/article/3174781/tiktok-owner-bytedance-enters-market-large-screen-operating-systems"
     }
   ]
 }
