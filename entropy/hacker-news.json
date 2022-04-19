@@ -1,6 +1,79 @@
 {
   "stories": [
     {
+      "by": "skilled",
+      "descendants": 0,
+      "id": 31086661,
+      "score": 1,
+      "time": 1650391781,
+      "title": "Goodbye, Google Analytics",
+      "type": "story",
+      "url": "https://martinheinz.dev/blog/71"
+    },
+    {
+      "by": "kashnote",
+      "descendants": 0,
+      "id": 31086651,
+      "score": 1,
+      "text": "I have two scenarios where I want to store certain values outside of my main database and I&#x27;m looking for a SaaS solution.<p>1: When a user joins my website, I want to show them a Welcome popup. Once they see this popup, I want to mark has_seen_welcome_popup to true. Next time they log in, I&#x27;ll know not to show it to them. This is just one example. I may want to have a dozen of these sort of values defined per user.<p>2: Let&#x27;s say I have a banner on the landing page that says &quot;40% off&quot; and I want to change that to &quot;30% off.&quot; Instead of making a code change, I want to make this change in some sort of UI in the SaaS and have it update automatically.<p>---<p>Basically just need a place to store little things that I don&#x27;t really want to store in the main database. And some nice UI where I can toggle those values as an admin without touching the prod DB.<p>My initial thought is to use Airtable but I&#x27;m not sure if there is something more purpose-built for this sort of scenario.",
+      "time": 1650391708,
+      "title": "Ask HN: A Dumb Database?",
+      "type": "story"
+    },
+    {
+      "by": "rl1987",
+      "descendants": 0,
+      "id": 31086646,
+      "score": 1,
+      "time": 1650391691,
+      "title": "Compiling Python Programs with Pyinstaller",
+      "type": "story",
+      "url": "https://www.trickster.dev/post/compiling-python-programs-with-pyinstaller/"
+    },
+    {
+      "by": "RadixDLT",
+      "descendants": 1,
+      "id": 31086636,
+      "kids": [
+        31086644
+      ],
+      "score": 1,
+      "time": 1650391655,
+      "title": "Einstein wasn’t a “lone genius” after all",
+      "type": "story",
+      "url": "https://medium.com/starts-with-a-bang/einstein-wasnt-a-lone-genius-after-all-8c883b25f3d2"
+    },
+    {
+      "by": "Ashoka_rkt",
+      "descendants": 0,
+      "id": 31086632,
+      "score": 1,
+      "time": 1650391643,
+      "title": "How this alopecia advocate is breaking beauty standards",
+      "type": "story",
+      "url": "https://www.youtube.com/watch?v=6Oyel4dCDko"
+    },
+    {
+      "by": "tipeXwins",
+      "descendants": 0,
+      "id": 31086628,
+      "score": 1,
+      "time": 1650391633,
+      "title": "BBVA Cybersecurity Training",
+      "type": "story",
+      "url": "https://www.bbva.com/en/bbva-opens-up-its-cybersecurity-training-content-after-training-60000-employees/"
+    },
+    {
+      "by": "Trouble_007",
+      "descendants": 0,
+      "id": 31086625,
+      "score": 1,
+      "time": 1650391606,
+      "title": "The world’s coastal cities are sinking, but not for the reason you think",
+      "type": "story",
+      "url": "https://qz.com/2155497/coastal-cities-are-sinking-faster-than-sea-level-rise/"
+    },
+    {
       "by": "oblib",
       "descendants": 0,
       "id": 31086549,
@@ -14,7 +87,7 @@
       "by": "rbanffy",
       "descendants": 0,
       "id": 31086486,
-      "score": 1,
+      "score": 2,
       "time": 1650390939,
       "title": "A Fatter FatScreen Part 1 – Lenses",
       "type": "story",
@@ -22,86 +95,16 @@
     },
     {
       "by": "aluket",
-      "descendants": 0,
+      "descendants": 1,
       "id": 31086470,
-      "score": 1,
+      "kids": [
+        31086612
+      ],
+      "score": 2,
       "time": 1650390888,
       "title": "F1's level playing field rules have impacted computer chip choices",
       "type": "story",
       "url": "https://www.autosport.com/f1/news/how-f1s-level-playing-field-rules-have-impacted-computer-chip-choices/10040281/"
-    },
-    {
-      "by": "rbanffy",
-      "descendants": 1,
-      "id": 31086461,
-      "kids": [
-        31086505
-      ],
-      "score": 2,
-      "time": 1650390836,
-      "title": "Effects of media on viewers’ beliefs: A field experiment with Fox News viewers",
-      "type": "story",
-      "url": "https://osf.io/jrw26/"
-    },
-    {
-      "by": "bagansio",
-      "descendants": 0,
-      "id": 31086456,
-      "score": 1,
-      "text": "HIIII",
-      "time": 1650390814,
-      "title": "TEST1",
-      "type": "story"
-    },
-    {
-      "by": "etataetaet",
-      "descendants": 0,
-      "id": 31086446,
-      "score": 1,
-      "time": 1650390754,
-      "title": "TF2 servers that run on Windows give more metal than Linux [video]",
-      "type": "story",
-      "url": "https://www.youtube.com/watch?v=QzZoo1yAQag"
-    },
-    {
-      "by": "geox",
-      "descendants": 0,
-      "id": 31086444,
-      "score": 2,
-      "time": 1650390742,
-      "title": "Putin signs decree to remove Russian stocks from overseas exchanges",
-      "type": "story",
-      "url": "https://markets.businessinsider.com/news/stocks/putin-decree-russian-billionaires-tycoons-foreign-stock-listings-ukraine-2022-4"
-    },
-    {
-      "by": "jdorfman",
-      "descendants": 0,
-      "id": 31086440,
-      "score": 1,
-      "time": 1650390725,
-      "title": "How is unsafe Rust code used in practice?",
-      "type": "story",
-      "url": "https://twitter.com/codestat_dev/status/1516231239828586500"
-    },
-    {
-      "by": "jacobobryant",
-      "descendants": 0,
-      "id": 31086419,
-      "score": 2,
-      "time": 1650390655,
-      "title": "Platypub: Plans for building a blogging platform with Biff/Clojure",
-      "type": "story",
-      "url": "https://biffweb.com/p/platypub-plans/"
-    },
-    {
-      "by": "Nic0",
-      "descendants": 0,
-      "id": 31086413,
-      "score": 1,
-      "time": 1650390644,
-      "title": "Introduction to FinOps",
-      "type": "story",
-      "url": "https://nsirap.com/posts/058-introduction-to-finops/"
     }
   ]
 }
