@@ -1,11 +1,54 @@
 {
   "stories": [
     {
+      "by": "mountainview",
+      "descendants": 0,
+      "id": 31095915,
+      "score": 1,
+      "time": 1650457949,
+      "title": "Apache Pulsar vs. Apache Kafka 2022 Benchmark",
+      "type": "story",
+      "url": "https://streamnative.io/blog/engineering/2022-04-07-pulsar-vs-kafka-benchmark/"
+    },
+    {
+      "by": "WoodenChair",
+      "descendants": 0,
+      "id": 31095914,
+      "score": 1,
+      "time": 1650457947,
+      "title": "The Software Strip – Low Cost Software on Paper",
+      "type": "story",
+      "url": "https://archive.org/details/MacUser8604April1986"
+    },
+    {
+      "by": "vardhanw",
+      "descendants": 1,
+      "id": 31095893,
+      "kids": [
+        31095894
+      ],
+      "score": 1,
+      "time": 1650457826,
+      "title": "Lucky discovery involving lithium-sulfur batteries",
+      "type": "story",
+      "url": "https://www.freethink.com/environment/lithium-sulfur-battery"
+    },
+    {
+      "by": "patrickz",
+      "descendants": 0,
+      "id": 31095892,
+      "score": 1,
+      "time": 1650457804,
+      "title": "Show HN: Play Lo-Fi music without YouTube",
+      "type": "story",
+      "url": "https://lofibox.patzhong.com/"
+    },
+    {
       "by": "george_ciobanu",
       "descendants": 0,
       "id": 31095872,
       "score": 1,
-      "text": "https:&#x2F;&#x2F;human.software<p>Only supported DB as a data source is Postgres.<p>Note 1: to create account enter your email and press Login&#x2F;Signup. It will create a new account if it does not exist\nNote 2: Ignore the &quot;Cannot connect to datasource&quot; error message\nNote 3: When you create a datasource, the tool connects to the DB and downloads the schema.\nNote 4: There is a bug in Top10, don&#x27;t use it.<p>This is a tool I built to extract data from relational databases more easily, and I think&#x2F;hope non-tech people will appreciate it. I know the UX needs a lot of love but I am happy with the overall process of asking a question and getting the answer.<p>The FAQ section is not updated from the template I used :-)",
+      "text": "https:&#x2F;&#x2F;human.software &lt;- don&#x27;t know how to make this a link, my apologies.<p>Only supported DB as a data source is Postgres.<p>Note 1: to create account enter your email and press Login&#x2F;Signup. It will create a new account if it does not exist<p>Note 2: Ignore the &quot;Cannot connect to datasource&quot; error message<p>Note 3: When you create a datasource, the tool connects to the DB and downloads the schema.<p>Note 4: There is a bug in Top10, don&#x27;t use it.<p>Note 5: you can see the generated SQL in the console if you want to<p>This is a tool I built to extract data from relational databases more easily, and I think&#x2F;hope non-tech people will appreciate it. I know the UX needs a lot of love but I am happy with the overall process of asking a question and getting the answer.<p>The FAQ section is not updated from the template I used :-)",
       "time": 1650457678,
       "title": "Show HN: Visual data language (no-code SQL for non-technical ppl)",
       "type": "story"
@@ -32,8 +75,11 @@
     },
     {
       "by": "maskedinvader",
-      "descendants": 0,
+      "descendants": 1,
       "id": 31095846,
+      "kids": [
+        31095916
+      ],
       "score": 1,
       "time": 1650457576,
       "title": "Cannabis Affects Our Cognition and Psychology",
@@ -65,55 +111,6 @@
       "title": "Scribo AI",
       "type": "story",
       "url": "https://www.scribo.ai"
-    },
-    {
-      "by": "kachrago",
-      "descendants": 1,
-      "id": 31095764,
-      "kids": [
-        31095765
-      ],
-      "score": 1,
-      "time": 1650456987,
-      "title": "Did the best wheat come from Georgia?",
-      "type": "story",
-      "url": "https://trulycurious.com/2022/04/19/did-best-wheat-come-from-georgia/"
-    },
-    {
-      "by": "rax0m",
-      "descendants": 0,
-      "id": 31095751,
-      "score": 1,
-      "time": 1650456891,
-      "title": "Me Too (2004)",
-      "type": "story",
-      "url": "https://techcommunity.microsoft.com/t5/exchange-team-blog/me-too/ba-p/610643"
-    },
-    {
-      "by": "EntICOnc",
-      "descendants": 1,
-      "id": 31095733,
-      "kids": [
-        31095793
-      ],
-      "score": 1,
-      "time": 1650456780,
-      "title": "Gushio-Like bash scripts, but in JavaScript",
-      "type": "story",
-      "url": "https://github.com/Forge-Srl/gushio"
-    },
-    {
-      "by": "5ESS",
-      "descendants": 1,
-      "id": 31095709,
-      "kids": [
-        31095829
-      ],
-      "score": 6,
-      "text": "I stumbled across an interesting app called “CrimeFlare” and what it does is reveal the real IP website’s using Cloudflare’s Ddos Mitigation Service.<p>CloudFlare had it taken down. https:&#x2F;&#x2F;github.com&#x2F;zidansec&#x2F;CrimeFlare<p>I’m assuming it does this by scanning the public internet in it’s entirely, indexing the domains. (A household fiber connection can scan the entire IPv4 space in a mere matter of weeks)<p>This is obviously a huge threat to CloudFlare’s entire business model and it totally makes sense that they want to bury this.<p>I just fail to understand what grounds they have to take something like this down. Internet IPs are public knowledge and these websites are publicly accessible. Just because Cloudflare built a billion dollar buisness exploiting the fact that sites “real” IPs can be hidden through obscurity, doesn’t mean they should be able to censor&#x2F;takedown apps that expose the flaw in their business plan!<p>Anyways, I intend to create a new internet-wide scanning system in order to revive the functionality of  CrimeFlare just to prove a point that security through obscurity is no security and all, and that CloudFlare doesn’t have the right to take something like this down!",
-      "time": 1650456609,
-      "title": "Ask HN: What gives Cloudflare the right to takedown apps revealing site real IP?",
-      "type": "story"
     }
   ]
 }
