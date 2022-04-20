@@ -1,13 +1,53 @@
 {
   "stories": [
     {
+      "by": "pseudolus",
+      "descendants": 0,
+      "id": 31097832,
+      "score": 1,
+      "time": 1650466474,
+      "title": "The brain-reading devices helping paralysed people to move, talk and touch",
+      "type": "story",
+      "url": "https://www.nature.com/articles/d41586-022-01047-w"
+    },
+    {
+      "by": "andrew_",
+      "descendants": 0,
+      "id": 31097819,
+      "score": 1,
+      "text": "For the last few months, we&#x27;ve been running our database migrations using Go and Goose [1] within our Github Actions workflows as a step that completes after a successful asset deployment. For the sake of the post, assume that the deployed &quot;thing&quot; is a lambda function. Installing Go and Goose for each deployment run costs us about a minute and a half, to two minutes, depending on Github Actions&#x27; mood that day. It&#x27;s a chunk that I&#x27;d like to remove from our deployment runs, as maybe 1 out of every 100 deployments has a database migration in tow. Separating the db migrations and Go&#x2F;Goose installs into a separate job that runs based on whether or not the migrations directory has changes, dependent on the deployment job (or vise versa), seems like a good way to go. However, that presents some race conditions and there doesn&#x27;t seem to be much (that I could find) written on best practices for this scenario. Here are the conditions I&#x27;ve come up with:<p>1. if a migration is run first, then the current thing running against the db could start erroring<p>2. if a migration is run first, and the deployment fails, a migrate down needs to be immediately performed, the current thing errors until done<p>3. if a migration is run last, then the new deployed thing could error for a hot moment while migration is running<p>4. if a migration is run last and fails, then the new deployed thing could error until the migration is fixed<p>Presently, we&#x27;re taking the latter approach in running migrations last. We haven&#x27;t hit any snags there... yet. But the team is small and I&#x27;m trying to plan around eventual expansion. What does HN think?<p>[1] https:&#x2F;&#x2F;github.com&#x2F;pressly&#x2F;goose",
+      "time": 1650466425,
+      "title": "Ask HN: DB Migration and Deployment Race Strategy",
+      "type": "story"
+    },
+    {
+      "by": "danny00",
+      "descendants": 0,
+      "id": 31097807,
+      "score": 1,
+      "time": 1650466383,
+      "title": "Monte is a nascent dynamic programming language reminiscent of Python and E",
+      "type": "story",
+      "url": "http://www.monte-language.org/"
+    },
+    {
+      "by": "ida-silver",
+      "descendants": 0,
+      "id": 31097792,
+      "score": 1,
+      "time": 1650466307,
+      "title": "If you don't want to get tracked: DuckDuckGo’s Extensions",
+      "type": "story",
+      "url": "https://www.theverge.com/2022/4/20/23033522/duckduckgo-browsers-extensions-amp-google-tracking-privacy"
+    },
+    {
       "by": "mzs",
       "descendants": 1,
       "id": 31097727,
       "kids": [
         31097762
       ],
-      "score": 1,
+      "score": 2,
       "time": 1650465999,
       "title": "Tesla Shanghai to Enter “Closed-Loop” System with Workers Sleeping in Factory",
       "type": "story",
@@ -62,52 +102,6 @@
       "title": "Ubuntu market-share is in a nosedive",
       "type": "story",
       "url": "https://lunduke.substack.com/p/ubuntu-market-share-is-in-a-nosedive"
-    },
-    {
-      "by": "tychonoff",
-      "descendants": 0,
-      "id": 31097599,
-      "kids": [
-        31097617
-      ],
-      "score": 3,
-      "text": "Who knew that the transitivity of equality could be so dangerous?<p>https:&#x2F;&#x2F;www.washingtonpost.com&#x2F;opinions&#x2F;2022&#x2F;04&#x2F;19&#x2F;florida-math-textbooks-critical-race-theory&#x2F;",
-      "time": 1650465467,
-      "title": "DeSantis saves Florida kids from being indoctrinated with math",
-      "type": "story"
-    },
-    {
-      "by": "kome",
-      "descendants": 0,
-      "id": 31097591,
-      "score": 1,
-      "time": 1650465416,
-      "title": "Julian Assange's US extradition order for final approval",
-      "type": "story",
-      "url": "https://www.bbc.com/news/uk-61162908"
-    },
-    {
-      "by": "hubraumhugo",
-      "descendants": 0,
-      "id": 31097590,
-      "score": 1,
-      "time": 1650465414,
-      "title": "Reviews on how a product performed over its life instead of when it arrived",
-      "type": "story",
-      "url": "https://www.exitreviews.com"
-    },
-    {
-      "by": "thinkmassive",
-      "descendants": 1,
-      "id": 31097583,
-      "kids": [
-        31097631
-      ],
-      "score": 1,
-      "time": 1650465392,
-      "title": "Lightning Network, Age 4",
-      "type": "story",
-      "url": "https://thebitcoinlayer.substack.com/p/lightning-network-age-4"
     }
   ]
 }
