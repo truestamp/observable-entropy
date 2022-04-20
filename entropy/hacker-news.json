@@ -1,6 +1,69 @@
 {
   "stories": [
     {
+      "by": "ibobev",
+      "descendants": 0,
+      "id": 31101451,
+      "score": 1,
+      "time": 1650481474,
+      "title": "New Sponza Scene Available from Intel Graphics Research",
+      "type": "story",
+      "url": "https://www.intel.com/content/www/us/en/developer/topic-technology/graphics-research/samples.html"
+    },
+    {
+      "by": "pimterry",
+      "descendants": 0,
+      "id": 31101449,
+      "score": 1,
+      "time": 1650481469,
+      "title": "Linux on the Framework Laptop",
+      "type": "story",
+      "url": "https://frame.work/linux"
+    },
+    {
+      "by": "Tomte",
+      "descendants": 0,
+      "id": 31101422,
+      "score": 1,
+      "time": 1650481366,
+      "title": "From Pickup Artist to Pariah (2016)",
+      "type": "story",
+      "url": "https://www.thecut.com/2016/01/jared-rutledge-pickup-artist-c-v-r.html"
+    },
+    {
+      "by": "Tomte",
+      "descendants": 0,
+      "id": 31101419,
+      "score": 1,
+      "time": 1650481352,
+      "title": "From Harlem to Herrang: An Original Lindy Hopper Blooms in Sweden (2018)",
+      "type": "story",
+      "url": "https://www.nytimes.com/2018/08/10/arts/dance/lindy-hop-herrang-norma-miller.html"
+    },
+    {
+      "by": "digital55",
+      "descendants": 0,
+      "id": 31101409,
+      "score": 1,
+      "time": 1650481321,
+      "title": "Pondering the Bits That Build Space-Time and Brains",
+      "type": "story",
+      "url": "https://www.quantamagazine.org/pondering-the-bits-that-build-space-time-and-brains-20220420/"
+    },
+    {
+      "by": "loquetapetezca",
+      "descendants": 2,
+      "id": 31101400,
+      "kids": [
+        31101401
+      ],
+      "score": 1,
+      "time": 1650481241,
+      "title": "Falo",
+      "type": "story",
+      "url": "https://www.mediamarkt.es/es/product/_auriculares-inal%C3%A1mbricos-sony-wh-1000xm4s-bluetooth-cancelaci%C3%B3n-de-ruido-autonom%C3%ADa-de-30h-hi-res-plata-1484374.html?ds_rl=1280902&ds_rl=1280902&gclid=CjwKCAiAv_KMBhAzEiwAs-rX1L_iLIgKz7ycIe9dkxptmcP3HXJ0SugYQj3p-VJewWkW0ZMu8XREYxoCOmEQAvD_BwE&gclsrc=aw.ds&utm_campaign=MM_ES_SEARCH_GOOGLE_CATEGORIES_PLA_PLA-SMART_PROMO-SECUNDARIOS_ALL_ALL&utm_medium=cpc&utm_source=google"
+    },
+    {
       "by": "loquetapetezca",
       "descendants": 0,
       "id": 31101388,
@@ -14,8 +77,8 @@
       "by": "cwkoss",
       "descendants": 0,
       "id": 31101347,
-      "score": 2,
-      "text": "I PM for a software engineering team.  Estimating the cost of implementing a new feature is a fairly squishy process, but our team has gotten reasonably good about it.  i.e. How many engineer weeks will it take to go from specification to released to customers?<p>However, I think it&#x27;s an even-harder problem to try to estimate what the ongoing maintenance costs of supporting that new feature will be.<p>- There will inevitably be some amount of bugs and&#x2F;or UX issues that need to be resolved soonish after release.<p>- Adding a new feature increases the cost of making changes throughout the system (ex. changing a db object that is queried by 4 different endpoints will be harder than one that is only queried by 3 endpoints, also dependency management with microservices)<p>- Having more code doing more things means that engineer spin-up and switching costs increase.<p>We currently just budget a proportion of each quarter to address technical debt and unexpected bug reports, but are finding this proportion is getting increasingly taxed by the growing feature set, and it can be a bit hard to justify to the suits.  Our a priori expectations of what the &#x27;system complexity&#x27; costs of different features still feels quite coarse.  There are some features that we maybe would have not prioritized as highly if we had been able to anticipate the downstream challenges that resulted from it.<p>Does anyone have good techniques that you use for comparatively forecasting how much the ongoing maintenance costs of a potential new feature will be? Our process currently feels too squishy and subjective, and I suspect someone here has found a better way. Or is this just an inherent challenge of software development planning that doesn&#x27;t have an easy solution?",
+      "score": 3,
+      "text": "I PM for a software engineering team.  Estimating the cost of implementing a new feature is a fairly squishy process, but our team has gotten reasonably good about it.  i.e. How many engineer weeks will it take to go from specification to released to customers?<p>However, I think it&#x27;s an even-harder problem to try to estimate what the ongoing maintenance costs of supporting that new feature will be.<p>- There will inevitably be some amount of bugs and&#x2F;or UX issues that need to be resolved soonish after release.<p>- Adding a new feature increases the cost of making future changes to the overall system (ex. changing a db object that is queried by 4 different endpoints will be harder than one that is only queried by 3 endpoints, also dependency management with microservices)<p>- Having more code doing more things means that engineer spin-up and switching costs increase.<p>We currently just budget a proportion of each quarter to address technical debt and unexpected bug reports, but are finding this proportion is getting increasingly taxed by the growing feature set, and it can be a bit hard to justify to the suits.  Our a priori expectations of what the &#x27;system complexity&#x27; costs of different features still feels quite coarse.  There are some features that we maybe would have not prioritized as highly if we had been able to anticipate the downstream challenges that resulted from it.<p>Does anyone have good techniques that you use for comparatively forecasting how much the ongoing maintenance costs of a potential new feature will be? Our process currently feels too squishy and subjective, and I suspect someone here has found a better way. Or is this just an inherent challenge of software development planning that doesn&#x27;t have an easy solution?",
       "time": 1650480959,
       "title": "Ask HN: How should the cost of maintaining new software features be forecast?",
       "type": "story"
@@ -25,9 +88,10 @@
       "descendants": 1,
       "id": 31101344,
       "kids": [
+        31101438,
         31101353
       ],
-      "score": 3,
+      "score": 5,
       "time": 1650480955,
       "title": "Jared Kushner’s $2.5B Pitch Deck",
       "type": "story",
@@ -42,66 +106,6 @@
       "title": "Bringing back the golden days of Bell Labs",
       "type": "story",
       "url": "https://www.nature.com/articles/s42254-022-00426-6"
-    },
-    {
-      "by": "emrahsamdan",
-      "descendants": 0,
-      "id": 31101338,
-      "score": 1,
-      "time": 1650480923,
-      "title": "Building Fullstack Apss with Sveltekit and Serverless Cloud",
-      "type": "story",
-      "url": "https://www.serverless.com//blog/how-to-use-serverless-cloud-with-sveltekit"
-    },
-    {
-      "by": "panic",
-      "descendants": 0,
-      "id": 31101332,
-      "score": 1,
-      "time": 1650480884,
-      "title": "Things I would like to see in a computer algebra system",
-      "type": "story",
-      "url": "https://fredrikj.net/blog/2022/04/things-i-would-like-to-see-in-a-computer-algebra-system/"
-    },
-    {
-      "by": "sprague",
-      "descendants": 0,
-      "id": 31101331,
-      "score": 1,
-      "time": 1650480877,
-      "title": "Can Crypto improve scientific research?",
-      "type": "story",
-      "url": "https://cointelegraph.com/magazine/2022/04/15/desci-tokens-help-improve-scientific-research"
-    },
-    {
-      "by": "perihelions",
-      "descendants": 0,
-      "id": 31101325,
-      "score": 1,
-      "time": 1650480861,
-      "title": "Project Rover",
-      "type": "story",
-      "url": "https://en.wikipedia.org/wiki/Project_Rover"
-    },
-    {
-      "by": "kazanins",
-      "descendants": 0,
-      "id": 31101319,
-      "score": 1,
-      "time": 1650480847,
-      "title": "Goldman executive behind Marcus brand leaves for investing startup Cadre",
-      "type": "story",
-      "url": "https://www.cnbc.com/2022/04/20/goldman-exec-dustin-cohn-leaves-for-real-estate-investing-start-up-cadre.html"
-    },
-    {
-      "by": "tchalla",
-      "descendants": 0,
-      "id": 31101310,
-      "score": 1,
-      "time": 1650480810,
-      "title": "Einstein wasn’t a “lone genius” after all",
-      "type": "story",
-      "url": "https://bigthink.com/starts-with-a-bang/einstein-lone-genius/"
     }
   ]
 }
