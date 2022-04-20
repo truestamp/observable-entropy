@@ -1,10 +1,51 @@
 {
   "stories": [
+    null,
+    {
+      "by": "rl1987",
+      "descendants": 0,
+      "id": 31101516,
+      "score": 1,
+      "time": 1650481769,
+      "title": "You probably don’t need AWS and are better off without it",
+      "type": "story",
+      "url": "https://www.trickster.dev/post/you-probably-dont-need-aws-and-are-better-off-without-it/"
+    },
+    {
+      "by": "marcodiego",
+      "descendants": 0,
+      "id": 31101509,
+      "score": 1,
+      "time": 1650481732,
+      "title": "Lucid Energize C++ Demo (1993)",
+      "type": "story",
+      "url": "https://www.youtube.com/watch?v=yLZwLSzkH3E"
+    },
+    {
+      "by": "ivanmaeder",
+      "descendants": 0,
+      "id": 31101483,
+      "score": 1,
+      "time": 1650481621,
+      "title": "NASA's Perseverance rover sees solar eclipse on Mars [video]",
+      "type": "story",
+      "url": "https://www.youtube.com/watch?v=aKK7vS2CHC8"
+    },
+    {
+      "by": "pjmlp",
+      "descendants": 0,
+      "id": 31101458,
+      "score": 1,
+      "time": 1650481539,
+      "title": "Hip RT – a ray tracing library in HIP",
+      "type": "story",
+      "url": "https://gpuopen.com/learn/introducing-hiprt/"
+    },
     {
       "by": "ibobev",
       "descendants": 0,
       "id": 31101451,
-      "score": 1,
+      "score": 2,
       "time": 1650481474,
       "title": "New Sponza Scene Available from Intel Graphics Research",
       "type": "story",
@@ -49,63 +90,6 @@
       "title": "Pondering the Bits That Build Space-Time and Brains",
       "type": "story",
       "url": "https://www.quantamagazine.org/pondering-the-bits-that-build-space-time-and-brains-20220420/"
-    },
-    {
-      "by": "loquetapetezca",
-      "descendants": 2,
-      "id": 31101400,
-      "kids": [
-        31101401
-      ],
-      "score": 1,
-      "time": 1650481241,
-      "title": "Falo",
-      "type": "story",
-      "url": "https://www.mediamarkt.es/es/product/_auriculares-inal%C3%A1mbricos-sony-wh-1000xm4s-bluetooth-cancelaci%C3%B3n-de-ruido-autonom%C3%ADa-de-30h-hi-res-plata-1484374.html?ds_rl=1280902&ds_rl=1280902&gclid=CjwKCAiAv_KMBhAzEiwAs-rX1L_iLIgKz7ycIe9dkxptmcP3HXJ0SugYQj3p-VJewWkW0ZMu8XREYxoCOmEQAvD_BwE&gclsrc=aw.ds&utm_campaign=MM_ES_SEARCH_GOOGLE_CATEGORIES_PLA_PLA-SMART_PROMO-SECUNDARIOS_ALL_ALL&utm_medium=cpc&utm_source=google"
-    },
-    {
-      "by": "loquetapetezca",
-      "descendants": 0,
-      "id": 31101388,
-      "score": 1,
-      "time": 1650481166,
-      "title": "El Que Sea editado",
-      "type": "story",
-      "url": "https://www.youtube.com/watch?v=X4OI1CVsdgc"
-    },
-    {
-      "by": "cwkoss",
-      "descendants": 0,
-      "id": 31101347,
-      "score": 3,
-      "text": "I PM for a software engineering team.  Estimating the cost of implementing a new feature is a fairly squishy process, but our team has gotten reasonably good about it.  i.e. How many engineer weeks will it take to go from specification to released to customers?<p>However, I think it&#x27;s an even-harder problem to try to estimate what the ongoing maintenance costs of supporting that new feature will be.<p>- There will inevitably be some amount of bugs and&#x2F;or UX issues that need to be resolved soonish after release.<p>- Adding a new feature increases the cost of making future changes to the overall system (ex. changing a db object that is queried by 4 different endpoints will be harder than one that is only queried by 3 endpoints, also dependency management with microservices)<p>- Having more code doing more things means that engineer spin-up and switching costs increase.<p>We currently just budget a proportion of each quarter to address technical debt and unexpected bug reports, but are finding this proportion is getting increasingly taxed by the growing feature set, and it can be a bit hard to justify to the suits.  Our a priori expectations of what the &#x27;system complexity&#x27; costs of different features still feels quite coarse.  There are some features that we maybe would have not prioritized as highly if we had been able to anticipate the downstream challenges that resulted from it.<p>Does anyone have good techniques that you use for comparatively forecasting how much the ongoing maintenance costs of a potential new feature will be? Our process currently feels too squishy and subjective, and I suspect someone here has found a better way. Or is this just an inherent challenge of software development planning that doesn&#x27;t have an easy solution?",
-      "time": 1650480959,
-      "title": "Ask HN: How should the cost of maintaining new software features be forecast?",
-      "type": "story"
-    },
-    {
-      "by": "hownottowrite",
-      "descendants": 1,
-      "id": 31101344,
-      "kids": [
-        31101438,
-        31101353
-      ],
-      "score": 5,
-      "time": 1650480955,
-      "title": "Jared Kushner’s $2.5B Pitch Deck",
-      "type": "story",
-      "url": "https://www.documentcloud.org/documents/21639665-affinity-deck-clean"
-    },
-    {
-      "by": "tchalla",
-      "descendants": 0,
-      "id": 31101342,
-      "score": 1,
-      "time": 1650480939,
-      "title": "Bringing back the golden days of Bell Labs",
-      "type": "story",
-      "url": "https://www.nature.com/articles/s42254-022-00426-6"
     }
   ]
 }
