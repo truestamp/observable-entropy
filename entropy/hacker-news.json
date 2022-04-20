@@ -1,6 +1,16 @@
 {
   "stories": [
     {
+      "by": "tartoran",
+      "descendants": 0,
+      "id": 31091203,
+      "score": 1,
+      "time": 1650414136,
+      "title": "Tumors partially destroyed with sound don't come back",
+      "type": "story",
+      "url": "https://medicalxpress.com/news/2022-04-tumors-partially-dont.html"
+    },
+    {
       "by": "pepys",
       "descendants": 0,
       "id": 31091118,
@@ -22,8 +32,11 @@
     },
     {
       "by": "FinnKuhn",
-      "descendants": 0,
+      "descendants": 1,
       "id": 31091072,
+      "kids": [
+        31091186
+      ],
       "score": 1,
       "time": 1650413185,
       "title": "AMD Epyc Servers a Key to Mercedes' F1 Team Success",
@@ -37,7 +50,7 @@
       "kids": [
         31091181
       ],
-      "score": 1,
+      "score": 2,
       "text": "<p><pre><code>    version=20210827;\n    test -d .&#x2F;tnftp-$version||exec echo .&#x2F;tnftp-$version missing;\n    test ! -f .&#x2F;tnftp-$version&#x2F;.PATCHED||exec echo already patched;\n    set -e;\n    cd .&#x2F;tnftp-$version;\n    ed make-static &lt;&lt; eof\n    i\n    .&#x2F;configure --enable-ipv6=no\n    make;\n    cd src;\n    gcc -static -g -O2 -o tnftp tnftp-cmds.o tnftp-cmdtab.o tnftp-complete.o tnftp-domacro.o tnftp-fetch.o tnftp-ftp.o tnftp-main.o tnftp-progressbar.o tnftp-ruserpass.o tnftp-ssl.o tnftp-util.o  ..&#x2F;libnetbsd&#x2F;.libs&#x2F;libnetbsd.a -ledit -lssl -lcrypto -lcurses;\n    exit\n    .\n    wq\n    eof\n    ed src&#x2F;fetch.c &lt;&lt; eof;\n    1143c\n    if(continuation!=1)\n    goto cleanup_fetch_url; \n    .\n    1141a\n    if(continuation!=1)\n    .\n    1094c\n    if(continuation!=1)\n    goto cleanup_fetch_url; \n    .\n    1091a\n    if (continuation!=1)\n    .\n    776a\n    const char *range;\n    if ((range = getenv(&quot;RANGE&quot;)) != NULL) {\n    if(continuation==1)fetch_printf(fin, &quot;Range: bytes=%s\\r\\n&quot;, range);\n    } \n    .\n    wq\n    eof\n    ed src&#x2F;ftp_var.h &lt;&lt; eof;\n    206a\n    GLOBAL int continuation; &#x2F;* specify RANGE *&#x2F;\n    .\n    wq\n    eof\n    ed src&#x2F;main.c &lt;&lt; eof;\n    1070s&#x2F;XFERSIZE]&#x2F;&amp; [-c RANGE]&#x2F;\n    .\n    300a\n    case &#x27;c&#x27;:\n    continuation = 1;\n    setenv(&quot;RANGE&quot;,optarg,1);\n    break;\n    .\n    #while((ch=getopt(argc,argv,...\n    279s&#x2F;ad&#x2F;ac:d&#x2F;\n    .\n    wq\n    eof\n    echo &gt; .PATCHED;\n    sh make-static;</code></pre>",
       "time": 1650413158,
       "title": "Adding a new option to tnftp – retrieve bytes within range",
@@ -67,7 +80,7 @@
       "by": "type0",
       "descendants": 0,
       "id": 31090934,
-      "score": 2,
+      "score": 3,
       "time": 1650412329,
       "title": "Kadyrov stole the agricultural equipment in Ukraine worth 1.5M euros",
       "type": "story",
@@ -77,7 +90,7 @@
       "by": "loxias",
       "descendants": 0,
       "id": 31090898,
-      "score": 2,
+      "score": 3,
       "time": 1650412129,
       "title": "Seven States of Randomness",
       "type": "story",
@@ -92,19 +105,6 @@
       "title": "Good Science Project",
       "type": "story",
       "url": "https://goodscienceproject.org/"
-    },
-    {
-      "by": "cwwc",
-      "descendants": 1,
-      "id": 31090877,
-      "kids": [
-        31090994
-      ],
-      "score": 2,
-      "time": 1650411978,
-      "title": "Netflix moves towards ADs as subscription base shrinks",
-      "type": "story",
-      "url": "https://www.wsj.com/articles/netflix-earnings-q1-2022-11650325682"
     }
   ]
 }
