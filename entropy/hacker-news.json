@@ -1,13 +1,26 @@
 {
   "stories": [
     {
+      "by": "mhb",
+      "descendants": 1,
+      "id": 31095797,
+      "kids": [
+        31095800
+      ],
+      "score": 1,
+      "time": 1650457201,
+      "title": "Guns, Privacy, and Crime",
+      "type": "story",
+      "url": "https://www.nber.org/papers/w29940"
+    },
+    {
       "by": "scriboai",
       "descendants": 1,
       "id": 31095774,
       "kids": [
         31095775
       ],
-      "score": 1,
+      "score": 2,
       "time": 1650457024,
       "title": "Scribo AI",
       "type": "story",
@@ -51,9 +64,12 @@
     },
     {
       "by": "5ESS",
-      "descendants": 0,
+      "descendants": 1,
       "id": 31095709,
-      "score": 2,
+      "kids": [
+        31095829
+      ],
+      "score": 4,
       "text": "I stumbled across an interesting app called “CrimeFlare” and what it does is reveal the real IP website’s using Cloudflare’s Ddos Mitigation Service.<p>CloudFlare had it taken down. https:&#x2F;&#x2F;github.com&#x2F;zidansec&#x2F;CrimeFlare<p>I’m assuming it does this by scanning the public internet in it’s entirely, indexing the domains. (A household fiber connection can scan the entire IPv4 space in a mere matter of weeks)<p>This is obviously a huge threat to CloudFlare’s entire business model and it totally makes sense that they want to bury this.<p>I just fail to understand what grounds they have to take something like this down. Internet IPs are public knowledge and these websites are publicly accessible. Just because Cloudflare built a billion dollar buisness exploiting the fact that sites “real” IPs can be hidden through obscurity, doesn’t mean they should be able to censor&#x2F;takedown apps that expose the flaw in their business plan!<p>Anyways, I intend to create a new internet-wide scanning system in order to revive the functionality of  CrimeFlare just to prove a point that security through obscurity is no security and all, and that CloudFlare doesn’t have the right to take something like this down!",
       "time": 1650456609,
       "title": "Ask HN: What gives Cloudflare the right to takedown apps revealing site real IP?",
@@ -98,16 +114,6 @@
       "title": "Interview with Guido Imbens on causal inference and instrumental variables",
       "type": "story",
       "url": "https://causalinf.substack.com/p/episode-9-interview-with-guido-imbens"
-    },
-    {
-      "by": "Tomte",
-      "descendants": 0,
-      "id": 31095623,
-      "score": 2,
-      "time": 1650455937,
-      "title": "Chemical Spill at Tesla Gigafactory Berlin in April",
-      "type": "story",
-      "url": "https://www.oedp-brandenburg.de/aktuelles/pressemitteilungen/nachrichtendetails/news/stoerfall-bei-tesla-gravierender-als-bislang-bekan"
     }
   ]
 }
