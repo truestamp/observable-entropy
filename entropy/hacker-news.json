@@ -1,6 +1,56 @@
 {
   "stories": [
     {
+      "by": "davesailer",
+      "descendants": 0,
+      "id": 31112104,
+      "score": 1,
+      "time": 1650560683,
+      "title": "There's No Need to Wear a Mask on This Flight",
+      "type": "story",
+      "url": "https://www.mcsweeneys.net/articles/theres-no-need-to-wear-a-mask-on-this-flight-were-not-scared-now-take-off-your-shoes-in-case-theres-a-bomb-in-your-socks"
+    },
+    {
+      "by": "gmays",
+      "descendants": 0,
+      "id": 31112082,
+      "score": 1,
+      "time": 1650560607,
+      "title": "How a Lone Tenant Is Holding Up a $70M Condo Deal",
+      "type": "story",
+      "url": "https://www.nytimes.com/2022/04/16/realestate/tenant-protections-nyc-upper-west-side.html"
+    },
+    {
+      "by": "mmcclure",
+      "descendants": 0,
+      "id": 31112069,
+      "score": 1,
+      "time": 1650560543,
+      "title": "Beyond the Web: Reassembly of the Internet",
+      "type": "story",
+      "url": "https://socketsupply.qa/blog/beyond-the-web/"
+    },
+    {
+      "by": "picture",
+      "descendants": 0,
+      "id": 31112043,
+      "score": 1,
+      "time": 1650560459,
+      "title": "Announcing a16z crypto research",
+      "type": "story",
+      "url": "https://a16z.com/2022/04/21/announcing-a16z-crypto-research/"
+    },
+    {
+      "by": "HieronymusBosch",
+      "descendants": 0,
+      "id": 31112039,
+      "score": 1,
+      "time": 1650560437,
+      "title": "Adopting Users’ Design Feedback",
+      "type": "story",
+      "url": "https://hacks.mozilla.org/2022/04/adopting-users-design-feedback/"
+    },
+    {
       "by": "samizdis",
       "descendants": 0,
       "id": 31112006,
@@ -24,7 +74,7 @@
       "by": "beliu",
       "descendants": 0,
       "id": 31111956,
-      "score": 1,
+      "score": 2,
       "time": 1650560093,
       "title": "CVE-2022-21449: easily exploitable unauthorized read/write to critical data",
       "type": "story",
@@ -49,62 +99,6 @@
       "title": "Introducing C2 Object Storage: rids of elusive data egress fees",
       "type": "story",
       "url": "https://medium.com/synologyc2/introducing-c2-object-storage-1db31d18a0b5"
-    },
-    {
-      "by": "i13e",
-      "descendants": 0,
-      "id": 31111912,
-      "score": 1,
-      "time": 1650559886,
-      "title": "Scott Forstall emails Steve Jobs",
-      "type": "story",
-      "url": "https://twitter.com/TechEmails/status/1516461323478917124"
-    },
-    {
-      "by": "warning26",
-      "descendants": 0,
-      "id": 31111870,
-      "score": 2,
-      "time": 1650559718,
-      "title": "Elon Musk still wants Twitter–and he now has $46.5B in financing",
-      "type": "story",
-      "url": "https://arstechnica.com/tech-policy/2022/04/elon-musk-still-wants-twitter-and-he-now-has-46-5-billion-in-financing/"
-    },
-    {
-      "by": "rrmdp",
-      "descendants": 1,
-      "id": 31111857,
-      "kids": [
-        31111971
-      ],
-      "score": 1,
-      "time": 1650559674,
-      "title": "Made a web to help you find the best job boards in the world-Job Board Search",
-      "type": "story",
-      "url": "https://jobboardsearch.com/"
-    },
-    {
-      "by": "jcun4128",
-      "descendants": 0,
-      "id": 31111842,
-      "score": 1,
-      "text": "We have a &quot;blended stack&quot; app which combines video and printing.<p>Currently our stuff runs on two t2.small servers. One serves the app (has everything). I know we can break it up. What we send out is an app which is just a static build (react) and it can be smaller (it&#x27;s big right now, need to purge Tailwind CSS). We use a postgres backend with Express.<p>Aside from that the video is handled by another party and our second server is primarily for an Apple CUPS instance. This server also handles websocket connections between users.<p>The servers are single CPU, 2GB RAM, not a lot of storage (not really needed for operation, we use S3 to store things).<p>Some ideas to scale are to just serve the front end builds via a CDN&#x2F;from S3.<p>I just was trying to figure out how I could get numbers per server, how many people it could hold. I have seen crazy figures like a single NGINX instance doing 10,000 requests out of the box easily.<p>The printer is the interesting one because the load is in bursts. Not sure what I should cap each machine at even though it&#x27;s probably never really 100% used at any time.",
-      "time": 1650559603,
-      "title": "Ask HN: Benchmarking Ideas?",
-      "type": "story"
-    },
-    {
-      "by": "anishathalye",
-      "descendants": 1,
-      "id": 31111836,
-      "kids": [
-        31111849
-      ],
-      "score": 1,
-      "time": 1650559592,
-      "title": "Cleanlab 2.0: Automatically Find Errors in ML Datasets",
-      "type": "story",
-      "url": "https://cleanlab.ai/blog/cleanlab-2/"
     }
   ]
 }
