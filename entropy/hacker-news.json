@@ -1,6 +1,59 @@
 {
   "stories": [
     {
+      "by": "sudara",
+      "descendants": 0,
+      "id": 31111445,
+      "score": 1,
+      "time": 1650557886,
+      "title": "Dealing with UI jank in the JUCE framework",
+      "type": "story",
+      "url": "https://melatonin.dev/blog/dealing-with-jank-in-juce/"
+    },
+    {
+      "by": "mlochbaum",
+      "descendants": 0,
+      "id": 31111437,
+      "score": 1,
+      "time": 1650557850,
+      "title": "Robin Hood Sort: the algorithm for uniform data",
+      "type": "story",
+      "url": "https://github.com/mlochbaum/rhsort"
+    },
+    {
+      "by": "gauravphoenix",
+      "descendants": 0,
+      "id": 31111432,
+      "score": 2,
+      "text": "Hello HN, \nI’m Gaurav. Founder &amp; CEO of Dassana. We are coming out of stealth today and would like to invite the community to give us a try. https:&#x2F;&#x2F;lake.dassana.io&#x2F;<p>First, a bit of a backstory. I grew up with grep to search log files. The kind of person whose grep was aliased to <i>grep -i</i>. Then came along Splunk. It was a game-changer. For every single start-up I started (there are a few) I used Splunk and quite often we will run out of our ingestion quota. SumoLogic wasn’t cheaper either so we looked into DataDog. It was good until we started running issues with aggregate queries (facets etc), rehydration takes forever and the overall query experience is not fun (it wasn’t fun with Splunk and SumoLogic either).<p>All these experiences over the last two decades led me to wish for a simple solution where I can just throw a bunch of JSON&#x2F;CSV data and query it with simple SQL. These days most logs are structured to begin with and the complexity of parsing logs to extract fields etc has moved to log shippers such as fluentd, logstash etc.<p>Enter HackerNews and ClickHouse.<p>I first learned about ClickHouse from HackerNews and was completely floored by its performance. Given its performance and storage savings due to columnar storage, it was an obvious choice to build a logging solution on top of it. As we started doing POC with it, it was obvious that it is a perfect solution for us if we could solve the problem of schema management. Over the last six months or so, that’s what we have working on. We designed a storage scheme that flattens the JSON objects and exposes an SQL interface that takes a SQL and converts it to our schemaless table query.<p>Being JSON native, we allow querying specific JSON objects in arrays. This is something that is not possible with many logging vendors and if you use something like Athena good luck figuring out the query- it is possible but quite complicated. Here is sample query - select count(distinct eventName) from aws_cloudtrail where awsRegion=us-east-1<p>Also, there are no indices, fields, facets etc in Dassana. You just send JSON&#x2F;CSV logs and you query them with 0 latency. And yes, we do support distributed joins among different data sources (we call them apps). And like any other distributed system, it has limitations but it generally works great for almost all log-related use cases.<p>One amazing side effect of what we built is that we can offer a unique pricing model that is a perfect match for logging data. Generally speaking, log queries tend to be specific. There is always some sort of a predicate- a user name, hostname, an IP address. But these queries run over large volumes of data. As such, these queries run insanely fast on our system and we are able to charge separately for queries and reduce the cost of ingestion dramatically. In general, we expect our solution to be about 10x cheaper (and 10x faster) than other logging systems.<p>When not to use Dassana? Not suitable for unstructured data. We don’t offer full-text-search (FTS) yet. We are more like a database for logs than a lucence index for text files. With more and more people starting to use structured logs, this problem with either go away on its own but as I said, we do plan to offer FTS in the future. Note that you can already use log shippers such as fluent, vector,logstash etc to give structure to logs.<p>What’s next?\n1. Grafana plugin. Here is a sneak preview- https:&#x2F;&#x2F;drive.google.com&#x2F;file&#x2F;d&#x2F;1JKnX5Aa6cp_pYnMiFzAojA24bjUn28WM&#x2F;view?usp=sharing<p>2. Alerting&#x2F;Slack notifications. You will be able to save queries and get Slack notifications when results match.<p>3. JDBC driver.<p>4. TBD. You tell us what to build. Email me and I will personally follow up with you: \ngk 8 dassana dot input&#x2F;output<p>I will be online all day today happy to answer any question. Feel free to reach out by email too.",
+      "time": 1650557805,
+      "title": "Show HN: Dassana. JSON-native,schema-less logging solution built atop ClickHouse",
+      "type": "story"
+    },
+    {
+      "by": "mx2ei1",
+      "descendants": 1,
+      "id": 31111415,
+      "kids": [
+        31111417
+      ],
+      "score": 1,
+      "time": 1650557759,
+      "title": "Uno Platform 4.2 Performance Boost and Improvements",
+      "type": "story",
+      "url": "https://platform.uno/blog/4-2-release/"
+    },
+    {
+      "by": "michaelsjoeberg",
+      "descendants": 0,
+      "id": 31111408,
+      "score": 1,
+      "time": 1650557734,
+      "title": "Show HN: Personal stock market data dashboard",
+      "type": "story",
+      "url": "https://stockstack.io/"
+    },
+    {
       "by": "jger15",
       "descendants": 0,
       "id": 31111398,
@@ -49,56 +102,6 @@
       "title": "Why Web3 Hiring Is Unique",
       "type": "story",
       "url": "https://www.youtube.com/watch?v=zeezttm1zeI"
-    },
-    {
-      "by": "Deinos",
-      "descendants": 0,
-      "id": 31111353,
-      "score": 1,
-      "time": 1650557490,
-      "title": "AG Pax­ton Files Law­Suit Against Vroom Due to Decep­Tive Trade Practices",
-      "type": "story",
-      "url": "https://www.texasattorneygeneral.gov/news/releases/ag-paxton-files-lawsuit-against-vroom-due-deceptive-trade-practices"
-    },
-    {
-      "by": "walterbell",
-      "descendants": 0,
-      "id": 31111345,
-      "score": 1,
-      "time": 1650557470,
-      "title": "TSMC head says drive to onshore chip supply chain is 'unrealistic'",
-      "type": "story",
-      "url": "https://asia.nikkei.com/Business/Tech/Semiconductors/TSMC-head-says-drive-to-onshore-chip-supply-chain-is-unrealistic"
-    },
-    {
-      "by": "edoceo",
-      "descendants": 0,
-      "id": 31111331,
-      "score": 1,
-      "time": 1650557356,
-      "title": "Notice of Class Action Settlement in Re Plaid Inc. Privacy Litigation",
-      "type": "story",
-      "url": "https://plaidsettlement.com/"
-    },
-    {
-      "by": "momofarm",
-      "descendants": 0,
-      "id": 31111330,
-      "score": 1,
-      "time": 1650557352,
-      "title": "Finding Center of Gravity in Backpack",
-      "type": "story",
-      "url": "https://johnnycabin.xyz/"
-    },
-    {
-      "by": "jjjbokma",
-      "descendants": 0,
-      "id": 31111309,
-      "score": 1,
-      "time": 1650557250,
-      "title": "Show HN: Static blog generator in about 1.2KLOC",
-      "type": "story",
-      "url": "https://github.com/john-bokma/tumblelog"
     }
   ]
 }
