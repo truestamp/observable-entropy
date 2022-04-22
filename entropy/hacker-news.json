@@ -1,6 +1,26 @@
 {
   "stories": [
     {
+      "by": "unipassword",
+      "descendants": 0,
+      "id": 31119478,
+      "score": 1,
+      "text": "Hello, I was recently asked to, if possible, implement Unicode in the password field. The storage is not itself a problem - the hasher itself can accept binary, so I could use UTF-8 so that I wouldn&#x27;t need to migrate ASCII passwords. My question is before that hasher: I&#x27;m aware that Unicode in itself is so messy that you need to normalise it first into <i>something</i> (https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Unicode_equivalence) so that would not run on normalisation bugs (such as https:&#x2F;&#x2F;eclecticlight.co&#x2F;2021&#x2F;05&#x2F;08&#x2F;explainer-unicode-normalization-and-apfs&#x2F;). If it&#x27;s impossible, I would have to write a detailed reason since the application is used around the world and they would really prefer to support Unicode passwords.",
+      "time": 1650617050,
+      "title": "Ask HN: How do I handle Unicode passwords?",
+      "type": "story"
+    },
+    {
+      "by": "bananapear",
+      "descendants": 0,
+      "id": 31119470,
+      "score": 1,
+      "time": 1650616931,
+      "title": "London’s Lost Ringways",
+      "type": "story",
+      "url": "https://www.worksinprogress.co/issue/londons-lost-ringways/"
+    },
+    {
       "by": "Tcc1",
       "descendants": 0,
       "id": 31119452,
@@ -15,7 +35,7 @@
       "descendants": 0,
       "id": 31119448,
       "score": 1,
-      "text": "So I created a platform that allows users to create interactive audio books &#x2F; meditations. To be honest I just really wanted to build something that came to my mind during the pandemic and as such ignored releasing it to the world and instead focused on tech &#x2F; redesigns. It&#x27;s been an on&#x2F;project for a couple years now.<p>The idea is that it:<p>1) Provides a studio to create interactive meditations &#x2F; audio experiences. Currently supporting sounds, images and narrations.\n2) Provides a journey player to allow multiple templates to be joined in a decision tree and hence have an interactive experience. Currently navigation can happen through buttons on the screen or via voice commands (which is a little dodgy given I use browser APIs).\n3) Provides an audio player and sprites in the frontend, which allows you to mix and match narrations&#x2F;sounds&#x2F;images on any articles to customise the experience. You can also equalise sound levels for narrations&#x2F;other sounds. Finally, and most importantly IMO, you can add plugins to support things like vibration mats, lighting, etc. \n4) Captures user session content, such as the users pulse during a meditation, user journals when answering questions, and again plugins to allow you to capture more data.<p>The main issue I have now is sort of the sunken cost fallacy. On one side I&#x27;m still sort of passionate about it, but I really don&#x27;t have the know how to get this to market, and I feel like I should just take a step away and work on something else with all the knowledge gained and focus on a smaller idea. On the other, it&#x27;s a pretty advanced platform and I feel some form of keeping it alive would be amazing. I just don&#x27;t want to opensource it given the insane amount of work that entails (from my previous OS experiences).<p>Just felt like mentioning, and seeing if anyone has any input or perspectives I might be missing?<p>The website &#x2F; app is at enjamon.com",
+      "text": "So I created a platform that allows users to create interactive audio books &#x2F; meditations. To be honest I just really wanted to build something that came to my mind during the pandemic and as such ignored releasing it to the world and instead focused on tech &#x2F; redesigns. It&#x27;s been an on&#x2F;off  project for a couple years now.<p>The idea is that it:<p>1) Provides a studio to create interactive meditations &#x2F; audio experiences. Currently supporting sounds, images and narrations.\n2) Provides a journey player to allow multiple templates to be joined in a decision tree and hence have an interactive experience. Currently navigation can happen through buttons on the screen or via voice commands (which is a little dodgy given I use browser APIs).\n3) Provides an audio player and sprites in the frontend, which allows you to mix and match narrations&#x2F;sounds&#x2F;images on any articles to customise the experience. You can also equalise sound levels for narrations&#x2F;other sounds. Finally, and most importantly IMO, you can add plugins to support things like vibration mats, lighting, etc. \n4) Captures user session content, such as the users pulse during a meditation, user journals when answering questions, and again plugins to allow you to capture more data.<p>The main issue I have now is sort of the sunken cost fallacy. On one side I&#x27;m still sort of passionate about it, but I really don&#x27;t have the know how to get this to market, and I feel like I should just take a step away and work on something else with all the knowledge gained and focus on a smaller idea. On the other, it&#x27;s a pretty advanced platform and I feel some form of keeping it alive would be amazing. I just don&#x27;t want to opensource it given the insane amount of work that entails (from my previous OS experiences).<p>Just felt like mentioning, and seeing if anyone has any input or different perspectives?<p>The website &#x2F; app is at enjamon.com",
       "time": 1650616651,
       "title": "Ask HN: How to proceed with advanced personal project",
       "type": "story"
@@ -44,7 +64,7 @@
       "by": "homarp",
       "descendants": 0,
       "id": 31119428,
-      "score": 2,
+      "score": 3,
       "time": 1650616228,
       "title": "Primitive Communism",
       "type": "story",
@@ -83,26 +103,6 @@
       "title": "The three line single binary compiler free blog",
       "type": "story",
       "url": "https://flak.tedunangst.com/post/the-three-line-single-binary-compiler-free-blog"
-    },
-    {
-      "by": "arraypad",
-      "descendants": 0,
-      "id": 31119321,
-      "score": 2,
-      "time": 1650614632,
-      "title": "GitHub Dashboards v2",
-      "type": "story",
-      "url": "https://repography.com/blog/github-dashboards-v2"
-    },
-    {
-      "by": "jennylili",
-      "descendants": 0,
-      "id": 31119312,
-      "score": 1,
-      "time": 1650614477,
-      "title": "Guide to the Turn Signal Relay/Flasher Relay-Test and FAQ",
-      "type": "story",
-      "url": "https://www.apogeeweb.net/electron/the-best-guide-to-the-turn-signal-relay-flasher-relay-test-and-faq.html"
     }
   ]
 }
