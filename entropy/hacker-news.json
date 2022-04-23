@@ -1,6 +1,46 @@
 {
   "stories": [
     {
+      "by": "rubymatt",
+      "descendants": 0,
+      "id": 31136837,
+      "score": 1,
+      "time": 1650737956,
+      "title": "Great “meta” resources on the craft of standup",
+      "type": "story",
+      "url": "https://funnyhow.substack.com/p/12-great-meta-resources-on-the-craft"
+    },
+    {
+      "by": "Hayvok",
+      "descendants": 0,
+      "id": 31136835,
+      "score": 1,
+      "time": 1650737950,
+      "title": "Why China is using guard geese to uphold its zero-Covid policy",
+      "type": "story",
+      "url": "https://www.nationalgeographic.com/animals/article/why-china-is-using-guard-geese-to-uphold-its-zero-covid-policy"
+    },
+    {
+      "by": "marcodiego",
+      "descendants": 0,
+      "id": 31136804,
+      "score": 1,
+      "time": 1650737811,
+      "title": "OpenTitan: The first open source reference design for root of trust chips",
+      "type": "story",
+      "url": "https://opentitan.org/"
+    },
+    {
+      "by": "mjsir911",
+      "descendants": 0,
+      "id": 31136789,
+      "score": 1,
+      "text": "I&#x27;ve noticed that my results searched through the omnibar in firefox to `html.duckduckgo.com` have been really bad and my !g usage has skyrocketed.<p>For example, searching `golang net&#x2F;http` does not return `pkg.go.dev&#x2F;net&#x2F;http`.<p>I tried to reproduce in an incognito tab and everything works fine there! I&#x27;ve narrowed down the issue in the request headers to an additional `df=w` parameter in both the raw post data &amp; the sent cookie, removing it returns <i>much</i> better results.<p><pre><code>    curl &#x27;https:&#x2F;&#x2F;html.duckduckgo.com&#x2F;html&#x2F;&#x27; \\\n    -H &#x27;Accept: text&#x2F;html;q=0.9&#x27; \\\n    -H &#x27;Accept-Language: en-US,en;q=0.5&#x27; \\\n    -H &#x27;Cookie: kl=us-en; df=w&#x27; \\\n    --data-raw &#x27;q=golang+net%2Fhttp&amp;b=&amp;kl=us-en&amp;df=w&#x27;\n\n</code></pre>\nWhat gives?",
+      "time": 1650737753,
+      "title": "Ask HN: Why have my ddg results been worst recently?",
+      "type": "story"
+    },
+    {
       "by": "nabla9",
       "descendants": 0,
       "id": 31136724,
@@ -59,49 +99,6 @@
       "title": "Android loses 8% of its global OS market share in five years",
       "type": "story",
       "url": "https://stockapps.com/blog/android-loses-8-of-its-global-os-market-share-in-five-years/"
-    },
-    {
-      "by": "khaled_ismaeel",
-      "descendants": 1,
-      "id": 31136579,
-      "kids": [
-        31136640
-      ],
-      "score": 1,
-      "text": "There are schools&#x2F;colleges that offer degrees in crafts (for example, car repair) which are clearly separated from academic degrees in the same field (mechanics engineering, in this case). This is not the case in software engineering: you have to graduate with an academic degree in order to work as a software engineer.<p>Do you think it is a good idea to create separate degree programs for teaching the &quot;craft&quot; of software engineering with a reduced dose of academia?",
-      "time": 1650736642,
-      "title": "Ask HN: Should computer science degrees be separated from software engineering?",
-      "type": "story"
-    },
-    {
-      "by": "Tomte",
-      "descendants": 0,
-      "id": 31136576,
-      "score": 2,
-      "time": 1650736625,
-      "title": "Antarctic Exploration Vehicle Lost Somewhere at the Bottom of the World (2020)",
-      "type": "story",
-      "url": "https://www.thedrive.com/news/33433/theres-a-massive-antarctic-exploration-vehicle-lost-somewhere-at-the-bottom-of-the-world"
-    },
-    {
-      "by": "CharlesW",
-      "descendants": 0,
-      "id": 31136550,
-      "score": 1,
-      "time": 1650736504,
-      "title": "Code Is LOL: Cryptocurrency Is Asbestos",
-      "type": "story",
-      "url": "https://ez.substack.com/p/code-is-lol"
-    },
-    {
-      "by": "Tomte",
-      "descendants": 0,
-      "id": 31136541,
-      "score": 1,
-      "time": 1650736459,
-      "title": "It’s Time for Some Queueing Theory (2019)",
-      "type": "story",
-      "url": "https://kottke.org/19/01/its-time-for-some-queueing-theory"
     }
   ]
 }
