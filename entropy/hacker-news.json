@@ -1,6 +1,36 @@
 {
   "stories": [
     {
+      "by": "higu",
+      "descendants": 0,
+      "id": 31132443,
+      "score": 1,
+      "time": 1650702535,
+      "title": "True Weapons [Smithing Table Update ] – Minecraft PE Mods and Addons",
+      "type": "story",
+      "url": "https://mcpedl.com/true-weapons/"
+    },
+    {
+      "by": "doener",
+      "descendants": 0,
+      "id": 31132437,
+      "score": 1,
+      "time": 1650702459,
+      "title": "Hackers claim to target Russian institutions with a barrage of cyberattacks",
+      "type": "story",
+      "url": "https://www.nytimes.com/2022/04/22/us/politics/hackers-russia-cyberattacks.html"
+    },
+    {
+      "by": "judepereira",
+      "descendants": 0,
+      "id": 31132433,
+      "score": 1,
+      "text": "I was wondering whether I’m the only one who’s had the misfortune of having to deal with those pesky JUnit tests that take humongous resources to run. A little brief about why they’re intensive: certain tests spawn an instance of MongoDB, Redis, and then populate this with some data for testing, and THEN the actual tests run (expensive test harness, but worth it IMHO). The good part is that they do test stuff thoroughly :)<p>However, when they run, some need like 4 GB worth of memory, and consume a lot of CPU. My MacBook Pro heats up quite a bit, and then slows down to the point where I’m unable to do something else while these tests run (they run for a few minutes). Running everything in Jenkins (or something similar) isn’t really feasible, since it runs all tests from all modules, with some Sonar integration as well. That round trip is about 30 minutes or so, and doesn’t let me iterate fast enough.<p>Since I’m using IntelliJ, I decided to spawn up a c5.2xlarge instance on AWS, and use that as an SSH run target for IntelliJ. The IDE is able to run tests remotely in the cloud, while still making the entire experience feel like it’s running locally (yay!). However, this came with some management overhead of an AWS account, and the lifecycle of the instance in order not to pay an upwards of $250+ per month. My hack was to shutdown the instance at the top of the hour (crontab), and then write an SSH proxy command that would turn on the instance in case if it was offline.<p>To that end, I created a platform to address this particular use case, without the management overhead, and promote ease of use for other Java developers. It’s called RemoteRun (https:&#x2F;&#x2F;remoterun.co), and makes running resource intensive JUnit tests in the cloud easy :)<p>I’d love to have people who face such issues over, and give it a go!",
+      "time": 1650702375,
+      "title": "Running resource intensive JUnit tests in the cloud",
+      "type": "story"
+    },
+    {
       "by": "deutschepost",
       "descendants": 0,
       "id": 31132417,
@@ -69,39 +99,6 @@
       "title": "EU sets new online rules for Google, Meta to curb illegal content",
       "type": "story",
       "url": "https://www.reuters.com/technology/eu-countries-lawmakers-clinch-deal-new-online-content-rules-2022-04-23/"
-    },
-    {
-      "by": "stillworks",
-      "descendants": 0,
-      "id": 31132326,
-      "score": 2,
-      "time": 1650700644,
-      "title": "Tesla summoned but a small plane was in the way",
-      "type": "story",
-      "url": "https://old.reddit.com/r/flying/comments/u95dqt/someone_just_crashed_into_a_vision_jet/"
-    },
-    {
-      "by": "sexy_seedbox",
-      "descendants": 1,
-      "id": 31132321,
-      "kids": [
-        31132404
-      ],
-      "score": 1,
-      "text": "Further to this comment: https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=31120373<p>I was hoping people would know how to recall their loved one&#x27;s phone numbers by memory in emergency situations instead of relying on technology. But apparently I&#x27;m wrong?",
-      "time": 1650700543,
-      "title": "Ask HN: Do you know your loved ones' phone numbers by memory?",
-      "type": "story"
-    },
-    {
-      "by": "unicornporn",
-      "descendants": 0,
-      "id": 31132313,
-      "score": 2,
-      "time": 1650700425,
-      "title": "Element – Introducing Threads in Beta",
-      "type": "story",
-      "url": "https://element.io/blog/introducing-threads-in-beta/"
     }
   ]
 }
