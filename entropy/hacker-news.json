@@ -1,13 +1,26 @@
 {
   "stories": [
     {
+      "by": "harpiaharpyja",
+      "descendants": 1,
+      "id": 31149332,
+      "kids": [
+        31149340
+      ],
+      "score": 1,
+      "text": "https:&#x2F;&#x2F;github.com&#x2F;mwerezak&#x2F;sphinx-lang<p>An implementation of a dynamic programming language in Rust. Includes: Parser&#x2F;Compiler, REPL, Virtual Machine, Bytecode Disassembler<p>This started out as a learning project to teach myself Rust. It has grown into a decently substantial piece of software and I&#x27;ve learned quite a bit in the process!<p>Some neat things:<p>+ A garbage collector that can store dynamically sized types without any double-indirection (i.e. I have my own Box implementation with manual alloc&#x2F;dealloc)<p>+ The smart pointer used to reference GCed data is a thin pointer. The ptr metadata needed for DSTs is stored in the GC allocation itself, so that the GC smart pointer is just a single usize wide. This allows me to keep the core value enum Variant down to 16 bytes (8 bytes for data, the enum discriminant, and some padding).<p>+ The GC also supports weak references!<p>+ Statically dispatched type object model using a newtype wrapper and Rust&#x27;s declarative macros. Ok, what that means is that I have a MetaObject trait that I can use to easily add new data types and define the behavior for specific types. Similar idea to Python&#x27;s PyTypeObject though very different in implementation. However, I don&#x27;t resort to dynamic dispatch or trait objects despite working with dynamically type data. Instead, I have a newtype wrapper over the core value enum Variant that statically dispatches to each of the enum branches! And then a few macros that minimize the boilerplate required if I want to add a new branch to Variant or a new method to MetaObject (just a single line in each case).<p>+ Different string representations! This was inspired by the flexstr crate. Strings that are short enough to fit inside a Variant are &quot;inlined&quot; directly in the value. Longer strings are either GCed or interned in a thread-local string table. All identifiers are interned.<p>+ An efficient implementation of closures inspired by Lua&#x27;s upvalues.<p>The language is still pretty WIP. I&#x27;m planning to add an import system, a small standard library, and a few other things<p>(Yes, the name might not be the best, being also used by a well-known ReST docs generator, I&#x27;ll take suggestions. I do like the name though, both as a reference to the mythological creature and the cat :D)",
+      "time": 1650843990,
+      "title": "Show HN: I'm making a dynamic language in Rust",
+      "type": "story"
+    },
+    {
       "by": "version_five",
       "descendants": 1,
       "id": 31149311,
       "kids": [
         31149320
       ],
-      "score": 2,
+      "score": 12,
       "time": 1650843787,
       "title": "Waterloo faculty job only for 'women, transgender, non-binary, or two-spirit' [pdf]",
       "type": "story",
@@ -20,7 +33,7 @@
       "kids": [
         31149302
       ],
-      "score": 1,
+      "score": 2,
       "time": 1650843584,
       "title": "Linux criticized for permitting numerous kernel patches from China's Huawei",
       "type": "story",
@@ -30,7 +43,7 @@
       "by": "webmaven",
       "descendants": 0,
       "id": 31149262,
-      "score": 1,
+      "score": 3,
       "time": 1650843190,
       "title": "‘What we now know they lied’: how big oil companies betrayed us all",
       "type": "story",
@@ -40,7 +53,7 @@
       "by": "Guest42",
       "descendants": 0,
       "id": 31149249,
-      "score": 1,
+      "score": 2,
       "text": "Today I was attempting to make a grocery store purchase and it was immediately cancelled saying that &quot;my account has been deactivated.&quot; I have frequently used Instacart since Covid began and have had 3 successful orders in the month of April.  I don&#x27;t see a path towards resolving this.",
       "time": 1650843014,
       "title": "Ask HN: Has anyone had Instacart accout deactivated for no reason?",
@@ -95,16 +108,6 @@
       "title": "Is it worth being wise? (2007)",
       "type": "story",
       "url": "http://paulgraham.com/wisdom.html"
-    },
-    {
-      "by": "karateka",
-      "descendants": 0,
-      "id": 31149217,
-      "score": 1,
-      "time": 1650842677,
-      "title": "Trading between Pokémon Gen2 and Gen3 games with custom hardware",
-      "type": "story",
-      "url": "https://www.youtube.com/watch?v=inMbtwmVlKQ"
     }
   ]
 }
