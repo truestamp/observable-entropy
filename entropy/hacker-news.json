@@ -1,6 +1,26 @@
 {
   "stories": [
     {
+      "by": "Tomte",
+      "descendants": 0,
+      "id": 31143095,
+      "score": 1,
+      "time": 1650800319,
+      "title": "The Time Hack Everyone Should Know",
+      "type": "story",
+      "url": "https://thereader.mitpress.mit.edu/the-time-hack-everyone-should-know/"
+    },
+    {
+      "by": "Tomte",
+      "descendants": 0,
+      "id": 31143087,
+      "score": 1,
+      "time": 1650800239,
+      "title": "Think in Colour",
+      "type": "story",
+      "url": "https://thinkincolour.eu/start"
+    },
+    {
       "by": "tuukkah",
       "descendants": 0,
       "id": 31143056,
@@ -14,8 +34,8 @@
       "by": "kuba-orlik",
       "descendants": 0,
       "id": 31143053,
-      "score": 1,
-      "text": "So, here&#x27;s a weird issue. I run a torrent client on a Raspberry Pi. The client is run within a network namespace (ip netns) and routed through NordVPN with openVPN.<p>When left for a while, Google services stop working for all devices in the local network. Traceroute for meet.google.com looks like this:<p><pre><code>   traceroute meet.google.com\n\n   traceroute to meet.google.com (216.58.208.206), 30 hops max, 60 byte packets\n 1  192.168.0.80 (192.168.0.80) 4.082 ms 4.046 ms 4.288 ms\n 2  192.168.0.80 (192.168.0.80) 7.695 ms 9.418 ms 9.497 ms\n 3  \\* \\* \\*\n 4  \\* \\* \\*\n 5  \\* \\* \\*\n 6  \\* \\* \\*\n 7  \\* \\* \\*\n 8  \\* \\* \\*\n 9  \\* \\* \\*\n 10 \\* \\* \\*\n 11 \\* \\* \\*\n 12 \\* \\* \\*\n\n</code></pre>\n(and then it just times out). 192.168.0.80 is the address of the Raspberry Pi. It happens ONLY to Google services, for two months of this it never happened to any other service. The only way to fix it is to factory-reset my router. ISP claims that something in my network is making RIP traffic and thus changing the internal routing table in my router. Unfortunately, there&#x27;s no way to access the routing table of the router from the GUI.<p>I&#x27;ve spent two months pinning the issue down and turning off the nordvpn connection has 100% success rate in preventing this issue from appearing.<p>Now... why would OpenVPN connecting to a NordVPN server cause such behaviour? And why only for google services? Any tips are greatly appreciated, as I&#x27;ve oficially ran out of ideas",
+      "score": 2,
+      "text": "So, here&#x27;s a weird issue. I run a torrent client on a Raspberry Pi. The client is run within a network namespace (ip netns) and routed through NordVPN with openVPN.<p>When left for a while, Google services stop working for all devices in the local network. Traceroute for meet.google.com looks like this:<p><pre><code>   traceroute meet.google.com\n\n   traceroute to meet.google.com (216.58.208.206), 30 hops max, 60 byte packets\n 1  192.168.0.80 (192.168.0.80) 4.082 ms 4.046 ms 4.288 ms\n 2  192.168.0.80 (192.168.0.80) 7.695 ms 9.418 ms 9.497 ms\n 3  * * *\n 4  * * *\n 5  * * *\n 6  * * *\n 7  * * *\n 8  * * *\n 9  * * *\n 10 * * *\n 11 * * *\n 12 * * *\n\n</code></pre>\n(and then it just times out). 192.168.0.80 is the address of the Raspberry Pi. It happens ONLY to Google services, for two months of this it never happened to any other service. The only way to fix it is to factory-reset my router. ISP claims that something in my network is making RIP traffic and thus changing the internal routing table in my router. Unfortunately, there&#x27;s no way to access the routing table of the router from the GUI.<p>I&#x27;ve spent two months pinning the issue down and turning off the nordvpn connection has 100% success rate in preventing this issue from appearing.<p>Now... why would OpenVPN connecting to a NordVPN server cause such behaviour? And why only for google services? Any tips are greatly appreciated, as I&#x27;ve oficially ran out of ideas",
       "time": 1650799722,
       "title": "Ask HN: Why is NordVPN changing my router settings?",
       "type": "story"
@@ -79,26 +99,6 @@
       "title": "Big Tech Hiring Cements Canada's Status as Silicon Valley North",
       "type": "story",
       "url": "https://www.cbc.ca/news/business/canada-tech-sector-boom-1.6425879"
-    },
-    {
-      "by": "SoulMan",
-      "descendants": 0,
-      "id": 31143012,
-      "score": 1,
-      "time": 1650799338,
-      "title": "Umang Gupta, Who Paved Way for Indian Tech Executives, Dies at 73",
-      "type": "story",
-      "url": "https://www.nytimes.com/2022/04/22/technology/umang-gupta-dead.html"
-    },
-    {
-      "by": "tosh",
-      "descendants": 0,
-      "id": 31143006,
-      "score": 1,
-      "time": 1650799298,
-      "title": "The Search for General Tso",
-      "type": "story",
-      "url": "https://en.wikipedia.org/wiki/The_Search_for_General_Tso"
     }
   ]
 }
