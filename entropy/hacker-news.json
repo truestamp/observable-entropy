@@ -1,6 +1,26 @@
 {
   "stories": [
     {
+      "by": "viraptor",
+      "descendants": 0,
+      "id": 31142631,
+      "score": 2,
+      "text": "I&#x27;m looking for a SaaS solution where I can send 10msgs a day per endpoint, but with &lt;1s latency to deliver.<p>I need the ad-hoc, independent queues to be trivially created based on a shared publisher&#x2F;consumer key and I don&#x27;t care about persistence - if a msg is not delivered immediately, it should be dropped. All endpoints are behind Nat, so some polling is required.<p>Is there a service that would help me here? SNS almost works, but creating&#x2F;restricting individual queues ad-hoc makes it more work than I want to deal with. Can something else provide a trivial &quot;send(secret, queue name, message)&quot; and &quot;listen(secret, queue)&quot; functionality?",
+      "time": 1650794511,
+      "title": "Ask HN: What's a global, low throughput, low latency message bus service?",
+      "type": "story"
+    },
+    {
+      "by": "mpaepper",
+      "descendants": 0,
+      "id": 31142628,
+      "score": 1,
+      "time": 1650794482,
+      "title": "Ethereum merge no longer expected in June",
+      "type": "story",
+      "url": "https://www.coindesk.com/business/2022/04/13/ethereum-merge-no-longer-expected-in-june/"
+    },
+    {
       "by": "nonoesp",
       "descendants": 0,
       "id": 31142609,
@@ -50,7 +70,7 @@
       "kids": [
         31142601
       ],
-      "score": 2,
+      "score": 3,
       "time": 1650793242,
       "title": "Ultra-light liquid hydrogen tanks promise to make jet fuel obsolete",
       "type": "story",
@@ -88,26 +108,6 @@
       "title": "From Closed to Open Source: Microsoft's experience with six internal projects",
       "type": "story",
       "url": "https://neverworkintheory.org/2022/04/23/closed-to-open-source.html"
-    },
-    {
-      "by": "synchrotron",
-      "descendants": 0,
-      "id": 31142490,
-      "score": 4,
-      "time": 1650792737,
-      "title": "Scholz’s lies and manipulations to avoid sending weapons to Ukraine",
-      "type": "story",
-      "url": "https://medium.com/@marksavchuk/scholzs-lies-and-manipulations-to-avoid-sending-weapons-to-ukraine-8dcef509aa21"
-    },
-    {
-      "by": "keewee7",
-      "descendants": 0,
-      "id": 31142488,
-      "score": 5,
-      "time": 1650792707,
-      "title": "The Belarusian railway saboteurs who helped thwart Russia’s attack on Kyiv",
-      "type": "story",
-      "url": "https://www.washingtonpost.com/world/2022/04/23/ukraine-belarus-railway-saboteurs-russia/"
     }
   ]
 }
