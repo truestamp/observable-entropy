@@ -1,6 +1,36 @@
 {
   "stories": [
     {
+      "by": "dnetesn",
+      "descendants": 0,
+      "id": 31142692,
+      "score": 1,
+      "time": 1650795285,
+      "title": "What Regret Tells Us",
+      "type": "story",
+      "url": "https://nautil.us/what-regret-tells-us-16264/"
+    },
+    {
+      "by": "pabs3",
+      "descendants": 0,
+      "id": 31142681,
+      "score": 1,
+      "time": 1650795113,
+      "title": "The changing economics of open source",
+      "type": "story",
+      "url": "https://www.technologyreview.com/2022/04/21/1050788/the-changing-economics-of-open-source/"
+    },
+    {
+      "by": "spaniard89277",
+      "descendants": 0,
+      "id": 31142677,
+      "score": 1,
+      "time": 1650795071,
+      "title": "Lenovo ThinkPad X200 clone takes us back, way back (2011)",
+      "type": "story",
+      "url": "https://www.engadget.com/2011-01-12-lenovo-thinkpad-x200-clone-takes-us-back-way-back.html"
+    },
+    {
       "by": "abhayhegde",
       "descendants": 0,
       "id": 31142664,
@@ -25,7 +55,7 @@
       "descendants": 0,
       "id": 31142631,
       "score": 2,
-      "text": "I&#x27;m looking for a SaaS solution where I can send 10msgs a day per endpoint, but with &lt;1s latency to deliver.<p>I need the ad-hoc, independent queues to be trivially created based on a shared publisher&#x2F;consumer key and I don&#x27;t care about persistence - if a msg is not delivered immediately, it should be dropped. All endpoints are behind Nat, so some polling is required.<p>Is there a service that would help me here? SNS almost works, but creating&#x2F;restricting individual queues ad-hoc makes it more work than I want to deal with. Can something else provide a trivial &quot;send(secret, queue name, message)&quot; and &quot;listen(secret, queue)&quot; functionality?",
+      "text": "I&#x27;m looking for a SaaS solution where I can send 10msgs a day per endpoint, but with &lt;1s latency to deliver.<p>I need the ad-hoc, independent queues to be trivially created based on a shared publisher&#x2F;consumer key and I don&#x27;t care about persistence - if a msg is not delivered immediately, it should be dropped. All endpoints are behind Nat, so some polling is required.<p>Is there a service that would help me here? SNS almost works, but creating&#x2F;restricting individual queues ad-hoc makes it more work than I want to deal with. Can something else provide a trivial &quot;send(secret, queue name, message)&quot; and &quot;listen(secret, queue)&quot; functionality?<p>I&#x27;m a little tempted to just use Telegram for this.",
       "time": 1650794511,
       "title": "Ask HN: What's a global, low throughput, low latency message bus service?",
       "type": "story"
@@ -62,52 +92,18 @@
     },
     {
       "by": "capableweb",
-      "descendants": 1,
+      "descendants": 3,
       "id": 31142560,
       "kids": [
+        31142680,
+        31142678,
         31142581
       ],
-      "score": 10,
+      "score": 13,
       "time": 1650793581,
       "title": "DaVinci Resolve 18",
       "type": "story",
       "url": "https://www.blackmagicdesign.com/products/davinciresolve/whatsnew"
-    },
-    {
-      "by": "hakmad",
-      "descendants": 0,
-      "id": 31142556,
-      "score": 1,
-      "text": "I&#x27;d like to remove Google from my life as much as possible and the final step is to install an alternative OS onto my phone (either LineageOS or GrapheneOS). I&#x27;ve seen many suggestions to switch communication apps such as WhatsApp out for Signal, however I&#x27;ve not seen much discussion around banking apps. Many banks tend to have their own proprietary apps, with many important (verifying transactions&#x2F;login attempts, acting as &quot;security keys&quot;) and convenient (viewing transaction history quickly) features. I know some banks offer physical &quot;security keys&quot; which can replace the app but this does not apply to every bank, with some only offering their core services through the app and a stripped back version on web&#x2F;desktop.<p>Have you experienced anything similar? What have you done to get around this? If I can&#x27;t find an alternative method to access these utilities I&#x27;ll probably just bite the bullet and keep Google around for a little while longer (or until I can switch to a bank that offers a web-only experience - tangentially, are their any banks like this?).<p>Thank you for your time!",
-      "time": 1650793534,
-      "title": "Ask HN: How to switch away from Android while keeping banking utilities?",
-      "type": "story"
-    },
-    {
-      "by": "clouddrover",
-      "descendants": 2,
-      "id": 31142530,
-      "kids": [
-        31142601
-      ],
-      "score": 3,
-      "time": 1650793242,
-      "title": "Ultra-light liquid hydrogen tanks promise to make jet fuel obsolete",
-      "type": "story",
-      "url": "https://newatlas.com/aircraft/hypoint-gtl-lightweight-liquid-hydrogen-tank/"
-    },
-    {
-      "by": "aj7",
-      "descendants": 1,
-      "id": 31142514,
-      "kids": [
-        31142649
-      ],
-      "score": 2,
-      "time": 1650793113,
-      "title": "Human head transplant is contemplated using tiny graphene nanoribbon scaffolds",
-      "type": "story",
-      "url": "https://www.christopherreeve.org/blog/research-news/texas-peg"
     }
   ]
 }
