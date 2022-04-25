@@ -1,6 +1,46 @@
 {
   "stories": [
     {
+      "by": "mooreds",
+      "descendants": 0,
+      "id": 31160965,
+      "score": 1,
+      "time": 1650922500,
+      "title": "ClusterFuzz is a scalable fuzzing infrastructure",
+      "type": "story",
+      "url": "https://github.com/google/clusterfuzz"
+    },
+    {
+      "by": "comprev",
+      "descendants": 0,
+      "id": 31160939,
+      "score": 1,
+      "time": 1650922355,
+      "title": "Elon Musk Buys Twitter",
+      "type": "story",
+      "url": "https://www.theregister.com/2022/04/25/elon_musk_buys_twitter/"
+    },
+    {
+      "by": "mmmmkay",
+      "descendants": 0,
+      "id": 31160926,
+      "score": 1,
+      "time": 1650922312,
+      "title": "How to Make Money While Securing the Ethereum Ecosystem",
+      "type": "story",
+      "url": "https://jacksonkelley.gumroad.com/l/how-to-become-a-smart-contract-auditor"
+    },
+    {
+      "by": "hggh",
+      "descendants": 0,
+      "id": 31160925,
+      "score": 1,
+      "time": 1650922311,
+      "title": "Who Killed Bitcoin? – Documentary [video]",
+      "type": "story",
+      "url": "https://www.youtube.com/watch?v=eafzIW52Rgc"
+    },
+    {
       "by": "mitchbob",
       "descendants": 0,
       "id": 31160911,
@@ -42,10 +82,13 @@
     },
     {
       "by": "elesiuta",
-      "descendants": 0,
+      "descendants": 1,
       "id": 31160863,
+      "kids": [
+        31160961
+      ],
       "score": 1,
-      "text": "picosnitch helps you protect your security and privacy by &quot;snitching&quot; on anything that connects to the internet, letting you know when, how much data was transferred, and to where.<p>It uses BPF to monitor network traffic per application, and per parent to cover those that just call others.<p>It also hashes every executable, and will complain if some mischievous program is giving it trouble.<p>I submitted this a few months ago and has undergone some major changes since then, adding:<p><pre><code>  - bandwidth monitoring\n  - a dashboard for showing plots\n  - support for storing logs off-system to mitigate some forms of tampering, and depending on your threat model could also be used by a router to cutoff network access for compromised devices\n  - overhaul hashing to reduce failures, other than a few cases outlined in the readme, hash failures should be seen as a sign of suspicious activity (I may be able to make use of ima_file_hash for future improvements?)</code></pre>",
+      "text": "picosnitch helps you protect your security and privacy by &quot;snitching&quot; on anything that connects to the internet, letting you know when, how much data was transferred, and to where.<p>It uses BPF to monitor network traffic per application, and per parent to cover those that just call others.<p>It also hashes every executable, and will complain if some mischievous program is giving it trouble.",
       "time": 1650922002,
       "title": "Show HN: A reasonably reliable traffic per application monitor using BPF",
       "type": "story",
@@ -60,46 +103,6 @@
       "title": "Resolving Disagreements",
       "type": "story",
       "url": "https://lazydevstories.com/post/conflict/"
-    },
-    {
-      "by": "vanilla-almond",
-      "descendants": 0,
-      "id": 31160852,
-      "score": 1,
-      "time": 1650921954,
-      "title": "Netflix’s Subscriber Loss Has Destroyed Employee Morale",
-      "type": "story",
-      "url": "https://www.bloomberg.com/news/newsletters/2022-04-24/netflix-losing-subscribers-may-also-cost-it-star-employees"
-    },
-    {
-      "by": "abathur",
-      "descendants": 0,
-      "id": 31160838,
-      "score": 1,
-      "time": 1650921900,
-      "title": "Nix-shell, but make it lovely",
-      "type": "story",
-      "url": "https://t-ravis.com/post/nix/nix-make/"
-    },
-    {
-      "by": "alschwalm",
-      "descendants": 0,
-      "id": 31160824,
-      "score": 1,
-      "time": 1650921817,
-      "title": "The Writings of Leslie Lamport",
-      "type": "story",
-      "url": "https://lamport.azurewebsites.net/pubs/pubs.html"
-    },
-    {
-      "by": "ttyp3",
-      "descendants": 0,
-      "id": 31160770,
-      "score": 2,
-      "time": 1650921553,
-      "title": "Bring on the Twitter Mafia",
-      "type": "story",
-      "url": "https://techcrunch.com/2022/04/25/bring-on-the-twitter-mafia/"
     }
   ]
 }
