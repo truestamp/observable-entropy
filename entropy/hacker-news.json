@@ -1,10 +1,40 @@
 {
   "stories": [
     {
+      "by": "gajju3588",
+      "descendants": 0,
+      "id": 31152575,
+      "score": 1,
+      "time": 1650881908,
+      "title": "Sketch of a Boy",
+      "type": "story",
+      "url": "https://www.youtube.com/watch?v=LDAvhcoNUtU"
+    },
+    {
+      "by": "barhatsor",
+      "descendants": 0,
+      "id": 31152573,
+      "score": 1,
+      "time": 1650881895,
+      "title": "Run a JavaScript/CSS repo by adding cde.run/ in front of the GitHub link",
+      "type": "story",
+      "url": "https://codeit.codes/"
+    },
+    {
+      "by": "ohiovr",
+      "descendants": 0,
+      "id": 31152556,
+      "score": 2,
+      "time": 1650881770,
+      "title": "Realtime noise-removal with PulseAudio? (2011)",
+      "type": "story",
+      "url": "https://askubuntu.com/questions/18958/realtime-noise-removal-with-pulseaudio/765024#765024"
+    },
+    {
       "by": "asim",
       "descendants": 0,
       "id": 31152511,
-      "score": 1,
+      "score": 2,
       "text": "Hey all,<p>I&#x27;m Asim Aslam, the founder of M3O, a curated catalog of APIs that provides simple abstractions for the most common API use cases. The idea is to create a single place to explore, discover and consume public APIs as higher level building blocks.<p>Most of the time I don’t use all the features of an API and I assume most devs don&#x27;t either, so picking and choosing the common patterns, abstracting it away and surfacing a new building block is useful. For example, Twilio has a lot of APIs but I only care about SMS. Even then I just want a quick way to send it. So stripping it all away results in something that&#x27;s one endpoint and 3 fields (from, to and message).<p>Another example is something like email. There are services like sendgrid that provide a really feature rich experience for email but I’m just looking for something simple that will let me send plain text or html.\nThere are a number of API marketplaces out there, but we’re doing something different—our goal is to improve productivity. For example, RapidAPI has thousands of APIs, but there’s a lot of duplication. It’s overwhelming for developers. Choice is the enemy of productivity. AWS, on the other hand, focused on a curated catalog of services where each focuses on a specific problem. We feel the same: from an API perspective you only need one of each building block. You only need one SMS, Email or Geocoding service.\nMy obsession with this problem goes back to working as an SRE at Google in 2011, seeing how the internal platform and APIs were being used by teams. I then worked at a ride hailing startup called Hailo where we got to build something similar, and experience the velocity of development in shipping products on top of simple, easily discovered APIs. I spent the next few years bootstrapping an open source project called Micro, trying to get people to standardize their API development to reach this goal.<p>Ultimately it took raising funding to take a real shot at it. After seeing the productivity Google unlocked and what Hailo could have done with their platform, it was clear it could and should be a product: a single way to consume APIs with one platform, one account and one framework.<p>Our goal is to build an API catalog that can act as the building blocks for most use cases, and then double down on services that have a lot of demand so we can improve the features and reliability.<p>In the wild, every API looks different, the docs are different, you have to figure out if there&#x27;s client libraries or not. We unify all that, so everything looks and feels the same. All our docs are generated based on OpenAPI specs, and we code generate examples&#x2F;client libraries for JS, Go, Dart and the CLI. It means you only ever need one client to access all these APIs.<p>Unifying API development and consumption requires a lot of resources to do at scale, hence its only happening inside fast growing startups and large tech cos. There are a lot of barriers to entry. Getting started isn&#x27;t easy. Our approach has been to first nail API development for ourselves and then focus on API consumption by end users— ultimately we want to let anyone offer APIs on our platform. That requires enough large scale distribution and inbound traffic to make an attractive proposition to developers.<p>We&#x27;ve spent a year building the product with a lot of feedback on what worked and what didn&#x27;t. We’ve signed up 8000 people, served 5M API requests and have 60+ APIs on the platform.<p>On billing: we&#x27;re still figuring it out and would like feedback. It started as a free product, then moved into per request pricing. Unfortunately that&#x27;s hard to scale without a lot of volume and it felt like people were more used to subscriptions for SaaS products so that&#x27;s the route we&#x27;ve gone.<p>Anyway that&#x27;s us, hope you like the idea and try it out: <a href=\"https:&#x2F;&#x2F;m3o.com\" rel=\"nofollow\">https:&#x2F;&#x2F;m3o.com</a>.<p>Cheers\nAsim",
       "time": 1650881365,
       "title": "Show HN: M3O – Universal Public API Interface",
@@ -15,7 +45,7 @@
       "by": "barryhennessy",
       "descendants": 0,
       "id": 31152490,
-      "score": 2,
+      "score": 3,
       "text": "I periodically hear about projects that use&#x2F;have used sqlite as their sole datastore. The theory seems to be is that you can test out an idea with fewer dependencies (and cost) and that it scales surprisingly far.<p>There are even distributed versions being built for reliability in the cloud: dqlite by canonical (of Ubuntu fame) and rqlite<p>Given the complexity it seems like there are use cases or needs here that I&#x27;m not seeing and I&#x27;d be very interested to know more from those who&#x27;ve tried.<p><i>Have you tried this?</i>\n<i>Did it go well? Or blow up?</i>\n<i>Were there big surprises along the way?</i><p>- https:&#x2F;&#x2F;sqlite.org\n- https:&#x2F;&#x2F;dqlite.io\n- https:&#x2F;&#x2F;github.com&#x2F;rqlite&#x2F;rqlite",
       "time": 1650881165,
       "title": "Ask HN: Have you used SQLite as a primary database?",
@@ -25,7 +55,7 @@
       "by": "starsep",
       "descendants": 0,
       "id": 31152457,
-      "score": 1,
+      "score": 2,
       "time": 1650880896,
       "title": "Are cookie banners illegal in Europe?",
       "type": "story",
@@ -75,45 +105,6 @@
       "title": "Xmake v2.6.5 released, Support remote compilation",
       "type": "story",
       "url": "https://github.com/xmake-io/xmake/wiki/Xmake-v2.6.5-released,-Support-remote-compilation"
-    },
-    {
-      "by": "angrygoat",
-      "descendants": 4,
-      "id": 31152403,
-      "kids": [
-        31152531,
-        31152505,
-        31152410,
-        31152518
-      ],
-      "score": 6,
-      "time": 1650880483,
-      "title": "GitHub Packages and Pages Down",
-      "type": "story",
-      "url": "https://www.githubstatus.com/incidents/b40k7ckrs7sp"
-    },
-    {
-      "by": "hanning",
-      "descendants": 1,
-      "id": 31152389,
-      "kids": [
-        31152390
-      ],
-      "score": 1,
-      "time": 1650880346,
-      "title": "How to Transfer WhatsApp Messages from iPhone to Android",
-      "type": "story",
-      "url": "https://echoshare.co/transfer-whatsapp-messages-from-iphone-to-android/"
-    },
-    {
-      "by": "Nic0",
-      "descendants": 0,
-      "id": 31152388,
-      "score": 1,
-      "time": 1650880345,
-      "title": "Monolith in Cloud",
-      "type": "story",
-      "url": "https://nsirap.com/posts/062-monolith-in-cloud/"
     }
   ]
 }
