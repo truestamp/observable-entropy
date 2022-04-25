@@ -1,6 +1,36 @@
 {
   "stories": [
     {
+      "by": "CTOSian",
+      "descendants": 0,
+      "id": 31152250,
+      "score": 1,
+      "time": 1650879238,
+      "title": "Elon Musk wants to own Twitter to protect his ‘freedom’, not everyone else’s",
+      "type": "story",
+      "url": "https://www.theguardian.com/commentisfree/2022/apr/24/elon-musk-twitter-billionaire-robert-reich"
+    },
+    {
+      "by": "bryanrasmussen",
+      "descendants": 0,
+      "id": 31152248,
+      "score": 1,
+      "time": 1650879227,
+      "title": "Svetovit: God of Abundance and War",
+      "type": "story",
+      "url": "https://en.wikipedia.org/wiki/Svetovit"
+    },
+    {
+      "by": "staccatomeasure",
+      "descendants": 0,
+      "id": 31152234,
+      "score": 1,
+      "time": 1650879060,
+      "title": "Picking Your Tech Stack for Dummies (and the Future)",
+      "type": "story",
+      "url": "https://staysaasy.com/engineering/2020/05/30/Picking-Your-Tech-Stack.html"
+    },
+    {
       "by": "gshakir",
       "descendants": 0,
       "id": 31152198,
@@ -69,39 +99,6 @@
       "title": "Amazon Astro Is the Cute Face That Makes Tech Feel Like a Friend",
       "type": "story",
       "url": "https://www.cnet.com/home/smart-home/amazon-astro-is-the-cute-face-that-could-make-you-treat-tech-like-your-friend/"
-    },
-    {
-      "by": "nrdvana",
-      "descendants": 0,
-      "id": 31152087,
-      "score": 1,
-      "text": "and also, &quot;how well did it work?&quot;<p>But let me clarify exactly what I&#x27;m asking here, because concepts like &quot;coroutines&quot; or &quot;cooperative multitasking&quot; or &quot;multiprocessing&quot; get heavily influenced by their implementation in each language, and I&#x27;m asking for a very specific implementation.<p>In a stack-based function-call language, there is usually a simple API of blocking I&#x2F;O where the state of each in-progress function is preserved on a stack as the entire thread of execution is paused until the completion of the I&#x2F;O.  This leads to very clear and easy-to-debug programs, usually with the added convenience of throwing and catching exceptions, but you can only process one I&#x2F;O sequence (client&#x2F;server conversation, etc) per thread.  Moving to multiple threads or parallel processes lead to complex concurrency problems, and often don&#x27;t scale well.<p>Languages usually also provide more complex secondary APIs for non-blocking I&#x2F;O that allows a function to start an I&#x2F;O operation and continue doing other things while checking the status of the I&#x2F;O, or blocking on an event API to wake up when something is ready.  Taken to its logical conclusion, the program becomes structured around an event loop, but the programmer must now track the on-going state of a particular I&#x2F;O sequence in their own data structures without the convenience of a stack-based tree of function calls.  You can no longer use normal language exceptions to abort a single I&#x2F;O conversation because it is interleaved with other conversations and the logical call-tree is gone.  The program must also avoid using any library which makes use of blocking APIs, dividing the library ecosystem into &quot;blocking&quot; and &quot;nonblocking-compatible&quot; halves.<p>One solution is to add co-routines to a language, where multiple function-call tree stacks are held in memory, and executed on a single thread.  Any time a blocking API is used, the language starts the I&#x2F;O operation then switches to another co-routine that is ready to run.  In other words, the language manages the event loop hidden in the background while presenting the user with what appears to be normal threads, but without most of the hard synchronization that you need from true multithreading.  The downsides are that an infinite loop on one &quot;thread&quot; will hang all others, and there might still be synchronization issues if I&#x2F;O operations are interleaved with changes to data structures.<p>Most scripting languages provide <i>something</i> for co-routines, but usually requiring some invasive changes to the code that are not just the simple blocking APIs presented by the stock language.  This leads to further fragmentation of the library ecosystem for the things that are &quot;async compatible&quot; or &quot;coro compatible&quot; etc.<p>Python: the generators act like independent call stacks, and were made into &quot;co-routines&quot; with a send() call, but these do not tie into the native blocking API read&#x2F;write&#x2F;sleep to perform event-driven I&#x2F;O like I described above.  The co-routines are also used like objects rather than called like normal functions.<p>JavaScript: JS has the Async&#x2F;Await system which is almost what I describe, but they are exposed as keywords which must be used in the code, not passively compatible with other code using blocking I&#x2F;O.<p>Perl: there is a Coro library that switches the interpreter stacks, but does not intercept the blocking I&#x2F;O.  There are several &quot;AsyncAwait&quot; modules, with the same caveat as JS.<p>There are so many languages out there, I&#x27;m sure that someone has already implemented intrinsic co-routines + non-blocking I&#x2F;O exposed to the user as a simple blocking cooperative threads.  I want to know which languages have tried this, and maybe more importantly, if you have worked on a project that used them, how well the idea works in practice.",
-      "time": 1650877665,
-      "title": "Ask HN: What languages have true native cooperative multitasking?",
-      "type": "story"
-    },
-    {
-      "by": "tomayac",
-      "descendants": 0,
-      "id": 31152079,
-      "score": 1,
-      "time": 1650877546,
-      "title": "Project Fugu API Showcase",
-      "type": "story",
-      "url": "https://developer.chrome.com/blog/fugu-showcase/"
-    },
-    {
-      "by": "KeliaDen",
-      "descendants": 1,
-      "id": 31152048,
-      "kids": [
-        31152049
-      ],
-      "score": 1,
-      "time": 1650877263,
-      "title": "How Does Prima Weight Loss Pills UK Function?",
-      "type": "story",
-      "url": "https://www.jpost.com/promocontent/prima-weight-loss-pills-uk-is-prima-diet-capsule-legitimate-or-scam-703262"
     }
   ]
 }
