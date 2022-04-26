@@ -1,6 +1,29 @@
 {
   "stories": [
     {
+      "by": "hamidakhtar",
+      "descendants": 1,
+      "id": 31165643,
+      "kids": [
+        31165644
+      ],
+      "score": 1,
+      "time": 1650967439,
+      "title": "PostgreSQL 14 B-Tree Index: Reduced Bloat with Bottom-Up Deletion",
+      "type": "story",
+      "url": "https://www.percona.com/blog/postgresql-14-b-tree-index-reduced-bloat-with-bottom-up-deletion/"
+    },
+    {
+      "by": "edward",
+      "descendants": 0,
+      "id": 31165633,
+      "score": 1,
+      "time": 1650967308,
+      "title": "The Purple Elephant in the Room: Crossrail's Opening Date",
+      "type": "story",
+      "url": "https://www.londonreconnections.com/2022/the-purple-elephant-in-the-room-crossrails-opening-date/"
+    },
+    {
       "by": "sdoering",
       "descendants": 0,
       "id": 31165629,
@@ -81,26 +104,6 @@
       "title": "Smooth Developer Onboarding Is as Important as Code Readability",
       "type": "story",
       "url": "https://kalali.blog/2022/04/onboarding-as-important-as-code-readablity/"
-    },
-    {
-      "by": "ev0xmusic",
-      "descendants": 0,
-      "id": 31165538,
-      "score": 1,
-      "text": "A bunch of developers and myself have created RepliByte - an open-source tool to seed a development database from a production database.<p>Features:<p><pre><code>  - Support data backup and restore for PostgreSQL, MySQL and MongoDB\n  - Replace sensitive data with fake data\n  - Works on large database (&gt; 10GB) (read Design)\n  - Database Subsetting: Scale down a production database to a more reasonable size\n  - Start a local database with the prod data in a single command\n  - On-the-fly data (de)compression (Zlib)\n  - On-the-fly data de&#x2F;encryption (AES-256)\n  - Fully stateless (no server, no daemon) and lightweight binary\n  - Use custom transformers\n</code></pre>\nMy motivation:<p>As a developer, creating a fake dataset for running tests is tedious. Plus, it does not reflect the real-world data and painful to keep updated. If you prefer to run your app tests with production data. Then RepliByte is for you as well.<p>Available for MacOSX, Linux and Windows.<p>&gt; https:&#x2F;&#x2F;github.com&#x2F;qovery&#x2F;replibyte",
-      "time": 1650965912,
-      "title": "Show HN: A tool to seed your dev database with real data",
-      "type": "story"
-    },
-    {
-      "by": "rl1987",
-      "descendants": 0,
-      "id": 31165523,
-      "score": 1,
-      "time": 1650965717,
-      "title": "Strategies and patterns of gray hat social media automation",
-      "type": "story",
-      "url": "https://www.trickster.dev/post/strategies-and-patterns-of-gray-hat-social-media-automation/"
     }
   ]
 }
