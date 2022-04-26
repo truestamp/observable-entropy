@@ -1,6 +1,59 @@
 {
   "stories": [
     {
+      "by": "AlexanderTheGr8",
+      "descendants": 0,
+      "id": 31174260,
+      "score": 1,
+      "time": 1651014287,
+      "title": "Can something be impossible to understand?",
+      "type": "story",
+      "url": "https://objf.medium.com/can-something-be-literally-impossible-to-understand-20bb11613953"
+    },
+    {
+      "by": "FabHK",
+      "descendants": 0,
+      "id": 31174258,
+      "score": 1,
+      "time": 1651014284,
+      "title": "Tips from the Top: Do the Best Performers Give the Best Advice?",
+      "type": "story",
+      "url": "https://journals.sagepub.com/doi/abs/10.1177/09567976211054089"
+    },
+    {
+      "by": "PebblesRox",
+      "descendants": 1,
+      "id": 31174243,
+      "kids": [
+        31174257
+      ],
+      "score": 1,
+      "time": 1651014186,
+      "title": "The Teaching of Arithmetic I: The Story of an Experiment (1935) [pdf]",
+      "type": "story",
+      "url": "http://www.inference.org.uk/sanjoy/benezet/three.pdf"
+    },
+    {
+      "by": "lfittl",
+      "descendants": 0,
+      "id": 31174241,
+      "score": 1,
+      "time": 1651014179,
+      "title": "SQL: One of the Most Valuable Skills",
+      "type": "story",
+      "url": "https://www.craigkerstiens.com/2019/02/12/sql-one-of-the-most-valuable-skills/"
+    },
+    {
+      "by": "ayolisup",
+      "descendants": 0,
+      "id": 31174217,
+      "score": 1,
+      "time": 1651014007,
+      "title": "On Marble, Texture and Networks",
+      "type": "story",
+      "url": "https://bluelabyrinths.com/2022/04/17/on-marble-texture-and-networks/"
+    },
+    {
       "by": "asabil",
       "descendants": 0,
       "id": 31174192,
@@ -14,7 +67,7 @@
       "by": "rohitpaulk",
       "descendants": 0,
       "id": 31174172,
-      "score": 1,
+      "score": 2,
       "time": 1651013668,
       "title": "Future of Coding",
       "type": "story",
@@ -22,8 +75,11 @@
     },
     {
       "by": "8bitsrule",
-      "descendants": 0,
+      "descendants": 1,
       "id": 31174134,
+      "kids": [
+        31174240
+      ],
       "score": 2,
       "time": 1651013435,
       "title": "US startup plans to enable homebuyers to make all-cash offers",
@@ -44,66 +100,11 @@
       "by": "Husafan",
       "descendants": 0,
       "id": 31174125,
-      "score": 1,
+      "score": 2,
       "time": 1651013369,
       "title": "0L Network Technology Overview – Open-Source Libre/Diem",
       "type": "story",
       "url": "https://0l.network/technology/"
-    },
-    {
-      "by": "moloch",
-      "descendants": 0,
-      "id": 31174110,
-      "score": 1,
-      "time": 1651013272,
-      "title": "Static Linking of Cgo Programs",
-      "type": "story",
-      "url": "https://ragoragino.github.io/softwareengineering/miscellaneous/2021/03/23/cgo-static.html"
-    },
-    {
-      "by": "Barrera",
-      "descendants": 0,
-      "id": 31174100,
-      "score": 1,
-      "time": 1651013150,
-      "title": "Alphabet reports weak earnings and revenue on big YouTube miss",
-      "type": "story",
-      "url": "https://www.cnbc.com/2022/04/26/alphabet-to-report-q1-earnings-after-the-bell-tuesday.html"
-    },
-    {
-      "by": "1vuio0pswjnm7",
-      "descendants": 0,
-      "id": 31174088,
-      "kids": [
-        31174117,
-        31174118,
-        31174120
-      ],
-      "score": 1,
-      "text": "Improved slightly over https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=30916201<p><pre><code>     sed &#x27;s&#x2F;.\\{4\\}&#x2F;&#x2F;&#x27; &lt;&lt;eof|flex -8iCrf\n     &#x2F;* extract, reformat, print json *&#x2F;\n    \n     int fileno (FILE *);\n     #define echo do{if(fwrite(yytext,(size_t)yyleng,1,yyout)){}}while(0)\n     #define jmp (yy_start) = 1 + 2 *\n     #define pc(x) putchar(x)\n    %option nounput noinput noyywrap\n    %s x1 x2\n    %%\n    \n    ^\\40+ \n     &#x2F;* quotes\n      &quot;key&quot;:&quot; \n      &quot;key&quot;: &quot; \n     *&#x2F;\n    \\&quot;[^\\&quot;:\\]\\)]*\\&quot;:\\40*\\&quot; echo;jmp x1;\n    \n     &#x2F;* bracket followed by brace \n      &quot;key&quot;:[{ \n      &quot;key&quot;: [{ \n     *&#x2F;\n    \\&quot;[^\\&quot;:\\]\\)]*\\&quot;:\\40*\\[\\40*\\{ echo;pc(10);\n    \n     &#x2F;* number \n     &quot;key&quot;:1\n     &quot;key&quot;: 1\n     *&#x2F;\n    \\&quot;[^\\&quot;:\\]\\)]*\\&quot;:\\40*[0-9\\40\\12\\15]* echo;jmp x2;\n    &lt;x2&gt;[,}] pc(10);jmp 0;\n    \n     &#x2F;* bracket (unquoted, comma-separated array values)\n      &quot;key&quot;:[ \n      &quot;key&quot;: [ \n     *&#x2F;\n    \\&quot;[^\\&quot;:\\]\\)]*\\&quot;:\\40*\\[ echo;jmp x1;\n    \n     &#x2F;* brace\n      &quot;key&quot;:{ \n      &quot;key&quot;: { \n     *&#x2F;\n    \\&quot;[^\\&quot;:\\]\\)]*\\&quot;:\\40*\\{ echo;pc(10);\n    \n     &#x2F;* open brace not closed brace *&#x2F; \n    &lt;x1&gt;[\\]\\{\\&quot;] echo;pc(10);jmp 0;\n    &lt;x1&gt;[^\\]\\{\\&quot;\\12]* echo;\n    \\n|.\n    %%\n    int main(){ yylex();exit(0);}\n\n   eof\n\n     cc  -std=c89 -Wall -pedantic -pipe lex.yy.c -static -o yy059\n\n   Usage: yy059 &lt; 1.json\n</code></pre>\nyy059 is for extracting JSON from HTML and printing it as a new, left-justified, line-delimited format readable to me.<p>To use with indented JSON, e.g., json_reformat output (json_reformat from yajl project), first remove the indentation, e.g.,<p><pre><code>      sed &#x27;s&#x2F; *&#x2F;&#x2F;&#x27; 1.json | yy059\n</code></pre>\nNB. This is made for me, primarily for reading YouTube JSON. It is used in a personal YouTube search utility. JSON from non-YouTube sources, e.g., Twitter, may contain escaped quotes, often for including quotes associated with href tags. Remove escaped quotes first, e.g., using yy064, disclosed here: https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=30916201",
-      "time": 1651013060,
-      "title": "JSON Extract, Reformat and Print",
-      "type": "story"
-    },
-    {
-      "by": "0xa2",
-      "descendants": 0,
-      "id": 31174085,
-      "score": 1,
-      "time": 1651013041,
-      "title": "Godfrey's Team Designs a Parallel Internet with Speed-of-Light Latencies",
-      "type": "story",
-      "url": "https://cs.illinois.edu/news/godfreys-team-designs-a-parallel-internet-with-speed-of-light-latencies"
-    },
-    {
-      "by": "pabs3",
-      "descendants": 0,
-      "id": 31174083,
-      "score": 1,
-      "time": 1651013024,
-      "title": "Extracting Rationale for Open Source Development Decisions",
-      "type": "story",
-      "url": "https://neverworkintheory.org/2022/04/25/rationale-for-open-source-development-decisions.html"
     }
   ]
 }
