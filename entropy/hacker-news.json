@@ -1,6 +1,56 @@
 {
   "stories": [
     {
+      "by": "Turukawa",
+      "descendants": 0,
+      "id": 31168990,
+      "score": 1,
+      "time": 1650988177,
+      "title": "Tesla share slide knocks $97bn off valuation ahead of Twitter takeover",
+      "type": "story",
+      "url": "https://www.ft.com/content/cd047da9-b386-468a-a322-cded95400acb"
+    },
+    {
+      "by": "PaulHoule",
+      "descendants": 0,
+      "id": 31168985,
+      "score": 1,
+      "time": 1650988152,
+      "title": "A friend, not foe: Parasite in gastrointestinal system found to promote health",
+      "type": "story",
+      "url": "https://medicalxpress.com/news/2022-04-friend-foe-parasite-gastrointestinal-health.html"
+    },
+    {
+      "by": "galogon",
+      "descendants": 0,
+      "id": 31168979,
+      "score": 1,
+      "time": 1650988092,
+      "title": "TSMC's Revenue From Apple to Grow 25% in 2022",
+      "type": "story",
+      "url": "https://www.macrumors.com/2022/04/25/tsmc-revenue-from-apple-predicted-to-grow-in-2022/"
+    },
+    {
+      "by": "zdw",
+      "descendants": 0,
+      "id": 31168964,
+      "score": 1,
+      "time": 1650988016,
+      "title": "Sort of making snapshots of UEFI libvirt-based virtual machines",
+      "type": "story",
+      "url": "https://utcc.utoronto.ca/~cks/space/blog/linux/LibvirtUEFISnapshots"
+    },
+    {
+      "by": "weinzierl",
+      "descendants": 0,
+      "id": 31168945,
+      "score": 1,
+      "time": 1650987927,
+      "title": "List of JSON tools for command line",
+      "type": "story",
+      "url": "https://ilya-sher.org/2018/04/10/list-of-json-tools-for-command-line/"
+    },
+    {
       "by": "odyslam",
       "descendants": 0,
       "id": 31168939,
@@ -25,7 +75,7 @@
       "descendants": 0,
       "id": 31168882,
       "score": 1,
-      "text": "Hi HN!<p>Kam here. I’m the founder of Linen.dev (https:&#x2F;&#x2F;linen.dev), a website that makes your public Slack community Google searchable. Linen will sync your Slack threads and make it SEO friendly so your community can find Slack content that was previously hidden.<p>Previously I worked on a popular open source project which had a sizable Slack community. Slack was great for engaging with community members and with early sales. However as community scales Slack becomes this black hole where context becomes lost. Most public communities can’t afford to pay for several hundred&#x2F;thousand members so they are limited to 10,000 free messages. You run into the problem of people asking repeat questions and not searching in Slack. It also doesn’t help that the Slack UX encourages posting and not searching. We experimented with Github discussions and Discourse but didn’t want another channel to maintain and split the community on.<p>With Linen I wanted to build a tool that is very low maintenance without changing my current workflow. By making it search engine friendly and putting it on a website the community members can find answers to repeat questions before ever getting into your Slack channel. Linen is the first result that comes up on Google if you search for\n“seeing a weird issue with flyte” (https:&#x2F;&#x2F;www.google.com&#x2F;search?q=seeing+a+weird+issue+with+flyte) or \n“replace beast http with proxygen” (https:&#x2F;&#x2F;www.google.com&#x2F;search?q=replace+beast+http+with+proxygen).<p>As a side effect of syncing conversation to a website you end up with a very long tail of unique and relevant content for your community. Linen is free to use and get setup but I offer a paid version (I am still figuring out the pricing model for it) where you can get the content redirected to your own subdomain where your domain gets all the SEO benefits.<p>Linen is built with Nextjs, Node, Typescript, React, Prisma for the ORM and using AWS aurora for the Postgres db. I chose Nextjs for the server side rendering capabilities and wanted to share types between client side with Typescript. I’ve also enjoyed working with Prisma as the ORM since you don’t have to write a lot of boilerplate with other ORMs. I&#x27;ve also been pretty happy with Vercel and Nextjs especially with the server side rendering and client side caching it provides.<p>Here are a few communities on Linen right now:<p>https:&#x2F;&#x2F;osquery.fleetdm.com&#x2F;<p>https:&#x2F;&#x2F;discuss.flyte.io&#x2F;<p>https:&#x2F;&#x2F;calendso.linen.dev&#x2F;<p>https:&#x2F;&#x2F;community-chat.infracost.io&#x2F;<p>https:&#x2F;&#x2F;airbytehq.linen.dev&#x2F;<p>The product is very simple right now but I want to add features like related questions detection with semantic similarity, integrating with Github to notify the thread when it is finished, auto thread detection for conversations that aren’t in thread form.<p>You can sign up for free today at https:&#x2F;&#x2F;www.linen.dev. I am doing superhuman onboarding at the moment to get better feedback and to manually walkthrough some of the less polished on boarding flow.<p>p.s. I’m actively working on supporting Discord on Linen so would love to hear from anyone that is interested",
+      "text": "Hi HN!<p>Kam here. I’m the founder of Linen.dev https:&#x2F;&#x2F;linen.dev, a website that makes your public Slack community Google searchable. Linen will sync your Slack threads and make it SEO friendly so your community can find Slack content that was previously hidden.<p>Previously I worked on a popular open source project which had a sizable Slack community. Slack was great for engaging with community members and with early sales. However as community scales Slack becomes this black hole where context becomes lost. Most public communities can’t afford to pay for several hundred&#x2F;thousand members so they are limited to 10,000 free messages. You run into the problem of people asking repeat questions and not searching in Slack. It also doesn’t help that the Slack UX encourages posting and not searching. We experimented with Github discussions and Discourse but didn’t want another channel to maintain and split the community on.<p>With Linen I wanted to build a tool that is very low maintenance without changing my current workflow. By making it search engine friendly and putting it on a website the community members can find answers to repeat questions before ever getting into your Slack channel. Linen is the first result that comes up on Google if you search for\n“seeing a weird issue with flyte” https:&#x2F;&#x2F;www.google.com&#x2F;search?q=seeing+a+weird+issue+with+flyte or \n“replace beast http with proxygen” https:&#x2F;&#x2F;www.google.com&#x2F;search?q=replace+beast+http+with+proxygen.<p>As a side effect of syncing conversation to a website you end up with a very long tail of unique and relevant content for your community. Linen is free to use and get setup but I offer a paid version (I am still figuring out the pricing model for it) where you can get the content redirected to your own subdomain where your domain gets all the SEO benefits.<p>Linen is built with Nextjs, Node, Typescript, React, Prisma for the ORM and using AWS aurora for the Postgres db. I chose Nextjs for the server side rendering capabilities and wanted to share types between client side with Typescript. I’ve also enjoyed working with Prisma as the ORM since you don’t have to write a lot of boilerplate with other ORMs. I&#x27;ve also been pretty happy with Vercel and Nextjs especially with the server side rendering and client side caching it provides.<p>Here are a few communities on Linen right now:<p>https:&#x2F;&#x2F;osquery.fleetdm.com&#x2F;<p>https:&#x2F;&#x2F;discuss.flyte.io&#x2F;<p>https:&#x2F;&#x2F;calendso.linen.dev&#x2F;<p>https:&#x2F;&#x2F;community-chat.infracost.io&#x2F;<p>https:&#x2F;&#x2F;community-chat.signoz.io&#x2F;<p>https:&#x2F;&#x2F;airbytehq.linen.dev&#x2F;<p>The product is very simple right now but I want to add features like related questions detection with semantic similarity, integrating with Github to notify the thread when it is finished, auto thread detection for conversations that aren’t in thread form.<p>You can sign up for free today at https:&#x2F;&#x2F;www.linen.dev. I am doing manual onboarding at the moment to get better feedback and to manually walkthrough some of the less polished parts of the boarding flow.<p>p.s. I’m actively working on supporting Discord on Linen so would love to hear from anyone that is interested",
       "time": 1650987639,
       "title": "Show HN: Linen – Make your Slack community Google-searchable",
       "type": "story"
@@ -44,64 +94,11 @@
       "by": "bryanrasmussen",
       "descendants": 0,
       "id": 31168862,
-      "score": 1,
+      "score": 3,
       "time": 1650987531,
       "title": "3,200-Year-Old Egyptian Tablet Records Excuses for Why People Missed Work",
       "type": "story",
       "url": "https://www.openculture.com/2022/02/3200-year-old-egyptian-tablet-shows-why-people-missed-work-the-scorpion-bit-him-brewing-beer-more.html"
-    },
-    {
-      "by": "thomascountz",
-      "descendants": 0,
-      "id": 31168859,
-      "score": 1,
-      "time": 1650987516,
-      "title": "PicoPrimer – Review cybersecurity principles",
-      "type": "story",
-      "url": "https://primer.picoctf.org/"
-    },
-    {
-      "by": "alhirzel",
-      "descendants": 1,
-      "id": 31168819,
-      "kids": [
-        31168840
-      ],
-      "score": 2,
-      "text": "I am wondering if anyone knows of a parsing framework or existing tool that would help in evaluating pseudo-English-language statements that express models.<p>For example, it would let me write a tool to parse something like OPL[1], or maybe someone&#x27;s text describing a house, and get out a structural decomposition and graph of requirements from statements like these:<p>&quot;A full bathroom consists of a shower, tub, and sink. A bedroom consists of a bed and closet. A laundry room consists of a washer and dryer. The noise isolation between the washer and bed shall be high. The walking path between the closet and washer shall be less than 25ft.&quot;<p>This would have keywords like &quot;consists of&quot; and &quot;shall&quot;. Of course I could write a full-up validating parser manually using lex&#x2F;yacc, Perl 6 grammars[2], Parsec, etc. I am just looking for any more focused tools that could make this quicker.<p>[1]: https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Object_Process_Methodology#Basics<p>[2]: https:&#x2F;&#x2F;www.oreilly.com&#x2F;library&#x2F;view&#x2F;perl-6-essentials&#x2F;0596004990&#x2F;ch04s06.html",
-      "time": 1650987359,
-      "title": "Ask HN: Parser for pseudo-English domain-specific languages?",
-      "type": "story"
-    },
-    {
-      "by": "makerofspoons",
-      "descendants": 0,
-      "id": 31168811,
-      "score": 3,
-      "time": 1650987335,
-      "title": "Let the Collapse Start with Me",
-      "type": "story",
-      "url": "https://www.nationalreview.com/2022/04/let-the-collapse-start-with-me/"
-    },
-    {
-      "by": "Element_",
-      "descendants": 0,
-      "id": 31168799,
-      "score": 4,
-      "time": 1650987284,
-      "title": "Freshii’s new ‘virtual cashier’–who works from Nicaragua for $3.75 an hour",
-      "type": "story",
-      "url": "https://www.thestar.com/business/2022/04/26/meet-the-freshii-virtual-cashier-who-works-from-nicaragua-for-375-an-hour.html"
-    },
-    {
-      "by": "sotospeak",
-      "descendants": 0,
-      "id": 31168780,
-      "score": 2,
-      "time": 1650987200,
-      "title": "Recursive Filters (IIR)",
-      "type": "story",
-      "url": "https://techgoggler.com/automation/recursive-filters-iir/"
     }
   ]
 }
