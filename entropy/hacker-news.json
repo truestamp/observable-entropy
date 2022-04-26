@@ -1,6 +1,36 @@
 {
   "stories": [
     {
+      "by": "firstSpeaker",
+      "descendants": 0,
+      "id": 31165542,
+      "score": 1,
+      "time": 1650966000,
+      "title": "Smooth Developer Onboarding Is as Important as Code Readability",
+      "type": "story",
+      "url": "https://kalali.blog/2022/04/onboarding-as-important-as-code-readablity/"
+    },
+    {
+      "by": "ev0xmusic",
+      "descendants": 0,
+      "id": 31165538,
+      "score": 1,
+      "text": "A bunch of developers and myself have created RepliByte - an open-source tool to seed a development database from a production database.<p>Features:<p><pre><code>  - Support data backup and restore for PostgreSQL, MySQL and MongoDB\n  - Replace sensitive data with fake data\n  - Works on large database (&gt; 10GB) (read Design)\n  - Database Subsetting: Scale down a production database to a more reasonable size\n  - Start a local database with the prod data in a single command\n  - On-the-fly data (de)compression (Zlib)\n  - On-the-fly data de&#x2F;encryption (AES-256)\n  - Fully stateless (no server, no daemon) and lightweight binary\n  - Use custom transformers\n</code></pre>\nMy motivation:<p>As a developer, creating a fake dataset for running tests is tedious. Plus, it does not reflect the real-world data and painful to keep updated. If you prefer to run your app tests with production data. Then RepliByte is for you as well.<p>Available for MacOSX, Linux and Windows.<p>https:&#x2F;&#x2F;github.com&#x2F;Qovery&#x2F;replibyte",
+      "time": 1650965912,
+      "title": "Show HN: A tool to seed your dev database with real data",
+      "type": "story"
+    },
+    {
+      "by": "rl1987",
+      "descendants": 0,
+      "id": 31165523,
+      "score": 1,
+      "time": 1650965717,
+      "title": "Strategies and patterns of gray hat social media automation",
+      "type": "story",
+      "url": "https://www.trickster.dev/post/strategies-and-patterns-of-gray-hat-social-media-automation/"
+    },
+    {
       "by": "jorgentwyg",
       "descendants": 0,
       "id": 31165515,
@@ -16,7 +46,7 @@
       "id": 31165513,
       "score": 1,
       "time": 1650965609,
-      "title": "Extending Linux in-kernel TLS support",
+      "title": "Extending in-kernel TLS support in Linux",
       "type": "story",
       "url": "https://lwn.net/SubscriberLink/892216/c0a9a9e5df977792/"
     },
@@ -44,7 +74,7 @@
       "by": "robin_reala",
       "descendants": 0,
       "id": 31165505,
-      "score": 1,
+      "score": 2,
       "time": 1650965504,
       "title": "Things I can’t do on macOS which I can do on Ubuntu",
       "type": "story",
@@ -64,43 +94,14 @@
       "by": "chmaynard",
       "descendants": 0,
       "id": 31165495,
+      "kids": [
+        31165524
+      ],
       "score": 1,
       "time": 1650965381,
       "title": "TLS in Linux (2015)",
       "type": "story",
       "url": "https://lwn.net/Articles/666509/"
-    },
-    {
-      "by": "SSLy",
-      "descendants": 0,
-      "id": 31165479,
-      "score": 1,
-      "time": 1650965192,
-      "title": "No Blinking",
-      "type": "story",
-      "url": "https://jurta.org/en/prog/noblink"
-    },
-    {
-      "by": "WolfOliver",
-      "descendants": 1,
-      "id": 31165471,
-      "kids": [
-        31165519
-      ],
-      "score": 2,
-      "time": 1650965014,
-      "title": "Ask HN: Is UML Still Cool?",
-      "type": "story"
-    },
-    {
-      "by": "dundalk03",
-      "descendants": 0,
-      "id": 31165468,
-      "score": 1,
-      "time": 1650964951,
-      "title": "Help – I don't have time to experiment",
-      "type": "story",
-      "url": "https://www.linkedin.com/pulse/help-i-dont-have-time-experiment-dave-martin/"
     }
   ]
 }
