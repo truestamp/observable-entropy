@@ -1,6 +1,89 @@
 {
   "stories": [
     {
+      "by": "Eddy_Viscosity2",
+      "descendants": 0,
+      "id": 31169115,
+      "score": 1,
+      "text": "My question is for those familiar with the HDF-5 data format. From what I can tell, it does not natively support the Not-A-Number (NaN) data type. For example if an array of data values was stored and some of them were NaN then these would be converted to nulls which can then be read in (i.e. misinterpreted) as zeros.<p>Does anyone know of a standardized or widely accepted way of storing NaN in HDF-5 files?",
+      "time": 1650988771,
+      "title": "Ask HN: Nan for HDF-5 Data Format",
+      "type": "story"
+    },
+    {
+      "by": "stevekemp",
+      "descendants": 0,
+      "id": 31169111,
+      "score": 1,
+      "time": 1650988742,
+      "title": "Porting a game from CP/M to the ZX Spectrum 48k",
+      "type": "story",
+      "url": "https://blog.steve.fi/porting_a_game_from_cp_m_to_the_zx_spectrum_48k.html"
+    },
+    {
+      "by": "camtarn",
+      "descendants": 0,
+      "id": 31169106,
+      "score": 1,
+      "time": 1650988729,
+      "title": "A 3D printer that makes parts from wooden sheets",
+      "type": "story",
+      "url": "https://shane.engineer/blog/plywood-3d-printer"
+    },
+    {
+      "by": "amrrs",
+      "descendants": 0,
+      "id": 31169103,
+      "score": 2,
+      "time": 1650988716,
+      "title": "US man wins $450k lawsuit after unwanted office birthday party",
+      "type": "story",
+      "url": "https://www.bbc.com/news/world-us-canada-61141421"
+    },
+    {
+      "by": "dclaysmith",
+      "descendants": 0,
+      "id": 31169101,
+      "score": 1,
+      "time": 1650988702,
+      "title": "How We Built More Than 100 SaaS Integrations for Our Product",
+      "type": "story",
+      "url": "https://www.akitaapp.com/blog/how-we-built-more-than-100-customer-success-integrations-for-our-product/420"
+    },
+    {
+      "by": "jshamir",
+      "descendants": 1,
+      "id": 31169085,
+      "kids": [
+        31169086
+      ],
+      "score": 1,
+      "time": 1650988649,
+      "title": "Hate Losing to Bots – Try Beating Them",
+      "type": "story",
+      "url": "https://beatthebot.ai"
+    },
+    {
+      "by": "lordofmoria",
+      "descendants": 0,
+      "id": 31169064,
+      "score": 2,
+      "time": 1650988564,
+      "title": "Software Engineering Foot-Guns",
+      "type": "story",
+      "url": "https://kenkantzer.com/5-software-engineering-foot-guns/"
+    },
+    {
+      "by": "bitcharmer",
+      "descendants": 0,
+      "id": 31169052,
+      "score": 1,
+      "time": 1650988503,
+      "title": "GraalVM CE 22.1 Released with Performance Improvements, Apple Silicon Support",
+      "type": "story",
+      "url": "https://www.phoronix.com/scan.php?page=news_item&px=GraalVM-22.1-Released"
+    },
+    {
       "by": "underpeak",
       "descendants": 0,
       "id": 31169039,
@@ -14,91 +97,11 @@
       "by": "cspliego",
       "descendants": 0,
       "id": 31169028,
-      "score": 1,
+      "score": 2,
       "time": 1650988378,
       "title": "What is happening with sudden increase/decrease in Twitter followers?",
       "type": "story",
       "url": "https://twitter.com/cbouzy/status/1518953731961802752"
-    },
-    {
-      "by": "chromakode",
-      "descendants": 0,
-      "id": 31169023,
-      "score": 1,
-      "time": 1650988361,
-      "title": "Anti-Reflective Framing Glass",
-      "type": "story",
-      "url": "https://cacaoeditions.com/anti-reflection-picture-framing-glass/"
-    },
-    {
-      "by": "brainsmith",
-      "descendants": 0,
-      "id": 31169008,
-      "score": 1,
-      "time": 1650988279,
-      "title": "Searchable, templated catalog of popular terminal commands",
-      "type": "story",
-      "url": "https://www.commands.dev/"
-    },
-    {
-      "by": "Turukawa",
-      "descendants": 0,
-      "id": 31168990,
-      "score": 2,
-      "time": 1650988177,
-      "title": "Tesla share slide knocks $97bn off valuation ahead of Twitter takeover",
-      "type": "story",
-      "url": "https://www.ft.com/content/cd047da9-b386-468a-a322-cded95400acb"
-    },
-    {
-      "by": "PaulHoule",
-      "descendants": 0,
-      "id": 31168985,
-      "score": 1,
-      "time": 1650988152,
-      "title": "A friend, not foe: Parasite in gastrointestinal system found to promote health",
-      "type": "story",
-      "url": "https://medicalxpress.com/news/2022-04-friend-foe-parasite-gastrointestinal-health.html"
-    },
-    {
-      "by": "zdw",
-      "descendants": 0,
-      "id": 31168964,
-      "score": 1,
-      "time": 1650988016,
-      "title": "Sort of making snapshots of UEFI libvirt-based virtual machines",
-      "type": "story",
-      "url": "https://utcc.utoronto.ca/~cks/space/blog/linux/LibvirtUEFISnapshots"
-    },
-    {
-      "by": "weinzierl",
-      "descendants": 0,
-      "id": 31168945,
-      "score": 1,
-      "time": 1650987927,
-      "title": "List of JSON tools for command line",
-      "type": "story",
-      "url": "https://ilya-sher.org/2018/04/10/list-of-json-tools-for-command-line/"
-    },
-    {
-      "by": "odyslam",
-      "descendants": 0,
-      "id": 31168939,
-      "score": 2,
-      "time": 1650987891,
-      "title": "Nomad Announces $22.4M Round to Build Secure Cross-Chain Interoperability",
-      "type": "story",
-      "url": "https://www.businesswire.com/news/home/20220414005497/en/%C2%A0Nomad-Announces-22.4-Million-Seed-Round-to-Build-More-Secure-Cross-Chain-Interoperability"
-    },
-    {
-      "by": "zdw",
-      "descendants": 0,
-      "id": 31168930,
-      "score": 1,
-      "time": 1650987847,
-      "title": "Let's Try V on OpenBSD",
-      "type": "story",
-      "url": "https://briancallahan.net/blog/20220426.html"
     }
   ]
 }
