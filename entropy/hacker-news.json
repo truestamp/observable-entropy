@@ -1,6 +1,46 @@
 {
   "stories": [
     {
+      "by": "yessirwhatever",
+      "descendants": 0,
+      "id": 31184875,
+      "score": 1,
+      "text": "I heard many people say something along the lines of Substack being a &quot;wasteland&quot; of content, a jungle of weird opinions. I haven&#x27;t seen any of that, but I haven&#x27;t done much research. I&#x27;m interested in finding out specific examples if anyone has.",
+      "time": 1651088958,
+      "title": "Ask HN: What's the Worst Content on Substack?",
+      "type": "story"
+    },
+    {
+      "by": "merlinscholz",
+      "descendants": 0,
+      "id": 31184874,
+      "score": 1,
+      "time": 1651088956,
+      "title": "The case of the UAC that Just Wouldn’t (2015)",
+      "type": "story",
+      "url": "https://marc.durdin.net/2015/07/the-case-of-the-uac-that-just-wouldnt/"
+    },
+    {
+      "by": "madacol",
+      "descendants": 0,
+      "id": 31184857,
+      "score": 1,
+      "time": 1651088848,
+      "title": "Synthesis ─ a spin-off from the custom school built for Elon Musk’s kids",
+      "type": "story",
+      "url": "https://www.synthesis.com/"
+    },
+    {
+      "by": "lordofmoria",
+      "descendants": 0,
+      "id": 31184851,
+      "score": 1,
+      "time": 1651088808,
+      "title": "Technology ROI Discussions Are Broken",
+      "type": "story",
+      "url": "https://kenkantzer.com/technology-roi-discussions-are-broken/"
+    },
+    {
       "by": "ducktective",
       "descendants": 0,
       "id": 31184825,
@@ -25,9 +65,12 @@
     },
     {
       "by": "Barrera",
-      "descendants": 0,
+      "descendants": 1,
       "id": 31184797,
-      "score": 2,
+      "kids": [
+        31184876
+      ],
+      "score": 3,
       "time": 1651088522,
       "title": "China reports first human case of H3N8 bird flu",
       "type": "story",
@@ -62,46 +105,6 @@
       "title": "Is ‘vehicle-to-everything’ charging ready for prime time?",
       "type": "story",
       "url": "https://www.canarymedia.com/articles/ev-charging/is-vehicle-to-everything-charging-ready-for-prime-time"
-    },
-    {
-      "by": "8bitsrule",
-      "descendants": 0,
-      "id": 31184724,
-      "score": 3,
-      "time": 1651088152,
-      "title": "North Koreans Are Jailbreaking Phones to Access Forbidden Media",
-      "type": "story",
-      "url": "https://www.wired.com/story/north-korean-phone-jailbreakers/"
-    },
-    {
-      "by": "YesBox",
-      "descendants": 0,
-      "id": 31184706,
-      "score": 1,
-      "text": "Hello HN,<p>I am creating a city builder video game and wanted to figure out a way to efficiently and realistically path hundreds of thousands of agents around the game world, with path preferences that the agents can utilize (such as wanting to walk through china town on their way to their destination)<p>If you&#x27;re not aware, algorithms like Dijkstra and A* will only return one shortest path between two points, which is not very realistic when you&#x27;re walking around e.g. Manhattan, NYC and have a binomial coefficient number of possible paths to choose from. The other limitation is that these algorithms wont factor in path preferences (might not be entirely true for A*).<p>So I created an algorithm that can cache all possible shortest paths between two points in N space (so all node pairs cached is N^2 space). Additionally, I figured out a way to store the data in a (C++) vector and maintain constant find&#x2F;access time, since hash tables have a lot of memory overhead.<p>I wrote up an introduction article (with video proof at the end, though it&#x27;s my first YouTube video so bear with me ha ha) that will be followed by a technical one when I have time.<p>If you have any tips on how I can put the algorithm through the ringer, and how I could create a white paper if successful, I would greatly appreciate it! I don&#x27;t have any academic connections so I&#x27;m not sure who I could reach out to professionally.<p>Link: https:&#x2F;&#x2F;www.yesboxstudios.com&#x2F;2022&#x2F;04&#x2F;27&#x2F;all-nck-shortest-paths-in-near-optimal-time-and-space-complexity-introduction&#x2F;",
-      "time": 1651088054,
-      "title": "Show HN: New Pathfinding Algorithm",
-      "type": "story"
-    },
-    {
-      "by": "IdEntities",
-      "descendants": 0,
-      "id": 31184702,
-      "score": 1,
-      "time": 1651088027,
-      "title": "The future of mind control (2019)",
-      "type": "story",
-      "url": "https://news.harvard.edu/gazette/story/2019/09/a-new-paper-examines-how-neuron-like-implants-could-treat-brain-disorders/"
-    },
-    {
-      "by": "nunodio",
-      "descendants": 0,
-      "id": 31184681,
-      "score": 2,
-      "time": 1651087903,
-      "title": "Microsoft report on Russia's ongoing cyberattack activity in Ukraine",
-      "type": "story",
-      "url": "https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4Vwwd"
     }
   ]
 }
