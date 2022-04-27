@@ -1,6 +1,56 @@
 {
   "stories": [
     {
+      "by": "YesBox",
+      "descendants": 0,
+      "id": 31184706,
+      "score": 1,
+      "text": "Hello HN,<p>I am creating a city builder video game and wanted to figure out a way to efficiently and realistically path hundreds of thousands of agents around the game world, with path preferences that the agents can utilize (such as wanting to walk through china town on their way to their destination)<p>If you&#x27;re not aware, algorithms like Dijkstra and A* will only return one shortest path between two points, which is not very realistic when you&#x27;re walking around e.g. Manhattan, NYC and have a binomial coefficient number of possible paths to choose from. The other limitation is that these algorithms wont factor in path preferences (might not be entirely true for A*).<p>So I created an algorithm that can cache all possible shortest paths between two points in N space (so all node pairs cached is N^2 space). Additionally, I figured out a way to store the data in a (C++) vector and maintain constant find&#x2F;access time, since hash tables have a lot of memory overhead.<p>I wrote up an introduction article (with video proof at the end, though it&#x27;s my first YouTube video so bear with me ha ha) that will be followed by a technical one when I have time.<p>If you have any tips on how I can put the algorithm through the ringer, and how I could create a white paper if successful, I would greatly appreciate it! I don&#x27;t have any academic connections so I&#x27;m not sure who I could reach out to professionally.<p>Link: https:&#x2F;&#x2F;www.yesboxstudios.com&#x2F;2022&#x2F;04&#x2F;27&#x2F;all-nck-shortest-paths-in-near-optimal-time-and-space-complexity-introduction&#x2F;",
+      "time": 1651088054,
+      "title": "Show HN: New Pathfinding Algorithm",
+      "type": "story"
+    },
+    {
+      "by": "IdEntities",
+      "descendants": 0,
+      "id": 31184702,
+      "score": 1,
+      "time": 1651088027,
+      "title": "The future of mind control (2019)",
+      "type": "story",
+      "url": "https://news.harvard.edu/gazette/story/2019/09/a-new-paper-examines-how-neuron-like-implants-could-treat-brain-disorders/"
+    },
+    {
+      "by": "nunodio",
+      "descendants": 0,
+      "id": 31184681,
+      "score": 1,
+      "time": 1651087903,
+      "title": "Microsoft report on Russia's ongoing cyberattack activity in Ukraine",
+      "type": "story",
+      "url": "https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4Vwwd"
+    },
+    {
+      "by": "BaltoRouberol",
+      "descendants": 0,
+      "id": 31184680,
+      "score": 1,
+      "time": 1651087903,
+      "title": "Measuring the coverage of a rust program in GitHub Actions",
+      "type": "story",
+      "url": "https://blog.balthazar-rouberol.com/measuring-the-coverage-of-a-rust-program-in-github-actions"
+    },
+    {
+      "by": "harambae",
+      "descendants": 0,
+      "id": 31184677,
+      "score": 1,
+      "time": 1651087857,
+      "title": "The odds of a home price decline hitting your local housing market in one chart",
+      "type": "story",
+      "url": "https://fortune.com/2022/04/27/how-likely-home-prices-decline-in-every-major-housing-market-corelogic/"
+    },
+    {
       "by": "shcheklein",
       "descendants": 0,
       "id": 31184652,
@@ -49,59 +99,6 @@
       "time": 1651087645,
       "title": "Ask HN: Online course or a printed book – what do your prefer?",
       "type": "story"
-    },
-    {
-      "by": "rmason",
-      "descendants": 0,
-      "id": 31184618,
-      "score": 1,
-      "time": 1651087604,
-      "title": "Ben Nadel: R.O.P.E. and Battling Post-Deployment Depression",
-      "type": "story",
-      "url": "https://www.bennadel.com/blog/4256-r-o-p-e-and-battling-post-deployment-depression.htm"
-    },
-    {
-      "by": "_Microft",
-      "descendants": 0,
-      "id": 31184581,
-      "score": 1,
-      "time": 1651087415,
-      "title": "Arbitrary Wave Generator with the Raspberry Pi Pico (2021)",
-      "type": "story",
-      "url": "https://www.instructables.com/Arbitrary-Wave-Generator-With-the-Raspberry-Pi-Pic/"
-    },
-    {
-      "by": "rmason",
-      "descendants": 1,
-      "id": 31184563,
-      "kids": [
-        31184588
-      ],
-      "score": 4,
-      "time": 1651087336,
-      "title": "Michigan is devoting a 40-mile stretch of highway to testing self-driving cars",
-      "type": "story",
-      "url": "https://www.businessinsider.com/michigan-sets-40-mile-highway-aside-for-self-driving-infrastructure-2020-8"
-    },
-    {
-      "by": "dfern",
-      "descendants": 0,
-      "id": 31184551,
-      "score": 4,
-      "time": 1651087268,
-      "title": "Minneapolis police set up fake social media accounts",
-      "type": "story",
-      "url": "https://twitter.com/maxnesterak/status/1519357326536462336"
-    },
-    {
-      "by": "closedterminal",
-      "descendants": 0,
-      "id": 31184528,
-      "score": 1,
-      "time": 1651087140,
-      "title": "Veza Launches Open Authorization API",
-      "type": "story",
-      "url": "https://github.com/veza"
     }
   ]
 }
