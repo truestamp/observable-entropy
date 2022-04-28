@@ -1,6 +1,79 @@
 {
   "stories": [
     {
+      "by": "open-source-ux",
+      "descendants": 0,
+      "id": 31192826,
+      "score": 1,
+      "text": "It&#x27;s a compiled language with Ruby-inspired syntax (but not identical to Ruby). It has fast performance and a good standard library. Version 1.0 of the language was released in March 2021.<p>Some disadvantages:<p>- Compilation is a bit slow<p>- Small community<p>- Few learning resources<p>- Windows version is still under development (not 1.0 ready)<p>I&#x27;m impressed by the language and find it very likable. It&#x27;s not often discussed on HN, which is a shame.<p>If you are using Crystal, or have taken a look at the language, what are you thoughts on the language?",
+      "time": 1651155838,
+      "title": "Ask HN: The Crystal programming language – what are your impressions?",
+      "type": "story"
+    },
+    {
+      "by": "rjmunro",
+      "descendants": 1,
+      "id": 31192812,
+      "kids": [
+        31192829
+      ],
+      "score": 1,
+      "time": 1651155778,
+      "title": "Copilot Is Shutting Down",
+      "type": "story",
+      "url": "https://meet.copilot.com/closing/"
+    },
+    {
+      "by": "areoform",
+      "descendants": 0,
+      "id": 31192799,
+      "score": 1,
+      "time": 1651155731,
+      "title": "NASA's Deep Space Network Now [Live Dashboard]",
+      "type": "story",
+      "url": "https://eyes.nasa.gov/dsn/dsn.html"
+    },
+    {
+      "by": "dmux",
+      "descendants": 0,
+      "id": 31192795,
+      "score": 2,
+      "time": 1651155703,
+      "title": "Actor system for the JVM developed by Electronic Arts",
+      "type": "story",
+      "url": "https://www.orbit.cloud/orbit/"
+    },
+    {
+      "by": "JumpCrisscross",
+      "descendants": 0,
+      "id": 31192791,
+      "score": 2,
+      "time": 1651155683,
+      "title": "Twitter admits overstating audience figures for 3 years",
+      "type": "story",
+      "url": "https://www.ft.com/content/3184a769-4288-44e8-abea-300d27c1aa95"
+    },
+    {
+      "by": "disadvantage",
+      "descendants": 0,
+      "id": 31192781,
+      "score": 1,
+      "time": 1651155637,
+      "title": "Securing Access to Kubernetes Environments with Zero Trust",
+      "type": "story",
+      "url": "https://thenewstack.io/securing-access-to-kubernetes-environments-with-zero-trust/"
+    },
+    {
+      "by": "drclau",
+      "descendants": 0,
+      "id": 31192775,
+      "score": 1,
+      "time": 1651155603,
+      "title": "JetBrains Mono: A Typeface for Developers",
+      "type": "story",
+      "url": "https://www.jetbrains.com/lp/mono/"
+    },
+    {
       "by": "abdessamadm3",
       "descendants": 0,
       "id": 31192765,
@@ -28,76 +101,6 @@
       "title": "What Is the Fediverse?",
       "type": "story",
       "url": "https://framatube.org/videos/watch/4294a720-f263-4ea4-9392-cf9cea4d5277"
-    },
-    {
-      "by": "tinyhouse",
-      "descendants": 0,
-      "id": 31192726,
-      "score": 1,
-      "text": "I&#x27;ve been noticing a trend lately of US companies hiring outside of the US to save money. I&#x27;m not talking about outsourcing, I&#x27;m talking about hiring capable full time engineers in places like Canada, Central America and Europe. (The first two have no time zone issues; Europe is manageable for East coast companies). Some companies still hire in the US, but prefer low cost of living regions.<p>Isn&#x27;t that worrisome for US based people? I&#x27;m wondering what will be the impact on US salaries, esp in tech.",
-      "time": 1651155347,
-      "title": "Ask HN: Do you think remote work will hurt Americans?",
-      "type": "story"
-    },
-    {
-      "by": "mooreds",
-      "descendants": 0,
-      "id": 31192722,
-      "score": 1,
-      "time": 1651155329,
-      "title": "Why the Halo Effect Influences How We Perceive Others (2020)",
-      "type": "story",
-      "url": "https://www.verywellmind.com/what-is-the-halo-effect-2795906"
-    },
-    {
-      "by": "disadvantage",
-      "descendants": 0,
-      "id": 31192718,
-      "score": 1,
-      "time": 1651155319,
-      "title": "Twingate – Secure access for fast-growing teams",
-      "type": "story",
-      "url": "https://www.twingate.com/"
-    },
-    {
-      "by": "mooreds",
-      "descendants": 0,
-      "id": 31192713,
-      "score": 2,
-      "time": 1651155294,
-      "title": "I Want to Remember Everything",
-      "type": "story",
-      "url": "https://signature.theplayerstribune.com/mikaela-shiffrin-olympics-team-usa-skiing/p/1"
-    },
-    {
-      "by": "ShaunGold",
-      "descendants": 0,
-      "id": 31192711,
-      "score": 1,
-      "time": 1651155293,
-      "title": "Adventure into the Unknown",
-      "type": "story",
-      "url": "https://youtopianjourney.substack.com/p/adventure-into-the-unknown"
-    },
-    {
-      "by": "core-utility",
-      "descendants": 0,
-      "id": 31192706,
-      "score": 2,
-      "text": "I need to deliver a technical user guide for field technicians to follow for configuring some devices. The current solution is a word doc which requires some brain power to fill in appropriate values (naming, IP, etc) as you progress in the steps.<p>I&#x27;d like to replace this with some kind of self-contained HTML where they can fill in the &quot;variables&quot; at the top and have it auto-generate throughout the doc.  This is pretty simple with HTML&#x2F;JS, but the code can get messy if not done right.<p>Is there some framework like ReadTheDocs where I can easily write out RsT or Markdown, inserting variables with jinja2 (as an example) that can be input in an input field, and have it dynamically render live in-browser (which I believe then rules Sphinx out)?",
-      "time": 1651155278,
-      "title": "Ask HN: Is there a good framework for an interactive user manual?",
-      "type": "story"
-    },
-    {
-      "by": "davesailer",
-      "descendants": 0,
-      "id": 31192704,
-      "score": 1,
-      "time": 1651155264,
-      "title": "New Light Field Camera Can Focus Up-Close and Far Away Simultaneously",
-      "type": "story",
-      "url": "https://petapixel.com/2022/04/27/new-light-field-camera-can-focus-up-close-and-far-away-simultaneously/"
     }
   ]
 }
