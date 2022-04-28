@@ -1,6 +1,39 @@
 {
   "stories": [
     {
+      "by": "garritfra",
+      "descendants": 0,
+      "id": 31195653,
+      "score": 1,
+      "time": 1651167832,
+      "title": "Reasons the Fediverse Is Better",
+      "type": "story",
+      "url": "https://garrit.xyz/posts/2021-01-18-reasons-the-fediverse-is-better"
+    },
+    {
+      "by": "dcaisen",
+      "descendants": 0,
+      "id": 31195621,
+      "score": 1,
+      "time": 1651167728,
+      "title": "Implicit Commissions",
+      "type": "story",
+      "url": "https://medium.com/prooftrading/implicit-commissions-7049a30ce7d4"
+    },
+    {
+      "by": "l3x",
+      "descendants": 1,
+      "id": 31195616,
+      "kids": [
+        31195617
+      ],
+      "score": 2,
+      "time": 1651167708,
+      "title": "Ukrainians are scrubbing OpenStreetMap to keep Intel from Russia’s army",
+      "type": "story",
+      "url": "https://restofworld.org/2022/ukrainians-osint-maps-russia/"
+    },
+    {
       "by": "Schiphol",
       "descendants": 0,
       "id": 31195588,
@@ -72,36 +105,6 @@
       "title": "New: Versioned Expo CLI",
       "type": "story",
       "url": "https://blog.expo.dev/new-versioned-expo-cli-cf6e10632656"
-    },
-    {
-      "by": "tosh",
-      "descendants": 0,
-      "id": 31195525,
-      "score": 2,
-      "time": 1651167369,
-      "title": "The innovation of FarmVille was in making games accessible to busy adults",
-      "type": "story",
-      "url": "https://twitter.com/markpinc/status/1344742334328569856"
-    },
-    {
-      "by": "tnorthcutt",
-      "descendants": 0,
-      "id": 31195520,
-      "score": 1,
-      "time": 1651167358,
-      "title": "Twitter doesn't have to be a dumpster fire",
-      "type": "story",
-      "url": "https://twitter.com/tnorthcutt/status/1519686541169201152"
-    },
-    {
-      "by": "ed",
-      "descendants": 0,
-      "id": 31195476,
-      "score": 2,
-      "text": "Unless you&#x27;ve been very careful, your production logs almost certainly contain secrets or personally identifying information.<p>I was surprised (and annoyed) to receive the email below from New Relic, stating that on 5&#x2F;3 they will start ingesting all production log data, by default.<p>To make matters worse, if you provisioned New Relic through Heroku, you can only opt out (by enabling High Security Mode) if you contact support. And if you&#x27;re on the free plan, you can&#x27;t open support tickets so have to ask on the community forum.<p>&gt; New Relic APM agents will collect log data starting 5&#x2F;3!<p>We’ve been hard at work making improvements to our APM and logging capabilities, and when you update certain APM agents starting May 3, 2022, logs will be automatically collected and sent to New Relic One. Logs are a critical telemetry type for observability and this new feature will help you troubleshoot your applications faster.<p>You probably have a few questions—including how to customize your logs ingest—so we’re including a FAQ below.<p>FAQ:\nQ: Why did you make this change?\nA: Logs are a critical telemetry data type but they are messy. This improvement allows users to send contextualized log data to New Relic without any additional setup. Relevant log data is now surfaced and correlated with other application telemetry automatically, reducing the need to switch context or run log queries when troubleshooting your applications.<p>Q: Which APM agents will have automatic logs collection and ingest upon upgrade?\nA: Starting May 3, 2022, when users upgrade to the latest version of the Java, Ruby, and .NET agent, log ingest will be enabled by default, unless High Security Mode is enabled or you have enabled the logs toggle for your accounts (more information on this below). We expect to enable application logs for Node.js, Python, and Go by July and PHP by September.<p>Q: I have already implemented logs in context. What should I do?\nA: We recommend only using manual OR automatic log forwarding. For more information, check out this documentation.<p>Q: I already use a third-party log forwarder, or forward logs via the New Relic infrastructure agent. What should I do?\nA: To avoid duplicating log data, consult this documentation.<p>Q: What does this mean for my New Relic bill?\nA: Collecting application logs means that more data will be ingested into the platform, at your standard ingest rate. The APM agent samples logs to ensure optimal agent performance. You can increase or decrease an application’s log volume as desired. Learn more here.<p>Q: I am concerned about sensitive log data being sent to New Relic. What should I do?\nA: No logs of any kind will be collected if High Security Mode is enabled on the agent, even after the agent is upgraded. If you do want to use New Relic Logs, it is also possible to configure drop filters to ensure sensitive data is not stored in New Relic. If you have not enabled High Security Mode, but still do not want to send logs to New Relic, see the next question.<p>Q: I do not want New Relic to collect or ingest logs, even after I upgrade my agents. What should I do?\nA: You can either configure the agent config file locally on a machine to disable it, or you can disable logs ingest for APM agents at the account level with a toggle in the New Relic data management hub. The toggle can be flipped before ever setting up an APM agent that forwards log data.<p>Q: Where can I learn more?\nA: Check out our documentation, read the Explorer’s Hub post, reach out to your account team, or contact New Relic Support.",
-      "time": 1651167190,
-      "title": "Tell HN: By default, New Relic will start collecting production log data on 5/3",
-      "type": "story"
     }
   ]
 }
