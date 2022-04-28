@@ -1,6 +1,36 @@
 {
   "stories": [
     {
+      "by": "legrande",
+      "descendants": 0,
+      "id": 31196862,
+      "score": 1,
+      "time": 1651172952,
+      "title": "Sky's Edge: open-source Robotics and More",
+      "type": "story",
+      "url": "https://skysedge.com/index.html"
+    },
+    {
+      "by": "nurnarley",
+      "descendants": 0,
+      "id": 31196852,
+      "score": 1,
+      "text": "Security researchers at Wiz discovered critical vulnerabilities in Azure Database for PostgreSQL Flexible Server (Dubbed ExtraReplica). These vulnerabilities allowed unauthorized read access to other customers’ PostgreSQL database.<p>From Microsoft&#x27;s advisory: &quot;All Flexible Server Postgres servers deployed using the public access networking option were impacted with this security vulnerability. Customers using the private access networking option were not exposed to this vulnerability. The Single Server offering of Postgres was not impacted. Our analysis revealed no customer data was accessed using this vulnerability. Azure updated all Flexible Servers to fix this vulnerability. No action is required by customers. In order to further minimize exposure, we recommend that customers enable private network access when setting up their Flexible Server instances.&quot;<p>Research group blogpost: https:&#x2F;&#x2F;www.wiz.io&#x2F;blog&#x2F;wiz-research-discovers-extrareplica-cross-account-database-vulnerability-in-azure-postgresql&#x2F;<p>Microsoft&#x27;s advisory: https:&#x2F;&#x2F;msrc-blog.microsoft.com&#x2F;2022&#x2F;04&#x2F;28&#x2F;azure-database-for-postgresql-flexible-server-privilege-escalation-and-remote-code-execution",
+      "time": 1651172913,
+      "title": "Critical Vulnerabilities in Microsoft Azure PostgreSQL",
+      "type": "story"
+    },
+    {
+      "by": "remarkEon",
+      "descendants": 0,
+      "id": 31196832,
+      "score": 1,
+      "time": 1651172826,
+      "title": "Lyft Exec Craig Martell Tapped as Pentagon’s AI Chief: Exclusive Interview",
+      "type": "story",
+      "url": "https://breakingdefense.com/2022/04/exclusive-lyft-exec-craig-martell-tapped-as-pentagons-ai-chief/"
+    },
+    {
       "by": "anm89",
       "descendants": 0,
       "id": 31196809,
@@ -14,7 +44,7 @@
       "by": "feross",
       "descendants": 0,
       "id": 31196783,
-      "score": 1,
+      "score": 2,
       "time": 1651172530,
       "title": "Chrome 102: Window Controls Overlay, a Host of Finished Origin Trials, PWAs As",
       "type": "story",
@@ -34,7 +64,7 @@
       "by": "amichail",
       "descendants": 0,
       "id": 31196755,
-      "score": 2,
+      "score": 3,
       "time": 1651172439,
       "title": "South Africa is being hit hard by Covid again",
       "type": "story",
@@ -42,9 +72,13 @@
     },
     {
       "by": "laurentpointca",
-      "descendants": 0,
+      "descendants": 2,
       "id": 31196747,
-      "score": 7,
+      "kids": [
+        31196845,
+        31196859
+      ],
+      "score": 10,
       "time": 1651172401,
       "title": "Fleet raises Series A at a $100m valuation for open source device management",
       "type": "story",
@@ -69,36 +103,6 @@
       "title": "How to Name a Baby (2013)",
       "type": "story",
       "url": "https://waitbutwhy.com/2013/12/how-to-name-baby.html"
-    },
-    {
-      "by": "Tomte",
-      "descendants": 0,
-      "id": 31196720,
-      "score": 2,
-      "time": 1651172298,
-      "title": "How to Make Homemade Bitters (2013)",
-      "type": "story",
-      "url": "https://www.thekitchn.com/how-to-make-homemade-bitters-cooking-lessons-from-the-kitchn-197883"
-    },
-    {
-      "by": "bredren",
-      "descendants": 0,
-      "id": 31196708,
-      "score": 1,
-      "text": "Does anyone know how to override Slack&#x27;s electron app&#x27;s keyboard shortcuts? I would be willing to unpack the app &#x2F; repack it if necessary.<p>It is very disruptive to switch to Slack&#x27;s command-shift-U rather than the standard command-shift-K used almost everywhere else for creating links in text.",
-      "time": 1651172233,
-      "title": "Ask HN: How to override macOS Slack electron app keyboard shortcuts?",
-      "type": "story"
-    },
-    {
-      "by": "ingve",
-      "descendants": 0,
-      "id": 31196651,
-      "score": 1,
-      "time": 1651171934,
-      "title": "Mdast: Markdown Abstract Syntax Tree",
-      "type": "story",
-      "url": "https://github.com/syntax-tree/mdast"
     }
   ]
 }
