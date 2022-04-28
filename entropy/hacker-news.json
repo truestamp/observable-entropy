@@ -1,9 +1,62 @@
 {
   "stories": [
     {
-      "by": "giantg2",
+      "by": "welder",
       "descendants": 0,
+      "id": 31192150,
+      "score": 1,
+      "time": 1651152291,
+      "title": "PullRequest (YC S17) Acquired by HackerOne",
+      "type": "story",
+      "url": "https://www.hackerone.com/press-release/hackerone-acquires-pullrequest-power-developer-first-security-testing-solutions"
+    },
+    {
+      "by": "mzs",
+      "descendants": 0,
+      "id": 31192141,
+      "score": 1,
+      "time": 1651152212,
+      "title": "Trump allies breach U.S. voting systems in search of 2020 fraud ‘evidence’",
+      "type": "story",
+      "url": "https://www.reuters.com/investigates/special-report/usa-election-breaches/"
+    },
+    {
+      "by": "alanfranz",
+      "descendants": 0,
+      "id": 31192131,
+      "score": 2,
+      "time": 1651152158,
+      "title": "NIST's answer to “Do you need a blockchain?” (2018)",
+      "type": "story",
+      "url": "https://imgur.com/a/RlUj9Ed"
+    },
+    {
+      "by": "nigerian1981",
+      "descendants": 0,
+      "id": 31192126,
+      "score": 1,
+      "time": 1651152102,
+      "title": "Britain’s love-hate affair with the e-scooter",
+      "type": "story",
+      "url": "https://www.theguardian.com/uk-news/2022/apr/27/i-know-theyre-exciting-but-calm-down-britains-love-hate-affair-with-the-e-scooter"
+    },
+    {
+      "by": "barney54",
+      "descendants": 0,
+      "id": 31192114,
+      "score": 1,
+      "time": 1651152052,
+      "title": "Despite $6B for nuclear plants, two nuclear plants are still scheduled to close",
+      "type": "story",
+      "url": "https://www.eenews.net/articles/bidens-6b-nuclear-plan-hits-24th-hour-roadblock/"
+    },
+    {
+      "by": "giantg2",
+      "descendants": 1,
       "id": 31192084,
+      "kids": [
+        31192105
+      ],
       "score": 2,
       "text": "I&#x27;m not really good at anything. Aside from just trying things out and getting feedback from managers&#x2F;coworkers, how does one identify things that they could be good at?<p>I&#x27;ve been a dev for 10 years and have a masters degree. I am just a midlevel dev. I spent most of that time working on obscure stuff the company needed, like Filenet and Neoxam. I&#x27;m now working with stuff like ECS batch, Lambdas, and some front end written in Java, Python, and Angular. I&#x27;m not seeing much progress. I think this mostly because I feel like this knowledge will just end up as throw away. The concepts and the bulk of the development are easy to grasp. Occasionally I&#x27;ll get stuck with some implementation detail and just let it drag out.<p>I also realize that promotions are no longer a possibility for me. People are starting to wonder why I&#x27;m still a midlevel after 10 years. Recently I was told that I need to be more upbeat and improve team morale. Basically I&#x27;m being told to change my opinions, insights, and even personality. Kind of shocking when they make a big deal about DEI, including diversity of thought. This caused me to realize that all the managers are oddly happy and upbeat, so this must be a requirement. So they won&#x27;t ever move me into any leadership position like manager, or even senior developer.<p>I think I&#x27;m tired of being a dev. The pay isn&#x27;t even that good &lt;$100k. I think some sort of an analyst position would be good. I tried checking put corporate strategy analyst positions, but it turns out they are more of a project&#x2F;stakeholder manager, and they use these positions as feeders for executive positions (the rest of the team had degrees from places like Harvard and Wharton).<p>Any suggestions of tactics or positions to try?",
       "time": 1651151839,
@@ -14,7 +67,7 @@
       "by": "Brajeshwar",
       "descendants": 0,
       "id": 31192075,
-      "score": 1,
+      "score": 3,
       "time": 1651151796,
       "title": "Cloudflare Thwarts Record DDoS Attack Peaking at 15 Million Requests Per Second",
       "type": "story",
@@ -24,7 +77,7 @@
       "by": "ushakov",
       "descendants": 0,
       "id": 31192048,
-      "score": 1,
+      "score": 2,
       "time": 1651151607,
       "title": "Amberol – GTK4 Music Player for GNOME",
       "type": "story",
@@ -49,56 +102,6 @@
       "title": "Secret Management with HashiCorp Vault",
       "type": "story",
       "url": "https://blog.cloudflare.com/secret-management-with-hashicorp-vault/"
-    },
-    {
-      "by": "surfTide",
-      "descendants": 0,
-      "id": 31191992,
-      "score": 1,
-      "text": "A couple of years ago I had an idea for a gender slider. The basic idea is that instead of a dropdown different specific values, you slide along a slider between two values. So in it&#x27;s most basic form, you&#x27;d slide between male and female, somewhere inbetween is where you are.<p>Initially I thought this would be a one-time entry thing. But then I thought that it be nice to track gender over time. I.e. sliding each day over a month would give you an average of how you felt that month.<p>Then I realised that if other people were going to do this, then I didn&#x27;t want to know what their average meant nor their gender nor anything else. So I decided to replace the specific gender values with colours. So you slide between two colors, their meaning is up to you, and at the end of the month you get a &quot;average&quot; colour.<p>Ironically, it seems, that there is a real need for such a slider. A child of a brother-of-different-mother would love to use it but because it&#x27;s not an app (i.e. iOS dungeon ..err.. market or Google cave ..err... store) she won&#x27;t use it (its just a web page - in fact a large SVG). Basically it needs to be a button on the home screen (I know, browser can put bookmarks on screens but try explaining that to a non-tech teenager).<p>I really don&#x27;t want to get into building apps for android nor iOS, so if anyone is interested in doing this, then please do.<p>Monetisation would definitely not come from selling data (even that isn&#x27;t possible in the current implementation [1]). A couple of things I was thinking about was perhaps being able to change colour would a premium feature. Or perhaps using a circle, i.e. 2 dimensional sliding could also be premium.<p>But of course, the premium feature that would be the cash cow would be an edit button ... if you forget to slide on a particular day, then you pay to change history.<p>Anyway a semi tongue-in-cheek write up[1] and the webapp[2] are both available. Thanks for reading this far!<p>[1]=https:&#x2F;&#x2F;gregorius.rippenstein.art&#x2F;works&#x2F;slider\n[2]=https:&#x2F;&#x2F;gender.sldr.in",
-      "time": 1651151260,
-      "title": "Ask HN: Gender Slider iOS/Google App",
-      "type": "story"
-    },
-    {
-      "by": "andrenth",
-      "descendants": 0,
-      "id": 31191989,
-      "score": 1,
-      "time": 1651151247,
-      "title": "'Al Qaeda is on our side': How Obama-Biden team empowered terrorists in Syria",
-      "type": "story",
-      "url": "https://mate.substack.com/p/al-qaeda-is-on-our-side-how-obama"
-    },
-    {
-      "by": "lnyan",
-      "descendants": 0,
-      "id": 31191972,
-      "score": 3,
-      "time": 1651151145,
-      "title": "Covid is spreading in deer. What does that mean for the pandemic?",
-      "type": "story",
-      "url": "https://www.nature.com/articles/d41586-022-01112-4"
-    },
-    {
-      "by": "mzs",
-      "descendants": 0,
-      "id": 31191951,
-      "score": 1,
-      "time": 1651150996,
-      "title": "How Paxlovid came to be: From the germ of an idea to a vital tool against Covid",
-      "type": "story",
-      "url": "https://www.statnews.com/2022/04/28/how-paxlovid-came-to-be-from-the-germ-of-an-idea-to-a-vital-tool-against-covid/"
-    },
-    {
-      "by": "memorable",
-      "descendants": 0,
-      "id": 31191943,
-      "score": 1,
-      "time": 1651150944,
-      "title": "A Field Guide to Elephpants",
-      "type": "story",
-      "url": "https://afieldguidetoelephpants.net/"
     }
   ]
 }
