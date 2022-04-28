@@ -1,5 +1,26 @@
 {
   "stories": [
+    null,
+    {
+      "by": "Tomte",
+      "descendants": 0,
+      "id": 31190287,
+      "score": 1,
+      "time": 1651137093,
+      "title": "PicToBrick is a software to generate mosaics from digital pictures",
+      "type": "story",
+      "url": "http://www.pictobrick.de/en/pictobrick.shtml"
+    },
+    {
+      "by": "Tomte",
+      "descendants": 0,
+      "id": 31190284,
+      "score": 1,
+      "time": 1651137082,
+      "title": "How Did Things Ever Get This Good? (2009)",
+      "type": "story",
+      "url": "https://prog21.dadgum.com/51.html"
+    },
     {
       "by": "yuriko",
       "descendants": 0,
@@ -12,8 +33,11 @@
     },
     {
       "by": "techsin101",
-      "descendants": 0,
+      "descendants": 1,
       "id": 31190263,
+      "kids": [
+        31190294
+      ],
       "score": 1,
       "text": "Structures like linked list, trie, binary trees, stacks, etc.<p>One approach is to convert them to json and serialize it and save it as a string or binary file. But then if you are dealing with TB of data, or just large amount of data, now your program needs to load the entire thing in ram&#x2F;memory first.<p>So Second approach I think could be like regular databases, on-disk. Are there on-disk data structures? Can you make any data structure to exist on disk.<p>Suppose I have a huge decision tree, terabytes of data. How can I use it without loading the entire thing in memory.",
       "time": 1651136936,
@@ -34,7 +58,7 @@
       "by": "jhealy",
       "descendants": 0,
       "id": 31190247,
-      "score": 1,
+      "score": 3,
       "time": 1651136727,
       "title": "Measuring TCP performance over Fibre, geostationary satellite and Starlink",
       "type": "story",
@@ -44,7 +68,7 @@
       "by": "M2Ys4U",
       "descendants": 0,
       "id": 31190243,
-      "score": 1,
+      "score": 3,
       "time": 1651136625,
       "title": "EU Data Protection Supervisor launches pilot phase of two social media platforms",
       "type": "story",
@@ -72,39 +96,6 @@
       "title": "Elon Musk’s Twitter Buy Exposes a Privacy Minefield",
       "type": "story",
       "url": "https://www.wired.com/story/elon-musk-twitter-privacy-anonymity/"
-    },
-    {
-      "by": "FabHK",
-      "descendants": 0,
-      "id": 31190211,
-      "score": 1,
-      "time": 1651136308,
-      "title": "Apple is culling apps from the App Store that haven’t been updated in two years",
-      "type": "story",
-      "url": "https://daringfireball.net/linked/2022/04/27/apple-older-games-app-store"
-    },
-    {
-      "by": "pkstn",
-      "descendants": 1,
-      "id": 31190166,
-      "kids": [
-        31190171
-      ],
-      "score": 1,
-      "time": 1651135706,
-      "title": "Alpha version of my free 2D space simulator Flanets.io",
-      "type": "story",
-      "url": "https://flanets.io"
-    },
-    {
-      "by": "dannygo",
-      "descendants": 0,
-      "id": 31190154,
-      "score": 1,
-      "time": 1651135574,
-      "title": "Simple Hotkey Daemon for macOS",
-      "type": "story",
-      "url": "https://github.com/koekeishiya/skhd"
     }
   ]
 }
