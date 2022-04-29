@@ -1,6 +1,37 @@
 {
   "stories": [
     {
+      "by": "RafelMri",
+      "descendants": 0,
+      "id": 31201538,
+      "score": 1,
+      "time": 1651207387,
+      "title": "Schelling Points in SETI",
+      "type": "story",
+      "url": "https://sites.psu.edu/astrowright/2017/07/09/schelling-points-in-seti/"
+    },
+    {
+      "by": "guhidalg",
+      "descendants": 0,
+      "id": 31201528,
+      "score": 1,
+      "text": "Hi HN,<p>COVID lockdowns made me and my wife cook a lot more at home, and we had a need to streamline our recipe management woes. These were some of the problems we identified:<p><pre><code>  - Most recipe websites are what I call &quot;mommy blogs&quot;, and the principal problem is that the recipe ingredient list and instructions are buried in a SEO-laden essay that we don&#x27;t care about. We were sharing links to our favorite recipes, but links don&#x27;t allow you to skip past the unnecessary essay prefacing the recipe. We knew we wanted a way to have recipes uncompromised by unrelated essays.\n  - Popular recipe aggregating websites are run by publishing companies that do not want you, the reader, to contribute your own recipes. This is not true for all of them; Allrecipes.com does allow you to enter recipes but that UI leaves a lot to be desired. We knew we needed a way for us (and you) to write your own recipes.\n  - Most recipe websites do not allow you to scale recipe ingredients. We like to cook a lot at once, and we don&#x27;t like to keep track of a 2x, or 3x multiplier in our heads while cooking. We knew we wanted a simple way of scaling ingredients.\n  - Most recipe websites do not contain adequate nutrition information about their recipes. When they do, they don&#x27;t show their math, or their sources. We knew we needed an automatic nutrition calculation for recipes based on ingredients and their quantities.\n</code></pre>\nAfter a few months of nights and weekends, we are ready to share <a href=\"https:&#x2F;&#x2F;letscooktime.com\" rel=\"nofollow\">https:&#x2F;&#x2F;letscooktime.com</a> . We solved all of the primary problems listed above, and more! Our features:<p><pre><code>  - Recipe creation\n  - Ingredient highlights in recipe text\n  - Recipe components\n  - Automatic nutrition calculation\n  - Grocery lists\n  - Scaling recipes\n  - Tagging\n  - No blogging, just recipes! No bullshit essay to scroll through.\n  - Dark mode!\n</code></pre>\nWe think the closest thing to CookTime is <a href=\"https:&#x2F;&#x2F;www.paprikaapp.com\" rel=\"nofollow\">https:&#x2F;&#x2F;www.paprikaapp.com</a>. Paprika is a paid native app, CookTime is a free mobile-ready website you can try _today_. I do not believe that recipe management really requires the performance, development cost, and App Store cost of a native app.<p>Without a CookTime account, you can:<p><pre><code>  - Browse recipes \n  - Read their nutrition facts\n  - Scale ingredients temporarily\n  - Share links to recipes\n</code></pre>\nWith a CookTime account, you can:<p><pre><code>  - Add your own recipes\n  - Add recipes to your personal groceries list\n\n</code></pre>\nLet me know what you think! Would you use it? What are you currently using to track your recipes? What missing feature is stopping you from using CookTime?",
+      "time": 1651207310,
+      "title": "Show HN: Recipes, Not Mommy Blogs",
+      "type": "story",
+      "url": "https://letscooktime.com"
+    },
+    {
+      "by": "ekovarski",
+      "descendants": 0,
+      "id": 31201525,
+      "score": 1,
+      "time": 1651207293,
+      "title": "Musk told banks he will rein in Twitter pay, make money from tweets, sources say",
+      "type": "story",
+      "url": "https://www.reuters.com/business/musk-told-banks-he-will-rein-twitter-pay-make-money-tweets-sources-2022-04-29/"
+    },
+    {
       "by": "todsacerdoti",
       "descendants": 0,
       "id": 31201499,
@@ -44,7 +75,7 @@
       "by": "DoreenMichele",
       "descendants": 0,
       "id": 31201436,
-      "score": 1,
+      "score": 2,
       "time": 1651206408,
       "title": "A Shortage of Affordable Rental Homes",
       "type": "story",
@@ -69,36 +100,6 @@
       "title": "Testing Oracle's Use of Optane Persistent Memory for Low Latency Commits",
       "type": "story",
       "url": "https://tanelpoder.com/posts/testing-oracles-use-of-optane-persistent-memory/"
-    },
-    {
-      "by": "gkrishna",
-      "descendants": 0,
-      "id": 31201334,
-      "score": 1,
-      "text": "I am working on a project. I have broken down the requirements into the following workloads:<p>- Data collection: This is a batch service that receives large amount REST data (expecting 20k request over few hours) when triggered. The trigger will happen once or twice a day.<p>- Pricing algorithm: This service will take the above data as input then price them. I&#x27;m expecting 100 req&#x2F;sec at initial stage.<p>- Transaction: When a customer buys a new product, a webhook is received from payment provider then the database is updated.<p>- Admin: A back office service that will update less often. Here admin can set application parameters and able to get insights of the customers.<p>My current plan for the infrastructure is the following:\n- application server to host the above 4 NodeJS services using PM2 \n- routing using Nginx\n- ELB to loadbalance the app servers\n- Elasticache redis to queue the batch data\n- RDS DB for all services (both read and write)\n- GitActions for CI&#x2F;CD\n- Monitoring using DataDog<p>Will the above infrastructure will be able to handle my requirements? Can it be improved?<p>My concern is- if there&#x27;s a way to reliably reconnect if the data sync fails on 1st service?<p>PS: I have a time constraint too. So my team can&#x27;t be trained to learn K8s for now.<p>Thank you all in advance.",
-      "time": 1651205407,
-      "title": "Ask HN: Help me review my infrastructure",
-      "type": "story"
-    },
-    {
-      "by": "perihelions",
-      "descendants": 0,
-      "id": 31201332,
-      "score": 1,
-      "time": 1651205400,
-      "title": "Facing Protests, Amazon Makes Cell Phone Access at Warehouses Permanent",
-      "type": "story",
-      "url": "https://www.vice.com/en/article/g5q7kx/facing-protests-amazon-makes-cell-phone-access-at-warehouses-permanent"
-    },
-    {
-      "by": "davewongillies",
-      "descendants": 0,
-      "id": 31201329,
-      "score": 3,
-      "time": 1651205382,
-      "title": "Exposed by a Strava KOM: The Many Lives of a Fake Pro Cyclist",
-      "type": "story",
-      "url": "https://cyclingtips.com/2022/04/exposed-by-a-strava-kom-the-many-lives-of-a-fake-pro-cyclist/"
     }
   ]
 }
