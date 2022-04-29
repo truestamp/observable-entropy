@@ -1,6 +1,56 @@
 {
   "stories": [
     {
+      "by": "gkrishna",
+      "descendants": 0,
+      "id": 31201334,
+      "score": 1,
+      "text": "I am working on a project. I have broken down the requirements into the following workloads:<p>- Data collection: This is a batch service that receives large amount REST data (expecting 20k request over few hours) when triggered. The trigger will happen once or twice a day.\n- Pricing algorithm: This service will take the above data as input then price them. I&#x27;m expecting 100 req&#x2F;sec at initial stage.\n- Transaction: When a customer buys a new product, a webhook is received from payment provider then the database is updated.\n- Admin: A back office service that will update less often. Here admin can set application parameters and able to get insights of the customers.<p>My current plan for the infrastructure is the following:\n- application server to host the above 4 NodeJS services using PM2 \n- routing using Nginx\n- ELB to loadbalance the app servers\n- Elasticache redis to queue the batch data\n- RDS DB for all services (both read and write)\n- GitActions for CI&#x2F;CD\n- Monitoring using DataDog<p>Will the above infrastructure will be able to handle my requirements? Can it be improved?<p>My concern is- if there&#x27;s a way to reliably reconnect if the data sync fails on 1st service?<p>PS: I have a time constraint too. So my team can&#x27;t be trained to learn K8s for now.<p>Thank you all in advance.",
+      "time": 1651205407,
+      "title": "Ask HN: Help me review my infrastructure",
+      "type": "story"
+    },
+    {
+      "by": "perihelions",
+      "descendants": 0,
+      "id": 31201332,
+      "score": 1,
+      "time": 1651205400,
+      "title": "Facing Protests, Amazon Makes Cell Phone Access at Warehouses Permanent",
+      "type": "story",
+      "url": "https://www.vice.com/en/article/g5q7kx/facing-protests-amazon-makes-cell-phone-access-at-warehouses-permanent"
+    },
+    {
+      "by": "davewongillies",
+      "descendants": 0,
+      "id": 31201329,
+      "score": 1,
+      "time": 1651205382,
+      "title": "Exposed by a Strava KOM: The Many Lives of a Fake Pro Cyclist",
+      "type": "story",
+      "url": "https://cyclingtips.com/2022/04/exposed-by-a-strava-kom-the-many-lives-of-a-fake-pro-cyclist/"
+    },
+    {
+      "by": "mmwelt",
+      "descendants": 0,
+      "id": 31201317,
+      "score": 2,
+      "time": 1651205302,
+      "title": "Gnome Major Infrastructure Outage",
+      "type": "story",
+      "url": "https://status.gnome.org/"
+    },
+    {
+      "by": "chrononaut",
+      "descendants": 0,
+      "id": 31201313,
+      "score": 1,
+      "time": 1651205246,
+      "title": "Ingenuity helicopter takes photos of debris field on Mars",
+      "type": "story",
+      "url": "https://www.cnn.com/2022/04/28/world/mars-ingenuity-helicopter-landing-gear-scn/index.html"
+    },
+    {
       "by": "nameforuser",
       "descendants": 0,
       "id": 31201274,
@@ -30,20 +80,10 @@
       "url": "https://huggingface.co/spaces/h4d35/CLiPcrop"
     },
     {
-      "by": "jonas21",
-      "descendants": 0,
-      "id": 31201258,
-      "score": 1,
-      "time": 1651204752,
-      "title": "Ten Thousand",
-      "type": "story",
-      "url": "https://xkcd.com/1053/"
-    },
-    {
       "by": "aaronbrethorst",
       "descendants": 0,
       "id": 31201248,
-      "score": 1,
+      "score": 2,
       "time": 1651204704,
       "title": "James Webb Telescope Is Fully Aligned and Delivering Sharp Photos",
       "type": "story",
@@ -58,46 +98,6 @@
       "title": "Titanium Dioxide and Its Questionable Safety in Nutritional Supplements (2021)",
       "type": "story",
       "url": "https://www.thorne.com/take-5-daily/article/titanium-dioxide-and-its-questionable-safety-in-nutritional-supplements"
-    },
-    {
-      "by": "Tomte",
-      "descendants": 0,
-      "id": 31201196,
-      "score": 1,
-      "time": 1651204227,
-      "title": "How to name things: the hardest problem in programming (2014)",
-      "type": "story",
-      "url": "https://www.slideshare.net/pirhilton/how-to-name-things-the-hardest-problem-in-programming"
-    },
-    {
-      "by": "Tomte",
-      "descendants": 0,
-      "id": 31201195,
-      "score": 1,
-      "time": 1651204216,
-      "title": "How to Pick Your Life Partner (2014)",
-      "type": "story",
-      "url": "https://waitbutwhy.com/2014/02/pick-life-partner.html"
-    },
-    {
-      "by": "s5300",
-      "descendants": 0,
-      "id": 31201172,
-      "score": 1,
-      "time": 1651203997,
-      "title": "American mistakenly brings unexploded ordnance through Israeli Airlines security",
-      "type": "story",
-      "url": "https://twitter.com/JudahAriGross/status/1519770480810635267"
-    },
-    {
-      "by": "teleforce",
-      "descendants": 0,
-      "id": 31201139,
-      "score": 1,
-      "time": 1651203632,
-      "title": "Effective Remote Work: For Yourself, Your Team, and Your Company",
-      "type": "story",
-      "url": "https://www.pragprog.com/titles/jsrw/effective-remote-work/"
     }
   ]
 }
