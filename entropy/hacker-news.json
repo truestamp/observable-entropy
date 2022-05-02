@@ -1,10 +1,33 @@
 {
   "stories": [
     {
+      "by": "judahstrausberg",
+      "descendants": 1,
+      "id": 31231933,
+      "kids": [
+        31231936
+      ],
+      "score": 1,
+      "text": "Peak Builders &amp; Roofers of San Diego provides professional roofing replacement &amp; roofing installation for residents in San Diego &amp; surrounding areas.",
+      "time": 1651472015,
+      "title": "Peak Roof Replacement Service",
+      "type": "story"
+    },
+    {
+      "by": "Ice_cream_suit",
+      "descendants": 0,
+      "id": 31231923,
+      "score": 1,
+      "time": 1651471914,
+      "title": "Use Fast Data Algorithms",
+      "type": "story",
+      "url": "https://jolynch.github.io/posts/use_fast_data_algorithms/"
+    },
+    {
       "by": "rsapkf",
       "descendants": 0,
       "id": 31231915,
-      "score": 1,
+      "score": 2,
       "time": 1651471784,
       "title": "Sort YouTube playlists by various metrics",
       "type": "story",
@@ -79,33 +102,6 @@
       "title": "Xbin – Use CLI tools without installing",
       "type": "story",
       "url": "https://xbin.io/"
-    },
-    {
-      "by": "pjerem",
-      "descendants": 1,
-      "id": 31231766,
-      "kids": [
-        31231784
-      ],
-      "score": 1,
-      "time": 1651469855,
-      "title": "The Game (Mind Game)",
-      "type": "story",
-      "url": "https://en.wikipedia.org/wiki/The_Game_(mind_game)"
-    },
-    {
-      "by": "ruben81adelaide",
-      "descendants": 4,
-      "id": 31231760,
-      "kids": [
-        31231846,
-        31231869
-      ],
-      "score": 2,
-      "text": "Hi everyone,<p>I have been working with AWS with many years and the service over the years has been outstanding. A few months ago I started the migration of (yet another business) to AWS, and we had an incident. This made me think that maybe AWS is starting not to be good any more.<p>I would like to share the postmortem report with the community, and please comment on what you think. I would like to know if we made a fundamental mistake or if AWS is actually degrading.<p>Times are UTC. Personal opinions are removed from the report, just facts are stated.<p>----------\nPOSTMORTEM REPORT<p>The project consists on moving several services to AWS. The system consists  Services in 1 autoscaling group, and a PostgreSQL Database in RDS.<p>- Sunday 4.30 am: we migrate the PostgreSQL database to RDS. RDS is configured with 200 GB in the disk, the database size is 15 GB.<p>- Sunday 10.17 am: RDS detects that we are running out of space, and decides to grow the database from 200 GB to 999 GB. The RDS auto scaling event starts<p>At this point the performance if the database is degraded. Alerts are triggered.<p>A test performed from the VPC network with the query &quot;SELECT now()&quot; took 20 seconds and 248 milliseconds.<p>The database performance is that bad that many of the services goes down.<p>- The RDS auto scaling event finalized at 14:39.<p>After contacting with AWS Support (see details below) we decided to roll back.<p>We contacted with AWS Support (Business). The points more important in the transcript are:<p>- The fact that RDS decided to grow the disk from 200 GB to 999 GB, when the actual database size is 15 GB, it is not a problem.<p>- In the actual auto-scaling event a performance degradation while the auto scaling event is operational is expected. As &quot;sessions&quot;(1) are not being drop, from AWS the database is considered online so it is working as per expectations.<p>- Pointed out the example of a SELECT now() taking 20 seconds. This did not change the fact that the database is online and all is good.<p>- When asked for an estimation of the duration of the event, it was stated that could take &quot;from several minutes to several days&quot;.<p>- The objective of AWS Support is to communicate what is happening (implies that you should not expect them to help you to fix the actual problem)<p>-------<p>Opinions ?",
-      "time": 1651469793,
-      "title": "AWS RDS Postmortem: Is AWS Collapsing Under its Own Weight ?",
-      "type": "story"
     }
   ]
 }
