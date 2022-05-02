@@ -1,6 +1,46 @@
 {
   "stories": [
     {
+      "by": "losfair",
+      "descendants": 0,
+      "id": 31231771,
+      "score": 1,
+      "time": 1651469971,
+      "title": "Xbin – Use CLI tools without installing",
+      "type": "story",
+      "url": "https://xbin.io/"
+    },
+    {
+      "by": "pjerem",
+      "descendants": 0,
+      "id": 31231766,
+      "score": 1,
+      "time": 1651469855,
+      "title": "The Game (Mind Game)",
+      "type": "story",
+      "url": "https://en.wikipedia.org/wiki/The_Game_(mind_game)"
+    },
+    {
+      "by": "ruben81adelaide",
+      "descendants": 0,
+      "id": 31231760,
+      "score": 1,
+      "text": "Hi everyone,<p>I have been working with AWS with many years and the service over the years has been outstanding. A few months ago I started the migration of (yet another business) to AWS, and we had an incident. This made me think that maybe AWS is starting not to be good any more.<p>I would like to share the postmortem report with the community, and please comment on what you think. I would like to know if we made a fundamental mistake or if AWS is actually degrading.<p>Times are UTC. Personal opinions are removed from the report, just facts are stated.<p>----------\nPOSTMORTEM REPORT<p>The project consists on moving several services to AWS. The system consists  Services in 1 autoscaling group, and a PostgreSQL Database in RDS.<p>- Sunday 4.30 am: we migrate the PostgreSQL database to RDS. RDS is configured with 200 GB in the disk, the database size is 15 GB.<p>- Sunday 10.17 am: RDS detects that we are running out of space, and decides to grow the database from 200 GB to 999 GB. The RDS auto scaling event starts<p>At this point the performance if the database is degraded. Alerts are triggered.<p>A test performed from the VPC network with the query &quot;SELECT now()&quot; took 20 seconds and 248 milliseconds.<p>The database performance is that bad that many of the services goes down.<p>- The RDS auto scaling event finalized at 14:39.<p>After contacting with AWS Support (see details below) we decided to roll back.<p>We contacted with AWS Support (Business). The points more important in the transcript are:<p>- The fact that RDS decided to grow the disk from 200 GB to 999 GB, when the actual database size is 15 GB, it is not a problem.<p>- In the actual auto-scaling event a performance degradation while the auto scaling event is operational is expected. As &quot;sessions&quot;(1) are not being drop, from AWS the database is considered online so it is working as per expectations.<p>- Pointed out the example of a SELECT now() taking 20 seconds. This did not change the fact that the database is online and all is good.<p>- When asked for an estimation of the duration of the event, it was stated that could take &quot;from several minutes to several days&quot;.<p>- The objective of AWS Support is to communicate what is happening (implies that you should not expect them to help you to fix the actual problem)<p>-------<p>Opinions ?",
+      "time": 1651469793,
+      "title": "AWS RDS Postmortem Is AWS Starting to Decline?",
+      "type": "story"
+    },
+    {
+      "by": "skilled",
+      "descendants": 0,
+      "id": 31231757,
+      "score": 1,
+      "time": 1651469767,
+      "title": "My Two Cents on the PayHere Hack",
+      "type": "story",
+      "url": "https://www.yoshlk.me/technicity/payhere-hack/"
+    },
+    {
       "by": "chenill",
       "descendants": 0,
       "id": 31231737,
@@ -48,7 +88,7 @@
         31231751,
         31231731
       ],
-      "score": 10,
+      "score": 11,
       "text": "I&#x27;m pretty interested in finding a fully remote company, that hires for a 4-day workweek (as opposed to 5).<p>How can someone (in Europe) find such employers?",
       "time": 1651468713,
       "title": "Ask HN: Companies hiring for a 4-day workweek?",
@@ -63,46 +103,6 @@
       "title": "Evolution of Linux Gaming Distros From 2018 to 2022 (Video)",
       "type": "story",
       "url": "https://www.youtube.com/watch?v=Ft3-ELRCYzw"
-    },
-    {
-      "by": "thunderbong",
-      "descendants": 0,
-      "id": 31231686,
-      "score": 1,
-      "time": 1651468677,
-      "title": "CRDTs: The Hard Parts – Martin Kleppmann’s Talks",
-      "type": "story",
-      "url": "https://martin.kleppmann.com/2020/07/06/crdt-hard-parts-hydra.html"
-    },
-    {
-      "by": "IdEntities",
-      "descendants": 0,
-      "id": 31231679,
-      "score": 1,
-      "time": 1651468543,
-      "title": "Can the World Feed Itself? Historic Fertilizer Crunch Threatens Food Security",
-      "type": "story",
-      "url": "https://www.bloomberg.com/news/articles/2022-05-01/farmers-are-struggling-to-keep-up-food-supply-as-fertilizer-prices-surge"
-    },
-    {
-      "by": "lawrenceyan",
-      "descendants": 0,
-      "id": 31231674,
-      "score": 1,
-      "time": 1651468520,
-      "title": "Commodity Chokepoints and QT",
-      "type": "story",
-      "url": "https://plus2.credit-suisse.com/shorturlpdf.html?v=53g1-Vvd1-V"
-    },
-    {
-      "by": "signa11",
-      "descendants": 0,
-      "id": 31231673,
-      "score": 2,
-      "time": 1651468505,
-      "title": "A Functional Introduction to Computer Science (Part I)",
-      "type": "story",
-      "url": "https://cs.uwaterloo.ca/~plragde/flane/FICS/"
     }
   ]
 }
