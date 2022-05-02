@@ -1,6 +1,36 @@
 {
   "stories": [
     {
+      "by": "dspoka",
+      "descendants": 0,
+      "id": 31240907,
+      "score": 1,
+      "time": 1651525467,
+      "title": "Children of Durbin",
+      "type": "story",
+      "url": "https://kunle.app/feb-2022-children-of-durbin.html"
+    },
+    {
+      "by": "komuW",
+      "descendants": 0,
+      "id": 31240897,
+      "score": 1,
+      "time": 1651525405,
+      "title": "Plain Kubernetes Secrets are fine",
+      "type": "story",
+      "url": "https://www.macchaffee.com/blog/2022/k8s-secrets/"
+    },
+    {
+      "by": "maydemir",
+      "descendants": 0,
+      "id": 31240864,
+      "score": 1,
+      "time": 1651525225,
+      "title": "Assembly – OpenGL programming in nasm for win32",
+      "type": "story",
+      "url": "https://github.com/pouriya73/assembly"
+    },
+    {
       "by": "archielc",
       "descendants": 0,
       "id": 31240798,
@@ -14,7 +44,7 @@
       "by": "maxerickson",
       "descendants": 0,
       "id": 31240797,
-      "score": 2,
+      "score": 3,
       "time": 1651524886,
       "title": "Why Are American Chips So Boring?",
       "type": "story",
@@ -24,7 +54,7 @@
       "by": "higgins",
       "descendants": 0,
       "id": 31240785,
-      "score": 1,
+      "score": 2,
       "time": 1651524800,
       "title": "Show HN: Everyone Everywhere All at Once",
       "type": "story",
@@ -32,8 +62,11 @@
     },
     {
       "by": "SpaceInvader",
-      "descendants": 0,
+      "descendants": 1,
       "id": 31240784,
+      "kids": [
+        31240903
+      ],
       "score": 1,
       "time": 1651524796,
       "title": "„We can only be enemies”",
@@ -69,37 +102,6 @@
       "title": "Nuclear Weapons in a Changing Climate: Probability, Increasing Risks, Perception",
       "type": "story",
       "url": "https://www.tandfonline.com/doi/full/10.1080/00139157.2017.1325300"
-    },
-    {
-      "by": "colinmcd",
-      "descendants": 0,
-      "id": 31240734,
-      "score": 1,
-      "time": 1651524546,
-      "title": "Sharding our test suite for 10x faster runs on GitHub Actions",
-      "type": "story",
-      "url": "https://www.edgedb.com/blog/how-we-sharded-our-test-suite-for-10x-faster-runs-on-github-actions"
-    },
-    {
-      "by": "cpuguy83",
-      "descendants": 0,
-      "id": 31240718,
-      "score": 3,
-      "text": "I&#x27;ve been working with a partner team to integrate wasm workloads with existing container toolchains with the goal of enabling wasm workloads anywhere, be it on the edge, in kubernetes, or wherever.<p>To that end, this project implements a containerd shim which runs those wasm workloads.\nIt is designed as a library to bring your own host implementation, but also includes an implementation for WASI.\nRight now the library assumes you are using wasmtime, which is embedded in.<p>It works either standalone (run with containerd directly) or in kubernetes. Kubernetes networking and storage are wired into the wasm host and the wasm can run side by side with native workloads on the same machine. Wasm pods can be exposed as a service like any other pod.",
-      "time": 1651524456,
-      "title": "Show HN: Run WASM in Containerd",
-      "type": "story",
-      "url": "https://github.com/cpuguy83/runwasi"
-    },
-    {
-      "by": "arisbe__",
-      "descendants": 0,
-      "id": 31240699,
-      "score": 1,
-      "time": 1651524378,
-      "title": "Unix, OpSys, C/C++, Networking, Dist. Systems, Web3, Lisp; playlist of playlists",
-      "type": "story",
-      "url": "https://www.youtube.com/channel/UCjgQ2pJDjZlhdI4Ym7NQdUw/playlists?view=50&sort=dd&shelf_id=4"
     }
   ]
 }
