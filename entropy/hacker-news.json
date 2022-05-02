@@ -1,6 +1,37 @@
 {
   "stories": [
     {
+      "by": "brian_herman",
+      "descendants": 0,
+      "id": 31236093,
+      "score": 1,
+      "text": "I want metal support in qemu and am going to put 1000 dollars down as a bounty.",
+      "time": 1651504121,
+      "title": "Ask HN: How do I do a feature request for GPU support in QEMU",
+      "type": "story"
+    },
+    {
+      "by": "jordigh",
+      "descendants": 0,
+      "id": 31236082,
+      "score": 1,
+      "time": 1651504091,
+      "title": "Pointer Compression in V8 (2020)",
+      "type": "story",
+      "url": "https://v8.dev/blog/pointer-compression"
+    },
+    {
+      "by": "Gabriel_h",
+      "descendants": 0,
+      "id": 31236066,
+      "score": 2,
+      "text": "Hey HN, I&#x27;m Gabriel, founder of Meticulous (<a href=\"https:&#x2F;&#x2F;www.meticulous.ai\" rel=\"nofollow\">https:&#x2F;&#x2F;www.meticulous.ai</a>). We&#x27;re building an API for replay testing. That is, we enable developers to record sessions in their web apps, then replay those sessions against <i>new</i> frontend code, in order to catch regressions before the code is released.<p>I was inspired to start Meticulous from my time at Dropbox, where we had regular &#x27;bug bashes&#x27; for our UX. Five or six engineers would go to a meeting room and click through different flows to try to break what we built. These were effective but time consuming—they required us to click through the same set of actions each time prior to a release.<p>This prompted me to start thinking about replaying sessions to automatically catch regressions. You can&#x27;t replay against production since you might mutate production data or cause side effects. You could replay against staging, but a lot of companies don&#x27;t have a staging environment that is representative of production. In addition, you need a mechanism to reset state after each replayed session (imagine replaying a user signing up to your web application).<p>We designed Meticulous with a focus on regressions, which I think are a particularly painful class of bug. They tend to occur in flows which users are actively using, and the number of regressions generally scales with the size and complexity of a codebase, which tends to always increase.<p>You can use Meticulous on any website, not just your own. For example, you can start recording a session, then go sign up to (say) amazon.com, then create a simple test which consists of replaying against amazon.com twice and comparing the resulting screenshots. You can also watch recordings and replays on the Meticulous dashboard. Of course, normally you would replay against the base commit and head commit of a PR, as opposed to the production site twice.<p>Our API is currently quite low-level. The Meticulous CLI allows you to do three things:<p>1) You can use &#x27;yarn meticulous record&#x27; to open a browser which you can then use to record a session on a URL of your choice, like localhost. You can also inject our JS snippet onto staging, local, dev and QA environments if you want to capture a larger pool of sessions. This is intended for testing your own stuff! If you inject our snippet, please ask for the consent of your colleagues before recording their workflows. I would advise against production deployments, because our redaction is currently very basic.<p>2) You can use &#x27;yarn meticulous replay&#x27; to replay a session against a URL of your choice. During replay, we spin up a browser and simulate click events with Puppeteer. A list of exceptions and network logs are written to disk. A screenshot is taken at the end of the replay and written to disk.<p>3) You can use &#x27;yarn meticulous screenshot-diff&#x27; to diff two screenshots.<p>There are lots of potential use cases here. You could build a system on top of the screenshot diffing to detect major regressions with a UX flow. You could also try to diff exceptions encountered during replay to detect new uncaught JS exceptions. We plan to build a higher-level product which will provide some testing out of the box.<p>Meticulous captures network traffic at record-time and mocks out network calls at replay-time. This isolates the frontend and avoids causing any side effects. However, this approach does have a few problems. The first is that you can&#x27;t test backend changes or integration changes, only frontend changes. (We are going to make network-stubbing optional, though, so that you can replay against a staging environment if you wish.) The second problem with our approach is that if your API significantly changes, you will need to record a new set of sessions to test against. A third problem is that we don&#x27;t yet support web applications which rely heavily upon server-side rendering. However, we felt these trade-offs were worth it to make Meticulous agnostic of the backend environment.<p>Meticulous is not going to replace all your testing, of course. I would recommend using it in conjunction with existing testing tools and practices, and viewing it as an additional layer of defense.<p>We have a free plan where you can replay 20 sessions per month. I&#x27;ve temporarily changed our limit to 250 for the HN launch. Our basic plan is $100&#x2F;month. The CLI itself is open-source under ISC. We&#x27;re actively discussing open sourcing the record+replay code.<p>I&#x27;d love for you to play around with Meticulous! You can try it out at <a href=\"https:&#x2F;&#x2F;docs.meticulous.ai\" rel=\"nofollow\">https:&#x2F;&#x2F;docs.meticulous.ai</a>. It&#x27;s rough around the edges, but we wanted to get this out to HN as early as possible. Please let us know what you might want us to build on top of this (visual diffs? perf regressions? dead code analysis? preventing regressions?). We would also love to hear from people who have built any sort of replay testing out at their company. Thank you for reading and I look forward to the comments!",
+      "time": 1651504009,
+      "title": "Launch HN: Meticulous (YC S21) – Catch JavaScript errors before they hit prod",
+      "type": "story",
+      "url": "https://meticulous.ai/"
+    },
+    {
       "by": "HelenePhisher",
       "descendants": 0,
       "id": 31236034,
@@ -69,50 +100,6 @@
       "title": "Apple Pay is anticompetitive, says EU in preliminary ruling",
       "type": "story",
       "url": "https://www.theverge.com/2022/5/2/23048116/apple-pay-eu-antitrust-nfc-payment-wallet"
-    },
-    {
-      "by": "s3cur3",
-      "descendants": 0,
-      "id": 31235977,
-      "score": 1,
-      "time": 1651503729,
-      "title": "Translating User Interfaces Is Way Harder Than You Think",
-      "type": "story",
-      "url": "https://tylerayoung.com/2022/05/02/translating-user-interfaces-is-hard/"
-    },
-    {
-      "by": "paulpauper",
-      "descendants": 0,
-      "id": 31235969,
-      "score": 1,
-      "time": 1651503700,
-      "title": "‘Zombified’ Japan Shows World How Not to Spend $5T",
-      "type": "story",
-      "url": "https://www.forbes.com/sites/williampesek/2022/04/28/zombified-japan-shows-world-how-not-to-spend-5-trillion/"
-    },
-    {
-      "by": "whoishiring",
-      "descendants": 14,
-      "id": 31235968,
-      "kids": [
-        31235997,
-        31236016,
-        31236011,
-        31236024,
-        31236012,
-        31235996,
-        31235986,
-        31236000,
-        31235974,
-        31235994,
-        31236018,
-        31235991
-      ],
-      "score": 8,
-      "text": "Please state the location and include REMOTE, INTERNS and&#x2F;or VISA\nwhen that sort of candidate is welcome. When remote work is <i>not</i> an option,\ninclude ONSITE.<p>Please only post if you personally are part of the hiring company—no\nrecruiting firms or job boards. Only one post per company. If it isn&#x27;t a household name,\nplease explain what your company does.<p>Commenters: please don&#x27;t reply to job posts to complain about\nsomething. It&#x27;s off topic here.<p>Readers: please only email if you are personally interested in the job.<p>Searchers: try <a href=\"https:&#x2F;&#x2F;kennytilton.github.io&#x2F;whoishiring&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;kennytilton.github.io&#x2F;whoishiring&#x2F;</a>, <a href=\"https:&#x2F;&#x2F;hnhired.com&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;hnhired.com&#x2F;</a>,\n<a href=\"https:&#x2F;&#x2F;hnjobs.emilburzo.com\" rel=\"nofollow\">https:&#x2F;&#x2F;hnjobs.emilburzo.com</a>, <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=10313519\" rel=\"nofollow\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=10313519</a>.<p>Don&#x27;t miss these other fine threads:<p><i>Who wants to be hired?</i> <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=31235966\" rel=\"nofollow\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=31235966</a><p><i>Freelancer? Seeking freelancer?</i> <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=31235967\" rel=\"nofollow\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=31235967</a>",
-      "time": 1651503698,
-      "title": "Ask HN: Who is hiring? (May 2022)",
-      "type": "story"
     }
   ]
 }
