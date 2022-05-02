@@ -1,6 +1,47 @@
 {
   "stories": [
     {
+      "by": "DyslexicAtheist",
+      "descendants": 0,
+      "id": 31240740,
+      "score": 1,
+      "time": 1651524570,
+      "title": "Nuclear Weapons in a Changing Climate: Probability, Increasing Risks, Perception",
+      "type": "story",
+      "url": "https://www.tandfonline.com/doi/full/10.1080/00139157.2017.1325300"
+    },
+    {
+      "by": "colinmcd",
+      "descendants": 0,
+      "id": 31240734,
+      "score": 1,
+      "time": 1651524546,
+      "title": "Sharding our test suite for 10x faster runs on GitHub Actions",
+      "type": "story",
+      "url": "https://www.edgedb.com/blog/how-we-sharded-our-test-suite-for-10x-faster-runs-on-github-actions"
+    },
+    {
+      "by": "cpuguy83",
+      "descendants": 0,
+      "id": 31240718,
+      "score": 1,
+      "text": "I&#x27;ve been working with a partner team to integrate wasm workloads with existing container toolchains with the goal of enabling wasm workloads anywhere, be it on the edge, in kubernetes, or wherever.<p>To that end, this project implements a containerd shim which runs those wasm workloads.\nIt is designed as a library to bring your own host implementation, but also includes an implementation for WASI.\nRight now the library assumes you are using wasmtime, which is embedded in.<p>It works either standalone (run with containerd directly) or in kubernetes. Kubernetes networking and storage are wired into the wasm host and the wasm can run side by side with native workloads on the same machine. Wasm pods can be exposed as a service like any other pod.",
+      "time": 1651524456,
+      "title": "Show HN: Run WASM in Containerd",
+      "type": "story",
+      "url": "https://github.com/cpuguy83/runwasi"
+    },
+    {
+      "by": "arisbe__",
+      "descendants": 0,
+      "id": 31240699,
+      "score": 1,
+      "time": 1651524378,
+      "title": "Unix, OpSys, C/C++, Networking, Dist. Systems, Web3, Lisp; playlist of playlists",
+      "type": "story",
+      "url": "https://www.youtube.com/channel/UCjgQ2pJDjZlhdI4Ym7NQdUw/playlists?view=50&sort=dd&shelf_id=4"
+    },
+    {
       "by": "Stratoscope",
       "descendants": 0,
       "id": 31240675,
@@ -61,52 +102,6 @@
       "title": "Live article with introduction on how to develop ClojureDart apps",
       "type": "story",
       "url": "https://github.com/Liverm0r/HowToClojureDart/blob/main/README.md"
-    },
-    {
-      "by": "jseliger",
-      "descendants": 0,
-      "id": 31240536,
-      "score": 3,
-      "time": 1651523598,
-      "title": "The Elondrop",
-      "type": "story",
-      "url": "https://balajis.com/elondrop/"
-    },
-    {
-      "by": "bruceb",
-      "descendants": 1,
-      "id": 31240520,
-      "kids": [
-        31240615
-      ],
-      "score": 2,
-      "text": "As there is who is hiring and who wants to be hired, there sometime collaborate&#x2F;cofounder threads.<p>So I am making one for May 2022.",
-      "time": 1651523529,
-      "title": "Ask HN: Who Wants to Collaborate or a Cofounder?",
-      "type": "story"
-    },
-    {
-      "by": "takiwatanga",
-      "descendants": 0,
-      "id": 31240472,
-      "score": 1,
-      "time": 1651523283,
-      "title": "Pythagoras Everyone knows his theorem but not who discovered it 1k years earlier",
-      "type": "story",
-      "url": "https://link.springer.com/article/10.1057/jt.2009.16"
-    },
-    {
-      "by": "karaokeyoga",
-      "descendants": 1,
-      "id": 31240470,
-      "kids": [
-        31240484
-      ],
-      "score": 1,
-      "time": 1651523282,
-      "title": "Big tech enlisted to tackle risky railway tasks in Japan",
-      "type": "story",
-      "url": "https://www.japantimes.co.jp/news/2022/05/02/business/tech/jr-west-robots-safety/"
     }
   ]
 }
