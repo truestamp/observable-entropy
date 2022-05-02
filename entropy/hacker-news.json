@@ -1,6 +1,66 @@
 {
   "stories": [
     {
+      "by": "zackchen",
+      "descendants": 0,
+      "id": 31236332,
+      "score": 1,
+      "time": 1651505078,
+      "title": "VSCode extension that highlights HTML in your `template strings`",
+      "type": "story",
+      "url": "https://marketplace.visualstudio.com/items?itemName=Throvn.js-html-template-strings"
+    },
+    {
+      "by": "tosh",
+      "descendants": 0,
+      "id": 31236327,
+      "score": 1,
+      "time": 1651505070,
+      "title": "Antitrust: European Commission Sends Statement of Objections to Apple",
+      "type": "story",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_22_2764"
+    },
+    {
+      "by": "georgecmu",
+      "descendants": 0,
+      "id": 31236303,
+      "score": 1,
+      "time": 1651504968,
+      "title": "Toyota Unintended Acceleration and Software Safety [pdf]",
+      "type": "story",
+      "url": "https://course.ece.cmu.edu/~ece642/lectures/10_koopman_public_toyota_talk.pdf"
+    },
+    {
+      "by": "kazanins",
+      "descendants": 0,
+      "id": 31236296,
+      "score": 1,
+      "time": 1651504962,
+      "title": "LendingClub Q122 Earnings: when a Fintech company buys a bank, the magic happens",
+      "type": "story",
+      "url": "https://www.popularfintech.com/p/lendingclub-q1-2022-earnings-when"
+    },
+    {
+      "by": "hlandau",
+      "descendants": 0,
+      "id": 31236290,
+      "score": 1,
+      "time": 1651504914,
+      "title": "The Demise of the Mildly Dynamic Website",
+      "type": "story",
+      "url": "https://www.devever.net/~hl/mildlydynamic"
+    },
+    {
+      "by": "zdw",
+      "descendants": 0,
+      "id": 31236274,
+      "score": 1,
+      "time": 1651504866,
+      "title": "Square-Enix sells all of its Western game studios and their games to Embracer",
+      "type": "story",
+      "url": "https://arstechnica.com/gaming/2022/05/embracer-acquires-tomb-raider-deus-ex-and-all-western-square-enix-game-studios/"
+    },
+    {
       "by": "zdw",
       "descendants": 0,
       "id": 31236226,
@@ -39,70 +99,6 @@
       "title": "Learning to think critically about machine learning",
       "type": "story",
       "url": "https://news.mit.edu/2022/ethical-machine-learning-course-0415"
-    },
-    {
-      "by": "mario_kart_snes",
-      "descendants": 0,
-      "id": 31236163,
-      "score": 1,
-      "time": 1651504360,
-      "title": "Unredacted Magazine – The Privacy, Security, & Osint Magazine",
-      "type": "story",
-      "url": "https://unredactedmagazine.com/"
-    },
-    {
-      "by": "ABS",
-      "descendants": 0,
-      "id": 31236157,
-      "score": 4,
-      "time": 1651504328,
-      "title": "Brendan Intel.com",
-      "type": "story",
-      "url": "https://www.brendangregg.com/blog/2022-05-02/brendan-at-intel.html"
-    },
-    {
-      "by": "behnamoh",
-      "descendants": 0,
-      "id": 31236146,
-      "score": 1,
-      "time": 1651504303,
-      "title": "Fix macOS Font Rendering Issue",
-      "type": "story",
-      "url": "https://ahmadawais.com/fix-macos-mojave-font-rendering-issue/"
-    },
-    {
-      "by": "brian_herman",
-      "descendants": 1,
-      "id": 31236093,
-      "kids": [
-        31236142
-      ],
-      "score": 1,
-      "text": "I want metal support in qemu and am going to put 1000 dollars down as a bounty.",
-      "time": 1651504121,
-      "title": "Ask HN: How do I do a feature request for GPU support in QEMU",
-      "type": "story"
-    },
-    {
-      "by": "jordigh",
-      "descendants": 0,
-      "id": 31236082,
-      "score": 1,
-      "time": 1651504091,
-      "title": "Pointer Compression in V8 (2020)",
-      "type": "story",
-      "url": "https://v8.dev/blog/pointer-compression"
-    },
-    {
-      "by": "Gabriel_h",
-      "descendants": 0,
-      "id": 31236066,
-      "score": 8,
-      "text": "Hey HN, I&#x27;m Gabriel, founder of Meticulous (<a href=\"https:&#x2F;&#x2F;www.meticulous.ai\" rel=\"nofollow\">https:&#x2F;&#x2F;www.meticulous.ai</a>). We&#x27;re building an API for replay testing. That is, we enable developers to record sessions in their web apps, then replay those sessions against <i>new</i> frontend code, in order to catch regressions before the code is released.<p>I was inspired to start Meticulous from my time at Dropbox, where we had regular &#x27;bug bashes&#x27; for our UX. Five or six engineers would go to a meeting room and click through different flows to try to break what we built. These were effective but time consuming—they required us to click through the same set of actions each time prior to a release.<p>This prompted me to start thinking about replaying sessions to automatically catch regressions. You can&#x27;t replay against production since you might mutate production data or cause side effects. You could replay against staging, but a lot of companies don&#x27;t have a staging environment that is representative of production. In addition, you need a mechanism to reset state after each replayed session (imagine replaying a user signing up to your web application).<p>We designed Meticulous with a focus on regressions, which I think are a particularly painful class of bug. They tend to occur in flows which users are actively using, and the number of regressions generally scales with the size and complexity of a codebase, which tends to always increase.<p>You can use Meticulous on any website, not just your own. For example, you can start recording a session, then go sign up to (say) amazon.com, then create a simple test which consists of replaying against amazon.com twice and comparing the resulting screenshots. You can also watch recordings and replays on the Meticulous dashboard. Of course, normally you would replay against the base commit and head commit of a PR, as opposed to the production site twice.<p>Our API is currently quite low-level. The Meticulous CLI allows you to do three things:<p>1) You can use &#x27;yarn meticulous record&#x27; to open a browser which you can then use to record a session on a URL of your choice, like localhost. You can also inject our JS snippet onto staging, local, dev and QA environments if you want to capture a larger pool of sessions. This is intended for testing your own stuff! If you inject our snippet, please ask for the consent of your colleagues before recording their workflows. I would advise against production deployments, because our redaction is currently very basic.<p>2) You can use &#x27;yarn meticulous replay&#x27; to replay a session against a URL of your choice. During replay, we spin up a browser and simulate click events with Puppeteer. A list of exceptions and network logs are written to disk. A screenshot is taken at the end of the replay and written to disk.<p>3) You can use &#x27;yarn meticulous screenshot-diff&#x27; to diff two screenshots.<p>There are lots of potential use cases here. You could build a system on top of the screenshot diffing to detect major regressions with a UX flow. You could also try to diff exceptions encountered during replay to detect new uncaught JS exceptions. We plan to build a higher-level product which will provide some testing out of the box.<p>Meticulous captures network traffic at record-time and mocks out network calls at replay-time. This isolates the frontend and avoids causing any side effects. However, this approach does have a few problems. The first is that you can&#x27;t test backend changes or integration changes, only frontend changes. (We are going to make network-stubbing optional, though, so that you can replay against a staging environment if you wish.) The second problem with our approach is that if your API significantly changes, you will need to record a new set of sessions to test against. A third problem is that we don&#x27;t yet support web applications which rely heavily upon server-side rendering. However, we felt these trade-offs were worth it to make Meticulous agnostic of the backend environment.<p>Meticulous is not going to replace all your testing, of course. I would recommend using it in conjunction with existing testing tools and practices, and viewing it as an additional layer of defense.<p>We have a free plan where you can replay 20 sessions per month. I&#x27;ve temporarily changed our limit to 250 for the HN launch. Our basic plan is $100&#x2F;month. The CLI itself is open-source under ISC. We&#x27;re actively discussing open sourcing the record+replay code.<p>I&#x27;d love for you to play around with Meticulous! You can try it out at <a href=\"https:&#x2F;&#x2F;docs.meticulous.ai\" rel=\"nofollow\">https:&#x2F;&#x2F;docs.meticulous.ai</a>. It&#x27;s rough around the edges, but we wanted to get this out to HN as early as possible. Please let us know what you might want us to build on top of this (visual diffs? perf regressions? dead code analysis? preventing regressions?). We would also love to hear from people who have built any sort of replay testing out at their company. Thank you for reading and I look forward to the comments!",
-      "time": 1651504009,
-      "title": "Launch HN: Meticulous (YC S21) – Catch JavaScript errors before they hit prod",
-      "type": "story",
-      "url": "https://meticulous.ai/"
     }
   ]
 }
