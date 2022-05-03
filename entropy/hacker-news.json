@@ -1,6 +1,16 @@
 {
   "stories": [
     {
+      "by": "alisey",
+      "descendants": 0,
+      "id": 31245690,
+      "score": 2,
+      "time": 1651563103,
+      "title": "Neural Network Follies (2003)",
+      "type": "story",
+      "url": "https://neil.fraser.name/writing/tank/"
+    },
+    {
       "by": "HieronymusBosch",
       "descendants": 0,
       "id": 31245679,
@@ -22,9 +32,13 @@
     },
     {
       "by": "kajiryoji",
-      "descendants": 0,
+      "descendants": 2,
       "id": 31245625,
-      "score": 9,
+      "kids": [
+        31245704,
+        31245688
+      ],
+      "score": 12,
       "text": "There were many threads previously on how bad&#x2F;impractical it is to self-host your email. For example, this thread[1] is just a few days ago.<p>I was wondering if anyone had any experience combining the microsoft 365 business basic (6$ a month) with self-hosted email server? By relaying SMTP through the Microsoft provided outlook server, would my custom domain be free from being marked by spam?<p>[1]: https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=31180379",
       "time": 1651562316,
       "title": "Ask HN: The middle ground for email selfhosting",
@@ -92,16 +106,6 @@
       "title": "TypeScript Error Translator",
       "type": "story",
       "url": "https://marketplace.visualstudio.com/items?itemName=mattpocock.ts-error-translator"
-    },
-    {
-      "by": "ngaut",
-      "descendants": 0,
-      "id": 31245578,
-      "score": 2,
-      "time": 1651561900,
-      "title": "UFS: A filesystem semi-microkernel designs for device performance delivery",
-      "type": "story",
-      "url": "https://github.com/WiscADSL/uFS"
     }
   ]
 }
