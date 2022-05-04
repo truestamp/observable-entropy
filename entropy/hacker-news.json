@@ -1,6 +1,57 @@
 {
   "stories": [
     {
+      "by": "sebg",
+      "descendants": 0,
+      "id": 31262404,
+      "score": 1,
+      "time": 1651680546,
+      "title": "Scale Economies Shared",
+      "type": "story",
+      "url": "https://www.incrementaleconomics.com/scale-economies-shared/"
+    },
+    {
+      "by": "edent",
+      "descendants": 0,
+      "id": 31262393,
+      "score": 1,
+      "time": 1651680515,
+      "title": "Deb-Get",
+      "type": "story",
+      "url": "https://github.com/wimpysworld/deb-get"
+    },
+    {
+      "by": "pygy_",
+      "descendants": 0,
+      "id": 31262382,
+      "score": 1,
+      "text": "This is an old lib I just rejuvenated, adding support for Unicode RegExps, properly handling back-references, and taking advantage of these to create helpers that make accessible things that are usually too impractical to use.<p>It lets you write anything you&#x27;d write with normal RegExps, but with a more readable syntax, and it lets you compose sub-expressions into larger patterns.<p>It also provides helpers like:<p>- `atomic()` that prevents the engine from backtracking into what you passed as argument. No more ReDOS.<p>- `bound()` works like `\\b` but for arbitrary character sets. E.g. `bound(&#x2F;[_\\p{L}\\p{Number}]&#x2F;u)` is a Unicode-aware `\\b`<p>- Set operations on character classes: `charSet.intersection(&#x2F;\\p{Lowercase}&#x2F;u, &#x2F;\\p{Script=Greek}&#x2F;u)` will only match lower case greek letters<p>I hope you&#x27;ll find it useful!",
+      "time": 1651680449,
+      "title": "Show HN: Compose-regexp.js Build readable and maintainable RegExps. ReDOS begone",
+      "type": "story",
+      "url": "https://github.com/compose-regexp/compose-regexp.js"
+    },
+    {
+      "by": "hackintoshrao",
+      "descendants": 0,
+      "id": 31262370,
+      "score": 1,
+      "time": 1651680388,
+      "title": "Show HN: Create interactive developer videos by integrating codesandbox, Repl.it",
+      "type": "story",
+      "url": "https://incredible.dev/watch/jhi-ifw-aav"
+    },
+    {
+      "by": "ianhawes",
+      "descendants": 0,
+      "id": 31262361,
+      "score": 3,
+      "time": 1651680355,
+      "title": "Stripe Financial Connections",
+      "type": "story",
+      "url": "https://stripe.com/financial-connections"
+    },
+    {
       "by": "julianlam",
       "descendants": 0,
       "id": 31262346,
@@ -12,8 +63,11 @@
     },
     {
       "by": "mzs",
-      "descendants": 0,
+      "descendants": 1,
       "id": 31262342,
+      "kids": [
+        31262387
+      ],
       "score": 1,
       "time": 1651680240,
       "title": "Britain cuts Russia off from management consulting accounting and PR services",
@@ -49,65 +103,6 @@
       "title": "Buffet-Style Architecture",
       "type": "story",
       "url": "https://markgreville.ie/2021/05/27/buffet-style-architecture/"
-    },
-    {
-      "by": "maxonegeograf",
-      "descendants": 1,
-      "id": 31262314,
-      "kids": [
-        31262315
-      ],
-      "score": 1,
-      "time": 1651680155,
-      "title": "Flim – like Shazam, only for movies",
-      "type": "story",
-      "url": "https://play.google.com/store/apps/details?id=com.flim.smapp&hl=en_US&gl=US"
-    },
-    {
-      "by": "verisimi",
-      "descendants": 1,
-      "id": 31262312,
-      "kids": [
-        31262341
-      ],
-      "score": 1,
-      "time": 1651680152,
-      "title": "DeepMind’s New AI Finally Enters the Real World",
-      "type": "story",
-      "url": "https://www.youtube.com/watch?v=zxyZSxnTrZs"
-    },
-    {
-      "by": "eternalban",
-      "descendants": 0,
-      "id": 31262295,
-      "score": 1,
-      "time": 1651680055,
-      "title": "Stanley Kubrick on Fortune 32:15, “the most advanced OS”, and tech manuals",
-      "type": "story",
-      "url": "https://www.youtube.com/watch?v=sZO8hyU0J_A"
-    },
-    {
-      "by": "hkh",
-      "descendants": 0,
-      "id": 31262290,
-      "score": 1,
-      "time": 1651680031,
-      "title": "HashiCorp Terraform Cost Estimation with Infracost and Run Tasks Now GA",
-      "type": "story",
-      "url": "https://www.infracost.io/blog/terraform-cost-estimation-with-runtasks-infracost/"
-    },
-    {
-      "by": "mooreds",
-      "descendants": 1,
-      "id": 31262287,
-      "kids": [
-        31262323
-      ],
-      "score": 1,
-      "time": 1651680003,
-      "title": "Getting Things Merged",
-      "type": "story",
-      "url": "https://www.tweag.io/blog/2022-04-14-getting-things-merged/"
     }
   ]
 }
