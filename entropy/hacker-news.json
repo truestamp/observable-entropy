@@ -1,6 +1,36 @@
 {
   "stories": [
     {
+      "by": "fabig",
+      "descendants": 0,
+      "id": 31258160,
+      "score": 1,
+      "time": 1651654400,
+      "title": "The Truth About Building Your Own Authentication Server",
+      "type": "story",
+      "url": "https://zitadel.ch/blog/building-your-own-iam"
+    },
+    {
+      "by": "martyvis",
+      "descendants": 0,
+      "id": 31258150,
+      "score": 1,
+      "time": 1651654253,
+      "title": "The reluctant explorer – interview with creator of Pixelmap NFT",
+      "type": "story",
+      "url": "https://www.thisamericanlife.org/769/the-reluctant-explorer"
+    },
+    {
+      "by": "hnburnsy",
+      "descendants": 0,
+      "id": 31258148,
+      "score": 3,
+      "time": 1651654218,
+      "title": "Beginning in late 2022, you'll no longer be able to send MOBI files to Kindle",
+      "type": "story",
+      "url": "https://www.amazon.com/gp/help/customer/display.html?nodeId=G5WYD9SAF7PGXRNA"
+    },
+    {
       "by": "indigodaddy",
       "descendants": 0,
       "id": 31258143,
@@ -69,36 +99,6 @@
       "title": "Cookies at the Edge: Not a Baking Blog Post",
       "type": "story",
       "url": "https://austingil.com/cookies-at-the-edge/"
-    },
-    {
-      "by": "dz0ny",
-      "descendants": 0,
-      "id": 31258126,
-      "score": 2,
-      "text": "I am a bit in a pickle. Looks like I cannot trust or even use Heroku any more. The trust is broken a bit because of how they are handling the breach, that they had.\nThe &quot;use&quot; is even more complicated. I&#x27;ve used review apps extensively with their pipeline, and since they revoked GitHub integration 2&#x2F;3 of Heroku are non-functional for me (no review apps, no staging migration pipeline).<p>I&#x27;ve been looking for alternatives and found them severely lacking in security scope or basic functionality.<p>Render.com<p>- There is no concept of read&#x2F;manage permissions. Anyone who is invited into a team can delete the team, all apps, services etc. By design of their UI also possibly by mistake. Support responded that they have been working on this the last 2 years or something like that.<p>- &#x2F;tmp folders are misconfigured. This means that if you send a large enough POST and the web server stores the payload into a temp folder, that seek file is lost. I noticed this after a week of random EOF errors that the web server reported. The support responded I should just use their disk offering and that ephemeral services should not use temp folders, mind that Heroku is also ephemeral but &#x2F;tmp folder can still be used because otherwise you have above problem.<p>- GitHub integration. The problem is that only one team&#x2F;user can link the app to the entire platform. This means that if other team members visit the &quot;Blueprint Sync&quot; page, they will see an error that GitHub integration is broken. And for every team that you have, you would have to create a new GitHub user, just to set up sync and only that user can then see sync status.<p>I feel they are working hard and are closest to the Heroku. Yet I feel they are not up to the task that Heroku was&#x2F;is, in particular I think they are not using the service themselves otherwise they would fix these shortcomings a long time ago.<p>Railway.app<p>They have Teams properly solved, and GitHub integration also works as expected. But they have issues elsewhere.<p>- Builder is slow as hell. For example, 200mb bundle needed 6 minutes to be deployed (they don&#x27;t have build cache) and I was able to do it only once. The second attempt resulted in timeout (builds in 179s on Heroku and on Render in ~30s).<p>- No support for scheduled executions. This is a feature that both Heroku (Scheduler) and Render (Cron Jobs) provide. What it does, it spins the bundle&#x2F;container and executes something at specific interval, you pay extra, but that&#x27;s the whole point so that you can run more demanding tasks. I would have to rewrite everything into fake web cron of PHP era.<p>Do you know any alternatives besides these two? What are your plans with Heroku?",
-      "time": 1651653916,
-      "title": "Ask HN: Alternative to Heroku",
-      "type": "story"
-    },
-    {
-      "by": "surrTurr",
-      "descendants": 0,
-      "id": 31258109,
-      "score": 1,
-      "time": 1651653736,
-      "title": "YouCode: You.com Code Search Engine",
-      "type": "story",
-      "url": "https://you.com/code"
-    },
-    {
-      "by": "epaga",
-      "descendants": 0,
-      "id": 31258106,
-      "score": 1,
-      "time": 1651653634,
-      "title": "A Whiter White",
-      "type": "story",
-      "url": "https://kidi.ng/wanna-see-a-whiter-white/"
     }
   ]
 }
