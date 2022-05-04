@@ -1,10 +1,61 @@
 {
   "stories": [
     {
+      "by": "craftsquick",
+      "descendants": 0,
+      "id": 31263811,
+      "score": 1,
+      "text": "Hey everyone!<p>I&#x27;m a long-time reader, first-time poster. I built a tool to help you easily write SQL by building queries visually.<p>I did this because (a) I used to write a lot of SQL in an old job and (b) my girlfriend now needs to write SQL for her job and she&#x27;s very new to it. So if you write a lot of SQL for work (or help people that need to write their own SQL), check it out! I built this over a weekend, so there are some rough edges, but you can try it out without needing to sign up or integrate with any databases. There&#x27;s also a 3 minute demo on the home screen.<p>Link: <a href=\"https:&#x2F;&#x2F;craftsql.com&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;craftsql.com&#x2F;</a><p>Does this generate the most performance optimized queries? The built queries target correctness, not performance. In practice, when I compared generated queries to the ones I wrote by hand, the query planner yields the same plan anyway.<p>Is this a data security risk? No, it never integrates with your actual database, so your data is never exposed. All you need to do is tell it what your tables&#x27; names and columns are, and those are only stored in your browsers local storage.<p>Would love all your thoughts!",
+      "time": 1651687455,
+      "title": "Show HN: CraftSQL helps you write SQL easily",
+      "type": "story",
+      "url": "https://craftsql.com/"
+    },
+    {
+      "by": "todsacerdoti",
+      "descendants": 0,
+      "id": 31263808,
+      "score": 1,
+      "time": 1651687431,
+      "title": "Y Combinator’s (Virtual) Summer Career Expo – June 8th",
+      "type": "story",
+      "url": "https://www.ycombinator.com/blog/yc-tech-expo-s22/"
+    },
+    {
+      "by": "manjana",
+      "descendants": 0,
+      "id": 31263804,
+      "score": 1,
+      "time": 1651687413,
+      "title": "When Booleans Are Not Enough State Machines? [video]",
+      "type": "story",
+      "url": "https://www.youtube.com/watch?v=I1Mzx_tSpew"
+    },
+    {
+      "by": "mydevlprplanet",
+      "descendants": 0,
+      "id": 31263792,
+      "score": 1,
+      "time": 1651687343,
+      "title": "How to Setup an Ansible Test Environment",
+      "type": "story",
+      "url": "https://mydeveloperplanet.com/2022/05/04/how-to-setup-an-ansible-test-environment/"
+    },
+    {
+      "by": "jluan",
+      "descendants": 0,
+      "id": 31263777,
+      "score": 1,
+      "time": 1651687261,
+      "title": "First result from Adept: giant NNs that can query DBs, make plots, and use APIs",
+      "type": "story",
+      "url": "https://twitter.com/gstsdn/status/1521874089647886336"
+    },
+    {
       "by": "behnamoh",
       "descendants": 0,
       "id": 31263765,
-      "score": 1,
+      "score": 2,
       "time": 1651687186,
       "title": "Troubles of Using Mac with External Monitors",
       "type": "story",
@@ -14,7 +65,7 @@
       "by": "shepherdjerred",
       "descendants": 0,
       "id": 31263764,
-      "score": 1,
+      "score": 2,
       "time": 1651687172,
       "title": "How Electricity Works [video]",
       "type": "story",
@@ -42,63 +93,16 @@
     },
     {
       "by": "hahnchen",
-      "descendants": 0,
+      "descendants": 1,
       "id": 31263746,
+      "kids": [
+        31263767
+      ],
       "score": 1,
       "text": "I’m about to graduate and it seemed obvious to aim for google or one of the other faangs until my classmate asked me, do any of them really innovate anymore?<p>I want to work somewhere where they are doing something new and exciting. Which companies do you think still embody this?<p>Some that come to mind are SpaceX, Tesla, Waymo, Meta and Microsoft are trying hard, maybe Intel",
       "time": 1651687088,
       "title": "Ask HN: Does FAANG innovate anymore? If not, where to go?",
       "type": "story"
-    },
-    {
-      "by": "domino",
-      "descendants": 0,
-      "id": 31263729,
-      "score": 5,
-      "time": 1651686992,
-      "title": "Making the Clubhouse hallway more relevant with machine learning",
-      "type": "story",
-      "url": "https://blog.clubhouse.com/making-the-hallway-more-relevant-with-machine-learning/"
-    },
-    {
-      "by": "nutanc",
-      "descendants": 0,
-      "id": 31263725,
-      "score": 1,
-      "text": "I have done a small experiment to see if we can predict when DALL-E 2 will generate a good image. Details about the experiment are at https:&#x2F;&#x2F;twitter.com&#x2F;nutanc&#x2F;status&#x2F;1521906864589393920<p>Tl;Dr;<p>I think by mixing and matching we can see when Dalle 2 works.<p>1. Test sentence embedding on a QnA model.<p>2. Search Google for images on that sentence.<p>If both 1 and 2 work then Dalle2 will give a good result.",
-      "time": 1651686980,
-      "title": "Can we if predict DALL-E 2 will create a good image or not for a given text?",
-      "type": "story"
-    },
-    {
-      "by": "nradov",
-      "descendants": 0,
-      "id": 31263717,
-      "score": 1,
-      "time": 1651686955,
-      "title": "GIP/GLP-1 Receptor Agonist Slashes Body Weight by More Than 20%",
-      "type": "story",
-      "url": "https://www.medpagetoday.com/endocrinology/obesity/98512"
-    },
-    {
-      "by": "yasp",
-      "descendants": 0,
-      "id": 31263673,
-      "score": 2,
-      "time": 1651686748,
-      "title": "Every ISP in the US has been ordered to block three pirate streaming services",
-      "type": "story",
-      "url": "https://arstechnica.com/tech-policy/2022/05/judge-rules-every-isp-in-us-must-block-pirate-sites-run-by-mysterious-defendants/"
-    },
-    {
-      "by": "mooreds",
-      "descendants": 0,
-      "id": 31263670,
-      "score": 1,
-      "time": 1651686736,
-      "title": "An Introduction to Contract Testing in Rails",
-      "type": "story",
-      "url": "https://blog.nolanphillips.com/contract-testing-in-rails"
     }
   ]
 }
