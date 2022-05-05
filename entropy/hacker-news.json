@@ -1,6 +1,16 @@
 {
   "stories": [
     {
+      "by": "tchiotludo",
+      "descendants": 0,
+      "id": 31271529,
+      "score": 1,
+      "text": "We have launched Kestra (https:&#x2F;&#x2F;github.com&#x2F;kestra-io&#x2F;kestra), an open source data scheduling and orchestration platform that features high scalability and availability.\nTo achieve this, we rely on Kafka as our core database.<p>We have received feedback that Kafka can be difficult to manage and is a no go on the project. The project did not pass the architecture team for this reason. \nWhile you can use Kafka without creating a full cluster (using a single node setup), it seems that Kafka is synonymous with complexity and problems.<p>We&#x27;re asking for your thoughts on this. We are thinking of making it easier to onboard the project. \nSo my question is this:<p>- Is Kafka really a scary technology, and do you feel like it can be a pain to manage and no go technologies? \n- We also depend on ElasticSearch, do you have the same point of view? \n- We have plans to add another option that will replace both dependencies with jdbc (https:&#x2F;&#x2F;github.com&#x2F;kestra-io&#x2F;kestra&#x2F;pull&#x2F;368), is theses dependencies more comfortable for you? \n- If yes, what type of database is required? (mysql, postgres, others) \n- We also see that Redis could have all the query interface needed for Kestra, what do you think about this one?<p>We&#x27;ve done some research and haven&#x27;t found a cloud database at the moment that could meet all the needs (especially full text search and transaction support), if you have an idea it&#x27;s welcome.<p>Thanks for your time, there&#x27;s a lot of work to build this part, so your feedback is really important to avoid going in the wrong direction.",
+      "time": 1651745730,
+      "title": "Ask HN: Open-source with Kafka as dependencies, is this a instant turn off?",
+      "type": "story"
+    },
+    {
       "by": "amichail",
       "descendants": 0,
       "id": 31271519,
@@ -92,16 +102,6 @@
       "title": "One Tiny German Town, Seven Big Michelin Stars (2013)",
       "type": "story",
       "url": "https://www.nytimes.com/2013/04/07/magazine/one-tiny-german-town-seven-big-michelin-stars.html"
-    },
-    {
-      "by": "thevinter",
-      "descendants": 0,
-      "id": 31271451,
-      "score": 2,
-      "time": 1651744804,
-      "title": "I Accidentally Deleted 7TB of Videos Before Going to Production",
-      "type": "story",
-      "url": "https://blog.thevinter.com/posts/vimeo"
     }
   ]
 }
