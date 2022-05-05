@@ -1,6 +1,56 @@
 {
   "stories": [
     {
+      "by": "taubek",
+      "descendants": 0,
+      "id": 31277537,
+      "score": 1,
+      "time": 1651779261,
+      "title": "Google makes $100k worth of tech training free to every U.S. business",
+      "type": "story",
+      "url": "https://www.reuters.com/technology/google-makes-100000-worth-tech-training-free-every-us-business-2022-05-02/"
+    },
+    {
+      "by": "MilnerRoute",
+      "descendants": 0,
+      "id": 31277507,
+      "score": 2,
+      "time": 1651779039,
+      "title": "AP evidence points to 600 dead in Mariupol theater airstrike",
+      "type": "story",
+      "url": "https://apnews.com/article/Russia-ukraine-war-mariupol-theater-c321a196fbd568899841b506afcac7a1"
+    },
+    {
+      "by": "dsaavy",
+      "descendants": 0,
+      "id": 31277506,
+      "score": 1,
+      "time": 1651779038,
+      "title": "Torn between hybrid and remote work for my business",
+      "type": "story",
+      "url": "https://www.melovedata.com/torn-between-hybrid-and-remote-work/"
+    },
+    {
+      "by": "listless",
+      "descendants": 0,
+      "id": 31277503,
+      "score": 1,
+      "time": 1651779025,
+      "title": "Learning loss is 50% of a year's worth of math when learning remotely",
+      "type": "story",
+      "url": "https://www.nytimes.com/2022/05/05/briefing/school-closures-covid-learning-loss.html"
+    },
+    {
+      "by": "tosh",
+      "descendants": 0,
+      "id": 31277500,
+      "score": 1,
+      "time": 1651779017,
+      "title": "Nbb: Ad-hoc scripting for Clojure on Node.js",
+      "type": "story",
+      "url": "https://www.youtube.com/watch?v=7DQ0ymojfLg"
+    },
+    {
       "by": "mrkramer",
       "descendants": 1,
       "id": 31277449,
@@ -25,9 +75,10 @@
     },
     {
       "by": "karaokeyoga",
-      "descendants": 1,
+      "descendants": 2,
       "id": 31277411,
       "kids": [
+        31277522,
         31277481
       ],
       "score": 1,
@@ -55,59 +106,6 @@
       "title": "Pulumi YAML: A Simple Declarative Interface for the Pulumi IaC Platform",
       "type": "story",
       "url": "https://www.pulumi.com/blog/pulumi-yaml/"
-    },
-    {
-      "by": "sdcoffey",
-      "descendants": 0,
-      "id": 31277397,
-      "score": 2,
-      "text": "Hey Hacker News,<p>We&#x27;re working on an investment aggregator that tracks the value of our customers&#x27; portfolios over time. We&#x27;ve faced a bunch of challenges in getting public stock market data (live&#x2F;historical prices, splits, etc). We&#x27;re currently cobbling together a dataset from a few different sources (Polygon, IEX, etc), but it&#x27;s been a massive pain*<p>I&#x27;m wondering if this is the case for other fintech devs. Does everyone face the pain of assembling their own financial datasets? Or do we have unique needs&#x2F;a bad solution?<p>So HN, where do you all source your financial data?<p>* Our main challenges:<p>Data quality: \n  - Ticker symbol changes (and CUSIP&#x2F;ISIN changes&#x2F;challenges)\n  - Missing or wrong values for some days\n  - Missing or incorrect splits\nSpeed:\n  - Tens of API calls that would be necessary to render one screen\n  - Historical data syncing that would take days of API calls\nBurden:\n  - Enterprise sales contracts instead of self-serve\n  - Building and maintaining your own ETL pipeline to ingest data",
-      "time": 1651778417,
-      "title": "Ask HN: Where do you get your financial data?",
-      "type": "story"
-    },
-    {
-      "by": "saltymimir",
-      "descendants": 0,
-      "id": 31277366,
-      "score": 4,
-      "time": 1651778166,
-      "title": "RSS has been damaged by in-fighting among those who advocate for it (2006)",
-      "type": "story",
-      "url": "http://www.smashcompany.com/technology/rss-has-been-damaged-by-in-fighting-among-those-who-advocate-for-it"
-    },
-    {
-      "by": "conradegusa",
-      "descendants": 0,
-      "id": 31277358,
-      "score": 2,
-      "time": 1651778127,
-      "title": "Peru to close 40 military bases in VRAEM, a.k.a. ‘Peru’s Cocaine Valley’",
-      "type": "story",
-      "url": "https://perureports.com/peru-to-close-40-military-bases-in-vraem-aka-perus-cocaine-valley/9413/"
-    },
-    {
-      "by": "jenshaase",
-      "descendants": 1,
-      "id": 31277347,
-      "kids": [
-        31277448
-      ],
-      "score": 2,
-      "time": 1651778068,
-      "title": "Phel v0.7.0 Release",
-      "type": "story",
-      "url": "https://phel-lang.org/blog/release-0-7/"
-    },
-    {
-      "by": "ilrwbwrkhv",
-      "descendants": 0,
-      "id": 31277326,
-      "score": 1,
-      "time": 1651777946,
-      "title": "Polyphasic Sleep – Steve Pavlina",
-      "type": "story",
-      "url": "https://stevepavlina.com/blog/2005/10/polyphasic-sleep/"
     }
   ]
 }
