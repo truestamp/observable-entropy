@@ -1,10 +1,30 @@
 {
   "stories": [
     {
+      "by": "mesofile",
+      "descendants": 0,
+      "id": 31286388,
+      "score": 1,
+      "time": 1651851295,
+      "title": "Largest hydrogen-powered mining vehicle starts work",
+      "type": "story",
+      "url": "https://www.engineeringnews.co.za/article/anglo-american-launches-hydrogen-powered-zero-emission-haul-truck-2022-05-06"
+    },
+    {
+      "by": "feross",
+      "descendants": 0,
+      "id": 31286364,
+      "score": 1,
+      "time": 1651851172,
+      "title": "Variable Fonts in Real Life",
+      "type": "story",
+      "url": "https://web.dev/variable-fonts-in-real-life/"
+    },
+    {
       "by": "thanedar",
       "descendants": 0,
       "id": 31286322,
-      "score": 1,
+      "score": 2,
       "time": 1651850971,
       "title": "Public Ventures: How Governments Can Run VC Funds",
       "type": "story",
@@ -62,9 +82,12 @@
     },
     {
       "by": "dotsam",
-      "descendants": 0,
+      "descendants": 1,
       "id": 31286173,
-      "score": 1,
+      "kids": [
+        31286346
+      ],
+      "score": 2,
       "time": 1651850252,
       "title": "Eating one-fifth less beef could halve deforestation",
       "type": "story",
@@ -72,33 +95,16 @@
     },
     {
       "by": "joaoco",
-      "descendants": 0,
+      "descendants": 1,
       "id": 31286162,
+      "kids": [
+        31286358
+      ],
       "score": 3,
       "text": "Me and a few friends have been working multy.dev, an open-source cloud agnostic API that makes it easy to deploy the same infrastructure to any cloud provider using native managed services.<p>The motivation was the realisation that, even when using Terraform, migrating infrastructure code requires an end-to-end re-write. Even though most core resources are the same in any major cloud, developers need to learn a new provider to deploy the same infrastructure when moving providers.<p>We currently support:<p>- Networking (virtual_network, subnet, route_table, security_group, network_interface, public_ip)<p>- Compute (virtual_machine, managed kubernetes)<p>- Database (managed MySQL databases)<p>- Vault (managed secrets)<p>- Storage (managed storage)<p>- Abstraction cloud differences (Azure VM public vs AWS EC2 private by default)<p>- Deployment through Terraform<p>We are in very early days of development, supporting core services from AWS and Azure at a high-level. We’re looking for feedback from developers about our approach and messaging.<p>&gt; multy.dev",
       "time": 1651850203,
       "title": "Show HN: A tool to deploy cloud-agnostic infrastructure anywhere",
       "type": "story"
-    },
-    {
-      "by": "maxwell",
-      "descendants": 0,
-      "id": 31286144,
-      "score": 2,
-      "time": 1651850108,
-      "title": "U.S. Life Expectancy Falls Further to 76.6 Years",
-      "type": "story",
-      "url": "https://khn.org/morning-breakout/us-life-expectancy-falls-further-to-76-6-years/"
-    },
-    {
-      "by": "webmaven",
-      "descendants": 0,
-      "id": 31286140,
-      "score": 1,
-      "time": 1651850094,
-      "title": "Startup Trail is Oregon Trail for tech policy wonks",
-      "type": "story",
-      "url": "https://www.theverge.com/2022/4/28/23045333/startup-trail-game-oregon"
     }
   ]
 }
