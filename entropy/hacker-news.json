@@ -1,9 +1,62 @@
 {
   "stories": [
     {
-      "by": "moeadham",
+      "by": "camjohnson26",
       "descendants": 0,
+      "id": 31289622,
+      "score": 1,
+      "time": 1651871332,
+      "title": "Kasparov versus the World",
+      "type": "story",
+      "url": "https://en.wikipedia.org/wiki/Kasparov_versus_the_World"
+    },
+    {
+      "by": "daxaxelrod",
+      "descendants": 0,
+      "id": 31289615,
+      "score": 1,
+      "text": "Some things that come to mind are\n 1. Swappable config files (hard to do in frameworks like django where config is code)\n 2. Can&#x27;t use proprietary 3rd party apis in core logic or if you do there has to be an open interface to be able to adapt to different vendors (payment_provider_interface vs stripe)\n 3. Minimize friction for new developer to spin up copy. Meaning if you&#x27;re forced to rely on multiple services, use something like docker compose to allow a single command to bring up the who command after a git clone.<p>What are some of your ideas?",
+      "time": 1651871268,
+      "title": "Ask HN: Best practices for open source webapp",
+      "type": "story"
+    },
+    {
+      "by": "fmixell",
+      "descendants": 0,
+      "id": 31289609,
+      "score": 1,
+      "time": 1651871227,
+      "title": "YouTube A11y Issues",
+      "type": "story",
+      "url": "https://stackoverflow.com/questions/72147338/youtube-iframe-api-voiceover-users-cant-press-play"
+    },
+    {
+      "by": "amrrs",
+      "descendants": 0,
+      "id": 31289605,
+      "score": 2,
+      "time": 1651871172,
+      "title": "AI research is a dumpster fire and Google’s holding the matches",
+      "type": "story",
+      "url": "https://thenextweb.com/news/ai-research-dumpster-fire-and-googles-holding-the-matches"
+    },
+    {
+      "by": "alexrustic",
+      "descendants": 0,
+      "id": 31289596,
+      "score": 2,
+      "time": 1651871097,
+      "title": "The three meanings of E=mc^2, Einstein's most famous equation",
+      "type": "story",
+      "url": "https://www.forbes.com/sites/startswithabang/2018/01/23/the-three-meanings-of-emc2-einsteins-most-famous-equation/"
+    },
+    {
+      "by": "moeadham",
+      "descendants": 1,
       "id": 31289578,
+      "kids": [
+        31289625
+      ],
       "score": 1,
       "time": 1651870886,
       "title": "Xbox Is Down",
@@ -52,56 +105,6 @@
       "title": "Facebook’s Little Red Book [pdf]",
       "type": "story",
       "url": "https://facebookcollection.files.wordpress.com/2018/10/facebooks-little-red-book-office-of-ben-barry.pdf"
-    },
-    {
-      "by": "mikae1",
-      "descendants": 0,
-      "id": 31289541,
-      "score": 1,
-      "time": 1651870630,
-      "title": "Too Much of a Good Thing",
-      "type": "story",
-      "url": "https://hunterirving.com/blog/too_much_of_a_good_thing"
-    },
-    {
-      "by": "User23",
-      "descendants": 0,
-      "id": 31289533,
-      "score": 1,
-      "time": 1651870577,
-      "title": "Nicolas Rougier's Dotemacs",
-      "type": "story",
-      "url": "https://github.com/rougier/dotemacs"
-    },
-    {
-      "by": "throwaway202206",
-      "descendants": 0,
-      "id": 31289528,
-      "score": 3,
-      "text": "I&#x27;m in my 40s, currently employed in a very stable big e-commerce company and I&#x27;ve been offered a great position in a young, VC baked startup (running since 2018).<p>I know the market is on fire right now but, at the same time, I read a lot of comments about how we&#x27;re near a new &quot;dot com bubble&quot;-like crash in a year or two.<p>What do you think? It&#x27;s time to &quot;get your chair&quot; and stop playing before the music ends?",
-      "time": 1651870542,
-      "title": "Ask HN: Is it still a good time for changing jobs?",
-      "type": "story"
-    },
-    {
-      "by": "ibobev",
-      "descendants": 0,
-      "id": 31289483,
-      "score": 1,
-      "time": 1651870098,
-      "title": "Fast bitset decoding using Intel AVX-512",
-      "type": "story",
-      "url": "https://lemire.me/blog/2022/05/06/fast-bitset-decoding-using-intel-avx-512/"
-    },
-    {
-      "by": "jger15",
-      "descendants": 0,
-      "id": 31289475,
-      "score": 1,
-      "time": 1651870042,
-      "title": "David Buss: Sex, Dating, Relationships, and Sex Differences",
-      "type": "story",
-      "url": "https://www.youtube.com/watch?v=sndW9hzX-wA"
     }
   ]
 }
