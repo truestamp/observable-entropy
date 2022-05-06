@@ -1,6 +1,101 @@
 {
   "stories": [
-    null,
+    {
+      "by": "sampo",
+      "descendants": 0,
+      "id": 31288175,
+      "score": 1,
+      "time": 1651860602,
+      "title": "Primitive Technology: Wood Ash Cement and Fired Brick Hut",
+      "type": "story",
+      "url": "https://www.youtube.com/watch?v=eesj3pJF3lA"
+    },
+    {
+      "by": "gojiberries",
+      "descendants": 0,
+      "id": 31288174,
+      "score": 1,
+      "time": 1651860599,
+      "title": "Compress: Optimized Go Compression Packages",
+      "type": "story",
+      "url": "https://github.com/klauspost/compress"
+    },
+    {
+      "by": "hhs",
+      "descendants": 0,
+      "id": 31288172,
+      "score": 1,
+      "time": 1651860590,
+      "title": "Many VC Firms Ban Side Investing. Yuri Milner’s DST Encourages It",
+      "type": "story",
+      "url": "https://www.bloomberg.com/tosv2.html?vid=&uuid=b960c16e-cd67-11ec-9aed-5778726e754e&url=L25ld3MvYXJ0aWNsZXMvMjAyMi0wNS0wNS95dXJpLW1pbG5lci1kc3QtZ2xvYmFsLWVuY291cmFnZS1hbmdlbC1pbnZlc3RpbmctZm9yLXBhcnRuZXJz"
+    },
+    {
+      "by": "metadat",
+      "descendants": 0,
+      "id": 31288171,
+      "score": 1,
+      "time": 1651860588,
+      "title": "Ford's New Ad Pokes Fun at Elon Musk's Loud Mouth and Thin Skin",
+      "type": "story",
+      "url": "https://gizmodo.com/elon-musk-ford-ad-youtube-tv-spacex-rockets-twitter-lou-1848883798"
+    },
+    {
+      "by": "mrbogle",
+      "descendants": 0,
+      "id": 31288166,
+      "score": 1,
+      "time": 1651860538,
+      "title": "Converting your vanilla JavaScript app to TypeScript",
+      "type": "story",
+      "url": "https://www.useanvil.com/blog/engineering/converting-vanilla-javascript-to-typescript/"
+    },
+    {
+      "by": "Layke1123",
+      "descendants": 0,
+      "id": 31288151,
+      "score": 1,
+      "text": "So I was given an interview question, and I am extremely confused by their response. I&#x27;m not going to give away their details (if you know, you know), but the problem is interesting.<p>Let&#x27;s say you have a standard Rubik&#x27;s cube with White facing Up, Green facing Front, Red facing Right, and Yellow, Blue, and Orange opposite those colors in the same order (I.E. Blue opposite Green, Red - Orange, White - Yellow).<p>Say you wanted to write a database that contained solutions to the every possible state the cube could be in (solved state, top rotated once, top rotated twice, etc.). I understand that there are 24 unique ways you could rotate this cube to bring it back into a canonical form to avoid all possible cases.<p>Now let&#x27;s say you allow non-standard colors (I.E. Red could be opposite White, Blue opposite Yellow, and on and on).<p>My understanding is that permuting the colors of the cube amongst the six posible colors is kinda of a one way function and there is no way to really undo it.<p>Hence, if you change whatever cube you are given with any possible color scheme into one where you replace whatever color is up with White, the front with Green, and so on, you essentially solve the problem of finding a canonical form.<p>The other engineers contest that it is possible and that you should permute all the colors first, and then try to rotate it into a canonical form from there.<p>Am I missing something, or is this like a trick question problem to befuddle engineers?<p>I tried reaching out to them but they won&#x27;t get back to me with the &quot;solution&quot;.",
+      "time": 1651860441,
+      "title": "Canonical Form of Rotated and Color Swapped Rubik's Cube",
+      "type": "story"
+    },
+    {
+      "by": "forgotmypw17",
+      "descendants": 1,
+      "id": 31288148,
+      "kids": [
+        31288156
+      ],
+      "score": 1,
+      "text": "Hey all, I was inspired by the other thread to make a quick video demo of what an Absurdly Compatible Website may look like when implemented.<p>This one does have some JavaScript, but degrades gracefully and supports text-mode browsers, no-JS browsing, and all the classics like IE3 and NN3 and Lynx.<p>https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=E-_yr31biGM<p>Kudos to anyone who can name all the browsers used in the demo, I think it&#x27;s more than 20 different ones :)<p>You can also check out the site live at http:&#x2F;&#x2F;RocketScience.click or https:&#x2F;&#x2F;RocketScience.click, at least until it&#x27;s hugged.<p>The framework for this is a static-dynamic hybrid site generator with full transparency and decentralizability, which I&#x27;m just preparing for this weekend&#x27;s MIT Bitcoin Expo, so please let me know if you find any issues.<p>Code is on GitHub: https:&#x2F;&#x2F;www.github.com&#x2F;gulkily&#x2F;RocketScience",
+      "time": 1651860431,
+      "title": "Show HN: An Absurdly Compatible Website",
+      "type": "story"
+    },
+    {
+      "by": "sahin",
+      "descendants": 0,
+      "id": 31288147,
+      "score": 1,
+      "time": 1651860430,
+      "title": "Scientists made a laser beam shaped like a photorealistic cat",
+      "type": "story",
+      "url": "https://www.newscientist.com/article/2318568-scientists-made-a-laser-beam-shaped-like-a-photorealistic-cat/"
+    },
+    {
+      "by": "gumby",
+      "descendants": 1,
+      "id": 31288128,
+      "kids": [
+        31288149
+      ],
+      "score": 2,
+      "time": 1651860313,
+      "title": "Google’s cloud group forms Web3 team to capitalize on popularity of crypto",
+      "type": "story",
+      "url": "https://www.cnbc.com/2022/05/06/googles-cloud-group-forms-web3-product-and-engineering-team.html"
+    },
     {
       "by": "linkdd",
       "descendants": 0,
@@ -11,86 +106,6 @@
       "title": "Show HN: Letlang specification inspired by Python PEPs (WIP)",
       "type": "story",
       "url": "https://letlang.dev/lep/"
-    },
-    {
-      "by": "gojiberries",
-      "descendants": 0,
-      "id": 31288101,
-      "score": 1,
-      "time": 1651860130,
-      "title": "Pryrite: Interactively execute shell code blocks in a Markdown file",
-      "type": "story",
-      "url": "https://github.com/1xyz/pryrite"
-    },
-    {
-      "by": "bothra90",
-      "descendants": 0,
-      "id": 31288098,
-      "score": 1,
-      "time": 1651860118,
-      "title": "The Case for Consolidation",
-      "type": "story",
-      "url": "https://benn.substack.com/p/case-for-consolidation"
-    },
-    {
-      "by": "keeganjw",
-      "descendants": 0,
-      "id": 31288090,
-      "score": 1,
-      "time": 1651860051,
-      "title": "A Fight over America’s Energy Future Erupts on the Canadian Border",
-      "type": "story",
-      "url": "https://www.nytimes.com/2022/05/06/climate/hydro-quebec-maine-clean-energy.html"
-    },
-    {
-      "by": "slater",
-      "descendants": 0,
-      "id": 31288059,
-      "score": 1,
-      "time": 1651859937,
-      "title": "The Halfbakery",
-      "type": "story",
-      "url": "https://www.halfbakery.com/"
-    },
-    {
-      "by": "todsacerdoti",
-      "descendants": 0,
-      "id": 31288050,
-      "score": 1,
-      "time": 1651859892,
-      "title": "Fig Terminal Auto-Complete Review",
-      "type": "story",
-      "url": "https://matduggan.com/fig-terminal-autocomplete-review/"
-    },
-    {
-      "by": "tusslewake",
-      "descendants": 0,
-      "id": 31288018,
-      "score": 2,
-      "time": 1651859674,
-      "title": "Jepson eFlora",
-      "type": "story",
-      "url": "https://ucjeps.berkeley.edu/eflora/"
-    },
-    {
-      "by": "rntn",
-      "descendants": 0,
-      "id": 31288016,
-      "score": 1,
-      "time": 1651859669,
-      "title": "Extremism analysis using natural language processing: trends and challenges",
-      "type": "story",
-      "url": "https://link.springer.com/article/10.1007/s12652-021-03658-z"
-    },
-    {
-      "by": "elsadek",
-      "descendants": 0,
-      "id": 31288014,
-      "score": 1,
-      "time": 1651859662,
-      "title": "Upgrade from iPhone se 2016 to iPhone se 2020 in 2022?",
-      "type": "story",
-      "url": "https://old.reddit.com/r/iphone/comments/ujt5n7/upgrade_from_iphone_se_2016_to_iphone_se_2020_in/"
     }
   ]
 }
