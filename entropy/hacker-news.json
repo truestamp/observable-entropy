@@ -1,6 +1,26 @@
 {
   "stories": [
     {
+      "by": "recurrence",
+      "descendants": 0,
+      "id": 31286247,
+      "score": 1,
+      "time": 1651850628,
+      "title": "The Business Case for Fewer Developer Meetings",
+      "type": "story",
+      "url": "https://blog.shimin.io/the-business-case-for-fewer-developer-meetings/"
+    },
+    {
+      "by": "thinkmassive",
+      "descendants": 0,
+      "id": 31286205,
+      "score": 1,
+      "time": 1651850422,
+      "title": "Flashbots",
+      "type": "story",
+      "url": "https://blog.bitmex.com/flashbots/"
+    },
+    {
       "by": "dotsam",
       "descendants": 0,
       "id": 31286173,
@@ -25,7 +45,7 @@
       "descendants": 0,
       "id": 31286162,
       "score": 2,
-      "text": "Me and a few friends have been working https:&#x2F;&#x2F;multy.dev, an open-source cloud agnostic API that makes it easy to deploy the same infrastructure to any cloud provider using native managed services.<p>The motivation was the realisation that, even when using Terraform, migrating infrastructure code requires an end-to-end re-write. Even though most core resources are the same in any major cloud, developers need to learn a new provider to deploy the same infrastructure when moving providers.<p>We currently support:\n- Networking (virtual_network, subnet, route_table, security_group, network_interface, public_ip)\n- Compute (virtual_machine, managed kubernetes)\n- Database (managed MySQL databases)\n- Vault (managed secrets)\n- Storage (managed storage)\n- Abstraction cloud differences (Azure VM public vs AWS EC2 private by default)\n- Deployment through Terraform<p>We are in very early days of development, supporting core services from AWS and Azure at a high-level. We’re looking for feedback from developers about our approach and messaging.<p>https:&#x2F;&#x2F;multy.dev",
+      "text": "Me and a few friends have been working multy.dev, an open-source cloud agnostic API that makes it easy to deploy the same infrastructure to any cloud provider using native managed services.<p>The motivation was the realisation that, even when using Terraform, migrating infrastructure code requires an end-to-end re-write. Even though most core resources are the same in any major cloud, developers need to learn a new provider to deploy the same infrastructure when moving providers.<p>We currently support:<p>- Networking (virtual_network, subnet, route_table, security_group, network_interface, public_ip)<p>- Compute (virtual_machine, managed kubernetes)<p>- Database (managed MySQL databases)<p>- Vault (managed secrets)<p>- Storage (managed storage)<p>- Abstraction cloud differences (Azure VM public vs AWS EC2 private by default)<p>- Deployment through Terraform<p>We are in very early days of development, supporting core services from AWS and Azure at a high-level. We’re looking for feedback from developers about our approach and messaging.<p>multy.com",
       "time": 1651850203,
       "title": "Show HN: A tool to deploy cloud-agnostic infrastructure anywhere",
       "type": "story"
@@ -52,12 +72,13 @@
     },
     {
       "by": "shardullavekar",
-      "descendants": 1,
+      "descendants": 2,
       "id": 31286126,
       "kids": [
+        31286242,
         31286189
       ],
-      "score": 2,
+      "score": 5,
       "text": "Hi All, this is Shardul here - I am the co-founder of Videobug.<p>https:&#x2F;&#x2F;bug.video<p>We are super excited to share Videobug with you. Videobug records run time code execution so that developers can watch it line by line as frequently as they want, right in their IDE. It takes away the pain of recreating exact conditions that led to a bug and saves developer time in every bug squash.<p>Parth (my co-founder) and I have worked on multiple production grade applications in startups and enterprises.<p>We used Logrocket, Sentry, and Datadog for logging and found ourselves adding more logs after a bug is found.<p>Adding accurate logs required disciplined engineering and collaboration across teams. Time to connect these logs to what’s wrong in the code, took quite sometime.<p>Videobug logs everything automatically. We are super psyched to launch our offline version. We plan to launch a fully self hosted version in 4 weeks from now, which will allow you to record and replay code executions in your staging and production environments.<p>We are looking for product feedback.<p>Here is a 2 min demo explaining how to use Videobug.<p>https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=U53IQifMt54<p>Join our discord channel to share your feedback or in case you need support.<p>https:&#x2F;&#x2F;discord.gg&#x2F;Hhwvay8uTa<p>P.S. Please note that we collect the following analytics data from your IDE: Your computer hostname, debugging events such as “started debugger”, “fetched exceptions” and “searched for code execution”.",
       "time": 1651850021,
       "title": "Show HN: Videobug – The time travel debugger for JVM",
@@ -85,29 +106,6 @@
       "title": "Help looking for a edge gateway manufacturing partner",
       "type": "story",
       "url": "http://aredgroup.com/"
-    },
-    {
-      "by": "eatonphil",
-      "descendants": 0,
-      "id": 31286055,
-      "score": 2,
-      "time": 1651849658,
-      "title": "PromQL Compliance Test Results",
-      "type": "story",
-      "url": "https://promlabs.com/promql-compliance-tests/"
-    },
-    {
-      "by": "croes",
-      "descendants": 1,
-      "id": 31286032,
-      "kids": [
-        31286080
-      ],
-      "score": 3,
-      "time": 1651849551,
-      "title": "ISPs stop fighting California net neutrality law",
-      "type": "story",
-      "url": "https://arstechnica.com/tech-policy/2022/05/stung-by-3-court-losses-isps-stop-fighting-california-net-neutrality-law/"
     }
   ]
 }
