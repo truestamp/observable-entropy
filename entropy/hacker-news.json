@@ -1,6 +1,45 @@
 {
   "stories": [
     {
+      "by": "Theprogrammerr",
+      "descendants": 0,
+      "id": 31282341,
+      "score": 1,
+      "text": "Hi all,<p>I&#x27;m trying to make my website as secure as possible.<p>Does the PHP function htmlspecialchars() prevent against XSS attacks when providing user supplied data to a HTML attribute?\nIs it possible for the encoded characters from htmlspecialchars() to be used to perform an XSS attack?<p>For example: \n(The user can supply alt text for an image)\n&lt;img src=&quot;image.jpg&quot; alt=&quot;&lt;script&gt;window.alert(&#x27;Something Bad&#x27;);&lt;&#x2F;script&gt;&quot;&gt;<p>Thanks.",
+      "time": 1651821863,
+      "title": "Does htmlspecialchars() prevent against XSS within HTML attributes?",
+      "type": "story"
+    },
+    {
+      "by": "ngaut",
+      "descendants": 0,
+      "id": 31282340,
+      "score": 1,
+      "time": 1651821856,
+      "title": "Etcd v3.5 Data inconsistency postmortem",
+      "type": "story",
+      "url": "https://github.com/etcd-io/etcd/blob/main/Documentation/postmortems/v3.5-data-inconsistency.md"
+    },
+    {
+      "by": "fsloth",
+      "descendants": 0,
+      "id": 31282338,
+      "score": 1,
+      "time": 1651821844,
+      "title": "Ask HN: Best anglophone popular science magazine?",
+      "type": "story"
+    },
+    {
+      "by": "olvy0",
+      "descendants": 0,
+      "id": 31282333,
+      "score": 1,
+      "time": 1651821823,
+      "title": "Apples And Oranges – on the usefullness of types in programming",
+      "type": "story",
+      "url": "https://deprogrammaticaipsum.com/apples-and-oranges/"
+    },
+    {
       "by": "punnerud",
       "descendants": 0,
       "id": 31282285,
@@ -62,49 +101,6 @@
       "title": "Infinite Images and the Latent Camera",
       "type": "story",
       "url": "https://mirror.xyz/herndondryhurst.eth/eZG6mucl9fqU897XvJs0vUUMnm5OITpSWN8S-6KWamY"
-    },
-    {
-      "by": "ggsp",
-      "descendants": 0,
-      "id": 31282183,
-      "score": 2,
-      "time": 1651820678,
-      "title": "Yabai – binary space partitioning based window manager for macOS",
-      "type": "story",
-      "url": "https://github.com/koekeishiya/yabai"
-    },
-    {
-      "by": "kkcorps",
-      "descendants": 1,
-      "id": 31282142,
-      "kids": [
-        31282179
-      ],
-      "score": 1,
-      "text": "I recently came across the post where I learnt about moving the windows in the mac using Cmd + ctrl + click. I wonder how many such unknown shortcuts are there that make life easier.",
-      "time": 1651820330,
-      "title": "Ask HN: What are your frequently use Mac shortcuts?",
-      "type": "story"
-    },
-    {
-      "by": "sandebert",
-      "descendants": 0,
-      "id": 31282109,
-      "score": 1,
-      "time": 1651820073,
-      "title": "Spaces in passwords – good or bad idea?",
-      "type": "story",
-      "url": "https://www.infosecmatter.com/spaces-in-passwords-good-or-a-bad-idea/"
-    },
-    {
-      "by": "sahin",
-      "descendants": 0,
-      "id": 31282103,
-      "score": 2,
-      "time": 1651820030,
-      "title": "Head of FDA Says Misinformation Is Now the Leading Cause of Death",
-      "type": "story",
-      "url": "https://futurism.com/neoscope/fda-head-misinformation-leading-cause-death-covid-pandemic"
     }
   ]
 }
