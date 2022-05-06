@@ -1,10 +1,33 @@
 {
   "stories": [
     {
-      "by": "todsacerdoti",
+      "by": "CrankyBear",
       "descendants": 0,
-      "id": 31290072,
+      "id": 31290098,
       "score": 1,
+      "time": 1651875114,
+      "title": "Kubernetes Adopts Sigstore for Supply Chain Security",
+      "type": "story",
+      "url": "https://thenewstack.io/kubernetes-adopts-sigstore-for-supply-chain-security/"
+    },
+    {
+      "by": "lisper",
+      "descendants": 0,
+      "id": 31290097,
+      "score": 1,
+      "time": 1651875110,
+      "title": "Skiing Mt. Everest",
+      "type": "story",
+      "url": "https://www.smithsonianmag.com/history/the-godfather-of-extreme-skiing-7744831/"
+    },
+    {
+      "by": "todsacerdoti",
+      "descendants": 1,
+      "id": 31290072,
+      "kids": [
+        31290103
+      ],
+      "score": 2,
       "time": 1651874895,
       "title": "Top Best Programming Languages",
       "type": "story",
@@ -22,8 +45,13 @@
     },
     {
       "by": "dane-pgp",
-      "descendants": 0,
+      "descendants": 3,
       "id": 31290056,
+      "kids": [
+        31290093,
+        31290101,
+        31290096
+      ],
       "parts": [
         31290057,
         31290058,
@@ -85,27 +113,6 @@
       "title": "Zag: UI components powered by Finite State Machines",
       "type": "story",
       "url": "https://zagjs.com"
-    },
-    {
-      "by": "tr1ll10nb1ll",
-      "descendants": 0,
-      "id": 31289990,
-      "score": 1,
-      "text": "This is a work in progress.<p>At ConnectDome, we host our blog using Notion and Next.js on Vercel (to have a custom domain without paying a premium for it).<p>And, instead of manually notifying users of a new blog, we decided to build a simple service using Rust to notify everyone on our Discord whenever there&#x27;s a new blog.<p>Plus, since we would be sending emails only to our users (there&#x27;s no direct way to subscribe to the blog apart from being invited to our platform. hence, only users), we realized we could just couple the email mechanism in the same service as well.<p>We are still working on the &quot;email&quot; part (using SendGrid for it since it offers startup credits). This should be done in a couple of days tho.<p>Overall, this is an open-source and a free modifiable service if you run a self-hosted blog (or render Notion on your own front-end and self-host it) and want to notify your Discord server and&#x2F;or email list (initially we&#x27;d be supporting SendGrid but you can change it).",
-      "time": 1651874367,
-      "title": "Show HN: Rust-Notify – Announce blogs and send emails",
-      "type": "story",
-      "url": "https://github.com/ConnectDome/rust-notify"
-    },
-    {
-      "by": "tysone",
-      "descendants": 0,
-      "id": 31289980,
-      "score": 2,
-      "time": 1651874254,
-      "title": "Elon Musk’s Big Plans for Twitter",
-      "type": "story",
-      "url": "https://www.nytimes.com/2022/05/06/technology/elon-musk-twitter-pitch-deck.html"
     }
   ]
 }
