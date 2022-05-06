@@ -1,6 +1,67 @@
 {
   "stories": [
     {
+      "by": "tr1ll10nb1ll",
+      "descendants": 0,
+      "id": 31289990,
+      "score": 1,
+      "text": "This is a work in progress.<p>At ConnectDome, we host our blog using Notion and Next.js on Vercel (to have a custom domain without paying a premium for it).<p>And, instead of manually notifying users of a new blog, we decided to build a simple service using Rust to notify everyone on our Discord whenever there&#x27;s a new blog.<p>Plus, since we would be sending emails only to our users (there&#x27;s no direct way to subscribe to the blog apart from being invited to our platform. hence, only users), we realized we could just couple the email mechanism in the same service as well.<p>We are still working on the &quot;email&quot; part (using SendGrid for it since it offers startup credits). This should be done in a couple of days tho.<p>Overall, this is an open-source and a free modifiable service if you run a self-hosted blog (or render Notion on your own front-end and self-host it) and want to notify your Discord server and&#x2F;or email list (initially we&#x27;d be supporting SendGrid but you can change it).",
+      "time": 1651874367,
+      "title": "Show HN: Rust-Notify – Announce blogs and send emails",
+      "type": "story",
+      "url": "https://github.com/ConnectDome/rust-notify"
+    },
+    {
+      "by": "tysone",
+      "descendants": 0,
+      "id": 31289980,
+      "score": 2,
+      "time": 1651874254,
+      "title": "Elon Musk’s Big Plans for Twitter",
+      "type": "story",
+      "url": "https://www.nytimes.com/2022/05/06/technology/elon-musk-twitter-pitch-deck.html"
+    },
+    {
+      "by": "paulpauper",
+      "descendants": 0,
+      "id": 31289976,
+      "score": 1,
+      "time": 1651874214,
+      "title": "Five books to understand U.S. unrest",
+      "type": "story",
+      "url": "https://noahpinion.substack.com/p/five-books-to-understand-us-unrest"
+    },
+    {
+      "by": "rsfern",
+      "descendants": 0,
+      "id": 31289970,
+      "score": 1,
+      "time": 1651874164,
+      "title": "Neurolibre: A preprint server for reproducible data analyses",
+      "type": "story",
+      "url": "https://www.neurolibre.org/"
+    },
+    {
+      "by": "vital303",
+      "descendants": 0,
+      "id": 31289967,
+      "score": 2,
+      "time": 1651874131,
+      "title": "Jax-CFD: Computational Fluid Dynamics in Jax",
+      "type": "story",
+      "url": "https://github.com/google/jax-cfd"
+    },
+    {
+      "by": "korbiniak",
+      "descendants": 0,
+      "id": 31289963,
+      "score": 1,
+      "time": 1651874115,
+      "title": "Why I’ve spent my Easter break customizing Neovim",
+      "type": "story",
+      "url": "https://framal.xyz/why-ive-spent-my-easter-break-customizing-neovim/"
+    },
+    {
       "by": "sebmellen",
       "descendants": 0,
       "id": 31289952,
@@ -38,66 +99,6 @@
       "title": "Russian Armor Losses Validate Marines’ Decision to Dump Their Tanks Says General",
       "type": "story",
       "url": "https://www.thedrive.com/the-war-zone/russian-armor-losses-validate-marines-decision-to-dump-their-tanks-says-general"
-    },
-    {
-      "by": "rcarmo",
-      "descendants": 0,
-      "id": 31289874,
-      "score": 2,
-      "time": 1651873269,
-      "title": "Hardware Is Harder",
-      "type": "story",
-      "url": "https://taoofmac.com/space/blog/2022/05/06/2100"
-    },
-    {
-      "by": "hhs",
-      "descendants": 0,
-      "id": 31289869,
-      "score": 1,
-      "time": 1651873247,
-      "title": "Elon Musk denies claim Trump ‘encouraged’ him to buy Twitter: ‘This is false’",
-      "type": "story",
-      "url": "https://nypost.com/2022/05/06/elon-musk-denies-claim-trump-encouraged-him-to-buy-twitter-this-is-false/"
-    },
-    {
-      "by": "bewalt",
-      "descendants": 0,
-      "id": 31289868,
-      "score": 1,
-      "time": 1651873242,
-      "title": "Apple, Google, and Microsoft team up for new password-free technology",
-      "type": "story",
-      "url": "https://www.popsci.com/technology/apple-google-microsoft-passwordless-signin/"
-    },
-    {
-      "by": "Trouble_007",
-      "descendants": 0,
-      "id": 31289861,
-      "score": 1,
-      "time": 1651873182,
-      "title": "What is the simplest malware in the world?",
-      "type": "story",
-      "url": "https://isc.sans.edu/forums/diary/What+is+the+simplest+malware+in+the+world/28620"
-    },
-    {
-      "by": "bewalt",
-      "descendants": 0,
-      "id": 31289854,
-      "score": 2,
-      "time": 1651873110,
-      "title": "Sun-like star found in the region of the sky that has most radio signals",
-      "type": "story",
-      "url": "https://www.cambridge.org/core/journals/international-journal-of-astrobiology/article/an-approximation-to-determine-the-source-of-the-wow-signal/4C58B6292C73FE8BF04A06C67BAA5B1A"
-    },
-    {
-      "by": "swatson741",
-      "descendants": 0,
-      "id": 31289847,
-      "score": 1,
-      "time": 1651873071,
-      "title": "Roll A Lisp In C – Reading (2020)",
-      "type": "story",
-      "url": "https://swatson555.github.io/posts/2020-01-18-make-a-lisp-1.html"
     }
   ]
 }
