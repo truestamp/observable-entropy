@@ -1,6 +1,36 @@
 {
   "stories": [
     {
+      "by": "brundolf",
+      "descendants": 0,
+      "id": 31299715,
+      "score": 1,
+      "text": "Example from Mithril.js:<p><pre><code>  m(&quot;main&quot;, [\n    m(&quot;h1&quot;, {class: &quot;title&quot;}, &quot;My first app&quot;),\n    m(&quot;button&quot;, &quot;A button&quot;),\n  ])\n</code></pre>\nReact does the same (after the JSX is compiled), and I&#x27;m not aware of any that <i>don&#x27;t</i> just use plain object data:<p><pre><code>  {\n    tag: &quot;main&quot;,\n    children: [\n      { tag: &quot;h1&quot;, attributes: { class: &quot;title&quot; }, children: [ &quot;My first app&quot; ] },\n      { tag: &quot;button&quot;, children: [ &quot;A button&quot; ] }\n    ]\n  }\n</code></pre>\nIs it just ergonomics, or is there some deeper reason I&#x27;m missing?",
+      "time": 1651966802,
+      "title": "Ask HN: Why do VDOM implementations always use function calls instead of data?",
+      "type": "story"
+    },
+    {
+      "by": "rmatt2000",
+      "descendants": 0,
+      "id": 31299707,
+      "score": 1,
+      "time": 1651966703,
+      "title": "Sorry iPhone Fans, Android Users Are Safer Drivers",
+      "type": "story",
+      "url": "https://getjerry.com/studies/sorry-iphone-fans-android-users-are-safer-drivers"
+    },
+    {
+      "by": "quyleanh",
+      "descendants": 0,
+      "id": 31299701,
+      "score": 1,
+      "time": 1651966674,
+      "title": "Play Fortnite on iOS, iPadOS with Xbox Cloud Gaming for Fre",
+      "type": "story",
+      "url": "https://news.xbox.com/en-us/2022/05/05/play-fortnite-with-xbox-cloud-gaming-for-free/"
+    },
+    {
       "by": "Lammy",
       "descendants": 1,
       "id": 31299668,
@@ -27,7 +57,7 @@
       "by": "keewee7",
       "descendants": 0,
       "id": 31299651,
-      "score": 1,
+      "score": 2,
       "time": 1651966197,
       "title": "Ukrainians are being sent to remote parts of Russia",
       "type": "story",
@@ -37,7 +67,7 @@
       "by": "t23",
       "descendants": 0,
       "id": 31299641,
-      "score": 1,
+      "score": 2,
       "time": 1651966124,
       "title": "California Targets Loud Exhaust with Sound Activated Cameras",
       "type": "story",
@@ -75,36 +105,6 @@
       "title": "Ethereum proof-of-stake: Dominant DeFi platform (Lido) a potential threat",
       "type": "story",
       "url": "https://fortune.com/2022/04/21/ethereum-merge-threat-lido-finance-proof-of-stake-dominant-defi-platform/"
-    },
-    {
-      "by": "RafelMri",
-      "descendants": 0,
-      "id": 31299440,
-      "score": 1,
-      "time": 1651964458,
-      "title": "Learning Locomotion Skills Safely in the Real World",
-      "type": "story",
-      "url": "https://ai.googleblog.com/2022/05/learning-locomotion-skills-safely-in.html"
-    },
-    {
-      "by": "HelloWolderX",
-      "descendants": 0,
-      "id": 31299435,
-      "score": 1,
-      "time": 1651964432,
-      "title": "Actionable SEO Tips from Industry Leaders",
-      "type": "story",
-      "url": "https://bloginbox.com/10-actionable-seo-tips-from-industry-leaders/"
-    },
-    {
-      "by": "mrtedbear",
-      "descendants": 0,
-      "id": 31299426,
-      "score": 1,
-      "time": 1651964353,
-      "title": "Steve Jobs on Consulting",
-      "type": "story",
-      "url": "https://www.youtube.com/watch?v=-c4CNB80SRc"
     }
   ]
 }
