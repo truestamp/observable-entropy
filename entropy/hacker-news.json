@@ -1,5 +1,36 @@
 {
   "stories": [
+    null,
+    {
+      "by": "pseudolus",
+      "descendants": 0,
+      "id": 31298899,
+      "score": 1,
+      "time": 1651960021,
+      "title": "Robots Are Writing Poetry, and Many People Can’t Tell the Difference",
+      "type": "story",
+      "url": "https://thewalrus.ca/ai-poetry/"
+    },
+    {
+      "by": "ohjeez",
+      "descendants": 0,
+      "id": 31298893,
+      "score": 1,
+      "time": 1651959977,
+      "title": "Concert Archives – Remember all the concerts you've seen",
+      "type": "story",
+      "url": "https://www.concertarchives.org/"
+    },
+    {
+      "by": "bryanrasmussen",
+      "descendants": 0,
+      "id": 31298890,
+      "score": 1,
+      "time": 1651959936,
+      "title": "Lost Orson Welles ‘Socrates and Noah’ Film Surfaces",
+      "type": "story",
+      "url": "https://www.wellesnet.com/lost-orson-welles-noah-socrates/"
+    },
     {
       "by": "bookofjoe",
       "descendants": 1,
@@ -7,7 +38,7 @@
       "kids": [
         31298879
       ],
-      "score": 1,
+      "score": 2,
       "time": 1651959834,
       "title": "Mastering the Art of ‘Failing Up’ at Work",
       "type": "story",
@@ -55,56 +86,16 @@
     },
     {
       "by": "lewantmontreal",
-      "descendants": 0,
+      "descendants": 1,
       "id": 31298812,
+      "kids": [
+        31298895
+      ],
       "score": 1,
       "text": "My Macbook Pro order looks to be still months away from shipping and I’ve started to consider the “light laptop as a terminal for a beefy Linux desktop” alternative. If you happen to use such a setup what does it look like and how well has it served your needs? Is there specific VNC software or a Tmux plugin you could not live without?<p>Setups that come to mind for me are<p>1. RDP&#x2F;remote desktop methods. Pros: You can run everything as if using a regular computer. Persistent, all the apps and windows are kept in place and running even if you disconnect. Cons: Additional latency. On my naive xrdp attempt I could not get 4k resolution usable, plus Ubuntu kept asking for my root password for various things every minute.<p>2. VSCode remote SSH. Pros: Low latency and very easy setup. Cons: Only for command line apps and web dev. Cant resume terminal instances after a longer disconnect.<p>3. Remote terminal (ex. SSH&#x2F;Mosh). Pros: Low latency with mosh. App&#x2F;window persistence with Tmux. Cons: Steeper learning curve. Only for command line apps.<p>4. Fully online IDE. Pros: Very easy, similar to VSCode with SSH remote. Cons: Unregular keyboard shortcuts are needed to avoid hitting browser shortcuts. Cost usually scales with hours of use or number of projects.",
       "time": 1651959168,
       "title": "Ask HN: What does your remote desktop setup look like?",
       "type": "story"
-    },
-    {
-      "by": "andrenth",
-      "descendants": 0,
-      "id": 31298798,
-      "score": 2,
-      "time": 1651959013,
-      "title": "There Is No Liberal West (2021)",
-      "type": "story",
-      "url": "https://theupheaval.substack.com/p/there-is-no-liberal-west"
-    },
-    {
-      "by": "thedday",
-      "descendants": 0,
-      "id": 31298781,
-      "score": 1,
-      "time": 1651958934,
-      "title": "Rechargeable Molten Salt Battery Freezes Energy in Place for Long-Term Storage",
-      "type": "story",
-      "url": "https://www.scientificamerican.com/article/rechargeable-molten-salt-battery-freezes-energy-in-place-for-long-term-storage/"
-    },
-    {
-      "by": "jseliger",
-      "descendants": 0,
-      "id": 31298749,
-      "score": 1,
-      "time": 1651958697,
-      "title": "Grid Scale Energy Storage Deployment by Technology Type",
-      "type": "story",
-      "url": "https://sarahconstantin.substack.com/p/grid-scale-energy-storage-deployment"
-    },
-    {
-      "by": "atum47",
-      "descendants": 1,
-      "id": 31298737,
-      "kids": [
-        31298739
-      ],
-      "score": 1,
-      "time": 1651958592,
-      "title": "Show HN: Using Wave Function Collapse to create a 2D map",
-      "type": "story",
-      "url": "https://github.com/victorqribeiro/simpleWFC"
     }
   ]
 }
