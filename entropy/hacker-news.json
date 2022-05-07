@@ -1,6 +1,16 @@
 {
   "stories": [
     {
+      "by": "Rygian",
+      "descendants": 0,
+      "id": 31293093,
+      "score": 1,
+      "text": "After participating in a few past discussions in HN, I have noticed many comments whose main argument is developed upon one or several of the following misconceptions. Disclaimer: I am an EU citizen.<p>Misconception: &quot;The browser decides to send cookies.&quot; Wrong: A browser, or user-agent in general, will never invent a cookie out of thin air, and therefore it never sends a cookie unless it has been set by the webserver beforehand (either with an HTTP header &#x27;Cookie&#x27; or with JavaScript code). [1]<p>Misconception: &quot;Consent forms are mandatory for all cookies.&quot; Wrong: Cookies that are essential for the proper functioning of the website (e.g. supporting a login session) do not need any consent form, and can be set silently. [2]<p>Misconception: &quot;Consent forms are mandatory _just_ for cookies.&quot; Wrong: User consent must be obtained for any kind of processing of the user&#x27;s personal information (where no other lawful basis exists for the processing), no matter what technical solution achieves that processing. Example: A tracking pixel needs the same consent form as a tracking cookie. [3]<p>Misconception: &quot;By browsing this site, you implicitly accept tracking cookies.&quot; Wrong: Consent must be opt-in, informed, freely given. If it&#x27;s not freely given, it is not consent. Also, the user must be able to revoke consent just as easily as consent was given. [3]<p>Misconception: &quot;If a user doesn&#x27;t like cookies, they can just disable them in their browser.&quot; Wrong: Some cookies may be essential for proper functioning of websites. Browsers cannot technically propose any means to disable only non-essential cookies, that&#x27;s outright impossible. The only entity capable of deciding if a cookie is essential or not is the website that sets the cookie. [2]<p>Misconception: &quot;Marketing or tracking cookies can be disabled: just disallow third-party cookies.&quot; Wrong: marketing or tracking cookies can also be set by the first-party, ie. the website being visited. Example: Google Analytics. [4]<p>Misconception: &quot;Cookies are morally justified because the webmaster has to cover the cost of running the website.&quot; I disagree: that reasoning is only valid for not-for-profit websites. If the webmaster struggles to cover the cost of running the website and cannot find a legitimate source of income, they are welcome to shut it down. No website is entitled to make money off of non-consenting visitors. &quot;Staying afloat&quot; is not a right of the webmaster, it is a privilege.<p>Cheers!<p>[1] https:&#x2F;&#x2F;developer.mozilla.org&#x2F;en-US&#x2F;docs&#x2F;Web&#x2F;HTTP&#x2F;Cookies<p>[2] https:&#x2F;&#x2F;www.cookieyes.com&#x2F;blog&#x2F;cookie-consent-exemption-for-strictly-necessary-cookies&#x2F;<p>[3] https:&#x2F;&#x2F;blog.chino.io&#x2F;gdpr-compliant-consent-tracking&#x2F;<p>[4] https:&#x2F;&#x2F;www.optimizesmart.com&#x2F;google-analytics-cookies-ultimate-guide&#x2F;",
+      "time": 1651913885,
+      "title": "Tell HN: Common Misconceptions About Cookies and Consent",
+      "type": "story"
+    },
+    {
       "by": "Tomte",
       "descendants": 0,
       "id": 31293076,
@@ -14,7 +24,7 @@
       "by": "Tomte",
       "descendants": 0,
       "id": 31293073,
-      "score": 1,
+      "score": 2,
       "time": 1651913416,
       "title": "PR∞fWiki is an online compendium of mathematical proofs",
       "type": "story",
@@ -74,7 +84,7 @@
       "by": "pabs3",
       "descendants": 0,
       "id": 31293032,
-      "score": 2,
+      "score": 4,
       "time": 1651912674,
       "title": "Unix command line conventions over time",
       "type": "story",
@@ -89,16 +99,6 @@
       "title": "Steps to Organizational Change Without the Drama",
       "type": "story",
       "url": "https://medium.com/glia-tech/four-steps-to-organizational-change-without-the-drama-4790fd6b8c72"
-    },
-    {
-      "by": "ejASIM",
-      "descendants": 0,
-      "id": 31292998,
-      "score": 1,
-      "text": "i need the shortcut on google chrome where can i search on any website",
-      "time": 1651911993,
-      "title": "Shortcut Search on Any Website",
-      "type": "story"
     }
   ]
 }
