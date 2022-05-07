@@ -1,11 +1,31 @@
 {
   "stories": [
     {
+      "by": "moneycantbuy",
+      "descendants": 0,
+      "id": 31299740,
+      "score": 1,
+      "time": 1651967041,
+      "title": "Hundreds of MacBook Pro workers break through Covid barriers, battle guards",
+      "type": "story",
+      "url": "https://9to5mac.com/2022/05/06/hundreds-of-macbook-pro-workers-covid-barriers/"
+    },
+    {
+      "by": "ibobev",
+      "descendants": 0,
+      "id": 31299716,
+      "score": 1,
+      "time": 1651966816,
+      "title": "Web Development for Beginners – A Curriculum",
+      "type": "story",
+      "url": "https://github.com/microsoft/Web-Dev-For-Beginners"
+    },
+    {
       "by": "brundolf",
       "descendants": 0,
       "id": 31299715,
       "score": 1,
-      "text": "Example from Mithril.js:<p><pre><code>  m(&quot;main&quot;, [\n    m(&quot;h1&quot;, {class: &quot;title&quot;}, &quot;My first app&quot;),\n    m(&quot;button&quot;, &quot;A button&quot;),\n  ])\n</code></pre>\nReact does the same (after the JSX is compiled), and I&#x27;m not aware of any that <i>don&#x27;t</i> just use plain object data:<p><pre><code>  {\n    tag: &quot;main&quot;,\n    children: [\n      { tag: &quot;h1&quot;, attributes: { class: &quot;title&quot; }, children: [ &quot;My first app&quot; ] },\n      { tag: &quot;button&quot;, children: [ &quot;A button&quot; ] }\n    ]\n  }\n</code></pre>\nIs it just ergonomics, or is there some deeper reason I&#x27;m missing?",
+      "text": "Example from Mithril.js:<p><pre><code>  m(&quot;main&quot;, [\n    m(&quot;h1&quot;, {class: &quot;title&quot;}, &quot;My first app&quot;),\n    m(&quot;button&quot;, &quot;A button&quot;),\n  ])\n</code></pre>\nReact does the same (after the JSX is compiled), and I&#x27;m not aware of any that <i>don&#x27;t</i> use function calls, vs just plain object data:<p><pre><code>  {\n    tag: &quot;main&quot;,\n    children: [\n      { tag: &quot;h1&quot;, attributes: { class: &quot;title&quot; }, children: [ &quot;My first app&quot; ] },\n      { tag: &quot;button&quot;, children: [ &quot;A button&quot; ] }\n    ]\n  }\n</code></pre>\nIs it just for brevity, or is there some deeper reason I&#x27;m missing?",
       "time": 1651966802,
       "title": "Ask HN: Why do VDOM implementations always use function calls instead of data?",
       "type": "story"
@@ -85,26 +105,6 @@
       "title": "Consumer debt soared by $52M in March",
       "type": "story",
       "url": "https://www.cnn.com/2022/05/06/economy/consumer-credit-debt-march/index.html"
-    },
-    {
-      "by": "johntfella",
-      "descendants": 0,
-      "id": 31299529,
-      "score": 1,
-      "time": 1651965107,
-      "title": "The Ethical Skeptic’s Razor – The Antiwisdom of Crowds",
-      "type": "story",
-      "url": "https://theethicalskeptic.com/2022/05/07/the-ethical-skeptics-razor-the-antiwisdom-of-crowds/"
-    },
-    {
-      "by": "lmc",
-      "descendants": 0,
-      "id": 31299520,
-      "score": 1,
-      "time": 1651965011,
-      "title": "Ethereum proof-of-stake: Dominant DeFi platform (Lido) a potential threat",
-      "type": "story",
-      "url": "https://fortune.com/2022/04/21/ethereum-merge-threat-lido-finance-proof-of-stake-dominant-defi-platform/"
     }
   ]
 }
