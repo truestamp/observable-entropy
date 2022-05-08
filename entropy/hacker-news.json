@@ -1,14 +1,27 @@
 {
   "stories": [
     {
-      "by": "aabbcc1241",
+      "by": "walterbell",
       "descendants": 0,
-      "id": 31308878,
+      "id": 31308899,
       "score": 1,
-      "text": "This is a demo application implemented with ts-liveview [1]. It calls the HN APIs from a node.js server, then responses contentful HTML without further ajax calls.<p>ts-liveview adopts progressive enhancement. It works as MPA without javascript; when javascript and websocket are enabled, it upgrades to &quot;SSR-SPA&quot; mode. In the SPA mode, client-events are sent to the server via websocket. The server then derive DOM update instructions and send to the client(s) over ws.<p>In addition, since the DOM is controlled from the server, it is relative trivial to update multiple clients.<p>This approach enable interactive webapp with minimal javascript bundles to be downloaded, parsed, and executed on the client device. Since the core logic runs on the server, we can use 3rd libraries or organize the webapp as a single root top-down structure without bloating the client.<p>The demo is hosted on a rather slow VPS so it may not loads quickly. Welcome any feedback :)<p>[1] https:&#x2F;&#x2F;hn.liveviews.cc",
-      "time": 1652051354,
+      "time": 1652051650,
+      "title": "How to help someone use a computer (1996)",
+      "type": "story",
+      "url": "https://pages.gseis.ucla.edu/faculty/agre/how-to-help.html"
+    },
+    {
+      "by": "aabbcc1241",
+      "descendants": 1,
+      "id": 31308882,
+      "kids": [
+        31308883
+      ],
+      "score": 1,
+      "time": 1652051437,
       "title": "Show HN: Hacker News Reader using ts-liveview",
-      "type": "story"
+      "type": "story",
+      "url": "https://hn.liveviews.cc"
     },
     {
       "by": "walterbell",
@@ -77,7 +90,7 @@
       "by": "Trouble_007",
       "descendants": 0,
       "id": 31308771,
-      "score": 1,
+      "score": 2,
       "time": 1652050137,
       "title": "We’re not prepared for the end of Moore’s Law (2020)",
       "type": "story",
@@ -92,19 +105,6 @@
       "title": "Damn Small Linux",
       "type": "story",
       "url": "http://www.damnsmalllinux.org/"
-    },
-    {
-      "by": "lando2319",
-      "descendants": 2,
-      "id": 31308721,
-      "kids": [
-        31308841
-      ],
-      "score": 3,
-      "time": 1652049540,
-      "title": "Forget personalisation, it’s impossible and it doesn’t work",
-      "type": "story",
-      "url": "https://www.marketingweek.com/peter-weinberg-jon-lombardo-personalisation-impersonalisation/"
     }
   ]
 }
