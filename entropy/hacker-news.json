@@ -1,6 +1,56 @@
 {
   "stories": [
     {
+      "by": "__Oblivion__",
+      "descendants": 0,
+      "id": 31299841,
+      "score": 1,
+      "time": 1651968201,
+      "title": "New Assembly Like Programming Language?",
+      "type": "story",
+      "url": "https://github.com/wellang/well"
+    },
+    {
+      "by": "wingmanjd",
+      "descendants": 0,
+      "id": 31299836,
+      "score": 1,
+      "text": "$DAYJOB needed to migrate from JIRA to Gitlab due to business reasons (not related to the recent outage), so I wrote this issue migration tool [1] to help us preserve our historical data.  This tool will copy issues from various JIRA projects to mirrored Gitlab projects (e.g. A jira project named JIRA-PROJECT1 will have its issues migrated to a gitlab project GL-PROJECT1).  The tool also migrates issue comments to Gitlab notes and will recreate the existing issue links.<p>YMMV, but this is working well for us. Comments welcomed.<p>1: https:&#x2F;&#x2F;gitlab.com&#x2F;jeremygonyea&#x2F;jira-to-gitlab-miigration-tool",
+      "time": 1651968106,
+      "title": "Show HN: Jira to Gitlab Issue Migration Tool",
+      "type": "story"
+    },
+    {
+      "by": "MilnerRoute",
+      "descendants": 0,
+      "id": 31299834,
+      "score": 1,
+      "time": 1651968077,
+      "title": "Agile and the Long Crisis of Software",
+      "type": "story",
+      "url": "https://logicmag.io/clouds/agile-and-the-long-crisis-of-software/"
+    },
+    {
+      "by": "maydemir",
+      "descendants": 0,
+      "id": 31299829,
+      "score": 1,
+      "time": 1651968024,
+      "title": "Greatexpectations – Always know what to expect from your data",
+      "type": "story",
+      "url": "https://github.com/great-expectations/great_expectations"
+    },
+    {
+      "by": "pmoriarty",
+      "descendants": 0,
+      "id": 31299826,
+      "score": 1,
+      "time": 1651968002,
+      "title": "Editors publishing in their own journals",
+      "type": "story",
+      "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/leap.1449"
+    },
+    {
       "by": "protomyth",
       "descendants": 0,
       "id": 31299810,
@@ -44,64 +94,11 @@
       "by": "moneycantbuy",
       "descendants": 0,
       "id": 31299740,
-      "score": 5,
+      "score": 6,
       "time": 1651967041,
       "title": "Hundreds of MacBook Pro workers break through Covid barriers, battle guards",
       "type": "story",
       "url": "https://9to5mac.com/2022/05/06/hundreds-of-macbook-pro-workers-covid-barriers/"
-    },
-    {
-      "by": "ibobev",
-      "descendants": 0,
-      "id": 31299716,
-      "score": 2,
-      "time": 1651966816,
-      "title": "Web Development for Beginners – A Curriculum",
-      "type": "story",
-      "url": "https://github.com/microsoft/Web-Dev-For-Beginners"
-    },
-    {
-      "by": "brundolf",
-      "descendants": 0,
-      "id": 31299715,
-      "score": 1,
-      "text": "Example from Mithril.js:<p><pre><code>  m(&quot;main&quot;, [\n    m(&quot;h1&quot;, {class: &quot;title&quot;}, &quot;My first app&quot;),\n    m(&quot;button&quot;, &quot;A button&quot;),\n  ])\n</code></pre>\nReact does the same (after the JSX is compiled), and I&#x27;m not aware of any that <i>don&#x27;t</i> use function calls, vs just plain object data:<p><pre><code>  {\n    tag: &quot;main&quot;,\n    children: [\n      { tag: &quot;h1&quot;, attributes: { class: &quot;title&quot; }, children: [ &quot;My first app&quot; ] },\n      { tag: &quot;button&quot;, children: [ &quot;A button&quot; ] }\n    ]\n  }\n</code></pre>\nIs it just for brevity, or is there some deeper reason I&#x27;m missing?",
-      "time": 1651966802,
-      "title": "Ask HN: Why do VDOM implementations always use function calls instead of data?",
-      "type": "story"
-    },
-    {
-      "by": "rmatt2000",
-      "descendants": 0,
-      "id": 31299707,
-      "score": 2,
-      "time": 1651966703,
-      "title": "Sorry iPhone Fans, Android Users Are Safer Drivers",
-      "type": "story",
-      "url": "https://getjerry.com/studies/sorry-iphone-fans-android-users-are-safer-drivers"
-    },
-    {
-      "by": "quyleanh",
-      "descendants": 0,
-      "id": 31299701,
-      "score": 1,
-      "time": 1651966674,
-      "title": "Play Fortnite on iOS, iPadOS with Xbox Cloud Gaming for Fre",
-      "type": "story",
-      "url": "https://news.xbox.com/en-us/2022/05/05/play-fortnite-with-xbox-cloud-gaming-for-free/"
-    },
-    {
-      "by": "Lammy",
-      "descendants": 1,
-      "id": 31299668,
-      "kids": [
-        31299673
-      ],
-      "score": 1,
-      "time": 1651966341,
-      "title": "CPU Wars (1980)",
-      "type": "story",
-      "url": "https://web.archive.org/web/20010427084401/http://e-pix.com/CPUWARS/index.html"
     }
   ]
 }
