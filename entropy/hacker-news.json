@@ -1,6 +1,36 @@
 {
   "stories": [
     {
+      "by": "iamricks",
+      "descendants": 0,
+      "id": 31313374,
+      "score": 1,
+      "text": "I work at a very small company and our products are not used by a lot of users. Our stack is very simple: Rails&#x2F;Heroku&#x2F;Redis&#x2F;Postgres<p>I spend time reading about larger scale systems and watching talks about how big companies have scaled their products and the challenges they face and its given me a general understanding about some scaling techniques.<p>Is there some way i can try to implement some of these things and test to make sure that the way i implemented it works without having to spend a bunch of money?<p>For example if i want to try making a distributed cache, test sharding a database, create a messaging queue and test it, how can i do this?",
+      "time": 1652100221,
+      "title": "Ask HN: How can I learn to build distributed systems?",
+      "type": "story"
+    },
+    {
+      "by": "thorin",
+      "descendants": 0,
+      "id": 31313366,
+      "score": 1,
+      "time": 1652100167,
+      "title": "eBay Architecture Evolution [pdf]",
+      "type": "story",
+      "url": "https://web.archive.org/web/20070104021557/http://www.addsimplicity.com/downloads/eBaySDForum2006-11-29.pdf"
+    },
+    {
+      "by": "rbanffy",
+      "descendants": 0,
+      "id": 31313364,
+      "score": 1,
+      "time": 1652100143,
+      "title": "HP Distributed Smalltalk [pdf]",
+      "type": "story",
+      "url": "https://www.hpl.hp.com/hpjournal/95apr/apr95a11.pdf"
+    },
+    {
       "by": "Anon84",
       "descendants": 0,
       "id": 31313306,
@@ -12,9 +42,12 @@
     },
     {
       "by": "softwarefreedom",
-      "descendants": 0,
+      "descendants": 1,
       "id": 31313292,
-      "score": 3,
+      "kids": [
+        31313365
+      ],
+      "score": 6,
       "time": 1652099520,
       "title": "Forcing citizens through Google/Apple for online identity verification",
       "type": "story",
@@ -69,39 +102,6 @@
       "title": "Generated Columns in SQLite",
       "type": "story",
       "url": "https://antonz.org/generated-columns/"
-    },
-    {
-      "by": "mrmattyboy",
-      "descendants": 1,
-      "id": 31313217,
-      "kids": [
-        31313298
-      ],
-      "score": 2,
-      "time": 1652098951,
-      "title": "Show HN: Open-source Terraform module registry",
-      "type": "story",
-      "url": "https://github.com/MatthewJohn/terrareg"
-    },
-    {
-      "by": "tosh",
-      "descendants": 0,
-      "id": 31313211,
-      "score": 1,
-      "time": 1652098884,
-      "title": "Makers and creators: guest edited by Jony Ive",
-      "type": "story",
-      "url": "https://www.ft.com/content/01ce4d84-d7bd-4bd0-b04a-bc009a4d37a5"
-    },
-    {
-      "by": "yenkel",
-      "descendants": 0,
-      "id": 31313202,
-      "score": 1,
-      "time": 1652098806,
-      "title": "Bridging Web 2 and Web 3: an identity perspective",
-      "type": "story",
-      "url": "https://yenkel.dev/posts/bridging-web-2-and-web-3-an-identity-perspective"
     }
   ]
 }
