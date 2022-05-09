@@ -1,6 +1,46 @@
 {
   "stories": [
     {
+      "by": "footest",
+      "descendants": 0,
+      "id": 31318809,
+      "score": 2,
+      "time": 1652125475,
+      "title": "Exgrasia: RPG-style sandbox game where every tile is a player-made contract",
+      "type": "story",
+      "url": "https://twitter.com/exgrasia/status/1523727062896300034"
+    },
+    {
+      "by": "rustoo",
+      "descendants": 0,
+      "id": 31318800,
+      "score": 1,
+      "time": 1652125418,
+      "title": "Coal shortage and heatwave spark India's power woes",
+      "type": "story",
+      "url": "https://www.bbc.com/news/world-asia-india-61330302"
+    },
+    {
+      "by": "DemiGuru",
+      "descendants": 0,
+      "id": 31318801,
+      "score": 1,
+      "time": 1652125418,
+      "title": "Cognitive impairment from severe Covid-19 equivalent to 20 years of aging",
+      "type": "story",
+      "url": "https://www.sciencedaily.com/releases/2022/05/220503083108.htm"
+    },
+    {
+      "by": "viburnum",
+      "descendants": 0,
+      "id": 31318765,
+      "score": 1,
+      "time": 1652125210,
+      "title": "The Physical Capacity Shortage View of Inflation",
+      "type": "story",
+      "url": "https://www.employamerica.org/researchreports/the-physical-capacity-shortage-view-of-inflation/"
+    },
+    {
       "by": "perihelions",
       "descendants": 0,
       "id": 31318758,
@@ -12,9 +52,12 @@
     },
     {
       "by": "ArneVogel",
-      "descendants": 0,
+      "descendants": 1,
       "id": 31318754,
-      "score": 1,
+      "kids": [
+        31318797
+      ],
+      "score": 2,
       "time": 1652125156,
       "title": "The (hidden?) cost of waiting for the dip: When Buying the Dip Doesn’t Work",
       "type": "story",
@@ -62,46 +105,6 @@
       "title": "Who are localization managers, role in business, how to become one",
       "type": "story",
       "url": "https://localizely.com/blog/localization-manager-understanding-the-role/"
-    },
-    {
-      "by": "dpeck",
-      "descendants": 0,
-      "id": 31318708,
-      "score": 4,
-      "time": 1652124941,
-      "title": "Fly.io Buys Litestream",
-      "type": "story",
-      "url": "https://fly.io/blog/all-in-on-sqlite-litestream/"
-    },
-    {
-      "by": "gennarro",
-      "descendants": 0,
-      "id": 31318701,
-      "score": 2,
-      "time": 1652124914,
-      "title": "Americans Die in Mysterious Circumstances at Bahamas Resort",
-      "type": "story",
-      "url": "https://www.nytimes.com/2022/05/08/world/americas/bahamas-sandals-resort-americans-dead.html"
-    },
-    {
-      "by": "linkdd",
-      "descendants": 0,
-      "id": 31318692,
-      "score": 1,
-      "text": "Hello HN,<p>I&#x27;m currently working on Letlang[0] as a side project, TLDR: this is a general purpose programming language which compiles to Rust.<p>Right now, the repository is not open-source, mainly because I have not chosen a license yet.<p>Most of the time, I release softwares or libraries under the terms of the MIT license, because I do not really care about who can use the code. Sometimes I release them under the terms of the Apache Public License 2.0, when I care about the name but still not about who can use the code.<p>I&#x27;m wondering if this software should be released under the terms of the GPL (2 or 3? i don&#x27;t know), I want to keep things open, included external contributions, so this seems like a good fit.<p>What I&#x27;m not sure about is about the &quot;contamination&quot; of the GPL:<p><pre><code>  - does the templates I use to generate Rust code would &quot;contaminate&quot; the produced code? (I don&#x27;t want to)\n  - does the runtime crate I link statically with the generated Rust code would &quot;contaminate&quot; the final library&#x2F;executable? (I don&#x27;t want to)\n</code></pre>\nIf the answer is yes to the previous questions, then the GPL would be a bad fit. Then, what license should I use?<p>Thank you in advance HN :)<p>[0] - https:&#x2F;&#x2F;letlang.dev",
-      "time": 1652124874,
-      "title": "Ask HN: What OSS license should I choose?",
-      "type": "story"
-    },
-    {
-      "by": "kadenwolff",
-      "descendants": 0,
-      "id": 31318682,
-      "score": 1,
-      "time": 1652124834,
-      "title": "A Bird's Eye View of the ML Field",
-      "type": "story",
-      "url": "https://www.lesswrong.com/posts/AtfQFj8umeyBBkkxa/a-bird-s-eye-view-of-the-ml-field-pragmatic-ai-safety-2"
     }
   ]
 }
