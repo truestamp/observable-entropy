@@ -1,6 +1,79 @@
 {
   "stories": [
     {
+      "by": "peter_d_sherman",
+      "descendants": 0,
+      "id": 31318000,
+      "score": 1,
+      "time": 1652121261,
+      "title": "Tutorial: Building the Simplest Possible Linux System – Rob Landley (2017)",
+      "type": "story",
+      "url": "https://www.youtube.com/watch?v=Sk9TatW9ino"
+    },
+    {
+      "by": "bryanrasmussen",
+      "descendants": 0,
+      "id": 31317994,
+      "score": 1,
+      "time": 1652121230,
+      "title": "The Landmark Environmental Law Inside a NIMBY Firestorm",
+      "type": "story",
+      "url": "https://www.bloomberg.com/tosv2.html?vid=&uuid=92ff19ac-cfc6-11ec-b079-627875634b42&url=L25ld3MvZmVhdHVyZXMvMjAyMi0wNC0yMC90aGUtbGFuZG1hcmstZW52aXJvbm1lbnRhbC1sYXctaW5zaWRlLWEtbmltYnktZmlyZXN0b3Jt"
+    },
+    {
+      "by": "formerly_proven",
+      "descendants": 0,
+      "id": 31317989,
+      "score": 1,
+      "text": "It seems that right now there is no browser that supports h.265&#x2F;HEVC <i>even on hardware that can decode it</i> - &quot;Old Edge&quot; used to, but &quot;New Edge&quot; does not. Neither Chrome nor Firefox support it (actually, both of those refuse to use any form of hardware decoding at all on my Windows box, only Edge uses it for VPx and h.264 - and of course every media player).<p>The only exception is Apple with Safari.<p>Why is this? h.265 can do a lot better than h.264 in some scenarios, but certainly isn&#x27;t worse.<p>And why, oh why, is debugging hardware video acceleration still such a nightmare, even on Windows? Firefox doesn&#x27;t even seem to have it in about:support any more!<p>And why is hardware video acceleration <i>only</i> a problem with browsers? I&#x27;ve never had any kind of problem with it with any media player, regardless of OS. It just works. But browsers - it seems to never work OOTB. Except for Edge, apparently. Which I <i>thought</i> was just a Chromium reskin with MS tracking.",
+      "time": 1652121209,
+      "title": "Ask HN: Why does nobody support h.265/HEVC anymore?",
+      "type": "story"
+    },
+    {
+      "by": "makerofspoons",
+      "descendants": 0,
+      "id": 31317983,
+      "score": 1,
+      "time": 1652121192,
+      "title": "Climate scientists keep hope alive as damage worsens",
+      "type": "story",
+      "url": "https://apnews.com/article/climate-scientists-optimism-d1f2de75f853af68fef4f5a7e3e69071"
+    },
+    {
+      "by": "zamfofex",
+      "descendants": 1,
+      "id": 31317971,
+      "kids": [
+        31317979
+      ],
+      "score": 2,
+      "time": 1652121140,
+      "title": "Show HN: A simple but effective chess engine in JavaScript",
+      "type": "story",
+      "url": "https://lichess.org/@/Dummyette"
+    },
+    {
+      "by": "doppp",
+      "descendants": 0,
+      "id": 31317958,
+      "score": 1,
+      "time": 1652121090,
+      "title": "RealNetworks CEO Rob Glaser makes bid to take company private",
+      "type": "story",
+      "url": "https://www.geekwire.com/2022/facing-nasdaq-delisting-realnetworks-ceo-rob-glaser-makes-bid-to-take-company-private/"
+    },
+    {
+      "by": "rygxqpbsngav",
+      "descendants": 0,
+      "id": 31317944,
+      "score": 1,
+      "time": 1652121028,
+      "title": "Mother Theresa: Was she a saint or sinner?",
+      "type": "story",
+      "url": "https://www.dailymail.co.uk/femail/article-10778723/A-compelling-new-series-claims-darker-Mother-Teresa.html"
+    },
+    {
       "by": "manjana",
       "descendants": 0,
       "id": 31317916,
@@ -32,76 +105,6 @@
       "title": "How a Russian Operator Urged Catalonian Leaders to Break With Madrid",
       "type": "story",
       "url": "https://www.occrp.org/en/investigations/fueling-secession-promising-bitcoins-how-a-russian-operator-urged-catalonian-leaders-to-break-with-madrid"
-    },
-    {
-      "by": "kasabali",
-      "descendants": 0,
-      "id": 31317886,
-      "score": 1,
-      "text": "Users of Waterfox Classic and Pale Moon browsers have been reporting that they&#x27;re stuck in an infinite loop of  Cloudflare&#x27;s  infamous &quot;checking your browser&quot; screen and can&#x27;t access web sites that enabled Cloudflare&#x27;s browser integrity check feature.<p>Ghacks&#x27; post [1] has a good summary of related links and an active discussion at comments section, though the &quot;protection&quot; got more strict in the meantime thus the mentioned workaround isn&#x27;t effective anymore.<p>Some users have posted at Clodflare community forum to no avail and Cloudflare support is only available to paid customers. Visitors are told to contact respective web site owners and forum threads are locked quickly.<p>Let me be clear, this is not a case of a web site owner deciding to use a recent  feature that&#x27;s not supported by these browsers. That&#x27;d between visitors and owners of that web site, and completely understandable.<p>This is a serious issue. A 3rd party corporation is  <i>deliberately</i> deciding which browsers are legitimate and which are not. They prevent users of these browsers from accessing millions of websites with a flip of a switch. There&#x27;s no transparency and no accountability to their actions.<p>I hope this issue will be heard, fixed and never be repeated again.<p>[1] https:&#x2F;&#x2F;www.ghacks.net&#x2F;2022&#x2F;05&#x2F;05&#x2F;fix-pale-moon-browser-not-passing-cloudflares-checking-your-browser-verification&#x2F;<p>Other links:\nhttps:&#x2F;&#x2F;github.com&#x2F;WaterfoxCo&#x2F;Waterfox-Classic&#x2F;issues&#x2F;107",
-      "time": 1652120713,
-      "title": "Tell HN: Cloudflare Is Blocking Firefox Forks Waterfox Classic and Pale Moon",
-      "type": "story"
-    },
-    {
-      "by": "leonry",
-      "descendants": 0,
-      "id": 31317879,
-      "score": 1,
-      "time": 1652120695,
-      "title": "Null Move Pruning",
-      "type": "story",
-      "url": "https://www.chessprogramming.org/Null_Move_Pruning"
-    },
-    {
-      "by": "dushan01",
-      "descendants": 0,
-      "id": 31317876,
-      "score": 1,
-      "time": 1652120683,
-      "title": "Minitest vs. RSpec: which one is better?",
-      "type": "story",
-      "url": "https://netoff.dev/blog/2022-05-09-minitest-vs-rspec-which-one-is-better"
-    },
-    {
-      "by": "atg_abhishek",
-      "descendants": 0,
-      "id": 31317859,
-      "score": 1,
-      "time": 1652120612,
-      "title": "Evolution of ML Fact Store",
-      "type": "story",
-      "url": "https://netflixtechblog.com/evolution-of-ml-fact-store-5941d3231762?gi=accfcdf84b58"
-    },
-    {
-      "by": "atg_abhishek",
-      "descendants": 0,
-      "id": 31317838,
-      "score": 1,
-      "time": 1652120536,
-      "title": "Predicting the Past with Ithaca",
-      "type": "story",
-      "url": "https://www.deepmind.com/blog/predicting-the-past-with-ithaca"
-    },
-    {
-      "by": "rntn",
-      "descendants": 0,
-      "id": 31317836,
-      "score": 1,
-      "time": 1652120512,
-      "title": "Japan adopts 'Green GDP' metric of sustainable growth",
-      "type": "story",
-      "url": "https://www3.nhk.or.jp/nhkworld/en/news/20220509_17/"
-    },
-    {
-      "by": "johnny313",
-      "descendants": 0,
-      "id": 31317828,
-      "score": 1,
-      "time": 1652120498,
-      "title": "A Woman Alone in Oman: Three Weeks Along the Arabian Coast",
-      "type": "story",
-      "url": "https://www.nytimes.com/2022/05/09/travel/oman-road-trip.html"
     }
   ]
 }
