@@ -1,9 +1,32 @@
 {
   "stories": [
     {
-      "by": "pmoriarty",
+      "by": "doener",
       "descendants": 0,
+      "id": 31321083,
+      "score": 1,
+      "time": 1652137781,
+      "title": "Scalable Video Technology for AV1 (SVT-AV1 Encoder and Decoder)",
+      "type": "story",
+      "url": "https://github.com/AOMediaCodec/SVT-AV1"
+    },
+    {
+      "by": "mrkramer",
+      "descendants": 0,
+      "id": 31321053,
+      "score": 2,
+      "time": 1652137541,
+      "title": "Tech YouTubers are stepping up a war against Indian scam call centers",
+      "type": "story",
+      "url": "https://www.pcgamer.com/uk/tech-youtubers-are-stepping-up-a-war-against-indian-scam-call-centers/"
+    },
+    {
+      "by": "pmoriarty",
+      "descendants": 1,
       "id": 31321038,
+      "kids": [
+        31321057
+      ],
       "score": 1,
       "time": 1652137456,
       "title": "Accents affect job prospects",
@@ -24,7 +47,7 @@
       "by": "prostoalex",
       "descendants": 0,
       "id": 31321021,
-      "score": 1,
+      "score": 2,
       "time": 1652137317,
       "title": "UST Stablecoin Loses Dollar Peg",
       "type": "story",
@@ -62,8 +85,11 @@
     },
     {
       "by": "SemanticStrengh",
-      "descendants": 0,
+      "descendants": 1,
       "id": 31320991,
+      "kids": [
+        31321068
+      ],
       "score": 1,
       "time": 1652137150,
       "title": "AV2",
@@ -79,26 +105,6 @@
       "title": "Amazon Just Fired 2 Union Organizers Who Helped Win Amazon’s First Union",
       "type": "story",
       "url": "https://www.vice.com/en/article/v7dwq4/amazon-just-fired-two-union-organizers-who-helped-win-amazons-first-union"
-    },
-    {
-      "by": "sereja",
-      "descendants": 0,
-      "id": 31320943,
-      "score": 2,
-      "time": 1652136836,
-      "title": "Battle of Karánsebes",
-      "type": "story",
-      "url": "https://en.wikipedia.org/wiki/Battle_of_Kar%C3%A1nsebes"
-    },
-    {
-      "by": "brookritz",
-      "descendants": 0,
-      "id": 31320933,
-      "score": 3,
-      "text": "All Linux machines at work now run &quot;Microsoft Defender Advanced Threat Protection&quot; (mdatp).<p>We have seen software crashing because files that were expected to be there were suddenly moved to &quot;quarantine&quot; by mdatp. On another occasion a job that moves thousands of small files to another directory took hours instead of seconds to complete. The mdatp daemon was running at 100% CPU and scanning all files for &quot;threats&quot;.  The &quot;solution&quot; IT Operations implemented was that they added the affected directories to some ignore-list in the mdatp configuration.<p>Yesterday, a shell script that uses sort just crashed because it was missing &#x2F;tmp&#x2F;sortFhe4A. It turned out that MDATP moved the file while the sort process was running. The file contained alphanumeric identifiers. Some combination of bytes in on of sort&#x27;s tempfiles apparently resembled the signature of some stupid vbscript malware.\nIn all cases it was false alarm. Duh..<p>Lessons learned: Microsoft Defender renders Linux machines unusable.\nInstead of protecting against threats this piece of junk is outright malware.",
-      "time": 1652136796,
-      "title": "Microsoft Defender Considered Malware",
-      "type": "story"
     }
   ]
 }
