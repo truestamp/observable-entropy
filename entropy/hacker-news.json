@@ -1,14 +1,44 @@
 {
   "stories": [
     {
+      "by": "sereja",
+      "descendants": 0,
+      "id": 31320943,
+      "score": 1,
+      "time": 1652136836,
+      "title": "Battle of Karánsebes",
+      "type": "story",
+      "url": "https://en.wikipedia.org/wiki/Battle_of_Kar%C3%A1nsebes"
+    },
+    {
       "by": "brookritz",
       "descendants": 0,
-      "id": 31320884,
-      "score": 1,
-      "text": "All Linux machines at work now run &quot;Microsoft Defender Advanced Threat Protection&quot; (mdatp).<p>We have seen software crashing because files that were expected to be there were suddenly moved to &quot;quarantine&quot; by mdatp. On another occasion a job that moves thousands of small files to another directory took hours instead of seconds to complete. The mdatp daemon was running at 100% CPU and scanning all files for &quot;threats&quot;.  The &quot;solution&quot; IT Operations implemented was that they added the affected directories to some ignore-list in the mdatp configuration.<p>Yesterday, a shell script that uses sort just crashed because it was missing &#x2F;tmp&#x2F;sortFhe4A. It turned out that MDATP moved the file while the sort process was running. The file contained alphanumeric identifiers. Some combination in sort&#x27;s tempfiles apparently resembled the signature of some stupid VB-Script malware.\nIn all cases  it was false alarm. Duh..<p>Microsoft Defender renders Linux machines unusable.\nInstead of protecting against threats this piece of junk is outright malware.",
-      "time": 1652136551,
+      "id": 31320933,
+      "score": 2,
+      "text": "All Linux machines at work now run &quot;Microsoft Defender Advanced Threat Protection&quot; (mdatp).<p>We have seen software crashing because files that were expected to be there were suddenly moved to &quot;quarantine&quot; by mdatp. On another occasion a job that moves thousands of small files to another directory took hours instead of seconds to complete. The mdatp daemon was running at 100% CPU and scanning all files for &quot;threats&quot;.  The &quot;solution&quot; IT Operations implemented was that they added the affected directories to some ignore-list in the mdatp configuration.<p>Yesterday, a shell script that uses sort just crashed because it was missing &#x2F;tmp&#x2F;sortFhe4A. It turned out that MDATP moved the file while the sort process was running. The file contained alphanumeric identifiers. Some combination of bytes in on of sort&#x27;s tempfiles apparently resembled the signature of some stupid vbscript malware.\nIn all cases it was false alarm. Duh..<p>Lessons learned: Microsoft Defender renders Linux machines unusable.\nInstead of protecting against threats this piece of junk is outright malware.",
+      "time": 1652136796,
       "title": "Microsoft Defender Considered Malware",
       "type": "story"
+    },
+    {
+      "by": "version_five",
+      "descendants": 0,
+      "id": 31320925,
+      "score": 1,
+      "time": 1652136766,
+      "title": "NYC Mayor Defends Decision Arrest Woman Selling Mangos on a Subway Platform",
+      "type": "story",
+      "url": "https://reason.com/2022/05/09/eric-adams-nypd-cops-detain-maria-falcon-mangos-subway/"
+    },
+    {
+      "by": "type0",
+      "descendants": 0,
+      "id": 31320900,
+      "score": 1,
+      "time": 1652136613,
+      "title": "Antiques dealer bought priceless 2 000 y/o Roman bust at thrift store for $35",
+      "type": "story",
+      "url": "https://nypost.com/2022/05/05/antiques-dealer-bought-priceless-2000-year-old-roman-bust-at-thrift-store-for-35/"
     },
     {
       "by": "0xedb",
@@ -69,36 +99,6 @@
       "title": "A Quick Update on Browsers",
       "type": "story",
       "url": "https://manuelmoreale.com/a-quick-update-on-browsers"
-    },
-    {
-      "by": "doener",
-      "descendants": 0,
-      "id": 31320739,
-      "score": 2,
-      "time": 1652135591,
-      "title": "Rust Support for Linux",
-      "type": "story",
-      "url": "https://lore.kernel.org/lkml/20220507052451.12890-1-ojeda@kernel.org/"
-    },
-    {
-      "by": "OnlineInference",
-      "descendants": 0,
-      "id": 31320708,
-      "score": 1,
-      "time": 1652135397,
-      "title": "Hugging Face Raises $100M to Democratize AI",
-      "type": "story",
-      "url": "https://wandb.ai/telidavies/ml-news/reports/Hugging-Face-Raises-100-Million-To-Democratize-AI--VmlldzoxOTc3NTUx"
-    },
-    {
-      "by": "pmoriarty",
-      "descendants": 0,
-      "id": 31320703,
-      "score": 2,
-      "time": 1652135361,
-      "title": "Food Deserts in America",
-      "type": "story",
-      "url": "https://moveforhunger.org/harsh-reality-food-deserts-america"
     }
   ]
 }
