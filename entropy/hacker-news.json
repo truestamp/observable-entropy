@@ -1,10 +1,40 @@
 {
   "stories": [
     {
+      "by": "brookritz",
+      "descendants": 0,
+      "id": 31320884,
+      "score": 1,
+      "text": "All Linux machines at work now run &quot;Microsoft Defender Advanced Threat Protection&quot; (mdatp).<p>We have seen software crashing because files that were expected to be there were suddenly moved to &quot;quarantine&quot; by mdatp. On another occasion a job that moves thousands of small files to another directory took hours instead of seconds to complete. The mdatp daemon was running at 100% CPU and scanning all files for &quot;threats&quot;.  The &quot;solution&quot; IT Operations implemented was that they added the affected directories to some ignore-list in the mdatp configuration.<p>Yesterday, a shell script that uses sort just crashed because it was missing &#x2F;tmp&#x2F;sortFhe4A. It turned out that MDATP moved the file while the sort process was running. The file contained alphanumeric identifiers. Some combination in sort&#x27;s tempfiles apparently resembled the signature of some stupid VB-Script malware.\nIn all cases  it was false alarm. Duh..<p>Microsoft Defender renders Linux machines unusable.\nInstead of protecting against threats this piece of junk is outright malware.",
+      "time": 1652136551,
+      "title": "Microsoft Defender Considered Malware",
+      "type": "story"
+    },
+    {
+      "by": "0xedb",
+      "descendants": 0,
+      "id": 31320882,
+      "score": 1,
+      "time": 1652136534,
+      "title": "The Great Resignation, Meet the Great Reset",
+      "type": "story",
+      "url": "https://techcrunch.com/2022/05/07/the-great-resignation-meet-the-great-reset/"
+    },
+    {
+      "by": "mr90210",
+      "descendants": 0,
+      "id": 31320859,
+      "score": 1,
+      "time": 1652136329,
+      "title": "My Mom, the CEO who should have been",
+      "type": "story",
+      "url": "https://www.indiehackers.com/post/my-mom-the-ceo-who-should-have-been-81c96a53aa"
+    },
+    {
       "by": "jedwhite",
       "descendants": 0,
       "id": 31320838,
-      "score": 1,
+      "score": 2,
       "time": 1652136166,
       "title": "Why to Start a Startup in a Bad Economy",
       "type": "story",
@@ -44,7 +74,7 @@
       "by": "doener",
       "descendants": 0,
       "id": 31320739,
-      "score": 1,
+      "score": 2,
       "time": 1652135591,
       "title": "Rust Support for Linux",
       "type": "story",
@@ -69,39 +99,6 @@
       "title": "Food Deserts in America",
       "type": "story",
       "url": "https://moveforhunger.org/harsh-reality-food-deserts-america"
-    },
-    {
-      "by": "sohkamyung",
-      "descendants": 0,
-      "id": 31320640,
-      "score": 2,
-      "time": 1652135047,
-      "title": "The Dutch Tax Authority Was Felled by AI",
-      "type": "story",
-      "url": "https://spectrum.ieee.org/artificial-intelligence-in-government"
-    },
-    {
-      "by": "optimalsolver",
-      "descendants": 0,
-      "id": 31320639,
-      "score": 1,
-      "time": 1652135046,
-      "title": "Programming Languages Ranked By Expressiveness (2013)",
-      "type": "story",
-      "url": "https://redmonk.com/dberkholz/2013/03/25/programming-languages-ranked-by-expressiveness/"
-    },
-    {
-      "by": "intesar",
-      "descendants": 1,
-      "id": 31320632,
-      "kids": [
-        31320834
-      ],
-      "score": 1,
-      "text": "One of our clients is forcing us to share a web penetration testing report. We do all kinds of security testing ourselves, but they wouldn&#x27;t accept our reports. The client policy requires the vendors to share a third-party report. I spoke to a bunch of penetration testing companies. It seems they do basic tests and charge ridiculously high. My question is, is it worth doing web penetration testing? Has anyone found it helpful beyond the checklist need?",
-      "time": 1652135009,
-      "title": "Ask HN: Is Web Penetration Testing Worth It?",
-      "type": "story"
     }
   ]
 }
