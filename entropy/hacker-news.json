@@ -1,12 +1,62 @@
 {
   "stories": [
     {
+      "by": "pmoriarty",
+      "descendants": 0,
+      "id": 31321038,
+      "score": 1,
+      "time": 1652137456,
+      "title": "Accents affect job prospects",
+      "type": "story",
+      "url": "https://www.bbc.com/worklife/article/20220505-the-regional-accentism-that-secretly-affects-job-prospects"
+    },
+    {
+      "by": "bookofjoe",
+      "descendants": 0,
+      "id": 31321033,
+      "score": 1,
+      "time": 1652137424,
+      "title": "SundayFM",
+      "type": "story",
+      "url": "https://sunday.fm/"
+    },
+    {
+      "by": "prostoalex",
+      "descendants": 0,
+      "id": 31321021,
+      "score": 1,
+      "time": 1652137317,
+      "title": "UST Stablecoin Loses Dollar Peg",
+      "type": "story",
+      "url": "https://www.coindesk.com/business/2022/05/09/ust-stablecoin-falls-below-dollar-peg-for-second-time-in-48-hours/"
+    },
+    {
+      "by": "geerlingguy",
+      "descendants": 0,
+      "id": 31321014,
+      "score": 1,
+      "time": 1652137288,
+      "title": "Cryptocurrency TerraUSD Falls Below Fixed Value",
+      "type": "story",
+      "url": "https://www.wsj.com/articles/cryptocurrency-terrausd-falls-below-fixed-value-triggering-selloff-11652122461"
+    },
+    {
+      "by": "tosh",
+      "descendants": 0,
+      "id": 31321009,
+      "score": 1,
+      "time": 1652137267,
+      "title": "Ben Johnson joins Fly.io",
+      "type": "story",
+      "url": "https://twitter.com/benbjohnson/status/1523748988335263744"
+    },
+    {
       "by": "sahin",
       "descendants": 0,
       "id": 31320999,
-      "score": 1,
+      "score": 2,
       "time": 1652137201,
-      "title": "Coronavirus: The Black Swan of 2020",
+      "title": "Sequoia Capital Publication: Coronavirus: The Black Swan of 2020",
       "type": "story",
       "url": "https://medium.com/sequoia-capital/coronavirus-the-black-swan-of-2020-7c72bdeb9753"
     },
@@ -34,7 +84,7 @@
       "by": "sereja",
       "descendants": 0,
       "id": 31320943,
-      "score": 1,
+      "score": 2,
       "time": 1652136836,
       "title": "Battle of Karánsebes",
       "type": "story",
@@ -44,61 +94,11 @@
       "by": "brookritz",
       "descendants": 0,
       "id": 31320933,
-      "score": 2,
+      "score": 3,
       "text": "All Linux machines at work now run &quot;Microsoft Defender Advanced Threat Protection&quot; (mdatp).<p>We have seen software crashing because files that were expected to be there were suddenly moved to &quot;quarantine&quot; by mdatp. On another occasion a job that moves thousands of small files to another directory took hours instead of seconds to complete. The mdatp daemon was running at 100% CPU and scanning all files for &quot;threats&quot;.  The &quot;solution&quot; IT Operations implemented was that they added the affected directories to some ignore-list in the mdatp configuration.<p>Yesterday, a shell script that uses sort just crashed because it was missing &#x2F;tmp&#x2F;sortFhe4A. It turned out that MDATP moved the file while the sort process was running. The file contained alphanumeric identifiers. Some combination of bytes in on of sort&#x27;s tempfiles apparently resembled the signature of some stupid vbscript malware.\nIn all cases it was false alarm. Duh..<p>Lessons learned: Microsoft Defender renders Linux machines unusable.\nInstead of protecting against threats this piece of junk is outright malware.",
       "time": 1652136796,
       "title": "Microsoft Defender Considered Malware",
       "type": "story"
-    },
-    {
-      "by": "version_five",
-      "descendants": 0,
-      "id": 31320925,
-      "score": 1,
-      "time": 1652136766,
-      "title": "NYC Mayor Defends Decision Arrest Woman Selling Mangos on a Subway Platform",
-      "type": "story",
-      "url": "https://reason.com/2022/05/09/eric-adams-nypd-cops-detain-maria-falcon-mangos-subway/"
-    },
-    {
-      "by": "type0",
-      "descendants": 0,
-      "id": 31320900,
-      "score": 1,
-      "time": 1652136613,
-      "title": "Antiques dealer bought priceless 2 000 y/o Roman bust at thrift store for $35",
-      "type": "story",
-      "url": "https://nypost.com/2022/05/05/antiques-dealer-bought-priceless-2000-year-old-roman-bust-at-thrift-store-for-35/"
-    },
-    {
-      "by": "0xedb",
-      "descendants": 0,
-      "id": 31320882,
-      "score": 1,
-      "time": 1652136534,
-      "title": "The Great Resignation, Meet the Great Reset",
-      "type": "story",
-      "url": "https://techcrunch.com/2022/05/07/the-great-resignation-meet-the-great-reset/"
-    },
-    {
-      "by": "mr90210",
-      "descendants": 0,
-      "id": 31320859,
-      "score": 1,
-      "time": 1652136329,
-      "title": "My Mom, the CEO who should have been",
-      "type": "story",
-      "url": "https://www.indiehackers.com/post/my-mom-the-ceo-who-should-have-been-81c96a53aa"
-    },
-    {
-      "by": "jedwhite",
-      "descendants": 0,
-      "id": 31320838,
-      "score": 2,
-      "time": 1652136166,
-      "title": "Why to Start a Startup in a Bad Economy",
-      "type": "story",
-      "url": "http://www.paulgraham.com/badeconomy.html"
     }
   ]
 }
