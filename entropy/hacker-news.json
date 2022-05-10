@@ -1,6 +1,66 @@
 {
   "stories": [
     {
+      "by": "elpeper",
+      "descendants": 0,
+      "id": 31333077,
+      "score": 1,
+      "time": 1652218775,
+      "title": "What I’ve learned working on editorial projects",
+      "type": "story",
+      "url": "https://koolaidfactory.com/what-ive-learned-working-on-editorial-projects/"
+    },
+    {
+      "by": "trifit",
+      "descendants": 0,
+      "id": 31333075,
+      "score": 1,
+      "text": "Some like it with heavy ice or crushed ice. I enjoy it room temperature.",
+      "time": 1652218762,
+      "title": "Ask HN: How do you like your water?",
+      "type": "story"
+    },
+    {
+      "by": "wollsmoth",
+      "descendants": 0,
+      "id": 31333072,
+      "score": 1,
+      "time": 1652218753,
+      "title": "Coinbase revenue drops 27% from a year ago, stock slides",
+      "type": "story",
+      "url": "https://www.cnbc.com/2022/05/10/coinbase-coin-earnings-q1-2022.html"
+    },
+    {
+      "by": "autonix",
+      "descendants": 0,
+      "id": 31333058,
+      "score": 1,
+      "text": "I have a career in performance marketing. Building tracking platform tech, offers, and staring out mountains of data.  QR Codes have been around since 1994, but it took a global pandemic in 2020 to make it something grandma knows how to use (at least in the US).<p>As someone who is used to making decisions off numbers, I&#x27;m still baffled by the number of static QR Codes out there.  For an extra few milliseconds of load time, why not find out things like # of scans, location, browser and even try to capture data before they get to where you&#x27;re sending them anyway.  You can do this with restaurant menus, billboards, catalogs, office visits, you name it.  All missed opportunities!<p>We originally built https:&#x2F;&#x2F;autonix.io as a visitor management platform, but found out we went too deep on the problem.  A well built visitor management platform is a tracking platform that can also capture visitor data.  We made the visitor data piece optional and gave our full QR Code analytics suite away with all plans.  There are a few great competitors in the space but IMO its a huge space once we get people like designers and small business owners onboard with understanding they can actually learn from those little square&#x27;s they&#x27;re putting all over the world!",
+      "time": 1652218657,
+      "title": "QR Code scans are a missed opportunity for most in 2022",
+      "type": "story"
+    },
+    {
+      "by": "jaxxstorm",
+      "descendants": 0,
+      "id": 31333040,
+      "score": 1,
+      "time": 1652218559,
+      "title": "I learned to stop worrying and love the YAML",
+      "type": "story",
+      "url": "https://leebriggs.co.uk/blog/2022/05/09/learning-to-love-yaml"
+    },
+    {
+      "by": "rntn",
+      "descendants": 0,
+      "id": 31333033,
+      "score": 1,
+      "time": 1652218507,
+      "title": "Crucial NATO decisions expected in Finland, Sweden this week",
+      "type": "story",
+      "url": "https://apnews.com/article/russia-ukraine-business-world-war-ii-stockholm-sweden-258926c3bad81d918d7475cf95bfd992"
+    },
+    {
       "by": "danicek7",
       "descendants": 0,
       "id": 31333028,
@@ -37,74 +97,11 @@
       "kids": [
         31333026
       ],
-      "score": 3,
+      "score": 5,
       "time": 1652218299,
       "title": "Automatic wildcard TLS with letsencrypt and a custom DNS server",
       "type": "story",
       "url": "https://webapp.io/blog/wildcard-tls-certificates-on-demand/"
-    },
-    {
-      "by": "yamrzou",
-      "descendants": 0,
-      "id": 31332990,
-      "score": 1,
-      "time": 1652218263,
-      "title": "The reason men grow beards (2016)",
-      "type": "story",
-      "url": "https://www.bbc.com/future/article/20160418-the-real-reason-men-grow-beards"
-    },
-    {
-      "by": "hassy",
-      "descendants": 1,
-      "id": 31332982,
-      "kids": [
-        31332988
-      ],
-      "score": 1,
-      "text": "Hiya HN!<p>Just released Artillery Probe - a Swiss army knife for testing HTTP from the CLI. Think mini-curl with better UX for common use-cases, plus a couple of extra features.<p>Would love for you to try it and give some feedback!<p>https:&#x2F;&#x2F;www.artillery.io&#x2F;blog&#x2F;swiss-army-knife-for-http-testing<p>and:<p><pre><code>  npm install artillery@latest\n</code></pre>\nWhat does it do?<p>- First of all, it&#x27;s a HTTP client! It does all the usual stuff you&#x27;d expect from a HTTP client... HTTP methods, request bodies, custom headers, forms, Basic Auth etc.<p>- Got some JSON or XML back? It&#x27;ll pretty-print it, and syntax highlight it for you.<p>- It&#x27;ll show you request waterfalls like this one: (inspired by httpstat)<p><pre><code>   DNS Lookup | TCP Connection | SSL Handshake | Time to First Byte | Content Transfer\n    56ms      |  14ms          |     19ms      |     181ms          |   88ms          |\n              |                |               |                    |                 |\n              56ms             |               |                    |                 |\n                            70ms               |                    |                 |\n                                             89ms                   |                 |\n                                                                  270ms               |\n                                                                                 total:358ms\n</code></pre>\n- JSON responses can be queried and sliced and diced with JMESPath (same syntax as AWS CLI) - no need to reach for jq. XML &amp; HTML may be queried with a jQuery-like syntax too.<p>- You can set expectations on the response, e.g. have the CLI check that the response is a 200, or that a certain header is set, and exit with non-zero code if not. Super handy for quick acceptance testing.<p>We&#x27;ve got lots of ideas for improvements, but would love to hear what you think!",
-      "time": 1652218209,
-      "title": "Show HN: A Swiss army knife for testing HTTP from the terminal",
-      "type": "story"
-    },
-    {
-      "by": "kenjackson",
-      "descendants": 0,
-      "id": 31332971,
-      "score": 2,
-      "time": 1652218157,
-      "title": "Adaptive Accessories for Accessibility",
-      "type": "story",
-      "url": "https://www.youtube.com/watch?v=7yx0CISTMFE"
-    },
-    {
-      "by": "MattGrommes",
-      "descendants": 0,
-      "id": 31332962,
-      "score": 1,
-      "time": 1652218099,
-      "title": "The Smash and Grab Economy",
-      "type": "story",
-      "url": "https://www.motherjones.com/politics/2022/05/private-equity-buyout-kkr-houdaille/"
-    },
-    {
-      "by": "marcodiego",
-      "descendants": 0,
-      "id": 31332941,
-      "score": 1,
-      "time": 1652217995,
-      "title": "Ubd: Add io_uring based userspace block driver",
-      "type": "story",
-      "url": "https://lore.kernel.org/io-uring/20220509092312.254354-1-ming.lei@redhat.com/?s=09"
-    },
-    {
-      "by": "lalabert",
-      "descendants": 0,
-      "id": 31332915,
-      "score": 1,
-      "time": 1652217816,
-      "title": "TrueNAS 13.0 Is Released",
-      "type": "story",
-      "url": "https://www.truenas.com/blog/truenas-13-0-succeeds-truenas-12-0"
     }
   ]
 }
