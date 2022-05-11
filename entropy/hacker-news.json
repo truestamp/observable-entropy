@@ -1,6 +1,26 @@
 {
   "stories": [
     {
+      "by": "marban",
+      "descendants": 0,
+      "id": 31335656,
+      "score": 1,
+      "time": 1652240989,
+      "title": "Google and Meta’s new subsea cables building Africa’s Internet",
+      "type": "story",
+      "url": "https://restofworld.org/2022/google-meta-underwater-cables/"
+    },
+    {
+      "by": "fortran77",
+      "descendants": 0,
+      "id": 31335633,
+      "score": 2,
+      "time": 1652240747,
+      "title": "Hiding Malware in Windows Event Logs",
+      "type": "story",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-are-now-hiding-malware-in-windows-event-logs/"
+    },
+    {
       "by": "joek1301",
       "descendants": 0,
       "id": 31335611,
@@ -14,7 +34,7 @@
       "by": "CarCooler",
       "descendants": 0,
       "id": 31335609,
-      "score": 1,
+      "score": 3,
       "time": 1652240408,
       "title": "First commercially viable lithium solid state battery charges to 80% in 15 mins",
       "type": "story",
@@ -74,31 +94,11 @@
       "by": "thatxliner",
       "descendants": 0,
       "id": 31335495,
-      "score": 3,
+      "score": 4,
       "time": 1652239197,
       "title": "Vanilla JavaScript: a website mocking JavaScript frameworks",
       "type": "story",
       "url": "http://vanilla-js.com/"
-    },
-    {
-      "by": "healsdata",
-      "descendants": 0,
-      "id": 31335492,
-      "score": 2,
-      "time": 1652239183,
-      "title": "Private Equity Looted America",
-      "type": "story",
-      "url": "https://www.motherjones.com/politics/2022/05/private-equity-apollo-blackstone-kkr-carlyle-carried-interest-loophole/"
-    },
-    {
-      "by": "hardwaresofton",
-      "descendants": 0,
-      "id": 31335489,
-      "score": 1,
-      "text": "How is everyone doing their smoke testing? My hierarchy of test value basically goes:<p>- Live usage test<p>- Smoke tests<p>- E2E tests<p>- Integration tests<p>- Unit tests<p>And the likelihood of implementation in projects I work on is:<p>- Live usage tests (sanity checks, figuring out if the product flow is what I envisioned)<p>- E2E tests (more commonly for backend projects -- for an API this is basically the only way to ensure quality&#x2F;functionality&#x2F;prevent regression)<p>- Integration tests (I get worried about two components actually working together properly)<p>- Unit tests (I generally ignore these, type system does 80% of the work for me)\n- Smoke tests<p>How is everyone running smoke tests in an automated fashion? All you really &quot;need&quot; is 3 things:<p>- An alert when a staging&#x2F;production deploy completes\n- A way to run the test (web-triggerable CI is everywhere now)\n- (optional) affordances on the app side to set up&#x2F;teardown state quickly or avoid heavy processes etc.<p>I&#x27;m  curious what others are doing for this, and what automation&#x2F;backdoors they put in place. Feels like something I&#x27;m overlooking too much these days.",
-      "time": 1652239155,
-      "title": "Ask HN: How are you doing your smoke testing?",
-      "type": "story"
     }
   ]
 }
