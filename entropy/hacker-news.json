@@ -1,20 +1,30 @@
 {
   "stories": [
     {
+      "by": "johntfella",
+      "descendants": 0,
+      "id": 31336367,
+      "score": 2,
+      "time": 1652249486,
+      "title": "Won’t Get Fooled Again",
+      "type": "story",
+      "url": "https://www.city-journal.org/after-pandemic-americans-must-never-surrender-core-liberties-again"
+    },
+    {
       "by": "mkesper",
       "descendants": 0,
       "id": 31336362,
       "score": 1,
-      "text": "If you are working with containers, you want to make sure they don&#x27;t contain no software with known CVEs. You don&#x27;t want your image scanner to have blind spots and lull you into a false sense of security.\nWell, that&#x27;s exactly what happens if you\n- Use clair scan with something like distroless (no results at all)\n- Use trivy or grype with software installed without package manager (via tar) e.g. eclipse-temurin in the alpine version. The java executable gets unpacked into &#x2F;opt but is not recognized.<p>https:&#x2F;&#x2F;github.com&#x2F;aquasecurity&#x2F;trivy&#x2F;issues&#x2F;2098\nhttps:&#x2F;&#x2F;github.com&#x2F;anchore&#x2F;syft&#x2F;issues&#x2F;994",
+      "text": "If you are working with containers, you want to make sure they don&#x27;t contain no software with known CVEs. You don&#x27;t want your image scanner to have blind spots and lull you into a false sense of security.<p>Well, that&#x27;s exactly what happens if you<p>- Use clair scan with something like distroless (no results at all)<p>- Use trivy or grype with software installed without package manager (via tar) e.g. eclipse-temurin in the alpine version. The java executable gets unpacked into &#x2F;opt but is not recognized.<p>https:&#x2F;&#x2F;github.com&#x2F;aquasecurity&#x2F;trivy&#x2F;issues&#x2F;2098<p>https:&#x2F;&#x2F;github.com&#x2F;anchore&#x2F;syft&#x2F;issues&#x2F;994",
       "time": 1652249394,
-      "title": "Container scanners not scan software not added by package manager",
+      "title": "Container scanners don't scan software not added by package manager",
       "type": "story"
     },
     {
       "by": "pjmlp",
       "descendants": 0,
       "id": 31336353,
-      "score": 1,
+      "score": 2,
       "time": 1652249289,
       "title": "The expired domain name for the 'foreach' NPM package maintainer was bought.",
       "type": "story",
@@ -32,8 +42,11 @@
     },
     {
       "by": "ceilers",
-      "descendants": 0,
+      "descendants": 1,
       "id": 31336344,
+      "kids": [
+        31336392
+      ],
       "score": 1,
       "time": 1652249206,
       "title": "Tech workers in LATAM want to make Spanish the primary language of programming",
@@ -89,16 +102,6 @@
       "title": "Basic Authentication Deprecation in Exchange Online – May 2022 Update",
       "type": "story",
       "url": "https://techcommunity.microsoft.com/t5/exchange-team-blog/basic-authentication-deprecation-in-exchange-online-may-2022/ba-p/3301866"
-    },
-    {
-      "by": "r0bot",
-      "descendants": 0,
-      "id": 31336279,
-      "score": 2,
-      "text": "Did the latest update change anything to do with the charging mechanism of the iPhone …?",
-      "time": 1652248495,
-      "title": "We have 3 iPhones, 3 different chargers and cables and none of them are charging",
-      "type": "story"
     }
   ]
 }
