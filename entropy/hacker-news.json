@@ -1,6 +1,66 @@
 {
   "stories": [
     {
+      "by": "mkesper",
+      "descendants": 0,
+      "id": 31336362,
+      "score": 1,
+      "text": "If you are working with containers, you want to make sure they don&#x27;t contain no software with known CVEs. You don&#x27;t want your image scanner to have blind spots and lull you into a false sense of security.\nWell, that&#x27;s exactly what happens if you\n- Use clair scan with something like distroless (no results at all)\n- Use trivy or grype with software installed without package manager (via tar) e.g. eclipse-temurin in the alpine version. The java executable gets unpacked into &#x2F;opt but is not recognized.<p>https:&#x2F;&#x2F;github.com&#x2F;aquasecurity&#x2F;trivy&#x2F;issues&#x2F;2098\nhttps:&#x2F;&#x2F;github.com&#x2F;anchore&#x2F;syft&#x2F;issues&#x2F;994",
+      "time": 1652249394,
+      "title": "Container scanners not scan software not added by package manager",
+      "type": "story"
+    },
+    {
+      "by": "pjmlp",
+      "descendants": 0,
+      "id": 31336353,
+      "score": 1,
+      "time": 1652249289,
+      "title": "The expired domain name for the 'foreach' NPM package maintainer was bought.",
+      "type": "story",
+      "url": "https://twitter.com/vxunderground/status/1523982714172547073"
+    },
+    {
+      "by": "prawnstar",
+      "descendants": 0,
+      "id": 31336352,
+      "score": 1,
+      "time": 1652249287,
+      "title": "An Alternative to Electron – Tauri",
+      "type": "story",
+      "url": "https://github.com/tauri-apps/tauri"
+    },
+    {
+      "by": "ceilers",
+      "descendants": 0,
+      "id": 31336344,
+      "score": 1,
+      "time": 1652249206,
+      "title": "Tech workers in LATAM want to make Spanish the primary language of programming",
+      "type": "story",
+      "url": "https://restofworld.org/2022/tech-workers-latin-america-programming-spanish/"
+    },
+    {
+      "by": "robertwt7",
+      "descendants": 0,
+      "id": 31336343,
+      "score": 1,
+      "time": 1652249202,
+      "title": "NestJS v8.4.4",
+      "type": "story",
+      "url": "https://github.com/nestjs/nest/releases/tag/v8.4.4"
+    },
+    {
+      "by": "ingve",
+      "descendants": 0,
+      "id": 31336340,
+      "score": 1,
+      "time": 1652249143,
+      "title": "Commodore Pet 8032-SK",
+      "type": "story",
+      "url": "https://oldcrap.org/2022/05/10/commodore-pet-8032-sk/"
+    },
+    {
       "by": "laangregor",
       "descendants": 0,
       "id": 31336331,
@@ -39,72 +99,6 @@
       "time": 1652248495,
       "title": "We have 3 iPhones, 3 different chargers and cables and none of them are charging",
       "type": "story"
-    },
-    {
-      "by": "0des",
-      "descendants": 1,
-      "id": 31336263,
-      "kids": [
-        31336332
-      ],
-      "score": 1,
-      "text": "With the iPod going away, I am curious if anybody is doing anything besides repurposing old smartphones for pocket digital audio.",
-      "time": 1652248324,
-      "title": "ASK HN: Is anybody building their own portable dumb audio players?",
-      "type": "story"
-    },
-    {
-      "by": "pjot",
-      "descendants": 0,
-      "id": 31336249,
-      "score": 3,
-      "time": 1652248206,
-      "title": "FIFA and EA Sports End Video Game Partnership",
-      "type": "story",
-      "url": "https://www.nytimes.com/2022/05/10/sports/soccer/fifa-ea-sports.html"
-    },
-    {
-      "by": "elvis70",
-      "descendants": 0,
-      "id": 31336248,
-      "score": 2,
-      "time": 1652248190,
-      "title": "Classic Tamagotchi Is Reincarnated in Modern Hardware",
-      "type": "story",
-      "url": "https://hackaday.com/2022/05/08/classic-tamagotchi-is-reincarnated-in-modern-hardware/"
-    },
-    {
-      "by": "vlan121",
-      "descendants": 0,
-      "id": 31336243,
-      "score": 3,
-      "time": 1652248135,
-      "title": "PyScript: Python in the Browser",
-      "type": "story",
-      "url": "https://anaconda.cloud/pyscript-python-in-the-browser"
-    },
-    {
-      "by": "newsoul",
-      "descendants": 0,
-      "id": 31336242,
-      "score": 1,
-      "text": "Not necessarily classics. Include books that are beginner friendly in a pedagogic sense. Classics need a little bit of expertise or know how of the subject to appreciate. A lot of time beginners get intimidated by classics.<p>But you can mention classics. Just don&#x27;t mention only classics. Mention books that can attract people to your subject.",
-      "time": 1652248132,
-      "title": "Ask HN: What do you think are the top books in your subject of expertise?",
-      "type": "story"
-    },
-    {
-      "by": "memorable",
-      "descendants": 1,
-      "id": 31336210,
-      "kids": [
-        31336276
-      ],
-      "score": 1,
-      "time": 1652247806,
-      "title": "Little Known Hacker News Is My First Read Every Morning",
-      "type": "story",
-      "url": "https://techcrunch.com/2008/03/10/little-known-hacker-news-is-my-first-read-every-morning/"
     }
   ]
 }
