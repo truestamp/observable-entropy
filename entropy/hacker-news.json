@@ -1,6 +1,36 @@
 {
   "stories": [
     {
+      "by": "thatxliner",
+      "descendants": 0,
+      "id": 31335495,
+      "score": 1,
+      "time": 1652239197,
+      "title": "Vanilla JavaScript: a website mocking JavaScript frameworks",
+      "type": "story",
+      "url": "http://vanilla-js.com/"
+    },
+    {
+      "by": "healsdata",
+      "descendants": 0,
+      "id": 31335492,
+      "score": 1,
+      "time": 1652239183,
+      "title": "Private Equity Looted America",
+      "type": "story",
+      "url": "https://www.motherjones.com/politics/2022/05/private-equity-apollo-blackstone-kkr-carlyle-carried-interest-loophole/"
+    },
+    {
+      "by": "hardwaresofton",
+      "descendants": 0,
+      "id": 31335489,
+      "score": 1,
+      "text": "How is everyone doing their smoke testing? My hierarchy of test value basically goes:<p>- Live usage test<p>- Smoke tests<p>- E2E tests<p>- Integration tests<p>- Unit tests<p>And the likelihood of implementation in projects I work on is:<p>- Live usage tests (sanity checks, figuring out if the product flow is what I envisioned)<p>- E2E tests (more commonly for backend projects -- for an API this is basically the only way to ensure quality&#x2F;functionality&#x2F;prevent regression)<p>- Integration tests (I get worried about two components actually working together properly)<p>- Unit tests (I generally ignore these, type system does 80% of the work for me)\n- Smoke tests<p>How is everyone running smoke tests in an automated fashion? All you really &quot;need&quot; is 3 things:<p>- An alert when a staging&#x2F;production deploy completes\n- A way to run the test (web-triggerable CI is everywhere now)\n- (optional) affordances on the app side to set up&#x2F;teardown state quickly or avoid heavy processes etc.<p>I&#x27;m  curious what others are doing for this, and what automation&#x2F;backdoors they put in place. Feels like something I&#x27;m overlooking too much these days.",
+      "time": 1652239155,
+      "title": "Ask HN: How are you doing your smoke testing?",
+      "type": "story"
+    },
+    {
       "by": "barry-cotter",
       "descendants": 0,
       "id": 31335458,
@@ -14,7 +44,7 @@
       "by": "doppp",
       "descendants": 0,
       "id": 31335452,
-      "score": 1,
+      "score": 2,
       "time": 1652238725,
       "title": "Web3.0 Must Be Destroyed",
       "type": "story",
@@ -69,37 +99,6 @@
       "title": "The 'jockstrap' that revolutionised women's sports",
       "type": "story",
       "url": "https://www.bbc.com/news/world-us-canada-61387881"
-    },
-    {
-      "by": "pseudolus",
-      "descendants": 0,
-      "id": 31335341,
-      "score": 2,
-      "time": 1652237486,
-      "title": "Against Human Exceptionalism",
-      "type": "story",
-      "url": "https://aeon.co/essays/human-exceptionalism-is-a-danger-to-all-human-and-nonhuman"
-    },
-    {
-      "by": "craftsquick",
-      "descendants": 0,
-      "id": 31335331,
-      "score": 2,
-      "text": "Hey everyone!<p>I built a tool to help you visually build SQL queries - if you write a lot of SQL at work (or help people write it), check it out!<p>You can try it out without needing to sign up, or integrate with any databases.<p>Would love all your thoughts!<p>Link: <a href=\"https:&#x2F;&#x2F;craftsql.com&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;craftsql.com&#x2F;</a>",
-      "time": 1652237412,
-      "title": "Show HN: No-Code SQL Builder",
-      "type": "story",
-      "url": "https://craftsql.com/"
-    },
-    {
-      "by": "nickbild",
-      "descendants": 0,
-      "id": 31335317,
-      "score": 2,
-      "time": 1652237234,
-      "title": "Golf Club Uses Machine Learning to Perfect Your Swing",
-      "type": "story",
-      "url": "https://hackaday.com/2022/05/10/this-golf-club-uses-machine-learning-to-perfect-your-swing/"
     }
   ]
 }
