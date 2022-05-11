@@ -1,6 +1,56 @@
 {
   "stories": [
     {
+      "by": "nimbius",
+      "descendants": 0,
+      "id": 31345094,
+      "score": 1,
+      "time": 1652299728,
+      "title": "LA residents advised to cut shower time by four minutes as drought worsens",
+      "type": "story",
+      "url": "https://www.independent.co.uk/climate-change/news/la-california-shower-water-drought-b2076123.html"
+    },
+    {
+      "by": "ayyonet",
+      "descendants": 0,
+      "id": 31345087,
+      "score": 1,
+      "time": 1652299717,
+      "title": "Google Teases AR Glasses with Live Translate",
+      "type": "story",
+      "url": "https://www.youtube.com/watch?v=SQd394a4qEo"
+    },
+    {
+      "by": "dewarrn1",
+      "descendants": 0,
+      "id": 31345076,
+      "score": 1,
+      "time": 1652299653,
+      "title": "Young CSF restores oligodendrogenesis and memory in aged mice via Fgf17",
+      "type": "story",
+      "url": "https://www.nature.com/articles/s41586-022-04722-0"
+    },
+    {
+      "by": "achow",
+      "descendants": 0,
+      "id": 31345066,
+      "score": 1,
+      "time": 1652299613,
+      "title": "Flutter 3 – Google I/O",
+      "type": "story",
+      "url": "https://medium.com/flutter/introducing-flutter-3-5eb69151622f"
+    },
+    {
+      "by": "PaulHoule",
+      "descendants": 0,
+      "id": 31345046,
+      "score": 1,
+      "time": 1652299512,
+      "title": "I Believe the Market Is Going to Fluctuate",
+      "type": "story",
+      "url": "https://quoteinvestigator.com/2013/09/28/market-fluctuate/"
+    },
+    {
       "by": "lfittl",
       "descendants": 0,
       "id": 31345038,
@@ -15,7 +65,7 @@
       "descendants": 0,
       "id": 31345033,
       "score": 1,
-      "text": "Around 2015, if you wanted to play your vintage Windows games on your Mac, you could launch Wineskin Winery[0], pass the game installer to it and get the game as a Mac app.<p>Today, the wrapped games from back then don&#x27;t work any more due to Apple&#x27;s 64-bit transition. Wineskin Winery is defunct. There is a fork[1] that claims to work but it beachballed my Mac the last time I tried and the project is somewhat shady anyways. (Claims to be LGPL but binaries are provided without source code).<p>I tried CrossOver[2] several times but the UI is so confusing that I never get anything to run. I am aware of virtualization but I would like not to buy Windows licenses or boot entire operating systems to play my games. I miss being able to just stuff a game into a wrapper and be done. What are the options today?<p>[0]: https:&#x2F;&#x2F;web.archive.org&#x2F;web&#x2F;20131201065712&#x2F;http:&#x2F;&#x2F;wineskin.urgesoftware.com&#x2F;tiki-index.php\n[1]: https:&#x2F;&#x2F;github.com&#x2F;Gcenx&#x2F;WineskinServer\n[2]: https:&#x2F;&#x2F;www.codeweavers.com&#x2F;crossover",
+      "text": "Around 2015, if you wanted to play your vintage Windows games on your Mac, you could launch Wineskin Winery[0], pass the game installer to it and get the game as a Mac app.<p>Today, the wrapped games from back then don&#x27;t work any more due to Apple&#x27;s 64-bit transition. Wineskin Winery is defunct. There is a fork[1] that claims to work but it beachballed my Mac the last time I tried and the project is somewhat shady anyways. (Claims to be LGPL but binaries are provided without source code).<p>I tried CrossOver[2] several times but the UI is so confusing that I never get anything to run. I am aware of virtualization but I would like not to buy Windows licenses or boot entire operating systems to play my games. I miss being able to just stuff a game into a wrapper and be done. What are the options today?<p>[0]: https:&#x2F;&#x2F;web.archive.org&#x2F;web&#x2F;20131201065712&#x2F;http:&#x2F;&#x2F;wineskin.urgesoftware.com&#x2F;tiki-index.php<p>[1]: https:&#x2F;&#x2F;github.com&#x2F;Gcenx&#x2F;WineskinServer<p>[2]: https:&#x2F;&#x2F;www.codeweavers.com&#x2F;crossover",
       "time": 1652299439,
       "title": "Ask HN: What's the state of the art of playing Windows games on macOS with Wine?",
       "type": "story"
@@ -42,73 +92,18 @@
     },
     {
       "by": "richardsocher",
-      "descendants": 1,
+      "descendants": 2,
       "id": 31344999,
       "kids": [
-        31345011
+        31345011,
+        31345067
       ],
-      "score": 17,
+      "score": 21,
       "text": "Hi Hacker News,<p>We&#x27;re Bryan and Richard, cofounders of you.com. Together with our team of engineers, we are working on YouCode, a search engine for people who code. You can try it at code.you.com.\nThe main idea is to make the search experience better and more efficient when coding. We’d love your feedback for a few use cases that we have in mind so far:<p>* searching through StackOverflow for quick code snippets: reverting a git commit for example [1]<p>* searching through GitHub Issues: when you’re getting an error message that looks unfamiliar [2, 3]<p>* searching through the documentation for quick reference: PyTorch [4], HuggingFace [5], Docker, PyPi, AWS, MDN, and several others<p>* searching for walkthroughs, tutorials, tips, and quick intros to a new subject: Medium [6], Tutorials Point, Geeks for Geeks, and others as well<p>* searching for utilities: code completion (from a large language model that writes code) [7], JSON validator&#x2F;formatter [8]<p>* searching for relevant discussions and projects: HackerNews [9], ArXiv [10], Github Repos [11]<p>* changing preferences in the account dropdown menu so that you can influence which sources you get answers from<p>* doing all of this from VS Code: we made an extension to make that easier [12]<p>YouCode is still a work in progress — we’re adding new apps each week and improving the search results — and we would love your feedback.\nWhere do Google or other search engines leave you wanting more when it comes to coding searches?\nWhich sources do you go to when you can’t get what you need from Google and others?\nWhat other utilities and use cases would you like to see?\nHow else can we make this better?<p>If you find something that we can improve, apps that you’d want to see, or a search query didn’t give you a good result, please let us know! We’re here to answer any questions!<p>Richard and Bryan<p>[1] <a href=\"https:&#x2F;&#x2F;code.you.com&#x2F;search?q=revert+a+git+commit\" rel=\"nofollow\">https:&#x2F;&#x2F;code.you.com&#x2F;search?q=revert+a+git+commit</a><p>[2] <a href=\"https:&#x2F;&#x2F;code.you.com&#x2F;search?q=MLflowCallback+to+log+run_name+argument\" rel=\"nofollow\">https:&#x2F;&#x2F;code.you.com&#x2F;search?q=MLflowCallback+to+log+run_name...</a><p>[3] <a href=\"https:&#x2F;&#x2F;code.you.com&#x2F;search?q=onnxruntime+segfault\" rel=\"nofollow\">https:&#x2F;&#x2F;code.you.com&#x2F;search?q=onnxruntime+segfault</a><p>[4] <a href=\"https:&#x2F;&#x2F;code.you.com&#x2F;search?q=pytorch+isnan\" rel=\"nofollow\">https:&#x2F;&#x2F;code.you.com&#x2F;search?q=pytorch+isnan</a><p>[5] <a href=\"https:&#x2F;&#x2F;code.you.com&#x2F;search?q=huggingface+transformers\" rel=\"nofollow\">https:&#x2F;&#x2F;code.you.com&#x2F;search?q=huggingface+transformers</a><p>[6] <a href=\"https:&#x2F;&#x2F;code.you.com&#x2F;search?q=git+rebase+interactive\" rel=\"nofollow\">https:&#x2F;&#x2F;code.you.com&#x2F;search?q=git+rebase+interactive</a><p>[7] <a href=\"https:&#x2F;&#x2F;code.you.com&#x2F;search?q=%23+this+function+sorts+a+list+in+ascending+order+code+complete\" rel=\"nofollow\">https:&#x2F;&#x2F;code.you.com&#x2F;search?q=%23+this+function+sorts+a+list...</a><p>[8] <a href=\"https:&#x2F;&#x2F;code.you.com&#x2F;search?q=json+validator\" rel=\"nofollow\">https:&#x2F;&#x2F;code.you.com&#x2F;search?q=json+validator</a><p>[9] <a href=\"https:&#x2F;&#x2F;code.you.com&#x2F;search?q=show+hn\" rel=\"nofollow\">https:&#x2F;&#x2F;code.you.com&#x2F;search?q=show+hn</a><p>[10] <a href=\"https:&#x2F;&#x2F;code.you.com&#x2F;search?q=attention+is+all+you+need\" rel=\"nofollow\">https:&#x2F;&#x2F;code.you.com&#x2F;search?q=attention+is+all+you+need</a><p>[11] <a href=\"https:&#x2F;&#x2F;code.you.com&#x2F;search?q=pytorch+examples\" rel=\"nofollow\">https:&#x2F;&#x2F;code.you.com&#x2F;search?q=pytorch+examples</a><p>[12] <a href=\"https:&#x2F;&#x2F;marketplace.visualstudio.com&#x2F;items?itemName=youdotcom.YouCode\" rel=\"nofollow\">https:&#x2F;&#x2F;marketplace.visualstudio.com&#x2F;items?itemName=youdotco...</a>",
       "time": 1652299241,
       "title": "Show HN: YouCode, a Search Engine for Coding",
       "type": "story",
       "url": "https://code.you.com"
-    },
-    {
-      "by": "ghishadow",
-      "descendants": 1,
-      "id": 31344981,
-      "kids": [
-        31345045
-      ],
-      "score": 12,
-      "time": 1652299186,
-      "title": "Nvidia releases open-source GPU kernel-modules",
-      "type": "story",
-      "url": "https://developer.nvidia.com/blog/nvidia-releases-open-source-gpu-kernel-modules/"
-    },
-    {
-      "by": "vinni2",
-      "descendants": 0,
-      "id": 31344974,
-      "score": 3,
-      "time": 1652299160,
-      "title": "Google unveils new Pixel Watch",
-      "type": "story",
-      "url": "https://www.bbc.com/news/technology-61409224"
-    },
-    {
-      "by": "alphabetting",
-      "descendants": 0,
-      "id": 31344956,
-      "score": 1,
-      "time": 1652299077,
-      "title": "AI Test Kitchen",
-      "type": "story",
-      "url": "https://aitestkitchen.withgoogle.com/"
-    },
-    {
-      "by": "taubek",
-      "descendants": 0,
-      "id": 31344949,
-      "score": 1,
-      "time": 1652299054,
-      "title": "World’s largest 3D-printed aerospike rocket engine",
-      "type": "story",
-      "url": "https://www.hyperganic.com/blog/we-just-built-the-worlds-largest-3d-printed-aerospike-rocket-engine/"
-    },
-    {
-      "by": "jarrenae",
-      "descendants": 2,
-      "id": 31344945,
-      "kids": [
-        31344963
-      ],
-      "score": 1,
-      "time": 1652299039,
-      "title": "Show HN: Hefty Search 2.0 – Search many sites at once with prefixes",
-      "type": "story",
-      "url": "https://www.heftysearch.com/#v2"
     }
   ]
 }
