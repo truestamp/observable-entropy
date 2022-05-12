@@ -1,6 +1,67 @@
 {
   "stories": [
     {
+      "by": "deiu",
+      "descendants": 0,
+      "id": 31358372,
+      "score": 1,
+      "text": "While it&#x27;s not hard to write a Dockerfile, I think it&#x27;s hard to write a good one.<p>Every language has its own quirks, and every framework has a special way of building things.<p>I was looking for a collection of well-written and well-maintained Dockerfiles, but I couldn&#x27;t find one.<p>Thus, I thought of creating one!<p>I realized it&#x27;s not enough to have a simple Dockerfile. Sometimes you need other files for your build: nginx.conf, php.ini, my.cnf, etc.<p>I also realized that people have different preferences. In Node, some use NPM, some use YARN, some use PNPM. In PHP, some use Apache, some use FPM with Nginx.<p>So I build a set of &quot;builders&quot;, Dockerfile generators. You define a form using JSON Schema, and then define a function &quot;generate&quot; that returns an array of files.<p>In the future, I can make a CLI tool that will generate prompts, similar to how the form is generated on the web.<p>For now, I only implemented a builder for Next.js based on their official Dockerfile example.<p>Source-Code: <a href=\"https:&#x2F;&#x2F;github.com&#x2F;easypanel-io&#x2F;builders\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;easypanel-io&#x2F;builders</a><p>Playground: <a href=\"https:&#x2F;&#x2F;easypanel-builders.netlify.app&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;easypanel-builders.netlify.app&#x2F;</a><p>---<p>1. Do you have any feedback for this project?<p>2. Can you link some good Dockerfiles that I should include?",
+      "time": 1652380825,
+      "title": "Show HN: Dockerfile Generator",
+      "type": "story",
+      "url": "https://github.com/easypanel-io/builders"
+    },
+    {
+      "by": "paulpauper",
+      "descendants": 0,
+      "id": 31358356,
+      "score": 1,
+      "time": 1652380766,
+      "title": "The end of free money. It all has to do with something called ‘the Fed put’",
+      "type": "story",
+      "url": "https://fortune.com/2022/05/10/investing-regime-change-stock-market-fed-put-end-of-free-money/"
+    },
+    {
+      "by": "akhmatova",
+      "descendants": 0,
+      "id": 31358324,
+      "score": 1,
+      "time": 1652380617,
+      "title": "Elon Musk praises Chinese workers for ‘burning the 3am oil’",
+      "type": "story",
+      "url": "https://www.theguardian.com/technology/2022/may/12/elon-musk-praises-chinese-workers-for-extreme-work-culture"
+    },
+    {
+      "by": "andrewmcwatters",
+      "descendants": 0,
+      "id": 31358323,
+      "score": 1,
+      "time": 1652380612,
+      "title": "Show HN: Digany(1) – ANY DNS lookup utility",
+      "type": "story",
+      "url": "https://github.com/andrewmcwattersandco/digany"
+    },
+    {
+      "by": "dfee",
+      "descendants": 0,
+      "id": 31358309,
+      "score": 1,
+      "time": 1652380562,
+      "title": "Ts-belt – Fast, modern, and practical utility library for FP in TypeScript",
+      "type": "story",
+      "url": "https://github.com/mobily/ts-belt"
+    },
+    {
+      "by": "loquor",
+      "descendants": 0,
+      "id": 31358300,
+      "score": 1,
+      "text": "a.k.a. why do we never get around to plan-to-watch&#x2F;plan-to-read lists, even though we care about them enough to meticulously earmark them for later?<p>When I encounter interesting things but can&#x27;t dive into them at that time, I try to list them down or organize them together so that I don&#x27;t forget about them and so that I can come back to them later. But regularly, the exact opposite happens - I never open these lists and they are not attractive to me at all.<p>Some recent examples:\n1. I had added many interesting articles to pocket, and meticulously tagged them by category. But I never opened Pocket since.<p>2. I note down hundred of exciting ideas on Notion. Yet I literally never feel like rereading any of them.<p>3. I&#x27;ve listed down the GOAT and the most-appealing-to-me pieces of media, among movies, anime, games, books etc. But I never feel like going back to these lists and picking something from them.<p>So can please someone tell me what&#x27;s going on here? Is it that this save-for-later behaviour is killing the excitement that a new thing brings? I&#x27;m puzzled why I don&#x27;t like picking up self-curated media. If I had encountered that thing by itself (i.e. not from a self-curated list) and started it at that moment, I think I would&#x27;ve enjoyed it enthusiastically. Yet my enthusiasm dies when I save that thing for later.<p>Do you experience this too? What could be going on here?",
+      "time": 1652380501,
+      "title": "Ask HN: When we note down cool things for later, why do they feel boring?",
+      "type": "story"
+    },
+    {
       "by": "exhilaration",
       "descendants": 0,
       "id": 31358289,
@@ -39,69 +100,6 @@
       "title": "We built config staging and versioning with HTTP applications",
       "type": "story",
       "url": "https://blog.cloudflare.com/version-and-stage-configuration-changes-with-http-applications/"
-    },
-    {
-      "by": "feross",
-      "descendants": 0,
-      "id": 31358263,
-      "score": 2,
-      "time": 1652380323,
-      "title": "Crypto Could Be Contagious",
-      "type": "story",
-      "url": "https://www.bloomberg.com/tosv2.html?vid=&uuid=d30b02fe-d221-11ec-b000-6e556249634f&url=L29waW5pb24vYXJ0aWNsZXMvMjAyMi0wNS0xMi9jcnlwdG8tY3Jhc2gtY29udGFnaW9uLWNvdWxkLWdvLWJleW9uZC1iaXRjb2luLWV0aGVyZXVtLXRldGhlcg=="
-    },
-    {
-      "by": "jvilalta",
-      "descendants": 0,
-      "id": 31358255,
-      "score": 1,
-      "time": 1652380285,
-      "title": "San Francisco Police Are Using Driverless Cars for Surveillance",
-      "type": "story",
-      "url": "https://jalopnik.com/san-francisco-police-are-using-driverless-cars-for-surv-1848911086"
-    },
-    {
-      "by": "mariuz",
-      "descendants": 0,
-      "id": 31358232,
-      "score": 1,
-      "time": 1652380212,
-      "title": "Great New Features Coming to Thunderbird 102",
-      "type": "story",
-      "url": "https://blog.thunderbird.net/2022/05/7-great-new-features-coming-to-thunderbird-102/"
-    },
-    {
-      "by": "robinrheem",
-      "descendants": 1,
-      "id": 31358219,
-      "kids": [
-        31358268
-      ],
-      "score": 2,
-      "text": "I find myself studying too much in order to make something that I want. For example, I want to make a dashboard of some sort. So I start learning about the history of dashboards, state of the art dashboard components, best information to show on dashboards, whether to implement them as a native, mobile, web application, and it keeps on getting deeper and deeper. I just need to build a dashboard! I sort of don&#x27;t know when to stop because I like studying too much. Feels like I&#x27;m in a never ending recursive rabbit hole of rabbit holes.<p>I do tell myself to just &quot;study enough to produce&quot; but I just can&#x27;t get the right criteria for &quot;enough&quot;.<p>I wonder whether this type of behavior is called anything so I could study about it.",
-      "time": 1652380158,
-      "title": "Ask HN: How much do you study in order to do/make something?",
-      "type": "story"
-    },
-    {
-      "by": "blakespot",
-      "descendants": 0,
-      "id": 31358215,
-      "score": 1,
-      "time": 1652380142,
-      "title": "Original iPod purchased on 2001 launch day from the first Apple Store",
-      "type": "story",
-      "url": "https://www.flickr.com/photos/blakespot/52066067732"
-    },
-    {
-      "by": "aaavl2821",
-      "descendants": 0,
-      "id": 31358205,
-      "score": 1,
-      "time": 1652380124,
-      "title": "Biotech's New Normal",
-      "type": "story",
-      "url": "https://www.baybridgebio.com/blog/biotech-new-normal.html"
     }
   ]
 }
