@@ -1,6 +1,17 @@
 {
   "stories": [
     {
+      "by": "alexnewman",
+      "descendants": 0,
+      "id": 31359459,
+      "score": 1,
+      "text": "Why can&#x27;t k8s use a database like postgres as opposed to etcd. It seems pg has all the availability options covered nowadays.",
+      "time": 1652385469,
+      "title": "K8s on Pg",
+      "type": "story"
+    },
+    null,
+    {
       "by": "davidccshepherd",
       "descendants": 0,
       "id": 31359431,
@@ -24,7 +35,7 @@
       "by": "peytoncasper",
       "descendants": 0,
       "id": 31359384,
-      "score": 2,
+      "score": 3,
       "time": 1652385068,
       "title": "Terraform Cloud Onboarding",
       "type": "story",
@@ -42,8 +53,11 @@
     },
     {
       "by": "hubraumhugo",
-      "descendants": 0,
+      "descendants": 1,
       "id": 31359364,
+      "kids": [
+        31359481
+      ],
       "score": 2,
       "text": "It feels like the majority of VCs are only interested in B2B companies. B2C startups need a lot of traction and already established network effects to have equal chances of getting funded.",
       "time": 1652384926,
@@ -54,33 +68,13 @@
       "by": "aruanavekar",
       "descendants": 0,
       "id": 31359322,
-      "score": 1,
+      "score": 2,
       "time": 1652384719,
       "title": "Breakdown of How One CEO Spent His First Two Years of Company-Building",
       "type": "story",
       "url": "https://review.firstround.com/an-exact-breakdown-of-how-one-ceo-spent-his-first-two-years-of-company-building"
     },
     null,
-    null,
-    {
-      "by": "acqbu",
-      "descendants": 0,
-      "id": 31359274,
-      "score": 1,
-      "time": 1652384447,
-      "title": "Edward Snowden Is No Hero (2013)",
-      "type": "story",
-      "url": "https://www.newyorker.com/news/daily-comment/edward-snowden-is-no-hero"
-    },
-    {
-      "by": "homarp",
-      "descendants": 0,
-      "id": 31359271,
-      "score": 1,
-      "time": 1652384436,
-      "title": "Practical bruteforce of AES-1024 military grade encryption",
-      "type": "story",
-      "url": "https://research.kudelskisecurity.com/2022/05/11/practical-bruteforce-of-aes-1024-military-grade-encryption/"
-    }
+    null
   ]
 }
