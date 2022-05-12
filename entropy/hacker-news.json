@@ -1,14 +1,84 @@
 {
   "stories": [
     {
-      "by": "ai_ja_nai",
+      "by": "karencarits",
       "descendants": 0,
-      "id": 31355749,
+      "id": 31355822,
       "score": 1,
-      "time": 1652369986,
-      "title": "Use gender inclusive language in comment PR in Nvidia open driver",
+      "time": 1652370305,
+      "title": "Personal data on 3.3M Norwegians may have been stolen",
       "type": "story",
-      "url": "https://github.com/NVIDIA/open-gpu-kernel-modules/pull/51"
+      "url": "https://world-today-news.com/3-3-million-may-be-affected-nrk-norway-overview-of-news-from-different-parts-of-the-country/"
+    },
+    {
+      "by": "SleekEagle",
+      "descendants": 0,
+      "id": 31355812,
+      "score": 1,
+      "time": 1652370253,
+      "title": "Introduction to Diffusion Models for Machine Learning",
+      "type": "story",
+      "url": "https://www.assemblyai.com/blog/diffusion-models-for-machine-learning-introduction/"
+    },
+    {
+      "by": "zbhoy",
+      "descendants": 0,
+      "id": 31355809,
+      "score": 1,
+      "text": "Hey HN!<p>With the recent influx of SQL posts and lots of jobs in my field (tech sales, customer success, product, analyst) listing SQL experience as a bonus or even preferred now, I was wondering if anyone had a go to beginner SQL course?<p>I have basics programming skills to the extent of someone who has taken CS classes in HS and is familiar with GitHub,terminals,etc, if that helps.",
+      "time": 1652370228,
+      "title": "Ask HN: Best SQL Courses?",
+      "type": "story"
+    },
+    {
+      "by": "PaulHoule",
+      "descendants": 0,
+      "id": 31355787,
+      "score": 1,
+      "time": 1652370148,
+      "title": "Kinematics of Stretched Sheets",
+      "type": "story",
+      "url": "https://phys.org/news/2022-04-kinematics-sheets.html"
+    },
+    {
+      "by": "em3rgent0rdr",
+      "descendants": 0,
+      "id": 31355785,
+      "score": 1,
+      "time": 1652370140,
+      "title": "Nvidia Transitioning to Official, Open-Source Linux GPU Kernel Driver",
+      "type": "story",
+      "url": "https://www.phoronix.com/scan.php?page=article&item=nvidia-open-kernel&num=1"
+    },
+    {
+      "by": "eitland",
+      "descendants": 0,
+      "id": 31355771,
+      "score": 1,
+      "time": 1652370099,
+      "title": "Elementary Putinology for Western Appeasers",
+      "type": "story",
+      "url": "https://threadreaderapp.com/thread/1524770723465768960.html"
+    },
+    {
+      "by": "notamy",
+      "descendants": 0,
+      "id": 31355767,
+      "score": 1,
+      "time": 1652370076,
+      "title": "Earthship",
+      "type": "story",
+      "url": "https://en.wikipedia.org/wiki/Earthship"
+    },
+    {
+      "by": "pseudolus",
+      "descendants": 0,
+      "id": 31355762,
+      "score": 1,
+      "time": 1652370038,
+      "title": "Online grocery delivery platform Instacart confidentially files for IPO in U.S.",
+      "type": "story",
+      "url": "https://www.cnbc.com/2022/05/12/online-grocery-delivery-platform-instacart-confidentially-files-for-ipo-in-the-us.html"
     },
     {
       "by": "bshepard",
@@ -25,81 +95,10 @@
       "descendants": 0,
       "id": 31355740,
       "score": 1,
-      "text": "Been having intermittent problems with Apple Connect.  From uploading builds to accessing the website.  Anyone else having the same problem?",
+      "text": "Been having intermittent problems with App Store Connect.  From uploading builds to accessing the website.  Now its showing Internal Server Error. Anyone else having the same problem?",
       "time": 1652369953,
-      "title": "Ask HN: Anyone having trouble with Apple connect?",
+      "title": "Ask HN: Anyone having trouble with App Store Connect?",
       "type": "story"
-    },
-    {
-      "by": "erez-rabih",
-      "descendants": 0,
-      "id": 31355705,
-      "score": 1,
-      "time": 1652369831,
-      "title": "Komodor Raises $42M Series B to automate K8s troublehsooting",
-      "type": "story",
-      "url": "https://techcrunch.com/2022/05/12/komodor-is-building-kubernetes-troubleshooting-platform-for-the-masses/"
-    },
-    {
-      "by": "niros_valtos",
-      "descendants": 0,
-      "id": 31355692,
-      "score": 1,
-      "text": "My name is Nir! I am one of the three co-founders of arnica.io.<p>I’ve worn many hats in cyber security over the years – sys admin, pen-tester, security architect, and Chief Information Security Officer (CISO). What really gets me excited about my work is making security easy and effective for developers and ops teams!  \nIn my last role, at one of the top 3 FinTechs, following the attack against Solarwinds, the CEO asked me what we are doing to secure our software supply chain. I met with 15+ vendors, did a few POCs, but unfortunately each solution either increased operational cost or was too narrow in scope. I really wanted to buy a solution instead building it, but even the ones that hit the short list were rejected by my team (thank you guys!).<p>I also found that many fellow CISOs faced the same problem. This is when I joined forces with my incredible co-founders - Diko and Eran. They were seeing the same pain in their worlds (engineering and ops) too!  As a starting point for Arnica, we researched every software supply chain attack since 2018, and based on our research, we found two primary root causes:\n1) improper access management to developer tools\n2) inability to identify abnormal identity and code behavior<p>We studied the anatomy of each supply chain attack and designed a product to effectively secure developer tool stacks with a DevOps-first approach:  \n1) Identify excessive permissions to source code starting with GitHub and Azure DevOps repos (free)\n2) Mitigate excessive permissions with an ability to regain access via self-service on Slack for your developers  \n3) Automatically generate &amp; modify a CODEOWNERS file via pull request, based on the contextual behavior of the pull request reviewers \n4) Secret detection and validation without modifications of the build pipelines for all repositories, public and private without any user-count limitations (free) \n5) Map GitHub users to your SAML&#x2F;SSO provider. Also free forever.<p>Why are we giving away so much functionality for free? I believe Arnica can do well by doing good in the DevSecOps community. Our mission is to be the easy button for DevOps security. Anything that is considered “single pane of glass” is our free contribution. If we do that first and foremost, we are sure we will build a successful business.<p>~Nir",
-      "time": 1652369786,
-      "title": "Show HN: Free secrets scanning for unlimited private GitHub repos",
-      "type": "story",
-      "url": "https://www.arnica.io/blog/secret-detection-needs-to-be-free-even-for-private-repositories"
-    },
-    {
-      "by": "astlouis44",
-      "descendants": 0,
-      "id": 31355688,
-      "score": 2,
-      "time": 1652369758,
-      "title": "3D Metaverse Platform in WebGL",
-      "type": "story",
-      "url": "https://dreamwave.live/"
-    },
-    {
-      "by": "hunglee2",
-      "descendants": 0,
-      "id": 31355686,
-      "score": 1,
-      "time": 1652369748,
-      "title": "How to make everyone in the company hire someone they don’t know",
-      "type": "story",
-      "url": "https://terkins.medium.com/cold-sourcing-fun-how-to-make-everyone-in-the-company-hire-someone-they-dont-know-d85c68340601"
-    },
-    {
-      "by": "raybb",
-      "descendants": 0,
-      "id": 31355678,
-      "score": 1,
-      "time": 1652369717,
-      "title": "Ransomware the final nail in coffin for small university",
-      "type": "story",
-      "url": "https://www.theregister.com/2022/05/12/ransomware_dangerous_enough_to_close/"
-    },
-    {
-      "by": "extr",
-      "descendants": 0,
-      "id": 31355657,
-      "score": 3,
-      "time": 1652369615,
-      "title": "DeepMind: A Generalist Agent",
-      "type": "story",
-      "url": "https://www.deepmind.com/publications/a-generalist-agent"
-    },
-    {
-      "by": "jayalammar",
-      "descendants": 0,
-      "id": 31355656,
-      "score": 1,
-      "time": 1652369608,
-      "title": "Enjoy the Silence – GridSearch Is Not Enough: Part 7",
-      "type": "story",
-      "url": "https://koaning.io/posts/enjoy-the-silence/"
     }
   ]
 }
