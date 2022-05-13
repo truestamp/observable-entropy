@@ -1,6 +1,47 @@
 {
   "stories": [
     {
+      "by": "rsyed0",
+      "descendants": 0,
+      "id": 31363347,
+      "score": 1,
+      "text": "-Implementation of several trading indicators<p>-Implementation of genetic algorithm and LSTM-based recurrent neural network (RNN) to find optimal weighting of these indicators for a single-stock portfolio<p>-Implementation of multiple-stock genetic algorithm to find optimal weighting of these indicators for a multiple-stock portfolio<p>-Stock screener based on genetic algorithm implementation<p>Setup:\npython3 -m pip install pyalgotrade, keras, yfinance<p>Usage:\npython3 pat_papertrade.py [stock] [period=1y] [interval=1d] # single-stock genetic algorithm<p>python3 rnn_algotrade.py [stock] [period=1y] [interval=1d] # single-stock LSTM RNN algorithm<p>python3 screener.py [period] [interval] # genetic algorithm stock screener<p>python3 multiple_series.py [stocks...] [period=1y] [interval=1d] # multiple-stock genetic algorithm<p>python3 yfinance_csv.py (*) [stock(s...)] [period=1y] [interval=1d] # wrapper for yfinance library<p>-Can also specify custom strategies in strategies.py and add them to single_strat.py to backtest them",
+      "time": 1652416276,
+      "title": "Show HN: Algotrading in Python Using Genetic Algorithms and LSTM Networks",
+      "type": "story",
+      "url": "https://github.com/rsyed0/mquery"
+    },
+    {
+      "by": "whispersnow",
+      "descendants": 0,
+      "id": 31363346,
+      "score": 1,
+      "time": 1652416274,
+      "title": "Software Architecture: It Might Not Be What You Think It Is",
+      "type": "story",
+      "url": "https://www.infoq.com/articles/what-software-architecture/"
+    },
+    {
+      "by": "todsacerdoti",
+      "descendants": 0,
+      "id": 31363329,
+      "score": 1,
+      "time": 1652416099,
+      "title": "Linux Accessibility: An Unmaintained Mess",
+      "type": "story",
+      "url": "https://scribe.rip/@r.d.t.prater/linux-accessibility-an-unmaintained-mess-8fbf9decaf8a"
+    },
+    {
+      "by": "eranation",
+      "descendants": 0,
+      "id": 31363312,
+      "score": 1,
+      "text": "Hey fellow HNers,<p>We launched our product to public beta after 8 months of hard work, got lucky on product hunt, Reddit, LinkedIn, and we thought this will resonate well with the HN community, but obviously we screwed up the Show HN post… (our team was enthusiastic and probably violated the don’t let employees upvote or comment on your own Show HN other than reply to questions).<p>I’m leaving out the details as I don’t want this to be a self promotion in disguise.<p>But what is the right thing to do? Is it legitimate ti try in a few days? Saw other successful launches that had a few attempts (changed URL and content, not sure if it violates the rules…)<p>Thanks!",
+      "time": 1652415979,
+      "title": "Ask HN: What do you do if you get crickets during launch day?",
+      "type": "story"
+    },
+    {
       "by": "AlchemistCamp",
       "descendants": 0,
       "id": 31363296,
@@ -59,53 +100,6 @@
       "title": "Arti (rustified Tor) 0.3.0 is released: Robustness and API improvements",
       "type": "story",
       "url": "https://blog.torproject.org/arti_030_released/"
-    },
-    {
-      "by": "techsin101",
-      "descendants": 2,
-      "id": 31363153,
-      "kids": [
-        31363197,
-        31363234
-      ],
-      "score": 2,
-      "text": "Have you ever seen an example where anything became better than before when it grew big. There is almost a law that a company, a group, a community, a game or anything once it grows past its core audience it just gets ruined.<p>I have seen a game with millions of players become crappy once they became mainstream and started to attract very young and very old. Suddenly all jokes were inappropriate and game themes were too family friendly.<p>I have seen fb go from a place of being basically school wide chat to family announcements forum.<p>I have seen restaurants go from personalized&#x2F;affordable service, to multi-store chain food that is barely edible and more expensive.<p>I have seen small startup where everyone enjoyed working and build dreams to become required corporate happy hours.<p>Take YC, I have heard from many founders it&#x27;s not what it used to be...<p>On that note, I am glad that HN is still a niche community and hope stays that way, and UI becomes even more crappy so people from other cultures and walks of life don&#x27;t start joining in. There are negatives to this, but not huge because there are other platforms for general population. (Imagine a forum for doctors to discuss new treatments and everyone can join in, soon it&#x27;d be r&#x2F;AskDoc and of almost no value to actual doctors).",
-      "time": 1652414273,
-      "title": "Is it true that any community that grows big enough, gets ruined?",
-      "type": "story"
-    },
-    {
-      "by": "polishdude20",
-      "descendants": 1,
-      "id": 31363147,
-      "kids": [
-        31363203
-      ],
-      "score": 2,
-      "text": "I&#x27;m hoping to build a great SQL practice website like SQL Fiddle. Is there a way to emulate SQL and a database in the browser?",
-      "time": 1652414186,
-      "title": "Ask HN: Is there a way to emulate a SQL database in the browser?",
-      "type": "story"
-    },
-    {
-      "by": "fortran77",
-      "descendants": 0,
-      "id": 31363144,
-      "score": 1,
-      "time": 1652414145,
-      "title": "FDA Authorizes Underwear to Protect Against S.T.I.s During Oral Sex",
-      "type": "story",
-      "url": "https://www.nytimes.com/2022/05/12/health/fda-underwear-sti.html"
-    },
-    {
-      "by": "wanderingmind",
-      "descendants": 0,
-      "id": 31363131,
-      "score": 2,
-      "time": 1652414053,
-      "title": "FDA Takes Important Steps to Improve Supply of Infant Formula Products",
-      "type": "story",
-      "url": "https://www.fda.gov/news-events/press-announcements/fda-takes-important-steps-improve-supply-infant-and-specialty-formula-products"
     }
   ]
 }
