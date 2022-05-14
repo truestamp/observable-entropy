@@ -1,6 +1,36 @@
 {
   "stories": [
     {
+      "by": "golanggeek",
+      "descendants": 0,
+      "id": 31383789,
+      "score": 1,
+      "time": 1652571497,
+      "title": "Life Behind the Screens of Parents, Tweens, and Teens (McAfee Family Study)[pdf]",
+      "type": "story",
+      "url": "https://www.mcafee.com/content/dam/consumer/en-us/docs/reports/rp-connected-family-study-2022-global.pdf"
+    },
+    {
+      "by": "redbell",
+      "descendants": 0,
+      "id": 31383777,
+      "score": 1,
+      "time": 1652571368,
+      "title": "Our Short YC Experience",
+      "type": "story",
+      "url": "https://www.indiehackers.com/post/our-short-yc-experience-013cc5aa5c"
+    },
+    {
+      "by": "0x0",
+      "descendants": 0,
+      "id": 31383767,
+      "score": 1,
+      "time": 1652571305,
+      "title": "Ukraine's Kalush Orchestra Wins Eurovision Song Contest 2022",
+      "type": "story",
+      "url": "https://eurovision.tv/story/congratulations-Ukraine-Kalush-Orchestra-win-eurovision-2022"
+    },
+    {
       "by": "thomassmith65",
       "descendants": 0,
       "id": 31383760,
@@ -68,44 +98,11 @@
       "by": "kvee",
       "descendants": 0,
       "id": 31383665,
-      "score": 1,
+      "score": 2,
       "time": 1652570326,
       "title": "Cognitive psychology findings that all passed a stringent replicability test",
       "type": "story",
       "url": "https://digest.bps.org.uk/2017/06/05/these-nine-cognitive-psychology-findings-all-passed-a-stringent-test-of-their-replicability/"
-    },
-    {
-      "by": "joshspankit",
-      "descendants": 0,
-      "id": 31383654,
-      "score": 1,
-      "text": "This challenge has been in the back of my mind for a while and I can&#x27;t crack it.<p>There are many scenarios to explore this, but let&#x27;s say we&#x27;re a presidential department tasked with recording a meeting in a way that can be later verified. (We could also look at evidence gathering where the person gathering has the legal right and technological ability to do anything. They&#x27;re fundamentally the same problem)<p>We can&#x27;t rely on internet access (that would be too easy because we could just send a request to a server).<p>We can&#x27;t rely on standard file metadata because it can be forged.<p>[&quot;Mains hum&quot;](https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Mains_hum) has been helpful for some things, but since the data is public someone could fake it by adding the expected hum later.<p>The only thing I can think of is to have a reasonably up-to-date blockchain on-device, then add a file&#x27;s hash as a transaction. I still don&#x27;t think it could store timestamp in a verifiable way but it would at least tell you the sequence that files were added (which is hopefully the sequence they were taken)<p>Has anyone actually solved this problem?",
-      "time": 1652570240,
-      "title": "Ask HN: Can we program a validation that foo happened at a specific past moment?",
-      "type": "story"
-    },
-    {
-      "by": "istoica",
-      "descendants": 1,
-      "id": 31383644,
-      "kids": [
-        31383682
-      ],
-      "score": 1,
-      "text": "See https:&#x2F;&#x2F;iongion.github.io&#x2F;podman-desktop-companion<p>One step closer to first stable release, it was quite an adventure since the beginning of the year when it all started.<p>Latest updates since previous release are quite big in functionality and bugs getting fixed:<p>- Added Network support<p>- Added Container Image security scanner reporting using trivy<p>- Added docker engine and docker api support<p>- Added configurable paths to container engines<p>- Added full support for LIMA on MacOS and WSL on Windows with relaying<p>- Added ability to generate `kube` yaml<p>- Added Pods support<p>- Faster application due to messaging infrastructure change<p>Plus many other bugs getting fixed, which I am grateful for being reported by patient, passionate and dedicated users world wide.<p>If all goes well, next big plans include<p>- plugin architecture<p>- more engines supported<p>- documentation and videos<p>- container building tool<p>- project support<p>- more scanning and intelligence tools",
-      "time": 1652570144,
-      "title": "Podman Desktop Companion",
-      "type": "story"
-    },
-    {
-      "by": "dedalus",
-      "descendants": 0,
-      "id": 31383637,
-      "score": 1,
-      "text": "Cache-Control:private only states that shared caches (such as proxy caches) should not cache the response but any private cache can. Now my question is do folks know of any such private caches in use (commerical or open source) as I can sense a lot of webapps today can be made faster with an &quot;unshared&quot; or per user cache e.g cache with user specific keys and cookies such that its purely a per user cache. It sounds like something on the user&#x27;s machine , correct?",
-      "time": 1652570086,
-      "title": "Ask HN: Unshared or Private Caches for my app/company to use?",
-      "type": "story"
     }
   ]
 }
