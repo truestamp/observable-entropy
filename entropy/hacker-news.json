@@ -1,10 +1,44 @@
 {
   "stories": [
     {
-      "by": "Vladimof",
+      "by": "zeristor",
       "descendants": 0,
-      "id": 31375924,
+      "id": 31375968,
+      "score": 1,
+      "time": 1652515148,
+      "title": "Apple Watch Series 7 features secret 60.5GHz wireless connection (2021)",
+      "type": "story",
+      "url": "https://9to5mac.com/2021/09/23/watch-series-7-secret-60-ghz-wireless/"
+    },
+    {
+      "by": "anomalytics",
+      "descendants": 0,
+      "id": 31375960,
       "score": 2,
+      "time": 1652515066,
+      "title": "Trends BlackHat Asia 2022 – Kubernetes, Cloud Securty and Supply Chain Attacks",
+      "type": "story",
+      "url": "https://sysdig.com/blog/blackhat-asia-2022-trends/"
+    },
+    {
+      "by": "karimf",
+      "descendants": 0,
+      "id": 31375945,
+      "score": 1,
+      "time": 1652514942,
+      "title": "Why to Start a Startup in a Bad Economy",
+      "type": "story",
+      "url": "http://www.paulgraham.com/badeconomy.html"
+    },
+    {
+      "by": "Vladimof",
+      "descendants": 2,
+      "id": 31375924,
+      "kids": [
+        31375965,
+        31375955
+      ],
+      "score": 3,
       "time": 1652514664,
       "title": "Kim Dotcom on Twitter: This may be the most important threat that I ever make",
       "type": "story",
@@ -14,7 +48,7 @@
       "by": "clouddrover",
       "descendants": 0,
       "id": 31375920,
-      "score": 1,
+      "score": 2,
       "time": 1652514614,
       "title": "VW's Diess expects bigger profits from electric cars soon",
       "type": "story",
@@ -69,36 +103,6 @@
       "title": "Cold Start Comparison of AWS Lambda, CloudFront, Cloudflare Workers",
       "type": "story",
       "url": "https://medium.com/ddosify/cold-start-comparison-of-aws-lambda-and-cloudflare-workers-a3f9021ee60a"
-    },
-    {
-      "by": "etaioinshrdlu",
-      "descendants": 0,
-      "id": 31375882,
-      "score": 2,
-      "text": "My application is a bunch of docker containers networked together using docker compose.<p>Now I want to ship this entire stack as an easily runnable application to my users, who are either on Linux or Windows (and occasionally Mac).<p>Ideally the user doesn&#x27;t even know that docker is involved, and it just looks like one app from most perspectives. I want it to be easy to install and maintain.<p>To further complicate things, many of the containers are actually dependent on nvidia-docker and GPU access for CUDA. This seems to just now be supported on Windows, albeit only Windows 11. In general, this greatly complicates my ability to ship anything easy-to-install.<p>Is there anything I can do to make this process easy for users (and myself)?<p>NVIDIA and docker have both taken over huge swaths of our computing infrastructure, but they are in some ways a huge regression for easy software delivery, which is somewhat ironic in the case of Docker.",
-      "time": 1652514044,
-      "title": "How to ship software to Windows and Linux users built on Docker?",
-      "type": "story"
-    },
-    {
-      "by": "doener",
-      "descendants": 0,
-      "id": 31375881,
-      "score": 1,
-      "time": 1652514030,
-      "title": "The week that shook crypto",
-      "type": "story",
-      "url": "https://www.ft.com/content/3e0a65bb-a953-433a-819e-ff29de847336"
-    },
-    {
-      "by": "tosh",
-      "descendants": 0,
-      "id": 31375865,
-      "score": 1,
-      "time": 1652513729,
-      "title": "Salvadorans Struggle to Adapt to Bitcoin",
-      "type": "story",
-      "url": "https://www.politico.com/news/magazine/2022/05/12/el-salvador-bitcoin-currency-struggles-00030422"
     }
   ]
 }
