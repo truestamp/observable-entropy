@@ -1,6 +1,46 @@
 {
   "stories": [
     {
+      "by": "rowanajmarshall",
+      "descendants": 0,
+      "id": 31383669,
+      "score": 1,
+      "time": 1652570385,
+      "title": "Ukraine Wins Eurovision",
+      "type": "story",
+      "url": "https://news.sky.com/story/ukraine-wins-eurovision-song-contest-after-performance-by-kalush-orchestra-12613436"
+    },
+    {
+      "by": "kvee",
+      "descendants": 0,
+      "id": 31383665,
+      "score": 1,
+      "time": 1652570326,
+      "title": "Cognitive psychology findings that all passed a stringent replicability test",
+      "type": "story",
+      "url": "https://digest.bps.org.uk/2017/06/05/these-nine-cognitive-psychology-findings-all-passed-a-stringent-test-of-their-replicability/"
+    },
+    {
+      "by": "joshspankit",
+      "descendants": 0,
+      "id": 31383654,
+      "score": 1,
+      "text": "This challenge has been in the back of my mind for a while and I can&#x27;t crack it.<p>There are many scenarios to explore this, but let&#x27;s say we&#x27;re a presidential department tasked with recording a meeting in a way that can be later verified. (We could also look at evidence gathering where the person gathering has the legal right and technological ability to do anything. They&#x27;re fundamentally the same problem)<p>We can&#x27;t rely on internet access (that would be too easy because we could just send a request to a server).<p>We can&#x27;t rely on standard file metadata because it can be forged.<p>[&quot;Mains hum&quot;](https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Mains_hum) has been helpful for some things, but since the data is public someone could fake it by adding the expected hum later.<p>The only thing I can think of is to have a reasonably up-to-date blockchain on-device, then add a file&#x27;s hash as a transaction. I still don&#x27;t think it could store timestamp in a verifiable way but it would at least tell you the sequence that files were added (which is hopefully the sequence they were taken)<p>Has anyone actually solved this problem?",
+      "time": 1652570240,
+      "title": "Ask HN: Can we program a validation that foo happened at a specific past moment?",
+      "type": "story"
+    },
+    {
+      "by": "istoica",
+      "descendants": 0,
+      "id": 31383644,
+      "score": 1,
+      "text": "[1]: https:&#x2F;&#x2F;iongion.github.io&#x2F;podman-desktop-companion&#x2F;<p>One step closer to first stable release, it was quite an adventure since the beginning of the year when it all started.<p>Latest updates since previous release are quite big in functionality and bugs getting fixed:<p>- Added Network support<p>- Added Container Image security scanner reporting using trivy<p>- Added docker engine and docker api support<p>- Added configurable paths to container engines<p>- Added full support for LIMA on MacOS and WSL on Windows with relaying<p>- Added ability to generate `kube` yaml<p>- Added Pods support<p>- Faster application due to messaging infrastructure change<p>Plus many other bugs getting fixed, which I am grateful for being reported by patient, passionate and dedicated users world wide.<p>If all goes well, next big plans include<p>- plugin architecture<p>- more engines supported<p>- documentation and videos<p>- container building tool<p>- project support<p>- more scanning and intelligence tools",
+      "time": 1652570144,
+      "title": "Podman Desktop Companion",
+      "type": "story"
+    },
+    {
       "by": "dedalus",
       "descendants": 0,
       "id": 31383637,
@@ -14,24 +54,11 @@
       "by": "dynamic_sausage",
       "descendants": 0,
       "id": 31383626,
-      "score": 1,
+      "score": 3,
       "time": 1652569996,
       "title": "Evaluation of Russia by Finnish Intelligence Colonel",
       "type": "story",
       "url": "https://www.youtube.com/watch?v=kF9KretXqJw"
-    },
-    {
-      "by": "aluckyguess",
-      "descendants": 1,
-      "id": 31383594,
-      "kids": [
-        31383623
-      ],
-      "score": 1,
-      "text": "Satoshi Nakamoto and Elon Musk have<p>1) a common physical location<p>2) common technical ability<p>3) common linguistic quirks<p>4) and common motivating philosophy.<p>___<p>An IP address in Los Angeles<p>On Satoshi: “This is not a TOR exit node which implies that this is the IP address used by Satoshi on 2009–01–10 and he was in Van Nuys [Los Angeles] on this day.” https:&#x2F;&#x2F;whoissatoshi.wordpress.com&#x2F;2016&#x2F;02&#x2F;20&#x2F;satoshi-in-california&#x2F;<p>On Musk: “The jet is registered to a subsidiary of SpaceX called Falcon Landing, named for its reusable rocket, Federal Aviation Administration records show… Many of the flights took off from or landed at LA’s Van Nuys airport, a short drive from the tony neighbourhood of Bel Air where Musk owns five separate mansions.” https:&#x2F;&#x2F;www.afr.com&#x2F;work-and-careers&#x2F;management&#x2F;musks-2018-150000-miles-of-private-jet-travel-in-excruciating-year-20190130-h1an97<p>Code in C++<p>On Satoshi: “Kaminsky ticked off the skills Nakamoto would need to pull it off. ‘He’s a world-class programmer, with a deep understanding of the C++ programming language,’ he said. ‘He understands economics, cryptography, and peer-to-peer networking.’” https:&#x2F;&#x2F;www.newyorker.com&#x2F;magazine&#x2F;2011&#x2F;10&#x2F;10&#x2F;the-crypto-currency<p>Musk: “In early 90s, I wrote a multitasker for PCs that spoofed the CPU &amp; CD-ROM to act in parallel, so could read video continuously while player sprite moved smoothly. Required C++, assembly &amp; direct flipping of CPU registers.” https:&#x2F;&#x2F;twitter.com&#x2F;elonmusk&#x2F;status&#x2F;1005643673353064448<p>“Monolithic” code<p>On Satoshi: “Yeah. The original Bitcoin software was very monolithic… All of the code is in one file. The wallet stuff that is per user interacts heavily with the validation code and the consensus code. It’s gotten a lot better. We’ve cleaned it up a lot.” https:&#x2F;&#x2F;hackernoon.com&#x2F;matt-corallo-on-how-bitcoin-works-25a46b547359<p>On Musk: “They took one look at Zip2’s code and began rewriting the vast majority of the software… big, monolithic hunks of code.” https:&#x2F;&#x2F;www.goodreads.com&#x2F;quotes&#x2F;9356850-they-took-one-look-at-zip2-s-code-and-began-rewriting<p>Double spaces after a period<p>https:&#x2F;&#x2F;bitcointalk.org&#x2F;index.php?topic=383.msg3295#msg3295<p>https:&#x2F;&#x2F;i.insider.com&#x2F;546397d1ecad044756a12570<p>Use of “bloody”<p>Satoshi: “Writing a description for this thing for general audiences is bloody hard.” https:&#x2F;&#x2F;satoshi.nakamotoinstitute.org&#x2F;posts&#x2F;bitcointalk&#x2F;threads&#x2F;79&#x2F;?view=satoshi<p>Musk: “Bloody hell, I’m going to have to write a blog. Can’t fit this into tweets.” https:&#x2F;&#x2F;twitter.com&#x2F;elonmusk&#x2F;status&#x2F;943887056492564480<p>Use of “order of magnitude”<p>Satoshi “I thought it would be impractical if the block chain, bitcoin addresses, disk space and bandwidth requirements were all an order of magnitude bigger.” “RSA can do both, but I didn’t use it because it’s an order of magnitude bigger and would have been impractical.” https:&#x2F;&#x2F;www.google.com&#x2F;search?q=site%3Ahttps%3A%2F%2Fsatoshi.nakamotoinstitute.org%2Fposts%2Fbitcointalk+%22order+of+magnitude%22<p>Musk “Global economy of $100T is overwhelmingly fossil fuel based, so IMF estimate of $5T or 5% for carbon subsidy is def right order of magnitude” “This engine needs to be 10X lower cost. Order of magnitude change is good reason for a new name.” https:&#x2F;&#x2F;twitter.com&#x2F;search?q=from%3Aelonmusk%20order%20of%20magnitude&amp;src=typed_query&amp;f=top<p>PayPal<p>Luke Nosek (also a PayPal co-founder): “Many people don’t know this but the mission of PayPal was to create a global currency that was independent of interference by these corrupt cartels of banks and governments that were debasing their currencies.” https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=hOeOzhOxeMU&amp;t=40s<p>Musk in 2005: “It was a way of transferring money between one entity and another entity by specifying a unique identifier, which in this case was an email address.” 7:15 https:&#x2F;&#x2F;www.facebook.com&#x2F;watch&#x2F;?v=1151875188973577",
-      "time": 1652569687,
-      "title": "I think this is Satoshi Nakamoto",
-      "type": "story"
     },
     {
       "by": "pizza",
@@ -60,7 +87,7 @@
       "by": "smithtim",
       "descendants": 0,
       "id": 31383504,
-      "score": 5,
+      "score": 7,
       "time": 1652568842,
       "title": "Formalizing a Proof of God by Leibniz",
       "type": "story",
@@ -75,42 +102,6 @@
       "title": "Ukraine face recognition Russian soldiers",
       "type": "story",
       "url": "https://www.cnn.com/videos/world/2022/05/13/ukraine-face-recognition-russian-soldiers-lead-sidner-pkg-vpx.cnn"
-    },
-    {
-      "by": "Barrera",
-      "descendants": 0,
-      "id": 31383447,
-      "score": 1,
-      "time": 1652568368,
-      "title": "Congress to hold UFO hearing next week",
-      "type": "story",
-      "url": "https://www.politico.com/news/2022/05/10/congress-holding-ufo-hearing-00031367"
-    },
-    {
-      "by": "prostoalex",
-      "descendants": 8,
-      "id": 31383388,
-      "kids": [
-        31383597,
-        31383539,
-        31383462,
-        31383478
-      ],
-      "score": 9,
-      "time": 1652567980,
-      "title": "Mattel debuts first Barbie with hearing aids",
-      "type": "story",
-      "url": "https://www.cbsnews.com/news/barnie-hearing-aid-mattel/"
-    },
-    {
-      "by": "jadyoyster",
-      "descendants": 0,
-      "id": 31383385,
-      "score": 3,
-      "time": 1652567975,
-      "title": "I don't care about your crypto, boy",
-      "type": "story",
-      "url": "https://www.youtube.com/watch?v=0amWsMfR2Ok"
     }
   ]
 }
