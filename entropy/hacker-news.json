@@ -1,6 +1,27 @@
 {
   "stories": [
     {
+      "by": "dcminter",
+      "descendants": 0,
+      "id": 31386419,
+      "score": 1,
+      "time": 1652607468,
+      "title": "The BepiColombo ‘model’: looking beyond the ‘original’",
+      "type": "story",
+      "url": "http://journal.sciencemuseum.ac.uk/browse/issue-17/bepicolumbo/"
+    },
+    {
+      "by": "cmitsakis",
+      "descendants": 0,
+      "id": 31386414,
+      "score": 1,
+      "text": "I recently published a new worker pool library that uses generics.<p>Generics allowed me to design a different API from other libraries. Instead of submitting a function for each task (as other libraries do), you submit values. This enabled me to make the pools connectable into pipelines, which can be useful if you want to separate IO-intensive from CPU-intensive tasks, or tasks of different parallelizability.<p>It also supports auto-scaling (resizable number of workers), which currently works well for my needs, but has a lot of room for improvement, especially in the case of pipelines with bottleneck.<p>Type Pool[I, O, C any] has three type parameters, but if you don&#x27;t need all of them, I offer constructors that hide some of those types (by assigning them to empty struct).<p>I would appreciate your feedback.",
+      "time": 1652607420,
+      "title": "Show HN: Auto-scaling worker pool library, using Go 1.18 generics",
+      "type": "story",
+      "url": "https://github.com/cmitsakis/workerpool-go"
+    },
+    {
       "by": "minkwwwimr",
       "descendants": 1,
       "id": 31386392,
@@ -30,7 +51,7 @@
       "kids": [
         31386347
       ],
-      "score": 1,
+      "score": 2,
       "time": 1652606098,
       "title": "SQLite cron-based backup (alternative to Litestream for simpler usecases)",
       "type": "story",
@@ -76,7 +97,7 @@
       "by": "tosh",
       "descendants": 0,
       "id": 31386266,
-      "score": 1,
+      "score": 2,
       "time": 1652605070,
       "title": "FOAF",
       "type": "story",
@@ -91,30 +112,6 @@
       "title": "People who danced themselves to death",
       "type": "story",
       "url": "https://www.bbc.com/culture/article/20220512-the-people-who-danced-themselves-to-death"
-    },
-    {
-      "by": "mr-karan",
-      "descendants": 0,
-      "id": 31386245,
-      "score": 1,
-      "time": 1652604745,
-      "title": "Understanding Networking in Nomad",
-      "type": "story",
-      "url": "https://mrkaran.dev/posts/nomad-networking-explained/"
-    },
-    {
-      "by": "Hawkdidy",
-      "descendants": 1,
-      "id": 31386235,
-      "kids": [
-        31386279,
-        31386294
-      ],
-      "score": 4,
-      "time": 1652604609,
-      "title": "Show HN: OSS Python library for detecting silent ML model failure",
-      "type": "story",
-      "url": "https://github.com/NannyML/nannyml"
     }
   ]
 }
