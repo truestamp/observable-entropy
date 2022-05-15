@@ -1,6 +1,16 @@
 {
   "stories": [
     {
+      "by": "daly",
+      "descendants": 0,
+      "id": 31385043,
+      "score": 1,
+      "text": "Godel showed that it is impossible to formally prove the\nconsistency of a system of arithmetic WITHIN that system\nof arithmetic.<p>Given a static system that is clearly true.<p>However, I claim a self-modifying system can extend itself\nto &quot;look down&quot; on the initial system of arithmetic.<p>I&#x27;m not sure how to show this yet. My intuition is leaning\ntoward using the standard trick of towers of types. Is it\npossible to show a system of arithmetic is consistent\nusing higher order types?<p>Which raises the question of self-modifying Turing machines.\nThis leads to the concept of a meta-Turing machine.<p>Not only must the &quot;instructions of the machine&quot; be &quot;on the tape&quot;\nso they can be modified but the &quot;structure of the hardware&quot;\nalso has to be &quot;on the tape&quot; so that changing the &quot;structure&quot;\nchanges the way the machine operates. A simple implementation\ncan be created in an FPGA which generates modifications to its\nown Verilog definition and reloads itself, becoming a fundamentally\ndifferent machine.",
+      "time": 1652585570,
+      "title": "Godel's Proof",
+      "type": "story"
+    },
+    {
       "by": "memorable",
       "descendants": 0,
       "id": 31385010,
@@ -89,16 +99,6 @@
       "title": "Action",
       "type": "story",
       "url": "https://atariwiki.org/wiki/Wiki.jsp?page=Action"
-    },
-    {
-      "by": "teleforce",
-      "descendants": 0,
-      "id": 31384895,
-      "score": 2,
-      "time": 1652583704,
-      "title": "Linux for Networking Professionals",
-      "type": "story",
-      "url": "https://github.com/PacktPublishing/Linux-for-Networking-Professionals"
     }
   ]
 }
