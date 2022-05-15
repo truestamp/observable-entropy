@@ -1,10 +1,41 @@
 {
   "stories": [
     {
+      "by": "nfrankel",
+      "descendants": 0,
+      "id": 31388883,
+      "score": 1,
+      "time": 1652633954,
+      "title": "Toying with Kotlin's Context Receivers",
+      "type": "story",
+      "url": "https://blog.frankel.ch/kotlin-context-receivers/"
+    },
+    {
+      "by": "mateusfreira",
+      "descendants": 0,
+      "id": 31388870,
+      "score": 1,
+      "time": 1652633831,
+      "title": "Run your home on a Raspberry Pi",
+      "type": "story",
+      "url": "https://changelog.com/podcast/489"
+    },
+    {
+      "by": "bambax",
+      "descendants": 0,
+      "id": 31388863,
+      "score": 1,
+      "text": "Backstory: I have a kid learning to play the clarinet in a music conservatory, which involves compulsory sight reading classes. Teaching for sight reading is done on books. The idea for this app is to port the method online, so that it&#x27;s easier to practice and follow one&#x27;s progress. It should also be more fun, and, for those so inclined, competitive.<p>The learning method is based on landmarks: for each clef one first learns the position of 2-3 landmarks, and then each note is in relation to a landmark. So for example, if you know where the middle G is on the treble clef, then you can learn fast that 2 positions up (next line) is B, and two positions down is E. (Anecdotally, in an earlier iteration of the app, landmark notes were displayed using specific colors; but users learned colors instead of the note position on the staff, and when they moved to a level without colors (or an actual score) they were completely lost.)<p>The app doesn&#x27;t try to teach keyboard playing, or fingering for any other instrument for that matter. It only helps associate the position of a note on the staff with a name, in a given clef. It doesn&#x27;t deal with octaves: a C3 is a C4 is a C; or accidentals: a sharp G is a flat G is a G. It also doesn&#x27;t wait for user input, as other apps do. Music doesn&#x27;t work that way; but more importantly, the point is to learn to recognize intervals instantly, <i>not</i> count them.<p>No account is necessary to use the app, only to participate in the leaderboard, and save one&#x27;s score in case of device reset (or to use more than one device). When an account is created, the data is stored on the server in SQLite; I&#x27;m curious to see how far it can go. (Without an account, no data leaves the device.)<p>It&#x27;s still a little rough around the edges but should work ok in reasonably recent browsers. On the client side, it uses VexFlow to display notes, staff and clefs, but animations are done using CSS transitions (not JS), to be mobile friendly. Tone.js helps provide a more accurate timing than a simple setInterval. Icons are coded in SVG by hand; for simple shapes, this is surprisingly fun and straightforward to do.",
+      "time": 1652633756,
+      "title": "Show HN: Babeloop, a simple music sight-reading webapp",
+      "type": "story",
+      "url": "https://www.babeloop.com/"
+    },
+    {
       "by": "arkadiyt",
       "descendants": 0,
       "id": 31388855,
-      "score": 1,
+      "score": 2,
       "time": 1652633670,
       "title": "ICE uses data brokers to bypass surveillance restrictions, report finds",
       "type": "story",
@@ -34,7 +65,7 @@
       "by": "DerekBickerton",
       "descendants": 0,
       "id": 31388830,
-      "score": 1,
+      "score": 2,
       "time": 1652633459,
       "title": "Apple Together: Thoughts on Office-Bound Work",
       "type": "story",
@@ -72,39 +103,6 @@
       "title": "The Fed Sure Sounds as If It Expects a Recession",
       "type": "story",
       "url": "https://www.bloomberg.com/opinion/articles/2022-05-14/the-federal-reserve-sure-sounds-as-if-it-expects-a-recession"
-    },
-    {
-      "by": "mbbrutman",
-      "descendants": 1,
-      "id": 31388763,
-      "kids": [
-        31388764
-      ],
-      "score": 2,
-      "time": 1652632989,
-      "title": "4.77Mhz Web server with reasonable performance (1984 PCjr)",
-      "type": "story",
-      "url": "http://brutmanlabs.org"
-    },
-    {
-      "by": "fcambus",
-      "descendants": 0,
-      "id": 31388741,
-      "score": 2,
-      "time": 1652632830,
-      "title": "Introduction to Compilers and Language Design",
-      "type": "story",
-      "url": "https://www3.nd.edu/~dthain/compilerbook/"
-    },
-    {
-      "by": "sebmellen",
-      "descendants": 0,
-      "id": 31388736,
-      "score": 2,
-      "time": 1652632803,
-      "title": "The NFT market hasn’t crashed – it was never not crashed",
-      "type": "story",
-      "url": "https://amycastor.com/2022/05/14/the-nft-market-hasnt-crashed-it-was-never-not-crashed/"
     }
   ]
 }
