@@ -1,6 +1,36 @@
 {
   "stories": [
     {
+      "by": "ghgr",
+      "descendants": 0,
+      "id": 31387160,
+      "score": 1,
+      "time": 1652617717,
+      "title": "Evolving Curricula with Regret-Based Environment Design",
+      "type": "story",
+      "url": "https://accelagent.github.io/"
+    },
+    {
+      "by": "kiyanwang",
+      "descendants": 0,
+      "id": 31387156,
+      "score": 1,
+      "time": 1652617665,
+      "title": "Improving Distributed Caching Performance and Efficiency at Pinterest",
+      "type": "story",
+      "url": "https://medium.com/pinterest-engineering/improving-distributed-caching-performance-and-efficiency-at-pinterest-92484b5fe39b"
+    },
+    {
+      "by": "samh748",
+      "descendants": 0,
+      "id": 31387152,
+      "score": 1,
+      "text": "Sorry this is going to be erratic &#x27;cause I&#x27;m about to implode.<p>NOTE: Please don&#x27;t tell me to get a therapist. I&#x27;ll seek them out when I&#x27;m ready. There&#x27;s just too much to explain.<p>I don&#x27;t know when this started, but I&#x27;ve only become more aware of it in recent years, probably after I got out of a recent depressive episode.<p>Prior to that episode, I was probably under chronic stress and tension and low-lying depression. Since the episode, I feel like I&#x27;m at an entirely new stage of growth. I finally feel sane and have some emotional stability. But with this relative stability comes my anxiousness whenever I &quot;fall off&quot; this stability.<p>In general I feel like I&#x27;m almost entirely driven by impulse, or at least reactivity. There are obviously certain things I do routinely that aren&#x27;t impulsive, like going to work and making dinner. But outside of these routines, I feel like I&#x27;m constantly needing some sort of &quot;drug&quot; to keep me going. Often it&#x27;s some sort of hormone-hit from novelty or from getting validation&#x2F;attention.<p>Take for example when I started posting on HN a little while ago. Once I did a few Ask-HN&#x27;s, I couldn&#x27;t stop. Almost everyday (sometimes twice a day), I&#x27;d think of something to ask, and then desperately watch my posts to see how many people responded. The same goes for comments; I&#x27;d watch to see if anyone thinks what I said is smart or whatever. After a month I ran out of fuel and stopped posting here. But then my attention switched to Discord where I was beginning to make some friends. It was super exciting to be hanging out and chatting away with like-minds. Both HN and Discord made me really happy, I don&#x27;t think I&#x27;ve been this happy my entire life, to finally feel seen and validated for being a weirdo. But after the novelty wore off, and the chatting slowed, I find myself struggling again with this immensely painful feeling of emptiness. And the weird thing is, I&#x27;m friggin&#x27; 30 already. Not a teenager. And I have a very loving and supportive partner at home whom I talk with regularly.<p>Another thing about me that may be odd is that I barely consume any content. Very little social media, I don&#x27;t watch youtube, I don&#x27;t even browse the web anymore. And it&#x27;s not deliberate or through &quot;discipline&quot;: I&#x27;ve stripped these away over time simply because I don&#x27;t find them interesting enough. And, I&#x27;m almost too self-aware (or self-critical) in the sense that I think I&#x27;m wasting my time doing these things, so I stop.<p>The only thing I think I&#x27;ve had <i>some</i> &quot;success&quot; with, is some sort of intellectual exploration, reading up and investigating certain topics that I&#x27;m intrigued by. But even this was somewhat impulsive, because I could never focus on reading something I&#x27;ve planned on reading, but can only &quot;chase my curiosity&quot; in the moment. While not necessarily unhealthy, it&#x27;s not very constructive. But at least it&#x27;s more self-directed and not so externally-driven like the social activities on HN&#x2F;Discord.<p>Anyway, sorry it&#x27;s all over the place. I think my problem is not being able to find something that reliably provides the right kind and amount of stimulation and engagement. But I also feel that I may be setting the bar too high for these activities, being self-critical that I&#x27;m not using my time wisely. I also think part of the problem was looking too much to externally-dependent activities, like HN&#x2F;Discord. But I also don&#x27;t want to go back to isolation, like I had been for so many years.<p>I don&#x27;t really know my question, I just know I&#x27;ve got problems and no solution.",
+      "time": 1652617632,
+      "title": "Ask HN: How do you maintain healthy hormonal/psychological balance?",
+      "type": "story"
+    },
+    {
       "by": "memorable",
       "descendants": 0,
       "id": 31387109,
@@ -32,8 +62,11 @@
     },
     {
       "by": "mhb",
-      "descendants": 0,
+      "descendants": 1,
       "id": 31387066,
+      "kids": [
+        31387153
+      ],
       "score": 1,
       "time": 1652616447,
       "title": "How much should you criticize other people?",
@@ -69,36 +102,6 @@
       "title": "Passing of ITER Director-General Bernard Bigot [pdf]",
       "type": "story",
       "url": "https://www.iter.org/doc/www/content/com/Lists/list_items/Attachments/1018/2022-05_Press_Release_transition.pdf"
-    },
-    {
-      "by": "kiyanwang",
-      "descendants": 0,
-      "id": 31387035,
-      "score": 1,
-      "time": 1652615987,
-      "title": "Observability Is Not Only for SREs",
-      "type": "story",
-      "url": "https://lightstep.com/blog/observability-mythbusters-observability-not-is-only-for-sres"
-    },
-    {
-      "by": "amichail",
-      "descendants": 0,
-      "id": 31387034,
-      "score": 1,
-      "time": 1652615976,
-      "title": "Video Games Are Better Without Stories",
-      "type": "story",
-      "url": "https://www.theatlantic.com/technology/archive/2017/04/video-games-stories/524148/"
-    },
-    {
-      "by": "solalf",
-      "descendants": 0,
-      "id": 31387033,
-      "score": 2,
-      "text": "# Context<p>I built a small CLI tool that I will distribute via Pypi. I would like to measure usage to inform future feature decisions.<p># Question<p>What tools do people use to collect usage analytics on their CLI tools?<p># Restrictions<p>I do not want to:\n- Authenticate users\n- Retain user identifiable data<p># Limitations<p>I&#x27;ve looked at Amplitude, but you&#x27;re supposed to put your API key there and my package is meant to be open source (the code, and therefore the key, will be public).",
-      "time": 1652615974,
-      "title": "Ask HN: What do you use for analytics of your CLI tool?",
-      "type": "story"
     }
   ]
 }
