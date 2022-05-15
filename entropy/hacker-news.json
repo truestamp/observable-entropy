@@ -1,9 +1,52 @@
 {
   "stories": [
     {
-      "by": "role",
+      "by": "nwotnagrom",
       "descendants": 0,
+      "id": 31389064,
+      "score": 1,
+      "time": 1652635110,
+      "title": "Video games can help boost children’s intelligence",
+      "type": "story",
+      "url": "https://news.ki.se/video-games-can-help-boost-childrens-intelligence"
+    },
+    {
+      "by": "kiyanwang",
+      "descendants": 0,
+      "id": 31389063,
+      "score": 1,
+      "time": 1652635102,
+      "title": "Why naming stuff is hard?",
+      "type": "story",
+      "url": "https://shekhargulati.com/2022/04/23/why-naming-stuff-is-hard/"
+    },
+    {
+      "by": "Aidevah",
+      "descendants": 0,
+      "id": 31389052,
+      "score": 1,
+      "time": 1652635015,
+      "title": "Stile Antics at the Library: Not Your “Liber Usualis” (2013)",
+      "type": "story",
+      "url": "https://blogs.loc.gov/music/2013/04/stile-antics-at-the-library-not-your-liber-usualis/"
+    },
+    {
+      "by": "iotdevicesdev",
+      "descendants": 0,
+      "id": 31389033,
+      "score": 1,
+      "time": 1652634942,
+      "title": "Choosing the Best I2C Chips: The Hidden SW Problem of Choosing HW Modules",
+      "type": "story",
+      "url": "https://iot-devices.com.ua/en/how-to-choose-the-right-i2c-chips-en/"
+    },
+    {
+      "by": "role",
+      "descendants": 1,
       "id": 31389024,
+      "kids": [
+        31389049
+      ],
       "score": 1,
       "text": "Are there any open-source &quot;general purpose&quot; JIT compiler&#x27;s out there? &quot;General purpose&quot; in the sense that it is not tied to any programming language (unlike v8 and luajit). At a high level, I want to feed in IR and get out a function pointer to call.<p>My use case is I have a DSL with a custom parser and interpreter. The DSL is essentially a programming language and is proving too slow (in terms of latency). The bottlneck is in the interpreter. I want to replace the interpreter with a JIT without having to deal with assembly code generation myself.<p>Preferably in Rust and&#x2F;or Rust bindings. Preferably lightweight (small object code footprint). Preferably cross-arch (x86, arm, arm64).",
       "time": 1652634893,
@@ -59,52 +102,6 @@
       "title": "Debugging C Code with GDB",
       "type": "story",
       "url": "https://medium.com/havingfun/debugging-c-code-with-gdb-90adb2f3da96"
-    },
-    {
-      "by": "angristan",
-      "descendants": 0,
-      "id": 31388970,
-      "score": 1,
-      "time": 1652634495,
-      "title": "Dotcom 2.0",
-      "type": "story",
-      "url": "https://www.netinterest.co/p/dotcom-20-d63"
-    },
-    {
-      "by": "awelkjlek",
-      "descendants": 0,
-      "id": 31388940,
-      "kids": [
-        31388941
-      ],
-      "score": 1,
-      "time": 1652634272,
-      "title": "Xi Jinping is suffering from brain aneurysm",
-      "type": "story",
-      "url": "https://www.dailymail.co.uk/news/article-10816327/Chinas-leader-Xi-Jinping-suffering-brain-aneurysm-snub-new-medicine-reports-claim.html"
-    },
-    {
-      "by": "kordlessagain",
-      "descendants": 0,
-      "id": 31388928,
-      "score": 1,
-      "time": 1652634180,
-      "title": "Birdfeeder Application",
-      "type": "story",
-      "url": "https://docs.vizycam.com/doku.php?id=wiki:birdfeeder_app"
-    },
-    {
-      "by": "samh748",
-      "descendants": 1,
-      "id": 31388926,
-      "kids": [
-        31388998
-      ],
-      "score": 3,
-      "text": "It&#x27;s bugged me for a long time but it seems so much of the working world is filled with sloppy, poorly done jobs. Maybe not the tech jobs and other higher-paying jobs, but definitely the lower-paying jobs where people are only concerned with fulfilling the most minimal of duties. It&#x27;s understandable of course, so I don&#x27;t blame the <i>people</i>, but I&#x27;m still quite bothered by the lack of attention people give to their work. My guess is that it has to do with our culture&#x27;s increasing obsession with speed and &quot;efficiency&quot;, rather than quality of work. And it&#x27;s impossible to take any pride in your work if an organization&#x27;s bottom line is speed, so much so that any attention paid to quality can become detrimental. Amazon comes to mind, but I see it in many other companies, small and large.<p>Do you observe this as well? Is it a trend, or has it always been like this? Are there ways to restore pride and quality in people&#x27;s work?",
-      "time": 1652634167,
-      "title": "Ask HN: What's with all the sloppy work? What's happened to quality?",
-      "type": "story"
     }
   ]
 }
