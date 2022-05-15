@@ -1,6 +1,36 @@
 {
   "stories": [
     {
+      "by": "trifit",
+      "descendants": 0,
+      "id": 31389130,
+      "score": 1,
+      "time": 1652635420,
+      "title": "What Are the Laws Affecting Construction Companies in India?",
+      "type": "story",
+      "url": "https://vakilsearch.com/advice/what-are-the-laws-affecting-construction-companies-in-india/"
+    },
+    {
+      "by": "3bproblem",
+      "descendants": 0,
+      "id": 31389127,
+      "score": 1,
+      "time": 1652635410,
+      "title": "Data Activation: The Next Step After Analytics",
+      "type": "story",
+      "url": "https://hightouch.io/blog/data-activation-the-next-step/"
+    },
+    {
+      "by": "tosh",
+      "descendants": 0,
+      "id": 31389099,
+      "score": 1,
+      "time": 1652635282,
+      "title": "What makes a good REPL? (2017)",
+      "type": "story",
+      "url": "https://vvvvalvalval.github.io/posts/what-makes-a-good-repl.html"
+    },
+    {
       "by": "nwotnagrom",
       "descendants": 0,
       "id": 31389064,
@@ -32,8 +62,11 @@
     },
     {
       "by": "iotdevicesdev",
-      "descendants": 0,
+      "descendants": 1,
       "id": 31389033,
+      "kids": [
+        31389105
+      ],
       "score": 1,
       "time": 1652634942,
       "title": "Choosing the Best I2C Chips: The Hidden SW Problem of Choosing HW Modules",
@@ -42,12 +75,13 @@
     },
     {
       "by": "role",
-      "descendants": 1,
+      "descendants": 2,
       "id": 31389024,
       "kids": [
+        31389140,
         31389049
       ],
-      "score": 1,
+      "score": 4,
       "text": "Are there any open-source &quot;general purpose&quot; JIT compiler&#x27;s out there? &quot;General purpose&quot; in the sense that it is not tied to any programming language (unlike v8 and luajit). At a high level, I want to feed in IR and get out a function pointer to call.<p>My use case is I have a DSL with a custom parser and interpreter. The DSL is essentially a programming language and is proving too slow (in terms of latency). The bottlneck is in the interpreter. I want to replace the interpreter with a JIT without having to deal with assembly code generation myself.<p>Preferably in Rust and&#x2F;or Rust bindings. Preferably lightweight (small object code footprint). Preferably cross-arch (x86, arm, arm64).",
       "time": 1652634893,
       "title": "Ask HN: Recommendation for general purpose JIT compiler",
@@ -72,36 +106,6 @@
       "title": "Programming languages: Python is slow, but it's about to get faster",
       "type": "story",
       "url": "https://www.zdnet.com/article/programming-languages-python-is-slow-but-its-about-to-get-faster/"
-    },
-    {
-      "by": "Brysonbw",
-      "descendants": 0,
-      "id": 31388986,
-      "score": 1,
-      "time": 1652634634,
-      "title": "Show HN: Share developer skills, social profile links, and more with one link",
-      "type": "story",
-      "url": "https://devlink-sbs.vercel.app/"
-    },
-    {
-      "by": "stmw",
-      "descendants": 0,
-      "id": 31388977,
-      "score": 1,
-      "time": 1652634566,
-      "title": "Mikhail Mil, Helicopter Designer",
-      "type": "story",
-      "url": "https://en.wikipedia.org/wiki/Mikhail_Mil"
-    },
-    {
-      "by": "depaulagu",
-      "descendants": 0,
-      "id": 31388972,
-      "score": 1,
-      "time": 1652634521,
-      "title": "Debugging C Code with GDB",
-      "type": "story",
-      "url": "https://medium.com/havingfun/debugging-c-code-with-gdb-90adb2f3da96"
     }
   ]
 }
