@@ -1,6 +1,29 @@
 {
   "stories": [
     {
+      "by": "acqbu",
+      "descendants": 1,
+      "id": 31395618,
+      "kids": [
+        31395622
+      ],
+      "score": 1,
+      "time": 1652699967,
+      "title": "In applying to NATO, Finland and Sweden give the lie to Putin’s claims",
+      "type": "story",
+      "url": "https://www.economist.com/leaders/2022/05/15/in-applying-to-nato-finland-and-sweden-give-the-lie-to-putins-claims"
+    },
+    {
+      "by": "bkmn",
+      "descendants": 0,
+      "id": 31395616,
+      "score": 1,
+      "time": 1652699948,
+      "title": "The AI Music Generation Challenge 2022",
+      "type": "story",
+      "url": "https://github.com/boblsturm/aimusicgenerationchallenge2022"
+    },
+    {
       "by": "erwan",
       "descendants": 0,
       "id": 31395566,
@@ -22,8 +45,11 @@
     },
     {
       "by": "jack_pp",
-      "descendants": 0,
+      "descendants": 1,
       "id": 31395552,
+      "kids": [
+        31395619
+      ],
       "score": 1,
       "text": "I work at a small startup (~5 devs) and right now we are hosting everything on Azure because we have some credits. Our use case does not really need instant scaling all that much since we&#x27;re a B2B business and know ahead of time how much compute we will need.<p>I&#x27;ve been trying to convince my CTO that we would gain more benefits from a dedicated hosting solution (Hetzner) but haven&#x27;t managed to convince him yet.<p>Right now we have around 5 small dedicated VMs for each dev (2 cores, 4gb ram) and 2 production VMs (4 cores, 16gb ram).<p>His arguments are that things are easier to manage in the cloud and he doesn&#x27;t want to have the extra burden of manually configuring infrastructure since none of us have any real background in systems administration and in the future when we will scale to more production machines it would be easier to just start another VM than wait for a new dedicated server. We also use Azure managed MySql which helps us to see performance easier than if we rolled our own.<p>Do you agree with me and if so what arguments should I use? Would you recommend something other than Hetzner?",
       "time": 1652699388,
@@ -82,29 +108,6 @@
       "title": "PhD Communications Online",
       "type": "story",
       "url": "https://findbestdegrees.com/phd-communications-online/"
-    },
-    {
-      "by": "seekry",
-      "descendants": 1,
-      "id": 31395507,
-      "kids": [
-        31395527
-      ],
-      "score": 2,
-      "text": "…and for what purpose?<p>Just curious about user behaviours in large online communities. Personally I rarely use them, for no particular reason, just never had a real need.<p>Curious what everyone else thinks.",
-      "time": 1652698968,
-      "title": "Ask HN: When was the last time you used Reddit live chat with a fellow redditor?",
-      "type": "story"
-    },
-    {
-      "by": "dmitrytsepelev",
-      "descendants": 0,
-      "id": 31395500,
-      "score": 3,
-      "time": 1652698861,
-      "title": "Making the Ruby interpreter run a program written in a natural language",
-      "type": "story",
-      "url": "https://dmitrytsepelev.dev/natural-language-programming-with-ruby"
     }
   ]
 }
