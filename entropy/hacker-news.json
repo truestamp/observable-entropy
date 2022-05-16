@@ -1,6 +1,45 @@
 {
   "stories": [
     {
+      "by": "corobo",
+      "descendants": 0,
+      "id": 31395997,
+      "score": 1,
+      "text": "When it first came out I had a vouch option on flagged-deleted comments which allowed me to un-flag and resurrect the comment. Decent idea, people are using it for a megadownvote.<p>Recently though I&#x27;ve noticed it went missing, I figured I&#x27;d used it too much or in a way someone under the hood didn&#x27;t like<p>Even more recently I&#x27;ve noticed I can vouch for dead comments -- as in not flagged, the user deleted the comment<p>I also noted that by vouching a comment that is both flagged and dead it removes the flagged state, if you then unvouch, it leaves it just dead and loses the flagged tag<p>Is it working properly? My hunch is that it&#x27;s been attached to `if ([dead])` instead of `if ([dead] &amp;&amp; [flagged])` somewhere, but I have no real idea.<p>Do I just not understand it?",
+      "time": 1652702901,
+      "title": "Ask HN: How does vouch work on HN?",
+      "type": "story"
+    },
+    {
+      "by": "indus",
+      "descendants": 0,
+      "id": 31395991,
+      "score": 1,
+      "time": 1652702868,
+      "title": "Ask HN: Is WordPress the most vulnerable website hosting tool?",
+      "type": "story"
+    },
+    {
+      "by": "mmastrac",
+      "descendants": 0,
+      "id": 31395978,
+      "score": 1,
+      "time": 1652702768,
+      "title": "Collapse of Luna cryptocurrency leads to $11M exploit on Venus Protocol",
+      "type": "story",
+      "url": "https://therecord.media/collapse-of-luna-cryptocurrency-leads-to-11-million-exploit-on-venus-protocol/"
+    },
+    {
+      "by": "indus",
+      "descendants": 0,
+      "id": 31395975,
+      "score": 1,
+      "time": 1652702725,
+      "title": "Hackers are using SEO to rank malicious PDFs on search engines",
+      "type": "story",
+      "url": "https://venturebeat.com/2022/05/09/researchers-hackers-using-seo/"
+    },
+    {
       "by": "woliveirajr",
       "descendants": 0,
       "id": 31395972,
@@ -59,46 +98,6 @@
       "title": "2023 Nissan Z First Drive Review: Old School in the Best Ways",
       "type": "story",
       "url": "https://www.thedrive.com/new-cars/2023-nissan-z-first-drive-review-old-school-in-the-best-ways"
-    },
-    {
-      "by": "robin_reala",
-      "descendants": 0,
-      "id": 31395947,
-      "score": 1,
-      "time": 1652702501,
-      "title": "Systems, Mistakes, and the Sea (2019)",
-      "type": "story",
-      "url": "https://www.robinrendle.com/essays/systems-mistakes-and-the-sea/"
-    },
-    {
-      "by": "bovermyer",
-      "descendants": 0,
-      "id": 31395944,
-      "score": 1,
-      "text": "I recently moved, and I want to discover local meetups. I have a vague recollection that Meetup.com more or less died after going pay-to-play.<p>So, what replaced it as the go-to for finding local meetups?",
-      "time": 1652702485,
-      "title": "Ask HN: What Replaced Meetup?",
-      "type": "story"
-    },
-    {
-      "by": "giuliomagnifico",
-      "descendants": 0,
-      "id": 31395942,
-      "score": 1,
-      "time": 1652702465,
-      "title": "While Ukraine Dominates the News, North Korea Could Become the Next Great Crisis",
-      "type": "story",
-      "url": "https://original.antiwar.com/doug-bandow/2022/05/15/while-ukraine-dominates-the-news-north-korea-could-become-the-next-great-crisis/"
-    },
-    {
-      "by": "blutack",
-      "descendants": 0,
-      "id": 31395927,
-      "score": 1,
-      "time": 1652702385,
-      "title": "Let's copy the key to T-Pain's new place",
-      "type": "story",
-      "url": "https://www.youtube.com/watch?v=JoRyv4ANhM4"
     }
   ]
 }
