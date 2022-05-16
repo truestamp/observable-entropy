@@ -1,6 +1,27 @@
 {
   "stories": [
     {
+      "by": "chgo1",
+      "descendants": 0,
+      "id": 31394078,
+      "score": 1,
+      "time": 1652681703,
+      "title": "YU Internet Domain Name Registry (1999)",
+      "type": "story",
+      "url": "https://web.archive.org/web/19990116231731/http://www.nic.yu/"
+    },
+    {
+      "by": "npage97",
+      "descendants": 0,
+      "id": 31394063,
+      "score": 2,
+      "text": "I&#x27;ve been using SDS a lot and really like the library. However it sometimes feels like overkill because when I&#x27;m building strings I frequently know that it will be within some bound of length. The full dynamic length capabilities aren&#x27;t necessary and can become a pain-point when doing error handling. But on the otherhand the &lt;string.h&gt; functions always feel very verbose to maintain.<p>As such to scratch my own itch this weekend, I&#x27;ve developed SBS. SBS reformulates SDS around providing pre-defined buffers to perform the operation on. This means no resource management and the opportunity to use it in embedded environments that do not have heap allocation.<p>It is still very early on (no tags yet) but I want to see if there exists other libraries in this area? All I can dig up online are built around dynamic heap allocation.",
+      "time": 1652681445,
+      "title": "Show HN: SBS – A reformulation of SDS without heap allocation",
+      "type": "story",
+      "url": "https://github.com/nathanrpage97/sbs"
+    },
+    {
       "by": "geuis",
       "descendants": 0,
       "id": 31394056,
@@ -82,29 +103,6 @@
       "title": "Moving Beyond Gender Assumptions in the Board Game Hobby (2021)",
       "type": "story",
       "url": "https://stonemaiergames.com/moving-beyond-gender-assumptions-in-the-board-game-hobby/"
-    },
-    {
-      "by": "Tomte",
-      "descendants": 0,
-      "id": 31393960,
-      "score": 1,
-      "time": 1652679938,
-      "title": "A flight-sim cockpit helps me get away from it all (figuratively)",
-      "type": "story",
-      "url": "https://arstechnica.com/gaming/2021/09/how-a-flight-sim-cockpit-helps-me-get-away-from-it-all-figuratively/"
-    },
-    {
-      "by": "barry-cotter",
-      "descendants": 1,
-      "id": 31393952,
-      "kids": [
-        31394022
-      ],
-      "score": 1,
-      "time": 1652679700,
-      "title": "Is an unknown, extraordinarily ancient civilisation buried under eastern Turkey?",
-      "type": "story",
-      "url": "https://www.spectator.co.uk/article/does-an-unknown-extraordinarily-ancient-civilisation-lie-buried-under-eastern-turkey-"
     }
   ]
 }
