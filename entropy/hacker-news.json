@@ -1,11 +1,31 @@
 {
   "stories": [
     {
+      "by": "geox",
+      "descendants": 0,
+      "id": 31396011,
+      "score": 1,
+      "time": 1652703067,
+      "title": "Gun Violence Archive",
+      "type": "story",
+      "url": "https://www.gunviolencearchive.org/"
+    },
+    {
+      "by": "jakobgreenfeld",
+      "descendants": 0,
+      "id": 31396005,
+      "score": 1,
+      "time": 1652703025,
+      "title": "You don't need anyone's permission to succeed",
+      "type": "story",
+      "url": "https://jakobgreenfeld.com/operating-permissionless"
+    },
+    {
       "by": "corobo",
       "descendants": 0,
       "id": 31395997,
       "score": 1,
-      "text": "When it first came out I had a vouch option on flagged-deleted comments which allowed me to un-flag and resurrect the comment. Decent idea, people are using it for a megadownvote.<p>Recently though I&#x27;ve noticed it went missing, I figured I&#x27;d used it too much or in a way someone under the hood didn&#x27;t like<p>Even more recently I&#x27;ve noticed I can vouch for dead comments -- as in not flagged, the user deleted the comment<p>I also noted that by vouching a comment that is both flagged and dead it removes the flagged state, if you then unvouch, it leaves it just dead and loses the flagged tag<p>Is it working properly? My hunch is that it&#x27;s been attached to `if ([dead])` instead of `if ([dead] &amp;&amp; [flagged])` somewhere, but I have no real idea.<p>Do I just not understand it?",
+      "text": "When it first came out I had a vouch option on flagged-deleted comments which allowed me to un-flag and resurrect the comment. Decent idea, people are using it for a megadownvote.<p>Recently though I&#x27;ve noticed it went missing, I figured I&#x27;d used it too much or in a way someone under the hood didn&#x27;t like<p>Even more recently I&#x27;ve noticed I can vouch-res dead comments -- as in not flagged, the user deleted the comment. Unvouching leaves the comment in an un-[dead] state. For what it&#x27;s worth I didn&#x27;t do this on purpose, just mis-tapped the tiny text on mobile.<p>I also noted that by vouching a comment that is both flagged and dead it removes the flagged state, if you then unvouch, it leaves it just dead and loses the flagged tag<p>Is it working properly? My hunch is that it&#x27;s been attached to `if ([dead])` instead of `if ([dead] &amp;&amp; [flagged])` somewhere, but I have no real idea.<p>Do I just not understand it?",
       "time": 1652702901,
       "title": "Ask HN: How does vouch work on HN?",
       "type": "story"
@@ -33,7 +53,7 @@
       "by": "indus",
       "descendants": 0,
       "id": 31395975,
-      "score": 1,
+      "score": 2,
       "time": 1652702725,
       "title": "Hackers are using SEO to rank malicious PDFs on search engines",
       "type": "story",
@@ -78,26 +98,6 @@
       "title": "The Effects of the Covid-19 Confinement on Screen Time, Headaches on Adolescents",
       "type": "story",
       "url": "https://journals.sagepub.com/doi/full/10.1177/24705470221099836"
-    },
-    {
-      "by": "asankov",
-      "descendants": 0,
-      "id": 31395964,
-      "score": 1,
-      "time": 1652702648,
-      "title": "Demystifying the Kubernetes Iceberg",
-      "type": "story",
-      "url": "https://asankov.dev/blog/2022/05/15/demystifying-the-kubernetes-iceberg-part-1/"
-    },
-    {
-      "by": "luke2m",
-      "descendants": 0,
-      "id": 31395961,
-      "score": 1,
-      "time": 1652702628,
-      "title": "2023 Nissan Z First Drive Review: Old School in the Best Ways",
-      "type": "story",
-      "url": "https://www.thedrive.com/new-cars/2023-nissan-z-first-drive-review-old-school-in-the-best-ways"
     }
   ]
 }
