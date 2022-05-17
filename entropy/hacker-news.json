@@ -1,14 +1,95 @@
 {
   "stories": [
     {
-      "by": "JackWritesCode",
-      "descendants": 0,
-      "id": 31410765,
+      "by": "ajpinedam",
+      "dead": true,
+      "id": 31410842,
       "score": 1,
-      "time": 1652796017,
-      "title": "Does Laravel Scale?",
+      "time": 1652796310,
+      "type": "story"
+    },
+    {
+      "by": "Vaslo",
+      "descendants": 0,
+      "id": 31410839,
+      "score": 1,
+      "time": 1652796302,
+      "title": "Twitter engineer recorded saying ‘Commie as f–k’ staff ‘censors the right’",
       "type": "story",
-      "url": "https://usefathom.com/blog/does-laravel-scale"
+      "url": "https://nypost.com/2022/05/17/twitter-engineer-says-commie-staff-censors-the-right/"
+    },
+    {
+      "by": "conanxin",
+      "descendants": 0,
+      "id": 31410838,
+      "score": 1,
+      "time": 1652796295,
+      "title": "Artists are making tiny ROMs that will probably outlive us all",
+      "type": "story",
+      "url": "https://www.theverge.com/22935074/hundred-rabbits-uxn-roms-preservation"
+    },
+    {
+      "by": "bookofjoe",
+      "descendants": 0,
+      "id": 31410815,
+      "score": 1,
+      "time": 1652796213,
+      "title": "Human Library",
+      "type": "story",
+      "url": "https://humanlibrary.org/"
+    },
+    {
+      "by": "gk1",
+      "descendants": 0,
+      "id": 31410801,
+      "score": 1,
+      "time": 1652796126,
+      "title": "Long Form Question Answering in Haystack",
+      "type": "story",
+      "url": "https://www.pinecone.io/learn/haystack-lfqa/"
+    },
+    {
+      "by": "DeathArrow",
+      "descendants": 0,
+      "id": 31410799,
+      "score": 1,
+      "time": 1652796114,
+      "title": "C# popularity surges in Tiobe index",
+      "type": "story",
+      "url": "https://www.infoworld.com/article/3660078/c-sharp-popularity-surges-in-tiobe-programming-language-index.html"
+    },
+    {
+      "by": "PaulHoule",
+      "descendants": 0,
+      "id": 31410792,
+      "score": 1,
+      "time": 1652796087,
+      "title": "Safe Control for Mobile Robotic Arm with Control Barrier Functions",
+      "type": "story",
+      "url": "https://arxiv.org/abs/2204.08265"
+    },
+    {
+      "by": "focusedone",
+      "descendants": 1,
+      "id": 31410783,
+      "kids": [
+        31410784
+      ],
+      "score": 2,
+      "time": 1652796070,
+      "title": "Microsoft – 'send a check or money order for $5.00'",
+      "type": "story",
+      "url": "https://docs.microsoft.com/en-us/dynamics365/get-started/whats-new/customer-engagement/third-party-notices-dynamics-365.htm"
+    },
+    {
+      "by": "mariuz",
+      "descendants": 0,
+      "id": 31410767,
+      "score": 2,
+      "time": 1652796021,
+      "title": "An 80-minute documentary on the making of Super Mario World",
+      "type": "story",
+      "url": "https://www.youtube.com/watch?v=s2bTQK6vbKI"
     },
     {
       "by": "trifit",
@@ -19,87 +100,6 @@
       "title": "Apple aims to support podcasters with Delegate Delivery feature",
       "type": "story",
       "url": "https://www.timesnownews.com/technology-science/apple-aims-to-support-podcasters-with-delegate-delivery-feature-article-91621028"
-    },
-    {
-      "by": "todsacerdoti",
-      "descendants": 0,
-      "id": 31410738,
-      "score": 1,
-      "time": 1652795922,
-      "title": "Pipedream Closes $20M Series A",
-      "type": "story",
-      "url": "https://pipedream.com/blog/series-a-financing/"
-    },
-    {
-      "by": "WolfOliver",
-      "descendants": 0,
-      "id": 31410708,
-      "score": 1,
-      "time": 1652795810,
-      "title": "CKSource (CKEditor) is acquired by PSG, a growth equity firm",
-      "type": "story",
-      "url": "https://ckeditor.com/blog/cksource-is-acquired-by-psg-a-growth-equity-firm/"
-    },
-    {
-      "by": "jmorgan",
-      "descendants": 0,
-      "id": 31410688,
-      "score": 3,
-      "text": "Hey HN! We’re Jeff and Michael, and we’re building Infra (<a href=\"https:&#x2F;&#x2F;github.com&#x2F;infrahq&#x2F;infra\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;infrahq&#x2F;infra</a>). Infra is a tool for managing access to cloud infrastructure. We’re starting with Kubernetes and have a roadmap to support Postgres, SSH and much more.<p>Michael and I were the co-founders of Kitematic, an easy way to run Docker on the desktop. We sold the company to Docker and built Docker Desktop while there. After that, we worked on Infra App, a Kubernetes client for Mac, Windows and Linux. Between what users told us and our time at Docker, it became obvious that managing infrastructure access was becoming increasingly painful.<p>Many larger teams don’t give access to developers, while smaller teams often just grant admin access to everyone. Teams in between either build extensive tooling in-house (e.g. Segment’s Access Service), or they end up spending a lot of time manually onboarding and offboarding team members with the right permissions.  We wanted to help teams securely distribute access using the principles of least privilege to their infrastructure systems without managing certificates, keys or integrations with identity providers.<p>With Infra, access is granted or revoked via an API or CLI, and in the background, Infra takes care of provisioning users &amp; groups with the right permissions no matter where the cluster is hosted (EKS, GKE, AKS, or other managed&#x2F;self-hosted Kubernetes clusters). When users need access, Infra distributes short-lived credentials that expire after a short period. For larger teams, Infra integrates with identity providers like Okta to automatically give access via existing accounts.<p>Credentials are signed and verified by a central root of trust with a short time to live, so they are easily revoked or rotated when necessary. Infra doesn’t rely on a single point of failure. Other tools in this space use a centralized proxy to verify credentials, whereas Infra instead verifies them at the destination infrastructure. Access continues to work should Infra’s API or the configured identity provider go down temporarily. For clusters hosted in different regions, this means users won’t suffer from slow connections from being proxied.<p>Infra is a lightweight service written in Go, uses &lt;100MB memory at rest, and is deployed by default with SQLite.<p>There are a few existing tools that solve infrastructure access management, but they are sold directly to directors of engineering or security teams and can’t be easily deployed by smaller teams without an expensive sales contract. We set out to build a product that teams of any size can pick up, self-host, deploy and build custom tooling on top of without fretting about a sales conversation.<p>Our GitHub repo is at <a href=\"https:&#x2F;&#x2F;github.com&#x2F;infrahq&#x2F;infra\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;infrahq&#x2F;infra</a> which contains the full product that can be self-hosted via Docker or Kubernetes. We plan to make money by running a managed service version of Infra so teams don’t need to host and upgrade Infra manually. We don’t have pricing for this yet but will charge in a way that scales with usage, so even smaller teams (&lt;10) can use it.<p>Our team includes an early VMware employee whose work is used in all VMware ESXi installs, an engineer from Hashicorp who was a large contributor to Consul, the original developer evangelist from Datadog, and the engineer who built 1Password’s cloud service, 1Password for teams.<p>We started building Infra a year ago and have been quietly iterating on it with a few teams of various sizes, ranging from 5 developers to public companies. We’re so happy to be able to share it with you and can’t wait to hear your feedback and thoughts!",
-      "time": 1652795734,
-      "title": "Launch HN: Infra (YC W21) – Open-source access management for Kubernetes",
-      "type": "story",
-      "url": "https://github.com/infrahq/infra"
-    },
-    {
-      "by": "JumpCrisscross",
-      "descendants": 0,
-      "id": 31410672,
-      "score": 1,
-      "time": 1652795692,
-      "title": "Qantas says synthetic fuel could power long flights by mid-2030s",
-      "type": "story",
-      "url": "https://www.ft.com/content/59b535db-8f5a-450a-ac5c-95f5f1645938"
-    },
-    {
-      "by": "pipeline_peak",
-      "descendants": 0,
-      "id": 31410663,
-      "score": 1,
-      "text": "Part of what allows Microsoft and Sony to release affordable consoles with PC-like performance are developer port optimizations and lower hardware prices directly from OEMs.<p>Valve attempted the Steam Box years ago, it failed, but with Steamdeck, they proved they could establish their own hardware platform.<p>Is there a future for smaller companies in the console market with AMD apu based devices? Or does none of this matter because of cloud gaming.",
-      "time": 1652795646,
-      "title": "Ask HN: Why aren’t larger companies making PC based consoles?",
-      "type": "story"
-    },
-    {
-      "by": "thunderbong",
-      "descendants": 0,
-      "id": 31410653,
-      "score": 1,
-      "time": 1652795601,
-      "title": "Pass by Catastrophe",
-      "type": "story",
-      "url": "https://en.wikipedia.org/wiki/Pass_by_catastrophe"
-    },
-    {
-      "by": "hubraumhugo",
-      "descendants": 0,
-      "id": 31410628,
-      "score": 2,
-      "time": 1652795497,
-      "title": "Intel shareholders reject executive pay",
-      "type": "story",
-      "url": "https://www.cnbc.com/2022/05/16/intel-shareholders-reject-executive-pay.html"
-    },
-    {
-      "by": "kosasbest",
-      "descendants": 0,
-      "id": 31410626,
-      "score": 1,
-      "time": 1652795492,
-      "title": "BenchSci: AI-Assisted Reagent Selection and Experiment Design",
-      "type": "story",
-      "url": "https://www.benchsci.com"
     }
   ]
 }
