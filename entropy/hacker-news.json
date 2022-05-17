@@ -1,10 +1,60 @@
 {
   "stories": [
     {
+      "by": "sizzle",
+      "descendants": 0,
+      "id": 31414494,
+      "score": 1,
+      "time": 1652811541,
+      "title": "Reflecting on things I failed to get done at Google",
+      "type": "story",
+      "url": "https://tomcritchlow.com/2022/05/12/google-ideas/"
+    },
+    {
+      "by": "digitcatphd",
+      "descendants": 0,
+      "id": 31414477,
+      "score": 1,
+      "text": "If you were to take an estimate of all knowledge in the universe, what percent of this do you suspect is understood by humans?<p>Secondarily, what percent of information we perceive to be facts is actually false across all disciplines?<p>What percent do you think we will get to before our species is extinct?",
+      "time": 1652811440,
+      "title": "Ask HN: What percent of all potential knowledge is understood by humans?",
+      "type": "story"
+    },
+    {
+      "by": "spansoa",
+      "descendants": 0,
+      "id": 31414464,
+      "score": 1,
+      "time": 1652811385,
+      "title": "SwiftUI Canvas, Path, Shape, and View",
+      "type": "story",
+      "url": "https://sowenjub.me/writes/swiftui-canvas-path-shape-and-view/"
+    },
+    {
+      "by": "madacol",
+      "descendants": 0,
+      "id": 31414459,
+      "score": 1,
+      "text": "I&#x27;ve been thinking it might be practical to build a simple decentralized database, where agents just know each other, so conflict resolution does not need to be so strong and can rely on the social layer.<p>I think this applies to most databases, but I&#x27;m particularly thinking of internal enterprise databases, some social networks, any federated database system, and different devices of a single user<p>I&#x27;m thinking of this features:<p>1- Append-only?, full history of operations. Deletes &#x2F; edits do not remove data, they only modify the &quot;active state&quot;<p>2- Agents are public keys or similar (DIDs?)<p>3- Operations are signed, and receivers verify if operation is valid, and sender is allowed<p>4- Operations form a Merkel-DAG (similar to git, they link to the tips of current &quot;active state&quot;, like a commit&#x2F;merge in git)<p>So far I think I&#x27;ve basically described [OrbitDB](https:&#x2F;&#x2F;github.com&#x2F;orbitdb&#x2F;orbit-db)<p>Consensus is where things get real hard, [OrbitDb seems to use a last-write-wins CRDT](https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=22920204), and although I don&#x27;t know the details of orbitDb, I think for many simple use-cases, conflicts can just be resolved on the social layer. But I think we need to provide agents with good tools to resolve conflicts<p>I&#x27;ll try my best here with some ideas:<p>When merging, we can order operations by their timestamp, if operations enter conflict, raise it to the conflicting agents, or someone with permission to solve them.<p>If an agent makes public an operation that forks its own history, mark agent as malicious or compromised, alert other agents, this needs resolution on the social layer, you have proof of misconduct, an agent has signed diverging operations<p>Any operation becomes fully settled if you have proof that all agents of your system have referenced it directly or indirectly through newer operations.<p>Timestamps can be upgraded by using @opentimestamps to get proof that an operation existed at time X (prevents creation of operations in hindsight). Though this does not prove operation has been made public",
+      "time": 1652811355,
+      "title": "Ask HN: Is there a descentralized DB with a simple social conflict resolution?",
+      "type": "story"
+    },
+    {
+      "by": "craigkerstiens",
+      "descendants": 0,
+      "id": 31414455,
+      "score": 1,
+      "time": 1652811325,
+      "title": "Heroku's Polyglot Roadmap (2010)",
+      "type": "story",
+      "url": "https://gist.github.com/adamwiggins/7d0e0805e0e44870f17f"
+    },
+    {
       "by": "gmays",
       "descendants": 0,
       "id": 31414437,
-      "score": 1,
+      "score": 2,
       "time": 1652811232,
       "title": "The Bronc-Busting, Cow-Punching, Death-Defying Legend of Boots O’Neal",
       "type": "story",
@@ -49,56 +99,6 @@
       "title": "Chromebooks: Desktops you can trust to be there",
       "type": "story",
       "url": "https://www.computerworld.com/article/3660577/chromebooks-desktops-you-can-trust-to-be-there.html"
-    },
-    {
-      "by": "boeingUH60",
-      "descendants": 0,
-      "id": 31414402,
-      "score": 3,
-      "time": 1652811049,
-      "title": "Three More Twitter Executives Depart As Musk Takeover Looms",
-      "type": "story",
-      "url": "https://www.bloomberg.com/news/articles/2022-05-17/twitter-loses-three-more-senior-employees-ahead-of-musk-takeover"
-    },
-    {
-      "by": "uptown",
-      "descendants": 0,
-      "id": 31414396,
-      "score": 3,
-      "time": 1652811020,
-      "title": "New Federal Report Shows Two-Decade Surge in Gun Manufacturing",
-      "type": "story",
-      "url": "https://www.wsj.com/articles/new-federal-report-shows-two-decade-surge-in-gun-manufacturing-11652802350"
-    },
-    {
-      "by": "pseudolus",
-      "descendants": 0,
-      "id": 31414389,
-      "score": 2,
-      "time": 1652810994,
-      "title": "One statistical analysis must not rule them all",
-      "type": "story",
-      "url": "https://www.nature.com/articles/d41586-022-01332-8"
-    },
-    {
-      "by": "jgrant27",
-      "descendants": 0,
-      "id": 31414388,
-      "score": 1,
-      "time": 1652810977,
-      "title": "1980's Computer Fraud British TV Documentary",
-      "type": "story",
-      "url": "https://www.youtube.com/watch?v=q0jbNMJh2X0"
-    },
-    {
-      "by": "willdjarvis1",
-      "descendants": 0,
-      "id": 31414383,
-      "score": 1,
-      "time": 1652810967,
-      "title": "Norway, the Once and Future Georgist Kingdom",
-      "type": "story",
-      "url": "https://slimemoldtimemold.com/2022/05/17/norway-the-once-and-future-georgist-kingdom/"
     }
   ]
 }
