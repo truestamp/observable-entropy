@@ -1,10 +1,70 @@
 {
   "stories": [
     {
+      "by": "qnk",
+      "descendants": 0,
+      "id": 31414567,
+      "score": 1,
+      "time": 1652811877,
+      "title": "Netflix Hit by Layoffs; About 150 Mostly U.S.-Based Employees Affected",
+      "type": "story",
+      "url": "https://deadline.com/2022/05/netflix-layoffs-us-employees-1235026085/"
+    },
+    {
+      "by": "vblanco",
+      "descendants": 0,
+      "id": 31414566,
+      "score": 1,
+      "time": 1652811867,
+      "title": "Making Sense of VRChat, the “Metaverse” People Like [video]",
+      "type": "story",
+      "url": "https://www.youtube.com/watch?v=4PHT-zBxKQQ"
+    },
+    {
+      "by": "fmoronzirfas",
+      "descendants": 0,
+      "id": 31414542,
+      "score": 1,
+      "time": 1652811783,
+      "title": "Buildable – An instant back end for the modern developer",
+      "type": "story",
+      "url": "https://www.buildable.dev/"
+    },
+    {
+      "by": "metadat",
+      "descendants": 0,
+      "id": 31414538,
+      "score": 1,
+      "time": 1652811755,
+      "title": "A simple way to get more value from metrics",
+      "type": "story",
+      "url": "https://danluu.com/metrics-analytics/"
+    },
+    {
+      "by": "trifit",
+      "descendants": 0,
+      "id": 31414518,
+      "score": 1,
+      "time": 1652811646,
+      "title": "How Much Random World History Knowledge Do You Have?",
+      "type": "story",
+      "url": "https://www.buzzfeed.com/natashajokic1/history-major-quiz"
+    },
+    {
+      "by": "okasaki",
+      "descendants": 0,
+      "id": 31414506,
+      "score": 2,
+      "time": 1652811602,
+      "title": "Sonshi Style – A Style of Putting HHKB Keyboard on Laptop",
+      "type": "story",
+      "url": "https://medium.com/lim-less-is-more/sonshi-style-a-style-of-putting-keyboard-on-laptop-67f0a825a53c"
+    },
+    {
       "by": "sizzle",
       "descendants": 0,
       "id": 31414494,
-      "score": 1,
+      "score": 2,
       "time": 1652811541,
       "title": "Reflecting on things I failed to get done at Google",
       "type": "story",
@@ -32,73 +92,16 @@
     },
     {
       "by": "madacol",
-      "descendants": 0,
+      "descendants": 1,
       "id": 31414459,
-      "score": 1,
+      "kids": [
+        31414569
+      ],
+      "score": 2,
       "text": "I&#x27;ve been thinking it might be practical to build a simple decentralized database, where agents just know each other, so conflict resolution does not need to be so strong and can rely on the social layer.<p>I think this applies to most databases, but I&#x27;m particularly thinking of internal enterprise databases, some social networks, any federated database system, and different devices of a single user<p>I&#x27;m thinking of this features:<p>1- Append-only?, full history of operations. Deletes &#x2F; edits do not remove data, they only modify the &quot;active state&quot;<p>2- Agents are public keys or similar (DIDs?)<p>3- Operations are signed, and receivers verify if operation is valid, and sender is allowed<p>4- Operations form a Merkel-DAG (similar to git, they link to the tips of current &quot;active state&quot;, like a commit&#x2F;merge in git)<p>So far I think I&#x27;ve basically described [OrbitDB](https:&#x2F;&#x2F;github.com&#x2F;orbitdb&#x2F;orbit-db)<p>Consensus is where things get real hard, [OrbitDb seems to use a last-write-wins CRDT](https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=22920204), and although I don&#x27;t know the details of orbitDb, I think for many simple use-cases, conflicts can just be resolved on the social layer. But I think we need to provide agents with good tools to resolve conflicts<p>I&#x27;ll try my best here with some ideas:<p>When merging, we can order operations by their timestamp, if operations enter conflict, raise it to the conflicting agents, or someone with permission to solve them.<p>If an agent makes public an operation that forks its own history, mark agent as malicious or compromised, alert other agents, this needs resolution on the social layer, you have proof of misconduct, an agent has signed diverging operations<p>Any operation becomes fully settled if you have proof that all agents of your system have referenced it directly or indirectly through newer operations.<p>Timestamps can be upgraded by using @opentimestamps to get proof that an operation existed at time X (prevents creation of operations in hindsight). Though this does not prove operation has been made public",
       "time": 1652811355,
       "title": "Ask HN: Is there a descentralized DB with a simple social conflict resolution?",
       "type": "story"
-    },
-    {
-      "by": "craigkerstiens",
-      "descendants": 0,
-      "id": 31414455,
-      "score": 1,
-      "time": 1652811325,
-      "title": "Heroku's Polyglot Roadmap (2010)",
-      "type": "story",
-      "url": "https://gist.github.com/adamwiggins/7d0e0805e0e44870f17f"
-    },
-    {
-      "by": "gmays",
-      "descendants": 0,
-      "id": 31414437,
-      "score": 2,
-      "time": 1652811232,
-      "title": "The Bronc-Busting, Cow-Punching, Death-Defying Legend of Boots O’Neal",
-      "type": "story",
-      "url": "https://www.texasmonthly.com/being-texan/legend-of-boots-oneal/"
-    },
-    {
-      "by": "grep_it",
-      "descendants": 0,
-      "id": 31414436,
-      "score": 1,
-      "time": 1652811229,
-      "title": "Regular Expression Search Algorithm (1968) – Ken Thompson [pdf]",
-      "type": "story",
-      "url": "https://www.oilshell.org/archive/Thompson-1968.pdf"
-    },
-    {
-      "by": "shimont",
-      "descendants": 0,
-      "id": 31414422,
-      "score": 1,
-      "time": 1652811164,
-      "title": "My guide to upgrading EKS to version 1.22 – beware of removed APIs",
-      "type": "story",
-      "url": "https://datree.io/resources/eks-1-22-upgrade-tutorial"
-    },
-    {
-      "by": "avitzurel",
-      "descendants": 0,
-      "id": 31414419,
-      "score": 1,
-      "time": 1652811152,
-      "title": "Managing GitHub with Terraform and Saml Without GitHub Enterprise",
-      "type": "story",
-      "url": "https://www.kensodev.com/posts/2022/05/17/managing-github-with-terraform-and-saml-without-github-enterprise/"
-    },
-    {
-      "by": "CrankyBear",
-      "descendants": 0,
-      "id": 31414403,
-      "score": 2,
-      "time": 1652811057,
-      "title": "Chromebooks: Desktops you can trust to be there",
-      "type": "story",
-      "url": "https://www.computerworld.com/article/3660577/chromebooks-desktops-you-can-trust-to-be-there.html"
     }
   ]
 }
