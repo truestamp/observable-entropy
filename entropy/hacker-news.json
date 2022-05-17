@@ -1,6 +1,49 @@
 {
   "stories": [
     {
+      "by": "_bramses",
+      "descendants": 0,
+      "id": 31414044,
+      "score": 1,
+      "time": 1652809448,
+      "title": "King George and Tsar Nicolas Looked a Lot Alike",
+      "type": "story",
+      "url": "https://www.bramadams.dev/projects/cousins-or-dating"
+    },
+    {
+      "by": "devy",
+      "descendants": 0,
+      "id": 31414042,
+      "score": 1,
+      "time": 1652809444,
+      "title": "Recession deep dive: VC psychology, macro risks, Tiger Global, predictions",
+      "type": "story",
+      "url": "https://www.youtube.com/watch?v=ezOIBfZcwbQ"
+    },
+    {
+      "by": "cdevroe",
+      "descendants": 1,
+      "id": 31414017,
+      "kids": [
+        31414018
+      ],
+      "score": 1,
+      "time": 1652809311,
+      "title": "Show HN: Stupid – A simple daily word scramble",
+      "type": "story",
+      "url": "https://stupidwordgame.com/"
+    },
+    {
+      "by": "BestMusic",
+      "descendants": 0,
+      "id": 31414010,
+      "score": 1,
+      "time": 1652809300,
+      "title": "Emanuela własne utwory muzycze. Own songs of Emanuela",
+      "type": "story",
+      "url": "https://emanuelarabinska.art/index.html"
+    },
+    {
       "by": "Tomte",
       "descendants": 0,
       "id": 31413967,
@@ -14,7 +57,7 @@
       "by": "uptown",
       "descendants": 0,
       "id": 31413947,
-      "score": 1,
+      "score": 2,
       "time": 1652809023,
       "title": "Robinhood launches DeFi wallet to rival Metamask",
       "type": "story",
@@ -59,48 +102,6 @@
       "title": "Debugging and Resolving Android Bootloops",
       "type": "story",
       "url": "https://johannes.truschnigg.info/writing/2022-05_android_bootloop_debugging/"
-    },
-    {
-      "by": "thunderbong",
-      "descendants": 0,
-      "id": 31413918,
-      "score": 2,
-      "time": 1652808894,
-      "title": "What happens when the public loses faith in the Supreme Court?",
-      "type": "story",
-      "url": "https://www.vox.com/23055620/supreme-court-legitimacy-crisis-abortion-roe"
-    },
-    {
-      "by": "prova_modena",
-      "descendants": 0,
-      "id": 31413914,
-      "score": 1,
-      "text": "Let&#x27;s say you had a typical multi-user database-backed MS-DOS application, that for intractable business reasons had to be supported in a multi-user production environment today. What would your virtualization stack look like?<p>Here are a couple approaches I&#x27;ve experimented with, along with their downsides.<p>- Running a Windows Server 2k3 VM, along with TameDOS and a SSH server. VM NAT&#x27;ed to the VM host, SSH port is forwarded and the DOS application is used as the shell. Obviously using old Windows versions in any kind of business critical application is asking for trouble. Also, it appears impossible to spin up a new Server 2k3 installation as the licensing servers are shut off.<p>- Using a DOS emulator such as DOSBOX-X on each client machine, with the application files on a shared file server. Deployment is more complex than an SSH client, which can cause issues with nontechnical users. Not sure if issues will arise from multiple emulator instances accessing DB files simultaneously.<p>- FreeDOS VM. Multiuser access to the VM seems to be the issue here. Without a native SSH server and multiuser support, it would have to be something like spinning up a new VM for each user session. Again, not sure if multiple VMs mounting&#x2F;accessing db files simultaneously will cause issues.<p>Unfortunately, this is not a theoretical question for me. Finding the most elegant, robust solution has been a slowly burning, long term project. Any advice from folks with opinions about the intersection of modern virtualization and ancient DOS applications would be appreciated.",
-      "time": 1652808886,
-      "title": "Ask HN: How would you virtualize a multi-user DOS application in 2022?",
-      "type": "story"
-    },
-    {
-      "by": "jcs87",
-      "descendants": 0,
-      "id": 31413908,
-      "score": 1,
-      "time": 1652808858,
-      "title": "35 Impactful Questions Managers Should Ask Themselves Regularly",
-      "type": "story",
-      "url": "https://review.firstround.com/35-impactful-questions-managers-should-ask-themselves-regularly"
-    },
-    {
-      "by": "devtailz",
-      "descendants": 1,
-      "id": 31413897,
-      "kids": [
-        31413907
-      ],
-      "score": 1,
-      "time": 1652808806,
-      "title": "Ask HN: Anyone having trouble accessing Microsoft API?",
-      "type": "story"
     }
   ]
 }
