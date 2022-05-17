@@ -1,11 +1,51 @@
 {
   "stories": [
     {
+      "by": "hcalium",
+      "descendants": 0,
+      "id": 31409123,
+      "score": 1,
+      "time": 1652788496,
+      "title": "Show HN: Floor Price Notifications for NFT's",
+      "type": "story",
+      "url": "https://nftfox.app/"
+    },
+    {
+      "by": "RickJWagner",
+      "descendants": 0,
+      "id": 31409112,
+      "score": 1,
+      "time": 1652788425,
+      "title": "Private equity's big payday for factory workers",
+      "type": "story",
+      "url": "https://www.axios.com/2022/05/16/private-equity-factory-workers"
+    },
+    {
+      "by": "RickJWagner",
+      "descendants": 0,
+      "id": 31409109,
+      "score": 1,
+      "time": 1652788402,
+      "title": "Stocks could fall a lot further",
+      "type": "story",
+      "url": "https://www.cnn.com/2022/05/16/investing/stocks-bear-market-federal-reserve-inflation/index.html"
+    },
+    {
+      "by": "medguru",
+      "descendants": 0,
+      "id": 31409100,
+      "score": 1,
+      "text": "tl;dr - Cloudflare rendered my domain inaccessible and support has been ignoring the ticket for 4 days, what&#x27;s the fastest way to get technical assistance when on a free plan?<p>Last week I transferred a domain used for a personal project from my old registrar to Cloudflare. After the transfer was finalized and new NS records had propagated, everything resolved normally and everything was working fine. I then enabled DNSSEC, and after a while the domain would no longer resolve. Every DNS server I try - Google, Quad9, OpenDNS, even Cloudflare&#x27;s own DNS on 1.1.1.1 - returns SERVFAIL. The excellent diagnostic tool on dnsviz.net tells me that the domain is returning bogus DNSKEY&#x2F;DS&#x2F;NSEC responses and bogus delegation status. &quot;no SEP matching the DS found&quot;.<p>I tried canceling the DNSSEC setup and waiting for over a day, with no effect. I re-enabled DNSSEC setup and waited for 3 days, with no effect. Cloudflare&#x27;s control panel has since several days now been saying that DNSSEC will be enabled &quot;in the next 24 hours&quot;. My site cannot be reached, and Cloudflare&#x27;s support cannot be reached.<p>I&#x27;ve been forced to migrate the project and its (few) users to a completely different domain. I cannot inconvenience users by bouncing them back and forth, so the domain Cloudflare ruined for me is now effectively lost, as is the &quot;branding&quot; of the project which was reflected in the domain&#x27;s name.<p>How can I get their attention without paying for an Enterprise plan? I would like to think that basic functional service should be accessible even when using Cloudflare only as a registrar with fundamental DNS on a free plan.",
+      "time": 1652788364,
+      "title": "Ask HN: Cloudflare broke my domain's DNSSEC making it unreachable since 4 days",
+      "type": "story"
+    },
+    {
       "by": "jessegrosjean",
       "descendants": 0,
       "id": 31409077,
       "score": 1,
-      "text": "Bike’s most original feature is the “fluid” text editing. Lots of text editors have animated some interactions (cursor movement, insert newline, etc), but I think Bike is the first designed from the ground up to support fluid editing.<p>Give it a try, it feels different. (movie on home page if you don&#x27;t have Mac)<p>Other Features:<p>• In text mode Bike works like a normal text editor. In outline mode rows are constrained to outline hierarchy.<p>• .bike file format is HTML subset, so files are easy to parse and manipulate. Bike also supports .opml and .txt.<p>• Scriptable via AppleScript. Javascript plugin API also expected in future, though no timing on that.<p>• Architecture needed to support fluid editing also makes Bike faster&#x2F;more scalable than most (all?) outliners and many text editors. I test performance using the Moby Dick Workout[^1].<p>Implementation Notes:<p>• View is built using CALayers[^2].\n• Animations are performed by Core animation and Motion[^3] lib.\n• View performance is determined by visible text, not document size.<p>Model representation is interesting in that it’s just a flat list of rows. Each row has a `level` property, outline structure is determined dynamically. View implementation requires that each row has a unique ID.<p>I’m using OrderedDictionary from Swift Collections[^4] to store rows. This is Bike’s performance bottleneck for large outlines. Eventually I may change to augmented b+tree and then should be able to work with gigabytes worth of outline. That will be fun, but not sure it’s actually needed. Already probably fast enough for 99% of use cases as is.<p>Hope you find Bike interesting. I’m happy to answer any questions.<p>[^1]: <a href=\"https:&#x2F;&#x2F;www.hogbaysoftware.com&#x2F;posts&#x2F;moby-dick-workout&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;www.hogbaysoftware.com&#x2F;posts&#x2F;moby-dick-workout&#x2F;</a>\n[^2]: <a href=\"https:&#x2F;&#x2F;developer.apple.com&#x2F;documentation&#x2F;quartzcore&#x2F;calayer\" rel=\"nofollow\">https:&#x2F;&#x2F;developer.apple.com&#x2F;documentation&#x2F;quartzcore&#x2F;calayer</a>\n[^3]: <a href=\"https:&#x2F;&#x2F;github.com&#x2F;b3ll&#x2F;Motion\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;b3ll&#x2F;Motion</a>\n[^4]: <a href=\"https:&#x2F;&#x2F;github.com&#x2F;apple&#x2F;swift-collections\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;apple&#x2F;swift-collections</a>",
+      "text": "Bike’s most original feature is the “fluid” text editing. Lots of text editors have animated some interactions (cursor movement, insert newline, etc), but I think Bike is the first designed from the ground up to support fluid editing.<p>Give it a try, it feels different. (movie on home page if you don&#x27;t have Mac)<p>Other Features:<p>• In text mode Bike works like a normal text editor. In outline mode rows are constrained to outline hierarchy.<p>• .bike file format is HTML subset, so files are easy to parse and manipulate. Bike also supports .opml and .txt.<p>• Scriptable via AppleScript. Javascript plugin API also expected in future, though no timing on that.<p>• Architecture needed to support fluid editing also makes Bike faster&#x2F;more scalable than most (all?) outliners and many text editors. I test performance using the Moby Dick Workout[^1].<p>Implementation Notes:<p>• View is built using CALayers[^2].<p>• Animations are performed by Core animation and Motion[^3] lib.<p>• View performance is determined by visible text, not document size.<p>Model representation is interesting in that it’s just a flat list of rows. Each row has a `level` property, outline structure is determined dynamically. View implementation requires that each row has a unique ID.<p>I’m using OrderedDictionary from Swift Collections[^4] to store rows. This is Bike’s performance bottleneck for large outlines. Eventually I may change to augmented b+tree and then should be able to work with gigabytes worth of outline. That will be fun, but not sure it’s actually needed. Already probably fast enough for 99% of use cases as is.<p>Hope you find Bike interesting. I’m happy to answer any questions.<p>[^1]: <a href=\"https:&#x2F;&#x2F;www.hogbaysoftware.com&#x2F;posts&#x2F;moby-dick-workout&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;www.hogbaysoftware.com&#x2F;posts&#x2F;moby-dick-workout&#x2F;</a><p>[^2]: <a href=\"https:&#x2F;&#x2F;developer.apple.com&#x2F;documentation&#x2F;quartzcore&#x2F;calayer\" rel=\"nofollow\">https:&#x2F;&#x2F;developer.apple.com&#x2F;documentation&#x2F;quartzcore&#x2F;calayer</a><p>[^3]: <a href=\"https:&#x2F;&#x2F;github.com&#x2F;b3ll&#x2F;Motion\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;b3ll&#x2F;Motion</a><p>[^4]: <a href=\"https:&#x2F;&#x2F;github.com&#x2F;apple&#x2F;swift-collections\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;apple&#x2F;swift-collections</a>",
       "time": 1652788190,
       "title": "Show HN: Bike – macOS Native Outliner",
       "type": "story",
@@ -60,49 +100,6 @@
       "title": "Using a Linux phone as a secondary monitor",
       "type": "story",
       "url": "https://tuxphones.com/howto-linux-as-second-wireless-display-for-linux/"
-    },
-    {
-      "by": "dredmorbius",
-      "descendants": 1,
-      "id": 31409006,
-      "kids": [
-        31409007
-      ],
-      "score": 2,
-      "time": 1652787756,
-      "title": "Chernobyl During the Russian Occupation",
-      "type": "story",
-      "url": "https://www.economist.com/1843/2022/05/10/the-inside-story-of-chernobyl-during-the-russian-occupation"
-    },
-    {
-      "by": "leroy_masochist",
-      "descendants": 0,
-      "id": 31409004,
-      "score": 1,
-      "time": 1652787755,
-      "title": "'Unsettling' PsyOps Recruiting Video Ignites Debate Over Its Mysterious Intent",
-      "type": "story",
-      "url": "https://www.charlotteobserver.com/news/state/north-carolina/article261463337.html"
-    },
-    {
-      "by": "4kimov",
-      "descendants": 0,
-      "id": 31408993,
-      "score": 1,
-      "text": "Naming things is hard, help me pick one:<p>1. Polyzag (made up name)<p>2. Forked (tech related)<p>3. 250k Dev (salary related)<p>Which one would you remember more?<p>PS: I could only have a dot com for the 1st one, the others would have either .co or .dev",
-      "time": 1652787691,
-      "title": "Ask HN: Which name is better for a dev-only job board?",
-      "type": "story"
-    },
-    {
-      "by": "mpweiher",
-      "descendants": 0,
-      "id": 31408980,
-      "score": 1,
-      "time": 1652787593,
-      "title": "The SwiftUI Render Loop",
-      "type": "story",
-      "url": "https://rensbr.eu/blog/swiftui-render-loop/"
     }
   ]
 }
