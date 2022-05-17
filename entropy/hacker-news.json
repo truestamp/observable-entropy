@@ -1,10 +1,40 @@
 {
   "stories": [
     {
+      "by": "homarp",
+      "descendants": 0,
+      "id": 31416554,
+      "score": 1,
+      "time": 1652823259,
+      "title": "AI Harms Are Societal, Not Just Individual",
+      "type": "story",
+      "url": "https://www.fast.ai/2022/05/17/societal-harms/"
+    },
+    {
+      "by": "feross",
+      "descendants": 0,
+      "id": 31416546,
+      "score": 1,
+      "time": 1652823197,
+      "title": "Interview: Hear This Idea with Fin Moorhouse and Luca Righetti",
+      "type": "story",
+      "url": "https://rootsofprogress.org/interview-hear-this-idea-with-fin-moorhouse-and-luca-righetti"
+    },
+    {
+      "by": "homarp",
+      "descendants": 0,
+      "id": 31416535,
+      "score": 1,
+      "time": 1652823109,
+      "title": "Russian Army destroyed Ukraine's only plant gene bank",
+      "type": "story",
+      "url": "https://theins.ru/en/news/251319"
+    },
+    {
       "by": "outworlder",
       "descendants": 0,
       "id": 31416508,
-      "score": 1,
+      "score": 2,
       "time": 1652822930,
       "title": "How to make video calls almost as good as face-to-face",
       "type": "story",
@@ -12,8 +42,11 @@
     },
     {
       "by": "perihelions",
-      "descendants": 0,
+      "descendants": 1,
       "id": 31416496,
+      "kids": [
+        31416529
+      ],
       "score": 1,
       "time": 1652822854,
       "title": "Climate Change Has Made Deadly Heat Waves Normal",
@@ -24,7 +57,7 @@
       "by": "zdw",
       "descendants": 0,
       "id": 31416469,
-      "score": 1,
+      "score": 2,
       "time": 1652822677,
       "title": "Raptor CS: Fully Owner Controlled Computing Using OpenPOWER",
       "type": "story",
@@ -34,7 +67,7 @@
       "by": "gmays",
       "descendants": 0,
       "id": 31416460,
-      "score": 1,
+      "score": 2,
       "time": 1652822601,
       "title": "Robots Are Writing Poetry, and Many People Can’t Tell the Difference",
       "type": "story",
@@ -42,10 +75,11 @@
     },
     {
       "by": "simonebrunozzi",
-      "descendants": 1,
+      "descendants": 2,
       "id": 31416455,
       "kids": [
-        31416485
+        31416485,
+        31416545
       ],
       "score": 1,
       "time": 1652822575,
@@ -56,7 +90,7 @@
       "by": "zdw",
       "descendants": 0,
       "id": 31416454,
-      "score": 1,
+      "score": 2,
       "time": 1652822575,
       "title": "Plugin Architectures: A Great Idea for Community Building",
       "type": "story",
@@ -71,36 +105,6 @@
       "title": "Start up solo or bring on a co-founder? 4 factors to consider",
       "type": "story",
       "url": "https://techcrunch.com/2022/05/16/start-up-solo-or-bring-on-a-co-founder-4-factors-to-consider/"
-    },
-    {
-      "by": "hnthrowaway0328",
-      "descendants": 0,
-      "id": 31416412,
-      "score": 1,
-      "text": "OK so here is something I learned yesterday and today:<p>*Story 1:*<p>I was tasked to modify a Looker view. It&#x27;s just a bunch of small updates so I figured it should be easy. One task is to modify a metrics A. Before the modification, A = B - C and after A = B - C - D. OK this is super easy, so I simple put B - C - D and call it a day.<p>I quickly figured out that D could be <i>NULL</i> so this messes up the calculation sometimes. Now that I have zero experience with Looker but I know a lot about SQL, so I know I need something similar to IFNULL(). It happened that there was a NULLIF() in a neighbouring metrics so I told myself, Oh this must be Looker&#x27;s way to implement IFNULL(), you know, guys need new names for everything.<p>Rest of the story is that I spent a good part of today to figure out why A gives really weird values. I removed NULLIF(D, 0) and everything looked fine. I added it back and weird results came back. I pulled my hairs and chanted YHVH. I tried everything except the right thing. Eventually I gave up and pulled out Google. Well that&#x27;s it, NULLIF() is *completely* different from IFNULL()!<p>*Story 2:*<p>There is an Airflow DAG called blah which dumps data into a BigQuery table. The DAG does not have a `time_partitioning` part and neither does it have a `clustered_fields` part. Somehow the DAG runs fine in production but fails in test. Eventually, after some Googling and discussion with a more senior colleague, I figured that I need to add a `time_partitioning` part to the DAG to remove the error.<p>It was added and the error was removed. All tests went through and the BigQuery table in test env looked fine. The change was pushed into production shortly. One less ticket to deal with. Profit!<p>Well not so fast. A few hours later I got a message on Slack that the DAG is failing on production. What went wrong? Eventually, after combing through the log, we found out that the clustering fields is missing from the DAG. This really caught me off because it was not there in the first place!<p>I still haven&#x27;t figured out the full picture, but here is what I think that happened (and I need to dig deeper to remove that &quot;think&quot; word): If `time_partitioning` and `clustered_fields` are missing from the DAG, somehow the default values (stored in BigQuery) are used. However, if I mention `time_partitioning` without specifying `clustered_fields`, it actually thinks there is NO clustered fields and removed it from BigQuery! Again I&#x27;m still not 100% sure about this, but looks like this is what happened.<p>Now you are probably wondering: Why did your new DAG pass the test env? Well that&#x27;s a bit embarrassing, I found out that the table in test env actually ONLY has partitions, but has no cluster fields, so that&#x27;s why the new DAG passed the test env.",
-      "time": 1652822350,
-      "title": "Tell HN: Do Not Assume Anything",
-      "type": "story"
-    },
-    {
-      "by": "zdw",
-      "descendants": 0,
-      "id": 31416408,
-      "score": 1,
-      "time": 1652822330,
-      "title": "Why Do Electric Plugs Have Holes?",
-      "type": "story",
-      "url": "https://www.youtube.com/watch?v=Db-dt5U3MCc"
-    },
-    {
-      "by": "grzm",
-      "descendants": 0,
-      "id": 31416394,
-      "score": 1,
-      "time": 1652822242,
-      "title": "Evidence from Capuchin Monkey Trading Behavior (2006) [pdf]",
-      "type": "story",
-      "url": "https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.317.9751&rep=rep1&type=pdf"
     }
   ]
 }
