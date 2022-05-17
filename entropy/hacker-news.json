@@ -1,6 +1,37 @@
 {
   "stories": [
     {
+      "by": "jessegrosjean",
+      "descendants": 0,
+      "id": 31409077,
+      "score": 1,
+      "text": "Bike’s most original feature is the “fluid” text editing. Lots of text editors have animated some interactions (cursor movement, insert newline, etc), but I think Bike is the first designed from the ground up to support fluid editing.<p>Give it a try, it feels different. (movie on home page if you don&#x27;t have Mac)<p>Other Features:<p>• In text mode Bike works like a normal text editor. In outline mode rows are constrained to outline hierarchy.<p>• .bike file format is HTML subset, so files are easy to parse and manipulate. Bike also supports .opml and .txt.<p>• Scriptable via AppleScript. Javascript plugin API also expected in future, though no timing on that.<p>• Architecture needed to support fluid editing also makes Bike faster&#x2F;more scalable than most (all?) outliners and many text editors. I test performance using the Moby Dick Workout[^1].<p>Implementation Notes:<p>• View is built using CALayers[^2].\n• Animations are performed by Core animation and Motion[^3] lib.\n• View performance is determined by visible text, not document size.<p>Model representation is interesting in that it’s just a flat list of rows. Each row has a `level` property, outline structure is determined dynamically. View implementation requires that each row has a unique ID.<p>I’m using OrderedDictionary from Swift Collections[^4] to store rows. This is Bike’s performance bottleneck for large outlines. Eventually I may change to augmented b+tree and then should be able to work with gigabytes worth of outline. That will be fun, but not sure it’s actually needed. Already probably fast enough for 99% of use cases as is.<p>Hope you find Bike interesting. I’m happy to answer any questions.<p>[^1]: <a href=\"https:&#x2F;&#x2F;www.hogbaysoftware.com&#x2F;posts&#x2F;moby-dick-workout&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;www.hogbaysoftware.com&#x2F;posts&#x2F;moby-dick-workout&#x2F;</a>\n[^2]: <a href=\"https:&#x2F;&#x2F;developer.apple.com&#x2F;documentation&#x2F;quartzcore&#x2F;calayer\" rel=\"nofollow\">https:&#x2F;&#x2F;developer.apple.com&#x2F;documentation&#x2F;quartzcore&#x2F;calayer</a>\n[^3]: <a href=\"https:&#x2F;&#x2F;github.com&#x2F;b3ll&#x2F;Motion\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;b3ll&#x2F;Motion</a>\n[^4]: <a href=\"https:&#x2F;&#x2F;github.com&#x2F;apple&#x2F;swift-collections\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;apple&#x2F;swift-collections</a>",
+      "time": 1652788190,
+      "title": "Show HN: Bike – macOS Native Outliner",
+      "type": "story",
+      "url": "https://www.hogbaysoftware.com/bike/"
+    },
+    {
+      "by": "TowerTall",
+      "descendants": 0,
+      "id": 31409048,
+      "score": 1,
+      "time": 1652788043,
+      "title": "ICCL report on the scale of RealTime Bidding data broadcast in the US and Europe",
+      "type": "story",
+      "url": "https://www.iccl.ie/digital-data/iccl-report-on-the-scale-of-real-time-bidding-data-broadcasts-in-the-u-s-and-europe/"
+    },
+    {
+      "by": "rfreytag",
+      "descendants": 0,
+      "id": 31409044,
+      "score": 2,
+      "time": 1652788029,
+      "title": "Unsolved Problems in Economics",
+      "type": "story",
+      "url": "https://en.wikipedia.org/wiki/List_of_unsolved_problems_in_economics"
+    },
+    {
       "by": "mardiyah",
       "descendants": 0,
       "id": 31409024,
@@ -24,7 +55,7 @@
       "by": "cunidev",
       "descendants": 0,
       "id": 31409010,
-      "score": 1,
+      "score": 2,
       "time": 1652787782,
       "title": "Using a Linux phone as a secondary monitor",
       "type": "story",
@@ -32,12 +63,12 @@
     },
     {
       "by": "dredmorbius",
-      "descendants": 0,
+      "descendants": 1,
       "id": 31409006,
       "kids": [
         31409007
       ],
-      "score": 1,
+      "score": 2,
       "time": 1652787756,
       "title": "Chernobyl During the Russian Occupation",
       "type": "story",
@@ -72,36 +103,6 @@
       "title": "The SwiftUI Render Loop",
       "type": "story",
       "url": "https://rensbr.eu/blog/swiftui-render-loop/"
-    },
-    {
-      "by": "rntn",
-      "descendants": 0,
-      "id": 31408943,
-      "score": 1,
-      "time": 1652787307,
-      "title": "US warns over risk of hiring North Korea IT workers",
-      "type": "story",
-      "url": "https://www.bbc.com/news/business-61474771"
-    },
-    {
-      "by": "philipbrown",
-      "descendants": 0,
-      "id": 31408936,
-      "score": 1,
-      "time": 1652787248,
-      "title": "How to choose the right tasks for your energy level and mental state",
-      "type": "story",
-      "url": "https://prise.com/blog/how-to-choose-the-right-tasks-for-your-energy-level-and-mental-state"
-    },
-    {
-      "by": "rntn",
-      "descendants": 0,
-      "id": 31408855,
-      "score": 2,
-      "time": 1652786804,
-      "title": "Russia's richest man 'snapping up banks cheap' amid an exodus of Western owners",
-      "type": "story",
-      "url": "https://www.businessinsider.com/vladimir-potanin-snap-up-banks-for-cheap-russia-ukraine-putin-2022-5"
     }
   ]
 }
