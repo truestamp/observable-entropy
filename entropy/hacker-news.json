@@ -1,6 +1,36 @@
 {
   "stories": [
     {
+      "by": "eddieweng",
+      "descendants": 0,
+      "id": 31408642,
+      "score": 1,
+      "time": 1652785302,
+      "title": "Apple ‘testing’ foldable with secondary E Ink display",
+      "type": "story",
+      "url": "https://twitter.com/mingchikuo/status/1526421343813574656"
+    },
+    {
+      "by": "nireyal",
+      "descendants": 0,
+      "id": 31408633,
+      "score": 1,
+      "time": 1652785236,
+      "title": "New Study: Hating Facebook Is Bad for Us",
+      "type": "story",
+      "url": "https://technosapiens.substack.com/p/technoresearch4"
+    },
+    {
+      "by": "mariuz",
+      "descendants": 0,
+      "id": 31408630,
+      "score": 1,
+      "time": 1652785214,
+      "title": "State of CSS 2022",
+      "type": "story",
+      "url": "https://web.dev/state-of-css-2022/"
+    },
+    {
       "by": "ingve",
       "descendants": 0,
       "id": 31408625,
@@ -12,8 +42,11 @@
     },
     {
       "by": "rntn",
-      "descendants": 0,
+      "descendants": 1,
       "id": 31408619,
+      "kids": [
+        31408636
+      ],
       "score": 1,
       "time": 1652785129,
       "title": "JEP 424: Foreign Function and Memory API (Preview)",
@@ -42,9 +75,12 @@
     },
     {
       "by": "levosmetalo",
-      "descendants": 0,
+      "descendants": 1,
       "id": 31408578,
-      "score": 2,
+      "kids": [
+        31408660
+      ],
+      "score": 3,
       "text": "Google finally allowed personal legacy free GSuite accounts to opt-out of “upgrade” to Google Workspace. You can continue using your custom domain with Gmail, retain access to no-cost Google services such as Google Drive and Google Meet, and keep your purchases and data.<p>The option is a little hidden in the admin console, but should be available in the following link:<p>https:&#x2F;&#x2F;admin.google.com&#x2F;?action_id=SE_SELF_TRANSITION&amp;utm_source=helpcenter<p>Note that it applies only for personal use, businesses will have to switch to one of the paid Google Workspace plans.<p>For me, it&#x27;s too late. I already switched Mail, Calendar, and Contacts to another provider, but I&#x27;ll at least be able to keep using Drive&#x2F;Docs and keep mu Android purchases.",
       "time": 1652784764,
       "title": "Google allows personal accounts to keep using legacy GSuite for free",
@@ -69,39 +105,6 @@
       "title": "Buildup of solar heat likely contributes to Mars' dust storms, researchers find",
       "type": "story",
       "url": "https://phys.org/news/2022-05-buildup-solar-contributes-mars-storms.html"
-    },
-    {
-      "by": "ClosedPistachio",
-      "descendants": 0,
-      "id": 31408560,
-      "score": 1,
-      "time": 1652784680,
-      "title": "Dolphin Progress February, March, and April 2022",
-      "type": "story",
-      "url": "https://dolphin-emu.org/blog/2022/05/17/dolphin-progress-report-february-march-and-april-2022/"
-    },
-    {
-      "by": "indigane",
-      "descendants": 1,
-      "id": 31408552,
-      "kids": [
-        31408557
-      ],
-      "score": 1,
-      "text": "TL;DR: I ended up yak shaving a tool for conducting a card sorting online, and wanted to share it because I couldn&#x27;t find one myself. Also I don&#x27;t have to maintain or host it so it should stay up for a long time, hopefully.<p>https:&#x2F;&#x2F;github.com&#x2F;indigane&#x2F;cardsort<p>The long version of why:<p>I wanted to conduct a quick, one-off card sorting for a side project, but after spending hours looking at the available commercial and open source solutions, I couldn&#x27;t find one that worked for me.<p>The commercial ones either had too restrictive free tier with only 20 cards or so, or they lacked basic features such as open sorting vs. closed sorting, or they would have cost me upwards of $100&#x2F;month.<p>The open source ones would have required me to self-host them, which I wasn&#x27;t too excited about, and after trying docker-compose up on one of them and hitting errors after errors, I was even less excited so I gave up on that. I also looked for demos of open source projects that could have worked for the one-off use I needed, but no luck there.<p>I wanted to avoid spending time developing my own solution, as I already had the side project I was supposed to be working on. I also especially wanted to avoid spending time on maintaining and hosting. If I could get away with a static site, no database, thus no need for me to host it, and get it done without spending too much time on it, it might be worth it, and maybe someone else could benefit from it too. And the result was this.<p>The lack of a backend has some obvious trade-offs, but the benefit is that it is fire and forget, and I can hopefully come back years later and use it again for some other one-off thing.",
-      "time": 1652784637,
-      "title": "Show HN: A tool for conducting a virtual card sorting",
-      "type": "story"
-    },
-    {
-      "by": "dnetesn",
-      "descendants": 0,
-      "id": 31408548,
-      "score": 1,
-      "time": 1652784623,
-      "title": "No Two Human Brains Are Alike",
-      "type": "story",
-      "url": "https://nautil.us/no-two-human-brains-are-alike-17835/"
     }
   ]
 }
