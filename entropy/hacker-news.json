@@ -1,6 +1,72 @@
 {
   "stories": [
     {
+      "by": "hnthrowaway0328",
+      "descendants": 0,
+      "id": 31416412,
+      "score": 1,
+      "text": "OK so here is something I learned yesterday and today:<p>*Story 1:*<p>I was tasked to modify a Looker view. It&#x27;s just a bunch of small updates so I figured it should be easy. One task is to modify a metrics A. Before the modification, A = B - C and after A = B - C - D. OK this is super easy, so I simple put B - C - D and call it a day.<p>I quickly figured out that D could be <i>NULL</i> so this messes up the calculation sometimes. Now that I have zero experience with Looker but I know a lot about SQL, so I know I need something similar to IFNULL(). It happened that there was a NULLIF() in a neighbouring metrics so I told myself, Oh this must be Looker&#x27;s way to implement IFNULL(), you know, guys need new names for everything.<p>Rest of the story is that I spent a good part of today to figure out why A gives really weird values. I removed NULLIF(D, 0) and everything looked fine. I added it back and weird results came back. I pulled my hairs and chanted YHVH. I tried everything except the right thing. Eventually I gave up and pulled out Google. Well that&#x27;s it, NULLIF() is *completely* different from IFNULL()!<p>*Story 2:*<p>There is an Airflow DAG called blah which dumps data into a BigQuery table. The DAG does not have a `time_partitioning` part and neither does it have a `clustered_fields` part. Somehow the DAG runs fine in production but fails in test. Eventually, after some Googling and discussion with a more senior colleague, I figured that I need to add a `time_partitioning` part to the DAG to remove the error.<p>It was added and the error was removed. All tests went through and the BigQuery table in test env looked fine. The change was pushed into production shortly. One less ticket to deal with. Profit!<p>Well not so fast. A few hours later I got a message on Slack that the DAG is failing on production. What went wrong? Eventually, after combing through the log, we found out that the clustering fields is missing from the DAG. This really caught me off because it was not there in the first place!<p>I still haven&#x27;t figured out the full picture, but here is what I think that happened (and I need to dig deeper to remove that &quot;think&quot; word): If `time_partitioning` and `clustered_fields` are missing from the DAG, somehow the default values (stored in BigQuery) are used. However, if I mention `time_partitioning` without specifying `clustered_fields`, it actually thinks there is NO clustered fields and removed it from BigQuery! Again I&#x27;m still not 100% sure about this, but looks like this is what happened.<p>Now you are probably wondering: Why did your new DAG pass the test env? Well that&#x27;s a bit embarrassing, I found out that the table in test env actually ONLY has partitions, but has no cluster fields, so that&#x27;s why the new DAG passed the test env.",
+      "time": 1652822350,
+      "title": "Tell HN: Do Not Assume Anything",
+      "type": "story"
+    },
+    {
+      "by": "zdw",
+      "descendants": 0,
+      "id": 31416408,
+      "score": 1,
+      "time": 1652822330,
+      "title": "Why Do Electric Plugs Have Holes?",
+      "type": "story",
+      "url": "https://www.youtube.com/watch?v=Db-dt5U3MCc"
+    },
+    {
+      "by": "grzm",
+      "descendants": 0,
+      "id": 31416394,
+      "score": 1,
+      "time": 1652822242,
+      "title": "Evidence from Capuchin Monkey Trading Behavior (2006) [pdf]",
+      "type": "story",
+      "url": "https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.317.9751&rep=rep1&type=pdf"
+    },
+    {
+      "by": "d4a",
+      "descendants": 1,
+      "id": 31416381,
+      "kids": [
+        31416385
+      ],
+      "score": 1,
+      "time": 1652822176,
+      "title": "DEDA – Tracking Dots Extraction, Decoding and Anonymisation Toolkit",
+      "type": "story",
+      "url": "https://github.com/dfd-tud/deda"
+    },
+    {
+      "by": "zdw",
+      "descendants": 0,
+      "id": 31416377,
+      "score": 1,
+      "time": 1652822162,
+      "title": "ToF Explained: iToF and DToF",
+      "type": "story",
+      "url": "https://www.sparkfun.com/news/4636"
+    },
+    {
+      "by": "doener",
+      "descendants": 1,
+      "id": 31416373,
+      "kids": [
+        31416406
+      ],
+      "score": 1,
+      "time": 1652822116,
+      "title": "Paris just announced plans to ban private cars in the city centre",
+      "type": "story",
+      "url": "https://twitter.com/mikehudema/status/1526644270152704000"
+    },
+    {
       "by": "crbelaus",
       "descendants": 0,
       "id": 31416369,
@@ -39,69 +105,6 @@
       "title": "Open Wearables Initiative",
       "type": "story",
       "url": "https://www.owear.org"
-    },
-    {
-      "by": "Belphemur",
-      "descendants": 1,
-      "id": 31416335,
-      "kids": [
-        31416353
-      ],
-      "score": 1,
-      "time": 1652821888,
-      "title": "Show HN: Gestdown: Addic7ed Proxy to search and download subtitles",
-      "type": "story",
-      "url": "https://www.gestdown.info/"
-    },
-    {
-      "by": "kdamica",
-      "descendants": 0,
-      "id": 31416331,
-      "score": 1,
-      "time": 1652821852,
-      "title": "Dbt Python Models",
-      "type": "story",
-      "url": "https://github.com/dbt-labs/dbt-core/discussions/5261"
-    },
-    {
-      "by": "TheAlchemist",
-      "descendants": 0,
-      "id": 31416309,
-      "score": 1,
-      "time": 1652821744,
-      "title": "Amazon.com 1997 Letter to Shareholders [pdf] (1998)",
-      "type": "story",
-      "url": "https://s2.q4cdn.com/299287126/files/doc_financials/annual/Shareholderletter97.pdf"
-    },
-    {
-      "by": "vineshreddy007",
-      "descendants": 0,
-      "id": 31416304,
-      "score": 1,
-      "text": "Many of us might be surprised to know that we can also access docker engine through REST APIs.\nIn this post I will show you how easily you can expose these APIs and start interacting through your favourite POSTMAN or cURL tools.  At the same time, you would also realise how risky it would be to leave them unsecured while giving public access to it.\nAny hacker can easily grab the access and can perform search, add and delete operations on your images which can damage the reputation of the organisation as well as business loss. \nI have used free pen test tool(https:&#x2F;&#x2F;apisec-inc.github.io&#x2F;pentest&#x2F;)to scan and find 18 vulnerabilities for the docker API.<p>How to expose Docker REST APIs?\nPre-Requisite:\n∙       An Ubuntu installed on one of VM instances\n∙       Docker installed\nOnce you have installed pre-requisite softwares, create a directory (docker.service.d) and a file(options.conf) as given below and add the content to options.conf file.\nCreate the directory to store the configuration file.\nsudo mkdir -p &#x2F;etc&#x2F;systemd&#x2F;system&#x2F;docker.service.d\nCreate a new file to store the daemon options.\nsudo nano &#x2F;etc&#x2F;systemd&#x2F;system&#x2F;docker.service.d&#x2F;options.conf\nI have used a nano editor but you are free to use any editor of your choice.\nNow update options.conf file with the content given below.\n[Service]\nExecStart=\nExecStart=&#x2F;usr&#x2F;bin&#x2F;dockerd -H unix:&#x2F;&#x2F; -H tcp:&#x2F;&#x2F;0.0.0.0:2375\nNow, reload the systemd daemon and restart the docker service:\n# Reload the systemd daemon.\nsudo systemctl daemon-reload\n# Restart Docker.\nsudo systemctl restart docker\nAccess the REST API Endpoint to confirm the configurations we have done are correct.\nEg:\nGET https:&#x2F;&#x2F;localhost:2375&#x2F;images&#x2F;json\nThe above command would list out all the docker images. We can also try to delete images and can perform many more operations.\nTo get full list of endpoints, please refer to https:&#x2F;&#x2F;docs.docker.com&#x2F;engine&#x2F;api&#x2F;\nPlease like and comment to share your thoughts.",
-      "time": 1652821726,
-      "title": "How risky is it to expose Docker REST APIs?",
-      "type": "story"
-    },
-    {
-      "by": "ProAm",
-      "descendants": 0,
-      "id": 31416293,
-      "score": 1,
-      "time": 1652821674,
-      "title": "The 100 most Influential historical pictures of all time",
-      "type": "story",
-      "url": "https://rarehistoricalphotos.com/100-influential-historical-pictures-all-time/"
-    },
-    {
-      "by": "IgorPartola",
-      "descendants": 0,
-      "id": 31416241,
-      "score": 1,
-      "time": 1652821407,
-      "title": "Duchamp’s Urinal Changed Art Forever",
-      "type": "story",
-      "url": "https://www.artsy.net/article/artsy-editorial-duchamps-urinal-changed-art-forever"
     }
   ]
 }
