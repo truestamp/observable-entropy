@@ -1,104 +1,105 @@
 {
   "stories": [
     {
-      "by": "rntn",
+      "by": "orangebanana1",
       "descendants": 0,
-      "id": 31413842,
+      "id": 31413921,
       "score": 1,
-      "time": 1652808560,
-      "title": "Hardening in the enterprise: SUSE releases Rancher 2.6.5 and NeuVector 5.0",
+      "time": 1652808903,
+      "title": "Forerunner, a startup that lets you buy into single-family rentals",
       "type": "story",
-      "url": "https://www.theregister.com/2022/05/17/suse_rancher_neuvector/"
+      "url": "https://techcrunch.com/2022/05/17/backed-by-forerunner-and-bezos-back-arrived-a-startup-that-lets-you-buy-into-single-family-rentals-for-as-litastartupthatletstle-as-100/"
+    },
+    {
+      "by": "c0l0",
+      "descendants": 0,
+      "id": 31413919,
+      "score": 1,
+      "time": 1652808897,
+      "title": "Debugging and Resolving Android Bootloops",
+      "type": "story",
+      "url": "https://johannes.truschnigg.info/writing/2022-05_android_bootloop_debugging/"
+    },
+    {
+      "by": "thunderbong",
+      "descendants": 0,
+      "id": 31413918,
+      "score": 1,
+      "time": 1652808894,
+      "title": "What happens when the public loses faith in the Supreme Court?",
+      "type": "story",
+      "url": "https://www.vox.com/23055620/supreme-court-legitimacy-crisis-abortion-roe"
+    },
+    {
+      "by": "prova_modena",
+      "descendants": 0,
+      "id": 31413914,
+      "score": 1,
+      "text": "Let&#x27;s say you had a typical multi-user database-backed MS-DOS application, that for intractable business reasons had to be supported in a multi-user production environment today. What would your virtualization stack look like?<p>Here are a couple approaches I&#x27;ve experimented with, along with their downsides.<p>- Running a Windows Server 2k3 VM, along with TameDOS and a SSH server. VM NAT&#x27;ed to the VM host, SSH port is forwarded and the DOS application is used as the shell. Obviously using old Windows versions in any kind of business critical application is asking for trouble. Also, it appears impossible to spin up a new Server 2k3 installation as the licensing servers are shut off.<p>- Using a DOS emulator such as DOSBOX-X on each client machine, with the application files on a shared file server. Deployment is more complex than an SSH client, which can cause issues with nontechnical users. Not sure if issues will arise from multiple emulator instances accessing DB files simultaneously.<p>- FreeDOS VM. Multiuser access to the VM seems to be the issue here. Without a native SSH server and multiuser support, it would have to be something like spinning up a new VM for each user session. Again, not sure if multiple VMs mounting&#x2F;accessing db files simultaneously will cause issues.<p>Unfortunately, this is not a theoretical question for me. Finding the most elegant, robust solution has been a slowly burning, long term project. Any advice from folks with opinions about the intersection of modern virtualization and ancient DOS applications would be appreciated.",
+      "time": 1652808886,
+      "title": "Ask HN: How would you virtualize a multi-user DOS application in 2022?",
+      "type": "story"
+    },
+    {
+      "by": "jcs87",
+      "descendants": 0,
+      "id": 31413908,
+      "score": 1,
+      "time": 1652808858,
+      "title": "35 Impactful Questions Managers Should Ask Themselves Regularly",
+      "type": "story",
+      "url": "https://review.firstround.com/35-impactful-questions-managers-should-ask-themselves-regularly"
+    },
+    {
+      "by": "devtailz",
+      "descendants": 1,
+      "id": 31413897,
+      "kids": [
+        31413907
+      ],
+      "score": 1,
+      "time": 1652808806,
+      "title": "Ask HN: Anyone having trouble accessing Microsoft API?",
+      "type": "story"
+    },
+    {
+      "by": "2pEXgD0fZ5cF",
+      "descendants": 0,
+      "id": 31413896,
+      "score": 1,
+      "time": 1652808805,
+      "title": "Activision Blizzard's New Diversity Game Tool Comes Across Terribly [Update]",
+      "type": "story",
+      "url": "https://kotaku.com/activision-blizzard-diversity-tool-overwatch-2-call-of-1848924832"
+    },
+    {
+      "by": "edent",
+      "descendants": 0,
+      "id": 31413891,
+      "score": 1,
+      "time": 1652808797,
+      "title": "Pegasus Mail Newsflashes",
+      "type": "story",
+      "url": "http://www.pmail.com/newsflash.htm"
     },
     {
       "by": "warrenm",
       "descendants": 0,
-      "id": 31413840,
+      "id": 31413892,
       "score": 1,
-      "time": 1652808550,
-      "title": "Asymmetric Communication – The Facebookification of Society",
-      "type": "story",
-      "url": "https://antipaucity.com/2012/09/19/asymmetric-communication/#.YoPbUWDMIrY"
-    },
-    {
-      "by": "rebelos",
-      "descendants": 0,
-      "id": 31413832,
-      "score": 1,
-      "text": "The velocity of releases of useful technologies has gone through the roof and I&#x27;m finding it hard to keep up. There&#x27;s enormous churn throughout the &#x27;technical value chain&#x27; with established ways of doing things rapidly being supplanted by sometimes far superior novel methods (wrt one or more of time&#x2F;cost&#x2F;quality).<p>Some things are easier to keep track of because they&#x27;re signaled well, such as GitHub Actions, Copilot, Next.js, and Tailwind.CSS. Other useful solutions can be harder to find, such as Astronomer.io.<p>Any advice on strategies would be appreciated!",
-      "time": 1652808504,
-      "title": "Ask HN: How do you keep tabs on the ideal tech stack?",
+      "time": 1652808797,
+      "title": "Ask HN: What book of the Bible do you find the hardest to understand – and why?",
       "type": "story"
     },
     {
-      "by": "wagslane",
+      "by": "pcr910303",
       "descendants": 0,
-      "id": 31413831,
-      "score": 3,
-      "time": 1652808503,
-      "title": "Func-y JSON, an alternative to REST",
-      "type": "story",
-      "url": "https://wagslane.dev/posts/func-y-json-api/"
-    },
-    {
-      "by": "teh_klev",
-      "descendants": 0,
-      "id": 31413824,
+      "id": 31413878,
       "score": 1,
-      "time": 1652808458,
-      "title": "Wiring a Vintage Telephone Exchange into the Internet So People Can Use It",
+      "time": 1652808729,
+      "title": "Koyeb: Serverless platform based on buildpacks and Firecracker VMs on the edge",
       "type": "story",
-      "url": "https://www.youtube.com/watch?v=9rh50BSv_CE"
-    },
-    {
-      "by": "jbegley",
-      "descendants": 0,
-      "id": 31413792,
-      "score": 1,
-      "time": 1652808313,
-      "title": "Data Marketplace Selling Info About Who Uses Period Tracking Apps",
-      "type": "story",
-      "url": "https://www.vice.com/en/article/v7d9zd/data-marketplace-selling-clue-period-tracking-data"
-    },
-    {
-      "by": "EntICOnc",
-      "descendants": 0,
-      "id": 31413780,
-      "score": 1,
-      "time": 1652808269,
-      "title": "Kalix-NoOps High-Performance Microservices and APIs",
-      "type": "story",
-      "url": "https://www.i-programmer.info/news/80-java/15434-kalix-noops-high-performance-microservices-and-apis.html"
-    },
-    {
-      "by": "rntn",
-      "descendants": 0,
-      "id": 31413779,
-      "score": 2,
-      "time": 1652808267,
-      "title": "A new law unchains fusion energy",
-      "type": "story",
-      "url": "https://phys.org/news/2022-05-law-unchains-fusion-energy.html"
-    },
-    {
-      "by": "kristianpaul",
-      "descendants": 0,
-      "id": 31413772,
-      "score": 1,
-      "time": 1652808235,
-      "title": "US military taking 'all hands on deck' approach to understanding UFOs",
-      "type": "story",
-      "url": "https://www.space.com/military-systems-approach-understand-ufos"
-    },
-    {
-      "by": "NickRandom",
-      "descendants": 0,
-      "id": 31413771,
-      "score": 2,
-      "time": 1652808235,
-      "title": "McLaren will enter Formula E in 2023, replacing Mercedes",
-      "type": "story",
-      "url": "https://the-race.com/formula-e/mclaren-will-enter-formula-e-in-2023-replacing-mercedes/"
+      "url": "https://www.koyeb.com/"
     }
   ]
 }
