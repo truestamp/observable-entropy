@@ -1,9 +1,82 @@
 {
   "stories": [
     {
-      "by": "sdevonoes",
+      "by": "marc__1",
       "descendants": 0,
+      "id": 31409907,
+      "score": 1,
+      "time": 1652792627,
+      "title": "Health Data",
+      "type": "story",
+      "url": "https://xkcd.com/2620/"
+    },
+    {
+      "by": "JumpCrisscross",
+      "descendants": 0,
+      "id": 31409905,
+      "score": 1,
+      "time": 1652792623,
+      "title": "Finnish Parliament Approves Historic NATO Application in Vote",
+      "type": "story",
+      "url": "https://www.bloomberg.com/news/articles/2022-05-17/finnish-parliament-approves-historic-nato-application-in-vote"
+    },
+    {
+      "by": "freediver",
+      "descendants": 0,
+      "id": 31409903,
+      "score": 1,
+      "time": 1652792611,
+      "title": "Ad-tech firms grab email addresses from forms before they're even submitted",
+      "type": "story",
+      "url": "https://www.theregister.com/2022/05/16/ad_companies_data/"
+    },
+    {
+      "by": "piotrgrudzien",
+      "descendants": 0,
+      "id": 31409898,
+      "score": 1,
+      "time": 1652792599,
+      "title": "Hyperautomation and AI Assistants",
+      "type": "story",
+      "url": "https://blog.quickchat.ai/post/hyperautomation-and-ai-assistants/"
+    },
+    {
+      "by": "pragmaticmarg",
+      "descendants": 0,
+      "id": 31409889,
+      "score": 1,
+      "text": "Reissue of a popular article from the archives of PragPub magazine, January 2011 by Bruce Tate on pattern matching and list comprehensions: https:&#x2F;&#x2F;medium.com&#x2F;pragmatic-programmers&#x2F;832b406b77d2",
+      "time": 1652792525,
+      "title": "Pattern Matching and List Comprehensions",
+      "type": "story"
+    },
+    {
+      "by": "safrmo",
+      "descendants": 0,
+      "id": 31409870,
+      "score": 1,
+      "time": 1652792425,
+      "title": "LunchboxJS – Vue 3/Three.js custom renderer",
+      "type": "story",
+      "url": "https://docs.lunchboxjs.com/"
+    },
+    {
+      "by": "NKosmatos",
+      "descendants": 0,
+      "id": 31409868,
+      "score": 1,
+      "time": 1652792414,
+      "title": "World Telecommunication and Information Society Day",
+      "type": "story",
+      "url": "https://www.itu.int/wtisd/en/"
+    },
+    {
+      "by": "sdevonoes",
+      "descendants": 1,
       "id": 31409845,
+      "kids": [
+        31409919
+      ],
       "score": 1,
       "text": "Our team just got a new (senior) team member. He&#x27;s nice and he knows a lot. Our codebase is not the best codebase out there (we know that), and we do mix certain best practices from here and there (clean code, separation of concerns, solid, DI, modularization, etc.)... but we are far from following &quot;by the book&quot; the most popular practices our there. This fact doesn&#x27;t slow us down and we pretty happy with our current &quot;architecture&quot; (features are pushed fast, bugs are fixed in an isolated way, performance has scaled nicely, etc.), and we are certainly open for suggestions on how to improve our codebase, of course.<p>Now, our new team member suggests in PRs things like the following:<p>- &quot;let&#x27;s rename that class to X so that it includes the suffix Y because of reason Z&quot;. This suggestion makes totally sense... but in our codebase our classes have already a certain naming convention that doesn&#x27;t go the way our new team member thinks is best.<p>- &quot;following SOLID principles, class X should be splitted in two because of reason Z&quot;. Again, the suggestion makes totally sense, but if we follow it, it would make class X a snowflake in our codebase.<p>The worst thing is that our codebase is not in a bad shape, so his suggestions, while definitely well-intentioned and correct in most software engineering books, lack context and would make our codebase not necessarily better. There is, of course, the possibility to refactor our entire codebase to follow the best practices out there, but we think that will give us little to no benefit (also, it will take time and it will be hard to argument this kind of decision to management because, as I said above, it&#x27;s &quot;working fine&quot;)",
       "time": 1652792293,
@@ -24,81 +97,11 @@
       "by": "bko",
       "descendants": 0,
       "id": 31409828,
-      "score": 2,
+      "score": 3,
       "time": 1652792208,
       "title": "New Jersey bans paper bags. Who's writing these laws?",
       "type": "story",
       "url": "https://mleverything.substack.com/p/new-jersey-bans-paper-bags"
-    },
-    {
-      "by": "lnyan",
-      "descendants": 0,
-      "id": 31409815,
-      "score": 1,
-      "time": 1652792132,
-      "title": "Invasive chameleons released from predation display more conspicuous colors",
-      "type": "story",
-      "url": "https://www.science.org/doi/10.1126/sciadv.abn2415"
-    },
-    {
-      "by": "memorable",
-      "descendants": 0,
-      "id": 31409793,
-      "score": 1,
-      "time": 1652792045,
-      "title": "So Microsoft taking over GitHub (2018)",
-      "type": "story",
-      "url": "https://dangeru.us/tech/thread/304126"
-    },
-    {
-      "by": "unwind",
-      "descendants": 0,
-      "id": 31409790,
-      "score": 1,
-      "time": 1652792042,
-      "title": "Malware in PIV card reader drivers",
-      "type": "story",
-      "url": "https://twitter.com/briankrebs/status/1526297731748216833"
-    },
-    {
-      "by": "lnyan",
-      "descendants": 0,
-      "id": 31409788,
-      "score": 2,
-      "time": 1652792032,
-      "title": "Coronavirus ‘ghosts’ found lingering in the gut",
-      "type": "story",
-      "url": "https://www.nature.com/articles/d41586-022-01280-3"
-    },
-    {
-      "by": "ofek",
-      "descendants": 0,
-      "id": 31409774,
-      "score": 1,
-      "time": 1652791948,
-      "title": "Show HN: Csi-gcs – Kubernetes driver for mounting Google Cloud Storage buckets",
-      "type": "story",
-      "url": "https://ofek.dev/csi-gcs/"
-    },
-    {
-      "by": "digitallogic",
-      "descendants": 0,
-      "id": 31409770,
-      "score": 1,
-      "time": 1652791927,
-      "title": "Do We Still Need Teams?",
-      "type": "story",
-      "url": "https://hbr.org/2022/04/do-we-still-need-teams"
-    },
-    {
-      "by": "Dorcy64",
-      "descendants": 0,
-      "id": 31409755,
-      "score": 1,
-      "time": 1652791819,
-      "title": "Show HN: Food Consumer Habits Polls",
-      "type": "story",
-      "url": "https://abpoll.com/u/food"
     }
   ]
 }
