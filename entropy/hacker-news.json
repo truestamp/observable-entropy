@@ -1,6 +1,26 @@
 {
   "stories": [
     {
+      "by": "monroewalker",
+      "descendants": 0,
+      "id": 31419273,
+      "score": 1,
+      "text": "I have a decently complex webapp I&#x27;m working on and have found logging to be a pain point. I&#x27;m currently using debug [1] and viewing the logs in the chrome dev tools console. The issue I&#x27;ve had is that the console gets too noisy and crowded with all logging turned on but if I&#x27;m more selective with logging, then I often regret not having logs when I run into a bug. It&#x27;d be ideal to have fairly verbose logging always on but be able to have good control over how the logs are filtered. The console log filtering functionality in chrome and Firefox seems pretty limited and I can&#x27;t do basic filters like &quot;component1Logs | component2Logs&quot;.<p>I imagine there&#x27;s some library I could use which runs a local server, logs to some local file, and allows me to filter the logs with whatever shell tools are best. I haven&#x27;t been able to find such a tool though and also would miss having the object exploration abilities that are in the browser console.<p>[1] https:&#x2F;&#x2F;www.npmjs.com&#x2F;package&#x2F;debug",
+      "time": 1652848732,
+      "title": "Ask HN: How do you deal with logging while developing a webapp?",
+      "type": "story"
+    },
+    {
+      "by": "jicea",
+      "descendants": 0,
+      "id": 31419270,
+      "score": 1,
+      "time": 1652848701,
+      "title": "The Well-Maintained Test: 12 Questions for New Dependencies",
+      "type": "story",
+      "url": "https://adamj.eu/tech/2021/11/04/the-well-maintained-test/"
+    },
+    {
       "by": "oblib",
       "descendants": 0,
       "id": 31419258,
@@ -79,28 +99,6 @@
       "title": "Geneva convention dictates pay grades for POW",
       "type": "story",
       "url": "https://ihl-databases.icrc.org/applic/ihl/ihl.nsf/ART/375-590075?OpenDocument"
-    },
-    {
-      "by": "roschdal",
-      "descendants": 1,
-      "id": 31419169,
-      "kids": [
-        31419240
-      ],
-      "score": 4,
-      "time": 1652847303,
-      "title": "Ask HN: Why do women live longer than men?",
-      "type": "story"
-    },
-    {
-      "by": "rntn",
-      "descendants": 0,
-      "id": 31419148,
-      "score": 2,
-      "time": 1652847029,
-      "title": "U.S. Accuses Steve Wynn of Lobbying Trump on Behalf of China",
-      "type": "story",
-      "url": "https://www.nytimes.com/2022/05/17/business/doj-steve-wynn-trump-china.html"
     }
   ]
 }
