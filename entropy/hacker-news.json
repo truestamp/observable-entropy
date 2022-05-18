@@ -1,9 +1,65 @@
 {
   "stories": [
     {
-      "by": "matthberg",
+      "by": "rntn",
       "descendants": 0,
+      "id": 31428569,
+      "score": 1,
+      "time": 1652913899,
+      "title": "Wizard Spider, the multimillion-dollar gang behind Conti, Ryuk malware",
+      "type": "story",
+      "url": "https://www.theregister.com/2022/05/18/wizard-spider-ransomware-conti/"
+    },
+    {
+      "by": "ValentineC",
+      "descendants": 0,
+      "id": 31428566,
+      "score": 1,
+      "time": 1652913888,
+      "title": "A Clash of Cultures (2017)",
+      "type": "story",
+      "url": "https://www.bunniestudios.com/blog/?p=5046"
+    },
+    {
+      "by": "jkurnia",
+      "descendants": 0,
+      "id": 31428559,
+      "score": 1,
+      "time": 1652913837,
+      "title": "Show HN: Kid Art Show – a marketplace for kids to sell their artwork",
+      "type": "story",
+      "url": "https://www.kidartshow.com"
+    },
+    {
+      "by": "jonbaer",
+      "descendants": 0,
+      "id": 31428553,
+      "score": 1,
+      "time": 1652913809,
+      "title": "Local Device Fingerprinting on iOS",
+      "type": "story",
+      "url": "https://fingerprintjs.com/blog/local-device-fingerprint-ios/"
+    },
+    {
+      "by": "ushakov",
+      "descendants": 1,
+      "id": 31428542,
+      "kids": [
+        31428563
+      ],
+      "score": 2,
+      "time": 1652913704,
+      "title": "Dow Slides More Than 1,100 Points in Worst Day Since 2020",
+      "type": "story",
+      "url": "https://www.wsj.com/articles/global-stocks-markets-dow-update-05-18-2022-11652859762"
+    },
+    {
+      "by": "matthberg",
+      "descendants": 1,
       "id": 31428527,
+      "kids": [
+        31428564
+      ],
       "score": 1,
       "time": 1652913575,
       "title": "Shiv Integer (2016)",
@@ -52,59 +108,6 @@
       "title": "AI 100: The most promising artificial intelligence startups of 2022",
       "type": "story",
       "url": "https://www.cbinsights.com/research/report/artificial-intelligence-top-startups-2022/"
-    },
-    {
-      "by": "tosh",
-      "descendants": 0,
-      "id": 31428481,
-      "score": 2,
-      "time": 1652913265,
-      "title": "Long-Term Building in Japan",
-      "type": "story",
-      "url": "https://longnow.org/ideas/02019/09/11/long-term-building-in-japan/"
-    },
-    {
-      "by": "xwowsersx",
-      "descendants": 0,
-      "id": 31428478,
-      "score": 1,
-      "text": "I&#x27;m looking for tips on how to implement feature flags. I&#x27;m at a point now where, due to the large number of branches and separate environments, the lack of feature flags is making it difficult to merge from one branch of work to another because some features are available in one branch but shouldn&#x27;t be operating&#x2F;on in a certain environment. Effectively we are using merging or not merging as the case may be as a way to control which features are available in which environment.<p>The correct way to handle this, I think, is to rely on feature flags. So, for example, I could say that feature X is not available in production, feature Y is available in staging, etc.<p>Implementing this as static flags using configuration files and settings is easy enough, but what I would like is something along the lines of what Launch Darkly (and other services, I assume..) provides, which is the ability to dynamically flip features on and off in such a manner that running services will respect the changes to those flags live.<p>Does anyone have any tips on how to go about implementing this? I can think of a few relatively simple ways with a couple pieces of infrastructure in AWS or any other cloud provider to make this possible, but I&#x27;m wondering if people have already implemented something along these lines.<p>Thanks in advance.",
-      "time": 1652913243,
-      "title": "Ask HN: Have you ever implemented a feature flags service?",
-      "type": "story"
-    },
-    {
-      "by": "bookofjoe",
-      "descendants": 0,
-      "id": 31428475,
-      "score": 1,
-      "time": 1652913200,
-      "title": "Steroid hormones of the octopus self-destruct system",
-      "type": "story",
-      "url": "https://www.cell.com/current-biology/fulltext/S0960-9822(22)00661-3"
-    },
-    {
-      "by": "Gravityloss",
-      "descendants": 0,
-      "id": 31428469,
-      "score": 2,
-      "time": 1652913155,
-      "title": "1 TW of solar to be deployed annually by 2030",
-      "type": "story",
-      "url": "https://pv-magazine-usa.com/2022/05/16/a-fate-realized-1-tw-of-solar-to-be-deployed-annually-by-2030/"
-    },
-    {
-      "by": "0xedb",
-      "descendants": 1,
-      "id": 31428456,
-      "kids": [
-        31428473
-      ],
-      "score": 2,
-      "time": 1652913058,
-      "title": "OnlyFans creator says she had sex with FB employees to regain IG account",
-      "type": "story",
-      "url": "https://twitter.com/TaylorLorenz/status/1527007677184110592"
     }
   ]
 }
