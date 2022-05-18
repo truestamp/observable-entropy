@@ -1,6 +1,69 @@
 {
   "stories": [
     {
+      "by": "tosh",
+      "descendants": 0,
+      "id": 31428481,
+      "score": 1,
+      "time": 1652913265,
+      "title": "Long-Term Building in Japan",
+      "type": "story",
+      "url": "https://longnow.org/ideas/02019/09/11/long-term-building-in-japan/"
+    },
+    {
+      "by": "xwowsersx",
+      "descendants": 0,
+      "id": 31428478,
+      "score": 1,
+      "text": "I&#x27;m looking for tips on how to implement feature flags. I&#x27;m at a point now where, due to the large number of branches and separate environments, the lack of feature flags is making it difficult to merge from one branch of work to another because some features are available in one branch but shouldn&#x27;t be operating&#x2F;on in a certain environment. Effectively we are using merging or not merging as the case may be as a way to control which features are available in which environment.<p>The correct way to handle this, I think, is to rely on feature flags. So, for example, I could say that feature X is not available in production, feature Y is available in staging, etc.<p>Implementing this as static flags using configuration files and settings is easy enough, but what I would like is something along the lines of what Launch Darkly (and other services, I assume..) provides, which is the ability to dynamically flip features on and off in such a manner that running services will respect the changes to those flags live.<p>Does anyone have any tips on how to go about implementing this? I can think of a few relatively simple ways with a couple pieces of infrastructure in AWS or any other cloud provider to make this possible, but I&#x27;m wondering if people have already implemented something along these lines.<p>Thanks in advance.",
+      "time": 1652913243,
+      "title": "Ask HN: Have you ever implemented a feature flags service?",
+      "type": "story"
+    },
+    {
+      "by": "bookofjoe",
+      "descendants": 0,
+      "id": 31428475,
+      "score": 1,
+      "time": 1652913200,
+      "title": "Steroid hormones of the octopus self-destruct system",
+      "type": "story",
+      "url": "https://www.cell.com/current-biology/fulltext/S0960-9822(22)00661-3"
+    },
+    {
+      "by": "Gravityloss",
+      "descendants": 0,
+      "id": 31428469,
+      "score": 1,
+      "time": 1652913155,
+      "title": "1 TW of solar to be deployed annually by 2030",
+      "type": "story",
+      "url": "https://pv-magazine-usa.com/2022/05/16/a-fate-realized-1-tw-of-solar-to-be-deployed-annually-by-2030/"
+    },
+    {
+      "by": "0xedb",
+      "descendants": 1,
+      "id": 31428456,
+      "kids": [
+        31428473
+      ],
+      "score": 2,
+      "time": 1652913058,
+      "title": "OnlyFans creator says she had sex with FB employees to regain IG account",
+      "type": "story",
+      "url": "https://twitter.com/TaylorLorenz/status/1527007677184110592"
+    },
+    {
+      "by": "rntn",
+      "descendants": 0,
+      "id": 31428452,
+      "score": 1,
+      "time": 1652913044,
+      "title": "Accelerating the Pace of Machine Learning",
+      "type": "story",
+      "url": "https://techxplore.com/news/2022-05-pace-machine.html"
+    },
+    {
       "by": "rntn",
       "descendants": 0,
       "id": 31428442,
@@ -25,6 +88,7 @@
       "descendants": 1,
       "id": 31428374,
       "kids": [
+        31428466,
         31428437
       ],
       "score": 1,
@@ -35,73 +99,16 @@
     },
     {
       "by": "_Microft",
-      "descendants": 0,
+      "descendants": 1,
       "id": 31428338,
-      "score": 1,
+      "kids": [
+        31428468
+      ],
+      "score": 2,
       "time": 1652912306,
       "title": "Gravity signals could detect earthquakes at the speed of light",
       "type": "story",
       "url": "https://www.science.org/content/article/gravity-signals-could-detect-earthquakes-speed-light"
-    },
-    {
-      "by": "gabea",
-      "descendants": 0,
-      "id": 31428337,
-      "score": 1,
-      "time": 1652912303,
-      "title": "Apple is allowing apps to automatically bleed more money out of you",
-      "type": "story",
-      "url": "https://mashable.com/article/apple-subscription-prices-increase"
-    },
-    {
-      "by": "jseliger",
-      "descendants": 0,
-      "id": 31428286,
-      "score": 1,
-      "time": 1652912038,
-      "title": "States Need to Confront Minimum Parking Mandates",
-      "type": "story",
-      "url": "https://www.sightline.org/2022/05/18/states-need-to-confront-parking-mandates/"
-    },
-    {
-      "by": "rntn",
-      "descendants": 0,
-      "id": 31428279,
-      "score": 2,
-      "time": 1652911987,
-      "title": "Direct observation of the dead-cone effect in quantum chromodynamics",
-      "type": "story",
-      "url": "https://www.nature.com/articles/s41586-022-04572-w"
-    },
-    {
-      "by": "judge2020",
-      "descendants": 0,
-      "id": 31428247,
-      "score": 1,
-      "time": 1652911782,
-      "title": "GitHub Actions to support M1 self-hosted runners by end of Q2",
-      "type": "story",
-      "url": "https://github.com/github/roadmap/issues/507"
-    },
-    {
-      "by": "nalgeon",
-      "descendants": 0,
-      "id": 31428245,
-      "score": 1,
-      "time": 1652911762,
-      "title": "Automate the Boring Kubernetes Operations with Python",
-      "type": "story",
-      "url": "https://martinheinz.dev/blog/73"
-    },
-    {
-      "by": "JumpCrisscross",
-      "descendants": 0,
-      "id": 31428214,
-      "score": 1,
-      "time": 1652911545,
-      "title": "Stock Selloff Crunches SPAC Creators as They Race to Find Deals",
-      "type": "story",
-      "url": "https://www.wsj.com/articles/stock-selloff-crunches-spac-creators-as-they-race-to-find-deals-11652866380"
     }
   ]
 }
