@@ -1,10 +1,20 @@
 {
   "stories": [
     {
+      "by": "himeexcelanta",
+      "descendants": 0,
+      "id": 31417993,
+      "score": 1,
+      "text": "Just got an email from Salesforce: &quot;Action Required: Heroku security notification&quot;.<p>Looks like the database that stores pipeline-level config variables for both Review Apps and Heroku CI were compromised.<p>Per Heroku, &quot;...any secrets you set in Review Apps and Heroku CI config may have been compromised and should be rotated&quot;.<p>This...is really messed up :&#x2F;",
+      "time": 1652834928,
+      "title": "Heroku CI and Review Secrets Compromised",
+      "type": "story"
+    },
+    {
       "by": "LoveGracePeace",
       "descendants": 0,
       "id": 31417959,
-      "score": 1,
+      "score": 3,
       "time": 1652834552,
       "title": "I self-host email, never needed G Suite",
       "type": "story",
@@ -14,7 +24,7 @@
       "by": "keewee7",
       "descendants": 0,
       "id": 31417957,
-      "score": 1,
+      "score": 2,
       "time": 1652834544,
       "title": "Tech companies are censoring the violent crackdown on Iranian protestors",
       "type": "story",
@@ -32,9 +42,10 @@
     },
     {
       "by": "LoveGracePeace",
-      "descendants": 1,
+      "descendants": 2,
       "id": 31417907,
       "kids": [
+        31418001,
         31417908
       ],
       "score": 1,
@@ -75,7 +86,7 @@
     },
     {
       "by": "alanwong",
-      "descendants": 1,
+      "descendants": 3,
       "id": 31417866,
       "kids": [
         31417874
@@ -95,16 +106,6 @@
       "title": "New app from UK's MI5 to help spot online spies",
       "type": "story",
       "url": "https://www.bbc.co.uk/news/technology-61469673"
-    },
-    {
-      "by": "webmaven",
-      "descendants": 0,
-      "id": 31417852,
-      "score": 1,
-      "time": 1652833724,
-      "title": "Intelligence and Comprehension",
-      "type": "story",
-      "url": "https://www.oreilly.com/radar/intelligence-and-comprehension/"
     }
   ]
 }
