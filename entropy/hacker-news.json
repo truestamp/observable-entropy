@@ -1,6 +1,46 @@
 {
   "stories": [
     {
+      "by": "verisimi",
+      "descendants": 0,
+      "id": 31441327,
+      "score": 1,
+      "time": 1653001488,
+      "title": "The bonnie and clyde of bioethics (fauci/grady NIH)",
+      "type": "story",
+      "url": "https://boriquagato.substack.com/p/the-bonnie-and-clyde-of-bioethics"
+    },
+    {
+      "by": "sandes",
+      "descendants": 0,
+      "id": 31441308,
+      "score": 1,
+      "time": 1653001395,
+      "title": "Stripe MVP",
+      "type": "story",
+      "url": "https://www.quora.com/What-did-the-first-version-of-Stripe-look-like-How-did-they-get-it-to-work-in-production-for-the-first-users"
+    },
+    {
+      "by": "Mo3",
+      "descendants": 0,
+      "id": 31441304,
+      "score": 2,
+      "text": "Long story short, through a bizarre chain of events starting from trying to hire a contractor online I have uncovered and have access to tens of thousands of user credentials (email + CLEARTEXT password), associated addresses, company information, as well as associated active API keys for stock and crypto exchange accounts, millions of dollars in some, and to top it all off some of them even have withdrawal permissions.<p>The nature of access is such that it is somewhat hard for bots to find, which I assume is the reason it seems untampered with, but I have not tried executing write operations so I have no idea if it may only be read-only access and bots had a field day on it already. The database itself also contains admin credentials to an internal administration interface which HAS write permissions.<p>Now, I&#x27;m obviously documenting this insanity to write a blog post over the next couple of days, but I&#x27;m seriously wondering what to do with this before anything else.<p>As far as I see it, there are three options right now,<p>1) Contact the site owners itself and let them know, but the... service they run seems shady, and I worry that they might try to simply sweep it under the rug without informing their customers or doing nothing at all about it (if they are even still around, the last payment in their system seems to be from March even though there are thousands of users still active)<p>2) Scrape off the email addresses and send emails to the affected individuals, warning them of the data leak, urging them to change their passwords and disable the API keys, however I worry that my emails either get routed to spam or ignored by a good amount of them<p>3) Nuke the database to prevent any future harm<p>I&#x27;m lost.",
+      "time": 1653001368,
+      "title": "Ask HN: I found a pretty extreme data leak and I'm not sure what to do",
+      "type": "story"
+    },
+    {
+      "by": "lbrito",
+      "descendants": 0,
+      "id": 31441303,
+      "score": 1,
+      "time": 1653001365,
+      "title": "List of Mutually Intelligible Languages",
+      "type": "story",
+      "url": "https://en.wikipedia.org/wiki/Mutual_intelligibility"
+    },
+    {
       "by": "rckrd",
       "descendants": 0,
       "id": 31441254,
@@ -14,7 +54,7 @@
       "by": "filoeleven",
       "descendants": 0,
       "id": 31441253,
-      "score": 1,
+      "score": 2,
       "time": 1653001105,
       "title": "Today's giant farm vehicles threaten 20% of the world's cropland",
       "type": "story",
@@ -59,49 +99,6 @@
       "title": "House Passes Bill to Crack Down on Gasoline 'Price Gouging'",
       "type": "story",
       "url": "https://www.usnews.com/news/business/articles/2022-05-19/house-approves-bill-to-take-aim-at-gasoline-price-gouging"
-    },
-    {
-      "by": "JumpCrisscross",
-      "descendants": 1,
-      "id": 31441142,
-      "kids": [
-        31441255
-      ],
-      "score": 2,
-      "time": 1653000348,
-      "title": "Facebook quietly bankrolled small, grass-roots groups to lobby for it in D.C",
-      "type": "story",
-      "url": "https://www.washingtonpost.com/technology/2022/05/17/american-edge-facebook-regulation/"
-    },
-    {
-      "by": "OrvalWintermute",
-      "descendants": 0,
-      "id": 31441126,
-      "score": 4,
-      "time": 1653000201,
-      "title": "The Head of Biden’s New “Disinformation Governing Board”",
-      "type": "story",
-      "url": "https://www.thenation.com/article/politics/meet-the-head-of-bidens-new-disinformation-governing-board/"
-    },
-    {
-      "by": "lurkshark",
-      "descendants": 0,
-      "id": 31441097,
-      "score": 1,
-      "time": 1652999969,
-      "title": "Using Node-RED as an open-source alternative to Zapier",
-      "type": "story",
-      "url": "https://coderevue.net/posts/zapier-alternative-node-red/"
-    },
-    {
-      "by": "perihelions",
-      "descendants": 0,
-      "id": 31441089,
-      "score": 1,
-      "time": 1652999946,
-      "title": "Boeing Starliner OFT-2 Launch",
-      "type": "story",
-      "url": "https://www.youtube.com/watch?v=gy6iam6NjsU"
     }
   ]
 }
