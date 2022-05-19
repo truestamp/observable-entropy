@@ -1,9 +1,55 @@
 {
   "stories": [
     {
-      "by": "verisimi",
+      "by": "carride",
       "descendants": 0,
+      "id": 31441370,
+      "score": 1,
+      "time": 1653001790,
+      "title": "We learned to break down barriers to machine learning",
+      "type": "story",
+      "url": "https://arstechnica.com/information-technology/2022/05/how-we-learned-to-break-down-barriers-to-machine-learning/"
+    },
+    {
+      "by": "bilegeek",
+      "descendants": 0,
+      "id": 31441356,
+      "score": 1,
+      "time": 1653001641,
+      "title": "How LCD Response Times are Measured, and why it's moderately deceptive [video]",
+      "type": "story",
+      "url": "https://www.youtube.com/watch?v=MbZUgKpzTA0"
+    },
+    {
+      "by": "godmode2019",
+      "descendants": 1,
+      "id": 31441342,
+      "kids": [
+        31441361
+      ],
+      "score": 1,
+      "time": 1653001558,
+      "title": "Man arrested after altering photos of teen girls",
+      "type": "story",
+      "url": "https://www.newshub.co.nz/home/new-zealand/2022/05/marlborough-man-arrested-after-altering-photos-of-teen-girls-and-sharing-to-adult-websites.html"
+    },
+    {
+      "by": "c7DJTLrn",
+      "descendants": 0,
+      "id": 31441331,
+      "score": 1,
+      "text": "I&#x27;m a relatively late adopter of Bluetooth, having mainly used cables up until recently. I own a pair of cheapish Anker earbuds and now Audio Technica headphones.<p>I find Bluetooth to be a frustrating experience. Almost every day I encounter issues when I&#x27;m trying to pair say, my headphones, with my MacBook. I hold the power button the headphones to turn them on or they&#x27;re already on standby. I do a few clicks to pair them on my MacBook. macOS says it&#x27;s paired but I didn&#x27;t hear the pairing sound. So I try clicking again to unpair. No unpair sound. I toggle Bluetooth off and on and try pairing again. No dice. I power cycle the headphones and they pair with my phone instead. I hold the up and down volume buttons to force them into pairing mode again...<p>Not to mention that Spotify randomly decides to switch devices sometimes and refuses to switch back unless I kill the app. Or it says my headphones are paired even though Android does not.<p>On the London Underground, my music often goes crackly&#x2F;distorted presumably because of interference from the trains and other devices around me. Frankly I never even considered that could be an issue. And it&#x27;s not a faulty product or anything like that.<p>This isn&#x27;t just a complaint about my AT headphones. My Anker earbuds are just as frustrating.<p>It would be so nice if you could just like, I don&#x27;t know, bump two devices together and they use NFC to pair or something.",
+      "time": 1653001513,
+      "title": "Ask HN: Anyone else find Bluetooth to be frustrating?",
+      "type": "story"
+    },
+    {
+      "by": "verisimi",
+      "descendants": 1,
       "id": 31441327,
+      "kids": [
+        31441360
+      ],
       "score": 1,
       "time": 1653001488,
       "title": "The bonnie and clyde of bioethics (fauci/grady NIH)",
@@ -25,7 +71,7 @@
       "descendants": 0,
       "id": 31441304,
       "score": 2,
-      "text": "Long story short, through a bizarre chain of events starting from trying to hire a contractor online I have uncovered and have access to tens of thousands of user credentials (email + CLEARTEXT password), associated addresses, company information, as well as associated active API keys for stock and crypto exchange accounts, millions of dollars in some, and to top it all off some of them even have withdrawal permissions.<p>The nature of access is such that it is somewhat hard for bots to find, which I assume is the reason it seems untampered with, but I have not tried executing write operations so I have no idea if it may only be read-only access and bots had a field day on it already. The database itself also contains admin credentials to an internal administration interface which HAS write permissions.<p>Now, I&#x27;m obviously documenting this insanity to write a blog post over the next couple of days, but I&#x27;m seriously wondering what to do with this before anything else.<p>As far as I see it, there are three options right now,<p>1) Contact the site owners itself and let them know, but the... service they run seems shady, and I worry that they might try to simply sweep it under the rug without informing their customers or doing nothing at all about it (if they are even still around, the last payment in their system seems to be from March even though there are thousands of users still active)<p>2) Scrape off the email addresses and send emails to the affected individuals, warning them of the data leak, urging them to change their passwords and disable the API keys, however I worry that my emails either get routed to spam or ignored by a good amount of them<p>3) Nuke the database to prevent any future harm<p>I&#x27;m lost.",
+      "text": "Long story short, through a bizarre chain of events starting from trying to hire a contractor online I have uncovered and have access to tens of thousands of user credentials (email + CLEARTEXT password), associated addresses, company information, as well as associated active API keys for stock and crypto exchange accounts, millions of dollars in some, and to top it all off some of them even have withdrawal permissions.<p>The nature of access is such that it is somewhat hard for bots to find, which I assume is the reason it seems untampered with, but I have not tried executing write operations so I have no idea if it may only be read-only access and bots had a field day on it already. The database itself also contains admin credentials to an internal administration interface which HAS write permissions.<p>Now, I&#x27;m obviously documenting this insanity to write a blog post over the next couple of days, but I&#x27;m seriously wondering what to do with this before anything else.<p>As far as I see it, there are three options right now,<p>1) Contact the site owners themselves and let them know, but the... service they run seems shady, and I worry that they might try to simply sweep it under the rug without informing their customers or doing nothing at all about it (if they are even still around, the last admin login in their system seems to be from March even though there are thousands of users still active)<p>2) Scrape off the email addresses and send emails to the affected individuals, warning them of the data leak, urging them to change their passwords and disable the API keys, however I worry that my emails either get routed to spam or ignored by a good amount of them<p>3) Nuke the data to prevent any future harm<p>I&#x27;m super lost. I&#x27;m thinking about step 2 and then 3.",
       "time": 1653001368,
       "title": "Ask HN: I found a pretty extreme data leak and I'm not sure what to do",
       "type": "story"
@@ -59,46 +105,6 @@
       "title": "Today's giant farm vehicles threaten 20% of the world's cropland",
       "type": "story",
       "url": "https://interestingengineering.com/farm-vehicles-threaten-cropland"
-    },
-    {
-      "by": "sunjester",
-      "descendants": 0,
-      "id": 31441242,
-      "score": 1,
-      "time": 1653001032,
-      "title": "Taco Bell Brings Back Mexican Pizza",
-      "type": "story",
-      "url": "https://www.tacobell.com/food/specialties/mexican-pizza"
-    },
-    {
-      "by": "rntn",
-      "descendants": 0,
-      "id": 31441224,
-      "score": 1,
-      "time": 1653000922,
-      "title": "Explainer: What is monkeypox and where is it spreading?",
-      "type": "story",
-      "url": "https://apnews.com/article/monkeypox-what-to-know-d62250e909202943247552815dadb1de"
-    },
-    {
-      "by": "cowpig",
-      "descendants": 0,
-      "id": 31441186,
-      "score": 2,
-      "time": 1653000678,
-      "title": "Senators push to break up Google, Facebook ads businesses in new bill",
-      "type": "story",
-      "url": "https://www.theverge.com/2022/5/19/23130963/google-facebook-antitrust-digital-advertising-competition-bill-senate"
-    },
-    {
-      "by": "Barrera",
-      "descendants": 0,
-      "id": 31441176,
-      "score": 2,
-      "time": 1653000609,
-      "title": "House Passes Bill to Crack Down on Gasoline 'Price Gouging'",
-      "type": "story",
-      "url": "https://www.usnews.com/news/business/articles/2022-05-19/house-approves-bill-to-take-aim-at-gasoline-price-gouging"
     }
   ]
 }
