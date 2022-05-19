@@ -1,6 +1,36 @@
 {
   "stories": [
     {
+      "by": "pseudolus",
+      "descendants": 0,
+      "id": 31441429,
+      "score": 1,
+      "time": 1653002212,
+      "title": "Canada to ban Huawei/ZTE 5G equipment, joining Five Eyes allies",
+      "type": "story",
+      "url": "https://www.reuters.com/business/media-telecom/canada-announce-ban-use-huawei-zte-5g-equipment-source-2022-05-19/"
+    },
+    {
+      "by": "rntn",
+      "descendants": 0,
+      "id": 31441424,
+      "score": 1,
+      "time": 1653002175,
+      "title": "Heilbrunn Timeline of Art History (The Metropolitan Museum of Art)",
+      "type": "story",
+      "url": "https://www.metmuseum.org/toah/"
+    },
+    {
+      "by": "norsak",
+      "descendants": 0,
+      "id": 31441419,
+      "score": 1,
+      "time": 1653002143,
+      "title": "Show HN: Use GIFs to market your product",
+      "type": "story",
+      "url": "https://chatterry.com"
+    },
+    {
       "by": "carride",
       "descendants": 0,
       "id": 31441370,
@@ -35,8 +65,11 @@
     },
     {
       "by": "c7DJTLrn",
-      "descendants": 0,
+      "descendants": 1,
       "id": 31441331,
+      "kids": [
+        31441444
+      ],
       "score": 1,
       "text": "I&#x27;m a relatively late adopter of Bluetooth, having mainly used cables up until recently. I own a pair of cheapish Anker earbuds and now Audio Technica headphones.<p>I find Bluetooth to be a frustrating experience. Almost every day I encounter issues when I&#x27;m trying to pair say, my headphones, with my MacBook. I hold the power button the headphones to turn them on or they&#x27;re already on standby. I do a few clicks to pair them on my MacBook. macOS says it&#x27;s paired but I didn&#x27;t hear the pairing sound. So I try clicking again to unpair. No unpair sound. I toggle Bluetooth off and on and try pairing again. No dice. I power cycle the headphones and they pair with my phone instead. I hold the up and down volume buttons to force them into pairing mode again...<p>Not to mention that Spotify randomly decides to switch devices sometimes and refuses to switch back unless I kill the app. Or it says my headphones are paired even though Android does not.<p>On the London Underground, my music often goes crackly&#x2F;distorted presumably because of interference from the trains and other devices around me. Frankly I never even considered that could be an issue. And it&#x27;s not a faulty product or anything like that.<p>This isn&#x27;t just a complaint about my AT headphones. My Anker earbuds are just as frustrating.<p>It would be so nice if you could just like, I don&#x27;t know, bump two devices together and they use NFC to pair or something.",
       "time": 1653001513,
@@ -51,7 +84,7 @@
         31441386,
         31441360
       ],
-      "score": 1,
+      "score": 2,
       "time": 1653001488,
       "title": "The bonnie and clyde of bioethics (fauci/grady NIH)",
       "type": "story",
@@ -69,43 +102,16 @@
     },
     {
       "by": "Mo3",
-      "descendants": 0,
+      "descendants": 1,
       "id": 31441304,
-      "score": 4,
-      "text": "Long story short, through a bizarre chain of events starting from trying to hire a contractor online I have uncovered and have access to tens of thousands of user credentials (email + CLEARTEXT password), associated addresses, company information, as well as associated active API keys for stock and crypto exchange accounts, millions of dollars in some, and to top it all off some of them even have withdrawal permissions.<p>The nature of access is such that it is somewhat hard for bots to find, which I assume is the reason it seems untampered with, but I have not tried executing write operations so I have no idea if it may only be read-only access and bots had a field day on it already. The database itself also contains admin credentials to an internal administration interface which HAS write permissions.<p>Now, I&#x27;m obviously documenting this insanity to write a blog post over the next couple of days, but I&#x27;m seriously wondering what to do with this before anything else.<p>As far as I see it, there are three options right now,<p>1) Contact the site owners themselves and let them know, but the... service they run seems shady, and I worry that they might try to simply sweep it under the rug without informing their customers or doing nothing at all about it (if they are even still around, the last admin login in their system seems to be from March even though there are thousands of users still active)<p>2) Scrape off the email addresses and send emails to the affected individuals, warning them of the data leak, urging them to change their passwords and disable the API keys, however I worry that my emails either get routed to spam or ignored by a good amount of them<p>3) Nuke the data to prevent any future harm<p>I&#x27;m super lost. I&#x27;m thinking about step 2 and then 3.",
+      "kids": [
+        31441441
+      ],
+      "score": 9,
+      "text": "Long story short, through a bizarre chain of events starting from trying to hire a contractor online I have uncovered and have access to tens of thousands of user credentials (email + CLEARTEXT password), associated addresses, company information, as well as associated active API keys for stock and crypto exchange accounts, millions of dollars in some, and to top it all off some of them even have withdrawal permissions.<p>The nature of access is such that it is somewhat hard for bots to find, which I assume is the reason it seems untampered with, but I have not tried executing write operations so I have no idea if it may only be read-only access and bots had a field day on it already - I doubt it, the exchange accounts have too much money in them. The database itself also contains admin credentials to an internal administration interface which HAS write permissions.<p>Now, I&#x27;m obviously documenting this insanity to write a blog post over the next couple of days, but I&#x27;m seriously wondering what to do with this before anything else.<p>As far as I see it, there are three options right now,<p>1) Contact the site owners themselves and let them know, but the... service they run seems shady, and I worry that they might try to simply sweep it under the rug without informing their customers or doing nothing at all about it (if they are even still around, the last admin login in their system seems to be from March even though there are thousands of users still active)<p>2) Scrape off the email addresses and send emails to the affected individuals, warning them of the data leak, urging them to change their passwords and disable the API keys, however I worry that my emails either get routed to spam or ignored by a good amount of them<p>3) Nuke the data to prevent any future harm<p>I&#x27;m super lost. I&#x27;m thinking about step 2 and then 3.",
       "time": 1653001368,
       "title": "Ask HN: I found a pretty extreme data leak and I'm not sure what to do",
       "type": "story"
-    },
-    {
-      "by": "lbrito",
-      "descendants": 0,
-      "id": 31441303,
-      "score": 1,
-      "time": 1653001365,
-      "title": "List of Mutually Intelligible Languages",
-      "type": "story",
-      "url": "https://en.wikipedia.org/wiki/Mutual_intelligibility"
-    },
-    {
-      "by": "rckrd",
-      "descendants": 0,
-      "id": 31441254,
-      "score": 1,
-      "time": 1653001122,
-      "title": "How to Beat Google Search",
-      "type": "story",
-      "url": "https://matt-rickard.com/how-to-beat-google-search/"
-    },
-    {
-      "by": "filoeleven",
-      "descendants": 0,
-      "id": 31441253,
-      "score": 3,
-      "time": 1653001105,
-      "title": "Today's giant farm vehicles threaten 20% of the world's cropland",
-      "type": "story",
-      "url": "https://interestingengineering.com/farm-vehicles-threaten-cropland"
     }
   ]
 }
