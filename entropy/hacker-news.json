@@ -1,6 +1,45 @@
 {
   "stories": [
     {
+      "by": "makaimc",
+      "descendants": 0,
+      "id": 31432903,
+      "score": 1,
+      "time": 1652957712,
+      "title": "Testing in Production to Stay Safe and Sensible",
+      "type": "story",
+      "url": "https://launchdarkly.com/blog/testing-in-production-for-safety-and-sanity/"
+    },
+    {
+      "by": "taubek",
+      "descendants": 0,
+      "id": 31432884,
+      "score": 1,
+      "time": 1652957497,
+      "title": "The CEO of Revolut said that they are now much closer to an IPO",
+      "type": "story",
+      "url": "https://www.altfi.com/article/9272_revolut-ceo-nik-storonsky-weve-made-almost-every-mistake-possible-and-weve-learned-from-them"
+    },
+    {
+      "by": "gurumeditations",
+      "descendants": 0,
+      "id": 31432883,
+      "score": 1,
+      "time": 1652957478,
+      "title": "Kevin McCarthy destroys Peloton’s business model in 30 seconds",
+      "type": "story",
+      "url": "https://twitter.com/therecount/status/1526960782474346499"
+    },
+    {
+      "by": "mvrck19",
+      "descendants": 0,
+      "id": 31432882,
+      "score": 1,
+      "time": 1652957465,
+      "title": "What organization app do you use? (notes/todo etc.)",
+      "type": "story"
+    },
+    {
       "by": "davidbarker",
       "descendants": 0,
       "id": 31432876,
@@ -15,7 +54,7 @@
       "descendants": 0,
       "id": 31432859,
       "score": 2,
-      "text": "Hi!<p>One of the creators here. Very proud to finally be able to show you what we&#x27;ve been working on for over a year now. Curious to hear your thoughts!<p>---<p>What?<p>Objectiv is open-source (APLv2) product analytics infrastructure. It&#x27;s built around a generic but strict event taxonomy, open&#x2F;common data- and infra (currently PG, snowplow, working on bigquery with more to come), and the analyses are done using our pandas-like, SQL speaking modeling library called Bach. As a result, we’re moving towards a vision wherein models can be shared openly, independent of product, platform[1] or data platform[2].<p>How?<p>- Fully assist the dev doing the instrumentation using tools for ide support, run-time validation, ci integration. No auto capture, but very low-effort[1] instrumentation.<p>- Scale using proven tech: a single collector writing to PG for small or snowplow to anything[2] for big.<p>- Feed data into your own data warehouse after validation.<p>- No tracking plan, but an open event taxonomy designed for modeling, that fits most user interfaces out of the box or can be extended otherwise.<p>- Take some of our pre-built models off the shelf or use Bach directly to model on the raw data in a notebook.<p>- Bach generates SQL for the target platform: productionize without lock-in, feed to a BI system, dbt, etc.<p>Where?<p>Github: https:&#x2F;&#x2F;github.com&#x2F;objectiv&#x2F;objectiv-analytics<p>Docker demo: https:&#x2F;&#x2F;objectiv.io&#x2F;docs&#x2F;home&#x2F;quickstart-guide&#x2F;<p>Website&#x2F;docs: https:&#x2F;&#x2F;objectiv.io&#x2F;<p>Let me know what you think and what platform&#x2F;SQL backend you’d like to see supported first.<p>[1] Currently on plain js, react, angular, react native. Future: vue, native android&#x2F;ios.\n[2] Once we’re done building Bach support for all SQL platforms. Now: PG, bigquery in development. Future: redshift, clickhouse, athena, etc.",
+      "text": "Hi!<p>One of the creators here. Very proud to finally be able to show you what we&#x27;ve been working on for over a year now. Curious to hear your thoughts!<p>What?<p>Objectiv is open-source (APLv2) product analytics infrastructure. It&#x27;s built around a generic but strict event taxonomy, open&#x2F;common data- and infra (currently PG, snowplow, working on bigquery with more to come), and the analyses are done using our pandas-like, SQL speaking modeling library called Bach. As a result, we’re moving towards a vision wherein models can be shared openly, independent of product, platform[1] or data platform[2].<p>How?<p>- Fully assist the dev doing the instrumentation using tools for ide support, run-time validation, ci integration. No auto capture, but very low-effort[1] instrumentation.<p>- Scale using proven tech: a single collector writing to PG for small or snowplow to anything[2] for big.<p>- Feed data into your own data warehouse after validation.<p>- No tracking plan, but an open event taxonomy designed for modeling, that fits most user interfaces out of the box or can be extended otherwise.<p>- Take some of our pre-built models off the shelf or use Bach directly to model on the raw data in a notebook.<p>- Bach generates SQL for the target platform: productionize without lock-in, feed to a BI system, dbt, etc.<p>Where?<p>Github: https:&#x2F;&#x2F;github.com&#x2F;objectiv&#x2F;objectiv-analytics<p>Docker demo: https:&#x2F;&#x2F;objectiv.io&#x2F;docs&#x2F;home&#x2F;quickstart-guide&#x2F;<p>Website&#x2F;docs: https:&#x2F;&#x2F;objectiv.io&#x2F;<p>Let me know what you think and what platform&#x2F;SQL backend you’d like to see supported first.<p>[1] Currently on plain js, react, angular, react native. Future: vue, native android&#x2F;ios.<p>[2] Once we’re done building Bach support for all SQL platforms. Now: PG, bigquery in development. Future: redshift, clickhouse, athena, etc.",
       "time": 1652957139,
       "title": "Show HN: Objectiv – open-source product analytics infrastructure",
       "type": "story"
@@ -24,7 +63,7 @@
       "by": "carlycue",
       "descendants": 0,
       "id": 31432856,
-      "score": 1,
+      "score": 2,
       "time": 1652957110,
       "title": "Apple Is Union-Busting in NYC, Labor Group Alleges",
       "type": "story",
@@ -34,7 +73,7 @@
       "by": "pierrebarre",
       "descendants": 0,
       "id": 31432848,
-      "score": 1,
+      "score": 2,
       "time": 1652957028,
       "title": "Show HN: Privaxy – adblocking / tracker blocking by MITMing HTTPS traffic",
       "type": "story",
@@ -59,46 +98,6 @@
       "title": "Napster joins Limewire and Winamp by jumping on the Web3 bandwagon",
       "type": "story",
       "url": "https://www.theverge.com/2022/5/18/23122179/napster-web3-bought-hivemind-algorand"
-    },
-    {
-      "by": "quyleanh",
-      "descendants": 0,
-      "id": 31432802,
-      "score": 2,
-      "time": 1652956548,
-      "title": "Google is filing for bankruptcy in Russia",
-      "type": "story",
-      "url": "https://mashable.com/article/google-russia-bankrupt"
-    },
-    {
-      "by": "kazanins",
-      "descendants": 0,
-      "id": 31432782,
-      "score": 2,
-      "time": 1652956358,
-      "title": "Crypto Exchange FTX Expands into Stock Trading",
-      "type": "story",
-      "url": "https://www.wsj.com/articles/crypto-exchange-ftx-expands-into-stock-trading-11652954400"
-    },
-    {
-      "by": "stereoradonc",
-      "descendants": 0,
-      "id": 31432771,
-      "score": 1,
-      "time": 1652956279,
-      "title": "How to interview: Some pointers towards better hiring",
-      "type": "story",
-      "url": "https://radoncnotes.com/2022/05/19/how-to-interview-some-pointers-towards-better-hiring/"
-    },
-    {
-      "by": "belter",
-      "descendants": 0,
-      "id": 31432766,
-      "score": 1,
-      "time": 1652956264,
-      "title": "2022 Top Patent List – Based on the quantity of issued U.S. patents each year",
-      "type": "story",
-      "url": "https://harrityllp.com/patent300/"
     }
   ]
 }
