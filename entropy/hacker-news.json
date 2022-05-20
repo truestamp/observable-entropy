@@ -1,6 +1,26 @@
 {
   "stories": [
     {
+      "by": "2pEXgD0fZ5cF",
+      "descendants": 0,
+      "id": 31442391,
+      "score": 1,
+      "time": 1653010779,
+      "title": "Private, secure communications attacked by European Commission’s latest proposal",
+      "type": "story",
+      "url": "https://edri.org/our-work/private-and-secure-communications-put-at-risk-by-european-commissions-latest-proposal/"
+    },
+    {
+      "by": "gok",
+      "descendants": 0,
+      "id": 31442390,
+      "score": 1,
+      "time": 1653010759,
+      "title": "Census Miscounted the Population of 14 States, a Review Shows",
+      "type": "story",
+      "url": "https://www.nytimes.com/2022/05/19/us/2020-census-miscount-states.html"
+    },
+    {
       "by": "rntn",
       "descendants": 0,
       "id": 31442367,
@@ -12,12 +32,12 @@
     },
     {
       "by": "middleclick",
-      "descendants": 1,
+      "descendants": 3,
       "id": 31442356,
       "kids": [
         31442360
       ],
-      "score": 4,
+      "score": 5,
       "time": 1653010286,
       "title": "SpaceX Paid $250k to Settle Musk Sexual Harassment Claim, Insider Reports",
       "type": "story",
@@ -65,9 +85,12 @@
     },
     {
       "by": "aiallthewaydown",
-      "descendants": 0,
+      "descendants": 1,
       "id": 31442302,
-      "score": 2,
+      "kids": [
+        31442373
+      ],
+      "score": 3,
       "time": 1653009710,
       "title": "The rise and importance of Secret Congress",
       "type": "story",
@@ -82,26 +105,6 @@
       "title": "Apple interrogating staff at World Trade Center store, CWA says",
       "type": "story",
       "url": "https://vervetimes.com/apple-interrogating-staff-at-world-trade-center-store-cwa-says/"
-    },
-    {
-      "by": "rntn",
-      "descendants": 0,
-      "id": 31442254,
-      "score": 3,
-      "time": 1653009309,
-      "title": "Grid monitor warns of U.S. blackouts in ‘sobering report’",
-      "type": "story",
-      "url": "https://www.eenews.net/articles/grid-monitor-warns-of-u-s-blackouts-in-sobering-report/"
-    },
-    {
-      "by": "Peanuuutz",
-      "descendants": 0,
-      "id": 31442244,
-      "score": 1,
-      "text": "Hello folks, recently I&#x27;ve updated my kotlinx.serialization plugin which focuses on TOML, a configuration file format. I&#x27;d like to post it on HN for more feedbacks. :)<p>This library works much like the official JSON format, where you use Toml as entrypoint, Toml.encodeToString to encode almost any data structures (if is custom class then @Serializable is needed for sure) into TOML-file-like strings, and decodeFromString to reverse the process. In addition, Toml.parseToTomlTable allows you to just parse the TOML-file-like strings into TomlTable, which behaves like JsonObject from the official JSON as well. Then you could access each entry by key like myConfig[&quot;version&quot;]. For more information, check out https:&#x2F;&#x2F;github.com&#x2F;Peanuuutz&#x2F;tomlkt.",
-      "time": 1653009250,
-      "title": "Show HN: TOML Support for Kotlinx.serialization",
-      "type": "story"
     }
   ]
 }
