@@ -1,6 +1,36 @@
 {
   "stories": [
     {
+      "by": "Peanuuutz",
+      "descendants": 0,
+      "id": 31442244,
+      "score": 1,
+      "text": "Hello folks, recently I&#x27;ve updated my kotlinx.serialization plugin which focuses on TOML, a configuration file format. I&#x27;d like to post it on HN for more feedbacks. :)<p>This library works much like the official JSON format, where you use Toml as entrypoint, Toml.encodeToString to encode almost any data structures (if is custom class then @Serializable is needed for sure) into TOML-file-like strings, and decodeFromString to reverse the process. In addition, Toml.parseToTomlTable allows you to just parse the TOML-file-like strings into TomlTable, which behaves like JsonObject from the official JSON as well. Then you could access each entry by key like myConfig[&quot;version&quot;]. For more information, check out https:&#x2F;&#x2F;github.com&#x2F;Peanuuutz&#x2F;tomlkt.",
+      "time": 1653009250,
+      "title": "Show HN: TOML Support for Kotlinx.serialization",
+      "type": "story"
+    },
+    {
+      "by": "CarrieLab",
+      "descendants": 0,
+      "id": 31442226,
+      "score": 1,
+      "time": 1653009053,
+      "title": "Is Elon right? We labeled 500 Twitter users to measure the amount of Spam",
+      "type": "story",
+      "url": "https://www.surgehq.ai//blog/we-measured-the-percentage-of-spammy-twitter-users"
+    },
+    {
+      "by": "cpeterso",
+      "descendants": 0,
+      "id": 31442219,
+      "score": 1,
+      "time": 1653009020,
+      "title": "Netflix cuts 150 jobs after subscriber slump, revenue slowdown",
+      "type": "story",
+      "url": "https://www.latimes.com/entertainment-arts/business/story/2022-05-17/lat-et-ct-netflix-restructuring-cuts-150-jobs"
+    },
+    {
       "by": "todsacerdoti",
       "descendants": 0,
       "id": 31442211,
@@ -69,36 +99,6 @@
       "title": "M4tt72/terminal: Terminal style website",
       "type": "story",
       "url": "https://github.com/m4tt72/terminal"
-    },
-    {
-      "by": "jelliclesfarm",
-      "descendants": 0,
-      "id": 31442082,
-      "score": 1,
-      "time": 1653007478,
-      "title": "Can We Fix Ovarian Aging?",
-      "type": "story",
-      "url": "https://www.forbes.com/sites/alexzhavoronkov/2022/05/19/can-we-fix-ovarian-aging-here-is-one-startup-up-for-the-task/"
-    },
-    {
-      "by": "gmays",
-      "descendants": 0,
-      "id": 31442051,
-      "score": 1,
-      "time": 1653007250,
-      "title": "A Man Who Controls Computers with His Mind",
-      "type": "story",
-      "url": "https://www.nytimes.com/2022/05/12/magazine/brain-computer-interface.html"
-    },
-    {
-      "by": "Simp4Zuck",
-      "descendants": 0,
-      "id": 31442032,
-      "score": 1,
-      "text": "I found that, for me, the trick to leetcode was to get a good start via things like the blind 75 and neetcode.io. What is the best start for kaggle?",
-      "time": 1653007069,
-      "title": "Ask HN: What is the best start for Kaggle?",
-      "type": "story"
     }
   ]
 }
