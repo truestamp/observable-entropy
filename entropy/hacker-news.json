@@ -1,6 +1,48 @@
 {
   "stories": [
     {
+      "by": "urlwolf",
+      "descendants": 0,
+      "id": 31444895,
+      "score": 1,
+      "time": 1653036865,
+      "title": "A key-infra open-source project can get compromised",
+      "type": "story",
+      "url": "https://lof.flounder.online/gemlog/2022-05-20%20how%20an%20open%20source%20project%20can%20get%20compromised.gmi"
+    },
+    {
+      "by": "Tepix",
+      "descendants": 0,
+      "id": 31444893,
+      "score": 1,
+      "text": "With a recession that&#x27;s either looming or already in underway, what are some financial indicators that you use for your financial planning?<p>What are you looking at and what do these indicators tell you?",
+      "time": 1653036852,
+      "title": "Ask HN: What financial indicators do you look at, and why?",
+      "type": "story"
+    },
+    {
+      "by": "brushyolaf",
+      "descendants": 0,
+      "id": 31444884,
+      "score": 1,
+      "text": "I built a web based prototype for an application using a Docker microservices architecture:\npostgreSQL, redis, traefik, etc. - the regular stuff - which works great.\nNow, the application&#x27;s usecase is actually better suited in a offline environment with a standalone executable, \nand I&#x27;m struggling to make this transition.<p><i>(How does the app work?\nThink of the application as a file indexing system: you specify a folder on your local hard drive and the program will analyze the files (might take up to 30 minutes) and store metadata for it in a search-optimized datastructure.)</i><p>From what I understand most applications also separate frontend and backend layers and let the processes communicate via message passing\nover some form of channel and protocol. The solutions I found include Unix Sockets with gRPC (https:&#x2F;&#x2F;docs.microsoft.com&#x2F;en-us&#x2F;aspnet&#x2F;core&#x2F;grpc&#x2F;interprocess?view=aspnetcore-6.0), local HTTP Servers with a REST API or gRPC, even \nJSON over stdin&#x2F;stdout (https:&#x2F;&#x2F;github.com&#x2F;xi-editor&#x2F;xi-editor).\nSolutions for datastorage include custom file formats, sqlite databases or bundled mongodb instances into the main application.<p>I figured out the backend part with analysis running multithreaded and writing into a sqlite database.\nFor the IPC I spawn a gRPC Server which clients connect to over HTTP&#x2F;2.\nThat way I compile a platform agnostic backend and platform specific frontends.\nIt all works okish but I feel like it&#x27;s unnecessarily complicated and there could be a common strategy I am missing.<p>*TL;DR: What are modern architectures for desktop applications equivalent to a microservice architecture with backend&#x2F;frontend separation, message queueing, pub&#x2F;sub, authentication, ...?*",
+      "time": 1653036695,
+      "title": "Ask HN: What are modern architecture patterns for desktop applications?",
+      "type": "story"
+    },
+    {
+      "by": "cedarswitch",
+      "descendants": 1,
+      "id": 31444883,
+      "kids": [
+        31444899
+      ],
+      "score": 1,
+      "time": 1653036687,
+      "title": "GitHub Is Down",
+      "type": "story"
+    },
+    {
       "by": "geox",
       "descendants": 0,
       "id": 31444857,
@@ -34,7 +76,7 @@
       "by": "rntn",
       "descendants": 0,
       "id": 31444829,
-      "score": 1,
+      "score": 2,
       "time": 1653036055,
       "title": "Prehistoric faeces reveal parasites from feasting at Stonehenge",
       "type": "story",
@@ -60,46 +102,6 @@
       "title": "Show HN: Vyne – Automated integration for in-house platforms",
       "type": "story",
       "url": "https://vyne.co"
-    },
-    {
-      "by": "breakingcups",
-      "descendants": 0,
-      "id": 31444788,
-      "score": 1,
-      "time": 1653035671,
-      "title": "Microsoft responds to European Cloud Provider feedback with new programs",
-      "type": "story",
-      "url": "https://blogs.microsoft.com/eupolicy/2022/05/18/microsoft-responds-to-european-cloud-provider-feedback-with-new-programs-and-principles/"
-    },
-    {
-      "by": "keydutch",
-      "descendants": 0,
-      "id": 31444785,
-      "score": 1,
-      "time": 1653035652,
-      "title": "Top Cybersecurity News of the Week",
-      "type": "story",
-      "url": "https://www.immuniweb.com/nojs.html"
-    },
-    {
-      "by": "andyjohnson0",
-      "descendants": 0,
-      "id": 31444768,
-      "score": 1,
-      "time": 1653035400,
-      "title": "Oncology’s Darwinian Dilemma",
-      "type": "story",
-      "url": "https://lareviewofbooks.org/article/oncologys-darwinian-dilemma/"
-    },
-    {
-      "by": "webmaven",
-      "descendants": 0,
-      "id": 31444757,
-      "score": 1,
-      "time": 1653035290,
-      "title": "MockingBird – Clone a voice in 5 seconds to generate real-time speech",
-      "type": "story",
-      "url": "https://gitee.com/babysor/MockingBird"
     }
   ]
 }
