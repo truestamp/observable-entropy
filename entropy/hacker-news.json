@@ -1,9 +1,51 @@
 {
   "stories": [
     {
-      "by": "lab",
+      "by": "samsaga2",
       "descendants": 0,
+      "id": 31443581,
+      "score": 1,
+      "time": 1653023343,
+      "title": "A Man Who Revolutionized Computer Science with Math",
+      "type": "story"
+    },
+    {
+      "by": "nullbytesmatter",
+      "descendants": 0,
+      "id": 31443567,
+      "score": 1,
+      "text": "I recently discovered Solr (Jetty to be specific) binds to &quot;::&quot; by default, which is the ipv6 equivalent to &quot;0.0.0.0&quot;. It essentially opened the Solr instance to the world.<p>I luckily caught it before indexing any data, but it opened my eyes to how easy it is for something like this to slip by. How can we prevent such things from happening?<p>I have since installed ufw and block all incoming traffic except to ports 22, 80 and 443 as a &quot;layer&quot; of defense (my thinking is, I won&#x27;t accidentally expose a port this way).",
+      "time": 1653023232,
+      "title": "Ask HN: How to avoid accidentally opening a port to the world?",
+      "type": "story"
+    },
+    {
+      "by": "apollinaire",
+      "descendants": 0,
+      "id": 31443566,
+      "score": 1,
+      "time": 1653023217,
+      "title": "Nazism in Small Objects",
+      "type": "story",
+      "url": "https://www.spectator.co.uk/article/the-history-of-nazism-in-small-objects"
+    },
+    {
+      "by": "Tomte",
+      "descendants": 0,
+      "id": 31443563,
+      "score": 1,
+      "time": 1653023195,
+      "title": "Sony shows off God of War Ragnarok’s accessibility features",
+      "type": "story",
+      "url": "https://www.theverge.com/2022/5/19/23131085/god-of-war-ragnarok-accessibility-sony-santa-monica-studio"
+    },
+    {
+      "by": "lab",
+      "descendants": 1,
       "id": 31443556,
+      "kids": [
+        31443573
+      ],
       "score": 1,
       "text": "I noticed that when discussing a new idea with people, we usually settle for a website or a mobile app, even for ideas where a browser extension would make more sense. Do you notice a similar pattern? What barrier do you see when thinking about browser extensions?",
       "time": 1653023101,
@@ -65,46 +107,6 @@
       "title": "Gravity-Defying Feats on Display at the Red Bull Paper Wings World Final",
       "type": "story",
       "url": "https://www.cnn.com/2022/05/17/sport/red-bull-paper-wings-airplane-final-spt-intl/index.html"
-    },
-    {
-      "by": "lnyan",
-      "descendants": 0,
-      "id": 31443397,
-      "score": 2,
-      "time": 1653021401,
-      "title": "Pixel Art Animation. Reinvented – Astortion Devlog [video]",
-      "type": "story",
-      "url": "https://www.youtube.com/watch?v=HsOKwUwL1bE"
-    },
-    {
-      "by": "idontwantthis",
-      "descendants": 0,
-      "id": 31443321,
-      "score": 2,
-      "text": "I have Bose QC35 II and Airpod 3. I was satisfied with the Bose until I got the Airpods and I realized how annoying switching devices is on the Bose. It nominally connects to two device at once, but it only accepts sound from one at a time, and it often keeps &quot;playing&quot; the sound from a device that isn&#x27;t doing anything and won&#x27;t switch to the one that is playing something. The one that is playing something is silent because it&#x27;s still connected to the headphones, but they aren&#x27;t accepting it&#x27;s sound.<p>Then I need to completely disconnect the headphones from the silent device and reconnect them to the device I want to hear from.<p>Airpods on the other hand only connect to one device at a time, and I can switch between them with a single press on the device I want to connect to. It also automatically switches to the one I want most of the time. \nGranted, I&#x27;m only switching between an iPhone and a Macbook.<p>I&#x27;m thinking about getting Airpod Max, but they are ludicrously expensive and ugly IMO.<p>Have other bluetooth headphones advanced since the QC 35 II? Are Bose QC45 or 700 better at switching?<p>What about Sony XM&lt;number&gt;?",
-      "time": 1653020487,
-      "title": "Ask HN: Are Non-Apple Bluetooth Headphones as Good at Switching Devices?",
-      "type": "story"
-    },
-    {
-      "by": "todsacerdoti",
-      "descendants": 0,
-      "id": 31443304,
-      "score": 1,
-      "time": 1653020309,
-      "title": "The Firmware Supply-Chain Security Is Broken [pdf]",
-      "type": "story",
-      "url": "https://github.com/binarly-io/Research_Publications/blob/main/BHASIA_2022/BHASIA22%20-%20The%20Firmware%20Supply-Chain%20Security%20Is%20Broken.pdf"
-    },
-    {
-      "by": "penberg",
-      "descendants": 0,
-      "id": 31443291,
-      "score": 1,
-      "time": 1653020131,
-      "title": "Show HN: ChiselStrike serverless runtime for TypeScript with native data layer",
-      "type": "story",
-      "url": "https://github.com/chiselstrike/chiselstrike"
     }
   ]
 }
