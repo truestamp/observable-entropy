@@ -1,6 +1,49 @@
 {
   "stories": [
     {
+      "by": "candrewlee14",
+      "descendants": 0,
+      "id": 31444560,
+      "score": 1,
+      "text": "If you didn’t check out webman a few weeks ago when I first posted about it, it’s gotten some serious upgrades!<p>We’ve received some great contributions from a couple super active members (thank you!) and now have automated schema linting &amp; installation testing for new package recipes, UI improvements, an interactive search command TUI to explore available packages, IDE package recipe autocompletion automatically with SchemaStore, lots of new packages, and support for installing package groups like modern-unix.<p>Webman is not trying to fill the same niche of homebrew; I think homebrew does a great job for Unix systems. However, Webman is built to be able to install on Windows too as a first-class citizen. It installs release binaries rather than building from source, which keeps package recipes lightweight &amp; lets us require no dependencies. Webman also makes it super easy to install and switch between different versions of software (similar to tools like nvm). I’ve been using it to manage different versions of Go, and it’s worked nicely!<p>If you find any packages you’d like that aren’t in the webman-pkgs repo yet, I’d love to help you out merging a PR! With the new schema support, it’s never been easier to write a package recipe, and CI will make sure your package installs correctly on each supported platform.<p>If you find the project interesting, give it a star! It means a lot :)<p>FYI: Webman is under active development so breaking changes may still occur. Don’t rely on this webman in production at least until a major release.<p>https:&#x2F;&#x2F;github.com&#x2F;candrewlee14&#x2F;webman",
+      "time": 1653033509,
+      "title": "Webman – Cross-Platform Package and Version Manager",
+      "type": "story"
+    },
+    {
+      "by": "todsacerdoti",
+      "descendants": 0,
+      "id": 31444558,
+      "score": 1,
+      "time": 1653033501,
+      "title": "Speeding up sort performance in Postgres 15",
+      "type": "story",
+      "url": "https://www.citusdata.com/blog/2022/05/19/speeding-up-sort-performance-in-postgres-15/"
+    },
+    {
+      "by": "shatnersbassoon",
+      "descendants": 1,
+      "id": 31444550,
+      "kids": [
+        31444551
+      ],
+      "score": 1,
+      "time": 1653033433,
+      "title": "Where are my Kindle notes and highlights if I'm in the UK?",
+      "type": "story",
+      "url": "https://kindlenotes.co.uk/"
+    },
+    {
+      "by": "helsinkiandrew",
+      "descendants": 0,
+      "id": 31444548,
+      "score": 1,
+      "time": 1653033379,
+      "title": "Apple’s board of directors reportedly tried out its upcoming AR / VR headset",
+      "type": "story",
+      "url": "https://www.theverge.com/2022/5/19/23131051/apple-vr-ar-headset-prototype-board-of-directors-demo"
+    },
+    {
       "by": "leavethemalone",
       "descendants": 0,
       "id": 31444525,
@@ -24,10 +67,20 @@
       "url": "https://ipspy.net/screenshot-webpage"
     },
     {
+      "by": "alle2022",
+      "descendants": 0,
+      "id": 31444511,
+      "score": 2,
+      "text": "Can Reddit go much worse than this... I can accept the pain of using new.reddit.com to login. But as soon as switch to old.reddit.com it shows that I am logged out? What are the product dev teams aiming for?<p>1. Reddit now forces you to use new.reddit.com to dismiss the cookie banner<p>https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=21780092<p>2. Since forcing people to mobile all the time to\nhttps:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=24208958<p>3. To forcing create account to read threads:\nhttps:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=21780092",
+      "time": 1653032995,
+      "title": "Tell HN: Reddit does not allow comments post via old.reddit.com",
+      "type": "story"
+    },
+    {
       "by": "jeffalyanak",
       "descendants": 0,
       "id": 31444488,
-      "score": 2,
+      "score": 3,
       "time": 1653032814,
       "title": "Why WireGuard is NOT safe, and you should NOT use it",
       "type": "story",
@@ -37,7 +90,7 @@
       "by": "meerita",
       "descendants": 0,
       "id": 31444487,
-      "score": 2,
+      "score": 3,
       "time": 1653032811,
       "title": "Project Veritas: Twitter employee confirms bias at Twitter",
       "type": "story",
@@ -52,59 +105,6 @@
       "title": "HTTP and Web Application Firewalls: Managing Ossification Risk",
       "type": "story",
       "url": "https://docs.google.com/document/d/131eTq1eAdjUWGXV8JtF6o842rOod2l7K4NajwDdf-l0/edit#heading=h.v3gcidfxizp3"
-    },
-    {
-      "by": "teleforce",
-      "descendants": 0,
-      "id": 31444440,
-      "score": 1,
-      "time": 1653032462,
-      "title": "Why Web Application Firewalls fail to protect web applications (2016)",
-      "type": "story",
-      "url": "https://blog.sqreen.com/why-web-application-firewalls-fail-to-protect-web-applications/"
-    },
-    {
-      "by": "dullynotsonumb",
-      "descendants": 1,
-      "id": 31444404,
-      "kids": [
-        31444405
-      ],
-      "score": 1,
-      "time": 1653032086,
-      "title": "Avanturistic – the world map of outdoor adventures",
-      "type": "story",
-      "url": "https://avanturistic.com/"
-    },
-    {
-      "by": "BobbyVsTheDevil",
-      "descendants": 0,
-      "id": 31444392,
-      "score": 2,
-      "time": 1653032000,
-      "title": "The development of fair tests of treatments (2014)",
-      "type": "story",
-      "url": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(14)60821-7"
-    },
-    {
-      "by": "umerf",
-      "descendants": 0,
-      "id": 31444389,
-      "score": 1,
-      "time": 1653031989,
-      "title": "Technical Leadership [pdf]",
-      "type": "story",
-      "url": "https://ruthmalan.com/Journal/2019/20190629SlideDocTechnicalLeadershipDecisions.pdf"
-    },
-    {
-      "by": "davidbauer",
-      "descendants": 0,
-      "id": 31444374,
-      "score": 1,
-      "time": 1653031853,
-      "title": "So, Have You Heard About Monkeypox?",
-      "type": "story",
-      "url": "https://www.theatlantic.com/health/archive/2022/05/monkeypox-outbreak-covid-pandemic/629920/"
     }
   ]
 }
