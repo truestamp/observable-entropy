@@ -1,10 +1,50 @@
 {
   "stories": [
     {
+      "by": "marcodiego",
+      "descendants": 0,
+      "id": 31450034,
+      "score": 1,
+      "time": 1653066004,
+      "title": "Linux for PC from 2007",
+      "type": "story",
+      "url": "https://notes.valdikss.org.ru/linux-for-old-pc-from-2007/en/#Linux%20for%20PC%20from%202007"
+    },
+    {
+      "by": "giuliomagnifico",
+      "descendants": 0,
+      "id": 31450028,
+      "score": 1,
+      "time": 1653065961,
+      "title": "How a cognitive bias is blocking the rise of electric cars",
+      "type": "story",
+      "url": "https://www.unige.ch/communication/communiques/en/2022/comment-un-biais-cognitif-freine-lessor-des-voitures-electriques"
+    },
+    {
+      "by": "todsacerdoti",
+      "descendants": 0,
+      "id": 31450018,
+      "score": 1,
+      "time": 1653065899,
+      "title": "Working with JSON in Various Shells",
+      "type": "story",
+      "url": "https://blog.kellybrazil.com/2022/05/19/working-with-json-in-various-shells/"
+    },
+    {
+      "by": "zekrioca",
+      "descendants": 0,
+      "id": 31450009,
+      "score": 1,
+      "time": 1653065847,
+      "title": "Against Chatcontrol",
+      "type": "story",
+      "url": "https://blog.cryptpad.org/2022/05/19/against-chatcontrol/"
+    },
+    {
       "by": "gabea",
       "descendants": 0,
       "id": 31449976,
-      "score": 1,
+      "score": 2,
       "time": 1653065687,
       "title": "EU Planning to Force Apple to Give Developers Access to Hardware and Software",
       "type": "story",
@@ -12,9 +52,12 @@
     },
     {
       "by": "LopRabbit",
-      "descendants": 0,
+      "descendants": 1,
       "id": 31449958,
-      "score": 1,
+      "kids": [
+        31450021
+      ],
+      "score": 2,
       "time": 1653065627,
       "title": "Doctor charged patient $40 for crying",
       "type": "story",
@@ -34,7 +77,7 @@
       "by": "mgh2",
       "descendants": 0,
       "id": 31449942,
-      "score": 1,
+      "score": 2,
       "time": 1653065570,
       "title": "US inflation dips to 8.3% but stays close to 40-year high –as it happened",
       "type": "story",
@@ -44,7 +87,7 @@
       "by": "mzs",
       "descendants": 0,
       "id": 31449930,
-      "score": 1,
+      "score": 2,
       "time": 1653065526,
       "title": "Introducing our crisis misinformation policy",
       "type": "story",
@@ -59,47 +102,6 @@
       "title": "Pitfalls of AWS Step Functions and How You Can Avoid Them – Ready, Set, Cloud",
       "type": "story",
       "url": "https://www.readysetcloud.io/blog/allen.helton/when-not-to-use-step-functions/"
-    },
-    {
-      "by": "DIYgod",
-      "descendants": 0,
-      "id": 31449921,
-      "score": 1,
-      "text": "We all know that it is not that easy for web3 developers(especially for front-end) to access and present Web3 data due to the infrastructure design of blockchains.<p>To resolve this issue, I came up with this human-friendly open-source project Unidata a few days ago. I believe this tool will make Web3 data much easier to access and display for developers.<p>Docs: <a href=\"https:&#x2F;&#x2F;unidata.app&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;unidata.app&#x2F;</a>\nGitHub: <a href=\"https:&#x2F;&#x2F;github.com&#x2F;NaturalSelectionLabs&#x2F;Unidata\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;NaturalSelectionLabs&#x2F;Unidata</a><p>Let&#x27;s take the most commonly used web3 data ETH NFT as an example to elaborate on the issue.<p>The EIP-721 standard ETH NFT used has a very &quot;flexible&quot; format. An NFT image may use various fields, such as image image_url or animation_url. Depending on the publisher&#x27;s preference, it might not even be an image at all; it could be a video, a 3D model, etc. The inconsistent formats cause a lot of problems for its front-end presentation.<p>Getting all the Ethereum NFTs owned by a given address is also problematic. Ethereum&#x27;s design requires you to read all the transaction records of that address to get all its Ethereum NFTs. This is an impossible task for the front-end, but can be partially solved by the various data indexing services currently available. However, the data returned by these services are in different formats, each having its own advantages and disadvantages, while each supports different chains. So how should we choose which one to use?<p>To address the first issue, Unidata has designed a series of user-friendly and uniform data specifications, divided into four sections - Profiles, Links, Assets, and Notes, and Ethereum NFTs fall under the Assets specification. With a fixed data format returned by Unidata, the front-end no longer has to do the troublesome work of adapting a confusing data format.<p>Unidata currently supports Ethereum NFT and Solana NFT as well, and the data specifications for Ethereum NFT and Solana NFT are unified. In addition, Unidata will continue to support more Assets sources, all of which will also have unified specifications.<p>Once the first issue was solved, the second is easy: Unidata&#x27;s approach is to unify and aggregate the data returned by the various services into the same format. For example, the OpenSea service supports the mainnet, the Alchemy service supports Polygon, the Moralis service supports BSC, Arbitrum, and fantom, and the POAP service supports POAP NFT for the Gnosis chain. With a single line of code from Unidata, you can use these services to get all the NFTs for mainnet, Polygon, BSC, Arbitrum, fantom, and POAP at the same time. An online demo can be seen here( <a href=\"https:&#x2F;&#x2F;unidata.app&#x2F;guide&#x2F;assets&#x2F;ethereum-nft&#x2F;#live-demo\" rel=\"nofollow\">https:&#x2F;&#x2F;unidata.app&#x2F;guide&#x2F;assets&#x2F;ethereum-nft&#x2F;#live-demo</a> ).<p>Unidata currently supports not only Assets, but also Profiles, Links, and Notes sections. All the services and data sources currently supported can be seen in documentation.<p>- Assets currently support Ethereum NFT(mainnet, Polygon, BSC, Arbitrum, Fantom, Gnosis, POAP), Solana NFT, Flow NFT, and even Gitcoin Contribution.<p>- Notes currently support Mirror Entry, Ethereum NFT Activity(mainnet, Polygon, BSC, Arbitrum, Fantom, Gnosis, POAP), Gitcoin Contribution.<p>- Profiles currently support ENS, Crossbell Profile.<p>- Links currently support Crossbell Link.<p>Many more features are in progress and will be active very soon.<p>Please feel free to give me any feedback. I would like to welcome everyone to join this open-source project.",
-      "time": 1653065482,
-      "title": "Show HN: Unidata – Providing Easy Access to Human-Friendly Web3 Data",
-      "type": "story",
-      "url": "https://unidata.app/"
-    },
-    {
-      "by": "aristofun",
-      "descendants": 0,
-      "id": 31449908,
-      "score": 2,
-      "text": "I wonder how all those companies (monday.com, asana etc.) are constantly reinventing the same wheels and still manage to be a success?<p>Why there&#x27;s no point in making another Facebook, but every year I see new &quot;trello&quot; or &quot;jira&quot; getting funded and growing?<p>What&#x27;s the secret sauce? How does it work?<p>I often don&#x27;t see any major difference neither in the product, nor in marketing messages.",
-      "time": 1653065397,
-      "title": "Ask HN: How come we keep seeing yet another succesfull corporate todo app?",
-      "type": "story"
-    },
-    {
-      "by": "kiyanwang",
-      "descendants": 0,
-      "id": 31449896,
-      "score": 1,
-      "time": 1653065353,
-      "title": "Why are so few funded startups using serverless?",
-      "type": "story",
-      "url": "https://serverlessfirst.com/emails/why-are-so-few-funded-startups-using-serverless/"
-    },
-    {
-      "by": "ghgr",
-      "descendants": 0,
-      "id": 31449880,
-      "score": 1,
-      "time": 1653065299,
-      "title": "Zensus2022.de leads to Cloudflare services in Europe and the USA",
-      "type": "story",
-      "url": "https://www.kiratas.com/census-2022-data-protection-problems-with-the-online-portal-3/"
     }
   ]
 }
