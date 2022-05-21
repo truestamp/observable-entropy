@@ -1,6 +1,49 @@
 {
   "stories": [
     {
+      "by": "andreyk",
+      "descendants": 0,
+      "id": 31454369,
+      "score": 1,
+      "time": 1653095348,
+      "title": "Russia May Have Used Autonomous Drones. Now What?",
+      "type": "story",
+      "url": "https://lastweekin.ai/p/russia-may-have-used-autonomous-drones"
+    },
+    {
+      "by": "monroewalker",
+      "descendants": 0,
+      "id": 31454367,
+      "score": 1,
+      "text": "I&#x27;m planning wiki-like pages for a webapp which will be editable by every user. Real-time collaborative editing isn&#x27;t a priority, so the approach I&#x27;m currently targeting is to just use some sort of lock that restricts edit access to a single user at a time and expires after some amount of inactivity by them. If two users were going to be touching very different parts of the document, however, it seems unfortunately restrictive for only one to have access at a time. Using CRDTs or a thorough implementation of OT would be much more work me than it&#x27;s worth, but I&#x27;m wondering if there&#x27;s some middle ground with OT which achieves some level of real-time editing without requiring a complex implementation. For example, it seems possible to still use locking but apply it to block level elements in the document as opposed to the document as a whole. Once a user starts editing a block, it becomes untouchable by other users until that first user moves to a new area of the document or leaves.<p>I imagine this has been done before, so I&#x27;d like to know if anyone is aware of any good write-ups on lighter OT implementations",
+      "time": 1653095321,
+      "title": "Ask HN: Simple operational transformation approach for collaborative editing?",
+      "type": "story"
+    },
+    {
+      "by": "haven",
+      "descendants": 0,
+      "id": 31454365,
+      "score": 1,
+      "time": 1653095245,
+      "title": "Augmented Reality Commerce with APIs",
+      "type": "story",
+      "url": "https://www.youtube.com/watch?v=LvJes9shwJk"
+    },
+    {
+      "by": "nicofo",
+      "descendants": 1,
+      "id": 31454352,
+      "kids": [
+        31454353
+      ],
+      "score": 1,
+      "time": 1653095105,
+      "title": "Oh my party: Share parties, events and make others have fun",
+      "type": "story",
+      "url": "https://ohmyparty.glideapp.io/"
+    },
+    {
       "by": "h2odragon",
       "descendants": 0,
       "id": 31454346,
@@ -37,7 +80,7 @@
       "by": "rendang",
       "descendants": 0,
       "id": 31454321,
-      "score": 1,
+      "score": 2,
       "time": 1653094769,
       "title": "A call for an independent inquiry into the origin of the SARS-CoV-2 virus",
       "type": "story",
@@ -62,46 +105,6 @@
       "title": "James Webb Space Telescope Is Ready Soon",
       "type": "story",
       "url": "https://medium.com/predict/james-webb-space-telescope-is-ready-soon-d403d8c042b5"
-    },
-    {
-      "by": "drdee",
-      "descendants": 0,
-      "id": 31454286,
-      "score": 2,
-      "time": 1653094317,
-      "title": "On Aging Alone",
-      "type": "story",
-      "url": "https://thewalrus.ca/on-aging-alone/"
-    },
-    {
-      "by": "CharlesW",
-      "descendants": 0,
-      "id": 31454264,
-      "score": 1,
-      "time": 1653094127,
-      "title": "Apollo 47 is a one-page RPG with 1,199 additional pages of flavor text",
-      "type": "story",
-      "url": "https://www.polygon.com/tabletop-games/23125685/apollo-47-tim-hutchings-interview"
-    },
-    {
-      "by": "_bramses",
-      "descendants": 0,
-      "id": 31454262,
-      "score": 1,
-      "time": 1653094087,
-      "title": "Be wary of websites that are just slick designs",
-      "type": "story",
-      "url": "https://www.bramadams.dev/projects/this-is-important"
-    },
-    {
-      "by": "htunnicliff",
-      "descendants": 0,
-      "id": 31454259,
-      "score": 1,
-      "time": 1653094040,
-      "title": "The JavaScript Block Statement",
-      "type": "story",
-      "url": "https://www.webpro.nl/scraps/javascript-block-statement"
     }
   ]
 }
