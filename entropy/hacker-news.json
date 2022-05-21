@@ -1,14 +1,54 @@
 {
   "stories": [
     {
-      "by": "perihelions",
+      "by": "gmays",
       "descendants": 0,
-      "id": 31454520,
+      "id": 31454546,
       "score": 1,
-      "time": 1653096875,
-      "title": "Dr. Scott Gottlieb says rising monkeypox cases suggest its spread 'pretty wide'",
+      "time": 1653097187,
+      "title": "How to Design (and Redesign) the Practices of Company Culture",
       "type": "story",
-      "url": "https://www.cnbc.com/2022/05/20/dr-scott-gottlieb-says-the-rising-monkeypox-cases-suggest-its-spread-pretty-wide-.html"
+      "url": "https://future.a16z.com/practices-company-culture-design/"
+    },
+    {
+      "by": "arun1729",
+      "descendants": 0,
+      "id": 31454541,
+      "score": 1,
+      "time": 1653097140,
+      "title": "Show HN: Micro Graph Database for Python Applications",
+      "type": "story",
+      "url": "https://cogdb.io"
+    },
+    {
+      "by": "wayviator",
+      "descendants": 0,
+      "id": 31454531,
+      "score": 1,
+      "time": 1653097010,
+      "title": "Remote Work verticals companies are going after",
+      "type": "story",
+      "url": "https://www.wayviator.com/running-remote-enterprise-themes/"
+    },
+    {
+      "by": "nikolay",
+      "descendants": 0,
+      "id": 31454530,
+      "score": 1,
+      "time": 1653097002,
+      "title": "Tally-Ho – A Micropub Speaking Blog",
+      "type": "story",
+      "url": "https://github.com/hawx/tally-ho"
+    },
+    {
+      "by": "MilnerRoute",
+      "descendants": 0,
+      "id": 31454524,
+      "score": 1,
+      "time": 1653096942,
+      "title": "What We Misunderstand About WWII",
+      "type": "story",
+      "url": "https://www.theatlantic.com/magazine/archive/2022/05/world-war-ii-empire-colonialism/629371/"
     },
     {
       "by": "teela_na",
@@ -42,9 +82,12 @@
     },
     {
       "by": "perihelions",
-      "descendants": 0,
+      "descendants": 1,
       "id": 31454376,
-      "score": 3,
+      "kids": [
+        31454543
+      ],
+      "score": 8,
       "time": 1653095449,
       "title": "Monkeypox goes global: why scientists are on alert",
       "type": "story",
@@ -59,49 +102,6 @@
       "title": "Russia May Have Used Autonomous Drones. Now What?",
       "type": "story",
       "url": "https://lastweekin.ai/p/russia-may-have-used-autonomous-drones"
-    },
-    {
-      "by": "monroewalker",
-      "descendants": 0,
-      "id": 31454367,
-      "score": 1,
-      "text": "I&#x27;m planning wiki-like pages for a webapp which will be editable by every user. Real-time collaborative editing isn&#x27;t a priority, so the approach I&#x27;m currently targeting is to just use some sort of lock that restricts edit access to a single user at a time and expires after some amount of inactivity by them. If two users were going to be touching very different parts of the document, however, it seems unfortunately restrictive for only one to have access at a time. Using CRDTs or a thorough implementation of OT would be much more work me than it&#x27;s worth, but I&#x27;m wondering if there&#x27;s some middle ground with OT which achieves some level of real-time editing without requiring a complex implementation. For example, it seems possible to still use locking but apply it to block level elements in the document as opposed to the document as a whole. Once a user starts editing a block, it becomes untouchable by other users until that first user moves to a new area of the document or leaves.<p>I imagine this has been done before, so I&#x27;d like to know if anyone is aware of any good write-ups on lighter OT implementations",
-      "time": 1653095321,
-      "title": "Ask HN: Simple operational transformation approach for collaborative editing?",
-      "type": "story"
-    },
-    {
-      "by": "haven",
-      "descendants": 0,
-      "id": 31454365,
-      "score": 1,
-      "time": 1653095245,
-      "title": "Augmented Reality Commerce with APIs",
-      "type": "story",
-      "url": "https://www.youtube.com/watch?v=LvJes9shwJk"
-    },
-    {
-      "by": "nicofo",
-      "descendants": 1,
-      "id": 31454352,
-      "kids": [
-        31454353
-      ],
-      "score": 2,
-      "time": 1653095105,
-      "title": "Oh my party: Share parties, events and make others have fun",
-      "type": "story",
-      "url": "https://ohmyparty.glideapp.io/"
-    },
-    {
-      "by": "h2odragon",
-      "descendants": 0,
-      "id": 31454346,
-      "score": 1,
-      "time": 1653095065,
-      "title": "Hamvention 2022: The Reunion Begins Today",
-      "type": "story",
-      "url": "https://hackaday.com/2022/05/20/hamvention-2022-the-reunion-begins-today/"
     }
   ]
 }
