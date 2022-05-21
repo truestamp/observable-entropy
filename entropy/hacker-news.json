@@ -1,6 +1,16 @@
 {
   "stories": [
     {
+      "by": "flixgrl",
+      "descendants": 0,
+      "id": 31462277,
+      "score": 1,
+      "time": 1653169939,
+      "title": "Cult Classics: ‘Species’ Is a Top-Tier Low-Quality Film",
+      "type": "story",
+      "url": "https://blackgirlnerds.com/cult-classics-species-is-a-top-tier-low-quality-film/"
+    },
+    {
       "by": "spekcular",
       "descendants": 0,
       "id": 31462229,
@@ -12,9 +22,12 @@
     },
     {
       "by": "spekcular",
-      "descendants": 0,
+      "descendants": 1,
       "id": 31462222,
-      "score": 2,
+      "kids": [
+        31462292
+      ],
+      "score": 3,
       "time": 1653169664,
       "title": "Why is the nuclear power industry stagnant?",
       "type": "story",
@@ -92,19 +105,6 @@
       "title": "Synthesis of γ-graphyne using dynamic covalent chemistry",
       "type": "story",
       "url": "https://www.nature.com/articles/s44160-022-00068-7"
-    },
-    {
-      "by": "hiboyang",
-      "descendants": 1,
-      "id": 31462123,
-      "kids": [
-        31462242
-      ],
-      "score": 3,
-      "text": "Hi Folks, just saw some post about Ansible. Also lightly tried other Infrastructure as Code like Terraform. Feel getting pretty large&#x2F;complex yaml files when deploying decent size infrastructure.<p>How do people feel just using AWS SDK or other cloud SDK to write your own deployment tools? Since it is pure code, it is easy to refactor and test.<p>I did some prototype building DataPunch project (https:&#x2F;&#x2F;github.com&#x2F;datapunchorg&#x2F;punch) to deploy Data Infrastructure using AWS Go SDK. It provides one click command like “punch install SparkOnEKS” which will automatically deploy a ready-to-use Apache Spark environment on AWS.<p>Want to seek feedbacks and see whether other people have similar ideas?<p>Thanks,\nBo",
-      "time": 1653169104,
-      "title": "Anyone like the idea to use AWS SDK to build deployment automation?",
-      "type": "story"
     }
   ]
 }
