@@ -1,10 +1,30 @@
 {
   "stories": [
     {
+      "by": "Tomte",
+      "descendants": 0,
+      "id": 31471353,
+      "score": 1,
+      "time": 1653244865,
+      "title": "Michael J. Fox Testimony on Parkinson (2013)",
+      "type": "story",
+      "url": "https://www.c-span.org/video/?c4400604/michael-j-fox-testimony-parkinson"
+    },
+    {
+      "by": "Tomte",
+      "descendants": 0,
+      "id": 31471349,
+      "score": 1,
+      "time": 1653244855,
+      "title": "Well-Kept Gardens Die by Pacifism (2009)",
+      "type": "story",
+      "url": "https://www.lesswrong.com/posts/tscc3e5eujrsEeFN4/well-kept-gardens-die-by-pacifism"
+    },
+    {
       "by": "doener",
       "descendants": 0,
       "id": 31471343,
-      "score": 1,
+      "score": 2,
       "time": 1653244811,
       "title": "Klarna Faces Valuation Drop to $30B as Seeks Funding",
       "type": "story",
@@ -32,9 +52,12 @@
     },
     {
       "by": "lynndotpy",
-      "descendants": 0,
+      "descendants": 1,
       "id": 31471247,
-      "score": 1,
+      "kids": [
+        31471378
+      ],
+      "score": 2,
       "time": 1653244231,
       "title": "A little script I use to make Python easier to use on-the-go",
       "type": "story",
@@ -54,7 +77,7 @@
       "by": "smoyer",
       "descendants": 0,
       "id": 31471211,
-      "score": 1,
+      "score": 2,
       "time": 1653243947,
       "title": "Sci-Fi Films Everyone Should Watch Once",
       "type": "story",
@@ -79,30 +102,6 @@
       "title": "How to set up a terminal for data science with oh-my-zsh",
       "type": "story",
       "url": "https://engineeringfordatascience.com/posts/configure_terminal_for_data_science_with_oh_my_zsh/"
-    },
-    {
-      "by": "dqoai",
-      "descendants": 0,
-      "id": 31471179,
-      "score": 1,
-      "text": "We released the first public version of our Data Observability tool.<p>This is an open-source rewrite of a similar tool that we developed for one of the biggest advertisers to monitor the quality of data. The solution was battle tested to analyze data across all three clouds, analyze sensitive data and work behind firewalls.\nAdditionally, used the framework to build 800+ custom data quality checks, analyze petabyte scale tables daily and calculate data quality KPIs for 40+ vendors providing data.<p>DQO.ai is an open-source rewrite which takes the best practices and avoids the mistakes that we made in the first release.<p>What was the biggest problem with the first version? It was designed from the UI first perspective, like all those new Data Observability tools that are coming on the market. We have been there, it works only for the first 6 months until you want to move the data quality checks between environments (from development to production). It takes a lot of clicking to rename tables used in data quality checks when a table was renamed in the data lake.<p>DQO.ai was redesigned for DevOps and DataOps teams.\nHere are our design goals:<p>- configuration stored in Git, along the data pipelines or ML code: we store all definitions in YAML files, one file per monitored table<p>- configuration is easy to edit without using the docs: our YAML files support code completion in VSCode and some other editors<p>- multi cloud &#x2F; on-premise: DQO runs as a remote agent, you can just run it inside your environment, call it from Airflow<p>- support sensitive data: all data quality metrics are executed from the agent, results are first stored locally in parquet files<p>- custom data quality checks: the built-in quality checks are written as templates of SQL queries, using Jinja2 for templating, but they may be modified or new quality check could be added<p>- multi platform storage: the data quality results are stored in a Hive compatible partitioning format, you can just push the whole folder to BigQuery, Databricks, Spark, Athena, ... or anything that can query parquet files<p>- petabyte scale data: we can just analyze date partitioned data, using the partition date to analyze the table as a time series. You can detect anomalies in the data.<p>- free data quality dashboards: our SaaS version sets up a data lake for each tenant, the data quality metrics are shown on Google Data Studio dashboards. We have just the first dashboard so far, but we are working on releasing more dashboards.<p>- use dimensions to group similar tables (i.e. one table per country) or analyze each group of rows in a single table (GROUP BY &lt;country&gt; column): data can be analyzed even when it is loaded from different sources into a single table<p>What kind of issues could be detected:<p>- data timeliness: the table are not refreshed<p>- data completeness: something is missing<p>- data validity: just verify basic rules like column values matching regex expressions<p>- data consistency: analyze behavior of data over the time as a time series, for example: detect anomalies in an inconsistent growth of the row count<p>- uniqueness: check if the data is unique<p>Repository is here: https:&#x2F;&#x2F;github.com&#x2F;dqoai&#x2F;dqo<p>We are still working on the documentation, but this article should give you a good understanding: https:&#x2F;&#x2F;docs.dqo.ai&#x2F;latest&#x2F;check_reference&#x2F;validity&#x2F;regex_match_percent&#x2F;regex_match_percent&#x2F;<p>Also a getting started blog is here: https:&#x2F;&#x2F;dqo.ai&#x2F;getting-started-with-dqo-ai&#x2F;",
-      "time": 1653243738,
-      "title": "Developer Friendly Data Observability Tool for DevOps/DataOps",
-      "type": "story"
-    },
-    {
-      "by": "ybalkind",
-      "descendants": 2,
-      "id": 31471164,
-      "kids": [
-        31471316,
-        31471214
-      ],
-      "score": 1,
-      "text": "Firstly, I&#x27;m not from the startup world, have never been in one, and dont know all the standard models, so forgive me if this sounds naive.<p>But I&#x27;m working on a startup idea. I&#x27;m looking to bring on some contributors to help with content and business development and I can&#x27;t pay unless I get funded which I&#x27;m hoping to avoid for now. Offering equity feels like overkill for the type of work. I&#x27;m basically looking to get some freelance contributors to work on a risk basis, but with an overly generous upside if the business works.<p>I&#x27;m envisioning something like a revenue share type agreement.<p>Needless to say the contributors would have to strongly believe in the idea in order to take this risk. But if we could put that aside for a moment, I&#x27;m asking if there are existing models in the ballpark of what I am describing so that I don&#x27;t have to try and reinvent the wheel.",
-      "time": 1653243655,
-      "title": "Is equity the only way to incentivise contributors in the absence of salary?",
-      "type": "story"
     }
   ]
 }
