@@ -1,6 +1,96 @@
 {
   "stories": [
     {
+      "by": "gtirloni",
+      "descendants": 0,
+      "id": 31497937,
+      "score": 1,
+      "time": 1653429225,
+      "title": "Russia Picks a Slow Chinese x86 CPU to Replace Intel/AMD Chips",
+      "type": "story",
+      "url": "https://www.pcmag.com/news/russia-picks-a-slow-chinese-x86-cpu-to-replace-intelamd-chips"
+    },
+    {
+      "by": "raybb",
+      "descendants": 0,
+      "id": 31497930,
+      "score": 1,
+      "time": 1653429193,
+      "title": "Patch now: Zoom chat messages can infect PCs, Macs, phones with malware",
+      "type": "story",
+      "url": "https://www.theregister.com/2022/05/24/zoom_rce_bug_patched/"
+    },
+    {
+      "by": "fcambus",
+      "descendants": 0,
+      "id": 31497928,
+      "score": 1,
+      "time": 1653429176,
+      "title": "Branch/Cmove and Compiler Optimizations",
+      "type": "story",
+      "url": "https://kristerw.github.io/2022/05/24/branchless/"
+    },
+    {
+      "by": "raybb",
+      "descendants": 0,
+      "id": 31497926,
+      "score": 1,
+      "time": 1653429167,
+      "title": "Old Amazon Kindles won't be able to buy new e-books starting in August",
+      "type": "story",
+      "url": "https://www.androidpolice.com/kindle-purchases-shutdown/"
+    },
+    {
+      "by": "derefr",
+      "descendants": 0,
+      "id": 31497923,
+      "score": 1,
+      "text": "I run an API SaaS business, where most use-cases you&#x27;d use our API for involve making a fairly-large number of API requests.<p>For business reasons, we don&#x27;t yet have any paid plans (nor any of the infrastructure to support paid plans); so right now we&#x27;re only giving our users access to a <i>rate-limited</i> free plan.<p>For the vast majority of our users, they can build and scale their use-case while staying well under the rate limits our free plan imposes.<p>But some of our users find our rate-limits constraining, and try to evade them by registering additional accounts, to then use multiple API keys in tandem to make their requests.<p>Deactivating these &quot;tandem&quot; accounts as we find them doesn&#x27;t help much, as these users just move on to using increasingly &quot;stealthy&quot; account registrations — using real-seeming email providers; registering through VPNs to disguise their traffic origin; splitting their workload such that their backend IPs never correlate; etc.<p>We <i>could</i> force users to go through a KYC&#x2F;AML-like identity-verification process to register, but this would be a pretty massive hurdle in the way of signing up for a SaaS product (and not one users would expect, given that we&#x27;re not a finance or gambling app.)<p>Is there any other way? What have other API SaaS business-owners here on HN done to combat this?",
+      "time": 1653429145,
+      "title": "Strategies for preventing abuse of API SaaS free-tier resources?",
+      "type": "story"
+    },
+    {
+      "by": "samizdis",
+      "descendants": 0,
+      "id": 31497921,
+      "score": 1,
+      "time": 1653429139,
+      "title": "HSBC: “Who cares if Miami is underwater?”",
+      "type": "story",
+      "url": "https://pluralistic.net/2022/05/24/moral-money/#nutjobs-warning-about-the-end-of-the-world"
+    },
+    {
+      "by": "chriskanan",
+      "descendants": 0,
+      "id": 31497918,
+      "score": 2,
+      "time": 1653429120,
+      "title": "To learn more quickly, brain cells break their DNA (2021)",
+      "type": "story",
+      "url": "https://www.quantamagazine.org/brain-cells-break-their-dna-to-learn-more-quickly-20210830/"
+    },
+    {
+      "by": "maddynator",
+      "descendants": 0,
+      "id": 31497911,
+      "score": 1,
+      "time": 1653429054,
+      "title": "A Linux Command Got My Twitter Account Locked for Abuse and Violation",
+      "type": "story",
+      "url": "https://thinkingthrough.substack.com/p/twitter-ban"
+    },
+    {
+      "by": "NickRandom",
+      "descendants": 0,
+      "id": 31497906,
+      "score": 1,
+      "time": 1653429022,
+      "title": "BBC News channel apologises after Man Utd error goes viral",
+      "type": "story",
+      "url": "https://www.bbc.com/news/av/uk-61572266"
+    },
+    {
       "by": "todsacerdoti",
       "descendants": 0,
       "id": 31497891,
@@ -9,98 +99,6 @@
       "title": "Formally Verifying an Auction Contract",
       "type": "story",
       "url": "https://whileydave.com/2022/05/17/verifying-an-auction-contract-in-whiley/"
-    },
-    {
-      "by": "feross",
-      "descendants": 0,
-      "id": 31497874,
-      "score": 1,
-      "time": 1653428821,
-      "title": "DBIR 2022: Ransomware surge increases global data breach woes",
-      "type": "story"
-    },
-    {
-      "by": "sudara",
-      "descendants": 0,
-      "id": 31497849,
-      "score": 2,
-      "time": 1653428630,
-      "title": "How JUCE Components Work",
-      "type": "story",
-      "url": "https://melatonin.dev/blog/how-juce-components-work/"
-    },
-    {
-      "by": "mooreds",
-      "descendants": 0,
-      "id": 31497836,
-      "score": 1,
-      "time": 1653428508,
-      "title": "Git Rev News",
-      "type": "story",
-      "url": "https://git.github.io/rev_news/"
-    },
-    {
-      "by": "ryscheng",
-      "descendants": 1,
-      "id": 31497832,
-      "kids": [
-        31497857
-      ],
-      "score": 1,
-      "time": 1653428450,
-      "title": "High Performance Personalization with Next.js Middleware",
-      "type": "story",
-      "url": "https://www.plasmic.app/blog/nextjs-personalization"
-    },
-    {
-      "by": "rmason",
-      "descendants": 0,
-      "id": 31497831,
-      "score": 1,
-      "time": 1653428447,
-      "title": "MySQL Shell for VSCode Preview",
-      "type": "story",
-      "url": "https://marketplace.visualstudio.com/items?itemName=Oracle.mysql-shell-for-vs-code"
-    },
-    {
-      "by": "chrisdinn",
-      "descendants": 0,
-      "id": 31497827,
-      "score": 3,
-      "time": 1653428388,
-      "title": "A Kernel Hacker Meets Fuchsia OS",
-      "type": "story",
-      "url": "https://swarm.ptsecurity.com/a-kernel-hacker-meets-fuchsia-os/"
-    },
-    {
-      "by": "emreb",
-      "descendants": 0,
-      "id": 31497809,
-      "score": 1,
-      "time": 1653428261,
-      "title": "Top Questions to Secure Your Google Workspace",
-      "type": "story",
-      "url": "https://www.resmo.com/blog/google-workspace-security-best-practices"
-    },
-    {
-      "by": "Hoasi",
-      "descendants": 0,
-      "id": 31497806,
-      "score": 2,
-      "time": 1653428237,
-      "title": "State of Crypto Report",
-      "type": "story",
-      "url": "https://a16zcrypto.com/state-of-crypto-report-a16z-2022/"
-    },
-    {
-      "by": "blumomo",
-      "descendants": 0,
-      "id": 31497798,
-      "score": 1,
-      "time": 1653428194,
-      "title": "Digital Ocean vs. Linode Cloud Platform",
-      "type": "story",
-      "url": "https://www.linode.com/digitalocean-vs-linode/"
     }
   ]
 }
