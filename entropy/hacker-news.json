@@ -1,10 +1,20 @@
 {
   "stories": [
     {
+      "by": "vincent_s",
+      "descendants": 0,
+      "id": 31489310,
+      "score": 1,
+      "time": 1653379675,
+      "title": "Toxic Positivity",
+      "type": "story",
+      "url": "https://readable.com/blog/genuine-vs-toxic-positivity-in-language-communicating-with-empathy/"
+    },
+    {
       "by": "komuW",
       "descendants": 0,
       "id": 31489283,
-      "score": 1,
+      "score": 2,
       "time": 1653379468,
       "title": "Sneller: Elasticsearch Alternative for Log Analytics",
       "type": "story",
@@ -15,7 +25,7 @@
       "descendants": 0,
       "id": 31489271,
       "score": 1,
-      "text": "time php -r &#x27;echo 123;&#x27;<p>gives me:<p>123\nreal 0m0.031s\nuser 0m0.023s\nsys 0m0.008s<p>time node -e &#x27;console.log(123)&#x27;<p>gives me:<p>123\nreal 0m0.578s\nuser 0m0.551s\nsys 0m0.028s<p>Why is the node version more than 10 times slower than the PHP version?",
+      "text": "time php -r &#x27;echo 123;&#x27;<p>outputs:<p><pre><code>    123\n    real 0m0.031s\n    user 0m0.023s\n    sys 0m0.008s\n\n\n</code></pre>\ntime python3 -c &#x27;print (123)&#x27;<p>outputs:<p><pre><code>    123\n    \n    real 0m0.022s\n    user 0m0.019s\n    sys 0m0.004s\n\n\n</code></pre>\ntime node -e &#x27;console.log(123);&#x27;<p>outputs:<p><pre><code>    123\n\n    real 0m0.578s\n    user 0m0.551s\n    sys 0m0.028s\n\n\n</code></pre>\nWhy is the node version more than 10 times slower than the PHP and Python versions?",
       "time": 1653379386,
       "title": "Ask HN: Why does Node.js start so slow?",
       "type": "story"
@@ -34,7 +44,7 @@
       "by": "fagnerbrack",
       "descendants": 0,
       "id": 31489243,
-      "score": 1,
+      "score": 2,
       "time": 1653379033,
       "title": "Netflix tests Netflix: The story behind the service’s new two-thumbs-up feature",
       "type": "story",
@@ -54,7 +64,7 @@
       "by": "vitabenes",
       "descendants": 0,
       "id": 31489207,
-      "score": 2,
+      "score": 3,
       "time": 1653378676,
       "title": "China, US racing to make billions from mining lunar minerals",
       "type": "story",
@@ -64,7 +74,7 @@
       "by": "nimeshneema",
       "descendants": 0,
       "id": 31489166,
-      "score": 1,
+      "score": 2,
       "time": 1653378212,
       "title": "The Science of Interviewing Developers",
       "type": "story",
@@ -89,16 +99,6 @@
       "title": "Crossrail: Elizabeth line hailed as ‘fit for a Queen’ as it opens",
       "type": "story",
       "url": "https://www.theguardian.com/uk-news/2022/may/24/crossrail-elizabeth-line-opens-first-trains-london"
-    },
-    {
-      "by": "marban",
-      "descendants": 0,
-      "id": 31489142,
-      "score": 2,
-      "time": 1653377844,
-      "title": "The Era of Borderless Data Is Ending",
-      "type": "story",
-      "url": "https://www.nytimes.com/2022/05/23/technology/data-privacy-laws.html"
     }
   ]
 }
