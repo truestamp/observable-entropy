@@ -1,10 +1,30 @@
 {
   "stories": [
     {
+      "by": "ryan_j_naughton",
+      "descendants": 0,
+      "id": 31498026,
+      "score": 1,
+      "time": 1653429874,
+      "title": "‘The Last Generation’: The Disillusionment of Young Chinese",
+      "type": "story",
+      "url": "https://www.nytimes.com/2022/05/24/business/china-covid-zero.html"
+    },
+    {
+      "by": "feross",
+      "descendants": 0,
+      "id": 31498011,
+      "score": 1,
+      "time": 1653429770,
+      "title": "Apple’s Worldwide Developers Conference kicks off June 6 with keynote address",
+      "type": "story",
+      "url": "https://www.apple.com/newsroom/2022/05/apples-worldwide-developers-conference-kicks-off-june-6-with-keynote-address/"
+    },
+    {
       "by": "substation13",
       "descendants": 0,
       "id": 31497976,
-      "score": 1,
+      "score": 2,
       "time": 1653429518,
       "title": "The water filtration industry has played us for absolute fools",
       "type": "story",
@@ -44,7 +64,7 @@
       "by": "gtirloni",
       "descendants": 0,
       "id": 31497937,
-      "score": 1,
+      "score": 2,
       "time": 1653429225,
       "title": "Russia Picks a Slow Chinese x86 CPU to Replace Intel/AMD Chips",
       "type": "story",
@@ -74,31 +94,11 @@
       "by": "raybb",
       "descendants": 0,
       "id": 31497926,
-      "score": 2,
+      "score": 4,
       "time": 1653429167,
       "title": "Old Amazon Kindles won't be able to buy new e-books starting in August",
       "type": "story",
       "url": "https://www.androidpolice.com/kindle-purchases-shutdown/"
-    },
-    {
-      "by": "derefr",
-      "descendants": 0,
-      "id": 31497923,
-      "score": 1,
-      "text": "I run an API SaaS business, where most use-cases you&#x27;d use our API for involve making a fairly-large number of API requests.<p>For business reasons, we don&#x27;t yet have any paid plans (nor any of the infrastructure to support paid plans); so right now we&#x27;re only giving our users access to a <i>rate-limited</i> free plan.<p>For the vast majority of our users, they can build and scale their use-case while staying well under the rate limits our free plan imposes.<p>But some of our users find our rate-limits constraining, and try to evade them by registering additional accounts, to then use multiple API keys in tandem to make their requests. (These users&#x27; apps are usually badly-architected, such that they&#x27;re making 10-100x the number of requests they should be to achieve their use-case.)<p>Deactivating these users&#x27; &quot;alt&quot; accounts as we find them — or even banning these users altogether — doesn&#x27;t help much, as these users just move on to using increasingly &quot;stealthy&quot; account registrations — using real-seeming email providers; registering through VPNs to disguise their traffic origin; splitting their requests by microservice such that their backend IPs&#x2F;request-signatures never correlate; etc.<p>We <i>could</i> force users to go through a KYC&#x2F;AML-like identity-verification process to register, but this would be a pretty massive hurdle to impose in the way of signing up for a SaaS product — and not one our users would expect, given that we&#x27;re not a finance or gambling app.<p>Is there any other way?<p>Have you scaled an API SaaS with a free-tier plan and dealt with this problem? If so, what did you do?",
-      "time": 1653429145,
-      "title": "Strategies for preventing abuse of API SaaS free-tier resources?",
-      "type": "story"
-    },
-    {
-      "by": "samizdis",
-      "descendants": 0,
-      "id": 31497921,
-      "score": 1,
-      "time": 1653429139,
-      "title": "HSBC: “Who cares if Miami is underwater?”",
-      "type": "story",
-      "url": "https://pluralistic.net/2022/05/24/moral-money/#nutjobs-warning-about-the-end-of-the-world"
     }
   ]
 }
