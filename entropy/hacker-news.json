@@ -1,6 +1,46 @@
 {
   "stories": [
     {
+      "by": "substation13",
+      "descendants": 0,
+      "id": 31497976,
+      "score": 1,
+      "time": 1653429518,
+      "title": "The water filtration industry has played us for absolute fools",
+      "type": "story",
+      "url": "https://www.patrickstevens.co.uk/posts/2022-05-15-water-filtration/"
+    },
+    {
+      "by": "DarkContinent",
+      "descendants": 0,
+      "id": 31497972,
+      "score": 2,
+      "time": 1653429495,
+      "title": "We fixed the ozone layer (2021)",
+      "type": "story",
+      "url": "https://www.worksinprogress.co/issue/how-we-fixed-the-ozone-layer/"
+    },
+    {
+      "by": "turtlegrids",
+      "descendants": 0,
+      "id": 31497956,
+      "score": 2,
+      "time": 1653429370,
+      "title": "Everybody has COVID in Bay Area, but hospitalizations are flat",
+      "type": "story",
+      "url": "https://www.sfgate.com/bayarea/article/COVID-19-cases-are-up-in-San-Francisco-Bay-Area-17193287.php"
+    },
+    {
+      "by": "gtirloni",
+      "descendants": 0,
+      "id": 31497952,
+      "score": 1,
+      "time": 1653429340,
+      "title": "Russia Looks to Legalize Software Piracy to Bypass Ukraine-Related Tech Bans",
+      "type": "story",
+      "url": "https://www.pcmag.com/news/russia-looks-to-legalize-software-piracy-to-bypass-ukraine-related-tech"
+    },
+    {
       "by": "gtirloni",
       "descendants": 0,
       "id": 31497937,
@@ -34,7 +74,7 @@
       "by": "raybb",
       "descendants": 0,
       "id": 31497926,
-      "score": 1,
+      "score": 2,
       "time": 1653429167,
       "title": "Old Amazon Kindles won't be able to buy new e-books starting in August",
       "type": "story",
@@ -45,7 +85,7 @@
       "descendants": 0,
       "id": 31497923,
       "score": 1,
-      "text": "I run an API SaaS business, where most use-cases you&#x27;d use our API for involve making a fairly-large number of API requests.<p>For business reasons, we don&#x27;t yet have any paid plans (nor any of the infrastructure to support paid plans); so right now we&#x27;re only giving our users access to a <i>rate-limited</i> free plan.<p>For the vast majority of our users, they can build and scale their use-case while staying well under the rate limits our free plan imposes.<p>But some of our users find our rate-limits constraining, and try to evade them by registering additional accounts, to then use multiple API keys in tandem to make their requests.<p>Deactivating these &quot;tandem&quot; accounts as we find them doesn&#x27;t help much, as these users just move on to using increasingly &quot;stealthy&quot; account registrations — using real-seeming email providers; registering through VPNs to disguise their traffic origin; splitting their workload such that their backend IPs never correlate; etc.<p>We <i>could</i> force users to go through a KYC&#x2F;AML-like identity-verification process to register, but this would be a pretty massive hurdle in the way of signing up for a SaaS product (and not one users would expect, given that we&#x27;re not a finance or gambling app.)<p>Is there any other way? What have other API SaaS business-owners here on HN done to combat this?",
+      "text": "I run an API SaaS business, where most use-cases you&#x27;d use our API for involve making a fairly-large number of API requests.<p>For business reasons, we don&#x27;t yet have any paid plans (nor any of the infrastructure to support paid plans); so right now we&#x27;re only giving our users access to a <i>rate-limited</i> free plan.<p>For the vast majority of our users, they can build and scale their use-case while staying well under the rate limits our free plan imposes.<p>But some of our users find our rate-limits constraining, and try to evade them by registering additional accounts, to then use multiple API keys in tandem to make their requests. (These users&#x27; apps are usually badly-architected, such that they&#x27;re making 10-100x the number of requests they should be to achieve their use-case.)<p>Deactivating these users&#x27; &quot;alt&quot; accounts as we find them — or even banning these users altogether — doesn&#x27;t help much, as these users just move on to using increasingly &quot;stealthy&quot; account registrations — using real-seeming email providers; registering through VPNs to disguise their traffic origin; splitting their requests by microservice such that their backend IPs&#x2F;request-signatures never correlate; etc.<p>We <i>could</i> force users to go through a KYC&#x2F;AML-like identity-verification process to register, but this would be a pretty massive hurdle to impose in the way of signing up for a SaaS product — and not one our users would expect, given that we&#x27;re not a finance or gambling app.<p>Is there any other way?<p>Have you scaled an API SaaS with a free-tier plan and dealt with this problem? If so, what did you do?",
       "time": 1653429145,
       "title": "Strategies for preventing abuse of API SaaS free-tier resources?",
       "type": "story"
@@ -59,46 +99,6 @@
       "title": "HSBC: “Who cares if Miami is underwater?”",
       "type": "story",
       "url": "https://pluralistic.net/2022/05/24/moral-money/#nutjobs-warning-about-the-end-of-the-world"
-    },
-    {
-      "by": "chriskanan",
-      "descendants": 0,
-      "id": 31497918,
-      "score": 2,
-      "time": 1653429120,
-      "title": "To learn more quickly, brain cells break their DNA (2021)",
-      "type": "story",
-      "url": "https://www.quantamagazine.org/brain-cells-break-their-dna-to-learn-more-quickly-20210830/"
-    },
-    {
-      "by": "maddynator",
-      "descendants": 0,
-      "id": 31497911,
-      "score": 1,
-      "time": 1653429054,
-      "title": "A Linux Command Got My Twitter Account Locked for Abuse and Violation",
-      "type": "story",
-      "url": "https://thinkingthrough.substack.com/p/twitter-ban"
-    },
-    {
-      "by": "NickRandom",
-      "descendants": 0,
-      "id": 31497906,
-      "score": 1,
-      "time": 1653429022,
-      "title": "BBC News channel apologises after Man Utd error goes viral",
-      "type": "story",
-      "url": "https://www.bbc.com/news/av/uk-61572266"
-    },
-    {
-      "by": "todsacerdoti",
-      "descendants": 0,
-      "id": 31497891,
-      "score": 1,
-      "time": 1653428899,
-      "title": "Formally Verifying an Auction Contract",
-      "type": "story",
-      "url": "https://whileydave.com/2022/05/17/verifying-an-auction-contract-in-whiley/"
     }
   ]
 }
