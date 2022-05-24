@@ -1,6 +1,60 @@
 {
   "stories": [
     {
+      "by": "herpderperator",
+      "descendants": 0,
+      "id": 31495812,
+      "score": 1,
+      "time": 1653416945,
+      "title": "SoftBank leads $150M round for Firework's shoppable video",
+      "type": "story",
+      "url": "https://techcrunch.com/2022/05/24/softbank-leads-150m-round-for-fireworks-shoppable-video/"
+    },
+    {
+      "by": "bwidlar",
+      "descendants": 0,
+      "id": 31495809,
+      "score": 1,
+      "time": 1653416937,
+      "title": "I think about C99 strict aliasing rules",
+      "type": "story",
+      "url": "https://alanwu.space/post/strict-aliasing/"
+    },
+    {
+      "by": "alphabetting",
+      "descendants": 0,
+      "id": 31495779,
+      "score": 1,
+      "time": 1653416810,
+      "title": "San Francisco is the most childless major city in the U.S.",
+      "type": "story",
+      "url": "https://www.sfchronicle.com/sf/article/fewest-kids-maps-17193677.php"
+    },
+    {
+      "by": "Kaibeezy",
+      "descendants": 0,
+      "id": 31495771,
+      "score": 1,
+      "time": 1653416789,
+      "title": "Archaeologists search for lost traces of (1988) Glasgow Garden Festival",
+      "type": "story",
+      "url": "https://www.bbc.com/news/uk-scotland-glasgow-west-61562866"
+    },
+    {
+      "by": "ceejayoz",
+      "descendants": 2,
+      "id": 31495755,
+      "kids": [
+        31495764,
+        31495796
+      ],
+      "score": 3,
+      "time": 1653416730,
+      "title": "Someone Stole Seth Green's Bored Ape, Which Was Supposed to Star in His New Show",
+      "type": "story",
+      "url": "https://www.buzzfeednews.com/article/sarahemerson/seth-green-bored-ape-stolen-tv-show"
+    },
+    {
       "by": "boringg",
       "descendants": 0,
       "id": 31495695,
@@ -14,7 +68,7 @@
       "by": "frabjoused",
       "descendants": 0,
       "id": 31495686,
-      "score": 1,
+      "score": 2,
       "text": "A few years ago GraphQL was looked at by many as a Next Big Thing. I&#x27;m looking for a comparison from developers who have now implemented REST APIs as well as GraphQL APIs in production. What is your preference now and why?",
       "time": 1653416456,
       "title": "Ask HN: What is your present sentiment on GraphQL?",
@@ -49,60 +103,6 @@
       "time": 1653416251,
       "title": "Ask HN: How are founders finding real word conditions?",
       "type": "story"
-    },
-    {
-      "by": "h-jones",
-      "descendants": 0,
-      "id": 31495621,
-      "score": 2,
-      "text": "WaifuXL is our state of the art super resolution model trained on ~1,200,000 anime style images from the Danbooru2021 dataset. You can run it straight from your browser, entirely client-side, at <a href=\"https:&#x2F;&#x2F;waifuxl.com\" rel=\"nofollow\">https:&#x2F;&#x2F;waifuxl.com</a>.<p>Using the Onnx Runtime, we stream the weights of our ML models directly onto your device to be executed locally in WebAssembly. Doing so allows us to provide this service solely through a static webpage, no backend for model execution needed. This has the added benefit of enabling the privacy of your images--your images are not, and never will be, sent to us.<p>Our original inspiration for this project was waifu2x (<a href=\"http:&#x2F;&#x2F;waifu2x.udp.jp\" rel=\"nofollow\">http:&#x2F;&#x2F;waifu2x.udp.jp</a>). In general, our model will outperform those used on waifu2x by a significant margin, without the need for multiple models trained on various noise reduction levels.<p>Note that while you _can_ upscale natural (real) images, the model was only trained on anime style drawings, so don’t expect good results. It does work quite well on non-anime graphic art, however.<p>For more information, see our blog post at <a href=\"https:&#x2F;&#x2F;haydn.fgl.dev&#x2F;posts&#x2F;the-launch-of-waifuxl&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;haydn.fgl.dev&#x2F;posts&#x2F;the-launch-of-waifuxl&#x2F;</a>",
-      "time": 1653416181,
-      "title": "Show HN: SOTA Image upscaling model that runs in the browser",
-      "type": "story",
-      "url": "https://waifuxl.com"
-    },
-    {
-      "by": "jseliger",
-      "descendants": 0,
-      "id": 31495620,
-      "score": 4,
-      "time": 1653416179,
-      "title": "We Aren't Raising Adults. We Are Breeding Excellent Sheep",
-      "type": "story",
-      "url": "https://bariweiss.substack.com/p/we-arent-raising-adults-we-are-breeding"
-    },
-    {
-      "by": "hubraumhugo",
-      "descendants": 0,
-      "id": 31495607,
-      "score": 1,
-      "time": 1653416123,
-      "title": "Activision Blizzard subsidiary wins union vote",
-      "type": "story",
-      "url": "https://www.theverge.com/2022/5/23/23138412/activision-blizzard-union-vote-game-workers-alliance"
-    },
-    {
-      "by": "gmays",
-      "descendants": 0,
-      "id": 31495574,
-      "score": 2,
-      "time": 1653416007,
-      "title": "Moves to Survive (& Thrive) in a Downturn: 2022 Edition",
-      "type": "story",
-      "url": "https://www.nfx.com/post/39-moves-survive-thrive-downturn"
-    },
-    {
-      "by": "sashk",
-      "descendants": 1,
-      "id": 31495511,
-      "kids": [
-        31495719
-      ],
-      "score": 3,
-      "time": 1653415739,
-      "title": "Account Takeover and Malicious Replacement of Ctx Project",
-      "type": "story",
-      "url": "https://python-security.readthedocs.io/pypi-vuln/index-2022-05-24-ctx-domain-takeover.html"
     }
   ]
 }
