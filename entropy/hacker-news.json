@@ -1,6 +1,46 @@
 {
   "stories": [
     {
+      "by": "rmason",
+      "descendants": 0,
+      "id": 31509044,
+      "score": 1,
+      "time": 1653505388,
+      "title": "A first in Yellowstone, as man in Tesla proves his ‘ingenuity’",
+      "type": "story",
+      "url": "https://ftw.usatoday.com/2022/05/a-first-in-yellowstone-as-man-in-tesla-proves-his-ingenuity"
+    },
+    {
+      "by": "modinfo",
+      "descendants": 0,
+      "id": 31509028,
+      "score": 2,
+      "time": 1653505297,
+      "title": "8-bit number to binary string (2013)",
+      "type": "story",
+      "url": "https://gynvael.coldwind.pl/n/c_cpp_number_to_binary_string_01011010"
+    },
+    {
+      "by": "gjvc",
+      "descendants": 0,
+      "id": 31509011,
+      "score": 1,
+      "time": 1653505248,
+      "title": "Minikube quickly sets up a local Kubernetes cluster on macOS, Linux, and Windows",
+      "type": "story",
+      "url": "https://minikube.sigs.k8s.io/docs/"
+    },
+    {
+      "by": "app4soft",
+      "descendants": 0,
+      "id": 31509005,
+      "score": 1,
+      "time": 1653505234,
+      "title": "Irrlamb – an open-source 3D physics game",
+      "type": "story",
+      "url": "https://github.com/jazztickets/irrlamb"
+    },
+    {
       "by": "albertzeyer",
       "descendants": 0,
       "id": 31508983,
@@ -47,7 +87,7 @@
       "by": "c0balt",
       "descendants": 0,
       "id": 31508926,
-      "score": 1,
+      "score": 2,
       "time": 1653504884,
       "title": "Linus Tech Tips Visiting an Intel Validation Lab",
       "type": "story",
@@ -62,50 +102,6 @@
       "title": "Is all digitization good digitization?",
       "type": "story",
       "url": "https://www.sprakradet.no/Vi-og-vart/hva-skjer/Aktuelt/2022/er-all-digitalisering-bra-digitalisering/"
-    },
-    {
-      "by": "vorejdajo",
-      "descendants": 0,
-      "id": 31508866,
-      "score": 1,
-      "time": 1653504664,
-      "title": "DuckDuckGo browser purposefully doesn't block Microsoft tracking scripts",
-      "type": "story",
-      "url": "https://twitter.com/thezedwards/status/1528808795983319041"
-    },
-    {
-      "by": "0xedb",
-      "descendants": 0,
-      "id": 31508861,
-      "score": 2,
-      "time": 1653504631,
-      "title": "Jack Dorsey steps down from Twitter’s board",
-      "type": "story",
-      "url": "https://techcrunch.com/2022/05/25/jack-dorsey-leaves-twitter-board/"
-    },
-    {
-      "by": "justindeguzman",
-      "descendants": 1,
-      "id": 31508850,
-      "kids": [
-        31508936
-      ],
-      "score": 7,
-      "text": "Hi HN! I’m Justin, founder and CEO of Arctype, and we’re very excited to share Arctype with the community. Arctype is a cross-platform GUI (soon to be open-sourced) to manage and query your databases, with built-in collaboration and visualization. It currently supports Postgres, MySQL, and SQLite, as well as newer-generation databases like ClickHouse, PlanetScale, and Yugabyte (and more coming very soon!).<p>Think of Arctype as “phpMyAdmin meets Postman”. Most of our team grew up learning how to program using the LAMP stack and we missed the experience of interacting with our databases using phpMyAdmin. We wanted to bring back the experience of a simple app that lets you explore and query your databases, but with an updated and modernized interface.<p>At the same time, we were heavily inspired by the ease-of-use and collaboration features of Postman.  We wanted to create a super useful, collaborative app like Postman that your whole team uses for development—but for databases instead of APIs.<p>We have a few thousand developers using Arctype today but we haven’t shared it with the HN community yet–we’re excited to hear your feedback! We also have a very active Discord community at arctype.com&#x2F;discord where developers can ask questions and talk about databases&#x2F;SQL.<p>I’m sure the community has a lot of questions, so we’ve compiled a list of the most common ones we get:<p>“Why isn’t Arctype open source yet?”<p>It will be soon! We’ve been focusing mostly on features that users have been asking for, as well as performance, stability, and security. We’re not completely happy yet with the documentation and development experience of contributing to Arctype, but this will be a core focus for us in the coming weeks. We just want to make sure it will be very easy for the community to contribute once we publish on GitHub.<p>“How does Arctype make money?”<p>Arctype is free (and will be free forever) for most developers. We have a typical SaaS model for large teams based on a per-seat license as well as an enterprise version that companies can run on their own infrastructure.<p>“Why is Arctype built using Electron?”<p>We wanted to make it easy for anyone to use Arctype–Electron is currently the most practical solution to make it cross-platform and also accessible via a web app. Apps like VSCode and Discord have shown that it’s possible to achieve decent performance so we’re confident that over time the advantages of developing on Electron will outweigh the slight performance hit compared to native apps.<p>“Does Arctype need an account?”<p>You can use Arctype without an account or you can login via email or Google.  Certain features such as sharing queries and dashboards with your team require an account.<p>“Is Arctype secure &#x2F; does it store credentials?”<p>All of your credentials are stored locally, and queries are also executed locally on your machine. We do have a feature that lets you automatically share your credentials to your team, but that is strictly opt-in, and all credentials are encrypted on our backend. Additionally, we have an enterprise version that companies can run on their own infrastructure for organizations that have stringent security requirements. If you’d like to learn more, we have more info at arctype.com&#x2F;security.<p>“Does Arctype use any analytics software?”<p>Arctype has usage-based analytics and error reporting (we use Sentry) that we use to improve the app and to help us fix bugs&#x2F;crashes. However, this can be turned off. Additionally, Arctype can be used fully offline.<p>“Why doesn’t Arctype support X database?”<p>Email me at justin at arctype.com :) We’ll make it happen.",
-      "time": 1653504596,
-      "title": "Show HN: Arctype, a cross-platform database GUI for developers and teams",
-      "type": "story",
-      "url": "https://arctype.com/"
-    },
-    {
-      "by": "mcguire",
-      "descendants": 0,
-      "id": 31508818,
-      "score": 1,
-      "time": 1653504464,
-      "title": "The First Nations of Catan",
-      "type": "story",
-      "url": "https://analoggamestudies.org/2015/11/the-first-nations-of-catan-practices-in-critical-modification/"
     }
   ]
 }
