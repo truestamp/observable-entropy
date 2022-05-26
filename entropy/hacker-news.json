@@ -1,6 +1,16 @@
 {
   "stories": [
     {
+      "by": "vanburen",
+      "descendants": 0,
+      "id": 31516169,
+      "score": 1,
+      "time": 1653555508,
+      "title": "FlowForge open for everybody: Start a new Node-RED project within a minute!",
+      "type": "story",
+      "url": "https://flowforge.com/blog/2022/05/sign-up-for-flowforge-cloud/"
+    },
+    {
       "by": "taldridge",
       "descendants": 0,
       "id": 31516151,
@@ -37,7 +47,7 @@
       "by": "fagnerbrack",
       "descendants": 0,
       "id": 31516109,
-      "score": 1,
+      "score": 2,
       "time": 1653554750,
       "title": "Podcast: PhD research on meta programming and static analyzers",
       "type": "story",
@@ -47,7 +57,7 @@
       "by": "jacobgorm",
       "descendants": 0,
       "id": 31516108,
-      "score": 1,
+      "score": 2,
       "text": "Before the pandemic, my tiny startup was doing quite well selling Edge AI systems, based on our own lightweight AI inference engine, with object detection and face recognition for smart city and smart retail &amp; food service applications.<p>When the real world shut down, there was suddenly nothing to monitor on streets and in restaurants, so I set out to try and evolve our real time face recognition system into a video codec for high quality face-to-face online interactions, as I was not satisfied with the quality of Zoom and friends. I got it to work, and the first release for IOS was just approved on Apple&#x27;s app store, link: <a href=\"https:&#x2F;&#x2F;apps.apple.com&#x2F;app&#x2F;vertigo-focus&#x2F;id1540073203\" rel=\"nofollow\">https:&#x2F;&#x2F;apps.apple.com&#x2F;app&#x2F;vertigo-focus&#x2F;id1540073203</a><p>The way it works is that you create a meeting URL, which you can share out-of-band, for instance via slack or text message. You can also share as a QR code which the app can scan to join a call. You then place your device on a surface in front of you so that the front camera can see you, and it will recognize you face and assign you to your own session, which is broadcast to the meeting channel. If more than one person is in view, both of you will be broadcast but with separate session ids, like if you were on separate cameras. Other meeting participants will show up on your screen and you can start talking. It is optimized for eye contact, meaning that the eyes will actually make it through to the other side as more than just dark pixel clouds, so thinks should feel a bit more personal than the standard Zoom&#x2F;Teams&#x2F;or Google Meet call.<p>Because it uses face rec, you can ONLY show your face, and if you disappear from view your audio will stop after a while, to avoid situations like when you need to go the the restroom but forget to mute. This also solves dick-pics etc.<p>The CODEC is not based on H26[45], but is pure AI that runs on the GPU. There is a neural network that compresses the video in real time, and another one decompressing on the receiving end. Finding a tight network architecture that would do this in real time with acceptable quality was a major part of the effort. There are several quality settings possible, but right now it is set fairly high and for 20FPS maxes out around 700kbit&#x2F;s, though typically uses about half. I&#x27;ve demonstrated good results down to around 200kbit&#x2F;s, so in theory it should work over satellite links or even Bluetooth. The protocol is UDP with no congestion control but with (Wirehair) FEC to protect against mild packet loss, future versions will detect packet loss and adapt to available bandwidth.<p>The audio just uses OPUS and may click a little bit, I blame AudioEngine or the fact that the last time I wrote audio code was for the game I published for the Amiga in 1994.<p>If you don&#x27;t have a friend around or multiple devices to play with, there is an &quot;echo test&quot; server mode that allows you to be in a meeting with yourself. Traffic will be peer-to-peer if possible, but otherwise you will be relaying through my tiny Raspberry PI server, so YMMV. I plan to try to switch to something like fly.io soon to improve scalability.<p>There is also a MacOS version coming very soon, and the underlying AI engine also runs on Windows &amp; Linux. Android support is planned.<p>Please take a look and let me know what you think.",
       "time": 1653554742,
       "title": "Show HN: I turned my face rec system into a video codec",
@@ -58,7 +68,7 @@
       "by": "fagnerbrack",
       "descendants": 0,
       "id": 31516106,
-      "score": 1,
+      "score": 2,
       "time": 1653554732,
       "title": "Legacy String Methods for Generating HTML",
       "type": "story",
@@ -68,7 +78,7 @@
       "by": "fagnerbrack",
       "descendants": 0,
       "id": 31516105,
-      "score": 1,
+      "score": 2,
       "time": 1653554729,
       "title": "A City in a Bottle",
       "type": "story",
@@ -93,16 +103,6 @@
       "title": "Computer Simulations in Science",
       "type": "story",
       "url": "https://plato.stanford.edu/entries/simulations-science/"
-    },
-    {
-      "by": "ngaut",
-      "descendants": 0,
-      "id": 31516074,
-      "score": 1,
-      "time": 1653554444,
-      "title": "Azure Database for MySQL",
-      "type": "story",
-      "url": "https://techcommunity.microsoft.com/t5/azure-database-for-mysql-blog/announcing-azure-database-for-mysql-flexible-server-for-business/ba-p/3361718"
     }
   ]
 }
