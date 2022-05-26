@@ -1,10 +1,53 @@
 {
   "stories": [
     {
-      "by": "hammock",
+      "by": "LaSombra",
       "descendants": 0,
-      "id": 31517399,
+      "id": 31517483,
       "score": 1,
+      "time": 1653568207,
+      "title": "Broadcom Seeking to Acquire VMware",
+      "type": "story",
+      "url": "https://kicksec.io/vmware-too-big-to-fail/"
+    },
+    {
+      "by": "taubek",
+      "descendants": 0,
+      "id": 31517476,
+      "score": 1,
+      "time": 1653568169,
+      "title": "Graph Algorithms Cheat Sheet for Coding Interviews",
+      "type": "story",
+      "url": "https://memgraph.com/blog/graph-algorithms-cheat-sheet-for-coding-interviews"
+    },
+    {
+      "by": "krigath",
+      "descendants": 0,
+      "id": 31517447,
+      "score": 1,
+      "time": 1653567963,
+      "title": "Brits to get £400 energy bill help and £650 payments for millions on benefits",
+      "type": "story",
+      "url": "https://www.mirror.co.uk/news/politics/breaking-brits-400-energy-bill-27071387"
+    },
+    {
+      "by": "Zenst",
+      "descendants": 0,
+      "id": 31517433,
+      "score": 2,
+      "time": 1653567893,
+      "title": "GoldenEye DevTalk – Creating the Nintendo 64 Classic",
+      "type": "story",
+      "url": "https://www.youtube.com/watch?v=bNN9XhGZ3Yw"
+    },
+    {
+      "by": "hammock",
+      "descendants": 1,
+      "id": 31517399,
+      "kids": [
+        31517466
+      ],
+      "score": 2,
       "time": 1653567622,
       "title": "The current thing is truth. Arguments against current thing are misinformation",
       "type": "story",
@@ -32,8 +75,11 @@
     },
     {
       "by": "TekMol",
-      "descendants": 0,
+      "descendants": 1,
       "id": 31517354,
+      "kids": [
+        31517457
+      ],
       "score": 1,
       "text": "In contrast to most devs, I use plain Javascript in my projects. No react, no server side compilation, nothing. Especially now that we have modules supported in the browser, it is lovely!<p>But I don&#x27;t like that all my code is out in the open verbatim.<p>What is a good way to obfuscate it? Preferably some command line tool that I can unleash onto a directory, and it will obfuscate every js file it finds in there, including subdirs.",
       "time": 1653567252,
@@ -62,52 +108,6 @@
       "title": "Show HN: Rufet – system info fetcher written in Rust",
       "type": "story",
       "url": "https://github.com/GreenTeaSeb/rufet"
-    },
-    {
-      "by": "reisender",
-      "descendants": 0,
-      "id": 31517302,
-      "score": 2,
-      "time": 1653566761,
-      "title": "Amazon.com bestseller categories network graph analysis",
-      "type": "story",
-      "url": "https://www.bolddata.org/highlight/amazon-com-bestsellers-network-graph-analysis-2022-05-08/"
-    },
-    {
-      "by": "dade",
-      "descendants": 0,
-      "id": 31517288,
-      "score": 1,
-      "time": 1653566610,
-      "title": "Authenticated Encryption for the Working Developer",
-      "type": "story",
-      "url": "https://www.geekabyte.io/2022/05/introduction-to-authenticated.html"
-    },
-    {
-      "by": "zhy9495",
-      "descendants": 1,
-      "id": 31517285,
-      "kids": [
-        31517369
-      ],
-      "score": 2,
-      "time": 1653566595,
-      "title": "Why Does Knowledge Need to Be Connected",
-      "type": "story",
-      "url": "https://help.flomo.app/mindset/why-does-knowledge-need-to-be-connected"
-    },
-    {
-      "by": "kamrani",
-      "descendants": 1,
-      "id": 31517275,
-      "kids": [
-        31517292
-      ],
-      "score": 1,
-      "text": "We&#x27;re launching our product for early access which is an alternative for Netlify + Heroku, tomorrow.<p>I&#x27;ve had three goals for this product:\n- Simplicity\n- Performance\n- Low price (I particularly wanted to make this an awesome choice for IHs)<p>It currently supports static websites and dockerized web applications.<p>This is going to be one a few releases in the next few weeks weeks. Ultimately, whoever is involved will get a massive discount. Also your feedback will quite literally impact the product the way you want.<p>The only requirement is that you should be a paying user of a PaaS provider (Netlify, Heroku, Vercel, etc.) now or have been one in the past (it&#x27;s just about the accuracy of the feedbacks)<p>Please let me know here or DM me on Twitter (MohsenKamranii).",
-      "time": 1653566532,
-      "title": "Push your code, see the result",
-      "type": "story"
     }
   ]
 }
