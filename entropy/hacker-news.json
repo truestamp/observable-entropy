@@ -1,6 +1,16 @@
 {
   "stories": [
     {
+      "by": "haltingproblem",
+      "descendants": 0,
+      "id": 31525746,
+      "score": 1,
+      "time": 1653622167,
+      "title": "JPMorgan Finds New Use for Blockchain in Trading and Lending",
+      "type": "story",
+      "url": "https://www.bloomberg.com/news/articles/2022-05-26/jpmorgan-finds-new-use-for-blockchain-in-collateral-settlement"
+    },
+    {
       "by": "lnyan",
       "descendants": 0,
       "id": 31525710,
@@ -32,8 +42,11 @@
     },
     {
       "by": "SkyMarshal",
-      "descendants": 0,
+      "descendants": 1,
       "id": 31525661,
+      "kids": [
+        31525749
+      ],
       "score": 3,
       "time": 1653620870,
       "title": "Decentralized stablecoins are mathematically impossible",
@@ -62,8 +75,12 @@
     },
     {
       "by": "sealos",
-      "descendants": 0,
+      "descendants": 1,
       "id": 31525610,
+      "kids": [
+        31525731,
+        31525743
+      ],
       "score": 1,
       "time": 1653620113,
       "title": "Sealos Kubernetes-kernel-based cloud OS distribution",
@@ -89,19 +106,6 @@
       "title": "Living with Kubernetes After the ‘Honeymoon’ Ends",
       "type": "story",
       "url": "https://thenewstack.io/kubernetes-after-the-honeymoon-ends/"
-    },
-    {
-      "by": "StephenSmith",
-      "descendants": 1,
-      "id": 31525594,
-      "kids": [
-        31525707
-      ],
-      "score": 1,
-      "text": "I&#x27;m having issues with routing of connections from EC2 to RDS.<p>Here is what AWS says (blaming some third party):\n7:21 PM PDT We are aware of intermediate DNS resolution issues for certain specific AWS names. This is due to an issue with third-party DNS provider outside AWS. DNS queries for domains hosted on Route 53 are operating without any issues at this time. We are actively working with the third-party DNS provider to resolve the issue as quickly as possible.",
-      "time": 1653619927,
-      "title": "Tell HN: AWS Experiencing DNS Issues",
-      "type": "story"
     }
   ]
 }
