@@ -1,6 +1,35 @@
 {
   "stories": [
     {
+      "by": "cactusmatt",
+      "descendants": 0,
+      "id": 31536280,
+      "score": 1,
+      "time": 1653695688,
+      "title": "A Face Search Engine Anyone Can Use Is Alarmingly Accurate",
+      "type": "story",
+      "url": "https://www.nytimes.com/2022/05/26/technology/pimeyes-facial-recognition-search.htmlp"
+    },
+    {
+      "by": "catsareok",
+      "descendants": 0,
+      "id": 31536275,
+      "score": 1,
+      "time": 1653695639,
+      "title": "Why is the Python environment so f*ucking fragile, and why do we tolerate this?",
+      "type": "story"
+    },
+    {
+      "by": "metadat",
+      "descendants": 0,
+      "id": 31536269,
+      "score": 1,
+      "text": "It&#x27;s 2022, torrent technology has been around for 15+ years.<p>So why is it still not trivial to host a file by torrent on a private network?  If I have a set of machines behind a firewall, it is a huge pain to setup a qbittorrent instance and configure clients to use it, and even once that is setup the retrieval process is nothing like &quot;wget magnet:&#x2F;&#x2F;...&quot;.<p>To be clear, projects like aria2 (C++) and webtorrent (nodejs) do exist, but try to seriously use them and you&#x27;ll find they are slow to get started and overall unreliable.",
+      "time": 1653695605,
+      "title": "Ask HN: Why isn't is possible to easily host a file over torrent?",
+      "type": "story"
+    },
+    {
       "by": "quenix",
       "descendants": 0,
       "id": 31536247,
@@ -22,9 +51,12 @@
     },
     {
       "by": "ellenhp",
-      "descendants": 0,
+      "descendants": 1,
       "id": 31536217,
-      "score": 2,
+      "kids": [
+        31536252
+      ],
+      "score": 3,
       "text": "Over the past week I built a project to let people self-host an entire maps stack so they don&#x27;t have to send data to the big G. Right now it includes a base map, geocoder and directions server. Currently only bicycle directions are supported, and I&#x27;m only hosting tiles for Seattle because I&#x27;m unemployed and can&#x27;t afford to host data for the whole planet. Check it out!<p><a href=\"https:&#x2F;&#x2F;maps.ellenhp.me&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;maps.ellenhp.me&#x2F;</a><p><a href=\"https:&#x2F;&#x2F;github.com&#x2F;ellenhp&#x2F;headway\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;ellenhp&#x2F;headway</a><p>Ultimately I&#x27;d like to really focus on transit routing (not implemented) but I&#x27;ll probably throw a driving mode in there too.",
       "time": 1653695140,
       "title": "Show HN: Self-Hosted Maps Stack",
@@ -70,39 +102,6 @@
       "title": "Reasons for Linux to replace ifconfig, netstat, et al.",
       "type": "story",
       "url": "https://utcc.utoronto.ca/~cks/space/blog/linux/ReplacingNetstatNotBad"
-    },
-    {
-      "by": "phpisatrash",
-      "descendants": 0,
-      "id": 31536168,
-      "score": 2,
-      "time": 1653694706,
-      "title": "Payload –  Free and Open-source Headless CMS and Application Framework",
-      "type": "story",
-      "url": "https://github.com/payloadcms/payload"
-    },
-    {
-      "by": "verisimi",
-      "descendants": 3,
-      "id": 31536109,
-      "kids": [
-        31536126
-      ],
-      "score": 6,
-      "time": 1653694221,
-      "title": "Covid UPDATE: What is the truth?",
-      "type": "story",
-      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9062939/"
-    },
-    {
-      "by": "sohkamyung",
-      "descendants": 0,
-      "id": 31536100,
-      "score": 1,
-      "time": 1653694102,
-      "title": "Chromebooks will now tell you when you’re using the wrong USB-C cable",
-      "type": "story",
-      "url": "https://www.theverge.com/2022/5/27/23144411/google-chromebooks-wrong-usb-c-cable-cursive"
     }
   ]
 }
