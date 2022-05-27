@@ -1,6 +1,67 @@
 {
   "stories": [
     {
+      "by": "ddtaylor",
+      "descendants": 0,
+      "id": 31535297,
+      "score": 1,
+      "time": 1653687911,
+      "title": "IndyCar is moving to 100% renewable ethanol in 2023",
+      "type": "story",
+      "url": "https://arstechnica.com/cars/2022/05/indycar-is-moving-to-100-renewable-ethanol-in-2023/"
+    },
+    {
+      "by": "sraffa",
+      "descendants": 0,
+      "id": 31535286,
+      "score": 1,
+      "time": 1653687855,
+      "title": "On Hiring: Seven Principles (Version 1.0)",
+      "type": "story",
+      "url": "https://medium.com/@rafr/on-hiring-seven-principles-version-1-0-4d31b739322f"
+    },
+    {
+      "by": "micvbang",
+      "descendants": 0,
+      "id": 31535280,
+      "score": 1,
+      "text": "I&#x27;ve been a pretty happy user of mockery [1] for a while, but recently found it getting a lot in my way.\nSince mockery uses a lot of interface{} magic, adding arguments or return values to interfaces and regenerating the mocks does not get the compiler to complain about existing, now invalid, usages of the mocks. This means that I have to track them down manually. Or, if I&#x27;m brave enough, try my hand at a few crazy regexes that never get the job 100% done.<p>go-mocky does not use interface{}s, and thus can&#x27;t hide changes to function signatures from the compiler; whenever a mock has been updated and the function signature has changed, the compiler will complain for all existing tests. This means that I can now catch errors at compile&#x2F;lint time instead of runtime.<p>Another added benefit is that the go-mocky mocks are dead simple and very easy to write and maintain by hand, should the need ever arise.<p>[1]: <a href=\"https:&#x2F;&#x2F;github.com&#x2F;vektra&#x2F;mockery\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;vektra&#x2F;mockery</a>",
+      "time": 1653687847,
+      "title": "Show HN: Simple Go mocks without interface{}s",
+      "type": "story",
+      "url": "https://github.com/micvbang/go-mocky"
+    },
+    {
+      "by": "amusecassette",
+      "descendants": 0,
+      "id": 31535266,
+      "score": 2,
+      "time": 1653687760,
+      "title": "So, Why Kubernetes?",
+      "type": "story",
+      "url": "https://theophileds.com/posts/why-kubernetes/"
+    },
+    {
+      "by": "andris9",
+      "descendants": 0,
+      "id": 31535265,
+      "score": 1,
+      "time": 1653687756,
+      "title": "Mining email contents for fun and profit",
+      "type": "story",
+      "url": "https://docs.emailengine.app/mining-email-data-for-fun-and-profit/"
+    },
+    {
+      "by": "hardwaresofton",
+      "descendants": 0,
+      "id": 31535255,
+      "score": 1,
+      "time": 1653687673,
+      "title": "Suricata – F/OSS alternative to Snort",
+      "type": "story",
+      "url": "https://suricata.io/"
+    },
+    {
       "by": "Gambitos",
       "descendants": 1,
       "id": 31535246,
@@ -17,7 +78,7 @@
       "by": "gbourne1",
       "descendants": 0,
       "id": 31535243,
-      "score": 1,
+      "score": 2,
       "time": 1653687533,
       "title": "Substack Drops Fund-Raising Efforts as Market Sours",
       "type": "story",
@@ -40,74 +101,11 @@
       "by": "akeck",
       "descendants": 0,
       "id": 31535164,
-      "score": 2,
+      "score": 3,
       "time": 1653687042,
       "title": "Why Gen Z workers are already so burned out",
       "type": "story",
       "url": "https://www.bbc.com/worklife/article/20220520-why-gen-z-workers-are-already-so-burned-out"
-    },
-    {
-      "by": "lukastyrychtr",
-      "descendants": 0,
-      "id": 31535158,
-      "score": 2,
-      "time": 1653687006,
-      "title": "Building a Cloud Database from Scratch: Why We Moved from C++ to Rust",
-      "type": "story",
-      "url": "https://singularity-data.com/blog/building-a-cloud-database-from-scratch-why-we-moved-from-cpp-to-rust/"
-    },
-    {
-      "by": "zdw",
-      "descendants": 0,
-      "id": 31535139,
-      "score": 1,
-      "time": 1653686857,
-      "title": "Sage and a glimpse of group computing from before the PC",
-      "type": "story",
-      "url": "https://interconnected.org/home/2021/12/21/sage"
-    },
-    {
-      "by": "GBiT",
-      "descendants": 0,
-      "id": 31535131,
-      "score": 2,
-      "time": 1653686813,
-      "title": "Run Ethereum Smart Contracts on Bitcoin Protocol",
-      "type": "story",
-      "url": "https://xiaohuiliu.medium.com/introducing-solidity-to-scrypt-transpiler-a0a6907bb3ef"
-    },
-    {
-      "by": "testingathing",
-      "descendants": 0,
-      "id": 31535053,
-      "score": 3,
-      "time": 1653686384,
-      "title": "Wikipedia Haiku",
-      "type": "story",
-      "url": "https://botsin.space/@wikipediahaiku"
-    },
-    {
-      "by": "lukastyrychtr",
-      "descendants": 0,
-      "id": 31535041,
-      "score": 2,
-      "time": 1653686318,
-      "title": "Fixing Memory Leaks in Rust",
-      "type": "story",
-      "url": "https://onesignal.com/blog/solving-memory-leaks-in-rust/"
-    },
-    {
-      "by": "PaybackTony",
-      "descendants": 1,
-      "id": 31535036,
-      "kids": [
-        31535047
-      ],
-      "score": 1,
-      "time": 1653686285,
-      "title": "Cybersecurity breach at City of Portland led to $1.4m fraudulent transaction",
-      "type": "story",
-      "url": "https://katu.com/news/local/cybersecurity-breach-at-the-city-of-portland-led-to-fraudulent-14m-transaction"
     }
   ]
 }
