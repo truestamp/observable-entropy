@@ -1,6 +1,45 @@
 {
   "stories": [
-    null,
+    {
+      "by": "snikolaev",
+      "descendants": 0,
+      "id": 31526713,
+      "score": 1,
+      "time": 1653634068,
+      "title": "Manticore Search 5",
+      "type": "story",
+      "url": "https://manticoresearch.medium.com/manticore-search-5-4e2ce0fc8425"
+    },
+    {
+      "by": "reidrac",
+      "descendants": 0,
+      "id": 31526708,
+      "score": 1,
+      "time": 1653634021,
+      "title": "Aioe.org Public News Server",
+      "type": "story",
+      "url": "https://www.usebox.net/jjm/blog/aioe-org-public-news-server/"
+    },
+    {
+      "by": "longrod",
+      "descendants": 0,
+      "id": 31526707,
+      "score": 1,
+      "time": 1653634006,
+      "title": "Is DuckDuckGo Private?",
+      "type": "story",
+      "url": "https://blog.notesnook.com/is-duckduckgo-search-browser-really-private"
+    },
+    {
+      "by": "ddtaylor",
+      "descendants": 0,
+      "id": 31526695,
+      "score": 1,
+      "time": 1653633906,
+      "title": "Blue bee feared to be extinct is found in Florida (2020)",
+      "type": "story",
+      "url": "https://www.smithsonianmag.com/science-nature/blue-bee-feared-be-extinct-found-florida-180974957/"
+    },
     {
       "by": "samwillis",
       "descendants": 0,
@@ -28,7 +67,7 @@
       "kids": [
         31526678
       ],
-      "score": 4,
+      "score": 5,
       "text": "Just got the following email from npm. TLDR:<p>- &quot;npm username, password hash, and email address in a 2015 npm archive&quot;\n- &quot;an attacker abused stolen OAuth user tokens issued to two third-party GitHub.com OAuth integrators, Heroku and Travis CI&quot;<p>Full email below<p>---<p>Hello,<p>We’re writing to let you know an investigation into unauthorized access to npm infrastructure revealed that your npm account information was accessed by an attacker. This unauthorized access was part of an attack campaign utilizing stolen OAuth user tokens issued to two third-party GitHub.com integrators, Heroku and Travis CI, that has previously been documented on the GitHub blog.<p>User privacy and security are essential for maintaining trust, and we want to remain as transparent as possible about events like these. Read on for more information, as well as on our blog further detailing GitHub&#x27;s analysis of the attack on npm: https:&#x2F;&#x2F;github.blog&#x2F;2022-05-26-npm-security-update-oauth-tokens&#x2F;<p>* What Happened *<p>On April 12, GitHub Security began an investigation that uncovered evidence that an attacker abused stolen OAuth user tokens issued to two third-party GitHub.com OAuth integrators, Heroku and Travis CI, to download repository data from dozens of GitHub.com organizations. One of the victim organizations impacted was npm. We do not believe the attacker obtained these tokens via a compromise of GitHub or its systems because the tokens in question are not stored by GitHub in their original, usable formats. GitHub&#x27;s initial blog post and subsequent updates regarding the attack campaign can be found on our blog linked above. Following the discovery of npm&#x27;s initial compromise, GitHub investigated the impact to npm. Based on this analysis, we have evidence the actor was able to access internal npm data and npm customer information.<p>* What information was involved? *<p>Your npm username, password hash, and email address in a 2015 npm archive of user information from a skimdb.npmjs.com backup.<p>* What GitHub is doing *<p>Upon discovery of the unauthorized access of npm infrastructure, GitHub immediately began an investigation into what was accessed by the attacker. After determining whose information was accessed in the compromise, we directly notified affected users and published our blog post on the investigation.<p>To ensure your account’s security, we&#x27;ve also rotated your npm password and you will be required to reset your password via https:&#x2F;&#x2F;www.npmjs.com&#x2F;forgot.<p>* What you can do *<p>If you use the same password for any other service, we recommend that you change it on that service as well. We do not recommend reusing passwords, and guidance on strong passwords is available here:<p>https:&#x2F;&#x2F;docs.github.com&#x2F;en&#x2F;authentication&#x2F;keeping-your-account-and-data-secure&#x2F;creating-a-strong-password<p>In addition, we highly recommend enabling 2FA on both your npm account and the email address used for your npm account if you&#x27;ve not done so already:<p>https:&#x2F;&#x2F;docs.npmjs.com&#x2F;configuring-two-factor-authentication<p>Please feel free to reach out to GitHub Support with any additional questions or concerns:<p>https:&#x2F;&#x2F;support.github.com&#x2F;contact?subject=GH-0200941-4895-7+questions&amp;tags=GH-0200941-4895-7<p>Thanks, \nGitHub Security",
       "time": 1653633457,
       "title": "Tell HN: npm breach",
@@ -58,41 +97,11 @@
       "by": "ziga-miklic",
       "descendants": 0,
       "id": 31526493,
-      "score": 1,
+      "score": 2,
       "time": 1653631704,
       "title": "Why, Oh Why Was This Added?",
       "type": "story",
       "url": "https://zigamiklic.com/why-oh-why/"
-    },
-    {
-      "by": "rajasimon",
-      "descendants": 0,
-      "id": 31526488,
-      "score": 1,
-      "time": 1653631674,
-      "title": "Add Tailwind CSS JIT to Your Hugo Project",
-      "type": "story",
-      "url": "https://rajasimon.io/blog/hugo-tailwind-css-jit/"
-    },
-    {
-      "by": "Trouble_007",
-      "descendants": 0,
-      "id": 31526483,
-      "score": 1,
-      "time": 1653631594,
-      "title": "A prebiotically plausible scenario of an RNA–peptide world",
-      "type": "story",
-      "url": "https://www.nature.com/articles/s41586-022-04676-3"
-    },
-    {
-      "by": "yarapavan",
-      "descendants": 0,
-      "id": 31526475,
-      "score": 1,
-      "time": 1653631463,
-      "title": "The Addiction Economy",
-      "type": "story",
-      "url": "https://every.to/napkin-math/the-addiction-economy"
     }
   ]
 }
