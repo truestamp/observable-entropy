@@ -1,6 +1,26 @@
 {
   "stories": [
     {
+      "by": "herodoturtle",
+      "descendants": 0,
+      "id": 31535474,
+      "score": 1,
+      "text": "For example, if I made $10m, I&#x27;d take a break from full time work to prioritise hanging out with my loved ones, whilst experimenting with ideas and exploring nature.",
+      "time": 1653689219,
+      "title": "Ask HN: What Is Your Number?",
+      "type": "story"
+    },
+    {
+      "by": "biancagus",
+      "descendants": 0,
+      "id": 31535471,
+      "score": 1,
+      "time": 1653689190,
+      "title": "When the Best Available Home Is the One You Already Have",
+      "type": "story",
+      "url": "https://www.nytimes.com/2022/05/27/upshot/housing-market-slow-moving.html"
+    },
+    {
       "by": "version_five",
       "descendants": 0,
       "id": 31535418,
@@ -83,27 +103,6 @@
       "title": "On Hiring: Seven Principles (Version 1.0)",
       "type": "story",
       "url": "https://medium.com/@rafr/on-hiring-seven-principles-version-1-0-4d31b739322f"
-    },
-    {
-      "by": "micvbang",
-      "descendants": 0,
-      "id": 31535280,
-      "score": 1,
-      "text": "I&#x27;ve been a pretty happy user of mockery [1] for a while, but recently found it getting a lot in my way.\nSince mockery uses a lot of interface{} magic, adding arguments or return values to interfaces and regenerating the mocks does not get the compiler to complain about existing, now invalid, usages of the mocks. This means that I have to track them down manually. Or, if I&#x27;m brave enough, try my hand at a few crazy regexes that never get the job 100% done.<p>go-mocky does not use interface{}s, and thus can&#x27;t hide changes to function signatures from the compiler; whenever a mock has been updated and the function signature has changed, the compiler will complain for all existing tests. This means that I can now catch errors at compile&#x2F;lint time instead of runtime.<p>Another added benefit is that the go-mocky mocks are dead simple and very easy to write and maintain by hand, should the need ever arise.<p>[1]: <a href=\"https:&#x2F;&#x2F;github.com&#x2F;vektra&#x2F;mockery\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;vektra&#x2F;mockery</a>",
-      "time": 1653687847,
-      "title": "Show HN: Simple Go mocks without interface{}s",
-      "type": "story",
-      "url": "https://github.com/micvbang/go-mocky"
-    },
-    {
-      "by": "amusecassette",
-      "descendants": 0,
-      "id": 31535266,
-      "score": 2,
-      "time": 1653687760,
-      "title": "So, Why Kubernetes?",
-      "type": "story",
-      "url": "https://theophileds.com/posts/why-kubernetes/"
     }
   ]
 }
