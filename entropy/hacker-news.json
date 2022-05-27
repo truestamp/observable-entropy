@@ -1,6 +1,36 @@
 {
   "stories": [
     {
+      "by": "usr1106",
+      "descendants": 0,
+      "id": 31526739,
+      "score": 1,
+      "time": 1653634402,
+      "title": "Nation wide disruption with Verifon H5000 payment terminals in Germany",
+      "type": "story",
+      "url": "https://borncity.com/win/2022/05/25/nation-wide-disruption-with-verifon-h5000-payment-terminals-in-germany/"
+    },
+    {
+      "by": "g_volgin",
+      "descendants": 0,
+      "id": 31526729,
+      "score": 2,
+      "time": 1653634258,
+      "title": "WireGuard. How It Was",
+      "type": "story",
+      "url": "https://medium.com/indriver-tech/wireguard-how-it-was-6477b17f4b1b"
+    },
+    {
+      "by": "enoch2090",
+      "descendants": 0,
+      "id": 31526726,
+      "score": 1,
+      "text": "I&#x27;m working on a semantic searcher on GitHub Repositories, would love to have some Q-A sample pairs. Any recommendations on your favorite libraries? \ne.g.\nPython, PyInstrument: Finds the slowest part of your code. \nPyInstrument is a static code profiler, it&#x27;s really handy when you want to optimize a chunk of code.",
+      "time": 1653634239,
+      "title": "Ask HN: What is the Python/JS/C++ library that you find useful?",
+      "type": "story"
+    },
+    {
       "by": "snikolaev",
       "descendants": 0,
       "id": 31526713,
@@ -24,7 +54,7 @@
       "by": "longrod",
       "descendants": 0,
       "id": 31526707,
-      "score": 1,
+      "score": 2,
       "time": 1653634006,
       "title": "Is DuckDuckGo Private?",
       "type": "story",
@@ -54,7 +84,7 @@
       "by": "MaxLeiter",
       "descendants": 0,
       "id": 31526675,
-      "score": 1,
+      "score": 2,
       "time": 1653633716,
       "title": "The Worm Atlas",
       "type": "story",
@@ -67,41 +97,11 @@
       "kids": [
         31526678
       ],
-      "score": 5,
+      "score": 6,
       "text": "Just got the following email from npm. TLDR:<p>- &quot;npm username, password hash, and email address in a 2015 npm archive&quot;\n- &quot;an attacker abused stolen OAuth user tokens issued to two third-party GitHub.com OAuth integrators, Heroku and Travis CI&quot;<p>Full email below<p>---<p>Hello,<p>We’re writing to let you know an investigation into unauthorized access to npm infrastructure revealed that your npm account information was accessed by an attacker. This unauthorized access was part of an attack campaign utilizing stolen OAuth user tokens issued to two third-party GitHub.com integrators, Heroku and Travis CI, that has previously been documented on the GitHub blog.<p>User privacy and security are essential for maintaining trust, and we want to remain as transparent as possible about events like these. Read on for more information, as well as on our blog further detailing GitHub&#x27;s analysis of the attack on npm: https:&#x2F;&#x2F;github.blog&#x2F;2022-05-26-npm-security-update-oauth-tokens&#x2F;<p>* What Happened *<p>On April 12, GitHub Security began an investigation that uncovered evidence that an attacker abused stolen OAuth user tokens issued to two third-party GitHub.com OAuth integrators, Heroku and Travis CI, to download repository data from dozens of GitHub.com organizations. One of the victim organizations impacted was npm. We do not believe the attacker obtained these tokens via a compromise of GitHub or its systems because the tokens in question are not stored by GitHub in their original, usable formats. GitHub&#x27;s initial blog post and subsequent updates regarding the attack campaign can be found on our blog linked above. Following the discovery of npm&#x27;s initial compromise, GitHub investigated the impact to npm. Based on this analysis, we have evidence the actor was able to access internal npm data and npm customer information.<p>* What information was involved? *<p>Your npm username, password hash, and email address in a 2015 npm archive of user information from a skimdb.npmjs.com backup.<p>* What GitHub is doing *<p>Upon discovery of the unauthorized access of npm infrastructure, GitHub immediately began an investigation into what was accessed by the attacker. After determining whose information was accessed in the compromise, we directly notified affected users and published our blog post on the investigation.<p>To ensure your account’s security, we&#x27;ve also rotated your npm password and you will be required to reset your password via https:&#x2F;&#x2F;www.npmjs.com&#x2F;forgot.<p>* What you can do *<p>If you use the same password for any other service, we recommend that you change it on that service as well. We do not recommend reusing passwords, and guidance on strong passwords is available here:<p>https:&#x2F;&#x2F;docs.github.com&#x2F;en&#x2F;authentication&#x2F;keeping-your-account-and-data-secure&#x2F;creating-a-strong-password<p>In addition, we highly recommend enabling 2FA on both your npm account and the email address used for your npm account if you&#x27;ve not done so already:<p>https:&#x2F;&#x2F;docs.npmjs.com&#x2F;configuring-two-factor-authentication<p>Please feel free to reach out to GitHub Support with any additional questions or concerns:<p>https:&#x2F;&#x2F;support.github.com&#x2F;contact?subject=GH-0200941-4895-7+questions&amp;tags=GH-0200941-4895-7<p>Thanks, \nGitHub Security",
       "time": 1653633457,
       "title": "Tell HN: npm breach",
       "type": "story"
-    },
-    {
-      "by": "testadil",
-      "descendants": 0,
-      "id": 31526550,
-      "score": 1,
-      "time": 1653632388,
-      "title": "I Hate the Word Culture",
-      "type": "story",
-      "url": "https://adilw3nomad.github.io/2022/04/29/the-three-cs/"
-    },
-    {
-      "by": "Trouble_007",
-      "descendants": 0,
-      "id": 31526549,
-      "score": 1,
-      "time": 1653632385,
-      "title": "Monkeypox Virus (MPXV) – 2022-Outbreak",
-      "type": "story",
-      "url": "https://en.wikipedia.org/wiki/2022_monkeypox_outbreak"
-    },
-    {
-      "by": "ziga-miklic",
-      "descendants": 0,
-      "id": 31526493,
-      "score": 2,
-      "time": 1653631704,
-      "title": "Why, Oh Why Was This Added?",
-      "type": "story",
-      "url": "https://zigamiklic.com/why-oh-why/"
     }
   ]
 }
