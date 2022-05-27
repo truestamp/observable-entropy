@@ -1,6 +1,56 @@
 {
   "stories": [
     {
+      "by": "gtech1",
+      "descendants": 0,
+      "id": 31529513,
+      "score": 1,
+      "text": "I&#x27;m setting up a Teltonika device for OOB access for a remote location. I wanted to go with Opengear but they don&#x27;t have anything in stock for 14-16 weeks!<p>Anyways, Teltonika is a pretty nice product and their RMS central hub makes using the product even easier by allowing you to connect to their device at all times.<p>But there&#x27;s one huge caveat for me. They allow the downloading of openvpn configs even after you create them and those configs contain all the keys in the clear, no passphrase required.<p>If someone were to hack their RMS app, they could essentially connect directly to all the internal networks of their customers by downloading these openvpn configs.<p>Am I right in being paranoid about this ? I suggested they stop storing what&#x27;s essentially their customers&#x27; passwords in the clear or at least add a passphrase but they claim their security is top notch and I shouldn&#x27;t be worried: about a third party having direct access to our internal network while they store all the vpn keys in the clear.<p>Am I paranoid here ?",
+      "time": 1653658793,
+      "title": "Teltonika RMS Security Concerns",
+      "type": "story"
+    },
+    {
+      "by": "PaulHoule",
+      "descendants": 0,
+      "id": 31529505,
+      "score": 1,
+      "time": 1653658751,
+      "title": "Discovery offers starting point for better gene-editing tools",
+      "type": "story",
+      "url": "https://news.cornell.edu/stories/2022/05/discovery-offers-starting-point-better-gene-editing-tools"
+    },
+    {
+      "by": "CrankyBear",
+      "descendants": 0,
+      "id": 31529498,
+      "score": 1,
+      "time": 1653658715,
+      "title": "CentOS Linux lives on in the new AlmaLinux 9",
+      "type": "story",
+      "url": "https://www.zdnet.com/article/old-style-centos-linux-lives-on-in-the-new-almalinux-9/"
+    },
+    {
+      "by": "agomez314",
+      "descendants": 0,
+      "id": 31529486,
+      "score": 1,
+      "time": 1653658645,
+      "title": "Unfiltered thoughts on the Broadcom-VMware deal",
+      "type": "story",
+      "url": "https://www.linkedin.com/pulse/brian-maddens-brutal-unfiltered-thoughts-broadcom-vmware-brian-madden"
+    },
+    {
+      "by": "ColinWright",
+      "descendants": 0,
+      "id": 31529460,
+      "score": 1,
+      "time": 1653658513,
+      "title": "Pixelating Text Not a Good Idea",
+      "type": "story",
+      "url": "https://hackaday.com/2022/02/23/pixelating-text-not-a-good-idea/"
+    },
+    {
       "by": "yolo123",
       "descendants": 0,
       "id": 31529441,
@@ -52,59 +102,6 @@
       "title": "Russian national guard soldiers sacked for refusing to fight in Ukraine",
       "type": "story",
       "url": "https://www.theguardian.com/world/2022/may/27/115-russian-national-guard-soldiers-sacked-for-refusing-to-fight-in-ukraine"
-    },
-    {
-      "by": "pebal",
-      "descendants": 0,
-      "id": 31529316,
-      "score": 1,
-      "time": 1653657818,
-      "title": "Lock-free Concurrent Garbage Collector for C++",
-      "type": "story",
-      "url": "https://github.com/pebal/sgcl"
-    },
-    {
-      "by": "agomez314",
-      "descendants": 0,
-      "id": 31529310,
-      "score": 1,
-      "time": 1653657783,
-      "title": "Introduction to Western Philosophy Course",
-      "type": "story",
-      "url": "https://www.youtube.com/watch?v=utKvDXhS62Y"
-    },
-    {
-      "by": "aquir",
-      "descendants": 1,
-      "id": 31529307,
-      "kids": [
-        31529314
-      ],
-      "score": 1,
-      "time": 1653657766,
-      "title": "Ballot Bin – Keeps the streets butt-free",
-      "type": "story",
-      "url": "https://ballotbin.co.uk/"
-    },
-    {
-      "by": "rinze",
-      "descendants": 0,
-      "id": 31529296,
-      "score": 1,
-      "time": 1653657688,
-      "title": "Instructions for Reviewer 2: How to reject a manuscript for arbitrary reasons",
-      "type": "story",
-      "url": "https://osf.io/t8jsm/"
-    },
-    {
-      "by": "philk10",
-      "descendants": 0,
-      "id": 31529268,
-      "score": 2,
-      "time": 1653657584,
-      "title": "Lessons from Returning to the First Project of My Career 2 Years Later",
-      "type": "story",
-      "url": "https://spin.atomicobject.com/2022/05/27/first-project-developer/"
     }
   ]
 }
