@@ -1,6 +1,19 @@
 {
   "stories": [
     {
+      "by": "VariableStar",
+      "descendants": 1,
+      "id": 31539182,
+      "kids": [
+        31539183
+      ],
+      "score": 1,
+      "time": 1653734243,
+      "title": "Perl 5.36.0 Released",
+      "type": "story",
+      "url": "https://www.perl.org/"
+    },
+    {
       "by": "lawgimenez",
       "descendants": 0,
       "id": 31539156,
@@ -74,7 +87,7 @@
       "by": "Existenceblinks",
       "descendants": 0,
       "id": 31539075,
-      "score": 3,
+      "score": 5,
       "text": "I read https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=31341083 recently and feel quite frustrated because now everyone is rendering html using javascript. I&#x27;m on twitter reading web stuff, when they talk about &quot;SSR&quot; (server-sided rendering), 99% of the time it means javascript based server. Why these trying-to-be-innovation lately aren&#x27;t not working with backend languages like python, ruby, elixir, go, rust etc?<p>I have an SPA app that is quite sophisticated whose WHOLE app size is ~110kB minified, and when I look at react-dom on https:&#x2F;&#x2F;bundlephobia.com&#x2F;package&#x2F;react-dom@18.1.0 it&#x27;s 130kB minified which sounds CREAZY to me compared to my whole app (no, it&#x27;s not a todo app, it&#x27;s an editor app)<p>Is it just me that interpret this situation as &quot;suck&quot;, or this is the future?",
       "time": 1653732615,
       "title": "Ask HN: Why the web lately is all about JavaScript?",
@@ -89,16 +102,6 @@
       "title": "Cloud security firm Lacework lays off 20% of staff",
       "type": "story",
       "url": "https://www.protocol.com/enterprise/lacework-layoffs-cloud-security-startup"
-    },
-    {
-      "by": "todsacerdoti",
-      "descendants": 0,
-      "id": 31539070,
-      "score": 1,
-      "time": 1653732498,
-      "title": "Derw: Hydrating the web language landscape, May 2022 status",
-      "type": "story",
-      "url": "https://derw.substack.com/p/derw-hydrating-the-web-language-landscape"
     }
   ]
 }
