@@ -1,6 +1,16 @@
 {
   "stories": [
     {
+      "by": "rvnx",
+      "descendants": 0,
+      "id": 31536320,
+      "score": 1,
+      "time": 1653696052,
+      "title": "An uroboros program with 100 programming languages",
+      "type": "story",
+      "url": "https://github.com/mame/quine-relay"
+    },
+    {
       "by": "TradeKing",
       "descendants": 0,
       "id": 31536304,
@@ -12,9 +22,12 @@
     },
     {
       "by": "IAmStoxe",
-      "descendants": 0,
+      "descendants": 1,
       "id": 31536292,
-      "score": 1,
+      "kids": [
+        31536323
+      ],
+      "score": 2,
       "time": 1653695779,
       "title": "WireHole – A WireGuard VPN with Native Ad-Blocking",
       "type": "story",
@@ -52,8 +65,11 @@
     },
     {
       "by": "catsareok",
-      "descendants": 0,
+      "descendants": 1,
       "id": 31536275,
+      "kids": [
+        31536326
+      ],
       "score": 1,
       "time": 1653695639,
       "title": "Why is the Python environment so f*ucking fragile, and why do we tolerate this?",
@@ -88,20 +104,6 @@
       "title": "Black holes and cryptocurrencies",
       "type": "story",
       "url": "https://arxiv.org/abs/2205.12995"
-    },
-    {
-      "by": "ellenhp",
-      "descendants": 1,
-      "id": 31536217,
-      "kids": [
-        31536252
-      ],
-      "score": 3,
-      "text": "Over the past week I built a project to let people self-host an entire maps stack so they don&#x27;t have to send data to the big G. Right now it includes a base map, geocoder and directions server. Currently only bicycle directions are supported, and I&#x27;m only hosting tiles for Seattle because I&#x27;m unemployed and can&#x27;t afford to host data for the whole planet. Check it out!<p><a href=\"https:&#x2F;&#x2F;maps.ellenhp.me&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;maps.ellenhp.me&#x2F;</a><p><a href=\"https:&#x2F;&#x2F;github.com&#x2F;ellenhp&#x2F;headway\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;ellenhp&#x2F;headway</a><p>Ultimately I&#x27;d like to really focus on transit routing (not implemented) but I&#x27;ll probably throw a driving mode in there too.",
-      "time": 1653695140,
-      "title": "Show HN: Self-Hosted Maps Stack",
-      "type": "story",
-      "url": "https://maps.ellenhp.me/"
     }
   ]
 }
