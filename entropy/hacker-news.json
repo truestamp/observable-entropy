@@ -1,11 +1,52 @@
 {
   "stories": [
-    null,
+    {
+      "by": "Brajeshwar",
+      "descendants": 0,
+      "id": 31549368,
+      "score": 1,
+      "time": 1653834275,
+      "title": "TinyPilot: Build a KVM over IP for Under $100",
+      "type": "story",
+      "url": "https://tinypilotkvm.com/blog/build-a-kvm-over-ip-under-100"
+    },
+    {
+      "by": "otoolep",
+      "descendants": 0,
+      "id": 31549347,
+      "score": 1,
+      "time": 1653834125,
+      "title": "Time is ticking to replace The Pentagon’s 1970s-era Doomsday planes",
+      "type": "story",
+      "url": "https://www.politico.com/news/2022/05/29/pentagon-replace-doomsday-plane-00034686"
+    },
+    {
+      "by": "pawko",
+      "descendants": 0,
+      "id": 31549341,
+      "score": 1,
+      "time": 1653834075,
+      "title": "Ask HN: What do you think about Sailfish OS?",
+      "type": "story"
+    },
+    {
+      "by": "ddtaylor",
+      "descendants": 0,
+      "id": 31549336,
+      "score": 1,
+      "time": 1653834009,
+      "title": "PulseAudio 16.0 Released",
+      "type": "story",
+      "url": "https://www.freedesktop.org/wiki/Software/PulseAudio/Notes/16.0/"
+    },
     {
       "by": "lastdong",
-      "descendants": 0,
+      "descendants": 1,
       "id": 31549311,
-      "score": 1,
+      "kids": [
+        31549350
+      ],
+      "score": 2,
       "time": 1653833810,
       "title": "iPhone secret features: Save as PDF",
       "type": "story",
@@ -13,8 +54,11 @@
     },
     {
       "by": "squarefoot",
-      "descendants": 0,
+      "descendants": 1,
       "id": 31549303,
+      "kids": [
+        31549360
+      ],
       "score": 2,
       "text": "I&#x27;m impressed by the recent developments regarding Linux and audio production; I&#x27;ve been using Reaper, both the Windows version under WINE and the native Linux one for some time, and it works flawlessly with very low latency. Also there are some really good native Linux plugins around, and Windows one - including some very old ones that stopped working on Windows ages ago - run without (almost *) any problems using Yabridge. So the question is: why not creating a very minimal Linux distro dedicated only to run straight after the boot either a DAW and related plugins, or a plugin host? I mean it shouldn&#x27;t even have a desktop and most common applications, no browser etc. Just the bare minimum to run the audio, both native and WINE subsystem with the simplest window manager around. It should boot directly to the music software to minimize boot time, also handy should it crash in the middle of a gig. Anything like that in development?",
       "time": 1653833732,
@@ -25,7 +69,7 @@
       "by": "fartooreal",
       "descendants": 0,
       "id": 31549283,
-      "score": 5,
+      "score": 7,
       "time": 1653833626,
       "title": "Query SQLite and PostgreSQL Data via DuckDB",
       "type": "story",
@@ -58,41 +102,11 @@
       "kids": [
         31549287
       ],
-      "score": 2,
+      "score": 3,
       "time": 1653833298,
       "title": "Big Tech loves talking up privacy – while trying to kill privacy legislation",
       "type": "story",
       "url": "https://www.theregister.com/2022/05/27/big_tech_privacy/"
-    },
-    {
-      "by": "kikiodazie",
-      "descendants": 0,
-      "id": 31549236,
-      "score": 1,
-      "time": 1653833297,
-      "title": "How to create and apply a Git patch file with Git diff and Git apply commands",
-      "type": "story",
-      "url": "https://everythingdevops.dev/how-to-create-and-apply-a-git-patch-with-git-diff-and-git-apply-commands/"
-    },
-    {
-      "by": "LinuxBender",
-      "descendants": 0,
-      "id": 31549233,
-      "score": 2,
-      "time": 1653833266,
-      "title": "How to reprogram Apple AirTags, play custom sounds",
-      "type": "story",
-      "url": "https://www.theregister.com/2022/05/27/apple_airtag_sounds/"
-    },
-    {
-      "by": "leephillips",
-      "descendants": 0,
-      "id": 31549230,
-      "score": 2,
-      "time": 1653833214,
-      "title": "Why Should You Care About Elixir?",
-      "type": "story",
-      "url": "https://engineering.nanit.com/why-should-you-care-about-elixir-8eaec9c0d761?gi=b553bedbbcf9"
     }
   ]
 }
