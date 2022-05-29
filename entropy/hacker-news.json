@@ -1,10 +1,30 @@
 {
   "stories": [
     {
+      "by": "fartooreal",
+      "descendants": 0,
+      "id": 31549283,
+      "score": 2,
+      "time": 1653833626,
+      "title": "Query SQLite and PostgreSQL Data via DuckDB",
+      "type": "story",
+      "url": "https://pradeepchhetri.xyz/til/duckdbexternal/"
+    },
+    {
+      "by": "u1tron",
+      "descendants": 0,
+      "id": 31549256,
+      "score": 3,
+      "time": 1653833445,
+      "title": "Qubit teleportation between non-neighbouring nodes in a quantum network",
+      "type": "story",
+      "url": "https://www.nature.com/articles/s41586-022-04697-y"
+    },
+    {
       "by": "pmoriarty",
       "descendants": 0,
       "id": 31549238,
-      "score": 2,
+      "score": 4,
       "time": 1653833304,
       "title": "Setting Up a Pi Hole Made My Home Network Faster",
       "type": "story",
@@ -12,9 +32,12 @@
     },
     {
       "by": "LinuxBender",
-      "descendants": 0,
+      "descendants": 1,
       "id": 31549237,
-      "score": 1,
+      "kids": [
+        31549287
+      ],
+      "score": 2,
       "time": 1653833298,
       "title": "Big Tech loves talking up privacy – while trying to kill privacy legislation",
       "type": "story",
@@ -34,7 +57,7 @@
       "by": "LinuxBender",
       "descendants": 0,
       "id": 31549233,
-      "score": 1,
+      "score": 2,
       "time": 1653833266,
       "title": "How to reprogram Apple AirTags, play custom sounds",
       "type": "story",
@@ -67,7 +90,7 @@
       "kids": [
         31549213
       ],
-      "score": 2,
+      "score": 3,
       "time": 1653832944,
       "title": "Apple’s Hidden Flight Tracker App",
       "type": "story",
@@ -82,29 +105,6 @@
       "title": "ClojureScript: Differences from Clojure",
       "type": "story",
       "url": "https://clojurescript.org/about/differences"
-    },
-    {
-      "by": "memorable",
-      "descendants": 1,
-      "id": 31549168,
-      "kids": [
-        31549212
-      ],
-      "score": 2,
-      "time": 1653832710,
-      "title": "A calculator contained in an entire URL",
-      "type": "story",
-      "url": "https://itty.bitty.app/Calculator/#Calculator/data:text/html;charset=utf-8;base64,PHN0eWxlIHR5cGU9InRleHQvY3NzIj4KYm9keSB7bWFyZ2luOjR2bWluIGF1dG87IHdpZHRoOjc0dm1pbjsgYmFja2dyb3VuZDojZWVlOyBmb250LXNpemU6IDh2bWluOyBmb250LWZhbWlseTpzYW5zLXNlcmlmO30KaW5wdXQsIGRpdiB7IGhlaWdodDoyZW07ICBib3JkZXItcmFkaXVzOiAxZW07IGZvbnQtc2l6ZToxZW07fQppbnB1dCB7d2lkdGg6Ni44ZW07IHBhZGRpbmc6IDAgMWVtOyAgbWFyZ2luOjAgMC40ZW0gMC40ZW0gMDsgdGV4dC1hbGlnbjpyaWdodDsgYm9yZGVyOm5vbmU7fQpkaXYge3dpZHRoOjJlbTsgYmFja2dyb3VuZDojZmZmOyBib3JkZXI6bm9uZTsgbWFyZ2luOjAgMC40ZW0gMC40ZW0gMDsgZGlzcGxheTppbmxpbmUtYmxvY2s7IHRleHQtYWxpZ246Y2VudGVyOyBsaW5lLWhlaWdodDoyZW07fQpkaXY6YWN0aXZlIHtiYWNrZ3JvdW5kOnJlZDsgY29sb3I6d2hpdGU7fQpkaXY6bnRoLWNoaWxkKDVuICsgMikgeyBiYWNrZ3JvdW5kOiM0QTkwRTI7IGNvbG9yOndoaXRlOyBtYXJnaW4tcmlnaHQ6MDt9Cjwvc3R5bGU+CjxpbnB1dCB0eXBlPSJ0ZXh0Ij48ZGl2IG9uY2xpY2s9ImZpZWxkLnZhbHVlID0gJyciPkM8L2Rpdj48YnI+PGRpdj43PC9kaXY+PGRpdj44PC9kaXY+PGRpdj45PC9kaXY+PGRpdj7DtzwvZGl2Pjxicj48ZGl2PjQ8L2Rpdj48ZGl2PjU8L2Rpdj48ZGl2PjY8L2Rpdj48ZGl2PsOXPC9kaXY+PGJyPjxkaXY+MTwvZGl2PjxkaXY+MjwvZGl2PjxkaXY+MzwvZGl2PjxkaXY+LTwvZGl2Pjxicj48ZGl2Pi48L2Rpdj48ZGl2PjA8L2Rpdj48ZGl2IG9uY2xpY2s9ImZpZWxkLnZhbHVlID0gZXZhbChmaWVsZC52YWx1ZS5yZXBsYWNlKCfDtycsICcvJykucmVwbGFjZSgnw5cnLCAnKicpKSI+PTwvZGl2PjxkaXY+KzwvZGl2Pgo8c2NyaXB0IHR5cGU9InRleHQvamF2YXNjcmlwdCI+CnZhciBmaWVsZCA9IGRvY3VtZW50LnF1ZXJ5U2VsZWN0b3IoJ2lucHV0Jyk7CmRvY3VtZW50LnF1ZXJ5U2VsZWN0b3JBbGwoJ2RpdicpLmZvckVhY2goZnVuY3Rpb24oZGl2KSB7CiAgaWYgKCFkaXYub25jbGljaykgZGl2Lm9uY2xpY2sgPSBmdW5jdGlvbihkaXYpIHsgZmllbGQudmFsdWUgKz0gdGhpcy5pbm5lclRleHQ7IH0KfSk7Cjwvc2NyaXB0Pg=="
-    },
-    {
-      "by": "azhenley",
-      "descendants": 0,
-      "id": 31549139,
-      "score": 1,
-      "time": 1653832473,
-      "title": "WordBASIC",
-      "type": "story",
-      "url": "https://en.wikipedia.org/wiki/WordBASIC"
     }
   ]
 }
