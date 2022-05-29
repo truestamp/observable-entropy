@@ -1,6 +1,27 @@
 {
   "stories": [
     {
+      "by": "reesporte",
+      "descendants": 0,
+      "id": 31552933,
+      "score": 1,
+      "text": "Hey HN! I work on a database for my day-job and I realized I had never written one from scratch, so I wrote bugfruit! Once I was mostly satisfied with it, I looked up some benchmarks to compare my simple database to other brand name key-value stores. I was surprised to see that mine held up fairly well on the subset of benchmarks I replicated. So I used the Pavlo Database Naming System [0] to name it and open-sourced the code. I&#x27;d love to hear any feedback you might have on it!<p>[0] <a href=\"https:&#x2F;&#x2F;www.cs.cmu.edu&#x2F;~pavlo&#x2F;blog&#x2F;2020&#x2F;03&#x2F;on-naming-a-database-management-system.html\" rel=\"nofollow\">https:&#x2F;&#x2F;www.cs.cmu.edu&#x2F;~pavlo&#x2F;blog&#x2F;2020&#x2F;03&#x2F;on-naming-a-datab...</a>",
+      "time": 1653858850,
+      "title": "Show HN: Bugfruit – a simple embedded key-value store",
+      "type": "story",
+      "url": "https://github.com/reesporte/bugfruit"
+    },
+    {
+      "by": "maverickleopard",
+      "descendants": 0,
+      "id": 31552903,
+      "score": 1,
+      "time": 1653858657,
+      "title": "Decompiling stack strings in Ghidra with emulation",
+      "type": "story",
+      "url": "https://saml98.github.io/jekyll/update/2022/05/23/ghidra-stack-strings-emulation.html"
+    },
+    {
       "by": "tomohawk",
       "descendants": 0,
       "id": 31552868,
@@ -22,8 +43,11 @@
     },
     {
       "by": "giantg2",
-      "descendants": 0,
+      "descendants": 1,
       "id": 31552844,
+      "kids": [
+        31552931
+      ],
       "score": 1,
       "text": "I&#x27;m looking for resources about how to capture audio from multiple browser tabs simultaneously.<p>So far I have only been able to find stuff about using browser plug-ins that would require user intervention. I would want it to systematically capture 5 minutes or so, then start the next capture automatically.<p>If there&#x27;s not an easier way to do this, then maybe I can look into making a plug-in. But I&#x27;m really hoping there&#x27;s some other way. Thanks in advance for any suggestions.",
       "time": 1653858151,
@@ -67,7 +91,7 @@
       "by": "Austin_Conlon",
       "descendants": 0,
       "id": 31552795,
-      "score": 1,
+      "score": 2,
       "time": 1653857742,
       "title": "Clay court",
       "type": "story",
@@ -77,31 +101,11 @@
       "by": "ushakov",
       "descendants": 0,
       "id": 31552791,
-      "score": 1,
+      "score": 3,
       "time": 1653857719,
       "title": "Why the Fed wants corporate America to have a hiring freeze",
       "type": "story",
       "url": "https://finance.yahoo.com/news/why-the-fed-wants-corporate-america-to-have-a-hiring-freeze-morning-brief-100055174.html"
-    },
-    {
-      "by": "pure_simplicity",
-      "descendants": 0,
-      "id": 31552788,
-      "score": 1,
-      "text": "I&#x27;m looking for an application that is like graphviz&#x2F;dot, but for database schema visualization instead of graph visualization. Is there such an application? (preferably open source)<p>I&#x27;d like to use it with markdown to document code and application architecture, such that the schema definition can be text that is under version control and the generated image can be part of the rendered document.",
-      "time": 1653857679,
-      "title": "Ask HN: Is there an application similar to graphviz but for database schemas?",
-      "type": "story"
-    },
-    {
-      "by": "elorant",
-      "descendants": 0,
-      "id": 31552719,
-      "score": 2,
-      "time": 1653857167,
-      "title": "Barnes and Noble’s Nook GlowLight 4e is a cheaper option to the Kindle lineup",
-      "type": "story",
-      "url": "https://www.theverge.com/2022/5/27/23144365/barnes-and-noble-nook-glowlight-4e-e-reader-kindle"
     }
   ]
 }
