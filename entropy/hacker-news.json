@@ -1,9 +1,32 @@
 {
   "stories": [
     {
-      "by": "ckastner",
+      "by": "thunderbong",
       "descendants": 0,
+      "id": 31557809,
+      "score": 1,
+      "time": 1653909430,
+      "title": "Ffmpeg Buddy",
+      "type": "story",
+      "url": "https://evanhahn.github.io/ffmpeg-buddy/"
+    },
+    {
+      "by": "KelvinAnderson",
+      "descendants": 0,
+      "id": 31557804,
+      "score": 1,
+      "time": 1653909317,
+      "title": "Explore My Reddit Profile",
+      "type": "story",
+      "url": "https://old.reddit.com/user/kelvinsmith15/comments/v0xth5/emma_stewart/"
+    },
+    {
+      "by": "ckastner",
+      "descendants": 1,
       "id": 31557794,
+      "kids": [
+        31557813
+      ],
       "score": 1,
       "time": 1653909240,
       "title": "World’s First Exascale Supercomputer Powered by AMD EPYC and AMD Instinct",
@@ -79,26 +102,6 @@
       "title": "A couple more uses for generics in Go",
       "type": "story",
       "url": "https://www.brightbox.com/blog/2022/05/27/go-generics/"
-    },
-    {
-      "by": "etiam",
-      "descendants": 0,
-      "id": 31557667,
-      "score": 2,
-      "time": 1653908203,
-      "title": "Security and Human Behaviour 2022",
-      "type": "story",
-      "url": "https://www.lightbluetouchpaper.org/2022/05/30/security-and-human-behaviour-2022/"
-    },
-    {
-      "by": "heshiming",
-      "descendants": 0,
-      "id": 31557655,
-      "score": 1,
-      "text": "I worked for years as a freelance contractor in NLP. Clients and agencies generally consider sentiment analysis a simple matter. But the reality is off-the-shelf packages, like TextBlob are rule-based. When you put together an app, like a chatbot for customer services, they rarely work well. The cost to improve is nothing short of reinventing a new system, which most wouldn&#x27;t accept. Plus, the consensus is that people prefer self-hosted in-house solutions they can improve. Reasons to avoid sending texts to an external API are 1, privacy, and 2, per-call pricing.<p>So I have this idea. I create an open-source toolkit for sentiment analysis. It will be data-driven, not rule-based. So it can fit most use cases well. It&#x27;ll be a full package with GUI, for labeling, training, and an API server to self-host the model.<p>I keep a private repo of data to generate a good-enough model for a niche: customer service chatbots. A part of which is curated (scraped), and a part is labeled by myself. I sell a subscription to the model, during which period, I try to gather and label more data to improve the model. I can design the system to support partial training. That is, the customer can improve based on my model, using just hundreds of lines of their own data.<p>I figured if I priced it the right way (10-20% of hiring someone to create one), I can sell it to dev shops and agencies. I can go to Linkedin or Upwork to approach my customers.<p>Does this sound like a viable idea for a one-man shop?",
-      "time": 1653908105,
-      "title": "Ask HN: Open-source sentiment analysis toolkit, a valid small business idea?",
-      "type": "story"
     }
   ]
 }
