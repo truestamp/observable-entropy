@@ -1,6 +1,26 @@
 {
   "stories": [
     {
+      "by": "etiam",
+      "descendants": 0,
+      "id": 31557667,
+      "score": 1,
+      "time": 1653908203,
+      "title": "Security and Human Behaviour 2022",
+      "type": "story",
+      "url": "https://www.lightbluetouchpaper.org/2022/05/30/security-and-human-behaviour-2022/"
+    },
+    {
+      "by": "heshiming",
+      "descendants": 0,
+      "id": 31557655,
+      "score": 1,
+      "text": "I worked for years as a freelance contractor in NLP. Clients and agencies generally consider sentiment analysis a simple matter. But the reality is off-the-shelf packages, like TextBlob are rule-based. When you put together an app, like a chatbot for customer services, they rarely work well. The cost to improve is nothing short of reinventing a new system, which most wouldn&#x27;t accept. Plus, the consensus is that people prefer self-hosted in-house solutions they can improve. Reasons to avoid sending texts to an external API are 1, privacy, and 2, per-call pricing.<p>So I have this idea. I create an open-source toolkit for sentiment analysis. It will be data-driven, not rule-based. So it can fit most use cases well. It&#x27;ll be a full package with GUI, for labeling, training, and an API server to self-host the model.<p>I keep a private repo of data to generate a good-enough model for a niche: customer service chatbots. A part of which is curated (scraped), and a part is labeled by myself. I sell a subscription to the model, during which period, I try to gather and label more data to improve the model. I can design the system to support partial training. That is, the customer can improve based on my model, using just hundreds of lines of their own data.<p>I figured if I priced it the right way (10-20% of hiring someone to create one), I can sell it to dev shops and agencies. I can go to Linkedin or Upwork to approach my customers.<p>Does this sound like a viable idea for a one-man shop?",
+      "time": 1653908105,
+      "title": "Open-source sentiment analysis toolkit, a valid small business idea?",
+      "type": "story"
+    },
+    {
       "by": "hassanahmad",
       "descendants": 0,
       "id": 31557631,
@@ -79,30 +99,6 @@
       "title": "OSSInsight – Explore Deep in 4.6B GitHub Events",
       "type": "story",
       "url": "https://en.pingcap.com/blog/explore-deep-in-4-6-billion-github-events/"
-    },
-    {
-      "by": "tsujp",
-      "descendants": 2,
-      "id": 31557504,
-      "kids": [
-        31557645,
-        31557510
-      ],
-      "score": 1,
-      "time": 1653906823,
-      "title": "MonitorControl – Control your display's brightness like a native Apple Display",
-      "type": "story",
-      "url": "https://github.com/MonitorControl/MonitorControl"
-    },
-    {
-      "by": "kondor",
-      "descendants": 0,
-      "id": 31557497,
-      "score": 2,
-      "time": 1653906770,
-      "title": "TLA+ in Practice",
-      "type": "story",
-      "url": "https://medium.com/espark-engineering-blog/formal-methods-in-practice-8f20d72bce4f"
     }
   ]
 }
