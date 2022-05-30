@@ -1,10 +1,40 @@
 {
   "stories": [
     {
+      "by": "cosmorocket",
+      "descendants": 0,
+      "id": 31557569,
+      "score": 1,
+      "text": "Assume I am creating a webapp which can receive money from the users to their &quot;accounts&quot; in my system and send them out, something like a super simplified  version of a bank.<p>Are there any guides, practices to make it safe and properly? I see multiple ways of doing the same thing. For example, when a user puts in $10, then $3 then $7, then moves out $4, I can use a table in the database called balances and add or subtract a single number in the column - 0 + 10 + 3 + 7 - 4 = 16.<p>So, I keep in the column value of 16.<p>Another way is to add rows into a table called &quot;transactions&quot; and calculate the current balance every time I need it. In this case, if there are thousands of transaction for the user, I would need to calculate thousands of numbers every time I need to know balance.<p>I don&#x27;t want to reinvent the wheel so I would be happy to just have some guide of how these things are usually implemented even though I understand there is no such scenario as &quot;standard&quot; one and there are always myriads of small differences between different implementations.<p>In what direction should I look to understand how to build such a system in a better way and avoid mistakes?<p>Thanks!",
+      "time": 1653907384,
+      "title": "Ask HN: How to better implement a deposit/withdrawal tracking system?",
+      "type": "story"
+    },
+    {
+      "by": "Skinney",
+      "descendants": 0,
+      "id": 31557565,
+      "score": 1,
+      "time": 1653907334,
+      "title": "Gren 0.1.0, a new pure functional programming language, is released",
+      "type": "story",
+      "url": "https://gren-lang.org/news/220530_first_release/"
+    },
+    {
+      "by": "webmaven",
+      "descendants": 0,
+      "id": 31557551,
+      "score": 1,
+      "time": 1653907208,
+      "title": "When It Comes to Human Extinction, We Could Be Our Worst Enemy and Best Hope",
+      "type": "story",
+      "url": "https://www.cnet.com/culture/features/human-extinction-could-be-in-our-future/"
+    },
+    {
       "by": "webmaven",
       "descendants": 0,
       "id": 31557529,
-      "score": 2,
+      "score": 3,
       "time": 1653907033,
       "title": "World Builders Put Happy Face on Superintelligent AI",
       "type": "story",
@@ -75,36 +105,6 @@
       "title": "Mona Lisa gets caked by man disguised as old woman at the Louvre",
       "type": "story",
       "url": "https://www.marca.com/en/lifestyle/world-news/2022/05/29/6293b4df22601dc3408b45b6.html"
-    },
-    {
-      "by": "mmazzarolo",
-      "descendants": 0,
-      "id": 31557430,
-      "score": 3,
-      "time": 1653906320,
-      "title": "A Decade of Dotfiles",
-      "type": "story",
-      "url": "https://evanhahn.com/a-decade-of-dotfiles/"
-    },
-    {
-      "by": "marban",
-      "descendants": 0,
-      "id": 31557418,
-      "score": 1,
-      "time": 1653906259,
-      "title": "How to Develop Product Sense",
-      "type": "story",
-      "url": "https://www.lennysnewsletter.com/p/product-sense"
-    },
-    {
-      "by": "ItsTotallyOn",
-      "descendants": 0,
-      "id": 31557406,
-      "score": 1,
-      "time": 1653906139,
-      "title": "AMD-Powered Frontier Supercomputer Breaks Exascale Barrier, Now #1 in the World",
-      "type": "story",
-      "url": "https://www.tomshardware.com/news/amd-powered-frontier-supercomputer-breaks-the-exascale-barrier-now-fastest-in-the-world"
     }
   ]
 }
