@@ -1,6 +1,36 @@
 {
   "stories": [
     {
+      "by": "NickRandom",
+      "descendants": 0,
+      "id": 31568190,
+      "score": 1,
+      "time": 1653995408,
+      "title": "AI can track the health of coral reefs by learning the “song of the reef”",
+      "type": "story",
+      "url": "https://www.exeter.ac.uk/research/news/articles/ailearnscoralreefsong.html"
+    },
+    {
+      "by": "CHEF-KOCH",
+      "descendants": 0,
+      "id": 31568191,
+      "score": 1,
+      "time": 1653995408,
+      "title": "Steg Cloak – Hide secrets with invisible characters in plain text securely",
+      "type": "story",
+      "url": "https://stegcloak.surge.sh/"
+    },
+    {
+      "by": "valianka",
+      "descendants": 0,
+      "id": 31568189,
+      "score": 1,
+      "time": 1653995381,
+      "title": "Upcoming Webinar: Why a low-code strategy is essential for SaaS businesses",
+      "type": "story",
+      "url": "https://slingrhq.zoom.us/webinar/register/2516522814350/WN_x_3-3h-7Tvilz5xSjdt9mg"
+    },
+    {
       "by": "lproven",
       "descendants": 0,
       "id": 31568157,
@@ -15,7 +45,7 @@
       "descendants": 0,
       "id": 31568138,
       "score": 2,
-      "text": "I&#x27;m already feeling bad for creating yet another docker-related post but I figured f** it, I just don&#x27;t get the hang of it so somebody pls conclusively, once-and-for all, explain the need for and blessing of docker in a simple, fool-proof fashion:<p>What I did understand so far is &quot;Docker is useful if you have multiple applications with different versions of the same dependencies running on the same machine, as well as for deploying onto any machine&quot;.<p>MY QUESTION: Why don&#x27;t dynamically linked libraries (.dll) already solve this problem?<p>I come from the .NET world and there I can run any number of applications all with their respective dependencies, e.g. NuGet packages, as .dll files in their own isolated directories - doesn&#x27;t this already solve the problem of isolation and avoidance of dependency-conflicts?\nThis is also easy to ship to any machine as I just compile the whole thing for the respective architecture and then copy and paste it over, set it up as a service&#x2F;daemon, whatever.<p>To me a standalone application is simply a directory with an executable and all dependency-dlls in the same directory &#x2F; some subdirectory. This is already an isolated application, of which I can run multiple on the same system. Why do I need docker on top of that?<p>I am probably misunderstanding something fundamental here so for the 21375th time, what is an idiot-proof explanation for the need of docker in light of dlls?",
+      "text": "I&#x27;m already feeling bad for creating yet another docker-related post but I figured f** it, I just don&#x27;t get the hang of it so somebody pls conclusively, once-and-for all, explain the need for and blessing of docker in a simple, fool-proof fashion:<p>What I did understand so far is &quot;Docker is useful if you have multiple applications with different versions of the same dependencies running on the same machine, as well as for deploying onto any machine&quot;.<p>MY QUESTION: (Why) don&#x27;t dynamically linked libraries (.dll) already solve this problem?<p>I come from the .NET world and there I can run any number of applications all with their respective dependencies, e.g. NuGet packages, as .dll files in their own isolated directories - doesn&#x27;t this already solve the problem of isolation and avoid dependency-conflicts?\nThis is also easy to ship to any machine as I just compile the whole thing for the respective architecture and then copy and paste it over, set it up as a service&#x2F;daemon, whatever.<p>To me a standalone application is simply a directory with an executable and all dependency-dlls in the same directory &#x2F; some subdirectory. This is already a software-wise isolated application (obv not on the hardware side but lets leave that out for a second), of which I can run multiple on the same system. Why do I need docker on top of that?<p>I am probably misunderstanding something fundamental here so for the 21375th time, what is an idiot-proof explanation for the need of docker in light of dlls?",
       "time": 1653994971,
       "title": "Ask HN: Docker vs simple DLLs?",
       "type": "story"
@@ -69,36 +99,6 @@
       "title": "There's no such thing as a “JSON Object” (2010)",
       "type": "story",
       "url": "https://benalman.com/news/2010/03/theres-no-such-thing-as-a-json/"
-    },
-    {
-      "by": "ingve",
-      "descendants": 0,
-      "id": 31568091,
-      "score": 1,
-      "time": 1653994581,
-      "title": "Power on Tap: Dynamic control of P cores in M1 chips",
-      "type": "story",
-      "url": "https://eclecticlight.co/2022/05/31/power-on-tap-dynamic-control-of-p-cores-in-m1-chips/"
-    },
-    {
-      "by": "lnyan",
-      "descendants": 0,
-      "id": 31568090,
-      "score": 1,
-      "time": 1653994580,
-      "title": "FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness",
-      "type": "story",
-      "url": "https://github.com/HazyResearch/flash-attention"
-    },
-    {
-      "by": "ddtaylor",
-      "descendants": 0,
-      "id": 31568077,
-      "score": 1,
-      "time": 1653994509,
-      "title": "Section 215 Expires For Now (2015)",
-      "type": "story",
-      "url": "https://www.eff.org/deeplinks/2015/05/section-215-expires-now"
     }
   ]
 }
