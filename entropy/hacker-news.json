@@ -1,10 +1,40 @@
 {
   "stories": [
     {
+      "by": "unknownaccount",
+      "descendants": 0,
+      "id": 31576353,
+      "score": 1,
+      "text": "A recent post that has grained traction this afternoon is about a user who’s account was wrongfully terminated by Cloudflare due to  false positives, and his inability to get in touch with support through normal channels. As per usual, the Cloudflare PR spin doctors(who monitor HN for any mention of the company name using a script) quickly turned up in the thread and had the users account restored before they got too much bad press for their mistake.<p>However, the worst part of this fiasco, was that this thread shed light on a far more terrifying issue regarding CloudFlare. The problem is that allegedly when they terminate your account you are unable to transfer-out your domain names. Allegedly, and perhaps far more insidiously, CloudFlare sets them to “pendingdelete” status. Meaning not only can you not transfer out your domain to another registrar, but the domain will expire after a short period of time and can therefore be sniped by an unscrupulous third party.<p>This post is a warning to the community: DO NOT transfer any domain name to CloudFlare that is valuable or important to you. Because at any time, your account can be terminated for no reason (“false positives”) and you will not be able to transfer your domain to another registrar. You will probably be unable to get them to reinstate your account so that you can transfer-out your domain through the normal support channels because they totally stonewall you(&quot;The suspension is permanent and we will not be making changes on our end.&quot;). You would either need take them to court to get your domain name(but by then your domain may already be permanently deleted&#x2F;expired or sniped by a 3rd party) -OR- make a big stink on HN in order to summon someone with actual authority in the company who can remedy the situation.<p>Relevant thread: https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=31573854",
+      "time": 1654041203,
+      "title": "Tell HN: Cloudflare prevents transfer-out of domains, sets to 'pendingdelete'",
+      "type": "story"
+    },
+    {
+      "by": "papajams",
+      "descendants": 0,
+      "id": 31576350,
+      "score": 1,
+      "time": 1654041195,
+      "title": "Does Dunbar's Number Still Compute?",
+      "type": "story",
+      "url": "https://songcamp.mirror.xyz/NQsYzaHBbEmVymKPl-N3Mo9yupycYC9aOvnbEcwLqg4"
+    },
+    {
+      "by": "ohjeez",
+      "descendants": 0,
+      "id": 31576345,
+      "score": 1,
+      "time": 1654041130,
+      "title": "'Ebola is defeated,' says Congolese professor who discovered the virus",
+      "type": "story",
+      "url": "https://www.france24.com/en/africa/20210917-ebola-is-defeated-says-congolese-professor-who-discovered-the-virus"
+    },
+    {
       "by": "mcargian",
       "descendants": 0,
       "id": 31576318,
-      "score": 1,
+      "score": 2,
       "time": 1654040938,
       "title": "Why Are American Potato Chips So Boring?",
       "type": "story",
@@ -54,7 +84,7 @@
       "by": "davidbarker",
       "descendants": 0,
       "id": 31576194,
-      "score": 3,
+      "score": 5,
       "time": 1654039822,
       "title": "Elon Musk’s Neuralink is “bad science fiction” says brain science pioneer (2021)",
       "type": "story",
@@ -69,39 +99,6 @@
       "title": "All you need to know about Asterisks in Python – Bas codes",
       "type": "story",
       "url": "https://bas.codes/posts/python-asterisks/"
-    },
-    {
-      "by": "rbanffy",
-      "descendants": 0,
-      "id": 31576184,
-      "score": 1,
-      "time": 1654039750,
-      "title": "Underscoring (or dunder-scoring) the importance of native type methods in Python",
-      "type": "story",
-      "url": "https://stackoverflow.blog/2022/04/27/underscoring-or-dunder-scoring-the-importance-of-native-type-methods-in-python/"
-    },
-    {
-      "by": "ddeven96",
-      "descendants": 1,
-      "id": 31576176,
-      "kids": [
-        31576177
-      ],
-      "score": 1,
-      "time": 1654039704,
-      "title": "WhatsApp Media to Stickers",
-      "type": "story",
-      "url": "https://api.whatsapp.com/send/?phone=19293792260&text&app_absent=0"
-    },
-    {
-      "by": "zdw",
-      "descendants": 0,
-      "id": 31576141,
-      "score": 1,
-      "time": 1654039428,
-      "title": "Certificate Transparency data used to compromise WordPress before installation",
-      "type": "story",
-      "url": "https://www.feistyduck.com/bulletproof-tls-newsletter/issue_89_certificate_transparency_data_is_used_to_compromise_wordpress_before_installation"
     }
   ]
 }
