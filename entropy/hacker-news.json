@@ -1,14 +1,68 @@
 {
   "stories": [
     {
-      "by": "nihkolberg",
+      "by": "mbbrutman",
       "descendants": 0,
-      "id": 31570818,
+      "id": 31570876,
       "score": 1,
-      "time": 1654011620,
-      "title": "New Approaches to Visualizing the Placenta",
+      "text": "This is a follow-up to something I posted three weeks ago.  Ye old web server running the mTCP HTTP server on DOS has now passed 500 hours of runtime and it is still going, at least until the power glitches.  The stats so far:<p>Run-time: 505 hours\nTCP&#x2F;IP connections: 34230\nObjects served: 38865\nTCP Packets sent&#x2F;received: 996627, 889798\nAll packet types sent&#x2F;received: 1544807, 1671011<p>I started running it as a long term test of my TCP&#x2F;IP stack for DOS.  I need to eventually pull the logs from the machine to look for anomalies, but the code is certainly stable.  (I&#x27;m logging to both disk and over UDP so I can snoop in on the machine activity without having a monitor turned on.) \n While the machine is running I&#x27;m taking time to update the documentation.<p>The site is at <a href=\"http:&#x2F;&#x2F;brutmanlabs.org&#x2F;\" rel=\"nofollow\">http:&#x2F;&#x2F;brutmanlabs.org&#x2F;</a> .  I did not cache any files in memory, so please be patient with the initial page load.  The current server stats can be seen at <a href=\"http:&#x2F;&#x2F;brutmanlabs.org&#x2F;status\" rel=\"nofollow\">http:&#x2F;&#x2F;brutmanlabs.org&#x2F;status</a> .<p>Fun fact: you can &quot;hear&quot; vulnerability scans being run against the machine.  The machine beeps for each response served, and vulnerability scans generate 404s which are really quick to serve.  So a sequence of fast beeps is generally a vulnerability scan.",
+      "time": 1654011857,
+      "title": "Show HN: Hours so far on the 4.77Mhz DOS web server",
       "type": "story",
-      "url": "https://directorsblog.nih.gov/2022/05/31/visualizing-the-placenta-a-critical-but-poorly-understood-organ/"
+      "url": "http://brutmanlabs.org/"
+    },
+    {
+      "by": "anshu11",
+      "descendants": 0,
+      "id": 31570873,
+      "score": 1,
+      "text": "Hey guys,\nI was just wondering, if you guys face the same problem, or am I the only one with this problem.\nBasically, I find myself very difficult to get on-boarded or to on-board a new dev in a project. There are many challenges in it, like setting up multiple accounts for various tools around, like, a tool for\n- documenting business logic\n- API collection\n- db design\n- UI designs\n- store some important files, etc.\nI&#x27;ve read this somewhere as well as I feel the same that, on-boarding takes almost 53% of a developers time.\nI wanted to just...share the pain and start a discussion around the same (it can be a rant too )\nAlso, is there any tool which can solve this problem of ours?",
+      "time": 1654011846,
+      "title": "Asking for Tools that can solve onboarding issues",
+      "type": "story"
+    },
+    {
+      "by": "this-is-the-way",
+      "descendants": 1,
+      "id": 31570850,
+      "kids": [
+        31570851
+      ],
+      "score": 1,
+      "time": 1654011767,
+      "title": "A hacker's guide to mental clarity",
+      "type": "story",
+      "url": "https://telegra.ph/A-hackers-guide-to-mental-clarity-05-31"
+    },
+    {
+      "by": "johnnybaptist",
+      "descendants": 0,
+      "id": 31570848,
+      "score": 1,
+      "time": 1654011762,
+      "title": "Galea: VR Headset with Brain Computer Interface",
+      "type": "story",
+      "url": "https://galea.co/"
+    },
+    {
+      "by": "simonebrunozzi",
+      "descendants": 0,
+      "id": 31570847,
+      "score": 1,
+      "time": 1654011753,
+      "title": "Apple’s RealityOS for rumored headset appears in trademark application",
+      "type": "story",
+      "url": "https://www.theverge.com/2022/5/30/23147213/realityos-os-ros-trademark-apple-virtual-augmented-reality-headset"
+    },
+    {
+      "by": "coloradocolby",
+      "descendants": 0,
+      "id": 31570837,
+      "score": 1,
+      "time": 1654011678,
+      "title": "Show HN: Gh-eco – a GitHub extension to explore the ecosystem",
+      "type": "story",
+      "url": "https://github.com/coloradocolby/gh-eco"
     },
     {
       "by": "aydnina",
@@ -34,7 +88,7 @@
       "by": "raybb",
       "descendants": 0,
       "id": 31570744,
-      "score": 1,
+      "score": 2,
       "time": 1654011286,
       "title": "Smell Training",
       "type": "story",
@@ -44,68 +98,11 @@
       "by": "sebg",
       "descendants": 0,
       "id": 31570698,
-      "score": 3,
+      "score": 4,
       "time": 1654011074,
       "title": "The world has passed ‘peak agricultural land’",
       "type": "story",
       "url": "https://ourworldindata.org/peak-agriculture-land"
-    },
-    {
-      "by": "PaulHoule",
-      "descendants": 2,
-      "id": 31570690,
-      "kids": [
-        31570798,
-        31570727
-      ],
-      "score": 2,
-      "time": 1654011020,
-      "title": "Engineers enhance cannabis strain with 20% more THC",
-      "type": "story",
-      "url": "https://phys.org/news/2022-05-cannabis-strain-thc-medical-applications.html"
-    },
-    {
-      "by": "pgrote",
-      "descendants": 0,
-      "id": 31570674,
-      "score": 3,
-      "time": 1654010949,
-      "title": "You can no longer purchase Kindle books through the Amazon app on Android",
-      "type": "story",
-      "url": "https://www.theverge.com/2022/5/6/23060387/amazon-google-android-kindle-ebook-play-store"
-    },
-    {
-      "by": "sebg",
-      "descendants": 0,
-      "id": 31570672,
-      "score": 1,
-      "time": 1654010945,
-      "title": "Optimism Shapes Reality",
-      "type": "story",
-      "url": "https://alexw.substack.com/p/optimism-shapes-reality"
-    },
-    {
-      "by": "schneegansmarie",
-      "descendants": 0,
-      "id": 31570650,
-      "score": 1,
-      "time": 1654010866,
-      "title": "Motif adds support for Markdoc by Stripe",
-      "type": "story",
-      "url": "https://motif.land/"
-    },
-    {
-      "by": "max93",
-      "descendants": 1,
-      "id": 31570647,
-      "kids": [
-        31570795
-      ],
-      "score": 1,
-      "text": "Personal Blog: Have most control, but not sure if people can search it without seo. \nTwitter:I find many good original words on Twitter, but now sure if people can search the contents outside its ecosystem. \nMedium: I like it a lot but it seems favor longer articles only.  \nOther: ?",
-      "time": 1654010849,
-      "title": "Ask HN: Is Twitter still the best place to publish short original words?",
-      "type": "story"
     }
   ]
 }
