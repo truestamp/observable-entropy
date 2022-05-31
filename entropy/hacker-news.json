@@ -1,6 +1,56 @@
 {
   "stories": [
     {
+      "by": "bradstreet",
+      "descendants": 0,
+      "id": 31573315,
+      "score": 1,
+      "time": 1654022992,
+      "title": "We Are Not Living in a Simulation, We Are Living in the Past",
+      "type": "story",
+      "url": "https://theconvivialsociety.substack.com/p/we-are-not-living-in-a-simulation"
+    },
+    {
+      "by": "todsacerdoti",
+      "descendants": 0,
+      "id": 31573296,
+      "score": 1,
+      "time": 1654022898,
+      "title": "HPSS-Disassembly Progress Report (May 2022)",
+      "type": "story",
+      "url": "https://terinstock.com/post/2022/05/HPSS-Disassembly-Progress-Report-May-2022/"
+    },
+    {
+      "by": "feross",
+      "descendants": 0,
+      "id": 31573285,
+      "score": 1,
+      "time": 1654022828,
+      "title": "Russia Has Some Dollars Somewhere",
+      "type": "story",
+      "url": "https://www.bloomberg.com/opinion/articles/2022-05-31/russia-has-some-dollars-somewhere"
+    },
+    {
+      "by": "smarx",
+      "descendants": 0,
+      "id": 31573282,
+      "score": 3,
+      "time": 1654022806,
+      "title": "DALL-E 2 has a secret language",
+      "type": "story",
+      "url": "https://twitter.com/giannis_daras/status/1531693093040230402"
+    },
+    {
+      "by": "PaulHoule",
+      "descendants": 0,
+      "id": 31573277,
+      "score": 1,
+      "time": 1654022793,
+      "title": "Netflix U.S. weekly usage up in Q1, Amazon Prime drops",
+      "type": "story",
+      "url": "https://www.fiercevideo.com/video/netflix-us-weekly-users-q1-amazon-prime-drops"
+    },
+    {
       "by": "mindracer",
       "descendants": 0,
       "id": 31573260,
@@ -49,62 +99,6 @@
       "title": "Felt’s Public Beta, and a New $15M Round of Funding",
       "type": "story",
       "url": "https://felt.com/blog/public-beta-15m-series-a"
-    },
-    {
-      "by": "donutshop",
-      "descendants": 0,
-      "id": 31573171,
-      "score": 1,
-      "time": 1654022352,
-      "title": "Podcast outage caused by Spotify’s failure to renew security certificate",
-      "type": "story",
-      "url": "https://www.theverge.com/2022/5/31/23148682/spotify-podcast-outage-ssl-joe-rogan-ringer-megaphone"
-    },
-    {
-      "by": "zwilliamson",
-      "descendants": 1,
-      "id": 31573161,
-      "kids": [
-        31573162
-      ],
-      "score": 1,
-      "time": 1654022320,
-      "title": "Graham Hancock – The Amazon Mystery",
-      "type": "story",
-      "url": "https://grahamhancock.com/the-amazon-mystery/"
-    },
-    {
-      "by": "Tabular-Iceberg",
-      "descendants": 0,
-      "id": 31573155,
-      "score": 1,
-      "text": "Inspired by the Ask HN &quot;How to learn math from zero for adults?&quot;[1] I decided to brush up on my own skills as well. So I found my old high school textbook, opened it on the first chapter, which was about relations and functions, and my head immediately started spinning.<p>It defined a relation as &quot;any set of points on the Cartesian plane&quot;. Wait, what? Set, sure, but why points, and why plane, and why does the plane have to be Cartesian?<p>Then I went to my college textbook, which defined it as a &quot;property shared by two objects&quot;, and and that a relation between sets X and Y is a subset of the Cartesian product of sets X and Y, which sounds like a very roundabout way of saying that it&#x27;s a set of pairs, where one element is from X and the other from Y, but fine, I get it. Descartes is invoked in both definitions, not sure if it has any significance. Why pairs, though? Later it mentions relational databases as a practical applications of relations, where the relation is something two tables have in common that you would make a join on.<p>Of course, then I went to the actual database textbook, which instead says that it&#x27;s the tables themselves that are the relations, defining a relation as a set of n-tuples rather than a set of pairs. Does this madness ever end?<p>Wikipedia to the rescue! The disambiguation page for Relation[2] explains that there are finitary relations, of which binary relations is a special case. This is clearly what the first two textbooks are talking about. Would it have killed them to have called it a &quot;binary relation&quot; when defining it?<p>This is what I mean by overly narrow definitions. You could also say that they are appropriately scoped definitions with overly broad names.<p>This isn&#x27;t the first time I have this problem. All the way back in first grade I was sternly told by the teacher that you simply cannot subtract a larger number from a smaller one. Being a rather naughty child I got hold of my father&#x27;s desk calculator to see if entering a problem like that would break it. When it didn&#x27;t I confronted the teacher who just blew me off. I guess it&#x27;s hard to explain to a first grader that &quot;the subtraction of a larger number from a smaller is not defined for natural numbers&quot;, but at the very least she could have said &quot;that&#x27;s a negative number, we&#x27;ll deal with that next semester&quot;. I consider this general problem to be my mathematical nemesis.<p>It&#x27;s not that I don&#x27;t understand the reason why teachers and textbook authors do this. I think conventional maths education is optimised for maximum utility regardless of what level you get off on, not the fastest path to a maths Ph.D. Graduating from elementary school to go work in the coal mine or cotton mill knowing only esoteric set theory just isn&#x27;t very helpful. But do you need to know any maths for that? Or now that most of us stopped sending children to mines and mills and rather want them to become Silicon Valley wiz kids, maybe that&#x27;s what we need to start optimising for.<p>In my case I know exactly the level I want to get off on. Not Ph.D., but at least to have a passable grip on the things relevant as a software developer. So I wonder if there&#x27;s a more optimised way than conventional education. Maybe create a dependency graph of mathematical concepts, pick what I want to learn and then do a topological sort to get the order of prerequisites?<p>1. https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=31539549\n2. https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Relation#Mathematics",
-      "time": 1654022260,
-      "title": "Ask HN: How to approach overly narrow definitions as an adult learning math?",
-      "type": "story"
-    },
-    {
-      "by": "rntn",
-      "descendants": 1,
-      "id": 31573129,
-      "kids": [
-        31573179
-      ],
-      "score": 1,
-      "time": 1654022186,
-      "title": "Intel tackles GPU management ahead of Ponte Vecchio debut",
-      "type": "story",
-      "url": "https://www.theregister.com/2022/05/31/intel_xpu_manager/"
-    },
-    {
-      "by": "andrenth",
-      "descendants": 0,
-      "id": 31573112,
-      "score": 1,
-      "time": 1654022095,
-      "title": "The Road to Genocide",
-      "type": "story",
-      "url": "https://quillette.com/2022/05/31/the-road-to-genocide/"
     }
   ]
 }
