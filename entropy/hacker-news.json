@@ -1,6 +1,26 @@
 {
   "stories": [
     {
+      "by": "sohkamyung",
+      "descendants": 0,
+      "id": 31565595,
+      "score": 1,
+      "time": 1653964654,
+      "title": "How to Improve the Search for Aliens",
+      "type": "story",
+      "url": "https://www.economist.com/science-and-technology/2022/05/25/how-to-improve-the-search-for-aliens"
+    },
+    {
+      "by": "ddtaylor",
+      "descendants": 0,
+      "id": 31565585,
+      "score": 1,
+      "time": 1653964509,
+      "title": "New Solar Panel Design Uses Wasted Energy to Make Water from Air",
+      "type": "story",
+      "url": "https://www.cnet.com/home/energy-and-utilities/new-solar-panel-design-uses-wasted-energy-to-make-water-from-air/"
+    },
+    {
       "by": "pcr910303",
       "descendants": 0,
       "id": 31565584,
@@ -82,29 +102,6 @@
       "title": "Satoshi Nakamoto Is the Deep State",
       "type": "story",
       "url": "https://cryptofireside.com/satoshi-nakamoto-is-the-deep-state-78cc2a38f90d?gi=183492c0ac68"
-    },
-    {
-      "by": "raattgift",
-      "descendants": 0,
-      "id": 31565384,
-      "score": 4,
-      "time": 1653961662,
-      "title": "Unusual neutron star spinning every 76 seconds discovered in stellar graveyard",
-      "type": "story",
-      "url": "https://phys.org/news/2022-05-unusual-neutron-star-seconds-stellar.html"
-    },
-    {
-      "by": "monroewalker",
-      "descendants": 1,
-      "id": 31565383,
-      "kids": [
-        31565476
-      ],
-      "score": 2,
-      "text": "I have a simple Spring Boot app using Postgres that I&#x27;d like to deploy but I&#x27;m finding it to be surprisingly difficult to figure out where exactly it should be deployed. This is still just a hobby project so my biggest priorities are (1) low and capped cost and (2) ease of setup and deploy.<p>AWS was the first place I looked, but the pricing is pretty confusing so I&#x27;m not sure how I would guarantee that costs would stay below a certain amount. It also seems like there are a number of similar options to look at and it&#x27;s not clear to me which is best - EC2, Fargate, Beanstalk, App Runner...<p>Google Cloud also has a few options, the main two I&#x27;m aware of are Cloud Run and App Engine. Main concern here is again the potential for unintended costs. I&#x27;ve seen horror stories like &quot;We Burnt $72K testing Firebase + Cloud Run and almost went Bankrupt&quot; [1]. Of course that&#x27;s a fairly novel outcome, but it shouldn&#x27;t even be in the cards that charges exceed my intended cap.<p>I&#x27;ve heard good things here and elsewhere about DigitalOcean droplets and Render.com but is it really $20+&#x2F;mo for just 2gb of RAM? Not sure how much RAM I actually need though and the 512MB for the starter &#x2F; free tiers might be fine.<p>I&#x27;ve also heard a lot of praise for Heroku, though also that it&#x27;s been slowly going cold since getting acquired by Salesforce.<p>I&#x27;ve also heard people suggest just renting a dedicated server from places like https:&#x2F;&#x2F;www.hetzner.com&#x2F;, https:&#x2F;&#x2F;www.kimsufi.com&#x2F;us&#x2F;en&#x2F;index.xml, or https:&#x2F;&#x2F;lowendbox.com&#x2F;, though that seems like a good deal more work that I&#x27;m looking for as someone with minimal devops experience.<p>Right now I&#x27;m planning on just starting with the free tier for Render.com since that also seems like a convenient way to setup a cheap&#x2F;simple Postgres instance. Would otherwise go the same route with Heroku or DigitalOcean.<p>Are there any options I didn&#x27;t consider here? Anyone else have hobby&#x2F;POC&#x2F;low-scale Spring Boot deployments and like their setup?<p>[1] https:&#x2F;&#x2F;blog.tomilkieway.com&#x2F;72k-1&#x2F;",
-      "time": 1653961653,
-      "title": "Ask HN: Where to deploy a Spring Boot app with a fixed spending cap?",
-      "type": "story"
     }
   ]
 }
