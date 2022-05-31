@@ -1,6 +1,46 @@
 {
   "stories": [
     {
+      "by": "lproven",
+      "descendants": 0,
+      "id": 31568157,
+      "score": 1,
+      "time": 1653995088,
+      "title": "Sick of Windows but can't afford a Mac? The cynic's guide to desktop Linux",
+      "type": "story",
+      "url": "https://www.theregister.com/2022/05/31/the_cynics_guide_to_linux/"
+    },
+    {
+      "by": "jdthedisciple",
+      "descendants": 0,
+      "id": 31568138,
+      "score": 2,
+      "text": "I&#x27;m already feeling bad for creating yet another docker-related post but I figured f** it, I just don&#x27;t get the hang of it so somebody pls conclusively, once-and-for all, explain the need for and blessing of docker in a simple, fool-proof fashion:<p>What I did understand so far is &quot;Docker is useful if you have multiple applications with different versions of the same dependencies running on the same machine, as well as for deploying onto any machine&quot;.<p>MY QUESTION: Why don&#x27;t dynamically linked libraries (.dll) already solve this problem?<p>I come from the .NET world and there I can run any number of applications all with their respective dependencies, e.g. NuGet packages, as .dll files in their own isolated directories - doesn&#x27;t this already solve the problem of isolation and avoidance of dependency-conflicts?\nThis is also easy to ship to any machine as I just compile the whole thing for the respective architecture and then copy and paste it over, set it up as a service&#x2F;daemon, whatever.<p>To me a standalone application is simply a directory with an executable and all dependency-dlls in the same directory &#x2F; some subdirectory. This is already an isolated application, of which I can run multiple on the same system. Why do I need docker on top of that?<p>I am probably misunderstanding something fundamental here so for the 21375th time, what is an idiot-proof explanation for the need of docker in light of dlls?",
+      "time": 1653994971,
+      "title": "Ask HN: Docker vs simple DLLs?",
+      "type": "story"
+    },
+    {
+      "by": "nanna",
+      "descendants": 0,
+      "id": 31568136,
+      "score": 1,
+      "time": 1653994960,
+      "title": "Xapian Users",
+      "type": "story",
+      "url": "https://xapian.org/users"
+    },
+    {
+      "by": "makaimc",
+      "descendants": 0,
+      "id": 31568132,
+      "score": 1,
+      "time": 1653994924,
+      "title": "Bridging the chasm between robotics data and computer vision workflows",
+      "type": "story",
+      "url": "https://medium.com/caliber-data-labs/bridging-the-chasm-between-massive-robotics-data-and-computer-vision-workflows-3861e9eb55db"
+    },
+    {
       "by": "Odb7152",
       "descendants": 0,
       "id": 31568103,
@@ -59,49 +99,6 @@
       "title": "Section 215 Expires For Now (2015)",
       "type": "story",
       "url": "https://www.eff.org/deeplinks/2015/05/section-215-expires-now"
-    },
-    {
-      "by": "qubit0ne",
-      "descendants": 0,
-      "id": 31568059,
-      "score": 2,
-      "time": 1653994298,
-      "title": "Lisp Interpreter in a browser using WASM",
-      "type": "story",
-      "url": "https://vishpat.github.io/lisp-rs-wasm/"
-    },
-    {
-      "by": "apeshkov",
-      "descendants": 0,
-      "id": 31568010,
-      "score": 1,
-      "time": 1653993931,
-      "title": "Messenger for Inter-Business Communication",
-      "type": "story",
-      "url": "https://takle.app"
-    },
-    {
-      "by": "phoebos",
-      "descendants": 1,
-      "id": 31568005,
-      "kids": [
-        31568048
-      ],
-      "score": 1,
-      "time": 1653993897,
-      "title": "DuskOS",
-      "type": "story",
-      "url": "https://git.sr.ht/~vdupras/duskos"
-    },
-    {
-      "by": "garyclarke27",
-      "descendants": 0,
-      "id": 31567969,
-      "score": 2,
-      "time": 1653993501,
-      "title": "World-first nasal drops that reversed little Senna's brain damage",
-      "type": "story",
-      "url": "https://www.dailymail.co.uk/health/article-10869043/World-nasal-drops-reversed-little-Sennas-brain-damage.html"
     }
   ]
 }
