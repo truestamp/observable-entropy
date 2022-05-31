@@ -1,10 +1,20 @@
 {
   "stories": [
     {
+      "by": "matsemann",
+      "descendants": 0,
+      "id": 31567622,
+      "score": 1,
+      "time": 1653990279,
+      "title": "Our call for the regulation of loot boxes",
+      "type": "story",
+      "url": "https://www.forbrukerradet.no/siste-nytt/our-call-for-the-regulation-of-loot-boxes/"
+    },
+    {
       "by": "RafelMri",
       "descendants": 0,
       "id": 31567584,
-      "score": 1,
+      "score": 2,
       "time": 1653989984,
       "title": "AI-generated images could make it almost impossible to detect fake papers",
       "type": "story",
@@ -32,10 +42,13 @@
     },
     {
       "by": "noduerme",
-      "descendants": 0,
+      "descendants": 1,
       "id": 31567567,
-      "score": 1,
-      "text": "I&#x27;ve been a skeptic of AI replacing top-level art directors, designers, illustrators, SWEs, etc. for a long time, because I think it can copy well but can&#x27;t <i>create</i> or <i>interpret</i>.<p>Today was my first full day of coding inducted into Copilot. I know a lot of you folks have had the fun of playing with it for a long time.<p>I have a particular way of writing code after 25 years, certain idiosyncrasies. Just as a cheap shot example, I write mysql queries in PHP by defining the whole string first as a variable named $someQ = &quot;SELECT * FROM table WHERE id=:id;&quot; and then, rather than binding the variables, I prefer to compile the query as $someZ = $conn-&gt;prepare($someQ); and then $someZ-&gt;execute(array(&quot;:id&quot;=&gt;$id)).<p>This isn&#x27;t a usual way of doing things. Copilot tried to bind the vars the first time I did it. The second time, it set up the array. The third time, when I wrote $insQ as the name of the an insertion string, and $insZ as the query that would execute it, <i>Copilot wrote $updQ and $updZ by itself as the names of variables for the update string and update query</i>. It stopped trying to bind vars and inserted them into the execute statement. It guessed contextually almost 100% which vars I wanted to bind. This was beyond magic; obviously it read a huge amount of unrelated code in my stack to come to those conclusions from this one small file. But no one besides me uses this naming convention.<p>It was magic; scary magic.<p>I spent my evening shooting pool and drinking with bar friends; one&#x27;s an ex-marine who works for the government and another&#x27;s a guy who manages ops and software for a small company. They&#x27;re lamenting that it&#x27;s impossible in this country for anyone to make enough to afford an apartment. This never seemed hard to me. I just wrote code and got paid a lot for being good at it. Or I made graphics that could probably now be done by DALL-E.<p>It&#x27;s been my opinion for awhile that consumers and users of software were <i>redundant</i>. Maybe now we&#x27;re redundant, too. But in that case, who is talking to whom? What human born today has the experience of struggling to learn something, and what would they accomplish if they did learn it if a giant cloud filter could already translate their thoughts into art or code that would take them years of experience to comprehend, let alone write for themselves?<p>Are we the last generation to learn <i>skills</i>? And what happens when everyone&#x27;s skill set is just telling a cloud filter what to make for them? Will that be okay...?<p>I feel like this is fundamentally different from the shift from Assembly to C to BASIC to Java or the fact that coders now don&#x27;t think in terms of the metal. This is not &quot;clip art&quot; taking over the illustration space.<p>I feel like I&#x27;ve woken up halfway through a wholesale replacement of all creative industries with robots, at a point where all consumers (or measurements of consumers) have been fully replaced by robots. Having been in a niche for so long, I ignored it and thought that it would never be a real threat. I&#x27;m admitting now that it is.<p>Where do we go from here? How do we avoid a dead creative class spamming dead code and dead art to an already-dead consumer internet?",
+      "kids": [
+        31567608
+      ],
+      "score": 2,
+      "text": "I&#x27;ve been a skeptic of AI replacing top-level art directors, designers, illustrators, SWEs, etc. for a long time, because I think it can copy well but can&#x27;t <i>create</i> or <i>interpret</i>.<p>Today was my first full day of coding inducted into Copilot. I know a lot of you folks have had the fun of playing with it for a long time.<p>I have a particular way of writing code after 25 years, certain idiosyncrasies. Just as a cheap shot example, I write mysql queries in PHP by defining the whole string first as a variable named $someQ = &quot;SELECT * FROM table WHERE id=:id;&quot; and then, rather than binding the variables, I prefer to compile the query as $someZ = $conn-&gt;prepare($someQ); and then $someZ-&gt;execute(array(&quot;:id&quot;=&gt;$id)).<p>This isn&#x27;t a usual way of doing things. Copilot tried to bind the vars the first time I did it. The second time, it set up the array. The third time, when I wrote $insQ as the name of the an insertion string, and $insZ as the query that would execute it, <i>Copilot wrote $updQ and $updZ by itself as the names of variables for the update string and update query</i>. For the record, I checked and I&#x27;ve never named a variable $updQ or $updZ... I usually use $uQ and $uZ. It made that up. It stopped trying to bind vars and inserted them into the execute statement. It guessed contextually almost 100% which vars I wanted to bind. This was beyond magic; obviously it read a huge amount of unrelated code in my stack to come to those conclusions from this one small file. But no one besides me uses this naming convention.<p>It was magic; scary magic.<p>I spent my evening shooting pool and drinking with bar friends; one&#x27;s an ex-marine who works for the government and another&#x27;s a guy who manages ops and software for a small company. They&#x27;re lamenting that it&#x27;s impossible in this country for anyone to make enough to afford an apartment. This never seemed hard to me. I just wrote code and got paid a lot for being good at it. Or I made graphics that could probably now be done by DALL-E.<p>It&#x27;s been my opinion for awhile that consumers and users of software were <i>redundant</i>. Maybe now we&#x27;re redundant, too. But in that case, who is talking to whom? What human born today has the experience of struggling to learn something, and what would they accomplish if they did learn it if a giant cloud filter could already translate their thoughts into art or code that would take them years of experience to comprehend, let alone write for themselves?<p>Are we the last generation to learn <i>skills</i>? And what happens when everyone&#x27;s skill set is just telling a cloud filter what to make for them? Will that be okay...?<p>I feel like this is fundamentally different from the shift from Assembly to C to BASIC to Java or the fact that coders now don&#x27;t think in terms of the metal. This is not &quot;clip art&quot; taking over the illustration space.<p>I feel like I&#x27;ve woken up halfway through a wholesale replacement of all creative industries with robots, at a point where all consumers (or measurements of consumers) have been fully replaced by robots. Having been in a niche for so long, I ignored it and thought that it would never be a real threat. I&#x27;m admitting now that it is.<p>Where do we go from here? How do we avoid a dead creative class spamming dead code and dead art to an already-dead consumer internet?",
       "time": 1653989776,
       "title": "Ask HN: Will creative people have jobs in 10 years?",
       "type": "story"
@@ -89,16 +102,6 @@
       "title": "MoneyGram CEO Sees a Future in Stablecoin Remittances with USDC and Stellar",
       "type": "story",
       "url": "https://www.bloomberg.com/news/articles/2022-05-29/moneygram-ceo-sees-a-future-in-stablecoin-remittances"
-    },
-    {
-      "by": "pseudolus",
-      "descendants": 0,
-      "id": 31567513,
-      "score": 1,
-      "time": 1653989093,
-      "title": "Starting over When You Think It’s Too Late",
-      "type": "story",
-      "url": "https://www.theatlantic.com/podcasts/archive/2022/05/midlife-crisis-job-change-happiness/639432/"
     }
   ]
 }
