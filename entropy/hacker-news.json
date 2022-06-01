@@ -1,5 +1,86 @@
 {
   "stories": [
+    null,
+    {
+      "by": "jcslzr",
+      "descendants": 0,
+      "id": 31580853,
+      "score": 1,
+      "time": 1654086520,
+      "title": "How Uncle Sam Is Skimming over $1T from Investors This Year",
+      "type": "story",
+      "url": "https://www.youtube.com/watch?v=oYDJv0o1nMo"
+    },
+    {
+      "by": "CHEF-KOCH",
+      "descendants": 0,
+      "id": 31580849,
+      "score": 1,
+      "time": 1654086508,
+      "title": "CPUPower-GUI – Graphical Interface to Control CPU Power on Linux",
+      "type": "story",
+      "url": "https://github.com/vagnum08/cpupower-gui"
+    },
+    {
+      "by": "ng-user",
+      "descendants": 0,
+      "id": 31580842,
+      "score": 1,
+      "text": "I work for a large (~10k) organization that obviously interacts with a number of different systems&#x2F;applications on a daily basis. The average employee likely has 10-20 (hopefully) different sets of credentials that they must maintain and update as necessary - I can only imagine there are a variety of Password, Password1, Password12 combinations in use.<p>I&#x27;m curious if anyone has experience with an enterprise&#x2F;corporate level password manager. Ideally, it would be tied to the user&#x27;s AD profile so when they log in to Windows they would just need to enter their master password and it would integrate with the browser to prefill passwords just like 1Password, or BitWarden.<p>Looking at 1Password&#x27;s website, it&#x27;s 7.99 USD per user&#x2F;month which gets very pricey with 10k users. I&#x27;m curious what other folks on HN are using. I appreciate your feedback!",
+      "time": 1654086460,
+      "title": "Ask HN: Does your org use a password keeper?",
+      "type": "story"
+    },
+    {
+      "by": "ashitlerferad",
+      "descendants": 0,
+      "id": 31580839,
+      "score": 1,
+      "time": 1654086448,
+      "title": "Sony vows to ramp up PS5 production to levels 'never achieved before'",
+      "type": "story",
+      "url": "https://www.engadget.com/sony-ramp-up-ps5-production-113543289.html"
+    },
+    {
+      "by": "cathanasiou",
+      "descendants": 0,
+      "id": 31580837,
+      "score": 1,
+      "time": 1654086442,
+      "title": "Lined Pages for Low Content Books |Amazon KDP, KDP Interior Templates",
+      "type": "story",
+      "url": "https://www.etsy.com/listing/1139032632/lined-pages-for-low-content-books-bundle"
+    },
+    {
+      "by": "coward-guy",
+      "descendants": 0,
+      "id": 31580836,
+      "score": 1,
+      "time": 1654086435,
+      "title": "Ukraine Official Fired over Handling of Russian Sexual Assault Claims",
+      "type": "story",
+      "url": "https://www.newsweek.com/lyudmila-denisova-ukraine-commissioner-human-rights-removed-russian-sexual-assault-claims-1711680"
+    },
+    {
+      "by": "webmaven",
+      "descendants": 0,
+      "id": 31580815,
+      "score": 1,
+      "time": 1654086313,
+      "title": "What's the oldest tree on Earth–and will it survive climate change?",
+      "type": "story",
+      "url": "https://www.nationalgeographic.com/environment/article/whats-the-oldest-tree-on-earth-and-will-it-survive-climate-change"
+    },
+    {
+      "by": "ddtaylor",
+      "descendants": 0,
+      "id": 31580814,
+      "score": 1,
+      "time": 1654086309,
+      "title": "US quits Paris climate pact (2017)",
+      "type": "story",
+      "url": "https://www.bbc.co.uk/news/live/world-us-canada-40123293"
+    },
     {
       "by": "loudtdarrow",
       "descendants": 0,
@@ -9,96 +90,6 @@
       "title": "The Navy Seal–Ification of Nerf Guns",
       "type": "story",
       "url": "https://nymag.com/intelligencer/2022/03/nerf-guns.html"
-    },
-    {
-      "by": "james_impliu",
-      "descendants": 0,
-      "id": 31580781,
-      "score": 2,
-      "time": 1654086077,
-      "title": "World's biggest plant discovered",
-      "type": "story",
-      "url": "https://www.bbc.co.uk/news/world-australia-61655327"
-    },
-    {
-      "by": "aruanavekar",
-      "descendants": 0,
-      "id": 31580778,
-      "score": 1,
-      "time": 1654086067,
-      "title": "Robot orders surge again in Q1 as tech grows more affordable, usable",
-      "type": "story",
-      "url": "https://www.dcvelocity.com/articles/54712-robot-orders-surge-again-in-q1-as-tech-grows-more-affordable-usable"
-    },
-    {
-      "by": "memorable",
-      "descendants": 0,
-      "id": 31580773,
-      "score": 1,
-      "time": 1654086038,
-      "title": "Plastic Model: A beautiful game about model building [video]",
-      "type": "story",
-      "url": "https://www.youtube.com/null"
-    },
-    {
-      "by": "picozeta",
-      "descendants": 0,
-      "id": 31580763,
-      "score": 1,
-      "text": "Arguable the goals of DevOps align partly with the goals of system administrators in former days: Provide reliable compute infrastructure for<p><pre><code>  1) internal users: mainly developers by providing CI&#x2F;CD\n  2) external users: end users\n</code></pre>\nNowadays we call people that do 1) DevOps and people that do 2) SREs (so one could argue that the role of sys admins just got more specialized).<p>The platform of choice is mostly Kubernetes these days, which promises among other things stuff like<p><pre><code>  - load balancing\n  - self-healing\n  - rollbacks&#x2F;rollouts\n  - config management\n</code></pre>\nBefore the cloud days, this stuff has been implemented using a conglomerate of different software and shell scripts, issued at dedicated &quot;pet&quot; servers.<p>In particular, a main critic is &quot;state&quot; and the possibility to change that state by e.g. messing with config files via SSH, which makes running and maintaining these servers more error-prone.<p>However, my main question is:<p>&quot;If this old way of doing things is so error-prone, and it&#x27;s easier to use declarative solutions like Kubernetes, why does the solution seem to need sooo much work that the role of DevOps seems to dominate IT related job boards? Shouldn&#x27;t Kubernetes <i>reduce</i> the workload and need <i>less</i> men power?&quot;<p>Don&#x27;t get me wrong, the old way does indeed look messy, I am just wondering why there is a need for so much dev ops nowadays ...<p>Thanks for your answers.",
-      "time": 1654085983,
-      "title": "Ask HN: If Kubernetes is the solution, why are there so many DevOps jobs?",
-      "type": "story"
-    },
-    {
-      "by": "marcodiego",
-      "descendants": 0,
-      "id": 31580762,
-      "score": 1,
-      "time": 1654085980,
-      "title": "Dmtcp: Distributed MultiThreaded CheckPointing",
-      "type": "story",
-      "url": "https://dmtcp.sourceforge.io/"
-    },
-    {
-      "by": "pcaversaccio",
-      "descendants": 0,
-      "id": 31580756,
-      "score": 1,
-      "time": 1654085938,
-      "title": "Microsoft Office zero-day vulnerability",
-      "type": "story",
-      "url": "https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2022-30190"
-    },
-    {
-      "by": "freeCandy",
-      "descendants": 0,
-      "id": 31580749,
-      "score": 3,
-      "time": 1654085888,
-      "title": "Not Bionic Reading",
-      "type": "story",
-      "url": "https://not-br.neocities.org/"
-    },
-    {
-      "by": "EntICOnc",
-      "descendants": 0,
-      "id": 31580730,
-      "score": 1,
-      "time": 1654085767,
-      "title": "A Garbage-Collected Heap in C++, Shaped Like Typed Python",
-      "type": "story",
-      "url": "https://www.oilshell.org/blog/2022/05/gc-heap.html"
-    },
-    {
-      "by": "rdpintqogeogsaa",
-      "descendants": 0,
-      "id": 31580729,
-      "score": 1,
-      "time": 1654085761,
-      "title": "The Law of Strict Licenses",
-      "type": "story",
-      "url": "https://gavinhoward.com/2022/01/the-law-of-strict-licenses/"
     }
   ]
 }
