@@ -1,6 +1,39 @@
 {
   "stories": [
     {
+      "by": "Liriel",
+      "descendants": 0,
+      "id": 31579136,
+      "score": 1,
+      "time": 1654068899,
+      "title": "Open source edge detection with OpenCV and Pachyderm",
+      "type": "story",
+      "url": "https://developers.redhat.com/articles/2022/06/01/open-source-edge-detection-opencv-and-pachyderm"
+    },
+    {
+      "by": "sargstuff",
+      "descendants": 1,
+      "id": 31579128,
+      "kids": [
+        31579129
+      ],
+      "score": 1,
+      "time": 1654068795,
+      "title": "Escher Circuits (& Applications Links)",
+      "type": "story",
+      "url": "https://esoteric.codes/blog/escher-circuits-using-vision-to-perform-computation"
+    },
+    {
+      "by": "tlandeka",
+      "descendants": 0,
+      "id": 31579121,
+      "score": 2,
+      "time": 1654068674,
+      "title": "Domain-Driven Design – art of writing a good code (production ready example)",
+      "type": "story",
+      "url": "https://github.com/tlandeka/authentication-microservice-with-domain-driven-design"
+    },
+    {
       "by": "hunglee2",
       "descendants": 0,
       "id": 31579110,
@@ -25,7 +58,7 @@
       "descendants": 0,
       "id": 31579099,
       "score": 1,
-      "text": "After we have built out plenty of solar and wind generation capacity, and we have enough of both to supply users <i>and</i> charge up storage at the same time, we are going to need cheap and capacious energy storage for nights and maybe a becalmed week. (Before that point, you would need to charge from fossil fuels, which would be obviously harmful.) For longer spells, you would buy synthetic fuel from the tropics, so a week&#x27;s storage is plenty.<p>In principle, energy storage is super simple. You charge batteries, E = IVt, pump fluid or air against pressure, E = PAx, or lift mass, E = mgh, or electrically dissociate atoms that would love to get back together. You have myriad choices, only a few of which will be cheapest, on some axes: cheapest to build, to put energy into, to get it back out of, to <i>keep</i> it in, or that do something useful and revenue-producing after you have stored enough for local needs.<p>But when I read about alternatives, the description is often a foolishly expensive version. (I&#x27;m not even counting out-and-out scams like Energy Vault, which IPOed at $2B with no working prototype, and now promotes a condo for concrete blocks. I swear I am not making this up!)<p>Batteries are expensive, though costs are still falling fast. Various chemistries are competing, with iron-air and molten metal most promising. Whichever wins, their cost is linear in the MWh you want to store, so you won&#x27;t want much of those.<p>Synthetic ammonia and hydrogen are attractive because (liquified) tankage is very cheap, you can burn them in existing combined-cycle plants, and there is unlimited market for the stuff, worldwide, after your tanks are full. Cost of efficient synthesis equipment is still high, but falling fast.<p>Pumped hydro is very mature, and practical in many, many more places than regular hydro because it doesn&#x27;t need a watershed, just a hill with a depression or, in a pinch, a dike.<p>You can pump air into an underground cavity and release it through a turbine, optionally spiced with fuel. This called CAES, and is mature but has not been used much, so far.<p>Liquifying nitrogen is very mature tech, and is similar to compressed air but doesn&#x27;t need pressure vessels for storage. LN2 is valuable industrially, so a revenue source like synthetic fuel. You boil it in ambient air or waste heat to drive a turbine.<p>There are a variety of undersea schemes that take advantage of pumping against high ocean-bottom pressure. Often these can be adapted to under-water-table.<p>But reading further, they seem always to put big electric motor&#x2F;generators, pumps, and turbines on or even under the sea floor, inaccessible, when there is always a simple variation that keeps all the expensive stuff onshore where it can be worked on.<p>Why not, if you are going to attach a pressure vessel to the sea floor, just run a hose down to pump air in and push water out, with a pump onshore that you could share among as many chambers as you like just by switching valves, instead of building a pump and turbine into each one at the bottom? Or if you want to pump water out of a vacuum vessel, run a pipe down to it, likewise. To store power using buoyancy of floats dragged down to the sea floor, why not put just a pulley on the bottom, cabled to a winch onshore? You could attach as many floats as you like to the cable, like grapes.<p>Is there maybe a place where people could post their crack-brained energy storage ideas for practical-minded folks to simplify into usable form before they are pitched to investors? Maybe really stupid ideas like Energy Vault could be identified early before they can steal capital from the innumerate.",
+      "text": "After we have built out plenty of solar and wind generation capacity, and we have enough of both to supply users <i>and</i> charge up storage at the same time, we are going to need cheap and capacious energy storage for nights and maybe a becalmed week. (Before that point, you would need to charge from fossil fuels, which would be obviously harmful.) For longer spells, you would buy synthetic fuel from the tropics, so a week&#x27;s storage is plenty.<p>In principle, energy storage is super simple. You charge batteries, E = IVt, pump fluid or air against pressure, E = PAx, or lift mass, E = mgh, or electrically dissociate atoms that would love to get back together. You have myriad choices, only a few of which will be cheapest, on some axes: cheapest to build, to put energy into, to get it back out of, to <i>keep</i> it in, or that do something useful and revenue-producing after you have stored enough for local needs.<p>But when I read about alternatives, the description is often a foolishly expensive version. (I&#x27;m not even counting out-and-out scams like Energy Vault, which IPOed at $2B with no working prototype, and now promotes a condo for concrete blocks. I swear I am not making this up!)<p>Batteries are expensive, though costs are still falling fast. Various chemistries are competing, with iron-air and molten metal most promising. Whichever wins, their cost is linear in the MWh you want to store, so you won&#x27;t want much of those.<p>Synthetic ammonia and hydrogen are attractive because (liquified) tankage is very cheap, you can burn them in existing combined-cycle plants, and there is unlimited market for the stuff, worldwide, after your tanks are full. Cost of efficient synthesis equipment is still high, but falling fast.<p>Pumped hydro is very mature, and practical in many, many more places than regular hydro because it doesn&#x27;t need a watershed, just a hill with a depression or, in a pinch, a dike.<p>You can pump air into an underground cavity and release it through a turbine, optionally spiced with fuel. This called CAES, and is mature but has not been used much, so far.<p>Liquifying nitrogen is very mature tech, and is similar to compressed air but doesn&#x27;t need pressure vessels for storage. LN2 is valuable industrially, so a revenue source like synthetic fuel. You boil it in ambient air or waste heat to drive a turbine.<p>There are a variety of undersea schemes that take advantage of pumping against high ocean-bottom pressure. Often these can be adapted to under-water-table.<p>But reading further, they seem always to put big electric motor&#x2F;generators, pumps, and turbines on or even under the sea floor, inaccessible, when there is always a simple variation that keeps all the expensive stuff onshore where it can be worked on.<p>Why not, if you are going to attach a pressure vessel to the sea floor, just run a hose down to pump air in and push water out, with a pump onshore that you could share among as many vessels as you like just by switching valves, instead of building a pump and turbine into each one at the bottom? Or if you want to pump water out of a vacuum chamber, run a pipe down to it, likewise. To store power using buoyancy of floats dragged down to the sea floor, why not put just a pulley on the bottom, cabled to a winch onshore? You could attach as many floats as you like to the cable, like grapes.<p>Is there maybe a place where people could post their crack-brained energy storage ideas for practical-minded folks to simplify into usable form before they are pitched to investors? Maybe really stupid ideas like Energy Vault could be identified early before they can steal capital from the innumerate.",
       "time": 1654068451,
       "title": "Ask HN: Why Impractical Energy Storage?",
       "type": "story"
@@ -41,19 +74,6 @@
       "time": 1654068304,
       "title": "Ask HN: Why do phone networks not connect simultaneous dialers?",
       "type": "story"
-    },
-    {
-      "by": "grabstuffs",
-      "descendants": 1,
-      "id": 31579081,
-      "kids": [
-        31579082
-      ],
-      "score": 1,
-      "time": 1654068248,
-      "title": "Mohsen Motamedian Export Businessman – Max Motamedian USA",
-      "type": "story",
-      "url": "http://mohsenmotamedian.net/"
     },
     {
       "by": "theochampion",
@@ -84,32 +104,6 @@
       "title": "\"Finish the cat drawing\" via DALL-E-2’s inpainting function",
       "type": "story",
       "url": "https://twitter.com/hardmaru/status/1531870796200972293"
-    },
-    {
-      "by": "sha_burn",
-      "descendants": 1,
-      "id": 31579014,
-      "kids": [
-        31579019
-      ],
-      "score": 1,
-      "time": 1654067331,
-      "title": "Property Pump Propaganda alert: US home price appreciation accelerates for",
-      "type": "story",
-      "url": "https://www.bloomberg.com/news/articles/2022-05-31/us-home-price-appreciation-accelerates-for-fourth-month"
-    },
-    {
-      "by": "belter",
-      "descendants": 1,
-      "id": 31578992,
-      "kids": [
-        31578993
-      ],
-      "score": 2,
-      "time": 1654067163,
-      "title": "The Terra/Luna Hall of Shame",
-      "type": "story",
-      "url": "https://www.ft.com/content/40c06a4f-3586-40be-b5ad-b836b5dcdc0d"
     }
   ]
 }
