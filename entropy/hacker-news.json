@@ -1,10 +1,53 @@
 {
   "stories": [
     {
+      "by": "totetsu",
+      "descendants": 0,
+      "id": 31579240,
+      "score": 1,
+      "time": 1654069766,
+      "title": "Dominos Pizza offering fake items on menu that cant be ordered as AB testing",
+      "type": "story",
+      "url": "https://www.j-cast.com/2022/06/01438495.html?p=all"
+    },
+    {
+      "by": "rapnie",
+      "descendants": 0,
+      "id": 31579238,
+      "score": 1,
+      "time": 1654069753,
+      "title": "Rocket.Chat, Matrix, and the EU Digital Markets Act",
+      "type": "story",
+      "url": "https://www.zylstra.org/blog/2022/06/rocket-chat-matrix-and-the-eu-digital-markets-act/"
+    },
+    {
+      "by": "taubek",
+      "descendants": 0,
+      "id": 31579221,
+      "score": 1,
+      "time": 1654069593,
+      "title": "Updated Tips for Working Remotely",
+      "type": "story",
+      "url": "https://passo.uno/more-tips-for-working-remotely/"
+    },
+    {
+      "by": "sargstuff",
+      "descendants": 1,
+      "id": 31579219,
+      "kids": [
+        31579220
+      ],
+      "score": 1,
+      "time": 1654069579,
+      "title": "Photographic Computing",
+      "type": "story",
+      "url": "http://lightpattern.info/"
+    },
+    {
       "by": "taubek",
       "descendants": 0,
       "id": 31579199,
-      "score": 1,
+      "score": 2,
       "time": 1654069416,
       "title": "Croatian EV supercar maker Rimac raised 500M euros",
       "type": "story",
@@ -42,9 +85,12 @@
     },
     {
       "by": "speedgoose",
-      "descendants": 0,
+      "descendants": 1,
       "id": 31579171,
-      "score": 1,
+      "kids": [
+        31579244
+      ],
+      "score": 2,
       "text": "I voted online for the first time this morning, mostly by curiousity.<p>I got a receipt with 2 huge hex numbers and one large base64 blob. The receipt also had a link to an online website to verify that my vote has been registered, and that it will be counted. The website is relatively easy to use, I copy paste my use base64 blob and I get a green success message. It&#x27;s source code is also available online, in OCaml.<p>Now, I have no good understanding about all of this work. The information page is helpful to get a vague idea of the concepts: https:&#x2F;&#x2F;verifiabilite-legislatives2022.fr&#x2F;informations.html However you actually need to be a crypto expert to understand it fully, and I&#x27;m not one. &quot;More experienced readers may be confronted with a more technical description in English.&quot; https:&#x2F;&#x2F;hal.inria.fr&#x2F;hal-01576379&#x2F;file&#x2F;ZK-securityproof.pdf The paper contains crypto math proofs, it looks fancy and has nice concepts such as homomorphic encryption, zero knowledge proofs and so on. At my level I can only say that my base64 blob contains a JSON document consisting of a few numbers, one huge hex number with homomorphic properties, a schnorr signature, and a public key of something.<p>Moreover, the system has strong limitations because as thex explain, you cannot know that the candidate you selected is the candidate actually registered in your electronic vote, and they cannot ensure that all the registered votes are legitimate.<p>The traditional voting system for French citizen is a transparent box with paper voting ballots in an envelop. You can count the votes later in a group of random citizens, I did it twice personnally, and it&#x27;s very easy to understand. Most people in my country side village could trust the process with no prior knowledge.<p>I find the online voting part convenient, but I&#x27;m afraid people will not trust it because they cannot understand it.",
       "time": 1654069203,
       "title": "Ask HN: Will online voting require to trust crypto experts?",
@@ -59,46 +105,6 @@
       "title": "A single seagrass clone stretches 180 km in Western Australia’s Shark Bay",
       "type": "story",
       "url": "https://theconversation.com/meet-the-worlds-largest-plant-a-single-seagrass-clone-stretching-180-km-in-western-australias-shark-bay-184056"
-    },
-    {
-      "by": "headline",
-      "descendants": 0,
-      "id": 31579162,
-      "score": 1,
-      "time": 1654069139,
-      "title": "Godbolt.org as a Discord bot, reflection, and a Rust savior complex",
-      "type": "story",
-      "url": "https://headlinedev.xyz/2022/05/23/discord-compiler-road-to-10k-guilds.html"
-    },
-    {
-      "by": "masonic",
-      "descendants": 0,
-      "id": 31579159,
-      "score": 1,
-      "time": 1654069123,
-      "title": "We're at the Lowest frequency of tropical cyclones in over 40 years",
-      "type": "story",
-      "url": "https://twitter.com/RogerPielkeJr/status/1530266767141965824"
-    },
-    {
-      "by": "quyleanh",
-      "descendants": 0,
-      "id": 31579149,
-      "score": 1,
-      "time": 1654069023,
-      "title": "Official NextDNS API Documentation",
-      "type": "story",
-      "url": "https://nextdns.github.io/api/"
-    },
-    {
-      "by": "samuell",
-      "descendants": 0,
-      "id": 31579146,
-      "score": 1,
-      "time": 1654069003,
-      "title": "Why Antivirus Companies Like Mine Failed to Catch Flame and Stuxnet",
-      "type": "story",
-      "url": "https://www.wired.com/2012/06/internet-security-fail/"
     }
   ]
 }
