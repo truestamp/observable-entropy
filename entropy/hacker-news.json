@@ -1,6 +1,56 @@
 {
   "stories": [
     {
+      "by": "serverlessmom",
+      "descendants": 0,
+      "id": 31585910,
+      "score": 1,
+      "text": "Hey Hackers,\nI&#x27;ve got a classic conundrum on my hands: While most of my architecture is about handling events, we&#x27;ve got the first few requests for stuff that&#x27;s happening at regular intervals, or happens a certain amount of time after an event.\nOne example is follow-up pings after signup. We want to tell the user about additional features in the few days after they first sign up, so we want to emit messages 48 and 72 hours after sign up.\nMy question is whether lightweight serverless tools feel &#x27;ready&#x27; to do these scheduled tasks, or if you&#x27;re still using cron jobs to do stuff like this.\nI should say that I&#x27;m aware of a third path that turns out to be pretty common: instead of follow up messages coming from our own stack, a signup would add someone to a &#x27;campaign&#x27; in a CRM tool like Salesforce. That feels clunky, I&#x27;m not even an admin on our CRM, so I want to do it from inside my own tools.",
+      "time": 1654107502,
+      "title": "Ask HN: Writing automations – serverless or cron jobs?",
+      "type": "story"
+    },
+    {
+      "by": "Katydid",
+      "descendants": 0,
+      "id": 31585904,
+      "score": 1,
+      "time": 1654107476,
+      "title": "Quantum startup faces securities fraud suit amidst wild claims",
+      "type": "story",
+      "url": "https://www.theregister.com/2022/06/01/ionq-quantum-lawsuit/"
+    },
+    {
+      "by": "highclass",
+      "descendants": 0,
+      "id": 31585901,
+      "score": 1,
+      "text": "http:&#x2F;&#x2F;openinsider.com&#x2F;search?q=net shows insider trading history for Cloudflare(NET).<p>Does this mean all insiders have been selling hundreds of millions of stock with only one single purchase in the whole history of Cloudflare?<p>I was somewhat amazed at the sheer amount of selling, is this common?",
+      "time": 1654107473,
+      "title": "Ask HN: Insider trading history of Cloudflare",
+      "type": "story"
+    },
+    {
+      "by": "feross",
+      "descendants": 0,
+      "id": 31585883,
+      "score": 1,
+      "time": 1654107416,
+      "title": "Crypto, Clearing and Credit",
+      "type": "story",
+      "url": "https://www.bloomberg.com/opinion/articles/2022-06-01/crypto-clearing-and-credit"
+    },
+    {
+      "by": "rntn",
+      "descendants": 0,
+      "id": 31585848,
+      "score": 2,
+      "time": 1654107349,
+      "title": "Brace yourselves for an economic 'hurricane,' Jamie Dimon says",
+      "type": "story",
+      "url": "https://lite.cnn.com/en/article/h_9d1f75bbd06e6a8f228b90fbde144fda"
+    },
+    {
       "by": "bacondude3",
       "descendants": 0,
       "id": 31585786,
@@ -49,59 +99,6 @@
       "time": 1654106889,
       "title": "Show HN: A color palette design tool for websites",
       "type": "story"
-    },
-    {
-      "by": "marban",
-      "descendants": 0,
-      "id": 31585741,
-      "score": 1,
-      "time": 1654106854,
-      "title": "Solana network halted. Sends and receives disabled until the network stabilizes",
-      "type": "story",
-      "url": "https://status.coinbase.com"
-    },
-    {
-      "by": "all2",
-      "descendants": 0,
-      "id": 31585700,
-      "score": 2,
-      "time": 1654106689,
-      "title": "Automotive Grade Linux",
-      "type": "story",
-      "url": "https://www.automotivelinux.org/"
-    },
-    {
-      "by": "vineshreddy007",
-      "descendants": 0,
-      "id": 31585650,
-      "score": 1,
-      "text": "I&#x27;m extremely eager to show you this device I have been chipping away at. This device is based on top of Apisec.ai, an API security stage.<p>This help is for people with versatile&#x2F;web applications with backend REST APIs. It performs free and moment entrance testing&#x2F;security evaluation for the REST APIs.<p>Simply point towards your live OpenAPI detail record and get a PDF infiltration test report soon.<p>If it&#x27;s not too much trouble, attempt and let me know what is your take?<p>Here is the direct link\nhttps:&#x2F;&#x2F;www.apisec.ai&#x2F;free-api-pen-test",
-      "time": 1654106505,
-      "title": "Programming Interface Security Assessment",
-      "type": "story"
-    },
-    {
-      "by": "Thevet",
-      "descendants": 0,
-      "id": 31585645,
-      "score": 1,
-      "time": 1654106487,
-      "title": "Philosopher of the Apocalypse",
-      "type": "story",
-      "url": "https://aeon.co/essays/gunther-anders-a-forgotten-prophet-for-the-21st-century"
-    },
-    {
-      "by": "metadat",
-      "descendants": 1,
-      "id": 31585640,
-      "kids": [
-        31585669
-      ],
-      "score": 1,
-      "time": 1654106465,
-      "title": "Elon Musk Gets into Embarrassing Fight with Video Game Site, Loses",
-      "type": "story",
-      "url": "https://kotaku.com/elon-musk-hard-drive-stolen-meme-twitter-credit-1848995870"
     }
   ]
 }
