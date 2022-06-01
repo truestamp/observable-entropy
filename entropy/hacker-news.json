@@ -1,9 +1,22 @@
 {
   "stories": [
     {
-      "by": "firstSpeaker",
+      "by": "ExUtumno",
       "descendants": 0,
+      "id": 31581158,
+      "score": 1,
+      "time": 1654088313,
+      "title": "Show HN: MarkovJunior, PPL based on pattern matching and constraint propagation",
+      "type": "story",
+      "url": "https://github.com/mxgmn/MarkovJunior"
+    },
+    {
+      "by": "firstSpeaker",
+      "descendants": 1,
       "id": 31581112,
+      "kids": [
+        31581140
+      ],
       "score": 1,
       "time": 1654088074,
       "title": "Klarna CEO’s LinkedIn Post Names Hundreds of Staff Dismissed in Cost-Cutting",
@@ -35,9 +48,9 @@
       "descendants": 0,
       "id": 31581086,
       "score": 1,
-      "text": "I&#x27;m hoping there&#x27;s a standardized format&#x2F;schema out there for &quot;cataloging all the assets&quot; that make up a software system. I.e, from Storage drives to container images, etc. would all have a centralized db entry with a unique UUID, and perhaps other attributes.<p>Purpose is for risk management, I&#x27;m sure this is a tractable (read: solved) problem; but my research skills are failing me this morning.<p>I&#x27;m picturing something like an ARN but across a company",
+      "text": "I&#x27;m hoping there&#x27;s a standardized format&#x2F;schema out there for &quot;cataloging all the assets&quot; that make up a software system. I.e, from Storage drives to container images, etc. would all have a centralized db entry with a unique UUID, and perhaps other attributes.<p>Purpose is for risk management, I&#x27;m sure this is a tractable (read: solved) problem; but my research skills are failing me this morning.<p>I&#x27;m picturing something like an ARN but across a company. We can leverage terraform meta to tag things consistently",
       "time": 1654087967,
-      "title": "Ask HN: Where should I look for the engineer-friendly asset catalog software?",
+      "title": "Ask HN: How do you approach tagging assets to catalog software system deps?",
       "type": "story"
     },
     {
@@ -89,19 +102,6 @@
       "title": "We may finally know why so many lifelong smokers never get lung cancer",
       "type": "story",
       "url": "https://bgr.com/science/we-may-finally-know-why-so-many-lifelong-smokers-never-get-lung-cancer/"
-    },
-    {
-      "by": "danerwilliams",
-      "descendants": 1,
-      "id": 31580989,
-      "kids": [
-        31580990
-      ],
-      "score": 1,
-      "time": 1654087370,
-      "title": "New Grad CS Positions 2023 GitHub Repo",
-      "type": "story",
-      "url": "https://github.com/coderQuad/New-Grad-Positions-2023"
     }
   ]
 }
