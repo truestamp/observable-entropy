@@ -1,6 +1,89 @@
 {
   "stories": [
     {
+      "by": "picozeta",
+      "descendants": 0,
+      "id": 31580763,
+      "score": 1,
+      "text": "Arguable the goals of DevOps align partly with the goals of system administrators in former days: Provide reliable compute infrastructure for<p><pre><code>  1) internal users: mainly developers by providing CI&#x2F;CD\n  2) external users: end users\n</code></pre>\nNowadays we call people that do 1) DevOps and people that do 2) SREs (so one could argue that the role of sys admins just got more specialized).<p>The platform of choice is mostly Kubernetes these days, which promises among other things stuff like<p><pre><code>  - load balancing\n  - self-healing\n  - rollbacks&#x2F;rollouts\n  - config management\n</code></pre>\nBefore the cloud days, this stuff has been implemented using a conglomerate of different software and shell scripts, issued at dedicated &quot;pet&quot; servers.<p>In particular, a main critic is &quot;state&quot; and the possibility to change that state by e.g. messing with config files via SSH, which makes running and maintaining these servers more error-prone.<p>However, my main question is:<p>&quot;If this old way of doing things is so error-prone, and it&#x27;s easier to use declarative solutions like Kubernetes, why does the solution seem to need sooo much work that the role of DevOps seems to dominate IT related job boards? Shouldn&#x27;t Kubernetes <i>reduce</i> the workload and need <i>less</i> men power?&quot;<p>Don&#x27;t get me wrong, the old way does indeed look messy, I am just wondering why there is a need for so much dev ops nowadays ...<p>Thanks for your answers.",
+      "time": 1654085983,
+      "title": "Ask HN: If Kubernetes is the solution, why are there so many DevOps jobs?",
+      "type": "story"
+    },
+    {
+      "by": "marcodiego",
+      "descendants": 0,
+      "id": 31580762,
+      "score": 1,
+      "time": 1654085980,
+      "title": "Dmtcp: Distributed MultiThreaded CheckPointing",
+      "type": "story",
+      "url": "https://dmtcp.sourceforge.io/"
+    },
+    {
+      "by": "sbonder",
+      "descendants": 1,
+      "id": 31580758,
+      "kids": [
+        31580767
+      ],
+      "score": 1,
+      "time": 1654085947,
+      "title": "Report blasts “manipulative” video game loot boxes",
+      "type": "story",
+      "url": "https://www.bbc.com/news/technology-61594815"
+    },
+    {
+      "by": "pcaversaccio",
+      "descendants": 0,
+      "id": 31580756,
+      "score": 1,
+      "time": 1654085938,
+      "title": "Microsoft Office zero-day vulnerability",
+      "type": "story",
+      "url": "https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2022-30190"
+    },
+    {
+      "by": "freeCandy",
+      "descendants": 0,
+      "id": 31580749,
+      "score": 2,
+      "time": 1654085888,
+      "title": "Not Bionic Reading",
+      "type": "story",
+      "url": "https://not-br.neocities.org/"
+    },
+    {
+      "by": "EntICOnc",
+      "descendants": 0,
+      "id": 31580730,
+      "score": 1,
+      "time": 1654085767,
+      "title": "A Garbage-Collected Heap in C++, Shaped Like Typed Python",
+      "type": "story",
+      "url": "https://www.oilshell.org/blog/2022/05/gc-heap.html"
+    },
+    {
+      "by": "rdpintqogeogsaa",
+      "descendants": 0,
+      "id": 31580729,
+      "score": 1,
+      "time": 1654085761,
+      "title": "The Law of Strict Licenses",
+      "type": "story",
+      "url": "https://gavinhoward.com/2022/01/the-law-of-strict-licenses/"
+    },
+    {
+      "by": "athrowawayacc",
+      "descendants": 0,
+      "id": 31580723,
+      "score": 2,
+      "text": "I started working for a tech company immediately out of high school. The company was a startup that has seen notable growth.<p>I joined one year into the business and have been there for the last three years. I took on a lot of responsibility early on because I was excited and I learned a lot. I worked on tasks that had a direct impact on revenue.<p>Now I&#x27;m feeling burnt out and question whether I started on this path too early. I had really high expectations of myself and now I am wrestling with this feeling of guilt that I can&#x27;t get motivated like I used to. I&#x27;ve tried doing the things with tech I love -- like working on my website -- but lose energy quickly.<p>I know I&#x27;m early in my career but I feel tired and unmotivated at work. Work seems like a never-ending treadmill of tasks, many of which are more bureaucratic now and don&#x27;t interest me. What should I do?",
+      "time": 1654085724,
+      "title": "Ask HN: Feeling burned out at an early stage in my career",
+      "type": "story"
+    },
+    {
       "by": "eheye",
       "descendants": 0,
       "id": 31580722,
@@ -12,96 +95,16 @@
     },
     {
       "by": "capableweb",
-      "descendants": 0,
+      "descendants": 1,
       "id": 31580709,
+      "kids": [
+        31580765
+      ],
       "score": 1,
       "time": 1654085645,
       "title": "RFC 9225 – Software Defects Considered Harmful – Authors MUST NOT implement bugs",
       "type": "story",
       "url": "https://datatracker.ietf.org/doc/html/rfc9225"
-    },
-    {
-      "by": "machinerychorus",
-      "descendants": 0,
-      "id": 31580707,
-      "score": 2,
-      "time": 1654085626,
-      "title": "Fixing Social Media with Data Trusts",
-      "type": "story",
-      "url": "https://www.theatlantic.com/technology/archive/2022/05/how-to-fix-twitter-social-media/629951/"
-    },
-    {
-      "by": "elsewhen",
-      "descendants": 0,
-      "id": 31580670,
-      "score": 1,
-      "time": 1654085460,
-      "title": "The Murena One shows how hard it is to de-Google your smartphone",
-      "type": "story",
-      "url": "https://www.theverge.com/2022/5/31/23144917/murena-one-smartphone-degoogle-android"
-    },
-    {
-      "by": "ushakov",
-      "descendants": 0,
-      "id": 31580660,
-      "score": 1,
-      "time": 1654085363,
-      "title": "Missed Payments, Rising Interest Rates Put ‘Buy Now, Pay Later’ to the Test",
-      "type": "story",
-      "url": "https://www.wsj.com/articles/missed-payments-rising-interest-rates-put-buy-now-pay-later-to-the-test-11654033930"
-    },
-    {
-      "by": "iostream25",
-      "descendants": 0,
-      "id": 31580657,
-      "score": 1,
-      "text": "Next Level Brain Challenge:<p>Try to form Pig Latin in a foreign language.",
-      "time": 1654085338,
-      "title": "Next Level Brain Challenge: Pig Latin in a Foreign Tongue",
-      "type": "story"
-    },
-    {
-      "by": "elsewhen",
-      "descendants": 1,
-      "id": 31580651,
-      "kids": [
-        31580656
-      ],
-      "score": 1,
-      "time": 1654085309,
-      "title": "Fidelity Slashes Reddit, Stripe Valuations After Tech Rout",
-      "type": "story",
-      "url": "https://www.bloomberg.com/news/articles/2022-05-31/fidelity-slashes-reddit-stripe-valuations-after-tech-rout"
-    },
-    {
-      "by": "ghuntley",
-      "descendants": 0,
-      "id": 31580648,
-      "score": 1,
-      "time": 1654085256,
-      "title": "Tech experts urge Washington to resist crypto industry’s influence",
-      "type": "story",
-      "url": "https://concerned.tech/"
-    },
-    {
-      "by": "zbentley",
-      "descendants": 0,
-      "id": 31580627,
-      "score": 1,
-      "time": 1654085096,
-      "title": "Async destructors, async genericity and completion futures",
-      "type": "story",
-      "url": "https://sabrinajewson.org/blog/async-drop"
-    },
-    {
-      "by": "IfOnlyYouKnew",
-      "descendants": 0,
-      "id": 31580626,
-      "score": 1,
-      "time": 1654085094,
-      "title": "Liberia’s effective way to reduce shootings and other crimes",
-      "type": "story",
-      "url": "https://www.vox.com/future-perfect/23141405/violence-crime-cbt-therapy-cash-shootings"
     }
   ]
 }
