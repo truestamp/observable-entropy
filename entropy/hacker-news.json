@@ -1,107 +1,105 @@
 {
   "stories": [
     {
-      "by": "ExUtumno",
+      "by": "yamrzou",
       "descendants": 0,
-      "id": 31581158,
+      "id": 31581225,
       "score": 1,
-      "time": 1654088313,
-      "title": "Show HN: MarkovJunior, PPL based on pattern matching and constraint propagation",
+      "time": 1654088645,
+      "title": "Reason Seen More as Weapon Than Path to Truth (2011)",
       "type": "story",
-      "url": "https://github.com/mxgmn/MarkovJunior"
-    },
-    {
-      "by": "firstSpeaker",
-      "descendants": 1,
-      "id": 31581112,
-      "kids": [
-        31581140
-      ],
-      "score": 1,
-      "time": 1654088074,
-      "title": "Klarna CEO’s LinkedIn Post Names Hundreds of Staff Dismissed in Cost-Cutting",
-      "type": "story",
-      "url": "https://finance.yahoo.com/news/klarna-ceo-linkedin-post-names-081323610.html"
-    },
-    {
-      "by": "sidedishes",
-      "descendants": 0,
-      "id": 31581105,
-      "score": 1,
-      "time": 1654088035,
-      "title": "Picotune: Chiptune MIDI song sharing site",
-      "type": "story",
-      "url": "http://picotune.me/"
+      "url": "https://www.nytimes.com/2011/06/15/arts/people-argue-just-to-win-scholars-assert.html"
     },
     {
       "by": "IdEntities",
       "descendants": 0,
-      "id": 31581097,
+      "id": 31581218,
       "score": 1,
-      "time": 1654088001,
-      "title": "U.S. policymakers misjudged inflation threat until it was too late",
+      "time": 1654088617,
+      "title": "NYT Opinion: When Elon Musk Dreams, His Employees Have Nightmares",
       "type": "story",
-      "url": "https://www.washingtonpost.com/us-policy/2022/05/31/inflation-economy-timeline/"
+      "url": "https://www.nytimes.com/2022/06/01/opinion/elon-musk-tesla-twitter.html"
     },
     {
-      "by": "kfrzcode",
+      "by": "HerrMonnezza",
       "descendants": 0,
-      "id": 31581086,
+      "id": 31581217,
       "score": 1,
-      "text": "I&#x27;m hoping there&#x27;s a standardized format&#x2F;schema out there for &quot;cataloging all the assets&quot; that make up a software system. I.e, from Storage drives to container images, etc. would all have a centralized db entry with a unique UUID, and perhaps other attributes.<p>Purpose is for risk management, I&#x27;m sure this is a tractable (read: solved) problem; but my research skills are failing me this morning.<p>I&#x27;m picturing something like an ARN but across a company. We can leverage terraform meta to tag things consistently",
-      "time": 1654087967,
-      "title": "Ask HN: How do you approach tagging assets to catalog software system deps?",
-      "type": "story"
-    },
-    {
-      "by": "kamrani",
-      "descendants": 0,
-      "id": 31581059,
-      "score": 1,
-      "text": "You&#x27;ve built an infrastructure on cloud (AWS, Azure, etc.).<p>It&#x27;s the end of the month and you get the bill. It&#x27;s not too bad, but it&#x27;s more than what you expected.\nThe next months, the bill stays as high or even grows bigger and bigger!<p>Now imaging there is a platform that gives you full visibility over your cloud costs in the simplest form with various high-level and low-level categorisations.\nA platform that offers you actionable AI-powered recommendations to reduce your cloud costs significantly.<p>We&#x27;re building that platform. It&#x27;s called CloudReclaim (https:&#x2F;&#x2F;cloudreclaim.com).<p>Stop sponsoring billionaires with over-paying for your cloud infrastructure!\nYou can fill in this form to join our waiting list:<p>https:&#x2F;&#x2F;ur56nb612bb.typeform.com&#x2F;to&#x2F;pRnvwzPe",
-      "time": 1654087819,
-      "title": "Stop bleeding money on cloud infrastructure",
-      "type": "story"
-    },
-    {
-      "by": "jimmySixDOF",
-      "descendants": 0,
-      "id": 31581056,
-      "score": 1,
-      "time": 1654087800,
-      "title": "Abbatars Voyage Review: No Ordinary Abba Night at the Club",
+      "time": 1654088616,
+      "title": "Universe Forecast",
       "type": "story",
-      "url": "https://www.nytimes.com/2022/05/30/arts/music/abba-voyage-review.html"
+      "url": "https://neal.fun/universe-forecast/"
     },
     {
-      "by": "brycewray",
+      "by": "jkestner",
       "descendants": 0,
-      "id": 31581055,
+      "id": 31581210,
+      "score": 1,
+      "time": 1654088582,
+      "title": "Apple’s Cement Overshoes",
+      "type": "story",
+      "url": "https://doctorow.medium.com/apples-cement-overshoes-329856288d13"
+    },
+    {
+      "by": "todsacerdoti",
+      "descendants": 0,
+      "id": 31581196,
+      "score": 1,
+      "time": 1654088507,
+      "title": "GitHub Sponsors Launches in Brazil",
+      "type": "story",
+      "url": "https://github.blog/2022-06-01-github-sponsors-launches-in-brazil/"
+    },
+    {
+      "by": "cheeaun",
+      "descendants": 0,
+      "id": 31581192,
+      "score": 1,
+      "time": 1654088468,
+      "title": "Maintainer Month",
+      "type": "story",
+      "url": "https://maintainermonth.github.com/"
+    },
+    {
+      "by": "cnuss",
+      "descendants": 0,
+      "id": 31581188,
+      "score": 1,
+      "text": "Greetings!<p>I&#x27;ve just created a service that launches a Localstack container, make it available at a personalized URL, and then shuts it down within 10 to 60 minutes.<p>I made this because Localstack is a great way to mock the AWS cloud for Local Development or in CI&#x2F;CD. But, to run it, you need a Laptop with enough available memory, Docker, Python, and other CLIs.<p>Also, if you want to develop locally with an AWS account, you&#x27;ll have to sign up for an account. But then, resources get created and never deleted potentially leading to an expensive bill.<p>Feel free to give it a try and let me know what you think!",
+      "time": 1654088459,
+      "title": "Show HN: Launch Localstack “as a service” with automatic termination",
+      "type": "story",
+      "url": "https://eph.dev"
+    },
+    {
+      "by": "OberstKrueger",
+      "descendants": 0,
+      "id": 31581182,
+      "score": 1,
+      "time": 1654088432,
+      "title": "Twitter shutting down TweetDeck for Mac on July 1",
+      "type": "story",
+      "url": "https://9to5mac.com/2022/06/01/twitter-cancels-tweetdeck-for-mac/"
+    },
+    {
+      "by": "ddtaylor",
+      "descendants": 0,
+      "id": 31581180,
+      "score": 1,
+      "time": 1654088423,
+      "title": "Artificial Intelligence Created 40 Models to Revive Val Kilmer’s Voice",
+      "type": "story",
+      "url": "https://variety.com/2022/film/news/val-kilmer-top-gun-maverick-voice-artificial-intelligence-1235281512/"
+    },
+    {
+      "by": "ExUtumno",
+      "descendants": 0,
+      "id": 31581158,
       "score": 2,
-      "time": 1654087781,
-      "title": "Get good Git info from Hugo",
+      "time": 1654088313,
+      "title": "Show HN: MarkovJunior, PPL based on pattern matching and constraint propagation",
       "type": "story",
-      "url": "https://www.brycewray.com/posts/2022/06/get-good-git-info-hugo/"
-    },
-    {
-      "by": "agarv",
-      "descendants": 0,
-      "id": 31581023,
-      "score": 2,
-      "time": 1654087607,
-      "title": "Show HN: WebAssembly Error Diffusion Dither Performance Comparison",
-      "type": "story",
-      "url": "https://wasm.dithermark.com"
-    },
-    {
-      "by": "HiroProtagonist",
-      "descendants": 0,
-      "id": 31581009,
-      "score": 2,
-      "time": 1654087470,
-      "title": "We may finally know why so many lifelong smokers never get lung cancer",
-      "type": "story",
-      "url": "https://bgr.com/science/we-may-finally-know-why-so-many-lifelong-smokers-never-get-lung-cancer/"
+      "url": "https://github.com/mxgmn/MarkovJunior"
     }
   ]
 }
