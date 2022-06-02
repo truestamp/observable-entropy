@@ -1,6 +1,69 @@
 {
   "stories": [
     {
+      "by": "gmays",
+      "descendants": 0,
+      "id": 31596827,
+      "score": 1,
+      "time": 1654186800,
+      "title": "CEOs Manage Time",
+      "type": "story",
+      "url": "https://hbr.org/2018/07/how-ceos-manage-time"
+    },
+    {
+      "by": "mooreds",
+      "descendants": 0,
+      "id": 31596806,
+      "score": 1,
+      "time": 1654186692,
+      "title": "Things nobody tells you about preselling your product",
+      "type": "story",
+      "url": "https://stackingthebricks.com/4-things-preselling/"
+    },
+    {
+      "by": "batmaniam",
+      "descendants": 0,
+      "id": 31596796,
+      "score": 1,
+      "time": 1654186656,
+      "title": "Elon Musk tells Tesla employees: Return to the office, or else",
+      "type": "story",
+      "url": "https://www.cnn.com/2022/06/01/tech/elon-musk-tesla-ends-work-from-home/index.html"
+    },
+    {
+      "by": "prostoalex",
+      "descendants": 0,
+      "id": 31596782,
+      "score": 1,
+      "time": 1654186594,
+      "title": "Rogue Waves Are Mysterious and Big",
+      "type": "story",
+      "url": "https://hackaday.com/2022/06/01/rogue-waves-are-mysterious-and-big/"
+    },
+    {
+      "by": "sarmadasghar",
+      "descendants": 1,
+      "id": 31596770,
+      "kids": [
+        31596771
+      ],
+      "score": 1,
+      "time": 1654186556,
+      "title": "Bievery the Winner in the Freshworks Refresh App Challenge",
+      "type": "story",
+      "url": "https://www.bievery.com"
+    },
+    {
+      "by": "cdschexnide",
+      "descendants": 0,
+      "id": 31596758,
+      "score": 2,
+      "time": 1654186525,
+      "title": "Deno DLM Launches Today",
+      "type": "story",
+      "url": "https://github.com/oslabs-beta/Deno-Redlock"
+    },
+    {
       "by": "xrayarx",
       "descendants": 0,
       "id": 31596745,
@@ -13,7 +76,7 @@
       "by": "mooreds",
       "descendants": 0,
       "id": 31596733,
-      "score": 1,
+      "score": 2,
       "time": 1654186440,
       "title": "Information for the Public about SSL Certificates",
       "type": "story",
@@ -38,66 +101,6 @@
       "title": "Low-Cost Gel Film Can Pluck Drinking Water from Desert Air",
       "type": "story",
       "url": "https://cockrell.utexas.edu/news/archive/9494-low-cost-gel-film-can-pluck-drinking-water-from-desert-air"
-    },
-    {
-      "by": "aiallthewaydown",
-      "descendants": 0,
-      "id": 31596607,
-      "score": 1,
-      "time": 1654186028,
-      "title": "Sheryl Sandberg Stepping Down as COO of Facebook Parent Meta Platforms",
-      "type": "story",
-      "url": "https://www.wsj.com/articles/sheryl-sandberg-stepping-down-from-meta-platforms-11654112778"
-    },
-    {
-      "by": "kristianpaul",
-      "descendants": 0,
-      "id": 31596589,
-      "score": 2,
-      "time": 1654185971,
-      "title": "Rumor that Apple will launch a web search engine pops up again",
-      "type": "story",
-      "url": "https://appleinsider.com/articles/22/06/02/rumor-that-apple-will-launch-a-web-search-engine-pops-up-again"
-    },
-    {
-      "by": "lichtenberger",
-      "descendants": 0,
-      "id": 31596572,
-      "score": 1,
-      "text": "Hello,<p>I want to find enthusiastic OSS frontend developers for my JSON data store project[1], which is able to retain the full revision history of a database resource (binary JSON) through small sized copy-on-write snapshots of the main index tree of tries and a novel sliding snapshot algorithm.<p>As I&#x27;m a fan of compilers (http:&#x2F;&#x2F;brackit.io) I think either working on the current frontend with Svelte[2], which is currently really dated and uses Sapper or a new frontend using SolidJS would be great.<p>What are the advantages&#x2F;disadvantages of both frameworks in your opinion? I&#x27;m a backend software engineer, but maybe SolidJS is more familiar to frontend devs because of JSX and at least in benchmarks it seems to be faster. But maybe the differences except for the different syntaxes aren&#x27;t that big.<p>I envision visualizations for comparing revisions of resources or subtrees therein and also to visualize time travel queries. A screenshot of the old frontend: https:&#x2F;&#x2F;github.com&#x2F;sirixdb&#x2F;sirix&#x2F;blob&#x2F;master&#x2F;Screenshot%20from%202020-09-28%2018-50-58.png<p>Let me know which framework you&#x27;d prefer for the task at hand and what are the advantages&#x2F;disadvantages in your opinion for both of them in general.<p>If you want to help, it&#x27;s even better. Let me know :-)<p>[1] https:&#x2F;&#x2F;sirix.io || https:&#x2F;&#x2F;github.com&#x2F;sirixdb&#x2F;sirix\n[2] https:&#x2F;&#x2F;github.com&#x2F;sirixdb&#x2F;sirix-svelte-frontend",
-      "time": 1654185895,
-      "title": "Ask HN: Do you prefer Svelte or SolidJS?",
-      "type": "story"
-    },
-    {
-      "by": "andsoitis",
-      "descendants": 0,
-      "id": 31596571,
-      "score": 1,
-      "time": 1654185893,
-      "title": "Sheryl Sandberg's Advertising Jackpot",
-      "type": "story",
-      "url": "https://www.axios.com/newsletters/axios-login"
-    },
-    {
-      "by": "monroewalker",
-      "descendants": 0,
-      "id": 31596561,
-      "score": 2,
-      "text": "I&#x27;ve been using LazyGit [1] for a while and its made me realize how much easier a terminal ui can make things. It often makes me wish there was a TUI for the specific workflows I have when working in a given repo. Are there any programs that take some config file and produce a TUI as output? Eg. you have a file with a list of commands and aliases and it produces the corresponding TUI? Or are there any libraries which take minimal effort to add TUI elements to?<p>[1] https:&#x2F;&#x2F;github.com&#x2F;jesseduffield&#x2F;lazygit",
-      "time": 1654185854,
-      "title": "Ask HN: Are there any high-level TUI tools?",
-      "type": "story"
-    },
-    {
-      "by": "todsacerdoti",
-      "descendants": 0,
-      "id": 31596536,
-      "score": 1,
-      "time": 1654185775,
-      "title": "Why .app and .dev are perfect homes for developer tools",
-      "type": "story",
-      "url": "https://blog.google/technology/developers/why-app-and-dev-are-perfect-homes-for-developer-tools/"
     }
   ]
 }
