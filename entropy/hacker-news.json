@@ -1,6 +1,100 @@
 {
   "stories": [
     {
+      "by": "Tomte",
+      "descendants": 0,
+      "id": 31595575,
+      "score": 1,
+      "time": 1654181375,
+      "title": "John Carmack on Inlined Code (2014)",
+      "type": "story",
+      "url": "http://number-none.com/blow/john_carmack_on_inlined_code.html"
+    },
+    {
+      "by": "Tomte",
+      "descendants": 0,
+      "id": 31595568,
+      "score": 1,
+      "time": 1654181338,
+      "title": "'Perfect' sensors may be possible, but might not come to cameras (2018)",
+      "type": "story",
+      "url": "https://www.dpreview.com/interviews/9385721576/perfect-sensors-may-be-possible-but-might-not-come-to-cameras"
+    },
+    {
+      "by": "behnamoh",
+      "descendants": 0,
+      "id": 31595566,
+      "score": 1,
+      "time": 1654181320,
+      "title": "How to Run Windows 10 on ARM or Ubuntu for ARM64 in QEMU on Apple Silicon Mac",
+      "type": "story",
+      "url": "https://gist.github.com/niw/e4313b9c14e968764a52375da41b4278"
+    },
+    {
+      "by": "judofyr",
+      "descendants": 0,
+      "id": 31595562,
+      "score": 1,
+      "time": 1654181307,
+      "title": "The Art of Comparing Apples with Oranges (or: DragonflyDB vs. Redis)",
+      "type": "story",
+      "url": "https://t.holmium.no/dia/apples-vs-oranges/"
+    },
+    {
+      "by": "coolgoose",
+      "descendants": 0,
+      "id": 31595553,
+      "score": 1,
+      "time": 1654181253,
+      "title": "Bitnami Old Charts Not Available",
+      "type": "story",
+      "url": "https://github.com/bitnami/charts/issues/10545"
+    },
+    {
+      "by": "escot",
+      "descendants": 0,
+      "id": 31595541,
+      "score": 1,
+      "text": "Hey HN,\nI made <a href=\"https:&#x2F;&#x2F;linkians.com\" rel=\"nofollow\">https:&#x2F;&#x2F;linkians.com</a> which is a game where all the action and state is contained in the url. There&#x27;s no server, just emojis in the url and client-side logic. Any linkians url using the supported emojis is a valid game state so you can save your game, or type out your own url and send it to a friend.<p>The game involves taking care of little pets (emojis) that live in your url bar. Kind of like tamagotchi or sims. Feed them, play with them, and watch out for enemies!<p>In terms of the technical details: It&#x27;s a static web page. It looks at the url for the initial game state, or starts you off with the default. On an interval the game loop kicks in by reading the url, producing a new game state by having one character act, and updating the url again using history.replaceState. Handling unicode has been fun (like a right-to-left bug).<p>I&#x27;d appreciate any feedback.",
+      "time": 1654181227,
+      "title": "Show HN: Linkians, a sims-like game that happens in your url bar with emojis",
+      "type": "story",
+      "url": "https://linkians.com/"
+    },
+    {
+      "by": "Vladimof",
+      "descendants": 0,
+      "id": 31595538,
+      "score": 1,
+      "time": 1654181214,
+      "title": "Canada says China 'buzzing' military flights in Asia",
+      "type": "story",
+      "url": "https://www.bbc.com/news/world-us-canada-61654043"
+    },
+    {
+      "by": "gmays",
+      "descendants": 0,
+      "id": 31595525,
+      "score": 1,
+      "time": 1654181138,
+      "title": "Former OpenSea exec arrested and charged with insider trading of NFTs",
+      "type": "story",
+      "url": "https://techcrunch.com/2022/06/01/former-opensea-exec-arrested-and-charged-with-insider-trading-of-nfts/"
+    },
+    {
+      "by": "marban",
+      "descendants": 1,
+      "id": 31595522,
+      "kids": [
+        31595548
+      ],
+      "score": 1,
+      "time": 1654181127,
+      "title": "Spotify Podcasters Are Making $18,000 a Month with Nothing but White Noise",
+      "type": "story",
+      "url": "https://www.bloomberg.com/news/articles/2022-06-01/how-to-make-money-on-spotify-a-white-noise-podcast-could-bring-you-big-bucks"
+    },
+    {
       "by": "warrenm",
       "descendants": 0,
       "id": 31595512,
@@ -9,96 +103,6 @@
       "title": "Flaura – Automatic, Smart Plant Pot (Intro Video)",
       "type": "story",
       "url": "https://www.youtube.com/watch?v=rHHFL17ncnc"
-    },
-    {
-      "by": "keithpitt",
-      "descendants": 0,
-      "id": 31595507,
-      "score": 2,
-      "time": 1654181059,
-      "title": "Show HN: Buildkite Test Analytics: observability for your test suite",
-      "type": "story",
-      "url": "https://buildkite.com/blog/bringing-observability-to-your-test-suite"
-    },
-    {
-      "by": "marban",
-      "descendants": 0,
-      "id": 31595505,
-      "score": 1,
-      "time": 1654181045,
-      "title": "Banks Now Have $2T Worry",
-      "type": "story",
-      "url": "https://www.wsj.com/articles/banks-now-have-2-trillion-worry-11654180314"
-    },
-    {
-      "by": "ImKevinArcher",
-      "descendants": 0,
-      "id": 31595500,
-      "score": 1,
-      "text": "Hey HN,<p>I&#x27;m thinking of making a Mac app that will allow users securely save their photos and videos, not just save but encrypt every bit of data saved into this app. Also, I was thinking of adding synchronization, so the users can sync their media across all devices and only can access their files with a password. However, I don&#x27;t know if someone will use some kind of app like this for Mac. I saw a lot of Photo Vault on iPhone but I don&#x27;t know if Mac users are interested in these kinds of apps.<p>Would you use a Mac app to protect your photos and videos in an encrypted vault? I will appreciate it if you can share your opinion if you see this as something you would use.",
-      "time": 1654181031,
-      "title": "Ask HN: Would you use a Mac app to store and encrypt your photos/videos?",
-      "type": "story"
-    },
-    {
-      "by": "escot",
-      "descendants": 0,
-      "id": 31595499,
-      "score": 1,
-      "text": "Do  emojis work well",
-      "time": 1654181027,
-      "title": "Test Emoji",
-      "type": "story"
-    },
-    {
-      "by": "graypegg",
-      "descendants": 0,
-      "id": 31595478,
-      "score": 2,
-      "time": 1654180885,
-      "title": "The Definitive Guide to Rack for Ruby and Rails Developers",
-      "type": "story",
-      "url": "https://akshaykhot.com/definitive-guide-to-rack/"
-    },
-    {
-      "by": "CapitalistCartr",
-      "descendants": 0,
-      "id": 31595468,
-      "score": 1,
-      "time": 1654180853,
-      "title": "Examining State Bills on Data Brokers",
-      "type": "story",
-      "url": "https://www.lawfareblog.com/examining-state-bills-data-brokers"
-    },
-    {
-      "by": "high_byte",
-      "descendants": 0,
-      "id": 31595463,
-      "score": 1,
-      "time": 1654180845,
-      "title": "My Take on DeFi",
-      "type": "story",
-      "url": "https://twitter.com/high_byte/status/1532371270888738819"
-    },
-    {
-      "by": "Sevein",
-      "descendants": 0,
-      "id": 31595446,
-      "score": 1,
-      "time": 1654180718,
-      "title": "Pixel 6 bug: video recording buzzing",
-      "type": "story",
-      "url": "https://issuetracker.google.com/issues/222556615"
-    },
-    {
-      "by": "mooreds",
-      "descendants": 0,
-      "id": 31595439,
-      "score": 1,
-      "time": 1654180654,
-      "title": "Why Web Components Lost",
-      "type": "story",
-      "url": "https://newsletterest.com/message/102347/Bytes-Why-Web-Components-Lost"
     }
   ]
 }
