@@ -1,6 +1,59 @@
 {
   "stories": [
     {
+      "by": "underdeserver",
+      "descendants": 0,
+      "id": 31593330,
+      "score": 1,
+      "time": 1654166346,
+      "title": "Nightclub needle attacks puzzle authorities across Europe",
+      "type": "story",
+      "url": "https://www.npr.org/2022/06/02/1102577312/nightclub-needle-attacks-puzzle-authorities-across-europe"
+    },
+    {
+      "by": "rntn",
+      "descendants": 0,
+      "id": 31593322,
+      "score": 1,
+      "time": 1654166256,
+      "title": "Nonlinear two-level dynamics of quantum time crystals",
+      "type": "story",
+      "url": "https://www.nature.com/articles/s41467-022-30783-w"
+    },
+    {
+      "by": "barry-cotter",
+      "descendants": 1,
+      "id": 31593316,
+      "kids": [
+        31593329
+      ],
+      "score": 1,
+      "time": 1654166205,
+      "title": "Two Cheers for US Higher Education",
+      "type": "story",
+      "url": "https://www.slowboring.com/p/two-cheers-for-american-higher-education"
+    },
+    {
+      "by": "dotsam",
+      "descendants": 0,
+      "id": 31593311,
+      "score": 1,
+      "time": 1654166146,
+      "title": "Write a critique of effective altruism and win up to $20k",
+      "type": "story",
+      "url": "https://forum.effectivealtruism.org/posts/8hvmvrgcxJJ2pYR4X/announcing-a-contest-ea-criticism-and-red-teaming"
+    },
+    {
+      "by": "lukaszwojtow",
+      "descendants": 0,
+      "id": 31593308,
+      "score": 1,
+      "text": "I&#x27;m thinking of writing an open-source library for investing &#x2F; trading purposes. I already have some code scattered around my projects but it would be better to extract common stuff to a lib. Being more or less proficient in Java and Rust I consider these two languages equally.\nSo I wanted to &quot;measure&quot; what would be a better fit and I came up with the following table:<p>----------------------------------------------------------------------------------\nMetric       | Weight  |  Rust Value  |  Rust Score  |  Java Value  |  Java Score\n----------------------------------------------------------------------------------\nperformance  |   7     |      5       |     35       |     8        |      56\n----------------------------------------------------------------------------------\nfun          |   3     |      8       |     24       |     4        |      12\n----------------------------------------------------------------------------------\npopularity   |   8     |      2       |     16       |     8        |      64\n----------------------------------------------------------------------------------\nsyntax       |   9     |      9       |     81       |     7        |      63\n----------------------------------------------------------------------------------\ntesting      |   8     |      7       |     56       |     9        |      72\n----------------------------------------------------------------------------------\ncompetition  |   9     |     10       |     90       |     2        |      18\n----------------------------------------------------------------------------------\nTotal                                      302                            285<p>So &#x27;Metric&#x27; is what I&#x27;m looking at when deciding. &#x27;Weight&#x27; is my (a bit subjective) importance for the metric. &#x27;Value&#x27; is how good language X is for this metric, and &#x27;Score&#x27; is the metric multiplied by the value.\nSome metrics are positive, some are negative, but I made &#x27;Value&#x27; to be &#x27;more is better&#x27; for all of them.\nMy metrics:\nperformance - It hurts to say, but I&#x27;ve tested some very first task that I would like to do and Java turns out to be almost 50% quicker.\nfun - It&#x27;s about my feeling when working in this language.\npopularity - I will care about adoption rate and pull requests from other developers.\nsyntax - This one is more about expressiveness and being less error-prone.\ntesting - It seems to me that Java is more mature here, for example, mutation testing is a lot better than in Rust.\ncompetition - I guess it&#x27;s the reverse of popularity. I haven&#x27;t found anything like this in Rust&#x27;s world, but similar stuff exists in Java.<p>My question is: What did I miss? What do you think? The values above are a bit subjective and I can tweak them to show that Java&#x27;s better for this.\nI&#x27;m asking here to get more objective input.\nThanks.",
+      "time": 1654166101,
+      "title": "Ask HN: Which programming language should I choose?",
+      "type": "story"
+    },
+    {
       "by": "walterbell",
       "descendants": 0,
       "id": 31593290,
@@ -49,59 +102,6 @@
       "title": "Pioneering sovereign, European AI technology",
       "type": "story",
       "url": "https://www.aleph-alpha.com/"
-    },
-    {
-      "by": "rntn",
-      "descendants": 0,
-      "id": 31593266,
-      "score": 1,
-      "time": 1654165623,
-      "title": "US and Europe make moves to secure access to Taiwanese tech",
-      "type": "story",
-      "url": "https://www.theregister.com/2022/06/02/us_eu_taiwan_trade_talks/"
-    },
-    {
-      "by": "stared",
-      "descendants": 0,
-      "id": 31593257,
-      "score": 1,
-      "time": 1654165392,
-      "title": "Kermit the Frog in various movies, generated by DALLE2",
-      "type": "story",
-      "url": "https://threadreaderapp.com/thread/1531506455714492416.html"
-    },
-    {
-      "by": "itsjloh",
-      "descendants": 0,
-      "id": 31593248,
-      "score": 2,
-      "time": 1654165225,
-      "title": "Installing a Payphone in My House",
-      "type": "story",
-      "url": "https://bert.org/2022/06/02/payphone/"
-    },
-    {
-      "by": "noufalibrahim",
-      "descendants": 0,
-      "id": 31593236,
-      "score": 3,
-      "time": 1654165080,
-      "title": "Rejecting data demands, ExpressVPN removes VPN servers in India",
-      "type": "story",
-      "url": "https://www.expressvpn.com/blog/remove-india-vpn-servers/"
-    },
-    {
-      "by": "wycliffb",
-      "descendants": 1,
-      "id": 31593229,
-      "kids": [
-        31593230
-      ],
-      "score": 1,
-      "time": 1654165046,
-      "title": "What's your take on Flashlight, Facebook's Machine Learning toolkit?",
-      "type": "story",
-      "url": "http://GitHub.com/facebook/flashlight"
     }
   ]
 }
