@@ -1,6 +1,16 @@
 {
   "stories": [
     {
+      "by": "ddtaylor",
+      "descendants": 0,
+      "id": 31603544,
+      "score": 1,
+      "time": 1654223425,
+      "title": "Faulty battery pack caught fire inside Rivian's Illinois assembly plant",
+      "type": "story",
+      "url": "https://www.autoblog.com/2022/06/01/fire-rivian-plant-battery-pack/"
+    },
+    {
       "by": "behnamoh",
       "descendants": 0,
       "id": 31603536,
@@ -62,10 +72,11 @@
     },
     {
       "by": "neelc",
-      "descendants": 1,
+      "descendants": 2,
       "id": 31603318,
       "kids": [
-        31603428
+        31603428,
+        31603567
       ],
       "score": 2,
       "text": "I may have discussed this at other places in the past.<p>I run FreeBSD on my desktop, and am a customer of Chase Bank (along with a few others), mainly since my family set me up there.<p>Chase claims to require Windows or macOS for their online banking, but doesn&#x27;t block GNU&#x2F;Linux or Chrome OS, while kicking out OSes like FreeBSD and OpenBSD. I could log in fine on multiple Linux distros fine, and on FreeBSD with a &quot;user agent switcher&quot;.<p>I asked Chase if they could unblock FreeBSD the same way, even mentioning Linux and user agent switchers. Chase gave their usual BS about &quot;system requirements&quot; and &quot;our website is working as designed&quot;. The person who talked to me was in fact pretty rude.<p>While I can use a user agent switcher and it works fine that way, and most websites (even banks) don&#x27;t whitelist OSes. I find it absurd that Chase can claim that they require Windows or macOS at every level, but not block Linux or Chrome OS.<p>I&#x27;m betting that either blocking Linux and Chrome OS would make headlines, or alternatively that Chase uses a FOSS library that blocks BSD but not Linux or Chrome OS.<p>I&#x27;m also betting that they couldn&#x27;t unblock FreeBSD if they unblock Linux since enterprises are generally very stiff and inflexible with requirements. If the higher ups say &quot;only Windows or Mac&quot; devs can&#x27;t deviate.<p>A FreeBSD user like me is well aware of the whitelist, but a casual Ubuntu or Chromebook user may not even know these &quot;requirements&quot; exist since both &quot;Linux&quot; or &quot;CrOS&quot; are whitelisted.<p>It could go away when Chase&#x27;s website is redesigned. Many websites in the early-00s depended on IE6 and now nobody does on the public Internet. Doesn&#x27;t mean it will go away. Look at AT&amp;T Fiber&#x27;s 802.1X or Verizon&#x27;s and AT&amp;T&#x27;s IMEI whitelist, nobody else globally does whitelisting to the same extent, or even Verizon FiOS and T-Mobile.<p>I think Bank of America says something similar to Chase but fortunately doesn&#x27;t really enforce it the same way. I don&#x27;t use BoA, though. I also remember an ACT prep website as a teen which only allowed Windows or Mac when I used FreeBSD (w&#x2F;o plugins), but that aged very poorly in today&#x27;s era of Chrome OS-based schools. There may be many more examples, feel free to discuss here.<p>Yes, I could use another bank, and I&#x27;m attempting to, but my family&#x27;s weird money management system is a big roadblock making it harder for me versus most people. I moved one direct deposit and yet it caused chaos. Chase is sticky for my family like the Apple ecosystem is for many. We even have &quot;private client&quot; status.<p>Not an iPhone user, I could be a teenager today and want to run LineageOS, but my family is tied into the Apple ecosystem making it hard to leave an iPhone, just a bit easier for me with Chase since user agent switchers exist, but you can&#x27;t get an Android to connect to iMessage or other iServices.",
@@ -92,16 +103,6 @@
       "title": "Microsoft Acquires GitHub (2018)",
       "type": "story",
       "url": "https://blogs.microsoft.com/blog/2018/06/04/microsoft-github-empowering-developers/"
-    },
-    {
-      "by": "IdEntities",
-      "descendants": 0,
-      "id": 31603249,
-      "score": 7,
-      "time": 1654220850,
-      "title": "Tesla monitored its employees on Facebook during 2017 union push",
-      "type": "story",
-      "url": "https://www.cnbc.com/2022/06/02/tesla-paid-pr-firm-to-surveil-employees-on-facebook-in-2017-union-push.html"
     }
   ]
 }
