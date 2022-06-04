@@ -1,6 +1,36 @@
 {
   "stories": [
     {
+      "by": "venice_dev",
+      "descendants": 0,
+      "id": 31617145,
+      "score": 1,
+      "text": "Six-months ago I started working on an analytics team at a 200-person, private tech company. I’ve been witnessing some disturbing behavior and could use suggestions on what to do.<p>Some background:<p>The biggest internal stakeholder of our analytics team is the sales team. The CGO &#x2F; CSO is hands on, joins all of our analytics-sales team meetings, and outranks the head of our analytics team, who is also present during all of our meetings.<p>Our company sells a B2B product. The bulk of our analytics projects involve running analyses to show that this product works in the particular customer context (sorry for the vagueness, trying to be anonymous here). The sales team presents these analyses to these customers to convince them to buy it.<p>We belong in an industry where it seems that customers infrequently conduct their own analyses or experiments to verify that products (like ours) works. So, weirdly to me, customers tend to just trust the analytics we present.<p>That’s the set-up. Now the troubling parts:<p>The sales team and analytics teams have tried running A&#x2F;B tests in the past to demonstrate product value, but the results showed the product was of no benefit on the single, key metric of interest. Since then, the sales team has discouraged the use of A&#x2F;B tests because “we don’t understand the results.” The head of the analytics team goes along with that.<p>We run observational, causal analyses to demonstrate an effect and the raw results vary from weak negative effect, to no effect, to weak positive effect. It’s a noisy analysis.<p>The few times one of our external customers has tried to A&#x2F;B test the product in a trial run before fully buying it, the results have always been null.<p>To my eyes, all of the above averages out to *the product does not work*.<p>Whenever we find a negative or null effect in an analysis, the sales team pressures us into re-running the analysis looking at different sub-groups until we find a positive effect &#x2F; “good story for the client”. They do this in sometimes subtle ways (e.g. “I think our data isn’t capturing a subtlety in this customer’s industry”) to more obvious pressure (e.g. “look, we have a client meeting on Friday. We need a good story. Try looking at it X way or Y way in the data). I have ample email evidence of this.<p>I’ve tried explaining to both teams that it is bad statistical practice (https:&#x2F;&#x2F;www.ncbi.nlm.nih.gov&#x2F;pmc&#x2F;articles&#x2F;PMC4840791&#x2F;) to do multiple testing &#x2F; fishing &#x2F; p-hacking to find good stories, but no one seems to understand this or perhaps care. So we keep doing this practice, and the sales team finds a way to spin it into a narrative for the customer.<p>I’ve spoken with the head of the analytics team, the HR team, and even the CEO about the situation. I’m diplomatic, so in all of these conversations I’ve made sure to not heap blame on individuals but calmly insist that the system is at fault and provide suggestions on how to fix it. In all of these cases, people give me platitudes about the need for integrity, thank me for speaking up, but literally nothing happens.<p>I’m still at the company but currently actively looking around for new jobs. What is an employee supposed to do in this situation? It’s a private company so there’s no whistleblowing to be done, I imagine. Would it be right to secretly inform our customers of the situation? Am I being overly dramatic?",
+      "time": 1654318654,
+      "title": "Ask HN: How should I handle willful misconduct around analytics and sales?",
+      "type": "story"
+    },
+    {
+      "by": "venkatananth",
+      "descendants": 0,
+      "id": 31617140,
+      "score": 1,
+      "time": 1654318588,
+      "title": "India’s only pro-gun rights lobby",
+      "type": "story",
+      "url": "https://daily.thesignal.co/p/guns-and-the-men"
+    },
+    {
+      "by": "menage",
+      "descendants": 0,
+      "id": 31617134,
+      "score": 1,
+      "time": 1654318530,
+      "title": "Google Fi expands coverage with high-speed Wi-Fi that counts against data cap",
+      "type": "story",
+      "url": "https://9to5google.com/2022/06/02/google-fi-w-network/"
+    },
+    {
       "by": "marban",
       "descendants": 0,
       "id": 31617109,
@@ -69,36 +99,6 @@
       "title": "Digital Colonialism",
       "type": "story",
       "url": "https://en.wikipedia.org/wiki/Electronic_colonialism"
-    },
-    {
-      "by": "GauntletWizard",
-      "descendants": 0,
-      "id": 31616956,
-      "score": 5,
-      "time": 1654316432,
-      "title": "1989 Tiananmen Square protests and massacre",
-      "type": "story",
-      "url": "https://en.wikipedia.org/wiki/1989_Tiananmen_Square_protests_and_massacre"
-    },
-    {
-      "by": "ddtaylor",
-      "descendants": 0,
-      "id": 31616903,
-      "score": 1,
-      "time": 1654315810,
-      "title": "NASA to buy 5 more astronaut missions from SpaceX",
-      "type": "story",
-      "url": "https://www.space.com/nasa-buy-five-more-spacex-astronaut-missions"
-    },
-    {
-      "by": "pqvst",
-      "descendants": 0,
-      "id": 31616902,
-      "score": 1,
-      "time": 1654315808,
-      "title": "Fastmail Spam Learning Is Weird",
-      "type": "story",
-      "url": "https://pqvst.com/2022/06/04/fastmail-spam-learning-is-weird/"
     }
   ]
 }
