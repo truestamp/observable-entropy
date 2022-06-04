@@ -1,6 +1,35 @@
 {
   "stories": [
     {
+      "by": "iamrafiqul",
+      "descendants": 0,
+      "id": 31620599,
+      "score": 1,
+      "time": 1654352364,
+      "title": "Can corporate gifts help in employee engagement?",
+      "type": "story"
+    },
+    {
+      "by": "ksec",
+      "descendants": 0,
+      "id": 31620588,
+      "score": 1,
+      "time": 1654352290,
+      "title": "Surface Laptop Go 2",
+      "type": "story",
+      "url": "https://blogs.windows.com/devices/2022/06/01/introducing-surface-laptop-go-2/"
+    },
+    {
+      "by": "xisukar",
+      "descendants": 0,
+      "id": 31620577,
+      "score": 2,
+      "time": 1654352228,
+      "title": "Brutalist Websites",
+      "type": "story",
+      "url": "https://brutalistwebsites.com/"
+    },
+    {
       "by": "gmays",
       "descendants": 0,
       "id": 31620556,
@@ -24,7 +53,7 @@
       "by": "omarfarooq",
       "descendants": 0,
       "id": 31620540,
-      "score": 1,
+      "score": 2,
       "time": 1654351993,
       "title": "Coordinate Precision",
       "type": "story",
@@ -64,42 +93,12 @@
       "by": "phgn",
       "descendants": 0,
       "id": 31620466,
-      "score": 1,
+      "score": 2,
       "text": "Hey! This is a reader mode browser extension I built that hides noisy page elements rather than extracting and re-rendering their text content. The idea is to not make all articles look the same [0], have them still render graphs, and ideally to work in more cases.<p>There are a few &quot;tricks&quot;: patching the site CSSOM to apply simpler mobile styles even at desktop width, cleaning up parents of DOM text nodes, blocklists for class names that contain words like &quot;sidebar&quot;, plus manual CSS patches for popular sites.<p>I got carried away and also added a dark mode, page outlines, privates notes &amp; inline Hacker News comments. [1] \nThe last feature works by parsing every top-level HN comment with a quote in it (formatted with &gt; or &quot;&quot;) within a few minutes, and anchoring these quotes in the story article HTML. So when you open a link you&#x27;ll directly see the parts people are talking about here. [2]<p>The extension code is all on GitHub: <a href=\"https:&#x2F;&#x2F;github.com&#x2F;lindylearn&#x2F;unclutter\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;lindylearn&#x2F;unclutter</a><p>---<p>[0] Unclutter vs the Firefox reader mode: <a href=\"https:&#x2F;&#x2F;github.com&#x2F;lindylearn&#x2F;unclutter&#x2F;blob&#x2F;main&#x2F;docs&#x2F;comparison.md\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;lindylearn&#x2F;unclutter&#x2F;blob&#x2F;main&#x2F;docs&#x2F;compa...</a><p>[1] The linked website show some examples for these.<p>[2] It&#x27;s also fun to try this on some of the &quot;HN classics&quot; that got 30+ quote comments over the years. The list at hn.lindylearn.io&#x2F;best shows the number of &quot;annotations&quot; a link has beneath its title.",
       "time": 1654351593,
-      "title": "Show HN: Unclutter – New reader mode extension with inline Hacker News comments",
+      "title": "Show HN: Reader mode extension with inline Hacker News comments",
       "type": "story",
       "url": "https://unclutter.lindylearn.io"
-    },
-    {
-      "by": "ta988",
-      "descendants": 0,
-      "id": 31620453,
-      "score": 1,
-      "time": 1654351527,
-      "title": "California Court Says Bees Are Fish",
-      "type": "story",
-      "url": "https://fox8.com/news/california-court-says-bees-are-fish/"
-    },
-    {
-      "by": "LinuxBender",
-      "descendants": 0,
-      "id": 31620446,
-      "score": 1,
-      "time": 1654351492,
-      "title": "To cut off all nearby phones with these Chinese chips this is the bug to exploit",
-      "type": "story",
-      "url": "https://www.theregister.com/2022/06/03/uisoc-chip-flaw-check-point/"
-    },
-    {
-      "by": "zote",
-      "descendants": 0,
-      "id": 31620445,
-      "score": 1,
-      "time": 1654351485,
-      "title": "Building Faster Rsync from Scratch in Go",
-      "type": "story",
-      "url": "https://hackaday.com/2022/06/01/building-faster-rsync-from-scratch-in-go/"
     }
   ]
 }
