@@ -1,20 +1,10 @@
 {
   "stories": [
     {
-      "by": "fikrikadim",
-      "descendants": 0,
-      "id": 31635391,
-      "score": 1,
-      "time": 1654467882,
-      "title": "Putin’s flash description of the Ukrainian war",
-      "type": "story",
-      "url": "https://www.technoscience.fikrikadim.com/2022/06/05/breaking-news-putins-flash-description-of-the-ukrainian-war/"
-    },
-    {
       "by": "wslh",
       "descendants": 0,
       "id": 31635380,
-      "score": 2,
+      "score": 3,
       "time": 1654467815,
       "title": "Caste is a perspective-altering book: we have a caste system in the US",
       "type": "story",
@@ -32,8 +22,11 @@
     },
     {
       "by": "_dain_",
-      "descendants": 0,
+      "descendants": 1,
       "id": 31635371,
+      "kids": [
+        31635400
+      ],
       "score": 1,
       "time": 1654467779,
       "title": "Troubled waters: the forces behind the death of the River Tees",
@@ -84,7 +77,7 @@
       "by": "scrubs",
       "descendants": 0,
       "id": 31635291,
-      "score": 1,
+      "score": 2,
       "text": "https:&#x2F;&#x2F;github.com&#x2F;rodgarrison&#x2F;PGM-index was previously posted to HN. However, to leverage PGM for keys that are strings or blobs (arrays of unsigned bytes) one needs a map from the key as an array of bytes to some integral type. What are the options here?<p>An order preserving hash is such that if keys k0&lt;=k1 then hash(k0)&lt;=hash(k1).<p>As far as I can tell the broad outline of options include:<p>* naive options like put all strings in a std map and give the index to the entry as the hash value<p>* Some variation of converting the key into a bitstream, maybe with compression hoping to get into a 64-256 bit range.<p>* Putting the keys into a trie or BST and converting the path through the structure to the key into a bitstream which becomes an int.<p>* An actual order preserving hash e.g. something like this: https:&#x2F;&#x2F;github.com&#x2F;DominikHorn&#x2F;exotic-hashing&#x2F;tree&#x2F;main&#x2F;include&#x2F;omphf<p>Does anybody know better? An important property (and relaxation) is that all the strings need may not be known ahead of time. So the hash need not be minimal.",
       "time": 1654467062,
       "title": "Ask HN: Order preserving hashes for learned Indexes",
@@ -99,6 +92,16 @@
       "title": "A Book from the Sky",
       "type": "story",
       "url": "https://en.wikipedia.org/wiki/A_Book_from_the_Sky"
+    },
+    {
+      "by": "brad0",
+      "descendants": 0,
+      "id": 31635242,
+      "score": 2,
+      "time": 1654466484,
+      "title": "Water Pump Theory",
+      "type": "story",
+      "url": "https://powerequipment.honda.com/pumps/pump-theory"
     }
   ]
 }
