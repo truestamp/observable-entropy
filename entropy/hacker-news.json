@@ -1,9 +1,32 @@
 {
   "stories": [
     {
-      "by": "gunnr15",
+      "by": "belter",
       "descendants": 0,
+      "id": 31626509,
+      "score": 1,
+      "time": 1654387543,
+      "title": "Trans athletes in women's sports: Is this fair? [video]",
+      "type": "story",
+      "url": "https://www.youtube.com/watch?v=cZ9YAFYIBOU"
+    },
+    {
+      "by": "codedokode",
+      "descendants": 0,
+      "id": 31626508,
+      "score": 2,
+      "text": "I think that this example can be both entertaining and educating. Smart pointers are often used in high-performance code (like browser engines) so it is interesting to learn how their usage impacts the generated code.<p>Here is a simple function that adds two numbers using smart pointers. Rust compiles it into two instructions [1], while C++ creates about 100 instructions [2] including unnecessary memory locks.<p>I wonder, is there a way to improve C++ code so that the smart pointers get optimized out? Did I make some mistake that prevents optimization?<p>[1] https:&#x2F;&#x2F;godbolt.org&#x2F;z&#x2F;YqYK3sPdd<p>[2] https:&#x2F;&#x2F;godbolt.org&#x2F;z&#x2F;bMrhTsjxz",
+      "time": 1654387542,
+      "title": "Why Rust easily optimizes out smart pointers where C++ cannot?",
+      "type": "story"
+    },
+    {
+      "by": "gunnr15",
+      "descendants": 1,
       "id": 31626492,
+      "kids": [
+        31626539
+      ],
       "score": 1,
       "text": "Working at startups has always been risky.  Am interested in how others are coping with the new stress of layoffs.",
       "time": 1654387419,
@@ -22,8 +45,11 @@
     },
     {
       "by": "woofyman",
-      "descendants": 0,
+      "descendants": 1,
       "id": 31626479,
+      "kids": [
+        31626517
+      ],
       "score": 1,
       "time": 1654387362,
       "title": "Scientists accidentally create super-vicious HAMSTERS",
@@ -82,29 +108,6 @@
       "title": "WireGuard Install Script",
       "type": "story",
       "url": "https://github.com/Nyr/wireguard-install"
-    },
-    {
-      "by": "zeristor",
-      "descendants": 0,
-      "id": 31626381,
-      "score": 1,
-      "time": 1654386550,
-      "title": "Levelised cost-based learning analysis of wind and solar in the US [pdf]",
-      "type": "story",
-      "url": "https://www.cell.com/iscience/fulltext/S2589-0042(22)00649-6"
-    },
-    {
-      "by": "pelcg",
-      "descendants": 0,
-      "id": 31626363,
-      "kids": [
-        31626441
-      ],
-      "score": 2,
-      "text": "It is more than likely that we are about to enter (and arguably we already are) in a overdue recession.<p>For someone that has an idea, built a working product and wants to scale it, the odds are greatly stacked against them with FAANG companies not helping in copying startups as if they are features, in addition to inflation and investors hesitant to invest as the “Good Times” are over.<p>Is there any point to building a startup in this climate? Has the ideas now run out?",
-      "time": 1654386446,
-      "title": "Ask HN: Is the tech startup space oversaturated?",
-      "type": "story"
     }
   ]
 }
