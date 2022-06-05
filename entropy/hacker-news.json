@@ -1,10 +1,50 @@
 {
   "stories": [
     {
+      "by": "anotherevan",
+      "descendants": 0,
+      "id": 31635319,
+      "score": 1,
+      "time": 1654467286,
+      "title": "Network-bound disk encryption on Arch Linux",
+      "type": "story",
+      "url": "https://vdwaa.nl/arch-clevis-tang.html"
+    },
+    {
+      "by": "nobody9999",
+      "descendants": 0,
+      "id": 31635310,
+      "score": 1,
+      "time": 1654467238,
+      "title": "The Code: Story of GNU and Linux (2001) Complete Documentary",
+      "type": "story",
+      "url": "https://www.youtube.com/watch?v=CsTPTaluKfk"
+    },
+    {
+      "by": "wslh",
+      "descendants": 0,
+      "id": 31635307,
+      "score": 1,
+      "time": 1654467214,
+      "title": "The Entrepreneur Remains Stuck in the 19th and 20th Centuries",
+      "type": "story",
+      "url": "https://thepowerofknowledge.xyz/elon-musk-remains-stuck-in-the-values-of-the-19th-and-20th-centuries-a-true-paradox-6ffb48592956"
+    },
+    {
+      "by": "scrubs",
+      "descendants": 0,
+      "id": 31635291,
+      "score": 1,
+      "text": "https:&#x2F;&#x2F;github.com&#x2F;rodgarrison&#x2F;PGM-index was previously posted to HN. However, to leverage PGM for keys that are strings or blobs (arrays of unsigned bytes) one needs a map from the key as an array of bytes to some integral type. What are the options here?<p>As far as I can tell the broad outline of options include:<p>* naive options like put all strings in a std map and give the index to the entry as the hash value<p>* Some variation of converting the key into a bitstream, maybe with compression hoping to get into a 64-128 bit range.<p>* An actual order preserving hash e.g. something like this: https:&#x2F;&#x2F;github.com&#x2F;DominikHorn&#x2F;exotic-hashing&#x2F;tree&#x2F;main&#x2F;include&#x2F;omphf<p>Does anybody know better? An important property (and relaxation) is that all the strings need may not be known ahead of time. So the hash need not be minimal.",
+      "time": 1654467062,
+      "title": "Ask HN: Order preserving hashes for learned Indexes",
+      "type": "story"
+    },
+    {
       "by": "csilverman",
       "descendants": 0,
       "id": 31635244,
-      "score": 1,
+      "score": 2,
       "time": 1654466520,
       "title": "A Book from the Sky",
       "type": "story",
@@ -14,7 +54,7 @@
       "by": "brad0",
       "descendants": 0,
       "id": 31635242,
-      "score": 1,
+      "score": 2,
       "time": 1654466484,
       "title": "Water Pump Theory",
       "type": "story",
@@ -58,46 +98,6 @@
       "title": "Genetic paparazzi are right around the corner, courts aren’t ready for DNA theft",
       "type": "story",
       "url": "https://theconversation.com/genetic-paparazzi-are-right-around-the-corner-and-courts-arent-ready-to-confront-the-legal-quagmire-of-dna-theft-178866"
-    },
-    {
-      "by": "zdw",
-      "descendants": 0,
-      "id": 31635145,
-      "score": 2,
-      "time": 1654465724,
-      "title": "Italian CPU – The Genesys B52 MMX",
-      "type": "story",
-      "url": "https://www.cpushack.com/2021/08/12/forgotten-italian-cpu-the-genesys-b52-mmx/"
-    },
-    {
-      "by": "omarfarooq",
-      "descendants": 0,
-      "id": 31635135,
-      "score": 1,
-      "time": 1654465617,
-      "title": "The “Nathan for You” Finale, My New Favorite Love Story",
-      "type": "story",
-      "url": "https://www.newyorker.com/culture/culture-desk/the-nathan-for-you-finale-my-new-favorite-love-story"
-    },
-    {
-      "by": "gerad_tod",
-      "descendants": 0,
-      "id": 31635128,
-      "score": 1,
-      "time": 1654465559,
-      "title": "People Faking Did Online",
-      "type": "story",
-      "url": "https://defaultfriend.substack.com/p/multiple-personality-disorder-or"
-    },
-    {
-      "by": "amichail",
-      "descendants": 0,
-      "id": 31635085,
-      "score": 2,
-      "time": 1654465208,
-      "title": "‘Deadbots’ can speak for you after your death. Is that ethical?",
-      "type": "story",
-      "url": "https://theconversation.com/deadbots-can-speak-for-you-after-your-death-is-that-ethical-182076"
     }
   ]
 }
