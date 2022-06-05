@@ -1,6 +1,16 @@
 {
   "stories": [
     {
+      "by": "jelliclesfarm",
+      "descendants": 0,
+      "id": 31635341,
+      "score": 1,
+      "time": 1654467516,
+      "title": "Building an Alternative Supply Chain for Shiitake Mushroom Growers",
+      "type": "story",
+      "url": "https://civileats.com/2021/08/11/building-an-alternative-supply-chain-for-shiitake-mushroom-growers/"
+    },
+    {
       "by": "anotherevan",
       "descendants": 0,
       "id": 31635319,
@@ -35,7 +45,7 @@
       "descendants": 0,
       "id": 31635291,
       "score": 1,
-      "text": "https:&#x2F;&#x2F;github.com&#x2F;rodgarrison&#x2F;PGM-index was previously posted to HN. However, to leverage PGM for keys that are strings or blobs (arrays of unsigned bytes) one needs a map from the key as an array of bytes to some integral type. What are the options here?<p>As far as I can tell the broad outline of options include:<p>* naive options like put all strings in a std map and give the index to the entry as the hash value<p>* Some variation of converting the key into a bitstream, maybe with compression hoping to get into a 64-128 bit range.<p>* An actual order preserving hash e.g. something like this: https:&#x2F;&#x2F;github.com&#x2F;DominikHorn&#x2F;exotic-hashing&#x2F;tree&#x2F;main&#x2F;include&#x2F;omphf<p>Does anybody know better? An important property (and relaxation) is that all the strings need may not be known ahead of time. So the hash need not be minimal.",
+      "text": "https:&#x2F;&#x2F;github.com&#x2F;rodgarrison&#x2F;PGM-index was previously posted to HN. However, to leverage PGM for keys that are strings or blobs (arrays of unsigned bytes) one needs a map from the key as an array of bytes to some integral type. What are the options here?<p>An order preserving hash is such that if keys k0&lt;=k1 then hash(k0)&lt;=hash(k1).<p>As far as I can tell the broad outline of options include:<p>* naive options like put all strings in a std map and give the index to the entry as the hash value<p>* Some variation of converting the key into a bitstream, maybe with compression hoping to get into a 64-256 bit range.<p>* Putting the keys into a trie or BST and converting the path through the structure to the key into a bitstream which becomes an int.<p>* An actual order preserving hash e.g. something like this: https:&#x2F;&#x2F;github.com&#x2F;DominikHorn&#x2F;exotic-hashing&#x2F;tree&#x2F;main&#x2F;include&#x2F;omphf<p>Does anybody know better? An important property (and relaxation) is that all the strings need may not be known ahead of time. So the hash need not be minimal.",
       "time": 1654467062,
       "title": "Ask HN: Order preserving hashes for learned Indexes",
       "type": "story"
@@ -88,16 +98,6 @@
       "time": 1654466109,
       "title": "Detained",
       "type": "story"
-    },
-    {
-      "by": "rootw0rm",
-      "descendants": 0,
-      "id": 31635183,
-      "score": 1,
-      "time": 1654466037,
-      "title": "Genetic paparazzi are right around the corner, courts aren’t ready for DNA theft",
-      "type": "story",
-      "url": "https://theconversation.com/genetic-paparazzi-are-right-around-the-corner-and-courts-arent-ready-to-confront-the-legal-quagmire-of-dna-theft-178866"
     }
   ]
 }
