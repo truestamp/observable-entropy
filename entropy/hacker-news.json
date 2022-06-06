@@ -1,6 +1,46 @@
 {
   "stories": [
     {
+      "by": "redbell",
+      "descendants": 0,
+      "id": 31640614,
+      "score": 1,
+      "time": 1654524195,
+      "title": "Spas, Shared Element Transitions, and Re-Evaluating Technology",
+      "type": "story",
+      "url": "https://css-tricks.com/spas-shared-element-transitions-and-re-evaluating-technology/"
+    },
+    {
+      "by": "bryanrasmussen",
+      "descendants": 0,
+      "id": 31640605,
+      "score": 1,
+      "time": 1654524160,
+      "title": "The Waning Days of Al Qaeda",
+      "type": "story",
+      "url": "https://foreignpolicy.com/2022/06/05/bin-laden-papers-al-qaeda-abbottabad-raid-review-jihadi-movement/"
+    },
+    {
+      "by": "superluvdub",
+      "descendants": 0,
+      "id": 31640599,
+      "score": 1,
+      "time": 1654524124,
+      "title": "Cannabis Lab 101: Technical Overview of Potency Determinization",
+      "type": "story",
+      "url": "https://www.laboverflow.com/blog/technical-overview-of-potency-determinization/"
+    },
+    {
+      "by": "joshstrange",
+      "descendants": 0,
+      "id": 31640598,
+      "score": 1,
+      "text": "So this has bugged me or a long time and I wanted to see if there was some reason I&#x27;m missing. According to YouTube&#x27;s docs all you have to do to enable NVR is click a checkbox in the livestream UI [0]. This would allow people to rewind&#x2F;pause&#x2F;timeshift the event. I hate that if you have a meeting or other obligation your only options are &quot;pick up where they are live&quot; or &quot;wait till the event is finished then watch it from the start&quot; (or often for me, both, watch from live then go back and see what I missed).<p>1-2 years ago the Washington Post had a copy&#x2F;feed of an Apple Event with NVR enabled and it was wonderful. I assume they made a mistake or weren&#x27;t supposed to be reproducing the feed because it only happened the one time that I noticed.<p>For the last few events I&#x27;ve taken to running this command right after the feed starts (modified for today&#x27;s event):<p><pre><code>    ffmpeg -i $(youtube-dl -f best -g &quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=q5D55G7Ejs8&quot;) -c copy apple-6-6-2022.ts\n</code></pre>\nAnd then opening the ts file in VLC once I&#x27;m free but sometimes it falls over and stops working. I&#x27;d love to hear if people have other methods to accomplish this.<p>I&#x27;d also be interested to know if anyone has any insight into why Apple doesn&#x27;t allow this. The whole event is on YouTube after the feed ends, it makes no sense to me while they don&#x27;t allow people to rewind&#x2F;pause the livestream.<p>[0] https:&#x2F;&#x2F;support.google.com&#x2F;youtube&#x2F;answer&#x2F;9296823?hl=en",
+      "time": 1654524120,
+      "title": "Ask HN: Why doesn't Apple allow DVR on their YouTube Livestreams for events?",
+      "type": "story"
+    },
+    {
       "by": "triska",
       "descendants": 0,
       "id": 31640551,
@@ -65,46 +105,6 @@
       "time": 1654523571,
       "title": "After many years, need more screen brightness to see monitor. Is it normal?",
       "type": "story"
-    },
-    {
-      "by": "georgecmu",
-      "descendants": 0,
-      "id": 31640479,
-      "score": 2,
-      "time": 1654523562,
-      "title": "I Rented an Electric Car for 4 Days and Spent More Time Charging Than Sleeping",
-      "type": "story",
-      "url": "https://www.wsj.com/articles/i-rented-an-electric-car-for-a-four-day-road-trip-i-spent-more-time-charging-it-than-i-did-sleeping-11654268401"
-    },
-    {
-      "by": "ushakov",
-      "descendants": 0,
-      "id": 31640470,
-      "score": 2,
-      "time": 1654523538,
-      "title": "Yandex Founder and CEO, Arkady Volozh, Sanctioned by the EU",
-      "type": "story",
-      "url": "https://ir.yandex/press-releases?year=2022"
-    },
-    {
-      "by": "hermanradtke",
-      "descendants": 0,
-      "id": 31640469,
-      "score": 1,
-      "time": 1654523533,
-      "title": "Pinterest acquired fashion startup The Yes",
-      "type": "story",
-      "url": "https://techcrunch.com/2022/06/02/pinterest-acquires-a-i-powered-shopping-startup-the-yes-co-founded-by-former-stitch-fix-exec/"
-    },
-    {
-      "by": "256bit",
-      "descendants": 0,
-      "id": 31640462,
-      "score": 3,
-      "time": 1654523512,
-      "title": "Cloud Native Programming Languages",
-      "type": "story",
-      "url": "https://ideas.chrislaux.com/posts/cloud-native-programming-languages/"
     }
   ]
 }
