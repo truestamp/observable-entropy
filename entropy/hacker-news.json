@@ -1,6 +1,46 @@
 {
   "stories": [
     {
+      "by": "jensneuse",
+      "descendants": 0,
+      "id": 31639879,
+      "score": 1,
+      "text": "Dear HN Community. We&#x27;re Bjorn, Dustin, Stefan &amp; Jens, the founders of WunderGraph.<p>More than two years ago, Jens started WunderGraph as a Side Project.\nThe initial idea was to solve the problem of integrating multiple disparate DataSources into a single, unified API Layer.\nWhile solving this problem, Jens realized that his mental model of APIs was wrong.\nMost API tools treat APIs as abstract things or just endpoints, in a very imparative way.\nAt some point, he realized that there&#x27;s a better model to think about APIs:\nAPIs are dependencies and we should treat them in a declarative way!<p>And that&#x27;s how the idea of the &quot;Package Manager for APIs&quot;[1] came to be:\nWunderGraph is an API Developer toolkit which allows you to import and export APIs, just like npm packages.\nThis is possible because every WunderGraph project generates a static, conflict-free and versionable artifact.<p>It shouldn&#x27;t take days to add a new 3rd party API to your API layer,\nwith WunderGraph, this is possible in seconds.<p>WunderGraph lets you define your API dependencies in a declarative way.\nThe whole &quot;Graph&quot; of API dependencies is represented as an unified GraphQL Schema.\nMeta-data like API credentials, can be configured with our TypeScript SDK.\nAPI Operations are defined as regular GraphQL Operations.\nCustom middleware &#x2F; business logic can be written using TypeScript.<p>Finally, WunderGraph generates a Gateway + Client(s).\nGateway and clients communicate via JSON-RPC.\nWe call this approach &quot;Compile-time&quot; GraphQL queries.\nThe client is 100% TypeSafe.\nThe Gateway handles Authentication, Authorization, Caching, Middleware, etc...<p>WunderGraph gives you the Developer Experience of working with a single, monolithic API layer,\nalthough you&#x27;re using many different internal and external Services and Databases behind the scenes.<p>WunderGraph Supports any OpenID Connect compliant IDP for Authentication,\nS3 for file storage,\nREST (OpenAPI), GraphQL &amp; Apollo Federation for APIs\nand PostgreSQL, MySQL, SQLite, SQLServer, Planetscale and MongoDB for the data-layer.<p>Today, we&#x27;re happy to announce that WunderGraph is finally Open Source!\nCheck out the Monorepo[2] on GitHub. If you like our ambitions, give us a star!\nYou can run WunderGraph locally and air-gapped, no strings attached.<p>There&#x27;s also a more extensive release post on our blog[3].\nHave a look at the examples[4], we&#x27;re keen to hear your opinion!<p>[1]: https:&#x2F;&#x2F;hub.wundergraph.com&#x2F;start\n[2]: https:&#x2F;&#x2F;github.com&#x2F;wundergraph&#x2F;wundergraph\n[2]: https:&#x2F;&#x2F;wundergraph.com&#x2F;blog&#x2F;wundergraph_the_next_generation_api_developer_platform_is_open_source\n[3]: https:&#x2F;&#x2F;github.com&#x2F;wundergraph&#x2F;wundergraph#getting-started",
+      "time": 1654520341,
+      "title": "Show HN: WunderGraph – open-source API Developer Toolkit",
+      "type": "story"
+    },
+    {
+      "by": "yamrzou",
+      "descendants": 0,
+      "id": 31639876,
+      "score": 1,
+      "time": 1654520319,
+      "title": "How were Depression and Anxiety treated and seen in the Medieval era?",
+      "type": "story",
+      "url": "https://old.reddit.com/r/AskHistorians/comments/86s4lx/how_were_depression_and_anxiety_treated_and_seen/"
+    },
+    {
+      "by": "anticristi",
+      "descendants": 0,
+      "id": 31639860,
+      "score": 1,
+      "text": "Hi,<p>I wanted to play a traditional Swedish song on my piano. When looking for the score sheets, both Google and DuckDuckGo seem to be littered with big budget startups that use &quot;SEO&quot; and all dark patterns in the world to direct search engine traffic towards their paywall. (I&#x27;m looking at you Musescore!)<p>Are there any &quot;free and not dodgy like Wikipedia&quot; websites where one can find public domain piano score sheets?",
+      "time": 1654520219,
+      "title": "Ask HN: Where can I find public domain score sheets for free?",
+      "type": "story"
+    },
+    {
+      "by": "vitabenes",
+      "descendants": 0,
+      "id": 31639856,
+      "score": 1,
+      "time": 1654520209,
+      "title": "Dutch security service uses Pegasus software: Volkskrant",
+      "type": "story",
+      "url": "https://www.dutchnews.nl/news/2022/06/197938/"
+    },
+    {
       "by": "Topolomancer",
       "descendants": 0,
       "id": 31639826,
@@ -24,7 +64,7 @@
       "by": "lynndotpy",
       "descendants": 0,
       "id": 31639797,
-      "score": 1,
+      "score": 2,
       "text": "I&#x27;m one of those insufferable Linux nerds who went to Linux early in life after getting fed up with Windows. People said the grass was greener on the other side, and IMO they were right!<p>But I&#x27;ve heard tell of fields of <i>even greener grass</i>, all descendants of a mythical &quot;BSD&quot;.<p>But I&#x27;m wondering if that grass is greener only in theory. Are these tales of verdant fields true? I don&#x27;t have the same amount of free-time to tinker that I had when I first tried Linux, but I have the same curiosity.<p>So, to my question: Does anyone here use BSD in any &#x27;real&#x27; capacity? Say, as a personal desktop or a server or an embedded system?",
       "time": 1654519768,
       "title": "Ask HN: Does anyone here use a BSD for their main OS?",
@@ -44,7 +84,7 @@
       "by": "logankilpatrick",
       "descendants": 0,
       "id": 31639788,
-      "score": 1,
+      "score": 2,
       "time": 1654519708,
       "title": "Oxygen.jl: A breath of fresh air for programming web apps in Julia",
       "type": "story",
@@ -59,46 +99,6 @@
       "title": "iPadOS Multitasking at WWDC 2022",
       "type": "story",
       "url": "https://medium.learningbyshipping.com/ipados-multitasking-at-wwdc-2022-32c711cfd52a?gi=5163a9df08a2"
-    },
-    {
-      "by": "balex",
-      "descendants": 0,
-      "id": 31639761,
-      "score": 1,
-      "text": "We&#x27;re an Open Source startup focused on managing the lifecycle of server fleets, such as maintenance, waste control, etc. To get a grasp of what we&#x27;re about: https:&#x2F;&#x2F;github.com&#x2F;rebootoio&#x2F;vaxiin-sandbox<p>We&#x27;re thinking of tackling the challenges of new hardware procurement. From the initial &quot;what do I need?&quot;, through generating a BoM with all the boilerplate, validating the quote, the delivery, etc.<p>We&#x27;d like to know if and what are the pains that you experience in this process. For example:\n- Who in your org generates the initial spec?\n- What&#x27;s your workflow from spec to quote to delivery?\n- What works and what&#x27;s broken?",
-      "time": 1654519559,
-      "title": "Ask HN: Do You Buy Servers?",
-      "type": "story"
-    },
-    {
-      "by": "walterbell",
-      "descendants": 0,
-      "id": 31639759,
-      "score": 1,
-      "time": 1654519540,
-      "title": "ARM dev workstation: Why the SoftIron OverDrive 1000 is still relevant (2021)",
-      "type": "story",
-      "url": "https://peter.czanik.hu/posts/arm-workstation-why-softirion-overdive-still-relevant/"
-    },
-    {
-      "by": "tartoran",
-      "descendants": 0,
-      "id": 31639751,
-      "score": 1,
-      "time": 1654519506,
-      "title": "Lumumba's tooth: Belgium's unfinished reckoning with its colonial past",
-      "type": "story",
-      "url": "https://www.politico.eu/article/lumumba-tooth-belgium-unfinished-reckoning-colonial-past/"
-    },
-    {
-      "by": "watchdogtimer",
-      "descendants": 0,
-      "id": 31639724,
-      "score": 1,
-      "time": 1654519325,
-      "title": "Orange Pi 800 Keyboard PC – A Raspberry Pi 400 Alternative",
-      "type": "story",
-      "url": "https://www.cnx-software.com/2022/06/04/orange-pi-800-raspberry-pi-400-keyboard-pc-alternative-rockchip-rk3399/"
     }
   ]
 }
