@@ -1,11 +1,41 @@
 {
   "stories": [
     {
+      "by": "LinuxBender",
+      "descendants": 0,
+      "id": 31639933,
+      "score": 1,
+      "time": 1654520695,
+      "title": "Shortage of homes to rent leads to tenant bidding wars",
+      "type": "story",
+      "url": "https://www.bbc.co.uk/news/business-61650382"
+    },
+    {
+      "by": "LinuxBender",
+      "descendants": 0,
+      "id": 31639928,
+      "score": 1,
+      "time": 1654520660,
+      "title": "Flight cancellations: Children and teachers stranded abroad as school starts",
+      "type": "story",
+      "url": "https://www.bbc.co.uk/news/business-61699071"
+    },
+    {
+      "by": "tosh",
+      "descendants": 0,
+      "id": 31639927,
+      "score": 1,
+      "time": 1654520656,
+      "title": "CodeSandbox: Firecracker by default. more storage and more EPS",
+      "type": "story",
+      "url": "https://codesandbox.olvy.co/week-22"
+    },
+    {
       "by": "jensneuse",
       "descendants": 0,
       "id": 31639879,
-      "score": 1,
-      "text": "Dear HN Community. We&#x27;re Bjorn, Dustin, Stefan &amp; Jens, the founders of WunderGraph.<p>More than two years ago, Jens started WunderGraph as a Side Project.\nThe initial idea was to solve the problem of integrating multiple disparate DataSources into a single, unified API Layer.\nWhile solving this problem, Jens realized that his mental model of APIs was wrong.\nMost API tools treat APIs as abstract things or just endpoints, in a very imparative way.\nAt some point, he realized that there&#x27;s a better model to think about APIs:\nAPIs are dependencies and we should treat them in a declarative way!<p>And that&#x27;s how the idea of the &quot;Package Manager for APIs&quot;[1] came to be:\nWunderGraph is an API Developer toolkit which allows you to import and export APIs, just like npm packages.\nThis is possible because every WunderGraph project generates a static, conflict-free and versionable artifact.<p>It shouldn&#x27;t take days to add a new 3rd party API to your API layer,\nwith WunderGraph, this is possible in seconds.<p>WunderGraph lets you define your API dependencies in a declarative way.\nThe whole &quot;Graph&quot; of API dependencies is represented as an unified GraphQL Schema.\nMeta-data like API credentials, can be configured with our TypeScript SDK.\nAPI Operations are defined as regular GraphQL Operations.\nCustom middleware &#x2F; business logic can be written using TypeScript.<p>Finally, WunderGraph generates a Gateway + Client(s).\nGateway and clients communicate via JSON-RPC.\nWe call this approach &quot;Compile-time&quot; GraphQL queries.\nThe client is 100% TypeSafe.\nThe Gateway handles Authentication, Authorization, Caching, Middleware, etc...<p>WunderGraph gives you the Developer Experience of working with a single, monolithic API layer,\nalthough you&#x27;re using many different internal and external Services and Databases behind the scenes.<p>WunderGraph Supports any OpenID Connect compliant IDP for Authentication,\nS3 for file storage,\nREST (OpenAPI), GraphQL &amp; Apollo Federation for APIs\nand PostgreSQL, MySQL, SQLite, SQLServer, Planetscale and MongoDB for the data-layer.<p>Today, we&#x27;re happy to announce that WunderGraph is finally Open Source!\nCheck out the Monorepo[2] on GitHub. If you like our ambitions, give us a star!\nYou can run WunderGraph locally and air-gapped, no strings attached.<p>There&#x27;s also a more extensive release post on our blog[3].\nHave a look at the examples[4], we&#x27;re keen to hear your opinion!<p>[1]: https:&#x2F;&#x2F;hub.wundergraph.com&#x2F;start\n[2]: https:&#x2F;&#x2F;github.com&#x2F;wundergraph&#x2F;wundergraph\n[2]: https:&#x2F;&#x2F;wundergraph.com&#x2F;blog&#x2F;wundergraph_the_next_generation_api_developer_platform_is_open_source\n[3]: https:&#x2F;&#x2F;github.com&#x2F;wundergraph&#x2F;wundergraph#getting-started",
+      "score": 2,
+      "text": "Dear HN Community. We&#x27;re Bjorn, Dustin, Stefan &amp; Jens, the founders of WunderGraph.<p>More than two years ago, Jens started WunderGraph as a Side Project.\nThe initial idea was to solve the problem of integrating multiple disparate DataSources into a single, unified API Layer.\nWhile solving this problem, Jens realized that his mental model of APIs was wrong.\nMost API tools treat APIs as abstract things or just endpoints, in a very imparative way.\nAt some point, he realized that there&#x27;s a better model to think about APIs:\nAPIs are dependencies and we should treat them in a declarative way!<p>And that&#x27;s how the idea of the &quot;Package Manager for APIs&quot;[1] came to be:\nWunderGraph is an API Developer toolkit which allows you to import and export APIs, just like npm packages.\nThis is possible because every WunderGraph project generates a static, conflict-free and versionable artifact.<p>It shouldn&#x27;t take days to add a new 3rd party API to your API layer,\nwith WunderGraph, this is possible in seconds.<p>WunderGraph lets you define your API dependencies in a declarative way.\nThe whole &quot;Graph&quot; of API dependencies is represented as an unified GraphQL Schema.\nMeta-data like API credentials, can be configured with our TypeScript SDK.\nAPI Operations are defined as regular GraphQL Operations.\nCustom middleware &#x2F; business logic can be written using TypeScript.<p>Finally, WunderGraph generates a Gateway + Client(s).\nGateway and clients communicate via JSON-RPC.\nWe call this approach &quot;Compile-time&quot; GraphQL queries.\nThe client is 100% TypeSafe.\nThe Gateway handles Authentication, Authorization, Caching, Middleware, etc...<p>WunderGraph gives you the Developer Experience of working with a single, monolithic API layer,\nalthough you&#x27;re using many different internal and external Services and Databases behind the scenes.<p>WunderGraph Supports any OpenID Connect compliant IDP for Authentication,\nS3 for file storage,\nREST (OpenAPI), GraphQL &amp; Apollo Federation for APIs\nand PostgreSQL, MySQL, SQLite, SQLServer, Planetscale and MongoDB for the data-layer.<p>Today, we&#x27;re happy to announce that WunderGraph is finally Open Source!\nCheck out the Monorepo[2] on GitHub. If you like our ambitions, give us a star!\nYou can run WunderGraph locally and air-gapped, no strings attached.<p>There&#x27;s also a more extensive release post on our blog[3].\nHave a look at the examples[4], we&#x27;re keen to hear your opinion!<p>[1]: https:&#x2F;&#x2F;hub.wundergraph.com&#x2F;start<p>[2]: https:&#x2F;&#x2F;github.com&#x2F;wundergraph&#x2F;wundergraph<p>[3]: https:&#x2F;&#x2F;wundergraph.com&#x2F;blog&#x2F;wundergraph_the_next_generation_api_developer_platform_is_open_source<p>[4]: https:&#x2F;&#x2F;github.com&#x2F;wundergraph&#x2F;wundergraph#getting-started",
       "time": 1654520341,
       "title": "Show HN: WunderGraph – open-source API Developer Toolkit",
       "type": "story"
@@ -34,7 +64,7 @@
       "by": "vitabenes",
       "descendants": 0,
       "id": 31639856,
-      "score": 1,
+      "score": 2,
       "time": 1654520209,
       "title": "Dutch security service uses Pegasus software: Volkskrant",
       "type": "story",
@@ -62,43 +92,16 @@
     },
     {
       "by": "lynndotpy",
-      "descendants": 0,
+      "descendants": 1,
       "id": 31639797,
+      "kids": [
+        31639913
+      ],
       "score": 2,
       "text": "I&#x27;m one of those insufferable Linux nerds who went to Linux early in life after getting fed up with Windows. People said the grass was greener on the other side, and IMO they were right!<p>But I&#x27;ve heard tell of fields of <i>even greener grass</i>, all descendants of a mythical &quot;BSD&quot;.<p>But I&#x27;m wondering if that grass is greener only in theory. Are these tales of verdant fields true? I don&#x27;t have the same amount of free-time to tinker that I had when I first tried Linux, but I have the same curiosity.<p>So, to my question: Does anyone here use BSD in any &#x27;real&#x27; capacity? Say, as a personal desktop or a server or an embedded system?",
       "time": 1654519768,
       "title": "Ask HN: Does anyone here use a BSD for their main OS?",
       "type": "story"
-    },
-    {
-      "by": "Tomte",
-      "descendants": 0,
-      "id": 31639793,
-      "score": 1,
-      "time": 1654519740,
-      "title": "Fli4l: The on(e) disk router",
-      "type": "story",
-      "url": "https://www.fli4l.de/en/home/news/"
-    },
-    {
-      "by": "logankilpatrick",
-      "descendants": 0,
-      "id": 31639788,
-      "score": 2,
-      "time": 1654519708,
-      "title": "Oxygen.jl: A breath of fresh air for programming web apps in Julia",
-      "type": "story",
-      "url": "https://forem.julialang.org/ndortega/oxygenjl-a-breath-of-fresh-air-for-programming-web-apps-in-julia-454d"
-    },
-    {
-      "by": "ingve",
-      "descendants": 0,
-      "id": 31639773,
-      "score": 2,
-      "time": 1654519625,
-      "title": "iPadOS Multitasking at WWDC 2022",
-      "type": "story",
-      "url": "https://medium.learningbyshipping.com/ipados-multitasking-at-wwdc-2022-32c711cfd52a?gi=5163a9df08a2"
     }
   ]
 }
