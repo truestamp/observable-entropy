@@ -1,107 +1,104 @@
 {
   "stories": [
     {
+      "by": "ddtaylor",
+      "descendants": 0,
+      "id": 31639985,
+      "score": 1,
+      "time": 1654521009,
+      "title": "Program your next server in Go (2016)",
+      "type": "story",
+      "url": "https://talks.golang.org/2016/applicative.slide#1"
+    },
+    {
+      "by": "nyodeneD",
+      "descendants": 0,
+      "id": 31639978,
+      "score": 1,
+      "time": 1654520967,
+      "title": "Revolut partially unavailable: Currency exchange, Internal transfers, Sign in",
+      "type": "story",
+      "url": "https://www.revolut.com/system-status"
+    },
+    {
+      "by": "blacksqr",
+      "descendants": 0,
+      "id": 31639976,
+      "score": 1,
+      "time": 1654520950,
+      "title": "Lg2: Tcl Binding to Libgit2",
+      "type": "story",
+      "url": "https://github.com/apnadkarni/tcl-libgit2"
+    },
+    {
+      "by": "petercooper",
+      "descendants": 0,
+      "id": 31639957,
+      "score": 1,
+      "time": 1654520855,
+      "title": "Running Windows/ARM on Apple Silicon Macs via UTM",
+      "type": "story",
+      "url": "https://2ality.com/2022/06/windows-on-macs-via-utm.html"
+    },
+    {
+      "by": "z-shell",
+      "descendants": 0,
+      "id": 31639956,
+      "score": 1,
+      "time": 1654520854,
+      "title": "ZSH Plugin Standard",
+      "type": "story",
+      "url": "https://z.digitalclouds.dev/community/zsh_plugin_standard/"
+    },
+    {
       "by": "LinuxBender",
       "descendants": 0,
-      "id": 31639933,
+      "id": 31639954,
       "score": 1,
-      "time": 1654520695,
-      "title": "Shortage of homes to rent leads to tenant bidding wars",
+      "time": 1654520836,
+      "title": "Sony launches a space laser subsidiary (for comms, not conflict)",
       "type": "story",
-      "url": "https://www.bbc.co.uk/news/business-61650382"
+      "url": "https://www.theregister.com/2022/06/06/sony_satcomms_subsidiary/"
+    },
+    {
+      "by": "bshepard",
+      "descendants": 0,
+      "id": 31639951,
+      "score": 1,
+      "time": 1654520813,
+      "title": "Clocking IN: The Prehistory of Effective Management",
+      "type": "story",
+      "url": "https://deepsocks.substack.com/p/clocking-in"
+    },
+    {
+      "by": "NKosmatos",
+      "descendants": 0,
+      "id": 31639945,
+      "score": 1,
+      "time": 1654520776,
+      "title": "The Keeling Curve – global atmospheric carbon dioxide concentration",
+      "type": "story",
+      "url": "https://keelingcurve.ucsd.edu/"
     },
     {
       "by": "LinuxBender",
       "descendants": 0,
-      "id": 31639928,
+      "id": 31639943,
       "score": 1,
-      "time": 1654520660,
-      "title": "Flight cancellations: Children and teachers stranded abroad as school starts",
+      "time": 1654520764,
+      "title": "Grass to power thousands of Reading homes at new gas mill",
       "type": "story",
-      "url": "https://www.bbc.co.uk/news/business-61699071"
+      "url": "https://www.bbc.co.uk/news/uk-england-berkshire-61696033"
     },
     {
-      "by": "tosh",
+      "by": "qzx_pierri",
       "descendants": 0,
-      "id": 31639927,
+      "id": 31639936,
       "score": 1,
-      "time": 1654520656,
-      "title": "CodeSandbox: Firecracker by default. more storage and more EPS",
+      "time": 1654520727,
+      "title": "Turntable.fm Is Back",
       "type": "story",
-      "url": "https://codesandbox.olvy.co/week-22"
-    },
-    {
-      "by": "jensneuse",
-      "descendants": 0,
-      "id": 31639879,
-      "score": 2,
-      "text": "Dear HN Community. We&#x27;re Bjorn, Dustin, Stefan &amp; Jens, the founders of WunderGraph.<p>More than two years ago, Jens started WunderGraph as a Side Project.\nThe initial idea was to solve the problem of integrating multiple disparate DataSources into a single, unified API Layer.\nWhile solving this problem, Jens realized that his mental model of APIs was wrong.\nMost API tools treat APIs as abstract things or just endpoints, in a very imparative way.\nAt some point, he realized that there&#x27;s a better model to think about APIs:\nAPIs are dependencies and we should treat them in a declarative way!<p>And that&#x27;s how the idea of the &quot;Package Manager for APIs&quot;[1] came to be:\nWunderGraph is an API Developer toolkit which allows you to import and export APIs, just like npm packages.\nThis is possible because every WunderGraph project generates a static, conflict-free and versionable artifact.<p>It shouldn&#x27;t take days to add a new 3rd party API to your API layer,\nwith WunderGraph, this is possible in seconds.<p>WunderGraph lets you define your API dependencies in a declarative way.\nThe whole &quot;Graph&quot; of API dependencies is represented as an unified GraphQL Schema.\nMeta-data like API credentials, can be configured with our TypeScript SDK.\nAPI Operations are defined as regular GraphQL Operations.\nCustom middleware &#x2F; business logic can be written using TypeScript.<p>Finally, WunderGraph generates a Gateway + Client(s).\nGateway and clients communicate via JSON-RPC.\nWe call this approach &quot;Compile-time&quot; GraphQL queries.\nThe client is 100% TypeSafe.\nThe Gateway handles Authentication, Authorization, Caching, Middleware, etc...<p>WunderGraph gives you the Developer Experience of working with a single, monolithic API layer,\nalthough you&#x27;re using many different internal and external Services and Databases behind the scenes.<p>WunderGraph Supports any OpenID Connect compliant IDP for Authentication,\nS3 for file storage,\nREST (OpenAPI), GraphQL &amp; Apollo Federation for APIs\nand PostgreSQL, MySQL, SQLite, SQLServer, Planetscale and MongoDB for the data-layer.<p>Today, we&#x27;re happy to announce that WunderGraph is finally Open Source!\nCheck out the Monorepo[2] on GitHub. If you like our ambitions, give us a star!\nYou can run WunderGraph locally and air-gapped, no strings attached.<p>There&#x27;s also a more extensive release post on our blog[3].\nHave a look at the examples[4], we&#x27;re keen to hear your opinion!<p>[1]: https:&#x2F;&#x2F;hub.wundergraph.com&#x2F;start<p>[2]: https:&#x2F;&#x2F;github.com&#x2F;wundergraph&#x2F;wundergraph<p>[3]: https:&#x2F;&#x2F;wundergraph.com&#x2F;blog&#x2F;wundergraph_the_next_generation_api_developer_platform_is_open_source<p>[4]: https:&#x2F;&#x2F;github.com&#x2F;wundergraph&#x2F;wundergraph#getting-started",
-      "time": 1654520341,
-      "title": "Show HN: WunderGraph – open-source API Developer Toolkit",
-      "type": "story"
-    },
-    {
-      "by": "yamrzou",
-      "descendants": 0,
-      "id": 31639876,
-      "score": 1,
-      "time": 1654520319,
-      "title": "How were Depression and Anxiety treated and seen in the Medieval era?",
-      "type": "story",
-      "url": "https://old.reddit.com/r/AskHistorians/comments/86s4lx/how_were_depression_and_anxiety_treated_and_seen/"
-    },
-    {
-      "by": "anticristi",
-      "descendants": 0,
-      "id": 31639860,
-      "score": 1,
-      "text": "Hi,<p>I wanted to play a traditional Swedish song on my piano. When looking for the score sheets, both Google and DuckDuckGo seem to be littered with big budget startups that use &quot;SEO&quot; and all dark patterns in the world to direct search engine traffic towards their paywall. (I&#x27;m looking at you Musescore!)<p>Are there any &quot;free and not dodgy like Wikipedia&quot; websites where one can find public domain piano score sheets?",
-      "time": 1654520219,
-      "title": "Ask HN: Where can I find public domain score sheets for free?",
-      "type": "story"
-    },
-    {
-      "by": "vitabenes",
-      "descendants": 0,
-      "id": 31639856,
-      "score": 2,
-      "time": 1654520209,
-      "title": "Dutch security service uses Pegasus software: Volkskrant",
-      "type": "story",
-      "url": "https://www.dutchnews.nl/news/2022/06/197938/"
-    },
-    {
-      "by": "Topolomancer",
-      "descendants": 0,
-      "id": 31639826,
-      "score": 1,
-      "time": 1654520017,
-      "title": "The Machine Learning Scientist as Toolsmith",
-      "type": "story",
-      "url": "https://bastian.rieck.me/blog/posts/2022/toolsmith/"
-    },
-    {
-      "by": "atlasunshrugged",
-      "descendants": 0,
-      "id": 31639821,
-      "score": 1,
-      "time": 1654519961,
-      "title": "Poor Prospects–Not Inequality–Motivate Political Violence",
-      "type": "story",
-      "url": "https://journals.sagepub.com/doi/full/10.1177/00220027221074647"
-    },
-    {
-      "by": "lynndotpy",
-      "descendants": 1,
-      "id": 31639797,
-      "kids": [
-        31639913
-      ],
-      "score": 2,
-      "text": "I&#x27;m one of those insufferable Linux nerds who went to Linux early in life after getting fed up with Windows. People said the grass was greener on the other side, and IMO they were right!<p>But I&#x27;ve heard tell of fields of <i>even greener grass</i>, all descendants of a mythical &quot;BSD&quot;.<p>But I&#x27;m wondering if that grass is greener only in theory. Are these tales of verdant fields true? I don&#x27;t have the same amount of free-time to tinker that I had when I first tried Linux, but I have the same curiosity.<p>So, to my question: Does anyone here use BSD in any &#x27;real&#x27; capacity? Say, as a personal desktop or a server or an embedded system?",
-      "time": 1654519768,
-      "title": "Ask HN: Does anyone here use a BSD for their main OS?",
-      "type": "story"
+      "url": "https://turntable.fm/"
     }
   ]
 }
