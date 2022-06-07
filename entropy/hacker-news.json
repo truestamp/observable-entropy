@@ -1,6 +1,48 @@
 {
   "stories": [
-    null,
+    {
+      "by": "arobinson_ae",
+      "descendants": 1,
+      "id": 31656639,
+      "kids": [
+        31656641
+      ],
+      "score": 1,
+      "time": 1654618994,
+      "title": "Hefty search – search everywhere at once",
+      "type": "story",
+      "url": "https://www.heftysearch.com/"
+    },
+    {
+      "by": "Whitespace",
+      "descendants": 0,
+      "id": 31656603,
+      "score": 2,
+      "time": 1654618884,
+      "title": "Trash Fence Stops Plastic Tsunami in World’s Most Polluting River (Then Fails)",
+      "type": "story",
+      "url": "https://www.youtube.com/watch?v=4rVTWsQ23Pk"
+    },
+    {
+      "by": "yakshaving_jgt",
+      "descendants": 0,
+      "id": 31656591,
+      "score": 2,
+      "time": 1654618841,
+      "title": "100% of Patients in Remission After Rectal Cancer Drug Trial",
+      "type": "story",
+      "url": "https://www.nejm.org/doi/pdf/10.1056/NEJMoa2201445"
+    },
+    {
+      "by": "edavis",
+      "descendants": 0,
+      "id": 31656579,
+      "score": 2,
+      "time": 1654618787,
+      "title": "How the Internet Is Like a Dying Star",
+      "type": "story",
+      "url": "https://newsletters.theatlantic.com/galaxy-brain/629ec16551acba002091af11/internet-social-media-reactionary-doom-loop/"
+    },
     {
       "by": "NickRandom",
       "descendants": 0,
@@ -24,8 +66,11 @@
     },
     {
       "by": "didgetmaster",
-      "descendants": 0,
+      "descendants": 1,
       "id": 31656473,
+      "kids": [
+        31656623
+      ],
       "score": 2,
       "text": "I have worked a few jobs that required some DB tuning in order to get queries to run faster. One of the first things to do is to create and maintain indexes on relational tables. You spend time analyzing queries to determine what columns need indexes and what kind of index each one needs. Once the queries get fast enough, someone comes up with a new query that is slow because it filters on a column without an index and your nose is right back at the grindstone.<p>I created a new DB architecture that is radically different than anything I have seen. It is a set of performant key-value stores that can be grouped together to form relational tables. The data within each store is optimized for search so you have just one copy of each data point (no separate indexes). It can handle large tables (100 million+ rows and 2000+ columns) and has a flexible schema so it can handle data like Json that includes arrays for each column. The system is in open beta at &lt;www.Didgets.com&gt; so anyone can download and try it.<p>Since I never liked the grunt work of creating and maintaining indexes (along with the performance hit they cause for inserts, updates, and deletes); I thought that other database experts would be really interested in a new system that does not require them. Queries on my system are faster than on other highly-tuned DBs. But so far I have gotten a collective yawn from many people I show it to.<p>Am I missing something? Do others really like creating and maintaining DB indexes, even though I did not?",
       "time": 1654618322,
@@ -44,9 +89,10 @@
     },
     {
       "by": "Deceptive",
-      "descendants": 1,
+      "descendants": 2,
       "id": 31656401,
       "kids": [
+        31656609,
         31656526
       ],
       "score": 1,
@@ -64,36 +110,6 @@
       "title": "The idea of working in the office, all day, every day? No thanks, say workers",
       "type": "story",
       "url": "https://www.npr.org/2022/06/05/1102744672/remote-work-from-home-return-to-office-covid-pandemic-workers-apple-google"
-    },
-    {
-      "by": "kaycebasques",
-      "descendants": 0,
-      "id": 31656381,
-      "score": 2,
-      "time": 1654618026,
-      "title": "PlanetLab",
-      "type": "story",
-      "url": "https://planetlab.cs.princeton.edu/"
-    },
-    {
-      "by": "kevinwmerritt",
-      "descendants": 0,
-      "id": 31656364,
-      "score": 1,
-      "time": 1654617970,
-      "title": "Umbrel 0.5 – A beautiful personal server OS for self-hosting",
-      "type": "story",
-      "url": "https://blog.getumbrel.com/introducing-umbrel-0-5-a-beautiful-personal-server-os-for-self-hosting-dcbee7e23b64"
-    },
-    {
-      "by": "uberdru",
-      "descendants": 0,
-      "id": 31656359,
-      "score": 1,
-      "time": 1654617958,
-      "title": "A Cypherpunk's Manifesto",
-      "type": "story",
-      "url": "https://activism.net/cypherpunk/manifesto.html"
     }
   ]
 }
