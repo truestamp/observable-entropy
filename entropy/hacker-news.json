@@ -1,6 +1,66 @@
 {
   "stories": [
     {
+      "by": "squarefoot",
+      "descendants": 0,
+      "id": 31657180,
+      "score": 1,
+      "text": "Did anyone succeed in reverse engineering and&#x2F;or reflashing with custom open firmware those cheap AHD capable DVR boards based on the NT9832x and similar SoCs?<p>You can find them for sale online from Chinese vendors by searching &quot;AHD DVR board&quot;. Basically they are CCTV DVR devices without the enclosure.<p>Here&#x27;s one: https:&#x2F;&#x2F;www.ebay.com&#x2F;itm&#x2F;275089522569<p>They all employ some tight closed Linux firmware, and as many other tight closed networked Chinese products have been caught phoning home, it is completely unsafe to let them open to the outside through the internal LAN; some also use old kernels (3.x) that could expose vulnerabilities, therefore a firewall becomes a must. Many of them also attempt to force users to install proprietary apps on phones or use Microsoft browsers to administer them via their web page. They, and their users, would benefit immensely from an Open Source treatment.<p>Security aside, those still are interesting device nonetheless for having some nice capabilities that would turn useful for other projects; all those very fast ADCs could be used for SDR, SATA ports for storage, etc.<p>I spent some time searching around, as I did unsuccessfully with older models years ago, but as before found nothing more than a few posts, all in Chinese, referring to some vendor SDK but no hints on how to get it, which probably means it&#x27;s buried under a pile of NDAs.<p>https:&#x2F;&#x2F;blog.csdn.net&#x2F;layuetian2011&#x2F;article&#x2F;details&#x2F;114830208<p>https:&#x2F;&#x2F;cxybb.com&#x2F;article&#x2F;layuetian2011&#x2F;113877640<p>So did anyone have any hacking experience with them?",
+      "time": 1654621177,
+      "title": "Reverse engineering AHD DVR boards, possible?",
+      "type": "story"
+    },
+    {
+      "by": "Tomte",
+      "descendants": 0,
+      "id": 31657141,
+      "score": 1,
+      "time": 1654621030,
+      "title": "Robots and Generative Art and Python, oh my (2020)",
+      "type": "story",
+      "url": "https://www.chromatocosmos.com/post/robots-and-generative-art-and-python-oh-my"
+    },
+    {
+      "by": "dcblogdev",
+      "descendants": 0,
+      "id": 31657138,
+      "score": 1,
+      "time": 1654621027,
+      "title": "Released Laravel Tall AdminTW Theme",
+      "type": "story",
+      "url": "https://dcblog.dev/released-laravel-tall-admintw-theme"
+    },
+    {
+      "by": "margotli",
+      "descendants": 0,
+      "id": 31657133,
+      "score": 2,
+      "time": 1654621000,
+      "title": "USB-C on all phones by autumn 2024 in EU",
+      "type": "story",
+      "url": "https://www.cnn.com/2022/06/07/tech/europe-uscb-requirement/index.html"
+    },
+    {
+      "by": "marvram",
+      "descendants": 0,
+      "id": 31657126,
+      "score": 1,
+      "time": 1654620968,
+      "title": "Tips on how to best communicate your project via writing",
+      "type": "story",
+      "url": "https://www.essentialstartupbytes.com/posts/tips-on-how-to-best-communicate-your-project-via-writing"
+    },
+    {
+      "by": "espacio",
+      "descendants": 0,
+      "id": 31657117,
+      "score": 1,
+      "time": 1654620908,
+      "title": "Mexico faces doctor shortage in regions of the country",
+      "type": "story",
+      "url": "https://aztecreports.com/mexico-faces-doctor-shortage-in-marginalized-regions-of-the-country/2932/"
+    },
+    {
       "by": "jelliclesfarm",
       "descendants": 0,
       "id": 31657105,
@@ -32,76 +92,16 @@
     },
     {
       "by": "strict9",
-      "descendants": 0,
+      "descendants": 1,
       "id": 31657068,
-      "score": 2,
+      "kids": [
+        31657127
+      ],
+      "score": 3,
       "time": 1654620662,
       "title": "US import demand is dropping off a cliff",
       "type": "story",
       "url": "https://www.freightwaves.com/news/us-import-demand-drops-off-a-cliff"
-    },
-    {
-      "by": "healeycodes",
-      "descendants": 0,
-      "id": 31657053,
-      "score": 1,
-      "time": 1654620610,
-      "title": "Building and Solving Sokoban",
-      "type": "story",
-      "url": "https://healeycodes.com/building-and-solving-sokoban"
-    },
-    {
-      "by": "Michelangelo11",
-      "descendants": 0,
-      "id": 31657044,
-      "score": 1,
-      "time": 1654620579,
-      "title": "Seventeen Theses on Disability",
-      "type": "story",
-      "url": "https://freddiedeboer.substack.com/p/twelve-theses-on-disability"
-    },
-    {
-      "by": "Tomte",
-      "descendants": 0,
-      "id": 31657020,
-      "score": 1,
-      "time": 1654620482,
-      "title": "Retrofitting Temporal Memory Safety on C++",
-      "type": "story",
-      "url": "https://security.googleblog.com/2022/05/retrofitting-temporal-memory-safety-on-c.html"
-    },
-    {
-      "by": "pmoriarty",
-      "descendants": 0,
-      "id": 31657006,
-      "score": 2,
-      "time": 1654620405,
-      "title": "What’s the best lossless image format?",
-      "type": "story",
-      "url": "https://siipo.la/blog/whats-the-best-lossless-image-format-comparing-png-webp-avif-and-jpeg-xl"
-    },
-    {
-      "by": "Figgy24",
-      "descendants": 0,
-      "id": 31657000,
-      "score": 1,
-      "time": 1654620384,
-      "title": "One senior engineer got a job at Meta",
-      "type": "story",
-      "url": "https://www.linkedin.com/posts/hackpack-io_join-the-programming-interview-prep-discord-activity-6939920904390877184-1MNo"
-    },
-    {
-      "by": "uuddlrlrba",
-      "descendants": 1,
-      "id": 31656982,
-      "kids": [
-        31656987
-      ],
-      "score": 1,
-      "time": 1654620298,
-      "title": "Show HN: Mathzetta – Convert Math to LaTeX with JavaScript",
-      "type": "story",
-      "url": "https://mathzetta.com"
     }
   ]
 }
