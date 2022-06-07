@@ -1,6 +1,26 @@
 {
   "stories": [
     {
+      "by": "ghuntley",
+      "descendants": 0,
+      "id": 31652388,
+      "score": 1,
+      "time": 1654599780,
+      "title": "Web3, NFTs, and cryptocurrency are dangerous to society and the planet",
+      "type": "story",
+      "url": "https://medium.com/@kim_crawley/web3-nfts-and-cryptocurrency-are-dangerous-to-society-and-the-planet-and-computer-scientists-cf8932788c48"
+    },
+    {
+      "by": "feross",
+      "descendants": 0,
+      "id": 31652382,
+      "score": 1,
+      "time": 1654599712,
+      "title": "WWDC22 Highlights",
+      "type": "story",
+      "url": "https://www.apple.com/newsroom/2022/06/wwdc22-highlights/"
+    },
+    {
       "by": "todsacerdoti",
       "descendants": 0,
       "id": 31652363,
@@ -34,7 +54,7 @@
       "by": "geox",
       "descendants": 0,
       "id": 31652291,
-      "score": 4,
+      "score": 6,
       "time": 1654599009,
       "title": "EU reaches deal to make USB-C a common charger for most electronic devices",
       "type": "story",
@@ -42,8 +62,11 @@
     },
     {
       "by": "thrwawy283",
-      "descendants": 0,
+      "descendants": 1,
       "id": 31652271,
+      "kids": [
+        31652378
+      ],
       "score": 2,
       "text": "I&#x27;m no great software engineer, but I&#x27;m curious if there are any strong opinions on which executable format is the best.  Formats like PE or ELF or (a.out?) or others?<p>Typically if you run a particular operating system you&#x27;re not going to see several types of executable formats.  The question wouldn&#x27;t come up.<p>There have to be others with odd advantages, like an executable format that lends itself toward streaming-in the parts of the binary you&#x27;re executing (exec as you torrent, lol).  Or perhaps 1 that stores different parts of itself in a SQL database (read-only, strings, debugging info, etc).  Someone has to have created an executable format out of sqlite databases.  I remember &quot;Universal&quot; binaries on Mac archived several architectures&#x27; binaries together.<p>In the interest of a discussion I haven&#x27;t seen:  What is the best executable format and why?  What are some creative ones?",
       "time": 1654598832,
@@ -74,34 +97,11 @@
       "by": "pseudolus",
       "descendants": 0,
       "id": 31652257,
-      "score": 3,
+      "score": 4,
       "time": 1654598750,
       "title": "Man murdered after girlfriend used AirTag to investigate cheating",
       "type": "story",
       "url": "https://appleinsider.com/articles/22/06/04/man-murdered-after-girlfriend-used-airtag-to-investigate-cheating"
-    },
-    {
-      "by": "solospace",
-      "descendants": 1,
-      "id": 31652252,
-      "kids": [
-        31652310
-      ],
-      "score": 1,
-      "time": 1654598716,
-      "title": "The first Artemis astronauts to land on the Moon will wear commercial spacesuits",
-      "type": "story",
-      "url": "https://blog.jatan.space/p/moon-monday-issue-80"
-    },
-    {
-      "by": "marban",
-      "descendants": 0,
-      "id": 31652239,
-      "score": 2,
-      "time": 1654598633,
-      "title": "“Dear crypto ” – Message from a Telegram hacker",
-      "type": "story",
-      "url": "https://twitter.com/adyingnobody/status/1534021154674966529"
     }
   ]
 }
