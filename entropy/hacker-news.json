@@ -1,11 +1,22 @@
 {
   "stories": [
+    null,
+    {
+      "by": "NickRandom",
+      "descendants": 0,
+      "id": 31656549,
+      "score": 1,
+      "time": 1654618652,
+      "title": "Improving the accessibility of online data visualizations for screen-readers",
+      "type": "story",
+      "url": "https://github.com/athersharif/voxlens"
+    },
     {
       "by": "alexarena",
       "descendants": 0,
       "id": 31656496,
-      "score": 1,
-      "text": "Hey HN,<p>I&#x27;m Alex, founder of Interval [1]. We’re bringing internal tools written like CLIs to the browser to make them more powerful, through a Node.js SDK which attaches them to a hosted dashboard without any frontend code. Large companies have full teams that work on internal dashboards and tooling. Interval brings that infrastructure to anyone.<p>In our previous project we had ~65 CLI scripts for tasks like provisioning user accounts, moderating content, and migrating data. These were quick to write and powerful. They also turned into an ongoing timesuck. Non-technical coworkers needed to bother an engineer every time to run one. Some of them were powerful enough to be footguns, and because we had to rewrite validation every time, we were always a bit scared of them.<p>We wanted to bring the power and speed of cranking out CLI scripts into the world of modern software development: testable, easy to expose to colleagues via a URL, and works with Everything Else by default. That’s why we made Interval.<p>We built:\n- A Node.js + TypeScript SDK – this embeds in your backend codebase and provides APIs for defining tools + collecting input + displaying output. These APIs are simple awaitable functions that return parsed, validated, and soundly-typed user input. You put your Interval actions in source control, test them, run CI&#x2F;etc exactly like you do for all your other backend code.\n- A hosted UI, which handles I&#x2F;O for the scripts in a less brittle way than command line arguments do, while also taking care of auth, permissions, and audit logs.<p>This lets you take your CLI commands out of an engineer’s terminal and share them with the whole company. Give support the ability to ban spammers but not drop the prod DB. Require two people for sensitive actions. Echo commands to a Slack channel. It’s a powerful set of primitives out of the box and lets you do anything else you want in the code you’re already writing, without making you have to spin up a second company just to support your internal tools.<p>Under the hood, your CLIs and the hosted dashboard talk through a 2-way message passing system. We felt this approach was the best of both worlds:\n- UIs are hosted by Interval: We build, host, and maintain the part most people don&#x27;t care about for internal tools.\n- Backends are self-hosted: We can&#x27;t see your business logic, secrets, etc.<p>We&#x27;re in public beta today. I hope you like it and I&#x27;m happy to answer any questions&#x2F;feedback in the comments.<p>[1]: <a href=\"https:&#x2F;&#x2F;interval.com\" rel=\"nofollow\">https:&#x2F;&#x2F;interval.com</a>",
+      "score": 3,
+      "text": "Hey HN,<p>I&#x27;m Alex, founder of Interval [1]. We’re bringing internal tools written like CLIs to the browser to make them more powerful, through a Node.js SDK which attaches them to a hosted dashboard without any frontend code. Large companies have full teams that work on internal dashboards and tooling. Interval brings that infrastructure to anyone.<p>In our previous project we had ~65 CLI scripts for tasks like provisioning user accounts, moderating content, and migrating data. These were quick to write and powerful. They also turned into an ongoing timesuck. Non-technical coworkers needed to bother an engineer every time to run one. Some of them were powerful enough to be footguns, and because we had to rewrite validation every time, we were always a bit scared of them.<p>We wanted to bring the power and speed of cranking out CLI scripts into the world of modern software development: testable, easy to expose to colleagues via a URL, and works with Everything Else by default. That’s why we made Interval.<p>We built:<p>- A Node.js + TypeScript SDK – this embeds in your backend codebase and provides APIs for defining tools + collecting input + displaying output. These APIs are simple awaitable functions that return parsed, validated, and soundly-typed user input. You put your Interval actions in source control, test them, run CI&#x2F;etc exactly like you do for all your other backend code.<p>- A hosted UI, which handles I&#x2F;O for the scripts in a less brittle way than command line arguments do, while also taking care of auth, permissions, and audit logs.<p>This lets you take your CLI commands out of an engineer’s terminal and share them with the whole company. Give support the ability to ban spammers but not drop the prod DB. Require two people for sensitive actions. Echo commands to a Slack channel. It’s a powerful set of primitives out of the box and lets you do anything else you want in the code you’re already writing, without making you have to spin up a second company just to support your internal tools.<p>Under the hood, your CLIs and the hosted dashboard talk through a 2-way message passing system. We felt this approach was the best of both worlds:<p>- UIs are hosted by Interval: We build, host, and maintain the part most people don&#x27;t care about for internal tools.<p>- Backends are self-hosted: We can&#x27;t see your business logic, secrets, etc.<p>We&#x27;re in public beta today. I hope you like it and I&#x27;m happy to answer any questions&#x2F;feedback in the comments.<p>[1]: <a href=\"https:&#x2F;&#x2F;interval.com\" rel=\"nofollow\">https:&#x2F;&#x2F;interval.com</a>",
       "time": 1654618441,
       "title": "Show HN: Interval, CLIs in browser with no front end code",
       "type": "story",
@@ -15,7 +26,7 @@
       "by": "didgetmaster",
       "descendants": 0,
       "id": 31656473,
-      "score": 1,
+      "score": 2,
       "text": "I have worked a few jobs that required some DB tuning in order to get queries to run faster. One of the first things to do is to create and maintain indexes on relational tables. You spend time analyzing queries to determine what columns need indexes and what kind of index each one needs. Once the queries get fast enough, someone comes up with a new query that is slow because it filters on a column without an index and your nose is right back at the grindstone.<p>I created a new DB architecture that is radically different than anything I have seen. It is a set of performant key-value stores that can be grouped together to form relational tables. The data within each store is optimized for search so you have just one copy of each data point (no separate indexes). It can handle large tables (100 million+ rows and 2000+ columns) and has a flexible schema so it can handle data like Json that includes arrays for each column. The system is in open beta at &lt;www.Didgets.com&gt; so anyone can download and try it.<p>Since I never liked the grunt work of creating and maintaining indexes (along with the performance hit they cause for inserts, updates, and deletes); I thought that other database experts would be really interested in a new system that does not require them. Queries on my system are faster than on other highly-tuned DBs. But so far I have gotten a collective yawn from many people I show it to.<p>Am I missing something? Do others really like creating and maintaining DB indexes, even though I did not?",
       "time": 1654618322,
       "title": "Is a DB that doesn't need indexes attractive to DBAs?",
@@ -33,8 +44,11 @@
     },
     {
       "by": "Deceptive",
-      "descendants": 0,
+      "descendants": 1,
       "id": 31656401,
+      "kids": [
+        31656526
+      ],
       "score": 1,
       "text": "Today I traveled to NY from CA and because of that I&#x27;m on my 15&quot; $5.5K MacBook. For some reason at the time of my Apple purchase this was the largest screen size they offered.<p>Also today, I was inside of my company&#x27;s web browser based admin portal, and a field I needed to see at the top of the page was hidden. Turned out that our lead developer grew our navbar and for some reason this prevented me from seeing what I needed.<p>I asked the dev if my laptop should accept having its small screen be the reason, or if it should blame him (the dev) for what was about to happen to it (being thrown out of the window and sent to heaven). Dev explained to me that I should go to BestBuy to get a large monitor.<p>We&#x27;re one less team member today.<p>Hope you&#x27;re having a better day!",
       "time": 1654618094,
@@ -80,26 +94,6 @@
       "title": "A Cypherpunk's Manifesto",
       "type": "story",
       "url": "https://activism.net/cypherpunk/manifesto.html"
-    },
-    {
-      "by": "Barrera",
-      "descendants": 0,
-      "id": 31656356,
-      "score": 1,
-      "time": 1654617951,
-      "title": "What We Can Learn from the Dramatic Dip in Divorce Among Millennials (2019)",
-      "type": "story",
-      "url": "https://psmag.com/ideas/what-we-can-learn-from-the-dramatic-dip-in-divorce-among-millennials"
-    },
-    {
-      "by": "JumpCrisscross",
-      "descendants": 0,
-      "id": 31656343,
-      "score": 2,
-      "time": 1654617915,
-      "title": "Adult Children of Work-Visa Recipients Forced to Return to Parents’ Countries",
-      "type": "story",
-      "url": "https://www.wsj.com/articles/adult-children-of-work-visa-recipients-forced-to-return-to-parents-countries-11654596000"
     }
   ]
 }
