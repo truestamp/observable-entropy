@@ -1,6 +1,16 @@
 {
   "stories": [
     {
+      "by": "tosh",
+      "descendants": 0,
+      "id": 31656172,
+      "score": 1,
+      "time": 1654617299,
+      "title": "DIY Lego Terminal",
+      "type": "story",
+      "url": "https://twitter.com/ancient_james/status/1534002794726031360"
+    },
+    {
       "by": "b3morales",
       "descendants": 0,
       "id": 31656083,
@@ -15,7 +25,7 @@
       "descendants": 0,
       "id": 31656064,
       "score": 1,
-      "text": "Google has removed the &quot;Permissions&quot; link both in the Google Play app (latest version as of 2022-06-07) and on the Google Play website.<p>This also applies when trying to install app updates so you cannot easily notice if an update introduces new permissions. (Previous Play versions would even mark new permissions with a green &quot;New&quot; indicator, which helped a lot.)<p>The &quot;Permissions&quot; link was replaced with a &quot;Data safety&quot; link which merely contains something like a privacy policy, not the actual permissions the apps will request.<p>As a consequence, installing an app and using Android&#x27;s own UI to view permissions is the only way to determine the perms now.<p>This implies that if bad apps upload private data right after installation they can frontrun the user&#x27;s chance to review their permissions:<p>The Internet permission does not require manual consent via a popup, and certain permissions which reveal private data such as your phone number&#x2F;identity and accounts on the device also do not require consent. So frontrunning is possible.<p>(IMHO this is not a theoretical scenario: The last time I searched for &quot;flashlight&quot; on Google Play there still was a flood of &quot;flashlight&quot; apps which wanted access to lots of private data, even though a flashlight shouldn&#x27;t need any data at all.)",
+      "text": "Google has removed the &quot;Permissions&quot; link on the pages of apps both in the Google Play app (latest version as of 2022-06-07) and on the Google Play website.<p>Not shipping a sample link so I don&#x27;t get accused of trying to promote my app. Go to https:&#x2F;&#x2F;play.google.com and check any.<p>This also applies when trying to install app updates so you cannot easily notice if an update introduces new permissions. (Previous Play versions would even mark new permissions with a green &quot;New&quot; indicator, which helped a lot.)<p>The &quot;Permissions&quot; link was replaced with a &quot;Data safety&quot; link which merely contains something like a privacy policy, not the actual permissions the apps will request.<p>As a consequence, installing an app and using Android&#x27;s own UI to view permissions is the only way to determine the perms now.<p>This implies that if bad apps upload private data right after installation they can frontrun the user&#x27;s chance to review their permissions:<p>The Internet permission does not require manual consent via a popup, and certain permissions which reveal private data such as your phone number&#x2F;identity and accounts on the device also do not require consent. So frontrunning is possible.<p>(IMHO this is not a theoretical scenario: The last time I searched for &quot;flashlight&quot; on Google Play there still was a flood of &quot;flashlight&quot; apps which wanted access to lots of private data, even though a flashlight shouldn&#x27;t need any data at all.)",
       "time": 1654616878,
       "title": "Google Play app+web now disallow seeing app perms, installing is the only way to",
       "type": "story"
@@ -44,7 +54,7 @@
       "by": "DougMellon",
       "descendants": 0,
       "id": 31656048,
-      "score": 1,
+      "score": 2,
       "time": 1654616820,
       "title": "Documenting Architecture Decisions",
       "type": "story",
@@ -52,9 +62,13 @@
     },
     {
       "by": "DougMellon",
-      "descendants": 0,
+      "descendants": 2,
       "id": 31656033,
-      "score": 1,
+      "kids": [
+        31656151,
+        31656103
+      ],
+      "score": 3,
       "time": 1654616763,
       "title": "Tell HN: HN search is hitting a 502 Bad Gateway",
       "type": "story"
@@ -91,16 +105,6 @@
       "title": "Design of a Separable Transition-Diagram Compiler (1963) [pdf]",
       "type": "story",
       "url": "http://melconway.com/Home/pdf/compiler.pdf"
-    },
-    {
-      "by": "stoicjumbotron",
-      "descendants": 0,
-      "id": 31656023,
-      "score": 1,
-      "time": 1654616723,
-      "title": "WebContainers are now supported in Firefox on desktop and Android",
-      "type": "story",
-      "url": "https://blog.stackblitz.com/posts/webcontainers-are-now-supported-on-firefox/"
     }
   ]
 }
