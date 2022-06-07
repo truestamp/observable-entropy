@@ -1,6 +1,26 @@
 {
   "stories": [
     {
+      "by": "kwent",
+      "descendants": 0,
+      "id": 31653985,
+      "score": 1,
+      "text": "Hi HN, Quentin and JJ here! We are co-founders at Rootly ([<a href=\"https:&#x2F;&#x2F;rootly.com&#x2F;](https:&#x2F;&#x2F;rootly.com&#x2F;)\" rel=\"nofollow\">https:&#x2F;&#x2F;rootly.com&#x2F;](https:&#x2F;&#x2F;rootly.com&#x2F;)</a>), an incident management platform built on Slack. Rootly helps automate manual admin work during incidents like the creation of Slack channels, Jira tickets, Zoom rooms &amp; more. We also help you get data on your incidents and help automate postmortem creation.<p>We met at Instacart, where I was the first SRE and JJ was on the product side owning ~20% GMV on the enterprise and last-mile delivery business. As Instacart grew from processing hundreds to millions of orders, we had to scale our infrastructure, teams, and processes to keep up with this growth. Unsurprisingly, this led to our fair share of incidents (e.g. checkout issues, site outages, etc.) and a lot of restless nights while on-call.<p>This was further compounded by COVID-19 and the first wave of lockdowns. We surged in traffic by 500% overnight as everyone turned to online grocery. This highlighted our need for a better incident management process as it stressed every element of it. Our manual ways of working in Slack, PagerDuty, Datadog, simply weren’t enough. At first, we figured this was an Instacart-specific problem but luckily realized it wasn’t.<p>A few things here. Our process lacked consistency. Depending on who was responding and their incident experience it varied greatly. Most companies after they declare an incident rely on a buried-away runbook like on Confluence&#x2F;Google Docs to try and follow a lengthy checklist of steps. This is hard to find, difficult to follow accurately, slow, and stress inducing. Especially after you’ve been woken up to a page at 3 am. We started working on how to automate this.<p>Fast forward to today, companies like Canva, Grammarly, Bolt, Faire, Productboard, OpenSea, Shell use Rootly for their incident response. We think of ourselves as part of the post-alerting workflow. Tools like PagerDuty, Datadog act like a smoke alarm to alert you to an incident, which hand off to Rootly so we can orchestrate the actual response.<p>We’ve learned a lot along the way. We realized the majority of our customers use the same 6 (Slack, PagerDuty, Jira, Zoom, Confluence, Google Docs, etc.) tools, follow roughly the same incident response process (create incident → collaborate → write postmortem), but their process varies dramatically. The challenge in changing these processes is hard.<p>Our focus in the early days was build a hyper opinionated product to help them follow what we believe are the best practices. Now our product direction is focused on configuration and flexibility, how can we plug Rootly into your already existing way of working and automate it. This has helped our larger enterprise customers be successful with their current processes being automated.<p>Our biggest competition is not PagerDuty&#x2F;Opsgenie (in fact 98% of our customers use them) or other startups. Its internal tooling companies have built out of necessity, often because tools like Rootly didn’t exist yet. Stripe ([<a href=\"https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=fZ8rvMhLyI4](https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=fZ8rvMhLyI4)\" rel=\"nofollow\">https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=fZ8rvMhLyI4](https:&#x2F;&#x2F;www.you...</a>) and GitLab ([<a href=\"https:&#x2F;&#x2F;about.gitlab.com&#x2F;handbook&#x2F;engineering&#x2F;infrastructure&#x2F;incident-management&#x2F;](https:&#x2F;&#x2F;about.gitlab.com&#x2F;handbook&#x2F;engineering&#x2F;infrastructure&#x2F;incident-management&#x2F;)\" rel=\"nofollow\">https:&#x2F;&#x2F;about.gitlab.com&#x2F;handbook&#x2F;engineering&#x2F;infrastructure...</a>) are good examples of this.<p>Our journey is just getting started as we learn more each day. Would love to hear any feedback on our product or anything you find frustrating about incident response today.<p>Leaving you with a quick demo: [<a href=\"https:&#x2F;&#x2F;www.loom.com&#x2F;share&#x2F;313a8f81f0a046f284629afc3263ebff](https:&#x2F;&#x2F;www.loom.com&#x2F;share&#x2F;313a8f81f0a046f284629afc3263ebff)\" rel=\"nofollow\">https:&#x2F;&#x2F;www.loom.com&#x2F;share&#x2F;313a8f81f0a046f284629afc3263ebff]...</a>",
+      "time": 1654608571,
+      "title": "Launch HN: Rootly (YC S21) – Manage Incidents in Slack",
+      "type": "story"
+    },
+    {
+      "by": "BOOSTERHIDROGEN",
+      "descendants": 0,
+      "id": 31653957,
+      "score": 1,
+      "time": 1654608462,
+      "title": "After a Shaky Start, Airborne Wind Energy Is Slowly Taking Off",
+      "type": "story",
+      "url": "https://www.greenbuildingadvisor.com/article/after-a-shaky-start-airborne-wind-energy-is-slowly-taking-off"
+    },
+    {
       "by": "bko",
       "descendants": 0,
       "id": 31653893,
@@ -32,8 +52,11 @@
     },
     {
       "by": "gjvc",
-      "descendants": 0,
+      "descendants": 1,
       "id": 31653860,
+      "kids": [
+        31653963
+      ],
       "score": 1,
       "time": 1654608090,
       "title": "LNG tanker sails itself across the Pacific in shipping world first",
@@ -79,26 +102,6 @@
       "title": "The AuthaGraphic world map projection",
       "type": "story",
       "url": "https://www.g-mark.org/award/describe/44527?locale=en"
-    },
-    {
-      "by": "Bubble_Pop_22",
-      "descendants": 0,
-      "id": 31653803,
-      "score": 1,
-      "time": 1654607886,
-      "title": "Abramovich's telecom company Truphone, once worth 500m dollars, will sell for $1",
-      "type": "story",
-      "url": "https://www.businessinsider.com/roman-abramovich-truphone-sold-for-1-dollar-russia-oligarch-2022-6"
-    },
-    {
-      "by": "atlasunshrugged",
-      "descendants": 0,
-      "id": 31653752,
-      "score": 2,
-      "time": 1654607638,
-      "title": "Crypto industry scores big win under long anticipated Senate bill",
-      "type": "story",
-      "url": "https://www.washingtonpost.com/business/2022/06/07/crypto-lummis-gillibrand-regulation/"
     }
   ]
 }
