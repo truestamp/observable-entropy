@@ -1,107 +1,106 @@
 {
   "stories": [
     {
-      "by": "aarobot",
+      "by": "b3morales",
       "descendants": 0,
-      "id": 31656007,
+      "id": 31656083,
       "score": 1,
-      "time": 1654616661,
-      "title": "Show HN: Harmonic, HN Client for Android",
+      "time": 1654616988,
+      "title": "Regex Literals in Swift",
       "type": "story",
-      "url": "https://play.google.com/store/apps/details?id=com.simon.harmonichackernews&hl=en_US&gl=US"
+      "url": "https://developer.apple.com/videos/play/wwdc2022/110357"
     },
     {
-      "by": "mzs",
+      "by": "RjQoLCOSwiIKfpm",
       "descendants": 0,
-      "id": 31655959,
+      "id": 31656064,
       "score": 1,
-      "time": 1654616450,
-      "title": "Nintendo Switch JoyCon and Pro controller support coming to iOS 16",
-      "type": "story",
-      "url": "https://twitter.com/natbro/status/1533959241119084544"
-    },
-    {
-      "by": "omarfarooq",
-      "descendants": 0,
-      "id": 31655954,
-      "score": 1,
-      "time": 1654616422,
-      "title": "Stripe Demos Ultrasonic Payments",
-      "type": "story",
-      "url": "https://charliegerard.dev/blog/ultrasonic-payments/"
-    },
-    {
-      "by": "intrepidsoldier",
-      "descendants": 0,
-      "id": 31655934,
-      "score": 1,
-      "time": 1654616339,
-      "title": "DigitalOcean Serverless Functions Challenge",
-      "type": "story",
-      "url": "https://www.digitalocean.com/community/pages/functions-challenge"
-    },
-    {
-      "by": "awb",
-      "descendants": 0,
-      "id": 31655900,
-      "score": 1,
-      "time": 1654616194,
-      "title": "Apple Will Be Forced to Use USB-C Charger in iPhones",
-      "type": "story",
-      "url": "https://www.forbes.com/sites/roberthart/2022/06/07/apple-will-be-forced-to-use-usb-c-charger-in-iphones-under-landmark-eu-agreement/"
-    },
-    {
-      "by": "basisword",
-      "descendants": 0,
-      "id": 31655889,
-      "score": 1,
-      "time": 1654616160,
-      "title": "Netflix, ESPN, and NBCUniversal compete for U.S. Formula 1 rights, report says",
-      "type": "story",
-      "url": "https://techcrunch.com/2022/06/07/netflix-espn-and-nbcuniversal-compete-for-u-s-formula-1-rights-report-says/"
-    },
-    {
-      "by": "defjosiah",
-      "descendants": 0,
-      "id": 31655885,
-      "score": 2,
-      "time": 1654616138,
-      "title": "Deep Dive: Testing a Microservice Architecture with QA Environments",
-      "type": "story",
-      "url": "https://medium.com/opendoor-labs/deep-dive-testing-a-microservice-architecture-with-qa-environments-cd338648c37b"
-    },
-    {
-      "by": "hinderlogins",
-      "descendants": 0,
-      "id": 31655867,
-      "score": 1,
-      "time": 1654616059,
-      "title": "Dropshipping vs. Wholesaling",
-      "type": "story",
-      "url": "https://www.youtube.com/watch?v=-54BuP69NfA"
+      "text": "Google has removed the &quot;Permissions&quot; link both in the Google Play app (latest version as of 2022-06-07) and on the Google Play website.<p>This also applies when trying to install app updates so you cannot easily notice if an update introduces new permissions. (Previous Play versions would even mark new permissions with a green &quot;New&quot; indicator, which helped a lot.)<p>The &quot;Permissions&quot; link was replaced with a &quot;Data safety&quot; link which merely contains something like a privacy policy, not the actual permissions the apps will request.<p>As a consequence, installing an app and using Android&#x27;s own UI to view permissions is the only way to determine the perms now.<p>This implies that if bad apps upload private data right after installation they can frontrun the user&#x27;s chance to review their permissions:<p>The Internet permission does not require manual consent via a popup, and certain permissions which reveal private data such as your phone number&#x2F;identity and accounts on the device also do not require consent. So frontrunning is possible.<p>(IMHO this is not a theoretical scenario: The last time I searched for &quot;flashlight&quot; on Google Play there still was a flood of &quot;flashlight&quot; apps which wanted access to lots of private data, even though a flashlight shouldn&#x27;t need any data at all.)",
+      "time": 1654616878,
+      "title": "Google Play app+web now disallow seeing app perms, installing is the only way to",
+      "type": "story"
     },
     {
       "by": "gmays",
-      "descendants": 1,
-      "id": 31655854,
-      "kids": [
-        31655864
-      ],
-      "score": 6,
-      "time": 1654616009,
-      "title": "San Francisco could vote out progressive DA in heated recall",
+      "descendants": 0,
+      "id": 31656060,
+      "score": 1,
+      "time": 1654616861,
+      "title": "Study examines evolution of snake venom genes",
       "type": "story",
-      "url": "https://apnews.com/article/crime-government-and-politics-san-francisco-seniors-c865bc8fa7006fb806b6e5b639f64857"
+      "url": "https://www.uta.edu/news/news-releases/2022/06/01/breakthrough-study-examines-evolution-of-snake-venom-genes"
+    },
+    {
+      "by": "CrankyBear",
+      "descendants": 0,
+      "id": 31656056,
+      "score": 1,
+      "time": 1654616847,
+      "title": "10 Years of Zuul CI/CD rises to new successes",
+      "type": "story",
+      "url": "https://www.zdnet.com/article/10-years-of-zuul-continuous-integrationcontinuous-delivery-rises-to-new-successes/"
+    },
+    {
+      "by": "DougMellon",
+      "descendants": 0,
+      "id": 31656048,
+      "score": 1,
+      "time": 1654616820,
+      "title": "Documenting Architecture Decisions",
+      "type": "story",
+      "url": "https://www.cognitect.com/blog/2011/11/15/documenting-architecture-decisions"
+    },
+    {
+      "by": "DougMellon",
+      "descendants": 0,
+      "id": 31656033,
+      "score": 1,
+      "time": 1654616763,
+      "title": "Tell HN: HN search is hitting a 502 Bad Gateway",
+      "type": "story"
     },
     {
       "by": "bewalt",
       "descendants": 0,
-      "id": 31655849,
+      "id": 31656030,
       "score": 1,
-      "time": 1654615999,
-      "title": "Epic's PC store will start distributing its first blockchain game",
+      "time": 1654616755,
+      "title": "JSONVisio – A JSON Visualiser Tool to Review You Schema Markup",
       "type": "story",
-      "url": "https://www.protocol.com/bulletins/epic-blockchain-gala-games-grit"
+      "url": "https://jsonvisio.com/editor"
+    },
+    {
+      "by": "marc__1",
+      "descendants": 0,
+      "id": 31656026,
+      "score": 1,
+      "time": 1654616737,
+      "title": "New off-the-shelf cancer vaccine reduces metastasis in animal experiments",
+      "type": "story",
+      "url": "https://www.statnews.com/2022/05/25/new-off-the-shelf-cancer-vaccine-reduces-metastasis-in-animals/"
+    },
+    {
+      "by": "Jtsummers",
+      "descendants": 0,
+      "id": 31656025,
+      "kids": [
+        31656052
+      ],
+      "score": 1,
+      "time": 1654616734,
+      "title": "Design of a Separable Transition-Diagram Compiler (1963) [pdf]",
+      "type": "story",
+      "url": "http://melconway.com/Home/pdf/compiler.pdf"
+    },
+    {
+      "by": "stoicjumbotron",
+      "descendants": 0,
+      "id": 31656023,
+      "score": 1,
+      "time": 1654616723,
+      "title": "WebContainers are now supported in Firefox on desktop and Android",
+      "type": "story",
+      "url": "https://blog.stackblitz.com/posts/webcontainers-are-now-supported-on-firefox/"
     }
   ]
 }
