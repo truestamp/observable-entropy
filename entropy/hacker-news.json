@@ -1,6 +1,68 @@
 {
   "stories": [
     {
+      "by": "mensetmanusman",
+      "descendants": 1,
+      "id": 31666805,
+      "kids": [
+        31666809
+      ],
+      "score": 1,
+      "time": 1654694061,
+      "title": "San Francisco Became a Failed City",
+      "type": "story",
+      "url": "https://www.theatlantic.com/ideas/archive/2022/06/how-san-francisco-became-failed-city/661199/"
+    },
+    {
+      "by": "abhasha",
+      "descendants": 0,
+      "id": 31666791,
+      "score": 1,
+      "time": 1654694027,
+      "title": "Are software developer salaries going to decrease with the impending recession?",
+      "type": "story"
+    },
+    {
+      "by": "isaacfrond",
+      "descendants": 0,
+      "id": 31666777,
+      "score": 1,
+      "time": 1654693952,
+      "title": "Gel that repairs heart attack damage could improve health of millions",
+      "type": "story",
+      "url": "https://www.theguardian.com/society/2022/jun/08/gel-repairs-heart-attack-damage-improve-health-millions"
+    },
+    {
+      "by": "WillDaSilva",
+      "descendants": 0,
+      "id": 31666774,
+      "score": 1,
+      "time": 1654693936,
+      "title": "Gitlab-spinoff Meltano raises another $8.2M for its open-source DataOps platform",
+      "type": "story",
+      "url": "https://techcrunch.com/2022/06/08/gitlab-spinoff-meltano-raises-another-8-2m-for-its-open-source-dataops-platform/"
+    },
+    {
+      "by": "adrianomartins",
+      "descendants": 0,
+      "id": 31666766,
+      "score": 1,
+      "time": 1654693895,
+      "title": "Unboxing Quantum Computing (Goto 2021)",
+      "type": "story",
+      "url": "https://www.youtube.com/watch?v=7Seu0NWXseA"
+    },
+    {
+      "by": "floitsch",
+      "descendants": 0,
+      "id": 31666761,
+      "score": 1,
+      "time": 1654693871,
+      "title": "Toit – A Language Designed for Microcontrollers",
+      "type": "story",
+      "url": "https://toitlang.org"
+    },
+    {
       "by": "ddtaylor",
       "descendants": 0,
       "id": 31666751,
@@ -42,73 +104,6 @@
       "title": "Hedge Fund D1 Borrowed Billions for Hot Bet Now Seen Melting Down",
       "type": "story",
       "url": "https://www.bloomberg.com/news/articles/2022-06-08/hedge-fund-d1-could-face-losses-as-private-companies-values-plunge"
-    },
-    {
-      "by": "emilec___",
-      "descendants": 1,
-      "id": 31666602,
-      "kids": [
-        31666702
-      ],
-      "score": 2,
-      "text": "Training always takes too long. If it takes an hour, it would be better if it took 30 minutes, or maybe 15 minutes... or just 1 minute, why not? And if you want to speed up training, the techs available usually require to increase the complexity of the training process, whether it&#x27;s making trade-off in terms of accuracy or time for the developer to learn a new framework. Often times it&#x27;s trial and error, playing with parameters, training recipes, or switching framework&#x2F;model. That&#x27;s definitely not ideal.<p>“Fast &amp; easy-to-use” These were keywords that motivated me to work on a new way of doing training, the library nebulgym, which now is open-source (https:&#x2F;&#x2F;github.com&#x2F;nebuly-ai&#x2F;nebulgym).<p>FAST<p>Training should be fast, period. Wouldn&#x27;t it be great if in the near future you could train a GPT3 from scratch on your laptop? Or a large EfficientNet in a fraction of a minute? Nebulgym was built to try to bring developers closer to that future. This open-source optimizes the full training computation stack, from efficient data loading to faster forward and backward passes and earlier convergence. For example, by saving data samples in the cache on the first data read, it speeds up the full data loading process and eliminates what can become the bottleneck for the training process. Nebulgym also leverages techniques such as partial compilation of some calculations and smart sparse gradients to speed up forward and backward gradient propagations. And many more features will be implemented soon. And please let me know &#x2F; open issues if you have ideas for making nebulgym even faster :)<p>EASY-TO-USE<p>&quot;Not another framework, please, there&#x27;re already 1000&quot;. That&#x27;s a call for help from many developers, so nebulgym has been developed with this in mind. Nebulgym let you use the training setup you&#x27;ve always used, and works &quot;on top&quot;. This is made possible with the use of class decorators (like Java&#x27;s annotations). In short, you can just add these decorators before defining the model classes, and nebulgym will make sure that you use your computing resources to the fullest.<p>Here&#x27;s a snippet of training with nebulgym decorators (@accelerate_dataset and @accelerate_model)<p>--------------------------<p>import torch<p>from nebulgym.decorators.torch_decorators import \naccelerate_model, accelerate_dataset<p>@accelerate_dataset()<p>class MyDataset(torch.utils.data.Dataset):\n   #Your Dataset definition<p>@accelerate_model()<p>class MyModel(torch.nn.Module):\n   # Your model definition<p># Train your model as you usually do<p>--------------------------<p>And that&#x27;s it. Give it a try, and leave a star , it&#x27;s a little contribution to show some love for open-source projects :) Also feedback would be super appreciated!<p>https:&#x2F;&#x2F;github.com&#x2F;nebuly-ai&#x2F;nebulgym",
-      "time": 1654693156,
-      "title": "Nebulgym, a new open-source that accelerates AI training (~1.5-2x)",
-      "type": "story"
-    },
-    {
-      "by": "nikolaedison",
-      "descendants": 2,
-      "id": 31666593,
-      "kids": [
-        31666731,
-        31666683
-      ],
-      "score": 2,
-      "text": "Hello, I was hired as a remote full-stack engineer at Tesla during the pandemic. We were just told that remote employment agreements (mine was over email, not in my contract) are void, and we have to move to a Tesla office by August. This is essentially impossible for me until January 2023 (at which point I&#x27;d be happy to move). I need to make a decision by Friday. Do you think I would get severance if I tell them I refuse to relocate?",
-      "time": 1654693105,
-      "title": "Tesla is making us move or quit. Would I get severance?",
-      "type": "story"
-    },
-    {
-      "by": "JumpCrisscross",
-      "descendants": 0,
-      "id": 31666580,
-      "score": 1,
-      "time": 1654693055,
-      "title": "Insurance startups face credibility crisis in brutal tech rout",
-      "type": "story",
-      "url": "https://www.ft.com/content/50aca302-1d1d-42d0-a52c-8303fc53a9fb"
-    },
-    {
-      "by": "rammy1234",
-      "descendants": 0,
-      "id": 31666540,
-      "score": 1,
-      "time": 1654692845,
-      "title": "Japa – Back end focused Node.js testing framework",
-      "type": "story",
-      "url": "https://japa.dev/"
-    },
-    {
-      "by": "danielam",
-      "descendants": 0,
-      "id": 31666533,
-      "score": 1,
-      "time": 1654692776,
-      "title": "Anti-reductionism in NYāya-Vaiśesika atomism",
-      "type": "story",
-      "url": "http://edwardfeser.blogspot.com/2022/06/anti-reductionism-in-nyaya-vaisesika.html"
-    },
-    {
-      "by": "greenSunglass",
-      "descendants": 0,
-      "id": 31666522,
-      "score": 1,
-      "time": 1654692742,
-      "title": "Essential elements of high performance applications: SQL indexes",
-      "type": "story",
-      "url": "https://www.foxhound.systems/blog/essential-elements-of-high-performance-sql-indexes/"
     }
   ]
 }
