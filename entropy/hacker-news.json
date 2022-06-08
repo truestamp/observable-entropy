@@ -1,10 +1,55 @@
 {
   "stories": [
+    null,
+    {
+      "by": "vletal",
+      "descendants": 0,
+      "id": 31666476,
+      "score": 1,
+      "time": 1654692501,
+      "title": "Deploying Transformers on the Apple Neural Engine",
+      "type": "story",
+      "url": "https://machinelearning.apple.com/research/neural-engine-transformers"
+    },
+    {
+      "by": "spacepuff",
+      "descendants": 0,
+      "id": 31666472,
+      "score": 1,
+      "time": 1654692478,
+      "title": "Deepfake Simon Cowell",
+      "type": "story",
+      "url": "https://www.youtube.com/watch?v=mPU0WNUzsBo"
+    },
+    {
+      "by": "jeremylevy",
+      "descendants": 0,
+      "id": 31666450,
+      "score": 2,
+      "text": "Hey HN,<p>As most of you (I think?), I cannot learn something without having a project, on the side, to implement what I’ve just learned.<p>Recode is the project that I&#x27;ve used to learn Go. It lets you create a development environment in your cloud provider account easily.<p>You can think of it as a desktop version of Gitpod &#x2F; Coder &#x2F; GitHub Codespaces less polished and with less features but 100% free and open-source.<p>At the time of writing, it only works with Visual Studio Code and AWS.<p>In order to let you configure your development environments easily, I’ve chosen to use Docker with some Dockerfiles:<p><pre><code>  - One for your user configuration.\n   \n  - One for your project.\n</code></pre>\nThe user configuration corresponds to the tools &#x2F; settings that you use in all your projects like your timezone &#x2F; locale, your preferred shell or your dotfiles.<p>The project configuration corresponds to the tools &#x2F; settings that you use in a specific project like Go &gt;= 1.18 and Node.js &gt;= 14.<p>As you may have guessed, the project configuration inherits from the user one.<p>This project is 100% community-driven, meaning that except for bug fixes no more features will be added.<p>The only features that will be added are the ones that will be posted as an issue and that will receive a significant amount of upvotes (&gt;= 10 currently).",
+      "time": 1654692384,
+      "title": "Show HN: I've built a CLI to create remote dev envs as a Go learning project",
+      "type": "story",
+      "url": "https://github.com/recode-sh/cli"
+    },
+    {
+      "by": "phekunde",
+      "descendants": 0,
+      "id": 31666436,
+      "score": 1,
+      "time": 1654692317,
+      "title": "Apple announces “Buy now pay later” plan",
+      "type": "story",
+      "url": "https://www.bbc.co.uk/news/technology-61718101"
+    },
     {
       "by": "troydavis",
-      "descendants": 0,
+      "descendants": 1,
       "id": 31666432,
-      "score": 1,
+      "kids": [
+        31666458
+      ],
+      "score": 2,
       "time": 1654692308,
       "title": "Samantha: Hiroia's automateed pour over coffee maker",
       "type": "story",
@@ -31,19 +76,6 @@
       "url": "https://news.opensuse.org/2022/06/08/leap-offers-new-features-familiar-stability/"
     },
     {
-      "by": "vsiwetri",
-      "descendants": 1,
-      "id": 31666387,
-      "kids": [
-        31666388
-      ],
-      "score": 1,
-      "time": 1654692023,
-      "title": "Filethor.com / Free Software Download for Windows",
-      "type": "story",
-      "url": "https://filethor.com"
-    },
-    {
       "by": "pcr910303",
       "descendants": 0,
       "id": 31666386,
@@ -62,46 +94,6 @@
       "title": "The Logical Fallacy Guide",
       "type": "story",
       "url": "https://sahilbloom.substack.com/p/the-logical-fallacy-guide"
-    },
-    {
-      "by": "mhb",
-      "descendants": 0,
-      "id": 31666375,
-      "score": 1,
-      "time": 1654691933,
-      "title": "What are the markers of spam emails? And why don’t senders avoid them?",
-      "type": "story",
-      "url": "https://marginalrevolution.com/marginalrevolution/2022/06/what-are-the-markers-of-spam-emails.html#comments"
-    },
-    {
-      "by": "euphetar",
-      "descendants": 0,
-      "id": 31666371,
-      "score": 2,
-      "time": 1654691909,
-      "title": "Reinforcement Learning Without Reward Engineering",
-      "type": "story",
-      "url": "https://gist.github.com/pilot7747/0a61de571731488e9fb2c54a07746786"
-    },
-    {
-      "by": "lngnmn2",
-      "descendants": 0,
-      "id": 31666358,
-      "score": 1,
-      "text": "The source builds of GHC are broken since 9.2.1<p>It seems that it cannot see the template-haskell package bundled with the compiler used for bootstrapping, and yes, I have downloaded binary distribution to be sure.<p>We have to somehow curb ill thought changes by virtue signalling narcissistic assholes.<p>And yes, I wish to express my anger and frustration in these particular terms.",
-      "time": 1654691847,
-      "title": "Tell HN: Anger and Frustration",
-      "type": "story"
-    },
-    {
-      "by": "Crowgirl",
-      "descendants": 0,
-      "id": 31666355,
-      "score": 1,
-      "time": 1654691824,
-      "title": "Web3, NFTs, cryptocurrency dangerous to society, the planet: computer scientists",
-      "type": "story",
-      "url": "https://medium.com/@kim_crawley/web3-nfts-and-cryptocurrency-are-dangerous-to-society-and-the-planet-and-computer-scientists-cf8932788c48"
     }
   ]
 }
