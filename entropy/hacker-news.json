@@ -1,10 +1,56 @@
 {
   "stories": [
     {
-      "by": "emilec___",
+      "by": "ddtaylor",
       "descendants": 0,
-      "id": 31666602,
+      "id": 31666751,
       "score": 1,
+      "time": 1654693814,
+      "title": "UK not to copy EU demand for common charging cable",
+      "type": "story",
+      "url": "https://www.bbc.co.uk/news/technology-61720276"
+    },
+    {
+      "by": "openquery",
+      "descendants": 1,
+      "id": 31666703,
+      "kids": [
+        31666740
+      ],
+      "score": 2,
+      "time": 1654693583,
+      "title": "Building a URL shortener in 10 minutes or less",
+      "type": "story",
+      "url": "https://www.shuttle.rs/blog/2022/03/13/url-shortener"
+    },
+    {
+      "by": "leoloso",
+      "descendants": 0,
+      "id": 31666700,
+      "score": 1,
+      "time": 1654693572,
+      "title": "Some great stuff I’ve learnt from WordCamp Europe 2022",
+      "type": "story",
+      "url": "https://masterwp.com/some-great-stuff-ive-learnt-from-wordcamp-europe-2022/"
+    },
+    {
+      "by": "JumpCrisscross",
+      "descendants": 0,
+      "id": 31666685,
+      "score": 1,
+      "time": 1654693513,
+      "title": "Hedge Fund D1 Borrowed Billions for Hot Bet Now Seen Melting Down",
+      "type": "story",
+      "url": "https://www.bloomberg.com/news/articles/2022-06-08/hedge-fund-d1-could-face-losses-as-private-companies-values-plunge"
+    },
+    {
+      "by": "emilec___",
+      "descendants": 1,
+      "id": 31666602,
+      "kids": [
+        31666702
+      ],
+      "score": 2,
       "text": "Training always takes too long. If it takes an hour, it would be better if it took 30 minutes, or maybe 15 minutes... or just 1 minute, why not? And if you want to speed up training, the techs available usually require to increase the complexity of the training process, whether it&#x27;s making trade-off in terms of accuracy or time for the developer to learn a new framework. Often times it&#x27;s trial and error, playing with parameters, training recipes, or switching framework&#x2F;model. That&#x27;s definitely not ideal.<p>“Fast &amp; easy-to-use” These were keywords that motivated me to work on a new way of doing training, the library nebulgym, which now is open-source (https:&#x2F;&#x2F;github.com&#x2F;nebuly-ai&#x2F;nebulgym).<p>FAST<p>Training should be fast, period. Wouldn&#x27;t it be great if in the near future you could train a GPT3 from scratch on your laptop? Or a large EfficientNet in a fraction of a minute? Nebulgym was built to try to bring developers closer to that future. This open-source optimizes the full training computation stack, from efficient data loading to faster forward and backward passes and earlier convergence. For example, by saving data samples in the cache on the first data read, it speeds up the full data loading process and eliminates what can become the bottleneck for the training process. Nebulgym also leverages techniques such as partial compilation of some calculations and smart sparse gradients to speed up forward and backward gradient propagations. And many more features will be implemented soon. And please let me know &#x2F; open issues if you have ideas for making nebulgym even faster :)<p>EASY-TO-USE<p>&quot;Not another framework, please, there&#x27;re already 1000&quot;. That&#x27;s a call for help from many developers, so nebulgym has been developed with this in mind. Nebulgym let you use the training setup you&#x27;ve always used, and works &quot;on top&quot;. This is made possible with the use of class decorators (like Java&#x27;s annotations). In short, you can just add these decorators before defining the model classes, and nebulgym will make sure that you use your computing resources to the fullest.<p>Here&#x27;s a snippet of training with nebulgym decorators (@accelerate_dataset and @accelerate_model)<p>--------------------------<p>import torch<p>from nebulgym.decorators.torch_decorators import \naccelerate_model, accelerate_dataset<p>@accelerate_dataset()<p>class MyDataset(torch.utils.data.Dataset):\n   #Your Dataset definition<p>@accelerate_model()<p>class MyModel(torch.nn.Module):\n   # Your model definition<p># Train your model as you usually do<p>--------------------------<p>And that&#x27;s it. Give it a try, and leave a star , it&#x27;s a little contribution to show some love for open-source projects :) Also feedback would be super appreciated!<p>https:&#x2F;&#x2F;github.com&#x2F;nebuly-ai&#x2F;nebulgym",
       "time": 1654693156,
       "title": "Nebulgym, a new open-source that accelerates AI training (~1.5-2x)",
@@ -12,12 +58,13 @@
     },
     {
       "by": "nikolaedison",
-      "descendants": 1,
+      "descendants": 2,
       "id": 31666593,
       "kids": [
+        31666731,
         31666683
       ],
-      "score": 1,
+      "score": 2,
       "text": "Hello, I was hired as a remote full-stack engineer at Tesla during the pandemic. We were just told that remote employment agreements (mine was over email, not in my contract) are void, and we have to move to a Tesla office by August. This is essentially impossible for me until January 2023 (at which point I&#x27;d be happy to move). I need to make a decision by Friday. Do you think I would get severance if I tell them I refuse to relocate?",
       "time": 1654693105,
       "title": "Tesla is making us move or quit. Would I get severance?",
@@ -62,46 +109,6 @@
       "title": "Essential elements of high performance applications: SQL indexes",
       "type": "story",
       "url": "https://www.foxhound.systems/blog/essential-elements-of-high-performance-sql-indexes/"
-    },
-    {
-      "by": "ilrwbwrkhv",
-      "descendants": 0,
-      "id": 31666505,
-      "score": 1,
-      "text": "Do they even exist?<p>What I am especially looking for are folks who can create webpages for apps in the old mac style, before the whole flat movement took over.",
-      "time": 1654692695,
-      "title": "Ask HN: Where to find designers with old Mac apps aesthetics?",
-      "type": "story"
-    },
-    {
-      "by": "AliCollins",
-      "descendants": 0,
-      "id": 31666494,
-      "score": 1,
-      "time": 1654692612,
-      "title": "First Images from JWST Are Coming on July 12th",
-      "type": "story",
-      "url": "https://www.universetoday.com/156146/first-images-from-jwst-are-coming-on-july-12th/"
-    },
-    {
-      "by": "vletal",
-      "descendants": 0,
-      "id": 31666476,
-      "score": 2,
-      "time": 1654692501,
-      "title": "Deploying Transformers on the Apple Neural Engine",
-      "type": "story",
-      "url": "https://machinelearning.apple.com/research/neural-engine-transformers"
-    },
-    {
-      "by": "spacepuff",
-      "descendants": 0,
-      "id": 31666472,
-      "score": 2,
-      "time": 1654692478,
-      "title": "Deepfake Simon Cowell",
-      "type": "story",
-      "url": "https://www.youtube.com/watch?v=mPU0WNUzsBo"
     }
   ]
 }
