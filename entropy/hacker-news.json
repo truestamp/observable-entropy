@@ -1,9 +1,22 @@
 {
   "stories": [
     {
+      "by": "prostoalex",
+      "descendants": 0,
+      "id": 31662763,
+      "score": 1,
+      "time": 1654657974,
+      "title": "The invention, slow adoption and near perfection of the zip (2018)",
+      "type": "story",
+      "url": "https://www.economist.com/christmas-specials/2018/12/18/the-invention-slow-adoption-and-near-perfection-of-the-zip"
+    },
+    {
       "by": "mohon",
       "descendants": 0,
       "id": 31662713,
+      "kids": [
+        31662748
+      ],
       "score": 1,
       "text": "I&#x27;m currently working on how to speed up our analytics report development workflow.<p>So imagine, you have this table called A with this structure<p>+----------+--------------+---------+----------+<p>| location |  order_count |   gmv   |  net_gmv |<p>+----------+--------------+---------+----------+<p>| TX       |         1000 |  9000.0 |   8000.0 |<p>| FL       |         1000 |  9000.0 |   8000.0 |<p>+----------+--------------+---------+----------+<p>then you want to have another table called B with this structure<p>+-------+--------------+---------+----------+<p>|  age  |  order_count |   gmv   |  net_gmv |<p>+-------+--------------+---------+----------+<p>| 20-30 |         1000 |  9000.0 |   8000.0 |<p>| 30-40 |         1000 |  9000.0 |   8000.0 |<p>| 40-50 |         1000 |  9000.0 |   8000.0 |<p>+-------+--------------+---------+----------+<p>The location and age are the dimension needed for the report, eventually we&#x27;ll be having different dimension needed for our report. What we&#x27;re doing now is we develop a Spark-SQL job for each table. But we think this is not gonna scale because every time we want to add new dimension, we need to develop the Spark-SQL job again (same logic but different group by dimension)<p>So I&#x27;m wondering whether there&#x27;s a better way to do this. Anyone has any experience with this kind of problem before? Any pointer how to do this efficiently (I&#x27;m thinking someone could just specify the dimension they need and there&#x27;ll be a script where it&#x27;ll automatically generate the new table based on the specified dimension)<p>Thanks",
       "time": 1654657522,
@@ -34,7 +47,7 @@
       "by": "lnyan",
       "descendants": 0,
       "id": 31662676,
-      "score": 1,
+      "score": 2,
       "time": 1654657095,
       "title": "Compositional Visual Generation with Composable Diffusion Models",
       "type": "story",
@@ -70,7 +83,7 @@
       "by": "lnyan",
       "descendants": 0,
       "id": 31662578,
-      "score": 1,
+      "score": 2,
       "time": 1654655831,
       "title": "Shape, Light, Material Decomposition from Images Using Monte Carlo Rendering",
       "type": "story",
@@ -80,7 +93,7 @@
       "by": "lnyan",
       "descendants": 0,
       "id": 31662569,
-      "score": 1,
+      "score": 2,
       "time": 1654655746,
       "title": "NeMF: Neural Motion Fields for Kinematic Animation",
       "type": "story",
@@ -95,16 +108,6 @@
       "title": "Generating Long Videos of Dynamic Scenes",
       "type": "story",
       "url": "https://www.timothybrooks.com/tech/long-videos/"
-    },
-    {
-      "by": "sohkamyung",
-      "descendants": 0,
-      "id": 31662566,
-      "score": 1,
-      "time": 1654655699,
-      "title": "Solar Sailing: The Beauties of Diffraction",
-      "type": "story",
-      "url": "https://www.centauri-dreams.org/2022/06/07/solar-sailing-the-beauties-of-diffraction/"
     }
   ]
 }
