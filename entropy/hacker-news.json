@@ -1,6 +1,56 @@
 {
   "stories": [
     {
+      "by": "ddtaylor",
+      "descendants": 0,
+      "id": 31666334,
+      "score": 1,
+      "time": 1654691709,
+      "title": "Be Careful with UUID or GUID as Primary Keys (2017)",
+      "type": "story",
+      "url": "https://tomharrisonjr.com/uuid-or-guid-as-primary-keys-be-careful-7b2aa3dcb439?gi=43e38e6dc424"
+    },
+    {
+      "by": "doener",
+      "descendants": 0,
+      "id": 31666318,
+      "score": 1,
+      "time": 1654691602,
+      "title": "A comprehensive review of Binary Neural Network",
+      "type": "story",
+      "url": "https://arxiv.org/abs/2110.06804"
+    },
+    {
+      "by": "suralind",
+      "descendants": 0,
+      "id": 31666314,
+      "score": 1,
+      "text": "I work in a mid size tech company. We have around 400 microservices, some of them were written a couple years ago and some are new. Almost all new services are written in Go.<p>Our internal team is developing a template to use for services - with common parts, such as logging, redis, database, HTTP server, etc., however one thing that they so far haven&#x27;t been able to solve is keeping the services up to date with the template. E.g. you may want to mass edit your Dockerfiles to build an application in some other way, or update the version of Go, etc. The way the team would do it today is to edit the template, leaving the &quot;old&quot; behind, sometimes asking teams to update the services manually.<p>Of course they could use AST to updates, but I think it&#x27;s quite difficult to get right.<p>How do other companies solve this problem? Surely, each growing company wants to standardise on a certain approach to build services and it&#x27;s unreasonable to ask to update services manually (imagine thousands of microservices).",
+      "time": 1654691591,
+      "title": "How do tech companies keep growing list of services up to date?",
+      "type": "story"
+    },
+    {
+      "by": "bearguy",
+      "descendants": 0,
+      "id": 31666312,
+      "score": 1,
+      "time": 1654691582,
+      "title": "I Killed My Startup",
+      "type": "story",
+      "url": "https://k1nz.substack.com/p/why-i-killed-my-startup"
+    },
+    {
+      "by": "belter",
+      "descendants": 0,
+      "id": 31666306,
+      "score": 1,
+      "time": 1654691558,
+      "title": "Ford F-150 Lightning accessory that can recharge stranded Teslas",
+      "type": "story",
+      "url": "https://www.theverge.com/2022/6/7/23158382/ford-f150-lightning-tesla-adapter-charger-power"
+    },
+    {
       "by": "vikas19634",
       "descendants": 0,
       "id": 31666288,
@@ -42,63 +92,16 @@
     },
     {
       "by": "atombender",
-      "descendants": 0,
+      "descendants": 1,
       "id": 31666277,
-      "score": 1,
+      "kids": [
+        31666316
+      ],
+      "score": 2,
       "time": 1654691345,
       "title": "Apple loses “Think Different” trademark in EU [pdf]",
       "type": "story",
       "url": "https://curia.europa.eu/jcms/upload/docs/application/pdf/2022-06/cp220097en.pdf"
-    },
-    {
-      "by": "fairytalemtg",
-      "descendants": 0,
-      "id": 31666252,
-      "score": 1,
-      "time": 1654691199,
-      "title": "Will regulators’ warnings chill lenders’ use of AI?",
-      "type": "story",
-      "url": "https://www.americanbanker.com/news/will-cfpb-federal-reserve-warnings-chill-lenders-use-of-ai"
-    },
-    {
-      "by": "nsoonhui",
-      "descendants": 0,
-      "id": 31666234,
-      "score": 1,
-      "time": 1654691124,
-      "title": "Reshuffled Rivers Bolster the Amazon’s Hyper-Biodiversity",
-      "type": "story",
-      "url": "https://www.quantamagazine.org/reshuffled-rivers-bolster-the-amazons-hyper-biodiversity-20220607/"
-    },
-    {
-      "by": "DeadNeurons",
-      "descendants": 0,
-      "id": 31666220,
-      "score": 1,
-      "time": 1654691029,
-      "title": "Six Dimensions of Operational Adequacy in AGI Projects",
-      "type": "story",
-      "url": "https://intelligence.org/2022/06/07/six-dimensions-of-operational-adequacy-in-agi-projects/"
-    },
-    {
-      "by": "JohnHammersley",
-      "descendants": 0,
-      "id": 31666186,
-      "score": 2,
-      "time": 1654690828,
-      "title": "CodeMirror 6.0 Stable Release",
-      "type": "story",
-      "url": "https://marijnhaverbeke.nl/blog/codemirror-6.html"
-    },
-    {
-      "by": "zthrowaway",
-      "descendants": 0,
-      "id": 31666184,
-      "score": 6,
-      "time": 1654690827,
-      "title": "San Francisco votes overwhelmingly to recall progressive DA Chesa Boudin",
-      "type": "story",
-      "url": "https://www.cbsnews.com/news/chesa-boudin-san-francisco-da-recalled/"
     }
   ]
 }
