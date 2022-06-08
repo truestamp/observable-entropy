@@ -1,9 +1,62 @@
 {
   "stories": [
     {
-      "by": "gz5",
+      "by": "SubiculumCode",
       "descendants": 0,
+      "id": 31675018,
+      "score": 1,
+      "time": 1654726168,
+      "title": "Webb Telescope hit by micrometeoroid but sustains no major damage",
+      "type": "story",
+      "url": "https://www.washingtonpost.com/science/2022/06/08/james-webb-telescope-micrometeoroid/"
+    },
+    {
+      "by": "aaraujo002",
+      "descendants": 0,
+      "id": 31675015,
+      "score": 1,
+      "time": 1654726155,
+      "title": "Researchers Achieve ‘Absurdly Fast’ Algorithm for Network Flow",
+      "type": "story",
+      "url": "https://www.quantamagazine.org/researchers-achieve-absurdly-fast-algorithm-for-network-flow-20220608/"
+    },
+    {
+      "by": "mgh2",
+      "descendants": 0,
+      "id": 31675006,
+      "score": 1,
+      "time": 1654726096,
+      "title": "CDC raises monkeypox alert as global cases surpass 1k",
+      "type": "story",
+      "url": "https://www.cnbc.com/2022/06/07/cdc-raises-monkeypox-alert-as-global-cases-surpass-1000.html"
+    },
+    {
+      "by": "andreyk",
+      "descendants": 0,
+      "id": 31674995,
+      "score": 1,
+      "text": "Here&#x27;s a fun little project I did today on a whim. I happen to have access to the OpenAI API, so I used their playground feature to generate AI headlines with their taglines. I fed it this prompt:<p>&#x27;Last week&#x27;s top AI news: \n* Caltech unit creates AI helping drones to withstand violent winds - &quot;Caltech researchers are developing a drone with rapidly reacting artificial intelligence (AI) capacities that allow it to adapt in flight to extreme wind similar to tornado or hurricane conditions.&quot;<p>* How Deep Squeak, an AI program with a weird name, is detecting whales - &quot;Artificial Intelligence is booming. And now an AI program is being used to search for whales.&quot; &quot;<p>Plug alert: this text sourced from the latest edition of the Last Week in AI newsletter (https:&#x2F;&#x2F;lastweekin.ai&#x2F;) which I co-run. So here&#x27;s what it got just generating text given that prompt:<p>* Google’s DeepMind creates AI that can beat humans at hide-and-seek - &quot;A new artificial intelligence program developed by Google’s DeepMind can beat humans at hide-and-seek, according to a new paper.&quot;<p>* Carnegie Mellon Researchers Develop AI System That Can Help You Write Better Emails - &quot;Researchers at Carnegie Mellon University have developed an artificial intelligence system that can help you write better emails.&quot;<p>* New AI System Can Help You Find a Job You’ll Love - &quot;A new artificial intelligence system developed by researchers at the University of Toronto can help you find a job you’ll love, according to a new study.&quot;<p>Perhaps unsurprisingly, quite good. Though, I was surprised to find it repeats itself super quickly. Would have thought GPT-3 had solved this very basic language model problem... It also seems to repeat actual news stories from the past, such as:<p>* Google DeepMind&#x27;s AlphaGo Zero AI can teach itself Go and other games in hours - &quot;DeepMind has created an artificial intelligence system that can not only defeat humans at the game of Go, but also teach itself to play from scratch within hours.&quot;<p>I also tried prompting it with just &quot;Last week&#x27;s top AI news&quot; and got the following:<p>1. Google&#x27;s DeepMind has created a new algorithm that can predict how proteins will fold.<p>2. Facebook&#x27;s artificial intelligence research lab has developed a new system that can automatically generate 3D models of objects from 2D images.<p>3. IBM has announced that its Watson AI platform will now be available to developers on the IBM Cloud.<p>Again, repeating facts from the past. Lastly, how about &quot;This week&#x27;s trending AI papers&quot; as a prompt. Also not bad:<p>1. &quot;Deep Learning for Recommender Systems&quot;<p>2. &quot;A Neural Network Approach to Context-Aware Query Suggestion&quot;<p>3. &quot;Learning Deep Representations of Fine-Grained Visual Concepts&quot;<p>A while back I fine-tuned GPT-2 on 100 weeks&#x27; worth of AI news (and released the dataset+colab notebook, see https:&#x2F;&#x2F;www.skynettoday.com&#x2F;digests&#x2F;ai-news-analysis), and got some comparatively more amusing stuff:<p>&quot;Researchers develop a traffic light for self-driving cars  - A pair of new papers from University of Tokyo Institute of  Technology researchers and the World Health Organization claim to have  addressed one of the great challenges of artificial intelligence:  traffic lights.<p>How I used NLP&#x27;s GPT-3 to write the AI I Created  - When it comes to creating AI, there are 2 main choices I have:-  write a clean code or- just use the output from the original app to  clean code.<p>Meet Microsoft&#x27;s first AI-powered coffee machine - Jeff Dean, chair of Microsoft’s artificial intelligence (AI)  division, recently sat down with WIRED senior writer Will Knight to  discuss the value of building products that do a lot of good, but don’t  always do much of anything else.&quot;<p>That&#x27;s about it, nothing too fancy but kind of fun. Feel free to suggest other little experiments to try!",
+      "time": 1654726030,
+      "title": "Show HN: GPT-3 generated articles about AI",
+      "type": "story"
+    },
+    {
+      "by": "ngaut",
+      "descendants": 0,
+      "id": 31674988,
+      "score": 1,
+      "time": 1654725989,
+      "title": "Framework for building distributed services with Web Assembly",
+      "type": "story",
+      "url": "https://github.com/madflojo/tarmac"
+    },
+    {
+      "by": "gz5",
+      "descendants": 1,
       "id": 31674960,
+      "kids": [
+        31674972
+      ],
       "score": 1,
       "time": 1654725891,
       "title": "America's New Labor Market",
@@ -52,56 +105,6 @@
       "title": "A Message to the Community from the Optimism Foundation",
       "type": "story",
       "url": "https://plaid-cement-e44.notion.site/A-Message-to-the-Community-from-the-Optimism-Foundation-f49b913bb0974d8a854a8bdd409a9dd6"
-    },
-    {
-      "by": "chippy",
-      "descendants": 0,
-      "id": 31674857,
-      "score": 1,
-      "time": 1654725357,
-      "title": "Death by Selfie",
-      "type": "story",
-      "url": "https://duncanreyburn.substack.com/p/death-by-selfie"
-    },
-    {
-      "by": "keewee7",
-      "descendants": 0,
-      "id": 31674841,
-      "score": 4,
-      "time": 1654725272,
-      "title": "Russia Court Orders Arrest of Critical Sci-Fi Writer",
-      "type": "story",
-      "url": "https://www.themoscowtimes.com/2022/06/07/russia-court-orders-arrest-of-critical-sci-fi-writer-a77926"
-    },
-    {
-      "by": "newblanchla",
-      "descendants": 0,
-      "id": 31674824,
-      "score": 1,
-      "time": 1654725212,
-      "title": "Secret Pride Flag Generator",
-      "type": "story",
-      "url": "https://flag.lol/"
-    },
-    {
-      "by": "JSeymourATL",
-      "descendants": 0,
-      "id": 31674779,
-      "score": 1,
-      "time": 1654724971,
-      "title": "Teal raises $6.3M seed round to grow career platform empowering job seekers",
-      "type": "story",
-      "url": "https://refreshmiami.com/teal-raises-6-3m-seed-round-to-grow-career-platform-empowering-job-seekers/"
-    },
-    {
-      "by": "aojdwhsd",
-      "descendants": 0,
-      "id": 31674776,
-      "score": 3,
-      "time": 1654724962,
-      "title": "ID.me Announces Staff Layoffs",
-      "type": "story",
-      "url": "https://www.businessinsider.com/idme-identity-verification-irs-unemployment-facial-recognition-staff-layoffs-economy-2022-6"
     }
   ]
 }
