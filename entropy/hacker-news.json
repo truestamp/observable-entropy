@@ -1,6 +1,76 @@
 {
   "stories": [
     {
+      "by": "tosh",
+      "descendants": 0,
+      "id": 31683263,
+      "score": 1,
+      "time": 1654792119,
+      "title": "Apple Plans 15-Inch MacBook Air for 2023 and New 12-Inch Laptop",
+      "type": "story",
+      "url": "https://www.bloomberg.com/news/articles/2022-06-09/apple-readies-larger-macbook-air-to-capitalize-on-its-new-chips"
+    },
+    {
+      "by": "rmdoss",
+      "descendants": 0,
+      "id": 31683246,
+      "score": 1,
+      "time": 1654792039,
+      "title": "Microsoft will allow staff to apply at competitors disclose salaries on job ads",
+      "type": "story",
+      "url": "https://www.businessinsider.com/microsoft-stop-using-non-competition-clauses-salary-transparency-corporate-culture-2022-6"
+    },
+    {
+      "by": "airstrike",
+      "descendants": 0,
+      "id": 31683245,
+      "score": 1,
+      "time": 1654792031,
+      "title": "Microsoft’s Augmented-Reality Chief Plans to Leave Company",
+      "type": "story",
+      "url": "https://www.wsj.com/articles/microsofts-augmented-reality-chief-plans-to-leave-company-11654667139"
+    },
+    {
+      "by": "sbader",
+      "descendants": 0,
+      "id": 31683226,
+      "score": 1,
+      "time": 1654791961,
+      "title": "Entitlements: GitHub’s open source Identity and Access Management solution",
+      "type": "story",
+      "url": "https://github.blog/2022-06-09-introducing-entitlements-githubs-open-source-identity-and-access-management-solution/"
+    },
+    {
+      "by": "stanulilic",
+      "descendants": 0,
+      "id": 31683222,
+      "score": 2,
+      "time": 1654791947,
+      "title": "DigitalOcean Survey Results on Open Source, Developer Job Satisfaction [pdf]",
+      "type": "story",
+      "url": "https://anchor.digitalocean.com/rs/113-DTN-266/images/DigitalOcean-Currents_June-2022.pdf"
+    },
+    {
+      "by": "leephillips",
+      "descendants": 0,
+      "id": 31683215,
+      "score": 1,
+      "time": 1654791931,
+      "title": "Rethinking healthy eating in light of the gut microbiome",
+      "type": "story",
+      "url": "https://www.cell.com/cell-host-microbe/fulltext/S1931-3128(22)00222-0"
+    },
+    {
+      "by": "marban",
+      "descendants": 0,
+      "id": 31683214,
+      "score": 1,
+      "time": 1654791928,
+      "title": "Vivaldi Mail 1.0: A powerful email client built right into the browser",
+      "type": "story",
+      "url": "https://vivaldi.com/press/releases/vivaldi-mail-1-0-calendar-feed-reader-launches/"
+    },
+    {
       "by": "uvdn7",
       "descendants": 0,
       "id": 31683200,
@@ -22,85 +92,15 @@
     },
     {
       "by": "Roybot",
-      "descendants": 0,
+      "descendants": 1,
       "id": 31683175,
+      "kids": [
+        31683243
+      ],
       "score": 1,
       "time": 1654791736,
       "title": "Ask HN: Do you like fast culture?",
       "type": "story"
-    },
-    {
-      "by": "aodin",
-      "descendants": 0,
-      "id": 31683168,
-      "score": 1,
-      "time": 1654791709,
-      "title": "Using Postgres Schemas",
-      "type": "story",
-      "url": "https://aaronoellis.com/articles/using-postgres-schemas"
-    },
-    {
-      "by": "mshuffett",
-      "descendants": 1,
-      "id": 31683157,
-      "kids": [
-        31683195
-      ],
-      "score": 2,
-      "text": "Hey HN! Michael here—founder of Compose AI (<a href=\"https:&#x2F;&#x2F;www.compose.ai\" rel=\"nofollow\">https:&#x2F;&#x2F;www.compose.ai</a>) (also joined by my co-founder Wilson). Compose AI is a free Chrome extension that cuts your writing time by up to 40% with AI-powered autocompletion, rephrasing, and full-length email generation. It works across ~30 websites, so besides email, you can use it to do things like write Notion documents or chat on Slack (browser only (for now)).<p>I was in Mexico typing my 10th reply to a mundane email when it hit me: people shouldn’t be typing every letter of every word — especially not the same things over and over again. That got me thinking about building a tool that helps people type faster anywhere online and ultimately save them time—something that was easier said than done. It was quite challenging to balance the speed needed for real-time predictions with the model complexity needed for high quality predictions. Also, it was surprisingly challenging to integrate with a ton of different websites – I learned that there are many, many different ways to implement a “text box,” and experienced first hand, the joys of integrating with things like shadow dom and iframes.<p>I have been thinking about how to communicate with computers since I was in maybe 6th grade when I would literally dream about it. I remember I had a notebook in which I tried to analyze the linguistic structure of English to teach my computer English (not a great approach in retrospect). Later on, I worked in ML and AI at IARPA, Amazon, Disney, and BCG before starting an ML consulting firm. The trends in NLP finally caught up to my dream (LLM, distillation, fine-tuning, transformers, GPUs), so working on Compose AI seemed like the next logical step.<p>We are working to create a more holistic, AI-first writing solution. For now, our chrome extension has autocompletion, rephrasing (shorten, lengthen, change mood), and full email&#x2F;reply generation functionalities. As you’re typing, the text is streamed to our backend servers, where we have relatively large transformers models that are tuned for specific scenarios.<p>If you need help with long-form content or the creative process, our web app (<a href=\"https:&#x2F;&#x2F;web.compose.ai\" rel=\"nofollow\">https:&#x2F;&#x2F;web.compose.ai</a>) can generate product descriptions, blog outlines, sales pitches and more. Note: our web app asks for credit card on sign-up but includes a free 7-day trial.<p>For our Chrome Extension, we make money using a freemium subscription model. Your data is end-to-end encrypted and encrypted at rest. We will never will your data and will only use it to fulfill your completions or improve your results.<p>Here are a couple demo videos of the extension generating responses to a Hacker News email:\n<a href=\"https:&#x2F;&#x2F;www.loom.com&#x2F;share&#x2F;c36ec67b0a3a466aaa2ec5ee2399cb15\" rel=\"nofollow\">https:&#x2F;&#x2F;www.loom.com&#x2F;share&#x2F;c36ec67b0a3a466aaa2ec5ee2399cb15</a>\n<a href=\"https:&#x2F;&#x2F;www.loom.com&#x2F;share&#x2F;44cf0f5893094d1191143b9f6fe11a5d\" rel=\"nofollow\">https:&#x2F;&#x2F;www.loom.com&#x2F;share&#x2F;44cf0f5893094d1191143b9f6fe11a5d</a><p>Thanks for reading! Would love to have some conversation with folks in the comments section below. Please share any feedback&#x2F;ideas&#x2F;experience! Here are our open jobs: <a href=\"https:&#x2F;&#x2F;at.compose.ai&#x2F;jointheteam\" rel=\"nofollow\">https:&#x2F;&#x2F;at.compose.ai&#x2F;jointheteam</a> You can download Compose AI from the Chrome web store: <a href=\"https:&#x2F;&#x2F;at.compose.ai&#x2F;download\" rel=\"nofollow\">https:&#x2F;&#x2F;at.compose.ai&#x2F;download</a>",
-      "time": 1654791646,
-      "title": "Launch HN: Compose.ai (YC W21) – AI-powered extension to speed up email writing",
-      "type": "story"
-    },
-    {
-      "by": "ninside",
-      "descendants": 0,
-      "id": 31683156,
-      "score": 1,
-      "time": 1654791643,
-      "title": "Markdown based documentation with rich visuals and useful plugins",
-      "type": "story",
-      "url": "https://github.com/testingisdocumenting/znai"
-    },
-    {
-      "by": "NickRandom",
-      "descendants": 0,
-      "id": 31683134,
-      "score": 1,
-      "time": 1654791537,
-      "title": "Updating our understanding of Earth’s architecture",
-      "type": "story",
-      "url": "https://www.adelaide.edu.au/newsroom/news/list/2022/06/07/updating-our-understanding-of-earths-architecture"
-    },
-    {
-      "by": "stalfosknight",
-      "descendants": 0,
-      "id": 31683124,
-      "score": 1,
-      "time": 1654791501,
-      "title": "Report says Microsoft will require SSDs for new PCs soon, but is it a big deal?",
-      "type": "story",
-      "url": "https://arstechnica.com/gadgets/2022/06/analyst-claims-microsoft-is-pushing-to-require-ssds-in-new-windows-pcs/"
-    },
-    {
-      "by": "PaulHoule",
-      "descendants": 0,
-      "id": 31683104,
-      "score": 1,
-      "time": 1654791405,
-      "title": "Asteroid Ryugu study informs our understanding of solar system formation",
-      "type": "story",
-      "url": "https://phys.org/news/2022-06-solar-formation-asteroid-ryugu.html"
-    },
-    {
-      "by": "jfkimmes",
-      "descendants": 0,
-      "id": 31683049,
-      "score": 2,
-      "time": 1654791205,
-      "title": "Russia unexpectedly poor at cyberwar, say European military heads",
-      "type": "story",
-      "url": "https://www.straitstimes.com/world/europe/russia-unexpectedly-poor-at-cyberwar-say-european-military-heads"
     }
   ]
 }
