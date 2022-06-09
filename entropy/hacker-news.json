@@ -1,6 +1,56 @@
 {
   "stories": [
     {
+      "by": "MaximBartkov",
+      "descendants": 0,
+      "id": 31681684,
+      "score": 1,
+      "text": "I want to present our library to provide rate-limiting functionality in Java - Bucket4j. \nBased on our library, you can limit your API in Java. \nThrough the Bucket4j, we can work in a distributed environment because we have implementations with many databases, such as Redis, Hazelcast, Apache Ignite, Infinispan, Oracle coherence, Dynamodb, PostgreSQL, MySQL, e.t.c.\nAlso, we have a considerable API to work with Rate-Limiting: \n1) Monitoring API - you can monitor all of your limits in runtime through any monitoring system (dropwizard, prometeus, e.t.c).\n2) On-the-fly Configuration replacement - you can replace a configuration with a new configuration and distribute tokens as needed.\n3) Diagnostic API - to get detailed information about limits.\n4) Batching API - to optimize work with database for high load keys.\n5) Blocking API\n6) Scheduler API\n7) Opportunity to work with multi-bandwidth management\n...\nAnd many other APIs.<p>If you work with Java and need a rate-limiting in your project, please look to Bucket4j.<p>GitHub: https:&#x2F;&#x2F;github.com&#x2F;bucket4j&#x2F;bucket4j<p>Report about Bucket4j: https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=kG_hF7p7xYI<p>Thank you for your attention!",
+      "time": 1654785299,
+      "title": "Open-source library for rate-limiting in Java",
+      "type": "story"
+    },
+    {
+      "by": "jonifico",
+      "descendants": 0,
+      "id": 31681673,
+      "score": 1,
+      "time": 1654785228,
+      "title": "CSS Shadow Gradients Generator",
+      "type": "story",
+      "url": "https://alvarotrigo.com/shadow-gradients/"
+    },
+    {
+      "by": "bryanrasmussen",
+      "descendants": 0,
+      "id": 31681652,
+      "score": 1,
+      "time": 1654785096,
+      "title": "Cryptographic Beings",
+      "type": "story",
+      "url": "https://michaelsedbon.com/Cryptographic-Beings"
+    },
+    {
+      "by": "pella",
+      "descendants": 0,
+      "id": 31681630,
+      "score": 2,
+      "time": 1654785010,
+      "title": "Python 3.11 Is Much Faster, but Pyston and PyPy Still Show Advantages",
+      "type": "story",
+      "url": "https://www.phoronix.com/scan.php?page=article&item=python311-pyston-pypy&num=1"
+    },
+    {
+      "by": "ibobev",
+      "descendants": 0,
+      "id": 31681626,
+      "score": 1,
+      "time": 1654784998,
+      "title": "Learn OpenGL: Physically Based Bloom",
+      "type": "story",
+      "url": "https://learnopengl.com/Guest-Articles/2022/Phys.-Based-Bloom"
+    },
+    {
       "by": "petercooper",
       "descendants": 0,
       "id": 31681624,
@@ -12,8 +62,11 @@
     },
     {
       "by": "andsoitis",
-      "descendants": 0,
+      "descendants": 1,
       "id": 31681622,
+      "kids": [
+        31681664
+      ],
       "score": 1,
       "time": 1654784983,
       "title": "Spotify Wants You Hooked on Audiobooks",
@@ -44,61 +97,11 @@
       "by": "jonbaer",
       "descendants": 0,
       "id": 31681590,
-      "score": 1,
+      "score": 2,
       "time": 1654784854,
       "title": "New Standards for National Electric Vehicle Charging Network",
       "type": "story",
       "url": "https://www.whitehouse.gov/briefing-room/statements-releases/2022/06/09/fact-sheet-biden-harris-administration-proposes-new-standards-for-national-electric-vehicle-charging-network/"
-    },
-    {
-      "by": "malshe",
-      "descendants": 0,
-      "id": 31681588,
-      "score": 1,
-      "time": 1654784839,
-      "title": "Home Buyers Are Finding Creative Ways to Make Cash Offers",
-      "type": "story",
-      "url": "https://www.wsj.com/articles/home-buyers-are-finding-creative-ways-to-make-cash-offers-11654767001"
-    },
-    {
-      "by": "clouddrover",
-      "descendants": 0,
-      "id": 31681565,
-      "score": 2,
-      "time": 1654784749,
-      "title": "Your Car Is Tracking You Just as Much as Your Smartphone Is",
-      "type": "story",
-      "url": "https://www.thedrive.com/news/think-your-smartphone-is-tracking-you-your-cars-doing-it-too"
-    },
-    {
-      "by": "thisistheend123",
-      "descendants": 0,
-      "id": 31681558,
-      "score": 1,
-      "time": 1654784725,
-      "title": "Strange radio burst raises new questions",
-      "type": "story",
-      "url": "https://www.sciencedaily.com/releases/2022/06/220608112458.htm"
-    },
-    {
-      "by": "alraj",
-      "descendants": 0,
-      "id": 31681553,
-      "score": 1,
-      "time": 1654784703,
-      "title": "We’re All In: The Ecosia Manifesto",
-      "type": "story",
-      "url": "https://blog.ecosia.org/manifesto/"
-    },
-    {
-      "by": "pachico",
-      "descendants": 0,
-      "id": 31681550,
-      "score": 1,
-      "time": 1654784692,
-      "title": "Triodos Bank announces 18 hours long service interruption",
-      "type": "story",
-      "url": "https://twitter.com/pachico/status/1534903883859906567"
     }
   ]
 }
