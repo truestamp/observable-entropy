@@ -1,6 +1,26 @@
 {
   "stories": [
     {
+      "by": "rbanffy",
+      "descendants": 0,
+      "id": 31692099,
+      "score": 1,
+      "time": 1654856075,
+      "title": "How Are Planets Made? New Theories Are Taking Shape",
+      "type": "story",
+      "url": "https://www.quantamagazine.org/how-are-planets-made-new-theories-are-taking-shape-20220609/"
+    },
+    {
+      "by": "janniks",
+      "descendants": 0,
+      "id": 31692088,
+      "score": 1,
+      "text": "I‘ve been thinking about password managers a lot lately. More specifically about what malware could do (and not do) on a compromised machine using a password managers (e.g., 1Password).<p>I’m no operating systems expert and would love to know how far an program with or without root access could go reading the password managers data. This might differ on different host OS (Linux vs macOS vs Windows).<p>Let us assume a standard master-key plus master-password setup. We also assume a hosted data service by the provider (i.e, they encryptedly store everything, except master-key and master-password).<p>Obviously a malware could access the clipboard and thus get each password copied to the clipboard. But how far does it go? Can we access password in-memory when the vault is unlocked? etc.<p>Can malware access the master-key?\nCan malware access the master-password? How? Only via keyloggers?\nCan malware access all passwords when vault is unlocked?\nCan malware access anything in RAM?\nWhat could malware do when sniffing network connections?<p>Thanks for indulging me! Would be great to get some understanding from experts in OS or password managers.",
+      "time": 1654855945,
+      "title": "Ask HN: Safeties of Password Managers on Compromised Devices",
+      "type": "story"
+    },
+    {
       "by": "YashdharaC",
       "descendants": 1,
       "id": 31692059,
@@ -47,7 +67,7 @@
       "by": "hucste",
       "descendants": 0,
       "id": 31692011,
-      "score": 1,
+      "score": 2,
       "time": 1654855052,
       "title": "OpenBSD 7.1 on PINE64 RockPro64",
       "type": "story",
@@ -85,29 +105,6 @@
       "title": "TrustPid Privacy Portal",
       "type": "story",
       "url": "https://www.trustpid.com/"
-    },
-    {
-      "by": "permo-w",
-      "descendants": 1,
-      "id": 31691988,
-      "kids": [
-        31692040
-      ],
-      "score": 2,
-      "time": 1654854796,
-      "title": "Thailand becomes the first country in Asia to decriminalise marijuana",
-      "type": "story",
-      "url": "https://japantoday.com/category/world/thailand-decriminalizes-marijuana-but-not-the-strong-stuff"
-    },
-    {
-      "by": "lukamlakar",
-      "descendants": 0,
-      "id": 31691985,
-      "score": 1,
-      "time": 1654854703,
-      "title": "Show HN: Webflow Template Library – We've curated 60+ free Webflow templates",
-      "type": "story",
-      "url": "https://www.flowout.com/free-templates"
     }
   ]
 }
