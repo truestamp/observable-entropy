@@ -4,7 +4,7 @@
       "by": "jart",
       "descendants": 0,
       "id": 31693323,
-      "score": 1,
+      "score": 2,
       "time": 1654865278,
       "title": "Size Optimization Tricks",
       "type": "story",
@@ -22,10 +22,13 @@
     },
     {
       "by": "jayalammar",
-      "descendants": 0,
+      "descendants": 1,
       "id": 31693314,
+      "kids": [
+        31693359
+      ],
       "score": 1,
-      "text": "Hi HN,<p>I spent a few weeks looking at the top HN posts of all time. This included exploration, clustering, creating visualizations, and zooming in on what (to me personally) seems like some of the best discussions on here.<p>Three things in this post:<p>1- The interesting groups of HN posts<p>2- The interactive visualizations that you can explore in your browser<p>3- The data from this exploration -- this includes CSV of the titles as well as the text embeddings of 3,000 Ask HN articles.<p>Blog post about this whole process here:<p>https:&#x2F;&#x2F;txt.cohere.ai&#x2F;combing-for-insight-in-10-000-hacker-news-posts-with-text-clustering&#x2F;<p>============<p>1- The interesting groups of HN posts<p>From the exploration, Ask HN proved the most interesting. These are the top three groups of topics I found insightful. Each group contains about 400 posts.<p>- Life experiences and advice threads<p>https:&#x2F;&#x2F;assets.cohere.ai&#x2F;blog&#x2F;text-clustering&#x2F;askhn_cluster_6a.html<p>- Technical and personal development<p>https:&#x2F;&#x2F;assets.cohere.ai&#x2F;blog&#x2F;text-clustering&#x2F;askhn_cluster_7a.html<p>- Software career insights, advice, and discussions<p>https:&#x2F;&#x2F;assets.cohere.ai&#x2F;blog&#x2F;text-clustering&#x2F;askhn_cluster_5a.html<p>- General content recommendations (blogs&#x2F;podcasts)<p>https:&#x2F;&#x2F;assets.cohere.ai&#x2F;blog&#x2F;text-clustering&#x2F;askhn_cluster_3a.html<p>============<p>2- The interactive visualizations that you can explore in your browser<p>- Top 10,000 Hacker News articles of all time<p>https:&#x2F;&#x2F;assets.cohere.ai&#x2F;blog&#x2F;text-clustering&#x2F;hn10k_clustered.html<p>- Top 3,000 posts in Ask HN<p>https:&#x2F;&#x2F;assets.cohere.ai&#x2F;blog&#x2F;text-clustering&#x2F;askhn-3k.html<p>============<p>3- The data from this exploration<p>CSV file of top 3K Ask HN posts:<p>https:&#x2F;&#x2F;storage.googleapis.com&#x2F;cohere-assets&#x2F;blog&#x2F;text-clustering&#x2F;data&#x2F;askhn3k_df.csv<p>The sentence embeddings of the titles of those posts:<p>https:&#x2F;&#x2F;storage.googleapis.com&#x2F;cohere-assets&#x2F;blog&#x2F;text-clustering&#x2F;data&#x2F;askhn3k_embeds.npy<p>This is a colab notebook containing the code examples (including loading these two data files):<p>https:&#x2F;&#x2F;colab.research.google.com&#x2F;github&#x2F;cohere-ai&#x2F;notebooks&#x2F;blob&#x2F;main&#x2F;notebooks&#x2F;Analyzing_Hacker_News_with_Six_Language_Understanding_Methods.ipynb<p>============<p>If you&#x27;ve ever wanted to get into language models, this is a good place to start. Happy to answer any questions",
+      "text": "Hi HN,<p>I spent a few weeks looking at the top HN posts of all time. This included exploration, clustering, creating visualizations, and zooming in on what (to me personally) seems like some of the best discussions on here.<p>Three things in this post:<p>1- The interesting groups of HN posts<p>2- The interactive visualizations that you can explore in your browser<p>3- The data from this exploration -- this includes CSV of the titles as well as the text embeddings of 3,000 Ask HN articles.<p>Blog post about this whole process here: [1]<p>============<p>1- The interesting groups of HN posts<p>From the exploration, Ask HN proved the most interesting. These are the top three groups of topics I found insightful. Each group contains about 400 posts.<p>- Life experiences and advice threads [2]<p>- Technical and personal development [3]<p>- Software career insights, advice, and discussions [4]<p>- General content recommendations (blogs&#x2F;podcasts) [5]<p>============<p>2- The interactive visualizations that you can explore in your browser<p>- Top 10,000 Hacker News articles of all time [6]<p>- Top 3,000 posts in Ask HN [7]<p>============<p>3- The data from this exploration<p>CSV file of top 3K Ask HN posts: [8]<p>The sentence embeddings of the titles of those posts: [9]<p>This is a colab notebook containing the code examples (including loading these two data files): [10]<p>============<p>If you&#x27;ve ever wanted to get into language models, this is a good place to start. Happy to answer any questions",
       "time": 1654865243,
       "title": "Show HN: Analyzing top HN posts with language models",
       "type": "story"
@@ -34,7 +37,7 @@
       "by": "robtherobber",
       "descendants": 0,
       "id": 31693311,
-      "score": 1,
+      "score": 2,
       "time": 1654865224,
       "title": "It’s the end: the CJEU confirms that UK citizens have lost EU citizenship",
       "type": "story",
@@ -54,7 +57,7 @@
       "by": "sanketpatrikar",
       "descendants": 0,
       "id": 31693287,
-      "score": 3,
+      "score": 6,
       "time": 1654865090,
       "title": "uBlacklist – Block specific sites from appearing in Google search results",
       "type": "story",
