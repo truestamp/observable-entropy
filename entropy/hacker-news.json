@@ -1,6 +1,56 @@
 {
   "stories": [
     {
+      "by": "shrewdcomputer",
+      "descendants": 0,
+      "id": 31692124,
+      "score": 1,
+      "time": 1654856397,
+      "title": "How to Capture a Larger Audience with Your Software Development Content",
+      "type": "story",
+      "url": "https://codingwithryan.com/posts/improve-software-development-content"
+    },
+    {
+      "by": "rbanffy",
+      "descendants": 0,
+      "id": 31692117,
+      "score": 1,
+      "time": 1654856352,
+      "title": "Strong Showing for First Experimental RISC-V Supercomputer",
+      "type": "story",
+      "url": "https://www.nextplatform.com/2022/06/09/strong-showing-for-first-experimental-risc-v-supercomputer/"
+    },
+    {
+      "by": "rbanffy",
+      "descendants": 0,
+      "id": 31692116,
+      "score": 1,
+      "time": 1654856346,
+      "title": "New ultra-stealthy Linux backdoor isn’t your everyday malware discovery",
+      "type": "story",
+      "url": "https://arstechnica.com/information-technology/2022/06/novel-techniques-in-never-before-seen-linux-backdoor-make-it-ultra-stealthy/"
+    },
+    {
+      "by": "rbanffy",
+      "descendants": 0,
+      "id": 31692114,
+      "score": 1,
+      "time": 1654856325,
+      "title": "AMD Zen Architecture Roadmap: Zen 5 in 2024 with All-New Microarchitecture",
+      "type": "story",
+      "url": "https://www.anandtech.com/show/17439/amd-zen-architecture-roadmap-zen-5-in-2024-with-allnew-microarchitecture"
+    },
+    {
+      "by": "ycollette",
+      "descendants": 0,
+      "id": 31692103,
+      "score": 1,
+      "time": 1654856140,
+      "title": "Otoacoustic Emission",
+      "type": "story",
+      "url": "https://en.wikipedia.org/wiki/Otoacoustic_emission"
+    },
+    {
       "by": "rbanffy",
       "descendants": 0,
       "id": 31692099,
@@ -14,7 +64,7 @@
       "by": "janniks",
       "descendants": 0,
       "id": 31692088,
-      "score": 1,
+      "score": 2,
       "text": "I‘ve been thinking about password managers a lot lately. More specifically about what malware could do (and not do) on a compromised machine using a password managers (e.g., 1Password).<p>I’m no operating systems expert and would love to know how far an program with or without root access could go reading the password managers data. This might differ on different host OS (Linux vs macOS vs Windows).<p>Let us assume a standard master-key plus master-password setup. We also assume a hosted data service by the provider (i.e, they encryptedly store everything, except master-key and master-password).<p>Obviously a malware could access the clipboard and thus get each password copied to the clipboard. But how far does it go? Can we access password in-memory when the vault is unlocked? etc.<p>Can malware access the master-key?\nCan malware access the master-password? How? Only via keyloggers?\nCan malware access all passwords when vault is unlocked?\nCan malware access anything in RAM?\nWhat could malware do when sniffing network connections?<p>Thanks for indulging me! Would be great to get some understanding from experts in OS or password managers.",
       "time": 1654855945,
       "title": "Ask HN: Safeties of Password Managers on Compromised Devices",
@@ -52,59 +102,6 @@
       "title": "Tesla Autopilot safety faces bigger questions as US upgrades crash probe",
       "type": "story",
       "url": "https://arstechnica.com/tech-policy/2022/06/us-expands-probe-of-tesla-autopilot-crashes-in-step-toward-possible-recall/"
-    },
-    {
-      "by": "giuliomagnifico",
-      "descendants": 0,
-      "id": 31692044,
-      "score": 1,
-      "time": 1654855538,
-      "title": "Strange Radio Burst Raises New Questions",
-      "type": "story",
-      "url": "https://public.nrao.edu/news/strange-radio-burst-raises-new-questions/"
-    },
-    {
-      "by": "hucste",
-      "descendants": 0,
-      "id": 31692011,
-      "score": 2,
-      "time": 1654855052,
-      "title": "OpenBSD 7.1 on PINE64 RockPro64",
-      "type": "story",
-      "url": "https://bsandro.tech/posts/openbsd-7.1-on-pine64-rockpro64/"
-    },
-    {
-      "by": "Tomte",
-      "descendants": 0,
-      "id": 31692002,
-      "score": 1,
-      "time": 1654854948,
-      "title": "Gears Drive the World",
-      "type": "story",
-      "url": "https://www.americanscientist.org/article/gears-drive-the-world"
-    },
-    {
-      "by": "marban",
-      "descendants": 0,
-      "id": 31692000,
-      "score": 1,
-      "time": 1654854940,
-      "title": "Consumer fintech is out. Embedded finance is in",
-      "type": "story",
-      "url": "https://www.protocol.com/fintech/embedded-finance-venture-capital"
-    },
-    {
-      "by": "severine",
-      "descendants": 1,
-      "id": 31691990,
-      "kids": [
-        31691997
-      ],
-      "score": 1,
-      "time": 1654854817,
-      "title": "TrustPid Privacy Portal",
-      "type": "story",
-      "url": "https://www.trustpid.com/"
     }
   ]
 }
