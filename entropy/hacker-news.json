@@ -1,6 +1,56 @@
 {
   "stories": [
     {
+      "by": "rntn",
+      "descendants": 0,
+      "id": 31696637,
+      "score": 1,
+      "time": 1654880077,
+      "title": "AMD touts big datacenter, AI ambitions in CPU-GPU roadmap",
+      "type": "story",
+      "url": "https://www.theregister.com/2022/06/10/amd_chip_roadmap/"
+    },
+    {
+      "by": "raybb",
+      "descendants": 0,
+      "id": 31696633,
+      "score": 1,
+      "time": 1654880060,
+      "title": "Winner and Loser Effects",
+      "type": "story",
+      "url": "https://en.wikipedia.org/wiki/Winner_and_loser_effects"
+    },
+    {
+      "by": "giuliomagnifico",
+      "descendants": 0,
+      "id": 31696595,
+      "score": 1,
+      "time": 1654879909,
+      "title": "China's Drone Carrier Hints at 'Swarm' Ambitions for Pacific",
+      "type": "story",
+      "url": "https://www.barrons.com/news/china-s-drone-carrier-hints-at-swarm-ambitions-for-pacific-01654681209"
+    },
+    {
+      "by": "warangal",
+      "descendants": 0,
+      "id": 31696591,
+      "score": 1,
+      "time": 1654879895,
+      "title": "Show HN: Computer Vision Models for Developers",
+      "type": "story",
+      "url": "https://ramanlabs.in"
+    },
+    {
+      "by": "duckweb",
+      "descendants": 0,
+      "id": 31696589,
+      "score": 1,
+      "time": 1654879879,
+      "title": "A Bolt engineer took out a $100k loan to buy equity. Then, they laid him off",
+      "type": "story",
+      "url": "https://www.businessinsider.com/bolt-stock-options-equity-layoffs-loan-ipo-fintech-2022-6"
+    },
+    {
       "by": "jp_sc",
       "descendants": 0,
       "id": 31696571,
@@ -49,57 +99,6 @@
       "title": "Climate change: Ukraine war prompts fossil fuel 'gold rush' – report",
       "type": "story",
       "url": "https://www.bbc.com/news/science-environment-61723252"
-    },
-    {
-      "by": "anm89",
-      "descendants": 0,
-      "id": 31696497,
-      "score": 2,
-      "time": 1654879422,
-      "title": "US Inflation Quickens to 40-Year High",
-      "type": "story",
-      "url": "https://finance.yahoo.com/news/us-inflation-unexpectedly-accelerates-40-123613634.html"
-    },
-    {
-      "by": "c7DJTLrn",
-      "descendants": 0,
-      "id": 31696447,
-      "score": 2,
-      "text": "I love the M1 chips. I use a 2021 MacBook both personally and professionally. My job is DevOps work.<p>But the migration to ARM is proving to be quite a pain point. Not being able to just do things as I would on x86-64 is damaging my productivity and creating a necessity for horrible workarounds.<p>As far as I know none of our pipelines yet do multi-arch Docker builds, so everything we have is heavily x86-64 oriented. VirtualBox is out of the picture because it doesn&#x27;t support ARM. That means other tools that rely on it are also out of the picture, like Molecule. My colleague wrote a sort of wrapper script that uses Multipass instead but Multipass can&#x27;t do x86-on-ARM emulation.<p>I&#x27;ve been using Lima to create virtual machines which works quite well because it can do multiple architectures. I haven&#x27;t tested it on Linux though, and since it claims to be geared towards macOS that worries me. We are a company using a mix of MacBooks and Linux machines so we need a tool that will work for everyone.<p>The virtualisation situation on MacBooks in general isn&#x27;t great. I think Apple introduced Virtualization.framework to try and improve things but the performance is actually worse than QEMU. You can try enabling it in the Docker Desktop experimental options and you&#x27;ll notice it gets more sluggish.<p>Ugh. Again, I love the performance and battery life, but the fragmentation this has created is a nightmare.<p>How is your experience so far? Any tips&#x2F;tricks?",
-      "time": 1654879191,
-      "title": "Ask HN: How are you dealing with the M1/ARM migration?",
-      "type": "story"
-    },
-    {
-      "by": "myth_drannon",
-      "descendants": 0,
-      "id": 31696422,
-      "score": 1,
-      "time": 1654879083,
-      "title": "Turbo Rascal Is the Retro Pascal Compiler We Always Wanted",
-      "type": "story",
-      "url": "https://hackaday.com/2021/11/30/turbo-rascal-is-the-retro-pascal-compiler-we-always-wanted/"
-    },
-    {
-      "by": "adenner",
-      "descendants": 0,
-      "id": 31696400,
-      "score": 1,
-      "time": 1654879000,
-      "title": "Postbox: The Power Email App for busy professionals, like you",
-      "type": "story",
-      "url": "https://www.postbox-inc.com"
-    },
-    {
-      "by": "researchers",
-      "descendants": 0,
-      "id": 31696384,
-      "score": 1,
-      "text": "Hey HN! We’ve created Mood Surf, a discovery engine to explore topics that intrigue you. We miss the days you could stumble upon weird, wonderful, human-authored pages on the Web. Twitter threads are similarly niche and personal but so much good content gets lost in the algorithmic timeline.<p>So we built Mood Surf to explore the conversations that you might not have found otherwise. Click “Shuffle” to jump into a random corner topic space. Click “Dive Deeper” to go down the rabbit hole of similar threads.<p>Technical details:<p>We ran graph analysis on the tech&#x2F;startup-adjacent subset of Twitter graph to find the top contributors within a given niche. We extracted each user’s threads and embedded them using sentence transformers [0]. The “dive deeper” functionality is powered by approximate nearest neighbor lookup using Pinecone [1]<p>We hope you like the product — share with us any feedback you have!<p>— The folks at Re:Search<p>[0] <a href=\"https:&#x2F;&#x2F;www.sbert.net&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;www.sbert.net&#x2F;</a>\n[1] <a href=\"https:&#x2F;&#x2F;pinecone.io&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;pinecone.io&#x2F;</a>",
-      "time": 1654878939,
-      "title": "Show HN: Mood Surf – A topic-based discovery engine for Twitter threads",
-      "type": "story",
-      "url": "https://mood.surf/"
     }
   ]
 }
