@@ -1,12 +1,63 @@
 {
   "stories": [
     {
+      "by": "kiyanwang",
+      "descendants": 0,
+      "id": 31696257,
+      "score": 1,
+      "time": 1654878314,
+      "title": "When Serverless shines (and when to avoid it)",
+      "type": "story",
+      "url": "https://kerkour.com/when-to-use-serverless"
+    },
+    {
+      "by": "jeremylevy",
+      "descendants": 0,
+      "id": 31696251,
+      "score": 1,
+      "text": "Hey HN,<p>As most of you (I think?), I cannot learn something without having a project, on the side, to implement what I’ve just learned.<p>Recode is the project that I&#x27;ve used to learn Go. It lets you create a development environment in your cloud provider account easily.<p>You can think of it as a desktop version of Gitpod &#x2F; Coder &#x2F; GitHub Codespaces less polished and with less features but 100% free and open-source.<p>At the time of writing, it only works with Visual Studio Code and AWS.<p>In order to let you configure your development environments easily, I’ve chosen to use Docker with some Dockerfiles:<p><pre><code>  - One for your user configuration.\n   \n  - One for your project.\n</code></pre>\nThe user configuration corresponds to the tools &#x2F; settings that you use in all your projects like your timezone &#x2F; locale, your preferred shell or your dotfiles.<p>The project configuration corresponds to the tools &#x2F; settings that you use in a specific project like Go &gt;= 1.18 and Node.js &gt;= 14.<p>As you may have guessed, the project configuration inherits from the user one.<p>This project is 100% community-driven, meaning that except for bug fixes no more features will be added.<p>The only features that will be added are the ones that will be posted as an issue and that will receive a significant amount of upvotes (&gt;= 10 currently).",
+      "time": 1654878280,
+      "title": "Show HN: Recode – Remote development environments defined as code",
+      "type": "story",
+      "url": "https://github.com/recode-sh/cli"
+    },
+    {
+      "by": "kiyanwang",
+      "descendants": 0,
+      "id": 31696244,
+      "score": 1,
+      "time": 1654878243,
+      "title": "Why Serverless Encourages Useful Engineering Practices",
+      "type": "story",
+      "url": "https://www.serverless.com//blog/7-reasons-why-serverless-encourages-useful-engineering-practices"
+    },
+    {
+      "by": "isp",
+      "descendants": 0,
+      "id": 31696235,
+      "score": 1,
+      "time": 1654878208,
+      "title": "Sup – A curses threads-with-tags style email client",
+      "type": "story",
+      "url": "https://sup-heliotrope.github.io/"
+    },
+    {
+      "by": "koolba",
+      "descendants": 0,
+      "id": 31696230,
+      "score": 1,
+      "time": 1654878178,
+      "title": "US Lifts Covid-19 Test Requirement for International Travel",
+      "type": "story",
+      "url": "https://www.bloomberg.com/news/articles/2022-06-10/cdc-to-lift-covid-test-mandate-for-flyers-to-us-starting-june-12"
+    },
+    {
       "by": "s0l1dsnak3123",
       "descendants": 0,
       "id": 31696199,
-      "score": 1,
+      "score": 2,
       "time": 1654877942,
-      "title": "Mu4e – Text-based email client backed by Xapian",
+      "title": "Mu4e – Emacs email client backed by Xapian",
       "type": "story",
       "url": "https://www.djcbsoftware.nl/code/mu/mu4e/Other-mail-clients.html"
     },
@@ -24,7 +75,7 @@
       "by": "algoeci",
       "descendants": 0,
       "id": 31696174,
-      "score": 1,
+      "score": 2,
       "time": 1654877825,
       "title": "You Don't Need to Be Brilliant to Do Brilliant Work",
       "type": "story",
@@ -52,62 +103,6 @@
       "title": "Whole Foods shoppers sue Amazon following end of free delivery for Prime members",
       "type": "story",
       "url": "https://techxplore.com/news/2022-06-foods-shoppers-sue-amazon-free.html"
-    },
-    {
-      "by": "philipkglass",
-      "descendants": 0,
-      "id": 31696140,
-      "kids": [
-        31696197
-      ],
-      "score": 1,
-      "time": 1654877610,
-      "title": "Doe announces $504M loan guarantee for Utah hydrogen project storing 150 GWh",
-      "type": "story",
-      "url": "https://www.utilitydive.com/news/doe-loan-guarantee-utah-hydrogen-storage-mitsubishi/625190/"
-    },
-    {
-      "by": "Dotnaught",
-      "descendants": 0,
-      "id": 31696129,
-      "score": 1,
-      "time": 1654877563,
-      "title": "Apple M1 chip contains hardware vulnerability that bypasses memory defense",
-      "type": "story",
-      "url": "https://www.theregister.com/2022/06/10/apple_m1_pacman_flaw/"
-    },
-    {
-      "by": "lifeisstillgood",
-      "descendants": 1,
-      "id": 31696117,
-      "kids": [
-        31696152
-      ],
-      "score": 1,
-      "text": "I have come to realise that, well most large businesses don&#x27;t actually know what&#x27;s going on inside them.  And when they do try to map it out they end up with &quot;human level understanding&quot; - that is the chunks are big enough to fit in a spreadsheet or a human mind.<p>And those chunks tend not to be meaningful to the people actually working on them (ie no one works in a black  box - we actually know what all the cogs and gears do)<p>So there is a disconnect between the people &quot;at the top&quot; and the people &quot;on the ground&quot;<p>This is fairly obvious but one advantage of a micro-service might be that it is meaningful at the ground level but it is also a discrete chunk that has to be mapped and handled at the &quot;top&quot; level.<p>In other words, will micro-services allow businesses to map their own internal workings <i>from</i> the code, not despite the code?",
-      "time": 1654877502,
-      "title": "Ask HN: Are microservices good because they solve tech or business problems?",
-      "type": "story"
-    },
-    {
-      "by": "rtoken",
-      "descendants": 0,
-      "id": 31696114,
-      "score": 2,
-      "time": 1654877497,
-      "title": "Serverless Compute with Dynamic Ephemeral Storage",
-      "type": "story",
-      "url": "https://medium.com/storyboard-podcasts/storyboard-dev-blog-serverless-compute-with-dynamic-ephemeral-storage-8fd38c0df93d"
-    },
-    {
-      "by": "42jd",
-      "descendants": 0,
-      "id": 31696098,
-      "score": 1,
-      "time": 1654877411,
-      "title": "U.S. Bureau of Labor Statistics – Consumer price index [pdf]",
-      "type": "story",
-      "url": "https://www.bls.gov/news.release/pdf/cpi.pdf"
     }
   ]
 }
