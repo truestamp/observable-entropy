@@ -1,6 +1,46 @@
 {
   "stories": [
     {
+      "by": "jprx",
+      "descendants": 0,
+      "id": 31694017,
+      "score": 1,
+      "time": 1654868356,
+      "title": "Pacman: Hardware Bypass for Pointer Authentication on M1",
+      "type": "story",
+      "url": "https://pacmanattack.com/"
+    },
+    {
+      "by": "cascom",
+      "descendants": 0,
+      "id": 31694001,
+      "score": 2,
+      "time": 1654868264,
+      "title": "How the FBI uses laws to spy on foreign terrorists to spy on you",
+      "type": "story",
+      "url": "https://thehill.com/opinion/criminal-justice/3516750-how-the-fbi-uses-laws-to-spy-on-foreign-terrorists-to-spy-on-you/"
+    },
+    {
+      "by": "Tomte",
+      "descendants": 0,
+      "id": 31693989,
+      "score": 1,
+      "time": 1654868204,
+      "title": "Firefox and Chrome are squaring off over ad-blocker extensions",
+      "type": "story",
+      "url": "https://www.theverge.com/2022/6/10/23131029/mozilla-ad-blocking-firefox-google-chrome-privacy-manifest-v3-web-request"
+    },
+    {
+      "by": "ksec",
+      "descendants": 0,
+      "id": 31693971,
+      "score": 2,
+      "time": 1654868127,
+      "title": "Why We’re Sticking with Ruby on Rails at Gitlab",
+      "type": "story",
+      "url": "https://thenewstack.io/why-were-sticking-with-ruby-on-rails-at-gitlab/"
+    },
+    {
       "by": "Tomte",
       "descendants": 0,
       "id": 31693943,
@@ -15,7 +55,7 @@
       "descendants": 0,
       "id": 31693939,
       "score": 1,
-      "text": "Say, I have three entity types `Senior`, `Junior_A` and `Junior_B`. Each entity specifies access control for other entities. So I can either create tables as follows:<p><pre><code>   Senior, Junior_A, Junior_B, AccessControl\n</code></pre>\nwhere AccessControl holds access control details between all the entities. This simplifies the code but could lead to performance issues as everything is put into one table.<p>But, then I can also create the tables as follows:<p><pre><code>    Senior, Junior_A, Junior_B, AC_Senior_Senior, AC_Senior_Junior_A, AC_Senior_Junior_B, AC_Junior_A_Junior_A, AC_Junior_A_Junior_B, AC_Junior_B_Junior_B\n\n where `AC_ABC_XYZ` is a table that holds access control information between entities `ABC` and `XYZ`. This complicates the code as the code now has to handle different tables depending on the entity types involved, but will improve performance.\n</code></pre>\nWhich design would you prefer, and why?",
+      "text": "Say, I have three entity types `Senior`, `Junior_A` and `Junior_B`. Each entity specifies access control for other entities. So I can either create tables as follows:<p><pre><code>    Senior, Junior_A, Junior_B, AccessControl\n</code></pre>\nwhere `AccessControl` holds access control details between all the entities. This simplifies the code but could lead to performance issues as everything is put into one table.<p>But, then I can also create the tables as follows:<p><pre><code>    Senior, Junior_A, Junior_B, AC_Senior_Senior, AC_Senior_Junior_A, AC_Senior_Junior_B, AC_Junior_A_Junior_A, AC_Junior_A_Junior_B, AC_Junior_B_Junior_B\n\n where `AC_ABC_XYZ` is a table that holds access control information between entities `ABC` and `XYZ`. This complicates the code as the code now has to handle different tables depending on the entity types involved, but will improve performance.\n</code></pre>\nWhich design would you prefer, and why?",
       "time": 1654868017,
       "title": "Separate tables or just one table to hold access control info between entities?",
       "type": "story"
@@ -59,46 +99,6 @@
       "title": "The Yield Curve as a Leading Indicator",
       "type": "story",
       "url": "https://www.newyorkfed.org/research/capital_markets/ycfaq#/interactive"
-    },
-    {
-      "by": "ksec",
-      "descendants": 0,
-      "id": 31693880,
-      "score": 2,
-      "time": 1654867764,
-      "title": "Anime: Japanese animation has taken the West by storm",
-      "type": "story",
-      "url": "https://www.bbc.com/news/entertainment-arts-60865649"
-    },
-    {
-      "by": "leonagano",
-      "descendants": 0,
-      "id": 31693853,
-      "score": 2,
-      "time": 1654867655,
-      "title": "Show HN: Help a laid off person. Share their profile.",
-      "type": "story",
-      "url": "https://helpalaidoff.com"
-    },
-    {
-      "by": "cbrgm",
-      "descendants": 0,
-      "id": 31693852,
-      "score": 2,
-      "text": "Normally I rarely write my own opinion on things but this just has to come out now. The other day I participated in a Cloud Meetup in my area, since ages again in even in-person. How could it be otherwise, many of the participants have a DevOps background. But the variations in job titles really amazed me.<p>I feel like the term DevOps is becoming inflationary. Sometimes I feel like many people forget what DevOps is all about. It is not a job title that you print on a business card, it is not a department within a company that you can create and then you have automatically established DevOps principles, no DevOps is a culture that must be lived.<p>In the two hours of the Meetup I got to know more of the xOps variations than I would have liked, including FinOps, GreenOps, SecOps and many more.  Is this a trend to combine various areas with DevOps and invent new words?  Where will this lead us, will every area that has contact points between development and operations now be given a new name? ComplianceOps, PeopleOps? I don&#x27;t think they are doing themselves any favors.",
-      "time": 1654867650,
-      "title": "Ask HN: I feel like the term DevOps is becoming inflationary",
-      "type": "story"
-    },
-    {
-      "by": "blue_box",
-      "descendants": 0,
-      "id": 31693830,
-      "score": 1,
-      "time": 1654867493,
-      "title": "Microsoft Announces It Will Include Pay Ranges in All U.S. Job Postings",
-      "type": "story",
-      "url": "https://www.forbes.com/sites/jenamcgregor/2022/06/09/microsoft-announces-it-will-include-pay-ranges-in-all-us-job-postings-experts-predict-it-will-be-the-first-of-many/"
     }
   ]
 }
