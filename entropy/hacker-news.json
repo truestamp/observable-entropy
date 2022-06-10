@@ -1,6 +1,45 @@
 {
   "stories": [
-    null,
+    {
+      "by": "ddtaylor",
+      "descendants": 0,
+      "id": 31696512,
+      "score": 1,
+      "time": 1654879508,
+      "title": "Inkscape Moves to Gitlab (2017)",
+      "type": "story",
+      "url": "https://inkscape.org/news/2017/06/10/inkscape-moves-gitlab/"
+    },
+    {
+      "by": "rntn",
+      "descendants": 0,
+      "id": 31696509,
+      "score": 1,
+      "time": 1654879498,
+      "title": "Climate change: Ukraine war prompts fossil fuel 'gold rush' – report",
+      "type": "story",
+      "url": "https://www.bbc.com/news/science-environment-61723252"
+    },
+    {
+      "by": "anm89",
+      "descendants": 0,
+      "id": 31696497,
+      "score": 1,
+      "time": 1654879422,
+      "title": "US Inflation Quickens to 40-Year High",
+      "type": "story",
+      "url": "https://finance.yahoo.com/news/us-inflation-unexpectedly-accelerates-40-123613634.html"
+    },
+    {
+      "by": "c7DJTLrn",
+      "descendants": 0,
+      "id": 31696447,
+      "score": 2,
+      "text": "I love the M1 chips. I use a 2021 MacBook both personally and professionally. My job is DevOps work.<p>But the migration to ARM is proving to be quite a pain point. Not being able to just do things as I would on x86-64 is damaging my productivity and creating a necessity for horrible workarounds.<p>As far as I know none of our pipelines yet do multi-arch Docker builds, so everything we have is heavily x86-64 oriented. VirtualBox is out of the picture because it doesn&#x27;t support ARM. That means other tools that rely on it are also out of the picture, like Molecule. My colleague wrote a sort of wrapper script that uses Multipass instead but Multipass can&#x27;t do x86-on-ARM emulation.<p>I&#x27;ve been using Lima to create virtual machines which works quite well because it can do multiple architectures. I haven&#x27;t tested it on Linux though, and since it claims to be geared towards macOS that worries me. We are a company using a mix of MacBooks and Linux machines so we need a tool that will work for everyone.<p>The virtualisation situation on MacBooks in general isn&#x27;t great. I think Apple introduced Virtualization.framework to try and improve things but the performance is actually worse than QEMU. You can try enabling it in the Docker Desktop experimental options and you&#x27;ll notice it gets more sluggish.<p>Ugh. Again, I love the performance and battery life, but the fragmentation this has created is a nightmare.<p>How is your experience so far? Any tips&#x2F;tricks?",
+      "time": 1654879191,
+      "title": "Ask HN: How are you dealing with the M1/ARM migration?",
+      "type": "story"
+    },
     {
       "by": "myth_drannon",
       "descendants": 0,
@@ -61,36 +100,6 @@
       "title": "Amazon (and the USPTO) are drowning in Trademarks",
       "type": "story",
       "url": "https://www.marketplacepulse.com/articles/amazon-is-drowning-in-trademarks"
-    },
-    {
-      "by": "zinekeller",
-      "descendants": 0,
-      "id": 31696339,
-      "score": 2,
-      "time": 1654878748,
-      "title": "Aoqin Dragon: Chinese-linked APT has been spying on organizations for 10 years",
-      "type": "story",
-      "url": "https://www.sentinelone.com/labs/aoqin-dragon-newly-discovered-chinese-linked-apt-has-been-quietly-spying-on-organizations-for-10-years/"
-    },
-    {
-      "by": "rusty-rustacean",
-      "descendants": 0,
-      "id": 31696337,
-      "score": 1,
-      "time": 1654878745,
-      "title": "How organizations are changing (2021)",
-      "type": "story",
-      "url": "https://swardley.medium.com/how-organisations-are-changing-cf80f3e2300"
-    },
-    {
-      "by": "winternett",
-      "descendants": 0,
-      "id": 31696329,
-      "score": 1,
-      "time": 1654878674,
-      "title": "Don't quit your day job",
-      "type": "story",
-      "url": "http://circuitbored.com/communicate/viewtopic.php?t=216"
     }
   ]
 }
