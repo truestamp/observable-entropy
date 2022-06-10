@@ -1,10 +1,70 @@
 {
   "stories": [
     {
+      "by": "Tomte",
+      "descendants": 0,
+      "id": 31693943,
+      "score": 1,
+      "time": 1654868029,
+      "title": "Understanding the Odds",
+      "type": "story",
+      "url": "https://www.americanscientist.org/article/understanding-the-odds"
+    },
+    {
+      "by": "_448",
+      "descendants": 0,
+      "id": 31693939,
+      "score": 1,
+      "text": "Say, I have three entity types `Senior`, `Junior_A` and `Junior_B`. Each entity specifies access control for other entities. So I can either create tables as follows:<p><pre><code>   Senior, Junior_A, Junior_B, AccessControl\n</code></pre>\nwhere AccessControl holds access control details between all the entities. This simplifies the code but could lead to performance issues as everything is put into one table.<p>But, then I can also create the tables as follows:<p><pre><code>    Senior, Junior_A, Junior_B, AC_Senior_Senior, AC_Senior_Junior_A, AC_Senior_Junior_B, AC_Junior_A_Junior_A, AC_Junior_A_Junior_B, AC_Junior_B_Junior_B\n\n where `AC_ABC_XYZ` is a table that holds access control information between entities `ABC` and `XYZ`. This complicates the code as the code now has to handle different tables depending on the entity types involved, but will improve performance.\n</code></pre>\nWhich design would you prefer, and why?",
+      "time": 1654868017,
+      "title": "Separate tables or just one table to hold access control info between entities?",
+      "type": "story"
+    },
+    {
+      "by": "shartshooter",
+      "descendants": 0,
+      "id": 31693932,
+      "score": 1,
+      "time": 1654867969,
+      "title": "Apple's car vision extends far beyond music",
+      "type": "story",
+      "url": "https://www.axios.com/2022/06/10/apple-carplay-beyind-music-automakers-software"
+    },
+    {
+      "by": "busymom0",
+      "descendants": 0,
+      "id": 31693930,
+      "score": 1,
+      "time": 1654867967,
+      "title": "1 in 5 Canadians to obtain food or meals from a community org in the 6 months",
+      "type": "story",
+      "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/220609/dq220609a-eng.htm"
+    },
+    {
+      "by": "clessg",
+      "descendants": 0,
+      "id": 31693898,
+      "score": 1,
+      "time": 1654867821,
+      "title": "Backblaze B2 Cloud Replication",
+      "type": "story",
+      "url": "https://www.backblaze.com/b2/replication.html"
+    },
+    {
+      "by": "jackallis",
+      "descendants": 0,
+      "id": 31693896,
+      "score": 1,
+      "time": 1654867817,
+      "title": "The Yield Curve as a Leading Indicator",
+      "type": "story",
+      "url": "https://www.newyorkfed.org/research/capital_markets/ycfaq#/interactive"
+    },
+    {
       "by": "ksec",
       "descendants": 0,
       "id": 31693880,
-      "score": 1,
+      "score": 2,
       "time": 1654867764,
       "title": "Anime: Japanese animation has taken the West by storm",
       "type": "story",
@@ -14,9 +74,9 @@
       "by": "leonagano",
       "descendants": 0,
       "id": 31693853,
-      "score": 1,
+      "score": 2,
       "time": 1654867655,
-      "title": "Show HN: Help a laid off person sharing their profile",
+      "title": "Show HN: Help a laid off person. Share their profile.",
       "type": "story",
       "url": "https://helpalaidoff.com"
     },
@@ -24,24 +84,11 @@
       "by": "cbrgm",
       "descendants": 0,
       "id": 31693852,
-      "score": 1,
+      "score": 2,
       "text": "Normally I rarely write my own opinion on things but this just has to come out now. The other day I participated in a Cloud Meetup in my area, since ages again in even in-person. How could it be otherwise, many of the participants have a DevOps background. But the variations in job titles really amazed me.<p>I feel like the term DevOps is becoming inflationary. Sometimes I feel like many people forget what DevOps is all about. It is not a job title that you print on a business card, it is not a department within a company that you can create and then you have automatically established DevOps principles, no DevOps is a culture that must be lived.<p>In the two hours of the Meetup I got to know more of the xOps variations than I would have liked, including FinOps, GreenOps, SecOps and many more.  Is this a trend to combine various areas with DevOps and invent new words?  Where will this lead us, will every area that has contact points between development and operations now be given a new name? ComplianceOps, PeopleOps? I don&#x27;t think they are doing themselves any favors.",
       "time": 1654867650,
       "title": "Ask HN: I feel like the term DevOps is becoming inflationary",
       "type": "story"
-    },
-    {
-      "by": "macawfish",
-      "descendants": 0,
-      "id": 31693833,
-      "kids": [
-        31693840
-      ],
-      "score": 1,
-      "time": 1654867513,
-      "title": "WebGPU Shading Language W3C Working Draft, 11 February 2022",
-      "type": "story",
-      "url": "https://www.w3.org/TR/WGSL/"
     },
     {
       "by": "blue_box",
@@ -52,56 +99,6 @@
       "title": "Microsoft Announces It Will Include Pay Ranges in All U.S. Job Postings",
       "type": "story",
       "url": "https://www.forbes.com/sites/jenamcgregor/2022/06/09/microsoft-announces-it-will-include-pay-ranges-in-all-us-job-postings-experts-predict-it-will-be-the-first-of-many/"
-    },
-    {
-      "by": "bryanrasmussen",
-      "descendants": 0,
-      "id": 31693822,
-      "score": 1,
-      "time": 1654867470,
-      "title": "EMQ Announces Official Sponsorship of the Erlang Ecosystem Foundation (EEF)",
-      "type": "story",
-      "url": "https://www.prnewswire.co.uk/news-releases/emq-announces-official-sponsorship-of-the-erlang-ecosystem-foundation-eef--809679650.html"
-    },
-    {
-      "by": "jger15",
-      "descendants": 0,
-      "id": 31693786,
-      "score": 1,
-      "time": 1654867335,
-      "title": "Wisdom from Josh Wolfe, Venture Capital's Most Passionate Skeptic",
-      "type": "story",
-      "url": "https://neckar.substack.com/p/wisdom-from-josh-wolfe-venture-capitals"
-    },
-    {
-      "by": "bryanrasmussen",
-      "descendants": 0,
-      "id": 31693783,
-      "score": 3,
-      "time": 1654867329,
-      "title": "Accessibility Is Excluding the Neurodivergent",
-      "type": "story",
-      "url": "https://www.computerweekly.com/blog/WITsend/Accessibility-is-excluding-the-neurodivergent"
-    },
-    {
-      "by": "gmays",
-      "descendants": 0,
-      "id": 31693781,
-      "score": 1,
-      "time": 1654867321,
-      "title": "Samples of the asteroid Ryugu are scientists' purest pieces of the solar system",
-      "type": "story",
-      "url": "https://www.sciencenews.org/article/asteroid-ryugu-ryugu-hayabusa2-meteorite-sample-carbonaceous-chondrite"
-    },
-    {
-      "by": "ddtaylor",
-      "descendants": 0,
-      "id": 31693746,
-      "score": 1,
-      "time": 1654867213,
-      "title": "A one-year moratorium on police use of Rekognition (2020)",
-      "type": "story",
-      "url": "https://www.aboutamazon.com/news/policy-news-views/we-are-implementing-a-one-year-moratorium-on-police-use-of-rekognition"
     }
   ]
 }
