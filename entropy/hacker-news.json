@@ -1,6 +1,36 @@
 {
   "stories": [
     {
+      "by": "mplanchard",
+      "descendants": 0,
+      "id": 31708090,
+      "score": 1,
+      "time": 1654979645,
+      "title": "The Smile: A History",
+      "type": "story",
+      "url": "https://aeon.co/essays/a-history-of-the-smile-through-art-culture-and-etiquette"
+    },
+    {
+      "by": "enricotal",
+      "descendants": 0,
+      "id": 31708077,
+      "score": 2,
+      "time": 1654979588,
+      "title": "Cloned crayfish accidentally created in an aquarium are conquering the world",
+      "type": "story",
+      "url": "https://www.syfy.com/syfy-wire/marbled-crayfish-born-in-aquarium-is-spreading-over-earth"
+    },
+    {
+      "by": "AmuVarma",
+      "descendants": 0,
+      "id": 31708074,
+      "score": 1,
+      "text": "Semantic Search and Answering is not widely adopted, because of the cost, complexity, and lack of accuracy. At Semantic.app we’ve built the best hosted semantic search engine and here’s how we’ve done it.<p>Embedding: the process of converting text into a tensor (read vector). This can be done on documents, sentences, or words depending on what you are trying to accomplish. When you upload data. We create a tiered embedding system. We use word embeddings on key words using T5 (google) to create keywords, and also dense vector embeddings for each document using GPT-3 (the model depends on document size).<p>Search; Keywords are important for search, and how you choose to index can affect search speeds, especially when they are computationally complex. Rather than dotting potentially millions of vectors with an embedded query (using gpt3 asymmetric search), we’ve found using a keyword matching algorithm then a nearest neighbor search (like FAISS) to produce the best results.<p>Next we cluster the top n results using a Bayesian classifier - realistically the answer can be in any of the top few documents and choosing the top one naively is “lucky”, as vector embeddings no matter how good are at best approximate. We take our top cluster and break it down into semantic chunks (we’ve coined “chunkify”, using a custom GPT 3 model) and use a sentence level embedder to find the most relevant chunk, which we return for search.<p>For answering we use a classifier to detect what length of answer we expect (like “when..” may anticipate a short date, but “why” might indicate a longer response needed) and we pick the right model. We then use word embeddings to find the most relevant terms in the answer as well as the sentence embeddings in the previous paragraph to weight certain words and phrases the model (usually GPT or BERT) should spit out. We also use a custom model to ensure that the answer is only contained within the text (Large Models can leak answers) and filter&#x2F;reask the question to the model.",
+      "time": 1654979557,
+      "title": "Better Search Using AI",
+      "type": "story"
+    },
+    {
       "by": "Jerry2",
       "descendants": 0,
       "id": 31707911,
@@ -72,36 +102,6 @@
       "title": "AGI Ruin: A List of Lethalities",
       "type": "story",
       "url": "https://www.lesswrong.com/posts/uMQ3cqWDPHhjtiesc/agi-ruin-a-list-of-lethalities"
-    },
-    {
-      "by": "OrderOfChaos",
-      "descendants": 0,
-      "id": 31707781,
-      "score": 1,
-      "time": 1654977836,
-      "title": "How Humanlike Do We Want Robots to Be?",
-      "type": "story",
-      "url": "https://www.smithsonianmag.com/science-nature/how-humanlike-do-we-really-want-robots-to-be-180980234/"
-    },
-    {
-      "by": "doener",
-      "descendants": 0,
-      "id": 31707780,
-      "score": 1,
-      "time": 1654977830,
-      "title": "Fight climate change with one powerful app",
-      "type": "story",
-      "url": "https://klima.com"
-    },
-    {
-      "by": "todsacerdoti",
-      "descendants": 0,
-      "id": 31707756,
-      "score": 1,
-      "time": 1654977675,
-      "title": "Manta Ray (Fly by) Update #2",
-      "type": "story",
-      "url": "https://electricfiredesign.com/2022/06/10/manta-ray-fly-by-update-2/"
     }
   ]
 }
