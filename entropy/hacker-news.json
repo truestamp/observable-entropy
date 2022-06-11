@@ -1,6 +1,59 @@
 {
   "stories": [
     {
+      "by": "rntn",
+      "descendants": 0,
+      "id": 31707059,
+      "score": 1,
+      "time": 1654973378,
+      "title": "More than 60M people across Southwest are under heat alerts",
+      "type": "story",
+      "url": "https://lite.cnn.com/en/article/h_f2e6fc2d9a4a0488d4014cb81bb57fe1"
+    },
+    {
+      "by": "cs02rm0",
+      "descendants": 0,
+      "id": 31707040,
+      "score": 1,
+      "text": "TL;DR I think the UK&#x27;s National Health Service (NHS) should build [1] but I don&#x27;t know how to persuade them, or even if I&#x27;m missing something and they shouldn&#x27;t.<p>---<p>My mum was diagnosed with an aggressive, stage 3, breast cancer recently.<p>This isn&#x27;t really about her case. In the UK, the NHS offer breast cancer screening every 3 years for women from the age of 50 until they turn 71. [2] Its stated purpose is to catch cancer early to reduce mortality. It&#x27;s done via a fragmented set of regional IT systems that have evolved since the 80s with algorithms that are poorly understood by those using them let alone patients. And separate screening programmes for those with higher genetic risk, who&#x27;ve previously had breast cancer, trials looking at expanding the age range, etc.<p>Mum moved house a few years ago, told her local GP (primary care physician?) practice that she was due a mammogram and they assured her she was on the list. This is the only way women can check if they&#x27;re on the list - phone the receptionist at the GP practice, then wait for a letter to arrive.<p>The letter didn&#x27;t arrive, she wasn&#x27;t on the list. She found a lump and was screened privately. The NHS programme missed an opportunity with her. It seems the GP practice didn&#x27;t add her into one of the databases that feeds into another database that a software system then queries for who to invite.<p>Her case is seen as unique. But it seems it&#x27;s not really just her. For instance, over a hundred women were missed by a screening programme for those at higher genetic risk in NHS Lothian. [4] An independent review [5] found 5_000 women were missed on the regular screening programme from 2009-18 not due to IT failure or policy error, i.e. due to user&#x2F;administration errors - they&#x27;re just ones they confirmed. That review took place because over 120_000 women were missed from their last scan - a significant number, yet everyone involved overlooked this. The blame falls partly with complexities around the way women are called forward, the assumption that the NHS knows what it&#x27;s doing, the friction of having to phone and ask about it, etc. Over 120k scans missed even though they&#x27;re there to reduce mortality, to save lives. And many more scans have been missed in the last year due to covid, perhaps making screening even more important now.<p>I&#x27;m aware that when all you have is a hammer, everything looks like a nail. Unsurprisingly on HN, software is my hammer of choice, so here we are.<p>It strikes me that if all, or initially even a subset of, the disparate databases pushed a link between the universal ID (NHS number) and the next screening date into a public facing web service [1] (there&#x27;s already an OIDC provider [3]) then women could see their date due, reliably know if they were in the system, overdue a scan, save a few phone calls and <i>crucially</i>, if omitted, they would have something to point to, to flag up that they (and potentially others) had been missed <i>before</i> finding a lump, or potentially worse, not. We have something similar for car tax here [6] and no one dies if that&#x27;s missed.<p>I can&#x27;t be explicit about what I&#x27;m after posting here, I don&#x27;t know, just appealing to the wisdom of the crowd. FWIW I&#x27;ve tried emailing NHS Digital and my Member for Parliament. Both replied with little more than cookie responses which suggested they didn&#x27;t grok the issue, probably my fault as much as theirs but I&#x27;m running out of ideas.<p>If you&#x27;ve read this far, thanks, really.<p>[1] https:&#x2F;&#x2F;i.imgur.com&#x2F;iXNgWYC.png<p>[2] https:&#x2F;&#x2F;www.nhs.uk&#x2F;conditions&#x2F;breast-screening-mammogram&#x2F;when-youll-be-invited-and-who-should-go&#x2F;<p>[3] https:&#x2F;&#x2F;www.nhs.uk&#x2F;nhs-services&#x2F;online-services&#x2F;nhs-login&#x2F;<p>[4] https:&#x2F;&#x2F;www.scotsman.com&#x2F;health&#x2F;hundreds-at-risk-of-breast-cancer-missed-screening-after-health-board-error-3537353<p>[5] https:&#x2F;&#x2F;www.gov.uk&#x2F;government&#x2F;publications&#x2F;independent-breast-screening-review-report<p>[6] https:&#x2F;&#x2F;dvladigital.blog.gov.uk&#x2F;2014&#x2F;05&#x2F;29&#x2F;making-vehicle-information-clearer&#x2F;",
+      "time": 1654973305,
+      "title": "Encouraging the NHS to build a small web service",
+      "type": "story"
+    },
+    {
+      "by": "optimalsolver",
+      "descendants": 0,
+      "id": 31707025,
+      "score": 1,
+      "time": 1654973211,
+      "title": "Symbolic Regression",
+      "type": "story",
+      "url": "https://en.wikipedia.org/wiki/Symbolic_regression"
+    },
+    {
+      "by": "janvdberg",
+      "descendants": 1,
+      "id": 31707009,
+      "kids": [
+        31707021
+      ],
+      "score": 2,
+      "time": 1654973129,
+      "title": "Early History of Programming Languages with Donald Knuth [video]",
+      "type": "story",
+      "url": "https://www.youtube.com/watch?v=GHT7sWD3-Ho"
+    },
+    {
+      "by": "gk1",
+      "descendants": 0,
+      "id": 31707008,
+      "score": 1,
+      "time": 1654973113,
+      "title": "My assignment to new hires: Make your first pancake",
+      "type": "story",
+      "url": "https://www.gkogan.co/blog/first-pancake/"
+    },
+    {
       "by": "giuliomagnifico",
       "descendants": 0,
       "id": 31707002,
@@ -27,7 +80,7 @@
       "kids": [
         31706974
       ],
-      "score": 2,
+      "score": 3,
       "time": 1654972788,
       "title": "US moves closer to recalling Tesla’s self-driving software",
       "type": "story",
@@ -37,7 +90,7 @@
       "by": "rntn",
       "descendants": 0,
       "id": 31706932,
-      "score": 1,
+      "score": 2,
       "time": 1654972575,
       "title": "Biden Races to Expand Coalition Against Russia but Meets Resistance",
       "type": "story",
@@ -52,56 +105,6 @@
       "title": "Ukraine fears a long war might cause West to lose interest",
       "type": "story",
       "url": "https://apnews.com/article/russia-ukraine-putin-zelenskyy-kyiv-politics-cd240ea4311723e369a5916137c31087"
-    },
-    {
-      "by": "Brajeshwar",
-      "descendants": 0,
-      "id": 31706919,
-      "score": 1,
-      "time": 1654972505,
-      "title": "Diving brothers found the wreck of the Gloucester 300 years after sinking",
-      "type": "story",
-      "url": "https://arstechnica.com/science/2022/06/diving-brothers-found-the-wreck-of-the-gloucester-300-years-after-sinking/"
-    },
-    {
-      "by": "gmays",
-      "descendants": 0,
-      "id": 31706917,
-      "score": 1,
-      "time": 1654972489,
-      "title": "Can Synthetic Biology and Pond Scum Deliver Carbon-Neutral Manufacturing?",
-      "type": "story",
-      "url": "https://future.com/synbio-algae-carbon-neutral-biomanufacturing/"
-    },
-    {
-      "by": "Brajeshwar",
-      "descendants": 0,
-      "id": 31706886,
-      "score": 1,
-      "time": 1654972363,
-      "title": "A stranger’s kindness during WWII helped give us the Big Bang theory",
-      "type": "story",
-      "url": "https://www.nationalgeographic.com/magazine/article/how-a-strangers-kindness-helped-give-us-the-big-bang-theory"
-    },
-    {
-      "by": "Brajeshwar",
-      "descendants": 0,
-      "id": 31706868,
-      "score": 2,
-      "time": 1654972239,
-      "title": "A Saxophonist Tricked the KGB by Encrypting Secrets in Music",
-      "type": "story",
-      "url": "https://www.wired.com/story/merryl-goldberg-music-encryption-ussr-phantom-orchestra/"
-    },
-    {
-      "by": "Brajeshwar",
-      "descendants": 0,
-      "id": 31706859,
-      "score": 2,
-      "time": 1654972203,
-      "title": "Meta Halts Plans for Portal, AR Glasses, and Other Hardware",
-      "type": "story",
-      "url": "https://www.wired.com/story/meta-stops-selling-portal-to-consumers/"
     }
   ]
 }
