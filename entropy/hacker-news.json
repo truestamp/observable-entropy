@@ -1,6 +1,16 @@
 {
   "stories": [
     {
+      "by": "collimarco",
+      "descendants": 0,
+      "id": 31718822,
+      "score": 1,
+      "time": 1655072441,
+      "title": "Web Push Notifications on iOS 16 are officially confirmed",
+      "type": "story",
+      "url": "https://blog.pushpad.xyz/2021/10/apple-is-working-on-web-push-notifications-for-safari/"
+    },
+    {
       "by": "todsacerdoti",
       "descendants": 0,
       "id": 31718756,
@@ -32,8 +42,11 @@
     },
     {
       "by": "notacat7",
-      "descendants": 0,
+      "descendants": 1,
       "id": 31718641,
+      "kids": [
+        31718850
+      ],
       "score": 1,
       "text": "Trying to brainstorm ideas, how people in tech keep track of all of their tasks? What tools are used?<p>I personally have tried using a ToDo app, notepad, and a physical notepad as well.",
       "time": 1655070769,
@@ -92,19 +105,6 @@
       "title": "Using microarchitecture bugs to beat authenticated pointers",
       "type": "story",
       "url": "https://seclists.org/dailydave/2022/q2/2"
-    },
-    {
-      "by": "cmrdporcupine",
-      "descendants": 1,
-      "id": 31718521,
-      "kids": [
-        31718790
-      ],
-      "score": 1,
-      "text": "Background: VST3 is a crossplatform (Windows, OSX, Linux) API and SDK for developing audio effects and synthesizers to be run inside digital audio workstations etc.<p>Steinberg&#x27;s VST3 SDK includes their own bespoke cross platform GUI framework.<p>No offence to the super talented devs at Steinberg, but it&#x27;s kind of frustrating. It&#x27;s missing a lot of stuff, is badly documented, has no facilities for accessibility, etc. So I went looking for alternatives.<p>Embedding something like QT ends up with a bunch of issues involving the threading model and so on. Others have tried and failed.<p>There&#x27;s stuff like JUCE as well but it&#x27;s not just a UI framework but a whole toolkit with its own world view and licensing etc.<p>Then I got thinking about how -- as much as I kind of hate it -- the web is really the standard for cross platform UIs. These days it&#x27;s pretty fast even on fairly low end devices. Lots of toolkit options. Canvas support. Multiple languages. Decent security model. And both Windows and Mac come with embeddable webview components (Edge and Webkit).<p>So I threw together:<p>https:&#x2F;&#x2F;github.com&#x2F;rdaum&#x2F;vstwebview&#x2F;blob&#x2F;main&#x2F;README.md<p>Still a bit rough around the edges and somewhat untested, but would love contributions.",
-      "time": 1655069850,
-      "title": "Show HN: Vstwebview, write VST3 audio plugin UIs using webtech",
-      "type": "story"
     }
   ]
 }
