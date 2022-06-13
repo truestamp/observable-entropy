@@ -1,6 +1,75 @@
 {
   "stories": [
     {
+      "by": "spzb",
+      "descendants": 0,
+      "id": 31724976,
+      "score": 1,
+      "time": 1655125511,
+      "title": "Concerns that £360m data platform for NHS England is being set up to fail",
+      "type": "story"
+    },
+    {
+      "by": "sbbq",
+      "descendants": 0,
+      "id": 31724959,
+      "score": 1,
+      "time": 1655125446,
+      "title": "Taking Datasets, DataLoaders, and PyTorch’s New DataPipes for a Spin",
+      "type": "story",
+      "url": "https://sebastianraschka.com/blog/2022/datapipes.html"
+    },
+    {
+      "by": "aruanavekar",
+      "descendants": 0,
+      "id": 31724953,
+      "score": 1,
+      "text": "My 10yo is exploring blog writing and would love to connect with other of similar age group that have blog sites.<p>Anyone here whose kids blog? Or know of sites that host kid blog writers?<p>Ours write here - https:&#x2F;&#x2F;aarohi.substack.com&#x2F;",
+      "time": 1655125417,
+      "title": "Ask HN: Kid Blog Writers",
+      "type": "story"
+    },
+    {
+      "by": "mooreds",
+      "descendants": 0,
+      "id": 31724942,
+      "score": 1,
+      "time": 1655125351,
+      "title": "We Will Never Have Enough Software Developers (2020)",
+      "type": "story",
+      "url": "https://whoisnnamdi.com/never-enough-developers/"
+    },
+    {
+      "by": "mrkramer",
+      "descendants": 0,
+      "id": 31724940,
+      "score": 1,
+      "time": 1655125345,
+      "title": "$200B wiped off crypto market over the weekend",
+      "type": "story",
+      "url": "https://www.cnbc.com/2022/06/13/bitcoin-btc-falls-as-market-focuses-on-celsius-issue-fed-rate-hike.html"
+    },
+    {
+      "by": "crhulls",
+      "descendants": 0,
+      "id": 31724937,
+      "score": 1,
+      "time": 1655125322,
+      "title": "MicroStrategy shares slump as Bitcoin margin call looms",
+      "type": "story",
+      "url": "https://www.marketwatch.com/story/microstrategy-shares-slump-as-bitcoin-margin-call-looms-11655111047"
+    },
+    {
+      "by": "r1chardnl",
+      "descendants": 0,
+      "id": 31724930,
+      "score": 1,
+      "time": 1655125272,
+      "title": "Yuzu – Progress Report May 2022",
+      "type": "story",
+      "url": "https://yuzu-emu.org/entry/yuzu-progress-report-may-2022/"
+    },
+    {
       "by": "michaeljheap",
       "descendants": 1,
       "id": 31724907,
@@ -32,79 +101,6 @@
       "title": "Metro Maps from Around the World",
       "type": "story",
       "url": "https://mixgrid.io/?w=3"
-    },
-    {
-      "by": "dquark",
-      "descendants": 1,
-      "id": 31724870,
-      "kids": [
-        31724871
-      ],
-      "score": 1,
-      "time": 1655124986,
-      "title": "Samsung Z Flip 3 vs. Humans – The Great Folding Test",
-      "type": "story",
-      "url": "https://www.youtube.com/watch?v=1bNSYgpdb5Y"
-    },
-    {
-      "by": "swyx",
-      "descendants": 0,
-      "id": 31724853,
-      "score": 2,
-      "time": 1655124921,
-      "title": "15% of Product Hunt #1 Winners are dead in 4 years",
-      "type": "story",
-      "url": "https://twitter.com/swyx/status/1536331119531991042"
-    },
-    {
-      "by": "CapitalistCartr",
-      "descendants": 0,
-      "id": 31724852,
-      "score": 1,
-      "time": 1655124914,
-      "title": "Can Machine Learning Translate Ancient Egyptian Texts?",
-      "type": "story",
-      "url": "https://www.sapiens.org/archaeology/machine-learning-egyptian-hieroglyphs/"
-    },
-    {
-      "by": "ptrthomas",
-      "descendants": 0,
-      "id": 31724838,
-      "score": 2,
-      "text": "Hi HN, Peter here, founder of Karate Labs (<a href=\"https:&#x2F;&#x2F;karatelabs.io\" rel=\"nofollow\">https:&#x2F;&#x2F;karatelabs.io</a>) joined by my co-founder Kapil. Karate is an open-source solution unifying API and UI test automation, including mock servers and performance testing (<a href=\"https:&#x2F;&#x2F;github.com&#x2F;karatelabs&#x2F;karate\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;karatelabs&#x2F;karate</a>).<p>Back in 2016, I was part of the API platform team at Intuit. An issue had been slowing down the team: a particular test for a set of key services would randomly fail, and it was not clear if this was a problem with the test or if there was a genuine defect. The deeper I looked, the more the complexity around the test-suite freaked me out. It was using an in-house framework, which had evolved over years and the test depended on code in multiple files scattered across the workspace. It was clear that many programmers had attempted to fix it over the years. It was next to impossible to understand what the test was doing. There had to be a better way to express web-service functional tests, and I started thinking hard about it.<p>This gave birth to Karate, a scriptable framework combining API and UI test automation. It has seen world wide adoption as an open-source project, including 37 of the Fortune 500 companies (so far!). Companies that have written about how they use Karate include Walmart [1], Expedia [2], Adobe [3], Trivago [4], and Oktana [5].<p>Karate has its own Domain Specific Language, focused on writing tests with less code and in less time. This results in easy-to-read, maintainable tests, which are often simple enough for product owners to be able to contribute to. Karate also has powerful assertions (<a href=\"https:&#x2F;&#x2F;twitter.com&#x2F;getkarate&#x2F;status&#x2F;1515657727913377798\" rel=\"nofollow\">https:&#x2F;&#x2F;twitter.com&#x2F;getkarate&#x2F;status&#x2F;1515657727913377798</a> ), runs tests in parallel, and can reuse API tests as performance tests, which saves time compared to rewriting performance tests using a second tool. The UI automation space is crowded, but there are very few tools that do all three: API, UI and performance testing.<p>Last year, we decided to leave our day-jobs and work full-time on Karate. We incorporated Karate Labs as a for-profit company with an open-core business model in mind. In recent weeks, we&#x27;ve released our first two open-core products.<p>Karate Studio can import Postman collections, Swagger, OpenAPI, HAR and cURL. Once imported, you can preview an API sequence and edit it using an intuitive no-code interface. You can then export it as a ready-to-run Karate feature file that you can integrate into your existing CI&#x2F;CD or DevOps pipeline. If you already have a set of Postman collections, you can migrate them to Karate and get the benefits of parallel execution, powerful assertions and performance testing. If team members prefer Postman for exploratory testing, they can use Studio to convert their draft collections into full-fledged API automation suites, complete with assertions for complex business logic, and then use them in regression test suites. Studio can also export back to Postman if needed. It is available for a 7-day free trial at <a href=\"https:&#x2F;&#x2F;studio.karatelabs.io\" rel=\"nofollow\">https:&#x2F;&#x2F;studio.karatelabs.io</a>, and you can see a demo video here: <a href=\"https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=aJCgtnhektA\" rel=\"nofollow\">https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=aJCgtnhektA</a>.<p>Our second new product is an IntelliJ plugin (<a href=\"https:&#x2F;&#x2F;www.karatelabs.io&#x2F;intellij-plugin\" rel=\"nofollow\">https:&#x2F;&#x2F;www.karatelabs.io&#x2F;intellij-plugin</a>) that integrates the auto-complete experience and syntax hints that developers love. Until now, Karate support in IntelliJ was via the built-in Cucumber and Gherkin support, which was very basic. Teams have wished for a better option that would take advantage of all the Karate capabilities such as embedded JSON, JS and data assertions. Now you can write, debug, and maintain Karate tests even faster than before. The plugin is available from the JetBrains Marketplace with a 30-day free trial: <a href=\"https:&#x2F;&#x2F;plugins.jetbrains.com&#x2F;plugin&#x2F;19232-karate\" rel=\"nofollow\">https:&#x2F;&#x2F;plugins.jetbrains.com&#x2F;plugin&#x2F;19232-karate</a>.<p>When it comes to &quot;build vs buy&quot;, many teams tend to build test automation frameworks. The fact that maintenance of an in-house framework eventually becomes prohibitive in terms of effort and cost, tends to be overlooked. We are trying to increase awareness that choosing a mature open-source framework like Karate is the right move for any team wanting to improve developer velocity.<p>We thank the community, developers and enterprise users of Karate for having helped us achieve broad adoption and earn credibility in the test-automation domain. We look forward to your support, feedback and suggestions.<p>[1] <a href=\"https:&#x2F;&#x2F;medium.com&#x2F;walmartglobaltech&#x2F;kafka-automation-using-karate-6a129cfdc210\" rel=\"nofollow\">https:&#x2F;&#x2F;medium.com&#x2F;walmartglobaltech&#x2F;kafka-automation-using-...</a><p>[2] <a href=\"https:&#x2F;&#x2F;medium.com&#x2F;expedia-group-tech&#x2F;karate-5-reasons-why-you-should-try-it-87539e003840\" rel=\"nofollow\">https:&#x2F;&#x2F;medium.com&#x2F;expedia-group-tech&#x2F;karate-5-reasons-why-y...</a><p>[3] <a href=\"https:&#x2F;&#x2F;adapt.to&#x2F;2018&#x2F;en&#x2F;schedule&#x2F;karate-the-black-belt-of-http-api-testing.html\" rel=\"nofollow\">https:&#x2F;&#x2F;adapt.to&#x2F;2018&#x2F;en&#x2F;schedule&#x2F;karate-the-black-belt-of-h...</a><p>[4] <a href=\"https:&#x2F;&#x2F;tech.trivago.com&#x2F;post&#x2F;2019-11-14-apitestautomationusingkarate&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;tech.trivago.com&#x2F;post&#x2F;2019-11-14-apitestautomationus...</a><p>[5] <a href=\"https:&#x2F;&#x2F;oktana.com&#x2F;api-testing-using-karate-framework&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;oktana.com&#x2F;api-testing-using-karate-framework&#x2F;</a>",
-      "time": 1655124804,
-      "title": "Launch HN: Karate Labs (YC W22) – Open-Source API and UI Test Automation",
-      "type": "story"
-    },
-    {
-      "by": "rntn",
-      "descendants": 0,
-      "id": 31724830,
-      "score": 1,
-      "time": 1655124780,
-      "title": "Nvidia’s budget GPU could be delayed – and RTX 4000 graphics cards might be, too",
-      "type": "story",
-      "url": "https://www.techradar.com/news/nvidias-budget-gpu-could-be-delayed-and-rtx-4000-graphics-cards-might-be-too"
-    },
-    {
-      "by": "kif",
-      "descendants": 0,
-      "id": 31724829,
-      "score": 1,
-      "time": 1655124775,
-      "title": "Credentials for thousands of open source projects free for the taking–again",
-      "type": "story",
-      "url": "https://arstechnica.com/information-technology/2022/06/credentials-for-thousands-of-open-source-projects-free-for-the-taking-again/"
-    },
-    {
-      "by": "donohoe",
-      "descendants": 0,
-      "id": 31724804,
-      "score": 2,
-      "time": 1655124661,
-      "title": "Some Ads Play on Streaming Services Even When the TV Is Off, Study Finds",
-      "type": "story",
-      "url": "https://www.wsj.com/articles/some-ads-play-on-streaming-services-even-when-the-tv-is-off-study-finds-11655042401"
     }
   ]
 }
