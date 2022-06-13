@@ -1,6 +1,26 @@
 {
   "stories": [
     {
+      "by": "kbr_-",
+      "descendants": 0,
+      "id": 31723574,
+      "score": 1,
+      "time": 1655117272,
+      "title": "Catch exceptions without even try-ing",
+      "type": "story",
+      "url": "https://github.com/scylladb/scylla/pull/10368"
+    },
+    {
+      "by": "rbanffy",
+      "descendants": 0,
+      "id": 31723565,
+      "score": 1,
+      "time": 1655117143,
+      "title": "SpaceX faces NASA hurdle for Starship backup launch pad",
+      "type": "story",
+      "url": "https://www.moneycontrol.com/news/technology/spacex-faces-nasa-hurdle-for-starship-backup-launch-pad-8679071.html"
+    },
+    {
       "by": "yamrzou",
       "descendants": 0,
       "id": 31723561,
@@ -24,7 +44,7 @@
       "by": "prashantsengar",
       "descendants": 0,
       "id": 31723482,
-      "score": 2,
+      "score": 3,
       "time": 1655116606,
       "title": "Life after Guantanamo: 'We are still in jail'",
       "type": "story",
@@ -44,7 +64,7 @@
       "by": "marban",
       "descendants": 0,
       "id": 31723473,
-      "score": 1,
+      "score": 2,
       "time": 1655116519,
       "title": "Tron’s USDD stablecoin currently losing its peg",
       "type": "story",
@@ -74,31 +94,11 @@
       "by": "jpegqs",
       "descendants": 0,
       "id": 31723446,
-      "score": 1,
+      "score": 2,
       "text": "<p><pre><code>  #include &lt;stdio.h&gt;\n\n  static struct X {\n    void* operator new[](size_t) { return (char*)&amp;1[&quot;&quot;]; }\n    void operator delete[](void*) { }\n    X() : X((char*)this - &quot;&quot;) { }\n    X(char i) {\n      printf(i%3?i%5?&quot;%s%i\\n&quot;:&quot;%s\\n&quot;:&quot;Fizz%s\\n&quot;,i%5?&quot;&quot;:&quot;Buzz&quot;,i);\n    }\n  } *x = new X[100]();\n\n  int main(){}</code></pre>",
       "time": 1655116313,
       "title": "Show HN: A way to torture an interviewer (C++, FizzBuzz)",
       "type": "story"
-    },
-    {
-      "by": "fredley",
-      "descendants": 0,
-      "id": 31723442,
-      "score": 1,
-      "time": 1655116288,
-      "title": "Death to IE11",
-      "type": "story",
-      "url": "https://death-to-ie11.com/"
-    },
-    {
-      "by": "rsp1984",
-      "descendants": 0,
-      "id": 31723438,
-      "score": 2,
-      "time": 1655116281,
-      "title": "Tether is starting to depeg from USD again",
-      "type": "story",
-      "url": "https://ftx.com/trade/USDT/USD"
     }
   ]
 }
