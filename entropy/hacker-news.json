@@ -1,10 +1,23 @@
 {
   "stories": [
     {
-      "by": "SQL2219",
+      "by": "rntn",
       "descendants": 0,
+      "id": 31719643,
+      "score": 1,
+      "time": 1655080311,
+      "title": "The Coolest–and Most Frightening–Spacewalks in History",
+      "type": "story",
+      "url": "https://gizmodo.com/history-of-spacewalks-nasa-space-station-1849036189"
+    },
+    {
+      "by": "SQL2219",
+      "descendants": 1,
       "id": 31719598,
-      "score": 2,
+      "kids": [
+        31719648
+      ],
+      "score": 3,
       "time": 1655079857,
       "title": "CBS: “boosted” Americans are catching Covid at double the rate of “non boosted”",
       "type": "story",
@@ -14,7 +27,7 @@
       "by": "graylien",
       "descendants": 0,
       "id": 31719567,
-      "score": 2,
+      "score": 3,
       "time": 1655079638,
       "title": "Meta hit with 8 lawsuits for 'exploiting young people for profit'",
       "type": "story",
@@ -22,9 +35,12 @@
     },
     {
       "by": "behnamoh",
-      "descendants": 0,
+      "descendants": 1,
       "id": 31719562,
-      "score": 1,
+      "kids": [
+        31719647
+      ],
+      "score": 2,
       "text": "I can&#x27;t believe this, but compared to Linux, macOS actually provides worse gaming experience (at least for me). On Linux you have Proton to help with Windows games, but it cannot run natively on macOS due to macOS missing several APIs:<p>- eventfd syscall is Linux-specific, without good alternative on macOS<p>- Apple does not support Vulkan, which is needed for DXVK<p>- Apple deprecated OpenGL support, which is needed for WineD3D<p>- macOS is missing support for Python 3 OOTB<p>- etc.<p>It just looks as if they _want_ to avoid success at all costs. Is there any reason that a megacorp would make such decisions?",
       "time": 1655079598,
       "title": "Ask HN: Does Apple secretly want to prevent gaming on macOS?",
@@ -72,7 +88,7 @@
     },
     {
       "by": "TowerTall",
-      "descendants": 1,
+      "descendants": 2,
       "id": 31719473,
       "kids": [
         31719510
@@ -92,16 +108,6 @@
       "title": "Pisanix – A database mesh project sponsored by sphereex",
       "type": "story",
       "url": "https://github.com/database-mesh/pisanix"
-    },
-    {
-      "by": "mji",
-      "descendants": 0,
-      "id": 31719433,
-      "score": 1,
-      "time": 1655078398,
-      "title": "How Facebook Builds Products (2021)",
-      "type": "story",
-      "url": "https://productlife.to/p/-execution-at-facebook"
     }
   ]
 }
