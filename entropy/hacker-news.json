@@ -1,6 +1,36 @@
 {
   "stories": [
     {
+      "by": "baxtr",
+      "descendants": 0,
+      "id": 31723625,
+      "score": 1,
+      "time": 1655117658,
+      "title": "Google engineer claims AI technology LaMDA is sentient",
+      "type": "story",
+      "url": "https://www.abc.net.au/news/2022-06-13/google-ai-lamda-sentient-engineer-blake-lemoine-says/101147222"
+    },
+    {
+      "by": "NickRandom",
+      "descendants": 0,
+      "id": 31723602,
+      "score": 1,
+      "time": 1655117475,
+      "title": "Researchers Demonstrate 40-Channel Optical Communication Link",
+      "type": "story",
+      "url": "https://www.optica.org/en-us/about/newsroom/news_releases/2022/june/researchers_demonstrate_40-channel_optical_communi/"
+    },
+    {
+      "by": "airblade",
+      "descendants": 0,
+      "id": 31723601,
+      "score": 1,
+      "time": 1655117471,
+      "title": "Cross Platform Machine Code",
+      "type": "story",
+      "url": "http://tenderlovemaking.com/2022/06/12/cross-platform-machine-code.html"
+    },
+    {
       "by": "kbr_-",
       "descendants": 0,
       "id": 31723574,
@@ -34,7 +64,7 @@
       "by": "rbanffy",
       "descendants": 0,
       "id": 31723522,
-      "score": 1,
+      "score": 2,
       "time": 1655116826,
       "title": "AMD Roadmaps Lead to Mountains of Money",
       "type": "story",
@@ -69,36 +99,6 @@
       "title": "Tron’s USDD stablecoin currently losing its peg",
       "type": "story",
       "url": "https://coinmarketcap.com/currencies/usdd/"
-    },
-    {
-      "by": "giuliomagnifico",
-      "descendants": 0,
-      "id": 31723459,
-      "score": 2,
-      "time": 1655116386,
-      "title": "WiFi probing exposes smartphone users to tracking, info leaks",
-      "type": "story",
-      "url": "https://www.bleepingcomputer.com/news/security/wifi-probing-exposes-smartphone-users-to-tracking-info-leaks/"
-    },
-    {
-      "by": "rbanffy",
-      "descendants": 0,
-      "id": 31723458,
-      "score": 2,
-      "time": 1655116380,
-      "title": "NASA’s plan to get Ingenuity through the Martian winter",
-      "type": "story",
-      "url": "https://www.wired.com/story/nasas-plan-to-get-ingenuity-through-the-martian-winter/"
-    },
-    {
-      "by": "jpegqs",
-      "descendants": 0,
-      "id": 31723446,
-      "score": 2,
-      "text": "<p><pre><code>  #include &lt;stdio.h&gt;\n\n  static struct X {\n    void* operator new[](size_t) { return (char*)&amp;1[&quot;&quot;]; }\n    void operator delete[](void*) { }\n    X() : X((char*)this - &quot;&quot;) { }\n    X(char i) {\n      printf(i%3?i%5?&quot;%s%i\\n&quot;:&quot;%s\\n&quot;:&quot;Fizz%s\\n&quot;,i%5?&quot;&quot;:&quot;Buzz&quot;,i);\n    }\n  } *x = new X[100]();\n\n  int main(){}</code></pre>",
-      "time": 1655116313,
-      "title": "Show HN: A way to torture an interviewer (C++, FizzBuzz)",
-      "type": "story"
     }
   ]
 }
