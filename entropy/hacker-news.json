@@ -1,6 +1,46 @@
 {
   "stories": [
     {
+      "by": "prostoalex",
+      "descendants": 0,
+      "id": 31734328,
+      "score": 1,
+      "time": 1655176139,
+      "title": "Russia’s Oil Revenue Soars",
+      "type": "story",
+      "url": "https://www.nytimes.com/2022/06/13/climate/russia-oil-gas-record-revenue.html"
+    },
+    {
+      "by": "prostoalex",
+      "descendants": 0,
+      "id": 31734325,
+      "score": 1,
+      "time": 1655176112,
+      "title": "Electric Last Mile Solutions to file for bankruptcy",
+      "type": "story",
+      "url": "https://techcrunch.com/2022/06/13/electric-last-mile-solutions-to-file-for-bankruptcy/"
+    },
+    {
+      "by": "thirdtrigger",
+      "descendants": 0,
+      "id": 31734309,
+      "score": 1,
+      "time": 1655175956,
+      "title": "Semantic Search Through Wikipedia",
+      "type": "story",
+      "url": "http://console.semi.technology/console/query#weaviate_uri=http://semantic-search-wikipedia-with-weaviate.api.vectors.network:8080&graphql_query=%23%23%0A%23%20This%20dataset%20contains%20the%20complete%20Wikipedia%20for%20semantic%20search%0A%23%0A%23%20info:%20https://weaviate.io/developers/weaviate/current/tutorials/semantic-search-through-wikipedia.html%0A%23%20vector%20search%20engine:%20https://weaviate.io%0A%23%20Github%20repo:%20https://github.com/semi-technologies/semantic-search-through-wikipedia-with-weaviate%0A%23%0A%23%20Docs:%20https://weaviate.io/developers/weaviate/current/%0A%23%20Semantic%20filters:%20https://weaviate.io/developers/weaviate/current/retriever-vectorizer-modules/text2vec-transformers.html%23neartext%0A%23%0A%23%23%0A{%0A%20%20Get%20{%0A%20%20%20%20Paragraph(%0A%20%20%20%20%20%20ask:%20{%0A%20%20%20%20%20%20%20%20question:%20%22Who%20was%20Stanley%20Kubrick?%22%0A%20%20%20%20%20%20%20%20properties:%20[%22content%22]%0A%20%20%20%20%20%20}%0A%20%20%20%20%20%20limit:%201%0A%20%20%20%20)%20{%0A%20%20%20%20%20%20content%0A%20%20%20%20%20%20order%0A%20%20%20%20%20%20title%0A%20%20%20%20%20%20inArticle%20{%0A%20%20%20%20%20%20%20%20...%20on%20Article%20{%0A%20%20%20%20%20%20%20%20%20%20title%0A%20%20%20%20%20%20%20%20}%0A%20%20%20%20%20%20}%0A%20%20%20%20%20%20_additional%20{%0A%20%20%20%20%20%20%20%20answer%20{%0A%20%20%20%20%20%20%20%20%20%20result%0A%20%20%20%20%20%20%20%20}%0A%20%20%20%20%20%20}%0A%20%20%20%20}%0A%20%20}%0A}"
+    },
+    {
+      "by": "ApacheDoris",
+      "descendants": 0,
+      "id": 31734308,
+      "score": 1,
+      "time": 1655175949,
+      "title": "Introduction to Apache Doris(incubating)",
+      "type": "story",
+      "url": "https://medium.com/@ApacheDoris/introduction-to-apache-doris-incubating-48aaa1df34ae"
+    },
+    {
       "by": "aaronchall",
       "descendants": 0,
       "id": 31734301,
@@ -68,52 +108,6 @@
       "title": "Meltdowns Have Brought Progressive Advocacy Groups to a Standstill",
       "type": "story",
       "url": "https://theintercept.com/2022/06/13/progressive-organizing-infighting-callout-culture/"
-    },
-    {
-      "by": "donsupreme",
-      "descendants": 0,
-      "id": 31734256,
-      "score": 1,
-      "time": 1655175413,
-      "title": "Pixar’s ‘Lightyear’ Banned in Saudi Arabia over Same-Gender Kiss",
-      "type": "story",
-      "url": "https://www.hollywoodreporter.com/movies/movie-news/lightyear-banned-gulf-saudi-lgbt-1235163872/"
-    },
-    {
-      "by": "visviva",
-      "descendants": 0,
-      "id": 31734212,
-      "score": 1,
-      "time": 1655174906,
-      "title": "iPhones Are Allergic to Helium",
-      "type": "story",
-      "url": "https://www.ifixit.com/News/11986/iphones-are-allergic-to-helium"
-    },
-    {
-      "by": "bookofjoe",
-      "descendants": 1,
-      "id": 31734188,
-      "kids": [
-        31734189
-      ],
-      "score": 1,
-      "time": 1655174684,
-      "title": "Some M.B.A.s Are Getting Job Offers Before They Step onto Campus",
-      "type": "story",
-      "url": "https://www.wsj.com/articles/some-m-b-a-s-are-getting-job-offers-before-they-step-onto-campus-11655056311"
-    },
-    {
-      "by": "pseudolus",
-      "descendants": 1,
-      "id": 31734177,
-      "kids": [
-        31734229
-      ],
-      "score": 2,
-      "time": 1655174482,
-      "title": "Gaia probe reveals stellar DNA and unexpected ‘starquakes’",
-      "type": "story",
-      "url": "https://www.theguardian.com/science/2022/jun/13/gaia-probe-reveals-stella-dna-and-unexpected-starquakes"
     }
   ]
 }
