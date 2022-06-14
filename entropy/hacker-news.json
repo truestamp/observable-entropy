@@ -1,6 +1,26 @@
 {
   "stories": [
     {
+      "by": "mcone",
+      "descendants": 0,
+      "id": 31734369,
+      "score": 1,
+      "time": 1655176682,
+      "title": "BatNoter: Store notes in your Git repository",
+      "type": "story",
+      "url": "https://github.com/batnoter/batnoter"
+    },
+    {
+      "by": "fairytalemtg",
+      "descendants": 0,
+      "id": 31734357,
+      "score": 1,
+      "time": 1655176542,
+      "title": "When will depositors start shopping for higher rates?",
+      "type": "story",
+      "url": "https://www.americanbanker.com/news/when-will-depositors-start-shopping-for-higher-rates"
+    },
+    {
       "by": "lnyan",
       "descendants": 0,
       "id": 31734351,
@@ -54,7 +74,7 @@
       "by": "prostoalex",
       "descendants": 0,
       "id": 31734328,
-      "score": 1,
+      "score": 2,
       "time": 1655176139,
       "title": "Russia’s Oil Revenue Soars",
       "type": "story",
@@ -79,26 +99,6 @@
       "title": "Semantic Search Through Wikipedia",
       "type": "story",
       "url": "http://console.semi.technology/console/query#weaviate_uri=http://semantic-search-wikipedia-with-weaviate.api.vectors.network:8080&graphql_query=%23%23%0A%23%20This%20dataset%20contains%20the%20complete%20Wikipedia%20for%20semantic%20search%0A%23%0A%23%20info:%20https://weaviate.io/developers/weaviate/current/tutorials/semantic-search-through-wikipedia.html%0A%23%20vector%20search%20engine:%20https://weaviate.io%0A%23%20Github%20repo:%20https://github.com/semi-technologies/semantic-search-through-wikipedia-with-weaviate%0A%23%0A%23%20Docs:%20https://weaviate.io/developers/weaviate/current/%0A%23%20Semantic%20filters:%20https://weaviate.io/developers/weaviate/current/retriever-vectorizer-modules/text2vec-transformers.html%23neartext%0A%23%0A%23%23%0A{%0A%20%20Get%20{%0A%20%20%20%20Paragraph(%0A%20%20%20%20%20%20ask:%20{%0A%20%20%20%20%20%20%20%20question:%20%22Who%20was%20Stanley%20Kubrick?%22%0A%20%20%20%20%20%20%20%20properties:%20[%22content%22]%0A%20%20%20%20%20%20}%0A%20%20%20%20%20%20limit:%201%0A%20%20%20%20)%20{%0A%20%20%20%20%20%20content%0A%20%20%20%20%20%20order%0A%20%20%20%20%20%20title%0A%20%20%20%20%20%20inArticle%20{%0A%20%20%20%20%20%20%20%20...%20on%20Article%20{%0A%20%20%20%20%20%20%20%20%20%20title%0A%20%20%20%20%20%20%20%20}%0A%20%20%20%20%20%20}%0A%20%20%20%20%20%20_additional%20{%0A%20%20%20%20%20%20%20%20answer%20{%0A%20%20%20%20%20%20%20%20%20%20result%0A%20%20%20%20%20%20%20%20}%0A%20%20%20%20%20%20}%0A%20%20%20%20}%0A%20%20}%0A}"
-    },
-    {
-      "by": "ApacheDoris",
-      "descendants": 0,
-      "id": 31734308,
-      "score": 1,
-      "time": 1655175949,
-      "title": "Introduction to Apache Doris(incubating)",
-      "type": "story",
-      "url": "https://medium.com/@ApacheDoris/introduction-to-apache-doris-incubating-48aaa1df34ae"
-    },
-    {
-      "by": "aaronchall",
-      "descendants": 0,
-      "id": 31734301,
-      "score": 1,
-      "time": 1655175874,
-      "title": "Nix – Packaging Lib60870 with CMake – Jon Ringer, Jan 30, 2022",
-      "type": "story",
-      "url": "https://www.youtube.com/watch?v=p_RyYmH-qwY"
     }
   ]
 }
