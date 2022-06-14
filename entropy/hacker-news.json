@@ -1,6 +1,16 @@
 {
   "stories": [
     {
+      "by": "memorable",
+      "descendants": 0,
+      "id": 31734397,
+      "score": 1,
+      "time": 1655176991,
+      "title": "Time to Do One Thing",
+      "type": "story",
+      "url": "https://zan.bearblog.dev/one-thing/"
+    },
+    {
       "by": "mcone",
       "descendants": 0,
       "id": 31734369,
@@ -89,16 +99,6 @@
       "title": "Electric Last Mile Solutions to file for bankruptcy",
       "type": "story",
       "url": "https://techcrunch.com/2022/06/13/electric-last-mile-solutions-to-file-for-bankruptcy/"
-    },
-    {
-      "by": "thirdtrigger",
-      "descendants": 0,
-      "id": 31734309,
-      "score": 1,
-      "time": 1655175956,
-      "title": "Semantic Search Through Wikipedia",
-      "type": "story",
-      "url": "http://console.semi.technology/console/query#weaviate_uri=http://semantic-search-wikipedia-with-weaviate.api.vectors.network:8080&graphql_query=%23%23%0A%23%20This%20dataset%20contains%20the%20complete%20Wikipedia%20for%20semantic%20search%0A%23%0A%23%20info:%20https://weaviate.io/developers/weaviate/current/tutorials/semantic-search-through-wikipedia.html%0A%23%20vector%20search%20engine:%20https://weaviate.io%0A%23%20Github%20repo:%20https://github.com/semi-technologies/semantic-search-through-wikipedia-with-weaviate%0A%23%0A%23%20Docs:%20https://weaviate.io/developers/weaviate/current/%0A%23%20Semantic%20filters:%20https://weaviate.io/developers/weaviate/current/retriever-vectorizer-modules/text2vec-transformers.html%23neartext%0A%23%0A%23%23%0A{%0A%20%20Get%20{%0A%20%20%20%20Paragraph(%0A%20%20%20%20%20%20ask:%20{%0A%20%20%20%20%20%20%20%20question:%20%22Who%20was%20Stanley%20Kubrick?%22%0A%20%20%20%20%20%20%20%20properties:%20[%22content%22]%0A%20%20%20%20%20%20}%0A%20%20%20%20%20%20limit:%201%0A%20%20%20%20)%20{%0A%20%20%20%20%20%20content%0A%20%20%20%20%20%20order%0A%20%20%20%20%20%20title%0A%20%20%20%20%20%20inArticle%20{%0A%20%20%20%20%20%20%20%20...%20on%20Article%20{%0A%20%20%20%20%20%20%20%20%20%20title%0A%20%20%20%20%20%20%20%20}%0A%20%20%20%20%20%20}%0A%20%20%20%20%20%20_additional%20{%0A%20%20%20%20%20%20%20%20answer%20{%0A%20%20%20%20%20%20%20%20%20%20result%0A%20%20%20%20%20%20%20%20}%0A%20%20%20%20%20%20}%0A%20%20%20%20}%0A%20%20}%0A}"
     }
   ]
 }
