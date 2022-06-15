@@ -1,6 +1,89 @@
 {
   "stories": [
     {
+      "by": "tosh",
+      "descendants": 0,
+      "id": 31753946,
+      "score": 1,
+      "time": 1655305172,
+      "title": "Eurostile",
+      "type": "story",
+      "url": "https://en.wikipedia.org/wiki/Eurostile"
+    },
+    {
+      "by": "sylvain_kerkour",
+      "descendants": 0,
+      "id": 31753940,
+      "score": 1,
+      "time": 1655305147,
+      "title": "Free Software vs. Open Source",
+      "type": "story",
+      "url": "https://kerkour.com/open-source-weekly/1"
+    },
+    {
+      "by": "swagitda",
+      "descendants": 0,
+      "id": 31753939,
+      "score": 1,
+      "time": 1655305127,
+      "title": "On deadlock bugs: a journey through the circular waits of torment",
+      "type": "story",
+      "url": "https://www.fastly.com/blog/on-deadlock-bugs-a-journey-through-the-circular-waits-of-torment"
+    },
+    {
+      "by": "koreyspace",
+      "descendants": 0,
+      "id": 31753920,
+      "score": 1,
+      "time": 1655305075,
+      "title": "Can an AI Debate?: Training AI to Argue with Humans",
+      "type": "story",
+      "url": "https://www.youtube.com/watch?v=xPZdgPytwps"
+    },
+    {
+      "by": "DamnInteresting",
+      "descendants": 0,
+      "id": 31753917,
+      "score": 1,
+      "text": "Hello HN! I am the owner of a long-lived WordPress site. I&#x27;ve seen a new and confusing attack pattern from would-be exploiters, and I seek opinions regarding the attackers&#x27; motives.<p>For as long as my site has been online (since 2005), it has been targeted by apparent &quot;script kiddies,&quot; whose automated tools crawl the web hitting up WordPress sites like mine with prepared lists of known vulnerabilities in WordPress core, plugins, and themes. Apart from a breach ca. 2008 (my fault, I fell behind on my WordPress updates), none have gotten through, each attacker would just test all the vulnerabilities on their list, and move on.<p>In mid-2021, my tools alerted me that a new and much more relentless person&#x2F;organization had started probing for vulnerabilities. What struck me as odd is that they were hitting the server a few times a day, from various IPs, trying the same list of 5-6 vulnerabilities that had already failed them numerous times before. That struck me as a waste of resources, they&#x27;d need to be extremely lucky for me to happen to install one of those vulnerable plugins after their attacks began. After this went on for a few months I did some whois queries on their IPs and found that all came from Digital Ocean. So I sent all of my evidence to their abuse department, and they shortly terminated the client&#x27;s account. That halted the attacks...but only briefly.<p>Within days the attacks resumed, but this time originating from a vast array of international IPs that were not from any single organization--proxy servers and Tor exit nodes and such. And the attack frequency increased significantly; rather than a few times per day, it has increased to several times per hour. But they are still using the same short list of vulnerabilities that has failed them so many times before.<p>I&#x27;ve captured the PHP files they are trying to deposit on the server, it is a typical H@x0r dashboard that allow the attacker to upload more files, execute arbitrary code, etc. Basic stuff.<p>Any ideas why an attacker would use this pattern of retrying a short list of failed exploits over and over? Why go to such lengths and expend such resources? Am I that juicy of a target, or are they just a bit thick-headed? Is there some underlying ingenuity that I am failing to appreciate? Has some sprawling automated hacking apparatus merely run amok? I welcome any insight. It&#x27;s not really a problem, my defenses are holding, I just find the behavior a bit baffling.",
+      "time": 1655305072,
+      "title": "Ask HN: Any insight on oddly tenacious and repetitive hacking attempts?",
+      "type": "story"
+    },
+    {
+      "by": "rbanffy",
+      "descendants": 0,
+      "id": 31753898,
+      "score": 2,
+      "time": 1655305003,
+      "title": "Sweeping reporting failures may compromise the FBI’s 2021 crime data",
+      "type": "story",
+      "url": "https://www.axios.com/2022/06/14/fbi-crime-data-2021-police-reporting-failures"
+    },
+    {
+      "by": "malshe",
+      "descendants": 0,
+      "id": 31753886,
+      "score": 1,
+      "time": 1655304954,
+      "title": "The Dazzle Camo Edition",
+      "type": "story",
+      "url": "https://whyisthisinteresting.substack.com/p/the-dazzle-camo-edition"
+    },
+    {
+      "by": "floppppppp",
+      "descendants": 1,
+      "id": 31753869,
+      "kids": [
+        31753870
+      ],
+      "score": 1,
+      "time": 1655304895,
+      "title": "Crypto Cover AMA",
+      "type": "story",
+      "url": "https://www.limecover.co/"
+    },
+    {
       "by": "turtlegrids",
       "descendants": 0,
       "id": 31753867,
@@ -19,89 +102,6 @@
       "title": "KPMG Belgium Selects Open Source ERP Odoo",
       "type": "story",
       "url": "https://home.kpmg/be/en/home/media/press-releases/2022/06/acc-kpmg-in-belgium-partners-with-odoo-n-v.html"
-    },
-    {
-      "by": "gusthoff",
-      "descendants": 0,
-      "id": 31753804,
-      "score": 1,
-      "time": 1655304730,
-      "title": "Clap: CLever Audio Plugin",
-      "type": "story",
-      "url": "https://github.com/free-audio/clap"
-    },
-    {
-      "by": "jonbaer",
-      "descendants": 0,
-      "id": 31753798,
-      "score": 1,
-      "time": 1655304723,
-      "title": "Google Cloud employee calculates pi to 100T digits",
-      "type": "story",
-      "url": "https://www.theverge.com/2022/6/10/23161647/google-cloud-processing-pi-calculation-100-trillion"
-    },
-    {
-      "by": "bryanrasmussen",
-      "descendants": 0,
-      "id": 31753772,
-      "score": 1,
-      "time": 1655304656,
-      "title": "Monograph of wild and cultivated chili peppers",
-      "type": "story",
-      "url": "https://phytokeys.pensoft.net/article/71667/"
-    },
-    {
-      "by": "gmays",
-      "descendants": 0,
-      "id": 31753771,
-      "score": 1,
-      "time": 1655304656,
-      "title": "A biological super glue from mistletoe berries?",
-      "type": "story",
-      "url": "https://www.mcgill.ca/newsroom/channels/news/biological-super-glue-mistletoe-berries-339907"
-    },
-    {
-      "by": "aspantel",
-      "descendants": 0,
-      "id": 31753765,
-      "score": 1,
-      "text": "Aurinko.io is an API platform focusing on workplace integrations.<p>Use it as your backend API when building your next Outlook addon, Gmail plugin, MS Teams app, WebEx&#x2F;Zoom app, appointment scheduling app,...<p>Here is a GitHub repo with examples and README:\nhttps:&#x2F;&#x2F;github.com&#x2F;yoxel&#x2F;aurinko-workplace-apps<p>Thank you",
-      "time": 1655304636,
-      "title": "Show HN: Build your next Outlook/Teams/WebEx addon/app with Aurinko.io",
-      "type": "story"
-    },
-    {
-      "by": "hsnewman",
-      "descendants": 0,
-      "id": 31753758,
-      "score": 2,
-      "time": 1655304624,
-      "title": "China Says It May Have Detected Signals from Alien Civilizations",
-      "type": "story",
-      "url": "https://www.bloomberg.com/news/articles/2022-06-15/china-says-it-may-have-detected-signals-from-alien-civilizations"
-    },
-    {
-      "by": "sschueller",
-      "descendants": 1,
-      "id": 31753748,
-      "kids": [
-        31753775
-      ],
-      "score": 1,
-      "time": 1655304609,
-      "title": "NTSB: Tesla accounts for most driver-assist crashes, but warns data lacks contex",
-      "type": "story",
-      "url": "https://www.cnbc.com/2022/06/15/data-shows-tesla-accounts-for-most-reported-driver-assist-crashes-but-officials-warn-report-lacks-context.html"
-    },
-    {
-      "by": "isp",
-      "descendants": 0,
-      "id": 31753742,
-      "score": 2,
-      "time": 1655304566,
-      "title": "Launch IE on Win11 by COM Interface",
-      "type": "story",
-      "url": "https://twitter.com/aaaddress1/status/1523590203658862592"
     }
   ]
 }
