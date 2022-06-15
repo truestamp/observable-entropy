@@ -1,11 +1,21 @@
 {
   "stories": [
     {
+      "by": "todsacerdoti",
+      "descendants": 0,
+      "id": 31755935,
+      "score": 1,
+      "time": 1655312620,
+      "title": "Prebuilding codespaces is generally available",
+      "type": "story",
+      "url": "https://github.blog/2022-06-15-prebuilding-codespaces-is-generally-available/"
+    },
+    {
       "by": "sriprasanna",
       "descendants": 0,
       "id": 31755862,
       "score": 1,
-      "text": "Hello HN community! \nSri and Brian here from CloudPal (https:&#x2F;&#x2F;www.cloudpal.io&#x2F;?source=hn). We are building a tool to help companies reduce their cloud costs by stopping non-production resources when they’re not needed.<p>The problem: Almost every company on the cloud struggles with cost management. While optimizing production costs can be complex, reducing non-production costs should be a straightforward case of shutting down resources when they’re not in use. However, most companies lack an elegant solution for this.<p>The solution: CloudPal<p>- A downtime scheduler for non-production resources (currently supports AWS EC2 &amp; RDS)\n- start &#x2F; stop button, allowing users to override the schedule (eg. if working on weekends).<p>Next up on the feature roadmap is:<p>- Intelligent start &#x2F; stop functionality for non-production resources - resources will automatically stop when not in use and quickly spin back up when needed, resulting in lots more delicious cost savings!\n- Support for more cloud providers and resource types (eg. ECS, K8s, etc.)<p>We&#x27;re really happy we get to show this to you all, thank you for reading about it! Please let us know your thoughts and questions in the comments.<p>Many thanks,<p>Sri &amp; Brian",
+      "text": "Hello HN community! \nSri and Brian here from CloudPal (https:&#x2F;&#x2F;www.cloudpal.io&#x2F;). We are building a tool to help companies reduce their cloud costs by stopping non-production resources when they’re not needed.<p>The problem: Almost every company on the cloud struggles with cost management. While optimizing production costs can be complex, reducing non-production costs should be a straightforward case of shutting down resources when they’re not in use. However, most companies lack an elegant solution for this.<p>The solution: CloudPal<p>- A downtime scheduler for non-production resources (currently supports AWS EC2 &amp; RDS)<p>- start &#x2F; stop button, allowing users to override the schedule (eg. if working on weekends).<p>Next up on the feature roadmap is:<p>- Intelligent start &#x2F; stop functionality for non-production resources - resources will automatically stop when not in use and quickly spin back up when needed, resulting in lots more delicious cost savings!<p>- Support for more cloud providers and resource types (eg. ECS, K8s, etc.)<p>We&#x27;re really happy we get to show this to you all, thank you for reading about it! Please let us know your thoughts and questions in the comments.<p>Many thanks,<p>Sri &amp; Brian",
       "time": 1655312327,
       "title": "Show HN: Cut your AWS costs by stopping non-production resources when not needed",
       "type": "story"
@@ -42,9 +52,12 @@
     },
     {
       "by": "mooreds",
-      "descendants": 0,
+      "descendants": 1,
       "id": 31755779,
-      "score": 4,
+      "kids": [
+        31755912
+      ],
+      "score": 5,
       "time": 1655311995,
       "title": "Microsoft ditches non-compete clauses, enhances pay transparency",
       "type": "story",
@@ -77,7 +90,7 @@
       "kids": [
         31755809
       ],
-      "score": 3,
+      "score": 4,
       "time": 1655311630,
       "title": "Farewell to the Servant Economy",
       "type": "story",
@@ -92,16 +105,6 @@
       "title": "W. R. Smith: Master Clock Builder",
       "type": "story",
       "url": "https://wrsmithclocks.com/about/"
-    },
-    {
-      "by": "tectonic",
-      "descendants": 0,
-      "id": 31755662,
-      "score": 1,
-      "time": 1655311545,
-      "title": "ESA's LISA continuing development",
-      "type": "story",
-      "url": "https://orbitalindex.com/archive/2022-06-15-Issue-172/"
     }
   ]
 }
