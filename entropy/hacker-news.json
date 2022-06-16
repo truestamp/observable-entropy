@@ -1,104 +1,107 @@
 {
   "stories": [
     {
-      "by": "dev_tty01",
+      "by": "colinprince",
       "descendants": 0,
-      "id": 31767022,
+      "id": 31767091,
       "score": 1,
-      "time": 1655392499,
-      "title": "Ferrari says going electric means 'even more unique' cars",
+      "time": 1655392772,
+      "title": "Random Rounding Numerical Stability Analysis",
       "type": "story",
-      "url": "https://www.reuters.com/technology/ferrari-tells-investors-it-will-build-even-more-unique-electric-cars-2022-06-16/"
+      "url": "http://www.iboview.org/random_rounding/"
     },
     {
-      "by": "exar0815",
-      "descendants": 0,
-      "id": 31767019,
+      "by": "zeras",
+      "descendants": 1,
+      "id": 31767072,
+      "kids": [
+        31767076
+      ],
       "score": 1,
-      "time": 1655392487,
-      "title": "Key Performance Indicators – Short Story",
+      "time": 1655392712,
+      "title": "Show HN: A breaking news and content search engine",
       "type": "story",
-      "url": "https://zerohplovecraft.wordpress.com/2020/09/06/key-performance-indicators/"
+      "url": "https://whatsubject.com"
     },
     {
-      "by": "bprasanna",
+      "by": "feross",
       "descendants": 0,
-      "id": 31767005,
+      "id": 31767065,
       "score": 1,
-      "text": "QuickOWL (https:&#x2F;&#x2F;quickowl.app) is an extension&#x2F;add-on, for browsers &amp; Thunderbird Email client, to quickly open user defined web links (URLs) with selected text from a browser&#x2F;email as input.<p>Inspiration:\nThe inspiration behind developing this extension was: work related bugs or tickets which come in plain text format in emails or internal work portal reports. In order to open the bugs&#x2F;tickets which are plain text, the usual steps followed are: \n1) copying the bug&#x2F;ticket number \n2) open the respective internal bugs&#x2F;tickets portal \n3) paste the copied bug&#x2F;ticket number and hit a button to do the search or to open it directly<p>Above scenario is only for bugs&#x2F;tickets, if our work or day-to-day life demands such copying and pasting of text across websites we will be wasting significant amount of time on this process. The QuickOWL extension&#x2F;add-on aims to remove the steps 1 &amp; 2, and directly sends the selected text (bug&#x2F;ticket number) to respective bug&#x2F;tickets portal as input.<p>Which URLs work with QuickOWL?\nAny internal work related site or usual web pages (https:&#x2F;google.com, https:&#x2F;&#x2F;duckduckgo.com, https:&#x2F;&#x2F;youtube.com, https:&#x2F;&#x2F;twitter.com) which support URL parameters (https:&#x2F;&#x2F;twitter.com&#x2F;search?q= | https:&#x2F;&#x2F;www.google.com&#x2F;search?q= | https:&#x2F;&#x2F;duckduckgo.com&#x2F;?q=) can be used with QuickOWL. To know more about URL parameters please refer: https:&#x2F;&#x2F;developer.mozilla.org&#x2F;en-US&#x2F;docs&#x2F;Learn&#x2F;Common_questions&#x2F;What_is_a_URL<p>Rationale behind creating the extension:\nThough there are already existing custom contextmenu add-ons&#x2F;extensions for browsers, the following reasons made me work on yet another custom contextmenu extension&#x2F;add-on:\n1. The add-on&#x2F;extension was not supported in all browsers. For example, few extension&#x2F;add-ons are only supported in Chrome but not in Firefox and vice versa.\n2. The lack of custom contextmenu add-on&#x2F;extension supporting different email clients\n3. Existing add-on&#x2F;extension hasn&#x27;t been updated for more than 2 years\n4. Existing add-on&#x2F;extension doesn&#x27;t use latest extension guidelines from browsers (For example manifest v3 in case of Chrome)<p>History:\nSince 2016 a variation of this extension, has been maintained by me, where the work related URLs are hard coded. Then I thought if I make the URLs configurable by the user, then anyone with the requirement of copying and pasting inputs across web pages can make use of it.<p>Implementation details:\nWith respect to implementation the extension uses two core functionalities of browser extensions API:\n1. storage - to store the user defined URLs locally in browser&#x27;s storage\n2. contextmenu - to dynamically create contextmenu entry for the newly added&#x2F;modified URL<p>Following additional privileges are used to improve the functionality of the extension:\n1. unlimitedStorage - to allow the extension to store data more than 5MB in browser&#x27;s local storage\n2. downloads - to allow the user to download the saved URLs from browser to a .txt file (to take backup or to share with others)<p>The storage APIs used are local storage APIs:\n1. chrome.storage.local (For Chrome, Edge, Brave, Opera)\n2. browser.storage.local (For Firefox, Safari, Thunderbird)\nAbove APIs ensure the data is stored locally in browser and not synced to any other device. The main reason being some of the corporate URLs are sensitive and shouldn&#x27;t be exposed outside.<p>Note 1: I have added &quot;Buy me a coffee&quot; button purely to take care of the domain cost &amp; Apple Developer Program fee.",
-      "time": 1655392442,
-      "title": "Show HN: QuickOWL – Quickly open favourite URLs with selected text as input",
-      "type": "story"
+      "time": 1655392672,
+      "title": "Hacks Decoded: Bikes and Boomboxes with Samuel Aboagye",
+      "type": "story",
+      "url": "https://hacks.mozilla.org/2022/06/hacks-decoded-bikes-and-boomboxes-with-samuel-aboagye/"
     },
     {
-      "by": "jstx1",
+      "by": "fairytalemtg",
       "descendants": 0,
-      "id": 31766994,
+      "id": 31767062,
       "score": 1,
-      "time": 1655392408,
-      "title": "Spotify Reducing Hiring Growth by 25%",
+      "time": 1655392666,
+      "title": "Amex Tips to Attract New Customers for Small Business",
       "type": "story",
-      "url": "https://www.forbes.com/sites/marisadellatto/2022/06/15/spotify-reducing-hiring-growth-by-25-ceo-says/"
+      "url": "https://www.americanexpress.com/en-us/business/trends-and-insights/articles/7-excellent-ways-to-attract-new-customers/"
+    },
+    {
+      "by": "leephillips",
+      "descendants": 0,
+      "id": 31767055,
+      "score": 2,
+      "time": 1655392640,
+      "title": "Japan Decides Insulting Someone Online Is Worth a Year in Prison",
+      "type": "story",
+      "url": "https://www.pcmag.com/news/japan-decides-insulting-someone-online-is-worth-a-year-in-prison"
     },
     {
       "by": "LinuxBender",
       "descendants": 0,
-      "id": 31766978,
+      "id": 31767052,
       "score": 1,
-      "time": 1655392342,
-      "title": "Europe cracks down on data cap exemptions in update to net neutrality rules",
+      "time": 1655392628,
+      "title": "Ransomware Risk in Healthcare Endangers Patients",
       "type": "story",
-      "url": "https://arstechnica.com/tech-policy/2022/06/europe-cracks-down-on-data-cap-exemptions-in-update-to-net-neutrality-rules/"
+      "url": "https://threatpost.com/ransomware-risk-healthcare/179980/"
     },
     {
-      "by": "permo-w",
+      "by": "LinuxBender",
       "descendants": 0,
-      "id": 31766975,
+      "id": 31767047,
       "score": 1,
-      "time": 1655392323,
-      "title": "The Bat Bomb",
+      "time": 1655392605,
+      "title": "Facebook Messenger Scam Duped Millions",
       "type": "story",
-      "url": "https://en.wikipedia.org/wiki/Bat_bomb"
+      "url": "https://threatpost.com/acebook-messenger-scam/179977/"
     },
     {
-      "by": "Figgy24",
+      "by": "recroad",
       "descendants": 0,
-      "id": 31766965,
+      "id": 31767040,
       "score": 1,
-      "time": 1655392280,
-      "title": "Free Peer-to-Peer Mock Interviews",
+      "time": 1655392589,
+      "title": "Agile isn't faster, but you're done sooner",
       "type": "story",
-      "url": "https://www.hackpack.io/mock-interviews"
+      "url": "https://bitbytebit.substack.com/p/agile-isnt-faster-but-youre-done"
     },
     {
-      "by": "ngaut",
+      "by": "blacksqr",
       "descendants": 0,
-      "id": 31766957,
-      "score": 1,
-      "time": 1655392256,
-      "title": "Naming is hard: ArcticDB is now FrostDB (+updates)",
+      "id": 31767037,
+      "score": 2,
+      "time": 1655392584,
+      "title": "Computronium and computation limits to the universe (2018)",
       "type": "story",
-      "url": "https://www.polarsignals.com/blog/posts/2022/06/16/arcticdb-is-now-frostdb/"
+      "url": "https://www.nextbigfuture.com/2018/04/computronium-universe-computation-limits-of-computronium-and-limits-to-the-universe.html"
     },
     {
-      "by": "necrodome",
+      "by": "dev_tty01",
       "descendants": 0,
-      "id": 31766951,
-      "score": 1,
-      "time": 1655392233,
-      "title": "Have you tried rubbing a database on it?",
+      "id": 31767022,
+      "score": 2,
+      "time": 1655392499,
+      "title": "Ferrari says going electric means 'even more unique' cars",
       "type": "story",
-      "url": "https://www.hytradboi.com/"
-    },
-    {
-      "by": "RabbitUpRabbit",
-      "descendants": 0,
-      "id": 31766943,
-      "score": 1,
-      "time": 1655392177,
-      "title": "Apple battery fight: Millions of iPhone users could get payouts in legal action",
-      "type": "story",
-      "url": "https://www.bbc.com/news/business-61823512"
+      "url": "https://www.reuters.com/technology/ferrari-tells-investors-it-will-build-even-more-unique-electric-cars-2022-06-16/"
     }
   ]
 }
