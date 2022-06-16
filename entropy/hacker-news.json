@@ -1,6 +1,46 @@
 {
   "stories": [
     {
+      "by": "aiwryter",
+      "descendants": 0,
+      "id": 31769592,
+      "score": 1,
+      "text": "Looking for a content writer to help create quality, engaging and informative posts? Look no further than us! Our AI System can help you write quality content that will help your website or business grow.\nhttps:&#x2F;&#x2F;www.aiwryter.com",
+      "time": 1655405636,
+      "title": "AIwryter- Smart AI Content Writing Assistant and Marketing App",
+      "type": "story"
+    },
+    {
+      "by": "mortenjorck",
+      "descendants": 0,
+      "id": 31769581,
+      "score": 1,
+      "time": 1655405576,
+      "title": "13-Inch MacBook Pro with M2 Chip Outperforms Base Model Mac Pro",
+      "type": "story",
+      "url": "https://www.macrumors.com/2022/06/16/m2-chip-outperforms-base-mac-pro/"
+    },
+    {
+      "by": "Syonyk",
+      "descendants": 0,
+      "id": 31769572,
+      "score": 1,
+      "time": 1655405513,
+      "title": "Boinc in Retrospect",
+      "type": "story",
+      "url": "https://continuum-hypothesis.com/boinc_history.php"
+    },
+    {
+      "by": "nwsm",
+      "descendants": 0,
+      "id": 31769561,
+      "score": 1,
+      "time": 1655405455,
+      "title": "Protecting Renters from Flood Loss [pdf]",
+      "type": "story",
+      "url": "https://www.pennlawreview.com/wp-content/uploads/2022/06/Heiman_Final.pdf"
+    },
+    {
       "by": "crowdhailer",
       "descendants": 0,
       "id": 31769538,
@@ -14,7 +54,7 @@
       "by": "zwass",
       "descendants": 0,
       "id": 31769520,
-      "score": 2,
+      "score": 4,
       "text": "It seems GitHub became aware of the issue around March 2 (or before, since the fix was released on March 2), and waited until June 16 to disclose the problem.<p>See full text below:<p>Hi zwass,<p>We&#x27;re writing to let you know that between 2022-02-25 18:28 UTC and 2022-03-02 20:47 UTC, due to a bug, GitHub Apps were able to generate new scoped installation tokens with elevated permissions. You are an owner of an organization on GitHub with GitHub Apps installed that generated at least one new token during this time period. While we do not have evidence that this bug was maliciously exploited, with our available data, we are not able to determine if a token was generated with elevated permissions.<p>User privacy and security are essential for maintaining trust, and we want to remain as transparent as possible about events like these. GitHub itself did not experience a compromise or data breach that either created or resulted from this event. Read on for more information.<p>* What happened? *<p>GitHub learned via a customer support ticket that GitHub Apps were able to generate scoped installation tokens with elevated permissions. Each of these tokens are valid for up to 1 hour.<p>GitHub quickly fixed the issue and established that this bug was recently introduced, existing for approximately 5 days between 2022-02-25 18:28 UTC and 2022-03-02 20:47 UTC.<p>GitHub Apps generate scoped installation tokens based on the scopes and permissions granted when the GitHub App is installed into a user account or organization. For example, if a GitHub App requests and is granted read permission to issues during installation, the scoped installation token the App generates to function would have `issues:read` permission.<p>This bug would potentially allow the above installation to generate a token with `issues:write`, an elevation of permission from the granted `issues:read` permission. The bug did not allow a GitHub App to generate a token with additional scopes that were not already granted, such as `discussions:read` in the above example. The bug did not allow a GitHub App to access any repositories that the App did not already have access to.<p>In order to exploit this bug, the GitHub App author would need to modify their app&#x27;s code to request elevated permissions on generated tokens.<p>* What information was involved? *<p>The following GitHub Apps generated scoped installation tokens during the bug window for your organization(s). We are not able to determine if a token was generated with elevated permissions.<p>Organization: GitHub Apps\n&lt;redacted&gt;<p>* What GitHub is doing *<p>GitHub immediately began working to fix the bug and started an investigation into the potential impact. However due to the scale and complexity of GitHub Apps and their short-lived tokens, we were unable to determine whether this bug was ever exploited.<p>We are notifying all organization and user account owners that had GitHub Apps installed and had a scoped installation token generated during the bug window so that they can stay informed and perform their own audit of their installed GitHub Apps.<p>As a followup to this investigation, GitHub is looking at ways to improve our logging to enable more in-depth analysis on scoped token generation and GitHub App permissions in the future.<p>* What was the potential impact? *<p>Due to the variety of GitHub Apps, their possible scopes, and the repositories they may have been given access to, we are unable to advise on any potential impacts as each customer&#x27;s situation will be unique.<p>* What you can do *<p>While we have updated our systems to resolve this bug and no action is required on your end, we do recommend you review your installed GitHub Apps. You can use the following guidance for assessing GitHub Apps, their permissions, and their access to your private organization repositories:<p>https:&#x2F;&#x2F;docs.github.com&#x2F;en&#x2F;organizations&#x2F;keeping-your-organization-secure",
       "time": 1655405240,
       "title": "GitHub waited 3 months to notify about potential compromise",
@@ -59,46 +99,6 @@
       "title": "Texas, other states open investigation into Celsius following account freeze",
       "type": "story",
       "url": "https://www.coindesk.com/business/2022/06/16/texas-other-states-open-investigation-into-celsius-network-following-account-freeze/"
-    },
-    {
-      "by": "mikece",
-      "descendants": 0,
-      "id": 31769499,
-      "score": 1,
-      "time": 1655405158,
-      "title": "YouTube Shorts has over 1.5B users",
-      "type": "story",
-      "url": "https://9to5google.com/2022/06/16/youtube-shorts-users-2022/"
-    },
-    {
-      "by": "amrrs",
-      "descendants": 0,
-      "id": 31769488,
-      "score": 1,
-      "time": 1655405091,
-      "title": "Saudi Arabia plans to spend $1B a year discovering treatments to slow aging",
-      "type": "story",
-      "url": "https://www.technologyreview.com/2022/06/07/1053132/saudi-arabia-slow-aging-metformin/"
-    },
-    {
-      "by": "darrelld",
-      "descendants": 0,
-      "id": 31769484,
-      "score": 1,
-      "time": 1655405065,
-      "title": "The Cult Inside Google",
-      "type": "story",
-      "url": "https://medium.com/@kwilliamlloyd/the-cult-in-google-3c1a910214d1"
-    },
-    {
-      "by": "Sytten",
-      "descendants": 0,
-      "id": 31769482,
-      "score": 3,
-      "text": "Hi [REDACTED],<p>We&#x27;re writing to let you know that between 2022-02-25 18:28 UTC and 2022-03-02 20:47 UTC, due to a bug, GitHub Apps were able to generate new scoped installation tokens with elevated permissions. You are an owner of an organization on GitHub with GitHub Apps installed that generated at least one new token during this time period. While we do not have evidence that this bug was maliciously exploited, with our available data, we are not able to determine if a token was generated with elevated permissions.<p>User privacy and security are essential for maintaining trust, and we want to remain as transparent as possible about events like these. GitHub itself did not experience a compromise or data breach that either created or resulted from this event. Read on for more information.<p>* What happened? *<p>GitHub learned via a customer support ticket that GitHub Apps were able to generate scoped installation tokens with elevated permissions. Each of these tokens are valid for up to 1 hour.<p>GitHub quickly fixed the issue and established that this bug was recently introduced, existing for approximately 5 days between 2022-02-25 18:28 UTC and 2022-03-02 20:47 UTC.<p>GitHub Apps generate scoped installation tokens based on the scopes and permissions granted when the GitHub App is installed into a user account or organization. For example, if a GitHub App requests and is granted read permission to issues during installation, the scoped installation token the App generates to function would have `issues:read` permission.<p>This bug would potentially allow the above installation to generate a token with `issues:write`, an elevation of permission from the granted `issues:read` permission. The bug did not allow a GitHub App to generate a token with additional scopes that were not already granted, such as `discussions:read` in the above example. The bug did not allow a GitHub App to access any repositories that the App did not already have access to.<p>In order to exploit this bug, the GitHub App author would need to modify their app&#x27;s code to request elevated permissions on generated tokens.<p>* What information was involved? *<p>The following GitHub Apps generated scoped installation tokens during the bug window for your organization(s). We are not able to determine if a token was generated with elevated permissions.<p>[REDACTED]<p>* What GitHub is doing *<p>GitHub immediately began working to fix the bug and started an investigation into the potential impact. However due to the scale and complexity of GitHub Apps and their short-lived tokens, we were unable to determine whether this bug was ever exploited.<p>We are notifying all organization and user account owners that had GitHub Apps installed and had a scoped installation token generated during the bug window so that they can stay informed and perform their own audit of their installed GitHub Apps.<p>As a followup to this investigation, GitHub is looking at ways to improve our logging to enable more in-depth analysis on scoped token generation and GitHub App permissions in the future.<p>* What was the potential impact? *<p>Due to the variety of GitHub Apps, their possible scopes, and the repositories they may have been given access to, we are unable to advise on any potential impacts as each customer&#x27;s situation will be unique.<p>* What you can do *<p>While we have updated our systems to resolve this bug and no action is required on your end, we do recommend you review your installed GitHub Apps. You can use the following guidance for assessing GitHub Apps, their permissions, and their access to your private organization repositories:",
-      "time": 1655405047,
-      "title": "Tell HN: GitHub Apps bug created tokens with elevated privileges",
-      "type": "story"
     }
   ]
 }
