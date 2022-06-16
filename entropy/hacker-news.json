@@ -1,6 +1,59 @@
 {
   "stories": [
     {
+      "by": "bwidlar",
+      "descendants": 0,
+      "id": 31769647,
+      "score": 1,
+      "time": 1655406004,
+      "title": "Understand the Output of the FFT",
+      "type": "story",
+      "url": "https://www.youtube.com/watch?v=rUtz-471LkQ"
+    },
+    {
+      "by": "tosh",
+      "descendants": 0,
+      "id": 31769640,
+      "score": 1,
+      "time": 1655405945,
+      "title": "Glacial ice supports a distinct and undocumented polar bear subpopulation",
+      "type": "story",
+      "url": "https://www.science.org/doi/10.1126/science.abk2793"
+    },
+    {
+      "by": "andronasef",
+      "descendants": 0,
+      "id": 31769624,
+      "score": 1,
+      "time": 1655405858,
+      "title": "Get the best products from ProductHunt in your Twitter every hour",
+      "type": "story",
+      "url": "https://twitter.com/newsproducthunt"
+    },
+    {
+      "by": "thcipriani",
+      "descendants": 1,
+      "id": 31769604,
+      "kids": [
+        31769630
+      ],
+      "score": 2,
+      "time": 1655405739,
+      "title": "Cool Desktops Don’t Change",
+      "type": "story",
+      "url": "https://tylercipriani.com/blog/2022/06/15/choose-boring-desktop-technology/"
+    },
+    {
+      "by": "teraflop",
+      "descendants": 0,
+      "id": 31769601,
+      "score": 1,
+      "text": "Triplebyte (YC S15) is a tech recruiting company that operates by getting developers to take skill tests, and then using the results to match them with employers. Back in 2020, they got in a lot of hot water by suddenly announcing that user profiles -- which had been collected with assurances that the data wouldn&#x27;t be shared without consent -- would be made public, unless you opted out within a week[1]. This provoked a lot of backlash, especially since the CEO seemed totally oblivious to the privacy concerns[2]. After a lot of angry comments, he publicly apologized and reversed course[3].<p>Then in 2021, some users started once again being notified that their profiles were automatically being made public[4]. This time, it was explained away as an &quot;oversight&quot; related to the fact that previously, opt-outs weren&#x27;t permanent but had a hidden expiration time. Triplebyte once again apologized and promised that it wouldn&#x27;t happen again, and many people seemed satisfied with the &quot;transparency and candidness&quot; of their response.<p>Now it&#x27;s 2022, and yesterday I got a recruiting email from a company that found me via the Triplebyte account I created back in 2019. When I logged in to check, sure enough, my profile was set to &quot;publicly visible&quot; and &quot;open to new opportunities&quot;. I was pretty sure I had never made those changes, but just in case I was misremembering, I contacted Triplebyte support to find out what was going on. Today I got this response:<p>&quot;I was able to do some digging on to why this must have happened, It looks like before we did our last update to the platform you did not have the profile visibility set to indefinitely so the profile was turned on. Since then we have made a privacy chance once you set the profile to off there is not reset time frame it will remain off until you turn it on.&quot;<p>(Unlike the user in [4], I never got any kind of notification that this automatic change was being made.)<p>So despite their explicit promises, Triplebyte did not actually go back and fix the privacy settings for users who had them silently changed by the previous &quot;dark pattern&quot;. This is a heads-up to anyone else who has a Triplebyte account and might be affected by the same issue.<p>[1]: https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=23279837<p>[2]: https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=23280120<p>[3]: https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=23303037<p>[4]: https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=27255742",
+      "time": 1655405729,
+      "title": "Tell HN: Triplebyte is, yet again, making user profiles public without consent",
+      "type": "story"
+    },
+    {
       "by": "aiwryter",
       "descendants": 0,
       "id": 31769592,
@@ -44,61 +97,11 @@
       "by": "crowdhailer",
       "descendants": 0,
       "id": 31769538,
-      "score": 1,
+      "score": 3,
       "time": 1655405318,
       "title": "The future of friendly functional programming, Talking about Gleam language",
       "type": "story",
       "url": "https://open.spotify.com/episode/5kQbDiLY65Ujn1ymnugsX4"
-    },
-    {
-      "by": "zwass",
-      "descendants": 0,
-      "id": 31769520,
-      "score": 4,
-      "text": "It seems GitHub became aware of the issue around March 2 (or before, since the fix was released on March 2), and waited until June 16 to disclose the problem.<p>See full text below:<p>Hi zwass,<p>We&#x27;re writing to let you know that between 2022-02-25 18:28 UTC and 2022-03-02 20:47 UTC, due to a bug, GitHub Apps were able to generate new scoped installation tokens with elevated permissions. You are an owner of an organization on GitHub with GitHub Apps installed that generated at least one new token during this time period. While we do not have evidence that this bug was maliciously exploited, with our available data, we are not able to determine if a token was generated with elevated permissions.<p>User privacy and security are essential for maintaining trust, and we want to remain as transparent as possible about events like these. GitHub itself did not experience a compromise or data breach that either created or resulted from this event. Read on for more information.<p>* What happened? *<p>GitHub learned via a customer support ticket that GitHub Apps were able to generate scoped installation tokens with elevated permissions. Each of these tokens are valid for up to 1 hour.<p>GitHub quickly fixed the issue and established that this bug was recently introduced, existing for approximately 5 days between 2022-02-25 18:28 UTC and 2022-03-02 20:47 UTC.<p>GitHub Apps generate scoped installation tokens based on the scopes and permissions granted when the GitHub App is installed into a user account or organization. For example, if a GitHub App requests and is granted read permission to issues during installation, the scoped installation token the App generates to function would have `issues:read` permission.<p>This bug would potentially allow the above installation to generate a token with `issues:write`, an elevation of permission from the granted `issues:read` permission. The bug did not allow a GitHub App to generate a token with additional scopes that were not already granted, such as `discussions:read` in the above example. The bug did not allow a GitHub App to access any repositories that the App did not already have access to.<p>In order to exploit this bug, the GitHub App author would need to modify their app&#x27;s code to request elevated permissions on generated tokens.<p>* What information was involved? *<p>The following GitHub Apps generated scoped installation tokens during the bug window for your organization(s). We are not able to determine if a token was generated with elevated permissions.<p>Organization: GitHub Apps\n&lt;redacted&gt;<p>* What GitHub is doing *<p>GitHub immediately began working to fix the bug and started an investigation into the potential impact. However due to the scale and complexity of GitHub Apps and their short-lived tokens, we were unable to determine whether this bug was ever exploited.<p>We are notifying all organization and user account owners that had GitHub Apps installed and had a scoped installation token generated during the bug window so that they can stay informed and perform their own audit of their installed GitHub Apps.<p>As a followup to this investigation, GitHub is looking at ways to improve our logging to enable more in-depth analysis on scoped token generation and GitHub App permissions in the future.<p>* What was the potential impact? *<p>Due to the variety of GitHub Apps, their possible scopes, and the repositories they may have been given access to, we are unable to advise on any potential impacts as each customer&#x27;s situation will be unique.<p>* What you can do *<p>While we have updated our systems to resolve this bug and no action is required on your end, we do recommend you review your installed GitHub Apps. You can use the following guidance for assessing GitHub Apps, their permissions, and their access to your private organization repositories:<p>https:&#x2F;&#x2F;docs.github.com&#x2F;en&#x2F;organizations&#x2F;keeping-your-organization-secure",
-      "time": 1655405240,
-      "title": "GitHub waited 3 months to notify about potential compromise",
-      "type": "story"
-    },
-    {
-      "by": "trifit",
-      "descendants": 0,
-      "id": 31769514,
-      "score": 1,
-      "time": 1655405219,
-      "title": "CTD",
-      "type": "story",
-      "url": "https://en.wikipedia.org/wiki/CTD_(instrument)"
-    },
-    {
-      "by": "grogu88",
-      "descendants": 0,
-      "id": 31769513,
-      "score": 1,
-      "time": 1655405215,
-      "title": "Observing Earth from Space with Streamlit",
-      "type": "story",
-      "url": "https://blog.streamlit.io/observing-earth-from-space-with-streamlit/"
-    },
-    {
-      "by": "bestinterest",
-      "descendants": 0,
-      "id": 31769505,
-      "score": 1,
-      "text": "As slow software becomes the norm I feel like I&#x27;m missing the true speed of what a computer can do. How do I get a grasp of how fast practical programs can be?",
-      "time": 1655405183,
-      "title": "Ask HN: Articles/Books to understand how fast computers are?",
-      "type": "story"
-    },
-    {
-      "by": "ValentineC",
-      "descendants": 0,
-      "id": 31769502,
-      "score": 1,
-      "time": 1655405168,
-      "title": "Texas, other states open investigation into Celsius following account freeze",
-      "type": "story",
-      "url": "https://www.coindesk.com/business/2022/06/16/texas-other-states-open-investigation-into-celsius-network-following-account-freeze/"
     }
   ]
 }
