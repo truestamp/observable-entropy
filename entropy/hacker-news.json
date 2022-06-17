@@ -1,6 +1,28 @@
 {
   "stories": [
-    null,
+    {
+      "by": "mrl5",
+      "descendants": 1,
+      "id": 31783375,
+      "kids": [
+        31783392
+      ],
+      "score": 1,
+      "time": 1655495450,
+      "title": "Show HN: Vulner – discover CVEs for packages installed by the portage",
+      "type": "story",
+      "url": "https://github.com/mrl5/vulner"
+    },
+    {
+      "by": "crhulls",
+      "descendants": 0,
+      "id": 31783369,
+      "score": 1,
+      "time": 1655495404,
+      "title": "Sirin Labs Token going parabolic on FTX while CEO is in jail",
+      "type": "story",
+      "url": "https://twitter.com/Awawat_Trades/status/1537622289222471680/photo/1"
+    },
     {
       "by": "whack",
       "descendants": 0,
@@ -83,19 +105,6 @@
       "title": "The browser stores passwords and sensitive data in clear text in memory",
       "type": "story",
       "url": "https://www.ghacks.net/2022/06/12/your-browser-stores-passwords-and-sensitive-data-in-clear-text-in-memory/"
-    },
-    {
-      "by": "whitakerch",
-      "descendants": 1,
-      "id": 31783224,
-      "kids": [
-        31783259
-      ],
-      "score": 2,
-      "text": "I&#x27;ve seen different arguments on this topic and thought I&#x27;d ask HN if you all have a standard for this.<p>Say you have a form that&#x27;s filled out and saved to a DB. \nOne required field is a dropdown with Yes and No.\nBut the field begins as blank to show that a value hasn&#x27;t been selected yet, ensuring that the User pays attention to the field.<p>Do you use a Nullable Bit (DB) and Nullable Bool (Code)?\nOR an Enum: Yes, No, Unset?<p>You wouldn&#x27;t use a boolean to represent states like say New, Processing, Done. But do you consider NULL a separate &quot;state&quot;?<p>Thanks",
-      "time": 1655494697,
-      "title": "Ask HN: Do You Use Enum for Yes, No, Unset?",
-      "type": "story"
     }
   ]
 }
