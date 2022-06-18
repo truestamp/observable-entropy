@@ -1,10 +1,51 @@
 {
   "stories": [
     {
+      "by": "phgn",
+      "descendants": 0,
+      "id": 31790593,
+      "score": 1,
+      "text": "Hey! This is a reader mode browser extension I built that hides noisy page elements rather than extracting and re-rendering only the page text. The idea is to not make all articles look the same [0], have them still render graphs, and ideally to work in more cases.<p>There are a few &quot;tricks&quot;: patching the site CSSOM to apply simpler mobile styles even at desktop width, detecting the likely main text &amp; removing its non-text siblings, blocklists for classnames that contain words like &quot;sidebar&quot;, and testing this on a few hundred popular sites.<p>I got carried away and also added a dark mode, page outlines, private annotations &amp; inline Hacker News comments.<p>The last feature works by parsing every top-level HN comment with a quote in it (formatted with &gt; or &quot;&quot;) within a few minutes, and anchoring these quotes in the related article HTML. So when you click a link on HN you’ll see the parts people are talking about while reading. [1]<p>The code is all on GitHub!<p>[0] Screenshots comparing it to the Firefox reader mode: <a href=\"https:&#x2F;&#x2F;github.com&#x2F;lindylearn&#x2F;unclutter&#x2F;blob&#x2F;main&#x2F;docs&#x2F;comparison.md\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;lindylearn&#x2F;unclutter&#x2F;blob&#x2F;main&#x2F;docs&#x2F;compa...</a><p>[1] It&#x27;s fun to try this on some of the &quot;HN classics&quot; that got 30+ quote comments over the years. The list at hn.lindylearn.io&#x2F;best shows the number of “annotations” an article has beneath its title.",
+      "time": 1655565549,
+      "title": "Show HN: Reader Mode that shows Hacker News comments inline",
+      "type": "story",
+      "url": "https://unclutter.lindylearn.io"
+    },
+    {
+      "by": "AlexeyBrin",
+      "descendants": 0,
+      "id": 31790590,
+      "score": 1,
+      "time": 1655565510,
+      "title": "Rust makes you feel like a GENIUS",
+      "type": "story",
+      "url": "https://www.youtube.com/watch?v=0rJ94rbdteE"
+    },
+    {
+      "by": "sylvain_kerkour",
+      "descendants": 0,
+      "id": 31790583,
+      "score": 2,
+      "time": 1655565477,
+      "title": "Async Rust: What is a runtime? Here is how tokio works under the hood",
+      "type": "story",
+      "url": "https://kerkour.com/rust-async-await-what-is-a-runtime"
+    },
+    {
+      "by": "AlexeyBrin",
+      "descendants": 0,
+      "id": 31790575,
+      "score": 1,
+      "time": 1655565458,
+      "title": "Rust: Turtles All the Way Down",
+      "type": "story",
+      "url": "https://www.youtube.com/watch?v=PuMXWc0xrK0"
+    },
+    {
       "by": "davesailer",
       "descendants": 0,
       "id": 31790533,
-      "score": 1,
+      "score": 2,
       "time": 1655565187,
       "title": "The Hitch-Hiker'S Guide to Digital Equipment, Roger Caffin (1991)[pdf]",
       "type": "story",
@@ -14,7 +55,7 @@
       "by": "LinuxBender",
       "descendants": 0,
       "id": 31790518,
-      "score": 1,
+      "score": 2,
       "time": 1655565061,
       "title": "Migrants: Some due for removal from the UK could be electronically tagged",
       "type": "story",
@@ -59,46 +100,6 @@
       "title": "The Fall of Long-Term Capital Management",
       "type": "story",
       "url": "https://www.businessinsider.com/the-fall-of-long-term-capital-management-2014-7"
-    },
-    {
-      "by": "memorable",
-      "descendants": 0,
-      "id": 31790399,
-      "score": 1,
-      "time": 1655564527,
-      "title": "Raycast: Supercharged Productivity",
-      "type": "story",
-      "url": "https://www.raycast.com/"
-    },
-    {
-      "by": "Tomte",
-      "descendants": 0,
-      "id": 31790379,
-      "score": 1,
-      "time": 1655564407,
-      "title": "LMN-3: Putting the ‘OP’ in Open Source Synthesizers",
-      "type": "story",
-      "url": "https://hackaday.com/2022/06/14/lmn-3-putting-the-op-in-open-source-synthesizers/"
-    },
-    {
-      "by": "Tomte",
-      "descendants": 0,
-      "id": 31790376,
-      "score": 1,
-      "time": 1655564399,
-      "title": "Gasp: GUI as Stapled Pages",
-      "type": "story",
-      "url": "https://github.com/pyrustic/gaspium/blob/master/gasp.md"
-    },
-    {
-      "by": "RickJWagner",
-      "descendants": 0,
-      "id": 31790340,
-      "score": 1,
-      "time": 1655564149,
-      "title": "In Praise of Old-Fashioned Dads",
-      "type": "story",
-      "url": "https://www.realclearpolitics.com/articles/2022/06/18/in_praise_of_old-fashioned_dads_147759.html"
     }
   ]
 }
