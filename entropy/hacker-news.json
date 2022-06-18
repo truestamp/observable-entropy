@@ -1,9 +1,43 @@
 {
   "stories": [
+    null,
+    {
+      "by": "behnamoh",
+      "descendants": 0,
+      "id": 31790878,
+      "score": 1,
+      "text": "I&#x27;ve been wondering if Magic Trackpad adds any value to my workflow. I use my MBP in two ways:<p>(0) clamshell mode when connected to an external display;<p>(1) as a laptop.<p>If (0) is the case, I use mouse and keyboard but sometimes I miss the fact that I can just scroll quickly on the MBP&#x27;s Trackpad. However, pressing on the Trackpad for long hours isn&#x27;t fun either as my fingers get tired.",
+      "time": 1655567045,
+      "title": "Ask HN: Does Apple's Magic Trackpad improve your productivity?",
+      "type": "story"
+    },
+    {
+      "by": "Brajeshwar",
+      "descendants": 0,
+      "id": 31790873,
+      "score": 1,
+      "time": 1655567017,
+      "title": "Warren Buffett charity lunch fetches record winning bid of $19M",
+      "type": "story",
+      "url": "https://www.reuters.com/business/warren-buffett-charity-lunch-fetches-winning-bid-19-mln-2022-06-18/"
+    },
+    {
+      "by": "nayuki",
+      "descendants": 0,
+      "id": 31790860,
+      "score": 1,
+      "time": 1655566939,
+      "title": "Yes and No: A binary philosophy to being productive",
+      "type": "story",
+      "url": "https://thoughts.jatan.space/p/yes-and-no"
+    },
     {
       "by": "meribold",
-      "descendants": 0,
+      "descendants": 1,
       "id": 31790824,
+      "kids": [
+        31790876
+      ],
       "score": 1,
       "time": 1655566677,
       "title": "Show HN: Git command for creating snapshot commits on a not checked-out branch",
@@ -59,47 +93,6 @@
       "title": "Notkia: Building an Open and Linux-Powered Numpad Phone",
       "type": "story",
       "url": "https://hackaday.com/2022/06/18/notkia-building-an-open-and-linux-powered-numpad-phone/"
-    },
-    {
-      "by": "Brajeshwar",
-      "descendants": 0,
-      "id": 31790750,
-      "score": 1,
-      "time": 1655566333,
-      "title": "Spam Blacklist and Blocklist Hosts",
-      "type": "story",
-      "url": "https://github.com/StevenBlack/hosts"
-    },
-    {
-      "by": "OJFord",
-      "descendants": 0,
-      "id": 31790713,
-      "score": 1,
-      "time": 1655566191,
-      "title": "Blue Planet produces coarse and fine aggregates containing sequestered CO2",
-      "type": "story",
-      "url": "https://www.blueplanetsystems.com/products"
-    },
-    {
-      "by": "azhenley",
-      "descendants": 0,
-      "id": 31790698,
-      "score": 1,
-      "time": 1655566134,
-      "title": "Why do we all fall for AI-generated language?",
-      "type": "story",
-      "url": "https://twitter.com/maurice_jks/status/1537814372462039043"
-    },
-    {
-      "by": "phgn",
-      "descendants": 0,
-      "id": 31790593,
-      "score": 2,
-      "text": "Hey! This is a reader mode browser extension I built that hides noisy page elements rather than extracting and re-rendering only the page text. The idea is to not make all articles look the same [0], have them still render graphs, and ideally to work in more cases.<p>There are a few &quot;tricks&quot;: patching the site CSSOM to apply simpler mobile styles even at desktop width, detecting the likely main text &amp; removing its non-text siblings, blocklists for classnames that contain words like &quot;sidebar&quot;, and testing this on a few hundred popular sites.<p>I got carried away and also added a dark mode, page outlines, private annotations &amp; inline Hacker News comments.<p>The last feature works by parsing every top-level HN comment with a quote in it (formatted with &gt; or &quot;&quot;) within a few minutes, and anchoring these quotes in the related article HTML. So when you click a link on HN you’ll see the parts people are talking about while reading. [1]<p>The code is all on GitHub!<p>[0] Screenshots comparing it to the Firefox reader mode: <a href=\"https:&#x2F;&#x2F;github.com&#x2F;lindylearn&#x2F;unclutter&#x2F;blob&#x2F;main&#x2F;docs&#x2F;comparison.md\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;lindylearn&#x2F;unclutter&#x2F;blob&#x2F;main&#x2F;docs&#x2F;compa...</a><p>[1] It&#x27;s fun to try this on some of the &quot;HN classics&quot; that got 30+ quote comments over the years. The list at hn.lindylearn.io&#x2F;best shows the number of “annotations” an article has beneath its title.",
-      "time": 1655565549,
-      "title": "Show HN: Reader Mode that shows Hacker News quote comments",
-      "type": "story",
-      "url": "https://unclutter.lindylearn.io"
     }
   ]
 }
