@@ -1,6 +1,60 @@
 {
   "stories": [
     {
+      "by": "amrrs",
+      "descendants": 0,
+      "id": 31792138,
+      "score": 1,
+      "time": 1655574902,
+      "title": "An Indian Startup used App release notes to pay respect for a lost team member",
+      "type": "story",
+      "url": "https://www.linkedin.com/posts/amrrs_i-dont-use-credit-card-and-never-going-to-activity-6943980515888627712-T09Z"
+    },
+    {
+      "by": "lifeisstillgood",
+      "descendants": 0,
+      "id": 31792137,
+      "score": 1,
+      "time": 1655574901,
+      "title": "Thales of Miletus",
+      "type": "story",
+      "url": "https://en.wikipedia.org/wiki/Thales_of_Miletus"
+    },
+    {
+      "by": "CRConrad",
+      "descendants": 0,
+      "id": 31792121,
+      "score": 1,
+      "time": 1655574793,
+      "title": "Why Einstein is a “peerless genius” and Hawking is an “ordinary genius”",
+      "type": "story",
+      "url": "https://bigthink.com/the-well/einstein-hawking-genius/"
+    },
+    {
+      "by": "ALittleLight",
+      "descendants": 0,
+      "id": 31792109,
+      "score": 1,
+      "time": 1655574680,
+      "title": "AGI Ruin: A List of Lethalities",
+      "type": "story",
+      "url": "https://www.lesswrong.com/posts/uMQ3cqWDPHhjtiesc/agi-ruin-a-list-of-lethalities"
+    },
+    {
+      "by": "bambax",
+      "descendants": 1,
+      "id": 31792108,
+      "kids": [
+        31792117
+      ],
+      "score": 1,
+      "text": "There was recently a Show HN for a program that lets one remove silence from video files [0]. I was almost certain that ffmpeg could do this...<p>But after searching for it, it turned out I was wrong: ffmpeg can&#x27;t do this out of the box, and also can&#x27;t read input from an EDL file [1].<p>So I set out to write a solution, as simple as possible.<p>The way to do that is to produce a list of select filters that are applied to video and audio, and retain only the non-silent parts.<p>The `silencedetect` audio filter detects silences, and produces timestamps for when silences start and end. So one can pipe the output of that to a Python script, that builds an ffmpeg command with the appropriate select filters.<p>The resulting ffmpeg command can be run to re-encode the video without the silent parts.<p>Hope this helps.<p>- - -<p>Notes:<p>1&#x2F; I did find something somewhat similar to what I ended up doing [2], but it&#x27;s complicated, and does the video encoding inside of Python. Granted, moviepy uses ffmpeg under the hood, but it&#x27;s still better if ffmpeg does all the encoding directly.<p>2&#x2F; This solution doesn&#x27;t produce a myriad of intermediary files that it would recombine afterwards; there is just one encoding of the output video file. `silencedetect` is very fast, so all in all running this should be pretty fast.<p>[0] <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=31767830\" rel=\"nofollow\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=31767830</a><p>[1] <a href=\"https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Edit_decision_list\" rel=\"nofollow\">https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Edit_decision_list</a><p>[2] <a href=\"https:&#x2F;&#x2F;donaldfeury.xyz&#x2F;remove-the-silent-parts-of-a-video-using-ffmpeg-and-python&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;donaldfeury.xyz&#x2F;remove-the-silent-parts-of-a-video-u...</a>",
+      "time": 1655574671,
+      "title": "Show HN: Remove Silence from Videos with Ffmpeg",
+      "type": "story",
+      "url": "https://github.com/bambax/Remsi"
+    },
+    {
       "by": "Tomte",
       "descendants": 0,
       "id": 31792075,
@@ -49,59 +103,6 @@
       "title": "Wordle in Terminal Written in Haskell",
       "type": "story",
       "url": "https://github.com/ivanjermakov/wordle"
-    },
-    {
-      "by": "rntn",
-      "descendants": 0,
-      "id": 31791998,
-      "score": 2,
-      "time": 1655573905,
-      "title": "Fair algorithms for selecting citizens’ assemblies",
-      "type": "story",
-      "url": "https://www.nature.com/articles/s41586-021-03788-6"
-    },
-    {
-      "by": "hardware2win",
-      "descendants": 0,
-      "id": 31791989,
-      "score": 2,
-      "text": "What projects were affected - stopped existing or the opposite, could grow.<p>How was the atmosphere at Microsoft at the time? How normal devs were affected?<p>What implications it had on other companies?<p>In general, what changed after threat of break up<p>How big topic that was? Did people outside IT even know about it?",
-      "time": 1655573843,
-      "title": "Ask HN: What was the actual impact of Microsoft anti trust case on the industry?",
-      "type": "story"
-    },
-    {
-      "by": "emptybits",
-      "descendants": 1,
-      "id": 31791973,
-      "kids": [
-        31792061
-      ],
-      "score": 3,
-      "time": 1655573746,
-      "title": "“The Transactor” magazine, Commodore, 1978-1989",
-      "type": "story",
-      "url": "https://www.commodore.ca/commodore-gallery/the-transactor-magazine/"
-    },
-    {
-      "by": "jna_sh",
-      "descendants": 0,
-      "id": 31791967,
-      "score": 2,
-      "time": 1655573680,
-      "title": "DigitalOcean sponsors a developer esports team",
-      "type": "story",
-      "url": "https://twitter.com/bvanvugt/status/1538193349030531072"
-    },
-    {
-      "by": "losfair",
-      "descendants": 0,
-      "id": 31791965,
-      "score": 2,
-      "time": 1655573650,
-      "title": "Show HN: DLock – Distributed-Lock-as-a-Service on Cloudflare Durable Objects",
-      "type": "story",
-      "url": "https://github.com/losfair/dlock"
     }
   ]
 }
