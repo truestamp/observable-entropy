@@ -4,10 +4,10 @@
       "by": "phgn",
       "descendants": 0,
       "id": 31790593,
-      "score": 1,
+      "score": 2,
       "text": "Hey! This is a reader mode browser extension I built that hides noisy page elements rather than extracting and re-rendering only the page text. The idea is to not make all articles look the same [0], have them still render graphs, and ideally to work in more cases.<p>There are a few &quot;tricks&quot;: patching the site CSSOM to apply simpler mobile styles even at desktop width, detecting the likely main text &amp; removing its non-text siblings, blocklists for classnames that contain words like &quot;sidebar&quot;, and testing this on a few hundred popular sites.<p>I got carried away and also added a dark mode, page outlines, private annotations &amp; inline Hacker News comments.<p>The last feature works by parsing every top-level HN comment with a quote in it (formatted with &gt; or &quot;&quot;) within a few minutes, and anchoring these quotes in the related article HTML. So when you click a link on HN you’ll see the parts people are talking about while reading. [1]<p>The code is all on GitHub!<p>[0] Screenshots comparing it to the Firefox reader mode: <a href=\"https:&#x2F;&#x2F;github.com&#x2F;lindylearn&#x2F;unclutter&#x2F;blob&#x2F;main&#x2F;docs&#x2F;comparison.md\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;lindylearn&#x2F;unclutter&#x2F;blob&#x2F;main&#x2F;docs&#x2F;compa...</a><p>[1] It&#x27;s fun to try this on some of the &quot;HN classics&quot; that got 30+ quote comments over the years. The list at hn.lindylearn.io&#x2F;best shows the number of “annotations” an article has beneath its title.",
       "time": 1655565549,
-      "title": "Show HN: Reader Mode that shows Hacker News comments inline",
+      "title": "Show HN: Reader Mode that shows Hacker News quote comments",
       "type": "story",
       "url": "https://unclutter.lindylearn.io"
     },
