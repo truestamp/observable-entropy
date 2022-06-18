@@ -3,6 +3,36 @@
     {
       "by": "thunderbong",
       "descendants": 0,
+      "id": 31792274,
+      "score": 1,
+      "time": 1655575705,
+      "title": "The Best Open Source Photo Organizing Software",
+      "type": "story",
+      "url": "https://nixsanctuary.com/the-best-open-source-photo-organizing-software/"
+    },
+    {
+      "by": "Tozen",
+      "descendants": 0,
+      "id": 31792265,
+      "score": 1,
+      "time": 1655575669,
+      "title": "Japan Low Covid Death Rates Are Model for World",
+      "type": "story",
+      "url": "https://www.bloomberg.com/news/articles/2022-06-17/how-japan-achieved-one-of-the-world-s-lowest-covid-death-rates"
+    },
+    {
+      "by": "thunderbong",
+      "descendants": 0,
+      "id": 31792254,
+      "score": 1,
+      "time": 1655575613,
+      "title": "The Blind Spots Low-Code Development That Will Create Technical Debt",
+      "type": "story",
+      "url": "https://thehosk.medium.com/the-blind-spots-of-citizen-developer-and-low-code-development-that-will-create-technical-debt-on-an-45bb6120e7d6"
+    },
+    {
+      "by": "thunderbong",
+      "descendants": 0,
       "id": 31792233,
       "score": 1,
       "time": 1655575458,
@@ -24,7 +54,7 @@
       "by": "mg",
       "descendants": 0,
       "id": 31792219,
-      "score": 1,
+      "score": 2,
       "time": 1655575372,
       "title": "People playing chess on roller coasters",
       "type": "story",
@@ -42,13 +72,14 @@
     },
     {
       "by": "legrande",
-      "descendants": 2,
+      "descendants": 3,
       "id": 31792144,
       "kids": [
+        31792276,
         31792229,
         31792167
       ],
-      "score": 1,
+      "score": 2,
       "text": "Would you complete a LeetCode course just for the lolz and not use the knowledge you gained from it just for getting hired? What&#x27;s wrong with knowing various coding tricks for the sheer fun of the challenge rather than chasing a job?",
       "time": 1655574945,
       "title": "Ask HN: LeetCode Just for Fun?",
@@ -58,7 +89,7 @@
       "by": "amrrs",
       "descendants": 0,
       "id": 31792138,
-      "score": 1,
+      "score": 2,
       "time": 1655574902,
       "title": "An Indian Startup used App release notes to pay respect for a lost team member",
       "type": "story",
@@ -73,40 +104,6 @@
       "title": "Thales of Miletus",
       "type": "story",
       "url": "https://en.wikipedia.org/wiki/Thales_of_Miletus"
-    },
-    {
-      "by": "CRConrad",
-      "descendants": 0,
-      "id": 31792121,
-      "score": 3,
-      "time": 1655574793,
-      "title": "Why Einstein is a “peerless genius” and Hawking is an “ordinary genius”",
-      "type": "story",
-      "url": "https://bigthink.com/the-well/einstein-hawking-genius/"
-    },
-    {
-      "by": "ALittleLight",
-      "descendants": 0,
-      "id": 31792109,
-      "score": 1,
-      "time": 1655574680,
-      "title": "AGI Ruin: A List of Lethalities",
-      "type": "story",
-      "url": "https://www.lesswrong.com/posts/uMQ3cqWDPHhjtiesc/agi-ruin-a-list-of-lethalities"
-    },
-    {
-      "by": "bambax",
-      "descendants": 1,
-      "id": 31792108,
-      "kids": [
-        31792117
-      ],
-      "score": 1,
-      "text": "There was recently a Show HN for a program that lets one remove silence from video files [0]. I was almost certain that ffmpeg could do this...<p>But after searching for it, it turned out I was wrong: ffmpeg can&#x27;t do this out of the box, and also can&#x27;t read input from an EDL file [1].<p>So I set out to write a solution, as simple as possible.<p>The way to do that is to produce a list of select filters that are applied to video and audio, and retain only the non-silent parts.<p>The `silencedetect` audio filter detects silences, and produces timestamps for when silences start and end. So one can pipe the output of that to a Python script, that builds an ffmpeg command with the appropriate select filters.<p>The resulting ffmpeg command can be run to re-encode the video without the silent parts.<p>Hope this helps.<p>- - -<p>Notes:<p>1&#x2F; I did find something somewhat similar to what I ended up doing [2], but it&#x27;s complicated, and does the video encoding inside of Python. Granted, moviepy uses ffmpeg under the hood, but it&#x27;s still better if ffmpeg does all the encoding directly.<p>2&#x2F; This solution doesn&#x27;t produce a myriad of intermediary files that it would recombine afterwards; there is just one encoding of the output video file. `silencedetect` is very fast, so all in all running this should be pretty fast.<p>[0] <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=31767830\" rel=\"nofollow\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=31767830</a><p>[1] <a href=\"https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Edit_decision_list\" rel=\"nofollow\">https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Edit_decision_list</a><p>[2] <a href=\"https:&#x2F;&#x2F;donaldfeury.xyz&#x2F;remove-the-silent-parts-of-a-video-using-ffmpeg-and-python&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;donaldfeury.xyz&#x2F;remove-the-silent-parts-of-a-video-u...</a>",
-      "time": 1655574671,
-      "title": "Show HN: Remove Silence from Videos with Ffmpeg",
-      "type": "story",
-      "url": "https://github.com/bambax/Remsi"
     }
   ]
 }
