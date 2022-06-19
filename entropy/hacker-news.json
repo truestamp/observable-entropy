@@ -1,10 +1,23 @@
 {
   "stories": [
     {
-      "by": "hippich",
+      "by": "heavyset_go",
       "descendants": 0,
-      "id": 31803379,
+      "id": 31803419,
       "score": 1,
+      "time": 1655672191,
+      "title": "Elon Musk Has Gone Off the Rails, Will He Take Tesla and SpaceX with Him?",
+      "type": "story",
+      "url": "https://cleantechnica.com/2022/06/18/elon-musk-has-gone-off-the-rails-will-he-take-tesla-and-spacex-with-him/"
+    },
+    {
+      "by": "hippich",
+      "descendants": 1,
+      "id": 31803379,
+      "kids": [
+        31803454
+      ],
+      "score": 2,
       "time": 1655671888,
       "title": "Elon Musk, Tesla and SpaceX Hit with $258B Dogecoin Lawsuit",
       "type": "story",
@@ -46,7 +59,7 @@
       "by": "fortran77",
       "descendants": 0,
       "id": 31803264,
-      "score": 1,
+      "score": 2,
       "time": 1655671187,
       "title": "The Organization of Your Bookshelves Tells Its Own Story",
       "type": "story",
@@ -86,21 +99,11 @@
       "by": "azalemeth",
       "descendants": 0,
       "id": 31803144,
-      "score": 1,
+      "score": 2,
       "time": 1655670441,
       "title": "The intersectional privilege of white able-bodied heterosexual men in STEM",
       "type": "story",
       "url": "https://www.science.org/doi/full/10.1126/sciadv.abo1558"
-    },
-    {
-      "by": "icyfox",
-      "descendants": 0,
-      "id": 31803131,
-      "score": 1,
-      "text": "I&#x27;ve been working on a deep learning side project that needs GPU acceleration at inference time. My inference requests are very bursted, however, so I don&#x27;t need a box to be lying around while waiting for requests. I can stand to wait for a small interval (&lt;1min) before getting results back. Most of the options I&#x27;m seeing either assume full batch processing or persistent hosted boxes that lie around in between requests.<p>Is there anything like heroku dynos that can spin up to process a GPU compute request and then spin back down? What do you use for deep learning side projects?",
-      "time": 1655670388,
-      "title": "How do you host deep learning side projects?",
-      "type": "story"
     }
   ]
 }
