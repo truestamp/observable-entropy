@@ -1,6 +1,16 @@
 {
   "stories": [
     {
+      "by": "ksec",
+      "descendants": 0,
+      "id": 31796715,
+      "score": 1,
+      "time": 1655620145,
+      "title": "How to Use the 35W Dual USB-C Port Power Adapter",
+      "type": "story",
+      "url": "https://support.apple.com/en-us/HT213263"
+    },
+    {
       "by": "ravish0007",
       "descendants": 0,
       "id": 31796585,
@@ -79,12 +89,12 @@
       "descendants": 10,
       "id": 31796353,
       "kids": [
-        31796596,
         31796421,
+        31796596,
         31796525,
-        31796590,
-        31796555,
         31796447,
+        31796555,
+        31796590,
         31796428,
         31796457
       ],
@@ -98,29 +108,11 @@
       "by": "sandebert",
       "descendants": 0,
       "id": 31796319,
-      "score": 3,
+      "score": 4,
       "time": 1655615306,
       "title": "Apple workers vote to join union, a first for the tech giant in US",
       "type": "story",
       "url": "https://www.theguardian.com/us-news/2022/jun/19/apple-workers-vote-to-join-union-a-first-for-the-tech-giant-in-us"
-    },
-    {
-      "by": "johnwoods",
-      "descendants": 9,
-      "id": 31796311,
-      "kids": [
-        31796509,
-        31796517,
-        31796527,
-        31796510,
-        31796528,
-        31796381
-      ],
-      "score": 26,
-      "text": "It seems that several projects claim that they have built the &quot;world&#x27;s fastest key&#x2F;value store&quot; or sometimes the phrase used is even more outrageous.\nThe following projects are in question:<p>- Redis: https:&#x2F;&#x2F;github.com&#x2F;redis&#x2F;redis<p>- KeyDB: https:&#x2F;&#x2F;github.com&#x2F;snapchat&#x2F;keydb<p>- Dragonfly: https:&#x2F;&#x2F;github.com&#x2F;dragonflydb&#x2F;dragonfly<p>- Skytable: https:&#x2F;&#x2F;github.com&#x2F;skytable&#x2F;skytable<p>1. Redis:\nI&#x27;ll start with Redis which I&#x27;d like to call the &quot;original&quot; key&#x2F;value store because it is the oldest and most widely used of all. Being a long-time follower of Redis, I do know it&#x27;s single-threaded (and uses io-threads since 6.0) and hence it achieves lesser throughput than the other stores listed above which are multi-threaded, at least to some extent. The best parts about Redis: it&#x27;s the most feature complete of all the systems here, and is the oldest. (not saying old necessarily means better).<p>2. KeyDB:\nThe second is KeyDB. IIRC, I saw it in a blog post which said that it is a &quot;multithreaded fork of Redis that is 5X faster&quot;[1]. I really liked the idea because I was previously running several instances of Redis on the same node and proxying them like a &quot;single-node cluster.&quot; Why? To increase CPU utilization. A single KeyDB instance could replace the unwanted proxying funkiness, so I ditched Redis for KeyDB. Has been a fine experience so far, except for some occasional crashes.<p>3. Dragonfly:\nJust found it on HN and seems to be relatively new. Dragonfly claims that it is 25X faster (that I couldn&#x27;t reproduce) than Redis[2] and has the slogan &quot;Probably, the fastest in-memory store in the universe!&quot;. Doesn&#x27;t support all the Redis commands yet, but I find it interesting mainly because of performance. Also, it&#x27;s good to know why it is faster because it clearly outlines the underlying architecture[2]. The other three stores don&#x27;t say much about it. Will be following the project.<p>4. Skytable:\nFound it while looking for projects written in Rust. Claims to be &quot;insanely fast.&quot; Skytable&#x27;s &quot;experimental benchmarks&quot; claim that it is something around 10X faster than Redis and some 2X-3X faster than KeyDB[3]. I hadn&#x27;t heard of Skytable and it doesn&#x27;t seem to be as widely used (unless I&#x27;m missing something?). I find it interesting because of the planned features[4] and performance. Only Skytable natively runs on Windows out of the four. Will be following the project.<p>5. My thoughts:\nRedis needs no introduction and is arguably super stable for use on production systems (using widely in our systems). KeyDB seems to be &quot;stable enough&quot; and it seems to be good for prod since Snapchat uses it already[5] (and so do we!). I found no Dragonfly v&#x2F;s Skytable benchmarks.\nThe best part about Redis, KeyDB and Skytable is that they don&#x27;t make any &quot;crazy assumptions&quot; about the system they run on. What do I mean?<p>Dragonfly expects you to have the latest hardware[6] and the latest kernel[7] on all your servers. I find this outrageous because not all servers run 5.10 and a majority of them are still using long-running branches on 4.x. Also, I don&#x27;t expect them to have the latest processors, either. I&#x27;d argue if the other three stores started assuming the latest features, they&#x27;d be far faster than what they are today. Finally, both Dragonfly and Skytable are still early in their development so it may not be fair to compare their features against Redis and KeyDB who have been around for far longer. Also, all projects other than Skytable have companies behind them (unless I&#x27;m missing something).<p>Edit: I have run the benchmarks myself for each store. In the benchmark with Redis, KeyDB and Skytable (redis-benchmark, memtier and sky-bench): Redis and KeyDB benchmarks seem to be very consistent, Skytable is a little inconsistent at times. However, in the benchmark with Redis, KeyDB and Dragonfly (with memtier), I was NOT able to reproduce the 25X speed that Dragonfly claims. I ran all tests on two m5.4xlarge servers (one with the k&#x2F;v store and one with the benchmark tool).<p>What are your thoughts? Have you tried benchmarking any of them locally or in the cloud?<p>References:<p>[1]: https:&#x2F;&#x2F;docs.keydb.dev&#x2F;blog&#x2F;2019&#x2F;10&#x2F;07&#x2F;blog-post<p>[2]: https:&#x2F;&#x2F;github.com&#x2F;dragonflydb&#x2F;dragonfly<p>[3]: https:&#x2F;&#x2F;github.com&#x2F;ohsayan&#x2F;sky-benches<p>[4]: https:&#x2F;&#x2F;github.com&#x2F;skytable&#x2F;skytable&#x2F;issues&#x2F;203<p>[5]: https:&#x2F;&#x2F;docs.keydb.dev&#x2F;news&#x2F;2022&#x2F;05&#x2F;12&#x2F;keydb-joins-snap<p>[6]: https:&#x2F;&#x2F;github.com&#x2F;dragonflydb&#x2F;dragonfly&#x2F;issues&#x2F;124<p>[7]: https:&#x2F;&#x2F;github.com&#x2F;dragonflydb&#x2F;dragonfly&#x2F;issues&#x2F;96",
-      "time": 1655615107,
-      "title": "Redis v/s KeyDB v/s Dragonfly v/s Skytable. It's 5X, 10X and 25X faster",
-      "type": "story"
     }
   ]
 }
