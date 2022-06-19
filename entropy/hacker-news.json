@@ -3,8 +3,18 @@
     {
       "by": "Brajeshwar",
       "descendants": 0,
-      "id": 31796353,
+      "id": 31796356,
       "score": 1,
+      "time": 1655616075,
+      "title": "Becoming a Magician",
+      "type": "story",
+      "url": "https://autotranslucence.wordpress.com/2018/03/30/becoming-a-magician/"
+    },
+    {
+      "by": "Brajeshwar",
+      "descendants": 0,
+      "id": 31796353,
+      "score": 2,
       "time": 1655615986,
       "title": "You and Your Research",
       "type": "story",
@@ -93,16 +103,6 @@
       "title": "My unorthodox, branchless Git workflow",
       "type": "story",
       "url": "https://drewdevault.com/2020/04/06/My-weird-branchless-git-workflow.html"
-    },
-    {
-      "by": "yarg",
-      "descendants": 0,
-      "id": 31796241,
-      "score": 1,
-      "text": "A recent post (https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=31750981) shows an implementation of 2-Dimensional Voronoi diagrams, by rendering a number of cones, collapsing along the z-axis, and using the GPU&#x27;s z-culling as a de facto optimiser (it even bakes in free inter-cell anti-aliasing).<p>(This also allows weighted voronoi to be implemented simply by changing the gradient of the cones.)<p>I&#x27;m treating this as an analogue to 2-dimensional light-cones with a depth axis treated as the dimension of time. The z-axis collapse leaves everything within the domain of the first cone to intersect any given [x, y] 2-Dimensional location.<p>If we get depth culling in 4-dimensions, we can take a space [x, y, z, Ω] and treat our Ω dimension as the dimension of time (as we did for z in 2-dimensions).<p>And that would give us 3D voronois (with a lot of skipped stuff about volumetric rendering).<p>We can alter the gradients of the 4D cones, then we have weighted 3D voronois.<p>I think that this could be used for an interesting voxel experiment.",
-      "time": 1655614013,
-      "title": "Ask HN: Is 4-dimensional depth buffering feasible with modern APIs?",
-      "type": "story"
     }
   ]
 }
