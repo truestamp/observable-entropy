@@ -1,5 +1,36 @@
 {
   "stories": [
+    null,
+    {
+      "by": "hboon",
+      "descendants": 0,
+      "id": 31796249,
+      "score": 1,
+      "time": 1655614087,
+      "title": "My unorthodox, branchless Git workflow",
+      "type": "story",
+      "url": "https://drewdevault.com/2020/04/06/My-weird-branchless-git-workflow.html"
+    },
+    {
+      "by": "yarg",
+      "descendants": 0,
+      "id": 31796241,
+      "score": 1,
+      "text": "A recent post (https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=31750981) shows an implementation of 2-Dimensional Voronoi diagrams, by rendering a number of cones, collapsing along the z-axis, and using the GPU&#x27;s z-culling as a de facto optimiser (it even bakes in free inter-cell anti-aliasing).<p>(This also allows weighted voronoi to be implemented simply by changing the gradient of the cones.)<p>I&#x27;m treating this as an analogue to 2-dimensional light-cones with a depth axis treated as the dimension of time. The z-axis collapse leaves everything within the domain of the first cone to intersect any given [x, y] 2-Dimensional location.<p>If we get depth culling in 4-dimensions, we can take a space [x, y, z, Ω] and treat our Ω dimension as the dimension of time (as we did for z in 2-dimensions).<p>And that would give us 3D voronois (with a lot of skipped stuff about volumetric rendering).<p>We can alter the gradients of the 4D cones, then we have weighted 3D voronois.<p>I think that this could be used for an interesting voxel experiment.",
+      "time": 1655614013,
+      "title": "Ask HN: Is 4-dimensional depth buffering feasible with modern APIs?",
+      "type": "story"
+    },
+    {
+      "by": "lakis",
+      "descendants": 0,
+      "id": 31796239,
+      "score": 1,
+      "time": 1655613982,
+      "title": "Bitcoin mining becomes unprofitable as BTC price falls to average cost of mining",
+      "type": "story",
+      "url": "https://finbold.com/bitcoin-mining-becomes-unprofitable-as-btc-price-falls-to-the-average-cost-of-mining/"
+    },
     {
       "by": "rdpintqogeogsaa",
       "descendants": 0,
@@ -59,49 +90,6 @@
       "title": "Stay in the Game",
       "type": "story",
       "url": "https://www.albertbridgecapital.com/post/stay-in-the-game"
-    },
-    {
-      "by": "mediocregopher",
-      "descendants": 0,
-      "id": 31796090,
-      "score": 1,
-      "time": 1655611784,
-      "title": "The Message Behind the Medium of a Personal Blog",
-      "type": "story",
-      "url": "https://blog.jim-nielsen.com/2022/the-message-and-medium-of-the-personal-blog/"
-    },
-    {
-      "by": "SirLJ",
-      "descendants": 0,
-      "id": 31796055,
-      "score": 1,
-      "time": 1655611346,
-      "title": "Former Amazon employee convicted in Capital One hack",
-      "type": "story",
-      "url": "https://www.cnbc.com/2022/06/18/former-amazon-employee-convicted-in-capital-one-hack.html"
-    },
-    {
-      "by": "perczel",
-      "descendants": 0,
-      "id": 31796028,
-      "score": 2,
-      "time": 1655610967,
-      "title": "Teams working online produce fewer ideas than those collaborating in person",
-      "type": "story",
-      "url": "https://www.nature.com/articles/d41586-022-00126-2"
-    },
-    {
-      "by": "theptip",
-      "descendants": 1,
-      "id": 31796024,
-      "kids": [
-        31796059
-      ],
-      "score": 1,
-      "time": 1655610913,
-      "title": "Book Review: The Future of Fusion Energy",
-      "type": "story",
-      "url": "https://astralcodexten.substack.com/p/your-book-review-the-future-of-fusion"
     }
   ]
 }
