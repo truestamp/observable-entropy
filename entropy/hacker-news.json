@@ -1,12 +1,87 @@
 {
   "stories": [
     {
-      "by": "Egypttales",
-      "dead": true,
-      "id": 31815298,
+      "by": "navidkhn1",
+      "descendants": 0,
+      "id": 31815386,
       "score": 1,
-      "time": 1655756264,
-      "type": "story"
+      "time": 1655756614,
+      "title": "The Danger of Minimalist Design",
+      "type": "story",
+      "url": "https://twitter.com/culturaltutor/status/1538211892707086338"
+    },
+    {
+      "by": "lbrito",
+      "descendants": 0,
+      "id": 31815375,
+      "score": 1,
+      "time": 1655756577,
+      "title": "Québec Language Police",
+      "type": "story",
+      "url": "https://en.wikipedia.org/wiki/Office_qu%C3%A9b%C3%A9cois_de_la_langue_fran%C3%A7aise"
+    },
+    {
+      "by": "bookofjoe",
+      "descendants": 1,
+      "id": 31815353,
+      "kids": [
+        31815356
+      ],
+      "score": 1,
+      "time": 1655756452,
+      "title": "Why gas is so expensive in some U.S. states but not others",
+      "type": "story",
+      "url": "https://www.washingtonpost.com/business/2022/06/20/gas-prices-by-state-explained/"
+    },
+    {
+      "by": "jseliger",
+      "descendants": 0,
+      "id": 31815342,
+      "score": 1,
+      "time": 1655756419,
+      "title": "A Business Case for Dropping Parking Minimums",
+      "type": "story",
+      "url": "https://www.planning.org/planning/2022/spring/a-business-case-for-dropping-parking-minimums/"
+    },
+    {
+      "by": "gkop",
+      "descendants": 0,
+      "id": 31815340,
+      "score": 1,
+      "time": 1655756417,
+      "title": "BeWelcome: Open Your Door to the World",
+      "type": "story",
+      "url": "https://bewelcome.org/"
+    },
+    {
+      "by": "ourmandave",
+      "descendants": 0,
+      "id": 31815332,
+      "score": 2,
+      "time": 1655756390,
+      "title": "The Billion Dollar Houses Built on Sand",
+      "type": "story",
+      "url": "https://ez.substack.com/p/the-billion-dollar-houses-built-on"
+    },
+    {
+      "by": "mikece",
+      "descendants": 0,
+      "id": 31815319,
+      "score": 1,
+      "time": 1655756347,
+      "title": "The American Data Privacy and Protection Act (Adppa): What to Expect",
+      "type": "story",
+      "url": "https://venturebeat.com/2022/06/20/adppa/"
+    },
+    {
+      "by": "gbrown_",
+      "descendants": 0,
+      "id": 31815306,
+      "score": 1,
+      "time": 1655756297,
+      "title": "Duckdb 0.4.0 Preview Release “Ferruginea”",
+      "type": "story",
+      "url": "https://github.com/duckdb/duckdb/releases/tag/v0.4.0"
     },
     {
       "by": "novateg",
@@ -27,79 +102,6 @@
       "title": "AutoAnimate – Add motion to your apps with a single line of code",
       "type": "story",
       "url": "https://auto-animate.formkit.com/"
-    },
-    {
-      "by": "busfahrer",
-      "descendants": 0,
-      "id": 31815285,
-      "score": 1,
-      "time": 1655756209,
-      "title": "The Mystery of 355/113",
-      "type": "story",
-      "url": "http://davidbau.com/archives/2010/03/14/the_mystery_of_355113.html"
-    },
-    {
-      "by": "trasz",
-      "descendants": 0,
-      "id": 31815261,
-      "score": 1,
-      "time": 1655756057,
-      "title": "Trial results for the Sputnik Vaccine “not likely to be genuine”",
-      "type": "story",
-      "url": "https://twitter.com/K_Sheldrick/status/1538901545802051585"
-    },
-    {
-      "by": "richiemcilroy",
-      "descendants": 1,
-      "id": 31815194,
-      "kids": [
-        31815270
-      ],
-      "score": 3,
-      "time": 1655755800,
-      "title": "Show HN: Referral marketing for your SaaS from $0/month",
-      "type": "story",
-      "url": "https://reflio.com"
-    },
-    {
-      "by": "withinboredom",
-      "descendants": 0,
-      "id": 31815151,
-      "score": 1,
-      "text": "Earlier this week, my son was unable to purchase a new Minecraft world because (I assume) they didn&#x27;t expect a non-well-defined locale (en_NL, to be precise). The marketplace is essentially &quot;offer.category.upsell,&quot; etc, and so long it fits in exactly 0 buttons.<p>On everything I&#x27;ve ever worked on that required translations, we always wrote the original text for this exact reason where (for whatever reason), the translation failed. At one place I worked, we had an &quot;en_US&quot; to &quot;en_US&quot; translation set up to quickly change strings without requiring changing the code and breaking other translations. Where I currently work, we have a function like __fixme(&quot;not yet translated&quot;, &quot;translated&quot;) that will use the latter translation if the former isn&#x27;t translated yet, allowing us to change strings rather easily.<p>However, after looking around for a bit, I noticed that it has more-or-less become very common to use &quot;opaquish keys&quot; and then provide a translation for every language. This surprises me since AFAIK, every i18n library will default back to the key if it can&#x27;t find a language to translate to, ergo, opening yourself up to experiencing the app exactly like my son is currently experiencing Minecraft on his Switch.<p>I&#x27;m curious why devs do it using keys vs. the original text? Is there some inherent problem being solved or is it just a personal preference kind of thing?",
-      "time": 1655755663,
-      "title": "Ask HN: Why do you use ids as translation strings?",
-      "type": "story"
-    },
-    {
-      "by": "rg111",
-      "descendants": 0,
-      "id": 31815140,
-      "score": 1,
-      "time": 1655755604,
-      "title": "Infinite Descent into Pure Mathematics",
-      "type": "story",
-      "url": "https://infinitedescent.xyz/"
-    },
-    {
-      "by": "davidodio",
-      "descendants": 0,
-      "id": 31815092,
-      "score": 2,
-      "time": 1655755413,
-      "title": "Human Trash Discovered on Mars",
-      "type": "story",
-      "url": "https://www.ecowatch.com/human-trash-discovered-mars.html"
-    },
-    {
-      "by": "jmsflknr",
-      "descendants": 0,
-      "id": 31815085,
-      "score": 1,
-      "time": 1655755392,
-      "title": "Inside Facebook's $5.7B investment into Jio [tech emails]",
-      "type": "story",
-      "url": "https://twitter.com/refsrc/status/1538948431393083392"
     }
   ]
 }
