@@ -1,6 +1,36 @@
 {
   "stories": [
     {
+      "by": "rbanffy",
+      "descendants": 0,
+      "id": 31808681,
+      "score": 1,
+      "time": 1655721858,
+      "title": "Apple Captures 90% Share of Arm PC Chip Revenue: Report",
+      "type": "story",
+      "url": "https://www.tomshardware.com/news/apple-takes-90-percent-share-in-arm-pc-socs"
+    },
+    {
+      "by": "rbanffy",
+      "descendants": 0,
+      "id": 31808679,
+      "score": 1,
+      "time": 1655721851,
+      "title": "Patch Brings 30% Performance Uplift to Playstation 3 Emulator",
+      "type": "story",
+      "url": "https://www.tomshardware.com/news/ps3-emulator-avx-512-30-percent-performance-boost"
+    },
+    {
+      "by": "pseudolus",
+      "descendants": 0,
+      "id": 31808661,
+      "score": 1,
+      "time": 1655721684,
+      "title": "The Incredible Journey of Three Wild Dogs in Africa",
+      "type": "story",
+      "url": "https://www.nytimes.com/2022/06/20/science/african-wild-dogs-zambia.html"
+    },
+    {
       "by": "WillFlux",
       "descendants": 0,
       "id": 31808647,
@@ -14,7 +44,7 @@
       "by": "stealthcat",
       "descendants": 0,
       "id": 31808632,
-      "score": 1,
+      "score": 2,
       "text": "Python classes may be clunky but it is said that Python class system is more flexible than other languages&#x27; OOP, even Lisp CLOS.<p>How does Python class system actually compare to Lisp CLOS?<p>I&#x27;ve seen arguments for Python class system is the blocker for important code optimizations, AOT or JIT. Are there elaborate explanations on why we get near-machine code speed for compiled SBCL Lisp but we cannot even save the image for PyPy runs? Seems like a problem worse than GIL.",
       "time": 1655721453,
       "title": "Ask HN: How is Python's OOP is superior vs. Lisp CLOS?",
@@ -47,7 +77,7 @@
       "score": 1,
       "text": "I suspect enabling the IDFA (and asking users for permission to track) is pushed by Facebook and similar user-tracking platforms for their own benefit. At the same time, each app doesn&#x27;t have any incentives to enable IDFA and show the much hated and spooky ATT popup.<p>Here&#x27;s what I think happens: IDFA helps Facebook &quot;connect the dots&quot; and know which apps are installed on which devices. When you run FB ads for your app, Facebook looks for some good audiences using the information it has on users, including the apps already installed on their devices, where IDFA is hopefully enabled.<p>This has nothing to do with your app. So, once it finds its user and gets installed on their device, it is now used by Facebook to further improve knowledge about the given user and help other apps find their audiences, which has nothing to do with you.<p>Is my hypothesis correct?<p>Let alone, according to some stats, 60-70% of users say No to tracking anyway, which makes the whole thing even more pointless in my opinion.<p>Would be great to hear the opinions of some knowledgeable people. Thanks!",
       "time": 1655720691,
-      "title": "Ask HN: Do iOS apps benefit from enabling tracking (IDFA)?",
+      "title": "Dear app devs, you probably don't need to enable tracking/IDFA, here's why",
       "type": "story"
     },
     {
@@ -69,39 +99,6 @@
       "title": "TSMC Unveils N2 Process Node: Nanosheet-Based GAAFETs in 2025",
       "type": "story",
       "url": "https://www.anandtech.com/show/17453/tsmc-unveils-n2-nanosheets-bring-significant-benefits"
-    },
-    {
-      "by": "pmoriarty",
-      "descendants": 0,
-      "id": 31808517,
-      "score": 2,
-      "time": 1655720534,
-      "title": "runit: an init and service management scheme for Unix-like operating systems",
-      "type": "story",
-      "url": "https://en.wikipedia.org/wiki/Runit"
-    },
-    {
-      "by": "stanislavb",
-      "descendants": 0,
-      "id": 31808500,
-      "score": 1,
-      "time": 1655720360,
-      "title": "RFC 2119: Key Words for Use in RFCs to Indicate Requirement Levels",
-      "type": "story",
-      "url": "https://www.ietf.org/rfc/rfc2119.txt"
-    },
-    {
-      "by": "bilalararou",
-      "descendants": 1,
-      "id": 31808493,
-      "kids": [
-        31808529
-      ],
-      "score": 1,
-      "time": 1655720273,
-      "title": "Nuelink – A social media automation and scheduling for busy entreprenours",
-      "type": "story",
-      "url": "https://nuelink.com/"
     }
   ]
 }
