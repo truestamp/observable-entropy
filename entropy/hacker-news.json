@@ -1,6 +1,36 @@
 {
   "stories": [
     {
+      "by": "richiemcilroy",
+      "descendants": 0,
+      "id": 31815194,
+      "score": 1,
+      "time": 1655755800,
+      "title": "Show HN: Referral marketing for your SaaS from $0/month",
+      "type": "story",
+      "url": "https://reflio.com"
+    },
+    {
+      "by": "withinboredom",
+      "descendants": 0,
+      "id": 31815151,
+      "score": 1,
+      "text": "Earlier this week, my son was unable to purchase a new Minecraft world because (I assume) they didn&#x27;t expect a non-well-defined locale (en_NL, to be precise). The marketplace is essentially &quot;offer.category.upsell,&quot; etc, and so long it fits in exactly 0 buttons.<p>On everything I&#x27;ve ever worked on that required translations, we always wrote the original text for this exact reason where (for whatever reason), the translation failed. At one place I worked, we had an &quot;en_US&quot; to &quot;en_US&quot; translation set up to quickly change strings without requiring changing the code and breaking other translations. Where I currently work, we have a function like __fixme(&quot;not yet translated&quot;, &quot;translated&quot;) that will use the latter translation if the former isn&#x27;t translated yet, allowing us to change strings rather easily.<p>However, after looking around for a bit, I noticed that it has more-or-less become very common to use &quot;opaquish keys&quot; and then provide a translation for every language. This surprises me since AFAIK, every i18n library will default back to the key if it can&#x27;t find a language to translate to, ergo, opening yourself up to experiencing the app exactly like my son is currently experiencing Minecraft on his Switch.<p>I&#x27;m curious why devs do it using keys vs. the original text? Is there some inherent problem being solved or is it just a personal preference kind of thing?",
+      "time": 1655755663,
+      "title": "Ask HN: Why do you use ids as translation strings?",
+      "type": "story"
+    },
+    {
+      "by": "rg111",
+      "descendants": 0,
+      "id": 31815140,
+      "score": 1,
+      "time": 1655755604,
+      "title": "Infinite Descent into Pure Mathematics",
+      "type": "story",
+      "url": "https://infinitedescent.xyz/"
+    },
+    {
       "by": "davidodio",
       "descendants": 0,
       "id": 31815092,
@@ -16,7 +46,7 @@
       "id": 31815085,
       "score": 1,
       "time": 1655755392,
-      "title": "Facebook's $5.7B investment into Jio came together [tech emails]",
+      "title": "Inside Facebook's $5.7B investment into Jio [tech emails]",
       "type": "story",
       "url": "https://twitter.com/refsrc/status/1538948431393083392"
     },
@@ -57,7 +87,7 @@
       "by": "heavyset_go",
       "descendants": 0,
       "id": 31814936,
-      "score": 1,
+      "score": 2,
       "time": 1655754810,
       "title": "Tesla fires head of LGBT diversity lead amid Musk's 'woke mind virus' concerns",
       "type": "story",
@@ -72,36 +102,6 @@
       "title": "Unified Code for Units of Measure (UCUM)",
       "type": "story",
       "url": "https://ucum.nlm.nih.gov/"
-    },
-    {
-      "by": "ttesmer",
-      "descendants": 0,
-      "id": 31814913,
-      "score": 2,
-      "time": 1655754711,
-      "title": "Rhythm/Pitch Duality: Hear rhythm become pitch before your ears",
-      "type": "story",
-      "url": "https://dantepfer.com/blog/?p=277"
-    },
-    {
-      "by": "scns",
-      "descendants": 0,
-      "id": 31814899,
-      "score": 2,
-      "time": 1655754674,
-      "title": "The Difference Between a Dork and a Nerd. Don McMillan – Full Special",
-      "type": "story",
-      "url": "https://www.youtube.com/watch?v=kwz-Md6OoyA"
-    },
-    {
-      "by": "geox",
-      "descendants": 0,
-      "id": 31814890,
-      "score": 1,
-      "time": 1655754639,
-      "title": "Plant-Based Food Wrap Designed to Replace Plastic",
-      "type": "story",
-      "url": "https://www.rutgers.edu/news/rutgers-scientist-develops-antimicrobial-plant-based-food-wrap-designed-replace-plastic"
     }
   ]
 }
