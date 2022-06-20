@@ -1,6 +1,76 @@
 {
   "stories": [
     {
+      "by": "carpintech",
+      "descendants": 0,
+      "id": 31814944,
+      "score": 1,
+      "time": 1655754831,
+      "title": "Air taxis in Los Angeles by 2028?",
+      "type": "story",
+      "url": "https://www.latimes.com/california/story/2022-06-19/air-taxi-los-angeles-2028-olympics"
+    },
+    {
+      "by": "heavyset_go",
+      "descendants": 0,
+      "id": 31814936,
+      "score": 1,
+      "time": 1655754810,
+      "title": "Tesla fires head of LGBT diversity lead amid Musk's 'woke mind virus' concerns",
+      "type": "story",
+      "url": "https://electrek.co/2022/06/20/tesla-lay-off-head-lgbtq-diversity-elon-musk-woke-mind-virus/"
+    },
+    {
+      "by": "quercusa",
+      "descendants": 0,
+      "id": 31814926,
+      "score": 1,
+      "time": 1655754772,
+      "title": "Unified Code for Units of Measure (UCUM)",
+      "type": "story",
+      "url": "https://ucum.nlm.nih.gov/"
+    },
+    {
+      "by": "ttesmer",
+      "descendants": 0,
+      "id": 31814913,
+      "score": 1,
+      "time": 1655754711,
+      "title": "Rhythm/Pitch Duality: Hear rhythm become pitch before your ears",
+      "type": "story",
+      "url": "https://dantepfer.com/blog/?p=277"
+    },
+    {
+      "by": "scns",
+      "descendants": 0,
+      "id": 31814899,
+      "score": 2,
+      "time": 1655754674,
+      "title": "The Difference Between a Dork and a Nerd. Don McMillan – Full Special",
+      "type": "story",
+      "url": "https://www.youtube.com/watch?v=kwz-Md6OoyA"
+    },
+    {
+      "by": "geox",
+      "descendants": 0,
+      "id": 31814890,
+      "score": 1,
+      "time": 1655754639,
+      "title": "Plant-Based Food Wrap Designed to Replace Plastic",
+      "type": "story",
+      "url": "https://www.rutgers.edu/news/rutgers-scientist-develops-antimicrobial-plant-based-food-wrap-designed-replace-plastic"
+    },
+    {
+      "by": "prostoalex",
+      "descendants": 0,
+      "id": 31814889,
+      "score": 1,
+      "time": 1655754632,
+      "title": "Why Is Wine (Almost) Always Made from Grapes?",
+      "type": "story",
+      "url": "https://www.atlasobscura.com/articles/why-is-wine-made-from-grapes"
+    },
+    {
       "by": "samizdis",
       "descendants": 0,
       "id": 31814865,
@@ -24,85 +94,11 @@
       "by": "vkdelta",
       "descendants": 0,
       "id": 31814830,
-      "score": 1,
+      "score": 2,
       "time": 1655754406,
       "title": "‘President of Seiko’ Strategy for Receiving Good Service",
       "type": "story",
       "url": "https://RandomNeuronsFiring.com/president-of-seiko-strategy-for-receiving-good-service/"
-    },
-    {
-      "by": "bookofjoe",
-      "descendants": 1,
-      "id": 31814812,
-      "kids": [
-        31814820
-      ],
-      "score": 1,
-      "time": 1655754301,
-      "title": "Tesla Cars Won’t Be Allowed Near China Leadership Meeting",
-      "type": "story",
-      "url": "https://www.barrons.com/articles/tesla-ban-cameras-spying-china-51655734609"
-    },
-    {
-      "by": "vtashkov_oblon",
-      "descendants": 0,
-      "id": 31814808,
-      "score": 1,
-      "text": "Oblon is a web server that gives you the capabilities to store and retrieve any (valid) JSON data, using the standard REST API (see below). You can imagine Oblon to be one big JSON file that you can manipulate partially or at once. It doesn&#x27;t have a schema and it can change its structure on the fly. All the data is persisted using a single SQLite database.<p>You can think of Oblon as local Firebase database (the original one) that is stored in SQLite (which makes it easy to backup, restore, administering, etc.<p>The easiest way to play with it is to use the docker image:<p>docker pull ghcr.io&#x2F;vtashkov&#x2F;oblon:latest\ndocker run -p 80:80 -v $(pwd)&#x2F;data:&#x2F;data -it --rm ghcr.io&#x2F;vtashkov&#x2F;oblon:latest<p>From there on, you can use the standard REST http methods to store and retrieve data:<p>GET\nYou can retrieve any part of the stored JSON by doing GET request on the particular url. If the data doesn&#x27;t exist, Oblon will return 404.<p>GET <a href=\"http:&#x2F;&#x2F;localhost&#x2F;\" rel=\"nofollow\">http:&#x2F;&#x2F;localhost&#x2F;</a> - will return ALL the data stored in Oblon as one JSON document<p>GET <a href=\"http:&#x2F;&#x2F;localhost&#x2F;key1\" rel=\"nofollow\">http:&#x2F;&#x2F;localhost&#x2F;key1</a> - will return the value of the key1 field of the stored JSON (if exists).<p>If we have the following JSON stored in Oblon: { &quot;key1&quot;: [ &quot;first value in key1 array&quot;, &quot;second value in key1 array&quot;, &quot;third value in key1 array&quot; ], }<p>you can retrieve a particular value in the array like that:<p><a href=\"http:&#x2F;&#x2F;localhost&#x2F;key1&#x2F;2\" rel=\"nofollow\">http:&#x2F;&#x2F;localhost&#x2F;key1&#x2F;2</a> - will return &quot;second value in key1 array&quot;.<p>Note that arrays&#x27; index start from 1.<p>The GET request url can be as complex as you need, you are not restricted at one level of hierarchy in the JSON document like in this examples.<p>PUT\nYou can store any valid JSON in Oblon doing PUT request on a particular url with a body containing the JSON data. If the field (or any of its parents) does not exist, it will be created. If it exists, it will be entirely replaced (but nothing in the parents will be changed) PUT requests in Oblon does not return anything in they response body (with the exception of error messages).<p>PUT <a href=\"http:&#x2F;&#x2F;localhost&#x2F;\" rel=\"nofollow\">http:&#x2F;&#x2F;localhost&#x2F;</a> - will replace all the current data in Oblon with the one you provide in the request body<p>PUT <a href=\"http:&#x2F;&#x2F;localhost&#x2F;key1\" rel=\"nofollow\">http:&#x2F;&#x2F;localhost&#x2F;key1</a> - will replace (or create) the data in key1 field of the root JSON document with the one you provide in the request body<p>PUT <a href=\"http:&#x2F;&#x2F;localhost&#x2F;key1&#x2F;key2&#x2F;key3\" rel=\"nofollow\">http:&#x2F;&#x2F;localhost&#x2F;key1&#x2F;key2&#x2F;key3</a> - will put all the provided JSON in the reponse body in the field named key3 of the document which is a value of the field key2 of the document which is a value of the field key1 of the root document. Again, it will replace any data under key3 field.<p>In the this example, if we have an empty database and the body of the PUT request is simple test value, then the resulting structure will be:<p>{ &quot;key1&quot;: { &quot;key2&quot;: { &quot;key3&quot;: &quot;test value&quot; } } }<p>Note, that while you can PUT any (valid) JSON array in Oblon, you cannot expand it in any way in the current version. If you have PUT an array with 3 values and you try to PUT directly 4th element on it, this will corrupt the array. That is work in progress problem for now, along with other array-related functionalities.<p>DELETE\nYou can remove any stored JSON in Oblon doing DELETE request on a particular url. This is an equivalent of doing PUT request with null body.<p>PUT <a href=\"http:&#x2F;&#x2F;localhost&#x2F;\" rel=\"nofollow\">http:&#x2F;&#x2F;localhost&#x2F;</a> - will delete all stored data in Oblon<p>PUT <a href=\"http:&#x2F;&#x2F;localhost&#x2F;key1\" rel=\"nofollow\">http:&#x2F;&#x2F;localhost&#x2F;key1</a> - will delete the data in key1 field of the root JSON document<p>This is very early version, more like proof-of-concept. I would be very grateful if you provide me with any feedback, requests that will make Oblon useful for you and anything about it.\nThis is of course version for evaluation purposes only. In the future, if it proves itself worthy,  my plans are to make it free for any development purposes and only ask for commercial license if it goes to commercial production.<p>Feel free to ask any questions or give any comments to me: vtashkov(at)gmail.com",
-      "time": 1655754277,
-      "title": "Show HN: Oblon – universal REST API server",
-      "type": "story",
-      "url": "https://github.com/vtashkov/oblon/pkgs/container/oblon"
-    },
-    {
-      "by": "mfiguiere",
-      "descendants": 0,
-      "id": 31814804,
-      "score": 2,
-      "time": 1655754245,
-      "title": "Transparent memory offloading: more memory at a fraction of the cost and power",
-      "type": "story",
-      "url": "https://engineering.fb.com/2022/06/20/data-infrastructure/transparent-memory-offloading-more-memory-at-a-fraction-of-the-cost-and-power/"
-    },
-    {
-      "by": "taubek",
-      "descendants": 0,
-      "id": 31814801,
-      "score": 1,
-      "time": 1655754240,
-      "title": "The origin: why Porsche announced an SUV in 1998",
-      "type": "story",
-      "url": "https://newsroom.porsche.com/en/2022/products/porsche-cayenne-anniversary-20-years-success-story-origin-28744.html"
-    },
-    {
-      "by": "master-12",
-      "descendants": 0,
-      "id": 31814800,
-      "score": 1,
-      "time": 1655754233,
-      "title": "Why nuclear weapons aren't getting bigger",
-      "type": "story",
-      "url": "https://dynomight.net/bigger-nukes/"
-    },
-    {
-      "by": "treve",
-      "descendants": 0,
-      "id": 31814784,
-      "score": 5,
-      "time": 1655754174,
-      "title": "Show HN: A new OAuth2 library for JavaScript",
-      "type": "story",
-      "url": "https://evertpot.com/oauth2-javascript-client/"
-    },
-    {
-      "by": "adrian_mrd",
-      "descendants": 0,
-      "id": 31814775,
-      "score": 1,
-      "time": 1655754106,
-      "title": "Nanoparticles that control flow of light could mean faster and cheaper internet",
-      "type": "story",
-      "url": "https://www.abc.net.au/news/science/2022-06-21/nanoparticles-that-control-flow-of-light-for-faster-internet/101166750"
     }
   ]
 }
