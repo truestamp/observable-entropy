@@ -1,6 +1,96 @@
 {
   "stories": [
     {
+      "by": "uncertainquark",
+      "descendants": 0,
+      "id": 31825465,
+      "score": 1,
+      "time": 1655827188,
+      "title": "How do planets get rings?",
+      "type": "story",
+      "url": "https://www.planetary.org/articles/how-do-planets-get-rings"
+    },
+    {
+      "by": "hsnewman",
+      "descendants": 0,
+      "id": 31825452,
+      "score": 1,
+      "time": 1655827135,
+      "title": "AI Detects Autism Speech Patterns Across Different Languages",
+      "type": "story",
+      "url": "https://neurosciencenews.com/ai-asd-language-20867/"
+    },
+    {
+      "by": "marban",
+      "descendants": 0,
+      "id": 31825447,
+      "score": 1,
+      "time": 1655827127,
+      "title": "Meta to roll out new monetization tools on Instagram and Facebook",
+      "type": "story",
+      "url": "https://techcrunch.com/2022/06/21/meta-new-monetization-tools-on-instagram-facebook-creator-marketplace/"
+    },
+    {
+      "by": "tbassetto",
+      "descendants": 0,
+      "id": 31825439,
+      "score": 1,
+      "time": 1655827096,
+      "title": "Date and Time Pickers for All",
+      "type": "story",
+      "url": "https://react-spectrum.adobe.com/blog/date-and-time-pickers-for-all.html"
+    },
+    {
+      "by": "Brajeshwar",
+      "descendants": 0,
+      "id": 31825430,
+      "score": 1,
+      "time": 1655827076,
+      "title": "Comet Interceptor will be parked in space waiting to ambush comets",
+      "type": "story",
+      "url": "https://www.nature.com/articles/d41586-022-01696-x"
+    },
+    {
+      "by": "mmazzarolo",
+      "descendants": 0,
+      "id": 31825425,
+      "score": 2,
+      "time": 1655827049,
+      "title": "How to declutter Google's search results page",
+      "type": "story",
+      "url": "https://mmazzarolo.com/blog/2022-06-19-making-google-search-less-annoying/"
+    },
+    {
+      "by": "Brajeshwar",
+      "descendants": 0,
+      "id": 31825415,
+      "score": 1,
+      "time": 1655827011,
+      "title": "The Journey of Three African Wild Dogs",
+      "type": "story",
+      "url": "https://www.nytimes.com/2022/06/20/science/african-wild-dogs-zambia.html"
+    },
+    {
+      "by": "mmiliauskas",
+      "descendants": 0,
+      "id": 31825403,
+      "score": 1,
+      "time": 1655826960,
+      "title": "The Uncertain Side of Econometrics",
+      "type": "story",
+      "url": "https://martynasm.com/economics/2022/06/20/uncertain-side-of-econometrics.html"
+    },
+    {
+      "by": "pizza",
+      "descendants": 0,
+      "id": 31825401,
+      "score": 1,
+      "time": 1655826956,
+      "title": "Microsoft may have patented rANS compression for DirectX BCn texture compression",
+      "type": "story",
+      "url": "https://encode.su/threads/3863-RANS-Microsoft-wins-data-encoding-patent?p=74588&viewfull=1#post74588"
+    },
+    {
       "by": "pavelegorkin",
       "descendants": 0,
       "id": 31825386,
@@ -9,102 +99,6 @@
       "title": "Tether. A tool for collecting and aggregating feedback on web pages",
       "type": "story",
       "url": "https://www.tethered.dev/"
-    },
-    {
-      "by": "bookofjoe",
-      "descendants": 0,
-      "id": 31825365,
-      "score": 2,
-      "time": 1655826786,
-      "title": "10-sec 1-leg stance duration predicts survival in middle-aged/older individuals",
-      "type": "story",
-      "url": "https://bjsm.bmj.com/content/early/2022/05/15/bjsports-2021-105360"
-    },
-    {
-      "by": "grzm",
-      "descendants": 0,
-      "id": 31825355,
-      "score": 1,
-      "time": 1655826736,
-      "title": "Create a blog with Clojure, nbb, and MarkDoc",
-      "type": "story",
-      "url": "https://www.alexandercarls.de/markdoc-nbb-clojure/"
-    },
-    {
-      "by": "LinuxBender",
-      "descendants": 0,
-      "id": 31825348,
-      "score": 1,
-      "time": 1655826701,
-      "title": "Wildfire in southern New Jersey grows to about 12,000 acres",
-      "type": "story",
-      "url": "https://lite.cnn.com/en/article/h_9f9ea73c1d532ea3b07555a52d584615"
-    },
-    {
-      "by": "cosmicbboy",
-      "descendants": 1,
-      "id": 31825328,
-      "kids": [
-        31825364
-      ],
-      "score": 3,
-      "text": "Hi HN!<p>https:&#x2F;&#x2F;github.com&#x2F;unionai-oss&#x2F;unionml<p>Niels here. I&#x27;m the creator of <i>UnionML</i> https:&#x2F;&#x2F;github.com&#x2F;unionai-oss&#x2F;unionml, a Python MLOps framework that removes the boilerplate and friction associated with building and deploying machine learning systems to production.<p>I&#x27;ve been training and deploying models for almost a decade now, and one pain-point I&#x27;ve consistently had is managing the complexity of building and maintaining an ML stack that works for the entire model development lifecycle - from prototyping to production.<p>UnionML is built on top of Flyte (https:&#x2F;&#x2F;www.flyte.org) and exposes a functional interface for defining the building blocks of your ML application via decorators -- think Flask or FastAPI method endpoints -- and UnionML takes care of bundling them into microservices for different use cases such as:<p>- model training<p>- batch prediction<p>- online prediction<p>- (more coming soon!)<p>This project aims to unify the rich ecosystem of data, ML, and MLOps tools that have emerged over the last decade or so (e.g. MLFlow, Sagemaker, Spark, etc.) to provide a nice UX for model developers, in both individual and team settings.<p>It&#x27;s very early days for this project, so if you&#x27;re interested in getting involved or learning more, you can go to the:<p>- Docs: https:&#x2F;&#x2F;unionml.readthedocs.io&#x2F;en&#x2F;latest&#x2F;<p>- Repo: https:&#x2F;&#x2F;github.com&#x2F;unionai-oss&#x2F;unionml<p>- Slack: https:&#x2F;&#x2F;flyte-org.slack.com&#x2F;archives&#x2F;C03JL38L65V",
-      "time": 1655826629,
-      "title": "Show HN: UnionML – a Python framework for building ML microservices",
-      "type": "story"
-    },
-    {
-      "by": "latchkey",
-      "descendants": 1,
-      "id": 31825317,
-      "kids": [
-        31825325
-      ],
-      "score": 1,
-      "time": 1655826568,
-      "title": "DocuSign CEO Dan Springer steps down",
-      "type": "story",
-      "url": "https://www.cnbc.com/2022/06/21/docusign-ceo-dan-springer-steps-down.html"
-    },
-    {
-      "by": "blakewatson",
-      "descendants": 0,
-      "id": 31825312,
-      "score": 1,
-      "time": 1655826546,
-      "title": "Show HN: My personal DIY bookmarks app to replace Pinboard",
-      "type": "story",
-      "url": "https://github.com/blakewatson/bookmarks"
-    },
-    {
-      "by": "ghuntley",
-      "descendants": 0,
-      "id": 31825309,
-      "score": 2,
-      "time": 1655826532,
-      "title": "Securing Gitpod's Software Supply Chain with SLSA",
-      "type": "story",
-      "url": "https://www.gitpod.io/blog/securing-the-software-supply-chain-at-gitpod-with-slsa"
-    },
-    {
-      "by": "atroxone",
-      "descendants": 0,
-      "id": 31825306,
-      "score": 4,
-      "time": 1655826521,
-      "title": "Changelog website generator on top of Notion",
-      "type": "story",
-      "url": "https://notaku.website/product/changelog"
-    },
-    {
-      "by": "rbanffy",
-      "descendants": 0,
-      "id": 31825305,
-      "score": 1,
-      "time": 1655826520,
-      "title": "Europe’s major new rocket, the Ariane 6, is delayed again",
-      "type": "story",
-      "url": "https://arstechnica.com/science/2022/06/europes-major-new-rocket-the-ariane-6-is-delayed-again/"
     }
   ]
 }
