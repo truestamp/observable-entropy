@@ -1,10 +1,53 @@
 {
   "stories": [
     {
+      "by": "Anon84",
+      "descendants": 0,
+      "id": 31822788,
+      "score": 1,
+      "time": 1655811887,
+      "title": "Researchers Can Duplicate Keys from the Sounds They Make in Locks",
+      "type": "story",
+      "url": "https://kottke.org/20/08/researchers-can-duplicate-keys-from-the-sounds-they-make-in-locks"
+    },
+    {
+      "by": "mmaunder",
+      "descendants": 0,
+      "id": 31822780,
+      "score": 1,
+      "time": 1655811831,
+      "title": "You can now buy MITMd traffic for 19% of the Web for just $13.44B",
+      "type": "story",
+      "url": "https://twitter.com/mmaunder/status/1539208444099497984"
+    },
+    {
+      "by": "jbegley",
+      "descendants": 1,
+      "id": 31822751,
+      "kids": [
+        31822765
+      ],
+      "score": 1,
+      "time": 1655811615,
+      "title": "China’s Surveillance State Is Growing Bigger and More Invasive",
+      "type": "story",
+      "url": "https://www.nytimes.com/video/world/asia/100000008314175/china-government-surveillance-data.html"
+    },
+    {
+      "by": "MaltePB",
+      "descendants": 0,
+      "id": 31822739,
+      "score": 1,
+      "time": 1655811493,
+      "title": "Show HN: Eternal – An All-in-One Wellness and Mindfulness App",
+      "type": "story",
+      "url": "https://www.tryeternal.app/"
+    },
+    {
       "by": "floriankuwala",
       "descendants": 0,
       "id": 31822713,
-      "score": 1,
+      "score": 2,
       "text": "location data providers are often in the press with negative headlines. Those services aggregate movement data from apps and aggregate the data to derive movement patterns which might be helpful for marketers. In fact, I had two moments in my life where I evaluated a PoC with those location data brokers.<p>They were all shady about where the data comes from which is important to understand the Bias of the data. I never got a good answer.<p>The data often just represented &lt; 0.4% of the population (at least in Europe - different game in the USA). For a big city they might have 20K unique users while in the city were more than 3M users living.<p>They dismiss any professional data analytics principle. The data comes in CSV (if a lot of data they give you like 10 separate files). Data was not always plausible in itself<p>Those experiences brought me to build certain parts of those data brokers but only with open-source data:<p>If it is about location data you should know OpenStreetMap. It&#x27;s the biggest Database with meta info on location. It&#x27;s not perfect but big companies like Mapbox, Apple, and Microsoft rely on it. Since the API is kind of messy, you can load with this repository whole cities information smoothly into a PostGres \n--&gt; https:&#x2F;&#x2F;github.com&#x2F;kuwala-io&#x2F;kuwala&#x2F;blob&#x2F;master&#x2F;kuwala&#x2F;pipelines&#x2F;osm-poi&#x2F;README.md<p>Googe Popular Times: Movement data can be also found on Google. When you search a location it is often shown how frequently a place was visited on an hourly-daily basis (on an index of 0-100). With this libary you can access all the Popular Times data for location and entire cities \n--&gt; https:&#x2F;&#x2F;github.com&#x2F;kuwala-io&#x2F;kuwala&#x2F;blob&#x2F;master&#x2F;kuwala&#x2F;pipelines&#x2F;google-poi&#x2F;README.md<p>Global Admin Boundaries: A huge problem that often people feel when working with location data is aggregating the data into different geo-based slices (country level, admin level, or even smaller into sub-districts). Here is a repo that cleaned the data out of Open Street Map for geo boundaries worldwide from very broad to a very small granularity \n--&gt; https:&#x2F;&#x2F;github.com&#x2F;kuwala-io&#x2F;kuwala&#x2F;blob&#x2F;master&#x2F;kuwala&#x2F;pipelines&#x2F;admin-boundaries&#x2F;README.md<p>I think with those Open Source Tools and some data science magic you can generate similar outcomes as those location data providers but totally anonymized and free. Would be awesome if anybody is interested in building a case around it :-)",
       "time": 1655811311,
       "title": "Show HN: Free Datasets for Spatial Engineers and Location Analysts",
@@ -59,46 +102,6 @@
       "title": "The Most Powerful PC of 1977: Best of the Best [video]",
       "type": "story",
       "url": "https://www.youtube.com/watch?v=zEZR8LLNbi0"
-    },
-    {
-      "by": "bambax",
-      "descendants": 0,
-      "id": 31822685,
-      "score": 1,
-      "time": 1655811031,
-      "title": "Image to GitHub Calendar",
-      "type": "story",
-      "url": "https://github.com/ZachSaucier/github-calendar-customizer"
-    },
-    {
-      "by": "todsacerdoti",
-      "descendants": 0,
-      "id": 31822683,
-      "score": 1,
-      "time": 1655811014,
-      "title": "Don’t Mock What You Don’t Own",
-      "type": "story",
-      "url": "https://hynek.me/articles/what-to-mock-in-5-mins/"
-    },
-    {
-      "by": "jfbx",
-      "descendants": 0,
-      "id": 31822675,
-      "score": 1,
-      "time": 1655810901,
-      "title": "All your SPF includes are belong to us",
-      "type": "story",
-      "url": "https://improsec.com/tech-blog/arebelongtous"
-    },
-    {
-      "by": "groar",
-      "descendants": 0,
-      "id": 31822671,
-      "score": 1,
-      "time": 1655810893,
-      "title": "Reconstructing Training Data from Trained Neural Networks",
-      "type": "story",
-      "url": "https://arxiv.org/abs/2206.07758"
     }
   ]
 }
