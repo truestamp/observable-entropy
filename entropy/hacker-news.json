@@ -1,110 +1,104 @@
 {
   "stories": [
     {
-      "by": "brethil",
+      "by": "floriankuwala",
       "descendants": 0,
-      "id": 31822653,
+      "id": 31822713,
       "score": 1,
-      "text": "After delaying Android 12 kernel source code release for 6+ months, OnePlus released the source with missing touchscreen, camera and audio drivers (https:&#x2F;&#x2F;github.com&#x2F;OnePlusOSS&#x2F;android_vendor_qcom_opensource_audio_kernel_sm8250&#x2F;issues&#x2F;1) meaning that OnePlus is still violating the  GPL License",
-      "time": 1655810688,
-      "title": "OnePlus GPL Violation Update",
+      "text": "location data providers are often in the press with negative headlines. Those services aggregate movement data from apps and aggregate the data to derive movement patterns which might be helpful for marketers. In fact, I had two moments in my life where I evaluated a PoC with those location data brokers.<p>They were all shady about where the data comes from which is important to understand the Bias of the data. I never got a good answer.<p>The data often just represented &lt; 0.4% of the population (at least in Europe - different game in the USA). For a big city they might have 20K unique users while in the city were more than 3M users living.<p>They dismiss any professional data analytics principle. The data comes in CSV (if a lot of data they give you like 10 separate files). Data was not always plausible in itself<p>Those experiences brought me to build certain parts of those data brokers but only with open-source data:<p>If it is about location data you should know OpenStreetMap. It&#x27;s the biggest Database with meta info on location. It&#x27;s not perfect but big companies like Mapbox, Apple, and Microsoft rely on it. Since the API is kind of messy, you can load with this repository whole cities information smoothly into a PostGres \n--&gt; https:&#x2F;&#x2F;github.com&#x2F;kuwala-io&#x2F;kuwala&#x2F;blob&#x2F;master&#x2F;kuwala&#x2F;pipelines&#x2F;osm-poi&#x2F;README.md<p>Googe Popular Times: Movement data can be also found on Google. When you search a location it is often shown how frequently a place was visited on an hourly-daily basis (on an index of 0-100). With this libary you can access all the Popular Times data for location and entire cities \n--&gt; https:&#x2F;&#x2F;github.com&#x2F;kuwala-io&#x2F;kuwala&#x2F;blob&#x2F;master&#x2F;kuwala&#x2F;pipelines&#x2F;google-poi&#x2F;README.md<p>Global Admin Boundaries: A huge problem that often people feel when working with location data is aggregating the data into different geo-based slices (country level, admin level, or even smaller into sub-districts). Here is a repo that cleaned the data out of Open Street Map for geo boundaries worldwide from very broad to a very small granularity \n--&gt; https:&#x2F;&#x2F;github.com&#x2F;kuwala-io&#x2F;kuwala&#x2F;blob&#x2F;master&#x2F;kuwala&#x2F;pipelines&#x2F;admin-boundaries&#x2F;README.md<p>I think with those Open Source Tools and some data science magic you can generate similar outcomes as those location data providers but totally anonymized and free. Would be awesome if anybody is interested in building a case around it :-)",
+      "time": 1655811311,
+      "title": "Show HN: Free Datasets for Spatial Engineers and Location Analysts",
       "type": "story"
     },
     {
-      "by": "butterNaN",
+      "by": "smitop",
       "descendants": 0,
-      "id": 31822649,
+      "id": 31822707,
       "score": 1,
-      "text": "In almost all real-world instances - From individuals making personal decisions, to inter-governmental groups - whenever one is to try inferring meaning from data, Average seems to be the &#x27;natural&#x27; metric of choice. To me, a lot of them could be using Median for better decision-making, but that seems to be no one&#x27;s first choice.<p>From a sociological point of view, what is that?<p>A few points on why I feel Average is the dominant statistic (and counter-points):<p>* Median requires one to keep an indexed, sorted list. Average can be computed without needing order. _- This seems to be only a positive in computational sense, not real-world-decision-making sense. Governments can wait extra 10 minutes to calculate Median income instead of Average income._<p>* Average is simple for the Human Brain to make sense of",
-      "time": 1655810670,
-      "title": "Ask HN: Why is the metric Median less popular than Average?",
-      "type": "story"
+      "time": 1655811253,
+      "title": "HTML markup Google Sheets adds to the clipboard",
+      "type": "story",
+      "url": "https://smitop.com/post/docs-html/"
     },
     {
-      "by": "starsep",
+      "by": "fhars",
       "descendants": 0,
-      "id": 31822641,
+      "id": 31822700,
       "score": 1,
-      "time": 1655810599,
-      "title": "Leaked 'chat control' document: Will Germany fight for privacy?",
+      "time": 1655811125,
+      "title": "Prehistoric Planet created scientifically accurate dinosaurs",
       "type": "story",
-      "url": "https://tutanota.com/blog/posts/will-germany-fight-for-privacy/"
+      "url": "https://www.youtube.com/watch?v=l113tj52TN8"
     },
     {
-      "by": "hassanahmad",
+      "by": "freemint",
       "descendants": 0,
-      "id": 31822637,
+      "id": 31822699,
       "score": 1,
-      "time": 1655810534,
-      "title": "Cloudflare outage hit crypto exchanges FTX, Bitfinex and more",
+      "time": 1655811120,
+      "title": "Half Earth Socialism – The Book",
       "type": "story",
-      "url": "https://techcrunch.com/2022/06/21/cloudflare-outage-crypto-exchanges/"
+      "url": "https://www.versobooks.com/books/3818-half-earth-socialism"
     },
     {
-      "by": "exz",
+      "by": "freemint",
       "descendants": 0,
-      "id": 31822631,
+      "id": 31822691,
       "score": 1,
-      "time": 1655810497,
-      "title": "Tencent Starts Metaverse Unit Focused on Extended Reality Hardware",
+      "time": 1655811087,
+      "title": "Half Earth Socialism – The Game",
       "type": "story",
-      "url": "https://www.thegamer.com/tencent-metaverse-extended-reality/"
+      "url": "https://play.half.earth/"
     },
     {
-      "by": "p3ob7o",
+      "by": "petercooper",
       "descendants": 0,
-      "id": 31822630,
-      "score": 2,
-      "time": 1655810489,
-      "title": "Time Management",
-      "type": "story",
-      "url": "https://paolo.blog/time-management/"
-    },
-    {
-      "by": "ozanyurtsever",
-      "descendants": 1,
-      "id": 31822619,
-      "kids": [
-        31822620
-      ],
+      "id": 31822687,
       "score": 1,
-      "time": 1655810401,
-      "title": "Rich Text Editor for React",
+      "time": 1655811060,
+      "title": "The Most Powerful PC of 1977: Best of the Best [video]",
       "type": "story",
-      "url": "https://github.com/ozanyurtsever/verbum"
+      "url": "https://www.youtube.com/watch?v=zEZR8LLNbi0"
     },
     {
-      "by": "feross",
+      "by": "bambax",
       "descendants": 0,
-      "id": 31822607,
+      "id": 31822685,
       "score": 1,
-      "time": 1655810309,
-      "title": "The Guide to Jitisi Meet and JaaS",
+      "time": 1655811031,
+      "title": "Image to GitHub Calendar",
       "type": "story",
-      "url": "https://webrtchacks.com/the-ultimate-guide-to-jitisi-meet-and-jaas/"
+      "url": "https://github.com/ZachSaucier/github-calendar-customizer"
     },
     {
-      "by": "the-mitr",
+      "by": "todsacerdoti",
       "descendants": 0,
-      "id": 31822597,
+      "id": 31822683,
       "score": 1,
-      "time": 1655810205,
-      "title": "Wheel Made of ‘Odd Matter’ Spontaneously Rolls Uphill",
+      "time": 1655811014,
+      "title": "Don’t Mock What You Don’t Own",
       "type": "story",
-      "url": "https://www.quantamagazine.org/wheel-made-of-odd-matter-spontaneously-rolls-uphill-20220615/"
+      "url": "https://hynek.me/articles/what-to-mock-in-5-mins/"
     },
     {
-      "by": "amitmina",
-      "descendants": 1,
-      "id": 31822587,
-      "kids": [
-        31822588
-      ],
-      "score": 2,
-      "time": 1655810043,
-      "title": "The Psychology of not wanting to know [pdf]",
+      "by": "jfbx",
+      "descendants": 0,
+      "id": 31822675,
+      "score": 1,
+      "time": 1655810901,
+      "title": "All your SPF includes are belong to us",
       "type": "story",
-      "url": "https://www.apa.org/pubs/journals/releases/rev-rev0000055.pdf"
+      "url": "https://improsec.com/tech-blog/arebelongtous"
+    },
+    {
+      "by": "groar",
+      "descendants": 0,
+      "id": 31822671,
+      "score": 1,
+      "time": 1655810893,
+      "title": "Reconstructing Training Data from Trained Neural Networks",
+      "type": "story",
+      "url": "https://arxiv.org/abs/2206.07758"
     }
   ]
 }
