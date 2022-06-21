@@ -1,6 +1,96 @@
 {
   "stories": [
     {
+      "by": "RickJWagner",
+      "descendants": 0,
+      "id": 31822818,
+      "score": 1,
+      "time": 1655812222,
+      "title": "Unleashing State Attorneys General Is the Wrong Way to Punish 'Big Tech'",
+      "type": "story",
+      "url": "https://www.realclearmarkets.com/articles/2022/06/21/unleashing_state_attorneys_general_is_the_wrong_way_to_punish_big_tech_838272.html"
+    },
+    {
+      "by": "todsacerdoti",
+      "descendants": 0,
+      "id": 31822817,
+      "score": 1,
+      "time": 1655812219,
+      "title": "Been There, Done That",
+      "type": "story",
+      "url": "https://ane.iki.fi/2022/06/21/beenthere-donethat.html"
+    },
+    {
+      "by": "RickJWagner",
+      "descendants": 0,
+      "id": 31822811,
+      "score": 1,
+      "time": 1655812187,
+      "title": "8 Rock stars who are rockin' their way into their 80s",
+      "type": "story",
+      "url": "https://www.foxnews.com/entertainment/8-rock-stars-rocking-80s"
+    },
+    {
+      "by": "rntn",
+      "descendants": 0,
+      "id": 31822809,
+      "score": 1,
+      "time": 1655812146,
+      "title": "Russia warns NATO-member Lithuania over Kaliningrad transit",
+      "type": "story",
+      "url": "https://www.reuters.com/world/europe/russia-warns-nato-member-lithuania-over-kaliningrad-transit-2022-06-20/"
+    },
+    {
+      "by": "rntn",
+      "descendants": 0,
+      "id": 31822807,
+      "score": 1,
+      "time": 1655812121,
+      "title": "Computer vision technique to enhance 3D understanding of 2D images",
+      "type": "story",
+      "url": "https://techxplore.com/news/2022-06-vision-technique-3d-2d-images.html"
+    },
+    {
+      "by": "rntn",
+      "descendants": 0,
+      "id": 31822803,
+      "score": 1,
+      "time": 1655812094,
+      "title": "Modern phoenix: The bird brought back from extinction in Japan",
+      "type": "story",
+      "url": "https://phys.org/news/2022-06-modern-phoenix-bird-brought-extinction.html"
+    },
+    {
+      "by": "rntn",
+      "descendants": 0,
+      "id": 31822801,
+      "score": 1,
+      "time": 1655812070,
+      "title": "Linux Foundation thinks it can get you interested in smartNICs",
+      "type": "story",
+      "url": "https://www.theregister.com/2022/06/21/linux_foundation_smartnic/"
+    },
+    {
+      "by": "memorable",
+      "descendants": 0,
+      "id": 31822800,
+      "score": 1,
+      "time": 1655812068,
+      "title": "A widely believed history myth: No, “true” Damascus steel is not a “lost art”",
+      "type": "story",
+      "url": "https://libredd.it/r/history/comments/vdvtrh/a_widely_believed_history_myth_no_true_damascus/"
+    },
+    {
+      "by": "belkinsismyname",
+      "descendants": 0,
+      "id": 31822794,
+      "score": 2,
+      "time": 1655811962,
+      "title": "How to balance a business with full-time job",
+      "type": "story",
+      "url": "https://www.linkedin.com/pulse/recap-2-ama-session-michael-maximoff-"
+    },
+    {
       "by": "Anon84",
       "descendants": 0,
       "id": 31822788,
@@ -9,99 +99,6 @@
       "title": "Researchers Can Duplicate Keys from the Sounds They Make in Locks",
       "type": "story",
       "url": "https://kottke.org/20/08/researchers-can-duplicate-keys-from-the-sounds-they-make-in-locks"
-    },
-    {
-      "by": "mmaunder",
-      "descendants": 0,
-      "id": 31822780,
-      "score": 1,
-      "time": 1655811831,
-      "title": "You can now buy MITMd traffic for 19% of the Web for just $13.44B",
-      "type": "story",
-      "url": "https://twitter.com/mmaunder/status/1539208444099497984"
-    },
-    {
-      "by": "jbegley",
-      "descendants": 1,
-      "id": 31822751,
-      "kids": [
-        31822765
-      ],
-      "score": 1,
-      "time": 1655811615,
-      "title": "China’s Surveillance State Is Growing Bigger and More Invasive",
-      "type": "story",
-      "url": "https://www.nytimes.com/video/world/asia/100000008314175/china-government-surveillance-data.html"
-    },
-    {
-      "by": "MaltePB",
-      "descendants": 0,
-      "id": 31822739,
-      "score": 1,
-      "time": 1655811493,
-      "title": "Show HN: Eternal – An All-in-One Wellness and Mindfulness App",
-      "type": "story",
-      "url": "https://www.tryeternal.app/"
-    },
-    {
-      "by": "floriankuwala",
-      "descendants": 0,
-      "id": 31822713,
-      "score": 2,
-      "text": "location data providers are often in the press with negative headlines. Those services aggregate movement data from apps and aggregate the data to derive movement patterns which might be helpful for marketers. In fact, I had two moments in my life where I evaluated a PoC with those location data brokers.<p>They were all shady about where the data comes from which is important to understand the Bias of the data. I never got a good answer.<p>The data often just represented &lt; 0.4% of the population (at least in Europe - different game in the USA). For a big city they might have 20K unique users while in the city were more than 3M users living.<p>They dismiss any professional data analytics principle. The data comes in CSV (if a lot of data they give you like 10 separate files). Data was not always plausible in itself<p>Those experiences brought me to build certain parts of those data brokers but only with open-source data:<p>If it is about location data you should know OpenStreetMap. It&#x27;s the biggest Database with meta info on location. It&#x27;s not perfect but big companies like Mapbox, Apple, and Microsoft rely on it. Since the API is kind of messy, you can load with this repository whole cities information smoothly into a PostGres \n--&gt; https:&#x2F;&#x2F;github.com&#x2F;kuwala-io&#x2F;kuwala&#x2F;blob&#x2F;master&#x2F;kuwala&#x2F;pipelines&#x2F;osm-poi&#x2F;README.md<p>Googe Popular Times: Movement data can be also found on Google. When you search a location it is often shown how frequently a place was visited on an hourly-daily basis (on an index of 0-100). With this libary you can access all the Popular Times data for location and entire cities \n--&gt; https:&#x2F;&#x2F;github.com&#x2F;kuwala-io&#x2F;kuwala&#x2F;blob&#x2F;master&#x2F;kuwala&#x2F;pipelines&#x2F;google-poi&#x2F;README.md<p>Global Admin Boundaries: A huge problem that often people feel when working with location data is aggregating the data into different geo-based slices (country level, admin level, or even smaller into sub-districts). Here is a repo that cleaned the data out of Open Street Map for geo boundaries worldwide from very broad to a very small granularity \n--&gt; https:&#x2F;&#x2F;github.com&#x2F;kuwala-io&#x2F;kuwala&#x2F;blob&#x2F;master&#x2F;kuwala&#x2F;pipelines&#x2F;admin-boundaries&#x2F;README.md<p>I think with those Open Source Tools and some data science magic you can generate similar outcomes as those location data providers but totally anonymized and free. Would be awesome if anybody is interested in building a case around it :-)",
-      "time": 1655811311,
-      "title": "Show HN: Free Datasets for Spatial Engineers and Location Analysts",
-      "type": "story"
-    },
-    {
-      "by": "smitop",
-      "descendants": 0,
-      "id": 31822707,
-      "score": 1,
-      "time": 1655811253,
-      "title": "HTML markup Google Sheets adds to the clipboard",
-      "type": "story",
-      "url": "https://smitop.com/post/docs-html/"
-    },
-    {
-      "by": "fhars",
-      "descendants": 0,
-      "id": 31822700,
-      "score": 1,
-      "time": 1655811125,
-      "title": "Prehistoric Planet created scientifically accurate dinosaurs",
-      "type": "story",
-      "url": "https://www.youtube.com/watch?v=l113tj52TN8"
-    },
-    {
-      "by": "freemint",
-      "descendants": 0,
-      "id": 31822699,
-      "score": 1,
-      "time": 1655811120,
-      "title": "Half Earth Socialism – The Book",
-      "type": "story",
-      "url": "https://www.versobooks.com/books/3818-half-earth-socialism"
-    },
-    {
-      "by": "freemint",
-      "descendants": 0,
-      "id": 31822691,
-      "score": 1,
-      "time": 1655811087,
-      "title": "Half Earth Socialism – The Game",
-      "type": "story",
-      "url": "https://play.half.earth/"
-    },
-    {
-      "by": "petercooper",
-      "descendants": 0,
-      "id": 31822687,
-      "score": 1,
-      "time": 1655811060,
-      "title": "The Most Powerful PC of 1977: Best of the Best [video]",
-      "type": "story",
-      "url": "https://www.youtube.com/watch?v=zEZR8LLNbi0"
     }
   ]
 }
