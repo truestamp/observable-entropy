@@ -1,10 +1,33 @@
 {
   "stories": [
     {
-      "by": "GoRudy",
+      "by": "agomez314",
       "descendants": 0,
-      "id": 31840904,
+      "id": 31841016,
       "score": 1,
+      "time": 1655927572,
+      "title": "Disrupted by SpaceX, ULA was in ‘serious trouble.’ Now it’s on the road back",
+      "type": "story",
+      "url": "https://www.washingtonpost.com/technology/2022/06/22/ula-boeing-lockheed-martin-tory-bruno/"
+    },
+    {
+      "by": "harias",
+      "descendants": 0,
+      "id": 31841011,
+      "score": 1,
+      "time": 1655927550,
+      "title": "Why cameras are soon going to be everywhere",
+      "type": "story",
+      "url": "https://petewarden.com/2022/06/15/why-cameras-are-soon-going-to-be-everywhere/"
+    },
+    {
+      "by": "GoRudy",
+      "descendants": 1,
+      "id": 31840904,
+      "kids": [
+        31841034
+      ],
+      "score": 2,
       "time": 1655927009,
       "title": "CBDCs, Not Crypto, Will Be Cornerstone of Future Monetary System, BIS Says",
       "type": "story",
@@ -34,7 +57,7 @@
       "by": "rntn",
       "descendants": 0,
       "id": 31840884,
-      "score": 1,
+      "score": 2,
       "time": 1655926919,
       "title": "A miserable work week spent toiling inside 'the metaverse'",
       "type": "story",
@@ -79,26 +102,6 @@
       "title": "Getting started with the X12 file format",
       "type": "story",
       "url": "https://www.stedi.com/blog/getting-started-with-the-x12-file-format"
-    },
-    {
-      "by": "gbourne",
-      "descendants": 0,
-      "id": 31840844,
-      "score": 1,
-      "time": 1655926778,
-      "title": "Twitter Notes: Long Form Essays Up to 2,500 Words and Edits",
-      "type": "story",
-      "url": "https://www.ayrshare.com/twitter-notes-long-form-essays/"
-    },
-    {
-      "by": "mah4k4l",
-      "descendants": 0,
-      "id": 31840822,
-      "score": 1,
-      "text": "An idea for an entropy - based cryptographic system (a bit sketchy but I hope it communicates the idea, sorry about the messy layout)<p>-true white entropy: True Random Number Generator by for example recording audio silence (analog background entropy) and then whitening it for example with the correct character frequency of Linux &#x2F;dev&#x2F;urandom or such multiple times --&gt;\n character frequency - wise whitened true entropy dataset. Even character distribution of for example urandom stays correct once added to the mix no matter how much the true entropy factor is increased by multiple one time pad - re - encodings and it doesn&#x27;t matter whether the Pseudo Random Number Genrator (like urandom) used to this is compromised or not.<p>-the initial exchange of such true entropy key datasets via physical contact or physical post or couriers or such (or a trusted bitbucket or such online).<p>-the tanking of the secret over the Net model is based on a prime number series expansion system.\n  * prime number series expansion system with prime number serieses of bytes 0-255 based on the shared secret (the physically (or such) shared true entropy key datasets):\n    #initial lenght: 8 =A:100, 101, 102, B:50, 51, 52, 53, 54\n     expanded   100, 101, 102, 100, 101, 102, \n 100, 101, 102, 100, 101, 102, 100, 101, 102\n                 50,  51,  52,  53,  54,  50,  51,  52,  53,  54,  50,  51,  52,  53,  54\n     lenght: 15=150, 152, 154, 153, 155, 152, 151, 153, 155, 154, 151, 153, 152, 154, 156, which is non - repeating and\n     without a pattern\n  * the packed material has to be randomised over the dataset by rules of the software uniform by both sides based on the entropy datasets shared in common (the initial secret)\n  * the packed material has to be minimal (like maybe even 1%) to paranoidly avoid the cryptanalysis of even the most sophisticated quantum computing supremacies by the means of prime number factorization for the reason of the odds becoming astronomical for cryptanalysis. Therefore in the &#x27;tanking&#x27; phase you use 99k of the secret shared true entropy datasets to send 100k of the new shared true entropy datasets with a gain of 1k of the shared secret by means of the prime number series expansion packing. After the tanking you can use the true entropy secret thus gained to communicate in full forward secrecy by true entropy one time pads between the participants.<p>Is this model mathematically correct? If so, why not go and do it y&#x27;all for all I care. ...But please call it Noise Crypto :-)",
-      "time": 1655926668,
-      "title": "An idea for an entropy – based cryprographic system",
-      "type": "story"
     }
   ]
 }
