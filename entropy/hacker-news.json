@@ -1,95 +1,107 @@
 {
   "stories": [
-    null,
     {
-      "by": "deesep",
+      "by": "capableweb",
       "descendants": 0,
-      "id": 31838397,
-      "score": 2,
-      "time": 1655916252,
-      "title": "What you eat can reprogram your genes",
+      "id": 31838479,
+      "score": 1,
+      "time": 1655916559,
+      "title": "Packt Twitter Account Takeover (@Packtpub Twitter hacked)",
       "type": "story",
-      "url": "https://bigthink.com/health/nutrigenomics/"
+      "url": "https://hub.packtpub.com/twitter-account-takeover/"
     },
     {
-      "by": "LinuxBender",
+      "by": "extra_rice",
       "descendants": 0,
-      "id": 31838388,
+      "id": 31838476,
       "score": 1,
-      "time": 1655916225,
-      "title": "National Surveillance Camera Rollout Roils Privacy Activists",
-      "type": "story",
-      "url": "https://threatpost.com/camera-roll-out-roils-privacy-activists/164502/"
+      "text": "I&#x27;ve run in to this interesting question multiple times mostly during systems design interviews, but I&#x27;m never quite sure what&#x27;s the &quot;best&quot; way to address this since I&#x27;ve not encountered it in any of my real world projects, unfortunately. This is usually in the context of high demand items such as limited time promotional vouchers, concert tickets, limited stock items, etc. that customers will for sure be rushing to buy, and will sell out in a relatively short period of time.<p>My naive solution to this is to basically count the number of reservations made (basically, do something like an SQL count of all the rows) and subtract it from some constant limit, which can be safely copied across multiple instances of the reservation&#x2F;ticketing service. However, for millions of rows, this may be potentially slow and having to do this for thousands of requests per second could be fairly inefficient. Adding some caching in front of a (probably sharded&#x2F;distributed) database might help, but due to the numbers being updated very quickly, I&#x27;m not sure the cache will help that much.<p>One alternative I can think of is maybe setup a lightweight(?) store (something like Redis perhaps, though I don&#x27;t have first hand experience with it) to keep track of the count. This will introduce problems related to eventual consistency, but I think it could work. This can be durable store, or we can make it semi-durable and just do a count query if we ever need to restore the service. I always ask if it&#x27;s possible for us to handle overbooking because there&#x27;s a chance this could occur. Strong consistency guarantees will prevent this, but at the cost of slower performance.<p>Another alternative I can think of is adding a sequence number to the reservation records, and query the max instead. I&#x27;m not sure if this performs better than count or they&#x27;re pretty similar in performance.<p>Any insights or pointers on this?",
+      "time": 1655916548,
+      "title": "Ask HN: How do I efficiently track record count for big (distributed) DBs?",
+      "type": "story"
     },
     {
-      "by": "simonebrunozzi",
+      "by": "RemoteIsHeaven",
       "descendants": 0,
-      "id": 31838378,
+      "id": 31838472,
       "score": 1,
-      "time": 1655916209,
-      "title": "Chautauqua",
-      "type": "story",
-      "url": "https://en.wikipedia.org/wiki/Chautauqua"
+      "text": "Does competency in writing in a natural language correlate to competency in a programming language?<p>I am wondering if there&#x27;s opportunity in training english&#x2F;french, anthropology, history, art majors who have demonstrated competency in writing in a natural language that have overlap in vocabulary and structure with programming languages?<p>Or is competency in writing in a natural language orthogonal to competency in a programming language?",
+      "time": 1655916529,
+      "title": "Ask HN: Competency in natural language correlates to competency in programming?",
+      "type": "story"
     },
     {
-      "by": "crqra",
+      "by": "O__________O",
       "descendants": 0,
-      "id": 31838371,
+      "id": 31838462,
       "score": 1,
-      "time": 1655916191,
-      "title": "Reposaur – open-source compliance tool for development platforms",
+      "time": 1655916487,
+      "title": "Same Energy (visual search engine)",
       "type": "story",
-      "url": "https://github.com/reposaur/reposaur"
+      "url": "https://same.energy"
     },
     {
-      "by": "zdw",
+      "by": "melony",
       "descendants": 0,
-      "id": 31838368,
+      "id": 31838447,
       "score": 1,
-      "time": 1655916181,
-      "title": "The Keys to the Kingdom",
+      "time": 1655916431,
+      "title": "Java is now running on 58billion devices",
       "type": "story",
-      "url": "https://cacm.acm.org/magazines/2022/7/262078-the-keys-to-the-kingdom/fulltext"
+      "url": "https://dev.java/"
     },
     {
-      "by": "metadat",
+      "by": "feross",
       "descendants": 0,
-      "id": 31838345,
+      "id": 31838446,
       "score": 1,
-      "time": 1655916121,
-      "title": "Grumpy is a Python to Go source code transcompiler and runtime",
+      "time": 1655916426,
+      "title": "One in every 13 incidents blamed on API insecurity – report",
       "type": "story",
-      "url": "https://github.com/google/grumpy"
+      "url": "https://portswigger.net/daily-swig/one-in-every-13-incidents-blamed-on-api-insecurity-report"
     },
     {
-      "by": "tpetry",
+      "by": "Topolomancer",
       "descendants": 0,
-      "id": 31838322,
+      "id": 31838435,
       "score": 1,
-      "time": 1655916032,
-      "title": "Sorted Tables for Faster Range-Scans",
+      "time": 1655916399,
+      "title": "The Machine Learning Scientist as Toolsmith: An Homage to Fred Brooks",
       "type": "story",
-      "url": "https://sqlfordevs.io/sorted-table-faster-range-scan"
+      "url": "https://bastian.rieck.me/blog/posts/2022/toolsmith/"
     },
     {
-      "by": "SuDa2103",
+      "by": "RemoteIsHeaven",
       "descendants": 0,
-      "id": 31838303,
+      "id": 31838433,
       "score": 1,
-      "time": 1655915976,
-      "title": "The Four Horsemen of the Crypto-Pocalypse",
-      "type": "story",
-      "url": "https://www.newbiescrypto.com/p/four-horsemen-cryptopocalypse"
+      "text": "Is there an Android alarm clock app that can be managed over a REST&#x2F;HTTP API?<p>I would like to CRUD alarms on my Android phones over a REST&#x2F;HTTP API.\nEven better would be if I could set a note&#x2F;reason for why the alarm exists.<p>I am a developer but never written an Android&#x2F;mobile app before - if there&#x27;s existing code out there that can be modified to fit this requirement, I would definitely check that out.<p>TIA.",
+      "time": 1655916386,
+      "title": "Ask HN: Android alarm clock app that can be managed over a REST/HTTP API?",
+      "type": "story"
     },
     {
-      "by": "jonpon",
+      "by": "colejohnson66",
       "descendants": 0,
-      "id": 31838298,
+      "id": 31838429,
+      "kids": [
+        31838471
+      ],
       "score": 1,
-      "time": 1655915966,
-      "title": "Getting Around API Rate Limits Easily with Magniv",
+      "time": 1655916377,
+      "title": "Microsoft Killed My Pappy",
       "type": "story",
-      "url": "https://docs.magniv.io/tutorials/github-scraper"
+      "url": "https://www.hanselman.com/blog/microsoft-killed-my-pappy"
+    },
+    {
+      "by": "i13e",
+      "descendants": 0,
+      "id": 31838425,
+      "score": 1,
+      "time": 1655916353,
+      "title": "Hong Kong's Iconic Floating Restaurant Sinks at Sea",
+      "type": "story",
+      "url": "https://www.cnn.com/travel/article/hong-kong-jumbo-restaurant-sink-intl-hnk/index.html"
     }
   ]
 }
