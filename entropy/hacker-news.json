@@ -1,6 +1,76 @@
 {
   "stories": [
     {
+      "by": "segudev",
+      "descendants": 0,
+      "id": 31837321,
+      "score": 1,
+      "time": 1655911739,
+      "title": "Lavarand",
+      "type": "story",
+      "url": "https://en.wikipedia.org/wiki/Lavarand"
+    },
+    {
+      "by": "ROSEADENENFT",
+      "descendants": 0,
+      "id": 31837311,
+      "score": 1,
+      "text": "ADENE is the ultimate, fully decentralized peer to peer gambling platform.\nAdene believe that P2P will take the power from the centralized gambling entities like the private casinos and transfer it to the community to prevent rigged practices like freezing winning funds or manipulating the odds in the games.<p>#Adeneunique #Gamblingplatform #Adenenftslotmachine #Adenevision",
+      "time": 1655911707,
+      "title": "Adene – Peer to Peer Gambling Platform NFT Technology Application",
+      "type": "story"
+    },
+    {
+      "by": "hichkaker",
+      "descendants": 0,
+      "id": 31837307,
+      "score": 4,
+      "text": "Gleb, Alex, Erez and Simon here – we are building an open-source tool for comparing data within and across databases at any scale. The repo is at https:&#x2F;&#x2F;github.com&#x2F;datafold&#x2F;data-diff, and our home page is https:&#x2F;&#x2F;datafold.com&#x2F;.<p>As a company, Datafold builds tools for data engineers to automate the most tedious and error-prone tasks falling through the cracks of the modern data stack, such as data testing and lineage. We launched two years ago with a tool for regression-testing changes to ETL code https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=24071955. It compares the produced data before and after the code change and shows the impact on values, aggregate metrics, and downstream data applications.<p>While working with many customers on improving their data engineering experience, we kept hearing that they needed to diff their data across databases to validate data replication between systems.<p>There were 3 main use cases for such replication:<p>* To perform analytics on transactional data in an OLAP engine (e.g. PostgreSQL &gt; Snowflake)\n* To migrate between transactional stores (e.g. MySQL &gt; PostgreSQL)\n* To leverage data in a specialized engine (e.g. PostgreSQL &gt; ElasticSearch).<p>Despite multiple vendors (e.g., Fivetran, Stitch) and open-source products (Airbyte, Debezium) solving data replication, there was no tooling for validating the correctness of such replication. When we researched how teams were going about this, we found that most have been either:<p>Running manual checks: e.g., starting with COUNT(<i>) and then digging into the discrepancies, which often took hours to pinpoint the inconsistencies.\nUsing distributed MPP engines such as Spark or Trino to download the complete datasets from both databases and then comparing them in memory – an expensive process requiring complex infrastructure.<p>Our users wanted a tool that could:<p></i> Compare datasets quickly (seconds&#x2F;minutes) at a large (millions&#x2F;billions of rows) scale across different databases.\n* Have minimal network IO and database workload overhead.\n* Provide straightforward output: basic stats and what rows are different.\n* Be embedded into a data orchestrator such as Airflow to run right after the replication process.<p>So we built Data Diff as an open-source package available through pip. Data Diff can be run in a CLI or wrapped into any data orchestrator such as Airflow, Dagster, etc.<p>To solve for speed at scale with minimal overhead, Data Diff relies on checksumming the data in both databases and uses binary search to identify diverging records. That way, it can compare arbitrarily large datasets in logarithmic time and IO – only transferring a tiny fraction of the data over the network. For example, it can diff tables with 25M rows in ~10s and 1B+ rows in ~5m across two physically separate PostgreSQL databases while running on a typical laptop.<p>We&#x27;ve launched this tool under the MIT license so that any developer can use it, and to encourage contributions of other database connectors. We didn&#x27;t want to charge engineers for such a fundamental use case. We make money by charging a license fee for advanced solutions such as column-level data lineage, CI workflow automation, and ML-powered alerts.",
+      "time": 1655911684,
+      "title": "Show HN: Data Diff – compare tables of any size across databases",
+      "type": "story"
+    },
+    {
+      "by": "cheeseblubber",
+      "descendants": 0,
+      "id": 31837298,
+      "score": 1,
+      "time": 1655911614,
+      "title": "How we built a SIMD JIT compiler for SQL in QuestDB",
+      "type": "story",
+      "url": "https://questdb.io/blog/2022/01/12/jit-sql-compiler/"
+    },
+    {
+      "by": "peter_d_sherman",
+      "descendants": 0,
+      "id": 31837283,
+      "score": 1,
+      "time": 1655911570,
+      "title": "A Low Cost RF Impedance Analyzer",
+      "type": "story",
+      "url": "https://www.nutsvolts.com/magazine/article/a_low_cost_rf_impedance_analyzer"
+    },
+    {
+      "by": "grasper",
+      "descendants": 0,
+      "id": 31837278,
+      "score": 1,
+      "time": 1655911548,
+      "title": "Show HN: ReflectOps – I built tool for retrospectives",
+      "type": "story",
+      "url": "https://reflectops.com"
+    },
+    {
+      "by": "jer0me",
+      "descendants": 0,
+      "id": 31837277,
+      "score": 1,
+      "time": 1655911539,
+      "title": "Build Unhosted Apps with RemoteStorage",
+      "type": "story",
+      "url": "https://remotestorage.io/"
+    },
+    {
       "by": "webmaven",
       "descendants": 0,
       "id": 31837256,
@@ -24,87 +94,11 @@
       "by": "thunderbong",
       "descendants": 0,
       "id": 31837200,
-      "score": 3,
+      "score": 4,
       "time": 1655911221,
       "title": "Microsoft stops selling emotion-reading tech, limits face recognition",
       "type": "story",
       "url": "https://www.reuters.com/technology/microsoft-stops-selling-emotion-reading-tech-limits-face-recognition-2022-06-21/"
-    },
-    {
-      "by": "ra7",
-      "descendants": 0,
-      "id": 31837186,
-      "score": 1,
-      "time": 1655911162,
-      "title": "Why Mercedes-Benz runs on 900 Kubernetes clusters",
-      "type": "story",
-      "url": "https://www.infoworld.com/article/3664052/why-mercedes-benz-runs-on-900-kubernetes-clusters.html"
-    },
-    {
-      "by": "SkyMarshal",
-      "descendants": 0,
-      "id": 31837147,
-      "score": 2,
-      "time": 1655910986,
-      "title": "Did Russian industrial malware blow up a Texas LNG pipeline June 8?",
-      "type": "story",
-      "url": "https://www.washingtonexaminer.com/opinion/did-russian-hackers-blow-up-a-texas-lng-pipeline"
-    },
-    {
-      "by": "zhy9495",
-      "descendants": 0,
-      "id": 31837138,
-      "score": 2,
-      "time": 1655910948,
-      "title": "The Definition of Knowledge and Its Management",
-      "type": "story",
-      "url": "https://help.flomo.app/mindset/the-definition-of-knowledge-and-its-management"
-    },
-    {
-      "by": "gentele",
-      "descendants": 1,
-      "id": 31837134,
-      "kids": [
-        31837269
-      ],
-      "score": 8,
-      "time": 1655910932,
-      "title": "Virtual Kubernetes Clusters Can Speed Up Your Local Development",
-      "type": "story",
-      "url": "https://loft.sh/blog/vcluster-for-local-development/"
-    },
-    {
-      "by": "LinuxBender",
-      "descendants": 0,
-      "id": 31837132,
-      "score": 3,
-      "time": 1655910924,
-      "title": "DARPA study challenges assumptions about distributed ledger security",
-      "type": "story",
-      "url": "https://www.theregister.com/2022/06/22/research_challenges_assumptions_about_distributed/"
-    },
-    {
-      "by": "michaellio",
-      "descendants": 0,
-      "id": 31837130,
-      "score": 4,
-      "time": 1655910919,
-      "title": "UniformCSS: Fast Generator for Sass",
-      "type": "story",
-      "url": "https://uniformcss.com"
-    },
-    {
-      "by": "fromwhence",
-      "descendants": 1,
-      "id": 31837122,
-      "kids": [
-        31837228
-      ],
-      "score": 1,
-      "text": "I started a new role at a company about six months ago. At the time that I joined the company, an equity&#x2F;stock option plan was not in place, but was told it would be imminent. I didn&#x27;t accept less salary in exchange for a vague promise of equity, but still fully expected that the details would be worked out soon and felt confident that the details of the equity grant, once it became available, would be satisfactory.<p>It has now been six months and due to various factors that have to do with the structure of the company (not a typical VC-backed co), the equity plan still hasn&#x27;t been rolled out, and the exec team is unable to give me any timeline on when it will go into effect...other than to assure me that they&#x27;re doing everything they can to make it happen as soon as possible.<p>I don&#x27;t think I have any legal recourse since this was effectively a handshake deal upon joining, but wondering what you&#x27;d do if you were in my shoes? What are my options here? Do I go to the CEO and threaten to leave if an equity plan isn&#x27;t in place within the next 30 days? Ask for more base compensation since there effectively isn&#x27;t an equity plan in place which was part of the full package we initially agreed upon?<p>Appreciate any advice&#x2F;feedback you might have. Thanks in advance.",
-      "time": 1655910895,
-      "title": "Ask HN: Company promised equity, still no plan. What can I do?",
-      "type": "story"
     }
   ]
 }
