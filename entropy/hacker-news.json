@@ -1,6 +1,76 @@
 {
   "stories": [
     {
+      "by": "rbanffy",
+      "descendants": 0,
+      "id": 31856073,
+      "score": 1,
+      "time": 1656024604,
+      "title": "Appreciating Python's match-case by parsing Python code – Python Morsels",
+      "type": "story",
+      "url": "https://www.pythonmorsels.com/match-case-parsing-python/"
+    },
+    {
+      "by": "rbanffy",
+      "descendants": 0,
+      "id": 31856067,
+      "score": 1,
+      "time": 1656024581,
+      "title": "The Django CMS fellowship program",
+      "type": "story",
+      "url": "https://www.django-cms.org/en/blog/2022/06/11/we-present-you-the-our-fellowship-program-apply-now/"
+    },
+    {
+      "by": "rbanffy",
+      "descendants": 0,
+      "id": 31856064,
+      "score": 1,
+      "time": 1656024562,
+      "title": "Anaconda Acquires PythonAnywhere to Expand Python Team",
+      "type": "story",
+      "url": "https://www.anaconda.com/press/anaconda-acquires-pythonanywhere"
+    },
+    {
+      "by": "rbanffy",
+      "descendants": 0,
+      "id": 31856059,
+      "score": 1,
+      "time": 1656024522,
+      "title": "OpenSSF Funds Python and Eclipse Foundations and Acquires SOS.dev",
+      "type": "story",
+      "url": "https://openssf.org/blog/2022/06/20/openssf-funds-python-and-eclipse-foundations-and-acquires-sos-dev-through-alpha-omega-project/"
+    },
+    {
+      "by": "pheyisayor",
+      "descendants": 0,
+      "id": 31856046,
+      "score": 1,
+      "time": 1656024472,
+      "title": "Samsung Australia was fined $9.7M for making misleading water-resistance claims",
+      "type": "story",
+      "url": "https://newsotg.com/2022/06/23/europe/samsung-australia-was-fined-9-7-million-for-making-misleading-water-resistance-claims/"
+    },
+    {
+      "by": "kaffeeringe",
+      "descendants": 0,
+      "id": 31856031,
+      "score": 1,
+      "text": "Everybody is currently playing around with this image creation tool. I am afraid, it eats a lot of energy. Does anybody know how much?",
+      "time": 1656024405,
+      "title": "DALL-E Mini: How much energy does it consume?",
+      "type": "story"
+    },
+    {
+      "by": "sohkamyung",
+      "descendants": 0,
+      "id": 31856029,
+      "score": 1,
+      "time": 1656024381,
+      "title": "Dueling over Dual_EC_DRGB: Consequences of Corrupting a Standardization Process",
+      "type": "story",
+      "url": "https://harvardnsj.org/2022/06/dueling-over-dual_ec_drgb-the-consequences-of-corrupting-a-cryptographic-standardization-process/"
+    },
+    {
       "by": "nixass",
       "descendants": 0,
       "id": 31856016,
@@ -29,76 +99,6 @@
       "title": "eBPF-based sensor for endpoint security released under the GPLv2 license",
       "type": "story",
       "url": "https://trapmine.com/blog/trapmine-releases-open-source-linux-code/"
-    },
-    {
-      "by": "clouddrover",
-      "descendants": 0,
-      "id": 31855993,
-      "score": 1,
-      "time": 1656024107,
-      "title": "VISION EQXX breaks own efficiency record",
-      "type": "story",
-      "url": "https://group.mercedes-benz.com/innovation/product-innovation/technology/vision-eqxx-efficiency-record-england.html"
-    },
-    {
-      "by": "dzonga",
-      "descendants": 0,
-      "id": 31855976,
-      "score": 1,
-      "text": "Mind you my rent has been paid via web work the past 4&#x2F;5ish years. I&#x27;m your average Joe Schlomo - the JS slinger.<p>However, it has dawned upon me - do we really need web browsers. yeah they abstract a lot of things and make things compatible between different computers.<p>But if we take a step back - browsers simply display text, play videos + other shit (which could be made native). [majority of the time]<p>if the majority of the time, we&#x27;re displaying text on the web - why not curl then pipe the returned text stream to our favorite text reader&#x2F; editor. Then if I have notes, I wanna make on the page - I can simply edit and save a local copy. Thereby skipping the 30 million + lines of code shipped with Chrome&#x2F;Firefox.<p>To me it seems really inefficient that we&#x27;ve millions of code lines sitting between passing two text files between 2 computers. Hell even videos&#x2F;audio.",
-      "time": 1656024011,
-      "title": "Ask HN: Do we need Web Browsers?",
-      "type": "story"
-    },
-    {
-      "by": "mooreds",
-      "descendants": 0,
-      "id": 31855965,
-      "score": 1,
-      "time": 1656023946,
-      "title": "EKYC Hub Implements the EKYC OIDC Specification OIDC for Identity Assurance 1.0",
-      "type": "story",
-      "url": "https://github.com/identityfirst/eKYC-Hub"
-    },
-    {
-      "by": "chmaynard",
-      "descendants": 0,
-      "id": 31855923,
-      "score": 2,
-      "time": 1656023666,
-      "title": "Why the web is turning away from WordPress",
-      "type": "story",
-      "url": "https://cloudcannon.com/blog/why-the-web-is-turning-away-from-wordpress/"
-    },
-    {
-      "by": "polyrand",
-      "descendants": 0,
-      "id": 31855922,
-      "score": 1,
-      "text": "Hi! As a big fan of SQLite, I always found the tooling to explore remote databases a bit lacking. Current solutions involve running an extra service in the remote host and exposing a port to access it. I built a small web app that can explore remote SQLite databases without having to run any service on the remote, you just need SSH.<p>It works by sending sqlite3 CLI commands over a multiplexed SSH connection. The commands use the &quot;-json&quot; flag from the sqlite3 CLI. This basically turns the SSH connection into an JSON API for the remote SQLite database. The project is hosted on GitHub[0] and I wrote a blog post with more details about the project and how it works[1].<p>I&#x27;m still exploring multiple ideas and implementations details, but feedback is more than welcome.<p>[0]: https:&#x2F;&#x2F;ricardoanderegg.com&#x2F;posts&#x2F;sqlite-remote-explorer-gui&#x2F;<p>[1]: https:&#x2F;&#x2F;github.com&#x2F;litements&#x2F;litexplore",
-      "time": 1656023656,
-      "title": "Show HN: Explore remote SQLite databases over SSH",
-      "type": "story"
-    },
-    {
-      "by": "dlcmh",
-      "descendants": 0,
-      "id": 31855918,
-      "score": 1,
-      "time": 1656023628,
-      "title": "Shanghai and Shenzhen stock exchanges lead in financing scale for H1 2022",
-      "type": "story",
-      "url": "https://www.globaltimes.cn/page/202206/1268833.shtml"
-    },
-    {
-      "by": "colinprince",
-      "descendants": 0,
-      "id": 31855916,
-      "score": 1,
-      "time": 1656023615,
-      "title": "Data and Definitions",
-      "type": "story",
-      "url": "https://stratechery.com/2022/data-and-definitions/"
     }
   ]
 }
