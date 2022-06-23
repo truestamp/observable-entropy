@@ -1,6 +1,92 @@
 {
   "stories": [
     {
+      "by": "kjhughes",
+      "descendants": 0,
+      "id": 31852991,
+      "score": 1,
+      "time": 1656007785,
+      "title": "Yelp CEO shutters some offices, says hybrid work is “hell”",
+      "type": "story",
+      "url": "https://www.washingtonpost.com/technology/2022/06/22/yelp-shutters-offices/"
+    },
+    {
+      "by": "anonx64",
+      "descendants": 0,
+      "id": 31852973,
+      "score": 1,
+      "time": 1656007727,
+      "title": "How Uber Halved Their Go Monorepo CI Build Time",
+      "type": "story",
+      "url": "https://eng.uber.com/how-we-halved-go-monorepo-ci-build-time/"
+    },
+    {
+      "by": "akrymski",
+      "descendants": 0,
+      "id": 31852968,
+      "score": 1,
+      "text": "Do most people prefer native mobile apps to websites these days?<p>Is this also the case on desktop (and I don&#x27;t mean electron)?",
+      "time": 1656007706,
+      "title": "Ask HN: Native mobile app or web app?",
+      "type": "story"
+    },
+    {
+      "by": "hsnewman",
+      "descendants": 0,
+      "id": 31852966,
+      "score": 1,
+      "time": 1656007697,
+      "title": "Theoretical calculations predicted now-confirmed tetraneutron",
+      "type": "story",
+      "url": "https://phys.org/news/2022-06-theoretical-now-confirmed-tetraneutron-exotic-state.html"
+    },
+    {
+      "by": "jseliger",
+      "descendants": 0,
+      "id": 31852952,
+      "score": 1,
+      "time": 1656007606,
+      "title": "California Finds Tech Hub Competitors in Miami, Austin",
+      "type": "story",
+      "url": "https://reason.com/2022/06/23/californias-competitors/"
+    },
+    {
+      "by": "anigbrowl",
+      "descendants": 1,
+      "id": 31852945,
+      "kids": [
+        31852992
+      ],
+      "score": 3,
+      "time": 1656007556,
+      "title": "Twitter launches newsletter tool, Revue",
+      "type": "story",
+      "url": "https://www.getrevue.co/"
+    },
+    {
+      "by": "anigbrowl",
+      "descendants": 1,
+      "id": 31852939,
+      "kids": [
+        31852990
+      ],
+      "score": 2,
+      "time": 1656007539,
+      "title": "US Supreme Court expands gun rights",
+      "type": "story",
+      "url": "https://apnews.com/article/supreme-court-guns-decision-58d01ef8bd48e816d5f8761ffa84e3e8"
+    },
+    {
+      "by": "LecroJS",
+      "descendants": 0,
+      "id": 31852935,
+      "score": 1,
+      "text": "My friend has is a small twitch streamer and wants to press a real life button that would clip his last 30-60 seconds of his stream. While it’d be trivial to write a serverless function that does this, I’d like the request to be fired from something he can have on his desk vs something like a chat command. Also if anyone has insight on using a Cloudflare worker on the edge vs a lambda&#x2F;google cloud function, I’d be curious to hear which is more appropriate + cheaper for this kind of thing. Thanks!",
+      "time": 1656007527,
+      "title": "Ask HN: What options are there to send an HTTP request with a hardware button?",
+      "type": "story"
+    },
+    {
       "by": "ashvardanian",
       "descendants": 0,
       "id": 31852923,
@@ -17,93 +103,10 @@
       "kids": [
         31852920
       ],
-      "score": 1,
+      "score": 4,
       "text": "Context:<p>We&#x27;re a B.V. (Dutch LLC) incorporated in the Netherlands, ran by me from the Netherlands with contractors from around the world. Two of these contractors were located in Russia, one of them has recently moved to the Netherlands on a skilled migrant visa, another is still in the process of obtaining the required travel documents and is still communicating (albeit unable to be paid) with us. It should be noted that neither of these contractors are in any way related to a sanctioned entity according to EU legislation, nor should they be related to any such entity according to US legislation either.<p>We use Mattermost &#x27;Enterprise&#x27; (self-hosted!) for our organization&#x27;s internal communications. This was a logical option as we thought Mattermost was a modern organization, it had a fancy on-boarding flow, an open source variant of their products, and a lot of transparency.<p>During the order process, I had provided the information for the B.V., and my personal details, both indicating very clearly that the organization is based in and operates from the Netherlands.<p>What happened:<p>I received an email from Mattermost today claiming &#x27;Our understanding is that your organization is located in either Russia or Belarus. Because of this, we must pause interactions with your organization until the sanctions are lifted.&#x27;, which I&#x27;ll quote verbatim in the comments due to the HN character limit.<p>My interpretation:<p>First off, it worries me that they do not provide the data on which they have based this &#x27;understanding that [our] organization is located in Russia&#x27;. This probably implies there&#x27;s telemetry being sent on the IP addresses our <i>self-hosted install</i> is being accessed from, which currently still includes one (singular) Russian user, as there is no other way they can have derived any such (wrong) information.<p>Secondly, we do not have a &#x27;legal counsel&#x27; specialized in &#x27;U.S. sanctions rules&#x27;, in fact we have no relationship with the USA at all, so we can not contact their compliance department whatsoever, as they also explicitly say that due to this <i>misunderstanding</i>, they can not answer any questions <i>from us</i> whatsoever.<p>We&#x27;re glad we&#x27;re using the self-hosted version of their product, as at least we can still export our data and eventually migrate to an actual open source solution like Zulip in case this isn&#x27;t resolved, nor does there seem to be a kill switch on the self-hosted product (but given there is likely unexpected telemetry, we can&#x27;t be sure this isn&#x27;t the case either! the Enterprise Edition is actually a binary blob Golang binary).<p>As we&#x27;re explicitly not allowed to contact Mattermost, Inc. without legal counsel experienced in U.S. sanctions rules, and we are effectively unable to communicate as an organization now as we are &#x27;asked not to use our license key&#x27;, I&#x27;ve ended up with the usual route for tech corporations being unwilling to cooperate: posting a plea for help (and a warning to other users of Mattermost Enterprise that they&#x27;re not the transparent organization they claim to be) on a public forum like this.",
       "time": 1656007449,
       "title": "Mattermost is suspending our (NL org) licenses because of 'US sanctions'",
-      "type": "story"
-    },
-    {
-      "by": "zhisbug",
-      "descendants": 0,
-      "id": 31852875,
-      "score": 1,
-      "time": 1656007289,
-      "title": "Alpa: Auto-parallelizing large model training and inference (by UC Berkeley)",
-      "type": "story",
-      "url": "https://github.com/alpa-projects/alpa"
-    },
-    {
-      "by": "todsacerdoti",
-      "descendants": 0,
-      "id": 31852853,
-      "score": 1,
-      "time": 1656007213,
-      "title": "What’s New in CoreML",
-      "type": "story",
-      "url": "https://quindarius.com/articles/whats-new-in-coreml/index.html"
-    },
-    {
-      "by": "Syonyk",
-      "descendants": 1,
-      "id": 31852843,
-      "kids": [
-        31852893
-      ],
-      "score": 1,
-      "time": 1656007182,
-      "title": "Amazon uses kid’s dead grandma in morbid demo of Alexa audio deepfake",
-      "type": "story",
-      "url": "https://arstechnica.com/gadgets/2022/06/amazon-uses-kids-dead-grandma-in-morbid-demo-of-alexa-audio-deepfake/"
-    },
-    {
-      "by": "metadat",
-      "descendants": 0,
-      "id": 31852833,
-      "score": 1,
-      "time": 1656007158,
-      "title": "Dynamic Shell Script-Server",
-      "type": "story",
-      "url": "https://github.com/bugy/script-server"
-    },
-    {
-      "by": "hindsightbias",
-      "descendants": 0,
-      "id": 31852822,
-      "score": 1,
-      "time": 1656007103,
-      "title": "MasterClass cuts 20% of 600-person staff to ‘get to self-sustainability faster’",
-      "type": "story",
-      "url": "https://techcrunch.com/2022/06/22/masterclass-cuts-20-of-600-person-staff-to-get-to-self-sustainability-faster/"
-    },
-    {
-      "by": "rexbee",
-      "descendants": 0,
-      "id": 31852817,
-      "score": 2,
-      "time": 1656007053,
-      "title": "Supreme Court overturns New York law on carrying concealed weapons",
-      "type": "story",
-      "url": "https://nypost.com/2022/06/23/supreme-court-overturns-ny-law-on-carrying-concealed-weapons/"
-    },
-    {
-      "by": "apsec112",
-      "descendants": 0,
-      "id": 31852813,
-      "score": 2,
-      "time": 1656007032,
-      "title": "Nonprofit Boards Are Weird",
-      "type": "story",
-      "url": "https://www.cold-takes.com/nonprofit-boards-are-weird-2/"
-    },
-    {
-      "by": "idontwantthis",
-      "descendants": 0,
-      "id": 31852806,
-      "score": 1,
-      "text": "I recently upgraded my dev computer and had a huge performance improvement. My build times literally decreased 80%. Turns out that really just brought me slightly ahead of the rest of the team, and my old computer suuuuucked (2019 Macbook Pro with severe thermal issues).<p>Is there any tool for tracking performance metrics like that on individual machines and sharing them with the team so no one has to suffer in silence, thinking that everyone is as slow as them?<p>I&#x27;m sure my company would have upgraded me earlier  if they or I had known how much time I was wasting.",
-      "time": 1656007004,
-      "title": "Ask HN: Is there a tool for tracking local dev machine performance?",
       "type": "story"
     }
   ]
