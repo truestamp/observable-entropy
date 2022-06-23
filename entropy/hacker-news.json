@@ -1,6 +1,36 @@
 {
   "stories": [
     {
+      "by": "OrderOfChaos",
+      "descendants": 0,
+      "id": 31848544,
+      "score": 1,
+      "time": 1655989723,
+      "title": "The Demo → Demo Loop: The secret to making successful creative products",
+      "type": "story",
+      "url": "https://daverupert.com/2022/06/demo-to-demo-loop/"
+    },
+    {
+      "by": "vonadz",
+      "descendants": 0,
+      "id": 31848524,
+      "score": 2,
+      "time": 1655989633,
+      "title": "Digesting Technical Content",
+      "type": "story",
+      "url": "https://abyteofcoding.com/blog/digesting-technical-content/"
+    },
+    {
+      "by": "FPGAhacker",
+      "descendants": 0,
+      "id": 31848499,
+      "score": 1,
+      "time": 1655989547,
+      "title": "Rust for the Kernel Could Possibly Be Merged for Linux 5.20",
+      "type": "story",
+      "url": "https://www.phoronix.com/scan.php?page=news_item&px=Rust-For-Linux-5.20-Possible"
+    },
+    {
       "by": "bookofjoe",
       "descendants": 0,
       "id": 31848482,
@@ -54,7 +84,7 @@
       "by": "codeinassembly",
       "descendants": 0,
       "id": 31848430,
-      "score": 1,
+      "score": 2,
       "text": "TL:DR; need help making heatmaps!\nRepository: https:&#x2F;&#x2F;dagshub.com&#x2F;nirbarazida&#x2F;Pneumonia-Classification\nColab Notebook: https:&#x2F;&#x2F;colab.research.google.com&#x2F;drive&#x2F;1U3F5ETJeisBnlmamR4EqigS7shIbL2L1<p>Hey everyone -<p>I&#x27;ve been working to reproduce [CheXNet](https:&#x2F;&#x2F;arxiv.org&#x2F;pdf&#x2F;1711.05225.pdf) - a fantastic paper describing research on a model capable of radiologist-grade pathology classification!<p>CheXNet uses Class Activation Mappings (CAMs for short) to generate heatmaps that identify what parts of the image the model uses to base its classification. In my case, I&#x27;m facing a bit of a struggle reproducing them - most of our classifications are derived from the diaphragm, instead of regions within the lung. Curiously, we are attaining a reasonable AUROC, with .773 on training and .749 on validation data - the paper reports .8062 AUROC.<p>My current model is being trained on a subsample of the main dataset, and I&#x27;m basically looking to this as a way to validate the architecture. I&#x27;d love to know if anyone has experienced similar issues and solved them, and could have any input here as well.<p>If you have a moment to spare - I&#x27;d be super grateful for some help from the hackernews community in solving the inaccurate localization issue! [https:&#x2F;&#x2F;dagshub.com&#x2F;nirbarazida&#x2F;Pneumonia-Classification&#x2F;issues&#x2F;58]<p>An incorrect localization, despite a correct classification: https:&#x2F;&#x2F;dagshub.com&#x2F;nirbarazida&#x2F;Pneumonia-Classification&#x2F;raw&#x2F;4c1414d3cd5cf8c693a4f7931843495bd4d96751&#x2F;evaluating&#x2F;heatmap_eval&#x2F;00005532_000_Cardiomegaly.png",
       "time": 1655989176,
       "title": "A TensorFlow Re-Implementation of CheXNet – Localization of Thoracic Diseases",
@@ -69,39 +99,6 @@
       "title": "A plot to kill Kim Il Sung ended in mutiny and murder (2018)",
       "type": "story",
       "url": "https://www.cnn.com/2018/02/18/asia/south-korea-failed-assassination-squad-unit-684-intl/index.html"
-    },
-    {
-      "by": "Tomte",
-      "descendants": 0,
-      "id": 31848409,
-      "score": 1,
-      "time": 1655989086,
-      "title": "No Brainer. (2015)",
-      "type": "story",
-      "url": "https://www.rifters.com/crawl/?p=6116"
-    },
-    {
-      "by": "devbot9",
-      "descendants": 1,
-      "id": 31848405,
-      "kids": [
-        31848429
-      ],
-      "score": 2,
-      "text": "On June 23, 2021, Chipotle announced &quot;Race to Rewards&quot; contest, a top down retro racing game where players had 48 hours to try and get the highest score playing. There were various prizes in the top 10 list, with #1 being a Tesla Model 3.<p>The racing game was mainly one of endurance, the longer a player could last without crashing, the greater their chances of getting higher score. It didn&#x27;t  take long for some players to write scripts to keep their car going for hours, automatically detecting obstacles and switching lanes. Nowhere in the contest rules was this or any kind of scripted play explicitly forbidden.<p>Despite this, the contest period came and went, and Chipotle has never made an official announcement on any winners for the top 10 prizes, including the Model 3.<p>Several media outlets reported on the contest when it was launched. Apparently none of them followed up on the winners.",
-      "time": 1655989058,
-      "title": "Last year Chiptole launched a game to win a Tesla. No winner was ever announced",
-      "type": "story"
-    },
-    {
-      "by": "agomez314",
-      "descendants": 0,
-      "id": 31848398,
-      "score": 1,
-      "time": 1655989010,
-      "title": "ES2022 Features",
-      "type": "story",
-      "url": "https://h3manth.com/ES2022/"
     }
   ]
 }
