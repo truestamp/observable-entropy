@@ -1,5 +1,46 @@
 {
   "stories": [
+    null,
+    {
+      "by": "rustoo",
+      "descendants": 0,
+      "id": 31847727,
+      "score": 1,
+      "time": 1655984889,
+      "title": "Four in 10 employees want to resign from current organization post-increment",
+      "type": "story",
+      "url": "https://economictimes.indiatimes.com/jobs/four-in-10-employees-want-to-resign-from-current-organisation-post-increment-survey/articleshow/92329745.cms"
+    },
+    {
+      "by": "vancan1ty",
+      "descendants": 0,
+      "id": 31847722,
+      "score": 1,
+      "text": "I followed the guide here https:&#x2F;&#x2F;quarkus.io&#x2F;guides&#x2F;building-native-image to set up a minimal quarkus webservice graalvm native image. Ran command &#x27;time quarkus build --native&#x27; to compile the example. The compile time on my laptop was 2 minutes, 12 seconds, the resulting image size was 38Mb.<p>I then followed the guide here https:&#x2F;&#x2F;go.dev&#x2F;doc&#x2F;tutorial&#x2F;web-service-gin to set up a minimal golang webservice native image. Ran &#x27;time go build&#x27; to compile the executable. It took 1.006 seconds on my laptop and produced a 16Mb executable.<p>What is the underlying technical reason why graalvm native-image is so much slower to compile than golang build? From a high level it seems to me that they are both accomplishing more or less the same thing. Are there choices in the java language design itself that make it hard to compile AOT?",
+      "time": 1655984810,
+      "title": "Ask HN: Why is Java AOT compilation (using graalvm native-image) slow?",
+      "type": "story"
+    },
+    {
+      "by": "optimalsolver",
+      "descendants": 0,
+      "id": 31847718,
+      "score": 1,
+      "time": 1655984780,
+      "title": "Virtual Machines And Consciousness (2015)[pdf]",
+      "type": "story",
+      "url": "https://www.cs.bham.ac.uk/research/projects/cogaff/sloman-chrisley-jcs03.pdf"
+    },
+    {
+      "by": "geox",
+      "descendants": 0,
+      "id": 31847706,
+      "score": 1,
+      "time": 1655984698,
+      "title": "fNIRS brain scans allow subjects move, speak, and interact while being scanned",
+      "type": "story",
+      "url": "https://www.pnas.org/doi/10.1073/pnas.2208729119"
+    },
     {
       "by": "ludovicianul",
       "descendants": 0,
@@ -14,7 +55,7 @@
       "by": "makaimc",
       "descendants": 0,
       "id": 31847675,
-      "score": 1,
+      "score": 2,
       "time": 1655984445,
       "title": "The Rise and Fall of Neumorphism",
       "type": "story",
@@ -24,7 +65,7 @@
       "by": "motiejus",
       "descendants": 0,
       "id": 31847649,
-      "score": 3,
+      "score": 4,
       "time": 1655984239,
       "title": "In Defense of Big Tech Hiring",
       "type": "story",
@@ -49,56 +90,6 @@
       "title": "A recession could kill the work from home revolution",
       "type": "story",
       "url": "https://www.theatlantic.com/newsletters/archive/2022/06/could-recession-kill-the-work-from-home-revolution/661361/"
-    },
-    {
-      "by": "ingve",
-      "descendants": 0,
-      "id": 31847594,
-      "score": 1,
-      "time": 1655983743,
-      "title": "Incremental Builds for Haskell with Bazel",
-      "type": "story",
-      "url": "https://www.tweag.io/blog/2022-06-23-haskell-module/"
-    },
-    {
-      "by": "giantg2",
-      "descendants": 0,
-      "id": 31847593,
-      "score": 1,
-      "text": "Are there any jobs or industries that are easy and on ecan just coast in? I&#x27;m tired of my current company always wanting to squeeze more out of me without more pay. I&#x27;d rather have an easy job that I can just coast at instead of constant politics and pressure to advance.",
-      "time": 1655983734,
-      "title": "Ask HN: Any decent jobs that one can coast through?",
-      "type": "story"
-    },
-    {
-      "by": "sails",
-      "descendants": 0,
-      "id": 31847564,
-      "score": 1,
-      "text": "I have been investigating tools for managing large volumes of financial statements, as part of an operational process for a term loan private company lender, and OCR for financial statements seems to be the most likely candidate. (Financial statements specifically: Cash  Flow Statement, Income Statement, Balance Sheet)<p>I have struggled to find a vendor that ticks all of the following, and looking for suggestions:<p>1. OCR of financial statements of individual companies\n1. Maintain a custom &quot;Chart of Accounts&quot; for each company, which is customisable by a credit analyst role\n1. Ability to create persistent rules for each company\n1. Bonus to be able to connect directly via API or API aggregator if the company will agree to this (eg Xero API or codat API aggregator) to pull real time raw ledger and build the accounts.<p>NB - Not looking for OCR of invoices, bank statements and receipts, that is quite commonly available",
-      "time": 1655983561,
-      "title": "Ask HN: OCR or integrated system for company financial accounts extraction",
-      "type": "story"
-    },
-    {
-      "by": "jgrahamc",
-      "descendants": 0,
-      "id": 31847562,
-      "score": 1,
-      "time": 1655983525,
-      "title": "Aeronear: An ambient device showing nearby aircraft",
-      "type": "story",
-      "url": "https://blog.jgc.org/2021/04/aeronear-ambient-device-showing-nearby.html"
-    },
-    {
-      "by": "Sami_Lehtinen",
-      "descendants": 0,
-      "id": 31847510,
-      "score": 1,
-      "time": 1655983154,
-      "title": "Tails 5.1.1 is out – fixes high severity CVE-2021-38385",
-      "type": "story",
-      "url": "https://tails.boum.org/news/version_5.1.1/index.en.html"
     }
   ]
 }
