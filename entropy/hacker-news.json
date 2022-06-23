@@ -1,9 +1,55 @@
 {
   "stories": [
     {
-      "by": "Syonyk",
+      "by": "ashvardanian",
       "descendants": 0,
+      "id": 31852923,
+      "score": 1,
+      "time": 1656007483,
+      "title": "Filtering numbers quickly with SVE on Amazon Graviton 3 processors",
+      "type": "story",
+      "url": "https://lemire.me/blog/2022/06/23/filtering-numbers-quickly-with-sve-on-amazon-graviton-3-processors/"
+    },
+    {
+      "by": "ntauthority",
+      "descendants": 1,
+      "id": 31852914,
+      "kids": [
+        31852920
+      ],
+      "score": 1,
+      "text": "Context:<p>We&#x27;re a B.V. (Dutch LLC) incorporated in the Netherlands, ran by me from the Netherlands with contractors from around the world. Two of these contractors were located in Russia, one of them has recently moved to the Netherlands on a skilled migrant visa, another is still in the process of obtaining the required travel documents and is still communicating (albeit unable to be paid) with us. It should be noted that neither of these contractors are in any way related to a sanctioned entity according to EU legislation, nor should they be related to any such entity according to US legislation either.<p>We use Mattermost &#x27;Enterprise&#x27; (self-hosted!) for our organization&#x27;s internal communications. This was a logical option as we thought Mattermost was a modern organization, it had a fancy on-boarding flow, an open source variant of their products, and a lot of transparency.<p>During the order process, I had provided the information for the B.V., and my personal details, both indicating very clearly that the organization is based in and operates from the Netherlands.<p>What happened:<p>I received an email from Mattermost today claiming &#x27;Our understanding is that your organization is located in either Russia or Belarus. Because of this, we must pause interactions with your organization until the sanctions are lifted.&#x27;, which I&#x27;ll quote verbatim in the comments due to the HN character limit.<p>My interpretation:<p>First off, it worries me that they do not provide the data on which they have based this &#x27;understanding that [our] organization is located in Russia&#x27;. This probably implies there&#x27;s telemetry being sent on the IP addresses our <i>self-hosted install</i> is being accessed from, which currently still includes one (singular) Russian user, as there is no other way they can have derived any such (wrong) information.<p>Secondly, we do not have a &#x27;legal counsel&#x27; specialized in &#x27;U.S. sanctions rules&#x27;, in fact we have no relationship with the USA at all, so we can not contact their compliance department whatsoever, as they also explicitly say that due to this <i>misunderstanding</i>, they can not answer any questions <i>from us</i> whatsoever.<p>We&#x27;re glad we&#x27;re using the self-hosted version of their product, as at least we can still export our data and eventually migrate to an actual open source solution like Zulip in case this isn&#x27;t resolved, nor does there seem to be a kill switch on the self-hosted product (but given there is likely unexpected telemetry, we can&#x27;t be sure this isn&#x27;t the case either! the Enterprise Edition is actually a binary blob Golang binary).<p>As we&#x27;re explicitly not allowed to contact Mattermost, Inc. without legal counsel experienced in U.S. sanctions rules, and we are effectively unable to communicate as an organization now as we are &#x27;asked not to use our license key&#x27;, I&#x27;ve ended up with the usual route for tech corporations being unwilling to cooperate: posting a plea for help (and a warning to other users of Mattermost Enterprise that they&#x27;re not the transparent organization they claim to be) on a public forum like this.",
+      "time": 1656007449,
+      "title": "Mattermost is suspending our (NL org) licenses because of 'US sanctions'",
+      "type": "story"
+    },
+    {
+      "by": "zhisbug",
+      "descendants": 0,
+      "id": 31852875,
+      "score": 1,
+      "time": 1656007289,
+      "title": "Alpa: Auto-parallelizing large model training and inference (by UC Berkeley)",
+      "type": "story",
+      "url": "https://github.com/alpa-projects/alpa"
+    },
+    {
+      "by": "todsacerdoti",
+      "descendants": 0,
+      "id": 31852853,
+      "score": 1,
+      "time": 1656007213,
+      "title": "What’s New in CoreML",
+      "type": "story",
+      "url": "https://quindarius.com/articles/whats-new-in-coreml/index.html"
+    },
+    {
+      "by": "Syonyk",
+      "descendants": 1,
       "id": 31852843,
+      "kids": [
+        31852893
+      ],
       "score": 1,
       "time": 1656007182,
       "title": "Amazon uses kid’s dead grandma in morbid demo of Alexa audio deepfake",
@@ -44,7 +90,7 @@
       "by": "apsec112",
       "descendants": 0,
       "id": 31852813,
-      "score": 1,
+      "score": 2,
       "time": 1656007032,
       "title": "Nonprofit Boards Are Weird",
       "type": "story",
@@ -59,46 +105,6 @@
       "time": 1656007004,
       "title": "Ask HN: Is there a tool for tracking local dev machine performance?",
       "type": "story"
-    },
-    {
-      "by": "mikpanko",
-      "descendants": 0,
-      "id": 31852783,
-      "score": 2,
-      "time": 1656006900,
-      "title": "Everything is a funnel, but SQL doesn't get it",
-      "type": "story",
-      "url": "https://motifanalytics.medium.com/everything-is-a-funnel-but-sql-doesnt-get-it-c35356424044"
-    },
-    {
-      "by": "SeanBoocock",
-      "descendants": 0,
-      "id": 31852773,
-      "score": 2,
-      "time": 1656006856,
-      "title": "Netflix Begins Second Round of Layoffs, 300 Positions Cut",
-      "type": "story",
-      "url": "https://variety.com/2022/tv/news/netflix-layoffs-fired-jobs-lost-1235301553/"
-    },
-    {
-      "by": "dotja",
-      "descendants": 0,
-      "id": 31852768,
-      "score": 1,
-      "time": 1656006844,
-      "title": "Advantages of a Daily Standup",
-      "type": "story",
-      "url": "https://autostandup.com/daily_scrum_advantages"
-    },
-    {
-      "by": "Stratoscope",
-      "descendants": 0,
-      "id": 31852742,
-      "score": 1,
-      "time": 1656006746,
-      "title": "The Magnet That Made the Modern World",
-      "type": "story",
-      "url": "https://spectrum.ieee.org/the-men-who-made-the-magnet-that-made-the-modern-world"
     }
   ]
 }
