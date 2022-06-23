@@ -1,20 +1,30 @@
 {
   "stories": [
     {
-      "by": "DavidRelo",
+      "by": "lkrubner",
       "descendants": 0,
-      "id": 31846200,
+      "id": 31846219,
       "score": 1,
-      "time": 1655970301,
-      "title": "Improve live streaming experience with stream mixing",
-      "type": "story",
-      "url": "https://www.zegocloud.com/blog/improve-live-streaming-experience-with-stream-mixing"
+      "text": "Imagine an old app. Let&#x27;s say, hypothetically, that it is 9 or 10 years old, it has enormous amounts of tech debt. It makes thousands of API calls to 3rd party APIs, and stores some of the data in the database. The code is brittle, and full of bugs. We are afraid to touch it, because it is so old and badly written. If we wanted to start logging every outbound API call, we could re-write the code, but that would take a year or two. I&#x27;m trying to get the job done in a day or two. I&#x27;m wondering, is there a way to route the outbound request, through some AWS service, such that I can trigger some event for each outbound request? If I could route every outbound request through some proxy, then the proxy could record every outbound request, and I wouldn&#x27;t have to touch the code. But how exactly could I arrange to put such a proxy between the EC2 instance and the outside world?",
+      "time": 1655970556,
+      "title": "Ask HN: Can I trigger events off of outbound HTTP requests from an EC2 instance?",
+      "type": "story"
+    },
+    {
+      "by": "theremotetribe",
+      "descendants": 0,
+      "id": 31846218,
+      "score": 1,
+      "text": "Hi all\nAre you interested in joining a slack group of developpers chatting about agro-ecology &amp; resilience.\nOur topics are gardening, bee keeping, food forest, building sustainable houses, cooking our own food, DYI tools..\nWe want to share tips, ideas to grow sustainable stuff.<p>Feel free.\nInterested in, drop me a msg : theremotetribe@gmail.com<p>Gwen",
+      "time": 1655970520,
+      "title": "Interested in Agroecology and Resilience?",
+      "type": "story"
     },
     {
       "by": "xcambar",
       "descendants": 0,
       "id": 31846196,
-      "score": 1,
+      "score": 2,
       "time": 1655970275,
       "title": "Rotating Locomotion in Living Systems",
       "type": "story",
@@ -37,7 +47,7 @@
       "by": "tosh",
       "descendants": 0,
       "id": 31846175,
-      "score": 1,
+      "score": 2,
       "time": 1655970037,
       "title": "Lavarand",
       "type": "story",
@@ -92,19 +102,6 @@
       "title": "iOS 16, macOS Ventura Combat Email Spoofing with Support for Brand Logos in Mail",
       "type": "story",
       "url": "https://www.macrumors.com/2022/06/22/ios-16-mail-app-supports-bimi-brand-logos/"
-    },
-    {
-      "by": "akolbe",
-      "descendants": 1,
-      "id": 31846103,
-      "kids": [
-        31846129
-      ],
-      "score": 2,
-      "time": 1655969040,
-      "title": "Google is paying the Wikimedia Foundation for better access to information",
-      "type": "story",
-      "url": "https://www.theverge.com/2022/6/22/23178245/google-paying-wikimedia-foundation-information"
     }
   ]
 }
