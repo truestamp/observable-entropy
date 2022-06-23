@@ -1,9 +1,32 @@
 {
   "stories": [
     {
-      "by": "encryptluks2",
+      "by": "jonas21",
       "descendants": 0,
+      "id": 31856230,
+      "score": 1,
+      "time": 1656025818,
+      "title": "Amazon's Latest Trick: Pipe in a Dead Person's Voice Through Alexa's Speakers",
+      "type": "story",
+      "url": "https://gizmodo.com/amazon-alexa-deepfake-grandma-re-mars-demo-machine-lear-1849095743"
+    },
+    {
+      "by": "jseliger",
+      "descendants": 0,
+      "id": 31856218,
+      "score": 1,
+      "time": 1656025704,
+      "title": "Electric bike companies need to use USB-C charging",
+      "type": "story",
+      "url": "https://electrek.co/2022/06/23/electric-bike-usb-c-battery-chargers/"
+    },
+    {
+      "by": "encryptluks2",
+      "descendants": 1,
       "id": 31856190,
+      "kids": [
+        31856225
+      ],
       "score": 1,
       "time": 1656025470,
       "title": "Delete/remove apps from Windows Store",
@@ -24,7 +47,7 @@
       "by": "afrcnc",
       "descendants": 0,
       "id": 31856175,
-      "score": 1,
+      "score": 3,
       "time": 1656025330,
       "title": "Border Security: EU states consider unprecedented biometrics agreement with U.S.",
       "type": "story",
@@ -74,34 +97,11 @@
       "by": "harambae",
       "descendants": 0,
       "id": 31856090,
-      "score": 1,
+      "score": 2,
       "time": 1656024755,
       "title": "As a Crypto Winter Descends, Celebrities Quietly Delete Their NFT Profiles",
       "type": "story",
       "url": "https://news.artnet.com/market/as-a-crypto-winter-descends-on-the-nft-world-celebrities-ditch-their-bored-ape-twitter-profile-pictures-2134783"
-    },
-    {
-      "by": "jimmywetnips",
-      "descendants": 1,
-      "id": 31856086,
-      "kids": [
-        31856181
-      ],
-      "score": 4,
-      "text": "there was a post sometime in the last 2 years I think where some new kid was hired and was lamenting about how little gets done at his new job. And then all the commenters were giving their experience of do nothing jobs at FAANG. Anyone still have a link? I can&#x27;t seem to find it.",
-      "time": 1656024746,
-      "title": "Ask HN: Thread about doing nothing at FAANG",
-      "type": "story"
-    },
-    {
-      "by": "no_wizard",
-      "descendants": 0,
-      "id": 31856078,
-      "score": 1,
-      "text": "Hi HN!<p>I have been doing over  month long of research in terms of figuring out the best way to manage a growing monorepo. We are trying to consolidate much of our frontend code base into a monorepo, managed by pnpm workspaces, to consolidate dependency management and take advantage of tool (as well as other code sharing benefits) of monorepos that are a good fit for us.<p>To that end, I&#x27;m looking to understand if anyone has used Bazel extensively for managing monorepos.<p>I want to understand how easy it is to configure Bazel, how easy it is to <i>use</i> Bazel, especially newer developers (particularly self discovery of the toolset), how easy it is to maintain it, and how much burden the tool has placed on developers. We really are looking for a tool that is <i>largely</i> self sufficient for the purpose.<p>Main features we care about:<p>- Maintainability: is it is to maintain (updates etc)<p>- Extensibility: how extensible is it? more importantly, how <i>easily</i> can it be extended?<p>- Built in watch mode that understands its dependency graph for each task, and can run them simultaneously<p>- Works with pnpm &#x2F; npm workspaces natively<p>- Stream based output: e.g. if running multiple tasks it interleaves them appropriately, even better if they&#x27;re labeled and color coded<p>- Dependency graph tracking. IE: if I run build for a package, it understands that it may have dependencies that need to be built first.<p>- Able to run tasks arbitrarily on a &quot;per package&quot; process, potentially<p>Now, after mentioning all that, I realize, by reading the docs, in theory Bazel supports all this and has <i>lots of feature headroom for growing features over time</i> which I like, however, I&#x27;ve read mixed things about it, but not all of the sources I&#x27;ve read so far are &quot;up to date&quot; (some articles about people adopting Bazel are years old now) and I wanted to get a more accurate picture of what is going on here.<p>Alternatively, I&#x27;m open minded to looking at a different set of tools<p>For context I&#x27;ve done alot of research and experimentation with the follow:<p>- nx[0]<p>- rush[1]<p>- wireit[2]<p>- turbo[3]<p>We&#x27;ve settled on, for now `wireit` in part because it has a really good watch mode feature that `nx` does not (nx doesn&#x27;t have a built in watch mode for your task runner, it relies on the plugin &#x2F; script to handle it, which was really problematic). However, wireit isn&#x27;t extensible, and I&#x27;m not looking to have to manage sub task &quot;phasing&quot; with something like `gulp`. This was an issue with rushjs as well (but rushjs has its own challenges and opinions). While rush is starting to expose a direct `rush-sdk` API, its not really documented and I&#x27;m not sure about its stability or best way to go about making rush plugins. They also have a competing task runner called `heft` that I&#x27;m not sure about in the light of the `rush-sdk` and its use cases (if someone from the rush team sees this and can clarify about the long term vision and where they&#x27;re at with it now, I&#x27;m all ears)<p>tl;dr: I&#x27;ve tried tons of tools, and Bazel seems to check all the boxes, but I&#x27;m afraid the complexity will kill us, since we don&#x27;t have a dedicated <i>tool engineer</i> to oversee it, it has to malleable enough that we can maintain it bit by bit over time<p>[0]: https:&#x2F;&#x2F;nx.dev&#x2F;<p>[1]: https:&#x2F;&#x2F;rushjs.io&#x2F;<p>[2]: https:&#x2F;&#x2F;github.com&#x2F;google&#x2F;wireit<p>[3]: https:&#x2F;&#x2F;turborepo.org&#x2F;docs",
-      "time": 1656024658,
-      "title": "Ask HN: Anyone Here Use Bazel for Front End (Vue, TypeScript) Monorepos?",
-      "type": "story"
     }
   ]
 }
