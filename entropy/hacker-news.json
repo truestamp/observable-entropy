@@ -1,9 +1,32 @@
 {
   "stories": [
     {
+      "by": "WillBAnders",
+      "descendants": 0,
+      "id": 31879402,
+      "score": 1,
+      "time": 1656197664,
+      "title": "Semantic Analysis Abstractions – DSLs in Programming Languages",
+      "type": "story",
+      "url": "https://blog.willbanders.dev/articles/semantic-analysis-abstractions.html"
+    },
+    {
+      "by": "EduardoBautista",
+      "descendants": 0,
+      "id": 31879378,
+      "score": 1,
+      "time": 1656197454,
+      "title": "You shouldn't use ENV variables for secret data (2017)",
+      "type": "story",
+      "url": "https://diogomonica.com/2017/03/27/why-you-shouldnt-use-env-variables-for-secret-data/"
+    },
+    {
       "by": "guiambros",
       "descendants": 0,
       "id": 31879364,
+      "kids": [
+        31879391
+      ],
       "score": 1,
       "time": 1656197258,
       "title": "All-In Podcast: Palmer Luckey on Anduril",
@@ -35,9 +58,12 @@
     },
     {
       "by": "hirundo",
-      "descendants": 0,
+      "descendants": 1,
       "id": 31879287,
-      "score": 2,
+      "kids": [
+        31879385
+      ],
+      "score": 4,
       "time": 1656196360,
       "title": "Teslas Are Safer and Here Is Proof",
       "type": "story",
@@ -65,7 +91,7 @@
     },
     {
       "by": "thunderbong",
-      "descendants": 1,
+      "descendants": 2,
       "id": 31879141,
       "kids": [
         31879335
@@ -84,26 +110,6 @@
       "text": "Hey HN,<p>I just wanted to show the progress on my little (maybe useless) side project called tone[1] to get some qualified feedback.<p>tone is a cross plattform command line audio tagger deployed as a single static binary without dependencies, so a wget should be enough to install on any platform (seems not to work on M1 Macs atm... if someone can help here I would really appreciate it).<p><pre><code>  Features:\n  - Supports most common formats (mp3, m4a, flac, ape, etc.)\n  - Most common AND custom metadata fields\n  - Chapter support\n  - Embeddable pictures\n  - Hackable (write your own taggers with scripting language)\n</code></pre>\nThanks and have fun.<p>[1]: https:&#x2F;&#x2F;github.com&#x2F;sandreas&#x2F;tone",
       "time": 1656194839,
       "title": "Show HN: Tone v0.0.4 – now hackable command line audio tagger, any feedback?",
-      "type": "story"
-    },
-    {
-      "by": "jimofl",
-      "descendants": 0,
-      "id": 31879104,
-      "score": 2,
-      "time": 1656194568,
-      "title": "Augmenting What3words for E911",
-      "type": "story",
-      "url": "https://gist.github.com/jim-oflaherty-jr-qalocate-com/abd2f5c8113249f25b67478741a5495a"
-    },
-    {
-      "by": "gauravphoenix",
-      "descendants": 0,
-      "id": 31879099,
-      "score": 1,
-      "text": "I can&#x27;t seem to load HN when using Safari&#x27;s iCloud private relay. The HTTP status code is 403<p>https:&#x2F;&#x2F;i.imgur.com&#x2F;RfufQep.png<p>Or, perhaps, someone is abusing icloud private relay and HN has blocked that IP&#x2F;CIDR and I am on that IP&#x2F;CIDR<p>When I use Firefox&#x2F;curl etc, I see HTTP 200 Ok response so I am quite certain it has something to do with IP",
-      "time": 1656194549,
-      "title": "Ask HN: Does HN block iCloud private relay requests?",
       "type": "story"
     }
   ]
