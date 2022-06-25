@@ -1,6 +1,26 @@
 {
   "stories": [
     {
+      "by": "edward",
+      "descendants": 0,
+      "id": 31878569,
+      "score": 1,
+      "time": 1656189752,
+      "title": "Study Argues Developmental Dyslexia Essential to Human Adaptive Success",
+      "type": "story",
+      "url": "https://neurosciencenews.com/developmental-dyslexia-exploration-20902/"
+    },
+    {
+      "by": "Tomte",
+      "descendants": 0,
+      "id": 31878567,
+      "score": 1,
+      "time": 1656189744,
+      "title": "Bayesian Workflow (2020)",
+      "type": "story",
+      "url": "https://arxiv.org/abs/2011.01808"
+    },
+    {
       "by": "RoadieRoller",
       "descendants": 0,
       "id": 31878534,
@@ -84,26 +104,6 @@
       "title": "Go Patterns – Fanning",
       "type": "story",
       "url": "https://seh.dev/concy0/"
-    },
-    {
-      "by": "fortran77",
-      "descendants": 0,
-      "id": 31878396,
-      "score": 1,
-      "time": 1656188373,
-      "title": "Tom Davies has become a beloved icon of the Google Maps guessing game",
-      "type": "story",
-      "url": "https://www.newyorker.com/culture/rabbit-holes/the-charming-bloke-who-dominates-geoguessr"
-    },
-    {
-      "by": "danhab99",
-      "descendants": 0,
-      "id": 31878374,
-      "score": 2,
-      "text": "Full disclosure: I&#x27;m not a computer scientist, I&#x27;m just a programmer who uses these tools. Also I mainly use javascript and go, I need to spread out more but these two tools fulfill 99% of all my needs.<p>I had a 2am idea and when I looked it up I couldn&#x27;t find any mention of someone else thinking of it. Here it is:<p>Function currying is a method for saving arguments on the callstack so they don&#x27;t have to be copied in memory between calls. Here&#x27;s a javascript example of currying:<p>```js\nconst add = (leftOp) =&gt; (rightOp) =&gt; leftOp + rightOp;\nconst addThree = add(3);\nconsole.log(addThree(4)); &#x2F;&#x2F; 7\nconsole.log(addThree(-2)); &#x2F;&#x2F; 1\n```<p>I think all PL that support the &quot;putting-functions-in-variables&quot; paradime can do this. BUT. If you try to call a normal function that requires all of its arguments up front without all the arguments it will throw an error. So what if it didn&#x27;t? What if instead of throwing an error, the function call returns a curried function with the first arguments filled and the unfilled arguments left to be inputted.<p>```js\n&#x2F;&#x2F; with autocurrying\nconst add = (leftOp, rightOp) =&gt; leftOp + rightOp;\nconst addFive = add(5); &#x2F;&#x2F; addFive is defined like addFive = (rightOp) =&gt; 5 + rightOp\nconsole.log(addFive(3)); &#x2F;&#x2F; 8\n```<p>This could work in Javascript(&#x2F;Typescript), Python, Go and similar languages. By encouraging currying you could potentaily get memory saving, readibility, and performance. But I won&#x27;t ever try to sell you a stack of pros without a foundation of cons: any syntax sugar has the potential to cause logic bugs, reference bugs, and missuse.<p>What do you guys think?",
-      "time": 1656188154,
-      "title": "Ask HN: Autocurrying Syntax Sugar?",
-      "type": "story"
     }
   ]
 }
