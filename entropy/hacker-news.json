@@ -1,6 +1,76 @@
 {
   "stories": [
     {
+      "by": "zeristor",
+      "descendants": 0,
+      "id": 31875444,
+      "score": 1,
+      "time": 1656166387,
+      "title": "See Russia’s new gas plant on the Arctic coast (2019)",
+      "type": "story",
+      "url": "https://www.nationalgeographic.com/environment/article/sabetta-yamal-largest-gas-field"
+    },
+    {
+      "by": "bookofjoe",
+      "descendants": 0,
+      "id": 31875438,
+      "score": 1,
+      "time": 1656166328,
+      "title": "The Woman Who Climbed Every One of Pittsburgh’s 739 Public Staircases",
+      "type": "story",
+      "url": "https://www.atlasobscura.com/articles/pittsburgh-public-staircase"
+    },
+    {
+      "by": "kingofclams",
+      "descendants": 0,
+      "id": 31875437,
+      "score": 1,
+      "time": 1656166322,
+      "title": "Exploring the Climates of Earth’s Future Supercontinent w/ a NASA Supercomputer",
+      "type": "story",
+      "url": "https://www.nccs.nasa.gov/news-events/nccs-highlights/supercontinent"
+    },
+    {
+      "by": "rntn",
+      "descendants": 0,
+      "id": 31875436,
+      "score": 1,
+      "time": 1656166314,
+      "title": "The Path Is Set for PCI-Express 7.0 in 2025",
+      "type": "story",
+      "url": "https://www.nextplatform.com/2022/06/23/the-path-is-set-for-pci-express-7-0-in-2025/"
+    },
+    {
+      "by": "samizdis",
+      "descendants": 0,
+      "id": 31875435,
+      "score": 1,
+      "time": 1656166308,
+      "title": "We're in the era of ransomware as pure extortion without the encryption",
+      "type": "story",
+      "url": "https://www.theregister.com/2022/06/25/ransomware_gangs_extortion_feature/"
+    },
+    {
+      "by": "3xa",
+      "descendants": 0,
+      "id": 31875430,
+      "score": 2,
+      "time": 1656166224,
+      "title": "Micro-Colocation.com: Flexible Colo for SBCs like Pi or Jetson Nano",
+      "type": "story",
+      "url": "https://micro-colocation.com/"
+    },
+    {
+      "by": "walterbell",
+      "descendants": 0,
+      "id": 31875429,
+      "score": 1,
+      "time": 1656166210,
+      "title": "Proxxon mill drill improvements (2016)",
+      "type": "story",
+      "url": "http://sigmatechnica.com/proxxon-milldrill-improvements/"
+    },
+    {
       "by": "rntn",
       "descendants": 0,
       "id": 31875404,
@@ -14,7 +84,7 @@
       "by": "nutanc",
       "descendants": 0,
       "id": 31875377,
-      "score": 1,
+      "score": 2,
       "time": 1656165812,
       "title": "Sentence Embeddings have a problem, the reason sometimes Dall-E2 fails",
       "type": "story",
@@ -29,80 +99,6 @@
       "title": "10 years of Amazon robotics: how robots help sort packages, move product",
       "type": "story",
       "url": "https://www.aboutamazon.com/news/operations/10-years-of-amazon-robotics-how-robots-help-sort-packages-move-product-and-improve-safety"
-    },
-    {
-      "by": "rntn",
-      "descendants": 0,
-      "id": 31875356,
-      "score": 2,
-      "time": 1656165607,
-      "title": "The giant hangar poised for an aviation revolution",
-      "type": "story",
-      "url": "https://www.bbc.com/future/article/20220621-the-giant-hangar-poised-for-an-aviation-revolution"
-    },
-    {
-      "by": "earlyriser",
-      "descendants": 1,
-      "id": 31875354,
-      "kids": [
-        31875359
-      ],
-      "score": 1,
-      "time": 1656165604,
-      "title": "Show HN: Ferris, social network for IRL activities with your closest friends",
-      "type": "story",
-      "url": "https://www.ferris.app/en/"
-    },
-    {
-      "by": "danans",
-      "descendants": 0,
-      "id": 31875340,
-      "score": 2,
-      "time": 1656165440,
-      "title": "Hackers steal $100M from CA cryptocurrency firm",
-      "type": "story",
-      "url": "https://www.cnn.com/2022/06/24/investing/crypto-hack/index.html"
-    },
-    {
-      "by": "jacquesm",
-      "descendants": 0,
-      "id": 31875336,
-      "score": 1,
-      "time": 1656165432,
-      "title": "“Deep Fake”: Fake Calls in the Name of Klitschko",
-      "type": "story",
-      "url": "https://24hoursworlds.com/politics/184830/"
-    },
-    {
-      "by": "Kaibeezy",
-      "descendants": 0,
-      "id": 31875325,
-      "score": 1,
-      "time": 1656165330,
-      "title": "Small Middle-Aged Man is the epitome of Japan’s mascot craze",
-      "type": "story",
-      "url": "https://www.dailydot.com/parsec/chicchai-ossan-small-middle-aged-man/"
-    },
-    {
-      "by": "mxmlnkn",
-      "descendants": 0,
-      "id": 31875318,
-      "score": 2,
-      "text": "The project can be found here: <a href=\"https:&#x2F;&#x2F;github.com&#x2F;mxmlnkn&#x2F;indexed_bzip2\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;mxmlnkn&#x2F;indexed_bzip2</a><p>The readme shows how to use it from Python, via ratarmount, and via its command-line tool ibzip2.<p>There are really a lot of bzip2 implementations out there but few that have been parallelized, even fewer with random access, and, to my knowledge, none of which are both parallel and offer random seeking in constant time.\nThis is why I started indexed_bzip2. It is a header-only C++ library with Python bindings so that I can use it as a backend from ratarmount. For that, it also supports working with Python file-like objects by using the Python API.<p>For this project, I started with the super-permissively 0-BSD licensed and small bzip2 decoder from the toybox project and extracted what I needed from it.\nThe architecture for the parallel decoding plus random seeking took me some iterations and contemplation to get right.\nIt uses block-based caching and prefetching to achieve both of these things.\n&quot;Right&quot; means that it is modular enough that I can reason about it and be convinced that it is correct.\nOf course, there are also a lot of automated tests with all kinds of sanitizers to check for correctness because I am wary when it comes to reading user data.<p>All in all, this project was a nice brainteaser with which I could grow and I think it is largely finished for now.\nThe single-core bzip2 decoder might profit from further optimizations but it already outperforms the internal Python bz2 module for 2 cores and more.\nAnd it also outperforms the internal Python bz2 module when it comes to random access because it is in constant time with indexed_bzip2.\nAll this comes at the cost of higher memory usage (for the block cache), though.\nCurrently, I&#x27;m trying to reuse the infrastructure I built for this to implement parallel random access to gzip files for usage in ratarmount but I&#x27;m not sure when that will be finished.",
-      "time": 1656165278,
-      "title": "Show HN: Parallelized random access to bzip2 files from Python written in C++",
-      "type": "story",
-      "url": "https://github.com/mxmlnkn/indexed_bzip2"
-    },
-    {
-      "by": "galfarragem",
-      "descendants": 0,
-      "id": 31875311,
-      "score": 1,
-      "time": 1656165213,
-      "title": "Non-assigned names",
-      "type": "story",
-      "url": "https://kk.org/thetechnium/non-assigned-names/"
     }
   ]
 }
