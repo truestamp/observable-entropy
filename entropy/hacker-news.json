@@ -1,6 +1,16 @@
 {
   "stories": [
     {
+      "by": "barry-cotter",
+      "descendants": 0,
+      "id": 31883286,
+      "score": 1,
+      "time": 1656246018,
+      "title": "How Do Poor Countries Get Rich?",
+      "type": "story",
+      "url": "https://thegoodblog.substack.com/p/how-do-poor-countries-get-rich"
+    },
+    {
       "by": "ugjka",
       "descendants": 0,
       "id": 31883277,
@@ -52,9 +62,12 @@
     },
     {
       "by": "jger15",
-      "descendants": 0,
+      "descendants": 1,
       "id": 31883206,
-      "score": 5,
+      "kids": [
+        31883303
+      ],
+      "score": 16,
       "time": 1656245209,
       "title": "Where Did the Long Tail Go?",
       "type": "story",
@@ -62,12 +75,12 @@
     },
     {
       "by": "dijit",
-      "descendants": 1,
+      "descendants": 2,
       "id": 31883153,
       "kids": [
         31883197
       ],
-      "score": 1,
+      "score": 2,
       "text": "Context: A company has asked me to join as CTO and everything is prototype stage and needs to be rewritten from ground up.<p>the current stack is Java (spring) on the Atlassian Suite (bitbucket, jira, confluence) - there&#x27;s no love for that platform within the teams I&#x27;d take over, but I&#x27;m curious to know how others do it and what they&#x27;d recommend.<p>Personal Bias&#x27;:<p>SCM&#x2F;CI: Gitlab<p>Documentation: <i>I</i> prefer `docs&#x2F;` in the repo&#x27;s themselves, but there is a need for something more architectural; maybe mediawiki is fine?<p>Task Management: Notion or Monday<p>PL: Golang + some python glue<p>Build system: Bazel (if anything)<p>Structured DB layer: Cockroach<p>------<p>But I&#x27;m extremely open to other ideas.<p>I know everything should start with &quot;what problem am I trying to solve&quot; but there has to be some sensible defaults here? right?<p>I&#x27;m trying to not choose tools that make people miserable, I only have experience with tools that make people miserable. The scale is pretty small.",
       "time": 1656244544,
       "title": "Ask HN: If you were to start a new company, what tech stack would you recommend?",
@@ -87,25 +100,11 @@
       "by": "dredmorbius",
       "descendants": 0,
       "id": 31883127,
-      "score": 1,
+      "score": 2,
       "time": 1656244304,
       "title": "When Gayness Was a Crime and a Mental Illness",
       "type": "story",
       "url": "https://mindsitenews.org/2022/06/24/when-gayness-was-a-crime-and-a-mental-illness-one-mans-journey-from-involuntary-confinement-to-pride/"
-    },
-    {
-      "by": "kiyanwang",
-      "descendants": 1,
-      "id": 31883117,
-      "kids": [
-        31883246,
-        31883178
-      ],
-      "score": 3,
-      "time": 1656244213,
-      "title": "DevOps Is a Failure – Lbr",
-      "type": "story",
-      "url": "https://leebriggs.co.uk/blog/2022/06/21/devops-is-a-failure"
     }
   ]
 }
