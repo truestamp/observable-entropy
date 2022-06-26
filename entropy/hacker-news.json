@@ -1,6 +1,57 @@
 {
   "stories": [
     {
+      "by": "taubek",
+      "descendants": 0,
+      "id": 31887403,
+      "score": 1,
+      "time": 1656273555,
+      "title": "Send an Open Source Developer on Vacation",
+      "type": "story",
+      "url": "https://tuple.app/sends-you-on-vacation/"
+    },
+    {
+      "by": "Apocryphon",
+      "descendants": 0,
+      "id": 31887393,
+      "score": 1,
+      "time": 1656273522,
+      "title": "Taiwan and the “Land to the Tiller” Program",
+      "type": "story",
+      "url": "https://cooperative-individualism.org/medaille-john_taiwan-and-the-land-to-the-tiller-program-2005.htm"
+    },
+    {
+      "by": "docmechanic",
+      "descendants": 0,
+      "id": 31887392,
+      "score": 1,
+      "time": 1656273519,
+      "title": "Big Tech silent on data privacy in post-Roe America",
+      "type": "story",
+      "url": "https://www.theregister.com/2022/06/24/big_tech_post_roe_wade/"
+    },
+    {
+      "by": "mzharov",
+      "descendants": 0,
+      "id": 31887383,
+      "score": 1,
+      "text": "Hey HN! Here&#x27;s a quick sideproject that I&#x27;ve been working on for the last week<p>The market downturn got me thinking about stock price APIs and how I could use them, overall I had a lot of fun writing this up",
+      "time": 1656273449,
+      "title": "Show HN: Isthisabearmarket.com",
+      "type": "story",
+      "url": "https://isthisabearmarket.com"
+    },
+    {
+      "by": "belltaco",
+      "descendants": 0,
+      "id": 31887365,
+      "score": 1,
+      "time": 1656273319,
+      "title": "Blockchain Startup Harmony Ropes in FBI After Losing $100M in Exploit",
+      "type": "story",
+      "url": "https://www.coindesk.com/tech/2022/06/24/harmony-networks-horizon-bridge-exploited-for-100m/"
+    },
+    {
       "by": "donsupreme",
       "descendants": 0,
       "id": 31887357,
@@ -49,62 +100,6 @@
       "title": "Bauhaus",
       "type": "story",
       "url": "https://en.wikipedia.org/wiki/Bauhaus"
-    },
-    {
-      "by": "adrian_mrd",
-      "descendants": 0,
-      "id": 31887296,
-      "score": 1,
-      "time": 1656272857,
-      "title": "Why the crypto crash could hit stocks",
-      "type": "story",
-      "url": "https://www.abc.net.au/news/2022-06-27/why-the-crypto-crash-could-hit-stocks/101185248"
-    },
-    {
-      "by": "elashri",
-      "descendants": 0,
-      "id": 31887293,
-      "score": 1,
-      "time": 1656272823,
-      "title": "JShelter – Anti-Fingerprinting Addon",
-      "type": "story",
-      "url": "https://addons.mozilla.org/en-US/firefox/addon/javascript-restrictor/"
-    },
-    {
-      "by": "ivanvas",
-      "descendants": 0,
-      "id": 31887202,
-      "score": 1,
-      "time": 1656272214,
-      "title": "What does an idle CPU do?",
-      "type": "story",
-      "url": "https://manybutfinite.com/post/what-does-an-idle-cpu-do/"
-    },
-    {
-      "by": "beingflo",
-      "descendants": 2,
-      "id": 31887181,
-      "kids": [
-        31887224
-      ],
-      "score": 1,
-      "text": "I&#x27;m currently working on a tiny task management web application for my own needs. To minimize the implementation work I came up with a concept that I think could suit a number of applications like this as well:<p>- No user signup (no backend at all)<p>- Local first (via localstorage)<p>- Optional bring-you-own-storage functionality for sync and backup<p>The last point would allow the user to provide, say, an S3 endpoint and api key to allow the application to synchronize its state to a remote data store. By supplying the same credentials to the application on another device, one would have cross-device sync effectively for free. To avoid exposing data to the storage provider I&#x27;m also implementing client-side encryption.<p>Now the only remaining question is what storage protocol to use. I&#x27;ve found S3 client libraries to be severely lacking for browser environments (the AWS SDK is a mess and seems to rely on nodejs shims to work, not to mention its gargantuan size).<p>What are other easy to use and widely available storage protocols? WebDAV? A git repo?\nCurious to hear what else is out there!",
-      "time": 1656272037,
-      "title": "Ask HN: What storage protocol for Bring-Your-Own-Storage applications",
-      "type": "story"
-    },
-    {
-      "by": "MrThoughtful",
-      "descendants": 1,
-      "id": 31887168,
-      "kids": [
-        31887248
-      ],
-      "score": 2,
-      "text": "I have been googling a bit, but not found anything:<p>Is somebody out there driving the same route again and again , tracking the number of disengagements over time?",
-      "time": 1656271941,
-      "title": "Ask HN: Is anybody tracking Teslas self-driving progress over time?",
-      "type": "story"
     }
   ]
 }
