@@ -1,6 +1,16 @@
 {
   "stories": [
     {
+      "by": "nihaals",
+      "descendants": 0,
+      "id": 31883441,
+      "score": 1,
+      "time": 1656247827,
+      "title": "Why We Don't Have an Exit Strategy (2016)",
+      "type": "story",
+      "url": "https://blog.doist.com/no-exit-strategy/"
+    },
+    {
       "by": "nixass",
       "descendants": 0,
       "id": 31883398,
@@ -12,9 +22,13 @@
     },
     {
       "by": "BoppreH",
-      "descendants": 0,
+      "descendants": 2,
       "id": 31883373,
-      "score": 6,
+      "kids": [
+        31883465,
+        31883467
+      ],
+      "score": 26,
       "text": "Alternatively: What&#x27;s the current status of Personally Identifying Information and language models?<p>I try to hide my real name whenever possible, out of an abundance of caution. You can still find it if you search carefully, but in today&#x27;s hostile internet I see this kind of soft pseudonymity as my digital personal space, and expect to have it respected.<p>When playing around in GPT-3 I tried making sentences with my username. Imagine my surprise when I see it spitting out my (globally unique, unusual) full name!<p>Looking around, I found a paper that says language models spitting out personal information is a problem[1], a Google blog post that says there&#x27;s not much that can be done[2], and an article that says OpenAI might automatically replace phone numbers in the future but other types of PII are harder to remove[3]. But nothing on what is <i>actually</i> being done.<p>If I had found my personal information on Google search results, or Facebook, I could ask the information to be removed, but GPT-3 seems to have no such support. Are we supposed to accept that large language models may reveal private information, with no recourse?<p>I don&#x27;t care much about my <i>name</i> being public, but I don&#x27;t know what else it might have memorized (political affiliations? Sexual preferences? Posts from 13-year old me?). In the age of GDPR this feels like an enormous regression in privacy.<p>[1]: https:&#x2F;&#x2F;arxiv.org&#x2F;abs&#x2F;2012.07805<p>[2]: https:&#x2F;&#x2F;ai.googleblog.com&#x2F;2020&#x2F;12&#x2F;privacy-considerations-in-large.html<p>[3]: https:&#x2F;&#x2F;www.theregister.com&#x2F;2021&#x2F;03&#x2F;18&#x2F;openai_gpt3_data&#x2F;",
       "time": 1656247041,
       "title": "Ask HN: GPT-3 reveals my full name to anybody who asks. Can I do anything?",
@@ -90,30 +104,17 @@
       "kids": [
         31883303,
         31883375,
-        31883433,
-        31883411,
         31883318,
+        31883411,
+        31883433,
         31883421,
         31883361
       ],
-      "score": 29,
+      "score": 32,
       "time": 1656245209,
       "title": "Where Did the Long Tail Go?",
       "type": "story",
       "url": "https://tedgioia.substack.com/p/where-did-the-long-tail-go"
-    },
-    {
-      "by": "dijit",
-      "descendants": 2,
-      "id": 31883153,
-      "kids": [
-        31883197
-      ],
-      "score": 2,
-      "text": "Context: A company has asked me to join as CTO and everything is prototype stage and needs to be rewritten from ground up.<p>the current stack is Java (spring) on the Atlassian Suite (bitbucket, jira, confluence) - there&#x27;s no love for that platform within the teams I&#x27;d take over, but I&#x27;m curious to know how others do it and what they&#x27;d recommend.<p>Personal Bias&#x27;:<p>SCM&#x2F;CI: Gitlab<p>Documentation: <i>I</i> prefer `docs&#x2F;` in the repo&#x27;s themselves, but there is a need for something more architectural; maybe mediawiki is fine?<p>Task Management: Notion or Monday<p>PL: Golang + some python glue<p>Build system: Bazel (if anything)<p>Structured DB layer: Cockroach<p>------<p>But I&#x27;m extremely open to other ideas.<p>I know everything should start with &quot;what problem am I trying to solve&quot; but there has to be some sensible defaults here? right?<p>I&#x27;m trying to not choose tools that make people miserable, I only have experience with tools that make people miserable. The scale is pretty small.",
-      "time": 1656244544,
-      "title": "Ask HN: If you were to start a new company, what tech stack would you recommend?",
-      "type": "story"
     }
   ]
 }
