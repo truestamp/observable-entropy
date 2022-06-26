@@ -1,9 +1,22 @@
 {
   "stories": [
     {
-      "by": "beingflo",
+      "by": "ivanvas",
       "descendants": 0,
+      "id": 31887202,
+      "score": 1,
+      "time": 1656272214,
+      "title": "What does an idle CPU do?",
+      "type": "story",
+      "url": "https://manybutfinite.com/post/what-does-an-idle-cpu-do/"
+    },
+    {
+      "by": "beingflo",
+      "descendants": 1,
       "id": 31887181,
+      "kids": [
+        31887224
+      ],
       "score": 1,
       "text": "I&#x27;m currently working on a tiny task management web application for my own needs. To minimize the implementation work I came up with a concept that I think could suit a number of applications like this as well:<p>- No user signup (no backend at all)<p>- Local first (via localstorage)<p>- Optional bring-you-own-storage functionality for sync and backup<p>The last point would allow the user to provide, say, an S3 endpoint and api key to allow the application to synchronize its state to a remote data store. By supplying the same credentials to the application on another device, one would have cross-device sync effectively for free. To avoid exposing data to the storage provider I&#x27;m also implementing client-side encryption.<p>Now the only remaining question is what storage protocol to use. I&#x27;ve found S3 client libraries to be severely lacking for browser environments (the AWS SDK is a mess and seems to rely on nodejs shims to work, not to mention its gargantuan size).<p>What are other easy to use and widely available storage protocols? WebDAV? A git repo?\nCurious to hear what else is out there!",
       "time": 1656272037,
@@ -89,16 +102,6 @@
       "title": "39.08 McMurtry fan car breaks Goodwood Hill RECORD – Festival of Speed [video]",
       "type": "story",
       "url": "https://www.youtube.com/watch?v=5JYp9eGC3Cc"
-    },
-    {
-      "by": "Shawnmi6",
-      "descendants": 0,
-      "id": 31887039,
-      "score": 1,
-      "time": 1656271265,
-      "title": "Turn your spark of an idea into a startup",
-      "type": "story",
-      "url": "https://www.seedhub.app/"
     }
   ]
 }
