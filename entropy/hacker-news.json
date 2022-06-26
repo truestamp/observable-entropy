@@ -2,10 +2,13 @@
   "stories": [
     {
       "by": "dijit",
-      "descendants": 0,
+      "descendants": 1,
       "id": 31883153,
+      "kids": [
+        31883197
+      ],
       "score": 1,
-      "text": "Context: A company has asked me to join as CTO and everything is prototype stage and needs to be rewritten from ground up.<p>the current stack is Java (spring) on the Atlassian Suite (bitbucket, jira, confluence) - there&#x27;s no love for that platform within the teams I&#x27;d take over, but I&#x27;m curious to know how others do it and what they&#x27;d recommend.<p>Personal Bias&#x27;:<p>SCM&#x2F;CI: Gitlab<p>Documentation: _I_ prefer `docs&#x2F;` in the repo&#x27;s themselves, but there is a need for something more architectural; maybe mediawiki is fine?<p>Task Management: Notion or Monday<p>PL: Golang + some python glue<p>But I&#x27;m extremely open to other ideas<p>I know everything should start with &quot;what problem am I trying to solve&quot; but there has to be some sensible defaults here? right?",
+      "text": "Context: A company has asked me to join as CTO and everything is prototype stage and needs to be rewritten from ground up.<p>the current stack is Java (spring) on the Atlassian Suite (bitbucket, jira, confluence) - there&#x27;s no love for that platform within the teams I&#x27;d take over, but I&#x27;m curious to know how others do it and what they&#x27;d recommend.<p>Personal Bias&#x27;:<p>SCM&#x2F;CI: Gitlab<p>Documentation: <i>I</i> prefer `docs&#x2F;` in the repo&#x27;s themselves, but there is a need for something more architectural; maybe mediawiki is fine?<p>Task Management: Notion or Monday<p>PL: Golang + some python glue<p>Build system: Bazel (if anything)<p>Structured DB layer: Cockroach<p>------<p>But I&#x27;m extremely open to other ideas<p>I know everything should start with &quot;what problem am I trying to solve&quot; but there has to be some sensible defaults here? right?",
       "time": 1656244544,
       "title": "Ask HN: If you were to start a new company, what tech stack would you recommend?",
       "type": "story"
@@ -34,6 +37,9 @@
       "by": "kiyanwang",
       "descendants": 0,
       "id": 31883117,
+      "kids": [
+        31883178
+      ],
       "score": 2,
       "time": 1656244213,
       "title": "DevOps Is a Failure – Lbr",
