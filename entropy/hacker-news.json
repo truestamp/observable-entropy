@@ -1,6 +1,16 @@
 {
   "stories": [
     {
+      "by": "adam_ellsworth",
+      "descendants": 0,
+      "id": 31881725,
+      "score": 1,
+      "text": "Today I was considering how organizations such as bitly, imgur, reddit, and even github handle hash collision prevention.<p>While for GH it (seems) easier as commit hashes are sufficiently long&#x2F;unique, for others with character hashes that only span ~6 chars or so, there&#x27;s bound to be instances where hashes conflict from a statistical standpoint.<p>To my mind these orgs have to have some algo (or suite of algos) that check whether or not a hash has been taken.<p>What are the considerations which need to be made algorithmically to check such collisions while keeping runtime to an acceptable minimum?",
+      "time": 1656226268,
+      "title": "Ask HN: How do orgs detect conflicting hashes in sub-second timing?",
+      "type": "story"
+    },
+    {
       "by": "s3ctor8",
       "descendants": 0,
       "id": 31881625,
@@ -17,7 +27,7 @@
       "kids": [
         31881605
       ],
-      "score": 1,
+      "score": 2,
       "time": 1656224543,
       "title": "A Preview of the Dangerous Future of Abortion Bans – Texas Senate Bill 8",
       "type": "story",
@@ -95,16 +105,6 @@
       "title": "The Dark Art of Interrogation (2003)",
       "type": "story",
       "url": "https://www.theatlantic.com/magazine/archive/2003/10/the-dark-art-of-interrogation/302791/"
-    },
-    {
-      "by": "hunglee2",
-      "descendants": 0,
-      "id": 31881551,
-      "score": 1,
-      "time": 1656224010,
-      "title": "World Energy Investment 2022 [pdf]",
-      "type": "story",
-      "url": "https://iea.blob.core.windows.net/assets/db74ebb7-272f-4613-bdbd-a2e0922449e7/WorldEnergyInvestment2022.pdf"
     }
   ]
 }
