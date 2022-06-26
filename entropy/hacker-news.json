@@ -1,11 +1,21 @@
 {
   "stories": [
     {
+      "by": "zeristor",
+      "descendants": 0,
+      "id": 31881750,
+      "score": 1,
+      "time": 1656226538,
+      "title": "UK Mars rover is casualty of war as science severs its links with Russia",
+      "type": "story",
+      "url": "https://www.theguardian.com/science/2022/apr/03/uk-mars-rover-is-casualty-of-war-as-science-severs-its-links-with-russia"
+    },
+    {
       "by": "adam_ellsworth",
       "descendants": 0,
       "id": 31881725,
       "score": 1,
-      "text": "Today I was considering how organizations such as bitly, imgur, reddit, and even github handle hash collision prevention.<p>While for GH it (seems) easier as commit hashes are sufficiently long&#x2F;unique, for others with character hashes that only span ~6 chars or so, there&#x27;s bound to be instances where hashes conflict from a statistical standpoint.<p>To my mind these orgs have to have some algo (or suite of algos) that check whether or not a hash has been taken.<p>What are the considerations which need to be made algorithmically to check such collisions while keeping runtime to an acceptable minimum?",
+      "text": "Today I was considering how organizations such as bitly, imgur, reddit, and even github handle hash collision prevention.<p>While for GH it (seems) easier as commit hashes are sufficiently long&#x2F;unique, for others with character hashes that only span ~6 chars or so, there&#x27;s bound to be instances where hashes conflict from a statistical standpoint.<p>To my mind these orgs have to have a suite tools&#x2F;algos requesting information from multiple services, checking whether or not a hash has been taken – and those processes have to optimize for time. (e.g. when a user makes a post, what&#x27;s a reasonable time to do a lookup?)<p>So, what are the considerations which need to be made algorithmically to check such collisions while keeping runtime to an acceptable minimum?",
       "time": 1656226268,
       "title": "Ask HN: How do orgs detect conflicting hashes in sub-second timing?",
       "type": "story"
@@ -95,16 +105,6 @@
       "title": "Cycling: Why Tunnels are Better than Bridges (2014)",
       "type": "story",
       "url": "https://www.notechmagazine.com/2014/09/cycling-why-tunnels-are-better-than-bridges.html"
-    },
-    {
-      "by": "Tomte",
-      "descendants": 0,
-      "id": 31881552,
-      "score": 1,
-      "time": 1656224011,
-      "title": "The Dark Art of Interrogation (2003)",
-      "type": "story",
-      "url": "https://www.theatlantic.com/magazine/archive/2003/10/the-dark-art-of-interrogation/302791/"
     }
   ]
 }
