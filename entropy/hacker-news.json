@@ -1,6 +1,46 @@
 {
   "stories": [
     {
+      "by": "beingflo",
+      "descendants": 0,
+      "id": 31887181,
+      "score": 1,
+      "text": "I&#x27;m currently working on a tiny task management web application for my own needs. To minimize the implementation work I came up with a concept that I think could suit a number of applications like this as well:<p>- No user signup (no backend at all)<p>- Local first (via localstorage)<p>- Optional bring-you-own-storage functionality for sync and backup<p>The last point would allow the user to provide, say, an S3 endpoint and api key to allow the application to synchronize its state to a remote data store. By supplying the same credentials to the application on another device, one would have cross-device sync effectively for free. To avoid exposing data to the storage provider I&#x27;m also implementing client-side encryption.<p>Now the only remaining question is what storage protocol to use. I&#x27;ve found S3 client libraries to be severely lacking for browser environments (the AWS SDK is a mess and seems to rely on nodejs shims to work, not to mention its gargantuan size).<p>What are other easy to use and widely available storage protocols? WebDAV? A git repo?\nCurious to hear what else is out there!",
+      "time": 1656272037,
+      "title": "Ask HN: What storage protocol for Bring-Your-Own-Storage applications",
+      "type": "story"
+    },
+    {
+      "by": "MrThoughtful",
+      "descendants": 0,
+      "id": 31887168,
+      "score": 1,
+      "text": "I have been googling a bit, but not found anything:<p>Is somebody out there driving the same route again and again , tracking the number of disengagements over time?",
+      "time": 1656271941,
+      "title": "Ask HN: Is anybody tracking Teslas self-driving progress over time?",
+      "type": "story"
+    },
+    {
+      "by": "LinuxBender",
+      "descendants": 0,
+      "id": 31887164,
+      "score": 1,
+      "time": 1656271903,
+      "title": "Arm most likely to list on the Nasdaq, says SoftBank CEO",
+      "type": "story",
+      "url": "https://www.theregister.com/2022/06/24/arm_nasdaq/"
+    },
+    {
+      "by": "LinuxBender",
+      "descendants": 0,
+      "id": 31887156,
+      "score": 1,
+      "time": 1656271878,
+      "title": "It's a crime to use Google Analytics, watchdog tells Italian website",
+      "type": "story",
+      "url": "https://www.theregister.com/2022/06/24/italy_google_analytics/"
+    },
+    {
       "by": "goodjobtech",
       "descendants": 0,
       "id": 31887139,
@@ -59,49 +99,6 @@
       "title": "Turn your spark of an idea into a startup",
       "type": "story",
       "url": "https://www.seedhub.app/"
-    },
-    {
-      "by": "behnamoh",
-      "descendants": 1,
-      "id": 31887028,
-      "kids": [
-        31887126
-      ],
-      "score": 2,
-      "text": "Been using proprietary OSs (Windows, macOS) and I think fundamentally they&#x27;re rock solid. But I also fear the day that Apple and MS either go bankrupt or just stop supporting their OSs. It happens all the time at a smaller scale, like, each version of macOS breaks some features&#x2F;apps that I&#x27;m used to, and MS stops supporting Windows versions after a few years. I always thought Linux would be the most future-proof OS, but choosing something like Fedora entails the same problems as above (something being maintained by a corporation), and other distros seem too distracted that I don&#x27;t know if most of them will be around in a few years anyway.<p>Same thing with my tools. Atom was dropped in favor of VSC and Zed, despite having millions of users. Again, it seems something like Vim or Emacs would be the most future-proof alternative. Sure, VSCode is supposedly open-source, but I don&#x27;t think people will fork and maintain it if MS suddenly stops support. I fear that any sophisticated and complex project, even if it&#x27;s open-source, will not be properly supported outside of its core team, especially if there are competitive alternatives.<p>TLDR— How do you go about making yourself future-proof? In the sense that you won&#x27;t have to re-learn new tools every few years and instead focus on getting the job done.",
-      "time": 1656271193,
-      "title": "Ask HN: How do you future-proof yourself?",
-      "type": "story"
-    },
-    {
-      "by": "rbanffy",
-      "descendants": 0,
-      "id": 31887025,
-      "score": 1,
-      "time": 1656271176,
-      "title": "Capstone Launch No Longer Targeting June 27 – Artemis",
-      "type": "story",
-      "url": "https://blogs.nasa.gov/artemis/2022/06/26/capstone-launch-no-longer-targeting-june-27/"
-    },
-    {
-      "by": "LinuxBender",
-      "descendants": 0,
-      "id": 31886991,
-      "score": 2,
-      "time": 1656271021,
-      "title": "Forever Chemicals PFAS, PFOA, PFOS, BPA, Explained Clearly  [video]",
-      "type": "story",
-      "url": "https://www.youtube.com/watch?v=8QuvTjLZaXs"
-    },
-    {
-      "by": "gautamcgoel",
-      "descendants": 0,
-      "id": 31886986,
-      "score": 1,
-      "time": 1656270996,
-      "title": "Love the Fig",
-      "type": "story",
-      "url": "https://www.newyorker.com/tech/annals-of-technology/love-the-fig"
     }
   ]
 }
