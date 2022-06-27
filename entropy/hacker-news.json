@@ -1,6 +1,36 @@
 {
   "stories": [
     {
+      "by": "goncaloo",
+      "descendants": 0,
+      "id": 31892081,
+      "score": 1,
+      "time": 1656320088,
+      "title": "AWS EC2 vs. Azure Virtual Machine vs. GCP Compute Engine (2022)",
+      "type": "story",
+      "url": "https://docs.multy.dev/blog/compute-aws-vs-azure-vs-gcp/"
+    },
+    {
+      "by": "SerCe",
+      "descendants": 0,
+      "id": 31892075,
+      "score": 1,
+      "time": 1656320049,
+      "title": "Legal Advice for the Zombie Apocalypse – Amazon Web Services",
+      "type": "story",
+      "url": "https://itlawyersbrisbane.com.au/zombie-apocalypse/"
+    },
+    {
+      "by": "stochastimus",
+      "descendants": 0,
+      "id": 31892061,
+      "score": 1,
+      "text": "Cisco tested Zebrium’s accuracy on 192 real-world escalated incidents across 4 product lines, where the incidents required manual log analysis by senior scallion engineers to root-cause. Zebrium auto-generated a report at the right time with the right root-cause indicators in more than 95% of these incidents.<p>Users praised the quality of the root cause reports and experienced significant time savings compared to manual log analysis.<p>https:&#x2F;&#x2F;www.zebrium.com&#x2F;blog&#x2F;how-cisco-uses-zebrium-ml-to-analyze-logs-for-root-cause",
+      "time": 1656319890,
+      "title": "This Log ML Isn’t Bu11###t",
+      "type": "story"
+    },
+    {
       "by": "haunter",
       "descendants": 0,
       "id": 31892047,
@@ -14,7 +44,7 @@
       "by": "garritfra",
       "descendants": 0,
       "id": 31892025,
-      "score": 1,
+      "score": 2,
       "text": "We have identified a critical stability update for Aurora PostgreSQL Serverless v2 instances running versions 13.6, 13.7, and 14.3. We have also identified a critical issue in Aurora PostgreSQL Serverless v2 clusters running versions 13.7 and 14.3. These issues can cause database restarts or failovers under specific conditions. We have developed fixes and are deploying the fixes in two patches. The patches will be automatically applied to the affected instances and clusters in upcoming maintenance windows over the next 3 weeks causing two restarts of your database. One patch will show as a security and stability update and one patch will show as a database update. They will be scheduled sequentially.<p>How to Determine Which Instances are Running These Versions?<p>- In the Amazon RDS console, you can see details about a database cluster, including the Aurora PostgreSQL version of instances in the cluster, by choosing Databases from the console’s navigation pane.<p>- To view DB cluster information by using the AWS CLI, use the describe-db-clusters command.<p>- To view DB cluster information using the Amazon RDS API, use the DescribeDBClusters operation. You can also query a database directly to get the version number by querying the aurora_version() system function i.e., “SELECT * FROM aurora_version();“.<p>Should you have any questions or concerns, the AWS Support Team is available on the community forums and via Premium Support [1].<p>[1] https:&#x2F;&#x2F;aws.amazon.com&#x2F;support",
       "time": 1656319544,
       "title": "Tell HN: Critical issue in Aurora PostgreSQL Serverless v2",
@@ -69,36 +99,6 @@
       "title": "The Mathematics of Escalators on the London Underground",
       "type": "story",
       "url": "https://www.raeng.org.uk/publications/other/4-escalators"
-    },
-    {
-      "by": "cgeier",
-      "descendants": 0,
-      "id": 31891952,
-      "score": 1,
-      "time": 1656318680,
-      "title": "Comparing Kubernetes Operators for PostgreSQL",
-      "type": "story",
-      "url": "https://blog.flant.com/comparing-kubernetes-operators-for-postgresql/"
-    },
-    {
-      "by": "ZeljkoS",
-      "descendants": 0,
-      "id": 31891947,
-      "score": 2,
-      "time": 1656318603,
-      "title": "G7 summit: Leaders detail $600bn plan to rival China's Belt and Road initiative",
-      "type": "story",
-      "url": "https://www.bbc.com/news/world-asia-61947325"
-    },
-    {
-      "by": "carltonupp",
-      "descendants": 0,
-      "id": 31891925,
-      "score": 1,
-      "time": 1656318374,
-      "title": "Patterns That Every Developer Should Know",
-      "type": "story",
-      "url": "https://blog.upperdine.dev/patterns-that-every-developer-should-know"
     }
   ]
 }
