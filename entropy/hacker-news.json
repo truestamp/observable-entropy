@@ -1,11 +1,51 @@
 {
   "stories": [
     {
+      "by": "py4",
+      "descendants": 0,
+      "id": 31892421,
+      "score": 1,
+      "time": 1656323105,
+      "title": "Condemning the Deployment of GPT-4chan",
+      "type": "story",
+      "url": "https://docs.google.com/forms/d/e/1FAIpQLSdh3Pgh0sGrYtRihBu-GPN7FSQoODBLvF7dVAFLZk2iuMgoLw/viewform?fbzx=1650213417672418119"
+    },
+    {
+      "by": "donutloop",
+      "descendants": 0,
+      "id": 31892400,
+      "score": 1,
+      "time": 1656322975,
+      "title": "Enron Scandal: The Fall of a Wall Street Darling",
+      "type": "story",
+      "url": "https://www.investopedia.com/updates/enron-scandal-summary/"
+    },
+    {
+      "by": "leksak",
+      "descendants": 0,
+      "id": 31892395,
+      "score": 2,
+      "time": 1656322925,
+      "title": "Microsoft will start banning players from all private Minecraft servers",
+      "type": "story",
+      "url": "https://arstechnica.com/gaming/2022/06/microsoft-will-start-banning-players-from-all-private-minecraft-servers/"
+    },
+    {
+      "by": "samizdis",
+      "descendants": 0,
+      "id": 31892388,
+      "score": 1,
+      "time": 1656322830,
+      "title": "Tesla still dominates U.S. electric car sales",
+      "type": "story",
+      "url": "https://www.axios.com/2022/06/27/tesla-electric-vehicle-ev-sales"
+    },
+    {
       "by": "wg0",
       "descendants": 0,
       "id": 31892384,
       "score": 1,
-      "text": "Everything self-hosted has its maintenance tax but why Kubernetes (especially self hosted) is so hard? What aspect is that makes Kubernetes operationally so hard?<p>- Is it the networking model that is simple from the consumption standpoint but has too many moving parts for it to be implemented?\n- Is it the storage model, CSI and friends?\n- Is it the bunch of controller loops doing their own things with nothing that gives a &quot;wholesome&quot; picture to identify the root cause?<p>For me personally, first and foremost thing on my mind is the networking details. They are &quot;automatically generated&quot; by each CNI solution in slightly different ways and constructs (iptables, virtual bridges, routing daemons, eBPF etc etc) and because they are generated, it is not uncommon to find hundreds of iptable rules and chains on a single node and&#x2F;or similar configuration.<p>Being automated, these solutions generate tons of components&#x2F;configurations which in case of trouble, even if one has mastery on them, would take some time to hoop through all the components (virtual interfaces, virtual bridges, iptable chains and rules, ipvs entries etc) to identify what&#x27;s causing the trouble. Essentially, one pretty much has to be a network engineer because besides the underlying&#x2F;physical (or the virtual, I mean cloud VPCs) network, k8s pulls its very own network (pod network, cluster network) implemented on the software&#x2F;configuration layer which has to be fully understood to be able to maintained.<p>God forbid, if the CNI solution has some edge case or for some other misconfiguration, it keeps generating inadequate or misconfigured rules&#x2F;routes etc resulting in a broken &quot;software defined network&quot; that I cannot identify in time on a production system is my nightmare and I don&#x27;t know how to reduce that risk.<p>What&#x27;s your Kubernetes nightmare?",
+      "text": "Everything self-hosted has its maintenance tax but why Kubernetes (especially self hosted) is so hard? What aspect is that makes Kubernetes operationally so hard?<p>- Is it the networking model that is simple from the consumption standpoint but has too many moving parts for it to be implemented?<p>- Is it the storage model, CSI and friends?<p>- Is it the bunch of controller loops doing their own things with nothing that gives a &quot;wholesome&quot; picture to identify the root cause?<p>For me personally, first and foremost thing on my mind is the networking details. They are &quot;automatically generated&quot; by each CNI solution in slightly different ways and constructs (iptables, virtual bridges, routing daemons, eBPF etc etc) and because they are generated, it is not uncommon to find hundreds of iptable rules and chains on a single node and&#x2F;or similar configuration.<p>Being automated, these solutions generate tons of components&#x2F;configurations which in case of trouble, even if one has mastery on them, would take some time to hoop through all the components (virtual interfaces, virtual bridges, iptable chains and rules, ipvs entries etc) to identify what&#x27;s causing the trouble. Essentially, one pretty much has to be a network engineer because besides the underlying&#x2F;physical (or the virtual, I mean cloud VPCs) network, k8s pulls its very own network (pod network, cluster network) implemented on the software&#x2F;configuration layer which has to be fully understood to be able to maintained.<p>God forbid, if the CNI solution has some edge case or for some other misconfiguration, it keeps generating inadequate or misconfigured rules&#x2F;routes etc resulting in a broken &quot;software defined network&quot; that I cannot identify in time on a production system is my nightmare and I don&#x27;t know how to reduce that risk.<p>What&#x27;s your Kubernetes nightmare?<p>EDIT: formating",
       "time": 1656322797,
       "title": "Ask HN: What is your Kubernetes nightmare?",
       "type": "story"
@@ -44,7 +84,7 @@
       "by": "Brajeshwar",
       "descendants": 0,
       "id": 31892328,
-      "score": 1,
+      "score": 2,
       "time": 1656322171,
       "title": "Make all Mac apps available from the command line",
       "type": "story",
@@ -54,54 +94,11 @@
       "by": "Tomte",
       "descendants": 0,
       "id": 31892319,
-      "score": 1,
+      "score": 2,
       "time": 1656322079,
       "title": "The Supreme Court’s Faux ‘Originalism’",
       "type": "story",
       "url": "https://www.politico.com/news/magazine/2022/06/26/conservative-supreme-court-gun-control-00042417"
-    },
-    {
-      "by": "rsbadger",
-      "descendants": 0,
-      "id": 31892299,
-      "score": 3,
-      "time": 1656321971,
-      "title": "Outlook scans emails arriving in your inbox and sends all found URLs to Bing",
-      "type": "story",
-      "url": "https://medium.com/@ryanbadger/magic-links-can-end-up-in-bing-search-results-rendering-them-useless-37def0fae994"
-    },
-    {
-      "by": "thomassmith65",
-      "descendants": 0,
-      "id": 31892297,
-      "score": 1,
-      "time": 1656321946,
-      "title": "F--k You: A Magazine of the Arts (1962-1965)",
-      "type": "story",
-      "url": "https://www.ubu.com/vp/FuckYou.html"
-    },
-    {
-      "by": "dlcmh",
-      "descendants": 0,
-      "id": 31892296,
-      "score": 1,
-      "time": 1656321945,
-      "title": "China supercomputer achieves global first with ‘brain-scale’ AI model",
-      "type": "story",
-      "url": "https://www.scmp.com/news/china/science/article/3182498/china-supercomputer-achieves-global-first-brain-scale-ai-model"
-    },
-    {
-      "by": "DenisPodgurskii",
-      "descendants": 1,
-      "id": 31892274,
-      "kids": [
-        31892280
-      ],
-      "score": 1,
-      "text": "1. Manifest 3 support for chromium based browsers. Firefox still on Manfiest 2, but it works in the same way, no difference.\n2. R-Attacker, R-Builder and Encoder&#x2F;Decoder data saved in local storage, so you won&#x27;t miss any data even after restarting your browser.",
-      "time": 1656321772,
-      "title": "PenTestKit 8.0.3 Just Released",
-      "type": "story"
     }
   ]
 }
