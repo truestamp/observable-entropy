@@ -1,9 +1,82 @@
 {
   "stories": [
     {
-      "by": "TylerJewell",
+      "by": "wawjgreen",
       "descendants": 0,
+      "id": 31907817,
+      "score": 1,
+      "time": 1656425102,
+      "title": "Why Write?",
+      "type": "story",
+      "url": "https://7ames.bearblog.dev/why_write/"
+    },
+    {
+      "by": "saperyton",
+      "descendants": 0,
+      "id": 31907808,
+      "score": 1,
+      "time": 1656425040,
+      "title": "Firing People (2016)",
+      "type": "story",
+      "url": "https://zachholman.com/talk/firing-people"
+    },
+    {
+      "by": "generall",
+      "descendants": 0,
+      "id": 31907802,
+      "score": 10,
+      "time": 1656424997,
+      "title": "Show HN: Quaterion – x100 faster fine-tuning of similarity learning models",
+      "type": "story",
+      "url": "https://github.com/qdrant/quaterion"
+    },
+    {
+      "by": "nirajs",
+      "descendants": 0,
+      "id": 31907791,
+      "score": 2,
+      "time": 1656424961,
+      "title": "The Legend of Irreplaceable Developer",
+      "type": "story",
+      "url": "https://medium.com/entech-solutions/the-legend-of-irreplaceable-developer-a84571b8a123"
+    },
+    {
+      "by": "bryanrasmussen",
+      "descendants": 0,
+      "id": 31907783,
+      "score": 1,
+      "time": 1656424920,
+      "title": "Politics trumps business in Truth Social’s war on Big Tech",
+      "type": "story",
+      "url": "https://www.reuters.com/investigates/special-report/usa-trump-truth-social/"
+    },
+    {
+      "by": "theafh",
+      "descendants": 0,
+      "id": 31907773,
+      "score": 1,
+      "time": 1656424853,
+      "title": "Protein Blobs Linked to Alzheimer’s Affect Aging in All Cells",
+      "type": "story",
+      "url": "https://www.quantamagazine.org/protein-blobs-linked-to-alzheimers-affect-aging-in-all-cells-20220628/"
+    },
+    {
+      "by": "afarchy",
+      "descendants": 0,
+      "id": 31907771,
+      "score": 1,
+      "time": 1656424847,
+      "title": "Show HN: Virtual Maker – Make 3D/VR scenes in the browser",
+      "type": "story",
+      "url": "https://www.virtualmaker.net/"
+    },
+    {
+      "by": "TylerJewell",
+      "descendants": 1,
       "id": 31907738,
+      "kids": [
+        31907800
+      ],
       "score": 1,
       "time": 1656424691,
       "title": "Complexity, Automation and a Future of Autonomous Development",
@@ -14,7 +87,7 @@
       "by": "ptsneves",
       "descendants": 0,
       "id": 31907728,
-      "score": 1,
+      "score": 2,
       "time": 1656424653,
       "title": "EY to pay $100 mln to settle U.S. charges of staff cheating on accountant exams",
       "type": "story",
@@ -24,81 +97,11 @@
       "by": "dbrereton",
       "descendants": 0,
       "id": 31907725,
-      "score": 1,
+      "score": 2,
       "time": 1656424631,
       "title": "It Is Your Responsibility to Follow Up",
       "type": "story",
       "url": "https://guzey.com/follow-up/"
-    },
-    {
-      "by": "YesBox",
-      "descendants": 0,
-      "id": 31907719,
-      "score": 1,
-      "text": "Try it out here: https:&#x2F;&#x2F;yesbox.itch.io&#x2F;archapolis<p>Or video: https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=x0HCnQqF5K4<p>Hi HN<p>I&#x27;ve been working on a city builder game for the last seven months. The first bar I wanted to pass was creating an efficient and more realistic path finding engine. Finally, version 0.1.0 of my game Archapolis is released! This is a toy&#x2F;tech demo, but any and all feedback is really important to me, hence I&#x27;m releasing it now (for free).<p>I&#x27;d also like to get an idea how well my code runs on a variety of machines, so if you feel like testing it out, I would love to hear from you and your results!<p>I&#x27;ll talk a bit about the path finding code here:<p>- It will find all possible shortest paths between two points in nearly the same time as Dijkstra&#x27;s, and store them efficiently in a (C++) vector (i.e. array) (max possible paths is the binomial coefficient formula)<p>- An agent can access&#x2F;find a path in constant time (just like a hash table) using some arithmetic (since the vector index is the &quot;key&quot;).<p>- The game will generate the all pairs all possible shortest paths once you place a unit down, and update each time the road network changes.<p>- The path finding algorithm can also utilize preference weights (e.g. beauty, tourism, commercial, cultural neighborhood...) stored in roads. An agent that has a preference will take the shortest path from all possible shortest paths that match their preference.<p>- In the download, these are colored roads for now, so units that match the road color will prefer those roads.<p>- Its multi-threaded. On my machine, finding &#x2F; storing all pairs all shortest possible paths in a 50 x 50 grid (with 9,800 nodes) takes 17 seconds (with six cores) and needs 2.5 GB of RAM. This is an extreme stress test. If using Manhattan block sizes, this is around 13 square miles of city, or roughly nine Cities: Skylines tiles.<p>- In game, roads will be planned first, then placed all at once so only one update is needed.<p>- I&#x27;m really happy with the results. Not only will units utilize all shortest paths between two points, the preference weights gives personality to each unit, so part of my unit AI is already done!",
-      "time": 1656424594,
-      "title": "Show HN: Pathfind 1M agents to unique destinations in my video game",
-      "type": "story"
-    },
-    {
-      "by": "herodotus",
-      "descendants": 0,
-      "id": 31907716,
-      "score": 1,
-      "time": 1656424589,
-      "title": "Hyperstreams – Nesting in Lucid",
-      "type": "story",
-      "url": "https://billwadge.com/2022/06/27/hyperstreams-nesting-in-lucid/"
-    },
-    {
-      "by": "ecliptik",
-      "descendants": 0,
-      "id": 31907694,
-      "score": 1,
-      "time": 1656424491,
-      "title": "WadC – Procedural Programming Environment for Henerating Doom Maps",
-      "type": "story",
-      "url": "https://jmtd.net/wadc/"
-    },
-    {
-      "by": "glennericksen",
-      "descendants": 0,
-      "id": 31907688,
-      "score": 3,
-      "time": 1656424431,
-      "title": "How Do Individual Contributors Get Stuck? A Primer (2017)",
-      "type": "story",
-      "url": "https://www.elidedbranches.com/2017/01/how-do-individual-contributors-get.html"
-    },
-    {
-      "by": "Tomte",
-      "descendants": 0,
-      "id": 31907673,
-      "score": 1,
-      "time": 1656424370,
-      "title": "NFTs Create Value (2021)",
-      "type": "story",
-      "url": "https://hbr.org/2021/11/how-nfts-create-value"
-    },
-    {
-      "by": "Tomte",
-      "descendants": 0,
-      "id": 31907668,
-      "score": 1,
-      "time": 1656424337,
-      "title": "The claw clip’s comeback (2021)",
-      "type": "story",
-      "url": "https://www.vox.com/the-goods/22776439/claw-clips-noticed-90s-trend"
-    },
-    {
-      "by": "mdrzn",
-      "descendants": 0,
-      "id": 31907662,
-      "score": 1,
-      "time": 1656424329,
-      "title": "Heroku turned its back on Rails (2013)",
-      "type": "story",
-      "url": "https://genius.com/James-somers-herokus-ugly-secret-annotated"
     }
   ]
 }
