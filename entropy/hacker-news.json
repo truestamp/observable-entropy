@@ -1,107 +1,103 @@
 {
   "stories": [
     {
-      "by": "huksley",
+      "by": "MangezBien",
       "descendants": 0,
-      "id": 31907374,
-      "score": 2,
-      "text": "I am using awesome NextJS and serverless-nextjs and deploy my app to CloudFront and Lambda@Edge.<p>I made a mistake and accidentally created a serverless function that called itself. In a recursive loop, with a 30s timeout. I thought I fixed it and deployed the code to the dev environment.<p>I have had an AWS Billing alert (Budgets) set up to prompt me when my monthly budget goes over $300 (my usual bill is $200&#x2F;month).<p>Imagine the terror when I woke up the next day to see the AWS Billing alert email saying I already owed $1,484! I removed a function and deployed it again in 30 minutes, but it was too late. It has already run for 24 hours, using over 70 million Gb-Second!<p>Only after that I&#x27;ve learned that AWS Billing alerts do not work this way for CloudFront. You get delayed information on charges because they collect them from all regions.<p>On the following day, the bill settled at a shocking $4600. This is more than we have ever spent on AWS all time.<p>CloudFront includes the AWS Shield Standard feature, but somehow, it was not activated for this case (Lambda@Edge calling itself via CloudFront).<p>Now, I understand that I should have created CloudWatch alarms, which would alert me when the number of requests exceeds the limit. The problem is, that they need to be set up per region, and I got CloudFront charges from all points of presence.<p>I am a big proponent of the serverless approach. It makes it easy to scale and develop things (e.g., you get PR review version branches for free, both frontend and backend code like Vercel does). But now, I am unsure because such unexpected charges can ruin a side-project or emerging startup.<p>Now I am waiting on a response from AWS Support on these charges; maybe they can help me waive part of that.<p>What is your experience with it? Would you recommend to use to build a new product if you are bootstrapped, 3-person startup?",
-      "time": 1656422624,
-      "title": "Tell HN: I DDoSed myself using AWS CloudFront and Lambda Edge and got $4.5k bill",
+      "id": 31907431,
+      "score": 1,
+      "time": 1656422966,
+      "title": "Ask HN: What has replaced lanyrd as a way to find tech conferences?",
       "type": "story"
     },
     {
-      "by": "mazr",
+      "by": "bookofjoe",
       "descendants": 0,
-      "id": 31907359,
+      "id": 31907426,
       "score": 1,
-      "time": 1656422573,
-      "title": "French police is opening their data",
+      "time": 1656422928,
+      "title": "Scientists find remains of cannibalized planets in Jupiter's cloud-covered belly",
       "type": "story",
-      "url": "https://www.gendarmerie.interieur.gouv.fr/barometre-numerique/"
+      "url": "https://www.livescience.com/jupiter-ate-baby-planets-while-growing"
     },
     {
-      "by": "jka",
+      "by": "pseudolus",
       "descendants": 0,
-      "id": 31907344,
+      "id": 31907424,
       "score": 1,
-      "time": 1656422508,
-      "title": "Starting Up in a Downturn: mini-guide for founders facing a troubled economy",
+      "time": 1656422911,
+      "title": "The BuzzFeed SPAC Fiasco Is Only Getting Worse",
       "type": "story",
-      "url": "https://ecorner.stanford.edu/articles/71448/"
+      "url": "https://nymag.com/intelligencer/2022/06/buzzfeed-spac-fiasco-is-only-getting-worse.html"
     },
     {
-      "by": "mgl",
-      "descendants": 1,
-      "id": 31907319,
-      "kids": [
-        31907334
-      ],
+      "by": "legothief",
+      "descendants": 0,
+      "id": 31907420,
       "score": 1,
-      "time": 1656422395,
-      "title": "Largest bacterium ever found is surprisingly complex",
+      "time": 1656422893,
+      "title": "The dark side of Graph Neural Networks",
       "type": "story",
-      "url": "https://www.nature.com/articles/d41586-022-01757-1"
+      "url": "https://www.appliedexploration.com/p/dark-side-of-graph-neural-nets"
     },
     {
-      "by": "gmays",
+      "by": "marban",
       "descendants": 0,
-      "id": 31907303,
+      "id": 31907419,
       "score": 1,
-      "time": 1656422309,
-      "title": "Monkeypox found to be evolving at a faster rate than expected",
+      "time": 1656422879,
+      "title": "The “Hollow Abstraction” of Web3",
       "type": "story",
-      "url": "https://medicalxpress.com/news/2022-06-monkeypox-evolving-faster.html"
+      "url": "https://newsletters.theatlantic.com/galaxy-brain/62ba500cbcbd490021aaef70/web3-crypto-movement-uses-marc-andreessen/"
     },
     {
-      "by": "kloch",
+      "by": "ksec",
       "descendants": 0,
-      "id": 31907297,
+      "id": 31907416,
       "score": 1,
-      "time": 1656422282,
-      "title": "Misguided call for a 7-Zip boycott brings attention to FOSS archiving tools",
+      "time": 1656422876,
+      "title": "Mruby/C 3.1 has been released",
       "type": "story",
-      "url": "https://www.theregister.com/2022/06/27/7zip_compression_tool/"
+      "url": "https://www.s-itoc.jp/support/technical-support/mrubyc/mrubyc-report/3-1_released"
     },
     {
-      "by": "jtbayly",
+      "by": "marban",
       "descendants": 0,
-      "id": 31907296,
+      "id": 31907405,
       "score": 1,
-      "time": 1656422281,
-      "title": "M2 13 MBPro with 256GB SSD Slower Than Equivalent M1 in Real-World Speed Tests",
+      "time": 1656422795,
+      "title": "Airbnb’s party ban is now permanent",
       "type": "story",
-      "url": "https://www.macrumors.com/2022/06/27/m2-macbook-pro-256gb-ssd-real-world-tests/"
+      "url": "https://www.theverge.com/2022/6/28/23186141/airbnb-party-ban-policy-16-person-occupancy-limit-lifted"
     },
     {
-      "by": "tjdevries",
+      "by": "MuchoMaas",
       "descendants": 0,
-      "id": 31907286,
+      "id": 31907404,
+      "score": 1,
+      "time": 1656422786,
+      "title": "Every branch of U.S. military struggling to meet its recruiting goals",
+      "type": "story",
+      "url": "https://www.nbcnews.com/news/military/every-branch-us-military-struggling-meet-2022-recruiting-goals-officia-rcna35078"
+    },
+    {
+      "by": "rayhano",
+      "descendants": 0,
+      "id": 31907399,
       "score": 2,
-      "time": 1656422215,
-      "title": "PDE: A different take on editing code",
+      "time": 1656422744,
+      "title": "Is there an app to track your previous stock trades?",
       "type": "story",
-      "url": "https://www.youtube.com/watch?v=QMVIJhC9Veg"
+      "url": "https://old.reddit.com/r/stocks/comments/vmn47i/how_to_retrospectively_calculate_annual_returns/"
     },
     {
-      "by": "ezekg",
+      "by": "geox",
       "descendants": 0,
-      "id": 31907276,
+      "id": 31907390,
       "score": 1,
-      "time": 1656422169,
-      "title": "Breaking Things Without Breaking Things",
+      "time": 1656422710,
+      "title": "NBA All World Is Niantic's Next Augmented Reality Game",
       "type": "story",
-      "url": "https://keygen.sh/blog/breaking-things-without-breaking-things/"
-    },
-    {
-      "by": "mikece",
-      "descendants": 0,
-      "id": 31907261,
-      "score": 1,
-      "time": 1656422095,
-      "title": "OpenSSL 3.0.5 awaits release to fix potential worse-than-Heartbleed flaw",
-      "type": "story",
-      "url": "https://www.theregister.com/2022/06/27/openssl_304_memory_corruption_bug/"
+      "url": "https://www.gamespot.com/articles/nba-all-world-is-niantics-next-pokemon-go-style-augmented-reality-game/1100-6504935/"
     }
   ]
 }
