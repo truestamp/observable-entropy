@@ -1,13 +1,63 @@
 {
   "stories": [
     {
+      "by": "brunojppb",
+      "descendants": 0,
+      "id": 31913302,
+      "score": 1,
+      "time": 1656452008,
+      "title": "Tabs wins spaces because of accessibility",
+      "type": "story",
+      "url": "https://twitter.com/rich_harris/status/1541761871585464323"
+    },
+    {
+      "by": "Tozen",
+      "descendants": 0,
+      "id": 31913295,
+      "score": 1,
+      "time": 1656451973,
+      "title": "Can AI help stop mass shootings? [video]",
+      "type": "story",
+      "url": "https://www.youtube.com/watch?v=M0WcTT9RBnk"
+    },
+    {
+      "by": "gnicholas",
+      "descendants": 0,
+      "id": 31913294,
+      "score": 1,
+      "time": 1656451970,
+      "title": "What Happens When Tech Executives Start Believing Their Own Hype",
+      "type": "story",
+      "url": "https://www.nytimes.com/2022/06/28/opinion/kraken-powell-tech-culture-libertarianism.html"
+    },
+    {
+      "by": "lifeisstillgood",
+      "descendants": 0,
+      "id": 31913292,
+      "score": 1,
+      "time": 1656451959,
+      "title": "Tens of thousands of men risk needing breast reduction surgery due to steroid",
+      "type": "story",
+      "url": "https://news.sky.com/story/tens-of-thousands-of-men-at-risk-of-needing-breast-reduction-surgery-due-to-steroid-use-12641925"
+    },
+    {
+      "by": "dp-hackernews",
+      "descendants": 0,
+      "id": 31913280,
+      "score": 2,
+      "time": 1656451898,
+      "title": "Deported hacker used his tech skills to re-enter the U.S.",
+      "type": "story",
+      "url": "https://restofworld.org/2022/deported-migrant-hacker-us-mexico-border/"
+    },
+    {
       "by": "pempem",
       "descendants": 1,
       "id": 31913201,
       "kids": [
         31913202
       ],
-      "score": 1,
+      "score": 2,
       "time": 1656451458,
       "title": "Navigating privacy and protecting your reproductive data",
       "type": "story",
@@ -52,64 +102,6 @@
       "title": "Finland, Sweden on path to NATO membership as Turkey drops veto",
       "type": "story",
       "url": "https://www.aljazeera.com/news/2022/6/28/erdogan-to-have-bilateral-talks-with-world-leaders-at-nato-summit"
-    },
-    {
-      "by": "raybb",
-      "descendants": 1,
-      "id": 31913099,
-      "kids": [
-        31913136
-      ],
-      "score": 1,
-      "time": 1656450889,
-      "title": "California's attempt to protect kids online could end adults' internet anonymity",
-      "type": "story",
-      "url": "https://www.theregister.com/2022/06/28/california_kid_privacy_bill_anonymous/"
-    },
-    {
-      "by": "cryptonector",
-      "descendants": 0,
-      "id": 31913062,
-      "score": 1,
-      "text": "FYI, `INSTEAD OF` triggers on views can function like stored procedures in SQLite3.<p>It&#x27;s not exactly the same, no, but you still get to have DMLs &quot;stored&quot; in the DB.  For example, I&#x27;m not sure how to return results from an `INSTEAD OF` trigger (that is, if I write `INSERT INTO &lt;view&gt; (...) SELECT ... RETURNING ...;`, what will be returned?  Apparently what&#x27;s returned is the values of the NEW row, while one might think that if the view ends in a `SELECT` then maybe that would be used as the source for the `RETURNING` (but, no).<p>Even with limitations, `INSTEAD OF` triggers as an approximation of stored procedures is very powerful.<p>You&#x27;d do something like:<p><pre><code>  CREATE VIEW IF NOT EXISTS things AS ...;\n  --\n  -- INSERTs on `things` function like SPs\n  -- where values furnished for columns\n  -- function as SP input parameters.\n  CREATE TRIGGER IF NOT EXISTS create_thing\n  INSTEAD OF INSERT ON things\n  FOR EACH ROW\n  BEGIN\n      ...\n  END;\n</code></pre>\nand to invoke such a &quot;stored procedure&quot; you&#x27;d<p><pre><code>  INSERT INTO things (...) VALUES (...), ...;\n</code></pre>\nor<p><pre><code>  INSERT .. SELECT ..;\n</code></pre>\nThis language is Turing-complete.  You can also loop via recursive triggers.  And you can use `WHERE` clauses (and `OR IGNORE`) on statements in the bodies of `INSTEAD OF` triggers to implement conditionals.<p>Most of this is taken from a comment I just wrote, https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=31912640 but I&#x27;ve written this sort of thing before elsewhere too, including on the old sqlite3-users mailing list years ago.  I&#x27;m pretty sure lots of you know about this -- it&#x27;s really quite obvious.",
-      "time": 1656450685,
-      "title": "Tell HN: SQLite3 does have something like stored procedures",
-      "type": "story"
-    },
-    {
-      "by": "beefman",
-      "descendants": 0,
-      "id": 31913057,
-      "score": 2,
-      "time": 1656450676,
-      "title": "Pen and Paper Exercises in Machine Learning",
-      "type": "story",
-      "url": "https://arxiv.org/abs/2206.13446"
-    },
-    {
-      "by": "QuarkForMrMark",
-      "descendants": 0,
-      "id": 31913046,
-      "score": 1,
-      "time": 1656450644,
-      "title": "Deep Learning’s Little-Known Debt to the Innovator’s Dilemma",
-      "type": "story",
-      "url": "https://spectrum.ieee.org/deep-learnings-little-known-debt-to-the-innovators-dilemma"
-    },
-    {
-      "by": "mikece",
-      "descendants": 3,
-      "id": 31913036,
-      "kids": [
-        31913228,
-        31913240,
-        31913052
-      ],
-      "score": 5,
-      "time": 1656450571,
-      "title": "Amazon limits Plan B purchases after demand spike",
-      "type": "story",
-      "url": "https://www.theverge.com/2022/6/28/23187039/amazon-cvs-rite-aid-plan-b-emergency-contraception"
     }
   ]
 }
