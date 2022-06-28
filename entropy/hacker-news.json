@@ -1,6 +1,56 @@
 {
   "stories": [
     {
+      "by": "TylerJewell",
+      "descendants": 0,
+      "id": 31907738,
+      "score": 1,
+      "time": 1656424691,
+      "title": "Complexity, Automation and a Future of Autonomous Development",
+      "type": "story",
+      "url": "https://tylerjewell.substack.com/p/complexity-automation-autonomous-development"
+    },
+    {
+      "by": "ptsneves",
+      "descendants": 0,
+      "id": 31907728,
+      "score": 1,
+      "time": 1656424653,
+      "title": "EY to pay $100 mln to settle U.S. charges of staff cheating on accountant exams",
+      "type": "story",
+      "url": "https://www.reuters.com/business/finance/ey-pay-100-mln-settle-us-charges-staff-cheating-accountant-exams-2022-06-28/"
+    },
+    {
+      "by": "dbrereton",
+      "descendants": 0,
+      "id": 31907725,
+      "score": 1,
+      "time": 1656424631,
+      "title": "It Is Your Responsibility to Follow Up",
+      "type": "story",
+      "url": "https://guzey.com/follow-up/"
+    },
+    {
+      "by": "YesBox",
+      "descendants": 0,
+      "id": 31907719,
+      "score": 1,
+      "text": "Try it out here: https:&#x2F;&#x2F;yesbox.itch.io&#x2F;archapolis<p>Or video: https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=x0HCnQqF5K4<p>Hi HN<p>I&#x27;ve been working on a city builder game for the last seven months. The first bar I wanted to pass was creating an efficient and more realistic path finding engine. Finally, version 0.1.0 of my game Archapolis is released! This is a toy&#x2F;tech demo, but any and all feedback is really important to me, hence I&#x27;m releasing it now (for free).<p>I&#x27;d also like to get an idea how well my code runs on a variety of machines, so if you feel like testing it out, I would love to hear from you and your results!<p>I&#x27;ll talk a bit about the path finding code here:<p>- It will find all possible shortest paths between two points in nearly the same time as Dijkstra&#x27;s, and store them efficiently in a (C++) vector (i.e. array) (max possible paths is the binomial coefficient formula)<p>- An agent can access&#x2F;find a path in constant time (just like a hash table) using some arithmetic (since the vector index is the &quot;key&quot;).<p>- The game will generate the all pairs all possible shortest paths once you place a unit down, and update each time the road network changes.<p>- The path finding algorithm can also utilize preference weights (e.g. beauty, tourism, commercial, cultural neighborhood...) stored in roads. An agent that has a preference will take the shortest path from all possible shortest paths that match their preference.<p>- In the download, these are colored roads for now, so units that match the road color will prefer those roads.<p>- Its multi-threaded. On my machine, finding &#x2F; storing all pairs all shortest possible paths in a 50 x 50 grid (with 9,800 nodes) takes 17 seconds (with six cores) and needs 2.5 GB of RAM. This is an extreme stress test. If using Manhattan block sizes, this is around 13 square miles of city, or roughly nine Cities: Skylines tiles.<p>- In game, roads will be planned first, then placed all at once so only one update is needed.<p>- I&#x27;m really happy with the results. Not only will units utilize all shortest paths between two points, the preference weights gives personality to each unit, so part of my unit AI is already done!",
+      "time": 1656424594,
+      "title": "Show HN: Pathfind 1M agents to unique destinations in my video game",
+      "type": "story"
+    },
+    {
+      "by": "herodotus",
+      "descendants": 0,
+      "id": 31907716,
+      "score": 1,
+      "time": 1656424589,
+      "title": "Hyperstreams – Nesting in Lucid",
+      "type": "story",
+      "url": "https://billwadge.com/2022/06/27/hyperstreams-nesting-in-lucid/"
+    },
+    {
       "by": "ecliptik",
       "descendants": 0,
       "id": 31907694,
@@ -14,7 +64,7 @@
       "by": "glennericksen",
       "descendants": 0,
       "id": 31907688,
-      "score": 1,
+      "score": 3,
       "time": 1656424431,
       "title": "How Do Individual Contributors Get Stuck? A Primer (2017)",
       "type": "story",
@@ -49,58 +99,6 @@
       "title": "Heroku turned its back on Rails (2013)",
       "type": "story",
       "url": "https://genius.com/James-somers-herokus-ugly-secret-annotated"
-    },
-    {
-      "by": "gsg001",
-      "descendants": 0,
-      "id": 31907638,
-      "score": 1,
-      "time": 1656424184,
-      "title": "Nicola Sturgeon sets out plan for second Scottish independence referendum",
-      "type": "story",
-      "url": "https://www.theguardian.com/politics/live/2022/jun/28/nicola-sturgeon-second-scottish-independence-referendum-boris-johnson-g7-brexit-uk-politics-live"
-    },
-    {
-      "by": "jaskyle",
-      "descendants": 0,
-      "id": 31907629,
-      "score": 1,
-      "text": "It&#x27;s been reported that as much as 80-90% of machine learning models that are meant to be deployed never get there. Is it more intentional or just a problem with the fragmented nature of the AI industry?",
-      "time": 1656424137,
-      "title": "Ask HN: Are there good reasons not to deploy Machine Learning models?",
-      "type": "story"
-    },
-    {
-      "by": "CPLX",
-      "descendants": 1,
-      "id": 31907627,
-      "kids": [
-        31907646
-      ],
-      "score": 2,
-      "time": 1656424128,
-      "title": "Twitter Is Down",
-      "type": "story"
-    },
-    {
-      "by": "mdrzn",
-      "descendants": 0,
-      "id": 31907617,
-      "score": 1,
-      "time": 1656424082,
-      "title": "Sega’s Plans for World Domination (1993)",
-      "type": "story",
-      "url": "https://www.wired.com/1993/06/sega/"
-    },
-    {
-      "by": "irthomasthomas",
-      "descendants": 0,
-      "id": 31907611,
-      "score": 1,
-      "time": 1656424066,
-      "title": "Where Is Elon Musk?",
-      "type": "story",
-      "url": "https://www.thestreet.com/technology/where-is-elon-musk"
     }
   ]
 }
