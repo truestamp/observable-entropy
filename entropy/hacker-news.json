@@ -1,10 +1,53 @@
 {
   "stories": [
     {
-      "by": "tonyhb",
+      "by": "amrrs",
       "descendants": 0,
-      "id": 31910762,
+      "id": 31910815,
       "score": 1,
+      "time": 1656438840,
+      "title": "The Salary Trap (2021)",
+      "type": "story",
+      "url": "https://twitter.com/george__mack/status/1468260716213948426"
+    },
+    {
+      "by": "ilamont",
+      "descendants": 0,
+      "id": 31910800,
+      "score": 2,
+      "time": 1656438765,
+      "title": "FCC Commissioner calls on Apple, Google to remove TikTok from app stores",
+      "type": "story",
+      "url": "https://twitter.com/BrendanCarrFCC/status/1541823585957707776"
+    },
+    {
+      "by": "bookofjoe",
+      "descendants": 0,
+      "id": 31910798,
+      "score": 1,
+      "time": 1656438762,
+      "title": "Tiny Mining Handbook",
+      "type": "story",
+      "url": "https://v2.nl/publishing/tiny-mining-a-handbook-for-internal-extraction"
+    },
+    {
+      "by": "samiur1204",
+      "descendants": 0,
+      "id": 31910773,
+      "score": 1,
+      "time": 1656438622,
+      "title": "Heyday lands $6M to build a knowledge base from the services you already use",
+      "type": "story",
+      "url": "https://techcrunch.com/2022/06/28/heyday-lands-6m-to-build-a-knowledge-base-from-the-services-you-already-use/"
+    },
+    {
+      "by": "tonyhb",
+      "descendants": 1,
+      "id": 31910762,
+      "kids": [
+        31910814
+      ],
+      "score": 2,
       "text": "Hi HN!  We’re Tony and Dan, the founders of Inngest - https:&#x2F;&#x2F;www.inngest.com.<p>Previously, Tony ran engineering at https:&#x2F;&#x2F;www.uniformteeth.com&#x2F; and Dan was the CTO of https:&#x2F;&#x2F;buffer.com&#x2F;.  At both places, we had to build and manage a lot of complex async logic.  You could say that Buffer is one big queue, and at Uniform we had lots of logic to run for compliance… managed via queues.<p>Existing queueing solutions have pretty terrible UX. We’ve been working on an event-driven queueing system [0].  We make it simple for you to write delayed or background jobs by triggering step functions from JSON-based events.<p>At a high level, Inngest does two things:<p>- Ingest events from your systems via HTTP (pun intended)<p>- Triggers serverless functions in response to specific events — async, either immediately or delayed.<p>This allows you to build out async functions (eg. background jobs, handling webhooks) much faster, without worrying about config, queues, scaffolding, boilerplate, or infra.  Because of the decoupling, it also means cleaner code.  We talk about the benefits here [1].<p>Technicals and how it’s different:<p>Functions are declarative.  They specify which events trigger them, with optional conditionals.  This is great because you can then deploy functions independently from your core systems, and you get things like canary deploys, plus immediate rollbacks.<p>Each function can have many steps, represented as a DAG.  Each step can be <i>any</i> code — an AWS function, custom code in a container, an HTTP call, etc.  Edges of the DAG can also have conditions for traversal, and can “pause” until another event comes in, with TTLs and timeout (eg. after signup, run step 1, wait for a user to do something else, then run the next step).<p>Because the functions are event driven, we also statically type and version events for you.  This lets you inspect and generate SDKs for events, or to fail early on invalid data.  It also lets you replay functions, test with historical data, or deploy functions and re-run historical events.<p>Architecturally, we’ve focused on simple standards that are easy to learn and adopt.  Events are published via HTTP requests.  Functions use args &amp; stdout.<p>You can get started without knowing any implementation details.  You only need to send events via POST requests and write functions that react to them — nothing else required.<p>What people use us for:<p>- A replacement for their current queueing infrastructure (eg. celery).<p>- Running functions after receiving webhooks<p>- Running business logic when users perform specific actions (eg. publishing things at a specific time)<p>- Handling coordinated logic (eg. when a user signs up, wait for a specific event to come in then run another step)<p>Where we’re at:<p>We’ve open sourced our core execution engine [2], which allows you to run an in-memory environment locally with a single command.  We’re working on opening more and more of the platform to allow you to self host — that’s currently our main goal.  Right now, you can use us “serverless”.  Because we record function state, we charge per ‘step’ of a function invoked.<p>We’ve documented our core OS architecture [3], and we’ve also released the function spec and interfaces in our repo. We’ve talked more about about goals, vision, and why in our open sourcing post [4]. There’s also a minimal demo w&#x2F; a Next.js backend [5].<p>We know we’re far from feature complete. There’s so much more we can do.  If there’s things you’d like to see, feedback, or improvements, please let us know — we’d love to hear from you and make this better, and get your initial thoughts.<p>[0]: https:&#x2F;&#x2F;www.inngest.com<p>[1]: https:&#x2F;&#x2F;www.inngest.com&#x2F;docs&#x2F;what-is-inngest<p>[2]: https:&#x2F;&#x2F;www.github.com&#x2F;inngest&#x2F;inngest-cli<p>[3]: https:&#x2F;&#x2F;www.inngest.com&#x2F;docs&#x2F;high-level-architecture<p>[4]: https:&#x2F;&#x2F;www.inngest.com&#x2F;blog&#x2F;open-source-event-driven-queue<p>[5]: https:&#x2F;&#x2F;github.com&#x2F;inngest&#x2F;demo-nextjs-full-stack",
       "time": 1656438552,
       "title": "Show HN: Inngest – an open-source event-driven queue",
@@ -52,53 +95,16 @@
     },
     {
       "by": "Acrobatic_Road",
-      "descendants": 0,
+      "descendants": 1,
       "id": 31910724,
+      "kids": [
+        31910792
+      ],
       "score": 2,
       "time": 1656438330,
       "title": "Gun Owners’ Private Information Leaked by California Attorney General",
       "type": "story",
       "url": "https://thereload.com/new-california-ag-website-leaks-massive-trove-of-gun-owner-private-information/"
-    },
-    {
-      "by": "jelliclesfarm",
-      "descendants": 0,
-      "id": 31910715,
-      "score": 1,
-      "time": 1656438276,
-      "title": "We have the tools and technology to work less and live better (2019)",
-      "type": "story",
-      "url": "https://bigthink.com/the-present/work-less/"
-    },
-    {
-      "by": "tambourine_man",
-      "descendants": 0,
-      "id": 31910704,
-      "score": 2,
-      "time": 1656438217,
-      "title": "Why Passkeys Will Be Simpler and More Secure Than Passwords – TidBITS",
-      "type": "story",
-      "url": "https://tidbits.com/2022/06/27/why-passkeys-will-be-simpler-and-more-secure-than-passwords/"
-    },
-    {
-      "by": "CrankyBear",
-      "descendants": 0,
-      "id": 31910699,
-      "score": 1,
-      "time": 1656438192,
-      "title": "NASA’s Deep Space Network Communicates Across the Solar System–and Beyond",
-      "type": "story",
-      "url": "https://blogs.oracle.com/connect/post/nasa-deep-space-network"
-    },
-    {
-      "by": "dmitrygr",
-      "descendants": 0,
-      "id": 31910694,
-      "score": 1,
-      "time": 1656438183,
-      "title": "The Adulterer in the Room",
-      "type": "story",
-      "url": "https://airmail.news/issues/2021-6-26/the-adulterer-in-the-room"
     }
   ]
 }
