@@ -1,9 +1,42 @@
 {
   "stories": [
     {
-      "by": "mgl",
+      "by": "huksley",
       "descendants": 0,
+      "id": 31907374,
+      "score": 2,
+      "text": "I am using awesome NextJS and serverless-nextjs and deploy my app to CloudFront and Lambda@Edge.<p>I made a mistake and accidentally created a serverless function that called itself. In a recursive loop, with a 30s timeout. I thought I fixed it and deployed the code to the dev environment.<p>I have had an AWS Billing alert (Budgets) set up to prompt me when my monthly budget goes over $300 (my usual bill is $200&#x2F;month).<p>Imagine the terror when I woke up the next day to see the AWS Billing alert email saying I already owed $1,484! I removed a function and deployed it again in 30 minutes, but it was too late. It has already run for 24 hours, using over 70 million Gb-Second!<p>Only after that I&#x27;ve learned that AWS Billing alerts do not work this way for CloudFront. You get delayed information on charges because they collect them from all regions.<p>On the following day, the bill settled at a shocking $4600. This is more than we have ever spent on AWS all time.<p>CloudFront includes the AWS Shield Standard feature, but somehow, it was not activated for this case (Lambda@Edge calling itself via CloudFront).<p>Now, I understand that I should have created CloudWatch alarms, which would alert me when the number of requests exceeds the limit. The problem is, that they need to be set up per region, and I got CloudFront charges from all points of presence.<p>I am a big proponent of the serverless approach. It makes it easy to scale and develop things (e.g., you get PR review version branches for free, both frontend and backend code like Vercel does). But now, I am unsure because such unexpected charges can ruin a side-project or emerging startup.<p>Now I am waiting on a response from AWS Support on these charges; maybe they can help me waive part of that.<p>What is your experience with it? Would you recommend to use to build a new product if you are bootstrapped, 3-person startup?",
+      "time": 1656422624,
+      "title": "Tell HN: I DDoSed myself using AWS CloudFront and Lambda Edge and got $4.5k bill",
+      "type": "story"
+    },
+    {
+      "by": "mazr",
+      "descendants": 0,
+      "id": 31907359,
+      "score": 1,
+      "time": 1656422573,
+      "title": "French police is opening their data",
+      "type": "story",
+      "url": "https://www.gendarmerie.interieur.gouv.fr/barometre-numerique/"
+    },
+    {
+      "by": "jka",
+      "descendants": 0,
+      "id": 31907344,
+      "score": 1,
+      "time": 1656422508,
+      "title": "Starting Up in a Downturn: mini-guide for founders facing a troubled economy",
+      "type": "story",
+      "url": "https://ecorner.stanford.edu/articles/71448/"
+    },
+    {
+      "by": "mgl",
+      "descendants": 1,
       "id": 31907319,
+      "kids": [
+        31907334
+      ],
       "score": 1,
       "time": 1656422395,
       "title": "Largest bacterium ever found is surprisingly complex",
@@ -69,39 +102,6 @@
       "title": "OpenSSL 3.0.5 awaits release to fix potential worse-than-Heartbleed flaw",
       "type": "story",
       "url": "https://www.theregister.com/2022/06/27/openssl_304_memory_corruption_bug/"
-    },
-    {
-      "by": "cwwc",
-      "descendants": 0,
-      "id": 31907255,
-      "score": 1,
-      "time": 1656422084,
-      "title": "They danced and died: Tragic teen party mystery in S. Africa",
-      "type": "story",
-      "url": "https://www.startribune.com/they-danced-and-died-tragic-teen-party-mystery-in-s-africa/600185594/"
-    },
-    {
-      "by": "psychoslave",
-      "descendants": 0,
-      "id": 31907250,
-      "score": 1,
-      "time": 1656422071,
-      "title": "Demystifying pack and unpack, these most misunderstood functions",
-      "type": "story",
-      "url": "https://perldoc.perl.org/perlpacktut"
-    },
-    {
-      "by": "rajnathani",
-      "descendants": 0,
-      "id": 31907233,
-      "kids": [
-        31907264
-      ],
-      "score": 1,
-      "time": 1656422000,
-      "title": "Toward Democratized IC Design and Customized Computing",
-      "type": "story",
-      "url": "https://semiengineering.com/toward-democratized-ic-design-and-customized-computing/"
     }
   ]
 }
