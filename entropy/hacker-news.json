@@ -1,6 +1,36 @@
 {
   "stories": [
     {
+      "by": "Tomte",
+      "descendants": 0,
+      "id": 31918021,
+      "score": 1,
+      "time": 1656494939,
+      "title": "Teaching the Humanities as Terribly as Possible (2018)",
+      "type": "story",
+      "url": "https://scholars-stage.org/teaching-the-humanities-as-terribly-as-possible/"
+    },
+    {
+      "by": "Tomte",
+      "descendants": 0,
+      "id": 31918019,
+      "score": 1,
+      "time": 1656494916,
+      "title": "Forebruary is a wall calendar that you do not need to replace every year. (2013)",
+      "type": "story",
+      "url": "https://ilyabirman.net/forebruary/"
+    },
+    {
+      "by": "DavidRelo",
+      "descendants": 0,
+      "id": 31917997,
+      "score": 1,
+      "time": 1656494712,
+      "title": "How to Build a Clubhouse Clone App with Android and Zegocloud",
+      "type": "story",
+      "url": "https://blog.zegocloud.com/how-to-build-a-clubhouse-clone-app-with-android-and-zegocloud-a-social-audio-app-development/"
+    },
+    {
       "by": "pcaversaccio",
       "descendants": 0,
       "id": 31917972,
@@ -72,39 +102,6 @@
       "title": "Show HN: imglab – Image optimization and processing on-demand",
       "type": "story",
       "url": "https://imglab.io"
-    },
-    {
-      "by": "kazanins",
-      "descendants": 0,
-      "id": 31917930,
-      "score": 1,
-      "time": 1656494035,
-      "title": "Why Wall Street Expects Robinhood to Be Acquired",
-      "type": "story",
-      "url": "https://www.barrons.com/articles/robinhood-hood-stock-merger-analysts-51656489138"
-    },
-    {
-      "by": "DmitryNovikov",
-      "descendants": 0,
-      "id": 31917929,
-      "score": 2,
-      "time": 1656494019,
-      "title": "Challenge: Can you spot an error in C++ code?",
-      "type": "story",
-      "url": "https://medium.com/@Code_Analysis/challenge-can-you-spot-an-error-in-c-code-9705a7a730e6"
-    },
-    {
-      "by": "hahnchen",
-      "descendants": 1,
-      "id": 31917928,
-      "kids": [
-        31917961
-      ],
-      "score": 1,
-      "text": "If two threads lock a mutex at the same time, wont both of them think they both hold the lock?<p>But then, if there’s a way to lock a mutex so that it’s impossible for two threads to do it at the same time, why not use that mechanism to modify whatever shared variable is in question?<p>I imagine that pthread or &lt;insert other threading library&gt;’s provided mutex is, internally, an integer which is set to 1 or 0 depending on the mutex’s state.<p>if i want to share an integer from my program with another thread, why cant I just use whatever is used by the mutex?",
-      "time": 1656494018,
-      "title": "Ask HN: Can a mutex have a race condition?",
-      "type": "story"
     }
   ]
 }
