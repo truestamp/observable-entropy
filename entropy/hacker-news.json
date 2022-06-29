@@ -1,6 +1,56 @@
 {
   "stories": [
     {
+      "by": "the_decider",
+      "descendants": 0,
+      "id": 31921404,
+      "score": 1,
+      "time": 1656515903,
+      "title": "Hunting Russian War Criminals with Open-Source Face Comparison Tools",
+      "type": "story",
+      "url": "https://medium.com/@DataSalo/hunting-russian-war-criminals-with-open-source-face-comparison-tools-c2699df87542"
+    },
+    {
+      "by": "Tomte",
+      "descendants": 0,
+      "id": 31921403,
+      "score": 1,
+      "time": 1656515893,
+      "title": "Pre-Modern Battlefields Were Absolutely Terrifying (2015) (2015)",
+      "type": "story",
+      "url": "https://scholars-stage.org/pre-modern-battlefields-were-absolutely-terrifying/"
+    },
+    {
+      "by": "Barrera",
+      "descendants": 0,
+      "id": 31921393,
+      "score": 1,
+      "time": 1656515850,
+      "title": "Great America, a beloved Bay Area theme park, to shut down within next 11 years",
+      "type": "story",
+      "url": "https://www.sfgate.com/local/article/Great-America-Bay-Area-theme-park-to-close-17269722.php"
+    },
+    {
+      "by": "gscott",
+      "descendants": 0,
+      "id": 31921365,
+      "score": 1,
+      "time": 1656515751,
+      "title": "Where Are the Men Who Should Be Held to Account?",
+      "type": "story",
+      "url": "https://vickyward.substack.com/p/where-are-the-men-who-should-be-held"
+    },
+    {
+      "by": "hugorut",
+      "descendants": 0,
+      "id": 31921313,
+      "score": 3,
+      "text": "Hey, Hugo from Infracost (https:&#x2F;&#x2F;www.infracost.io) here. Infracost shows engineers the cost of each Terraform change in CI&#x2F;CD before launching resources. When something changes, it posts a comment with the cloud cost impact. e.g. you’ve added two instances and volumes and have changed an instance type from medium to large; this will increase your bill by 25% next month from $1000 to $1250 per month.<p>Over the last few months, I&#x27;ve been working on a native evaluation for Terraform. Previously we relied on the Terraform CLI to fetch cloud resource information, which was a little slow and cumbersome.<p>Native parsing is not only lightning-fast, but it means we have contextual file information, which allows us to try a load of cool new things. For example, we could provide real-time suggestions to optimise your cloud costs as you write your infrastructure code! This VSCode extension is the result of a few weeks of hacking away whilst I should have been relaxing in the sun in Italy... time better spent, I think!<p>We&#x27;re excited about the possibilities of directly integrating with editors. There is so much we can do to make DevOps lives easier when optimising cloud spend. Right now, we&#x27;re looking for your feedback on this initial version of the extension. It currently ships with:<p>1. Show a snapshot of the total cost of resources right above their Terraform definitions. Updated on file save.\n2. Resource and module blocks support showing cost estimates, including 3rd party module blocks.\n3. A cost overview web-view shows a detailed breakdown of what components affect the price.<p>Please note this is an early release of the VSCode extension, so there will likely be bugs. If you get stuck, please raise an issue (https:&#x2F;&#x2F;github.com&#x2F;infracost&#x2F;vscode-infracost&#x2F;issues), and we&#x27;ll help you out asap.<p>We’d love to get your feedback on this extension, mainly what you think it’s missing and would help your workflow. Head over to the GitHub repo (https:&#x2F;&#x2F;github.com&#x2F;infracost&#x2F;vscode-infracost) for more information and installation instructions.",
+      "time": 1656515544,
+      "title": "Show HN: Infracost (YC W21): Cloud Costs for Terraform in VSCode",
+      "type": "story"
+    },
+    {
       "by": "mariuz",
       "descendants": 0,
       "id": 31921308,
@@ -49,62 +99,6 @@
       "title": "Man of Culture",
       "type": "story",
       "url": "https://fiftytwo.in/story/man-of-culture/"
-    },
-    {
-      "by": "PaulHoule",
-      "descendants": 0,
-      "id": 31921273,
-      "score": 1,
-      "time": 1656515364,
-      "title": "IMSR to be considered for ammonia production",
-      "type": "story",
-      "url": "https://www.world-nuclear-news.org/Articles/IMSR-to-be-considered-for-ammonia-production"
-    },
-    {
-      "by": "neocortex666",
-      "descendants": 1,
-      "id": 31921265,
-      "kids": [
-        31921266
-      ],
-      "score": 1,
-      "time": 1656515341,
-      "title": "The Death of Taxi Hailing Services",
-      "type": "story",
-      "url": "https://medium.com/@prometheus666/the-death-of-taxi-hailing-services-60f4b3ccbce8"
-    },
-    {
-      "by": "marban",
-      "descendants": 1,
-      "id": 31921235,
-      "kids": [
-        31921237
-      ],
-      "score": 3,
-      "time": 1656515228,
-      "title": "Web3 Is the Big Idea Customers Didn’t Ask For",
-      "type": "story",
-      "url": "https://www.bloomberg.com/news/articles/2022-06-28/web3-is-the-big-idea-customers-didn-t-ask-for"
-    },
-    {
-      "by": "ohad1282",
-      "descendants": 0,
-      "id": 31921218,
-      "score": 1,
-      "time": 1656515174,
-      "title": "Managing multi layer complex workflows of Terraform/IaC",
-      "type": "story",
-      "url": "https://docs.env0.com/changelog/env0-workflows"
-    },
-    {
-      "by": "mduperre",
-      "descendants": 0,
-      "id": 31921214,
-      "score": 1,
-      "text": "I&#x27;ve built what we believe to be the most distributed Kubernetes (public) infrastructure, spread over 350 datacenters worldwide. We are not using standard federation, we faced multiple challenges not supported by K8. We looked at this from a different angle than your typical run-of-the-mill k8 deployment since we host multiplayer game servers. Those can’t scale like web apps (stateful connections), and require low latency which prevents steering through many proxies. Our goal was to allow on-demand, in a real-time environment, requests to deploy an application (game servers, or anything really) anywhere on this distributed network. We use this technic to get pods in the best location to lower latency which is critical in multiplayer games. We’ve shown latency reduction by 50% in average for majority of the traffic. We leverage edge computing which is why we called the startup Edgegap. Feel free to ask me anything.<p>I&#x27;m guessing some private infrastructure may have more locations, but they&#x27;re most likely private like food chain or something like that. None of them are public, and they&#x27;re typically built to run only 1 set of applications (aka the apps from the food chain).",
-      "time": 1656515164,
-      "title": "I built the most distributed serverless infrastrucutre in the world",
-      "type": "story"
     }
   ]
 }
