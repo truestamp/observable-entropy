@@ -1,6 +1,76 @@
 {
   "stories": [
     {
+      "by": "doener",
+      "descendants": 0,
+      "id": 31925237,
+      "score": 1,
+      "time": 1656534001,
+      "title": "It was probably not a Deep Fake that tricked the Mayor of Berlin",
+      "type": "story",
+      "url": "https://twitter.com/DanielLaufer/status/1541033121591820289"
+    },
+    {
+      "by": "susam",
+      "descendants": 0,
+      "id": 31925235,
+      "score": 1,
+      "time": 1656533991,
+      "title": "Re-Move Files in Emacs",
+      "type": "story",
+      "url": "https://zck.org/emacs-move-file-again"
+    },
+    {
+      "by": "feross",
+      "descendants": 0,
+      "id": 31925216,
+      "score": 1,
+      "time": 1656533895,
+      "title": "Release Notes for Safari Technology Preview 148",
+      "type": "story",
+      "url": "https://webkit.org/blog/12992/release-notes-for-safari-technology-preview-148/"
+    },
+    {
+      "by": "midzer",
+      "descendants": 0,
+      "id": 31925214,
+      "score": 1,
+      "time": 1656533893,
+      "title": "Show HN: D'Ehre – Say Hello in Bavarian",
+      "type": "story",
+      "url": "https://deh.re/HackerNews"
+    },
+    {
+      "by": "lukastyrychtr",
+      "descendants": 0,
+      "id": 31925210,
+      "score": 1,
+      "time": 1656533879,
+      "title": "Bootloaders and machine IDs – AdamW on Linux and more",
+      "type": "story",
+      "url": "https://www.happyassassin.net/posts/2022/01/11/adamws-debugging-adventures-bootloaders-and-machine-ids/"
+    },
+    {
+      "by": "doener",
+      "descendants": 0,
+      "id": 31925191,
+      "score": 1,
+      "time": 1656533800,
+      "title": "Crypto hedge fund Three Arrows Capital in default on $665M loan",
+      "type": "story",
+      "url": "https://www.washingtonpost.com/business/2022/06/27/three-arrows-capital-default-crypto-voyager-digital/"
+    },
+    {
+      "by": "doener",
+      "descendants": 0,
+      "id": 31925189,
+      "score": 3,
+      "time": 1656533782,
+      "title": "Crypto hedge fund Three Arrows fails to meet lender margin calls",
+      "type": "story",
+      "url": "https://www.ft.com/content/126d8b02-f06a-4fd9-a57b-9f4ceab3de71"
+    },
+    {
       "by": "SpaceBuddha",
       "descendants": 0,
       "id": 31925154,
@@ -22,83 +92,16 @@
     },
     {
       "by": "ravirajx7",
-      "descendants": 0,
+      "descendants": 1,
       "id": 31925145,
-      "score": 1,
+      "kids": [
+        31925190
+      ],
+      "score": 2,
       "text": "Hi All,<p>I have a screen which displays QR code on browser screen &amp; at the same time it opens a Websocket connection with my backend(Spring). Once the payment is done a Webhook response comes to one of my backend endpoint with the payment state(success&#x2F;failure) &amp; other order details.<p>The application is working fine if it is running locally or with only single instance. But since we have our own Auto scaling group and load balancer configured over DNS, the connection is not getting established all the time.<p>So, how exactly shall this be architectured so as to scale the same horizontally? I don&#x27;t have any DB configured as of now. I have thought of using SNS with SQS but it seems they are way too many overheads. How do big companies like WhatsApp scale?",
       "time": 1656533520,
       "title": "Ask HN: How do you scale WebSocket?",
       "type": "story"
-    },
-    {
-      "by": "donutshop",
-      "descendants": 0,
-      "id": 31925136,
-      "score": 1,
-      "time": 1656533417,
-      "title": "Microsoft Guide on Bias-free communication",
-      "type": "story",
-      "url": "https://docs.microsoft.com/en-us/style-guide/bias-free-communication"
-    },
-    {
-      "by": "dadamitis",
-      "descendants": 0,
-      "id": 31925104,
-      "score": 1,
-      "time": 1656533227,
-      "title": "ZuoRAT Hijacks Soho Routers to Silently Stalk Networks",
-      "type": "story",
-      "url": "https://blog.lumen.com/zuorat-hijacks-soho-routers-to-silently-stalk-networks/"
-    },
-    {
-      "by": "Shawnmi6",
-      "descendants": 0,
-      "id": 31925097,
-      "score": 1,
-      "time": 1656533186,
-      "title": "Connect with Mentors and Investors",
-      "type": "story",
-      "url": "https://www.seedhub.app/"
-    },
-    {
-      "by": "hodgesrm",
-      "descendants": 0,
-      "id": 31925082,
-      "score": 1,
-      "time": 1656533126,
-      "title": "Databricks open sources its Delta Lake data lakehouse",
-      "type": "story",
-      "url": "https://www.infoworld.com/article/3665117/databricks-open-sources-its-delta-lake-data-lake.html"
-    },
-    {
-      "by": "paulpauper",
-      "descendants": 0,
-      "id": 31925065,
-      "score": 1,
-      "time": 1656533048,
-      "title": "Survivorship Bias: Why You Only Care About the Winners",
-      "type": "story",
-      "url": "https://www.wealest.com/articles/survivorship-bias"
-    },
-    {
-      "by": "xenohunter",
-      "descendants": 0,
-      "id": 31925057,
-      "score": 1,
-      "time": 1656533028,
-      "title": "The Mirror of Language",
-      "type": "story",
-      "url": "https://return.life/2022/06/29/the-mirror-of-language/"
-    },
-    {
-      "by": "socketpuppets",
-      "descendants": 0,
-      "id": 31925038,
-      "score": 2,
-      "time": 1656532963,
-      "title": "Detect Coin Scammers with Wallet-Tracker CLI from Anywhere",
-      "type": "story",
-      "url": "https://github.com/aydinnyunus/wallet-tracker"
     }
   ]
 }
