@@ -1,11 +1,31 @@
 {
   "stories": [
     {
+      "by": "Tomte",
+      "descendants": 0,
+      "id": 31919319,
+      "score": 1,
+      "time": 1656506367,
+      "title": "We got addicted to using Q-tips the wrong way",
+      "type": "story",
+      "url": "https://www.cnn.com/2022/06/25/business/q-tips-ears-wellness-history/index.html"
+    },
+    {
+      "by": "OrderOfChaos",
+      "descendants": 0,
+      "id": 31919280,
+      "score": 1,
+      "time": 1656506114,
+      "title": "Can a Mental Health App Help You Deal with Anxiety?",
+      "type": "story",
+      "url": "https://www.smithsonianmag.com/science-nature/can-a-mental-health-app-help-you-deal-with-anxiety-180980300/"
+    },
+    {
       "by": "drag00n",
       "descendants": 0,
       "id": 31919278,
-      "score": 1,
-      "text": "I’ve been working on this weather dashboard for a couple years now, and wanted to discuss it with you guys.\nHere it is:\n<a href=\"https:&#x2F;&#x2F;zima.prokofyev.ch&#x2F;?token=7f7e9e7ca3msh1f401291ce0855ep181698jsn9d6179e705d3\" rel=\"nofollow\">https:&#x2F;&#x2F;zima.prokofyev.ch&#x2F;?token=7f7e9e7ca3msh1f401291ce0855...</a> [1]<p>A couple videos are available here:\n<a href=\"https:&#x2F;&#x2F;www.loom.com&#x2F;share&#x2F;881b4a93441141429d9260c46f098b13\" rel=\"nofollow\">https:&#x2F;&#x2F;www.loom.com&#x2F;share&#x2F;881b4a93441141429d9260c46f098b13</a>\n<a href=\"https:&#x2F;&#x2F;www.loom.com&#x2F;share&#x2F;845b6efd7ac645768b103d05c4993072\" rel=\"nofollow\">https:&#x2F;&#x2F;www.loom.com&#x2F;share&#x2F;845b6efd7ac645768b103d05c4993072</a>\n<a href=\"https:&#x2F;&#x2F;www.loom.com&#x2F;share&#x2F;6ede6a39452a4aefabad3a059d0e33ca\" rel=\"nofollow\">https:&#x2F;&#x2F;www.loom.com&#x2F;share&#x2F;6ede6a39452a4aefabad3a059d0e33ca</a><p>There is also a playground where you can test different weather conditions and time of the day (not every weather condition&#x2F;combination might work):\n<a href=\"https:&#x2F;&#x2F;zima.prokofyev.ch&#x2F;test?token=7f7e9e7ca3msh1f401291ce0855ep181698jsn9d6179e705d3\" rel=\"nofollow\">https:&#x2F;&#x2F;zima.prokofyev.ch&#x2F;test?token=7f7e9e7ca3msh1f401291ce...</a><p>The idea of a dashboard comes from this wonderful Animated Weather Cards on codepen: <a href=\"https:&#x2F;&#x2F;codepen.io&#x2F;ste-vg&#x2F;pen&#x2F;GqaZbo\" rel=\"nofollow\">https:&#x2F;&#x2F;codepen.io&#x2F;ste-vg&#x2F;pen&#x2F;GqaZbo</a>.\nI have quickly built the first version of the dashboard by patching up OpenWeather api and making a separate card for the next 5 days: <a href=\"https:&#x2F;&#x2F;starport.prokofyev.ch&#x2F;dashboard&#x2F;?token=7f7e9e7ca3msh1f401291ce0855ep181698jsn9d6179e705d3\" rel=\"nofollow\">https:&#x2F;&#x2F;starport.prokofyev.ch&#x2F;dashboard&#x2F;?token=7f7e9e7ca3msh...</a><p>Then I added rising&#x2F;setting sun background animation based on the CSS Sunset Sunrise codepen, which is synchronized to the actual sunrise at a given location. The sun on each card also rises and sets accordingly (and the moon comes shortly after). I have also replaced 3 layers of clouds with sort of cloud-shape-like objects. This allows for easier tinting based on time of the day and better depiction of the cloud conditions (few clouds, broken clouds, etc.).<p>Unfortunately, svg animations from the original codepen were quite heavy on the resources, and as I wanted to run this thing on raspberry PI, it was too slow at around 15 FPS. So I reimplemented rain, snow and clouds using webgl canvas with PIXI.JS and also upgraded TweenMax to GSAP 3. That boosted the FPS rate to around 30.<p>Anyway, I am looking for any feedback on this. Does it look good to you? Would you use something like this at home? What other features could be useful on such a board? Do you think it has a market?<p>[1] This is a temporary token that has a request count limitation, if the page doesn&#x27;t show anything anymore, you need to create your own token from rapidapi by subscribing to this API (there is a free plan):\n<a href=\"https:&#x2F;&#x2F;rapidapi.com&#x2F;faraway-technologies-faraway-technologies-default&#x2F;api&#x2F;dashboard25&#x2F;pricing\" rel=\"nofollow\">https:&#x2F;&#x2F;rapidapi.com&#x2F;faraway-technologies-faraway-technologi...</a><p>P.S.: I am not a professional front-end dev, I have never worked on any public-facing projects, only hobby and internal tools, so things might be a bit rough on the edges.",
+      "score": 2,
+      "text": "I’ve been working on this weather dashboard for a couple years now, and wanted to discuss it with you guys.\nHere it is:<p><a href=\"https:&#x2F;&#x2F;zima.prokofyev.ch&#x2F;?token=7f7e9e7ca3msh1f401291ce0855ep181698jsn9d6179e705d3\" rel=\"nofollow\">https:&#x2F;&#x2F;zima.prokofyev.ch&#x2F;?token=7f7e9e7ca3msh1f401291ce0855...</a> [1]<p>A couple videos are available here:<p><a href=\"https:&#x2F;&#x2F;www.loom.com&#x2F;share&#x2F;881b4a93441141429d9260c46f098b13\" rel=\"nofollow\">https:&#x2F;&#x2F;www.loom.com&#x2F;share&#x2F;881b4a93441141429d9260c46f098b13</a><p><a href=\"https:&#x2F;&#x2F;www.loom.com&#x2F;share&#x2F;845b6efd7ac645768b103d05c4993072\" rel=\"nofollow\">https:&#x2F;&#x2F;www.loom.com&#x2F;share&#x2F;845b6efd7ac645768b103d05c4993072</a><p><a href=\"https:&#x2F;&#x2F;www.loom.com&#x2F;share&#x2F;6ede6a39452a4aefabad3a059d0e33ca\" rel=\"nofollow\">https:&#x2F;&#x2F;www.loom.com&#x2F;share&#x2F;6ede6a39452a4aefabad3a059d0e33ca</a><p>There is also a playground where you can test different weather conditions and time of the day (not every weather condition&#x2F;combination might work):\n<a href=\"https:&#x2F;&#x2F;zima.prokofyev.ch&#x2F;test?token=7f7e9e7ca3msh1f401291ce0855ep181698jsn9d6179e705d3\" rel=\"nofollow\">https:&#x2F;&#x2F;zima.prokofyev.ch&#x2F;test?token=7f7e9e7ca3msh1f401291ce...</a><p>The idea of a dashboard comes from this wonderful Animated Weather Cards on codepen: <a href=\"https:&#x2F;&#x2F;codepen.io&#x2F;ste-vg&#x2F;pen&#x2F;GqaZbo\" rel=\"nofollow\">https:&#x2F;&#x2F;codepen.io&#x2F;ste-vg&#x2F;pen&#x2F;GqaZbo</a>.\nI have quickly built the first version of the dashboard by patching up OpenWeather api and making a separate card for the next 5 days: <a href=\"https:&#x2F;&#x2F;starport.prokofyev.ch&#x2F;dashboard&#x2F;?token=7f7e9e7ca3msh1f401291ce0855ep181698jsn9d6179e705d3\" rel=\"nofollow\">https:&#x2F;&#x2F;starport.prokofyev.ch&#x2F;dashboard&#x2F;?token=7f7e9e7ca3msh...</a><p>Then I added rising&#x2F;setting sun background animation based on the CSS Sunset Sunrise codepen, which is synchronized to the actual sunrise at a given location. The sun on each card also rises and sets accordingly (and the moon comes shortly after). I have also replaced 3 layers of clouds with sort of cloud-shape-like objects. This allows for easier tinting based on time of the day and better depiction of the cloud conditions (few clouds, broken clouds, etc.).<p>Unfortunately, svg animations from the original codepen were quite heavy on the resources, and as I wanted to run this thing on raspberry PI, it was too slow at around 15 FPS. So I reimplemented rain, snow and clouds using webgl canvas with PIXI.JS and also upgraded TweenMax to GSAP 3. That boosted the FPS rate to around 30.<p>Anyway, I am looking for any feedback on this. Does it look good to you? Would you use something like this at home? What other features could be useful on such a board? Do you think it has a market?<p>[1] This is a temporary token that has a request count limitation, if the page doesn&#x27;t show anything anymore, you need to create your own token from rapidapi by subscribing to this API (there is a free plan):<p><a href=\"https:&#x2F;&#x2F;rapidapi.com&#x2F;faraway-technologies-faraway-technologies-default&#x2F;api&#x2F;dashboard25&#x2F;pricing\" rel=\"nofollow\">https:&#x2F;&#x2F;rapidapi.com&#x2F;faraway-technologies-faraway-technologi...</a><p>P.S. I am not a professional front-end dev, I have never worked on any public-facing projects, only hobby and internal tools, so things might be a bit rough on the edges.",
       "time": 1656506099,
       "title": "Show HN: Animated Weather Dashboard",
       "type": "story",
@@ -80,26 +100,6 @@
       "title": "The Cloud Risk Encylopedia",
       "type": "story",
       "url": "https://orca.security/resources/cloud-risk-encyclopedia/"
-    },
-    {
-      "by": "tmaxxcar",
-      "descendants": 0,
-      "id": 31919215,
-      "score": 1,
-      "time": 1656505749,
-      "title": "Company aims to power the world by digging the deepest holes ever",
-      "type": "story",
-      "url": "https://interestingengineering.com/company-power-world-dig-deepest-holes"
-    },
-    {
-      "by": "irthomasthomas",
-      "descendants": 0,
-      "id": 31919214,
-      "score": 1,
-      "time": 1656505745,
-      "title": "Elon Musk abruptly stopped tweeting 8 days ago, and no one knows why",
-      "type": "story",
-      "url": "https://www.businessinsider.com/elon-musk-stopped-tweeting-amid-twitter-takeover-bid-2022-6"
     }
   ]
 }
