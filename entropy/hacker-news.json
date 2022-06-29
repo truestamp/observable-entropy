@@ -1,6 +1,69 @@
 {
   "stories": [
     {
+      "by": "ptrkmhms",
+      "descendants": 0,
+      "id": 31917967,
+      "score": 1,
+      "time": 1656494403,
+      "title": "Microsoft Learned ABCs of D.C",
+      "type": "story",
+      "url": "https://www.politico.com/story/2011/04/how-microsoft-learned-abcs-of-dc-052483"
+    },
+    {
+      "by": "user_hacking",
+      "descendants": 0,
+      "id": 31917959,
+      "score": 1,
+      "time": 1656494344,
+      "title": "5G: Où en sont les françAIs?",
+      "type": "story",
+      "url": "https://www.greenit.fr/2021/01/19/les-francais-contre-la-5g-sondage/"
+    },
+    {
+      "by": "OrderOfChaos",
+      "descendants": 0,
+      "id": 31917951,
+      "score": 1,
+      "time": 1656494267,
+      "title": "The atheist case for free speech",
+      "type": "story",
+      "url": "https://onlysky.media/pzuckerman/the-atheist-case-for-free-speech/"
+    },
+    {
+      "by": "tomduncalf",
+      "descendants": 0,
+      "id": 31917948,
+      "score": 1,
+      "time": 1656494246,
+      "title": "The iPhone at 15: pro photographers on how it changed their world",
+      "type": "story",
+      "url": "https://www.theguardian.com/artanddesign/2022/jun/29/the-iphone-at-15-pro-photographers-on-how-it-changed-their-world"
+    },
+    {
+      "by": "haunter",
+      "descendants": 0,
+      "id": 31917946,
+      "score": 1,
+      "time": 1656494198,
+      "title": "Non-English-based programming languages",
+      "type": "story",
+      "url": "https://en.wikipedia.org/wiki/Non-English-based_programming_languages"
+    },
+    {
+      "by": "jfcalvo",
+      "descendants": 1,
+      "id": 31917940,
+      "kids": [
+        31917943
+      ],
+      "score": 1,
+      "time": 1656494140,
+      "title": "Show HN: imglab – Image optimization and processing on-demand",
+      "type": "story",
+      "url": "https://imglab.io"
+    },
+    {
       "by": "kazanins",
       "descendants": 0,
       "id": 31917930,
@@ -22,8 +85,11 @@
     },
     {
       "by": "hahnchen",
-      "descendants": 0,
+      "descendants": 1,
       "id": 31917928,
+      "kids": [
+        31917961
+      ],
       "score": 1,
       "text": "If two threads lock a mutex at the same time, wont both of them think they both hold the lock?<p>But then, if there’s a way to lock a mutex so that it’s impossible for two threads to do it at the same time, why not use that mechanism to modify whatever shared variable is in question?<p>I imagine that pthread or &lt;insert other threading library&gt;’s provided mutex is, internally, an integer which is set to 1 or 0 depending on the mutex’s state.<p>if i want to share an integer from my program with another thread, why cant I just use whatever is used by the mutex?",
       "time": 1656494018,
@@ -39,66 +105,6 @@
       "title": "Scientific Integrity and the History of Deep Learning",
       "type": "story",
       "url": "https://people.idsia.ch/~juergen/scientific-integrity-turing-award-deep-learning.html"
-    },
-    {
-      "by": "jrepinc",
-      "descendants": 0,
-      "id": 31917917,
-      "score": 1,
-      "time": 1656493903,
-      "title": "I saw first-hand how US tech giants seduced the EU – and undermined democracy",
-      "type": "story",
-      "url": "https://www.theguardian.com/commentisfree/2022/jun/28/i-saw-first-hand-tech-giants-seduced-eu-google-meta"
-    },
-    {
-      "by": "andreacavagna",
-      "descendants": 0,
-      "id": 31917860,
-      "score": 2,
-      "time": 1656493191,
-      "title": "A Beginner Friendly Introduction to Pipelines and Terraform",
-      "type": "story",
-      "url": "https://medium.com/leapp-cloud/a-beginner-friendly-introduction-to-pipelines-and-terraform-881db45e4409"
-    },
-    {
-      "by": "Machy8",
-      "descendants": 0,
-      "id": 31917859,
-      "score": 1,
-      "time": 1656493190,
-      "title": "Style your Next.js website faster with Stylify CSS",
-      "type": "story",
-      "url": "https://stylifycss.com/blog/style-your-next-js-website-faster-with-stylify-css/"
-    },
-    {
-      "by": "janandonly",
-      "descendants": 0,
-      "id": 31917825,
-      "score": 1,
-      "time": 1656492874,
-      "title": "Lnd 0.15 beta: To Taproot and Beyond",
-      "type": "story",
-      "url": "https://lightning.engineering/posts/2022-6-28-lnd0.15-launch/"
-    },
-    {
-      "by": "vincent_s",
-      "descendants": 0,
-      "id": 31917788,
-      "score": 2,
-      "time": 1656492172,
-      "title": "Google to Pay Wikipedia for Content",
-      "type": "story",
-      "url": "https://www.seroundtable.com/google-to-pay-wikipedia-33652.html"
-    },
-    {
-      "by": "todsacerdoti",
-      "descendants": 0,
-      "id": 31917777,
-      "score": 1,
-      "time": 1656492025,
-      "title": "Analyze OpenBSD’s Kernel with Domain-Specific Knowledge",
-      "type": "story",
-      "url": "https://scribe.citizen4.eu/@chrissicool/analyze-openbsds-kernel-with-domain-specific-knowledge-ca665d92eebb"
     }
   ]
 }
