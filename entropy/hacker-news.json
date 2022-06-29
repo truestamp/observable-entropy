@@ -1,6 +1,46 @@
 {
   "stories": [
     {
+      "by": "adrian_mrd",
+      "descendants": 0,
+      "id": 31925989,
+      "score": 1,
+      "time": 1656538446,
+      "title": "Snapchat Launches Subscription Tier with Access to New Features",
+      "type": "story",
+      "url": "https://www.hollywoodreporter.com/business/digital/snapchat-plus-subscription-1235173725/"
+    },
+    {
+      "by": "bryanrasmussen",
+      "descendants": 0,
+      "id": 31925981,
+      "score": 1,
+      "time": 1656538406,
+      "title": "Prestige Comics: On the Penguin Classics Marvel Collection",
+      "type": "story",
+      "url": "https://themillions.com/2022/05/prestige-comics-on-the-penguin-classics-marvel-collection.html"
+    },
+    {
+      "by": "starkd",
+      "descendants": 0,
+      "id": 31925979,
+      "score": 1,
+      "time": 1656538390,
+      "title": "EVs Are Becoming More Expensive, Not Less",
+      "type": "story",
+      "url": "https://www.thetruthaboutcars.com/2022/06/evs-expensive/"
+    },
+    {
+      "by": "cpeterso",
+      "descendants": 0,
+      "id": 31925976,
+      "score": 1,
+      "time": 1656538378,
+      "title": "What Drop-In API Observability Looks Like, Pre-Launch and Post-Launch",
+      "type": "story",
+      "url": "https://www.akitasoftware.com/blog-posts/drop-in-api-observability-pre-launch-and-post-launch"
+    },
+    {
       "by": "ivanvas",
       "descendants": 0,
       "id": 31925955,
@@ -59,46 +99,6 @@
       "title": "Please remove stolen intellectual property",
       "type": "story",
       "url": "https://github.com/w3itch-crafter/w3itch-frontend/issues/340"
-    },
-    {
-      "by": "questionmania",
-      "descendants": 0,
-      "id": 31925898,
-      "score": 1,
-      "text": "I love technology, I care about myself and others, mentally, physically and spiritually. Invested in growth on every life vertical, I do sports, I meditate, I read a lot, I made sure I have proper financial education, I try to properly take care of my kids knowing all subtle things that can influence them, etc. Basically I am pretty self aware and I care about improving my life and others&#x27; as much as I can. And I very actively do something about it, not just care.<p>But I find myself in the capital of an European country, with not that many that share same interests, most, of course share just a few, or understand the utility of just few of them, etc. Few have a real drive for living, even if they have money. Most of those who do just party hard, seek validation, etc. The other few that share ambition to grow or do interesting things, are burnt out or depressed.<p>I plan to take my family this summer and move somewhere where I can encounter on a daily basis people that share same values and what I consider a healthy approach on life. But I don&#x27;t know how can I find a place - city, community, island - that meets my needs.<p>Any clue?",
-      "time": 1656537872,
-      "title": "Where can I find a good tribe / community for myself?",
-      "type": "story"
-    },
-    {
-      "by": "OrderOfChaos",
-      "descendants": 0,
-      "id": 31925891,
-      "score": 1,
-      "time": 1656537847,
-      "title": "Facebook’s ethical failures are not accidental (2021)",
-      "type": "story",
-      "url": "https://link.springer.com/article/10.1007/s43681-021-00068-x"
-    },
-    {
-      "by": "tmm1",
-      "descendants": 0,
-      "id": 31925871,
-      "score": 4,
-      "text": "I wanted to share a simple web app I created recently, which lets you estimate income taxes owed in the US: https:&#x2F;&#x2F;taxsim.app<p>All the calculations occur directly in the browser, and are powered by a Fortran program that has been converted to WASM using emscripten. This calculator was originally developed in the 1970s [1] by the non-profit National Bureau of Economic Research. NBER has been maintaining this F77 codebase for the last 50 years, and uses it primarily for academic research on tax policy. The Fortran source code itself is over 1MB of text, because it codifies both federal and all 50 states&#x27; tax laws for each of the last 62 years.<p>I first learned about NBER TAXSIM [2] a few months ago via an interesting paper they published &quot;Automatic Tax Filing: Simulating a Pre-Populated Form 1040&quot; [3]. The Fortran code itself is not open-source, but is available on request for research purposes. I reached out to NBER and proposed compiling it to WASM, so it could be run directly in a browser. With relatively little effort I was able to create a js&#x2F;wasm version [4], thanks in huge part to previous open-source work [5].<p>This WASM build now powers https:&#x2F;&#x2F;taxsim.app, which is my attempt to create an interactive UI to allow for easier exploration of the US tax code. Specific tax scenarios can also be shared easily, by simply copying the browser URL. The code for this webapp is also open-source [6].<p>This was my first time experimenting with WASM, and I am already a huge fan. Not only was I able to take a 60 year old codebase and get it working on every modern browser and device, this work is also now benefiting the academic community. For example, the js&#x2F;wasm can be run directly in V8, which means it can also now be run locally within R using libv8 [7]. Previously most researchers were uploading their tax scenarios to NBER&#x27;s servers via ftp&#x2F;ssh&#x2F;http.<p>[1] https:&#x2F;&#x2F;taxsim.nber.org&#x2F;feenberg-coutts.pdf<p>[2] https:&#x2F;&#x2F;taxsim.nber.org&#x2F;<p>[3] https:&#x2F;&#x2F;www.nber.org&#x2F;papers&#x2F;w30008<p>[4] https:&#x2F;&#x2F;github.com&#x2F;tmm1&#x2F;taxsim.js<p>[5] https:&#x2F;&#x2F;chrz.de&#x2F;2020&#x2F;04&#x2F;21&#x2F;fortran-in-the-browser&#x2F;<p>[6] https:&#x2F;&#x2F;github.com&#x2F;tmm1&#x2F;taxsim.app<p>[7] https:&#x2F;&#x2F;github.com&#x2F;shanejorr&#x2F;usincometaxes&#x2F;pull&#x2F;11",
-      "time": 1656537747,
-      "title": "Show HN: Calculator for US Individual Income tax, from 1970-present",
-      "type": "story"
-    },
-    {
-      "by": "Tozen",
-      "descendants": 0,
-      "id": 31925848,
-      "score": 1,
-      "time": 1656537579,
-      "title": "Why Are Companies Migrating from Python to Go? [video]",
-      "type": "story",
-      "url": "https://www.youtube.com/watch?v=NwLHEsSYhgc"
     }
   ]
 }
