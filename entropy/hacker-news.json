@@ -1,6 +1,36 @@
 {
   "stories": [
     {
+      "by": "CoffeeOnWrite",
+      "descendants": 0,
+      "id": 31931118,
+      "score": 1,
+      "time": 1656588852,
+      "title": "Airbnb Announces a Permanent Ban on Parties",
+      "type": "story",
+      "url": "https://www.nytimes.com/2022/06/29/business/airbnb-bans-parties.html"
+    },
+    {
+      "by": "vincent_s",
+      "descendants": 0,
+      "id": 31931117,
+      "score": 1,
+      "time": 1656588837,
+      "title": "There’s no such thing as willpower (2016)",
+      "type": "story",
+      "url": "https://blog.beeminder.com/willpower/"
+    },
+    {
+      "by": "RafelMri",
+      "descendants": 0,
+      "id": 31931097,
+      "score": 1,
+      "time": 1656588688,
+      "title": "Forget Lasers. The Hot New Tool for Physicists Is Sound",
+      "type": "story",
+      "url": "https://www.wired.com/story/acoustic-sound-waves-engineers-physics/"
+    },
+    {
       "by": "upnick",
       "descendants": 1,
       "id": 31931084,
@@ -11,13 +41,13 @@
       "time": 1656588590,
       "title": "Future Unicorn Rockets for Sale",
       "type": "story",
-      "url": "http://brandpa.com/sellers/namably"
+      "url": "https://brandpa.com/sellers/namably"
     },
     {
       "by": "HieronymusBosch",
       "descendants": 0,
       "id": 31931080,
-      "score": 1,
+      "score": 2,
       "time": 1656588525,
       "title": "Countering Hack-for-Hire Groups",
       "type": "story",
@@ -37,7 +67,7 @@
       "by": "throw0101c",
       "descendants": 0,
       "id": 31931058,
-      "score": 1,
+      "score": 2,
       "time": 1656588325,
       "title": "Nearly a quarter of Earth's seafloor now mapped",
       "type": "story",
@@ -47,7 +77,7 @@
       "by": "snowcode",
       "descendants": 0,
       "id": 31931050,
-      "score": 1,
+      "score": 2,
       "text": "We need a better robots.txt standard  … that tech companies (and bot writers) should be required to adhere to; Here&#x27;s my simple suggestion;<p>Stopping a huge amount of bad bot behaviour surely could be a really simple thing to do? .. I believe it is, and here’s how …<p>* Bots should have to start a session by requesting robots.txt before any interaction with a website;\nthat robots file should optionally include a correlationID &#x2F; sessionID for the duration of any bot scraping, so that subsequent requests arriving from new IP addresses can be correlated back to the same bot session.<p>This would dramatically assist in identifying good vs bad &quot;bot&quot; behaviour. Especially considering that &quot;good&quot; &#x2F;polite bot behaviour, by definition is hard to monitor, since requests may come in a few seconds apart from each other, and paused and resumed over time to deliberately avoid swamping&#x2F;over working servers.<p>The result is that really good bots ... are hard to tag as Good bots.<p>* All bots shouid also have a standardised API ( which should be advertised in their request headers ) where you can make a callback to the API on a well known branded domain relating to the search engine&#x2F;bot &#x2F; service, where you can submit a token GUID that the bot can be required to present during all future crawls.<p>...since crawls would be done over https, this would be a simple enough mechanism to easily identify bot impersonators without requiring the bots to be limited to making requests from a known DNS domain.<p>... with a token becoming effective within a reasonable period of say 3 to 5 minutes. i.e. enough time for any distributed cache to be updatable and any bot running an existing crawl should not start a crawl session lasting longer than the same period, or if it does should check the token-is-required cache within a period no longer than the same 3 to 5 minutes. whatever is deemed pratical at today&#x27;s cloud scale.<p>What do you think?<p>p.s. my thoughts are based on my experience of code I&#x27;ve written for running on the cheap, on edge computing “CloudFlare workers”; which presents an interesting challenge of how to do this without access to distributed caching etc. (yes they do exist at edge, but can&#x27;t be used without increasing latency or costs being worse than the traffic you’re trying to block. So it&#x27;s just about what can easily be done on the cheap;  to block say 80% of bad traffic for like 1% of effort) My code doesn’t have to be perfect, just effective.",
       "time": 1656588235,
       "title": "A better robots.txt standard; heres my suggestion",
@@ -72,36 +102,6 @@
       "title": "How Are the Bees?",
       "type": "story",
       "url": "https://nautil.us/how-are-the-bees-20772/"
-    },
-    {
-      "by": "doener",
-      "descendants": 0,
-      "id": 31931036,
-      "score": 1,
-      "time": 1656588124,
-      "title": "Machine learning innovation to benefit everyone",
-      "type": "story",
-      "url": "https://mlcommons.org/en/"
-    },
-    {
-      "by": "protontypes",
-      "descendants": 0,
-      "id": 31931017,
-      "score": 1,
-      "time": 1656587927,
-      "title": "The Climate Laboratory",
-      "type": "story",
-      "url": "https://brian-rose.github.io/ClimateLaboratoryBook/home.html"
-    },
-    {
-      "by": "bookofjoe",
-      "descendants": 0,
-      "id": 31931005,
-      "score": 1,
-      "time": 1656587830,
-      "title": "Volatile Organic Compounds in Natural Gas at Point of Residential End User",
-      "type": "story",
-      "url": "https://pubs.acs.org/doi/10.1021/acs.est.1c08298"
     }
   ]
 }
