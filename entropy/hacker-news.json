@@ -1,6 +1,56 @@
 {
   "stories": [
     {
+      "by": "MBCook",
+      "descendants": 0,
+      "id": 31938467,
+      "score": 1,
+      "time": 1656622347,
+      "title": "FCC says it closed a loophole that many robocallers used to evade blocking",
+      "type": "story",
+      "url": "https://arstechnica.com/tech-policy/2022/06/fcc-says-it-closed-a-loophole-that-many-robocallers-used-to-evade-blocking/"
+    },
+    {
+      "by": "stoicanalyst",
+      "descendants": 0,
+      "id": 31938463,
+      "score": 1,
+      "time": 1656622331,
+      "title": "What Does Zero-Day Vulnerability Mean?",
+      "type": "story",
+      "url": "https://pacgenesis.com/what-does-zero-day-vulnerability-mean/"
+    },
+    {
+      "by": "turtlegrids",
+      "descendants": 0,
+      "id": 31938457,
+      "score": 2,
+      "time": 1656622320,
+      "title": "Cybersecurity startups, once the VC darling, hammered by layoffs",
+      "type": "story",
+      "url": "https://techcrunch.com/2022/06/29/cybersecurity-startups-layoffs/"
+    },
+    {
+      "by": "_ben_",
+      "descendants": 0,
+      "id": 31938453,
+      "score": 1,
+      "time": 1656622288,
+      "title": "Database Read Replicas vs. Database Edge Caching",
+      "type": "story",
+      "url": "https://www.polyscale.ai/blog/database-read-replicas-vs-polyscale-database-edge-caching/"
+    },
+    {
+      "by": "aosaigh",
+      "descendants": 0,
+      "id": 31938452,
+      "score": 1,
+      "text": "I&#x27;ve recently taken on my first project that&#x27;s fully &quot;Jamstack&quot; [1] and I&#x27;m finding it very hard to understand who exactly these statically generated sites builders are aimed at?<p>The project is using Gatsby Cloud and Contentful. The key problems they have encountered are a) build times being painfully slow (+5 minutes per content change) and therefore b) the authoring&#x2F;publishing experience is really poor as you can&#x27;t easily see previews. These seem to be common complaints of static site generators (I&#x27;m also skipping over the general complexity required to get a website up and running with so many moving parts)<p>In order to tackle this problem, Gatsby offers a rendering feature called &quot;DSG&quot; (Deferred Static Generation) [2]. When enabled, instead of building all of your content up-front (the entire point of a statically generated site), only your core pages are generated at build-time. The rest of your &quot;long tail&quot; pages are only generated when someone first access them. To use this feature, you need to put a server in-front of your static site.<p>What?! It seems that the build times with statically generated sites have gotten so bad that the work-around is to literally go full-circle and re-create a dynamic website. The two big benefits of statically generated sites are apparently performance and server-less infrastructure, yet to deal with the downsides of generating pages up-front you need to introduce ... dynamically generated pages ... via a server.<p>I don&#x27;t understand who this is for? Any company that requires the touted  performance gains that statically generated sites offer will surely also need quick builds and a good authoring experience? But to get those build times down you have to re-introduce infrastructure and dynamically generated pages?<p>Are there teams out there that are happy with their statically generated sites? Am I going mad?<p>[1] https:&#x2F;&#x2F;jamstack.org&#x2F;\n[2] https:&#x2F;&#x2F;www.gatsbyjs.com&#x2F;docs&#x2F;how-to&#x2F;rendering-options&#x2F;using-deferred-static-generation&#x2F;",
+      "time": 1656622278,
+      "title": "Ask HN: Who Is Jamstack Aimed At?",
+      "type": "story"
+    },
+    {
       "by": "jpcapdevila",
       "descendants": 0,
       "id": 31938425,
@@ -24,7 +74,7 @@
       "by": "theobr",
       "descendants": 0,
       "id": 31938352,
-      "score": 13,
+      "score": 18,
       "time": 1656621824,
       "title": "I'm So Happy I Quit My Dream Job",
       "type": "story",
@@ -34,7 +84,7 @@
       "by": "ceejayoz",
       "descendants": 0,
       "id": 31938350,
-      "score": 1,
+      "score": 4,
       "time": 1656621820,
       "title": "Police sweep Google searches to find suspects; facing its first legal challenge",
       "type": "story",
@@ -49,56 +99,6 @@
       "title": "The Enclave lock, called unpickable for nearly 4 weeks, has been picked",
       "type": "story",
       "url": "https://www.youtube.com/watch?v=hBKM5odMTds"
-    },
-    {
-      "by": "puttycat",
-      "descendants": 0,
-      "id": 31938336,
-      "score": 2,
-      "time": 1656621728,
-      "title": "Haaretz (“Israeli NYT”) Buys Hebrew Wordle",
-      "type": "story",
-      "url": "https://www.haaretz.co.il/riddles/ty-page/haaretz-wordle/index.html"
-    },
-    {
-      "by": "paulpauper",
-      "descendants": 0,
-      "id": 31938327,
-      "score": 1,
-      "time": 1656621697,
-      "title": "Darknet Diaries",
-      "type": "story",
-      "url": "https://darknetdiaries.com/episode/"
-    },
-    {
-      "by": "kevinslin",
-      "descendants": 0,
-      "id": 31938326,
-      "score": 1,
-      "time": 1656621694,
-      "title": "General Availability of Amplify UI for React",
-      "type": "story",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2022/06/general-availability-amplify-ui-react/"
-    },
-    {
-      "by": "ozdave",
-      "descendants": 0,
-      "id": 31938320,
-      "score": 1,
-      "time": 1656621677,
-      "title": "The Most Bizarre Grammar Rule You Probably Never Heard Of",
-      "type": "story",
-      "url": "https://www.inc.com/minda-zetlin/grammar-bizarre-weird-rule-adjective-order-matthew-anderson-mark-forsyth-cambridge-dictionary.html"
-    },
-    {
-      "by": "dieselgate",
-      "descendants": 0,
-      "id": 31938267,
-      "score": 1,
-      "time": 1656621474,
-      "title": "Tesla may be driving itself out of the running",
-      "type": "story",
-      "url": "https://www.bloomberg.com/opinion/articles/2022-06-30/tesla-s-overpriced-stock-won-t-keep-it-ahead-of-other-ev-makers"
     }
   ]
 }
