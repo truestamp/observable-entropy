@@ -1,10 +1,39 @@
 {
   "stories": [
     {
+      "by": "isaacfrond",
+      "descendants": 0,
+      "id": 31931144,
+      "score": 1,
+      "time": 1656589109,
+      "title": "Security experts are bracing for cyberattacks if Russia gets desperate",
+      "type": "story",
+      "url": "https://www.protocol.com/enterprise/russia-cyberattacks-ukraine-putin-us"
+    },
+    {
+      "by": "vincent_s",
+      "descendants": 0,
+      "id": 31931143,
+      "score": 1,
+      "time": 1656589100,
+      "title": "Eat Like a Normal Person",
+      "type": "story",
+      "url": "https://www.eatlikeanormalperson.com/"
+    },
+    {
+      "by": "AndyJames",
+      "descendants": 0,
+      "id": 31931132,
+      "score": 1,
+      "time": 1656589001,
+      "title": "Ask HN: What are some red flags for a CEO in a startup?",
+      "type": "story"
+    },
+    {
       "by": "CoffeeOnWrite",
       "descendants": 0,
       "id": 31931118,
-      "score": 1,
+      "score": 2,
       "time": 1656588852,
       "title": "Airbnb Announces a Permanent Ban on Parties",
       "type": "story",
@@ -72,36 +101,6 @@
       "title": "Nearly a quarter of Earth's seafloor now mapped",
       "type": "story",
       "url": "https://www.bbc.com/news/science-environment-61986359"
-    },
-    {
-      "by": "snowcode",
-      "descendants": 0,
-      "id": 31931050,
-      "score": 2,
-      "text": "We need a better robots.txt standard  … that tech companies (and bot writers) should be required to adhere to; Here&#x27;s my simple suggestion;<p>Stopping a huge amount of bad bot behaviour surely could be a really simple thing to do? .. I believe it is, and here’s how …<p>* Bots should have to start a session by requesting robots.txt before any interaction with a website;\nthat robots file should optionally include a correlationID &#x2F; sessionID for the duration of any bot scraping, so that subsequent requests arriving from new IP addresses can be correlated back to the same bot session.<p>This would dramatically assist in identifying good vs bad &quot;bot&quot; behaviour. Especially considering that &quot;good&quot; &#x2F;polite bot behaviour, by definition is hard to monitor, since requests may come in a few seconds apart from each other, and paused and resumed over time to deliberately avoid swamping&#x2F;over working servers.<p>The result is that really good bots ... are hard to tag as Good bots.<p>* All bots shouid also have a standardised API ( which should be advertised in their request headers ) where you can make a callback to the API on a well known branded domain relating to the search engine&#x2F;bot &#x2F; service, where you can submit a token GUID that the bot can be required to present during all future crawls.<p>...since crawls would be done over https, this would be a simple enough mechanism to easily identify bot impersonators without requiring the bots to be limited to making requests from a known DNS domain.<p>... with a token becoming effective within a reasonable period of say 3 to 5 minutes. i.e. enough time for any distributed cache to be updatable and any bot running an existing crawl should not start a crawl session lasting longer than the same period, or if it does should check the token-is-required cache within a period no longer than the same 3 to 5 minutes. whatever is deemed pratical at today&#x27;s cloud scale.<p>What do you think?<p>p.s. my thoughts are based on my experience of code I&#x27;ve written for running on the cheap, on edge computing “CloudFlare workers”; which presents an interesting challenge of how to do this without access to distributed caching etc. (yes they do exist at edge, but can&#x27;t be used without increasing latency or costs being worse than the traffic you’re trying to block. So it&#x27;s just about what can easily be done on the cheap;  to block say 80% of bad traffic for like 1% of effort) My code doesn’t have to be perfect, just effective.",
-      "time": 1656588235,
-      "title": "A better robots.txt standard; heres my suggestion",
-      "type": "story"
-    },
-    {
-      "by": "superphil0",
-      "descendants": 0,
-      "id": 31931049,
-      "score": 1,
-      "time": 1656588232,
-      "title": "Martin Shkreli out of prison AMA",
-      "type": "story",
-      "url": "https://old.reddit.com/r/wallstreetbets/comments/vnewfc/im_back_from_five_years_in_prison_ama/"
-    },
-    {
-      "by": "nsoonhui",
-      "descendants": 0,
-      "id": 31931042,
-      "score": 1,
-      "time": 1656588188,
-      "title": "How Are the Bees?",
-      "type": "story",
-      "url": "https://nautil.us/how-are-the-bees-20772/"
     }
   ]
 }
