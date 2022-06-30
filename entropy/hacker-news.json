@@ -1,6 +1,29 @@
 {
   "stories": [
     {
+      "by": "Lammy",
+      "descendants": 1,
+      "id": 31928372,
+      "kids": [
+        31928374
+      ],
+      "score": 1,
+      "time": 1656558725,
+      "title": "Exposure to electromagnetic fields and suicide among electric utility workers",
+      "type": "story",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1071010/"
+    },
+    {
+      "by": "rmason",
+      "descendants": 0,
+      "id": 31928361,
+      "score": 1,
+      "time": 1656558647,
+      "title": "Apple promises ‘white glove experiences’ for its most helpful community members",
+      "type": "story",
+      "url": "https://www.theverge.com/2022/6/29/23188003/apple-community-plus-program-tech-support-members"
+    },
+    {
       "by": "amiamigo",
       "descendants": 0,
       "id": 31928334,
@@ -75,33 +98,14 @@
       "descendants": 1,
       "id": 31928280,
       "kids": [
-        31928331
+        31928331,
+        31928370
       ],
-      "score": 1,
+      "score": 2,
       "time": 1656557423,
       "title": "The Gateway PC Brand Returns with New Laptops",
       "type": "story",
       "url": "https://www.pcmag.com/news/the-gateway-pc-brand-returns-with-new-laptops"
-    },
-    {
-      "by": "citguru",
-      "descendants": 0,
-      "id": 31928266,
-      "score": 1,
-      "text": "Its been about 10 hours now that our core business operations is down because AWS security system decided that our account has unauthorized service usage and place a restriction on some part of services we can have access to.<p>One of them is obviously AWS Lambda. Two weeks ago we started processing large volume of transactions (We provide wallet and digital assets infrastructure for businesses) and needed to increase our services performance from request time out to memory to even our RDS instance to be able to accommodate the kind of requests we are currently processing.<p>However yesterday (29th of July) at around 5:04PM we got an email from AWS about unautorized service charges due to some unauthorized activity and could be a potential account hack or compromise.<p>My heart first sank because I was just waking up from a nap after reviewing the new lambda functions the teams worked on and planning to promote to production and staging server.<p>The second is this is a very high risk security issues and could be a potential hack. We primarily use MPC base vault to securely store and process transactions. Regardless, this is a very a big issue and had to respond by first of all changing the root passwords, deactivating all API keys, disabling console login access for all other users and removing any type of old keys.<p>After doing this will at least help secure our account for the main time. But then I was curious as well since the suspected activity is because of the unauthorized service charge, decided to go check all services from each region and end up checking our AWS Bill and carefully looking at the bill.<p>At the end it&#x27;s a bill the team expected following our new changes from increasing our lambda function memory to time out and upgrading our RDS instance, the bill basically makes sense. AWS must have mistakenly detected this as unauthorized charge.<p>However the issue here is it&#x27;s been 10 hours, and we have literally lost access to AWS Lambda functions the moment they notified us of this issues and one of our core business solutions is down because AWS shut it down.<p>The customer support experience from the AWS support team is the worst I have seen in my entire life. This is outrageous and never wished anyone to experience this. For over 10 hours, our customers (businesses such as payment gateway and exchanges) can&#x27;t run some business operations because the lambda service (which cant be easily migrated to another alternative service) is down.<p>Their team keep saying they are waiting for their internal team response for over hours and no good response yet. They didn&#x27;t provide a valid reason nor why this is taking too much time to fix. Its like they are lack of empathy and just robots behind the keyboards.<p>The AWS Support team are very heartless with no sense of urgency and this is not the first time such encounter is happening.<p>This has taught us a lesson not to build our product to be tightly locked with a cloud provider as migrating would be like starting from scratch and be more complicated.<p>If you work in AWS, the technical support team or customer support team and you would like to help us get past this. Please you can reach out here: hi[[at]]powr[[dot]]finance.<p>Thanks.",
-      "time": 1656557269,
-      "title": "Worst AWS service and support team experience",
-      "type": "story"
-    },
-    {
-      "by": "pseudolus",
-      "descendants": 0,
-      "id": 31928259,
-      "score": 1,
-      "time": 1656557209,
-      "title": "Brazil wants special treatment for its nuclear submarine program–like Australia",
-      "type": "story",
-      "url": "https://thebulletin.org/2022/06/brazil-wants-special-treatment-for-its-nuclear-submarine-program-just-like-australia/"
     }
   ]
 }
