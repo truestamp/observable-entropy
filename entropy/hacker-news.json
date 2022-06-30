@@ -1,6 +1,46 @@
 {
   "stories": [
     {
+      "by": "snowcode",
+      "descendants": 0,
+      "id": 31931050,
+      "score": 1,
+      "text": "We need a better robots.txt standard  … that tech companies (and bot writers) should be required to adhere to; Here&#x27;s my simple suggestion;<p>Stopping a huge amount of bad bot behaviour surely could be a really simple thing to do? .. I believe it is, and here’s how …<p>* Bots should have to start a session by requesting robots.txt before any interaction with a website;\nthat robots file should optionally include a correlationID &#x2F; sessionID for the duration of any bot scraping, so that subsequent requests arriving from new IP addresses can be correlated back to the same bot session.<p>This would dramatically assist in identifying good vs bad &quot;bot&quot; behaviour. Especially considering that &quot;good&quot; &#x2F;polite bot behaviour, by definition is hard to monitor, since requests may come in a few seconds apart from each other, and paused and resumed over time to deliberately avoid swamping&#x2F;over working servers.<p>The result is that really good bots ... are hard to tag as Good bots.<p>* All bots shouid also have a standardised API ( which should be advertised in their request headers ) where you can make a callback to the API on a well known branded domain relating to the search engine&#x2F;bot &#x2F; service, where you can submit a token GUID that the bot can be required to present during all future crawls.<p>...since crawls would be done over https, this would be a simple enough mechanism to easily identify bot impersonators without requiring the bots to be limited to making requests from a known DNS domain.<p>... with a token becoming effective within a reasonable period of say 3 to 5 minutes. i.e. enough time for any distributed cache to be updatable and any bot running an existing crawl should not start a crawl session lasting longer than the same period, or if it does should check the token-is-required cache within a period no longer than the same 3 to 5 minutes. whatever is deemed pratical at today&#x27;s cloud scale.<p>What do you think?<p>p.s. my thoughts are based on my experience of code I&#x27;ve written for running on the cheap, on edge computing “CloudFlare workers”; which presents an interesting challenge of how to do this without access to distributed caching etc. (yes they do exist at edge, but can&#x27;t be used without increasing latency or costs being worse than the traffic you’re trying to block. So it&#x27;s just about what can easily be done on the cheap;  to block say 80% of bad traffic for like 1% of effort) My code doesn’t have to be perfect, just effective.",
+      "time": 1656588235,
+      "title": "A better robots.txt standard; heres my suggestion",
+      "type": "story"
+    },
+    {
+      "by": "superphil0",
+      "descendants": 0,
+      "id": 31931049,
+      "score": 1,
+      "time": 1656588232,
+      "title": "Martin Shkreli out of prison AMA",
+      "type": "story",
+      "url": "https://old.reddit.com/r/wallstreetbets/comments/vnewfc/im_back_from_five_years_in_prison_ama/"
+    },
+    {
+      "by": "nsoonhui",
+      "descendants": 0,
+      "id": 31931042,
+      "score": 1,
+      "time": 1656588188,
+      "title": "How Are the Bees?",
+      "type": "story",
+      "url": "https://nautil.us/how-are-the-bees-20772/"
+    },
+    {
+      "by": "doener",
+      "descendants": 0,
+      "id": 31931036,
+      "score": 1,
+      "time": 1656588124,
+      "title": "Machine learning innovation to benefit everyone",
+      "type": "story",
+      "url": "https://mlcommons.org/en/"
+    },
+    {
       "by": "protontypes",
       "descendants": 0,
       "id": 31931017,
@@ -62,46 +102,6 @@
       "title": "Who can identify Pfizer employees in this video?",
       "type": "story",
       "url": "https://twitter.com/i/status/1538157487102230528"
-    },
-    {
-      "by": "spinningarrow",
-      "descendants": 0,
-      "id": 31930969,
-      "score": 1,
-      "time": 1656587527,
-      "title": "One Time Secret – keep sensitive info out of your email and chat logs",
-      "type": "story",
-      "url": "https://onetimesecret.com/"
-    },
-    {
-      "by": "Tomte",
-      "descendants": 0,
-      "id": 31930961,
-      "score": 1,
-      "time": 1656587483,
-      "title": "A shark 'superhighway' is being protected by fishermen",
-      "type": "story",
-      "url": "https://www.cnn.com/2022/06/30/americas/maralliance-mesoamerican-reef-c2e-spc-intl/index.html"
-    },
-    {
-      "by": "ismaelmc",
-      "descendants": 0,
-      "id": 31930947,
-      "score": 1,
-      "time": 1656587360,
-      "title": "Earth Engine for Governments and Businesses",
-      "type": "story",
-      "url": "https://blog.google/products/earth/introducing-earth-engine-for-governments-and-businesses/"
-    },
-    {
-      "by": "zhangruinan",
-      "descendants": 0,
-      "id": 31930935,
-      "score": 1,
-      "text": "I have been working on my side project (a productivity tool) for the past 5 months. I want to find some beta users for my software. With very limited time and resources, how and where can I find my first 100 beta users?",
-      "time": 1656587233,
-      "title": "Ask HN: Where and how do you find your early adoptors. What worked? what didn't？",
-      "type": "story"
     }
   ]
 }
