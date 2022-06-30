@@ -1,104 +1,107 @@
 {
   "stories": [
     {
+      "by": "CrankyBear",
+      "descendants": 0,
+      "id": 31938541,
+      "score": 1,
+      "time": 1656622813,
+      "title": "Log4Shell Hacks on and On",
+      "type": "story",
+      "url": "https://thenewstack.io/log4shell-hacks-on-and-on/"
+    },
+    {
+      "by": "CharlesW",
+      "descendants": 0,
+      "id": 31938540,
+      "score": 1,
+      "time": 1656622809,
+      "title": "Ron Gilbert will no longer post about Monkey Island due to ‘personal attacks’",
+      "type": "story",
+      "url": "https://www.videogameschronicle.com/news/ron-gilbert-will-no-longer-post-about-monkey-island-due-to-personal-attacks/"
+    },
+    {
+      "by": "drydenriley",
+      "descendants": 1,
+      "id": 31938533,
+      "kids": [
+        31938534
+      ],
+      "score": 1,
+      "time": 1656622770,
+      "title": "Buy it Online, Review it on Cartstr",
+      "type": "story",
+      "url": "https://www.cartstr.com/"
+    },
+    {
+      "by": "msarrel",
+      "descendants": 0,
+      "id": 31938529,
+      "score": 1,
+      "time": 1656622748,
+      "title": "How to use grafana Mimir and MinIO for persistent metrics storage",
+      "type": "story",
+      "url": "https://blog.min.io/how-to-grafana-mimir-minio-persistent-metrics-storage/"
+    },
+    {
+      "by": "roschdal",
+      "descendants": 0,
+      "id": 31938527,
+      "score": 1,
+      "text": "Why WebGPU?",
+      "time": 1656622741,
+      "title": "Ask HN: Which problem does WebGPU solve?",
+      "type": "story"
+    },
+    {
+      "by": "chmaynard",
+      "descendants": 0,
+      "id": 31938525,
+      "score": 1,
+      "time": 1656622735,
+      "title": "Helpful 404s for Jekyll (and GitHub Pages)",
+      "type": "story",
+      "url": "https://ben.balter.com/2022/06/30/helpful-404s-for-jekyll-and-github-pages/"
+    },
+    {
+      "by": "sizzle",
+      "descendants": 0,
+      "id": 31938512,
+      "score": 1,
+      "time": 1656622577,
+      "title": "Extra “eye” movements are the key to better self-driving cars",
+      "type": "story",
+      "url": "https://www.riken.jp/en/news_pubs/research_news/pr/2022/20220627_3/index.html"
+    },
+    {
+      "by": "sizzle",
+      "descendants": 0,
+      "id": 31938506,
+      "score": 1,
+      "time": 1656622551,
+      "title": "Measuring AI’s Carbon Footprint",
+      "type": "story",
+      "url": "https://spectrum.ieee.org/ai-carbon-footprint"
+    },
+    {
+      "by": "paulpauper",
+      "descendants": 0,
+      "id": 31938498,
+      "score": 1,
+      "text": "Are you buying, selling, etc.<p>A lot of &#x27;big names&#x27; sure got this wrong. I don&#x27;t think web3 will ever be mainstream. I remember Marc Andreessen was interviews by Tyler Cowen and he could not give a good answer about how web3 is useful or better than existing protocols.",
+      "time": 1656622537,
+      "title": "What do you think about Bitcoin?",
+      "type": "story"
+    },
+    {
       "by": "MBCook",
       "descendants": 0,
       "id": 31938467,
-      "score": 1,
+      "score": 2,
       "time": 1656622347,
       "title": "FCC says it closed a loophole that many robocallers used to evade blocking",
       "type": "story",
       "url": "https://arstechnica.com/tech-policy/2022/06/fcc-says-it-closed-a-loophole-that-many-robocallers-used-to-evade-blocking/"
-    },
-    {
-      "by": "stoicanalyst",
-      "descendants": 0,
-      "id": 31938463,
-      "score": 1,
-      "time": 1656622331,
-      "title": "What Does Zero-Day Vulnerability Mean?",
-      "type": "story",
-      "url": "https://pacgenesis.com/what-does-zero-day-vulnerability-mean/"
-    },
-    {
-      "by": "turtlegrids",
-      "descendants": 0,
-      "id": 31938457,
-      "score": 2,
-      "time": 1656622320,
-      "title": "Cybersecurity startups, once the VC darling, hammered by layoffs",
-      "type": "story",
-      "url": "https://techcrunch.com/2022/06/29/cybersecurity-startups-layoffs/"
-    },
-    {
-      "by": "_ben_",
-      "descendants": 0,
-      "id": 31938453,
-      "score": 1,
-      "time": 1656622288,
-      "title": "Database Read Replicas vs. Database Edge Caching",
-      "type": "story",
-      "url": "https://www.polyscale.ai/blog/database-read-replicas-vs-polyscale-database-edge-caching/"
-    },
-    {
-      "by": "aosaigh",
-      "descendants": 0,
-      "id": 31938452,
-      "score": 1,
-      "text": "I&#x27;ve recently taken on my first project that&#x27;s fully &quot;Jamstack&quot; [1] and I&#x27;m finding it very hard to understand who exactly these statically generated sites builders are aimed at?<p>The project is using Gatsby Cloud and Contentful. The key problems they have encountered are a) build times being painfully slow (+5 minutes per content change) and therefore b) the authoring&#x2F;publishing experience is really poor as you can&#x27;t easily see previews. These seem to be common complaints of static site generators (I&#x27;m also skipping over the general complexity required to get a website up and running with so many moving parts)<p>In order to tackle this problem, Gatsby offers a rendering feature called &quot;DSG&quot; (Deferred Static Generation) [2]. When enabled, instead of building all of your content up-front (the entire point of a statically generated site), only your core pages are generated at build-time. The rest of your &quot;long tail&quot; pages are only generated when someone first access them. To use this feature, you need to put a server in-front of your static site.<p>What?! It seems that the build times with statically generated sites have gotten so bad that the work-around is to literally go full-circle and re-create a dynamic website. The two big benefits of statically generated sites are apparently performance and server-less infrastructure, yet to deal with the downsides of generating pages up-front you need to introduce ... dynamically generated pages ... via a server.<p>I don&#x27;t understand who this is for? Any company that requires the touted  performance gains that statically generated sites offer will surely also need quick builds and a good authoring experience? But to get those build times down you have to re-introduce infrastructure and dynamically generated pages?<p>Are there teams out there that are happy with their statically generated sites? Am I going mad?<p>[1] https:&#x2F;&#x2F;jamstack.org&#x2F;\n[2] https:&#x2F;&#x2F;www.gatsbyjs.com&#x2F;docs&#x2F;how-to&#x2F;rendering-options&#x2F;using-deferred-static-generation&#x2F;",
-      "time": 1656622278,
-      "title": "Ask HN: Who Is Jamstack Aimed At?",
-      "type": "story"
-    },
-    {
-      "by": "jpcapdevila",
-      "descendants": 0,
-      "id": 31938425,
-      "score": 1,
-      "text": "Big SQLite &amp; CF fan here. I&#x27;m wondering if there&#x27;s any lucky beta testers around that want to share their experience?<p>As usual with CF products, I can&#x27;t wait to use it :)<p>My side project is a firebase alternative using SQLite. If anyone knows how to get access, please drop me an email: juan@javascriptdb.com<p>Thanks!",
-      "time": 1656622180,
-      "title": "Ask HN: Cloudflare D1 beta testers, what are your thoughts?",
-      "type": "story"
-    },
-    {
-      "by": "overwhelm",
-      "descendants": 0,
-      "id": 31938353,
-      "score": 2,
-      "time": 1656621829,
-      "title": "The Perils of Audience Capture",
-      "type": "story",
-      "url": "https://gurwinder.substack.com/p/the-perils-of-audience-capture"
-    },
-    {
-      "by": "theobr",
-      "descendants": 0,
-      "id": 31938352,
-      "score": 18,
-      "time": 1656621824,
-      "title": "I'm So Happy I Quit My Dream Job",
-      "type": "story",
-      "url": "https://t3.gg/blog/post/dream-job-revisited"
-    },
-    {
-      "by": "ceejayoz",
-      "descendants": 0,
-      "id": 31938350,
-      "score": 4,
-      "time": 1656621820,
-      "title": "Police sweep Google searches to find suspects; facing its first legal challenge",
-      "type": "story",
-      "url": "https://www.nbcnews.com/news/us-news/police-google-reverse-keyword-searches-rcna35749"
-    },
-    {
-      "by": "birdiesanders",
-      "descendants": 0,
-      "id": 31938346,
-      "score": 2,
-      "time": 1656621786,
-      "title": "The Enclave lock, called unpickable for nearly 4 weeks, has been picked",
-      "type": "story",
-      "url": "https://www.youtube.com/watch?v=hBKM5odMTds"
     }
   ]
 }
