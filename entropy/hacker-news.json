@@ -1,6 +1,49 @@
 {
   "stories": [
     {
+      "by": "alexrustic",
+      "descendants": 1,
+      "id": 31950844,
+      "kids": [
+        31950852
+      ],
+      "score": 1,
+      "time": 1656700764,
+      "title": "Show HN: Shared – Triptych for data exchange and persistence",
+      "type": "story",
+      "url": "https://github.com/pyrustic/shared"
+    },
+    {
+      "by": "pfduke02",
+      "descendants": 0,
+      "id": 31950825,
+      "score": 2,
+      "text": "The sky is falling. Every Twitter thread, every message from investors, every conversation around San Francisco (our HQ) seems the same — alert everyone to the reality that the exuberance of 2021 is over.  There is no one-size-fits-all advice.  I&#x27;m the co-founder of Mozart Data, a twenty person data infrastructure SaaS company that has recently raised a Series A.<p>Y Combinator, our incubator, told us that the safe move is to set a goal to be “Default Alive.” Namely, if we continue at the current growth, we technically wouldn’t need to fundraise again. If the market heats up, we can always invest more in growth. David Sacks of Craft Ventures, who led our Series A, argues that companies need to be “Default Investable” and they provided a definition, which is a slightly relaxed version of Default Alive. A Default Investable company is excellent on a variety of classic metrics and would be able to remain alive as a result of funding (though it’s also a high bar, not quite as difficult for an early stage company as Default Alive).<p>Regardless, the message is — get better. It sort of reminds me of my constant efforts to lose weight — it’s important to have a scale, and Craft does a useful thing of providing a scale. I’d also like a playbook where one doesn’t exist beyond eat less (spend less), exercise more (grow efficiently) because it’s very segment dependent.<p>I’ll focus on lucky companies like ours that have runway. YC’s advice is that “If you are post Series A and pre-product market fit, don’t expect another round to happen at all until you have obviously hit product market fit.” So then we need to get to product market fit. Typically this means engineering spend &gt; GTM spend (sales + marketing). By shrinking the growth of your GTM team, you grow less quickly than modeled but more efficiently (the strongest leads are spread like peanut butter over fewer GTM heads and the highest performers are more efficient). If your GTM team is not acquiring revenue extremely efficiently due to a change in market conditions (harder to sell in tough times), investing in experimenting on unproven growth approaches, or past standards due to exuberance (with incredibly high multiples, even inefficient growth could be justified in company building).<p>Hypothesize, build, test and learn, iterate. The best way to do this is to have a technical team capable of rapid iteration. A best practice is not to do these steps in a vacuum, talk to customers and prospects (and this is where a sufficient GTM team is necessary —think of them as the best user research). Make something people want.<p>What is true today that wasn’t 6 months ago. Nothing. Turning back time, you could advocate for a similar disciplined growth strategy. Get product market fit, then scale efficiently, then extend that scaling. Alternatively a lot of “successful” companies played the game of increasing valuation on inefficient growth; this is a bit like a game of musical chairs that can end well if your timing is impeccable but often does not. My belief is that the likelihood of landing in one of the magical chairs, where efficiency doesn’t matter, is now miniscule.<p>Summing up all of this advice, we’re abandoning some of our loftiest (short-term) growth goals in favor of efficiency and communicating that with our board. We plan to exclusively hire in ProdDataEng. We’ll squirrel the rest of the modeled money into a longer runway and hope to deploy it at a more opportunistic time (either from a hiring or sales motion standpoint).<p>We’re not going into hiding, but we are exclusively investing into building (and we’ll reassess growth goals frequently). Beyond layoffs what are other companies doing to weather the storm? What metrics are you tracking to know if the new course is working? When do you want to be greedy when others are fearful?",
+      "time": 1656700672,
+      "title": "Data for Downturns",
+      "type": "story"
+    },
+    {
+      "by": "gnicholas",
+      "descendants": 0,
+      "id": 31950817,
+      "score": 1,
+      "time": 1656700646,
+      "title": "Should anyone buy the new M2 MacBook Pro?",
+      "type": "story",
+      "url": "https://9to5mac.com/2022/06/30/buy-m2-macbook-pro/"
+    },
+    {
+      "by": "cemerick",
+      "descendants": 0,
+      "id": 31950790,
+      "score": 1,
+      "text": "As I move towards a SaaS soft launch, I have been greatly frustrated by the apparent lack of standard advice and practices in the area of complying with consumption taxes (a.k.a. sales tax, VAT, GST, etc), which SaaS operations have become subject to in recent years. Even worse, many accountants simply won&#x27;t touch the issue, especially if one is or is planning on offering services at a truly worldwide scope.<p>In talking with a number of successful SaaS founders, I&#x27;ve found that typical practice buckets out to three different options:<p>1. Mostly ignoring the problem outside of your immediate jurisdiction (i.e. where your corporation is domiciled), which is probably just fine if your operation is small and is likely to stay that way (thus [hopefully] not exceeding each jurisdiction&#x27;s taxation thresholds).<p>2. Cobbling together a solution using something like Stripe Tax or Quaderno or Avalara to ensure that you&#x27;re <i>collecting</i> tax properly, but then having to schlep stuff like per-jurisdiction tax registration and filing.<p>3. Using a <i>merchant of record</i> (like fastspring or paddle) as your exclusive worldwide reseller, which then takes on all the work of collecting <i>and</i> filing <i>and</i> remitting consumption taxes (usually on a truly worldwide basis, i.e. covering 80+ countries). Of course, the fees associated with this are somewhat higher (but tbh, not <i>that</i> much higher than e.g. stripe + stripe tax + stripe billing + filing and remittance costs), and these platforms are outside of the stripe ecosystem and are their own things, so developer experience and third-party integrations are somewhat spottier.<p>#2 seems to be the most popular option by far, but often ignores a large portion of the world (e.g. stripe tax only covers ~35 countries), and can be very costly even ignoring registration and filing (i.e. Avalara is wildly expensive for what it does).<p>I&#x27;d love to hear from more founders about how they&#x27;ve navigated this, and why they&#x27;ve made the choices they&#x27;ve made. Thanks!",
+      "time": 1656700538,
+      "title": "Ask HN: Coping with SaaS consumption tax compliance (sales/VAT/GST/etc.)",
+      "type": "story"
+    },
+    {
       "by": "LexSiga",
       "descendants": 0,
       "id": 31950784,
@@ -34,7 +77,7 @@
       "by": "dhdersch",
       "descendants": 0,
       "id": 31950723,
-      "score": 2,
+      "score": 3,
       "time": 1656700242,
       "title": "A brilliant slacker is still a slacker but a hardworking sheep delivers results",
       "type": "story",
@@ -59,46 +102,6 @@
       "title": "BlockFi CEO on FTX Deal",
       "type": "story",
       "url": "https://twitter.com/BlockFiZac/status/1542934038469640192"
-    },
-    {
-      "by": "ceohockey60",
-      "descendants": 0,
-      "id": 31950680,
-      "score": 1,
-      "time": 1656700055,
-      "title": "TikTok's American Credibility Problem",
-      "type": "story",
-      "url": "https://interconnected.blog/tiktoks-american-credibility-problem/"
-    },
-    {
-      "by": "tompark",
-      "descendants": 0,
-      "id": 31950640,
-      "score": 1,
-      "time": 1656699924,
-      "title": "The 30-year-old book (Understanding Comics) that became a Silicon Valley Bible",
-      "type": "story",
-      "url": "https://www.ft.com/content/2b178ba0-92c5-4648-8905-876fcb77466f"
-    },
-    {
-      "by": "hanyiwang",
-      "descendants": 0,
-      "id": 31950626,
-      "score": 1,
-      "text": "Who&#x27;s using the generated results for JSDocs or equivalent in other languages? What&#x27;s useful about it?",
-      "time": 1656699889,
-      "title": "Why do people use JSDocs, RustDoc, or others",
-      "type": "story"
-    },
-    {
-      "by": "jackling",
-      "descendants": 0,
-      "id": 31950618,
-      "score": 1,
-      "text": "My Programming Languages and Interpreters requires students to find a research paper published in ACM or IEEE that details a programming language concept, and implement it. The task should take 10-20 hours to implement.<p>I&#x27;m having trouble picking a paper to implement. All the papers I found so far seem too difficult for me to understand, or not interesting. Any ideas on an interesting paper to implement? I did look into probabilistic programming, which seems interesting.<p>The paper is to be implemented in Haskell if that matters. Thanks!",
-      "time": 1656699869,
-      "title": "Ask HN: Interesting programming language concept to implement",
-      "type": "story"
     }
   ]
 }
