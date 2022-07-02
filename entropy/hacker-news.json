@@ -1,10 +1,33 @@
 {
   "stories": [
     {
-      "by": "nope96",
+      "by": "craigkerstiens",
       "descendants": 0,
-      "id": 31961389,
+      "id": 31961406,
       "score": 1,
+      "time": 1656788202,
+      "title": "Postgres migration script: Heroku – Crunchy Data",
+      "type": "story",
+      "url": "https://gist.github.com/bennylope/39553038c8d2fbc8bb3fcea087d66e3b"
+    },
+    {
+      "by": "gkbrk",
+      "descendants": 0,
+      "id": 31961402,
+      "score": 1,
+      "time": 1656788160,
+      "title": "Kyoto framework is moving to sr.ht from GitHub",
+      "type": "story",
+      "url": "https://github.com/kyoto-framework/kyoto"
+    },
+    {
+      "by": "nope96",
+      "descendants": 1,
+      "id": 31961389,
+      "kids": [
+        31961415
+      ],
+      "score": 2,
       "time": 1656788090,
       "title": "Lost around 150k of stock from my fidelity brokerage account (ACATS Transfer)",
       "type": "story",
@@ -70,7 +93,7 @@
       "by": "seejay",
       "descendants": 0,
       "id": 31961307,
-      "score": 1,
+      "score": 2,
       "time": 1656787309,
       "title": "Software Engineer Nerd Cave Setup Tour (10% Skill 90% Gear) [video]",
       "type": "story",
@@ -78,7 +101,7 @@
     },
     {
       "by": "PrettyPebble",
-      "descendants": 1,
+      "descendants": 3,
       "id": 31961293,
       "kids": [
         31961294
@@ -88,26 +111,6 @@
       "title": "Maximum Power in Nature: c⁵/4G ≈ 9 ⋅ 10⁵¹ W",
       "type": "story",
       "url": "https://www.motionmountain.net/maximumforce.html"
-    },
-    {
-      "by": "pseudolus",
-      "descendants": 0,
-      "id": 31961291,
-      "score": 1,
-      "time": 1656787179,
-      "title": "Fertility, mortality, migration, population scenarios for 195 countries to 2100",
-      "type": "story",
-      "url": "https://www.thelancet.com/article/S0140-6736(20)30677-2/fulltext"
-    },
-    {
-      "by": "mateioprea",
-      "descendants": 0,
-      "id": 31961281,
-      "score": 1,
-      "text": "Hi HN,<p>I&#x27;m trying to do what Vercel&#x2F;Netlify are doing when you&#x27;re creating &amp; pushing code in a new branch on github: they&#x27;re creating a subdomain where you can isolate &amp; test your code. I really liked how these things worked in Vercel when I&#x27;ve tested NextJS in a project and I was wondering if something like this exists for custom stacks.<p>Is there any devops &#x2F; webdev that dealt with this before? I don&#x27;t wanna reinvent the wheel and google is not that helpful. I have a custom stack with multiple services (frontend, backend, other microservices) that need to be deployed. \nMy first thought was that I could use AWS amplify, but they don&#x27;t support backend stuff (Node) by default.<p>My stack is currently React&#x2F;Node&#x2F;PHP. In simple terms, when I open a new branch in Github, I want to auto create a subdomain for my app in AWS to test the changes independently. The alternative would be to host the test environments somewhere else, which I&#x27;m willing to do as long as it supports custom stacks. I&#x27;m also willing to setup stuff in AWS if someone did this before.<p>Thank you!",
-      "time": 1656787049,
-      "title": "Ask HN: Vercel/Netlify auto deploy branch to subdomain like tool",
-      "type": "story"
     }
   ]
 }
