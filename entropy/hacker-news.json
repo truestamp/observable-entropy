@@ -1,6 +1,16 @@
 {
   "stories": [
     {
+      "by": "g42gregory",
+      "descendants": 0,
+      "id": 31954817,
+      "score": 1,
+      "time": 1656722016,
+      "title": "Intel Machine Learning Chip Beats Nvidia's A100 in Benchmarks",
+      "type": "story",
+      "url": "https://hothardware.com/news/intel-benchmarks-habana-gaudi2-ai-machine-learning-chip"
+    },
+    {
       "by": "mardiyah",
       "descendants": 0,
       "id": 31954790,
@@ -25,7 +35,7 @@
       "descendants": 0,
       "id": 31954762,
       "score": 1,
-      "text": "The standard specification recommends using Argon2id by default, but KeePass claims that  for client-side encryption Argon2d is a better choice[1]:<p>&gt; In the case of KeePass, we currently recommend Argon2d instead of Argon2id, because we believe that a better protection against a really existing threat (password cracking using GPUs&#x2F;ASICs is state of the art) is more important than a protection against certain side-channel attacks that may or may not become a problem on client devices in the future. If you worry about side-channel attacks (and are willing to sacrifice some GPU&#x2F;ASIC resistance) or if you are developing a software where side-channel attacks could be a problem (e.g. a server service that operates with KeePass database files), use Argon2id.<p>&gt; Side note: the IRTF CFRG Argon2 Internet standard recommends Argon2id by default. For server applications, Argon2id is in general indeed more suitable than Argon2d, but our situation (client device) is different, as mentioned above.<p>[1] https:&#x2F;&#x2F;keepass.info&#x2F;help&#x2F;base&#x2F;security.html#secdictprotect",
+      "text": "The standard specification recommends using Argon2id by default, but KeePass claims that  for client-side encryption Argon2d is a better choice[1]:<p>&gt; In the case of KeePass, we currently recommend Argon2d instead of Argon2id, because we believe that a better protection against a really existing threat (password cracking using GPUs&#x2F;ASICs is state of the art) is more important than a protection against certain side-channel attacks that may or may not become a problem on client devices in the future. If you worry about side-channel attacks (and are willing to sacrifice some GPU&#x2F;ASIC resistance) or if you are developing a software where side-channel attacks could be a problem (e.g. a server service that operates with KeePass database files), use Argon2id.<p>&gt; Side note: the IRTF CFRG Argon2 Internet standard recommends Argon2id by default. For server applications, Argon2id is in general indeed more suitable than Argon2d, but our situation (client device) is different, as mentioned above.<p>If you were a developer of Keepass, would you make the same recommendation?<p>[1] https:&#x2F;&#x2F;keepass.info&#x2F;help&#x2F;base&#x2F;security.html#secdictprotect",
       "time": 1656721518,
       "title": "Ask HN: Is Argon2d really a better choice for client-side than Argon2id?",
       "type": "story"
@@ -64,7 +74,7 @@
       "by": "harporoeder",
       "descendants": 0,
       "id": 31954711,
-      "score": 2,
+      "score": 3,
       "time": 1656721059,
       "title": "FDIC Failed Bank List",
       "type": "story",
@@ -89,16 +99,6 @@
       "title": "Show HN: Substack, but for Data",
       "type": "story",
       "url": "https://www.wizdata.io"
-    },
-    {
-      "by": "w1nter",
-      "descendants": 0,
-      "id": 31954683,
-      "score": 1,
-      "time": 1656720761,
-      "title": "AppKid – Swift Framework for X11 (Inspired by AppKit and UIKit)",
-      "type": "story",
-      "url": "https://github.com/smumriak/AppKid"
     }
   ]
 }
