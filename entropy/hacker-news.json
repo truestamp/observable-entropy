@@ -1,6 +1,46 @@
 {
   "stories": [
     {
+      "by": "mark_l_watson",
+      "descendants": 0,
+      "id": 31967641,
+      "score": 1,
+      "time": 1656855739,
+      "title": "Nvidia in the Hot Seat? Intel Habana, Graphcore, Google TPU,Nvidia A100 Compared",
+      "type": "story",
+      "url": "https://semianalysis.com/nvidia-in-the-hot-seat-intel-habana-graphcore-google-tpu-and-nvidia-a100-compared-in-ai-training/"
+    },
+    {
+      "by": "Topolomancer",
+      "descendants": 0,
+      "id": 31967635,
+      "score": 1,
+      "time": 1656855706,
+      "title": "Open Source and Academia",
+      "type": "story",
+      "url": "https://bastian.rieck.me/blog/posts/2022/open_source/"
+    },
+    {
+      "by": "mhb",
+      "descendants": 0,
+      "id": 31967629,
+      "score": 1,
+      "time": 1656855664,
+      "title": "Intergenerational Economic Mobility in the United States [pdf]",
+      "type": "story",
+      "url": "https://www.pewtrusts.org/~/media/legacy/uploadedfiles/pcs_assets/2012/EMPReportsUpward20Intergen20Mobility2008530pdf.pdf"
+    },
+    {
+      "by": "RafelMri",
+      "descendants": 0,
+      "id": 31967627,
+      "score": 1,
+      "time": 1656855642,
+      "title": "Quantum Error Correction: Time to Make IT Work",
+      "type": "story",
+      "url": "https://spectrum.ieee.org/quantum-error-correction"
+    },
+    {
       "by": "rbanffy",
       "descendants": 0,
       "id": 31967621,
@@ -15,15 +55,18 @@
       "descendants": 0,
       "id": 31967618,
       "score": 1,
-      "text": "Made this little thing: https:&#x2F;&#x2F;github.com&#x2F;borkdude&#x2F;bebo<p>In the spirit of deno it allows you to install a script from a https location. I posted this project yesterday but forgot to add &quot;Show HN&quot;...",
+      "text": "Made this little thing: https:&#x2F;&#x2F;github.com&#x2F;borkdude&#x2F;bebo<p>In the spirit of deno it allows you to install a script from an https location but for Clojure(Script, .cljs).<p>Why would you use this? I love Clojure and I&#x27;d love to see it in more places than the JVM and browser. Maybe you do too.<p>It is similar to the idea of nbb which allows you to run .cljs scripts on Node.js via the SCI interpreter:<p>https:&#x2F;&#x2F;github.com&#x2F;babashka&#x2F;nbb\nhttps:&#x2F;&#x2F;github.com&#x2F;babashka&#x2F;sci<p>I posted this project yesterday but forgot to add &quot;Show HN&quot;... I hope that is OK since I can&#x27;t edit my previous message anymore.",
       "time": 1656855567,
       "title": "Show HN: Bebo – run Clojure scripts on Deno",
       "type": "story"
     },
     {
       "by": "karfai42",
-      "descendants": 0,
+      "descendants": 1,
       "id": 31967586,
+      "kids": [
+        31967631
+      ],
       "score": 1,
       "time": 1656855179,
       "title": "The Journey to Cloud Development: How Shopify Went All-In on Spin",
@@ -34,7 +77,7 @@
       "by": "zeristor",
       "descendants": 0,
       "id": 31967583,
-      "score": 1,
+      "score": 2,
       "time": 1656855156,
       "title": "IPv4 Transfer Pricing",
       "type": "story",
@@ -59,46 +102,6 @@
       "title": "GooFonts: Your Favorite Google Fonts Tagged for You",
       "type": "story",
       "url": "https://goofonts.com/"
-    },
-    {
-      "by": "hnnngwdlch",
-      "descendants": 0,
-      "id": 31967569,
-      "score": 1,
-      "text": "As a Flutter fan since 2019, the number of mobile and web apps I developed with Flutter grew over the years. A nice side effect was that over time, a library of reusable widgets emerged that were often useful in my future projects.<p>For example, there&#x27;s the DashedPathPainter, which converts any path to a dashed path. Similarly, there&#x27;s the AnimatedBorderPainter, which adds an animated border to its child, similar to the Trim Path feature from Adobe AfterEffects. Or the ChatBubble, inspired by WhatsApp and Telegram, which might be useful in an app with a chat function.<p>I built many of these widgets from scratch because I didn&#x27;t want to add another package to my pubspec.yaml for a single function. Of course, I also use packages for dependency injection, state management, or as an add-on for functional programming. But I&#x27;ve never been a fan of adding another dependency to my project, just for a few helper functions or a single widget.<p>I thought that maybe I&#x27;m not the only Flutter developer in this situation. So I came up with the idea for Flutter Code Snippets: a simple code library for Flutter widgets, entire screens, as well as all kinds of helper functions. You can search for the right component, copy the code and paste it into your project. Done! At least that&#x27;s how simple I imagine it to be ;)<p>Since I had already built a small library from my existing projects, I still had to build the frontend (a web app built with Flutter), add authentication and a database (Firestore), integrate a payment flow (Stripe) and write some backend logic (Google Cloud Functions).<p>The result can be seen at https:&#x2F;&#x2F;flutter-code-snippets.web.app.<p>I&#x27;m now at a point where I&#x27;ve completed all the basic work I wanted to do, and I&#x27;m looking for another round of feedback. I&#x27;d love for you guys to check it out and let me know what you think.<p>Thanks!",
-      "time": 1656855012,
-      "title": "Show HN: I have built a code library for Flutter projects",
-      "type": "story"
-    },
-    {
-      "by": "generichuman",
-      "descendants": 0,
-      "id": 31967551,
-      "score": 1,
-      "time": 1656854765,
-      "title": "The D Programming Language Vision Document",
-      "type": "story",
-      "url": "https://github.com/dlang/vision-document"
-    },
-    {
-      "by": "freemint",
-      "descendants": 0,
-      "id": 31967550,
-      "score": 1,
-      "time": 1656854765,
-      "title": "The Petrie Multiplier",
-      "type": "story",
-      "url": "https://en.wikipedia.org/wiki/Petrie_multiplier"
-    },
-    {
-      "by": "uberdru",
-      "descendants": 0,
-      "id": 31967547,
-      "score": 1,
-      "time": 1656854737,
-      "title": "Temporal analysis of Wikipedia changes with Redpanda and Materialize and dbt",
-      "type": "story",
-      "url": "https://medium.com/@danthelion/temporal-analysis-of-wikipedia-changes-with-redpanda-materialize-dbt-e372186fb951"
     }
   ]
 }
