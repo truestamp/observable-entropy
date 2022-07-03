@@ -1,6 +1,16 @@
 {
   "stories": [
     {
+      "by": "WithinReason",
+      "descendants": 0,
+      "id": 31966415,
+      "score": 1,
+      "time": 1656841344,
+      "title": "Libsixel",
+      "type": "story",
+      "url": "https://github.com/saitoha/libsixel"
+    },
+    {
       "by": "kiyanwang",
       "descendants": 0,
       "id": 31966403,
@@ -92,16 +102,6 @@
       "title": "GNU Manuals Online",
       "type": "story",
       "url": "https://www.gnu.org/manual/"
-    },
-    {
-      "by": "Sujeto",
-      "descendants": 0,
-      "id": 31966310,
-      "score": 1,
-      "text": "Yesterday after I made a small but fast program, I thought since it was simple enough, no dependencies except the compiler, it would be a nice experiment to upload it to the Arch User Repository.<p>So I started reading some arch wiki pages about PKGBUILDS to have a general idea of how not to mess up badly.\nThe several variables are described. And there are rules like &quot;Packages should never be installed to &#x2F;usr&#x2F;local&#x2F;&quot;. \nI ended up jumping between several pages and demo pkgbuilds to get an idea.<p>The PKGBUILD is simply a file where you describe some properties of the package plus define build and install operations.<p>The variables includes package dependencies for making the package and for using the package.\nThis is actually highlighted in the wikis as something that is easy to use incorrectly.<p>The operations can be a bit confusing as you might be required to &quot;cd&quot; to a directory for them to work.\nAlso the pkgversion variable is actually generated automatically after you build the package with makepkg if you have a proper pkgver() function. \nThe pkgver function can be git aware, using the last tag or commit from the repo.<p>The automatic install procedure is basically, download git repo, run build(), then run package().<p>The package() function has a bunch of `install -D -m755 somefile &quot;$pkgdir&#x2F;usr&#x2F;bin&#x2F;somefile&quot;`<p>A big pain for me was getting git to work. You publish to the aur by using git with your ssh key.\nAfter several tries this is the process that worked for me:<p>- Git clone clone the ssh location\n- Copy the pkgbuild, .gitignore, and other files you need to that directory\n- Immediately run: git branch -M master\n- Then add, commit, and push to master as normal<p>I made a push.sh file to automate git push and .SRCINFO creation. \n.SRCINFO is a file that must be generated with &quot;makepkg --printsrcinfo &gt; .SRCINFO&quot;\nIt&#x27;s a required file used for listing purposes.<p>I ended up making 4 packages (all software I wrote) since I already had the gist of it.\nSome packages have different build() steps to download dependencies and what not.<p>A big thing that happened was that I made changes to my software for packaging to make sense, actual big changes sometimes, it made me rethink a lot of stuff, making the software essentially less complex in a nice way.<p>I also had to deal with creating some user systemd services, which was almost painless. \nYou just create the service and copy it to &#x2F;etc&#x2F;systemd&#x2F;user&#x2F;something.service\nThen tell the user to enable and start the service.<p>Overall the experience was fun, I know that at least I will be using the packages myself, cool if others use it of course.",
-      "time": 1656839582,
-      "title": "What I learned by packaging for the AUR",
-      "type": "story"
     }
   ]
 }
