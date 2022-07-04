@@ -1,6 +1,36 @@
 {
   "stories": [
     {
+      "by": "robertwt7",
+      "descendants": 0,
+      "id": 31973450,
+      "score": 1,
+      "time": 1656908382,
+      "title": "Strapi closes $31M Series B",
+      "type": "story",
+      "url": "https://strapi.io/blog/series-b"
+    },
+    {
+      "by": "luu",
+      "descendants": 0,
+      "id": 31973447,
+      "score": 1,
+      "time": 1656908361,
+      "title": "High-Intensity Exercise",
+      "type": "story",
+      "url": "https://statmodeling.stat.columbia.edu/2022/06/23/high-intensity-exercise-some-new-news/"
+    },
+    {
+      "by": "anonymousab",
+      "descendants": 0,
+      "id": 31973438,
+      "score": 1,
+      "time": 1656908234,
+      "title": "Finally Obtaining the Triforce in Ocarina of Time: Explained [video]",
+      "type": "story",
+      "url": "https://www.youtube.com/watch?v=qBK1sq1BQ2Q"
+    },
+    {
       "by": "Nick87633",
       "descendants": 0,
       "id": 31973411,
@@ -58,8 +88,11 @@
     },
     {
       "by": "moviewise",
-      "descendants": 0,
+      "descendants": 1,
       "id": 31973350,
+      "kids": [
+        31973434
+      ],
       "score": 1,
       "time": 1656907026,
       "title": "Nuclear Waste (Union of Concerned Scientists)",
@@ -70,41 +103,11 @@
       "by": "tintinnabula",
       "descendants": 0,
       "id": 31973344,
-      "score": 1,
+      "score": 2,
       "time": 1656906935,
       "title": "Experience: I was in a Scientology jazz band (2021)",
       "type": "story",
       "url": "https://www.theguardian.com/lifeandstyle/2021/feb/26/experience-i-was-in-a-scientology-jazz-band"
-    },
-    {
-      "by": "jqphu",
-      "descendants": 0,
-      "id": 31973341,
-      "score": 1,
-      "time": 1656906871,
-      "title": "Composability of Data",
-      "type": "story",
-      "url": "https://www.justinphu.dev/blog/composability-of-data"
-    },
-    {
-      "by": "hardwaresofton",
-      "descendants": 0,
-      "id": 31973333,
-      "score": 1,
-      "text": "So I was doing my semi-yearly colo fantasy scenario and came across pogolinux&#x27;s offering for &quot;composable infrastructure&quot;[0].<p>I don&#x27;t understand it completely yet, but it <i>seems</i> to be dis-aggregated compute, storage and peripherals via networked PCIe. I guess if I had to describe it, I might call it &quot;motherboard-level virtualization&quot;. The hook is that you can provision <i>virtualized &quot;bare metal&quot;</i> -- assemble entire cores, memory, network and other devices&#x2F;peripherals, via software.<p>This lines up with some products I&#x27;ve seen like Ethernet-native SSDs from Kioxia (formerly Toshiba) covered by ServeTheHome[1].<p>I am a huge fan of dis-aggregation and re-use (see: enthusiasm for k8s), and this &quot;composable infrastructure&quot; idea seems amazing, is anyone using this at their day job? What am I missing?<p>Reading through the descriptions the word &quot;open&quot; gets used a lot, but I don&#x27;t know of any actually FOSS implementations of this (which is par for the course with deep server&#x2F;mainframe software)...<p>Considering Amazon is still making waves with Nitro which is more small low overhead DPU&#x2F;FPGAs + traditional hardware, is this really a future path that people are moving towards?<p>I had a quick discussion with someone on the IBM Z mainframe[2][3] which seems to be a similar concept but they couldn&#x27;t tell me too much since it was still quite hush-hush. The idea isn&#x27;t <i>quite</i> the same, because IBM Z is more like &quot;one big blue motherboard + virtual machines&quot;, but considering IBM just moved to offering this as a server[4] it seems like no one actually should be trying to make this concept work locally (i.e. in your own colo&#x2F;DC).<p>Also while we&#x27;re here, is pogo linux the best&#x2F;most cost-effective server assembly site you know of?<p>[0]: https:&#x2F;&#x2F;www.pogolinux.com&#x2F;products&#x2F;composable-infrastructure&#x2F;technology<p>[1]: https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=_igei5FVeeA<p>[2]: https:&#x2F;&#x2F;www.ibm.com&#x2F;community&#x2F;z-and-cloud&#x2F;<p>[3]: https:&#x2F;&#x2F;www.ibm.com&#x2F;products&#x2F;z16<p>[4]: https:&#x2F;&#x2F;www.msn.com&#x2F;en-us&#x2F;news&#x2F;technology&#x2F;ibm-is-about-to-launch-its-first-ever-cloud-based-mainframe&#x2F;ar-AAZ0bm5",
-      "time": 1656906775,
-      "title": "Ask HN: Are you using composable infrastructure at $DAYJOB?",
-      "type": "story"
-    },
-    {
-      "by": "telotortium",
-      "descendants": 0,
-      "id": 31973326,
-      "score": 2,
-      "time": 1656906699,
-      "title": "Mammalian offspring derived from a single unfertilized egg",
-      "type": "story",
-      "url": "https://phys.org/news/2022-03-mammalian-offspring-derived-unfertilized-egg.html"
     }
   ]
 }
