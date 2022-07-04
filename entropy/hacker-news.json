@@ -1,6 +1,89 @@
 {
   "stories": [
     {
+      "by": "davesailer",
+      "descendants": 1,
+      "id": 31977146,
+      "kids": [
+        31977156
+      ],
+      "score": 1,
+      "time": 1656943424,
+      "title": "“This I Know” Marketing Lessons from Under the Influence (2017)",
+      "type": "story",
+      "url": "https://www.thespec.com/business/2017/03/27/business-books-this-i-know.html"
+    },
+    {
+      "by": "h2odragon",
+      "descendants": 0,
+      "id": 31977144,
+      "score": 1,
+      "time": 1656943414,
+      "title": "Mendon, Missouri",
+      "type": "story",
+      "url": "https://seandietrich.com/mendon-missouri/"
+    },
+    {
+      "by": "blindmute",
+      "descendants": 0,
+      "id": 31977137,
+      "score": 1,
+      "time": 1656943354,
+      "title": "The Free Chad-Tier License",
+      "type": "story",
+      "url": "https://pastebin.com/DHLsfVKA"
+    },
+    {
+      "by": "rntn",
+      "descendants": 0,
+      "id": 31977136,
+      "score": 1,
+      "time": 1656943350,
+      "title": "Why criticism lasts longer than praise",
+      "type": "story",
+      "url": "https://www.bbc.com/future/article/20220624-why-criticism-lasts-longer-than-praise"
+    },
+    {
+      "by": "rntn",
+      "descendants": 0,
+      "id": 31977134,
+      "score": 1,
+      "time": 1656943332,
+      "title": "China rallies support for Kylin Linux in war on Windows",
+      "type": "story",
+      "url": "https://www.theregister.com/2022/07/03/china_openkylin/"
+    },
+    {
+      "by": "rntn",
+      "descendants": 0,
+      "id": 31977128,
+      "score": 1,
+      "time": 1656943304,
+      "title": "The Fight over Which Uses of AI Europe Should Outlaw",
+      "type": "story",
+      "url": "https://www.wired.com/story/europe-law-outlaw-ai/"
+    },
+    {
+      "by": "yo_ohei",
+      "descendants": 0,
+      "id": 31977126,
+      "score": 1,
+      "time": 1656943286,
+      "title": "Show HN: Phrag – GraphQL API for CRUD auto-created from an RDBMS connection",
+      "type": "story",
+      "url": "https://github.com/ykskb/phrag"
+    },
+    {
+      "by": "mambru",
+      "descendants": 0,
+      "id": 31977124,
+      "score": 1,
+      "time": 1656943283,
+      "title": "Prepare developed democracies for long-run economic slowdowns (2021)",
+      "type": "story",
+      "url": "https://www.nature.com/articles/s41562-021-01229-y"
+    },
+    {
       "by": "gridwin",
       "descendants": 0,
       "id": 31977091,
@@ -19,96 +102,6 @@
       "title": "Hello, I'm Mr. Null. My Name Makes Me Invisible to Computers",
       "type": "story",
       "url": "https://www.wired.com/2015/11/null/"
-    },
-    {
-      "by": "dlcmh",
-      "descendants": 0,
-      "id": 31977077,
-      "score": 1,
-      "time": 1656942957,
-      "title": "The Boeing 787: Broken Dreams – Al Jazeera Investigations (2014)",
-      "type": "story",
-      "url": "https://www.youtube.com/watch?v=rvkEpstd9os"
-    },
-    {
-      "by": "codedeadlock",
-      "descendants": 0,
-      "id": 31977074,
-      "score": 1,
-      "time": 1656942947,
-      "title": "5 lessons I learnt after coding for 10 years",
-      "type": "story",
-      "url": "https://binaryho.me/5-things-i-leant-hard-way/"
-    },
-    {
-      "by": "demomi",
-      "descendants": 0,
-      "id": 31977006,
-      "score": 2,
-      "time": 1656942615,
-      "title": "Death, Nothingness, and Subjectivity",
-      "type": "story",
-      "url": "https://www.naturalism.org/philosophy/death/death-nothingness-and-subjectivity"
-    },
-    {
-      "by": "germandiago",
-      "descendants": 0,
-      "id": 31977005,
-      "score": 1,
-      "text": "Hello everyone,<p>I was curious about the state of gcc modules since I am eager to use them and took a look at the current status.<p>I did it via (after a couple checks on the best way to figure out):<p>git log --author=nathan@acm.org --since=2022-01-01 --reverse<p>It seems there are a few fixes and some refactorings and improvements&#x2F;optimizations:<p><pre><code>    It seems gcc modules are implementing the strong ownership model (not the weak one as planned in principle), in line with what Microsoft is doing, finally:\n</code></pre>\n``` c++: New module mangling ABI<p>This implements a new module mangling ABI as the original one has a\nfew issues:<p>a) it was not demangleable (oops)<p>b) implemented a weak ownership model.<p>This implements a strong ownership model, so that exported entities\nfrom named modules are mangled to include their module attachment.\nThis gives more informative linker diagnostics and better module\nisolation.  Weak ownership was hoped to allow backwards compatibility\nwith non-modular code, but in practice was very brittle, and C++20\nadded new semantics for linkage declarations that cover the needed\nfunctionality.<p>FAOD Clang is also moving to this ABI and documentation will be added\nto the Itanium ABI specification.<p>```<p><pre><code>    support for module language-decl semantics:\n</code></pre>\n``` In modules purview, one can attach a declaration to the global module (i.e. not the named module in whence the declaration appears), using a language declaration:<p><pre><code>  export module Foo;\n  extern &quot;C++&quot; void *operator new (std::size_t);\n</code></pre>\n```<p><pre><code>    support for C++ modules in the demangler (I understand that strong ownership model).\n\n    local symbols do not get module mangling (no need for it since they are private anyway)\n\n    c++: Better module initializer code\n</code></pre>\nEvery module interface needs to emit a global initializer, but it might have nothing to init. In those cases, there&#x27;s no need for any idempotency boolean to be emitted.<p><pre><code>    c++: Prune unneeded macro locations\n</code></pre>\n``` This implements garbage collection on locations within macro expansions, when streaming out a CMI. When doing the reachability walks, we now note which macro locations we need and then only write those locations. The complication here is that every macro expansion location has an independently calculated offset. This complicates writing, but reading remains the same -- the macro locations of a CMI continue to form a contiguous block.<p>For std headers this reduced the number of macro maps by 40% and the\nnumber of locations by 16%.  For a GMF including iostream, it reduced\nit by 80% and 60% respectively.<p>```<p>There are also some improvements to mangling: the modules ABI was not demangeable, that was corrected together with the inclusion of the strong ownership model.<p>There are also std manglings that are not applied if not in the global module, a fix I guess.<p>Great thanks to Nathan Sdwell for all the hard work!<p>Really eager to see modules in a usable state in the next Gcc release!",
-      "time": 1656942599,
-      "title": "GCC master C++20 modules keeps improving",
-      "type": "story"
-    },
-    {
-      "by": "NickRandom",
-      "descendants": 0,
-      "id": 31976991,
-      "score": 2,
-      "time": 1656942499,
-      "title": "New study shows highly creative people’s brains work differently from others'",
-      "type": "story",
-      "url": "https://www.uclahealth.org/news/CreativeBrain2022"
-    },
-    {
-      "by": "alexellisuk",
-      "descendants": 1,
-      "id": 31976978,
-      "kids": [
-        31976992
-      ],
-      "score": 1,
-      "time": 1656942408,
-      "title": "How to update your OpenFaaS functions automatically with Argo CD",
-      "type": "story",
-      "url": "https://www.openfaas.com/blog/argocd-image-updater-for-functions/"
-    },
-    {
-      "by": "samizdis",
-      "descendants": 1,
-      "id": 31976955,
-      "kids": [
-        31977003
-      ],
-      "score": 3,
-      "time": 1656942223,
-      "title": "The local news crisis is deepening America's divides",
-      "type": "story",
-      "url": "https://www.axios.com/2022/07/04/local-newspapers-news-deserts"
-    },
-    {
-      "by": "croes",
-      "descendants": 2,
-      "id": 31976954,
-      "kids": [
-        31977059,
-        31977048
-      ],
-      "score": 6,
-      "time": 1656942221,
-      "title": "Give Up GitHub",
-      "type": "story",
-      "url": "https://sfconservancy.org/GiveUpGitHub/"
     }
   ]
 }
