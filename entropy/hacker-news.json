@@ -1,6 +1,26 @@
 {
   "stories": [
     {
+      "by": "demomi",
+      "descendants": 0,
+      "id": 31977006,
+      "score": 2,
+      "time": 1656942615,
+      "title": "Death, Nothingness, and Subjectivity",
+      "type": "story",
+      "url": "https://www.naturalism.org/philosophy/death/death-nothingness-and-subjectivity"
+    },
+    {
+      "by": "germandiago",
+      "descendants": 0,
+      "id": 31977005,
+      "score": 1,
+      "text": "Hello everyone,<p>I was curious about the state of gcc modules since I am eager to use them and took a look at the current status.<p>I did it via (after a couple checks on the best way to figure out):<p>git log --author=nathan@acm.org --since=2022-01-01 --reverse<p>It seems there are a few fixes and some refactorings and improvements&#x2F;optimizations:<p><pre><code>    It seems gcc modules are implementing the strong ownership model (not the weak one as planned in principle), in line with what Microsoft is doing, finally:\n</code></pre>\n``` c++: New module mangling ABI<p>This implements a new module mangling ABI as the original one has a\nfew issues:<p>a) it was not demangleable (oops)<p>b) implemented a weak ownership model.<p>This implements a strong ownership model, so that exported entities\nfrom named modules are mangled to include their module attachment.\nThis gives more informative linker diagnostics and better module\nisolation.  Weak ownership was hoped to allow backwards compatibility\nwith non-modular code, but in practice was very brittle, and C++20\nadded new semantics for linkage declarations that cover the needed\nfunctionality.<p>FAOD Clang is also moving to this ABI and documentation will be added\nto the Itanium ABI specification.<p>```<p><pre><code>    support for module language-decl semantics:\n</code></pre>\n``` In modules purview, one can attach a declaration to the global module (i.e. not the named module in whence the declaration appears), using a language declaration:<p><pre><code>  export module Foo;\n  extern &quot;C++&quot; void *operator new (std::size_t);\n</code></pre>\n```<p><pre><code>    support for C++ modules in the demangler (I understand that strong ownership model).\n\n    local symbols do not get module mangling (no need for it since they are private anyway)\n\n    c++: Better module initializer code\n</code></pre>\nEvery module interface needs to emit a global initializer, but it might have nothing to init. In those cases, there&#x27;s no need for any idempotency boolean to be emitted.<p><pre><code>    c++: Prune unneeded macro locations\n</code></pre>\n``` This implements garbage collection on locations within macro expansions, when streaming out a CMI. When doing the reachability walks, we now note which macro locations we need and then only write those locations. The complication here is that every macro expansion location has an independently calculated offset. This complicates writing, but reading remains the same -- the macro locations of a CMI continue to form a contiguous block.<p>For std headers this reduced the number of macro maps by 40% and the\nnumber of locations by 16%.  For a GMF including iostream, it reduced\nit by 80% and 60% respectively.<p>```<p>There are also some improvements to mangling: the modules ABI was not demangeable, that was corrected together with the inclusion of the strong ownership model.<p>There are also std manglings that are not applied if not in the global module, a fix I guess.<p>Great thanks to Nathan Sdwell for all the hard work!<p>Really eager to see modules in a usable state in the next Gcc release!",
+      "time": 1656942599,
+      "title": "GCC master C++20 modules keeps improving",
+      "type": "story"
+    },
+    {
       "by": "NickRandom",
       "descendants": 0,
       "id": 31976991,
@@ -38,9 +58,13 @@
     },
     {
       "by": "croes",
-      "descendants": 0,
+      "descendants": 1,
       "id": 31976954,
-      "score": 3,
+      "kids": [
+        31977059,
+        31977048
+      ],
+      "score": 5,
       "time": 1656942221,
       "title": "Give Up GitHub",
       "type": "story",
@@ -85,26 +109,6 @@
       "title": "9 months after ICLR award, as an independent researcher",
       "type": "story",
       "url": "https://andreas-madsen.medium.com/9-months-after-my-iclr-spotlight-award-as-an-independent-researcher-9cfb0c808817"
-    },
-    {
-      "by": "perihelions",
-      "descendants": 0,
-      "id": 31976920,
-      "score": 1,
-      "time": 1656942021,
-      "title": "An Update from Chessable",
-      "type": "story",
-      "url": "https://www.chessable.com/blog/july-4th-update/"
-    },
-    {
-      "by": "rrevi",
-      "descendants": 0,
-      "id": 31976901,
-      "score": 1,
-      "time": 1656941930,
-      "title": "Let's compare the run performance of a bubble sort script with Crystal and Ruby",
-      "type": "story",
-      "url": "https://rrevi.github.io/performance-crystal-vs-ruby"
     }
   ]
 }
