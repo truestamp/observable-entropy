@@ -6,7 +6,7 @@
       "id": 31983126,
       "score": 1,
       "time": 1656981791,
-      "title": "TripleCross: Linux eBPF Rootkit",
+      "title": "TripleCross: A Linux eBPF rootkit",
       "type": "story",
       "url": "https://github.com/h3xduck/TripleCross"
     },
@@ -88,8 +88,11 @@
     },
     {
       "by": "obl1que",
-      "descendants": 0,
+      "descendants": 1,
       "id": 31982964,
+      "kids": [
+        31983147
+      ],
       "score": 1,
       "text": "Who&#x27;s developing an approach to web scraping based on computer vision (CV)? I&#x27;ve looked for this but so far not found much beyond [0] -- although the motivations for this are also touched upon by [1].<p>Scraping is an arms race, of course. A simple but often successful way to fight scraping is, for instance, changing the names of classes routinely. This affects scrapers more than users, because a user doesn&#x27;t see those class names, while a scraper relies on them.<p>Is anyone scraping using only (or mostly) computer vision on the rendered browser screen, and simulating mouse clicks and key presses?<p>It seems like anti-scraping measures to defeat an CV-based approach would be more intrusive to the user and thus they would be used less often.<p>[0] https:&#x2F;&#x2F;github.com&#x2F;jimbobewenhall&#x2F;OpenCV-website-scraper\n[1] https:&#x2F;&#x2F;incolumitas.com&#x2F;2021&#x2F;05&#x2F;20&#x2F;avoid-puppeteer-and-playwright-for-scraping&#x2F;",
       "time": 1656979589,
@@ -104,7 +107,7 @@
         31983103,
         31983095
       ],
-      "score": 15,
+      "score": 21,
       "time": 1656979554,
       "title": "Felt",
       "type": "story",
