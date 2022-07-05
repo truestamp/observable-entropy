@@ -1,6 +1,16 @@
 {
   "stories": [
     {
+      "by": "PaulHoule",
+      "descendants": 0,
+      "id": 31983507,
+      "score": 1,
+      "time": 1656986320,
+      "title": "Leon Trotsky",
+      "type": "story",
+      "url": "https://en.wikipedia.org/wiki/Leon_Trotsky"
+    },
+    {
       "by": "CharlesW",
       "descendants": 0,
       "id": 31983481,
@@ -12,9 +22,12 @@
     },
     {
       "by": "samizdis",
-      "descendants": 0,
+      "descendants": 1,
       "id": 31983476,
-      "score": 1,
+      "kids": [
+        31983504
+      ],
+      "score": 2,
       "time": 1656985950,
       "title": "India shares its e-government tools with all as India Stack",
       "type": "story",
@@ -85,23 +98,16 @@
     },
     {
       "by": "aruanavekar",
-      "descendants": 0,
+      "descendants": 1,
       "id": 31983315,
+      "kids": [
+        31983490
+      ],
       "score": 7,
       "time": 1656983982,
       "title": "Meta is pulling the plug on its crypto payments wallet, Novi",
       "type": "story",
       "url": "https://techcrunch.com/2022/07/04/meta-novi-pilot-ends/"
-    },
-    {
-      "by": "rishflab",
-      "descendants": 0,
-      "id": 31983306,
-      "score": 2,
-      "text": "I tried switching from jetbrains to various modal editors (neovim, doom-emacs, kakoune, helix).\nThe fast startup time and continuity when working in a terminal environment was very appealing,\nas was the promise of increased code editing effeciency.<p>I liked the fast startup time and having the same keybindings to edit system config files but\nI am not impressed with VIM style text editing. First of all programmers don&#x27;t really edit text,\nwe edit code. VIM&#x27;s grammar does not acknowledge this. It is centered around lines, words etc.\nCode is a tree. In my opinion, you want to keybinds which traverse this tree, expand&#x2F;shrink selections etc.<p>Of course I can install tree-sitter and setup structual editing based bindings but am I really\nusing VIM at this point? I don&#x27;t think the VIM grammar is the future of code editing.\nI think it is a bit overrated. I think editor designers should work on developing a grammar&#x2F;keybinds\nthat center around structural&#x2F;tree based editing.\nI have found that IDE&#x27;s tend to acknowledge this tree based\n&quot;reality&quot; better than VIM.<p>I think this concept could even be applied to source control ie. git stores an tree-sitter like\nrepresentation of code instead of text. Your text editor handles formatting.",
-      "time": 1656983863,
-      "title": "Opinion: Structural editing is superior to the Vim grammar",
-      "type": "story"
     }
   ]
 }
