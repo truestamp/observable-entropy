@@ -1,110 +1,110 @@
 {
   "stories": [
     {
-      "by": "wayy",
+      "by": "danboarder",
       "descendants": 0,
-      "id": 32003215,
+      "id": 32003310,
       "score": 1,
-      "text": "Hi HN, we’re Michael and Justin from Hello Cognition (<a href=\"https:&#x2F;&#x2F;beta.sayhello.so\" rel=\"nofollow\">https:&#x2F;&#x2F;beta.sayhello.so</a>). We&#x27;re building a better search engine for software developers. Hello saves you time by synthesizing clear explanations to technical questions along with code snippets from the web, showing them right on the search page.<p>We’ve found that most technical searches fall into a few categories: ad-hoc how-tos, understanding an API, recalling forgotten details, research, or troubleshooting. Google is too broad and shallow of a search tool to be good at this. Even after sifting through the deluge of spammy, irrelevant sites pumped full of SEO, you still have to manually find your answer through discussion boards or documentation. Their “featured snippet” approach works for simple factoid queries but quickly falls apart if a question requires reasoning about information across multiple webpages.<p>Our approach is narrow and deep — to retrieve detailed information for topics relevant to developers. When you submit a query, we pull raw site data from Bing, rerank them, and extract understanding and code snippets with our proprietary large language models. We use seq-to-seq transformer models to generate a final explanation from all of this input.<p>For our honors theses at UT Austin, we researched prototypes of large generative language models that can answer complex questions by combining information from multiple sources. We found that GPT-3, GPT-Neo&#x2F;J&#x2F;X, and similar autoregressive language models that predict text from left to right are prone to “hallucinating” and generating text inconsistent with the “ground truth” document. Training a sequence-to-sequence language model (T5 derivative) on our custom dataset designed for factual generation yielded much better results with less hallucination.<p>After creating this prototype, we started actively developing Hello with the idea that searching should be just like talking to a smart friend. We want to build an engine that explains complex topics clearly and concisely, and lets users ask follow-up questions using the context of their previous searches.<p>For example, when asked “what type of semaphore can function as a mutex?”, Hello pulls in the raw text from all five search results linked on the search page to generate: “A binary semaphore can be used as a mutex. Mutexes and semaphores are two different types of synchronization mechanisms. A mutex is a lock that prevents two threads from accessing the same resource at the same time. A semaphore is used to signal that a resource has become available.”<p>We use BERT-based models to extract and rank code snippets if relevant to the query. Our search engine currently does well at answering applicable how-to questions such as “Sort a list of tuples by the second element”, “Set a response cookie in FastAPI”, “Get value of input in React”, “How to implement Dijkstra&#x27;s algorithm.” Exclusively using our own models has also freed us from dependence on OpenAI.<p>Hello is and will always be free for individual devs. We haven’t rolled out any paid plans yet, but we’re planning to charge teams per user&#x2F;month to use on internal data scattered around in wikis, documentation, slack, and emails.<p>We started Hello Cognition to scratch our own itch, but now we hope to improve the state of information retrieval for the greater developer community. We would love to hear your ideas, feedback, and what would be helpful for you when navigating technical problems.<p>Want to be part of Hello&#x27;s product feedback + iteration process? Reach out to us at founders@sayhello.so.",
-      "time": 1657124670,
-      "title": "Launch HN: Hello (YC S22) – A search engine for developers",
-      "type": "story"
-    },
-    {
-      "by": "bluedino",
-      "descendants": 0,
-      "id": 32003211,
-      "score": 1,
-      "time": 1657124663,
-      "title": "Recent Security Incident: Statement from SHI",
+      "time": 1657124997,
+      "title": "EG3D can generate random images of 3D faces with underlying geometric structures",
       "type": "story",
-      "url": "https://blog.shi.com/uncategorized/recent-security-incident-statement-from-shi"
+      "url": "https://www.marktechpost.com/2022/07/04/researchers-at-stanford-have-developed-an-artificial-intelligence-ai-model-eg3d-that-can-generate-random-images-of-faces-and-other-objects-with-high-resolution-together-with-underlying-geometric-s/"
     },
     {
-      "by": "cwmartin",
+      "by": "22222",
       "descendants": 0,
-      "id": 32003198,
-      "score": 1,
-      "time": 1657124605,
-      "title": "Picbreeder",
-      "type": "story",
-      "url": "https://nbenko1.github.io/"
-    },
-    {
-      "by": "moderatorium",
-      "descendants": 1,
-      "id": 32003193,
-      "kids": [
-        32003201
-      ],
-      "score": 1,
-      "text": ".apk at moderator.rocks",
-      "time": 1657124577,
-      "title": "Try out atacama, a distributed anon twitterlike",
-      "type": "story"
-    },
-    {
-      "by": "hourago",
-      "descendants": 0,
-      "id": 32003189,
-      "score": 1,
-      "time": 1657124557,
-      "title": "How Much Does TikTok Pay vs. YouTube?",
-      "type": "story",
-      "url": "https://moneytransfers.com/news/content/how-much-does-tiktok-pay-vs-youtube"
-    },
-    {
-      "by": "thesecretceo",
-      "descendants": 0,
-      "id": 32003179,
-      "score": 1,
-      "time": 1657124507,
-      "title": "Apple CarPlay will let you pay for gas from your driver’s seat",
-      "type": "story",
-      "url": "https://www.theverge.com/2022/7/1/23190601/apple-carplay-gas-infotainment-ios-16"
-    },
-    {
-      "by": "Blahah",
-      "descendants": 0,
-      "id": 32003162,
-      "score": 1,
-      "time": 1657124440,
-      "title": "Scenario replays and how they improve workflows across teams",
-      "type": "story",
-      "url": "https://www.vdenboer.com/blog/scenario-replays/"
-    },
-    {
-      "by": "samizdis",
-      "descendants": 0,
-      "id": 32003156,
+      "id": 32003282,
       "score": 2,
-      "time": 1657124417,
-      "title": "IEEESpectrum reflects on JWST’s groundbreaking engineering",
+      "time": 1657124878,
+      "title": "China: MI5 and FBI heads warn of ‘immense’ threat",
       "type": "story",
-      "url": "https://spectrum.ieee.org/james-webb-telescope-optics"
+      "url": "https://www.bbc.co.uk/news/world-asia-china-62064506"
     },
     {
-      "by": "midtone_app",
-      "descendants": 1,
-      "id": 32003119,
+      "by": "raybb",
+      "descendants": 0,
+      "id": 32003277,
+      "score": 1,
+      "time": 1657124868,
+      "title": "I Got Fired for Unionizing at Starbucks. and I’d Do It Again",
+      "type": "story",
+      "url": "https://jacobin.com/2022/07/starbucks-union-workers-united-firing-union-busting"
+    },
+    {
+      "by": "anigbrowl",
+      "descendants": 0,
+      "id": 32003274,
+      "score": 1,
+      "time": 1657124854,
+      "title": "What Does the National Guard Do with 40k Unvaccinated Soldiers? No One Knows",
+      "type": "story",
+      "url": "https://www.military.com/daily-news/2022/06/30/what-does-guard-do-40000-unvaccinated-soldiers-no-one-knows.html"
+    },
+    {
+      "by": "nigerian1981",
+      "descendants": 0,
+      "id": 32003271,
+      "score": 1,
+      "time": 1657124852,
+      "title": "Indian director receives threats over film poster of goddess with Pride flag",
+      "type": "story",
+      "url": "https://www.theguardian.com/world/2022/jul/06/indian-director-facing-threats-over-film-poster-of-goddess-with-pride-flag"
+    },
+    {
+      "by": "kypro",
+      "descendants": 0,
+      "id": 32003266,
+      "score": 1,
+      "text": "Hi HN, I&#x27;ve just got out of a meeting and like almost every non-technical meeting I have next to no idea what the discussion was about.<p>I find a lot of non-technical meetings go something like this:<p>&quot;Hi guys, as you might be aware [Robert Smith] of the [communications department] has recently released his [quarterly review] of our ongoing [transformation strategy]. We&#x27;ve received a lot of positive feedback so far, but I wanted to give you all an opportunity to share your thoughts in this meeting. Would anyone like to go first?&quot;<p>Then about half of the team (normally the same people) will jump into the discussion and somehow seem to know what the hell is going on.<p>Meanwhile I&#x27;m there wondering who is this [Robert Smith] of the [communications department]? What is the [transformation strategy] and why does it need a [quarterly review]?<p>Occasionally someone will ask what the [transformation strategy] is, but typically it won&#x27;t be answered in a way that helps me understand what&#x27;s going on because even more names and departments will be dropped and the strategy itself will be described in such a vague way that it means nothing.<p>I guess a concrete example that comes to mind was from a place I worked previously where they would talk about their &quot;omnichannel&quot; strategy a lot. Whenever someone asked what &quot;omnichannel&quot; meant it was described in a way that seemed to mean nothing, &quot;a multichannel sales strategy&quot;, etc. About 6 months into the job I finally figured out we were just using it to refer to some extra functionality that we were working on that would allow customers to collect and return online orders from our regional stores. But this was never how it was referred to in corporate meetings.<p>Am I the only one who experiences this? I can&#x27;t work out if there&#x27;s a part of my brain that&#x27;s missing that prevents me from understanding what&#x27;s being discussed in these meetings or if this is a common experience. I&#x27;m very practically minded which probably doesn&#x27;t help, but I worry I&#x27;m not making enough of an effort to understand what&#x27;s happening in the business outside my personal bubble.<p>Does anyone struggle with this, or do you have any recommendations for people like me who do struggle to understand what&#x27;s happening in corporate meetings?",
+      "time": 1657124838,
+      "title": "Ask HN: Why do I struggle to follow corporate meetings?",
+      "type": "story"
+    },
+    {
+      "by": "elsewhen",
+      "descendants": 0,
+      "id": 32003258,
+      "score": 1,
+      "time": 1657124798,
+      "title": "Tesla is wasting money at a record pace",
+      "type": "story",
+      "url": "https://twitter.com/LovingWildlyfe/status/1544258707197935617"
+    },
+    {
+      "by": "get_makerbox",
+      "descendants": 2,
+      "id": 32003253,
       "kids": [
-        32003135
+        32003293
+      ],
+      "score": 2,
+      "text": "You are 99% likely to fail with SaaS as a first startup for 2 reasons:<p>— Not enough audience to support you\n— Not enough knowledge about customers&#x27; problems<p>Odds are against you<p>Start with these products to solve these issues.<p>Launching SaaS next would be a piece of cake.<p>1) Curated list\n2) Notion template\n3) Newsletter\n4) Closed community\n5) 30-day challenge\n6) 1-person agency\n7) Pre-recorded course\n8) Podcast\n9) Email course\n10) Blog<p>Full thread — https:&#x2F;&#x2F;twitter.com&#x2F;DanKulkov&#x2F;status&#x2F;1543663255230377985<p>What product idea would you add?",
+      "time": 1657124792,
+      "title": "Want to build SaaS? but don't start with it",
+      "type": "story"
+    },
+    {
+      "by": "bookofjoe",
+      "descendants": 1,
+      "id": 32003250,
+      "kids": [
+        32003255
       ],
       "score": 1,
-      "time": 1657124264,
-      "title": "Show HN: Midtone – online photo editor with support for layers and selections",
+      "time": 1657124783,
+      "title": "UCSF’s Bob Wachter says Covid variant BA.5 is ‘a different beast’",
       "type": "story",
-      "url": "https://midtone.app"
+      "url": "https://www.sfchronicle.com/health/article/Why-UCSF-s-Bob-Wachter-says-COVID-variant-BA-5-17283783.php"
     },
     {
-      "by": "eranation",
+      "by": "dfern",
       "descendants": 0,
-      "id": 32003118,
-      "score": 1,
-      "time": 1657124264,
-      "title": "Hacking Upstream: Finding a 0-Day in an OpenSSH Key Parser Library",
+      "id": 32003246,
+      "score": 3,
+      "time": 1657124779,
+      "title": "Let's Encrypt swag is here and I love it",
       "type": "story",
-      "url": "https://www.arnica.io/blog/hacking-upstream-finding-a-0-day-in-an-openssh-key-parser-library"
+      "url": "https://letsencrypt.org/donate/"
     }
   ]
 }
