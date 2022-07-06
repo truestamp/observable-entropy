@@ -1,6 +1,89 @@
 {
   "stories": [
     {
+      "by": "wayy",
+      "descendants": 0,
+      "id": 32003215,
+      "score": 1,
+      "text": "Hi HN, we’re Michael and Justin from Hello Cognition (<a href=\"https:&#x2F;&#x2F;beta.sayhello.so\" rel=\"nofollow\">https:&#x2F;&#x2F;beta.sayhello.so</a>). We&#x27;re building a better search engine for software developers. Hello saves you time by synthesizing clear explanations to technical questions along with code snippets from the web, showing them right on the search page.<p>We’ve found that most technical searches fall into a few categories: ad-hoc how-tos, understanding an API, recalling forgotten details, research, or troubleshooting. Google is too broad and shallow of a search tool to be good at this. Even after sifting through the deluge of spammy, irrelevant sites pumped full of SEO, you still have to manually find your answer through discussion boards or documentation. Their “featured snippet” approach works for simple factoid queries but quickly falls apart if a question requires reasoning about information across multiple webpages.<p>Our approach is narrow and deep — to retrieve detailed information for topics relevant to developers. When you submit a query, we pull raw site data from Bing, rerank them, and extract understanding and code snippets with our proprietary large language models. We use seq-to-seq transformer models to generate a final explanation from all of this input.<p>For our honors theses at UT Austin, we researched prototypes of large generative language models that can answer complex questions by combining information from multiple sources. We found that GPT-3, GPT-Neo&#x2F;J&#x2F;X, and similar autoregressive language models that predict text from left to right are prone to “hallucinating” and generating text inconsistent with the “ground truth” document. Training a sequence-to-sequence language model (T5 derivative) on our custom dataset designed for factual generation yielded much better results with less hallucination.<p>After creating this prototype, we started actively developing Hello with the idea that searching should be just like talking to a smart friend. We want to build an engine that explains complex topics clearly and concisely, and lets users ask follow-up questions using the context of their previous searches.<p>For example, when asked “what type of semaphore can function as a mutex?”, Hello pulls in the raw text from all five search results linked on the search page to generate: “A binary semaphore can be used as a mutex. Mutexes and semaphores are two different types of synchronization mechanisms. A mutex is a lock that prevents two threads from accessing the same resource at the same time. A semaphore is used to signal that a resource has become available.”<p>We use BERT-based models to extract and rank code snippets if relevant to the query. Our search engine currently does well at answering applicable how-to questions such as “Sort a list of tuples by the second element”, “Set a response cookie in FastAPI”, “Get value of input in React”, “How to implement Dijkstra&#x27;s algorithm.” Exclusively using our own models has also freed us from dependence on OpenAI.<p>Hello is and will always be free for individual devs. We haven’t rolled out any paid plans yet, but we’re planning to charge teams per user&#x2F;month to use on internal data scattered around in wikis, documentation, slack, and emails.<p>We started Hello Cognition to scratch our own itch, but now we hope to improve the state of information retrieval for the greater developer community. We would love to hear your ideas, feedback, and what would be helpful for you when navigating technical problems.<p>Want to be part of Hello&#x27;s product feedback + iteration process? Reach out to us at founders@sayhello.so.",
+      "time": 1657124670,
+      "title": "Launch HN: Hello (YC S22) – A search engine for developers",
+      "type": "story"
+    },
+    {
+      "by": "bluedino",
+      "descendants": 0,
+      "id": 32003211,
+      "score": 1,
+      "time": 1657124663,
+      "title": "Recent Security Incident: Statement from SHI",
+      "type": "story",
+      "url": "https://blog.shi.com/uncategorized/recent-security-incident-statement-from-shi"
+    },
+    {
+      "by": "cwmartin",
+      "descendants": 0,
+      "id": 32003198,
+      "score": 1,
+      "time": 1657124605,
+      "title": "Picbreeder",
+      "type": "story",
+      "url": "https://nbenko1.github.io/"
+    },
+    {
+      "by": "moderatorium",
+      "descendants": 1,
+      "id": 32003193,
+      "kids": [
+        32003201
+      ],
+      "score": 1,
+      "text": ".apk at moderator.rocks",
+      "time": 1657124577,
+      "title": "Try out atacama, a distributed anon twitterlike",
+      "type": "story"
+    },
+    {
+      "by": "hourago",
+      "descendants": 0,
+      "id": 32003189,
+      "score": 1,
+      "time": 1657124557,
+      "title": "How Much Does TikTok Pay vs. YouTube?",
+      "type": "story",
+      "url": "https://moneytransfers.com/news/content/how-much-does-tiktok-pay-vs-youtube"
+    },
+    {
+      "by": "thesecretceo",
+      "descendants": 0,
+      "id": 32003179,
+      "score": 1,
+      "time": 1657124507,
+      "title": "Apple CarPlay will let you pay for gas from your driver’s seat",
+      "type": "story",
+      "url": "https://www.theverge.com/2022/7/1/23190601/apple-carplay-gas-infotainment-ios-16"
+    },
+    {
+      "by": "Blahah",
+      "descendants": 0,
+      "id": 32003162,
+      "score": 1,
+      "time": 1657124440,
+      "title": "Scenario replays and how they improve workflows across teams",
+      "type": "story",
+      "url": "https://www.vdenboer.com/blog/scenario-replays/"
+    },
+    {
+      "by": "samizdis",
+      "descendants": 0,
+      "id": 32003156,
+      "score": 2,
+      "time": 1657124417,
+      "title": "IEEESpectrum reflects on JWST’s groundbreaking engineering",
+      "type": "story",
+      "url": "https://spectrum.ieee.org/james-webb-telescope-optics"
+    },
+    {
       "by": "midtone_app",
       "descendants": 1,
       "id": 32003119,
@@ -22,86 +105,6 @@
       "title": "Hacking Upstream: Finding a 0-Day in an OpenSSH Key Parser Library",
       "type": "story",
       "url": "https://www.arnica.io/blog/hacking-upstream-finding-a-0-day-in-an-openssh-key-parser-library"
-    },
-    {
-      "by": "sAbakumoff",
-      "descendants": 0,
-      "id": 32003100,
-      "score": 1,
-      "time": 1657124197,
-      "title": "Dutch House Approves to Make Work from Home a Legal Right",
-      "type": "story",
-      "url": "https://www.bloomberg.com/news/articles/2022-07-05/dutch-parliament-approves-to-make-work-from-home-a-legal-right"
-    },
-    {
-      "by": "solidist",
-      "descendants": 0,
-      "id": 32003088,
-      "score": 1,
-      "time": 1657124151,
-      "title": "How to place on the front page of HN",
-      "type": "story",
-      "url": "https://medium.com/@solidi/how-to-place-on-the-front-page-of-hacker-news-6f24a97a6dd5"
-    },
-    {
-      "by": "rntn",
-      "descendants": 0,
-      "id": 32003070,
-      "score": 1,
-      "time": 1657124085,
-      "title": "Elon Musk's Boring Company will let you pay for a ride with Dogecoin",
-      "type": "story",
-      "url": "https://lite.cnn.com/en/article/h_f11a82c949f50661326b64cbdd46450a"
-    },
-    {
-      "by": "Tomte",
-      "descendants": 0,
-      "id": 32003065,
-      "score": 1,
-      "time": 1657124068,
-      "title": "Fog Volumes arrive in Godot 4.0",
-      "type": "story",
-      "url": "https://godotengine.org/article/fog-volumes-arrive-in-godot-4"
-    },
-    {
-      "by": "bryanrasmussen",
-      "descendants": 0,
-      "id": 32003056,
-      "score": 1,
-      "time": 1657124033,
-      "title": "Eco-evolutionary model show habitat structure affects phenotypic differentiation",
-      "type": "story",
-      "url": "https://www.nature.com/articles/s42003-022-03595-3"
-    },
-    {
-      "by": "rntn",
-      "descendants": 0,
-      "id": 32003044,
-      "score": 1,
-      "time": 1657123993,
-      "title": "Hippocampal place cells have goal-oriented vector fields during navigation",
-      "type": "story",
-      "url": "https://www.nature.com/articles/s41586-022-04913-9"
-    },
-    {
-      "by": "rntn",
-      "descendants": 0,
-      "id": 32003039,
-      "score": 1,
-      "time": 1657123974,
-      "title": "Scientists discover how the brain keeps the urge to act in check",
-      "type": "story",
-      "url": "https://medicalxpress.com/news/2022-07-scientists-brain-urge.html"
-    },
-    {
-      "by": "batguano",
-      "descendants": 0,
-      "id": 32003037,
-      "score": 1,
-      "time": 1657123965,
-      "title": "War in Ukraine Roiled Russia’s ‘Coolest Company’",
-      "type": "story",
-      "url": "https://www.nytimes.com/2022/07/06/world/europe/yandex-russia-ukraine.html"
     }
   ]
 }
