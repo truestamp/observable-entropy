@@ -1,10 +1,93 @@
 {
   "stories": [
     {
+      "by": "Tomte",
+      "descendants": 0,
+      "id": 32013826,
+      "score": 1,
+      "time": 1657200572,
+      "title": "Super Bowser now has his own 2,807-piece Lego Mario set",
+      "type": "story",
+      "url": "https://www.theverge.com/2022/7/7/23197621/lego-super-mario-mighty-bowser-price-release-date-pieces"
+    },
+    {
+      "by": "wallflower",
+      "descendants": 0,
+      "id": 32013809,
+      "score": 1,
+      "time": 1657200482,
+      "title": "The NASA Engineer Who Made the James Webb Space Telescope Work",
+      "type": "story",
+      "url": "https://www.wsj.com/articles/nasa-james-webb-space-telescope-greg-robinson-images-11657137487"
+    },
+    {
+      "by": "nunodonato",
+      "descendants": 0,
+      "id": 32013807,
+      "score": 1,
+      "time": 1657200470,
+      "title": "Show HN: PoC AI that builds its own source code",
+      "type": "story",
+      "url": "https://www.youtube.com/watch?v=CeCRwPrjlts"
+    },
+    {
+      "by": "bookofjoe",
+      "descendants": 1,
+      "id": 32013799,
+      "kids": [
+        32013819
+      ],
+      "score": 1,
+      "time": 1657200444,
+      "title": "Viability of quantum communication across interstellar distances",
+      "type": "story",
+      "url": "https://journals.aps.org/prd/abstract/10.1103/PhysRevD.105.123033"
+    },
+    {
+      "by": "dbrereton",
+      "descendants": 0,
+      "id": 32013796,
+      "score": 1,
+      "time": 1657200436,
+      "title": "How We Searched Before Search",
+      "type": "story",
+      "url": "https://thehistoryoftheweb.com/how-we-searched-before-search/"
+    },
+    {
+      "by": "alcover",
+      "descendants": 0,
+      "id": 32013790,
+      "score": 1,
+      "text": "Dynamic allocation, SSO, views, refcounting, etc.. are spread on various implementations.<p>C++ separates <i>string</i> and <i>string_view</i>. And they&#x27;re not fully compatible. (Ex. you can&#x27;t concat cross-type !?).<p>Rust has <i>str</i>, <i>&amp;str</i>, <i>String Box&lt;str&gt;</i>, ... ?<p>In the spirit of <i>&quot;a slice of a string is still a string&quot;</i>, why not pack it all into a <i>single</i> type ? And offer security in the process.<p>Here&#x27;s the scheme : https:&#x2F;&#x2F;github.com&#x2F;alcover&#x2F;buffet&#x2F;raw&#x2F;main&#x2F;assets&#x2F;schema.png<p>Here&#x27;s the code : https:&#x2F;&#x2F;github.com&#x2F;alcover&#x2F;buffet",
+      "time": 1657200396,
+      "title": "Proposal for a full-fledged C String",
+      "type": "story"
+    },
+    {
+      "by": "throwaway_1928",
+      "descendants": 0,
+      "id": 32013788,
+      "score": 1,
+      "time": 1657200389,
+      "title": "FBI and MI5: The Chinese government is set on stealing your technology",
+      "type": "story",
+      "url": "https://www.theverge.com/2022/7/7/23198045/fbi-mi5-chinese-government-spying-warning"
+    },
+    {
+      "by": "harporoeder",
+      "descendants": 0,
+      "id": 32013779,
+      "score": 1,
+      "time": 1657200343,
+      "title": "Ed Is the Standard Text Editor",
+      "type": "story",
+      "url": "https://wiki.c2.com/?EdIsTheStandardTextEditor"
+    },
+    {
       "by": "vivegi",
       "descendants": 0,
       "id": 32013740,
-      "score": 1,
+      "score": 2,
       "text": "If I want to architect a peer-to-peer application that needs to achieve consensus, what are some of the provably correct protocols&#x2F;algorithms?<p>I am not interested in &quot;web3&#x2F;crypto&quot; solutions. Just pure theoretical papers that describe how one might go about solving this problem from first principles. The closest analogy would be Two Phase Commit for distributed databases.<p>If you can cite the papers or provide links that would be great.",
       "time": 1657200133,
       "title": "Ask HN: Peer-to-peer consensus protocols / algorithms",
@@ -14,94 +97,11 @@
       "by": "donohoe",
       "descendants": 0,
       "id": 32013705,
-      "score": 1,
+      "score": 2,
       "time": 1657199956,
       "title": "The World Needs Uncles, Too",
       "type": "story",
       "url": "https://www.esquire.com/lifestyle/a40515434/isaac-fitzgerald-uncle/"
-    },
-    {
-      "by": "atlasunshrugged",
-      "descendants": 0,
-      "id": 32013686,
-      "score": 1,
-      "time": 1657199821,
-      "title": "Ukraine fatigue surfaces in Texas poll",
-      "type": "story",
-      "url": "https://www.axios.com/local/austin/2022/07/06/ukraine-fatigue-texas-poll"
-    },
-    {
-      "by": "chewymouse",
-      "descendants": 1,
-      "id": 32013675,
-      "kids": [
-        32013717
-      ],
-      "score": 5,
-      "time": 1657199743,
-      "title": "UK Prime Minister Boris Johnson Resigns",
-      "type": "story",
-      "url": "https://www.npr.org/2022/07/07/1110226702/boris-johnson-resignation-prime-minister-uk"
-    },
-    {
-      "by": "todsacerdoti",
-      "descendants": 0,
-      "id": 32013662,
-      "score": 1,
-      "time": 1657199662,
-      "title": "How to Achieve Dynamic Dispatch Using Generic Protocols in Swift 5.7",
-      "type": "story",
-      "url": "https://swiftsenpai.com/swift/dynamic-dispatch-with-generic-protocols/"
-    },
-    {
-      "by": "hestefisk",
-      "descendants": 0,
-      "id": 32013618,
-      "score": 1,
-      "time": 1657199370,
-      "title": "HTML: Mason – Perl web templating library",
-      "type": "story",
-      "url": "https://metacpan.org/pod/HTML::Mason"
-    },
-    {
-      "by": "Tomte",
-      "descendants": 0,
-      "id": 32013607,
-      "score": 1,
-      "time": 1657199325,
-      "title": "Eton and the Making of a Modern Elite (2016)",
-      "type": "story",
-      "url": "https://www.economist.com/1843/2016/08/16/eton-and-the-making-of-a-modern-elite"
-    },
-    {
-      "by": "Tomte",
-      "descendants": 0,
-      "id": 32013605,
-      "score": 1,
-      "time": 1657199314,
-      "title": "15 Years on the Marketing Front Lines (2010)",
-      "type": "story",
-      "url": "https://www.head-fi.org/threads/schiit-happened-the-story-of-the-worlds-most-improbable-start-up.701900/page-11#post_10238934"
-    },
-    {
-      "by": "danso",
-      "descendants": 0,
-      "id": 32013591,
-      "score": 1,
-      "time": 1657199257,
-      "title": "The Code the FBI Used to Wiretap the World",
-      "type": "story",
-      "url": "https://www.vice.com/en/article/v7veg8/anom-app-source-code-operation-trojan-shield-an0m"
-    },
-    {
-      "by": "memorable",
-      "descendants": 0,
-      "id": 32013571,
-      "score": 1,
-      "time": 1657199114,
-      "title": "Meta open sources early-stage AI translation tool that works across 200 language",
-      "type": "story",
-      "url": "https://www.theverge.com/2022/7/6/23194241/meta-facebook-ai-universal-translation-project-no-language-left-behind-open-source-model"
     }
   ]
 }
