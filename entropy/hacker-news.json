@@ -1,7 +1,78 @@
 {
   "stories": [
-    null,
-    null,
+    {
+      "by": "Shagdog",
+      "descendants": 0,
+      "id": 32014622,
+      "score": 1,
+      "time": 1657204379,
+      "title": "July 8 99% of the world's population in sunlight simultaneously?",
+      "type": "story",
+      "url": "https://earthsky.org/earth/99-percent-worlds-population-receive-sunlight/"
+    },
+    {
+      "by": "dxs",
+      "descendants": 0,
+      "id": 32014612,
+      "score": 1,
+      "time": 1657204337,
+      "title": "Pillars of Creation: $16B Space Telescope vs. $500 Backyard Photo",
+      "type": "story",
+      "url": "https://petapixel.com/2022/07/05/pillars-of-creation-16b-space-telescope-vs-500-backyard-photo/"
+    },
+    {
+      "by": "pkerschbaum",
+      "descendants": 0,
+      "id": 32014603,
+      "score": 2,
+      "time": 1657204293,
+      "title": "Prisma adapts Result Types based on the Actual Arguments given",
+      "type": "story",
+      "url": "https://pkerschbaum.com/blog/how-prisma-adapts-result-types-based-on-the-actual-arguments-given"
+    },
+    {
+      "by": "raoof",
+      "descendants": 0,
+      "id": 32014600,
+      "score": 1,
+      "text": "hi\nI&#x27;m desperate to do something interesting or useful\nit shouldn&#x27;t be too easy because you can google it\nit shouldn&#x27;t take too long because I easily get bored<p>if I need to\nI can read any documentation or paper\nI can debug or program in any programming language \nI can learn inkscape or krita or blender or godot or Unity<p>any idea is welcome\nthanks",
+      "time": 1657204283,
+      "title": "Ask HN: Can you give me something interesting or useful to work on?",
+      "type": "story"
+    },
+    {
+      "by": "SpeakingOut",
+      "descendants": 1,
+      "id": 32014584,
+      "kids": [
+        32014641
+      ],
+      "score": 2,
+      "text": "Since the Bay Area is probably represented here more than other areas, I just want to give you all a head&#x27;s up:<p>There is a reddit dev in the Bay Area sub who will shadowban you site-wide and set your a disagreeable sub to always show when you click &quot;Random&quot;, and who-knows what else.<p>Last night there was a post in the Bay Area subreddit about &quot;tire deflators&quot; (there was even a long HN discussion about it the other day).  Apparently it struck a nerve with a reddit dev there and they&#x27;ve retaliated.<p>I first posted about it here:  https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=32010005<p>It seems like it was fixed, but now the issue is back, and &quot;Random&quot; goes to another weird sub that I&#x27;ve never been to before.",
+      "time": 1657204246,
+      "title": "Tell HN: Bay Area Reddit Dev is abusing privileges",
+      "type": "story"
+    },
+    {
+      "by": "jxia",
+      "descendants": 0,
+      "id": 32014579,
+      "score": 1,
+      "time": 1657204221,
+      "title": "Lightweight event manager and dispatcher implements by Go",
+      "type": "story",
+      "url": "https://github.com/gookit/event"
+    },
+    {
+      "by": "gushogg-blake",
+      "descendants": 0,
+      "id": 32014571,
+      "score": 1,
+      "text": "Why don&#x27;t more companies take advantage of existing mechanisms for authentication via public key, e.g. using SSH as a way to interface with SaaS&#x2F;web services? Some reasons that come to mind are a) most people don&#x27;t know how to create and share a public key and b) there isn&#x27;t very good integration between public keys and browsers, which are obviously necessary to use services that have complex GUIs. But given the benefit of not having to rely on a third party identity provider like Google, why aren&#x27;t there more people focused on solving those problems?",
+      "time": 1657204195,
+      "title": "Ask HN: Why hasn't the public key taken off as a general identity mgmt solution?",
+      "type": "story"
+    },
     {
       "by": "HieronymusBosch",
       "descendants": 0,
@@ -31,59 +102,6 @@
       "title": "Rigetti Computing Expands Global Presence with UK Quantum",
       "type": "story",
       "url": "https://www.globenewswire.com/news-release/2022/06/21/2466148/0/en/Rigetti-Computing-Expands-Global-Presence-with-UK-Quantum-Computer-Launch.html"
-    },
-    {
-      "by": "oidar",
-      "descendants": 0,
-      "id": 32014517,
-      "score": 1,
-      "time": 1657203925,
-      "title": "User blocking on Reddit facilitates spam accounts if moderators are bad actors",
-      "type": "story",
-      "url": "https://old.reddit.com/r/TheseFuckingAccounts/comments/vt5f5y/moderators_of_the_subreddit_homeschool_are/"
-    },
-    {
-      "by": "jonathan-adly",
-      "descendants": 0,
-      "id": 32014500,
-      "score": 1,
-      "time": 1657203871,
-      "title": "Why Stablecoins Fail: An Economist’s Post-Mortem on Terra",
-      "type": "story",
-      "url": "https://www.richmondfed.org/publications/research/economic_brief/2022/eb_22-24"
-    },
-    {
-      "by": "todsacerdoti",
-      "descendants": 0,
-      "id": 32014498,
-      "score": 1,
-      "time": 1657203860,
-      "title": "Apache Commons Configuration insecure interpolation defaults (CVE-2022-33980)",
-      "type": "story",
-      "url": "https://lists.apache.org/thread/tdf5n7j80lfxdhs2764vn0xmpfodm87s"
-    },
-    {
-      "by": "randomlytyping",
-      "descendants": 1,
-      "id": 32014481,
-      "kids": [
-        32014491
-      ],
-      "score": 2,
-      "text": "I read most of the documentation online from the main engines (V8, QuickJS mainly), and understood the job of an engine and everything and his main components etc... but still i kinda want a full resource where someone built the whole thing like i want todo, and describe the process in it, just to understand how much work i&#x27;m expecting to do before get my hands dirty to the implementation.<p>I aim more to build a really quick and simple engine honestly, nothing big, but at least that can handle the QuickJS benchmarks, so nothing so ambitious, just a way to learn more about javascript in a more in depth way.<p>so if you did it and you found some resources that you find particularly useful if you can post it in the comments it would be awesome!<p>thanks hn!",
-      "time": 1657203766,
-      "title": "Ask HN: I want to write a JavaScript engine from scratch, where should I start?",
-      "type": "story"
-    },
-    {
-      "by": "hands-gruber",
-      "descendants": 0,
-      "id": 32014472,
-      "score": 1,
-      "time": 1657203723,
-      "title": "Why Bitcoin Isn't Rebounding This Time",
-      "type": "story",
-      "url": "https://traderbizz.com/cryptocurrency/why-bitcoin-isnt-rebounding/"
     }
   ]
 }
