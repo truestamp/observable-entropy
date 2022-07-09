@@ -1,6 +1,16 @@
 {
   "stories": [
     {
+      "by": "thesecretceo",
+      "descendants": 0,
+      "id": 32030690,
+      "score": 1,
+      "time": 1657332823,
+      "title": "EU parliament backs labelling gas and nuclear investments as green",
+      "type": "story",
+      "url": "https://www.reuters.com/business/sustainable-business/eu-parliament-vote-green-gas-nuclear-rules-2022-07-06/"
+    },
+    {
       "by": "Hirrolot",
       "descendants": 0,
       "id": 32030653,
@@ -76,7 +86,7 @@
       "by": "dataflow",
       "descendants": 0,
       "id": 32030597,
-      "score": 1,
+      "score": 2,
       "time": 1657332156,
       "title": "UN: One Million Species at Risk of Extinction Due to Humans",
       "type": "story",
@@ -104,19 +114,6 @@
       "title": "Antimony – computer-aided design tool from the Lisp machine parallel universe",
       "type": "story",
       "url": "https://www.mattkeeter.com/projects/antimony/3/"
-    },
-    {
-      "by": "aappleby",
-      "descendants": 1,
-      "id": 32030553,
-      "kids": [
-        32030626
-      ],
-      "score": 1,
-      "text": "Suppose I have this trivial C++ program:<p><pre><code>  #include &lt;stdio.h&gt;\n\n  int a = 0;\n  int b = 0;\n\n  void update_state() {\n    a = b + 1;\n    b = a + 1;\n  }\n\n  int main() {\n    for (int i = 0; i &lt; 3; i++) {\n      update_state();\n      printf(&quot;%d %d\\n&quot;, a, b);  \n    }\n    return 0;\n  }\n</code></pre>\nThis will print<p><pre><code>  1 2\n  3 4\n  5 6\n</code></pre>\nwhich shouldn&#x27;t be too surprising. What it does _not_ print is:<p><pre><code>  1 1\n  2 2\n  3 3\n</code></pre>\nbecause &quot;b = a + 1&quot; is reading the &quot;new&quot; value of A, not the &quot;old&quot; value as you might expect if you were a new programmer just skimming through the source. If we wanted that behavior we could write<p><pre><code>  void update() {\n    int a_old = a;\n    int b_old = b;\n    a = b_old + 1;\n    b = a_old + 1;\n  }\n</code></pre>\nor<p><pre><code>  void update() {\n    int a_new = b + 1;\n    int b_new = a + 1;\n    a = a_new;\n    b = b_new;\n  }\n</code></pre>\nbut in both cases we have to introduce new temporary variables to hold a copy of either the &quot;old&quot; or &quot;new&quot; state so we don&#x27;t clobber one of them. If we could annotate our variable names with &quot;oldness&quot; and &quot;newness&quot; we could write something like this:<p><pre><code>  void update() {\n    a_new = b_old + 1;\n    b_new = a_old + 1;\n  }\n</code></pre>\nBut that won&#x27;t work in plain C because &quot;_old&quot; and &quot;_new&quot; aren&#x27;t meaningful suffixes. More importantly, we can&#x27;t realistically implement <i>any</i> way of explicitly distinguishing between old and new values in C++ at all - classes and templates don&#x27;t quite give us enough flexibility to do so.<p>In this trivial example it&#x27;s easy to see why the different update() methods produce different results, but in large systems it&#x27;s surprisingly easy to introduce subtle bugs by changing the order of function calls : ClassA expects to read some &quot;new&quot; state from ClassB, code gets refactored, ClassA now inadvertently reads &quot;old&quot; state from ClassB, everything appears to work fine until one day a timing issue causes ClassA and ClassB to get out of sync and everything blows up.<p>After looking around at existing programming languages (and some CS papers from Google Scholar), it doesn&#x27;t appear that any major programming languages support this sort of annotation. The closest you can get is the &quot;&lt;=&quot; operator in Verilog, which means something like &quot;assign the RHS to the LHS, but don&#x27;t do it yet - do it after the current simulation step is done running&quot;.<p>I feel like this is probably a thoroughly covered topic already, but my research skills are failing to turn up anything relevant. Is there some computer sciencey term I&#x27;m unaware of to describe languages that allow for these sorts of old&#x2F;new distinctions?",
-      "time": 1657331670,
-      "title": "Ask HN: What programming languages distinguish between “old” and “new” values?",
-      "type": "story"
     }
   ]
 }
