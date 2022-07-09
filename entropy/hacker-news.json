@@ -1,6 +1,16 @@
 {
   "stories": [
     {
+      "by": "multimedial",
+      "descendants": 0,
+      "id": 32039242,
+      "score": 2,
+      "text": "Hello,<p>my name is Chris and I am a german developer looking for feedback on an idea of mine that I would like to develop further.<p>The idea is to blend cloud-based storage space with the local file system in order to transparently expand storage space.<p>This would probably best be done as a file system driver which monitors pre-defined folders on the harddisk for given quotas, eventually transferring files to cloudspace when their surpass the preset quota space for the folder.<p>Once safely transferred (controlled by hash value), the local file would be replaced by a link which can then be resolved upon re-request of the file.<p>The idea is to thereby provide some sort of elastic storage space which only holds the most important&#x2F;most often requested files locally. Everything else gets transferred to the cloud.<p>Would that be of interest to the community?<p>Thanks for any insight&#x2F;comment&#x2F;suggestion.",
+      "time": 1657400321,
+      "title": "Elastic Space",
+      "type": "story"
+    },
+    {
       "by": "tosh",
       "descendants": 0,
       "id": 32039212,
@@ -42,8 +52,11 @@
     },
     {
       "by": "gmays",
-      "descendants": 0,
+      "descendants": 1,
       "id": 32039121,
+      "kids": [
+        32039253
+      ],
       "score": 2,
       "time": 1657399373,
       "title": "Elon Musk officially tries to bail on buying Twitter",
@@ -87,21 +100,11 @@
       "kids": [
         32039014
       ],
-      "score": 2,
+      "score": 3,
       "time": 1657398459,
       "title": "Demucs Music Source Separation",
       "type": "story",
       "url": "https://github.com/facebookresearch/demucs"
-    },
-    {
-      "by": "popcalc",
-      "descendants": 0,
-      "id": 32038967,
-      "score": 1,
-      "text": "I recently migrated from a longtime Spotify subscription to Tidal after getting sold on the CD bitrate. After going through the common procedure of paying a third-party to migrate my saved tracks&#x2F;playlists&#x2F;artists it was a pretty rocky experience as I really started to get the hang of the suggestion algorithms and feedback loops. The general flavor of the songs and artists popping up on track radios was so alien to me. Streaming services have replaced radio and the algorithms used to feed the listener have taken on the role of the DJ.<p>I&#x27;m curious if there is a way someone has found to use one service&#x27;s algorithm to fetch content that is consumed on another. I am ready to dig deep into the APIs of Spotify, etc. but I want to know if someone else has gone down this path before? What were the largest hurdles?",
-      "time": 1657398373,
-      "title": "Ask HN: Music streaming algorithm mix-and-match: Does it exist?",
-      "type": "story"
     }
   ]
 }
