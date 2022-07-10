@@ -1,6 +1,36 @@
 {
   "stories": [
     {
+      "by": "StephanStS",
+      "descendants": 0,
+      "id": 32043647,
+      "score": 1,
+      "time": 1657451655,
+      "title": "Blog: Raspberry Pi Zero 2 W – Why is DietPi a good match?",
+      "type": "story",
+      "url": "https://dietpi.com/blog/?p=1058"
+    },
+    {
+      "by": "sanrod02",
+      "descendants": 0,
+      "id": 32043638,
+      "score": 1,
+      "text": "Kubernetes is &#x27;only&#x27; a multi-node cluster kernel. Some call it the Linux of the cloud.<p>And because K8s is only a kernel, there are now over 2000+ (open source) projects, all adding some extra functionality to it. Be it for observability, security, or networking. But all of these projects don&#x27;t really collaborate and end-users don&#x27;t ask for maturity of individual projects, they want sets&#x2F;stacks of projects that integrate well.<p>Now every company has created some Stack with applications and configurations for Kubernetes, all trying to reinvent the wheel and spending an often shocking $ in doing so.<p>So here is my take:<p>- Let&#x27;s create a new category in the Cloud Native Computing Foundation (CNCF) landscape and call it Integrated Stacks for K8s<p>- To be accepted, a stack needs to provide an open integration framework for other projects to add&#x2F;integrate their apps<p>- Just like aLinux distro, each stack is ideal for some specific use case(s)<p>- A stack can be installed in one run, contains integrated apps that work out-of-the-box, has a (web) UI that acts as a desktop environment to provide easy and secure access to all features. Call it a new user experience for Kubernetes<p>Wouldn&#x27;t it be great to have a list of all Kubernetes stacks available that everyone can use (and contribute to)? Just like (in the Linux analogy) you can choose between Linux Mint, Fedora, or Ubuntu.<p>We already created the first: https:&#x2F;&#x2F;github.com&#x2F;redkubes&#x2F;otomi-core",
+      "time": 1657451582,
+      "title": "Kubernetes is only a multi-node cluster kernel",
+      "type": "story"
+    },
+    {
+      "by": "lnyan",
+      "descendants": 0,
+      "id": 32043635,
+      "score": 1,
+      "time": 1657451558,
+      "title": "Writing Technical Reviews (2008)",
+      "type": "story",
+      "url": "https://web.archive.org/web/20180124233323/http:/www.siggraph.org/s2008/submissions/juried/papers/review_writing.php"
+    },
+    {
       "by": "trifit",
       "descendants": 0,
       "id": 32043627,
@@ -22,9 +52,12 @@
     },
     {
       "by": "fortran77",
-      "descendants": 0,
+      "descendants": 1,
       "id": 32043571,
-      "score": 2,
+      "kids": [
+        32043642
+      ],
+      "score": 4,
       "time": 1657450792,
       "title": "Covid learning loss has been a global disaster",
       "type": "story",
@@ -34,7 +67,7 @@
       "by": "mkl95",
       "descendants": 0,
       "id": 32043568,
-      "score": 1,
+      "score": 2,
       "time": 1657450731,
       "title": "Notation for Differentiation",
       "type": "story",
@@ -69,36 +102,6 @@
       "title": "Machines are out, Gardens are in",
       "type": "story",
       "url": "https://www.nytimes.com/1987/04/12/books/machines-are-out-gardens-are-in.html"
-    },
-    {
-      "by": "robin_reala",
-      "descendants": 0,
-      "id": 32043539,
-      "score": 1,
-      "time": 1657450289,
-      "title": "Mathematical Marbling",
-      "type": "story",
-      "url": "https://people.csail.mit.edu/jaffer/Marbling/"
-    },
-    {
-      "by": "scolvin",
-      "descendants": 0,
-      "id": 32043537,
-      "score": 1,
-      "time": 1657450286,
-      "title": "Pydantic V2 – The Plan",
-      "type": "story",
-      "url": "https://pydantic-docs.helpmanual.io/blog/pydantic-v2/"
-    },
-    {
-      "by": "lysp",
-      "descendants": 0,
-      "id": 32043518,
-      "score": 2,
-      "time": 1657450067,
-      "title": "Photographer Documents All 12,795 Items That She Owns",
-      "type": "story",
-      "url": "https://petapixel.com/2022/07/08/photographer-documents-all-12795-items-that-she-owns/"
     }
   ]
 }
