@@ -1,6 +1,26 @@
 {
   "stories": [
     {
+      "by": "samizdis",
+      "descendants": 0,
+      "id": 32053765,
+      "score": 1,
+      "time": 1657529903,
+      "title": "STMicroelectronics and GlobalFoundries to build wafer fab in France",
+      "type": "story",
+      "url": "https://www.theregister.com/2022/07/11/stmicroelectronics_globalfoundries_france_fab_build/"
+    },
+    {
+      "by": "6LLvveMx2koXfwn",
+      "descendants": 0,
+      "id": 32053751,
+      "score": 1,
+      "time": 1657529757,
+      "title": "Automated hate speech detection in underground hacking and extremist forums",
+      "type": "story",
+      "url": "https://www.cambridge.org/core/journals/natural-language-engineering/article/automated-hate-speech-detection-and-span-extraction-in-underground-hacking-and-extremist-forums/BAF99F7B84487806174DB29098B943A0"
+    },
+    {
       "by": "RedShift1",
       "descendants": 0,
       "id": 32053727,
@@ -32,9 +52,12 @@
     },
     {
       "by": "skonteam",
-      "descendants": 0,
+      "descendants": 1,
       "id": 32053650,
-      "score": 1,
+      "kids": [
+        32053748
+      ],
+      "score": 2,
       "text": "Hello,\nI have a honeypot listening to the ether, and these last days i have been seeing SSH probes coming from Cloudflare assigned IPs :\n`\n{&quot;time&quot;:&quot;2022-07-11T06:17:29Z&quot;,&quot;source&quot;:&quot;8.37.43.23:58024&quot;,&quot;event_type&quot;:&quot;connection&quot;,&quot;event&quot;:{&quot;client_version&quot;:&quot;SSH-2.0-8.35 FlowSsh: FlowSshNet_SftpStress127.17.38.1831312192.210.190.111&quot;}}\n{&quot;time&quot;:&quot;2022-07-11T06:25:22Z&quot;,&quot;source&quot;:&quot;8.42.172.26:50945&quot;,&quot;event_type&quot;:&quot;connection&quot;,&quot;event&quot;:{&quot;client_version&quot;:&quot;SSH-2.0-8.35 FlowSsh: FlowSshNet_SftpStress127.47.29.8435351192.210.190.111&quot;}}\n{&quot;time&quot;:&quot;2022-07-11T06:25:45Z&quot;,&quot;source&quot;:&quot;8.39.18.128:58679&quot;,&quot;event_type&quot;:&quot;connection&quot;,&quot;event&quot;:{&quot;client_version&quot;:&quot;SSH-2.0-8.35 FlowSsh: FlowSshNet_SftpStress127.32.82.2852512192.210.190.111&quot;}}\n{&quot;time&quot;:&quot;2022-07-11T06:41:58Z&quot;,&quot;source&quot;:&quot;8.40.140.107:62073&quot;,&quot;event_type&quot;:&quot;connection&quot;,&quot;event&quot;:{&quot;client_version&quot;:&quot;SSH-2.0-8.35 FlowSsh: FlowSshNet_SftpStress127.63.46.5342522192.210.190.111&quot;}}\n{&quot;time&quot;:&quot;2022-07-11T07:02:18Z&quot;,&quot;source&quot;:&quot;8.40.140.107:52379&quot;,&quot;event_type&quot;:&quot;connection&quot;,&quot;event&quot;:{&quot;client_version&quot;:&quot;SSH-2.0-8.35 FlowSsh: FlowSshNet_SftpStress127.54.95.6913424192.210.190.111&quot;}}\n{&quot;time&quot;:&quot;2022-07-11T07:02:30Z&quot;,&quot;source&quot;:&quot;8.39.18.128:53547&quot;,&quot;event_type&quot;:&quot;connection&quot;,&quot;event&quot;:{&quot;client_version&quot;:&quot;SSH-2.0-8.35 FlowSsh: FlowSshNet_SftpStress127.39.94.9344142192.210.190.111&quot;}}\n{&quot;time&quot;:&quot;2022-07-11T07:44:32Z&quot;,&quot;source&quot;:&quot;8.37.43.23:62487&quot;,&quot;event_type&quot;:&quot;connection&quot;,&quot;event&quot;:{&quot;client_version&quot;:&quot;SSH-2.0-8.35 FlowSsh: FlowSshNet_SftpStress127.73.77.3531321192.210.190.111&quot;}}\n{&quot;time&quot;:&quot;2022-07-11T07:52:05Z&quot;,&quot;source&quot;:&quot;8.37.43.34:60661&quot;,&quot;event_type&quot;:&quot;connection&quot;,&quot;event&quot;:{&quot;client_version&quot;:&quot;SSH-2.0-8.35 FlowSsh: FlowSshNet_SftpStress127.86.72.1144123192.210.190.111&quot;}}\n{&quot;time&quot;:&quot;2022-07-11T08:26:13Z&quot;,&quot;source&quot;:&quot;8.42.172.26:56143&quot;,&quot;event_type&quot;:&quot;connection&quot;,&quot;event&quot;:{&quot;client_version&quot;:&quot;SSH-2.0-8.35 FlowSsh: FlowSshNet_SftpStress127.46.19.3324353192.210.190.111&quot;}}\n`<p>Is this normal behavior and Cloudflare is known to scan the IPv4 space ?<p>Thanks.",
       "time": 1657528536,
       "title": "Ask HN: Weird SSH Probes from Cloudflare IPs",
@@ -83,26 +106,6 @@
       "title": "Hackers are spreading ransomware as a distraction – to hide their cyber spying",
       "type": "story",
       "url": "https://www.zdnet.com/article/these-hackers-are-spreading-ransomware-as-a-distraction-to-hide-their-cyber-spying/"
-    },
-    {
-      "by": "ideksec",
-      "descendants": 0,
-      "id": 32053598,
-      "score": 1,
-      "time": 1657527915,
-      "title": "The pandemic is no longer an excuse for poor customer service",
-      "type": "story",
-      "url": "https://www.instituteofcustomerservice.com/pandemic-poor-customer-service/"
-    },
-    {
-      "by": "ibobev",
-      "descendants": 0,
-      "id": 32053592,
-      "score": 2,
-      "time": 1657527869,
-      "title": "The Problem with RISC-V V Mask Bits",
-      "type": "story",
-      "url": "https://www.computerenhance.com/p/the-problem-with-risc-v-v-mask-bits"
     }
   ]
 }
