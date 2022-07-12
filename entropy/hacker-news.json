@@ -1,10 +1,60 @@
 {
   "stories": [
     {
+      "by": "yamrzou",
+      "descendants": 0,
+      "id": 32075820,
+      "score": 1,
+      "time": 1657660699,
+      "title": "Life lessons from books I read",
+      "type": "story",
+      "url": "https://timonbestebreur.nl/articles/inspired.html"
+    },
+    {
+      "by": "camjohnson26",
+      "descendants": 0,
+      "id": 32075818,
+      "score": 1,
+      "time": 1657660674,
+      "title": "Twitter Sues Elon Musk over Attempt to Walk Away from $44B Deal",
+      "type": "story",
+      "url": "https://www.wsj.com/articles/twitter-sues-elon-musk-over-attempt-to-walk-away-from-44-billion-deal-11657660307"
+    },
+    {
+      "by": "Gravityloss",
+      "descendants": 0,
+      "id": 32075814,
+      "score": 1,
+      "time": 1657660668,
+      "title": "Grace and Grace-FO Satellites",
+      "type": "story",
+      "url": "https://en.wikipedia.org/wiki/GRACE_and_GRACE-FO"
+    },
+    {
+      "by": "TheAlchemist",
+      "descendants": 0,
+      "id": 32075810,
+      "score": 1,
+      "time": 1657660640,
+      "title": "Twitter sues Elon Musk to hold him to $44B merger",
+      "type": "story",
+      "url": "https://www.reuters.com/technology/twitter-sues-elon-musk-hold-him-44-bln-merger-2022-07-12/"
+    },
+    {
+      "by": "7402",
+      "descendants": 0,
+      "id": 32075804,
+      "score": 1,
+      "time": 1657660601,
+      "title": "U.S. News, the root of all evil (2012)",
+      "type": "story",
+      "url": "http://budiansky.blogspot.com/2012/02/us-news-root-of-all-evil.html"
+    },
+    {
       "by": "emadabdulrahim",
       "descendants": 0,
       "id": 32075789,
-      "score": 1,
+      "score": 2,
       "time": 1657660506,
       "title": "Psilocybin Microdosing Study: Improved Mental Health and Psychomotor Performance",
       "type": "story",
@@ -44,61 +94,11 @@
       "by": "ValentineC",
       "descendants": 0,
       "id": 32075759,
-      "score": 1,
+      "score": 2,
       "time": 1657660361,
       "title": "China tries to stem growing anger over frozen bank deposits",
       "type": "story",
       "url": "https://www.cnn.com/2022/07/12/economy/china-bank-crisis-frozen-deposits-intl-hnk/index.html"
-    },
-    {
-      "by": "tullie",
-      "descendants": 0,
-      "id": 32075736,
-      "score": 3,
-      "time": 1657660235,
-      "title": "Data-Centric AI for Ranking",
-      "type": "story",
-      "url": "https://www.shaped.ai/blog/data-centric-ai-for-ranking"
-    },
-    {
-      "by": "politelemon",
-      "descendants": 0,
-      "id": 32075726,
-      "score": 1,
-      "time": 1657660188,
-      "title": "Sleeping Child Lizard",
-      "type": "story",
-      "url": "https://phys.org/news/2022-07-guatemala-poisonous-child-lizard.html"
-    },
-    {
-      "by": "paulpauper",
-      "descendants": 0,
-      "id": 32075717,
-      "score": 1,
-      "time": 1657660158,
-      "title": "Nassim Nicholas Taleb on the Nations, States, and Scale",
-      "type": "story",
-      "url": "https://www.econtalk.org/nassim-nicholas-taleb-on-the-nations-states-and-scale/"
-    },
-    {
-      "by": "gajus",
-      "descendants": 0,
-      "id": 32075715,
-      "score": 1,
-      "text": "No clue how I am learning this only now, but better later than never: HTTPS `keepAlive` is not enabled by default in Node.js, and it has severe performance implications to network-intense applications.<p>Just to illustrate the impact, assuming that your server is hosted in `us-central1` and it is talking to a service in `us-east1`, just the network latency is ~20ms. Since a TCP handshake is a 3-packet event, this means that ~60ms are going to be allocated just to establish TLS handshake.<p>You can test that with a simple script:<p>```ts\nconst got = require(&#x27;got&#x27;);<p>const main = async () =&gt; {\n  const response0 = await got(&#x27;https:&#x2F;&#x2F;posthog.com&#x2F;&#x27;);<p><pre><code>  console.log(response0.timings.phases);\n\n  const response1 = await got(&#x27;https:&#x2F;&#x2F;posthog.com&#x2F;&#x27;);\n\n  console.log(response1.timings.phases);</code></pre>\n};<p>main();\n```<p>In this scenario, the above will produce:<p>```ts\n{\n  wait: 1,\n  dns: 20,\n  tcp: 72,\n  tls: 74,\n  request: 0,\n  firstByte: 79,\n  download: 222,\n  total: 468\n}\n{\n  wait: 0,\n  dns: 1,\n  tcp: 67,\n  tls: 69,\n  request: 1,\n  firstByte: 73,\n  download: 234,\n  total: 445\n}\n```<p>However, watch the `total` time if we enable `keepAlive`:<p>```ts\nconst got = require(&#x27;got&#x27;);\nconst https = require(&#x27;https&#x27;);<p>https.globalAgent = new https.Agent({ keepAlive:true });<p>const main = async () =&gt; {\n  const response0 = await got(&#x27;https:&#x2F;&#x2F;posthog.com&#x2F;&#x27;);<p><pre><code>  console.log(response0.timings.phases);\n\n  const response1 = await got(&#x27;https:&#x2F;&#x2F;posthog.com&#x2F;&#x27;);\n\n  console.log(response1.timings.phases);</code></pre>\n};<p>main();\n```<p>```ts\n{\n  wait: 1,\n  dns: 27,\n  tcp: 77,\n  tls: 75,\n  request: 0,\n  firstByte: 75,\n  download: 220,\n  total: 475\n}\n{\n  wait: 0,\n  dns: 0,\n  tcp: 0,\n  tls: 0,\n  request: 0,\n  firstByte: 77,\n  download: 83,\n  total: 160\n}\n```<p>The second request is 70% faster than the first request!<p>If your application relies on making many HTTPS calls, then simply enabling `keepAlive` is going to result in a significant performance improvement.",
-      "time": 1657660131,
-      "title": "Enable HTTPS keepAlive in Node.js to increase request speed by up to 70%",
-      "type": "story"
-    },
-    {
-      "by": "khc",
-      "descendants": 0,
-      "id": 32075709,
-      "score": 1,
-      "time": 1657660111,
-      "title": "SLRP – rotating open proxy multiplexer",
-      "type": "story",
-      "url": "https://github.com/nfx/slrp"
     }
   ]
 }
