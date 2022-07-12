@@ -1,10 +1,90 @@
 {
   "stories": [
     {
+      "by": "politelemon",
+      "descendants": 0,
+      "id": 32075726,
+      "score": 1,
+      "time": 1657660188,
+      "title": "Sleeping Child Lizard",
+      "type": "story",
+      "url": "https://phys.org/news/2022-07-guatemala-poisonous-child-lizard.html"
+    },
+    {
+      "by": "paulpauper",
+      "descendants": 0,
+      "id": 32075717,
+      "score": 1,
+      "time": 1657660158,
+      "title": "Nassim Nicholas Taleb on the Nations, States, and Scale",
+      "type": "story",
+      "url": "https://www.econtalk.org/nassim-nicholas-taleb-on-the-nations-states-and-scale/"
+    },
+    {
+      "by": "gajus",
+      "descendants": 0,
+      "id": 32075715,
+      "score": 1,
+      "text": "No clue how I am learning this only now, but better later than never: HTTPS `keepAlive` is not enabled by default in Node.js, and it has severe performance implications to network-intense applications.<p>Just to illustrate the impact, assuming that your server is hosted in `us-central1` and it is talking to a service in `us-east1`, just the network latency is ~20ms. Since a TCP handshake is a 3-packet event, this means that ~60ms are going to be allocated just to establish TLS handshake.<p>You can test that with a simple script:<p>```ts\nconst got = require(&#x27;got&#x27;);<p>const main = async () =&gt; {\n  const response0 = await got(&#x27;https:&#x2F;&#x2F;posthog.com&#x2F;&#x27;);<p><pre><code>  console.log(response0.timings.phases);\n\n  const response1 = await got(&#x27;https:&#x2F;&#x2F;posthog.com&#x2F;&#x27;);\n\n  console.log(response1.timings.phases);</code></pre>\n};<p>main();\n```<p>In this scenario, the above will produce:<p>```ts\n{\n  wait: 1,\n  dns: 20,\n  tcp: 72,\n  tls: 74,\n  request: 0,\n  firstByte: 79,\n  download: 222,\n  total: 468\n}\n{\n  wait: 0,\n  dns: 1,\n  tcp: 67,\n  tls: 69,\n  request: 1,\n  firstByte: 73,\n  download: 234,\n  total: 445\n}\n```<p>However, watch the `total` time if we enable `keepAlive`:<p>```ts\nconst got = require(&#x27;got&#x27;);\nconst https = require(&#x27;https&#x27;);<p>https.globalAgent = new https.Agent({ keepAlive:true });<p>const main = async () =&gt; {\n  const response0 = await got(&#x27;https:&#x2F;&#x2F;posthog.com&#x2F;&#x27;);<p><pre><code>  console.log(response0.timings.phases);\n\n  const response1 = await got(&#x27;https:&#x2F;&#x2F;posthog.com&#x2F;&#x27;);\n\n  console.log(response1.timings.phases);</code></pre>\n};<p>main();\n```<p>```ts\n{\n  wait: 1,\n  dns: 27,\n  tcp: 77,\n  tls: 75,\n  request: 0,\n  firstByte: 75,\n  download: 220,\n  total: 475\n}\n{\n  wait: 0,\n  dns: 0,\n  tcp: 0,\n  tls: 0,\n  request: 0,\n  firstByte: 77,\n  download: 83,\n  total: 160\n}\n```<p>The second request is 70% faster than the first request!<p>If your application relies on making many HTTPS calls, then simply enabling `keepAlive` is going to result in a significant performance improvement.",
+      "time": 1657660131,
+      "title": "Enable HTTPS keepAlive in Node.js to increase request speed by up to 70%",
+      "type": "story"
+    },
+    {
+      "by": "khc",
+      "descendants": 0,
+      "id": 32075709,
+      "score": 1,
+      "time": 1657660111,
+      "title": "SLRP – rotating open proxy multiplexer",
+      "type": "story",
+      "url": "https://github.com/nfx/slrp"
+    },
+    {
+      "by": "gmays",
+      "descendants": 0,
+      "id": 32075703,
+      "score": 1,
+      "time": 1657660053,
+      "title": "The Beach Rats",
+      "type": "story",
+      "url": "https://www.altaonline.com/dispatches/a40395942/the-beach-rats/"
+    },
+    {
+      "by": "kristianp",
+      "descendants": 0,
+      "id": 32075692,
+      "score": 1,
+      "time": 1657660005,
+      "title": "TeaVM",
+      "type": "story",
+      "url": "https://teavm.org/"
+    },
+    {
+      "by": "paulpauper",
+      "descendants": 0,
+      "id": 32075691,
+      "score": 1,
+      "time": 1657660002,
+      "title": "Uber paid academics up to $100k for research for positive media coverage",
+      "type": "story",
+      "url": "https://www.businessinsider.com/uber-paid-academics-up-to-100k-praise-app-media-2022-7"
+    },
+    {
+      "by": "kirubakaran",
+      "descendants": 0,
+      "id": 32075686,
+      "score": 1,
+      "time": 1657659960,
+      "title": "Experienced well-being rises with income, even above $75k/year",
+      "type": "story",
+      "url": "https://www.pnas.org/doi/full/10.1073/pnas.2016976118"
+    },
+    {
       "by": "kirubakaran",
       "descendants": 0,
       "id": 32075674,
-      "score": 1,
+      "score": 4,
       "time": 1657659905,
       "title": "Twitter Sues Musk After He Tries Backing Out of $44B Deal",
       "type": "story",
@@ -14,94 +94,11 @@
       "by": "hahnbee",
       "descendants": 0,
       "id": 32075673,
-      "score": 1,
+      "score": 2,
       "time": 1657659903,
       "title": "Show HN: VSCode extension that connects documentation to code",
       "type": "story",
       "url": "https://marketplace.visualstudio.com/items?itemName=mintlify.connector"
-    },
-    {
-      "by": "olivermarks",
-      "descendants": 0,
-      "id": 32075644,
-      "score": 1,
-      "time": 1657659760,
-      "title": "Mo Farrah is revealed to be an illegal immigrant [video]",
-      "type": "story",
-      "url": "https://www.youtube.com/watch?v=zECpSHKTqPI"
-    },
-    {
-      "by": "orionion",
-      "descendants": 0,
-      "id": 32075630,
-      "score": 1,
-      "time": 1657659681,
-      "title": "The bitter fight to stop a 2k-mile CO2 carbon sequestration pipeline",
-      "type": "story",
-      "url": "https://www.theguardian.com/environment/2022/jul/07/iowa-pipelines-farmers-indigenous-people-fight"
-    },
-    {
-      "by": "gmays",
-      "descendants": 0,
-      "id": 32075614,
-      "score": 2,
-      "time": 1657659591,
-      "title": "A Theranos Whistleblower",
-      "type": "story",
-      "url": "https://www.pushkin.fm/podcasts/a-slight-change-of-plans/a-theranos-whistleblower"
-    },
-    {
-      "by": "AnyTrofi",
-      "descendants": 1,
-      "id": 32075583,
-      "kids": [
-        32075584
-      ],
-      "score": 1,
-      "time": 1657659466,
-      "title": "Decentralized Password Manager",
-      "type": "story",
-      "url": "https://dekeys.xyz"
-    },
-    {
-      "by": "Tozen",
-      "descendants": 0,
-      "id": 32075575,
-      "score": 1,
-      "time": 1657659407,
-      "title": "How Europe Became So Dependent on Putin for Its Gas",
-      "type": "story",
-      "url": "https://www.washingtonpost.com/business/energy/how-europe-became-so-dependent-on-putin-for-its-gas/2022/07/11/8c5cbe8c-0122-11ed-8beb-2b4e481b1500_story.html"
-    },
-    {
-      "by": "dredmorbius",
-      "descendants": 0,
-      "id": 32075573,
-      "score": 1,
-      "time": 1657659389,
-      "title": "What if the internet was run by women?",
-      "type": "story",
-      "url": "https://www.bbc.com/future/article/20220628-what-if-the-internet-was-run-by-women"
-    },
-    {
-      "by": "Tomte",
-      "descendants": 0,
-      "id": 32075567,
-      "score": 1,
-      "time": 1657659353,
-      "title": "The Good, the Bad and the Ugly – The Strategic Petroleum Reserve (2016)",
-      "type": "story",
-      "url": "https://www.aapg.org/publications/news/spheresofinfluence/details/articleid/36728/the-good-the-bad-and-the-ugly-the-strategic-petroleum-reserve"
-    },
-    {
-      "by": "Tomte",
-      "descendants": 0,
-      "id": 32075564,
-      "score": 1,
-      "time": 1657659345,
-      "title": "Humans navigate with stereo olfaction (2020)",
-      "type": "story",
-      "url": "https://www.pnas.org/content/117/27/16065"
     }
   ]
 }
