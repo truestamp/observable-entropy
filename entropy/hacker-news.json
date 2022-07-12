@@ -1,6 +1,36 @@
 {
   "stories": [
     {
+      "by": "break_the_bank",
+      "descendants": 0,
+      "id": 32076834,
+      "score": 1,
+      "time": 1657666499,
+      "title": "Google pulls back hiring in face of economic uncertainty",
+      "type": "story",
+      "url": "https://www.businessinsider.com/google-hiring-targets-slowdown-recession-economic-uncertainty-2022-7"
+    },
+    {
+      "by": "Tozen",
+      "descendants": 0,
+      "id": 32076817,
+      "score": 1,
+      "time": 1657666385,
+      "title": "Iran to send hundreds of drones to Russia for use in Ukraine",
+      "type": "story",
+      "url": "https://www.washingtonpost.com/national-security/2022/07/11/iran-drones-russia-ukraine/"
+    },
+    {
+      "by": "activatedgeek",
+      "descendants": 0,
+      "id": 32076793,
+      "score": 1,
+      "time": 1657666233,
+      "title": "Five key findings from the 2022 UN Population Prospects",
+      "type": "story",
+      "url": "https://ourworldindata.org/world-population-update-2022"
+    },
+    {
       "by": "cirrus-clouds",
       "descendants": 0,
       "id": 32076769,
@@ -12,8 +42,12 @@
     },
     {
       "by": "the_noob",
-      "descendants": 0,
+      "descendants": 2,
       "id": 32076747,
+      "kids": [
+        32076810,
+        32076794
+      ],
       "score": 1,
       "text": "Hi there ! In your experience&#x2F;opinion, is it worth monitoring your competitors in the context of a start-up ? i.e. Is it worth tracking their roadmap or new product features, capterra reviews, domain traffic , backlinks etc. Thanks !",
       "time": 1657665976,
@@ -72,36 +106,6 @@
       "title": "Is Roy Being Sarcastic?",
       "type": "story",
       "url": "https://isroybeingsarcastic.com/"
-    },
-    {
-      "by": "maybekerneldev",
-      "descendants": 0,
-      "id": 32076677,
-      "score": 2,
-      "text": "Or any other kernel, professionally?<p>I&#x27;ve been offered a position at Microsoft to do kernel development work. This would be a big transition to me, coming from a services background (backend only).<p>The job&#x27;s main draw to me is doing low-level work. I did some in my very first job, but for the past 10+ years, due to a number of circumstances, I&#x27;ve been in the services world. I really liked being a C programmer and I&#x27;ve kept an eye on things over the years, and did some hobby projects (on x86 and some embedded stuff as well).<p>There&#x27;s a lot about my current job that I treasure, despite the work itself not being interesting to me about 99% of the time. It&#x27;s a remote job, the work-life balance is stellar, and I get 25 days of vacation a year (this is in the US), which allows me to spend a lot of quality time with my wife.<p>However, I&#x27;m considering leaving because I&#x27;ve been having significant motivation and performance[0] issues for the last two years. Through a lot of soul searching and even help from a therapist, I&#x27;ve identified that the source of my issues is the nature of the work itself. Building services is just something that doesn&#x27;t give me a sense of accomplishment, and I&#x27;m not attracted to the stuff at all. Some issues I&#x27;ve identified are:<p>1. Infrastructure complexity, especially since moving to Kubernetes. I refuse to touch it at this point.<p>2. Debugging exclusively via metrics and logs, since I can&#x27;t just attach a debugger to a running server.<p>3. Designing systems in general. Some people love the challenge of distributed transactions, eventual consistency and all that jazz, but it just rubs my brain the wrong way. I&#x27;m not interested at all in that problem space [1].<p>4. The insane amount of work required to stand up even the smallest microservice: infrastructure provisioning, certificates, security reviews, GDPR compliance, etc.<p>5. Anything I build will end up paging some poor soul at 3am some day when something is down or under heavy traffic.<p>So, what I&#x27;m wondering is: what are the things that would make me say &quot;ugh&quot; on the day-to-day as a kernel developer? Is there a chance I&#x27;ll be happier, or would I just be trading one miserable set of problems for other equally miserable problems?<p>I tried asking that to every person who interviewed me, but I only got somewhat vague answers like &quot;the build can take a long time depending on what you&#x27;re doing&quot;, etc. Someone complained about windbg.<p>[0] Even though my reviews have been good, I know deep inside I&#x27;m not doing even 10% of the good work I could do before.<p>[1] Ironically, I&#x27;ve acquired a ton of knowledge about it and I&#x27;m one of the &quot;go to&quot; people within my org.",
-      "time": 1657665610,
-      "title": "Ask HN: Has anyone here worked on the Windows kernel?",
-      "type": "story"
-    },
-    {
-      "by": "rbanffy",
-      "descendants": 0,
-      "id": 32076661,
-      "score": 1,
-      "time": 1657665541,
-      "title": "Accessibility in Fedora Workstation – Fedora Magazine",
-      "type": "story",
-      "url": "https://fedoramagazine.org/accessibility-in-fedora-workstation/"
-    },
-    {
-      "by": "rbanffy",
-      "descendants": 0,
-      "id": 32076641,
-      "score": 1,
-      "time": 1657665427,
-      "title": "Personal Voice Assistant on Fedora Linux – Fedora Magazine",
-      "type": "story",
-      "url": "https://fedoramagazine.org/your-personal-voice-assistant-on-fedora-linux/"
     }
   ]
 }
