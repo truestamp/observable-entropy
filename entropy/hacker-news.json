@@ -1,6 +1,89 @@
 {
   "stories": [
     {
+      "by": "yuvalhazaz",
+      "descendants": 0,
+      "id": 32070577,
+      "score": 1,
+      "time": 1657636488,
+      "title": "Amplication new release 0.14.0 – monorepo support and modular code generation",
+      "type": "story",
+      "url": "https://amplication.com/blog/amplication-release-0.14.0---shifting-gears-towards-enterprise-ready-microservices-and-modular-code-cl59il0hn1741401s64lxhij2c"
+    },
+    {
+      "by": "notRobot",
+      "descendants": 0,
+      "id": 32070567,
+      "score": 1,
+      "time": 1657636451,
+      "title": "British SAS unit repeatedly killed Afghan detainees, BBC finds",
+      "type": "story",
+      "url": "https://www.bbc.com/news/uk-62083196"
+    },
+    {
+      "by": "ArtWomb",
+      "descendants": 0,
+      "id": 32070562,
+      "score": 1,
+      "time": 1657636437,
+      "title": "Islamic Yoga of Bengal",
+      "type": "story",
+      "url": "https://www.journals.uchicago.edu/doi/abs/10.1086/518813?journalCode=hr"
+    },
+    {
+      "by": "barry-cotter",
+      "descendants": 1,
+      "id": 32070537,
+      "kids": [
+        32070563
+      ],
+      "score": 1,
+      "time": 1657636345,
+      "title": "A Pox on the FDA",
+      "type": "story",
+      "url": "https://marginalrevolution.com/marginalrevolution/2022/07/a-pox-on-the-fda.html"
+    },
+    {
+      "by": "totaldude87",
+      "descendants": 0,
+      "id": 32070534,
+      "score": 1,
+      "time": 1657636326,
+      "title": "First full-color images and data from the James Webb Space Telescope",
+      "type": "story",
+      "url": "https://www.nasa.gov/nasalive/"
+    },
+    {
+      "by": "crhulls",
+      "descendants": 0,
+      "id": 32070531,
+      "score": 2,
+      "time": 1657636315,
+      "title": "James Webb Telescope First Images – Livestream",
+      "type": "story",
+      "url": "https://www.youtube.com/watch?v=21X5lGlDOfg"
+    },
+    {
+      "by": "gbourne",
+      "descendants": 0,
+      "id": 32070528,
+      "score": 1,
+      "time": 1657636307,
+      "title": "Instagram Reels API: How to Post Videos to Reels Using a Social Media API",
+      "type": "story",
+      "url": "https://www.ayrshare.com/instagram-reels-api-how-to-post-videos-to-reels-using-a-social-media-api/"
+    },
+    {
+      "by": "PaulHoule",
+      "descendants": 0,
+      "id": 32070512,
+      "score": 1,
+      "time": 1657636236,
+      "title": "The Web Is Your Oyster – Knowledge-Intensive NLP Against a Large Web Corpus",
+      "type": "story",
+      "url": "https://arxiv.org/abs/2112.09924"
+    },
+    {
       "by": "kunle",
       "descendants": 0,
       "id": 32070485,
@@ -19,92 +102,6 @@
       "title": "Apple Is Offering $2M USD to Hackers Who Can Exploit Their New Lockdown Feature",
       "type": "story",
       "url": "https://hypebeast.com/2022/7/apple-offers-2-million-to-hackers-to-exploit-lockdown-feature"
-    },
-    {
-      "by": "mooreds",
-      "descendants": 0,
-      "id": 32070468,
-      "score": 1,
-      "time": 1657636051,
-      "title": "Are you technocentric? Shifting from technology to people",
-      "type": "story",
-      "url": "https://www.raspberrypi.org/blog/technocentrism-shifting-from-technology-to-people-computing-education-pratim-sengupta-research-seminar/#CSEd"
-    },
-    {
-      "by": "kdeldycke",
-      "descendants": 1,
-      "id": 32070459,
-      "kids": [
-        32070461
-      ],
-      "score": 2,
-      "text": "Tl;Dr: mpm implements a solution to XKCD #1654 (Universal Install Script). Now you can do:<p><pre><code>    $ mpm --xkcd install &lt;my_package&gt;\n</code></pre>\nand let it figure out which package manager to use to install your package.<p>The project is open-source: https:&#x2F;&#x2F;github.com&#x2F;kdeldycke&#x2F;meta-package-manager#readme<p>This CLI has some other capabilities, like listing the duplicate packages on your system:<p><pre><code>    $ mpm list --duplicates\n    ╭────────────┬─────────┬───────────────────╮\n    │ Package ID │ Manager │ Installed version │\n    ├────────────┼─────────┼───────────────────┤\n    │ blah       │ cargo   │ 0.0.0             │\n    │ blah       │ gem     │ 0.0.2             │\n    │ blah       │ npm     │ 5.2.1             │\n    │ coverage   │ pip     │ 6.4.1             │\n    │ coverage   │ pipx    │ 6.4.1             │\n    │ six        │ brew    │ 1.16.0_2          │\n    │ six        │ pip     │ 1.16.0            │\n    ╰────────────┴─────────┴───────────────────╯\n</code></pre>\nList outdated packages:<p><pre><code>    $ mpm outdated\n    ╭───────────┬─────────┬───────────────────┬────────────────╮\n    │ ID        │ Manager │ Installed version │ Latest version │\n    ├───────────┼─────────┼───────────────────┼────────────────┤\n    │ curl      │ brew    │ 7.79.1            │ 7.79.1_1       │\n    │ git       │ brew    │ 2.33.0            │ 2.33.0_1       │\n    │ npm@8.0.0 │ npm     │ 7.24.0            │ 8.0.0          │\n    │ pip       │ pip     │ 21.2.4            │ 21.3           │\n    │ regex     │ pip     │ 2021.9.30         │ 2021.10.8      │\n    ╰───────────┴─────────┴───────────────────┴────────────────╯\n</code></pre>\nOr dump all installed packages to a file:<p><pre><code>    $ mpm snapshot packages.toml\n    Dumping packages from brew...\n    Dumping packages from cask...\n    Dumping packages from gem...\n    Dumping packages from mas...\n    Dumping packages from npm...\n    Dumping packages from pip...\n    1109 packages total (npm: 659, brew: 229, pip: 115, gem: 49, cask: 48, mas: 9).\n</code></pre>\nTo install it, either use:<p><pre><code>    $ pipx install meta-package-manager\n\n    $ pip install meta-package-manager\n\n    $ python -m pip install meta-package-manager\n\n    $ brew untap hasnep&#x2F;tap &amp;&amp; brew install hasnep&#x2F;tap&#x2F;meta-package-manager\n\n    $ paru -S meta-package-manager\n\n    $ yay -S meta-package-manager\n</code></pre>\nOr if you are meta:<p><pre><code>    $ mpm install meta-package-manager\n</code></pre>\nSee install doc at: https:&#x2F;&#x2F;kdeldycke.github.io&#x2F;meta-package-manager&#x2F;install.html",
-      "time": 1657636005,
-      "title": "Show HN: Meta Package Manager, a CLI that solves Xkcd #1654",
-      "type": "story"
-    },
-    {
-      "by": "axiomdata316",
-      "descendants": 0,
-      "id": 32070450,
-      "score": 1,
-      "time": 1657635987,
-      "title": "DAKboard – A customizable display for your photos, calendar, news, weather",
-      "type": "story",
-      "url": "https://www.dakboard.com/site"
-    },
-    {
-      "by": "reckel",
-      "descendants": 0,
-      "id": 32070398,
-      "score": 1,
-      "time": 1657635778,
-      "title": "Machine Learning University Expands with MLU Explains",
-      "type": "story",
-      "url": "https://www.amazon.science/latest-news/amazon-machine-learning-university-new-courses-mlu-explains"
-    },
-    {
-      "by": "obi1kenobi",
-      "descendants": 0,
-      "id": 32070397,
-      "score": 1,
-      "time": 1657635774,
-      "title": "Eugene Lazowski, doctor who saved thousands in WWII by creating a fake epidemic",
-      "type": "story",
-      "url": "https://twitter.com/Rainmaker1973/status/1546841806318583808"
-    },
-    {
-      "by": "ent101",
-      "descendants": 0,
-      "id": 32070380,
-      "score": 1,
-      "time": 1657635721,
-      "title": "Puter: An Alternative to Dropbox",
-      "type": "story",
-      "url": "https://puter.com/"
-    },
-    {
-      "by": "mromanuk",
-      "descendants": 0,
-      "id": 32070379,
-      "score": 1,
-      "time": 1657635718,
-      "title": "The Solar Gravitational Lens Will Map Exoplanets. Seriously",
-      "type": "story",
-      "url": "https://www.youtube.com/watch?v=NQFqDKRAROI"
-    },
-    {
-      "by": "trifit",
-      "descendants": 1,
-      "id": 32070377,
-      "kids": [
-        32070437
-      ],
-      "score": 3,
-      "text": "I was made to feel bad by my peers for spending money on my favorite gadgets now I’m introspecting if it was really a bad choice. What does the community think?",
-      "time": 1657635698,
-      "title": "Ask HN: Is there anything wrong with splurging on tech?",
-      "type": "story"
     }
   ]
 }
