@@ -1,6 +1,59 @@
 {
   "stories": [
     {
+      "by": "kunle",
+      "descendants": 0,
+      "id": 32070485,
+      "score": 1,
+      "time": 1657636127,
+      "title": "Crypto primitives – real world use cases for crypto/Web3/DeFi",
+      "type": "story",
+      "url": "https://kunle.app/july-2022-crypto-primitives.html"
+    },
+    {
+      "by": "thesecretceo",
+      "descendants": 0,
+      "id": 32070478,
+      "score": 1,
+      "time": 1657636106,
+      "title": "Apple Is Offering $2M USD to Hackers Who Can Exploit Their New Lockdown Feature",
+      "type": "story",
+      "url": "https://hypebeast.com/2022/7/apple-offers-2-million-to-hackers-to-exploit-lockdown-feature"
+    },
+    {
+      "by": "mooreds",
+      "descendants": 0,
+      "id": 32070468,
+      "score": 1,
+      "time": 1657636051,
+      "title": "Are you technocentric? Shifting from technology to people",
+      "type": "story",
+      "url": "https://www.raspberrypi.org/blog/technocentrism-shifting-from-technology-to-people-computing-education-pratim-sengupta-research-seminar/#CSEd"
+    },
+    {
+      "by": "kdeldycke",
+      "descendants": 1,
+      "id": 32070459,
+      "kids": [
+        32070461
+      ],
+      "score": 2,
+      "text": "Tl;Dr: mpm implements a solution to XKCD #1654 (Universal Install Script). Now you can do:<p><pre><code>    $ mpm --xkcd install &lt;my_package&gt;\n</code></pre>\nand let it figure out which package manager to use to install your package.<p>The project is open-source: https:&#x2F;&#x2F;github.com&#x2F;kdeldycke&#x2F;meta-package-manager#readme<p>This CLI has some other capabilities, like listing the duplicate packages on your system:<p><pre><code>    $ mpm list --duplicates\n    ╭────────────┬─────────┬───────────────────╮\n    │ Package ID │ Manager │ Installed version │\n    ├────────────┼─────────┼───────────────────┤\n    │ blah       │ cargo   │ 0.0.0             │\n    │ blah       │ gem     │ 0.0.2             │\n    │ blah       │ npm     │ 5.2.1             │\n    │ coverage   │ pip     │ 6.4.1             │\n    │ coverage   │ pipx    │ 6.4.1             │\n    │ six        │ brew    │ 1.16.0_2          │\n    │ six        │ pip     │ 1.16.0            │\n    ╰────────────┴─────────┴───────────────────╯\n</code></pre>\nList outdated packages:<p><pre><code>    $ mpm outdated\n    ╭───────────┬─────────┬───────────────────┬────────────────╮\n    │ ID        │ Manager │ Installed version │ Latest version │\n    ├───────────┼─────────┼───────────────────┼────────────────┤\n    │ curl      │ brew    │ 7.79.1            │ 7.79.1_1       │\n    │ git       │ brew    │ 2.33.0            │ 2.33.0_1       │\n    │ npm@8.0.0 │ npm     │ 7.24.0            │ 8.0.0          │\n    │ pip       │ pip     │ 21.2.4            │ 21.3           │\n    │ regex     │ pip     │ 2021.9.30         │ 2021.10.8      │\n    ╰───────────┴─────────┴───────────────────┴────────────────╯\n</code></pre>\nOr dump all installed packages to a file:<p><pre><code>    $ mpm snapshot packages.toml\n    Dumping packages from brew...\n    Dumping packages from cask...\n    Dumping packages from gem...\n    Dumping packages from mas...\n    Dumping packages from npm...\n    Dumping packages from pip...\n    1109 packages total (npm: 659, brew: 229, pip: 115, gem: 49, cask: 48, mas: 9).\n</code></pre>\nTo install it, either use:<p><pre><code>    $ pipx install meta-package-manager\n\n    $ pip install meta-package-manager\n\n    $ python -m pip install meta-package-manager\n\n    $ brew untap hasnep&#x2F;tap &amp;&amp; brew install hasnep&#x2F;tap&#x2F;meta-package-manager\n\n    $ paru -S meta-package-manager\n\n    $ yay -S meta-package-manager\n</code></pre>\nOr if you are meta:<p><pre><code>    $ mpm install meta-package-manager\n</code></pre>\nSee install doc at: https:&#x2F;&#x2F;kdeldycke.github.io&#x2F;meta-package-manager&#x2F;install.html",
+      "time": 1657636005,
+      "title": "Show HN: Meta Package Manager, a CLI that solves Xkcd #1654",
+      "type": "story"
+    },
+    {
+      "by": "axiomdata316",
+      "descendants": 0,
+      "id": 32070450,
+      "score": 1,
+      "time": 1657635987,
+      "title": "DAKboard – A customizable display for your photos, calendar, news, weather",
+      "type": "story",
+      "url": "https://www.dakboard.com/site"
+    },
+    {
       "by": "reckel",
       "descendants": 0,
       "id": 32070398,
@@ -42,63 +95,16 @@
     },
     {
       "by": "trifit",
-      "descendants": 0,
+      "descendants": 1,
       "id": 32070377,
-      "score": 1,
+      "kids": [
+        32070437
+      ],
+      "score": 3,
       "text": "I was made to feel bad by my peers for spending money on my favorite gadgets now I’m introspecting if it was really a bad choice. What does the community think?",
       "time": 1657635698,
       "title": "Ask HN: Is there anything wrong with splurging on tech?",
       "type": "story"
-    },
-    {
-      "by": "Hooopo",
-      "descendants": 0,
-      "id": 32070365,
-      "score": 1,
-      "time": 1657635636,
-      "title": "Modern Data Stack (OSS Version)",
-      "type": "story",
-      "url": "https://ossinsight.io/collections/modern-data-stack/"
-    },
-    {
-      "by": "samizdis",
-      "descendants": 0,
-      "id": 32070360,
-      "score": 1,
-      "time": 1657635626,
-      "title": "Explaining the Bluetooth LE Audio Spec",
-      "type": "story",
-      "url": "https://arstechnica.com/gadgets/2022/07/whats-bluetooth-le-audio-explaining-the-latest-wireless-tech-standard/"
-    },
-    {
-      "by": "Barrera",
-      "descendants": 0,
-      "id": 32070336,
-      "score": 1,
-      "time": 1657635554,
-      "title": "Homebuyers cancel deals at the highest rate since start of the pandemic",
-      "type": "story",
-      "url": "https://www.cnbc.com/2022/07/11/homebuyers-are-canceling-deals-at-highest-rate-since-start-of-covid.html"
-    },
-    {
-      "by": "NaeosPsy",
-      "descendants": 0,
-      "id": 32070294,
-      "score": 2,
-      "time": 1657635351,
-      "title": "Awesome Open-Source Haskell Projects",
-      "type": "story",
-      "url": "https://serokell.io/blog/best-haskell-open-source-projects"
-    },
-    {
-      "by": "HieronymusBosch",
-      "descendants": 0,
-      "id": 32070292,
-      "score": 1,
-      "time": 1657635333,
-      "title": "Spotify to Acquire Heardle",
-      "type": "story",
-      "url": "https://pr-newsroom-wp.appspot.com/2022-07-12/spotify-to-acquire-music-trivia-sensation-heardle/"
     }
   ]
 }
