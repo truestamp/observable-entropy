@@ -1,6 +1,79 @@
 {
   "stories": [
     {
+      "by": "okasaki",
+      "descendants": 0,
+      "id": 32069907,
+      "score": 1,
+      "time": 1657633817,
+      "title": "SAS unit repeatedly executed Afghan detainees, BBC finds",
+      "type": "story",
+      "url": "https://www.bbc.co.uk/news/uk-62083196"
+    },
+    {
+      "by": "TekMol",
+      "descendants": 0,
+      "id": 32069898,
+      "score": 1,
+      "text": "I&#x27;m looking for inspiration how newly built websites look like these days.<p>Any great examples?",
+      "time": 1657633782,
+      "title": "Ask HN: What are the best looking Show HN's you have seen?",
+      "type": "story"
+    },
+    {
+      "by": "atlasunshrugged",
+      "descendants": 0,
+      "id": 32069890,
+      "score": 1,
+      "time": 1657633748,
+      "title": "India will surpass China in population next year, UN projects",
+      "type": "story",
+      "url": "https://www.axios.com/2022/07/11/china-india-world-population-trends"
+    },
+    {
+      "by": "mitchbob",
+      "descendants": 1,
+      "id": 32069889,
+      "kids": [
+        32069894
+      ],
+      "score": 2,
+      "time": 1657633745,
+      "title": "Crypto Is Crashing. Where Were the Regulators?",
+      "type": "story",
+      "url": "https://www.nytimes.com/2022/07/11/opinion/cryptocurrency-federal-reserve.html"
+    },
+    {
+      "by": "kblestarge",
+      "descendants": 0,
+      "id": 32069881,
+      "score": 2,
+      "time": 1657633709,
+      "title": "Startup founder doing things that don’t scale",
+      "type": "story",
+      "url": "https://kevinlestarge.com/2022/07/11/volley-founder-doing-things-that-dont-scale-%f0%9f%98%b1/"
+    },
+    {
+      "by": "winternett",
+      "descendants": 0,
+      "id": 32069853,
+      "score": 1,
+      "time": 1657633590,
+      "title": "Social Media: The unsustainably worst method for fostering business opportunity",
+      "type": "story",
+      "url": "http://circuitbored.com/communicate/viewtopic.php?t=218"
+    },
+    {
+      "by": "areichert",
+      "descendants": 0,
+      "id": 32069852,
+      "score": 1,
+      "time": 1657633581,
+      "title": "Kotlin Slack Conversations",
+      "type": "story",
+      "url": "https://slack-chats.kotlinlang.org/"
+    },
+    {
       "by": "andsoitis",
       "descendants": 0,
       "id": 32069820,
@@ -29,76 +102,6 @@
       "title": "Millennials and Gen Z – WFH days numbered?",
       "type": "story",
       "url": "https://www.cnbc.com/2022/07/11/millennial-and-gen-zs-days-of-remote-working-could-be-numbered.html"
-    },
-    {
-      "by": "bkohlmann",
-      "descendants": 0,
-      "id": 32069801,
-      "score": 1,
-      "time": 1657633382,
-      "title": "Sell Slowly",
-      "type": "story",
-      "url": "https://ofdollarsanddata.com/sell-slowly/"
-    },
-    {
-      "by": "carlosedp",
-      "descendants": 0,
-      "id": 32069780,
-      "score": 1,
-      "time": 1657633311,
-      "title": "Scala or Go: Who Wore It Better? (2021)",
-      "type": "story",
-      "url": "https://www.vidyasource.com/blog/scala-go"
-    },
-    {
-      "by": "jacv",
-      "descendants": 0,
-      "id": 32069776,
-      "score": 1,
-      "time": 1657633304,
-      "title": "Where the Crawdads Sing Author Wanted for Questioning in Murder",
-      "type": "story",
-      "url": "https://www.theatlantic.com/books/archive/2022/07/where-the-crawdads-sing-delia-mark-owens-zambia-murder/670479/"
-    },
-    {
-      "by": "Hard_Space",
-      "descendants": 0,
-      "id": 32069759,
-      "score": 1,
-      "time": 1657633235,
-      "title": "Our Subconscious Deepfake-Detection Skills Could Power Future Automated Systems",
-      "type": "story",
-      "url": "https://www.unite.ai/our-subconscious-deepfake-detection-skills-could-power-future-automated-systems/"
-    },
-    {
-      "by": "locriacyber",
-      "descendants": 0,
-      "id": 32069723,
-      "score": 1,
-      "text": "Hello HN,<p>I am looking to find a ZKP scheme for humans. Instead of remembering passwords, the user can remember a unique function that has a certain property. Services then probe the user to prove that they know such a function, without revealing the function to the service.<p>The problem is, I&#x27;m not good at cryptography. I need to find a set of functions that one such function is<p>- is easy to evaluate in my head\n- is possible for me to remember\n- can be pre-calculated \n- reasonably fast to use in ZKP<p>One example of a function is to imaging a 3D cellular shape with holes. The challenge type is a list of &quot;discrete movement through the space&quot;, and the response is a list of &quot;crossing the boundary of the 3D shape&quot;.<p>I hope you hackers have a better idea of what types to use for `C`, `R`, and how to choose `generate_f`.<p>details in pseudo-code:<p>```idris2\n-- this is public\n-- the secret `f` generator\n-- should discourage rainbow table\ngenerate_f : (random_seed: Seed) -&gt; P -&gt; F<p>-- this is private\n-- the user remembers a function `f` with certain property in set `P`\n-- this function should be easy to remember and calculate for humans\nF : Type\nF = (challenge: C) -&gt; (response: R)\nf : F<p>-- this is public\n-- prove that the function is generated with `property` from its response\n-- this should be straight-forward to implement using ZKP\nverify : (property: P) -&gt; (challenge: C) -&gt; (response: R) -&gt; bool\n```",
-      "time": 1657633085,
-      "title": "Ask HN: Building a ZKP Scheme for Humans",
-      "type": "story"
-    },
-    {
-      "by": "fortran77",
-      "descendants": 0,
-      "id": 32069711,
-      "score": 2,
-      "time": 1657633017,
-      "title": "Parícutin",
-      "type": "story",
-      "url": "https://en.wikipedia.org/wiki/Par%C3%ADcutin"
-    },
-    {
-      "by": "jka",
-      "descendants": 0,
-      "id": 32069668,
-      "score": 1,
-      "time": 1657632846,
-      "title": "Beyond PEP 8 – Best practices for beautiful intelligible code [video] (2015)",
-      "type": "story",
-      "url": "https://www.youtube.com/watch?v=wf-BqAjZb8M"
     }
   ]
 }
