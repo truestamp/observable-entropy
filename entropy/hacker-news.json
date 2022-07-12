@@ -1,6 +1,26 @@
 {
   "stories": [
     {
+      "by": "locriacyber",
+      "descendants": 0,
+      "id": 32069723,
+      "score": 1,
+      "text": "Hello HN,<p>I am looking to find a ZKP scheme for humans. Instead of remembering passwords, the user can remember a unique function that has a certain property. Services then probe the user to prove that they know such a function, without revealing the function to the service.<p>The problem is, I&#x27;m not good at cryptography. I need to find a set of functions that one such function is<p>- is easy to evaluate in my head\n- is possible for me to remember\n- can be pre-calculated \n- reasonably fast to use in ZKP<p>One example of a function is to imaging a 3D cellular shape with holes. The challenge type is a list of &quot;discrete movement through the space&quot;, and the response is a list of &quot;crossing the boundary of the 3D shape&quot;.<p>I hope you hackers have a better idea of what types to use for `C`, `R`, and how to choose `generate_f`.<p>details in pseudo-code:<p>```idris2\n-- this is public\n-- the secret `f` generator\n-- should discourage rainbow table\ngenerate_f : (random_seed: Seed) -&gt; P -&gt; F<p>-- this is private\n-- the user remembers a function `f` with certain property in set `P`\n-- this function should be easy to remember and calculate for humans\nF : Type\nF = (challenge: C) -&gt; (response: R)\nf : F<p>-- this is public\n-- prove that the function is generated with `property` from its response\n-- this should be straight-forward to implement using ZKP\nverify : (property: P) -&gt; (challenge: C) -&gt; (response: R) -&gt; bool\n```",
+      "time": 1657633085,
+      "title": "Ask HN: Building a ZKP Scheme for Humans",
+      "type": "story"
+    },
+    {
+      "by": "fortran77",
+      "descendants": 0,
+      "id": 32069711,
+      "score": 2,
+      "time": 1657633017,
+      "title": "Parícutin",
+      "type": "story",
+      "url": "https://en.wikipedia.org/wiki/Par%C3%ADcutin"
+    },
+    {
       "by": "jka",
       "descendants": 0,
       "id": 32069668,
@@ -72,38 +92,18 @@
     },
     {
       "by": "oldjavacoder",
-      "descendants": 1,
+      "descendants": 4,
       "id": 32069468,
       "kids": [
+        32069752,
+        32069704,
+        32069725,
         32069682
       ],
-      "score": 12,
+      "score": 15,
       "text": "When I think about TypeScript and Angular I break out in a cold sweat. When I remember creating UI&#x27;s in GWT and it just worked, in Java, it brings back fond memories. So I&#x27;m relegated to the backend. Any other Java devs out there who&#x27;d like to to more in the front end but in Java, the language we know and love?",
       "time": 1657631877,
       "title": "Ask HN: Why isn't GWT or Vaadin more popular among Java developers?",
-      "type": "story"
-    },
-    {
-      "by": "samemail88",
-      "descendants": 2,
-      "id": 32069449,
-      "kids": [
-        32069505
-      ],
-      "score": 4,
-      "time": 1657631781,
-      "title": "Readable code is better than efficient code",
-      "type": "story",
-      "url": "https://ashlan.com/blog/readable-code-is-better-than-efficient-code/"
-    },
-    {
-      "by": "apignotti",
-      "descendants": 0,
-      "id": 32069418,
-      "score": 1,
-      "text": "WebAssembly is a modern bytecode supported by all browsers and designed to be a compiler target for a wide variety of programming languages.<p>To effectively support some forms of Functional Programming support for tail-calls has been proposed as an extension to the WebAssembly standard.<p>This proposal has reached Phase3 of the standardization process years ago, but has since stalled.<p>Phase3 is known as &quot;the implementation phase&quot; and the prerequisite for advancing the proposal to Phase4 is to have support in two different browser engines. V8&#x2F;Chrome support has been available for a long time, so another engine is required.<p>To unblock this situation we have contributed full support for WebAssembly Tail Calls to JavaScript&#x2F;WebKit&#x2F;Safari. The PR is available here:<p>https:&#x2F;&#x2F;github.com&#x2F;WebKit&#x2F;WebKit&#x2F;pull&#x2F;2065<p>An in-depth article about the challenges of implementing this feature is also available. This is intended both as documentation for our contribution, but also as a general explainer about how tails calls actually work, with a particular focus on stack space management.<p>https:&#x2F;&#x2F;leaningtech.com&#x2F;fantastic-tail-calls-and-how-to-implement-them&#x2F;",
-      "time": 1657631663,
-      "title": "Show HN: We are trying to (finally) get tail-calls into the WebAssembly standard",
       "type": "story"
     }
   ]
