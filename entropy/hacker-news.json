@@ -1,10 +1,80 @@
 {
   "stories": [
     {
+      "by": "samizdis",
+      "descendants": 0,
+      "id": 32086647,
+      "score": 1,
+      "time": 1657736097,
+      "title": "RISC-V Guns for Raspberry Pi, Legacy Chips",
+      "type": "story",
+      "url": "https://spectrum.ieee.org/risc-v-raspberry-pi"
+    },
+    {
+      "by": "tosh",
+      "descendants": 0,
+      "id": 32086641,
+      "score": 1,
+      "time": 1657736072,
+      "title": "Nothing Phone (1)",
+      "type": "story",
+      "url": "https://nothing.tech/pages/phone-1"
+    },
+    {
+      "by": "samizdis",
+      "descendants": 0,
+      "id": 32086621,
+      "score": 1,
+      "time": 1657736001,
+      "title": "Profits caused wages in the financial sector to rise",
+      "type": "story",
+      "url": "https://phys.org/news/2022-07-profits-wages-financial-sector.html"
+    },
+    {
+      "by": "mattewong",
+      "descendants": 0,
+      "id": 32086607,
+      "score": 1,
+      "text": "I&#x27;ve been on the hunt for some time for a workflow solution that:<p>1. bifurcates administrator vs user experiences. So for example, an admin defines a universe of possible actions, and a user defines a workflow consisting of one or more triggers that, when fired, executes some series of those predefined actions in the flow that the user defines<p>2. is no-code. If the admin must sometimes work with a config file (such as JSON), that&#x27;s OK. But none of this python or coding business-- not that I have anything against that myself, but it&#x27;s just the use case we need to address. For non-admin users, it should have a graphical UI<p>3. is versatile. For example, I&#x27;d like to be able to define an action to invoke any executable I choose, or to make any REST call I define<p>4. can dynamically chain each step&#x27;s output to any of the next steps&#x27; input. For example, let&#x27;s say I&#x27;m a regular user, and my admin has defined 2 actions I can use: XLSX_to_CSV, which converts X.xlsx to output&#x2F;X.csv, for any X, and CSV_to_SQLITE, which converts XX.csv to output&#x2F;XX.db, for any XX. Then I should be able to define a new workflow, using a UI, with a trigger that, for example, will monitor folder X that I specify, and upon receiving an XLSX file named Y.xlsx, will execute action 1 followed by action 2, to produce output&#x2F;Y.csv and output&#x2F;Y.db.<p>This should all sound pretty basic, because it is. I&#x27;ve looked at Airflow, Argo, OpenWDL and others, as well as explored whether the requirements could be met with a collection of technologies (such as something plus WuFoo together)-- but so far, they all seem to fall short.<p>The closest thing I have seen is https:&#x2F;&#x2F;docs.microsoft.com&#x2F;en-us&#x2F;azure&#x2F;logic-apps&#x2F;logic-apps-workflow-definition-language, but that does not let an admin user define actions for regular users to then mix and match (but admittedly, it is otherwise very close to what I&#x27;m looking for).<p>Any suggestions on other solutions that may fit the bill? Or alternatively, if not, how might I go about gauging whether there might be sufficient to opensource a project for doing so (a decent amount of which is already built, since I needed some solution and built a workable one already, though it could use a facelift)?",
+      "time": 1657735969,
+      "title": "Ask HN: Do we need a better workflow solution exist, or is it already out there?",
+      "type": "story"
+    },
+    {
+      "by": "jedwhite",
+      "descendants": 0,
+      "id": 32086596,
+      "score": 1,
+      "time": 1657735946,
+      "title": "“Digital Nomad” Visas Can Boost Local Economies",
+      "type": "story",
+      "url": "https://hbr.org/2022/05/how-digital-nomad-visas-can-boost-local-economies"
+    },
+    {
+      "by": "laurex",
+      "descendants": 0,
+      "id": 32086587,
+      "score": 1,
+      "time": 1657735900,
+      "title": "In a Post-Roe World, the Future of Digital Privacy Looks Even Grimmer",
+      "type": "story",
+      "url": "https://www.nytimes.com/2022/07/13/technology/personaltech/abortion-privacy-roe-surveillance.html"
+    },
+    {
+      "by": "CrankyBear",
+      "descendants": 0,
+      "id": 32086562,
+      "score": 1,
+      "time": 1657735818,
+      "title": "Where, oh where are the new hires?",
+      "type": "story",
+      "url": "https://www.computerworld.com/article/3666953/where-oh-where-are-the-new-hires.html"
+    },
+    {
       "by": "eko",
       "descendants": 0,
       "id": 32086541,
-      "score": 1,
+      "score": 2,
       "time": 1657735741,
       "title": "Don't build your own lock mechnism, SQL databases do it for you",
       "type": "story",
@@ -29,80 +99,6 @@
       "title": "Show HN: The Misinformation Game – A social media research tool",
       "type": "story",
       "url": "https://themisinformationgame.github.io/"
-    },
-    {
-      "by": "laurex",
-      "descendants": 0,
-      "id": 32086521,
-      "score": 1,
-      "time": 1657735670,
-      "title": "A framework for introducing ethics to your startup [pdf]",
-      "type": "story",
-      "url": "https://www.ethicsmvp.com/uploads/6/4/3/3/6433858/the_ethics_mvp_framework.pdf"
-    },
-    {
-      "by": "Lammy",
-      "descendants": 0,
-      "id": 32086494,
-      "score": 1,
-      "time": 1657735518,
-      "title": "Writable Optical Discs: MO, PD, DVD-RAM (2015)",
-      "type": "story",
-      "url": "https://goughlui.com/2015/08/10/mega-tech-flashback-writable-optical-discs-mo-pd-dvd-ram/"
-    },
-    {
-      "by": "mpweiher",
-      "descendants": 0,
-      "id": 32086465,
-      "score": 2,
-      "time": 1657735420,
-      "title": "Apple and Jony Ive will no longer work together",
-      "type": "story",
-      "url": "https://arstechnica.com/gadgets/2022/07/report-apple-and-jony-ive-will-no-longer-work-together/"
-    },
-    {
-      "by": "georgecmu",
-      "descendants": 0,
-      "id": 32086456,
-      "score": 1,
-      "time": 1657735403,
-      "title": "The Words Associated Press Did Not Want to Use",
-      "type": "story",
-      "url": "https://www.theatlantic.com/politics/archive/2021/08/jonathan-katz-haiti-colonialism-imperialism/619703/"
-    },
-    {
-      "by": "jandeboevrie",
-      "descendants": 0,
-      "id": 32086428,
-      "score": 1,
-      "time": 1657735291,
-      "title": "OpenVMS 9.2 for x86 will be released tomorrow (2022-07-14), so exciting",
-      "type": "story",
-      "url": "https://raymii.org/s/blog/OpenVMS_9.2_for_x86_will_be_released_tomorrow.html"
-    },
-    {
-      "by": "ramimac",
-      "descendants": 0,
-      "id": 32086392,
-      "score": 1,
-      "time": 1657735156,
-      "title": "Security for Growth Companies",
-      "type": "story",
-      "url": "https://www.bvp.com/atlas/security-for-growth-companies"
-    },
-    {
-      "by": "Eddy_Viscosity2",
-      "descendants": 2,
-      "id": 32086389,
-      "kids": [
-        32086548,
-        32086404
-      ],
-      "score": 1,
-      "time": 1657735147,
-      "title": "Uvalde Mayor Calls Media 'Chicken'",
-      "type": "story",
-      "url": "https://www.newsweek.com/uvalde-mayor-don-mclaughlin-condemns-media-releasing-school-shooting-video-1724115"
     }
   ]
 }
