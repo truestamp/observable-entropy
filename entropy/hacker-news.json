@@ -1,6 +1,26 @@
 {
   "stories": [
     {
+      "by": "rurp",
+      "descendants": 0,
+      "id": 32078518,
+      "score": 1,
+      "time": 1657680723,
+      "title": "Twitter Sues Elon Musk",
+      "type": "story",
+      "url": "https://www.axios.com/2022/07/12/twitter-sues-elon-musk"
+    },
+    {
+      "by": "pseudolus",
+      "descendants": 0,
+      "id": 32078512,
+      "score": 1,
+      "time": 1657680626,
+      "title": "How to Save an Ancient, Giant Tree from a Wildfire",
+      "type": "story",
+      "url": "https://www.nytimes.com/2022/07/12/us/giant-sequoia-yosemite-washburn-fire.html"
+    },
+    {
       "by": "xxyzz",
       "descendants": 0,
       "id": 32078498,
@@ -51,7 +71,7 @@
       "by": "quyleanh",
       "descendants": 0,
       "id": 32078470,
-      "score": 1,
+      "score": 2,
       "time": 1657680131,
       "title": "Apple and Jony Ive are no longer working together",
       "type": "story",
@@ -89,26 +109,6 @@
       "title": "The Three Crises in Mathematics by E Snapper (1979) [pdf]",
       "type": "story",
       "url": "http://php.scripts.psu.edu/faculty/e/c/ecb5/Courses/M475W/WeeklyReadings/Week%2014/Three_Crises_in_Mathematics.pdf"
-    },
-    {
-      "by": "hemantv",
-      "descendants": 0,
-      "id": 32078436,
-      "score": 1,
-      "time": 1657679768,
-      "title": "Show HN: Stable Throw away your new hire checklist",
-      "type": "story",
-      "url": "https://getstable.co/"
-    },
-    {
-      "by": "yonz",
-      "descendants": 0,
-      "id": 32078428,
-      "score": 2,
-      "text": "I am driving myself crazy trying to find a combination that will allow me to setup an offline react native app with a graph database.<p>Tick off the common suggestions:<p>1- No this is not for state management (Redux, Redux-persist)<p>2- I don&#x27;t want to use sqlite or any other relational setup<p>3- I don&#x27;t want to use serialize then async store<p>Now that we have those out of the way realm DB is promising but it requires the app to use the db in single thread mode, doesn&#x27;t support dynamic schema changes and outside of realm-orm I don&#x27;t see anywhere where I can type it to TS<p>Apollo client with persistence seems promising but I am concerned that this is a caching solution not a first class offline support.<p>Actualbudget (a local first app) is doing sqlite3 (table storage) and CDRTs message queue for eventual consistency. I am curious how anytype.io is storing their graph at the edge.<p>The short pitch is: imagine if you had a structured graph of your personal data (private &amp; synchronized offline), we would be able to build tons of cross silo solutions. My first use case is to identify low frequency NERs so that i can have a personalized RSS reader.",
-      "time": 1657679652,
-      "title": "Ask HN: How to have GraphQL in an offline only React Native application",
-      "type": "story"
     }
   ]
 }
