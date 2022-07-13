@@ -1,6 +1,56 @@
 {
   "stories": [
     {
+      "by": "amrrs",
+      "descendants": 0,
+      "id": 32086776,
+      "score": 1,
+      "time": 1657736617,
+      "title": "Python's Role in Unlocking Universe Secrets with the James Webb Space Telescope",
+      "type": "story",
+      "url": "https://www.youtube.com/watch?v=tRtxCCRdZOs"
+    },
+    {
+      "by": "OnlineInference",
+      "descendants": 0,
+      "id": 32086756,
+      "score": 2,
+      "time": 1657736539,
+      "title": "Bloom: 176B Parameter Multilingual Language Model Ready for Open Use",
+      "type": "story",
+      "url": "https://wandb.ai/telidavies/ml-news/reports/BLOOM-176-Billion-Parameter-Multilingual-Language-Model-Ready-For-Open-Use--VmlldzoyMzA2NTgz"
+    },
+    {
+      "by": "anigbrowl",
+      "descendants": 0,
+      "id": 32086740,
+      "score": 1,
+      "time": 1657736483,
+      "title": "Supply chain issues are killing synth companies",
+      "type": "story",
+      "url": "https://www.synthtopia.com/content/2022/07/12/supply-chain-issues-are-killing-synth-companies-and-making-it-impossible-to-ship-new-designs/"
+    },
+    {
+      "by": "todsacerdoti",
+      "descendants": 0,
+      "id": 32086737,
+      "score": 1,
+      "time": 1657736474,
+      "title": "New YC video series: First Five",
+      "type": "story",
+      "url": "https://www.ycombinator.com/blog/first-five/"
+    },
+    {
+      "by": "todsacerdoti",
+      "descendants": 0,
+      "id": 32086728,
+      "score": 1,
+      "time": 1657736426,
+      "title": "New YC video series: First Five",
+      "type": "story",
+      "url": "https://www.ycombinator.com/blog/new-yc-video-series-first-five/"
+    },
+    {
       "by": "mikece",
       "descendants": 0,
       "id": 32086707,
@@ -49,59 +99,6 @@
       "title": "Stavanger Declaration Concerning the Future of Reading (2018) [pdf]",
       "type": "story",
       "url": "https://ereadcost.eu/wp-content/uploads/2019/01/StavangerDeclaration.pdf"
-    },
-    {
-      "by": "ashitlerferad",
-      "descendants": 0,
-      "id": 32086652,
-      "score": 3,
-      "time": 1657736115,
-      "title": "Securing IoTs",
-      "type": "story",
-      "url": "https://haydenjames.io/iot-internet-of-things-security-solutions/"
-    },
-    {
-      "by": "samizdis",
-      "descendants": 0,
-      "id": 32086647,
-      "score": 1,
-      "time": 1657736097,
-      "title": "RISC-V Guns for Raspberry Pi, Legacy Chips",
-      "type": "story",
-      "url": "https://spectrum.ieee.org/risc-v-raspberry-pi"
-    },
-    {
-      "by": "tosh",
-      "descendants": 0,
-      "id": 32086641,
-      "score": 1,
-      "time": 1657736072,
-      "title": "Nothing Phone (1)",
-      "type": "story",
-      "url": "https://nothing.tech/pages/phone-1"
-    },
-    {
-      "by": "samizdis",
-      "descendants": 0,
-      "id": 32086621,
-      "score": 1,
-      "time": 1657736001,
-      "title": "Profits caused wages in the financial sector to rise",
-      "type": "story",
-      "url": "https://phys.org/news/2022-07-profits-wages-financial-sector.html"
-    },
-    {
-      "by": "mattewong",
-      "descendants": 1,
-      "id": 32086607,
-      "kids": [
-        32086699
-      ],
-      "score": 1,
-      "text": "I&#x27;ve been on the hunt for some time for a workflow solution that:<p>1. bifurcates administrator vs user experiences. So for example, an admin defines a universe of possible actions, and a user defines a workflow consisting of one or more triggers that, when fired, executes some series of those predefined actions in the flow that the user defines<p>2. is no-code. If the admin must sometimes work with a config file (such as JSON), that&#x27;s OK. But none of this python or coding business-- not that I have anything against that myself, but it&#x27;s just the use case we need to address. For non-admin users, it should have a graphical UI<p>3. is versatile. For example, I&#x27;d like to be able to define an action to invoke any executable I choose, or to make any REST call I define<p>4. can dynamically chain each step&#x27;s output to any of the next steps&#x27; input. For example, let&#x27;s say I&#x27;m a regular user, and my admin has defined 2 actions I can use: XLSX_to_CSV, which converts X.xlsx to output&#x2F;X.csv, for any X, and CSV_to_SQLITE, which converts XX.csv to output&#x2F;XX.db, for any XX. Then I should be able to define a new workflow, using a UI, with a trigger that, for example, will monitor folder X that I specify, and upon receiving an XLSX file named Y.xlsx, will execute action 1 followed by action 2, to produce output&#x2F;Y.csv and output&#x2F;Y.db.<p>This should all sound pretty basic, because it is. I&#x27;ve looked at Airflow, Argo, OpenWDL and others, as well as explored whether the requirements could be met with a collection of technologies (such as something plus WuFoo together)-- but so far, they all seem to fall short.<p>The closest thing I have seen is https:&#x2F;&#x2F;docs.microsoft.com&#x2F;en-us&#x2F;azure&#x2F;logic-apps&#x2F;logic-apps-workflow-definition-language, but that does not let an admin user define actions for regular users to then mix and match (but admittedly, it is otherwise very close to what I&#x27;m looking for).<p>Any suggestions on other solutions that may fit the bill? Or alternatively, if not, how might I go about gauging whether there might be sufficient interest to opensource a project for doing so (a decent amount of which is already built, since I needed some solution and built a workable one already, though it could use a facelift)?",
-      "time": 1657735969,
-      "title": "Ask HN: Do we need a better workflow solution exist, or is it already out there?",
-      "type": "story"
     }
   ]
 }
