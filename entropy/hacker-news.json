@@ -1,11 +1,41 @@
 {
   "stories": [
     {
+      "by": "kornatzky",
+      "descendants": 0,
+      "id": 32081694,
+      "score": 1,
+      "time": 1657715255,
+      "title": "No Code Platforms from a Database Perspective",
+      "type": "story",
+      "url": "https://farokhnotes.medium.com/making-databases-as-easy-as-playing-with-legos-no-code-no-problem-ed41d4fde269"
+    },
+    {
+      "by": "kornatzky",
+      "descendants": 0,
+      "id": 32081683,
+      "score": 1,
+      "time": 1657715198,
+      "title": "Nice Discussion of Best App Build Tools",
+      "type": "story",
+      "url": "https://www.designware.io/blog/best-app-builders-no-code/"
+    },
+    {
+      "by": "wahvinci",
+      "descendants": 0,
+      "id": 32081682,
+      "score": 1,
+      "time": 1657715183,
+      "title": "A FREE and open source alternative to handle forms on static sites",
+      "type": "story",
+      "url": "https://devapt.com/formspree-alternative-formeasy"
+    },
+    {
       "by": "jgehrcke",
       "descendants": 0,
       "id": 32081661,
       "score": 1,
-      "text": "Bonjour! I’d like to share a rather small project which I believe may be of use for some of you.<p><a href=\"https:&#x2F;&#x2F;github.com&#x2F;jgehrcke&#x2F;github-repo-stats\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;jgehrcke&#x2F;github-repo-stats</a> is a GitHub Action that I started building about 1.5 years ago, to overcome the 14-day limitation of the visitor&#x2F;clone plots shown in GitHub&#x27;s &quot;Insights&quot; tab.<p>The project has some seemingly happy users and I believe we managed to address some of the more embarrassing bugs. That is, I believe this project is ready for a new wave of feedback. Which is where you come in, hopefully  :-).<p>When I researched the solution space back then I found Actions that relied on an external system to push data to (like S3). I thought that it’s simpler to keep the time series data in the repository that the GitHub Action runs in. Also, I have opinions about data analysis and visualization and so I wanted to take full control of that. The goal from the start was to generate a self-contained report artifact on a daily basis (with good characteristics in terms of sharing and archiving), and to also persist that via git.<p>Quick technical description: this Action runs once per day. During each run, it\n- fetches traffic stats (visitor count, etc – for the last 14 days) via GitHub’s HTTP API.\n- persists new data points (in the GitHub git repository that this Action runs in!).\n- generates a minimal HTML and PDF report, both of which are also persisted in the repo that this Action runs in.<p>The HTML&#x2F;PDF documents can be exposed right away via GitHub pages. The PDF report contains vector graphics so you can zoom in much more than necessary (and if your boss needs a print then this might look good enough). The plots in the report are meant to show a long time frame. For example, here you can see for the last 1.5 years how the daily visitor count (and other metrics) evolved for jgehrcke&#x2F;github-repo-stats:\n<a href=\"https:&#x2F;&#x2F;jgehrcke.github.io&#x2F;ghrs-test&#x2F;jgehrcke&#x2F;github-repo-stats&#x2F;latest-report&#x2F;report.html\" rel=\"nofollow\">https:&#x2F;&#x2F;jgehrcke.github.io&#x2F;ghrs-test&#x2F;jgehrcke&#x2F;github-repo-st...</a><p>What I find really cool is that there are users who run this Action in a certain repository dedicated for reporting, for many target repositories. How to do that is described in the main README in the section &#x27;Tracking multiple repositories ...&#x27;.<p>Interesting things I learned about through this project:\n- Vega&#x2F;Altair for plotting\n- <a href=\"https:&#x2F;&#x2F;github.com&#x2F;bats-core&#x2F;bats-core\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;bats-core&#x2F;bats-core</a> for CLI testing\n- GitHub Actions: how to build them, how to do release management. I also learned that testing a GitHub Action is hard, especially given the heterogeneous set of environments that it might run in.<p>If you want to try this out then besides the main README a good place to start is this tutorial: <a href=\"https:&#x2F;&#x2F;github.com&#x2F;jgehrcke&#x2F;github-repo-stats&#x2F;wiki&#x2F;Tutorial\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;jgehrcke&#x2F;github-repo-stats&#x2F;wiki&#x2F;Tutorial</a><p>All of this was built rather pragmatically, and I want to keep it that way. There is a plethora of smaller and bigger things across all parts that are generally worth improving (docs, plots, architecture, cleanup), but before deciding what to touch next I&#x27;d love to hear your ideas. Thanks!",
+      "text": "Bonjour! I’d like to share a rather small project which I believe may be of use for some of you.<p><a href=\"https:&#x2F;&#x2F;github.com&#x2F;jgehrcke&#x2F;github-repo-stats\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;jgehrcke&#x2F;github-repo-stats</a> is a GitHub Action that I started building about 1.5 years ago, to overcome the 14-day limitation of the visitor&#x2F;clone plots shown in GitHub&#x27;s &quot;Insights&quot; tab.<p>The project has some seemingly happy users and I believe we managed to address some of the more embarrassing bugs. That is, I believe this project is ready for a new wave of feedback. Which is where you come in, hopefully  :-).<p>When I researched the solution space back then I found Actions that relied on an external system to push data to (like S3). I thought that it’s simpler to keep the time series data in the repository that the GitHub Action runs in. Also, I have opinions about data analysis and visualization and so I wanted to take full control of that. The goal from the start was to generate a self-contained report artifact on a daily basis (with good characteristics in terms of sharing and archiving), and to also persist that via git.<p>Quick technical description: this Action runs once per day. During each run, it<p><pre><code>  - fetches traffic stats (visitor count, etc – for the last 14 days) via GitHub’s HTTP API.\n  - persists new data points (in the GitHub git repository that this Action runs in!).\n  - generates a minimal HTML and PDF report, both of which are also persisted in the repo that this Action runs in.\n</code></pre>\nThe HTML&#x2F;PDF documents can be exposed right away via GitHub pages. The PDF report contains vector graphics so you can zoom in much more than necessary (and if your boss needs a print then this might look good enough). The plots in the report are meant to show a long time frame. For example, here you can see for the last 1.5 years how the daily visitor count (and other metrics) evolved for jgehrcke&#x2F;github-repo-stats:\n<a href=\"https:&#x2F;&#x2F;jgehrcke.github.io&#x2F;ghrs-test&#x2F;jgehrcke&#x2F;github-repo-stats&#x2F;latest-report&#x2F;report.html\" rel=\"nofollow\">https:&#x2F;&#x2F;jgehrcke.github.io&#x2F;ghrs-test&#x2F;jgehrcke&#x2F;github-repo-st...</a><p>What I find really cool is that there are users who run this Action in a certain repository dedicated for reporting, for many target repositories. How to do that is described in the main README in the section &#x27;Tracking multiple repositories ...&#x27;.<p>Interesting things I learned about through this project:<p><pre><code>  - Vega&#x2F;Altair for plotting\n  - https:&#x2F;&#x2F;github.com&#x2F;bats-core&#x2F;bats-core for CLI testing\n  - GitHub Actions: how to build them, how to do release management. I also learned that testing a GitHub Action is hard, especially given the heterogeneous set of environments that it might run in.\n</code></pre>\nIf you want to try this out then besides the main README a good place to start is this tutorial: <a href=\"https:&#x2F;&#x2F;github.com&#x2F;jgehrcke&#x2F;github-repo-stats&#x2F;wiki&#x2F;Tutorial\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;jgehrcke&#x2F;github-repo-stats&#x2F;wiki&#x2F;Tutorial</a><p>All of this was built rather pragmatically, and I want to keep it that way. There is a plethora of smaller and bigger things across all parts that are generally worth improving (docs, plots, architecture, cleanup), but before deciding what to touch next I&#x27;d love to hear your ideas. Thanks!",
       "time": 1657715033,
       "title": "Show HN: GitHub Action for repository traffic reporting",
       "type": "story",
@@ -68,41 +98,11 @@
       "by": "tsujp",
       "descendants": 0,
       "id": 32081583,
-      "score": 1,
+      "score": 2,
       "time": 1657714520,
       "title": "_hyperscript – a small scripting language for the web",
       "type": "story",
       "url": "https://github.com/bigskysoftware/_hyperscript"
-    },
-    {
-      "by": "matt_s",
-      "descendants": 0,
-      "id": 32081558,
-      "score": 2,
-      "text": "There is much discussion of the twitter deal and about bots in social media, what percentage of user accounts are bots, etc. It occurred to me that if that case gets into the courts there will need to be a definition of what a bot is or isn&#x27;t in order to ascertain percentages of user accounts.<p>What is your definition for a social media bot? Does it include the number of humans able to use a single account (e.g. customer service)? Does it include intent behind the account (e.g. product announcements)?  With the anonymity of online personas, how can someone determine bot-or-not?",
-      "time": 1657714365,
-      "title": "Ask HN: What's the definition of a bot in social media?",
-      "type": "story"
-    },
-    {
-      "by": "mfiguiere",
-      "descendants": 0,
-      "id": 32081537,
-      "score": 1,
-      "time": 1657714208,
-      "title": "Unity is merging with Ironsource in an all-stock deal",
-      "type": "story",
-      "url": "https://techcrunch.com/2022/07/13/sources-ironsource-and-unity-are-merging-in-a-big-consolidation-play-for-gaming-and-interactive-content/"
-    },
-    {
-      "by": "wcedmisten",
-      "descendants": 0,
-      "id": 32081530,
-      "score": 1,
-      "time": 1657714136,
-      "title": "Evaluating Mechanical Keyboard Delivery Estimates with Python Web Scraping",
-      "type": "story",
-      "url": "https://wcedmisten.fyi/post/analyzing-keycap-estimates/"
     }
   ]
 }
