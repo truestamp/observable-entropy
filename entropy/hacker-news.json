@@ -1,9 +1,41 @@
 {
   "stories": [
     {
-      "by": "samizdis",
+      "by": "sohkamyung",
       "descendants": 0,
+      "id": 32081827,
+      "score": 1,
+      "time": 1657716287,
+      "title": "Ex-Google chief’s venture aims to save neglected science software",
+      "type": "story",
+      "url": "https://www.nature.com/articles/d41586-022-01901-x"
+    },
+    {
+      "by": "johndcook",
+      "descendants": 0,
+      "id": 32081808,
+      "score": 1,
+      "time": 1657716073,
+      "title": "Six programming languages I’d like to see",
+      "type": "story",
+      "url": "https://buttondown.email/hillelwayne/archive/six-programming-languages-id-like-to-see/"
+    },
+    {
+      "by": "SnowHill9902",
+      "descendants": 0,
+      "id": 32081799,
+      "score": 1,
+      "time": 1657716008,
+      "title": "Ask HN: Couldn’t spyware be subverted by tunneling through a trusted MitM proxy?",
+      "type": "story"
+    },
+    {
+      "by": "samizdis",
+      "descendants": 1,
       "id": 32081797,
+      "kids": [
+        32081815
+      ],
       "score": 1,
       "time": 1657716005,
       "title": "Glaad: Social media networks fail to protect LGBTQ users",
@@ -14,7 +46,7 @@
       "by": "mfiguiere",
       "descendants": 0,
       "id": 32081779,
-      "score": 3,
+      "score": 15,
       "time": 1657715883,
       "title": "Inflation rose 9.1% in June, even more than expected",
       "type": "story",
@@ -44,7 +76,7 @@
       "by": "techcofounder",
       "descendants": 0,
       "id": 32081749,
-      "score": 6,
+      "score": 8,
       "text": "Hey folks, I&#x27;m Ben from Armory.io (YC W17). We just launched Continuous Deployment-as-a-Service (CDaaS) to make it easy for developers to deploy their apps safely to the cloud. We’d greatly appreciate (raw, candid) feedback from the HN community if this solution improves the speed at which you deploy to production. We have a free-forever tier that gives you up to 25 Application Targets[1] (our unit of scale for pricing).<p>Try it here: https:&#x2F;&#x2F;www.armory.io&#x2F;products&#x2F;continuous-deployment-as-a-service&#x2F;<p><i>Our Story</i><p>We’ve been helping large companies with CD since 2016 by selling them our distribution of Spinnaker (spinnaker.io, originally Netflix OSS). We’ve learned three big lessons:<p>One reason developers are drawn to Spinnaker is because it provides an imperative approach to orchestrating deployment workflows \nOperating Spinnaker “on-prem” (usually in the customer’s AWS account) requires significant effort\nDoing true continuous deployment to production requires the use of advanced strategies to mitigate risk<p>These learnings inspired us to build CDaaS and make it easy for developers to employ well-understood deployment strategies like blue&#x2F;green and canary deployments without having to write custom code. With CDaaS, our aim is to deliver many of the features developers rely on from Spinnaker, but in a declarative manner that supports the GitOps approach they know and use extensively.<p>CDaaS currently supports deployments to Kubernetes but we’re adding additional cloud providers quickly (AWS, GCP, Azure, etc)<p><i>How It Works</i><p>Connect any number of Kubernetes clusters to our central control plane by installing a lightweight network agent. Once connected, you can configure your application deployment logic in a declarative YAML file that can be checked in alongside your app’s source code. Deployments can be invoked from our CLI which allow you to use your existing CI platform (Jenkins, Github Actions, CircleCI, etc) to trigger a deployment. Monitor deployments (and take additional action like rolling back, if needed) from our UI.<p><i>More Information</i><p>CD-as-a-Service product docs: https:&#x2F;&#x2F;docs.armory.io&#x2F;cd-as-a-service&#x2F;<p>Short Demo (8 min): https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=r29UCKMXEi4",
       "time": 1657715643,
       "title": "Show HN: Simple cloud deployments with CD as-a-Service",
@@ -52,9 +84,12 @@
     },
     {
       "by": "fortran77",
-      "descendants": 0,
+      "descendants": 1,
       "id": 32081747,
-      "score": 2,
+      "kids": [
+        32081823
+      ],
+      "score": 3,
       "time": 1657715630,
       "title": "For Blind Internet Users the Fix May Be Worse Than the Flaws",
       "type": "story",
@@ -69,36 +104,6 @@
       "title": "Smart Textiles Accurately Sense How Their Users Are Moving",
       "type": "story",
       "url": "https://scitechdaily.com/smart-textiles-accurately-sense-how-their-users-are-moving/"
-    },
-    {
-      "by": "ajdude",
-      "descendants": 0,
-      "id": 32081734,
-      "score": 2,
-      "time": 1657715536,
-      "title": "Proton is less accessible to folks without Twitter accounts",
-      "type": "story",
-      "url": "https://mspsocial.net/@vkc/108635827298976277"
-    },
-    {
-      "by": "kornatzky",
-      "descendants": 0,
-      "id": 32081694,
-      "score": 1,
-      "time": 1657715255,
-      "title": "No Code Platforms from a Database Perspective",
-      "type": "story",
-      "url": "https://farokhnotes.medium.com/making-databases-as-easy-as-playing-with-legos-no-code-no-problem-ed41d4fde269"
-    },
-    {
-      "by": "kornatzky",
-      "descendants": 0,
-      "id": 32081683,
-      "score": 1,
-      "time": 1657715198,
-      "title": "Nice Discussion of Best App Build Tools",
-      "type": "story",
-      "url": "https://www.designware.io/blog/best-app-builders-no-code/"
     }
   ]
 }
