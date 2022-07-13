@@ -1,6 +1,59 @@
 {
   "stories": [
     {
+      "by": "smelly101",
+      "descendants": 0,
+      "id": 32088019,
+      "score": 1,
+      "text": "I&#x27;ve been at my job for 3 months and QPP&#x27;s are coming up. I have no QPP&#x27;s setup.  Everyone else appears to have been schmoozing with lead dev&#x27;s and mangers and meeting up to get their QPPs together.<p>I&#x27;ve never worked at a job with QPP&#x27;s or that I&#x27;ve had to schmooze to get work.  I&#x27;ve typically just grabbed tickets or my boss would give me something to work on.<p>Do you all have to schmooze to get work? Or are things pretty much given to you?",
+      "time": 1657742281,
+      "title": "Ask HN: Do you have to schmooze for work at your job?",
+      "type": "story"
+    },
+    {
+      "by": "wolverine876",
+      "descendants": 1,
+      "id": 32088017,
+      "kids": [
+        32088032
+      ],
+      "score": 1,
+      "time": 1657742277,
+      "title": "Mathew Baker and the Art of the Shipwright",
+      "type": "story",
+      "url": "https://www.mhs.ox.ac.uk/staff/saj/thesis/baker.htm"
+    },
+    {
+      "by": "smashah",
+      "descendants": 0,
+      "id": 32088012,
+      "score": 1,
+      "time": 1657742245,
+      "title": "Athena launches AmazonHurts campaign to end AWS ICE/IDF contracts",
+      "type": "story",
+      "url": "https://twitter.com/athenaforall/status/1547232735911108609"
+    },
+    {
+      "by": "bifftastic",
+      "descendants": 0,
+      "id": 32088008,
+      "score": 1,
+      "time": 1657742216,
+      "title": "Support SMS Delivery Notifications",
+      "type": "story",
+      "url": "https://issuetracker.google.com/issues/36907395"
+    },
+    {
+      "by": "shlosky",
+      "descendants": 0,
+      "id": 32087990,
+      "score": 1,
+      "text": "I have all sorts of metrics I would like to count and later query. For example I have a lambda that processes stuff from a queue, and for each batch I would like to save a count like this:<p><pre><code>    {\n      &quot;processes_count&quot;: 6,\n      &quot;timestamp&quot;: 1695422215,\n      &quot;count_by_type&quot;: {\n        &quot;type_a&quot;: 4,\n        &quot;type_b&quot;: 2\n      }\n    }\n</code></pre>\nI would like to dump these pieces somewhere and later have the ability to query how many were processed within a time range.<p>So these are the options I considered:\n1. write the json to the logs, and later have a component (beats?) that processed these logs and send to a timeseries db.\n2. in the end of each execution send it directly to a timeseries db (like elasticearch).<p>What is better in terms of cost &#x2F; scalability? Are there more options I should consider?",
+      "time": 1657742161,
+      "title": "Ask HN: How to count metrics from executions of AWS lambdas?",
+      "type": "story"
+    },
+    {
       "by": "decentro_tech",
       "descendants": 0,
       "id": 32087981,
@@ -49,59 +102,6 @@
       "title": "OpenSSL Heap Memory Corruption Vulnerability Fixed",
       "type": "story",
       "url": "https://thenewstack.io/openssl-heap-memory-corruption-vulnerability-fixed/"
-    },
-    {
-      "by": "decentro_tech",
-      "descendants": 0,
-      "id": 32087938,
-      "score": 1,
-      "time": 1657741912,
-      "title": "Get recurring E-Mandate enabled on your platform",
-      "type": "story",
-      "url": "https://decentro.tech/resources/upi-autopay-apis/"
-    },
-    {
-      "by": "notadev",
-      "descendants": 0,
-      "id": 32087934,
-      "score": 1,
-      "time": 1657741897,
-      "title": "Forensic Genealogy leads to arrest of Tech CEO for 1992 murder",
-      "type": "story",
-      "url": "https://www.gizmodo.com.au/2022/07/openly-jealous-tech-ceo-allegedly-strangled-roommates-girlfriend-to-death-in-1992/"
-    },
-    {
-      "by": "arrjayh",
-      "descendants": 1,
-      "id": 32087927,
-      "kids": [
-        32087979
-      ],
-      "score": 2,
-      "text": "Looking for advice from those who&#x27;ve successfully left tech. I&#x27;ve been in for 3 1&#x2F;2 years (since graduating). In large part my career has felt like it has been failing upwards. Recently, I quit my job and have gotten to a point where I&#x27;m starting to think I&#x27;m not cut out for this. A few comments on this:<p>1. I&#x27;m not really progressing far into interviews, especially in the technical portions.<p>2. Some simple tech questions are now throwing me through a loop.<p>3. With the negative feedback I&#x27;ve gotten my motivation has basically reduced to 0.<p>4. I&#x27;ve traditionally struggled with logic tasks and have had to take more time than my peers to solve them.<p>5. I&#x27;ve had a hard time connecting and relating to co-workers and team members.<p>My resume reads nicely: https:&#x2F;&#x2F;github.com&#x2F;arrjayh&#x2F;arrjayh-resume&#x2F;blob&#x2F;master&#x2F;hickok_resume.pdf and I fortunately get lots of interviews but they pretty quickly fizzle out after 1 or 2 technical assessments.<p>I&#x27;m considering&#x2F;looking into the trades. I&#x27;m hoping there might be a trade where I could leverage some existing skills, but I find that unlikely. Would love to get some feedback from any one out there that has pivoted or at least considered it.",
-      "time": 1657741873,
-      "title": "Ask HN: Has any one successfully pivoted away from tech?",
-      "type": "story"
-    },
-    {
-      "by": "kodisha",
-      "descendants": 0,
-      "id": 32087909,
-      "score": 1,
-      "time": 1657741807,
-      "title": "Netflix partnering with Microsoft for ad suported tier",
-      "type": "story",
-      "url": "https://www.theverge.com/2022/7/13/23207410/netflix-streaming-ads-microsoft"
-    },
-    {
-      "by": "behnamoh",
-      "descendants": 0,
-      "id": 32087891,
-      "score": 1,
-      "time": 1657741764,
-      "title": "Mysterious Mac Features That Apple Hides in Plain Sight. The 2nd Will Shock You",
-      "type": "story",
-      "url": "https://medium.com/@parttimeben/5-mysterious-mac-features-that-apple-hides-in-plain-sight-the-2nd-one-will-shock-you-e2a32a51ab96"
     }
   ]
 }
