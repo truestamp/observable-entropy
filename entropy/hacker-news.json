@@ -1,6 +1,66 @@
 {
   "stories": [
     {
+      "by": "sayanarijit",
+      "descendants": 0,
+      "id": 32088150,
+      "score": 1,
+      "time": 1657742992,
+      "title": "Show HN: Qrscan – Scan a QR code in terminal using system camera or given image",
+      "type": "story",
+      "url": "https://github.com/sayanarijit/qrscan"
+    },
+    {
+      "by": "prostoalex",
+      "descendants": 0,
+      "id": 32088148,
+      "score": 1,
+      "time": 1657742979,
+      "title": "Are the Russian Covid-vaccine results accurate?",
+      "type": "story",
+      "url": "https://www.economist.com/science-and-technology/2022/06/22/are-the-russian-covid-vaccine-results-accurate"
+    },
+    {
+      "by": "abhagat",
+      "descendants": 0,
+      "id": 32088131,
+      "score": 1,
+      "time": 1657742832,
+      "title": "Reply-All DL",
+      "type": "story",
+      "url": "https://techcommunity.microsoft.com/t5/exchange-team-blog/me-too/ba-p/610643"
+    },
+    {
+      "by": "notlukesky",
+      "descendants": 0,
+      "id": 32088127,
+      "score": 1,
+      "time": 1657742817,
+      "title": "Ongoing phishing campaign can hack you even when you’re protected with MFA",
+      "type": "story",
+      "url": "https://arstechnica.com/information-technology/2022/07/microsoft-details-phishing-campaign-that-can-hijack-mfa-protected-accounts/"
+    },
+    {
+      "by": "t_mann",
+      "descendants": 0,
+      "id": 32088124,
+      "score": 1,
+      "time": 1657742807,
+      "title": "Biography of a forced intellectual child prodigy",
+      "type": "story",
+      "url": "https://en.wikipedia.org/wiki/William_James_Sidis"
+    },
+    {
+      "by": "joak",
+      "descendants": 0,
+      "id": 32088113,
+      "score": 1,
+      "time": 1657742784,
+      "title": "Helion plans a manufacturing facility to produce 20 fusion generators a day",
+      "type": "story",
+      "url": "https://www.heraldnet.com/business/helion-energy-new-everett-company-has-the-sun-in-its-eyes/"
+    },
+    {
       "by": "tosh",
       "descendants": 0,
       "id": 32088093,
@@ -22,8 +82,11 @@
     },
     {
       "by": "exar0815",
-      "descendants": 0,
+      "descendants": 1,
       "id": 32088062,
+      "kids": [
+        32088130
+      ],
       "score": 3,
       "time": 1657742477,
       "title": "‘Have you recently had an abortion?’ Australian transiting through US questioned",
@@ -39,69 +102,6 @@
       "title": "Why your mind will kill your best ideas (and what to do instead)",
       "type": "story",
       "url": "https://www.youtube.com/watch?v=MpoO1ITB4NM"
-    },
-    {
-      "by": "smelly101",
-      "descendants": 0,
-      "id": 32088019,
-      "score": 1,
-      "text": "I&#x27;ve been at my job for 3 months and QPP&#x27;s are coming up. I have no QPP&#x27;s setup.  Everyone else appears to have been schmoozing with lead dev&#x27;s and mangers and meeting up to get their QPPs together.<p>I&#x27;ve never worked at a job with QPP&#x27;s or that I&#x27;ve had to schmooze to get work.  I&#x27;ve typically just grabbed tickets or my boss would give me something to work on.<p>Do you all have to schmooze to get work? Or are things pretty much given to you?",
-      "time": 1657742281,
-      "title": "Ask HN: Do you have to schmooze for work at your job?",
-      "type": "story"
-    },
-    {
-      "by": "wolverine876",
-      "descendants": 1,
-      "id": 32088017,
-      "kids": [
-        32088032
-      ],
-      "score": 1,
-      "time": 1657742277,
-      "title": "Mathew Baker and the Art of the Shipwright",
-      "type": "story",
-      "url": "https://www.mhs.ox.ac.uk/staff/saj/thesis/baker.htm"
-    },
-    {
-      "by": "smashah",
-      "descendants": 0,
-      "id": 32088012,
-      "score": 1,
-      "time": 1657742245,
-      "title": "Athena launches AmazonHurts campaign to end AWS ICE/IDF contracts",
-      "type": "story",
-      "url": "https://twitter.com/athenaforall/status/1547232735911108609"
-    },
-    {
-      "by": "bifftastic",
-      "descendants": 0,
-      "id": 32088008,
-      "score": 1,
-      "time": 1657742216,
-      "title": "Support SMS Delivery Notifications",
-      "type": "story",
-      "url": "https://issuetracker.google.com/issues/36907395"
-    },
-    {
-      "by": "shlosky",
-      "descendants": 0,
-      "id": 32087990,
-      "score": 1,
-      "text": "I have all sorts of metrics I would like to count and later query. For example I have a lambda that processes stuff from a queue, and for each batch I would like to save a count like this:<p><pre><code>    {\n      &quot;processes_count&quot;: 6,\n      &quot;timestamp&quot;: 1695422215,\n      &quot;count_by_type&quot;: {\n        &quot;type_a&quot;: 4,\n        &quot;type_b&quot;: 2\n      }\n    }\n</code></pre>\nI would like to dump these pieces somewhere and later have the ability to query how many were processed within a time range.<p>So these are the options I considered:\n1. write the json to the logs, and later have a component (beats?) that processed these logs and send to a timeseries db.\n2. in the end of each execution send it directly to a timeseries db (like elasticearch).<p>What is better in terms of cost &#x2F; scalability? Are there more options I should consider?",
-      "time": 1657742161,
-      "title": "Ask HN: How to count metrics from executions of AWS lambdas?",
-      "type": "story"
-    },
-    {
-      "by": "decentro_tech",
-      "descendants": 0,
-      "id": 32087981,
-      "score": 1,
-      "time": 1657742103,
-      "title": "Simplify high-value and larger-volume recurring online transactions",
-      "type": "story",
-      "url": "https://decentro.tech/resources/enach-apis/"
     }
   ]
 }
