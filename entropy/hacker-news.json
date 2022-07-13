@@ -1,6 +1,66 @@
 {
   "stories": [
     {
+      "by": "mikece",
+      "descendants": 0,
+      "id": 32086707,
+      "score": 1,
+      "time": 1657736356,
+      "title": "Announcing Rate Limiting for .NET",
+      "type": "story",
+      "url": "https://devblogs.microsoft.com/dotnet/announcing-rate-limiting-for-dotnet/"
+    },
+    {
+      "by": "turtlegrids",
+      "descendants": 0,
+      "id": 32086681,
+      "score": 1,
+      "time": 1657736249,
+      "title": "Aptera Suggests US Gov Choose Tesla's Plug and Superchargers as Standard",
+      "type": "story",
+      "url": "https://insideevs.com/news/598020/aptera-wants-us-government-choose-tesla-plug-superchargers/"
+    },
+    {
+      "by": "longrod",
+      "descendants": 0,
+      "id": 32086671,
+      "score": 1,
+      "time": 1657736202,
+      "title": "Libnc: C Library for Tensor Manipulation",
+      "type": "story",
+      "url": "https://bellard.org/libnc/"
+    },
+    {
+      "by": "Tomte",
+      "descendants": 0,
+      "id": 32086658,
+      "score": 1,
+      "time": 1657736133,
+      "title": "A Peek Inside the Erlang Compiler (2012)",
+      "type": "story",
+      "url": "https://prog21.dadgum.com/127.html"
+    },
+    {
+      "by": "Tomte",
+      "descendants": 0,
+      "id": 32086654,
+      "score": 1,
+      "time": 1657736122,
+      "title": "Stavanger Declaration Concerning the Future of Reading (2018) [pdf]",
+      "type": "story",
+      "url": "https://ereadcost.eu/wp-content/uploads/2019/01/StavangerDeclaration.pdf"
+    },
+    {
+      "by": "ashitlerferad",
+      "descendants": 0,
+      "id": 32086652,
+      "score": 3,
+      "time": 1657736115,
+      "title": "Securing IoTs",
+      "type": "story",
+      "url": "https://haydenjames.io/iot-internet-of-things-security-solutions/"
+    },
+    {
       "by": "samizdis",
       "descendants": 0,
       "id": 32086647,
@@ -32,73 +92,16 @@
     },
     {
       "by": "mattewong",
-      "descendants": 0,
+      "descendants": 1,
       "id": 32086607,
+      "kids": [
+        32086699
+      ],
       "score": 1,
-      "text": "I&#x27;ve been on the hunt for some time for a workflow solution that:<p>1. bifurcates administrator vs user experiences. So for example, an admin defines a universe of possible actions, and a user defines a workflow consisting of one or more triggers that, when fired, executes some series of those predefined actions in the flow that the user defines<p>2. is no-code. If the admin must sometimes work with a config file (such as JSON), that&#x27;s OK. But none of this python or coding business-- not that I have anything against that myself, but it&#x27;s just the use case we need to address. For non-admin users, it should have a graphical UI<p>3. is versatile. For example, I&#x27;d like to be able to define an action to invoke any executable I choose, or to make any REST call I define<p>4. can dynamically chain each step&#x27;s output to any of the next steps&#x27; input. For example, let&#x27;s say I&#x27;m a regular user, and my admin has defined 2 actions I can use: XLSX_to_CSV, which converts X.xlsx to output&#x2F;X.csv, for any X, and CSV_to_SQLITE, which converts XX.csv to output&#x2F;XX.db, for any XX. Then I should be able to define a new workflow, using a UI, with a trigger that, for example, will monitor folder X that I specify, and upon receiving an XLSX file named Y.xlsx, will execute action 1 followed by action 2, to produce output&#x2F;Y.csv and output&#x2F;Y.db.<p>This should all sound pretty basic, because it is. I&#x27;ve looked at Airflow, Argo, OpenWDL and others, as well as explored whether the requirements could be met with a collection of technologies (such as something plus WuFoo together)-- but so far, they all seem to fall short.<p>The closest thing I have seen is https:&#x2F;&#x2F;docs.microsoft.com&#x2F;en-us&#x2F;azure&#x2F;logic-apps&#x2F;logic-apps-workflow-definition-language, but that does not let an admin user define actions for regular users to then mix and match (but admittedly, it is otherwise very close to what I&#x27;m looking for).<p>Any suggestions on other solutions that may fit the bill? Or alternatively, if not, how might I go about gauging whether there might be sufficient to opensource a project for doing so (a decent amount of which is already built, since I needed some solution and built a workable one already, though it could use a facelift)?",
+      "text": "I&#x27;ve been on the hunt for some time for a workflow solution that:<p>1. bifurcates administrator vs user experiences. So for example, an admin defines a universe of possible actions, and a user defines a workflow consisting of one or more triggers that, when fired, executes some series of those predefined actions in the flow that the user defines<p>2. is no-code. If the admin must sometimes work with a config file (such as JSON), that&#x27;s OK. But none of this python or coding business-- not that I have anything against that myself, but it&#x27;s just the use case we need to address. For non-admin users, it should have a graphical UI<p>3. is versatile. For example, I&#x27;d like to be able to define an action to invoke any executable I choose, or to make any REST call I define<p>4. can dynamically chain each step&#x27;s output to any of the next steps&#x27; input. For example, let&#x27;s say I&#x27;m a regular user, and my admin has defined 2 actions I can use: XLSX_to_CSV, which converts X.xlsx to output&#x2F;X.csv, for any X, and CSV_to_SQLITE, which converts XX.csv to output&#x2F;XX.db, for any XX. Then I should be able to define a new workflow, using a UI, with a trigger that, for example, will monitor folder X that I specify, and upon receiving an XLSX file named Y.xlsx, will execute action 1 followed by action 2, to produce output&#x2F;Y.csv and output&#x2F;Y.db.<p>This should all sound pretty basic, because it is. I&#x27;ve looked at Airflow, Argo, OpenWDL and others, as well as explored whether the requirements could be met with a collection of technologies (such as something plus WuFoo together)-- but so far, they all seem to fall short.<p>The closest thing I have seen is https:&#x2F;&#x2F;docs.microsoft.com&#x2F;en-us&#x2F;azure&#x2F;logic-apps&#x2F;logic-apps-workflow-definition-language, but that does not let an admin user define actions for regular users to then mix and match (but admittedly, it is otherwise very close to what I&#x27;m looking for).<p>Any suggestions on other solutions that may fit the bill? Or alternatively, if not, how might I go about gauging whether there might be sufficient interest to opensource a project for doing so (a decent amount of which is already built, since I needed some solution and built a workable one already, though it could use a facelift)?",
       "time": 1657735969,
       "title": "Ask HN: Do we need a better workflow solution exist, or is it already out there?",
       "type": "story"
-    },
-    {
-      "by": "jedwhite",
-      "descendants": 0,
-      "id": 32086596,
-      "score": 1,
-      "time": 1657735946,
-      "title": "“Digital Nomad” Visas Can Boost Local Economies",
-      "type": "story",
-      "url": "https://hbr.org/2022/05/how-digital-nomad-visas-can-boost-local-economies"
-    },
-    {
-      "by": "laurex",
-      "descendants": 0,
-      "id": 32086587,
-      "score": 1,
-      "time": 1657735900,
-      "title": "In a Post-Roe World, the Future of Digital Privacy Looks Even Grimmer",
-      "type": "story",
-      "url": "https://www.nytimes.com/2022/07/13/technology/personaltech/abortion-privacy-roe-surveillance.html"
-    },
-    {
-      "by": "CrankyBear",
-      "descendants": 0,
-      "id": 32086562,
-      "score": 1,
-      "time": 1657735818,
-      "title": "Where, oh where are the new hires?",
-      "type": "story",
-      "url": "https://www.computerworld.com/article/3666953/where-oh-where-are-the-new-hires.html"
-    },
-    {
-      "by": "eko",
-      "descendants": 0,
-      "id": 32086541,
-      "score": 2,
-      "time": 1657735741,
-      "title": "Don't build your own lock mechnism, SQL databases do it for you",
-      "type": "story",
-      "url": "https://vincent.composieux.fr/article/distribute-the-rows-of-a-sql-table-between-several%20multi-instantiated-applications"
-    },
-    {
-      "by": "pdx_flyer",
-      "descendants": 0,
-      "id": 32086535,
-      "score": 1,
-      "time": 1657735731,
-      "title": "Delta chartered it's own jet to bring back lost bags from Heathrow",
-      "type": "story",
-      "url": "https://twitter.com/kpottermn/status/1547266352368467979"
-    },
-    {
-      "by": "sothatsit",
-      "descendants": 0,
-      "id": 32086528,
-      "score": 1,
-      "time": 1657735696,
-      "title": "Show HN: The Misinformation Game – A social media research tool",
-      "type": "story",
-      "url": "https://themisinformationgame.github.io/"
     }
   ]
 }
