@@ -1,6 +1,36 @@
 {
   "stories": [
     {
+      "by": "behnamoh",
+      "descendants": 0,
+      "id": 32081855,
+      "score": 1,
+      "time": 1657716484,
+      "title": "Steve Jobs: Sale/Marketing People vs. Product People",
+      "type": "story",
+      "url": "https://www.youtube.com/watch?v=K1WrHH-WtaA"
+    },
+    {
+      "by": "feross",
+      "descendants": 0,
+      "id": 32081835,
+      "score": 1,
+      "time": 1657716372,
+      "title": "Vivaldi browser founder Jon von Tetzchner puts privacy at the center of",
+      "type": "story",
+      "url": "https://portswigger.net/daily-swig/vivaldi-browser-founder-jon-von-tetzchner-puts-privacy-at-the-center-of-development"
+    },
+    {
+      "by": "herbertl",
+      "descendants": 0,
+      "id": 32081829,
+      "score": 1,
+      "time": 1657716327,
+      "title": "Evan Williams Is Stepping Down as CEO of Medium",
+      "type": "story",
+      "url": "https://www.nytimes.com/2022/07/12/business/media/evan-williams-leaving-medium.html"
+    },
+    {
       "by": "sohkamyung",
       "descendants": 0,
       "id": 32081827,
@@ -12,9 +42,12 @@
     },
     {
       "by": "johndcook",
-      "descendants": 0,
+      "descendants": 1,
       "id": 32081808,
-      "score": 1,
+      "kids": [
+        32081866
+      ],
+      "score": 2,
       "time": 1657716073,
       "title": "Six programming languages I’d like to see",
       "type": "story",
@@ -34,7 +67,8 @@
       "descendants": 1,
       "id": 32081797,
       "kids": [
-        32081815
+        32081815,
+        32081863
       ],
       "score": 1,
       "time": 1657716005,
@@ -44,9 +78,13 @@
     },
     {
       "by": "mfiguiere",
-      "descendants": 0,
+      "descendants": 2,
       "id": 32081779,
-      "score": 15,
+      "kids": [
+        32081861,
+        32081853
+      ],
+      "score": 33,
       "time": 1657715883,
       "title": "Inflation rose 9.1% in June, even more than expected",
       "type": "story",
@@ -71,39 +109,6 @@
       "title": "Package Management for Your Projects",
       "type": "story",
       "url": "https://medium.com/benchkram/package-management-for-your-projects-157d9db31c3f"
-    },
-    {
-      "by": "techcofounder",
-      "descendants": 0,
-      "id": 32081749,
-      "score": 8,
-      "text": "Hey folks, I&#x27;m Ben from Armory.io (YC W17). We just launched Continuous Deployment-as-a-Service (CDaaS) to make it easy for developers to deploy their apps safely to the cloud. We’d greatly appreciate (raw, candid) feedback from the HN community if this solution improves the speed at which you deploy to production. We have a free-forever tier that gives you up to 25 Application Targets[1] (our unit of scale for pricing).<p>Try it here: https:&#x2F;&#x2F;www.armory.io&#x2F;products&#x2F;continuous-deployment-as-a-service&#x2F;<p><i>Our Story</i><p>We’ve been helping large companies with CD since 2016 by selling them our distribution of Spinnaker (spinnaker.io, originally Netflix OSS). We’ve learned three big lessons:<p>One reason developers are drawn to Spinnaker is because it provides an imperative approach to orchestrating deployment workflows \nOperating Spinnaker “on-prem” (usually in the customer’s AWS account) requires significant effort\nDoing true continuous deployment to production requires the use of advanced strategies to mitigate risk<p>These learnings inspired us to build CDaaS and make it easy for developers to employ well-understood deployment strategies like blue&#x2F;green and canary deployments without having to write custom code. With CDaaS, our aim is to deliver many of the features developers rely on from Spinnaker, but in a declarative manner that supports the GitOps approach they know and use extensively.<p>CDaaS currently supports deployments to Kubernetes but we’re adding additional cloud providers quickly (AWS, GCP, Azure, etc)<p><i>How It Works</i><p>Connect any number of Kubernetes clusters to our central control plane by installing a lightweight network agent. Once connected, you can configure your application deployment logic in a declarative YAML file that can be checked in alongside your app’s source code. Deployments can be invoked from our CLI which allow you to use your existing CI platform (Jenkins, Github Actions, CircleCI, etc) to trigger a deployment. Monitor deployments (and take additional action like rolling back, if needed) from our UI.<p><i>More Information</i><p>CD-as-a-Service product docs: https:&#x2F;&#x2F;docs.armory.io&#x2F;cd-as-a-service&#x2F;<p>Short Demo (8 min): https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=r29UCKMXEi4",
-      "time": 1657715643,
-      "title": "Show HN: Simple cloud deployments with CD as-a-Service",
-      "type": "story"
-    },
-    {
-      "by": "fortran77",
-      "descendants": 1,
-      "id": 32081747,
-      "kids": [
-        32081823
-      ],
-      "score": 3,
-      "time": 1657715630,
-      "title": "For Blind Internet Users the Fix May Be Worse Than the Flaws",
-      "type": "story",
-      "url": "https://www.nytimes.com/2022/07/13/technology/ai-web-accessibility.html"
-    },
-    {
-      "by": "thatbat",
-      "descendants": 0,
-      "id": 32081744,
-      "score": 2,
-      "time": 1657715600,
-      "title": "Smart Textiles Accurately Sense How Their Users Are Moving",
-      "type": "story",
-      "url": "https://scitechdaily.com/smart-textiles-accurately-sense-how-their-users-are-moving/"
     }
   ]
 }
