@@ -1,6 +1,36 @@
 {
   "stories": [
     {
+      "by": "yonz",
+      "descendants": 0,
+      "id": 32078428,
+      "score": 1,
+      "text": "I am driving myself crazy trying to find a combination that will allow me to setup an offline react native app with a graph database.<p>Tick off the common suggestions:<p>1- No this is not for state management (Redux, Redux-persist)<p>2- I don&#x27;t want to use sqlite or any other relational setup<p>3- I don&#x27;t want to use serialize then async store<p>Now that we have those out of the way realm DB is promising but it requires the app to use the db in single thread mode, doesn&#x27;t support dynamic shema changes and outside of realm-orm I don&#x27;t see anywhere where I can type it to TS<p>Apollo client with persistance seems promising but I am concerned that this is a caching solution not a first class offline execution.<p>Actualbudge (a local first app) is doing sqlite3 (table storage) and CDRTs message queue for eventual consistency.<p>The short pitch is: imagine if you had a structured grap db of your personal data synchronized offline, we would be able to build tons of cross silo solutions. My first use case is to identify low frequency NERs so that i can have a personalized RSS reader.",
+      "time": 1657679652,
+      "title": "Ask HN: How to have GraphQL in an offline only React Native application",
+      "type": "story"
+    },
+    {
+      "by": "pseudolus",
+      "descendants": 0,
+      "id": 32078407,
+      "score": 1,
+      "time": 1657679482,
+      "title": "FTC committed to enforcing law against illegal use, sharing of sensitive data",
+      "type": "story",
+      "url": "https://www.ftc.gov/business-guidance/blog/2022/07/location-health-other-sensitive-information-ftc-committed-fully-enforcing-law-against-illegal-use"
+    },
+    {
+      "by": "sohkamyung",
+      "descendants": 0,
+      "id": 32078406,
+      "score": 1,
+      "time": 1657679476,
+      "title": "Who to vaccinate first? A peek at decision-making in a pandemic",
+      "type": "story",
+      "url": "https://www.nature.com/articles/d41586-022-01899-2"
+    },
+    {
       "by": "w1nter",
       "descendants": 0,
       "id": 32078367,
@@ -24,7 +54,7 @@
       "by": "hdk",
       "descendants": 0,
       "id": 32078319,
-      "score": 1,
+      "score": 2,
       "time": 1657678704,
       "title": "The Financial Bubble Era Comes Full Circle",
       "type": "story",
@@ -69,39 +99,6 @@
       "title": "How 'Hey Siri' works with multiple device",
       "type": "story",
       "url": "https://support.apple.com/en-us/HT208472"
-    },
-    {
-      "by": "atlasunshrugged",
-      "descendants": 1,
-      "id": 32078158,
-      "kids": [
-        32078263
-      ],
-      "score": 2,
-      "time": 1657677217,
-      "title": "The radical new project to democratize AI",
-      "type": "story",
-      "url": "https://www.technologyreview.com/2022/07/12/1055817/inside-a-radical-new-project-to-democratize-ai/"
-    },
-    {
-      "by": "tomohawk",
-      "descendants": 0,
-      "id": 32078095,
-      "score": 2,
-      "time": 1657676757,
-      "title": "Truckers plan LA/Long Beach work stoppage Wednesday to protest AB5",
-      "type": "story",
-      "url": "https://www.freightwaves.com/news/truckers-plan-lalong-beach-work-stoppage-wednesday-to-protest-ab5"
-    },
-    {
-      "by": "jaboutboul",
-      "descendants": 0,
-      "id": 32078081,
-      "score": 2,
-      "time": 1657676636,
-      "title": "Matt Hicks Named President and CEO of Red Hat",
-      "type": "story",
-      "url": "https://www.linkedin.com/pulse/matt-hicks-named-president-ceo-red-hat-arvind-krishna"
     }
   ]
 }
