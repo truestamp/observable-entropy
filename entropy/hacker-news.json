@@ -1,13 +1,23 @@
 {
   "stories": [
     {
+      "by": "minusf",
+      "descendants": 0,
+      "id": 32079940,
+      "score": 1,
+      "time": 1657697689,
+      "title": "Dennis Meadows on 50th anniversary of the publication of The Limits to Growth",
+      "type": "story",
+      "url": "https://www.resilience.org/stories/2022-02-22/dennis-meadows-on-the-50th-anniversary-of-the-publication-of-the-limits-to-growth/"
+    },
+    {
       "by": "pc2g4d",
       "descendants": 0,
       "id": 32079913,
       "score": 1,
       "text": "I&#x27;ve been doing a lot of listening lately about the state of IP networking and where things are headed. John Day on Programming Throwdown has been provocative, and Geoff Huston on the IPv6 Buzz Podcast also. Though progress is definitely being made, it&#x27;s clear that IPv6 is the Python 3 of internetworking protocols: the switchover is taking DECADES. Some of the above blame this on IPv6&#x27;s not providing much of use beyond a larger address space, an issue already mitigated using NAT.<p>It feels like things have been more-or-less the same since the original internet protocol came together in 1975. But when I learn about overlay networks such as TOR, IPFS, or Bitcoin&#x27;s Lightning Network, I&#x27;m impressed by the innovation there. So what are the prospects for development of our global networking protocols?<p>I recently learned about a protocol called ILNP which splits the IP address into Identifier and Locator portions (IIUC). This way e.g. your phone could have the same Identifier no matter which location it occupies on the network topology, and somehow (I&#x27;m not clear on this) the mapping from Identifier to Locator is performed so packets can be routed. But development of that protocol, as well as its competitor LISP, seems to have stalled.<p>I guess I feel a bit disappointed and am looking for someone doing something exciting and radical in the networking world, not just on the overlay. It still seems to me like it will be an essential part of humanity&#x27;s future, not just technically, but in terms of social structures, governments, etc. And yet things feel so stagnant.<p>What has you excited these days?<p>https:&#x2F;&#x2F;www.programmingthrowdown.com&#x2F;2022&#x2F;06&#x2F;137-origins-of-internet-with-john-day.html\nhttps:&#x2F;&#x2F;www.programmingthrowdown.com&#x2F;2022&#x2F;07&#x2F;138-fixing-internet-with-john-day.html\nhttps:&#x2F;&#x2F;packetpushers.net&#x2F;podcast&#x2F;ipv6-buzz-055-the-good-bad-and-ugly-of-ipv6-with-geoff-huston&#x2F;",
       "time": 1657697393,
-      "title": "Ask HN: What's in Networking?",
+      "title": "Ask HN: What's exciting in networking?",
       "type": "story"
     },
     {
@@ -35,8 +45,11 @@
     },
     {
       "by": "mdp2021",
-      "descendants": 0,
+      "descendants": 1,
       "id": 32079896,
+      "kids": [
+        32079926
+      ],
       "score": 2,
       "time": 1657697233,
       "title": "Dystopian doorbells: how the_ door buzzer turned into mass surveillance network",
@@ -98,16 +111,6 @@
       "title": "Flutter, React Native, Native: Deep Performance Comparison – InVerita (2020)",
       "type": "story",
       "url": "https://inveritasoft.com/blog/flutter-vs-react-native-vs-native-deep-performance-comparison"
-    },
-    {
-      "by": "d1stc",
-      "descendants": 0,
-      "id": 32079810,
-      "score": 1,
-      "time": 1657696306,
-      "title": "AMD’s new CPUs may be safe to deploy (With Pluton malware)",
-      "type": "story",
-      "url": "https://semiaccurate.com/2022/01/18/amds-new-cpus-may-be-safe-to-deploy/"
     }
   ]
 }
