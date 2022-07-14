@@ -1,6 +1,87 @@
 {
   "stories": [
     {
+      "by": "ColinWright",
+      "descendants": 0,
+      "id": 32100398,
+      "score": 1,
+      "time": 1657826411,
+      "title": "Georgia Guidestones: 1980 to 2022",
+      "type": "story",
+      "url": "https://en.wikipedia.org/wiki/Georgia_Guidestones"
+    },
+    {
+      "by": "turtlegrids",
+      "descendants": 0,
+      "id": 32100396,
+      "score": 1,
+      "time": 1657826406,
+      "title": "Pivoting your startup in a bear market: Become undeniably fundable",
+      "type": "story",
+      "url": "https://techcrunch.com/2022/07/14/becoming-undeniably-fundable-pivoting-your-startup-in-a-bear-market/"
+    },
+    {
+      "by": "zem",
+      "descendants": 0,
+      "id": 32100395,
+      "score": 1,
+      "time": 1657826404,
+      "title": "Zendo: The Game of Inductive Logic",
+      "type": "story",
+      "url": "https://www.looneylabs.com/games/zendo"
+    },
+    {
+      "by": "turtlegrids",
+      "descendants": 0,
+      "id": 32100388,
+      "score": 1,
+      "time": 1657826377,
+      "title": "Intel plans price hikes on broad range of products",
+      "type": "story",
+      "url": "https://asia.nikkei.com/Business/Tech/Semiconductors/Intel-plans-price-hikes-on-broad-range-of-products"
+    },
+    {
+      "by": "Tomte",
+      "descendants": 0,
+      "id": 32100378,
+      "score": 1,
+      "time": 1657826332,
+      "title": "Britain is no longer a nation of Nigels (2017)",
+      "type": "story",
+      "url": "https://capx.co/britain-is-no-longer-a-nation-of-nigels/"
+    },
+    {
+      "by": "Tomte",
+      "descendants": 0,
+      "id": 32100376,
+      "score": 1,
+      "time": 1657826322,
+      "title": "The Life of a Cherry Drying Pilot (2009)",
+      "type": "story",
+      "url": "https://www.aneclecticmind.com/2009/06/13/the-life-of-a-cherry-drying-pilot/"
+    },
+    {
+      "by": "klabb3",
+      "descendants": 0,
+      "id": 32100352,
+      "score": 1,
+      "text": "Hi HN.<p>I built Payload to make file transfers easy for less-technical users who need large&#x2F;fast transfers, so I have focused on auto-discovery, drag-and-drop, visually distinct device icons.<p>It&#x27;s using Tauri (an &quot;Electron alternative&quot; built on Rust) which keeps my binaries small and bundles to .msi, .dmg, .deb and .appimage. No CLI, iOS or Android support (yet).<p>The network stack is a separate binary written in Go. It uses mDNS for local network discovery and TLS over TCP or Quic, with a public Ed25519 keypair for each device. The protocol is ad-hoc and symmetrical control stream using JSON and binary data streams. Planning to open source these parts eventually..<p>Transfers should saturate the local network link. It reaches ~116 MB&#x2F;s wired at my home, but if you have a &gt;1000 Mbit link, I&#x27;d be curious to see how much speed you can squeeze out.<p>See also:<p><a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=21575869\" rel=\"nofollow\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=21575869</a><p><a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=24351111\" rel=\"nofollow\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=24351111</a>",
+      "time": 1657826175,
+      "title": "Show HN: Payload, X-Platform Desktop App for LAN File Transfers [Tauri/Rust, Go]",
+      "type": "story",
+      "url": "https://payload.app/"
+    },
+    {
+      "by": "yllek",
+      "descendants": 0,
+      "id": 32100340,
+      "score": 1,
+      "time": 1657826145,
+      "title": "Pros and Cons of Doubles vs. Trace-Based Testing",
+      "type": "story",
+      "url": "https://kubeshop.io/blog/integration-tests-pros-and-cons-of-doubles-vs-trace-based-testing"
+    },
+    {
       "by": "booboofixer",
       "descendants": 0,
       "id": 32100326,
@@ -19,92 +100,6 @@
       "title": "Stripe is the latest fintech to falter, taking a 28% internal valuation cut",
       "type": "story",
       "url": "https://techcrunch.com/2022/07/14/stripe-fintech-payments-valuation-cut-28/"
-    },
-    {
-      "by": "atlasunshrugged",
-      "descendants": 0,
-      "id": 32100298,
-      "score": 1,
-      "time": 1657825942,
-      "title": "Ex-CIA engineer convicted in theft of secret info",
-      "type": "story",
-      "url": "https://apnews.com/article/technology-new-york-city-software-theft-853c3c08e4b5ab20154d3059ec36ec60"
-    },
-    {
-      "by": "grogu88",
-      "descendants": 0,
-      "id": 32100296,
-      "score": 1,
-      "time": 1657825932,
-      "title": "Social Security checks could grow by about $175 a month",
-      "type": "story",
-      "url": "https://www.cnn.com/2022/07/14/politics/seniors-social-security-inflation-cola/index.html"
-    },
-    {
-      "by": "mdp2021",
-      "descendants": 1,
-      "id": 32100282,
-      "kids": [
-        32100304
-      ],
-      "score": 1,
-      "time": 1657825868,
-      "title": "Is It Possible to Bring Back Extinct Animal Species?",
-      "type": "story",
-      "url": "https://www.visualcapitalist.com/explaining-resurrection-biology/"
-    },
-    {
-      "by": "jeswin",
-      "descendants": 0,
-      "id": 32100237,
-      "score": 2,
-      "time": 1657825722,
-      "title": "India to introduce right-to-repair bill",
-      "type": "story",
-      "url": "https://gadgets360.com/mobiles/news/government-india-right-to-repair-framework-plan-allow-consumers-self-their-party-fixing-products-mobiles-tablets-3158957"
-    },
-    {
-      "by": "robalni",
-      "descendants": 1,
-      "id": 32100184,
-      "kids": [
-        32100297
-      ],
-      "score": 1,
-      "text": "Tell me about how you have made some software significantly faster (to run or compile).<p>What type of software was it? Why was it slow and how did you find the cause&#x2F;solution? What did you do and how much faster did it get?",
-      "time": 1657825500,
-      "title": "Ask HN: How have you optimized software?",
-      "type": "story"
-    },
-    {
-      "by": "donohoe",
-      "descendants": 0,
-      "id": 32100179,
-      "score": 2,
-      "time": 1657825480,
-      "title": "The Public Hates Idea, by GOP, Google Will Let Political Spam Bypass Filters",
-      "type": "story",
-      "url": "https://www.techdirt.com/2022/07/14/the-public-hates-the-idea-pushed-by-gop-political-spammers-that-google-will-let-political-spam-bypass-spam-filters/"
-    },
-    {
-      "by": "todsacerdoti",
-      "descendants": 0,
-      "id": 32100175,
-      "score": 1,
-      "time": 1657825455,
-      "title": "Hunt-rs: Simplified Find command made with Rust",
-      "type": "story",
-      "url": "https://github.com/LyonSyonII/hunt-rs"
-    },
-    {
-      "by": "jstanley",
-      "descendants": 0,
-      "id": 32100149,
-      "score": 1,
-      "time": 1657825337,
-      "title": "NaN Boxing",
-      "type": "story",
-      "url": "https://piotrduperas.com/posts/nan-boxing/"
     }
   ]
 }
