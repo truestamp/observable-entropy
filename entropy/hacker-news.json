@@ -1,10 +1,46 @@
 {
   "stories": [
     {
-      "by": "cgrunewald",
+      "by": "thomassmith65",
       "descendants": 0,
-      "id": 32101638,
+      "id": 32101667,
       "score": 1,
+      "time": 1657834093,
+      "title": "Rogers executive addresses what went wrong with their networks [video]",
+      "type": "story",
+      "url": "https://www.youtube.com/watch?v=iCs-cBGKBlA"
+    },
+    {
+      "by": "dewey",
+      "descendants": 1,
+      "id": 32101657,
+      "kids": [
+        32101682
+      ],
+      "score": 1,
+      "time": 1657834025,
+      "title": "Show HN: Birdfeeder - Twitter bookmarks in your inbox, once a week",
+      "type": "story",
+      "url": "https://getbirdfeeder.com"
+    },
+    {
+      "by": "giuliomagnifico",
+      "descendants": 0,
+      "id": 32101648,
+      "score": 1,
+      "time": 1657833939,
+      "title": "An Unlisted Tweet",
+      "type": "story",
+      "url": "https://www.theverge.com/2022/7/14/23218987/twitter-cotweet-trick-unlisted-tweet-hidden-search-timeline"
+    },
+    {
+      "by": "cgrunewald",
+      "descendants": 2,
+      "id": 32101638,
+      "kids": [
+        32101669
+      ],
+      "score": 3,
       "text": "Hey everyone! I wanted to share a game that myself and a couple other colleagues hacked up called Tweedle. We wanted to try something different in the genre of wordle clones, so we decided to build a game that algorithmically generates daily wordle puzzles for any person&#x2F;profile on Twitter. The idea is that you can play someone’s tweets, guessing a word inside the tweet using wordle style gameplay. If you have an active Twitter profile, the game will generate a puzzle for your profile; this enables anyone on Twitter to have their own wordle game!<p>Here is a game for a popular hacker news bot on twitter: <a href=\"https:&#x2F;&#x2F;tweedle.app&#x2F;mtx2R\" rel=\"nofollow\">https:&#x2F;&#x2F;tweedle.app&#x2F;mtx2R</a><p>If you have a twitter profile, you can play your own game by navigating to <a href=\"https:&#x2F;&#x2F;tweedle.app&#x2F;@YourTwitterUsernameHere\" rel=\"nofollow\">https:&#x2F;&#x2F;tweedle.app&#x2F;@YourTwitterUsernameHere</a><p>The game runs on a pretty standard AWS stack. The backend is designed to dynamically generate puzzles for any new profile. It uses an idempotent heuristic that both selects the daily tweet and daily word for any profile passed to it. We use multiple layers of caching to make this fast. The frontend is a React + Redux SPA. We built some tools to make sharing and link attribution easy so that when you share a game with a friend, we ensure they are able to play the exact same game.<p>For the game’s design, we’re exploring how we can make it more competitive around profiles. IE, who knows a particular profile best. We think that letting you play all the tweets from a profile could be fun as well.<p>We hope you find the game fun to play and would love to hear any feedback or answer questions!<p>(note: we’re not affiliated with Twitter)",
       "time": 1657833884,
       "title": "Show HN: Tweedle – A Wordle game for profiles and tweets on Twitter",
@@ -13,8 +49,11 @@
     },
     {
       "by": "lumberjack24",
-      "descendants": 0,
+      "descendants": 1,
       "id": 32101616,
+      "kids": [
+        32101653
+      ],
       "score": 1,
       "time": 1657833773,
       "title": "Song predicted the rise of smartphones back in 2002",
@@ -65,41 +104,11 @@
       "by": "craigkerstiens",
       "descendants": 0,
       "id": 32101532,
-      "score": 1,
+      "score": 3,
       "time": 1657833220,
       "title": "Choosing a PostgreSQL Number Format",
       "type": "story",
       "url": "https://www.crunchydata.com/blog/choosing-a-postgresql-number-format"
-    },
-    {
-      "by": "legrande",
-      "descendants": 0,
-      "id": 32101520,
-      "score": 1,
-      "time": 1657833136,
-      "title": "Building the Figma for Maps",
-      "type": "story",
-      "url": "https://felt.com/blog/modern-mapping-tools"
-    },
-    {
-      "by": "rntn",
-      "descendants": 0,
-      "id": 32101518,
-      "score": 1,
-      "time": 1657833125,
-      "title": "Microsoft Joins Jakarta EE and MicroProfile Working Groups at Eclipse Foundation",
-      "type": "story",
-      "url": "https://azure.microsoft.com/en-gb/blog/microsoft-joins-jakarta-ee-and-microprofile-working-groups-at-eclipse-foundation/"
-    },
-    {
-      "by": "legrande",
-      "descendants": 0,
-      "id": 32101505,
-      "score": 1,
-      "time": 1657833031,
-      "title": "Difference-in-Differences",
-      "type": "story",
-      "url": "https://diff.healthpolicydatascience.org/"
     }
   ]
 }
