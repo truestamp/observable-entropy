@@ -1,10 +1,60 @@
 {
   "stories": [
     {
+      "by": "sharatsc",
+      "descendants": 0,
+      "id": 32100928,
+      "score": 1,
+      "time": 1657829680,
+      "title": "Thinking beyond accuracy: Towards reliability in deep learning",
+      "type": "story",
+      "url": "https://ai.googleblog.com/2022/07/towards-reliability-in-deep-learning.html"
+    },
+    {
+      "by": "pierre",
+      "descendants": 0,
+      "id": 32100915,
+      "score": 1,
+      "text": "When documenting my last project I came to the realization that all projects I have worked on have a very poor documentation of their data model. I believe that this leads to longer onboarding time and a lot of newscommer mistakes in the project (such adding new properties for something that exists somewhere else). Generally the data model is documented in the database &#x2F; ORM, but it generally describe the physical representation of the data in the database (name is a Varchar(128)) but not how&#x2F;for what such data are to be use (which is sometime complicate to understand on old project where knowledge has been lost and when naming is not consistent&#x2F;explicit).<p>It seems that recent ORM that allow you to describe your DB schema as code (like Prisma) allow you to add ‘comments’ on your Data model, but I feel it’s not enough.<p>I have look at the data modeling tooling but haven’t found satisfying solutions.<p>I missing something? How do you document your app data model?",
+      "time": 1657829622,
+      "title": "Ask HN: How do you document your Data Models?",
+      "type": "story"
+    },
+    {
+      "by": "weinzierl",
+      "descendants": 0,
+      "id": 32100910,
+      "score": 1,
+      "time": 1657829589,
+      "title": "Exported Authenticators: The long road to RFC",
+      "type": "story",
+      "url": "https://blog.cloudflare.com/exported-authenticators-the-long-road-to-rfc/"
+    },
+    {
+      "by": "otijav",
+      "descendants": 0,
+      "id": 32100898,
+      "score": 1,
+      "time": 1657829499,
+      "title": "A Swot Exercise and Analysis",
+      "type": "story",
+      "url": "https://superbacademics.com/a-swot-exercise-and-analysis/"
+    },
+    {
+      "by": "taubek",
+      "descendants": 0,
+      "id": 32100895,
+      "score": 1,
+      "time": 1657829491,
+      "title": "IconBurst NPM software supply chain attack grabs data from apps and websites",
+      "type": "story",
+      "url": "https://blog.reversinglabs.com/blog/iconburst-npm-software-supply-chain-attack-grabs-data-from-apps-websites"
+    },
+    {
       "by": "zetalyrae",
       "descendants": 0,
       "id": 32100880,
-      "score": 1,
+      "score": 2,
       "time": 1657829376,
       "title": "Lessons from Writing a Compiler",
       "type": "story",
@@ -12,8 +62,11 @@
     },
     {
       "by": "raybb",
-      "descendants": 0,
+      "descendants": 1,
       "id": 32100869,
+      "kids": [
+        32100896
+      ],
       "score": 1,
       "time": 1657829254,
       "title": "New Features – Linux Mint 21 Cinnamon",
@@ -52,56 +105,6 @@
       "title": "The Robot Guerrilla Campaign to Recreate the Elgin Marbles",
       "type": "story",
       "url": "https://www.nytimes.com/2022/07/08/science/elgin-marbles-3d-print.html"
-    },
-    {
-      "by": "turtlegrids",
-      "descendants": 0,
-      "id": 32100833,
-      "score": 1,
-      "time": 1657828969,
-      "title": "How to Choose Right Surface Treatment for Your Fasteners",
-      "type": "story",
-      "url": "https://us.misumi-ec.com/blog/how-to-choose-right-surface-treatment-for-your-fasteners/"
-    },
-    {
-      "by": "furcyd",
-      "descendants": 0,
-      "id": 32100823,
-      "score": 1,
-      "time": 1657828926,
-      "title": "Quantum advantage showdowns have no clear winners",
-      "type": "story",
-      "url": "https://www.wired.com/story/quantum-advantage-showdowns-have-no-clear-winners/"
-    },
-    {
-      "by": "otijav",
-      "descendants": 0,
-      "id": 32100822,
-      "score": 1,
-      "time": 1657828922,
-      "title": "Aha Moments",
-      "type": "story",
-      "url": "https://superbacademics.com/a-ha-moments/"
-    },
-    {
-      "by": "lsllc",
-      "descendants": 0,
-      "id": 32100789,
-      "score": 1,
-      "time": 1657828768,
-      "title": "Colin Furze: Extreme 4D gaming setup",
-      "type": "story",
-      "url": "https://www.youtube.com/watch?v=8FJXZfH03Mk"
-    },
-    {
-      "by": "ralphmelish",
-      "descendants": 0,
-      "id": 32100777,
-      "score": 2,
-      "time": 1657828688,
-      "title": "UK lawmakers tell Visa and Mastercard to justify fee rises",
-      "type": "story",
-      "url": "https://www.reuters.com/technology/uk-lawmakers-tell-visa-mastercard-justify-fee-rises-2022-07-14/"
     }
   ]
 }
