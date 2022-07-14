@@ -1,10 +1,51 @@
 {
   "stories": [
     {
+      "by": "cgrunewald",
+      "descendants": 0,
+      "id": 32101638,
+      "score": 1,
+      "text": "Hey everyone! I wanted to share a game that myself and a couple other colleagues hacked up called Tweedle. We wanted to try something different in the genre of wordle clones, so we decided to build a game that algorithmically generates daily wordle puzzles for any person&#x2F;profile on Twitter. The idea is that you can play someone’s tweets, guessing a word inside the tweet using wordle style gameplay. If you have an active Twitter profile, the game will generate a puzzle for your profile; this enables anyone on Twitter to have their own wordle game!<p>Here is a game for a popular hacker news bot on twitter: <a href=\"https:&#x2F;&#x2F;tweedle.app&#x2F;mtx2R\" rel=\"nofollow\">https:&#x2F;&#x2F;tweedle.app&#x2F;mtx2R</a><p>If you have a twitter profile, you can play your own game by navigating to <a href=\"https:&#x2F;&#x2F;tweedle.app&#x2F;@YourTwitterUsernameHere\" rel=\"nofollow\">https:&#x2F;&#x2F;tweedle.app&#x2F;@YourTwitterUsernameHere</a><p>The game runs on a pretty standard AWS stack. The backend is designed to dynamically generate puzzles for any new profile. It uses an idempotent heuristic that both selects the daily tweet and daily word for any profile passed to it. We use multiple layers of caching to make this fast. The frontend is a React + Redux SPA. We built some tools to make sharing and link attribution easy so that when you share a game with a friend, we ensure they are able to play the exact same game.<p>For the game’s design, we’re exploring how we can make it more competitive around profiles. IE, who knows a particular profile best. We think that letting you play all the tweets from a profile could be fun as well.<p>We hope you find the game fun to play and would love to hear any feedback or answer questions!<p>(note: we’re not affiliated with Twitter)",
+      "time": 1657833884,
+      "title": "Show HN: Tweedle – A Wordle game for profiles and tweets on Twitter",
+      "type": "story",
+      "url": "https://tweedle.app/@newsycombinator?payload=%7B%22%24channel%22%3A%20%22PressRelease%22%2C%20%22%24adNetworkName%22%3A%20%22HackerNews%22%2C%20%22%24adCampaignName%22%3A%20%2271422%22%2C%20%22%24adSetName%22%3A%20%22%40newsycombinator%22%2C%20%22%24adCreativeName%22%3A%20%22n_a%22%7D"
+    },
+    {
+      "by": "lumberjack24",
+      "descendants": 0,
+      "id": 32101616,
+      "score": 1,
+      "time": 1657833773,
+      "title": "Song predicted the rise of smartphones back in 2002",
+      "type": "story",
+      "url": "https://open.spotify.com/track/7Ij0183zOtXlumDk63dUyh"
+    },
+    {
+      "by": "jonbaer",
+      "descendants": 0,
+      "id": 32101611,
+      "score": 1,
+      "time": 1657833714,
+      "title": "Imaginary numbers describe the fundamental shape of nature",
+      "type": "story",
+      "url": "https://aeon.co/essays/how-imaginary-numbers-describe-the-fundamental-shape-of-nature"
+    },
+    {
+      "by": "pcmonk",
+      "descendants": 0,
+      "id": 32101606,
+      "score": 1,
+      "time": 1657833702,
+      "title": "End-to-End Arguments in System Design (1984) [pdf]",
+      "type": "story",
+      "url": "https://web.mit.edu/Saltzer/www/publications/endtoend/endtoend.pdf"
+    },
+    {
       "by": "rntn",
       "descendants": 0,
       "id": 32101579,
-      "score": 2,
+      "score": 3,
       "time": 1657833545,
       "title": "Bitcoin requires immense amounts of energy. Here’s why there’s a cypto backlash",
       "type": "story",
@@ -59,46 +100,6 @@
       "title": "Difference-in-Differences",
       "type": "story",
       "url": "https://diff.healthpolicydatascience.org/"
-    },
-    {
-      "by": "aaronbrethorst",
-      "descendants": 0,
-      "id": 32101480,
-      "score": 1,
-      "time": 1657832879,
-      "title": "Giant NFT marketplace OpenSea lays off about 20 percent of its staff",
-      "type": "story",
-      "url": "https://www.theverge.com/2022/7/14/23219076/opensea-nft-layoffs-web3-crypto"
-    },
-    {
-      "by": "pmoriarty",
-      "descendants": 0,
-      "id": 32101474,
-      "score": 1,
-      "time": 1657832854,
-      "title": "Why should I care about Gopher?",
-      "type": "story",
-      "url": "https://nyxt.atlas.engineer/article/gopher.org"
-    },
-    {
-      "by": "gmays",
-      "descendants": 0,
-      "id": 32101470,
-      "score": 1,
-      "time": 1657832833,
-      "title": "Automakers are falling in love with subscriptions",
-      "type": "story",
-      "url": "https://thehustle.co/07142022-automakers-subscriptions/"
-    },
-    {
-      "by": "camjohnson26",
-      "descendants": 0,
-      "id": 32101456,
-      "score": 1,
-      "time": 1657832786,
-      "title": "Musk boasted of 0 'self-driving' Tesla crashes while data shows 8",
-      "type": "story",
-      "url": "https://www.latimes.com/business/story/2022-07-14/elon-musk-said-no-self-driving-tesla-had-ever-crashed"
     }
   ]
 }
