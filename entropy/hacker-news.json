@@ -1,10 +1,53 @@
 {
   "stories": [
     {
-      "by": "todsacerdoti",
+      "by": "rntn",
       "descendants": 0,
-      "id": 32101729,
+      "id": 32101760,
       "score": 1,
+      "time": 1657834698,
+      "title": "The radical plan for vaccine equity",
+      "type": "story",
+      "url": "https://www.nature.com/immersive/d41586-022-01898-3/index.html"
+    },
+    {
+      "by": "rntn",
+      "descendants": 0,
+      "id": 32101754,
+      "score": 2,
+      "time": 1657834668,
+      "title": "A truly interest rate hike is now on the table",
+      "type": "story",
+      "url": "https://lite.cnn.com/en/article/h_5a1907d1f3f97e841c4817037de51d12"
+    },
+    {
+      "by": "nothrowaways",
+      "descendants": 0,
+      "id": 32101753,
+      "score": 1,
+      "text": "Inspired by \nAsk HN: What makes you optimistic about the future?",
+      "time": 1657834639,
+      "title": "Ask HN: What makes you pessimistic about the future?",
+      "type": "story"
+    },
+    {
+      "by": "ptype",
+      "descendants": 0,
+      "id": 32101744,
+      "score": 1,
+      "time": 1657834603,
+      "title": "What to do now about tomorrow’s code-cracking computers",
+      "type": "story",
+      "url": "https://www.economist.com/leaders/2022/07/14/what-to-do-now-about-tomorrows-code-cracking-computers"
+    },
+    {
+      "by": "todsacerdoti",
+      "descendants": 1,
+      "id": 32101729,
+      "kids": [
+        32101774
+      ],
+      "score": 3,
       "time": 1657834470,
       "title": "CVE-2022-30136: Microsoft Windows Network File System v4 Remote Code Execution",
       "type": "story",
@@ -47,7 +90,7 @@
       "kids": [
         32101682
       ],
-      "score": 1,
+      "score": 2,
       "time": 1657834025,
       "title": "Show HN: Birdfeeder - Twitter bookmarks in your inbox, once a week",
       "type": "story",
@@ -62,53 +105,6 @@
       "title": "An Unlisted Tweet",
       "type": "story",
       "url": "https://www.theverge.com/2022/7/14/23218987/twitter-cotweet-trick-unlisted-tweet-hidden-search-timeline"
-    },
-    {
-      "by": "cgrunewald",
-      "descendants": 2,
-      "id": 32101638,
-      "kids": [
-        32101669
-      ],
-      "score": 3,
-      "text": "Hey everyone! I wanted to share a game that myself and a couple other colleagues hacked up called Tweedle. We wanted to try something different in the genre of wordle clones, so we decided to build a game that algorithmically generates daily wordle puzzles for any person&#x2F;profile on Twitter. The idea is that you can play someone’s tweets, guessing a word inside the tweet using wordle style gameplay. If you have an active Twitter profile, the game will generate a puzzle for your profile; this enables anyone on Twitter to have their own wordle game!<p>Here is a game for a popular hacker news bot on twitter: <a href=\"https:&#x2F;&#x2F;tweedle.app&#x2F;mtx2R\" rel=\"nofollow\">https:&#x2F;&#x2F;tweedle.app&#x2F;mtx2R</a><p>If you have a twitter profile, you can play your own game by navigating to <a href=\"https:&#x2F;&#x2F;tweedle.app&#x2F;@YourTwitterUsernameHere\" rel=\"nofollow\">https:&#x2F;&#x2F;tweedle.app&#x2F;@YourTwitterUsernameHere</a><p>The game runs on a pretty standard AWS stack. The backend is designed to dynamically generate puzzles for any new profile. It uses an idempotent heuristic that both selects the daily tweet and daily word for any profile passed to it. We use multiple layers of caching to make this fast. The frontend is a React + Redux SPA. We built some tools to make sharing and link attribution easy so that when you share a game with a friend, we ensure they are able to play the exact same game.<p>For the game’s design, we’re exploring how we can make it more competitive around profiles. IE, who knows a particular profile best. We think that letting you play all the tweets from a profile could be fun as well.<p>We hope you find the game fun to play and would love to hear any feedback or answer questions!<p>(note: we’re not affiliated with Twitter)",
-      "time": 1657833884,
-      "title": "Show HN: Tweedle – A Wordle game for profiles and tweets on Twitter",
-      "type": "story",
-      "url": "https://tweedle.app/@newsycombinator?payload=%7B%22%24channel%22%3A%20%22PressRelease%22%2C%20%22%24adNetworkName%22%3A%20%22HackerNews%22%2C%20%22%24adCampaignName%22%3A%20%2271422%22%2C%20%22%24adSetName%22%3A%20%22%40newsycombinator%22%2C%20%22%24adCreativeName%22%3A%20%22n_a%22%7D"
-    },
-    {
-      "by": "lumberjack24",
-      "descendants": 1,
-      "id": 32101616,
-      "kids": [
-        32101653
-      ],
-      "score": 1,
-      "time": 1657833773,
-      "title": "Song predicted the rise of smartphones back in 2002",
-      "type": "story",
-      "url": "https://open.spotify.com/track/7Ij0183zOtXlumDk63dUyh"
-    },
-    {
-      "by": "jonbaer",
-      "descendants": 0,
-      "id": 32101611,
-      "score": 1,
-      "time": 1657833714,
-      "title": "Imaginary numbers describe the fundamental shape of nature",
-      "type": "story",
-      "url": "https://aeon.co/essays/how-imaginary-numbers-describe-the-fundamental-shape-of-nature"
-    },
-    {
-      "by": "pcmonk",
-      "descendants": 0,
-      "id": 32101606,
-      "score": 1,
-      "time": 1657833702,
-      "title": "End-to-End Arguments in System Design (1984) [pdf]",
-      "type": "story",
-      "url": "https://web.mit.edu/Saltzer/www/publications/endtoend/endtoend.pdf"
     }
   ]
 }
