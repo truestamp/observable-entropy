@@ -1,6 +1,39 @@
 {
   "stories": [
     {
+      "by": "jtsymonds",
+      "descendants": 0,
+      "id": 32100495,
+      "score": 2,
+      "time": 1657826901,
+      "title": "Transparent compression at IO speed for object storage",
+      "type": "story",
+      "url": "https://blog.min.io/transparent-data-compression/"
+    },
+    {
+      "by": "ag8",
+      "descendants": 1,
+      "id": 32100487,
+      "kids": [
+        32100490
+      ],
+      "score": 1,
+      "time": 1657826865,
+      "title": "Show HN: A US Evolution Simulator",
+      "type": "story",
+      "url": "https://us-evolution-simulator.andrew.gr/"
+    },
+    {
+      "by": "rbanffy",
+      "descendants": 0,
+      "id": 32100484,
+      "score": 1,
+      "time": 1657826853,
+      "title": "Evaluating Mechanical Keyboard Delivery Estimates with Python Web Scraping",
+      "type": "story",
+      "url": "https://wcedmisten.fyi/post/analyzing-keycap-estimates/"
+    },
+    {
       "by": "soheilpro",
       "descendants": 0,
       "id": 32100449,
@@ -69,37 +102,6 @@
       "title": "Intel plans price hikes on broad range of products",
       "type": "story",
       "url": "https://asia.nikkei.com/Business/Tech/Semiconductors/Intel-plans-price-hikes-on-broad-range-of-products"
-    },
-    {
-      "by": "Tomte",
-      "descendants": 0,
-      "id": 32100378,
-      "score": 1,
-      "time": 1657826332,
-      "title": "Britain is no longer a nation of Nigels (2017)",
-      "type": "story",
-      "url": "https://capx.co/britain-is-no-longer-a-nation-of-nigels/"
-    },
-    {
-      "by": "Tomte",
-      "descendants": 0,
-      "id": 32100376,
-      "score": 1,
-      "time": 1657826322,
-      "title": "The Life of a Cherry Drying Pilot (2009)",
-      "type": "story",
-      "url": "https://www.aneclecticmind.com/2009/06/13/the-life-of-a-cherry-drying-pilot/"
-    },
-    {
-      "by": "klabb3",
-      "descendants": 0,
-      "id": 32100352,
-      "score": 1,
-      "text": "Hi HN.<p>I built Payload to make file transfers easy for less-technical users who need large&#x2F;fast transfers, so I have focused on auto-discovery, drag-and-drop, visually distinct device icons.<p>It&#x27;s using Tauri (an &quot;Electron alternative&quot; built on Rust) which keeps my binaries small and bundles to .msi, .dmg, .deb and .appimage. No CLI, iOS or Android support (yet).<p>The network stack is a separate binary written in Go. It uses mDNS for local network discovery and TLS over TCP or Quic, with a public Ed25519 keypair for each device. The protocol is ad-hoc and symmetrical control stream using JSON and binary data streams. Planning to open source these parts eventually..<p>Transfers should saturate the local network link. It reaches ~116 MB&#x2F;s wired at my home, but if you have a &gt;1000 Mbit link, I&#x27;d be curious to see how much speed you can squeeze out.<p>See also:<p><a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=21575869\" rel=\"nofollow\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=21575869</a><p><a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=24351111\" rel=\"nofollow\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=24351111</a>",
-      "time": 1657826175,
-      "title": "Show HN: Payload, X-Platform Desktop App for LAN File Transfers [Tauri/Rust, Go]",
-      "type": "story",
-      "url": "https://payload.app/"
     }
   ]
 }
