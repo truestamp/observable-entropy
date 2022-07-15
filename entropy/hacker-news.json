@@ -1,9 +1,43 @@
 {
   "stories": [
     {
-      "by": "reteltech",
+      "by": "travisgriggs",
       "descendants": 0,
+      "id": 32111121,
+      "score": 1,
+      "time": 1657908567,
+      "title": "7 (+4) Things That Don't Work in Zephyr",
+      "type": "story",
+      "url": "https://www.empirical.ee/zephyr/"
+    },
+    {
+      "by": "skedule_care",
+      "descendants": 0,
+      "id": 32111119,
+      "score": 1,
+      "time": 1657908565,
+      "title": "Mind-Blowing Stats on Appointment Scheduling",
+      "type": "story",
+      "url": "https://skedule.care/blog/10-mind-blowing-statistics-on-appointment-scheduling-enough-to-surprise-you/"
+    },
+    {
+      "by": "ciccionamente",
+      "descendants": 0,
+      "id": 32111109,
+      "score": 1,
+      "text": "Hey HN!<p>During my spare time and with own my resources I created WeExpire (<a href=\"https:&#x2F;&#x2F;weexpire.org\" rel=\"nofollow\">https:&#x2F;&#x2F;weexpire.org</a>): an opensource tool that allows users to create emergency notes which can be read in case of the user’s incapacitating injury or death.<p>First of all, I should tell you that technically I am not a programmer but a product designer - so forgive me if the code doesn’t comply with all best practices or satisfy all standards. Plus, this is my very first opensource project.<p>Like most people, death wasn’t on my mind very much when I was young. Now that I&#x27;m in my thirties, however, I can’t deny mulling over my own mortality every once in a while. These days, I’m far more aware of how fragile we all are and how quickly life can change—or end. Death is a much more frequent occurrence than we want to admit and when it happens, the emptiness that friends and loved ones feel is huge and profound. That’s why I decided to develop this tool.<p>Now sure, if a person wants to leave a simple, private message for loved ones to read in the event of that person’s death, a notary or online will and testament service would work fine. But those options can be expensive and&#x2F;or time-consuming. Even worse, online services store this sensitive information in a database that could possibly be breached.<p>Of course, there are even “easier” alternatives: a simple piece of paper (but anyone could read that before death occurs) or storing the message  in a password manager (but there are still quite a few people who don’t use password managers).<p>I just wanted something easy that could generate one or more messages on the fly, without too much fuss and by always respecting the user privacy.<p>WeExpire creates a unique and encrypted URL that contains the message and all its settings. To ensure manageability for the average user, the URL is converted into a QR code that can be printed and left for the trusted recipient. The message can be read only if the message creator (after receiving an email alert that message access is being attempted) doesn’t perform a prevention action to maintain locked status.<p>From a security standpoint, the sensitive data contained in the URL can’t be acquired any other way or from any other location. It is retrievable only via the physical QR code and its access code is randomly generated.<p>A couple of important points: there is a message length restriction due to the URL’s limit of around 2000 characters in most browsers. Also, once the URL has been generated, the message cannot be edited - but I mitigated this by adding an optional expiration date, so the user can generate a new emergency note once the previous one has expired.<p>Obviously some of you are thinking: why risk generating my last living message(s) on a platform run by only one person? What if the service gets shut down? What if that person dies before I do?<p>I built WeExpire with endurance in mind. If (or more accurately, when) I die, the platform will “stay alive” for another five years. A message on the website will inform users about my demise and give those users more than enough time to take care of the situation however they see fit.<p>I would really like to hear your opinion, any feedback is welcome.<p>Thank you!",
+      "time": 1657908529,
+      "title": "Show HN: WeExpire – Create emergency notes that can be read after your death",
+      "type": "story",
+      "url": "https://weexpire.org"
+    },
+    {
+      "by": "reteltech",
+      "descendants": 1,
       "id": 32111054,
+      "kids": [
+        32111107
+      ],
       "score": 1,
       "time": 1657908205,
       "title": "Waymo's Jaguar Uses over 50 Sensors to Map and Navigate San Francisco's Streets",
@@ -52,7 +86,7 @@
     },
     {
       "by": "0xmohit",
-      "descendants": 1,
+      "descendants": 2,
       "id": 32111028,
       "kids": [
         32111045
@@ -72,39 +106,6 @@
       "title": "Broad Spectrum Covid Vaccine",
       "type": "story",
       "url": "https://www.gavi.org/vaccineswork/prospect-broadly-protective-coronavirus-vaccine-within-reach"
-    },
-    {
-      "by": "anarbadalov",
-      "descendants": 0,
-      "id": 32111001,
-      "score": 1,
-      "time": 1657907947,
-      "title": "Why Punish?",
-      "type": "story",
-      "url": "https://thereader.mitpress.mit.edu/why-punish/"
-    },
-    {
-      "by": "metadat",
-      "descendants": 1,
-      "id": 32110997,
-      "kids": [
-        32111036
-      ],
-      "score": 1,
-      "time": 1657907920,
-      "title": "Twitter aims its most powerful weapon at Musk: his own tweets",
-      "type": "story",
-      "url": "https://www.theverge.com/2022/7/15/23216684/twitter-elon-musk-lawsuit-tweets"
-    },
-    {
-      "by": "nigerian1981",
-      "descendants": 0,
-      "id": 32110996,
-      "score": 1,
-      "time": 1657907905,
-      "title": "German soldier found guilty of planning terror attacks posing as a refugee",
-      "type": "story",
-      "url": "https://www.theguardian.com/world/2022/jul/15/german-soldier-planned-terror-attacks-posing-as-a-refugee-court-finds"
     }
   ]
 }
