@@ -1,6 +1,16 @@
 {
   "stories": [
     {
+      "by": "nerfed",
+      "descendants": 0,
+      "id": 32109589,
+      "score": 1,
+      "text": "Update: I was asked to create this as a Show HN thread rather than Ask HN. It&#x27;s really a bit of both. It&#x27;s far from complete and I&#x27;m looking for ideas&#x2F;feedback&#x2F;contributors.<p>As a fun side project I built a daily crypto investment game. It randomly selects five of the top 200 cryptos each day and users can compete by investing 100k (fake money) into the tokens of their choosing. The following day users can see if they made the leaderboard for both biggest gains and biggest losses as well as play again.<p>Site: https:&#x2F;&#x2F;cryptable.club<p>The site does not require email or registration to play.<p>I&#x27;m running out of new feature ideas but I&#x27;m not ready to let this one go. If anyone has any ideas&#x2F;feedback, please let me know.<p>So you don&#x27;t have to visit the site, current features include:<p>- Dark&#x2F;Light Mode<p>- 7-day Spark graph of each currency<p>- Summary section showing how much you made&#x2F;lost per coin<p>- Leaderboard showing biggest gainers&#x2F;losers<p>- Share to social<p>Possible features I&#x27;ve considered:<p>- 1v1 Challenge - Allow players to challenge friends for the day. Show the results in a separate 1v1 widget showing who won and how much profit&#x2F;loss they both made.<p>- Email daily recap. If the user chooses to register, we could email them their daily recap which would show how much they made&#x2F;lost on each of the five coins.<p>Tech stack:<p>- DynamoDB<p>- Lambdas running NodeJS to get price updates from the CoinGecko API every ~3 minutes, also for generating the leaderboard after the cutoff time<p>- Vue&#x2F;Vuetify for frontend",
+      "time": 1657901394,
+      "title": "Show HN: Daily Crypto Investment Game",
+      "type": "story"
+    },
+    {
       "by": "1sembiyan",
       "descendants": 0,
       "id": 32109531,
@@ -12,8 +22,11 @@
     },
     {
       "by": "akmittal",
-      "descendants": 0,
+      "descendants": 1,
       "id": 32109507,
+      "kids": [
+        32109541
+      ],
       "score": 1,
       "text": "Apple launched M1 close to 2 years ago. It delivered exceptional performance per watt. Qualcomm being so old ARM player why they are so far behind?",
       "time": 1657900955,
@@ -64,7 +77,7 @@
       "by": "bassamtabbara",
       "descendants": 0,
       "id": 32109463,
-      "score": 8,
+      "score": 9,
       "time": 1657900735,
       "title": "We’re Not Hiring a Bunch of Quarterbacks",
       "type": "story",
@@ -89,16 +102,6 @@
       "title": "Why I created Scrumdog – a program to download Jira Issues to a local database",
       "type": "story",
       "url": "https://whoek.com/b/jira-to-sqlite-with-scrumdog.html"
-    },
-    {
-      "by": "onetimeusename",
-      "descendants": 0,
-      "id": 32109455,
-      "score": 1,
-      "time": 1657900696,
-      "title": "Political Campaigns Using Data to Target You (2020)",
-      "type": "story",
-      "url": "https://www.washingtonpost.com/technology/2020/10/27/political-campaign-data-targeting/"
     }
   ]
 }
