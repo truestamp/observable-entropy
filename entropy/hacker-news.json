@@ -1,6 +1,76 @@
 {
   "stories": [
     {
+      "by": "nerfed",
+      "descendants": 0,
+      "id": 32107666,
+      "score": 1,
+      "text": "As a fun side project I built a daily crypto investment game. It randomly selects five of the top 200 cryptos each day and users can compete by investing 100k (fake money) into the tokens of their choosing. The following day users can see if they made the leaderboard for both biggest gains and biggest losses.<p>Site: https:&#x2F;&#x2F;cryptable.club<p>The site does not require email or registration to play.<p>I&#x27;m running out of new feature ideas but I&#x27;m not ready to let this one go. If anyone has any ideas, please let me know.<p>So you don&#x27;t have to visit the site, right now it has the following features:\n- Dark&#x2F;Light Mode\n- Past 7-day Spark graph of each currency\n- Summary section showing how much you made&#x2F;lost on each coin the previous day\n- Leaderboard showing biggest gainers&#x2F;losers\n- Share to social<p>Possible features I&#x27;ve considered:\n- 1v1 Challenge - Allow players to challenge friends for the day. Show the results in a separate 1v1 widget showing who won and how much profit&#x2F;loss they both made.\n- Email daily recap. If the user chooses to register, we could email them their daily recap which would show how much they made&#x2F;lost on each of the five coins.<p>Tech stack:\n- DynamoDB\n- Lambdas running NodeJS to get price updates from the CoinGecko API every ~3 minutes, also for generating the leaderboard after the cutoff time\n- Vue&#x2F;Vuetify for frontend",
+      "time": 1657889997,
+      "title": "Ask HN: How to improve daily crypto investment game?",
+      "type": "story"
+    },
+    {
+      "by": "jimmySixDOF",
+      "descendants": 0,
+      "id": 32107664,
+      "score": 1,
+      "time": 1657889975,
+      "title": "'Milky Sea' Phenomenon Captured in Photo for First Time",
+      "type": "story",
+      "url": "https://www.newsweek.com/milky-seas-bioluminescence-white-glow-1723956"
+    },
+    {
+      "by": "bilsbie",
+      "descendants": 0,
+      "id": 32107663,
+      "score": 1,
+      "time": 1657889971,
+      "title": "Study: Even 2 to 3 beers a week may cause brain changes, cognitive decline",
+      "type": "story",
+      "url": "https://www.upi.com/Health_News/2022/07/14/Study-Even-2-to-3-beers-a-week-may-cause-brain-changes-cognitive-decline/1441657810804/"
+    },
+    {
+      "by": "YeGoblynQueenne",
+      "descendants": 0,
+      "id": 32107661,
+      "score": 1,
+      "time": 1657889959,
+      "title": "Charfiyah fishing, intangible heritage of humanity",
+      "type": "story",
+      "url": "https://www.tunisiatourism.info/en/articles/la-peche-a-la-charfiya-patrimoine-immateriel-de-lhumanite"
+    },
+    {
+      "by": "aneeqdhk",
+      "descendants": 0,
+      "id": 32107657,
+      "score": 1,
+      "text": "I&#x27;m planning to run some sessions online - mostly for free. I would need the latency to be quite low (so that I can interact with the live chat in near-realtime) and also not discoverable or accessible outside my domain (rules out YouTube).<p>I would like to embed the live session on my domain.<p>What tools or apps can I use? (open to self hosting as well)",
+      "time": 1657889942,
+      "title": "Ask HN: What's the cheapest way to stream live video, privately?",
+      "type": "story"
+    },
+    {
+      "by": "fastest963",
+      "descendants": 0,
+      "id": 32107637,
+      "score": 2,
+      "time": 1657889791,
+      "title": "Smart thermostat swarms are straining the US grid",
+      "type": "story",
+      "url": "https://www.theregister.com/2022/07/13/smart_thermostat_strain/"
+    },
+    {
+      "by": "Victerius",
+      "descendants": 0,
+      "id": 32107636,
+      "score": 1,
+      "text": "Microsoft is the developer of the Windows operating system, which powers almost every PC on Earth. It is also the creator of Word and Excel, which are critical tools to almost every organization.<p>If Facebook collapsed overnight, the world would not be very different.<p>If Netflix collapsed overnight, the world would lose a large number of movies and shows.<p>But if Microsoft collapsed overnight, the consequences across the economy would be felt by everyone.<p>Thoughts?",
+      "time": 1657889788,
+      "title": "Ask HN: Is Microsoft the most important company in the world?",
+      "type": "story"
+    },
+    {
       "by": "ivanvanderbyl",
       "descendants": 0,
       "id": 32107613,
@@ -14,7 +84,7 @@
       "by": "HieronymusBosch",
       "descendants": 0,
       "id": 32107600,
-      "score": 1,
+      "score": 2,
       "time": 1657889570,
       "title": "Dmitry Rogozin has been dismissed as director general of Roscosmos",
       "type": "story",
@@ -29,76 +99,6 @@
       "title": "GPD talk about 'cooperating' with Valve for SteamOS on their devices",
       "type": "story",
       "url": "https://www.gamingonlinux.com/2022/07/gpd-talk-about-cooperating-with-valve-for-steamos-on-their-devices/"
-    },
-    {
-      "by": "jawerty",
-      "descendants": 0,
-      "id": 32107586,
-      "score": 1,
-      "time": 1657889487,
-      "title": "Show HN: Chrome extension for reviewing news articles",
-      "type": "story",
-      "url": "https://whowrotethis.xyz/"
-    },
-    {
-      "by": "smartmic",
-      "descendants": 0,
-      "id": 32107538,
-      "score": 2,
-      "time": 1657889140,
-      "title": "Halibut: Yet another free document preparation system",
-      "type": "story",
-      "url": "https://www.chiark.greenend.org.uk/~sgtatham/halibut/"
-    },
-    {
-      "by": "sayanarijit",
-      "descendants": 0,
-      "id": 32107532,
-      "score": 1,
-      "time": 1657889110,
-      "title": "Show HN: Qrscan – Shell and Camera = Commandline QR Code Scanner",
-      "type": "story",
-      "url": "https://github.com/sayanarijit/qrscan"
-    },
-    {
-      "by": "cixter",
-      "descendants": 0,
-      "id": 32107524,
-      "score": 1,
-      "time": 1657889040,
-      "title": "When to kill the canary",
-      "type": "story",
-      "url": "https://blog.cr.blixhavn.dev/when-to-kill-the-canary/"
-    },
-    {
-      "by": "MikusR",
-      "descendants": 0,
-      "id": 32107517,
-      "score": 2,
-      "time": 1657889015,
-      "title": "Windows 12 may arrive in 2024 as Microsoft shakes up Windows roadmap",
-      "type": "story",
-      "url": "https://www.theverge.com/2022/7/15/23219885/microsoft-windows-12-2024-next-major-windows-version-rumors"
-    },
-    {
-      "by": "cheerioty",
-      "descendants": 0,
-      "id": 32107511,
-      "score": 1,
-      "time": 1657888985,
-      "title": "Questmate is now free for nonprofits",
-      "type": "story",
-      "url": "https://www.questmate.com"
-    },
-    {
-      "by": "0xankit",
-      "descendants": 0,
-      "id": 32107508,
-      "score": 1,
-      "time": 1657888955,
-      "title": "Boxfuse Setup and Deployment for Play Framework in Scala",
-      "type": "story",
-      "url": "https://selectfrom.dev/boxfuse-setup-deployment-for-play-framework-in-scala-2d96c59465e9"
     }
   ]
 }
