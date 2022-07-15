@@ -1,6 +1,26 @@
 {
   "stories": [
     {
+      "by": "Trouble_007",
+      "descendants": 0,
+      "id": 32106063,
+      "score": 1,
+      "time": 1657874085,
+      "title": "Jury Finds Former CIA Programmer Guilty of Leaking CIA Hacking Materials",
+      "type": "story",
+      "url": "https://thedissenter.org/jury-guilty-cia-programmer-schulte-vault-7-wikileaks/"
+    },
+    {
+      "by": "pvsukale3",
+      "descendants": 0,
+      "id": 32106046,
+      "score": 1,
+      "time": 1657873940,
+      "title": "Test Strftime strings in browser with WASM Ruby binary",
+      "type": "story",
+      "url": "https://strftimeslikethese.com/"
+    },
+    {
       "by": "sohkamyung",
       "descendants": 0,
       "id": 32105968,
@@ -65,8 +85,11 @@
     },
     {
       "by": "gajus",
-      "descendants": 0,
+      "descendants": 1,
       "id": 32105923,
+      "kids": [
+        32106028
+      ],
       "score": 1,
       "text": "Let me ask you: What do you think this code does?<p><pre><code>    resizeImage(imagePath, 300, 200, true, true, 1)\n</code></pre>\nIt resizes image... but what exactly does it do? For the most part, we cannot tell without looking up the function definition.<p>Let&#x27;s say you are reviewing a PR and it includes this change:<p><pre><code>    -resizeImage(imagePath, 300, 200, true, true, 1)\n    +resizeImage(imagePath, 300, 200, false, true, 1)\n</code></pre>\nCan you confidently say what is the impact of this change? For the most part... no. You need to know what each positional argument does.<p>Let&#x27;s say you know that the interface is:<p><pre><code>    function resizeImage(\n      imagePath: string,\n      width: number,\n      height: number,\n      upscale: boolean,\n      crop: boolean,\n      quality: number,\n    ): Promise&lt;Buffer&gt;\n</code></pre>\nBut now a PR introduces a change to the parameter order (e.g. to make it consistent with other functions):<p><pre><code>    function resizeImage(\n      imagePath: string,\n      width: number,\n      height: number,\n    +  crop: boolean,\n      upscale: boolean,\n    -  crop: boolean,\n      quality: number,\n    ): Promise&lt;Buffer&gt;\n</code></pre>\nHow do you review this change? Sure, reviewing the interface diff is easy, but what about the dozens or hundreds of diffs that update function invocation?<p><pre><code>    -resizeImage(imagePath, 300, 200, true, false, 1)\n    +resizeImage(imagePath, 300, 200, false, true, 1)\n    resizeImage(imagePath, 300, 200, false, false, 1)\n    -resizeImage(imagePath, 300, 200, false, true, 1)\n    +resizeImage(imagePath, 300, 200, false, false, 1)\n    -resizeImage(imagePath, 300, 200, true, false, 1)\n    +resizeImage(imagePath, 300, 200, false, true, 1)\n</code></pre>\nHopefully the problem is self-explanatory: Positional arguments create a breading ground for hard and even impossible bugs to catch&#x2F;debug&#x2F;fix, esp. when code needs to be refactored. Fear not though as there is a better way.<p>Let&#x27;s start from the start, but this time use a single-object parameter:<p><pre><code>    resizeImage({\n      imagePath,\n      width: 300,\n      height: 200,\n      upscale: true,\n      crop: false,\n      quality: 1,\n    })\n</code></pre>\nCan you tell what is the intention behind this code? Yes, you can get a good sense, even if you are not familiar with the implementation.<p>Can you easily refactor the interface? Yes, linter will warn you if contract is not satisfied.<p>We end up with positional arguments because they feel the most natural to start with. However, as functions grow in scope, what started as a simple function with 1-2 arguments becomes an unreadable mess.<p>This is where [`max-params`](https:&#x2F;&#x2F;eslint.org&#x2F;docs&#x2F;latest&#x2F;rules&#x2F;max-params) comes to the rescue. Simply adding an ESLint rule that restricts having functions with more than X parameters ensures that your code remains legible and easy to refactor as your codebase scales.",
       "time": 1657872820,
@@ -80,31 +103,11 @@
       "kids": [
         32105965
       ],
-      "score": 3,
+      "score": 5,
       "time": 1657872682,
       "title": "U.S. Wars and Hostile Actions: A List",
       "type": "story",
       "url": "https://davidswanson.org/warlist/"
-    },
-    {
-      "by": "ewired",
-      "descendants": 0,
-      "id": 32105902,
-      "score": 2,
-      "time": 1657872641,
-      "title": "SearchHut",
-      "type": "story",
-      "url": "https://sourcehut.org/blog/2022-07-15-searchhut/"
-    },
-    {
-      "by": "bryanrasmussen",
-      "descendants": 0,
-      "id": 32105883,
-      "score": 1,
-      "time": 1657872422,
-      "title": "Lies, Damned Lies, and Statistics",
-      "type": "story",
-      "url": "https://en.wikipedia.org/wiki/Lies,_damned_lies,_and_statistics"
     }
   ]
 }
