@@ -1,6 +1,26 @@
 {
   "stories": [
     {
+      "by": "marban",
+      "descendants": 0,
+      "id": 32106111,
+      "score": 1,
+      "time": 1657874569,
+      "title": "Giant NFT marketplace OpenSea lays off about 20 percent of its staff",
+      "type": "story",
+      "url": "https://www.theverge.com/2022/7/14/23219076/opensea-nft-layoffs-web3-crypto"
+    },
+    {
+      "by": "returnothejedi",
+      "descendants": 0,
+      "id": 32106104,
+      "score": 1,
+      "text": "Let&#x27;s say I&#x27;m a research engineer at a startup doing mostly machine learning for science &amp; engineering applications. I joined right after my PhD in a natural science. I&#x27;m not keen on moving around for postdoc positions so this seemed like a good option.<p>I am satisfied with the work but I&#x27;m an idealist and my long-term dream is still a faculty position at a university.<p>1. Did I throw a wrench into that by choosing an industry gig over a postdoc? \n2. Are there any (recent) examples of research engineers transitioning into a tenured position? \n3. What should I optimize for in my current position to better my odds of achieving that?<p>(I&#x27;m EU based &amp; working for a US company in case it matters.)",
+      "time": 1657874458,
+      "title": "Ask HN: How to have an academic career after working in industry?",
+      "type": "story"
+    },
+    {
       "by": "sashevuchkov",
       "descendants": 1,
       "id": 32106096,
@@ -85,29 +105,6 @@
       "title": "On Language Models for Creoles [pdf]",
       "type": "story",
       "url": "https://aclanthology.org/2021.conll-1.5.pdf"
-    },
-    {
-      "by": "nixass",
-      "descendants": 0,
-      "id": 32105924,
-      "score": 1,
-      "time": 1657872830,
-      "title": "German transport companies propose nation wide 69-euro monthly ticket",
-      "type": "story",
-      "url": "https://ga.de/ga-english/news/transport-companies-propose-69-euro-ticket-starting-in-september_aid-72935263"
-    },
-    {
-      "by": "gajus",
-      "descendants": 1,
-      "id": 32105923,
-      "kids": [
-        32106028
-      ],
-      "score": 1,
-      "text": "Let me ask you: What do you think this code does?<p><pre><code>    resizeImage(imagePath, 300, 200, true, true, 1)\n</code></pre>\nIt resizes image... but what exactly does it do? For the most part, we cannot tell without looking up the function definition.<p>Let&#x27;s say you are reviewing a PR and it includes this change:<p><pre><code>    -resizeImage(imagePath, 300, 200, true, true, 1)\n    +resizeImage(imagePath, 300, 200, false, true, 1)\n</code></pre>\nCan you confidently say what is the impact of this change? For the most part... no. You need to know what each positional argument does.<p>Let&#x27;s say you know that the interface is:<p><pre><code>    function resizeImage(\n      imagePath: string,\n      width: number,\n      height: number,\n      upscale: boolean,\n      crop: boolean,\n      quality: number,\n    ): Promise&lt;Buffer&gt;\n</code></pre>\nBut now a PR introduces a change to the parameter order (e.g. to make it consistent with other functions):<p><pre><code>    function resizeImage(\n      imagePath: string,\n      width: number,\n      height: number,\n    +  crop: boolean,\n      upscale: boolean,\n    -  crop: boolean,\n      quality: number,\n    ): Promise&lt;Buffer&gt;\n</code></pre>\nHow do you review this change? Sure, reviewing the interface diff is easy, but what about the dozens or hundreds of diffs that update function invocation?<p><pre><code>    -resizeImage(imagePath, 300, 200, true, false, 1)\n    +resizeImage(imagePath, 300, 200, false, true, 1)\n    resizeImage(imagePath, 300, 200, false, false, 1)\n    -resizeImage(imagePath, 300, 200, false, true, 1)\n    +resizeImage(imagePath, 300, 200, false, false, 1)\n    -resizeImage(imagePath, 300, 200, true, false, 1)\n    +resizeImage(imagePath, 300, 200, false, true, 1)\n</code></pre>\nHopefully the problem is self-explanatory: Positional arguments create a breading ground for hard and even impossible bugs to catch&#x2F;debug&#x2F;fix, esp. when code needs to be refactored. Fear not though as there is a better way.<p>Let&#x27;s start from the start, but this time use a single-object parameter:<p><pre><code>    resizeImage({\n      imagePath,\n      width: 300,\n      height: 200,\n      upscale: true,\n      crop: false,\n      quality: 1,\n    })\n</code></pre>\nCan you tell what is the intention behind this code? Yes, you can get a good sense, even if you are not familiar with the implementation.<p>Can you easily refactor the interface? Yes, linter will warn you if contract is not satisfied.<p>We end up with positional arguments because they feel the most natural to start with. However, as functions grow in scope, what started as a simple function with 1-2 arguments becomes an unreadable mess.<p>This is where [`max-params`](https:&#x2F;&#x2F;eslint.org&#x2F;docs&#x2F;latest&#x2F;rules&#x2F;max-params) comes to the rescue. Simply adding an ESLint rule that restricts having functions with more than X parameters ensures that your code remains legible and easy to refactor as your codebase scales.",
-      "time": 1657872820,
-      "title": "The most important code linting rule: max-params",
-      "type": "story"
     }
   ]
 }
