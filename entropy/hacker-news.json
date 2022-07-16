@@ -1,6 +1,56 @@
 {
   "stories": [
     {
+      "by": "DiamontIsComing",
+      "descendants": 0,
+      "id": 32118929,
+      "score": 1,
+      "text": "I&#x27;ve just learned that the stdckdint.h [1] header is in the C2x standard. I&#x27;m not really a C programmer, so I can&#x27;t help but ask myself how does the committee expect libc developers to implement those macros without generics, 128bit integers, or even statement expressions? Are they going to add generics in C2x?\nSo I figured out C veterans on HN would have some ideas on how they would implement this. Really all that I can think is generate functions for every possible type triplet using some preprocessor X_Macro magic (you guys still use the preprocessor, right?). I don&#x27;t know, I&#x27;m kinda spoiled by Rust in this case.\n Hey, we could even help a libc developer with this thread!<p>[1]: http:&#x2F;&#x2F;www.open-std.org&#x2F;jtc1&#x2F;sc22&#x2F;wg14&#x2F;www&#x2F;docs&#x2F;n2792.pdf",
+      "time": 1657984501,
+      "title": "Ask HN: Thoughts on C23 Stdckdint.h",
+      "type": "story"
+    },
+    {
+      "by": "tbyehl",
+      "descendants": 0,
+      "id": 32118922,
+      "score": 1,
+      "text": "Three years ago I posted a &#x27;Change my mind&#x27; meme on Facebook dissing The Sopranos. Today FB says my post violated community standards and directs me to resources about self-harm and suicide.<p>Officially I can&#x27;t advertise or go live for 30 days (don&#x27;t do either anyways). Unofficially, my posts are no longer showing up in my own feed nor anyone else&#x27;s. Were I actually at risk of self-harm, I struggle to imagine how socially isolating me is a proper response.<p>Warning and original post: https:&#x2F;&#x2F;i.imgur.com&#x2F;2kzCEza.png<p>Restrictions: https:&#x2F;&#x2F;i.imgur.com&#x2F;VHCWfbt.png",
+      "time": 1657984438,
+      "title": "Tell HN: Dis the Sopranos? Machine Learning Put Me on Facebook Suicide Watch",
+      "type": "story"
+    },
+    {
+      "by": "tcper",
+      "descendants": 0,
+      "id": 32118904,
+      "score": 1,
+      "time": 1657984325,
+      "title": "Show HN: Text-Diff Powered by WebAssembly",
+      "type": "story",
+      "url": "https://tcper.github.io/wasm-similar-demo/"
+    },
+    {
+      "by": "rntn",
+      "descendants": 0,
+      "id": 32118884,
+      "score": 1,
+      "time": 1657984224,
+      "title": "I am part of a dying breed of Taiwanese",
+      "type": "story",
+      "url": "https://lite.cnn.com/en/article/h_69251e2b8d581e1f06aa12d16038044b"
+    },
+    {
+      "by": "sandreas",
+      "descendants": 0,
+      "id": 32118883,
+      "score": 1,
+      "text": "Hey HN,<p>I&#x27;m looking for a state of the art non-cryptographic hash algorithm specifically for audio data to identify audiofiles by raw audio ignoring metadata.<p>My current choice would be either:<p><pre><code>  - xxHash (my current favorite)\n  - CrapWow\n  - Murmur 3a\n  - SpookyHash\n</code></pre>\nIs there a better and faster one?<p>A good and reliable implementation in C# would be a bonus.<p>Thank you.",
+      "time": 1657984222,
+      "title": "Ask HN: Best non-cryptograpic hashing algorithm for audio data?",
+      "type": "story"
+    },
+    {
       "by": "p33p",
       "descendants": 0,
       "id": 32118850,
@@ -47,66 +97,9 @@
       "score": 2,
       "text": "Hello,<p>This is a portfolio optimizer I made to help select portfolios for my clients. I&#x27;m a personal financial adviser. I generally put my clients in a mix of low-fee index funds and ETFs and I use this to set an appropriate allocation based on the client&#x27;s risk tolerance.<p>I have been working on this as a side project to 1) improve the theoretical underpinnings of my investment recommendations and 2) improve my coding skills with frameworks like Vue and Torch. Here&#x27;s the repository for the frontend: <a href=\"https:&#x2F;&#x2F;github.com&#x2F;justinluther502&#x2F;cashgraphfront\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;justinluther502&#x2F;cashgraphfront</a>.<p>The frontend site is Vue 2 + Vuetify, and the backend is an AWS lambda function running the Torch optimizer. I am still working out kinks in the backend, particularly cold-start issues because the Lambda function has to load the entire Torch library (~2GB). This occasionally causes the AWS API Gateway to reach max timeout before the Lambda function finishes. Any tips on addressing this would be much appreciated. My first thought is maybe to pare down the Torch library used in the Lambda function because I am only using a small subset of the full library.<p>The optimizer function itself is designed to overcome several classic shortcomings in Modern Portfolio Theory (MPT) (<a href=\"https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Modern_portfolio_theory\" rel=\"nofollow\">https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Modern_portfolio_theory</a>). Unlike textbook implementations of MPT, this optimizer can utilize non-normal returns distributions, risk metrics besides variance, and can allow the user to specify tail behavior, such as asset correlations behaving normally most of the time but converging to 1.0 in severe downturns. Most of these &quot;fixes&quot; happen during the generation of custom &quot;flavors&quot;, or asset selection universes. I have 3 flavors pre-built and there is some information on how they are constructed in the flavor selection page.<p>Any feedback greatly appreciated!<p>Justin Luther justinluther@lutherwealth.com <a href=\"https:&#x2F;&#x2F;www.lutherwealth.com\" rel=\"nofollow\">https:&#x2F;&#x2F;www.lutherwealth.com</a>",
       "time": 1657983666,
-      "title": "Show HN: CashGraphs – A Securities Portfolio Optimizer",
+      "title": "Show HN: CashGraphs – A securities portfolio optimizer",
       "type": "story",
       "url": "https://www.cashgraphs.com/"
-    },
-    {
-      "by": "bloqs",
-      "descendants": 1,
-      "id": 32118789,
-      "kids": [
-        32118816
-      ],
-      "score": 1,
-      "text": "Dear HN crowd.<p>I&#x27;m currently learning about algorithms, and I decided to think of a problem I encounter that I would like to solve. One such problem is when games (often RPGs) have a &#x27;Tetris&#x27; style inventory system, with items of different shapes and sizes.<p>I have decided I would like to make a sorter for game I play, to help me quickly maximise my storage space.<p>However, after a preliminary google, I didn&#x27;t find much in the way of resources for problems like this, so I assume my google-fu is weak.<p>Would anyone know of any examples, or preferably, underlying math&#x2F;code to help me grasp this?<p>Thank you in advance!",
-      "time": 1657983632,
-      "title": "Ask HN: RPG Inventory Sorting Algorithm?",
-      "type": "story"
-    },
-    {
-      "by": "whalesalad",
-      "descendants": 0,
-      "id": 32118788,
-      "score": 2,
-      "time": 1657983623,
-      "title": "Colorado Weather Modification Program",
-      "type": "story",
-      "url": "https://cwcb.colorado.gov/focus-areas/supply/weather-modification-program"
-    },
-    {
-      "by": "SuDa2103",
-      "descendants": 0,
-      "id": 32118779,
-      "score": 1,
-      "time": 1657983583,
-      "title": "Show HN: The Beginner's Guide to being a little bit Happier",
-      "type": "story",
-      "url": "https://flurly.com/p/little-bit-happier"
-    },
-    {
-      "by": "bookofjoe",
-      "descendants": 0,
-      "id": 32118747,
-      "score": 1,
-      "time": 1657983289,
-      "title": "Phrases andsentences differentially encoded during spoken language comprehension",
-      "type": "story",
-      "url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3001713"
-    },
-    {
-      "by": "Sulstice",
-      "descendants": 2,
-      "id": 32118745,
-      "kids": [
-        32118746,
-        32118753
-      ],
-      "score": 1,
-      "time": 1657983271,
-      "title": "Novichok and Others – Toxic Organophoshorous Nerve Agent Chemical List",
-      "type": "story",
-      "url": "https://github.com/Sulstice/global-chem/blob/master/global_chem/global_chem/warfare/organophosphorous_nerve_agents.py"
     }
   ]
 }
