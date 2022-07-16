@@ -1,6 +1,60 @@
 {
   "stories": [
     {
+      "by": "iliekcomputers",
+      "descendants": 0,
+      "id": 32118822,
+      "score": 1,
+      "time": 1657983889,
+      "title": "Stop the cross-site script kiddies from pwning you",
+      "type": "story",
+      "url": "https://newsletter.param.codes/p/stop-the-cross-site-script-kiddies"
+    },
+    {
+      "by": "scrlk",
+      "descendants": 0,
+      "id": 32118818,
+      "score": 1,
+      "time": 1657983879,
+      "title": "Why Rails Buckle in Britain",
+      "type": "story",
+      "url": "https://www.networkrail.co.uk/stories/why-rails-buckle-in-britain/"
+    },
+    {
+      "by": "justinluther",
+      "descendants": 0,
+      "id": 32118796,
+      "score": 2,
+      "text": "Hello,<p>This is a portfolio optimizer I made to help select portfolios for my clients. I&#x27;m a personal financial adviser. I generally put my clients in a mix of low-fee index funds and ETFs and I use this to set an appropriate allocation based on the client&#x27;s risk tolerance.<p>I have been working on this as a side project to 1) improve the theoretical underpinnings of my investment recommendations and 2) improve my coding skills with frameworks like Vue and Torch. Here&#x27;s the repository for the frontend: <a href=\"https:&#x2F;&#x2F;github.com&#x2F;justinluther502&#x2F;cashgraphfront\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;justinluther502&#x2F;cashgraphfront</a>.<p>The frontend site is Vue 2 + Vuetify, and the backend is an AWS lambda function running the Torch optimizer. I am still working out kinks in the backend, particularly cold-start issues because the Lambda function has to load the entire Torch library (~2GB). This occasionally causes the AWS API Gateway to reach max timeout before the Lambda function finishes. Any tips on addressing this would be much appreciated. My first thought is maybe to pare down the Torch library used in the Lambda function because I am only using a small subset of the full library.<p>The optimizer function itself is designed to overcome several classic shortcomings in Modern Portfolio Theory (MPT) (<a href=\"https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Modern_portfolio_theory\" rel=\"nofollow\">https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Modern_portfolio_theory</a>). Unlike textbook implementations of MPT, this optimizer can utilize non-normal returns distributions, risk metrics besides variance, and can allow the user to specify tail behavior, such as asset correlations behaving normally most of the time but converging to 1.0 in severe downturns. Most of these &quot;fixes&quot; happen during the generation of custom &quot;flavors&quot;, or asset selection universes. I have 3 flavors pre-built and there is some information on how they are constructed in the flavor selection page.<p>Any feedback greatly appreciated!<p>Justin Luther justinluther@lutherwealth.com <a href=\"https:&#x2F;&#x2F;www.lutherwealth.com\" rel=\"nofollow\">https:&#x2F;&#x2F;www.lutherwealth.com</a>",
+      "time": 1657983666,
+      "title": "Show HN: CashGraphs – A Securities Portfolio Optimizer",
+      "type": "story",
+      "url": "https://www.cashgraphs.com/"
+    },
+    {
+      "by": "bloqs",
+      "descendants": 1,
+      "id": 32118789,
+      "kids": [
+        32118816
+      ],
+      "score": 1,
+      "text": "Dear HN crowd.<p>I&#x27;m currently learning about algorithms, and I decided to think of a problem I encounter that I would like to solve. One such problem is when games (often RPGs) have a &#x27;Tetris&#x27; style inventory system, with items of different shapes and sizes.<p>I have decided I would like to make a sorter for game I play, to help me quickly maximise my storage space.<p>However, after a preliminary google, I didn&#x27;t find much in the way of resources for problems like this, so I assume my google-fu is weak.<p>Would anyone know of any examples, or preferably, underlying math&#x2F;code to help me grasp this?<p>Thank you in advance!",
+      "time": 1657983632,
+      "title": "Ask HN: RPG Inventory Sorting Algorithm?",
+      "type": "story"
+    },
+    {
+      "by": "whalesalad",
+      "descendants": 0,
+      "id": 32118788,
+      "score": 2,
+      "time": 1657983623,
+      "title": "Colorado Weather Modification Program",
+      "type": "story",
+      "url": "https://cwcb.colorado.gov/focus-areas/supply/weather-modification-program"
+    },
+    {
       "by": "SuDa2103",
       "descendants": 0,
       "id": 32118779,
@@ -25,8 +79,8 @@
       "descendants": 2,
       "id": 32118745,
       "kids": [
-        32118753,
-        32118746
+        32118746,
+        32118753
       ],
       "score": 1,
       "time": 1657983271,
@@ -48,60 +102,10 @@
       "by": "giulianopz",
       "descendants": 0,
       "id": 32118727,
-      "score": 1,
+      "score": 2,
       "text": "I would like to read software programming tech manuals (e.g. &quot;the GO programming language&quot;) on an ebook reader with E-Ink screen and still have the possibility to open a shell and write some code to test what I&#x27;m learning.\nSomething like Remarkable 2 (or the newest HUAWEI MatePad Paper) but backed up by some sort of GNU&#x2F;Linux derivative OS that I can access and fiddle around with.\nAt the end what I&#x27;m searching for is just an Android tablet but with a E-Ink screen optimized for reading PDF files.",
       "time": 1657983191,
       "title": "Is there any eReader with a terminal?",
-      "type": "story"
-    },
-    {
-      "by": "jseliger",
-      "descendants": 0,
-      "id": 32118669,
-      "score": 1,
-      "time": 1657982778,
-      "title": "Science as a Source of Social Alpha",
-      "type": "story",
-      "url": "https://marginalrevolution.com/marginalrevolution/2022/07/science-as-a-source-of-social-alpha.html"
-    },
-    {
-      "by": "LinuxBender",
-      "descendants": 0,
-      "id": 32118596,
-      "score": 2,
-      "time": 1657982387,
-      "title": "Why is everyone going on strike?",
-      "type": "story",
-      "url": "https://www.bbc.co.uk/news/business-62134314"
-    },
-    {
-      "by": "ibobev",
-      "descendants": 0,
-      "id": 32118592,
-      "score": 1,
-      "time": 1657982362,
-      "title": "Rust on the MEGA65",
-      "type": "story",
-      "url": "https://8bitnews.io/article/rust-on-the-mega65"
-    },
-    {
-      "by": "rntn",
-      "descendants": 0,
-      "id": 32118588,
-      "score": 2,
-      "time": 1657982319,
-      "title": "Disagreements over war in Ukraine thwart G20 finance meeting",
-      "type": "story",
-      "url": "https://www.dw.com/en/disagreements-over-war-in-ukraine-thwart-g20-finance-meeting/a-62497490"
-    },
-    {
-      "by": "guzik",
-      "descendants": 0,
-      "id": 32118578,
-      "score": 1,
-      "text": "How can I contribute to stem cell research as a computer scientist with nearly no experience in biology and no access to the lab?",
-      "time": 1657982277,
-      "title": "Ask HN: How can I contribute to stem cell research as a computer scientist?",
       "type": "story"
     }
   ]
