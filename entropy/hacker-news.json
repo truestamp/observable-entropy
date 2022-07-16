@@ -1,6 +1,59 @@
 {
   "stories": [
     {
+      "by": "iroddis",
+      "descendants": 1,
+      "id": 32119006,
+      "kids": [
+        32119007
+      ],
+      "score": 1,
+      "time": 1657984958,
+      "title": "Tell HN: Outlook App copies external email data to Microsoft Cloud",
+      "type": "story",
+      "url": "https://support.microsoft.com/en-us/office/sync-your-account-to-the-microsoft-cloud-985f9e19-d308-4e85-9d1d-0c6f32f8e981"
+    },
+    {
+      "by": "sylvain_kerkour",
+      "descendants": 0,
+      "id": 32119002,
+      "score": 1,
+      "time": 1657984926,
+      "title": "Async Rust: What is a runtime? Here is how tokio works under the hood",
+      "type": "story",
+      "url": "https://kerkour.com/rust-async-await-what-is-a-runtime"
+    },
+    {
+      "by": "mooreds",
+      "descendants": 0,
+      "id": 32118993,
+      "score": 1,
+      "time": 1657984893,
+      "title": "She Code Africa 2021 report",
+      "type": "story",
+      "url": "https://drive.google.com/file/d/1u7s0cvaCCjOC2C6iIpOJkvB-sjkGrf_y/view"
+    },
+    {
+      "by": "mooreds",
+      "descendants": 0,
+      "id": 32118989,
+      "score": 1,
+      "time": 1657984864,
+      "title": "Mary Oliver: “Wild Geese”",
+      "type": "story",
+      "url": "http://www.phys.unm.edu/~tw/fas/yits/archive/oliver_wildgeese.html"
+    },
+    {
+      "by": "mooreds",
+      "descendants": 0,
+      "id": 32118984,
+      "score": 1,
+      "time": 1657984843,
+      "title": "An actual live stream: Boulder’s Tube to Work Day returns after pandemic hiatus",
+      "type": "story",
+      "url": "https://www.dailycamera.com/2022/07/15/an-actual-live-stream-boulders-tube-to-work-day-returns-after-pandemic-hiatus/"
+    },
+    {
       "by": "lota-putty",
       "descendants": 0,
       "id": 32118966,
@@ -22,9 +75,12 @@
     },
     {
       "by": "pseudopuppet",
-      "descendants": 0,
+      "descendants": 1,
       "id": 32118950,
-      "score": 1,
+      "kids": [
+        32119025
+      ],
+      "score": 2,
       "time": 1657984625,
       "title": "Show HN: Logto public beta – build sign-in, auth, and identity with ease",
       "type": "story",
@@ -52,56 +108,6 @@
       "title": "Futel – Free Payphone Service (art/social justice)",
       "type": "story",
       "url": "http://futel.net/"
-    },
-    {
-      "by": "DiamontIsComing",
-      "descendants": 0,
-      "id": 32118929,
-      "score": 1,
-      "text": "I&#x27;ve just learned that the stdckdint.h [1] header is in the C2x standard. I&#x27;m not really a C programmer, so I can&#x27;t help but ask myself how does the committee expect libc developers to implement those macros without generics, 128bit integers, or even statement expressions? Are they going to add generics in C2x?\nSo I figured out C veterans on HN would have some ideas on how they would implement this. Really all that I can think is generate functions for every possible type triplet using some preprocessor X_Macro magic (you guys still use the preprocessor, right?). I don&#x27;t know, I&#x27;m kinda spoiled by Rust in this case.\n Hey, we could even help a libc developer with this thread!<p>[1]: http:&#x2F;&#x2F;www.open-std.org&#x2F;jtc1&#x2F;sc22&#x2F;wg14&#x2F;www&#x2F;docs&#x2F;n2792.pdf",
-      "time": 1657984501,
-      "title": "Ask HN: Thoughts on C23 Stdckdint.h",
-      "type": "story"
-    },
-    {
-      "by": "tbyehl",
-      "descendants": 0,
-      "id": 32118922,
-      "score": 1,
-      "text": "Three years ago I posted a &#x27;Change my mind&#x27; meme on Facebook dissing The Sopranos. Today FB says my post violated community standards and directs me to resources about self-harm and suicide.<p>Officially I can&#x27;t advertise or go live for 30 days (don&#x27;t do either anyways). Unofficially, my posts are no longer showing up in my own feed nor anyone else&#x27;s. Were I actually at risk of self-harm, I struggle to imagine how socially isolating me is a proper response.<p>Warning and original post: https:&#x2F;&#x2F;i.imgur.com&#x2F;2kzCEza.png<p>Restrictions: https:&#x2F;&#x2F;i.imgur.com&#x2F;VHCWfbt.png",
-      "time": 1657984438,
-      "title": "Tell HN: Dis the Sopranos? Machine Learning Put Me on Facebook Suicide Watch",
-      "type": "story"
-    },
-    {
-      "by": "tcper",
-      "descendants": 0,
-      "id": 32118904,
-      "score": 1,
-      "time": 1657984325,
-      "title": "Show HN: Text-Diff Powered by WebAssembly",
-      "type": "story",
-      "url": "https://tcper.github.io/wasm-similar-demo/"
-    },
-    {
-      "by": "rntn",
-      "descendants": 0,
-      "id": 32118884,
-      "score": 2,
-      "time": 1657984224,
-      "title": "I am part of a dying breed of Taiwanese",
-      "type": "story",
-      "url": "https://lite.cnn.com/en/article/h_69251e2b8d581e1f06aa12d16038044b"
-    },
-    {
-      "by": "sandreas",
-      "descendants": 0,
-      "id": 32118883,
-      "score": 1,
-      "text": "Hey HN,<p>I&#x27;m looking for a state of the art non-cryptographic hash algorithm specifically for audio data to identify audiofiles by raw audio ignoring metadata.<p>My current choice would be either:<p><pre><code>  - xxHash (my current favorite)\n  - CrapWow\n  - Murmur 3a\n  - SpookyHash\n</code></pre>\nIs there a better and faster one?<p>A good and reliable implementation in C# would be a bonus.<p>Thank you.",
-      "time": 1657984222,
-      "title": "Ask HN: Best non-cryptograpic hashing algorithm for audio data?",
-      "type": "story"
     }
   ]
 }
