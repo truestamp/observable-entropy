@@ -1,6 +1,59 @@
 {
   "stories": [
     {
+      "by": "lota-putty",
+      "descendants": 0,
+      "id": 32118966,
+      "score": 1,
+      "time": 1657984728,
+      "title": "One-hit wonder: How awards, recognition decrease inventors' creativity",
+      "type": "story",
+      "url": "https://www.sciencedaily.com/releases/2022/07/220714165825.htm"
+    },
+    {
+      "by": "rntn",
+      "descendants": 0,
+      "id": 32118957,
+      "score": 1,
+      "time": 1657984659,
+      "title": "Toward understanding the communication in sperm whales",
+      "type": "story",
+      "url": "https://www.cell.com/iscience/fulltext/S2589-0042(22)00664-2?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS2589004222006642%3Fshowall%3Dtrue"
+    },
+    {
+      "by": "pseudopuppet",
+      "descendants": 0,
+      "id": 32118950,
+      "score": 1,
+      "time": 1657984625,
+      "title": "Show HN: Logto public beta – build sign-in, auth, and identity with ease",
+      "type": "story",
+      "url": "https://github.com/logto-io/logto"
+    },
+    {
+      "by": "lota-putty",
+      "descendants": 0,
+      "id": 32118939,
+      "score": 1,
+      "time": 1657984540,
+      "title": "Diphthamide – An Achilles heel shared by plants and animals",
+      "type": "story",
+      "url": "https://www.sciencedaily.com/releases/2022/07/220715105700.htm"
+    },
+    {
+      "by": "paulhart",
+      "descendants": 1,
+      "id": 32118936,
+      "kids": [
+        32118937
+      ],
+      "score": 1,
+      "time": 1657984535,
+      "title": "Futel – Free Payphone Service (art/social justice)",
+      "type": "story",
+      "url": "http://futel.net/"
+    },
+    {
       "by": "DiamontIsComing",
       "descendants": 0,
       "id": 32118929,
@@ -34,7 +87,7 @@
       "by": "rntn",
       "descendants": 0,
       "id": 32118884,
-      "score": 1,
+      "score": 2,
       "time": 1657984224,
       "title": "I am part of a dying breed of Taiwanese",
       "type": "story",
@@ -49,57 +102,6 @@
       "time": 1657984222,
       "title": "Ask HN: Best non-cryptograpic hashing algorithm for audio data?",
       "type": "story"
-    },
-    {
-      "by": "p33p",
-      "descendants": 0,
-      "id": 32118850,
-      "score": 1,
-      "text": "Dependency and package management has seen a lot growth and attention in the Python community even in the last couple years. Everyone has their opinions on what to use, but for enterprise code bases, what is the recommended approach?<p>Ideally responses would include size of user base, number of package dependencies, any issues arisen, etc.<p>Thanks y’all. Needless to say, the most recent pipenv post on the front page has led to more confusion than I’d like to admit.",
-      "time": 1657984030,
-      "title": "Ask HN: Venv, virtualwrapper, pipenv, poetry, pdm, oh my",
-      "type": "story"
-    },
-    {
-      "by": "robin_reala",
-      "descendants": 0,
-      "id": 32118832,
-      "score": 1,
-      "time": 1657983920,
-      "title": "We are proud to officially join the team at Playstation",
-      "type": "story",
-      "url": "https://twitter.com/bungie/status/1547990161517973519"
-    },
-    {
-      "by": "iliekcomputers",
-      "descendants": 0,
-      "id": 32118822,
-      "score": 2,
-      "time": 1657983889,
-      "title": "Stop the cross-site script kiddies from pwning you",
-      "type": "story",
-      "url": "https://newsletter.param.codes/p/stop-the-cross-site-script-kiddies"
-    },
-    {
-      "by": "scrlk",
-      "descendants": 0,
-      "id": 32118818,
-      "score": 3,
-      "time": 1657983879,
-      "title": "Why Rails Buckle in Britain",
-      "type": "story",
-      "url": "https://www.networkrail.co.uk/stories/why-rails-buckle-in-britain/"
-    },
-    {
-      "by": "justinluther",
-      "descendants": 0,
-      "id": 32118796,
-      "score": 2,
-      "text": "Hello,<p>This is a portfolio optimizer I made to help select portfolios for my clients. I&#x27;m a personal financial adviser. I generally put my clients in a mix of low-fee index funds and ETFs and I use this to set an appropriate allocation based on the client&#x27;s risk tolerance.<p>I have been working on this as a side project to 1) improve the theoretical underpinnings of my investment recommendations and 2) improve my coding skills with frameworks like Vue and Torch. Here&#x27;s the repository for the frontend: <a href=\"https:&#x2F;&#x2F;github.com&#x2F;justinluther502&#x2F;cashgraphfront\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;justinluther502&#x2F;cashgraphfront</a>.<p>The frontend site is Vue 2 + Vuetify, and the backend is an AWS lambda function running the Torch optimizer. I am still working out kinks in the backend, particularly cold-start issues because the Lambda function has to load the entire Torch library (~2GB). This occasionally causes the AWS API Gateway to reach max timeout before the Lambda function finishes. Any tips on addressing this would be much appreciated. My first thought is maybe to pare down the Torch library used in the Lambda function because I am only using a small subset of the full library.<p>The optimizer function itself is designed to overcome several classic shortcomings in Modern Portfolio Theory (MPT) (<a href=\"https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Modern_portfolio_theory\" rel=\"nofollow\">https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Modern_portfolio_theory</a>). Unlike textbook implementations of MPT, this optimizer can utilize non-normal returns distributions, risk metrics besides variance, and can allow the user to specify tail behavior, such as asset correlations behaving normally most of the time but converging to 1.0 in severe downturns. Most of these &quot;fixes&quot; happen during the generation of custom &quot;flavors&quot;, or asset selection universes. I have 3 flavors pre-built and there is some information on how they are constructed in the flavor selection page.<p>Any feedback greatly appreciated!<p>Justin Luther justinluther@lutherwealth.com <a href=\"https:&#x2F;&#x2F;www.lutherwealth.com\" rel=\"nofollow\">https:&#x2F;&#x2F;www.lutherwealth.com</a>",
-      "time": 1657983666,
-      "title": "Show HN: CashGraphs – A securities portfolio optimizer",
-      "type": "story",
-      "url": "https://www.cashgraphs.com/"
     }
   ]
 }
