@@ -1,13 +1,23 @@
 {
   "stories": [
     {
+      "by": "tosh",
+      "descendants": 0,
+      "id": 32122299,
+      "score": 2,
+      "time": 1658008264,
+      "title": "Chennai’s Napier Bridge decked up like a chessboard ahead of Olympiad",
+      "type": "story",
+      "url": "https://www.hindustantimes.com/india-news/watch-chennai-s-napier-bridge-decked-up-like-a-chessboard-days-ahead-of-olympiad-101657991179988.html"
+    },
+    {
       "by": "sandreas",
       "descendants": 0,
       "id": 32122293,
       "score": 1,
       "text": "Hey HN,<p>again some progress on my little (maybe useless) toy project called tone[1] hoping for feedback.<p>tone is a cross plattform command line audio tagger deployed as a single static binary without dependencies, so a wget should be enough to install on any platform (seems not to work on M1 Macs atm... if someone can help here I would really appreciate it).<p>Improvements since the last post (v0.0.4):<p><pre><code>  - multiarch docker image for all major platforms\n    - docker pull sandreas&#x2F;tone:v0.0.7\n  - new JSON metadata format with JSONPath support \n    - tone dump my-file.m4b --format=json --query=&quot;$.meta.album&quot;\n  - metadata writer fixes for m4b audiobooks iTunes\n \n</code></pre>\nGeneral Features:<p><pre><code>  - Supports most common formats (mp3, m4a, flac, ape, etc.)\n  - Most common AND custom metadata fields\n  - Chapter support\n  - Embeddable pictures\n  - Hackable (write your own taggers with scripting language)\n</code></pre>\nThanks and have fun.<p>[1]: https:&#x2F;&#x2F;github.com&#x2F;sandreas&#x2F;tone",
       "time": 1658008210,
-      "title": "Tone v0.0.7 – scriptable command line audio tagger",
+      "title": "Show HN: Tone v0.0.7 – scriptable command line audio tagger",
       "type": "story"
     },
     {
@@ -44,7 +54,7 @@
       "by": "danielfoster",
       "descendants": 0,
       "id": 32122258,
-      "score": 2,
+      "score": 4,
       "time": 1658007890,
       "title": "Company sends remote worker photo of herself, fires her for going to kitchen",
       "type": "story",
@@ -74,7 +84,7 @@
       "by": "YeGoblynQueenne",
       "descendants": 0,
       "id": 32122248,
-      "score": 1,
+      "score": 2,
       "time": 1658007734,
       "title": "Woodpeckers Don’t Mind Hitting Trees with Their Faces",
       "type": "story",
@@ -89,16 +99,6 @@
       "title": "Herbert W. Franke has died",
       "type": "story",
       "url": "https://twitter.com/HerbertWFranke/status/1548321370781626372"
-    },
-    {
-      "by": "montalbano",
-      "descendants": 0,
-      "id": 32122095,
-      "score": 3,
-      "time": 1658006473,
-      "title": "'Bees are highly intelligent’: insect IQ tests causing a buzz among scientists",
-      "type": "story",
-      "url": "https://www.theguardian.com/environment/2022/jul/16/bees-are-really-highly-intelligent-the-insect-iq-tests-causing-a-buzz-among-scientists"
     }
   ]
 }
