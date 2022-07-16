@@ -1,6 +1,26 @@
 {
   "stories": [
     {
+      "by": "user0x1d",
+      "descendants": 0,
+      "id": 32122548,
+      "score": 1,
+      "text": "I want to learn medicine. Is there a book you can recommend that reads so simple anyone would understand?<p>I basically don&#x27;t know anything about medicine and would like to learn it.",
+      "time": 1658010704,
+      "title": "Ask HN: Best “ELI5” book to learn medicine?",
+      "type": "story"
+    },
+    {
+      "by": "snowycj",
+      "descendants": 0,
+      "id": 32122544,
+      "score": 1,
+      "time": 1658010667,
+      "title": "Artificial Intelligence and Autonomy in the Militaries of NATO Members [pdf]",
+      "type": "story",
+      "url": "https://ccdcoe.org/uploads/2021/12/Strategies_and_Deployment_A4.pdf"
+    },
+    {
       "by": "seewhat",
       "descendants": 0,
       "id": 32122508,
@@ -80,26 +100,6 @@
       "title": "Superb old engineering simulation games, now open source and available on Linux [pdf]",
       "type": "story",
       "url": "https://github.com/sim-museum/esports-for-engineers/blob/master/files/syllabusFor_eSportsForEngineers.pdf"
-    },
-    {
-      "by": "tosh",
-      "descendants": 0,
-      "id": 32122299,
-      "score": 2,
-      "time": 1658008264,
-      "title": "Chennai’s Napier Bridge decked up like a chessboard ahead of Olympiad",
-      "type": "story",
-      "url": "https://www.hindustantimes.com/india-news/watch-chennai-s-napier-bridge-decked-up-like-a-chessboard-days-ahead-of-olympiad-101657991179988.html"
-    },
-    {
-      "by": "sandreas",
-      "descendants": 0,
-      "id": 32122293,
-      "score": 1,
-      "text": "Hey HN,<p>again some progress on my little (maybe useless) toy project called tone[1] hoping for feedback.<p>tone is a cross plattform command line audio tagger deployed as a single static binary without dependencies, so a wget should be enough to install on any platform (seems not to work on M1 Macs atm... if someone can help here I would really appreciate it).<p>Improvements since the last post (v0.0.4):<p><pre><code>  - multiarch docker image for all major platforms\n    - docker pull sandreas&#x2F;tone:v0.0.7\n    - docker run -it --rm -u $(id -u):$(id -g) -v &quot;$(pwd)&quot;:&#x2F;mnt sandreas&#x2F;tone:v0.0.7 dump my-audio-book.m4b\n  - new JSON metadata format with JSONPath support \n    - tone dump my-file.m4b --format=json --query=&quot;$.meta.album&quot;\n  - metadata writer fixes for m4b audiobooks iTunes\n \n</code></pre>\nGeneral Features:<p><pre><code>  - Supports most common formats (mp3, m4a, flac, ape, etc.)\n  - Most common AND custom metadata fields\n  - Chapter support\n  - Embeddable pictures\n  - Hackable (write your own taggers with scripting language)\n</code></pre>\nThanks and have fun.<p>[1]: https:&#x2F;&#x2F;github.com&#x2F;sandreas&#x2F;tone",
-      "time": 1658008210,
-      "title": "Show HN: Tone v0.0.7 – scriptable command line audio tagger with docker support",
-      "type": "story"
     }
   ]
 }
