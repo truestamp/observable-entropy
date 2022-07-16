@@ -1,6 +1,26 @@
 {
   "stories": [
     {
+      "by": "didgetmaster",
+      "descendants": 0,
+      "id": 32120014,
+      "score": 1,
+      "text": "As many people know, a database engine is usually designed and built to either do transactions well (OLTP) or analytic operations well (OLAP), but not both. There are a few databases on the market that claim to do both kinds, but I don&#x27;t know how well they do in each case.<p>I have created a new kind of general-purpose data management system called Didgets that uses a bunch of key-value stores I invented to attach metadata tags to data objects. It turns out that these same key-value stores work really well in creating columnar-store relational tables. I have created some pretty big tables with it (1000 columns, 200M rows) and it does queries extremely fast.<p>Like other columnar stores, it seems to do analytic operations faster than row-oriented systems, but it can also do transactions pretty fast too. On my desktop I can insert additional rows into a 15M row, 10 column table at a rate of about 100K&#x2F;sec. The latest video on my youtube channel (https:&#x2F;&#x2F;www.youtube.com&#x2F;channel&#x2F;UC-L1oTcH0ocMXShifCt4JQQ) shows it doing that while also doing analytic operations as the data grows.<p>Since my experience with file systems is much more than with databases (I don&#x27;t build data warehouses and do ETL); I don&#x27;t know how important this feature is. I don&#x27;t want to waste time refining this ability and trying to promote it if no one finds that feature particularly useful.<p>Who is using mixed workload databases and why?",
+      "time": 1657991889,
+      "title": "What is your experience with mixed workload (OLTP and OLAP) databases?",
+      "type": "story"
+    },
+    {
+      "by": "stoicjumbotron",
+      "descendants": 0,
+      "id": 32120001,
+      "score": 1,
+      "time": 1657991797,
+      "title": "Kicks Condor",
+      "type": "story",
+      "url": "https://www.kickscondor.com"
+    },
+    {
       "by": "Deeg9rie9usi",
       "descendants": 0,
       "id": 32119974,
@@ -54,7 +74,7 @@
       "by": "paulcarroty",
       "descendants": 0,
       "id": 32119867,
-      "score": 1,
+      "score": 2,
       "time": 1657990872,
       "title": "Ukraine says Big Tech has dropped the ball on Russian propaganda",
       "type": "story",
@@ -80,26 +100,6 @@
       "title": "Exploiting Arbitrary Object Instantiations in PHP Without Custom Classes",
       "type": "story",
       "url": "https://swarm.ptsecurity.com/exploiting-arbitrary-object-instantiations/"
-    },
-    {
-      "by": "fbn79",
-      "descendants": 0,
-      "id": 32119834,
-      "score": 2,
-      "time": 1657990651,
-      "title": "Wrong Again: 50 Years of Failed Eco-Pocalyptic Predictions (2019)",
-      "type": "story",
-      "url": "https://cei.org/blog/wrong-again-50-years-of-failed-eco-pocalyptic-predictions/"
-    },
-    {
-      "by": "samclemens",
-      "descendants": 0,
-      "id": 32119828,
-      "score": 2,
-      "time": 1657990615,
-      "title": "The Rise and Fall of the Manufactured Home – Part I",
-      "type": "story",
-      "url": "https://constructionphysics.substack.com/p/the-rise-and-fall-of-the-mobile-home"
     }
   ]
 }
