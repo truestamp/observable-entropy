@@ -1,10 +1,43 @@
 {
   "stories": [
     {
-      "by": "civilrightsftw",
+      "by": "Damogran6",
       "descendants": 0,
-      "id": 32128775,
+      "id": 32128836,
       "score": 1,
+      "text": "Went to set up my new car payment...stymied because I could only find 3 of the 4 things I needed. (one, single, hardcopy had the account number in full)<p>Went to cancel Paramount+...instructions online didn&#x27;t match the steps needed to do so. (Hit star on your roku and unsubscribe...but it only worked on one of our Rokus)<p>Went to add information to my insurance claim only to find they&#x27;d closed it and the location to add info was well hidden. (All communications are on the claim associated with the vehicle...until they submit the first check, then it dives 8 layers deep, in the closed claims dungeon)<p>Streaming service? That one&#x27;s intentional\nBank? Probably intentional to cut down on fraud<p>Insurance? Probably intentional to cut total audience interaction by X%<p>Man does the internet seem to suck, the closer I look at it.",
+      "time": 1658078390,
+      "title": "Ask HN: Death of a thousand (dark pattern) cuts",
+      "type": "story"
+    },
+    {
+      "by": "newsoul",
+      "descendants": 0,
+      "id": 32128825,
+      "score": 1,
+      "text": "Is programming education broken?<p>If you think so, why?<p>How should it be taught?",
+      "time": 1658078330,
+      "title": "Ask HN: How would you prefer programming be taught standing in 2022?",
+      "type": "story"
+    },
+    {
+      "by": "sensiblesec",
+      "descendants": 0,
+      "id": 32128792,
+      "score": 1,
+      "time": 1658078138,
+      "title": "We analyzed 750 exploited vulnerabilities so you don't have to",
+      "type": "story",
+      "url": "https://inthewild.io/blog/we-analyzed-750-exploited-vulnerabilities-so-you-do-not-have-to"
+    },
+    {
+      "by": "civilrightsftw",
+      "descendants": 1,
+      "id": 32128775,
+      "kids": [
+        32128816
+      ],
+      "score": 5,
       "text": "Posted this as a comment but wanted to start a separate topic about this:<p>What if, just what if, everyone in Texas and other backward places starts ddos-ing government by searching for and visiting abortion clinics? Houston, Dallas, Austin n San Antonio have a population of ~6M. Even if 1% of them do a search and visits once per week, that is 60k cases to investigate. Per week.<p>Is that a legit way to protest governments infringing on our civil rights using surveillance tech?",
       "time": 1658078039,
       "title": "Ask HN: Is this a legit way to protest Texas govt?",
@@ -44,7 +77,7 @@
       "by": "avowud",
       "descendants": 0,
       "id": 32128704,
-      "score": 1,
+      "score": 2,
       "time": 1658077745,
       "title": "Wirth's Law",
       "type": "story",
@@ -64,41 +97,14 @@
       "by": "ceohockey60",
       "descendants": 0,
       "id": 32128678,
-      "score": 3,
+      "kids": [
+        32128838
+      ],
+      "score": 4,
       "time": 1658077638,
       "title": "How to Tax Cloud Computing?",
       "type": "story",
       "url": "https://interconnected.blog/how-do-we-tax-cloud-computing/"
-    },
-    {
-      "by": "FeaturelessBug",
-      "descendants": 0,
-      "id": 32128662,
-      "score": 1,
-      "time": 1658077545,
-      "title": "The Essential Guide to Security and Compliance for the Public Cloud",
-      "type": "story",
-      "url": "https://www.courier.com/blog/security-public-cloud/"
-    },
-    {
-      "by": "arunnanda",
-      "descendants": 0,
-      "id": 32128631,
-      "score": 1,
-      "text": "Hypothetically, consider a social photo platform - each pic gets its own url, this page contains the image, text about the image, buttons for the user to click, related pics, and some user-specific elements (maybe notifications, etc.).<p>There are different ways of going about the frontend. In each case, elements specific to the logged-in-user and the related images get fetched via api calls and are rendered client side.<p>For rendering the rest of the page -<p>1. Everything is rendered client side - one can use a single page application to handle the routing. The page structure stays the same, and new image uri&#x27;s and the associated content are fetched via api calls.<p>SEO is a priority, so pure client side rendering is suboptimal.<p>2. Server side rendering for each page with NextJS or even Express is another option.<p>3. Another way is to do a static export in something like NextJS - which will generate separate html files for each image.<p>4. Now my thought is to skip all of that and go old school with sed&#x2F;awk. We&#x27;ll have a template file with all the styling elements and placeholders for the image uri and its description, etc. Then a script iterates through a list of values (queried from a database) specific to each image (img source URIs, description text, etc.) and uses sed to replace the placeholders in the template file and output a separate html file.<p>Each file has the same javascript to load the user-specific components.<p>Every time someone adds a new image, the script runs with the uri of the image and the description, etc. as the variables passed to it, and adds a new html file in a flat file structure.<p>These &quot;variables&quot; are stored in a database. So whenever we change the &quot;design&quot; of the page, we repeat the same process again - regenerate each html file.<p>The flat file structure will run into limitations, which is solvable with a directory structure. Nginx remains performant  with large numbers of files.<p>Right now, we use NextJS with a mix of server side rendering and static pages, so it is all good. But I have been wondering about achieving something similar with more rudimentary (and performant) tools.<p>There&#x27;s not too much additional work involved - templatizing the html file is straightforward, and this won&#x27;t be difficult to script.<p>What&#x27;s good and bad about this?",
-      "time": 1658077402,
-      "title": "Ask HN: Using sed/awk to bulk generate static HTML pages off of a template",
-      "type": "story"
-    },
-    {
-      "by": "sebastianvoelkl",
-      "descendants": 0,
-      "id": 32128623,
-      "score": 1,
-      "time": 1658077364,
-      "title": "So You Want to Hire in Tech?",
-      "type": "story",
-      "url": "https://sebastianvoelkl.com/2022/06/18/tech-hiring/"
     }
   ]
 }
