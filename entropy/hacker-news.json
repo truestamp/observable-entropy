@@ -1,6 +1,26 @@
 {
   "stories": [
     {
+      "by": "tosh",
+      "descendants": 0,
+      "id": 32126521,
+      "score": 1,
+      "time": 1658064015,
+      "title": "M2 MacBook Air 10 Core vs 8 Core GPU",
+      "type": "story",
+      "url": "https://www.youtube.com/watch?v=lTiDnh8g3ss"
+    },
+    {
+      "by": "tomrod",
+      "descendants": 0,
+      "id": 32126520,
+      "score": 1,
+      "text": "Received from Proton this morning:<p>----<p>Update about recent disruptions to Proton services<p>Dear Proton community member,<p>Earlier this week, some of you may have experienced disruptions with Proton services. While these disruptions were brief for many of you, some community members experienced longer service interruptions. We know this is unacceptable to you, and it also falls short of the standards that we set for ourselves.<p>Proton’s redundant infrastructure means no data or emails were lost. Still, in the spirit of transparency on which Proton is founded, we want to share details about what happened and what we have done to resolve the issue.<p>What happened Over the last several months, we have been upgrading our infrastructure to serve you better. This involves adding new servers and upgrading our software to deliver improvements like faster performance or more storage capacity for paid users. As a part of this process, we upgraded the servers running our core database to a new version on Sunday, July 10. Before this week, we’d extensively tested this upgrade and completed it hundreds of times without incident.<p>However, our core database has higher activity than other databases, and it behaved differently from what the tests led us to expect. Under high activity, it became sensitive to the time it took to establish a connection in an unexpected way. As a result, during the peak activity period on Monday, July 11, connections began to overload the upgraded database. This automatically activated protective measures that prevented some of you from connecting to Proton.<p>When addressing a situation like this, we would typically switch back to the previous version of the database software, but this particular upgrade was irreversible because it changed the database’s data formats.<p>How we solved it As soon as the incident began, we progressively reduced the load on the databases by splitting the workload over more servers and slowing down lower priority services, such as push notifications. This is why some of you might have experienced delays in receiving notifications.<p>Many of these changes required us to bring additional servers online, and our infrastructure engineering team worked in continuous shifts around the clock to get it done. We worked to make the intermittent service interruptions as short as possible during this period. Despite these efforts, we regret that this situation still impacted many of you. After redistributing the database workload, we were able to fully restore system stability and improve performance.<p>Next steps Serving the Proton community is our main priority, and we’re deeply sorry about these service disruptions. We owe you an apology and understand that we must do better. Many of the improvements we have made this week have substantially strengthened Proton’s infrastructure, making disruptions like this one far less likely to occur in the future. We will take these lessons with us as we continuously work to serve you better. We will also publish a more detailed report on the Proton blog in the coming weeks.<p>Proton is building a better internet where people come first and privacy is the default. Our work would not be possible without you. Thank you again for bearing with us and for supporting our mission.<p>Thank you, The Proton Team",
+      "time": 1658064011,
+      "title": "Email from ProtonMail on recent service disruptions",
+      "type": "story"
+    },
+    {
       "by": "todsacerdoti",
       "descendants": 0,
       "id": 32126483,
@@ -24,7 +44,7 @@
       "by": "t_mann",
       "descendants": 0,
       "id": 32126438,
-      "score": 2,
+      "score": 3,
       "time": 1658063385,
       "title": "Netflix is in rough shape. This week will determine its future",
       "type": "story",
@@ -82,26 +102,6 @@
       "title": "Leonardo figured out the beauty of anatomy",
       "type": "story",
       "url": "https://www.theguardian.com/science/2022/jul/17/how-leonardo-figured-out-the-beauty-of-anatomy"
-    },
-    {
-      "by": "erwinh",
-      "descendants": 0,
-      "id": 32126383,
-      "score": 2,
-      "time": 1658062924,
-      "title": "Transaction flow visualisations for Tezos smart contracts",
-      "type": "story",
-      "url": "https://thestackreport.xyz/articles/transaction-flow-new-dashboard-charts"
-    },
-    {
-      "by": "arrow7000",
-      "descendants": 0,
-      "id": 32126368,
-      "score": 1,
-      "time": 1658062761,
-      "title": "Show HN: Chrome extension for downloading DALL·E 2 images with their prompts",
-      "type": "story",
-      "url": "https://github.com/Arrow7000/dall-e-downloader"
     }
   ]
 }
