@@ -1,10 +1,40 @@
 {
   "stories": [
     {
+      "by": "stevenjgarner",
+      "descendants": 0,
+      "id": 32130681,
+      "score": 1,
+      "text": "Entering into the sale of a business with a significant capital gain on both software and real estate.  Any suggestions on best practices that have worked?<p>In particular, has anyone used either a Delaware Statutory Trust or a Deferred Sales Trust (for both asset types)?  Or a Rule 1031 Exchange or Opportunity Zone with real estate?<p>I understand the whole Qualified Opportunity Fund (QOF) program is scheduled to sunset as of December 31, 2026, making any investment since December 31, 2021 unable to become fully realized with a 10-year tax-free sale.   Is that true?  Are there any work-arounds?",
+      "time": 1658088288,
+      "title": "Ask HN: Business sale suggestions on management of capital gain tax",
+      "type": "story"
+    },
+    {
+      "by": "CharlesW",
+      "descendants": 0,
+      "id": 32130637,
+      "score": 1,
+      "time": 1658088007,
+      "title": "Google’s now relying on developers to provide app data collection information",
+      "type": "story",
+      "url": "https://www.theverge.com/2022/7/17/23259385/google-play-store-developers-accurate-app-data-collection-information-safety"
+    },
+    {
+      "by": "zjor",
+      "descendants": 0,
+      "id": 32130636,
+      "score": 1,
+      "text": "Hi, I&#x27;d like to talk about my Telegram [@Mqtt2TelegramBot](https:&#x2F;&#x2F;t.me&#x2F;Mqtt2TelegramBot).<p>It gives you a flexible way to add notifications to your project (e.g. IoT-sensor readings, CI&#x2F;CD pipeline status, anything which is capable of making an HTTP request)<p>The bot allows you to generate a private API for sending messages and configure the types of notifications you are interested in.<p>Under the hood, it uses MQTT (HiveMQ) in order to decouple event producers and consumers.<p>When you subscribe to a `topic` of your choice the bot automatically generates an API key for you and returns a CLI command to send a message to the `topic`.<p>You can manage subscriptions directly from the bot with `&#x2F;sub`, `&#x2F;list`, `&#x2F;unsub` commands and review the CLI commands used to send messages with `&#x2F;httpie topic` command.<p>The bot also supports sending images.<p>Please check out the [repo](https:&#x2F;&#x2F;github.com&#x2F;zjor&#x2F;mqtt2telegram) and the [website](https:&#x2F;&#x2F;zjor.github.io&#x2F;mqtt2telegram&#x2F;) for the details and the integration snippets.<p>Let me know what you think of this!<p>Happy messaging!",
+      "time": 1658087998,
+      "title": "Welcome Mqtt2TelegramBot",
+      "type": "story"
+    },
+    {
       "by": "yamrzou",
       "descendants": 0,
       "id": 32130626,
-      "score": 1,
+      "score": 2,
       "time": 1658087953,
       "title": "Sitting and Standing at Work",
       "type": "story",
@@ -45,9 +75,12 @@
     },
     {
       "by": "Iriien",
-      "descendants": 0,
+      "descendants": 1,
       "id": 32130578,
-      "score": 1,
+      "kids": [
+        32130683
+      ],
+      "score": 2,
       "text": "For context, I&#x27;m a librarian purchasing tech books for my public library.  We have around 30 books just on Python alone, not counting any that are about using Python for things like machine learning or data science.<p>Other than clear version changes (like Python 2 to Python 3), are older programming books still useful? The majority of the books span from around 2014 to the present, and they&#x27;re all still circulating.<p>Thanks!  (And thank you for the book recommendations posted here as well, I have definitely purchased some of them for our collection.)",
       "time": 1658087713,
       "title": "Ask HN: Are older programming books useful?",
@@ -75,36 +108,6 @@
       "time": 1658087491,
       "title": "Ask HN: Does being different make you feel better?",
       "type": "story"
-    },
-    {
-      "by": "softwaredoug",
-      "descendants": 0,
-      "id": 32130524,
-      "score": 2,
-      "time": 1658087430,
-      "title": "Alarm in Beijing after announcement zero-Covid policy may last five years",
-      "type": "story",
-      "url": "https://www.theguardian.com/world/2022/jun/27/alarm-in-beijing-after-announcement-zero-covid-policy-may-last-five-years"
-    },
-    {
-      "by": "codexjourneys",
-      "descendants": 0,
-      "id": 32130499,
-      "score": 1,
-      "time": 1658087253,
-      "title": "A System Dynamics Primer",
-      "type": "story",
-      "url": "https://riskmusings.substack.com/p/a-system-dynamics-primer-drawing"
-    },
-    {
-      "by": "optimalsolver",
-      "descendants": 0,
-      "id": 32130477,
-      "score": 2,
-      "time": 1658087119,
-      "title": "Selection Versus Control (2019)",
-      "type": "story",
-      "url": "https://www.lesswrong.com/posts/ZDZmopKquzHYPRNxq/selection-vs-control"
     }
   ]
 }
