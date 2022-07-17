@@ -1,10 +1,40 @@
 {
   "stories": [
     {
+      "by": "akselmo",
+      "descendants": 0,
+      "id": 32128472,
+      "score": 1,
+      "time": 1658076602,
+      "title": "What worries me about AI tooling",
+      "type": "story",
+      "url": "https://www.akselmo.dev/2022/07/17/What-worries-me-about-AI-tools.html"
+    },
+    {
+      "by": "sonabinu",
+      "descendants": 0,
+      "id": 32128468,
+      "score": 1,
+      "time": 1658076583,
+      "title": "Engineers Think Like Investors, Not Builders",
+      "type": "story",
+      "url": "https://levelup.gitconnected.com/the-best-engineers-think-like-investors-not-builders-cf005e75ab80?gi=c9db679aab56"
+    },
+    {
+      "by": "techwiz137",
+      "descendants": 0,
+      "id": 32128439,
+      "score": 1,
+      "text": "Recently I&#x27;ve been thinking of building a project that would aggregate and sort prices of products from a specific industry, these products are into the hundreds of thousands at least. As a feature I wish to offer the user the ability to see if ordering multile products from one site will be cheaper in shipping than ordering these items separately, or suggest a route where this will end up being the cheapest.<p>However at it&#x27;s core, every time a user submits a query for a product, I must route this request(read scrape) to a set of websites that contain these products and sort the data however the user wants it. If the data is scraped from 10 websites, then 1 user = 10 requests from my end, 2 users = 20. Just mentally thinking about it, I wonder at what point my traffic will be interpreted as an attack and then blocked, not to mention at least one of these sites is CloudFlare protected. Because of the nature of the products, a single user may need to find several products, so again several queries I must route.<p>The data cannot be prescraped because I have to issue hundreds of thousands of search queries to PER site, and then the price may change because of reasons such as a discount was in effect, a price hike or price reduction, usually it will be discounts, the overall price may not change as frequently as say GPU prices these days.",
+      "time": 1658076399,
+      "title": "Ask HN: Is it feasible to have real-time price comparison?",
+      "type": "story"
+    },
+    {
       "by": "AinderS",
       "descendants": 0,
       "id": 32128405,
-      "score": 1,
+      "score": 7,
       "time": 1658076253,
       "title": "German Government Lied About Nuclear",
       "type": "story",
@@ -42,9 +72,12 @@
     },
     {
       "by": "samh748",
-      "descendants": 0,
+      "descendants": 1,
       "id": 32128299,
-      "score": 1,
+      "kids": [
+        32128428
+      ],
+      "score": 2,
       "text": "Due to life circumstances, it&#x27;s incredibly difficult to allocate large chunks of time towards my goals. And I&#x27;m the kind of person that takes a substantial amount of time to settle into focus mode. As a resultl I mostly spend these fragments of time scattered, doing unimportant work.<p>Have any of you found a way to achieve anything worthwhile with only small chunks of time?",
       "time": 1658075645,
       "title": "Ask HN: How do I achieve my goals with only fragments of time?",
@@ -54,7 +87,7 @@
       "by": "cwwc",
       "descendants": 0,
       "id": 32128296,
-      "score": 1,
+      "score": 2,
       "time": 1658075631,
       "title": "America Runs on Boba Drinks",
       "type": "story",
@@ -69,36 +102,6 @@
       "title": "Arizona ranked worst state to live in",
       "type": "story",
       "url": "https://www.12news.com/article/life/worst-states-to-live-in-arizona-ranked-1/75-f1128a8a-de14-400f-9828-843c6489e827"
-    },
-    {
-      "by": "kiyanwang",
-      "descendants": 0,
-      "id": 32128271,
-      "score": 2,
-      "time": 1658075532,
-      "title": "The Slow March of Progress in Programming Language Tooling",
-      "type": "story",
-      "url": "https://earthly.dev/blog/programming-language-improvements/"
-    },
-    {
-      "by": "kiyanwang",
-      "descendants": 0,
-      "id": 32128259,
-      "score": 1,
-      "time": 1658075463,
-      "title": "What Makes a Senior Engineer? Writing Software vs. Building Systems",
-      "type": "story",
-      "url": "https://codewithstyle.info/software-vs-systems/"
-    },
-    {
-      "by": "ogogmad",
-      "descendants": 0,
-      "id": 32128235,
-      "score": 1,
-      "time": 1658075328,
-      "title": "[PDF] Mathematical Definition, Mapping, and Detection of (Anti)Fragility",
-      "type": "story",
-      "url": "https://hal.archives-ouvertes.fr/hal-01151340/document"
     }
   ]
 }
