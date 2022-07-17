@@ -1,11 +1,61 @@
 {
   "stories": [
     {
+      "by": "pg_1234",
+      "descendants": 0,
+      "id": 32128705,
+      "score": 1,
+      "time": 1658077746,
+      "title": "Coinbase stirs rumors of liquidity woes as it halts affiliate-marketing program",
+      "type": "story",
+      "url": "https://insidebitcoins.com/news/coinbase-stirs-rumors-of-liquidity-woes-as-it-halts-affiliate-marketing-program"
+    },
+    {
+      "by": "avowud",
+      "descendants": 0,
+      "id": 32128704,
+      "score": 1,
+      "time": 1658077745,
+      "title": "Wirth's Law",
+      "type": "story",
+      "url": "https://en.wikipedia.org/wiki/Wirth%27s_law"
+    },
+    {
+      "by": "camtarn",
+      "descendants": 0,
+      "id": 32128699,
+      "score": 1,
+      "time": 1658077738,
+      "title": "Avoidance Speech",
+      "type": "story",
+      "url": "https://en.wikipedia.org/wiki/Avoidance_speech"
+    },
+    {
+      "by": "ceohockey60",
+      "descendants": 0,
+      "id": 32128678,
+      "score": 1,
+      "time": 1658077638,
+      "title": "How to Tax Cloud Computing?",
+      "type": "story",
+      "url": "https://interconnected.blog/how-do-we-tax-cloud-computing/"
+    },
+    {
+      "by": "FeaturelessBug",
+      "descendants": 0,
+      "id": 32128662,
+      "score": 1,
+      "time": 1658077545,
+      "title": "The Essential Guide to Security and Compliance for the Public Cloud",
+      "type": "story",
+      "url": "https://www.courier.com/blog/security-public-cloud/"
+    },
+    {
       "by": "arunnanda",
       "descendants": 0,
       "id": 32128631,
       "score": 1,
-      "text": "Hypothetically, consider a social photo platform - each pic gets its own url, this page contains the image, text about the image, buttons for the user to click, related pics, and some user-specific elements (maybe notifications, etc.).<p>There are different ways of going about the frontend. In each case, elements specific to the logged-in-user and the related images get fetched via api calls and are rendered client side.<p>For rendering the rest of the page -<p>1. Everything is rendered client side - one can use a single page application to handle the routing. The page structure stays the same, and new image uri&#x27;s and the associated content are fetched via api calls.<p>SEO is a priority, so pure client side rendering is suboptimal.<p>2. Server side rendering for each page with NextJS or even Express is another option.<p>3. Another way is to do a static export in something like NextJS - which will generate separate html files for each image.<p>4. Now my thought is to skip all of that and go old school with sed&#x2F;awk. We&#x27;ll have a template file with all the styling elements and placeholders for the image uri and its description, etc. Then a script iterates through a list of values (queried from a database) specific to each image (img source URIs, description text, etc.) and uses sed to replace the placeholders in the template file and output a separate html file.<p>Each file has the same javascript to load the user-specific components.<p>Every time someone adds a new image, the script runs with the uri of the image and the description, etc. as the variables passed to it, and adds a new html file in a flat file structure.<p>These &quot;variables&quot; are stored in a database. So whenever we change the &quot;design&quot; of the page, we repeat the same process again - regenerate each html file.<p>The flat file structure will run into limitations, which is solvable with a directory structure.<p>Right now, we use NextJS with a mix of server side rendering and static pages, so it is all good. But I have been wondering about achieving something similar with more rudimentary (and performant) tools.<p>There&#x27;s not too much additional work involved - templatizing the html file is straightforward, and this won&#x27;t be difficult to script.<p>What&#x27;s good and bad about this?",
+      "text": "Hypothetically, consider a social photo platform - each pic gets its own url, this page contains the image, text about the image, buttons for the user to click, related pics, and some user-specific elements (maybe notifications, etc.).<p>There are different ways of going about the frontend. In each case, elements specific to the logged-in-user and the related images get fetched via api calls and are rendered client side.<p>For rendering the rest of the page -<p>1. Everything is rendered client side - one can use a single page application to handle the routing. The page structure stays the same, and new image uri&#x27;s and the associated content are fetched via api calls.<p>SEO is a priority, so pure client side rendering is suboptimal.<p>2. Server side rendering for each page with NextJS or even Express is another option.<p>3. Another way is to do a static export in something like NextJS - which will generate separate html files for each image.<p>4. Now my thought is to skip all of that and go old school with sed&#x2F;awk. We&#x27;ll have a template file with all the styling elements and placeholders for the image uri and its description, etc. Then a script iterates through a list of values (queried from a database) specific to each image (img source URIs, description text, etc.) and uses sed to replace the placeholders in the template file and output a separate html file.<p>Each file has the same javascript to load the user-specific components.<p>Every time someone adds a new image, the script runs with the uri of the image and the description, etc. as the variables passed to it, and adds a new html file in a flat file structure.<p>These &quot;variables&quot; are stored in a database. So whenever we change the &quot;design&quot; of the page, we repeat the same process again - regenerate each html file.<p>The flat file structure will run into limitations, which is solvable with a directory structure. Nginx remains performant  with large numbers of files.<p>Right now, we use NextJS with a mix of server side rendering and static pages, so it is all good. But I have been wondering about achieving something similar with more rudimentary (and performant) tools.<p>There&#x27;s not too much additional work involved - templatizing the html file is straightforward, and this won&#x27;t be difficult to script.<p>What&#x27;s good and bad about this?",
       "time": 1658077402,
       "title": "Ask HN: Using sed/awk to bulk generate static HTML pages off of a template",
       "type": "story"
@@ -49,56 +99,6 @@
       "title": "Research Suggests That Software Piracy Lowers Poverty",
       "type": "story",
       "url": "https://torrentfreak.com/research-suggests-that-software-piracy-lowers-poverty-220717/"
-    },
-    {
-      "by": "nigerian1981",
-      "descendants": 0,
-      "id": 32128573,
-      "score": 1,
-      "time": 1658077125,
-      "title": "UK will not ban video games loot boxes despite problem gambling findings",
-      "type": "story",
-      "url": "https://www.theguardian.com/society/2022/jul/17/uk-will-not-ban-video-games-loot-boxes-despite-problem-gambling-findings"
-    },
-    {
-      "by": "1sembiyan",
-      "descendants": 0,
-      "id": 32128498,
-      "score": 1,
-      "time": 1658076783,
-      "title": "Error Handling Guidelines in C++",
-      "type": "story",
-      "url": "https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#S-errors"
-    },
-    {
-      "by": "akselmo",
-      "descendants": 0,
-      "id": 32128472,
-      "score": 1,
-      "time": 1658076602,
-      "title": "What worries me about AI tooling",
-      "type": "story",
-      "url": "https://www.akselmo.dev/2022/07/17/What-worries-me-about-AI-tools.html"
-    },
-    {
-      "by": "sonabinu",
-      "descendants": 0,
-      "id": 32128468,
-      "score": 1,
-      "time": 1658076583,
-      "title": "Engineers Think Like Investors, Not Builders",
-      "type": "story",
-      "url": "https://levelup.gitconnected.com/the-best-engineers-think-like-investors-not-builders-cf005e75ab80?gi=c9db679aab56"
-    },
-    {
-      "by": "techwiz137",
-      "descendants": 0,
-      "id": 32128439,
-      "score": 1,
-      "text": "Recently I&#x27;ve been thinking of building a project that would aggregate and sort prices of products from a specific industry, these products are into the hundreds of thousands at least. As a feature I wish to offer the user the ability to see if ordering multile products from one site will be cheaper in shipping than ordering these items separately, or suggest a route where this will end up being the cheapest.<p>However at it&#x27;s core, every time a user submits a query for a product, I must route this request(read scrape) to a set of websites that contain these products and sort the data however the user wants it. If the data is scraped from 10 websites, then 1 user = 10 requests from my end, 2 users = 20. Just mentally thinking about it, I wonder at what point my traffic will be interpreted as an attack and then blocked, not to mention at least one of these sites is CloudFlare protected. Because of the nature of the products, a single user may need to find several products, so again several queries I must route.<p>The data cannot be prescraped because I have to issue hundreds of thousands of search queries to PER site, and then the price may change because of reasons such as a discount was in effect, a price hike or price reduction, usually it will be discounts, the overall price may not change as frequently as say GPU prices these days.",
-      "time": 1658076399,
-      "title": "Ask HN: Is it feasible to have real-time price comparison?",
-      "type": "story"
     }
   ]
 }
