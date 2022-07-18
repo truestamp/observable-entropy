@@ -52,13 +52,14 @@
     },
     {
       "by": "pcr910303",
-      "descendants": 2,
+      "descendants": 7,
       "id": 32134038,
       "kids": [
         32134065,
+        32134192,
         32134105
       ],
-      "score": 13,
+      "score": 17,
       "time": 1658112646,
       "title": "An ex-Googler's guide to dev tools",
       "type": "story",
@@ -102,7 +103,7 @@
       "descendants": 0,
       "id": 32134011,
       "score": 2,
-      "text": "I have created a Cron alternative that runs DAGs (Directed acyclic graph) defined in a simple YAML format.<p>Why not Airflow? Airflow and other similar tools are powerful and valuable, but in most cases, they require writing code to manage workflows.<p>Our ETL pipeline is already hundreds of thousands of lines of complex code in Perl and shell scripts. Adding another layer of Python on top of this might make it difficult to maintain. Instead, we needed a more lightweight solution.<p>So we developed Dagu, which requires no coding, and is easy-to-use and self-contained, making it ideal for smaller projects with fewer people.<p>Any feedback or comments will be very welcomed. Thank you :)",
+      "text": "I have created a Cron alternative that runs DAGs (Directed acyclic graph) defined in a simple YAML format.<p>Why not Airflow? Airflow and other similar tools are powerful and valuable, but in most cases, they require writing code to manage workflows.<p>Our ETL pipeline is already hundreds of thousands of lines of complex code in Perl and shell scripts. Adding another layer of Python on top of this would make it difficult to maintain. Instead, we needed a more lightweight solution.<p>So we developed Dagu, which requires no coding, and is easy-to-use and self-contained, making it ideal for smaller projects with fewer people.",
       "time": 1658112419,
       "title": "Show HN: A just another Cron alternative but with much more capabilities",
       "type": "story",
