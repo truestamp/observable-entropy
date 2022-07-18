@@ -1,6 +1,52 @@
 {
   "stories": [
     {
+      "by": "toto444",
+      "descendants": 0,
+      "id": 32136526,
+      "score": 2,
+      "time": 1658139824,
+      "title": "Forests Now Cover 2% of Iceland",
+      "type": "story",
+      "url": "https://www.icelandreview.com/nature-travel/forests-now-cover-2-of-iceland/"
+    },
+    {
+      "by": "simonebrunozzi",
+      "descendants": 0,
+      "id": 32136518,
+      "score": 1,
+      "time": 1658139707,
+      "title": "Countries with highest default risk in 2022",
+      "type": "story",
+      "url": "https://medium.com/technicity/which-countries-are-at-the-highest-risk-of-default-in-2022-d0ef3301555b"
+    },
+    {
+      "by": "Younnikly",
+      "descendants": 1,
+      "id": 32136515,
+      "kids": [
+        32136516
+      ],
+      "score": 1,
+      "time": 1658139670,
+      "title": "Software to Prevent Human Conflict",
+      "type": "story",
+      "url": "https://fwnbc.marketminute.com/article/getnews-2022-7-6-worlds-first-human-conflict-predictive-ai-younnikly-announces-launching"
+    },
+    {
+      "by": "brsc2909",
+      "descendants": 1,
+      "id": 32136513,
+      "kids": [
+        32136514
+      ],
+      "score": 1,
+      "time": 1658139657,
+      "title": "Increase your string compression ratio with emojis",
+      "type": "story",
+      "url": "https://twitter.com/brsc2909/status/1548949192688603136"
+    },
+    {
       "by": "tosh",
       "descendants": 0,
       "id": 32136509,
@@ -34,7 +80,7 @@
       "by": "pantalaimon",
       "descendants": 0,
       "id": 32136483,
-      "score": 1,
+      "score": 2,
       "time": 1658139299,
       "title": "Asahi Linux: July 2022 Release and Progress Report",
       "type": "story",
@@ -42,8 +88,11 @@
     },
     {
       "by": "agucova",
-      "descendants": 0,
+      "descendants": 1,
       "id": 32136450,
+      "kids": [
+        32136511
+      ],
       "score": 1,
       "time": 1658138941,
       "title": "Association between alcohol consumption, brain iron and cognitive decline",
@@ -52,52 +101,15 @@
     },
     {
       "by": "dxsh",
-      "descendants": 0,
+      "descendants": 1,
       "id": 32136440,
+      "kids": [
+        32136532
+      ],
       "score": 1,
       "text": "Hi,<p>all the APIs I&#x27;ve ever written have been in Python, more specifically Django and FastAPI. I&#x27;m looking to resaddle as a nodejs dev, but need to hone my node.js skills.<p>Looking at the node.js ecosystem, there&#x27;s tons of packages for every imaginable thing. However, I&#x27;ve not been able to find a more comprehensive framework as such as Django for node.js... Am I just not looking hard enough?",
       "time": 1658138838,
       "title": "Ask HN: Writing APIs in Node.js – best framework?",
-      "type": "story"
-    },
-    {
-      "by": "pyinstallwoes",
-      "descendants": 0,
-      "id": 32136435,
-      "score": 1,
-      "time": 1658138790,
-      "title": "Watson: Wasted but Turing-Incomplete Stack-Based Object Notation",
-      "type": "story",
-      "url": "https://github.com/genkami/watson"
-    },
-    {
-      "by": "todsacerdoti",
-      "descendants": 0,
-      "id": 32136429,
-      "score": 1,
-      "time": 1658138659,
-      "title": "Improving “Extract Function” in Rust Analyzer",
-      "type": "story",
-      "url": "https://dorianlistens.com/2022/07/improving-extract-function-in-rust-analyzer/"
-    },
-    {
-      "by": "Tomte",
-      "descendants": 0,
-      "id": 32136426,
-      "score": 1,
-      "time": 1658138639,
-      "title": "How to Protest Safely and Legally (2017)",
-      "type": "story",
-      "url": "https://lifehacker.com/how-to-protest-safely-and-legally-5859590"
-    },
-    {
-      "by": "gdcbe",
-      "descendants": 0,
-      "id": 32136419,
-      "score": 1,
-      "text": "On the side, next to work and kids, I am working on a company of my wife and myself, where we develop software of all kinds. While privacy is not our core business we do want to make sure that our customers are never the product and that we store only the data that we need to store. Also for hosting we try to be careful on how we do so. We also do not do any tracking on our end for anything and we only ask info we really need (which is pretty much nothing).<p>For the most part that is all well. But the only thing I am struggling with is how to allow people to register accounts and manage it. The simplest way would be to just do it purely based on a username and password (with or without 2FA), but that would not allow account recovery for your average non-technical person.<p>The next obvious path would be to instead go for (1) 0Auth or something similar or (2) email.<p>(1) is not really a preferred solution as it would mean I need to integrate potential tracking software in our applications&#x2F;platforms + it would mean that on the end of their social accounts that they are aware of the platforms of us they use.<p>(2) could have been nice if it wasn&#x27;t for the madness that emails are. We can for example not simply host our own mail server without jumping through a lot of hoops and even then hoping to not get caught by some zealous spam filter.<p>I do not know however any solution besides these. It&#x27;s a problem that I face for all our platforms and apps. How to allow users to register and recover accounts, without doing it in the more obvious non-privacy-aware solutions? For now I think that email might be the easiest, but I don&#x27;t have experience with any such service that would allow us to do it for an affordable price, given we are still paying everything out of our own pockets for now...<p>For technical users there are very nice solutions, such as letting them store their own Private key of some key pair, just to give na example. But I know that for the average user we do probably need to manage a solution for them somehow.<p>The reason they need an account is for example if the app allows to do cloud syncing, or purchase something, or on another platform if you want to actually submit content yourself. Each app&#x2F;plaform will have their own accounts, but I face the problem for all our (future &#x2F; potential) problems.<p>A side question is also. If we use a payment provider such as Stripe, do these allow us to accept payments via their API without us having to store any credit card info of some kind? As that would be pretty excellent and save us a lot of trouble there to.<p>---<p>And yes I am aware that there will always be tracking anyway (logs from hosting, even though Hetzner is pretty basic in that regards AFAIK) as well as network &#x2F; telecom providers, etc... But that being said, everything we can control I do like to keep that surface as limited or non-existent as possible.<p>Thanks! And Thank you general for building &#x2F; maintaining this awesome community, has been a greet help so far in my last decade or so :) Even though I am mostly a lurker I must admit. On a funny related note this is also my third account or so, as for the first 2 I didn&#x27;t register an email myself, so I do know the problem at first hand as well.",
-      "time": 1658138543,
-      "title": "Ask HN: Privacy-aware cheap Account Management Solution",
       "type": "story"
     }
   ]
