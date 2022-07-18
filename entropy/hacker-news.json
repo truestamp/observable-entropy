@@ -1,10 +1,41 @@
 {
   "stories": [
     {
+      "by": "lleb97a",
+      "descendants": 0,
+      "id": 32136788,
+      "score": 1,
+      "text": "Hi, HN.<p>I was struggling to get a color palette right for a small game I was making in Unity and decided I&#x27;d throw together something that gave me a few dials to play with. Naturally, when the proof of concept worked I began expanding it and then some every time I wanted more independent control.<p>It was initially born of frustration of not being able to do certain basic things in Photoshop, like invert HSV values independently. And if they were possible they were usually cumbersome.<p>Anyway, It&#x27;s done it&#x27;s job for me for now. So given that color related content seems to be popular here - and I&#x27;ve never contributed a piece of software to the world - I thought I&#x27;d upload it to the web &quot;as is&quot; for free and perhaps someone else might find it useful. Any feedback is appreciated and if there is enough demand I might continue working on.<p>Thanks for your time.",
+      "time": 1658142303,
+      "title": "Show HN: A free web app to create, explore and generate color palettes",
+      "type": "story",
+      "url": "https://solitarysoftware.itch.io/ultracolor"
+    },
+    {
+      "by": "remrem",
+      "descendants": 0,
+      "id": 32136781,
+      "score": 1,
+      "time": 1658142232,
+      "title": "Understanding micro front ends",
+      "type": "story",
+      "url": "https://frontendmastery.com/posts/understanding-micro-frontends/"
+    },
+    {
+      "by": "loudtdarrow",
+      "descendants": 0,
+      "id": 32136764,
+      "score": 1,
+      "time": 1658142107,
+      "title": "Science is too broke to afford true facts",
+      "type": "story",
+      "url": "https://www.welltechnically.news/p/science-too-broke-to-afford-true-facts"
+    },
+    {
       "by": "DanUKs",
       "descendants": 0,
       "id": 32136733,
-      "score": 1,
+      "score": 3,
       "text": "I love building and working - always have, always will. I&#x27;ve been programming for nearly 10 years, 5 of those professionally but the industry is literally destroying my soul and it has recently become crippling.<p>I&#x27;ve been in all kinds of jobs, from start-ups to massive corporate companies. I&#x27;m forever building my own side projects as I love it, as well as love the idea of making my own living but as you all know, side hustles don&#x27;t make money over night.<p>I&#x27;m currently in a great job. By great job I mean, the money is really good, there&#x27;s room to grow and the opportunities are endless... Yet I can&#x27;t bare it. I can&#x27;t bare the devs that go out of their way to work weekends without being asked, I can&#x27;t bare the endless meetings, constant micromanagement, bringing the stress home to my family.<p>I don&#x27;t know where or who to turn to. Can anyone relate?",
       "time": 1658141844,
       "title": "I LOVE programming but HATE the industry. Can anyone relate?",
@@ -14,7 +45,7 @@
       "by": "8b16380d",
       "descendants": 0,
       "id": 32136728,
-      "score": 1,
+      "score": 2,
       "time": 1658141811,
       "title": "In Praise of Stacked PRs",
       "type": "story",
@@ -24,7 +55,7 @@
       "by": "Tomte",
       "descendants": 0,
       "id": 32136725,
-      "score": 1,
+      "score": 2,
       "time": 1658141791,
       "title": "What's Cooking on Sourcehut?",
       "type": "story",
@@ -34,7 +65,7 @@
       "by": "firstSpeaker",
       "descendants": 0,
       "id": 32136718,
-      "score": 1,
+      "score": 2,
       "time": 1658141726,
       "title": "Lawmakers want federal regulators to track crypto mining energy use",
       "type": "story",
@@ -54,7 +85,7 @@
       "by": "jamesfisher",
       "descendants": 0,
       "id": 32136715,
-      "score": 1,
+      "score": 2,
       "text": "We recently released an online course. [1] It&#x27;s $29, but we&#x27;ve had users saying, &quot;I&#x27;m in {poorer country than USA}, and I can&#x27;t afford the $29. Do you offer regional pricing?&quot;<p>I would like to support this. The dollar-value to a customer in India is probably lower than in the USA.<p>Most big platforms (Udemy, App Store, Play Store) seem to solve this with a price tier matrix. They maintain a big table of prices per (tier, currency). The tier comes from the product, and the currency comes from ... the user&#x27;s IP address? (See example matrix [2])<p>To build this from scratch, I would have to:<p>* Define a list of tiers, each with a hard-coded USD price.<p>* Maintain a list of Purchasing Power Parity multipliers for each currency. For example, regularly scrape OECD data.<p>* To get a tier&#x27;s price in currency X, multiply by the current PPP.<p>* Somehow clamp the prices to &quot;appealing&quot; values, so we get e.g. £25 instead of £24.19.<p>* Ensure we never make a loss after subtracting Stripe fees!<p>* Detect a user&#x27;s location. Presumably using IP. Map location to a country, and country to a currency.<p>* Probably many more things I haven&#x27;t thought of.<p>This feels like a generic problem that I shouldn&#x27;t be re-solving myself. So, questions:<p>* What libraries&#x2F;services can I use instead?<p>* How do you do implement localized pricing?<p>* Are there complexities that explain why there&#x27;s not an out-of-the-box solution?<p>[1]: https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=32118530\n[2]: https:&#x2F;&#x2F;s3.amazonaws.com&#x2F;udemy-images&#x2F;support&#x2F;Udemy+Price+Tier+Matrix+-+EN+09-17+Matrix.pdf",
       "time": 1658141708,
       "title": "Ask HN: How do you localize your prices?",
@@ -69,39 +100,6 @@
       "title": "PHP's Evolution from 5.6 to 8.2",
       "type": "story",
       "url": "https://stitcher.io/blog/evolution-of-a-php-object"
-    },
-    {
-      "by": "arbesman",
-      "descendants": 0,
-      "id": 32136646,
-      "score": 1,
-      "time": 1658141118,
-      "title": "The Technological Parentheses of Our Lives (2021)",
-      "type": "story",
-      "url": "https://arbesman.substack.com/p/-the-technological-parentheses-of"
-    },
-    {
-      "by": "storstampso",
-      "descendants": 5,
-      "id": 32136609,
-      "kids": [
-        32136610
-      ],
-      "score": 5,
-      "time": 1658140822,
-      "title": "Is monzo's create account algorithm racist?",
-      "type": "story",
-      "url": "https://monzo.com/legal/privacy-notice/version-1-10/"
-    },
-    {
-      "by": "Abishek_Muthian",
-      "descendants": 0,
-      "id": 32136586,
-      "score": 1,
-      "time": 1658140524,
-      "title": "Google Play hides app permissions in favor of developer-written descriptions",
-      "type": "story",
-      "url": "https://arstechnica.com/gadgets/2022/07/google-plays-new-privacy-section-actually-hides-app-permissions/"
     }
   ]
 }
