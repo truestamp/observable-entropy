@@ -1,6 +1,36 @@
 {
   "stories": [
     {
+      "by": "todsacerdoti",
+      "descendants": 0,
+      "id": 32136429,
+      "score": 1,
+      "time": 1658138659,
+      "title": "Improving “Extract Function” in Rust Analyzer",
+      "type": "story",
+      "url": "https://dorianlistens.com/2022/07/improving-extract-function-in-rust-analyzer/"
+    },
+    {
+      "by": "Tomte",
+      "descendants": 0,
+      "id": 32136426,
+      "score": 1,
+      "time": 1658138639,
+      "title": "How to Protest Safely and Legally (2017)",
+      "type": "story",
+      "url": "https://lifehacker.com/how-to-protest-safely-and-legally-5859590"
+    },
+    {
+      "by": "gdcbe",
+      "descendants": 0,
+      "id": 32136419,
+      "score": 1,
+      "text": "On the side, next to work and kids, I am working on a company of my wife and myself, where we develop software of all kinds. While privacy is not our core business we do want to make sure that our customers are never the product and that we store only the data that we need to store. Also for hosting we try to be careful on how we do so. We also do not do any tracking on our end for anything and we only ask info we really need (which is pretty much nothing).<p>For the most part that is all well. But the only thing I am struggling with is how to allow people to register accounts and manage it. The simplest way would be to just do it purely based on a username and password (with or without 2FA), but that would not allow account recovery for your average non-technical person.<p>The next obvious path would be to instead go for (1) 0Auth or something similar or (2) email.<p>(1) is not really a preferred solution as it would mean I need to integrate potential tracking software in our applications&#x2F;platforms + it would mean that on the end of their social accounts that they are aware of the platforms of us they use.<p>(2) could have been nice if it wasn&#x27;t for the madness that emails are. We can for example not simply host our own mail server without jumping through a lot of hoops and even then hoping to not get caught by some zealous spam filter.<p>I do not know however any solution besides these. It&#x27;s a problem that I face for all our platforms and apps. How to allow users to register and recover accounts, without doing it in the more obvious non-privacy-aware solutions? For now I think that email might be the easiest, but I don&#x27;t have experience with any such service that would allow us to do it for an affordable price, given we are still paying everything out of our own pockets for now...<p>For technical users there are very nice solutions, such as letting them store their own Private key of some key pair, just to give na example. But I know that for the average user we do probably need to manage a solution for them somehow.<p>The reason they need an account is for example if the app allows to do cloud syncing, or purchase something, or on another platform if you want to actually submit content yourself. Each app&#x2F;plaform will have their own accounts, but I face the problem for all our (future &#x2F; potential) problems.<p>A side question is also. If we use a payment provider such as Stripe, do these allow us to accept payments via their API without us having to store any credit card info of some kind? As that would be pretty excellent and save us a lot of trouble there to.<p>---<p>And yes I am aware that there will always be tracking anyway (logs from hosting, even though Hetzner is pretty basic in that regards AFAIK) as well as network &#x2F; telecom providers, etc... But that being said, everything we can control I do like to keep that surface as limited or non-existent as possible.<p>Thanks! And Thank you general for building &#x2F; maintaining this awesome community, has been a greet help so far in my last decade or so :) Even though I am mostly a lurker I must admit. On a funny related note this is also my third account or so, as for the first 2 I didn&#x27;t register an email myself, so I do know the problem at first hand as well.",
+      "time": 1658138543,
+      "title": "Ask HN: Privacy-aware cheap Account Management Solution",
+      "type": "story"
+    },
+    {
       "by": "neya",
       "descendants": 0,
       "id": 32136384,
@@ -64,44 +94,11 @@
       "by": "azophy_2",
       "descendants": 0,
       "id": 32136305,
-      "score": 1,
+      "score": 2,
       "time": 1658137352,
       "title": "A minimal Ubuntu base image modified for Docker-friendliness",
       "type": "story",
       "url": "https://github.com/phusion/baseimage-docker"
-    },
-    {
-      "by": "ofou",
-      "descendants": 0,
-      "id": 32136301,
-      "score": 1,
-      "time": 1658137324,
-      "title": "Ella Fitzgerald Destroys the Harmonic Minor Scale, then goes off (1968)",
-      "type": "story",
-      "url": "https://www.youtube.com/watch?v=-OpTUxaqkCE"
-    },
-    {
-      "by": "4cao",
-      "descendants": 1,
-      "id": 32136285,
-      "kids": [
-        32136286
-      ],
-      "score": 1,
-      "time": 1658137118,
-      "title": "Wall Street titans share views on globalization, pandemic and American dream",
-      "type": "story",
-      "url": "https://www.bloomberg.com/news/features/2022-07-17/wall-street-titans-warn-of-3-big-risks-as-markets-flash-recession-warning"
-    },
-    {
-      "by": "DriftRegion",
-      "descendants": 0,
-      "id": 32136283,
-      "score": 1,
-      "text": "I&#x27;m currently at a small company and often find myself looking outside for solutions and techniques in the embedded software space.\n The areas I&#x27;m interested in are C, testing and testability, architecture and portability, real-time control, build systems and CI. Leaving books and Stack Overflow aside, the value of projects is in their demonstration: the maturity&#x2F;immaturity, advantages&#x2F;drawbacks of particular tools and techniques.<p>The following projects have been of great pedagogical use to me:<p>https:&#x2F;&#x2F;github.com&#x2F;google&#x2F;makani (Bazel, C, testing, architecture, real-time control, code-generation)<p>https:&#x2F;&#x2F;github.com&#x2F;odriverobotics&#x2F;ODrive (real-time control, code-generation, C++)<p>https:&#x2F;&#x2F;github.com&#x2F;FreeRTOS&#x2F;FreeRTOS-Kernel (architecture, C)<p>https:&#x2F;&#x2F;github.com&#x2F;espressif&#x2F;esp-idf (architecture, C, CMake, testing)<p>Which embedded software projects have you learned from and what have you learned from them?",
-      "time": 1658137087,
-      "title": "Ask HN: Embedded Projects to Learn From?",
-      "type": "story"
     }
   ]
 }
