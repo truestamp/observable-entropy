@@ -1,6 +1,46 @@
 {
   "stories": [
     {
+      "by": "DanUKs",
+      "descendants": 0,
+      "id": 32136733,
+      "score": 1,
+      "text": "I love building and working - always have, always will. I&#x27;ve been programming for nearly 10 years, 5 of those professionally but the industry is literally destroying my soul and it has recently become crippling.<p>I&#x27;ve been in all kinds of jobs, from start-ups to massive corporate companies. I&#x27;m forever building my own side projects as I love it, as well as love the idea of making my own living but as you all know, side hustles don&#x27;t make money over night.<p>I&#x27;m currently in a great job. By great job I mean, the money is really good, there&#x27;s room to grow and the opportunities are endless... Yet I can&#x27;t bare it. I can&#x27;t bare the devs that go out of their way to work weekends without being asked, I can&#x27;t bare the endless meetings, constant micromanagement, bringing the stress home to my family.<p>I don&#x27;t know where or who to turn to. Can anyone relate?",
+      "time": 1658141844,
+      "title": "I LOVE programming but HATE the industry. Can anyone relate?",
+      "type": "story"
+    },
+    {
+      "by": "8b16380d",
+      "descendants": 0,
+      "id": 32136728,
+      "score": 1,
+      "time": 1658141811,
+      "title": "In Praise of Stacked PRs",
+      "type": "story",
+      "url": "https://benjamincongdon.me/blog/2022/07/17/In-Praise-of-Stacked-PRs/"
+    },
+    {
+      "by": "Tomte",
+      "descendants": 0,
+      "id": 32136725,
+      "score": 1,
+      "time": 1658141791,
+      "title": "What's Cooking on Sourcehut?",
+      "type": "story",
+      "url": "https://sourcehut.org/blog/2022-07-18-whats-cooking-july-2022/"
+    },
+    {
+      "by": "firstSpeaker",
+      "descendants": 0,
+      "id": 32136718,
+      "score": 1,
+      "time": 1658141726,
+      "title": "Lawmakers want federal regulators to track crypto mining energy use",
+      "type": "story",
+      "url": "https://www.engadget.com/democratic-lawmakers-want-crypto-miners-to-disclose-energy-use-emissions-214551420.html"
+    },
+    {
       "by": "nigerian1981",
       "descendants": 0,
       "id": 32136716,
@@ -15,7 +55,7 @@
       "descendants": 0,
       "id": 32136715,
       "score": 1,
-      "text": "We recently released an online course. [1] It&#x27;s $29, but we&#x27;ve had users saying, &quot;I&#x27;m in {poorer country than USA}, and I can&#x27;t afford the $29. Do you offer regional pricing?&quot;<p>I would like to support this. The dollar-value to a customer in India is probably lower than in the USA.<p>Most big platforms (Udemy, App Store, Play Store) seem to solve this with a price tier matrix. They maintain a big table of prices per (tier, currency). The tier comes from the product, and the currency comes from ... the user&#x27;s IP address? (See example matrix [2])<p>To build this from scratch, I would have to:<p>* Define a list of tiers, each with a hard-coded USD price.\n* Maintain a list of Purchasing Power Parity multipliers for each currency. For example, regularly scrape OECD data.\n* To get a tier&#x27;s price in currency X, multiply by the current PPP.\n* Somehow clamp the prices to &quot;appealing&quot; values, so we get e.g. £25 instead of £24.19.\n* Ensure we never make a loss after subtracting Stripe fees!\n* Detect a user&#x27;s location. Presumably using IP. Map location to a country, and country to a currency.\n* Probably many more things I haven&#x27;t thought of.<p>This feels like a generic problem that I shouldn&#x27;t be re-solving myself. So, questions:<p>* What libraries&#x2F;services can I use instead?\n* How do you do implement localized pricing?\n* Are there complexities that explain why there&#x27;s not an out-of-the-box solution?<p>[1]: https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=32118530\n[2]: https:&#x2F;&#x2F;s3.amazonaws.com&#x2F;udemy-images&#x2F;support&#x2F;Udemy+Price+Tier+Matrix+-+EN+09-17+Matrix.pdf",
+      "text": "We recently released an online course. [1] It&#x27;s $29, but we&#x27;ve had users saying, &quot;I&#x27;m in {poorer country than USA}, and I can&#x27;t afford the $29. Do you offer regional pricing?&quot;<p>I would like to support this. The dollar-value to a customer in India is probably lower than in the USA.<p>Most big platforms (Udemy, App Store, Play Store) seem to solve this with a price tier matrix. They maintain a big table of prices per (tier, currency). The tier comes from the product, and the currency comes from ... the user&#x27;s IP address? (See example matrix [2])<p>To build this from scratch, I would have to:<p>* Define a list of tiers, each with a hard-coded USD price.<p>* Maintain a list of Purchasing Power Parity multipliers for each currency. For example, regularly scrape OECD data.<p>* To get a tier&#x27;s price in currency X, multiply by the current PPP.<p>* Somehow clamp the prices to &quot;appealing&quot; values, so we get e.g. £25 instead of £24.19.<p>* Ensure we never make a loss after subtracting Stripe fees!<p>* Detect a user&#x27;s location. Presumably using IP. Map location to a country, and country to a currency.<p>* Probably many more things I haven&#x27;t thought of.<p>This feels like a generic problem that I shouldn&#x27;t be re-solving myself. So, questions:<p>* What libraries&#x2F;services can I use instead?<p>* How do you do implement localized pricing?<p>* Are there complexities that explain why there&#x27;s not an out-of-the-box solution?<p>[1]: https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=32118530\n[2]: https:&#x2F;&#x2F;s3.amazonaws.com&#x2F;udemy-images&#x2F;support&#x2F;Udemy+Price+Tier+Matrix+-+EN+09-17+Matrix.pdf",
       "time": 1658141708,
       "title": "Ask HN: How do you localize your prices?",
       "type": "story"
@@ -42,12 +82,12 @@
     },
     {
       "by": "storstampso",
-      "descendants": 4,
+      "descendants": 5,
       "id": 32136609,
       "kids": [
         32136610
       ],
-      "score": 4,
+      "score": 5,
       "time": 1658140822,
       "title": "Is monzo's create account algorithm racist?",
       "type": "story",
@@ -62,47 +102,6 @@
       "title": "Google Play hides app permissions in favor of developer-written descriptions",
       "type": "story",
       "url": "https://arstechnica.com/gadgets/2022/07/google-plays-new-privacy-section-actually-hides-app-permissions/"
-    },
-    {
-      "by": "solarist",
-      "descendants": 0,
-      "id": 32136581,
-      "score": 2,
-      "time": 1658140476,
-      "title": "20 years of payment processing problems",
-      "type": "story",
-      "url": "https://kaimi.io/en/2022/07/20-years-of-payment-processing-problems-en/"
-    },
-    {
-      "by": "footer",
-      "descendants": 0,
-      "id": 32136570,
-      "score": 1,
-      "text": "I&#x27;ve launched this newsletter with a focus on having interesting content to read daily, while teaching European Portuguese.<p>I would love to have your feedback, but you don&#x27;t need to sign up to provide it. Here&#x27;s a few of the previous editions you may read without registering:<p>The Chinese Philosopher [<a href=\"https:&#x2F;&#x2F;preview.mailerlite.com&#x2F;y2i8p3m4g7\" rel=\"nofollow\">https:&#x2F;&#x2F;preview.mailerlite.com&#x2F;y2i8p3m4g7</a>]<p>Rare Means Rare [<a href=\"https:&#x2F;&#x2F;preview.mailerlite.com&#x2F;h4g5p2b8a6\" rel=\"nofollow\">https:&#x2F;&#x2F;preview.mailerlite.com&#x2F;h4g5p2b8a6</a>]<p>Napping &amp; Kids\n[<a href=\"https:&#x2F;&#x2F;preview.mailerlite.com&#x2F;l3d9w6m4x8\" rel=\"nofollow\">https:&#x2F;&#x2F;preview.mailerlite.com&#x2F;l3d9w6m4x8</a>]<p><a href=\"https:&#x2F;&#x2F;dailynata.com\" rel=\"nofollow\">https:&#x2F;&#x2F;dailynata.com</a>",
-      "time": 1658140290,
-      "title": "Show HN: The Newsletter That Teaches Portuguese – In 5 Minutes a Day",
-      "type": "story",
-      "url": "https://dailynata.com"
-    },
-    {
-      "by": "carride",
-      "descendants": 0,
-      "id": 32136561,
-      "score": 1,
-      "time": 1658140184,
-      "title": "Twitter's global agenda, with or without Musk",
-      "type": "story",
-      "url": "https://www.axios.com/2022/07/18/twitter-global-agenda-musk"
-    },
-    {
-      "by": "tosh",
-      "descendants": 0,
-      "id": 32136556,
-      "score": 1,
-      "time": 1658140154,
-      "title": "The Assoziations-Blaster",
-      "type": "story",
-      "url": "http://www.a-blast.org/"
     }
   ]
 }
