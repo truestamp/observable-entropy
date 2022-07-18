@@ -1,10 +1,30 @@
 {
   "stories": [
     {
+      "by": "nigerian1981",
+      "descendants": 0,
+      "id": 32136716,
+      "score": 1,
+      "time": 1658141719,
+      "title": "Woman who lay dead in London flat for 2 years",
+      "type": "story",
+      "url": "https://www.theguardian.com/society/2022/jul/18/what-times-we-live-in-that-nobody-missed-her-the-tragedy-of-sheila-seleoane"
+    },
+    {
+      "by": "jamesfisher",
+      "descendants": 0,
+      "id": 32136715,
+      "score": 1,
+      "text": "We recently released an online course. [1] It&#x27;s $29, but we&#x27;ve had users saying, &quot;I&#x27;m in {poorer country than USA}, and I can&#x27;t afford the $29. Do you offer regional pricing?&quot;<p>I would like to support this. The dollar-value to a customer in India is probably lower than in the USA.<p>Most big platforms (Udemy, App Store, Play Store) seem to solve this with a price tier matrix. They maintain a big table of prices per (tier, currency). The tier comes from the product, and the currency comes from ... the user&#x27;s IP address? (See example matrix [2])<p>To build this from scratch, I would have to:<p>* Define a list of tiers, each with a hard-coded USD price.\n* Maintain a list of Purchasing Power Parity multipliers for each currency. For example, regularly scrape OECD data.\n* To get a tier&#x27;s price in currency X, multiply by the current PPP.\n* Somehow clamp the prices to &quot;appealing&quot; values, so we get e.g. £25 instead of £24.19.\n* Ensure we never make a loss after subtracting Stripe fees!\n* Detect a user&#x27;s location. Presumably using IP. Map location to a country, and country to a currency.\n* Probably many more things I haven&#x27;t thought of.<p>This feels like a generic problem that I shouldn&#x27;t be re-solving myself. So, questions:<p>* What libraries&#x2F;services can I use instead?\n* How do you do implement localized pricing?\n* Are there complexities that explain why there&#x27;s not an out-of-the-box solution?<p>[1]: https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=32118530\n[2]: https:&#x2F;&#x2F;s3.amazonaws.com&#x2F;udemy-images&#x2F;support&#x2F;Udemy+Price+Tier+Matrix+-+EN+09-17+Matrix.pdf",
+      "time": 1658141708,
+      "title": "Ask HN: How do you localize your prices?",
+      "type": "story"
+    },
+    {
       "by": "TheDoctor0",
       "descendants": 0,
       "id": 32136651,
-      "score": 1,
+      "score": 2,
       "time": 1658141153,
       "title": "PHP's Evolution from 5.6 to 8.2",
       "type": "story",
@@ -22,12 +42,12 @@
     },
     {
       "by": "storstampso",
-      "descendants": 1,
+      "descendants": 4,
       "id": 32136609,
       "kids": [
         32136610
       ],
-      "score": 3,
+      "score": 4,
       "time": 1658140822,
       "title": "Is monzo's create account algorithm racist?",
       "type": "story",
@@ -83,26 +103,6 @@
       "title": "The Assoziations-Blaster",
       "type": "story",
       "url": "http://www.a-blast.org/"
-    },
-    {
-      "by": "vpj",
-      "descendants": 0,
-      "id": 32136553,
-      "score": 2,
-      "time": 1658140088,
-      "title": "Show HN: Trending AI Research Papers",
-      "type": "story",
-      "url": "https://ai.papers.bar"
-    },
-    {
-      "by": "giuliomagnifico",
-      "descendants": 0,
-      "id": 32136549,
-      "score": 1,
-      "time": 1658140041,
-      "title": "XDPerimenting with DNS Telemetry",
-      "type": "story",
-      "url": "https://blog.nlnetlabs.nl/journeying-into-xdp-xdperimenting-with-dns-telemetry/"
     }
   ]
 }
