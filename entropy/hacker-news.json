@@ -1,6 +1,56 @@
 {
   "stories": [
     {
+      "by": "latexr",
+      "descendants": 0,
+      "id": 32153876,
+      "score": 1,
+      "time": 1658247299,
+      "title": "More people leaving New Zealand than entering as young flee high cost of living",
+      "type": "story",
+      "url": "https://www.theguardian.com/world/2022/may/18/more-people-leaving-new-zealand-than-entering-as-young-flee-high-cost-of-living"
+    },
+    {
+      "by": "thunderbong",
+      "descendants": 0,
+      "id": 32153873,
+      "score": 1,
+      "time": 1658247295,
+      "title": "Stooge",
+      "type": "story",
+      "url": "https://stooge.me/"
+    },
+    {
+      "by": "hoosieree",
+      "descendants": 0,
+      "id": 32153868,
+      "score": 1,
+      "text": "From the perspective of static site generation, is there a tool to compile HTML+CSS in order to minimize download size?<p>I&#x27;m imagining something which takes the following HTML+CSS:<p><pre><code>    &lt;style&gt;\n    h1{color:red;}\n    h2{color:blue;}\n    .custom{display:none;}\n    .custom2{display:inline;}\n    &lt;&#x2F;style&gt;\n    ...\n    &lt;h2&gt;Hello&lt;&#x2F;h2&gt;\n    &lt;div class=&quot;custom&quot;&gt;\n     &lt;p&gt;lorem ipsum&lt;&#x2F;p&gt;\n     &lt;p&gt;dolor sit amet&lt;&#x2F;p&gt;\n    &lt;&#x2F;div&gt;\n</code></pre>\nAnd transforms it into this:<p><pre><code>    &lt;h2 style=&quot;color:blue&quot;&gt;Hello&lt;&#x2F;h2&gt;\n    &lt;div style=&quot;display:none&quot;&gt;\n     &lt;p&gt;lorem ipsum&lt;&#x2F;p&gt;\n     &lt;p&gt;dolor sit amet&lt;&#x2F;p&gt;\n    &lt;&#x2F;div&gt;\n</code></pre>\nHowever, it should not always inline the css styles, because sometimes that would cause the result to be larger than the original, like this:<p><pre><code>    &lt;style&gt;\n    h1{color:red;}\n    h2{color:blue;}\n    .custom{display:none;}\n    .custom2{display:inline;background-color:yellow;}\n    &lt;&#x2F;style&gt;\n    ...\n    &lt;h2&gt;Hello&lt;&#x2F;h2&gt;\n    &lt;div class=&quot;custom2&quot;&gt;\n     &lt;p class=&quot;custom2&quot;&gt;lorem ipsum&lt;&#x2F;p&gt;\n     &lt;p class=&quot;custom2&quot;&gt;dolor sit amet&lt;&#x2F;p&gt;\n    &lt;&#x2F;div&gt;\n</code></pre>\nHere, &lt;p class=&quot;custom2&quot;&gt; is shorter than &lt;p style=&quot;display:inline;background-color:yellow;&quot;&gt;, so it should remain unchanged.<p>I&#x27;m not talking about tools like https:&#x2F;&#x2F;htmlcompressor.com&#x2F;compressor&#x2F; which only remove whitespace, or gzip compression. What I want is something that understands the semantics of HTML+CSS and can intelligently inline iff that reduces the size of the resulting HTML file.",
+      "time": 1658247284,
+      "title": "Ask HN: How to “compile” HTML+CSS for minimal page size?",
+      "type": "story"
+    },
+    {
+      "by": "thunderbong",
+      "descendants": 0,
+      "id": 32153817,
+      "score": 1,
+      "time": 1658247097,
+      "title": "The evolution of a PHP object throughout the years",
+      "type": "story",
+      "url": "https://stitcher.io/blog/evolution-of-a-php-object"
+    },
+    {
+      "by": "ZeroClickOk",
+      "descendants": 0,
+      "id": 32153815,
+      "score": 1,
+      "time": 1658247083,
+      "title": "No, C# Is Not Dying. But No Language Lives Forever",
+      "type": "story",
+      "url": "https://medium.com/young-coder/no-c-is-not-dying-but-no-language-lives-forever-3f841aeeaf55"
+    },
+    {
       "by": "zubzib",
       "descendants": 1,
       "id": 32153809,
@@ -40,7 +90,7 @@
       "by": "samizdis",
       "descendants": 0,
       "id": 32153743,
-      "score": 2,
+      "score": 3,
       "time": 1658246842,
       "title": "Beware of bad science reporting: No, we haven’t killed 90% of all plankton",
       "type": "story",
@@ -55,56 +105,6 @@
       "title": "Why this startup is on a mission to design the perfect sneaker",
       "type": "story",
       "url": "https://www.fastcompany.com/90758588/why-this-startup-is-on-a-mission-to-design-the-perfect-sneaker"
-    },
-    {
-      "by": "flerp",
-      "descendants": 0,
-      "id": 32153724,
-      "score": 1,
-      "text": "Like really, is there?",
-      "time": 1658246796,
-      "title": "Ask HN: Is there a usable cloud storage alternative to Google Drive and iCloud?",
-      "type": "story"
-    },
-    {
-      "by": "voisin",
-      "descendants": 0,
-      "id": 32153687,
-      "score": 1,
-      "time": 1658246674,
-      "title": "Jamie Dimon: ‘Things can get much worse. We are facing serious problems’",
-      "type": "story",
-      "url": "https://english.elpais.com/economy-and-business/2022-07-11/jamie-dimon-the-worlds-most-powerful-banker-things-can-get-much-worse-we-are-facing-very-serious-problems.html"
-    },
-    {
-      "by": "PaulHoule",
-      "descendants": 0,
-      "id": 32153659,
-      "score": 1,
-      "time": 1658246602,
-      "title": "Largest Photovoltaic Power Stations",
-      "type": "story",
-      "url": "https://en.wikipedia.org/wiki/List_of_photovoltaic_power_stations"
-    },
-    {
-      "by": "CapitalistCartr",
-      "descendants": 0,
-      "id": 32153654,
-      "score": 1,
-      "time": 1658246584,
-      "title": "Modularity for International Internet Governance",
-      "type": "story",
-      "url": "https://www.lawfareblog.com/modularity-international-internet-governance"
-    },
-    {
-      "by": "mrjn",
-      "descendants": 0,
-      "id": 32153653,
-      "score": 3,
-      "time": 1658246582,
-      "title": "Show HN: Launching Sustainable License, an Alternative to Open Source",
-      "type": "story",
-      "url": "https://manishrjain.com/why-sustainable-license"
     }
   ]
 }
