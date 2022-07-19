@@ -1,110 +1,110 @@
 {
   "stories": [
     {
-      "by": "latexr",
+      "by": "Victerius",
       "descendants": 0,
-      "id": 32153876,
+      "id": 32154047,
       "score": 1,
-      "time": 1658247299,
-      "title": "More people leaving New Zealand than entering as young flee high cost of living",
-      "type": "story",
-      "url": "https://www.theguardian.com/world/2022/may/18/more-people-leaving-new-zealand-than-entering-as-young-flee-high-cost-of-living"
-    },
-    {
-      "by": "thunderbong",
-      "descendants": 0,
-      "id": 32153873,
-      "score": 1,
-      "time": 1658247295,
-      "title": "Stooge",
-      "type": "story",
-      "url": "https://stooge.me/"
-    },
-    {
-      "by": "hoosieree",
-      "descendants": 0,
-      "id": 32153868,
-      "score": 1,
-      "text": "From the perspective of static site generation, is there a tool to compile HTML+CSS in order to minimize download size?<p>I&#x27;m imagining something which takes the following HTML+CSS:<p><pre><code>    &lt;style&gt;\n    h1{color:red;}\n    h2{color:blue;}\n    .custom{display:none;}\n    .custom2{display:inline;}\n    &lt;&#x2F;style&gt;\n    ...\n    &lt;h2&gt;Hello&lt;&#x2F;h2&gt;\n    &lt;div class=&quot;custom&quot;&gt;\n     &lt;p&gt;lorem ipsum&lt;&#x2F;p&gt;\n     &lt;p&gt;dolor sit amet&lt;&#x2F;p&gt;\n    &lt;&#x2F;div&gt;\n</code></pre>\nAnd transforms it into this:<p><pre><code>    &lt;h2 style=&quot;color:blue&quot;&gt;Hello&lt;&#x2F;h2&gt;\n    &lt;div style=&quot;display:none&quot;&gt;\n     &lt;p&gt;lorem ipsum&lt;&#x2F;p&gt;\n     &lt;p&gt;dolor sit amet&lt;&#x2F;p&gt;\n    &lt;&#x2F;div&gt;\n</code></pre>\nHowever, it should not always inline the css styles, because sometimes that would cause the result to be larger than the original, like this:<p><pre><code>    &lt;style&gt;\n    h1{color:red;}\n    h2{color:blue;}\n    .custom{display:none;}\n    .custom2{display:inline;background-color:yellow;}\n    &lt;&#x2F;style&gt;\n    ...\n    &lt;h2&gt;Hello&lt;&#x2F;h2&gt;\n    &lt;div class=&quot;custom2&quot;&gt;\n     &lt;p class=&quot;custom2&quot;&gt;lorem ipsum&lt;&#x2F;p&gt;\n     &lt;p class=&quot;custom2&quot;&gt;dolor sit amet&lt;&#x2F;p&gt;\n    &lt;&#x2F;div&gt;\n</code></pre>\nHere, &lt;p class=&quot;custom2&quot;&gt; is shorter than &lt;p style=&quot;display:inline;background-color:yellow;&quot;&gt;, so it should remain unchanged.<p>I&#x27;m not talking about tools like https:&#x2F;&#x2F;htmlcompressor.com&#x2F;compressor&#x2F; which only remove whitespace, or gzip compression. What I want is something that understands the semantics of HTML+CSS and can intelligently inline iff that reduces the size of the resulting HTML file.",
-      "time": 1658247284,
-      "title": "Ask HN: How to “compile” HTML+CSS for minimal page size?",
+      "text": "I often struggle to post news articles with the original title because they exceed HN&#x27;s 100 character limit. Asking questions can also be difficult. Raising the limit to 150 would be much appreciated.",
+      "time": 1658247890,
+      "title": "Ask HN: Should HN's title character limit be expanded from 100 to 150?",
       "type": "story"
     },
     {
-      "by": "thunderbong",
+      "by": "revorad",
       "descendants": 0,
-      "id": 32153817,
+      "id": 32154039,
       "score": 1,
-      "time": 1658247097,
-      "title": "The evolution of a PHP object throughout the years",
+      "time": 1658247873,
+      "title": "A Productivity System for Creators",
       "type": "story",
-      "url": "https://stitcher.io/blog/evolution-of-a-php-object"
+      "url": "http://www.lisperati.com/#!A_Productivity_System_For_Creators"
     },
     {
-      "by": "ZeroClickOk",
+      "by": "CapitalistCartr",
       "descendants": 0,
-      "id": 32153815,
+      "id": 32154004,
       "score": 1,
-      "time": 1658247083,
-      "title": "No, C# Is Not Dying. But No Language Lives Forever",
+      "time": 1658247760,
+      "title": "Google Faces $1B UK Trial over App Store Pricing",
       "type": "story",
-      "url": "https://medium.com/young-coder/no-c-is-not-dying-but-no-language-lives-forever-3f841aeeaf55"
+      "url": "https://www.ibtimes.com/google-faces-1-billion-uk-trial-over-app-store-pricing-3579002"
     },
     {
-      "by": "zubzib",
+      "by": "ciccionamente",
+      "descendants": 0,
+      "id": 32153994,
+      "score": 1,
+      "time": 1658247732,
+      "title": "Hacker News 15 years ago",
+      "type": "story",
+      "url": "https://web.archive.org/web/20070221033032/http://news.ycombinator.com/"
+    },
+    {
+      "by": "jatins",
+      "descendants": 0,
+      "id": 32153984,
+      "score": 1,
+      "time": 1658247702,
+      "title": "Google will let European developers use their own billing systems",
+      "type": "story",
+      "url": "https://www.theverge.com/2022/7/19/23269883/google-eea-app-developers-billing-systems-digital-markets-act"
+    },
+    {
+      "by": "atlasunshrugged",
+      "descendants": 0,
+      "id": 32153952,
+      "score": 1,
+      "time": 1658247571,
+      "title": "Brain-Computer Interface Startup Implants First Device in US Patient",
+      "type": "story",
+      "url": "https://www.bloomberg.com/news/articles/2022-07-18/brain-computer-interface-company-implants-new-type-of-device"
+    },
+    {
+      "by": "CapitalistCartr",
+      "descendants": 0,
+      "id": 32153947,
+      "score": 1,
+      "time": 1658247553,
+      "title": "Westward spread of zebra, quagga mussels shows tiny invaders can cause problems",
+      "type": "story",
+      "url": "https://theconversation.com/the-westward-spread-of-zebra-and-quagga-mussels-shows-how-tiny-invaders-can-cause-big-problems-185286"
+    },
+    {
+      "by": "cromka",
       "descendants": 1,
-      "id": 32153809,
+      "id": 32153924,
       "kids": [
-        32153810
+        32153925
       ],
       "score": 1,
-      "time": 1658247068,
-      "title": "I Made a Minimal RSS Feed Reader for Chrome",
+      "time": 1658247482,
+      "title": "PayPal allows to issue invoices with near perfect phishing. How come?",
       "type": "story",
-      "url": "https://chrome.google.com/webstore/detail/mediareader/mmhmonelddhafoimmcombiidcfaphkgb"
+      "url": "https://imgur.com/xXSBpT8"
     },
     {
-      "by": "triplux",
-      "descendants": 0,
-      "id": 32153792,
-      "score": 1,
-      "time": 1658247013,
-      "title": "A look at DALL·E 2 industrial design – toasters in the style of sci-fi films",
-      "type": "story",
-      "url": "https://twitter.com/triplux/status/1549422372301709315"
-    },
-    {
-      "by": "JayErnani",
+      "by": "allenleein",
       "descendants": 1,
-      "id": 32153773,
+      "id": 32153910,
       "kids": [
-        32153774
+        32153912
       ],
       "score": 1,
-      "time": 1658246947,
-      "title": "Cybersecurity Incident Response Opportunity – Los Angeles",
+      "time": 1658247413,
+      "title": "A 100x Investment (Part 1)",
       "type": "story",
-      "url": "https://farfetchgroupcareers.com/job/4d7182e8-78df-4cf2-93d9-a14554b6dfc0/incident-response-analyst-it-security"
+      "url": "https://blog.comma.ai/a-100x-investment-part-1/"
     },
     {
-      "by": "samizdis",
+      "by": "todsacerdoti",
       "descendants": 0,
-      "id": 32153743,
-      "score": 3,
-      "time": 1658246842,
-      "title": "Beware of bad science reporting: No, we haven’t killed 90% of all plankton",
-      "type": "story",
-      "url": "https://arstechnica.com/science/2022/07/no-the-oceans-are-not-empty-of-plankton/"
-    },
-    {
-      "by": "guiambros",
-      "descendants": 0,
-      "id": 32153737,
+      "id": 32153905,
       "score": 1,
-      "time": 1658246824,
-      "title": "Why this startup is on a mission to design the perfect sneaker",
+      "time": 1658247391,
+      "title": "Strategic ways to level up your CI/CD pipeline",
       "type": "story",
-      "url": "https://www.fastcompany.com/90758588/why-this-startup-is-on-a-mission-to-design-the-perfect-sneaker"
+      "url": "https://github.blog/2022-07-19-6-strategic-ways-to-level-up-your-ci-cd-pipeline/"
     }
   ]
 }
