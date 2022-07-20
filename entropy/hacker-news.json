@@ -1,10 +1,76 @@
 {
   "stories": [
     {
+      "by": "flyingbarron",
+      "descendants": 1,
+      "id": 32168181,
+      "kids": [
+        32168183
+      ],
+      "score": 1,
+      "time": 1658334582,
+      "title": "Apollo 11 Anniversary List of Lunar Landing Lessons",
+      "type": "story",
+      "url": "https://flyingbarron.medium.com/moon-landing-anniversary-c1ff67753546"
+    },
+    {
+      "by": "dvdhsu",
+      "descendants": 0,
+      "id": 32168166,
+      "score": 1,
+      "time": 1658334511,
+      "title": "Big Red Button: how Stripe scaled incident response",
+      "type": "story",
+      "url": "https://retool.com/blog/incident-response-tools-stripe/"
+    },
+    {
+      "by": "geox",
+      "descendants": 0,
+      "id": 32168158,
+      "score": 1,
+      "time": 1658334477,
+      "title": "EU asks member states to start rationing gas",
+      "type": "story",
+      "url": "https://www.axios.com/2022/07/20/eu-countries-ration-gas-russia-blackmail"
+    },
+    {
+      "by": "rrishi",
+      "descendants": 0,
+      "id": 32168132,
+      "score": 1,
+      "text": "Hi HN,<p>I recently saw that this book was available on Audible. I prefer audio-reading books these days to prevent straining my eyes. But I was afraid if I would be missing out on any diagrams etc from the physical book if I opt for the audio version.<p>Has anyone gone through the audio version of the book? Would you recommend it?",
+      "time": 1658334410,
+      "title": "Ask HN: Is it worth it to audio-read Designing Data Intensive Applications?",
+      "type": "story"
+    },
+    {
+      "by": "atlasunshrugged",
+      "descendants": 1,
+      "id": 32168112,
+      "kids": [
+        32168148
+      ],
+      "score": 3,
+      "time": 1658334354,
+      "title": "Cities and Towns Are Paying Tech Workers to Abandon Silicon Valley",
+      "type": "story",
+      "url": "https://www.wsj.com/articles/tech-workers-silicon-valley-move-out-11657918928"
+    },
+    {
+      "by": "smn1234",
+      "descendants": 0,
+      "id": 32168105,
+      "score": 2,
+      "time": 1658334336,
+      "title": "Condo owners in South Beach face millions of dollars in special assessments",
+      "type": "story",
+      "url": "https://therealdeal.com/miami/2022/07/19/mind-boggling-condo-owners-in-south-beach-face-millions-of-dollars-in-special-assessments/"
+    },
+    {
       "by": "upofadown",
       "descendants": 0,
       "id": 32168089,
-      "score": 1,
+      "score": 2,
       "text": "There is currently a committee associated with the IETF (Internet Engineering Task Force) diligently working to replace the block encryption mode used by OpenPGP with something else. The thing is, there is nothing actually wrong with the block encryption mode currently used by OpenPGP. It has been in active use for 20 years now with no issues found. Hence the weirdness. The rational, such as it is, seems to come down to the fact that famous cryptographers like other methods better. That would of been significant 20 years ago when the existing standard was being set but carries no weight now.<p>The current proposal is to replace the current mode with three different modes. Those proposed modes are the sort of thing normally used for online connection oriented media like the TLS system used to protect the web. So they only fit awkwardly for the sort of offline non-connection oriented media that OpenPGP is normally used for. The most significant issue relates to the sort of streaming that many OpenPGP applications are expected to do. The proposed modes can&#x27;t normally do that so the OpenPGP standard has been modified to break the data into blocks to allow the new modes to work. This adds complexity. Extra complexity is known to reduce security and reliability. This ugly hack is entirely unnecessary because, I can not emphasize this enough, there is nothing wrong with the presently used system.<p>Since this is so strange we might as well get some conspiracy theories out of the way... The Snowden leak provided a short list of things the NSA could not get access to. OpenPGP encrypted email was on that list. OpenPGP is used for communications on the dark net. So law enforcement would not mind the loss of interoperability caused by the introduction of a bunch of new encryption modes. The non-technical people that normally use OpenPGP on the dark net probably would not be able to overcome such issues and might have to switch to something else.<p>I seriously doubt there actually is any conspiracy here. My theory is that few understand how the existing system works and as a result automatically assume it doesn&#x27;t. So the story of Chesterton&#x27;s fence might apply.<p>I have attempted to produce an explanation of how the existing OpenPGP encryption mode works:<p>* https:&#x2F;&#x2F;articles.59.ca&#x2F;doku.php?id=pgpfan:mdc | The OpenPGP Modification Detection Code is Actually Good<p>This situation weirded me out enough that I collected my thoughts in the form of an editorial:<p>* https:&#x2F;&#x2F;articles.59.ca&#x2F;doku.php?id=pgpfan:no_new_ae | Replacing the OpenPGP Encryption Mode is Harmful and Pointless",
       "time": 1658334284,
       "title": "There's something odd going on with encryption in the OpenPGP standard",
@@ -39,66 +105,6 @@
       "title": "Sounding Out the Acoustic Integrated Circuit",
       "type": "story",
       "url": "https://spectrum.ieee.org/acoustic-integrated-circuit"
-    },
-    {
-      "by": "amichail",
-      "descendants": 0,
-      "id": 32168001,
-      "score": 1,
-      "time": 1658333976,
-      "title": "TeXmacs: Math operators as objs, subscript rendering, and mild copy-pasting bug",
-      "type": "story",
-      "url": "http://forum.texmacs.cn/t/math-operators-as-objects-subscript-rendering-and-a-mild-copy-pasting-bug/984"
-    },
-    {
-      "by": "perihelions",
-      "descendants": 0,
-      "id": 32167997,
-      "score": 2,
-      "time": 1658333968,
-      "title": "Twitter Worker Accused of Spying for Saudi Arabia Heads to Trial",
-      "type": "story",
-      "url": "https://www.nytimes.com/2022/07/20/technology/twitter-saudi-trial-ahmad-abouammo.html"
-    },
-    {
-      "by": "akbarnama",
-      "descendants": 0,
-      "id": 32167995,
-      "score": 2,
-      "time": 1658333965,
-      "title": "Heatwave led to London firefighters’ busiest day since second world war",
-      "type": "story",
-      "url": "https://www.theguardian.com/uk-news/2022/jul/20/heatwave-led-to-london-firefighters-busiest-day-since-second-world-war"
-    },
-    {
-      "by": "ngcc_hk",
-      "descendants": 0,
-      "id": 32167981,
-      "score": 1,
-      "time": 1658333921,
-      "title": "One institution keeps claiming math’s highest award",
-      "type": "story",
-      "url": "https://arstechnica.com/science/2022/07/how-one-institution-keeps-claiming-maths-highest-award/"
-    },
-    {
-      "by": "rbanffy",
-      "descendants": 0,
-      "id": 32167969,
-      "score": 1,
-      "time": 1658333879,
-      "title": "How the ‘Diamond of the Plant World’ Helped Land Plants Evolve",
-      "type": "story",
-      "url": "https://www.quantamagazine.org/how-the-diamond-of-the-plant-world-helped-land-plants-evolve-20220719/"
-    },
-    {
-      "by": "mohamo",
-      "descendants": 0,
-      "id": 32167950,
-      "score": 2,
-      "text": "Sometimes simple ideas can have a huge impact on your life. Here are some of the top lessons I’ve learned.\n1. It’s possible to retire WAY before 65 as long as you save and invest WAY more than the average person.\n2. If you create a product that people are searching for and genuinely want&#x2F;need, it practically sells itself. \n3. Happiness isn’t just about positive emotion. Martin Seligman created a model for subjective well being called the PERMA model which stands for positive emotion, engagement, relationships, meaning, and accomplishment. You need all 5 components to have long lasting happiness.<p>What simple lessons have disproportionately impacted your life?",
-      "time": 1658333787,
-      "title": "Ask HN: What simple lessons have disproportionately impacted your life?",
-      "type": "story"
     }
   ]
 }
