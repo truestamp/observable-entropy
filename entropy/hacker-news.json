@@ -1,6 +1,46 @@
 {
   "stories": [
     {
+      "by": "upofadown",
+      "descendants": 0,
+      "id": 32168089,
+      "score": 1,
+      "text": "There is currently a committee associated with the IETF (Internet Engineering Task Force) diligently working to replace the block encryption mode used by OpenPGP with something else. The thing is, there is nothing actually wrong with the block encryption mode currently used by OpenPGP. It has been in active use for 20 years now with no issues found. Hence the weirdness. The rational, such as it is, seems to come down to the fact that famous cryptographers like other methods better. That would of been significant 20 years ago when the existing standard was being set but carries no weight now.<p>The current proposal is to replace the current mode with three different modes. Those proposed modes are the sort of thing normally used for online connection oriented media like the TLS system used to protect the web. So they only fit awkwardly for the sort of offline non-connection oriented media that OpenPGP is normally used for. The most significant issue relates to the sort of streaming that many OpenPGP applications are expected to do. The proposed modes can&#x27;t normally do that so the OpenPGP standard has been modified to break the data into blocks to allow the new modes to work. This adds complexity. Extra complexity is known to reduce security and reliability. This ugly hack is entirely unnecessary because, I can not emphasize this enough, there is nothing wrong with the presently used system.<p>Since this is so strange we might as well get some conspiracy theories out of the way... The Snowden leak provided a short list of things the NSA could not get access to. OpenPGP encrypted email was on that list. OpenPGP is used for communications on the dark net. So law enforcement would not mind the loss of interoperability caused by the introduction of a bunch of new encryption modes. The non-technical people that normally use OpenPGP on the dark net probably would not be able to overcome such issues and might have to switch to something else.<p>I seriously doubt there actually is any conspiracy here. My theory is that few understand how the existing system works and as a result automatically assume it doesn&#x27;t. So the story of Chesterton&#x27;s fence might apply.<p>I have attempted to produce an explanation of how the existing OpenPGP encryption mode works:<p>* https:&#x2F;&#x2F;articles.59.ca&#x2F;doku.php?id=pgpfan:mdc | The OpenPGP Modification Detection Code is Actually Good<p>This situation weirded me out enough that I collected my thoughts in the form of an editorial:<p>* https:&#x2F;&#x2F;articles.59.ca&#x2F;doku.php?id=pgpfan:no_new_ae | Replacing the OpenPGP Encryption Mode is Harmful and Pointless",
+      "time": 1658334284,
+      "title": "There's something odd going on with encryption in the OpenPGP standard",
+      "type": "story"
+    },
+    {
+      "by": "makerofspoons",
+      "descendants": 0,
+      "id": 32168079,
+      "score": 1,
+      "time": 1658334265,
+      "title": "Global extinction threat may be much higher than previously thought",
+      "type": "story",
+      "url": "https://www.upi.com/Science_News/2022/07/19/global-extinction-threat-may-be-higher-previously-thought/7501658254724/"
+    },
+    {
+      "by": "amrrs",
+      "descendants": 0,
+      "id": 32168069,
+      "score": 1,
+      "time": 1658334231,
+      "title": "750K Indians have given up Indian citizenship in the last 5 years",
+      "type": "story",
+      "url": "https://twitter.com/aviralbhat/status/1549773704535887872"
+    },
+    {
+      "by": "2517AD",
+      "descendants": 0,
+      "id": 32168024,
+      "score": 1,
+      "time": 1658334065,
+      "title": "Sounding Out the Acoustic Integrated Circuit",
+      "type": "story",
+      "url": "https://spectrum.ieee.org/acoustic-integrated-circuit"
+    },
+    {
       "by": "amichail",
       "descendants": 0,
       "id": 32168001,
@@ -14,7 +54,7 @@
       "by": "perihelions",
       "descendants": 0,
       "id": 32167997,
-      "score": 1,
+      "score": 2,
       "time": 1658333968,
       "title": "Twitter Worker Accused of Spying for Saudi Arabia Heads to Trial",
       "type": "story",
@@ -54,51 +94,11 @@
       "by": "mohamo",
       "descendants": 0,
       "id": 32167950,
-      "score": 1,
+      "score": 2,
       "text": "Sometimes simple ideas can have a huge impact on your life. Here are some of the top lessons I’ve learned.\n1. It’s possible to retire WAY before 65 as long as you save and invest WAY more than the average person.\n2. If you create a product that people are searching for and genuinely want&#x2F;need, it practically sells itself. \n3. Happiness isn’t just about positive emotion. Martin Seligman created a model for subjective well being called the PERMA model which stands for positive emotion, engagement, relationships, meaning, and accomplishment. You need all 5 components to have long lasting happiness.<p>What simple lessons have disproportionately impacted your life?",
       "time": 1658333787,
       "title": "Ask HN: What simple lessons have disproportionately impacted your life?",
       "type": "story"
-    },
-    {
-      "by": "CharlesW",
-      "descendants": 0,
-      "id": 32167936,
-      "score": 1,
-      "time": 1658333723,
-      "title": "WordPress 6.0 “Arturo”",
-      "type": "story",
-      "url": "https://wordpress.org/news/2022/05/arturo/"
-    },
-    {
-      "by": "samizdis",
-      "descendants": 0,
-      "id": 32167935,
-      "score": 1,
-      "time": 1658333715,
-      "title": "Faze Clan goes public via $725M SPAC",
-      "type": "story",
-      "url": "https://www.axios.com/2022/07/20/faze-clan-gaming-spac"
-    },
-    {
-      "by": "zdw",
-      "descendants": 0,
-      "id": 32167922,
-      "score": 1,
-      "time": 1658333687,
-      "title": "Nokia 5110 Communicator",
-      "type": "story",
-      "url": "https://befinitiv.wordpress.com/2022/07/20/nokia-5110-communicator/"
-    },
-    {
-      "by": "todsacerdoti",
-      "descendants": 0,
-      "id": 32167912,
-      "score": 1,
-      "time": 1658333657,
-      "title": "Building a fast all-SSD NAS (on a budget)",
-      "type": "story",
-      "url": "https://www.jeffgeerling.com/blog/2022/building-fast-all-ssd-nas-on-budget"
     }
   ]
 }
