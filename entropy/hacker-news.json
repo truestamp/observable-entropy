@@ -1,6 +1,76 @@
 {
   "stories": [
     {
+      "by": "solouncomen",
+      "descendants": 0,
+      "id": 32181494,
+      "score": 1,
+      "text": "I&#x27;ve been working at this company for ~4 months, and I feel like an absolute outcast there. I work 3&#x2F;5 days remotely, and I&#x27;m pretty happy when I work by myself—the job is fine. The problem comes with the two days I need to go to the office. I&#x27;ve anxiety the night before, and I feel depressed the day after.<p>My coworkers have a cliquey vibe, and I feel like the weird introvert who doesn&#x27;t talk very much. I do talk with people I feel comfortable with, but with this team (I don&#x27;t know why) I enter <i>quiet mode</i>, and I can&#x27;t go out of there. It&#x27;s weird because it&#x27;s the first time at a job that I don&#x27;t click with anybody. In previous experiences, I always have had 2 or 3 coworkers which whom I could get along with, make jokes, or share some kind of interest.<p>Here I don&#x27;t have anybody to share a problem with. It makes me feel sad, and I&#x27;m falling into a depression. I know that we don&#x27;t go to work to make friends, but I&#x27;m experiencing first-hand time how difficult it is the lack of support at the workplace.<p>I thought that waiting some time would make things better, but they are going worse. I&#x27;m avoiding going to breakfast with them, to keep away from the weird silences, and I feel like I do them a favour (if I go with them I sit there without saying anything).<p>What should I do? I&#x27;m thinking of quitting, but I&#x27;m not sure if I&#x27;m being too drastic.",
+      "time": 1658421522,
+      "title": "Ask HN: Quit a job if you don't fit in the team?",
+      "type": "story"
+    },
+    {
+      "by": "LinuxBender",
+      "descendants": 0,
+      "id": 32181490,
+      "score": 1,
+      "time": 1658421510,
+      "title": "Huawei under investigation for having tech installed near US missile silos",
+      "type": "story",
+      "url": "https://www.theregister.com/2022/07/21/huawei_missile_silo_spying/"
+    },
+    {
+      "by": "LinuxBender",
+      "descendants": 0,
+      "id": 32181478,
+      "score": 1,
+      "time": 1658421449,
+      "title": "FBI Warns Fake Crypto Apps Are Bilking Investors of Millions",
+      "type": "story",
+      "url": "https://threatpost.com/fbi-warns-fake-crypto-apps/180245/"
+    },
+    {
+      "by": "jseliger",
+      "descendants": 0,
+      "id": 32181474,
+      "score": 1,
+      "time": 1658421441,
+      "title": "Paying for the Party: How colleges maintain inequality",
+      "type": "story",
+      "url": "https://jakeseliger.com/2014/04/27/paying-for-the-party-elizabeth-armstrong-and-laura-hamilton/"
+    },
+    {
+      "by": "LinuxBender",
+      "descendants": 0,
+      "id": 32181468,
+      "score": 1,
+      "time": 1658421413,
+      "title": "Critical flaws in GPS tracker enable “disastrous” and “life-threatening” hacks",
+      "type": "story",
+      "url": "https://arstechnica.com/information-technology/2022/07/critical-flaws-in-gps-tracker-enable-disastrous-and-life-threatening-hacks/"
+    },
+    {
+      "by": "PaulHoule",
+      "descendants": 0,
+      "id": 32181465,
+      "score": 1,
+      "time": 1658421410,
+      "title": "Sustainable practices linked to farm size in organic farming",
+      "type": "story",
+      "url": "https://phys.org/news/2022-07-sustainable-linked-farm-size-farming.html"
+    },
+    {
+      "by": "JonathanBeuys",
+      "descendants": 0,
+      "id": 32181462,
+      "score": 2,
+      "text": "We had a great discussion here on HN a few days ago about the question whether it is possible to use Bitcoin in a trustless way. So that you control your Bitcoin yourself and don&#x27;t have to trust on any privileged party to take it from you:<p>https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=32115693<p>Interestingly, there was a <i>lot</i> of speculation and misinformation. So even on Hacker News, this topic is still only vaguely understood.<p>But also some very good information came to light.<p>The biggest bomb that was dropped in the thread received little attention: The fact that signing a transaction is not deterministic. This means when a hardware wallet is asked to sign a transaction, it can internally do that multiple times and then chose from multiple valid signatures. This means that it can encode data into the signature. For example, it could choose between two signatures with certain properties (say one results in an even checksum of the bits of the signature and one results in an odd checksum) and thereby signalling one bit to the creator of the wallet.<p>Everytime it signals a bit of your seed phrase home, the security of your coins is cut in half.<p>Here is an article about the fact that elliptic curve signatures are not deterministic:<p>https:&#x2F;&#x2F;medium.com&#x2F;@simonwarta&#x2F;signature-determinism-for-blockchain-developers-dbd84865a93e<p>The way I understand it, the wallet can chose from a large number of possible signatures and thereby signalling many bits to its creator. In every transaction.<p>I think a dicsussion about this should be started. The way I understand it, it makes it completely impossible to use Bitcoin in a trustless way. You are always at the mercy of the wallet manufactuer and the delivery chain that gets the wallet to you. If it gets swapped out on the way to you, you are at the mercy of whoever swapped it out.",
+      "time": 1658421389,
+      "title": "Tell HN: It looks like all Bitcoin hardware wallets can phone home",
+      "type": "story"
+    },
+    {
       "by": "mikece",
       "descendants": 0,
       "id": 32181429,
@@ -17,7 +87,7 @@
       "kids": [
         32181433
       ],
-      "score": 1,
+      "score": 2,
       "time": 1658421257,
       "title": "Dave Chappelle’s show in Minneapolis canceled by venue after backlash",
       "type": "story",
@@ -32,76 +102,6 @@
       "title": "Documents as User Interfaces (1991)",
       "type": "story",
       "url": "https://www.youtube.com/watch?v=s6DuMNB5ILA"
-    },
-    {
-      "by": "wil421",
-      "descendants": 0,
-      "id": 32181411,
-      "score": 1,
-      "time": 1658421192,
-      "title": "Ford secures battery supplies for 600k EVs a year from 2023",
-      "type": "story",
-      "url": "https://arstechnica.com/cars/2022/07/ford-secures-battery-supplies-for-600000-evs-a-year-from-2023/"
-    },
-    {
-      "by": "SpacePortKnight",
-      "descendants": 0,
-      "id": 32181387,
-      "score": 1,
-      "text": "I am a SDE with 4 YOE in India. For a long time, I have been considering emigrating via the computer science masters route.<p>I have never been to Canada or USA and between them where do you think it would be more sensible to emigrate to?<p>With the assumption that the quality of education would be mostly similar, here&#x27;s a gist of the comparison.<p>- Canada offers an easier path to PR and then Citizenship. I also have friends there.<p>- USA offers more and high paying SWE jobs and the duration of a MS course can be 1 to 1.5yr which would mean I wouldn&#x27;t have to take a big education loan.<p>However, OPT only guarantees 3 years of life in states. H1B is a lottery. Green card is not possible.",
-      "time": 1658421101,
-      "title": "Ask HN: MS in Canada or USA?",
-      "type": "story"
-    },
-    {
-      "by": "LinuxBender",
-      "descendants": 0,
-      "id": 32181379,
-      "score": 2,
-      "time": 1658421076,
-      "title": "Germany scrambles for energy with no faith in Russian gas",
-      "type": "story",
-      "url": "https://www.bbc.co.uk/news/world-europe-62234188"
-    },
-    {
-      "by": "swamp40",
-      "descendants": 0,
-      "id": 32181373,
-      "score": 1,
-      "time": 1658421053,
-      "title": "SMIC 7nm technology found in MinerVa Bitcoin Miner",
-      "type": "story",
-      "url": "https://www.techinsights.com/blog/disruptive-technology-7nm-smic-minerva-bitcoin-miner"
-    },
-    {
-      "by": "mikece",
-      "descendants": 0,
-      "id": 32181363,
-      "score": 1,
-      "time": 1658421000,
-      "title": "Amazon to buy One Medical – should this be Apple’s next step in healthcare?",
-      "type": "story",
-      "url": "https://9to5mac.com/2022/07/21/amazon-one-medical-apple-healthcare/"
-    },
-    {
-      "by": "ohjeez",
-      "descendants": 0,
-      "id": 32181355,
-      "score": 2,
-      "time": 1658420986,
-      "title": "Recruiting: Professionals reject red states over abortion laws",
-      "type": "story",
-      "url": "https://www.latimes.com/business/story/2022-07-19/as-professionals-flee-anti-abortion-policies-red-states-start-to-see-a-brain-drain"
-    },
-    {
-      "by": "samizdis",
-      "descendants": 0,
-      "id": 32181337,
-      "score": 1,
-      "time": 1658420908,
-      "title": "After 40 years in tech, I see every innovation contains its dark opposite",
-      "type": "story",
-      "url": "https://www.theregister.com/2022/07/20/mark_pesce_40_years_in_tech/"
     }
   ]
 }
