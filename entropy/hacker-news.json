@@ -1,6 +1,26 @@
 {
   "stories": [
     {
+      "by": "michaelsjoeberg",
+      "descendants": 0,
+      "id": 32177065,
+      "score": 1,
+      "time": 1658392938,
+      "title": "Show HN: Frozenfork Terminal",
+      "type": "story",
+      "url": "https://terminal.frozenfork.com/"
+    },
+    {
+      "by": "unripe_syntax",
+      "descendants": 0,
+      "id": 32177062,
+      "score": 1,
+      "time": 1658392861,
+      "title": "College Prep Software Is Selling Advertising Access to Your Kids",
+      "type": "story",
+      "url": "https://hackernoon.com/this-college-prep-software-is-selling-advertising-access-to-your-kids"
+    },
+    {
       "by": "solarist",
       "descendants": 0,
       "id": 32177058,
@@ -15,7 +35,7 @@
       "descendants": 0,
       "id": 32177053,
       "score": 1,
-      "text": "It was a small subscription, actually quite small, it was 10,72€ :),  but they were the first ones I&#x27;ve ever done with a side project (or in the internet at all) so they feel quite special.<p>Just wanted to share that and thank Hacker News for keeping a guy motivated to try side-projects.<p>Very short summary: I develop a lot of integration tools for Microsoft 365 through their Graph API and this year Microsoft is going to disable all basic authentication connections to their sign in system (basic authentication are all protocols where you can&#x27;t force MFA).<p>This affects a lot of users who configured their accounts on iOS a while back and are still using Exchange ActiveSync (even if you upgrade iPhone it imports the settings). So I made a Web App which will list all of your tenant devices still using legacy protocols and how to move them to modern authentication:<p>https:&#x2F;&#x2F;betterlicenses.com&#x2F;audit_log<p>I also document on a blog post how this can be retrieved for free using existing Azure AD sign in logs, but it&#x27;s not as easy to understand and my Web App will send you a daily notification whenever a new device is found using basic authentication.<p>Used Stripe to receive payments and the app has been running for a month and half.",
+      "text": "It was a small subscription, actually quite small, it was 10,72€ :),  but they were the first ones I&#x27;ve ever done with a side project (or in the internet at all) so they feel quite special.<p>Just wanted to share that and thank Hacker News for keeping a guy motivated to try side-projects.<p>Very short summary: I develop a lot of integration tools for Microsoft 365 through their Graph API and this year Microsoft is going to disable all basic authentication connections to their sign in system (basic authentication are all protocols where you can&#x27;t force MFA).<p>This affects a lot of users who configured their accounts on iOS a while back and are still using Exchange ActiveSync (even if you upgrade iPhone it imports the settings). So I made a Web App which will list all of your tenant devices still using legacy protocols and how to move them to modern authentication:<p>https:&#x2F;&#x2F;betterlicenses.com&#x2F;audit_log<p>I also document on a blog post how this can be retrieved for free using existing Azure AD sign in logs, but it&#x27;s not as easy to understand and my Web App will send you a daily notification whenever a new device is found using basic authentication.<p>Used Stripe to receive payments and the app has been running for a month and half. It&#x27;s on a subscription bases only for 20 days because the first 2 weeks it was free and a lot of users were using it and my server costs exploded due to having to analyse a lot of log entries.",
       "time": 1658392748,
       "title": "Tell HN: Today I made my first “bucks” on the web",
       "type": "story"
@@ -83,26 +103,6 @@
       "title": "Finnish Customs sells off €46.5m in seized cryptocurrency",
       "type": "story",
       "url": "https://yle.fi/news/3-12545017"
-    },
-    {
-      "by": "oliverjudge",
-      "descendants": 0,
-      "id": 32176974,
-      "score": 1,
-      "time": 1658391676,
-      "title": "Fakes, Elon and the Hype Machine",
-      "type": "story",
-      "url": "https://www.thewiretap.io/hype-and-fraud-in-startups/"
-    },
-    {
-      "by": "memorable",
-      "descendants": 0,
-      "id": 32176968,
-      "score": 1,
-      "time": 1658391598,
-      "title": "Zoxide is a smarter CD command, inspired by z and autojump",
-      "type": "story",
-      "url": "https://github.com/ajeetdsouza/zoxide"
     }
   ]
 }
