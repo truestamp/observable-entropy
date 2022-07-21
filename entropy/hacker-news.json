@@ -1,6 +1,46 @@
 {
   "stories": [
     {
+      "by": "votick",
+      "descendants": 0,
+      "id": 32182767,
+      "score": 1,
+      "time": 1658427305,
+      "title": "Show HN: Banana.dev Serverless GPUs for Machine Learning Inference",
+      "type": "story",
+      "url": "https://www.banana.dev"
+    },
+    {
+      "by": "oaknutspiano",
+      "descendants": 0,
+      "id": 32182766,
+      "score": 1,
+      "text": "A few month ago my roommates and I started building Rubbrband(https:&#x2F;&#x2F;rubbrband.com). It&#x27;s a platform that helps you monitor and modify your users&#x27; Redux states, LocalStorage, and browser cache all from your browser.<p>Why did we start working on this?<p>We want to make the data layer on the client-side less siloed from developers. This is obviously hard because each client&#x27;s device is remote and is typically part of one-way communication.<p>Essentially we&#x27;re building the set of tools that we each wanted as developers building web apps that go into production. One of the main issues we found is that most frontend bugs we&#x27;ve found came from some sort of a data state issue, which got extremely frustrating when the code went into production since you&#x27;d have to talk to the customer, get on a call, etc... We wanted a simple way to monitor the user&#x27;s app, contextualize it in the grander scheme of the data models and application structure, and ideally push out an OTA update that would patch bugs.<p>What&#x27;s included<p>- A simple React library to monitor Redux, and LocalStorage states<p>- Monitoring user&#x27;s LocalStorage and Redux states in a clean dashboard, tied together with User data<p>- Client-side and Server-side API for serverless caching, with support for GoLang and Node.js<p>I&#x27;d love to get feedback on what you think<p>Mainly I&#x27;m interested in these questions:<p>- Does this solve a pain point that you face as a Frontend developer?<p>- What features would you want to see built out?<p>Thanks a ton!",
+      "time": 1658427294,
+      "title": "A Data Platform for React",
+      "type": "story"
+    },
+    {
+      "by": "noch",
+      "descendants": 0,
+      "id": 32182755,
+      "score": 1,
+      "time": 1658427201,
+      "title": "Luck versus Skill in Games (2012)",
+      "type": "story",
+      "url": "https://www.youtube.com/watch?v=dSg408i-eKw"
+    },
+    {
+      "by": "gustopher",
+      "descendants": 0,
+      "id": 32182728,
+      "score": 1,
+      "time": 1658427038,
+      "title": "Alaska Airlines Announces Batteryless Electronic Bag Tags",
+      "type": "story",
+      "url": "https://www.geekwire.com/2022/alaska-airlines-to-roll-out-electronic-bag-tags-to-save-time-and-paper-at-the-airport/"
+    },
+    {
       "by": "serverlessmom",
       "descendants": 0,
       "id": 32182717,
@@ -27,7 +67,7 @@
       "by": "2517AD",
       "descendants": 0,
       "id": 32182684,
-      "score": 1,
+      "score": 2,
       "time": 1658426801,
       "title": "The Birth of Random-Access Memory",
       "type": "story",
@@ -48,7 +88,7 @@
       "by": "bananapear",
       "descendants": 0,
       "id": 32182671,
-      "score": 1,
+      "score": 2,
       "time": 1658426737,
       "title": "Line search before you dig",
       "type": "story",
@@ -63,49 +103,6 @@
       "title": "Minecraft studio wants nothing to do with NFTs",
       "type": "story",
       "url": "https://www.engadget.com/minecraft-nfts-blockchain-mojang-microsoft-204311069.html"
-    },
-    {
-      "by": "epberry",
-      "descendants": 0,
-      "id": 32182660,
-      "score": 1,
-      "time": 1658426656,
-      "title": "Google: Nearly all Binary Searches and Mergesorts are Broken (2006)",
-      "type": "story",
-      "url": "https://ai.googleblog.com/2006/06/extra-extra-read-all-about-it-nearly.html"
-    },
-    {
-      "by": "clairegiordano",
-      "descendants": 0,
-      "id": 32182654,
-      "score": 1,
-      "time": 1658426612,
-      "title": "Monitor distributed Postgres activity with citus_stat_activity",
-      "type": "story",
-      "url": "https://www.citusdata.com/blog/2022/07/21/citus-stat-activity-views-for-distributed-postgres/"
-    },
-    {
-      "by": "MuchoMaas",
-      "descendants": 1,
-      "id": 32182648,
-      "kids": [
-        32182712
-      ],
-      "score": 2,
-      "time": 1658426575,
-      "title": "On Scapegoating the Unvaccinated: Analysis of Propaganda During the Pandemic",
-      "type": "story",
-      "url": "https://www.criticalsocietystudies.com/Journal/Article/59/15"
-    },
-    {
-      "by": "sruffatti",
-      "descendants": 0,
-      "id": 32182638,
-      "score": 1,
-      "text": "We are moving off our legacy monolithic architecture to a microservice based architecture. We are about four years into the project and we have 200 distinct microservices.<p>When we first started out on this endeavor we created a parent POM called common-service. This POM declares dependencies such as Hibernate, Spring Boot, and some homegrown common libraries (the most important being a JAR that handles service discovery, rather than each service having to implement service discovery on their own).<p>Now that we have 200 services running in production, it is a difficult to roll out new versions of common-service for a variety of reasons - some teams don&#x27;t have the capacity, some teams prioritize business requirements over upgrades, etc.<p>How do you handle this in your organization? Do you have shared code across your microservices? Is it an anti-pattern to share code across microservices?<p>PS: We are going to start implementing Kubernetes. Kubernetes will require many changes to our common-service codebase so I figured I would see if anyone had any good ideas out there.<p>Thank you.",
-      "time": 1658426527,
-      "title": "Ask HN: How do you manage shared code across microservices?",
-      "type": "story"
     }
   ]
 }
