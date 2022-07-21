@@ -1,6 +1,39 @@
 {
   "stories": [
     {
+      "by": "kashifr",
+      "descendants": 1,
+      "id": 32181532,
+      "kids": [
+        32181533
+      ],
+      "score": 2,
+      "time": 1658421671,
+      "title": "Diffusers: Modular Diffusion model library from HuggingFace",
+      "type": "story",
+      "url": "https://github.com/huggingface/diffusers"
+    },
+    {
+      "by": "imperio59",
+      "descendants": 0,
+      "id": 32181522,
+      "score": 1,
+      "time": 1658421655,
+      "title": "Little evidence that chemical imbalance causes depression, UCL scientists find",
+      "type": "story",
+      "url": "https://www.theguardian.com/society/2022/jul/20/scientists-question-widespread-use-of-antidepressants-after-survey-on-serotonin"
+    },
+    {
+      "by": "adolph",
+      "descendants": 0,
+      "id": 32181520,
+      "score": 2,
+      "time": 1658421653,
+      "title": "On the Green Credo",
+      "type": "story",
+      "url": "https://tricycle.org/magazine/green-credo/"
+    },
+    {
       "by": "solouncomen",
       "descendants": 0,
       "id": 32181494,
@@ -24,7 +57,7 @@
       "by": "LinuxBender",
       "descendants": 0,
       "id": 32181478,
-      "score": 1,
+      "score": 2,
       "time": 1658421449,
       "title": "FBI Warns Fake Crypto Apps Are Bilking Investors of Millions",
       "type": "story",
@@ -34,7 +67,7 @@
       "by": "jseliger",
       "descendants": 0,
       "id": 32181474,
-      "score": 1,
+      "score": 2,
       "time": 1658421441,
       "title": "Paying for the Party: How colleges maintain inequality",
       "type": "story",
@@ -65,43 +98,10 @@
       "descendants": 0,
       "id": 32181462,
       "score": 2,
-      "text": "We had a great discussion here on HN a few days ago about the question whether it is possible to use Bitcoin in a trustless way. So that you control your Bitcoin yourself and don&#x27;t have to trust on any privileged party to take it from you:<p>https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=32115693<p>Interestingly, there was a <i>lot</i> of speculation and misinformation. So even on Hacker News, this topic is still only vaguely understood.<p>But also some very good information came to light.<p>The biggest bomb that was dropped in the thread received little attention: The fact that signing a transaction is not deterministic. This means when a hardware wallet is asked to sign a transaction, it can internally do that multiple times and then chose from multiple valid signatures. This means that it can encode data into the signature. For example, it could choose between two signatures with certain properties (say one results in an even checksum of the bits of the signature and one results in an odd checksum) and thereby signalling one bit to the creator of the wallet.<p>Everytime it signals a bit of your seed phrase home, the security of your coins is cut in half.<p>Here is an article about the fact that elliptic curve signatures are not deterministic:<p>https:&#x2F;&#x2F;medium.com&#x2F;@simonwarta&#x2F;signature-determinism-for-blockchain-developers-dbd84865a93e<p>The way I understand it, the wallet can chose from a large number of possible signatures and thereby signalling many bits to its creator. In every transaction.<p>I think a dicsussion about this should be started. The way I understand it, it makes it completely impossible to use Bitcoin in a trustless way. You are always at the mercy of the wallet manufactuer and the delivery chain that gets the wallet to you. If it gets swapped out on the way to you, you are at the mercy of whoever swapped it out.",
+      "text": "We had a great discussion here on HN a few days ago about the question whether it is possible to use Bitcoin in a trustless way. So that you control your Bitcoin yourself and don&#x27;t have to trust on any privileged party to take it from you:<p>https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=32115693<p>Interestingly, there was a <i>lot</i> of speculation and misinformation. So even on Hacker News, this topic is still only vaguely understood.<p>But also some very good information came to light.<p>The biggest bomb that was dropped in the thread received little attention: The fact that signing a transaction is not deterministic. This means when a hardware wallet is asked to sign a transaction, it can internally do that multiple times and then chose from multiple valid signatures. This means that it can encode data into the signature. For example, it could choose between two signatures with certain properties (say one results in an even checksum of the bits of the signature and one results in an odd checksum) and thereby signalling one bit to the creator of the wallet.<p>Everytime it signals a bit of your seed phrase home, the security of your coins is cut in half.<p>Here is an article about the fact that elliptic curve signatures are not deterministic:<p>https:&#x2F;&#x2F;medium.com&#x2F;@simonwarta&#x2F;signature-determinism-for-blockchain-developers-dbd84865a93e<p>The way I understand it, the wallet can chose from a large number of possible signatures and thereby signal many bits to its creator. In every transaction.<p>I think a dicsussion about this should be started. The way I understand it, it makes it completely impossible to use Bitcoin in a trustless way. Even with an air gapped hardware wallet, you are always at the mercy of the wallet manufacturer and the delivery chain that gets the wallet to you. If it gets swapped out on the way to you, you are at the mercy of whoever swapped it out.",
       "time": 1658421389,
       "title": "Tell HN: It looks like all Bitcoin hardware wallets can phone home",
       "type": "story"
-    },
-    {
-      "by": "mikece",
-      "descendants": 0,
-      "id": 32181429,
-      "score": 1,
-      "time": 1658421264,
-      "title": "You Won’t Be Allowed to Take Photos with Google’s New AR Glasses",
-      "type": "story",
-      "url": "https://petapixel.com/2022/07/21/you-wont-be-allowed-to-take-photos-with-googles-new-ar-glasses/"
-    },
-    {
-      "by": "metadat",
-      "descendants": 1,
-      "id": 32181427,
-      "kids": [
-        32181433
-      ],
-      "score": 2,
-      "time": 1658421257,
-      "title": "Dave Chappelle’s show in Minneapolis canceled by venue after backlash",
-      "type": "story",
-      "url": "https://www.washingtonpost.com/arts-entertainment/2022/07/21/dave-chappelle-minneapolis-first-avenue-canceled/"
-    },
-    {
-      "by": "mpweiher",
-      "descendants": 0,
-      "id": 32181424,
-      "score": 1,
-      "time": 1658421247,
-      "title": "Documents as User Interfaces (1991)",
-      "type": "story",
-      "url": "https://www.youtube.com/watch?v=s6DuMNB5ILA"
     }
   ]
 }
