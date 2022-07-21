@@ -1,9 +1,43 @@
 {
   "stories": [
     {
-      "by": "Fillup00",
+      "by": "popcalc",
       "descendants": 0,
+      "id": 32175781,
+      "score": 1,
+      "time": 1658377798,
+      "title": "Build your own WiFi Pineapple for $7",
+      "type": "story",
+      "url": "https://samy.link/blog/pages/build-your-own-wifi-pineapple-tetra-for-7/buffalo-wzr-hp-ag300h-wifi-pineapple.jpg"
+    },
+    {
+      "by": "toricalea",
+      "descendants": 0,
+      "id": 32175772,
+      "score": 1,
+      "time": 1658377624,
+      "title": "The Unappreciated Power of Short Form Content",
+      "type": "story",
+      "url": "https://stakedy.com/long/the-unappreciated-power-of-short-form-content.html"
+    },
+    {
+      "by": "Jimmc414",
+      "descendants": 0,
+      "id": 32175771,
+      "score": 1,
+      "text": "Postgresql&#x27;s documentation seems like it would be a good model for a software company, perhaps.\nhttps:&#x2F;&#x2F;www.postgresql.org&#x2F;files&#x2F;documentation&#x2F;pdf&#x2F;15&#x2F;postgresql-15-US.pdf",
+      "time": 1658377619,
+      "title": "Ask HN: What do you consider the gold standard for software documentation?",
+      "type": "story"
+    },
+    {
+      "by": "Fillup00",
+      "descendants": 2,
       "id": 32175743,
+      "kids": [
+        32175775,
+        32175764
+      ],
       "score": 1,
       "text": "I’m an integration lead responsible to design the flow of data between multiple new systems. Infosec must approve the protocols and auth used between systems. Yet all these systems are in company owned VPCs. The limitation is that one of the applications ONLY auths with base64 encode for their API. Halting implementation.<p>I understand concerns as:\n1. Can easily be decoded, so if caught in translation it’s essentially plain text.\n2. Can easily be spoofed from anywhere if creds were compromised<p>But all of this assumes whomever is already in the VPN to even find the targeted endpoint.<p>What’s so bad with base 64 encoding? Even base 64 encoding to generate a token for X hours is a show stopper. Yet from previous consulting experience many large companies are fine with it.",
       "time": 1658377226,
@@ -44,7 +78,7 @@
       "by": "JumpCrisscross",
       "descendants": 0,
       "id": 32175681,
-      "score": 1,
+      "score": 2,
       "time": 1658376465,
       "title": "Former employees say issues plagued Celsius years ahead of bankruptcy",
       "type": "story",
@@ -69,36 +103,6 @@
       "title": "California’s fire season is so eerily quiet that it resembles a ‘normal summer’",
       "type": "story",
       "url": "https://www.sfchronicle.com/bayarea/article/California-s-fire-season-is-so-unusually-quiet-17315559.php"
-    },
-    {
-      "by": "zdw",
-      "descendants": 0,
-      "id": 32175652,
-      "score": 1,
-      "time": 1658376145,
-      "title": "Dump FogBugz",
-      "type": "story",
-      "url": "https://bitsplitting.org/2022/07/20/dump-fogbugz/"
-    },
-    {
-      "by": "transpute",
-      "descendants": 0,
-      "id": 32175637,
-      "score": 1,
-      "time": 1658375996,
-      "title": "Anti-Interdiction on the Librem 5 USA",
-      "type": "story",
-      "url": "https://puri.sm/posts/anti-interdiction-on-the-librem-5-usa/"
-    },
-    {
-      "by": "oleksiitwork",
-      "descendants": 0,
-      "id": 32175609,
-      "score": 4,
-      "time": 1658375714,
-      "title": "OkSo – the drawing app with hierarchical drawings/sketches structure",
-      "type": "story",
-      "url": "https://okso.app/"
     }
   ]
 }
