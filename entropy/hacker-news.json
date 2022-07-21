@@ -1,10 +1,20 @@
 {
   "stories": [
     {
+      "by": "dsco",
+      "descendants": 0,
+      "id": 32186327,
+      "score": 1,
+      "time": 1658444594,
+      "title": "Apple Pippin",
+      "type": "story",
+      "url": "https://en.wikipedia.org/wiki/Apple_Pippin"
+    },
+    {
       "by": "g42gregory",
       "descendants": 0,
       "id": 32186294,
-      "score": 2,
+      "score": 4,
       "time": 1658444327,
       "title": "China’s Top Chipmaker Achieves Breakthrough Despite US Sanctions",
       "type": "story",
@@ -12,9 +22,12 @@
     },
     {
       "by": "inspace414",
-      "descendants": 0,
+      "descendants": 1,
       "id": 32186276,
-      "score": 2,
+      "kids": [
+        32186330
+      ],
+      "score": 4,
       "time": 1658444213,
       "title": "Commercial Space Stations",
       "type": "story",
@@ -44,7 +57,7 @@
       "by": "codingclaws",
       "descendants": 0,
       "id": 32186240,
-      "score": 2,
+      "score": 3,
       "text": "Are you moving away from the equator? Or to a higher altitude? Maybe closer to water. Are you building a house a certain way, perhaps underground? Moving into a big city? Are you selling property in a certain region?",
       "time": 1658444060,
       "title": "Ask HN: What's your climate change survival strategy?",
@@ -64,7 +77,7 @@
       "by": "Uptrenda",
       "descendants": 0,
       "id": 32186203,
-      "score": 2,
+      "score": 3,
       "text": "I&#x27;m very interested in what types of interesting data structures are out there HN. Totally your preference.<p>I&#x27;ll start: bloom filters. Lets you test if a value is definitely NOT in a list of pre-stored values (or POSSIBLY in a list - with adjustable probability that influences storage of the values.)<p>Good use-case: routing. Say you have a list of 1 million IPs that are black listed. A trivial algorithm would be to compare every element of the set with a given IP. The time complexity grows with the number of elements. Not so with a bloom filter! A bloom filter is one of the few data structures whose time complexity does not grow with the number of elements due to the &#x27;keys&#x27; not needing to be stored (&#x27;search&#x27; and &#x27;insert&#x27; is based on the number of hash functions.)<p>Bonus section: Golomb Coded Sets are similar to bloom filters but the storage space is much smaller. Worse performance though.",
       "time": 1658443829,
       "title": "Ask HN: What are some 'cool' but obscure data structures you know about?",
@@ -74,7 +87,7 @@
       "by": "bit-man",
       "descendants": 0,
       "id": 32186184,
-      "score": 1,
+      "score": 2,
       "time": 1658443679,
       "title": "Algorithm predicts crime a week in advance, but reveals bias in police response",
       "type": "story",
@@ -89,16 +102,6 @@
       "title": "Asylum medical records found for sale on eBay",
       "type": "story",
       "url": "https://slate.com/technology/2022/07/vintage-asylum-records-found-on-ebay-history-of-disability.html"
-    },
-    {
-      "by": "BeefySwain",
-      "descendants": 0,
-      "id": 32186164,
-      "score": 1,
-      "time": 1658443545,
-      "title": "Writing Good Requirements",
-      "type": "story",
-      "url": "https://reqexperts.com/wp-content/uploads/2015/07/writing_good_requirements.htm"
     }
   ]
 }
