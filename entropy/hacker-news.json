@@ -1,6 +1,36 @@
 {
   "stories": [
     {
+      "by": "codingclaws",
+      "descendants": 0,
+      "id": 32186240,
+      "score": 1,
+      "text": "Are you moving away from the equator? Or to a higher altitude? Maybe closer to water. Are you building a house a certain way, perhaps underground? Moving into a big city? Are you selling property in a certain region?",
+      "time": 1658444060,
+      "title": "Ask HN: What's your climate change survival strategy?",
+      "type": "story"
+    },
+    {
+      "by": "shin_lao",
+      "descendants": 0,
+      "id": 32186223,
+      "score": 2,
+      "time": 1658443963,
+      "title": "Depression is ‘not caused by chemical imbalance’",
+      "type": "story",
+      "url": "https://www.telegraph.co.uk/news/2022/07/20/depression-not-caused-chemical-imbalance/"
+    },
+    {
+      "by": "Uptrenda",
+      "descendants": 0,
+      "id": 32186203,
+      "score": 1,
+      "text": "I&#x27;m very interested in what types of interesting data structures are out there HN. Totally your preference.<p>I&#x27;ll start: bloom filters. Lets you test if a value is definitely NOT in a list of pre-stored values (or POSSIBLY in a list - with adjustable probability that influences storage of the values.)<p>Good use-case: routing. Say you have a list of 1 million IPs that are black listed. A trivial algorithm would be to compare every element of the set with a given IP. The time complexity grows with the number of elements. Not so with a bloom filter! A bloom filter is one of the few data structures whose time complexity does not grow with the number of elements due to the &#x27;keys&#x27; not needing to be stored (&#x27;search&#x27; and &#x27;insert&#x27; is based on the number of hash functions.)<p>Bonus section: Golomb Coded Sets are similar to bloom filters but the storage space is much smaller. Worse performance though.",
+      "time": 1658443829,
+      "title": "Ask HN: What are some 'cool' but obscure data structures you know about?",
+      "type": "story"
+    },
+    {
       "by": "bit-man",
       "descendants": 0,
       "id": 32186184,
@@ -72,40 +102,6 @@
       "title": "Facebook's Mark Zuckerberg to give 6-hour deposition",
       "type": "story",
       "url": "https://arstechnica.com/tech-policy/2022/07/facebook-users-lawsuit-forces-mark-zuckerberg-to-give-six-hour-deposition/"
-    },
-    {
-      "by": "nixass",
-      "descendants": 0,
-      "id": 32185985,
-      "score": 5,
-      "time": 1658442399,
-      "title": "Monarch butterflies now listed as endangered",
-      "type": "story",
-      "url": "https://apnews.com/article/science-north-america-insects-butterflies-climate-and-environment-c5e406e2f01c731167393296c19c302b"
-    },
-    {
-      "by": "transpute",
-      "descendants": 0,
-      "id": 32185976,
-      "score": 5,
-      "time": 1658442348,
-      "title": "Precursor FPGA: Rust “Vault” Authentication App: U2F/FIDO2, TOTP, password mgr",
-      "type": "story",
-      "url": "https://www.crowdsupply.com/sutajio-kosagi/precursor/updates/xous-release-v0-9-9-vault-authentication-app-and-more"
-    },
-    {
-      "by": "clouddrover",
-      "descendants": 2,
-      "id": 32185945,
-      "kids": [
-        32186155,
-        32186008
-      ],
-      "score": 8,
-      "time": 1658442137,
-      "title": "Musk swore not to sell Bitcoin, but Tesla cashed out 75% of its Bitcoin holdings",
-      "type": "story",
-      "url": "https://fortune.com/2022/07/20/tesla-sells-75-percent-bitcoin-elon-musk-second-quarter-earnings/"
     }
   ]
 }
