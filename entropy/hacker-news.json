@@ -1,6 +1,60 @@
 {
   "stories": [
     {
+      "by": "solarist",
+      "descendants": 0,
+      "id": 32177058,
+      "score": 1,
+      "time": 1658392805,
+      "title": "Windows Password Mining",
+      "type": "story",
+      "url": "https://medium.com/@tinopreter/windows-password-mining-3a72205673ff"
+    },
+    {
+      "by": "out_sider",
+      "descendants": 0,
+      "id": 32177053,
+      "score": 1,
+      "text": "It was a small subscription, actually quite small, it was 10,72€ :),  but they were the first ones I&#x27;ve ever done with a side project (or in the internet at all) so they feel quite special.<p>Just wanted to share that and thank Hacker News for keeping a guy motivated to try side-projects.<p>Very short summary: I develop a lot of integration tools for Microsoft 365 through their Graph API and this year Microsoft is going to disable all basic authentication connections to their sign in system (basic authentication are all protocols where you can&#x27;t force MFA).<p>This affects a lot of users who configured their accounts on iOS a while back and are still using Exchange ActiveSync (even if you upgrade iPhone it imports the settings). So I made a Web App which will list all of your tenant devices still using legacy protocols and how to move them to modern authentication:<p>https:&#x2F;&#x2F;betterlicenses.com&#x2F;audit_log<p>I also document on a blog post how this can be retrieved for free using existing Azure AD sign in logs, but it&#x27;s not as easy to understand and my Web App will send you a daily notification whenever a new device is found using basic authentication.<p>Used Stripe to receive payments and the app has been running for a month and half.",
+      "time": 1658392748,
+      "title": "Tell HN: Today I made my first “bucks” on the web",
+      "type": "story"
+    },
+    {
+      "by": "seestraw",
+      "descendants": 0,
+      "id": 32177051,
+      "score": 1,
+      "text": "Hi HN members,<p>I&#x27;ve been facing this problem recently. As a startup founder, I am managing a lot of Google Sheets. I want to hire a developer to convert it to custom websites but I couldn&#x27;t find a place I could get it designed.<p>I decided to solve it myself. I tried this out with one company and they were quite happy with the solution. So I&#x27;m opening it up to everyone.<p>I&#x27;d love to see if anyone else has the same problem.",
+      "time": 1658392711,
+      "title": "Show HN: Turn spreadsheets into website designs",
+      "type": "story",
+      "url": "https://www.ohsheethq.com"
+    },
+    {
+      "by": "olevole",
+      "descendants": 1,
+      "id": 32177041,
+      "kids": [
+        32177042
+      ],
+      "score": 1,
+      "time": 1658392614,
+      "title": "An easy way to turn a dedicated server into a GitHub runner (+native BSDs)",
+      "type": "story",
+      "url": "https://github.com/myb-project/guide/blob/main/en/gh_runners.md"
+    },
+    {
+      "by": "harscoat",
+      "descendants": 0,
+      "id": 32177040,
+      "score": 1,
+      "time": 1658392611,
+      "title": "Ice Mountains of Pluto as Seen from New Horizon Spacecraft",
+      "type": "story",
+      "url": "https://twitter.com/Sciencenature14/status/1549773146730946560"
+    },
+    {
       "by": "OyoKooN",
       "descendants": 0,
       "id": 32177018,
@@ -49,56 +103,6 @@
       "title": "Zoxide is a smarter CD command, inspired by z and autojump",
       "type": "story",
       "url": "https://github.com/ajeetdsouza/zoxide"
-    },
-    {
-      "by": "memorable",
-      "descendants": 0,
-      "id": 32176960,
-      "score": 1,
-      "time": 1658391551,
-      "title": "Wish: Make SSH apps, just like that",
-      "type": "story",
-      "url": "https://github.com/charmbracelet/wish"
-    },
-    {
-      "by": "memorable",
-      "descendants": 0,
-      "id": 32176957,
-      "score": 1,
-      "time": 1658391529,
-      "title": "Clidle: Play Wordle over SSH",
-      "type": "story",
-      "url": "https://github.com/ajeetdsouza/clidle"
-    },
-    {
-      "by": "Tomte",
-      "descendants": 0,
-      "id": 32176944,
-      "score": 1,
-      "time": 1658391279,
-      "title": "German public prosecutors don't provide sufficient independence (2019) [pdf]",
-      "type": "story",
-      "url": "https://curia.europa.eu/jcms/upload/docs/application/pdf/2019-05/cp190068en.pdf"
-    },
-    {
-      "by": "Tomte",
-      "descendants": 0,
-      "id": 32176941,
-      "score": 1,
-      "time": 1658391270,
-      "title": "Myths Programmers Believe about CPU Caches (2018)",
-      "type": "story",
-      "url": "https://software.rajivprab.com/2018/04/29/myths-programmers-believe-about-cpu-caches/"
-    },
-    {
-      "by": "ColinWright",
-      "descendants": 0,
-      "id": 32176940,
-      "score": 2,
-      "time": 1658391257,
-      "title": "NASA shares first images of meteor damage on James Webb Space Telescope",
-      "type": "story",
-      "url": "https://www.livescience.com/james-webb-space-telescope-micrometeoroid-picture"
     }
   ]
 }
