@@ -1,6 +1,16 @@
 {
   "stories": [
     {
+      "by": "metadat",
+      "descendants": 0,
+      "id": 32194692,
+      "score": 1,
+      "time": 1658511138,
+      "title": "Tricky Bash Tricks: Avoiding annoying messages from sqliterc",
+      "type": "story",
+      "url": "https://stackoverflow.com/questions/4174897/avoid-message-loading-resources-from-sqliterc"
+    },
+    {
       "by": "bookofjoe",
       "descendants": 0,
       "id": 32194653,
@@ -9,15 +19,6 @@
       "title": "German tourists told to use colourful luggage to avoid airport delays",
       "type": "story",
       "url": "https://www.theguardian.com/world/2022/jul/22/german-tourists-told-to-take-colourful-luggage-to-avoid-airport-delays"
-    },
-    {
-      "by": "parentheses",
-      "descendants": 0,
-      "id": 32194647,
-      "score": 1,
-      "time": 1658510934,
-      "title": "Ask HN",
-      "type": "story"
     },
     {
       "by": "nomilk",
@@ -81,10 +82,12 @@
     },
     {
       "by": "forgotmypw17",
-      "descendants": 1,
+      "descendants": 2,
       "id": 32194558,
       "kids": [
-        32194585
+        32194722,
+        32194585,
+        32194717
       ],
       "score": 1,
       "text": "I regularly have problems accessing content due to various SSL problems, such as expired certificates, mis-matched subdomains, clock offsets, etc.<p>I&#x27;d like to run some kind of proxy which presents as plaintext HTTP to my browser, and goes out and gets content from the HTTPS equivalent of the same site, ignoring all SSL errors. Does anyone know if this is possible?<p>I am not too concerned about MITM attacks and security in general, because I browse reputatable sites through a reputable ISP in a VM.",
