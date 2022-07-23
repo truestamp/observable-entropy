@@ -4,7 +4,7 @@
       "by": "alexzeitler",
       "descendants": 0,
       "id": 32201214,
-      "score": 1,
+      "score": 2,
       "time": 1658561466,
       "title": "The Red Line",
       "type": "story",
@@ -89,10 +89,13 @@
     },
     {
       "by": "dinobones",
-      "descendants": 0,
+      "descendants": 1,
       "id": 32201115,
-      "score": 1,
-      "text": "This may be a naive question, but...<p>Cloud-first costs a lot of money. If your startup is doing something compute heavy, like ML or serving a lot of bandwidth, you&#x27;re going to have to pay boatloads just to even serve low DAU.<p>I&#x27;ll give an example:<p>Imagine you wanted to recreate some video upload&#x2F;streaming app. Fastly charges $0.12&#x2F;gb, AWS charges $0.05&#x2F;gb (and this is me being generous, they only give you this rate <i>after</i> 150tb&#x2F;month of volume).<p>1080p video uses about 25mb a minute. That means streaming a 5 minute video will use about 125mb of bandwidth, ~1&#x2F;10th of a gigabyte, meaning just to stream a 5 minute 1080p video, at the bare minimum you have just spent $0.005. If this video gets 10,000 views, that is a $50 video.<p>I realize that&#x27;s a fairly contrived scenario, and I&#x27;m going to be bombarded by people telling me X CDN offers Y bandwidth for cheaper or for much better price (spoiler alert: They don&#x27;t. CDNs like Cloudflare actually don&#x27;t allow dynamically generated user content or media).<p>I&#x27;ve rambled on my example enough. Bandwidth costs a lot of money, especially in the cloud world. But I&#x27;m sure I could setup some racks in various metros and pay way less than what I would have to on the cloud.<p>Whenever I see this mentioned on HN, people bring out their pitchforks. &quot;But... Cloud is cheaper!!! Infra is cheap! Engineers are expensive!!&quot; Yeah, I agree, in <i>most</i> scenarios, but there are some cases where cloud costs are just too ravaging to bear.<p>TLDR: The cloud-first culture is probably prohibiting a lot of startup ideas. I know I personally have not pursued some ideas just cause I know the infra costs would be gnarly. I don&#x27;t think the next TikTok, YouTube, or whatever could be bootstrapped, even with a $500k seed round, if you experience any volume of users that will be eaten away quickly.",
+      "kids": [
+        32201276
+      ],
+      "score": 2,
+      "text": "This may be a naive question, but...<p>Cloud-first costs a lot of money. If your startup is doing something compute heavy, like ML or serving a lot of bandwidth, you&#x27;re going to have to pay boatloads just to even serve low DAU.<p>I&#x27;ll give an example:<p>Imagine you wanted to recreate some video upload&#x2F;streaming app. Fastly charges $0.12&#x2F;gb, AWS charges $0.05&#x2F;gb (and this is me being generous, they only give you this rate <i>after</i> 150tb&#x2F;month of volume).<p>1080p video uses about 25mb a minute. That means streaming a 5 minute video will use about 125mb of bandwidth, ~1&#x2F;10th of a gigabyte, meaning just to stream a 5 minute 1080p video, at the bare minimum you have just spent $0.005. If this video gets 10,000 views, that is a $50 video.<p>I realize that&#x27;s a fairly contrived scenario, and I&#x27;m going to be bombarded by people telling me X CDN offers Y bandwidth for cheaper or for much better price (spoiler alert: They don&#x27;t. CDNs like Cloudflare actually don&#x27;t allow dynamically generated user content or media).<p>I&#x27;ve rambled on my example enough. Bandwidth costs a lot of money, especially in the cloud world. But I&#x27;m sure I could setup some racks in various metros and pay way less than what I would have to on the cloud.<p>Whenever I see this mentioned on HN, people bring out their pitchforks. &quot;But... Cloud is cheaper!!! Infra is cheap! Engineers are expensive!!&quot; Yeah, I agree, in <i>most</i> scenarios, but there are some cases where cloud costs are just too ravaging to bear.<p>TLDR: The cloud-first culture is probably prohibiting a lot of startup ideas. I know I personally have not pursued some ideas just cause I know the infra costs would be gnarly. I don&#x27;t think the next TikTok, YouTube, or whatever could be bootstrapped on the cloud, even with a $500k seed round, if you experience any volume of users that will be eaten away quickly.",
       "time": 1658560242,
       "title": "Ask HN: Do you think the “cloud-first” approach to startups is limiting?",
       "type": "story"
