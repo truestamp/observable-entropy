@@ -1,9 +1,35 @@
 {
   "stories": [
     {
-      "by": "samizdis",
+      "by": "ta988",
+      "descendants": 1,
+      "id": 32200076,
+      "kids": [
+        32200081
+      ],
+      "score": 2,
+      "time": 1658547345,
+      "title": "Color Us Impressed: Redbean Runs a Web Server on Six Operating Systems",
+      "type": "story",
+      "url": "https://hackaday.com/2022/07/22/color-us-impressed-redbean-runs-a-web-server-on-six-operating-systems/"
+    },
+    {
+      "by": "cheinyeanlim",
       "descendants": 0,
+      "id": 32200073,
+      "score": 1,
+      "time": 1658547313,
+      "title": "Windows 8.1 reaches end of extended support in January 2023",
+      "type": "story",
+      "url": "https://pupuweb.com/mc403922-plan-change-ending-support-windows-8-1/"
+    },
+    {
+      "by": "samizdis",
+      "descendants": 1,
       "id": 32200065,
+      "kids": [
+        32200093
+      ],
       "score": 1,
       "time": 1658547159,
       "title": "Gen-Z graduates want more flexibility, more security – and more money",
@@ -42,12 +68,13 @@
     },
     {
       "by": "ghoward",
-      "descendants": 1,
+      "descendants": 2,
       "id": 32200007,
       "kids": [
+        32200103,
         32200064
       ],
-      "score": 6,
+      "score": 9,
       "text": "This is inspired by [1].<p>Quite frankly, I don&#x27;t know why filesystems <i>don&#x27;t</i> provide these things.<p>I have read that Windows has a transactional API, but they&#x27;ve actually deprecated it! [2] They say it&#x27;s because few programs use it.<p>I mean, sure, that might be true, but I bet it&#x27;s <i>really</i> important for those programs that <i>do</i> use it.<p>Bonus question: why does Windows hide its equivalent of `openat()` in the NT API? [3] Rust code seems to claim its fundamental to the NT kernel [4], so why is it not exposed?<p>[1]: https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=32190032<p>[2]: https:&#x2F;&#x2F;docs.microsoft.com&#x2F;en-us&#x2F;windows&#x2F;win32&#x2F;fileio&#x2F;deprecation-of-txf<p>[3]: https:&#x2F;&#x2F;docs.microsoft.com&#x2F;en-us&#x2F;windows&#x2F;win32&#x2F;api&#x2F;winternl&#x2F;nf-winternl-ntcreatefile<p>[4]: https:&#x2F;&#x2F;github.com&#x2F;rust-lang&#x2F;rust&#x2F;blob&#x2F;1c63ec48b8cbf553d291a04957d86cfd191fcd78&#x2F;library&#x2F;std&#x2F;src&#x2F;sys&#x2F;windows&#x2F;fs.rs#L711-L715",
       "time": 1658546398,
       "title": "Ask HN: Why Don't Filesystems and OS's Provide Filesystem Transactions?",
@@ -57,7 +84,10 @@
       "by": "serpentino",
       "descendants": 0,
       "id": 32199999,
-      "score": 11,
+      "kids": [
+        32200106
+      ],
+      "score": 17,
       "time": 1658546326,
       "title": "Old Dog",
       "type": "story",
@@ -76,43 +106,17 @@
     },
     {
       "by": "samizdis",
-      "descendants": 1,
+      "descendants": 2,
       "id": 32199965,
       "kids": [
+        32200091,
         32200068
       ],
-      "score": 2,
+      "score": 3,
       "time": 1658546013,
       "title": "False balance in news reports undermines faith in scientific consensus",
       "type": "story",
       "url": "https://phys.org/news/2022-07-false-news-coverage-climate-harder.html"
-    },
-    {
-      "by": "parentheses",
-      "descendants": 1,
-      "id": 32199919,
-      "kids": [
-        32199982
-      ],
-      "score": 2,
-      "text": "If you were to have a dev tool with 2 interfaces, which 2 would you pick _for yourself_ and why?<p>Interfaces that come to mind:<p>- Web UI: GitHub<p>- Native App: there are many I&#x27;ve seen; don&#x27;t use<p>- Terminal Command: git<p>- Terminal UI: tig",
-      "time": 1658545660,
-      "title": "Ask HN: Which would you choose for your dev tools?",
-      "type": "story"
-    },
-    {
-      "by": "Bostonian",
-      "descendants": 2,
-      "id": 32199876,
-      "kids": [
-        32200020,
-        32199878
-      ],
-      "score": 3,
-      "time": 1658545251,
-      "title": "The Upside-Down Logic of Electric SUVs",
-      "type": "story",
-      "url": "https://www.wsj.com/articles/the-upside-down-logic-of-electric-suvs-vehicles-co2-emissions-ford-subsidies-climate-change-auto-sector-11658524738"
     }
   ]
 }
