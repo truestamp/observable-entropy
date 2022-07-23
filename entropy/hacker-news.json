@@ -1,6 +1,26 @@
 {
   "stories": [
     {
+      "by": "samizdis",
+      "descendants": 0,
+      "id": 32200065,
+      "score": 1,
+      "time": 1658547159,
+      "title": "Gen-Z graduates want more flexibility, more security – and more money",
+      "type": "story",
+      "url": "https://www.economist.com/business/2022/07/21/what-gen-z-graduates-want-from-their-employers"
+    },
+    {
+      "by": "kvee",
+      "descendants": 0,
+      "id": 32200063,
+      "score": 1,
+      "time": 1658547135,
+      "title": "The Flooded, Man-Made Sahara Sea",
+      "type": "story",
+      "url": "https://en.wikipedia.org/wiki/Sahara_Sea"
+    },
+    {
       "by": "behnamoh",
       "descendants": 0,
       "id": 32200035,
@@ -22,9 +42,12 @@
     },
     {
       "by": "ghoward",
-      "descendants": 0,
+      "descendants": 1,
       "id": 32200007,
-      "score": 5,
+      "kids": [
+        32200064
+      ],
+      "score": 6,
       "text": "This is inspired by [1].<p>Quite frankly, I don&#x27;t know why filesystems <i>don&#x27;t</i> provide these things.<p>I have read that Windows has a transactional API, but they&#x27;ve actually deprecated it! [2] They say it&#x27;s because few programs use it.<p>I mean, sure, that might be true, but I bet it&#x27;s <i>really</i> important for those programs that <i>do</i> use it.<p>Bonus question: why does Windows hide its equivalent of `openat()` in the NT API? [3] Rust code seems to claim its fundamental to the NT kernel [4], so why is it not exposed?<p>[1]: https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=32190032<p>[2]: https:&#x2F;&#x2F;docs.microsoft.com&#x2F;en-us&#x2F;windows&#x2F;win32&#x2F;fileio&#x2F;deprecation-of-txf<p>[3]: https:&#x2F;&#x2F;docs.microsoft.com&#x2F;en-us&#x2F;windows&#x2F;win32&#x2F;api&#x2F;winternl&#x2F;nf-winternl-ntcreatefile<p>[4]: https:&#x2F;&#x2F;github.com&#x2F;rust-lang&#x2F;rust&#x2F;blob&#x2F;1c63ec48b8cbf553d291a04957d86cfd191fcd78&#x2F;library&#x2F;std&#x2F;src&#x2F;sys&#x2F;windows&#x2F;fs.rs#L711-L715",
       "time": 1658546398,
       "title": "Ask HN: Why Don't Filesystems and OS's Provide Filesystem Transactions?",
@@ -34,7 +57,7 @@
       "by": "serpentino",
       "descendants": 0,
       "id": 32199999,
-      "score": 9,
+      "score": 11,
       "time": 1658546326,
       "title": "Old Dog",
       "type": "story",
@@ -53,9 +76,12 @@
     },
     {
       "by": "samizdis",
-      "descendants": 0,
+      "descendants": 1,
       "id": 32199965,
-      "score": 1,
+      "kids": [
+        32200068
+      ],
+      "score": 2,
       "time": 1658546013,
       "title": "False balance in news reports undermines faith in scientific consensus",
       "type": "story",
@@ -87,26 +113,6 @@
       "title": "The Upside-Down Logic of Electric SUVs",
       "type": "story",
       "url": "https://www.wsj.com/articles/the-upside-down-logic-of-electric-suvs-vehicles-co2-emissions-ford-subsidies-climate-change-auto-sector-11658524738"
-    },
-    {
-      "by": "paulpauper",
-      "descendants": 0,
-      "id": 32199872,
-      "score": 1,
-      "time": 1658545200,
-      "title": "Why expensive housing prices aren’t good for most real estate agents",
-      "type": "story",
-      "url": "https://thehustle.co/why-expensive-housing-prices-arent-good-for-most-real-estate-agents-%ef%bf%bc/"
-    },
-    {
-      "by": "paulpauper",
-      "descendants": 0,
-      "id": 32199856,
-      "score": 1,
-      "time": 1658544985,
-      "title": "Larry Bird will die young. Just ask him",
-      "type": "story",
-      "url": "https://www.espn.com/nba/story/_/id/14712117/larry-bird-believes-nba-big-men-die-young-right"
     }
   ]
 }
