@@ -1,6 +1,36 @@
 {
   "stories": [
     {
+      "by": "317070",
+      "descendants": 0,
+      "id": 32201137,
+      "score": 1,
+      "time": 1658560431,
+      "title": "Comité Liquidant Ou Détournant Les Ordinateurs (C.L.O.D.O.) (1983)",
+      "type": "story",
+      "url": "https://theanarchistlibrary.org/library/le-clodo-clodo-speaks?v=1642397481"
+    },
+    {
+      "by": "goindeep",
+      "descendants": 0,
+      "id": 32201126,
+      "score": 1,
+      "time": 1658560312,
+      "title": "Google Fires Engineer Who Claimed Company's AI Is Sentient",
+      "type": "story",
+      "url": "https://www.theverge.com/2022/7/22/23274958/google-ai-engineer-blake-lemoine-chatbot-lamda-2-sentience"
+    },
+    {
+      "by": "dinobones",
+      "descendants": 0,
+      "id": 32201115,
+      "score": 1,
+      "text": "This may be a naive question, but...<p>Cloud-first costs a lot of money. If your startup is doing something compute heavy, like ML or serving a lot of bandwidth, you&#x27;re going to have to pay boatloads just to even serve low DAU.<p>I&#x27;ll give an example:<p>Imagine you wanted to recreate some video upload&#x2F;streaming app. Fastly charges $0.12&#x2F;gb, AWS charges $0.05&#x2F;gb (and this is me being generous, they only give you this rate <i>after</i> 150tb&#x2F;month of volume).<p>1080p video uses about 25mb a minute. That means streaming a 5 minute video will use about 125mb of bandwidth, ~1&#x2F;10th of a gigabyte, meaning just to stream a 5 minute 1080p video, at the bare minimum you have just spent $0.005. If this video gets 10,000 views, that is a $50 video.<p>I realize that&#x27;s a fairly contrived scenario, and I&#x27;m going to be bombarded by people telling me X CDN offers Y bandwidth for cheaper or for much better price (spoiler alert: They don&#x27;t. CDNs like Cloudflare actually don&#x27;t allow dynamically generated user content or media).<p>I&#x27;ve rambled on my example enough. Bandwidth costs a lot of money, especially in the cloud world. But I&#x27;m sure I could setup some racks in various metros and pay way less than what I would have to on the cloud.<p>Whenever I see this mentioned on HN, people bring out their pitchforks. &quot;But... Cloud is cheaper!!! Infra is cheap! Engineers are expensive!!&quot; Yeah, I agree, in <i>most</i> scenarios, but there are some cases where cloud costs are just too ravaging to bear.<p>TLDR: The cloud-first culture is probably prohibiting a lot of startup ideas. I know I personally have not pursued some ideas just cause I know the infra costs would be gnarly. I don&#x27;t think the next TikTok, YouTube, or whatever could be bootstrapped, even with a $500k seed round, if you experience any volume of users that will be eaten away quickly.",
+      "time": 1658560242,
+      "title": "Ask HN: Do you think the “cloud-first” approach to startups is limiting?",
+      "type": "story"
+    },
+    {
       "by": "doener",
       "descendants": 0,
       "id": 32201085,
@@ -71,36 +101,6 @@
       "title": "Wordpress.com Ends Recent Pricing Experiment, Reverts to Previous Model",
       "type": "story",
       "url": "https://wptavern.com/wordpress-com-ends-recent-pricing-experiment-reverts-to-previous-model"
-    },
-    {
-      "by": "alexandr1us",
-      "descendants": 0,
-      "id": 32200888,
-      "score": 1,
-      "time": 1658557359,
-      "title": "Why do my Flutter screens look washed out?",
-      "type": "story",
-      "url": "https://ente.io/blog/tech/display-p3/"
-    },
-    {
-      "by": "cmroanirgo",
-      "descendants": 0,
-      "id": 32200873,
-      "score": 1,
-      "time": 1658557088,
-      "title": "DNS Response Policy Zones",
-      "type": "story",
-      "url": "https://dnsrpz.info/"
-    },
-    {
-      "by": "pcr910303",
-      "descendants": 0,
-      "id": 32200869,
-      "score": 2,
-      "time": 1658557025,
-      "title": "Lexical File Names: How Plan 9 Gets Dot-Dot Right",
-      "type": "story",
-      "url": "https://9p.io/sys/doc/lexnames.html"
     }
   ]
 }
