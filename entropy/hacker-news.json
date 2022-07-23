@@ -1,6 +1,36 @@
 {
   "stories": [
     {
+      "by": "cmroanirgo",
+      "descendants": 0,
+      "id": 32200873,
+      "score": 1,
+      "time": 1658557088,
+      "title": "DNS Response Policy Zones",
+      "type": "story",
+      "url": "https://dnsrpz.info/"
+    },
+    {
+      "by": "pcr910303",
+      "descendants": 0,
+      "id": 32200869,
+      "score": 1,
+      "time": 1658557025,
+      "title": "Lexical File Names: How Plan 9 Gets Dot-Dot Right",
+      "type": "story",
+      "url": "https://9p.io/sys/doc/lexnames.html"
+    },
+    {
+      "by": "bferns",
+      "descendants": 0,
+      "id": 32200863,
+      "score": 1,
+      "text": "I&#x27;ve needed to build a browser-based JS SDK for SaaS products twice now (both including interactive &#x27;widgets&#x27; that devs could embed, not just wrapping API requests), but I still have the constant fear I&#x27;m doing it wrong.<p>I&#x27;ve searched for resources, but the amount on this aspect of development seems quite thin. Are there any well-regarded resources out there on SDK design &amp; development?<p>Some of the areas I&#x27;d love to see other people&#x27;s thoughts on:<p>- Build tools and associated goals: minimal filesize, async loading of optional components, testing\n - Philosophical approaches: including and customising libraries most customers will use, vs just providing documentation on how to integrate with them\n - Architectural choices and tradeoffs at various stages in product lifecycle: self-hosted iframes vs pure JS integrations, NPM packages vs script embeds.\n - Integration pitfalls: conflicts in CSS naming or 3rd-party packages, causing performance issues, bugs in obscure browsers\n - Process pitfalls: what choices might run afoul of big companies&#x27; security processes, or create unforseen challenges in getting the integration approved outside of the code-world.<p>The closest article I&#x27;ve found is https:&#x2F;&#x2F;sdk-design.js.org&#x2F; which has some great information at the beginning and end, but is somewhat generic in the middle. I suspect theres some great info buried in one-off technical blog posts at SaaS startups as well.<p>Theres also the option of learning from good examples - the obvious choice here being Stripe who are known for their great documentation &amp; SDK design https:&#x2F;&#x2F;stripe.com&#x2F;docs&#x2F;development<p>Has anyone else found themselves in this position? How did you learn and improve (without having to do it the hard way of pushing bugs to your customers production sites!)? Did you find, or create, any useful resources on building modern browser SDKs?",
+      "time": 1658556945,
+      "title": "What are the best practices (+ hard choices) when building browser SDKs?",
+      "type": "story"
+    },
+    {
       "by": "simonebrunozzi",
       "descendants": 0,
       "id": 32200842,
@@ -70,36 +100,6 @@
       "title": "Total cost of ownership: Mac versus PC in the enterprise",
       "type": "story",
       "url": "https://www.jamf.com/blog/total-cost-of-ownership-mac-versus-pc-in-the-enterprise/"
-    },
-    {
-      "by": "visheshdembla",
-      "descendants": 0,
-      "id": 32200710,
-      "score": 1,
-      "time": 1658555015,
-      "title": "Carbon Language – Chandler Carruth - CppNorth 2022",
-      "type": "story",
-      "url": "https://www.youtube.com/watch?v=omrY53kbVoA"
-    },
-    {
-      "by": "martinlaz",
-      "descendants": 0,
-      "id": 32200696,
-      "score": 2,
-      "time": 1658554837,
-      "title": "Introduction to the Zettelkasten Method (2020)",
-      "type": "story",
-      "url": "https://zettelkasten.de/introduction/"
-    },
-    {
-      "by": "JohnTHaller",
-      "descendants": 0,
-      "id": 32200693,
-      "score": 1,
-      "time": 1658554790,
-      "title": "Google Safe Browsing Incorrectly Blocking All Downloads from Portableapps.com",
-      "type": "story",
-      "url": "https://portableapps.com/news/2022-07-23--google-safe-browsing-incorrectly-blocking-all-downoads-from-portableapps.com"
     }
   ]
 }
