@@ -1,13 +1,43 @@
 {
   "stories": [
     {
+      "by": "paulpauper",
+      "descendants": 0,
+      "id": 32200123,
+      "score": 1,
+      "time": 1658547760,
+      "title": "Why Aren’t Extraverts Rich?",
+      "type": "story",
+      "url": "https://betonit.substack.com/p/why-arent-extraverts-rich"
+    },
+    {
+      "by": "alice-i-cecile",
+      "descendants": 0,
+      "id": 32200121,
+      "score": 2,
+      "time": 1658547741,
+      "title": "Game engines are more than libraries glued together",
+      "type": "story",
+      "url": "https://www.leafwing-studios.com/blog/game-engine-glue/"
+    },
+    {
+      "by": "nick__m",
+      "descendants": 0,
+      "id": 32200111,
+      "score": 1,
+      "time": 1658547655,
+      "title": "Shor’s algorithm without using a single ket sign (2007)",
+      "type": "story",
+      "url": "https://scottaaronson.blog/?p=208"
+    },
+    {
       "by": "ta988",
       "descendants": 1,
       "id": 32200076,
       "kids": [
         32200081
       ],
-      "score": 2,
+      "score": 3,
       "time": 1658547345,
       "title": "Color Us Impressed: Redbean Runs a Web Server on Six Operating Systems",
       "type": "story",
@@ -30,7 +60,7 @@
       "kids": [
         32200093
       ],
-      "score": 1,
+      "score": 2,
       "time": 1658547159,
       "title": "Gen-Z graduates want more flexibility, more security – and more money",
       "type": "story",
@@ -68,55 +98,18 @@
     },
     {
       "by": "ghoward",
-      "descendants": 2,
+      "descendants": 3,
       "id": 32200007,
       "kids": [
+        32200108,
         32200103,
         32200064
       ],
-      "score": 9,
+      "score": 10,
       "text": "This is inspired by [1].<p>Quite frankly, I don&#x27;t know why filesystems <i>don&#x27;t</i> provide these things.<p>I have read that Windows has a transactional API, but they&#x27;ve actually deprecated it! [2] They say it&#x27;s because few programs use it.<p>I mean, sure, that might be true, but I bet it&#x27;s <i>really</i> important for those programs that <i>do</i> use it.<p>Bonus question: why does Windows hide its equivalent of `openat()` in the NT API? [3] Rust code seems to claim its fundamental to the NT kernel [4], so why is it not exposed?<p>[1]: https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=32190032<p>[2]: https:&#x2F;&#x2F;docs.microsoft.com&#x2F;en-us&#x2F;windows&#x2F;win32&#x2F;fileio&#x2F;deprecation-of-txf<p>[3]: https:&#x2F;&#x2F;docs.microsoft.com&#x2F;en-us&#x2F;windows&#x2F;win32&#x2F;api&#x2F;winternl&#x2F;nf-winternl-ntcreatefile<p>[4]: https:&#x2F;&#x2F;github.com&#x2F;rust-lang&#x2F;rust&#x2F;blob&#x2F;1c63ec48b8cbf553d291a04957d86cfd191fcd78&#x2F;library&#x2F;std&#x2F;src&#x2F;sys&#x2F;windows&#x2F;fs.rs#L711-L715",
       "time": 1658546398,
       "title": "Ask HN: Why Don't Filesystems and OS's Provide Filesystem Transactions?",
       "type": "story"
-    },
-    {
-      "by": "serpentino",
-      "descendants": 0,
-      "id": 32199999,
-      "kids": [
-        32200106
-      ],
-      "score": 17,
-      "time": 1658546326,
-      "title": "Old Dog",
-      "type": "story",
-      "url": "https://longreads.com/2022/07/19/this-old-dog/"
-    },
-    {
-      "by": "xookeee",
-      "descendants": 0,
-      "id": 32199993,
-      "score": 1,
-      "text": "I&#x27;ve built a tool to help the DCA calculator crypto. It supports the top 100 coins.",
-      "time": 1658546258,
-      "title": "Show HN: Cryptosaving a tool crypto DCA calculator",
-      "type": "story",
-      "url": "https://cryptosaving.app"
-    },
-    {
-      "by": "samizdis",
-      "descendants": 2,
-      "id": 32199965,
-      "kids": [
-        32200091,
-        32200068
-      ],
-      "score": 3,
-      "time": 1658546013,
-      "title": "False balance in news reports undermines faith in scientific consensus",
-      "type": "story",
-      "url": "https://phys.org/news/2022-07-false-news-coverage-climate-harder.html"
     }
   ]
 }
