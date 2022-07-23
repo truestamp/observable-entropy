@@ -1,12 +1,32 @@
 {
   "stories": [
     {
+      "by": "doener",
+      "descendants": 0,
+      "id": 32201085,
+      "score": 1,
+      "time": 1658559851,
+      "title": "World Fund joins $128M bet that quantum can deliver climate breakthroughs",
+      "type": "story",
+      "url": "https://techcrunch.com/2022/07/22/climate-vc-world-fund-quantum-computing-iqm/"
+    },
+    {
+      "by": "walterbell",
+      "descendants": 0,
+      "id": 32201069,
+      "score": 1,
+      "time": 1658559669,
+      "title": "Controlling the temperature inside equipment racks (2010) [pdf]",
+      "type": "story",
+      "url": "https://www.markertek.com/attachments/manuals/ThermalManagement.pdf"
+    },
+    {
       "by": "walterbell",
       "descendants": 0,
       "id": 32201058,
       "score": 1,
       "time": 1658559518,
-      "title": "Impact of Static Pressure Differential on Server Level Performance",
+      "title": "Impact of Static Pressure Differential on Server Level Performance (2018)",
       "type": "story",
       "url": "https://par.nsf.gov/servlets/purl/10065917"
     },
@@ -76,31 +96,11 @@
       "by": "pcr910303",
       "descendants": 0,
       "id": 32200869,
-      "score": 1,
+      "score": 2,
       "time": 1658557025,
       "title": "Lexical File Names: How Plan 9 Gets Dot-Dot Right",
       "type": "story",
       "url": "https://9p.io/sys/doc/lexnames.html"
-    },
-    {
-      "by": "bferns",
-      "descendants": 0,
-      "id": 32200863,
-      "score": 1,
-      "text": "I&#x27;ve needed to build a browser-based JS SDK for SaaS products twice now (both including interactive &#x27;widgets&#x27; that devs could embed, not just wrapping API requests), but I still have the constant fear I&#x27;m doing it wrong.<p>I&#x27;ve searched for resources, but the amount on this aspect of development seems quite thin. Are there any well-regarded resources out there on SDK design &amp; development?<p>Some of the areas I&#x27;d love to see other people&#x27;s thoughts on:<p>- Build tools and associated goals: minimal filesize, async loading of optional components, testing\n - Philosophical approaches: including and customising libraries most customers will use, vs just providing documentation on how to integrate with them\n - Architectural choices and tradeoffs at various stages in product lifecycle: self-hosted iframes vs pure JS integrations, NPM packages vs script embeds.\n - Integration pitfalls: conflicts in CSS naming or 3rd-party packages, causing performance issues, bugs in obscure browsers\n - Process pitfalls: what choices might run afoul of big companies&#x27; security processes, or create unforseen challenges in getting the integration approved outside of the code-world.<p>The closest article I&#x27;ve found is https:&#x2F;&#x2F;sdk-design.js.org&#x2F; which has some great information at the beginning and end, but is somewhat generic in the middle. I suspect theres some great info buried in one-off technical blog posts at SaaS startups as well.<p>Theres also the option of learning from good examples - the obvious choice here being Stripe who are known for their great documentation &amp; SDK design https:&#x2F;&#x2F;stripe.com&#x2F;docs&#x2F;development<p>Has anyone else found themselves in this position? How did you learn and improve (without having to do it the hard way of pushing bugs to your customers production sites!)? Did you find, or create, any useful resources on building modern browser SDKs?",
-      "time": 1658556945,
-      "title": "What are the best practices (+ hard choices) when building browser SDKs?",
-      "type": "story"
-    },
-    {
-      "by": "simonebrunozzi",
-      "descendants": 0,
-      "id": 32200842,
-      "score": 1,
-      "time": 1658556709,
-      "title": "The world isn’t prepared for a wave of sovereign debt defaults",
-      "type": "story",
-      "url": "https://www.ft.com/content/c4d17d8e-66f6-48fb-9a64-c8ebdfd46dcb"
     }
   ]
 }
