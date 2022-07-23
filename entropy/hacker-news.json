@@ -1,6 +1,37 @@
 {
   "stories": [
     {
+      "by": "ghoward",
+      "descendants": 0,
+      "id": 32200007,
+      "score": 1,
+      "text": "This is inspired by [1].<p>Quite frankly, I don&#x27;t know why filesystems <i>don&#x27;t</i> provide these things.<p>I have read that Windows has a transactional API, but they&#x27;ve actually deprecated it! [2] They say it&#x27;s because few programs use it.<p>I mean, sure, that might be true, but I bet it&#x27;s <i>really</i> important for those programs that <i>do</i> use it.<p>Bonus question: why does Windows hide its equivalent of `openat()` in the NT API? [3] Rust code seems to claim its fundamental to the NT kernel [4], so why is it not exposed?<p>[1]: https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=32190032<p>[2]: https:&#x2F;&#x2F;docs.microsoft.com&#x2F;en-us&#x2F;windows&#x2F;win32&#x2F;fileio&#x2F;deprecation-of-txf<p>[3]: https:&#x2F;&#x2F;docs.microsoft.com&#x2F;en-us&#x2F;windows&#x2F;win32&#x2F;api&#x2F;winternl&#x2F;nf-winternl-ntcreatefile<p>[4]: https:&#x2F;&#x2F;github.com&#x2F;rust-lang&#x2F;rust&#x2F;blob&#x2F;1c63ec48b8cbf553d291a04957d86cfd191fcd78&#x2F;library&#x2F;std&#x2F;src&#x2F;sys&#x2F;windows&#x2F;fs.rs#L711-L715",
+      "time": 1658546398,
+      "title": "Ask HN: Why Don't Filesystems and OS's Provide Filesystem Transactions?",
+      "type": "story"
+    },
+    {
+      "by": "serpentino",
+      "descendants": 0,
+      "id": 32199999,
+      "score": 1,
+      "time": 1658546326,
+      "title": "Old Dog",
+      "type": "story",
+      "url": "https://longreads.com/2022/07/19/this-old-dog/"
+    },
+    {
+      "by": "xookeee",
+      "descendants": 0,
+      "id": 32199993,
+      "score": 1,
+      "text": "I&#x27;ve built a tool to help the DCA calculator crypto. It supports the top 100 coins.",
+      "time": 1658546258,
+      "title": "Show HN: Cryptosaving a tool crypto DCA calculator",
+      "type": "story",
+      "url": "https://cryptosaving.app"
+    },
+    {
       "by": "samizdis",
       "descendants": 0,
       "id": 32199965,
@@ -12,9 +43,12 @@
     },
     {
       "by": "parentheses",
-      "descendants": 0,
+      "descendants": 1,
       "id": 32199919,
-      "score": 1,
+      "kids": [
+        32199982
+      ],
+      "score": 2,
       "text": "If you were to have a dev tool with 2 interfaces, which 2 would you pick _for yourself_ and why?<p>Interfaces that come to mind:<p>- Web UI: GitHub<p>- Native App: there are many I&#x27;ve seen; don&#x27;t use<p>- Terminal Command: git<p>- Terminal UI: tig",
       "time": 1658545660,
       "title": "Ask HN: Which would you choose for your dev tools?",
@@ -72,36 +106,6 @@
       "time": 1658544763,
       "title": "Ask HN: What are some good “goto” React codebases?",
       "type": "story"
-    },
-    {
-      "by": "picture",
-      "descendants": 0,
-      "id": 32199818,
-      "score": 1,
-      "time": 1658544653,
-      "title": "Tapered Transitions",
-      "type": "story",
-      "url": "http://www.sigcon.com/Pubs/edn/TaperedTransitions.htm"
-    },
-    {
-      "by": "bjourne",
-      "descendants": 0,
-      "id": 32199812,
-      "score": 1,
-      "time": 1658544620,
-      "title": "Python Sets, Frozensets, and Literals",
-      "type": "story",
-      "url": "https://lwn.net/Articles/881599/"
-    },
-    {
-      "by": "MilnerRoute",
-      "descendants": 0,
-      "id": 32199793,
-      "score": 3,
-      "time": 1658544471,
-      "title": "Tesla dumps $900M Bitcoin amid pressure from factory shutdown",
-      "type": "story",
-      "url": "https://www.washingtonpost.com/technology/2022/07/20/tesla-earnings-elon-musk/"
     }
   ]
 }
