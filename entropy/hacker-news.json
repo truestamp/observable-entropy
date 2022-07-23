@@ -1,10 +1,43 @@
 {
   "stories": [
     {
+      "by": "EspadaV9",
+      "descendants": 0,
+      "id": 32201207,
+      "score": 1,
+      "time": 1658561360,
+      "title": "Gitlab 15.2 released. Live wiki diagram previews,redesigned merge request report",
+      "type": "story",
+      "url": "https://about.gitlab.com/releases/2022/07/22/gitlab-15-2-released/"
+    },
+    {
+      "by": "bryanrasmussen",
+      "descendants": 0,
+      "id": 32201203,
+      "score": 1,
+      "time": 1658561315,
+      "title": "Leon Trotsky: Why Marxists Oppose Individual Terrorism (1911)",
+      "type": "story",
+      "url": "https://www.marxists.org/archive/trotsky/1911/11/tia09.htm"
+    },
+    {
+      "by": "mullikine",
+      "descendants": 1,
+      "id": 32201198,
+      "kids": [
+        32201199
+      ],
+      "score": 1,
+      "time": 1658561286,
+      "title": "How to draw a picture with GPT-3 and DALL-E-2",
+      "type": "story",
+      "url": "https://mullikine.github.io/posts/how-to-draw-a-picture/"
+    },
+    {
       "by": "kazinator",
       "descendants": 0,
       "id": 32201150,
-      "score": 1,
+      "score": 2,
       "text": "See: <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=32190032\" rel=\"nofollow\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=32190032</a><p>This was written in about the past hour or so; it has no documentation or test cases yet. Think twice before relying on it in production.<p>The idea is that we can perform a detailed validation of the trustworthiness of an absolute or relative path, as a simple function that can be reused anywhere: I call this function safepath_check.<p>A trustworthy path is one whose meaning cannot be changed by a third party: another user who isn&#x27;t root.<p>The path is therefore immune, for instance, to TOCtoTOU security problems, like the insertion of a symbolic link or other tampering.<p>A trustworthy path is allowed to contain symbolic links. Symbolic links can be validated to be safe. To that end, safepath_check performs its own symlink resolution, to ensure that every link resolution step substitutes path material that is trustworthy.",
       "time": 1658560597,
       "title": "Show HN: Code in Response to “The Trouble with Symlinks.”",
@@ -70,38 +103,6 @@
       "title": "Controlling the temperature inside equipment racks (2010) [pdf]",
       "type": "story",
       "url": "https://www.markertek.com/attachments/manuals/ThermalManagement.pdf"
-    },
-    {
-      "by": "walterbell",
-      "descendants": 0,
-      "id": 32201058,
-      "score": 2,
-      "time": 1658559518,
-      "title": "Impact of Static Pressure Differential on Server Level Performance (2018)",
-      "type": "story",
-      "url": "https://par.nsf.gov/servlets/purl/10065917"
-    },
-    {
-      "by": "asimpletune",
-      "descendants": 0,
-      "id": 32201056,
-      "score": 1,
-      "time": 1658559513,
-      "title": "Extending SQLite with Rust to support Excel files as virtual tables",
-      "type": "story",
-      "url": "https://sergey.khabibullin.com/sqlite-extensions-in-rust/"
-    },
-    {
-      "by": "trashm3",
-      "descendants": 1,
-      "id": 32201025,
-      "kids": [
-        32201060
-      ],
-      "score": 1,
-      "time": 1658559113,
-      "title": "Do you work for companies you're legitmately proud of?",
-      "type": "story"
     }
   ]
 }
