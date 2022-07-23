@@ -1,6 +1,27 @@
 {
   "stories": [
     {
+      "by": "kazinator",
+      "descendants": 0,
+      "id": 32201150,
+      "score": 1,
+      "text": "This was written in about the past hour or so; it has no documentation or test cases yet. Think twice before relying on it in production.<p>The idea is that we can perform a detailed validation of the trustworthiness of an absolute or relative path, as a simple function that can be reused anywhere: I call this function safepath_check.<p>A trustworthy path is one whose meaning cannot be changed by a third party: another user who isn&#x27;t root.<p>The path is therefore immune, for instance, to TOCtoTOU security problems, like the insertion of a symbolic link or other tampering.<p>A trustworthy path is allowed to contain symbolic links. Symbolic links can be validated to be safe. To that end, safepath_check performs its own symlink resolution, to ensure that every link resolution step substitutes path material that is trustworthy.",
+      "time": 1658560597,
+      "title": "Show HN: Code in Response to “The Trouble with Symlinks.”",
+      "type": "story",
+      "url": "https://www.kylheku.com/cgit/safepath/about/"
+    },
+    {
+      "by": "TangerineDream",
+      "descendants": 0,
+      "id": 32201145,
+      "score": 1,
+      "time": 1658560500,
+      "title": "This week in KDE: Tons of UI improvements and bugfixes",
+      "type": "story",
+      "url": "https://pointieststick.com/2022/07/22/this-week-in-kde-tons-of-ui-improvements-and-bugfixes/"
+    },
+    {
       "by": "317070",
       "descendants": 0,
       "id": 32201137,
@@ -54,7 +75,7 @@
       "by": "walterbell",
       "descendants": 0,
       "id": 32201058,
-      "score": 1,
+      "score": 2,
       "time": 1658559518,
       "title": "Impact of Static Pressure Differential on Server Level Performance (2018)",
       "type": "story",
@@ -81,26 +102,6 @@
       "time": 1658559113,
       "title": "Do you work for companies you're legitmately proud of?",
       "type": "story"
-    },
-    {
-      "by": "BruceHN",
-      "descendants": 0,
-      "id": 32201018,
-      "score": 1,
-      "time": 1658559057,
-      "title": "Tool to Create a Blog from Notion",
-      "type": "story",
-      "url": "https://old.reddit.com/r/SideProject/comments/w5am2h/created_my_blog_with_notion_based_featherso/"
-    },
-    {
-      "by": "thunderbong",
-      "descendants": 0,
-      "id": 32200975,
-      "score": 1,
-      "time": 1658558519,
-      "title": "Wordpress.com Ends Recent Pricing Experiment, Reverts to Previous Model",
-      "type": "story",
-      "url": "https://wptavern.com/wordpress-com-ends-recent-pricing-experiment-reverts-to-previous-model"
     }
   ]
 }
