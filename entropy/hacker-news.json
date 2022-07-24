@@ -1,6 +1,26 @@
 {
   "stories": [
     {
+      "by": "hestefisk",
+      "descendants": 0,
+      "id": 32211852,
+      "score": 1,
+      "text": "Dear HN. Years ago I was part of a team that built an automated network monitoring tool for very large networks. The tool was built on FreeBSD, Perl, and Postgres and was fun to build.\nI have an urge to try and build an up to date version of this tool for the modern cloud. I was wondering what the state of network monitoring you use today for your startups and enterprises? What tools do you use? What problems do you face? What are absolute pain points &#x2F; problems which you would like for your monitoring solution to solve? \nThanks you for your help!",
+      "time": 1658656542,
+      "title": "Ask HN: What are your unmet network monitoring needs?",
+      "type": "story"
+    },
+    {
+      "by": "freemint",
+      "descendants": 0,
+      "id": 32211851,
+      "score": 1,
+      "time": 1658656537,
+      "title": "Body integrity identity disorder (BIID): How satisfied are successful wannabes [pdf]",
+      "type": "story",
+      "url": "https://opus.bsz-bw.de/msh/frontdoor/deliver/index/docId/37/file/BIID_successful_Wannabes.pdf"
+    },
+    {
       "by": "Tomte",
       "descendants": 0,
       "id": 32211830,
@@ -44,7 +64,7 @@
       "by": "markomunich",
       "descendants": 0,
       "id": 32211822,
-      "score": 1,
+      "score": 2,
       "time": 1658656118,
       "title": "Memphis Message broker written in Golang",
       "type": "story",
@@ -62,8 +82,11 @@
     },
     {
       "by": "akolbe",
-      "descendants": 0,
+      "descendants": 1,
       "id": 32211816,
+      "kids": [
+        32211850
+      ],
       "score": 1,
       "time": 1658656066,
       "title": "Zhemao hoaxes",
@@ -79,26 +102,6 @@
       "title": "How Can We Make Robotics More Like Generative Modeling?",
       "type": "story",
       "url": "https://evjang.com/2022/07/23/robotics-generative.html"
-    },
-    {
-      "by": "hestefisk",
-      "descendants": 0,
-      "id": 32211789,
-      "score": 1,
-      "time": 1658655711,
-      "title": "Prima: Cross-platform GUI toolkit written in Perl",
-      "type": "story",
-      "url": "https://github.com/dk/Prima"
-    },
-    {
-      "by": "gwnywg",
-      "descendants": 0,
-      "id": 32211787,
-      "score": 1,
-      "text": "Hi,<p>I work a lot on images processing and extracting insights from it. There seems to be demand for this kind of service.\nMy university background is closer to time series data, i.e. digital signals processing and modelling, I was wondering if same methods can be applied here. In industrial processes it makes sense to try to model various parts of the process to be able to predict possible fault. This is cool and complicated, and also there are no industrial plants in my environment to go and explore real life data to work with.<p>The other application of modelling based on time series is within financial markets speculation (forex, stock exchange etc.), though I am not partucularly interested in this area, it appears to me a bit like gambling and as such not something I would like to be involved in.<p>So I wonder what other use cases for time series modelling are. I have two ideas to build something that may turn out to be useful.<p>1. I was reading it is possible to find correlations between time series streams, and this could maybe lead to a model that suggests to turn some equipment off because it is not required (based on availability of electrical consumption data)<p>2. Processing of audio streams and building generative model to create some interesting sound effects (not necessarily music); or the other way around, to detect some events based on sound (i.e. car accident)<p>Do you know interesting projects that apply machine learning methods to process time series data to do something useful with it? Or maybe you wish a project existed for some particular problem you feel is worth solving?",
-      "time": 1658655671,
-      "title": "Ask HN: Is there any real value in applying ML to process time series data?",
-      "type": "story"
     }
   ]
 }
